@@ -10,7 +10,10 @@
 
 !/config
 !/kubejs
+!/kubejs/*
 !/mods
 !/packmenu
+!/packmenu/*
 !/resourcepacks
+!/resourcepacks/*
 !/shaderpacks
