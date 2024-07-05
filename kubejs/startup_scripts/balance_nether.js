@@ -20,6 +20,43 @@ ItemEvents.armorTierRegistry(event => {
     global.createArmorTier(event, "coxium", 180, [10,15,20,10], 50, 8, 0.3, "#zoomers:coxium");
 });
 
+StartupEvents.registry("item", event => {
+    event.create("milenium_ingot")
+        .displayName("Milenium Ingot")
+        .texture("kubejs:item/milenium_ingot");
+    event.create("coxium_ingot")
+        .displayName("Coxium Ingot")
+        .texture("kubejs:item/coxium_ingot");
+
+    event.create("raw_milenium")
+        .displayName("Raw Milenium")
+        .texture("kubejs:item/raw_milenium");
+    event.create("raw_coxium")
+        .displayName("Raw Coxium")
+        .texture("kubejs:item/raw_coxium");
+});
+
+StartupEvents.registry("block", e => {
+    e.create("milenium_ore")
+        .displayName("Milenium Ore")
+        .hardness(3)
+        .resistance(3)
+        .material("stone")
+        .textureAll("kubejs:block/milenium_ore");
+
+    e.create("coxium_ore")
+        .displayName("Coxium Ore")
+        .hardness(3)
+        .resistance(3)
+        .material("stone")
+        .textureAll("kubejs:block/coxium_ore");
+});
+
+// ItemEvents.armorTierRegistry(event => {
+//     global.createArmorTier(event, "milenium", 150, [7,10,15,8], 40, 6, 0.2, "#zoomers:milenium");
+//     global.createArmorTier(event, "coxium", 180, [10,15,20,10], 50, 8, 0.3, "#zoomers:coxium");
+// });
+
 ItemEvents.modification( (event) => {
 
 
