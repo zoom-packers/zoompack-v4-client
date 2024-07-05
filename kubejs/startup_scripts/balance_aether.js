@@ -33,6 +33,18 @@ ItemEvents.modification( (event) => {
     event.modify("aether:valkyrie_lance", item => {
         item.attackDamage = 15;
     });
+    event.modify("aether:vampire_blade", item => {
+        item.attackDamage = 15;
+    });
+    event.modify("aether:pig_slayer", item => {
+        item.attackDamage = 5;
+    });
+    event.modify("aether:hammer_of_kingbdogz", item => {
+        item.attackDamage = 15;
+    });
+    // event.modify("aether:phoenix_bow", item => {
+    //     item.attackDamage = 15;
+    // });
 
     // Axes
     // Axes are 1.5x stronger than swords
