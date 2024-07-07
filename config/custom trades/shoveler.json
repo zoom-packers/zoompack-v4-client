@@ -136,24 +136,6 @@
     },
     {
       "offer": {
-        "itemKey": "blue_skies:falsite_ingot",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:stick",
-        "amount": 32,
-        "priceModifier": 0
-      },
-      "tradeExp": 10,
-      "maxUses": 5,
-      "priceMultiplier": 0.2,
-      "demand": 0,
-      "tradeLevel": 3,
-      "UTID": "blue_skies:shoveler_falsite_ingot_for_stick"
-    },
-    {
-      "offer": {
         "itemKey": "blue_skies:diopside_shovel",
         "amount": 1,
         "priceModifier": 0,
