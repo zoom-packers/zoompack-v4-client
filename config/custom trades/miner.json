@@ -1,0 +1,200 @@
+{
+  "profession": "morevillagers:miner",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:deepslate",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "morevillagers:miner_emerald_for_deepslate"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:calcite",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "morevillagers:miner_calcite_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:raw_copper",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "morevillagers:miner_emerald_for_raw_copper"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:raw_iron",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "morevillagers:miner_emerald_for_raw_iron"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:raw_gold",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "morevillagers:miner_emerald_for_raw_gold"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:amethyst_shard",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "morevillagers:miner_amethyst_shard_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:torch",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "morevillagers:miner_emerald_for_torch"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:filled_map",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Decorations:[{id:\"+\",rot:180.0d,type:22b,x:-48.0d,z:48.0d}],display:{Name:\u0027{\"translate\":\"filled_map.mineshaft\"}\u0027},map:7}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 13,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "morevillagers:miner_filled_map_for_emerald_and_compass"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_pickaxe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:efficiency\",lvl:2s}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 23,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 1,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "morevillagers:miner_diamond_pickaxe_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:filled_map",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Decorations:[{id:\"+\",rot:180.0d,type:3b,x:-2240.0d,z:1728.0d}],display:{Name:\u0027{\"translate\":\"filled_map.ancient_city\"}\u0027},map:8}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "morevillagers:miner_filled_map_for_emerald_and_compass"
+    }
+  ]
+}

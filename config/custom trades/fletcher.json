@@ -1,0 +1,238 @@
+{
+  "profession": "minecraft:fletcher",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:stick",
+        "amount": 32,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fletcher_emerald_for_stick"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:arrow",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fletcher_arrow_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:flint",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:gravel",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fletcher_flint_for_emerald_and_gravel"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:flint",
+        "amount": 26,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fletcher_emerald_for_flint"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:bow",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fletcher_bow_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:string",
+        "amount": 14,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fletcher_emerald_for_string"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:crossbow",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fletcher_crossbow_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:feather",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fletcher_emerald_for_feather"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:bow",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:power\",lvl:2s},{id:\"minecraft:punch\",lvl:1s}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 14,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fletcher_bow_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:tripwire_hook",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fletcher_emerald_for_tripwire_hook"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:crossbow",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:quick_charge\",lvl:1s},{id:\"minecraft:piercing\",lvl:2s}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 17,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fletcher_crossbow_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:tipped_arrow",
+        "amount": 5,
+        "priceModifier": 0,
+        "advancedNBTData": "{Potion:\"apotheosis:strong_sundering\"}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:arrow",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fletcher_tipped_arrow_for_emerald_and_arrow"
+    }
+  ]
+}

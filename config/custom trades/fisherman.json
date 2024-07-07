@@ -1,0 +1,595 @@
+{
+  "profession": "minecraft:fisherman",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:string",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman_emerald_for_string"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:coal",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman_emerald_for_coal"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:cooked_cod",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:cod",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman_cooked_cod_for_emerald_and_cod"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:cod_bucket",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman_cod_bucket_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:raw_squid_meat",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman_emerald_for_raw_squid_meat"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:raw_squid_meat",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:kelp",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman_emerald_for_raw_squid_meat_and_kelp"
+    },
+    {
+      "offer": {
+        "itemKey": "everythingisedibleeie:cooked_squid_meat",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "everythingisedibleeie:raw_squid_meat",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman_cooked_squid_meat_for_emerald_and_raw_squid_meat"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:cod",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman_emerald_for_cod"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:cooked_salmon",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:salmon",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman_cooked_salmon_for_emerald_and_salmon"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:campfire",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman_campfire_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "alexsmobs:ambergris",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 4,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman_emerald_for_ambergris"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:raw_bee",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman_emerald_for_raw_bee"
+    },
+    {
+      "offer": {
+        "itemKey": "everythingisedibleeie:sushi",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "everythingisedibleeie:raw_squid_meat",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 32,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman_sushi_for_emerald_and_raw_squid_meat"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:salmon",
+        "amount": 13,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman_emerald_for_salmon"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:fishing_rod",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"tombstone:soulbound\",lvl:1s}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 1,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman_fishing_rod_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:raw_silverfish",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 30,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman_emerald_for_raw_silverfish"
+    },
+    {
+      "offer": {
+        "itemKey": "everythingisedibleeie:sashimi",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "everythingisedibleeie:raw_squid_meat",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 32,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman_sashimi_for_emerald_and_raw_squid_meat"
+    },
+    {
+      "offer": {
+        "itemKey": "everythingisedibleeie:glow_sushi",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "everythingisedibleeie:raw_glow_squid_meat",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 32,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman_glow_sushi_for_emerald_and_raw_glow_squid_meat"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:tropical_fish",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman_emerald_for_tropical_fish"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:raw_guardian_meat",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman_emerald_for_raw_guardian_meat"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:raw_silverfish",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "everythingisedibleeie:raw_bee",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman_emerald_for_raw_silverfish_and_raw_bee"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:raw_squid_meat",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "everythingisedibleeie:raw_silverfish",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman_emerald_for_raw_squid_meat_and_raw_silverfish"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:raw_guardian_meat",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "everythingisedibleeie:raw_squid_meat",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman_emerald_for_raw_guardian_meat_and_raw_squid_meat"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:raw_glow_squid_meat",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman_emerald_for_raw_glow_squid_meat"
+    },
+    {
+      "offer": {
+        "itemKey": "everythingisedibleeie:glowing_sashimi",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "everythingisedibleeie:raw_glow_squid_meat",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman_glowing_sashimi_for_emerald_and_raw_glow_squid_meat"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:pufferfish",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fisherman_emerald_for_pufferfish"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:raw_endermite_meat",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fisherman_emerald_for_raw_endermite_meat"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:raw_endermite_meat",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "everythingisedibleeie:raw_bee",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fisherman_emerald_for_raw_endermite_meat_and_raw_bee"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:heart_of_the_sea",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "everythingisedibleeie:raw_guardian_meat",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fisherman_emerald_for_heart_of_the_sea_and_raw_guardian_meat"
+    }
+  ]
+}

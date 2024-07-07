@@ -1,0 +1,295 @@
+{
+  "profession": "everythingisedibleeie:meat_connoisseur",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:creeper_sasuage",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "everythingisedibleeie:meat_connoisseur_emerald_for_creeper_sasuage"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:horse_sasuage",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "everythingisedibleeie:meat_connoisseur_emerald_for_horse_sasuage"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:sushi",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 40,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "everythingisedibleeie:meat_connoisseur_emerald_for_sushi"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:sashimi",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "everythingisedibleeie:meat_connoisseur_emerald_for_sashimi"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:minced_turtle_with_seagrass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 4,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "everythingisedibleeie:meat_connoisseur_emerald_for_minced_turtle_with_seagrass"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:dried_dolphin_with_dried_kelp",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 4,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "everythingisedibleeie:meat_connoisseur_emerald_for_dried_dolphin_with_dried_kelp"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:glow_sushi",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 40,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "everythingisedibleeie:meat_connoisseur_emerald_for_glow_sushi"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:phantom_sushi",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 40,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "everythingisedibleeie:meat_connoisseur_emerald_for_phantom_sushi"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:strider_jelly",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 40,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "everythingisedibleeie:meat_connoisseur_emerald_for_strider_jelly"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:axolotl_with_honey_and_chocolate",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 5,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "everythingisedibleeie:meat_connoisseur_emerald_for_axolotl_with_honey_and_chocolate"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:ender_chowder",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 5,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "everythingisedibleeie:meat_connoisseur_emerald_for_ender_chowder"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:ephemeral_soup",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 5,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "everythingisedibleeie:meat_connoisseur_emerald_for_ephemeral_soup"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:cooked_enderman_meat",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "everythingisedibleeie:meat_connoisseur_emerald_for_cooked_enderman_meat"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:cooked_human_meat",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 20,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "everythingisedibleeie:meat_connoisseur_emerald_for_cooked_human_meat"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 40,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:nautilus_with_caviar",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 3,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "everythingisedibleeie:meat_connoisseur_emerald_for_nautilus_with_caviar"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 40,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "everythingisedibleeie:dragon_sandwich",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 10,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "everythingisedibleeie:meat_connoisseur_emerald_for_dragon_sandwich"
+    }
+  ]
+}

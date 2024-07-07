@@ -1,0 +1,173 @@
+{
+  "profession": "minecraft:weaponsmith",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:coal",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:weaponsmith_emerald_for_coal"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_axe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:weaponsmith_iron_axe_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_sword",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 13,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:weaponsmith_iron_sword_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:weaponsmith_emerald_for_iron_ingot"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:bell",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 36,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:weaponsmith_bell_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:flint",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:weaponsmith_emerald_for_flint"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:diamond",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:weaponsmith_emerald_for_diamond"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_axe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"tombstone:soulbound\",lvl:1s}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 1,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:weaponsmith_diamond_axe_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_sword",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 19,
+        "priceModifier": 0
+      },
+      "tradeExp": 30,
+      "maxUses": 1,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:weaponsmith_diamond_sword_for_emerald"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "profession": "blue_skies:shoveler",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "blue_skies:pyrope_shovel",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Falsite:40,Stick:\"minecraft:stick\"}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "blue_skies:pyrope_gem",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 7,
+      "maxUses": 5,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "blue_skies:shoveler_pyrope_shovel_for_emerald_and_pyrope_gem"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:falsite_ingot",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "blue_skies:shoveler_emerald_for_falsite_ingot"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:snow_block",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:falsite_ingot",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "blue_skies:shoveler_snow_block_for_falsite_ingot"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:aquite_shovel",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Falsite:54,Stick:\"minecraft:stick\"}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "blue_skies:aquite",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 5,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "blue_skies:shoveler_aquite_shovel_for_emerald_and_aquite"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "blue_skies:falsite_ingot",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "blue_skies:aquite",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "blue_skies:shoveler_emerald_for_falsite_ingot_and_aquite"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:horizonite_shovel",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:efficiency\",lvl:1s}],Falsite:50,Stick:\"minecraft:stick\"}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "blue_skies:horizonite_ingot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 1,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "blue_skies:shoveler_horizonite_shovel_for_emerald_and_horizonite_ingot"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:falsite_ingot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:stick",
+        "amount": 32,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 5,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "blue_skies:shoveler_falsite_ingot_for_stick"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:diopside_shovel",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],Falsite:332,Stick:\"minecraft:stick\"}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "blue_skies:diopside_gem",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 1,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "blue_skies:shoveler_diopside_shovel_for_emerald_and_diopside_gem"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:charoite_shovel",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:efficiency\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:2s},{id:\"minecraft:silk_touch\",lvl:1s}],Falsite:312,Stick:\"minecraft:stick\"}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "blue_skies:charoite",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 25,
+      "maxUses": 1,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "blue_skies:shoveler_charoite_shovel_for_emerald_and_charoite"
+    }
+  ]
+}

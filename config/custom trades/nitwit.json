@@ -1,0 +1,6 @@
+{
+  "profession": "minecraft:nitwit",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": []
+}

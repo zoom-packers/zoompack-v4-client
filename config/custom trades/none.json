@@ -1,0 +1,6 @@
+{
+  "profession": "minecraft:none",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": []
+}
