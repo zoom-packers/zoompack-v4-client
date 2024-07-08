@@ -11,6 +11,8 @@
 
 !/config
 !/config/*
+!/config/paxi/*
+!/config/paxi/datapacks/*
 !/kubejs
 !/kubejs/*
 !/kubejs/assets
