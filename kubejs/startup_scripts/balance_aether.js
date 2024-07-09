@@ -8,7 +8,6 @@ ItemEvents.modification( (event) => {
     //     item.attackDamage = 15;
     // });
 
-
     event.modify("aether:skyroot_sword", item => {
         item.attackDamage = 8;
     });
@@ -39,48 +38,48 @@ ItemEvents.modification( (event) => {
 
     //Zanite Tools
     event.modify("aether:zanite_sword", item => {
-        item.attackDamage = 10;
+        item.attackDamage = 9;
         item.maxDamage = 2211;
     });
     event.modify("aether:zanite_axe", item => {
-        item.attackSpeed = 1;
+        item.attackSpeed = -3;
         item.maxDamage = 2211;
     });
     event.modify("aether:zanite_pickaxe", item => {
-        item.attackDamage = 5;
+        // item.attackDamage = 4;
         item.maxDamage = 2211;
     });
     event.modify("aether:zanite_shovel", item => {
-        item.attackDamage = 5.5;
+        // item.attackDamage = 5.5;
         item.maxDamage = 2211;
     });
     event.modify("aether:zanite_hoe", item => {
-        item.attackDamage = 4;
+        // item.attackDamage = 4;
         item.maxDamage = 2211;
     });
 
-    //Gravinite Tools
-    event.modify("aether:gravinite_sword", item => {
-        item.attackDamage = 12;
+    //Gravitite Tools
+    event.modify("aether:gravitite_sword", item => {
+        item.attackDamage = 11;
         item.maxDamage = 2431;
     });
-    event.modify("aether:gravinite_axe", item => {
+    event.modify("aether:gravitite_axe", item => {
         item.maxDamage = 2431;
     });
-    event.modify("aether:gravinite_pickaxe", item => {
+    event.modify("aether:gravitite_pickaxe", item => {
         item.maxDamage = 2431;
     });
-    event.modify("aether:gravinite_shovel", item => {
+    event.modify("aether:gravitite_shovel", item => {
         item.maxDamage = 2431;
     });
-    event.modify("aether:gravinite_hoe", item => {
+    event.modify("aether:gravitite_hoe", item => {
         item.maxDamage = 2431;
     });
 
 
     //Valkyrie Tools
     event.modify("aether:valkyrie_lance", item => {
-        item.attackDamage = 14;
+        item.attackDamage = 13;
         item.maxDamage = 2589;
     });
     event.modify("aether:valkyrie_axe", item => {
