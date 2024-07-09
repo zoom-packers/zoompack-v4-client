@@ -63,7 +63,7 @@
       "weapon_attributes": "bettercombat:rapier"
     },
     {
-      "item_id_regex": "sickle",
+      "item_id_regex": "sickle|chakra",
       "weapon_attributes": "bettercombat:sickle"
     },
     {
