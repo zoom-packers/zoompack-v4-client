@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": true,
+	"spent_points_limit": 23,
+	"title": { "text" : "\u00A7dJumping\n\u00A7fJump higher improve your stamina\n \nExperience source: Jump around just like a bunny does" },
+	"icon": {
+		"type": "effect",
+		"data": {
+			"effect": "jump_boost"
+		}
+	},
+	"background": "minecraft:textures/block/light_blue_concrete.png"
+}

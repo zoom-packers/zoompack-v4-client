@@ -1,0 +1,312 @@
+{
+	"tier_1_reward": {
+		"title":  { "text" : "\u00A72Hero Of The Village\n\u00A7fYou can claim 100 more chunks\n+2.5% XP DROP\n+10% Collection Range" },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "hero_of_the_village"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "ftbchunks admin extra_claim_chunks @s add 100"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:dropped_experience",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"tier_2_reward": {
+		"title":  { "text" : "\u00A72Guardian of the Realm\n\u00A7fYou can claim 200 more chunks\n+2.5% XP DROP\n+10% Collection Range" },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "hero_of_the_village"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "ftbchunks admin extra_claim_chunks @s add 200"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:dropped_experience",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"tier_3_reward": {
+		"title":  { "text" : "\u00A72Champion of the Wilderness\n\u00A7fYou can claim 300 more chunks\n+2.5% XP DROP\n+10% Collection Range" },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "hero_of_the_village"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "ftbchunks admin extra_claim_chunks @s add 300"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:dropped_experience",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"tier_4_reward": {
+		"title":  { "text" : "\u00A72Slayer of Pillagers\n\u00A7fYou can claim 400 more chunks\n+2.5% XP DROP\n+10% Collection Range" },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "hero_of_the_village"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "ftbchunks admin extra_claim_chunks @s add 400"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:dropped_experience",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"tier_5_reward": {
+		"title":  { "text" : "\u00A72Conqueror of Outposts\n\u00A7fYou can claim 500 more chunks\n+2.5% XP DROP\n+10% Collection Range" },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "hero_of_the_village"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "ftbchunks admin extra_claim_chunks @s add 500"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:dropped_experience",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"tier_6_reward": {
+		"title":  { "text" : "\u00A72Raveger Disenchanter\n\u00A7fYou can claim 600 more chunks\n+2.5% XP DROP\n+10% Collection Range" },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "hero_of_the_village"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "ftbchunks admin extra_claim_chunks @s add 600"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:dropped_experience",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"tier_7_reward": {
+		"title":  { "text" : "\u00A72Owner of the Colony\n\u00A7fYou can claim 700 more chunks\n+2.5% XP DROP\n+10% Collection Range" },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "hero_of_the_village"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "ftbchunks admin extra_claim_chunks @s add 700"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:dropped_experience",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"tier_8_reward": {
+		"title":  { "text" : "\u00A72Guardian of Nature\n\u00A7fYou can claim 800 more chunks\n+2.5% XP DROP\n+10% Collection Range" },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "hero_of_the_village"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "ftbchunks admin extra_claim_chunks @s add 500"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:dropped_experience",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"tier_9_reward": {
+		"title":  { "text" : "\u00A72City Hero\n\u00A7fYou can claim 900 more chunks\n+2.5% XP DROP\n+10% Collection Range" },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "hero_of_the_village"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "ftbchunks admin extra_claim_chunks @s add 900"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:dropped_experience",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"tier_10_reward": {
+		"title":  { "text" : "\u00A72Savior of the World\n\u00A7fYou can claim 1000 more chunks\n+2.5% XP DROP\n+10% Collection Range" },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "hero_of_the_village"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "ftbchunks admin extra_claim_chunks @s add 1000"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:dropped_experience",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	}
+}

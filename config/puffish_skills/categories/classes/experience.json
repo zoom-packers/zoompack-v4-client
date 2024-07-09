@@ -1,0 +1,137 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "(level ^ 1.432)*10 + 300"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:kill_entity",
+			"data": {
+				"parameters": {
+					"dropped_xp": {
+						"type": "entity_dropped_experience"
+					},
+					"max_health": {
+						"type": "entity_max_health"
+					}
+				},
+				"experience": [
+					{
+						"expression": "dropped_xp + max_health / 10"
+					}
+				],
+				"anti_farming": {
+					"limit_per_chunk": 150,
+					"reset_after_seconds": 300
+				}
+			}
+		},
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"conditions": {
+					"is_player_kill": {
+						"type": "stat",
+						"data": {
+							"stat": "minecraft.custom:minecraft.player_kills"
+						}
+					}
+				},
+				"parameters": {
+					"amount": {
+						"type": "amount"
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_player_kill",
+						"expression": "10"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"conditions": {
+					"is_target_hit": {
+						"type": "stat",
+						"data": {
+							"stat": "minecraft.custom:minecraft.target_hit"
+						}
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_target_hit",
+						"expression": "1"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"conditions": {
+					"is_mob_kill": {
+						"type": "stat",
+						"data": {
+							"stat": "minecraft.custom:minecraft.mob_kills"
+						}
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_mob_kill",
+						"expression": "1"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"conditions": {
+					"is_trade": {
+						"type": "stat",
+						"data": {
+							"stat": "minecraft.custom:minecraft.traded_with_villager"
+						}
+					}
+				},
+				"parameters": {
+					"amount": {
+						"type": "amount"
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_trade",
+						"expression": "amount"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"conditions": {
+					"is_raid_win": {
+						"type": "stat",
+						"data": {
+							"stat": "minecraft.custom:minecraft.raid_win"
+						}
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_raid_win",
+						"expression": "300"
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"-17_0": {
+		"definition": "tier_1_reward",
+		"x": 0,
+		"y": 224,
+		"root": true
+	},
+	"9u4xkxsqtto4fm9e": {
+		"definition": "tier_2_reward",
+		"x": -32,
+		"y": 160,
+		"root": false
+	},
+	"vmuj0zi8a5rd7n0v": {
+		"definition": "tier_3_reward",
+		"x": 64,
+		"y": 128,
+		"root": false
+	},
+	"lyi9wnqir7eqyemr": {
+		"definition": "tier_4_reward",
+		"x": -96,
+		"y": 96,
+		"root": false
+	},
+	"4yqo06cmwykjxhiz": {
+		"definition": "tier_5_reward",
+		"x": 96,
+		"y": 64,
+		"root": false
+	},
+	"6ipr9ahoqxjvaep6": {
+		"definition": "tier_6_reward",
+		"x": -128,
+		"y": 32,
+		"root": false
+	},
+	"dr0pqm838ctz6b9o": {
+		"definition": "tier_7_reward",
+		"x": 128,
+		"y": 0,
+		"root": false
+	},
+	"kev5q08ypakv8vy7": {
+		"definition": "tier_8_reward",
+		"x": -160,
+		"y": -32,
+		"root": false
+	},
+	"wjslffliglqnu6rb": {
+		"definition": "tier_9_reward",
+		"x": 160,
+		"y": -64,
+		"root": false
+	},
+	"rs7pep7dv1wpra9s": {
+		"definition": "tier_10_reward",
+		"x": 0,
+		"y": -96,
+		"root": false
+	}
+}
