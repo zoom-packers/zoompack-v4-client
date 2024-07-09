@@ -1,0 +1,614 @@
+{
+	"iki2hi5ad44sq2hr": {
+		"definition": "root+1",
+		"x": 0,
+		"y": 256,
+		"root": false
+	},
+	"cak5oznyzqe1hoja": {
+		"definition": "luck+0.01",
+		"x": -96,
+		"y": 192,
+		"root": false
+	},
+	"kgcme9ug9ai3882s": {
+		"definition": "luck+0.01",
+		"x": -32,
+		"y": 192,
+		"root": false
+	},
+	"d9c7e06hjgln0g4a": {
+		"definition": "luck+0.01",
+		"x": 32,
+		"y": 192,
+		"root": false
+	},
+	"gxvfda64v61hrevj": {
+		"definition": "luck+0.01",
+		"x": 96,
+		"y": 192,
+		"root": false
+	},
+	"7klweku81134odi1": {
+		"definition": "luck+0.01",
+		"x": -128,
+		"y": 128,
+		"root": false
+	},
+	"23iueiicyv56a033": {
+		"definition": "luck+0.01",
+		"x": -64,
+		"y": 128,
+		"root": false
+	},
+	"kj7daq3qbdt9e5sj": {
+		"definition": "luck+0.01",
+		"x": 0,
+		"y": 128,
+		"root": false
+	},
+	"bpxvyxzi85wcuh5r": {
+		"definition": "luck+0.01",
+		"x": 64,
+		"y": 128,
+		"root": false
+	},
+	"4sb8zbnlrtg00ml7": {
+		"definition": "luck+0.01",
+		"x": 128,
+		"y": 128,
+		"root": false
+	},
+	"a1h312uzs3uy5hvh": {
+		"definition": "luck+0.01",
+		"x": -160,
+		"y": 64,
+		"root": false
+	},
+	"50m0gcg7k8x6l41h": {
+		"definition": "luck+0.01",
+		"x": -96,
+		"y": 64,
+		"root": false
+	},
+	"chvvlbvxhw81ifyx": {
+		"definition": "luck+0.01",
+		"x": -32,
+		"y": 64,
+		"root": false
+	},
+	"d95pybng4vhgc00g": {
+		"definition": "luck+0.01",
+		"x": 32,
+		"y": 64,
+		"root": false
+	},
+	"lezikopxcvi3y1n7": {
+		"definition": "luck+0.01",
+		"x": 96,
+		"y": 64,
+		"root": false
+	},
+	"z2wp845ezayq36gd": {
+		"definition": "luck+0.01",
+		"x": 160,
+		"y": 64,
+		"root": false
+	},
+	"25voun315h1z3l6w": {
+		"definition": "luck+0.01",
+		"x": -192,
+		"y": 0,
+		"root": false
+	},
+	"0clebo3b9g9f2gr3": {
+		"definition": "luck+0.01",
+		"x": -128,
+		"y": 0,
+		"root": false
+	},
+	"z58n5d8uiibhgh2f": {
+		"definition": "luck+0.01",
+		"x": -64,
+		"y": 0,
+		"root": false
+	},
+	"eav9rmwlidn6j5fb": {
+		"definition": "luck+0.01",
+		"x": 0,
+		"y": 0,
+		"root": false
+	},
+	"i9rqdomu8r2dllei": {
+		"definition": "luck+0.01",
+		"x": 64,
+		"y": 0,
+		"root": false
+	},
+	"y08rf9k23o3w5hia": {
+		"definition": "luck+0.01",
+		"x": 128,
+		"y": 0,
+		"root": false
+	},
+	"g2vc13jk34eoqqgc": {
+		"definition": "luck+0.01",
+		"x": 192,
+		"y": 0,
+		"root": false
+	},
+	"qep57clhlekpdj0a": {
+		"definition": "luck+0.01",
+		"x": -224,
+		"y": -64,
+		"root": false
+	},
+	"37csd646dyo4cj70": {
+		"definition": "luck+0.01",
+		"x": -160,
+		"y": -64,
+		"root": false
+	},
+	"sda7hmlcbior7p6w": {
+		"definition": "luck+0.01",
+		"x": -96,
+		"y": -64,
+		"root": false
+	},
+	"kbnpujtaqlm5b5tu": {
+		"definition": "luck+0.01",
+		"x": -32,
+		"y": -64,
+		"root": false
+	},
+	"r3skjdjg3pc5j3ze": {
+		"definition": "luck+0.01",
+		"x": 32,
+		"y": -64,
+		"root": false
+	},
+	"ocehbrj2c2hcgstk": {
+		"definition": "luck+0.01",
+		"x": 96,
+		"y": -64,
+		"root": false
+	},
+	"uppe0scozykdo2ba": {
+		"definition": "luck+0.01",
+		"x": 160,
+		"y": -64,
+		"root": false
+	},
+	"q7kwe05g8o2gf32w": {
+		"definition": "luck+0.01",
+		"x": 224,
+		"y": -64,
+		"root": false
+	},
+	"2m92f51w8wutn97r": {
+		"definition": "luck+0.01",
+		"x": -256,
+		"y": -128,
+		"root": false
+	},
+	"1gvwmmti6drkso1o": {
+		"definition": "luck+0.01",
+		"x": -192,
+		"y": -128,
+		"root": false
+	},
+	"dd85gxjxbmayt0h6": {
+		"definition": "luck+0.01",
+		"x": -128,
+		"y": -128,
+		"root": false
+	},
+	"ip2dyyjbo7k9p5pu": {
+		"definition": "luck+0.01",
+		"x": -64,
+		"y": -128,
+		"root": false
+	},
+	"m2j3zryh77gaurh7": {
+		"definition": "luck+0.01",
+		"x": 0,
+		"y": -128,
+		"root": false
+	},
+	"d6rd7kcvx1awfvrq": {
+		"definition": "luck+0.01",
+		"x": 64,
+		"y": -128,
+		"root": false
+	},
+	"3ova3fyaugqa0unx": {
+		"definition": "luck+0.01",
+		"x": 128,
+		"y": -128,
+		"root": false
+	},
+	"dlm70eyjedrjrbv3": {
+		"definition": "luck+0.01",
+		"x": 192,
+		"y": -128,
+		"root": false
+	},
+	"plm5s99l7b2bexcp": {
+		"definition": "luck+0.01",
+		"x": 256,
+		"y": -128,
+		"root": false
+	},
+	"6o5jaiulm9pohwd0": {
+		"definition": "luck+0.05",
+		"x": -288,
+		"y": -192,
+		"root": false
+	},
+	"oio24h8lyac5wy1q": {
+		"definition": "luck+0.05",
+		"x": -224,
+		"y": -192,
+		"root": false
+	},
+	"1tsw1ijlqurvty76": {
+		"definition": "luck+0.05",
+		"x": -160,
+		"y": -192,
+		"root": false
+	},
+	"hha0wuzpsnqmdop2": {
+		"definition": "luck+0.05",
+		"x": -96,
+		"y": -192,
+		"root": false
+	},
+	"4ztvpzjm777is6i0": {
+		"definition": "luck+0.05",
+		"x": -32,
+		"y": -192,
+		"root": false
+	},
+	"kjyxobelu6p2ch67": {
+		"definition": "luck+0.05",
+		"x": 32,
+		"y": -192,
+		"root": false
+	},
+	"u8dyw5obra51h75f": {
+		"definition": "luck+0.05",
+		"x": 96,
+		"y": -192,
+		"root": false
+	},
+	"kwtten7b879evd2z": {
+		"definition": "luck+0.05",
+		"x": 160,
+		"y": -192,
+		"root": false
+	},
+	"c0dmrcdjb38ra7vn": {
+		"definition": "luck+0.05",
+		"x": 224,
+		"y": -192,
+		"root": false
+	},
+	"7p946rikv7j71p82": {
+		"definition": "luck+0.05",
+		"x": 288,
+		"y": -192,
+		"root": false
+	},
+	"zksvj5d7vgel76x3": {
+		"definition": "luck+0.05",
+		"x": 320,
+		"y": -256,
+		"root": false
+	},
+	"trgwhmyvfmjn52h5": {
+		"definition": "luck+0.05",
+		"x": 256,
+		"y": -256,
+		"root": false
+	},
+	"qwtj6bp69wlil29g": {
+		"definition": "luck+0.05",
+		"x": 192,
+		"y": -256,
+		"root": false
+	},
+	"jufjaeerf9z67gy8": {
+		"definition": "luck+0.05",
+		"x": 128,
+		"y": -256,
+		"root": false
+	},
+	"p9bkt5byrbh9s9zs": {
+		"definition": "luck+0.05",
+		"x": 64,
+		"y": -256,
+		"root": false
+	},
+	"px1v2bhxkgkl0q46": {
+		"definition": "luck+0.05",
+		"x": 0,
+		"y": -256,
+		"root": false
+	},
+	"yujczhgk6oveg32t": {
+		"definition": "luck+0.05",
+		"x": -64,
+		"y": -256,
+		"root": false
+	},
+	"tk47fmr1ium1psco": {
+		"definition": "luck+0.05",
+		"x": -128,
+		"y": -256,
+		"root": false
+	},
+	"lszp6cjt9erf1sdc": {
+		"definition": "luck+0.05",
+		"x": -192,
+		"y": -256,
+		"root": false
+	},
+	"clftb31o7l0blmd5": {
+		"definition": "luck+0.05",
+		"x": -256,
+		"y": -256,
+		"root": false
+	},
+	"133ervh1p9qkv81l": {
+		"definition": "luck+0.05",
+		"x": -320,
+		"y": -256,
+		"root": false
+	},
+	"uka2jegz28g8t56o": {
+		"definition": "luck+0.05",
+		"x": 224,
+		"y": -320,
+		"root": false
+	},
+	"4qqx8lksueluimyk": {
+		"definition": "luck+0.05",
+		"x": -224,
+		"y": -320,
+		"root": false
+	},
+	"bckg2qw1gw3g99uc": {
+		"definition": "luck+0.05",
+		"x": -160,
+		"y": -320,
+		"root": false
+	},
+	"gw41puf7vb8al1hr": {
+		"definition": "luck+0.05",
+		"x": -96,
+		"y": -320,
+		"root": false
+	},
+	"40ted46w7wr2qukj": {
+		"definition": "luck+0.05",
+		"x": -32,
+		"y": -320,
+		"root": false
+	},
+	"f6rvn930cdgvhrs1": {
+		"definition": "luck+0.05",
+		"x": 32,
+		"y": -320,
+		"root": false
+	},
+	"3hhmvtg2mcpp3ry9": {
+		"definition": "luck+0.05",
+		"x": 96,
+		"y": -320,
+		"root": false
+	},
+	"qqwewq8xxexxgyi7": {
+		"definition": "luck+0.05",
+		"x": 160,
+		"y": -320,
+		"root": false
+	},
+	"7evz1hajpyv1uwgs": {
+		"definition": "luck+0.1",
+		"x": -192,
+		"y": -384,
+		"root": false
+	},
+	"mcg2q63ohjltais2": {
+		"definition": "luck+0.1",
+		"x": -128,
+		"y": -384,
+		"root": false
+	},
+	"wm24pxbcqrw7inry": {
+		"definition": "luck+0.1",
+		"x": -64,
+		"y": -384,
+		"root": false
+	},
+	"xerh5bextj6mluy8": {
+		"definition": "luck+0.1",
+		"x": 0,
+		"y": -384,
+		"root": false
+	},
+	"jxim9tzw8sga8o09": {
+		"definition": "luck+0.1",
+		"x": 64,
+		"y": -384,
+		"root": false
+	},
+	"5k3n55na7zsogic6": {
+		"definition": "luck+0.1",
+		"x": 128,
+		"y": -384,
+		"root": false
+	},
+	"fz1xwuxw8pxhwgad": {
+		"definition": "luck+0.1",
+		"x": 192,
+		"y": -384,
+		"root": false
+	},
+	"7x7lmg1ybr3f8r3o": {
+		"definition": "luck+0.1",
+		"x": -128,
+		"y": -448,
+		"root": false
+	},
+	"59hiuwi6e8d3d6ze": {
+		"definition": "luck+0.1",
+		"x": 128,
+		"y": -448,
+		"root": false
+	},
+	"ua54xohsldluqnt2": {
+		"definition": "stamina_+0.5%",
+		"x": -32,
+		"y": 320,
+		"root": false
+	},
+	"0bolnzmmwzsebjf3": {
+		"definition": "stamina_+0.5%",
+		"x": 32,
+		"y": 320,
+		"root": false
+	},
+	"oq5pce15uplze9ea": {
+		"definition": "stamina_+0.5%",
+		"x": -64,
+		"y": 384,
+		"root": false
+	},
+	"s9j4jlvtcza67qt6": {
+		"definition": "stamina_+0.5%",
+		"x": 0,
+		"y": 384,
+		"root": false
+	},
+	"ur2fcqluj4qexzhb": {
+		"definition": "stamina_+0.5%",
+		"x": 64,
+		"y": 384,
+		"root": false
+	},
+	"nbx2ie8isjcsnrna": {
+		"definition": "stamina_+0.5%",
+		"x": -96,
+		"y": 448,
+		"root": false
+	},
+	"4y8lio3qfqcah9am": {
+		"definition": "stamina_+0.5%",
+		"x": -32,
+		"y": 448,
+		"root": false
+	},
+	"jf0igwpjoqjkzpv3": {
+		"definition": "stamina_+0.5%",
+		"x": 32,
+		"y": 448,
+		"root": false
+	},
+	"neypggl24hot1ecp": {
+		"definition": "stamina_+0.5%",
+		"x": 96,
+		"y": 448,
+		"root": false
+	},
+	"9m2b9vakidiudfcr": {
+		"definition": "stamina_+0.5%",
+		"x": -64,
+		"y": 512,
+		"root": false
+	},
+	"fmzqebcnam6es5s5": {
+		"definition": "stamina_+0.5%",
+		"x": 0,
+		"y": 512,
+		"root": false
+	},
+	"3bi2649u4dun53uz": {
+		"definition": "stamina_+0.5%",
+		"x": 64,
+		"y": 512,
+		"root": false
+	},
+	"wjeqgfyetza2p1ao": {
+		"definition": "stamina_+0.5%",
+		"x": -96,
+		"y": 576,
+		"root": false
+	},
+	"miquu0cozn2a4alw": {
+		"definition": "stamina_+0.5%",
+		"x": -32,
+		"y": 576,
+		"root": false
+	},
+	"vghx1myeraitkmrk": {
+		"definition": "stamina_+0.5%",
+		"x": 32,
+		"y": 576,
+		"root": false
+	},
+	"f8lxj6mfh8muti9y": {
+		"definition": "stamina_+0.5%",
+		"x": 96,
+		"y": 576,
+		"root": false
+	},
+	"kxub4xeok4fcfj9j": {
+		"definition": "stamina_+0.5%",
+		"x": 0,
+		"y": 640,
+		"root": false
+	},
+	"c21yvq2eea7ju27m": {
+		"definition": "stamina_+0.5%",
+		"x": -64,
+		"y": 672,
+		"root": false
+	},
+	"ytd2tg6zb75pibio": {
+		"definition": "stamina_+0.5%",
+		"x": 0,
+		"y": 704,
+		"root": false
+	},
+	"04n3mgxx7skp547m": {
+		"definition": "stamina_+0.5%",
+		"x": 64,
+		"y": 672,
+		"root": false
+	},
+	"fkuk98rj7hi57sze": {
+		"definition": "stamina_+1%",
+		"x": -64,
+		"y": 768,
+		"root": false
+	},
+	"fqdcn6kdwg47osrr": {
+		"definition": "stamina_+1%",
+		"x": 64,
+		"y": 768,
+		"root": false
+	},
+	"3q31i3csrs5djxbt": {
+		"definition": "stamina_+1%",
+		"x": 0,
+		"y": 768,
+		"root": false
+	},
+	"70w7jxnmzv0nk5to": {
+		"definition": "stamina_+1%",
+		"x": 0,
+		"y": 832,
+		"root": false
+	}
+}

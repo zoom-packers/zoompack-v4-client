@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": true,
+	"spent_points_limit": 23,
+	"title": { "text" : "\u00A79Swimming\n\u00A7fSwim faster and improve your stamina\n \nExperience source: Swimming and Diving" },
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "create:copper_diving_helmet"
+		}
+	},
+	"background": "minecraft:textures/block/light_blue_concrete.png"
+}

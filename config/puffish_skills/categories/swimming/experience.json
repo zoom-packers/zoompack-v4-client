@@ -1,0 +1,58 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "(level ^ 1.432)*100 + 10000"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"conditions": {
+					"is_swim": {
+						"type": "stat",
+						"data": {
+							"stat": "minecraft.custom:minecraft.swim_one_cm"
+						}
+					}
+				},
+				"parameters": {
+					"amount": {
+						"type": "amount"
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_swim",
+						"expression": "amount"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"conditions": {
+					"water_walk": {
+						"type": "stat",
+						"data": {
+							"stat": "minecraft.custom:minecraft.walk_on_water_one_cm"
+						}
+					}
+				},
+				"parameters": {
+					"amount": {
+						"type": "amount"
+					}
+				},
+				"experience": [
+					{
+						"condition": "water_walk",
+						"expression": "amount"
+					}
+				]
+			}
+		}
+	]
+}

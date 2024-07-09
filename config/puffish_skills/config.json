@@ -1,0 +1,18 @@
+{
+	"version": 1,
+
+	"show_warnings": true,
+	"categories": [
+			"combat",
+			"mining",
+			"classes",
+			"races",
+			"swimming",
+			"jump",
+			"sprint",
+			"tank",
+			"fishing",
+			"villager",
+			"admin"
+		]
+	}

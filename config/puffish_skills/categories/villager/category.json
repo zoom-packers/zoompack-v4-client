@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": true,
+	"spent_points_limit": 10,
+	"title": { "text" : "\u00A7aVillager Hero\n\u00A7fWith this talent you can unlock more claimable chunks\n \nExperience source: Win Raids" },
+	"icon": {
+		"type": "effect",
+		"data": {
+			"effect": "hero_of_the_village"
+		}
+	},
+	"background": "minecraft:textures/block/emerald_ore.png"
+}

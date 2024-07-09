@@ -1,0 +1,34 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "(level ^ 1.432)*100 + 1000"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"conditions": {
+					"is_swim": {
+						"type": "stat",
+						"data": {
+							"stat": "minecraft.custom:minecraft.jump"
+						}
+					}
+				},
+				"parameters": {
+					"amount": {
+						"type": "amount"
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_swim",
+						"expression": "amount"
+					}
+				]
+			}
+		}
+	]
+}

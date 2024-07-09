@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": true,
+	"spent_points_limit": 53,
+	"title": { "text" : "\u00A7bFisherman\n\u00A7fMake your own luck and improve your stamina\n \nExperience source: Catch fish" },
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "fishing_rod"
+		}
+	},
+	"background": "minecraft:textures/block/light_blue_wool.png"
+}
