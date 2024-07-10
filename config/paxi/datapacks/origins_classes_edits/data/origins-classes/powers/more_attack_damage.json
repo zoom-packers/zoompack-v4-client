@@ -1,0 +1,134 @@
+{
+  "type": "origins:multiple",
+  "loading_priority": 111,
+  "more_attack_damage0": {
+    "type": "origins:conditioned_attribute",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_combat",
+          "comparison": ">=",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_combat",
+          "comparison": "<",
+          "compare_to": 20
+        }
+      ]
+    },
+    "modifier": {
+      "name": "Warrior attack damage bonus 0",
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.2,
+      "operation": "multiply_total"
+    }
+  },
+  "more_attack_damage1": {
+    "type": "origins:conditioned_attribute",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_combat",
+          "comparison": ">=",
+          "compare_to": 20
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_combat",
+          "comparison": "<",
+          "compare_to": 40
+        }
+      ]
+    },
+    "modifier": {
+      "name": "Warrior attack damage bonus 20",
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.4,
+      "operation": "multiply_total"
+    }
+  },
+  "more_attack_damage2": {
+    "type": "origins:conditioned_attribute",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_combat",
+          "comparison": ">=",
+          "compare_to": 40
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_combat",
+          "comparison": "<",
+          "compare_to": 60
+        }
+      ]
+    },
+    "modifier": {
+      "name": "Warrior attack damage bonus 40",
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.6,
+      "operation": "multiply_total"
+    }
+  },
+  "more_attack_damage3": {
+    "type": "origins:conditioned_attribute",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_combat",
+          "comparison": ">=",
+          "compare_to": 60
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_combat",
+          "comparison": "<",
+          "compare_to": 80
+        }
+      ]
+    },
+    "modifier": {
+      "name": "Warrior attack damage bonus 60",
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.8,
+      "operation": "multiply_total"
+    }
+  },
+  "more_attack_damage4": {
+    "type": "origins:conditioned_attribute",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_combat",
+          "comparison": ">=",
+          "compare_to": 80
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_combat",
+          "comparison": "<",
+          "compare_to": 1000
+        }
+      ]
+    },
+    "modifier": {
+      "name": "Warrior attack damage bonus 80",
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 1,
+      "operation": "multiply_total"
+    }
+  }
+}

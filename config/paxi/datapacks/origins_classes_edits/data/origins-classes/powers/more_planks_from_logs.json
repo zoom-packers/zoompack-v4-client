@@ -1,0 +1,13 @@
+{
+  "type": "apoli:modify_crafting",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "item_action": {
+    "type": "apoli:modify",
+    "modifier": "origins-classes:lumberjack/craft_plank"
+  }
+}

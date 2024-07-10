@@ -1,0 +1,10 @@
+{
+  "vein_blacklist": [],
+  "travel_req": {},
+  "mob_modifier": {},
+  "override": false,
+  "isTagFor": [],
+  "bonus": {
+    "DIMENSION": {}
+  }
+}

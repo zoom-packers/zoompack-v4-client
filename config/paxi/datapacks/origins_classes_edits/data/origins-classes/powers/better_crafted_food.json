@@ -1,0 +1,319 @@
+{
+  "type": "origins:multiple",
+  "loading_priority": 111,
+  "food0": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_cooking",
+          "comparison": ">=",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_cooking",
+          "comparison": "<",
+          "compare_to": 20
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:food"
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food0"
+          },
+          "weight": 100
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food1"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food5"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food6"
+          },
+          "weight": 25
+        }
+      ]
+    }
+  },
+  "food1": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_cooking",
+          "comparison": ">=",
+          "compare_to": 20
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_cooking",
+          "comparison": "<",
+          "compare_to": 40
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:food"
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food1"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food6"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food7"
+          },
+          "weight": 12.5
+        }
+      ]
+    }
+  },
+  "food2": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_cooking",
+          "comparison": ">=",
+          "compare_to": 40
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_cooking",
+          "comparison": "<",
+          "compare_to": 60
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:food"
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food7"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food8"
+          },
+          "weight": 6.25
+        }
+      ]
+    }
+  },
+  "food3": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_cooking",
+          "comparison": ">=",
+          "compare_to": 60
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_cooking",
+          "comparison": "<",
+          "compare_to": 80
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:food"
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food7"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food8"
+          },
+          "weight": 6.25
+        }
+      ]
+    }
+  },
+  "food4": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_cooking",
+          "comparison": ">=",
+          "compare_to": 80
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_cooking",
+          "comparison": "<",
+          "compare_to": 1000
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:food"
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food8"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food8"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:cook/food9"
+          },
+          "weight": 3.125
+        }
+      ]
+    }
+  }
+}
