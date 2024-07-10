@@ -1,0 +1,27 @@
+{
+    "vein_blacklist": [],
+    "travel_req": {
+        "combat": 10
+    },
+    "dimensional_mob_modifiers": [
+        {
+            "attribute":"minecraft:generic.max_health",
+            "operation": "multiply_base",
+            "amount": 0.5
+        },
+        {
+            "attribute":"minecraft:generic.attack_damage",
+            "operation": "multiply_base",
+            "amount": 1
+        },
+        {
+            "attribute":"minecraft:generic.armor",
+            "operation": "addition",
+            "amount": 4
+        }
+    ],
+    "mob_modifier": {},
+    "override": false,
+    "isTagFor": [],
+    "bonus": {}
+}

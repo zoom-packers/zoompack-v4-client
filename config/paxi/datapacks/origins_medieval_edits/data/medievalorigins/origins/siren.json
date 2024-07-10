@@ -1,0 +1,22 @@
+{
+        "loading_priority": 111,
+	"powers": [
+                "medievalorigins:siren/siren_song",
+                "medievalorigins:siren/amphibious",
+                "medievalorigins:siren/holy_water",
+                "medievalorigins:siren/out_of_your_depth",
+                "medievalorigins:siren/prone",
+                "medievalorigins:siren/flammable",
+                "medievalorigins:siren/water_vision",
+                "medievalorigins:siren/seduce",
+                "mermod:fabulous_fins",
+                "survive:cold_blooded",
+                "origins:aquatic"
+	],
+        "icon": {
+                "item": "minecraft:ink_sac",
+                "tag": "{CustomModelData:366}"
+        },
+	"impact": 2,
+        "order": 1
+}

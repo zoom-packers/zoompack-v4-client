@@ -1,0 +1,7 @@
+[
+  {
+    "function": "apoli:add_power",
+    "power": "origins-classes:items/tough_shoes",
+    "slot": "feet"
+  }
+]
