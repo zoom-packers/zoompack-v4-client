@@ -72,27 +72,47 @@ ItemEvents.modification( (event) => {
     });
 
     event.modify("minecraft:netherite_helmet", item => {
-        item.armorProtection = 6;
+        item.armorProtection = 12;
         item.armorToughness = 5;
+        item.armorKnockbackResistance = 0.2;
         item.maxDamage = 1875;
     });
 
     event.modify("minecraft:netherite_chestplate", item => {
-        item.armorProtection = 12;
+        item.armorProtection = 16;
         item.armorToughness = 5;
+        item.armorKnockbackResistance = 0.2;
         item.maxDamage = 2000;
     });
 
     event.modify("minecraft:netherite_leggings", item => {
-        item.armorProtection = 9;
+        item.armorProtection = 14;
         item.armorToughness = 5;
+        item.armorKnockbackResistance = 0.2;
         item.maxDamage = 1900;
     });
 
     event.modify("minecraft:netherite_boots", item => {
-        item.armorProtection = 6;
+        item.armorProtection = 11;
         item.armorToughness = 5;
+        item.armorKnockbackResistance = 0.2;
         item.maxDamage = 1850;
+    });
+
+    // Other mods netherite items - those possible
+
+    // Create
+    event.modify("create:netherite_diving_helmet", item => {
+        item.armorProtection = 6;
+        item.maxDamage = 800;
+    });
+    event.modify("create:netherite_backtank", item => {
+        item.armorProtection = 8;
+        item.maxDamage = 1200;
+    });
+    event.modify("create:netherite_diving_boots", item => {
+        item.armorProtection = 5.5;
+        item.maxDamage = 900;
     });
 
 });

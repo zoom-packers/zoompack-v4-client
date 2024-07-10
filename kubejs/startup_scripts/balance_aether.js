@@ -120,26 +120,26 @@ ItemEvents.modification( (event) => {
     event.modify("aether:gravitite_helmet", item => {
         item.armorProtection = 7;
         item.armorToughness = 3;
-        item.armorKnockbackResistance = 0.25;
+        item.armorKnockbackResistance = 0.05;
         item.maxDamage = 600;
     });
     event.modify("aether:valkyrie_helmet", item => {
         item.armorProtection = 8;
         item.armorToughness = 3;
-        item.armorKnockbackResistance = 0.25;
+        item.armorKnockbackResistance = 0.05;
         item.maxDamage = 645;
     });
     event.modify("aether:phoenix_helmet", item => {
         item.armorProtection = 9;
         item.armorToughness = 3.5;
-        item.armorKnockbackResistance = 0.5;
+        item.armorKnockbackResistance = 0.1;
         item.maxDamage = 675;
     });
     event.modify("aether:obsidian_helmet", item => {
         // decommison for the time
         item.armorProtection = 10;
         item.armorToughness = 4;
-        item.armorKnockbackResistance = 0.75;
+        item.armorKnockbackResistance = 0.15;
         item.maxDamage = 700;
     });
 
@@ -158,25 +158,25 @@ ItemEvents.modification( (event) => {
     event.modify("aether:gravitite_chestplate", item => {
         item.armorProtection = 12;
         item.armorToughness = 3;
-        item.armorKnockbackResistance = 0.25;
+        item.armorKnockbackResistance = 0.05;
         item.maxDamage = 870;
     });
     event.modify("aether:valkyrie_chestplate", item => {
         item.armorProtection = 13;
         item.armorToughness = 3.5;
-        item.armorKnockbackResistance = 0.25;
+        item.armorKnockbackResistance = 0.05;
         item.maxDamage = 935;
     });
     event.modify("aether:phoenix_chestplate", item => {
         item.armorProtection = 14;
         item.armorToughness = 3.5;
-        item.armorKnockbackResistance = 0.5;
+        item.armorKnockbackResistance = 0.1;
         item.maxDamage = 978;
     });
     event.modify("aether:obsidian_chestplate", item => {
         item.armorProtection = 14;
         item.armorToughness = 4;
-        item.armorKnockbackResistance = 0.75;
+        item.armorKnockbackResistance = 0.15;
         item.maxDamage = 1000;
     });
 
@@ -195,25 +195,25 @@ ItemEvents.modification( (event) => {
     event.modify("aether:gravitite_leggings", item => {
         item.armorProtection = 10;
         item.armorToughness = 3;
-        item.armorKnockbackResistance = 0.25;
+        item.armorKnockbackResistance = 0.05;
         item.maxDamage = 810;
     });
     event.modify("aether:valkyrie_leggings", item => {
         item.armorProtection = 11;
         item.armorToughness = 3;
-        item.armorKnockbackResistance = 0.25;
+        item.armorKnockbackResistance = 0.05;
         item.maxDamage = 870;
     });
     event.modify("aether:phoenix_leggings", item => {
         item.armorProtection = 12;
         item.armorToughness = 3.5;
-        item.armorKnockbackResistance = 0.5;
+        item.armorKnockbackResistance = 0.1;
         item.maxDamage = 911;
     });
     event.modify("aether:obsidian_leggings", item => {
         item.armorProtection = 12;
         item.armorToughness = 4;
-        item.armorKnockbackResistance = 0.75;
+        item.armorKnockbackResistance = 0.15;
         item.maxDamage = 950;
     });
 
@@ -232,25 +232,25 @@ ItemEvents.modification( (event) => {
     event.modify("aether:gravitite_boots", item => {
         item.armorProtection = 7;
         item.armorToughness = 3;
-        item.armorKnockbackResistance = 0.25;
+        item.armorKnockbackResistance = 0.05;
         item.maxDamage = 720;
     });
     event.modify("aether:valkyrie_boots", item => {
         item.armorProtection = 8;
         item.armorToughness = 3;
-        item.armorKnockbackResistance = 0.25;
+        item.armorKnockbackResistance = 0.05;
         item.maxDamage = 774;
     });
     event.modify("aether:phoenix_boots", item => {
         item.armorProtection = 9;
         item.armorToughness = 3.5;
-        item.armorKnockbackResistance = 0.5;
+        item.armorKnockbackResistance = 0.1;
         item.maxDamage = 810;
     });
     event.modify("aether:obsidian_boots", item => {
         item.armorProtection = 9;
         item.armorToughness = 4;
-        item.armorKnockbackResistance = 0.75;
+        item.armorKnockbackResistance = 0.15;
         item.maxDamage = 850;
     });
     event.modify("aether:sentry_boots", item => {
