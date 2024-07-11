@@ -134,6 +134,12 @@ let modifications_map = [
         'durability' : 3300
     },
     {
+        'material': 'cloggrum',
+        'piece' : 'battleaxe',
+        'damage' : 80,
+        'durability' : 3300
+    },
+    {
         'material': 'froststeel',
         'piece' : 'tool',
         'damage' : 60,
@@ -188,5 +194,5 @@ ItemEvents.modification( (event) => {
             });
             
         }
-    })
+    });
 });
