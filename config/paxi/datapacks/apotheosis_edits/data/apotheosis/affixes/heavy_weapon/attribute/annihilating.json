@@ -1,0 +1,60 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "attributeslib:crit_chance",
+  "operation": "ADDITION",
+  "values": {
+    "common": {
+      "min": 0.2,
+      "steps": 10,
+      "step": 0.01
+    },
+    "uncommon": {
+      "min": 0.2,
+      "steps": 10,
+      "step": 0.01
+    },
+    "rare": {
+      "min": 0.2,
+      "steps": 10,
+      "step": 0.01
+    },
+    "epic": {
+      "min": 0.3,
+      "steps": 10,
+      "step": 0.01
+    },
+    "mythic": {
+      "min": 0.45,
+      "steps": 15,
+      "step": 0.01
+    },
+    "ancient": {
+      "min": 1.38,
+      "steps": 67.27,
+      "step": 0.01
+    },
+    "custom_0": {
+      "min": 0.56,
+      "steps": 20.25,
+      "step": 0.01
+    },
+    "custom_1": {
+      "min": 0.7,
+      "steps": 27.34,
+      "step": 0.01
+    },
+    "custom_2": {
+      "min": 0.88,
+      "steps": 36.91,
+      "step": 0.01
+    },
+    "custom_3": {
+      "min": 1.1,
+      "steps": 49.83,
+      "step": 0.01
+    }
+  },
+  "types": [
+    "heavy_weapon"
+  ]
+}

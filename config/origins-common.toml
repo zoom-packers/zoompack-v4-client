@@ -193,6 +193,7 @@
 		enabled = true
 		"origins-classes:no_projectile_divergence" = true
 		"origins-classes:less_bow_slowdown" = true
+		"origins-classes:bow_damage_boost" = true
 
 	[origins."origins-classes:farmer"]
 		enabled = true

@@ -1,0 +1,128 @@
+{
+  "variant": "samurai",
+  "weight": 10,
+  "quality": 0,
+  "dimensions": [],
+  "unique": true,
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "light_ranged",
+        "types": [
+          "sword",
+          "trident",
+          "bow",
+          "crossbow"
+        ]
+      },
+      "attribute": "attributeslib:crit_chance",
+      "operation": "ADDITION",
+      "values": {
+        "common": 0.05,
+        "uncommon": 0.15,
+        "rare": 0.25,
+        "epic": 0.35,
+        "mythic": 0.4,
+        "ancient": 3.05,
+        "custom_0": 0.6,
+        "custom_1": 0.9,
+        "custom_2": 1.35,
+        "custom_3": 2.03
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "heavy_weapon",
+        "types": [
+          "heavy_weapon"
+        ]
+      },
+      "attribute": "attributeslib:crit_chance",
+      "operation": "ADDITION",
+      "values": {
+        "common": 0.1,
+        "uncommon": 0.25,
+        "rare": 0.35,
+        "epic": 0.4,
+        "mythic": 0.475,
+        "ancient": 3.63,
+        "custom_0": 0.71,
+        "custom_1": 1.07,
+        "custom_2": 1.61,
+        "custom_3": 2.42
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "lower_armor",
+        "types": [
+          "leggings",
+          "boots"
+        ]
+      },
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "MULTIPLY_TOTAL",
+      "values": {
+        "common": 0.05,
+        "uncommon": 0.15,
+        "rare": 0.25,
+        "epic": 0.35,
+        "mythic": 0.45,
+        "ancient": 3.45,
+        "custom_0": 0.68,
+        "custom_1": 1.02,
+        "custom_2": 1.53,
+        "custom_3": 2.3
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "helmet",
+        "types": [
+          "helmet"
+        ]
+      },
+      "attribute": "attributeslib:arrow_velocity",
+      "operation": "MULTIPLY_TOTAL",
+      "values": {
+        "common": 0.075,
+        "uncommon": 0.15,
+        "rare": 0.25,
+        "epic": 0.375,
+        "mythic": 0.425,
+        "ancient": 3.24,
+        "custom_0": 0.64,
+        "custom_1": 0.96,
+        "custom_2": 1.44,
+        "custom_3": 2.16
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "shield",
+        "types": [
+          "shield"
+        ]
+      },
+      "attribute": "attributeslib:dodge_chance",
+      "operation": "ADDITION",
+      "values": {
+        "common": 0.01,
+        "uncommon": 0.02,
+        "rare": 0.04,
+        "epic": 0.06,
+        "mythic": 0.08,
+        "ancient": 0.62,
+        "custom_0": 0.12,
+        "custom_1": 0.18,
+        "custom_2": 0.27,
+        "custom_3": 0.41
+      }
+    }
+  ]
+}

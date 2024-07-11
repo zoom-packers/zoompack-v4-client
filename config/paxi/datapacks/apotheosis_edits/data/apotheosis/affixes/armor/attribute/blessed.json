@@ -1,0 +1,63 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "minecraft:generic.max_health",
+  "operation": "ADDITION",
+  "values": {
+    "common": {
+      "min": 2,
+      "steps": 2,
+      "step": 1
+    },
+    "uncommon": {
+      "min": 2,
+      "steps": 2,
+      "step": 1
+    },
+    "rare": {
+      "min": 3,
+      "steps": 3,
+      "step": 1
+    },
+    "epic": {
+      "min": 3,
+      "steps": 5,
+      "step": 1
+    },
+    "mythic": {
+      "min": 3,
+      "steps": 5,
+      "step": 1
+    },
+    "ancient": {
+      "min": 9.16,
+      "steps": 22.42,
+      "step": 1.28
+    },
+    "custom_0": {
+      "min": 3.75,
+      "steps": 6.75,
+      "step": 1.05
+    },
+    "custom_1": {
+      "min": 4.69,
+      "steps": 9.11,
+      "step": 1.1
+    },
+    "custom_2": {
+      "min": 5.86,
+      "steps": 12.3,
+      "step": 1.16
+    },
+    "custom_3": {
+      "min": 7.33,
+      "steps": 16.61,
+      "step": 1.22
+    }
+  },
+  "types": [
+    "helmet",
+    "chestplate",
+    "leggings",
+    "boots"
+  ]
+}

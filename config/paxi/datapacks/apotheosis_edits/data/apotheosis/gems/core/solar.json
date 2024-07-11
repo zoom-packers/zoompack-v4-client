@@ -1,0 +1,79 @@
+{
+  "variant": "solar",
+  "weight": 10,
+  "quality": 0,
+  "dimensions": [],
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "light_weapon",
+        "types": [
+          "sword",
+          "trident"
+        ]
+      },
+      "attribute": "attributeslib:fire_damage",
+      "operation": "ADDITION",
+      "values": {
+        "common": 1,
+        "uncommon": 1.5,
+        "rare": 2.5,
+        "epic": 4,
+        "mythic": 6,
+        "ancient": 45.57,
+        "custom_0": 9,
+        "custom_1": 13.5,
+        "custom_2": 20.25,
+        "custom_3": 30.38
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "core_armor",
+        "types": [
+          "chestplate",
+          "leggings"
+        ]
+      },
+      "attribute": "forge:entity_gravity",
+      "operation": "MULTIPLY_TOTAL",
+      "values": {
+        "common": 0.1,
+        "uncommon": 0.25,
+        "rare": 0.45,
+        "epic": 0.65,
+        "mythic": 0.85,
+        "ancient": 6.48,
+        "custom_0": 1.28,
+        "custom_1": 1.92,
+        "custom_2": 2.88,
+        "custom_3": 4.32
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "boots",
+        "types": [
+          "boots"
+        ]
+      },
+      "attribute": "forge:step_height_addition",
+      "operation": "ADDITION",
+      "values": {
+        "common": 0.25,
+        "uncommon": 0.5,
+        "rare": 1,
+        "epic": 1.5,
+        "mythic": 2,
+        "ancient": 15.2,
+        "custom_0": 3,
+        "custom_1": 4.5,
+        "custom_2": 6.75,
+        "custom_3": 10.13
+      }
+    }
+  ]
+}
