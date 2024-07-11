@@ -1,0 +1,12 @@
+
+{
+  "type": "apoli:attribute",
+  "name": "Steady Shield",
+  "description": "+3 Armor. This shield has been forged by a licensed blacksmith. Please subscribe to their Boomer Facebook.",
+  "modifier": {
+    "name": "{name}",
+    "attribute": "minecraft:generic.armor",
+    "value": 3,
+    "operation": "addition"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "type": "origins:multiple",
+  "loading_priority": 111,
+  "ranching_twin_breeding0": {
+    "type": "origins_classes:modify_breeding",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_ranching",
+          "comparison": ">=",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_ranching",
+          "comparison": "<",
+          "compare_to": 20
+        }
+      ]
+    },
+    "modifier": {
+      "name": "Rancher Breeding Bonus",
+      "value": 0.5,
+      "operation": "multiply_base"
+    }
+  },
+  "ranching_twin_breeding1": {
+    "type": "origins_classes:modify_breeding",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_ranching",
+          "comparison": ">=",
+          "compare_to": 20
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_ranching",
+          "comparison": "<",
+          "compare_to": 40
+        }
+      ]
+    },
+    "modifier": {
+      "name": "Rancher Breeding Bonus",
+      "value": 1,
+      "operation": "multiply_base"
+    }
+  },
+  "ranching_twin_breeding2": {
+    "type": "origins_classes:modify_breeding",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_ranching",
+          "comparison": ">=",
+          "compare_to": 40
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_ranching",
+          "comparison": "<",
+          "compare_to": 60
+        }
+      ]
+    },
+    "modifier": {
+      "name": "Rancher Breeding Bonus",
+      "value": 2,
+      "operation": "multiply_base"
+    }
+  },
+  "ranching_twin_breeding3": {
+    "type": "origins_classes:modify_breeding",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_ranching",
+          "comparison": ">=",
+          "compare_to": 60
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_ranching",
+          "comparison": "<",
+          "compare_to": 80
+        }
+      ]
+    },
+    "modifier": {
+      "name": "Rancher Breeding Bonus",
+      "value": 3,
+      "operation": "multiply_base"
+    }
+  },
+  "ranching_twin_breeding4": {
+    "type": "origins_classes:modify_breeding",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_ranching",
+          "comparison": ">=",
+          "compare_to": 80
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_ranching",
+          "comparison": "<",
+          "compare_to": 1000
+        }
+      ]
+    },
+    "modifier": {
+      "name": "Rancher Breeding Bonus",
+      "value": 5,
+      "operation": "multiply_base"
+    }
+  }
+}

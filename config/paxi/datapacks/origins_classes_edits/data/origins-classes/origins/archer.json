@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins-classes:no_projectile_divergence",
+    "origins-classes:less_bow_slowdown",
+    "origins-classes:bow_damage_boost"
+  ],
+  "loading_priority": 111,
+  "icon": "minecraft:bow",
+  "order": 11,
+  "impact": 0
+}

@@ -1,0 +1,15 @@
+{
+  "type": "apoli:modify_food",
+  "name": "Cu Sloboz",
+  "description": "Acest articol de mancare a fost facut cu slobozul bucatarului.",
+  "food_modifier": {
+    "name": "Increased food points",
+    "operation": "multiply_base_additive",
+    "value": 3
+  },
+  "saturation_modifier": {
+    "name": "Increased saturation points",
+    "operation": "multiply_base_additive",
+    "value": 5
+  }
+}

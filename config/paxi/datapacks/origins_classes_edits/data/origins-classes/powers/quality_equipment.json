@@ -1,0 +1,4134 @@
+{
+  "type": "origins:multiple",
+  "loading_priority": 111,
+  "chestplate0": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 20
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:chestplate"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate0"
+          },
+          "weight": 100
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate1"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate5"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate6"
+          },
+          "weight": 25
+        }
+      ]
+    }
+  },
+  "chestplate1": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 20
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 40
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:chestplate"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate1"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate6"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate7"
+          },
+          "weight": 12.5
+        }
+      ]
+    }
+  },
+  "chestplate2": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 40
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 60
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:chestplate"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate7"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate8"
+          },
+          "weight": 6.25
+        }
+      ]
+    }
+  },
+  "chestplate3": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 60
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 80
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:chestplate"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate7"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate8"
+          },
+          "weight": 6.25
+        }
+      ]
+    }
+  },
+  "chestplate4": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 80
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 1000
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:chestplate"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_chestplate9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate8"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate8"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/chestplate9"
+          },
+          "weight": 3.125
+        }
+      ]
+    }
+  },
+  "helmet0": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 20
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:helmet"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet0"
+          },
+          "weight": 100
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet1"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet5"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet6"
+          },
+          "weight": 25
+        }
+      ]
+    }
+  },
+  "helmet1": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 20
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 40
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:helmet"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet1"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet6"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet7"
+          },
+          "weight": 12.5
+        }
+      ]
+    }
+  },
+  "helmet2": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 40
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 60
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:helmet"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet7"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet8"
+          },
+          "weight": 6.25
+        }
+      ]
+    }
+  },
+  "helmet3": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 60
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 80
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:helmet"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet7"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet8"
+          },
+          "weight": 6.25
+        }
+      ]
+    }
+  },
+  "helmet4": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 80
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 1000
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:helmet"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_helmet9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet8"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet8"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/helmet9"
+          },
+          "weight": 3.125
+        }
+      ]
+    }
+  },
+  "leggings0": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 20
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:leggings"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings0"
+          },
+          "weight": 100
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings1"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings5"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings6"
+          },
+          "weight": 25
+        }
+      ]
+    }
+  },
+  "leggings1": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 20
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 40
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:leggings"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings1"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings6"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings7"
+          },
+          "weight": 12.5
+        }
+      ]
+    }
+  },
+  "leggings2": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 40
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 60
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:leggings"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings7"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings8"
+          },
+          "weight": 6.25
+        }
+      ]
+    }
+  },
+  "leggings3": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 60
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 80
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:leggings"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings7"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings8"
+          },
+          "weight": 6.25
+        }
+      ]
+    }
+  },
+  "leggings4": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 80
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 1000
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:leggings"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_leggings9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings8"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings8"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/leggings9"
+          },
+          "weight": 3.125
+        }
+      ]
+    }
+  },
+  "shoes0": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 20
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:shoes"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes0"
+          },
+          "weight": 100
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes1"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes5"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes6"
+          },
+          "weight": 25
+        }
+      ]
+    }
+  },
+  "shoes1": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 20
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 40
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:shoes"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes1"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes6"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes7"
+          },
+          "weight": 12.5
+        }
+      ]
+    }
+  },
+  "shoes2": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 40
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 60
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:shoes"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes7"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes8"
+          },
+          "weight": 6.25
+        }
+      ]
+    }
+  },
+  "shoes3": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 60
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 80
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:shoes"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes7"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes8"
+          },
+          "weight": 6.25
+        }
+      ]
+    }
+  },
+  "shoes4": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 80
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 1000
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:shoes"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/tough_shoes9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes8"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes8"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shoes9"
+          },
+          "weight": 3.125
+        }
+      ]
+    }
+  },
+  "melee0": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 20
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:melee"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee0"
+          },
+          "weight": 100
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee1"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee5"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee6"
+          },
+          "weight": 25
+        }
+      ]
+    }
+  },
+  "melee1": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 20
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 40
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:melee"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee1"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee6"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee7"
+          },
+          "weight": 12.5
+        }
+      ]
+    }
+  },
+  "melee2": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 40
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 60
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:melee"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee7"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee8"
+          },
+          "weight": 6.25
+        }
+      ]
+    }
+  },
+  "melee3": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 60
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 80
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:melee"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee7"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee8"
+          },
+          "weight": 6.25
+        }
+      ]
+    }
+  },
+  "melee4": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 80
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 1000
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:melee"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/sharp_blade9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee8"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee8"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/melee9"
+          },
+          "weight": 3.125
+        }
+      ]
+    }
+  },
+  "range0": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 20
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:range"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range0"
+          },
+          "weight": 100
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range1"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range5"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range6"
+          },
+          "weight": 25
+        }
+      ]
+    }
+  },
+  "range1": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 20
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 40
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:range"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range1"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range6"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range7"
+          },
+          "weight": 12.5
+        }
+      ]
+    }
+  },
+  "range2": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 40
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 60
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:range"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range7"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range8"
+          },
+          "weight": 6.25
+        }
+      ]
+    }
+  },
+  "range3": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 60
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 80
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:range"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range7"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range8"
+          },
+          "weight": 6.25
+        }
+      ]
+    }
+  },
+  "range4": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 80
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 1000
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:range"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/strong_string9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range8"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range8"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/range9"
+          },
+          "weight": 3.125
+        }
+      ]
+    }
+  },
+  "shield0": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 20
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:shield"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield0"
+          },
+          "weight": 100
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield1"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield5"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield6"
+          },
+          "weight": 25
+        }
+      ]
+    }
+  },
+  "shield1": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 20
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 40
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:shield"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield1"
+          },
+          "weight": 50
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield6"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield7"
+          },
+          "weight": 12.5
+        }
+      ]
+    }
+  },
+  "shield2": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 40
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 60
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:shield"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield2"
+          },
+          "weight": 25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield7"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield8"
+          },
+          "weight": 6.25
+        }
+      ]
+    }
+  },
+  "shield3": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 60
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 80
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:shield"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield7"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield8"
+          },
+          "weight": 6.25
+        }
+      ]
+    }
+  },
+  "shield4": {
+    "type": "origins_classes:modify_craft_result",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": ">=",
+          "compare_to": 80
+        },
+        {
+          "type": "origins:scoreboard",
+          "objective": "pmmo_smithing",
+          "comparison": "<",
+          "compare_to": 1000
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins_classes:shield"
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield0",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield1",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield2",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield3",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield4",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield5",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield6",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield7",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield8",
+          "inverted": true
+        },
+        {
+          "type": "origins_classes:has_power",
+          "power": "origins-classes:items/steady_shield9",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield3"
+          },
+          "weight": 12.5
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield4"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield8"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield8"
+          },
+          "weight": 6.25
+        },
+        {
+          "element": {
+            "type": "apoli:modify",
+            "modifier": "origins-classes:blacksmith/shield9"
+          },
+          "weight": 3.125
+        }
+      ]
+    }
+  }
+}
