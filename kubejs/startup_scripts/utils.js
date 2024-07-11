@@ -199,6 +199,29 @@ global.modifyModItems = (event, modId, materialIds, durabilities, attackDamages,
 }
 
 
+global.setMaterialDurabilityTools = (event, mod_id, material_id, tool_durability) => {
+    ['sword', 'axe', 'pickaxe', 'shovel', 'hoe'].forEach(piece=>{
+        event.modify(`${mod_id}:${material_id}_${piece}`, item => {
+            item.maxDamage = tool_durability;
+        });
+    });
+}
+
+global.setMaterialDurabilityArmor = (event, mod_id, material_id, armor_durability_list) => {    
+    event.modify(`${mod_id}:${material_id}_helmet`, item => {
+        item.maxDamage = armor_durability_list[0];
+    });
+    event.modify(`${mod_id}:${material_id}_chestplate`, item => {
+        item.maxDamage = armor_durability_list[1];
+    });
+    event.modify(`${mod_id}:${material_id}_leggings`, item => {
+        item.maxDamage = armor_durability_list[2];
+    });
+    event.modify(`${mod_id}:${material_id}_boots`, item => {
+        item.maxDamage = armor_durability_list[0];
+    });
+}
+
 // Progression:
 
 // Overworld -> Aether -> Nether -> Undergarden -> End -> Void Scape -> Twilight Forest
