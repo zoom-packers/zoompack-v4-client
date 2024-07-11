@@ -117,18 +117,19 @@ global.createTool = (event, id, type, texture, tier, name) => {
         .texture(texture);
 }
 
-global.createAllToolsForTier = (event, tier, textures) => {
-    var tierFancyName = tier.charAt(0).toUpperCase() + tier.slice(1);
+global.createToolsForTier = (event, tier, textures, name_base) => {
+    global.createSword(event, `${tier}_sword`, textures.sword, tier, `${name_base} Sword`);
+    global.createAxe(event, `${tier}_axe`, textures.axe, tier, `${name_base} Axe`);
+    global.createPickaxe(event, `${tier}_pickaxe`, textures.pickaxe, tier, `${name_base} Pickaxe`);
+    global.createShovel(event, `${tier}_shovel`, textures.shovel, tier, `${name_base} Shovel`);
+    global.createHoe(event, `${tier}_hoe`, textures.hoe, tier, `${name_base} Hoe`);
+}
 
-    global.createSword(event, `${tier}_sword`, textures.sword, tier, `${tierFancyName} Sword`);
-    global.createAxe(event, `${tier}_axe`, textures.axe, tier, `${tierFancyName} Axe`);
-    global.createPickaxe(event, `${tier}_pickaxe`, textures.pickaxe, tier, `${tierFancyName} Pickaxe`);
-    global.createShovel(event, `${tier}_shovel`, textures.shovel, tier, `${tierFancyName} Shovel`);
-    global.createHoe(event, `${tier}_hoe`, textures.hoe, tier, `${tierFancyName} Hoe`);
-    global.createHelmet(event, `${tier}_helmet`, textures.helmet, tier, `${tierFancyName} Helmet`);
-    global.createChestplate(event, `${tier}_chestplate`, textures.chestplate, tier, `${tierFancyName} Chestplate`);
-    global.createLeggings(event, `${tier}_leggings`, textures.leggings, tier, `${tierFancyName} Leggings`);
-    global.createBoots(event, `${tier}_boots`, textures.boots, tier, `${tierFancyName} Boots`);
+global.creatArmorForTier = (event, tier, textures, name_base) => {
+    global.createHelmet(event, `${tier}_helmet`, textures.helmet, tier, `${name_base} Helmet`);
+    global.createChestplate(event, `${tier}_chestplate`, textures.chestplate, tier, `${name_base} Chestplate`);
+    global.createLeggings(event, `${tier}_leggings`, textures.leggings, tier, `${name_base} Leggings`);
+    global.createBoots(event, `${tier}_boots`, textures.boots, tier, `${name_base} Boots`);
 }
 
 global.getMockTexturesObject = () => {
