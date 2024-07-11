@@ -1,0 +1,92 @@
+{
+  "entity": "deeperdarker:stalker",
+  "weight": 20,
+  "quality": 36,
+  "size": {
+    "width": 0.6,
+    "height": 1.95
+  },
+  "valid_gear_sets": [],
+  "dimensions": [
+    "deeperdarker:otherside"
+  ],
+  "min_rarity": "custom_2",
+  "max_rarity": "custom_3",
+  "stats": {
+    "custom_2": {
+      "enchant_chance": 0.5,
+      "enchantment_levels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "effects": [],
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "operation": "ADDITION",
+          "value": 3520
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "ADDITION",
+          "value": 330
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "operation": "ADDITION",
+          "value": 0.2
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "operation": "ADDITION",
+          "value": 176
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "operation": "ADDITION",
+          "value": 121
+        }
+      ]
+    },
+    "custom_3": {
+      "enchant_chance": 0.5,
+      "enchantment_levels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "effects": [],
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "operation": "ADDITION",
+          "value": 4160
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "ADDITION",
+          "value": 390
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "operation": "ADDITION",
+          "value": 0.2
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "operation": "ADDITION",
+          "value": 208
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "operation": "ADDITION",
+          "value": 143
+        }
+      ]
+    }
+  },
+  "replace": true
+}
