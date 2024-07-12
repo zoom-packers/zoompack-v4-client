@@ -141,5 +141,32 @@ ItemEvents.modification((event) => {
     event.modify("betterend:crystalite_boots", item => {
         item.maxDamage = 4668;
     });
+    event.modify("deeperdarker:warden_sword", item => {
+        item.maxDamage = 6000;
+    });
+    event.modify("deeperdarker:warden_axe", item => {
+        item.maxDamage = 6000;
+    });
+    event.modify("deeperdarker:warden_pickaxe", item => {
+        item.maxDamage = 6000;
+    });
+    event.modify("deeperdarker:warden_shovel", item => {
+        item.maxDamage = 6000;
+    });
+    event.modify("deeperdarker:warden_hoe", item => {
+        item.maxDamage = 6000;
+    });
+    event.modify("deeperdarker:warden_helmet", item => {
+        item.maxDamage = 4300;
+    });
+    event.modify("deeperdarker:warden_chestplate", item => {
+        item.maxDamage = 6235;
+    });
+    event.modify("deeperdarker:warden_leggings", item => {
+        item.maxDamage = 5805;
+    });
+    event.modify("deeperdarker:warden_boots", item => {
+        item.maxDamage = 5160;
+    });
     
 });

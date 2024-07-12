@@ -105,8 +105,8 @@ def new_armor_set_config(mod_id, material_prefix, armor_list, armor_toughness, k
             })
 
 
-def new_sword_config(mod_id, material_prefix, damage):
-    new_item_config(mod_id,f"{material_prefix}_sword",'sword',{
+def new_sword_config(mod_id, material_prefix, damage, full_id=False):
+    new_item_config(mod_id,f"{material_prefix}_sword" if full_id else material_prefix,'sword',{
         "minecraft:generic.attack_damage" : (damage,'ADDITION'),
     })
 
@@ -114,6 +114,10 @@ def new_sword_config(mod_id, material_prefix, damage):
 
 # Custom item attributes config generator
 # ////////////////////////////////////////////////////////////////////
+
+
+
+# end related content
 new_sword_config("betterend","thallasium", 100)
 new_sword_config("betterend","terminite", 125)
 new_sword_config("betterend","aeternium", 155)
@@ -127,6 +131,13 @@ new_armor_set_config("betterend", "thallasium", [18,28,23,18], 10, 0.45)
 new_armor_set_config("betterend", "terminite", [25,38,31,25], 10, 0.45)
 new_armor_set_config("betterend", "aeternium", [31,46,40,31], 7.5, 0.3)
 new_armor_set_config("betterend", "crystalite", [40,59,49,40], 10.8, 0.45)
+
+
+
+# deeper and darker
+
+new_sword_config("deeperdarker","warden", 200)
+new_armor_set_config("deeperdarker", "warden", [50,70,60,50], 9, 0.5)
 
 # Saving
 # ////////////////////////////////////////////////////////////////////
@@ -168,6 +179,7 @@ def new_kjs_config_durability_material(mod_id, material, durability_tools, durab
     new_kjs_config_durability_armor_set(mod_id, material, durability_armor_list)
 # ///////////////////////////////////
 
+# ende related
 new_kjs_config_durability_armor_set("endlessbiomes", "anklor_shell_armour", [2950,4277,3982,3540])
 new_kjs_config_durability_armor_set("outer_end", "rose_crystal", [2950,4277,3982,3540])
 new_kjs_config_durability_armor_set("outer_end", "cobalt_crystal", [2950,4277,3982,3540])
@@ -177,6 +189,10 @@ new_kjs_config_durability_material("betterend", "thallasium",4500,[3000,4350,405
 new_kjs_config_durability_material("betterend", "terminite",4950,[3200,4640,4320,3840])
 new_kjs_config_durability_material("betterend", "aeternium",5250,[3400,4930,4590,4080])
 new_kjs_config_durability_armor_set("betterend", "crystalite", [3890,5640,5251,4668])
+
+
+# deeper
+new_kjs_config_durability_material("deeperdarker", "warden", 6000 , [4300,6235,5805,5160])
 
 # Saving
 # ////////////////////////////////////////////////////////////////////
