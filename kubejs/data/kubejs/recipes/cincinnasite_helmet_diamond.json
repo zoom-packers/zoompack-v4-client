@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "base": {
+    "item": "betternether:cincinnasite_helmet"
+  },
+  "result": {
+    "item": "kubejs:cincinnasite_diamond_helmet"
+  },
+  "template": {
+    "item": "betternether:cincinnasite_diamond_upgrade_smithing_template"
+  }
+}
