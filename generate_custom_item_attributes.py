@@ -131,7 +131,10 @@ def get_durability_list_from_helmet(helmet_durability):
 # Custom item attributes config generator
 # ////////////////////////////////////////////////////////////////////
 
-
+# Undergarden
+new_armor_set_config("undergarden", "froststeel", [11,15,11,11], 5, 0.3)
+new_sword_config("undergarden","forgotten_battleaxe", 259, full_id=True)
+new_sword_config("undergarden","cloggrum_battleaxe", 171, full_id=True)
 
 # end related content
 new_sword_config("betterend","thallasium", 100)
