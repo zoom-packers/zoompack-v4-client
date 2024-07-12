@@ -29,8 +29,14 @@ function modifyFullSets() {
     processor.modifySetRequirements("immersive_armors", "steampunk", 13, "armor");
     processor.modifySetRequirements("immersive_armors", "heavy", 14, "armor");
     processor.modifySetRequirements("minecraft", "diamond", 18);
+    processor.modifySingleItem("aquamirae", "abyssal_heaume", "helmet", 19);
+    processor.modifySingleItem("aquamirae", "abyssal_brigantine", "chestplate", 19);
+    processor.modifySetRequirements("aquamirae", "abyssal", 19, ["leggings", "boots"])
     processor.modifySetRequirements("blue_skies", "charoite", 20);
     processor.modifySetRequirements("immersive_armors", "prismarine", 20, "armor");
+    processor.modifySetRequirements("aquamirae", "terrible", 21, "armor")
+    processor.modifySingleItem("aquamirae", "three_bolt_suit", "chestplate", 21)
+    processor.modifySetRequirements("aquamirae", "three_bolt", 21 ["helmet", "leggings", "boots"])
     processor.modifySetRequirements("irons_spellbooks", "pyromancer", 22, "armor");
     processor.modifySetRequirements("irons_spellbooks", "electromancer", 22, "armor");
     processor.modifySetRequirements("irons_spellbooks", "archevoker", 22, "armor");
@@ -48,6 +54,7 @@ function modifyFullSets() {
     processor.modifySingleItem("aether", "valkyrie_lance", "sword", 37);
     processor.modifySetRequirements("aether", "phoenix", 39, "armor");
     processor.modifySetRequirements("aether", "obsidian", 40, "armor");
+    processor.modifySingleItem("aether", "mimicarmor_helmet", "helmet", 40);
     processor.modifySingleItem("cataclysm", "monstrous_helm", "helmet", 40);
     processor.modifySetRequirements("betternether", "cincinnasite", 42);
     processor.modifySetRequirements("betternether", "cincinnasite", 44, "tools", "{set_name}_{item}_diamond");

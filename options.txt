@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets"]
+resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","apotheosis","fabric","plentyplates:main","pmmo"]
 incompatibleResourcePacks:["builtin/towntalk"]
 lastServer:
 lang:en_us
@@ -336,7 +336,7 @@ key_key.inventoryhud.openconfig:key.keyboard.unknown
 key_key.inventoryhud.togglepot:key.keyboard.unknown
 key_key.inventoryhud.togglearm:key.keyboard.unknown
 key_key.inventoryhud.toggleall:key.keyboard.unknown
-soundCategory_master:0.6920529801324503
+soundCategory_master:0.0
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
