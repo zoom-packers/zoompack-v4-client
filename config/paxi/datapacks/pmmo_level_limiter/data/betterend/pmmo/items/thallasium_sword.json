@@ -1,10 +1,10 @@
 {
     "requirements": {
         "WEAPON": {
-            "combat": 66
+            "swordsmanship": 66
         },
         "WEAR": {
-            "combat": 66
+            "swordsmanship": 66
         }
     },
     "override": true

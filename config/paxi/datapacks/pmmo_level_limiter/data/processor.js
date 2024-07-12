@@ -9,7 +9,7 @@ const item_functions = {
     "leggings": templateFormatter.armor,
     "boots": templateFormatter.armor,
     "axe": templateFormatter.axe,
-    "sword": templateFormatter.weapon,
+    "sword": templateFormatter.sword,
     "pickaxe": templateFormatter.tool,
     "shovel": templateFormatter.tool,
     "hoe": templateFormatter.tool,

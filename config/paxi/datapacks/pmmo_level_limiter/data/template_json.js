@@ -8,14 +8,14 @@ function armor (value) {
     }
 }
 
-function weapon (value) {
+function sword (value) {
     return {
         requirements: {
             WEAPON: {
-                combat: value
+                swordsmanship: value
             },
             WEAR: {
-                combat: value
+                swordsmanship: value
             }
         }
     }
@@ -28,7 +28,7 @@ function axe (value) {
                 woodcutting: value
             },
             WEAPON: {
-                combat: value
+                swordsmanship: value
             },
             WEAR: {
                 woodcutting: value
@@ -75,7 +75,7 @@ function use(skill, value) {
 
 module.exports = {
     armor,
-    weapon,
+    sword,
     axe,
     tool,
     mount,
