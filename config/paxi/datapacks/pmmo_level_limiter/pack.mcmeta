@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "description": "A pack that gates the gear in the game, according to our progression system.",
+    "pack_format": 9
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "requirements": {
+        "TOOL": {
+            "woodcutting": 96
+        },
+        "WEAPON": {
+            "combat": 96
+        },
+        "WEAR": {
+            "woodcutting": 96
+        }
+    },
+    "override": true
+}

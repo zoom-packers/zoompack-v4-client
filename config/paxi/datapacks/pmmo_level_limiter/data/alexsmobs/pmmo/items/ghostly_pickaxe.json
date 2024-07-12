@@ -1,0 +1,14 @@
+{
+    "requirements": {
+        "TOOL": {
+            "mining": 0
+        },
+        "WEAR": {
+            "mining": 0
+        },
+        "WEAPON": {
+            "combat": 0
+        }
+    },
+    "override": true
+}

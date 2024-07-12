@@ -12,7 +12,7 @@
 !/config
 !/config/*
 !/config/paxi/*
-!/config/paxi/datapacks/*
+!/config/paxi/**
 !/kubejs
 !/kubejs/*
 !/kubejs/*/*
