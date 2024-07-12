@@ -118,6 +118,10 @@ new_sword_config("betterend","thallasium", 100)
 new_sword_config("betterend","terminite", 125)
 new_sword_config("betterend","aeternium", 155)
 
+new_armor_set_config("endlessbiomes", "anklor_shell_armour", [15,21,17,15], 9, 0.35)
+new_armor_set_config("outer_end", "rose_crystal", [15,21,17,15], 8, 0.3)
+new_armor_set_config("outer_end", "cobalt_crystal", [15,21,17,15], 8, 0.3)
+new_armor_set_config("outer_end", "mint_crystal", [15,21,17,15], 8, 0.3)
 
 new_armor_set_config("betterend", "thallasium", [18,28,23,18], 10, 0.45)
 new_armor_set_config("betterend", "terminite", [25,38,31,25], 10, 0.45)
@@ -164,8 +168,15 @@ def new_kjs_config_durability_material(mod_id, material, durability_tools, durab
     new_kjs_config_durability_armor_set(mod_id, material, durability_armor_list)
 # ///////////////////////////////////
 
-# new_kjs_config_durability_material("theabyss", "bone",6969,[69,696,969,96])
+new_kjs_config_durability_armor_set("endlessbiomes", "anklor_shell_armour", [2950,4277,3982,3540])
+new_kjs_config_durability_armor_set("outer_end", "rose_crystal", [2950,4277,3982,3540])
+new_kjs_config_durability_armor_set("outer_end", "cobalt_crystal", [2950,4277,3982,3540])
+new_kjs_config_durability_armor_set("outer_end", "mint_crystal", [2950,4277,3982,3540])
 
+new_kjs_config_durability_material("betterend", "thallasium",4500,[3000,4350,4050,3600])
+new_kjs_config_durability_material("betterend", "terminite",4950,[3200,4640,4320,3840])
+new_kjs_config_durability_material("betterend", "aeternium",5250,[3400,4930,4590,4080])
+new_kjs_config_durability_armor_set("betterend", "crystalite", [3890,5640,5251,4668])
 
 # Saving
 # ////////////////////////////////////////////////////////////////////
