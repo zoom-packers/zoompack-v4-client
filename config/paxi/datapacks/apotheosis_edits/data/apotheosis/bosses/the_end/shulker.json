@@ -1,0 +1,129 @@
+{
+  "entity": "minecraft:shulker",
+  "weight": 20,
+  "quality": 30,
+  "size": {
+    "width": 0.6,
+    "height": 1.95
+  },
+  "valid_gear_sets": [],
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "min_rarity": "custom_0",
+  "max_rarity": "custom_2",
+  "stats": {
+    "custom_0": {
+      "enchant_chance": 0.5,
+      "enchantment_levels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "effects": [],
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "operation": "ADDITION",
+          "value": 1750
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "ADDITION",
+          "value": 196
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "operation": "ADDITION",
+          "value": 0.2
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "operation": "ADDITION",
+          "value": 98
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "operation": "ADDITION",
+          "value": 70
+        }
+      ]
+    },
+    "custom_1": {
+      "enchant_chance": 0.5,
+      "enchantment_levels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "effects": [],
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "operation": "ADDITION",
+          "value": 2250
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "ADDITION",
+          "value": 252
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "operation": "ADDITION",
+          "value": 0.2
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "operation": "ADDITION",
+          "value": 126
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "operation": "ADDITION",
+          "value": 90
+        }
+      ]
+    },
+    "custom_2": {
+      "enchant_chance": 0.5,
+      "enchantment_levels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "effects": [],
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "operation": "ADDITION",
+          "value": 2750
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "ADDITION",
+          "value": 308
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "operation": "ADDITION",
+          "value": 0.2
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "operation": "ADDITION",
+          "value": 154
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "operation": "ADDITION",
+          "value": 110
+        }
+      ]
+    }
+  },
+  "replace": true
+}

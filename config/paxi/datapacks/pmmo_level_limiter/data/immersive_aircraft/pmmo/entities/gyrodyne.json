@@ -1,0 +1,8 @@
+{
+    "requirements": {
+        "RIDE": {
+            "agility": 30
+        }
+    },
+    "override": true
+}

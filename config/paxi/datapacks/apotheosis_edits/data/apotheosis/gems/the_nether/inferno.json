@@ -1,0 +1,124 @@
+{
+  "conditions": [
+    {
+      "type": "apotheosis:module",
+      "module": "enchantment"
+    }
+  ],
+  "weight": 5,
+  "quality": 1.5,
+  "dimensions": [
+    "the_nether"
+  ],
+  "unique": true,
+  "min_rarity": "rare",
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "heavy_weapon",
+        "types": [
+          "heavy_weapon"
+        ]
+      },
+      "attribute": "attributeslib:fire_damage",
+      "operation": "ADDITION",
+      "values": {
+        "rare": 6,
+        "epic": 8,
+        "mythic": 10,
+        "ancient": 75.95,
+        "custom_0": 15,
+        "custom_1": 22.5,
+        "custom_2": 33.75,
+        "custom_3": 50.63
+      }
+    },
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "light_weapon",
+        "types": [
+          "sword",
+          "trident"
+        ]
+      },
+      "mob_effect": "attributeslib:detonation",
+      "target": "attack_target",
+      "values": {
+        "mythic": {
+          "duration": 100,
+          "amplifier": 0,
+          "cooldown": 1200
+        },
+        "ancient": null,
+        "custom_0": null,
+        "custom_1": null,
+        "custom_2": null,
+        "custom_3": null
+      }
+    },
+    {
+      "type": "apotheosis:enchantment",
+      "gem_class": {
+        "key": "chestplate",
+        "types": [
+          "chestplate"
+        ]
+      },
+      "enchantment": "apotheosis:berserkers_fury",
+      "values": {
+        "rare": 1,
+        "epic": 1,
+        "mythic": 2,
+        "ancient": 15.2,
+        "custom_0": 3,
+        "custom_1": 4.5,
+        "custom_2": 6.75,
+        "custom_3": 10.13
+      }
+    },
+    {
+      "type": "apotheosis:enchantment",
+      "gem_class": {
+        "key": "breaker",
+        "types": [
+          "shovel",
+          "pickaxe"
+        ]
+      },
+      "enchantment": "efficiency",
+      "values": {
+        "rare": 1,
+        "epic": 2,
+        "mythic": 3,
+        "ancient": 22.8,
+        "custom_0": 4.5,
+        "custom_1": 6.75,
+        "custom_2": 10.13,
+        "custom_3": 15.2
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "helmet",
+        "types": [
+          "helmet"
+        ]
+      },
+      "attribute": "attributeslib:fire_damage",
+      "operation": "MULTIPLY_TOTAL",
+      "values": {
+        "rare": 0.5,
+        "epic": 0.625,
+        "mythic": 0.75,
+        "ancient": 5.75,
+        "custom_0": 1.13,
+        "custom_1": 1.7,
+        "custom_2": 2.55,
+        "custom_3": 3.83
+      }
+    }
+  ]
+}

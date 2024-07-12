@@ -1,0 +1,101 @@
+{
+  "variant": "ballast",
+  "weight": 10,
+  "quality": 0,
+  "dimensions": [],
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "light_weapon",
+        "types": [
+          "sword",
+          "trident"
+        ]
+      },
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "ADDITION",
+      "values": {
+        "common": 1,
+        "uncommon": 2,
+        "rare": 3.5,
+        "epic": 5,
+        "mythic": 7,
+        "ancient": 53.18,
+        "custom_0": 10.5,
+        "custom_1": 15.75,
+        "custom_2": 23.63,
+        "custom_3": 35.45
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "heavy_weapon",
+        "types": [
+          "heavy_weapon"
+        ]
+      },
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "ADDITION",
+      "values": {
+        "common": 2,
+        "uncommon": 4,
+        "rare": 5,
+        "epic": 7,
+        "mythic": 9,
+        "ancient": 68.36,
+        "custom_0": 13.5,
+        "custom_1": 20.25,
+        "custom_2": 30.38,
+        "custom_3": 45.57
+      }
+    },
+    {
+      "type": "apotheosis:durability",
+      "gem_class": {
+        "key": "breaker",
+        "types": [
+          "pickaxe",
+          "shovel"
+        ]
+      },
+      "values": {
+        "common": 0.1,
+        "uncommon": 0.15,
+        "rare": 0.25,
+        "epic": 0.35,
+        "mythic": 0.45,
+        "ancient": 3.45,
+        "custom_0": 0.68,
+        "custom_1": 1.02,
+        "custom_2": 1.53,
+        "custom_3": 2.3
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "core_armor",
+        "types": [
+          "chestplate",
+          "leggings"
+        ]
+      },
+      "attribute": "minecraft:generic.knockback_resistance",
+      "operation": "ADDITION",
+      "values": {
+        "common": 0.1,
+        "uncommon": 0.2,
+        "rare": 0.3,
+        "epic": 0.4,
+        "mythic": 0.5,
+        "ancient": 3.83,
+        "custom_0": 0.75,
+        "custom_1": 1.13,
+        "custom_2": 1.7,
+        "custom_3": 2.55
+      }
+    }
+  ]
+}

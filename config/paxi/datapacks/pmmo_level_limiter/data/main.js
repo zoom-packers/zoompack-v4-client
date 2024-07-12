@@ -1,0 +1,123 @@
+let processor = require("./processor")
+const {deleteAllItemsNotGenerated} = require("./processor");
+
+function modifyFullSets() {
+    processor.modifySetRequirements("immersive_armors", "wooden", 1, "armor");
+    processor.modifySetRequirements("immersive_armors", "bone", 2, "armor");
+    processor.modifySetRequirements("minecraft", "leather", 3, "armor");
+    processor.modifySetRequirements("minecraft", "turtle", 3, ["helmet"]);
+    processor.modifySetRequirements("minecraft", "stone", 3, "tools");
+    processor.modifySetRequirements("immersive_armors", "wither", 2, "armor");
+    processor.modifySetRequirements("minecraft", "chainmail", 5, "armor");
+    processor.modifySetRequirements("everythingcopper", "copper", 6);
+    processor.modifySingleItem("create", "copper_backtank", "chestplate", 5);
+    processor.modifySetRequirements("create", "copper_diving", 5, ["helmet", "boots"]);
+    processor.modifySetRequirements("blue_skies", "pyrope", 6);
+    processor.modifySetRequirements("immersive_armors", "warrior", 7, "armor");
+    processor.modifySingleItem("mutantmonsters", "mutant_skeleton_skull", "helmet", 5);
+    processor.modifySetRequirements("mutantmonsters", "mutant_skeleton", 8, ["chestplate", "leggings", "boots"]);
+    processor.modifySetRequirements("minecraft", "iron", 9);
+    processor.modifySetRequirements("blue_skies", "aquite", 9);
+    processor.modifySetRequirements("irons_spellbooks", "wandering_magician", 10, "armor");
+    processor.modifySetRequirements("immersive_armors", "slime", 10, "armor");
+    processor.modifySetRequirements("immersive_armors", "robe", 10, "armor");
+    processor.modifySetRequirements("kobolds", "kobold_iron", 11, "tools");
+    processor.modifySetRequirements("minecraft", "gold", 12, undefined, "golden_{item}");
+    processor.modifySetRequirements("irons_spellbooks", "pumpkin", 12, "armor");
+    processor.modifySetRequirements("blue_skies", "diopside", 12);
+    processor.modifySetRequirements("immersive_armors", "divine", 13, "armor");
+    processor.modifySetRequirements("immersive_armors", "steampunk", 13, "armor");
+    processor.modifySetRequirements("immersive_armors", "heavy", 14, "armor");
+    processor.modifySetRequirements("minecraft", "diamond", 18);
+    processor.modifySetRequirements("blue_skies", "charoite", 20);
+    processor.modifySetRequirements("immersive_armors", "prismarine", 20, "armor");
+    processor.modifySetRequirements("irons_spellbooks", "pyromancer", 22, "armor");
+    processor.modifySetRequirements("irons_spellbooks", "electromancer", 22, "armor");
+    processor.modifySetRequirements("irons_spellbooks", "archevoker", 22, "armor");
+    processor.modifySetRequirements("irons_spellbooks", "cultist", 22, "armor");
+    processor.modifySetRequirements("irons_spellbooks", "cryomancer", 22, "armor");
+    processor.modifySetRequirements("irons_spellbooks", "shadowwalker", 22, "armor");
+    processor.modifySetRequirements("irons_spellbooks", "priest", 22, "armor");
+    processor.modifySetRequirements("irons_spellbooks", "plagued", 22, "armor");
+    processor.modifySetRequirements("aquaculture", "neptunium", 23);
+    processor.modifySetRequirements("blue_skies", "horizonite", 25);
+    processor.modifySetRequirements("aether", "zanite", 30);
+    processor.modifySetRequirements("aether", "neptune", 32, "armor");
+    processor.modifySetRequirements("aether", "gravitite", 35);
+    processor.modifySetRequirements("aether", "valkyrie", 37, ["helmet", "chestplate", "leggings", "boots", "axe", "pickaxe", "shovel", "hoe"]);
+    processor.modifySingleItem("aether", "valkyrie_lance", "sword", 37);
+    processor.modifySetRequirements("aether", "phoenix", 39, "armor");
+    processor.modifySetRequirements("aether", "obsidian", 40, "armor");
+    processor.modifySingleItem("cataclysm", "monstrous_helm", "helmet", 40);
+    processor.modifySetRequirements("betternether", "cincinnasite", 42);
+    processor.modifySetRequirements("betternether", "cincinnasite", 44, "tools", "{set_name}_{item}_diamond");
+    processor.modifySetRequirements("kubejs", "cincinnasite_diamond", 44, "armor");
+    processor.modifySetRequirements("betternether", "nether_ruby", 47);
+    processor.modifySetRequirements("betternether", "flaming_ruby", 50);
+    processor.modifySetRequirements("minecraft", "netherite", 53);
+    processor.modifySingleItem("create", "netherite_backtank", "chestplate", 5);
+    processor.modifySetRequirements("create", "netherite_diving", 53, ["helmet", "boots"]);
+    processor.modifySetRequirements("undergarden", "cloggrum", 55);
+    processor.modifySetRequirements("undergarden", "froststeel", 59);
+    processor.modifySetRequirements("undergarden", "utherium", 62);
+    processor.modifySetRequirements("undergarden", "forgotten", 64, "tools");
+    processor.modifySingleItem("undergarden", "forgotten_battleaxe", "sword", 64);
+    processor.modifySetRequirements("betterend", "thallasium", 66);
+    processor.modifySetRequirements("betterend", "terminite", 69);
+    processor.modifySetRequirements("betterend", "aeternium", 73);
+    processor.modifySetRequirements("betterend", "crystalite", 77, "armor");
+    processor.modifySetRequirements("deeperdarker", "warden", 80);
+    processor.modifySetRequirements("theabyss", "bone_armor", 90, "armor");
+    processor.modifySetRequirements("theabyss", "bone", 90, ["axe", "pickaxe", "shovel", "hoe"]);
+    processor.modifySetRequirements("theabyss", "bone", 90, ["sword"], "{set_name}_{item}_item");
+    processor.modifySetRequirements("theabyss", "garnite_armor", 92, "armor");
+    processor.modifySetRequirements("theabyss", "garnite", 92, "tools");
+    processor.modifySetRequirements("theabyss", "ignisithe_armor", 94, "armor");
+    processor.modifySetRequirements("theabyss", "ignisithe", 94, ["sword"]);
+    processor.modifySetRequirements("theabyss", "aberythe_armor", 95, "armor");
+    processor.modifySetRequirements("theabyss", "aberythe", 95, "tools");
+    processor.modifySetRequirements("theabyss", "fusion_armor", 95, "armor");
+    processor.modifySetRequirements("theabyss", "fusion", 95, "tools");
+    processor.modifySetRequirements("theabyss", "unorithe_armor", 96, "armor");
+    processor.modifySetRequirements("theabyss", "unorithe", 96, ["sword", "axe", "shovel", "hoe"]);
+    processor.modifySingleItem("theabyss", "unorithe_pick_axe", "pickaxe", 96);
+    processor.modifySetRequirements("theabyss", "phantom_armor", 97, "armor");
+    processor.modifySetRequirements("theabyss", "phantom", 97, "tools");
+    processor.modifySetRequirements("theabyss", "incorythe_armor", 99, "armor");
+    processor.modifySetRequirements("theabyss", "incorythe", 99, "tools");
+    processor.modifySetRequirements("cataclysm", "ignitium", 100, "armor");
+    processor.modifySetRequirements("cataclysm_weaponery", "ignitium", 100, "tools");
+}
+
+function modifyMiscItems() {
+    processor.modifySingleItem("alexsmobs", "skelewag_sword", "sword", 0);
+    processor.modifySingleItem("alexsmobs", "ghostly_pickaxe", "pickaxe", 0);
+    processor.modifySingleItem("alexsmobs", "tendon_whip", "sword", 0);
+
+    processor.modifySingleItem("alexsmobs", "roadrunner_boots", "boots", 3);
+    processor.modifySingleItem("alexsmobs", "crocodile_chestplate", "chestplate", 8);
+    processor.modifySingleItem("alexsmobs", "centipede_leggings", "leggings", 12);
+    processor.modifySingleItem("alexsmobs", "moose_headgear", "leggings", 12);
+    processor.modifySingleItem("alexsmobs", "frontier_cap", "helmet", 12);
+    processor.modifySingleItem("alexsmobs", "sombrero", "helmet", 12);
+    processor.modifySingleItem("alexsmobs", "spiked_turtle_shell", "helmet", 12);
+    processor.modifySingleItem("alexsmobs", "emu_leggings", "leggings", 12);
+    processor.modifySingleItem("alexsmobs", "fedora", "helmet", 12);
+    processor.modifySingleItem("alexsmobs", "tarantula_hawk_elytra", "chestplate", 300);
+    processor.modifySingleItem("alexsmobs", "froststalker_helmet", "helmet", 12);
+    processor.modifySingleItem("alexsmobs", "rocky_chestplate", "chestplate", 12);
+    processor.modifySingleItem("alexsmobs", "flying_fish_boots", "boots", 12);
+    processor.modifySingleItem("alexsmobs", "novelty_hat", "helmet", 12);
+    processor.modifySingleItem("alexsmobs", "unsettling_kimono", "chestplate", 12);
+}
+
+function modifyMounts() {
+    processor.modifySingleItemForMount("immersive_aircraft", "gyrodyne", "agility", 30)
+    processor.modifyEntityMountable("immersive_aircraft", "gyrodyne", "agility", 30)
+}
+
+modifyFullSets()
+modifyMiscItems()
+modifyMounts()
+
+

@@ -1,0 +1,80 @@
+{
+  "variant": "slipstream",
+  "weight": 10,
+  "quality": 0,
+  "unique": true,
+  "dimensions": [],
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "ranged_weapon",
+        "types": [
+          "bow",
+          "crossbow"
+        ]
+      },
+      "attribute": "attributeslib:draw_speed",
+      "operation": "MULTIPLY_BASE",
+      "values": {
+        "common": 0.1,
+        "uncommon": 0.25,
+        "rare": 0.35,
+        "epic": 0.45,
+        "mythic": 0.5,
+        "ancient": 3.83,
+        "custom_0": 0.75,
+        "custom_1": 1.13,
+        "custom_2": 1.7,
+        "custom_3": 2.55
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "breaker",
+        "types": [
+          "shovel",
+          "pickaxe"
+        ]
+      },
+      "attribute": "attributeslib:mining_speed",
+      "operation": "MULTIPLY_BASE",
+      "values": {
+        "common": 0.05,
+        "uncommon": 0.15,
+        "rare": 0.225,
+        "epic": 0.3,
+        "mythic": 0.375,
+        "ancient": 2.84,
+        "custom_0": 0.56,
+        "custom_1": 0.84,
+        "custom_2": 1.26,
+        "custom_3": 1.89
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "boots",
+        "types": [
+          "boots"
+        ]
+      },
+      "attribute": "attributeslib:dodge_chance",
+      "operation": "ADDITION",
+      "values": {
+        "common": 0.025,
+        "uncommon": 0.05,
+        "rare": 0.075,
+        "epic": 0.1,
+        "mythic": 0.125,
+        "ancient": 0.99,
+        "custom_0": 0.19,
+        "custom_1": 0.29,
+        "custom_2": 0.44,
+        "custom_3": 0.66
+      }
+    }
+  ]
+}

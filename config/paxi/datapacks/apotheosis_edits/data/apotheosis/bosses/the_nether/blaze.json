@@ -1,0 +1,92 @@
+{
+  "entity": "minecraft:blaze",
+  "weight": 20,
+  "quality": 15,
+  "size": {
+    "width": 0.6,
+    "height": 1.95
+  },
+  "valid_gear_sets": [],
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "min_rarity": "epic",
+  "max_rarity": "mythic",
+  "stats": {
+    "epic": {
+      "enchant_chance": 0.5,
+      "enchantment_levels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "effects": [],
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "operation": "ADDITION",
+          "value": 600
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "ADDITION",
+          "value": 60
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "operation": "ADDITION",
+          "value": 0.2
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "operation": "ADDITION",
+          "value": 40
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "operation": "ADDITION",
+          "value": 20
+        }
+      ]
+    },
+    "mythic": {
+      "enchant_chance": 0.5,
+      "enchantment_levels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "effects": [],
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "operation": "ADDITION",
+          "value": 825
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "ADDITION",
+          "value": 82.5
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "operation": "ADDITION",
+          "value": 0.2
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "operation": "ADDITION",
+          "value": 55
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "operation": "ADDITION",
+          "value": 27.5
+        }
+      ]
+    }
+  },
+  "replace": true
+}

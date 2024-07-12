@@ -1,0 +1,11 @@
+{
+    "requirements": {
+        "WEAPON": {
+            "combat": 62
+        },
+        "WEAR": {
+            "combat": 62
+        }
+    },
+    "override": true
+}

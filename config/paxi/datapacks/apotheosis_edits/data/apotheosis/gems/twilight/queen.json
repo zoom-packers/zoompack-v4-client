@@ -1,0 +1,112 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "weight": 5,
+  "quality": 1.5,
+  "dimensions": [
+    "twilightforest:twilight_forest"
+  ],
+  "unique": true,
+  "min_rarity": "rare",
+  "bonuses": [
+    {
+      "type": "apotheosis:twilight_fortification",
+      "gem_class": {
+        "key": "chestplate",
+        "types": [
+          "chestplate"
+        ]
+      },
+      "values": {
+        "rare": {
+          "chance": 0.05,
+          "cooldown": 6000
+        },
+        "epic": {
+          "chance": 0.1,
+          "cooldown": 5400
+        },
+        "mythic": {
+          "chance": 0.125,
+          "cooldown": 5100
+        },
+        "ancient": null,
+        "custom_0": null,
+        "custom_1": null,
+        "custom_2": null,
+        "custom_3": null
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "helmet",
+        "types": [
+          "helmet"
+        ]
+      },
+      "attribute": "attributeslib:cold_damage",
+      "operation": "MULTIPLY_TOTAL",
+      "values": {
+        "rare": 0.5,
+        "epic": 0.625,
+        "mythic": 0.75,
+        "ancient": 5.75,
+        "custom_0": 1.13,
+        "custom_1": 1.7,
+        "custom_2": 2.55,
+        "custom_3": 3.83
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "heavy_weapon",
+        "types": [
+          "heavy_weapon"
+        ]
+      },
+      "attribute": "attributeslib:cold_damage",
+      "operation": "ADDITION",
+      "values": {
+        "rare": 6,
+        "epic": 8,
+        "mythic": 10,
+        "ancient": 75.95,
+        "custom_0": 15,
+        "custom_1": 22.5,
+        "custom_2": 33.75,
+        "custom_3": 50.63
+      }
+    },
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "ranged_weapon",
+        "types": [
+          "bow",
+          "crossbow",
+          "trident"
+        ]
+      },
+      "mob_effect": "twilightforest:frosted",
+      "target": "arrow_target",
+      "values": {
+        "mythic": {
+          "duration": 180,
+          "amplifier": 1,
+          "cooldown": 500
+        },
+        "ancient": null,
+        "custom_0": null,
+        "custom_1": null,
+        "custom_2": null,
+        "custom_3": null
+      }
+    }
+  ]
+}

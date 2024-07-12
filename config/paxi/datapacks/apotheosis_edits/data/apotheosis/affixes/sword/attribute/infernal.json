@@ -1,0 +1,56 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "attributeslib:fire_damage",
+  "operation": "ADDITION",
+  "values": {
+    "uncommon": {
+      "min": 2,
+      "steps": 4,
+      "step": 0.25
+    },
+    "rare": {
+      "min": 2,
+      "steps": 4,
+      "step": 0.25
+    },
+    "epic": {
+      "min": 2.5,
+      "steps": 8,
+      "step": 0.25
+    },
+    "mythic": {
+      "min": 3,
+      "steps": 8,
+      "step": 0.25
+    },
+    "ancient": {
+      "min": 9.16,
+      "steps": 35.87,
+      "step": 0.3
+    },
+    "custom_0": {
+      "min": 3.75,
+      "steps": 10.8,
+      "step": 0.26
+    },
+    "custom_1": {
+      "min": 4.69,
+      "steps": 14.58,
+      "step": 0.27
+    },
+    "custom_2": {
+      "min": 5.86,
+      "steps": 19.68,
+      "step": 0.28
+    },
+    "custom_3": {
+      "min": 7.33,
+      "steps": 26.57,
+      "step": 0.29
+    }
+  },
+  "types": [
+    "sword",
+    "trident"
+  ]
+}

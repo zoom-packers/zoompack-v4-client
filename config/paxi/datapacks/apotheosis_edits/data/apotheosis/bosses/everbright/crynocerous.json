@@ -1,0 +1,129 @@
+{
+  "entity": "blue_skies:crynocerous",
+  "weight": 20,
+  "quality": 7,
+  "size": {
+    "width": 0.6,
+    "height": 1.95
+  },
+  "valid_gear_sets": [],
+  "dimensions": [
+    "blue_skies:everbright"
+  ],
+  "min_rarity": "uncommon",
+  "max_rarity": "epic",
+  "stats": {
+    "uncommon": {
+      "enchant_chance": 0.5,
+      "enchantment_levels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "effects": [],
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "operation": "ADDITION",
+          "value": 200
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "ADDITION",
+          "value": 17.5
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "operation": "ADDITION",
+          "value": 0.2
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "operation": "ADDITION",
+          "value": 17.5
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "operation": "ADDITION",
+          "value": 5
+        }
+      ]
+    },
+    "rare": {
+      "enchant_chance": 0.5,
+      "enchantment_levels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "effects": [],
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "operation": "ADDITION",
+          "value": 240
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "ADDITION",
+          "value": 21
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "operation": "ADDITION",
+          "value": 0.2
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "operation": "ADDITION",
+          "value": 21
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "operation": "ADDITION",
+          "value": 6
+        }
+      ]
+    },
+    "epic": {
+      "enchant_chance": 0.5,
+      "enchantment_levels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "effects": [],
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "operation": "ADDITION",
+          "value": 320
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "ADDITION",
+          "value": 28
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "operation": "ADDITION",
+          "value": 0.2
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "operation": "ADDITION",
+          "value": 28
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "operation": "ADDITION",
+          "value": 8
+        }
+      ]
+    }
+  },
+  "replace": true
+}
