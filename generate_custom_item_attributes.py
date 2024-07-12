@@ -106,11 +106,27 @@ def new_armor_set_config(mod_id, material_prefix, armor_list, armor_toughness, k
 
 
 def new_sword_config(mod_id, material_prefix, damage, full_id=False):
-    new_item_config(mod_id,f"{material_prefix}_sword" if full_id else material_prefix,'sword',{
+    new_item_config(mod_id,f"{material_prefix}_sword" if not full_id else material_prefix,'sword',{
         "minecraft:generic.attack_damage" : (damage,'ADDITION'),
     })
 
+def get_durability_list_from_helmet(helmet_durability):
+    shares = {
+        'helm': 0.20,
+        'chest': 0.29,
+        'leggings': 0.27,
+        'boots': 0.24
+    }
+    total_quantity = helmet_durability / shares['helm']
 
+    quantities = [
+        int(helmet_durability),
+        int(shares['chest'] * total_quantity),
+        int(shares['leggings'] * total_quantity),
+        int(shares['boots'] * total_quantity)
+    ]
+
+    return quantities
 
 # Custom item attributes config generator
 # ////////////////////////////////////////////////////////////////////
@@ -133,11 +149,23 @@ new_armor_set_config("betterend", "aeternium", [31,46,40,31], 7.5, 0.3)
 new_armor_set_config("betterend", "crystalite", [40,59,49,40], 10.8, 0.45)
 
 
-
 # deeper and darker
-
 new_sword_config("deeperdarker","warden", 200)
 new_armor_set_config("deeperdarker", "warden", [50,70,60,50], 9, 0.5)
+
+
+# The abyss
+new_armor_set_config("theabyss", "glacerythe_armor", [70,100,80,70], 10, 0.35)
+new_armor_set_config("theabyss", "aberythe_armor", [80,110,90,80], 11.5, 0.6)
+new_sword_config("theabyss","aberythe", 200)
+new_armor_set_config("theabyss", "ignisithe_armor", [90,120,100,90], 12.5, 0.65)
+new_sword_config("theabyss","ignisithe", 240)
+new_armor_set_config("theabyss", "garnite_armor", [100,130,110,100], 13.5, 0.4)
+new_sword_config("theabyss","garnite", 280)
+new_armor_set_config("theabyss", "incorythe_armor", [110,140,120,110], 13, 0.7)
+new_sword_config("theabyss","incorythe", 300)
+new_sword_config("theabyss","incorythe_sword_mkii", 330, full_id=True)
+
 
 # Saving
 # ////////////////////////////////////////////////////////////////////
@@ -180,19 +208,36 @@ def new_kjs_config_durability_material(mod_id, material, durability_tools, durab
 # ///////////////////////////////////
 
 # ende related
-new_kjs_config_durability_armor_set("endlessbiomes", "anklor_shell_armour", [2950,4277,3982,3540])
-new_kjs_config_durability_armor_set("outer_end", "rose_crystal", [2950,4277,3982,3540])
-new_kjs_config_durability_armor_set("outer_end", "cobalt_crystal", [2950,4277,3982,3540])
-new_kjs_config_durability_armor_set("outer_end", "mint_crystal", [2950,4277,3982,3540])
+new_kjs_config_durability_armor_set("endlessbiomes", "anklor_shell_armour", get_durability_list_from_helmet(2950))
+new_kjs_config_durability_armor_set("outer_end", "rose_crystal", get_durability_list_from_helmet(2950))
+new_kjs_config_durability_armor_set("outer_end", "cobalt_crystal", get_durability_list_from_helmet(2950))
+new_kjs_config_durability_armor_set("outer_end", "mint_crystal", get_durability_list_from_helmet(2950))
 
-new_kjs_config_durability_material("betterend", "thallasium",4500,[3000,4350,4050,3600])
-new_kjs_config_durability_material("betterend", "terminite",4950,[3200,4640,4320,3840])
-new_kjs_config_durability_material("betterend", "aeternium",5250,[3400,4930,4590,4080])
-new_kjs_config_durability_armor_set("betterend", "crystalite", [3890,5640,5251,4668])
+new_kjs_config_durability_material("betterend", "thallasium", 4500, get_durability_list_from_helmet(3000))
+new_kjs_config_durability_material("betterend", "terminite", 4950, get_durability_list_from_helmet(3200))
+new_kjs_config_durability_material("betterend", "aeternium", 5250, get_durability_list_from_helmet(3400))
+new_kjs_config_durability_armor_set("betterend", "crystalite",  get_durability_list_from_helmet(3890))
 
 
 # deeper
-new_kjs_config_durability_material("deeperdarker", "warden", 6000 , [4300,6235,5805,5160])
+new_kjs_config_durability_material("deeperdarker", "warden", 6000,  get_durability_list_from_helmet(4300))
+
+# Abyss
+new_kjs_config_durability_armor_set("theabyss", "glacerythe_armor",  get_durability_list_from_helmet(4500))
+
+new_kjs_config_durability_armor_set("theabyss", "aberythe_armor",  get_durability_list_from_helmet(4650))
+new_kjs_config_durability_tools("theabyss", "aberythe", 6250)
+
+new_kjs_config_durability_armor_set("theabyss", "ignisithe_armor", get_durability_list_from_helmet(4890))
+new_kjs_config_durability("theabyss", "ignisithe_sword", 6500)
+
+new_kjs_config_durability_armor_set("theabyss", "garnite_armor", get_durability_list_from_helmet(5100))
+new_kjs_config_durability_tools("theabyss", "garnite", 6750)
+
+new_kjs_config_durability_armor_set("theabyss", "incorythe_armor", get_durability_list_from_helmet(5350))
+new_kjs_config_durability_tools("theabyss", "incorythe", 7000)
+new_kjs_config_durability("theabyss", "incorythe_sword_mkii", 7300)
+
 
 # Saving
 # ////////////////////////////////////////////////////////////////////
