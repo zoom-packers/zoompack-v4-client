@@ -110,6 +110,10 @@ def new_sword_config(mod_id, material_prefix, damage):
         "minecraft:generic.attack_damage" : (damage,'ADDITION'),
     })
 
+
+
+# Custom item attributes config generator
+# ////////////////////////////////////////////////////////////////////
 new_sword_config("betterend","thallasium", 100)
 new_sword_config("betterend","terminite", 125)
 new_sword_config("betterend","aeternium", 155)
@@ -120,5 +124,50 @@ new_armor_set_config("betterend", "terminite", [25,38,31,25], 10, 0.45)
 new_armor_set_config("betterend", "aeternium", [31,46,40,31], 7.5, 0.3)
 new_armor_set_config("betterend", "crystalite", [40,59,49,40], 10.8, 0.45)
 
+# Saving
+# ////////////////////////////////////////////////////////////////////
 with open(config_path, 'w+') as f:
     f.write(json.dumps(base_config, indent=4))
+
+# Kube JS config generator
+
+js_base_str = """
+ItemEvents.modification((event) => {
+    {--}
+});
+"""
+
+def new_kjs_config_durability(mod_id, item_id, durability):
+    global js_base_str
+    new_js = """event.modify(\"""" + mod_id + ':' + item_id + """\", item => {
+        item.maxDamage = """ + str(durability) + """;
+    });
+    {--}"""
+    js_base_str = js_base_str.replace('{--}', new_js)
+
+def new_kjs_config_durability_armor_set(mod_id, material, durability_list):
+    armor_durabilities = {
+        'helmet':durability_list[0],
+        'chestplate':durability_list[1],
+        'leggings':durability_list[2],
+        'boots':durability_list[3],
+    }
+    for piece in ['helmet', 'chestplate', 'leggings', 'boots']:
+        new_kjs_config_durability(mod_id, f'{material}_{piece}', armor_durabilities[piece])
+
+def new_kjs_config_durability_tools(mod_id, material, durability):
+    for piece in ['sword', 'axe', 'pickaxe', 'shovel', 'hoe']:
+        new_kjs_config_durability(mod_id, f'{material}_{piece}', durability)
+
+def new_kjs_config_durability_material(mod_id, material, durability_tools, durability_armor_list):
+    new_kjs_config_durability_tools(mod_id, material, durability_tools)
+    new_kjs_config_durability_armor_set(mod_id, material, durability_armor_list)
+# ///////////////////////////////////
+
+# new_kjs_config_durability_material("theabyss", "bone",6969,[69,696,969,96])
+
+
+# Saving
+# ////////////////////////////////////////////////////////////////////
+with open('kubejs\startup_scripts\general_durability.js', 'w+') as f:
+    f.write(js_base_str.replace('{--}',''))
