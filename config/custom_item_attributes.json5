@@ -1,6 +1,590 @@
 {
     "items": [
         {
+            "item": "blue_skies:pyrope_helmet",
+            "overrides_head": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 1.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 2,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:pyrope_chestplate",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 3.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 2,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:pyrope_leggings",
+            "overrides_legs": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 2.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 2,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:pyrope_boots",
+            "overrides_feet": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 2.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 2,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:pyrope_sword",
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.5,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:aquite_helmet",
+            "overrides_head": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 2,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 2,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:aquite_chestplate",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 3,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 2,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:aquite_leggings",
+            "overrides_legs": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 2,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 2,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:aquite_boots",
+            "overrides_feet": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 2,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 2,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:aquite_sword",
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 2,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:diopside_helmet",
+            "overrides_head": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 2,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": -2,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:diopside_chestplate",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 2.25,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": -2,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:diopside_leggings",
+            "overrides_legs": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 2,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": -2,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:diopside_boots",
+            "overrides_feet": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 2,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": -2,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:charoite_helmet",
+            "overrides_head": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 1,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:charoite_chestplate",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 1.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:charoite_leggings",
+            "overrides_legs": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 1.25,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:charoite_boots",
+            "overrides_feet": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 1.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:charoite_sword",
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 3,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:horizonite_helmet",
+            "overrides_head": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 2.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 2.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:horizonite_chestplate",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 4.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 2.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:horizonite_leggings",
+            "overrides_legs": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 3.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 2.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:horizonite_boots",
+            "overrides_feet": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 3.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 2.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "unbreakable": false
+        },
+        {
+            "item": "blue_skies:horizonite_sword",
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 4.5,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
             "item": "undergarden:froststeel_helmet",
             "overrides_head": [
                 {
