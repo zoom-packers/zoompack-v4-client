@@ -1,0 +1,37 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "abyssal"
+	group: "653CB9213F69DF0A"
+	icon: "theabyss:eye_of_abyss"
+	id: "4E57F70FEB4CECB2"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1118105FC75DE975"]
+			icon: "theabyss:eye_of_abyss"
+			id: "66A4C5E4A2DCED88"
+			tasks: [{
+				dimension: "theabyss:the_abyss"
+				id: "1246222D5B675547"
+				type: "dimension"
+			}]
+			title: "It stares back..."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1118105FC75DE975"
+			tasks: [{
+				id: "7871733FE2DDED4D"
+				item: "theabyss:dream_shifter"
+				type: "item"
+			}]
+			title: "The dreamscape"
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "Abyssal"
+}

@@ -29,6 +29,7 @@ function modifyFullSets() {
     processor.modifySetRequirements("immersive_armors", "steampunk", 13, "armor");
     processor.modifySetRequirements("immersive_armors", "heavy", 14, "armor");
     processor.modifySetRequirements("minecraft", "diamond", 18);
+    processor.modifySingleItem("minecraft", "trident", "sword", 20);
     processor.modifySingleItem("aquamirae", "abyssal_heaume", "helmet", 19);
     processor.modifySingleItem("aquamirae", "abyssal_brigantine", "chestplate", 19);
     processor.modifySetRequirements("aquamirae", "abyssal", 19, ["leggings", "boots"])
@@ -118,6 +119,70 @@ function modifyMiscItems() {
     processor.modifySingleItem("alexsmobs", "unsettling_kimono", "chestplate", 12);
 }
 
+function modifySophisticatedBackpacks() {
+    processor.modifyGeneralUseItemRequirements("sophisticatedbackpacks", "backpack", "endurance", 5);
+    processor.modifyGeneralUseItemRequirements("sophisticatedbackpacks", "copper_backpack", "endurance", 10);
+    processor.modifyGeneralUseItemRequirements("sophisticatedbackpacks", "iron_backpack", "endurance", 20);
+    processor.modifyGeneralUseItemRequirements("sophisticatedbackpacks", "gold_backpack", "endurance", 40);
+    processor.modifyGeneralUseItemRequirements("sophisticatedbackpacks", "diamond_backpack", "endurance", 60);
+    processor.modifyGeneralUseItemRequirements("sophisticatedbackpacks", "netherite_backpack", "endurance", 80);
+}
+
+function modifySophisticatedStorage() {
+    let levels = [2, 5, 10, 15, 20, 25];
+    modifyStorageBlocksByType("{tier}_barrel", "crafting", levels);
+    modifyStorageBlocksByType("limited_{tier}_barrel_1", "crafting", levels);
+    modifyStorageBlocksByType("limited_{tier}_barrel_2", "crafting", levels);
+    modifyStorageBlocksByType("limited_{tier}_barrel_3", "crafting", levels);
+    modifyStorageBlocksByType("limited_{tier}_barrel_4", "crafting", levels);
+    modifyStorageBlocksByType("{tier}_chest", "crafting", levels);
+    modifyStorageBlocksByType("{tier}_shulker_box", "crafting", levels + 20);
+
+    processor.modifyPlaceBlockRequirements("sophisticatedstorage", "controller", "crafting", 10);
+    processor.modifyPlaceBlockRequirements("sophisticatedstorage", "storage_link", "crafting", 15);
+    processor.modifyPlaceBlockRequirements("sophisticatedstorage", "storage_io", "crafting", 20);
+    processor.modifyPlaceBlockRequirements("sophisticatedstorage", "storage_input", "crafting", 25);
+    processor.modifyPlaceBlockRequirements("sophisticatedstorage", "storage_output", "crafting", 30);
+}
+
+function modifyRefinedStorage() {
+    processor.modifyPlaceBlockRequirements("refinedstorage", "controller", "crafting", 30);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "grid", "crafting", 30);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "crafting_grid", "crafting", 30);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "fluid_grid", "crafting", 30);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "pattern_grid", "crafting", 30);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "crafter_manager", "crafting", 30);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "crafting_monitor", "crafting", 30);
+
+    processor.modifyPlaceBlockRequirements("refinedstorage", "1k_storage_block", "crafting", 30);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "4k_storage_block", "crafting", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "16k_storage_block", "crafting", 50);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "64k_storage_block", "crafting", 60);
+
+    processor.modifyPlaceBlockRequirements("refinedstorage", "1k_fluid_storage_block", "crafting", 30);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "4k_fluid_storage_block", "crafting", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "16k_fluid_storage_block", "crafting", 50);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "64k_fluid_storage_block", "crafting", 60);
+
+    processor.modifyPlaceBlockRequirements("refinedstorage", "disk_drive", "crafting", 60);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "importer", "crafting", 70);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "cable", "crafting", 70);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "exporter", "crafting", 70);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "external_storage", "crafting", 70);
+}
+
+function modifyStorageBlocksByType(template, skill, levels) {
+    processor.modifyPlaceBlockRequirements("sophisticatedstorage",
+        !template.includes("limited") ?
+            template.substring(7):
+            template.replace("{tier}", "").replace("__","_"), skill, levels[0]);
+    processor.modifyPlaceBlockRequirements("sophisticatedstorage", template.replace("{tier}", "copper").replace("__","_"), skill, levels[1]);
+    processor.modifyPlaceBlockRequirements("sophisticatedstorage", template.replace("{tier}", "iron").replace("__","_"), skill, levels[2]);
+    processor.modifyPlaceBlockRequirements("sophisticatedstorage", template.replace("{tier}", "gold").replace("__","_"), skill, levels[3]);
+    processor.modifyPlaceBlockRequirements("sophisticatedstorage", template.replace("{tier}", "diamond").replace("__","_"), skill, levels[4]);
+    processor.modifyPlaceBlockRequirements("sophisticatedstorage", template.replace("{tier}", "netherite").replace("__","_"), skill, levels[5]);
+}
+
 function modifyMounts() {
     processor.modifySingleItemForMount("immersive_aircraft", "gyrodyne", "agility", 30)
     processor.modifyEntityMountable("immersive_aircraft", "gyrodyne", "agility", 30)
@@ -126,5 +191,8 @@ function modifyMounts() {
 modifyFullSets()
 modifyMiscItems()
 modifyMounts()
+modifySophisticatedBackpacks()
+modifySophisticatedStorage()
+modifyRefinedStorage()
 
 

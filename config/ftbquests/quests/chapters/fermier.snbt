@@ -1,0 +1,1261 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fermier"
+	group: "13CD0C62E96AC261"
+	icon: {
+		Count: 1
+		id: "minecraft:golden_hoe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "74622BF11DA05692"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1C5B79B916E043AD"
+			rewards: [{
+				id: "01954FB136C5B71E"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5E837C88D0569ABF"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					id: "301E672C33754ADB"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					id: "7C7E655C0D82B5FF"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+			]
+			title: "The basics"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "2DED787833A9D4F5"
+			rewards: [
+				{
+					count: 3
+					id: "671B90EB3F0059B8"
+					item: "croptopia:olive_oil"
+					type: "item"
+				}
+				{
+					id: "11F4E0730BA993AC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 32
+					id: "6C82AA073477C564"
+					item: "minecraft:oak_fence"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3D2DDA2B3B895D6E"
+					item: "minecraft:oak_fence_gate"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "44278036BDB27DB4"
+					item: "minecraft:beef"
+					type: "item"
+				}
+				{
+					id: "65D98382C1658CDC"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+				{
+					id: "2CCC50837B3ACD34"
+					item: "minecraft:mutton"
+					type: "item"
+				}
+				{
+					id: "3009E3D766C03AE8"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+			]
+			title: "Like it raw"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "01C00F153FC95541"
+			rewards: [{
+				id: "4A92C970DA685C93"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					id: "29952405177345B1"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					id: "2A49D5F65F1C5AEE"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "3A26EE9BB67492C1"
+					item: { Count: 32, id: "minecraft:bone_meal" }
+					type: "item"
+				}
+			]
+			title: "Paracetamol"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "028D13E011ABEF58"
+			rewards: [
+				{
+					id: "1961B4B0BB6BF0AE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 5
+					id: "1908477FE3CE1816"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "32A0CB0A33BFF227"
+					item: "croptopia:apple_sapling"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5418D4537079DA2E"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					id: "55B34A4038B961F7"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					id: "482C50679322EAC1"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "4261CC20526A78A5"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					id: "78F9EB59CF98DCDB"
+					item: "minecraft:egg"
+					type: "item"
+				}
+			]
+			title: "Gud shit"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "503AB64B41A38CCD"
+			rewards: [
+				{
+					count: 3
+					id: "182FB50CD9626C65"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					id: "1232224ACCDE90BE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "373659A32CC75CB1"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					id: "68D51FFD55460A5D"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					id: "4CE36FFD9344E575"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+				{
+					id: "6715212B3F885954"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "633CA21549E7F38E"
+					item: "minecraft:cocoa_beans"
+					type: "item"
+				}
+			]
+			title: "Disgustingly sweet"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "6BA048949B6DFF67"
+			rewards: [
+				{
+					id: "2EB128CC2CDF6A90"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "56EA6C0EF107E8BE"
+					item: "minecraft:pumpkin"
+					type: "item"
+				}
+				{
+					id: "0660DAC186B019E5"
+					item: "minecraft:melon"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1A4D4629BA4981C6"
+					item: "minecraft:pumpkin_seeds"
+					type: "item"
+				}
+				{
+					id: "141C8F1BDBBC61DF"
+					item: "minecraft:melon_seeds"
+					type: "item"
+				}
+			]
+			title: "Meloane si Pumpkiloane"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"503AB64B41A38CCD"
+				"6BA048949B6DFF67"
+				"028D13E011ABEF58"
+				"2DED787833A9D4F5"
+				"01C00F153FC95541"
+				"1C5B79B916E043AD"
+				"7732B2DC323B3AFB"
+			]
+			id: "23BBBC5CFB7D9049"
+			rewards: [
+				{
+					id: "6702A5453F3C05B2"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "14FF2D2AE4FCCBF3"
+					item: "farmersdelight:carrot_crate"
+					type: "item"
+				}
+				{
+					id: "0B29D7564C1649C2"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+				{
+					id: "09BD69EE52B1DA4E"
+					item: "farmersdelight:beetroot_crate"
+					type: "item"
+				}
+				{
+					id: "63D49DDB825EB96E"
+					item: "farmersdelight:cabbage_crate"
+					type: "item"
+				}
+				{
+					id: "06954F851C6EA24A"
+					item: "farmersdelight:tomato_crate"
+					type: "item"
+				}
+				{
+					id: "5095D41EA4A28634"
+					item: "farmersdelight:onion_crate"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7190BBE97C754B46"
+					item: "farmersdelight:rich_soil_farmland"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "512E7F3698FEF267"
+					item: "croptopia:pizza"
+					type: "item"
+				}
+				{
+					id: "2546B0E311D77075"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "4B8E456F64D90E8C"
+					item: "minecraft:cookie"
+					type: "item"
+				}
+				{
+					id: "2805AC232A3D2DFA"
+					item: "croptopia:apple_juice"
+					type: "item"
+				}
+			]
+			title: "Let him cook"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "7732B2DC323B3AFB"
+			rewards: [{
+				id: "081D21B535E0CFB2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "757C237E294374A2"
+					item: "croptopia:tomato_seed"
+					type: "item"
+				}
+				{
+					id: "42A7B9E2CF4B9ED8"
+					item: "farmersdelight:tomato_seeds"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "091E5C7ADC2BF9BB"
+			rewards: [
+				{
+					count: 5
+					id: "52776D5E276B5835"
+					item: "farmersdelight:mutton_wrap"
+					type: "item"
+				}
+				{
+					id: "0C811CDAC203CC6D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "237DB06F017B05CF"
+					item: "croptopia:greenonion"
+					type: "item"
+				}
+				{
+					id: "73DE648EFB9FD0A5"
+					item: "croptopia:greenonion_seed"
+					type: "item"
+				}
+				{
+					id: "12456103F4B5710A"
+					item: "croptopia:onion"
+					type: "item"
+				}
+				{
+					id: "729DB65CD392E3F3"
+					item: "croptopia:onion_seed"
+					type: "item"
+				}
+				{
+					id: "5C0503C68EC10772"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+			]
+			title: "Onioo"
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			id: "30B4CD235F6FCDE9"
+			rewards: [{
+				id: "20B9A13B32CB496A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "049484FE91653733"
+					item: "croptopia:lettuce_seed"
+					type: "item"
+				}
+				{
+					id: "6D5A4AD0A51F2608"
+					item: "croptopia:lettuce"
+					type: "item"
+				}
+			]
+			title: "Letussy"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "1DAD45880CF77BC3"
+			rewards: [
+				{
+					id: "58CF12E869228DC3"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "3E6932DB5C66E2B2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "691EE0D6B35CB60A"
+					item: "croptopia:chile_pepper"
+					type: "item"
+				}
+				{
+					id: "4FEAA9CC0976BB40"
+					item: "croptopia:bellpepper"
+					type: "item"
+				}
+				{
+					id: "095243EDAD9A9F80"
+					item: "croptopia:pepper"
+					type: "item"
+				}
+			]
+			title: "Piping Hot"
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			id: "11619645A5FA7F1E"
+			rewards: [{
+				id: "2FB77D9201F44ED6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "6620CBB4D10F7499"
+					item: "croptopia:olive"
+					type: "item"
+				}
+				{
+					id: "4D8256AE4404BF6C"
+					item: "croptopia:garlic"
+					type: "item"
+				}
+			]
+			title: "Smelly breath"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "0D849E90ADDF6207"
+			rewards: [{
+				id: "04DAAE36BDAF6A11"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					id: "208A65E5370C3721"
+					item: "croptopia:peanut"
+					type: "item"
+				}
+				{
+					id: "4514719C3BE90468"
+					item: "croptopia:peanut_butter"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "159A6261D832CD50"
+			rewards: [{
+				id: "352BD6FB6A498BD0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "39942A6CC8ABDD33"
+					item: "croptopia:apricot_jam"
+					type: "item"
+				}
+				{
+					id: "16540FD1BEEABB86"
+					item: "croptopia:blackberry_jam"
+					type: "item"
+				}
+				{
+					id: "00F73BF55C7A94C7"
+					item: "croptopia:blueberry_jam"
+					type: "item"
+				}
+				{
+					id: "7AE9426CD6A87592"
+					item: "croptopia:cherry_jam"
+					type: "item"
+				}
+				{
+					id: "1FD5882806B43F34"
+					item: "croptopia:elderberry_jam"
+					type: "item"
+				}
+				{
+					id: "35A8FF49C973FF10"
+					item: "croptopia:grape_jam"
+					type: "item"
+				}
+				{
+					id: "0C6C760AB4DE43B1"
+					item: "croptopia:peach_jam"
+					type: "item"
+				}
+				{
+					id: "405AE4AC00D0A1B0"
+					item: "croptopia:raspberry_jam"
+					type: "item"
+				}
+				{
+					id: "5D54B21B5FD87339"
+					item: "croptopia:strawberry_jam"
+					type: "item"
+				}
+			]
+			title: "JAMMING TIME"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0D849E90ADDF6207"
+				"159A6261D832CD50"
+			]
+			id: "14760B4FB4FC55F2"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "19DCBE9E9A2C31B8"
+				item: "croptopia:peanut_butter_and_jam"
+				type: "item"
+			}]
+			title: "PNUT BUTTA JELLY TIME"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "43EAA6C2D79A1888"
+			tasks: [{
+				id: "1B0DA6AA650B7881"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tigaia lui Ramsay"
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			id: "1D288E3ECE7E38B6"
+			tasks: [
+				{
+					id: "4D45711C09B3838C"
+					item: "croptopia:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "7381F6376F1E0C28"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+			]
+			title: "Aci se face borsu"
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			id: "4D6F308506302E92"
+			tasks: [{
+				id: "5A4364BC40CD2076"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			title: "Soba lu bunica"
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			id: "14BE77EDD8CC7058"
+			tasks: [
+				{
+					id: "018053C95E886F7F"
+					item: "croptopia:knife"
+					type: "item"
+				}
+				{
+					id: "4DBBDA8D33B43A7A"
+					item: {
+						Count: 1
+						id: "aquaculture:iron_fillet_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14D3CA74D42AB7D2"
+					item: {
+						Count: 1
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F1BA702F9EA19F3"
+					item: {
+						Count: 1
+						id: "everythingisedibleeie:butchers_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Finest cutlery"
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			id: "2CCD576A996B9039"
+			tasks: [{
+				id: "45CB9A5ADE3AD46C"
+				item: "croptopia:food_press"
+				type: "item"
+			}]
+			title: "Presa de la sala"
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			id: "79C8D9A50E72935E"
+			tasks: [{
+				id: "1C9746C2B5DA0E45"
+				item: "croptopia:mortar_and_pestle"
+				type: "item"
+			}]
+			title: "Mortar si pistol"
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"79C8D9A50E72935E"
+				"2CCD576A996B9039"
+				"14BE77EDD8CC7058"
+				"1D288E3ECE7E38B6"
+				"43EAA6C2D79A1888"
+				"4D6F308506302E92"
+				"2FCF1BA550AC34AB"
+			]
+			id: "4E09D02CAEB0D341"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "6E81C4BF35E15E15"
+				title: "WHERE'S THE LAMB SAUCE"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			id: "2FCF1BA550AC34AB"
+			tasks: [{
+				id: "10EB5A7747D6E4D8"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			title: "Carton magic"
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "561B1692B46DCBE3"
+			tasks: [
+				{
+					id: "3B452C5076572EF3"
+					item: "croptopia:vanilla"
+					type: "item"
+				}
+				{
+					id: "118AA33DB3205AA8"
+					item: "croptopia:vanilla_seeds"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"3D656241A41E1859"
+				"561B1692B46DCBE3"
+				"4DB47223742CA333"
+				"3974C8FFF2240908"
+				"7746FF3C5E22B45C"
+				"720B6FAA096F1435"
+			]
+			id: "7990B7665C9A3309"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "1767C6A1FAA70EBB"
+					item: "croptopia:mango_ice_cream"
+					type: "item"
+				}
+				{
+					id: "6FAE57B7E0DD0C2E"
+					item: "croptopia:pecan_ice_cream"
+					type: "item"
+				}
+				{
+					id: "7299A9EA672B23CC"
+					item: "croptopia:strawberry_ice_cream"
+					type: "item"
+				}
+				{
+					id: "2FD3CE099A16C361"
+					item: "croptopia:vanilla_ice_cream"
+					type: "item"
+				}
+				{
+					id: "6ABA4E5713996A5F"
+					item: "croptopia:rum_raisin_ice_cream"
+					type: "item"
+				}
+				{
+					id: "56CEE753257AD60B"
+					item: "croptopia:chocolate_ice_cream"
+					type: "item"
+				}
+			]
+			title: "Marius la orice ora"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			id: "4DB47223742CA333"
+			tasks: [
+				{
+					id: "3B0E1AE4F7D248D2"
+					item: "croptopia:mango"
+					type: "item"
+				}
+				{
+					id: "6E6BE5B94193A48E"
+					item: "croptopia:mango_sapling"
+					type: "item"
+				}
+			]
+			title: "Mango the bango"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			id: "3974C8FFF2240908"
+			tasks: [
+				{
+					id: "5E5FAA714A788B07"
+					item: "croptopia:pecan"
+					type: "item"
+				}
+				{
+					id: "63F4030781DF94D5"
+					item: "croptopia:pecan_sapling"
+					type: "item"
+				}
+			]
+			title: "Decan"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			id: "7746FF3C5E22B45C"
+			tasks: [
+				{
+					id: "510087651D3123EA"
+					item: "croptopia:strawberry"
+					type: "item"
+				}
+				{
+					id: "282B1153169F748E"
+					item: "croptopia:strawberry_seed"
+					type: "item"
+				}
+			]
+			title: "Capsunica"
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			id: "720B6FAA096F1435"
+			tasks: [
+				{
+					id: "43ABC2A5EC0C58D1"
+					item: "croptopia:grape"
+					type: "item"
+				}
+				{
+					id: "7A341507958F593A"
+					item: "croptopia:grape_seed"
+					type: "item"
+				}
+			]
+			title: "Ingredientu pasiunii romanesti"
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			id: "3D656241A41E1859"
+			subtitle: "Harvested straight from the chocolate men"
+			tasks: [{
+				id: "63DD515C34E09A6F"
+				item: "croptopia:chocolate"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			id: "12715C534D12225B"
+			tasks: [
+				{
+					id: "421E00E8D0303B7A"
+					item: "croptopia:rice"
+					type: "item"
+				}
+				{
+					id: "357786CA63B2943A"
+					item: "croptopia:rice_seed"
+					type: "item"
+				}
+				{
+					id: "306D1D09D2A5C022"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+			]
+			title: "Orez cu Pula"
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			id: "54B7E48206778BB8"
+			tasks: [
+				{
+					id: "5AB666228928EE7D"
+					item: "croptopia:corn"
+					type: "item"
+				}
+				{
+					id: "19CFFAC03208571D"
+					item: "croptopia:corn_seed"
+					type: "item"
+				}
+			]
+			title: "Porn"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"091E5C7ADC2BF9BB"
+				"2C7570760E8127F5"
+				"501005D30121B875"
+				"00270C916686D170"
+				"14BCFA9A1D7DB305"
+				"1DAD45880CF77BC3"
+			]
+			id: "63121B39401EA1F1"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Made by chef Ratatoile"
+			tasks: [{
+				id: "1C9D3824C26B0D03"
+				item: "croptopia:ratatouille"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			id: "2C7570760E8127F5"
+			tasks: [
+				{
+					id: "3D08744903A17BBC"
+					item: "croptopia:eggplant"
+					type: "item"
+				}
+				{
+					id: "10C2311A8039775B"
+					item: "croptopia:eggplant_seed"
+					type: "item"
+				}
+			]
+			title: "Spelunky 2"
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			id: "501005D30121B875"
+			tasks: [
+				{
+					id: "1A66F564B70FAB12"
+					item: "croptopia:basil"
+					type: "item"
+				}
+				{
+					id: "7FA9EA83B34EC0A8"
+					item: "croptopia:basil_seed"
+					type: "item"
+				}
+			]
+			title: "Basil doom hd"
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			id: "00270C916686D170"
+			tasks: [
+				{
+					id: "3688669DA4181454"
+					item: "croptopia:zucchini"
+					type: "item"
+				}
+				{
+					id: "2505B57796A744F5"
+					item: "croptopia:zucchini_seed"
+					type: "item"
+				}
+			]
+			title: "Zucini"
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			id: "14BCFA9A1D7DB305"
+			tasks: [
+				{
+					id: "07B4454B6F6652B5"
+					item: "croptopia:squash"
+					type: "item"
+				}
+				{
+					id: "17ABC8CBB0E2653D"
+					item: "croptopia:squash_seed"
+					type: "item"
+				}
+			]
+			title: "Turtita"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			id: "58BDD3F13AE867E6"
+			tasks: [
+				{
+					id: "539C27C6328DB943"
+					item: "croptopia:spinach"
+					type: "item"
+				}
+				{
+					id: "4CC906A985758D24"
+					item: "croptopia:spinach_seed"
+					type: "item"
+				}
+			]
+			title: "Eeeugh!"
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			id: "05198662FD6443D0"
+			tasks: [
+				{
+					id: "5E656E6451C70B63"
+					item: "croptopia:kale"
+					type: "item"
+				}
+				{
+					id: "65F695B29CF621F8"
+					item: "croptopia:kale_seed"
+					type: "item"
+				}
+			]
+			title: "yuck"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"05198662FD6443D0"
+				"58BDD3F13AE867E6"
+				"30B4CD235F6FCDE9"
+			]
+			id: "6F7A8505C5341B89"
+			tasks: [{
+				id: "08083C91E121D6F6"
+				item: "croptopia:leafy_salad"
+				type: "item"
+			}]
+			title: "Vegan imputit"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			id: "33D519D2997F37A0"
+			tasks: [{
+				id: "1C33BF66F2F815E3"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			title: "Milea's favorite"
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			id: "6422AD9CB8A16CA9"
+			tasks: [{
+				id: "5136CCBC4F861365"
+				item: "croptopia:protein_bar"
+				type: "item"
+			}]
+			title: "Cacat la ordinu zilei"
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"33D519D2997F37A0"
+				"6422AD9CB8A16CA9"
+				"12715C534D12225B"
+			]
+			id: "4FC29920B3872099"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "070C86C26AB73170"
+				title: "Dad bod recipe"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			id: "7653FAB6DFF7020A"
+			tasks: [{
+				id: "5C97436661E9606F"
+				item: "croptopia:hashed_brown"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			id: "58E37513A00F4C18"
+			tasks: [{
+				id: "6D994BFCF7C431C8"
+				item: "croptopia:baked_beans"
+				type: "item"
+			}]
+			title: "Beanz"
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			id: "2DB71FCF7C5BD794"
+			tasks: [{
+				id: "233A9ACF6295EE96"
+				item: "croptopia:bacon"
+				type: "item"
+			}]
+			title: "Pork"
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			id: "44727B5673BE36B2"
+			tasks: [{
+				id: "42AF1ABAE91B0380"
+				item: "croptopia:sausage"
+				type: "item"
+			}]
+			title: "dicker"
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"44727B5673BE36B2"
+				"7653FAB6DFF7020A"
+				"58E37513A00F4C18"
+				"2DB71FCF7C5BD794"
+			]
+			id: "325E7D502A1B77FC"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Ron Swanson would be proud"
+			tasks: [{
+				id: "5E7567BBFAB1CDD6"
+				item: "croptopia:the_big_breakfast"
+				type: "item"
+			}]
+			title: "Freedom Meal"
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"240580A04C88A867"
+				"7AC873E5A3236106"
+				"37531268C18FBC89"
+				"0317EFE67B24F415"
+				"0EBA393AF846C413"
+			]
+			id: "754B342F75C6AD88"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "68BCEDFC2A902CB7"
+				item: "aquamirae:poseidons_breakfast"
+				type: "item"
+			}]
+			title: "Scuipatu lui Poseidon"
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			id: "7AC873E5A3236106"
+			tasks: [{
+				id: "39FC93ABEB37179A"
+				item: "croptopia:sushi"
+				type: "item"
+			}]
+			title: "Mancare de chinez"
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			id: "37531268C18FBC89"
+			tasks: [{
+				id: "73A9598618837706"
+				item: "croptopia:crab_legs"
+				type: "item"
+			}]
+			title: "Lady legs"
+			x: -1.0d
+			y: -10.0d
+		}
+		{
+			id: "0317EFE67B24F415"
+			tasks: [{
+				id: "6EC6E826972E11C9"
+				item: "croptopia:steamed_clams"
+				type: "item"
+			}]
+			title: "Clamidia"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			id: "0EBA393AF846C413"
+			tasks: [{
+				id: "116AD4909550016E"
+				item: "croptopia:grilled_oysters"
+				type: "item"
+			}]
+			title: "ovare"
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			id: "240580A04C88A867"
+			tasks: [{
+				id: "1B4FC8E12F64676D"
+				item: "croptopia:deep_fried_shrimp"
+				type: "item"
+			}]
+			title: "Lady boy"
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"11619645A5FA7F1E"
+				"54B7E48206778BB8"
+			]
+			id: "0968838237148DB9"
+			tasks: [{
+				id: "42E48D625F63F773"
+				item: "croptopia:shepherds_pie"
+				type: "item"
+			}]
+			title: "Placinta vietii"
+			x: -3.5d
+			y: -3.5d
+		}
+	]
+	title: "Fermier"
+}

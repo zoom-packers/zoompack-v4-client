@@ -1,0 +1,276 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blue_skies"
+	group: "653CB9213F69DF0A"
+	icon: "minecraft:light_blue_wool"
+	id: "7D53D185D13B4CEB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "562AAFDF220019AD"
+			tasks: [{
+				id: "43F41A54C8274720"
+				item: {
+					Count: 1
+					id: "blue_skies:zeal_lighter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Dimensional Arson"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["562AAFDF220019AD"]
+			id: "14CC01E58FA44F4F"
+			tasks: [{
+				id: "13F4D3F253044E06"
+				item: "blue_skies:moonstone"
+				type: "item"
+			}]
+			title: "Qiatra de luna"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["562AAFDF220019AD"]
+			icon: "blue_skies:everdawn_portal"
+			id: "7163E74A9BC10EB5"
+			subtitle: "Get yo ass in the everdawn"
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				id: "327A23A520F89273"
+				type: "dimension"
+			}]
+			title: "More unknown"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7163E74A9BC10EB5"]
+			id: "0F905561BBD0BA6A"
+			tasks: [{
+				id: "0B7D0E0ADA99E46E"
+				item: "blue_skies:horizonite_ingot"
+				type: "item"
+			}]
+			title: "Terraria yeye ingot"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0F905561BBD0BA6A"]
+			id: "0BA811407358544A"
+			tasks: [{
+				id: "7D6E63AC970C5DAF"
+				item: "blue_skies:horizonite_forge"
+				type: "item"
+			}]
+			title: "Forja lu'Thor"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0F905561BBD0BA6A"]
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "alexsmobs:poison_resistance"
+				}
+			}
+			id: "1AD8BB2D475052C7"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				id: "581FB8700A332D28"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1AD8BB2D475052C7"]
+			icon: "handcrafted:spider_trophy"
+			id: "3B19C945BDFB960A"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				id: "0B6ADEB917B8067C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["46FCE1483AA347DA"]
+			id: "41778DB5A683D7CE"
+			tasks: [{
+				id: "289E5A69F6E93AF6"
+				item: "blue_skies:diopside_gem"
+				type: "item"
+			}]
+			title: "Kryptonita"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["004928D8F1B0737B"]
+			id: "46FCE1483AA347DA"
+			tasks: [{
+				id: "7E68CF3FAE9DFBEE"
+				item: "blue_skies:aquite"
+				type: "item"
+			}]
+			title: "Safir gheto"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14CC01E58FA44F4F"]
+			id: "004928D8F1B0737B"
+			tasks: [{
+				id: "30266096FCE3C807"
+				item: "blue_skies:pyrope_gem"
+				type: "item"
+			}]
+			title: "Rubin gheto"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["075382FBE2625D96"]
+			id: "5C1D9ECD682C3AEE"
+			tasks: [{
+				id: "632E1067ED4D345C"
+				item: "blue_skies:comet_berry_pie"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["562AAFDF220019AD"]
+			id: "075382FBE2625D96"
+			tasks: [{
+				id: "7C7F605D54AA0880"
+				item: "blue_skies:comet_berries"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["562AAFDF220019AD"]
+			id: "1E107FF07D5D0B93"
+			tasks: [{
+				id: "0C55EF20AA2EC050"
+				item: "blue_skies:comet_sapling"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["562AAFDF220019AD"]
+			icon: "blue_skies:everbright_portal"
+			id: "7B8912A8286CAD2E"
+			subtitle: "Get ur ass in everbright"
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				id: "53C3419AD8DC3A16"
+				type: "dimension"
+			}]
+			title: "Into the unknown"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7B8912A8286CAD2E"]
+			id: "7E42557F15C39ABE"
+			tasks: [{
+				id: "656497144F168D2D"
+				item: "blue_skies:snowcap_oven"
+				type: "item"
+			}]
+			title: "Cuptoru bunicutzei"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E42557F15C39ABE"]
+			id: "7D24893CDC064DB7"
+			tasks: [{
+				id: "14297A11A51005A3"
+				item: "blue_skies:falsite_ingot"
+				type: "item"
+			}]
+			title: "Fals"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E42557F15C39ABE"]
+			id: "3D7CC62B4B83870D"
+			tasks: [{
+				id: "20AA4B5725D145E9"
+				item: "blue_skies:ventium_ingot"
+				type: "item"
+			}]
+			title: "Ciclu ingot"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D7CC62B4B83870D"]
+			id: "07238F90A2A403DD"
+			tasks: [{
+				id: "3CD52B0ADE71534D"
+				item: "blue_skies:tool_box"
+				type: "item"
+			}]
+			title: "Cutia cu scule"
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			icon: "everythingisedibleeie:vex_wing"
+			id: "5787B09F378D0A9F"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				entity: "blue_skies:summoner"
+				id: "321501BDC0E320DC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5787B09F378D0A9F"]
+			icon: "croptopia:starfruit"
+			id: "4A6D478292BA06F6"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				id: "086F25C5808B572E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+	]
+	title: "Blue skies"
+}

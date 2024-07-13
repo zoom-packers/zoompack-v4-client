@@ -73,11 +73,42 @@ function use(skill, value) {
     }
 }
 
+function generalUse(skill, value) {
+    return {
+        requirements: {
+            WEAR: {
+                [skill]: value
+            },
+            INTERACT: {
+                [skill]: value
+            },
+            PLACE: {
+                [skill]: value
+            },
+            USE: {
+                [skill]: value
+            }
+        }
+    }
+}
+
+function place(skill, value) {
+    return {
+        requirements: {
+            PLACE: {
+                [skill]: value
+            }
+        }
+    }
+}
+
 module.exports = {
     armor,
     sword,
     axe,
     tool,
     mount,
-    use
+    use,
+    generalUse,
+    place
 }

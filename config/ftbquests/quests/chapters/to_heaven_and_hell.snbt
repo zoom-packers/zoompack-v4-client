@@ -1,0 +1,216 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "to_heaven_and_hell"
+	group: "653CB9213F69DF0A"
+	icon: "minecraft:blue_ice"
+	id: "62BD5BAE165379BA"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Cred ca stii si tu cum plm ajungi in nether"]
+			icon: "minecraft:chiseled_nether_bricks"
+			id: "31EDA7FF103CFD88"
+			subtitle: "Get yo ass in the nether"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "0F2FB04B9ED3CD4F"
+				type: "dimension"
+			}]
+			title: "Si ingeri au demoni lor"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31EDA7FF103CFD88"]
+			id: "12CA0E8BB75293B6"
+			tasks: [{
+				count: 64L
+				id: "13F92840130CE5D2"
+				item: { Count: 64, id: "minecraft:glowstone_dust" }
+				type: "item"
+			}]
+			title: "First things first"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["31EDA7FF103CFD88"]
+			id: "4C53C2947307307E"
+			tasks: [{
+				count: 16L
+				id: "381FC962632C9047"
+				item: { Count: 16, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			title: "Searing dildo"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31EDA7FF103CFD88"]
+			id: "30ADB5594E103B55"
+			tasks: [{
+				count: 16L
+				id: "38CC6072D51FB7BD"
+				item: { Count: 16, id: "minecraft:magma_cream" }
+				type: "item"
+			}]
+			title: "Ze crem de la crem"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31EDA7FF103CFD88"]
+			id: "3C827F99DFFB320F"
+			tasks: [{
+				id: "78F5CA5D1A31A5CD"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "Everyone's favorite resource"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3C827F99DFFB320F"]
+			id: "12046AD6A77A49DE"
+			tasks: [{
+				id: "060A59CC0B7D790D"
+				item: "immersive_aircraft:nether_engine"
+				type: "item"
+			}]
+			title: "GAS GAS GAS!"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C827F99DFFB320F"]
+			icon: {
+				Count: 1
+				id: "aether:netherite_gloves"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "49862D30C021561F"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Parte in parte cu manusa lui Tayson"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "07C50CE24CA58792"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Mike Tayson"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["31EDA7FF103CFD88"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "20276551923E1F32"
+			subtitle: "The kkk are watching you'r career with great interest"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "50C159683FD2B18C"
+				type: "kill"
+				value: 25L
+			}]
+			title: ": )"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["20276551923E1F32"]
+			id: "0D1D769A0B97C17B"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "461F379629077ED0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Giga ni...."
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["31EDA7FF103CFD88"]
+			id: "3D603CE1A04E774C"
+			tasks: [{
+				advancement: "minecraft:nether/loot_bastion"
+				criterion: ""
+				icon: "minecraft:piglin_head"
+				id: "6D032667AC761216"
+				type: "advancement"
+			}]
+			title: "Bad lil piggy"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D603CE1A04E774C"]
+			id: "4E6AC4E214F4F170"
+			tasks: [{
+				id: "62087326933C683A"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Upgrades people! upgrades..."
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["31EDA7FF103CFD88"]
+			id: "19BF334A8B854D86"
+			tasks: [{
+				count: 5L
+				id: "1D183631BE9CE08A"
+				item: { Count: 5, id: "minecraft:ghast_tear" }
+				type: "item"
+			}]
+			title: "They taste sweet"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["31EDA7FF103CFD88"]
+			id: "15188ACE41EC5F4F"
+			tasks: [{
+				id: "0D0BF9653DA03AFC"
+				item: "theabyss:crimson_crystal_ore"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["31EDA7FF103CFD88"]
+			id: "3979B2221AFB9CE0"
+			tasks: [{
+				id: "6EF094842E0CE647"
+				item: "theabyss:warped_crystal_ore"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31EDA7FF103CFD88"]
+			id: "648D6A9A6628F962"
+			tasks: [{
+				id: "2E5C19EE06871818"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			title: "Quartz is life"
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "And Hell"
+}

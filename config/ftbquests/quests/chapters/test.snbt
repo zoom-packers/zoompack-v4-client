@@ -1,0 +1,503 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "test"
+	group: "653CB9213F69DF0A"
+	icon: "minecraft:grass_block"
+	id: "2A69D6F9DDB6664E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "55DA1E2F65D47606"
+			tasks: [
+				{
+					id: "24B3BA582FB1B1DB"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77FD617905D5885F"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E402C35DCFA3669"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "In the beginning"
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55DA1E2F65D47606"]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3E3C192F1B2C4AFB"
+			tasks: [
+				{
+					id: "25F9E0A1EC3811C0"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EB37B4832D4AFEB"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FF76869EA601BD5"
+					item: {
+						Count: 1
+						id: "minecraft:stone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Stone age"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3E3C192F1B2C4AFB"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "480BE4229F53362D"
+			tasks: [
+				{
+					id: "483E68222853A8B2"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2837BADE3EE828EB"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "677B8C6D39501309"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iron age"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3F6B027FC76927D9"]
+			id: "6671E971AE1EEE0C"
+			tasks: [{
+				id: "4A159C5D3FEFA566"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			title: "Hot stuff"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F6B027FC76927D9"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "633499C57C9CE4CF"
+			tasks: [
+				{
+					id: "461D8C5229373D52"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EC63BA3F1E3B2A0"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "013AF5E37221DA77"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "557AB424C299396E"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "471468293C33727E"
+					item: {
+						Count: 1
+						id: "aether:iron_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iron man"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["633499C57C9CE4CF"]
+			id: "226B619AE352B9D3"
+			tasks: [{
+				count: 10L
+				id: "78810B8D6BED9558"
+				item: { Count: 10, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			title: "Valoare"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["226B619AE352B9D3"]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "64EE5B69C5E20AB1"
+			tasks: [
+				{
+					id: "4A20E6F0BC5E4BB6"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09F08371EB8E6E85"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "037E86BC63E2337F"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75584FE54C9136AC"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64FBA2478C31E10F"
+					item: {
+						Count: 1
+						id: "aether:diamond_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Haladit"
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["480BE4229F53362D"]
+			id: "3F6B027FC76927D9"
+			tasks: [{
+				id: "49B7A696BF34C2B0"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Arson"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["226B619AE352B9D3"]
+			id: "4B27B1A14C811542"
+			tasks: [{
+				id: "47A658F132010D38"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "Vrajeala"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["480BE4229F53362D"]
+			id: "7580DA820A650C2C"
+			tasks: [{
+				id: "4D15880CBAF89D61"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			title: "Nicoleta"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7DCD75CD3573BDFC"]
+			id: "643CA4CD577CD3C5"
+			tasks: [{
+				count: 10L
+				id: "49D3A7EDB39E12D8"
+				item: { Count: 10, id: "minecraft:amethyst_shard" }
+				type: "item"
+			}]
+			title: "Meth"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "7DCD75CD3573BDFC"
+			subtitle: "Baiatu baiatu vrai bombonie?"
+			tasks: [{
+				id: "7F594003796DDCCD"
+				item: "supplementaries:candy"
+				type: "item"
+			}]
+			title: "Sus looking candy"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["633499C57C9CE4CF"]
+			id: "527A569F3EE723FF"
+			tasks: [{
+				id: "0839346ABB8DCC7F"
+				item: {
+					Count: 1
+					id: "simplemagnets:basicmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Magnetic field"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["527A569F3EE723FF"]
+			id: "21FA97DF5F12E048"
+			tasks: [{
+				id: "032EA425088DF81E"
+				item: {
+					Count: 1
+					id: "simplemagnets:advancedmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Pussy magnet"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6671E971AE1EEE0C"]
+			id: "3CA3A36693BBA2AA"
+			tasks: [{
+				id: "0F43FC1D3D3F92AA"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			title: "Take flight"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3CA3A36693BBA2AA"]
+			id: "41120B9014BDF3A5"
+			tasks: [{
+				id: "62F08E7A79EE801C"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			title: "Gonna go far kid"
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3CA3A36693BBA2AA"]
+			id: "1A94B4301FB129D8"
+			tasks: [
+				{
+					id: "1D4956C607C5AF7E"
+					item: "immersive_aircraft:steel_boiler"
+					type: "item"
+				}
+				{
+					id: "3A89C6565F1BEFBD"
+					item: "immersive_aircraft:sturdy_pipes"
+					type: "item"
+				}
+				{
+					id: "799117A295A32C9E"
+					item: "immersive_aircraft:enhanced_propeller"
+					type: "item"
+				}
+			]
+			title: "Small upgrades"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["633499C57C9CE4CF"]
+			id: "737CDB6E2D2AE422"
+			tasks: [{
+				id: "16D28120DF7BDE4D"
+				item: {
+					Count: 1
+					id: "magistuarmory:iron_zweihander"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Big faking sword"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B27B1A14C811542"]
+			id: "696C6897F7D9BAC2"
+			tasks: [{
+				id: "6C93C0F03628BDCC"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			title: "Calea Domnului"
+			x: 2.5d
+			y: -6.0d
+		}
+	]
+	title: "Everyone starts somewhere"
+}

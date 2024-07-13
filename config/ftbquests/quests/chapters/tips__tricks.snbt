@@ -1,0 +1,187 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tips__tricks"
+	group: ""
+	icon: "minecraft:writable_book"
+	id: "2CF1763C3AD8E068"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["In here you will find a ton of tips for your playthrough. Go through them one by one to see what this modpack has to offer and how to get unstuck from sticky situations."]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "355E5DA9DA5538F6"
+			subtitle: "You are in for a wild ride"
+			tasks: [{
+				id: "54967B52156E8084"
+				title: "Welcome to Zoomcraft"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["355E5DA9DA5538F6"]
+			description: [
+				"When joining the world for the first time, you might have noticed you had to select an origin and a class. This brings certain advantages and disadvantages. We reccomend starting as a human with any profession, so you can get acustomed to the modpack."
+				""
+				"Don't worry, &l you can change both your origin and class &lONCE&r afterwards&r."
+			]
+			icon: "origins:orb_of_origin"
+			id: "04312F393D9DFFA8"
+			subtitle: "You have come | *Cyberpunk theme starts*"
+			tasks: [{
+				id: "2F5F1BD9D581F225"
+				title: "Basics: Origins"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04312F393D9DFFA8"]
+			description: [
+				"In this modpack there are global skill that will alter your gameplay experience."
+				""
+				"First of all, you can check your current skills by opening your inventory and clicking on the purple button beneath the 2x2 crafting grid."
+				""
+				"You will see the skills you've aready started gaining experience, as well as your progress until the next level. More information is available in the Project MMO chapter."
+			]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6DE6A1C239394FD5"
+			subtitle: "They're an issue"
+			tasks: [{
+				id: "773549F74E030C9B"
+				title: "Basics: Skills"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DE6A1C239394FD5"]
+			description: [
+				"There are mods for Chunk claiming and Party creation."
+				""
+				"We suggest you claim chunks only after you are in a party, so you don't lose access to your own terrain."
+			]
+			icon: "minecraft:map"
+			id: "755B9A7ECA9E24C6"
+			subtitle: "Fatten The Beast"
+			tasks: [{
+				id: "30BB5FB40D7176A8"
+				title: "Basics: FTB Mods"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"As this modpack is relatively new, and people are learning the modpack, we've thought maybe you feel like you've chosen an origin and got stuck. You are free to change your origin \\& class &l&nONCE&r."
+				""
+				"Claim the reward above while in a &lsafe space&r to bring up the Origin selection menu."
+				""
+				"Note: You will only change your race."
+				""
+				"&lFREE TIP&r: As you can only change once, we reccomend joining the server with a few dummy accounts and try out all the races of interest, before commiting to your final race."
+			]
+			id: "252191073DE8B0E3"
+			rewards: [{
+				auto: "disabled"
+				command: "/origin gui @s origins:origin"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "origins:orb_of_origin"
+				id: "2D053FB8F1F42A60"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				title: "Choose a new origin"
+				type: "command"
+			}]
+			subtitle: "You want change, I get it"
+			tasks: [{
+				id: "4CEE89BB2CDD26DB"
+				requiredLevel: 10
+				skill: "agility"
+				title: "Agility: 10"
+				type: "pmmo:skill"
+			}]
+			title: "Origin Respec"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"As this modpack is relatively new, and people are learning the modpack, we've thought maybe you feel like you've chosen an origin and got stuck. You are free to change your origin \\& class &l&nONCE&r."
+				""
+				"Claim the reward above while in a &lsafe space&r to bring up the Class selection menu."
+				""
+				"Note: You will only change your class."
+				""
+				"&lFREE TIP&r: As you can only change once, we reccomend joining the server with a few dummy accounts and try out all the races of interest, before commiting to your final race."
+			]
+			id: "7F4826BD86C0575C"
+			rewards: [{
+				auto: "disabled"
+				command: "/origin gui @s origins-classes:class"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "origins:orb_of_origin"
+				id: "3B706D19F074F4F2"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				title: "Change your class"
+				type: "command"
+			}]
+			subtitle: "Nu a mers faza pe Spania"
+			tasks: [{
+				id: "1C0E5FB54146E6BF"
+				requiredLevel: 40
+				skill: "agility"
+				type: "pmmo:skill"
+			}]
+			title: "Class Respec"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "1230AF3A415E15BB"
+			subtitle: "CBT is OFFICIALLY allowed"
+			tasks: [{
+				id: "645680E16CB8560D"
+				title: "Rules \\& Stuff"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["https://www.reddit.com/r/allthemods/comments/15nf0ue/atm_8_apotheosis_gems/"]
+			id: "1CB3C571D2F10B8D"
+			tasks: [{
+				id: "1EE8765E9F3BE685"
+				title: "Apotheosis Gems Guide"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "Tips \\& Tricks"
+}

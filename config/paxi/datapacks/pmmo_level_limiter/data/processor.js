@@ -64,6 +64,24 @@ function modifyEntityMountable(modId, entity, skill, level) {
     writeJson(template, filePath);
 }
 
+function modifyGeneralUseItemRequirements(modId, modItem, skill, level) {
+    let folder = `./${modId}/pmmo/items`;
+    let filePath = `${folder}/${modItem}.json`;
+    checkFileExists(filePath, modId, modItem, skill, level);
+    const template = templateFormatter.generalUse(skill, level)
+    ensureFolderExists(folder)
+    writeJson(template, filePath);
+}
+
+function modifyPlaceBlockRequirements(modId, modItem, skill, level) {
+    let folder = `./${modId}/pmmo/items`;
+    let filePath = `${folder}/${modItem}.json`;
+    checkFileExists(filePath, modId, modItem, skill, level);
+    const template = templateFormatter.place(skill, level)
+    ensureFolderExists(folder)
+    writeJson(template, filePath);
+}
+
 // INTERNALS
 function filterItems(items, item_types) {
     if (items !== undefined) {
@@ -118,5 +136,7 @@ module.exports = {
     modifySetRequirements,
     modifySingleItem,
     modifyEntityMountable,
-    modifySingleItemForMount
+    modifySingleItemForMount,
+    modifyGeneralUseItemRequirements,
+    modifyPlaceBlockRequirements
 }
