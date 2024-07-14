@@ -387,8 +387,20 @@ ItemEvents.modification((event) => {
     event.modify("theabyss:glacerythe_armor_boots", item => {
         item.maxDamage = 6120;
     });
-    event.modify("theabyss:knight", item => {
-        item.maxDamage = 6750;
+    event.modify("theabyss:knight_sword", item => {
+        item.maxDamage = 7000;
+    });
+    event.modify("theabyss:knight_axe", item => {
+        item.maxDamage = 7000;
+    });
+    event.modify("theabyss:knight_pickaxe", item => {
+        item.maxDamage = 7000;
+    });
+    event.modify("theabyss:knight_shovel", item => {
+        item.maxDamage = 7000;
+    });
+    event.modify("theabyss:knight_hoe", item => {
+        item.maxDamage = 7000;
     });
     event.modify("theabyss:garnite_armor_helmet", item => {
         item.maxDamage = 5200;
@@ -403,19 +415,19 @@ ItemEvents.modification((event) => {
         item.maxDamage = 6240;
     });
     event.modify("theabyss:garnite_sword", item => {
-        item.maxDamage = 7000;
+        item.maxDamage = 7250;
     });
     event.modify("theabyss:garnite_axe", item => {
-        item.maxDamage = 7000;
+        item.maxDamage = 7250;
     });
     event.modify("theabyss:garnite_pickaxe", item => {
-        item.maxDamage = 7000;
+        item.maxDamage = 7250;
     });
     event.modify("theabyss:garnite_shovel", item => {
-        item.maxDamage = 7000;
+        item.maxDamage = 7250;
     });
     event.modify("theabyss:garnite_hoe", item => {
-        item.maxDamage = 7000;
+        item.maxDamage = 7250;
     });
     event.modify("theabyss:phantom_armor_helmet", item => {
         item.maxDamage = 5350;
@@ -430,19 +442,19 @@ ItemEvents.modification((event) => {
         item.maxDamage = 6420;
     });
     event.modify("theabyss:phantom_sword", item => {
-        item.maxDamage = 7250;
+        item.maxDamage = 7500;
     });
     event.modify("theabyss:phantom_axe", item => {
-        item.maxDamage = 7250;
+        item.maxDamage = 7500;
     });
     event.modify("theabyss:phantom_pickaxe", item => {
-        item.maxDamage = 7250;
+        item.maxDamage = 7500;
     });
     event.modify("theabyss:phantom_shovel", item => {
-        item.maxDamage = 7250;
+        item.maxDamage = 7500;
     });
     event.modify("theabyss:phantom_hoe", item => {
-        item.maxDamage = 7250;
+        item.maxDamage = 7500;
     });
     event.modify("theabyss:unorithe_armor_helmet", item => {
         item.maxDamage = 5600;
@@ -457,19 +469,19 @@ ItemEvents.modification((event) => {
         item.maxDamage = 6720;
     });
     event.modify("theabyss:unorithe_sword", item => {
-        item.maxDamage = 7500;
+        item.maxDamage = 7750;
     });
     event.modify("theabyss:unorithe_axe", item => {
-        item.maxDamage = 7500;
+        item.maxDamage = 7750;
     });
     event.modify("theabyss:unorithe_pickaxe", item => {
-        item.maxDamage = 7500;
+        item.maxDamage = 7750;
     });
     event.modify("theabyss:unorithe_shovel", item => {
-        item.maxDamage = 7500;
+        item.maxDamage = 7750;
     });
     event.modify("theabyss:unorithe_hoe", item => {
-        item.maxDamage = 7500;
+        item.maxDamage = 7750;
     });
     event.modify("theabyss:incorythe_armor_helmet", item => {
         item.maxDamage = 6200;
@@ -484,25 +496,25 @@ ItemEvents.modification((event) => {
         item.maxDamage = 7440;
     });
     event.modify("theabyss:incorythe_sword", item => {
-        item.maxDamage = 7750;
+        item.maxDamage = 8000;
     });
     event.modify("theabyss:incorythe_axe", item => {
-        item.maxDamage = 7750;
+        item.maxDamage = 8000;
     });
     event.modify("theabyss:incorythe_pickaxe", item => {
-        item.maxDamage = 7750;
+        item.maxDamage = 8000;
     });
     event.modify("theabyss:incorythe_shovel", item => {
-        item.maxDamage = 7750;
+        item.maxDamage = 8000;
     });
     event.modify("theabyss:incorythe_hoe", item => {
-        item.maxDamage = 7750;
+        item.maxDamage = 8000;
     });
     event.modify("theabyss:incorythe_sword_mkii", item => {
-        item.maxDamage = 7750;
+        item.maxDamage = 8000;
     });
     event.modify("theabyss:abyss_sword", item => {
-        item.maxDamage = 8000;
+        item.maxDamage = 8300;
     });
     
 });

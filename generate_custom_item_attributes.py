@@ -279,22 +279,22 @@ new_kjs_config_durability("theabyss", "ignisithe_sword", 6750)
 new_kjs_config_durability("theabyss", "bricked_knight_sword", 6750)
 
 new_kjs_config_durability_armor_set("theabyss", "glacerythe_armor",  get_durability_list_from_helmet(5100))
-new_kjs_config_durability("theabyss", "knight", 6750)
+new_kjs_config_durability_tools("theabyss", "knight", 7000)
 
 new_kjs_config_durability_armor_set("theabyss", "garnite_armor", get_durability_list_from_helmet(5200))
-new_kjs_config_durability_tools("theabyss", "garnite", 7000)
+new_kjs_config_durability_tools("theabyss", "garnite", 7250)
 
 new_kjs_config_durability_armor_set("theabyss", "phantom_armor", get_durability_list_from_helmet(5350))
-new_kjs_config_durability_tools("theabyss", "phantom", 7250)
+new_kjs_config_durability_tools("theabyss", "phantom", 7500)
 
 new_kjs_config_durability_armor_set("theabyss", "unorithe_armor", get_durability_list_from_helmet(5600))
-new_kjs_config_durability_tools("theabyss", "unorithe", 7500)
+new_kjs_config_durability_tools("theabyss", "unorithe", 7750)
 
 new_kjs_config_durability_armor_set("theabyss", "incorythe_armor", get_durability_list_from_helmet(6200))
-new_kjs_config_durability_tools("theabyss", "incorythe", 7750)
-new_kjs_config_durability("theabyss", "incorythe_sword_mkii", 7750)
+new_kjs_config_durability_tools("theabyss", "incorythe", 8000)
+new_kjs_config_durability("theabyss", "incorythe_sword_mkii", 8000)
 
-new_kjs_config_durability("theabyss", "abyss_sword", 8000)
+new_kjs_config_durability("theabyss", "abyss_sword", 8300)
 
 
 # Saving
