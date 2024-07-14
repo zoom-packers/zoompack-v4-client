@@ -303,6 +303,33 @@ ItemEvents.modification((event) => {
     event.modify("deeperdarker:warden_boots", item => {
         item.maxDamage = 5160;
     });
+    event.modify("theabyss:fusion_armor_helmet", item => {
+        item.maxDamage = 4400;
+    });
+    event.modify("theabyss:fusion_armor_chestplate", item => {
+        item.maxDamage = 6380;
+    });
+    event.modify("theabyss:fusion_armor_leggings", item => {
+        item.maxDamage = 5940;
+    });
+    event.modify("theabyss:fusion_armor_boots", item => {
+        item.maxDamage = 5280;
+    });
+    event.modify("theabyss:fusion_sword", item => {
+        item.maxDamage = 6100;
+    });
+    event.modify("theabyss:fusion_axe", item => {
+        item.maxDamage = 6100;
+    });
+    event.modify("theabyss:fusion_pickaxe", item => {
+        item.maxDamage = 6100;
+    });
+    event.modify("theabyss:fusion_shovel", item => {
+        item.maxDamage = 6100;
+    });
+    event.modify("theabyss:fusion_hoe", item => {
+        item.maxDamage = 6100;
+    });
     event.modify("theabyss:aberythe_armor_helmet", item => {
         item.maxDamage = 4500;
     });
@@ -355,6 +382,9 @@ ItemEvents.modification((event) => {
         item.maxDamage = 6500;
     });
     event.modify("theabyss:bone_hoe", item => {
+        item.maxDamage = 6500;
+    });
+    event.modify("theabyss:bone_sword_item", item => {
         item.maxDamage = 6500;
     });
     event.modify("theabyss:ignisithe_armor_helmet", item => {

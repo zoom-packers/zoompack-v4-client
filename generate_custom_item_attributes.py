@@ -175,11 +175,14 @@ new_armor_set_config("deeperdarker", "warden", [50,70,60,50], 9, 0.5)
 
 
 # The abyss
+new_armor_set_config("theabyss", "fusion_armor", [60,85,70,60], 10.5, 0.6)
+new_sword_config("theabyss","fusion", 220)
+
 new_armor_set_config("theabyss", "aberythe_armor", [70,100,80,70], 11.5, 0.6)
-new_sword_config("theabyss","aberythe", 200)
+new_sword_config("theabyss","aberythe", 230)
 
 new_armor_set_config("theabyss", "bone_armor", [80,110,90,80], 11.5, 0.6)
-new_sword_config("theabyss","bone_sword_item", 220, full_id=True)
+new_sword_config("theabyss","bone_sword_item", 240, full_id=True)
 
 new_armor_set_config("theabyss", "ignisithe_armor", [90,120,100,90], 10.5, 0.625)
 new_sword_config("theabyss","ignisithe", 260)
@@ -267,6 +270,9 @@ new_kjs_config_durability_armor_set("betterend", "crystalite",  get_durability_l
 new_kjs_config_durability_material("deeperdarker", "warden", 6000,  get_durability_list_from_helmet(4300))
 
 # Abyss
+
+new_kjs_config_durability_armor_set("theabyss", "fusion_armor",  get_durability_list_from_helmet(4400))
+new_kjs_config_durability_tools("theabyss", "fusion", 6100)
 
 new_kjs_config_durability_armor_set("theabyss", "aberythe_armor",  get_durability_list_from_helmet(4500))
 new_kjs_config_durability_tools("theabyss", "aberythe", 6250)
