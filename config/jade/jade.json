@@ -15,12 +15,12 @@
     "fluidMode": "ANY",
     "reachDistance": 0.0,
     "debug": false,
-    "itemModNameTooltip": true,
+    "itemModNameTooltip": false,
     "bossBarOverlapMode": "PUSH_DOWN",
     "builtinCamouflage": true
   },
   "overlay": {
-    "activeTheme": "jade:dark",
+    "activeTheme": "jade:create",
     "themesHash": -328442023,
     "overlayPosX": 0.5,
     "overlayPosY": 1.0,
@@ -31,7 +31,7 @@
     "flipMainHand": false,
     "autoScaleThreshold": 0.4,
     "alpha": 0.7,
-    "iconMode": "TOP",
+    "iconMode": "CENTERED",
     "animation": true,
     "disappearingDelay": 0.0
   },

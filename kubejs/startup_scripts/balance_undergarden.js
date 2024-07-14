@@ -1,23 +1,198 @@
-// API: KubeJS
-// KubeJS: 1.0.0
-// MC: 1.20.1
+let armor_pieces = ['helmet', 'chestplate', 'leggings', 'boots'];
+let modifications_map = [
+    {
+        'material': 'cloggrum',
+        'piece' : 'helmet',
+        'armor' : 12,
+        'armor_t' : 9,
+        'knock_r' : 0.35,
+        'durability' : 2300
+    },
+    {
+        'material': 'cloggrum',
+        'piece' : 'chestplate',
+        'armor' : 22,
+        'armor_t' : 9,
+        'knock_r' : 0.35,
+        'durability' : 3335
+    },
+    {
+        'material': 'cloggrum',
+        'piece' : 'leggings',
+        'armor' : 17,
+        'armor_t' : 9,
+        'knock_r' : 0.35,
+        'durability' : 3105
+    },
+    {
+        'material': 'cloggrum',
+        'piece' : 'boots',
+        'armor' : 12,
+        'armor_t' : 9,
+        'knock_r' : 0.35,
+        'durability' : 2760
+    },
+    // Frossteel - besides durability all is hardcoded in jar
+    {
+        'material': 'froststeel',
+        'piece' : 'helmet',
+        'armor' : 14,
+        'armor_t' : 9,
+        'knock_r' : 0.35,
+        'durability' : 2630
+    },
+    {
+        'material': 'froststeel',
+        'piece' : 'chestplate',
+        'armor' : 24,
+        'armor_t' : 9,
+        'knock_r' : 0.35,
+        'durability' : 3813
+    },
+    {
+        'material': 'froststeel',
+        'piece' : 'leggings',
+        'armor' : 19,
+        'armor_t' : 9,
+        'knock_r' : 0.35,
+        'durability' : 3550
+    },
+    {
+        'material': 'froststeel',
+        'piece' : 'boots',
+        'armor' : 14,
+        'armor_t' : 9,
+        'knock_r' : 0.35,
+        'durability' : 3156
+    },
+    // utherium
+    {
+        'material': 'utherium',
+        'piece' : 'helmet',
+        'armor' : 17,
+        'armor_t' : 10,
+        'knock_r' : 0.4,
+        'durability' : 2890
+    },
+    {
+        'material': 'utherium',
+        'piece' : 'chestplate',
+        'armor' : 27,
+        'armor_t' : 10,
+        'knock_r' : 0.4,
+        'durability' : 4190
+    },
+    {
+        'material': 'utherium',
+        'piece' : 'leggings',
+        'armor' : 22,
+        'armor_t' : 10,
+        'knock_r' : 0.4,
+        'durability' : 3901
+    },
+    {
+        'material': 'utherium',
+        'piece' : 'boots',
+        'armor' : 17,
+        'armor_t' : 10,
+        'knock_r' : 0.4,
+        'durability' : 3468
+    },
 
-let modId = "undergarden";
-let materialIds = ["cloggrum", "froststeel", "utherium", "forgotten"]
-let durabilities = [4000, 2500, 3500, 4500]
-let attackDamages = [80, 60, 100, 120]
-let armorTotals = [60, 70, 80, 0]
-let armorToughnessesTotals = [26, 28, 30, 0]
-let armorDistributions = [
-    [11, 16, 22, 11],
-    [13, 20, 25, 12],
-    [15, 22, 28, 15],
-    [0, 0, 0, 0]
-]
-let armorToughnessDistributions = armorToughnessesTotals.map(x => x / 4);
 
+    // swords    
+    {
+        'material': 'cloggrum',
+        'piece' : 'sword',
+        'damage' : 60,
+        'durability' : 3300
+    },
+    {
+        'material': 'froststeel',
+        'piece' : 'sword',
+        'damage' : 70,
+        'durability' : 3500
+    },
+    {
+        'material': 'utherium',
+        'piece' : 'sword',
+        'damage' : 80,
+        'durability' : 3700
+    },
+    {
+        'material': 'forgotten',
+        'piece' : 'sword',
+        'damage' : 90,
+        'durability' : 4100
+    },
+
+    // Tools
+    {
+        'material': 'cloggrum',
+        'piece' : 'tool',
+        'damage' : 50,
+        'durability' : 3300
+    },
+    {
+        'material': 'cloggrum',
+        'piece' : 'battleaxe',
+        'damage' : 80,
+        'durability' : 3300
+    },
+    {
+        'material': 'froststeel',
+        'piece' : 'tool',
+        'damage' : 60,
+        'durability' : 3500
+    },
+    {
+        'material': 'utherium',
+        'piece' : 'tool',
+        'damage' : 70,
+        'durability' : 3700
+    },
+    {
+        'material': 'forgotten',
+        'piece' : 'tool',
+        'damage' : 80,
+        'durability' : 4100
+    }
+];
 
 ItemEvents.modification( (event) => {
-    global.modifyModItems(event, modId, materialIds, durabilities, attackDamages, armorTotals, armorToughnessesTotals, armorDistributions, armorToughnessDistributions);
-});
+    // global.modifyModItems(event, modId, materialIds, durabilities, attackDamages, armorTotals, armorToughnessesTotals, armorDistributions, armorToughnessDistributions);
+    
+    // event.modify("undergarden:forgotten_battleaxe", item => {
+    //     item.attackDamage = 200;
+    // });
 
+    // event.modify("undergarden:cloggrum_battleaxe", item => {
+    //     item.attackDamage = 112;
+    // });
+
+
+    modifications_map.forEach(data => {
+        if(armor_pieces.includes(data['piece'])){
+            event.modify("undergarden:"+ data['material'] + "_" + data['piece'], item => {
+                item.armorProtection = data['armor'];
+                item.armorToughness = data['armor_t'];
+                item.armorKnockbackResistance = data['knock_r'];
+                item.maxDamage = data['durability'];
+            });
+        }
+        else if (data['piece']==='sword'){
+            event.modify("undergarden:"+ data['material'] + "_" + data['piece'], item => {
+                item.attackDamage = data['damage'];
+                item.maxDamage = data['durability'];
+            });
+        }
+        else if (data['piece']==='tool'){
+            ['pickaxe', 'axe', 'shovel', 'hoe'].forEach(piece=>{
+                event.modify("undergarden:"+ data['material'] + "_" + piece, item => {
+                    item.maxDamage = data['durability'];
+                });
+            });
+            
+        }
+    });
+});

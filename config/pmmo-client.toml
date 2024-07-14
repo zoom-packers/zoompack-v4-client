@@ -22,7 +22,7 @@
 		"Display Vein Gauge" = false
 		#how far offset from center the gain list should be
 		#Range: 0.0 ~ 1.0
-		"Gain List Xoffset" = 0.45
+		"Gain List Xoffset" = 0.2
 		#how far down from the top left corner the gain list should be
 		#Range: 0.0 ~ 1.0
 		"Gain List Yoffset" = 5.0E-4
@@ -35,7 +35,7 @@
 		#How long, in ticks, items on the gain list should stay on screen before disappearing
 		"Gain List Linger Duration" = 100
 		#skills that should now show their gains in the gain list.  this can be used to limit spammy skills
-		"Gain Blacklist" = []
+		"Gain Blacklist" = ["agility", "swimming"]
 		#if true, removes the skills button from the inventory screen
 		"hide skill button" = false
 		#the horizontal location of the skill button in the inventory.

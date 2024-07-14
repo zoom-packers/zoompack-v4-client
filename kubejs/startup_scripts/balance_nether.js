@@ -1,104 +1,135 @@
-// API: KubeJS
-// KubeJS: 1.0.0
-// MC: 1.20.1
+ItemEvents.modification((event) => {
 
-// Nether intervals
-// Damage: 20-50
-// Armor: 33 - 55
-// Toughness: 20 - 24
-// Durability: 2000 - 3000
-// Materials: Netherite, Milenium, Coxium
 
-ItemEvents.toolTierRegistry(event => {
-    // We already have netherite, so create the other two tiers for tools & armors
-    global.createToolTier(event, 'milenium', 2500, 8, 31, 4, 40, '#zoomers:milenium');
-    global.createToolTier(event, 'coxium', 3000, 10, 46, 5, 50, '#zoomers:coxium');
-});
+    // Other mods netherite items - those possible
 
-ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "milenium", 150, [7,10,15,8], 40, 6, 0.2, "#zoomers:milenium");
-    global.createArmorTier(event, "coxium", 180, [10,15,20,10], 50, 8, 0.3, "#zoomers:coxium");
-});
+    // Create
+    event.modify("create:netherite_diving_helmet", item => {
+        item.armorProtection = 6;
+        item.maxDamage = 800;
+    });
+    event.modify("create:netherite_backtank", item => {
+        item.armorProtection = 8;
+        item.maxDamage = 1200;
+    });
+    event.modify("create:netherite_diving_boots", item => {
+        item.armorProtection = 5.5;
+        item.maxDamage = 900;
+    });
 
-StartupEvents.registry("item", event => {
-    event.create("milenium_ingot")
-        .displayName("Milenium Ingot")
-        .texture("kubejs:item/milenium_ingot");
-    event.create("coxium_ingot")
-        .displayName("Coxium Ingot")
-        .texture("kubejs:item/coxium_ingot");
+    // Better Nether 
+    // cincinnasite
+    global.setMaterialDurabilityTools(event, "betternether", "cincinnasite", 2700);
+    global.setMaterialDurabilityArmor(event, "betternether", "cincinnasite", [850, 1232, 1147, 1020]);
+    event.modify("betternether:cincinnasite_sword", item => {
+        item.attackDamage = 16;
+    });
 
-    event.create("raw_milenium")
-        .displayName("Raw Milenium")
-        .texture("kubejs:item/raw_milenium");
-    event.create("raw_coxium")
-        .displayName("Raw Coxium")
-        .texture("kubejs:item/raw_coxium");
-});
+    // cincinnasite diamond
+    event.modify("betternether:cincinnasite_sword_diamond", item => {
+        item.attackDamage = 18;
+        item.maxDamage = 2800;
+    });
 
-StartupEvents.registry("block", e => {
-    e.create("milenium_ore")
-        .displayName("Milenium Ore")
-        .hardness(3)
-        .resistance(3)
-        .material("stone")
-        .textureAll("kubejs:block/milenium_ore");
+    event.modify("betternether:cincinnasite_axe_diamond", item => {
+        item.maxDamage = 2800;
+    });
 
-    e.create("coxium_ore")
-        .displayName("Coxium Ore")
-        .hardness(3)
-        .resistance(3)
-        .material("stone")
-        .textureAll("kubejs:block/coxium_ore");
-});
+    event.modify("betternether:cincinnasite_pickaxe_diamond", item => {
+        // item.attackDamage = 30;
+        item.maxDamage = 2800;
+    });
 
-// ItemEvents.armorTierRegistry(event => {
-//     global.createArmorTier(event, "milenium", 150, [7,10,15,8], 40, 6, 0.2, "#zoomers:milenium");
-//     global.createArmorTier(event, "coxium", 180, [10,15,20,10], 50, 8, 0.3, "#zoomers:coxium");
-// });
+    event.modify("betternether:cincinnasite_shovel_diamond", item => {
+        // item.attackDamage = 30;
+        item.maxDamage = 2800;
+    });
 
-ItemEvents.modification( (event) => {
+    event.modify("betternether:cincinnasite_hoe_diamond", item => {
+        // item.attackDamage = 30;
+        item.maxDamage = 2800;
+    });
+
+    // Ruby
+    global.setMaterialDurabilityTools(event, "betternether", "nether_ruby", 2950);
+    global.setMaterialDurabilityArmor(event, "betternether", "nether_ruby", [1350, 1957, 1822, 1620]);
+    event.modify("betternether:nether_ruby_sword", item => {
+        item.attackDamage = 21;
+    });
+
+    // Flaming Ruby
+    global.setMaterialDurabilityTools(event, "betternether", "flaming_ruby", 3025);
+    global.setMaterialDurabilityArmor(event, "betternether", "flaming_ruby", [1750, 2537, 2362, 2100]);
+    event.modify("betternether:flaming_ruby_sword", item => {
+        item.attackDamage = 25;
+    });
 
 
     // Netherite modifications
     event.modify("minecraft:netherite_sword", item => {
-        item.attackDamage = 20;
-        item.maxDamage = 2000;
+        item.attackDamage = 30;
+        item.maxDamage = 3100;
     });
 
     event.modify("minecraft:netherite_axe", item => {
         // item.attackDamage = 30;
-        item.maxDamage = 2000;
+        item.maxDamage = 3100;
+    });
+
+    event.modify("minecraft:netherite_pickaxe", item => {
+        // item.attackDamage = 30;
+        item.maxDamage = 3100;
+    });
+
+    event.modify("minecraft:netherite_shovel", item => {
+        // item.attackDamage = 30;
+        item.maxDamage = 3100;
+    });
+
+    event.modify("minecraft:netherite_hoe", item => {
+        // item.attackDamage = 30;
+        item.maxDamage = 3100;
     });
 
     event.modify("minecraft:netherite_helmet", item => {
-        item.armorProtection = 6;
-        item.armorToughness = 5;
-        item.maxDamage = 1875;
-    });
-
-    event.modify("minecraft:netherite_chestplate", item => {
         item.armorProtection = 12;
-        item.armorToughness = 5;
+        item.armorToughness = 8;
+        item.armorKnockbackResistance = 0.3;
         item.maxDamage = 2000;
     });
 
+    event.modify("minecraft:netherite_chestplate", item => {
+        item.armorProtection = 22;
+        item.armorToughness = 8;
+        item.armorKnockbackResistance = 0.3;
+        item.maxDamage = 2900;
+    });
+
     event.modify("minecraft:netherite_leggings", item => {
-        item.armorProtection = 9;
-        item.armorToughness = 5;
-        item.maxDamage = 1900;
+        item.armorProtection = 17;
+        item.armorToughness = 8;
+        item.armorKnockbackResistance = 0.3;
+        item.maxDamage = 2700;
     });
 
     event.modify("minecraft:netherite_boots", item => {
-        item.armorProtection = 6;
-        item.armorToughness = 5;
-        item.maxDamage = 1850;
+        item.armorProtection = 12;
+        item.armorToughness = 8;
+        item.armorKnockbackResistance = 0.3;
+        item.maxDamage = 2400;
     });
 
 });
 
 
+ItemEvents.toolTierRegistry(event => {
+    global.createToolTier(event, 'cincinnasite_diamond', 3000, 10, 46, 5, 50, 'minecraft:diamond');
+});
+
+ItemEvents.armorTierRegistry(event => {
+    global.createArmorTier(event, "cincinnasite_diamond", 95, [10, 14, 17, 10], 50, 6, 0.2, "minecraft:diamond");
+});
+
 StartupEvents.registry("item", e => {
-    global.createAllToolsForTier(e, "milenium", global.getMaterialTexturesObject("kubejs", "milenium"));
-    global.createAllToolsForTier(e, "coxium", global.getMaterialTexturesObject("kubejs", "coxium"));
+    global.creatArmorForTier(e, "cincinnasite_diamond", global.getMaterialTexturesObject("kubejs", "cincinnasite_diamond"), "Cincinnasite Diamond");
 });

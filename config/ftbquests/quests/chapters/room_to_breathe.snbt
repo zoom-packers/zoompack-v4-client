@@ -1,0 +1,241 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "room_to_breathe"
+	group: "13CD0C62E96AC261"
+	icon: {
+		Count: 1
+		id: "sophisticatedbackpacks:backpack"
+		tag: {
+			borderColor: 4673362
+			clothColor: 4673362
+		}
+	}
+	id: "081724BA5A975B87"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2FBE1F1BFF690F38"
+			rewards: [
+				{
+					id: "0098D59F03EC26FC"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "775DAC326AD0D3A5"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "18EC43423D02B7A5"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5AB66C33E0DF9220"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Small steps"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2FBE1F1BFF690F38"]
+			id: "44A246918416879D"
+			rewards: [
+				{
+					id: "78FC192FD3EF7BBE"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "69F8C62DFCF75F74"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2B82DF18C7298BF2"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "0F94EC89CB8AB414"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "382D7E3AC15C7DE7"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			title: "Im hard"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["44A246918416879D"]
+			id: "590058A2984BE627"
+			rewards: [
+				{
+					count: 4
+					id: "40371045B87E71F6"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "022C8620C3087803"
+					item: "minecraft:dispenser"
+					type: "item"
+				}
+				{
+					id: "556CFBA71D7C371D"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "20421328ECBFCA66"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65EBC6CF60E7E3F4"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			title: "Even hurdur"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["590058A2984BE627"]
+			id: "7802546775DAA6A8"
+			rewards: [
+				{
+					id: "5DB9034A3BC48291"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "1FD785814100C400"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "011A993474B7F29E"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "51D2884C3DE4A546"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6FFC52CDFBC02C53"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			title: "Pimp back"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7802546775DAA6A8"]
+			id: "55E65EB8F755E87A"
+			rewards: [
+				{
+					count: 2
+					id: "3027483824129FCF"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7BA00A86813087BB"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "7325EF69FD08A519"
+					item: {
+						Count: 1
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1689BD49A420F4B6"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			title: "Got room now"
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["55E65EB8F755E87A"]
+			id: "0F482DC3D5A34937"
+			rewards: [
+				{
+					count: 2
+					id: "4C7F46EC6D8DEB22"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "42A33F75E1ABAA00"
+					item: "minecraft:fermented_spider_eye"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "68CDBDBB4F8320C9"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "70D4C8743637A3D3"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "65F4DF9181CC67C9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 4
+					id: "1BF404D72305B543"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21E4F0622BCA754D"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			title: "All the space in the world"
+			x: -1.5d
+			y: -8.5d
+		}
+	]
+	title: "Room to breathe"
+}

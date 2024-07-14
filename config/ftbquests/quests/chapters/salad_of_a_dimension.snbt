@@ -1,0 +1,151 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "salad_of_a_dimension"
+	group: "653CB9213F69DF0A"
+	icon: "theabyss:infected_grass"
+	id: "3898F592514827E7"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["443C276C7BAB15D6"]
+			icon: "theabyss:infected_grass"
+			id: "4FF94E7816313E70"
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				id: "500A7E6E286D64F5"
+				type: "dimension"
+			}]
+			title: "Smells like vegans"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["Catalizatorul de la masina lui Milea. Dupa ce a fost furat poate fi folosit pentru a descuia dimensiunea veganilor."]
+			id: "443C276C7BAB15D6"
+			subtitle: "Use it to light a portal made of bricks"
+			tasks: [{
+				id: "13C1946AD858B569"
+				item: "undergarden:catalyst"
+				type: "item"
+			}]
+			title: "Catalizator"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FF94E7816313E70"]
+			id: "5C0F5BD4A341EE6E"
+			tasks: [{
+				count: 5L
+				id: "1725BF464C7EA407"
+				item: "undergarden:froststeel_ingot"
+				type: "item"
+			}]
+			title: "Frosted sperm"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C0F5BD4A341EE6E"]
+			id: "59666E245031C7ED"
+			tasks: [{
+				count: 5L
+				id: "674D73073A6152DB"
+				item: "undergarden:cloggrum_ingot"
+				type: "item"
+			}]
+			title: "Mud ingot"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["59666E245031C7ED"]
+			id: "0C63004C99406DBD"
+			tasks: [{
+				count: 5L
+				id: "081AD92FC4690ECD"
+				item: "undergarden:utherium_crystal"
+				type: "item"
+			}]
+			title: "Ciclu uscat"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["01130E9743A8E5A5"]
+			id: "55BA21A39EB22E95"
+			tasks: [{
+				id: "4A91093AB85F191D"
+				item: "undergarden:forgotten_ingot"
+				type: "item"
+			}]
+			title: "Netherite de vegani"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2B2E0F0F896B830C"]
+			id: "01130E9743A8E5A5"
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				id: "2D31B83F2AF5AD0F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Golem de buget"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0C63004C99406DBD"]
+			id: "242DD57B316BCAC9"
+			tasks: [{
+				id: "588E81FF0A053C8E"
+				item: "undergarden:regalium_crystal"
+				type: "item"
+			}]
+			title: "Aur de vegani"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["242DD57B316BCAC9"]
+			id: "2B2E0F0F896B830C"
+			tasks: [{
+				id: "5C1DA4F1003B459B"
+				item: {
+					Count: 1
+					id: "undergarden:cloggrum_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Topor"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["55BA21A39EB22E95"]
+			id: "2A0442070E8F3D6E"
+			tasks: [{
+				id: "0C16FC7015DBBCBB"
+				item: {
+					Count: 1
+					id: "undergarden:forgotten_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "TOPOR"
+			x: -0.5d
+			y: 3.5d
+		}
+	]
+	title: "Salad of a dimension"
+}

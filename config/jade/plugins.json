@@ -5,7 +5,7 @@
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
-    "harvest_tool.show_unbreakable": false,
+    "harvest_tool.show_unbreakable": true,
     "animal_owner": true,
     "animal_owner.fetch_names": true,
     "harvest_tool.effective_tool": true,
@@ -37,13 +37,13 @@
     "beehive": true,
     "item_storage.detailed_amount": 54,
     "player_head": true,
-    "block_states": true,
+    "block_states": false,
     "lectern": true,
     "entity_armor": true,
     "harvest_tool.creative": false,
     "horse_stats": true,
     "item_tooltip": true,
-    "entity_health": true,
+    "entity_health": false,
     "enchantment_power": true,
     "zombie_villager": true,
     "villager_profession": true,
@@ -73,8 +73,7 @@
   },
   "apotheosis": {
     "adventure": true,
-    "ench": true,
-    "spawner": true
+    "ench": true
   },
   "lootr": {
     "info": true

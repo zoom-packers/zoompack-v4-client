@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "apotheosis:gem_dust"
+        },
+        {
+            "item": "apotheosis:gem_dust"
+        },
+        {
+            "item": "apotheosis:gem_dust"
+        },
+        {
+            "item": "apotheosis:gem_dust"
+        },
+        {
+            "item": "apotheosis:gem_dust"
+        },
+        {
+            "item": "apotheosis:gem_dust"
+        },
+        {
+            "item": "apotheosis:gem_dust"
+        },
+        {
+            "item": "apotheosis:gem_dust"
+        },
+        {
+            "item": "apotheosis:rare_material"
+        }
+    ],
+    "result": {
+        "item": "apotheosis:epic_material",
+        "count": 1
+    }
+}

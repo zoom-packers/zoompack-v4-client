@@ -8,14 +8,14 @@ function armor (value) {
     }
 }
 
-function weapon (value) {
+function sword (value) {
     return {
         requirements: {
             WEAPON: {
-                combat: value
+                swordsmanship: value
             },
             WEAR: {
-                combat: value
+                swordsmanship: value
             }
         }
     }
@@ -28,7 +28,7 @@ function axe (value) {
                 woodcutting: value
             },
             WEAPON: {
-                combat: value
+                swordsmanship: value
             },
             WEAR: {
                 woodcutting: value
@@ -73,11 +73,42 @@ function use(skill, value) {
     }
 }
 
+function generalUse(skill, value) {
+    return {
+        requirements: {
+            WEAR: {
+                [skill]: value
+            },
+            INTERACT: {
+                [skill]: value
+            },
+            PLACE: {
+                [skill]: value
+            },
+            USE: {
+                [skill]: value
+            }
+        }
+    }
+}
+
+function place(skill, value) {
+    return {
+        requirements: {
+            PLACE: {
+                [skill]: value
+            }
+        }
+    }
+}
+
 module.exports = {
     armor,
-    weapon,
+    sword,
     axe,
     tool,
     mount,
-    use
+    use,
+    generalUse,
+    place
 }

@@ -1,0 +1,557 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "go_home_go_bed"
+	group: "13CD0C62E96AC261"
+	icon: "supplementaries:hourglass"
+	id: "1F92F0F7C94DDE6F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3338B0479CACB6C3"
+			rewards: [{
+				id: "1B4D7884CE4D42EA"
+				item: "supplementaries:hourglass"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05880F469186CFAC"
+				item: "minecraft:white_bed"
+				type: "item"
+			}]
+			title: "Tired"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			description: ["Made a furnace huh? Here's a knife, go ahead and off urself."]
+			id: "33CD0A444AE7F96B"
+			rewards: [{
+				id: "0F5ACBB3CF6A930C"
+				item: {
+					Count: 1
+					id: "farmersdelight:iron_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AFD88E9A82637F2"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Burnt smell"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "075AD0FF4874FEE2"
+			rewards: [
+				{
+					count: 5
+					id: "458DE9D0F06C0CFE"
+					item: "minecraft:cod"
+					type: "item"
+				}
+				{
+					id: "5491635346937B2B"
+					item: "comforts:sleeping_bag_white"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "621C54B7E2F5198C"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			title: "Boschetar"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "0563B25EAC117374"
+			tasks: [{
+				id: "5EC0D1CA792E222D"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["33CD0A444AE7F96B"]
+			id: "06EDD0255A1874C1"
+			tasks: [{
+				id: "317A0FC567403C43"
+				item: "ironfurnaces:copper_furnace"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			icon: "chimes:bamboo_chimes"
+			id: "69D00EB2506FB3F7"
+			tasks: [
+				{
+					id: "5A9DCCBAFCEBE832"
+					item: "chimes:bamboo_chimes"
+					type: "item"
+				}
+				{
+					id: "5AB68B86C88FA29D"
+					item: "chimes:carved_bamboo_chimes"
+					type: "item"
+				}
+				{
+					id: "157BE54496194CC3"
+					item: "chimes:iron_chimes"
+					type: "item"
+				}
+				{
+					id: "0B0725283C477B94"
+					item: "chimes:copper_chimes"
+					type: "item"
+				}
+				{
+					id: "3EE06DACBB34137C"
+					item: "chimes:amethyst_chimes"
+					type: "item"
+				}
+			]
+			title: "itza shimey"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0563B25EAC117374"]
+			id: "2B7D1F96CAD56AA0"
+			tasks: [{
+				id: "7E5684DE74D267D3"
+				item: "ironfurnaces:augment_blasting"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["32A5E557FEF93B22"]
+			id: "76D60BEEEAAA9EDF"
+			tasks: [{
+				id: "54A36FEF17737915"
+				item: "ironfurnaces:augment_smoking"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			id: "32A5E557FEF93B22"
+			tasks: [{
+				id: "6FAC74D6440EDB88"
+				item: "minecraft:smoker"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["06EDD0255A1874C1"]
+			id: "0E38FB18BABADD29"
+			tasks: [{
+				id: "4DECADD9382E9556"
+				item: "ironfurnaces:augment_factory"
+				type: "item"
+			}]
+			title: "Mad lab"
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["06EDD0255A1874C1"]
+			id: "6053BD58C28761D3"
+			tasks: [{
+				id: "6B5BF9DE9C28389B"
+				item: "ironfurnaces:augment_generator"
+				type: "item"
+			}]
+			title: "POWAAAH"
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["06EDD0255A1874C1"]
+			id: "390D9E0A95966DE2"
+			tasks: [{
+				id: "38EF6D81D4AC1347"
+				item: "ironfurnaces:augment_speed"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["06EDD0255A1874C1"]
+			id: "08D542FFF35D90EA"
+			tasks: [{
+				id: "473664A9FD3176BF"
+				item: "ironfurnaces:augment_fuel"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["06EDD0255A1874C1"]
+			id: "47E8D3055550931F"
+			tasks: [{
+				id: "146A8FCB4C004269"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			id: "410C89EB4F183E20"
+			tasks: [{
+				id: "2545E71FDAB2F509"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			title: "Subtle as a fart"
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			id: "460915FE57BB873E"
+			tasks: [{
+				id: "463D9C29E7BCEA74"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			title: "Nether efficiency"
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			id: "68E09F42FC7B463A"
+			tasks: [{
+				id: "0A148F573E953AF0"
+				item: "corail_woodcutter:oak_woodcutter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "6DF417BC0426F6BF"
+			tasks: [{
+				id: "6CF57C5770D88EAB"
+				item: "minecraft:stonecutter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "654EB363B7A37C3E"
+			tasks: [{
+				id: "4A169026A5D3DD23"
+				item: "elevatorid:elevator_white"
+				type: "item"
+			}]
+			title: "Elevated"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			icon: "handcrafted:oak_chair"
+			id: "67B91ACA726C1901"
+			tasks: [
+				{
+					id: "63D7F84044022CA2"
+					item: "handcrafted:oak_chair"
+					type: "item"
+				}
+				{
+					id: "49B1B81242DEFC2A"
+					item: "handcrafted:oak_table"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"69D00EB2506FB3F7"
+				"654EB363B7A37C3E"
+				"3338B0479CACB6C3"
+				"6DF417BC0426F6BF"
+				"68E09F42FC7B463A"
+				"67B91ACA726C1901"
+				"075AD0FF4874FEE2"
+				"33CD0A444AE7F96B"
+				"0563B25EAC117374"
+				"32A5E557FEF93B22"
+			]
+			id: "2157D70777E4CEEA"
+			tasks: [{
+				id: "2B779EA50808BDA9"
+				title: "A propper home"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "078E2D97269321FC"
+			tasks: [
+				{
+					count: 5L
+					id: "2218B75B31DC52A8"
+					item: { Count: 5, id: "minecraft:oak_log" }
+					type: "item"
+				}
+				{
+					id: "5D011D8ED300FF3E"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+			]
+			title: "Oak Apprentice"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "286D4F63ABB64196"
+			tasks: [
+				{
+					count: 5L
+					id: "112439B217BBE732"
+					item: { Count: 5, id: "minecraft:spruce_log" }
+					type: "item"
+				}
+				{
+					id: "219B7F529CBA79D2"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+			]
+			title: "Spruce Apprentice"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "4134A45716916926"
+			tasks: [
+				{
+					count: 5L
+					id: "0CDDFA13B810F393"
+					item: { Count: 5, id: "minecraft:birch_log" }
+					type: "item"
+				}
+				{
+					id: "581C0DEEA062A2C1"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+			]
+			title: "Birch Apprentice"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "296037BF9D3898C8"
+			tasks: [
+				{
+					count: 5L
+					id: "6232F32200C6F6EE"
+					item: { Count: 5, id: "minecraft:jungle_log" }
+					type: "item"
+				}
+				{
+					id: "6AAEAD59643957EE"
+					item: "minecraft:jungle_sapling"
+					type: "item"
+				}
+			]
+			title: "Jungle Apprentice"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "3D7074D041A5FD7A"
+			tasks: [
+				{
+					count: 5L
+					id: "5D93ED7D6D4058F2"
+					item: { Count: 5, id: "minecraft:dark_oak_log" }
+					type: "item"
+				}
+				{
+					id: "44DE991139D78255"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+			]
+			title: "Dark Oak Apprentice"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "76643E6478029F4C"
+			tasks: [
+				{
+					count: 5L
+					id: "179BF1A36C873C79"
+					item: { Count: 5, id: "minecraft:cherry_log" }
+					type: "item"
+				}
+				{
+					id: "5266489C549BB4A4"
+					item: "minecraft:cherry_sapling"
+					type: "item"
+				}
+			]
+			title: "Cherry Apprentice"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "0F9B23BB4613B530"
+			tasks: [
+				{
+					count: 5L
+					id: "2835FB335A23E935"
+					item: { Count: 5, id: "minecraft:acacia_log" }
+					type: "item"
+				}
+				{
+					id: "261A6134E7972022"
+					item: "minecraft:acacia_sapling"
+					type: "item"
+				}
+			]
+			title: "Acacia Apprentice"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"76643E6478029F4C"
+				"0F9B23BB4613B530"
+				"4134A45716916926"
+				"3D7074D041A5FD7A"
+				"296037BF9D3898C8"
+				"078E2D97269321FC"
+				"286D4F63ABB64196"
+			]
+			id: "42183CF17279ECFB"
+			tasks: [{
+				id: "640CA1A9D993340F"
+				title: "Wood Antrepreneur"
+				type: "checkmark"
+			}]
+			title: "Wood entrepreneur"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			id: "552AC84730A20364"
+			tasks: [{
+				count: 26L
+				id: "31A1EA4FF6F3FE49"
+				item: { Count: 26, id: "farmersdelight:fried_egg" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			id: "33A8CCF9844268CB"
+			tasks: [{
+				count: 30L
+				id: "265F4BC75953C52B"
+				item: { Count: 30, id: "croptopia:cooked_bacon" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			id: "0B6412DC7CC483B9"
+			tasks: [{
+				count: 10L
+				id: "4C6E79C57FCEDC6A"
+				item: { Count: 10, id: "croptopia:beer" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			id: "2A167BDA117F4F69"
+			tasks: [{
+				count: 10L
+				id: "7AF7ADBDE00055D5"
+				item: { Count: 10, id: "croptopia:wine" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"552AC84730A20364"
+				"33A8CCF9844268CB"
+				"0B6412DC7CC483B9"
+				"2A167BDA117F4F69"
+				"42183CF17279ECFB"
+				"387D55D4205D13F6"
+				"4F5D799AB873599A"
+			]
+			description: ["When I eat, It is the food that is scared"]
+			id: "6194F0D477548580"
+			subtitle: "The pinacle of manlines"
+			tasks: [{
+				id: "03380B28E87E3032"
+				title: "Ron Swanson"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			id: "387D55D4205D13F6"
+			tasks: [{
+				entity: "minecraft:pig"
+				id: "15404958FB01E581"
+				type: "kill"
+				value: 20L
+			}]
+			title: "Cute, but not that cute"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			icon: "alexsmobs:spawn_egg_cachalot_whale"
+			id: "4F5D799AB873599A"
+			subtitle: "Like to fish"
+			tasks: [{
+				entity: "alexsmobs:cachalot_whale"
+				id: "5DE16DE1DF4A2195"
+				type: "kill"
+				value: 2L
+			}]
+			title: "Big game fisher"
+			x: 0.5d
+			y: -4.0d
+		}
+	]
+	title: "GO HOME GO BED"
+}

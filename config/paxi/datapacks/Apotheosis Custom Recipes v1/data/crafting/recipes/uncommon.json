@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:leather"
+        },
+        {
+            "item": "minecraft:leather"
+        },
+        {
+            "item": "minecraft:leather"
+        },
+        {
+            "item": "minecraft:leather"
+        },
+        {
+            "item": "minecraft:leather"
+        },
+        {
+            "item": "minecraft:leather"
+        },
+        {
+            "item": "minecraft:leather"
+        },
+        {
+            "item": "minecraft:leather"
+        },
+        {
+            "item": "apotheosis:common_material"
+        }
+    ],
+    "result": {
+        "item": "apotheosis:uncommon_material",
+        "count": 1
+    }
+}

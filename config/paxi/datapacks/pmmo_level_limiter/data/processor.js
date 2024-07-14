@@ -9,7 +9,7 @@ const item_functions = {
     "leggings": templateFormatter.armor,
     "boots": templateFormatter.armor,
     "axe": templateFormatter.axe,
-    "sword": templateFormatter.weapon,
+    "sword": templateFormatter.sword,
     "pickaxe": templateFormatter.tool,
     "shovel": templateFormatter.tool,
     "hoe": templateFormatter.tool,
@@ -60,6 +60,24 @@ function modifyEntityMountable(modId, entity, skill, level) {
     checkFileExists(filePath, modId, entity, skill, level);
     const template = templateFormatter.mount(skill, level)
     template.override = true;
+    ensureFolderExists(folder)
+    writeJson(template, filePath);
+}
+
+function modifyGeneralUseItemRequirements(modId, modItem, skill, level) {
+    let folder = `./${modId}/pmmo/items`;
+    let filePath = `${folder}/${modItem}.json`;
+    checkFileExists(filePath, modId, modItem, skill, level);
+    const template = templateFormatter.generalUse(skill, level)
+    ensureFolderExists(folder)
+    writeJson(template, filePath);
+}
+
+function modifyPlaceBlockRequirements(modId, modItem, skill, level) {
+    let folder = `./${modId}/pmmo/items`;
+    let filePath = `${folder}/${modItem}.json`;
+    checkFileExists(filePath, modId, modItem, skill, level);
+    const template = templateFormatter.place(skill, level)
     ensureFolderExists(folder)
     writeJson(template, filePath);
 }
@@ -118,5 +136,7 @@ module.exports = {
     modifySetRequirements,
     modifySingleItem,
     modifyEntityMountable,
-    modifySingleItemForMount
+    modifySingleItemForMount,
+    modifyGeneralUseItemRequirements,
+    modifyPlaceBlockRequirements
 }
