@@ -303,29 +303,17 @@ ItemEvents.modification((event) => {
     event.modify("deeperdarker:warden_boots", item => {
         item.maxDamage = 5160;
     });
-    event.modify("theabyss:glacerythe_armor_helmet", item => {
+    event.modify("theabyss:aberythe_armor_helmet", item => {
         item.maxDamage = 4500;
     });
-    event.modify("theabyss:glacerythe_armor_chestplate", item => {
+    event.modify("theabyss:aberythe_armor_chestplate", item => {
         item.maxDamage = 6525;
     });
-    event.modify("theabyss:glacerythe_armor_leggings", item => {
+    event.modify("theabyss:aberythe_armor_leggings", item => {
         item.maxDamage = 6075;
     });
-    event.modify("theabyss:glacerythe_armor_boots", item => {
-        item.maxDamage = 5400;
-    });
-    event.modify("theabyss:aberythe_armor_helmet", item => {
-        item.maxDamage = 4650;
-    });
-    event.modify("theabyss:aberythe_armor_chestplate", item => {
-        item.maxDamage = 6742;
-    });
-    event.modify("theabyss:aberythe_armor_leggings", item => {
-        item.maxDamage = 6277;
-    });
     event.modify("theabyss:aberythe_armor_boots", item => {
-        item.maxDamage = 5580;
+        item.maxDamage = 5400;
     });
     event.modify("theabyss:aberythe_sword", item => {
         item.maxDamage = 6250;
@@ -342,6 +330,33 @@ ItemEvents.modification((event) => {
     event.modify("theabyss:aberythe_hoe", item => {
         item.maxDamage = 6250;
     });
+    event.modify("theabyss:bone_armor_helmet", item => {
+        item.maxDamage = 4650;
+    });
+    event.modify("theabyss:bone_armor_chestplate", item => {
+        item.maxDamage = 6742;
+    });
+    event.modify("theabyss:bone_armor_leggings", item => {
+        item.maxDamage = 6277;
+    });
+    event.modify("theabyss:bone_armor_boots", item => {
+        item.maxDamage = 5580;
+    });
+    event.modify("theabyss:bone_sword", item => {
+        item.maxDamage = 6500;
+    });
+    event.modify("theabyss:bone_axe", item => {
+        item.maxDamage = 6500;
+    });
+    event.modify("theabyss:bone_pickaxe", item => {
+        item.maxDamage = 6500;
+    });
+    event.modify("theabyss:bone_shovel", item => {
+        item.maxDamage = 6500;
+    });
+    event.modify("theabyss:bone_hoe", item => {
+        item.maxDamage = 6500;
+    });
     event.modify("theabyss:ignisithe_armor_helmet", item => {
         item.maxDamage = 4890;
     });
@@ -355,64 +370,139 @@ ItemEvents.modification((event) => {
         item.maxDamage = 5868;
     });
     event.modify("theabyss:ignisithe_sword", item => {
-        item.maxDamage = 6500;
+        item.maxDamage = 6750;
     });
-    event.modify("theabyss:garnite_armor_helmet", item => {
+    event.modify("theabyss:bricked_knight_sword", item => {
+        item.maxDamage = 6750;
+    });
+    event.modify("theabyss:glacerythe_armor_helmet", item => {
         item.maxDamage = 5100;
     });
-    event.modify("theabyss:garnite_armor_chestplate", item => {
+    event.modify("theabyss:glacerythe_armor_chestplate", item => {
         item.maxDamage = 7394;
     });
-    event.modify("theabyss:garnite_armor_leggings", item => {
+    event.modify("theabyss:glacerythe_armor_leggings", item => {
         item.maxDamage = 6885;
     });
-    event.modify("theabyss:garnite_armor_boots", item => {
+    event.modify("theabyss:glacerythe_armor_boots", item => {
         item.maxDamage = 6120;
     });
-    event.modify("theabyss:garnite_sword", item => {
+    event.modify("theabyss:knight", item => {
         item.maxDamage = 6750;
+    });
+    event.modify("theabyss:garnite_armor_helmet", item => {
+        item.maxDamage = 5200;
+    });
+    event.modify("theabyss:garnite_armor_chestplate", item => {
+        item.maxDamage = 7539;
+    });
+    event.modify("theabyss:garnite_armor_leggings", item => {
+        item.maxDamage = 7020;
+    });
+    event.modify("theabyss:garnite_armor_boots", item => {
+        item.maxDamage = 6240;
+    });
+    event.modify("theabyss:garnite_sword", item => {
+        item.maxDamage = 7000;
     });
     event.modify("theabyss:garnite_axe", item => {
-        item.maxDamage = 6750;
+        item.maxDamage = 7000;
     });
     event.modify("theabyss:garnite_pickaxe", item => {
-        item.maxDamage = 6750;
+        item.maxDamage = 7000;
     });
     event.modify("theabyss:garnite_shovel", item => {
-        item.maxDamage = 6750;
+        item.maxDamage = 7000;
     });
     event.modify("theabyss:garnite_hoe", item => {
-        item.maxDamage = 6750;
+        item.maxDamage = 7000;
     });
-    event.modify("theabyss:incorythe_armor_helmet", item => {
+    event.modify("theabyss:phantom_armor_helmet", item => {
         item.maxDamage = 5350;
     });
-    event.modify("theabyss:incorythe_armor_chestplate", item => {
+    event.modify("theabyss:phantom_armor_chestplate", item => {
         item.maxDamage = 7757;
     });
-    event.modify("theabyss:incorythe_armor_leggings", item => {
+    event.modify("theabyss:phantom_armor_leggings", item => {
         item.maxDamage = 7222;
     });
-    event.modify("theabyss:incorythe_armor_boots", item => {
+    event.modify("theabyss:phantom_armor_boots", item => {
         item.maxDamage = 6420;
     });
+    event.modify("theabyss:phantom_sword", item => {
+        item.maxDamage = 7250;
+    });
+    event.modify("theabyss:phantom_axe", item => {
+        item.maxDamage = 7250;
+    });
+    event.modify("theabyss:phantom_pickaxe", item => {
+        item.maxDamage = 7250;
+    });
+    event.modify("theabyss:phantom_shovel", item => {
+        item.maxDamage = 7250;
+    });
+    event.modify("theabyss:phantom_hoe", item => {
+        item.maxDamage = 7250;
+    });
+    event.modify("theabyss:unorithe_armor_helmet", item => {
+        item.maxDamage = 5600;
+    });
+    event.modify("theabyss:unorithe_armor_chestplate", item => {
+        item.maxDamage = 8119;
+    });
+    event.modify("theabyss:unorithe_armor_leggings", item => {
+        item.maxDamage = 7560;
+    });
+    event.modify("theabyss:unorithe_armor_boots", item => {
+        item.maxDamage = 6720;
+    });
+    event.modify("theabyss:unorithe_sword", item => {
+        item.maxDamage = 7500;
+    });
+    event.modify("theabyss:unorithe_axe", item => {
+        item.maxDamage = 7500;
+    });
+    event.modify("theabyss:unorithe_pickaxe", item => {
+        item.maxDamage = 7500;
+    });
+    event.modify("theabyss:unorithe_shovel", item => {
+        item.maxDamage = 7500;
+    });
+    event.modify("theabyss:unorithe_hoe", item => {
+        item.maxDamage = 7500;
+    });
+    event.modify("theabyss:incorythe_armor_helmet", item => {
+        item.maxDamage = 6200;
+    });
+    event.modify("theabyss:incorythe_armor_chestplate", item => {
+        item.maxDamage = 8990;
+    });
+    event.modify("theabyss:incorythe_armor_leggings", item => {
+        item.maxDamage = 8370;
+    });
+    event.modify("theabyss:incorythe_armor_boots", item => {
+        item.maxDamage = 7440;
+    });
     event.modify("theabyss:incorythe_sword", item => {
-        item.maxDamage = 7000;
+        item.maxDamage = 7750;
     });
     event.modify("theabyss:incorythe_axe", item => {
-        item.maxDamage = 7000;
+        item.maxDamage = 7750;
     });
     event.modify("theabyss:incorythe_pickaxe", item => {
-        item.maxDamage = 7000;
+        item.maxDamage = 7750;
     });
     event.modify("theabyss:incorythe_shovel", item => {
-        item.maxDamage = 7000;
+        item.maxDamage = 7750;
     });
     event.modify("theabyss:incorythe_hoe", item => {
-        item.maxDamage = 7000;
+        item.maxDamage = 7750;
     });
     event.modify("theabyss:incorythe_sword_mkii", item => {
-        item.maxDamage = 7300;
+        item.maxDamage = 7750;
+    });
+    event.modify("theabyss:abyss_sword", item => {
+        item.maxDamage = 8000;
     });
     
 });
