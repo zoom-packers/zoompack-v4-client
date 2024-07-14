@@ -273,6 +273,7 @@ new_kjs_config_durability_tools("theabyss", "aberythe", 6250)
 
 new_kjs_config_durability_armor_set("theabyss", "bone_armor",  get_durability_list_from_helmet(4650))
 new_kjs_config_durability_tools("theabyss", "bone", 6500)
+new_kjs_config_durability("theabyss", "bone_sword_item", 6500)
 
 new_kjs_config_durability_armor_set("theabyss", "ignisithe_armor", get_durability_list_from_helmet(4890))
 new_kjs_config_durability("theabyss", "ignisithe_sword", 6750)
