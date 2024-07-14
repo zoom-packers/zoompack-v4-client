@@ -1,5 +1,140 @@
 
 ItemEvents.modification((event) => {
+    event.modify("blue_skies:pyrope_sword", item => {
+        item.maxDamage = 1600;
+    });
+    event.modify("blue_skies:pyrope_axe", item => {
+        item.maxDamage = 1600;
+    });
+    event.modify("blue_skies:pyrope_pickaxe", item => {
+        item.maxDamage = 1600;
+    });
+    event.modify("blue_skies:pyrope_shovel", item => {
+        item.maxDamage = 1600;
+    });
+    event.modify("blue_skies:pyrope_hoe", item => {
+        item.maxDamage = 1600;
+    });
+    event.modify("blue_skies:pyrope_helmet", item => {
+        item.maxDamage = 390;
+    });
+    event.modify("blue_skies:pyrope_chestplate", item => {
+        item.maxDamage = 565;
+    });
+    event.modify("blue_skies:pyrope_leggings", item => {
+        item.maxDamage = 526;
+    });
+    event.modify("blue_skies:pyrope_boots", item => {
+        item.maxDamage = 468;
+    });
+    event.modify("blue_skies:aquite_sword", item => {
+        item.maxDamage = 1700;
+    });
+    event.modify("blue_skies:aquite_axe", item => {
+        item.maxDamage = 1700;
+    });
+    event.modify("blue_skies:aquite_pickaxe", item => {
+        item.maxDamage = 1700;
+    });
+    event.modify("blue_skies:aquite_shovel", item => {
+        item.maxDamage = 1700;
+    });
+    event.modify("blue_skies:aquite_hoe", item => {
+        item.maxDamage = 1700;
+    });
+    event.modify("blue_skies:aquite_helmet", item => {
+        item.maxDamage = 410;
+    });
+    event.modify("blue_skies:aquite_chestplate", item => {
+        item.maxDamage = 594;
+    });
+    event.modify("blue_skies:aquite_leggings", item => {
+        item.maxDamage = 553;
+    });
+    event.modify("blue_skies:aquite_boots", item => {
+        item.maxDamage = 492;
+    });
+    event.modify("blue_skies:diopside_sword", item => {
+        item.maxDamage = 1800;
+    });
+    event.modify("blue_skies:diopside_axe", item => {
+        item.maxDamage = 1800;
+    });
+    event.modify("blue_skies:diopside_pickaxe", item => {
+        item.maxDamage = 1800;
+    });
+    event.modify("blue_skies:diopside_shovel", item => {
+        item.maxDamage = 1800;
+    });
+    event.modify("blue_skies:diopside_hoe", item => {
+        item.maxDamage = 1800;
+    });
+    event.modify("blue_skies:diopside_helmet", item => {
+        item.maxDamage = 430;
+    });
+    event.modify("blue_skies:diopside_chestplate", item => {
+        item.maxDamage = 623;
+    });
+    event.modify("blue_skies:diopside_leggings", item => {
+        item.maxDamage = 580;
+    });
+    event.modify("blue_skies:diopside_boots", item => {
+        item.maxDamage = 516;
+    });
+    event.modify("blue_skies:charoite_sword", item => {
+        item.maxDamage = 1900;
+    });
+    event.modify("blue_skies:charoite_axe", item => {
+        item.maxDamage = 1900;
+    });
+    event.modify("blue_skies:charoite_pickaxe", item => {
+        item.maxDamage = 1900;
+    });
+    event.modify("blue_skies:charoite_shovel", item => {
+        item.maxDamage = 1900;
+    });
+    event.modify("blue_skies:charoite_hoe", item => {
+        item.maxDamage = 1900;
+    });
+    event.modify("blue_skies:charoite_helmet", item => {
+        item.maxDamage = 450;
+    });
+    event.modify("blue_skies:charoite_chestplate", item => {
+        item.maxDamage = 652;
+    });
+    event.modify("blue_skies:charoite_leggings", item => {
+        item.maxDamage = 607;
+    });
+    event.modify("blue_skies:charoite_boots", item => {
+        item.maxDamage = 540;
+    });
+    event.modify("blue_skies:horizonite_sword", item => {
+        item.maxDamage = 2000;
+    });
+    event.modify("blue_skies:horizonite_axe", item => {
+        item.maxDamage = 2000;
+    });
+    event.modify("blue_skies:horizonite_pickaxe", item => {
+        item.maxDamage = 2000;
+    });
+    event.modify("blue_skies:horizonite_shovel", item => {
+        item.maxDamage = 2000;
+    });
+    event.modify("blue_skies:horizonite_hoe", item => {
+        item.maxDamage = 2000;
+    });
+    event.modify("blue_skies:horizonite_helmet", item => {
+        item.maxDamage = 475;
+    });
+    event.modify("blue_skies:horizonite_chestplate", item => {
+        item.maxDamage = 688;
+    });
+    event.modify("blue_skies:horizonite_leggings", item => {
+        item.maxDamage = 641;
+    });
+    event.modify("blue_skies:horizonite_boots", item => {
+        item.maxDamage = 570;
+    });
     event.modify("endlessbiomes:anklor_shell_armour_helmet", item => {
         item.maxDamage = 2950;
     });

@@ -131,7 +131,27 @@ def get_durability_list_from_helmet(helmet_durability):
 # Custom item attributes config generator
 # ////////////////////////////////////////////////////////////////////
 
+# blue skies
+new_armor_set_config("blue_skies", "pyrope", [1.5,3.5,2.5,2.5], 2, 0)
+new_sword_config("blue_skies","pyrope", 0.5) #7.5
 
+new_armor_set_config("blue_skies", "aquite", [2,3,2,2], 2, 0)
+new_sword_config("blue_skies","aquite", 2) #8
+
+new_armor_set_config("blue_skies", "diopside", [2,2.25,2,2], -2, 0)
+# new_sword_config("blue_skies","diopside", 0) #9
+
+new_armor_set_config("blue_skies", "charoite", [1,1.5,1.25,1.5], 0.5, 0)
+new_sword_config("blue_skies","charoite", 3) #10
+
+new_armor_set_config("blue_skies", "horizonite", [2.5,4.5,3.5,3.5], 2.5, 0)
+new_sword_config("blue_skies","horizonite", 4.5) #10.5
+
+
+# Undergarden
+new_armor_set_config("undergarden", "froststeel", [11,15,11,11], 5, 0.3)
+new_sword_config("undergarden","forgotten_battleaxe", 259, full_id=True)
+new_sword_config("undergarden","cloggrum_battleaxe", 171, full_id=True)
 
 # end related content
 new_sword_config("betterend","thallasium", 100)
@@ -206,6 +226,14 @@ def new_kjs_config_durability_material(mod_id, material, durability_tools, durab
     new_kjs_config_durability_tools(mod_id, material, durability_tools)
     new_kjs_config_durability_armor_set(mod_id, material, durability_armor_list)
 # ///////////////////////////////////
+
+# blue skies
+
+new_kjs_config_durability_material("blue_skies", "pyrope", 1600, get_durability_list_from_helmet(390))
+new_kjs_config_durability_material("blue_skies", "aquite", 1700, get_durability_list_from_helmet(410))
+new_kjs_config_durability_material("blue_skies", "diopside", 1800, get_durability_list_from_helmet(430))
+new_kjs_config_durability_material("blue_skies", "charoite", 1900, get_durability_list_from_helmet(450))
+new_kjs_config_durability_material("blue_skies", "horizonite", 2000, get_durability_list_from_helmet(475))
 
 # ende related
 new_kjs_config_durability_armor_set("endlessbiomes", "anklor_shell_armour", get_durability_list_from_helmet(2950))

@@ -47,7 +47,7 @@ ItemEvents.modification( (event) => {
 
     //Zanite Tools
     event.modify("aether:zanite_sword", item => {
-        item.attackDamage = 9;
+        item.attackDamage = 10;
         item.maxDamage = 2211;
     });
     event.modify("aether:zanite_axe", item => {
