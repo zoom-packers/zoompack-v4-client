@@ -618,7 +618,7 @@ ItemEvents.modification((event) => {
     event.modify("zoomer_bows:fusion_bow", item => {
         item.maxDamage = 3500;
     });
-    event.modify("zoomer_bows:aberyithe_bow", item => {
+    event.modify("zoomer_bows:aberythe_bow", item => {
         item.maxDamage = 4000;
     });
     event.modify("zoomer_bows:bone_bow", item => {
@@ -636,7 +636,7 @@ ItemEvents.modification((event) => {
     event.modify("zoomer_bows:unorithe_bow", item => {
         item.maxDamage = 6500;
     });
-    event.modify("zoomer_bows:icorythe_bow", item => {
+    event.modify("zoomer_bows:incorythe_bow", item => {
         item.maxDamage = 7000;
     });
     

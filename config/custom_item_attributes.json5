@@ -3233,7 +3233,7 @@
             "unbreakable": false
         },
         {
-            "item": "zoomer_bows:aberyithe_bow",
+            "item": "zoomer_bows:aberythe_bow",
             "overrides_main_hand": [
                 {
                     "attribute": "projectile_damage:generic",
@@ -3329,7 +3329,7 @@
             "unbreakable": false
         },
         {
-            "item": "zoomer_bows:icorythe_bow",
+            "item": "zoomer_bows:incorythe_bow",
             "overrides_main_hand": [
                 {
                     "attribute": "projectile_damage:generic",
