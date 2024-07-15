@@ -96,8 +96,8 @@ function modifyFullSets() {
     processor.modifySingleItem("theabyss", "unorithe_pick_axe", "pickaxe", 97);
     processor.modifySetRequirements("theabyss", "incorythe_armor", 98, "armor");
     processor.modifySetRequirements("theabyss", "incorythe", 98, "tools");
-    processor.modifySetRequirements("theabyss", "incorythe", 98, ["sword"], "{set_name}_{item}_mkii");
-    processor.modifySetRequirements("theabyss", "abyss", 99, ["sword"]);
+    processor.modifySetRequirements("theabyss", "incorythe", 99, ["sword"], "{set_name}_{item}_mkii");
+    processor.modifySetRequirements("theabyss", "abyss", 100, ["sword"]);
     processor.modifySetRequirements("cataclysm", "ignitium", 100, "armor");
     processor.modifySetRequirements("cataclysm_weaponery", "ignitium", 100, "tools");
 }
