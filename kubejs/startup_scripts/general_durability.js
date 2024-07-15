@@ -546,5 +546,98 @@ ItemEvents.modification((event) => {
     event.modify("theabyss:abyss_sword", item => {
         item.maxDamage = 8300;
     });
+    event.modify("magistuarmory:longbow", item => {
+        item.maxDamage = 400;
+    });
+    event.modify("zoomer_bows:pyrope_bow", item => {
+        item.maxDamage = 420;
+    });
+    event.modify("zoomer_bows:aquite_bow", item => {
+        item.maxDamage = 430;
+    });
+    event.modify("zoomer_bows:diopside_bow", item => {
+        item.maxDamage = 440;
+    });
+    event.modify("zoomer_bows:charoite_bow", item => {
+        item.maxDamage = 450;
+    });
+    event.modify("zoomer_bows:horizonite_bow", item => {
+        item.maxDamage = 460;
+    });
+    event.modify("zoomer_bows:zanite_bow", item => {
+        item.maxDamage = 470;
+    });
+    event.modify("zoomer_bows:gravitite_bow", item => {
+        item.maxDamage = 480;
+    });
+    event.modify("zoomer_bows:valkyrie_bow", item => {
+        item.maxDamage = 490;
+    });
+    event.modify("aether:phoenix_bow", item => {
+        item.maxDamage = 500;
+    });
+    event.modify("zoomer_bows:cincinnasite_bow", item => {
+        item.maxDamage = 600;
+    });
+    event.modify("zoomer_bows:cincinnasite_diamond_bow", item => {
+        item.maxDamage = 700;
+    });
+    event.modify("zoomer_bows:nether_ruby_bow", item => {
+        item.maxDamage = 800;
+    });
+    event.modify("zoomer_bows:fire_ruby_bow", item => {
+        item.maxDamage = 900;
+    });
+    event.modify("zoomer_bows:netherite_bow", item => {
+        item.maxDamage = 1000;
+    });
+    event.modify("zoomer_bows:cloggrum_bow", item => {
+        item.maxDamage = 1250;
+    });
+    event.modify("zoomer_bows:froststeel_bow", item => {
+        item.maxDamage = 1500;
+    });
+    event.modify("zoomer_bows:utherium_bow", item => {
+        item.maxDamage = 1750;
+    });
+    event.modify("zoomer_bows:forgotten_bow", item => {
+        item.maxDamage = 2000;
+    });
+    event.modify("zoomer_bows:thallasium_bow", item => {
+        item.maxDamage = 2300;
+    });
+    event.modify("zoomer_bows:terminite_bow", item => {
+        item.maxDamage = 2600;
+    });
+    event.modify("zoomer_bows:aeternium_bow", item => {
+        item.maxDamage = 2900;
+    });
+    event.modify("zoomer_bows:warden_bow", item => {
+        item.maxDamage = 3200;
+    });
+    event.modify("zoomer_bows:fusion_bow", item => {
+        item.maxDamage = 3500;
+    });
+    event.modify("zoomer_bows:aberyithe_bow", item => {
+        item.maxDamage = 4000;
+    });
+    event.modify("zoomer_bows:bone_bow", item => {
+        item.maxDamage = 4500;
+    });
+    event.modify("zoomer_bows:ignisithe_bow", item => {
+        item.maxDamage = 5000;
+    });
+    event.modify("zoomer_bows:garnite_bow", item => {
+        item.maxDamage = 5500;
+    });
+    event.modify("zoomer_bows:phantom_bow", item => {
+        item.maxDamage = 6000;
+    });
+    event.modify("zoomer_bows:unorithe_bow", item => {
+        item.maxDamage = 6500;
+    });
+    event.modify("zoomer_bows:icorythe_bow", item => {
+        item.maxDamage = 7000;
+    });
     
 });

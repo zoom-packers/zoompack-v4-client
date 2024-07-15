@@ -2847,6 +2847,502 @@
             "overrides_legs": [],
             "overrides_feet": [],
             "unbreakable": false
+        },
+        {
+            "item": "magistuarmory:longbow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 7,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:pyrope_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 8,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:aquite_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 8.5,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:diopside_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 9,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:charoite_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 10,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:horizonite_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 11,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:zanite_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 12,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:gravitite_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 13,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:valkyrie_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 14,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:phoenix_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 15,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:cincinnasite_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 20,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:cincinnasite_diamond_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 22,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:nether_ruby_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 24,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:fire_ruby_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 26,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:netherite_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 28,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:cloggrum_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 64,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:froststeel_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 74,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:utherium_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 85,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:forgotten_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 96,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:thallasium_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 111,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:terminite_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 139,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:aeternium_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 172,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:warden_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 220,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:fusion_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 272,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:aberyithe_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 282,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:bone_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 323,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:ignisithe_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 354,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:garnite_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 366,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:phantom_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 392,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:unorithe_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 476,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:icorythe_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 531,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
         }
     ]
 }
