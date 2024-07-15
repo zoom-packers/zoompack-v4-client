@@ -513,6 +513,9 @@ ItemEvents.modification((event) => {
     event.modify("theabyss:unorithe_hoe", item => {
         item.maxDamage = 7750;
     });
+    event.modify("theabyss:unorithe_pick_axe", item => {
+        item.maxDamage = 7750;
+    });
     event.modify("theabyss:incorythe_armor_helmet", item => {
         item.maxDamage = 6200;
     });
