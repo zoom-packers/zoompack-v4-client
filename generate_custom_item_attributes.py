@@ -318,6 +318,7 @@ new_kjs_config_durability_tools("theabyss", "phantom", 7500)
 
 new_kjs_config_durability_armor_set("theabyss", "unorithe_armor", get_durability_list_from_helmet(5600))
 new_kjs_config_durability_tools("theabyss", "unorithe", 7750)
+new_kjs_config_durability("theabyss", "unorithe_pick_axe", 7750)
 
 new_kjs_config_durability_armor_set("theabyss", "incorythe_armor", get_durability_list_from_helmet(6200))
 new_kjs_config_durability_tools("theabyss", "incorythe", 8000)
@@ -367,13 +368,13 @@ new_bow('zoomer_bows', 'warden_bow', 220, 3200)
 
 # Abyss
 new_bow('zoomer_bows', 'fusion_bow', 272, 3500)
-new_bow('zoomer_bows', 'aberyithe_bow', 282, 4000) #typo here @ aberyithe => aberythe
+new_bow('zoomer_bows', 'aberythe_bow', 282, 4000)
 new_bow('zoomer_bows', 'bone_bow', 323, 4500)
 new_bow('zoomer_bows', 'ignisithe_bow', 354, 5000)
 new_bow('zoomer_bows', 'garnite_bow', 366, 5500)
 new_bow('zoomer_bows', 'phantom_bow', 392, 6000)
 new_bow('zoomer_bows', 'unorithe_bow', 476, 6500)
-new_bow('zoomer_bows', 'icorythe_bow', 531, 7000) #typo here @ icorythe => incorythe
+new_bow('zoomer_bows', 'incorythe_bow', 531, 7000)
 
 
 # Saving

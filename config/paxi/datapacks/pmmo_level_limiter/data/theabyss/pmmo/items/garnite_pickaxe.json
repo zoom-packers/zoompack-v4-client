@@ -1,10 +1,10 @@
 {
     "requirements": {
         "TOOL": {
-            "mining": 92
+            "mining": 95
         },
         "WEAR": {
-            "mining": 92
+            "mining": 95
         },
         "WEAPON": {
             "combat": 0

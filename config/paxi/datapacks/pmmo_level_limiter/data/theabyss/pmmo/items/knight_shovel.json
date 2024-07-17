@@ -1,0 +1,14 @@
+{
+    "requirements": {
+        "TOOL": {
+            "excavation": 94
+        },
+        "WEAR": {
+            "excavation": 94
+        },
+        "WEAPON": {
+            "combat": 0
+        }
+    },
+    "override": true
+}
