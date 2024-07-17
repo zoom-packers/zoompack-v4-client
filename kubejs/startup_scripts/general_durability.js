@@ -549,6 +549,9 @@ ItemEvents.modification((event) => {
     event.modify("theabyss:abyss_sword", item => {
         item.maxDamage = 8300;
     });
+    event.modify("aquaculture:neptunium", item => {
+        item.maxDamage = 389;
+    });
     event.modify("magistuarmory:longbow", item => {
         item.maxDamage = 400;
     });

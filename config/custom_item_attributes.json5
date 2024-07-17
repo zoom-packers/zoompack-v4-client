@@ -2849,6 +2849,22 @@
             "unbreakable": false
         },
         {
+            "item": "aquaculture:neptunium",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 7,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
             "item": "magistuarmory:longbow",
             "overrides_main_hand": [
                 {
