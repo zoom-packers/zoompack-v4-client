@@ -47,7 +47,7 @@ function modifyFullSets() {
     processor.modifySetRequirements("irons_spellbooks", "priest", 22, "armor");
     processor.modifySetRequirements("irons_spellbooks", "plagued", 22, "armor");
     processor.modifySetRequirements("aquaculture", "neptunium", 23);
-    processor.modifySingleItem("aquaculture", "neptunium_bow", "bow", 97);
+    processor.modifySingleItem("aquaculture", "neptunium_bow", "bow", 23);
     processor.modifySetRequirements("blue_skies", "horizonite", 25);
     processor.modifySetRequirements("aether", "zanite", 30);
     processor.modifySetRequirements("aether", "neptune", 32, "armor");
