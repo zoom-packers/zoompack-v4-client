@@ -15,6 +15,10 @@
 !/config/paxi/**
 !/config/ftbquests/
 !/config/ftbquests/**
+!/defaultconfigs
+!/defaultconfigs/**
+!/js_gen
+!/js_gen/**
 !/kubejs/*
 !/kubejs/**
 !/mods
