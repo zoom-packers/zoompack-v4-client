@@ -1,0 +1,14 @@
+{
+  "exportZipName": "zoompack_v4.zip",
+  "includes": [
+    "../config",
+    "../coremods",
+    "../emotes",
+    "../kubejs",
+    "../packmenu",
+    "../shaderpacks",
+    "../icon.png",
+    "../options.txt",
+    "../servers.dat"
+  ]
+}
