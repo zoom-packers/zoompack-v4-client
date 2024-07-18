@@ -2,6 +2,7 @@ let processor = require("./processor")
 const {deleteAllItemsNotGenerated} = require("./processor");
 
 function modifyFullSets() {
+    // Overworld
     processor.modifySetRequirements("immersive_armors", "wooden", 1, "armor");
     processor.modifySetRequirements("immersive_armors", "bone", 2, "armor");
     processor.modifySetRequirements("minecraft", "leather", 3, "armor");
@@ -12,95 +13,172 @@ function modifyFullSets() {
     processor.modifySetRequirements("everythingcopper", "copper", 6);
     processor.modifySingleItem("create", "copper_backtank", "chestplate", 5);
     processor.modifySetRequirements("create", "copper_diving", 5, ["helmet", "boots"]);
-    processor.modifySetRequirements("blue_skies", "pyrope", 6);
     processor.modifySetRequirements("immersive_armors", "warrior", 7, "armor");
     processor.modifySingleItem("mutantmonsters", "mutant_skeleton_skull", "helmet", 5);
     processor.modifySetRequirements("mutantmonsters", "mutant_skeleton", 8, ["chestplate", "leggings", "boots"]);
     processor.modifySetRequirements("minecraft", "iron", 9);
-    processor.modifySetRequirements("blue_skies", "aquite", 9);
+    processor.modifySingleItem("zoomer_bows", "iron_bow", "bow", 9);
     processor.modifySetRequirements("irons_spellbooks", "wandering_magician", 10, "armor");
     processor.modifySetRequirements("immersive_armors", "slime", 10, "armor");
     processor.modifySetRequirements("immersive_armors", "robe", 10, "armor");
     processor.modifySetRequirements("kobolds", "kobold_iron", 11, "tools");
     processor.modifySetRequirements("minecraft", "gold", 12, undefined, "golden_{item}");
     processor.modifySetRequirements("irons_spellbooks", "pumpkin", 12, "armor");
-    processor.modifySetRequirements("blue_skies", "diopside", 12);
     processor.modifySetRequirements("immersive_armors", "divine", 13, "armor");
     processor.modifySetRequirements("immersive_armors", "steampunk", 13, "armor");
     processor.modifySetRequirements("immersive_armors", "heavy", 14, "armor");
+    processor.modifySingleItem("minecraft", "trident", "sword", 15);
+    processor.modifySingleItem("aquamirae", "abyssal_heaume", "helmet", 15);
+    processor.modifySingleItem("aquamirae", "abyssal_brigantine", "chestplate", 15);
+    processor.modifySetRequirements("aquamirae", "abyssal", 15, ["leggings", "boots"])
+    processor.modifySetRequirements("immersive_armors", "prismarine", 15, "armor");
+    processor.modifySetRequirements("aquamirae", "terrible", 16, "armor")
+    processor.modifySingleItem("aquamirae", "three_bolt_suit", "chestplate", 16)
+    processor.modifySetRequirements("aquamirae", "three_bolt", 16 ["helmet", "leggings", "boots"])
+    processor.modifySetRequirements("irons_spellbooks", "pyromancer", 17, "armor");
+    processor.modifySetRequirements("irons_spellbooks", "electromancer", 17, "armor");
+    processor.modifySetRequirements("irons_spellbooks", "archevoker", 17, "armor");
+    processor.modifySetRequirements("irons_spellbooks", "cultist", 17, "armor");
+    processor.modifySetRequirements("irons_spellbooks", "cryomancer", 17, "armor");
+    processor.modifySetRequirements("irons_spellbooks", "shadowwalker", 17, "armor");
+    processor.modifySetRequirements("irons_spellbooks", "priest", 17, "armor");
+    processor.modifySetRequirements("irons_spellbooks", "plagued", 17, "armor");
+    processor.modifySingleItem("zoomer_bows", "diamond_bow", "bow", 18);
     processor.modifySetRequirements("minecraft", "diamond", 18);
-    processor.modifySingleItem("minecraft", "trident", "sword", 20);
-    processor.modifySingleItem("aquamirae", "abyssal_heaume", "helmet", 19);
-    processor.modifySingleItem("aquamirae", "abyssal_brigantine", "chestplate", 19);
-    processor.modifySetRequirements("aquamirae", "abyssal", 19, ["leggings", "boots"])
-    processor.modifySetRequirements("blue_skies", "charoite", 20);
-    processor.modifySetRequirements("immersive_armors", "prismarine", 20, "armor");
-    processor.modifySetRequirements("aquamirae", "terrible", 21, "armor")
-    processor.modifySingleItem("aquamirae", "three_bolt_suit", "chestplate", 21)
-    processor.modifySetRequirements("aquamirae", "three_bolt", 21 ["helmet", "leggings", "boots"])
-    processor.modifySetRequirements("irons_spellbooks", "pyromancer", 22, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "electromancer", 22, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "archevoker", 22, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "cultist", 22, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "cryomancer", 22, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "shadowwalker", 22, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "priest", 22, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "plagued", 22, "armor");
-    processor.modifySetRequirements("aquaculture", "neptunium", 23);
-    processor.modifySingleItem("aquaculture", "neptunium_bow", "bow", 23);
-    processor.modifySetRequirements("blue_skies", "horizonite", 25);
-    processor.modifySetRequirements("aether", "zanite", 30);
-    processor.modifySetRequirements("aether", "neptune", 32, "armor");
-    processor.modifySetRequirements("aether", "gravitite", 35);
-    processor.modifySetRequirements("aether", "valkyrie", 37, ["helmet", "chestplate", "leggings", "boots", "axe", "pickaxe", "shovel", "hoe"]);
-    processor.modifySingleItem("aether", "valkyrie_lance", "sword", 37);
-    processor.modifySetRequirements("aether", "phoenix", 39, "armor");
-    processor.modifySetRequirements("aether", "obsidian", 40, "armor");
-    processor.modifySingleItem("aether", "mimicarmor_helmet", "helmet", 40);
-    processor.modifySingleItem("cataclysm", "monstrous_helm", "helmet", 40);
-    processor.modifySetRequirements("betternether", "cincinnasite", 42);
-    processor.modifySetRequirements("betternether", "cincinnasite", 44, "tools", "{set_name}_{item}_diamond");
-    processor.modifySetRequirements("kubejs", "cincinnasite_diamond", 44, "armor");
-    processor.modifySetRequirements("betternether", "nether_ruby", 47);
-    processor.modifySetRequirements("betternether", "flaming_ruby", 50);
-    processor.modifySetRequirements("minecraft", "netherite", 53);
-    processor.modifySingleItem("create", "netherite_backtank", "chestplate", 5);
-    processor.modifySetRequirements("create", "netherite_diving", 53, ["helmet", "boots"]);
-    processor.modifySetRequirements("undergarden", "cloggrum", 55);
-    processor.modifySetRequirements("undergarden", "froststeel", 59);
-    processor.modifySetRequirements("undergarden", "utherium", 62);
-    processor.modifySetRequirements("undergarden", "forgotten", 64, "tools");
-    processor.modifySingleItem("undergarden", "forgotten_battleaxe", "sword", 64);
-    processor.modifySetRequirements("betterend", "thallasium", 66);
-    processor.modifySetRequirements("betterend", "terminite", 69);
-    processor.modifySetRequirements("betterend", "aeternium", 73);
-    processor.modifySetRequirements("betterend", "crystalite", 77, "armor");
-    processor.modifySetRequirements("deeperdarker", "warden", 80);
-    processor.modifySetRequirements("theabyss", "bone_armor", 90, "armor");
-    processor.modifySetRequirements("theabyss", "fusion_armor", 90, "armor");
-    processor.modifySetRequirements("theabyss", "fusion", 90, "tools");
-    processor.modifySetRequirements("theabyss", "aberythe_armor", 91, "armor");
-    processor.modifySetRequirements("theabyss", "aberythe", 91, "tools");
+    processor.modifySetRequirements("aquaculture", "neptunium", 19);
+    processor.modifySingleItem("aquaculture", "neptunium_bow", "bow", 19);
+
+    // Blue skies - Everbright
+    processor.modifySetRequirements("blue_skies", "pyrope", 21);
+    processor.modifySingleItem("zoomer_bows", "pyrope_bow", "bow", 21);
+
+    processor.modifySetRequirements("blue_skies", "aquite", 23);
+    processor.modifySingleItem("zoomer_bows", "aquite_bow", "bow", 23);
+
+    processor.modifySetRequirements("blue_skies", "diopside", 25);
+    processor.modifySingleItem("zoomer_bows", "diopside_bow", "bow", 25);
+
+    processor.modifySetRequirements("blue_skies", "charoite", 29);
+    processor.modifySingleItem("zoomer_bows", "charoite_bow", "bow", 29);
+    // Everdawn
+    processor.modifySetRequirements("blue_skies", "horizonite", 32);
+    processor.modifySingleItem("zoomer_bows", "horizonite_bow", "bow", 32);
+
+    // Aether
+    processor.modifySetRequirements("aether", "zanite", 35);
+    processor.modifySingleItem("zoomer_bows", "zanite_bow", "bow", 35);
+
+    processor.modifySetRequirements("aether", "neptune", 37, "armor");
+    processor.modifySingleItem("zoomer_bows", "neptune_bow", "bow", 37);
+
+    processor.modifySetRequirements("aether", "gravitite", 39);
+    processor.modifySingleItem("zoomer_bows", "gravitite_bow", "bow", 39);
+
+    processor.modifySetRequirements("aether", "valkyrie", 41, ["helmet", "chestplate", "leggings", "boots", "axe", "pickaxe", "shovel", "hoe"]);
+    processor.modifySingleItem("aether", "valkyrie_lance", "sword", 41);
+    processor.modifySingleItem("zoomer_bows", "valkyrie_bow", "bow", 41);
+
+    processor.modifySetRequirements("aether", "phoenix", 45, "armor");
+    processor.modifySingleItem("aether", "phoenix_bow", "bow", 45);
+
+    processor.modifySetRequirements("aether", "obsidian", 49, "armor");
+    processor.modifySingleItem("aether", "mimicarmor_helmet", "helmet", 49);
+
+    // Better Nether
+    processor.modifySetRequirements("betternether", "cincinnasite", 52);
+    processor.modifySetRequirements("betternether", "cincinnasite", 52, "tools", "{set_name}_{item}_diamond");
+    processor.modifySingleItem("zoomer_bows", "cincinnasite_bow", "bow", 52);
+
+    processor.modifySetRequirements("kubejs", "cincinnasite_diamond", 54, "armor");
+    processor.modifySingleItem("zoomer_bows", "cincinnasite_diamond_bow", "bow", 54);
+
+    processor.modifySetRequirements("betternether", "nether_ruby", 56);
+    processor.modifySingleItem("zoomer_bows", "nether_ruby_bow", "bow", 56);
+
+    processor.modifySetRequirements("betternether", "flaming_ruby", 58);
+    processor.modifySingleItem("zoomer_bows", "fire_ruby_bow", "bow", 58);
+
+    processor.modifySetRequirements("minecraft", "netherite", 59);
+    processor.modifySingleItem("zoomer_bows", "netherite_bow", "bow", 59);
+    processor.modifySingleItem("create", "netherite_backtank", "chestplate", 59);
+    processor.modifySetRequirements("create", "netherite_diving", 59, ["helmet", "boots"]);
+
+    // Undergarden
+    processor.modifySetRequirements("undergarden", "cloggrum", 61);
+    processor.modifySingleItem("zoomer_bows", "cloggrum_bow", "bow", 61);
+    processor.modifySingleItem("undergarden", "cloggrum_battleaxe", "sword", 61);
+
+    processor.modifySetRequirements("undergarden", "froststeel", 63);
+    processor.modifySingleItem("zoomer_bows", "froststeel_bow", "bow", 63);
+
+    processor.modifySetRequirements("undergarden", "utherium", 65);
+    processor.modifySingleItem("zoomer_bows", "utherium_bow", "bow", 65);
+
+    processor.modifySetRequirements("undergarden", "forgotten", 67, "tools");
+    processor.modifySingleItem("zoomer_bows", "forgotten_bow", "bow", 67);
+    processor.modifySingleItem("undergarden", "forgotten_battleaxe", "sword", 67);
+
+    // Better End
+    processor.modifySetRequirements("betterend", "thallasium", 72);
+    processor.modifySingleItem("zoomer_bows", "thallasium_bow", "bow", 72);
+
+    processor.modifySetRequirements("betterend", "terminite", 74);
+    processor.modifySingleItem("zoomer_bows", "terminite_bow", "bow", 74);
+
+    processor.modifySetRequirements("betterend", "aeternium", 76);
+    processor.modifySingleItem("zoomer_bows", "aeternium_bow", "bow", 76);
+
+    processor.modifySetRequirements("betterend", "crystalite", 78, "armor");
+
+    // Deeper darker
+    processor.modifySetRequirements("deeperdarker", "warden", 81);
+    processor.modifySingleItem("zoomer_bows", "warden_bow", "bow", 81);
+
+    // The abyss
+
     processor.modifySetRequirements("theabyss", "bone", 92, ["axe", "pickaxe", "shovel", "hoe"]);
     processor.modifySetRequirements("theabyss", "bone", 92, ["sword"], "{set_name}_{item}_item");
+    processor.modifySetRequirements("theabyss", "bone_armor", 90, "armor");
+    processor.modifySingleItem("zoomer_bows", "bone_bow", "bow", 90);
+
+    processor.modifySetRequirements("theabyss", "fusion_armor", 91, "armor");
+    processor.modifySetRequirements("theabyss", "fusion", 91, "tools");
+    processor.modifySingleItem("zoomer_bows", "fusion_bow", "bow", 91);
+
+    processor.modifySetRequirements("theabyss", "aberythe_armor", 92, "armor");
+    processor.modifySetRequirements("theabyss", "aberythe", 92, "tools");
+    processor.modifySingleItem("zoomer_bows", "aberythe_bow", "bow", 92);
+
     processor.modifySetRequirements("theabyss", "ignisithe_armor", 93, "armor");
     processor.modifySetRequirements("theabyss", "ignisithe", 93, ["sword"]);
+    processor.modifySingleItem("zoomer_bows", "ignisithe_bow", "bow", 93);
     processor.modifySetRequirements("theabyss", "ignisithe", 93, ["sword"], "bricked_knight_sword");
+
     processor.modifySetRequirements("theabyss", "glacerythe_armor", 94, "armor");
+    processor.modifySingleItem("zoomer_bows", "glacerythe_bow", "bow", 94);
+
     processor.modifySetRequirements("theabyss", "knight", 94, ["axe", "pickaxe", "shovel", "hoe"]);
+    processor.modifySingleItem("zoomer_bows", "knight_bow", "bow", 94);
+
     processor.modifySetRequirements("theabyss", "garnite_armor", 95, "armor");
     processor.modifySetRequirements("theabyss", "garnite", 95, "tools");
+    processor.modifySingleItem("zoomer_bows", "garnite_bow", "bow", 95);
+
     processor.modifySetRequirements("theabyss", "phantom_armor", 96, "armor");
     processor.modifySetRequirements("theabyss", "phantom", 96, "tools");
+    processor.modifySingleItem("zoomer_bows", "phantom_bow", "bow", 96);
+
     processor.modifySetRequirements("theabyss", "unorithe_armor", 97, "armor");
     processor.modifySetRequirements("theabyss", "unorithe", 97, ["sword", "axe", "shovel", "hoe"]);
+    processor.modifySingleItem("zoomer_bows", "unorithe_bow", "bow", 97);
     processor.modifySingleItem("theabyss", "unorithe_pick_axe", "pickaxe", 97);
+
     processor.modifySetRequirements("theabyss", "incorythe_armor", 98, "armor");
+    processor.modifySingleItem("zoomer_bows", "incorythe_bow", "bow", 98);
     processor.modifySetRequirements("theabyss", "incorythe", 98, "tools");
     processor.modifySetRequirements("theabyss", "incorythe", 99, ["sword"], "{set_name}_{item}_mkii");
+
     processor.modifySetRequirements("theabyss", "abyss", 100, ["sword"]);
-    processor.modifySetRequirements("cataclysm", "ignitium", 100, "armor");
-    processor.modifySetRequirements("cataclysm_weaponery", "ignitium", 100, "tools");
 }
 
 function modifyMiscItems() {
