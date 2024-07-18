@@ -40,7 +40,7 @@ def new_item_config(mod_id, item_id, item_type, mod_map):
             "operation": modification[1]
         })
 
-    if item_type == 'sword':
+    if item_type in ['sword', 'bow']:
         new_item_config = {
             "item": f"{mod_id}:{item_id}",
             "overrides_main_hand": overrides,
@@ -76,7 +76,7 @@ def new_item_config(mod_id, item_id, item_type, mod_map):
         base_config.get("items", []).append(fill_config_item_gaps(new_item_config))
 
 
-def new_armor_set_config(mod_id, material_prefix, armor_list, armor_toughness, knockback_resistance, hp_bonus=[0,0,0,0]):
+def new_armor_set_config(mod_id, material_prefix, armor_list, armor_toughness, knockback_resistance, hp_bonus=[0,0,0,0], speed_bonus = [0,0,0,0]):
     armor_map = {
         'helmet' : armor_list[0],
         'chestplate' : armor_list[1],
@@ -89,26 +89,41 @@ def new_armor_set_config(mod_id, material_prefix, armor_list, armor_toughness, k
         'leggings' : hp_bonus[2],
         'boots' : hp_bonus[3]        
     }
+    speed_map = {
+        'helmet' : speed_bonus[0],
+        'chestplate' : speed_bonus[1],
+        'leggings' : speed_bonus[2],
+        'boots' : speed_bonus[3]        
+    }
     for piece in ['helmet', 'chestplate', 'leggings', 'boots']:
+        attr_config = {
+                "minecraft:generic.armor" : (armor_map[piece],'ADDITION'),
+                "minecraft:generic.armor_toughness" : (armor_toughness,'ADDITION'),
+                "minecraft:generic.knockback_resistance" : (knockback_resistance,'ADDITION')
+            }
+        
         if hp_map[piece] != 0:
-            new_item_config(mod_id,f'{material_prefix}_{piece}', piece, {
-                "minecraft:generic.armor" : (armor_map[piece],'ADDITION'),
-                "minecraft:generic.armor_toughness" : (armor_toughness,'ADDITION'),
-                "minecraft:generic.knockback_resistance" : (knockback_resistance,'ADDITION'),
-                "minecraft:generic.max_health" : (hp_map[piece],'ADDITION')
-            })
-        else:
-            new_item_config(mod_id,f'{material_prefix}_{piece}', piece, {
-                "minecraft:generic.armor" : (armor_map[piece],'ADDITION'),
-                "minecraft:generic.armor_toughness" : (armor_toughness,'ADDITION'),
-                "minecraft:generic.knockback_resistance" : (knockback_resistance,'ADDITION'),
-            })
+            attr_config["minecraft:generic.max_health"] = (hp_map[piece],'ADDITION')
 
+        if speed_map[piece] != 0:
+            attr_config["minecraft:generic.movement_speed"] = (speed_map[piece],'MULTIPLY_TOTAL')
 
-def new_sword_config(mod_id, material_prefix, damage, full_id=False):
-    new_item_config(mod_id,f"{material_prefix}_sword" if not full_id else material_prefix,'sword',{
+        new_item_config(mod_id,f'{material_prefix}_{piece}', piece, attr_config)
+
+def new_bow_config(mod_id, material_prefix, damage, full_id=False):
+    attr_config = {
+        "projectile_damage:generic" : (damage,'ADDITION'),
+    }    
+    new_item_config(mod_id,f"{material_prefix}_bow" if not full_id else material_prefix,'bow',attr_config)
+
+def new_sword_config(mod_id, material_prefix, damage, full_id=False, attack_speed = 0):
+    attr_config = {
         "minecraft:generic.attack_damage" : (damage,'ADDITION'),
-    })
+    }
+    if attack_speed!=0:
+        attr_config['minecraft:generic.attack_speed'] = (attack_speed,'ADDITION')
+
+    new_item_config(mod_id,f"{material_prefix}_sword" if not full_id else material_prefix,'sword',attr_config)
 
 def get_durability_list_from_helmet(helmet_durability):
     shares = {
@@ -175,25 +190,39 @@ new_armor_set_config("deeperdarker", "warden", [50,70,60,50], 9, 0.5)
 
 
 # The abyss
-new_armor_set_config("theabyss", "glacerythe_armor", [70,100,80,70], 10, 0.35)
-new_armor_set_config("theabyss", "aberythe_armor", [80,110,90,80], 11.5, 0.6)
-new_sword_config("theabyss","aberythe", 200)
-new_armor_set_config("theabyss", "ignisithe_armor", [90,120,100,90], 12.5, 0.65)
-new_sword_config("theabyss","ignisithe", 240)
-new_armor_set_config("theabyss", "garnite_armor", [100,130,110,100], 13.5, 0.4)
-new_sword_config("theabyss","garnite", 280)
-new_armor_set_config("theabyss", "incorythe_armor", [110,140,120,110], 13, 0.7)
-new_sword_config("theabyss","incorythe", 300)
-new_sword_config("theabyss","incorythe_sword_mkii", 330, full_id=True)
+new_armor_set_config("theabyss", "fusion_armor", [60,85,70,60], 10.5, 0.6)
+new_sword_config("theabyss","fusion", 220)
 
+new_armor_set_config("theabyss", "aberythe_armor", [70,100,80,70], 11.5, 0.6)
+new_sword_config("theabyss","aberythe", 230)
 
-# Saving
-# ////////////////////////////////////////////////////////////////////
-with open(config_path, 'w+') as f:
-    f.write(json.dumps(base_config, indent=4))
+new_armor_set_config("theabyss", "bone_armor", [80,110,90,80], 11.5, 0.6)
+new_sword_config("theabyss","bone_sword_item", 240, full_id=True)
+
+new_armor_set_config("theabyss", "ignisithe_armor", [90,120,100,90], 10.5, 0.625)
+new_sword_config("theabyss","ignisithe", 260)
+new_sword_config("theabyss","bricked_knight", 276)
+
+new_armor_set_config("theabyss", "glacerythe_armor", [100,130,110,100], 10.5, 0.45)
+new_sword_config("theabyss","knight", 280)
+
+new_armor_set_config("theabyss", "garnite_armor", [110,140,120,110], 11.5, 0.375)
+new_sword_config("theabyss","garnite", 300)
+
+new_armor_set_config("theabyss", "phantom_armor", [120,150,130,120], 12, 0.6)
+new_sword_config("theabyss","phantom", 320)
+
+new_armor_set_config("theabyss", "unorithe_armor", [130,160,140,130], 14, 0.425)
+new_sword_config("theabyss","unorithe", 350)
+
+new_armor_set_config("theabyss", "incorythe_armor", [150,170,150,150], 13, 0.55)
+new_sword_config("theabyss","incorythe", 390)
+new_sword_config("theabyss","incorythe_sword_mkii", 420, full_id=True)
+
+new_sword_config("theabyss","abyss_sword", 420, full_id=True)
+
 
 # Kube JS config generator
-
 js_base_str = """
 ItemEvents.modification((event) => {
     {--}
@@ -225,6 +254,19 @@ def new_kjs_config_durability_tools(mod_id, material, durability):
 def new_kjs_config_durability_material(mod_id, material, durability_tools, durability_armor_list):
     new_kjs_config_durability_tools(mod_id, material, durability_tools)
     new_kjs_config_durability_armor_set(mod_id, material, durability_armor_list)
+
+
+
+# Mixed config generator
+# TBA
+def new_bow(mod_id, item_id, damage, durability):
+    new_bow_config(mod_id, item_id, damage, full_id=True)
+    new_kjs_config_durability(mod_id, item_id, durability)
+
+def new_tools(mod_id, material, durability, sword_dmg, full_id = False, attack_speed = 0):
+    new_kjs_config_durability_tools(mod_id, material, durability)
+    new_sword_config(mod_id, material, sword_dmg, full_id, attack_speed)
+
 # ///////////////////////////////////
 
 # blue skies
@@ -246,26 +288,99 @@ new_kjs_config_durability_material("betterend", "terminite", 4950, get_durabilit
 new_kjs_config_durability_material("betterend", "aeternium", 5250, get_durability_list_from_helmet(3400))
 new_kjs_config_durability_armor_set("betterend", "crystalite",  get_durability_list_from_helmet(3890))
 
-
 # deeper
 new_kjs_config_durability_material("deeperdarker", "warden", 6000,  get_durability_list_from_helmet(4300))
 
 # Abyss
-new_kjs_config_durability_armor_set("theabyss", "glacerythe_armor",  get_durability_list_from_helmet(4500))
 
-new_kjs_config_durability_armor_set("theabyss", "aberythe_armor",  get_durability_list_from_helmet(4650))
+new_kjs_config_durability_armor_set("theabyss", "fusion_armor",  get_durability_list_from_helmet(4400))
+new_kjs_config_durability_tools("theabyss", "fusion", 6100)
+
+new_kjs_config_durability_armor_set("theabyss", "aberythe_armor",  get_durability_list_from_helmet(4500))
 new_kjs_config_durability_tools("theabyss", "aberythe", 6250)
 
+new_kjs_config_durability_armor_set("theabyss", "bone_armor",  get_durability_list_from_helmet(4650))
+new_kjs_config_durability_tools("theabyss", "bone", 6500)
+new_kjs_config_durability("theabyss", "bone_sword_item", 6500)
+
 new_kjs_config_durability_armor_set("theabyss", "ignisithe_armor", get_durability_list_from_helmet(4890))
-new_kjs_config_durability("theabyss", "ignisithe_sword", 6500)
+new_kjs_config_durability("theabyss", "ignisithe_sword", 6750)
+new_kjs_config_durability("theabyss", "bricked_knight_sword", 6750)
 
-new_kjs_config_durability_armor_set("theabyss", "garnite_armor", get_durability_list_from_helmet(5100))
-new_kjs_config_durability_tools("theabyss", "garnite", 6750)
+new_kjs_config_durability_armor_set("theabyss", "glacerythe_armor",  get_durability_list_from_helmet(5100))
+new_kjs_config_durability_tools("theabyss", "knight", 7000)
 
-new_kjs_config_durability_armor_set("theabyss", "incorythe_armor", get_durability_list_from_helmet(5350))
-new_kjs_config_durability_tools("theabyss", "incorythe", 7000)
-new_kjs_config_durability("theabyss", "incorythe_sword_mkii", 7300)
+new_kjs_config_durability_armor_set("theabyss", "garnite_armor", get_durability_list_from_helmet(5200))
+new_kjs_config_durability_tools("theabyss", "garnite", 7250)
 
+new_kjs_config_durability_armor_set("theabyss", "phantom_armor", get_durability_list_from_helmet(5350))
+new_kjs_config_durability_tools("theabyss", "phantom", 7500)
+
+new_kjs_config_durability_armor_set("theabyss", "unorithe_armor", get_durability_list_from_helmet(5600))
+new_kjs_config_durability_tools("theabyss", "unorithe", 7750)
+new_kjs_config_durability("theabyss", "unorithe_pick_axe", 7750)
+
+new_kjs_config_durability_armor_set("theabyss", "incorythe_armor", get_durability_list_from_helmet(6200))
+new_kjs_config_durability_tools("theabyss", "incorythe", 8000)
+new_kjs_config_durability("theabyss", "incorythe_sword_mkii", 8000)
+
+new_kjs_config_durability("theabyss", "abyss_sword", 8300)
+
+
+# Bows
+# /////////////////////////
+
+
+new_bow('magistuarmory', 'longbow', 7, 400)
+# Blue Skies
+new_bow('zoomer_bows', 'pyrope_bow', 8, 420)
+new_bow('zoomer_bows', 'aquite_bow', 8.5, 430)
+new_bow('zoomer_bows', 'diopside_bow', 9, 440)
+new_bow('zoomer_bows', 'charoite_bow', 10, 450)
+new_bow('zoomer_bows', 'horizonite_bow', 11, 460)
+
+# Aether
+new_bow('zoomer_bows', 'zanite_bow', 12, 470)
+new_bow('zoomer_bows', 'gravitite_bow', 13, 480)
+new_bow('zoomer_bows', 'valkyrie_bow', 14, 490)
+new_bow('aether', 'phoenix_bow', 15, 500)
+
+# Nether
+new_bow('zoomer_bows', 'cincinnasite_bow', 20, 600)
+new_bow('zoomer_bows', 'cincinnasite_diamond_bow', 22, 700)
+new_bow('zoomer_bows', 'nether_ruby_bow', 24, 800)
+new_bow('zoomer_bows', 'fire_ruby_bow', 26, 900)
+new_bow('zoomer_bows', 'netherite_bow', 28, 1000)
+
+# Undergarden
+new_bow('zoomer_bows', 'cloggrum_bow', 64, 1250)
+new_bow('zoomer_bows', 'froststeel_bow', 74, 1500)
+new_bow('zoomer_bows', 'utherium_bow', 85, 1750)
+new_bow('zoomer_bows', 'forgotten_bow', 96, 2000)
+
+# End
+new_bow('zoomer_bows', 'thallasium_bow', 111, 2300)
+new_bow('zoomer_bows', 'terminite_bow', 139, 2600)
+new_bow('zoomer_bows', 'aeternium_bow', 172, 2900)
+
+# Deeper and Darker
+new_bow('zoomer_bows', 'warden_bow', 220, 3200)
+
+# Abyss
+new_bow('zoomer_bows', 'fusion_bow', 272, 3500)
+new_bow('zoomer_bows', 'aberythe_bow', 282, 4000)
+new_bow('zoomer_bows', 'bone_bow', 323, 4500)
+new_bow('zoomer_bows', 'ignisithe_bow', 354, 5000)
+new_bow('zoomer_bows', 'garnite_bow', 366, 5500)
+new_bow('zoomer_bows', 'phantom_bow', 392, 6000)
+new_bow('zoomer_bows', 'unorithe_bow', 476, 6500)
+new_bow('zoomer_bows', 'incorythe_bow', 531, 7000)
+
+
+# Saving
+# ////////////////////////////////////////////////////////////////////
+with open(config_path, 'w+') as f:
+    f.write(json.dumps(base_config, indent=4))
 
 # Saving
 # ////////////////////////////////////////////////////////////////////

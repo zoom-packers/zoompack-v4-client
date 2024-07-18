@@ -1721,21 +1721,21 @@
             "unbreakable": false
         },
         {
-            "item": "theabyss:glacerythe_armor_helmet",
+            "item": "theabyss:fusion_armor_helmet",
             "overrides_head": [
                 {
                     "attribute": "minecraft:generic.armor",
-                    "value": 70,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 10,
+                    "value": 10.5,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.35,
+                    "value": 0.6,
                     "operation": "ADDITION"
                 }
             ],
@@ -1747,21 +1747,21 @@
             "unbreakable": false
         },
         {
-            "item": "theabyss:glacerythe_armor_chestplate",
+            "item": "theabyss:fusion_armor_chestplate",
             "overrides_chest": [
                 {
                     "attribute": "minecraft:generic.armor",
-                    "value": 100,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 10,
+                    "value": 10.5,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.35,
+                    "value": 0.6,
                     "operation": "ADDITION"
                 }
             ],
@@ -1773,34 +1773,8 @@
             "unbreakable": false
         },
         {
-            "item": "theabyss:glacerythe_armor_leggings",
+            "item": "theabyss:fusion_armor_leggings",
             "overrides_legs": [
-                {
-                    "attribute": "minecraft:generic.armor",
-                    "value": 80,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.armor_toughness",
-                    "value": 10,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.35,
-                    "operation": "ADDITION"
-                }
-            ],
-            "overrides_main_hand": [],
-            "overrides_off_hand": [],
-            "overrides_head": [],
-            "overrides_chest": [],
-            "overrides_feet": [],
-            "unbreakable": false
-        },
-        {
-            "item": "theabyss:glacerythe_armor_boots",
-            "overrides_feet": [
                 {
                     "attribute": "minecraft:generic.armor",
                     "value": 70,
@@ -1808,12 +1782,38 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 10,
+                    "value": 10.5,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.35,
+                    "value": 0.6,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:fusion_armor_boots",
+            "overrides_feet": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 60,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 10.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.6,
                     "operation": "ADDITION"
                 }
             ],
@@ -1822,6 +1822,22 @@
             "overrides_head": [],
             "overrides_chest": [],
             "overrides_legs": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:fusion_sword",
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 220,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
             "unbreakable": false
         },
         {
@@ -1829,7 +1845,7 @@
             "overrides_head": [
                 {
                     "attribute": "minecraft:generic.armor",
-                    "value": 80,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
@@ -1855,7 +1871,7 @@
             "overrides_chest": [
                 {
                     "attribute": "minecraft:generic.armor",
-                    "value": 110,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
@@ -1881,7 +1897,7 @@
             "overrides_legs": [
                 {
                     "attribute": "minecraft:generic.armor",
-                    "value": 90,
+                    "value": 80,
                     "operation": "ADDITION"
                 },
                 {
@@ -1907,7 +1923,7 @@
             "overrides_feet": [
                 {
                     "attribute": "minecraft:generic.armor",
-                    "value": 80,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
@@ -1933,7 +1949,127 @@
             "overrides_main_hand": [
                 {
                     "attribute": "minecraft:generic.attack_damage",
-                    "value": 200,
+                    "value": 230,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:bone_armor_helmet",
+            "overrides_head": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 80,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 11.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.6,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:bone_armor_chestplate",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 110,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 11.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.6,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:bone_armor_leggings",
+            "overrides_legs": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 90,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 11.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.6,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:bone_armor_boots",
+            "overrides_feet": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 80,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 11.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.6,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:bone_sword_item",
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 240,
                     "operation": "ADDITION"
                 }
             ],
@@ -1954,12 +2090,12 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 12.5,
+                    "value": 10.5,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.65,
+                    "value": 0.625,
                     "operation": "ADDITION"
                 }
             ],
@@ -1980,12 +2116,12 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 12.5,
+                    "value": 10.5,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.65,
+                    "value": 0.625,
                     "operation": "ADDITION"
                 }
             ],
@@ -2006,12 +2142,12 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 12.5,
+                    "value": 10.5,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.65,
+                    "value": 0.625,
                     "operation": "ADDITION"
                 }
             ],
@@ -2032,12 +2168,12 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 12.5,
+                    "value": 10.5,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.65,
+                    "value": 0.625,
                     "operation": "ADDITION"
                 }
             ],
@@ -2053,7 +2189,7 @@
             "overrides_main_hand": [
                 {
                     "attribute": "minecraft:generic.attack_damage",
-                    "value": 240,
+                    "value": 260,
                     "operation": "ADDITION"
                 }
             ],
@@ -2065,7 +2201,23 @@
             "unbreakable": false
         },
         {
-            "item": "theabyss:garnite_armor_helmet",
+            "item": "theabyss:bricked_knight_sword",
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 276,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:glacerythe_armor_helmet",
             "overrides_head": [
                 {
                     "attribute": "minecraft:generic.armor",
@@ -2074,12 +2226,12 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 13.5,
+                    "value": 10.5,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.4,
+                    "value": 0.45,
                     "operation": "ADDITION"
                 }
             ],
@@ -2091,7 +2243,7 @@
             "unbreakable": false
         },
         {
-            "item": "theabyss:garnite_armor_chestplate",
+            "item": "theabyss:glacerythe_armor_chestplate",
             "overrides_chest": [
                 {
                     "attribute": "minecraft:generic.armor",
@@ -2100,12 +2252,12 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 13.5,
+                    "value": 10.5,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.4,
+                    "value": 0.45,
                     "operation": "ADDITION"
                 }
             ],
@@ -2117,7 +2269,7 @@
             "unbreakable": false
         },
         {
-            "item": "theabyss:garnite_armor_leggings",
+            "item": "theabyss:glacerythe_armor_leggings",
             "overrides_legs": [
                 {
                     "attribute": "minecraft:generic.armor",
@@ -2126,12 +2278,12 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 13.5,
+                    "value": 10.5,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.4,
+                    "value": 0.45,
                     "operation": "ADDITION"
                 }
             ],
@@ -2143,7 +2295,7 @@
             "unbreakable": false
         },
         {
-            "item": "theabyss:garnite_armor_boots",
+            "item": "theabyss:glacerythe_armor_boots",
             "overrides_feet": [
                 {
                     "attribute": "minecraft:generic.armor",
@@ -2152,12 +2304,12 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 13.5,
+                    "value": 10.5,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.4,
+                    "value": 0.45,
                     "operation": "ADDITION"
                 }
             ],
@@ -2169,7 +2321,7 @@
             "unbreakable": false
         },
         {
-            "item": "theabyss:garnite_sword",
+            "item": "theabyss:knight_sword",
             "overrides_main_hand": [
                 {
                     "attribute": "minecraft:generic.attack_damage",
@@ -2185,7 +2337,7 @@
             "unbreakable": false
         },
         {
-            "item": "theabyss:incorythe_armor_helmet",
+            "item": "theabyss:garnite_armor_helmet",
             "overrides_head": [
                 {
                     "attribute": "minecraft:generic.armor",
@@ -2194,12 +2346,12 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 13,
+                    "value": 11.5,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.7,
+                    "value": 0.375,
                     "operation": "ADDITION"
                 }
             ],
@@ -2211,7 +2363,7 @@
             "unbreakable": false
         },
         {
-            "item": "theabyss:incorythe_armor_chestplate",
+            "item": "theabyss:garnite_armor_chestplate",
             "overrides_chest": [
                 {
                     "attribute": "minecraft:generic.armor",
@@ -2220,12 +2372,12 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 13,
+                    "value": 11.5,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.7,
+                    "value": 0.375,
                     "operation": "ADDITION"
                 }
             ],
@@ -2237,7 +2389,7 @@
             "unbreakable": false
         },
         {
-            "item": "theabyss:incorythe_armor_leggings",
+            "item": "theabyss:garnite_armor_leggings",
             "overrides_legs": [
                 {
                     "attribute": "minecraft:generic.armor",
@@ -2246,12 +2398,12 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 13,
+                    "value": 11.5,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.7,
+                    "value": 0.375,
                     "operation": "ADDITION"
                 }
             ],
@@ -2263,7 +2415,7 @@
             "unbreakable": false
         },
         {
-            "item": "theabyss:incorythe_armor_boots",
+            "item": "theabyss:garnite_armor_boots",
             "overrides_feet": [
                 {
                     "attribute": "minecraft:generic.armor",
@@ -2272,12 +2424,12 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 13,
+                    "value": 11.5,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.7,
+                    "value": 0.375,
                     "operation": "ADDITION"
                 }
             ],
@@ -2289,7 +2441,7 @@
             "unbreakable": false
         },
         {
-            "item": "theabyss:incorythe_sword",
+            "item": "theabyss:garnite_sword",
             "overrides_main_hand": [
                 {
                     "attribute": "minecraft:generic.attack_damage",
@@ -2305,11 +2457,899 @@
             "unbreakable": false
         },
         {
+            "item": "theabyss:phantom_armor_helmet",
+            "overrides_head": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 120,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 12,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.6,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:phantom_armor_chestplate",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 150,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 12,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.6,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:phantom_armor_leggings",
+            "overrides_legs": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 130,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 12,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.6,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:phantom_armor_boots",
+            "overrides_feet": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 120,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 12,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.6,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:phantom_sword",
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 320,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:unorithe_armor_helmet",
+            "overrides_head": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 130,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 14,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.425,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:unorithe_armor_chestplate",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 160,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 14,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.425,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:unorithe_armor_leggings",
+            "overrides_legs": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 140,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 14,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.425,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:unorithe_armor_boots",
+            "overrides_feet": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 130,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 14,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.425,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:unorithe_sword",
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 350,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:incorythe_armor_helmet",
+            "overrides_head": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 150,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 13,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.55,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:incorythe_armor_chestplate",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 170,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 13,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.55,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:incorythe_armor_leggings",
+            "overrides_legs": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 150,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 13,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.55,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:incorythe_armor_boots",
+            "overrides_feet": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 150,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 13,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.55,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:incorythe_sword",
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 390,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
             "item": "theabyss:incorythe_sword_mkii",
             "overrides_main_hand": [
                 {
                     "attribute": "minecraft:generic.attack_damage",
-                    "value": 330,
+                    "value": 420,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "theabyss:abyss_sword",
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 420,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aquaculture:neptunium",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 7,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "magistuarmory:longbow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 7,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:pyrope_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 8,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:aquite_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 8.5,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:diopside_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 9,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:charoite_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 10,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:horizonite_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 11,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:zanite_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 12,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:gravitite_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 13,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:valkyrie_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 14,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:phoenix_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 15,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:cincinnasite_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 20,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:cincinnasite_diamond_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 22,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:nether_ruby_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 24,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:fire_ruby_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 26,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:netherite_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 28,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:cloggrum_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 64,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:froststeel_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 74,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:utherium_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 85,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:forgotten_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 96,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:thallasium_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 111,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:terminite_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 139,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:aeternium_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 172,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:warden_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 220,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:fusion_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 272,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:aberythe_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 282,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:bone_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 323,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:ignisithe_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 354,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:garnite_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 366,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:phantom_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 392,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:unorithe_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 476,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:incorythe_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 531,
                     "operation": "ADDITION"
                 }
             ],

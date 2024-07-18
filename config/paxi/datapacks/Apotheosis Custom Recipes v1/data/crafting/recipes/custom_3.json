@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "kubejs:apoth_extra_tier_2"
+        },
+        {
+            "item": "deeperdarker:soul_crystal"
+        },
+        {
+            "item": "kubejs:apoth_extra_tier_2"
+        },
+        {
+            "item": "deeperdarker:reinforced_echo_shard"
+        },
+        {
+            "item": "deeperdarker:soul_elytra"
+        },
+        {
+            "item": "deeperdarker:reinforced_echo_shard"
+        },
+        {
+            "item": "kubejs:apoth_extra_tier_2"
+        },
+        {
+            "item": "deeperdarker:soul_crystal"
+        },
+        {
+            "item": "kubejs:apoth_extra_tier_2"
+        }
+    ],
+    "result": {
+        "item": "kubejs:apoth_extra_tier_3",
+        "count": 2
+    }
+}

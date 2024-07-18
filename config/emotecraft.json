@@ -1,0 +1,64 @@
+{
+  "config_version": 4,
+  "loadbuiltin": true,
+  "quark": false,
+  "dark": false,
+  "oldChooseWheel": false,
+  "perspective": true,
+  "default3rdPersonFront": false,
+  "showicon": true,
+  "enableNSFW": false,
+  "alwaysOpenScreen": false,
+  "debug": true,
+  "validate": false,
+  "validationThreshold": 8.0,
+  "emotesFolderOnLogicalServer": false,
+  "emotesDirectory": "emotes",
+  "autoFixEmoteStop": true,
+  "alwaysValidateEmote": false,
+  "playersafety": true,
+  "stopthreshold": 0.04,
+  "yratio": 0.75,
+  "showHiddenConfig": false,
+  "neverRemoveBadIcon": false,
+  "exportBuiltin": false,
+  "hideWarning": false,
+  "fastmenu": {
+    "0": {
+      "0": "a2969c42-520f-4c5c-a024-a7d0a2b7b4d1",
+      "1": "36321e07-0000-0000-0000-000000000000",
+      "2": "0c4e83db-9165-4faf-b587-8bf886e98720",
+      "3": "9bae5717-be58-49f9-8885-6b00fa3c4947",
+      "4": "33b912f8-0aa0-45e6-a2d4-9b5677e6f35c",
+      "5": "3045b335-12ca-4ddb-aca5-0aef450a5e4c",
+      "6": "02432d35-75d4-44a1-a158-348b1d85cf37",
+      "7": "fc852918-60c7-455a-9c5d-ea972e2bf5b8"
+    },
+    "1": {
+      "0": "8b3041c9-f93a-4d77-9a66-47deb284b4cd",
+      "1": "f9f6669d-f1b3-4170-8bc5-475a9a600439",
+      "2": "d824169a-0000-0000-0000-000000000000",
+      "3": "0f36b40a-4cd0-4a25-a416-e1d04b244be7",
+      "4": "ebfb1e69-330a-4970-8bca-f5625c90681a",
+      "5": "fffc0678-e008-0000-ffff-ffffdd0f9f9c",
+      "6": "01a53a42-2fd2-418c-8e46-e4ee1ff9ee6a",
+      "7": "d49d01e0-0f16-45b4-af55-35e18b65335a"
+    },
+    "2": {
+      "0": "bac1570f-8b0f-4f7b-b1ce-fde5274a32c9",
+      "1": "77c5a5cb-3249-4f55-a61b-5dc6ffb55822",
+      "2": "a52e2ad4-e3d5-4a70-a3c8-d367cae3f519",
+      "3": "b3ca4fb6-6649-4a9a-bdb1-de8befe2e4f2",
+      "4": "63deb5e4-0000-0000-0000-000000000000",
+      "5": "c90f7a63-0000-0000-0000-000000000000",
+      "6": "7540792d-7555-433a-8dc4-2c18b8714b4a",
+      "7": "84ad5f9b-a2bd-438c-b68f-ec057b114059"
+    },
+    "3": {
+      "3": "7146ae20-0520-415e-beb4-9379f848f590",
+      "4": "38380275-c404-47e3-87d6-8833616323bf",
+      "5": "02da2b2e-d48e-47fd-a485-aa2c6fb78b6a"
+    }
+  },
+  "keys": {}
+}

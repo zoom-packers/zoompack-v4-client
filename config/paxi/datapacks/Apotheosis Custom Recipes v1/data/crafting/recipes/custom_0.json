@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "apotheosis:mythic_material"
+        },
+        {
+            "item": "apotheosis:epic_material"
+        },
+        {
+            "item": "apotheosis:mythic_material"
+        },
+        {
+            "item": "apotheosis:epic_material"
+        },
+        {
+            "item": "apotheosis:epic_material"
+        },
+        {
+            "item": "apotheosis:epic_material"
+        },
+        {
+            "item": "apotheosis:mythic_material"
+        },
+        {
+            "item": "apotheosis:epic_material"
+        },
+        {
+            "item": "apotheosis:mythic_material"
+        }
+    ],
+    "result": {
+        "item": "kubejs:apoth_extra_tier_0",
+        "count": 2
+    }
+}

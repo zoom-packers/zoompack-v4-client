@@ -13,13 +13,14 @@ const item_functions = {
     "pickaxe": templateFormatter.tool,
     "shovel": templateFormatter.tool,
     "hoe": templateFormatter.tool,
+    "bow": templateFormatter.tool,
 }
 const tool_skills = {
     "pickaxe": "mining",
     "shovel": "excavation",
-    "hoe": "farming"
+    "hoe": "farming",
+    "bow": "archery",
 }
-
 
 // EXPORTS
 function modifySetRequirements(modId, set_name, level, items = undefined, set_formatting = "{set_name}_{item}") {
