@@ -1,0 +1,197 @@
+
+#These settings define which perks are used and the settings which govern them.
+[Perks]
+
+	[Perks.For_Event]
+
+		[[Perks.For_Event.SUBMERGED]]
+			perk = "pmmo:breath"
+			skill = "swimming"
+
+		[[Perks.For_Event.SUBMERGED]]
+			perk = "pmmo:effect"
+			skill = "swimming"
+			min_level = 25
+			effect = "minecraft:night_vision"
+
+		[[Perks.For_Event.CROUCH_JUMP]]
+			perk = "pmmo:jump_boost"
+			skill = "agility"
+			per_level = 0.0015
+
+		[[Perks.For_Event.DEAL_DAMAGE]]
+			perk = "pmmo:damage_boost"
+			skill = "archery"
+			applies_to = ["minecraft:bow", "minecraft:crossbow", "minecraft:trident"]
+
+		[[Perks.For_Event.DEAL_DAMAGE]]
+			perk = "pmmo:damage_boost"
+			skill = "magic"
+			applies_to = ["ars_nouveau:spell_bow"]
+
+		[[Perks.For_Event.DEAL_DAMAGE]]
+			perk = "pmmo:damage_boost"
+			skill = "gunslinging"
+			applies_to = ["cgm:pistol", "cgm:shotgun", "cgm:rifle"]
+
+		[[Perks.For_Event.SKILL_UP]]
+			perk = "pmmo:attribute"
+			skill = "building"
+			attribute = "forge:reach_distance"
+			per_level = 0.05
+			max_boost = 10.0
+
+		[[Perks.For_Event.SKILL_UP]]
+			perk = "pmmo:command"
+			skill = "smithing"
+			per_level = 1
+			max_boost = 100
+			command = "scoreboard players add @s pmmo_smithing 1"
+
+		[[Perks.For_Event.SKILL_UP]]
+			perk = "pmmo:command"
+			skill = "cooking"
+			per_level = 1
+			max_boost = 100
+			command = "scoreboard players add @s pmmo_cooking 1"
+
+		[[Perks.For_Event.SKILL_UP]]
+			perk = "pmmo:command"
+			skill = "taming"
+			per_level = 1
+			max_boost = 100
+			command = "scoreboard players add @s pmmo_ranching 1"
+
+		[[Perks.For_Event.SKILL_UP]]
+			perk = "pmmo:command"
+			skill = "combat"
+			per_level = 1
+			max_boost = 100
+			command = "scoreboard players add @s pmmo_combat 1"
+
+		[[Perks.For_Event.SKILL_UP]]
+			perk = "pmmo:command"
+			skill = "mining"
+			per_level = 1
+			max_boost = 100
+			command = "scoreboard players add @s pmmo_mining 1"
+
+		[[Perks.For_Event.SKILL_UP]]
+			perk = "pmmo:command"
+			skill = "farming"
+			per_level = 1
+			max_boost = 100
+			command = "scoreboard players add @s pmmo_farming 1"
+
+		[[Perks.For_Event.SKILL_UP]]
+			perk = "pmmo:command"
+			skill = "fishing"
+			per_level = 1
+			max_boost = 100
+			command = "scoreboard players add @s pmmo_fishing 1"
+
+		[[Perks.For_Event.SKILL_UP]]
+			perk = "pmmo:command"
+			skill = "archery"
+			per_level = 1
+			max_boost = 100
+			command = "scoreboard players add @s pmmo_archery 1"
+
+		[[Perks.For_Event.SKILL_UP]]
+			perk = "pmmo:attribute"
+			skill = "agility"
+			attribute = "minecraft:generic.movement_speed"
+			per_level = 1.5E-5
+			max_boost = 1.0
+
+		[[Perks.For_Event.SKILL_UP]]
+			perk = "pmmo:attribute"
+			skill = "endurance"
+			attribute = "minecraft:generic.max_health"
+			per_level = 0.05
+			max_boost = 10.0
+
+		[[Perks.For_Event.SKILL_UP]]
+			perk = "pmmo:attribute"
+			skill = "combat"
+			attribute = "minecraft:generic.attack_damage"
+			per_level = 0.005
+			max_boost = 1.0
+
+		[[Perks.For_Event.SKILL_UP]]
+			perk = "pmmo:attribute"
+			skill = "archery"
+			attribute = "projectile_damage:generic"
+			per_level = 0.005
+			max_boost = 1.0
+
+		[[Perks.For_Event.SKILL_UP]]
+			perk = "ars_scalaes:mana_boost"
+			skill = "magic"
+			per_level = 3.0
+			max_boost = 3000.0
+
+		[[Perks.For_Event.SKILL_UP]]
+			perk = "ars_scalaes:mana_regen"
+			skill = "magic"
+			per_level = 0.06
+			max_boost = 100.0
+
+		[[Perks.For_Event.SKILL_UP]]
+			perk = "pmmo:attribute"
+			attribute = "irons_spellbooks:max_mana"
+			skill = "magic"
+			per_level = 3.0
+			max_boost = 3000.0
+
+		[[Perks.For_Event.SKILL_UP]]
+			perk = "pmmo:attribute"
+			attribute = "irons_spellbooks:mana_regen"
+			skill = "magic"
+			per_level = 0.06
+			max_boost = 100.0
+
+		[[Perks.For_Event.SPRINT_JUMP]]
+			perk = "pmmo:jump_boost"
+			skill = "agility"
+			per_level = 0.001
+
+		[[Perks.For_Event.RECEIVE_DAMAGE]]
+			for_damage = "minecraft:fall"
+			perk = "pmmo:damage_reduce"
+			skill = "agility"
+			per_level = 0.025
+
+		[[Perks.For_Event.RECEIVE_DAMAGE]]
+			for_damage = "minecraft:mob_attack"
+			perk = "pmmo:damage_reduce"
+			skill = "endurance"
+			per_level = 0.025
+
+		[[Perks.For_Event.JUMP]]
+			perk = "pmmo:jump_boost"
+			skill = "agility"
+			per_level = 5.0E-4
+
+		[[Perks.For_Event.BREAK_SPEED]]
+			perk = "pmmo:break_speed"
+			skill = "mining"
+			pickaxe_dig = 0.005
+
+		[[Perks.For_Event.BREAK_SPEED]]
+			perk = "pmmo:break_speed"
+			skill = "excavation"
+			shovel_dig = 0.005
+
+		[[Perks.For_Event.BREAK_SPEED]]
+			perk = "pmmo:break_speed"
+			skill = "woodcutting"
+			axe_dig = 0.005
+
+		[[Perks.For_Event.BREAK_SPEED]]
+			perk = "pmmo:break_speed"
+			skill = "farming"
+			sword_dig = 0.005
+			hoe_dig = 0.005
+			shears_dig = 0.005
+
