@@ -18,6 +18,8 @@
 !/kubejs/*
 !/kubejs/**
 !/mods
+!/mods_curseforge
+!/mods_curseforge/**
 !/packmenu
 !/packmenu/*
 !/resourcepacks
