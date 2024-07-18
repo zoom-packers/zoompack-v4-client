@@ -1,10 +1,10 @@
 {
     "requirements": {
         "TOOL": {
-            "excavation": 12
+            "excavation": 25
         },
         "WEAR": {
-            "excavation": 12
+            "excavation": 25
         },
         "WEAPON": {
             "combat": 0

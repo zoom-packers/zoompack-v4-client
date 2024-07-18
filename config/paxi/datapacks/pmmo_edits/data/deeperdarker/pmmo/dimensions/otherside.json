@@ -1,8 +1,8 @@
 {
   "vein_blacklist": [],
   "travel_req": {
-    "combat": 100,
-    "endurance": 100
+    "combat": 80,
+    "endurance": 80
   },
   "dimensional_mob_modifiers": [
     {

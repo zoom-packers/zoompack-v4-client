@@ -1,13 +1,13 @@
 {
     "requirements": {
         "TOOL": {
-            "woodcutting": 12
+            "woodcutting": 25
         },
         "WEAPON": {
-            "swordsmanship": 12
+            "swordsmanship": 25
         },
         "WEAR": {
-            "woodcutting": 12
+            "woodcutting": 25
         }
     },
     "override": true

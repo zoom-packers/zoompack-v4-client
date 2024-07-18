@@ -1,10 +1,10 @@
 {
     "requirements": {
         "TOOL": {
-            "farming": 90
+            "farming": 91
         },
         "WEAR": {
-            "farming": 90
+            "farming": 91
         },
         "WEAPON": {
             "combat": 0
