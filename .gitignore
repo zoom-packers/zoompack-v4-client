@@ -29,3 +29,5 @@
 !/resourcepacks
 !/resourcepacks/*
 !/shaderpacks
+!/zoompack-v4-server
+!/zoompack-v4-server/**
