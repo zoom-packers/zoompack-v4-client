@@ -2,7 +2,6 @@
   "exportZipName": "zoompack_v4.zip",
   "includes": [
     "../config",
-    "../coremods",
     "../emotes",
     "../kubejs",
     "../packmenu",
