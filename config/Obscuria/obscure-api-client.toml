@@ -3,9 +3,9 @@
 	#Allowed Values: DISPLAY_ALL, DISPLAY_MY, DISPLAY_OTHERS, HIDE
 	"Pet Mode" = "DISPLAY_ALL"
 	#Range: -1024 ~ 1024
-	"Mods Button Offset X" = 0
+	"Mods Button Offset X" = -1024
 	#Range: -1024 ~ 1024
-	"Mods Button Offset Y" = 0
+	"Mods Button Offset Y" = -1024
 
 [Tooltips]
 	#Display food properties in tooltips
