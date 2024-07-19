@@ -1,0 +1,9 @@
+{
+  "type": "originclasseszoomerpatch:infinite_trade_zoom",
+  "loading_priority": 111,
+  "modifier": {
+    "name": "Merchant Trade Tries Bonus",
+    "value": 0.5,
+    "operation": "addition"
+  }
+}
