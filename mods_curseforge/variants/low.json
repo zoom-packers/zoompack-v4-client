@@ -1,0 +1,129 @@
+{
+  "addMods": [
+    {
+      "modName": "Xaero's Minimap",
+      "modId": 263420,
+      "fileId": 5394772
+    },
+    {
+      "modName": "Xaero's World Map",
+      "modId": 317780,
+      "fileId": 5394829
+    },
+    {
+      "modName": "Xaero Plus",
+      "modId": 866084,
+      "fileId": 5544113
+    }
+  ],
+  "removeMods": [
+    {
+      "modName": "Better F3",
+      "modId": 401648
+    },
+    {
+      "modName": "Bobby",
+      "modId": 883502
+    },
+    {
+      "modName": "Chat Heads",
+      "modId": 407206
+    },
+    {
+      "modName": "Dark Mode Everywhere",
+      "modId": 574123
+    },
+    {
+      "modName": "Embeddium Dynamic Lights",
+      "modId": 551736
+    },
+    {
+      "modName": "Exp Counter",
+      "modId": 1003151
+    },
+    {
+      "modName": "Journey Map",
+      "modId": 32274
+    },
+    {
+      "modName": "Journey Map Teams",
+      "modId": 923833
+    },
+    {
+      "modName": "Journey Map Integration",
+      "modId": 525447
+    },
+    {
+      "modName": "Falling Leaves",
+      "modId": 463155
+    },
+    {
+      "modName": "FPS - Display",
+      "modId": 440228
+    },
+    {
+      "modName": "Fusion (Connected Textures)",
+      "modId": 854949
+    },
+    {
+      "modName": "Item Highlighter",
+      "modId": 521590
+    },
+    {
+      "modName": "Inventory Essentials",
+      "modId": 368825
+    },
+    {
+      "modName": "Inventory HUD",
+      "modId": 357540
+    },
+    {
+      "modName": "Legendary Tooltips",
+      "modId": 532127
+    },
+    {
+      "modName": "Oculus",
+      "modId": 581495
+    },
+    {
+      "modName": "Oculus Geckolib compat",
+      "modId": 959388
+    },
+    {
+      "modName": "Provis Health Bar,",
+      "modId": 945133
+    },
+    {
+      "modName": "Remove Reloading Screen",
+      "modId": 833233
+    },
+    {
+      "modName": "Simple Discord Rich Presence",
+      "modId": 334853
+    },
+    {
+      "modName": "Skin Layers 3D",
+      "modId": 521480
+    },
+    {
+      "modName": "Spark",
+      "modId": 361579
+    },
+    {
+      "modName": "Sound Physics Remastered",
+      "modId": 535489
+    },
+    {
+      "modName": "TownTalk",
+      "modId": 900364
+    },
+    {
+      "modName": "Villager Names",
+      "modId": 345854
+    },
+    {
+      "modName": "World Edit",
+      "modId": 225608
+    }
+  ]
+}
