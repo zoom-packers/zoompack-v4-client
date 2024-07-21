@@ -8,7 +8,7 @@ function copyFolderContents(src, dest, checkDestSourceControl) {
         const destPath = dest + '/' + file;
         if (fs.lstatSync(srcPath).isDirectory()) {
             ensureDirSync(destPath);
-            copyFolderContents(srcPath, destPath, checkSourceControl);
+            copyFolderContents(srcPath, destPath, checkDestSourceControl);
         } else {
             if (checkDestSourceControl && !isFileSourceControlled(destPath)) {
                 console.log(`Skipping ${destPath} because it is not source controlled`);

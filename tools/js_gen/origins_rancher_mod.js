@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-let farmer_modifiers = [
+let rancher_modifiers = [
     0.5,
     1.0,
     2.0,
@@ -8,10 +8,10 @@ let farmer_modifiers = [
     5.0,
 ]
 
-let farmer_level_caps = [ 0, 20, 40, 60, 80]
+let rancher_level_caps = [ 0, 20, 40, 60, 80]
 
-let output_root_path = "../config/paxi/datapacks/origins_classes_edits/data/origins-classes";
-let output_powers_path = output_root_path + "/powers/more_crop_drops.json";
+let output_root_path = "../../config/paxi/datapacks/origins_classes_edits/data/origins-classes";
+let output_powers_path = output_root_path + "/powers/twin_breeding.json";
 
 
 let power_final_template = `
@@ -24,42 +24,39 @@ let power_final_template = `
 
 let power_template = `
 "{power_id}": {
-    "type": "origins_classes:modify_block_loot",
+    "type": "origins_classes:modify_breeding",
     "condition": {
         "type": "origins:and",
         "conditions": [
         {
           "type": "origins:scoreboard",
-          "objective": "pmmo_farming",
+          "objective": "pmmo_ranching",
           "comparison": ">=",
           "compare_to": {level}
         },
         {
           "type": "origins:scoreboard",
-          "objective": "pmmo_farming",
+          "objective": "pmmo_ranching",
           "comparison": "<",
           "compare_to": {next_level}
         }
         ],
     },
     "modifier": {
-        "name": "Farmer Crop Loot Bonus",
+        "name": "Rancher Breeding Bonus",
         "value": {value},
         "operation": "multiply_base"
-      },
-    "block_condition": {
-      "type": "origins_classes:harvestable_crops"
     }
   }
 `
 
 let finalText = "";
-for (let i = 0; i < farmer_modifiers.length; i++) {
-    let power = power_template.replace("{power_id}", "farmer_crop_loot_" + i);
-    let next_level = i < farmer_level_caps.length - 1 ? farmer_level_caps[i + 1] : 1000;
-    power = power.replace("{level}", farmer_level_caps[i]);
+for (let i = 0; i < rancher_modifiers.length; i++) {
+    let power = power_template.replace("{power_id}", "ranching_twin_breeding" + i);
+    let next_level = i < rancher_level_caps.length - 1 ? rancher_level_caps[i + 1] : 1000;
+    power = power.replace("{level}", rancher_level_caps[i]);
     power = power.replace("{next_level}", next_level);
-    power = power.replace("{value}", farmer_modifiers[i]);
+    power = power.replace("{value}", rancher_modifiers[i]);
     finalText += power;
     finalText += ",\n";
 }

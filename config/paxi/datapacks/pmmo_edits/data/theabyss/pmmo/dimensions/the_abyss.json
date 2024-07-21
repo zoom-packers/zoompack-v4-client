@@ -4,35 +4,35 @@
         "combat": 90,
         "endurance": 90
     },
-    "dimensional_mob_modifiers": [
+    "global_mob_modifiers": [
         {
             "attribute":"minecraft:generic.max_health",
-            "operation": "multiply_base",
+            "operation": "MULTIPLY_BASE",
             "amount": 199
         },
         {
             "attribute":"minecraft:generic.attack_damage",
-            "operation": "multiply_base",
+            "operation": "MULTIPLY_BASE",
             "amount": 149
         },
         {
             "attribute":"minecraft:generic.armor",
-            "operation": "addition",
+            "operation": "ADDITION",
             "amount": 10
         },
         {
             "attribute":"minecraft:generic.armor_toughness",
-            "operation": "addition",
+            "operation": "ADDITION",
             "amount": 3
         },
         {
             "attribute":"minecraft:generic.armor",
-            "operation": "multiply_total",
+            "operation": "MULTIPLY_TOTAL",
             "amount": 15
         },
         {
             "attribute":"minecraft:generic.armor_toughness",
-            "operation": "multiply_total",
+            "operation": "MULTIPLY_TOTAL",
             "amount": 15
         }
     ],

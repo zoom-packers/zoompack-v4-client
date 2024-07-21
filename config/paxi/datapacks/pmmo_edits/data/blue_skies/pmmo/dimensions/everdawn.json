@@ -4,20 +4,20 @@
         "combat": 28,
         "endurance": 28
     },
-    "dimensional_mob_modifiers": [
+    "global_mob_modifiers": [
         {
             "attribute":"minecraft:generic.max_health",
-            "operation": "multiply_base",
+            "operation": "MULTIPLY_BASE",
             "amount": 1
         },
         {
             "attribute":"minecraft:generic.attack_damage",
-            "operation": "multiply_base",
+            "operation": "MULTIPLY_BASE",
             "amount": 1.5
         },
         {
             "attribute":"minecraft:generic.armor",
-            "operation": "addition",
+            "operation": "ADDITION",
             "amount": 6
         }
     ],

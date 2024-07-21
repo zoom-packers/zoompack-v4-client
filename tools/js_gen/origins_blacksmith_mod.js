@@ -23,7 +23,7 @@ let blacksmith_level_modifiers = [
     [ "add40", "add50", "mul40", "mul40", "mul50"],
 ]
 
-let output_root_path = "../config/paxi/datapacks/origins_classes_edits/data/origins-classes";
+let output_root_path = "../../config/paxi/datapacks/origins_classes_edits/data/origins-classes";
 let output_item_modifiers_path = output_root_path + "/item_modifiers/blacksmith";
 let output_item_powers_path = output_root_path + "/powers/items";
 let output_powers_path = output_root_path + "/powers/quality_equipment.json";

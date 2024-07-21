@@ -33,7 +33,7 @@ let dimension_template = `
 //FUNCTIONS
 function generate(mod_name, health_modifier_mode, health_modifier_value, damage_modifier_mode, damage_modifier_value, armor_modifier_mode, armor_modifier_value) {
 
-    let generated_datapack_path = "../config/paxi/datapacks/generated_pack/data/" + mod_name + "/pmmo"
+    let generated_datapack_path = "../../config/paxi/datapacks/generated_pack/data/" + mod_name + "/pmmo"
     let dimensions_folder_path = generated_datapack_path + "/dimensions"
 
     let dimension_names = []
@@ -66,7 +66,7 @@ function generate_per_dim(mod_name, dimension_name, health_modifier_mode, health
     }
 
 
-    let generated_datapack_path = "../config/paxi/datapacks/generated_pack/data/" + mod_name + "/pmmo"
+    let generated_datapack_path = "../../config/paxi/datapacks/generated_pack/data/" + mod_name + "/pmmo"
     let dimensions_folder_path = generated_datapack_path + "/dimensions"
     let entities_folder_path = generated_datapack_path + "/entities"
 

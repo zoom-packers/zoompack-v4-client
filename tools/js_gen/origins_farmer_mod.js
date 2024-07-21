@@ -1,17 +1,17 @@
 const fs = require('fs');
 
-let miner_modifiers = [
+let farmer_modifiers = [
     0.5,
     1.0,
-    1.5,
     2.0,
-    2.5,
+    3.0,
+    5.0,
 ]
 
-let miner_level_caps = [ 0, 20, 40, 60, 80]
+let farmer_level_caps = [ 0, 20, 40, 60, 80]
 
-let output_root_path = "../config/paxi/datapacks/origins_classes_edits/data/origins-classes";
-let output_powers_path = output_root_path + "/powers/more_stone_break_speed.json";
+let output_root_path = "../../config/paxi/datapacks/origins_classes_edits/data/origins-classes";
+let output_powers_path = output_root_path + "/powers/more_crop_drops.json";
 
 
 let power_final_template = `
@@ -30,13 +30,13 @@ let power_template = `
         "conditions": [
         {
           "type": "origins:scoreboard",
-          "objective": "pmmo_mining",
+          "objective": "pmmo_farming",
           "comparison": ">=",
           "compare_to": {level}
         },
         {
           "type": "origins:scoreboard",
-          "objective": "pmmo_mining",
+          "objective": "pmmo_farming",
           "comparison": "<",
           "compare_to": {next_level}
         }
@@ -48,20 +48,18 @@ let power_template = `
         "operation": "multiply_base"
       },
     "block_condition": {
-      "type": "origins:in_tag",
-      "tag": "forge:ores"
+      "type": "origins_classes:harvestable_crops"
     }
   }
 `
 
 let finalText = "";
-for (let i = 0; i < miner_modifiers.length; i++) {
-    let power = power_template.replace("{power_id}", "miner_stone_break_speed" + i);
-    let next_level = i < miner_level_caps.length - 1 ? miner_level_caps[i + 1] : 1000;
-    power = power.replace("{level}", miner_level_caps[i]);
+for (let i = 0; i < farmer_modifiers.length; i++) {
+    let power = power_template.replace("{power_id}", "farmer_crop_loot_" + i);
+    let next_level = i < farmer_level_caps.length - 1 ? farmer_level_caps[i + 1] : 1000;
+    power = power.replace("{level}", farmer_level_caps[i]);
     power = power.replace("{next_level}", next_level);
-    power = power.replace("{value}", miner_modifiers[i]);
-    power = power.replace("{level}", " " + miner_level_caps[i]);
+    power = power.replace("{value}", farmer_modifiers[i]);
     finalText += power;
     finalText += ",\n";
 }
