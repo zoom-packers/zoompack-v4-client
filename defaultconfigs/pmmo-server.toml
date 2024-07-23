@@ -196,13 +196,13 @@
 #settings related to how strong mobs get based on player level.
 [Mob_Scaling]
 	#Should mob scaling be turned on.
-	"Enable Mob Scaling" = false
+	"Enable Mob Scaling" = true
 	#How far should players be from spawning mobs to affect scaling?
 	#Range: > 0
 	"Scaling AOE" = 150
 	#what is the minimum level for scaling to kick in
 	#Range: > 0
-	"Base Level" = 30
+	"Base Level" = 300
 	#a multiplier on top of final scaling values that
 	#applies only to entities in the forge:bosses tag.
 	boss_scaling = 1.5
@@ -210,13 +210,13 @@
 	#How should mob attributes be calculated with respect to the player's level.
 	[Mob_Scaling.Formula]
 		#should levels be determined using an exponential formula?
-		"Use Exponential Formula" = true
+		"Use Exponential Formula" = false
 
 		#Settings for Linear scaling configuration
 		[Mob_Scaling.Formula.LINEAR_LEVELS]
 			#What is the xp increase per level ((level - base_level) * this)
 			#Range: 0.0 ~ 1.7976931348623157E308
-			"Per Level" = 1.0
+			"Per Level" = 0
 
 		#Settings for Exponential scaling configuration
 		[Mob_Scaling.Formula.EXPONENTIAL_LEVELS]
