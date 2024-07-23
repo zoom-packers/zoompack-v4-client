@@ -25,7 +25,7 @@
 
 	[Rendering.GUI]
 		#Cycles between Redux's menus.
-		"Cycle Menu" = true
+		"Cycle Menu" = false
 
 	[Rendering.Particles]
 		#Improves the leaf particles for Golden Oaks, Gilded Oaks, and Crystal Trees, based on Minecraft 1.20's new cherry tree particles.
