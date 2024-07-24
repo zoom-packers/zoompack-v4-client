@@ -124,6 +124,26 @@
     {
       "modName": "World Edit",
       "modId": 225608
+    },
+    {
+      "modName": "Cave Dust",
+      "modId": 594750
+    },
+    {
+      "modName": "First Person Model",
+      "modId": 333287
+    },
+    {
+      "modName": "Visuality Reforged",
+      "modId": 704256
+    },
+    {
+      "modName": "Blur",
+      "modId": 823106
+    },
+    {
+      "modName": "Advancements Tracker",
+      "modId": 453074
     }
   ]
 }
