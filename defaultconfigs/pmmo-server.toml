@@ -51,12 +51,22 @@
 	"Lose Only Excess" = true
 	#Modifies how much xp is earned.  This is multiplicative to the XP.
 	#(Mutually Exclusive to [Skill Modifiers])
-	"Global Modifier" = 0.7
+	"Global Modifier" = 1
 	#Modifies xp gains for specific skills.  This is multiplicative to the XP.
 	#(Mutually Exclusive to [Global Modifier])
-	"Skill Modifiers" = {}
 
-	#Settings for Linear XP configuration
+	[Levels."Skill Modifiers"]
+		agility = 0.1
+		farming = 0.1
+		swimming = 0.1
+		woodcutting = 0.2
+		mining = 0.2
+		swordsmanship = 4
+		combat = 3
+		archery = 4
+		magic = 4
+
+#Settings for Linear XP configuration
 	[Levels."LINEAR LEVELS"]
 		#what is the base xp to reach level 2 (this + level * xpPerLevel)
 		#Range: 0 ~ 9223372036854775807

@@ -2,11 +2,11 @@
 {
   "type": "apoli:attribute",
   "name": "Tough Helmet",
-  "description": "+30% Armor. This helmet has been forged by a licensed blacksmith. Please subscribe to their Fansly.",
+  "description": "+-70% Armor. This helmet has been forged by a licensed blacksmith. Please subscribe to their Fansly.",
   "modifier": {
     "name": "{name}",
     "attribute": "minecraft:generic.armor",
-    "value": 1.3,
+    "value": 0.3,
     "operation": "multiply_base"
   }
 }

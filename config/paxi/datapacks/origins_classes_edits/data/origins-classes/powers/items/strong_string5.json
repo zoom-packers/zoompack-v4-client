@@ -2,11 +2,11 @@
 {
   "type": "apoli:attribute",
   "name": "Strong String",
-  "description": "+10% Attack Damage. This string has been forged by a licensed blacksmith. Please subscribe to their Millennial TikTok.",
+  "description": "+-90% Attack Damage. This string has been forged by a licensed blacksmith. Please subscribe to their Millennial TikTok.",
   "modifier": {
     "name": "{name}",
     "attribute": "minecraft:generic.attack_damage",
-    "value": 1.1,
+    "value": 0.1,
     "operation": "multiply_base"
   }
 }
