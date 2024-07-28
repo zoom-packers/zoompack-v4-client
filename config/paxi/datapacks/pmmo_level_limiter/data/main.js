@@ -4,11 +4,15 @@ const {deleteAllItemsNotGenerated} = require("./processor");
 function modifyFullSets() {
     // Overworld
     processor.modifySetRequirements("immersive_armors", "wooden", 1, "armor");
+    processor.modifySingleItem("call_of_yucutan", "wooden_tecpatl", "sword", 1);
+    processor.modifySingleItem("call_of_yucutan", "wooden_spear", "sword", 1);
     processor.modifySetRequirements("immersive_armors", "bone", 2, "armor");
     processor.modifySetRequirements("minecraft", "leather", 3, "armor");
     processor.modifySetRequirements("minecraft", "turtle", 3, ["helmet"]);
     processor.modifySetRequirements("minecraft", "stone", 3, "tools");
-    processor.modifySetRequirements("immersive_armors", "wither", 2, "armor");
+    processor.modifySingleItem("call_of_yucutan", "flint_tecpatl", "sword", 3);
+    processor.modifySingleItem("call_of_yucutan", "flint_spear", "sword", 3);
+    processor.modifySetRequirements("immersive_armors", "wither", 4, "armor");
     processor.modifySetRequirements("minecraft", "chainmail", 5, "armor");
     processor.modifySetRequirements("everythingcopper", "copper", 6);
     processor.modifySingleItem("create", "copper_backtank", "chestplate", 5);
@@ -27,6 +31,8 @@ function modifyFullSets() {
     processor.modifySetRequirements("immersive_armors", "divine", 13, "armor");
     processor.modifySetRequirements("immersive_armors", "steampunk", 13, "armor");
     processor.modifySetRequirements("immersive_armors", "heavy", 14, "armor");
+    processor.modifySingleItem("call_of_yucutan", "obsidian_tecpatl", "sword", 14);
+    processor.modifySingleItem("call_of_yucutan", "obsidian_spear", "sword", 14);
     processor.modifySingleItem("minecraft", "trident", "sword", 15);
     processor.modifySingleItem("aquamirae", "abyssal_heaume", "helmet", 15);
     processor.modifySingleItem("aquamirae", "abyssal_brigantine", "chestplate", 15);
@@ -108,6 +114,11 @@ function modifyFullSets() {
     processor.modifySingleItem("zoomer_bows", "cloggrum_bow", "bow", 61);
     processor.modifySingleItem("undergarden", "cloggrum_battleaxe", "sword", 61);
 
+    
+    processor.modifySetRequirements("call_of_yucutan", "warrior", 62, ["helmet"]);
+    processor.modifySetRequirements("call_of_yucutan", "huracan", 62, ["helmet"]);
+    processor.modifySetRequirements("call_of_yucutan", "monkey", 62, ["helmet"]);
+
     processor.modifySetRequirements("undergarden", "froststeel", 63);
     processor.modifySingleItem("zoomer_bows", "froststeel_bow", "bow", 63);
 
@@ -118,21 +129,37 @@ function modifyFullSets() {
     processor.modifySingleItem("zoomer_bows", "forgotten_bow", "bow", 67);
     processor.modifySingleItem("undergarden", "forgotten_battleaxe", "sword", 67);
 
+    processor.modifySetRequirements("call_of_yucutan", "jades", 68, ["helmet", "chestplate", "leggings", "boots"]);
+    processor.modifySetRequirements("call_of_yucutan", "jade", 68, ["sword","axe", "pickaxe", "shovel", "hoe"]);
+    processor.modifySingleItem("call_of_yucutan", "sentient_vine", "sword", 68);
+
+    processor.modifySetRequirements("mokels_boss_mantyd", "mantydhelmet", 69, ["helmet"]);
+    processor.modifySingleItem("mokels_boss_mantyd", "mantyd_scythe", "sword", 69);
+
     // Better End
-    processor.modifySetRequirements("betterend", "thallasium", 72);
-    processor.modifySingleItem("zoomer_bows", "thallasium_bow", "bow", 72);
+    processor.modifySingleItem("endlessbiomes", "void_touched_leggings_leggings", "leggings", 71);
+    processor.modifySingleItem("endlessbiomes", "void_touched_boots_boots", "boots", 71);
+    processor.modifySetRequirements("endlessbiomes", "anklor_shell_armour", 71);
+    processor.modifySetRequirements("outer_end", "rose_crystal", 71);
+    processor.modifySetRequirements("outer_end", "cobalt_crystal", 71);
+    processor.modifySetRequirements("outer_end", "mint_crystal", 71);
 
-    processor.modifySetRequirements("betterend", "terminite", 74);
-    processor.modifySingleItem("zoomer_bows", "terminite_bow", "bow", 74);
+    processor.modifySetRequirements("betterend", "thallasium", 73);
+    processor.modifySingleItem("zoomer_bows", "thallasium_bow", "bow", 73);
 
-    processor.modifySetRequirements("betterend", "aeternium", 76);
-    processor.modifySingleItem("zoomer_bows", "aeternium_bow", "bow", 76);
+    processor.modifySetRequirements("betterend", "terminite", 75);
+    processor.modifySingleItem("zoomer_bows", "terminite_bow", "bow", 75);
 
-    processor.modifySetRequirements("betterend", "crystalite", 78, "armor");
+    processor.modifySetRequirements("betterend", "aeternium", 77);
+    processor.modifySingleItem("zoomer_bows", "aeternium_bow", "bow", 77);
+
+    processor.modifySetRequirements("betterend", "crystalite", 79, "armor");
 
     // Deeper darker
-    processor.modifySetRequirements("deeperdarker", "warden", 81);
-    processor.modifySingleItem("zoomer_bows", "warden_bow", "bow", 81);
+    processor.modifySetRequirements("callfromthedepth_", "immemorial", 84, ["sword","axe", "pickaxe", "shovel", "hoe"], "{set_name}{item}");
+    processor.modifySetRequirements("callfromthedepth_", "depth_armor", 84, "armor");
+    processor.modifySingleItem("callfromthedepth_", "soulbow", "bow", 84);
+    processor.modifySingleItem("callfromthedepth_", "soul_blade", "sword", 84);
 
     // The abyss
 

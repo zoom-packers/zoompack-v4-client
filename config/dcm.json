@@ -28,16 +28,16 @@
   "loot": {
     "droprates": {
       "enableHealthDroprates": true,
-      "minimumHealthDroprateMultiplier": 20,
+      "minimumHealthDroprateMultiplier": 100,
       "copper": 0,
       "iron": 0,
       "gold": 1,
       "platinum": 0,
       "tin": 0,
       "nickel": 0,
-      "silver": 64,
+      "silver": 10,
       "steel": 0,
-      "bronze": 4096,
+      "bronze": 80,
       "brass": 0,
       "osmium": 0,
       "diamond": 0,
@@ -46,9 +46,15 @@
       "sapphire": 0,
       "topaz": 0,
       "dropboostHealth": [
-        20,
-        40,
-        60
+        0,
+        0,
+        400,
+        0,
+        0,
+        0,
+        200,
+        0,
+        100
       ],
       "lootingBonusMax": 0,
       "shouldDropRandomExtra": false,
@@ -63,8 +69,7 @@
   },
   "entities": {
     "whitelistedDimensions": [],
-    "includedEntities": [
-    ],
+    "includedEntities": [],
     "blacklistedEntities": []
   },
   "gui": {
