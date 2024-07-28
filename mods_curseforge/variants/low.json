@@ -1,21 +1,6 @@
 {
   "exportZipName": "Zoompack 4 - POTATO Version.zip",
   "addMods": [
-    {
-      "modName": "Xaero's Minimap",
-      "modId": 263420,
-      "fileId": 5394772
-    },
-    {
-      "modName": "Xaero's World Map",
-      "modId": 317780,
-      "fileId": 5394829
-    },
-    {
-      "modName": "Xaero Plus",
-      "modId": 866084,
-      "fileId": 5544113
-    }
   ],
   "removeMods": [
     {
