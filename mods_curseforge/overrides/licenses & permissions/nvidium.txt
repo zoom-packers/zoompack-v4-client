@@ -1,0 +1,2 @@
+License: LGPL 2.1-only
+Available at the following URL: https://modrinth.com/mod/nvidium

@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "overrides": {
+        "nvidium": {
+            "-depends": {
+                "sodium": "IGNORED"
+            },
+            "+depends": {
+                "sodium": "*"
+            }
+        }
+    }
+}
