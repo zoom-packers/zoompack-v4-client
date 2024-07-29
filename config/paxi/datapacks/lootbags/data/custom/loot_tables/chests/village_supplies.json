@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+            "type": "minecraft:loot_table",
+            "weight": 20,
+            "name": "custom:vanilla/stone_material"
+        },
+        {
+            "type": "minecraft:loot_table",
+            "weight": 20,
+            "name": "custom:vanilla/wood_material"
+        },
+        {
+            "type": "minecraft:loot_table",
+            "weight": 20,
+            "name": "custom:vanilla/food_plants"
+        },
+        {
+            "type": "minecraft:loot_table",
+            "weight": 10,
+            "name": "custom:vanilla/food_meat"
+        },
+        {
+            "type": "minecraft:loot_table",
+            "weight": 5,
+            "name": "custom:vanilla/iron_loot"
+        },
+        {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "custom:chests/common_gear_loot"
+        }
+      ]
+    }
+  ]
+}

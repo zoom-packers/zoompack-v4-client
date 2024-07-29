@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "lootcrates:uncommon_loot_bag",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ LootTable: \"custom:chests/uncommon_gear_loot\", display: {Name: '{\"text\":\"Uncommon Loot Bag\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

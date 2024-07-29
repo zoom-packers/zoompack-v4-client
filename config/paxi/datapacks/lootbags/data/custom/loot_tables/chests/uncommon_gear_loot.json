@@ -1,0 +1,81 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 40,
+          "name": "custom:vanilla/iron_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "name": "custom:vanilla/food_plants"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "name": "custom:vanilla/food_meat"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "name": "custom:vanilla/fishing_gear"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "custom:vanilla/diamond_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "custom:vanilla/netherite_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 40,
+          "name": "custom:mcd/uncommon_bow_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "name": "custom:mcd/rare_bow_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "custom:mcd/epic_bow_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "custom:mcd/uncommon_artifact_loot"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "custom:vanilla/uncommon_supplies"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "custom:vanilla/iron_loot"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "mcdar:death_cap_mushroom",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "mcdar:enchanted_grass",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "mcdar:corrupted_seeds",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

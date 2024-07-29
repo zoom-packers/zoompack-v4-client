@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 40,
+          "name": "custom:vanilla/diamond_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "custom:vanilla/netherite_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "custom:advanced_netherite/netherite_iron_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "name": "custom:mcd/rare_bow_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 15,
+          "name": "custom:mcd/epic_bow_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "custom:mcd/ghastly_bow_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "custom:mcd/rare_artifact_loot"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "custom:vanilla/iron_loot"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "custom:vanilla/rare_supplies"
+        }
+      ]
+    }
+  ]
+}

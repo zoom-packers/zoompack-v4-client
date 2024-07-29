@@ -1,0 +1,28 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 1,
+          "max": 2
+        },
+        "entries": [
+            {
+                "type": "minecraft:loot_table",
+                "weight": 10,
+                "name": "custom:vanilla/iron_loot"
+            },
+            {
+                "type": "minecraft:loot_table",
+                "weight": 20,
+                "name": "custom:vanilla/gold_loot"
+            },
+            {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "custom:vanilla/diamond_loot"
+            }
+        ]
+      }
+    ]
+  }
+  

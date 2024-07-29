@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "lootcrates:blaze_loot_bag",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ LootTable: \"custom:chests/blazing_gear_loot\", display: {Name: '{\"text\":\"§6Blazing Loot Bag\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

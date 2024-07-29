@@ -1,0 +1,31 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "lootcrates:common_loot_bag",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ LootTable: \"custom:chests/common_gear_loot\", display: {Name: '{\"text\":\"Common Loot Bag\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "lootcrates:uncommon_loot_bag",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ LootTable: \"custom:chests/uncommon_gear_loot\", display: {Name: '{\"text\":\"Uncommon Loot Bag\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

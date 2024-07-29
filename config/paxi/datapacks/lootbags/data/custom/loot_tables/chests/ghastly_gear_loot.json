@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 5
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 40,
+          "name": "custom:advanced_netherite/netherite_iron_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 15,
+          "name": "custom:advanced_netherite/netherite_gold_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 8,
+          "name": "custom:advanced_netherite/netherite_emerald_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 25,
+          "name": "custom:mcd/ghastly_bow_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "custom:mcd/blazing_bow_loot"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "custom:vanilla/netherite_loot"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "custom:vanilla/ghastly_supplies"
+        }
+      ]
+    }
+  ]
+}

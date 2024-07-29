@@ -1,0 +1,107 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 1,
+          "max": 2
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "mcdw:bow_lost_souls",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 30,
+                  "max": 40
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "mcdw:crossbow_doom_crossbow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 30,
+                  "max": 40
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "mcdw:crossbow_lightning_harp_crossbow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 30,
+                  "max": 40
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.8
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 10,
+                  "max": 40
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Potion:\"minecraft:strong_harming\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

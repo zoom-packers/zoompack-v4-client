@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "lootcrates:ghost_loot_bag",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ LootTable: \"custom:chests/ghastly_gear_loot\", display: {Name: '{\"text\":\"§7Ghastly Loot Bag\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

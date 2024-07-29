@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "lootcrates:rare_loot_bag",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ LootTable: \"custom:chests/rare_gear_loot\", display: {Name: '{\"text\":\"Rare Loot Bag\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
