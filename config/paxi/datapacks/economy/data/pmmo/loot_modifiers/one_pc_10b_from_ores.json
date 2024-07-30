@@ -1,0 +1,18 @@
+{
+    "type": "pmmo:treasure",
+    "chance": 0.01,
+    "conditions": [
+      {
+        "condition": "pmmo:skill_level",
+        "level_max": 2147483647,
+        "level_min": 10,
+        "skill": "mining"
+      },
+      {
+        "condition": "pmmo:valid_block",
+        "tag": "forge:ores"
+      }
+    ],
+    "count": 10,
+    "item": "dotcoinmod:bronze_coin"
+}

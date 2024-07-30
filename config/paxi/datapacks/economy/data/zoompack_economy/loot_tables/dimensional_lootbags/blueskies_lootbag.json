@@ -1,0 +1,30 @@
+{
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "blue_skies:chests/blinding_dungeon/study_chest",
+            "weight": 65
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "blue_skies:chests/cave_spawner/chest_everbright",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "blue_skies:chests/cave_spawner/chest_everdawn",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "blue_skies:chests/bunker/rare",
+            "weight": 5
+          }
+        ]
+      }
+    ]
+  }
+  

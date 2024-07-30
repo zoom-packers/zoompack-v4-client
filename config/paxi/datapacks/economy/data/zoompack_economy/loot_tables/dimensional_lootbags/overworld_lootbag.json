@@ -1,0 +1,25 @@
+{
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "minecraft:chests/shipwreck_supply",
+            "weight": 70
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "minecraft:chests/shipwreck_treasure",
+            "weight": 25
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "minecraft:chests/woodland_mansion",
+            "weight": 5
+          }
+        ]
+      }
+    ]
+  }
+  

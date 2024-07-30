@@ -1,0 +1,257 @@
+{
+  "profession": "spacecatcustomprofessions:banker",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "minecraft:instant_health",
+            "duration": 0,
+            "level": 0,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:15395118,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 2 HP\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Bronze Vial of Vitality\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 32
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "minecraft:instant_health",
+            "duration": 0,
+            "level": 1,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:15383342,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 4 HP\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Scarlet Elixir of Mending\",\"italic\":false,\"color\":\"red\"}]\u0027}}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 32
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "minecraft:instant_health",
+            "duration": 0,
+            "level": 2,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:15374638,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 8 HP\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Golden Draught of Healing\",\"italic\":false,\"color\":\"yellow\"}]\u0027}}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 32
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "minecraft:instant_health",
+            "duration": 0,
+            "level": 3,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:15377454,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 16 HP\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Sunlight Serum of Recovery\",\"italic\":false,\"color\":\"yellow\"}]\u0027}}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 32
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "minecraft:instant_health",
+            "duration": 0,
+            "level": 4,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:15363118,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 32 HP\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Gilded Flask of Restoration\",\"italic\":false,\"color\":\"gold\"}]\u0027},Rarity:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 32
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "minecraft:instant_health",
+            "duration": 0,
+            "level": 5,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:15351598,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 64 HP\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Emerald Tonic of Revival\",\"italic\":false,\"color\":\"green\"}]\u0027},Rarity:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 32
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "minecraft:instant_health",
+            "duration": 0,
+            "level": 6,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:15347358,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 128 HP\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Sapphire Brew of Renewal\",\"italic\":false,\"color\":\"blue\"}]\u0027},Rarity:1}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 32
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "minecraft:instant_health",
+            "duration": 0,
+            "level": 7,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:15347434,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 256 HP\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Rare Health Potion\",\"italic\":false,\"color\":\"purple\"}]\u0027},Rarity:1}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 32
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "minecraft:instant_health",
+            "duration": 1,
+            "level": 8,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:15347434,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 512 HP\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Ancient Health Potion\",\"italic\":false,\"color\":\"purple\"}]\u0027},Rarity:2}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 32
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "minecraft:instant_health",
+            "duration": 1,
+            "level": 9,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:3036906,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish all of your missig health\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Amethyst Potion of Fortitude\",\"italic\":false,\"color\":\"purple\"}]\u0027},Rarity:2}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 32
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_1"
+    }
+  ]
+}

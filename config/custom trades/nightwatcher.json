@@ -190,8 +190,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 2,
+        "itemKey": "dotcoinmod:silver_coin",
+        "amount": 24,
         "priceModifier": 0
       },
       "tradeExp": 15,
@@ -262,8 +262,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 9,
+        "itemKey": "dotcoinmod:silver_coin",
+        "amount": 27,
         "priceModifier": 0
       },
       "tradeExp": 30,

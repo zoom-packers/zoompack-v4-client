@@ -180,6 +180,12 @@ new_sword_config("blue_skies","charoite", 3) #10
 new_armor_set_config("blue_skies", "horizonite", [2.5,4.5,3.5,3.5], 2.5, 0)
 new_sword_config("blue_skies","horizonite", 4.5) #10.5
 
+# betternether:cincinnasite_axe
+# Nether 
+new_armor_set_config("betternether", "cincinnasite", [7,8,7,6], 4, 0.125)
+new_armor_set_config("betternether", "nether_ruby", [8,12,10,7], 5.6, 0.05)
+new_armor_set_config("betternether", "flaming_ruby", [8,13,10,8], 4.4, 0.0)
+new_sword_config("minecraft","netherite", 30)
 
 # Undergarden
 new_armor_set_config("call_of_yucutan", "warrior", [11,15,11,11], 5, 0.3)

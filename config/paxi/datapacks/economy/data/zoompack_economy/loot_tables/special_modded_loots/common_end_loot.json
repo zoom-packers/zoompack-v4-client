@@ -1,0 +1,50 @@
+{
+    "pools": [
+      {
+        "rolls": 5,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "endlessbiomes:chests/arkan_ruins_loot"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "endlessbiomes:chests/bulwark_farming_loot"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "endlessbiomes:chests/bulwark_main_loot"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "endlessbiomes:chests/bulwark_treasure_loot"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "endlessbiomes:chests/radon_bulwark_loot"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "endlessbiomes:chests/radon_loot"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "endlessbiomes:chests/resistive_bulwark_loot"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "endlessbiomes:chests/resistive_bulwark_treasure_loot"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "endlessbiomes:chests/riftite_bulwark_loot"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "endlessbiomes:chests/riftite_loot"
+          }
+        ]
+      }
+    ]
+  }
+  
