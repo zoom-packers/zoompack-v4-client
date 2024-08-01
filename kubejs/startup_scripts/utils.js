@@ -75,43 +75,43 @@ global.createToolCustom = (event, id, type, texture, tier, name, attackDamage, m
 }
 
 global.createSword = (event, id, texture, tier, name) => {
-    global.createTool(event, id, "sword", texture, tier, name);
+    return global.createTool(event, id, "sword", texture, tier, name);
 }
 
 global.createAxe = (event, id, texture, tier, name) => {
-    global.createTool(event, id, "axe", texture, tier, name);
+    return global.createTool(event, id, "axe", texture, tier, name);
 }
 
 global.createPickaxe = (event, id, texture, tier, name) => {
-    global.createTool(event, id, "pickaxe", texture, tier, name);
+    return global.createTool(event, id, "pickaxe", texture, tier, name);
 }
 
 global.createShovel = (event, id, texture, tier, name) => {
-    global.createTool(event, id, "shovel", texture, tier, name);
+    return global.createTool(event, id, "shovel", texture, tier, name);
 }
 
 global.createHoe = (event, id, texture, tier, name) => {
-    global.createTool(event, id, "hoe", texture, tier, name);
+    return global.createTool(event, id, "hoe", texture, tier, name);
 }
 
 global.createHelmet = (event, id, texture, tier, name) => {
-    global.createTool(event, id, "helmet", texture, tier, name);
+    return global.createTool(event, id, "helmet", texture, tier, name);
 }
 
 global.createChestplate = (event, id, texture, tier, name) => {
-    global.createTool(event, id, "chestplate", texture, tier, name);
+    return global.createTool(event, id, "chestplate", texture, tier, name);
 }
 
 global.createLeggings = (event, id, texture, tier, name) => {
-    global.createTool(event, id, "leggings", texture, tier, name);
+    return global.createTool(event, id, "leggings", texture, tier, name);
 }
 
 global.createBoots = (event, id, texture, tier, name) => {
-    global.createTool(event, id, "boots", texture, tier, name);
+    return global.createTool(event, id, "boots", texture, tier, name);
 }
 
 global.createTool = (event, id, type, texture, tier, name) => {
-    event.create(id, type)
+    return event.create(id, type)
         .tier(tier)
         .displayName(name)
         .texture(texture);
@@ -130,6 +130,14 @@ global.creatArmorForTier = (event, tier, textures, name_base) => {
     global.createChestplate(event, `${tier}_chestplate`, textures.chestplate, tier, `${name_base} Chestplate`);
     global.createLeggings(event, `${tier}_leggings`, textures.leggings, tier, `${name_base} Leggings`);
     global.createBoots(event, `${tier}_boots`, textures.boots, tier, `${name_base} Boots`);
+}
+
+global.createGeckoArmorTier = (event, modId, tier, textures, helmName, chestName, pantsName, legName, nameSuffix) => {
+    const helmet = event.create(`${modId}:${tier}_helmet`, 'anim_helmet').displayName(`${helmName} ${nameSuffix}`).texture(textures.helmet).tier(tier);
+    const chestplate = event.create(`${modId}:${tier}_chestplate`, 'anim_chestplate').displayName(`${chestName} ${nameSuffix}`).texture(textures.chestplate).tier(tier);
+    const leggings = event.create(`${modId}:${tier}_leggings`, 'anim_leggings').displayName(`${pantsName} ${nameSuffix}`).texture(textures.leggings).tier(tier);
+    const boots = event.create(`${modId}:${tier}_boots`, 'anim_boots').displayName(`${legName} ${nameSuffix}`).texture(textures.boots).tier(tier);
+    return { helmet: helmet, chestplate: chestplate, leggings: leggings, boots: boots };
 }
 
 global.getMockTexturesObject = () => {
