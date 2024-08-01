@@ -250,90 +250,129 @@ mounts_folder_location = f'{loot_table_location}/mounts'
 create_folder(mounts_folder_location)
 
 mobs = {
-    'minecraft:horse': {
-        'hp': 30.0,
-        'speed': 0.3375,
-        'jump': 1.0,
-        'armor': 0,
-        'dmg': 0,
-        'egg_id': 'minecraft:horse_spawn_egg'
-    },
-    'minecraft:donkey': {
-        'hp': 30.0,
-        'speed': 0.225,
-        'jump': 0.7,
-        'armor': 0,
-        'dmg': 0,
-        'egg_id': 'minecraft:donkey_spawn_egg'
-    },
-    'minecraft:mule': {
-        'hp': 30.0,
-        'speed': 0.225,
-        'jump': 0.7,
-        'armor': 0,
-        'dmg': 0,
-        'egg_id': 'minecraft:mule_spawn_egg'
-    },
-    'minecraft:llama': {
-        'hp': 15.0,
-        'speed': 0.22,
-        'jump': 0.35,
-        'armor': 0,
-        'dmg': 0,
-        'egg_id': 'minecraft:llama_spawn_egg'
-    },
-    'minecraft:pig': {
-        'hp': 10.0,
-        'speed': 0.25,
-        'jump': 0.5,
-        'armor': 0,
-        'dmg': 0,
-        'egg_id': 'minecraft:pig_spawn_egg'
-    },
-    'minecraft:strider': {
+    # 'minecraft:horse': {
+    #     'hp': 30.0,
+    #     'speed': 0.3375,
+    #     'jump': 1.0,
+    #     'armor': 0,
+    #     'dmg': 0,
+    #     'egg_id': 'minecraft:horse_spawn_egg',
+    #     'name': 'Horse'
+    # },
+    # 'minecraft:donkey': {
+    #     'hp': 30.0,
+    #     'speed': 0.225,
+    #     'jump': 0.7,
+    #     'armor': 0,
+    #     'dmg': 0,
+    #     'egg_id': 'minecraft:donkey_spawn_egg',
+    #     'name': 'Donkey'
+    # },
+    # 'minecraft:mule': {
+    #     'hp': 30.0,
+    #     'speed': 0.225,
+    #     'jump': 0.7,
+    #     'armor': 0,
+    #     'dmg': 0,
+    #     'egg_id': 'minecraft:mule_spawn_egg',
+    #     'name': 'Mule'
+    # },
+    # 'minecraft:llama': {
+    #     'hp': 15.0,
+    #     'speed': 0.22,
+    #     'jump': 0.35,
+    #     'armor': 0,
+    #     'dmg': 0,
+    #     'egg_id': 'minecraft:llama_spawn_egg',
+    #     'name': 'Llama'
+    # },
+    # 'minecraft:pig': {
+    #     'hp': 10.0,
+    #     'speed': 0.25,
+    #     'jump': 0.5,
+    #     'armor': 0,
+    #     'dmg': 0,
+    #     'egg_id': 'minecraft:pig_spawn_egg',
+    #     'name': 'Pig'
+    # },
+    # 'minecraft:strider': {
+    #     'hp': 20.0,
+    #     'speed': 0.4,
+    #     'jump': 0,
+    #     'armor': 0,
+    #     'dmg': 0,
+    #     'egg_id': 'minecraft:strider_spawn_egg',
+    #     'name': 'Strider'
+    # },
+    # 'minecraft:camel': {
+    #     'hp': 32.0,
+    #     'speed': 0.09,
+    #     'jump': 0.5,
+    #     'armor': 0,
+    #     'dmg': 0,
+    #     'egg_id': 'minecraft:camel_spawn_egg',
+    #     'name': 'Camel'
+    # },
+    # 'minecraft:skeleton_horse': {
+    #     'hp': 30.0,
+    #     'speed': 0.3375,
+    #     'jump': 1.0,
+    #     'armor': 0,
+    #     'dmg': 0,
+    #     'egg_id': 'minecraft:skeleton_horse_spawn_egg',
+    #     'name': 'Skeleton Horse'
+    # },
+    # 'minecraft:zombie_horse': {
+    #     'hp': 30.0,
+    #     'speed': 0.3375,
+    #     'jump': 1.0,
+    #     'armor': 0,
+    #     'dmg': 0,
+    #     'egg_id': 'minecraft:zombie_horse_spawn_egg',
+    #     'name': 'Zombie Horse'
+    # },
+    # 'minecraft:ravager': {
+    #     'hp': 100.0,
+    #     'speed': 0.3,
+    #     'jump': 0,
+    #     'armor': 0,
+    #     'dmg': 0,
+    #     'egg_id': 'minecraft:ravager_spawn_egg',
+    #     'name': 'Ravager'
+    # },
+    # Mythic mounts
+    'mythicmounts:firebird': {
         'hp': 20.0,
-        'speed': 0.4,
-        'jump': 0,
-        'armor': 0,
-        'dmg': 0,
-        'egg_id': 'minecraft:strider_spawn_egg'
-    },
-    'minecraft:camel': {
-        'hp': 32.0,
-        'speed': 0.09,
-        'jump': 0.5,
-        'armor': 0,
-        'dmg': 0,
-        'egg_id': 'minecraft:camel_spawn_egg'
-    },
-    'minecraft:skeleton_horse': {
-        'hp': 30.0,
-        'speed': 0.3375,
-        'jump': 1.0,
-        'armor': 0,
-        'dmg': 0,
-        'egg_id': 'minecraft:skeleton_horse_spawn_egg'
-    },
-    'minecraft:zombie_horse': {
-        'hp': 30.0,
-        'speed': 0.3375,
-        'jump': 1.0,
-        'armor': 0,
-        'dmg': 0,
-        'egg_id': 'minecraft:zombie_horse_spawn_egg'
-    },
-    'minecraft:ravager': {
-        'hp': 100.0,
         'speed': 0.3,
-        'jump': 0,
+        'jump': 1,
         'armor': 0,
-        'dmg': 0,
-        'egg_id': 'minecraft:ravager_spawn_egg'
+        'dmg': 3,
+        'egg_id': 'mythicmounts:firebird_spawn_egg',
+        'name': 'Zar-ptak'
     }
 }
 
+# black: #000000
+# dark_blue: #0000AA
+# dark_green: #00AA00
+# dark_aqua: #00AAAA
+# dark_red: #AA0000
+# dark_purple: #AA00AA
+# gold: #FFAA00
+# gray: #AAAAAA
+# dark_gray: #555555
+# blue: #5555FF
+# green: #55FF55
+# aqua: #55FFFF
+# red: #FF5555
+# light_purple: #FF55FF
+# yellow: #FFFF55
+# white: #FFFFFF
+
 level_modifiers = {
     '1' : {
+        'prefix': 'Crippled',
+        'prefix_color': 'white',
         'hp' : 0,
         'speed' : 0,
         "jump": 0,
@@ -341,11 +380,76 @@ level_modifiers = {
         'dmg' : 0
     },
     '2' : {
+        'prefix' : 'Worn',
+        'prefix_color': 'yellow',
         'hp' : 10,
         'speed' : 5,
         'jump' : 5,
         'armor' : 5,
         'dmg' : 5,
+    },
+    '3' : {
+        'prefix' : 'Rustic',
+        'prefix_color': 'gold',
+        'hp' : 30,
+        'speed' : 10,
+        'jump' : 10,
+        'armor' : 10,
+        'dmg' : 10,
+    },
+    '4' : {
+        'prefix' : 'Ordinary',
+        'prefix_color': 'dark_aqua',
+        'hp' : 100,
+        'speed' : 15,
+        'jump' : 15,
+        'armor' : 15,
+        'dmg' : 15,
+    },
+    '5' : {
+        'prefix' : 'Trained',
+        'prefix_color': 'dark_red',
+        'hp' : 200,
+        'speed' : 20,
+        'jump' : 20,
+        'armor' : 15,
+        'dmg' : 15,
+    },
+    '6' : {
+        'prefix' : 'Hardened',
+        'prefix_color': 'red',
+        'hp' : 400,
+        'speed' : 25,
+        'jump' : 25,
+        'armor' : 30,
+        'dmg' : 30,
+    },
+    '7' : {
+        'prefix' : 'Sturdy',
+        'prefix_color': 'light_purple',
+        'hp' : 1000,
+        'speed' : 30,
+        'jump' : 30,
+        'armor' : 80,
+        'dmg' : 80,
+    },
+    '8' : {
+        'prefix' : 'Swift',
+        'prefix_color': 'green',
+        'hp' : 2500,
+        'speed' : 35,
+        'jump' : 35,
+        'armor' : 150,
+        'dmg' : 150,
+    },
+    '9' : {
+        'prefix' : 'Majestic',
+        'prefix_color': 'dark_purple',
+        'hp' : 6000,
+        'speed' : 40,
+        'jump' : 40,
+        'armor' : 250,
+        'dmg' : 250,
     }
 }
 
@@ -363,17 +467,30 @@ for level_modifier, level_modifier_data in level_modifiers.items():
     ENTRIES = []
 
     for mob_id, mob_data in mobs.items():
-        mob_data = mobs[mob_id]
         ENTRY_BASE = """{
           "type": "minecraft:item",
           "name": \"""" + mob_data.get('egg_id') +"""\",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:MOB_ID_REPLACE,Tame:1b,ActiveEffects:[{Id:6,Duration:1,Amplifier:255,ShowParticles:0b}],Attributes:[ATTRIBUTES_LIST_REPLACE]}}"
+              "tag": "{EntityTag:{id:MOB_ID_REPLACE,Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[ATTRIBUTES_LIST_REPLACE]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "EGG_ITEM_REPLACE", "color": "EGG_ITEM_COLOR_REPLACE", "bold": true}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple"},
+                {"text": "Tier MOB_TIER_REPLACE : MOB_NAME_REPLACE", "color": "purple"}
+              ]
             }
           ]
         }"""
+
+        ENTRY_BASE = ENTRY_BASE.replace('EGG_ITEM_REPLACE',f"{level_modifier_data.get('prefix')} {mob_data.get('name')} Mount").replace('EGG_ITEM_COLOR_REPLACE', level_modifier_data.get('prefix_color'))
+        ENTRY_BASE = ENTRY_BASE.replace('MOB_TIER_REPLACE', level_modifier).replace('MOB_NAME_REPLACE', mob_data.get('name'))
 
         mob_attributes_list_to_be_written = []
 
