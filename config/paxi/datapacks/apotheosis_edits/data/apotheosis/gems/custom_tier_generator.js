@@ -20,11 +20,11 @@ for (const folder of folders) {
             if (bonus.values === undefined) {
                 continue;
             }
-            bonus.values.custom_0 = roundToDecimal(bonus.values.mythic * 1.5, 2)
-            bonus.values.custom_1 = roundToDecimal(bonus.values.custom_0 * 1.5, 2)
-            bonus.values.custom_2 = roundToDecimal(bonus.values.custom_1 * 1.5, 2)
-            bonus.values.custom_3 = roundToDecimal(bonus.values.custom_2 * 1.5, 2)
-            bonus.values.ancient = roundToDecimal(bonus.values.custom_3 * 1.5, 2)
+            bonus.values.custom_0 = roundToDecimal(bonus.values.mythic * 1.25, 2)
+            bonus.values.custom_1 = roundToDecimal(bonus.values.custom_0 * 1.25, 2)
+            bonus.values.custom_2 = roundToDecimal(bonus.values.custom_1 * 1.25, 2)
+            bonus.values.custom_3 = roundToDecimal(bonus.values.custom_2 * 1.25, 2)
+            bonus.values.ancient = roundToDecimal(bonus.values.custom_3 * 1.25, 2)
         }
 
 
