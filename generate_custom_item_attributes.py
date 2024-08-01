@@ -75,6 +75,13 @@ def new_item_config(mod_id, item_id, item_type, mod_map):
         }
         base_config.get("items", []).append(fill_config_item_gaps(new_item_config))
 
+    if item_type == 'offhand':
+        new_item_config = {
+            "item": f"{mod_id}:{item_id}",
+            "overrides_off_hand": overrides,
+        }
+        base_config.get("items", []).append(fill_config_item_gaps(new_item_config))
+
 
 def new_armor_set_config(mod_id, material_prefix, armor_list, armor_toughness, knockback_resistance, hp_bonus=[0,0,0,0], speed_bonus = [0,0,0,0]):
     armor_map = {
@@ -263,6 +270,12 @@ def new_bow(mod_id, item_id, damage, durability):
     new_bow_config(mod_id, item_id, damage, full_id=True)
     new_kjs_config_durability(mod_id, item_id, durability)
 
+def new_offhand(mod_id, item_id, attributes):
+    attr_config = {}
+    for attr, modification in attributes.items():
+        attr_config[attr] = modification
+    new_item_config(mod_id,f"{item_id}",'offhand',attr_config)
+
 def new_tools(mod_id, material, durability, sword_dmg, full_id = False, attack_speed = 0):
     new_kjs_config_durability_tools(mod_id, material, durability)
     new_sword_config(mod_id, material, sword_dmg, full_id, attack_speed)
@@ -375,6 +388,10 @@ new_bow('zoomer_bows', 'garnite_bow', 366, 5500)
 new_bow('zoomer_bows', 'phantom_bow', 392, 6000)
 new_bow('zoomer_bows', 'unorithe_bow', 476, 6500)
 new_bow('zoomer_bows', 'incorythe_bow', 531, 7000)
+
+new_offhand('zoomers_magic', "pyromancer_offhand", {
+    "irons_spellbooks:fire_spell_power": (0.5,'MULTIPLY_BASE'),
+})
 
 
 # Saving

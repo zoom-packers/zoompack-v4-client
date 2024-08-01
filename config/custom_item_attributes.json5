@@ -3359,6 +3359,22 @@
             "overrides_legs": [],
             "overrides_feet": [],
             "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:pyromancer_offhand",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "value": 0.5,
+                    "operation": "MULTIPLY_BASE"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
         }
     ]
 }

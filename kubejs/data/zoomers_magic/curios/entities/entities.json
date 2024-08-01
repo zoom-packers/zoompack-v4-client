@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "entities": [
+	"minecraft:player",
+	"minecraft:armor_stand"
+  ],
+  "slots": [
+    "mage_augment",
+    "shield"
+  ]
+}
