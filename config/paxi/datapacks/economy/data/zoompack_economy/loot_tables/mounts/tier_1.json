@@ -1,0 +1,100 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:horse_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:1,Amplifier:255,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:30.0000f},{Name:\"generic.movement_speed\",Base:0.3375f},{Name:\"horse.jump_strength\",Base:1.0000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:0f}]}}"
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:donkey_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:donkey\",Tame:1b,ActiveEffects:[{Id:6,Duration:1,Amplifier:255,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:30.0000f},{Name:\"generic.movement_speed\",Base:0.2250f},{Name:\"horse.jump_strength\",Base:0.7000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:0f}]}}"
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:mule_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:mule\",Tame:1b,ActiveEffects:[{Id:6,Duration:1,Amplifier:255,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:30.0000f},{Name:\"generic.movement_speed\",Base:0.2250f},{Name:\"horse.jump_strength\",Base:0.7000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:0f}]}}"
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:llama_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:llama\",Tame:1b,ActiveEffects:[{Id:6,Duration:1,Amplifier:255,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:15.0000f},{Name:\"generic.movement_speed\",Base:0.2200f},{Name:\"horse.jump_strength\",Base:0.3500f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:0f}]}}"
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:pig_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:pig\",Tame:1b,ActiveEffects:[{Id:6,Duration:1,Amplifier:255,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:10.0000f},{Name:\"generic.movement_speed\",Base:0.2500f},{Name:\"horse.jump_strength\",Base:0.5000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:0f}]}}"
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:strider_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:strider\",Tame:1b,ActiveEffects:[{Id:6,Duration:1,Amplifier:255,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:20.0000f},{Name:\"generic.movement_speed\",Base:0.4000f},{Name:\"horse.jump_strength\",Base:0.0000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:0f}]}}"
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:camel_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:camel\",Tame:1b,ActiveEffects:[{Id:6,Duration:1,Amplifier:255,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:32.0000f},{Name:\"generic.movement_speed\",Base:0.0900f},{Name:\"horse.jump_strength\",Base:0.5000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:0f}]}}"
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_horse_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:skeleton_horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:1,Amplifier:255,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:30.0000f},{Name:\"generic.movement_speed\",Base:0.3375f},{Name:\"horse.jump_strength\",Base:1.0000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:0f}]}}"
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:zombie_horse_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:zombie_horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:1,Amplifier:255,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:30.0000f},{Name:\"generic.movement_speed\",Base:0.3375f},{Name:\"horse.jump_strength\",Base:1.0000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:0f}]}}"
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:ravager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:ravager\",Tame:1b,ActiveEffects:[{Id:6,Duration:1,Amplifier:255,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:100.0000f},{Name:\"generic.movement_speed\",Base:0.3000f},{Name:\"horse.jump_strength\",Base:0.0000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:0f}]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

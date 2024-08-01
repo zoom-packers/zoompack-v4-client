@@ -1,6 +1,11 @@
 import json
 import copy
 
+import os
+
+def create_folder(path):
+    os.makedirs(path, exist_ok=True)
+
 base_villager_trade_data = {
   "removeOtherTrades": True,
   "trades": []
@@ -25,7 +30,7 @@ custom_villagers_trades_data = {
   'animalist' : animalist_config
 }
 
-def new_custom_villager_trade(villager, request, offer, trade_xp, max_uses, trade_lvl,price_multiplier = 0, demand=0, additional_request = None, potion_offer_effects = None, potion_text = "", potion_color = 16004148, loot_table = None, item_title=None, item_lore=None, rarity=-1, item_title_color=None, item_lore_color=None):
+def new_custom_villager_trade(villager, request, offer, trade_xp, max_uses, trade_lvl,price_multiplier = 0, demand=0, additional_request = None, potion_offer_effects = None, potion_color = 16004148, loot_table = None, item_title=None, item_lore=None, rarity=-1, item_title_color=None, item_lore_color=None, egg_mob=None, mob_hp_percentage_boost=1, mob_armor_boost=0, mob_damage_boost=0, mob_speed_pertange_boost=0):
     trade_data = {
       "request": {
         "itemKey": request[0],
@@ -49,6 +54,9 @@ def new_custom_villager_trade(villager, request, offer, trade_xp, max_uses, trad
     if loot_table:
         trade_data['offer']['advancedNBTData'] = '{LootTable:"' + loot_table + '"}'
     
+    if egg_mob:
+        trade_data['offer']['advancedNBTData'] = """{EntityTag:{id:\"""" + egg_mob + """\", Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:255,ShowParticles:0b}],Attributes:[],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:""" + str(mob_armor_boost) + """,Operation:0,UUID:[I;1,2,3,4]},{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:""" + str(mob_damage_boost) + """,Operation:0,UUID:[I;2,3,4,5]},{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:""" + str(mob_speed_pertange_boost/10) + """,Operation:2,UUID:[I;3,4,5,6]},{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:""" + str(mob_hp_percentage_boost/10) + """,Operation:2,UUID:[I;4,5,6,7]}]}}"""
+    
     if trade_data['offer'].get('advancedNBTData') and item_title and item_lore:
         lore_color = ""
         title_color = ""
@@ -70,8 +78,12 @@ def new_custom_villager_trade(villager, request, offer, trade_xp, max_uses, trad
     
     custom_villagers_trades_data[villager]['trades'].append(trade_data)
 
-def new_default_trade(villager, request, offer, trade_xp, trade_lvl, additional_request = None, potion_offer_effects = None, potion_color = 16004148, potion_text = "", loot_table = None, item_title=None, item_lore=None, rarity=-1, item_title_color=None, item_lore_color=None):
-    new_custom_villager_trade(villager, request,offer, trade_xp, 9999999, trade_lvl, additional_request=additional_request, potion_offer_effects=potion_offer_effects, potion_color=potion_color, potion_text=potion_text, loot_table=loot_table, item_title=item_title, item_lore=item_lore, rarity=rarity, item_title_color=item_title_color, item_lore_color=item_lore_color)
+def new_default_trade(villager, request, offer, trade_xp, trade_lvl, additional_request = None, potion_offer_effects = None, potion_color = 16004148, loot_table = None, item_title=None, item_lore=None, rarity=-1, item_title_color=None, item_lore_color=None):
+    new_custom_villager_trade(villager, request,offer, trade_xp, 9999999, trade_lvl, additional_request=additional_request, potion_offer_effects=potion_offer_effects, potion_color=potion_color, loot_table=loot_table, item_title=item_title, item_lore=item_lore, rarity=rarity, item_title_color=item_title_color, item_lore_color=item_lore_color)
+
+def new_animalist_trade(villager, request, offer, trade_xp, trade_lvl, additional_request = None, potion_offer_effects = None, potion_color = 16004148, loot_table = None, item_title=None, item_lore=None, rarity=-1, item_title_color=None, item_lore_color=None, egg_mob=None, mob_hp_percentage_boost=1, mob_armor_boost=0, mob_damage_boost=0, mob_speed_pertange_boost=0):
+    new_custom_villager_trade(villager, request,offer, trade_xp, 9999999, trade_lvl, additional_request=additional_request, potion_offer_effects=potion_offer_effects, potion_color=potion_color, loot_table=loot_table, item_title=item_title, item_lore=item_lore, rarity=rarity, item_title_color=item_title_color, item_lore_color=item_lore_color, egg_mob=egg_mob, mob_hp_percentage_boost=mob_hp_percentage_boost, mob_armor_boost=mob_armor_boost, mob_damage_boost=mob_damage_boost, mob_speed_pertange_boost=mob_speed_pertange_boost)
+
 
 def get_trade_effects(effect_key, duration, level, visivble=False):
     return [{
@@ -96,16 +108,12 @@ ideas for trades:
 #buy
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 5), ('minecraft:ender_pearl', 1), 1, 1)
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 10), ('trials:trial_key', 1), 1, 1)
-
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 30), ('minecraft:emerald', 1), 1, 1)
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 30), ('blue_skies:blinding_key', 1), 2, 2)
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 30), ('trials:trial_key_ominous', 1), 1, 1)
-
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 48), ('minecraft:iron_ingot', 1), 1, 1)
-
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 60), ('blue_skies:nature_key', 1), 2, 2)
 new_default_trade('banker', ('dotcoinmod:silver_coin', 1), ('blue_skies:poison_key', 1), 2, 2, additional_request=('dotcoinmod:bronze_coin', 26))
-
 new_default_trade('banker', ('dotcoinmod:silver_coin', 1), ('trials:ominous_bottle', 1), 1, 1)
 new_default_trade('banker', ('dotcoinmod:silver_coin', 2), ('minecraft:diamond', 1), 1, 1)
 #sell
@@ -114,6 +122,7 @@ new_default_trade('banker', ('dotcoinmod:silver_coin', 2), ('aether:victory_meda
 new_default_trade('banker', ('minecraft:heart_of_the_sea', 1), ('dotcoinmod:bronze_coin', 20), 1, 1)
 new_default_trade('banker', ('apotheosis:gem', 1), ('dotcoinmod:bronze_coin', 20), 1, 1)
 new_default_trade('banker', ('irons_spellbooks:scroll', 1), ('dotcoinmod:bronze_coin', 20), 1, 1)
+
 
 #Dimensional Lootbags 
 new_default_trade('banker', ('dotcoinmod:gold_coin', 1), ('blue_skies:loot_bag_summoner', 1), 1, 1, 
@@ -151,7 +160,7 @@ new_default_trade('banker', ('dotcoinmod:gold_coin', 64), ('blue_skies:loot_bag_
                   item_title = "Abyss Lootbag", item_lore="Right-Click to open the lootbag", rarity=2, 
                   item_title_color="aqua", item_lore_color="purple")
 
-# Banker Potions
+# Banker Potions >> pricing needed
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 32), ('minecraft:potion', 1), 1, 1, additional_request=None, 
                   potion_offer_effects=get_trade_effects('minecraft:instant_health', '0', 0), potion_color=15395118, 
                   item_title = "Bronze Vial of Vitality", item_lore="Drink this to replanish instantly 2 HP", 
@@ -223,15 +232,181 @@ new_default_trade('gemist', ('dotcoinmod:gold_coin', 1), ('blue_skies:loot_bag_s
 new_default_trade('gemist', ('dotcoinmod:gold_coin', 1), ('blue_skies:loot_bag_arachnarch', 1), 5, 5, loot_table="zoompack_economy:gems/tier_9", item_title = "Obscen Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=2, item_title_color="yellow", item_lore_color="purple")
 save_villager_config('gemist')
 
-
-
-
-
-
-
-
+# Animalist
+new_animalist_trade('animalist', ('dotcoinmod:bronze_coin', 5), ('minecraft:creeper_spawn_egg', 1), 1, 1, 
+                    egg_mob='mythicmounts:acencia',
+                    mob_hp_percentage_boost=10,
+                    mob_speed_pertange_boost=5,
+                    mob_armor_boost=5,
+                    mob_damage_boost=5)
 new_default_trade('animalist', ('dotcoinmod:bronze_coin', 5), ('minecraft:ender_pearl', 1), 1, 1)
 save_villager_config('animalist')
+
+
+
+# Loot Table Generation for mounts
+loot_table_location = 'config/paxi/datapacks/economy/data/zoompack_economy/loot_tables'
+mounts_folder_location = f'{loot_table_location}/mounts'
+create_folder(mounts_folder_location)
+
+mobs = {
+    'minecraft:horse': {
+        'hp': 30.0,
+        'speed': 0.3375,
+        'jump': 1.0,
+        'armor': 0,
+        'dmg': 0,
+        'egg_id': 'minecraft:horse_spawn_egg'
+    },
+    'minecraft:donkey': {
+        'hp': 30.0,
+        'speed': 0.225,
+        'jump': 0.7,
+        'armor': 0,
+        'dmg': 0,
+        'egg_id': 'minecraft:donkey_spawn_egg'
+    },
+    'minecraft:mule': {
+        'hp': 30.0,
+        'speed': 0.225,
+        'jump': 0.7,
+        'armor': 0,
+        'dmg': 0,
+        'egg_id': 'minecraft:mule_spawn_egg'
+    },
+    'minecraft:llama': {
+        'hp': 15.0,
+        'speed': 0.22,
+        'jump': 0.35,
+        'armor': 0,
+        'dmg': 0,
+        'egg_id': 'minecraft:llama_spawn_egg'
+    },
+    'minecraft:pig': {
+        'hp': 10.0,
+        'speed': 0.25,
+        'jump': 0.5,
+        'armor': 0,
+        'dmg': 0,
+        'egg_id': 'minecraft:pig_spawn_egg'
+    },
+    'minecraft:strider': {
+        'hp': 20.0,
+        'speed': 0.4,
+        'jump': 0,
+        'armor': 0,
+        'dmg': 0,
+        'egg_id': 'minecraft:strider_spawn_egg'
+    },
+    'minecraft:camel': {
+        'hp': 32.0,
+        'speed': 0.09,
+        'jump': 0.5,
+        'armor': 0,
+        'dmg': 0,
+        'egg_id': 'minecraft:camel_spawn_egg'
+    },
+    'minecraft:skeleton_horse': {
+        'hp': 30.0,
+        'speed': 0.3375,
+        'jump': 1.0,
+        'armor': 0,
+        'dmg': 0,
+        'egg_id': 'minecraft:skeleton_horse_spawn_egg'
+    },
+    'minecraft:zombie_horse': {
+        'hp': 30.0,
+        'speed': 0.3375,
+        'jump': 1.0,
+        'armor': 0,
+        'dmg': 0,
+        'egg_id': 'minecraft:zombie_horse_spawn_egg'
+    },
+    'minecraft:ravager': {
+        'hp': 100.0,
+        'speed': 0.3,
+        'jump': 0,
+        'armor': 0,
+        'dmg': 0,
+        'egg_id': 'minecraft:ravager_spawn_egg'
+    }
+}
+
+level_modifiers = {
+    '1' : {
+        'hp' : 0,
+        'speed' : 0,
+        "jump": 0,
+        'armor' : 0,
+        'dmg' : 0
+    },
+    '2' : {
+        'hp' : 10,
+        'speed' : 5,
+        'jump' : 5,
+        'armor' : 5,
+        'dmg' : 5,
+    }
+}
+
+for level_modifier, level_modifier_data in level_modifiers.items():
+    BASE_LOOT_TABLE = """{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        ENTRIES_LIST_REPLACE
+      ]
+    }
+  ]
+}"""
+    ENTRIES = []
+
+    for mob_id, mob_data in mobs.items():
+        mob_data = mobs[mob_id]
+        ENTRY_BASE = """{
+          "type": "minecraft:item",
+          "name": \"""" + mob_data.get('egg_id') +"""\",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:MOB_ID_REPLACE,Tame:1b,ActiveEffects:[{Id:6,Duration:1,Amplifier:255,ShowParticles:0b}],Attributes:[ATTRIBUTES_LIST_REPLACE]}}"
+            }
+          ]
+        }"""
+
+        mob_attributes_list_to_be_written = []
+
+        for mob_attr, mob_attr_value in mob_data.items():
+            if mob_attr == 'hp':
+                new_mob_attr_value = mob_attr_value*(1+level_modifier_data.get('hp')/100)
+                new_attribute_to_be_written = """{Name:\"generic.max_health\",Base:""".replace(':"',':\\"').replace('",','\\",') + str("{:.4f}".format(new_mob_attr_value)) + 'f}'
+                mob_attributes_list_to_be_written.append(new_attribute_to_be_written)
+            if mob_attr == 'speed':
+                new_mob_attr_value = mob_attr_value*(1+level_modifier_data.get('speed')/100)
+                new_attribute_to_be_written = """{Name:\"generic.movement_speed\",Base:""".replace(':"',':\\"').replace('",','\\",') + str("{:.4f}".format(new_mob_attr_value)) + 'f}'
+                mob_attributes_list_to_be_written.append(new_attribute_to_be_written)
+            if mob_attr == 'jump':
+                new_mob_attr_value = mob_attr_value*(1+level_modifier_data.get('jump')/100)
+                new_attribute_to_be_written = """{Name:\"horse.jump_strength\",Base:""".replace(':"',':\\"').replace('",','\\",') + str("{:.4f}".format(new_mob_attr_value)) + 'f}'
+                mob_attributes_list_to_be_written.append(new_attribute_to_be_written)
+            if mob_attr == 'dmg':
+                new_mob_attr_value = mob_attr_value + level_modifier_data.get('dmg')
+                new_attribute_to_be_written = """{Name:\"generic.attack_damage\",Base:""".replace(':"',':\\"').replace('",','\\",') + str(new_mob_attr_value) + 'f}'
+                mob_attributes_list_to_be_written.append(new_attribute_to_be_written)
+            if mob_attr == 'armor':
+                new_mob_attr_value = mob_attr_value + level_modifier_data.get('armor')
+                new_attribute_to_be_written = """{Name:\"generic.armor\",Base:""".replace(':"',':\\"').replace('",','\\",') + str(new_mob_attr_value) + 'f}'
+                mob_attributes_list_to_be_written.append(new_attribute_to_be_written)
+
+        ENTRY_BASE = ENTRY_BASE.replace('MOB_ID_REPLACE', f'\\"{mob_id}\\"').replace('ATTRIBUTES_LIST_REPLACE', ','.join(mob_attributes_list_to_be_written))
+        ENTRIES.append(ENTRY_BASE)
+ 
+    with open(f'{loot_table_location}/mounts/tier_{level_modifier}.json', 'w+') as fp:
+        fp.write(BASE_LOOT_TABLE.replace('ENTRIES_LIST_REPLACE', ','.join(ENTRIES)))
+
+
+
 
 # write trades to json file
 # with open('config\custom trades\\banker.json', 'w+') as f:
