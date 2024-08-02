@@ -1,6 +1,6 @@
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "pyromancer_tier_2", 45, [4, 9, 7, 4], 2, 0, "minecraft:diamond");
+    global.createArmorTier(event, "pyromancer_tier_2", 45, [4, 7, 9, 4], 10, 2, 0, "minecraft:diamond");
 });
 
 StartupEvents.registry("item", e => {
@@ -9,7 +9,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "cryomancer_tier_2", 45, [4, 9, 7, 4], 2, 0, "minecraft:diamond");
+    global.createArmorTier(event, "cryomancer_tier_2", 45, [4, 7, 9, 4], 10, 2, 0, "minecraft:diamond");
 });
 
 StartupEvents.registry("item", e => {
@@ -18,7 +18,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "electromancer_tier_2", 45, [4, 9, 7, 4], 2, 0, "minecraft:diamond");
+    global.createArmorTier(event, "electromancer_tier_2", 45, [4, 7, 9, 4], 10, 2, 0, "minecraft:diamond");
 });
 
 StartupEvents.registry("item", e => {
@@ -27,7 +27,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "archevoker_tier_2", 45, [4, 9, 7, 4], 2, 0, "minecraft:diamond");
+    global.createArmorTier(event, "archevoker_tier_2", 45, [4, 7, 9, 4], 10, 2, 0, "minecraft:diamond");
 });
 
 StartupEvents.registry("item", e => {
@@ -36,7 +36,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "cultist_tier_2", 45, [4, 9, 7, 4], 2, 0, "minecraft:diamond");
+    global.createArmorTier(event, "cultist_tier_2", 45, [4, 7, 9, 4], 10, 2, 0, "minecraft:diamond");
 });
 
 StartupEvents.registry("item", e => {
@@ -45,7 +45,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "shadowwalker_tier_2", 45, [4, 9, 7, 4], 2, 0, "minecraft:diamond");
+    global.createArmorTier(event, "shadowwalker_tier_2", 45, [4, 7, 9, 4], 10, 2, 0, "minecraft:diamond");
 });
 
 StartupEvents.registry("item", e => {
@@ -54,7 +54,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "priest_tier_2", 45, [4, 9, 7, 4], 2, 0, "minecraft:diamond");
+    global.createArmorTier(event, "priest_tier_2", 45, [4, 7, 9, 4], 10, 2, 0, "minecraft:diamond");
 });
 
 StartupEvents.registry("item", e => {
@@ -63,7 +63,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "plagued_tier_2", 45, [4, 9, 7, 4], 2, 0, "minecraft:diamond");
+    global.createArmorTier(event, "plagued_tier_2", 45, [4, 7, 9, 4], 10, 2, 0, "minecraft:diamond");
 });
 
 StartupEvents.registry("item", e => {
@@ -72,7 +72,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "pyromancer_tier_3", 79, [6, 11, 9, 6], 4, 0, "minecraft:emerald");
+    global.createArmorTier(event, "pyromancer_tier_3", 79, [6, 9, 11, 6], 10, 4, 0, "minecraft:emerald");
 });
 
 StartupEvents.registry("item", e => {
@@ -81,7 +81,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "cryomancer_tier_3", 79, [6, 11, 9, 6], 4, 0, "minecraft:emerald");
+    global.createArmorTier(event, "cryomancer_tier_3", 79, [6, 9, 11, 6], 10, 4, 0, "minecraft:emerald");
 });
 
 StartupEvents.registry("item", e => {
@@ -90,7 +90,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "electromancer_tier_3", 79, [6, 11, 9, 6], 4, 0, "minecraft:emerald");
+    global.createArmorTier(event, "electromancer_tier_3", 79, [6, 9, 11, 6], 10, 4, 0, "minecraft:emerald");
 });
 
 StartupEvents.registry("item", e => {
@@ -99,7 +99,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "archevoker_tier_3", 79, [6, 11, 9, 6], 4, 0, "minecraft:emerald");
+    global.createArmorTier(event, "archevoker_tier_3", 79, [6, 9, 11, 6], 10, 4, 0, "minecraft:emerald");
 });
 
 StartupEvents.registry("item", e => {
@@ -108,7 +108,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "cultist_tier_3", 79, [6, 11, 9, 6], 4, 0, "minecraft:emerald");
+    global.createArmorTier(event, "cultist_tier_3", 79, [6, 9, 11, 6], 10, 4, 0, "minecraft:emerald");
 });
 
 StartupEvents.registry("item", e => {
@@ -117,7 +117,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "shadowwalker_tier_3", 79, [6, 11, 9, 6], 4, 0, "minecraft:emerald");
+    global.createArmorTier(event, "shadowwalker_tier_3", 79, [6, 9, 11, 6], 10, 4, 0, "minecraft:emerald");
 });
 
 StartupEvents.registry("item", e => {
@@ -126,7 +126,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "priest_tier_3", 79, [6, 11, 9, 6], 4, 0, "minecraft:emerald");
+    global.createArmorTier(event, "priest_tier_3", 79, [6, 9, 11, 6], 10, 4, 0, "minecraft:emerald");
 });
 
 StartupEvents.registry("item", e => {
@@ -135,7 +135,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "plagued_tier_3", 79, [6, 11, 9, 6], 4, 0, "minecraft:emerald");
+    global.createArmorTier(event, "plagued_tier_3", 79, [6, 9, 11, 6], 10, 4, 0, "minecraft:emerald");
 });
 
 StartupEvents.registry("item", e => {
@@ -144,7 +144,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "pyromancer_tier_4", 105, [9, 18, 15, 12], 7, 0, "minecraft:netherite_ingot");
+    global.createArmorTier(event, "pyromancer_tier_4", 105, [9, 15, 18, 12], 10, 7, 0, "minecraft:netherite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -153,7 +153,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "cryomancer_tier_4", 105, [9, 18, 15, 12], 7, 0, "minecraft:netherite_ingot");
+    global.createArmorTier(event, "cryomancer_tier_4", 105, [9, 15, 18, 12], 10, 7, 0, "minecraft:netherite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -162,7 +162,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "electromancer_tier_4", 105, [9, 18, 15, 12], 7, 0, "minecraft:netherite_ingot");
+    global.createArmorTier(event, "electromancer_tier_4", 105, [9, 15, 18, 12], 10, 7, 0, "minecraft:netherite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -171,7 +171,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "archevoker_tier_4", 105, [9, 18, 15, 12], 7, 0, "minecraft:netherite_ingot");
+    global.createArmorTier(event, "archevoker_tier_4", 105, [9, 15, 18, 12], 10, 7, 0, "minecraft:netherite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -180,7 +180,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "cultist_tier_4", 105, [9, 18, 15, 12], 7, 0, "minecraft:netherite_ingot");
+    global.createArmorTier(event, "cultist_tier_4", 105, [9, 15, 18, 12], 10, 7, 0, "minecraft:netherite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -189,7 +189,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "shadowwalker_tier_4", 105, [9, 18, 15, 12], 7, 0, "minecraft:netherite_ingot");
+    global.createArmorTier(event, "shadowwalker_tier_4", 105, [9, 15, 18, 12], 10, 7, 0, "minecraft:netherite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -198,7 +198,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "priest_tier_4", 105, [9, 18, 15, 12], 7, 0, "minecraft:netherite_ingot");
+    global.createArmorTier(event, "priest_tier_4", 105, [9, 15, 18, 12], 10, 7, 0, "minecraft:netherite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -207,7 +207,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "plagued_tier_4", 105, [9, 18, 15, 12], 7, 0, "minecraft:netherite_ingot");
+    global.createArmorTier(event, "plagued_tier_4", 105, [9, 15, 18, 12], 10, 7, 0, "minecraft:netherite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -216,7 +216,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "pyromancer_tier_5", 158, [14, 22, 17, 14], 9, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "pyromancer_tier_5", 158, [14, 17, 22, 14], 10, 9, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -225,7 +225,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "cryomancer_tier_5", 158, [14, 22, 17, 14], 9, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "cryomancer_tier_5", 158, [14, 17, 22, 14], 10, 9, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -234,7 +234,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "electromancer_tier_5", 158, [14, 22, 17, 14], 9, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "electromancer_tier_5", 158, [14, 17, 22, 14], 10, 9, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -243,7 +243,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "archevoker_tier_5", 158, [14, 22, 17, 14], 9, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "archevoker_tier_5", 158, [14, 17, 22, 14], 10, 9, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -252,7 +252,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "cultist_tier_5", 158, [14, 22, 17, 14], 9, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "cultist_tier_5", 158, [14, 17, 22, 14], 10, 9, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -261,7 +261,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "shadowwalker_tier_5", 158, [14, 22, 17, 14], 9, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "shadowwalker_tier_5", 158, [14, 17, 22, 14], 10, 9, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -270,7 +270,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "priest_tier_5", 158, [14, 22, 17, 14], 9, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "priest_tier_5", 158, [14, 17, 22, 14], 10, 9, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -279,7 +279,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "plagued_tier_5", 158, [14, 22, 17, 14], 9, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "plagued_tier_5", 158, [14, 17, 22, 14], 10, 9, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -288,7 +288,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "pyromancer_tier_6", 238, [35, 55, 47, 35], 11, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "pyromancer_tier_6", 238, [35, 47, 55, 35], 10, 11, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -297,7 +297,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "cryomancer_tier_6", 238, [35, 55, 47, 35], 11, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "cryomancer_tier_6", 238, [35, 47, 55, 35], 10, 11, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -306,7 +306,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "electromancer_tier_6", 238, [35, 55, 47, 35], 11, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "electromancer_tier_6", 238, [35, 47, 55, 35], 10, 11, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -315,7 +315,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "archevoker_tier_6", 238, [35, 55, 47, 35], 11, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "archevoker_tier_6", 238, [35, 47, 55, 35], 10, 11, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -324,7 +324,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "cultist_tier_6", 238, [35, 55, 47, 35], 11, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "cultist_tier_6", 238, [35, 47, 55, 35], 10, 11, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -333,7 +333,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "shadowwalker_tier_6", 238, [35, 55, 47, 35], 11, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "shadowwalker_tier_6", 238, [35, 47, 55, 35], 10, 11, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -342,7 +342,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "priest_tier_6", 238, [35, 55, 47, 35], 11, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "priest_tier_6", 238, [35, 47, 55, 35], 10, 11, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -351,7 +351,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "plagued_tier_6", 238, [35, 55, 47, 35], 11, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "plagued_tier_6", 238, [35, 47, 55, 35], 10, 11, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -360,7 +360,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "pyromancer_tier_7", 272, [54, 79, 67, 54], 13, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "pyromancer_tier_7", 272, [54, 68, 79, 54], 10, 13, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -369,7 +369,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "cryomancer_tier_7", 272, [54, 79, 67, 54], 13, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "cryomancer_tier_7", 272, [54, 68, 79, 54], 10, 13, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -378,7 +378,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "electromancer_tier_7", 272, [54, 79, 67, 54], 13, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "electromancer_tier_7", 272, [54, 68, 79, 54], 10, 13, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -387,7 +387,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "archevoker_tier_7", 272, [54, 79, 67, 54], 13, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "archevoker_tier_7", 272, [54, 68, 79, 54], 10, 13, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -396,7 +396,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "cultist_tier_7", 272, [54, 79, 67, 54], 13, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "cultist_tier_7", 272, [54, 68, 79, 54], 10, 13, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -405,7 +405,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "shadowwalker_tier_7", 272, [54, 79, 67, 54], 13, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "shadowwalker_tier_7", 272, [54, 68, 79, 54], 10, 13, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -414,7 +414,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "priest_tier_7", 272, [54, 79, 67, 54], 13, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "priest_tier_7", 272, [54, 68, 79, 54], 10, 13, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -423,7 +423,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "plagued_tier_7", 272, [54, 79, 67, 54], 13, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "plagued_tier_7", 272, [54, 68, 79, 54], 10, 13, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -432,7 +432,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "pyromancer_tier_8", 389, [95, 126, 105, 94], 14, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "pyromancer_tier_8", 389, [95, 105, 126, 94], 10, 14, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -441,7 +441,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "cryomancer_tier_8", 389, [95, 126, 105, 94], 14, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "cryomancer_tier_8", 389, [95, 105, 126, 94], 10, 14, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -450,7 +450,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "electromancer_tier_8", 389, [95, 126, 105, 94], 14, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "electromancer_tier_8", 389, [95, 105, 126, 94], 10, 14, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -459,7 +459,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "archevoker_tier_8", 389, [95, 126, 105, 94], 14, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "archevoker_tier_8", 389, [95, 105, 126, 94], 10, 14, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -468,7 +468,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "cultist_tier_8", 389, [95, 126, 105, 94], 14, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "cultist_tier_8", 389, [95, 105, 126, 94], 10, 14, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -477,7 +477,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "shadowwalker_tier_8", 389, [95, 126, 105, 94], 14, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "shadowwalker_tier_8", 389, [95, 105, 126, 94], 10, 14, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -486,7 +486,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "priest_tier_8", 389, [95, 126, 105, 94], 14, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "priest_tier_8", 389, [95, 105, 126, 94], 10, 14, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {
@@ -495,7 +495,7 @@ StartupEvents.registry("item", e => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "plagued_tier_8", 389, [95, 126, 105, 94], 14, 0, "kubejs:item/cincinnasite_ingot");
+    global.createArmorTier(event, "plagued_tier_8", 389, [95, 105, 126, 94], 10, 14, 0, "kubejs:item/cincinnasite_ingot");
 });
 
 StartupEvents.registry("item", e => {

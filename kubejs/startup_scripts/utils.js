@@ -195,6 +195,13 @@ global.createGeckoArmorTier = (event, modId, tier, textures, helmName, chestName
     return { helmet: helmet, chestplate: chestplate, leggings: leggings, boots: boots };
 }
 
+global.enhanceWithAttributes = (item, attributesJson) => {
+    const attributes = JSON.parse(attributesJson);
+    for (const attribute of attributes) {
+        item.modifyAttribute(attribute.attribute, attribute.uuid, attribute.amount, attribute.operation);
+    }
+}
+
 global.getMockTexturesObject = () => {
     return {
         sword: 'kubejs:item/example_item',
