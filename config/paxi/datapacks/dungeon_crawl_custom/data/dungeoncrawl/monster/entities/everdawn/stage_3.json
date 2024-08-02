@@ -1,0 +1,22 @@
+{
+    "common": [
+        {
+            "entity": "minecraft:spider",
+            "weight": 1
+        },
+        {
+            "entity": "minecraft:witch",
+            "weight": 3
+        }
+    ],
+    "rare": [
+        {
+            "entity": "blue_skies:venom_spider",
+            "weight": 2
+        },
+        {
+            "entity": "blue_skies:stonelet",
+            "weight": 1
+        }
+    ]
+}

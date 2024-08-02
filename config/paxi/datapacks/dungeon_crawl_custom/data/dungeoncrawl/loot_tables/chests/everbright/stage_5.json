@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "blue_skies:chests/blinding_dungeon/study_chest",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "blue_skies:chests/nature_dungeon/chest",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

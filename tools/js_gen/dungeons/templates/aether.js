@@ -33,7 +33,77 @@ const aether = {
         acc[biome] = 0
         return acc;
     }, {}),
-    chestLootTables: [[],[],[],[],[]],
+    chestLootTables: [
+        {
+            pools: [
+                {
+                    rolls: 1,
+                    entries: [
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_aether.l_chests_dungeon_bronze_bronze_dungeon,
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            pools: [
+                {
+                    rolls: 2,
+                    entries: [
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_aether.l_chests_dungeon_bronze_bronze_dungeon,
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            pools: [
+                {
+                    rolls: 2,
+                    entries: [
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_aether.l_chests_dungeon_silver_silver_dungeon,
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            pools: [
+                {
+                    rolls: 3,
+                    entries: [
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_aether.l_chests_dungeon_silver_silver_dungeon,
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            pools: [
+                {
+                    rolls: 2,
+                    entries: [
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_aether.l_chests_dungeon_gold_gold_dungeon_reward,
+                        },
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_aether.l_chests_dungeon_gold_gold_dungeon_treasure,
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
     treasureTables: [[],[],[],[],[]],
     monsterPopulations: [
         {

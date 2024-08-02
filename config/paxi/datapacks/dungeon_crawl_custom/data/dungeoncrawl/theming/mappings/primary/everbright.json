@@ -1,0 +1,148 @@
+{
+    "default": [
+        {
+            "key": "dungeoncrawl:everbright_0",
+            "weight": 1
+        }
+    ],
+    "mapping": {
+        "blue_skies:brightlands": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:brisk_meadow": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:brumble_forest": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:calming_skies": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:crescent_orchard": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:crescent_orchard_lake": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:crystal_dunes": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:crystal_dunes_spikes": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:crystal_roughs": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:deep_peeking_ocean": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:frostbitten_forest": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:frostbitten_forest_clearing": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:midday_shore": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:moonlit_reservoir": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:peeking_ocean": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:polar_highland": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:rising_creek": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:searing_grassland": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:shaded_woodlands": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:slushlands": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:snow_covered_pines": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:sunset_maple_forest": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ],
+        "blue_skies:unorthodox_valley": [
+            {
+                "key": "dungeoncrawl:everbright_0",
+                "weight": 1
+            }
+        ]
+    }
+}

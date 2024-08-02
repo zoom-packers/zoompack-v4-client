@@ -1,0 +1,30 @@
+{
+    "common": [
+        {
+            "entity": "aether:sentry",
+            "weight": 1
+        },
+        {
+            "entity": "aether:mimic",
+            "weight": 1
+        },
+        {
+            "entity": "aether:fire_minion",
+            "weight": 1
+        }
+    ],
+    "rare": [
+        {
+            "entity": "aether:sentry",
+            "weight": 1
+        },
+        {
+            "entity": "aether:mimic",
+            "weight": 1
+        },
+        {
+            "entity": "aether:fire_minion",
+            "weight": 1
+        }
+    ]
+}

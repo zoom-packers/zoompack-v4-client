@@ -1,0 +1,17 @@
+{
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "aether:chests/dungeon/gold/gold_dungeon_reward"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "aether:chests/dungeon/gold/gold_dungeon_treasure"
+                }
+            ]
+        }
+    ]
+}

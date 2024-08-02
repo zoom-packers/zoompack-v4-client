@@ -7,7 +7,7 @@ const minecraft = require('./templates/minecraft');
 const themeTemplate = fs.readFileSync('./templates/theme.json', 'utf8');
 const defaultDungeonConfig = require('./templates/default_dungeon.json');
 
-const rootPath = '../../../config/paxi/datapacks/dungeon_crawl_custom_test/data/dungeoncrawl';
+const rootPath = '../../../config/paxi/datapacks/dungeon_crawl_custom/data/dungeoncrawl';
 const dimensionsFilePath = `${rootPath}/dimensions.json`;
 const hasStructureFilePath = `${rootPath}/tags/worldgen/biome/has_structure/dungeon.json`;
 const dungeonBiomeMappingsFilePath = `${rootPath}/dungeon/biome_mappings/default.json`;

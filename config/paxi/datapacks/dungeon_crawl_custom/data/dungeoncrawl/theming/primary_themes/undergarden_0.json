@@ -1,0 +1,149 @@
+{
+  "theme": {
+    "generic": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "undergarden:shiverstone"
+        },
+        {
+          "block": "undergarden:shiverstone_bricks",
+          "weight": 10
+        },
+        {
+          "block": "undergarden:cracked_shiverstone_bricks",
+          "weight": 10
+        },
+        {
+          "block": "undergarden:cracked_tremblecrust_bricks"
+        }
+      ]
+    },
+    "solid": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "undergarden:shiverstone_bricks",
+          "weight": 10
+        },
+        {
+          "block": "undergarden:cracked_tremblecrust_bricks"
+        },
+        {
+          "block": "undergarden:cracked_shiverstone_bricks",
+          "weight": 8
+        }
+      ]
+    },
+    "pillar": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "undergarden:shiverstone_bricks",
+          "weight": 10
+        },
+        {
+          "block": "undergarden:cracked_tremblecrust_bricks"
+        },
+        {
+          "block": "undergarden:cracked_shiverstone_bricks",
+          "weight": 8
+        }
+      ]
+    },
+    "floor": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "undergarden:shiverstone_bricks",
+          "weight": 3
+        },
+        {
+          "block": "undergarden:cracked_shiverstone_bricks",
+          "weight": 2
+        }
+      ]
+    },
+    "stairs": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "undergarden:shiverstone_stairs",
+          "weight": 4
+        },
+        {
+          "block": "undergarden:shiverstone_brick_stairs",
+          "weight": 4
+        }
+      ]
+    },
+    "solid_stairs": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "undergarden:shiverstone_brick_stairs",
+          "weight": 3
+        },
+        {
+          "block": "undergarden:shiverstone_stairs"
+        }
+      ]
+    },
+    "material": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "undergarden:cracked_shiverstone_bricks"
+        },
+        {
+          "block": "undergarden:shiverstone_bricks",
+          "weight": 3
+        }
+      ]
+    },
+    "slab": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "undergarden:shiverstone_slab"
+        },
+        {
+          "block": "undergarden:shiverstone_brick_slab",
+          "weight": 3
+        }
+      ]
+    },
+    "solid_slab": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "undergarden:shiverstone_slab"
+        },
+        {
+          "block": "undergarden:shiverstone_brick_slab",
+          "weight": 3
+        }
+      ]
+    },
+    "wall": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "undergarden:shiverstone_wall"
+        },
+        {
+          "block": "undergarden:shiverstone_brick_wall",
+          "weight": 3
+        }
+      ]
+    },
+    "fencing": {
+      "type": "block",
+      "block": "undergarden:cloggrum_bars"
+    },
+    "fluid": {
+      "type": "block",
+      "block": "minecraft:water"
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+    "default": [
+        {
+            "key": "dungeoncrawl:the_end_0",
+            "weight": 1
+        }
+    ],
+    "mapping": {
+        "betterend:amber_land": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:blossoming_spires": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:chorus_forest": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:crystal_mountains": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:dragon_graveyards": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:dry_shrubland": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:dust_wastelands": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:empty_aurora_cave": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:empty_end_cave": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:empty_smaragdant_cave": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:foggy_mushroomland": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:glowing_grasslands": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:ice_starfield": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:jade_cave": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:lantern_woods": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:lush_aurora_cave": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:lush_smaragdant_cave": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:megalake": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:megalake_grove": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:neon_oasis": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:painted_mountains": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:shadow_forest": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:sulphur_springs": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:umbra_valley": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ],
+        "betterend:umbrella_jungle": [
+            {
+                "key": "dungeoncrawl:the_end_0",
+                "weight": 1
+            }
+        ]
+    }
+}

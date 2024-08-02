@@ -1,0 +1,149 @@
+{
+  "theme": {
+    "generic": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "minecraft:end_stone"
+        },
+        {
+          "block": "minecraft:end_stone_bricks",
+          "weight": 10
+        },
+        {
+          "block": "minecraft:end_stone_bricks",
+          "weight": 10
+        },
+        {
+          "block": "minecraft:end_stone_bricks"
+        }
+      ]
+    },
+    "solid": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "minecraft:end_stone_bricks",
+          "weight": 10
+        },
+        {
+          "block": "minecraft:end_stone_bricks"
+        },
+        {
+          "block": "minecraft:end_stone_bricks",
+          "weight": 8
+        }
+      ]
+    },
+    "pillar": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "minecraft:end_stone_bricks",
+          "weight": 10
+        },
+        {
+          "block": "minecraft:end_stone_bricks"
+        },
+        {
+          "block": "minecraft:end_stone_bricks",
+          "weight": 8
+        }
+      ]
+    },
+    "floor": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "minecraft:end_stone_bricks",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:end_stone_bricks",
+          "weight": 2
+        }
+      ]
+    },
+    "stairs": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "minecraft:end_stone_stairs",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:end_stone_brick_stairs",
+          "weight": 4
+        }
+      ]
+    },
+    "solid_stairs": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "minecraft:end_stone_brick_stairs",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:end_stone_stairs"
+        }
+      ]
+    },
+    "material": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "minecraft:end_stone_bricks"
+        },
+        {
+          "block": "minecraft:end_stone_bricks",
+          "weight": 3
+        }
+      ]
+    },
+    "slab": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "minecraft:end_stone_slab"
+        },
+        {
+          "block": "minecraft:end_stone_brick_slab",
+          "weight": 3
+        }
+      ]
+    },
+    "solid_slab": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "minecraft:end_stone_slab"
+        },
+        {
+          "block": "minecraft:end_stone_brick_slab",
+          "weight": 3
+        }
+      ]
+    },
+    "wall": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "minecraft:end_stone_wall"
+        },
+        {
+          "block": "minecraft:end_stone_brick_wall",
+          "weight": 3
+        }
+      ]
+    },
+    "fencing": {
+      "type": "block",
+      "block": "betterend:terminite_bars"
+    },
+    "fluid": {
+      "type": "block",
+      "block": "outer_end:brine"
+    }
+  }
+}

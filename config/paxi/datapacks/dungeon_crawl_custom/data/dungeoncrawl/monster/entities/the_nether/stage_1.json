@@ -1,0 +1,14 @@
+{
+    "common": [
+        {
+            "entity": "minecraft:piglin",
+            "weight": 1
+        }
+    ],
+    "rare": [
+        {
+            "entity": "minecraft:hoglin",
+            "weight": 1
+        }
+    ]
+}

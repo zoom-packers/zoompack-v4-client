@@ -1,0 +1,26 @@
+{
+    "common": [
+        {
+            "entity": "outer_end:sinker",
+            "weight": 1
+        },
+        {
+            "entity": "betterend:shadow_walker",
+            "weight": 1
+        },
+        {
+            "entity": "minecraft:enderman",
+            "weight": 1
+        },
+        {
+            "entity": "minecraft:enderman",
+            "weight": 1
+        }
+    ],
+    "rare": [
+        {
+            "entity": "outer_end:entombed",
+            "weight": 1
+        }
+    ]
+}

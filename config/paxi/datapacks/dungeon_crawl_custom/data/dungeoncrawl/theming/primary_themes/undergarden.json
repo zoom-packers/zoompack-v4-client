@@ -1,0 +1,152 @@
+{
+  "requirements": {
+    "present": ["undergarden"]
+  },
+  "theme": {
+    "generic": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "undergarden:depthrock"
+        },
+        {
+          "block": "undergarden:depthrock_bricks",
+          "weight": 10
+        },
+        {
+          "block": "undergarden:cracked_depthrock_bricks",
+          "weight": 10
+        },
+        {
+          "block": "undergarden:chiseled_depthrock_bricks"
+        }
+      ]
+    },
+    "solid": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "undergarden:depthrock_bricks",
+          "weight": 10
+        },
+        {
+          "block": "undergarden:chiseled_depthrock_bricks"
+        },
+        {
+          "block": "undergarden:cracked_depthrock_bricks",
+          "weight": 8
+        }
+      ]
+    },
+    "pillar": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "undergarden:depthrock_bricks",
+          "weight": 10
+        },
+        {
+          "block": "undergarden:chiseled_depthrock_bricks"
+        },
+        {
+          "block": "undergarden:cracked_depthrock_bricks",
+          "weight": 8
+        }
+      ]
+    },
+    "floor": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "undergarden:depthrock_bricks",
+          "weight": 3
+        },
+        {
+          "block": "undergarden:cracked_depthrock_bricks",
+          "weight": 2
+        }
+      ]
+    },
+    "stairs": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "undergarden:depthrock_stairs",
+          "weight": 4
+        },
+        {
+          "block": "undergarden:depthrock_brick_stairs",
+          "weight": 4
+        }
+      ]
+    },
+    "solid_stairs": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "undergarden:depthrock_brick_stairs",
+          "weight": 3
+        },
+        {
+          "block": "undergarden:depthrock_stairs"
+        }
+      ]
+    },
+    "material": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "undergarden:cracked_depthrock_bricks"
+        },
+        {
+          "block": "undergarden:depthrock_bricks",
+          "weight": 3
+        }
+      ]
+    },
+    "slab": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "undergarden:depthrock_slab"
+        },
+        {
+          "block": "undergarden:depthrock_brick_slab",
+          "weight": 3
+        }
+      ]
+    },
+    "solid_slab": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "undergarden:depthrock_slab"
+        },
+        {
+          "block": "undergarden:depthrock_brick_slab",
+          "weight": 3
+        }
+      ]
+    },
+    "wall": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "undergarden:depthrock_wall"
+        },
+        {
+          "block": "undergarden:depthrock_brick_wall",
+          "weight": 3
+        }
+      ]
+    },
+    "fencing": {
+      "type": "block",
+      "block": "undergarden:cloggrum_bars"
+    },
+    "fluid": {
+      "type": "block",
+      "block": "minecraft:water"
+    }
+  }
+}

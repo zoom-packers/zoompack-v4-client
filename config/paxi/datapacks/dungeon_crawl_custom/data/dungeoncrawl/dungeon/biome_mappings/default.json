@@ -1,0 +1,460 @@
+{
+    "replace": false,
+    "default": [
+        {
+            "key": "dungeoncrawl:default"
+        }
+    ],
+    "mapping": {
+        "blue_skies:brightlands": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:brisk_meadow": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:brumble_forest": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:calming_skies": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:crescent_orchard": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:crescent_orchard_lake": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:crystal_dunes": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:crystal_dunes_spikes": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:crystal_roughs": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:deep_peeking_ocean": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:frostbitten_forest": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:frostbitten_forest_clearing": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:midday_shore": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:moonlit_reservoir": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:peeking_ocean": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:polar_highland": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:rising_creek": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:searing_grassland": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:shaded_woodlands": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:slushlands": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:snow_covered_pines": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:sunset_maple_forest": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "blue_skies:unorthodox_valley": [
+            {
+                "key": "dungeoncrawl:everbright/default"
+            }
+        ],
+        "aether:skyroot_forest": [
+            {
+                "key": "dungeoncrawl:the_aether/default"
+            }
+        ],
+        "aether:skyroot_grove": [
+            {
+                "key": "dungeoncrawl:the_aether/default"
+            }
+        ],
+        "aether:skyroot_meadow": [
+            {
+                "key": "dungeoncrawl:the_aether/default"
+            }
+        ],
+        "aether:skyroot_woodland": [
+            {
+                "key": "dungeoncrawl:the_aether/default"
+            }
+        ],
+        "betternether:bone_reef": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:crimson_glowing_woods": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:crimson_pinewood": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:flooded_deltas": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:gravel_desert": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:magma_land": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:nether_grasslands": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:nether_jungle": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:nether_mushroom_forest": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:nether_mushroom_forest_edge": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:nether_swampland": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:nether_swampland_terraces": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:old_fungiwoods": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:old_swampland": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:old_warped_woods": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:poor_nether_grasslands": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:soul_plain": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:sulfuric_bone_reef": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:upside_down_forest": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:upside_down_forest_cleared": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:wart_forest": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "betternether:wart_forest_edge": [
+            {
+                "key": "dungeoncrawl:the_nether/default"
+            }
+        ],
+        "undergarden:ancient_sea": [
+            {
+                "key": "dungeoncrawl:undergarden/default"
+            }
+        ],
+        "undergarden:barren_abyss": [
+            {
+                "key": "dungeoncrawl:undergarden/default"
+            }
+        ],
+        "undergarden:blood_mushroom_bog": [
+            {
+                "key": "dungeoncrawl:undergarden/default"
+            }
+        ],
+        "undergarden:dead_sea": [
+            {
+                "key": "dungeoncrawl:undergarden/default"
+            }
+        ],
+        "undergarden:dense_forest": [
+            {
+                "key": "dungeoncrawl:undergarden/default"
+            }
+        ],
+        "undergarden:forgotten_field": [
+            {
+                "key": "dungeoncrawl:undergarden/default"
+            }
+        ],
+        "undergarden:frostfields": [
+            {
+                "key": "dungeoncrawl:undergarden/default"
+            }
+        ],
+        "undergarden:frosty_smogstem_forest": [
+            {
+                "key": "dungeoncrawl:undergarden/default"
+            }
+        ],
+        "undergarden:gronglegrowth": [
+            {
+                "key": "dungeoncrawl:undergarden/default"
+            }
+        ],
+        "undergarden:icy_sea": [
+            {
+                "key": "dungeoncrawl:undergarden/default"
+            }
+        ],
+        "undergarden:indigo_mushroom_bog": [
+            {
+                "key": "dungeoncrawl:undergarden/default"
+            }
+        ],
+        "undergarden:ink_mushroom_bog": [
+            {
+                "key": "dungeoncrawl:undergarden/default"
+            }
+        ],
+        "undergarden:smog_spires": [
+            {
+                "key": "dungeoncrawl:undergarden/default"
+            }
+        ],
+        "undergarden:smogstem_forest": [
+            {
+                "key": "dungeoncrawl:undergarden/default"
+            }
+        ],
+        "undergarden:veil_mushroom_bog": [
+            {
+                "key": "dungeoncrawl:undergarden/default"
+            }
+        ],
+        "undergarden:wigglewood_forest": [
+            {
+                "key": "dungeoncrawl:undergarden/default"
+            }
+        ],
+        "betterend:amber_land": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:blossoming_spires": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:chorus_forest": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:crystal_mountains": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:dragon_graveyards": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:dry_shrubland": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:dust_wastelands": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:empty_aurora_cave": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:empty_end_cave": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:empty_smaragdant_cave": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:foggy_mushroomland": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:glowing_grasslands": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:ice_starfield": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:jade_cave": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:lantern_woods": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:lush_aurora_cave": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:lush_smaragdant_cave": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:megalake": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:megalake_grove": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:neon_oasis": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:painted_mountains": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:shadow_forest": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:sulphur_springs": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:umbra_valley": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ],
+        "betterend:umbrella_jungle": [
+            {
+                "key": "dungeoncrawl:the_end/default"
+            }
+        ]
+    }
+}

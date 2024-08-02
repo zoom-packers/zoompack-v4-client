@@ -6,6 +6,8 @@ const biomes = require("../../libs/biome_typedefs");
 const {biome_betternether, biome_betterend} = require("../../libs/biome_typedefs");
 const {entity_minecraft, entity_betternether, entity_betterend, entity_endermanoverhaul, entity_outer_end,
 } = require("../../libs/entity_typedefs");
+const loot_tables = require("../../libs/loot_table_typedefs");
+const {loot_table_minecraft} = require("../../libs/loot_table_typedefs");
 
 
 /** @type {DimensionalGenerationDefinition} */
@@ -34,7 +36,85 @@ const nether = {
         acc[biome] = 0
         return acc;
     }, {}),
-    chestLootTables: [[],[],[],[],[]],
+    chestLootTables: [
+        {
+            pools: [
+                {
+                    rolls: 1,
+                    entries: [
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_betternether.l_chests_city_common,
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            pools: [
+                {
+                    rolls: 2,
+                    entries: [
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_betternether.l_chests_city,
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            pools: [
+                {
+                    rolls: 2,
+                    entries: [
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_betternether.l_chests_wither_tower,
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            pools: [
+                {
+                    rolls: 3,
+                    entries: [
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_betternether.l_chests_wither_tower,
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            pools: [
+                {
+                    rolls: 2,
+                    entries: [
+                        {
+                            type: "loot_table",
+                            name: loot_table_minecraft.l_chests_bastion_bridge,
+                        },
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_minecraft.l_chests_bastion_other,
+                        },
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_minecraft.l_chests_bastion_treasure,
+                        },
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_minecraft.l_chests_bastion_hoglin_stable,
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
     treasureTables: [[],[],[],[],[]],
     monsterPopulations: [
         {
@@ -191,7 +271,93 @@ const end = {
         acc[biome] = 0
         return acc;
     }, {}),
-    chestLootTables: [[],[],[],[],[]],
+    chestLootTables: [
+        {
+            pools: [
+                {
+                    rolls: 1,
+                    entries: [
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_betterend.l_chests_end_village_loot,
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            pools: [
+                {
+                    rolls: 2,
+                    entries: [
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_betterend.l_chests_end_village_loot,
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            pools: [
+                {
+                    rolls: 1,
+                    entries: [
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_betterend.l_chests_chorus_forest,
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            pools: [
+                {
+                    rolls: 2,
+                    entries: [
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_betterend.l_chests_shadow_forest,
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            pools: [
+                {
+                    rolls: 3,
+                    entries: [
+                        {
+                            type: "loot_table",
+                            name: loot_table_minecraft.l_chests_end_city_treasure,
+                        },
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_betterend.l_chests_chorus_forest,
+                        },
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_betterend.l_chests_shadow_forest,
+                        },
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_betterend.l_chests_foggy_mushroomland,
+                        },
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_betterend.l_chests_lantern_woods,
+                        },
+                        {
+                            type: "loot_table",
+                            name: loot_tables.loot_table_betterend.l_blocks_umbrella_tree_chest,
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
     treasureTables: [[],[],[],[],[]],
     monsterPopulations: [
         {

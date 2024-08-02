@@ -1,0 +1,38 @@
+{
+    "common": [
+        {
+            "entity": "aether:aechor_plant",
+            "weight": 3
+        },
+        {
+            "entity": "aether:zephyr",
+            "weight": 3
+        },
+        {
+            "entity": "aether:sentry",
+            "weight": 1
+        },
+        {
+            "entity": "aether:mimic",
+            "weight": 1
+        },
+        {
+            "entity": "aether:fire_minion",
+            "weight": 1
+        }
+    ],
+    "rare": [
+        {
+            "entity": "aether:sentry",
+            "weight": 1
+        },
+        {
+            "entity": "aether:mimic",
+            "weight": 1
+        },
+        {
+            "entity": "aether:fire_minion",
+            "weight": 1
+        }
+    ]
+}

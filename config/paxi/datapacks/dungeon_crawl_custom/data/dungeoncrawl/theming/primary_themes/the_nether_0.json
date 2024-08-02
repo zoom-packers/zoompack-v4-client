@@ -1,0 +1,149 @@
+{
+  "theme": {
+    "generic": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "minecraft:netherrack"
+        },
+        {
+          "block": "minecraft:nether_bricks",
+          "weight": 10
+        },
+        {
+          "block": "minecraft:red_nether_bricks",
+          "weight": 10
+        },
+        {
+          "block": "minecraft:nether_bricks"
+        }
+      ]
+    },
+    "solid": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "minecraft:nether_bricks",
+          "weight": 10
+        },
+        {
+          "block": "minecraft:nether_bricks"
+        },
+        {
+          "block": "minecraft:red_nether_bricks",
+          "weight": 8
+        }
+      ]
+    },
+    "pillar": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "minecraft:nether_bricks",
+          "weight": 10
+        },
+        {
+          "block": "minecraft:nether_bricks"
+        },
+        {
+          "block": "minecraft:red_nether_bricks",
+          "weight": 8
+        }
+      ]
+    },
+    "floor": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "minecraft:nether_bricks",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:red_nether_bricks",
+          "weight": 2
+        }
+      ]
+    },
+    "stairs": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "minecraft:netherrack_stairs",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:red_nether_brick_stairs",
+          "weight": 4
+        }
+      ]
+    },
+    "solid_stairs": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "minecraft:red_nether_brick_stairs",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:netherrack_stairs"
+        }
+      ]
+    },
+    "material": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "minecraft:red_nether_bricks"
+        },
+        {
+          "block": "minecraft:nether_bricks",
+          "weight": 3
+        }
+      ]
+    },
+    "slab": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "minecraft:netherrack_slab"
+        },
+        {
+          "block": "minecraft:red_nether_brick_slab",
+          "weight": 3
+        }
+      ]
+    },
+    "solid_slab": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "minecraft:netherrack_slab"
+        },
+        {
+          "block": "minecraft:red_nether_brick_slab",
+          "weight": 3
+        }
+      ]
+    },
+    "wall": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "minecraft:netherrack_wall"
+        },
+        {
+          "block": "minecraft:red_nether_brick_wall",
+          "weight": 3
+        }
+      ]
+    },
+    "fencing": {
+      "type": "block",
+      "block": "betternether:cincinnasite_bars"
+    },
+    "fluid": {
+      "type": "block",
+      "block": "minecraft:lava"
+    }
+  }
+}

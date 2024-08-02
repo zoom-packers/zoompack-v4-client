@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 7,
+            "entries": [
+                {
+                    "type": "group",
+                    "children": [
+                        {
+                            "type": "loot_table",
+                            "name": "undergarden:chests/catacombs",
+                            "weight": 2
+                        },
+                        {
+                            "type": "loot_table",
+                            "name": "apotheosis:chests/chest_valuable",
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
