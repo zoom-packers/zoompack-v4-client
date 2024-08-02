@@ -1,18 +1,13 @@
 import json
 import copy
 
-import os
-
-def create_folder(path):
-    os.makedirs(path, exist_ok=True)
-
 base_villager_trade_data = {
   "removeOtherTrades": True,
   "trades": []
 }
 # 100 for testing only
-base_villager_trade_data['maxTrades'] = 100
-# banker_config['maxTrades'] = 3
+# base_villager_trade_data['maxTrades'] = 100
+base_villager_trade_data['maxTrades'] = 3
 
 
 banker_config = copy.deepcopy(base_villager_trade_data)
@@ -125,7 +120,7 @@ new_default_trade('banker', ('irons_spellbooks:scroll', 1), ('dotcoinmod:bronze_
 
 
 #Dimensional Lootbags 
-new_default_trade('banker', ('dotcoinmod:gold_coin', 1), ('blue_skies:loot_bag_summoner', 1), 1, 1, 
+new_default_trade('banker', ('dotcoinmod:silver_coin', 32), ('blue_skies:loot_bag_summoner', 1), 1, 1, 
                   loot_table="zoompack_economy:dimensional_lootbags/overworld_lootbag", 
                   item_title = "Overworld Lootbag", item_lore="Right-Click to open the lootbag", rarity=0, 
                   item_title_color="white", item_lore_color="purple")
@@ -161,370 +156,117 @@ new_default_trade('banker', ('dotcoinmod:gold_coin', 64), ('blue_skies:loot_bag_
                   item_title_color="aqua", item_lore_color="purple")
 
 # Banker Potions >> pricing needed
-new_default_trade('banker', ('dotcoinmod:bronze_coin', 32), ('minecraft:potion', 1), 1, 1, additional_request=None, 
+new_default_trade('banker', ('dotcoinmod:bronze_coin', 2), ('minecraft:potion', 1), 1, 1, additional_request=None, 
                   potion_offer_effects=get_trade_effects('minecraft:instant_health', '0', 0), potion_color=15395118, 
                   item_title = "Bronze Vial of Vitality", item_lore="Drink this to replanish instantly 2 HP", 
-                  item_title_color="dark_red", item_lore_color="purple")
+                  item_title_color="dark_red", item_lore_color="red")
+new_default_trade('banker', ('dotcoinmod:bronze_coin', 2), ('minecraft:potion', 1), 1, 1, additional_request=None, 
+                  potion_offer_effects=get_trade_effects('irons_spellbooks:instant_mana', '0', 1), potion_color=14838, 
+                  item_title = "Bronze Vial of Recharge", item_lore="Drink this to replanish instantly 25 Mana + 5% of Max Mana", 
+                  item_title_color="dark_red", item_lore_color="aqua")
 
-new_default_trade('banker', ('dotcoinmod:bronze_coin', 32), ('minecraft:potion', 1), 1, 1, additional_request=None, 
+new_default_trade('banker', ('dotcoinmod:bronze_coin', 4), ('minecraft:potion', 1), 1, 1, additional_request=None, 
                   potion_offer_effects=get_trade_effects('minecraft:instant_health', '0', 1), potion_color=15383342, 
                   item_title = "Scarlet Elixir of Mending", item_lore="Drink this to replanish instantly 4 HP", 
                   item_title_color="red", item_lore_color="purple")
+new_default_trade('banker', ('dotcoinmod:bronze_coin', 4), ('minecraft:potion', 1), 1, 1, additional_request=None, 
+                  potion_offer_effects=get_trade_effects('irons_spellbooks:instant_mana', '0', 2), potion_color=14838, 
+                  item_title = "Scarlet Elixir of Recharge", item_lore="Drink this to replanish instantly 50 Mana + 10% of Max Mana", 
+                  item_title_color="dark_red", item_lore_color="aqua")
 
-new_default_trade('banker', ('dotcoinmod:bronze_coin', 32), ('minecraft:potion', 1), 2, 2, additional_request=None, 
+new_default_trade('banker', ('dotcoinmod:bronze_coin', 8), ('minecraft:potion', 1), 2, 2, additional_request=None, 
                   potion_offer_effects=get_trade_effects('minecraft:instant_health', '0', 2), potion_color=15374638, 
                   item_title = "Golden Draught of Healing", item_lore="Drink this to replanish instantly 8 HP", 
                   item_title_color="yellow", item_lore_color="purple")
+new_default_trade('banker', ('dotcoinmod:bronze_coin', 8), ('minecraft:potion', 1), 1, 1, additional_request=None, 
+                  potion_offer_effects=get_trade_effects('irons_spellbooks:instant_mana', '0', 3), potion_color=14838, 
+                  item_title = "Golden Draught of Recharge", item_lore="Drink this to replanish instantly 75 Mana + 15% of Max Mana", 
+                  item_title_color="dark_red", item_lore_color="aqua")
 
-new_default_trade('banker', ('dotcoinmod:bronze_coin', 32), ('minecraft:potion', 1), 2, 2, additional_request=None, 
+new_default_trade('banker', ('dotcoinmod:bronze_coin', 16), ('minecraft:potion', 1), 2, 2, additional_request=None, 
                   potion_offer_effects=get_trade_effects('minecraft:instant_health', '0', 3), potion_color=15377454, 
                   item_title = "Sunlight Serum of Recovery", item_lore="Drink this to replanish instantly 16 HP", 
                   item_title_color="yellow", item_lore_color="purple")
+new_default_trade('banker', ('dotcoinmod:bronze_coin', 16), ('minecraft:potion', 1), 2, 2, additional_request=None, 
+                  potion_offer_effects=get_trade_effects('irons_spellbooks:instant_mana', '0', 4), potion_color=14838, 
+                  item_title = "Sunlight Serum of Recharge", item_lore="Drink this to replanish instantly 100 Mana + 20% of Max Mana", 
+                  item_title_color="dark_red", item_lore_color="aqua")
 
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 32), ('minecraft:potion', 1), 3, 3, additional_request=None, 
                   potion_offer_effects=get_trade_effects('minecraft:instant_health', '0', 4), potion_color=15363118, 
                   item_title = "Gilded Flask of Restoration", item_lore="Drink this to replanish instantly 32 HP", 
                   item_title_color="gold", item_lore_color="purple", rarity=0)
+new_default_trade('banker', ('dotcoinmod:bronze_coin', 32), ('minecraft:potion', 1), 2, 2, additional_request=None, 
+                  potion_offer_effects=get_trade_effects('irons_spellbooks:instant_mana', '0', 5), potion_color=14838, 
+                  item_title = "Gilded Flask of Recharge", item_lore="Drink this to replanish instantly 125 Mana + 25% of Max Mana", 
+                  item_title_color="dark_red", item_lore_color="aqua", rarity=0)
 
-new_default_trade('banker', ('dotcoinmod:bronze_coin', 32), ('minecraft:potion', 1), 3, 3, additional_request=None, 
+new_default_trade('banker', ('dotcoinmod:bronze_coin', 64), ('minecraft:potion', 1), 3, 3, additional_request=None, 
                   potion_offer_effects=get_trade_effects('minecraft:instant_health', '0', 5), potion_color=15351598, 
                   item_title = "Emerald Tonic of Revival", item_lore="Drink this to replanish instantly 64 HP", 
                   item_title_color="green", item_lore_color="purple", rarity=0)
+new_default_trade('banker', ('dotcoinmod:bronze_coin', 64), ('minecraft:potion', 1), 3, 3, additional_request=None, 
+                  potion_offer_effects=get_trade_effects('irons_spellbooks:instant_mana', '0', 6), potion_color=14838, 
+                  item_title = "Gilded Flask of Recharge", item_lore="Drink this to replanish instantly 150 Mana + 30% of Max Mana", 
+                  item_title_color="dark_red", item_lore_color="aqua", rarity=0)
 
-new_default_trade('banker', ('dotcoinmod:bronze_coin', 32), ('minecraft:potion', 1), 4, 4, additional_request=None, 
+new_default_trade('banker', ('dotcoinmod:silver_coin', 2), ('minecraft:potion', 1), 4, 4, additional_request=None, 
                   potion_offer_effects=get_trade_effects('minecraft:instant_health', '0', 6), potion_color=15347358, 
                   item_title = "Sapphire Brew of Renewal", item_lore="Drink this to replanish instantly 128 HP", 
                   item_title_color="blue", item_lore_color="purple", rarity=1)
+new_default_trade('banker', ('dotcoinmod:silver_coin', 2), ('minecraft:potion', 1), 4, 4, additional_request=None, 
+                  potion_offer_effects=get_trade_effects('irons_spellbooks:instant_mana', '0', 7), potion_color=14838, 
+                  item_title = "Sapphire Brew of Recharge", item_lore="Drink this to replanish instantly 175 Mana + 35% of Max Mana", 
+                  item_title_color="dark_red", item_lore_color="aqua", rarity=1)
 
-new_default_trade('banker', ('dotcoinmod:bronze_coin', 32), ('minecraft:potion', 1), 4, 4, additional_request=None, 
+new_default_trade('banker', ('dotcoinmod:silver_coin', 4), ('minecraft:potion', 1), 4, 4, additional_request=None, 
                   potion_offer_effects=get_trade_effects('minecraft:instant_health', '0', 7), potion_color=15347434, 
                   item_title = "Rare Health Potion", item_lore="Drink this to replanish instantly 256 HP", 
                   item_title_color="purple", item_lore_color="purple", rarity=1)
+new_default_trade('banker', ('dotcoinmod:silver_coin', 4), ('minecraft:potion', 1), 4, 4, additional_request=None, 
+                  potion_offer_effects=get_trade_effects('irons_spellbooks:instant_mana', '0', 8), potion_color=14838, 
+                  item_title = "Rare Mana Potion", item_lore="Drink this to replanish instantly 200 Mana + 40% of Max Mana", 
+                  item_title_color="dark_red", item_lore_color="aqua", rarity=1)
 
-new_default_trade('banker', ('dotcoinmod:bronze_coin', 32), ('minecraft:potion', 1), 5, 5, additional_request=None, 
+new_default_trade('banker', ('dotcoinmod:silver_coin', 8), ('minecraft:potion', 1), 5, 5, additional_request=None, 
                   potion_offer_effects=get_trade_effects('minecraft:instant_health', '1', 8), potion_color=15347434, 
                   item_title = "Ancient Health Potion", item_lore="Drink this to replanish instantly 512 HP", 
                   item_title_color="purple", item_lore_color="purple", rarity=2)
-
-new_default_trade('banker', ('dotcoinmod:bronze_coin', 32), ('minecraft:potion', 1), 5, 5, additional_request=None, 
-                  potion_offer_effects=get_trade_effects('minecraft:instant_health', '1', 9), potion_color=3036906, 
-                  item_title = "Amethyst Potion of Fortitude", item_lore="Drink this to replanish all of your missig health", 
-                  item_title_color="purple", item_lore_color="purple", rarity=2)
+new_default_trade('banker', ('dotcoinmod:silver_coin', 8), ('minecraft:potion', 1), 5, 5, additional_request=None, 
+                  potion_offer_effects=get_trade_effects('irons_spellbooks:instant_mana', '0', 9), potion_color=14838, 
+                  item_title = "Ancient Mana Potion", item_lore="Drink this to replanish instantly 225 Mana + 45% of Max Mana", 
+                  item_title_color="dark_red", item_lore_color="aqua", rarity=2)
 
 save_villager_config('banker')
 
 
 # Gemist
 # Lvl 1
-new_default_trade('gemist', ('dotcoinmod:gold_coin', 1), ('blue_skies:loot_bag_starlit_crusher', 1), 1, 1, loot_table="zoompack_economy:apotheosis_materials", item_title = "Apotheosis Materials Lootbag", item_lore="Right-Click to open the lootbag", rarity=0, item_title_color="light_purple", item_lore_color="purple")
-new_default_trade('gemist', ('dotcoinmod:gold_coin', 1), ('blue_skies:loot_bag', 1), 1, 1, loot_table="zoompack_economy:gems/tier_1", item_title = "Cracked Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=0, item_title_color="gray", item_lore_color="purple")
-new_default_trade('gemist', ('dotcoinmod:gold_coin', 1), ('blue_skies:loot_bag', 1), 1, 1, loot_table="zoompack_economy:gems/tier_2", item_title = "Chipped Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=0, item_title_color="green", item_lore_color="purple")
+new_default_trade('gemist', ('dotcoinmod:silver_coin', 12), ('blue_skies:loot_bag_starlit_crusher', 1), 1, 1, loot_table="zoompack_economy:apotheosis_materials", item_title = "Apotheosis Materials Lootbag", item_lore="Right-Click to open the lootbag", rarity=0, item_title_color="light_purple", item_lore_color="purple")
+new_default_trade('gemist', ('dotcoinmod:silver_coin', 16), ('blue_skies:loot_bag', 1), 1, 1, loot_table="zoompack_economy:gems/tier_1", item_title = "Cracked Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=0, item_title_color="gray", item_lore_color="purple")
+new_default_trade('gemist', ('dotcoinmod:silver_coin', 32), ('blue_skies:loot_bag', 1), 1, 1, loot_table="zoompack_economy:gems/tier_2", item_title = "Chipped Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=0, item_title_color="green", item_lore_color="purple")
 # Lvl 2
 new_default_trade('gemist', ('dotcoinmod:gold_coin', 1), ('blue_skies:loot_bag_summoner', 1), 2, 2, loot_table="zoompack_economy:gems/tier_3", item_title = "Flawed Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=0, item_title_color="gold", item_lore_color="purple")
 # Lvl 3
-new_default_trade('gemist', ('dotcoinmod:gold_coin', 1), ('blue_skies:loot_bag_summoner', 1), 3, 3, loot_table="zoompack_economy:gems/tier_4", item_title = "Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=0, item_title_color="dark_green", item_lore_color="purple")
-new_default_trade('gemist', ('dotcoinmod:gold_coin', 1), ('blue_skies:loot_bag_alchemist', 1), 3, 3, loot_table="zoompack_economy:gems/tier_5", item_title = "Flawless Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=1, item_title_color="light_purple", item_lore_color="purple")
+new_default_trade('gemist', ('dotcoinmod:gold_coin', 2), ('blue_skies:loot_bag_summoner', 1), 3, 3, loot_table="zoompack_economy:gems/tier_4", item_title = "Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=0, item_title_color="dark_green", item_lore_color="purple")
+new_default_trade('gemist', ('dotcoinmod:gold_coin', 4), ('blue_skies:loot_bag_alchemist', 1), 3, 3, loot_table="zoompack_economy:gems/tier_5", item_title = "Flawless Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=1, item_title_color="light_purple", item_lore_color="purple")
 # Lvl 4
-new_default_trade('gemist', ('dotcoinmod:gold_coin', 1), ('blue_skies:loot_bag_alchemist', 1), 4, 4, loot_table="zoompack_economy:gems/tier_6", item_title = "Smecher Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=1, item_title_color="blue", item_lore_color="purple")
-new_default_trade('gemist', ('dotcoinmod:gold_coin', 1), ('blue_skies:loot_bag_starlit_crusher', 1), 4, 4, loot_table="zoompack_economy:gems/tier_7", item_title = "Pizdos Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=1, item_title_color="red", item_lore_color="purple")
+new_default_trade('gemist', ('dotcoinmod:gold_coin', 8), ('blue_skies:loot_bag_alchemist', 1), 4, 4, loot_table="zoompack_economy:gems/tier_6", item_title = "Smecher Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=1, item_title_color="blue", item_lore_color="purple")
+new_default_trade('gemist', ('dotcoinmod:gold_coin', 16), ('blue_skies:loot_bag_starlit_crusher', 1), 4, 4, loot_table="zoompack_economy:gems/tier_7", item_title = "Pizdos Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=1, item_title_color="red", item_lore_color="purple")
 # Lvl 5
-new_default_trade('gemist', ('dotcoinmod:gold_coin', 1), ('blue_skies:loot_bag_starlit_crusher', 1), 5, 5, loot_table="zoompack_economy:gems/tier_8", item_title = "Barosan Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=1, item_title_color="aqua", item_lore_color="purple")
-new_default_trade('gemist', ('dotcoinmod:gold_coin', 1), ('blue_skies:loot_bag_arachnarch', 1), 5, 5, loot_table="zoompack_economy:gems/tier_9", item_title = "Obscen Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=2, item_title_color="yellow", item_lore_color="purple")
+new_default_trade('gemist', ('dotcoinmod:gold_coin', 32), ('blue_skies:loot_bag_starlit_crusher', 1), 5, 5, loot_table="zoompack_economy:gems/tier_8", item_title = "Barosan Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=1, item_title_color="aqua", item_lore_color="purple")
+new_default_trade('gemist', ('dotcoinmod:gold_coin', 64), ('blue_skies:loot_bag_arachnarch', 1), 5, 5, loot_table="zoompack_economy:gems/tier_9", item_title = "Obscen Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=2, item_title_color="yellow", item_lore_color="purple")
 save_villager_config('gemist')
 
 # Animalist
-new_animalist_trade('animalist', ('dotcoinmod:bronze_coin', 5), ('minecraft:creeper_spawn_egg', 1), 1, 1, 
-                    egg_mob='mythicmounts:acencia',
-                    mob_hp_percentage_boost=10,
-                    mob_speed_pertange_boost=5,
-                    mob_armor_boost=5,
-                    mob_damage_boost=5)
-new_default_trade('animalist', ('dotcoinmod:bronze_coin', 5), ('minecraft:ender_pearl', 1), 1, 1)
+new_default_trade('animalist', ('dotcoinmod:silver_coin', 32), ('blue_skies:loot_bag', 1), 1, 1, loot_table="zoompack_economy:mounts/tier_1", item_title = "Crippled Random Mount", item_lore="Right-Click to open the lootbag and get a tier 1 mount", rarity=0, item_title_color="white", item_lore_color="purple")
+new_default_trade('animalist', ('dotcoinmod:gold_coin', 1), ('blue_skies:loot_bag', 1), 1, 1, loot_table="zoompack_economy:mounts/tier_2", item_title = "Worn Random Mount", item_lore="Right-Click to open the lootbag and get a tier 2 mount", rarity=0, item_title_color="yellow", item_lore_color="purple")
+new_default_trade('animalist', ('dotcoinmod:gold_coin', 2), ('blue_skies:loot_bag_summoner', 1), 2, 2, loot_table="zoompack_economy:mounts/tier_3", item_title = "Rustic Random Mount", item_lore="Right-Click to open the lootbag and get a tier 3 mount", rarity=0, item_title_color="gold", item_lore_color="purple")
+new_default_trade('animalist', ('dotcoinmod:gold_coin', 4), ('blue_skies:loot_bag_summoner', 1), 2, 2, loot_table="zoompack_economy:mounts/tier_4", item_title = "Ordinary Random Mount", item_lore="Right-Click to open the lootbag and get a tier 4 mount", rarity=0, item_title_color="dark_aqua", item_lore_color="purple")
+new_default_trade('animalist', ('dotcoinmod:gold_coin', 8), ('blue_skies:loot_bag_alchemist', 1), 3, 3, loot_table="zoompack_economy:mounts/tier_5", item_title = "Trained Random Mount", item_lore="Right-Click to open the lootbag and get a tier 5 mount", rarity=1, item_title_color="dark_red", item_lore_color="purple")
+new_default_trade('animalist', ('dotcoinmod:gold_coin', 16), ('blue_skies:loot_bag_alchemist', 1), 3, 3, loot_table="zoompack_economy:mounts/tier_6", item_title = "Hardened Random Mount", item_lore="Right-Click to open the lootbag and get a tier 6 mount", rarity=1, item_title_color="red", item_lore_color="purple")
+new_default_trade('animalist', ('dotcoinmod:gold_coin', 32), ('blue_skies:loot_bag_starlit_crusher', 1), 4, 4, loot_table="zoompack_economy:mounts/tier_7", item_title = "Sturdy Random Mount", item_lore="Right-Click to open the lootbag and get a tier 7 mount", rarity=1, item_title_color="light_purple", item_lore_color="purple")
+new_default_trade('animalist', ('dotcoinmod:gold_coin', 64), ('blue_skies:loot_bag_starlit_crusher', 1), 4, 4, loot_table="zoompack_economy:mounts/tier_8", item_title = "Swift Random Mount", item_lore="Right-Click to open the lootbag and get a tier 8 mount", rarity=1, item_title_color="green", item_lore_color="purple")
+new_default_trade('animalist', ('dotcoinmod:gold_coin', 64), ('blue_skies:loot_bag_arachnarch', 1), 5, 5, additional_request=('dotcoinmod:gold_coin', 64), loot_table="zoompack_economy:mounts/tier_9", item_title = "Majestic Random Mount", item_lore="Right-Click to open the lootbag and get a tier 9 mount", rarity=2, item_title_color="dark_purple", item_lore_color="purple")
+
 save_villager_config('animalist')
-
-
-
-# Loot Table Generation for mounts
-loot_table_location = 'config/paxi/datapacks/economy/data/zoompack_economy/loot_tables'
-mounts_folder_location = f'{loot_table_location}/mounts'
-create_folder(mounts_folder_location)
-
-mobs = {
-    # 'minecraft:horse': {
-    #     'hp': 30.0,
-    #     'speed': 0.3375,
-    #     'jump': 1.0,
-    #     'armor': 0,
-    #     'dmg': 0,
-    #     'egg_id': 'minecraft:horse_spawn_egg',
-    #     'name': 'Horse'
-    # },
-    # 'minecraft:donkey': {
-    #     'hp': 30.0,
-    #     'speed': 0.225,
-    #     'jump': 0.7,
-    #     'armor': 0,
-    #     'dmg': 0,
-    #     'egg_id': 'minecraft:donkey_spawn_egg',
-    #     'name': 'Donkey'
-    # },
-    # 'minecraft:mule': {
-    #     'hp': 30.0,
-    #     'speed': 0.225,
-    #     'jump': 0.7,
-    #     'armor': 0,
-    #     'dmg': 0,
-    #     'egg_id': 'minecraft:mule_spawn_egg',
-    #     'name': 'Mule'
-    # },
-    # 'minecraft:llama': {
-    #     'hp': 15.0,
-    #     'speed': 0.22,
-    #     'jump': 0.35,
-    #     'armor': 0,
-    #     'dmg': 0,
-    #     'egg_id': 'minecraft:llama_spawn_egg',
-    #     'name': 'Llama'
-    # },
-    # 'minecraft:pig': {
-    #     'hp': 10.0,
-    #     'speed': 0.25,
-    #     'jump': 0.5,
-    #     'armor': 0,
-    #     'dmg': 0,
-    #     'egg_id': 'minecraft:pig_spawn_egg',
-    #     'name': 'Pig'
-    # },
-    # 'minecraft:strider': {
-    #     'hp': 20.0,
-    #     'speed': 0.4,
-    #     'jump': 0,
-    #     'armor': 0,
-    #     'dmg': 0,
-    #     'egg_id': 'minecraft:strider_spawn_egg',
-    #     'name': 'Strider'
-    # },
-    # 'minecraft:camel': {
-    #     'hp': 32.0,
-    #     'speed': 0.09,
-    #     'jump': 0.5,
-    #     'armor': 0,
-    #     'dmg': 0,
-    #     'egg_id': 'minecraft:camel_spawn_egg',
-    #     'name': 'Camel'
-    # },
-    # 'minecraft:skeleton_horse': {
-    #     'hp': 30.0,
-    #     'speed': 0.3375,
-    #     'jump': 1.0,
-    #     'armor': 0,
-    #     'dmg': 0,
-    #     'egg_id': 'minecraft:skeleton_horse_spawn_egg',
-    #     'name': 'Skeleton Horse'
-    # },
-    # 'minecraft:zombie_horse': {
-    #     'hp': 30.0,
-    #     'speed': 0.3375,
-    #     'jump': 1.0,
-    #     'armor': 0,
-    #     'dmg': 0,
-    #     'egg_id': 'minecraft:zombie_horse_spawn_egg',
-    #     'name': 'Zombie Horse'
-    # },
-    # 'minecraft:ravager': {
-    #     'hp': 100.0,
-    #     'speed': 0.3,
-    #     'jump': 0,
-    #     'armor': 0,
-    #     'dmg': 0,
-    #     'egg_id': 'minecraft:ravager_spawn_egg',
-    #     'name': 'Ravager'
-    # },
-    # Mythic mounts
-    'mythicmounts:firebird': {
-        'hp': 20.0,
-        'speed': 0.3,
-        'jump': 1,
-        'armor': 0,
-        'dmg': 3,
-        'egg_id': 'mythicmounts:firebird_spawn_egg',
-        'name': 'Zar-ptak'
-    }
-}
-
-# black: #000000
-# dark_blue: #0000AA
-# dark_green: #00AA00
-# dark_aqua: #00AAAA
-# dark_red: #AA0000
-# dark_purple: #AA00AA
-# gold: #FFAA00
-# gray: #AAAAAA
-# dark_gray: #555555
-# blue: #5555FF
-# green: #55FF55
-# aqua: #55FFFF
-# red: #FF5555
-# light_purple: #FF55FF
-# yellow: #FFFF55
-# white: #FFFFFF
-
-level_modifiers = {
-    '1' : {
-        'prefix': 'Crippled',
-        'prefix_color': 'white',
-        'hp' : 0,
-        'speed' : 0,
-        "jump": 0,
-        'armor' : 0,
-        'dmg' : 0
-    },
-    '2' : {
-        'prefix' : 'Worn',
-        'prefix_color': 'yellow',
-        'hp' : 10,
-        'speed' : 5,
-        'jump' : 5,
-        'armor' : 5,
-        'dmg' : 5,
-    },
-    '3' : {
-        'prefix' : 'Rustic',
-        'prefix_color': 'gold',
-        'hp' : 30,
-        'speed' : 10,
-        'jump' : 10,
-        'armor' : 10,
-        'dmg' : 10,
-    },
-    '4' : {
-        'prefix' : 'Ordinary',
-        'prefix_color': 'dark_aqua',
-        'hp' : 100,
-        'speed' : 15,
-        'jump' : 15,
-        'armor' : 15,
-        'dmg' : 15,
-    },
-    '5' : {
-        'prefix' : 'Trained',
-        'prefix_color': 'dark_red',
-        'hp' : 200,
-        'speed' : 20,
-        'jump' : 20,
-        'armor' : 15,
-        'dmg' : 15,
-    },
-    '6' : {
-        'prefix' : 'Hardened',
-        'prefix_color': 'red',
-        'hp' : 400,
-        'speed' : 25,
-        'jump' : 25,
-        'armor' : 30,
-        'dmg' : 30,
-    },
-    '7' : {
-        'prefix' : 'Sturdy',
-        'prefix_color': 'light_purple',
-        'hp' : 1000,
-        'speed' : 30,
-        'jump' : 30,
-        'armor' : 80,
-        'dmg' : 80,
-    },
-    '8' : {
-        'prefix' : 'Swift',
-        'prefix_color': 'green',
-        'hp' : 2500,
-        'speed' : 35,
-        'jump' : 35,
-        'armor' : 150,
-        'dmg' : 150,
-    },
-    '9' : {
-        'prefix' : 'Majestic',
-        'prefix_color': 'dark_purple',
-        'hp' : 6000,
-        'speed' : 40,
-        'jump' : 40,
-        'armor' : 250,
-        'dmg' : 250,
-    }
-}
-
-for level_modifier, level_modifier_data in level_modifiers.items():
-    BASE_LOOT_TABLE = """{
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        ENTRIES_LIST_REPLACE
-      ]
-    }
-  ]
-}"""
-    ENTRIES = []
-
-    for mob_id, mob_data in mobs.items():
-        ENTRY_BASE = """{
-          "type": "minecraft:item",
-          "name": \"""" + mob_data.get('egg_id') +"""\",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:MOB_ID_REPLACE,Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[ATTRIBUTES_LIST_REPLACE]}}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {"text": "EGG_ITEM_REPLACE", "color": "EGG_ITEM_COLOR_REPLACE", "bold": true}
-            },
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
-                {"text": "Use this egg to summon your own", "color": "purple"},
-                {"text": "Tier MOB_TIER_REPLACE : MOB_NAME_REPLACE", "color": "purple"}
-              ]
-            }
-          ]
-        }"""
-
-        ENTRY_BASE = ENTRY_BASE.replace('EGG_ITEM_REPLACE',f"{level_modifier_data.get('prefix')} {mob_data.get('name')} Mount").replace('EGG_ITEM_COLOR_REPLACE', level_modifier_data.get('prefix_color'))
-        ENTRY_BASE = ENTRY_BASE.replace('MOB_TIER_REPLACE', level_modifier).replace('MOB_NAME_REPLACE', mob_data.get('name'))
-
-        mob_attributes_list_to_be_written = []
-
-        for mob_attr, mob_attr_value in mob_data.items():
-            if mob_attr == 'hp':
-                new_mob_attr_value = mob_attr_value*(1+level_modifier_data.get('hp')/100)
-                new_attribute_to_be_written = """{Name:\"generic.max_health\",Base:""".replace(':"',':\\"').replace('",','\\",') + str("{:.4f}".format(new_mob_attr_value)) + 'f}'
-                mob_attributes_list_to_be_written.append(new_attribute_to_be_written)
-            if mob_attr == 'speed':
-                new_mob_attr_value = mob_attr_value*(1+level_modifier_data.get('speed')/100)
-                new_attribute_to_be_written = """{Name:\"generic.movement_speed\",Base:""".replace(':"',':\\"').replace('",','\\",') + str("{:.4f}".format(new_mob_attr_value)) + 'f}'
-                mob_attributes_list_to_be_written.append(new_attribute_to_be_written)
-            if mob_attr == 'jump':
-                new_mob_attr_value = mob_attr_value*(1+level_modifier_data.get('jump')/100)
-                new_attribute_to_be_written = """{Name:\"horse.jump_strength\",Base:""".replace(':"',':\\"').replace('",','\\",') + str("{:.4f}".format(new_mob_attr_value)) + 'f}'
-                mob_attributes_list_to_be_written.append(new_attribute_to_be_written)
-            if mob_attr == 'dmg':
-                new_mob_attr_value = mob_attr_value + level_modifier_data.get('dmg')
-                new_attribute_to_be_written = """{Name:\"generic.attack_damage\",Base:""".replace(':"',':\\"').replace('",','\\",') + str(new_mob_attr_value) + 'f}'
-                mob_attributes_list_to_be_written.append(new_attribute_to_be_written)
-            if mob_attr == 'armor':
-                new_mob_attr_value = mob_attr_value + level_modifier_data.get('armor')
-                new_attribute_to_be_written = """{Name:\"generic.armor\",Base:""".replace(':"',':\\"').replace('",','\\",') + str(new_mob_attr_value) + 'f}'
-                mob_attributes_list_to_be_written.append(new_attribute_to_be_written)
-
-        ENTRY_BASE = ENTRY_BASE.replace('MOB_ID_REPLACE', f'\\"{mob_id}\\"').replace('ATTRIBUTES_LIST_REPLACE', ','.join(mob_attributes_list_to_be_written))
-        ENTRIES.append(ENTRY_BASE)
- 
-    with open(f'{loot_table_location}/mounts/tier_{level_modifier}.json', 'w+') as fp:
-        fp.write(BASE_LOOT_TABLE.replace('ENTRIES_LIST_REPLACE', ','.join(ENTRIES)))
-
-
-
-
-# write trades to json file
-# with open('config\custom trades\\banker.json', 'w+') as f:
-#     f.write(json.dumps(banker_config, indent=4))

@@ -1,167 +1,177 @@
 {
-    "removeOtherTrades": true,
-    "trades": [
-        {
-            "request": {
-                "itemKey": "dotcoinmod:gold_coin",
-                "amount": 1
-            },
-            "offer": {
-                "itemKey": "blue_skies:loot_bag_starlit_crusher",
-                "amount": 1,
-                "advancedNBTData": "{LootTable:\"zoompack_economy:apotheosis_materials\",display:{Lore:['[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Apotheosis Materials Lootbag\",\"italic\":false,\"color\":\"light_purple\"}]'},Rarity:0}"
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:gold_coin",
-                "amount": 1
-            },
-            "offer": {
-                "itemKey": "blue_skies:loot_bag",
-                "amount": 1,
-                "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_1\",display:{Lore:['[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Cracked Gem Lootbag\",\"italic\":false,\"color\":\"gray\"}]'},Rarity:0}"
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:gold_coin",
-                "amount": 1
-            },
-            "offer": {
-                "itemKey": "blue_skies:loot_bag",
-                "amount": 1,
-                "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_2\",display:{Lore:['[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Chipped Gem Lootbag\",\"italic\":false,\"color\":\"green\"}]'},Rarity:0}"
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:gold_coin",
-                "amount": 1
-            },
-            "offer": {
-                "itemKey": "blue_skies:loot_bag_summoner",
-                "amount": 1,
-                "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_3\",display:{Lore:['[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Flawed Gem Lootbag\",\"italic\":false,\"color\":\"gold\"}]'},Rarity:0}"
-            },
-            "tradeExp": 2,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 2
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:gold_coin",
-                "amount": 1
-            },
-            "offer": {
-                "itemKey": "blue_skies:loot_bag_summoner",
-                "amount": 1,
-                "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_4\",display:{Lore:['[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Gem Lootbag\",\"italic\":false,\"color\":\"dark_green\"}]'},Rarity:0}"
-            },
-            "tradeExp": 3,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 3
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:gold_coin",
-                "amount": 1
-            },
-            "offer": {
-                "itemKey": "blue_skies:loot_bag_alchemist",
-                "amount": 1,
-                "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_5\",display:{Lore:['[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Flawless Gem Lootbag\",\"italic\":false,\"color\":\"light_purple\"}]'},Rarity:1}"
-            },
-            "tradeExp": 3,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 3
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:gold_coin",
-                "amount": 1
-            },
-            "offer": {
-                "itemKey": "blue_skies:loot_bag_alchemist",
-                "amount": 1,
-                "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_6\",display:{Lore:['[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Smecher Gem Lootbag\",\"italic\":false,\"color\":\"blue\"}]'},Rarity:1}"
-            },
-            "tradeExp": 4,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 4
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:gold_coin",
-                "amount": 1
-            },
-            "offer": {
-                "itemKey": "blue_skies:loot_bag_starlit_crusher",
-                "amount": 1,
-                "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_7\",display:{Lore:['[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Pizdos Gem Lootbag\",\"italic\":false,\"color\":\"red\"}]'},Rarity:1}"
-            },
-            "tradeExp": 4,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 4
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:gold_coin",
-                "amount": 1
-            },
-            "offer": {
-                "itemKey": "blue_skies:loot_bag_starlit_crusher",
-                "amount": 1,
-                "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_8\",display:{Lore:['[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Barosan Gem Lootbag\",\"italic\":false,\"color\":\"aqua\"}]'},Rarity:1}"
-            },
-            "tradeExp": 5,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 5
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:gold_coin",
-                "amount": 1
-            },
-            "offer": {
-                "itemKey": "blue_skies:loot_bag_arachnarch",
-                "amount": 1,
-                "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_9\",display:{Lore:['[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Obscen Gem Lootbag\",\"italic\":false,\"color\":\"yellow\"}]'},Rarity:2}"
-            },
-            "tradeExp": 5,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 5
-        }
-    ],
-    "maxTrades": 100,
-    "profession": "spacecatcustomprofessions:gemist"
+  "profession": "spacecatcustomprofessions:gemist",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_starlit_crusher",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:apotheosis_materials\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Apotheosis Materials Lootbag\",\"italic\":false,\"color\":\"light_purple\"}]\u0027},Rarity:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:silver_coin",
+        "amount": 1
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:gemist_loot_bag_starlit_crusher_for_silver_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_1\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Cracked Gem Lootbag\",\"italic\":false,\"color\":\"gray\"}]\u0027},Rarity:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:silver_coin",
+        "amount": 16
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:gemist_loot_bag_for_silver_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_2\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Chipped Gem Lootbag\",\"italic\":false,\"color\":\"green\"}]\u0027},Rarity:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:silver_coin",
+        "amount": 32
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:gemist_loot_bag_for_silver_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_summoner",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_3\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Flawed Gem Lootbag\",\"italic\":false,\"color\":\"gold\"}]\u0027},Rarity:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 1
+      },
+      "tradeExp": 2,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "spacecatcustomprofessions:gemist_loot_bag_summoner_for_gold_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_summoner",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_4\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Gem Lootbag\",\"italic\":false,\"color\":\"dark_green\"}]\u0027},Rarity:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 2
+      },
+      "tradeExp": 3,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "spacecatcustomprofessions:gemist_loot_bag_summoner_for_gold_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_alchemist",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_5\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Flawless Gem Lootbag\",\"italic\":false,\"color\":\"light_purple\"}]\u0027},Rarity:1}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 4
+      },
+      "tradeExp": 3,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "spacecatcustomprofessions:gemist_loot_bag_alchemist_for_gold_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_alchemist",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_6\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Smecher Gem Lootbag\",\"italic\":false,\"color\":\"blue\"}]\u0027},Rarity:1}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 8
+      },
+      "tradeExp": 4,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "spacecatcustomprofessions:gemist_loot_bag_alchemist_for_gold_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_starlit_crusher",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_7\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Pizdos Gem Lootbag\",\"italic\":false,\"color\":\"red\"}]\u0027},Rarity:1}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 16
+      },
+      "tradeExp": 4,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "spacecatcustomprofessions:gemist_loot_bag_starlit_crusher_for_gold_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_starlit_crusher",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_8\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Barosan Gem Lootbag\",\"italic\":false,\"color\":\"aqua\"}]\u0027},Rarity:1}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 32
+      },
+      "tradeExp": 5,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "spacecatcustomprofessions:gemist_loot_bag_starlit_crusher_for_gold_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_arachnarch",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_9\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Obscen Gem Lootbag\",\"italic\":false,\"color\":\"yellow\"}]\u0027},Rarity:2}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 64
+      },
+      "tradeExp": 5,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "spacecatcustomprofessions:gemist_loot_bag_arachnarch_for_gold_coin_1"
+    }
+  ]
 }

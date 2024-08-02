@@ -10,17 +10,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"minecraft:horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:30.0000f},{Name:\"generic.movement_speed\",Base:0.3375f},{Name:\"horse.jump_strength\",Base:1.0000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:0f}]}}"
+              "tag": "{EntityTag:{id:\"minecraft:horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:60.0000f},{Name:\"generic.movement_speed\",Base:0.3881f},{Name:\"horse.jump_strength\",Base:1.1500f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:15f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Horse Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Horse Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Horse", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Horse", "color": "purple", "italic":false},
                 {"text": "Common", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -32,17 +32,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"minecraft:donkey\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:30.0000f},{Name:\"generic.movement_speed\",Base:0.2250f},{Name:\"horse.jump_strength\",Base:0.7000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:0f}]}}"
+              "tag": "{EntityTag:{id:\"minecraft:donkey\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:60.0000f},{Name:\"generic.movement_speed\",Base:0.2587f},{Name:\"horse.jump_strength\",Base:0.8050f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:15f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Donkey Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Donkey Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Donkey", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Donkey", "color": "purple", "italic":false},
                 {"text": "Common", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -54,17 +54,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"minecraft:mule\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:30.0000f},{Name:\"generic.movement_speed\",Base:0.2250f},{Name:\"horse.jump_strength\",Base:0.7000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:0f}]}}"
+              "tag": "{EntityTag:{id:\"minecraft:mule\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:60.0000f},{Name:\"generic.movement_speed\",Base:0.2587f},{Name:\"horse.jump_strength\",Base:0.8050f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:15f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Mule Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Mule Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Mule", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Mule", "color": "purple", "italic":false},
                 {"text": "Common", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -76,17 +76,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"minecraft:llama\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:15.0000f},{Name:\"generic.movement_speed\",Base:0.2200f},{Name:\"horse.jump_strength\",Base:0.3500f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:0f}]}}"
+              "tag": "{EntityTag:{id:\"minecraft:llama\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:30.0000f},{Name:\"generic.movement_speed\",Base:0.2530f},{Name:\"horse.jump_strength\",Base:0.4025f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:15f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Llama Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Llama Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Llama", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Llama", "color": "purple", "italic":false},
                 {"text": "Very Common", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -98,17 +98,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"minecraft:strider\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:20.0000f},{Name:\"generic.movement_speed\",Base:0.4000f},{Name:\"horse.jump_strength\",Base:0.0000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:0f}]}}"
+              "tag": "{EntityTag:{id:\"minecraft:strider\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:40.0000f},{Name:\"generic.movement_speed\",Base:0.4600f},{Name:\"horse.jump_strength\",Base:0.0000f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:15f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Strider Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Strider Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Strider", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Strider", "color": "purple", "italic":false},
                 {"text": "Common", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -120,17 +120,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"minecraft:camel\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:32.0000f},{Name:\"generic.movement_speed\",Base:0.0900f},{Name:\"horse.jump_strength\",Base:0.5000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:0f}]}}"
+              "tag": "{EntityTag:{id:\"minecraft:camel\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:64.0000f},{Name:\"generic.movement_speed\",Base:0.1035f},{Name:\"horse.jump_strength\",Base:0.5750f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:15f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Camel Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Camel Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Camel", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Camel", "color": "purple", "italic":false},
                 {"text": "Common", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -142,17 +142,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"minecraft:skeleton_horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:40.0000f},{Name:\"generic.movement_speed\",Base:0.5000f},{Name:\"horse.jump_strength\",Base:1.5000f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:0f}]}}"
+              "tag": "{EntityTag:{id:\"minecraft:skeleton_horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:80.0000f},{Name:\"generic.movement_speed\",Base:0.5750f},{Name:\"horse.jump_strength\",Base:1.7250f},{Name:\"generic.armor\",Base:20f},{Name:\"generic.attack_damage\",Base:15f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Skeleton Horse Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Skeleton Horse Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Skeleton Horse", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Skeleton Horse", "color": "purple", "italic":false},
                 {"text": "Mythic", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -164,17 +164,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"minecraft:zombie_horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:40.0000f},{Name:\"generic.movement_speed\",Base:0.5000f},{Name:\"horse.jump_strength\",Base:1.5000f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:0f}]}}"
+              "tag": "{EntityTag:{id:\"minecraft:zombie_horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:80.0000f},{Name:\"generic.movement_speed\",Base:0.5750f},{Name:\"horse.jump_strength\",Base:1.7250f},{Name:\"generic.armor\",Base:20f},{Name:\"generic.attack_damage\",Base:15f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Zombie Horse Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Zombie Horse Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Zombie Horse", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Zombie Horse", "color": "purple", "italic":false},
                 {"text": "Mythic", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -186,17 +186,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"minecraft:ravager\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:100.0000f},{Name:\"generic.movement_speed\",Base:0.3000f},{Name:\"horse.jump_strength\",Base:0.0000f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:10f}]}}"
+              "tag": "{EntityTag:{id:\"minecraft:ravager\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:200.0000f},{Name:\"generic.movement_speed\",Base:0.3450f},{Name:\"horse.jump_strength\",Base:0.0000f},{Name:\"generic.armor\",Base:20f},{Name:\"generic.attack_damage\",Base:25f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Ravager Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Ravager Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Ravager", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Ravager", "color": "purple", "italic":false},
                 {"text": "Epic", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -208,17 +208,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:firebird\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:20.0000f},{Name:\"generic.movement_speed\",Base:0.3000f},{Name:\"horse.jump_strength\",Base:1.0000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:3f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:firebird\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:40.0000f},{Name:\"generic.movement_speed\",Base:0.3450f},{Name:\"horse.jump_strength\",Base:1.1500f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:18f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Zar-ptak Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Zar-ptak Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Zar-ptak", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Zar-ptak", "color": "purple", "italic":false},
                 {"text": "Mythic", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -230,17 +230,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:acencia\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:28.0000f},{Name:\"generic.movement_speed\",Base:0.3000f},{Name:\"horse.jump_strength\",Base:1.5000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:10f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:acencia\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:56.0000f},{Name:\"generic.movement_speed\",Base:0.3450f},{Name:\"horse.jump_strength\",Base:1.7250f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:25f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Acencia Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Acencia Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Acencia", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Acencia", "color": "purple", "italic":false},
                 {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -252,17 +252,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:archelon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:60.0000f},{Name:\"generic.movement_speed\",Base:0.3375f},{Name:\"horse.jump_strength\",Base:1.5000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:6f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:archelon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:120.0000f},{Name:\"generic.movement_speed\",Base:0.3881f},{Name:\"horse.jump_strength\",Base:1.7250f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:21f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Archelon Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Archelon Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Archelon", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Archelon", "color": "purple", "italic":false},
                 {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -274,17 +274,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:colelytra\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:14.0000f},{Name:\"generic.movement_speed\",Base:0.3375f},{Name:\"horse.jump_strength\",Base:1.5000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:2f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:colelytra\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:28.0000f},{Name:\"generic.movement_speed\",Base:0.3881f},{Name:\"horse.jump_strength\",Base:1.7250f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:17f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Colelytra Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Colelytra Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Colelytra", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Colelytra", "color": "purple", "italic":false},
                 {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -296,17 +296,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:courierbird\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:20.0000f},{Name:\"generic.movement_speed\",Base:0.3375f},{Name:\"horse.jump_strength\",Base:1.5000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:4f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:courierbird\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:40.0000f},{Name:\"generic.movement_speed\",Base:0.3881f},{Name:\"horse.jump_strength\",Base:1.7250f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:19f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Courier Bird Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Courier Bird Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Courier Bird", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Courier Bird", "color": "purple", "italic":false},
                 {"text": "Common", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -318,17 +318,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:direwolf\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:30.0000f},{Name:\"generic.movement_speed\",Base:0.4000f},{Name:\"horse.jump_strength\",Base:1.3000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:7f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:direwolf\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:60.0000f},{Name:\"generic.movement_speed\",Base:0.4600f},{Name:\"horse.jump_strength\",Base:1.4950f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:22f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Direwolf Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Direwolf Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Direwolf", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Direwolf", "color": "purple", "italic":false},
                 {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -340,17 +340,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:dragon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:40.0000f},{Name:\"generic.movement_speed\",Base:0.4000f},{Name:\"horse.jump_strength\",Base:1.8000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:10f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:dragon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:80.0000f},{Name:\"generic.movement_speed\",Base:0.4600f},{Name:\"horse.jump_strength\",Base:2.0700f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:25f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Dragon Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Dragon Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Dragon", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Dragon", "color": "purple", "italic":false},
                 {"text": "Mythic", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -362,17 +362,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:griffon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:35.0000f},{Name:\"generic.movement_speed\",Base:0.3000f},{Name:\"horse.jump_strength\",Base:1.4000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:7f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:griffon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:70.0000f},{Name:\"generic.movement_speed\",Base:0.3450f},{Name:\"horse.jump_strength\",Base:1.6100f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:22f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Griffon Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Griffon Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Griffon", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Griffon", "color": "purple", "italic":false},
                 {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -384,17 +384,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:geckotoalizard\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:35.0000f},{Name:\"generic.movement_speed\",Base:0.5000f},{Name:\"horse.jump_strength\",Base:1.8000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:4f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:geckotoalizard\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:70.0000f},{Name:\"generic.movement_speed\",Base:0.5750f},{Name:\"horse.jump_strength\",Base:2.0700f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:19f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Geckotoa Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Geckotoa Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Geckotoa", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Geckotoa", "color": "purple", "italic":false},
                 {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -406,17 +406,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:moth\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:10.0000f},{Name:\"generic.movement_speed\",Base:0.3000f},{Name:\"horse.jump_strength\",Base:1.8000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:2f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:moth\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:20.0000f},{Name:\"generic.movement_speed\",Base:0.3450f},{Name:\"horse.jump_strength\",Base:2.0700f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:17f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Giant Moth Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Giant Moth Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Giant Moth", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Giant Moth", "color": "purple", "italic":false},
                 {"text": "Common", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -428,17 +428,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:netherbat\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:25.0000f},{Name:\"generic.movement_speed\",Base:0.2000f},{Name:\"horse.jump_strength\",Base:1.4000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:4f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:netherbat\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:50.0000f},{Name:\"generic.movement_speed\",Base:0.2300f},{Name:\"horse.jump_strength\",Base:1.6100f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:19f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Nether Bat Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Nether Bat Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Nether Bat", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Nether Bat", "color": "purple", "italic":false},
                 {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -450,17 +450,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:nightmare\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:35.0000f},{Name:\"generic.movement_speed\",Base:0.5000f},{Name:\"horse.jump_strength\",Base:1.7000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:5f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:nightmare\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:70.0000f},{Name:\"generic.movement_speed\",Base:0.5750f},{Name:\"horse.jump_strength\",Base:1.9550f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:20f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Nightmare Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Nightmare Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Nightmare", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Nightmare", "color": "purple", "italic":false},
                 {"text": "Common", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -472,17 +472,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:nudibranch\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:25.0000f},{Name:\"generic.movement_speed\",Base:0.5000f},{Name:\"horse.jump_strength\",Base:1.5000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:3f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:nudibranch\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:50.0000f},{Name:\"generic.movement_speed\",Base:0.5750f},{Name:\"horse.jump_strength\",Base:1.7250f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:18f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Giant Nudibranch Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Giant Nudibranch Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Giant Nudibranch", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Giant Nudibranch", "color": "purple", "italic":false},
                 {"text": "Common", "color": "yellow", "bold":true, "italic":false}
               ]
             }
@@ -494,17 +494,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:ridinglizard\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:20.0000f},{Name:\"generic.movement_speed\",Base:0.4000f},{Name:\"horse.jump_strength\",Base:1.8000f},{Name:\"generic.armor\",Base:0f},{Name:\"generic.attack_damage\",Base:4f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:ridinglizard\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:40.0000f},{Name:\"generic.movement_speed\",Base:0.4600f},{Name:\"horse.jump_strength\",Base:2.0700f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:19f}]}}"
             },
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Crippled Giant Lizard Mount", "color": "white", "bold": true, "italic":false}
+              "name": {"text": "Ordinary Giant Lizard Mount", "color": "dark_aqua", "bold": true, "italic":false}
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
-                {"text": "Tier 1 : Giant Lizard", "color": "purple", "italic":false},
+                {"text": "Tier 4 : Giant Lizard", "color": "purple", "italic":false},
                 {"text": "Common", "color": "yellow", "bold":true, "italic":false}
               ]
             }

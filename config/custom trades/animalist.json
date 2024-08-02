@@ -1,22 +1,164 @@
 {
-    "removeOtherTrades": true,
-    "trades": [
-        {
-            "request": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 5
-            },
-            "offer": {
-                "itemKey": "minecraft:ender_pearl",
-                "amount": 1
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        }
-    ],
-    "maxTrades": 100,
-    "profession": "spacecatcustomprofessions:animalist"
+  "profession": "spacecatcustomprofessions:animalist",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:mounts/tier_1\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag and get a tier 1 mount\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Crippled Random Mount\",\"italic\":false,\"color\":\"white\"}]\u0027},Rarity:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:silver_coin",
+        "amount": 32
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:animalist_loot_bag_for_silver_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:mounts/tier_2\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag and get a tier 2 mount\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Worn Random Mount\",\"italic\":false,\"color\":\"yellow\"}]\u0027},Rarity:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 1
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:animalist_loot_bag_for_gold_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_summoner",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:mounts/tier_3\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag and get a tier 3 mount\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Rustic Random Mount\",\"italic\":false,\"color\":\"gold\"}]\u0027},Rarity:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 2
+      },
+      "tradeExp": 2,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "spacecatcustomprofessions:animalist_loot_bag_summoner_for_gold_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_summoner",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:mounts/tier_4\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag and get a tier 4 mount\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Ordinary Random Mount\",\"italic\":false,\"color\":\"dark_aqua\"}]\u0027},Rarity:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 4
+      },
+      "tradeExp": 2,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "spacecatcustomprofessions:animalist_loot_bag_summoner_for_gold_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_alchemist",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:mounts/tier_5\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag and get a tier 5 mount\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Trained Random Mount\",\"italic\":false,\"color\":\"dark_red\"}]\u0027},Rarity:1}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 8
+      },
+      "tradeExp": 3,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "spacecatcustomprofessions:animalist_loot_bag_alchemist_for_gold_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_alchemist",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:mounts/tier_6\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag and get a tier 6 mount\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Hardened Random Mount\",\"italic\":false,\"color\":\"red\"}]\u0027},Rarity:1}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 16
+      },
+      "tradeExp": 3,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "spacecatcustomprofessions:animalist_loot_bag_alchemist_for_gold_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_starlit_crusher",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:mounts/tier_7\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag and get a tier 7 mount\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Sturdy Random Mount\",\"italic\":false,\"color\":\"light_purple\"}]\u0027},Rarity:1}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 32
+      },
+      "tradeExp": 4,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "spacecatcustomprofessions:animalist_loot_bag_starlit_crusher_for_gold_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_starlit_crusher",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:mounts/tier_8\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag and get a tier 8 mount\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Swift Random Mount\",\"italic\":false,\"color\":\"green\"}]\u0027},Rarity:1}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 64
+      },
+      "tradeExp": 4,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "spacecatcustomprofessions:animalist_loot_bag_starlit_crusher_for_gold_coin_1"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_arachnarch",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:mounts/tier_9\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag and get a tier 9 mount\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Majestic Random Mount\",\"italic\":false,\"color\":\"dark_purple\"}]\u0027},Rarity:2}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 64
+      },
+      "additionalRequest": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 64
+      },
+      "tradeExp": 5,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "spacecatcustomprofessions:animalist_loot_bag_arachnarch_for_gold_coin_and_gold_coin_0"
+    }
+  ]
 }
