@@ -5,6 +5,9 @@
 // Copy these to use them, as KubeJS doesn't support imports yet
 
 var global = {}
+var hasGeckoJs = Platform.isLoaded("geckojs");
+console.info("GeckoJS is " + (hasGeckoJs ? "enabled" : "disabled"));
+
 
 global.createToolTier = (event, id, uses, speed, attackDamageBonus, level, enchantmentValue, repairIngredientTag) => {
     event.add(id, tier => {
@@ -132,11 +135,63 @@ global.creatArmorForTier = (event, tier, textures, name_base) => {
     global.createBoots(event, `${tier}_boots`, textures.boots, tier, `${name_base} Boots`);
 }
 
-global.createGeckoArmorTier = (event, modId, tier, textures, helmName, chestName, pantsName, legName, nameSuffix) => {
-    const helmet = event.create(`${modId}:${tier}_helmet`, 'anim_helmet').displayName(`${helmName} ${nameSuffix}`).texture(textures.helmet).tier(tier);
-    const chestplate = event.create(`${modId}:${tier}_chestplate`, 'anim_chestplate').displayName(`${chestName} ${nameSuffix}`).texture(textures.chestplate).tier(tier);
-    const leggings = event.create(`${modId}:${tier}_leggings`, 'anim_leggings').displayName(`${pantsName} ${nameSuffix}`).texture(textures.leggings).tier(tier);
-    const boots = event.create(`${modId}:${tier}_boots`, 'anim_boots').displayName(`${legName} ${nameSuffix}`).texture(textures.boots).tier(tier);
+global.createGeckoArmorTier = (event, modId, tier, textures, helmName, chestName, pantsName, legName, nameSuffix,
+                               helmModelPath, helmTexturePath, chestModelPath, chestTexturePath, pantsModelPath, pantsTexturePath, bootsModelPath, bootsTexturePath) => {
+    const itemTypePrefix = !hasGeckoJs ? "" : "anim_";
+    const helmet = event.create(`${modId}:${tier}_helmet`, `${itemTypePrefix}helmet`).displayName(`${helmName} ${nameSuffix}`).texture(textures.helmet).tier(tier);
+    const chestplate = event.create(`${modId}:${tier}_chestplate`, `${itemTypePrefix}chestplate`).displayName(`${chestName} ${nameSuffix}`).texture(textures.chestplate).tier(tier);
+    const leggings = event.create(`${modId}:${tier}_leggings`, `${itemTypePrefix}leggings`).displayName(`${pantsName} ${nameSuffix}`).texture(textures.leggings).tier(tier);
+    const boots = event.create(`${modId}:${tier}_boots`, `${itemTypePrefix}boots`).displayName(`${legName} ${nameSuffix}`).texture(textures.boots).tier(tier);
+    if (hasGeckoJs) {
+        helmet
+            .geoModel(geo => {
+                geo.setSimpleModel(helmModelPath);
+                geo.setSimpleTexture(helmTexturePath);
+            })
+            .boneVisibility((renderer, slot) => {
+                renderer.setAllVisible(false);
+                if (slot === "head") {
+                    renderer.setBoneVisible(renderer.getHeadBone(), true);
+                }
+            });
+        chestplate
+            .geoModel(geo => {
+                geo.setSimpleModel(chestModelPath);
+                geo.setSimpleTexture(chestTexturePath);
+            })
+            .boneVisibility((renderer, slot) => {
+                renderer.setAllVisible(false);
+                if (slot === "chest") {
+                    renderer.setBoneVisible(renderer.getBodyBone(), true);
+                    renderer.setBoneVisible(renderer.getRightArmBone(), true);
+                    renderer.setBoneVisible(renderer.getLeftArmBone(), true);
+                }
+            });
+        leggings
+            .geoModel(geo => {
+                geo.setSimpleModel(pantsModelPath);
+                geo.setSimpleTexture(pantsTexturePath);
+            })
+            .boneVisibility((renderer, slot) => {
+                renderer.setAllVisible(false);
+                if (slot === "legs") {
+                    renderer.setBoneVisible(renderer.getRightLegBone(), true);
+                    renderer.setBoneVisible(renderer.getLeftLegBone(), true);
+                }
+            });
+        boots
+            .geoModel(geo => {
+                geo.setSimpleModel(bootsModelPath);
+                geo.setSimpleTexture(bootsTexturePath);
+            })
+            .boneVisibility((renderer, slot) => {
+                renderer.setAllVisible(false);
+                if (slot === "feet") {
+                    renderer.setBoneVisible(renderer.getRightLegBone(), true);
+                    renderer.setBoneVisible(renderer.getLeftLegBone(), true);
+                }
+            });
+    }
     return { helmet: helmet, chestplate: chestplate, leggings: leggings, boots: boots };
 }
 

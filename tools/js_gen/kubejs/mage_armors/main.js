@@ -15,51 +15,8 @@ ItemEvents.armorTierRegistry(event => {
 });
 
 StartupEvents.registry("item", e => {
-    const result = global.createGeckoArmorTier(e, {modId}, {tierId}, global.getMaterialTexturesObject({modId}, {tierId}), {helmName}, {chestName}, {legName}, {bootName}, {nameSuffix});
-    result.helmet
-        .geoModel(geo => {
-        geo.setSimpleModel({modelPath});
-        geo.setSimpleTexture({texturePath});})
-        .boneVisibility((renderer, slot) => {
-            renderer.setAllVisible(false);
-            if (slot === "head") {
-                renderer.setBoneVisible(renderer.getHeadBone(), true);
-            }
-        });
-    result.chestplate
-        .geoModel(geo => {
-        geo.setSimpleModel({modelPath});
-        geo.setSimpleTexture({texturePath});})
-        .boneVisibility((renderer, slot) => {
-            renderer.setAllVisible(false);
-            if (slot === "chest") {
-                renderer.setBoneVisible(renderer.getBodyBone(), true);
-                renderer.setBoneVisible(renderer.getRightArmBone(), true);
-                renderer.setBoneVisible(renderer.getLeftArmBone(), true);
-            }
-        });
-    result.leggings
-        .geoModel(geo => {
-        geo.setSimpleModel({modelPath});
-        geo.setSimpleTexture({texturePath});})
-        .boneVisibility((renderer, slot) => {
-            renderer.setAllVisible(false);
-            if (slot === "legs") {
-                renderer.setBoneVisible(renderer.getRightLegBone(), true);
-                renderer.setBoneVisible(renderer.getLeftLegBone(), true);
-            }
-        });
-    result.boots
-        .geoModel(geo => {
-        geo.setSimpleModel({modelPath});
-        geo.setSimpleTexture({texturePath});})
-        .boneVisibility((renderer, slot) => {
-            renderer.setAllVisible(false);
-            if (slot === "feet") {
-                renderer.setBoneVisible(renderer.getRightLegBone(), true);
-                renderer.setBoneVisible(renderer.getLeftLegBone(), true);
-            }
-        });
+    const result = global.createGeckoArmorTier(e, {modId}, {tierId}, global.getMaterialTexturesObject({modId}, {tierId}), {helmName}, {chestName}, {legName}, {bootName}, {nameSuffix},
+    {modelPath}, {texturePath}, {modelPath}, {texturePath}, {modelPath}, {texturePath}, {modelPath}, {texturePath});
 });
 `
 
