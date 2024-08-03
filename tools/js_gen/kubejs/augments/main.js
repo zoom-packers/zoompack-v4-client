@@ -43,7 +43,7 @@ const attributeValues = {
     shadowwalker: mageAttributeValues,
     priest: mageAttributeValues,
     plagued: mageAttributeValues,
-    cooldown: [0.02, 0.04, 0.06, 0.08, 0.1, 0.12, 0.14, 0.16, 0.18],
+    cooldown: [0.03, 0.06, 0.09, 0.12, 0.15, 0.18, 0.21, 0.24, 0.27],
     barbarian: [0.02, 0.04, 0.06, 0.08, 0.1, 0.12, 0.14, 0.16, 0.18],
     berserker: [0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09],
     crusader: [0.005, 0.01, 0.015, 0.02, 0.025, 0.03, 0.035, 0.04, 0.045],
