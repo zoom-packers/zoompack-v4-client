@@ -5,7 +5,7 @@
 	"minecraft:armor_stand"
   ],
   "slots": [
-    "mage_augment",
+    "augment",
     "shield"
   ]
 }

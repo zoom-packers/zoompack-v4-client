@@ -135,6 +135,32 @@ global.creatArmorForTier = (event, tier, textures, name_base) => {
     global.createBoots(event, `${tier}_boots`, textures.boots, tier, `${name_base} Boots`);
 }
 
+global.createOffhand = (event, id, texture, name) => {
+    event.create(id)
+        .texture(texture)
+        .displayName(name)
+        .maxStackSize(1)
+}
+
+global.createAugument = (event, id, name, texture, attributes) => {
+    var capability = CuriosCapabilityBuilder.CURIOS.itemStack();
+    capability.canEquip((stack, context) => true);
+    capability.canUnequip((stack, context) => true);
+    for (const attribute of attributes) {
+        console.log(attribute.attribute);
+        console.log(attribute.uuid);
+        console.log(attribute.value);
+        console.log(attribute.operation);
+        capability.modifyAttribute(attribute.attribute, attribute.uuid, attribute.value, attribute.operation);
+    }
+
+    event.create(id)
+        .displayName(name)
+        .texture(texture)
+        .maxStackSize(1)
+        .attachCapability(capability);
+}
+
 global.createGeckoArmorTier = (event, modId, tier, textures, helmName, chestName, pantsName, legName, nameSuffix,
                                helmModelPath, helmTexturePath, chestModelPath, chestTexturePath, pantsModelPath, pantsTexturePath, bootsModelPath, bootsTexturePath) => {
     const itemTypePrefix = !hasGeckoJs ? "" : "anim_";

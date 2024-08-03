@@ -3388,12 +3388,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3415,12 +3415,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3442,12 +3442,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3469,12 +3469,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3492,12 +3492,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3519,12 +3519,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3546,12 +3546,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3573,12 +3573,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3596,12 +3596,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3623,12 +3623,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3650,12 +3650,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3677,12 +3677,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3700,12 +3700,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3727,12 +3727,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3754,12 +3754,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3781,12 +3781,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3804,12 +3804,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3831,12 +3831,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3858,12 +3858,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3885,12 +3885,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3908,12 +3908,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3935,12 +3935,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3962,12 +3962,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3989,12 +3989,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4012,12 +4012,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4039,12 +4039,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4066,12 +4066,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4093,12 +4093,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4116,12 +4116,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4143,12 +4143,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4170,12 +4170,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4197,12 +4197,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 25,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.05,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4220,12 +4220,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4247,12 +4247,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4274,12 +4274,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4301,12 +4301,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4324,12 +4324,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4351,12 +4351,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4378,12 +4378,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4405,12 +4405,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4428,12 +4428,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4455,12 +4455,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4482,12 +4482,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4509,12 +4509,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4532,12 +4532,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4559,12 +4559,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4586,12 +4586,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4613,12 +4613,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4636,12 +4636,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4663,12 +4663,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4690,12 +4690,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4717,12 +4717,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4740,12 +4740,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4767,12 +4767,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4794,12 +4794,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4821,12 +4821,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4844,12 +4844,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4871,12 +4871,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4898,12 +4898,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4925,12 +4925,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4948,12 +4948,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4975,12 +4975,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5002,12 +5002,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5029,12 +5029,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 200,
+                    "value": 35,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5052,12 +5052,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5079,12 +5079,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5106,12 +5106,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5133,12 +5133,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5156,12 +5156,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5183,12 +5183,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5210,12 +5210,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5237,12 +5237,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5260,12 +5260,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5287,12 +5287,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5314,12 +5314,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5341,12 +5341,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5364,12 +5364,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5391,12 +5391,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5418,12 +5418,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5445,12 +5445,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5468,12 +5468,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5495,12 +5495,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5522,12 +5522,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5549,12 +5549,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5572,12 +5572,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5599,12 +5599,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5626,12 +5626,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5653,12 +5653,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5676,12 +5676,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5703,12 +5703,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5730,12 +5730,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5757,12 +5757,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5780,12 +5780,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5807,12 +5807,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5834,12 +5834,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5861,12 +5861,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 300,
+                    "value": 50,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.6,
+                    "value": 0.15,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5884,12 +5884,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5911,12 +5911,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5938,12 +5938,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5965,12 +5965,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5988,12 +5988,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6015,12 +6015,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6042,12 +6042,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6069,12 +6069,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6092,12 +6092,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6119,12 +6119,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6146,12 +6146,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6173,12 +6173,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6196,12 +6196,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6223,12 +6223,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6250,12 +6250,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6277,12 +6277,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6300,12 +6300,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6327,12 +6327,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6354,12 +6354,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6381,12 +6381,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6404,12 +6404,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6431,12 +6431,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6458,12 +6458,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6485,12 +6485,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6508,12 +6508,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6535,12 +6535,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6562,12 +6562,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6589,12 +6589,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6612,12 +6612,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6639,12 +6639,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6666,12 +6666,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6693,12 +6693,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 400,
+                    "value": 60,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.8,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6716,12 +6716,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6743,12 +6743,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6770,12 +6770,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6797,12 +6797,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6820,12 +6820,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6847,12 +6847,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6874,12 +6874,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6901,12 +6901,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6924,12 +6924,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6951,12 +6951,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -6978,12 +6978,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7005,12 +7005,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7028,12 +7028,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7055,12 +7055,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7082,12 +7082,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7109,12 +7109,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7132,12 +7132,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7159,12 +7159,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7186,12 +7186,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7213,12 +7213,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7236,12 +7236,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7263,12 +7263,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7290,12 +7290,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7317,12 +7317,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7340,12 +7340,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7367,12 +7367,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7394,12 +7394,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7421,12 +7421,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7444,12 +7444,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7471,12 +7471,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7498,12 +7498,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7525,12 +7525,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 500,
+                    "value": 70,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1,
+                    "value": 0.25,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7548,12 +7548,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7575,12 +7575,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7602,12 +7602,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7629,12 +7629,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7652,12 +7652,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7679,12 +7679,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7706,12 +7706,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7733,12 +7733,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7756,12 +7756,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7783,12 +7783,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7810,12 +7810,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7837,12 +7837,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7860,12 +7860,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7887,12 +7887,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7914,12 +7914,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7941,12 +7941,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7964,12 +7964,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -7991,12 +7991,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8018,12 +8018,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8045,12 +8045,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8068,12 +8068,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8095,12 +8095,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8122,12 +8122,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8149,12 +8149,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8172,12 +8172,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8199,12 +8199,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8226,12 +8226,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8253,12 +8253,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8276,12 +8276,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8303,12 +8303,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8330,12 +8330,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8357,12 +8357,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 600,
+                    "value": 85,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.2,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8380,12 +8380,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8407,12 +8407,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8434,12 +8434,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8461,12 +8461,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8484,12 +8484,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8511,12 +8511,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8538,12 +8538,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8565,12 +8565,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8588,12 +8588,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8615,12 +8615,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8642,12 +8642,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8669,12 +8669,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8692,12 +8692,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8719,12 +8719,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8746,12 +8746,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8773,12 +8773,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8796,12 +8796,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8823,12 +8823,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8850,12 +8850,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8877,12 +8877,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8900,12 +8900,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8927,12 +8927,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8954,12 +8954,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -8981,12 +8981,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -9004,12 +9004,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -9031,12 +9031,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -9058,12 +9058,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -9085,12 +9085,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -9108,12 +9108,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -9135,12 +9135,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -9162,12 +9162,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -9189,15 +9189,2247 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 700,
+                    "value": 100,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 1.4,
+                    "value": 0.4,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:pyromancer_offhand_tier_1",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.02
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.02
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.03
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:cryomancer_offhand_tier_1",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.02
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.02
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.03
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:electromancer_offhand_tier_1",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.02
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.02
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.03
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:archevoker_offhand_tier_1",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:evocation_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.02
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.02
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.03
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:cultist_offhand_tier_1",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.02
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.02
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.03
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:shadowwalker_offhand_tier_1",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:ender_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.02
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.02
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.03
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:priest_offhand_tier_1",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.02
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.02
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.03
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:plagued_offhand_tier_1",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.02
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.02
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.03
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:pyromancer_offhand_tier_2",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.04
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.04
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:cryomancer_offhand_tier_2",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.04
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.04
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:electromancer_offhand_tier_2",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.04
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.04
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:archevoker_offhand_tier_2",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:evocation_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.04
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.04
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:cultist_offhand_tier_2",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.04
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.04
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:shadowwalker_offhand_tier_2",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:ender_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.04
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.04
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:priest_offhand_tier_2",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.04
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.04
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:plagued_offhand_tier_2",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.04
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.04
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:pyromancer_offhand_tier_3",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.09
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:cryomancer_offhand_tier_3",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.09
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:electromancer_offhand_tier_3",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.09
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:archevoker_offhand_tier_3",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:evocation_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.09
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:cultist_offhand_tier_3",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.09
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:shadowwalker_offhand_tier_3",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:ender_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.09
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:priest_offhand_tier_3",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.09
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:plagued_offhand_tier_3",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.06
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.09
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:pyromancer_offhand_tier_4",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.2
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.08
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.08
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:cryomancer_offhand_tier_4",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.2
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.08
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.08
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:electromancer_offhand_tier_4",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.2
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.08
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.08
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:archevoker_offhand_tier_4",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:evocation_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.2
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.08
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.08
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:cultist_offhand_tier_4",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.2
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.08
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.08
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:shadowwalker_offhand_tier_4",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:ender_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.2
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.08
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.08
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:priest_offhand_tier_4",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.2
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.08
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.08
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:plagued_offhand_tier_4",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.2
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.08
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.08
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:pyromancer_offhand_tier_5",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.25
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:cryomancer_offhand_tier_5",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.25
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:electromancer_offhand_tier_5",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.25
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:archevoker_offhand_tier_5",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:evocation_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.25
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:cultist_offhand_tier_5",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.25
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:shadowwalker_offhand_tier_5",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:ender_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.25
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:priest_offhand_tier_5",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.25
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:plagued_offhand_tier_5",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.25
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:pyromancer_offhand_tier_6",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.3
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:cryomancer_offhand_tier_6",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.3
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:electromancer_offhand_tier_6",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.3
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:archevoker_offhand_tier_6",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:evocation_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.3
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:cultist_offhand_tier_6",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.3
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:shadowwalker_offhand_tier_6",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:ender_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.3
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:priest_offhand_tier_6",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.3
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:plagued_offhand_tier_6",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.3
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.12
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:pyromancer_offhand_tier_7",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.35
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.14
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.14
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.21
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:cryomancer_offhand_tier_7",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.35
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.14
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.14
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.21
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:electromancer_offhand_tier_7",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.35
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.14
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.14
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.21
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:archevoker_offhand_tier_7",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:evocation_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.35
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.14
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.14
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.21
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:cultist_offhand_tier_7",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.35
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.14
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.14
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.21
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:shadowwalker_offhand_tier_7",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:ender_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.35
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.14
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.14
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.21
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:priest_offhand_tier_7",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.35
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.14
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.14
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.21
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:plagued_offhand_tier_7",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.35
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.14
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.14
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.21
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:pyromancer_offhand_tier_8",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.4
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.16
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.16
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.24
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:cryomancer_offhand_tier_8",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.4
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.16
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.16
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.24
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:electromancer_offhand_tier_8",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.4
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.16
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.16
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.24
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:archevoker_offhand_tier_8",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:evocation_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.4
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.16
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.16
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.24
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:cultist_offhand_tier_8",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.4
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.16
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.16
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.24
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:shadowwalker_offhand_tier_8",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:ender_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.4
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.16
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.16
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.24
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:priest_offhand_tier_8",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.4
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.16
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.16
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.24
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:plagued_offhand_tier_8",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.4
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.16
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.16
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.24
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:pyromancer_offhand_tier_9",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.45
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.27
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:cryomancer_offhand_tier_9",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.45
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.27
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:electromancer_offhand_tier_9",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.45
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.27
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:archevoker_offhand_tier_9",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:evocation_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.45
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.27
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:cultist_offhand_tier_9",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.45
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.27
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:shadowwalker_offhand_tier_9",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:ender_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.45
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.27
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:priest_offhand_tier_9",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.45
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.27
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_magic:plagued_offhand_tier_9",
+            "overrides_off_hand": [
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.45
+                },
+                {
+                    "attribute": "irons_spellbooks:cooldown_reduction",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.27
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
             "unbreakable": false
         }
     ]

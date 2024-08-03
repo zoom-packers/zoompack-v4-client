@@ -55,10 +55,10 @@ const spellPowers = [
     0.2, 0.4, 0.7, 0.9, 1.1, 1.3, 1.4
 ];
 const manaBoosts = [
-    100, 200, 300, 400, 500, 600, 700
+    25, 35, 50, 60, 70, 85, 100
 ]
 const manaRegens = [
-    0.2, 0.4, 0.6, 0.8, 1.0, 1.2, 1.4
+    0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.4
 ]
 const enchantmentValue = 10;
 const repairIngredientTags = [

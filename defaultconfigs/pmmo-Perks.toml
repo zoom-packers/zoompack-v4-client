@@ -148,7 +148,7 @@
 			perk = "pmmo:attribute"
 			attribute = "irons_spellbooks:mana_regen"
 			skill = "magic"
-			per_level = 0.06
+			per_level = 0.01
 			max_boost = 100.0
 
 		[[Perks.For_Event.SPRINT_JUMP]]
