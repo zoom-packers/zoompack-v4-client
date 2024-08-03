@@ -1,6 +1,6 @@
 {
   "coinConfig": {
-    "enableCoinDrops": true,
+    "enableCoinDrops": false,
     "onlyHostileDrops": false,
     "conversionRate": 64,
     "disableCopperCoin": true,
@@ -22,22 +22,23 @@
     "coinConversionOrder": [
       "bronze",
       "silver",
-      "gold"
+      "gold",
+      "emerald"
     ]
   },
   "loot": {
     "droprates": {
-      "enableHealthDroprates": true,
-      "minimumHealthDroprateMultiplier": 100,
+      "enableHealthDroprates": false,
+      "minimumHealthDroprateMultiplier": 99999999,
       "copper": 0,
       "iron": 0,
-      "gold": 1,
+      "gold": 0,
       "platinum": 0,
       "tin": 0,
       "nickel": 0,
-      "silver": 10,
+      "silver": 0,
       "steel": 0,
-      "bronze": 80,
+      "bronze": 0,
       "brass": 0,
       "osmium": 0,
       "diamond": 0,
@@ -45,17 +46,7 @@
       "ruby": 0,
       "sapphire": 0,
       "topaz": 0,
-      "dropboostHealth": [
-        0,
-        0,
-        400,
-        0,
-        0,
-        0,
-        200,
-        0,
-        100
-      ],
+      "dropboostHealth": [],
       "lootingBonusMax": 0,
       "shouldDropRandomExtra": false,
       "dropExtraLimit": 3
@@ -63,7 +54,7 @@
     "dropCoinsOnPlayerDeath": false,
     "generateChestLoot": false,
     "chestLootLimit": 3,
-    "lootFromSpawnerEntities": true,
+    "lootFromSpawnerEntities": false,
     "serverAllowAutoPickup": true,
     "autoPickup": false
   },
@@ -79,8 +70,9 @@
     "walletMaxSlotSize": 999,
     "clientShowWallet": true,
     "walletDisplay": [
-      "coins",
       "autopickup",
+      "coins",
+      "tokens",
       "movebuttons"
     ]
   }
