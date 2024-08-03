@@ -1,5 +1,15 @@
 const fs = require("fs");
 const {createCiaBoots, createCiaOffhand, operation, addItemToCia} = require("../cia_util");
+const {
+    item_blue_skies,
+    item_aether,
+    item_betternether,
+    item_undergarden,
+    item_betterend,
+    item_deeperdarker,
+    item_theabyss, item_minecraft, item_irons_spellbooks
+} = require("../../libs/item_typedefs");
+const {craftingRecipe} = require("../recipe_util");
 
 const outputDir = "../../../..";
 const scriptPath = `${outputDir}/kubejs/startup_scripts/mage_offhands.js`;
@@ -11,6 +21,11 @@ StartupEvents.registry("item", e => {
 });
 `
 const contentTemplate = `global.createOffhand(e, "{itemId}", "{texture}", "{name}");`
+const recipesTemplate = `
+ServerEvents.recipes(event => { 
+    {recipeStr}
+})
+`
 
 const setIds = [
     "pyromancer",
@@ -117,4 +132,82 @@ const curiosData = {
 };
 
 fs.writeFileSync(curiosDataPath, JSON.stringify(curiosData, null, 4), "utf8");
+
+const craftingTemplate = [
+    "tier_item_base", "tier_item_base", "tier_item_base",
+    "tier_item_base", "set_rune", "tier_item_base",
+    "tier_item_base", "tier_item_base", "tier_item_base"
+]
+
+function buildRecipe(tierItemBase, setRune) {
+    return item => {
+        if (item === "tier_item_base") {
+            return tierItemBase;
+        } else if (item === "set_rune") {
+            return setRune;
+        } else {
+            return item;
+        }
+    };
+}
+
+function getTierItemBase(tier) {
+    switch (tier) {
+        case 1:
+            return item_minecraft.i_diamond;
+        case 2:
+            return item_blue_skies.i_aquite;
+        case 3:
+            return item_aether.i_zanite_gemstone;
+        case 4:
+            return item_betternether.i_nether_ruby;
+        case 5:
+            return item_undergarden.i_froststeel_ingot;
+        case 6:
+            return item_betterend.i_thallasium_forged_plate;
+        case 7:
+            return item_deeperdarker.i_reinforced_echo_shard;
+        case 8:
+            return item_theabyss.i_fixed_bone;
+    }
+}
+
+
+function getSetRune(setName) {
+    switch (setName) {
+        case "pyromancer":
+            return item_irons_spellbooks.i_fire_rune;
+        case "cryomancer":
+            return item_irons_spellbooks.i_ice_rune;
+        case "electromancer":
+            return item_irons_spellbooks.i_lightning_rune;
+        case "archevoker":
+            return item_irons_spellbooks.i_evocation_rune;
+        case "cultist":
+            return item_irons_spellbooks.i_blood_rune;
+        case "shadowwalker":
+            return item_irons_spellbooks.i_ender_rune;
+        case "priest":
+            return item_irons_spellbooks.i_holy_rune;
+        case "plagued":
+            return item_irons_spellbooks.i_nature_rune;
+    }
+}
+
+const recipes = [];
+for (let tierIndex = 0; tierIndex < tiers; tierIndex++) {
+    for (let setId of setIds) {
+        const tierItemBase = getTierItemBase(tierIndex + 1);
+        const setRune = getSetRune(setId);
+        const recipe = craftingTemplate.map(buildRecipe(tierItemBase, setRune));
+        const itemId = `zoomers_magic:${setId}_offhand_tier_${tierIndex + 1}`;
+        const recipeStr = craftingRecipe(itemId, recipe, 1);
+        recipes.push(recipeStr);
+    }
+}
+
+
+const result = recipes.join("\n");
+const recipesStr = recipesTemplate.replace("{recipeStr}", result);
+fs.writeFileSync(`${outputDir}/kubejs/server_scripts/mage_offhands_recipes.js`, recipesStr);
 

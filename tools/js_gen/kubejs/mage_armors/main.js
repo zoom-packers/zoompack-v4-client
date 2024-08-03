@@ -302,6 +302,18 @@ function getSetRune(setName) {
     }
 }
 
+function buildRecipe(tierItemBase, setRune) {
+    return item => {
+        if (item === "tier_item_base") {
+            return tierItemBase;
+        } else if (item === "set_rune") {
+            return setRune;
+        } else {
+            return item;
+        }
+    };
+}
+
 function createRecipes() {
     const helmetRecipeTemplate = [
         null, null, null,
@@ -351,42 +363,10 @@ function createRecipes() {
 
             const setRune = getSetRune(originalSetId);
 
-            const helmetRecipe = helmetRecipeTemplate.map(item => {
-                if (item === "tier_item_base") {
-                    return tierItemBase;
-                } else if (item === "set_rune") {
-                    return setRune;
-                } else {
-                    return item;
-                }
-            })
-            const chestplateRecipe = chestplateRecipeTemplate.map(item => {
-                if (item === "tier_item_base") {
-                    return tierItemBase;
-                } else if (item === "set_rune") {
-                    return setRune;
-                } else {
-                    return item;
-                }
-            })
-            const leggingsRecipe = leggingsRecipeTemplate.map(item => {
-                if (item === "tier_item_base") {
-                    return tierItemBase;
-                } else if (item === "set_rune") {
-                    return setRune;
-                } else {
-                    return item;
-                }
-            })
-            const bootsRecipe = bootsRecipeTemplate.map(item => {
-                if (item === "tier_item_base") {
-                    return tierItemBase;
-                } else if (item === "set_rune") {
-                    return setRune;
-                } else {
-                    return item;
-                }
-            })
+            const helmetRecipe = helmetRecipeTemplate.map(buildRecipe(tierItemBase, setRune))
+            const chestplateRecipe = chestplateRecipeTemplate.map(buildRecipe(tierItemBase, setRune))
+            const leggingsRecipe = leggingsRecipeTemplate.map(buildRecipe(tierItemBase, setRune))
+            const bootsRecipe = bootsRecipeTemplate.map(buildRecipe(tierItemBase, setRune))
 
             const helmetResultId = `${modId}:${tierId}_helmet`;
             const chestplateResultId = `${modId}:${tierId}_chestplate`;
