@@ -5,6 +5,21 @@ base_config = {
   ]
 }
 
+def remove_duplicate_modifiers():
+    used_item_ids = []
+    unique_config = {
+        "items": [
+        ]
+    }
+
+    for item in base_config.get('items'):
+        item_name = item.get('item')
+        if item_name not in used_item_ids:
+            used_item_ids.append(item_name)
+            unique_config.get('items', []).append(item)
+    
+    return unique_config
+
 def fill_config_item_gaps(item_config):
     new_item_config = item_config.copy()
 
@@ -31,6 +46,19 @@ def fill_config_item_gaps(item_config):
 
     return new_item_config.copy()
 
+def alter_config(new_item_config):
+    items = base_config.get("items", [])
+
+    for index in range(0, len(items)):
+        item = items[index]
+        item_name = item.get('item')
+        if item_name == new_item_config.get('item'):
+            items.pop(index)
+            items.append(fill_config_item_gaps(new_item_config))
+            return
+    
+    base_config.get("items", []).append(fill_config_item_gaps(new_item_config))
+
 def new_item_config(mod_id, item_id, item_type, mod_map):
     overrides = []
     for attr, modification in mod_map.items():
@@ -45,35 +73,35 @@ def new_item_config(mod_id, item_id, item_type, mod_map):
             "item": f"{mod_id}:{item_id}",
             "overrides_main_hand": overrides,
         }
-        base_config.get("items", []).append(fill_config_item_gaps(new_item_config))
+        alter_config(new_item_config)
 
     if item_type == 'helmet':
         new_item_config = {
             "item": f"{mod_id}:{item_id}",
             "overrides_head": overrides,
         }
-        base_config.get("items", []).append(fill_config_item_gaps(new_item_config))
+        alter_config(new_item_config)
 
     if item_type == 'chestplate':
         new_item_config = {
             "item": f"{mod_id}:{item_id}",
             "overrides_chest": overrides,
         }
-        base_config.get("items", []).append(fill_config_item_gaps(new_item_config))
+        alter_config(new_item_config)
 
     if item_type == 'leggings':
         new_item_config = {
             "item": f"{mod_id}:{item_id}",
             "overrides_legs": overrides,
         }
-        base_config.get("items", []).append(fill_config_item_gaps(new_item_config))
+        alter_config(new_item_config)
 
     if item_type == 'boots':
         new_item_config = {
             "item": f"{mod_id}:{item_id}",
             "overrides_feet": overrides,
         }
-        base_config.get("items", []).append(fill_config_item_gaps(new_item_config))
+        alter_config(new_item_config)
 
 
 def new_armor_set_config(mod_id, material_prefix, armor_list, armor_toughness, knockback_resistance, hp_bonus=[0,0,0,0], speed_bonus =[0,0,0,0], full_id=False, actual_piece=None):
@@ -160,6 +188,14 @@ def get_durability_list_from_helmet(helmet_durability):
     ]
 
     return quantities
+
+# Non destructive shit
+with open(config_path, 'r') as f:
+    try:
+        base_config = json.loads(f.read())
+    except Exception:
+        pass
+
 
 # Custom item attributes config generator
 # ////////////////////////////////////////////////////////////////////
@@ -428,10 +464,11 @@ new_bow('zoomer_bows', 'unorithe_bow', 476, 6500)
 new_bow('zoomer_bows', 'incorythe_bow', 531, 7000)
 
 
-# Saving
+# Saving + removing duplicates
 # ////////////////////////////////////////////////////////////////////
+clean_config = remove_duplicate_modifiers()
 with open(config_path, 'w+') as f:
-    f.write(json.dumps(base_config, indent=4))
+    f.write(json.dumps(clean_config, indent=4))
 
 # Saving
 # ////////////////////////////////////////////////////////////////////
