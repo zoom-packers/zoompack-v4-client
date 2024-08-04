@@ -1,0 +1,142 @@
+{
+    "default": [
+        {
+            "key": "dungeoncrawl:the_nether_0",
+            "weight": 1
+        }
+    ],
+    "mapping": {
+        "betternether:bone_reef": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:crimson_glowing_woods": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:crimson_pinewood": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:flooded_deltas": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:gravel_desert": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:magma_land": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:nether_grasslands": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:nether_jungle": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:nether_mushroom_forest": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:nether_mushroom_forest_edge": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:nether_swampland": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:nether_swampland_terraces": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:old_fungiwoods": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:old_swampland": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:old_warped_woods": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:poor_nether_grasslands": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:soul_plain": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:sulfuric_bone_reef": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:upside_down_forest": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:upside_down_forest_cleared": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:wart_forest": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ],
+        "betternether:wart_forest_edge": [
+            {
+                "key": "dungeoncrawl:the_nether_0",
+                "weight": 1
+            }
+        ]
+    }
+}

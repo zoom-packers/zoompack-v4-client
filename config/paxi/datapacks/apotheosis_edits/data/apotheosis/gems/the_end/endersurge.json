@@ -32,11 +32,11 @@
       "values": {
         "epic": 1,
         "mythic": 1,
-        "ancient": 7.61,
-        "custom_0": 1.5,
-        "custom_1": 2.25,
-        "custom_2": 3.38,
-        "custom_3": 5.07
+        "ancient": 3.05,
+        "custom_0": 1.25,
+        "custom_1": 1.56,
+        "custom_2": 1.95,
+        "custom_3": 2.44
       }
     }
   ]

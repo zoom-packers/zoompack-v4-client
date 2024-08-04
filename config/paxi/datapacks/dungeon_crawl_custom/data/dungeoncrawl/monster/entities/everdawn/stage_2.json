@@ -1,0 +1,26 @@
+{
+    "common": [
+        {
+            "entity": "minecraft:spider",
+            "weight": 2
+        },
+        {
+            "entity": "minecraft:witch",
+            "weight": 2
+        },
+        {
+            "entity": "minecraft:vindicator",
+            "weight": 1
+        }
+    ],
+    "rare": [
+        {
+            "entity": "blue_skies:venom_spider",
+            "weight": 1
+        },
+        {
+            "entity": "blue_skies:infested_swarmer",
+            "weight": 2
+        }
+    ]
+}

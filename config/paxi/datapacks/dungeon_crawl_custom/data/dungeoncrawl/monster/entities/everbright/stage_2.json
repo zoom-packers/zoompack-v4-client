@@ -1,0 +1,26 @@
+{
+    "common": [
+        {
+            "entity": "blue_skies:shrumpty",
+            "weight": 2
+        },
+        {
+            "entity": "blue_skies:armored_frost_spirit",
+            "weight": 2
+        },
+        {
+            "entity": "minecraft:vindicator",
+            "weight": 1
+        }
+    ],
+    "rare": [
+        {
+            "entity": "blue_skies:diophyde_prowler",
+            "weight": 1
+        },
+        {
+            "entity": "blue_skies:infested_swarmer",
+            "weight": 2
+        }
+    ]
+}

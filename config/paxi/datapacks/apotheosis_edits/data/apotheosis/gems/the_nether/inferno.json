@@ -27,11 +27,11 @@
         "rare": 6,
         "epic": 8,
         "mythic": 10,
-        "ancient": 75.95,
-        "custom_0": 15,
-        "custom_1": 22.5,
-        "custom_2": 33.75,
-        "custom_3": 50.63
+        "ancient": 30.53,
+        "custom_0": 12.5,
+        "custom_1": 15.63,
+        "custom_2": 19.54,
+        "custom_3": 24.42
       }
     },
     {
@@ -71,11 +71,11 @@
         "rare": 1,
         "epic": 1,
         "mythic": 2,
-        "ancient": 15.2,
-        "custom_0": 3,
-        "custom_1": 4.5,
-        "custom_2": 6.75,
-        "custom_3": 10.13
+        "ancient": 6.11,
+        "custom_0": 2.5,
+        "custom_1": 3.13,
+        "custom_2": 3.91,
+        "custom_3": 4.89
       }
     },
     {
@@ -92,11 +92,11 @@
         "rare": 1,
         "epic": 2,
         "mythic": 3,
-        "ancient": 22.8,
-        "custom_0": 4.5,
-        "custom_1": 6.75,
-        "custom_2": 10.13,
-        "custom_3": 15.2
+        "ancient": 9.16,
+        "custom_0": 3.75,
+        "custom_1": 4.69,
+        "custom_2": 5.86,
+        "custom_3": 7.33
       }
     },
     {
@@ -113,11 +113,11 @@
         "rare": 0.5,
         "epic": 0.625,
         "mythic": 0.75,
-        "ancient": 5.75,
-        "custom_0": 1.13,
-        "custom_1": 1.7,
-        "custom_2": 2.55,
-        "custom_3": 3.83
+        "ancient": 2.31,
+        "custom_0": 0.94,
+        "custom_1": 1.18,
+        "custom_2": 1.48,
+        "custom_3": 1.85
       }
     }
   ]

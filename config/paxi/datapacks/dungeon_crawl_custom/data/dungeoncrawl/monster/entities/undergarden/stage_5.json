@@ -1,0 +1,30 @@
+{
+    "common": [
+        {
+            "entity": "undergarden:forgotten",
+            "weight": 3
+        },
+        {
+            "entity": "undergarden:rotbeast",
+            "weight": 1
+        },
+        {
+            "entity": "undergarden:nargoyle",
+            "weight": 2
+        },
+        {
+            "entity": "undergarden:forgotten_guardian",
+            "weight": 1
+        }
+    ],
+    "rare": [
+        {
+            "entity": "undergarden:rotbeast",
+            "weight": 1
+        },
+        {
+            "entity": "undergarden:forgotten_guardian",
+            "weight": 2
+        }
+    ]
+}

@@ -9,7 +9,7 @@
 	#if false, all pmmo loot conditions will be turned off
 	"Treasure Enabled" = true
 	#If false, pmmo will not track if a potion was previously brewed.
-	#this helps with stacking potions from other mods, but 
+	#this helps with stacking potions from other mods, but
 	#does not prevent users from pick-placing potions in the
 	#brewing stand for free XP. Toggle at your discretion.
 	brewing_tracked = true
@@ -29,7 +29,7 @@
 	#level manually.  Note that the number of level settings you enter into this list
 	#will set your max level.  If you only add 10 entries, your max level will be 10.
 	#This setting is intended for players/ops who want fine-tune control over their
-	#level growth.  use with caution.  
+	#level growth.  use with caution.
 	#
 	#As a technical note, if you enter values that are not greater than their previous
 	#value, the entire list will be ignored and revert back to the selected exponential
@@ -51,10 +51,20 @@
 	"Lose Only Excess" = true
 	#Modifies how much xp is earned.  This is multiplicative to the XP.
 	#(Mutually Exclusive to [Skill Modifiers])
-	"Global Modifier" = 0.7
+	"Global Modifier" = 1.0
+
 	#Modifies xp gains for specific skills.  This is multiplicative to the XP.
 	#(Mutually Exclusive to [Global Modifier])
-	"Skill Modifiers" = {}
+	[Levels."Skill Modifiers"]
+		agility = 0.1
+		farming = 0.1
+		swimming = 0.1
+		woodcutting = 0.2
+		mining = 0.2
+		swordsmanship = 4
+		combat = 3
+		archery = 4
+		magic = 4
 
 	#Settings for Linear XP configuration
 	[Levels."LINEAR LEVELS"]
@@ -123,10 +133,74 @@
 				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."minecraft:generic_kill"]
 					combat = 1
 
+				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."minecraft:magic"]
+					combat = 1
+					magic = 1
+
+				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."minecraft:indirect_magic"]
+					combat = 1
+					magic = 1
+
+				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."irons_spellbooks:fire_magic"]
+					combat = 1
+					magic = 1
+
+				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."minecraft:on_fire"]
+					combat = 1
+					magic = 1
+
+				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."irons_spellbooks:fire_field"]
+					combat = 1
+					magic = 1
+
+				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."irons_spellbooks:ice_magic"]
+					combat = 1
+					magic = 1
+
+				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."irons_spellbooks:ender_magic"]
+					combat = 1
+					magic = 1
+
+				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."irons_spellbooks:dragon_breath_pool"]
+					combat = 1
+					magic = 1
+
+				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."irons_spellbooks:lightning_magic"]
+					combat = 1
+					magic = 1
+
+				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."irons_spellbooks:blood_magic"]
+					combat = 1
+					magic = 1
+
+				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."irons_spellbooks:evocation_magic"]
+					combat = 1
+					magic = 1
+
+				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."minecraft:wither"]
+					combat = 1
+					magic = 1
+
+				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."irons_spellbooks:nature_magic"]
+					combat = 1
+					magic = 1
+
+				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."irons_spellbooks:poison_cloud"]
+					combat = 1
+					magic = 1
+
+				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."irons_spellbooks:holy_magic"]
+					combat = 1
+					magic = 1
+
+				[XP_Gains.Event_XP_Specifics.Damage.DEAL_DAMAGE."irons_spellbooks:eldritch_magic"]
+					combat = 1
+					magic = 1
+
 			[XP_Gains.Event_XP_Specifics.Damage.RECEIVE_DAMAGE]
 
 				[XP_Gains.Event_XP_Specifics.Damage.RECEIVE_DAMAGE."#pmmo:magic"]
-					magic = 15
+					magic = 1
 
 				[XP_Gains.Event_XP_Specifics.Damage.RECEIVE_DAMAGE."#pmmo:environment"]
 					endurance = 10

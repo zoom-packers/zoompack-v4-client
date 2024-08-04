@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "blue_skies:chests/cave_spawner/chest_everdawn",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "blue_skies:chests/cave_spawner/chest_everbright",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

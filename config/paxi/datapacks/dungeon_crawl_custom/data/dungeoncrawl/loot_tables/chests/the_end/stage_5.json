@@ -1,0 +1,33 @@
+{
+    "pools": [
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:chests/end_city_treasure"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "betterend:chests/chorus_forest"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "betterend:chests/shadow_forest"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "betterend:chests/foggy_mushroomland"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "betterend:chests/lantern_woods"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "betterend:blocks/umbrella_tree_chest"
+                }
+            ]
+        }
+    ]
+}

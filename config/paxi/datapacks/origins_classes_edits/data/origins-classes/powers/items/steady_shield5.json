@@ -2,11 +2,11 @@
 {
   "type": "apoli:attribute",
   "name": "Steady Shield",
-  "description": "+10% Armor. This shield has been forged by a licensed blacksmith. Please subscribe to their Boomer Facebook.",
+  "description": "+-90% Armor. This shield has been forged by a licensed blacksmith. Please subscribe to their Boomer Facebook.",
   "modifier": {
     "name": "{name}",
     "attribute": "minecraft:generic.armor",
-    "value": 1.1,
+    "value": 0.1,
     "operation": "multiply_base"
   }
 }

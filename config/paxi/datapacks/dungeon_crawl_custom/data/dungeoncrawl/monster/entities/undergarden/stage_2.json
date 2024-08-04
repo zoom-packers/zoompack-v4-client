@@ -1,0 +1,18 @@
+{
+    "common": [
+        {
+            "entity": "undergarden:rotling",
+            "weight": 1
+        },
+        {
+            "entity": "undergarden:rotwalker",
+            "weight": 1
+        }
+    ],
+    "rare": [
+        {
+            "entity": "undergarden:rotbeast",
+            "weight": 1
+        }
+    ]
+}

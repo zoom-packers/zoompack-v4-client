@@ -7,11 +7,11 @@ let cook_modifiers = [
     {id: "add40", "mode": "add", "value": 8, "base_weight": 12.5},
     {id: "add50", "mode": "add", "value": 10, "base_weight": 6.25},
 
-    {id: "mul10", "mode": "mul", "value": 1.1, "base_weight": 50},
-    {id: "mul20", "mode": "mul", "value": 1.2, "base_weight": 25},
-    {id: "mul30", "mode": "mul", "value": 1.3, "base_weight": 12.5},
-    {id: "mul40", "mode": "mul", "value": 1.4, "base_weight": 6.25},
-    {id: "mul50", "mode": "mul", "value": 1.5, "base_weight": 3.125},
+    {id: "mul10", "mode": "mul", "value": 0.1, "base_weight": 50},
+    {id: "mul20", "mode": "mul", "value": 0.2, "base_weight": 25},
+    {id: "mul30", "mode": "mul", "value": 0.3, "base_weight": 12.5},
+    {id: "mul40", "mode": "mul", "value": 0.4, "base_weight": 6.25},
+    {id: "mul50", "mode": "mul", "value": 0.5, "base_weight": 3.125},
 ]
 
 let cook_level_caps = [ 0, 20, 40, 60, 80]

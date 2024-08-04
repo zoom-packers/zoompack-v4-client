@@ -5,14 +5,11 @@
 	"categories": [
 			"combat",
 			"mining",
-			"classes",
-			"races",
 			"swimming",
 			"jump",
 			"sprint",
 			"tank",
 			"fishing",
-			"villager",
-			"admin"
+			"villager"
 		]
 	}

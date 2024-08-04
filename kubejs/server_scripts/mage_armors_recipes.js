@@ -1,0 +1,675 @@
+
+ServerEvents.recipes(event => { 
+    
+event.shaped('1x irons_spellbooks:pyromancer_tier_2_helmet', ["   ","DEF","GHI"], {"D":"blue_skies:aquite","E":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"irons_spellbooks:fire_rune","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_2_chestplate', ["ABC","DEF","GHI"], {"A":"blue_skies:aquite","B":"irons_spellbooks:fire_rune","C":"blue_skies:aquite","D":"blue_skies:aquite","E":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"blue_skies:aquite","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_2_leggings', ["ABC","DEF","G I"], {"A":"blue_skies:aquite","B":"blue_skies:aquite","C":"blue_skies:aquite","D":"blue_skies:aquite","E":"irons_spellbooks:fire_rune","F":"blue_skies:aquite","G":"blue_skies:aquite","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_2_boots', ["   ","D F","GHI"], {"D":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"irons_spellbooks:fire_rune","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_2_helmet', ["   ","DEF","GHI"], {"D":"blue_skies:aquite","E":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"irons_spellbooks:ice_rune","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_2_chestplate', ["ABC","DEF","GHI"], {"A":"blue_skies:aquite","B":"irons_spellbooks:ice_rune","C":"blue_skies:aquite","D":"blue_skies:aquite","E":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"blue_skies:aquite","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_2_leggings', ["ABC","DEF","G I"], {"A":"blue_skies:aquite","B":"blue_skies:aquite","C":"blue_skies:aquite","D":"blue_skies:aquite","E":"irons_spellbooks:ice_rune","F":"blue_skies:aquite","G":"blue_skies:aquite","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_2_boots', ["   ","D F","GHI"], {"D":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"irons_spellbooks:ice_rune","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_2_helmet', ["   ","DEF","GHI"], {"D":"blue_skies:aquite","E":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"irons_spellbooks:lightning_rune","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_2_chestplate', ["ABC","DEF","GHI"], {"A":"blue_skies:aquite","B":"irons_spellbooks:lightning_rune","C":"blue_skies:aquite","D":"blue_skies:aquite","E":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"blue_skies:aquite","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_2_leggings', ["ABC","DEF","G I"], {"A":"blue_skies:aquite","B":"blue_skies:aquite","C":"blue_skies:aquite","D":"blue_skies:aquite","E":"irons_spellbooks:lightning_rune","F":"blue_skies:aquite","G":"blue_skies:aquite","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_2_boots', ["   ","D F","GHI"], {"D":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"irons_spellbooks:lightning_rune","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_2_helmet', ["   ","DEF","GHI"], {"D":"blue_skies:aquite","E":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"irons_spellbooks:evocation_rune","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_2_chestplate', ["ABC","DEF","GHI"], {"A":"blue_skies:aquite","B":"irons_spellbooks:evocation_rune","C":"blue_skies:aquite","D":"blue_skies:aquite","E":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"blue_skies:aquite","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_2_leggings', ["ABC","DEF","G I"], {"A":"blue_skies:aquite","B":"blue_skies:aquite","C":"blue_skies:aquite","D":"blue_skies:aquite","E":"irons_spellbooks:evocation_rune","F":"blue_skies:aquite","G":"blue_skies:aquite","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_2_boots', ["   ","D F","GHI"], {"D":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"irons_spellbooks:evocation_rune","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_2_helmet', ["   ","DEF","GHI"], {"D":"blue_skies:aquite","E":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"irons_spellbooks:blood_rune","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_2_chestplate', ["ABC","DEF","GHI"], {"A":"blue_skies:aquite","B":"irons_spellbooks:blood_rune","C":"blue_skies:aquite","D":"blue_skies:aquite","E":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"blue_skies:aquite","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_2_leggings', ["ABC","DEF","G I"], {"A":"blue_skies:aquite","B":"blue_skies:aquite","C":"blue_skies:aquite","D":"blue_skies:aquite","E":"irons_spellbooks:blood_rune","F":"blue_skies:aquite","G":"blue_skies:aquite","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_2_boots', ["   ","D F","GHI"], {"D":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"irons_spellbooks:blood_rune","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_2_helmet', ["   ","DEF","GHI"], {"D":"blue_skies:aquite","E":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"irons_spellbooks:ender_rune","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_2_chestplate', ["ABC","DEF","GHI"], {"A":"blue_skies:aquite","B":"irons_spellbooks:ender_rune","C":"blue_skies:aquite","D":"blue_skies:aquite","E":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"blue_skies:aquite","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_2_leggings', ["ABC","DEF","G I"], {"A":"blue_skies:aquite","B":"blue_skies:aquite","C":"blue_skies:aquite","D":"blue_skies:aquite","E":"irons_spellbooks:ender_rune","F":"blue_skies:aquite","G":"blue_skies:aquite","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_2_boots', ["   ","D F","GHI"], {"D":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"irons_spellbooks:ender_rune","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_2_helmet', ["   ","DEF","GHI"], {"D":"blue_skies:aquite","E":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"irons_spellbooks:holy_rune","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_2_chestplate', ["ABC","DEF","GHI"], {"A":"blue_skies:aquite","B":"irons_spellbooks:holy_rune","C":"blue_skies:aquite","D":"blue_skies:aquite","E":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"blue_skies:aquite","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_2_leggings', ["ABC","DEF","G I"], {"A":"blue_skies:aquite","B":"blue_skies:aquite","C":"blue_skies:aquite","D":"blue_skies:aquite","E":"irons_spellbooks:holy_rune","F":"blue_skies:aquite","G":"blue_skies:aquite","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_2_boots', ["   ","D F","GHI"], {"D":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"irons_spellbooks:holy_rune","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_2_helmet', ["   ","DEF","GHI"], {"D":"blue_skies:aquite","E":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"irons_spellbooks:nature_rune","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_2_chestplate', ["ABC","DEF","GHI"], {"A":"blue_skies:aquite","B":"irons_spellbooks:nature_rune","C":"blue_skies:aquite","D":"blue_skies:aquite","E":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"blue_skies:aquite","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_2_leggings', ["ABC","DEF","G I"], {"A":"blue_skies:aquite","B":"blue_skies:aquite","C":"blue_skies:aquite","D":"blue_skies:aquite","E":"irons_spellbooks:nature_rune","F":"blue_skies:aquite","G":"blue_skies:aquite","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_2_boots', ["   ","D F","GHI"], {"D":"blue_skies:aquite","F":"blue_skies:aquite","G":"blue_skies:aquite","H":"irons_spellbooks:nature_rune","I":"blue_skies:aquite"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_3_helmet', ["   ","DEF","GHI"], {"D":"aether:zanite_gemstone","E":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"irons_spellbooks:fire_rune","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_3_chestplate', ["ABC","DEF","GHI"], {"A":"aether:zanite_gemstone","B":"irons_spellbooks:fire_rune","C":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"aether:zanite_gemstone","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_3_leggings', ["ABC","DEF","G I"], {"A":"aether:zanite_gemstone","B":"aether:zanite_gemstone","C":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"irons_spellbooks:fire_rune","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_3_boots', ["   ","D F","GHI"], {"D":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"irons_spellbooks:fire_rune","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_3_helmet', ["   ","DEF","GHI"], {"D":"aether:zanite_gemstone","E":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"irons_spellbooks:ice_rune","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_3_chestplate', ["ABC","DEF","GHI"], {"A":"aether:zanite_gemstone","B":"irons_spellbooks:ice_rune","C":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"aether:zanite_gemstone","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_3_leggings', ["ABC","DEF","G I"], {"A":"aether:zanite_gemstone","B":"aether:zanite_gemstone","C":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"irons_spellbooks:ice_rune","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_3_boots', ["   ","D F","GHI"], {"D":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"irons_spellbooks:ice_rune","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_3_helmet', ["   ","DEF","GHI"], {"D":"aether:zanite_gemstone","E":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"irons_spellbooks:lightning_rune","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_3_chestplate', ["ABC","DEF","GHI"], {"A":"aether:zanite_gemstone","B":"irons_spellbooks:lightning_rune","C":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"aether:zanite_gemstone","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_3_leggings', ["ABC","DEF","G I"], {"A":"aether:zanite_gemstone","B":"aether:zanite_gemstone","C":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"irons_spellbooks:lightning_rune","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_3_boots', ["   ","D F","GHI"], {"D":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"irons_spellbooks:lightning_rune","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_3_helmet', ["   ","DEF","GHI"], {"D":"aether:zanite_gemstone","E":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"irons_spellbooks:evocation_rune","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_3_chestplate', ["ABC","DEF","GHI"], {"A":"aether:zanite_gemstone","B":"irons_spellbooks:evocation_rune","C":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"aether:zanite_gemstone","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_3_leggings', ["ABC","DEF","G I"], {"A":"aether:zanite_gemstone","B":"aether:zanite_gemstone","C":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"irons_spellbooks:evocation_rune","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_3_boots', ["   ","D F","GHI"], {"D":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"irons_spellbooks:evocation_rune","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_3_helmet', ["   ","DEF","GHI"], {"D":"aether:zanite_gemstone","E":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"irons_spellbooks:blood_rune","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_3_chestplate', ["ABC","DEF","GHI"], {"A":"aether:zanite_gemstone","B":"irons_spellbooks:blood_rune","C":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"aether:zanite_gemstone","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_3_leggings', ["ABC","DEF","G I"], {"A":"aether:zanite_gemstone","B":"aether:zanite_gemstone","C":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"irons_spellbooks:blood_rune","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_3_boots', ["   ","D F","GHI"], {"D":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"irons_spellbooks:blood_rune","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_3_helmet', ["   ","DEF","GHI"], {"D":"aether:zanite_gemstone","E":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"irons_spellbooks:ender_rune","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_3_chestplate', ["ABC","DEF","GHI"], {"A":"aether:zanite_gemstone","B":"irons_spellbooks:ender_rune","C":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"aether:zanite_gemstone","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_3_leggings', ["ABC","DEF","G I"], {"A":"aether:zanite_gemstone","B":"aether:zanite_gemstone","C":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"irons_spellbooks:ender_rune","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_3_boots', ["   ","D F","GHI"], {"D":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"irons_spellbooks:ender_rune","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_3_helmet', ["   ","DEF","GHI"], {"D":"aether:zanite_gemstone","E":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"irons_spellbooks:holy_rune","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_3_chestplate', ["ABC","DEF","GHI"], {"A":"aether:zanite_gemstone","B":"irons_spellbooks:holy_rune","C":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"aether:zanite_gemstone","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_3_leggings', ["ABC","DEF","G I"], {"A":"aether:zanite_gemstone","B":"aether:zanite_gemstone","C":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"irons_spellbooks:holy_rune","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_3_boots', ["   ","D F","GHI"], {"D":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"irons_spellbooks:holy_rune","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_3_helmet', ["   ","DEF","GHI"], {"D":"aether:zanite_gemstone","E":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"irons_spellbooks:nature_rune","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_3_chestplate', ["ABC","DEF","GHI"], {"A":"aether:zanite_gemstone","B":"irons_spellbooks:nature_rune","C":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"aether:zanite_gemstone","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_3_leggings', ["ABC","DEF","G I"], {"A":"aether:zanite_gemstone","B":"aether:zanite_gemstone","C":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"irons_spellbooks:nature_rune","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_3_boots', ["   ","D F","GHI"], {"D":"aether:zanite_gemstone","F":"aether:zanite_gemstone","G":"aether:zanite_gemstone","H":"irons_spellbooks:nature_rune","I":"aether:zanite_gemstone"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_4_helmet', ["   ","DEF","GHI"], {"D":"betternether:nether_ruby","E":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"irons_spellbooks:fire_rune","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_4_chestplate', ["ABC","DEF","GHI"], {"A":"betternether:nether_ruby","B":"irons_spellbooks:fire_rune","C":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"betternether:nether_ruby","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_4_leggings', ["ABC","DEF","G I"], {"A":"betternether:nether_ruby","B":"betternether:nether_ruby","C":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"irons_spellbooks:fire_rune","F":"betternether:nether_ruby","G":"betternether:nether_ruby","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_4_boots', ["   ","D F","GHI"], {"D":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"irons_spellbooks:fire_rune","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_4_helmet', ["   ","DEF","GHI"], {"D":"betternether:nether_ruby","E":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"irons_spellbooks:ice_rune","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_4_chestplate', ["ABC","DEF","GHI"], {"A":"betternether:nether_ruby","B":"irons_spellbooks:ice_rune","C":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"betternether:nether_ruby","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_4_leggings', ["ABC","DEF","G I"], {"A":"betternether:nether_ruby","B":"betternether:nether_ruby","C":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"irons_spellbooks:ice_rune","F":"betternether:nether_ruby","G":"betternether:nether_ruby","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_4_boots', ["   ","D F","GHI"], {"D":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"irons_spellbooks:ice_rune","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_4_helmet', ["   ","DEF","GHI"], {"D":"betternether:nether_ruby","E":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"irons_spellbooks:lightning_rune","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_4_chestplate', ["ABC","DEF","GHI"], {"A":"betternether:nether_ruby","B":"irons_spellbooks:lightning_rune","C":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"betternether:nether_ruby","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_4_leggings', ["ABC","DEF","G I"], {"A":"betternether:nether_ruby","B":"betternether:nether_ruby","C":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"irons_spellbooks:lightning_rune","F":"betternether:nether_ruby","G":"betternether:nether_ruby","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_4_boots', ["   ","D F","GHI"], {"D":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"irons_spellbooks:lightning_rune","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_4_helmet', ["   ","DEF","GHI"], {"D":"betternether:nether_ruby","E":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"irons_spellbooks:evocation_rune","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_4_chestplate', ["ABC","DEF","GHI"], {"A":"betternether:nether_ruby","B":"irons_spellbooks:evocation_rune","C":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"betternether:nether_ruby","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_4_leggings', ["ABC","DEF","G I"], {"A":"betternether:nether_ruby","B":"betternether:nether_ruby","C":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"irons_spellbooks:evocation_rune","F":"betternether:nether_ruby","G":"betternether:nether_ruby","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_4_boots', ["   ","D F","GHI"], {"D":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"irons_spellbooks:evocation_rune","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_4_helmet', ["   ","DEF","GHI"], {"D":"betternether:nether_ruby","E":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"irons_spellbooks:blood_rune","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_4_chestplate', ["ABC","DEF","GHI"], {"A":"betternether:nether_ruby","B":"irons_spellbooks:blood_rune","C":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"betternether:nether_ruby","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_4_leggings', ["ABC","DEF","G I"], {"A":"betternether:nether_ruby","B":"betternether:nether_ruby","C":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"irons_spellbooks:blood_rune","F":"betternether:nether_ruby","G":"betternether:nether_ruby","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_4_boots', ["   ","D F","GHI"], {"D":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"irons_spellbooks:blood_rune","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_4_helmet', ["   ","DEF","GHI"], {"D":"betternether:nether_ruby","E":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"irons_spellbooks:ender_rune","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_4_chestplate', ["ABC","DEF","GHI"], {"A":"betternether:nether_ruby","B":"irons_spellbooks:ender_rune","C":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"betternether:nether_ruby","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_4_leggings', ["ABC","DEF","G I"], {"A":"betternether:nether_ruby","B":"betternether:nether_ruby","C":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"irons_spellbooks:ender_rune","F":"betternether:nether_ruby","G":"betternether:nether_ruby","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_4_boots', ["   ","D F","GHI"], {"D":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"irons_spellbooks:ender_rune","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_4_helmet', ["   ","DEF","GHI"], {"D":"betternether:nether_ruby","E":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"irons_spellbooks:holy_rune","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_4_chestplate', ["ABC","DEF","GHI"], {"A":"betternether:nether_ruby","B":"irons_spellbooks:holy_rune","C":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"betternether:nether_ruby","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_4_leggings', ["ABC","DEF","G I"], {"A":"betternether:nether_ruby","B":"betternether:nether_ruby","C":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"irons_spellbooks:holy_rune","F":"betternether:nether_ruby","G":"betternether:nether_ruby","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_4_boots', ["   ","D F","GHI"], {"D":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"irons_spellbooks:holy_rune","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_4_helmet', ["   ","DEF","GHI"], {"D":"betternether:nether_ruby","E":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"irons_spellbooks:nature_rune","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_4_chestplate', ["ABC","DEF","GHI"], {"A":"betternether:nether_ruby","B":"irons_spellbooks:nature_rune","C":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"betternether:nether_ruby","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_4_leggings', ["ABC","DEF","G I"], {"A":"betternether:nether_ruby","B":"betternether:nether_ruby","C":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"irons_spellbooks:nature_rune","F":"betternether:nether_ruby","G":"betternether:nether_ruby","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_4_boots', ["   ","D F","GHI"], {"D":"betternether:nether_ruby","F":"betternether:nether_ruby","G":"betternether:nether_ruby","H":"irons_spellbooks:nature_rune","I":"betternether:nether_ruby"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_5_helmet', ["   ","DEF","GHI"], {"D":"undergarden:froststeel_ingot","E":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"irons_spellbooks:fire_rune","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_5_chestplate', ["ABC","DEF","GHI"], {"A":"undergarden:froststeel_ingot","B":"irons_spellbooks:fire_rune","C":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"undergarden:froststeel_ingot","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_5_leggings', ["ABC","DEF","G I"], {"A":"undergarden:froststeel_ingot","B":"undergarden:froststeel_ingot","C":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"irons_spellbooks:fire_rune","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_5_boots', ["   ","D F","GHI"], {"D":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"irons_spellbooks:fire_rune","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_5_helmet', ["   ","DEF","GHI"], {"D":"undergarden:froststeel_ingot","E":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"irons_spellbooks:ice_rune","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_5_chestplate', ["ABC","DEF","GHI"], {"A":"undergarden:froststeel_ingot","B":"irons_spellbooks:ice_rune","C":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"undergarden:froststeel_ingot","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_5_leggings', ["ABC","DEF","G I"], {"A":"undergarden:froststeel_ingot","B":"undergarden:froststeel_ingot","C":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"irons_spellbooks:ice_rune","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_5_boots', ["   ","D F","GHI"], {"D":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"irons_spellbooks:ice_rune","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_5_helmet', ["   ","DEF","GHI"], {"D":"undergarden:froststeel_ingot","E":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"irons_spellbooks:lightning_rune","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_5_chestplate', ["ABC","DEF","GHI"], {"A":"undergarden:froststeel_ingot","B":"irons_spellbooks:lightning_rune","C":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"undergarden:froststeel_ingot","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_5_leggings', ["ABC","DEF","G I"], {"A":"undergarden:froststeel_ingot","B":"undergarden:froststeel_ingot","C":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"irons_spellbooks:lightning_rune","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_5_boots', ["   ","D F","GHI"], {"D":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"irons_spellbooks:lightning_rune","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_5_helmet', ["   ","DEF","GHI"], {"D":"undergarden:froststeel_ingot","E":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"irons_spellbooks:evocation_rune","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_5_chestplate', ["ABC","DEF","GHI"], {"A":"undergarden:froststeel_ingot","B":"irons_spellbooks:evocation_rune","C":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"undergarden:froststeel_ingot","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_5_leggings', ["ABC","DEF","G I"], {"A":"undergarden:froststeel_ingot","B":"undergarden:froststeel_ingot","C":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"irons_spellbooks:evocation_rune","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_5_boots', ["   ","D F","GHI"], {"D":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"irons_spellbooks:evocation_rune","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_5_helmet', ["   ","DEF","GHI"], {"D":"undergarden:froststeel_ingot","E":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"irons_spellbooks:blood_rune","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_5_chestplate', ["ABC","DEF","GHI"], {"A":"undergarden:froststeel_ingot","B":"irons_spellbooks:blood_rune","C":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"undergarden:froststeel_ingot","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_5_leggings', ["ABC","DEF","G I"], {"A":"undergarden:froststeel_ingot","B":"undergarden:froststeel_ingot","C":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"irons_spellbooks:blood_rune","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_5_boots', ["   ","D F","GHI"], {"D":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"irons_spellbooks:blood_rune","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_5_helmet', ["   ","DEF","GHI"], {"D":"undergarden:froststeel_ingot","E":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"irons_spellbooks:ender_rune","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_5_chestplate', ["ABC","DEF","GHI"], {"A":"undergarden:froststeel_ingot","B":"irons_spellbooks:ender_rune","C":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"undergarden:froststeel_ingot","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_5_leggings', ["ABC","DEF","G I"], {"A":"undergarden:froststeel_ingot","B":"undergarden:froststeel_ingot","C":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"irons_spellbooks:ender_rune","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_5_boots', ["   ","D F","GHI"], {"D":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"irons_spellbooks:ender_rune","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_5_helmet', ["   ","DEF","GHI"], {"D":"undergarden:froststeel_ingot","E":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"irons_spellbooks:holy_rune","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_5_chestplate', ["ABC","DEF","GHI"], {"A":"undergarden:froststeel_ingot","B":"irons_spellbooks:holy_rune","C":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"undergarden:froststeel_ingot","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_5_leggings', ["ABC","DEF","G I"], {"A":"undergarden:froststeel_ingot","B":"undergarden:froststeel_ingot","C":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"irons_spellbooks:holy_rune","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_5_boots', ["   ","D F","GHI"], {"D":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"irons_spellbooks:holy_rune","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_5_helmet', ["   ","DEF","GHI"], {"D":"undergarden:froststeel_ingot","E":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"irons_spellbooks:nature_rune","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_5_chestplate', ["ABC","DEF","GHI"], {"A":"undergarden:froststeel_ingot","B":"irons_spellbooks:nature_rune","C":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"undergarden:froststeel_ingot","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_5_leggings', ["ABC","DEF","G I"], {"A":"undergarden:froststeel_ingot","B":"undergarden:froststeel_ingot","C":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"irons_spellbooks:nature_rune","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_5_boots', ["   ","D F","GHI"], {"D":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"irons_spellbooks:nature_rune","I":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_6_helmet', ["   ","DEF","GHI"], {"D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:fire_rune","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"betterend:thallasium_forged_plate","B":"irons_spellbooks:fire_rune","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_6_leggings', ["ABC","DEF","G I"], {"A":"betterend:thallasium_forged_plate","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:fire_rune","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_6_boots', ["   ","D F","GHI"], {"D":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:fire_rune","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_6_helmet', ["   ","DEF","GHI"], {"D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:ice_rune","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"betterend:thallasium_forged_plate","B":"irons_spellbooks:ice_rune","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_6_leggings', ["ABC","DEF","G I"], {"A":"betterend:thallasium_forged_plate","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:ice_rune","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_6_boots', ["   ","D F","GHI"], {"D":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:ice_rune","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_6_helmet', ["   ","DEF","GHI"], {"D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:lightning_rune","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"betterend:thallasium_forged_plate","B":"irons_spellbooks:lightning_rune","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_6_leggings', ["ABC","DEF","G I"], {"A":"betterend:thallasium_forged_plate","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:lightning_rune","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_6_boots', ["   ","D F","GHI"], {"D":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:lightning_rune","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_6_helmet', ["   ","DEF","GHI"], {"D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:evocation_rune","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"betterend:thallasium_forged_plate","B":"irons_spellbooks:evocation_rune","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_6_leggings', ["ABC","DEF","G I"], {"A":"betterend:thallasium_forged_plate","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:evocation_rune","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_6_boots', ["   ","D F","GHI"], {"D":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:evocation_rune","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_6_helmet', ["   ","DEF","GHI"], {"D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:blood_rune","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"betterend:thallasium_forged_plate","B":"irons_spellbooks:blood_rune","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_6_leggings', ["ABC","DEF","G I"], {"A":"betterend:thallasium_forged_plate","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:blood_rune","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_6_boots', ["   ","D F","GHI"], {"D":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:blood_rune","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_6_helmet', ["   ","DEF","GHI"], {"D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:ender_rune","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"betterend:thallasium_forged_plate","B":"irons_spellbooks:ender_rune","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_6_leggings', ["ABC","DEF","G I"], {"A":"betterend:thallasium_forged_plate","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:ender_rune","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_6_boots', ["   ","D F","GHI"], {"D":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:ender_rune","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_6_helmet', ["   ","DEF","GHI"], {"D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:holy_rune","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"betterend:thallasium_forged_plate","B":"irons_spellbooks:holy_rune","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_6_leggings', ["ABC","DEF","G I"], {"A":"betterend:thallasium_forged_plate","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:holy_rune","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_6_boots', ["   ","D F","GHI"], {"D":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:holy_rune","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_6_helmet', ["   ","DEF","GHI"], {"D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:nature_rune","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"betterend:thallasium_forged_plate","B":"irons_spellbooks:nature_rune","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_6_leggings', ["ABC","DEF","G I"], {"A":"betterend:thallasium_forged_plate","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:nature_rune","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_6_boots', ["   ","D F","GHI"], {"D":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:nature_rune","I":"betterend:thallasium_forged_plate"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_7_helmet', ["   ","DEF","GHI"], {"D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:fire_rune","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"deeperdarker:reinforced_echo_shard","B":"irons_spellbooks:fire_rune","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_7_leggings', ["ABC","DEF","G I"], {"A":"deeperdarker:reinforced_echo_shard","B":"deeperdarker:reinforced_echo_shard","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:fire_rune","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_7_boots', ["   ","D F","GHI"], {"D":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:fire_rune","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_7_helmet', ["   ","DEF","GHI"], {"D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:ice_rune","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"deeperdarker:reinforced_echo_shard","B":"irons_spellbooks:ice_rune","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_7_leggings', ["ABC","DEF","G I"], {"A":"deeperdarker:reinforced_echo_shard","B":"deeperdarker:reinforced_echo_shard","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:ice_rune","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_7_boots', ["   ","D F","GHI"], {"D":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:ice_rune","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_7_helmet', ["   ","DEF","GHI"], {"D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:lightning_rune","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"deeperdarker:reinforced_echo_shard","B":"irons_spellbooks:lightning_rune","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_7_leggings', ["ABC","DEF","G I"], {"A":"deeperdarker:reinforced_echo_shard","B":"deeperdarker:reinforced_echo_shard","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:lightning_rune","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_7_boots', ["   ","D F","GHI"], {"D":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:lightning_rune","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_7_helmet', ["   ","DEF","GHI"], {"D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:evocation_rune","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"deeperdarker:reinforced_echo_shard","B":"irons_spellbooks:evocation_rune","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_7_leggings', ["ABC","DEF","G I"], {"A":"deeperdarker:reinforced_echo_shard","B":"deeperdarker:reinforced_echo_shard","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:evocation_rune","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_7_boots', ["   ","D F","GHI"], {"D":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:evocation_rune","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_7_helmet', ["   ","DEF","GHI"], {"D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:blood_rune","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"deeperdarker:reinforced_echo_shard","B":"irons_spellbooks:blood_rune","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_7_leggings', ["ABC","DEF","G I"], {"A":"deeperdarker:reinforced_echo_shard","B":"deeperdarker:reinforced_echo_shard","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:blood_rune","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_7_boots', ["   ","D F","GHI"], {"D":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:blood_rune","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_7_helmet', ["   ","DEF","GHI"], {"D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:ender_rune","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"deeperdarker:reinforced_echo_shard","B":"irons_spellbooks:ender_rune","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_7_leggings', ["ABC","DEF","G I"], {"A":"deeperdarker:reinforced_echo_shard","B":"deeperdarker:reinforced_echo_shard","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:ender_rune","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_7_boots', ["   ","D F","GHI"], {"D":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:ender_rune","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_7_helmet', ["   ","DEF","GHI"], {"D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:holy_rune","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"deeperdarker:reinforced_echo_shard","B":"irons_spellbooks:holy_rune","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_7_leggings', ["ABC","DEF","G I"], {"A":"deeperdarker:reinforced_echo_shard","B":"deeperdarker:reinforced_echo_shard","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:holy_rune","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_7_boots', ["   ","D F","GHI"], {"D":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:holy_rune","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_7_helmet', ["   ","DEF","GHI"], {"D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:nature_rune","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"deeperdarker:reinforced_echo_shard","B":"irons_spellbooks:nature_rune","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_7_leggings', ["ABC","DEF","G I"], {"A":"deeperdarker:reinforced_echo_shard","B":"deeperdarker:reinforced_echo_shard","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:nature_rune","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_7_boots', ["   ","D F","GHI"], {"D":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:nature_rune","I":"deeperdarker:reinforced_echo_shard"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:fire_rune","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fixed_bone","B":"irons_spellbooks:fire_rune","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fixed_bone","B":"theabyss:fixed_bone","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:fire_rune","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:pyromancer_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:fire_rune","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:ice_rune","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fixed_bone","B":"irons_spellbooks:ice_rune","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fixed_bone","B":"theabyss:fixed_bone","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:ice_rune","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:cryomancer_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:ice_rune","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:lightning_rune","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fixed_bone","B":"irons_spellbooks:lightning_rune","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fixed_bone","B":"theabyss:fixed_bone","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:lightning_rune","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:electromancer_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:lightning_rune","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:evocation_rune","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fixed_bone","B":"irons_spellbooks:evocation_rune","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fixed_bone","B":"theabyss:fixed_bone","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:evocation_rune","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:archevoker_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:evocation_rune","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:blood_rune","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fixed_bone","B":"irons_spellbooks:blood_rune","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fixed_bone","B":"theabyss:fixed_bone","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:blood_rune","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:cultist_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:blood_rune","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:ender_rune","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fixed_bone","B":"irons_spellbooks:ender_rune","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fixed_bone","B":"theabyss:fixed_bone","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:ender_rune","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:shadowwalker_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:ender_rune","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:holy_rune","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fixed_bone","B":"irons_spellbooks:holy_rune","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fixed_bone","B":"theabyss:fixed_bone","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:holy_rune","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:priest_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:holy_rune","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:nature_rune","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fixed_bone","B":"irons_spellbooks:nature_rune","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fixed_bone","B":"theabyss:fixed_bone","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:nature_rune","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+
+
+event.shaped('1x irons_spellbooks:plagued_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:nature_rune","I":"theabyss:fixed_bone"});
+
+})

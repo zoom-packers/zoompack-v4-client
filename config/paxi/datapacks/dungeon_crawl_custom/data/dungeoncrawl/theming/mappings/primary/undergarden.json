@@ -1,0 +1,106 @@
+{
+    "default": [
+        {
+            "key": "dungeoncrawl:undergarden_0",
+            "weight": 1
+        }
+    ],
+    "mapping": {
+        "undergarden:ancient_sea": [
+            {
+                "key": "dungeoncrawl:undergarden_1",
+                "weight": 1
+            }
+        ],
+        "undergarden:barren_abyss": [
+            {
+                "key": "dungeoncrawl:undergarden_0",
+                "weight": 1
+            }
+        ],
+        "undergarden:blood_mushroom_bog": [
+            {
+                "key": "dungeoncrawl:undergarden_0",
+                "weight": 1
+            }
+        ],
+        "undergarden:dead_sea": [
+            {
+                "key": "dungeoncrawl:undergarden_0",
+                "weight": 1
+            }
+        ],
+        "undergarden:dense_forest": [
+            {
+                "key": "dungeoncrawl:undergarden_0",
+                "weight": 1
+            }
+        ],
+        "undergarden:forgotten_field": [
+            {
+                "key": "dungeoncrawl:undergarden_0",
+                "weight": 1
+            }
+        ],
+        "undergarden:frostfields": [
+            {
+                "key": "dungeoncrawl:undergarden_0",
+                "weight": 1
+            }
+        ],
+        "undergarden:frosty_smogstem_forest": [
+            {
+                "key": "dungeoncrawl:undergarden_0",
+                "weight": 1
+            }
+        ],
+        "undergarden:gronglegrowth": [
+            {
+                "key": "dungeoncrawl:undergarden_1",
+                "weight": 1
+            }
+        ],
+        "undergarden:icy_sea": [
+            {
+                "key": "dungeoncrawl:undergarden_1",
+                "weight": 1
+            }
+        ],
+        "undergarden:indigo_mushroom_bog": [
+            {
+                "key": "dungeoncrawl:undergarden_1",
+                "weight": 1
+            }
+        ],
+        "undergarden:ink_mushroom_bog": [
+            {
+                "key": "dungeoncrawl:undergarden_1",
+                "weight": 1
+            }
+        ],
+        "undergarden:smog_spires": [
+            {
+                "key": "dungeoncrawl:undergarden_1",
+                "weight": 1
+            }
+        ],
+        "undergarden:smogstem_forest": [
+            {
+                "key": "dungeoncrawl:undergarden_1",
+                "weight": 1
+            }
+        ],
+        "undergarden:veil_mushroom_bog": [
+            {
+                "key": "dungeoncrawl:undergarden_0",
+                "weight": 1
+            }
+        ],
+        "undergarden:wigglewood_forest": [
+            {
+                "key": "dungeoncrawl:undergarden_1",
+                "weight": 1
+            }
+        ]
+    }
+}

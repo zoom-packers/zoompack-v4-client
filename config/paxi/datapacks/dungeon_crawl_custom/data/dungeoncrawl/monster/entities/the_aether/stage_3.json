@@ -1,0 +1,34 @@
+{
+    "common": [
+        {
+            "entity": "aether:blue_swet",
+            "weight": 1
+        },
+        {
+            "entity": "aether:golden_swet",
+            "weight": 1
+        },
+        {
+            "entity": "aether:aechor_plant",
+            "weight": 2
+        },
+        {
+            "entity": "aether:zephyr",
+            "weight": 2
+        }
+    ],
+    "rare": [
+        {
+            "entity": "aether:sentry",
+            "weight": 1
+        },
+        {
+            "entity": "aether:mimic",
+            "weight": 1
+        },
+        {
+            "entity": "aether:fire_minion",
+            "weight": 1
+        }
+    ]
+}

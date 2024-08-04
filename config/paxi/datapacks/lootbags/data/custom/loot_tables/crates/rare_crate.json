@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chest",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_loot_table",
+                            "type": "minecraft:chest",
+                            "name": "custom:chests/rare_gear_loot"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": "§1Rare Loot Crate"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

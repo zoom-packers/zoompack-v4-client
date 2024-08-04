@@ -1,0 +1,2 @@
+License: MIT
+Available at the following URL: https://modrinth.com/mod/connectored-c2me-(c2me-fork-for-connector)

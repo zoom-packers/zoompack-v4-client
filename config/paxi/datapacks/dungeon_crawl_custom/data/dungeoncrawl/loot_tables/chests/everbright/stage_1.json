@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "blue_skies:chests/village/brightlands",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "blue_skies:chests/village/profession/everbright/farm",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "blue_skies:chests/village/profession/everbright/mason",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "blue_skies:chests/village/profession/everbright/shepherd",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "blue_skies:chests/village/profession/everbright/toolsmith",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

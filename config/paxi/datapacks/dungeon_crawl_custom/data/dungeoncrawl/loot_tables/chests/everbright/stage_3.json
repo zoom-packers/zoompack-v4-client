@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "blue_skies:chests/bunker/rare",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "name": "blue_skies:chests/blinding_dungeon/prison_chest_everbright",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

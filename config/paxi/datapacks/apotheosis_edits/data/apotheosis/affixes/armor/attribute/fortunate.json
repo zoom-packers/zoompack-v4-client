@@ -19,28 +19,28 @@
       "step": 0.5
     },
     "ancient": {
-      "min": 3.05,
-      "steps": 17.93,
+      "min": 1,
+      "steps": 12.2,
       "step": 0.65
     },
     "custom_0": {
-      "min": 1.25,
-      "steps": 5.4,
+      "min": 1,
+      "steps": 5,
       "step": 0.53
     },
     "custom_1": {
-      "min": 1.56,
-      "steps": 7.29,
+      "min": 1,
+      "steps": 6.25,
       "step": 0.56
     },
     "custom_2": {
-      "min": 1.95,
-      "steps": 9.84,
+      "min": 1,
+      "steps": 7.81,
       "step": 0.59
     },
     "custom_3": {
-      "min": 2.44,
-      "steps": 13.28,
+      "min": 1,
+      "steps": 9.76,
       "step": 0.62
     }
   },

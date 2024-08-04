@@ -19,7 +19,7 @@
 !/defaultconfigs/**
 !/js_gen
 !/js_gen/**
-!/kubejs/*
+!/kubejs
 !/kubejs/**
 !/mods
 !/mods_curseforge

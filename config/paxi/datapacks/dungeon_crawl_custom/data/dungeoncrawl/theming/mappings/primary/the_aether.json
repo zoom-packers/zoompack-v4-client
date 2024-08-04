@@ -1,0 +1,34 @@
+{
+    "default": [
+        {
+            "key": "dungeoncrawl:the_aether_0",
+            "weight": 1
+        }
+    ],
+    "mapping": {
+        "aether:skyroot_forest": [
+            {
+                "key": "dungeoncrawl:the_aether_0",
+                "weight": 1
+            }
+        ],
+        "aether:skyroot_grove": [
+            {
+                "key": "dungeoncrawl:the_aether_0",
+                "weight": 1
+            }
+        ],
+        "aether:skyroot_meadow": [
+            {
+                "key": "dungeoncrawl:the_aether_0",
+                "weight": 1
+            }
+        ],
+        "aether:skyroot_woodland": [
+            {
+                "key": "dungeoncrawl:the_aether_0",
+                "weight": 1
+            }
+        ]
+    }
+}

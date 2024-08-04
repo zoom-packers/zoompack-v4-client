@@ -1,0 +1,22 @@
+{
+    "common": [
+        {
+            "entity": "undergarden:dweller",
+            "weight": 1
+        },
+        {
+            "entity": "undergarden:mog",
+            "weight": 1
+        },
+        {
+            "entity": "undergarden:gloomper",
+            "weight": 1
+        }
+    ],
+    "rare": [
+        {
+            "entity": "undergarden:rotling",
+            "weight": 1
+        }
+    ]
+}

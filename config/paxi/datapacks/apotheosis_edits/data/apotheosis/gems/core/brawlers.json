@@ -3,6 +3,7 @@
   "weight": 10,
   "quality": 0,
   "dimensions": [],
+  "unique": true,
   "bonuses": [
     {
       "type": "apotheosis:attribute",
@@ -16,16 +17,16 @@
       "attribute": "minecraft:generic.attack_speed",
       "operation": "MULTIPLY_BASE",
       "values": {
-        "common": 0.1,
-        "uncommon": 0.15,
-        "rare": 0.2,
-        "epic": 0.25,
-        "mythic": 0.35,
-        "ancient": 2.7,
-        "custom_0": 0.53,
-        "custom_1": 0.8,
-        "custom_2": 1.2,
-        "custom_3": 1.8
+        "common": 0.01,
+        "uncommon": 0.02,
+        "rare": 0.04,
+        "epic": 0.06,
+        "mythic": 0.08,
+        "ancient": 0.25,
+        "custom_0": 0.1,
+        "custom_1": 0.13,
+        "custom_2": 0.16,
+        "custom_3": 0.2
       }
     },
     {
@@ -45,11 +46,11 @@
         "rare": 4,
         "epic": 6,
         "mythic": 8,
-        "ancient": 60.75,
-        "custom_0": 12,
-        "custom_1": 18,
-        "custom_2": 27,
-        "custom_3": 40.5
+        "ancient": 24.42,
+        "custom_0": 10,
+        "custom_1": 12.5,
+        "custom_2": 15.63,
+        "custom_3": 19.54
       }
     },
     {
@@ -68,11 +69,11 @@
         "rare": 5,
         "epic": 7,
         "mythic": 9,
-        "ancient": 68.36,
-        "custom_0": 13.5,
-        "custom_1": 20.25,
-        "custom_2": 30.38,
-        "custom_3": 45.57
+        "ancient": 27.48,
+        "custom_0": 11.25,
+        "custom_1": 14.06,
+        "custom_2": 17.58,
+        "custom_3": 21.98
       }
     },
     {
@@ -91,11 +92,11 @@
         "rare": 0.15,
         "epic": 0.2,
         "mythic": 0.25,
-        "ancient": 1.94,
-        "custom_0": 0.38,
-        "custom_1": 0.57,
-        "custom_2": 0.86,
-        "custom_3": 1.29
+        "ancient": 0.76,
+        "custom_0": 0.31,
+        "custom_1": 0.39,
+        "custom_2": 0.49,
+        "custom_3": 0.61
       }
     }
   ]

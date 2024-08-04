@@ -1,0 +1,26 @@
+{
+    "common": [
+        {
+            "entity": "minecraft:endermite",
+            "weight": 1
+        },
+        {
+            "entity": "betterend:end_slime",
+            "weight": 1
+        },
+        {
+            "entity": "endermanoverhaul:end_enderman",
+            "weight": 1
+        },
+        {
+            "entity": "minecraft:enderman",
+            "weight": 1
+        }
+    ],
+    "rare": [
+        {
+            "entity": "betterend:shadow_walker",
+            "weight": 1
+        }
+    ]
+}

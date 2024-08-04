@@ -1,0 +1,149 @@
+{
+  "theme": {
+    "generic": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "blue_skies:turquoise_cobblestone"
+        },
+        {
+          "block": "blue_skies:turquoise_stonebrick",
+          "weight": 10
+        },
+        {
+          "block": "blue_skies:cracked_turquoise_stonebrick",
+          "weight": 10
+        },
+        {
+          "block": "blue_skies:mossy_turquoise_stonebrick"
+        }
+      ]
+    },
+    "solid": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "blue_skies:turquoise_stonebrick",
+          "weight": 10
+        },
+        {
+          "block": "blue_skies:mossy_turquoise_stonebrick"
+        },
+        {
+          "block": "blue_skies:cracked_turquoise_stonebrick",
+          "weight": 8
+        }
+      ]
+    },
+    "pillar": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "blue_skies:turquoise_stonebrick",
+          "weight": 10
+        },
+        {
+          "block": "blue_skies:mossy_turquoise_stonebrick"
+        },
+        {
+          "block": "blue_skies:cracked_turquoise_stonebrick",
+          "weight": 8
+        }
+      ]
+    },
+    "floor": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "blue_skies:turquoise_stonebrick",
+          "weight": 3
+        },
+        {
+          "block": "blue_skies:cracked_turquoise_stonebrick",
+          "weight": 2
+        }
+      ]
+    },
+    "stairs": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "blue_skies:turquoise_cobblestone_stairs",
+          "weight": 4
+        },
+        {
+          "block": "blue_skies:turquoise_stonebrick_stairs",
+          "weight": 4
+        }
+      ]
+    },
+    "solid_stairs": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "blue_skies:turquoise_stonebrick_stairs",
+          "weight": 3
+        },
+        {
+          "block": "blue_skies:turquoise_cobblestone_stairs"
+        }
+      ]
+    },
+    "material": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "blue_skies:cracked_turquoise_stonebrick"
+        },
+        {
+          "block": "blue_skies:turquoise_stonebrick",
+          "weight": 3
+        }
+      ]
+    },
+    "slab": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "blue_skies:turquoise_cobblestone_slab"
+        },
+        {
+          "block": "blue_skies:turquoise_stonebrick_slab",
+          "weight": 3
+        }
+      ]
+    },
+    "solid_slab": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "blue_skies:turquoise_cobblestone_slab"
+        },
+        {
+          "block": "blue_skies:turquoise_stonebrick_slab",
+          "weight": 3
+        }
+      ]
+    },
+    "wall": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "blue_skies:turquoise_cobblestone_wall"
+        },
+        {
+          "block": "blue_skies:turquoise_stonebrick_wall",
+          "weight": 3
+        }
+      ]
+    },
+    "fencing": {
+      "type": "block",
+      "block": "minecraft:iron_bars"
+    },
+    "fluid": {
+      "type": "block",
+      "block": "minecraft:water"
+    }
+  }
+}

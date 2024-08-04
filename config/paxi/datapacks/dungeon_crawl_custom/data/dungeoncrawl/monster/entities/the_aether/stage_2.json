@@ -1,0 +1,22 @@
+{
+    "common": [
+        {
+            "entity": "aether:blue_swet",
+            "weight": 1
+        },
+        {
+            "entity": "aether:golden_swet",
+            "weight": 1
+        },
+        {
+            "entity": "aether:aechor_plant",
+            "weight": 1
+        }
+    ],
+    "rare": [
+        {
+            "entity": "aether:zephyr",
+            "weight": 1
+        }
+    ]
+}

@@ -2,15 +2,15 @@
 {
   "type": "apoli:modify_food",
   "name": "Mancare Cu Sloboz",
-  "description": "+40% Hunger & Saturation. This food has been inseminated by a cook.",
+  "description": "+-60% Hunger & Saturation. This food has been inseminated by a cook.",
   "food_modifier": {
     "name": "Increased food points",
     "operation": "multiply_base",
-    "value": 1.4
+    "value": 0.4
   },
   "saturation_modifier": {
     "name": "Increased saturation points",
     "operation": "multiply_base",
-    "value": 1.4
+    "value": 0.4
   }
 }

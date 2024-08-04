@@ -78,6 +78,7 @@ for (let i = 0; i < config.includes.length; i++) {
 }
 createManifestJson();
 createModlistHtml();
+config.exportZipName = variantConfig.exportZipName;
 const output = fs.createWriteStream(__dirname + '/' + config.exportZipName);
 const archive = archiver('zip', {
     zlib: { level: 9 } // Sets the compression level.

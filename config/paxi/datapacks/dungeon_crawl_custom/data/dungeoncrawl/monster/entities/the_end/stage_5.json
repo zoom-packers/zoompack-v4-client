@@ -1,0 +1,22 @@
+{
+    "common": [
+        {
+            "entity": "outer_end:stalker",
+            "weight": 1
+        },
+        {
+            "entity": "outer_end:himmelite",
+            "weight": 1
+        },
+        {
+            "entity": "outer_end:entombed",
+            "weight": 1
+        }
+    ],
+    "rare": [
+        {
+            "entity": "outer_end:purpur_golem",
+            "weight": 1
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "common": [
+        {
+            "entity": "minecraft:piglin",
+            "weight": 1
+        },
+        {
+            "entity": "minecraft:wither_skeleton",
+            "weight": 1
+        },
+        {
+            "entity": "minecraft:blaze",
+            "weight": 1
+        }
+    ],
+    "rare": [
+        {
+            "entity": "minecraft:hoglin",
+            "weight": 1
+        },
+        {
+            "entity": "minecraft:piglin_brute",
+            "weight": 1
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "common": [
+        {
+            "entity": "minecraft:blaze",
+            "weight": 1
+        },
+        {
+            "entity": "minecraft:piglin_brute",
+            "weight": 2
+        },
+        {
+            "entity": "betternether:naga",
+            "weight": 3
+        }
+    ],
+    "rare": [
+        {
+            "entity": "betternether:hydrogen_jellyfish",
+            "weight": 1
+        }
+    ]
+}

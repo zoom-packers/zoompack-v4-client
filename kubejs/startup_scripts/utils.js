@@ -5,6 +5,9 @@
 // Copy these to use them, as KubeJS doesn't support imports yet
 
 var global = {}
+var hasGeckoJs = Platform.isLoaded("geckojs");
+console.info("GeckoJS is " + (hasGeckoJs ? "enabled" : "disabled"));
+
 
 global.createToolTier = (event, id, uses, speed, attackDamageBonus, level, enchantmentValue, repairIngredientTag) => {
     event.add(id, tier => {
@@ -75,43 +78,43 @@ global.createToolCustom = (event, id, type, texture, tier, name, attackDamage, m
 }
 
 global.createSword = (event, id, texture, tier, name) => {
-    global.createTool(event, id, "sword", texture, tier, name);
+    return global.createTool(event, id, "sword", texture, tier, name);
 }
 
 global.createAxe = (event, id, texture, tier, name) => {
-    global.createTool(event, id, "axe", texture, tier, name);
+    return global.createTool(event, id, "axe", texture, tier, name);
 }
 
 global.createPickaxe = (event, id, texture, tier, name) => {
-    global.createTool(event, id, "pickaxe", texture, tier, name);
+    return global.createTool(event, id, "pickaxe", texture, tier, name);
 }
 
 global.createShovel = (event, id, texture, tier, name) => {
-    global.createTool(event, id, "shovel", texture, tier, name);
+    return global.createTool(event, id, "shovel", texture, tier, name);
 }
 
 global.createHoe = (event, id, texture, tier, name) => {
-    global.createTool(event, id, "hoe", texture, tier, name);
+    return global.createTool(event, id, "hoe", texture, tier, name);
 }
 
 global.createHelmet = (event, id, texture, tier, name) => {
-    global.createTool(event, id, "helmet", texture, tier, name);
+    return global.createTool(event, id, "helmet", texture, tier, name);
 }
 
 global.createChestplate = (event, id, texture, tier, name) => {
-    global.createTool(event, id, "chestplate", texture, tier, name);
+    return global.createTool(event, id, "chestplate", texture, tier, name);
 }
 
 global.createLeggings = (event, id, texture, tier, name) => {
-    global.createTool(event, id, "leggings", texture, tier, name);
+    return global.createTool(event, id, "leggings", texture, tier, name);
 }
 
 global.createBoots = (event, id, texture, tier, name) => {
-    global.createTool(event, id, "boots", texture, tier, name);
+    return global.createTool(event, id, "boots", texture, tier, name);
 }
 
 global.createTool = (event, id, type, texture, tier, name) => {
-    event.create(id, type)
+    return event.create(id, type)
         .tier(tier)
         .displayName(name)
         .texture(texture);
@@ -130,6 +133,99 @@ global.creatArmorForTier = (event, tier, textures, name_base) => {
     global.createChestplate(event, `${tier}_chestplate`, textures.chestplate, tier, `${name_base} Chestplate`);
     global.createLeggings(event, `${tier}_leggings`, textures.leggings, tier, `${name_base} Leggings`);
     global.createBoots(event, `${tier}_boots`, textures.boots, tier, `${name_base} Boots`);
+}
+
+global.createOffhand = (event, id, texture, name) => {
+    event.create(id)
+        .texture(texture)
+        .displayName(name)
+        .maxStackSize(1)
+}
+
+global.createAugument = (event, id, name, texture, attributes) => {
+    var capability = CuriosCapabilityBuilder.CURIOS.itemStack();
+    capability.canEquip((stack, context) => true);
+    capability.canUnequip((stack, context) => true);
+    for (const attribute of attributes) {
+        console.log(attribute.attribute);
+        console.log(attribute.uuid);
+        console.log(attribute.value);
+        console.log(attribute.operation);
+        capability.modifyAttribute(attribute.attribute, attribute.uuid, attribute.value, attribute.operation);
+    }
+
+    event.create(id)
+        .displayName(name)
+        .texture(texture)
+        .maxStackSize(1)
+        .attachCapability(capability);
+}
+
+global.createGeckoArmorTier = (event, modId, tier, textures, helmName, chestName, pantsName, legName, nameSuffix,
+                               helmModelPath, helmTexturePath, chestModelPath, chestTexturePath, pantsModelPath, pantsTexturePath, bootsModelPath, bootsTexturePath) => {
+    const itemTypePrefix = !hasGeckoJs ? "" : "anim_";
+    const helmet = event.create(`${modId}:${tier}_helmet`, `${itemTypePrefix}helmet`).displayName(`${helmName} ${nameSuffix}`).texture(textures.helmet).tier(tier);
+    const chestplate = event.create(`${modId}:${tier}_chestplate`, `${itemTypePrefix}chestplate`).displayName(`${chestName} ${nameSuffix}`).texture(textures.chestplate).tier(tier);
+    const leggings = event.create(`${modId}:${tier}_leggings`, `${itemTypePrefix}leggings`).displayName(`${pantsName} ${nameSuffix}`).texture(textures.leggings).tier(tier);
+    const boots = event.create(`${modId}:${tier}_boots`, `${itemTypePrefix}boots`).displayName(`${legName} ${nameSuffix}`).texture(textures.boots).tier(tier);
+    if (hasGeckoJs) {
+        helmet
+            .geoModel(geo => {
+                geo.setSimpleModel(helmModelPath);
+                geo.setSimpleTexture(helmTexturePath);
+            })
+            .boneVisibility((renderer, slot) => {
+                renderer.setAllVisible(false);
+                if (slot === "head") {
+                    renderer.setBoneVisible(renderer.getHeadBone(), true);
+                }
+            });
+        chestplate
+            .geoModel(geo => {
+                geo.setSimpleModel(chestModelPath);
+                geo.setSimpleTexture(chestTexturePath);
+            })
+            .boneVisibility((renderer, slot) => {
+                renderer.setAllVisible(false);
+                if (slot === "chest") {
+                    renderer.setBoneVisible(renderer.getBodyBone(), true);
+                    renderer.setBoneVisible(renderer.getRightArmBone(), true);
+                    renderer.setBoneVisible(renderer.getLeftArmBone(), true);
+                }
+            });
+        leggings
+            .geoModel(geo => {
+                geo.setSimpleModel(pantsModelPath);
+                geo.setSimpleTexture(pantsTexturePath);
+            })
+            .boneVisibility((renderer, slot) => {
+                renderer.setAllVisible(false);
+                if (slot === "legs") {
+                    renderer.setBoneVisible(renderer.getRightLegBone(), true);
+                    renderer.setBoneVisible(renderer.getLeftLegBone(), true);
+                }
+            });
+        boots
+            .geoModel(geo => {
+                geo.setSimpleModel(bootsModelPath);
+                geo.setSimpleTexture(bootsTexturePath);
+            })
+            .boneVisibility((renderer, slot) => {
+                renderer.setAllVisible(false);
+                if (slot === "feet") {
+                    renderer.setBoneVisible(renderer.getRightLegBone(), true);
+                    renderer.setBoneVisible(renderer.getLeftLegBone(), true);
+                }
+            });
+    }
+    return { helmet: helmet, chestplate: chestplate, leggings: leggings, boots: boots };
+}
+
+global.enhanceWithAttributes = (item, attributesJson) => {
+    const attributes = JSON.parse(attributesJson);
+    for (const attribute of attributes) {
+        item.modifyAttribute(attribute.attribute, attribute.uuid, attribute.amount, attribute.operation);
+    }
 }
 
 global.getMockTexturesObject = () => {
