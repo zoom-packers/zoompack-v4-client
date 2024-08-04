@@ -7,7 +7,7 @@ base_villager_trade_data = {
 }
 # 100 for testing only
 # base_villager_trade_data['maxTrades'] = 100
-base_villager_trade_data['maxTrades'] = 3
+base_villager_trade_data['maxTrades'] = 4
 
 
 banker_config = copy.deepcopy(base_villager_trade_data)
