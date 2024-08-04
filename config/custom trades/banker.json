@@ -1,765 +1,804 @@
 {
-    "removeOtherTrades": true,
-    "trades": [
-        {
-            "request": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 5
-            },
-            "offer": {
-                "itemKey": "minecraft:ender_pearl",
-                "amount": 1
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 10
-            },
-            "offer": {
-                "itemKey": "trials:trial_key",
-                "amount": 1
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 30
-            },
-            "offer": {
-                "itemKey": "minecraft:emerald",
-                "amount": 1
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 30
-            },
-            "offer": {
-                "itemKey": "blue_skies:blinding_key",
-                "amount": 1
-            },
-            "tradeExp": 2,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 2
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 30
-            },
-            "offer": {
-                "itemKey": "trials:trial_key_ominous",
-                "amount": 1
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 48
-            },
-            "offer": {
-                "itemKey": "minecraft:iron_ingot",
-                "amount": 1
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 60
-            },
-            "offer": {
-                "itemKey": "blue_skies:nature_key",
-                "amount": 1
-            },
-            "tradeExp": 2,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 2
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:silver_coin",
-                "amount": 1
-            },
-            "offer": {
-                "itemKey": "blue_skies:poison_key",
-                "amount": 1
-            },
-            "tradeExp": 2,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 2,
-            "additionalRequest": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 26
-            }
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:silver_coin",
-                "amount": 1
-            },
-            "offer": {
-                "itemKey": "trials:ominous_bottle",
-                "amount": 1
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:silver_coin",
-                "amount": 2
-            },
-            "offer": {
-                "itemKey": "minecraft:diamond",
-                "amount": 1
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:silver_coin",
-                "amount": 2
-            },
-            "offer": {
-                "itemKey": "aether:victory_medal",
-                "amount": 1
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "minecraft:heart_of_the_sea",
-                "amount": 1
-            },
-            "offer": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 20
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "apotheosis:gem",
-                "amount": 1
-            },
-            "offer": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 20
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "irons_spellbooks:scroll",
-                "amount": 1
-            },
-            "offer": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 20
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:silver_coin",
-                "amount": 32
-            },
-            "offer": {
-                "itemKey": "blue_skies:loot_bag_summoner",
-                "amount": 1,
-                "advancedNBTData": "{LootTable:\"zoompack_economy:dimensional_lootbags/overworld_lootbag\",display:{Lore:['[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Overworld Lootbag\",\"italic\":false,\"color\":\"white\"}]'},Rarity:0}"
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:gold_coin",
-                "amount": 2
-            },
-            "offer": {
-                "itemKey": "blue_skies:loot_bag_summoner",
-                "amount": 1,
-                "advancedNBTData": "{LootTable:\"zoompack_economy:dimensional_lootbags/blueskies_lootbag\",display:{Lore:['[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Blue Skies Lootbag\",\"italic\":false,\"color\":\"blue\"}]'},Rarity:0}"
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:gold_coin",
-                "amount": 4
-            },
-            "offer": {
-                "itemKey": "blue_skies:loot_bag_alchemist",
-                "amount": 1,
-                "advancedNBTData": "{LootTable:\"zoompack_economy:dimensional_lootbags/aether_lootbag\",display:{Lore:['[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Aether Lootbag\",\"italic\":false,\"color\":\"gold\"}]'},Rarity:1}"
-            },
-            "tradeExp": 2,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 2
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:gold_coin",
-                "amount": 8
-            },
-            "offer": {
-                "itemKey": "blue_skies:loot_bag_alchemist",
-                "amount": 1,
-                "advancedNBTData": "{LootTable:\"zoompack_economy:dimensional_lootbags/nether_lootbag\",display:{Lore:['[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Nether Lootbag\",\"italic\":false,\"color\":\"red\"}]'},Rarity:1}"
-            },
-            "tradeExp": 3,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 3
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:gold_coin",
-                "amount": 16
-            },
-            "offer": {
-                "itemKey": "blue_skies:loot_bag_starlit_crusher",
-                "amount": 1,
-                "advancedNBTData": "{LootTable:\"zoompack_economy:dimensional_lootbags/undergarden_lootbag\",display:{Lore:['[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Undergarden Lootbag\",\"italic\":false,\"color\":\"green\"}]'},Rarity:1}"
-            },
-            "tradeExp": 4,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 4
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:gold_coin",
-                "amount": 32
-            },
-            "offer": {
-                "itemKey": "blue_skies:loot_bag_starlit_crusher",
-                "amount": 1,
-                "advancedNBTData": "{LootTable:\"zoompack_economy:dimensional_lootbags/end_lootbag\",display:{Lore:['[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"End Lootbag\",\"italic\":false,\"color\":\"purple\"}]'},Rarity:2}"
-            },
-            "tradeExp": 4,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 4
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:gold_coin",
-                "amount": 64
-            },
-            "offer": {
-                "itemKey": "blue_skies:loot_bag_arachnarch",
-                "amount": 1,
-                "advancedNBTData": "{LootTable:\"zoompack_economy:dimensional_lootbags/abyss_lootbag\",display:{Lore:['[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Abyss Lootbag\",\"italic\":false,\"color\":\"aqua\"}]'},Rarity:2}"
-            },
-            "tradeExp": 5,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 5
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 2
-            },
-            "offer": {
-                "itemKey": "minecraft:potion",
-                "amount": 1,
-                "effects": [
-                    {
-                        "effectKey": "minecraft:instant_health",
-                        "duration": "0",
-                        "level": 0,
-                        "isVisible": false
-                    }
-                ],
-                "advancedNBTData": "{CustomPotionColor:15395118,display:{Lore:['[\"\",{\"text\":\"Drink this to replanish instantly 2 HP\",\"italic\":false,\"color\":\"red\"}]'],Name:'[\"\",{\"text\":\"Bronze Vial of Vitality\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 2
-            },
-            "offer": {
-                "itemKey": "minecraft:potion",
-                "amount": 1,
-                "effects": [
-                    {
-                        "effectKey": "irons_spellbooks:instant_mana",
-                        "duration": "0",
-                        "level": 1,
-                        "isVisible": false
-                    }
-                ],
-                "advancedNBTData": "{CustomPotionColor:14838,display:{Lore:['[\"\",{\"text\":\"Drink this to replanish instantly 25 Mana + 5% of Max Mana\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Bronze Vial of Recharge\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 4
-            },
-            "offer": {
-                "itemKey": "minecraft:potion",
-                "amount": 1,
-                "effects": [
-                    {
-                        "effectKey": "minecraft:instant_health",
-                        "duration": "0",
-                        "level": 1,
-                        "isVisible": false
-                    }
-                ],
-                "advancedNBTData": "{CustomPotionColor:15383342,display:{Lore:['[\"\",{\"text\":\"Drink this to replanish instantly 4 HP\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Scarlet Elixir of Mending\",\"italic\":false,\"color\":\"red\"}]'}}"
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 4
-            },
-            "offer": {
-                "itemKey": "minecraft:potion",
-                "amount": 1,
-                "effects": [
-                    {
-                        "effectKey": "irons_spellbooks:instant_mana",
-                        "duration": "0",
-                        "level": 2,
-                        "isVisible": false
-                    }
-                ],
-                "advancedNBTData": "{CustomPotionColor:14838,display:{Lore:['[\"\",{\"text\":\"Drink this to replanish instantly 50 Mana + 10% of Max Mana\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Scarlet Elixir of Recharge\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 8
-            },
-            "offer": {
-                "itemKey": "minecraft:potion",
-                "amount": 1,
-                "effects": [
-                    {
-                        "effectKey": "minecraft:instant_health",
-                        "duration": "0",
-                        "level": 2,
-                        "isVisible": false
-                    }
-                ],
-                "advancedNBTData": "{CustomPotionColor:15374638,display:{Lore:['[\"\",{\"text\":\"Drink this to replanish instantly 8 HP\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Golden Draught of Healing\",\"italic\":false,\"color\":\"yellow\"}]'}}"
-            },
-            "tradeExp": 2,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 2
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 8
-            },
-            "offer": {
-                "itemKey": "minecraft:potion",
-                "amount": 1,
-                "effects": [
-                    {
-                        "effectKey": "irons_spellbooks:instant_mana",
-                        "duration": "0",
-                        "level": 3,
-                        "isVisible": false
-                    }
-                ],
-                "advancedNBTData": "{CustomPotionColor:14838,display:{Lore:['[\"\",{\"text\":\"Drink this to replanish instantly 75 Mana + 15% of Max Mana\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Golden Draught of Recharge\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
-            },
-            "tradeExp": 1,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 1
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 16
-            },
-            "offer": {
-                "itemKey": "minecraft:potion",
-                "amount": 1,
-                "effects": [
-                    {
-                        "effectKey": "minecraft:instant_health",
-                        "duration": "0",
-                        "level": 3,
-                        "isVisible": false
-                    }
-                ],
-                "advancedNBTData": "{CustomPotionColor:15377454,display:{Lore:['[\"\",{\"text\":\"Drink this to replanish instantly 16 HP\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Sunlight Serum of Recovery\",\"italic\":false,\"color\":\"yellow\"}]'}}"
-            },
-            "tradeExp": 2,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 2
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 16
-            },
-            "offer": {
-                "itemKey": "minecraft:potion",
-                "amount": 1,
-                "effects": [
-                    {
-                        "effectKey": "irons_spellbooks:instant_mana",
-                        "duration": "0",
-                        "level": 4,
-                        "isVisible": false
-                    }
-                ],
-                "advancedNBTData": "{CustomPotionColor:14838,display:{Lore:['[\"\",{\"text\":\"Drink this to replanish instantly 100 Mana + 20% of Max Mana\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Sunlight Serum of Recharge\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
-            },
-            "tradeExp": 2,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 2
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 32
-            },
-            "offer": {
-                "itemKey": "minecraft:potion",
-                "amount": 1,
-                "effects": [
-                    {
-                        "effectKey": "minecraft:instant_health",
-                        "duration": "0",
-                        "level": 4,
-                        "isVisible": false
-                    }
-                ],
-                "advancedNBTData": "{CustomPotionColor:15363118,display:{Lore:['[\"\",{\"text\":\"Drink this to replanish instantly 32 HP\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Gilded Flask of Restoration\",\"italic\":false,\"color\":\"gold\"}]'},Rarity:0}"
-            },
-            "tradeExp": 3,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 3
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 32
-            },
-            "offer": {
-                "itemKey": "minecraft:potion",
-                "amount": 1,
-                "effects": [
-                    {
-                        "effectKey": "irons_spellbooks:instant_mana",
-                        "duration": "0",
-                        "level": 5,
-                        "isVisible": false
-                    }
-                ],
-                "advancedNBTData": "{CustomPotionColor:14838,display:{Lore:['[\"\",{\"text\":\"Drink this to replanish instantly 125 Mana + 25% of Max Mana\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Gilded Flask of Recharge\",\"italic\":false,\"color\":\"dark_red\"}]'},Rarity:0}"
-            },
-            "tradeExp": 2,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 2
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 64
-            },
-            "offer": {
-                "itemKey": "minecraft:potion",
-                "amount": 1,
-                "effects": [
-                    {
-                        "effectKey": "minecraft:instant_health",
-                        "duration": "0",
-                        "level": 5,
-                        "isVisible": false
-                    }
-                ],
-                "advancedNBTData": "{CustomPotionColor:15351598,display:{Lore:['[\"\",{\"text\":\"Drink this to replanish instantly 64 HP\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Emerald Tonic of Revival\",\"italic\":false,\"color\":\"green\"}]'},Rarity:0}"
-            },
-            "tradeExp": 3,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 3
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:bronze_coin",
-                "amount": 64
-            },
-            "offer": {
-                "itemKey": "minecraft:potion",
-                "amount": 1,
-                "effects": [
-                    {
-                        "effectKey": "irons_spellbooks:instant_mana",
-                        "duration": "0",
-                        "level": 6,
-                        "isVisible": false
-                    }
-                ],
-                "advancedNBTData": "{CustomPotionColor:14838,display:{Lore:['[\"\",{\"text\":\"Drink this to replanish instantly 150 Mana + 30% of Max Mana\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Gilded Flask of Recharge\",\"italic\":false,\"color\":\"dark_red\"}]'},Rarity:0}"
-            },
-            "tradeExp": 3,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 3
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:silver_coin",
-                "amount": 2
-            },
-            "offer": {
-                "itemKey": "minecraft:potion",
-                "amount": 1,
-                "effects": [
-                    {
-                        "effectKey": "minecraft:instant_health",
-                        "duration": "0",
-                        "level": 6,
-                        "isVisible": false
-                    }
-                ],
-                "advancedNBTData": "{CustomPotionColor:15347358,display:{Lore:['[\"\",{\"text\":\"Drink this to replanish instantly 128 HP\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Sapphire Brew of Renewal\",\"italic\":false,\"color\":\"blue\"}]'},Rarity:1}"
-            },
-            "tradeExp": 4,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 4
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:silver_coin",
-                "amount": 2
-            },
-            "offer": {
-                "itemKey": "minecraft:potion",
-                "amount": 1,
-                "effects": [
-                    {
-                        "effectKey": "irons_spellbooks:instant_mana",
-                        "duration": "0",
-                        "level": 7,
-                        "isVisible": false
-                    }
-                ],
-                "advancedNBTData": "{CustomPotionColor:14838,display:{Lore:['[\"\",{\"text\":\"Drink this to replanish instantly 175 Mana + 35% of Max Mana\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Sapphire Brew of Recharge\",\"italic\":false,\"color\":\"dark_red\"}]'},Rarity:1}"
-            },
-            "tradeExp": 4,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 4
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:silver_coin",
-                "amount": 4
-            },
-            "offer": {
-                "itemKey": "minecraft:potion",
-                "amount": 1,
-                "effects": [
-                    {
-                        "effectKey": "minecraft:instant_health",
-                        "duration": "0",
-                        "level": 7,
-                        "isVisible": false
-                    }
-                ],
-                "advancedNBTData": "{CustomPotionColor:15347434,display:{Lore:['[\"\",{\"text\":\"Drink this to replanish instantly 256 HP\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Rare Health Potion\",\"italic\":false,\"color\":\"purple\"}]'},Rarity:1}"
-            },
-            "tradeExp": 4,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 4
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:silver_coin",
-                "amount": 4
-            },
-            "offer": {
-                "itemKey": "minecraft:potion",
-                "amount": 1,
-                "effects": [
-                    {
-                        "effectKey": "irons_spellbooks:instant_mana",
-                        "duration": "0",
-                        "level": 8,
-                        "isVisible": false
-                    }
-                ],
-                "advancedNBTData": "{CustomPotionColor:14838,display:{Lore:['[\"\",{\"text\":\"Drink this to replanish instantly 200 Mana + 40% of Max Mana\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Rare Mana Potion\",\"italic\":false,\"color\":\"dark_red\"}]'},Rarity:1}"
-            },
-            "tradeExp": 4,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 4
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:silver_coin",
-                "amount": 8
-            },
-            "offer": {
-                "itemKey": "minecraft:potion",
-                "amount": 1,
-                "effects": [
-                    {
-                        "effectKey": "minecraft:instant_health",
-                        "duration": "1",
-                        "level": 8,
-                        "isVisible": false
-                    }
-                ],
-                "advancedNBTData": "{CustomPotionColor:15347434,display:{Lore:['[\"\",{\"text\":\"Drink this to replanish instantly 512 HP\",\"italic\":false,\"color\":\"purple\"}]'],Name:'[\"\",{\"text\":\"Ancient Health Potion\",\"italic\":false,\"color\":\"purple\"}]'},Rarity:2}"
-            },
-            "tradeExp": 5,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 5
-        },
-        {
-            "request": {
-                "itemKey": "dotcoinmod:silver_coin",
-                "amount": 8
-            },
-            "offer": {
-                "itemKey": "minecraft:potion",
-                "amount": 1,
-                "effects": [
-                    {
-                        "effectKey": "irons_spellbooks:instant_mana",
-                        "duration": "0",
-                        "level": 9,
-                        "isVisible": false
-                    }
-                ],
-                "advancedNBTData": "{CustomPotionColor:14838,display:{Lore:['[\"\",{\"text\":\"Drink this to replanish instantly 225 Mana + 45% of Max Mana\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Ancient Mana Potion\",\"italic\":false,\"color\":\"dark_red\"}]'},Rarity:2}"
-            },
-            "tradeExp": 5,
-            "maxUses": 9999999,
-            "priceMultiplier": 0,
-            "demand": 0,
-            "tradeLevel": 5
-        }
-    ],
-    "maxTrades": 4,
-    "profession": "spacecatcustomprofessions:banker"
+  "profession": "spacecatcustomprofessions:banker",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:ender_pearl",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 5
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_ender_pearl_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "trials:trial_key",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 10
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_trial_key_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 30
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_emerald_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:blinding_key",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 30
+      },
+      "tradeExp": 2,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "spacecatcustomprofessions:banker_blinding_key_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "trials:trial_key_ominous",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 30
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_trial_key_ominous_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 48
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_iron_ingot_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:nature_key",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 60
+      },
+      "tradeExp": 2,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "spacecatcustomprofessions:banker_nature_key_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:poison_key",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:silver_coin",
+        "amount": 1
+      },
+      "additionalRequest": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 26
+      },
+      "tradeExp": 2,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "spacecatcustomprofessions:banker_poison_key_for_silver_coin_and_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "trials:ominous_bottle",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:silver_coin",
+        "amount": 1
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_ominous_bottle_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:silver_coin",
+        "amount": 2
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_diamond_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "aether:victory_medal",
+        "amount": 1
+      },
+      "request": {
+        "itemKey": "dotcoinmod:silver_coin",
+        "amount": 2
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_victory_medal_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 20
+      },
+      "request": {
+        "itemKey": "minecraft:heart_of_the_sea",
+        "amount": 1
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_bronze_coin_for_heart_of_the_sea"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 20
+      },
+      "request": {
+        "itemKey": "apotheosis:gem",
+        "amount": 1
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_bronze_coin_for_gem"
+    },
+    {
+      "offer": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 20
+      },
+      "request": {
+        "itemKey": "irons_spellbooks:scroll",
+        "amount": 1
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_bronze_coin_for_scroll"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_summoner",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:dimensional_lootbags/overworld_lootbag\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Overworld Lootbag\",\"italic\":false,\"color\":\"white\"}]\u0027},Rarity:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:silver_coin",
+        "amount": 32
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_loot_bag_summoner_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_summoner",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:dimensional_lootbags/blueskies_lootbag\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Blue Skies Lootbag\",\"italic\":false,\"color\":\"blue\"}]\u0027},Rarity:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 2
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_loot_bag_summoner_for_gold_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_alchemist",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:dimensional_lootbags/aether_lootbag\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Aether Lootbag\",\"italic\":false,\"color\":\"gold\"}]\u0027},Rarity:1}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 4
+      },
+      "tradeExp": 2,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "spacecatcustomprofessions:banker_loot_bag_alchemist_for_gold_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_alchemist",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:dimensional_lootbags/nether_lootbag\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Nether Lootbag\",\"italic\":false,\"color\":\"red\"}]\u0027},Rarity:1}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 8
+      },
+      "tradeExp": 3,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "spacecatcustomprofessions:banker_loot_bag_alchemist_for_gold_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_starlit_crusher",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:dimensional_lootbags/undergarden_lootbag\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Undergarden Lootbag\",\"italic\":false,\"color\":\"green\"}]\u0027},Rarity:1}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 16
+      },
+      "tradeExp": 4,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "spacecatcustomprofessions:banker_loot_bag_starlit_crusher_for_gold_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_starlit_crusher",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:dimensional_lootbags/end_lootbag\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"End Lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027},Rarity:2}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 32
+      },
+      "tradeExp": 4,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "spacecatcustomprofessions:banker_loot_bag_starlit_crusher_for_gold_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_arachnarch",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:dimensional_lootbags/abyss_lootbag\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Abyss Lootbag\",\"italic\":false,\"color\":\"aqua\"}]\u0027},Rarity:2}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 64
+      },
+      "tradeExp": 5,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "spacecatcustomprofessions:banker_loot_bag_arachnarch_for_gold_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "minecraft:instant_health",
+            "duration": 0,
+            "level": 0,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:15395118,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 2 HP\",\"italic\":false,\"color\":\"red\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Bronze Vial of Vitality\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 2
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "irons_spellbooks:instant_mana",
+            "duration": 0,
+            "level": 1,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:14838,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 25 Mana + 5% of Max Mana\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Bronze Vial of Recharge\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 2
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "minecraft:instant_health",
+            "duration": 0,
+            "level": 1,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:15383342,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 4 HP\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Scarlet Elixir of Mending\",\"italic\":false,\"color\":\"red\"}]\u0027}}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 4
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "irons_spellbooks:instant_mana",
+            "duration": 0,
+            "level": 2,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:14838,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 50 Mana + 10% of Max Mana\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Scarlet Elixir of Recharge\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 4
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "minecraft:instant_health",
+            "duration": 0,
+            "level": 2,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:15374638,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 8 HP\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Golden Draught of Healing\",\"italic\":false,\"color\":\"yellow\"}]\u0027}}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 8
+      },
+      "tradeExp": 2,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "irons_spellbooks:instant_mana",
+            "duration": 0,
+            "level": 3,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:14838,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 75 Mana + 15% of Max Mana\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Golden Draught of Recharge\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 8
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "minecraft:instant_health",
+            "duration": 0,
+            "level": 3,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:15377454,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 16 HP\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Sunlight Serum of Recovery\",\"italic\":false,\"color\":\"yellow\"}]\u0027}}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 16
+      },
+      "tradeExp": 2,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "irons_spellbooks:instant_mana",
+            "duration": 0,
+            "level": 4,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:14838,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 100 Mana + 20% of Max Mana\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Sunlight Serum of Recharge\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 16
+      },
+      "tradeExp": 2,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "minecraft:instant_health",
+            "duration": 0,
+            "level": 4,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:15363118,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 32 HP\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Gilded Flask of Restoration\",\"italic\":false,\"color\":\"gold\"}]\u0027},Rarity:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 32
+      },
+      "tradeExp": 3,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "irons_spellbooks:instant_mana",
+            "duration": 0,
+            "level": 5,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:14838,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 125 Mana + 25% of Max Mana\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Gilded Flask of Recharge\",\"italic\":false,\"color\":\"dark_red\"}]\u0027},Rarity:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 32
+      },
+      "tradeExp": 2,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "minecraft:instant_health",
+            "duration": 0,
+            "level": 5,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:15351598,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 64 HP\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Emerald Tonic of Revival\",\"italic\":false,\"color\":\"green\"}]\u0027},Rarity:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 64
+      },
+      "tradeExp": 3,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "irons_spellbooks:instant_mana",
+            "duration": 0,
+            "level": 6,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:14838,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 150 Mana + 30% of Max Mana\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Gilded Flask of Recharge\",\"italic\":false,\"color\":\"dark_red\"}]\u0027},Rarity:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:bronze_coin",
+        "amount": 64
+      },
+      "tradeExp": 3,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "minecraft:instant_health",
+            "duration": 0,
+            "level": 6,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:15347358,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 128 HP\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Sapphire Brew of Renewal\",\"italic\":false,\"color\":\"blue\"}]\u0027},Rarity:1}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:silver_coin",
+        "amount": 2
+      },
+      "tradeExp": 4,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "irons_spellbooks:instant_mana",
+            "duration": 0,
+            "level": 7,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:14838,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 175 Mana + 35% of Max Mana\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Sapphire Brew of Recharge\",\"italic\":false,\"color\":\"dark_red\"}]\u0027},Rarity:1}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:silver_coin",
+        "amount": 2
+      },
+      "tradeExp": 4,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "minecraft:instant_health",
+            "duration": 0,
+            "level": 7,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:15347434,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 256 HP\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Rare Health Potion\",\"italic\":false,\"color\":\"purple\"}]\u0027},Rarity:1}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:silver_coin",
+        "amount": 4
+      },
+      "tradeExp": 4,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "irons_spellbooks:instant_mana",
+            "duration": 0,
+            "level": 8,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:14838,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 200 Mana + 40% of Max Mana\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Rare Mana Potion\",\"italic\":false,\"color\":\"dark_red\"}]\u0027},Rarity:1}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:silver_coin",
+        "amount": 4
+      },
+      "tradeExp": 4,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "minecraft:instant_health",
+            "duration": 1,
+            "level": 8,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:15347434,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 512 HP\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Ancient Health Potion\",\"italic\":false,\"color\":\"purple\"}]\u0027},Rarity:2}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:silver_coin",
+        "amount": 8
+      },
+      "tradeExp": 5,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:potion",
+        "amount": 1,
+        "effects": [
+          {
+            "effectKey": "irons_spellbooks:instant_mana",
+            "duration": 0,
+            "level": 9,
+            "isVisible": false
+          }
+        ],
+        "advancedNBTData": "{CustomPotionColor:14838,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to replanish instantly 225 Mana + 45% of Max Mana\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Ancient Mana Potion\",\"italic\":false,\"color\":\"dark_red\"}]\u0027},Rarity:2}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:silver_coin",
+        "amount": 8
+      },
+      "tradeExp": 5,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "spacecatcustomprofessions:banker_potion_for_silver_coin"
+    }
+  ]
 }
