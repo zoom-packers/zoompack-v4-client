@@ -63,15 +63,23 @@ function getReward(entity, player){
     }
 
     let error = health%20;
+
+    let bronze_amount_raw = health/15;
+    let bronze_amount = Math.floor(bronze_amount_raw);
+    if (Math.random() < 0.5) {
+        bronze_amount = Math.ceil(bronze_amount_raw);
+    }
     
-    let bronze_amount = Math.floor(health/20);
     let silver_amount = 0;
     let gold_amount = 0;
     let emerald_amount = 0;
 
-
-    if (bronze_amount > 64){
-        silver_amount = Math.floor(bronze_amount/64);
+    if (bronze_amount > 64){ 
+        let silver_amount_raw = bronze_amount/64;
+        silver_amount = Math.floor(silver_amount_raw);
+        if (Math.random() < 0.5) {
+            silver_amount = Math.ceil(silver_amount_raw);
+        }
         bronze_amount = bronze_amount%64;
     }
     else if(bronze_amount == 64){
@@ -80,7 +88,11 @@ function getReward(entity, player){
     }
 
     if (silver_amount > 64){
-        gold_amount = Math.floor(silver_amount/64);
+        let gold_amount_raw = silver_amount/64;
+        gold_amount = Math.floor(gold_amount_raw);
+        if (Math.random() < 0.5) {
+            gold_amount = Math.ceil(gold_amount_raw);
+        }
         silver_amount = silver_amount%64;
     }
     else if(silver_amount == 64){
@@ -89,7 +101,11 @@ function getReward(entity, player){
     }
 
     if (gold_amount > 64){
-        emerald_amount = Math.floor(gold_amount/64);
+        let emerald_amount_raw = gold_amount/64;
+        emerald_amount = Math.floor(emerald_amount_raw);
+        if (Math.random() < 0.5) {
+            emerald_amount = Math.ceil(emerald_amount_raw);
+        }
         gold_amount = gold_amount%64;
     }
     else if(gold_amount == 64){
