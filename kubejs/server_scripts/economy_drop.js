@@ -137,6 +137,10 @@ function grantReward(rewards, entity, server){
     }
 }
 
+function sendPlayerTitle(server, player_name, text){
+    server.runCommandSilent(`/title ${player_name} actionbar {"text":"${text}"}`);
+}
+
 function announceReward(server, player_name, rewards, entity_name){
     let rewards_text = '';
     if(rewards[0]>0){
@@ -154,7 +158,7 @@ function announceReward(server, player_name, rewards, entity_name){
 
     if (rewards_text.length > 0){
         let actionbar_text = `§e§lRecieved: ${rewards_text}§e§lfrom killing ${entity_name}`;
-        server.runCommandSilent(`/title ${player_name} actionbar {"text":"${actionbar_text}"}`);
+        sendPlayerTitle(server, player_name, actionbar_text);
     }
 }
 
@@ -238,14 +242,14 @@ ItemEvents.rightClicked(event => {
                 let from_coin = conversiondata[0];
                 let to_coin = conversiondata[1];
                 if(mainHandItemID == from_coin){
+
                     if(mainHandItemCount==64){
                         clearPlayer(player_name, from_coin, 64, server);
                         givePlayer(player_name, to_coin, 1, server);
+                        event.cancel();
                     }
                 }
-    
             });
-            event.cancel();
         }
     }
 });

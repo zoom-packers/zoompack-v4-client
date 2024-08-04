@@ -1,0 +1,75 @@
+{
+  "economy": {
+    "currency": "dotcoinmod:bronze_coin",
+    "dropMultiplier": 1.0,
+    "DimensionMultipliers": {
+      "minecraft:overworld": 1.0,
+      "blue_skies:everdawn": 3.0,
+      "callfromthedepth_:depth": 14.0,
+      "theabyss:the_abyss": 15.0,
+      "blue_skies:everbright": 2.0,
+      "aether:the_aether": 5.0,
+      "minecraft:the_nether": 7.0,
+      "undergarden:undergarden": 9.0,
+      "minecraft:the_end": 13.0
+    },
+    "trading": {
+      "enabled": true,
+      "baseChance": 0.01,
+      "noDimensionalMultiplier": false
+    },
+    "cooking": {
+      "meatOnly": true,
+      "blacklist": [],
+      "enabled": true,
+      "baseChance": 0.005,
+      "noDimensionalMultiplier": false
+    },
+    "breeding": {
+      "blacklist": [],
+      "enabled": true,
+      "baseChance": 0.05,
+      "noDimensionalMultiplier": false
+    },
+    "smithing": {
+      "blacklist": [],
+      "enabled": true,
+      "baseChance": 0.08,
+      "noDimensionalMultiplier": false
+    },
+    "anvil": {
+      "blacklist": [],
+      "enabled": true,
+      "baseChance": 0.05,
+      "noDimensionalMultiplier": false
+    },
+    "mining": {
+      "blacklist": [],
+      "enabled": true,
+      "baseChance": 0.02,
+      "noDimensionalMultiplier": false
+    },
+    "harvest": {
+      "blacklist": [],
+      "enabled": true,
+      "baseChance": 0.01,
+      "noDimensionalMultiplier": false
+    },
+    "brewing": {
+      "blacklist": [],
+      "enabled": true,
+      "baseChance": 0.03,
+      "noDimensionalMultiplier": false
+    },
+    "travel": {
+      "distanceInMeters": 1000.0,
+      "enabled": true,
+      "baseChance": 1.0,
+      "noDimensionalMultiplier": false
+    },
+    "auctionTheWorldOverrides": {
+      "enabled": true,
+      "currency": "dotcoinmod:bronze_coin"
+    }
+  }
+}
