@@ -1,0 +1,25 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "aether:chests/dungeon/bronze/bronze_dungeon",
+            "weight": 65
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "aether:chests/dungeon/silver/silver_dungeon",
+            "weight": 30
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "aether:chests/dungeon/gold/gold_dungeon_reward",
+            "weight": 5
+          }
+        ]
+      }
+    ]
+  }
+  

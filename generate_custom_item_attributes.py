@@ -5,6 +5,21 @@ base_config = {
   ]
 }
 
+def remove_duplicate_modifiers():
+    used_item_ids = []
+    unique_config = {
+        "items": [
+        ]
+    }
+
+    for item in base_config.get('items'):
+        item_name = item.get('item')
+        if item_name not in used_item_ids:
+            used_item_ids.append(item_name)
+            unique_config.get('items', []).append(item)
+    
+    return unique_config
+
 def fill_config_item_gaps(item_config):
     new_item_config = item_config.copy()
 
@@ -31,6 +46,19 @@ def fill_config_item_gaps(item_config):
 
     return new_item_config.copy()
 
+def alter_config(new_item_config):
+    items = base_config.get("items", [])
+
+    for index in range(0, len(items)):
+        item = items[index]
+        item_name = item.get('item')
+        if item_name == new_item_config.get('item'):
+            items.pop(index)
+            items.append(fill_config_item_gaps(new_item_config))
+            return
+    
+    base_config.get("items", []).append(fill_config_item_gaps(new_item_config))
+
 def new_item_config(mod_id, item_id, item_type, mod_map):
     overrides = []
     for attr, modification in mod_map.items():
@@ -45,35 +73,35 @@ def new_item_config(mod_id, item_id, item_type, mod_map):
             "item": f"{mod_id}:{item_id}",
             "overrides_main_hand": overrides,
         }
-        base_config.get("items", []).append(fill_config_item_gaps(new_item_config))
+        alter_config(new_item_config)
 
     if item_type == 'helmet':
         new_item_config = {
             "item": f"{mod_id}:{item_id}",
             "overrides_head": overrides,
         }
-        base_config.get("items", []).append(fill_config_item_gaps(new_item_config))
+        alter_config(new_item_config)
 
     if item_type == 'chestplate':
         new_item_config = {
             "item": f"{mod_id}:{item_id}",
             "overrides_chest": overrides,
         }
-        base_config.get("items", []).append(fill_config_item_gaps(new_item_config))
+        alter_config(new_item_config)
 
     if item_type == 'leggings':
         new_item_config = {
             "item": f"{mod_id}:{item_id}",
             "overrides_legs": overrides,
         }
-        base_config.get("items", []).append(fill_config_item_gaps(new_item_config))
+        alter_config(new_item_config)
 
     if item_type == 'boots':
         new_item_config = {
             "item": f"{mod_id}:{item_id}",
             "overrides_feet": overrides,
         }
-        base_config.get("items", []).append(fill_config_item_gaps(new_item_config))
+        alter_config(new_item_config)
 
     if item_type == 'offhand':
         new_item_config = {
@@ -83,7 +111,7 @@ def new_item_config(mod_id, item_id, item_type, mod_map):
         base_config.get("items", []).append(fill_config_item_gaps(new_item_config))
 
 
-def new_armor_set_config(mod_id, material_prefix, armor_list, armor_toughness, knockback_resistance, hp_bonus=[0,0,0,0], speed_bonus = [0,0,0,0]):
+def new_armor_set_config(mod_id, material_prefix, armor_list, armor_toughness, knockback_resistance, hp_bonus=[0,0,0,0], speed_bonus =[0,0,0,0], full_id=False, actual_piece=None):
     armor_map = {
         'helmet' : armor_list[0],
         'chestplate' : armor_list[1],
@@ -102,7 +130,12 @@ def new_armor_set_config(mod_id, material_prefix, armor_list, armor_toughness, k
         'leggings' : speed_bonus[2],
         'boots' : speed_bonus[3]        
     }
-    for piece in ['helmet', 'chestplate', 'leggings', 'boots']:
+
+    pieces = ['helmet', 'chestplate', 'leggings', 'boots']
+    if full_id:
+        pieces = [actual_piece]
+    
+    for piece in pieces:
         attr_config = {
                 "minecraft:generic.armor" : (armor_map[piece],'ADDITION'),
                 "minecraft:generic.armor_toughness" : (armor_toughness,'ADDITION'),
@@ -115,7 +148,20 @@ def new_armor_set_config(mod_id, material_prefix, armor_list, armor_toughness, k
         if speed_map[piece] != 0:
             attr_config["minecraft:generic.movement_speed"] = (speed_map[piece],'MULTIPLY_TOTAL')
 
-        new_item_config(mod_id,f'{material_prefix}_{piece}', piece, attr_config)
+        if full_id:
+            new_item_config(mod_id, material_prefix, piece, attr_config)
+        else:
+            new_item_config(mod_id,f'{material_prefix}_{piece}', piece, attr_config)
+
+def new_armor_piece_config(mod_id, full_item_id, armor, armor_toughness, knockback_resistance, hp_bonus=0, speed_bonus= 0, actual_piece = 'helmet'):
+    armor_arg = [armor, 0, 0, 0]
+    if actual_piece == 'chestplate':
+        armor_arg = [0, armor, 0, 0]
+    if actual_piece == 'leggings':
+        armor_arg = [0, 0, armor, 0]
+    if actual_piece == 'boots':
+        armor_arg = [0, 0, 0, armor]
+    new_armor_set_config(mod_id, full_item_id, armor_list=armor_arg, armor_toughness=armor_toughness, knockback_resistance=knockback_resistance, hp_bonus=[hp_bonus, 0, 0, 0], speed_bonus=[speed_bonus, 0, 0, 0], full_id=True, actual_piece=actual_piece)
 
 def new_bow_config(mod_id, material_prefix, damage, full_id=False):
     attr_config = {
@@ -123,7 +169,7 @@ def new_bow_config(mod_id, material_prefix, damage, full_id=False):
     }    
     new_item_config(mod_id,f"{material_prefix}_bow" if not full_id else material_prefix,'bow',attr_config)
 
-def new_sword_config(mod_id, material_prefix, damage, full_id=False, attack_speed = 0):
+def new_sword_config(mod_id, material_prefix, damage, full_id=False, attack_speed = 0.0):
     attr_config = {
         "minecraft:generic.attack_damage" : (damage,'ADDITION'),
     }
@@ -150,6 +196,14 @@ def get_durability_list_from_helmet(helmet_durability):
 
     return quantities
 
+# Non destructive shit
+with open(config_path, 'r') as f:
+    try:
+        base_config = json.loads(f.read())
+    except Exception:
+        pass
+
+
 # Custom item attributes config generator
 # ////////////////////////////////////////////////////////////////////
 
@@ -169,17 +223,36 @@ new_sword_config("blue_skies","charoite", 3) #10
 new_armor_set_config("blue_skies", "horizonite", [2.5,4.5,3.5,3.5], 2.5, 0)
 new_sword_config("blue_skies","horizonite", 4.5) #10.5
 
+# betternether:cincinnasite_axe
+# Nether 
+new_armor_set_config("betternether", "cincinnasite", [7,8,7,6], 4, 0.125)
+new_armor_set_config("betternether", "nether_ruby", [8,12,10,7], 5.6, 0.05)
+new_armor_set_config("betternether", "flaming_ruby", [8,13,10,8], 4.4, 0.0)
+new_sword_config("minecraft","netherite", 30)
 
 # Undergarden
-new_armor_set_config("undergarden", "froststeel", [11,15,11,11], 5, 0.3)
+new_armor_set_config("call_of_yucutan", "warrior", [11,15,11,11], 5, 0.3)
+new_armor_set_config("call_of_yucutan", "huracan",[11,15,11,11], 5, 0.3)
+new_armor_set_config("call_of_yucutan", "monkey", [11,15,11,11], 5, 0.3)
+
+new_armor_set_config("undergarden", "froststeel", [11,15,11,11], 5, 0.3, speed_bonus=[0.05, 0.05, 0.05, 0.05])
 new_sword_config("undergarden","forgotten_battleaxe", 259, full_id=True)
 new_sword_config("undergarden","cloggrum_battleaxe", 171, full_id=True)
+new_sword_config("mokels_boss_mantyd","mantyd_scythe", 85, full_id=True)
+new_sword_config("call_of_yucutan","sentient_vine", 81, full_id=True)
+new_sword_config("call_of_yucutan","jade", 80)
+new_armor_set_config("call_of_yucutan", "jades", [14.5,19.5,16.5,14.5], 8.5, 0.375)
+new_armor_set_config("mokels_boss_mantyd", "mantydhelmet", [14,0,0,0], 8, 0.325)
+
 
 # end related content
+new_sword_config("endlessbiomes","void_touched_blade", 95)
 new_sword_config("betterend","thallasium", 100)
 new_sword_config("betterend","terminite", 125)
 new_sword_config("betterend","aeternium", 155)
 
+new_armor_piece_config("endlessbiomes", "void_touched_leggings_leggings", 17, 9, 0.4, actual_piece="leggings")
+new_armor_piece_config("endlessbiomes", "void_touched_boots_boots", 15, 9, 0.4, actual_piece="boots")
 new_armor_set_config("endlessbiomes", "anklor_shell_armour", [15,21,17,15], 9, 0.35)
 new_armor_set_config("outer_end", "rose_crystal", [15,21,17,15], 8, 0.3)
 new_armor_set_config("outer_end", "cobalt_crystal", [15,21,17,15], 8, 0.3)
@@ -192,9 +265,9 @@ new_armor_set_config("betterend", "crystalite", [40,59,49,40], 10.8, 0.45)
 
 
 # deeper and darker
-new_sword_config("deeperdarker","warden", 200)
-new_armor_set_config("deeperdarker", "warden", [50,70,60,50], 9, 0.5)
-
+new_sword_config("callfromthedepth_","immemorialsword", 170, full_id=True)
+new_armor_set_config("callfromthedepth_", "depth_armor", [50,70,60,50], 7.5, 0.45)
+new_sword_config("callfromthedepth_","soul_blade", 190, full_id=True, attack_speed=0.4)
 
 # The abyss
 new_armor_set_config("theabyss", "fusion_armor", [60,85,70,60], 10.5, 0.6)
@@ -290,7 +363,18 @@ new_kjs_config_durability_material("blue_skies", "diopside", 1800, get_durabilit
 new_kjs_config_durability_material("blue_skies", "charoite", 1900, get_durability_list_from_helmet(450))
 new_kjs_config_durability_material("blue_skies", "horizonite", 2000, get_durability_list_from_helmet(475))
 
+# undergarden
+new_kjs_config_durability_tools("call_of_yucutan", "jade", 4000)
+new_kjs_config_durability_armor_set("call_of_yucutan", "jades", get_durability_list_from_helmet(2925))
+new_kjs_config_durability("call_of_yucutan","sentient_vine", 4000)
+new_kjs_config_durability("mokels_boss_mantyd","mantyd_scythe", 4300)
+new_kjs_config_durability_armor_set("mokels_boss_mantyd", "mantydhelmet", get_durability_list_from_helmet(2950))
+
+
 # ende related
+new_kjs_config_durability("endlessbiomes", "void_touched_blade", 4400)
+new_kjs_config_durability_armor_set("endlessbiomes", "void_touched_boots",  get_durability_list_from_helmet(2950))
+new_kjs_config_durability_armor_set("endlessbiomes", "void_touched_leggings",  get_durability_list_from_helmet(2950))
 new_kjs_config_durability_armor_set("endlessbiomes", "anklor_shell_armour", get_durability_list_from_helmet(2950))
 new_kjs_config_durability_armor_set("outer_end", "rose_crystal", get_durability_list_from_helmet(2950))
 new_kjs_config_durability_armor_set("outer_end", "cobalt_crystal", get_durability_list_from_helmet(2950))
@@ -302,7 +386,10 @@ new_kjs_config_durability_material("betterend", "aeternium", 5250, get_durabilit
 new_kjs_config_durability_armor_set("betterend", "crystalite",  get_durability_list_from_helmet(3890))
 
 # deeper
-new_kjs_config_durability_material("deeperdarker", "warden", 6000,  get_durability_list_from_helmet(4300))
+new_kjs_config_durability_armor_set("callfromthedepth_", "depth_armor", get_durability_list_from_helmet(4100))
+for piece in ['sword', 'axe', 'pickaxe', 'shovel', 'hoe']:
+    new_kjs_config_durability("callfromthedepth_", f"immemorial{piece}", 5700)
+new_kjs_config_durability("callfromthedepth_", "soul_blade", 5900)
 
 # Abyss
 
@@ -377,7 +464,7 @@ new_bow('zoomer_bows', 'terminite_bow', 139, 2600)
 new_bow('zoomer_bows', 'aeternium_bow', 172, 2900)
 
 # Deeper and Darker
-new_bow('zoomer_bows', 'warden_bow', 220, 3200)
+new_bow('callfromthedepth_', 'soulbow', 220, 3200)
 
 # Abyss
 new_bow('zoomer_bows', 'fusion_bow', 272, 3500)
@@ -394,10 +481,11 @@ new_offhand('zoomers_magic', "pyromancer_offhand", {
 })
 
 
-# Saving
+# Saving + removing duplicates
 # ////////////////////////////////////////////////////////////////////
+clean_config = remove_duplicate_modifiers()
 with open(config_path, 'w+') as f:
-    f.write(json.dumps(base_config, indent=4))
+    f.write(json.dumps(clean_config, indent=4))
 
 # Saving
 # ////////////////////////////////////////////////////////////////////

@@ -35,7 +35,7 @@
       "weapon_attributes": "bettercombat:lance"
     },
     {
-      "item_id_regex": "anchor",
+      "item_id_regex": "anchor|macuahuitl",
       "weapon_attributes": "bettercombat:anchor"
     },
     {
@@ -59,7 +59,7 @@
       "weapon_attributes": "bettercombat:katana"
     },
     {
-      "item_id_regex": "rapier",
+      "item_id_regex": "rapier|sentient_vine",
       "weapon_attributes": "bettercombat:rapier"
     },
     {
@@ -71,7 +71,7 @@
       "weapon_attributes": "bettercombat:soul_knife"
     },
     {
-      "item_id_regex": "dagger|knife",
+      "item_id_regex": "dagger|knife|tecpatl",
       "weapon_attributes": "bettercombat:dagger"
     },
     {

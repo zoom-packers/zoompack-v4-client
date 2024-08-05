@@ -1,0 +1,160 @@
+{
+    "pools": [
+      {
+        "rolls": 5,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "apotheosis:gem",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{affix_data:{rarity:\"apotheosis:custom_3\"},gem:\"apotheosis:core/ballast\"}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "apotheosis:gem",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{affix_data:{rarity:\"apotheosis:custom_3\"},gem:\"apotheosis:core/brawlers\"}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "apotheosis:gem",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{affix_data:{rarity:\"apotheosis:custom_3\"},gem:\"apotheosis:core/breach\"}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "apotheosis:gem",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{affix_data:{rarity:\"apotheosis:custom_3\"},gem:\"apotheosis:core/combatant\"}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "apotheosis:gem",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{affix_data:{rarity:\"apotheosis:custom_3\"},gem:\"apotheosis:core/guardian\"}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "apotheosis:gem",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{affix_data:{rarity:\"apotheosis:custom_3\"},gem:\"apotheosis:core/lightning\"}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "apotheosis:gem",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{affix_data:{rarity:\"apotheosis:custom_3\"},gem:\"apotheosis:core/lunar\"}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "apotheosis:gem",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{affix_data:{rarity:\"apotheosis:custom_3\"},gem:\"apotheosis:core/samurai\"}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "apotheosis:gem",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{affix_data:{rarity:\"apotheosis:custom_3\"},gem:\"apotheosis:core/slipstream\"}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "apotheosis:gem",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{affix_data:{rarity:\"apotheosis:custom_3\"},gem:\"apotheosis:core/solar\"}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "apotheosis:gem",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{affix_data:{rarity:\"apotheosis:custom_3\"},gem:\"apotheosis:core/splendor\"}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "apotheosis:gem",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{affix_data:{rarity:\"apotheosis:custom_3\"},gem:\"apotheosis:core/warlord\"}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "apotheosis:gem",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{affix_data:{rarity:\"apotheosis:custom_3\"},gem:\"apotheosis:overworld/earth\"}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "apotheosis:gem",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{affix_data:{rarity:\"apotheosis:custom_3\"},gem:\"apotheosis:overworld/royalty\"}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "apotheosis:gem",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{affix_data:{rarity:\"apotheosis:custom_3\"},gem:\"apotheosis:the_end/endersurge\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

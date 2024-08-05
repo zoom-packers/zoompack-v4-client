@@ -1,7 +1,7 @@
 {
     "requirements": {
         "WEAR": {
-            "endurance": 2
+            "endurance": 4
         }
     },
     "override": true

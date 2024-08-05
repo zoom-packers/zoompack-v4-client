@@ -1,0 +1,25 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "undergarden:chests/catacombs",
+            "weight": 90
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "call_of_yucutan:chest/crypt_chest_loot",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "call_of_yucutan:chest/overgrown_chest_loot",
+            "weight": 5
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1795,6 +1795,51 @@
       "fileID": 5590696,
       "projectID": 1076428,
       "required": true
+    },
+    {
+      "fileID": 4867500,
+      "projectID": 928703,
+      "required": true
+    },
+    {
+      "fileID": 5594612,
+      "projectID": 1012027,
+      "required": true
+    },
+    {
+      "fileID": 5544526,
+      "projectID": 1023668,
+      "required": true
+    },
+    {
+      "fileID": 5346477,
+      "projectID": 1013658,
+      "required": true
+    },
+    {
+      "fileID": 5589413,
+      "projectID": 968398,
+      "required": true
+    },
+    {
+      "fileID": 5575654,
+      "projectID": 458261,
+      "required": true
+    },
+    {
+      "fileID": 5299291,
+      "projectID": 1007397,
+      "required": true
+    },
+    {
+      "fileID": 5072879,
+      "projectID": 509398,
+      "required": true
+    },
+    {
+      "fileID": 5529202,
+      "projectID": 854496,
+      "required": true
     }
   ],
   "manifestType": "minecraftModpack",

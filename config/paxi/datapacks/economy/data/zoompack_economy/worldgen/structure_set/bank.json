@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "zoompack_economy:bank",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 48,
+        "separation": 24,
+        "salt": 1234567890
+    }
+}

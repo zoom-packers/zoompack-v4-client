@@ -1,0 +1,516 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:horse_spawn_egg",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:33.0000f},{Name:\"generic.movement_speed\",Base:0.3544f},{Name:\"horse.jump_strength\",Base:1.0500f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:5f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Horse Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Horse", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:donkey_spawn_egg",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:donkey\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:33.0000f},{Name:\"generic.movement_speed\",Base:0.2363f},{Name:\"horse.jump_strength\",Base:0.7350f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:5f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Donkey Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Donkey", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:mule_spawn_egg",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:mule\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:33.0000f},{Name:\"generic.movement_speed\",Base:0.2363f},{Name:\"horse.jump_strength\",Base:0.7350f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:5f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Mule Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Mule", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:llama_spawn_egg",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:llama\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:16.5000f},{Name:\"generic.movement_speed\",Base:0.2310f},{Name:\"horse.jump_strength\",Base:0.3675f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:5f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Llama Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Llama", "color": "purple", "italic":false},
+                {"text": "Very Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:strider_spawn_egg",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:strider\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:22.0000f},{Name:\"generic.movement_speed\",Base:0.4200f},{Name:\"horse.jump_strength\",Base:0.0000f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:5f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Strider Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Strider", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:camel_spawn_egg",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:camel\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:35.2000f},{Name:\"generic.movement_speed\",Base:0.0945f},{Name:\"horse.jump_strength\",Base:0.5250f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:5f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Camel Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Camel", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_horse_spawn_egg",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:skeleton_horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:44.0000f},{Name:\"generic.movement_speed\",Base:0.5250f},{Name:\"horse.jump_strength\",Base:1.5750f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:5f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Skeleton Horse Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Skeleton Horse", "color": "purple", "italic":false},
+                {"text": "Mythic", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:zombie_horse_spawn_egg",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:zombie_horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:44.0000f},{Name:\"generic.movement_speed\",Base:0.5250f},{Name:\"horse.jump_strength\",Base:1.5750f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:5f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Zombie Horse Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Zombie Horse", "color": "purple", "italic":false},
+                {"text": "Mythic", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:ravager_spawn_egg",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:ravager\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:110.0000f},{Name:\"generic.movement_speed\",Base:0.3150f},{Name:\"horse.jump_strength\",Base:0.0000f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:15f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Ravager Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Ravager", "color": "purple", "italic":false},
+                {"text": "Epic", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:firebird_spawn_egg",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:firebird\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:22.0000f},{Name:\"generic.movement_speed\",Base:0.3150f},{Name:\"horse.jump_strength\",Base:1.0500f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:8f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Zar-ptak Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Zar-ptak", "color": "purple", "italic":false},
+                {"text": "Mythic", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:acencia_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:acencia\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:30.8000f},{Name:\"generic.movement_speed\",Base:0.3150f},{Name:\"horse.jump_strength\",Base:1.5750f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:15f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Acencia Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Acencia", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:archelon_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:archelon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:66.0000f},{Name:\"generic.movement_speed\",Base:0.3544f},{Name:\"horse.jump_strength\",Base:1.5750f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:11f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Archelon Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Archelon", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:colelytra_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:colelytra\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:15.4000f},{Name:\"generic.movement_speed\",Base:0.3544f},{Name:\"horse.jump_strength\",Base:1.5750f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:7f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Colelytra Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Colelytra", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:courierbird_spawn_egg",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:courierbird\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:22.0000f},{Name:\"generic.movement_speed\",Base:0.3544f},{Name:\"horse.jump_strength\",Base:1.5750f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:9f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Courier Bird Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Courier Bird", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:direwolf_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:direwolf\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:33.0000f},{Name:\"generic.movement_speed\",Base:0.4200f},{Name:\"horse.jump_strength\",Base:1.3650f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:12f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Direwolf Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Direwolf", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:dragon_spawn_egg",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:dragon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:44.0000f},{Name:\"generic.movement_speed\",Base:0.4200f},{Name:\"horse.jump_strength\",Base:1.8900f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:15f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Dragon Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Dragon", "color": "purple", "italic":false},
+                {"text": "Mythic", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:griffon_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:griffon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:38.5000f},{Name:\"generic.movement_speed\",Base:0.3150f},{Name:\"horse.jump_strength\",Base:1.4700f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:12f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Griffon Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Griffon", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:geckotoalizard_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:geckotoalizard\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:38.5000f},{Name:\"generic.movement_speed\",Base:0.5250f},{Name:\"horse.jump_strength\",Base:1.8900f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:9f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Geckotoa Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Geckotoa", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:moth_spawn_egg",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:moth\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:11.0000f},{Name:\"generic.movement_speed\",Base:0.3150f},{Name:\"horse.jump_strength\",Base:1.8900f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:7f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Giant Moth Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Giant Moth", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:netherbat_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:netherbat\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:27.5000f},{Name:\"generic.movement_speed\",Base:0.2100f},{Name:\"horse.jump_strength\",Base:1.4700f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:9f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Nether Bat Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Nether Bat", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:nightmare_spawn_egg",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:nightmare\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:38.5000f},{Name:\"generic.movement_speed\",Base:0.5250f},{Name:\"horse.jump_strength\",Base:1.7850f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:10f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Nightmare Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Nightmare", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:nudibranch_spawn_egg",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:nudibranch\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:27.5000f},{Name:\"generic.movement_speed\",Base:0.5250f},{Name:\"horse.jump_strength\",Base:1.5750f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:8f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Giant Nudibranch Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Giant Nudibranch", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:ridinglizard_spawn_egg",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:ridinglizard\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:22.0000f},{Name:\"generic.movement_speed\",Base:0.4200f},{Name:\"horse.jump_strength\",Base:1.8900f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:9f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Giant Lizard Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Giant Lizard", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

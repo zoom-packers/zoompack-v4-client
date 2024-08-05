@@ -135,6 +135,78 @@ ItemEvents.modification((event) => {
     event.modify("blue_skies:horizonite_boots", item => {
         item.maxDamage = 570;
     });
+    event.modify("call_of_yucutan:jade_sword", item => {
+        item.maxDamage = 4000;
+    });
+    event.modify("call_of_yucutan:jade_axe", item => {
+        item.maxDamage = 4000;
+    });
+    event.modify("call_of_yucutan:jade_pickaxe", item => {
+        item.maxDamage = 4000;
+    });
+    event.modify("call_of_yucutan:jade_shovel", item => {
+        item.maxDamage = 4000;
+    });
+    event.modify("call_of_yucutan:jade_hoe", item => {
+        item.maxDamage = 4000;
+    });
+    event.modify("call_of_yucutan:jades_helmet", item => {
+        item.maxDamage = 2925;
+    });
+    event.modify("call_of_yucutan:jades_chestplate", item => {
+        item.maxDamage = 4241;
+    });
+    event.modify("call_of_yucutan:jades_leggings", item => {
+        item.maxDamage = 3948;
+    });
+    event.modify("call_of_yucutan:jades_boots", item => {
+        item.maxDamage = 3510;
+    });
+    event.modify("call_of_yucutan:sentient_vine", item => {
+        item.maxDamage = 4000;
+    });
+    event.modify("mokels_boss_mantyd:mantyd_scythe", item => {
+        item.maxDamage = 4300;
+    });
+    event.modify("mokels_boss_mantyd:mantydhelmet_helmet", item => {
+        item.maxDamage = 2950;
+    });
+    event.modify("mokels_boss_mantyd:mantydhelmet_chestplate", item => {
+        item.maxDamage = 4277;
+    });
+    event.modify("mokels_boss_mantyd:mantydhelmet_leggings", item => {
+        item.maxDamage = 3982;
+    });
+    event.modify("mokels_boss_mantyd:mantydhelmet_boots", item => {
+        item.maxDamage = 3540;
+    });
+    event.modify("endlessbiomes:void_touched_blade", item => {
+        item.maxDamage = 4400;
+    });
+    event.modify("endlessbiomes:void_touched_boots_helmet", item => {
+        item.maxDamage = 2950;
+    });
+    event.modify("endlessbiomes:void_touched_boots_chestplate", item => {
+        item.maxDamage = 4277;
+    });
+    event.modify("endlessbiomes:void_touched_boots_leggings", item => {
+        item.maxDamage = 3982;
+    });
+    event.modify("endlessbiomes:void_touched_boots_boots", item => {
+        item.maxDamage = 3540;
+    });
+    event.modify("endlessbiomes:void_touched_leggings_helmet", item => {
+        item.maxDamage = 2950;
+    });
+    event.modify("endlessbiomes:void_touched_leggings_chestplate", item => {
+        item.maxDamage = 4277;
+    });
+    event.modify("endlessbiomes:void_touched_leggings_leggings", item => {
+        item.maxDamage = 3982;
+    });
+    event.modify("endlessbiomes:void_touched_leggings_boots", item => {
+        item.maxDamage = 3540;
+    });
     event.modify("endlessbiomes:anklor_shell_armour_helmet", item => {
         item.maxDamage = 2950;
     });
@@ -276,32 +348,35 @@ ItemEvents.modification((event) => {
     event.modify("betterend:crystalite_boots", item => {
         item.maxDamage = 4668;
     });
-    event.modify("deeperdarker:warden_sword", item => {
-        item.maxDamage = 6000;
+    event.modify("callfromthedepth_:depth_armor_helmet", item => {
+        item.maxDamage = 4100;
     });
-    event.modify("deeperdarker:warden_axe", item => {
-        item.maxDamage = 6000;
+    event.modify("callfromthedepth_:depth_armor_chestplate", item => {
+        item.maxDamage = 5945;
     });
-    event.modify("deeperdarker:warden_pickaxe", item => {
-        item.maxDamage = 6000;
+    event.modify("callfromthedepth_:depth_armor_leggings", item => {
+        item.maxDamage = 5535;
     });
-    event.modify("deeperdarker:warden_shovel", item => {
-        item.maxDamage = 6000;
+    event.modify("callfromthedepth_:depth_armor_boots", item => {
+        item.maxDamage = 4920;
     });
-    event.modify("deeperdarker:warden_hoe", item => {
-        item.maxDamage = 6000;
+    event.modify("callfromthedepth_:immemorialsword", item => {
+        item.maxDamage = 5700;
     });
-    event.modify("deeperdarker:warden_helmet", item => {
-        item.maxDamage = 4300;
+    event.modify("callfromthedepth_:immemorialaxe", item => {
+        item.maxDamage = 5700;
     });
-    event.modify("deeperdarker:warden_chestplate", item => {
-        item.maxDamage = 6235;
+    event.modify("callfromthedepth_:immemorialpickaxe", item => {
+        item.maxDamage = 5700;
     });
-    event.modify("deeperdarker:warden_leggings", item => {
-        item.maxDamage = 5805;
+    event.modify("callfromthedepth_:immemorialshovel", item => {
+        item.maxDamage = 5700;
     });
-    event.modify("deeperdarker:warden_boots", item => {
-        item.maxDamage = 5160;
+    event.modify("callfromthedepth_:immemorialhoe", item => {
+        item.maxDamage = 5700;
+    });
+    event.modify("callfromthedepth_:soul_blade", item => {
+        item.maxDamage = 5900;
     });
     event.modify("theabyss:fusion_armor_helmet", item => {
         item.maxDamage = 4400;
@@ -549,9 +624,6 @@ ItemEvents.modification((event) => {
     event.modify("theabyss:abyss_sword", item => {
         item.maxDamage = 8300;
     });
-    event.modify("aquaculture:neptunium", item => {
-        item.maxDamage = 389;
-    });
     event.modify("magistuarmory:longbow", item => {
         item.maxDamage = 400;
     });
@@ -618,7 +690,7 @@ ItemEvents.modification((event) => {
     event.modify("zoomer_bows:aeternium_bow", item => {
         item.maxDamage = 2900;
     });
-    event.modify("zoomer_bows:warden_bow", item => {
+    event.modify("callfromthedepth_:soulbow", item => {
         item.maxDamage = 3200;
     });
     event.modify("zoomer_bows:fusion_bow", item => {

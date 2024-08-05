@@ -1,0 +1,25 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "zoompack_economy:special_vanilla_loots/bation_misc",
+            "weight": 65
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "betternether:chests/wither_tower",
+            "weight": 30
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "minecraft:chests/bastion_treasure",
+            "weight": 5
+          }
+        ]
+      }
+    ]
+  }
+  

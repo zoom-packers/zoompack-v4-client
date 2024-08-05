@@ -11,7 +11,7 @@
         "advancedNBTData": "{Damage:0,Falsite:40,Stick:\"minecraft:stick\"}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
+        "itemKey": "dotcoinmod:silver_coin",
         "amount": 1,
         "priceModifier": 0
       },
@@ -71,7 +71,7 @@
         "advancedNBTData": "{Damage:0,Falsite:54,Stick:\"minecraft:stick\"}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
+        "itemKey": "dotcoinmod:silver_coin",
         "amount": 2,
         "priceModifier": 0
       },
@@ -118,8 +118,8 @@
         "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:efficiency\",lvl:1s}],Falsite:50,Stick:\"minecraft:stick\"}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 3,
+        "itemKey": "dotcoinmod:silver_coin",
+        "amount": 30,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -142,7 +142,7 @@
         "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],Falsite:332,Stick:\"minecraft:stick\"}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
+        "itemKey": "dotcoinmod:silver_coin",
         "amount": 5,
         "priceModifier": 0
       },
@@ -166,7 +166,7 @@
         "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:efficiency\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:2s},{id:\"minecraft:silk_touch\",lvl:1s}],Falsite:312,Stick:\"minecraft:stick\"}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
+        "itemKey": "dotcoinmod:silver_coin",
         "amount": 10,
         "priceModifier": 0
       },

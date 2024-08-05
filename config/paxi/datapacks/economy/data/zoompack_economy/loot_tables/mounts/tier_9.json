@@ -1,0 +1,516 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:horse_spawn_egg",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1830.0000f},{Name:\"generic.movement_speed\",Base:0.4725f},{Name:\"horse.jump_strength\",Base:1.4000f},{Name:\"generic.armor\",Base:250f},{Name:\"generic.attack_damage\",Base:250f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Horse Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Horse", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:donkey_spawn_egg",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:donkey\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1830.0000f},{Name:\"generic.movement_speed\",Base:0.3150f},{Name:\"horse.jump_strength\",Base:0.9800f},{Name:\"generic.armor\",Base:250f},{Name:\"generic.attack_damage\",Base:250f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Donkey Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Donkey", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:mule_spawn_egg",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:mule\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1830.0000f},{Name:\"generic.movement_speed\",Base:0.3150f},{Name:\"horse.jump_strength\",Base:0.9800f},{Name:\"generic.armor\",Base:250f},{Name:\"generic.attack_damage\",Base:250f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Mule Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Mule", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:llama_spawn_egg",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:llama\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:915.0000f},{Name:\"generic.movement_speed\",Base:0.3080f},{Name:\"horse.jump_strength\",Base:0.4900f},{Name:\"generic.armor\",Base:250f},{Name:\"generic.attack_damage\",Base:250f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Llama Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Llama", "color": "purple", "italic":false},
+                {"text": "Very Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:strider_spawn_egg",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:strider\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1220.0000f},{Name:\"generic.movement_speed\",Base:0.5600f},{Name:\"horse.jump_strength\",Base:0.0000f},{Name:\"generic.armor\",Base:250f},{Name:\"generic.attack_damage\",Base:250f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Strider Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Strider", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:camel_spawn_egg",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:camel\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1952.0000f},{Name:\"generic.movement_speed\",Base:0.1260f},{Name:\"horse.jump_strength\",Base:0.7000f},{Name:\"generic.armor\",Base:250f},{Name:\"generic.attack_damage\",Base:250f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Camel Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Camel", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_horse_spawn_egg",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:skeleton_horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:2440.0000f},{Name:\"generic.movement_speed\",Base:0.7000f},{Name:\"horse.jump_strength\",Base:2.1000f},{Name:\"generic.armor\",Base:255f},{Name:\"generic.attack_damage\",Base:250f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Skeleton Horse Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Skeleton Horse", "color": "purple", "italic":false},
+                {"text": "Mythic", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:zombie_horse_spawn_egg",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:zombie_horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:2440.0000f},{Name:\"generic.movement_speed\",Base:0.7000f},{Name:\"horse.jump_strength\",Base:2.1000f},{Name:\"generic.armor\",Base:255f},{Name:\"generic.attack_damage\",Base:250f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Zombie Horse Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Zombie Horse", "color": "purple", "italic":false},
+                {"text": "Mythic", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:ravager_spawn_egg",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:ravager\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:6100.0000f},{Name:\"generic.movement_speed\",Base:0.4200f},{Name:\"horse.jump_strength\",Base:0.0000f},{Name:\"generic.armor\",Base:255f},{Name:\"generic.attack_damage\",Base:260f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Ravager Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Ravager", "color": "purple", "italic":false},
+                {"text": "Epic", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:firebird_spawn_egg",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:firebird\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1220.0000f},{Name:\"generic.movement_speed\",Base:0.4200f},{Name:\"horse.jump_strength\",Base:1.4000f},{Name:\"generic.armor\",Base:250f},{Name:\"generic.attack_damage\",Base:253f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Zar-ptak Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Zar-ptak", "color": "purple", "italic":false},
+                {"text": "Mythic", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:acencia_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:acencia\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1708.0000f},{Name:\"generic.movement_speed\",Base:0.4200f},{Name:\"horse.jump_strength\",Base:2.1000f},{Name:\"generic.armor\",Base:250f},{Name:\"generic.attack_damage\",Base:260f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Acencia Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Acencia", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:archelon_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:archelon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:3660.0000f},{Name:\"generic.movement_speed\",Base:0.4725f},{Name:\"horse.jump_strength\",Base:2.1000f},{Name:\"generic.armor\",Base:250f},{Name:\"generic.attack_damage\",Base:256f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Archelon Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Archelon", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:colelytra_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:colelytra\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:854.0000f},{Name:\"generic.movement_speed\",Base:0.4725f},{Name:\"horse.jump_strength\",Base:2.1000f},{Name:\"generic.armor\",Base:250f},{Name:\"generic.attack_damage\",Base:252f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Colelytra Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Colelytra", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:courierbird_spawn_egg",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:courierbird\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1220.0000f},{Name:\"generic.movement_speed\",Base:0.4725f},{Name:\"horse.jump_strength\",Base:2.1000f},{Name:\"generic.armor\",Base:250f},{Name:\"generic.attack_damage\",Base:254f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Courier Bird Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Courier Bird", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:direwolf_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:direwolf\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1830.0000f},{Name:\"generic.movement_speed\",Base:0.5600f},{Name:\"horse.jump_strength\",Base:1.8200f},{Name:\"generic.armor\",Base:250f},{Name:\"generic.attack_damage\",Base:257f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Direwolf Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Direwolf", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:dragon_spawn_egg",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:dragon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:2440.0000f},{Name:\"generic.movement_speed\",Base:0.5600f},{Name:\"horse.jump_strength\",Base:2.5200f},{Name:\"generic.armor\",Base:250f},{Name:\"generic.attack_damage\",Base:260f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Dragon Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Dragon", "color": "purple", "italic":false},
+                {"text": "Mythic", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:griffon_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:griffon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:2135.0000f},{Name:\"generic.movement_speed\",Base:0.4200f},{Name:\"horse.jump_strength\",Base:1.9600f},{Name:\"generic.armor\",Base:250f},{Name:\"generic.attack_damage\",Base:257f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Griffon Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Griffon", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:geckotoalizard_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:geckotoalizard\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:2135.0000f},{Name:\"generic.movement_speed\",Base:0.7000f},{Name:\"horse.jump_strength\",Base:2.5200f},{Name:\"generic.armor\",Base:250f},{Name:\"generic.attack_damage\",Base:254f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Geckotoa Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Geckotoa", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:moth_spawn_egg",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:moth\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:610.0000f},{Name:\"generic.movement_speed\",Base:0.4200f},{Name:\"horse.jump_strength\",Base:2.5200f},{Name:\"generic.armor\",Base:250f},{Name:\"generic.attack_damage\",Base:252f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Giant Moth Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Giant Moth", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:netherbat_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:netherbat\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1525.0000f},{Name:\"generic.movement_speed\",Base:0.2800f},{Name:\"horse.jump_strength\",Base:1.9600f},{Name:\"generic.armor\",Base:250f},{Name:\"generic.attack_damage\",Base:254f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Nether Bat Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Nether Bat", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:nightmare_spawn_egg",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:nightmare\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:2135.0000f},{Name:\"generic.movement_speed\",Base:0.7000f},{Name:\"horse.jump_strength\",Base:2.3800f},{Name:\"generic.armor\",Base:250f},{Name:\"generic.attack_damage\",Base:255f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Nightmare Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Nightmare", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:nudibranch_spawn_egg",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:nudibranch\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1525.0000f},{Name:\"generic.movement_speed\",Base:0.7000f},{Name:\"horse.jump_strength\",Base:2.1000f},{Name:\"generic.armor\",Base:250f},{Name:\"generic.attack_damage\",Base:253f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Giant Nudibranch Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Giant Nudibranch", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:ridinglizard_spawn_egg",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:ridinglizard\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1220.0000f},{Name:\"generic.movement_speed\",Base:0.5600f},{Name:\"horse.jump_strength\",Base:2.5200f},{Name:\"generic.armor\",Base:250f},{Name:\"generic.attack_damage\",Base:254f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Majestic Giant Lizard Mount", "color": "dark_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 9 : Giant Lizard", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

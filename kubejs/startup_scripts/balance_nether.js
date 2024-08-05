@@ -67,7 +67,7 @@ ItemEvents.modification((event) => {
 
     // Netherite modifications
     event.modify("minecraft:netherite_sword", item => {
-        item.attackDamage = 30;
+        // item.attackDamage = 30;
         item.maxDamage = 3100;
     });
 

@@ -1,0 +1,55 @@
+{
+    "pools": [
+      {
+        "rolls": 10,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "apotheosis:common_material",
+            "weight": 256
+          },
+          {
+            "type": "minecraft:item",
+            "name": "apotheosis:uncommon_material",
+            "weight": 128
+          },
+          {
+            "type": "minecraft:item",
+            "name": "apotheosis:rare_material",
+            "weight": 64
+          },
+          {
+            "type": "minecraft:item",
+            "name": "apotheosis:epic_material",
+            "weight": 32
+          },
+          {
+            "type": "minecraft:item",
+            "name": "apotheosis:mythic_material",
+            "weight": 16
+          },
+          {
+            "type": "minecraft:item",
+            "name": "kubejs:apoth_extra_tier_0",
+            "weight": 8
+          },
+          {
+            "type": "minecraft:item",
+            "name": "kubejs:apoth_extra_tier_1",
+            "weight": 4
+          },
+          {
+            "type": "minecraft:item",
+            "name": "kubejs:apoth_extra_tier_2",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "kubejs:apoth_extra_tier_3",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }
+  

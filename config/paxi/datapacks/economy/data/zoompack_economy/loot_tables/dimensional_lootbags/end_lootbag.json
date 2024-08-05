@@ -1,0 +1,25 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "zoompack_economy:special_modded_loots/common_end_loot",
+            "weight": 40
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "betterend:chests/chorus_forest",
+            "weight": 40
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "betterend:chests/lantern_woods",
+            "weight": 20
+          }
+        ]
+      }
+    ]
+  }
+  

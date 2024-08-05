@@ -1,0 +1,516 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:horse_spawn_egg",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:39.0000f},{Name:\"generic.movement_speed\",Base:0.3713f},{Name:\"horse.jump_strength\",Base:1.1000f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:10f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Horse Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Horse", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:donkey_spawn_egg",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:donkey\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:39.0000f},{Name:\"generic.movement_speed\",Base:0.2475f},{Name:\"horse.jump_strength\",Base:0.7700f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:10f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Donkey Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Donkey", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:mule_spawn_egg",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:mule\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:39.0000f},{Name:\"generic.movement_speed\",Base:0.2475f},{Name:\"horse.jump_strength\",Base:0.7700f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:10f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Mule Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Mule", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:llama_spawn_egg",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:llama\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:19.5000f},{Name:\"generic.movement_speed\",Base:0.2420f},{Name:\"horse.jump_strength\",Base:0.3850f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:10f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Llama Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Llama", "color": "purple", "italic":false},
+                {"text": "Very Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:strider_spawn_egg",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:strider\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:26.0000f},{Name:\"generic.movement_speed\",Base:0.4400f},{Name:\"horse.jump_strength\",Base:0.0000f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:10f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Strider Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Strider", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:camel_spawn_egg",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:camel\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:41.6000f},{Name:\"generic.movement_speed\",Base:0.0990f},{Name:\"horse.jump_strength\",Base:0.5500f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:10f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Camel Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Camel", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_horse_spawn_egg",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:skeleton_horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:52.0000f},{Name:\"generic.movement_speed\",Base:0.5500f},{Name:\"horse.jump_strength\",Base:1.6500f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:10f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Skeleton Horse Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Skeleton Horse", "color": "purple", "italic":false},
+                {"text": "Mythic", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:zombie_horse_spawn_egg",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:zombie_horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:52.0000f},{Name:\"generic.movement_speed\",Base:0.5500f},{Name:\"horse.jump_strength\",Base:1.6500f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:10f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Zombie Horse Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Zombie Horse", "color": "purple", "italic":false},
+                {"text": "Mythic", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:ravager_spawn_egg",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"minecraft:ravager\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:130.0000f},{Name:\"generic.movement_speed\",Base:0.3300f},{Name:\"horse.jump_strength\",Base:0.0000f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:20f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Ravager Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Ravager", "color": "purple", "italic":false},
+                {"text": "Epic", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:firebird_spawn_egg",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:firebird\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:26.0000f},{Name:\"generic.movement_speed\",Base:0.3300f},{Name:\"horse.jump_strength\",Base:1.1000f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:13f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Zar-ptak Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Zar-ptak", "color": "purple", "italic":false},
+                {"text": "Mythic", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:acencia_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:acencia\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:36.4000f},{Name:\"generic.movement_speed\",Base:0.3300f},{Name:\"horse.jump_strength\",Base:1.6500f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:20f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Acencia Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Acencia", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:archelon_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:archelon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:78.0000f},{Name:\"generic.movement_speed\",Base:0.3713f},{Name:\"horse.jump_strength\",Base:1.6500f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:16f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Archelon Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Archelon", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:colelytra_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:colelytra\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:18.2000f},{Name:\"generic.movement_speed\",Base:0.3713f},{Name:\"horse.jump_strength\",Base:1.6500f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:12f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Colelytra Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Colelytra", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:courierbird_spawn_egg",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:courierbird\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:26.0000f},{Name:\"generic.movement_speed\",Base:0.3713f},{Name:\"horse.jump_strength\",Base:1.6500f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:14f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Courier Bird Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Courier Bird", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:direwolf_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:direwolf\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:39.0000f},{Name:\"generic.movement_speed\",Base:0.4400f},{Name:\"horse.jump_strength\",Base:1.4300f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:17f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Direwolf Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Direwolf", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:dragon_spawn_egg",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:dragon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:52.0000f},{Name:\"generic.movement_speed\",Base:0.4400f},{Name:\"horse.jump_strength\",Base:1.9800f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:20f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Dragon Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Dragon", "color": "purple", "italic":false},
+                {"text": "Mythic", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:griffon_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:griffon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:45.5000f},{Name:\"generic.movement_speed\",Base:0.3300f},{Name:\"horse.jump_strength\",Base:1.5400f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:17f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Griffon Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Griffon", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:geckotoalizard_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:geckotoalizard\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:45.5000f},{Name:\"generic.movement_speed\",Base:0.5500f},{Name:\"horse.jump_strength\",Base:1.9800f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:14f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Geckotoa Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Geckotoa", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:moth_spawn_egg",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:moth\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:13.0000f},{Name:\"generic.movement_speed\",Base:0.3300f},{Name:\"horse.jump_strength\",Base:1.9800f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:12f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Giant Moth Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Giant Moth", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:netherbat_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:netherbat\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:32.5000f},{Name:\"generic.movement_speed\",Base:0.2200f},{Name:\"horse.jump_strength\",Base:1.5400f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:14f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Nether Bat Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Nether Bat", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:nightmare_spawn_egg",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:nightmare\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:45.5000f},{Name:\"generic.movement_speed\",Base:0.5500f},{Name:\"horse.jump_strength\",Base:1.8700f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:15f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Nightmare Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Nightmare", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:nudibranch_spawn_egg",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:nudibranch\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:32.5000f},{Name:\"generic.movement_speed\",Base:0.5500f},{Name:\"horse.jump_strength\",Base:1.6500f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:13f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Giant Nudibranch Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Giant Nudibranch", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "mythicmounts:ridinglizard_spawn_egg",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"mythicmounts:ridinglizard\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:26.0000f},{Name:\"generic.movement_speed\",Base:0.4400f},{Name:\"horse.jump_strength\",Base:1.9800f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:14f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Giant Lizard Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Giant Lizard", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
