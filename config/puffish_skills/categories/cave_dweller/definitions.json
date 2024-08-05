@@ -1,0 +1,128 @@
+{
+	"root": {
+		"title": "§aGain some fortune, luck and mining speed",
+		"description": {"text": "§l§aSOURCE: §rMine ores"},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "call_of_yucutan:jade_amulet"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.fortune",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.mining_speed",
+					"value": 0.0025,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "yxsovsyhbykzui1z"
+		}
+	},
+	"fortune+0.01": {
+		"title": "§a+0.01 Fortune",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "call_of_yucutan:jade_amulet"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.fortune",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "yxsovsyhbykzui1z"
+		}
+	},
+	"mining_speed+0.25%": {
+		"title": "§a+0.25% Mining Speed",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "create_sa:rose_quartz_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.mining_speed",
+					"value": 0.0025,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "0iou9b4burvr2fjj"
+		}
+	},
+	"luck+0.01": {
+		"title": "+0.01 Luck",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "vinery:luck_effect"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		]
+	}
+}

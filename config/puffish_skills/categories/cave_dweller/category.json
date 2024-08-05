@@ -1,0 +1,14 @@
+{
+	"unlocked_by_default": true,
+	"title": [ 
+		{"text": "§3§lCave Dweller > "},
+		{"text": "§r§fImprove your mining speed, luck and fortune at the cost of living underground through ores"}
+	],
+	"icon": {
+		"type": "effect",
+		"data": {
+			"effect": "haste"
+		}
+	},
+	"background": "create:textures/block/palettes/stone_types/cut/diorite_cut.png"
+}
