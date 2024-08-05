@@ -3,6 +3,7 @@
 	"root": {
 		"title": "§a+0.5 HP",
 		"description": {"text": "§l§aSOURCE: §rTake damage"},
+		"size" : 3,
 		"frame": {
 			"type": "advancement",
 			"data": {
