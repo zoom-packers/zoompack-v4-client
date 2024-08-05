@@ -64,12 +64,4 @@ global.createOffhand(e, "zoomers_magic:cultist_offhand_tier_8", "zoomers_magic:i
 global.createOffhand(e, "zoomers_magic:shadowwalker_offhand_tier_8", "zoomers_magic:item/shadowwalker_offhand", "Magic Offhand: Shadowwalker's Will - Tier 8");
 global.createOffhand(e, "zoomers_magic:priest_offhand_tier_8", "zoomers_magic:item/priest_offhand", "Magic Offhand: Priest's Will - Tier 8");
 global.createOffhand(e, "zoomers_magic:plagued_offhand_tier_8", "zoomers_magic:item/plagued_offhand", "Magic Offhand: Plagued's Will - Tier 8");
-global.createOffhand(e, "zoomers_magic:pyromancer_offhand_tier_9", "zoomers_magic:item/pyromancer_offhand", "Magic Offhand: Pyromancer's Will - Tier 9");
-global.createOffhand(e, "zoomers_magic:cryomancer_offhand_tier_9", "zoomers_magic:item/cryomancer_offhand", "Magic Offhand: Cryomancer's Will - Tier 9");
-global.createOffhand(e, "zoomers_magic:electromancer_offhand_tier_9", "zoomers_magic:item/electromancer_offhand", "Magic Offhand: Electromancer's Will - Tier 9");
-global.createOffhand(e, "zoomers_magic:archevoker_offhand_tier_9", "zoomers_magic:item/archevoker_offhand", "Magic Offhand: Archevoker's Will - Tier 9");
-global.createOffhand(e, "zoomers_magic:cultist_offhand_tier_9", "zoomers_magic:item/cultist_offhand", "Magic Offhand: Cultist's Will - Tier 9");
-global.createOffhand(e, "zoomers_magic:shadowwalker_offhand_tier_9", "zoomers_magic:item/shadowwalker_offhand", "Magic Offhand: Shadowwalker's Will - Tier 9");
-global.createOffhand(e, "zoomers_magic:priest_offhand_tier_9", "zoomers_magic:item/priest_offhand", "Magic Offhand: Priest's Will - Tier 9");
-global.createOffhand(e, "zoomers_magic:plagued_offhand_tier_9", "zoomers_magic:item/plagued_offhand", "Magic Offhand: Plagued's Will - Tier 9");
 });

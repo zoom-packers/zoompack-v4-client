@@ -64,14 +64,6 @@
         "zoomers_magic:cultist_offhand_tier_8",
         "zoomers_magic:shadowwalker_offhand_tier_8",
         "zoomers_magic:priest_offhand_tier_8",
-        "zoomers_magic:plagued_offhand_tier_8",
-        "zoomers_magic:pyromancer_offhand_tier_9",
-        "zoomers_magic:cryomancer_offhand_tier_9",
-        "zoomers_magic:electromancer_offhand_tier_9",
-        "zoomers_magic:archevoker_offhand_tier_9",
-        "zoomers_magic:cultist_offhand_tier_9",
-        "zoomers_magic:shadowwalker_offhand_tier_9",
-        "zoomers_magic:priest_offhand_tier_9",
-        "zoomers_magic:plagued_offhand_tier_9"
+        "zoomers_magic:plagued_offhand_tier_8"
     ]
 }

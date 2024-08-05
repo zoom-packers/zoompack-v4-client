@@ -119,7 +119,7 @@ function escape(value) {
     return value.replace(/"/g, '\\"');
 }
 
-const tiers = 9;
+const tiers = 8;
 const content = [];
 const ids = [];
 for (let tierIndex = 0; tierIndex < tiers; tierIndex++) {
@@ -244,7 +244,7 @@ for (let tierIndex = 0; tierIndex < tiers; tierIndex++) {
         const tierItemBase = getTierItemBase(tierIndex + 1);
         const setRune = getSetRune(setId);
         const recipe = craftingTemplate.map(buildRecipe(tierItemBase, setRune));
-        const itemId = `zoomers_magic:${setId}_offhand_tier_${tierIndex + 1}`;
+        const itemId = `zoomers_magic:augment_${setId}_${tierIndex + 1}`;
         const recipeStr = craftingRecipe(itemId, recipe, 1);
         recipes.push(recipeStr);
     }

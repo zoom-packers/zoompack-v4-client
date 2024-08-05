@@ -136,23 +136,6 @@
         "zoomers_magic:augment_treasure_hunter_8",
         "zoomers_magic:augment_explorer_8",
         "zoomers_magic:augment_healer_8",
-        "zoomers_magic:augment_tank_8",
-        "zoomers_magic:augment_pyromancer_9",
-        "zoomers_magic:augment_cryomancer_9",
-        "zoomers_magic:augment_electromancer_9",
-        "zoomers_magic:augment_archevoker_9",
-        "zoomers_magic:augment_cultist_9",
-        "zoomers_magic:augment_shadowwalker_9",
-        "zoomers_magic:augment_priest_9",
-        "zoomers_magic:augment_plagued_9",
-        "zoomers_magic:augment_cooldown_9",
-        "zoomers_magic:augment_barbarian_9",
-        "zoomers_magic:augment_berserker_9",
-        "zoomers_magic:augment_crusader_9",
-        "zoomers_magic:augment_archer_9",
-        "zoomers_magic:augment_treasure_hunter_9",
-        "zoomers_magic:augment_explorer_9",
-        "zoomers_magic:augment_healer_9",
-        "zoomers_magic:augment_tank_9"
+        "zoomers_magic:augment_tank_8"
     ]
 }

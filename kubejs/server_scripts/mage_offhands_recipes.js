@@ -192,28 +192,4 @@ event.shaped('1x zoomers_magic:priest_offhand_tier_8', ["ABC","DEF","GHI"], {"A"
 
 event.shaped('1x zoomers_magic:plagued_offhand_tier_8', ["ABC","DEF","GHI"], {"A":"theabyss:fixed_bone","B":"theabyss:fixed_bone","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:nature_rune","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
 
-
-event.shaped('1x zoomers_magic:pyromancer_offhand_tier_9', ["ABC","DEF","GHI"], {"E":"irons_spellbooks:fire_rune"});
-
-
-event.shaped('1x zoomers_magic:cryomancer_offhand_tier_9', ["ABC","DEF","GHI"], {"E":"irons_spellbooks:ice_rune"});
-
-
-event.shaped('1x zoomers_magic:electromancer_offhand_tier_9', ["ABC","DEF","GHI"], {"E":"irons_spellbooks:lightning_rune"});
-
-
-event.shaped('1x zoomers_magic:archevoker_offhand_tier_9', ["ABC","DEF","GHI"], {"E":"irons_spellbooks:evocation_rune"});
-
-
-event.shaped('1x zoomers_magic:cultist_offhand_tier_9', ["ABC","DEF","GHI"], {"E":"irons_spellbooks:blood_rune"});
-
-
-event.shaped('1x zoomers_magic:shadowwalker_offhand_tier_9', ["ABC","DEF","GHI"], {"E":"irons_spellbooks:ender_rune"});
-
-
-event.shaped('1x zoomers_magic:priest_offhand_tier_9', ["ABC","DEF","GHI"], {"E":"irons_spellbooks:holy_rune"});
-
-
-event.shaped('1x zoomers_magic:plagued_offhand_tier_9', ["ABC","DEF","GHI"], {"E":"irons_spellbooks:nature_rune"});
-
 })
