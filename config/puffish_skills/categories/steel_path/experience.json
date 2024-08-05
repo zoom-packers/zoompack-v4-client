@@ -2,21 +2,25 @@
 	"experience_per_level": {
 		"type": "expression",
 		"data": {
-			"expression": "(level ^ 1.432)*100 + 600"
+			"expression": "(level ^ 1.432)*100 + 450"
 		}
 	},
 	"sources": [
 		{
 			"type": "puffish_skills:take_damage",
 			"data": {
-				"parameters": {
+				"variables": {
 					"damage": {
-						"type": "damage"
+						"operations": [
+							{
+								"type": "get_taken_damage"
+							}
+						]
 					}
 				},
 				"experience": [
 					{
-						"expression": "damage"
+						"expression": "damage * 0.25"
 					}
 				]
 			}

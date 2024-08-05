@@ -1,0 +1,14 @@
+{
+	"unlocked_by_default": true,
+	"title": [ 
+		{"text": "§1§lSteel Path > "},
+		{"text": "§r§fBecome more resistant do damage and increase your max health, armor and other stats"}
+	],
+	"icon": {
+		"type": "effect",
+		"data": {
+			"effect": "resistance"
+		}
+	},
+	"background": "supplementaries:textures/block/feather_block.png"
+}
