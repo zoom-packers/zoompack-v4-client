@@ -50,6 +50,12 @@
 				"item": "beachparty:bikini"
 			}
 		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",

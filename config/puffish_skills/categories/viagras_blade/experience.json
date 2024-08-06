@@ -2,7 +2,7 @@
 	"experience_per_level": {
 		"type": "expression",
 		"data": {
-			"expression": "(level ^ 1.232)*10 + 30"
+			"expression": "(level ^ 1.232)*100 + 10"
 		}
 	},
 	"sources": [
