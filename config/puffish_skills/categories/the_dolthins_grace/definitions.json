@@ -1,6 +1,8 @@
 {
 	"root": {
-		"title": { "text" : "+0.5% Stamina\n+1% Swim speed" },
+		"title": { "text" : "§aGain some swim speed, stamina and lung capacity" },
+		"description": {"text": "§l§aSOURCE: §rSwim and dive"},
+		"size" : 3,
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -19,7 +21,7 @@
 				"data": {
 					"attribute": "additionalentityattributes:water_speed",
 					"value": 0.01,
-					"operation": "addition"
+					"operation": "multiply_total"
 				}
 			},
 			{
@@ -29,15 +31,23 @@
 					"value": 0.005,
 					"operation": "multiply_total"
 				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:lung_capacity",
+					"value": 1,
+					"operation": "addition"
+				}
 			}
 		]
 	},
 	"swim_speed+1%": {
-		"title": "+1% Swim Speed",
+		"title": "§a+1% Swim Speed",
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "conduit"
+				"item": "beachparty:bikini"
 			}
 		},
 		"rewards": [
@@ -46,59 +56,13 @@
 				"data": {
 					"attribute": "additionalentityattributes:water_speed",
 					"value": 0.01,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"swim_speed+2%": {
-		"title": "+2% Swim Speed\n+20 Lung Capcacity",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "trident"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "additionalentityattributes:water_speed",
-					"value": 0.02,
-					"operation": "addition"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "additionalentityattributes:lung_capacity",
-					"value": 20,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"swim_speed+5%": {
-		"title": "+5% Swim Speed",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "trident"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "additionalentityattributes:water_speed",
-					"value": 0.05,
-					"operation": "addition"
+					"operation": "multiply_total"
 				}
 			}
 		]
 	},
 	"stamina_+0.5%": {
-		"title": "+0.5% Stamina",
+		"title": "§a+0.5% Stamina",
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -116,21 +80,21 @@
 			}
 		]
 	},
-	"stamina_+1%": {
-		"title": "+1% Stamina",
+	"1_lung_capacity": {
+		"title": { "text" : "§a+1 Lung Capacity" },
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "brewery:saturated"
+				"item": "minecraft:heart_of_the_sea"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.stamina",
-					"value": 0.01,
-					"operation": "multiply_total"
+					"attribute": "additionalentityattributes:lung_capacity",
+					"value": 1,
+					"operation": "addition"
 				}
 			}
 		]

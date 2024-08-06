@@ -29,30 +29,6 @@
 					}
 				]
 			}
-		},
-		{
-			"type": "puffish_skills:increase_stat",
-			"data": {
-				"conditions": {
-					"water_walk": {
-						"type": "stat",
-						"data": {
-							"stat": "minecraft.custom:minecraft.walk_on_water_one_cm"
-						}
-					}
-				},
-				"parameters": {
-					"amount": {
-						"type": "amount"
-					}
-				},
-				"experience": [
-					{
-						"condition": "water_walk",
-						"expression": "amount"
-					}
-				]
-			}
 		}
 	]
 }
