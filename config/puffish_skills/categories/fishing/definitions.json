@@ -1,6 +1,8 @@
 {
 	"root+1": {
-		"title": { "text" : "+1% Stamina\n+0.1Luck" },
+		"title": { "text" : "§aGain fishing luck" },
+		"description": {"text": "§l§aSOURCE: §rCatch fish"},
+		"size" : 3,
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -13,15 +15,7 @@
 				"item": "fishing_rod"
 			}
 		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.stamina",
-					"value": 0.01,
-					"operation": "multiply_total"
-				}
-			},		
+		"rewards": [	
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
@@ -33,11 +27,17 @@
 		]
 	},
 	"luck+0.01": {
-		"title": "+0.01 Luck",
-		"icon": {
-			"type": "effect",
+		"title": "§a+0.01 Fishing Luck",
+		"frame": {
+			"type": "advancement",
 			"data": {
-				"effect": "luck"
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:fishing_rod"
 			}
 		},
 		"rewards": [
@@ -51,12 +51,43 @@
 			}
 		]
 	},
-	"luck+0.05": {
-		"title": "+0.05 Luck",
+	"luck+0.02": {
+		"title": "§a+0.02 Fishing Luck",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "jewelry:gold_ring"
+				"item": "aquaculture:iron_fishing_rod"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"luck+0.06": {
+		"title": "§a+0.05 Fishing Luck",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "aquaculture:neptunium_fishing_rod"
 			}
 		},
 		"rewards": [
@@ -66,63 +97,6 @@
 					"attribute": "generic.luck",
 					"value": 0.05,
 					"operation": "addition"
-				}
-			}
-		]
-	},
-	"luck+0.1": {
-		"title": "+0.1 Luck",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "jewelry:ruby_ring"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.luck",
-					"value": 0.1,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"stamina_+0.5%": {
-		"title": "+0.5% Stamina",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "saturation"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.stamina",
-					"value": 0.005,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-	"stamina_+1%": {
-		"title": "+1% Stamina",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "brewery:saturated"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.stamina",
-					"value": 0.01,
-					"operation": "multiply_total"
 				}
 			}
 		]
