@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","apotheosis","fabric","plentyplates:main","pmmo","file/MedievalOrigins_Visuals.zip","Pinnacle 2.8.0.zip","callablehorsers_addon"]
+resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","apotheosis","fabric","plentyplates:main","pmmo","file/MedievalOrigins_Visuals.zip","file/Origin Visuals - Classes.zip","Pinnacle 2.8.0.zip","callablehorsers_addon"]
 incompatibleResourcePacks:["builtin/towntalk","callablehorsers_addon"]
 lastServer:
 lang:en_us

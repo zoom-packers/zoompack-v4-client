@@ -2,6 +2,7 @@
   "exportZipName": "Zoompack 4 - FULL Version.zip",
   "includes": [
     "../config",
+    "../defaultconfigs",
     "../emotes",
     "../kubejs",
     "../packmenu",
