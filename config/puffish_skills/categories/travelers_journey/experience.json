@@ -10,6 +10,30 @@
 			"type": "puffish_skills:increase_stat",
 			"data": {
 				"conditions": {
+					"is_walk": {
+						"type": "stat",
+						"data": {
+							"stat": "minecraft.custom:minecraft.walk_one_cm"
+						}
+					}
+				},
+				"parameters": {
+					"amount": {
+						"type": "amount"
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_walk",
+						"expression": "amount*2"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"conditions": {
 					"is_sprint": {
 						"type": "stat",
 						"data": {
@@ -26,30 +50,6 @@
 					{
 						"condition": "is_sprint",
 						"expression": "amount"
-					}
-				]
-			}
-		},
-		{
-			"type": "puffish_skills:increase_stat",
-			"data": {
-				"conditions": {
-					"is_fly": {
-						"type": "stat",
-						"data": {
-							"stat": "minecraft.custom:minecraft.fly_one_cm"
-						}
-					}
-				},
-				"parameters": {
-					"amount": {
-						"type": "amount"
-					}
-				},
-				"experience": [
-					{
-						"condition": "is_fly",
-						"expression": "amount/10"
 					}
 				]
 			}

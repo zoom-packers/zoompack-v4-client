@@ -1,7 +1,7 @@
 {
 	"root": {
-		"title": { "text" : "§aGain some attack Damage" },
-		"description": {"text": "§l§aSOURCE: §rKill enemies"},
+		"title": { "text" : "§aGain some movement speed" },
+		"description": {"text": "§l§aSOURCE: §rRoam the world; less by sprinting, more by walking"},
 		"size" : 3,
 		"frame": {
 			"type": "advancement",
@@ -12,25 +12,24 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "enchanting_table"
+				"item": "doggytalents:bandaid"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.melee_damage",
+					"attribute": "generic.movement_speed",
 					"value": 0.005,
 					"operation": "multiply_total"
 				}
 			}
-		],
-		"metadata": {
-			"icon": "9xh8zgd7acy4gccp"
-		}
+		]
 	},
-	"damage_+0.5%": {
-		"title": "§a+0.5% Damage",
+
+
+	"+0.5% Movement Speed": {
+		"title": "+0.5% Movement Speed",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -40,166 +39,141 @@
 		"icon": {
 			"type": "effect",
 			"data": {
-				"effect": "strength"
+				"effect": "speed"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic.attack_damage",
+					"attribute": "generic.movement_speed",
 					"value": 0.005,
 					"operation": "multiply_total"
 				}
 			}
 		]
 	},
-	"armor_pierce_0_5": {
-		"title": "§a+0.5 Armor Pierce",
+	"luck+0.01": {
+		"title": "+0.01 Luck",
 		"frame": {
 			"type": "advancement",
 			"data": {
 				"frame": "goal"
-			}
-		},
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "betterend:amber_gem"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "attributeslib:armor_pierce",
-					"value": 0.5,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"armor_shred_0_15": {
-		"title": "§a+0.5% Armor Shred",
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "task"
-			}
-		},
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "tombstone:bone_needle"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "attributeslib:armor_shred",
-					"value": 0.005,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-	"crit_chance_0_5": {
-		"title": "§a+0.5% Critical Chance",
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "goal"
-			}
-		},
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "aquamirae:remnants_saber"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "attributeslib:crit_chance",
-					"value": 0.005,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-	"crit_damage_0_5": {
-		"title": "§a+0.5% Critical Damage",
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "task"
-			}
-		},
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "candlelight:hearth"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "attributeslib:crit_damage",
-					"value": 0.005,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-	"current_hp_damage_0_001": {
-		"title": "§a+0.1% Current HP Damage",
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "task"
-			}
-		},
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "theabyss:clock_of_time"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "attributeslib:current_hp_damage",
-					"value": 0.001,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"life_steal_0_001": {
-		"title": "§a+0.1% Life Steal ",
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "challenge"
 			}
 		},
 		"icon": {
 			"type": "effect",
 			"data": {
-				"effect": "alexsmobs:soulsteal"
+				"effect": "vinery:luck_effect"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:life_steal",
-					"value": 0.001,
+					"attribute": "generic.luck",
+					"value": 0.01,
 					"operation": "addition"
+				}
+			}
+		]
+	},
+	"1_lung_capacity": {
+		"title": { "text" : "§a+1 Lung Capacity" },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:heart_of_the_sea"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:lung_capacity",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"stamina_+0.5%": {
+		"title": "§a+0.5% Stamina",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.005,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"dodge_chance_0_01": {
+		"title": "§a+1% Dodge Chance",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "vinery:shiraaz_effect"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"experience_gained_0_01": {
+		"title": "§a+1% Experience Gained",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "vinery:experience_effect"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.01,
+					"operation": "multiply_total"
 				}
 			}
 		]

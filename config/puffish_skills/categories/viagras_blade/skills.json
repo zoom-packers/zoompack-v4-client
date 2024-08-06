@@ -3,7 +3,7 @@
 		"definition": "root",
 		"x": 0,
 		"y": 0,
-		"root": "root"
+		"root": true
 	},
 	"i6hcjc4q3lr8mhj8": {
 		"definition": "damage_+0.5%",
