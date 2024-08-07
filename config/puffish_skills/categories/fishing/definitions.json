@@ -19,15 +19,15 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.luck",
+					"attribute": "zoompack_overrides_forge:fisherman_luck",
 					"value": 0.01,
 					"operation": "addition"
 				}
 			}
 		]
 	},
-	"luck+0.01": {
-		"title": "§a+0.01 Fishing Luck",
+	"fisherman_luck+0.1": {
+		"title": "§a+0.1 Fishing Luck",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -44,15 +44,15 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.luck",
-					"value": 0.01,
+					"attribute": "zoompack_overrides_forge:fisherman_luck",
+					"value": 0.1,
 					"operation": "addition"
 				}
 			}
 		]
 	},
-	"luck+0.02": {
-		"title": "§a+0.02 Fishing Luck",
+	"fisherman_luck+0.3": {
+		"title": "§a+0.3 Fishing Luck",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -69,15 +69,15 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.luck",
-					"value": 0.02,
+					"attribute": "zoompack_overrides_forge:fisherman_luck",
+					"value": 0.3,
 					"operation": "addition"
 				}
 			}
 		]
 	},
-	"luck+0.06": {
-		"title": "§a+0.05 Fishing Luck",
+	"lure_speed+1": {
+		"title": "§a+1 Lure Speed",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -94,7 +94,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.luck",
+					"attribute": "zoompack_overrides_forge:lure_speed",
 					"value": 0.05,
 					"operation": "addition"
 				}
