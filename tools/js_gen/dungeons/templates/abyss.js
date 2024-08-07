@@ -1,9 +1,9 @@
-const dims = require("../../libs/dimension_typedefs");
-const items = require("../../libs/item_typedefs");
-const blocks = require("../../libs/block_typedefs");
-const entities = require("../../libs/entity_typedefs");
-const biomes = require("../../libs/biome_typedefs");
-const {dimension_theabyss} = require("../../libs/dimension_typedefs");
+const dims = require("../../typedefs/dimension_typedefs");
+const items = require("../../typedefs/item_typedefs");
+const blocks = require("../../typedefs/block_typedefs");
+const entities = require("../../typedefs/entity_typedefs");
+const biomes = require("../../typedefs/biome_typedefs");
+const {dimension_theabyss} = require("../../typedefs/dimension_typedefs");
 
 /** @type {DimensionalGenerationDefinition} */
 const abyss = {

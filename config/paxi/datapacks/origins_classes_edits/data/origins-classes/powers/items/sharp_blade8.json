@@ -1,12 +1,10 @@
-
 {
-  "type": "apoli:attribute",
-  "name": "Sharp Blade",
-  "description": "+-60% Attack Damage. This blade has been forged by a licensed blacksmith. Please subscribe to their Youtube 360p channel.",
-  "modifier": {
-    "name": "{name}",
-    "attribute": "minecraft:generic.attack_damage",
-    "value": 0.4,
-    "operation": "multiply_base"
-  }
+    "type": "apoli:attribute",
+    "name": "Sharp Blade",
+    "description": "+0.4x Attack Damage. This blade has been forged by a licensed blacksmith.",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "value": 0.4,
+        "operation": "multiply_base"
+    }
 }

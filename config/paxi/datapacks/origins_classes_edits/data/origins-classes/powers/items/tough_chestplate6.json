@@ -1,12 +1,10 @@
-
 {
-  "type": "apoli:attribute",
-  "name": "Tough Chestplate",
-  "description": "+-80% Armor. This chestplate has been forged by a licensed blacksmith. Please subscribe to their OnlyFans.",
-  "modifier": {
-    "name": "{name}",
-    "attribute": "minecraft:generic.armor",
-    "value": 0.2,
-    "operation": "multiply_base"
-  }
+    "type": "apoli:attribute",
+    "name": "Tough Chestplate",
+    "description": "+0.2x Armor. This chestplate has been forged by a licensed blacksmith.",
+    "modifier": {
+        "attribute": "minecraft:generic.armor",
+        "value": 0.2,
+        "operation": "multiply_base"
+    }
 }

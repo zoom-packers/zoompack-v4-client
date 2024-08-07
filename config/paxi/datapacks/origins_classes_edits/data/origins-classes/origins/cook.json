@@ -1,4 +1,5 @@
 {
+  "loading_priority": 111,
   "powers": [
     "origins-classes:better_crafted_food",
     "origins-classes:more_smoker_xp"

@@ -1,0 +1,13 @@
+{
+    "type": "origins:modify_food",
+    "name": "Nourishing Offhand",
+    "description": "+60 seconds of Nourishment. This food has been plated by a cook.",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "farmersdelight:nourishment",
+            "duration": 1200,
+            "amplifier": 0
+        }
+    }
+}

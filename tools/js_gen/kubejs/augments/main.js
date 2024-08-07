@@ -1,5 +1,5 @@
 const fs = require("fs");
-const {operation} = require("../cia_util");
+const {operation} = require("../../utils/cia_util");
 const {
     item_minecraft,
     item_blue_skies,
@@ -10,8 +10,8 @@ const {
     item_deeperdarker,
     item_theabyss,
     item_irons_spellbooks
-} = require("../../libs/item_typedefs");
-const {craftingRecipe} = require("../recipe_util");
+} = require("../../typedefs/item_typedefs");
+const {craftingRecipe} = require("../../utils/recipe_util");
 
 
 const outputDir = "../../../..";

@@ -1,5 +1,5 @@
 const fs = require("fs");
-const {createCiaBoots, createCiaOffhand, operation, addItemToCia} = require("../cia_util");
+const {createCiaBoots, createCiaOffhand, operation, addItemToCia} = require("../../utils/cia_util");
 const {
     item_blue_skies,
     item_aether,
@@ -8,8 +8,8 @@ const {
     item_betterend,
     item_deeperdarker,
     item_theabyss, item_minecraft, item_irons_spellbooks
-} = require("../../libs/item_typedefs");
-const {craftingRecipe} = require("../recipe_util");
+} = require("../../typedefs/item_typedefs");
+const {craftingRecipe} = require("../../utils/recipe_util");
 
 const outputDir = "../../../..";
 const scriptPath = `${outputDir}/kubejs/startup_scripts/mage_offhands.js`;

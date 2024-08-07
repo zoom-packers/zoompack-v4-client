@@ -1,4 +1,4 @@
-const {item_irons_spellbooks} = require("../../libs/item_typedefs");
+const {item_irons_spellbooks} = require("../../typedefs/item_typedefs");
 
 const helmets = [
     item_irons_spellbooks.i_pyromancer_helmet,

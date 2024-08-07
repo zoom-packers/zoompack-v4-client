@@ -1,134 +1,134 @@
 {
-  "type": "origins:multiple",
-  "loading_priority": 111,
-  "bow_damage_boost0": {
-    "type": "origins:conditioned_attribute",
-    "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_archery",
-          "comparison": ">=",
-          "compare_to": 0
+    "type": "origins:multiple",
+    "loading_priority": 111,
+    "bow_damage_boost_0": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_archery",
+                    "comparison": ">=",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_archery",
+                    "comparison": "<",
+                    "compare_to": 20
+                }
+            ]
         },
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_archery",
-          "comparison": "<",
-          "compare_to": 20
+        "modifier": {
+            "name": "Archer attack damage bonus 0",
+            "attribute": "projectile_damage:generic",
+            "value": 0.2,
+            "operation": "multiply_total"
         }
-      ]
     },
-    "modifier": {
-      "name": "Archer attack damage bonus 0",
-      "attribute": "projectile_damage:generic",
-      "value": 0.2,
-      "operation": "multiply_total"
-    }
-  },
-  "bow_damage_boost1": {
-    "type": "origins:conditioned_attribute",
-    "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_archery",
-          "comparison": ">=",
-          "compare_to": 20
+    "bow_damage_boost_1": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_archery",
+                    "comparison": ">=",
+                    "compare_to": 20
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_archery",
+                    "comparison": "<",
+                    "compare_to": 40
+                }
+            ]
         },
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_archery",
-          "comparison": "<",
-          "compare_to": 40
+        "modifier": {
+            "name": "Archer attack damage bonus 20",
+            "attribute": "projectile_damage:generic",
+            "value": 0.4,
+            "operation": "multiply_total"
         }
-      ]
     },
-    "modifier": {
-      "name": "Archer attack damage bonus 20",
-      "attribute": "projectile_damage:generic",
-      "value": 0.4,
-      "operation": "multiply_total"
-    }
-  },
-  "bow_damage_boost2": {
-    "type": "origins:conditioned_attribute",
-    "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_archery",
-          "comparison": ">=",
-          "compare_to": 40
+    "bow_damage_boost_2": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_archery",
+                    "comparison": ">=",
+                    "compare_to": 40
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_archery",
+                    "comparison": "<",
+                    "compare_to": 60
+                }
+            ]
         },
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_archery",
-          "comparison": "<",
-          "compare_to": 60
+        "modifier": {
+            "name": "Archer attack damage bonus 40",
+            "attribute": "projectile_damage:generic",
+            "value": 0.6,
+            "operation": "multiply_total"
         }
-      ]
     },
-    "modifier": {
-      "name": "Archer attack damage bonus 40",
-      "attribute": "projectile_damage:generic",
-      "value": 0.6,
-      "operation": "multiply_total"
-    }
-  },
-  "bow_damage_boost3": {
-    "type": "origins:conditioned_attribute",
-    "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_archery",
-          "comparison": ">=",
-          "compare_to": 60
+    "bow_damage_boost_3": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_archery",
+                    "comparison": ">=",
+                    "compare_to": 60
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_archery",
+                    "comparison": "<",
+                    "compare_to": 80
+                }
+            ]
         },
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_archery",
-          "comparison": "<",
-          "compare_to": 80
+        "modifier": {
+            "name": "Archer attack damage bonus 60",
+            "attribute": "projectile_damage:generic",
+            "value": 0.8,
+            "operation": "multiply_total"
         }
-      ]
     },
-    "modifier": {
-      "name": "Archer attack damage bonus 60",
-      "attribute": "projectile_damage:generic",
-      "value": 0.8,
-      "operation": "multiply_total"
-    }
-  },
-  "bow_damage_boost4": {
-    "type": "origins:conditioned_attribute",
-    "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_archery",
-          "comparison": ">=",
-          "compare_to": 80
+    "bow_damage_boost_4": {
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_archery",
+                    "comparison": ">=",
+                    "compare_to": 80
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_archery",
+                    "comparison": "<",
+                    "compare_to": 1000
+                }
+            ]
         },
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_archery",
-          "comparison": "<",
-          "compare_to": 1000
+        "modifier": {
+            "name": "Archer attack damage bonus 80",
+            "attribute": "projectile_damage:generic",
+            "value": 1,
+            "operation": "multiply_total"
         }
-      ]
-    },
-    "modifier": {
-      "name": "Archer attack damage bonus 80",
-      "attribute": "projectile_damage:generic",
-      "value": 1,
-      "operation": "multiply_total"
     }
-  }
 }

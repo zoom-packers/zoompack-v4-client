@@ -1,15 +1,15 @@
 const fs = require("fs");
 const {item_irons_spellbooks, item_minecraft, item_blue_skies, item_aether, item_undergarden, item_betterend,
     item_betternether, item_deeperdarker, item_theabyss
-} = require("../../libs/item_typedefs");
+} = require("../../typedefs/item_typedefs");
 const {getHelmetName, getChestplateName, getLeggingsName, getBootsName, chestplates, helmets, leggings, boots,
     getItemJson, getArmorJson
 } = require("./data");
 const {ensureDirSync} = require("../../../sync_util");
 const {createCiaModifier, operation, createCiaHelmet, addItemToCia, createCiaChestplate, createCiaLeggings,
     createCiaBoots
-} = require("../cia_util");
-const {craftingRecipe} = require("../recipe_util");
+} = require("../../utils/cia_util");
+const {craftingRecipe} = require("../../utils/recipe_util");
 
 const outputDir = "../../../..";
 const scriptPath = `${outputDir}/kubejs/startup_scripts/mage_armors.js`;
