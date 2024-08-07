@@ -14,7 +14,7 @@ function modifyFullSets() {
     processor.modifySingleItem("call_of_yucutan", "flint_spear", "sword", 3);
     processor.modifySetRequirements("immersive_armors", "wither", 4, "armor");
     processor.modifySetRequirements("minecraft", "chainmail", 5, "armor");
-    processor.modifySetRequirements("everythingcopper", "copper", 6);
+    processor.modifySetRequirements("create_sa", "copper", 6);
     processor.modifySingleItem("create", "copper_backtank", "chestplate", 5);
     processor.modifySetRequirements("create", "copper_diving", 5, ["helmet", "boots"]);
     processor.modifySetRequirements("immersive_armors", "warrior", 7, "armor");
