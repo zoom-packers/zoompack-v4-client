@@ -3,13 +3,14 @@
 
 	"show_warnings": true,
 	"categories": [
-			"combat",
-			"mining",
-			"swimming",
-			"jump",
-			"sprint",
-			"tank",
+			"viagras_blade",
+			"arthemis_grace",
+			"cave_dweller",
+			"rouge_guile",
+			"the_dolthins_grace",
+			"travelers_journey",
+			"steel_path",
 			"fishing",
-			"villager"
+			"hero_of_the_village"
 		]
 	}

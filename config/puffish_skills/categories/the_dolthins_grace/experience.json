@@ -2,7 +2,7 @@
 	"experience_per_level": {
 		"type": "expression",
 		"data": {
-			"expression": "level ^ 1.432 + 20"
+			"expression": "(level ^ 1.432)*100 + 10000"
 		}
 	},
 	"sources": [
@@ -10,10 +10,10 @@
 			"type": "puffish_skills:increase_stat",
 			"data": {
 				"conditions": {
-					"is_caught": {
+					"is_swim": {
 						"type": "stat",
 						"data": {
-							"stat": "minecraft.custom:minecraft.fish_caught"
+							"stat": "minecraft.custom:minecraft.swim_one_cm"
 						}
 					}
 				},
@@ -24,7 +24,7 @@
 				},
 				"experience": [
 					{
-						"condition": "is_caught",
+						"condition": "is_swim",
 						"expression": "amount"
 					}
 				]

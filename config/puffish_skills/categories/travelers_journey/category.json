@@ -1,0 +1,14 @@
+{
+	"unlocked_by_default": true,
+	"title": [ 
+		{"text": "§e§lTraveler's Journey > "},
+		{"text": "§r§fImprove your movement speed, luck, dodge chance, experience gained, lung capacity and stamina as your roam the world"}
+	],
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "compass"
+		}
+	},
+	"background": "minecraft:textures/block/white_wool.png"
+}

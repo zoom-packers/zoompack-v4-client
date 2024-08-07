@@ -1,0 +1,14 @@
+{
+	"unlocked_by_default": true,
+	"title": [ 
+		{"text": "§6§lViagra's Blade > "},
+		{"text": "§r§fImprove your fighting skills and damage by killing enemies or other players"}
+	],
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "theabyss:nosaj_sword"
+		}
+	},
+	"background": "textures/block/cut_copper.png"
+}
