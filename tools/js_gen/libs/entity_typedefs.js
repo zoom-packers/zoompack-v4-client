@@ -1105,36 +1105,6 @@ e_ball_lightning: "irons_spellbooks:ball_lightning",
 };
 
 
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
-const entity_everythingcopper = {
-    /** @type {string} */
-e_copper_golem: "everythingcopper:copper_golem",
-/** @type {string} */
-e_copper_minecart: "everythingcopper:copper_minecart",
-/** @type {string} */
-e_chest_copper_minecart: "everythingcopper:chest_copper_minecart",
-/** @type {string} */
-e_command_block_copper_minecart: "everythingcopper:command_block_copper_minecart",
-/** @type {string} */
-e_furnace_copper_minecart: "everythingcopper:furnace_copper_minecart",
-/** @type {string} */
-e_hopper_copper_minecart: "everythingcopper:hopper_copper_minecart",
-/** @type {string} */
-e_spawner_copper_minecart: "everythingcopper:spawner_copper_minecart",
-/** @type {string} */
-e_tnt_copper_minecart: "everythingcopper:tnt_copper_minecart",
-
-};
-
-
-
-
 /**
  * Auto-generated Enum
  * @readonly
