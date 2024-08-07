@@ -1,7 +1,7 @@
 {
 	"root": {
-		"title": { "text" : "§aGain some attack Damage" },
-		"description": {"text": "§l§aSOURCE: §rKill enemies"},
+		"title": { "text" : "§bInscrease your damage" },
+		"description": {"text": "§l§aSOURCE: §rOne Shot Enemies"},
 		"size" : 3,
 		"frame": {
 			"type": "advancement",
@@ -12,7 +12,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "enchanting_table"
+				"item": "apotheosis:salvaging_table"
 			}
 		},
 		"rewards": [
@@ -24,10 +24,7 @@
 					"operation": "multiply_total"
 				}
 			}
-		],
-		"metadata": {
-			"icon": "9xh8zgd7acy4gccp"
-		}
+		]
 	},
 	"damage_+0.5%": {
 		"title": "§a+0.5% Damage",
@@ -48,56 +45,6 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "minecraft:generic.attack_damage",
-					"value": 0.005,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-	"armor_pierce_0_5": {
-		"title": "§a+0.5 Armor Pierce",
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "goal"
-			}
-		},
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "betterend:amber_gem"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "attributeslib:armor_pierce",
-					"value": 0.5,
-					"operation": "addition"
-				}
-			}
-		]
-	},
-	"armor_shred_0_15": {
-		"title": "§a+0.5% Armor Shred",
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "task"
-			}
-		},
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "tombstone:bone_needle"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "attributeslib:armor_shred",
 					"value": 0.005,
 					"operation": "multiply_total"
 				}
@@ -175,6 +122,56 @@
 					"attribute": "attributeslib:current_hp_damage",
 					"value": 0.001,
 					"operation": "addition"
+				}
+			}
+		]
+	},
+	"experience_gained_0_01": {
+		"title": "§a+1% Experience Gained",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "vinery:experience_effect"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"healing_recieved_1_perc": {
+		"title": { "text" : "§a+1% Healing Recieved" },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "brewery:healingtouch"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.01,
+					"operation": "multiply_total"
 				}
 			}
 		]
