@@ -89,5 +89,14 @@
       "puffish_attributes:player.knockback",
       "puffish_attributes:player.repair_cost"
     ]
+  },
+  "enchantment": {
+    "enabled": true,
+    "sharpnessAdditionFactor": 0.5,
+    "sharpnessTotalDamageMultiplierPerLevel": 0.02,
+    "baneArthropodsFactor": 1.0,
+    "baneArthropodsTotalDamageMultiplierPerLevel": 0.0,
+    "smiteUndeadFactor": 1.0,
+    "smiteUndeadTotalDamageMultiplierPerLevel": 0.0
   }
 }
