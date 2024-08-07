@@ -36,9 +36,6 @@ function modifyFullSets() {
     processor.modifySingleItem("call_of_yucutan", "obsidian_tecpatl", "sword", 14);
     processor.modifySingleItem("call_of_yucutan", "obsidian_spear", "sword", 14);
     processor.modifySingleItem("minecraft", "trident", "sword", 15);
-    processor.modifySingleItem("aquamirae", "abyssal_heaume", "helmet", 15);
-    processor.modifySingleItem("aquamirae", "abyssal_brigantine", "chestplate", 15);
-    processor.modifySetRequirements("aquamirae", "abyssal", 15, ["leggings", "boots"])
     processor.modifySetRequirements("immersive_armors", "prismarine", 15, "armor");
     processor.modifySetRequirements("aquamirae", "terrible", 16, "armor")
     processor.modifySingleItem("aquamirae", "three_bolt_suit", "chestplate", 16)
@@ -130,13 +127,21 @@ function modifyFullSets() {
     processor.modifySetRequirements("irons_spellbooks", "priest_tier_4", 56, "armor");
     processor.modifySetRequirements("irons_spellbooks", "plagued_tier_4", 56, "armor");
 
-    processor.modifySetRequirements("betternether", "flaming_ruby", 58);
-    processor.modifySingleItem("zoomer_bows", "fire_ruby_bow", "bow", 58);
+    processor.modifySetRequirements("betternether", "flaming_ruby", 57);
+    processor.modifySingleItem("zoomer_bows", "fire_ruby_bow", "bow", 57);
 
-    processor.modifySetRequirements("minecraft", "netherite", 59);
-    processor.modifySingleItem("zoomer_bows", "netherite_bow", "bow", 59);
-    processor.modifySingleItem("create", "netherite_backtank", "chestplate", 59);
-    processor.modifySetRequirements("create", "netherite_diving", 59, ["helmet", "boots"]);
+    processor.modifySetRequirements("minecraft", "netherite", 58);
+    processor.modifySingleItem("zoomer_bows", "netherite_bow", "bow", 58);
+    processor.modifySingleItem("create", "netherite_backtank", "chestplate", 58);
+    processor.modifySetRequirements("create", "netherite_diving", 58, ["helmet", "boots"]);
+
+    processor.modifySingleItem("aquamirae", "divider", "sword", 59);
+    processor.modifySingleItem("aquamirae", "whisper_of_the_abyss", "sword", 59);
+
+    processor.modifySingleItem("aquamirae", "abyssal_heaume", "helmet", 59);
+    processor.modifySingleItem("aquamirae", "abyssal_tiara", "helmet", 59);
+    processor.modifySingleItem("aquamirae", "abyssal_brigantine", "chestplate", 59);
+    processor.modifySetRequirements("aquamirae", "abyssal", 59, ["leggings", "boots"])
 
     // Undergarden
     processor.modifySetRequirements("undergarden", "cloggrum", 61);

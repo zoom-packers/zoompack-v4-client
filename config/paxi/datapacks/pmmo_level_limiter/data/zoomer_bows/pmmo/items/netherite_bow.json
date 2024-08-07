@@ -1,10 +1,10 @@
 {
     "requirements": {
         "TOOL": {
-            "archery": 59
+            "archery": 58
         },
         "WEAR": {
-            "archery": 59
+            "archery": 58
         },
         "WEAPON": {
             "combat": 0
