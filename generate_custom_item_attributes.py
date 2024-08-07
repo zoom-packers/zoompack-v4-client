@@ -229,6 +229,7 @@ new_armor_set_config("betternether", "cincinnasite", [7,8,7,6], 4, 0.125)
 new_armor_set_config("betternether", "nether_ruby", [8,12,10,7], 5.6, 0.05)
 new_armor_set_config("betternether", "flaming_ruby", [8,13,10,8], 4.4, 0.0)
 new_sword_config("minecraft","netherite", 30)
+new_sword_config("nethersdelight","netherite_machete", 30, full_id=True)
 
 # Undergarden
 new_armor_set_config("call_of_yucutan", "warrior", [11,15,11,11], 5, 0.3)
@@ -246,7 +247,8 @@ new_armor_set_config("mokels_boss_mantyd", "mantydhelmet", [14,0,0,0], 8, 0.325)
 
 
 # end related content
-new_sword_config("endlessbiomes","void_touched_blade", 95)
+new_sword_config("endlessbiomes","void_touched_blade", 95, full_id=True)
+new_sword_config("outer_end","sinker_dagger", 95, full_id=True)
 new_sword_config("betterend","thallasium", 100)
 new_sword_config("betterend","terminite", 125)
 new_sword_config("betterend","aeternium", 155)
@@ -363,6 +365,9 @@ new_kjs_config_durability_material("blue_skies", "diopside", 1800, get_durabilit
 new_kjs_config_durability_material("blue_skies", "charoite", 1900, get_durability_list_from_helmet(450))
 new_kjs_config_durability_material("blue_skies", "horizonite", 2000, get_durability_list_from_helmet(475))
 
+# netherite
+new_kjs_config_durability("nethersdelight","netherite_machete", 3100)
+
 # undergarden
 new_kjs_config_durability_tools("call_of_yucutan", "jade", 4000)
 new_kjs_config_durability_armor_set("call_of_yucutan", "jades", get_durability_list_from_helmet(2925))
@@ -373,6 +378,7 @@ new_kjs_config_durability_armor_set("mokels_boss_mantyd", "mantydhelmet", get_du
 
 # ende related
 new_kjs_config_durability("endlessbiomes", "void_touched_blade", 4400)
+new_kjs_config_durability("outer_end", "sinker_dagger", 4400)
 new_kjs_config_durability_armor_set("endlessbiomes", "void_touched_boots",  get_durability_list_from_helmet(2950))
 new_kjs_config_durability_armor_set("endlessbiomes", "void_touched_leggings",  get_durability_list_from_helmet(2950))
 new_kjs_config_durability_armor_set("endlessbiomes", "anklor_shell_armour", get_durability_list_from_helmet(2950))

@@ -15,7 +15,10 @@ function sword (value) {
                 swordsmanship: value
             },
             WEAR: {
-                swordsmanship: value
+                swordsmanship: value,
+            },
+            TOOL: {
+                farming : 0
             }
         }
     }
