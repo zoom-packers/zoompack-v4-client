@@ -1,0 +1,204 @@
+{
+	"root": {
+		"title": { "text" : "§bInscrease your damage" },
+		"description": {"text": "§l§aSOURCE: §rOne Shot Enemies"},
+		"size" : 3,
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "apotheosis:salvaging_table"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.attack_damage",
+					"value": 0.005,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"damage_+0.5%": {
+		"title": "§a+0.5% Damage",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.attack_damage",
+					"value": 0.005,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"crit_chance_0_5": {
+		"title": "§a+0.5% Critical Chance",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "aquamirae:remnants_saber"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.005,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"crit_damage_0_5": {
+		"title": "§a+0.5% Critical Damage",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "candlelight:hearth"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.005,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"current_hp_damage_0_001": {
+		"title": "§a+0.1% Current HP Damage",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "theabyss:clock_of_time"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:current_hp_damage",
+					"value": 0.001,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"experience_gained_0_01": {
+		"title": "§a+1% Experience Gained",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "vinery:experience_effect"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"healing_recieved_1_perc": {
+		"title": { "text" : "§a+1% Healing Recieved" },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "brewery:healingtouch"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"life_steal_0_001": {
+		"title": "§a+0.1% Life Steal ",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "alexsmobs:soulsteal"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:life_steal",
+					"value": 0.001,
+					"operation": "addition"
+				}
+			}
+		]
+	}
+}

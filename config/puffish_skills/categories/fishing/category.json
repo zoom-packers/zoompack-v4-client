@@ -1,12 +1,14 @@
 {
 	"unlocked_by_default": true,
-	"spent_points_limit": 53,
-	"title": { "text" : "\u00A7bFisherman\n\u00A7fMake your own luck and improve your stamina\n \nExperience source: Catch fish" },
+	"title": [ 
+		{"text": "§3§lRussian Fishing Simulator > "},
+		{"text": "§r§fGain luck while fishing by catching as much fish as possible!"}
+	],
 	"icon": {
 		"type": "item",
 		"data": {
 			"item": "fishing_rod"
 		}
 	},
-	"background": "minecraft:textures/block/light_blue_wool.png"
+	"background": "minecraft:textures/block/lapis_block.png"
 }

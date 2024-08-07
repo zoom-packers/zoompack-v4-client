@@ -1,0 +1,14 @@
+{
+	"unlocked_by_default": true,
+	"title": [ 
+		{"text": "§b§lThe Donphin's Grace > "},
+		{"text": "§r§fImprove your samina, swim speed and lung capacity as you dive and swim"}
+	],
+	"icon": {
+		"type": "effect",
+		"data": {
+			"effect": "water_breathing"
+		}
+	},
+	"background": "minecraft:textures/block/light_blue_wool.png"
+}

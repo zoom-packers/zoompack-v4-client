@@ -1,0 +1,181 @@
+{
+	"root": {
+		"title": { "text" : "§aGain some movement speed" },
+		"description": {"text": "§l§aSOURCE: §rRoam the world; less by sprinting, more by walking"},
+		"size" : 3,
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "doggytalents:bandaid"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.005,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+
+
+	"+0.5% Movement Speed": {
+		"title": "+0.5% Movement Speed",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.005,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"luck+0.01": {
+		"title": "+0.01 Luck",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "vinery:luck_effect"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"1_lung_capacity": {
+		"title": { "text" : "§a+1 Lung Capacity" },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:heart_of_the_sea"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:lung_capacity",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"stamina_+0.5%": {
+		"title": "§a+0.5% Stamina",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.005,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"dodge_chance_0_01": {
+		"title": "§a+1% Dodge Chance",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "vinery:shiraaz_effect"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"experience_gained_0_01": {
+		"title": "§a+1% Experience Gained",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "vinery:experience_effect"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	}
+}

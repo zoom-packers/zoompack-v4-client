@@ -1,0 +1,36 @@
+{
+	"enabled": true,
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "level ^ 1.432 + 100"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:mine_block",
+			"data": {
+				"conditions": {
+					"silk_touch": {
+						"type": "tool_nbt",
+						"data": {
+							"nbt": "{Enchantments:[{id:\"minecraft:silk_touch\"}]}"
+						}
+					},
+					"ore_like": {
+						"type": "block_tag",
+						"data": {
+							"tag": "#forge:ores"
+						}
+					}
+				},
+				"experience": [
+					{
+						"condition": "!silk_touch & ore_like",
+						"expression": "10"
+					}
+				]
+			}
+		}
+	]
+}

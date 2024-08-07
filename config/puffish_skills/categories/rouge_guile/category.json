@@ -1,0 +1,14 @@
+{
+	"unlocked_by_default": true,
+	"title": [ 
+		{"text": "§6§lArthemi's Grace > "},
+		{"text": "§r§fImprove your fighting skills and damage by doing one shot kills"}
+	],
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "callfromthedepth_:rottentacles"
+		}
+	},
+	"background": "textures/block/sand.png"
+}

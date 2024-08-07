@@ -1,0 +1,108 @@
+{
+	"root": {
+		"title": { "text" : "§aGain some swim speed, stamina and lung capacity" },
+		"description": {"text": "§l§aSOURCE: §rSwim and dive"},
+		"size" : 3,
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "dolphins_grace"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:water_speed",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.005,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:lung_capacity",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"swim_speed+1%": {
+		"title": "§a+1% Swim Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "beachparty:bikini"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:water_speed",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"stamina_+0.5%": {
+		"title": "§a+0.5% Stamina",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.005,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"1_lung_capacity": {
+		"title": { "text" : "§a+1 Lung Capacity" },
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:heart_of_the_sea"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:lung_capacity",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	}
+}
