@@ -5,6 +5,9 @@
         },
         "WEAR": {
             "swordsmanship": 91
+        },
+        "TOOL": {
+            "farming": 0
         }
     },
     "override": true

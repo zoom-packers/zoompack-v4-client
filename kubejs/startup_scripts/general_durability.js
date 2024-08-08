@@ -135,6 +135,9 @@ ItemEvents.modification((event) => {
     event.modify("blue_skies:horizonite_boots", item => {
         item.maxDamage = 570;
     });
+    event.modify("nethersdelight:netherite_machete", item => {
+        item.maxDamage = 3100;
+    });
     event.modify("call_of_yucutan:jade_sword", item => {
         item.maxDamage = 4000;
     });
@@ -181,6 +184,9 @@ ItemEvents.modification((event) => {
         item.maxDamage = 3540;
     });
     event.modify("endlessbiomes:void_touched_blade", item => {
+        item.maxDamage = 4400;
+    });
+    event.modify("outer_end:sinker_dagger", item => {
         item.maxDamage = 4400;
     });
     event.modify("endlessbiomes:void_touched_boots_helmet", item => {

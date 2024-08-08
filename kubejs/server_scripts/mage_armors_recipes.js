@@ -481,100 +481,100 @@ event.shaped('1x irons_spellbooks:plagued_tier_6_leggings', ["ABC","DEF","G I"],
 event.shaped('1x irons_spellbooks:plagued_tier_6_boots', ["   ","D F","GHI"], {"D":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:nature_rune","I":"betterend:thallasium_forged_plate"});
 
 
-event.shaped('1x irons_spellbooks:pyromancer_tier_7_helmet', ["   ","DEF","GHI"], {"D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:fire_rune","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:pyromancer_tier_7_helmet', ["   ","DEF","GHI"], {"D":"callfromthedepth_:immemorialingot","E":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"irons_spellbooks:fire_rune","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:pyromancer_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"deeperdarker:reinforced_echo_shard","B":"irons_spellbooks:fire_rune","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:pyromancer_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"callfromthedepth_:immemorialingot","B":"irons_spellbooks:fire_rune","C":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:pyromancer_tier_7_leggings', ["ABC","DEF","G I"], {"A":"deeperdarker:reinforced_echo_shard","B":"deeperdarker:reinforced_echo_shard","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:fire_rune","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:pyromancer_tier_7_leggings', ["ABC","DEF","G I"], {"A":"callfromthedepth_:immemorialingot","B":"callfromthedepth_:immemorialingot","C":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:fire_rune","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:pyromancer_tier_7_boots', ["   ","D F","GHI"], {"D":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:fire_rune","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:pyromancer_tier_7_boots', ["   ","D F","GHI"], {"D":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"irons_spellbooks:fire_rune","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:cryomancer_tier_7_helmet', ["   ","DEF","GHI"], {"D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:ice_rune","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:cryomancer_tier_7_helmet', ["   ","DEF","GHI"], {"D":"callfromthedepth_:immemorialingot","E":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"irons_spellbooks:ice_rune","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:cryomancer_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"deeperdarker:reinforced_echo_shard","B":"irons_spellbooks:ice_rune","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:cryomancer_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"callfromthedepth_:immemorialingot","B":"irons_spellbooks:ice_rune","C":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:cryomancer_tier_7_leggings', ["ABC","DEF","G I"], {"A":"deeperdarker:reinforced_echo_shard","B":"deeperdarker:reinforced_echo_shard","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:ice_rune","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:cryomancer_tier_7_leggings', ["ABC","DEF","G I"], {"A":"callfromthedepth_:immemorialingot","B":"callfromthedepth_:immemorialingot","C":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:ice_rune","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:cryomancer_tier_7_boots', ["   ","D F","GHI"], {"D":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:ice_rune","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:cryomancer_tier_7_boots', ["   ","D F","GHI"], {"D":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"irons_spellbooks:ice_rune","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:electromancer_tier_7_helmet', ["   ","DEF","GHI"], {"D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:lightning_rune","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:electromancer_tier_7_helmet', ["   ","DEF","GHI"], {"D":"callfromthedepth_:immemorialingot","E":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"irons_spellbooks:lightning_rune","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:electromancer_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"deeperdarker:reinforced_echo_shard","B":"irons_spellbooks:lightning_rune","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:electromancer_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"callfromthedepth_:immemorialingot","B":"irons_spellbooks:lightning_rune","C":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:electromancer_tier_7_leggings', ["ABC","DEF","G I"], {"A":"deeperdarker:reinforced_echo_shard","B":"deeperdarker:reinforced_echo_shard","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:lightning_rune","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:electromancer_tier_7_leggings', ["ABC","DEF","G I"], {"A":"callfromthedepth_:immemorialingot","B":"callfromthedepth_:immemorialingot","C":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:lightning_rune","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:electromancer_tier_7_boots', ["   ","D F","GHI"], {"D":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:lightning_rune","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:electromancer_tier_7_boots', ["   ","D F","GHI"], {"D":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"irons_spellbooks:lightning_rune","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:archevoker_tier_7_helmet', ["   ","DEF","GHI"], {"D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:evocation_rune","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:archevoker_tier_7_helmet', ["   ","DEF","GHI"], {"D":"callfromthedepth_:immemorialingot","E":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"irons_spellbooks:evocation_rune","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:archevoker_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"deeperdarker:reinforced_echo_shard","B":"irons_spellbooks:evocation_rune","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:archevoker_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"callfromthedepth_:immemorialingot","B":"irons_spellbooks:evocation_rune","C":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:archevoker_tier_7_leggings', ["ABC","DEF","G I"], {"A":"deeperdarker:reinforced_echo_shard","B":"deeperdarker:reinforced_echo_shard","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:evocation_rune","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:archevoker_tier_7_leggings', ["ABC","DEF","G I"], {"A":"callfromthedepth_:immemorialingot","B":"callfromthedepth_:immemorialingot","C":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:evocation_rune","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:archevoker_tier_7_boots', ["   ","D F","GHI"], {"D":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:evocation_rune","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:archevoker_tier_7_boots', ["   ","D F","GHI"], {"D":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"irons_spellbooks:evocation_rune","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:cultist_tier_7_helmet', ["   ","DEF","GHI"], {"D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:blood_rune","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:cultist_tier_7_helmet', ["   ","DEF","GHI"], {"D":"callfromthedepth_:immemorialingot","E":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"irons_spellbooks:blood_rune","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:cultist_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"deeperdarker:reinforced_echo_shard","B":"irons_spellbooks:blood_rune","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:cultist_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"callfromthedepth_:immemorialingot","B":"irons_spellbooks:blood_rune","C":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:cultist_tier_7_leggings', ["ABC","DEF","G I"], {"A":"deeperdarker:reinforced_echo_shard","B":"deeperdarker:reinforced_echo_shard","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:blood_rune","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:cultist_tier_7_leggings', ["ABC","DEF","G I"], {"A":"callfromthedepth_:immemorialingot","B":"callfromthedepth_:immemorialingot","C":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:blood_rune","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:cultist_tier_7_boots', ["   ","D F","GHI"], {"D":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:blood_rune","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:cultist_tier_7_boots', ["   ","D F","GHI"], {"D":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"irons_spellbooks:blood_rune","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:shadowwalker_tier_7_helmet', ["   ","DEF","GHI"], {"D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:ender_rune","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:shadowwalker_tier_7_helmet', ["   ","DEF","GHI"], {"D":"callfromthedepth_:immemorialingot","E":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"irons_spellbooks:ender_rune","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:shadowwalker_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"deeperdarker:reinforced_echo_shard","B":"irons_spellbooks:ender_rune","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:shadowwalker_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"callfromthedepth_:immemorialingot","B":"irons_spellbooks:ender_rune","C":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:shadowwalker_tier_7_leggings', ["ABC","DEF","G I"], {"A":"deeperdarker:reinforced_echo_shard","B":"deeperdarker:reinforced_echo_shard","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:ender_rune","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:shadowwalker_tier_7_leggings', ["ABC","DEF","G I"], {"A":"callfromthedepth_:immemorialingot","B":"callfromthedepth_:immemorialingot","C":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:ender_rune","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:shadowwalker_tier_7_boots', ["   ","D F","GHI"], {"D":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:ender_rune","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:shadowwalker_tier_7_boots', ["   ","D F","GHI"], {"D":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"irons_spellbooks:ender_rune","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:priest_tier_7_helmet', ["   ","DEF","GHI"], {"D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:holy_rune","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:priest_tier_7_helmet', ["   ","DEF","GHI"], {"D":"callfromthedepth_:immemorialingot","E":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"irons_spellbooks:holy_rune","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:priest_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"deeperdarker:reinforced_echo_shard","B":"irons_spellbooks:holy_rune","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:priest_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"callfromthedepth_:immemorialingot","B":"irons_spellbooks:holy_rune","C":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:priest_tier_7_leggings', ["ABC","DEF","G I"], {"A":"deeperdarker:reinforced_echo_shard","B":"deeperdarker:reinforced_echo_shard","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:holy_rune","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:priest_tier_7_leggings', ["ABC","DEF","G I"], {"A":"callfromthedepth_:immemorialingot","B":"callfromthedepth_:immemorialingot","C":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:holy_rune","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:priest_tier_7_boots', ["   ","D F","GHI"], {"D":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:holy_rune","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:priest_tier_7_boots', ["   ","D F","GHI"], {"D":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"irons_spellbooks:holy_rune","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:plagued_tier_7_helmet', ["   ","DEF","GHI"], {"D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:nature_rune","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:plagued_tier_7_helmet', ["   ","DEF","GHI"], {"D":"callfromthedepth_:immemorialingot","E":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"irons_spellbooks:nature_rune","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:plagued_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"deeperdarker:reinforced_echo_shard","B":"irons_spellbooks:nature_rune","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:plagued_tier_7_chestplate', ["ABC","DEF","GHI"], {"A":"callfromthedepth_:immemorialingot","B":"irons_spellbooks:nature_rune","C":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:plagued_tier_7_leggings', ["ABC","DEF","G I"], {"A":"deeperdarker:reinforced_echo_shard","B":"deeperdarker:reinforced_echo_shard","C":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:nature_rune","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:plagued_tier_7_leggings', ["ABC","DEF","G I"], {"A":"callfromthedepth_:immemorialingot","B":"callfromthedepth_:immemorialingot","C":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:nature_rune","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:plagued_tier_7_boots', ["   ","D F","GHI"], {"D":"deeperdarker:reinforced_echo_shard","F":"deeperdarker:reinforced_echo_shard","G":"deeperdarker:reinforced_echo_shard","H":"irons_spellbooks:nature_rune","I":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x irons_spellbooks:plagued_tier_7_boots', ["   ","D F","GHI"], {"D":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"irons_spellbooks:nature_rune","I":"callfromthedepth_:immemorialingot"});
 
 
 event.shaped('1x irons_spellbooks:pyromancer_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:fire_rune","I":"theabyss:fixed_bone"});
