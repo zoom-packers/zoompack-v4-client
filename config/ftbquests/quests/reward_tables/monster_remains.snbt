@@ -1,0 +1,13 @@
+{
+	icon: "biomesoplenty:flesh"
+	id: "4083B485E1F9332D"
+	loot_size: 2
+	order_index: 4
+	rewards: [
+		{ count: 3, item: "minecraft:spider_eye", random_bonus: 3 }
+		{ count: 4, item: "minecraft:gunpowder", random_bonus: 4 }
+		{ count: 2, item: "minecraft:ender_pearl", random_bonus: 2 }
+		{ count: 7, item: "minecraft:slime_ball", random_bonus: 7 }
+	]
+	title: "Tier 2 monster remains"
+}

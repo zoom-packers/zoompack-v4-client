@@ -11,7 +11,7 @@
 		}
 	}
 	id: "74622BF11DA05692"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -116,7 +116,7 @@
 				{
 					count: 32L
 					id: "3A26EE9BB67492C1"
-					item: { Count: 32, id: "minecraft:bone_meal" }
+					item: "minecraft:bone_meal"
 					type: "item"
 				}
 			]
@@ -709,8 +709,53 @@
 				"2FCF1BA550AC34AB"
 			]
 			id: "4E09D02CAEB0D341"
+			rewards: [
+				{
+					count: 5
+					id: "08B83CBA81EC9AE6"
+					item: "minecraft:beef"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6E7295D62E2B26C9"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "43D33E275622EF20"
+					item: "minecraft:mutton"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1F1078FF0AE5757D"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "243D1C94929DBC86"
+					item: "minecraft:rabbit"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1C6F9E56A01EFA43"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5D2A6ACFF961A8EC"
+					item: "minecraft:cod"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
+			subtitle: "Now you got the equipment."
 			tasks: [{
 				id: "6E81C4BF35E15E15"
 				title: "WHERE'S THE LAMB SAUCE"
@@ -757,6 +802,11 @@
 				"720B6FAA096F1435"
 			]
 			id: "7990B7665C9A3309"
+			rewards: [{
+				id: "05ABB1A3A115F71F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [
@@ -929,6 +979,11 @@
 				"1DAD45880CF77BC3"
 			]
 			id: "63121B39401EA1F1"
+			rewards: [{
+				id: "68169D388B35774C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "diamond"
 			size: 2.0d
 			subtitle: "Made by chef Ratatoile"
@@ -1257,5 +1312,5 @@
 			y: -3.5d
 		}
 	]
-	title: "Fermier"
+	title: "Culinary Enlightenment"
 }

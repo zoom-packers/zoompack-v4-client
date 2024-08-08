@@ -5,7 +5,7 @@
 	group: "13CD0C62E96AC261"
 	icon: "supplementaries:hourglass"
 	id: "1F92F0F7C94DDE6F"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -68,7 +68,7 @@
 				type: "item"
 			}]
 			title: "Boschetar"
-			x: 0.5d
+			x: 2.0d
 			y: 2.5d
 		}
 		{
@@ -310,11 +310,16 @@
 		}
 		{
 			id: "078E2D97269321FC"
+			rewards: [{
+				id: "10FADA2571D4865F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					count: 5L
 					id: "2218B75B31DC52A8"
-					item: { Count: 5, id: "minecraft:oak_log" }
+					item: "minecraft:oak_log"
 					type: "item"
 				}
 				{
@@ -329,11 +334,16 @@
 		}
 		{
 			id: "286D4F63ABB64196"
+			rewards: [{
+				id: "43F0ED9FB58A6073"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					count: 5L
 					id: "112439B217BBE732"
-					item: { Count: 5, id: "minecraft:spruce_log" }
+					item: "minecraft:spruce_log"
 					type: "item"
 				}
 				{
@@ -348,11 +358,16 @@
 		}
 		{
 			id: "4134A45716916926"
+			rewards: [{
+				id: "7CFE268D6184ADE3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					count: 5L
 					id: "0CDDFA13B810F393"
-					item: { Count: 5, id: "minecraft:birch_log" }
+					item: "minecraft:birch_log"
 					type: "item"
 				}
 				{
@@ -367,11 +382,16 @@
 		}
 		{
 			id: "296037BF9D3898C8"
+			rewards: [{
+				id: "2C02748AE6A97E79"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					count: 5L
 					id: "6232F32200C6F6EE"
-					item: { Count: 5, id: "minecraft:jungle_log" }
+					item: "minecraft:jungle_log"
 					type: "item"
 				}
 				{
@@ -386,11 +406,16 @@
 		}
 		{
 			id: "3D7074D041A5FD7A"
+			rewards: [{
+				id: "2CC1C2F931BE18A9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					count: 5L
 					id: "5D93ED7D6D4058F2"
-					item: { Count: 5, id: "minecraft:dark_oak_log" }
+					item: "minecraft:dark_oak_log"
 					type: "item"
 				}
 				{
@@ -405,11 +430,16 @@
 		}
 		{
 			id: "76643E6478029F4C"
+			rewards: [{
+				id: "678F05C137E814E9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					count: 5L
 					id: "179BF1A36C873C79"
-					item: { Count: 5, id: "minecraft:cherry_log" }
+					item: "minecraft:cherry_log"
 					type: "item"
 				}
 				{
@@ -424,11 +454,16 @@
 		}
 		{
 			id: "0F9B23BB4613B530"
+			rewards: [{
+				id: "23D7DB1C2B190653"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					count: 5L
 					id: "2835FB335A23E935"
-					item: { Count: 5, id: "minecraft:acacia_log" }
+					item: "minecraft:acacia_log"
 					type: "item"
 				}
 				{
@@ -466,7 +501,7 @@
 			tasks: [{
 				count: 26L
 				id: "31A1EA4FF6F3FE49"
-				item: { Count: 26, id: "farmersdelight:fried_egg" }
+				item: "farmersdelight:fried_egg"
 				type: "item"
 			}]
 			x: -3.5d
@@ -477,7 +512,7 @@
 			tasks: [{
 				count: 30L
 				id: "265F4BC75953C52B"
-				item: { Count: 30, id: "croptopia:cooked_bacon" }
+				item: "croptopia:cooked_bacon"
 				type: "item"
 			}]
 			x: 1.5d
@@ -488,7 +523,7 @@
 			tasks: [{
 				count: 10L
 				id: "4C6E79C57FCEDC6A"
-				item: { Count: 10, id: "croptopia:beer" }
+				item: "croptopia:beer"
 				type: "item"
 			}]
 			x: 2.5d
@@ -499,7 +534,7 @@
 			tasks: [{
 				count: 10L
 				id: "7AF7ADBDE00055D5"
-				item: { Count: 10, id: "croptopia:wine" }
+				item: "croptopia:wine"
 				type: "item"
 			}]
 			x: -4.5d
@@ -553,5 +588,5 @@
 			y: -4.0d
 		}
 	]
-	title: "GO HOME GO BED"
+	title: "Go home go to bed"
 }

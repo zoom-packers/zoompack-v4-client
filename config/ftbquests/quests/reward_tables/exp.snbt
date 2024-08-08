@@ -1,0 +1,24 @@
+{
+	icon: "create:experience_nugget"
+	id: "5DCE22CA546B5F4D"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			type: "xp_levels"
+			weight: 60.0f
+			xp_levels: 1
+		}
+		{
+			type: "xp_levels"
+			weight: 20.0f
+			xp_levels: 3
+		}
+		{
+			type: "xp_levels"
+			weight: 15.0f
+			xp_levels: 5
+		}
+	]
+	title: "Exp"
+}

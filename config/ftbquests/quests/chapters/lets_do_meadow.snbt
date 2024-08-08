@@ -1,0 +1,297 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lets_do_meadow"
+	group: "11E2BD453633E57D"
+	icon: "meadow:piece_of_cheese"
+	id: "2E469DC6A444C9D1"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3DBB9D81C1CB662E"]
+			id: "2CAD5C0471C6E9CC"
+			tasks: [{
+				id: "62D9BE3E8C90B3F1"
+				item: "meadow:alpine_salt"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F7D11F384F0F551"]
+			id: "3B41968A5544A2A2"
+			subtitle: "Decorative"
+			tasks: [{
+				id: "766A3B638C640F83"
+				item: "meadow:frame"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F7D11F384F0F551"]
+			id: "1AD6F9B2A46FAFD8"
+			tasks: [{
+				id: "3C0A1EA502F2308C"
+				item: "meadow:cheese_form"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			id: "0DB8913ACBB66060"
+			tasks: [{
+				id: "3A865D27C193794E"
+				item: "meadow:cooking_cauldron"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "7EE85ADC0A79D59F"
+			tasks: [{
+				id: "228FEEF01EF3C797"
+				item: "meadow:wooden_milk_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			id: "26AD0C0A0F97F42B"
+			tasks: [{
+				id: "22E3AD51ADA58830"
+				item: "meadow:wooden_sheep_milk_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "11D19C01A7AC197D"
+			tasks: [{
+				id: "05AC112973D2510C"
+				item: "meadow:wooden_buffalo_milk_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			id: "53BA6C15272CDAEF"
+			tasks: [{
+				id: "4D0F70D11E5B32ED"
+				item: "meadow:wooden_goat_milk_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "51A2A6EAE483E242"
+			tasks: [{
+				id: "09295D8799846F66"
+				item: "meadow:wooden_warped_milk_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "0FBBF35FED8234A5"
+			tasks: [{
+				id: "081900FE5A7ACE0D"
+				item: "meadow:wooden_grain_milk_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "14B675136BB69669"
+			tasks: [{
+				id: "319F2F2D02E1F446"
+				item: "meadow:wooden_amethyst_milk_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["51A2A6EAE483E242"]
+			id: "3A75F75FC9FF4272"
+			tasks: [{
+				id: "2B5126F67D0FABE0"
+				item: "meadow:piece_of_warped_cheese"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["53BA6C15272CDAEF"]
+			id: "06E3C0675D0DFBEE"
+			tasks: [{
+				id: "58D5F3398C800AE5"
+				item: "meadow:piece_of_goat_cheese"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["14B675136BB69669"]
+			id: "2DE75FBAA38C8D05"
+			tasks: [{
+				id: "37DE3D9F438FA163"
+				item: "meadow:piece_of_amethyst_cheese"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["11D19C01A7AC197D"]
+			id: "31BC5AE57A0A0DDD"
+			tasks: [{
+				id: "3593554B999BB55B"
+				item: "meadow:piece_of_buffalo_cheese"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["26AD0C0A0F97F42B"]
+			id: "251CB7FC327228C6"
+			tasks: [{
+				id: "0C15765661B49BC5"
+				item: "meadow:piece_of_sheep_cheese"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0FBBF35FED8234A5"]
+			id: "3F2B2532DACA5ACD"
+			tasks: [{
+				id: "4C8F0DA98280D87C"
+				item: "meadow:piece_of_grain_cheese"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7EE85ADC0A79D59F"]
+			id: "1795C22DE8794ED8"
+			tasks: [{
+				id: "781B34A78E2E54A3"
+				item: "meadow:piece_of_cheese"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			id: "0A64C3F9F09E090E"
+			shape: "rsquare"
+			size: 3.0d
+			subtitle: "OOOO DA"
+			tasks: [{
+				id: "683DC802C2D28629"
+				item: "croptopia:cheese_cake"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0DB8913ACBB66060"]
+			id: "76C90180E924E6A4"
+			tasks: [{
+				id: "260A89BC08E849E5"
+				item: "meadow:rennet"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "3DBB9D81C1CB662E"
+			tasks: [{
+				id: "13653B2D5B3934C5"
+				item: "meadow:limestone"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F7D11F384F0F551"]
+			id: "3A032BAC4A3B5758"
+			tasks: [{
+				id: "17190760F4A4EA02"
+				item: "meadow:woodcutter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			id: "715796A67A6688BD"
+			tasks: [{
+				id: "4A68E2758A359336"
+				item: "meadow:climbing_rope_topmount"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F7D11F384F0F551"]
+			id: "7501F045443F59F1"
+			tasks: [{
+				id: "48B2B44FEB7E879E"
+				item: {
+					Count: 1
+					id: "meadow:watering_can"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			id: "5F7D11F384F0F551"
+			tasks: [{
+				id: "07FDFCA06CFD51CB"
+				item: "meadow:pine_log"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0DB8913ACBB66060"]
+			id: "3D588DAC26FB5195"
+			tasks: [{
+				id: "42BA142473DD68A3"
+				item: "meadow:fondue"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+	]
+	title: "Let's Do Meadow"
+}

@@ -22,12 +22,17 @@
 				type: "item"
 			}]
 			title: "Dimensional Arson"
-			x: 0.0d
+			x: -1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["562AAFDF220019AD"]
 			id: "14CC01E58FA44F4F"
+			rewards: [{
+				id: "1B82CE1A1FD2367E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "13F4D3F253044E06"
 				item: "blue_skies:moonstone"
@@ -41,6 +46,20 @@
 			dependencies: ["562AAFDF220019AD"]
 			icon: "blue_skies:everdawn_portal"
 			id: "7163E74A9BC10EB5"
+			rewards: [
+				{
+					id: "6F237D6B987891CB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					amount: 1
+					auto: "invisible"
+					id: "6C0A5AEE88EBA832"
+					skill: "combat"
+					type: "pmmo:levelreward"
+				}
+			]
 			subtitle: "Get yo ass in the everdawn"
 			tasks: [{
 				dimension: "blue_skies:everdawn"
@@ -48,12 +67,17 @@
 				type: "dimension"
 			}]
 			title: "More unknown"
-			x: 1.5d
+			x: 1.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7163E74A9BC10EB5"]
 			id: "0F905561BBD0BA6A"
+			rewards: [{
+				id: "2456B6603A208FF7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0B7D0E0ADA99E46E"
 				item: "blue_skies:horizonite_ingot"
@@ -66,6 +90,11 @@
 		{
 			dependencies: ["0F905561BBD0BA6A"]
 			id: "0BA811407358544A"
+			rewards: [{
+				id: "49EE93DDD488F660"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7D6E63AC970C5DAF"
 				item: "blue_skies:horizonite_forge"
@@ -73,7 +102,7 @@
 			}]
 			title: "Forja lu'Thor"
 			x: 3.0d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0F905561BBD0BA6A"]
@@ -85,6 +114,45 @@
 				}
 			}
 			id: "1AD8BB2D475052C7"
+			rewards: [
+				{
+					id: "5F2F22A783BDC711"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 16
+					id: "4F95F550CB15F793"
+					item: "blue_skies:horizonite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "543E991D3BBA7E33"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2D5DE166779A07F7"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "5AB5CF2787E83045"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:rare"
+							}
+							gem: "apotheosis:overworld/earth"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
@@ -93,13 +161,40 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.0d
-			y: -3.5d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1AD8BB2D475052C7"]
 			icon: "handcrafted:spider_trophy"
 			id: "3B19C945BDFB960A"
+			rewards: [
+				{
+					id: "7D163E3548DA12AC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 10
+					id: "495D2E344E3142D7"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "6221057E6CE92B19"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:rare"
+							}
+							gem: "apotheosis:core/warlord"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
@@ -108,12 +203,17 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 8.0d
-			y: -3.5d
+			x: 9.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["46FCE1483AA347DA"]
 			id: "41778DB5A683D7CE"
+			rewards: [{
+				id: "7DD83A45ED9DD6EC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "289E5A69F6E93AF6"
 				item: "blue_skies:diopside_gem"
@@ -126,6 +226,11 @@
 		{
 			dependencies: ["004928D8F1B0737B"]
 			id: "46FCE1483AA347DA"
+			rewards: [{
+				id: "290108B5B3A272BD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7E68CF3FAE9DFBEE"
 				item: "blue_skies:aquite"
@@ -138,6 +243,11 @@
 		{
 			dependencies: ["14CC01E58FA44F4F"]
 			id: "004928D8F1B0737B"
+			rewards: [{
+				id: "589DA42EC69A4A1C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "30266096FCE3C807"
 				item: "blue_skies:pyrope_gem"
@@ -150,23 +260,61 @@
 		{
 			dependencies: ["075382FBE2625D96"]
 			id: "5C1D9ECD682C3AEE"
+			rewards: [
+				{
+					count: 5
+					id: "278F5BEA3E12BB0B"
+					item: {
+						Count: 1
+						id: "vinery:apple_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "296D01737E1B7FFA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "632E1067ED4D345C"
 				item: "blue_skies:comet_berry_pie"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["562AAFDF220019AD"]
 			id: "075382FBE2625D96"
+			rewards: [
+				{
+					count: 5
+					id: "3DAD4CAED7516FA4"
+					item: {
+						Count: 1
+						id: "vinery:cherry_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C8F0D87FB748BA3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "7C7F605D54AA0880"
 				item: "blue_skies:comet_berries"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
@@ -184,6 +332,20 @@
 			dependencies: ["562AAFDF220019AD"]
 			icon: "blue_skies:everbright_portal"
 			id: "7B8912A8286CAD2E"
+			rewards: [
+				{
+					id: "4DF83EC8AF116FA5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					amount: 1
+					auto: "invisible"
+					id: "5EF871050296423B"
+					skill: "combat"
+					type: "pmmo:levelreward"
+				}
+			]
 			subtitle: "Get ur ass in everbright"
 			tasks: [{
 				dimension: "blue_skies:everbright"
@@ -197,6 +359,25 @@
 		{
 			dependencies: ["7B8912A8286CAD2E"]
 			id: "7E42557F15C39ABE"
+			rewards: [
+				{
+					count: 5
+					id: "7F7B1108F30AD2BB"
+					item: {
+						Count: 1
+						id: "vinery:knulp_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D29B9C421AD3ACB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "656497144F168D2D"
 				item: "blue_skies:snowcap_oven"
@@ -209,6 +390,11 @@
 		{
 			dependencies: ["7E42557F15C39ABE"]
 			id: "7D24893CDC064DB7"
+			rewards: [{
+				id: "079AFD8F9FED1506"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "14297A11A51005A3"
 				item: "blue_skies:falsite_ingot"
@@ -221,6 +407,11 @@
 		{
 			dependencies: ["7E42557F15C39ABE"]
 			id: "3D7CC62B4B83870D"
+			rewards: [{
+				id: "44654CC3FB51FE15"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "20AA4B5725D145E9"
 				item: "blue_skies:ventium_ingot"
@@ -233,6 +424,25 @@
 		{
 			dependencies: ["3D7CC62B4B83870D"]
 			id: "07238F90A2A403DD"
+			rewards: [
+				{
+					count: 3
+					id: "4F363D2685DA77FF"
+					item: {
+						Count: 1
+						id: "nethervinery:blazewine_pinot"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "551BDD048933E8CE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "3CD52B0ADE71534D"
 				item: "blue_skies:tool_box"
@@ -245,6 +455,39 @@
 		{
 			icon: "everythingisedibleeie:vex_wing"
 			id: "5787B09F378D0A9F"
+			rewards: [
+				{
+					id: "2B238173C68A361C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 10
+					id: "3FD8C8E392109EDF"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7A2FCDAF1B961F04"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "387B1449E4C5714C"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:rare"
+							}
+							gem: "apotheosis:core/splendor"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
@@ -253,13 +496,46 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.0d
-			y: 3.5d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5787B09F378D0A9F"]
 			icon: "croptopia:starfruit"
 			id: "4A6D478292BA06F6"
+			rewards: [
+				{
+					id: "49515BE23577EA79"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 32
+					id: "08ED93C56FC9F59A"
+					item: "croptopia:starfruit"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "70C040B237D3B85C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "09F3B05AA3D3F8B3"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:rare"
+							}
+							gem: "apotheosis:core/ballast"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
@@ -268,8 +544,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.0d
-			y: 3.5d
+			x: 11.0d
+			y: 3.0d
 		}
 	]
 	title: "Blue skies"

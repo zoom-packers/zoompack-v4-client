@@ -1,0 +1,198 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lets_do_beach"
+	group: "11E2BD453633E57D"
+	icon: "beachparty:beach_parasol"
+	id: "06E19B5FB511EA61"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7EB5441D0F3CA3A9"
+			tasks: [{
+				id: "037F831FE8422E38"
+				item: "beachparty:tiki_bar"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "0541444AAF4F464B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D7543C73A64B4F3"
+				table_id: 7743076479955517786L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "73C133E73452BE74"
+				item: "beachparty:mini_fridge"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			id: "003CD52E93D5F360"
+			tasks: [{
+				id: "7DBB50EF7B55BB8A"
+				item: "beachparty:palm_sapling"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["003CD52E93D5F360"]
+			id: "25587AD8949EBBE8"
+			tasks: [{
+				id: "26152CF43705A9BB"
+				item: "beachparty:coconut"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7EB5441D0F3CA3A9"
+				"25587AD8949EBBE8"
+			]
+			id: "6BA646B4C04A03E3"
+			tasks: [{
+				id: "7D631CA8762C07C6"
+				item: "beachparty:coconut_cocktail"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7EB5441D0F3CA3A9"]
+			id: "3C75D045EF8DA160"
+			tasks: [{
+				id: "6B4F335202953741"
+				item: "beachparty:honey_cocktail"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7EB5441D0F3CA3A9"]
+			id: "31D04BA13B719613"
+			tasks: [{
+				id: "0B819C91EF88A933"
+				item: "beachparty:melon_cocktail"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7EB5441D0F3CA3A9"]
+			id: "6EBE5811C43F7654"
+			tasks: [{
+				id: "4013513D588295F4"
+				item: "beachparty:pumpkin_cocktail"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7EB5441D0F3CA3A9"]
+			id: "38FB7D6CAD9F57DC"
+			tasks: [{
+				id: "6AA80CCBA216CC5C"
+				item: "beachparty:cocoa_cocktail"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7EB5441D0F3CA3A9"]
+			id: "6957A891E92B9159"
+			tasks: [{
+				id: "17AA2B6C758C2CFC"
+				item: "beachparty:sweetberries_cocktail"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0541444AAF4F464B"]
+			id: "1AA035D15762D224"
+			tasks: [
+				{
+					id: "29107ACDAC7ADDFA"
+					item: "beachparty:chocolate_icecream"
+					type: "item"
+				}
+				{
+					id: "2801BB29E52582F6"
+					item: "beachparty:coconut_icecream"
+					type: "item"
+				}
+				{
+					id: "7EF317DDA35F769C"
+					item: "beachparty:sweetberry_icecream"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0541444AAF4F464B"]
+			id: "58302739BD0EB059"
+			tasks: [
+				{
+					id: "3EAF80DBEC0F579F"
+					item: "beachparty:icecream_melon"
+					type: "item"
+				}
+				{
+					id: "63E92C3E8DD1D80D"
+					item: "beachparty:icecream_cactus"
+					type: "item"
+				}
+				{
+					id: "672677AF12DD482B"
+					item: "beachparty:icecream_coconut"
+					type: "item"
+				}
+				{
+					id: "78021AE24CEBDB78"
+					item: "farmersdelight:melon_popsicle"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0541444AAF4F464B"]
+			id: "42F00E68713931F6"
+			tasks: [
+				{
+					id: "1A37C6C11E16BDA0"
+					item: "beachparty:icecream_chocolate"
+					type: "item"
+				}
+				{
+					id: "6BD500092F212FE5"
+					item: "beachparty:icecream_sweetberries"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -3.5d
+		}
+	]
+	title: "Let's Do Beach"
+}

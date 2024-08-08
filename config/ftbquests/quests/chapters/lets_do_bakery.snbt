@@ -1,0 +1,371 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lets_do_bakery"
+	group: "11E2BD453633E57D"
+	icon: "bakery:strawberry_cake"
+	id: "5ABDF78A6A2077C6"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["453A7AEFB893A909"]
+			id: "03BE6F316121F63E"
+			tasks: [{
+				id: "74238B6BB27AA8E9"
+				item: "bakery:baker_station"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["453A7AEFB893A909"]
+			id: "2B3A3F4C4D008395"
+			tasks: [{
+				id: "2D87C682AB09A86F"
+				item: "bakery:brick_stove"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "453A7AEFB893A909"
+			tasks: [{
+				id: "2E2556A6591593C5"
+				item: "bakery:yeast"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["453A7AEFB893A909"]
+			id: "3F19E0753DA80A78"
+			tasks: [{
+				id: "4A7A0C7CC0C50DC4"
+				item: {
+					Count: 1
+					id: "bakery:small_cooking_pot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "386E62DF2F6E01CE"
+			tasks: [{
+				id: "54507DBA4403C45D"
+				item: "bakery:strawberry_jam"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "74971B466DE72090"
+			tasks: [{
+				id: "18DA74FC47E9C7B4"
+				item: "bakery:sweetberry_jam"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "2E3D63EC8BCEB855"
+			tasks: [{
+				id: "238B51EAD14F429F"
+				item: "bakery:glowberry_jam"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			id: "7073B2AF3E9D543B"
+			tasks: [{
+				id: "65D33D7C4C354F24"
+				item: "bakery:apple_jam"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			id: "129A2E0EE1ADC29A"
+			tasks: [{
+				id: "1DACFB5947C6AE6D"
+				item: "bakery:chocolate_jam"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["03BE6F316121F63E"]
+			id: "79CA24DAFFC3C4F7"
+			tasks: [{
+				id: "1C2DB2516A68617B"
+				item: "bakery:sweet_dough"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["03BE6F316121F63E"]
+			id: "096DB9D2D31B7C5F"
+			tasks: [{
+				id: "34806CC6FB5C5712"
+				item: "bakery:dough"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["03BE6F316121F63E"]
+			id: "4C5F24283EDAF894"
+			tasks: [{
+				id: "66A25A74D486EE14"
+				item: "bakery:cake_dough"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "11BEAD58D8EC2E0C"
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "1906E6460471DE91"
+				item: "bakery:baguette"
+				type: "item"
+			}]
+			title: "You toucha may baguete"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"06C5B4CCBC1CC2E9"
+				"077E68339FAF2E8F"
+				"3593BDD09BD184DA"
+				"799B5E2640EEC7F0"
+				"2B2B87100577B4B5"
+				"0AA177D16CF04335"
+				"40C8853E3F03141E"
+				"03CF973918353626"
+				"6DBC3DE033B5C43F"
+			]
+			id: "10ED6717BDDD5D7F"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7364CEE04A39B637"
+				type: "checkmark"
+			}]
+			title: "So sweet..."
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"3051C4A7744B0E52"
+				"16E4D4EB1C5A3B6F"
+				"32D6417768CFB1DA"
+				"70F411ECC66EADF3"
+			]
+			id: "372150CA8E72C772"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				advancement: "bakery:main/get_all_cakes"
+				criterion: ""
+				id: "0E7B27A6C99E8E5F"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"372150CA8E72C772"
+				"10ED6717BDDD5D7F"
+				"049480FAC4F83D51"
+			]
+			description: ["Make every food item in the mod... have fun : )"]
+			id: "109FB67CCDDF5520"
+			shape: "heart"
+			size: 2.0d
+			subtitle: "A strange and sweet trip indeed..."
+			tasks: [{
+				advancement: "bakery:main/get_everything"
+				criterion: ""
+				id: "7272E234B649DC09"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"129A2E0EE1ADC29A"
+				"7073B2AF3E9D543B"
+				"386E62DF2F6E01CE"
+				"74971B466DE72090"
+				"2E3D63EC8BCEB855"
+			]
+			id: "049480FAC4F83D51"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				advancement: "bakery:main/get_all_jams"
+				criterion: ""
+				id: "42A0E13C3C8B3CC4"
+				type: "advancement"
+			}]
+			title: "Jam LORD"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			id: "32D6417768CFB1DA"
+			tasks: [{
+				id: "0F8730B008C87BFB"
+				item: "bakery:chocolate_cake"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -9.5d
+		}
+		{
+			id: "70F411ECC66EADF3"
+			tasks: [{
+				id: "07F34CAA8D668F7D"
+				item: "bakery:sweetberry_cake"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -8.5d
+		}
+		{
+			id: "16E4D4EB1C5A3B6F"
+			tasks: [{
+				id: "6BD8DDD52C774D6E"
+				item: "bakery:strawberry_cake"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -10.5d
+		}
+		{
+			id: "3051C4A7744B0E52"
+			tasks: [{
+				id: "5764B3ADF1FE30BC"
+				item: "bakery:bundt_cake"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -7.5d
+		}
+		{
+			id: "2B2B87100577B4B5"
+			tasks: [{
+				id: "672C2CC03AE98206"
+				item: "bakery:strawberry_cupcake"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -9.0d
+		}
+		{
+			id: "0AA177D16CF04335"
+			tasks: [{
+				id: "6D7A674C205B741E"
+				item: "bakery:sweetberry_cupcake"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			id: "799B5E2640EEC7F0"
+			tasks: [{
+				id: "16AAD91576A95230"
+				item: "bakery:apple_cupcake"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -10.0d
+		}
+		{
+			id: "6DBC3DE033B5C43F"
+			tasks: [{
+				id: "464BED87C6FBF2F8"
+				item: "bakery:sweetberry_glazed_cookie"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			id: "03CF973918353626"
+			tasks: [{
+				id: "59318ACF220250A1"
+				item: "bakery:strawberry_glazed_cookie"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			id: "40C8853E3F03141E"
+			tasks: [{
+				id: "49A33E7878B53A17"
+				item: "bakery:chocolate_glazed_cookie"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			id: "077E68339FAF2E8F"
+			tasks: [{
+				id: "44E0874EEA4C80C0"
+				item: "bakery:waffle"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -11.5d
+		}
+		{
+			id: "06C5B4CCBC1CC2E9"
+			tasks: [{
+				id: "79CBDA4F8DE5A180"
+				item: "bakery:misslilitu_biscuit"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -11.5d
+		}
+		{
+			id: "3593BDD09BD184DA"
+			tasks: [{
+				id: "300FD3C13B274AF4"
+				item: "bakery:cornet"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -11.0d
+		}
+	]
+	title: "Let's Do Bakery"
+}

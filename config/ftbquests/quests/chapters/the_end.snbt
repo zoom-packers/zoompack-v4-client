@@ -18,8 +18,8 @@
 				type: "dimension"
 			}]
 			title: "Into the void"
-			x: 0.0d
-			y: 0.0d
+			x: -7.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1524A7053FBA0402"]
@@ -34,8 +34,8 @@
 				value: 1L
 			}]
 			title: "Same old, but wait it has 3 heads"
-			x: 1.5d
-			y: -1.5d
+			x: -5.5d
+			y: -1.0d
 		}
 		{
 			id: "0F1B354191B2C626"
@@ -50,8 +50,8 @@
 				type: "structure"
 			}]
 			title: "The stronghold"
-			x: -2.0d
-			y: 0.0d
+			x: -9.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3D1D4DB94127689A"]
@@ -61,8 +61,8 @@
 				item: "minecraft:dragon_egg"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: -7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4A6E11AE3DC9ADCE"]
@@ -78,8 +78,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -2.5d
+			x: -7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1524A7053FBA0402"]
@@ -89,8 +89,8 @@
 				item: "minecraft:dragon_breath"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: -4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4A6E11AE3DC9ADCE"]
@@ -100,8 +100,8 @@
 				item: "minecraft:shulker_shell"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: -8.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3D1D4DB94127689A"]
@@ -115,8 +115,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.0d
-			y: -4.0d
+			x: -6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1524A7053FBA0402"]
@@ -126,8 +126,8 @@
 				item: "theabyss:loran"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.5d
+			x: -8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1524A7053FBA0402"]
@@ -137,8 +137,8 @@
 				item: "theabyss:ender_crystal_ore"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.5d
+			x: -6.0d
+			y: 2.0d
 		}
 		{
 			id: "26AAA98B4D4803CB"
@@ -153,8 +153,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.5d
-			y: -1.0d
+			x: -11.0d
+			y: 3.0d
 		}
 		{
 			id: "14DFFFAE1035DEEC"
@@ -169,8 +169,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.5d
-			y: 1.5d
+			x: -7.0d
+			y: -4.5d
 		}
 		{
 			id: "64CC4BB7D1EFBB97"
@@ -185,8 +185,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.5d
-			y: 3.0d
+			x: -7.0d
+			y: 4.5d
 		}
 		{
 			id: "1ECD825622B79CFA"
@@ -201,8 +201,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.0d
-			y: -1.0d
+			x: -9.0d
+			y: 4.0d
 		}
 		{
 			id: "480D4B411EE14D16"
@@ -217,8 +217,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.0d
-			y: 1.5d
+			x: -8.0d
+			y: -4.5d
 		}
 		{
 			id: "79F034ACF7DE0CFC"
@@ -233,8 +233,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: -1.0d
+			x: -8.0d
+			y: 4.5d
 		}
 		{
 			id: "6FAB57C5765F94ED"
@@ -249,8 +249,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: 2.0d
+			x: -6.0d
+			y: -4.5d
 		}
 		{
 			id: "06DCF93168961EF0"
@@ -265,8 +265,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: 1.0d
+			x: -10.0d
+			y: -3.5d
 		}
 		{
 			id: "751852A2934B89C9"
@@ -281,8 +281,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
-			y: 1.5d
+			x: -9.0d
+			y: -4.0d
 		}
 		{
 			id: "62A3747899183C4B"
@@ -297,8 +297,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
-			y: -1.0d
+			x: -6.0d
+			y: 4.5d
 		}
 		{
 			id: "6A7BF24BAC52F096"
@@ -313,8 +313,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
-			y: 2.5d
+			x: -5.0d
+			y: -4.0d
 		}
 		{
 			id: "016320D94C702CFB"
@@ -329,8 +329,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
-			y: -1.0d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			id: "007305AFCD232F2A"
@@ -345,8 +345,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -1.5d
+			x: -4.0d
+			y: 3.5d
 		}
 		{
 			id: "478C1DA3B9F48FB6"
@@ -361,8 +361,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -0.5d
+			x: -4.0d
+			y: -3.5d
 		}
 		{
 			id: "01C3A3A52DAD0409"
@@ -377,8 +377,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: -1.0d
+			x: -10.0d
+			y: 3.5d
 		}
 		{
 			id: "53C5164FCD4E0688"
@@ -393,8 +393,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: 0.0d
+			x: -3.0d
+			y: 3.0d
 		}
 	]
 	title: "The end"

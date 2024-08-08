@@ -1,0 +1,204 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lets_do_herlbal"
+	group: "11E2BD453633E57D"
+	icon: "herbalbrews:tea_kettle"
+	id: "0026D4FE31FAEE62"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "02E8F3B12D099E83"
+			tasks: [{
+				id: "08922B4273541704"
+				item: "herbalbrews:stove"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "3BD9DA41CA94CC7A"
+			tasks: [{
+				id: "11E9B44571551C5C"
+				item: "herbalbrews:cauldron"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "24EC69C378BB4A4C"
+			tasks: [{
+				id: "3ABE9FB12214AF42"
+				item: "herbalbrews:tea_kettle"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "3E90FB9B98170556"
+			tasks: [{
+				id: "578F7AB2A098FC5F"
+				item: "herbalbrews:yerba_mate_leaf"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "37ACC6CD1D7528C4"
+			tasks: [{
+				id: "445E9DC7E8C74F92"
+				item: "herbalbrews:rooibos_leaf"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "4EE4376D1BD0C513"
+			tasks: [{
+				id: "2FAACABCD2C23B46"
+				item: "herbalbrews:lavender_blossom"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B5ED9F12D7A7A7C"]
+			id: "15B80A7481738138"
+			tasks: [{
+				id: "15C7BC1EFE11A802"
+				item: "herbalbrews:dried_green_tea"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "3B5ED9F12D7A7A7C"
+			tasks: [{
+				id: "72FE5EB783042BC5"
+				item: "herbalbrews:green_tea_leaf"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["15B80A7481738138"]
+			id: "4A9CD1A2606C8CBD"
+			tasks: [{
+				id: "33FD132562525DA9"
+				item: "herbalbrews:dried_black_tea"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["09E4DB43EC4526DC"]
+			id: "450C553A1D6CBFCC"
+			tasks: [{
+				id: "3B5A121D89AD0EF5"
+				item: "herbalbrews:dried_oolong_tea"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "23A71658073ECBB6"
+			tasks: [{
+				id: "40ED5C00726F3CE8"
+				item: "herbalbrews:coffee_beans"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["24EC69C378BB4A4C"]
+			id: "42211CE55EECE1B8"
+			tasks: [{
+				id: "7106D1B1DCE502F2"
+				item: "herbalbrews:green_tea"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["24EC69C378BB4A4C"]
+			dependency_requirement: "all_started"
+			id: "4E129B93711F8302"
+			tasks: [{
+				id: "6BB29E37D7E6A43B"
+				item: "herbalbrews:black_tea"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["24EC69C378BB4A4C"]
+			id: "094FF29C513E375D"
+			tasks: [{
+				id: "0EF2B6FC7AE0C416"
+				item: "herbalbrews:lavender_tea"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A9CD1A2606C8CBD"]
+			id: "09E4DB43EC4526DC"
+			tasks: [{
+				id: "083B986D4C1FADCE"
+				item: "herbalbrews:mixed_tea_leaf_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3BD9DA41CA94CC7A"]
+			id: "35F206E044618300"
+			tasks: [{
+				id: "6CF4D89F2315E90A"
+				item: "herbalbrews:armor_flask"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3BD9DA41CA94CC7A"]
+			id: "76E4CD3FB86E0652"
+			tasks: [{
+				id: "483AC79F16B028FB"
+				item: "herbalbrews:damage_flask"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3BD9DA41CA94CC7A"]
+			id: "006FB1366A537FD0"
+			tasks: [{
+				id: "330C39970639824B"
+				item: "herbalbrews:feral_flask"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+	]
+	title: "Let's Do Herlbal"
+}

@@ -28,7 +28,7 @@
 			tasks: [{
 				count: 64L
 				id: "13F92840130CE5D2"
-				item: { Count: 64, id: "minecraft:glowstone_dust" }
+				item: "minecraft:glowstone_dust"
 				type: "item"
 			}]
 			title: "First things first"
@@ -41,7 +41,7 @@
 			tasks: [{
 				count: 16L
 				id: "381FC962632C9047"
-				item: { Count: 16, id: "minecraft:blaze_rod" }
+				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
 			title: "Searing dildo"
@@ -54,7 +54,7 @@
 			tasks: [{
 				count: 16L
 				id: "38CC6072D51FB7BD"
-				item: { Count: 16, id: "minecraft:magma_cream" }
+				item: "minecraft:magma_cream"
 				type: "item"
 			}]
 			title: "Ze crem de la crem"
@@ -170,7 +170,7 @@
 			tasks: [{
 				count: 5L
 				id: "1D183631BE9CE08A"
-				item: { Count: 5, id: "minecraft:ghast_tear" }
+				item: "minecraft:ghast_tear"
 				type: "item"
 			}]
 			title: "They taste sweet"
@@ -212,5 +212,5 @@
 			y: 0.0d
 		}
 	]
-	title: "And Hell"
+	title: "Nether"
 }

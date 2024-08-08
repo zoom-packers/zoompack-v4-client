@@ -1,0 +1,14 @@
+{
+	icon: "farmersdelight:cabbage_crate"
+	id: "2320010A0C50B2A7"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 10, item: "minecraft:carrot", random_bonus: 20 }
+		{ count: 10, item: "minecraft:potato", random_bonus: 20 }
+		{ count: 10, item: "farmersdelight:onion", random_bonus: 20 }
+		{ count: 10, item: "farmersdelight:tomato", random_bonus: 20 }
+		{ count: 10, item: "farmersdelight:cabbage_leaf", random_bonus: 20 }
+	]
+	title: "Basket of vegetables"
+}

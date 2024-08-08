@@ -1,0 +1,247 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lets_do_brewery"
+	group: "11E2BD453633E57D"
+	icon: "brewery:beer_wheat"
+	id: "1F0D2D7314D751D1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "45279395E9DB7B9F"
+			tasks: [{
+				id: "55F8BE28610FFB50"
+				item: "brewery:wooden_brewingstation"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "25B74DADCCED2798"
+			tasks: [{
+				id: "26ED55AC7CB424A7"
+				item: "brewery:silo_wood"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45279395E9DB7B9F"]
+			id: "1A352BBE70AC070C"
+			tasks: [{
+				id: "69987B1FB1CAF57A"
+				item: "brewery:copper_brewingstation"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A352BBE70AC070C"]
+			id: "110DC4B66E2ECE0E"
+			tasks: [{
+				id: "39EE1D4A02EE8A35"
+				item: "brewery:netherite_brewingstation"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["25B74DADCCED2798"]
+			id: "705A2A030C62B884"
+			tasks: [{
+				id: "380DB683CE948412"
+				item: "brewery:silo_copper"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "36B917AD8D43095F"
+			tasks: [{
+				id: "091CBF497677D434"
+				item: "brewery:barrel_main"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			id: "735BC65DC053978E"
+			tasks: [{
+				id: "284C4C19D7A82E2F"
+				item: "brewery:rope"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "1030CF79969349C9"
+			tasks: [{
+				id: "73BFF0A798024B93"
+				item: "brewery:beer_mug"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			id: "0AA86E4AF7B90902"
+			tasks: [{
+				id: "741D22BF673B0C28"
+				item: "croptopia:hops"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "72DBDDF22E9CB422"
+			tasks: [{
+				id: "18568E45D8B23724"
+				item: "brewery:barley"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			id: "6893553A2C99FB13"
+			tasks: [{
+				id: "3A2ACC2EA307BDC3"
+				item: "brewery:corn"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25B74DADCCED2798"]
+			id: "42570EAEB30B745F"
+			tasks: [{
+				id: "1870E64DA20D6864"
+				item: "brewery:dried_wheat"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"25B74DADCCED2798"
+				"6893553A2C99FB13"
+			]
+			id: "2DB8A9D5A93949E0"
+			tasks: [{
+				id: "0715A68CC5D53FDB"
+				item: "brewery:dried_corn"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"25B74DADCCED2798"
+				"72DBDDF22E9CB422"
+			]
+			id: "4D516D0514E122A2"
+			tasks: [{
+				id: "7A99B6D266184833"
+				item: "brewery:dried_barley"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"42570EAEB30B745F"
+				"0AA86E4AF7B90902"
+			]
+			id: "50EAA2269ABA9079"
+			tasks: [{
+				id: "1E02DCF3F7284479"
+				item: "brewery:beer_wheat"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4D516D0514E122A2"]
+			id: "72B4159AF6DBEF11"
+			tasks: [{
+				id: "7AF0B05E05C0EC7D"
+				item: "brewery:beer_barley"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0AA86E4AF7B90902"]
+			id: "4C291F5D0DA5A043"
+			tasks: [{
+				id: "6998B9C7CCBDFA80"
+				item: "brewery:beer_hops"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0AA86E4AF7B90902"
+				"082991B6E1B0888C"
+			]
+			id: "45DA9A62C13439A9"
+			tasks: [{
+				id: "7D6243128367CBBF"
+				item: "brewery:beer_haley"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "082991B6E1B0888C"
+			tasks: [{
+				id: "4BA52AEB17FC11E0"
+				item: "minecraft:popped_chorus_fruit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2DB8A9D5A93949E0"]
+			id: "1F3470D0B32AF784"
+			tasks: [{
+				id: "06735A33B0CB1374"
+				item: "brewery:whiskey_cristelwalker"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2DB8A9D5A93949E0"]
+			id: "1D6C681F78047868"
+			tasks: [{
+				id: "088A40D873616314"
+				item: "brewery:whiskey_carrasconlabel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+	]
+	title: "Let's Do Brewery"
+}
