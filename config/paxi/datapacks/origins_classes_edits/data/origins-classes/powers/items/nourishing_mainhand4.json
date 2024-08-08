@@ -1,0 +1,13 @@
+{
+    "type": "origins:modify_food",
+    "name": "Nourishing Mainhand",
+    "description": "+50 seconds of Nourishment. This food has been plated by a cook.",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "farmersdelight:nourishment",
+            "duration": 1000,
+            "amplifier": 0
+        }
+    }
+}

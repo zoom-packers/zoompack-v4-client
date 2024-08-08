@@ -1,0 +1,14 @@
+{
+	"unlocked_by_default": true,
+	"title": [ 
+		{"text": "§a§lHero Of The Village > "},
+		{"text": "§r§fSave villages from raids to be rewarded with more claimable chunks along with with force load chunks, but lose points if you fail them!"}
+	],
+	"icon": {
+		"type": "effect",
+		"data": {
+			"effect": "hero_of_the_village"
+		}
+	},
+	"background": "minecraft:textures/block/emerald_ore.png"
+}

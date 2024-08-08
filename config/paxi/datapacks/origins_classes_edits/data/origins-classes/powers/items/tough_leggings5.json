@@ -1,12 +1,10 @@
-
 {
-  "type": "apoli:attribute",
-  "name": "Tough Leggings",
-  "description": "+-90% Armor. These leggings have been forged by a licensed blacksmith. Please subscribe to their Patreon filled with gay porn.",
-  "modifier": {
-    "name": "{name}",
-    "attribute": "minecraft:generic.armor",
-    "value": 0.1,
-    "operation": "multiply_base"
-  }
+    "type": "apoli:attribute",
+    "name": "Tough Leggings",
+    "description": "+0.1x Armor. These leggings have been forged by a licensed blacksmith.",
+    "modifier": {
+        "attribute": "minecraft:generic.armor",
+        "value": 0.1,
+        "operation": "multiply_base"
+    }
 }

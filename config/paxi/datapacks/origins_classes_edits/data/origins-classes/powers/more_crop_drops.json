@@ -1,144 +1,144 @@
 {
-  "type": "origins:multiple",
-  "loading_priority": 111,
-  "farmer_crop_loot_0": {
-    "type": "origins_classes:modify_block_loot",
-    "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_farming",
-          "comparison": ">=",
-          "compare_to": 0
+    "type": "origins:multiple",
+    "loading_priority": 111,
+    "farmer_crop_loot_0": {
+        "type": "origins_classes:modify_block_loot",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_farming",
+                    "comparison": ">=",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_farming",
+                    "comparison": "<",
+                    "compare_to": 20
+                }
+            ]
         },
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_farming",
-          "comparison": "<",
-          "compare_to": 20
-        }
-      ]
-    },
-    "modifier": {
-      "name": "Farmer Crop Loot Bonus",
-      "value": 0.5,
-      "operation": "multiply_base"
-    },
-    "block_condition": {
-      "type": "origins_classes:harvestable_crops"
-    }
-  },
-  "farmer_crop_loot_1": {
-    "type": "origins_classes:modify_block_loot",
-    "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_farming",
-          "comparison": ">=",
-          "compare_to": 20
+        "modifier": {
+            "name": "Farmer Crop Loot Bonus",
+            "value": 0.5,
+            "operation": "multiply_base"
         },
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_farming",
-          "comparison": "<",
-          "compare_to": 40
+        "block_condition": {
+            "type": "origins_classes:harvestable_crops"
         }
-      ]
     },
-    "modifier": {
-      "name": "Farmer Crop Loot Bonus",
-      "value": 1,
-      "operation": "multiply_base"
-    },
-    "block_condition": {
-      "type": "origins_classes:harvestable_crops"
-    }
-  },
-  "farmer_crop_loot_2": {
-    "type": "origins_classes:modify_block_loot",
-    "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_farming",
-          "comparison": ">=",
-          "compare_to": 40
+    "farmer_crop_loot_1": {
+        "type": "origins_classes:modify_block_loot",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_farming",
+                    "comparison": ">=",
+                    "compare_to": 20
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_farming",
+                    "comparison": "<",
+                    "compare_to": 40
+                }
+            ]
         },
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_farming",
-          "comparison": "<",
-          "compare_to": 60
-        }
-      ]
-    },
-    "modifier": {
-      "name": "Farmer Crop Loot Bonus",
-      "value": 2,
-      "operation": "multiply_base"
-    },
-    "block_condition": {
-      "type": "origins_classes:harvestable_crops"
-    }
-  },
-  "farmer_crop_loot_3": {
-    "type": "origins_classes:modify_block_loot",
-    "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_farming",
-          "comparison": ">=",
-          "compare_to": 60
+        "modifier": {
+            "name": "Farmer Crop Loot Bonus",
+            "value": 1,
+            "operation": "multiply_base"
         },
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_farming",
-          "comparison": "<",
-          "compare_to": 80
+        "block_condition": {
+            "type": "origins_classes:harvestable_crops"
         }
-      ]
     },
-    "modifier": {
-      "name": "Farmer Crop Loot Bonus",
-      "value": 3,
-      "operation": "multiply_base"
-    },
-    "block_condition": {
-      "type": "origins_classes:harvestable_crops"
-    }
-  },
-  "farmer_crop_loot_4": {
-    "type": "origins_classes:modify_block_loot",
-    "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_farming",
-          "comparison": ">=",
-          "compare_to": 80
+    "farmer_crop_loot_2": {
+        "type": "origins_classes:modify_block_loot",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_farming",
+                    "comparison": ">=",
+                    "compare_to": 40
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_farming",
+                    "comparison": "<",
+                    "compare_to": 60
+                }
+            ]
         },
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_farming",
-          "comparison": "<",
-          "compare_to": 1000
+        "modifier": {
+            "name": "Farmer Crop Loot Bonus",
+            "value": 2,
+            "operation": "multiply_base"
+        },
+        "block_condition": {
+            "type": "origins_classes:harvestable_crops"
         }
-      ]
     },
-    "modifier": {
-      "name": "Farmer Crop Loot Bonus",
-      "value": 5,
-      "operation": "multiply_base"
+    "farmer_crop_loot_3": {
+        "type": "origins_classes:modify_block_loot",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_farming",
+                    "comparison": ">=",
+                    "compare_to": 60
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_farming",
+                    "comparison": "<",
+                    "compare_to": 80
+                }
+            ]
+        },
+        "modifier": {
+            "name": "Farmer Crop Loot Bonus",
+            "value": 3,
+            "operation": "multiply_base"
+        },
+        "block_condition": {
+            "type": "origins_classes:harvestable_crops"
+        }
     },
-    "block_condition": {
-      "type": "origins_classes:harvestable_crops"
+    "farmer_crop_loot_4": {
+        "type": "origins_classes:modify_block_loot",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_farming",
+                    "comparison": ">=",
+                    "compare_to": 80
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_farming",
+                    "comparison": "<",
+                    "compare_to": 1000
+                }
+            ]
+        },
+        "modifier": {
+            "name": "Farmer Crop Loot Bonus",
+            "value": 5,
+            "operation": "multiply_base"
+        },
+        "block_condition": {
+            "type": "origins_classes:harvestable_crops"
+        }
     }
-  }
 }

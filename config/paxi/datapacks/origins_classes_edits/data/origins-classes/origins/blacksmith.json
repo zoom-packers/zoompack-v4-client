@@ -1,4 +1,5 @@
 {
+  "loading_priority": 111,
   "powers": [
     "origins-classes:quality_equipment",
     "origins-classes:efficient_repairs"

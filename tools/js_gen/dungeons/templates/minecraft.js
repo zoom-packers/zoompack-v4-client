@@ -1,13 +1,13 @@
-const dims = require("../../libs/dimension_typedefs");
-const items = require("../../libs/item_typedefs");
-const blocks = require("../../libs/block_typedefs");
-const entities = require("../../libs/entity_typedefs");
-const biomes = require("../../libs/biome_typedefs");
-const {biome_betternether, biome_betterend} = require("../../libs/biome_typedefs");
+const dims = require("../../typedefs/dimension_typedefs");
+const items = require("../../typedefs/item_typedefs");
+const blocks = require("../../typedefs/block_typedefs");
+const entities = require("../../typedefs/entity_typedefs");
+const biomes = require("../../typedefs/biome_typedefs");
+const {biome_betternether, biome_betterend} = require("../../typedefs/biome_typedefs");
 const {entity_minecraft, entity_betternether, entity_betterend, entity_endermanoverhaul, entity_outer_end,
-} = require("../../libs/entity_typedefs");
-const loot_tables = require("../../libs/loot_table_typedefs");
-const {loot_table_minecraft} = require("../../libs/loot_table_typedefs");
+} = require("../../typedefs/entity_typedefs");
+const loot_tables = require("../../typedefs/loot_table_typedefs");
+const {loot_table_minecraft} = require("../../typedefs/loot_table_typedefs");
 
 
 /** @type {DimensionalGenerationDefinition} */

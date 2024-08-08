@@ -1,380 +1,1184 @@
-
 {
-  "type": "origins:multiple",
-  "loading_priority": 111,
-  
-"food0": {
-    "type": "origins_classes:modify_craft_result",
-    "condition": {
-        "type": "origins:and",
-        "conditions": [
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_cooking",
-          "comparison": ">=",
-          "compare_to": 0
+    "type": "origins:multiple",
+    "loading_priority": 111,
+    "nourishing_mainhand0": {
+        "type": "origins_classes:modify_craft_result",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_cooking",
+                    "comparison": ">=",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_cooking",
+                    "comparison": "<",
+                    "compare_to": 20
+                }
+            ]
         },
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_cooking",
-          "comparison": "<",
-          "compare_to": 20
-        }
-        ],
-    },
-    "item_condition": {
-      "type": "origins:food",
-    },
-    "item_action": {
-      "type": "origins:choice",
-      "actions": [
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food0"
-  },
-  "weight": 100
-}
-,
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food1"
-  },
-  "weight": 50
-}
-,
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food2"
-  },
-  "weight": 25
-}
-,
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food5"
-  },
-  "weight": 50
-}
-,
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food6"
-  },
-  "weight": 25
-}
-,
-      ]
-    }
-  }
-,
-
-"food1": {
-    "type": "origins_classes:modify_craft_result",
-    "condition": {
-        "type": "origins:and",
-        "conditions": [
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_cooking",
-          "comparison": ">=",
-          "compare_to": 20
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand0",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand1",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand2",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand3",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand4",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand5",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand6",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand7",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand8",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand9",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:food"
+                }
+            ]
         },
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_cooking",
-          "comparison": "<",
-          "compare_to": 40
+        "item_action": {
+            "type": "origins:choice",
+            "actions": [
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand1"
+                    },
+                    "weight": 100
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand2"
+                    },
+                    "weight": 50
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand3"
+                    },
+                    "weight": 25
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand4"
+                    },
+                    "weight": 3.125
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand5"
+                    },
+                    "weight": 1.5625
+                }
+            ]
         }
-        ],
     },
-    "item_condition": {
-      "type": "origins:food",
-    },
-    "item_action": {
-      "type": "origins:choice",
-      "actions": [
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food1"
-  },
-  "weight": 50
-}
-,
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food2"
-  },
-  "weight": 25
-}
-,
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food3"
-  },
-  "weight": 12.5
-}
-,
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food6"
-  },
-  "weight": 25
-}
-,
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food7"
-  },
-  "weight": 12.5
-}
-,
-      ]
-    }
-  }
-,
-
-"food2": {
-    "type": "origins_classes:modify_craft_result",
-    "condition": {
-        "type": "origins:and",
-        "conditions": [
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_cooking",
-          "comparison": ">=",
-          "compare_to": 40
+    "nourishing_mainhand1": {
+        "type": "origins_classes:modify_craft_result",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_cooking",
+                    "comparison": ">=",
+                    "compare_to": 20
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_cooking",
+                    "comparison": "<",
+                    "compare_to": 40
+                }
+            ]
         },
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_cooking",
-          "comparison": "<",
-          "compare_to": 60
-        }
-        ],
-    },
-    "item_condition": {
-      "type": "origins:food",
-    },
-    "item_action": {
-      "type": "origins:choice",
-      "actions": [
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food2"
-  },
-  "weight": 25
-}
-,
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food3"
-  },
-  "weight": 12.5
-}
-,
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food4"
-  },
-  "weight": 6.25
-}
-,
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food7"
-  },
-  "weight": 12.5
-}
-,
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food8"
-  },
-  "weight": 6.25
-}
-,
-      ]
-    }
-  }
-,
-
-"food3": {
-    "type": "origins_classes:modify_craft_result",
-    "condition": {
-        "type": "origins:and",
-        "conditions": [
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_cooking",
-          "comparison": ">=",
-          "compare_to": 60
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand0",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand1",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand2",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand3",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand4",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand5",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand6",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand7",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand8",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand9",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:food"
+                }
+            ]
         },
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_cooking",
-          "comparison": "<",
-          "compare_to": 80
+        "item_action": {
+            "type": "origins:choice",
+            "actions": [
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand0"
+                    },
+                    "weight": 50
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand2"
+                    },
+                    "weight": 25
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand3"
+                    },
+                    "weight": 12.5
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand4"
+                    },
+                    "weight": 1.5625
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand5"
+                    },
+                    "weight": 0.78125
+                }
+            ]
         }
-        ],
     },
-    "item_condition": {
-      "type": "origins:food",
-    },
-    "item_action": {
-      "type": "origins:choice",
-      "actions": [
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food3"
-  },
-  "weight": 12.5
-}
-,
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food4"
-  },
-  "weight": 6.25
-}
-,
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food4"
-  },
-  "weight": 6.25
-}
-,
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food7"
-  },
-  "weight": 12.5
-}
-,
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food8"
-  },
-  "weight": 6.25
-}
-,
-      ]
-    }
-  }
-,
-
-"food4": {
-    "type": "origins_classes:modify_craft_result",
-    "condition": {
-        "type": "origins:and",
-        "conditions": [
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_cooking",
-          "comparison": ">=",
-          "compare_to": 80
+    "nourishing_mainhand2": {
+        "type": "origins_classes:modify_craft_result",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_cooking",
+                    "comparison": ">=",
+                    "compare_to": 40
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_cooking",
+                    "comparison": "<",
+                    "compare_to": 60
+                }
+            ]
         },
-        {
-          "type": "origins:scoreboard",
-          "objective": "pmmo_cooking",
-          "comparison": "<",
-          "compare_to": 1000
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand0",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand1",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand2",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand3",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand4",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand5",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand6",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand7",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand8",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand9",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:food"
+                }
+            ]
+        },
+        "item_action": {
+            "type": "origins:choice",
+            "actions": [
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand0"
+                    },
+                    "weight": 25
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand1"
+                    },
+                    "weight": 12.5
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand3"
+                    },
+                    "weight": 6.25
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand4"
+                    },
+                    "weight": 0.78125
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand5"
+                    },
+                    "weight": 0.390625
+                }
+            ]
         }
-        ],
     },
-    "item_condition": {
-      "type": "origins:food",
+    "nourishing_mainhand3": {
+        "type": "origins_classes:modify_craft_result",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_cooking",
+                    "comparison": ">=",
+                    "compare_to": 60
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_cooking",
+                    "comparison": "<",
+                    "compare_to": 80
+                }
+            ]
+        },
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand0",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand1",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand2",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand3",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand4",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand5",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand6",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand7",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand8",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand9",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:food"
+                }
+            ]
+        },
+        "item_action": {
+            "type": "origins:choice",
+            "actions": [
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand0"
+                    },
+                    "weight": 12.5
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand1"
+                    },
+                    "weight": 6.25
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand2"
+                    },
+                    "weight": 6.25
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand4"
+                    },
+                    "weight": 0.78125
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand5"
+                    },
+                    "weight": 0.390625
+                }
+            ]
+        }
     },
-    "item_action": {
-      "type": "origins:choice",
-      "actions": [
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food3"
-  },
-  "weight": 12.5
-}
-,
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food4"
-  },
-  "weight": 6.25
-}
-,
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food8"
-  },
-  "weight": 6.25
-}
-,
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food8"
-  },
-  "weight": 6.25
-}
-,
-        
-{
-  "element": {
-    "type": "apoli:modify",
-    "modifier": "origins-classes:cook/food9"
-  },
-  "weight": 3.125
-}
-,
-      ]
+    "nourishing_mainhand4": {
+        "type": "origins_classes:modify_craft_result",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_cooking",
+                    "comparison": ">=",
+                    "compare_to": 80
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_cooking",
+                    "comparison": "<",
+                    "compare_to": 1000
+                }
+            ]
+        },
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand0",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand1",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand2",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand3",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand4",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand5",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand6",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand7",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand8",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_mainhand9",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:food"
+                }
+            ]
+        },
+        "item_action": {
+            "type": "origins:choice",
+            "actions": [
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand0"
+                    },
+                    "weight": 12.5
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand1"
+                    },
+                    "weight": 6.25
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand2"
+                    },
+                    "weight": 0.390625
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand3"
+                    },
+                    "weight": 0.390625
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_mainhand5"
+                    },
+                    "weight": 0.1953125
+                }
+            ]
+        }
+    },
+    "nourishing_offhand0": {
+        "type": "origins_classes:modify_craft_result",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_cooking",
+                    "comparison": ">=",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_cooking",
+                    "comparison": "<",
+                    "compare_to": 20
+                }
+            ]
+        },
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand0",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand1",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand2",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand3",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand4",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand5",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand6",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand7",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand8",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand9",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:food"
+                }
+            ]
+        },
+        "item_action": {
+            "type": "origins:choice",
+            "actions": [
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand1"
+                    },
+                    "weight": 100
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand2"
+                    },
+                    "weight": 50
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand3"
+                    },
+                    "weight": 25
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand4"
+                    },
+                    "weight": 3.125
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand5"
+                    },
+                    "weight": 1.5625
+                }
+            ]
+        }
+    },
+    "nourishing_offhand1": {
+        "type": "origins_classes:modify_craft_result",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_cooking",
+                    "comparison": ">=",
+                    "compare_to": 20
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_cooking",
+                    "comparison": "<",
+                    "compare_to": 40
+                }
+            ]
+        },
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand0",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand1",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand2",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand3",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand4",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand5",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand6",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand7",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand8",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand9",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:food"
+                }
+            ]
+        },
+        "item_action": {
+            "type": "origins:choice",
+            "actions": [
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand0"
+                    },
+                    "weight": 50
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand2"
+                    },
+                    "weight": 25
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand3"
+                    },
+                    "weight": 12.5
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand4"
+                    },
+                    "weight": 1.5625
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand5"
+                    },
+                    "weight": 0.78125
+                }
+            ]
+        }
+    },
+    "nourishing_offhand2": {
+        "type": "origins_classes:modify_craft_result",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_cooking",
+                    "comparison": ">=",
+                    "compare_to": 40
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_cooking",
+                    "comparison": "<",
+                    "compare_to": 60
+                }
+            ]
+        },
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand0",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand1",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand2",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand3",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand4",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand5",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand6",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand7",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand8",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand9",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:food"
+                }
+            ]
+        },
+        "item_action": {
+            "type": "origins:choice",
+            "actions": [
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand0"
+                    },
+                    "weight": 25
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand1"
+                    },
+                    "weight": 12.5
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand3"
+                    },
+                    "weight": 6.25
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand4"
+                    },
+                    "weight": 0.78125
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand5"
+                    },
+                    "weight": 0.390625
+                }
+            ]
+        }
+    },
+    "nourishing_offhand3": {
+        "type": "origins_classes:modify_craft_result",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_cooking",
+                    "comparison": ">=",
+                    "compare_to": 60
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_cooking",
+                    "comparison": "<",
+                    "compare_to": 80
+                }
+            ]
+        },
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand0",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand1",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand2",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand3",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand4",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand5",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand6",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand7",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand8",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand9",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:food"
+                }
+            ]
+        },
+        "item_action": {
+            "type": "origins:choice",
+            "actions": [
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand0"
+                    },
+                    "weight": 12.5
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand1"
+                    },
+                    "weight": 6.25
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand2"
+                    },
+                    "weight": 6.25
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand4"
+                    },
+                    "weight": 0.78125
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand5"
+                    },
+                    "weight": 0.390625
+                }
+            ]
+        }
+    },
+    "nourishing_offhand4": {
+        "type": "origins_classes:modify_craft_result",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_cooking",
+                    "comparison": ">=",
+                    "compare_to": 80
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_cooking",
+                    "comparison": "<",
+                    "compare_to": 1000
+                }
+            ]
+        },
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand0",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand1",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand2",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand3",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand4",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand5",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand6",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand7",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand8",
+                    "inverted": true
+                },
+                {
+                    "type": "origins_classes:has_power",
+                    "power": "origins-classes:items/nourishing_offhand9",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:food"
+                }
+            ]
+        },
+        "item_action": {
+            "type": "origins:choice",
+            "actions": [
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand0"
+                    },
+                    "weight": 12.5
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand1"
+                    },
+                    "weight": 6.25
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand2"
+                    },
+                    "weight": 0.390625
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand3"
+                    },
+                    "weight": 0.390625
+                },
+                {
+                    "element": {
+                        "type": "apoli:modify",
+                        "modifier": "origins-classes:cook/nourishing_offhand5"
+                    },
+                    "weight": 0.1953125
+                }
+            ]
+        }
     }
-  }
-
 }

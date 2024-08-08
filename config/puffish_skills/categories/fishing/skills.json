@@ -2,613 +2,439 @@
 	"iki2hi5ad44sq2hr": {
 		"definition": "root+1",
 		"x": 0,
-		"y": 256,
+		"y": 0,
+		"root": true
+	},
+	"zuvowmmk0s0plxwm": {
+		"definition": "lure_speed+1",
+		"x": -192,
+		"y": 832,
 		"root": false
 	},
-	"cak5oznyzqe1hoja": {
-		"definition": "luck+0.01",
-		"x": -96,
+	"9jq3xjrmd4ao0bll": {
+		"definition": "lure_speed+1",
+		"x": -832,
+		"y": -192,
+		"root": false
+	},
+	"r96hlpn1cc33iy9y": {
+		"definition": "lure_speed+1",
+		"x": 192,
+		"y": -832,
+		"root": false
+	},
+	"gfu7w7iazyojy6w4": {
+		"definition": "lure_speed+1",
+		"x": 832,
 		"y": 192,
 		"root": false
 	},
-	"kgcme9ug9ai3882s": {
-		"definition": "luck+0.01",
-		"x": -32,
-		"y": 192,
+	"5t076yx2bpxif3jx": {
+		"definition": "fisherman_luck+0.3",
+		"x": -768,
+		"y": -128,
 		"root": false
 	},
-	"d9c7e06hjgln0g4a": {
-		"definition": "luck+0.01",
-		"x": 32,
-		"y": 192,
+	"efeg7o4cov1uxt06": {
+		"definition": "fisherman_luck+0.3",
+		"x": -704,
+		"y": -64,
 		"root": false
 	},
-	"gxvfda64v61hrevj": {
-		"definition": "luck+0.01",
-		"x": 96,
-		"y": 192,
-		"root": false
-	},
-	"7klweku81134odi1": {
-		"definition": "luck+0.01",
-		"x": -128,
-		"y": 128,
-		"root": false
-	},
-	"23iueiicyv56a033": {
-		"definition": "luck+0.01",
-		"x": -64,
-		"y": 128,
-		"root": false
-	},
-	"kj7daq3qbdt9e5sj": {
-		"definition": "luck+0.01",
-		"x": 0,
-		"y": 128,
-		"root": false
-	},
-	"bpxvyxzi85wcuh5r": {
-		"definition": "luck+0.01",
-		"x": 64,
-		"y": 128,
-		"root": false
-	},
-	"4sb8zbnlrtg00ml7": {
-		"definition": "luck+0.01",
-		"x": 128,
-		"y": 128,
-		"root": false
-	},
-	"a1h312uzs3uy5hvh": {
-		"definition": "luck+0.01",
-		"x": -160,
-		"y": 64,
-		"root": false
-	},
-	"50m0gcg7k8x6l41h": {
-		"definition": "luck+0.01",
-		"x": -96,
-		"y": 64,
-		"root": false
-	},
-	"chvvlbvxhw81ifyx": {
-		"definition": "luck+0.01",
-		"x": -32,
-		"y": 64,
-		"root": false
-	},
-	"d95pybng4vhgc00g": {
-		"definition": "luck+0.01",
-		"x": 32,
-		"y": 64,
-		"root": false
-	},
-	"lezikopxcvi3y1n7": {
-		"definition": "luck+0.01",
-		"x": 96,
-		"y": 64,
-		"root": false
-	},
-	"z2wp845ezayq36gd": {
-		"definition": "luck+0.01",
-		"x": 160,
-		"y": 64,
-		"root": false
-	},
-	"25voun315h1z3l6w": {
-		"definition": "luck+0.01",
-		"x": -192,
+	"p1txa5ezxn8r7ik8": {
+		"definition": "fisherman_luck+0.3",
+		"x": -640,
 		"y": 0,
 		"root": false
 	},
-	"0clebo3b9g9f2gr3": {
-		"definition": "luck+0.01",
-		"x": -128,
-		"y": 0,
-		"root": false
-	},
-	"z58n5d8uiibhgh2f": {
-		"definition": "luck+0.01",
-		"x": -64,
-		"y": 0,
-		"root": false
-	},
-	"eav9rmwlidn6j5fb": {
-		"definition": "luck+0.01",
-		"x": 0,
-		"y": 0,
-		"root": false
-	},
-	"i9rqdomu8r2dllei": {
-		"definition": "luck+0.01",
-		"x": 64,
-		"y": 0,
-		"root": false
-	},
-	"y08rf9k23o3w5hia": {
-		"definition": "luck+0.01",
-		"x": 128,
-		"y": 0,
-		"root": false
-	},
-	"g2vc13jk34eoqqgc": {
-		"definition": "luck+0.01",
-		"x": 192,
-		"y": 0,
-		"root": false
-	},
-	"qep57clhlekpdj0a": {
-		"definition": "luck+0.01",
-		"x": -224,
-		"y": -64,
-		"root": false
-	},
-	"37csd646dyo4cj70": {
-		"definition": "luck+0.01",
-		"x": -160,
-		"y": -64,
-		"root": false
-	},
-	"sda7hmlcbior7p6w": {
-		"definition": "luck+0.01",
-		"x": -96,
-		"y": -64,
-		"root": false
-	},
-	"kbnpujtaqlm5b5tu": {
-		"definition": "luck+0.01",
-		"x": -32,
-		"y": -64,
-		"root": false
-	},
-	"r3skjdjg3pc5j3ze": {
-		"definition": "luck+0.01",
-		"x": 32,
-		"y": -64,
-		"root": false
-	},
-	"ocehbrj2c2hcgstk": {
-		"definition": "luck+0.01",
-		"x": 96,
-		"y": -64,
-		"root": false
-	},
-	"uppe0scozykdo2ba": {
-		"definition": "luck+0.01",
-		"x": 160,
-		"y": -64,
-		"root": false
-	},
-	"q7kwe05g8o2gf32w": {
-		"definition": "luck+0.01",
-		"x": 224,
-		"y": -64,
-		"root": false
-	},
-	"2m92f51w8wutn97r": {
-		"definition": "luck+0.01",
-		"x": -256,
-		"y": -128,
-		"root": false
-	},
-	"1gvwmmti6drkso1o": {
-		"definition": "luck+0.01",
-		"x": -192,
-		"y": -128,
-		"root": false
-	},
-	"dd85gxjxbmayt0h6": {
-		"definition": "luck+0.01",
-		"x": -128,
-		"y": -128,
-		"root": false
-	},
-	"ip2dyyjbo7k9p5pu": {
-		"definition": "luck+0.01",
-		"x": -64,
-		"y": -128,
-		"root": false
-	},
-	"m2j3zryh77gaurh7": {
-		"definition": "luck+0.01",
-		"x": 0,
-		"y": -128,
-		"root": false
-	},
-	"d6rd7kcvx1awfvrq": {
-		"definition": "luck+0.01",
-		"x": 64,
-		"y": -128,
-		"root": false
-	},
-	"3ova3fyaugqa0unx": {
-		"definition": "luck+0.01",
-		"x": 128,
-		"y": -128,
-		"root": false
-	},
-	"dlm70eyjedrjrbv3": {
-		"definition": "luck+0.01",
-		"x": 192,
-		"y": -128,
-		"root": false
-	},
-	"plm5s99l7b2bexcp": {
-		"definition": "luck+0.01",
-		"x": 256,
-		"y": -128,
-		"root": false
-	},
-	"6o5jaiulm9pohwd0": {
-		"definition": "luck+0.05",
-		"x": -288,
-		"y": -192,
-		"root": false
-	},
-	"oio24h8lyac5wy1q": {
-		"definition": "luck+0.05",
-		"x": -224,
-		"y": -192,
-		"root": false
-	},
-	"1tsw1ijlqurvty76": {
-		"definition": "luck+0.05",
-		"x": -160,
-		"y": -192,
-		"root": false
-	},
-	"hha0wuzpsnqmdop2": {
-		"definition": "luck+0.05",
-		"x": -96,
-		"y": -192,
-		"root": false
-	},
-	"4ztvpzjm777is6i0": {
-		"definition": "luck+0.05",
-		"x": -32,
-		"y": -192,
-		"root": false
-	},
-	"kjyxobelu6p2ch67": {
-		"definition": "luck+0.05",
-		"x": 32,
-		"y": -192,
-		"root": false
-	},
-	"u8dyw5obra51h75f": {
-		"definition": "luck+0.05",
-		"x": 96,
-		"y": -192,
-		"root": false
-	},
-	"kwtten7b879evd2z": {
-		"definition": "luck+0.05",
-		"x": 160,
-		"y": -192,
-		"root": false
-	},
-	"c0dmrcdjb38ra7vn": {
-		"definition": "luck+0.05",
-		"x": 224,
-		"y": -192,
-		"root": false
-	},
-	"7p946rikv7j71p82": {
-		"definition": "luck+0.05",
-		"x": 288,
-		"y": -192,
-		"root": false
-	},
-	"zksvj5d7vgel76x3": {
-		"definition": "luck+0.05",
-		"x": 320,
-		"y": -256,
-		"root": false
-	},
-	"trgwhmyvfmjn52h5": {
-		"definition": "luck+0.05",
-		"x": 256,
-		"y": -256,
-		"root": false
-	},
-	"qwtj6bp69wlil29g": {
-		"definition": "luck+0.05",
-		"x": 192,
-		"y": -256,
-		"root": false
-	},
-	"jufjaeerf9z67gy8": {
-		"definition": "luck+0.05",
-		"x": 128,
-		"y": -256,
-		"root": false
-	},
-	"p9bkt5byrbh9s9zs": {
-		"definition": "luck+0.05",
-		"x": 64,
-		"y": -256,
-		"root": false
-	},
-	"px1v2bhxkgkl0q46": {
-		"definition": "luck+0.05",
-		"x": 0,
-		"y": -256,
-		"root": false
-	},
-	"yujczhgk6oveg32t": {
-		"definition": "luck+0.05",
-		"x": -64,
-		"y": -256,
-		"root": false
-	},
-	"tk47fmr1ium1psco": {
-		"definition": "luck+0.05",
-		"x": -128,
-		"y": -256,
-		"root": false
-	},
-	"lszp6cjt9erf1sdc": {
-		"definition": "luck+0.05",
-		"x": -192,
-		"y": -256,
-		"root": false
-	},
-	"clftb31o7l0blmd5": {
-		"definition": "luck+0.05",
-		"x": -256,
-		"y": -256,
-		"root": false
-	},
-	"133ervh1p9qkv81l": {
-		"definition": "luck+0.05",
-		"x": -320,
-		"y": -256,
-		"root": false
-	},
-	"uka2jegz28g8t56o": {
-		"definition": "luck+0.05",
-		"x": 224,
-		"y": -320,
-		"root": false
-	},
-	"4qqx8lksueluimyk": {
-		"definition": "luck+0.05",
-		"x": -224,
-		"y": -320,
-		"root": false
-	},
-	"bckg2qw1gw3g99uc": {
-		"definition": "luck+0.05",
-		"x": -160,
-		"y": -320,
-		"root": false
-	},
-	"gw41puf7vb8al1hr": {
-		"definition": "luck+0.05",
-		"x": -96,
-		"y": -320,
-		"root": false
-	},
-	"40ted46w7wr2qukj": {
-		"definition": "luck+0.05",
-		"x": -32,
-		"y": -320,
-		"root": false
-	},
-	"f6rvn930cdgvhrs1": {
-		"definition": "luck+0.05",
-		"x": 32,
-		"y": -320,
-		"root": false
-	},
-	"3hhmvtg2mcpp3ry9": {
-		"definition": "luck+0.05",
-		"x": 96,
-		"y": -320,
-		"root": false
-	},
-	"qqwewq8xxexxgyi7": {
-		"definition": "luck+0.05",
-		"x": 160,
-		"y": -320,
-		"root": false
-	},
-	"7evz1hajpyv1uwgs": {
-		"definition": "luck+0.1",
-		"x": -192,
-		"y": -384,
-		"root": false
-	},
-	"mcg2q63ohjltais2": {
-		"definition": "luck+0.1",
-		"x": -128,
-		"y": -384,
-		"root": false
-	},
-	"wm24pxbcqrw7inry": {
-		"definition": "luck+0.1",
-		"x": -64,
-		"y": -384,
-		"root": false
-	},
-	"xerh5bextj6mluy8": {
-		"definition": "luck+0.1",
-		"x": 0,
-		"y": -384,
-		"root": false
-	},
-	"jxim9tzw8sga8o09": {
-		"definition": "luck+0.1",
-		"x": 64,
-		"y": -384,
-		"root": false
-	},
-	"5k3n55na7zsogic6": {
-		"definition": "luck+0.1",
-		"x": 128,
-		"y": -384,
-		"root": false
-	},
-	"fz1xwuxw8pxhwgad": {
-		"definition": "luck+0.1",
-		"x": 192,
-		"y": -384,
-		"root": false
-	},
-	"7x7lmg1ybr3f8r3o": {
-		"definition": "luck+0.1",
-		"x": -128,
-		"y": -448,
-		"root": false
-	},
-	"59hiuwi6e8d3d6ze": {
-		"definition": "luck+0.1",
-		"x": 128,
-		"y": -448,
-		"root": false
-	},
-	"ua54xohsldluqnt2": {
-		"definition": "stamina_+0.5%",
-		"x": -32,
-		"y": 320,
-		"root": false
-	},
-	"0bolnzmmwzsebjf3": {
-		"definition": "stamina_+0.5%",
-		"x": 32,
-		"y": 320,
-		"root": false
-	},
-	"oq5pce15uplze9ea": {
-		"definition": "stamina_+0.5%",
-		"x": -64,
-		"y": 384,
-		"root": false
-	},
-	"s9j4jlvtcza67qt6": {
-		"definition": "stamina_+0.5%",
-		"x": 0,
-		"y": 384,
-		"root": false
-	},
-	"ur2fcqluj4qexzhb": {
-		"definition": "stamina_+0.5%",
-		"x": 64,
-		"y": 384,
-		"root": false
-	},
-	"nbx2ie8isjcsnrna": {
-		"definition": "stamina_+0.5%",
-		"x": -96,
-		"y": 448,
-		"root": false
-	},
-	"4y8lio3qfqcah9am": {
-		"definition": "stamina_+0.5%",
-		"x": -32,
-		"y": 448,
-		"root": false
-	},
-	"jf0igwpjoqjkzpv3": {
-		"definition": "stamina_+0.5%",
-		"x": 32,
-		"y": 448,
-		"root": false
-	},
-	"neypggl24hot1ecp": {
-		"definition": "stamina_+0.5%",
-		"x": 96,
-		"y": 448,
-		"root": false
-	},
-	"9m2b9vakidiudfcr": {
-		"definition": "stamina_+0.5%",
-		"x": -64,
-		"y": 512,
-		"root": false
-	},
-	"fmzqebcnam6es5s5": {
-		"definition": "stamina_+0.5%",
-		"x": 0,
-		"y": 512,
-		"root": false
-	},
-	"3bi2649u4dun53uz": {
-		"definition": "stamina_+0.5%",
-		"x": 64,
-		"y": 512,
-		"root": false
-	},
-	"wjeqgfyetza2p1ao": {
-		"definition": "stamina_+0.5%",
-		"x": -96,
-		"y": 576,
-		"root": false
-	},
-	"miquu0cozn2a4alw": {
-		"definition": "stamina_+0.5%",
-		"x": -32,
-		"y": 576,
-		"root": false
-	},
-	"vghx1myeraitkmrk": {
-		"definition": "stamina_+0.5%",
-		"x": 32,
-		"y": 576,
-		"root": false
-	},
-	"f8lxj6mfh8muti9y": {
-		"definition": "stamina_+0.5%",
-		"x": 96,
-		"y": 576,
-		"root": false
-	},
-	"kxub4xeok4fcfj9j": {
-		"definition": "stamina_+0.5%",
+	"hw1quamwe5d6k8di": {
+		"definition": "fisherman_luck+0.3",
 		"x": 0,
 		"y": 640,
 		"root": false
 	},
-	"c21yvq2eea7ju27m": {
-		"definition": "stamina_+0.5%",
+	"uk23fkff2skt1nol": {
+		"definition": "fisherman_luck+0.3",
 		"x": -64,
-		"y": 672,
-		"root": false
-	},
-	"ytd2tg6zb75pibio": {
-		"definition": "stamina_+0.5%",
-		"x": 0,
 		"y": 704,
 		"root": false
 	},
-	"04n3mgxx7skp547m": {
-		"definition": "stamina_+0.5%",
-		"x": 64,
-		"y": 672,
+	"iikha0p8au829yj5": {
+		"definition": "fisherman_luck+0.3",
+		"x": -128,
+		"y": 768,
 		"root": false
 	},
-	"fkuk98rj7hi57sze": {
-		"definition": "stamina_+1%",
+	"3yw5i227hi7nb3eb": {
+		"definition": "fisherman_luck+0.3",
+		"x": 768,
+		"y": 128,
+		"root": false
+	},
+	"w0xhaf2zrhcjake7": {
+		"definition": "fisherman_luck+0.3",
+		"x": 704,
+		"y": 64,
+		"root": false
+	},
+	"zs6ydy8gaplkmy2g": {
+		"definition": "fisherman_luck+0.3",
+		"x": 640,
+		"y": 0,
+		"root": false
+	},
+	"hc3h8la9ohp42gqb": {
+		"definition": "fisherman_luck+0.3",
+		"x": 0,
+		"y": -640,
+		"root": false
+	},
+	"y4b1ygojmdj8a0xb": {
+		"definition": "fisherman_luck+0.3",
+		"x": 64,
+		"y": -704,
+		"root": false
+	},
+	"juuv84jlej3cghwt": {
+		"definition": "fisherman_luck+0.3",
+		"x": 128,
+		"y": -768,
+		"root": false
+	},
+	"cuchljg3mx80nz1p": {
+		"definition": "fisherman_luck+0.1",
+		"x": 0,
+		"y": -128,
+		"root": false
+	},
+	"agpxktsnuuctah7x": {
+		"definition": "fisherman_luck+0.1",
+		"x": 128,
+		"y": 0,
+		"root": false
+	},
+	"x83aoj4js4vsojzh": {
+		"definition": "fisherman_luck+0.1",
+		"x": -128,
+		"y": 0,
+		"root": false
+	},
+	"j5e4a7se8yybi4un": {
+		"definition": "fisherman_luck+0.1",
+		"x": 0,
+		"y": 128,
+		"root": false
+	},
+	"zodvrynu2r7lwjoc": {
+		"definition": "fisherman_luck+0.1",
+		"x": -32,
+		"y": 192,
+		"root": false
+	},
+	"hwxlfxxgbjef21yu": {
+		"definition": "fisherman_luck+0.1",
+		"x": 32,
+		"y": 192,
+		"root": false
+	},
+	"oxzjp9knz55sh4zp": {
+		"definition": "fisherman_luck+0.1",
+		"x": -192,
+		"y": -32,
+		"root": false
+	},
+	"54pequf9c1n26tsj": {
+		"definition": "fisherman_luck+0.1",
+		"x": -192,
+		"y": 32,
+		"root": false
+	},
+	"7c6syjo0j0zxudu9": {
+		"definition": "fisherman_luck+0.1",
+		"x": 192,
+		"y": -32,
+		"root": false
+	},
+	"605jznzrkroojt8n": {
+		"definition": "fisherman_luck+0.1",
+		"x": 192,
+		"y": 32,
+		"root": false
+	},
+	"3tutliyne67db8l4": {
+		"definition": "fisherman_luck+0.1",
+		"x": -32,
+		"y": -192,
+		"root": false
+	},
+	"hzx3tpkm4ghd7nei": {
+		"definition": "fisherman_luck+0.1",
+		"x": 32,
+		"y": -192,
+		"root": false
+	},
+	"okn85w7mr2703vuc": {
+		"definition": "fisherman_luck+0.1",
+		"x": 0,
+		"y": -256,
+		"root": false
+	},
+	"b31vpu5zd82die77": {
+		"definition": "fisherman_luck+0.1",
+		"x": 256,
+		"y": 0,
+		"root": false
+	},
+	"cq68ce296dkr04h2": {
+		"definition": "fisherman_luck+0.1",
+		"x": 0,
+		"y": 256,
+		"root": false
+	},
+	"1trr0k2h88amdb3e": {
+		"definition": "fisherman_luck+0.1",
+		"x": 256,
+		"y": -64,
+		"root": false
+	},
+	"x13z6nd5zdmagvbr": {
+		"definition": "fisherman_luck+0.1",
+		"x": 256,
+		"y": 64,
+		"root": false
+	},
+	"phwt8wh10lxyk50r": {
+		"definition": "fisherman_luck+0.1",
+		"x": 64,
+		"y": -256,
+		"root": false
+	},
+	"4uf0i2od9ps8ku9r": {
+		"definition": "fisherman_luck+0.1",
 		"x": -64,
-		"y": 768,
+		"y": -256,
 		"root": false
 	},
-	"fqdcn6kdwg47osrr": {
-		"definition": "stamina_+1%",
+	"1eyo3q2p0j1f45o7": {
+		"definition": "fisherman_luck+0.1",
+		"x": -64,
+		"y": 256,
+		"root": false
+	},
+	"22j5p4sljhu5vnbi": {
+		"definition": "fisherman_luck+0.1",
 		"x": 64,
-		"y": 768,
+		"y": 256,
 		"root": false
 	},
-	"3q31i3csrs5djxbt": {
-		"definition": "stamina_+1%",
-		"x": 0,
-		"y": 768,
+	"pwm41cqxs7t34uwk": {
+		"definition": "fisherman_luck+0.1",
+		"x": -256,
+		"y": -64,
 		"root": false
 	},
-	"70w7jxnmzv0nk5to": {
-		"definition": "stamina_+1%",
+	"z25e17lgbu7lz0tb": {
+		"definition": "fisherman_luck+0.1",
+		"x": -256,
+		"y": 64,
+		"root": false
+	},
+	"1lcg17v441yt6foo": {
+		"definition": "fisherman_luck+0.1",
+		"x": -256,
+		"y": 0,
+		"root": false
+	},
+	"qs1n6jihal2d6esr": {
+		"definition": "fisherman_luck+0.1",
+		"x": -320,
+		"y": -32,
+		"root": false
+	},
+	"2bdfyu5uozaohm5l": {
+		"definition": "fisherman_luck+0.1",
+		"x": -320,
+		"y": 32,
+		"root": false
+	},
+	"3tex2v6xjm3kir2s": {
+		"definition": "fisherman_luck+0.1",
+		"x": -384,
+		"y": 0,
+		"root": false
+	},
+	"tha46uhusbn4wo75": {
+		"definition": "fisherman_luck+0.1",
+		"x": 320,
+		"y": -32,
+		"root": false
+	},
+	"woe7cc4zgpbt00cj": {
+		"definition": "fisherman_luck+0.1",
+		"x": 320,
+		"y": 32,
+		"root": false
+	},
+	"8rqnjdmggc3hiv1t": {
+		"definition": "fisherman_luck+0.1",
+		"x": 384,
+		"y": 0,
+		"root": false
+	},
+	"dtc71weyu1mafuge": {
+		"definition": "fisherman_luck+0.1",
+		"x": -32,
+		"y": -320,
+		"root": false
+	},
+	"ak3ga4dzh5z2imld": {
+		"definition": "fisherman_luck+0.1",
+		"x": 32,
+		"y": -320,
+		"root": false
+	},
+	"27v8oo62i5st771t": {
+		"definition": "fisherman_luck+0.1",
 		"x": 0,
-		"y": 832,
+		"y": -384,
+		"root": false
+	},
+	"ouhdj6b4xqddyz8c": {
+		"definition": "fisherman_luck+0.1",
+		"x": -32,
+		"y": 320,
+		"root": false
+	},
+	"25rxifrayfy26p1i": {
+		"definition": "fisherman_luck+0.1",
+		"x": 32,
+		"y": 320,
+		"root": false
+	},
+	"63i6v3ny65tiyk23": {
+		"definition": "fisherman_luck+0.1",
+		"x": 0,
+		"y": 384,
+		"root": false
+	},
+	"6kj229b1l8mp8lhl": {
+		"definition": "fisherman_luck+0.1",
+		"x": 448,
+		"y": -32,
+		"root": false
+	},
+	"shp08nkwca0lxfu1": {
+		"definition": "fisherman_luck+0.1",
+		"x": 448,
+		"y": 32,
+		"root": false
+	},
+	"vb465xqu2sv8btqn": {
+		"definition": "fisherman_luck+0.1",
+		"x": 512,
+		"y": 0,
+		"root": false
+	},
+	"kexppl987gpjoeg1": {
+		"definition": "fisherman_luck+0.1",
+		"x": 576,
+		"y": -32,
+		"root": false
+	},
+	"67bx00gzf4n15jih": {
+		"definition": "fisherman_luck+0.1",
+		"x": 576,
+		"y": 32,
+		"root": false
+	},
+	"hhlj0juvmezw38d5": {
+		"definition": "fisherman_luck+0.1",
+		"x": -32,
+		"y": -448,
+		"root": false
+	},
+	"137pcbpjvmrw03jv": {
+		"definition": "fisherman_luck+0.1",
+		"x": 32,
+		"y": -448,
+		"root": false
+	},
+	"kh0j8r4bdq8opccw": {
+		"definition": "fisherman_luck+0.1",
+		"x": 0,
+		"y": -512,
+		"root": false
+	},
+	"rliklkvpzyjsf9du": {
+		"definition": "fisherman_luck+0.1",
+		"x": -32,
+		"y": -576,
+		"root": false
+	},
+	"78a0ldaz8igpspb0": {
+		"definition": "fisherman_luck+0.1",
+		"x": 32,
+		"y": -576,
+		"root": false
+	},
+	"0kldpk27uis3klxc": {
+		"definition": "fisherman_luck+0.1",
+		"x": -448,
+		"y": -32,
+		"root": false
+	},
+	"v9y6ce0ga9crm5fa": {
+		"definition": "fisherman_luck+0.1",
+		"x": -448,
+		"y": 32,
+		"root": false
+	},
+	"26z1b5m7vvkmttoz": {
+		"definition": "fisherman_luck+0.1",
+		"x": -512,
+		"y": 0,
+		"root": false
+	},
+	"g65t5d0c41vmmbfs": {
+		"definition": "fisherman_luck+0.1",
+		"x": -576,
+		"y": -32,
+		"root": false
+	},
+	"u50s1l7fktrt8zf5": {
+		"definition": "fisherman_luck+0.1",
+		"x": -576,
+		"y": 32,
+		"root": false
+	},
+	"55cjhgpn32be7uup": {
+		"definition": "fisherman_luck+0.1",
+		"x": -32,
+		"y": 448,
+		"root": false
+	},
+	"w6fdkm5l6k4q29wc": {
+		"definition": "fisherman_luck+0.1",
+		"x": 32,
+		"y": 448,
+		"root": false
+	},
+	"jaoshnr741zklk8p": {
+		"definition": "fisherman_luck+0.1",
+		"x": 0,
+		"y": 512,
+		"root": false
+	},
+	"bl9qnb10mn3jr72s": {
+		"definition": "fisherman_luck+0.1",
+		"x": -32,
+		"y": 576,
+		"root": false
+	},
+	"adg2nrmi4a5u3ba7": {
+		"definition": "fisherman_luck+0.1",
+		"x": 32,
+		"y": 576,
 		"root": false
 	}
 }

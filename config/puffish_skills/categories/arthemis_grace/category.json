@@ -1,0 +1,14 @@
+{
+	"unlocked_by_default": true,
+	"title": [ 
+		{"text": "§6§lArthemi's Grace > "},
+		{"text": "§r§fImprove your fighting skills and damage by inflicting damage with projectiles"}
+	],
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "immersive_aircraft:heavy_crossbow"
+		}
+	},
+	"background": "textures/block/cut_sandstone.png"
+}

@@ -1,0 +1,74 @@
+{
+	"root": {
+		"title": { "text" : "§aGain 10 more claimable chunks" },
+		"description": {"text": "§l§aSOURCE: §rSave villagers"},
+		"size" : 3,
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "hero_of_the_village"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "ftbchunks admin extra_claim_chunks @s add 10"
+				}
+			}
+		]
+	},
+	"10_chunks": {
+		"title":  { "text" : "§aGain 10 more claimable chunks" },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "brewery:brewfest_blouse"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "ftbchunks admin extra_claim_chunks @s add 10"
+				}
+			}
+		]
+	},
+	"1_force_load": {
+		"title":  { "text" : "§aGain 1 more force load chunks" },
+		"size": 2,
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "brewery:brewfest_regalia"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "ftbchunks admin extra_force_load_chunks @s add 1"
+				}
+			}
+		]
+	}
+}

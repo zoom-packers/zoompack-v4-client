@@ -1,12 +1,10 @@
-
 {
-  "type": "apoli:attribute",
-  "name": "Tough Shoes",
-  "description": "+3 Armor. These shoes have been forged by a licensed blacksmith. Please subscribe to their Feet pic filled instagram.",
-  "modifier": {
-    "name": "{name}",
-    "attribute": "minecraft:generic.armor",
-    "value": 3,
-    "operation": "addition"
-  }
+    "type": "apoli:attribute",
+    "name": "Tough Shoes",
+    "description": "+3 Armor. These shoes have been forged by a licensed blacksmith.",
+    "modifier": {
+        "attribute": "minecraft:generic.armor",
+        "value": 3,
+        "operation": "addition"
+    }
 }

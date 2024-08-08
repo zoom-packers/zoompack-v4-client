@@ -23,7 +23,7 @@
     "modifier": {
       "name": "Warrior attack damage bonus 0",
       "attribute": "minecraft:generic.attack_damage",
-      "value": 0.2,
+      "value": 0.05,
       "operation": "multiply_total"
     }
   },
@@ -49,7 +49,7 @@
     "modifier": {
       "name": "Warrior attack damage bonus 20",
       "attribute": "minecraft:generic.attack_damage",
-      "value": 0.4,
+      "value": 0.1,
       "operation": "multiply_total"
     }
   },
@@ -75,7 +75,7 @@
     "modifier": {
       "name": "Warrior attack damage bonus 40",
       "attribute": "minecraft:generic.attack_damage",
-      "value": 0.6,
+      "value": 0.15,
       "operation": "multiply_total"
     }
   },
@@ -101,7 +101,7 @@
     "modifier": {
       "name": "Warrior attack damage bonus 60",
       "attribute": "minecraft:generic.attack_damage",
-      "value": 0.8,
+      "value": 0.2,
       "operation": "multiply_total"
     }
   },
@@ -127,7 +127,7 @@
     "modifier": {
       "name": "Warrior attack damage bonus 80",
       "attribute": "minecraft:generic.attack_damage",
-      "value": 1,
+      "value": 0.25,
       "operation": "multiply_total"
     }
   }

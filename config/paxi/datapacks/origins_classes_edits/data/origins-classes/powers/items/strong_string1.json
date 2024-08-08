@@ -1,12 +1,10 @@
-
 {
-  "type": "apoli:attribute",
-  "name": "Strong String",
-  "description": "+2 Attack Damage. This string has been forged by a licensed blacksmith. Please subscribe to their Millennial TikTok.",
-  "modifier": {
-    "name": "{name}",
-    "attribute": "minecraft:generic.attack_damage",
-    "value": 2,
-    "operation": "addition"
-  }
+    "type": "apoli:attribute",
+    "name": "Strong String",
+    "description": "+2 Attack Damage. This string has been forged by a licensed blacksmith.",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "value": 2,
+        "operation": "addition"
+    }
 }

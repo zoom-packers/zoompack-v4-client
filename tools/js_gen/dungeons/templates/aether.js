@@ -1,11 +1,11 @@
-const dims = require("../../libs/dimension_typedefs");
-const items = require("../../libs/item_typedefs");
-const blocks = require("../../libs/block_typedefs");
-const entities = require("../../libs/entity_typedefs");
-const biomes = require("../../libs/biome_typedefs");
-const loot_tables = require("../../libs/loot_table_typedefs");
-const {dimension_aether} = require("../../libs/dimension_typedefs");
-const {block_aether, block_minecraft, block_create} = require("../../libs/block_typedefs");
+const dims = require("../../typedefs/dimension_typedefs");
+const items = require("../../typedefs/item_typedefs");
+const blocks = require("../../typedefs/block_typedefs");
+const entities = require("../../typedefs/entity_typedefs");
+const biomes = require("../../typedefs/biome_typedefs");
+const loot_tables = require("../../typedefs/loot_table_typedefs");
+const {dimension_aether} = require("../../typedefs/dimension_typedefs");
+const {block_aether, block_minecraft, block_create} = require("../../typedefs/block_typedefs");
 
 /** @type {DimensionalGenerationDefinition} */
 const aether = {
