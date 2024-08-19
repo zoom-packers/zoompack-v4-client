@@ -1,0 +1,12 @@
+{
+	icon: "minecraft:chest"
+	id: "0607C106D143E377"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 8, item: "minecraft:coal", random_bonus: 8 }
+		{ count: 3, item: "minecraft:iron_ingot", random_bonus: 3 }
+		{ count: 5, item: "minecraft:copper_ingot", random_bonus: 5 }
+	]
+	title: "Tier 1 miner stash"
+}

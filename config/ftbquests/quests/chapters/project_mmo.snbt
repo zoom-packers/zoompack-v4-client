@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "project_mmo"
+	group: ""
+	icon: {
+		Count: 1
+		id: "deeperdarker:warden_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "40EDA266C5A653C1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Project MMO"
+}

@@ -1,5 +1,5 @@
 {
-	icon: "biomesoplenty:flesh"
+	icon: "minecraft:redstone_block"
 	id: "4083B485E1F9332D"
 	loot_size: 2
 	order_index: 4

@@ -573,6 +573,12 @@
 				"159A6261D832CD50"
 			]
 			id: "14760B4FB4FC55F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33C782B44D481B61"
+				table_id: 7743076479955517786L
+				type: "loot"
+			}]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -586,6 +592,11 @@
 		}
 		{
 			id: "43EAA6C2D79A1888"
+			rewards: [{
+				id: "3FE55185E9840AAD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				id: "1B0DA6AA650B7881"
 				item: {
@@ -603,6 +614,11 @@
 		}
 		{
 			id: "1D288E3ECE7E38B6"
+			rewards: [{
+				id: "3B64D70E199E00E8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "4D45711C09B3838C"
@@ -621,6 +637,11 @@
 		}
 		{
 			id: "4D6F308506302E92"
+			rewards: [{
+				id: "16804C056D6A590E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				id: "5A4364BC40CD2076"
 				item: "farmersdelight:stove"
@@ -632,6 +653,11 @@
 		}
 		{
 			id: "14BE77EDD8CC7058"
+			rewards: [{
+				id: "3709F70827942E25"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "018053C95E886F7F"
@@ -678,6 +704,11 @@
 		}
 		{
 			id: "2CCD576A996B9039"
+			rewards: [{
+				id: "7E88BC5874B0F996"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "45CB9A5ADE3AD46C"
 				item: "croptopia:food_press"
@@ -689,6 +720,11 @@
 		}
 		{
 			id: "79C8D9A50E72935E"
+			rewards: [{
+				id: "1800513AAE11AA74"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1C9746C2B5DA0E45"
 				item: "croptopia:mortar_and_pestle"
@@ -708,6 +744,7 @@
 				"4D6F308506302E92"
 				"2FCF1BA550AC34AB"
 			]
+			icon: "croptopia:soy_sauce"
 			id: "4E09D02CAEB0D341"
 			rewards: [
 				{
@@ -766,6 +803,11 @@
 		}
 		{
 			id: "2FCF1BA550AC34AB"
+			rewards: [{
+				id: "3144B07A889BEBEB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "10EB5A7747D6E4D8"
 				item: "farmersdelight:cutting_board"
@@ -777,6 +819,12 @@
 		}
 		{
 			id: "561B1692B46DCBE3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BEF6589F0B7BA47"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "3B452C5076572EF3"
@@ -847,6 +895,12 @@
 		}
 		{
 			id: "4DB47223742CA333"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67A52C2DC9B2DD77"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "3B0E1AE4F7D248D2"
@@ -865,6 +919,12 @@
 		}
 		{
 			id: "3974C8FFF2240908"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B2228FB24EAC3F6"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "5E5FAA714A788B07"
@@ -883,6 +943,12 @@
 		}
 		{
 			id: "7746FF3C5E22B45C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CB13F5C228E8F82"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "510087651D3123EA"
@@ -901,6 +967,12 @@
 		}
 		{
 			id: "720B6FAA096F1435"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38E9DBF97D1FD758"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "43ABC2A5EC0C58D1"
@@ -919,6 +991,12 @@
 		}
 		{
 			id: "3D656241A41E1859"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B6FF7596CE7C419"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			subtitle: "Harvested straight from the chocolate men"
 			tasks: [{
 				id: "63DD515C34E09A6F"
@@ -930,6 +1008,12 @@
 		}
 		{
 			id: "12715C534D12225B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D4967E5FC100FDF"
+				table_id: 434528124089394039L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "421E00E8D0303B7A"
@@ -953,6 +1037,11 @@
 		}
 		{
 			id: "54B7E48206778BB8"
+			rewards: [{
+				id: "7CBBEA965510F125"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [
 				{
 					id: "5AB666228928EE7D"
@@ -979,11 +1068,31 @@
 				"1DAD45880CF77BC3"
 			]
 			id: "63121B39401EA1F1"
-			rewards: [{
-				id: "68169D388B35774C"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "68169D388B35774C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BA70C3A177CB4D5"
+					table_id: 1112731193001374020L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33743CD4B71F5162"
+					table_id: 2531024133250134695L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E43EEDEA60FB186"
+					table_id: 3076555991572753089L
+					type: "choice"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			subtitle: "Made by chef Ratatoile"
@@ -997,6 +1106,11 @@
 		}
 		{
 			id: "2C7570760E8127F5"
+			rewards: [{
+				id: "01256E412EC6279B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [
 				{
 					id: "3D08744903A17BBC"
@@ -1015,6 +1129,11 @@
 		}
 		{
 			id: "501005D30121B875"
+			rewards: [{
+				id: "3C4499BCB12818A4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [
 				{
 					id: "1A66F564B70FAB12"
@@ -1033,6 +1152,11 @@
 		}
 		{
 			id: "00270C916686D170"
+			rewards: [{
+				id: "0A043AEF1425D2A5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [
 				{
 					id: "3688669DA4181454"
@@ -1051,6 +1175,11 @@
 		}
 		{
 			id: "14BCFA9A1D7DB305"
+			rewards: [{
+				id: "50CD464EECEBD59D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [
 				{
 					id: "07B4454B6F6652B5"
@@ -1069,6 +1198,11 @@
 		}
 		{
 			id: "58BDD3F13AE867E6"
+			rewards: [{
+				id: "01A0BD63C9A4F99F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [
 				{
 					id: "539C27C6328DB943"
@@ -1087,6 +1221,11 @@
 		}
 		{
 			id: "05198662FD6443D0"
+			rewards: [{
+				id: "05F6BF2DC904E133"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [
 				{
 					id: "5E656E6451C70B63"
@@ -1110,6 +1249,12 @@
 				"30B4CD235F6FCDE9"
 			]
 			id: "6F7A8505C5341B89"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "097F9D42E68B7CA6"
+				table_id: 434528124089394039L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "08083C91E121D6F6"
 				item: "croptopia:leafy_salad"
@@ -1121,6 +1266,12 @@
 		}
 		{
 			id: "33D519D2997F37A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F88B106B6D356C1"
+				table_id: 4648757727491339053L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "1C33BF66F2F815E3"
 				item: "farmersdelight:hamburger"
@@ -1132,6 +1283,12 @@
 		}
 		{
 			id: "6422AD9CB8A16CA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BCAFF792062A415"
+				table_id: 434528124089394039L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5136CCBC4F861365"
 				item: "croptopia:protein_bar"
@@ -1147,6 +1304,13 @@
 				"6422AD9CB8A16CA9"
 				"12715C534D12225B"
 			]
+			icon: {
+				Count: 1
+				id: "everythingcopper:copper_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "4FC29920B3872099"
 			shape: "diamond"
 			size: 2.0d
@@ -1160,6 +1324,12 @@
 		}
 		{
 			id: "7653FAB6DFF7020A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "410B2B22EF745588"
+				table_id: 7743076479955517786L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5C97436661E9606F"
 				item: "croptopia:hashed_brown"
@@ -1170,6 +1340,12 @@
 		}
 		{
 			id: "58E37513A00F4C18"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05219D75E0BCA3BD"
+				table_id: 434528124089394039L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6D994BFCF7C431C8"
 				item: "croptopia:baked_beans"
@@ -1181,6 +1357,12 @@
 		}
 		{
 			id: "2DB71FCF7C5BD794"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DE8B8C7A1725454"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "233A9ACF6295EE96"
 				item: "croptopia:bacon"
@@ -1192,6 +1374,12 @@
 		}
 		{
 			id: "44727B5673BE36B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "354982418DB6C055"
+				table_id: 4648757727491339053L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "42AF1ABAE91B0380"
 				item: "croptopia:sausage"
@@ -1209,6 +1397,20 @@
 				"2DB71FCF7C5BD794"
 			]
 			id: "325E7D502A1B77FC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F688802EF7BC664"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A6AA290E70007F6"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			subtitle: "Ron Swanson would be proud"
@@ -1230,6 +1432,12 @@
 				"0EBA393AF846C413"
 			]
 			id: "754B342F75C6AD88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AD1A1DDDC847FF4"
+				table_id: 7323225797761338335L
+				type: "loot"
+			}]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -1243,6 +1451,20 @@
 		}
 		{
 			id: "7AC873E5A3236106"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0006DC5F6C7D4584"
+					table_id: 6759378343124754253L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15F4E956C8DF16AE"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "39FC93ABEB37179A"
 				item: "croptopia:sushi"
@@ -1254,6 +1476,20 @@
 		}
 		{
 			id: "37531268C18FBC89"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "545A2C14BD4B85FF"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "723FB5BF966999BA"
+					table_id: 6759378343124754253L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "73A9598618837706"
 				item: "croptopia:crab_legs"
@@ -1265,6 +1501,20 @@
 		}
 		{
 			id: "0317EFE67B24F415"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5FBCD0D417C42BE2"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "747E5EF9EC190AB4"
+					table_id: 6759378343124754253L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "6EC6E826972E11C9"
 				item: "croptopia:steamed_clams"
@@ -1276,6 +1526,20 @@
 		}
 		{
 			id: "0EBA393AF846C413"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7D519204A635721A"
+					table_id: 6759378343124754253L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1758C22E2663CF08"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "116AD4909550016E"
 				item: "croptopia:grilled_oysters"
@@ -1287,6 +1551,20 @@
 		}
 		{
 			id: "240580A04C88A867"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DBBD7F2D9EE48CC"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B46B67966003F39"
+					table_id: 6759378343124754253L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "1B4FC8E12F64676D"
 				item: "croptopia:deep_fried_shrimp"
@@ -1302,6 +1580,12 @@
 				"54B7E48206778BB8"
 			]
 			id: "0968838237148DB9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BCE57540A04B41C"
+				table_id: 434528124089394039L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "42E48D625F63F773"
 				item: "croptopia:shepherds_pie"

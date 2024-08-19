@@ -1,0 +1,19 @@
+{
+	icon: "create:experience_nugget"
+	id: "2464D7C5E44C2C22"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			type: "xp_levels"
+			weight: 60.0f
+			xp_levels: 1
+		}
+		{
+			type: "xp_levels"
+			weight: 40.0f
+			xp_levels: 2
+		}
+	]
+	title: "Tier 1 exp crate"
+}

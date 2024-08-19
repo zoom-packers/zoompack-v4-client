@@ -11,6 +11,12 @@
 		{
 			dependencies: ["3DBB9D81C1CB662E"]
 			id: "2CAD5C0471C6E9CC"
+			rewards: [{
+				count: 5
+				id: "3C29958B7171EE5B"
+				item: "meadow:cheese_stick"
+				type: "item"
+			}]
 			tasks: [{
 				id: "62D9BE3E8C90B3F1"
 				item: "meadow:alpine_salt"
@@ -22,6 +28,12 @@
 		{
 			dependencies: ["5F7D11F384F0F551"]
 			id: "3B41968A5544A2A2"
+			rewards: [{
+				count: 17
+				id: "4C015BE07A570145"
+				item: "meadow:pine_log"
+				type: "item"
+			}]
 			subtitle: "Decorative"
 			tasks: [{
 				id: "766A3B638C640F83"
@@ -34,6 +46,12 @@
 		{
 			dependencies: ["5F7D11F384F0F551"]
 			id: "1AD6F9B2A46FAFD8"
+			rewards: [{
+				count: 5
+				id: "72B81EBE7C67E578"
+				item: "meadow:alpine_salt_ore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C0A1EA502F2308C"
 				item: "meadow:cheese_form"
@@ -44,6 +62,12 @@
 		}
 		{
 			id: "0DB8913ACBB66060"
+			rewards: [{
+				count: 10
+				id: "42374100D8AFCF73"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A865D27C193794E"
 				item: "meadow:cooking_cauldron"
@@ -54,6 +78,12 @@
 		}
 		{
 			id: "7EE85ADC0A79D59F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "065D94E35D99A513"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "228FEEF01EF3C797"
 				item: "meadow:wooden_milk_bucket"
@@ -64,6 +94,12 @@
 		}
 		{
 			id: "26AD0C0A0F97F42B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A7C7A4F0ECDC01E"
+				table_id: 434528124089394039L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "22E3AD51ADA58830"
 				item: "meadow:wooden_sheep_milk_bucket"
@@ -74,6 +110,12 @@
 		}
 		{
 			id: "11D19C01A7AC197D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59B04E34BCB2B8F4"
+				table_id: 5864491233161153354L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "05AC112973D2510C"
 				item: "meadow:wooden_buffalo_milk_bucket"
@@ -84,6 +126,12 @@
 		}
 		{
 			id: "53BA6C15272CDAEF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B58B83F499A9B02"
+				table_id: 2531024133250134695L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "4D0F70D11E5B32ED"
 				item: "meadow:wooden_goat_milk_bucket"
@@ -94,6 +142,12 @@
 		}
 		{
 			id: "51A2A6EAE483E242"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1488045E73F1346F"
+				table_id: 2658030401743213437L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "09295D8799846F66"
 				item: "meadow:wooden_warped_milk_bucket"
@@ -104,6 +158,12 @@
 		}
 		{
 			id: "0FBBF35FED8234A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "232FC32D5677BDDF"
+				table_id: 1112731193001374020L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "081900FE5A7ACE0D"
 				item: "meadow:wooden_grain_milk_bucket"
@@ -114,6 +174,12 @@
 		}
 		{
 			id: "14B675136BB69669"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A3EBEAD44EEFBB0"
+				table_id: 7743076479955517786L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "319F2F2D02E1F446"
 				item: "meadow:wooden_amethyst_milk_bucket"
@@ -125,6 +191,12 @@
 		{
 			dependencies: ["51A2A6EAE483E242"]
 			id: "3A75F75FC9FF4272"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "102EFE99CA7CD549"
+				table_id: 2658030401743213437L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2B5126F67D0FABE0"
 				item: "meadow:piece_of_warped_cheese"
@@ -136,6 +208,12 @@
 		{
 			dependencies: ["53BA6C15272CDAEF"]
 			id: "06E3C0675D0DFBEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "382F0A6BD9416A92"
+				table_id: 3240117060646635505L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "58D5F3398C800AE5"
 				item: "meadow:piece_of_goat_cheese"
@@ -147,6 +225,12 @@
 		{
 			dependencies: ["14B675136BB69669"]
 			id: "2DE75FBAA38C8D05"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F020AC04B497BC9"
+				table_id: 7743076479955517786L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "37DE3D9F438FA163"
 				item: "meadow:piece_of_amethyst_cheese"
@@ -158,6 +242,12 @@
 		{
 			dependencies: ["11D19C01A7AC197D"]
 			id: "31BC5AE57A0A0DDD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "492991CC9EBCD147"
+				table_id: 5864491233161153354L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "3593554B999BB55B"
 				item: "meadow:piece_of_buffalo_cheese"
@@ -169,6 +259,12 @@
 		{
 			dependencies: ["26AD0C0A0F97F42B"]
 			id: "251CB7FC327228C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24AEC5EBE8EB6C7B"
+				table_id: 6523119545992593424L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0C15765661B49BC5"
 				item: "meadow:piece_of_sheep_cheese"
@@ -180,6 +276,12 @@
 		{
 			dependencies: ["0FBBF35FED8234A5"]
 			id: "3F2B2532DACA5ACD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04C8F8B9EDCA25A7"
+				table_id: 4648757727491339053L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "4C8F0DA98280D87C"
 				item: "meadow:piece_of_grain_cheese"
@@ -191,6 +293,12 @@
 		{
 			dependencies: ["7EE85ADC0A79D59F"]
 			id: "1795C22DE8794ED8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D08BDA03956B1BF"
+				table_id: 434528124089394039L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "781B34A78E2E54A3"
 				item: "meadow:piece_of_cheese"
@@ -201,6 +309,12 @@
 		}
 		{
 			id: "0A64C3F9F09E090E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39258FF8E06CE6C0"
+				table_id: 7743076479955517786L
+				type: "loot"
+			}]
 			shape: "rsquare"
 			size: 3.0d
 			subtitle: "OOOO DA"
@@ -215,6 +329,12 @@
 		{
 			dependencies: ["0DB8913ACBB66060"]
 			id: "76C90180E924E6A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4566AC977A7E823D"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "260A89BC08E849E5"
 				item: "meadow:rennet"
@@ -225,6 +345,12 @@
 		}
 		{
 			id: "3DBB9D81C1CB662E"
+			rewards: [{
+				count: 16
+				id: "5199ADED4DA96413"
+				item: "meadow:limestone_bricks"
+				type: "item"
+			}]
 			tasks: [{
 				id: "13653B2D5B3934C5"
 				item: "meadow:limestone"
@@ -236,6 +362,12 @@
 		{
 			dependencies: ["5F7D11F384F0F551"]
 			id: "3A032BAC4A3B5758"
+			rewards: [{
+				count: 3
+				id: "62452F7468A8E6B7"
+				item: "meadow:rocky_wool"
+				type: "item"
+			}]
 			tasks: [{
 				id: "17190760F4A4EA02"
 				item: "meadow:woodcutter"
@@ -246,6 +378,11 @@
 		}
 		{
 			id: "715796A67A6688BD"
+			rewards: [{
+				id: "638AE21B221D5456"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4A68E2758A359336"
 				item: "meadow:climbing_rope_topmount"
@@ -257,6 +394,12 @@
 		{
 			dependencies: ["5F7D11F384F0F551"]
 			id: "7501F045443F59F1"
+			rewards: [{
+				count: 16
+				id: "15133AAC2B956EE0"
+				item: "meadow:limestone_bricks"
+				type: "item"
+			}]
 			tasks: [{
 				id: "48B2B44FEB7E879E"
 				item: {
@@ -273,6 +416,12 @@
 		}
 		{
 			id: "5F7D11F384F0F551"
+			rewards: [{
+				count: 16
+				id: "76E0E60038CB3D96"
+				item: "meadow:mossy_cobbled_limestone"
+				type: "item"
+			}]
 			tasks: [{
 				id: "07FDFCA06CFD51CB"
 				item: "meadow:pine_log"
@@ -284,6 +433,12 @@
 		{
 			dependencies: ["0DB8913ACBB66060"]
 			id: "3D588DAC26FB5195"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B3645F307EB5BFF"
+				table_id: 3076555991572753089L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "42BA142473DD68A3"
 				item: "meadow:fondue"

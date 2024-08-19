@@ -1,0 +1,18 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "enderchests:item/bag_eye_open"
+		}
+	}
+	id: "3751095DAF347D8E"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ count: 3, item: "minecraft:blaze_powder", random_bonus: 6 }
+		{ count: 3, item: "minecraft:magma_cream", random_bonus: 6 }
+		{ count: 3, item: "minecraft:ghast_tear", random_bonus: 6 }
+	]
+	title: "Tier 2 alchemy bag"
+}

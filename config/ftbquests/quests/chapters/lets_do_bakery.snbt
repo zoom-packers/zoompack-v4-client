@@ -11,6 +11,12 @@
 		{
 			dependencies: ["453A7AEFB893A909"]
 			id: "03BE6F316121F63E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F1CDE1AADF3F040"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "74238B6BB27AA8E9"
 				item: "bakery:baker_station"
@@ -22,6 +28,12 @@
 		{
 			dependencies: ["453A7AEFB893A909"]
 			id: "2B3A3F4C4D008395"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D4F264508ABB270"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2D87C682AB09A86F"
 				item: "bakery:brick_stove"
@@ -32,6 +44,12 @@
 		}
 		{
 			id: "453A7AEFB893A909"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3473BE70836B9485"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2E2556A6591593C5"
 				item: "bakery:yeast"
@@ -43,6 +61,12 @@
 		{
 			dependencies: ["453A7AEFB893A909"]
 			id: "3F19E0753DA80A78"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "367223C75AF54624"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "4A7A0C7CC0C50DC4"
 				item: {
@@ -59,6 +83,12 @@
 		}
 		{
 			id: "386E62DF2F6E01CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "340C06441182CC89"
+				table_id: 551285352919621797L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "54507DBA4403C45D"
 				item: "bakery:strawberry_jam"
@@ -69,6 +99,12 @@
 		}
 		{
 			id: "74971B466DE72090"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "640BEBC4D9AB0D2C"
+				table_id: 3240117060646635505L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "18DA74FC47E9C7B4"
 				item: "bakery:sweetberry_jam"
@@ -79,6 +115,12 @@
 		}
 		{
 			id: "2E3D63EC8BCEB855"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B7038FB285E3FA0"
+				table_id: 551285352919621797L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "238B51EAD14F429F"
 				item: "bakery:glowberry_jam"
@@ -89,6 +131,12 @@
 		}
 		{
 			id: "7073B2AF3E9D543B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DE154865E7FE946"
+				table_id: 3240117060646635505L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "65D33D7C4C354F24"
 				item: "bakery:apple_jam"
@@ -99,6 +147,12 @@
 		}
 		{
 			id: "129A2E0EE1ADC29A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "774FB0BAA7FE0961"
+				table_id: 551285352919621797L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "1DACFB5947C6AE6D"
 				item: "bakery:chocolate_jam"
@@ -110,6 +164,12 @@
 		{
 			dependencies: ["03BE6F316121F63E"]
 			id: "79CA24DAFFC3C4F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C35C13BA22D3266"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "1C2DB2516A68617B"
 				item: "bakery:sweet_dough"
@@ -121,6 +181,12 @@
 		{
 			dependencies: ["03BE6F316121F63E"]
 			id: "096DB9D2D31B7C5F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CF78DBBF7546ABD"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "34806CC6FB5C5712"
 				item: "bakery:dough"
@@ -132,6 +198,12 @@
 		{
 			dependencies: ["03BE6F316121F63E"]
 			id: "4C5F24283EDAF894"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65D61CAE4E63EC91"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "66A25A74D486EE14"
 				item: "bakery:cake_dough"
@@ -142,6 +214,12 @@
 		}
 		{
 			id: "11BEAD58D8EC2E0C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10180A53405349C9"
+				table_id: 3240117060646635505L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.2d
 			tasks: [{
@@ -165,7 +243,20 @@
 				"03CF973918353626"
 				"6DBC3DE033B5C43F"
 			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "farmersdelight:block/sweet_berry_cheesecake_top"
+				}
+			}
 			id: "10ED6717BDDD5D7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E75E6EAD7A35A6E"
+				table_id: 5864491233161153354L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -184,6 +275,12 @@
 				"70F411ECC66EADF3"
 			]
 			id: "372150CA8E72C772"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37CDBA9EC65B063D"
+				table_id: 5864491233161153354L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -203,6 +300,12 @@
 			]
 			description: ["Make every food item in the mod... have fun : )"]
 			id: "109FB67CCDDF5520"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4071C10A7159C2B4"
+				table_id: 4129790000591020242L
+				type: "loot"
+			}]
 			shape: "heart"
 			size: 2.0d
 			subtitle: "A strange and sweet trip indeed..."
@@ -224,6 +327,12 @@
 				"2E3D63EC8BCEB855"
 			]
 			id: "049480FAC4F83D51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C23869D2F770F4B"
+				table_id: 2658030401743213437L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -238,6 +347,12 @@
 		}
 		{
 			id: "32D6417768CFB1DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "787ACE23FE66BED3"
+				table_id: 3240117060646635505L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0F8730B008C87BFB"
 				item: "bakery:chocolate_cake"
@@ -248,6 +363,12 @@
 		}
 		{
 			id: "70F411ECC66EADF3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71AAFBEAFF0DB69A"
+				table_id: 3240117060646635505L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "07F34CAA8D668F7D"
 				item: "bakery:sweetberry_cake"
@@ -258,6 +379,12 @@
 		}
 		{
 			id: "16E4D4EB1C5A3B6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3731554DC6E43EAA"
+				table_id: 3240117060646635505L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6BD8DDD52C774D6E"
 				item: "bakery:strawberry_cake"
@@ -268,6 +395,12 @@
 		}
 		{
 			id: "3051C4A7744B0E52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "417E2572F53246BB"
+				table_id: 551285352919621797L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5764B3ADF1FE30BC"
 				item: "bakery:bundt_cake"
@@ -278,6 +411,12 @@
 		}
 		{
 			id: "2B2B87100577B4B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6437E2AE8075225A"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "672C2CC03AE98206"
 				item: "bakery:strawberry_cupcake"
@@ -288,6 +427,12 @@
 		}
 		{
 			id: "0AA177D16CF04335"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FA00FDFFE200E1D"
+				table_id: 434528124089394039L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6D7A674C205B741E"
 				item: "bakery:sweetberry_cupcake"
@@ -298,6 +443,12 @@
 		}
 		{
 			id: "799B5E2640EEC7F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32220E14C187019A"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "16AAD91576A95230"
 				item: "bakery:apple_cupcake"
@@ -308,6 +459,12 @@
 		}
 		{
 			id: "6DBC3DE033B5C43F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "231D92801391060D"
+				table_id: 6523119545992593424L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "464BED87C6FBF2F8"
 				item: "bakery:sweetberry_glazed_cookie"
@@ -318,6 +475,12 @@
 		}
 		{
 			id: "03CF973918353626"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2ED130CBC78B85F2"
+				table_id: 2531024133250134695L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "59318ACF220250A1"
 				item: "bakery:strawberry_glazed_cookie"
@@ -328,6 +491,12 @@
 		}
 		{
 			id: "40C8853E3F03141E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BC465A8D4ACBE34"
+				table_id: 434528124089394039L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "49A33E7878B53A17"
 				item: "bakery:chocolate_glazed_cookie"
@@ -338,6 +507,12 @@
 		}
 		{
 			id: "077E68339FAF2E8F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39580F524109BC52"
+				table_id: 3240117060646635505L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "44E0874EEA4C80C0"
 				item: "bakery:waffle"
@@ -348,6 +523,12 @@
 		}
 		{
 			id: "06C5B4CCBC1CC2E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A39F46300D60C20"
+				table_id: 551285352919621797L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "79CBDA4F8DE5A180"
 				item: "bakery:misslilitu_biscuit"
@@ -358,6 +539,12 @@
 		}
 		{
 			id: "3593BDD09BD184DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C0810B62CF316B4"
+				table_id: 1112731193001374020L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "300FD3C13B274AF4"
 				item: "bakery:cornet"

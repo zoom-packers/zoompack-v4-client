@@ -73,6 +73,23 @@
 		}
 		{
 			id: "0563B25EAC117374"
+			rewards: [
+				{
+					id: "613979D78C478AA8"
+					item: "minecraft:raw_iron_block"
+					type: "item"
+				}
+				{
+					id: "27B81D98C18BE6D8"
+					item: "minecraft:raw_copper_block"
+					type: "item"
+				}
+				{
+					id: "63B8B48BBF5737FD"
+					item: "minecraft:raw_gold_block"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5EC0D1CA792E222D"
 				item: "minecraft:blast_furnace"
@@ -84,6 +101,26 @@
 		{
 			dependencies: ["33CD0A444AE7F96B"]
 			id: "06EDD0255A1874C1"
+			rewards: [
+				{
+					count: 6
+					id: "784FA9D2C2E1A887"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "5CD8830098F41B94"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					amount: 1
+					auto: "invisible"
+					id: "5614F3042380CE82"
+					skill: "mining"
+					type: "pmmo:levelreward"
+				}
+			]
 			tasks: [{
 				id: "317A0FC567403C43"
 				item: "ironfurnaces:copper_furnace"
@@ -95,6 +132,18 @@
 		{
 			icon: "chimes:bamboo_chimes"
 			id: "69D00EB2506FB3F7"
+			rewards: [
+				{
+					id: "3B6F6EE3B5E9BBA5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "33A4EE99CB308F74"
+					item: "additionallanterns:black_andesite_lantern"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "5A9DCCBAFCEBE832"
@@ -129,6 +178,11 @@
 		{
 			dependencies: ["0563B25EAC117374"]
 			id: "2B7D1F96CAD56AA0"
+			rewards: [{
+				id: "0D5B39568E5A8EFD"
+				item: "ironfurnaces:upgrade_iron2"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5684DE74D267D3"
 				item: "ironfurnaces:augment_blasting"
@@ -140,6 +194,19 @@
 		{
 			dependencies: ["32A5E557FEF93B22"]
 			id: "76D60BEEEAAA9EDF"
+			rewards: [
+				{
+					count: 2
+					id: "59693ED3F31E37A9"
+					item: "minecraft:pufferfish"
+					type: "item"
+				}
+				{
+					id: "1EA9DC9F8631B2BD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "54A36FEF17737915"
 				item: "ironfurnaces:augment_smoking"
@@ -150,6 +217,12 @@
 		}
 		{
 			id: "32A5E557FEF93B22"
+			rewards: [{
+				count: 8
+				id: "13BE25391F55F103"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6FAC74D6440EDB88"
 				item: "minecraft:smoker"
@@ -161,6 +234,24 @@
 		{
 			dependencies: ["06EDD0255A1874C1"]
 			id: "0E38FB18BABADD29"
+			rewards: [
+				{
+					id: "5F5FBC0B7B6ACEDC"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					id: "4617B0C8161EC9D8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "5433B632550BB025"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4DECADD9382E9556"
 				item: "ironfurnaces:augment_factory"
@@ -173,6 +264,18 @@
 		{
 			dependencies: ["06EDD0255A1874C1"]
 			id: "6053BD58C28761D3"
+			rewards: [
+				{
+					id: "55FD3C5130DD12B3"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "257B1E1DE13A80F3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "6B5BF9DE9C28389B"
 				item: "ironfurnaces:augment_generator"
@@ -185,6 +288,19 @@
 		{
 			dependencies: ["06EDD0255A1874C1"]
 			id: "390D9E0A95966DE2"
+			rewards: [
+				{
+					count: 3
+					id: "54BD6FF6C721E2E2"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "221E02FCAFA23F8D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "38EF6D81D4AC1347"
 				item: "ironfurnaces:augment_speed"
@@ -196,6 +312,25 @@
 		{
 			dependencies: ["06EDD0255A1874C1"]
 			id: "08D542FFF35D90EA"
+			rewards: [
+				{
+					count: 3
+					id: "3AC9CE984C562FEE"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "47B39540C4133E2A"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "7F8C0CD7460C372A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "473664A9FD3176BF"
 				item: "ironfurnaces:augment_fuel"
@@ -207,6 +342,19 @@
 		{
 			dependencies: ["06EDD0255A1874C1"]
 			id: "47E8D3055550931F"
+			rewards: [
+				{
+					count: 16
+					id: "05BFAA8F50ACB8DA"
+					item: "create:raw_zinc"
+					type: "item"
+				}
+				{
+					id: "428ED9E90822C60D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "146A8FCB4C004269"
 				item: "ironfurnaces:iron_furnace"
@@ -216,7 +364,22 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["47E8D3055550931F"]
 			id: "410C89EB4F183E20"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "47D756ED09F61E6E"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28EA9DCD331C25CC"
+					table_id: 6759378343124754253L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "2545E71FDAB2F509"
 				item: "ironfurnaces:obsidian_furnace"
@@ -227,7 +390,14 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["410C89EB4F183E20"]
 			id: "460915FE57BB873E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4165B925945B16DA"
+				table_id: 7323225797761338335L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "463D9C29E7BCEA74"
 				item: "ironfurnaces:netherite_furnace"
@@ -239,6 +409,12 @@
 		}
 		{
 			id: "68E09F42FC7B463A"
+			rewards: [{
+				count: 16
+				id: "559DBBA61423E439"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A148F573E953AF0"
 				item: "corail_woodcutter:oak_woodcutter"
@@ -249,6 +425,12 @@
 		}
 		{
 			id: "6DF417BC0426F6BF"
+			rewards: [{
+				count: 16
+				id: "1E29DC7EA29C72AD"
+				item: "minecraft:stone_bricks"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6CF57C5770D88EAB"
 				item: "minecraft:stonecutter"
@@ -259,6 +441,11 @@
 		}
 		{
 			id: "654EB363B7A37C3E"
+			rewards: [{
+				id: "7B7E8A3DBF4950E4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4A169026A5D3DD23"
 				item: "elevatorid:elevator_white"
@@ -271,6 +458,12 @@
 		{
 			icon: "handcrafted:oak_chair"
 			id: "67B91ACA726C1901"
+			rewards: [{
+				count: 6
+				id: "1484E22C70307789"
+				item: "minecraft:lantern"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "63D7F84044022CA2"
@@ -300,6 +493,26 @@
 				"32A5E557FEF93B22"
 			]
 			id: "2157D70777E4CEEA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41705BD75967692A"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D7BA25E88B106CD"
+					table_id: 6759378343124754253L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C80D1B98765E206"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "2B779EA50808BDA9"
 				title: "A propper home"
@@ -498,45 +711,105 @@
 		}
 		{
 			id: "552AC84730A20364"
+			rewards: [
+				{
+					amount: 1
+					auto: "invisible"
+					id: "24120C132D38DCC7"
+					skill: "cooking"
+					type: "pmmo:levelreward"
+				}
+				{
+					id: "1225C01BE19C2B9D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				count: 26L
 				id: "31A1EA4FF6F3FE49"
 				item: "farmersdelight:fried_egg"
 				type: "item"
 			}]
+			title: "Eggsistential"
 			x: -3.5d
 			y: -4.0d
 		}
 		{
 			id: "33A8CCF9844268CB"
+			rewards: [{
+				id: "1B50ABE132690E42"
+				item: "minecraft:pig_spawn_egg"
+				type: "item"
+			}]
 			tasks: [{
 				count: 30L
 				id: "265F4BC75953C52B"
 				item: "croptopia:cooked_bacon"
 				type: "item"
 			}]
+			title: "Lover of bacon"
 			x: 1.5d
 			y: -4.0d
 		}
 		{
 			id: "0B6412DC7CC483B9"
+			rewards: [{
+				id: "68F054819A61D291"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "goblintraders:powerful_strength"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 10L
 				id: "4C6E79C57FCEDC6A"
 				item: "croptopia:beer"
 				type: "item"
 			}]
+			title: "Drunken rage"
 			x: 2.5d
 			y: -4.0d
 		}
 		{
 			id: "2A167BDA117F4F69"
+			rewards: [
+				{
+					count: 3
+					id: "56635BBF41A40544"
+					item: "nethervinery:crimson_grapejuice"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7833EBB83095F63D"
+					item: "nethervinery:warped_grapejuice"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3BF2F0D051069D5E"
+					item: "nethervinery:warped_grape"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "32ABC701E712F3F3"
+					item: "nethervinery:crimson_grape"
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 10L
 				id: "7AF7ADBDE00055D5"
 				item: "croptopia:wine"
 				type: "item"
 			}]
+			title: "A little taste"
 			x: -4.5d
 			y: -4.0d
 		}
@@ -552,6 +825,12 @@
 			]
 			description: ["When I eat, It is the food that is scared"]
 			id: "6194F0D477548580"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "255057FD11100DE4"
+				table_id: 7323225797761338335L
+				type: "choice"
+			}]
 			subtitle: "The pinacle of manlines"
 			tasks: [{
 				id: "03380B28E87E3032"
@@ -563,6 +842,13 @@
 		}
 		{
 			id: "387D55D4205D13F6"
+			rewards: [{
+				amount: 1
+				auto: "invisible"
+				id: "39C64C63F6D3CA55"
+				skill: "swordsmanship"
+				type: "pmmo:levelreward"
+			}]
 			tasks: [{
 				entity: "minecraft:pig"
 				id: "15404958FB01E581"
@@ -576,6 +862,26 @@
 		{
 			icon: "alexsmobs:spawn_egg_cachalot_whale"
 			id: "4F5D799AB873599A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6CA1B58E6C819810"
+					table_id: 1112731193001374020L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58F1E3ADBFBA8961"
+					table_id: 7743076479955517786L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "115BB23C819B50A4"
+					table_id: 4648757727491339053L
+					type: "choice"
+				}
+			]
 			subtitle: "Like to fish"
 			tasks: [{
 				entity: "alexsmobs:cachalot_whale"

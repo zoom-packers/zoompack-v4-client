@@ -1,0 +1,8 @@
+{
+	icon: "minecraft:grass_block"
+	id: "65A153101D8A8BDF"
+	loot_size: 1
+	order_index: 10
+	rewards: [ ]
+	title: "Godly overworld choice bag"
+}

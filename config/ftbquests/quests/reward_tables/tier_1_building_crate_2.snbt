@@ -1,0 +1,14 @@
+{
+	icon: "supplementaries:ash_bricks"
+	id: "07A68F1B8EA660A5"
+	loot_size: 2
+	order_index: 13
+	rewards: [
+		{ count: 16, item: "minecraft:stone_bricks" }
+		{ count: 16, item: "minecraft:bricks" }
+		{ count: 16, item: "supplementaries:ash_bricks" }
+		{ count: 64, item: "minecraft:cobblestone" }
+		{ count: 16, item: "minecraft:oak_log" }
+	]
+	title: "Tier 1 building crate"
+}

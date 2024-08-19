@@ -46,20 +46,12 @@
 			dependencies: ["562AAFDF220019AD"]
 			icon: "blue_skies:everdawn_portal"
 			id: "7163E74A9BC10EB5"
-			rewards: [
-				{
-					id: "6F237D6B987891CB"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					amount: 1
-					auto: "invisible"
-					id: "6C0A5AEE88EBA832"
-					skill: "combat"
-					type: "pmmo:levelreward"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E57942A329D1D91"
+				table_id: 1610080839990707444L
+				type: "choice"
+			}]
 			subtitle: "Get yo ass in the everdawn"
 			tasks: [{
 				dimension: "blue_skies:everdawn"
@@ -332,20 +324,12 @@
 			dependencies: ["562AAFDF220019AD"]
 			icon: "blue_skies:everbright_portal"
 			id: "7B8912A8286CAD2E"
-			rewards: [
-				{
-					id: "4DF83EC8AF116FA5"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					amount: 1
-					auto: "invisible"
-					id: "5EF871050296423B"
-					skill: "combat"
-					type: "pmmo:levelreward"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01D7764ED1A79174"
+				table_id: 1610080839990707444L
+				type: "choice"
+			}]
 			subtitle: "Get ur ass in everbright"
 			tasks: [{
 				dimension: "blue_skies:everbright"

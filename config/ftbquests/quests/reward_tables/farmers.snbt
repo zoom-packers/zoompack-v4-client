@@ -1,15 +1,12 @@
 {
 	icon: "farmersdelight:basket"
 	id: "2AB21F5FC14B2AC1"
-	loot_size: 1
+	loot_size: 2
 	order_index: 0
 	rewards: [
 		{ count: 5, item: "minecraft:chicken", random_bonus: 10 }
 		{ count: 5, item: "minecraft:beef", random_bonus: 10 }
 		{ count: 5, item: "minecraft:porkchop", random_bonus: 10 }
-		{ count: 5, item: "minecraft:mutton", random_bonus: 10 }
-		{ count: 5, item: "minecraft:salmon", random_bonus: 10 }
-		{ count: 5, item: "minecraft:cod", random_bonus: 10 }
 	]
-	title: "Basket of meats"
+	title: "Basket of common meats"
 }

@@ -10,6 +10,11 @@
 	quests: [
 		{
 			id: "7EB5441D0F3CA3A9"
+			rewards: [{
+				id: "2F735334747F71A5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "037F831FE8422E38"
 				item: "beachparty:tiki_bar"
@@ -36,6 +41,11 @@
 		}
 		{
 			id: "003CD52E93D5F360"
+			rewards: [{
+				id: "1FE47DC14D36CDAA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7DBB50EF7B55BB8A"
 				item: "beachparty:palm_sapling"
@@ -47,6 +57,11 @@
 		{
 			dependencies: ["003CD52E93D5F360"]
 			id: "25587AD8949EBBE8"
+			rewards: [{
+				id: "32DC32F474A9AD28"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "26152CF43705A9BB"
 				item: "beachparty:coconut"
@@ -61,6 +76,12 @@
 				"25587AD8949EBBE8"
 			]
 			id: "6BA646B4C04A03E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43612E2F9A498379"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7D631CA8762C07C6"
 				item: "beachparty:coconut_cocktail"
@@ -72,6 +93,12 @@
 		{
 			dependencies: ["7EB5441D0F3CA3A9"]
 			id: "3C75D045EF8DA160"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "585960E4224E5052"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6B4F335202953741"
 				item: "beachparty:honey_cocktail"
@@ -83,6 +110,12 @@
 		{
 			dependencies: ["7EB5441D0F3CA3A9"]
 			id: "31D04BA13B719613"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34C35B507C19109E"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0B819C91EF88A933"
 				item: "beachparty:melon_cocktail"
@@ -94,6 +127,12 @@
 		{
 			dependencies: ["7EB5441D0F3CA3A9"]
 			id: "6EBE5811C43F7654"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "573A66FC75BCC9EE"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "4013513D588295F4"
 				item: "beachparty:pumpkin_cocktail"
@@ -105,6 +144,12 @@
 		{
 			dependencies: ["7EB5441D0F3CA3A9"]
 			id: "38FB7D6CAD9F57DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B780D9F1D4A4DE2"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6AA80CCBA216CC5C"
 				item: "beachparty:cocoa_cocktail"
@@ -116,6 +161,12 @@
 		{
 			dependencies: ["7EB5441D0F3CA3A9"]
 			id: "6957A891E92B9159"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60C01702CE788DF6"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "17AA2B6C758C2CFC"
 				item: "beachparty:sweetberries_cocktail"
@@ -127,6 +178,20 @@
 		{
 			dependencies: ["0541444AAF4F464B"]
 			id: "1AA035D15762D224"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B3E44852A4BC6DE"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6553D63E0AD6D950"
+					table_id: 2542060738530901641L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "29107ACDAC7ADDFA"
@@ -150,6 +215,20 @@
 		{
 			dependencies: ["0541444AAF4F464B"]
 			id: "58302739BD0EB059"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "187230124CCF0649"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4104377A1862F103"
+					table_id: 2542060738530901641L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "3EAF80DBEC0F579F"
@@ -178,6 +257,20 @@
 		{
 			dependencies: ["0541444AAF4F464B"]
 			id: "42F00E68713931F6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C4F68B5AF7BE6A5"
+					table_id: 2542060738530901641L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47A06FE4B5FD414C"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "1A37C6C11E16BDA0"
