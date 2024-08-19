@@ -56,6 +56,17 @@ function tool(skill, value) {
     }
 }
 
+function offhand(value) {
+    return {
+        requirements: {
+            WEAR: {
+                magic: value
+            }
+        }
+    }
+
+}
+
 function mount(skill, value) {
     return {
         requirements: {
@@ -113,5 +124,6 @@ module.exports = {
     mount,
     use,
     generalUse,
-    place
+    place,
+    offhand
 }
