@@ -1,6 +1,23 @@
 from PIL import Image
+import shutil
 import json
 import os
+
+def copy_tree(src, dst):
+    try:
+        if not os.path.exists(dst):
+            os.makedirs(dst)
+        
+        for item in os.listdir(src):
+            s = os.path.join(src, item)
+            d = os.path.join(dst, item)
+            
+            if os.path.isdir(s):
+                shutil.copytree(s, d, dirs_exist_ok=True, copy_function=shutil.copy2)
+            else:
+                shutil.copy2(s, d)
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def create_item_event(item_id, display_name, tooltip):
     return f"""
@@ -31,6 +48,18 @@ def which_upgrade_label(tier):
     if tier<7:
         return 3
     return 4
+
+def get_title_color(tier):
+    return f'{get_title_color_final(tier)}§l'
+
+def get_title_color_final(tier):
+    if tier<3:
+        return ''
+    if tier<5:
+        return '§a'
+    if tier<7:
+        return '§3'
+    return '§5'
 
 def combine_images(image_paths, output_path):
     if not image_paths:
@@ -335,6 +364,8 @@ create_directory(model_path)
 create_directory(startup_scripts_path)
 create_directory(config_folder)
 
+print("ZOOM >>> Folder structure generated")
+
 BASE_ITEM_MODEL_JSON = {
 	"parent": "item/generated",
     "textures": {
@@ -350,6 +381,7 @@ item_events = []
 for attr in attr_map:
     for tier in attr_map.get(attr).get('tier_m'):
         upgrade_tier = str(which_upgrade_label(tier))
+        title_color = get_title_color(tier)
         tier_str = str(tier)
 
         tier_image_path = f'{layers_path}/{tier_str}.png'
@@ -374,7 +406,7 @@ for attr in attr_map:
         
         attr_text = attr_map[attr]['attr_text']
         attr_value = attr_map.get(attr).get('tier_m').get(tier)
-        item_events.append((item_base_name, f'Tier {tier_str} {attr_text} Power Up', f'+{str(attr_value)} {attr_text}'))
+        item_events.append((item_base_name, f'{title_color}Tier {tier_str} {attr_text} Power Up', f'+{str(attr_value)} {attr_text}'))
 
         BASE_TRIM_CONFIG[item_base_name] = [{
             'attribute': attr_map[attr]['attribute'],
@@ -382,13 +414,16 @@ for attr in attr_map:
             'amount' : attr_value
         }]
 
-        # full config to be generated here, along with kjs
-
 generate_js_file(file_path, item_events)
+
+print("ZOOM >>> Resourcepack and KubeJS item registry generated")
 
 with open(trim_config_file, 'w+') as f:
     f.write(json.dumps(BASE_TRIM_CONFIG, indent=4))
 
-#add coloring
-#auto sync kubejs folder
-#auto sync config folder
+print("ZOOM >>> Trim config generated")
+
+destination_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..'))
+copy_tree(generated_mod_folder, destination_folder)
+
+print("ZOOM >>> Generated files generated and synced with client")
