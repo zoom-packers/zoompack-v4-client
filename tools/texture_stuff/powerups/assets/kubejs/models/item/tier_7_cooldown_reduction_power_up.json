@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "kubejs:item/tier_7_cooldown_reduction_power_up"
-    }
-}
