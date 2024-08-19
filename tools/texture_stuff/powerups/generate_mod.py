@@ -115,8 +115,28 @@ def combine_images(image_paths, output_path):
         combined_image = Image.alpha_composite(combined_image, img)
     combined_image.save(output_path, "PNG")
 
+def generate_trim_material_file(file_location, description_color, asset_name, item_name):
+    file_content = {
+        "asset_name": asset_name,
+        "description": {
+        "color": description_color,
+        "translate": f"trim_material.kubejs.{item_name}"
+        },
+        "ingredient": f"kubejs:{item_name}",
+        "item_model_index": 0.5
+    }
 
+    with open(file_location, 'w+') as f:
+        f.write(json.dumps(file_content, indent=4))
 
+def generate_trim_lang(file_location, generated_trim_lang):
+    en_us_json = {}
+    for lang in generated_trim_lang:
+        text = generated_trim_lang[lang]
+        en_us_json[lang] = text
+
+    with open(file_location, 'w+') as f:
+        f.write(json.dumps(en_us_json, indent=4))
 
 tier_recipe_base = {
     1 : {
@@ -254,6 +274,8 @@ attr_map = {
     'health_boost': {
         'attr_text': 'Health Boost',
         'recipe_base_element': 'candlelight:hearth',
+        'trim_description_color': '#FF0000',
+        'trim_asset_name' : 'redstone',
         'attribute': 'minecraft:generic.max_health',
         'operation': 'ADDITION',
         'tier_m': {
@@ -413,8 +435,13 @@ generated_mod_folder = 'trim_mod_data'
 kjs_generated_folder = f'{generated_mod_folder}/kubejs'
 config_folder = f'{generated_mod_folder}/config'
 trim_config_file = f'{config_folder}/functionalarmortrim.json'
+
+kjs_data_folder =  f'{kjs_generated_folder}/data/kubejs'
+trim_material_folder = f'{kjs_data_folder}/trim_material'
+
 texture_path = f'{kjs_generated_folder}/assets/kubejs/textures/item'
 model_path = f'{kjs_generated_folder}/assets/kubejs/models/item'
+lang_path = f'{kjs_generated_folder}/assets/kubejs/lang'
 
 startup_scripts_path = f'{kjs_generated_folder}/startup_scripts'
 server_scripts_path = f'{kjs_generated_folder}/server_scripts'
@@ -424,6 +451,9 @@ create_directory(model_path)
 create_directory(startup_scripts_path)
 create_directory(server_scripts_path)
 create_directory(config_folder)
+create_directory(lang_path)
+create_directory(trim_material_folder)
+# TODO: add lang integration
 
 print("ZOOM >>> Folder structure generated")
 
@@ -469,6 +499,8 @@ startup_script = f'{startup_scripts_path}/trim_powerups.js'
 server_script = f'{server_scripts_path}/trim_powerups_recipes.js'
 item_events = []
 recipe_events = []
+generated_item_ids = []
+trim_map = {}
 
 for attr in attr_map:
     for tier in attr_map.get(attr).get('tier_m'):
@@ -491,6 +523,8 @@ for attr in attr_map:
         item_model_name = item_texture_name.replace('.png', '.json')
         BASE_ITEM_MODEL_JSON['textures']['layer0'] = f'kubejs:item/{item_base_name}'
 
+        full_item_id = f'kubejs:{item_base_name}'
+
         item_model_path = f'{model_path}/{item_model_name}'
 
         with open(item_model_path, 'w+') as f:
@@ -500,7 +534,7 @@ for attr in attr_map:
         attr_value = attr_map.get(attr).get('tier_m').get(tier)
         item_events.append((item_base_name, f'{title_color}Tier {tier_str} {attr_text} Power Up', f'+{str(attr_value)} {attr_text}'))
 
-        BASE_TRIM_CONFIG[item_base_name] = [{
+        BASE_TRIM_CONFIG[full_item_id] = [{
             'attribute': attr_map[attr]['attribute'],
             'operation' : attr_map[attr]['operation'],
             'amount' : attr_value
@@ -510,14 +544,21 @@ for attr in attr_map:
             tier_powerup_recipe_data = tier_recipe_base.get(tier)
             core = "#trim_templates"
             if tier>1:
-                core = 'kubejs:' + item_base_name.replace(str(tier), str(tier-1))
+                core = full_item_id.replace(str(tier), str(tier-1))
 
             first = tier_powerup_recipe_data.get('first')
             second = tier_powerup_recipe_data.get('second')
             third = tier_powerup_recipe_data.get('third')
 
             if 'recipe_base_element' in attr_map[attr]:
-                recipe_events.append((f'kubejs:{item_base_name}', first, second, third, core, attr_map[attr]['recipe_base_element']))
+                recipe_events.append((full_item_id, first, second, third, core, attr_map[attr]['recipe_base_element']))
+        
+        generated_item_ids.append(full_item_id)
+
+        if 'trim_description_color' in attr_map[attr] and 'trim_asset_name' in attr_map[attr]:
+            generate_trim_material_file(f'{trim_material_folder}/{item_base_name}.json', attr_map[attr]['trim_description_color'], attr_map[attr]['trim_asset_name'], item_base_name)
+
+        trim_map[f"trim_material.kubejs.{item_base_name}"] = f"{attr_text} ({tier_str}) Power Up"
 
 generate_startup_js_file(startup_script, item_events)
 generate_server_js_file(server_script, recipe_events)
@@ -527,7 +568,20 @@ print("ZOOM >>> Resourcepack and KubeJS item registry generated + recipes")
 with open(trim_config_file, 'w+') as f:
     f.write(json.dumps(BASE_TRIM_CONFIG, indent=4))
 
-print("ZOOM >>> Trim config generated")
+data_mc_tags_items_path = f'{kjs_generated_folder}/data/minecraft/tags/items'
+create_directory(data_mc_tags_items_path)
+
+trim_material_config = {
+    "replace": False,
+    "values": generated_item_ids
+}
+
+with open(f'{data_mc_tags_items_path}/trim_materials.json', 'w+') as f:
+    f.write(json.dumps(trim_material_config, indent=4))
+
+generate_trim_lang(f'{lang_path}/en_us.json', trim_map)
+
+print("ZOOM >>> Trim config generated + resourcepack")
 
 destination_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..'))
 copy_tree(generated_mod_folder, destination_folder)
