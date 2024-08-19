@@ -1,0 +1,9 @@
+{
+    "asset_name": "netherite",
+    "description": {
+        "color": "#000000",
+        "translate": "trim_material.kubejs.tier_5_knockback_resistance_power_up"
+    },
+    "ingredient": "kubejs:tier_5_knockback_resistance_power_up",
+    "item_model_index": 0.5
+}

@@ -1,0 +1,9 @@
+{
+    "asset_name": "andesite",
+    "description": {
+        "color": "#747373",
+        "translate": "trim_material.kubejs.tier_5_armor_toughness_power_up"
+    },
+    "ingredient": "kubejs:tier_5_armor_toughness_power_up",
+    "item_model_index": 0.5
+}

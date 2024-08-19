@@ -145,15 +145,58 @@ tier_recipe_base = {
         'third' : 'minecraft:emerald_block'
     },
     2 : {
-        'first' : 'blue_skies:pyrope_block',
-        'second' : 'blue_skies:aquite_block',
-        'third' : 'blue_skies:diopside_block'
+        'first' : 'blue_skies:charoite_block',
+        'second' : 'blue_skies:falsite_block',
+        'third' : 'blue_skies:pyrope_block'
+    },
+    3 : {
+        'first' : 'blue_skies:aquite_block',
+        'second' : 'blue_skies:diopside_block',
+        'third' : 'blue_skies:horizonite_block'
+    },
+    4 : {
+        'first' : 'aether:ambrosium_block',
+        'second' : 'aether:zanite_block',
+        'third' : 'aether:enchanted_gravitite',
+    },
+    5 : {
+        'first' : 'betternether:cincinnasite_lantern',
+        'second' : 'betternether:nether_ruby_block',
+        'third' : 'minecraft:netherite_ingot',
+    },
+    6 : {
+        'first' : 'undergarden:cloggrum_block',
+        'second' : 'undergarden:froststeel_block',
+        'third' : 'undergarden:forgotten_block',
+    },
+    7 : {
+        'first' : 'betterend:thallasium_block',
+        'second' : 'betterend:terminite_block',
+        'third' : 'betterend:aeternium_block',
+    },
+    8 : {
+        'first' : 'callfromthedepth_:fullsoul',
+        'second' : 'callfromthedepth_:immemorialingot',
+        'third' : 'callfromthedepth_:soulingot',
+    },
+    9 : {
+        'first' : 'theabyss:fusion_ingot',
+        'second' : 'theabyss:fixed_bone',
+        'third' : 'theabyss:aberythe_gem',
+    },
+    10 : {
+        'first' : 'theabyss:phantom_ingot',
+        'second' : 'theabyss:unorithe_ingot',
+        'third' : 'theabyss:incorythe_gem',
     }
 }
 
 attr_map = {
     'armor': {
         'attr_text': 'Armor',
+        'recipe_base_element': 'minecraft:shield',
+        'trim_description_color': '#FFFFFF',
+        'trim_asset_name' : 'iron',
         'attribute': 'minecraft:generic.armor',
         'operation': 'ADDITION',
         'tier_m': {
@@ -171,6 +214,9 @@ attr_map = {
     },
     'armor_toughness': {
         'attr_text': 'Armor Toughness',
+        'recipe_base_element': 'supplementaries:hourglass',
+        'trim_description_color': '#747373',
+        'trim_asset_name' : 'andesite',
         'attribute': 'minecraft:generic.armor_toughness',
         'operation': 'ADDITION',
         'tier_m': {
@@ -188,6 +234,9 @@ attr_map = {
     },
     'armor_pierce': {
         'attr_text': 'Armor Pierce',
+        'recipe_base_element': 'minecraft:heartbreak_pottery_sherd',
+        'trim_description_color': '#598FBF',
+        'trim_asset_name' : 'lapis',
         'attribute': 'attributeslib:armor_pierce',
         'operation': 'ADDITION',
         'tier_m': {
@@ -205,6 +254,9 @@ attr_map = {
     },
     'armor_shred': {
         'attr_text': 'Armor Shred',
+        'recipe_base_element': 'minecraft:skull_pottery_sherd',
+        'trim_description_color': '#FFD966',
+        'trim_asset_name' : 'brass',
         'attribute': 'attributeslib:armor_shred',
         'operation': 'ADDITION',
         'tier_m': {
@@ -222,6 +274,9 @@ attr_map = {
     },
     'cooldown_reduction': {
         'attr_text': 'Cooldown Reduction',
+        'recipe_base_element': 'irons_spellbooks:arcane_ingot',
+        'trim_description_color': '#B28C18',
+        'trim_asset_name' : 'gold',
         'attribute': 'irons_spellbooks:cooldown_reduction',
         'operation': 'ADDITION',
         'tier_m': {
@@ -239,6 +294,9 @@ attr_map = {
     },
     'crit_chance': {
         'attr_text': 'Critical Chance',
+        'recipe_base_element': 'aquamirae:ship_graveyard_echo',
+        'trim_description_color': '#B6D7A8',
+        'trim_asset_name' : 'exp',
         'attribute': 'attributeslib:crit_chance',
         'operation': 'ADDITION',
         'tier_m': {
@@ -256,6 +314,9 @@ attr_map = {
     },
     'crit_damage': {
         'attr_text': 'Critical Damage',
+        'recipe_base_element': 'aquamirae:anglers_fang',
+        'trim_description_color': '#B6D7A8',
+        'trim_asset_name' : 'exp',
         'attribute': 'attributeslib:crit_damage',
         'operation': 'ADDITION',
         'tier_m': {
@@ -293,6 +354,9 @@ attr_map = {
     },
     'knockback_resistance': {
         'attr_text': 'Knockback Resistance',
+        'recipe_base_element': 'create:copper_backtank',
+        'trim_description_color': '#000000',
+        'trim_asset_name' : 'netherite',
         'attribute': 'minecraft:generic.knockback_resistance',
         'operation': 'ADDITION',
         'tier_m': {

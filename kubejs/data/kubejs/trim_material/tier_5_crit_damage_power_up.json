@@ -1,0 +1,9 @@
+{
+    "asset_name": "exp",
+    "description": {
+        "color": "#B6D7A8",
+        "translate": "trim_material.kubejs.tier_5_crit_damage_power_up"
+    },
+    "ingredient": "kubejs:tier_5_crit_damage_power_up",
+    "item_model_index": 0.5
+}
