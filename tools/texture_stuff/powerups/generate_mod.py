@@ -28,12 +28,53 @@ def create_item_event(item_id, display_name, tooltip):
         .tooltip('{tooltip}')
 """
 
-def generate_js_file(file_path, item_events):
-    with open(file_path, 'w', encoding='utf-8') as file:
+def create_recipe_event(item_id, first, second, third, core, element):
+    # FST - first, second, third > this is tier dependent
+    # C - core: tier1 is #trim_templates tag then becomes previous powerup tier
+    # E - recipe_base_element from attr_map
+
+    return f"""
+    event.shaped(
+        Item.of('{item_id}', 1),
+            [
+                'FEF',
+                'SCS',
+                'TET'
+            ],"""+"""
+            {
+                F: '"""+ first +"""',
+                S: '"""+ second +"""',
+                T: '"""+ third +"""',
+                C: '"""+ core +"""',
+                E: '"""+ element +"""',
+            }
+        )
+"""
+
+def generate_startup_js_file(file_path, item_events):
+    with open(file_path, 'w+', encoding='utf-8') as file:
         file.write("StartupEvents.registry('item', event => {\n")
         
         for item_id, display_name, tooltip in item_events:
             file.write(create_item_event(item_id, display_name, tooltip))
+        
+        file.write("});\n")
+
+def generate_server_js_file(file_path, item_events):
+    with open(file_path, 'w+', encoding='utf-8') as file:
+        file.write("ServerEvents.recipes(event => {\n")
+        
+        for item_id, first, second, third, core, element in item_events:
+            file.write(create_recipe_event(item_id, first, second, third, core, element))
+        
+        file.write("});\n")
+
+def generate_server_js_tags_file(file_path, items, tag):
+    with open(file_path, 'w+', encoding='utf-8') as file:
+        file.write("ServerEvents.tags('item', event => {\n")
+        
+        for item in items:
+            file.write(f"""\t\tevent.add('{tag}', '{item}');\n""")
         
         file.write("});\n")
 
@@ -73,6 +114,22 @@ def combine_images(image_paths, output_path):
     for img in images:
         combined_image = Image.alpha_composite(combined_image, img)
     combined_image.save(output_path, "PNG")
+
+
+
+
+tier_recipe_base = {
+    1 : {
+        'first' : 'minecraft:diamond_block',
+        'second' : 'minecraft:iron_block',
+        'third' : 'minecraft:emerald_block'
+    },
+    2 : {
+        'first' : 'blue_skies:pyrope_block',
+        'second' : 'blue_skies:aquite_block',
+        'third' : 'blue_skies:diopside_block'
+    }
+}
 
 attr_map = {
     'armor': {
@@ -196,6 +253,7 @@ attr_map = {
     },
     'health_boost': {
         'attr_text': 'Health Boost',
+        'recipe_base_element': 'candlelight:hearth',
         'attribute': 'minecraft:generic.max_health',
         'operation': 'ADDITION',
         'tier_m': {
@@ -352,19 +410,51 @@ attr_map = {
 
 layers_path = 'layers'
 generated_mod_folder = 'trim_mod_data'
-generated_folder = f'{generated_mod_folder}/kubejs'
+kjs_generated_folder = f'{generated_mod_folder}/kubejs'
 config_folder = f'{generated_mod_folder}/config'
 trim_config_file = f'{config_folder}/functionalarmortrim.json'
-texture_path = f'{generated_folder}/assets/kubejs/textures/item'
-model_path = f'{generated_folder}/assets/kubejs/models/item'
-startup_scripts_path = f'{generated_folder}/startup_scripts'
+texture_path = f'{kjs_generated_folder}/assets/kubejs/textures/item'
+model_path = f'{kjs_generated_folder}/assets/kubejs/models/item'
+
+startup_scripts_path = f'{kjs_generated_folder}/startup_scripts'
+server_scripts_path = f'{kjs_generated_folder}/server_scripts'
 
 create_directory(texture_path)
 create_directory(model_path)
 create_directory(startup_scripts_path)
+create_directory(server_scripts_path)
 create_directory(config_folder)
 
 print("ZOOM >>> Folder structure generated")
+
+trims = [
+    "minecraft:warden_armor_trim_smithing_template",
+    "minecraft:sentry_armor_trim_smithing_template",
+    "minecraft:shaper_armor_trim_smithing_template",
+    "minecraft:raiser_armor_trim_smithing_template",
+    "minecraft:rib_armor_trim_smithing_template",
+    "minecraft:coast_armor_trim_smithing_template",
+    "minecraft:eye_armor_trim_smithing_template",
+    "minecraft:dune_armor_trim_smithing_template",
+    "minecraft:spike_armor_trim_smithing_template",
+    "minecraft:snout_armor_trim_smithing_template",
+    "minecraft:tide_armor_trim_smithing_template",
+    "minecraft:vex_armor_trim_smithing_template",
+    "minecraft:wayfinder_armor_trim_smithing_template",
+    "minecraft:wild_armor_trim_smithing_template",
+    "minecraft:silence_armor_trim_smithing_template",
+    "trials:bolt_template",
+    "trials:flow_template",
+    "kobolds:kobold_template",
+    "blue_skies:banished_armor_trim_smithing_template",
+    "blue_skies:thwarted_armor_trim_smithing_template",
+    "blue_skies:regrowth_armor_trim_smithing_template",
+    "blue_skies:toxic_armor_trim_smithing_template"
+]
+
+generate_server_js_tags_file(f'{server_scripts_path}/trim_tags.js', trims, 'forge:trim_templates')
+
+print("ZOOM >>> Trim template tags created")
 
 BASE_ITEM_MODEL_JSON = {
 	"parent": "item/generated",
@@ -375,8 +465,10 @@ BASE_ITEM_MODEL_JSON = {
 
 BASE_TRIM_CONFIG = {}
 
-file_path = f'{startup_scripts_path}/trim_powerups.js'
+startup_script = f'{startup_scripts_path}/trim_powerups.js'
+server_script = f'{server_scripts_path}/trim_powerups_recipes.js'
 item_events = []
+recipe_events = []
 
 for attr in attr_map:
     for tier in attr_map.get(attr).get('tier_m'):
@@ -414,9 +506,23 @@ for attr in attr_map:
             'amount' : attr_value
         }]
 
-generate_js_file(file_path, item_events)
+        if tier in tier_recipe_base:
+            tier_powerup_recipe_data = tier_recipe_base.get(tier)
+            core = "#trim_templates"
+            if tier>1:
+                core = 'kubejs:' + item_base_name.replace(str(tier), str(tier-1))
 
-print("ZOOM >>> Resourcepack and KubeJS item registry generated")
+            first = tier_powerup_recipe_data.get('first')
+            second = tier_powerup_recipe_data.get('second')
+            third = tier_powerup_recipe_data.get('third')
+
+            if 'recipe_base_element' in attr_map[attr]:
+                recipe_events.append((f'kubejs:{item_base_name}', first, second, third, core, attr_map[attr]['recipe_base_element']))
+
+generate_startup_js_file(startup_script, item_events)
+generate_server_js_file(server_script, recipe_events)
+
+print("ZOOM >>> Resourcepack and KubeJS item registry generated + recipes")
 
 with open(trim_config_file, 'w+') as f:
     f.write(json.dumps(BASE_TRIM_CONFIG, indent=4))
@@ -427,3 +533,8 @@ destination_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '..
 copy_tree(generated_mod_folder, destination_folder)
 
 print("ZOOM >>> Generated files generated and synced with client")
+
+# Comment for testing
+shutil.rmtree(generated_mod_folder)
+
+print("ZOOM >>> Cleanup finished")

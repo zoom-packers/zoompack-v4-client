@@ -1,0 +1,24 @@
+ServerEvents.tags('item', event => {
+		event.add('forge:trim_templates', 'minecraft:warden_armor_trim_smithing_template');
+		event.add('forge:trim_templates', 'minecraft:sentry_armor_trim_smithing_template');
+		event.add('forge:trim_templates', 'minecraft:shaper_armor_trim_smithing_template');
+		event.add('forge:trim_templates', 'minecraft:raiser_armor_trim_smithing_template');
+		event.add('forge:trim_templates', 'minecraft:rib_armor_trim_smithing_template');
+		event.add('forge:trim_templates', 'minecraft:coast_armor_trim_smithing_template');
+		event.add('forge:trim_templates', 'minecraft:eye_armor_trim_smithing_template');
+		event.add('forge:trim_templates', 'minecraft:dune_armor_trim_smithing_template');
+		event.add('forge:trim_templates', 'minecraft:spike_armor_trim_smithing_template');
+		event.add('forge:trim_templates', 'minecraft:snout_armor_trim_smithing_template');
+		event.add('forge:trim_templates', 'minecraft:tide_armor_trim_smithing_template');
+		event.add('forge:trim_templates', 'minecraft:vex_armor_trim_smithing_template');
+		event.add('forge:trim_templates', 'minecraft:wayfinder_armor_trim_smithing_template');
+		event.add('forge:trim_templates', 'minecraft:wild_armor_trim_smithing_template');
+		event.add('forge:trim_templates', 'minecraft:silence_armor_trim_smithing_template');
+		event.add('forge:trim_templates', 'trials:bolt_template');
+		event.add('forge:trim_templates', 'trials:flow_template');
+		event.add('forge:trim_templates', 'kobolds:kobold_template');
+		event.add('forge:trim_templates', 'blue_skies:banished_armor_trim_smithing_template');
+		event.add('forge:trim_templates', 'blue_skies:thwarted_armor_trim_smithing_template');
+		event.add('forge:trim_templates', 'blue_skies:regrowth_armor_trim_smithing_template');
+		event.add('forge:trim_templates', 'blue_skies:toxic_armor_trim_smithing_template');
+});
