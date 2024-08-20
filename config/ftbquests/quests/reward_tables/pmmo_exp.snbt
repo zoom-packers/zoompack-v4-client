@@ -1,0 +1,26 @@
+{
+	id: "165827FE4F4F04F4"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			amount: 1
+			auto: "invisible"
+			skill: "archery"
+			type: "pmmo:levelreward"
+		}
+		{
+			amount: 1
+			auto: "invisible"
+			skill: "swordsmanship"
+			type: "pmmo:levelreward"
+		}
+		{
+			amount: 1
+			auto: "invisible"
+			skill: "endurance"
+			type: "pmmo:levelreward"
+		}
+	]
+	title: "Pmmo exp"
+}

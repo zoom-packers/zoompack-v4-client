@@ -10,6 +10,12 @@
 	quests: [
 		{
 			id: "02E8F3B12D099E83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1692CFC902A4BA41"
+				table_id: 551285352919621797L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "08922B4273541704"
 				item: "herbalbrews:stove"
@@ -20,6 +26,18 @@
 		}
 		{
 			id: "3BD9DA41CA94CC7A"
+			rewards: [{
+				id: "67E11FC9BA07A43F"
+				item: {
+					Count: 1
+					id: "minecraft:iron_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Big spoon"
 			tasks: [{
 				id: "11E9B44571551C5C"
 				item: "herbalbrews:cauldron"
@@ -30,6 +48,12 @@
 		}
 		{
 			id: "24EC69C378BB4A4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43F7F642201D657F"
+				table_id: 551285352919621797L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "3ABE9FB12214AF42"
 				item: "herbalbrews:tea_kettle"
@@ -40,6 +64,11 @@
 		}
 		{
 			id: "3E90FB9B98170556"
+			rewards: [{
+				id: "02BBFBF92FA86832"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "578F7AB2A098FC5F"
 				item: "herbalbrews:yerba_mate_leaf"
@@ -50,6 +79,11 @@
 		}
 		{
 			id: "37ACC6CD1D7528C4"
+			rewards: [{
+				id: "0C26156BA4901D86"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "445E9DC7E8C74F92"
 				item: "herbalbrews:rooibos_leaf"
@@ -60,6 +94,11 @@
 		}
 		{
 			id: "4EE4376D1BD0C513"
+			rewards: [{
+				id: "6B77E63A54AD2723"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2FAACABCD2C23B46"
 				item: "herbalbrews:lavender_blossom"
@@ -71,6 +110,11 @@
 		{
 			dependencies: ["3B5ED9F12D7A7A7C"]
 			id: "15B80A7481738138"
+			rewards: [{
+				id: "35ED9A988758D35A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "15C7BC1EFE11A802"
 				item: "herbalbrews:dried_green_tea"
@@ -81,6 +125,11 @@
 		}
 		{
 			id: "3B5ED9F12D7A7A7C"
+			rewards: [{
+				id: "23DBE79F0E995AE4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "72FE5EB783042BC5"
 				item: "herbalbrews:green_tea_leaf"
@@ -92,6 +141,11 @@
 		{
 			dependencies: ["15B80A7481738138"]
 			id: "4A9CD1A2606C8CBD"
+			rewards: [{
+				id: "4ADDF2FAAF0CB90C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "33FD132562525DA9"
 				item: "herbalbrews:dried_black_tea"
@@ -103,6 +157,11 @@
 		{
 			dependencies: ["09E4DB43EC4526DC"]
 			id: "450C553A1D6CBFCC"
+			rewards: [{
+				id: "708590BCA46FED99"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3B5A121D89AD0EF5"
 				item: "herbalbrews:dried_oolong_tea"
@@ -113,6 +172,11 @@
 		}
 		{
 			id: "23A71658073ECBB6"
+			rewards: [{
+				id: "144ABB2484AC4538"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "40ED5C00726F3CE8"
 				item: "herbalbrews:coffee_beans"
@@ -124,6 +188,20 @@
 		{
 			dependencies: ["24EC69C378BB4A4C"]
 			id: "42211CE55EECE1B8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25932F527E17E011"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E41BB8D31DCC358"
+					table_id: 998837779390795627L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "7106D1B1DCE502F2"
 				item: "herbalbrews:green_tea"
@@ -136,6 +214,20 @@
 			dependencies: ["24EC69C378BB4A4C"]
 			dependency_requirement: "all_started"
 			id: "4E129B93711F8302"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77FFDB1FEAB25F03"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B2DB39EA3CD0314"
+					table_id: 998837779390795627L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "6BB29E37D7E6A43B"
 				item: "herbalbrews:black_tea"
@@ -147,6 +239,20 @@
 		{
 			dependencies: ["24EC69C378BB4A4C"]
 			id: "094FF29C513E375D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D6FADFBF62016CA"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D0F597135B7BD61"
+					table_id: 998837779390795627L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "0EF2B6FC7AE0C416"
 				item: "herbalbrews:lavender_tea"
@@ -158,6 +264,11 @@
 		{
 			dependencies: ["4A9CD1A2606C8CBD"]
 			id: "09E4DB43EC4526DC"
+			rewards: [{
+				id: "1E2428834BB1EEE0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "083B986D4C1FADCE"
 				item: "herbalbrews:mixed_tea_leaf_block"
@@ -169,6 +280,26 @@
 		{
 			dependencies: ["3BD9DA41CA94CC7A"]
 			id: "35F206E044618300"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "01A4C9A129791869"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "723F61A90B05E08B"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "560261A43111BDE4"
+					table_id: 3985977443175660942L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "6CF4D89F2315E90A"
 				item: "herbalbrews:armor_flask"
@@ -180,6 +311,26 @@
 		{
 			dependencies: ["3BD9DA41CA94CC7A"]
 			id: "76E4CD3FB86E0652"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "492920EE27E7F3F2"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75FDA4566C26700C"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E87BD19E5C1EE36"
+					table_id: 3985977443175660942L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "483AC79F16B028FB"
 				item: "herbalbrews:damage_flask"
@@ -191,6 +342,26 @@
 		{
 			dependencies: ["3BD9DA41CA94CC7A"]
 			id: "006FB1366A537FD0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "73F017F4764BEA32"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "784934465C85A642"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7825914E7B38DEF2"
+					table_id: 3985977443175660942L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "330C39970639824B"
 				item: "herbalbrews:feral_flask"

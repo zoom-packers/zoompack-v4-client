@@ -1,7 +1,12 @@
 {
+	icon: "minecraft:rotten_flesh"
 	id: "5A86C6AA864BC010"
 	loot_size: 1
 	order_index: 5
-	rewards: [ ]
+	rewards: [
+		{ count: 4, item: "minecraft:string", random_bonus: 4 }
+		{ count: 7, item: "minecraft:rotten_flesh", random_bonus: 8 }
+		{ count: 3, item: "minecraft:bone", random_bonus: 4 }
+	]
 	title: "Tier 1 monster remains"
 }

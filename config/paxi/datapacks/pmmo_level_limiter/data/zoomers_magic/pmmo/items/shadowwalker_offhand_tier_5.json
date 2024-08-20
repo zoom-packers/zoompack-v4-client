@@ -1,0 +1,8 @@
+{
+    "requirements": {
+        "WEAR": {
+            "magic": 63
+        }
+    },
+    "override": true
+}

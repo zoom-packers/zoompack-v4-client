@@ -34,7 +34,7 @@
     "EFFECT": {},
     "SWIMMING": {},
     "ENTITY": {
-      "charisma": 100
+      "charisma": 0
     },
     "SURFACING": {},
     "JUMP": {},
@@ -58,7 +58,7 @@
     "SUBMERGED": {},
     "CROUCH_JUMP": {}
   },
-  "override": false,
+  "override": true,
   "isTagFor": [],
   "requirements": {
     "TAME": {},

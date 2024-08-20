@@ -1,0 +1,21 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "biomesoplenty:block/chiseled_orange_sandstone"
+		}
+	}
+	id: "234736C5F599FE89"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{ count: 32, item: "minecraft:sand" }
+		{ item: "minecraft:sea_lantern" }
+		{ count: 2, item: "minecraft:pufferfish" }
+		{ count: 3, item: "minecraft:tropical_fish" }
+		{ count: 6, item: "minecraft:melon_slice" }
+		{ item: "minecraft:water_bucket" }
+	]
+	title: "Sandy crate"
+}

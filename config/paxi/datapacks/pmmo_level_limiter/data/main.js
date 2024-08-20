@@ -80,6 +80,7 @@ function modifyFullSets() {
     processor.modifySetRequirements("aquaculture", "neptunium", 19);
     processor.modifySingleItem("aquaculture", "neptunium_fillet_knife", "sword", 19);
     processor.modifySingleItem("aquaculture", "neptunium_bow", "bow", 19);
+    modifyOffhandForTier(1, 10)
 
     // Blue skies - Everbright
     processor.modifySetRequirements("blue_skies", "bluebright", 20);
@@ -106,6 +107,7 @@ function modifyFullSets() {
     processor.modifySetRequirements("irons_spellbooks", "shadowwalker_tier_2", 23, "armor");
     processor.modifySetRequirements("irons_spellbooks", "priest_tier_2", 23, "armor");
     processor.modifySetRequirements("irons_spellbooks", "plagued_tier_2", 23, "armor");
+    modifyOffhandForTier(2, 23)
 
     processor.modifySetRequirements("blue_skies", "aquite", 23);
     processor.modifySingleItem("zoomer_bows", "aquite_bow", "bow", 23);
@@ -135,6 +137,7 @@ function modifyFullSets() {
     processor.modifySetRequirements("irons_spellbooks", "shadowwalker_tier_3", 35, "armor");
     processor.modifySetRequirements("irons_spellbooks", "priest_tier_3", 35, "armor");
     processor.modifySetRequirements("irons_spellbooks", "plagued_tier_3", 35, "armor");
+    modifyOffhandForTier(3, 35)
 
     processor.modifySetRequirements("aether", "neptune", 37, "armor");
     processor.modifySingleItem("zoomer_bows", "neptune_bow", "bow", 37);
@@ -177,6 +180,7 @@ function modifyFullSets() {
     processor.modifySetRequirements("irons_spellbooks", "shadowwalker_tier_4", 56, "armor");
     processor.modifySetRequirements("irons_spellbooks", "priest_tier_4", 56, "armor");
     processor.modifySetRequirements("irons_spellbooks", "plagued_tier_4", 56, "armor");
+    modifyOffhandForTier(4, 56)
 
     processor.modifySetRequirements("betternether", "flaming_ruby", 57);
     processor.modifySingleItem("zoomer_bows", "fire_ruby_bow", "bow", 57);
@@ -200,7 +204,7 @@ function modifyFullSets() {
     processor.modifySingleItem("zoomer_bows", "cloggrum_bow", "bow", 61);
     processor.modifySingleItem("undergarden", "cloggrum_battleaxe", "sword", 61);
 
-    
+
     processor.modifySetRequirements("call_of_yucutan", "warrior", 62, ["helmet"]);
     processor.modifySetRequirements("call_of_yucutan", "huracan", 62, ["helmet"]);
     processor.modifySetRequirements("call_of_yucutan", "monkey", 62, ["helmet"]);
@@ -216,6 +220,7 @@ function modifyFullSets() {
     processor.modifySetRequirements("irons_spellbooks", "shadowwalker_tier_5", 63, "armor");
     processor.modifySetRequirements("irons_spellbooks", "priest_tier_5", 63, "armor");
     processor.modifySetRequirements("irons_spellbooks", "plagued_tier_5", 63, "armor");
+    modifyOffhandForTier(5, 63)
 
     processor.modifySetRequirements("undergarden", "utherium", 65);
     processor.modifySingleItem("zoomer_bows", "utherium_bow", "bow", 65);
@@ -254,6 +259,7 @@ function modifyFullSets() {
     processor.modifySetRequirements("irons_spellbooks", "shadowwalker_tier_6", 73, "armor");
     processor.modifySetRequirements("irons_spellbooks", "priest_tier_6", 73, "armor");
     processor.modifySetRequirements("irons_spellbooks", "plagued_tier_6", 73, "armor");
+    modifyOffhandForTier(6, 73)
 
     processor.modifySetRequirements("betterend", "terminite", 75);
     processor.modifySingleItem("zoomer_bows", "terminite_bow", "bow", 75);
@@ -277,6 +283,7 @@ function modifyFullSets() {
     processor.modifySetRequirements("irons_spellbooks", "shadowwalker_tier_7", 84, "armor");
     processor.modifySetRequirements("irons_spellbooks", "priest_tier_7", 84, "armor");
     processor.modifySetRequirements("irons_spellbooks", "plagued_tier_7", 84, "armor");
+    modifyOffhandForTier(7, 84)
 
     // The abyss
     processor.modifySetRequirements("theabyss", "bone_armor", 90, "armor");
@@ -290,6 +297,7 @@ function modifyFullSets() {
     processor.modifySetRequirements("irons_spellbooks", "shadowwalker_tier_8", 91, "armor");
     processor.modifySetRequirements("irons_spellbooks", "priest_tier_8", 91, "armor");
     processor.modifySetRequirements("irons_spellbooks", "plagued_tier_8", 91, "armor");
+    modifyOffhandForTier(8, 91)
 
     processor.modifySetRequirements("theabyss", "fusion_armor", 91, "armor");
     processor.modifySetRequirements("theabyss", "fusion", 91, "tools");
@@ -332,6 +340,17 @@ function modifyFullSets() {
     processor.modifySetRequirements("theabyss", "incorythe", 99, ["sword"], "{set_name}_{item}_mkii");
 
     processor.modifySetRequirements("theabyss", "abyss", 100, ["sword"]);
+}
+
+function modifyOffhandForTier(tier, level) {
+    processor.modifySingleItem("zoomers_magic", "pyromancer_offhand_tier_" + tier, "offhand", level);
+    processor.modifySingleItem("zoomers_magic", "electromancer_offhand_tier_" + tier, "offhand", level);
+    processor.modifySingleItem("zoomers_magic", "archevoker_offhand_tier_" + tier, "offhand", level);
+    processor.modifySingleItem("zoomers_magic", "cultist_offhand_tier_" + tier, "offhand", level);
+    processor.modifySingleItem("zoomers_magic", "cryomancer_offhand_tier_" + tier, "offhand", level);
+    processor.modifySingleItem("zoomers_magic", "shadowwalker_offhand_tier_" + tier, "offhand", level);
+    processor.modifySingleItem("zoomers_magic", "priest_offhand_tier_" + tier, "offhand", level);
+    processor.modifySingleItem("zoomers_magic", "plagued_offhand_tier_" + tier, "offhand", level);
 }
 
 function modifyMiscItems() {

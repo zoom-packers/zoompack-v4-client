@@ -1,0 +1,13 @@
+{
+	icon: "vinery:taiga_grapes_red"
+	id: "76B73A5CAD109EBC"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ count: 15, item: "minecraft:bricks", random_bonus: 20 }
+		{ count: 10, item: "minecraft:glass", random_bonus: 12 }
+		{ count: 20, item: "vinery:dark_cherry_log", random_bonus: 12 }
+		{ count: 3, item: "vinery:wine_bottle", random_bonus: 4 }
+	]
+	title: "Vinery loot table"
+}

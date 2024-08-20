@@ -1,0 +1,18 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "enderchests:item/bag_base_open"
+		}
+	}
+	id: "0DDC95AB14D40F6B"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{ count: 3, item: "minecraft:glistering_melon_slice", random_bonus: 6 }
+		{ count: 3, item: "minecraft:fermented_spider_eye", random_bonus: 6 }
+		{ count: 3, item: "minecraft:golden_carrot", random_bonus: 6 }
+	]
+	title: "Tier 1 alchemy bag"
+}

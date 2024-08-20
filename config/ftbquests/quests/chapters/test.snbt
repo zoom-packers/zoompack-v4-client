@@ -29,6 +29,12 @@
 					type: "xp_levels"
 					xp_levels: 1
 				}
+				{
+					count: 16
+					id: "3CA6A4B5EBCA5514"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -88,6 +94,12 @@
 				{
 					id: "7D7A22FF3A690BA8"
 					item: "brewery:beer_wheat"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "30D8E44F88321D6E"
+					item: "minecraft:cobblestone"
 					type: "item"
 				}
 			]
@@ -157,6 +169,12 @@
 					item: "minecraft:obsidian"
 					type: "item"
 				}
+				{
+					count: 64
+					id: "2B3F9DFE5454513D"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -200,12 +218,19 @@
 		{
 			dependencies: ["3F6B027FC76927D9"]
 			id: "6671E971AE1EEE0C"
-			rewards: [{
-				count: 2
-				id: "1647C79ECA3EF0D7"
-				item: "minecraft:obsidian"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "1647C79ECA3EF0D7"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "7A78C03DA353FC92"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4A159C5D3FEFA566"
 				item: "minecraft:lava_bucket"
@@ -307,17 +332,25 @@
 		{
 			dependencies: ["633499C57C9CE4CF"]
 			id: "226B619AE352B9D3"
-			rewards: [{
-				id: "0404DC4C60F167D8"
-				item: {
-					Count: 1
-					id: "easy_mob_farm:golden_lasso"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "0404DC4C60F167D8"
+					item: {
+						Count: 1
+						id: "easy_mob_farm:golden_lasso"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "0163E3FBFEE31E82"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				count: 10L
 				id: "78810B8D6BED9558"
@@ -338,11 +371,20 @@
 				}
 			}
 			id: "64EE5B69C5E20AB1"
-			rewards: [{
-				id: "463C068A87B4A9A8"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5BA3BA8BDB8A0750"
+					table_id: 6759378343124754253L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F06AEF4F0834B96"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "4A20E6F0BC5E4BB6"
@@ -425,6 +467,24 @@
 					type: "xp_levels"
 					xp_levels: 1
 				}
+				{
+					count: 16
+					id: "5105FBC9902CB022"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "453ECA4FD2D9F0BA"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10497B4F5C53AB66"
+					table_id: 6523119545992593424L
+					type: "loot"
+				}
 			]
 			tasks: [{
 				id: "49B7A696BF34C2B0"
@@ -492,8 +552,8 @@
 				type: "item"
 			}]
 			title: "Nicoleta"
-			x: -2.5d
-			y: -4.5d
+			x: -2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7DCD75CD3573BDFC"]
@@ -603,11 +663,28 @@
 		{
 			dependencies: ["527A569F3EE723FF"]
 			id: "21FA97DF5F12E048"
-			rewards: [{
-				id: "2C13D81DED8CE83C"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38D93C8460AA13D5"
+					table_id: 6759378343124754253L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C9E0BB7C5EDD719"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D96C4C45C07D3BB"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "032EA425088DF81E"
 				item: {
@@ -625,10 +702,13 @@
 			dependencies: ["6671E971AE1EEE0C"]
 			id: "3CA3A36693BBA2AA"
 			rewards: [{
-				id: "5F9E21A618F864B9"
-				type: "xp_levels"
-				xp_levels: 1
+				exclude_from_claim_all: true
+				id: "36505E32D075A6CB"
+				table_id: 6759378343124754253L
+				type: "random"
 			}]
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "0F43FC1D3D3F92AA"
 				item: "immersive_aircraft:gyrodyne"
@@ -636,7 +716,7 @@
 			}]
 			title: "Take flight"
 			x: 0.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3CA3A36693BBA2AA"]
@@ -652,8 +732,8 @@
 				type: "item"
 			}]
 			title: "Gonna go far kid"
-			x: 1.0d
-			y: -7.5d
+			x: 1.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["3CA3A36693BBA2AA"]
@@ -681,8 +761,8 @@
 				}
 			]
 			title: "Small upgrades"
-			x: -1.0d
-			y: -7.5d
+			x: -1.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4B27B1A14C811542"]
@@ -692,6 +772,8 @@
 				item: "waystones:waystone"
 				type: "item"
 			}]
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "0E0248E300028B51"
 				item: {

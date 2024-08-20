@@ -14,6 +14,7 @@ const item_functions = {
     "shovel": templateFormatter.tool,
     "hoe": templateFormatter.tool,
     "bow": templateFormatter.tool,
+    "offhand": templateFormatter.offhand
 }
 const tool_skills = {
     "pickaxe": "mining",

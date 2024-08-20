@@ -1,0 +1,13 @@
+{
+	icon: "create:gearbox"
+	id: "2CF7354CBE8687F1"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ count: 2, item: "create:gearbox" }
+		{ count: 16, item: "minecraft:andesite" }
+		{ count: 8, item: "minecraft:iron_ingot" }
+		{ count: 4, item: "create:shaft" }
+	]
+	title: "Tier 1 create box"
+}

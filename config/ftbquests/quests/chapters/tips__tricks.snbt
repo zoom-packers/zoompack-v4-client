@@ -12,7 +12,7 @@
 			description: ["In here you will find a ton of tips for your playthrough. Go through them one by one to see what this modpack has to offer and how to get unstuck from sticky situations."]
 			icon: {
 				Count: 1
-				id: "theabyss:ignisithe_armor_helmet"
+				id: "deeperdarker:warden_helmet"
 				tag: {
 					Damage: 0
 				}
@@ -56,7 +56,7 @@
 			]
 			icon: {
 				Count: 1
-				id: "theabyss:ignisithe_sword"
+				id: "deeperdarker:warden_sword"
 				tag: {
 					Damage: 0
 				}

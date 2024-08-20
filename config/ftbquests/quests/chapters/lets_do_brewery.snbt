@@ -10,6 +10,19 @@
 	quests: [
 		{
 			id: "45279395E9DB7B9F"
+			rewards: [
+				{
+					count: 8
+					id: "71691DA7F1BC4577"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "05A9EABF6FECCBAD"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "55F8BE28610FFB50"
 				item: "brewery:wooden_brewingstation"
@@ -20,6 +33,19 @@
 		}
 		{
 			id: "25B74DADCCED2798"
+			rewards: [
+				{
+					count: 8
+					id: "301261967145EF7A"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "6C5EFEC6F5D1BBE6"
+					item: "minecraft:raw_copper_block"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "26ED55AC7CB424A7"
 				item: "brewery:silo_wood"
@@ -31,6 +57,11 @@
 		{
 			dependencies: ["45279395E9DB7B9F"]
 			id: "1A352BBE70AC070C"
+			rewards: [{
+				id: "4D9A51DFA1C1D3BE"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "69987B1FB1CAF57A"
 				item: "brewery:copper_brewingstation"
@@ -42,6 +73,12 @@
 		{
 			dependencies: ["1A352BBE70AC070C"]
 			id: "110DC4B66E2ECE0E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DB4CB852E9AF455"
+				table_id: 4129790000591020242L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "39EE1D4A02EE8A35"
 				item: "brewery:netherite_brewingstation"
@@ -63,6 +100,11 @@
 		}
 		{
 			id: "36B917AD8D43095F"
+			rewards: [{
+				id: "5AFA2800AAC13FBF"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "091CBF497677D434"
 				item: "brewery:barrel_main"
@@ -73,6 +115,12 @@
 		}
 		{
 			id: "735BC65DC053978E"
+			rewards: [{
+				count: 6
+				id: "4CE27499623AC9E0"
+				item: "minecraft:string"
+				type: "item"
+			}]
 			tasks: [{
 				id: "284C4C19D7A82E2F"
 				item: "brewery:rope"
@@ -83,6 +131,11 @@
 		}
 		{
 			id: "1030CF79969349C9"
+			rewards: [{
+				id: "374454FB60341561"
+				item: "minecraft:lead"
+				type: "item"
+			}]
 			tasks: [{
 				id: "73BFF0A798024B93"
 				item: "brewery:beer_mug"
@@ -93,6 +146,11 @@
 		}
 		{
 			id: "0AA86E4AF7B90902"
+			rewards: [{
+				id: "5DBCCE1DAA098AC6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "741D22BF673B0C28"
 				item: "croptopia:hops"
@@ -103,6 +161,11 @@
 		}
 		{
 			id: "72DBDDF22E9CB422"
+			rewards: [{
+				id: "11C7F0399834591E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "18568E45D8B23724"
 				item: "brewery:barley"
@@ -113,6 +176,11 @@
 		}
 		{
 			id: "6893553A2C99FB13"
+			rewards: [{
+				id: "612D8ED8781F11E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3A2ACC2EA307BDC3"
 				item: "brewery:corn"
@@ -124,6 +192,12 @@
 		{
 			dependencies: ["25B74DADCCED2798"]
 			id: "42570EAEB30B745F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01627C39736A4C77"
+				table_id: 434528124089394039L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "1870E64DA20D6864"
 				item: "brewery:dried_wheat"
@@ -138,6 +212,12 @@
 				"6893553A2C99FB13"
 			]
 			id: "2DB8A9D5A93949E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17769AD08A420D5F"
+				table_id: 434528124089394039L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0715A68CC5D53FDB"
 				item: "brewery:dried_corn"
@@ -152,6 +232,12 @@
 				"72DBDDF22E9CB422"
 			]
 			id: "4D516D0514E122A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C5D24CD8A104D1D"
+				table_id: 434528124089394039L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7A99B6D266184833"
 				item: "brewery:dried_barley"
@@ -166,6 +252,12 @@
 				"0AA86E4AF7B90902"
 			]
 			id: "50EAA2269ABA9079"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B602AC26BA2BA7C"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "1E02DCF3F7284479"
 				item: "brewery:beer_wheat"
@@ -177,6 +269,12 @@
 		{
 			dependencies: ["4D516D0514E122A2"]
 			id: "72B4159AF6DBEF11"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77D4730E4D2C027A"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7AF0B05E05C0EC7D"
 				item: "brewery:beer_barley"
@@ -188,6 +286,12 @@
 		{
 			dependencies: ["0AA86E4AF7B90902"]
 			id: "4C291F5D0DA5A043"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E4504ACB1B7D749"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6998B9C7CCBDFA80"
 				item: "brewery:beer_hops"
@@ -202,6 +306,12 @@
 				"082991B6E1B0888C"
 			]
 			id: "45DA9A62C13439A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "085952D48B449B8A"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7D6243128367CBBF"
 				item: "brewery:beer_haley"
@@ -212,6 +322,11 @@
 		}
 		{
 			id: "082991B6E1B0888C"
+			rewards: [{
+				id: "384CE00C80CE31AC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "4BA52AEB17FC11E0"
 				item: "minecraft:popped_chorus_fruit"
@@ -223,6 +338,12 @@
 		{
 			dependencies: ["2DB8A9D5A93949E0"]
 			id: "1F3470D0B32AF784"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "341436258134CD62"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "06735A33B0CB1374"
 				item: "brewery:whiskey_cristelwalker"
@@ -234,6 +355,12 @@
 		{
 			dependencies: ["2DB8A9D5A93949E0"]
 			id: "1D6C681F78047868"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55830FE6BB3D4699"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "088A40D873616314"
 				item: "brewery:whiskey_carrasconlabel"

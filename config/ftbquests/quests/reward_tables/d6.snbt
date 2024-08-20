@@ -1,0 +1,14 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftblibrary:icons/dice"
+		}
+	}
+	id: "394FF61FFE3020D2"
+	loot_size: 1
+	order_index: 16
+	rewards: [ ]
+	title: "D6"
+}
