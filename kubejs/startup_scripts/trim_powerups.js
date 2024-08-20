@@ -14,7 +14,7 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_3_armor_power_up')
         .maxStackSize(64)
-        .displayName('§a§lTier 3 Armor Power Up')
+        .displayName('§lTier 3 Armor Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+3 Armor')
 
@@ -26,31 +26,31 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_5_armor_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 5 Armor Power Up')
+        .displayName('§a§lTier 5 Armor Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+7 Armor')
 
     event.create('tier_6_armor_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 6 Armor Power Up')
+        .displayName('§a§lTier 6 Armor Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+10 Armor')
 
     event.create('tier_7_armor_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 7 Armor Power Up')
+        .displayName('§3§lTier 7 Armor Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+25 Armor')
 
     event.create('tier_8_armor_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 8 Armor Power Up')
+        .displayName('§3§lTier 8 Armor Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+32 Armor')
 
     event.create('tier_9_armor_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 9 Armor Power Up')
+        .displayName('§3§lTier 9 Armor Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+40 Armor')
 
@@ -74,7 +74,7 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_3_armor_toughness_power_up')
         .maxStackSize(64)
-        .displayName('§a§lTier 3 Armor Toughness Power Up')
+        .displayName('§lTier 3 Armor Toughness Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+1.75 Armor Toughness')
 
@@ -86,31 +86,31 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_5_armor_toughness_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 5 Armor Toughness Power Up')
+        .displayName('§a§lTier 5 Armor Toughness Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+4.0 Armor Toughness')
 
     event.create('tier_6_armor_toughness_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 6 Armor Toughness Power Up')
+        .displayName('§a§lTier 6 Armor Toughness Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+5.0 Armor Toughness')
 
     event.create('tier_7_armor_toughness_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 7 Armor Toughness Power Up')
+        .displayName('§3§lTier 7 Armor Toughness Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+6.0 Armor Toughness')
 
     event.create('tier_8_armor_toughness_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 8 Armor Toughness Power Up')
+        .displayName('§3§lTier 8 Armor Toughness Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+7.0 Armor Toughness')
 
     event.create('tier_9_armor_toughness_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 9 Armor Toughness Power Up')
+        .displayName('§3§lTier 9 Armor Toughness Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+8.0 Armor Toughness')
 
@@ -134,7 +134,7 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_3_armor_pierce_power_up')
         .maxStackSize(64)
-        .displayName('§a§lTier 3 Armor Pierce Power Up')
+        .displayName('§lTier 3 Armor Pierce Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+1.75 Armor Pierce')
 
@@ -146,31 +146,31 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_5_armor_pierce_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 5 Armor Pierce Power Up')
+        .displayName('§a§lTier 5 Armor Pierce Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+4.0 Armor Pierce')
 
     event.create('tier_6_armor_pierce_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 6 Armor Pierce Power Up')
+        .displayName('§a§lTier 6 Armor Pierce Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+5.0 Armor Pierce')
 
     event.create('tier_7_armor_pierce_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 7 Armor Pierce Power Up')
+        .displayName('§3§lTier 7 Armor Pierce Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+6.0 Armor Pierce')
 
     event.create('tier_8_armor_pierce_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 8 Armor Pierce Power Up')
+        .displayName('§3§lTier 8 Armor Pierce Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+7.0 Armor Pierce')
 
     event.create('tier_9_armor_pierce_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 9 Armor Pierce Power Up')
+        .displayName('§3§lTier 9 Armor Pierce Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+8.0 Armor Pierce')
 
@@ -194,7 +194,7 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_3_armor_shred_power_up')
         .maxStackSize(64)
-        .displayName('§a§lTier 3 Armor Shred Power Up')
+        .displayName('§lTier 3 Armor Shred Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+0.4% Armor Shred')
 
@@ -206,31 +206,31 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_5_armor_shred_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 5 Armor Shred Power Up')
+        .displayName('§a§lTier 5 Armor Shred Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+1.0% Armor Shred')
 
     event.create('tier_6_armor_shred_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 6 Armor Shred Power Up')
+        .displayName('§a§lTier 6 Armor Shred Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+1.2% Armor Shred')
 
     event.create('tier_7_armor_shred_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 7 Armor Shred Power Up')
+        .displayName('§3§lTier 7 Armor Shred Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+1.4% Armor Shred')
 
     event.create('tier_8_armor_shred_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 8 Armor Shred Power Up')
+        .displayName('§3§lTier 8 Armor Shred Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+1.6% Armor Shred')
 
     event.create('tier_9_armor_shred_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 9 Armor Shred Power Up')
+        .displayName('§3§lTier 9 Armor Shred Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+1.8% Armor Shred')
 
@@ -254,7 +254,7 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_3_cooldown_reduction_power_up')
         .maxStackSize(64)
-        .displayName('§a§lTier 3 Cooldown Reduction Power Up')
+        .displayName('§lTier 3 Cooldown Reduction Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+0.3% Cooldown Reduction')
 
@@ -266,31 +266,31 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_5_cooldown_reduction_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 5 Cooldown Reduction Power Up')
+        .displayName('§a§lTier 5 Cooldown Reduction Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+0.5% Cooldown Reduction')
 
     event.create('tier_6_cooldown_reduction_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 6 Cooldown Reduction Power Up')
+        .displayName('§a§lTier 6 Cooldown Reduction Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+1.0% Cooldown Reduction')
 
     event.create('tier_7_cooldown_reduction_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 7 Cooldown Reduction Power Up')
+        .displayName('§3§lTier 7 Cooldown Reduction Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+2.0% Cooldown Reduction')
 
     event.create('tier_8_cooldown_reduction_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 8 Cooldown Reduction Power Up')
+        .displayName('§3§lTier 8 Cooldown Reduction Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+4.0% Cooldown Reduction')
 
     event.create('tier_9_cooldown_reduction_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 9 Cooldown Reduction Power Up')
+        .displayName('§3§lTier 9 Cooldown Reduction Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+6.0% Cooldown Reduction')
 
@@ -314,7 +314,7 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_3_crit_chance_power_up')
         .maxStackSize(64)
-        .displayName('§a§lTier 3 Critical Chance Power Up')
+        .displayName('§lTier 3 Critical Chance Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+1.5% Critical Chance')
 
@@ -326,31 +326,31 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_5_crit_chance_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 5 Critical Chance Power Up')
+        .displayName('§a§lTier 5 Critical Chance Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+2.0% Critical Chance')
 
     event.create('tier_6_crit_chance_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 6 Critical Chance Power Up')
+        .displayName('§a§lTier 6 Critical Chance Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+2.5% Critical Chance')
 
     event.create('tier_7_crit_chance_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 7 Critical Chance Power Up')
+        .displayName('§3§lTier 7 Critical Chance Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+3.0% Critical Chance')
 
     event.create('tier_8_crit_chance_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 8 Critical Chance Power Up')
+        .displayName('§3§lTier 8 Critical Chance Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+3.5% Critical Chance')
 
     event.create('tier_9_crit_chance_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 9 Critical Chance Power Up')
+        .displayName('§3§lTier 9 Critical Chance Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+4.0% Critical Chance')
 
@@ -374,7 +374,7 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_3_crit_damage_power_up')
         .maxStackSize(64)
-        .displayName('§a§lTier 3 Critical Damage Power Up')
+        .displayName('§lTier 3 Critical Damage Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+1.5% Critical Damage')
 
@@ -386,31 +386,31 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_5_crit_damage_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 5 Critical Damage Power Up')
+        .displayName('§a§lTier 5 Critical Damage Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+2.0% Critical Damage')
 
     event.create('tier_6_crit_damage_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 6 Critical Damage Power Up')
+        .displayName('§a§lTier 6 Critical Damage Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+2.5% Critical Damage')
 
     event.create('tier_7_crit_damage_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 7 Critical Damage Power Up')
+        .displayName('§3§lTier 7 Critical Damage Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+3.0% Critical Damage')
 
     event.create('tier_8_crit_damage_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 8 Critical Damage Power Up')
+        .displayName('§3§lTier 8 Critical Damage Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+3.5% Critical Damage')
 
     event.create('tier_9_crit_damage_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 9 Critical Damage Power Up')
+        .displayName('§3§lTier 9 Critical Damage Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+4.0% Critical Damage')
 
@@ -434,7 +434,7 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_3_health_boost_power_up')
         .maxStackSize(64)
-        .displayName('§a§lTier 3 Health Boost Power Up')
+        .displayName('§lTier 3 Health Boost Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+12 Health Boost')
 
@@ -446,31 +446,31 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_5_health_boost_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 5 Health Boost Power Up')
+        .displayName('§a§lTier 5 Health Boost Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+32 Health Boost')
 
     event.create('tier_6_health_boost_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 6 Health Boost Power Up')
+        .displayName('§a§lTier 6 Health Boost Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+48 Health Boost')
 
     event.create('tier_7_health_boost_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 7 Health Boost Power Up')
+        .displayName('§3§lTier 7 Health Boost Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+60 Health Boost')
 
     event.create('tier_8_health_boost_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 8 Health Boost Power Up')
+        .displayName('§3§lTier 8 Health Boost Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+80 Health Boost')
 
     event.create('tier_9_health_boost_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 9 Health Boost Power Up')
+        .displayName('§3§lTier 9 Health Boost Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+100 Health Boost')
 
@@ -494,7 +494,7 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_3_knockback_resistance_power_up')
         .maxStackSize(64)
-        .displayName('§a§lTier 3 Knockback Resistance Power Up')
+        .displayName('§lTier 3 Knockback Resistance Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+1.5% Knockback Resistance')
 
@@ -506,31 +506,31 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_5_knockback_resistance_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 5 Knockback Resistance Power Up')
+        .displayName('§a§lTier 5 Knockback Resistance Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+2.0% Knockback Resistance')
 
     event.create('tier_6_knockback_resistance_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 6 Knockback Resistance Power Up')
+        .displayName('§a§lTier 6 Knockback Resistance Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+2.5% Knockback Resistance')
 
     event.create('tier_7_knockback_resistance_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 7 Knockback Resistance Power Up')
+        .displayName('§3§lTier 7 Knockback Resistance Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+3.0% Knockback Resistance')
 
     event.create('tier_8_knockback_resistance_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 8 Knockback Resistance Power Up')
+        .displayName('§3§lTier 8 Knockback Resistance Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+3.5% Knockback Resistance')
 
     event.create('tier_9_knockback_resistance_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 9 Knockback Resistance Power Up')
+        .displayName('§3§lTier 9 Knockback Resistance Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+4.0% Knockback Resistance')
 
@@ -554,7 +554,7 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_3_lung_capacity_power_up')
         .maxStackSize(64)
-        .displayName('§a§lTier 3 Lung Capacity Power Up')
+        .displayName('§lTier 3 Lung Capacity Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+60 Lung Capacity')
 
@@ -566,31 +566,31 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_5_lung_capacity_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 5 Lung Capacity Power Up')
+        .displayName('§a§lTier 5 Lung Capacity Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+100 Lung Capacity')
 
     event.create('tier_6_lung_capacity_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 6 Lung Capacity Power Up')
+        .displayName('§a§lTier 6 Lung Capacity Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+120 Lung Capacity')
 
     event.create('tier_7_lung_capacity_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 7 Lung Capacity Power Up')
+        .displayName('§3§lTier 7 Lung Capacity Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+140 Lung Capacity')
 
     event.create('tier_8_lung_capacity_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 8 Lung Capacity Power Up')
+        .displayName('§3§lTier 8 Lung Capacity Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+160 Lung Capacity')
 
     event.create('tier_9_lung_capacity_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 9 Lung Capacity Power Up')
+        .displayName('§3§lTier 9 Lung Capacity Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+180 Lung Capacity')
 
@@ -614,7 +614,7 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_3_mana_boost_power_up')
         .maxStackSize(64)
-        .displayName('§a§lTier 3 Mana Boost Power Up')
+        .displayName('§lTier 3 Mana Boost Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+15 Mana Boost')
 
@@ -626,31 +626,31 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_5_mana_boost_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 5 Mana Boost Power Up')
+        .displayName('§a§lTier 5 Mana Boost Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+20 Mana Boost')
 
     event.create('tier_6_mana_boost_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 6 Mana Boost Power Up')
+        .displayName('§a§lTier 6 Mana Boost Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+25 Mana Boost')
 
     event.create('tier_7_mana_boost_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 7 Mana Boost Power Up')
+        .displayName('§3§lTier 7 Mana Boost Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+30 Mana Boost')
 
     event.create('tier_8_mana_boost_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 8 Mana Boost Power Up')
+        .displayName('§3§lTier 8 Mana Boost Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+35 Mana Boost')
 
     event.create('tier_9_mana_boost_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 9 Mana Boost Power Up')
+        .displayName('§3§lTier 9 Mana Boost Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+40 Mana Boost')
 
@@ -674,7 +674,7 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_3_mana_regen_power_up')
         .maxStackSize(64)
-        .displayName('§a§lTier 3 Mana Regeneration Power Up')
+        .displayName('§lTier 3 Mana Regeneration Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+4.0% Mana Regeneration')
 
@@ -686,31 +686,31 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_5_mana_regen_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 5 Mana Regeneration Power Up')
+        .displayName('§a§lTier 5 Mana Regeneration Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+10.0% Mana Regeneration')
 
     event.create('tier_6_mana_regen_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 6 Mana Regeneration Power Up')
+        .displayName('§a§lTier 6 Mana Regeneration Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+12.0% Mana Regeneration')
 
     event.create('tier_7_mana_regen_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 7 Mana Regeneration Power Up')
+        .displayName('§3§lTier 7 Mana Regeneration Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+14.0% Mana Regeneration')
 
     event.create('tier_8_mana_regen_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 8 Mana Regeneration Power Up')
+        .displayName('§3§lTier 8 Mana Regeneration Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+16.0% Mana Regeneration')
 
     event.create('tier_9_mana_regen_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 9 Mana Regeneration Power Up')
+        .displayName('§3§lTier 9 Mana Regeneration Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+18.0% Mana Regeneration')
 
@@ -734,7 +734,7 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_3_movement_speed_power_up')
         .maxStackSize(64)
-        .displayName('§a§lTier 3 Movement Speed Power Up')
+        .displayName('§lTier 3 Movement Speed Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+1.5% Movement Speed')
 
@@ -746,31 +746,31 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_5_movement_speed_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 5 Movement Speed Power Up')
+        .displayName('§a§lTier 5 Movement Speed Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+2.0% Movement Speed')
 
     event.create('tier_6_movement_speed_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 6 Movement Speed Power Up')
+        .displayName('§a§lTier 6 Movement Speed Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+2.5% Movement Speed')
 
     event.create('tier_7_movement_speed_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 7 Movement Speed Power Up')
+        .displayName('§3§lTier 7 Movement Speed Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+3.0% Movement Speed')
 
     event.create('tier_8_movement_speed_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 8 Movement Speed Power Up')
+        .displayName('§3§lTier 8 Movement Speed Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+3.5% Movement Speed')
 
     event.create('tier_9_movement_speed_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 9 Movement Speed Power Up')
+        .displayName('§3§lTier 9 Movement Speed Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+4.0% Movement Speed')
 
@@ -794,7 +794,7 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_3_spell_power_power_up')
         .maxStackSize(64)
-        .displayName('§a§lTier 3 Spell Power Power Up')
+        .displayName('§lTier 3 Spell Power Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+1.5% Spell Power')
 
@@ -806,31 +806,31 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_5_spell_power_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 5 Spell Power Power Up')
+        .displayName('§a§lTier 5 Spell Power Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+2.0% Spell Power')
 
     event.create('tier_6_spell_power_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 6 Spell Power Power Up')
+        .displayName('§a§lTier 6 Spell Power Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+2.5% Spell Power')
 
     event.create('tier_7_spell_power_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 7 Spell Power Power Up')
+        .displayName('§3§lTier 7 Spell Power Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+3.0% Spell Power')
 
     event.create('tier_8_spell_power_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 8 Spell Power Power Up')
+        .displayName('§3§lTier 8 Spell Power Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+3.5% Spell Power')
 
     event.create('tier_9_spell_power_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 9 Spell Power Power Up')
+        .displayName('§3§lTier 9 Spell Power Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+4.0% Spell Power')
 
@@ -854,7 +854,7 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_3_stamina_power_up')
         .maxStackSize(64)
-        .displayName('§a§lTier 3 Stamina Power Up')
+        .displayName('§lTier 3 Stamina Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+0.4 Stamina')
 
@@ -866,31 +866,31 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_5_stamina_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 5 Stamina Power Up')
+        .displayName('§a§lTier 5 Stamina Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+1 Stamina')
 
     event.create('tier_6_stamina_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 6 Stamina Power Up')
+        .displayName('§a§lTier 6 Stamina Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+1.2 Stamina')
 
     event.create('tier_7_stamina_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 7 Stamina Power Up')
+        .displayName('§3§lTier 7 Stamina Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+1.4 Stamina')
 
     event.create('tier_8_stamina_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 8 Stamina Power Up')
+        .displayName('§3§lTier 8 Stamina Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+1.6 Stamina')
 
     event.create('tier_9_stamina_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 9 Stamina Power Up')
+        .displayName('§3§lTier 9 Stamina Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+1.5 Stamina')
 
@@ -914,7 +914,7 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_3_swim_speed_power_up')
         .maxStackSize(64)
-        .displayName('§a§lTier 3 Swim Speed Power Up')
+        .displayName('§lTier 3 Swim Speed Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+4.0% Swim Speed')
 
@@ -926,31 +926,31 @@ StartupEvents.registry('item', event => {
 
     event.create('tier_5_swim_speed_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 5 Swim Speed Power Up')
+        .displayName('§a§lTier 5 Swim Speed Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+10.0% Swim Speed')
 
     event.create('tier_6_swim_speed_power_up')
         .maxStackSize(64)
-        .displayName('§3§lTier 6 Swim Speed Power Up')
+        .displayName('§a§lTier 6 Swim Speed Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+12.0% Swim Speed')
 
     event.create('tier_7_swim_speed_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 7 Swim Speed Power Up')
+        .displayName('§3§lTier 7 Swim Speed Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+14.0% Swim Speed')
 
     event.create('tier_8_swim_speed_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 8 Swim Speed Power Up')
+        .displayName('§3§lTier 8 Swim Speed Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+16.0% Swim Speed')
 
     event.create('tier_9_swim_speed_power_up')
         .maxStackSize(64)
-        .displayName('§5§lTier 9 Swim Speed Power Up')
+        .displayName('§3§lTier 9 Swim Speed Power Up')
         .tooltip("§9Apply on armor piece with a template to gain")
         .tooltip('+18.0% Swim Speed')
 

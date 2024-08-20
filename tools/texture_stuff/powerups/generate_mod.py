@@ -82,11 +82,11 @@ def create_directory(dir_path):
     os.makedirs(dir_path, exist_ok=True)
 
 def which_upgrade_label(tier):
-    if tier<3:
+    if tier<4:
         return 1
-    if tier<5:
-        return 2
     if tier<7:
+        return 2
+    if tier<10:
         return 3
     return 4
 
@@ -94,11 +94,11 @@ def get_title_color(tier):
     return f'{get_title_color_final(tier)}§l'
 
 def get_title_color_final(tier):
-    if tier<3:
+    if tier<4:
         return ''
-    if tier<5:
-        return '§a'
     if tier<7:
+        return '§a'
+    if tier<10:
         return '§3'
     return '§5'
 
