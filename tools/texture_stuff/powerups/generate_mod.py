@@ -199,17 +199,18 @@ attr_map = {
         'trim_asset_name' : 'iron',
         'attribute': 'minecraft:generic.armor',
         'operation': 'ADDITION',
+        'percentage' : False,
         'tier_m': {
-            1: 0.5,
-            2: 1,
-            3: 2,
-            4: 3,
-            5: 4,
-            6: 5,
-            7: 6,
-            8: 7,
-            9: 8,
-            10: 9
+            1: 1,
+            2: 2,
+            3: 3,
+            4: 5,
+            5: 7,
+            6: 10,
+            7: 25,
+            8: 32,
+            9: 40,
+            10: 75
         }
     },
     'armor_toughness': {
@@ -219,17 +220,18 @@ attr_map = {
         'trim_asset_name' : 'andesite',
         'attribute': 'minecraft:generic.armor_toughness',
         'operation': 'ADDITION',
+        'percentage' : False,
         'tier_m': {
-            1: 0.2,
-            2: 0.4,
-            3: 0.6,
-            4: 0.8,
-            5: 1.0,
-            6: 1.2,
-            7: 1.4,
-            8: 1.6,
-            9: 1.8,
-            10: 2.0
+            1: 1.25,
+            2: 1.5,
+            3: 1.75,
+            4: 2.0,
+            5: 4.0,
+            6: 5.0,
+            7: 6.0,
+            8: 7.0,
+            9: 8.0,
+            10: 10.0
         }
     },
     'armor_pierce': {
@@ -239,17 +241,18 @@ attr_map = {
         'trim_asset_name' : 'lapis',
         'attribute': 'attributeslib:armor_pierce',
         'operation': 'ADDITION',
+        'percentage' : False,
         'tier_m': {
-            1: 1,
-            2: 2,
-            3: 3,
-            4: 4,
-            5: 5,
-            6: 6,
-            7: 7,
-            8: 8,
-            9: 9,
-            10: 10
+            1: 1.25,
+            2: 1.5,
+            3: 1.75,
+            4: 2.0,
+            5: 4.0,
+            6: 5.0,
+            7: 6.0,
+            8: 7.0,
+            9: 8.0,
+            10: 10.0
         }
     },
     'armor_shred': {
@@ -259,17 +262,18 @@ attr_map = {
         'trim_asset_name' : 'brass',
         'attribute': 'attributeslib:armor_shred',
         'operation': 'ADDITION',
+        'percentage' : True,
         'tier_m': {
-            1: 1,
-            2: 2,
-            3: 3,
-            4: 4,
-            5: 5,
-            6: 6,
-            7: 7,
-            8: 8,
-            9: 9,
-            10: 10
+            1: 0.001,
+            2: 0.002,
+            3: 0.004,
+            4: 0.008,
+            5: 0.01,
+            6: 0.012,
+            7: 0.014,
+            8: 0.016,
+            9: 0.018,
+            10: 0.02
         }
     },
     'cooldown_reduction': {
@@ -279,17 +283,18 @@ attr_map = {
         'trim_asset_name' : 'gold',
         'attribute': 'irons_spellbooks:cooldown_reduction',
         'operation': 'ADDITION',
+        'percentage' : True,
         'tier_m': {
-            1: 1,
-            2: 2,
-            3: 3,
-            4: 4,
-            5: 5,
-            6: 6,
-            7: 7,
-            8: 8,
-            9: 9,
-            10: 10
+            1: 0.001,
+            2: 0.002,
+            3: 0.003,
+            4: 0.004,
+            5: 0.005,
+            6: 0.01,
+            7: 0.02,
+            8: 0.04,
+            9: 0.06,
+            10: 0.08
         }
     },
     'crit_chance': {
@@ -299,17 +304,18 @@ attr_map = {
         'trim_asset_name' : 'exp',
         'attribute': 'attributeslib:crit_chance',
         'operation': 'ADDITION',
+        'percentage' : True,
         'tier_m': {
-            1: 0.5,
-            2: 1,
-            3: 1.5,
-            4: 2,
-            5: 2.5,
-            6: 3,
-            7: 3.5,
-            8: 4,
-            9: 4.5,
-            10: 5
+            1: 0.01,
+            2: 0.0125,
+            3: 0.015,
+            4: 0.0175,
+            5: 0.02,
+            6: 0.025,
+            7: 0.03,
+            8: 0.035,
+            9: 0.04,
+            10: 0.05
         }
     },
     'crit_damage': {
@@ -319,17 +325,18 @@ attr_map = {
         'trim_asset_name' : 'exp',
         'attribute': 'attributeslib:crit_damage',
         'operation': 'ADDITION',
+        'percentage' : True,
         'tier_m': {
-            1: 2,
-            2: 4,
-            3: 6,
-            4: 8,
-            5: 10,
-            6: 12,
-            7: 14,
-            8: 16,
-            9: 18,
-            10: 20
+            1: 0.01,
+            2: 0.0125,
+            3: 0.015,
+            4: 0.0175,
+            5: 0.02,
+            6: 0.025,
+            7: 0.03,
+            8: 0.035,
+            9: 0.04,
+            10: 0.05
         }
     },
     'health_boost': {
@@ -339,17 +346,18 @@ attr_map = {
         'trim_asset_name' : 'redstone',
         'attribute': 'minecraft:generic.max_health',
         'operation': 'ADDITION',
+        'percentage' : False,
         'tier_m': {
-            1: 10,
-            2: 20,
-            3: 30,
-            4: 40,
-            5: 50,
-            6: 60,
-            7: 70,
+            1: 4,
+            2: 8,
+            3: 12,
+            4: 16,
+            5: 32,
+            6: 48,
+            7: 60,
             8: 80,
-            9: 90,
-            10: 100
+            9: 100,
+            10: 120
         }
     },
     'knockback_resistance': {
@@ -359,17 +367,18 @@ attr_map = {
         'trim_asset_name' : 'netherite',
         'attribute': 'minecraft:generic.knockback_resistance',
         'operation': 'ADDITION',
+        'percentage' : True,
         'tier_m': {
-            1: 0.5,
-            2: 1,
-            3: 1.5,
-            4: 2,
-            5: 2.5,
-            6: 3,
-            7: 3.5,
-            8: 4,
-            9: 4.5,
-            10: 5
+            1: 0.01,
+            2: 0.0125,
+            3: 0.015,
+            4: 0.0175,
+            5: 0.02,
+            6: 0.025,
+            7: 0.03,
+            8: 0.035,
+            9: 0.04,
+            10: 0.05
         }
     },
     'lung_capacity': {
@@ -379,17 +388,18 @@ attr_map = {
         'trim_asset_name' : 'refined_radiance',
         'attribute': 'additionalentityattributes:lung_capacity',
         'operation': 'ADDITION',
+        'percentage' : False,
         'tier_m': {
-            1: 10,
-            2: 20,
-            3: 30,
-            4: 40,
-            5: 50,
-            6: 60,
-            7: 70,
-            8: 80,
-            9: 90,
-            10: 100
+            1: 20,
+            2: 40,
+            3: 60,
+            4: 80,
+            5: 100,
+            6: 120,
+            7: 140,
+            8: 160,
+            9: 180,
+            10: 240
         }
     },
     'mana_boost': {
@@ -399,17 +409,18 @@ attr_map = {
         'trim_asset_name' : 'lapis',
         'attribute': 'irons_spellbooks:max_mana',
         'operation': 'ADDITION',
+        'percentage' : False,
         'tier_m': {
             1: 10,
-            2: 20,
-            3: 30,
-            4: 40,
-            5: 50,
-            6: 60,
-            7: 70,
-            8: 80,
-            9: 90,
-            10: 100
+            2: 12,
+            3: 15,
+            4: 17,
+            5: 20,
+            6: 25,
+            7: 30,
+            8: 35,
+            9: 40,
+            10: 50
         }
     },
     'mana_regen': {
@@ -419,17 +430,18 @@ attr_map = {
         'trim_asset_name' : 'lapis',
         'attribute': 'irons_spellbooks:mana_regen',
         'operation': 'ADDITION',
+        'percentage' : True,
         'tier_m': {
-            1: 1,
-            2: 2,
-            3: 3,
-            4: 4,
-            5: 5,
-            6: 6,
-            7: 7,
-            8: 8,
-            9: 9,
-            10: 10
+            1: 0.01,
+            2: 0.02,
+            3: 0.04,
+            4: 0.08,
+            5: 0.1,
+            6: 0.12,
+            7: 0.14,
+            8: 0.16,
+            9: 0.18,
+            10: 0.2
         }
     },
     'movement_speed': {
@@ -439,17 +451,18 @@ attr_map = {
         'trim_asset_name' : 'quartz',
         'attribute': 'minecraft:generic.movement_speed',
         'operation': 'ADDITION',
+        'percentage' : True,
         'tier_m': {
-            1: 1,
-            2: 2,
-            3: 3,
-            4: 4,
-            5: 5,
-            6: 6,
-            7: 7,
-            8: 8,
-            9: 9,
-            10: 10
+            1: 0.01,
+            2: 0.0125,
+            3: 0.015,
+            4: 0.0175,
+            5: 0.02,
+            6: 0.025,
+            7: 0.03,
+            8: 0.035,
+            9: 0.04,
+            10: 0.05
         }
     },
     'spell_power': {
@@ -459,17 +472,18 @@ attr_map = {
         'trim_asset_name' : 'exp',
         'attribute': 'irons_spellbooks:spell_power',
         'operation': 'ADDITION',
+        'percentage' : True,
         'tier_m': {
-            1: 5,
-            2: 10,
-            3: 15,
-            4: 20,
-            5: 25,
-            6: 30,
-            7: 35,
-            8: 40,
-            9: 45,
-            10: 50
+            1: 0.01,
+            2: 0.0125,
+            3: 0.015,
+            4: 0.0175,
+            5: 0.02,
+            6: 0.025,
+            7: 0.03,
+            8: 0.035,
+            9: 0.04,
+            10: 0.05
         }
     },
     'stamina': {
@@ -479,17 +493,18 @@ attr_map = {
         'trim_asset_name' : 'zinc',
         'attribute': 'puffish_attributes:player.stamina',
         'operation': 'ADDITION',
+        'percentage' : False,
         'tier_m': {
-            1: 10,
-            2: 20,
-            3: 30,
-            4: 40,
-            5: 50,
-            6: 60,
-            7: 70,
-            8: 80,
-            9: 90,
-            10: 100
+            1: 0.1,
+            2: 0.2,
+            3: 0.4,
+            4: 0.8,
+            5: 1,
+            6: 1.2,
+            7: 1.4,
+            8: 1.6,
+            9: 1.5,
+            10: 2.0
         }
     },
     'swim_speed': {
@@ -499,17 +514,18 @@ attr_map = {
         'trim_asset_name' : 'copper',
         'attribute': 'additionalentityattributes:water_speed',
         'operation': 'ADDITION',
+        'percentage' : True,
         'tier_m': {
-            1: 0.1,
-            2: 0.2,
-            3: 0.3,
-            4: 0.4,
-            5: 0.5,
-            6: 0.6,
-            7: 0.7,
-            8: 0.8,
-            9: 0.9,
-            10: 1.0
+            1: 0.01,
+            2: 0.02,
+            3: 0.04,
+            4: 0.08,
+            5: 0.1,
+            6: 0.12,
+            7: 0.14,
+            8: 0.16,
+            9: 0.18,
+            10: 0.2
         }
     }
 }
@@ -616,7 +632,12 @@ for attr in attr_map:
         
         attr_text = attr_map[attr]['attr_text']
         attr_value = attr_map.get(attr).get('tier_m').get(tier)
-        item_events.append((item_base_name, f'{title_color}Tier {tier_str} {attr_text} Power Up', f'+{str(attr_value)} {attr_text}'))
+
+        tool_tip_bottom = f'+{str(attr_value)} {attr_text}'
+        if attr_map[attr]['percentage']:
+            tool_tip_bottom = f'+{str(round(attr_value*100, 2))}% {attr_text}'
+
+        item_events.append((item_base_name, f'{title_color}Tier {tier_str} {attr_text} Power Up', tool_tip_bottom))
 
         BASE_TRIM_CONFIG[full_item_id] = [{
             'attribute': attr_map[attr]['attribute'],
