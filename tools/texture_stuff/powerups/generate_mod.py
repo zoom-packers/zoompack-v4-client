@@ -374,6 +374,9 @@ attr_map = {
     },
     'lung_capacity': {
         'attr_text': 'Lung Capacity',
+        'recipe_base_element': 'minecraft:conduit',
+        'trim_description_color': '#CDCDCD',
+        'trim_asset_name' : 'refined_radiance',
         'attribute': 'additionalentityattributes:lung_capacity',
         'operation': 'ADDITION',
         'tier_m': {
@@ -391,6 +394,9 @@ attr_map = {
     },
     'mana_boost': {
         'attr_text': 'Mana Boost',
+        'recipe_base_element': 'irons_spellbooks:mana_ring',
+        'trim_description_color': '#0B5394',
+        'trim_asset_name' : 'lapis',
         'attribute': 'irons_spellbooks:max_mana',
         'operation': 'ADDITION',
         'tier_m': {
@@ -408,6 +414,9 @@ attr_map = {
     },
     'mana_regen': {
         'attr_text': 'Mana Regeneration',
+        'recipe_base_element': 'irons_spellbooks:mana_upgrade_orb',
+        'trim_description_color': '#0B5394',
+        'trim_asset_name' : 'lapis',
         'attribute': 'irons_spellbooks:mana_regen',
         'operation': 'ADDITION',
         'tier_m': {
@@ -425,6 +434,9 @@ attr_map = {
     },
     'movement_speed': {
         'attr_text': 'Movement Speed',
+        'recipe_base_element': 'minecraft:dirt_path',
+        'trim_description_color': '#F3F6F4',
+        'trim_asset_name' : 'quartz',
         'attribute': 'minecraft:generic.movement_speed',
         'operation': 'ADDITION',
         'tier_m': {
@@ -442,6 +454,9 @@ attr_map = {
     },
     'spell_power': {
         'attr_text': 'Spell Power',
+        'recipe_base_element': 'irons_spellbooks:magic_cloth',
+        'trim_description_color': '#FFD966',
+        'trim_asset_name' : 'exp',
         'attribute': 'irons_spellbooks:spell_power',
         'operation': 'ADDITION',
         'tier_m': {
@@ -459,6 +474,9 @@ attr_map = {
     },
     'stamina': {
         'attr_text': 'Stamina',
+        'recipe_base_element': 'create:zinc_block',
+        'trim_description_color': '#999999',
+        'trim_asset_name' : 'zinc',
         'attribute': 'puffish_attributes:player.stamina',
         'operation': 'ADDITION',
         'tier_m': {
@@ -476,6 +494,9 @@ attr_map = {
     },
     'swim_speed': {
         'attr_text': 'Swim Speed',
+        'recipe_base_element': 'minecraft:copper_block',
+        'trim_description_color': '#B45F06',
+        'trim_asset_name' : 'copper',
         'attribute': 'additionalentityattributes:water_speed',
         'operation': 'ADDITION',
         'tier_m': {
@@ -517,7 +538,6 @@ create_directory(server_scripts_path)
 create_directory(config_folder)
 create_directory(lang_path)
 create_directory(trim_material_folder)
-# TODO: add lang integration
 
 print("ZOOM >>> Folder structure generated")
 
