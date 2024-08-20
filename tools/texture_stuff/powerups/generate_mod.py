@@ -530,6 +530,7 @@ attr_map = {
     }
 }
 
+TIERS_LIST = range(1,11)
 
 layers_path = 'layers'
 generated_mod_folder = 'trim_mod_data'
@@ -675,6 +676,19 @@ with open(trim_config_file, 'w+') as f:
 
 data_mc_tags_items_path = f'{kjs_generated_folder}/data/minecraft/tags/items'
 create_directory(data_mc_tags_items_path)
+
+for tier in TIERS_LIST:
+    tier_item_ids = []
+    tier_str = str(tier)
+    for attr in attr_map:
+        item_base_name = f'tier_{tier_str}_{attr}_power_up'
+        full_item_id = f'kubejs:{item_base_name}'
+
+        tier_item_ids.append(full_item_id)
+    
+    generate_server_js_tags_file(f'{server_scripts_path}/tier_{tier_str}_tags.js', tier_item_ids, f'forge:tier_{tier_str}_power_ups')
+
+print("ZOOM >>> Individual tiers tags generated")
 
 trim_material_config = {
     "replace": False,
