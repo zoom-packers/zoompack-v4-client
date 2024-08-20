@@ -8073,6 +8073,110 @@
             "unbreakable": false
         },
         {
+            "item": "aquaculture:neptunium_helmet",
+            "overrides_head": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.01,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aquaculture:neptunium_chestplate",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.01,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aquaculture:neptunium_leggings",
+            "overrides_legs": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.01,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aquaculture:neptunium_boots",
+            "overrides_feet": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.01,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "unbreakable": false
+        },
+        {
             "item": "blue_skies:pyrope_helmet",
             "overrides_head": [
                 {
@@ -8087,7 +8191,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
+                    "value": 0.02,
                     "operation": "ADDITION"
                 }
             ],
@@ -8113,7 +8217,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
+                    "value": 0.02,
                     "operation": "ADDITION"
                 }
             ],
@@ -8139,7 +8243,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
+                    "value": 0.02,
                     "operation": "ADDITION"
                 }
             ],
@@ -8165,7 +8269,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
+                    "value": 0.02,
                     "operation": "ADDITION"
                 }
             ],
@@ -8207,7 +8311,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
+                    "value": 0.021,
                     "operation": "ADDITION"
                 }
             ],
@@ -8233,7 +8337,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
+                    "value": 0.021,
                     "operation": "ADDITION"
                 }
             ],
@@ -8259,7 +8363,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
+                    "value": 0.021,
                     "operation": "ADDITION"
                 }
             ],
@@ -8285,7 +8389,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
+                    "value": 0.021,
                     "operation": "ADDITION"
                 }
             ],
@@ -8327,7 +8431,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
+                    "value": 0.022,
                     "operation": "ADDITION"
                 }
             ],
@@ -8353,7 +8457,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
+                    "value": 0.022,
                     "operation": "ADDITION"
                 }
             ],
@@ -8379,7 +8483,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
+                    "value": 0.022,
                     "operation": "ADDITION"
                 }
             ],
@@ -8405,7 +8509,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
+                    "value": 0.022,
                     "operation": "ADDITION"
                 }
             ],
@@ -8431,7 +8535,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
+                    "value": 0.023,
                     "operation": "ADDITION"
                 }
             ],
@@ -8457,7 +8561,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
+                    "value": 0.023,
                     "operation": "ADDITION"
                 }
             ],
@@ -8483,7 +8587,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
+                    "value": 0.023,
                     "operation": "ADDITION"
                 }
             ],
@@ -8509,7 +8613,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
+                    "value": 0.023,
                     "operation": "ADDITION"
                 }
             ],
@@ -8551,7 +8655,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
+                    "value": 0.24,
                     "operation": "ADDITION"
                 }
             ],
@@ -8577,7 +8681,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
+                    "value": 0.24,
                     "operation": "ADDITION"
                 }
             ],
@@ -8603,7 +8707,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
+                    "value": 0.24,
                     "operation": "ADDITION"
                 }
             ],
@@ -8629,7 +8733,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
+                    "value": 0.24,
                     "operation": "ADDITION"
                 }
             ],
@@ -8657,6 +8761,630 @@
             "unbreakable": false
         },
         {
+            "item": "aether:zanite_helmet",
+            "overrides_head": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.025,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:zanite_chestplate",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.025,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:zanite_leggings",
+            "overrides_legs": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.025,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:zanite_boots",
+            "overrides_feet": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.025,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:neptune_helmet",
+            "overrides_head": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.026,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:neptune_chestplate",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.026,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:neptune_leggings",
+            "overrides_legs": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.026,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:neptune_boots",
+            "overrides_feet": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.026,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:gravitite_helmet",
+            "overrides_head": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.023,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:gravitite_chestplate",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.023,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:gravitite_leggings",
+            "overrides_legs": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.023,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:gravitite_boots",
+            "overrides_feet": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.023,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:valkyrie_helmet",
+            "overrides_head": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.022,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:valkyrie_chestplate",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.022,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:valkyrie_leggings",
+            "overrides_legs": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.022,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:valkyrie_boots",
+            "overrides_feet": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.022,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:phoenix_helmet",
+            "overrides_head": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.071,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:phoenix_chestplate",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.071,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:phoenix_leggings",
+            "overrides_legs": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.071,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:phoenix_boots",
+            "overrides_feet": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.071,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:obsidian_helmet",
+            "overrides_head": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.12,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:obsidian_chestplate",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.12,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:obsidian_leggings",
+            "overrides_legs": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.12,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aether:obsidian_boots",
+            "overrides_feet": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.12,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "unbreakable": false
+        },
+        {
             "item": "betternether:cincinnasite_helmet",
             "overrides_head": [
                 {
@@ -8671,7 +9399,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.125,
+                    "value": -0.005,
                     "operation": "ADDITION"
                 }
             ],
@@ -8697,7 +9425,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.125,
+                    "value": -0.005,
                     "operation": "ADDITION"
                 }
             ],
@@ -8723,7 +9451,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.125,
+                    "value": -0.005,
                     "operation": "ADDITION"
                 }
             ],
@@ -8749,7 +9477,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.125,
+                    "value": -0.005,
                     "operation": "ADDITION"
                 }
             ],
@@ -8775,7 +9503,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.05,
+                    "value": -0.167,
                     "operation": "ADDITION"
                 }
             ],
@@ -8801,7 +9529,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.05,
+                    "value": -0.167,
                     "operation": "ADDITION"
                 }
             ],
@@ -8827,7 +9555,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.05,
+                    "value": -0.167,
                     "operation": "ADDITION"
                 }
             ],
@@ -8853,7 +9581,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.05,
+                    "value": -0.167,
                     "operation": "ADDITION"
                 }
             ],
@@ -8879,7 +9607,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.0,
+                    "value": -0.262,
                     "operation": "ADDITION"
                 }
             ],
@@ -8905,7 +9633,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.0,
+                    "value": -0.262,
                     "operation": "ADDITION"
                 }
             ],
@@ -8931,7 +9659,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.0,
+                    "value": -0.262,
                     "operation": "ADDITION"
                 }
             ],
@@ -8957,7 +9685,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.0,
+                    "value": -0.262,
                     "operation": "ADDITION"
                 }
             ],
@@ -9015,7 +9743,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": 0.058,
                     "operation": "ADDITION"
                 }
             ],
@@ -9041,7 +9769,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": 0.058,
                     "operation": "ADDITION"
                 }
             ],
@@ -9067,7 +9795,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": 0.058,
                     "operation": "ADDITION"
                 }
             ],
@@ -9093,7 +9821,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": 0.058,
                     "operation": "ADDITION"
                 }
             ],
@@ -9119,7 +9847,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": 0.058,
                     "operation": "ADDITION"
                 }
             ],
@@ -9145,7 +9873,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": 0.058,
                     "operation": "ADDITION"
                 }
             ],
@@ -9171,7 +9899,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": 0.058,
                     "operation": "ADDITION"
                 }
             ],
@@ -9197,7 +9925,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": 0.058,
                     "operation": "ADDITION"
                 }
             ],
@@ -9223,7 +9951,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": 0.058,
                     "operation": "ADDITION"
                 }
             ],
@@ -9249,7 +9977,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": 0.058,
                     "operation": "ADDITION"
                 }
             ],
@@ -9275,7 +10003,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": 0.058,
                     "operation": "ADDITION"
                 }
             ],
@@ -9301,7 +10029,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": 0.058,
                     "operation": "ADDITION"
                 }
             ],
@@ -9327,7 +10055,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": 0.0,
                     "operation": "ADDITION"
                 },
                 {
@@ -9358,7 +10086,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": 0.0,
                     "operation": "ADDITION"
                 },
                 {
@@ -9389,7 +10117,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": 0.0,
                     "operation": "ADDITION"
                 },
                 {
@@ -9420,7 +10148,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": 0.0,
                     "operation": "ADDITION"
                 },
                 {
@@ -9531,7 +10259,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.375,
+                    "value": 0.008,
                     "operation": "ADDITION"
                 }
             ],
@@ -9557,7 +10285,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.375,
+                    "value": 0.008,
                     "operation": "ADDITION"
                 }
             ],
@@ -9583,7 +10311,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.375,
+                    "value": 0.008,
                     "operation": "ADDITION"
                 }
             ],
@@ -9609,7 +10337,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.375,
+                    "value": 0.008,
                     "operation": "ADDITION"
                 }
             ],
@@ -9635,7 +10363,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.325,
+                    "value": -0.042,
                     "operation": "ADDITION"
                 }
             ],
@@ -9661,7 +10389,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.325,
+                    "value": -0.042,
                     "operation": "ADDITION"
                 }
             ],
@@ -9687,7 +10415,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.325,
+                    "value": -0.042,
                     "operation": "ADDITION"
                 }
             ],
@@ -9713,7 +10441,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.325,
+                    "value": -0.042,
                     "operation": "ADDITION"
                 }
             ],
@@ -9819,7 +10547,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.4,
+                    "value": -0.34,
                     "operation": "ADDITION"
                 }
             ],
@@ -9845,7 +10573,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.4,
+                    "value": 0.06,
                     "operation": "ADDITION"
                 }
             ],
@@ -9871,7 +10599,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.35,
+                    "value": 0.01,
                     "operation": "ADDITION"
                 }
             ],
@@ -9897,7 +10625,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.35,
+                    "value": 0.01,
                     "operation": "ADDITION"
                 }
             ],
@@ -9923,7 +10651,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.35,
+                    "value": 0.01,
                     "operation": "ADDITION"
                 }
             ],
@@ -9949,7 +10677,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.35,
+                    "value": 0.01,
                     "operation": "ADDITION"
                 }
             ],
@@ -9975,7 +10703,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": -0.04,
                     "operation": "ADDITION"
                 }
             ],
@@ -10001,7 +10729,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": -0.04,
                     "operation": "ADDITION"
                 }
             ],
@@ -10027,7 +10755,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": -0.04,
                     "operation": "ADDITION"
                 }
             ],
@@ -10053,7 +10781,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": -0.04,
                     "operation": "ADDITION"
                 }
             ],
@@ -10079,7 +10807,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": -0.04,
                     "operation": "ADDITION"
                 }
             ],
@@ -10105,7 +10833,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": -0.04,
                     "operation": "ADDITION"
                 }
             ],
@@ -10131,7 +10859,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": -0.04,
                     "operation": "ADDITION"
                 }
             ],
@@ -10157,7 +10885,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": -0.04,
                     "operation": "ADDITION"
                 }
             ],
@@ -10183,7 +10911,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": -0.04,
                     "operation": "ADDITION"
                 }
             ],
@@ -10209,7 +10937,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": -0.04,
                     "operation": "ADDITION"
                 }
             ],
@@ -10235,7 +10963,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": -0.04,
                     "operation": "ADDITION"
                 }
             ],
@@ -10261,7 +10989,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": -0.04,
                     "operation": "ADDITION"
                 }
             ],
@@ -10287,7 +11015,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": 0.065,
                     "operation": "ADDITION"
                 }
             ],
@@ -10313,7 +11041,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": 0.065,
                     "operation": "ADDITION"
                 }
             ],
@@ -10339,7 +11067,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": 0.065,
                     "operation": "ADDITION"
                 }
             ],
@@ -10365,7 +11093,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": 0.065,
                     "operation": "ADDITION"
                 }
             ],
@@ -10391,7 +11119,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": 0.065,
                     "operation": "ADDITION"
                 }
             ],
@@ -10417,7 +11145,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": 0.065,
                     "operation": "ADDITION"
                 }
             ],
@@ -10443,7 +11171,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": 0.065,
                     "operation": "ADDITION"
                 }
             ],
@@ -10469,7 +11197,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": 0.065,
                     "operation": "ADDITION"
                 }
             ],
@@ -10495,7 +11223,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": -0.125,
                     "operation": "ADDITION"
                 }
             ],
@@ -10521,7 +11249,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": -0.125,
                     "operation": "ADDITION"
                 }
             ],
@@ -10547,7 +11275,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": -0.125,
                     "operation": "ADDITION"
                 }
             ],
@@ -10573,7 +11301,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.3,
+                    "value": -0.125,
                     "operation": "ADDITION"
                 }
             ],
@@ -10599,7 +11327,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": -0.02,
                     "operation": "ADDITION"
                 }
             ],
@@ -10625,7 +11353,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": -0.02,
                     "operation": "ADDITION"
                 }
             ],
@@ -10651,7 +11379,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": -0.02,
                     "operation": "ADDITION"
                 }
             ],
@@ -10677,7 +11405,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": -0.02,
                     "operation": "ADDITION"
                 }
             ],
@@ -10719,7 +11447,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": -0.1,
                     "operation": "ADDITION"
                 }
             ],
@@ -10745,7 +11473,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": -0.1,
                     "operation": "ADDITION"
                 }
             ],
@@ -10771,7 +11499,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": -0.1,
                     "operation": "ADDITION"
                 }
             ],
@@ -10797,7 +11525,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": -0.1,
                     "operation": "ADDITION"
                 }
             ],
@@ -10844,7 +11572,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.6,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -10870,7 +11598,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.6,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -10896,7 +11624,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.6,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -10922,7 +11650,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.6,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -10964,7 +11692,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.6,
+                    "value": 0.015,
                     "operation": "ADDITION"
                 }
             ],
@@ -10990,7 +11718,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.6,
+                    "value": 0.015,
                     "operation": "ADDITION"
                 }
             ],
@@ -11016,7 +11744,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.6,
+                    "value": 0.015,
                     "operation": "ADDITION"
                 }
             ],
@@ -11042,7 +11770,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.6,
+                    "value": 0.015,
                     "operation": "ADDITION"
                 }
             ],
@@ -11084,7 +11812,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.6,
+                    "value": 0.02,
                     "operation": "ADDITION"
                 }
             ],
@@ -11110,7 +11838,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.6,
+                    "value": 0.02,
                     "operation": "ADDITION"
                 }
             ],
@@ -11136,7 +11864,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.6,
+                    "value": 0.02,
                     "operation": "ADDITION"
                 }
             ],
@@ -11162,7 +11890,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.6,
+                    "value": 0.02,
                     "operation": "ADDITION"
                 }
             ],
@@ -11204,7 +11932,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.625,
+                    "value": 0.025,
                     "operation": "ADDITION"
                 }
             ],
@@ -11230,7 +11958,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.625,
+                    "value": 0.025,
                     "operation": "ADDITION"
                 }
             ],
@@ -11256,7 +11984,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.625,
+                    "value": 0.025,
                     "operation": "ADDITION"
                 }
             ],
@@ -11282,7 +12010,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.625,
+                    "value": 0.025,
                     "operation": "ADDITION"
                 }
             ],
@@ -11340,7 +12068,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": -0.17,
                     "operation": "ADDITION"
                 }
             ],
@@ -11366,7 +12094,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": -0.17,
                     "operation": "ADDITION"
                 }
             ],
@@ -11392,7 +12120,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": -0.17,
                     "operation": "ADDITION"
                 }
             ],
@@ -11418,7 +12146,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.45,
+                    "value": -0.17,
                     "operation": "ADDITION"
                 }
             ],
@@ -11460,7 +12188,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.375,
+                    "value": -0.265,
                     "operation": "ADDITION"
                 }
             ],
@@ -11486,7 +12214,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.375,
+                    "value": -0.265,
                     "operation": "ADDITION"
                 }
             ],
@@ -11512,7 +12240,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.375,
+                    "value": -0.265,
                     "operation": "ADDITION"
                 }
             ],
@@ -11538,7 +12266,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.375,
+                    "value": -0.265,
                     "operation": "ADDITION"
                 }
             ],
@@ -11580,7 +12308,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.6,
+                    "value": -0.06,
                     "operation": "ADDITION"
                 }
             ],
@@ -11606,7 +12334,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.6,
+                    "value": -0.06,
                     "operation": "ADDITION"
                 }
             ],
@@ -11632,7 +12360,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.6,
+                    "value": -0.06,
                     "operation": "ADDITION"
                 }
             ],
@@ -11658,7 +12386,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.6,
+                    "value": -0.06,
                     "operation": "ADDITION"
                 }
             ],
@@ -11700,7 +12428,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.425,
+                    "value": -0.255,
                     "operation": "ADDITION"
                 }
             ],
@@ -11726,7 +12454,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.425,
+                    "value": -0.255,
                     "operation": "ADDITION"
                 }
             ],
@@ -11752,7 +12480,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.425,
+                    "value": -0.255,
                     "operation": "ADDITION"
                 }
             ],
@@ -11778,7 +12506,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.425,
+                    "value": -0.255,
                     "operation": "ADDITION"
                 }
             ],
@@ -11820,7 +12548,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.55,
+                    "value": -0.15,
                     "operation": "ADDITION"
                 }
             ],
@@ -11846,7 +12574,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.55,
+                    "value": -0.15,
                     "operation": "ADDITION"
                 }
             ],
@@ -11872,7 +12600,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.55,
+                    "value": -0.15,
                     "operation": "ADDITION"
                 }
             ],
@@ -11898,7 +12626,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.55,
+                    "value": -0.15,
                     "operation": "ADDITION"
                 }
             ],
