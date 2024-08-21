@@ -8073,32 +8073,6 @@
             "unbreakable": false
         },
         {
-            "item": "alexmobs:spiked_turtle_shell",
-            "overrides_head": [
-                {
-                    "attribute": "minecraft:generic.armor",
-                    "value": 0,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.2,
-                    "operation": "ADDITION"
-                }
-            ],
-            "overrides_main_hand": [],
-            "overrides_off_hand": [],
-            "overrides_chest": [],
-            "overrides_legs": [],
-            "overrides_feet": [],
-            "unbreakable": false
-        },
-        {
             "item": "create_sa:brass_helmet",
             "overrides_head": [
                 {
@@ -8113,7 +8087,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -8139,7 +8113,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -8165,7 +8139,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -8191,7 +8165,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -8217,7 +8191,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -8243,7 +8217,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -8269,7 +8243,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -8295,7 +8269,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -8321,7 +8295,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -8347,7 +8321,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -8373,7 +8347,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -8399,111 +8373,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
-                    "operation": "ADDITION"
-                }
-            ],
-            "overrides_main_hand": [],
-            "overrides_off_hand": [],
-            "overrides_head": [],
-            "overrides_chest": [],
-            "overrides_legs": [],
-            "unbreakable": false
-        },
-        {
-            "item": "aquamirae:abyssal_helmet",
-            "overrides_head": [
-                {
-                    "attribute": "minecraft:generic.armor",
-                    "value": 0,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
-                    "operation": "ADDITION"
-                }
-            ],
-            "overrides_main_hand": [],
-            "overrides_off_hand": [],
-            "overrides_chest": [],
-            "overrides_legs": [],
-            "overrides_feet": [],
-            "unbreakable": false
-        },
-        {
-            "item": "aquamirae:abyssal_chestplate",
-            "overrides_chest": [
-                {
-                    "attribute": "minecraft:generic.armor",
-                    "value": 0,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
-                    "operation": "ADDITION"
-                }
-            ],
-            "overrides_main_hand": [],
-            "overrides_off_hand": [],
-            "overrides_head": [],
-            "overrides_legs": [],
-            "overrides_feet": [],
-            "unbreakable": false
-        },
-        {
-            "item": "aquamirae:abyssal_leggings",
-            "overrides_legs": [
-                {
-                    "attribute": "minecraft:generic.armor",
-                    "value": 0,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
-                    "operation": "ADDITION"
-                }
-            ],
-            "overrides_main_hand": [],
-            "overrides_off_hand": [],
-            "overrides_head": [],
-            "overrides_chest": [],
-            "overrides_feet": [],
-            "unbreakable": false
-        },
-        {
-            "item": "aquamirae:abyssal_boots",
-            "overrides_feet": [
-                {
-                    "attribute": "minecraft:generic.armor",
-                    "value": 0,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -8529,7 +8399,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -8555,7 +8425,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -8581,7 +8451,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -8607,7 +8477,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -8616,6 +8486,32 @@
             "overrides_head": [],
             "overrides_chest": [],
             "overrides_legs": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aquamirae:three_bolt_suit",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 0.0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.09,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
             "unbreakable": false
         },
         {
@@ -8633,7 +8529,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -8659,7 +8555,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -8685,7 +8581,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -8711,7 +8607,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.1,
+                    "value": -0.09,
                     "operation": "ADDITION"
                 }
             ],
@@ -8737,7 +8633,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.49,
+                    "value": -0.45,
                     "operation": "ADDITION"
                 }
             ],
@@ -8763,7 +8659,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.49,
+                    "value": -0.45,
                     "operation": "ADDITION"
                 }
             ],
@@ -8789,7 +8685,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.49,
+                    "value": -0.45,
                     "operation": "ADDITION"
                 }
             ],
@@ -8815,7 +8711,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.49,
+                    "value": -0.45,
                     "operation": "ADDITION"
                 }
             ],
@@ -10587,6 +10483,194 @@
             "unbreakable": false
         },
         {
+            "item": "aquamirae:abyssal_helmet",
+            "overrides_head": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.06,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aquamirae:abyssal_chestplate",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 0,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.06,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aquamirae:abyssal_leggings",
+            "overrides_legs": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 13,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.06,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aquamirae:abyssal_boots",
+            "overrides_feet": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 10,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.06,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aquamirae:abyssal_brigantine",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 18,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.06,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aquamirae:abyssal_heaume",
+            "overrides_head": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 6,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.06,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aquamirae:divider",
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 30,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aquamirae:whisper_of_the_abyss",
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 30,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
             "item": "call_of_yucutan:warrior_helmet",
             "overrides_head": [
                 {
@@ -12171,6 +12255,32 @@
             "unbreakable": false
         },
         {
+            "item": "betterend:elytra_armored",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 40,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 6.5,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.125,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
             "item": "betterend:crystalite_helmet",
             "overrides_head": [
                 {
@@ -12272,6 +12382,32 @@
             "overrides_head": [],
             "overrides_chest": [],
             "overrides_legs": [],
+            "unbreakable": false
+        },
+        {
+            "item": "betterend:elytra_crystalite",
+            "overrides_chest": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 50,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "value": 10,
+                    "operation": "ADDITION"
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": -0.02,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
             "unbreakable": false
         },
         {

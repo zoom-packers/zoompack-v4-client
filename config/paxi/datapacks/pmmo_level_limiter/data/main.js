@@ -52,9 +52,13 @@ function modifyFullSets() {
     processor.modifySingleItem("minecraft", "trident", "sword", 15);
     processor.modifySetRequirements("immersive_armors", "prismarine", 15, "armor");
     processor.modifySingleItem("aquamirae", "terrible_sword", 'sword', 16);
-    processor.modifySetRequirements("aquamirae", "terrible", 16, "armor")
-    processor.modifySingleItem("aquamirae", "three_bolt_suit", "chestplate", 16)
-    processor.modifySetRequirements("aquamirae", "three_bolt", 16 ["helmet", "leggings", "boots"])
+    processor.modifySetRequirements("aquamirae", "terrible", 16, "armor");
+
+    processor.modifySingleItem("aquamirae", "three_bolt_suit", "chestplate", 16);
+    processor.modifySingleItem("aquamirae", "three_bolt_helmet", "helmet" , 16);
+    processor.modifySingleItem("aquamirae", "three_bolt_leggings", "leggings" , 16);
+    processor.modifySingleItem("aquamirae", "three_bolt_boots", "boots" , 16);
+
     processor.modifySetRequirements("irons_spellbooks", "pyromancer", 17, "armor");
     processor.modifySetRequirements("irons_spellbooks", "electromancer", 17, "armor");
     processor.modifySetRequirements("irons_spellbooks", "archevoker", 17, "armor");
@@ -266,8 +270,10 @@ function modifyFullSets() {
 
     processor.modifySetRequirements("betterend", "aeternium", 77);
     processor.modifySingleItem("zoomer_bows", "aeternium_bow", "bow", 77);
+    processor.modifySingleItem("betterend", "elytra_armored", "chestplate", 77);
 
     processor.modifySetRequirements("betterend", "crystalite", 79, "armor");
+    processor.modifySingleItem("betterend", "elytra_crystalite", "chestplate", 79);
 
     // Deeper darker
     processor.modifySetRequirements("callfromthedepth_", "immemorial", 84, ["sword","axe", "pickaxe", "shovel", "hoe"], "{set_name}{item}");
