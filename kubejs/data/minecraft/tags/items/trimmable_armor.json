@@ -1,9 +1,9 @@
 {
-  "replace": false,
-  "values": [
-    "kubejs:cincinnasite_diamond_helmet",
-    "kubejs:cincinnasite_diamond_chestplate",
-    "kubejs:cincinnasite_diamond_leggings",
-    "kubejs:cincinnasite_diamond_boots"
-  ]
+    "replace": false,
+    "values": [
+        "kubejs:cincinnasite_diamond_helmet",
+        "kubejs:cincinnasite_diamond_chestplate",
+        "kubejs:cincinnasite_diamond_leggings",
+        "kubejs:cincinnasite_diamond_boots"
+    ]
 }
