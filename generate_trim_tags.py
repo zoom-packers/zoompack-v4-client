@@ -7,8 +7,18 @@ pmmo_generic_path = 'pmmo/items'
 pmmo_edits_path = 'config/paxi/datapacks/pmmo_level_limiter/data'
 TRIM_TAGS_FILE_PATH = 'kubejs/data/minecraft/tags/items/trimmable_armor.json'
 CIAT_FILE_PATH = 'config\custom_item_attributes.json5'
+server_scripts_path = f'kubejs/server_scripts'
 
 BANNED_WORDS = ['offhand']
+
+def generate_server_js_tags_file(file_path, items, tag):
+    with open(file_path, 'w+', encoding='utf-8') as file:
+        file.write("ServerEvents.tags('item', event => {\n")
+        
+        for item in items:
+            file.write(f"""\t\tevent.add('{tag}', '{item}');\n""")
+        
+        file.write("});\n")
 
 def include_item_ids_from_CIA(cia_path, gathered_armor_trim_ids):
     cia_item_ids = []
@@ -82,5 +92,7 @@ for mod_id in mod_ids:
 
 ARMOR_ITEM_IDS = include_item_ids_from_CIA(CIAT_FILE_PATH, ARMOR_ITEM_IDS)
 
-new_trimmed_items = update_trim_tag_file(TRIM_TAGS_FILE_PATH, ARMOR_ITEM_IDS)
-print(f'ZOOM >>> {new_trimmed_items} New items are now trimmable')
+generate_server_js_tags_file(f'{server_scripts_path}/trimmable_generated_tags.js', ARMOR_ITEM_IDS, f'minecraft:trimmable_armor')
+
+# new_trimmed_items = update_trim_tag_file(TRIM_TAGS_FILE_PATH, ARMOR_ITEM_IDS)
+print('ZOOM >>> Trimmable Armor Tags Generated')
