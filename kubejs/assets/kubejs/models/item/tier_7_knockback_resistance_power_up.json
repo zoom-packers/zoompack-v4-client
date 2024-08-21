@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "kubejs:item/tier_7_knockback_resistance_power_up"
+    }
+}

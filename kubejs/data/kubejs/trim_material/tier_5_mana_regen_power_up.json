@@ -1,0 +1,9 @@
+{
+    "asset_name": "lapis",
+    "description": {
+        "color": "#0B5394",
+        "translate": "trim_material.kubejs.tier_5_mana_regen_power_up"
+    },
+    "ingredient": "kubejs:tier_5_mana_regen_power_up",
+    "item_model_index": 0.5
+}

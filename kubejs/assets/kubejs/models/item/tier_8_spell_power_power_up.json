@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "kubejs:item/tier_8_spell_power_power_up"
+    }
+}

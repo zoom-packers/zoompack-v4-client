@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "kubejs:item/tier_9_movement_speed_power_up"
+    }
+}

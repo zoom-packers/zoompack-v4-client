@@ -1,0 +1,9 @@
+{
+    "asset_name": "redstone",
+    "description": {
+        "color": "#FF0000",
+        "translate": "trim_material.kubejs.tier_10_health_boost_power_up"
+    },
+    "ingredient": "kubejs:tier_10_health_boost_power_up",
+    "item_model_index": 0.5
+}

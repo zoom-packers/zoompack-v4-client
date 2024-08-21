@@ -1,0 +1,9 @@
+{
+    "asset_name": "exp",
+    "description": {
+        "color": "#FFD966",
+        "translate": "trim_material.kubejs.tier_7_spell_power_power_up"
+    },
+    "ingredient": "kubejs:tier_7_spell_power_power_up",
+    "item_model_index": 0.5
+}
