@@ -6,9 +6,28 @@ import os
 pmmo_generic_path = 'pmmo/items'
 pmmo_edits_path = 'config/paxi/datapacks/pmmo_level_limiter/data'
 TRIM_TAGS_FILE_PATH = 'kubejs/data/minecraft/tags/items/trimmable_armor.json'
+CIAT_FILE_PATH = 'config\custom_item_attributes.json5'
 
 BANNED_WORDS = ['offhand']
 
+def include_item_ids_from_CIA(cia_path, gathered_armor_trim_ids):
+    cia_item_ids = []
+
+    with open(cia_path, 'r') as f:
+        cia_data = json.loads(f.read())
+        for cia_entry in cia_data.get('items'):
+            item_id = cia_entry.get('item')
+
+            overrides_off_hand = cia_entry.get('overrides_off_hand')
+            overrides_main_hand = cia_entry.get('overrides_main_hand')
+
+            len_overrides_off_hand = len(overrides_off_hand)
+            len_overrides_main_hand = len(overrides_main_hand)
+
+            if len_overrides_off_hand == 0  and len_overrides_main_hand == 0 and item_id not in gathered_armor_trim_ids:
+                cia_item_ids.append(item_id)
+
+    return list(set(gathered_armor_trim_ids) | set(cia_item_ids))
 
 def update_trim_tag_file(file_path, new_item_ids):
     count_new_trimmable_items = 0
@@ -60,6 +79,8 @@ for mod_id in mod_ids:
 
             if is_config_path_armor(mod_item_path) and is_item_id_allowed(mod_item_id):
                 ARMOR_ITEM_IDS.append(item_id)
+
+ARMOR_ITEM_IDS = include_item_ids_from_CIA(CIAT_FILE_PATH, ARMOR_ITEM_IDS)
 
 new_trimmed_items = update_trim_tag_file(TRIM_TAGS_FILE_PATH, ARMOR_ITEM_IDS)
 print(f'ZOOM >>> {new_trimmed_items} New items are now trimmable')

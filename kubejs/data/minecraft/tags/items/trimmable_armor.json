@@ -586,6 +586,18 @@
         "undergarden:utherium_boots",
         "undergarden:utherium_chestplate",
         "undergarden:utherium_helmet",
-        "undergarden:utherium_leggings"
+        "undergarden:utherium_leggings",
+        "mokels_boss_mantyd:mantydhelmet_leggings",
+        "mokels_boss_mantyd:mantydhelmet_chestplate",
+        "call_of_yucutan:monkey_boots",
+        "call_of_yucutan:warrior_chestplate",
+        "call_of_yucutan:monkey_leggings",
+        "mokels_boss_mantyd:mantydhelmet_boots",
+        "call_of_yucutan:warrior_leggings",
+        "call_of_yucutan:huracan_leggings",
+        "call_of_yucutan:huracan_chestplate",
+        "call_of_yucutan:monkey_chestplate",
+        "call_of_yucutan:warrior_boots",
+        "call_of_yucutan:huracan_boots"
     ]
 }
