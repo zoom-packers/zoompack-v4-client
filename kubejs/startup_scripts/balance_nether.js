@@ -94,28 +94,28 @@ ItemEvents.modification((event) => {
     event.modify("minecraft:netherite_helmet", item => {
         item.armorProtection = 12;
         item.armorToughness = 8;
-        item.armorKnockbackResistance = 0.3;
+        item.armorKnockbackResistance = 0.04;
         item.maxDamage = 2000;
     });
 
     event.modify("minecraft:netherite_chestplate", item => {
         item.armorProtection = 22;
         item.armorToughness = 8;
-        item.armorKnockbackResistance = 0.3;
+        item.armorKnockbackResistance = 0.04;
         item.maxDamage = 2900;
     });
 
     event.modify("minecraft:netherite_leggings", item => {
         item.armorProtection = 17;
         item.armorToughness = 8;
-        item.armorKnockbackResistance = 0.3;
+        item.armorKnockbackResistance = 0.04;
         item.maxDamage = 2700;
     });
 
     event.modify("minecraft:netherite_boots", item => {
         item.armorProtection = 12;
         item.armorToughness = 8;
-        item.armorKnockbackResistance = 0.3;
+        item.armorKnockbackResistance = 0.04;
         item.maxDamage = 2400;
     });
 
@@ -127,7 +127,7 @@ ItemEvents.toolTierRegistry(event => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "cincinnasite_diamond", 95, [10, 14, 17, 10], 50, 6, 0.2, "minecraft:diamond");
+    global.createArmorTier(event, "cincinnasite_diamond", 95, [10, 14, 17, 10], 50, 6, 0.036, "minecraft:diamond");
 });
 
 StartupEvents.registry("item", e => {

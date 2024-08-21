@@ -5,7 +5,7 @@ let modifications_map = [
         'piece' : 'helmet',
         'armor' : 12,
         'armor_t' : 9,
-        'knock_r' : 0.35,
+        'knock_r' : 0.045,
         'durability' : 2300
     },
     {
@@ -13,7 +13,7 @@ let modifications_map = [
         'piece' : 'chestplate',
         'armor' : 22,
         'armor_t' : 9,
-        'knock_r' : 0.35,
+        'knock_r' : 0.045,
         'durability' : 3335
     },
     {
@@ -21,7 +21,7 @@ let modifications_map = [
         'piece' : 'leggings',
         'armor' : 17,
         'armor_t' : 9,
-        'knock_r' : 0.35,
+        'knock_r' : 0.045,
         'durability' : 3105
     },
     {
@@ -29,7 +29,7 @@ let modifications_map = [
         'piece' : 'boots',
         'armor' : 12,
         'armor_t' : 9,
-        'knock_r' : 0.35,
+        'knock_r' : 0.045,
         'durability' : 2760
     },
     // Frossteel - besides durability all is hardcoded in jar
@@ -38,7 +38,7 @@ let modifications_map = [
         'piece' : 'helmet',
         'armor' : 14,
         'armor_t' : 9,
-        'knock_r' : 0.35,
+        'knock_r' : 0.05,
         'durability' : 2630
     },
     {
@@ -46,7 +46,7 @@ let modifications_map = [
         'piece' : 'chestplate',
         'armor' : 24,
         'armor_t' : 9,
-        'knock_r' : 0.35,
+        'knock_r' : 0.05,
         'durability' : 3813
     },
     {
@@ -54,7 +54,7 @@ let modifications_map = [
         'piece' : 'leggings',
         'armor' : 19,
         'armor_t' : 9,
-        'knock_r' : 0.35,
+        'knock_r' : 0.05,
         'durability' : 3550
     },
     {
@@ -62,7 +62,7 @@ let modifications_map = [
         'piece' : 'boots',
         'armor' : 14,
         'armor_t' : 9,
-        'knock_r' : 0.35,
+        'knock_r' : 0.05,
         'durability' : 3156
     },
     // utherium
@@ -71,7 +71,7 @@ let modifications_map = [
         'piece' : 'helmet',
         'armor' : 17,
         'armor_t' : 10,
-        'knock_r' : 0.4,
+        'knock_r' : 0.055,
         'durability' : 2890
     },
     {
@@ -79,7 +79,7 @@ let modifications_map = [
         'piece' : 'chestplate',
         'armor' : 27,
         'armor_t' : 10,
-        'knock_r' : 0.4,
+        'knock_r' : 0.055,
         'durability' : 4190
     },
     {
@@ -87,7 +87,7 @@ let modifications_map = [
         'piece' : 'leggings',
         'armor' : 22,
         'armor_t' : 10,
-        'knock_r' : 0.4,
+        'knock_r' : 0.055,
         'durability' : 3901
     },
     {
@@ -95,7 +95,7 @@ let modifications_map = [
         'piece' : 'boots',
         'armor' : 17,
         'armor_t' : 10,
-        'knock_r' : 0.4,
+        'knock_r' : 0.055,
         'durability' : 3468
     },
 
