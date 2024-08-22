@@ -459,12 +459,15 @@ new_kjs_config_durability("theabyss", "incorythe_sword_mkii", 8000)
 
 new_kjs_config_durability("theabyss", "abyss_sword", 8300)
 
-
 # Bows
 # /////////////////////////
 
+new_bow('minecraft', 'bow', -3, 300)
+new_bow('minecraft', 'crossbow', -3, 300)
 
-new_bow('magistuarmory', 'longbow', 7, 400)
+new_bow('zoomer_bows', 'iron_bow', 5, 350)
+new_bow('zoomer_bows', 'diamond_bow', 6, 400)
+new_bow('aquaculture', 'neptunium_bow', 7, 420)
 # Blue Skies
 new_bow('zoomer_bows', 'pyrope_bow', 8, 420)
 new_bow('zoomer_bows', 'aquite_bow', 8.5, 430)
