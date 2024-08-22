@@ -21,9 +21,9 @@ PlayerEvents.inventoryChanged(event => {
     let player = event.player;
     if(player!=null){
         if(item_id === PATCHULI_BOOK_ITEM_ID){
-            let player_name = player.name.string;
             let tags = event.player.tags;
             if(!playerHasTag(tags, PERFORMED_FIRST_JOIN_TAG)){
+                let player_name = player.name.string;
                 event.server.runCommandSilent(`/clear ${player_name} ${PATCHULI_BOOK_ITEM_ID}`);
                 event.server.runCommandSilent(`/tag ${player_name} add ${PERFORMED_FIRST_JOIN_TAG}`);
             }
