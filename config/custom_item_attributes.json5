@@ -8073,6 +8073,22 @@
             "unbreakable": false
         },
         {
+            "item": "magistuarmory:longbow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 7,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
             "item": "create_sa:brass_helmet",
             "overrides_head": [
                 {
@@ -13680,7 +13696,71 @@
             "unbreakable": false
         },
         {
-            "item": "magistuarmory:longbow",
+            "item": "minecraft:bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": -3,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "minecraft:crossbow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": -3,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:iron_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 5,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomer_bows:diamond_bow",
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "value": 6,
+                    "operation": "ADDITION"
+                }
+            ],
+            "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "aquaculture:neptunium_bow",
             "overrides_main_hand": [
                 {
                     "attribute": "projectile_damage:generic",

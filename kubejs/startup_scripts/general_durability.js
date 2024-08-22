@@ -630,8 +630,20 @@ ItemEvents.modification((event) => {
     event.modify("theabyss:abyss_sword", item => {
         item.maxDamage = 8300;
     });
-    event.modify("magistuarmory:longbow", item => {
+    event.modify("minecraft:bow", item => {
+        item.maxDamage = 300;
+    });
+    event.modify("minecraft:crossbow", item => {
+        item.maxDamage = 300;
+    });
+    event.modify("zoomer_bows:iron_bow", item => {
+        item.maxDamage = 350;
+    });
+    event.modify("zoomer_bows:diamond_bow", item => {
         item.maxDamage = 400;
+    });
+    event.modify("aquaculture:neptunium_bow", item => {
+        item.maxDamage = 420;
     });
     event.modify("zoomer_bows:pyrope_bow", item => {
         item.maxDamage = 420;
