@@ -164,16 +164,18 @@ function announceReward(server, player_name, rewards, entity_name){
 
 EntityEvents.death(event => {
     let player = event.source.player;
-    let player_name = player.name.string;
-    let server = event.server;
-    let entity = event.entity;
-    let entity_name = entity.name.string;    
+    if(player!=null){
+        let player_name = player.name.string;
+        let server = event.server;
+        let entity = event.entity;
+        let entity_name = entity.name.string;    
 
-    if (player.getType() === 'minecraft:player'){   
-        if (isEntityAllowed(entity)){
-            let drop_returns = getReward(entity, player);
-            grantReward(drop_returns, entity, server);
-            announceReward(server, player_name, drop_returns, entity_name);
+        if (player.getType() === 'minecraft:player'){   
+            if (isEntityAllowed(entity)){
+                let drop_returns = getReward(entity, player);
+                grantReward(drop_returns, entity, server);
+                announceReward(server, player_name, drop_returns, entity_name);
+            }
         }
     }
 })
