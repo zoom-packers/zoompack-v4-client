@@ -17,7 +17,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:banker_ender_pearl_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_ender_pearl_for_bronze_coin_0"
     },
     {
       "offer": {
@@ -33,7 +33,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:banker_trial_key_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_trial_key_for_bronze_coin_0"
     },
     {
       "offer": {
@@ -49,7 +49,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:banker_emerald_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_emerald_for_bronze_coin_0"
     },
     {
       "offer": {
@@ -65,7 +65,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "spacecatcustomprofessions:banker_blinding_key_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_blinding_key_for_bronze_coin_0"
     },
     {
       "offer": {
@@ -81,7 +81,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:banker_trial_key_ominous_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_trial_key_ominous_for_bronze_coin_0"
     },
     {
       "offer": {
@@ -97,7 +97,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:banker_iron_ingot_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_iron_ingot_for_bronze_coin_0"
     },
     {
       "offer": {
@@ -113,7 +113,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "spacecatcustomprofessions:banker_nature_key_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_nature_key_for_bronze_coin_0"
     },
     {
       "offer": {
@@ -133,7 +133,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "spacecatcustomprofessions:banker_poison_key_for_silver_coin_and_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_poison_key_for_silver_coin_and_bronze_coin_0"
     },
     {
       "offer": {
@@ -149,7 +149,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:banker_ominous_bottle_for_silver_coin"
+      "UTID": "spacecatcustomprofessions:banker_ominous_bottle_for_silver_coin_0"
     },
     {
       "offer": {
@@ -165,7 +165,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:banker_diamond_for_silver_coin"
+      "UTID": "spacecatcustomprofessions:banker_diamond_for_silver_coin_0"
     },
     {
       "offer": {
@@ -181,7 +181,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:banker_victory_medal_for_silver_coin"
+      "UTID": "spacecatcustomprofessions:banker_victory_medal_for_silver_coin_0"
     },
     {
       "offer": {
@@ -197,7 +197,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:banker_bronze_coin_for_heart_of_the_sea"
+      "UTID": "spacecatcustomprofessions:banker_bronze_coin_for_heart_of_the_sea_0"
     },
     {
       "offer": {
@@ -213,23 +213,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:banker_bronze_coin_for_gem"
-    },
-    {
-      "offer": {
-        "itemKey": "dotcoinmod:bronze_coin",
-        "amount": 20
-      },
-      "request": {
-        "itemKey": "irons_spellbooks:scroll",
-        "amount": 1
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:banker_bronze_coin_for_scroll"
+      "UTID": "spacecatcustomprofessions:banker_bronze_coin_for_gem_0"
     },
     {
       "offer": {
@@ -246,7 +230,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:banker_loot_bag_summoner_for_silver_coin"
+      "UTID": "spacecatcustomprofessions:banker_loot_bag_summoner_for_silver_coin_0"
     },
     {
       "offer": {
@@ -263,7 +247,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:banker_loot_bag_summoner_for_gold_coin"
+      "UTID": "spacecatcustomprofessions:banker_loot_bag_summoner_for_gold_coin_0"
     },
     {
       "offer": {
@@ -280,7 +264,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "spacecatcustomprofessions:banker_loot_bag_alchemist_for_gold_coin"
+      "UTID": "spacecatcustomprofessions:banker_loot_bag_alchemist_for_gold_coin_0"
     },
     {
       "offer": {
@@ -297,7 +281,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "spacecatcustomprofessions:banker_loot_bag_alchemist_for_gold_coin"
+      "UTID": "spacecatcustomprofessions:banker_loot_bag_alchemist_for_gold_coin_0"
     },
     {
       "offer": {
@@ -314,7 +298,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "spacecatcustomprofessions:banker_loot_bag_starlit_crusher_for_gold_coin"
+      "UTID": "spacecatcustomprofessions:banker_loot_bag_starlit_crusher_for_gold_coin_0"
     },
     {
       "offer": {
@@ -331,7 +315,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "spacecatcustomprofessions:banker_loot_bag_starlit_crusher_for_gold_coin"
+      "UTID": "spacecatcustomprofessions:banker_loot_bag_starlit_crusher_for_gold_coin_0"
     },
     {
       "offer": {
@@ -348,7 +332,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "spacecatcustomprofessions:banker_loot_bag_arachnarch_for_gold_coin"
+      "UTID": "spacecatcustomprofessions:banker_loot_bag_arachnarch_for_gold_coin_0"
     },
     {
       "offer": {
@@ -373,7 +357,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_0"
     },
     {
       "offer": {
@@ -398,7 +382,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_0"
     },
     {
       "offer": {
@@ -423,7 +407,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_0"
     },
     {
       "offer": {
@@ -448,7 +432,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_0"
     },
     {
       "offer": {
@@ -473,7 +457,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_0"
     },
     {
       "offer": {
@@ -498,7 +482,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_0"
     },
     {
       "offer": {
@@ -523,7 +507,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_0"
     },
     {
       "offer": {
@@ -548,7 +532,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_0"
     },
     {
       "offer": {
@@ -573,7 +557,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_0"
     },
     {
       "offer": {
@@ -598,7 +582,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_0"
     },
     {
       "offer": {
@@ -623,7 +607,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_0"
     },
     {
       "offer": {
@@ -648,7 +632,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_potion_for_bronze_coin_0"
     },
     {
       "offer": {
@@ -673,7 +657,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "spacecatcustomprofessions:banker_potion_for_silver_coin"
+      "UTID": "spacecatcustomprofessions:banker_potion_for_silver_coin_0"
     },
     {
       "offer": {
@@ -698,7 +682,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "spacecatcustomprofessions:banker_potion_for_silver_coin"
+      "UTID": "spacecatcustomprofessions:banker_potion_for_silver_coin_0"
     },
     {
       "offer": {
@@ -723,7 +707,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "spacecatcustomprofessions:banker_potion_for_silver_coin"
+      "UTID": "spacecatcustomprofessions:banker_potion_for_silver_coin_0"
     },
     {
       "offer": {
@@ -748,7 +732,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "spacecatcustomprofessions:banker_potion_for_silver_coin"
+      "UTID": "spacecatcustomprofessions:banker_potion_for_silver_coin_0"
     },
     {
       "offer": {
@@ -773,7 +757,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "spacecatcustomprofessions:banker_potion_for_silver_coin"
+      "UTID": "spacecatcustomprofessions:banker_potion_for_silver_coin_0"
     },
     {
       "offer": {
@@ -798,7 +782,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "spacecatcustomprofessions:banker_potion_for_silver_coin"
+      "UTID": "spacecatcustomprofessions:banker_potion_for_silver_coin_0"
     }
   ]
 }
