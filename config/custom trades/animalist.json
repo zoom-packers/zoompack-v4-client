@@ -18,7 +18,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:animalist_loot_bag_for_silver_coin"
+      "UTID": "spacecatcustomprofessions:animalist_loot_bag_for_silver_coin_0"
     },
     {
       "offer": {
@@ -35,7 +35,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:animalist_loot_bag_for_gold_coin"
+      "UTID": "spacecatcustomprofessions:animalist_loot_bag_for_gold_coin_0"
     },
     {
       "offer": {
@@ -52,7 +52,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "spacecatcustomprofessions:animalist_loot_bag_summoner_for_gold_coin"
+      "UTID": "spacecatcustomprofessions:animalist_loot_bag_summoner_for_gold_coin_0"
     },
     {
       "offer": {
@@ -69,7 +69,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "spacecatcustomprofessions:animalist_loot_bag_summoner_for_gold_coin"
+      "UTID": "spacecatcustomprofessions:animalist_loot_bag_summoner_for_gold_coin_0"
     },
     {
       "offer": {
@@ -86,7 +86,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "spacecatcustomprofessions:animalist_loot_bag_alchemist_for_gold_coin"
+      "UTID": "spacecatcustomprofessions:animalist_loot_bag_alchemist_for_gold_coin_0"
     },
     {
       "offer": {
@@ -103,7 +103,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "spacecatcustomprofessions:animalist_loot_bag_alchemist_for_gold_coin"
+      "UTID": "spacecatcustomprofessions:animalist_loot_bag_alchemist_for_gold_coin_0"
     },
     {
       "offer": {
@@ -120,7 +120,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "spacecatcustomprofessions:animalist_loot_bag_starlit_crusher_for_gold_coin"
+      "UTID": "spacecatcustomprofessions:animalist_loot_bag_starlit_crusher_for_gold_coin_0"
     },
     {
       "offer": {
@@ -137,7 +137,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "spacecatcustomprofessions:animalist_loot_bag_starlit_crusher_for_gold_coin"
+      "UTID": "spacecatcustomprofessions:animalist_loot_bag_starlit_crusher_for_gold_coin_0"
     },
     {
       "offer": {
@@ -158,7 +158,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "spacecatcustomprofessions:animalist_loot_bag_arachnarch_for_gold_coin_and_gold_coin"
+      "UTID": "spacecatcustomprofessions:animalist_loot_bag_arachnarch_for_gold_coin_and_gold_coin_0"
     }
   ]
 }

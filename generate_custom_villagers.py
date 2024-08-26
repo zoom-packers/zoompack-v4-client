@@ -116,8 +116,6 @@ new_default_trade('banker', ('dotcoinmod:silver_coin', 2), ('aether:victory_meda
 
 new_default_trade('banker', ('minecraft:heart_of_the_sea', 1), ('dotcoinmod:bronze_coin', 20), 1, 1)
 new_default_trade('banker', ('apotheosis:gem', 1), ('dotcoinmod:bronze_coin', 20), 1, 1)
-new_default_trade('banker', ('irons_spellbooks:scroll', 1), ('dotcoinmod:bronze_coin', 20), 1, 1)
-
 
 #Dimensional Lootbags 
 new_default_trade('banker', ('dotcoinmod:silver_coin', 32), ('blue_skies:loot_bag_summoner', 1), 1, 1, 
