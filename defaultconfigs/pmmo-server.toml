@@ -59,6 +59,7 @@
 		agility = 0.1
 		farming = 0.1
 		swimming = 0.1
+		taming = 0.1
 		woodcutting = 0.2
 		mining = 0.2
 		swordsmanship = 4
