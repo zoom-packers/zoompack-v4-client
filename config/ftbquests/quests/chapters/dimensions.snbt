@@ -1472,6 +1472,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["45104F8FBB6A4444"]
 			description: [
 				"&e&lPrepare the Portal Frame:&r&r Construct a portal frame using End Portal Frame blocks, similar to the vanilla End Portal. Place the 12 custom Eyes into the portal frames. If there is a vanilla Ender Eye in any of the frames, remove it by right-clicking with a custom Eye."
 				""
@@ -1499,6 +1500,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["6ECCCD1F8E408C4E"]
 			description: [
 				"&e&lPrepare for the Battle:&r&r Before confronting the Ender Dragon, ensure you are well-equipped. Bring high-quality armor, powerful weapons, plenty of healing items, and blocks for building or bridging. Enchant your gear to increase your chances of survival."
 				""
@@ -1535,12 +1537,26 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["6ECCCD1F8E408C4E"]
+			description: [
+				"&2&lHow to Find the Obsidilith Arena&r&r"
+				"&e&lLocate the Obsidilith Arena in the End:&r&r The Obsidilith Arena is a rare floating obsidian structure found among the End islands. Search for large, dark, floating structures amidst the End's islands."
+				""
+				"&e&lIdentify the Floating Obsidian Structure:&r&r Look for a distinctive cubic obsidian formation that floats in the End dimension. This arena is characterized by its dark, sturdy appearance and its location high above the void."
+				""
+				"&e&lNavigate the End Islands:&r&r Use ender pearls or build bridges to traverse between the End islands. Be cautious of Endermen and other hostile entities that roam the End."
+				""
+				"&e&lPrepare for Battle:&r&r Ensure you have strong gear, plenty of healing items, and a strategy for dealing with the Obsidilith’s defenses. The arena is a challenging environment, so come well-prepared."
+				""
+				"Find the rare floating obsidian structure in the End islands and ready yourself for a formidable fight against the Obsidilith!"
+			]
 			id: "4D7B0DD4A58F4157"
 			rewards: [{
 				id: "433FC5D9E78267DC"
 				type: "xp_levels"
 				xp_levels: 6
 			}]
+			subtitle: "&6&lSpot the Rare Floating Obsidian Structure in the End Islands and Prepare for a Tough Battle!&r&r"
 			tasks: [{
 				icon: "bosses_of_mass_destruction:obsidian_heart"
 				id: "3125DB6DA84A9B98"
@@ -1550,6 +1566,42 @@
 			}]
 			x: 4.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["4D7B0DD4A58F4157"]
+			description: [
+				"&2&lHow to Defeat the Obsidilith&r&r"
+				"&e&lPrepare for Combat in the Obsidilith Arena:&r&r Equip yourself with high-quality armor, melee weapons, and plenty of healing items. The Obsidilith is a formidable opponent, so preparation is key."
+				""
+				"&e&lAwaken the Obsidilith by Breaking Support Pillars:&r&r The Obsidilith can be summoned by breaking its support pillars with a pickaxe. The arena contains multiple pillars that will need to be destroyed throughout the battle."
+				""
+				"&e&lManage the Obsidilith’s Duplications:&r&r During the fight, the Obsidilith will duplicate itself and use the duplicates for protection. Continuously break the support pillars to prevent the Obsidilith from fully protecting itself and to reveal its true form."
+				""
+				"&e&lEngage in Melee Combat:&r&r Focus on close-quarters combat, as the Obsidilith is resistant to projectiles. Use melee attacks and dodge its powerful attacks to gain the upper hand."
+				""
+				"&e&lUtilize Effective Strategies:&r&r Stay mobile to avoid the Obsidilith’s attacks and keep breaking the support pillars. Use healing items and regeneration potions as needed to sustain your health throughout the fight."
+				""
+				"&e&lClaim Your Rewards:&r&r Upon defeating the Obsidilith, collect valuable loot and rewards dropped by the boss. This will enhance your gear and mark your victory in the End."
+				""
+				"Prepare thoroughly, break the support pillars to expose the Obsidilith, and engage it with effective melee strategies to claim your victory in the End Arena!"
+			]
+			id: "40C67F3F80524E35"
+			rewards: [{
+				id: "314DC7515E2F3D2F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "&6&lAwaken and Conquer the Obsidilith by Breaking Support Pillars and Managing Duplications in the Arena!&r&r"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "nethervinery:obsidian_stem"
+				id: "772BC8157E0B1D94"
+				title: "Kill the Obsidilith"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 6.0d
 		}
 	]
 	subtitle: [
