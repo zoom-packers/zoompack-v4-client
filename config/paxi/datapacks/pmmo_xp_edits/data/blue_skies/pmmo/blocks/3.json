@@ -1,0 +1,16 @@
+{
+    "override": true,
+    "isTagFor": [
+        "blue_skies:everdawn_diopside_ore",
+        "blue_skies:everbright_diopside_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 70
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

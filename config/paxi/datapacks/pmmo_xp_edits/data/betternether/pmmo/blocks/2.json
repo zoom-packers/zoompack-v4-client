@@ -1,0 +1,15 @@
+{
+    "override": true,
+    "isTagFor": [
+        "betternether:nether_lapis_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 350
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

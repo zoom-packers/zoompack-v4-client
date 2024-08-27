@@ -1,0 +1,15 @@
+{
+    "override": true,
+    "isTagFor": [
+        "theabyss:incorythe_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 1000
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

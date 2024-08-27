@@ -1,0 +1,17 @@
+{
+    "override": true,
+    "isTagFor": [
+        "undergarden:depthrock_utherium_ore",
+        "undergarden:shiverstone_utherium_ore",
+        "undergarden:tremblecrust_utherium_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 650
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

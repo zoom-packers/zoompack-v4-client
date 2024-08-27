@@ -1,0 +1,16 @@
+{
+    "override": true,
+    "isTagFor": [
+        "blue_skies:everdawn_moonstone_ore",
+        "blue_skies:everbright_moonstone_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 60
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

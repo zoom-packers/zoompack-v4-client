@@ -1,0 +1,15 @@
+{
+    "override": true,
+    "isTagFor": [
+        "undergarden:depthrock_gold_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 550
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

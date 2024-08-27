@@ -1,0 +1,15 @@
+{
+    "override": true,
+    "isTagFor": [
+        "aether:ambrosium_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 240
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

@@ -1,0 +1,15 @@
+{
+    "override": true,
+    "isTagFor": [
+        "theabyss:emerald_variant"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 1200
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

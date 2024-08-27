@@ -1,0 +1,16 @@
+{
+    "override": true,
+    "isTagFor": [
+        "call_of_yucatan:jade_ore",
+        "call_of_yucatan:deepslate_jade_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 60
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

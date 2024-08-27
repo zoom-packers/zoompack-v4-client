@@ -1,0 +1,19 @@
+{
+    "override": true,
+    "isTagFor":[
+        "create:zinc_ore",
+        "create:deepslate_zinc_ore"
+    ],
+    "xp_values":{
+        "BLOCK_BREAK" : {
+            "mining": 40
+        },
+        "BLOCK_PLACE": {
+            "building": 10
+        }
+    },
+    "requirements":{
+        "BREAK": {"mining":0},
+        "PLACE": {"mining":0}
+    }
+}

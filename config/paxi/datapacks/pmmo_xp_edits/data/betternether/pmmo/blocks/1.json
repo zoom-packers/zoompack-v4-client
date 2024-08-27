@@ -1,0 +1,15 @@
+{
+    "override": true,
+    "isTagFor": [
+        "betternether:nether_ruby_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 400
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

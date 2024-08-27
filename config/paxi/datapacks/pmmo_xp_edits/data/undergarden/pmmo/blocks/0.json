@@ -1,0 +1,16 @@
+{
+    "override": true,
+    "isTagFor": [
+        "undergarden:depthrock_coal_ore",
+        "undergarden:shiverstone_coal_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 450
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

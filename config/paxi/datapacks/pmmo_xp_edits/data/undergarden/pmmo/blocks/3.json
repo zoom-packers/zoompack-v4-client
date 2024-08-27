@@ -1,0 +1,16 @@
+{
+    "override": true,
+    "isTagFor": [
+        "undergarden:depthrock_diamond_ore",
+        "undergarden:shiverstone_diamond_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 600
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

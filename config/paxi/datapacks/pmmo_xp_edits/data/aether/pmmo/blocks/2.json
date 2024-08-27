@@ -1,0 +1,15 @@
+{
+    "override": true,
+    "isTagFor": [
+        "aether:gravitite_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 300
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

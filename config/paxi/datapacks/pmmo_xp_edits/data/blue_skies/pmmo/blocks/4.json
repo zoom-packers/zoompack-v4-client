@@ -1,0 +1,16 @@
+{
+    "override": true,
+    "isTagFor": [
+        "blue_skies:everdawn_charoite_ore",
+        "blue_skies:everbright_charoite_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 90
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

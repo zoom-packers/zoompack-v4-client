@@ -1,0 +1,15 @@
+{
+    "override": true,
+    "isTagFor": [
+        "theabyss:diamond_variant"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 1100
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

@@ -1,0 +1,16 @@
+{
+    "override": true,
+    "isTagFor": [
+        "undergarden:depthrock_cloggrum_ore",
+        "undergarden:shiverstone_cloggrum_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 700
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

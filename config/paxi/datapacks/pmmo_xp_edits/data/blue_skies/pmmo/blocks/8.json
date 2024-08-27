@@ -1,0 +1,15 @@
+{
+    "override": true,
+    "isTagFor": [
+        "blue_skies:horizonite_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 200
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

@@ -1,0 +1,16 @@
+{
+    "override": true,
+    "isTagFor": [
+        "blue_skies:everbright_pyrope_ore",
+        "blue_skies:everdawn_pyrope_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 70
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

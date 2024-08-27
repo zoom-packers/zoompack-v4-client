@@ -1,0 +1,15 @@
+{
+    "override": true,
+    "isTagFor": [
+        "callfromthedepth_:marble_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 900
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

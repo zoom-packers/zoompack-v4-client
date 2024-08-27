@@ -1,0 +1,16 @@
+{
+    "override": true,
+    "isTagFor": [
+        "theabyss:loran_ore",
+        "theabyss:loran_end_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 1000
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

@@ -1,0 +1,15 @@
+{
+    "override": true,
+    "isTagFor": [
+        "undergarden:shiverstone_froststeel_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 650
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}
