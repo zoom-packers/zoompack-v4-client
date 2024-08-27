@@ -1,4 +1,5 @@
 {
+    "override": true,
     "xp_values":{
         "BLOCK_BREAK" : {
             "mining": 100
