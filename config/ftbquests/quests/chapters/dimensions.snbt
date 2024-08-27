@@ -969,12 +969,32 @@
 		}
 		{
 			dependencies: ["40B9AE617755EEB3"]
+			description: [
+				"&2&lHow to Defeat the Slider&r&r"
+				""
+				"&e&lPrepare for the Dungeon Encounter:&r&r The Slider resides within the Slider's Labyrinth dungeon. To access the Slider, you must first defeat three mini-bosses: the Sentry Guardian, the Slider Host Mimic, and the Labyrinth Eye. Each mini-boss drops a key needed to unlock the Slider’s door."
+				""
+				"&e&lUse the Right Tools for the Job:&r&r The Slider can only be harmed using pickaxes, as it is immune to all other weapon types. Ensure you have a high-quality pickaxe equipped to effectively deal damage during the battle."
+				""
+				"&e&lWatch for Aggressive Charging:&r&r The Slider has a tendency to charge at the player right after attacking. Stay on your toes and be ready to dodge or reposition to avoid getting hit by these powerful charges."
+				""
+				"&e&lBeware of Additional Sentries:&r&r Throughout the fight, the Slider may spawn various Sentry types to complicate your battle. Be prepared to handle these additional threats while focusing on the Slider itself."
+				""
+				"&e&lRecognize Critical Health Behavior:&r&r When the Slider’s health drops to critical levels, it will turn red and increase its speed. Adapt your strategy to handle the faster movements and intensified attacks during this phase."
+				""
+				"&e&lAvoid Block Destruction:&r&r The Slider can destroy any block that is not Divine Carved Stone or Divine Sentry Stone. Use these materials to build barriers or safe spots to protect yourself from the Slider’s block-destroying abilities."
+				""
+				"&e&lClaim Your Rewards:&r&r Upon defeating the Slider, it will drop a variety of loot, including simple food items as well as valuable armor and weapons. Collect these rewards to enhance your gear and resources."
+				""
+				"Prepare for a challenging fight and utilize these strategies to conquer the Slider and claim your loot!"
+			]
 			id: "3CD461E91FC06B70"
 			rewards: [{
 				id: "5BD82E62CBDE04FD"
 				type: "xp_levels"
 				xp_levels: 7
 			}]
+			subtitle: "&6&lMaster the Dungeon's Challenges and Overcome the Mighty Slider!&r&r"
 			tasks: [{
 				entity: "aether:slider"
 				icon: "create_sa:brass_cube"
@@ -988,12 +1008,28 @@
 		}
 		{
 			dependencies: ["35C743AB645B7B00"]
+			description: [
+				"&2&lDefeating the Valkyrie Queen&r&r"
+				""
+				"&e&lPrepare for a Tough Battle:&r&r The Valkyrie Queen is the formidable boss of the Silver Dungeon and the second-hardest boss in The Aether. She rules from her throne room and will only engage you after you’ve defeated ten Valkyries and collected their Victory Medals."
+				""
+				"&e&lChallenge the Queen with Strategy:&r&r To initiate the fight, right-click her with the stack of ten Victory Medals. The Valkyrie Queen can deal up to 3 hearts of damage per hit, so ensure you’re equipped with strong armor and plenty of healing items."
+				""
+				"&e&lWatch Out for Her Attacks:&r&r The Valkyrie Queen can occasionally launch damaging orbs and will teleport behind you after taking several hits. She also has high mobility and can jump very high. Keep your eyes on her and be ready to dodge and heal as needed."
+				""
+				"&e&lUtilize Effective Tactics:&r&r One strategy involves standing in a corner and attacking with a Gravitite Sword to keep her pushed up, making it difficult for her to retaliate. Alternatively, use the Hammer of Notch by spamming across the room; even if she becomes invisible, continue targeting her location based on her health bar."
+				""
+				"&e&lClaim Your Rewards:&r&r Upon defeat, the Valkyrie Queen drops a Silver Key and a Gold Sword. A secret compartment will open in front of her throne, containing valuable loot such as Valkyrie Armor, Valkyrie Tools, and more."
+				""
+				"Prepare well and execute your strategy to conquer the Valkyrie Queen and secure her treasures!"
+			]
 			id: "6C9E664C47C4E172"
 			rewards: [{
 				id: "032080A86EAB3BC1"
 				type: "xp_levels"
 				xp_levels: 7
 			}]
+			subtitle: "&6&lConquer the Mighty Queen of the Silver Dungeon with Strategy and Skill!&r&r"
 			tasks: [{
 				entity: "aether:valkyrie_queen"
 				icon: "doggytalents:angel_wings"
@@ -1007,12 +1043,26 @@
 		}
 		{
 			dependencies: ["5C5018F261498DA3"]
+			description: [
+				"&2&lDefeating the Sun Spirit&r&r"
+				""
+				"&e&lPrepare for the Ultimate Battle:&r&r The Sun Spirit is the hardest boss in the Aether Mod and can only be found in Gold Dungeons. To initiate the fight, right-click on him. He will speak to you briefly before becoming hostile."
+				""
+				"&e&lHandle His Attacks:&r&r Once enraged, the Sun Spirit will seal the exit and attack by rushing at you and launching fireballs. Occasionally, he will shoot ice balls that you must hit back at him. When the ice ball hits, the Sun Spirit will turn into ice, summoning a smaller version of himself (on easy difficulty or higher) that you must defeat before it melts."
+				""
+				"&e&lUse the Right Gear:&r&r The Sun Spirit cannot be harmed by conventional weapons, so protect yourself with Phoenix Armor to negate fire and lava damage. Bring plenty of Regeneration Stones to maintain your health throughout the battle."
+				""
+				"&e&lClaim Your Rewards:&r&r Upon defeating the Sun Spirit, he will drop the Gold Key and the Sun Altar. Use the Gold Key to unlock the Locked Chest behind a secret wall in the back of the room. This chest contains some of the best items in the game, often overlooked due to its hidden location."
+				""
+				"Prepare thoroughly and execute your strategy to overcome the Sun Spirit and secure the valuable rewards!"
+			]
 			id: "04E2E9767072EFA6"
 			rewards: [{
 				id: "32A03A47690F39DF"
 				type: "xp_levels"
 				xp_levels: 7
 			}]
+			subtitle: "&6&lConquer the Fierce Ruler of the Gold Dungeon with Strategy and Protection!&r&r"
 			tasks: [{
 				entity: "aether:sun_spirit"
 				icon: "callfromthedepth_:jumpblock"
