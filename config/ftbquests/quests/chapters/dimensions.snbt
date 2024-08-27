@@ -1213,12 +1213,30 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["247A495F1595C8DB"]
+			description: [
+				"&2&lHow to Enter and Explore the Undergarden&r&r"
+				"&e&lCraft the Catalyst:&r&r To access the Undergarden, you must first craft a Catalyst. Use the following recipe to create it: combine Diamond, Netherite, and Pyrope to form this essential item."
+				""
+				"&e&lBuild the Portal Frame:&r&r Construct a portal frame in the shape of a Nether portal using Stone or Deepslate Bricks. This frame will serve as the gateway to the Undergarden."
+				""
+				"&e&lActivate the Portal:&r&r With the Catalyst in hand, right-click the inner bottom of the portal frame to activate it. This will open a portal to the Undergarden."
+				""
+				"&e&lExplore the Undergarden:&r&r Once inside, you’ll encounter a dark, subterranean world filled with unique flora that thrives without light. Beware of the invasive Rotspawn and other strange creatures from this chaotic realm."
+				""
+				"&e&lDiscover Unique Features:&r&r The Undergarden boasts over 15 biomes, more than 10 unique entities, and special ores with unique properties. Explore its depths, gather resources, and uncover hidden advancements and potion effects."
+				""
+				"&e&lPrepare for the Journey:&r&r Equip yourself with appropriate gear and tools to navigate and survive in this dark, mysterious dimension. Be ready for its challenging environment and the various threats it presents."
+				""
+				"Explore the Undergarden’s unique landscapes, encounter its mysterious creatures, and uncover its secrets!"
+			]
 			id: "45104F8FBB6A4444"
 			rewards: [{
 				id: "317BE6EBF296E678"
 				type: "xp_levels"
 				xp_levels: 6
 			}]
+			subtitle: "&6&lVenture into the Dark Subterranean World with the Catalyst and a Well-Prepared Portal!&r&r"
 			tasks: [{
 				dimension: "undergarden:undergarden"
 				icon: {
@@ -1234,7 +1252,160 @@
 				type: "dimension"
 			}]
 			x: 10.5d
-			y: 1.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&2&lHow to Access the Overgrown Temple&r&r"
+				"&e&lLocate the Jungle Biome:&r&r The Overgrown Temple is hidden within dense jungle biomes. Explore the lush, overgrown areas of the jungle to find this ancient Maya structure."
+				""
+				"&e&lIdentify the Temple Entrance:&r&r The Overgrown Temple is characterized by its ruins held together by indestructible vines. Look for a large, vine-covered structure made of Red Limestone and Ancient Gold, often partially obscured by foliage."
+				""
+				"&e&lNavigate the Temple Interior:&r&r Once inside, you’ll encounter puzzles, traps, and mystical creatures. Use your wits to solve the puzzles and avoid traps to advance deeper into the temple."
+				""
+				"&e&lFace Kukulkan’s Challenges:&r&r The temple pays tribute to Kukulkan, and you may encounter guardian monsters or traps inspired by Maya and Aztec mythology. Be prepared for challenging encounters and complex mechanisms."
+				""
+				"&e&lGather Resources and Treasures:&r&r Explore the temple thoroughly to find valuable resources and advanced equipment. These items will aid in your survival and progression in the mod’s challenging environment."
+				""
+				"Prepare for a journey into ancient Maya lore and overcome the trials of the Overgrown Temple!"
+			]
+			id: "30B0BA5D3551D05D"
+			subtitle: "&6&lUnveil the Ancient Maya Ruins Hidden in the Jungle and Face Kukulkan’s Trials!&r&r"
+			tasks: [{
+				icon: "call_of_yucutan:huracan_helmet"
+				id: "6C62A0EC37CF57E1"
+				structure: "call_of_yucutan:overgrown_temple"
+				title: "Find the Overgrown Temple"
+				type: "structure"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&2&lHow to Access the Deadly Crypt&r&r"
+				"&e&lFind the Crypt in Jungle Biomes:&r&r The Deadly Crypt is located in the same jungle biomes as the Overgrown Temple but is usually hidden among dense vegetation. Look for a dark, imposing structure indicative of a crypt."
+				""
+				"&e&lSpot the Crypt’s Exterior Features:&r&r The Deadly Crypt is constructed from Ritual Stone and Jade, and is designed to resemble a tomb. Its exterior may show signs of age and battle, reflecting its history as a Maya burial site."
+				""
+				"&e&lPrepare for Traps and Haunting Spirits:&r&r As you enter the crypt, be ready for numerous traps and the spirits of fallen Maya soldiers. The crypt is filled with deadly traps, so move cautiously and be prepared for combat."
+				""
+				"&e&lExplore the Tomb for Hidden Treasures:&r&r According to legend, a jade deposit lies beneath the crypt. Search for valuable items and resources hidden within the tomb’s depths, while avoiding or neutralizing the haunting spirits and traps."
+				""
+				"&e&lRespect the History and Culture:&r&r The Deadly Crypt is a monument to the Maya soldiers and their final resting place. Approach with respect for its history and the challenges it presents."
+				""
+				"Uncover the secrets of the Deadly Crypt and claim the treasures buried within!"
+			]
+			id: "012BE91FB076519B"
+			subtitle: "&6&lNavigate the Trapped Tomb and Confront the Haunting Spirits of the Maya Soldiers!&r&r"
+			tasks: [{
+				icon: "call_of_yucutan:warrior_helmet"
+				id: "7FD8AE7E25B0F16C"
+				structure: "call_of_yucutan:deadly_crypt"
+				title: "Find the Deadly Crypt"
+				type: "structure"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&2&lHow to Defeat Ah Puch&r&r"
+				"&e&lPrepare for Battle in the Deadly Crypt:&r&r Ah Puch, the Mayan god of death, resides within the Deadly Crypt. Before facing him, navigate the traps and spirits that haunt the crypt. Ensure you are well-equipped with powerful armor, weapons, and healing items."
+				""
+				"&e&lUnderstand Ah Puch’s Abilities:&r&r Ah Puch is a formidable opponent who commands the spirits of the fallen. He may use necrotic attacks and summon undead minions. Be prepared for powerful, life-draining attacks and avoid being overwhelmed by his summoned minions."
+				""
+				"&e&lEmploy Effective Combat Tactics:&r&r Engage Ah Puch with a strong melee weapon or ranged attacks if possible. His attacks may inflict status effects, so keep an eye on your health and use regeneration items to counteract any damage. Aim to keep your distance when he summons minions to reduce the number of threats you face simultaneously."
+				""
+				"&e&lManage the Encounter Efficiently:&r&r Use the terrain of the crypt to your advantage. Move strategically to avoid his more dangerous attacks and stay mobile to dodge incoming projectiles. Pay attention to his attack patterns and adapt your strategy as needed."
+				""
+				"&e&lClaim Your Rewards:&r&r Upon defeating Ah Puch, you will gain access to valuable loot and resources. The defeated deity may drop rare items that can enhance your gear and assist you in future challenges."
+				""
+				"Prepare thoroughly and use effective strategies to conquer Ah Puch and secure your rewards from the Deadly Crypt!"
+			]
+			id: "7810ADC748114AD6"
+			subtitle: "&6&lConquer the God of Death in the Deadly Crypt with Strategy and Preparedness!&r&r"
+			tasks: [{
+				entity: "call_of_yucutan:ah_puch"
+				icon: {
+					Count: 1
+					id: "call_of_yucutan:obsidian_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0383641083A8BCC7"
+				title: "Kill the Ah Punch"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&2&lHow to Defeat Kukulkan&r&r"
+				"&e&lPrepare for the Overgrown Temple Encounter:&r&r Kukulkan, the feathered serpent deity, guards the Overgrown Temple. Equip yourself with high-tier armor, a strong weapon, and plenty of healing items to handle the challenges within the temple."
+				""
+				"&e&lLearn Kukulkan’s Attack Patterns:&r&r Kukulkan may use a combination of powerful magic attacks and physical strikes. Watch for his serpent-like movements and be ready for his devastating breath attacks and summoning abilities. His attacks may reflect Maya and Aztec mythology, making them unique and dangerous."
+				""
+				"&e&lUtilize Tactical Combat Approaches:&r&r Engage Kukulkan with a combination of melee and ranged attacks. Use the temple’s layout to your advantage, finding cover where possible and avoiding direct line-of-sight when he charges up his more powerful attacks. Keep an eye on his health and adapt your tactics to his changing attack patterns."
+				""
+				"&e&lDodge and Defend Against Powerful Abilities:&r&r Kukulkan’s attacks may include fire or lightning elements. Prepare to dodge or block these attacks and use any protective gear that can mitigate elemental damage. Healing potions and buffs will be essential in surviving his onslaught."
+				""
+				"&e&lSecure Your Rewards:&r&r Defeating Kukulkan will yield valuable treasures and artifacts from the Overgrown Temple. Collect these rewards to enhance your equipment and continue your adventures."
+				""
+				"Confront Kukulkan with strategy and preparation to triumph over the mighty deity and claim your rewards from the Overgrown Temple!"
+			]
+			id: "7FA41176B09159AD"
+			subtitle: "&6&lOvercome the Feathered Serpent’s Trials in the Overgrown Temple for Ancient Rewards!&r&r"
+			tasks: [{
+				entity: "call_of_yucutan:kukulkan"
+				icon: {
+					Count: 1
+					id: "call_of_yucutan:wooden_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "039A680C8E71B676"
+				title: "Kill the Kukulkan"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			id: "7BDE807D43032ABD"
+			tasks: [{
+				icon: "mokels_boss_mantyd:mantyd_flute"
+				id: "0C460A6AD9972924"
+				structure: "mokels_boss_mantyd:kinoras_garden"
+				title: "Find the Kinora Garden"
+				type: "structure"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			id: "3DEB1C2D9C83394E"
+			tasks: [{
+				entity: "mokels_boss_mantyd:mantydbosssiting"
+				icon: {
+					Count: 1
+					id: "mokels_boss_mantyd:mantydhelmet_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7F114C69A2F14279"
+				title: "Kill Kinora"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.5d
+			y: 6.0d
 		}
 	]
 	subtitle: [
