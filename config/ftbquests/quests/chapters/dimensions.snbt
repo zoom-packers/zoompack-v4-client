@@ -100,10 +100,9 @@
 			]
 			id: "049267B81C4A89DF"
 			rewards: [{
-				count: 5
-				id: "40E49C1592741675"
-				item: "blue_skies:solnut"
-				type: "item"
+				id: "6413317F8EC99511"
+				type: "xp_levels"
+				xp_levels: 2
 			}]
 			subtitle: "A Realm of Eternal Daylight, Where Beauty Conceals Danger"
 			tasks: [{
@@ -138,7 +137,7 @@
 			rewards: [{
 				id: "29DC78785F1F7E44"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			subtitle: "A Twilight World of Hidden Perils and Eternal Dusk"
 			tasks: [{
@@ -373,6 +372,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["75248391C62B6DBD"]
 			description: [
 				"&2&lTo defeat the Alchemist&r&r"
 				""
@@ -413,6 +413,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["1818A701943F69F0"]
 			description: [
 				"&2&lTo defeat the Summoner&r&r"
 				""
@@ -559,12 +560,28 @@
 		}
 		{
 			dependencies: ["5AA2D43C25DC28E3"]
+			description: [
+				"&2&lTo find the Eel Shelter&r&r"
+				""
+				"&e&lSearch Aquatic Biomes:&r&r The Eel Shelter is located in deep ocean or coral reef biomes. Explore these watery expanses to find the hidden shelter."
+				""
+				"&e&lLook for Unique Structures:&r&r The shelter is often marked by distinct underwater structures, such as submerged ruins or colorful coral formations."
+				""
+				"&e&lUse Night Vision Potions:&r&r Drink Night Vision potions to enhance visibility underwater, making it easier to spot the shelter’s glowing markers or unusual shapes."
+				""
+				"&e&lFollow Eel Trails:&r&r Observe the movement of eels and follow them, as they may lead you to the shelter or provide hints about its location."
+				""
+				"&e&lPrepare for Deep Dives:&r&r Equip yourself with underwater breathing gear and health potions to explore the depths safely and locate the Eel Shelter."
+				""
+				"Dive into the depths and uncover the secrets of the Eel Shelter!"
+			]
 			id: "31A7720F7A4C5138"
 			rewards: [{
 				id: "77469E7D03B2B9AD"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "&6&lFinding the Eel Shelter: A Diver’s Guide&r&r"
 			tasks: [{
 				icon: "outer_end:ancient_ice"
 				id: "3538AE5A97AE1F23"
@@ -576,6 +593,7 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["049267B81C4A89DF"]
 			description: [
 				"&2&lTo find the Blinding Dungeon&r&r"
 				""
@@ -615,12 +633,29 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["049267B81C4A89DF"]
+			description: [
+				"&2&lTo find the Nature Dungeon&r&r"
+				""
+				"&e&lExplore Verdant Biomes:&r&r The Nature Dungeon is hidden within lush, vibrant biomes such as dense forests or sprawling jungles. Look for dense foliage and overgrown areas."
+				""
+				"&e&lLook for Natural Markers:&r&r Search for distinctive features like large ancient trees, overgrown ruins, or glowing flora that might indicate the dungeon’s entrance."
+				""
+				"&e&lUse a Nature-Infused Map:&r&r If available, use a nature-infused map or clue to guide you toward the dungeon’s location."
+				""
+				"&e&lFollow the Green Path:&r&r Follow paths of unusual green vegetation or rare plants leading to the dungeon entrance."
+				""
+				"&e&lPrepare for Wild Defenders:&r&r The dungeon is guarded by nature-themed creatures. Equip gear resistant to natural attacks and be ready for wild encounters."
+				""
+				"Prepare to delve into the heart of nature’s secrets and uncover the dungeon’s hidden treasures!"
+			]
 			id: "11437F4886499075"
 			rewards: [{
 				id: "52CDB52AAD8EC26C"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			subtitle: "&6&lFinding the Nature Dungeon: A Seeker’s Guide&r&r"
 			tasks: [{
 				icon: "blue_skies:nature_key"
 				id: "25A93A87D2B67757"
@@ -632,6 +667,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["11437F4886499075"]
 			description: [
 				"&2&lTo defeat the Starlit Crusher&r&r"
 				""
@@ -682,12 +718,29 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["649893D325C5BAAD"]
+			description: [
+				"&2&lTo find the Blinding Dungeon&r&r"
+				""
+				"&e&lExplore Everdawn Plains:&r&r The Blinding Dungeon is hidden within the Everdawn dimension, often found beneath its shadowy plains. Search areas with flat terrain and scattered ruins."
+				""
+				"&e&lLook for Markers:&r&r The dungeon entrance is usually marked by ominous stone structures or glowing symbols on the ground. Keep an eye out for these signs."
+				""
+				"&e&lUse a Zeal Lighter:&r&r Light up nearby markers with your Zeal Lighter to reveal hidden paths or clues that lead to the dungeon entrance."
+				""
+				"&e&lPrepare for Descent:&r&r The entrance may lead to deep underground chambers. Ensure you have ample supplies and gear for a long descent."
+				""
+				"&e&lWatch for Traps:&r&r The dungeon is riddled with traps and illusions. Proceed with caution and stay alert for sudden dangers."
+				""
+				"Prepare yourself for a perilous journey into the dark depths of the Everdawn!"
+			]
 			id: "75248391C62B6DBD"
 			rewards: [{
 				id: "6674B6077FC95EFD"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			subtitle: "&6&lFinding the Blinding Dungeon: A Pathfinder’s Guide&r&r"
 			tasks: [{
 				icon: "blue_skies:blinding_key"
 				id: "14665977EAD716C4"
@@ -699,6 +752,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["649893D325C5BAAD"]
 			description: [
 				"&2&lTo find the Poison Dungeon&r&r"
 				""
@@ -730,6 +784,245 @@
 			}]
 			x: 1.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["07B0872DCB83FA8C"]
+			description: [
+				"&2&lTo defeat the Arachnarch&r&r"
+				""
+				"&e&lLocate Its Lair:&r&r The Arachnarch resides in dark, web-filled caverns within the Everdawn dimension. Search for areas heavily covered in cobwebs and large, ominous spider nests."
+				""
+				"&e&lPrepare for Swarms:&r&r The Arachnarch summons swarms of smaller spiders during combat. Equip area-of-effect weapons and defensive gear to handle the spider minions."
+				""
+				"&e&lAvoid Webs and Traps:&r&r The cavern is laden with sticky webs and traps. Stay mobile to avoid getting ensnared and slow down."
+				""
+				"&e&lAttack the Core:&r&r Focus your attacks on the Arachnarch’s central body. Aim for exposed areas when it pauses or after summoning spiders."
+				""
+				"&e&lCollect Arachnid Spoils:&r&r Defeating the Arachnarch rewards you with rare spider silk and powerful venomous items useful for crafting and combat."
+				""
+				"Prepare for a fierce battle against the monstrous spider queen!"
+			]
+			id: "4F396AFB5627A6B3"
+			rewards: [{
+				id: "42EDC41365DD63A2"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			subtitle: "&6&lKilling the Arachnarch: A Battle Strategy&r&r"
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				icon: {
+					Count: 1
+					id: "blue_skies:loot_bag_arachnarch"
+					tag: {
+						LootTable: "blue_skies:loot_bags/arachnarch/rare"
+						Rarity: 2
+					}
+				}
+				id: "6F58554C0DBF24F8"
+				title: "Kill the Arachnarch"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["649893D325C5BAAD"]
+			description: [
+				"&l&e☁ The Aether Dimension ☁&r&r"
+				""
+				"Getting Started"
+				"The Aether is a floating paradise high above, full of beauty and danger. To enter, construct a portal frame with Glowstone blocks, and activate it by placing a water bucket in the center. Step through the portal to reach this aerial realm. Be prepared for a unique adventure in a world where survival requires both skill and preparation."
+				""
+				"Conquering Dungeons"
+				"Explore the Aether’s three intriguing dungeons:"
+				""
+				"Bronze Dungeon: Home to the Sentries and ruled by the Slider, a formidable stone creature. Navigate hidden tunnels and gear up with the best equipment to face this challenge."
+				""
+				"Silver Dungeon: Located in the Valkyrie Temple, where you'll battle Valkyrie Knights. Defeat them to prove your worth and challenge the Valkyrie Queen, an ancient and powerful warrior."
+				""
+				"Gold Dungeon: The rarest of dungeons, guarded by the Sun Spirit, a being of pure fire. Defeating the Sun Spirit will be a monumental task, but the rewards are among the most valuable in the Aether."
+				""
+				"Prepare for an epic adventure in this ethereal dimension!"
+			]
+			id: "68C47292D31DEEB2"
+			rewards: [{
+				id: "2C4F06609B0DF9C9"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			subtitle: "Entering the Aether: A Journey Beyond the Skies"
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "535C69E050D6890F"
+				title: "Visit The Aether"
+				type: "dimension"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["68C47292D31DEEB2"]
+			description: [
+				"&e&lLook for Giant Temple Structures&r&r "
+				""
+				"The Silver Dungeon resembles a massive temple adorned with pillar blocks. Search for these grand structures in the Aether to locate the dungeon."
+				""
+				"&e&lInvestigate the Pillared Surroundings:&r&r The dungeon is typically surrounded by pillar blocks. These pillars can help you identify the dungeon’s location and serve as markers for where to start your search."
+				""
+				"&e&lPrepare for Valkyrie Encounters:&r&r Inside the dungeon, you’ll face Valkyries, powerful mobs that drop Victory Medals upon defeat. Equip strong armor and bring plenty of healing items before engaging them. Collect ten Victory Medals to challenge the Valkyrie Queen for the key to the dungeon’s chest."
+				""
+				"&e&lBeware of Mimics in Chests:&r&r Several chests within the dungeon contain valuable loot, but some are disguised as Mimics. Approach chests with caution and be prepared for surprise attacks."
+				""
+				"&e&lKeep an Eye Out for Ruined Temples (Future Reference):&r&r While not yet implemented in Aether II, future Silver Dungeons may appear as overgrown and decaying ruins, potentially covered in vines. Stay tuned for updates and be ready for these changes."
+				""
+				"Prepare yourself for a challenging exploration and uncover the treasures hidden within the Silver Dungeon!"
+			]
+			id: "35C743AB645B7B00"
+			rewards: [{
+				id: "6D9CA2821B2417BC"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "&6&l☁ Finding the Silver Dungeon ☁"
+			tasks: [{
+				icon: "aether:silver_dungeon_key"
+				id: "20B781C01DB6CA18"
+				structure: "aether:silver_dungeon"
+				title: "Find the Silver Dungeon"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["68C47292D31DEEB2"]
+			description: [
+				"&e&lSearch the Sides of Aether Land Masses&r&r "
+				""
+				"The Bronze Dungeon is commonly found on the sides of Aether land masses. Look for rocky outcrops and exposed areas where the dungeon might be accessible from the surface."
+				""
+				"&e&lCheck the Ceilings of Exposed Land:&r&r Occasionally, the dungeon entrance can be found through the ceiling of the Aether land masses if it’s exposed. Keep an eye out for openings or gaps in the land where you might spot the entrance."
+				""
+				"&e&lLook for Concealed Entrances:&r&r In some cases, the Bronze Dungeon is completely entombed within the landmass with no external signs. Be prepared to explore thoroughly and investigate any suspicious areas or hidden passages."
+				""
+				"&e&lPrepare for a Conquerable Challenge:&r&r The Bronze Dungeon is the easiest of the three types to conquer, but the walls and floor cannot be broken until the dungeon is fully beaten. Make sure you have sufficient resources and gear to tackle the dungeon’s challenges."
+				""
+				"&e&lEquip for Exploration:&r&r Bring tools and equipment suitable for navigating through rocky terrain and exploring concealed dungeons. Good lighting and a reliable map can help in locating the entrance."
+				""
+				"Gear up and venture into the Bronze Dungeon to uncover its secrets and claim the rewards within!"
+			]
+			id: "40B9AE617755EEB3"
+			rewards: [{
+				id: "4F92628888253A6E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "&6&l☁ Finding the Bronze Dungeon ☁"
+			tasks: [{
+				icon: "aether:bronze_dungeon_key"
+				id: "5C07720C5CC1D3EA"
+				structure: "aether:bronze_dungeon"
+				title: "Find the Bronze Dungeon"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["68C47292D31DEEB2"]
+			description: [
+				"&e&lSearch for Floating Spheres&r&r "
+				""
+				"The Gold Dungeon is the most challenging and rewarding dungeon in the Aether, characterized by its giant floating spheres. Look for a massive central sphere with smaller spheres attached to it, often suspended in the air."
+				""
+				"&e&lSpot the Golden Oaks and Cockatrices:&r&r The top of the dungeon is typically covered with Golden Oaks, and the low light levels around the sphere may attract Cockatrices. Be on the lookout for these distinctive trees and the presence of hostile mobs."
+				""
+				"&e&lFind the Entrance on the Circumference:&r&r To access the dungeon, locate an opening around the circumference of the giant sphere. This entrance leads to a room made of Hellfire Stone, where the boss battle will commence."
+				""
+				"&e&lPrepare for a Direct Boss Battle:&r&r Unlike other dungeons, the Gold Dungeon immediately leads you into a boss battle against The Sun God (Spirit). Be well-equipped with high-level armor and weapons to handle this intense confrontation."
+				""
+				"&e&lNote the Absence of Water:&r&r Due to the extreme heat of The Sun God’s domain, water cannot be placed inside the Gold Dungeon as it evaporates too quickly. Ensure you have alternative methods for dealing with any heat-related challenges."
+				""
+				"&e&lClaim the Best Rewards:&r&r The Dungeon Chest located in the back wall contains some of the best treasures in the Aether, including the Vampire Blade, Phoenix Armor, Shard of Life, Pig Slayer, Iron Bubble, Book of Lore Volume 3, Gravitite Armor, Cloud Staff, and the Sun Altar."
+				""
+				"Prepare yourself for the ultimate challenge and reap the exceptional rewards hidden within the Gold Dungeon!"
+			]
+			id: "5C5018F261498DA3"
+			rewards: [{
+				id: "305D681D9994E535"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "&6&l☁ Finding the Gold Dungeon ☁"
+			tasks: [{
+				icon: "aether:gold_dungeon_key"
+				id: "6B171A4F8CEF4F00"
+				structure: "aether:gold_dungeon"
+				title: "Find the Gold Dungeon"
+				type: "structure"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["40B9AE617755EEB3"]
+			id: "3CD461E91FC06B70"
+			rewards: [{
+				id: "5BD82E62CBDE04FD"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				entity: "aether:slider"
+				icon: "create_sa:brass_cube"
+				id: "737BCC704B1C16A7"
+				title: "Kill the Slider"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["35C743AB645B7B00"]
+			id: "6C9E664C47C4E172"
+			rewards: [{
+				id: "032080A86EAB3BC1"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				icon: "doggytalents:angel_wings"
+				id: "673CD1FDCF7E18D7"
+				title: "Kill the Valkyrie Queen"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5C5018F261498DA3"]
+			id: "04E2E9767072EFA6"
+			rewards: [{
+				id: "32A03A47690F39DF"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				entity: "aether:sun_spirit"
+				icon: "callfromthedepth_:jumpblock"
+				id: "74001D0CEDFDEE7B"
+				title: "Kill the Sun Spirit"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: -5.0d
 		}
 	]
 	subtitle: [
