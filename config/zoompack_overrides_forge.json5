@@ -98,5 +98,36 @@
     "baneArthropodsTotalDamageMultiplierPerLevel": 0.0,
     "smiteUndeadFactor": 1.0,
     "smiteUndeadTotalDamageMultiplierPerLevel": 0.0
+  },
+  "pmmo": {
+    "enabled": true,
+    "skills": [
+      "tech",
+      "magic",
+      "slayer",
+      "fishing",
+      "fightgroup",
+      "combat",
+      "swordsmanship",
+      "alchemy",
+      "mining",
+      "engineering",
+      "endurance",
+      "building",
+      "smithing",
+      "swimming",
+      "woodcutting",
+      "gunslinging",
+      "crafting",
+      "excavation",
+      "farming",
+      "flying",
+      "cooking",
+      "agility",
+      "sailing",
+      "hunter",
+      "archery",
+      "taming"
+    ]
   }
 }
