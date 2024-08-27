@@ -202,9 +202,9 @@ key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_key.fpsdisplay.toggleOverlay:key.keyboard.unknown
 key_key.spyglass_of_curios.use:key.keyboard.c
 key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt
-key_key.sethorse.desc:key.keyboard.v:SHIFT
+key_key.sethorse.desc:key.keyboard.v:ALT
 key_key.callhorse.desc:key.keyboard.v
-key_key.showstats.desc:key.keyboard.v:ALT
+key_key.showstats.desc:key.keyboard.v:CONTROL
 key_merchantmarkers.key.showMarkers:key.keyboard.left.alt
 key_key.azurelib.reload:key.keyboard.unknown
 key_key.azurelib.scope:key.keyboard.unknown
@@ -399,6 +399,7 @@ key_key.inventoryhud.togglearm:key.keyboard.unknown
 key_key.inventoryhud.toggleall:key.keyboard.unknown
 key_key.firstperson.toggle:key.keyboard.f6
 key_key.dotcoinmod.wallet_key:key.keyboard.unknown
+key_key.antighost.reveal:key.keyboard.page.up:CONTROL
 soundCategory_master:0.5091059602649006
 soundCategory_music:0.0
 soundCategory_record:1.0
