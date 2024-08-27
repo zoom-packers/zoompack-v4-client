@@ -1,0 +1,740 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dimensions"
+	group: "095B5FA2C9ED2F6A"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:wayward_compass"
+		tag: { }
+	}
+	id: "114B9726A591A784"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&b&l🌍 The Overworld 🌍&r&r"
+				"The Overworld is a vast and dynamic realm brimming with ancient civilizations, mysterious dungeons, diverse biomes, and complex mechanics. Explore the remnants of forgotten cities, abandoned strongholds, and hidden temples, each holding valuable relics and treasures. Scattered across the landscape are dungeons filled with traps, hostile mobs, and powerful bosses guarding legendary loot."
+				""
+				"The world is alive with diverse fauna and unique biomes, from towering mountains to dense forests and expansive oceans. Dive into underwater wonders, discover sunken ships, and encounter exotic creatures. Advanced crafting systems allow you to create powerful tools, weapons, and armor, while environmental mechanics add depth to survival."
+				""
+				"Hidden caves, enigmatic monoliths, and mysterious portals to other dimensions await discovery, each offering new challenges and rewards. The Overworld is a land of endless adventure, where every exploration uncovers new secrets and opportunities."
+			]
+			icon: "minecolonies:supplycampdeployer"
+			id: "7BEC85EFE323F106"
+			rewards: [{
+				id: "5FBB61690DEFA9AD"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:oak_log"
+				id: "409965771D31CA38"
+				title: "Welcome to the Zoompack Experience"
+				type: "dimension"
+			}]
+			title: "Overworld"
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BEC85EFE323F106"]
+			description: [
+				"&d&l🔑 The Gatekeeper&r&r"
+				"To embark on your journey through these mystical dimensions, your first task is to find the Gatekeeper. He resides in houses scattered across plains, mountains, and snowy biomes. Once you locate him, trade a book for his journal—this invaluable guide contains detailed knowledge of the dimensions, covering everything from the blocks and mobs you'll encounter to the dungeons you must conquer. Additionally, the Gatekeeper offers trades for a Zeal Lighter, essential for activating the Everbright and Everdawn portal frames. Explore his home thoroughly; you'll find an unlit portal frame waiting to be activated. As you progress, the Gatekeeper may unlock further trades, so it’s wise to revisit him after reaching certain milestones in your adventure."
+				""
+				"🕳 How to Enter the Dimensions"
+				"After meeting the Gatekeeper, trade your emeralds for a Zeal Lighter—this will be your key to opening the portals. Search his home for the hidden unlit Everbright or Everdawn portal frame. Once you’ve found it, tidy up the structure, ignite it with the Zeal Lighter, and step through to enter a new dimension filled with challenges and wonders."
+			]
+			hide_text_until_complete: false
+			id: "2D90C0DEA3B9A5ED"
+			rewards: [{
+				count: 5
+				id: "5E020EC2E364B010"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "The Gatekeepers are the way into the Blue Skies"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "blue_skies:zeal_lighter"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2A9D0A66DF83A3DC"
+				structure: "#blue_skies:gatekeeper_houses"
+				title: "Find the gatekeepers in the mountains, snow mountains or plains"
+				type: "structure"
+			}]
+			title: "Find The Gatekeepers"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D90C0DEA3B9A5ED"]
+			description: [
+				"&3&l🌞 The Everbright Dimension 🌞&r&r"
+				"Getting Started"
+				"The Everbright is a realm of eternal daylight, where the sun never sets. To enter, locate the Gatekeeper and trade for a Zeal Lighter. Use it to light the Everbright portal frame in the Gatekeeper's home, and step through to begin your journey."
+				""
+				"Exploring the Everbright"
+				"Though peaceful at first glance, the Everbright is filled with hidden dangers:"
+				""
+				"Lush Landscapes: Beautiful forests, lakes, and mountains dominate the terrain, but beware of dangerous mobs lurking in the shadows."
+				""
+				"Frozen Peaks: High in the mountains, you'll face icy winds and cold-resistant creatures, challenging your survival skills."
+				""
+				"Dungeons and Bosses: The Everbright hosts challenging dungeons, each guarded by powerful bosses. Conquer them to uncover rare treasures and gear."
+				""
+				"Survival in the Everbright demands adaptability. Equip yourself well, explore its diverse biomes, and conquer dungeons to unlock the secrets of this sunlit realm."
+			]
+			id: "049267B81C4A89DF"
+			rewards: [{
+				count: 5
+				id: "40E49C1592741675"
+				item: "blue_skies:solnut"
+				type: "item"
+			}]
+			subtitle: "A Realm of Eternal Daylight, Where Beauty Conceals Danger"
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				icon: "blue_skies:everbright_portal"
+				id: "271A99C7A54C75D7"
+				title: "Visit the Everbright"
+				type: "dimension"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["049267B81C4A89DF"]
+			description: [
+				"&l&d🌑 The Everdawn Dimension 🌑&r&r"
+				"Getting Started"
+				"The Everdawn is a twilight realm, where the sun never fully rises, casting an eternal orange glow. To enter this eerie world, find the Gatekeeper and trade for a Zeal Lighter. Use it to light the Everdawn portal frame in the Gatekeeper's home, and step through to begin your journey."
+				""
+				"Exploring the Everdawn"
+				"The Everdawn is a land of haunting beauty and hidden perils:"
+				""
+				"Twilight Landscapes: The Everdawn is filled with dark forests, glowing fungi, and shadowy plains. The dim light conceals powerful mobs that thrive in the twilight."
+				""
+				"Smoldering Valleys: In these treacherous areas, the ground is hot, and lava flows freely. Expect to face heat-resistant creatures and environmental hazards."
+				""
+				"Dungeons and Bosses: The Everdawn is home to formidable dungeons guarded by relentless bosses. Conquering these dungeons will reward you with powerful gear and valuable treasures."
+				""
+				"Survival in the Everdawn requires courage and preparation. Explore its ominous biomes, battle the powerful creatures that inhabit them, and conquer the dungeons to uncover the secrets of this twilight realm."
+			]
+			id: "649893D325C5BAAD"
+			rewards: [{
+				id: "29DC78785F1F7E44"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "A Twilight World of Hidden Perils and Eternal Dusk"
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				icon: "blue_skies:everdawn_portal"
+				id: "31560249B059D03D"
+				title: "Visit The Everdawn"
+				type: "dimension"
+			}]
+			title: "Visit The Everdawn"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BEC85EFE323F106"]
+			description: [
+				"&9&lHow many could there even be?&r&r"
+				""
+				"The Overworld is home to powerful hidden bosses, lurking in dungeons, ancient ruins, and remote locations. These formidable foes guard rare treasures and powerful artifacts. "
+				""
+				"To find them, explore deep caves, abandoned structures, and mysterious temples scattered across the land. Each boss presents a unique challenge, requiring strategy and preparation. Defeat them to claim their valuable rewards and enhance your adventure."
+				""
+				"Go out there and discover amazing boss fights"
+			]
+			id: "5AA2D43C25DC28E3"
+			rewards: [{
+				id: "0207DD77704D47BA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "The first glimpse of wrath"
+			tasks: [{
+				biome: "minecraft:cold_ocean"
+				icon: "croptopia:water_bottle"
+				id: "69E86914C87988FF"
+				title: "Get to an ocean"
+				type: "biome"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["214A1A47193F852B"]
+			description: [
+				"&2&lTo defeat the Elder Guardian&r&r"
+				""
+				"&e&lLocation:&r&r Find it in ocean monuments, deep underwater."
+				""
+				"&e&lNavigation:&r&r Traverse through the monument, avoiding Guardians and Mining Fatigue attacks."
+				""
+				"&e&lObjective:&r&r Destroy the Elder Guardian to obtain valuable loot, including prismarine shards and a coveted sponge."
+				""
+				"Prepare well and conquer the warden of the deep!"
+			]
+			id: "772BD613D333065B"
+			rewards: [{
+				id: "3EFF7EE2D9348C3F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "&6&lConquering the Elder Guardian: The Ocean’s Ancient Warden"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: "oceansdelight:guardian"
+				id: "164F8AEA6E8D5F6C"
+				title: "Kill the Elder Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			x: -15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["31A7720F7A4C5138"]
+			description: [
+				"&2&lTo defeat Captain Cornelia&r&r&r"
+				""
+				"&e&lLocation:&r&r Find her aboard the cursed shipwrecks drifting in dark waters."
+				""
+				"&e&lNavigation:&r&r Board the ship and fight through her spectral crew to reach the captain's quarters."
+				""
+				"&e&lObjective:&r&r Defeat Captain Cornelia to claim rare loot, including the powerful Coral Saber and enchanted treasure."
+				""
+				"Prepare for a battle against the ghostly pirate queen!"
+			]
+			id: "6A9C47830FE12C16"
+			rewards: [{
+				id: "270E542ECBAC2792"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "&6&lDefeating Captain Cornelia: The Ghostly Pirate Queen"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					Count: 1
+					id: "aquamirae:three_bolt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "775F1FB647954D5B"
+				title: "Kill Captain Cornelia"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["68FB8DFCF5B56C3A"]
+			description: [
+				"&2&lTo defeat Captain Cornelia&r&r&r"
+				""
+				"&e&lLocation:&r&r Find her aboard the cursed shipwrecks drifting in dark waters."
+				""
+				"&e&lNavigation:&r&r Board the ship and fight through her spectral crew to reach the captain's quarters."
+				""
+				"&e&lObjective:&r&r Defeat Captain Cornelia to claim rare loot, including the powerful Coral Saber and enchanted treasure."
+				""
+				"Prepare for a battle against the ghostly pirate queen!"
+			]
+			id: "5EE2046CC0CC6812"
+			rewards: [{
+				id: "528ACD1043C5D8AB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "&6&lDefeating Captain Cornelia: The Ghostly Pirate Queen"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "theabyss:night_altar"
+				id: "3BC9FC52535906E9"
+				title: "Kill the Night Lich"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["61FE5D9701BD51ED"]
+			description: [
+				"&2&lTo defeat the Night Lich&r&r&r"
+				""
+				"&e&lLocation:&r&r Find him in his ominous tower, looming over the dark forests."
+				""
+				"&e&lNavigation:&r&r Ascend the tower, overcoming deadly traps and arcane defenders."
+				""
+				"&e&lObjective:&r&r Defeat the Night Lich to obtain rare magical artifacts and the powerful Soul Crystal."
+				""
+				"Prepare for a battle against the master of dark magic!"
+			]
+			id: "0AB7286C38F1C3F3"
+			rewards: [{
+				id: "4225766422A3EE33"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "&6&lVanquishing the Night Lich: Master of Dark Magic"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "minecraft:torchflower"
+				id: "1DD43E937671E495"
+				title: "Kill the Void Blossom"
+				type: "kill"
+				value: 1L
+			}]
+			x: -12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["31A7720F7A4C5138"]
+			description: [
+				"&2&lTo defeat the Eel&r&r"
+				""
+				"&e&lLocation:&r&r Find it lurking in the depths of the ocean, near eerie underwater ruins."
+				""
+				"&e&lNavigation:&r&r Dive deep, avoiding its electrifying attacks and navigating through treacherous waters."
+				""
+				"&e&lObjective:&r&r Defeat the Eel to acquire rare loot, including the Electric Fang and other valuable underwater treasures."
+				""
+				"Prepare to face the terror of the depths!"
+			]
+			id: "403870F33730A4D5"
+			rewards: [{
+				id: "4753C85EEDA02BCD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "&6&lOvercoming the Eel: Terror of the Depths"
+			tasks: [{
+				entity: "aquamirae:eel"
+				icon: "aquaculture:fish_bones"
+				id: "512584BCFB2AAA7C"
+				title: "Kill the Eel"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["31A7720F7A4C5138"]
+			description: [
+				"&l&2To defeat the Mother of the Maze&r&r"
+				""
+				"&e&lLocation:&r&r Find her at the heart of the submerged labyrinth, hidden deep within ocean ruins."
+				""
+				"&e&lNavigation:&r&r Navigate the twisting, flooded passages, avoiding deadly traps and ambushes."
+				""
+				"&e&lObjective:&r&r Defeat the Mother of the Maze to earn rare loot, including the Maze Key and powerful relics."
+				""
+				"Prepare to challenge the labyrinth's guardian!"
+			]
+			id: "4B2C7B8999C26D04"
+			rewards: [{
+				id: "5778D260BC24E9D6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "&l&6Defeating the Mother of the Maze: Guardian of the Labyrinth"
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: "outer_end:rose_crystal_bud"
+				id: "7C95237E4039876C"
+				title: "Kill the Mother Of The Maze"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"&2&lTo defeat the Alchemist&r&r"
+				""
+				"&e&lLocate the Hidden Lab:&r&r The Alchemist hides in a secret lab within the Everdawn dimension, often concealed in dark, remote areas. Search for suspicious structures or secluded caverns."
+				""
+				"&e&lBeware of Potions:&r&r The Alchemist uses dangerous potions that can poison, burn, or slow you down. Carry antidotes and health potions to counter these effects."
+				""
+				"&e&lClose the Distance:&r&r The Alchemist prefers to keep his distance, using ranged attacks. Close in quickly to disrupt his potion throwing and engage in close combat."
+				""
+				"&e&lDisrupt His Brew:&r&r Attack while the Alchemist is brewing potions to interrupt his process and prevent him from using powerful concoctions."
+				""
+				"&e&lClaim the Rare Ingredients:&r&r Upon defeat, the Alchemist drops valuable potion ingredients and unique brews that can aid you in future battles."
+				""
+				"Prepare for a battle of strategy and swift action against this master of potions!"
+			]
+			id: "5E9BE0D7EA60E4C3"
+			rewards: [{
+				id: "220A0199AAACF89D"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			subtitle: "&6&lKilling the Alchemist: A Battle Strategy&r&r"
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				icon: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "irons_spellbooks:iss_guide_book"
+					}
+				}
+				id: "0FCF0E493672C286"
+				title: "Kill the Alchemist"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"&2&lTo defeat the Summoner&r&r"
+				""
+				"&e&lLocate the Arena:&r&r The Summoner is found in a dedicated arena, usually within the Everbright dimension’s dungeons. Search for large, enclosed spaces with runic symbols on the walls."
+				""
+				"&e&lPrepare for Minions:&r&r The Summoner calls forth waves of minions to overwhelm you. Equip yourself with crowd-control weapons and area-of-effect attacks."
+				""
+				"&e&lTarget the Summoner:&r&r Focus your attacks on the Summoner to disrupt his rituals and prevent him from summoning more creatures."
+				""
+				"&e&lDodge and Strike:&r&r The Summoner uses ranged magic attacks. Stay mobile, dodging his spells while finding openings to strike."
+				""
+				"&e&lCollect the Spoils:&r&r Defeating the Summoner rewards you with powerful artifacts and gear, crucial for your journey through the dimensions."
+				""
+				"Prepare for a relentless battle against waves of summoned foes and their master!"
+			]
+			id: "0259A98C25E42728"
+			rewards: [{
+				id: "7F67047DE90EBEA0"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			subtitle: "&6&lKilling the Summoner: A Battle Strategy&r&r"
+			tasks: [{
+				entity: "blue_skies:summoner"
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "farmersdelight:backstabbing"
+							lvl: 8s
+						}]
+					}
+				}
+				id: "63AA4F365C07D0C0"
+				title: "Kill the Summoner"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5AA2D43C25DC28E3"]
+			description: [
+				"&2&lTo find an Ocean Monument&r&r"
+				""
+				"&e&lSearch Deep Oceans:&r&r Ocean Monuments are large underwater structures located in deep ocean biomes. Look for areas where the water is particularly deep and expansive."
+				""
+				"&e&lUse a Boat:&r&r Sail across deep ocean biomes, keeping an eye out for prismarine blocks below the water’s surface."
+				""
+				"&e&lNight Vision Potion:&r&r Drink a Night Vision potion to increase underwater visibility, making it easier to spot the monument's glowing lanterns from a distance."
+				""
+				"&e&lDolphin’s Grace:&r&r Swim with dolphins to gain Dolphin’s Grace, boosting your speed and helping you cover more ocean territory quickly."
+				""
+				"&e&lOcean Explorer Map:&r&r Obtain an Ocean Explorer Map from a Cartographer Villager, which will lead you directly to the nearest monument."
+				""
+				"Prepare for a challenging dive into the depths!"
+			]
+			id: "214A1A47193F852B"
+			rewards: [{
+				id: "44E885431A414387"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "&6&lLocating an Ocean Monument: A Diver’s Guide"
+			tasks: [{
+				icon: "morevillagers:oceanography_table"
+				id: "3197D620D0FAB690"
+				structure: "#betteroceanmonuments:better_ocean_monuments"
+				title: "Find the Oceam Monument"
+				type: "structure"
+			}]
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5AA2D43C25DC28E3"]
+			description: [
+				"&2&lTo find the Lich Tower&r&r"
+				""
+				"&e&lExplore Dark Forests:&r&r Lich Towers are tall, ominous structures found in dense, dark forest biomes. Look for areas where the trees are thick and the atmosphere is eerie."
+				""
+				"&e&lScan the Horizon:&r&r The Lich Tower stands tall above the trees, often visible from a distance due to its towering height and dark architecture."
+				""
+				"&e&lNight Vision Potion:&r&r Use a Night Vision potion to improve visibility in the shadowy forest, making it easier to spot the tower’s dark silhouette."
+				""
+				"&e&lFollow the Signs:&r&r Look for unnatural clearings or paths leading deeper into the forest, often indicating the presence of the Lich Tower nearby."
+				""
+				"&e&lCheck Your Map:&r&r If you have a map from a Cartographer or a related clue, use it to guide you toward the tower's location."
+				""
+				"Prepare for a perilous ascent to confront the Night Lich!"
+			]
+			id: "68FB8DFCF5B56C3A"
+			rewards: [{
+				id: "4391564398FE540F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "&6&lLocating the Lich Tower: A Hunter’s Guide&r&r"
+			tasks: [{
+				icon: "irons_spellbooks:ice_staff"
+				id: "39FFB7D851DE2EF2"
+				structure: "bosses_of_mass_destruction:lich_tower"
+				title: "Find the Lich Tower"
+				type: "structure"
+			}]
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5AA2D43C25DC28E3"]
+			description: [
+				"&2&lTo find the Void Blossom Arena&r&r"
+				""
+				"&e&lSearch Deep Caves:&r&r The Void Blossom Arena is hidden deep underground, typically within vast cave systems. Explore areas with large open spaces and deep descents."
+				""
+				"&e&lFollow the Darkness:&r&r Look for regions where the darkness seems unnaturally thick, a sign that the arena may be near."
+				""
+				"&e&lUse Night Vision:&r&r Drink a Night Vision potion to navigate the dark caves more effectively, helping you spot the ominous glow of the Void Blossom’s arena."
+				""
+				"&e&lListen for Sounds:&r&r As you get closer, listen for eerie, otherworldly noises echoing through the caverns, indicating the presence of the arena."
+				""
+				"&e&lMine and Explore:&r&r Be prepared to mine through tough stone and explore hidden tunnels to uncover the entrance to the arena."
+				""
+				"Ready yourself for a challenging battle in the depths!"
+			]
+			id: "61FE5D9701BD51ED"
+			rewards: [{
+				id: "3EBD117FD1A1C2ED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "&6&lFinding the Void Blossom Arena: A Seeker’s Guide&r&r"
+			tasks: [{
+				icon: "nethervinery:warped_grapevine_pot"
+				id: "05B524141F8CC58A"
+				structure: "bosses_of_mass_destruction:void_blossom"
+				title: "Find the Void Blossom Arena"
+				type: "structure"
+			}]
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5AA2D43C25DC28E3"]
+			id: "31A7720F7A4C5138"
+			rewards: [{
+				id: "77469E7D03B2B9AD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: "outer_end:ancient_ice"
+				id: "3538AE5A97AE1F23"
+				structure: "aquamirae:shelter"
+				title: "Find the Eel Shelter"
+				type: "structure"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			description: [
+				"&2&lTo find the Blinding Dungeon&r&r"
+				""
+				"&e&lExplore Everdawn Plains:&r&r The Blinding Dungeon is hidden within the Everbright dimension, often found beneath its shadowy plains. Search areas with flat terrain and scattered ruins."
+				""
+				"&e&lLook for Markers:&r&r The dungeon entrance is usually marked by ominous stone structures or glowing symbols on the ground. Keep an eye out for these signs."
+				""
+				"&e&lUse a Zeal Lighter:&r&r Light up nearby markers with your Zeal Lighter to reveal hidden paths or clues that lead to the dungeon entrance."
+				""
+				"&e&lPrepare for Descent:&r&r The entrance may lead to deep underground chambers. Ensure you have ample supplies and gear for a long descent."
+				""
+				"&e&lWatch for Traps:&r&r The dungeon is riddled with traps and illusions. Proceed with caution and stay alert for sudden dangers."
+				""
+				"Prepare yourself for a perilous journey into the dark depths of the Everbright!"
+			]
+			id: "1818A701943F69F0"
+			rewards: [{
+				id: "20FBF5A6EB10091E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "&6&lFinding the Blinding Dungeon: A Pathfinder’s Guide&r&r"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "theabyss:frost_world"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6AE8B92F7F791C7D"
+				structure: "blue_skies:everdawn_blinding_dungeon"
+				title: "Find the Blinding Dungeon"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "11437F4886499075"
+			rewards: [{
+				id: "52CDB52AAD8EC26C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "blue_skies:nature_key"
+				id: "25A93A87D2B67757"
+				structure: "blue_skies:nature_dungeon"
+				title: "Find the Nature Dungeon"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&2&lTo defeat the Starlit Crusher&r&r"
+				""
+				"&e&lLocate the Battlefield:&r&r The Starlit Crusher is found in the Everbright dimension, usually within vast, open areas beneath starry skies. Look for celestial markers or glowing stones indicating its presence."
+				""
+				"&e&lPrepare for Heavy Hits:&r&r The Starlit Crusher deals massive melee damage. Equip the best armor available and use shields to block its devastating attacks."
+				""
+				"&e&lStay Agile:&r&r The Crusher’s slow but powerful strikes can be avoided with quick movement. Dodge its attacks and strike when it’s recovering."
+				""
+				"&e&lTarget Weak Points:&r&r Aim for the Crusher’s exposed areas when it pauses after a heavy swing. This is your chance to deal significant damage."
+				""
+				"&e&lClaim the Celestial Rewards:&r&r Defeating the Starlit Crusher rewards you with rare celestial materials and powerful gear enhancements."
+				""
+				"Be ready for a battle of strength and precision under the starry skies!"
+			]
+			id: "0A8E820EA2ED9602"
+			rewards: [{
+				id: "6E1E8FED429E6622"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			subtitle: "&6&lKilling the Starlit Crusher: A Battle Strategy&r&r"
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:wall_of_fire"
+								index: 0
+								level: 20
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				id: "74FAD63E68E5A9CF"
+				title: "Kill the Starlit Crusher"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			id: "75248391C62B6DBD"
+			rewards: [{
+				id: "6674B6077FC95EFD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "blue_skies:blinding_key"
+				id: "14665977EAD716C4"
+				structure: "blue_skies:everdawn_blinding_dungeon"
+				title: "Find the Blinding Dungeon"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&2&lTo find the Poison Dungeon&r&r"
+				""
+				"&e&lSearch Toxic Biomes:&r&r The Poison Dungeon is located in toxic, swampy biomes within the Everdawn dimension. Look for areas with dense, toxic vegetation and polluted waters."
+				""
+				"&e&lFollow the Poisonous Trail:&r&r Look for signs of poison clouds or toxic plant life leading to the dungeon’s entrance."
+				""
+				"&e&lUse Anti-Poison Gear:&r&r Equip yourself with anti-poison gear and potions to protect against the dungeon’s hazardous environment."
+				""
+				"&e&lLook for Distinct Markers:&r&r The dungeon entrance is often marked by corrupted, glowing structures or poisonous puddles. Follow these indicators to find the entrance."
+				""
+				"&e&lPrepare for the Depths:&r&r The Poison Dungeon is filled with traps and poisonous mobs. Ensure you have ample healing items and antidotes for a safe exploration."
+				""
+				"Get ready to brave the hazards and uncover the secrets of the Poison Dungeon!"
+			]
+			id: "07B0872DCB83FA8C"
+			rewards: [{
+				id: "23165694A41113F6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "&6&lFinding the Poison Dungeon: A Pathfinder’s Guide&r&r"
+			tasks: [{
+				icon: "blue_skies:poison_key"
+				id: "394047F85E6C4AA6"
+				structure: "blue_skies:poison_dungeon"
+				title: "Find the Poison Dungeon"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+	]
+	subtitle: [
+		"- Dimension Guidelines"
+		"- Boss Finding Guidelines"
+	]
+	title: "Dimensions"
+}
