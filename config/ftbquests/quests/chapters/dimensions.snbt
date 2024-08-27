@@ -1255,6 +1255,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["45104F8FBB6A4444"]
 			description: [
 				"&2&lHow to Access the Overgrown Temple&r&r"
 				"&e&lLocate the Jungle Biome:&r&r The Overgrown Temple is hidden within dense jungle biomes. Explore the lush, overgrown areas of the jungle to find this ancient Maya structure."
@@ -1270,6 +1271,11 @@
 				"Prepare for a journey into ancient Maya lore and overcome the trials of the Overgrown Temple!"
 			]
 			id: "30B0BA5D3551D05D"
+			rewards: [{
+				id: "066621F8FF87B39A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "&6&lUnveil the Ancient Maya Ruins Hidden in the Jungle and Face Kukulkan’s Trials!&r&r"
 			tasks: [{
 				icon: "call_of_yucutan:huracan_helmet"
@@ -1282,6 +1288,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["45104F8FBB6A4444"]
 			description: [
 				"&2&lHow to Access the Deadly Crypt&r&r"
 				"&e&lFind the Crypt in Jungle Biomes:&r&r The Deadly Crypt is located in the same jungle biomes as the Overgrown Temple but is usually hidden among dense vegetation. Look for a dark, imposing structure indicative of a crypt."
@@ -1297,6 +1304,11 @@
 				"Uncover the secrets of the Deadly Crypt and claim the treasures buried within!"
 			]
 			id: "012BE91FB076519B"
+			rewards: [{
+				id: "1BAD5D0C341FDA43"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "&6&lNavigate the Trapped Tomb and Confront the Haunting Spirits of the Maya Soldiers!&r&r"
 			tasks: [{
 				icon: "call_of_yucutan:warrior_helmet"
@@ -1309,6 +1321,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["012BE91FB076519B"]
 			description: [
 				"&2&lHow to Defeat Ah Puch&r&r"
 				"&e&lPrepare for Battle in the Deadly Crypt:&r&r Ah Puch, the Mayan god of death, resides within the Deadly Crypt. Before facing him, navigate the traps and spirits that haunt the crypt. Ensure you are well-equipped with powerful armor, weapons, and healing items."
@@ -1324,6 +1337,11 @@
 				"Prepare thoroughly and use effective strategies to conquer Ah Puch and secure your rewards from the Deadly Crypt!"
 			]
 			id: "7810ADC748114AD6"
+			rewards: [{
+				id: "29B20DC20A1CF771"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
 			subtitle: "&6&lConquer the God of Death in the Deadly Crypt with Strategy and Preparedness!&r&r"
 			tasks: [{
 				entity: "call_of_yucutan:ah_puch"
@@ -1343,6 +1361,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["30B0BA5D3551D05D"]
 			description: [
 				"&2&lHow to Defeat Kukulkan&r&r"
 				"&e&lPrepare for the Overgrown Temple Encounter:&r&r Kukulkan, the feathered serpent deity, guards the Overgrown Temple. Equip yourself with high-tier armor, a strong weapon, and plenty of healing items to handle the challenges within the temple."
@@ -1358,6 +1377,11 @@
 				"Confront Kukulkan with strategy and preparation to triumph over the mighty deity and claim your rewards from the Overgrown Temple!"
 			]
 			id: "7FA41176B09159AD"
+			rewards: [{
+				id: "4E0B4BE49073A2A6"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
 			subtitle: "&6&lOvercome the Feathered Serpent’s Trials in the Overgrown Temple for Ancient Rewards!&r&r"
 			tasks: [{
 				entity: "call_of_yucutan:kukulkan"
@@ -1377,7 +1401,26 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["45104F8FBB6A4444"]
+			description: [
+				"&2&lHow to Access Kinora’s Garden&r&r"
+				"&e&lFind Kinora’s Garden in the Undergarden Dimension:&r&r Kinora’s Garden is concealed within the Undergarden dimension, a shadowy realm beneath the Overworld. To enter, locate a special portal or gateway that transports you to this mystical arena."
+				""
+				"&e&lIdentify the Garden’s Entrance:&r&r Look for an ancient, rune-inscribed portal or hidden entrance marked by eerie, glowing vegetation. This will lead you to Kinora’s Garden, a place of dark enchantment."
+				""
+				"&e&lPrepare for Dangerous Terrain:&r&r Be ready for a perilous journey through Kinora’s Garden. The area is fraught with traps and hostile creatures that will test your skills and endurance."
+				""
+				"&e&lEnter with Caution:&r&r Approach the Garden with care, ensuring you are well-equipped for the trials ahead. Respect the sanctity of this mystical place as you prepare to face its challenges."
+				""
+				"Unveil the secrets of Kinora’s Garden and advance to the next stage of your quest!"
+			]
 			id: "7BDE807D43032ABD"
+			rewards: [{
+				id: "1762DB4C39F6C13A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "&6&lUnveil the Hidden Gateway to a Mystical Realm Below the Overworld!&r&r"
 			tasks: [{
 				icon: "mokels_boss_mantyd:mantyd_flute"
 				id: "0C460A6AD9972924"
@@ -1389,7 +1432,28 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["7BDE807D43032ABD"]
+			description: [
+				"&2&lDefeat Kinora: Saphyra’s Loyal Blade&r&r"
+				"&e&lPrepare for Battle:&r&r Kinora, the purple mantid with a formidable array of attacks, awaits in her garden arena. Equip yourself with the best gear and consider a mod for combat rolls or dodge mechanics to handle her complex attack patterns."
+				""
+				"&e&lEngage in Combat:&r&r Confront Kinora and showcase your skills in this intense boss fight. She employs unique and powerful attack moves that will challenge even the most seasoned adventurers."
+				""
+				"&e&lClaim Your Rewards:&r&r Upon defeating Kinora, she will drop the legendary Ancestral Scythe and other valuable loot."
+				""
+				"&e&lHeal Kinora to Obtain the Ancestral Rune:&r&r To complete the quest, heal Kinora after her defeat to receive the Ancestral Rune she guards. This final step is essential to fully claim the rewards and complete your journey."
+				""
+				"&e&lRespect the Fallen Warrior:&r&r Kinora’s Garden is a place of great power and significance. Approach with respect and be prepared for the challenges it presents."
+				""
+				"Defeat Kinora and claim the treasures of her garden!"
+			]
 			id: "3DEB1C2D9C83394E"
+			rewards: [{
+				id: "7B159301BBCCC693"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			subtitle: "&6&lObtain the Legendary Ancestral Scythe and Treasures from the Fallen Boss!&r&r"
 			tasks: [{
 				entity: "mokels_boss_mantyd:mantydbosssiting"
 				icon: {
@@ -1406,6 +1470,86 @@
 			}]
 			x: 10.5d
 			y: 6.0d
+		}
+		{
+			description: [
+				"&e&lPrepare the Portal Frame:&r&r Construct a portal frame using End Portal Frame blocks, similar to the vanilla End Portal. Place the 12 custom Eyes into the portal frames. If there is a vanilla Ender Eye in any of the frames, remove it by right-clicking with a custom Eye."
+				""
+				"&e&lActivate the Portal:&r&r Once you’ve placed the 12 Eyes, the portal will activate, allowing you to enter the End. Ensure you have ample preparation for the challenges that await you."
+				""
+				"&e&lConfront the Ender Dragon:&r&r Upon entering the End, you'll face the Ender Dragon. Utilize the advanced equipment and strategies you’ve prepared to defeat this powerful boss and complete your journey."
+				""
+				"Gather your Eyes, build the portal, and prepare to face the Ender Dragon in the remastered End dimension!"
+			]
+			id: "6ECCCD1F8E408C4E"
+			rewards: [{
+				id: "4E4388097FFB9D09"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			subtitle: "&6&lCollect Custom Eyes and Activate the Portal to Face the Ender Dragon in a Remastered Dimension!&r&r"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "supplementaries:enderman_head"
+				id: "78F43528FD11FBB5"
+				title: "Visit The End"
+				type: "dimension"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&e&lPrepare for the Battle:&r&r Before confronting the Ender Dragon, ensure you are well-equipped. Bring high-quality armor, powerful weapons, plenty of healing items, and blocks for building or bridging. Enchant your gear to increase your chances of survival."
+				""
+				"&e&lEnter the End and Locate the Ender Dragon:&r&r Upon entering the End dimension, you’ll find the Ender Dragon perched atop the central End Portal. The End is a vast and open space with obsidian pillars scattered throughout."
+				""
+				"&e&lDestroy the Ender Crystals:&r&r The Ender Dragon is healed by Ender Crystals located on top of the obsidian pillars. Use a bow or other long-range weapon to destroy these Crystals before engaging the Dragon directly. Be cautious, as the Crystals explode when destroyed."
+				""
+				"&e&lEngage the Ender Dragon:&r&r Once the Ender Crystals are destroyed, approach the Ender Dragon. Attack it with melee weapons when it lands on the portal structure or use ranged attacks while it flies. Watch for its breath attacks and dodge them to avoid taking damage."
+				""
+				"&e&lManage the Enderman Swarm:&r&r The End dimension is home to numerous Endermen. Keep an eye out for them during the fight. Carry a carved pumpkin or use a looting sword to minimize their interference."
+				""
+				"&e&lUse Effective Combat Strategies:&r&r Focus on dealing consistent damage to the Ender Dragon while avoiding its powerful attacks. Utilize potions of strength, regeneration, and resistance to enhance your combat effectiveness."
+				""
+				"&e&lClaim Your Rewards:&r&r Upon defeating the Ender Dragon, it will drop a significant amount of experience orbs and a dragon egg. Collect these rewards to enhance your equipment and celebrate your victory."
+				""
+				"Prepare thoroughly, destroy the Ender Crystals, and strategically battle the Ender Dragon to secure your triumph in the End Remastered!"
+			]
+			id: "290DF7EF6A34CAD5"
+			rewards: [{
+				id: "2B916E9E8D9525B4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "&6&lConquer the Ender Dragon with Preparation and Strategy to Achieve Victory in the Remastered End Dimension!&r&r"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "346E4A45A70883B3"
+				title: "Kill the Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "4D7B0DD4A58F4157"
+			rewards: [{
+				id: "433FC5D9E78267DC"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "3125DB6DA84A9B98"
+				structure: "bosses_of_mass_destruction:obsidilith_arena"
+				title: "Find the Obsidilith Arena"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 4.0d
 		}
 	]
 	subtitle: [
