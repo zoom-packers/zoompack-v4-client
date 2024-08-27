@@ -1074,6 +1074,168 @@
 			x: 8.0d
 			y: -5.0d
 		}
+		{
+			dependencies: ["68C47292D31DEEB2"]
+			id: "247A495F1595C8DB"
+			rewards: [{
+				id: "5100A817B52F6B1B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "theabyss:infused_magma"
+				id: "618C68D6099F276C"
+				title: "Visit The Nether"
+				type: "dimension"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["247A495F1595C8DB"]
+			description: [
+				"&2&lHow to Find the Gauntlet Arena&r&r"
+				""
+				"&e&lSearch in the Heart of the Nether:&r&r The Gauntlet Arena is located deep within the Nether. Venture into the heart of the Nether, where you’ll find a distinctive, dark stone structure."
+				""
+				"&e&lLook for a Cubic Form Submerged in Lava:&r&r The arena has a cubic shape and is often partially submerged in lava. Scan the lava-filled areas for this dark stone structure, as it’s usually not entirely visible due to the surrounding lava."
+				""
+				"&e&lIdentify the Dark Stone Structure:&r&r The arena is made of dark stone-like blocks. This imposing structure stands out from the usual Nether terrain, so look for the unique texture and form of the arena amidst the fiery landscape."
+				""
+				"&e&lPrepare for Dangerous Conditions:&r&r The surrounding lava and hostile Nether environment make exploration hazardous. Equip yourself with fire-resistant gear, ample potions, and strong armor to safely navigate and access the Gauntlet Arena."
+				""
+				"&e&lBe Ready for Combat:&r&r Once you find the arena, prepare for intense battles. Ensure you have powerful weapons and plenty of healing items, as the arena is designed for challenging boss encounters."
+				""
+				"Find the Gauntlet Arena and brace yourself for the ultimate test of your combat skills in the heart of the Nether!"
+			]
+			id: "0A769D8E741CCEA5"
+			rewards: [{
+				id: "7AEA5C9C9B0B1F3B"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			subtitle: "&6&lUncover the Dark Stone Arena Hidden in the Fiery Depths of the Nether!&r&r"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "aether:valkyrie_gloves"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "12815A32BD9466B4"
+				structure: "bosses_of_mass_destruction:gauntlet_arena"
+				title: "Find the Gauntlet Arena"
+				type: "structure"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A769D8E741CCEA5"]
+			description: [
+				"&2&lHow to Defeat the Nether Gauntlet&r&r"
+				""
+				"&e&lAwaken the Gauntlet:&r&r The Nether Gauntlet is a powerful boss encased in a formidable form. To awaken it, you must break its support pillar using a pickaxe. This action will trigger the Gauntlet’s emergence and begin the battle."
+				""
+				"&e&lPrepare for Combat: &r&r The Nether Gauntlet is an exceptionally strong opponent with high resistance to projectiles. Equip yourself with melee weapons and ensure your armor is upgraded to withstand its fierce attacks."
+				""
+				"&e&lUtilize Close-Range Tactics:&r&r Given its resistance to projectiles, focus on melee combat strategies. Use powerful swords or axes to deal damage up close. Position yourself strategically to avoid its attacks and maximize your damage output."
+				""
+				"&e&lWatch for Powerful Attacks:&r&r The Nether Gauntlet can unleash devastating melee strikes and area-of-effect attacks. Keep a vigilant eye on its movements and be ready to dodge or block incoming blows."
+				""
+				"&e&lManage Your Resources:&r&r Bring plenty of healing items and potions to maintain your health throughout the battle. Regularly heal and stay on the move to avoid prolonged damage."
+				""
+				"&e&lClaim Your Rewards:&r&r Upon defeating the Nether Gauntlet, it will drop valuable loot, including rare items and resources that can significantly enhance your gear and abilities."
+				""
+				"Prepare thoroughly and employ effective strategies to conquer the Nether Gauntlet and secure your rewards!"
+			]
+			id: "3BCA7C6F2046BFBA"
+			rewards: [{
+				id: "4A939B51D3379253"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			subtitle: "&6&lOvercome the Powerful Gauntlet with Melee Combat and Strategic Tactics!&r&r"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: {
+					Count: 1
+					id: "aether:obsidian_gloves"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4188FDB33C63A57E"
+				title: "Kill the Nether Gauntlet"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["247A495F1595C8DB"]
+			description: [
+				""
+				"&2&lHow to Defeat the Wither&r&r"
+				"&e&lPrepare the Wither Arena:&r&r The Wither is a formidable boss found in Minecraft. Create or locate a spacious, secure area to battle the Wither, ensuring it's large enough to accommodate its destructive attacks and provide room for movement."
+				""
+				"&e&lSummon the Wither:&r&r To summon the Wither, place three Wither Skeleton skulls on top of a T-shaped structure made from Soul Sand or Soul Soil. Once activated, the Wither will spawn and begin charging up, so be ready for an intense fight."
+				""
+				"&e&lEquip for Battle:&r&r The Wither is a challenging adversary with powerful ranged attacks. Equip yourself with high-tier armor, such as Diamond or Netherite, and bring a strong bow with plenty of arrows, along with melee weapons for close combat."
+				""
+				"&e&lManage the Wither's Health Phases:&r&r The Wither has three health phases. It starts with a charging phase, followed by an explosive phase where it shoots Wither Skeleton skulls, and finally a low-health phase where it becomes more aggressive. Monitor its health and adjust your strategy accordingly."
+				""
+				"&e&lAvoid the Wither's Attacks:&r&r The Wither can inflict Wither damage, which reduces health over time and can be particularly lethal. Keep moving to avoid its projectiles and use potions of Regeneration or Healing to counteract the Wither effect."
+				""
+				"&e&lClaim Your Rewards:&r&r Upon defeating the Wither, it will drop a Nether Star, a valuable item used to craft a Beacon. This powerful item grants various buffs and can be a game-changer in your Minecraft world."
+				""
+				"Prepare thoroughly, utilize strategic combat tactics, and conquer the Wither to enhance your Minecraft experience!"
+			]
+			id: "4A4B490FF32F46D9"
+			rewards: [{
+				id: "1795B4B96E2DDD85"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			subtitle: "&6&lConquer the Wither with Preparation and Tactical Combat for Ultimate Rewards!&r&r"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "20215CCFAEF0AEA7"
+				title: "Kill The Wither"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			id: "45104F8FBB6A4444"
+			rewards: [{
+				id: "317BE6EBF296E678"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				icon: {
+					Count: 1
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Potion: "tombstone:earthly_garden"
+					}
+				}
+				id: "5E66E7295C459852"
+				title: "Visit The Undergarden"
+				type: "dimension"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
 	]
 	subtitle: [
 		"- Dimension Guidelines"
