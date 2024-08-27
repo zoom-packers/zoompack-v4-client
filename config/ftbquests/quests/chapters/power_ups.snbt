@@ -1,0 +1,404 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power_ups"
+	group: "13CD0C62E96AC261"
+	icon: "kubejs:tier_10_health_boost_power_up"
+	id: "37FDA5D5A7E7B2D6"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependency_requirement: "one_started"
+			description: ["Collect any Tier 1 Power Up to enhance your armor's strength and abilities."]
+			id: "7DFE5E489580EDFB"
+			rewards: [
+				{
+					count: 5
+					id: "642A10D3EE4AD55B"
+					item: "blue_skies:raw_falsite"
+					type: "item"
+				}
+				{
+					id: "1232606289D503CD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "Gather any Tier 1 Power Up for your armor"
+			tasks: [{
+				id: "4B2A120E598A2756"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tier_1_power_ups"
+					}
+				}
+				title: "Any Tier 1 Power Up"
+				type: "item"
+			}]
+			title: "Tier 1 Power Up"
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7DFE5E489580EDFB"]
+			description: ["Collect any Tier 2 Power Up to enhance your armor's strength and abilities."]
+			id: "58256075E3F0B81F"
+			rewards: [
+				{
+					count: 5
+					id: "49D2BBD947A544B1"
+					item: "blue_skies:raw_ventium"
+					type: "item"
+				}
+				{
+					id: "2D266AC497D59B15"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "Gather any Tier 2 Power Up for your armor"
+			tasks: [{
+				id: "74F778D3A3A91986"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tier_2_power_ups"
+					}
+				}
+				title: "Any Tier 2 Power Up"
+				type: "item"
+			}]
+			title: "Tier 2 Power Up"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["58256075E3F0B81F"]
+			description: ["Collect any Tier 3 Power Up to enhance your armor's strength and abilities."]
+			id: "480E44DE7DBDA06F"
+			rewards: [
+				{
+					id: "641E5E11CCC5A193"
+					item: "aether:ambrosium_block"
+					type: "item"
+				}
+				{
+					id: "5075EC578CC53DF5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "Gather any Tier 3 Power Up for your armor"
+			tasks: [{
+				id: "567AD7980B0B9164"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tier_3_power_ups"
+					}
+				}
+				title: "Any Tier 3 Power Up"
+				type: "item"
+			}]
+			title: "Tier 3 Power Up"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["480E44DE7DBDA06F"]
+			description: ["Collect any Tier 4 Power Up to enhance your armor's strength and abilities."]
+			id: "0DEE294697284158"
+			rewards: [
+				{
+					id: "6129FF6838D7320B"
+					item: "betternether:pig_statue_respawner"
+					type: "item"
+				}
+				{
+					id: "26F570B305ADA872"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "Gather any Tier 4 Power Up for your armor"
+			tasks: [{
+				id: "71B8DEDC1A6970E1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tier_4_power_ups"
+					}
+				}
+				title: "Any Tier 4 Power Up"
+				type: "item"
+			}]
+			title: "Tier 4 Power Up"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0DEE294697284158"]
+			description: ["Collect any Tier 5 Power Up to enhance your armor's strength and abilities."]
+			id: "272867B0B1FA25C3"
+			rewards: [
+				{
+					count: 5
+					id: "174FCF62B7DA2489"
+					item: "undergarden:regalium_crystal"
+					type: "item"
+				}
+				{
+					id: "179EB90C8ED325A2"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "Gather any Tier 5 Power Up for your armor"
+			tasks: [{
+				id: "2F34DB9D9307B4AA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tier_5_power_ups"
+					}
+				}
+				title: "Any Tier 5 Power Up"
+				type: "item"
+			}]
+			title: "Tier 5 Power Up"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["272867B0B1FA25C3"]
+			description: ["Collect any Tier 6 Power Up to enhance your armor's strength and abilities."]
+			id: "349176E8E9C24E7C"
+			rewards: [
+				{
+					count: 4
+					id: "53243B574B861ABD"
+					item: "outer_end:sinker_tooth"
+					type: "item"
+				}
+				{
+					id: "4B41A3F38F0769C2"
+					item: {
+						Count: 1
+						id: "outer_end:rose_crystal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2ED1DDBA468E945F"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "Gather any Tier 6 Power Up for your armor"
+			tasks: [{
+				id: "122767A94637D00C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tier_6_power_ups"
+					}
+				}
+				title: "Any Tier 6 Power Up"
+				type: "item"
+			}]
+			title: "Tier 6 Power Up"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["349176E8E9C24E7C"]
+			description: ["Collect any Tier 7 Power Up to enhance your armor's strength and abilities."]
+			id: "2759DC4802FD08E8"
+			rewards: [
+				{
+					id: "08B4D613464812BB"
+					item: {
+						Count: 1
+						id: "callfromthedepth_:depth"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EDC0074D64EAEA6"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "Gather any Tier 7 Power Up for your armor"
+			tasks: [{
+				id: "21AE8329889BBC24"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tier_7_power_ups"
+					}
+				}
+				title: "Any Tier 7 Power Up"
+				type: "item"
+			}]
+			title: "Tier 7 Power Up"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2759DC4802FD08E8"]
+			description: ["Collect any Tier 8 Power Up to enhance your armor's strength and abilities."]
+			id: "602E6D59FB864C40"
+			rewards: [
+				{
+					count: 3
+					id: "4C63C03135838950"
+					item: "theabyss:broken_bone"
+					type: "item"
+				}
+				{
+					id: "7B506557C959D461"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "Gather any Tier 8 Power Up for your armor"
+			tasks: [{
+				id: "5E42861DFEDF17FA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tier_8_power_ups"
+					}
+				}
+				title: "Any Tier 8 Power Up"
+				type: "item"
+			}]
+			title: "Tier 8 Power Up"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["602E6D59FB864C40"]
+			description: ["Collect any Tier 9 Power Up to enhance your armor's strength and abilities."]
+			id: "668C6F77A5EF4CFA"
+			rewards: [
+				{
+					id: "3F7836ED529A6BD8"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "516B48FD7285070A"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:epic"
+							}
+							gem: "apotheosis:core/samurai"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "Gather any Tier 9 Power Up for your armor"
+			tasks: [{
+				id: "538974E19C1B5181"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tier_9_power_ups"
+					}
+				}
+				title: "Any Tier 9 Power Up"
+				type: "item"
+			}]
+			title: "Tier 9 Power Up"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["668C6F77A5EF4CFA"]
+			description: ["Collect any Tier 10 Power Up to enhance your armor's strength and abilities."]
+			id: "2C866C17A437C287"
+			rewards: [
+				{
+					id: "17545B2CD0727674"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					id: "4E57E0C13F6D89A5"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:custom_0"
+							}
+							gem: "apotheosis:overworld/earth"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "Gather any Tier 10 Power Up for your armor"
+			tasks: [{
+				id: "386A7EDC2C1BDD55"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tier_10_power_ups"
+					}
+				}
+				title: "Any Tier 10 Power Up"
+				type: "item"
+			}]
+			title: "Tier 10 Power Up"
+			x: 8.0d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Upgrade your gear now!"]
+	title: "Power Ups"
+}
