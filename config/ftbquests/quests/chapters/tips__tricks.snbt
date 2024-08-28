@@ -190,17 +190,6 @@
 			y: -1.5d
 		}
 		{
-			description: ["https://www.reddit.com/r/allthemods/comments/15nf0ue/atm_8_apotheosis_gems/"]
-			id: "1CB3C571D2F10B8D"
-			tasks: [{
-				id: "1EE8765E9F3BE685"
-				title: "Apotheosis Gems Guide"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
 			description: [
 				"There are plenty of active events that are happening on the community server on a daily basis, sometimes even multiple times a day!"
 				""
@@ -223,7 +212,7 @@
 				title: "Events"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -5.0d
 		}
 		{
@@ -244,12 +233,12 @@
 				title: "Mounts"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: -5.0d
 		}
 		{
 			description: [
-				"If you wish to powerup your gear with gems you must first create a socket for that piece of gear in order to install a gem."
+				"If you wish to powerup your gear (armors, tools, weapons) with gems you must first create a socket for that piece of gear in order to install a gem."
 				""
 				"&e&lWhere do i create gem sockets?&r&r"
 				"For this you must put your gear into a Reforging Table"
@@ -271,6 +260,18 @@
 				"&e&lGodforged Pearl&r&r"
 				"{image:apotheosis:items/mythic_material width:20 height:20 align:1}"
 				""
+				"&d&lMilea's Sweat&r&r"
+				"{image:kubejs:item/apoth_extra_tier_0 width:10 height:10 align:1}"
+				""
+				"&d&lCalin's Torment&r&r"
+				"{image:kubejs:item/apoth_extra_tier_1 width:10 height:10 align:1}"
+				""
+				"&d&lMarius's Tears&r&r"
+				"{image:kubejs:item/apoth_extra_tier_2 width:10 height:10 align:1}"
+				""
+				"&d&lEmi's Blood&r&r"
+				"{image:kubejs:item/apoth_extra_tier_3 width:10 height:10 align:1}"
+				""
 				"Then, just roll the dices!"
 			]
 			id: "37AB552495798316"
@@ -280,7 +281,7 @@
 				title: "Gems"
 				type: "checkmark"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -5.0d
 		}
 		{
@@ -305,7 +306,7 @@
 				title: "Enchanting"
 				type: "checkmark"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -5.0d
 		}
 		{
@@ -338,8 +339,85 @@
 				title: "Leveling"
 				type: "checkmark"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: -5.0d
+		}
+		{
+			description: [
+				"In this FTBQuest Book you shall find all the tips and tricks you need in this universe!"
+				""
+				"Some other books can be accessed with such commands:"
+				""
+				"&e&l/help"
+				""
+				"&l&e/gems&r&r "
+				"{ \"text\": \"GEMS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37AB552495798316\" } }"
+				""
+				"&l&e/mounts&r&r"
+				"{ \"text\": \"MOUNTS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1F7911B301774426\" } }"
+				""
+				"&l&e/enchanting&r&r"
+				"{ \"text\": \"ENCHANTING - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FDCC38C52EC2B0A\" } }"
+				""
+				"&l&e/events&r&r"
+				"{ \"text\": \"EVENTS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2D72E4DD3F561D0B\" } }"
+				""
+				"&l&e/economy&r&r"
+				"{ \"text\": \"ECONOMY - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"547C6F5B2EC94450\" } }"
+				""
+				"&l&e/levels&r&r"
+				"&l&e/leveling&r&r"
+				"{ \"text\": \"LEVELING - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"301C03DAB5AE0E67\" } }"
+			]
+			id: "39A979E3A6CE5B99"
+			subtitle: "Welcome in the sandbox RPG"
+			tasks: [{
+				id: "7E4FE6C5918ADC95"
+				title: "Zoompack 4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"The Zoompack Economy consinsts of 4 main currencies:"
+				""
+				"&6&l- Bronze Coin&r&r"
+				"{image:dotcoinmod:item/bronze_coin width:10 height:10 align:1 fit:false}"
+				""
+				"&7&l- Silver Coin &r&r"
+				"{image:dotcoinmod:item/silver_coin width:10 height:10 align:1 fit:false}"
+				""
+				"&e&l- Gold Coin &r&r"
+				"{image:dotcoinmod:item/gold_coin width:10 height:10 align:1 fit:false}"
+				""
+				"&2&l- Emerald Coin &r&r"
+				"{image:dotcoinmod:item/emerald_coin width:10 height:10 align:1 fit:false}"
+				""
+				"You can also earn Tokens from daily rewards that you recieve on a daily basis with a chance after plaing at least 30 minutes."
+				"Claim them with this command: &b&o/daily&r&r"
+				"{image:dotcoinmod:item/token width:10 height:10 align:1 fit:false}"
+				""
+				"Across the Overworld you will come across Banks near villages."
+				"These banks have traders that will ask you for coins in exchange of other goods."
+				"Some might even help you with some coins if you can fetch something useful for them."
+				""
+				"&a&lEmerald City Bankers&r&r"
+				"The Emerald City bankers include many trades, some are unique in the world and including XP groth boost potions, mounts and other perks"
+				""
+				"&2&lAUCTION HOUSE&r&r"
+				"Try our amazing auction house using the command &b&o/auctions&r&r or just craft one and place it wherever you desire and right click it to open the auction house board. Search for this item: &b&lAuction House&r&r"
+			]
+			id: "547C6F5B2EC94450"
+			subtitle: "Zooming Economy"
+			tasks: [{
+				id: "0FB19D9E3305CB6C"
+				title: "Economy"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
 		}
 	]
 	title: "Tips \\& Tricks"
