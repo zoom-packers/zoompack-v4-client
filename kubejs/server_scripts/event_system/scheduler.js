@@ -102,7 +102,7 @@ PlayerEvents.respawned((event) => {
 });
 
 EntityEvents.death((event) => {
-    if (event.entity.getType() !== "player") {
+    if (event.entity.type !== 'minecraft:player') {
         return;
     }
     for (const activeEvent of activeEvents) {
