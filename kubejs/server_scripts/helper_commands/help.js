@@ -19,7 +19,6 @@ let COMMANDS_CUSTOM_MAP = {
     'powerups': ftb_book_command('089EF30AFF6A1D46'),
     'talents': ftb_book_command('70CF500D7065E04A'),
     'dimensions': ftb_book_command('5C849DD6772F7444')
-
 }
 
 ServerEvents.commandRegistry(event => {
