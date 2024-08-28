@@ -37,6 +37,7 @@ ServerEvents.commandRegistry(event => {
                 )
             )
             .then(Commands.literal('setTimezoneOffset')
+                .requires(src => src.hasPermission(2))
                 .executes(ctx => {
                         timezoneOffset = Arguments.integer('offset');
                         console.log(`Timezone offset set to ${timezoneOffset}`);
