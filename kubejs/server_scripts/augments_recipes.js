@@ -307,55 +307,55 @@ event.shaped('1x zoomers_magic:augment_healer_6', [" B ","DEF"," H "], {"B":"bet
 event.shaped('1x zoomers_magic:augment_tank_6', [" B ","DEF"," H "], {"B":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"minecraft:diamond_chestplate","F":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate"});
 
 
-event.shaped('1x zoomers_magic:augment_pyromancer_7', [" B ","DEF"," H "], {"B":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:fire_rune","F":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x zoomers_magic:augment_pyromancer_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:fire_rune","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x zoomers_magic:augment_cryomancer_7', [" B ","DEF"," H "], {"B":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:ice_rune","F":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x zoomers_magic:augment_cryomancer_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:ice_rune","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x zoomers_magic:augment_electromancer_7', [" B ","DEF"," H "], {"B":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:lightning_rune","F":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x zoomers_magic:augment_electromancer_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:lightning_rune","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x zoomers_magic:augment_archevoker_7', [" B ","DEF"," H "], {"B":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:evocation_rune","F":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x zoomers_magic:augment_archevoker_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:evocation_rune","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x zoomers_magic:augment_cultist_7', [" B ","DEF"," H "], {"B":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:blood_rune","F":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x zoomers_magic:augment_cultist_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:blood_rune","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x zoomers_magic:augment_shadowwalker_7', [" B ","DEF"," H "], {"B":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:ender_rune","F":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x zoomers_magic:augment_shadowwalker_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:ender_rune","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x zoomers_magic:augment_priest_7', [" B ","DEF"," H "], {"B":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:holy_rune","F":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x zoomers_magic:augment_priest_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:holy_rune","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x zoomers_magic:augment_plagued_7', [" B ","DEF"," H "], {"B":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:nature_rune","F":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x zoomers_magic:augment_plagued_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:nature_rune","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x zoomers_magic:augment_cooldown_7', [" B ","DEF"," H "], {"B":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"irons_spellbooks:cooldown_rune","F":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x zoomers_magic:augment_cooldown_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:cooldown_rune","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x zoomers_magic:augment_barbarian_7', [" B ","DEF"," H "], {"B":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"minecraft:diamond_axe","F":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x zoomers_magic:augment_barbarian_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"minecraft:diamond_axe","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x zoomers_magic:augment_berserker_7', [" B ","DEF"," H "], {"B":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"minecraft:iron_chestplate","F":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x zoomers_magic:augment_berserker_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"minecraft:iron_chestplate","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x zoomers_magic:augment_crusader_7', [" B ","DEF"," H "], {"B":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"minecraft:diamond_sword","F":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x zoomers_magic:augment_crusader_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"minecraft:diamond_sword","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x zoomers_magic:augment_archer_7', [" B ","DEF"," H "], {"B":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"minecraft:bow","F":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x zoomers_magic:augment_archer_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"minecraft:bow","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x zoomers_magic:augment_treasure_hunter_7', [" B ","DEF"," H "], {"B":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"minecraft:golden_shovel","F":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x zoomers_magic:augment_treasure_hunter_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"minecraft:golden_shovel","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x zoomers_magic:augment_explorer_7', [" B ","DEF"," H "], {"B":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"minecraft:leather_boots","F":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x zoomers_magic:augment_explorer_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"minecraft:leather_boots","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x zoomers_magic:augment_healer_7', [" B ","DEF"," H "], {"B":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"minecraft:golden_apple","F":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x zoomers_magic:augment_healer_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"minecraft:golden_apple","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x zoomers_magic:augment_tank_7', [" B ","DEF"," H "], {"B":"deeperdarker:reinforced_echo_shard","D":"deeperdarker:reinforced_echo_shard","E":"minecraft:diamond_chestplate","F":"deeperdarker:reinforced_echo_shard","H":"deeperdarker:reinforced_echo_shard"});
+event.shaped('1x zoomers_magic:augment_tank_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"minecraft:diamond_chestplate","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
 
 
 event.shaped('1x zoomers_magic:augment_pyromancer_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:fire_rune","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});

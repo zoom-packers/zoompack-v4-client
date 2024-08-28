@@ -191,7 +191,7 @@ function getTierItemBase(tier) {
         case 6:
             return item_betterend.i_thallasium_forged_plate;
         case 7:
-            return item_deeperdarker.i_reinforced_echo_shard;
+            return "callfromthedepth_:immemorialingot";
         case 8:
             return item_theabyss.i_fixed_bone;
     }
