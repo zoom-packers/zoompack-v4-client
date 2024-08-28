@@ -4,7 +4,8 @@ const COMMANDS_FTBQ_BOOKS_MAP = {
     'mounts' : '1F7911B301774426',
     'enchanting' : '0FDCC38C52EC2B0A',
     'levels' : '301C03DAB5AE0E67',
-    'leveling' : '301C03DAB5AE0E67'
+    'leveling' : '301C03DAB5AE0E67',
+    'events': '2D72E4DD3F561D0B'
 }
 
 ServerEvents.commandRegistry(event => {
