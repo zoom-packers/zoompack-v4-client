@@ -1603,6 +1603,359 @@
 			x: 5.5d
 			y: 6.0d
 		}
+		{
+			dependencies: ["17027699AB4F3B02"]
+			description: [
+				"&2&lHow to Enter the Mysterious Portal in the Ancient City&r&r"
+				"&e&lGather Rare Materials from Two Worlds:&r&r To activate the portal in the Ancient City, you’ll need a &9Depth Key&r. This special key can only be crafted using a &9Sculk Catalyst&r from the Deep Dark biome and an &dEnd Rod&r from the End dimension."
+				""
+				"&e&lCraft the Depth Key:&r&r Combine the &9Sculk Catalyst&r and the &dEnd Rod&r at a crafting table to forge the &9Depth Key&r. This key is the only way to unlock the portal’s secrets."
+				""
+				"&e&lActivate the Portal:&r&r Once you have the &9Depth Key&r, approach the portal frame in the Ancient City. Right-click with the Depth Key on the portal to activate it. A swirling, mysterious energy will appear, indicating the portal is open."
+				""
+				"&e&lPrepare for the Unknown:&r&r Before stepping through the portal, ensure you have enough supplies, weapons, and armor. The new dimension is unknown, filled with new challenges, creatures, and treasures."
+				""
+				"&d&lVenture Into the Uncharted Realm:&r&r Step into the portal and brace yourself for a journey into a mysterious new world beyond the Ancient City."
+			]
+			id: "490EDC4B6B7407F9"
+			rewards: [{
+				id: "7D0071FE7F642344"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			subtitle: "&6&lUnlock the Secrets of the Ancient Portal and Step Into a New Dimension!&r&r"
+			tasks: [{
+				dimension: "callfromthedepth_:depth"
+				icon: "callfromthedepth_:deeplamp"
+				id: "516FAB073A377414"
+				title: "Visit the Depth"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["490EDC4B6B7407F9"]
+			description: [
+				"&2&lHow to Find the Ancient Sacrificial Bastion in the Depth Dimension&r&r"
+				"&e&lVenture into the Depth Dimension:&r&r The Depth Dimension is a dark, foggy realm with eerie water flows, resembling the Nether but filled with murky waters instead of lava. Visibility is low, so you will need specific equipment like &9Night Vision Potions&r or &7a Soul Compass&r to navigate through the dense fog."
+				""
+				"&e&lLook for Clusters of Wardens:&r&r The Ancient Sacrificial Bastion is heavily guarded by &8Wardens&r. Watch for their glowing chests and the ground vibrations indicating their presence. The bastion often appears on raised platforms surrounded by water, where wardens patrol, making it a challenging location to reach."
+				""
+				"&e&lFollow the Sound of Strange Echoes:&r&r Listen for unsettling echoes or low growls — these sounds often emanate from the Bastion. The closer you get, the louder and more intense these noises will become."
+				""
+				"&e&lWatch for Unusual Water Flows and Obsidian Spikes:&r&r The Bastion is distinguished by its towering obsidian spikes and unusual water formations. Look for unnatural currents and water pools that reflect a deep, ominous glow, guiding you toward the Bastion's entrance."
+				""
+				"&e&lExplore for Hidden Secrets:&r&r The Ancient Sacrificial Bastion is filled with hidden chambers, secret passageways, and valuable loot. Be prepared to uncover traps and puzzles that guard powerful artifacts and knowledge."
+				""
+				"&9&lEquip Yourself for Battle:&r&r This journey is not for the faint-hearted. Bring armor that provides protection from water pressure and cold, plenty of food, and weapons that can deal with the guardians of this shadowy realm."
+			]
+			id: "2EF26728583663D4"
+			rewards: [{
+				id: "3374D691F533B936"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			subtitle: "&6&lNavigate the Depths, Uncover Secrets, and Face the Guardians of the Ancient Sacrificial Bastion!&r&r"
+			tasks: [{
+				icon: "theabyss:soul_heart"
+				id: "6837A4C43B47DEE5"
+				structure: "callfromthedepth_:ancientsacrificialbastion"
+				title: "Find the Ancient Sacrificial Bastion"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2EF26728583663D4"]
+			description: [
+				"&2&lHow to Defeat the Agony Soul in the Depth Dimension&r&r"
+				"&e&lCraft the Agony Soul Summoner:&r&r To summon the Agony Soul, you must first gather &8Lost Soul Sand&r from the Depth Dimension. Smelt the sand in a furnace to create the &cAgony Soul&r item — the key to awakening this terrifying entity."
+				""
+				"&e&lGather a Strong Team and Prepare:&r&r The Agony Soul is a powerful and twisted creature resembling a deer, but with horrific malformations. It has both &4defensive&r and &caggressive abilities&r, so it's crucial to face it with a group of well-equipped players. Ensure everyone has strong armor, weapons, and potions to endure the fight."
+				""
+				"&e&lUnderstand its Mechanics:&r&r The Agony Soul uses a wide range of mechanics. It can summon shadows to attack from afar, emit powerful shockwaves that knock players back, and heal itself by absorbing lost souls from the surroundings. Its twisted form allows it to teleport and charge unpredictably, requiring constant movement and vigilance."
+				""
+				"&e&lPrepare for Defensive Moves:&r&r The Agony Soul has a thick hide and can shield itself with dark energy, reflecting damage back to the attacker. Coordinate your team to attack only when its defenses are down, and always have healing items ready."
+				""
+				"&e&lAdapt to its Offensive Powers:&r&r Beware of its antlers, which can impale players and cause severe damage. The Agony Soul can also release a deafening screech that causes confusion and blindness. Spread out to avoid being targeted by multiple attacks, and focus on keeping your distance when it charges."
+				""
+				"&e&lExploit Its Weaknesses:&r&r The Agony Soul has moments of vulnerability after using certain abilities. Watch for when it pauses after a charge or a roar; this is your opportunity to unleash your strongest attacks."
+				""
+				"&e&lFight with Caution and Teamwork:&r&r Keep moving, communicate with your team, and coordinate attacks and healing. Use your terrain wisely to block its line of sight and avoid its devastating attacks."
+			]
+			id: "1DEFB961390F8466"
+			rewards: [{
+				id: "4DBDAE08731DF3D4"
+				type: "xp_levels"
+				xp_levels: 11
+			}]
+			subtitle: "&6&lConquer the Agony Soul and Prove Your Strength in the Depth Dimension!&r&r"
+			tasks: [{
+				entity: "callfromthedepth_:agonysoul"
+				icon: "callfromthedepth_:soulinagony"
+				id: "7EDE0908FF239F76"
+				title: "Kill the Agony Soul"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6ECCCD1F8E408C4E"]
+			description: [
+				"&2&lHow to Find an Ancient City in Minecraft&r&r"
+				"&e&lSearch Deep in the Overworld:&r&r Ancient Cities are found deep underground, specifically in the new Deep Dark biome. They are most commonly generated below Y level -52, far beneath the surface."
+				""
+				"&e&lLocate the Deep Dark Biome:&r&r The Deep Dark biome can be identified by its dark terrain covered in Sculk blocks, Sculk veins, and patches of Sculk sensors. To find this biome, explore caves that go deep, often below Y level 0, and look for the characteristic blue-green glow of Sculk blocks."
+				""
+				"&e&lListen for the Silence:&r&r Unlike other biomes, the Deep Dark is eerily quiet. If you notice an absence of ambient cave sounds or mobs, you might be near an Ancient City."
+				""
+				"&e&lWatch for Sculk Shriekers and Sensors:&r&r The path to an Ancient City is filled with Sculk Shriekers and Sculk Sensors. These blocks will emit sounds or vibrations if you move nearby, so tread carefully and use wool blocks to muffle noise."
+				""
+				"&e&lUse Night Vision and Wool Blocks:&r&r Night Vision potions can help you see in the dark, while wool blocks can be used to silence your footsteps and avoid activating Sculk Shriekers that could summon the dangerous Warden."
+				""
+				"&e&lPrepare for the Depths:&r&r Bring plenty of torches, food, armor, and weapons. You'll also want tools to mine and explore efficiently. Be ready to face the Warden or other dangers lurking in the dark!"
+				""
+				"Head deep into the underground, find the elusive Deep Dark biome, and discover the secrets of the Ancient City!"
+			]
+			id: "17027699AB4F3B02"
+			subtitle: "&6&lDelve into the Deep Dark Biome and Uncover the Hidden Secrets of the Ancient City!&r&r"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "callfromthedepth_:depth"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2440C787BF588A49"
+				structure: "minecraft:ancient_city"
+				title: "Find the Ancient City"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["490EDC4B6B7407F9"]
+			description: [
+				"&2&lHow to Enter the Abyss Dimension in Minecraft&r&r"
+				"&e&lSearch for Loran in the End and Overworld:&r&r To begin your journey to the Abyss, you must first find &aLoran&r, a rare energy-emitting material. Loran can be extracted from Loran Ore upon mining it, ore that can be found hidden deep in the end islands. Alternatively, search the Overworld for the elusive &aLoran Flower&r, a rare plant that, when harvested, yields Loran. Be cautious — these flowers are extremely hard to find!"
+				""
+				"&e&lCraft Unstable Obsidian and the Abyss Portal Activator:&r&r Combine &aLoran&r with &8Obsidian&r and &dCrying Obsidian&r to craft &6Unstable Obsidian&r. To activate the portal, craft an &6Abyss Portal Activator&r using Loran and sticks."
+				""
+				"&e&lBuild and Light the Abyss Portal:&r&r Construct a classic portal frame using &6Unstable Obsidian&r. Ignite the frame using the &6Abyss Portal Activator&r to create a gateway to the Abyss Dimension."
+				""
+				"&e&lPrepare for the Unknown:&r&r Before entering, ensure you are heavily equipped with powerful weapons, armor, and potions. The Abyss is a hostile and mysterious realm filled with enemies possessing &4high resistance&r and &cdangerous abilities&r unlike any you have encountered before."
+			]
+			id: "025294015F77A53B"
+			rewards: [{
+				id: "2F636F6C71A0B193"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			subtitle: "&6&lBrave the Abyss and Uncover the Secrets Hidden in Its Depths!&r&r"
+			tasks: [{
+				dimension: "theabyss:the_abyss"
+				icon: "theabyss:eye_of_abyss"
+				id: "642039C65B55C902"
+				title: "Visit The Abyss"
+				type: "dimension"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["025294015F77A53B"]
+			description: [
+				"&2&lHow to Defeat the Crystal Golem in Minecraft&r&r"
+				"&e&lPrepare for Battle:&r&r The &dCrystal Golem&r is a towering mini-boss in the Abyss dimension, standing over &63 blocks tall&r and boasting one of the highest health pools in the game, aside from major bosses. It’s the largest creature in the mod and poses a significant threat with its powerful strikes. Equip yourself with your best weapons and armor — preferably those with high durability and enchantments. Bring plenty of healing items, as this will be a tough fight!"
+				""
+				"&e&lLocate the Crystal Golem in the Slime Forest:&r&r The Crystal Golem can be found in the &aSlime Forest&r of the Abyss dimension. The golem is naturally hostile, so approach with caution and be prepared for a fight upon sight."
+				""
+				"&e&lWatch Out for Its Massive Reach and Strength:&r&r The Crystal Golem's size grants it an impressive reach and strength. Stay on the move to avoid its crushing blows and use the terrain to your advantage to dodge its attacks."
+				""
+				"&e&lUse Armor and Piercing Weapons:&r&r Given its size and resilience, piercing weapons like &6enchanted swords&r or &bhigh-damage bows&r will help you chip away at its health. Try to stay at a distance when possible, but be prepared to block and parry if it closes in."
+				""
+				"&e&lDefeat the Crystal Golem to Claim Its Reward:&r&r Upon defeating the Crystal Golem, it will drop the rare &dCrystal Hand&r, a valuable item that can be used for crafting or in other mysterious ways."
+			]
+			id: "736BD775D80D4608"
+			rewards: [{
+				id: "2C45F2891568D10F"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			subtitle: "&6&lConquer the Crystal Golem and Seize Its Hidden Power!&r&r"
+			tasks: [{
+				entity: "theabyss:crystal_golem"
+				icon: "outer_end:rose_crystal_bud"
+				id: "12B245D133B425BC"
+				title: "Kill the Crystal Golem"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["025294015F77A53B"]
+			description: [
+				"&2&lHow to Defeat the Roka in Minecraft&r&r"
+				"&e&lEnter the Blue Forest:&r&r The &9Roka&r is a powerful mini-boss that spawns exclusively in the &9Blue Forests&r of the Abyss dimension. With its imposing body, large arms, and bent legs, the Roka is a fierce opponent resembling a &6Piglin Brute&r. Ensure you are well-prepared before venturing into the Blue Forests."
+				""
+				"&e&lGear Up for the Fight:&r&r The Roka may not be the largest creature, but its strength is not to be underestimated. Equip yourself with powerful armor and weapons, especially those with high damage output. Bringing along &ahealing potions&r and &bregeneration items&r is crucial for surviving this encounter."
+				""
+				"&e&lStay Agile and Watch for Attacks:&r&r The Roka is known for its brute force and aggressive tactics. Stay on the move to avoid its powerful swings and rush attacks. Use ranged weapons to keep a safe distance, or engage up close with a strong melee strategy if you’re confident in your armor and dodging skills."
+				""
+				"&e&lClaim the Roka Horn Reward:&r&r Upon defeating the Roka, it will drop the &6Roka Horn&r, which has a 100% drop rate. This unique item can be used to craft various powerful rings and the &5Eye of Abyss&r, making it a valuable trophy for any adventurer in the Abyss."
+			]
+			id: "19FE4ABD4BB14FF2"
+			rewards: [{
+				id: "0FAC6A2792D1FDA0"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			subtitle: "&6&lConquer the Roka and Unlock New Mystical Crafting Possibilities!&r&r"
+			tasks: [{
+				entity: "theabyss:the_roka"
+				icon: "theabyss:roka_horn"
+				id: "439AC0D61AB3DAED"
+				title: "Kill the Roka"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["025294015F77A53B"]
+			description: [
+				"&k&2&lHow to Defeat the Agony Soul in Minecraft&r&r&k"
+				"&k&e&lSummon the Agony Soul:&r&r"
+				""
+				"&k&e&lPrepare for a Tough Battle:&r&r&k The Agony Soul is a formidable mini-boss with multiple defensive and offensive abilities. Equip yourself with the best armor and weapons available. It’s recommended to bring friends for this battle, as the Agony Soul's numerous mechanics and high damage output can overwhelm even the most skilled adventurers."
+				""
+				"&k&e&lKeep Your Distance and Avoid Its Attacks:&r&r"
+				""
+				"&k&7&lOvercome the Agony Soul and Enhance Your Arsenal with its Powerful Drops!&r&r"
+			]
+			id: "24EEDDE02F8E0205"
+			rewards: [{
+				id: "1C7263B4D4B077DA"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			subtitle: "&6&lThere is so much knowledge we still not yield&r&r"
+			tasks: [{
+				entity: "theabyss:elder"
+				icon: "apotheosis:boss_summoner"
+				id: "30A3B53D19290EB1"
+				title: "Kill the Elder"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["025294015F77A53B"]
+			description: [
+				"&2&lHow to Defeat the Nightblade in Minecraft&r&r"
+				"&e&lSummon Nightblade with the Ritual:&r&r To face the &5Nightblade&r, you first need to summon him using the &5Nightblade Summoning Structure&r. Light all the &7Brick Stone Pillars&r around the structure with &6Soul Hearts&r. After igniting each pillar, place the &5Eye of Abyss&r on the &7Night Altar&r. This will trigger a lightning strike and summon the Nightblade, accompanied by an eerie, changing melody."
+				""
+				"&e&lPrepare for the Battle:&r&r The Nightblade wields two &5Swords of Abyss&r, making him a formidable opponent. Equip yourself with high-end armor and powerful weapons to withstand his relentless attacks. Don’t forget to bring &ahealing potions&r and &bregeneration items&r to keep your health up throughout the fight."
+				""
+				"&e&lAdapt to the Changing Music and Abilities:&r&r During the battle, the music will change based on Nightblade's health and abilities. Pay attention to these musical cues to anticipate his next moves. The Nightblade’s attacks will become more intense as his health decreases, so stay alert and adjust your strategy accordingly."
+				""
+				"&e&lDefeat Nightblade and Reap the Rewards:&r&r Upon vanquishing the Nightblade, you’ll earn rare and powerful loot, including unique items and crafting materials. His defeat signifies a major achievement and opens up new possibilities for your adventures in the Abyss dimension."
+			]
+			id: "40521F6C495FCFA6"
+			rewards: [{
+				id: "2FD906D581E254C6"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "&6&lOvercome the Nightblade and Claim Your Place as a Legendary Hero of the Abyss!&r&r"
+			tasks: [{
+				entity: "theabyss:night_blade_boss_clone"
+				icon: {
+					Count: 1
+					id: "callfromthedepth_:soul_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "65D17552E8FE4564"
+				title: "Kill the Nightblade"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["025294015F77A53B"]
+			description: [
+				"&k&2&lHow to Defeat the Agony Soul in Minecraft&r&r&k"
+				"&k&e&lSummon the Agony Soul:&r&r"
+				""
+				"&k&e&lPrepare for a Tough Battle:&r&r&k The Agony Soul is a formidable mini-boss with multiple defensive and offensive abilities. Equip yourself with the best armor and weapons available. It’s recommended to bring friends for this battle, as the Agony Soul's numerous mechanics and high damage output can overwhelm even the most skilled adventurers."
+				""
+				"&k&e&lKeep Your Distance and Avoid Its Attacks:&r&r"
+				""
+				"&k&7&lOvercome the Agony Soul and Enhance Your Arsenal with its Powerful Drops!&r&r"
+			]
+			id: "30110E2918D26349"
+			rewards: [{
+				id: "4182F7D5623B3E5E"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			subtitle: "&6&lThere is so much knowledge we still not yield&r&r"
+			tasks: [{
+				entity: "theabyss:magician"
+				icon: "irons_spellbooks:blood_staff"
+				id: "3789DA034F9CC746"
+				title: "Kill the Magician"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["025294015F77A53B"]
+			description: [
+				"&k&2&lHow to Defeat the Agony Soul in Minecraft&r&r&k"
+				"&k&e&lSummon the Agony Soul:&r&r"
+				""
+				"&k&e&lPrepare for a Tough Battle:&r&r&k The Agony Soul is a formidable mini-boss with multiple defensive and offensive abilities. Equip yourself with the best armor and weapons available. It’s recommended to bring friends for this battle, as the Agony Soul's numerous mechanics and high damage output can overwhelm even the most skilled adventurers."
+				""
+				"&k&e&lKeep Your Distance and Avoid Its Attacks:&r&r"
+				""
+				"&k&7&lOvercome the Agony Soul and Enhance Your Arsenal with its Powerful Drops!&r&r"
+			]
+			id: "36EE050F26174702"
+			rewards: [{
+				id: "755BFE7579B3A120"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			subtitle: "&6&lThere is so much knowledge we still not yield&r&r"
+			tasks: [{
+				entity: "theabyss:abyssaur"
+				icon: "doggytalents:breeding_bone"
+				id: "526AE6A545D2F76F"
+				title: "Kill the Abyssaur"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
 	]
 	subtitle: [
 		"- Dimension Guidelines"
