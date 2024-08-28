@@ -2,10 +2,28 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tips__tricks"
-	group: ""
+	group: "095B5FA2C9ED2F6A"
 	icon: "minecraft:writable_book"
 	id: "2CF1763C3AD8E068"
-	order_index: 0
+	images: [
+		{
+			height: 14.0d
+			image: "blockui:textures/gui/button_mini.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/gui/title/minecraft.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 2.5d
+			y: -6.5d
+		}
+	]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -181,6 +199,89 @@
 			}]
 			x: 6.0d
 			y: 0.0d
+		}
+		{
+			description: [
+				"There are plenty of active events that are happening on the community server on a daily basis, sometimes even multiple times a day!"
+				""
+				"&e&lHere are some commands to help you&r&r"
+				"Just type them in the chat in the &e&lOffician Zoompack Server&r&r"
+				""
+				"/events active"
+				"&2&oThis shows the currently active events&r&r"
+				""
+				"/events calendar"
+				"&2&oThis shows full calendar of events&r&r"
+				""
+				"/events today"
+				"&2&oThis shows today's events&r&r"
+			]
+			id: "2D72E4DD3F561D0B"
+			subtitle: "Daily/Weekly Events!"
+			tasks: [{
+				id: "34C51D01B0D3DCD4"
+				title: "Events"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"There are so many mounts that you can find in the world. However you can even whistle to it."
+				""
+				"&e&lHow to set your personal mount?&r&r"
+				"Hop on your mount and press &c&oALT+V&r&r"
+				"Now this is now set as your personal mount."
+				""
+				"&e&lHow to call your personal mount?&r&r"
+				"Wherever you are press &c&oV&r&r to call your personal mount to your character."
+			]
+			id: "1F7911B301774426"
+			subtitle: "And so many they are"
+			tasks: [{
+				id: "1085BD4768B3CE98"
+				title: "Mounts"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"If you wish to powerup your gear with gems you must first create a socket for that piece of gear in order to install a gem."
+				""
+				"&e&lWhere do i create gem sockets?&r&r"
+				"For this you must put your gear into a Reforging Table"
+				"{image:apotheosis:blocks/reforging/simple_table_top width:30 height:30 align:1}"
+				"After having the gear inside you must add regorging materials such as:"
+				""
+				"&e&lMysterious Scrap Metal&r &r"
+				"{image:apotheosis:items/common_material width:20 height:20 align:1}"
+				""
+				"&e&lTimeworn Fabric&r&r"
+				"{image:apotheosis:items/uncommon_material width:20 height:20 align:1}"
+				""
+				"&e&lLuminous Crystal Shard&r&r"
+				"{image:apotheosis:items/rare_material width:20 height:20 align:1}"
+				""
+				"&e&lArcane Sands&r&r"
+				"{image:apotheosis:items/epic_material width:20 height:20 align:1}"
+				""
+				"&e&lGodforged Pearl&r&r"
+				"{image:apotheosis:items/mythic_material width:20 height:20 align:1}"
+				""
+				"Then, just roll the dices!"
+			]
+			id: "37AB552495798316"
+			subtitle: "They need a socket"
+			tasks: [{
+				id: "426868F725DE72DF"
+				title: "Gems"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -5.0d
 		}
 	]
 	title: "Tips \\& Tricks"

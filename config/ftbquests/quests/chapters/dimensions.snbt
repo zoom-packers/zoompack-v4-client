@@ -9,6 +9,152 @@
 		tag: { }
 	}
 	id: "114B9726A591A784"
+	images: [
+		{
+			height: 4.0d
+			image: "minecraft:particle/vibration"
+			rotation: -180.0d
+			width: 4.0d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "aquamirae:textures/vfx/swing.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -9.0d
+		}
+		{
+			height: 1.0d
+			image: "aquamirae:item/abyssal_leggings"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "aquamirae:item/abyssal_brigantine"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "aquamirae:item/abyssal_heaume"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "aquamirae:item/abyssal_boots"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			height: 3.0d
+			image: "theabyss:textures/abyss_power_icon.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "betternether:block/willow_leaves_end"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "call_of_yucutan:item/mayan_calendar_awake"
+			rotation: 3.0d
+			width: 3.0d
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			height: 5.0d
+			image: "supplementaries:textures/map_marker/nether_portal.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			height: 5.0d
+			image: "aether:item/miscellaneous/aether_portal_frame"
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "aether:item/miscellaneous/aether_portal_frame_inside"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "aether:item/miscellaneous/aether_portal_frame_inside"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			height: 3.0d
+			image: "aether:block/miscellaneous/aether_portal"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			height: 5.0d
+			image: "blue_skies:item/misc/everdawn_portal"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			height: 5.0d
+			image: "blue_skies:item/misc/everbright_portal"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			height: 5.0d
+			image: "blue_skies:item/misc/portal_mix"
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			height: 5.0d
+			image: "theabyss:item/elder_eye"
+			rotation: 0.0d
+			width: 5.0d
+			x: -5.5d
+			y: 3.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -1999,6 +2145,46 @@
 			}]
 			x: -7.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["17027699AB4F3B02"]
+			description: [
+				"&2&lHow to Defeat the Warden in Minecraft&r&r"
+				"&e&lPrepare for the Encounter:&r&r The &8Warden&r is one of the most formidable and intimidating creatures found in Minecraft. Before engaging, ensure you are well-equipped with powerful armor, high-damage weapons, and plenty of healing items. Its immense strength and durability make it a challenging opponent, so preparation is key."
+				""
+				"&e&lLocate the Warden's Lair:&r&r The Warden spawns in the Deep Dark Biome, usually in ancient cities. These areas are filled with Sculk blocks and other ominous features. Navigate carefully through these dark and dangerous environments to find the Warden, as it relies on darkness and silence to ambush its prey."
+				""
+				"&e&lUse Stealth and Strategy:&r&r The Warden is blind but has highly sensitive hearing. Avoid making loud noises and try to stay out of its line of detection. If you do alert the Warden, it will attack with devastating power. Use sneak tactics to avoid detection and approach it strategically."
+				""
+				"&e&lEngage with Caution:&r&r When fighting the Warden, it’s crucial to manage your distance. The Warden has powerful melee attacks and can also release shockwaves that deal significant damage. Use ranged weapons to keep a safe distance or strong melee weapons if you can close the gap safely."
+				""
+				"&e&lExploit Its Weaknesses:&r&r The Warden is resistant to most forms of attack but vulnerable to strong and well-timed strikes. Aim for its exposed areas and use enchantments or special weapons to maximize your damage output. Also, ensure you have plenty of potions and regenerative items to maintain your health throughout the fight."
+				""
+				"&e&lCollect the Warden’s Drops:&r&r Upon defeating the Warden, it will drop valuable items such as &6Sculk Shrieker&r and &7Sculk Catalyst&r. These can be used for crafting or other purposes, making the Warden a worthwhile adversary to defeat."
+			]
+			id: "500946D3FC49D2D2"
+			rewards: [{
+				id: "44B3F827F7F69AC6"
+				type: "xp_levels"
+				xp_levels: 11
+			}]
+			subtitle: "&6&lConquer the Warden and Claim Your Victory in the Deep Dark!&r&r"
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					Count: 1
+					id: "callfromthedepth_:depth_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5B6D0B021C7A4578"
+				title: "Kill the Warden"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 4.0d
 		}
 	]
 	subtitle: [
