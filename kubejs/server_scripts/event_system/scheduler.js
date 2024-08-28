@@ -126,8 +126,8 @@ function cleanupEffects(event, server, player) {
 
 function applyModifiers(event, server, player) {
     for (const modifier of event.attributeModifiers) {
-        console.log(`running command: /attribute ${player.getName().getString()} ${modifier.attribute} modifier add ${modifier.uuid} ${modifier.operation} ${modifier.amount}`);
-        server.runCommandSilent(`/attribute ${player.getName().getString()} ${modifier.attribute} modifier add ${modifier.uuid} ${modifier.operation} ${modifier.amount}`);
+        console.log(`running command: /attribute ${player.getName().getString()} ${modifier.attribute} modifier add ${modifier.uuid} "Zoompack Event" ${modifier.amount} ${modifier.operation}`);
+        server.runCommandSilent(`/attribute ${player.getName().getString()} ${modifier.attribute} modifier add ${modifier.uuid} "Zoompack Event" ${modifier.amount} ${modifier.operation}`);
     }
 }
 
