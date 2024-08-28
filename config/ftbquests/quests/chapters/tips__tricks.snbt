@@ -30,7 +30,7 @@
 			description: ["In here you will find a ton of tips for your playthrough. Go through them one by one to see what this modpack has to offer and how to get unstuck from sticky situations."]
 			icon: {
 				Count: 1
-				id: "deeperdarker:warden_helmet"
+				id: "aquaculture:neptunium_helmet"
 				tag: {
 					Damage: 0
 				}
@@ -74,7 +74,7 @@
 			]
 			icon: {
 				Count: 1
-				id: "deeperdarker:warden_sword"
+				id: "theabyss:nosaj_sword"
 				tag: {
 					Damage: 0
 				}
@@ -179,6 +179,7 @@
 			y: 1.5d
 		}
 		{
+			icon: "minecolonies:scroll_highlight"
 			id: "1230AF3A415E15BB"
 			subtitle: "CBT is OFFICIALLY allowed"
 			tasks: [{
@@ -205,6 +206,13 @@
 				"/events today"
 				"&2&oThis shows today's events&r&r"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:lingering_potion"
+				tag: {
+					Potion: "minecraft:long_leaping"
+				}
+			}
 			id: "2D72E4DD3F561D0B"
 			subtitle: "Daily/Weekly Events!"
 			tasks: [{
@@ -226,6 +234,7 @@
 				"&e&lHow to call your personal mount?&r&r"
 				"Wherever you are press &c&oV&r&r to call your personal mount to your character."
 			]
+			icon: "blue_skies:camel_saddle"
 			id: "1F7911B301774426"
 			subtitle: "And so many they are"
 			tasks: [{
@@ -274,6 +283,16 @@
 				""
 				"Then, just roll the dices!"
 			]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:the_end/endersurge"
+				}
+			}
 			id: "37AB552495798316"
 			subtitle: "They need a socket"
 			tasks: [{
@@ -299,6 +318,7 @@
 				""
 				"&e&lCustomizable Enchanting:&r&r With these enhancements, enchanting becomes a strategic and customizable process, moving beyond the simplistic Vanilla system."
 			]
+			icon: "minecolonies:blockhutenchanter"
 			id: "0FDCC38C52EC2B0A"
 			subtitle: "&6&lHarness the Power of Apotheosis for Superior Enchantments!&r&r"
 			tasks: [{
@@ -332,6 +352,7 @@
 				""
 				"&e&lExtensive Skill List:&r&r PMMO includes skills such as agility, alchemy, archery, building, combat, cooking, crafting, and more. These skills cover a wide range of activities and provide a deep, engaging experience."
 			]
+			icon: "endlessbiomes:anklor_upgrade_template"
 			id: "301C03DAB5AE0E67"
 			subtitle: "&6&lDive into Project MMO for an enriched Minecraft experience with skill-based progression and unique features!&r&r"
 			tasks: [{
@@ -365,10 +386,18 @@
 				"&l&e/economy&r&r"
 				"{ \"text\": \"ECONOMY - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"547C6F5B2EC94450\" } }"
 				""
+				"&l&e/trims&r&r"
+				"&l&e/powerups&r&r"
+				"{ \"text\": \"TRIMS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"089EF30AFF6A1D46\" } }"
+				""
+				"&l&e/talents&r&r"
+				"{ \"text\": \"TALENTS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"70CF500D7065E04A\" } }"
+				""
 				"&l&e/levels&r&r"
 				"&l&e/leveling&r&r"
 				"{ \"text\": \"LEVELING - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"301C03DAB5AE0E67\" } }"
 			]
+			icon: "refinedstorage:4k_storage_part"
 			id: "39A979E3A6CE5B99"
 			subtitle: "Welcome in the sandbox RPG"
 			tasks: [{
@@ -399,6 +428,8 @@
 				"Claim them with this command: &b&o/daily&r&r"
 				"{image:dotcoinmod:item/token width:10 height:10 align:1 fit:false}"
 				""
+				"You now have also a wallet on your Inventory GUI, a safe place to keep your money on your character."
+				""
 				"Across the Overworld you will come across Banks near villages."
 				"These banks have traders that will ask you for coins in exchange of other goods."
 				"Some might even help you with some coins if you can fetch something useful for them."
@@ -409,6 +440,7 @@
 				"&2&lAUCTION HOUSE&r&r"
 				"Try our amazing auction house using the command &b&o/auctions&r&r or just craft one and place it wherever you desire and right click it to open the auction house board. Search for this item: &b&lAuction House&r&r"
 			]
+			icon: "dotcoinmod:diamond_coin"
 			id: "547C6F5B2EC94450"
 			subtitle: "Zooming Economy"
 			tasks: [{
@@ -417,6 +449,104 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{image:blue_skies:item/toxic_armor_trim_smithing_template width:50 height:50 align:2}"
+				"In the world of Zoompack your gear is not just customizeable with trims, but also you have the possibility to enhance your gear with special trimming materials, called &e&oPower-Ups&r&r"
+				""
+				"You can craft them from materials depending on the &o&aTier&r&r"
+				"These power-ups can improve many attributes of all the armors depending on the path you want to choose for your character."
+				"Now, be aware, high tiers become more and more expensive to craft."
+				""
+				""
+				"{image:kubejs:item/tier_10_knockback_resistance_power_up width:100 height:100 align:1}"
+			]
+			icon: "kubejs:tier_7_health_boost_power_up"
+			id: "089EF30AFF6A1D46"
+			subtitle: "Endless Possibilities"
+			tasks: [{
+				id: "230A49995C926316"
+				title: "Trims & Power-ups"
+				type: "checkmark"
+			}]
+			title: "Trims and Powerups"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Your unskilled character can become a very skilled individual and develop talents."
+				""
+				"By pressing the key &b&oK&r&r on your keyboard you can open the Talents Skill Tree."
+				""
+				"There are plenty of talents to learn and make use of all the perks!"
+				"Each one leveling up in different ways:"
+				"either from one shotting enemies or even saving villagers from raids"
+			]
+			icon: {
+				Count: 1
+				id: "vinery:winemaker_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "70CF500D7065E04A"
+			subtitle: "Do some push-ups"
+			tasks: [{
+				id: "6A5BBDFE373042D7"
+				title: "Talents"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"In the Zoompack world there are many dimensions you can explore. Each has it's own way of entering and you must go though each one to make your character stronger. "
+				""
+				"Each dimension is accessible depending on the combat and endurance level you have."
+				""
+				"{ \"text\": \"Overworld\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7BEC85EFE323F106\" } } "
+				"&b&o0-19&r&r"
+				""
+				"{ \"text\": \"Everbright\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"049267B81C4A89DF\" } }"
+				"&b&o20-27&r&r"
+				""
+				"{ \"text\": \"Everdawn\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"649893D325C5BAAD\" } }"
+				"&b&o28-34&r&r"
+				""
+				"{ \"text\": \"Aether\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"68C47292D31DEEB2\" } }"
+				"&b&o35-49&r&r"
+				""
+				"{ \"text\": \"The Nether\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"247A495F1595C8DB\" } }"
+				"&b&o50-59&r&r"
+				""
+				"{ \"text\": \"Undergarden\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"45104F8FBB6A4444\" } }"
+				"&b&o60-69&r&r"
+				""
+				"{ \"text\": \"The End\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6ECCCD1F8E408C4E\" } }"
+				"&b&o70-79&r&r"
+				""
+				"{ \"text\": \"Depth\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"490EDC4B6B7407F9\" } }"
+				"&b&o80-89&r&r"
+				""
+				"{ \"text\": \"Abyss\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"025294015F77A53B\" } }"
+				"&b&o90-100&r&r"
+				""
+				"{ \"text\": \"Frost World\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6D21E24BA4F25D58\" } }"
+				"&b&o90-100&r&r"
+			]
+			icon: "aether:aether_portal_frame"
+			id: "5C849DD6772F7444"
+			subtitle: "How many can you visit?"
+			tasks: [{
+				id: "0ACFA80ECCEFB5F1"
+				title: "Dimensions"
+				type: "checkmark"
+			}]
+			x: 11.0d
 			y: -4.0d
 		}
 	]
