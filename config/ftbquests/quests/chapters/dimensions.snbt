@@ -1906,8 +1906,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -7.5d
-			y: 2.0d
+			x: -10.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["025294015F77A53B"]
@@ -1968,6 +1968,37 @@
 			}]
 			x: -6.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["025294015F77A53B"]
+			description: [
+				"&2&lHow to Access the Frost World in Minecraft&r&r"
+				"&e&lLocate a Portal Room:&r&r To enter the &bFrost World&r, you first need to find a &bPortal Room&r. These rooms generate underground within the &bAbyss Mountain Biome&r. The Portal Rooms are small, enclosed structures made of dark stone, often hidden within the mountain’s depths. Be prepared for substantial mining, as these rooms are not typically exposed through cave systems or natural caverns."
+				""
+				"&e&lObtain the Key of Ice:&r&r Inside the Portal Room, you will find a &bFrost Portal&r, a loot chest, and several species of Frost World flora. The chest contains the &bKey of Ice&r, an essential item required for activating the portal. The Key of Ice is crafted from &bGlacerythe&r and &bDark Stone&r. Ensure you collect it before proceeding."
+				""
+				"&e&lPrepare the Portal Frame:&r&r Construct a vertical, rectangular frame of dark stone blocks, measuring &b4x5&r. This frame should be made of Dark Stone, replacing the traditional obsidian used for Nether portals."
+				""
+				"&e&lActivate the Portal:&r&r Use the &bKey of Ice&r on the Frost Portal to activate it. The process is similar to activating a Nether portal: right-click the portal with the Key of Ice to light it and enable travel. Unlike Nether portals, the Frost portal's linkage and size rules may vary, so be aware that it could follow different parameters than the standard Nether portals."
+				""
+				"&e&lEnter the Frost World:&r&r Step through the activated Frost Portal to access the &bFrost World&r. This dimension is known for its icy landscapes and challenging conditions, so come prepared with appropriate gear and supplies."
+			]
+			id: "6D21E24BA4F25D58"
+			rewards: [{
+				id: "37B662DE0042B8A8"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "&6&lEmbark on Your Icy Adventure and Discover the Wonders of the Frost World!&r&r"
+			tasks: [{
+				dimension: "theabyss:frost_world"
+				icon: "theabyss:frost_crystal_shard"
+				id: "01C9C100D345BF16"
+				title: "Visit the Forst World"
+				type: "dimension"
+			}]
+			x: -7.5d
+			y: 0.5d
 		}
 	]
 	subtitle: [
