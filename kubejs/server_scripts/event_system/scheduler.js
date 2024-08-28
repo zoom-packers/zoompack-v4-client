@@ -13,7 +13,6 @@ console.log("Scheduler loaded");
 ServerEvents.tick((event) => {
     schedulerTimer++;
     if (schedulerTimer > tickInterval) {
-        console.log("Scheduler tick");
         scheduleEvents(event)
         schedulerTimer = 0;
     }
@@ -112,28 +111,24 @@ EntityEvents.death((event) => {
 
 function applyEffects(event, server, player) {
     for (const effect of event.effects) {
-        console.log(`running command: /effect give ${player.getName().getString()} ${effect.effect} infinite ${effect.power}`);
         server.runCommandSilent(`/effect give ${player.getName().getString()} ${effect.effect} infinite ${effect.power}`);
     }
 }
 
 function cleanupEffects(event, server, player) {
     for (const effect of event.effects) {
-        console.log(`running command: /effect clear ${player.getName().getString()} ${effect.effect}`);
         server.runCommandSilent(`/effect clear ${player.getName().getString()} ${effect.effect}`);
     }
 }
 
 function applyModifiers(event, server, player) {
     for (const modifier of event.attributeModifiers) {
-        console.log(`running command: /attribute ${player.getName().getString()} ${modifier.attribute} modifier add ${modifier.uuid} "Zoompack Event" ${modifier.amount} ${modifier.operation}`);
         server.runCommandSilent(`/attribute ${player.getName().getString()} ${modifier.attribute} modifier add ${modifier.uuid} "Zoompack Event" ${modifier.amount} ${modifier.operation}`);
     }
 }
 
 function cleanupModifiers(event, server, player) {
     for (const modifier of event.attributeModifiers) {
-        console.log(`running command: /attribute ${player.getName().getString()} ${modifier.attribute} modifier remove ${modifier.uuid}`);
         server.runCommandSilent(`/attribute ${player.getName().getString()} ${modifier.attribute} modifier remove ${modifier.uuid}`);
     }
 }

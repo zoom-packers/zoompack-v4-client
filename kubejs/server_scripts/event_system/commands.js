@@ -6,7 +6,6 @@ ServerEvents.commandRegistry(event => {
                 .executes(ctx => {
                         const scheduleTexts = schedule.map(x => x.printCalendarEntry());
                         const finalText = "\n\n§aCalendar:\n====================================§r\n" + scheduleTexts.join('§a====================================§r\n') + "§a====================================§r";
-                        console.log(finalText);
                         ctx.source.player.tell(finalText);
                         return 1;
                     }
@@ -16,7 +15,6 @@ ServerEvents.commandRegistry(event => {
                 .executes(ctx => {
                         const activeTexts = activeEvents.map(x => x.printCalendarEntry());
                         const finalText = "\n\n§aActive Events:\n====================================§r\n" + activeTexts.join('§a====================================§r\n') + "§a====================================§r";
-                        console.log(finalText);
                         ctx.source.player.tell(finalText);
                         return 1;
                     }
@@ -30,7 +28,6 @@ ServerEvents.commandRegistry(event => {
                         const eventsToday = schedule.filter(e => e.intervals.some(i => i.day === dayName));
                         const eventTexts = eventsToday.map(x => x.printCalendarEntry());
                         const finalText = `\n\n§aEvents for today:\n====================================§r\n` + eventTexts.join('§a====================================§r\n') + "§a====================================§r";
-                        console.log(finalText);
                         ctx.source.player.tell(finalText);
                         return 1;
                     }
