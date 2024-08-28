@@ -1076,12 +1076,25 @@
 		}
 		{
 			dependencies: ["68C47292D31DEEB2"]
+			description: [
+				"&2&lHow to Enter the Nether in Minecraft&r&r"
+				"&e&lGather Resources and Prepare:&r&r Before venturing into the &4Nether&r, ensure you have the necessary resources. You will need at least &a10-14 pieces of Obsidian&r to build the Nether portal. It's also advisable to bring along &aarmor&r, &eweapons&r, and &afood&r to prepare for the hostile environment."
+				""
+				"&e&lFind or Mine Obsidian:&r&r Obsidian is obtained by mining blocks of &aObsidian&r, which are created when Lava comes into contact with Water. To mine Obsidian, you'll need a &bDiamond Pickaxe&r or better. You can also find Obsidian in large quantities in caves or near lava pools."
+				""
+				"&e&lBuild the Portal Frame:&r&r Construct a rectangular portal frame measuring &a10x4&r blocks in size, with a hollow center. The frame can be made using Obsidian blocks, and it should be at least &a10 blocks tall&r. Make sure there are no gaps in the frame for the portal to activate correctly."
+				""
+				"&e&lActivate the Portal:&r&r To activate the portal, you will need to light the inside of the frame using a &6Flint and Steel&r or a &6Fire Charge&r. Once activated, the portal will shimmer with a purple, starry texture. Step into the portal to be transported to the Nether."
+				""
+				"&e&lPrepare for Your Nether Journey:&r&r The Nether is a dangerous dimension filled with hostile mobs and hazardous terrain. Equip yourself with strong gear and carry plenty of supplies. Be cautious of the Lava lakes and hostile mobs like Piglins and Ghasts."
+			]
 			id: "247A495F1595C8DB"
 			rewards: [{
 				id: "5100A817B52F6B1B"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			subtitle: "&6&lStep Through the Portal and Brace Yourself for the Challenges of the Nether!&r&r"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				icon: "theabyss:infused_magma"
