@@ -104,7 +104,9 @@ Event.prototype = {
     },
 
     shouldBeActive: function () {
-        const now = new Date();
+        let now = new Date();
+        // Add the timezoneOffset to the current time to get the server time
+        now = new Date(now.getTime() + timezoneOffset * 60000);
         for (const interval of this.intervals) {
             if (this.getDayIndex(interval.day) === now.getDay()) {
                 const start = new Date(`${now.toLocaleDateString()} ${interval.start}`);
@@ -138,10 +140,22 @@ Event.prototype = {
 
     printCalendarEntry: function () {
         //Format a minecraft message string to display the event in chat
-        let message = `§a${this.name}§r\n`;
-        message += `§b${this.description}§r\n`;
+
+        // Aggregate intevals based on day
+        let intervalMap = {};
         for (const interval of this.intervals) {
-            message += `§e${interval.day}§r §f${interval.start}-${interval.end}§r\n`;
+            if (!intervalMap[interval.day]) {
+                intervalMap[interval.day] = [];
+            }
+            intervalMap[interval.day].push(`${interval.start}-${interval.end}`);
+        }
+
+        let message = `§a§l${this.name}§r§r\n`;
+        message += `§b§o${this.description}§r§r\n`;
+        const keys = Object.keys(intervalMap);
+        const values = Object.values(intervalMap);
+        for (let i = 0; i < keys.length; i++) {
+            message += `§e${keys[i]}:§r §f${values[i].join(" §7|§r ")}§r\n`;
         }
         return message;
     }

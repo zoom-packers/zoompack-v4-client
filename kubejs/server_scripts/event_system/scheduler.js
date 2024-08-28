@@ -3,6 +3,7 @@ let playerTickTimer = 0;
 let tickInterval = 20 * 10; // 30 seconds
 
 let activeEvents = [];
+var timezoneOffset = 1;
 
 function getInactiveEvents() {
     return schedule.filter(e => !e.isActive);
@@ -19,7 +20,6 @@ ServerEvents.tick((event) => {
 });
 
 function scheduleEvents(event) {
-    const now = new Date();
     for (const scheduleElement of schedule) {
         if (!scheduleElement.isActive && scheduleElement.shouldBeActive()) {
             scheduleElement.isActive = true;
