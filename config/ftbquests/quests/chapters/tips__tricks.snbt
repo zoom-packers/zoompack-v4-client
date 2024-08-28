@@ -283,6 +283,64 @@
 			x: 2.0d
 			y: -5.0d
 		}
+		{
+			description: [
+				"&2&lUnderstanding Apotheosis Enchanting Mechanics&r&r"
+				"&e&lOverhauled Enchanting Table:&r&r Apotheosis revamps the enchanting system with a new GUI and advanced mechanics. Enchantments are more dynamic and varied, with some previously unenchantable items, like shears, now eligible for enchantments."
+				""
+				"&e&lEnhanced Enchantment Factors:&r&r Three key stats influence your enchantments:"
+				""
+				"&d&lEterna:&r&r Determines the strength of your enchantments and increases the level cost."
+				"&d&lQuanta:&r&r Adjusts the randomness of enchantment results, affecting the RNG."
+				"&d&lArcana:&r&r Affects the number of enchantments and the likelihood of rare enchantments appearing."
+				""
+				"&e&lMax Levels and Stats:&r&r The mod increases the maximum levels of many enchantments and introduces new blocks and bookshelves that provide Enchanting Stats, enhancing the effectiveness of enchantments. Vanilla blocks like skulls and candles can also contribute to your enchanting setup."
+				""
+				"&e&lCustomizable Enchanting:&r&r With these enhancements, enchanting becomes a strategic and customizable process, moving beyond the simplistic Vanilla system."
+			]
+			id: "0FDCC38C52EC2B0A"
+			subtitle: "&6&lHarness the Power of Apotheosis for Superior Enchantments!&r&r"
+			tasks: [{
+				id: "25ADDDECBA087381"
+				title: "Enchanting"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"&2&lIntroduction to Project MMO&r&r"
+				"&e&lSkill-Based Experience System:&r&r Project MMO (PMMO) enhances Minecraft by adding an RPG-style experience system. As you perform activities like mining, combat, or crafting, you earn experience that levels up specific skills. This leveling system unlocks new items and grants various perks."
+				""
+				"&e&lPerks and Benefits:&r&r Skills in Project MMO offer tangible benefits such as faster run speed, higher jumping, quicker digging, longer underwater breath, and increased damage. These perks improve your gameplay and adapt to your play style."
+				""
+				"&e&lSpecial Features:&r&r Project MMO introduces several advanced features:"
+				""
+				"Vein Mining: Mine entire veins of ores in one go."
+				""
+				"Extra Drops: Gain additional items based on skill levels."
+				""
+				"Treasure Drops: Discover rare loot and valuable items."
+				""
+				"Mob Scaling: Encounter tougher mobs based on your strength. High scale change through dimensions."
+				""
+				"Parties: Share XP and gain a boost when playing with friends."
+				""
+				"Salvaging: Break down items into their components for reuse."
+				""
+				"&e&lExtensive Skill List:&r&r PMMO includes skills such as agility, alchemy, archery, building, combat, cooking, crafting, and more. These skills cover a wide range of activities and provide a deep, engaging experience."
+			]
+			id: "301C03DAB5AE0E67"
+			subtitle: "&6&lDive into Project MMO for an enriched Minecraft experience with skill-based progression and unique features!&r&r"
+			tasks: [{
+				id: "3B151CA71E8A46DA"
+				title: "Leveling"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
 	]
 	title: "Tips \\& Tricks"
 }
