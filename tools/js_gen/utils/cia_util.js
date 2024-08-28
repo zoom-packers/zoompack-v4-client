@@ -146,6 +146,20 @@ function createCiaOffhand(item, attributeModifiers, unbreakable = false) {
 }
 
 /**
+ * Create a CIA main hand with the given item, attribute modifiers, and unbreakable flag
+ * @param item {string} - The item id
+ * @param attributeModifiers {CiaModifier[]} - The attribute modifiers to apply to the item
+ * @param unbreakable {boolean} - Whether the item should be unbreakable
+ * @returns {CiaEntry} - The CIA entry
+ */
+function createCiaMainHand(item, attributeModifiers, unbreakable = false) {
+    const entry = createCiaEntry(item);
+    entry.overrides_main_hand = attributeModifiers;
+    entry.unbreakable = unbreakable;
+    return entry;
+}
+
+/**
  * Add an item to the CIA
  * @param cia {Cia} - The CIA to add the item to
  * @param entry {CiaEntry} - The entry to add to the CIA
@@ -167,5 +181,6 @@ module.exports = {
     createCiaLeggings,
     createCiaBoots,
     createCiaOffhand,
+    createCiaMainHand,
     addItemToCia
 }
