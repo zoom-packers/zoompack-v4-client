@@ -41,7 +41,7 @@ const materials = [
     {item: item_minecraft.i_diamond, type: "smithing", name: "cincinnasite_diamond", smithing: item_betternether.i_cincinnasite_diamond_upgrade_smithing_template, "base": "cincinnasite", base_damage: 12, durability: 1400, armor: 12, pmmoLevel: 54, materialColor: "#764e1e"},
     {item: item_betternether.i_nether_ruby, type: "crafting", name: "nether_ruby", base_damage: 15, durability: 1500, armor: 15, pmmoLevel: 56, materialColor: "#FF0000"},
     {item: item_minecraft.i_sculk_catalyst, type: "smithing", name: "flaming_ruby", smithing: item_betternether.i_flaming_ruby_upgrade_smithing_template, "base": "nether_ruby", base_damage: 19, durability: 1600, armor: 19, pmmoLevel: 57, materialColor: "#e50e6a"},
-    {item: item_undergarden.i_cloggrum_ingot, type: "crafting", name: "cloggrum", base_damage: 55, durability: 1700, armor: 55, pmmoLevel: 61, materialColor: "#7a6858"},
+    {item: item_undergarden.i_cloggrum_ingot, type: "crafting", name: "cloggrum", base_damage: 55, durability: 1700, armor: 55, pmmoLevel: 61, materialColor: "#b1a17b"},
     {item: item_undergarden.i_froststeel_ingot, type: "crafting", name: "froststeel", base_damage: 65, durability: 1800, armor: 65, pmmoLevel: 63, materialColor: "#3786aa"},
     {item: item_undergarden.i_utherium_crystal, type: "crafting", name: "utherium", base_damage: 75, durability: 1900, armor: 75, pmmoLevel: 65, materialColor: "#831414"},
     {item: item_undergarden.i_forgotten_ingot, type: "smithing", name: "forgotten", smithing: item_undergarden.i_forgotten_upgrade_smithing_template, "base": "utherium", base_damage: 85, durability: 2000, armor: 85, pmmoLevel: 67, materialColor: "#29ae63"},
