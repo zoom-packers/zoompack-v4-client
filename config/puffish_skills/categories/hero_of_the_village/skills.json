@@ -5,66 +5,6 @@
 		"y": 0,
 		"root": true
 	},
-	"xrfbwareeop07fv4": {
-		"definition": "1_force_load",
-		"x": 1408,
-		"y": 352,
-		"root": false
-	},
-	"4821q154jkwntcdd": {
-		"definition": "1_force_load",
-		"x": 1920,
-		"y": 352,
-		"root": false
-	},
-	"zurvp6x1eoc1y8wb": {
-		"definition": "1_force_load",
-		"x": 864,
-		"y": 1024,
-		"root": false
-	},
-	"92ratd2fbmpa11u8": {
-		"definition": "1_force_load",
-		"x": 352,
-		"y": 1024,
-		"root": false
-	},
-	"n0rdqe7tl94u4ztk": {
-		"definition": "1_force_load",
-		"x": 1664,
-		"y": 352,
-		"root": false
-	},
-	"mt4ogryxq6mf79hm": {
-		"definition": "1_force_load",
-		"x": 608,
-		"y": 1024,
-		"root": false
-	},
-	"u1e8zqvwn20ekjsg": {
-		"definition": "1_force_load",
-		"x": 480,
-		"y": 896,
-		"root": false
-	},
-	"r4insmxd8c7c0uqf": {
-		"definition": "1_force_load",
-		"x": 768,
-		"y": 896,
-		"root": false
-	},
-	"3osa58qnneeohmkw": {
-		"definition": "1_force_load",
-		"x": 1824,
-		"y": 448,
-		"root": false
-	},
-	"oyoeiordtfcdkdpf": {
-		"definition": "1_force_load",
-		"x": 1504,
-		"y": 448,
-		"root": false
-	},
 	"r3uxjergljejd5gk": {
 		"definition": "10_chunks",
 		"x": -32,
