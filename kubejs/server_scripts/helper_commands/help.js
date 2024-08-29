@@ -18,7 +18,9 @@ let COMMANDS_CUSTOM_MAP = {
     'trims': ftb_book_command('089EF30AFF6A1D46'),
     'powerups': ftb_book_command('089EF30AFF6A1D46'),
     'talents': ftb_book_command('70CF500D7065E04A'),
-    'dimensions': ftb_book_command('5C849DD6772F7444')
+    'dimensions': ftb_book_command('5C849DD6772F7444'),
+    'magic': ftb_book_command('0D7C3CC83BAFAC1A'),
+    'weapons': ftb_book_command('113FBB2750B2CCC8')
 }
 
 ServerEvents.commandRegistry(event => {

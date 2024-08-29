@@ -370,6 +370,7 @@
 				"Some other books can be accessed with such commands:"
 				""
 				"&e&l/help"
+				"You get here"
 				""
 				"&l&e/gems&r&r "
 				"{ \"text\": \"GEMS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37AB552495798316\" } }"
@@ -395,6 +396,12 @@
 				""
 				"&l&e/dimensions&r&r"
 				"{ \"text\": \"DIMENSIONS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C849DD6772F7444\" } }"
+				""
+				"&l&e/magic&r&r"
+				"{ \"text\": \"MAGIC - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D7C3CC83BAFAC1A\" } }"
+				""
+				"&l&e/weapons&r&r"
+				"{ \"text\": \"WEAPONS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"113FBB2750B2CCC8\" } }"
 				""
 				"&l&e/levels&r&r"
 				"&l&e/leveling&r&r"
@@ -609,13 +616,40 @@
 			y: -4.0d
 		}
 		{
+			description: [
+				"There is a vast amount of weapons and weapon types that you can equip on your character."
+				""
+				"> There multiple types of weapons such as: &o&bSwords, Axe, Dagger, Shordsword, Heavysword, Cutlass, Mace, Heavymace, Warhammer, Spear, Halberd&r&r"
+				"{image:theabyss:item/knight_sword_broekn width:40 height:40 align:1}"
+				""
+				"> Hand combat is not everything, beyond &nmagic&r there are also bows for each material tier!"
+				"{image:aether:item/weapons/phoenix_bow_pulling_2 width:40 height:40 align:1}"
+				""
+				"> Let's not forget about &ndefense,&r there are multiple type of shields for each tier. Such as: &b&oBuckler, Heater, Tower&r&r"
+				"{image:ftblibrary:icons/shield width:40 height:40 align:1}"
+				""
+				"> There are multiple tiers of weaponry for you to discover. "
+				"The higher the dimension level, the higher the stats shall be."
+				"Each dimension has multiple tiers of weapons awaiting for you to discover."
+				""
+				"&2&lCheck out the dimensions!&r&r"
+				"{ \"text\": \"DIMENSIONS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C849DD6772F7444\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "endermanoverhaul:corrupted_shield"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "113FBB2750B2CCC8"
+			subtitle: "Stab, Slash, Sweep and Ram your waepons"
 			tasks: [{
 				id: "6E6CC5CF8828EC7B"
 				title: "Zoomers Weaponry"
 				type: "checkmark"
 			}]
-			x: 8.5d
+			x: 5.0d
 			y: -4.0d
 		}
 	]
