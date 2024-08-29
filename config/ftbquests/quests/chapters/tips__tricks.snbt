@@ -195,7 +195,7 @@
 				"There are plenty of active events that are happening on the community server on a daily basis, sometimes even multiple times a day!"
 				""
 				"&e&lHere are some commands to help you&r&r"
-				"Just type them in the chat in the &e&lOffician Zoompack Server&r&r"
+				"Just type them in the chat in the &e&lOfficial Zoompack Server&r&r"
 				""
 				"/events active"
 				"&2&oThis shows the currently active events&r&r"
@@ -393,6 +393,9 @@
 				"&l&e/talents&r&r"
 				"{ \"text\": \"TALENTS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"70CF500D7065E04A\" } }"
 				""
+				"&l&e/dimensions&r&r"
+				"{ \"text\": \"DIMENSIONS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C849DD6772F7444\" } }"
+				""
 				"&l&e/levels&r&r"
 				"&l&e/leveling&r&r"
 				"{ \"text\": \"LEVELING - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"301C03DAB5AE0E67\" } }"
@@ -508,34 +511,34 @@
 				""
 				"Each dimension is accessible depending on the combat and endurance level you have."
 				""
-				"{ \"text\": \"Overworld\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7BEC85EFE323F106\" } } "
+				"{ \"text\": \"Overworld - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7BEC85EFE323F106\" } } "
 				"&b&o0-19&r&r"
 				""
-				"{ \"text\": \"Everbright\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"049267B81C4A89DF\" } }"
+				"{ \"text\": \"Everbright - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"049267B81C4A89DF\" } }"
 				"&b&o20-27&r&r"
 				""
-				"{ \"text\": \"Everdawn\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"649893D325C5BAAD\" } }"
+				"{ \"text\": \"Everdawn - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"649893D325C5BAAD\" } }"
 				"&b&o28-34&r&r"
 				""
-				"{ \"text\": \"Aether\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"68C47292D31DEEB2\" } }"
+				"{ \"text\": \"Aether - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"68C47292D31DEEB2\" } }"
 				"&b&o35-49&r&r"
 				""
-				"{ \"text\": \"The Nether\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"247A495F1595C8DB\" } }"
+				"{ \"text\": \"The Nether - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"247A495F1595C8DB\" } }"
 				"&b&o50-59&r&r"
 				""
-				"{ \"text\": \"Undergarden\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"45104F8FBB6A4444\" } }"
+				"{ \"text\": \"Undergarden - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"45104F8FBB6A4444\" } }"
 				"&b&o60-69&r&r"
 				""
-				"{ \"text\": \"The End\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6ECCCD1F8E408C4E\" } }"
+				"{ \"text\": \"The End - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6ECCCD1F8E408C4E\" } }"
 				"&b&o70-79&r&r"
 				""
-				"{ \"text\": \"Depth\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"490EDC4B6B7407F9\" } }"
+				"{ \"text\": \"Depth - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"490EDC4B6B7407F9\" } }"
 				"&b&o80-89&r&r"
 				""
-				"{ \"text\": \"Abyss\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"025294015F77A53B\" } }"
+				"{ \"text\": \"Abyss - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"025294015F77A53B\" } }"
 				"&b&o90-100&r&r"
 				""
-				"{ \"text\": \"Frost World\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6D21E24BA4F25D58\" } }"
+				"{ \"text\": \"Frost World - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6D21E24BA4F25D58\" } }"
 				"&b&o90-100&r&r"
 			]
 			icon: "aether:aether_portal_frame"
@@ -546,7 +549,73 @@
 				title: "Dimensions"
 				type: "checkmark"
 			}]
-			x: 11.0d
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Zoompack includes a magic system in which your character has mana and spell power. "
+				""
+				"> There are &nstaffs, offhands, totems and various armory pieces&r that improve those stats!"
+				""
+				"> You might find in the world various scrolls, that can be used to cast spells without consuming &l&9mana.&r&r"
+				""
+				"> Increase your &9&lmana&r&r finding various artifacts in the world, or craft them, or even upgrade your armor to support more of it."
+				""
+				"> You can use an &a&lInscription Table&r&r to add spells to a &d&lSpell Book&r&r and choose which slot is going to be binded to. "
+				""
+				"> You can also craft scrolls using the &c&lScroll Forge&r&r."
+				""
+				"> There are multiple &d&lSpell Books&r&r and the better the spell book, then you could fit more spells inside of it and also providing more &3&lSpell Power&r&r for specific Spells."
+				""
+				"&2&lARCANE ANVIL&r&r"
+				"You can imbue spells into weapons using the &l&dArcane Anvil&r&r."
+				"You can also use the &d&lArcane Anvil&r&r to upgrade the&a &lLevel&r&r of &a&lScrolls&r&r or even to upgrade your Magic Armor or &d&lSpell Books&r&r with &d&lUpgrade Orbs&r&r. "
+				"Use the Shiving Stone in the Arcane Anvil to remove the spells from your Weapons."
+				""
+				"Also there are multiple Magic Classes and there are specific armors that ehance that class spell power."
+				""
+				"&2&lAlmost 100 upgradeable spells from all these classes&r&r"
+				"&e&lPyromancer&r&r - &b&oFire Spell Power&r&r"
+				"&e&lCryomancer&r&r - &b&oIce Spell Power&r&r"
+				"&e&lElectromancer&r&r - &b&oLightning Spell Power&r&r"
+				"&e&lArchevoker&r&r - &b&oEvokation Spell Power&r&r"
+				"&e&lCultist&r&r - &b&oBlood Spell Power&r&r"
+				"&eShadowwalker&r - &b&oEnder Spell Power&r&r"
+				"&e&lPriest&r&r - &b&oHoly Spell Power&r&r"
+				"&e&lPlagued&r&r - &b&oPoison Spell Power&r&r"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:dragonskin_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 12
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "0D7C3CC83BAFAC1A"
+			subtitle: "Ever dreamt of shooting stars?"
+			tasks: [{
+				id: "1C9807BDC940AEF7"
+				title: "Zoomers Sorecery"
+				type: "checkmark"
+			}]
+			title: "Zoomers Sorcery"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "113FBB2750B2CCC8"
+			tasks: [{
+				id: "6E6CC5CF8828EC7B"
+				title: "Zoomers Weaponry"
+				type: "checkmark"
+			}]
+			x: 8.5d
 			y: -4.0d
 		}
 	]
