@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/buckler_shield",
+    "textures": {
+        "0": "zoomers_armory:item/aeternium_buckler"
+    }
+}

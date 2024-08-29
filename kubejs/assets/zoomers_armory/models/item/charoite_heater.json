@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/heater_shield",
+    "textures": {
+        "0": "zoomers_armory:item/charoite_heater"
+    }
+}

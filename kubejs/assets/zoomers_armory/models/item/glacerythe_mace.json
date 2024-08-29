@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/normal",
+    "textures": {
+        "layer0": "zoomers_armory:item/glacerythe_mace"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/tower_shield",
+    "textures": {
+        "0": "zoomers_armory:item/gold_tower"
+    }
+}
