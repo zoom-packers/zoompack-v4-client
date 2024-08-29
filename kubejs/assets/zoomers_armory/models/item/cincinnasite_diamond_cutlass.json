@@ -1,6 +1,6 @@
 {
-    "parent": "zoomers_armory:item/normal",
     "textures": {
         "layer0": "zoomers_armory:item/cincinnasite_diamond_cutlass"
-    }
+    },
+    "parent": "zoomers_armory:item/normal"
 }

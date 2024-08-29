@@ -224,34 +224,63 @@ const outputAssetsDir = `${kubejsAssetsPath()}/zoomers_armory`;
 const outputTexturesDir = `${outputAssetsDir}/textures/item`;
 const outputModelsDir = `${outputAssetsDir}/models/item`;
 
-const itemTemplate = {
-    parent: "item/generated",
-    textures: {
-    }
-}
 
-for (const type of mergedTypes) {
+for (const type of weaponTypes) {
     for (const material of materials) {
         const materialIdPart = material.name;
         const id = `${materialIdPart}_${type.name}`;
-        const item = JSON.parse(JSON.stringify(itemTemplate));
-        if (weaponTypes.includes(type)) {
-            item.textures.layer0 = `zoomers_armory:item/${id}`;
-        } else {
-            item.textures["0"] = `zoomers_armory:item/${id}`;
+        const item = {
+            textures: {}
         }
         item.parent = "zoomers_armory:item/" + type.textureGenType;
+        item.textures.layer0 = `zoomers_armory:item/${id}`;
         fs.writeFileSync(`${outputModelsDir}/${id}.json`, JSON.stringify(item, null, 4), "utf8");
     }
 }
 
-// Copy base models
-for (const model of inputModelsPaths) {
-    fs.copyFileSync(`${inputModelsDir}/${model}`, `${outputModelsDir}/${model}`);
+const bucklerModel = require(`${inputModelsDir}/buckler_shield.json`);
+const heaterModel = require(`${inputModelsDir}/heater_shield.json`);
+const towerModel = require(`${inputModelsDir}/tower_shield.json`);
+const bucklerBlockingModel = require(`${inputModelsDir}/buckler_shield_blocking.json`);
+const heaterBlockingModel = require(`${inputModelsDir}/heater_shield_blocking.json`);
+const towerBlockingModel = require(`${inputModelsDir}/tower_shield_blocking.json`);
+for (const type of shieldTypes) {
+    for (const material of materials) {
+        const materialIdPart = material.name;
+        const id = `${materialIdPart}_${type.name}`;
+        let model;
+        let blockingModel;
+        switch (type.textureGenType) {
+            case "buckler_shield":
+                model = bucklerModel;
+                blockingModel = bucklerBlockingModel;
+                break;
+            case "heater_shield":
+                model = heaterModel;
+                blockingModel = heaterBlockingModel;
+                break;
+            case "tower_shield":
+                model = towerModel;
+                blockingModel = towerBlockingModel;
+                break;
+        }
+        model.textures["0"] = `zoomers_armory:item/${id}`;
+        model.overrides[0].model = `zoomers_armory:item/${id}_blocking`;
+        blockingModel.parent = `zoomers_armory:item/${id}`;
+        fs.writeFileSync(`${outputModelsDir}/${id}.json`, JSON.stringify(model, null, 4), "utf8");
+        fs.writeFileSync(`${outputModelsDir}/${id}_blocking.json`, JSON.stringify(blockingModel, null, 4), "utf8");
+    }
 }
 
+const itemModelsToCopy = [
+    `${inputModelsDir}/normal.json`,
+    `${inputModelsDir}/long.json`,
+    `${inputModelsDir}/spear.json`,
+]
 
-
+for (const modelPath of itemModelsToCopy) {
+    fs.copyFileSync(modelPath, `${outputModelsDir}/${modelPath.split("/").pop()}`);
+}
 
 
 //=====================

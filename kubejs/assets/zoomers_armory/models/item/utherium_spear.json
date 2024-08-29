@@ -1,6 +1,6 @@
 {
-    "parent": "zoomers_armory:item/spear",
     "textures": {
         "layer0": "zoomers_armory:item/utherium_spear"
-    }
+    },
+    "parent": "zoomers_armory:item/spear"
 }

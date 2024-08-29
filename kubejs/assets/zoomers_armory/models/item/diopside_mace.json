@@ -1,6 +1,6 @@
 {
-    "parent": "zoomers_armory:item/normal",
     "textures": {
         "layer0": "zoomers_armory:item/diopside_mace"
-    }
+    },
+    "parent": "zoomers_armory:item/normal"
 }

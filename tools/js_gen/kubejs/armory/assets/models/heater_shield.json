@@ -63,7 +63,7 @@
 		}
 	],
 	"overrides": [
-		{"predicate": {"blocking": 1}, "model": "kubejs:item/tower_shield_blocking"}
+		{"predicate": {"blocking": 1}, "model": "zoomers_armory:item/heater_shield_blocking"}
 	],
 	"display": {
 		"thirdperson_righthand": {

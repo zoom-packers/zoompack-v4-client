@@ -1,6 +1,6 @@
 {
-    "parent": "zoomers_armory:item/long",
     "textures": {
         "layer0": "zoomers_armory:item/horizonite_heavymace"
-    }
+    },
+    "parent": "zoomers_armory:item/long"
 }

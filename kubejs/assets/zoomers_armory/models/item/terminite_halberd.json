@@ -1,6 +1,6 @@
 {
-    "parent": "zoomers_armory:item/spear",
     "textures": {
         "layer0": "zoomers_armory:item/terminite_halberd"
-    }
+    },
+    "parent": "zoomers_armory:item/spear"
 }
