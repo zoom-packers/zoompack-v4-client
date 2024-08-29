@@ -205,6 +205,8 @@
 				""
 				"/events today"
 				"&2&oThis shows today's events&r&r"
+				""
+				"&o&bThese are all exclusive to the Official Community Server&r&r"
 			]
 			icon: {
 				Count: 1
@@ -588,7 +590,7 @@
 				"&e&lElectromancer&r&r - &b&oLightning Spell Power&r&r"
 				"&e&lArchevoker&r&r - &b&oEvokation Spell Power&r&r"
 				"&e&lCultist&r&r - &b&oBlood Spell Power&r&r"
-				"&eShadowwalker&r - &b&oEnder Spell Power&r&r"
+				"&l&eShadowwalker&r&r - &b&oEnder Spell Power&r&r"
 				"&e&lPriest&r&r - &b&oHoly Spell Power&r&r"
 				"&e&lPlagued&r&r - &b&oPoison Spell Power&r&r"
 			]
