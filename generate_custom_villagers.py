@@ -19,10 +19,15 @@ gemist_config['profession'] = "spacecatcustomprofessions:gemist"
 animalist_config = copy.deepcopy(base_villager_trade_data)
 animalist_config['profession'] = "spacecatcustomprofessions:animalist"
 
+ticketmaster_config = copy.deepcopy(base_villager_trade_data)
+ticketmaster_config['profession'] = "spacecatcustomprofessions:ticketmaster"
+ticketmaster_config['maxTrades'] = 99999999
+
 custom_villagers_trades_data = {
   'banker' : banker_config,
   'gemist' : gemist_config,
-  'animalist' : animalist_config
+  'animalist' : animalist_config,
+  'ticketmaster': ticketmaster_config
 }
 
 def new_custom_villager_trade(villager, request, offer, trade_xp, max_uses, trade_lvl,price_multiplier = 0, demand=0, additional_request = None, potion_offer_effects = None, potion_color = 16004148, loot_table = None, item_title=None, item_lore=None, rarity=-1, item_title_color=None, item_lore_color=None, egg_mob=None, mob_hp_percentage_boost=1, mob_armor_boost=0, mob_damage_boost=0, mob_speed_pertange_boost=0):
@@ -268,3 +273,57 @@ new_default_trade('animalist', ('dotcoinmod:gold_coin', 64), ('blue_skies:loot_b
 new_default_trade('animalist', ('dotcoinmod:gold_coin', 64), ('blue_skies:loot_bag_arachnarch', 1), 5, 5, additional_request=('dotcoinmod:gold_coin', 64), loot_table="zoompack_economy:mounts/tier_9", item_title = "Majestic Random Mount", item_lore="Right-Click to open the lootbag and get a tier 9 mount", rarity=2, item_title_color="dark_purple", item_lore_color="purple")
 
 save_villager_config('animalist')
+
+# Skills to enhance
+# Combat
+# Swordsmanship
+# Archery
+# Magic
+# Endurance
+# Agility
+# Swimming
+# Mining
+# Woodcutting
+# Fishing
+# Farming
+# Alchemy
+# Cooking
+# Smithing
+# Crafting
+# Excavaion
+# Engineering
+
+skills = [
+    ('combat', 14937324),
+    ('swordsmanship', 13127231),
+    ('archery', 8634943),
+    ('magic', 4869045),
+    ('endurance', 7407124),
+    ('agility', 3857271),
+    ('swimming', 3827157),
+    ('mining', 6704448),
+    ('woodcutting', 4530449),
+    ('fishing', 9228517),
+    ('farming', 6192150),
+    ('alchemy', 15961002),
+    ('cooking', 16371082),
+    ('smithing', 4673419),
+    ('crafting', 16701501),
+    ('excavation', 11833187),
+    ('engineering', 16723494),
+]
+
+potionPowers = [
+(2, 1),
+(3, 3),
+(4, 5),
+]
+
+for skill in skills:
+    for potionPower in potionPowers:
+        new_default_trade('ticketmaster', ('dotcoinmod:token', potionPower[0]), ('minecraft:potion', 1), 1, 1, additional_request=None,
+                  potion_offer_effects=get_trade_effects('zoompack_overrides_forge:'+skill[0]+'_xp_multiplier', '72000', potionPower[1]), potion_color=skill[1],
+                  item_title = skill[0].capitalize() + " XP Boost Elixir", item_lore="Drink this to gain " + str(20 * potionPower[1]) + "% more " + skill[0].capitalize() + " XP for 1 hour",
+                  item_title_color="dark_red", item_lore_color="aqua")
+
+save_villager_config('ticketmaster')
