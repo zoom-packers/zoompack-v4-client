@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "loot_table",
-                    "name": "betterend:chests/chorus_forest"
+                    "name": "endlessbiomes:chests/riftite_bulwark_loot"
                 }
             ]
         }

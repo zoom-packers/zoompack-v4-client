@@ -9,23 +9,23 @@
                 },
                 {
                     "type": "loot_table",
-                    "name": "betterend:chests/chorus_forest"
+                    "name": "outer_end:chests/basement_loot"
                 },
                 {
                     "type": "loot_table",
-                    "name": "betterend:chests/shadow_forest"
+                    "name": "outer_end:chests/catacomb_generic"
                 },
                 {
                     "type": "loot_table",
-                    "name": "betterend:chests/foggy_mushroomland"
+                    "name": "outer_end:chests/catacomb_loot"
                 },
                 {
                     "type": "loot_table",
-                    "name": "betterend:chests/lantern_woods"
+                    "name": "outer_end:chests/catacomb_treasure"
                 },
                 {
                     "type": "loot_table",
-                    "name": "betterend:blocks/umbrella_tree_chest"
+                    "name": "outer_end:chests/end_city_treasure"
                 }
             ]
         }

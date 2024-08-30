@@ -139,7 +139,7 @@
     },
     "fencing": {
       "type": "block",
-      "block": "betterend:terminite_bars"
+      "block": "create:andesite_bars"
     },
     "fluid": {
       "type": "block",

@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "loot_table",
-                    "name": "betterend:chests/end_village_loot"
+                    "name": "endlessbiomes:chests/bulwark_treasure_loot"
                 }
             ]
         }

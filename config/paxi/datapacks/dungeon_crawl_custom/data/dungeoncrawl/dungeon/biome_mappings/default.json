@@ -331,127 +331,22 @@
                 "key": "dungeoncrawl:undergarden/default"
             }
         ],
-        "betterend:amber_land": [
+        "outer_end:crystal_crag": [
             {
                 "key": "dungeoncrawl:the_end/default"
             }
         ],
-        "betterend:blossoming_spires": [
+        "outer_end:azure_forest": [
             {
                 "key": "dungeoncrawl:the_end/default"
             }
         ],
-        "betterend:chorus_forest": [
+        "outer_end:primordial_pools": [
             {
                 "key": "dungeoncrawl:the_end/default"
             }
         ],
-        "betterend:crystal_mountains": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:dragon_graveyards": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:dry_shrubland": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:dust_wastelands": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:empty_aurora_cave": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:empty_end_cave": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:empty_smaragdant_cave": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:foggy_mushroomland": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:glowing_grasslands": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:ice_starfield": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:jade_cave": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:lantern_woods": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:lush_aurora_cave": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:lush_smaragdant_cave": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:megalake": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:megalake_grove": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:neon_oasis": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:painted_mountains": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:shadow_forest": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:sulphur_springs": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:umbra_valley": [
-            {
-                "key": "dungeoncrawl:the_end/default"
-            }
-        ],
-        "betterend:umbrella_jungle": [
+        "phantasm:dreaming_den": [
             {
                 "key": "dungeoncrawl:the_end/default"
             }
