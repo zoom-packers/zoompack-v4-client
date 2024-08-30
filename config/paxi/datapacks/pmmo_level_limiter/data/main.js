@@ -252,7 +252,8 @@ function modifyFullSets() {
     processor.modifySetRequirements("outer_end", "cobalt_crystal", 71);
     processor.modifySetRequirements("outer_end", "mint_crystal", 71);
 
-    processor.modifySingleItem("ender_dragon_loot_", "dragon_picaxe", "pickaxe", 71);
+    processor.modifySetRequirements("phantasm", "crystalline", 72, ["sword", "axe", "pickaxe", "shovel", "hoe"], "{set_name}_{item}");
+    processor.modifySingleItem("ender_dragon_loot_", "dragon_picaxe", "pickaxe", 73);
     processor.modifySetRequirements("ender_dragon_loot_", "dragon", 73, ["sword", "axe", "shovel", "hoe"], "{set_name}_{item}");
     processor.modifySetRequirements("ender_dragon_loot_", "dragon_armor", 73, "armor");
 
