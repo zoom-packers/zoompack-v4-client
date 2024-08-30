@@ -1,0 +1,15 @@
+{
+    "override": true,
+    "isTagFor": [
+        "enlightened_end:malachite_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 750
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

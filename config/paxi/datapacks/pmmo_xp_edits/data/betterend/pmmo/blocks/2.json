@@ -1,0 +1,15 @@
+{
+    "override": true,
+    "isTagFor": [
+        "enlightened_end:bismuth_ore"
+    ],
+    "xp_values": {
+        "BLOCK_BREAK": {
+            "mining": 850
+        },
+        "BLOCK_PLACE": {
+            "mining": 10
+        }
+    },
+    "requirements": {}
+}

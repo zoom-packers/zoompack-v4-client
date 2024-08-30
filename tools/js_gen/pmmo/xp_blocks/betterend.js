@@ -1,26 +1,28 @@
 const {Template} = require('./template.js');
 const {item_betterend} = require("../../typedefs/item_typedefs");
 
-const ender = Template.build()
-    .withTagFor(item_betterend.i_ender_ore)
+const malachite = Template.build()
+    .withTagFor('enlightened_end:malachite_ore')
     .withBreakXpValue('mining', 750)
     .withPlaceXpValue('mining', 10);
 
-const amber = Template.build()
-    .withTagFor(item_betterend.i_amber_ore)
+const irradium = Template.build()
+    .withTagFor('enlightened_end:irradium_ore')
     .withBreakXpValue('mining', 850)
     .withPlaceXpValue('mining', 10);
 
-const thallasium = Template.build()
-    .withTagFor(item_betterend.i_thallasium_ore)
+const bismuth = Template.build()
+    .withTagFor('enlightened_end:bismuth_ore')
     .withBreakXpValue('mining', 850)
     .withPlaceXpValue('mining', 10);
 
 const ores = [
-    ender,
-    amber,
-    thallasium
+    malachite,
+    irradium,
+    bismuth
 ];
+
+
 
 module.exports = {
     ores
