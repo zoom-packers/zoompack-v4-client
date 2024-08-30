@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/ignisithe_crossbow",
+    "textures": {
+        "layer0": "zoomers_armory:item/ignisithe_crossbow_firework"
+    }
+}

@@ -40,6 +40,22 @@ function axe (value) {
     }
 }
 
+function bow (value) {
+    return {
+        requirements: {
+            WEAPON: {
+                archery: value
+            },
+            WEAR: {
+                archery: value
+            },
+            USE: {
+                archery: value
+            }
+        }
+    }
+}
+
 function tool(skill, value) {
     return {
         requirements: {
@@ -119,6 +135,7 @@ function place(skill, value) {
 module.exports = {
     armor,
     sword,
+    bow,
     axe,
     tool,
     mount,

@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/garnite_arbalest",
+    "textures": {
+        "layer0": "zoomers_armory:item/garnite_arbalest_drawing_0"
+    }
+}

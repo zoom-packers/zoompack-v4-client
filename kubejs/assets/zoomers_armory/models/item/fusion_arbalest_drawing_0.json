@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/fusion_arbalest",
+    "textures": {
+        "layer0": "zoomers_armory:item/fusion_arbalest_drawing_0"
+    }
+}

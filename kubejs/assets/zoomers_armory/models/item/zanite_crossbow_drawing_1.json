@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/zanite_crossbow",
+    "textures": {
+        "layer0": "zoomers_armory:item/zanite_crossbow_drawing_1"
+    }
+}

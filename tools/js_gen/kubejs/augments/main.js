@@ -12,6 +12,8 @@ const {
     item_irons_spellbooks
 } = require("../../typedefs/item_typedefs");
 const {craftingRecipe} = require("../../utils/recipe_util");
+const {kubejsAssetsPath} = require("../../utils/path_util");
+const {WorkingTexture, combine} = require("../../utils/texture_util");
 
 
 const outputDir = "../../../..";
@@ -128,7 +130,7 @@ for (let tierIndex = 0; tierIndex < tiers; tierIndex++) {
         const id = `"zoomers_magic:augment_${setId}_${tierIndex + 1}"`;
         const formattedSetId = setId.charAt(0).toUpperCase() + setId.slice(1).replace("_", " ");
         const displayName = `"Augment: ${formattedSetId} - Tier ${tierIndex + 1}"`;
-        const texture = `"zoomers_magic:item/augment_${setId}"`;
+        const texture = `"zoomers_magic:item/augment_${setId}_${tierIndex + 1}"`;
         const isMageSet = setIdIndex <= lastMageSetIndex;
         const attributes = [
             {
@@ -255,5 +257,31 @@ const result = recipes.join("\n");
 const recipesStr = recipesTemplate.replace("{recipeStr}", result);
 fs.writeFileSync(`${outputDir}/kubejs/server_scripts/augments_recipes.js`, recipesStr);
 
+//=========================
+// TEXTURE GEN
+//=========================
+const inputAssetsDir = `./assets`;
+const inputTexturesDir = `${inputAssetsDir}/textures`;
+const outputAssetsDir = `${kubejsAssetsPath()}/zoomers_magic`;
+const outputTexturesDir = `${outputAssetsDir}/textures/item`;
 
+async function genTextures() {
+    for (const id of setIds) {
+        for (let i = 0; i < tiers; i++) {
+            const setId = id;
+            const tier = i + 1;
+            const backgroundPath = `${inputTexturesDir}/_background.png`;
+            const texturePath = `${inputTexturesDir}/augment_${setId}.png`;
+            const tierPath = `${inputTexturesDir}/_${tier}.png`;
+            const outputTexturePath = `${outputTexturesDir}/augment_${setId}_${tier}.png`;
+            const backgroundTexture = new WorkingTexture().withPath(backgroundPath).scale(32, 32);
+            const texture = new WorkingTexture().withPath(texturePath).scale(32, 32);
+            const tierTexture = new WorkingTexture().withPath(tierPath).withTint("#e3b084")
 
+            const combined = await combine([backgroundTexture, texture, tierTexture]);
+            combined.toFile(outputTexturePath);
+        }
+    }
+}
+
+genTextures()

@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/immemorial_bow",
+    "textures": {
+        "layer0": "zoomers_armory:item/immemorial_bow_drawing_2"
+    }
+}

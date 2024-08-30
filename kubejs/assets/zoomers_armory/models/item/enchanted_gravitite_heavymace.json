@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "zoomers_armory:item/enchanted_gravitite_heavymace"
+    },
+    "parent": "zoomers_armory:item/long"
+}

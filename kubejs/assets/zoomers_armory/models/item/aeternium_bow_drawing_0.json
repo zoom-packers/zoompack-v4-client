@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/aeternium_bow",
+    "textures": {
+        "layer0": "zoomers_armory:item/aeternium_bow_drawing_0"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/aberythe_arbalest",
+    "textures": {
+        "layer0": "zoomers_armory:item/aberythe_arbalest_drawing_2"
+    }
+}
