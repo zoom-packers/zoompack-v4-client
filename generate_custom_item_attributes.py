@@ -274,11 +274,12 @@ new_armor_set_config("mokels_boss_mantyd", "mantydhelmet", [14,0,0,0], 8, -0.042
 # end related content
 new_sword_config("endlessbiomes","void_touched_blade", 95, full_id=True)
 new_sword_config("outer_end","sinker_dagger", 95, full_id=True)
-new_sword_config("betterend","thallasium", 100)
-new_sword_config("betterend","terminite", 125)
-new_sword_config("betterend","aeternium", 155)
 
-# TODO rebalance knock r for aquamirae items, create_sa, create
+new_sword_config("phantasm","crystalline", 85)
+new_sword_config("ender_dragon_loot_","dragon", 100)
+new_sword_config("enlightened_end","adamantite", 120)
+new_sword_config("enderitemod","enderite", 140)
+
 new_armor_piece_config("endlessbiomes", "void_touched_leggings_leggings", 17, 9, -0.34, actual_piece="leggings")
 new_armor_piece_config("endlessbiomes", "void_touched_boots_boots", 15, 9, 0.06, actual_piece="boots")
 new_armor_set_config("endlessbiomes", "anklor_shell_armour", [15,21,17,15], 9, 0.01)
@@ -286,12 +287,11 @@ new_armor_set_config("outer_end", "rose_crystal", [15,21,17,15], 8, -0.04)
 new_armor_set_config("outer_end", "cobalt_crystal", [15,21,17,15], 8, -0.04)
 new_armor_set_config("outer_end", "mint_crystal", [15,21,17,15], 8, -0.04)
 
-new_armor_set_config("betterend", "thallasium", [18,28,23,18], 10, 0.065)
-new_armor_set_config("betterend", "terminite", [25,38,31,25], 10, 0.065)
-new_armor_set_config("betterend", "aeternium", [31,46,40,31], 7.5, -0.125)
-new_armor_set_config("betterend", "elytra_armored", [0,40,0,0], 6.5, -0.125, full_id=True, actual_piece="chestplate")
-new_armor_set_config("betterend", "crystalite", [40,59,49,40], 10.8, -0.02)
-new_armor_set_config("betterend", "elytra_crystalite", [0,50,0,0], 10, -0.02, full_id=True, actual_piece="chestplate")
+new_armor_set_config("ender_dragon_loot_", "dragon_armor", [18,28,23,18], 6.5, -0.13)
+new_armor_set_config("enlightened_end", "adamantite_armor", [31,46,40,31], 7.5, -0.12, speed_bonus=[0.03, 0.05, 0.04, 0.03])
+new_armor_piece_config("enlightened_end", "dashing_leggings_leggings", 44, 11.5, 0.08, actual_piece="leggings")
+new_armor_piece_config("enlightened_end", "boost_boots_boots", 33, 11.5, 0.08, actual_piece="boots")
+new_armor_set_config("enderitemod", "enderite", [40,59,49,40], 8, -0.01)
 
 # call from the depths
 new_sword_config("callfromthedepth_","immemorialsword", 170, full_id=True)
@@ -413,10 +413,15 @@ new_kjs_config_durability_armor_set("outer_end", "rose_crystal", get_durability_
 new_kjs_config_durability_armor_set("outer_end", "cobalt_crystal", get_durability_list_from_helmet(2950))
 new_kjs_config_durability_armor_set("outer_end", "mint_crystal", get_durability_list_from_helmet(2950))
 
-new_kjs_config_durability_material("betterend", "thallasium", 4500, get_durability_list_from_helmet(3000))
-new_kjs_config_durability_material("betterend", "terminite", 4950, get_durability_list_from_helmet(3200))
-new_kjs_config_durability_material("betterend", "aeternium", 5250, get_durability_list_from_helmet(3400))
-new_kjs_config_durability_armor_set("betterend", "crystalite",  get_durability_list_from_helmet(3890))
+new_kjs_config_durability_tools("phantasm", "crystalline", 4600)
+new_kjs_config_durability_tools("ender_dragon_loot_", "dragon", 4800)
+new_kjs_config_durability("ender_dragon_loot_", "dragon_picaxe", 4800)
+new_kjs_config_durability_armor_set("ender_dragon_loot_", "dragon_armor", get_durability_list_from_helmet(3000))
+new_kjs_config_durability("enlightened_end", "dashing_leggings_leggings", 5200)
+new_kjs_config_durability("enlightened_end", "boost_boots_boots", 5200)
+new_kjs_config_durability_tools("enlightened_end", "adamantite", 5200)
+new_kjs_config_durability_armor_set("enlightened_end", "adamantite_armor", get_durability_list_from_helmet(3400))
+new_kjs_config_durability_material("enderitemod", "enderite", 5500, get_durability_list_from_helmet(3890))
 
 # deeper
 new_kjs_config_durability_armor_set("callfromthedepth_", "depth_armor", get_durability_list_from_helmet(4100))
