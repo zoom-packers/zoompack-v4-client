@@ -10,9 +10,17 @@ class WorkingTexture {
     tint = {r: 0, g: 0, b: 0};
     hue = 0;
     brightness = 0;
+    width = 0;
+    height = 0;
 
     withPath(path) {
         this.path = path;
+        return this;
+    }
+
+    scale(width, height) {
+        this.width = width;
+        this.height = height;
         return this;
     }
 
@@ -49,6 +57,9 @@ class WorkingTexture {
 
     async sharpProcess() {
         const texture = this.toSharpTexture()
+        if (this.width && this.height) {
+            texture.resize(this.width, this.height, {kernel: "nearest"});
+        }
         if (this.tint.r || this.tint.g || this.tint.b) {
             texture.tint({r: this.tint.r, g: this.tint.g, b: this.tint.b})
         }
@@ -90,10 +101,12 @@ async function combine(textures) {
     const base = await textures[0].sharpProcess()
     const sharpBase = sharp(base);
     const texs = textures.slice(1);
+    const buffers = [];
     for (const texture of texs) {
         const buffer = await texture.sharpProcess()
-        sharpBase.composite([{input: buffer}]);
+        buffers.push(buffer);
     }
+    sharpBase.composite(buffers.map(buffer => ({input: buffer})));
     return sharpBase;
 }
 
