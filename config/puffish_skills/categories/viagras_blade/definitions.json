@@ -190,7 +190,7 @@
 		"icon": {
 			"type": "effect",
 			"data": {
-				"effect": "alexsmobs:soulsteal"
+				"effect": "callfromthedepth_:soul_health"
 			}
 		},
 		"rewards": [
