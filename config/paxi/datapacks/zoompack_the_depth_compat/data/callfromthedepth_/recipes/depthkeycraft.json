@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    " bc",
+    "b  "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "b": {
+      "item": "minecraft:end_rod"
+    },
+    "c": {
+      "item": "minecraft:echo_shard"
+    }
+  },
+  "result": {
+    "item": "callfromthedepth_:depth",
+    "count": 1
+  }
+}

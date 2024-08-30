@@ -1,0 +1,2195 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dimensions"
+	group: "095B5FA2C9ED2F6A"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:wayward_compass"
+		tag: { }
+	}
+	id: "114B9726A591A784"
+	images: [
+		{
+			height: 4.0d
+			image: "minecraft:particle/vibration"
+			rotation: -180.0d
+			width: 4.0d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "aquamirae:textures/vfx/swing.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -9.0d
+		}
+		{
+			height: 1.0d
+			image: "aquamirae:item/abyssal_leggings"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "aquamirae:item/abyssal_brigantine"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "aquamirae:item/abyssal_heaume"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "aquamirae:item/abyssal_boots"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			height: 3.0d
+			image: "theabyss:textures/abyss_power_icon.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "betternether:block/willow_leaves_end"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "call_of_yucutan:item/mayan_calendar_awake"
+			rotation: 3.0d
+			width: 3.0d
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			height: 5.0d
+			image: "supplementaries:textures/map_marker/nether_portal.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			height: 5.0d
+			image: "aether:item/miscellaneous/aether_portal_frame"
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "aether:item/miscellaneous/aether_portal_frame_inside"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "aether:item/miscellaneous/aether_portal_frame_inside"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			height: 3.0d
+			image: "aether:block/miscellaneous/aether_portal"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			height: 5.0d
+			image: "blue_skies:item/misc/everdawn_portal"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			height: 5.0d
+			image: "blue_skies:item/misc/everbright_portal"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			height: 5.0d
+			image: "blue_skies:item/misc/portal_mix"
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			height: 5.0d
+			image: "theabyss:item/elder_eye"
+			rotation: 0.0d
+			width: 5.0d
+			x: -5.5d
+			y: 3.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&b&l🌍 The Overworld 🌍&r&r"
+				"The Overworld is a vast and dynamic realm brimming with ancient civilizations, mysterious dungeons, diverse biomes, and complex mechanics. Explore the remnants of forgotten cities, abandoned strongholds, and hidden temples, each holding valuable relics and treasures. Scattered across the landscape are dungeons filled with traps, hostile mobs, and powerful bosses guarding legendary loot."
+				""
+				"The world is alive with diverse fauna and unique biomes, from towering mountains to dense forests and expansive oceans. Dive into underwater wonders, discover sunken ships, and encounter exotic creatures. Advanced crafting systems allow you to create powerful tools, weapons, and armor, while environmental mechanics add depth to survival."
+				""
+				"Hidden caves, enigmatic monoliths, and mysterious portals to other dimensions await discovery, each offering new challenges and rewards. The Overworld is a land of endless adventure, where every exploration uncovers new secrets and opportunities."
+			]
+			icon: "minecolonies:supplycampdeployer"
+			id: "7BEC85EFE323F106"
+			rewards: [{
+				id: "5FBB61690DEFA9AD"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:oak_log"
+				id: "409965771D31CA38"
+				title: "Welcome to the Zoompack Experience"
+				type: "dimension"
+			}]
+			title: "Overworld"
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BEC85EFE323F106"]
+			description: [
+				"&d&l🔑 The Gatekeeper&r&r"
+				"To embark on your journey through these mystical dimensions, your first task is to find the Gatekeeper. He resides in houses scattered across plains, mountains, and snowy biomes. Once you locate him, trade a book for his journal—this invaluable guide contains detailed knowledge of the dimensions, covering everything from the blocks and mobs you'll encounter to the dungeons you must conquer. Additionally, the Gatekeeper offers trades for a Zeal Lighter, essential for activating the Everbright and Everdawn portal frames. Explore his home thoroughly; you'll find an unlit portal frame waiting to be activated. As you progress, the Gatekeeper may unlock further trades, so it’s wise to revisit him after reaching certain milestones in your adventure."
+				""
+				"🕳 How to Enter the Dimensions"
+				"After meeting the Gatekeeper, trade your emeralds for a Zeal Lighter—this will be your key to opening the portals. Search his home for the hidden unlit Everbright or Everdawn portal frame. Once you’ve found it, tidy up the structure, ignite it with the Zeal Lighter, and step through to enter a new dimension filled with challenges and wonders."
+			]
+			hide_text_until_complete: false
+			id: "2D90C0DEA3B9A5ED"
+			rewards: [{
+				count: 5
+				id: "5E020EC2E364B010"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "The Gatekeepers are the way into the Blue Skies"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "blue_skies:zeal_lighter"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2A9D0A66DF83A3DC"
+				structure: "#blue_skies:gatekeeper_houses"
+				title: "Find the gatekeepers in the mountains, snow mountains or plains"
+				type: "structure"
+			}]
+			title: "Find The Gatekeepers"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D90C0DEA3B9A5ED"]
+			description: [
+				"&3&l🌞 The Everbright Dimension 🌞&r&r"
+				"Getting Started"
+				"The Everbright is a realm of eternal daylight, where the sun never sets. To enter, locate the Gatekeeper and trade for a Zeal Lighter. Use it to light the Everbright portal frame in the Gatekeeper's home, and step through to begin your journey."
+				""
+				"Exploring the Everbright"
+				"Though peaceful at first glance, the Everbright is filled with hidden dangers:"
+				""
+				"Lush Landscapes: Beautiful forests, lakes, and mountains dominate the terrain, but beware of dangerous mobs lurking in the shadows."
+				""
+				"Frozen Peaks: High in the mountains, you'll face icy winds and cold-resistant creatures, challenging your survival skills."
+				""
+				"Dungeons and Bosses: The Everbright hosts challenging dungeons, each guarded by powerful bosses. Conquer them to uncover rare treasures and gear."
+				""
+				"Survival in the Everbright demands adaptability. Equip yourself well, explore its diverse biomes, and conquer dungeons to unlock the secrets of this sunlit realm."
+			]
+			id: "049267B81C4A89DF"
+			rewards: [{
+				id: "6413317F8EC99511"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "A Realm of Eternal Daylight, Where Beauty Conceals Danger"
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				icon: "blue_skies:everbright_portal"
+				id: "271A99C7A54C75D7"
+				title: "Visit the Everbright"
+				type: "dimension"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["049267B81C4A89DF"]
+			description: [
+				"&l&d🌑 The Everdawn Dimension 🌑&r&r"
+				"Getting Started"
+				"The Everdawn is a twilight realm, where the sun never fully rises, casting an eternal orange glow. To enter this eerie world, find the Gatekeeper and trade for a Zeal Lighter. Use it to light the Everdawn portal frame in the Gatekeeper's home, and step through to begin your journey."
+				""
+				"Exploring the Everdawn"
+				"The Everdawn is a land of haunting beauty and hidden perils:"
+				""
+				"Twilight Landscapes: The Everdawn is filled with dark forests, glowing fungi, and shadowy plains. The dim light conceals powerful mobs that thrive in the twilight."
+				""
+				"Smoldering Valleys: In these treacherous areas, the ground is hot, and lava flows freely. Expect to face heat-resistant creatures and environmental hazards."
+				""
+				"Dungeons and Bosses: The Everdawn is home to formidable dungeons guarded by relentless bosses. Conquering these dungeons will reward you with powerful gear and valuable treasures."
+				""
+				"Survival in the Everdawn requires courage and preparation. Explore its ominous biomes, battle the powerful creatures that inhabit them, and conquer the dungeons to uncover the secrets of this twilight realm."
+			]
+			id: "649893D325C5BAAD"
+			rewards: [{
+				id: "29DC78785F1F7E44"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "A Twilight World of Hidden Perils and Eternal Dusk"
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				icon: "blue_skies:everdawn_portal"
+				id: "31560249B059D03D"
+				title: "Visit The Everdawn"
+				type: "dimension"
+			}]
+			title: "Visit The Everdawn"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BEC85EFE323F106"]
+			description: [
+				"&9&lHow many could there even be?&r&r"
+				""
+				"The Overworld is home to powerful hidden bosses, lurking in dungeons, ancient ruins, and remote locations. These formidable foes guard rare treasures and powerful artifacts. "
+				""
+				"To find them, explore deep caves, abandoned structures, and mysterious temples scattered across the land. Each boss presents a unique challenge, requiring strategy and preparation. Defeat them to claim their valuable rewards and enhance your adventure."
+				""
+				"Go out there and discover amazing boss fights"
+			]
+			id: "5AA2D43C25DC28E3"
+			rewards: [{
+				id: "0207DD77704D47BA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "The first glimpse of wrath"
+			tasks: [{
+				biome: "minecraft:cold_ocean"
+				icon: "croptopia:water_bottle"
+				id: "69E86914C87988FF"
+				title: "Get to an ocean"
+				type: "biome"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["214A1A47193F852B"]
+			description: [
+				"&2&lTo defeat the Elder Guardian&r&r"
+				""
+				"&e&lLocation:&r&r Find it in ocean monuments, deep underwater."
+				""
+				"&e&lNavigation:&r&r Traverse through the monument, avoiding Guardians and Mining Fatigue attacks."
+				""
+				"&e&lObjective:&r&r Destroy the Elder Guardian to obtain valuable loot, including prismarine shards and a coveted sponge."
+				""
+				"Prepare well and conquer the warden of the deep!"
+			]
+			id: "772BD613D333065B"
+			rewards: [{
+				id: "3EFF7EE2D9348C3F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "&6&lConquering the Elder Guardian: The Ocean’s Ancient Warden"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: "oceansdelight:guardian"
+				id: "164F8AEA6E8D5F6C"
+				title: "Kill the Elder Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			x: -15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["31A7720F7A4C5138"]
+			description: [
+				"&2&lTo defeat Captain Cornelia&r&r&r"
+				""
+				"&e&lLocation:&r&r Find her aboard the cursed shipwrecks drifting in dark waters."
+				""
+				"&e&lNavigation:&r&r Board the ship and fight through her spectral crew to reach the captain's quarters."
+				""
+				"&e&lObjective:&r&r Defeat Captain Cornelia to claim rare loot, including the powerful Coral Saber and enchanted treasure."
+				""
+				"Prepare for a battle against the ghostly pirate queen!"
+			]
+			id: "6A9C47830FE12C16"
+			rewards: [{
+				id: "270E542ECBAC2792"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "&6&lDefeating Captain Cornelia: The Ghostly Pirate Queen"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					Count: 1
+					id: "aquamirae:three_bolt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "775F1FB647954D5B"
+				title: "Kill Captain Cornelia"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["68FB8DFCF5B56C3A"]
+			description: [
+				"&2&lTo defeat Captain Cornelia&r&r&r"
+				""
+				"&e&lLocation:&r&r Find her aboard the cursed shipwrecks drifting in dark waters."
+				""
+				"&e&lNavigation:&r&r Board the ship and fight through her spectral crew to reach the captain's quarters."
+				""
+				"&e&lObjective:&r&r Defeat Captain Cornelia to claim rare loot, including the powerful Coral Saber and enchanted treasure."
+				""
+				"Prepare for a battle against the ghostly pirate queen!"
+			]
+			id: "5EE2046CC0CC6812"
+			rewards: [{
+				id: "528ACD1043C5D8AB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "&6&lDefeating Captain Cornelia: The Ghostly Pirate Queen"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "theabyss:night_altar"
+				id: "3BC9FC52535906E9"
+				title: "Kill the Night Lich"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["61FE5D9701BD51ED"]
+			description: [
+				"&2&lTo defeat the Night Lich&r&r&r"
+				""
+				"&e&lLocation:&r&r Find him in his ominous tower, looming over the dark forests."
+				""
+				"&e&lNavigation:&r&r Ascend the tower, overcoming deadly traps and arcane defenders."
+				""
+				"&e&lObjective:&r&r Defeat the Night Lich to obtain rare magical artifacts and the powerful Soul Crystal."
+				""
+				"Prepare for a battle against the master of dark magic!"
+			]
+			id: "0AB7286C38F1C3F3"
+			rewards: [{
+				id: "4225766422A3EE33"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "&6&lVanquishing the Night Lich: Master of Dark Magic"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "minecraft:torchflower"
+				id: "1DD43E937671E495"
+				title: "Kill the Void Blossom"
+				type: "kill"
+				value: 1L
+			}]
+			x: -12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["31A7720F7A4C5138"]
+			description: [
+				"&2&lTo defeat the Eel&r&r"
+				""
+				"&e&lLocation:&r&r Find it lurking in the depths of the ocean, near eerie underwater ruins."
+				""
+				"&e&lNavigation:&r&r Dive deep, avoiding its electrifying attacks and navigating through treacherous waters."
+				""
+				"&e&lObjective:&r&r Defeat the Eel to acquire rare loot, including the Electric Fang and other valuable underwater treasures."
+				""
+				"Prepare to face the terror of the depths!"
+			]
+			id: "403870F33730A4D5"
+			rewards: [{
+				id: "4753C85EEDA02BCD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "&6&lOvercoming the Eel: Terror of the Depths"
+			tasks: [{
+				entity: "aquamirae:eel"
+				icon: "aquaculture:fish_bones"
+				id: "512584BCFB2AAA7C"
+				title: "Kill the Eel"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["31A7720F7A4C5138"]
+			description: [
+				"&l&2To defeat the Mother of the Maze&r&r"
+				""
+				"&e&lLocation:&r&r Find her at the heart of the submerged labyrinth, hidden deep within ocean ruins."
+				""
+				"&e&lNavigation:&r&r Navigate the twisting, flooded passages, avoiding deadly traps and ambushes."
+				""
+				"&e&lObjective:&r&r Defeat the Mother of the Maze to earn rare loot, including the Maze Key and powerful relics."
+				""
+				"Prepare to challenge the labyrinth's guardian!"
+			]
+			id: "4B2C7B8999C26D04"
+			rewards: [{
+				id: "5778D260BC24E9D6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "&l&6Defeating the Mother of the Maze: Guardian of the Labyrinth"
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: "outer_end:rose_crystal_bud"
+				id: "7C95237E4039876C"
+				title: "Kill the Mother Of The Maze"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["75248391C62B6DBD"]
+			description: [
+				"&2&lTo defeat the Alchemist&r&r"
+				""
+				"&e&lLocate the Hidden Lab:&r&r The Alchemist hides in a secret lab within the Everdawn dimension, often concealed in dark, remote areas. Search for suspicious structures or secluded caverns."
+				""
+				"&e&lBeware of Potions:&r&r The Alchemist uses dangerous potions that can poison, burn, or slow you down. Carry antidotes and health potions to counter these effects."
+				""
+				"&e&lClose the Distance:&r&r The Alchemist prefers to keep his distance, using ranged attacks. Close in quickly to disrupt his potion throwing and engage in close combat."
+				""
+				"&e&lDisrupt His Brew:&r&r Attack while the Alchemist is brewing potions to interrupt his process and prevent him from using powerful concoctions."
+				""
+				"&e&lClaim the Rare Ingredients:&r&r Upon defeat, the Alchemist drops valuable potion ingredients and unique brews that can aid you in future battles."
+				""
+				"Prepare for a battle of strategy and swift action against this master of potions!"
+			]
+			id: "5E9BE0D7EA60E4C3"
+			rewards: [{
+				id: "220A0199AAACF89D"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			subtitle: "&6&lKilling the Alchemist: A Battle Strategy&r&r"
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				icon: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "irons_spellbooks:iss_guide_book"
+					}
+				}
+				id: "0FCF0E493672C286"
+				title: "Kill the Alchemist"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1818A701943F69F0"]
+			description: [
+				"&2&lTo defeat the Summoner&r&r"
+				""
+				"&e&lLocate the Arena:&r&r The Summoner is found in a dedicated arena, usually within the Everbright dimension’s dungeons. Search for large, enclosed spaces with runic symbols on the walls."
+				""
+				"&e&lPrepare for Minions:&r&r The Summoner calls forth waves of minions to overwhelm you. Equip yourself with crowd-control weapons and area-of-effect attacks."
+				""
+				"&e&lTarget the Summoner:&r&r Focus your attacks on the Summoner to disrupt his rituals and prevent him from summoning more creatures."
+				""
+				"&e&lDodge and Strike:&r&r The Summoner uses ranged magic attacks. Stay mobile, dodging his spells while finding openings to strike."
+				""
+				"&e&lCollect the Spoils:&r&r Defeating the Summoner rewards you with powerful artifacts and gear, crucial for your journey through the dimensions."
+				""
+				"Prepare for a relentless battle against waves of summoned foes and their master!"
+			]
+			id: "0259A98C25E42728"
+			rewards: [{
+				id: "7F67047DE90EBEA0"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			subtitle: "&6&lKilling the Summoner: A Battle Strategy&r&r"
+			tasks: [{
+				entity: "blue_skies:summoner"
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "farmersdelight:backstabbing"
+							lvl: 8s
+						}]
+					}
+				}
+				id: "63AA4F365C07D0C0"
+				title: "Kill the Summoner"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5AA2D43C25DC28E3"]
+			description: [
+				"&2&lTo find an Ocean Monument&r&r"
+				""
+				"&e&lSearch Deep Oceans:&r&r Ocean Monuments are large underwater structures located in deep ocean biomes. Look for areas where the water is particularly deep and expansive."
+				""
+				"&e&lUse a Boat:&r&r Sail across deep ocean biomes, keeping an eye out for prismarine blocks below the water’s surface."
+				""
+				"&e&lNight Vision Potion:&r&r Drink a Night Vision potion to increase underwater visibility, making it easier to spot the monument's glowing lanterns from a distance."
+				""
+				"&e&lDolphin’s Grace:&r&r Swim with dolphins to gain Dolphin’s Grace, boosting your speed and helping you cover more ocean territory quickly."
+				""
+				"&e&lOcean Explorer Map:&r&r Obtain an Ocean Explorer Map from a Cartographer Villager, which will lead you directly to the nearest monument."
+				""
+				"Prepare for a challenging dive into the depths!"
+			]
+			id: "214A1A47193F852B"
+			rewards: [{
+				id: "44E885431A414387"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "&6&lLocating an Ocean Monument: A Diver’s Guide"
+			tasks: [{
+				icon: "morevillagers:oceanography_table"
+				id: "3197D620D0FAB690"
+				structure: "#betteroceanmonuments:better_ocean_monuments"
+				title: "Find the Oceam Monument"
+				type: "structure"
+			}]
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5AA2D43C25DC28E3"]
+			description: [
+				"&2&lTo find the Lich Tower&r&r"
+				""
+				"&e&lExplore Dark Forests:&r&r Lich Towers are tall, ominous structures found in dense, dark forest biomes. Look for areas where the trees are thick and the atmosphere is eerie."
+				""
+				"&e&lScan the Horizon:&r&r The Lich Tower stands tall above the trees, often visible from a distance due to its towering height and dark architecture."
+				""
+				"&e&lNight Vision Potion:&r&r Use a Night Vision potion to improve visibility in the shadowy forest, making it easier to spot the tower’s dark silhouette."
+				""
+				"&e&lFollow the Signs:&r&r Look for unnatural clearings or paths leading deeper into the forest, often indicating the presence of the Lich Tower nearby."
+				""
+				"&e&lCheck Your Map:&r&r If you have a map from a Cartographer or a related clue, use it to guide you toward the tower's location."
+				""
+				"Prepare for a perilous ascent to confront the Night Lich!"
+			]
+			id: "68FB8DFCF5B56C3A"
+			rewards: [{
+				id: "4391564398FE540F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "&6&lLocating the Lich Tower: A Hunter’s Guide&r&r"
+			tasks: [{
+				icon: "irons_spellbooks:ice_staff"
+				id: "39FFB7D851DE2EF2"
+				structure: "bosses_of_mass_destruction:lich_tower"
+				title: "Find the Lich Tower"
+				type: "structure"
+			}]
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5AA2D43C25DC28E3"]
+			description: [
+				"&2&lTo find the Void Blossom Arena&r&r"
+				""
+				"&e&lSearch Deep Caves:&r&r The Void Blossom Arena is hidden deep underground, typically within vast cave systems. Explore areas with large open spaces and deep descents."
+				""
+				"&e&lFollow the Darkness:&r&r Look for regions where the darkness seems unnaturally thick, a sign that the arena may be near."
+				""
+				"&e&lUse Night Vision:&r&r Drink a Night Vision potion to navigate the dark caves more effectively, helping you spot the ominous glow of the Void Blossom’s arena."
+				""
+				"&e&lListen for Sounds:&r&r As you get closer, listen for eerie, otherworldly noises echoing through the caverns, indicating the presence of the arena."
+				""
+				"&e&lMine and Explore:&r&r Be prepared to mine through tough stone and explore hidden tunnels to uncover the entrance to the arena."
+				""
+				"Ready yourself for a challenging battle in the depths!"
+			]
+			id: "61FE5D9701BD51ED"
+			rewards: [{
+				id: "3EBD117FD1A1C2ED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "&6&lFinding the Void Blossom Arena: A Seeker’s Guide&r&r"
+			tasks: [{
+				icon: "nethervinery:warped_grapevine_pot"
+				id: "05B524141F8CC58A"
+				structure: "bosses_of_mass_destruction:void_blossom"
+				title: "Find the Void Blossom Arena"
+				type: "structure"
+			}]
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5AA2D43C25DC28E3"]
+			description: [
+				"&2&lTo find the Eel Shelter&r&r"
+				""
+				"&e&lSearch Aquatic Biomes:&r&r The Eel Shelter is located in deep ocean or coral reef biomes. Explore these watery expanses to find the hidden shelter."
+				""
+				"&e&lLook for Unique Structures:&r&r The shelter is often marked by distinct underwater structures, such as submerged ruins or colorful coral formations."
+				""
+				"&e&lUse Night Vision Potions:&r&r Drink Night Vision potions to enhance visibility underwater, making it easier to spot the shelter’s glowing markers or unusual shapes."
+				""
+				"&e&lFollow Eel Trails:&r&r Observe the movement of eels and follow them, as they may lead you to the shelter or provide hints about its location."
+				""
+				"&e&lPrepare for Deep Dives:&r&r Equip yourself with underwater breathing gear and health potions to explore the depths safely and locate the Eel Shelter."
+				""
+				"Dive into the depths and uncover the secrets of the Eel Shelter!"
+			]
+			id: "31A7720F7A4C5138"
+			rewards: [{
+				id: "77469E7D03B2B9AD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "&6&lFinding the Eel Shelter: A Diver’s Guide&r&r"
+			tasks: [{
+				icon: "outer_end:ancient_ice"
+				id: "3538AE5A97AE1F23"
+				structure: "aquamirae:shelter"
+				title: "Find the Eel Shelter"
+				type: "structure"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["049267B81C4A89DF"]
+			description: [
+				"&2&lTo find the Blinding Dungeon&r&r"
+				""
+				"&e&lExplore Everdawn Plains:&r&r The Blinding Dungeon is hidden within the Everbright dimension, often found beneath its shadowy plains. Search areas with flat terrain and scattered ruins."
+				""
+				"&e&lLook for Markers:&r&r The dungeon entrance is usually marked by ominous stone structures or glowing symbols on the ground. Keep an eye out for these signs."
+				""
+				"&e&lUse a Zeal Lighter:&r&r Light up nearby markers with your Zeal Lighter to reveal hidden paths or clues that lead to the dungeon entrance."
+				""
+				"&e&lPrepare for Descent:&r&r The entrance may lead to deep underground chambers. Ensure you have ample supplies and gear for a long descent."
+				""
+				"&e&lWatch for Traps:&r&r The dungeon is riddled with traps and illusions. Proceed with caution and stay alert for sudden dangers."
+				""
+				"Prepare yourself for a perilous journey into the dark depths of the Everbright!"
+			]
+			id: "1818A701943F69F0"
+			rewards: [{
+				id: "20FBF5A6EB10091E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "&6&lFinding the Blinding Dungeon: A Pathfinder’s Guide&r&r"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "theabyss:frost_world"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6AE8B92F7F791C7D"
+				structure: "blue_skies:everdawn_blinding_dungeon"
+				title: "Find the Blinding Dungeon"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["049267B81C4A89DF"]
+			description: [
+				"&2&lTo find the Nature Dungeon&r&r"
+				""
+				"&e&lExplore Verdant Biomes:&r&r The Nature Dungeon is hidden within lush, vibrant biomes such as dense forests or sprawling jungles. Look for dense foliage and overgrown areas."
+				""
+				"&e&lLook for Natural Markers:&r&r Search for distinctive features like large ancient trees, overgrown ruins, or glowing flora that might indicate the dungeon’s entrance."
+				""
+				"&e&lUse a Nature-Infused Map:&r&r If available, use a nature-infused map or clue to guide you toward the dungeon’s location."
+				""
+				"&e&lFollow the Green Path:&r&r Follow paths of unusual green vegetation or rare plants leading to the dungeon entrance."
+				""
+				"&e&lPrepare for Wild Defenders:&r&r The dungeon is guarded by nature-themed creatures. Equip gear resistant to natural attacks and be ready for wild encounters."
+				""
+				"Prepare to delve into the heart of nature’s secrets and uncover the dungeon’s hidden treasures!"
+			]
+			id: "11437F4886499075"
+			rewards: [{
+				id: "52CDB52AAD8EC26C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "&6&lFinding the Nature Dungeon: A Seeker’s Guide&r&r"
+			tasks: [{
+				icon: "blue_skies:nature_key"
+				id: "25A93A87D2B67757"
+				structure: "blue_skies:nature_dungeon"
+				title: "Find the Nature Dungeon"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["11437F4886499075"]
+			description: [
+				"&2&lTo defeat the Starlit Crusher&r&r"
+				""
+				"&e&lLocate the Battlefield:&r&r The Starlit Crusher is found in the Everbright dimension, usually within vast, open areas beneath starry skies. Look for celestial markers or glowing stones indicating its presence."
+				""
+				"&e&lPrepare for Heavy Hits:&r&r The Starlit Crusher deals massive melee damage. Equip the best armor available and use shields to block its devastating attacks."
+				""
+				"&e&lStay Agile:&r&r The Crusher’s slow but powerful strikes can be avoided with quick movement. Dodge its attacks and strike when it’s recovering."
+				""
+				"&e&lTarget Weak Points:&r&r Aim for the Crusher’s exposed areas when it pauses after a heavy swing. This is your chance to deal significant damage."
+				""
+				"&e&lClaim the Celestial Rewards:&r&r Defeating the Starlit Crusher rewards you with rare celestial materials and powerful gear enhancements."
+				""
+				"Be ready for a battle of strength and precision under the starry skies!"
+			]
+			id: "0A8E820EA2ED9602"
+			rewards: [{
+				id: "6E1E8FED429E6622"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			subtitle: "&6&lKilling the Starlit Crusher: A Battle Strategy&r&r"
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:wall_of_fire"
+								index: 0
+								level: 20
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				id: "74FAD63E68E5A9CF"
+				title: "Kill the Starlit Crusher"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["649893D325C5BAAD"]
+			description: [
+				"&2&lTo find the Blinding Dungeon&r&r"
+				""
+				"&e&lExplore Everdawn Plains:&r&r The Blinding Dungeon is hidden within the Everdawn dimension, often found beneath its shadowy plains. Search areas with flat terrain and scattered ruins."
+				""
+				"&e&lLook for Markers:&r&r The dungeon entrance is usually marked by ominous stone structures or glowing symbols on the ground. Keep an eye out for these signs."
+				""
+				"&e&lUse a Zeal Lighter:&r&r Light up nearby markers with your Zeal Lighter to reveal hidden paths or clues that lead to the dungeon entrance."
+				""
+				"&e&lPrepare for Descent:&r&r The entrance may lead to deep underground chambers. Ensure you have ample supplies and gear for a long descent."
+				""
+				"&e&lWatch for Traps:&r&r The dungeon is riddled with traps and illusions. Proceed with caution and stay alert for sudden dangers."
+				""
+				"Prepare yourself for a perilous journey into the dark depths of the Everdawn!"
+			]
+			id: "75248391C62B6DBD"
+			rewards: [{
+				id: "6674B6077FC95EFD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "&6&lFinding the Blinding Dungeon: A Pathfinder’s Guide&r&r"
+			tasks: [{
+				icon: "blue_skies:blinding_key"
+				id: "14665977EAD716C4"
+				structure: "blue_skies:everdawn_blinding_dungeon"
+				title: "Find the Blinding Dungeon"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["649893D325C5BAAD"]
+			description: [
+				"&2&lTo find the Poison Dungeon&r&r"
+				""
+				"&e&lSearch Toxic Biomes:&r&r The Poison Dungeon is located in toxic, swampy biomes within the Everdawn dimension. Look for areas with dense, toxic vegetation and polluted waters."
+				""
+				"&e&lFollow the Poisonous Trail:&r&r Look for signs of poison clouds or toxic plant life leading to the dungeon’s entrance."
+				""
+				"&e&lUse Anti-Poison Gear:&r&r Equip yourself with anti-poison gear and potions to protect against the dungeon’s hazardous environment."
+				""
+				"&e&lLook for Distinct Markers:&r&r The dungeon entrance is often marked by corrupted, glowing structures or poisonous puddles. Follow these indicators to find the entrance."
+				""
+				"&e&lPrepare for the Depths:&r&r The Poison Dungeon is filled with traps and poisonous mobs. Ensure you have ample healing items and antidotes for a safe exploration."
+				""
+				"Get ready to brave the hazards and uncover the secrets of the Poison Dungeon!"
+			]
+			id: "07B0872DCB83FA8C"
+			rewards: [{
+				id: "23165694A41113F6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "&6&lFinding the Poison Dungeon: A Pathfinder’s Guide&r&r"
+			tasks: [{
+				icon: "blue_skies:poison_key"
+				id: "394047F85E6C4AA6"
+				structure: "blue_skies:poison_dungeon"
+				title: "Find the Poison Dungeon"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07B0872DCB83FA8C"]
+			description: [
+				"&2&lTo defeat the Arachnarch&r&r"
+				""
+				"&e&lLocate Its Lair:&r&r The Arachnarch resides in dark, web-filled caverns within the Everdawn dimension. Search for areas heavily covered in cobwebs and large, ominous spider nests."
+				""
+				"&e&lPrepare for Swarms:&r&r The Arachnarch summons swarms of smaller spiders during combat. Equip area-of-effect weapons and defensive gear to handle the spider minions."
+				""
+				"&e&lAvoid Webs and Traps:&r&r The cavern is laden with sticky webs and traps. Stay mobile to avoid getting ensnared and slow down."
+				""
+				"&e&lAttack the Core:&r&r Focus your attacks on the Arachnarch’s central body. Aim for exposed areas when it pauses or after summoning spiders."
+				""
+				"&e&lCollect Arachnid Spoils:&r&r Defeating the Arachnarch rewards you with rare spider silk and powerful venomous items useful for crafting and combat."
+				""
+				"Prepare for a fierce battle against the monstrous spider queen!"
+			]
+			id: "4F396AFB5627A6B3"
+			rewards: [{
+				id: "42EDC41365DD63A2"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			subtitle: "&6&lKilling the Arachnarch: A Battle Strategy&r&r"
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				icon: {
+					Count: 1
+					id: "blue_skies:loot_bag_arachnarch"
+					tag: {
+						LootTable: "blue_skies:loot_bags/arachnarch/rare"
+						Rarity: 2
+					}
+				}
+				id: "6F58554C0DBF24F8"
+				title: "Kill the Arachnarch"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["649893D325C5BAAD"]
+			description: [
+				"&l&e☁ The Aether Dimension ☁&r&r"
+				""
+				"Getting Started"
+				"The Aether is a floating paradise high above, full of beauty and danger. To enter, construct a portal frame with Glowstone blocks, and activate it by placing a water bucket in the center. Step through the portal to reach this aerial realm. Be prepared for a unique adventure in a world where survival requires both skill and preparation."
+				""
+				"Conquering Dungeons"
+				"Explore the Aether’s three intriguing dungeons:"
+				""
+				"Bronze Dungeon: Home to the Sentries and ruled by the Slider, a formidable stone creature. Navigate hidden tunnels and gear up with the best equipment to face this challenge."
+				""
+				"Silver Dungeon: Located in the Valkyrie Temple, where you'll battle Valkyrie Knights. Defeat them to prove your worth and challenge the Valkyrie Queen, an ancient and powerful warrior."
+				""
+				"Gold Dungeon: The rarest of dungeons, guarded by the Sun Spirit, a being of pure fire. Defeating the Sun Spirit will be a monumental task, but the rewards are among the most valuable in the Aether."
+				""
+				"Prepare for an epic adventure in this ethereal dimension!"
+			]
+			id: "68C47292D31DEEB2"
+			rewards: [{
+				id: "2C4F06609B0DF9C9"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			subtitle: "Entering the Aether: A Journey Beyond the Skies"
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "535C69E050D6890F"
+				title: "Visit The Aether"
+				type: "dimension"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["68C47292D31DEEB2"]
+			description: [
+				"&e&lLook for Giant Temple Structures&r&r "
+				""
+				"The Silver Dungeon resembles a massive temple adorned with pillar blocks. Search for these grand structures in the Aether to locate the dungeon."
+				""
+				"&e&lInvestigate the Pillared Surroundings:&r&r The dungeon is typically surrounded by pillar blocks. These pillars can help you identify the dungeon’s location and serve as markers for where to start your search."
+				""
+				"&e&lPrepare for Valkyrie Encounters:&r&r Inside the dungeon, you’ll face Valkyries, powerful mobs that drop Victory Medals upon defeat. Equip strong armor and bring plenty of healing items before engaging them. Collect ten Victory Medals to challenge the Valkyrie Queen for the key to the dungeon’s chest."
+				""
+				"&e&lBeware of Mimics in Chests:&r&r Several chests within the dungeon contain valuable loot, but some are disguised as Mimics. Approach chests with caution and be prepared for surprise attacks."
+				""
+				"&e&lKeep an Eye Out for Ruined Temples (Future Reference):&r&r While not yet implemented in Aether II, future Silver Dungeons may appear as overgrown and decaying ruins, potentially covered in vines. Stay tuned for updates and be ready for these changes."
+				""
+				"Prepare yourself for a challenging exploration and uncover the treasures hidden within the Silver Dungeon!"
+			]
+			id: "35C743AB645B7B00"
+			rewards: [{
+				id: "6D9CA2821B2417BC"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "&6&l☁ Finding the Silver Dungeon ☁"
+			tasks: [{
+				icon: "aether:silver_dungeon_key"
+				id: "20B781C01DB6CA18"
+				structure: "aether:silver_dungeon"
+				title: "Find the Silver Dungeon"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["68C47292D31DEEB2"]
+			description: [
+				"&e&lSearch the Sides of Aether Land Masses&r&r "
+				""
+				"The Bronze Dungeon is commonly found on the sides of Aether land masses. Look for rocky outcrops and exposed areas where the dungeon might be accessible from the surface."
+				""
+				"&e&lCheck the Ceilings of Exposed Land:&r&r Occasionally, the dungeon entrance can be found through the ceiling of the Aether land masses if it’s exposed. Keep an eye out for openings or gaps in the land where you might spot the entrance."
+				""
+				"&e&lLook for Concealed Entrances:&r&r In some cases, the Bronze Dungeon is completely entombed within the landmass with no external signs. Be prepared to explore thoroughly and investigate any suspicious areas or hidden passages."
+				""
+				"&e&lPrepare for a Conquerable Challenge:&r&r The Bronze Dungeon is the easiest of the three types to conquer, but the walls and floor cannot be broken until the dungeon is fully beaten. Make sure you have sufficient resources and gear to tackle the dungeon’s challenges."
+				""
+				"&e&lEquip for Exploration:&r&r Bring tools and equipment suitable for navigating through rocky terrain and exploring concealed dungeons. Good lighting and a reliable map can help in locating the entrance."
+				""
+				"Gear up and venture into the Bronze Dungeon to uncover its secrets and claim the rewards within!"
+			]
+			id: "40B9AE617755EEB3"
+			rewards: [{
+				id: "4F92628888253A6E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "&6&l☁ Finding the Bronze Dungeon ☁"
+			tasks: [{
+				icon: "aether:bronze_dungeon_key"
+				id: "5C07720C5CC1D3EA"
+				structure: "aether:bronze_dungeon"
+				title: "Find the Bronze Dungeon"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["68C47292D31DEEB2"]
+			description: [
+				"&e&lSearch for Floating Spheres&r&r "
+				""
+				"The Gold Dungeon is the most challenging and rewarding dungeon in the Aether, characterized by its giant floating spheres. Look for a massive central sphere with smaller spheres attached to it, often suspended in the air."
+				""
+				"&e&lSpot the Golden Oaks and Cockatrices:&r&r The top of the dungeon is typically covered with Golden Oaks, and the low light levels around the sphere may attract Cockatrices. Be on the lookout for these distinctive trees and the presence of hostile mobs."
+				""
+				"&e&lFind the Entrance on the Circumference:&r&r To access the dungeon, locate an opening around the circumference of the giant sphere. This entrance leads to a room made of Hellfire Stone, where the boss battle will commence."
+				""
+				"&e&lPrepare for a Direct Boss Battle:&r&r Unlike other dungeons, the Gold Dungeon immediately leads you into a boss battle against The Sun God (Spirit). Be well-equipped with high-level armor and weapons to handle this intense confrontation."
+				""
+				"&e&lNote the Absence of Water:&r&r Due to the extreme heat of The Sun God’s domain, water cannot be placed inside the Gold Dungeon as it evaporates too quickly. Ensure you have alternative methods for dealing with any heat-related challenges."
+				""
+				"&e&lClaim the Best Rewards:&r&r The Dungeon Chest located in the back wall contains some of the best treasures in the Aether, including the Vampire Blade, Phoenix Armor, Shard of Life, Pig Slayer, Iron Bubble, Book of Lore Volume 3, Gravitite Armor, Cloud Staff, and the Sun Altar."
+				""
+				"Prepare yourself for the ultimate challenge and reap the exceptional rewards hidden within the Gold Dungeon!"
+			]
+			id: "5C5018F261498DA3"
+			rewards: [{
+				id: "305D681D9994E535"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "&6&l☁ Finding the Gold Dungeon ☁"
+			tasks: [{
+				icon: "aether:gold_dungeon_key"
+				id: "6B171A4F8CEF4F00"
+				structure: "aether:gold_dungeon"
+				title: "Find the Gold Dungeon"
+				type: "structure"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["40B9AE617755EEB3"]
+			description: [
+				"&2&lHow to Defeat the Slider&r&r"
+				""
+				"&e&lPrepare for the Dungeon Encounter:&r&r The Slider resides within the Slider's Labyrinth dungeon. To access the Slider, you must first defeat three mini-bosses: the Sentry Guardian, the Slider Host Mimic, and the Labyrinth Eye. Each mini-boss drops a key needed to unlock the Slider’s door."
+				""
+				"&e&lUse the Right Tools for the Job:&r&r The Slider can only be harmed using pickaxes, as it is immune to all other weapon types. Ensure you have a high-quality pickaxe equipped to effectively deal damage during the battle."
+				""
+				"&e&lWatch for Aggressive Charging:&r&r The Slider has a tendency to charge at the player right after attacking. Stay on your toes and be ready to dodge or reposition to avoid getting hit by these powerful charges."
+				""
+				"&e&lBeware of Additional Sentries:&r&r Throughout the fight, the Slider may spawn various Sentry types to complicate your battle. Be prepared to handle these additional threats while focusing on the Slider itself."
+				""
+				"&e&lRecognize Critical Health Behavior:&r&r When the Slider’s health drops to critical levels, it will turn red and increase its speed. Adapt your strategy to handle the faster movements and intensified attacks during this phase."
+				""
+				"&e&lAvoid Block Destruction:&r&r The Slider can destroy any block that is not Divine Carved Stone or Divine Sentry Stone. Use these materials to build barriers or safe spots to protect yourself from the Slider’s block-destroying abilities."
+				""
+				"&e&lClaim Your Rewards:&r&r Upon defeating the Slider, it will drop a variety of loot, including simple food items as well as valuable armor and weapons. Collect these rewards to enhance your gear and resources."
+				""
+				"Prepare for a challenging fight and utilize these strategies to conquer the Slider and claim your loot!"
+			]
+			id: "3CD461E91FC06B70"
+			rewards: [{
+				id: "5BD82E62CBDE04FD"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			subtitle: "&6&lMaster the Dungeon's Challenges and Overcome the Mighty Slider!&r&r"
+			tasks: [{
+				entity: "aether:slider"
+				icon: "create_sa:brass_cube"
+				id: "737BCC704B1C16A7"
+				title: "Kill the Slider"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["35C743AB645B7B00"]
+			description: [
+				"&2&lDefeating the Valkyrie Queen&r&r"
+				""
+				"&e&lPrepare for a Tough Battle:&r&r The Valkyrie Queen is the formidable boss of the Silver Dungeon and the second-hardest boss in The Aether. She rules from her throne room and will only engage you after you’ve defeated ten Valkyries and collected their Victory Medals."
+				""
+				"&e&lChallenge the Queen with Strategy:&r&r To initiate the fight, right-click her with the stack of ten Victory Medals. The Valkyrie Queen can deal up to 3 hearts of damage per hit, so ensure you’re equipped with strong armor and plenty of healing items."
+				""
+				"&e&lWatch Out for Her Attacks:&r&r The Valkyrie Queen can occasionally launch damaging orbs and will teleport behind you after taking several hits. She also has high mobility and can jump very high. Keep your eyes on her and be ready to dodge and heal as needed."
+				""
+				"&e&lUtilize Effective Tactics:&r&r One strategy involves standing in a corner and attacking with a Gravitite Sword to keep her pushed up, making it difficult for her to retaliate. Alternatively, use the Hammer of Notch by spamming across the room; even if she becomes invisible, continue targeting her location based on her health bar."
+				""
+				"&e&lClaim Your Rewards:&r&r Upon defeat, the Valkyrie Queen drops a Silver Key and a Gold Sword. A secret compartment will open in front of her throne, containing valuable loot such as Valkyrie Armor, Valkyrie Tools, and more."
+				""
+				"Prepare well and execute your strategy to conquer the Valkyrie Queen and secure her treasures!"
+			]
+			id: "6C9E664C47C4E172"
+			rewards: [{
+				id: "032080A86EAB3BC1"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			subtitle: "&6&lConquer the Mighty Queen of the Silver Dungeon with Strategy and Skill!&r&r"
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				icon: "doggytalents:angel_wings"
+				id: "673CD1FDCF7E18D7"
+				title: "Kill the Valkyrie Queen"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5C5018F261498DA3"]
+			description: [
+				"&2&lDefeating the Sun Spirit&r&r"
+				""
+				"&e&lPrepare for the Ultimate Battle:&r&r The Sun Spirit is the hardest boss in the Aether Mod and can only be found in Gold Dungeons. To initiate the fight, right-click on him. He will speak to you briefly before becoming hostile."
+				""
+				"&e&lHandle His Attacks:&r&r Once enraged, the Sun Spirit will seal the exit and attack by rushing at you and launching fireballs. Occasionally, he will shoot ice balls that you must hit back at him. When the ice ball hits, the Sun Spirit will turn into ice, summoning a smaller version of himself (on easy difficulty or higher) that you must defeat before it melts."
+				""
+				"&e&lUse the Right Gear:&r&r The Sun Spirit cannot be harmed by conventional weapons, so protect yourself with Phoenix Armor to negate fire and lava damage. Bring plenty of Regeneration Stones to maintain your health throughout the battle."
+				""
+				"&e&lClaim Your Rewards:&r&r Upon defeating the Sun Spirit, he will drop the Gold Key and the Sun Altar. Use the Gold Key to unlock the Locked Chest behind a secret wall in the back of the room. This chest contains some of the best items in the game, often overlooked due to its hidden location."
+				""
+				"Prepare thoroughly and execute your strategy to overcome the Sun Spirit and secure the valuable rewards!"
+			]
+			id: "04E2E9767072EFA6"
+			rewards: [{
+				id: "32A03A47690F39DF"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			subtitle: "&6&lConquer the Fierce Ruler of the Gold Dungeon with Strategy and Protection!&r&r"
+			tasks: [{
+				entity: "aether:sun_spirit"
+				icon: "callfromthedepth_:jumpblock"
+				id: "74001D0CEDFDEE7B"
+				title: "Kill the Sun Spirit"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["68C47292D31DEEB2"]
+			description: [
+				"&2&lHow to Enter the Nether in Minecraft&r&r"
+				"&e&lGather Resources and Prepare:&r&r Before venturing into the &4Nether&r, ensure you have the necessary resources. You will need at least &a10-14 pieces of Obsidian&r to build the Nether portal. It's also advisable to bring along &aarmor&r, &eweapons&r, and &afood&r to prepare for the hostile environment."
+				""
+				"&e&lFind or Mine Obsidian:&r&r Obsidian is obtained by mining blocks of &aObsidian&r, which are created when Lava comes into contact with Water. To mine Obsidian, you'll need a &bDiamond Pickaxe&r or better. You can also find Obsidian in large quantities in caves or near lava pools."
+				""
+				"&e&lBuild the Portal Frame:&r&r Construct a rectangular portal frame measuring &a10x4&r blocks in size, with a hollow center. The frame can be made using Obsidian blocks, and it should be at least &a10 blocks tall&r. Make sure there are no gaps in the frame for the portal to activate correctly."
+				""
+				"&e&lActivate the Portal:&r&r To activate the portal, you will need to light the inside of the frame using a &6Flint and Steel&r or a &6Fire Charge&r. Once activated, the portal will shimmer with a purple, starry texture. Step into the portal to be transported to the Nether."
+				""
+				"&e&lPrepare for Your Nether Journey:&r&r The Nether is a dangerous dimension filled with hostile mobs and hazardous terrain. Equip yourself with strong gear and carry plenty of supplies. Be cautious of the Lava lakes and hostile mobs like Piglins and Ghasts."
+			]
+			id: "247A495F1595C8DB"
+			rewards: [{
+				id: "5100A817B52F6B1B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "&6&lStep Through the Portal and Brace Yourself for the Challenges of the Nether!&r&r"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "theabyss:infused_magma"
+				id: "618C68D6099F276C"
+				title: "Visit The Nether"
+				type: "dimension"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["247A495F1595C8DB"]
+			description: [
+				"&2&lHow to Find the Gauntlet Arena&r&r"
+				""
+				"&e&lSearch in the Heart of the Nether:&r&r The Gauntlet Arena is located deep within the Nether. Venture into the heart of the Nether, where you’ll find a distinctive, dark stone structure."
+				""
+				"&e&lLook for a Cubic Form Submerged in Lava:&r&r The arena has a cubic shape and is often partially submerged in lava. Scan the lava-filled areas for this dark stone structure, as it’s usually not entirely visible due to the surrounding lava."
+				""
+				"&e&lIdentify the Dark Stone Structure:&r&r The arena is made of dark stone-like blocks. This imposing structure stands out from the usual Nether terrain, so look for the unique texture and form of the arena amidst the fiery landscape."
+				""
+				"&e&lPrepare for Dangerous Conditions:&r&r The surrounding lava and hostile Nether environment make exploration hazardous. Equip yourself with fire-resistant gear, ample potions, and strong armor to safely navigate and access the Gauntlet Arena."
+				""
+				"&e&lBe Ready for Combat:&r&r Once you find the arena, prepare for intense battles. Ensure you have powerful weapons and plenty of healing items, as the arena is designed for challenging boss encounters."
+				""
+				"Find the Gauntlet Arena and brace yourself for the ultimate test of your combat skills in the heart of the Nether!"
+			]
+			id: "0A769D8E741CCEA5"
+			rewards: [{
+				id: "7AEA5C9C9B0B1F3B"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			subtitle: "&6&lUncover the Dark Stone Arena Hidden in the Fiery Depths of the Nether!&r&r"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "aether:valkyrie_gloves"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "12815A32BD9466B4"
+				structure: "bosses_of_mass_destruction:gauntlet_arena"
+				title: "Find the Gauntlet Arena"
+				type: "structure"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A769D8E741CCEA5"]
+			description: [
+				"&2&lHow to Defeat the Nether Gauntlet&r&r"
+				""
+				"&e&lAwaken the Gauntlet:&r&r The Nether Gauntlet is a powerful boss encased in a formidable form. To awaken it, you must break its support pillar using a pickaxe. This action will trigger the Gauntlet’s emergence and begin the battle."
+				""
+				"&e&lPrepare for Combat: &r&r The Nether Gauntlet is an exceptionally strong opponent with high resistance to projectiles. Equip yourself with melee weapons and ensure your armor is upgraded to withstand its fierce attacks."
+				""
+				"&e&lUtilize Close-Range Tactics:&r&r Given its resistance to projectiles, focus on melee combat strategies. Use powerful swords or axes to deal damage up close. Position yourself strategically to avoid its attacks and maximize your damage output."
+				""
+				"&e&lWatch for Powerful Attacks:&r&r The Nether Gauntlet can unleash devastating melee strikes and area-of-effect attacks. Keep a vigilant eye on its movements and be ready to dodge or block incoming blows."
+				""
+				"&e&lManage Your Resources:&r&r Bring plenty of healing items and potions to maintain your health throughout the battle. Regularly heal and stay on the move to avoid prolonged damage."
+				""
+				"&e&lClaim Your Rewards:&r&r Upon defeating the Nether Gauntlet, it will drop valuable loot, including rare items and resources that can significantly enhance your gear and abilities."
+				""
+				"Prepare thoroughly and employ effective strategies to conquer the Nether Gauntlet and secure your rewards!"
+			]
+			id: "3BCA7C6F2046BFBA"
+			rewards: [{
+				id: "4A939B51D3379253"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			subtitle: "&6&lOvercome the Powerful Gauntlet with Melee Combat and Strategic Tactics!&r&r"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: {
+					Count: 1
+					id: "aether:obsidian_gloves"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4188FDB33C63A57E"
+				title: "Kill the Nether Gauntlet"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["247A495F1595C8DB"]
+			description: [
+				""
+				"&2&lHow to Defeat the Wither&r&r"
+				"&e&lPrepare the Wither Arena:&r&r The Wither is a formidable boss found in Minecraft. Create or locate a spacious, secure area to battle the Wither, ensuring it's large enough to accommodate its destructive attacks and provide room for movement."
+				""
+				"&e&lSummon the Wither:&r&r To summon the Wither, place three Wither Skeleton skulls on top of a T-shaped structure made from Soul Sand or Soul Soil. Once activated, the Wither will spawn and begin charging up, so be ready for an intense fight."
+				""
+				"&e&lEquip for Battle:&r&r The Wither is a challenging adversary with powerful ranged attacks. Equip yourself with high-tier armor, such as Diamond or Netherite, and bring a strong bow with plenty of arrows, along with melee weapons for close combat."
+				""
+				"&e&lManage the Wither's Health Phases:&r&r The Wither has three health phases. It starts with a charging phase, followed by an explosive phase where it shoots Wither Skeleton skulls, and finally a low-health phase where it becomes more aggressive. Monitor its health and adjust your strategy accordingly."
+				""
+				"&e&lAvoid the Wither's Attacks:&r&r The Wither can inflict Wither damage, which reduces health over time and can be particularly lethal. Keep moving to avoid its projectiles and use potions of Regeneration or Healing to counteract the Wither effect."
+				""
+				"&e&lClaim Your Rewards:&r&r Upon defeating the Wither, it will drop a Nether Star, a valuable item used to craft a Beacon. This powerful item grants various buffs and can be a game-changer in your Minecraft world."
+				""
+				"Prepare thoroughly, utilize strategic combat tactics, and conquer the Wither to enhance your Minecraft experience!"
+			]
+			id: "4A4B490FF32F46D9"
+			rewards: [{
+				id: "1795B4B96E2DDD85"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			subtitle: "&6&lConquer the Wither with Preparation and Tactical Combat for Ultimate Rewards!&r&r"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "20215CCFAEF0AEA7"
+				title: "Kill The Wither"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["247A495F1595C8DB"]
+			description: [
+				"&2&lHow to Enter and Explore the Undergarden&r&r"
+				"&e&lCraft the Catalyst:&r&r To access the Undergarden, you must first craft a Catalyst. Use the following recipe to create it: combine Diamond, Netherite, and Pyrope to form this essential item."
+				""
+				"&e&lBuild the Portal Frame:&r&r Construct a portal frame in the shape of a Nether portal using Stone or Deepslate Bricks. This frame will serve as the gateway to the Undergarden."
+				""
+				"&e&lActivate the Portal:&r&r With the Catalyst in hand, right-click the inner bottom of the portal frame to activate it. This will open a portal to the Undergarden."
+				""
+				"&e&lExplore the Undergarden:&r&r Once inside, you’ll encounter a dark, subterranean world filled with unique flora that thrives without light. Beware of the invasive Rotspawn and other strange creatures from this chaotic realm."
+				""
+				"&e&lDiscover Unique Features:&r&r The Undergarden boasts over 15 biomes, more than 10 unique entities, and special ores with unique properties. Explore its depths, gather resources, and uncover hidden advancements and potion effects."
+				""
+				"&e&lPrepare for the Journey:&r&r Equip yourself with appropriate gear and tools to navigate and survive in this dark, mysterious dimension. Be ready for its challenging environment and the various threats it presents."
+				""
+				"Explore the Undergarden’s unique landscapes, encounter its mysterious creatures, and uncover its secrets!"
+			]
+			id: "45104F8FBB6A4444"
+			rewards: [{
+				id: "317BE6EBF296E678"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			subtitle: "&6&lVenture into the Dark Subterranean World with the Catalyst and a Well-Prepared Portal!&r&r"
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				icon: {
+					Count: 1
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Potion: "tombstone:earthly_garden"
+					}
+				}
+				id: "5E66E7295C459852"
+				title: "Visit The Undergarden"
+				type: "dimension"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["45104F8FBB6A4444"]
+			description: [
+				"&2&lHow to Access the Overgrown Temple&r&r"
+				"&e&lLocate the Jungle Biome:&r&r The Overgrown Temple is hidden within dense jungle biomes. Explore the lush, overgrown areas of the jungle to find this ancient Maya structure."
+				""
+				"&e&lIdentify the Temple Entrance:&r&r The Overgrown Temple is characterized by its ruins held together by indestructible vines. Look for a large, vine-covered structure made of Red Limestone and Ancient Gold, often partially obscured by foliage."
+				""
+				"&e&lNavigate the Temple Interior:&r&r Once inside, you’ll encounter puzzles, traps, and mystical creatures. Use your wits to solve the puzzles and avoid traps to advance deeper into the temple."
+				""
+				"&e&lFace Kukulkan’s Challenges:&r&r The temple pays tribute to Kukulkan, and you may encounter guardian monsters or traps inspired by Maya and Aztec mythology. Be prepared for challenging encounters and complex mechanisms."
+				""
+				"&e&lGather Resources and Treasures:&r&r Explore the temple thoroughly to find valuable resources and advanced equipment. These items will aid in your survival and progression in the mod’s challenging environment."
+				""
+				"Prepare for a journey into ancient Maya lore and overcome the trials of the Overgrown Temple!"
+			]
+			id: "30B0BA5D3551D05D"
+			rewards: [{
+				id: "066621F8FF87B39A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "&6&lUnveil the Ancient Maya Ruins Hidden in the Jungle and Face Kukulkan’s Trials!&r&r"
+			tasks: [{
+				icon: "call_of_yucutan:huracan_helmet"
+				id: "6C62A0EC37CF57E1"
+				structure: "call_of_yucutan:overgrown_temple"
+				title: "Find the Overgrown Temple"
+				type: "structure"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["45104F8FBB6A4444"]
+			description: [
+				"&2&lHow to Access the Deadly Crypt&r&r"
+				"&e&lFind the Crypt in Jungle Biomes:&r&r The Deadly Crypt is located in the same jungle biomes as the Overgrown Temple but is usually hidden among dense vegetation. Look for a dark, imposing structure indicative of a crypt."
+				""
+				"&e&lSpot the Crypt’s Exterior Features:&r&r The Deadly Crypt is constructed from Ritual Stone and Jade, and is designed to resemble a tomb. Its exterior may show signs of age and battle, reflecting its history as a Maya burial site."
+				""
+				"&e&lPrepare for Traps and Haunting Spirits:&r&r As you enter the crypt, be ready for numerous traps and the spirits of fallen Maya soldiers. The crypt is filled with deadly traps, so move cautiously and be prepared for combat."
+				""
+				"&e&lExplore the Tomb for Hidden Treasures:&r&r According to legend, a jade deposit lies beneath the crypt. Search for valuable items and resources hidden within the tomb’s depths, while avoiding or neutralizing the haunting spirits and traps."
+				""
+				"&e&lRespect the History and Culture:&r&r The Deadly Crypt is a monument to the Maya soldiers and their final resting place. Approach with respect for its history and the challenges it presents."
+				""
+				"Uncover the secrets of the Deadly Crypt and claim the treasures buried within!"
+			]
+			id: "012BE91FB076519B"
+			rewards: [{
+				id: "1BAD5D0C341FDA43"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "&6&lNavigate the Trapped Tomb and Confront the Haunting Spirits of the Maya Soldiers!&r&r"
+			tasks: [{
+				icon: "call_of_yucutan:warrior_helmet"
+				id: "7FD8AE7E25B0F16C"
+				structure: "call_of_yucutan:deadly_crypt"
+				title: "Find the Deadly Crypt"
+				type: "structure"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["012BE91FB076519B"]
+			description: [
+				"&2&lHow to Defeat Ah Puch&r&r"
+				"&e&lPrepare for Battle in the Deadly Crypt:&r&r Ah Puch, the Mayan god of death, resides within the Deadly Crypt. Before facing him, navigate the traps and spirits that haunt the crypt. Ensure you are well-equipped with powerful armor, weapons, and healing items."
+				""
+				"&e&lUnderstand Ah Puch’s Abilities:&r&r Ah Puch is a formidable opponent who commands the spirits of the fallen. He may use necrotic attacks and summon undead minions. Be prepared for powerful, life-draining attacks and avoid being overwhelmed by his summoned minions."
+				""
+				"&e&lEmploy Effective Combat Tactics:&r&r Engage Ah Puch with a strong melee weapon or ranged attacks if possible. His attacks may inflict status effects, so keep an eye on your health and use regeneration items to counteract any damage. Aim to keep your distance when he summons minions to reduce the number of threats you face simultaneously."
+				""
+				"&e&lManage the Encounter Efficiently:&r&r Use the terrain of the crypt to your advantage. Move strategically to avoid his more dangerous attacks and stay mobile to dodge incoming projectiles. Pay attention to his attack patterns and adapt your strategy as needed."
+				""
+				"&e&lClaim Your Rewards:&r&r Upon defeating Ah Puch, you will gain access to valuable loot and resources. The defeated deity may drop rare items that can enhance your gear and assist you in future challenges."
+				""
+				"Prepare thoroughly and use effective strategies to conquer Ah Puch and secure your rewards from the Deadly Crypt!"
+			]
+			id: "7810ADC748114AD6"
+			rewards: [{
+				id: "29B20DC20A1CF771"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			subtitle: "&6&lConquer the God of Death in the Deadly Crypt with Strategy and Preparedness!&r&r"
+			tasks: [{
+				entity: "call_of_yucutan:ah_puch"
+				icon: {
+					Count: 1
+					id: "call_of_yucutan:obsidian_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0383641083A8BCC7"
+				title: "Kill the Ah Punch"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["30B0BA5D3551D05D"]
+			description: [
+				"&2&lHow to Defeat Kukulkan&r&r"
+				"&e&lPrepare for the Overgrown Temple Encounter:&r&r Kukulkan, the feathered serpent deity, guards the Overgrown Temple. Equip yourself with high-tier armor, a strong weapon, and plenty of healing items to handle the challenges within the temple."
+				""
+				"&e&lLearn Kukulkan’s Attack Patterns:&r&r Kukulkan may use a combination of powerful magic attacks and physical strikes. Watch for his serpent-like movements and be ready for his devastating breath attacks and summoning abilities. His attacks may reflect Maya and Aztec mythology, making them unique and dangerous."
+				""
+				"&e&lUtilize Tactical Combat Approaches:&r&r Engage Kukulkan with a combination of melee and ranged attacks. Use the temple’s layout to your advantage, finding cover where possible and avoiding direct line-of-sight when he charges up his more powerful attacks. Keep an eye on his health and adapt your tactics to his changing attack patterns."
+				""
+				"&e&lDodge and Defend Against Powerful Abilities:&r&r Kukulkan’s attacks may include fire or lightning elements. Prepare to dodge or block these attacks and use any protective gear that can mitigate elemental damage. Healing potions and buffs will be essential in surviving his onslaught."
+				""
+				"&e&lSecure Your Rewards:&r&r Defeating Kukulkan will yield valuable treasures and artifacts from the Overgrown Temple. Collect these rewards to enhance your equipment and continue your adventures."
+				""
+				"Confront Kukulkan with strategy and preparation to triumph over the mighty deity and claim your rewards from the Overgrown Temple!"
+			]
+			id: "7FA41176B09159AD"
+			rewards: [{
+				id: "4E0B4BE49073A2A6"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			subtitle: "&6&lOvercome the Feathered Serpent’s Trials in the Overgrown Temple for Ancient Rewards!&r&r"
+			tasks: [{
+				entity: "call_of_yucutan:kukulkan"
+				icon: {
+					Count: 1
+					id: "call_of_yucutan:wooden_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "039A680C8E71B676"
+				title: "Kill the Kukulkan"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["45104F8FBB6A4444"]
+			description: [
+				"&2&lHow to Access Kinora’s Garden&r&r"
+				"&e&lFind Kinora’s Garden in the Undergarden Dimension:&r&r Kinora’s Garden is concealed within the Undergarden dimension, a shadowy realm beneath the Overworld. To enter, locate a special portal or gateway that transports you to this mystical arena."
+				""
+				"&e&lIdentify the Garden’s Entrance:&r&r Look for an ancient, rune-inscribed portal or hidden entrance marked by eerie, glowing vegetation. This will lead you to Kinora’s Garden, a place of dark enchantment."
+				""
+				"&e&lPrepare for Dangerous Terrain:&r&r Be ready for a perilous journey through Kinora’s Garden. The area is fraught with traps and hostile creatures that will test your skills and endurance."
+				""
+				"&e&lEnter with Caution:&r&r Approach the Garden with care, ensuring you are well-equipped for the trials ahead. Respect the sanctity of this mystical place as you prepare to face its challenges."
+				""
+				"Unveil the secrets of Kinora’s Garden and advance to the next stage of your quest!"
+			]
+			id: "7BDE807D43032ABD"
+			rewards: [{
+				id: "1762DB4C39F6C13A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "&6&lUnveil the Hidden Gateway to a Mystical Realm Below the Overworld!&r&r"
+			tasks: [{
+				icon: "mokels_boss_mantyd:mantyd_flute"
+				id: "0C460A6AD9972924"
+				structure: "mokels_boss_mantyd:kinoras_garden"
+				title: "Find the Kinora Garden"
+				type: "structure"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7BDE807D43032ABD"]
+			description: [
+				"&2&lDefeat Kinora: Saphyra’s Loyal Blade&r&r"
+				"&e&lPrepare for Battle:&r&r Kinora, the purple mantid with a formidable array of attacks, awaits in her garden arena. Equip yourself with the best gear and consider a mod for combat rolls or dodge mechanics to handle her complex attack patterns."
+				""
+				"&e&lEngage in Combat:&r&r Confront Kinora and showcase your skills in this intense boss fight. She employs unique and powerful attack moves that will challenge even the most seasoned adventurers."
+				""
+				"&e&lClaim Your Rewards:&r&r Upon defeating Kinora, she will drop the legendary Ancestral Scythe and other valuable loot."
+				""
+				"&e&lHeal Kinora to Obtain the Ancestral Rune:&r&r To complete the quest, heal Kinora after her defeat to receive the Ancestral Rune she guards. This final step is essential to fully claim the rewards and complete your journey."
+				""
+				"&e&lRespect the Fallen Warrior:&r&r Kinora’s Garden is a place of great power and significance. Approach with respect and be prepared for the challenges it presents."
+				""
+				"Defeat Kinora and claim the treasures of her garden!"
+			]
+			id: "3DEB1C2D9C83394E"
+			rewards: [{
+				id: "7B159301BBCCC693"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			subtitle: "&6&lObtain the Legendary Ancestral Scythe and Treasures from the Fallen Boss!&r&r"
+			tasks: [{
+				entity: "mokels_boss_mantyd:mantydbosssiting"
+				icon: {
+					Count: 1
+					id: "mokels_boss_mantyd:mantydhelmet_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7F114C69A2F14279"
+				title: "Kill Kinora"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["45104F8FBB6A4444"]
+			description: [
+				"&e&lPrepare the Portal Frame:&r&r Construct a portal frame using End Portal Frame blocks, similar to the vanilla End Portal. Place the 12 custom Eyes into the portal frames. If there is a vanilla Ender Eye in any of the frames, remove it by right-clicking with a custom Eye."
+				""
+				"&e&lActivate the Portal:&r&r Once you’ve placed the 12 Eyes, the portal will activate, allowing you to enter the End. Ensure you have ample preparation for the challenges that await you."
+				""
+				"&e&lConfront the Ender Dragon:&r&r Upon entering the End, you'll face the Ender Dragon. Utilize the advanced equipment and strategies you’ve prepared to defeat this powerful boss and complete your journey."
+				""
+				"Gather your Eyes, build the portal, and prepare to face the Ender Dragon in the remastered End dimension!"
+			]
+			id: "6ECCCD1F8E408C4E"
+			rewards: [{
+				id: "4E4388097FFB9D09"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			subtitle: "&6&lCollect Custom Eyes and Activate the Portal to Face the Ender Dragon in a Remastered Dimension!&r&r"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "supplementaries:enderman_head"
+				id: "78F43528FD11FBB5"
+				title: "Visit The End"
+				type: "dimension"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6ECCCD1F8E408C4E"]
+			description: [
+				"&e&lPrepare for the Battle:&r&r Before confronting the Ender Dragon, ensure you are well-equipped. Bring high-quality armor, powerful weapons, plenty of healing items, and blocks for building or bridging. Enchant your gear to increase your chances of survival."
+				""
+				"&e&lEnter the End and Locate the Ender Dragon:&r&r Upon entering the End dimension, you’ll find the Ender Dragon perched atop the central End Portal. The End is a vast and open space with obsidian pillars scattered throughout."
+				""
+				"&e&lDestroy the Ender Crystals:&r&r The Ender Dragon is healed by Ender Crystals located on top of the obsidian pillars. Use a bow or other long-range weapon to destroy these Crystals before engaging the Dragon directly. Be cautious, as the Crystals explode when destroyed."
+				""
+				"&e&lEngage the Ender Dragon:&r&r Once the Ender Crystals are destroyed, approach the Ender Dragon. Attack it with melee weapons when it lands on the portal structure or use ranged attacks while it flies. Watch for its breath attacks and dodge them to avoid taking damage."
+				""
+				"&e&lManage the Enderman Swarm:&r&r The End dimension is home to numerous Endermen. Keep an eye out for them during the fight. Carry a carved pumpkin or use a looting sword to minimize their interference."
+				""
+				"&e&lUse Effective Combat Strategies:&r&r Focus on dealing consistent damage to the Ender Dragon while avoiding its powerful attacks. Utilize potions of strength, regeneration, and resistance to enhance your combat effectiveness."
+				""
+				"&e&lClaim Your Rewards:&r&r Upon defeating the Ender Dragon, it will drop a significant amount of experience orbs and a dragon egg. Collect these rewards to enhance your equipment and celebrate your victory."
+				""
+				"Prepare thoroughly, destroy the Ender Crystals, and strategically battle the Ender Dragon to secure your triumph in the End Remastered!"
+			]
+			id: "290DF7EF6A34CAD5"
+			rewards: [{
+				id: "2B916E9E8D9525B4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "&6&lConquer the Ender Dragon with Preparation and Strategy to Achieve Victory in the Remastered End Dimension!&r&r"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "346E4A45A70883B3"
+				title: "Kill the Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6ECCCD1F8E408C4E"]
+			description: [
+				"&2&lHow to Find the Obsidilith Arena&r&r"
+				"&e&lLocate the Obsidilith Arena in the End:&r&r The Obsidilith Arena is a rare floating obsidian structure found among the End islands. Search for large, dark, floating structures amidst the End's islands."
+				""
+				"&e&lIdentify the Floating Obsidian Structure:&r&r Look for a distinctive cubic obsidian formation that floats in the End dimension. This arena is characterized by its dark, sturdy appearance and its location high above the void."
+				""
+				"&e&lNavigate the End Islands:&r&r Use ender pearls or build bridges to traverse between the End islands. Be cautious of Endermen and other hostile entities that roam the End."
+				""
+				"&e&lPrepare for Battle:&r&r Ensure you have strong gear, plenty of healing items, and a strategy for dealing with the Obsidilith’s defenses. The arena is a challenging environment, so come well-prepared."
+				""
+				"Find the rare floating obsidian structure in the End islands and ready yourself for a formidable fight against the Obsidilith!"
+			]
+			id: "4D7B0DD4A58F4157"
+			rewards: [{
+				id: "433FC5D9E78267DC"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			subtitle: "&6&lSpot the Rare Floating Obsidian Structure in the End Islands and Prepare for a Tough Battle!&r&r"
+			tasks: [{
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "3125DB6DA84A9B98"
+				structure: "bosses_of_mass_destruction:obsidilith_arena"
+				title: "Find the Obsidilith Arena"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4D7B0DD4A58F4157"]
+			description: [
+				"&2&lHow to Defeat the Obsidilith&r&r"
+				"&e&lPrepare for Combat in the Obsidilith Arena:&r&r Equip yourself with high-quality armor, melee weapons, and plenty of healing items. The Obsidilith is a formidable opponent, so preparation is key."
+				""
+				"&e&lAwaken the Obsidilith by Breaking Support Pillars:&r&r The Obsidilith can be summoned by breaking its support pillars with a pickaxe. The arena contains multiple pillars that will need to be destroyed throughout the battle."
+				""
+				"&e&lManage the Obsidilith’s Duplications:&r&r During the fight, the Obsidilith will duplicate itself and use the duplicates for protection. Continuously break the support pillars to prevent the Obsidilith from fully protecting itself and to reveal its true form."
+				""
+				"&e&lEngage in Melee Combat:&r&r Focus on close-quarters combat, as the Obsidilith is resistant to projectiles. Use melee attacks and dodge its powerful attacks to gain the upper hand."
+				""
+				"&e&lUtilize Effective Strategies:&r&r Stay mobile to avoid the Obsidilith’s attacks and keep breaking the support pillars. Use healing items and regeneration potions as needed to sustain your health throughout the fight."
+				""
+				"&e&lClaim Your Rewards:&r&r Upon defeating the Obsidilith, collect valuable loot and rewards dropped by the boss. This will enhance your gear and mark your victory in the End."
+				""
+				"Prepare thoroughly, break the support pillars to expose the Obsidilith, and engage it with effective melee strategies to claim your victory in the End Arena!"
+			]
+			id: "40C67F3F80524E35"
+			rewards: [{
+				id: "314DC7515E2F3D2F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "&6&lAwaken and Conquer the Obsidilith by Breaking Support Pillars and Managing Duplications in the Arena!&r&r"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "nethervinery:obsidian_stem"
+				id: "772BC8157E0B1D94"
+				title: "Kill the Obsidilith"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["17027699AB4F3B02"]
+			description: [
+				"&2&lHow to Enter the Mysterious Portal in the Ancient City&r&r"
+				"&e&lGather Rare Materials from Two Worlds:&r&r To activate the portal in the Ancient City, you’ll need a &9Depth Key&r. This special key can only be crafted using a &9Sculk Catalyst&r from the Deep Dark biome and an &dEnd Rod&r from the End dimension."
+				""
+				"&e&lCraft the Depth Key:&r&r Combine the &9Sculk Catalyst&r and the &dEnd Rod&r at a crafting table to forge the &9Depth Key&r. This key is the only way to unlock the portal’s secrets."
+				""
+				"&e&lActivate the Portal:&r&r Once you have the &9Depth Key&r, approach the portal frame in the Ancient City. Right-click with the Depth Key on the portal to activate it. A swirling, mysterious energy will appear, indicating the portal is open."
+				""
+				"&e&lPrepare for the Unknown:&r&r Before stepping through the portal, ensure you have enough supplies, weapons, and armor. The new dimension is unknown, filled with new challenges, creatures, and treasures."
+				""
+				"&d&lVenture Into the Uncharted Realm:&r&r Step into the portal and brace yourself for a journey into a mysterious new world beyond the Ancient City."
+			]
+			id: "490EDC4B6B7407F9"
+			rewards: [{
+				id: "7D0071FE7F642344"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			subtitle: "&6&lUnlock the Secrets of the Ancient Portal and Step Into a New Dimension!&r&r"
+			tasks: [{
+				dimension: "callfromthedepth_:depth"
+				icon: "callfromthedepth_:deeplamp"
+				id: "516FAB073A377414"
+				title: "Visit the Depth"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["490EDC4B6B7407F9"]
+			description: [
+				"&2&lHow to Find the Ancient Sacrificial Bastion in the Depth Dimension&r&r"
+				"&e&lVenture into the Depth Dimension:&r&r The Depth Dimension is a dark, foggy realm with eerie water flows, resembling the Nether but filled with murky waters instead of lava. Visibility is low, so you will need specific equipment like &9Night Vision Potions&r or &7a Soul Compass&r to navigate through the dense fog."
+				""
+				"&e&lLook for Clusters of Wardens:&r&r The Ancient Sacrificial Bastion is heavily guarded by &8Wardens&r. Watch for their glowing chests and the ground vibrations indicating their presence. The bastion often appears on raised platforms surrounded by water, where wardens patrol, making it a challenging location to reach."
+				""
+				"&e&lFollow the Sound of Strange Echoes:&r&r Listen for unsettling echoes or low growls — these sounds often emanate from the Bastion. The closer you get, the louder and more intense these noises will become."
+				""
+				"&e&lWatch for Unusual Water Flows and Obsidian Spikes:&r&r The Bastion is distinguished by its towering obsidian spikes and unusual water formations. Look for unnatural currents and water pools that reflect a deep, ominous glow, guiding you toward the Bastion's entrance."
+				""
+				"&e&lExplore for Hidden Secrets:&r&r The Ancient Sacrificial Bastion is filled with hidden chambers, secret passageways, and valuable loot. Be prepared to uncover traps and puzzles that guard powerful artifacts and knowledge."
+				""
+				"&9&lEquip Yourself for Battle:&r&r This journey is not for the faint-hearted. Bring armor that provides protection from water pressure and cold, plenty of food, and weapons that can deal with the guardians of this shadowy realm."
+			]
+			id: "2EF26728583663D4"
+			rewards: [{
+				id: "3374D691F533B936"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			subtitle: "&6&lNavigate the Depths, Uncover Secrets, and Face the Guardians of the Ancient Sacrificial Bastion!&r&r"
+			tasks: [{
+				icon: "theabyss:soul_heart"
+				id: "6837A4C43B47DEE5"
+				structure: "callfromthedepth_:ancientsacrificialbastion"
+				title: "Find the Ancient Sacrificial Bastion"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2EF26728583663D4"]
+			description: [
+				"&2&lHow to Defeat the Agony Soul in the Depth Dimension&r&r"
+				"&e&lCraft the Agony Soul Summoner:&r&r To summon the Agony Soul, you must first gather &8Lost Soul Sand&r from the Depth Dimension. Smelt the sand in a furnace to create the &cAgony Soul&r item — the key to awakening this terrifying entity."
+				""
+				"&e&lGather a Strong Team and Prepare:&r&r The Agony Soul is a powerful and twisted creature resembling a deer, but with horrific malformations. It has both &4defensive&r and &caggressive abilities&r, so it's crucial to face it with a group of well-equipped players. Ensure everyone has strong armor, weapons, and potions to endure the fight."
+				""
+				"&e&lUnderstand its Mechanics:&r&r The Agony Soul uses a wide range of mechanics. It can summon shadows to attack from afar, emit powerful shockwaves that knock players back, and heal itself by absorbing lost souls from the surroundings. Its twisted form allows it to teleport and charge unpredictably, requiring constant movement and vigilance."
+				""
+				"&e&lPrepare for Defensive Moves:&r&r The Agony Soul has a thick hide and can shield itself with dark energy, reflecting damage back to the attacker. Coordinate your team to attack only when its defenses are down, and always have healing items ready."
+				""
+				"&e&lAdapt to its Offensive Powers:&r&r Beware of its antlers, which can impale players and cause severe damage. The Agony Soul can also release a deafening screech that causes confusion and blindness. Spread out to avoid being targeted by multiple attacks, and focus on keeping your distance when it charges."
+				""
+				"&e&lExploit Its Weaknesses:&r&r The Agony Soul has moments of vulnerability after using certain abilities. Watch for when it pauses after a charge or a roar; this is your opportunity to unleash your strongest attacks."
+				""
+				"&e&lFight with Caution and Teamwork:&r&r Keep moving, communicate with your team, and coordinate attacks and healing. Use your terrain wisely to block its line of sight and avoid its devastating attacks."
+			]
+			id: "1DEFB961390F8466"
+			rewards: [{
+				id: "4DBDAE08731DF3D4"
+				type: "xp_levels"
+				xp_levels: 11
+			}]
+			subtitle: "&6&lConquer the Agony Soul and Prove Your Strength in the Depth Dimension!&r&r"
+			tasks: [{
+				entity: "callfromthedepth_:agonysoul"
+				icon: "callfromthedepth_:soulinagony"
+				id: "7EDE0908FF239F76"
+				title: "Kill the Agony Soul"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6ECCCD1F8E408C4E"]
+			description: [
+				"&2&lHow to Find an Ancient City in Minecraft&r&r"
+				"&e&lSearch Deep in the Overworld:&r&r Ancient Cities are found deep underground, specifically in the new Deep Dark biome. They are most commonly generated below Y level -52, far beneath the surface."
+				""
+				"&e&lLocate the Deep Dark Biome:&r&r The Deep Dark biome can be identified by its dark terrain covered in Sculk blocks, Sculk veins, and patches of Sculk sensors. To find this biome, explore caves that go deep, often below Y level 0, and look for the characteristic blue-green glow of Sculk blocks."
+				""
+				"&e&lListen for the Silence:&r&r Unlike other biomes, the Deep Dark is eerily quiet. If you notice an absence of ambient cave sounds or mobs, you might be near an Ancient City."
+				""
+				"&e&lWatch for Sculk Shriekers and Sensors:&r&r The path to an Ancient City is filled with Sculk Shriekers and Sculk Sensors. These blocks will emit sounds or vibrations if you move nearby, so tread carefully and use wool blocks to muffle noise."
+				""
+				"&e&lUse Night Vision and Wool Blocks:&r&r Night Vision potions can help you see in the dark, while wool blocks can be used to silence your footsteps and avoid activating Sculk Shriekers that could summon the dangerous Warden."
+				""
+				"&e&lPrepare for the Depths:&r&r Bring plenty of torches, food, armor, and weapons. You'll also want tools to mine and explore efficiently. Be ready to face the Warden or other dangers lurking in the dark!"
+				""
+				"Head deep into the underground, find the elusive Deep Dark biome, and discover the secrets of the Ancient City!"
+			]
+			id: "17027699AB4F3B02"
+			subtitle: "&6&lDelve into the Deep Dark Biome and Uncover the Hidden Secrets of the Ancient City!&r&r"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "callfromthedepth_:depth"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2440C787BF588A49"
+				structure: "minecraft:ancient_city"
+				title: "Find the Ancient City"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["490EDC4B6B7407F9"]
+			description: [
+				"&2&lHow to Enter the Abyss Dimension in Minecraft&r&r"
+				"&e&lSearch for Loran in the End and Overworld:&r&r To begin your journey to the Abyss, you must first find &aLoran&r, a rare energy-emitting material. Loran can be extracted from Loran Ore upon mining it, ore that can be found hidden deep in the end islands. Alternatively, search the Overworld for the elusive &aLoran Flower&r, a rare plant that, when harvested, yields Loran. Be cautious — these flowers are extremely hard to find!"
+				""
+				"&e&lCraft Unstable Obsidian and the Abyss Portal Activator:&r&r Combine &aLoran&r with &8Obsidian&r and &dCrying Obsidian&r to craft &6Unstable Obsidian&r. To activate the portal, craft an &6Abyss Portal Activator&r using Loran and sticks."
+				""
+				"&e&lBuild and Light the Abyss Portal:&r&r Construct a classic portal frame using &6Unstable Obsidian&r. Ignite the frame using the &6Abyss Portal Activator&r to create a gateway to the Abyss Dimension."
+				""
+				"&e&lPrepare for the Unknown:&r&r Before entering, ensure you are heavily equipped with powerful weapons, armor, and potions. The Abyss is a hostile and mysterious realm filled with enemies possessing &4high resistance&r and &cdangerous abilities&r unlike any you have encountered before."
+			]
+			id: "025294015F77A53B"
+			rewards: [{
+				id: "2F636F6C71A0B193"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			subtitle: "&6&lBrave the Abyss and Uncover the Secrets Hidden in Its Depths!&r&r"
+			tasks: [{
+				dimension: "theabyss:the_abyss"
+				icon: "theabyss:eye_of_abyss"
+				id: "642039C65B55C902"
+				title: "Visit The Abyss"
+				type: "dimension"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["025294015F77A53B"]
+			description: [
+				"&2&lHow to Defeat the Crystal Golem in Minecraft&r&r"
+				"&e&lPrepare for Battle:&r&r The &dCrystal Golem&r is a towering mini-boss in the Abyss dimension, standing over &63 blocks tall&r and boasting one of the highest health pools in the game, aside from major bosses. It’s the largest creature in the mod and poses a significant threat with its powerful strikes. Equip yourself with your best weapons and armor — preferably those with high durability and enchantments. Bring plenty of healing items, as this will be a tough fight!"
+				""
+				"&e&lLocate the Crystal Golem in the Slime Forest:&r&r The Crystal Golem can be found in the &aSlime Forest&r of the Abyss dimension. The golem is naturally hostile, so approach with caution and be prepared for a fight upon sight."
+				""
+				"&e&lWatch Out for Its Massive Reach and Strength:&r&r The Crystal Golem's size grants it an impressive reach and strength. Stay on the move to avoid its crushing blows and use the terrain to your advantage to dodge its attacks."
+				""
+				"&e&lUse Armor and Piercing Weapons:&r&r Given its size and resilience, piercing weapons like &6enchanted swords&r or &bhigh-damage bows&r will help you chip away at its health. Try to stay at a distance when possible, but be prepared to block and parry if it closes in."
+				""
+				"&e&lDefeat the Crystal Golem to Claim Its Reward:&r&r Upon defeating the Crystal Golem, it will drop the rare &dCrystal Hand&r, a valuable item that can be used for crafting or in other mysterious ways."
+			]
+			id: "736BD775D80D4608"
+			rewards: [{
+				id: "2C45F2891568D10F"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			subtitle: "&6&lConquer the Crystal Golem and Seize Its Hidden Power!&r&r"
+			tasks: [{
+				entity: "theabyss:crystal_golem"
+				icon: "outer_end:rose_crystal_bud"
+				id: "12B245D133B425BC"
+				title: "Kill the Crystal Golem"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["025294015F77A53B"]
+			description: [
+				"&2&lHow to Defeat the Roka in Minecraft&r&r"
+				"&e&lEnter the Blue Forest:&r&r The &9Roka&r is a powerful mini-boss that spawns exclusively in the &9Blue Forests&r of the Abyss dimension. With its imposing body, large arms, and bent legs, the Roka is a fierce opponent resembling a &6Piglin Brute&r. Ensure you are well-prepared before venturing into the Blue Forests."
+				""
+				"&e&lGear Up for the Fight:&r&r The Roka may not be the largest creature, but its strength is not to be underestimated. Equip yourself with powerful armor and weapons, especially those with high damage output. Bringing along &ahealing potions&r and &bregeneration items&r is crucial for surviving this encounter."
+				""
+				"&e&lStay Agile and Watch for Attacks:&r&r The Roka is known for its brute force and aggressive tactics. Stay on the move to avoid its powerful swings and rush attacks. Use ranged weapons to keep a safe distance, or engage up close with a strong melee strategy if you’re confident in your armor and dodging skills."
+				""
+				"&e&lClaim the Roka Horn Reward:&r&r Upon defeating the Roka, it will drop the &6Roka Horn&r, which has a 100% drop rate. This unique item can be used to craft various powerful rings and the &5Eye of Abyss&r, making it a valuable trophy for any adventurer in the Abyss."
+			]
+			id: "19FE4ABD4BB14FF2"
+			rewards: [{
+				id: "0FAC6A2792D1FDA0"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			subtitle: "&6&lConquer the Roka and Unlock New Mystical Crafting Possibilities!&r&r"
+			tasks: [{
+				entity: "theabyss:the_roka"
+				icon: "theabyss:roka_horn"
+				id: "439AC0D61AB3DAED"
+				title: "Kill the Roka"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["025294015F77A53B"]
+			description: [
+				"&k&2&lHow to Defeat the Agony Soul in Minecraft&r&r&k"
+				"&k&e&lSummon the Agony Soul:&r&r"
+				""
+				"&k&e&lPrepare for a Tough Battle:&r&r&k The Agony Soul is a formidable mini-boss with multiple defensive and offensive abilities. Equip yourself with the best armor and weapons available. It’s recommended to bring friends for this battle, as the Agony Soul's numerous mechanics and high damage output can overwhelm even the most skilled adventurers."
+				""
+				"&k&e&lKeep Your Distance and Avoid Its Attacks:&r&r"
+				""
+				"&k&7&lOvercome the Agony Soul and Enhance Your Arsenal with its Powerful Drops!&r&r"
+			]
+			id: "24EEDDE02F8E0205"
+			rewards: [{
+				id: "1C7263B4D4B077DA"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			subtitle: "&6&lThere is so much knowledge we still not yield&r&r"
+			tasks: [{
+				entity: "theabyss:elder"
+				icon: "apotheosis:boss_summoner"
+				id: "30A3B53D19290EB1"
+				title: "Kill the Elder"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["025294015F77A53B"]
+			description: [
+				"&2&lHow to Defeat the Nightblade in Minecraft&r&r"
+				"&e&lSummon Nightblade with the Ritual:&r&r To face the &5Nightblade&r, you first need to summon him using the &5Nightblade Summoning Structure&r. Light all the &7Brick Stone Pillars&r around the structure with &6Soul Hearts&r. After igniting each pillar, place the &5Eye of Abyss&r on the &7Night Altar&r. This will trigger a lightning strike and summon the Nightblade, accompanied by an eerie, changing melody."
+				""
+				"&e&lPrepare for the Battle:&r&r The Nightblade wields two &5Swords of Abyss&r, making him a formidable opponent. Equip yourself with high-end armor and powerful weapons to withstand his relentless attacks. Don’t forget to bring &ahealing potions&r and &bregeneration items&r to keep your health up throughout the fight."
+				""
+				"&e&lAdapt to the Changing Music and Abilities:&r&r During the battle, the music will change based on Nightblade's health and abilities. Pay attention to these musical cues to anticipate his next moves. The Nightblade’s attacks will become more intense as his health decreases, so stay alert and adjust your strategy accordingly."
+				""
+				"&e&lDefeat Nightblade and Reap the Rewards:&r&r Upon vanquishing the Nightblade, you’ll earn rare and powerful loot, including unique items and crafting materials. His defeat signifies a major achievement and opens up new possibilities for your adventures in the Abyss dimension."
+			]
+			id: "40521F6C495FCFA6"
+			rewards: [{
+				id: "2FD906D581E254C6"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "&6&lOvercome the Nightblade and Claim Your Place as a Legendary Hero of the Abyss!&r&r"
+			tasks: [{
+				entity: "theabyss:night_blade_boss_clone"
+				icon: {
+					Count: 1
+					id: "callfromthedepth_:soul_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "65D17552E8FE4564"
+				title: "Kill the Nightblade"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["025294015F77A53B"]
+			description: [
+				"&k&2&lHow to Defeat the Agony Soul in Minecraft&r&r&k"
+				"&k&e&lSummon the Agony Soul:&r&r"
+				""
+				"&k&e&lPrepare for a Tough Battle:&r&r&k The Agony Soul is a formidable mini-boss with multiple defensive and offensive abilities. Equip yourself with the best armor and weapons available. It’s recommended to bring friends for this battle, as the Agony Soul's numerous mechanics and high damage output can overwhelm even the most skilled adventurers."
+				""
+				"&k&e&lKeep Your Distance and Avoid Its Attacks:&r&r"
+				""
+				"&k&7&lOvercome the Agony Soul and Enhance Your Arsenal with its Powerful Drops!&r&r"
+			]
+			id: "30110E2918D26349"
+			rewards: [{
+				id: "4182F7D5623B3E5E"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			subtitle: "&6&lThere is so much knowledge we still not yield&r&r"
+			tasks: [{
+				entity: "theabyss:magician"
+				icon: "irons_spellbooks:blood_staff"
+				id: "3789DA034F9CC746"
+				title: "Kill the Magician"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["025294015F77A53B"]
+			description: [
+				"&k&2&lHow to Defeat the Agony Soul in Minecraft&r&r&k"
+				"&k&e&lSummon the Agony Soul:&r&r"
+				""
+				"&k&e&lPrepare for a Tough Battle:&r&r&k The Agony Soul is a formidable mini-boss with multiple defensive and offensive abilities. Equip yourself with the best armor and weapons available. It’s recommended to bring friends for this battle, as the Agony Soul's numerous mechanics and high damage output can overwhelm even the most skilled adventurers."
+				""
+				"&k&e&lKeep Your Distance and Avoid Its Attacks:&r&r"
+				""
+				"&k&7&lOvercome the Agony Soul and Enhance Your Arsenal with its Powerful Drops!&r&r"
+			]
+			id: "36EE050F26174702"
+			rewards: [{
+				id: "755BFE7579B3A120"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			subtitle: "&6&lThere is so much knowledge we still not yield&r&r"
+			tasks: [{
+				entity: "theabyss:abyssaur"
+				icon: "doggytalents:breeding_bone"
+				id: "526AE6A545D2F76F"
+				title: "Kill the Abyssaur"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["025294015F77A53B"]
+			description: [
+				"&2&lHow to Access the Frost World in Minecraft&r&r"
+				"&e&lLocate a Portal Room:&r&r To enter the &bFrost World&r, you first need to find a &bPortal Room&r. These rooms generate underground within the &bAbyss Mountain Biome&r. The Portal Rooms are small, enclosed structures made of dark stone, often hidden within the mountain’s depths. Be prepared for substantial mining, as these rooms are not typically exposed through cave systems or natural caverns."
+				""
+				"&e&lObtain the Key of Ice:&r&r Inside the Portal Room, you will find a &bFrost Portal&r, a loot chest, and several species of Frost World flora. The chest contains the &bKey of Ice&r, an essential item required for activating the portal. The Key of Ice is crafted from &bGlacerythe&r and &bDark Stone&r. Ensure you collect it before proceeding."
+				""
+				"&e&lPrepare the Portal Frame:&r&r Construct a vertical, rectangular frame of dark stone blocks, measuring &b4x5&r. This frame should be made of Dark Stone, replacing the traditional obsidian used for Nether portals."
+				""
+				"&e&lActivate the Portal:&r&r Use the &bKey of Ice&r on the Frost Portal to activate it. The process is similar to activating a Nether portal: right-click the portal with the Key of Ice to light it and enable travel. Unlike Nether portals, the Frost portal's linkage and size rules may vary, so be aware that it could follow different parameters than the standard Nether portals."
+				""
+				"&e&lEnter the Frost World:&r&r Step through the activated Frost Portal to access the &bFrost World&r. This dimension is known for its icy landscapes and challenging conditions, so come prepared with appropriate gear and supplies."
+			]
+			id: "6D21E24BA4F25D58"
+			rewards: [{
+				id: "37B662DE0042B8A8"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "&6&lEmbark on Your Icy Adventure and Discover the Wonders of the Frost World!&r&r"
+			tasks: [{
+				dimension: "theabyss:frost_world"
+				icon: "theabyss:frost_crystal_shard"
+				id: "01C9C100D345BF16"
+				title: "Visit the Forst World"
+				type: "dimension"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["17027699AB4F3B02"]
+			description: [
+				"&2&lHow to Defeat the Warden in Minecraft&r&r"
+				"&e&lPrepare for the Encounter:&r&r The &8Warden&r is one of the most formidable and intimidating creatures found in Minecraft. Before engaging, ensure you are well-equipped with powerful armor, high-damage weapons, and plenty of healing items. Its immense strength and durability make it a challenging opponent, so preparation is key."
+				""
+				"&e&lLocate the Warden's Lair:&r&r The Warden spawns in the Deep Dark Biome, usually in ancient cities. These areas are filled with Sculk blocks and other ominous features. Navigate carefully through these dark and dangerous environments to find the Warden, as it relies on darkness and silence to ambush its prey."
+				""
+				"&e&lUse Stealth and Strategy:&r&r The Warden is blind but has highly sensitive hearing. Avoid making loud noises and try to stay out of its line of detection. If you do alert the Warden, it will attack with devastating power. Use sneak tactics to avoid detection and approach it strategically."
+				""
+				"&e&lEngage with Caution:&r&r When fighting the Warden, it’s crucial to manage your distance. The Warden has powerful melee attacks and can also release shockwaves that deal significant damage. Use ranged weapons to keep a safe distance or strong melee weapons if you can close the gap safely."
+				""
+				"&e&lExploit Its Weaknesses:&r&r The Warden is resistant to most forms of attack but vulnerable to strong and well-timed strikes. Aim for its exposed areas and use enchantments or special weapons to maximize your damage output. Also, ensure you have plenty of potions and regenerative items to maintain your health throughout the fight."
+				""
+				"&e&lCollect the Warden’s Drops:&r&r Upon defeating the Warden, it will drop valuable items such as &6Sculk Shrieker&r and &7Sculk Catalyst&r. These can be used for crafting or other purposes, making the Warden a worthwhile adversary to defeat."
+			]
+			id: "500946D3FC49D2D2"
+			rewards: [{
+				id: "44B3F827F7F69AC6"
+				type: "xp_levels"
+				xp_levels: 11
+			}]
+			subtitle: "&6&lConquer the Warden and Claim Your Victory in the Deep Dark!&r&r"
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					Count: 1
+					id: "callfromthedepth_:depth_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5B6D0B021C7A4578"
+				title: "Kill the Warden"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+	]
+	subtitle: [
+		"- Dimension Guidelines"
+		"- Boss Finding Guidelines"
+	]
+	title: "Dimensions"
+}

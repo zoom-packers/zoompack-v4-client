@@ -1,5 +1,6 @@
 {
 	chapter_groups: [
+		{ id: "095B5FA2C9ED2F6A", title: "Zoompack Trivia" }
 		{ id: "13CD0C62E96AC261", title: "Road to enlightenment" }
 		{ id: "653CB9213F69DF0A", title: "Dimensions" }
 		{ id: "11E2BD453633E57D", title: "Let's do mods" }
