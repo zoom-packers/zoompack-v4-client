@@ -1,9 +1,19 @@
 import json
 config_path = 'config\custom_item_attributes.json5'
+BANNED_MODS = ["betterend"]
+# These are mods that were removed so items in this mod shall be skipped at running
+
 base_config = {
   "items": [
   ]
 }
+
+def item_is_not_banned(item_name):
+    if ':' not in item_name:
+        return True
+    
+    mod_id = item_name.split(':')[0]
+    return mod_id not in BANNED_MODS
 
 def remove_duplicate_modifiers():
     used_item_ids = []
@@ -14,7 +24,7 @@ def remove_duplicate_modifiers():
 
     for item in base_config.get('items'):
         item_name = item.get('item')
-        if item_name not in used_item_ids:
+        if item_name not in used_item_ids and item_is_not_banned(item_name):
             used_item_ids.append(item_name)
             unique_config.get('items', []).append(item)
     
