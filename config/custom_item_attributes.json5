@@ -9795,7 +9795,7 @@
                 {
                     "attribute": "minecraft:generic.armor",
                     "operation": "ADDITION",
-                    "value": 2.0250000000000004
+                    "value": 2.0625
                 },
                 {
                     "attribute": "minecraft:generic.movement_speed",
@@ -9816,7 +9816,7 @@
                 {
                     "attribute": "minecraft:generic.armor",
                     "operation": "ADDITION",
-                    "value": 2.7
+                    "value": 2.75
                 },
                 {
                     "attribute": "minecraft:generic.movement_speed",
@@ -9837,7 +9837,7 @@
                 {
                     "attribute": "minecraft:generic.armor",
                     "operation": "ADDITION",
-                    "value": 3.375
+                    "value": 3.4375
                 },
                 {
                     "attribute": "minecraft:generic.movement_speed",
@@ -10551,7 +10551,7 @@
                 {
                     "attribute": "minecraft:generic.armor",
                     "operation": "ADDITION",
-                    "value": 3
+                    "value": 3.375
                 },
                 {
                     "attribute": "minecraft:generic.movement_speed",
@@ -10572,7 +10572,7 @@
                 {
                     "attribute": "minecraft:generic.armor",
                     "operation": "ADDITION",
-                    "value": 4
+                    "value": 4.5
                 },
                 {
                     "attribute": "minecraft:generic.movement_speed",
@@ -10593,7 +10593,7 @@
                 {
                     "attribute": "minecraft:generic.armor",
                     "operation": "ADDITION",
-                    "value": 5
+                    "value": 5.625
                 },
                 {
                     "attribute": "minecraft:generic.movement_speed",
@@ -16456,7 +16456,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -16482,7 +16482,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -16508,7 +16508,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -16534,7 +16534,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -16560,7 +16560,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -16586,7 +16586,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -16612,7 +16612,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -16638,7 +16638,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -16664,7 +16664,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -16690,7 +16690,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -16716,7 +16716,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -16742,7 +16742,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -16768,7 +16768,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -16794,7 +16794,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -16820,7 +16820,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -16846,7 +16846,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -16872,7 +16872,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -16898,7 +16898,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -16924,7 +16924,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -16950,7 +16950,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -16976,7 +16976,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -17002,7 +17002,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -17028,7 +17028,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -17054,7 +17054,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -17080,7 +17080,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -18762,7 +18762,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -18788,7 +18788,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -18814,7 +18814,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -18840,7 +18840,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -19371,7 +19371,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -19402,7 +19402,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -19433,7 +19433,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -19464,7 +19464,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -22539,6 +22539,3576 @@
                 }
             ],
             "overrides_off_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:flint_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 4
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:flint_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 4.333333333333333
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:iron_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 7
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:iron_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 7.2
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:gold_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 7.5
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:gold_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 7.8
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:diamond_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 8
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:diamond_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 8.4
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:netherite_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 31
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:netherite_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 36
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:pyrope_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 8
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:pyrope_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 8.4
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:aquite_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 8.5
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:aquite_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 9
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:diopside_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 8.7
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:diopside_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 9.24
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:charoite_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 9
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:charoite_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 9.6
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:horizonite_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 10.5
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:horizonite_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 11.399999999999999
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:zanite_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 11
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:zanite_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 12
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:enchanted_gravitite_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 12
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:enchanted_gravitite_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 13.2
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:cincinnasite_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 17
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:cincinnasite_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 19.2
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:cincinnasite_diamond_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 18
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:cincinnasite_diamond_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 20.4
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:nether_ruby_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 21
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:nether_ruby_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 24
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:flaming_ruby_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 25
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:flaming_ruby_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 28.8
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:cloggrum_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 61
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:cloggrum_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 72
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:froststeel_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 71
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:froststeel_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 84
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:utherium_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 81
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:utherium_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 96
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:forgotten_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 91
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:forgotten_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 108
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:jade_dagger",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 40
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0.5
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:jade_shortsword",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 64
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0.2
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:jade_heavysword",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 96
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.2
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:jade_cutlass",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 88
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.1
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:jade_mace",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 92
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.15
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:jade_heavymace",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 104
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.3
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:jade_warhammer",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 120
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.4
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:jade_spear",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 72
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.15
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:jade_halberd",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 88
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.3
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:jade_buckler",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 60
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:jade_heater",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 80
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.1
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:jade_tower",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 100
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.2
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:jade_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 86
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:jade_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 102
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:crystalline_dagger",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 50
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0.5
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:crystalline_shortsword",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 80
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0.2
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:crystalline_heavysword",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 120
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.2
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:crystalline_cutlass",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 110.00000000000001
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.1
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:crystalline_mace",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 114.99999999999999
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.15
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:crystalline_heavymace",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 130
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.3
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:crystalline_warhammer",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 150
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.4
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:crystalline_spear",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 90
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.15
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:crystalline_halberd",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 110.00000000000001
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.3
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:crystalline_buckler",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 75
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:crystalline_heater",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 100
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.1
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:crystalline_tower",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 125
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.2
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:crystalline_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 106
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:crystalline_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 126
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:dragon_dagger",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 63.5
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0.5
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:dragon_shortsword",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 101.60000000000001
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0.2
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:dragon_heavysword",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 152.4
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.2
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:dragon_cutlass",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 139.70000000000002
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.1
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:dragon_mace",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 146.04999999999998
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.15
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:dragon_heavymace",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 165.1
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.3
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:dragon_warhammer",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 190.5
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.4
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:dragon_spear",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 114.3
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.15
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:dragon_halberd",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 139.70000000000002
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.3
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:dragon_buckler",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 95.25
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:dragon_heater",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 127
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.1
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:dragon_tower",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 158.75
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.2
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:dragon_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 133
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:dragon_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 158.4
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:adamantite_dagger",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 78.5
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0.5
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:adamantite_shortsword",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 125.60000000000001
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0.2
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:adamantite_heavysword",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 188.4
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.2
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:adamantite_cutlass",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 172.70000000000002
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.1
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:adamantite_mace",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 180.54999999999998
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.15
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:adamantite_heavymace",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 204.1
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.3
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:adamantite_warhammer",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 235.5
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.4
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:adamantite_spear",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 141.3
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.15
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:adamantite_halberd",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 172.70000000000002
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.3
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:adamantite_buckler",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 117.75
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:adamantite_heater",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 157
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.1
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:adamantite_tower",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 196.25
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.2
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:adamantite_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 163
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:adamantite_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 194.4
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:enderite_dagger",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 93
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0.5
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:enderite_shortsword",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 148.8
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0.2
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:enderite_heavysword",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 223.2
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.2
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:enderite_cutlass",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 204.60000000000002
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.1
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:enderite_mace",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 213.89999999999998
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.15
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:enderite_heavymace",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 241.8
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.3
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:enderite_warhammer",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 279
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.4
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:enderite_spear",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 167.4
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.15
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:enderite_halberd",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 204.60000000000002
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.3
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:enderite_buckler",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 139.5
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:enderite_heater",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 186
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.1
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:enderite_tower",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 232.5
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.2
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:enderite_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 192
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:enderite_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 229.2
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:immemorial_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 206
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:immemorial_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 246
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:fixed_bone_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 245
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:fixed_bone_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 292.8
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:fusion_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 229
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:fusion_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 273.59999999999997
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:aberythe_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 238
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:aberythe_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 284.4
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:ignisithe_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 268
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:ignisithe_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 320.4
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:glacerythe_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 291
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:glacerythe_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 348
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:garnite_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 308
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:garnite_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 368.4
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:phantom_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 330
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:phantom_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 394.8
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:unorithe_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 361
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:unorithe_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 432
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:knight_dagger",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 136
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0.5
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:knight_shortsword",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 217.60000000000002
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0.2
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:knight_heavysword",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 326.4
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.2
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:knight_cutlass",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 299.20000000000005
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.1
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:knight_mace",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 312.79999999999995
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.15
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:knight_heavymace",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 353.6
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.3
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:knight_warhammer",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 408
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.4
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:knight_spear",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 244.8
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.15
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:knight_halberd",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 299.20000000000005
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.3
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:knight_buckler",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 204
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:knight_heater",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 272
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.1
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:knight_tower",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 340
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.2
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:knight_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 278
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:knight_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 332.4
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:incorythe_dagger",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 200
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0.5
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:incorythe_shortsword",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 320
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0.2
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:incorythe_heavysword",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 480
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.2
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:incorythe_cutlass",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 440.00000000000006
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.1
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:incorythe_mace",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 459.99999999999994
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.15
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:incorythe_heavymace",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 520
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.3
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:incorythe_warhammer",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 600
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.4
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:incorythe_spear",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 360
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.15
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:incorythe_halberd",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 440.00000000000006
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.3
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:incorythe_buckler",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 300
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:incorythe_heater",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 400
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.1
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:incorythe_tower",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 500
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.2
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:incorythe_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 406
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:incorythe_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 486
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:soul_dagger",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 110
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0.5
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:soul_shortsword",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 176
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0.2
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:soul_heavysword",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 264
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.2
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:soul_cutlass",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 242.00000000000003
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.1
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:soul_mace",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 252.99999999999997
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.15
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:soul_heavymace",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 286
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.3
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:soul_warhammer",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 330
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.4
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:soul_spear",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 198
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.15
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:soul_halberd",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "value": 242.00000000000003
+                },
+                {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.3
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:soul_buckler",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 165
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:soul_heater",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 220
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.1
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:soul_tower",
+            "overrides_off_hand": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 275
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.2
+                }
+            ],
+            "overrides_main_hand": [],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:soul_bow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 226
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:soul_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 270
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0
+                }
+            ],
             "overrides_head": [],
             "overrides_chest": [],
             "overrides_legs": [],
