@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/enderite_bow",
+    "textures": {
+        "layer0": "zoomers_armory:item/enderite_bow_drawing_1"
+    }
+}

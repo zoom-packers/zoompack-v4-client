@@ -256,55 +256,55 @@ event.shaped('1x zoomers_magic:augment_healer_5', [" B ","DEF"," H "], {"B":"und
 event.shaped('1x zoomers_magic:augment_tank_5', [" B ","DEF"," H "], {"B":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"minecraft:diamond_chestplate","F":"undergarden:froststeel_ingot","H":"undergarden:froststeel_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_pyromancer_6', [" B ","DEF"," H "], {"B":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:fire_rune","F":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate"});
+event.shaped('1x zoomers_magic:augment_pyromancer_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"irons_spellbooks:fire_rune","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x zoomers_magic:augment_cryomancer_6', [" B ","DEF"," H "], {"B":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:ice_rune","F":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate"});
+event.shaped('1x zoomers_magic:augment_cryomancer_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"irons_spellbooks:ice_rune","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x zoomers_magic:augment_electromancer_6', [" B ","DEF"," H "], {"B":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:lightning_rune","F":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate"});
+event.shaped('1x zoomers_magic:augment_electromancer_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"irons_spellbooks:lightning_rune","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x zoomers_magic:augment_archevoker_6', [" B ","DEF"," H "], {"B":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:evocation_rune","F":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate"});
+event.shaped('1x zoomers_magic:augment_archevoker_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"irons_spellbooks:evocation_rune","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x zoomers_magic:augment_cultist_6', [" B ","DEF"," H "], {"B":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:blood_rune","F":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate"});
+event.shaped('1x zoomers_magic:augment_cultist_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"irons_spellbooks:blood_rune","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x zoomers_magic:augment_shadowwalker_6', [" B ","DEF"," H "], {"B":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:ender_rune","F":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate"});
+event.shaped('1x zoomers_magic:augment_shadowwalker_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"irons_spellbooks:ender_rune","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x zoomers_magic:augment_priest_6', [" B ","DEF"," H "], {"B":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:holy_rune","F":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate"});
+event.shaped('1x zoomers_magic:augment_priest_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"irons_spellbooks:holy_rune","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x zoomers_magic:augment_plagued_6', [" B ","DEF"," H "], {"B":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:nature_rune","F":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate"});
+event.shaped('1x zoomers_magic:augment_plagued_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"irons_spellbooks:nature_rune","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x zoomers_magic:augment_cooldown_6', [" B ","DEF"," H "], {"B":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:cooldown_rune","F":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate"});
+event.shaped('1x zoomers_magic:augment_cooldown_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"irons_spellbooks:cooldown_rune","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x zoomers_magic:augment_barbarian_6', [" B ","DEF"," H "], {"B":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"minecraft:diamond_axe","F":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate"});
+event.shaped('1x zoomers_magic:augment_barbarian_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"minecraft:diamond_axe","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x zoomers_magic:augment_berserker_6', [" B ","DEF"," H "], {"B":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"minecraft:iron_chestplate","F":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate"});
+event.shaped('1x zoomers_magic:augment_berserker_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"minecraft:iron_chestplate","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x zoomers_magic:augment_crusader_6', [" B ","DEF"," H "], {"B":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"minecraft:diamond_sword","F":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate"});
+event.shaped('1x zoomers_magic:augment_crusader_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"minecraft:diamond_sword","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x zoomers_magic:augment_archer_6', [" B ","DEF"," H "], {"B":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"minecraft:bow","F":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate"});
+event.shaped('1x zoomers_magic:augment_archer_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"minecraft:bow","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x zoomers_magic:augment_treasure_hunter_6', [" B ","DEF"," H "], {"B":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"minecraft:golden_shovel","F":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate"});
+event.shaped('1x zoomers_magic:augment_treasure_hunter_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"minecraft:golden_shovel","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x zoomers_magic:augment_explorer_6', [" B ","DEF"," H "], {"B":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"minecraft:leather_boots","F":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate"});
+event.shaped('1x zoomers_magic:augment_explorer_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"minecraft:leather_boots","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x zoomers_magic:augment_healer_6', [" B ","DEF"," H "], {"B":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"minecraft:golden_apple","F":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate"});
+event.shaped('1x zoomers_magic:augment_healer_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"minecraft:golden_apple","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x zoomers_magic:augment_tank_6', [" B ","DEF"," H "], {"B":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"minecraft:diamond_chestplate","F":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate"});
+event.shaped('1x zoomers_magic:augment_tank_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"minecraft:diamond_chestplate","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
 
 
 event.shaped('1x zoomers_magic:augment_pyromancer_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:fire_rune","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});

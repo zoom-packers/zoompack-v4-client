@@ -1,6 +1,6 @@
 const fs = require("fs");
-const {item_irons_spellbooks, item_minecraft, item_blue_skies, item_aether, item_undergarden, item_betterend,
-    item_betternether, item_deeperdarker, item_theabyss
+const {item_irons_spellbooks, item_minecraft, item_blue_skies, item_aether, item_undergarden, item_callfromthedepth_, item_ender_dragon_loot_,
+    item_betternether, item_theabyss
 } = require("../../typedefs/item_typedefs");
 const {getHelmetName, getChestplateName, getLeggingsName, getBootsName, chestplates, helmets, leggings, boots,
     getItemJson, getArmorJson
@@ -273,9 +273,9 @@ function getTierItemBase(tier) {
         case 5:
             return item_undergarden.i_froststeel_ingot;
         case 6:
-            return item_betterend.i_thallasium_forged_plate;
+            return item_ender_dragon_loot_.i_dragon_scale;
         case 7:
-            return "callfromthedepth_:immemorialingot";
+            return item_callfromthedepth_.i_immemorialingot;
         case 8:
             return item_theabyss.i_fixed_bone;
     }

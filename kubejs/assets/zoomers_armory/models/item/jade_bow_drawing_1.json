@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/jade_bow",
+    "textures": {
+        "layer0": "zoomers_armory:item/jade_bow_drawing_1"
+    }
+}

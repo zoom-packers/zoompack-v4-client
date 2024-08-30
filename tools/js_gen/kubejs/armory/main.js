@@ -2,7 +2,19 @@ const fs = require("fs");
 const {operation, addItemToCia, createCiaOffhand, createCiaMainHand} = require("../../utils/cia_util");
 const {craftingRecipe, smithingRecipe} = require("../../utils/recipe_util");
 const {kubejsPath, rootPath, kubejsStartupScriptsPath, kubejsServerScriptsPath, kubejsAssetsPath} = require("../../utils/path_util");
-const {item_minecraft, item_blue_skies, item_aether, item_betternether, item_undergarden, item_betterend, item_theabyss} = require("../../typedefs/item_typedefs");
+const {item_minecraft, 
+    item_blue_skies, 
+    item_aether, 
+    item_betternether, 
+    item_undergarden, 
+    item_callfromthedepth_, 
+    item_call_of_yucutan, 
+    item_endlessbiomes,
+    item_ender_dragon_loot_,
+    item_enlightened_end,
+    item_enderitemod,
+    item_phantasm,
+    item_theabyss} = require("../../typedefs/item_typedefs");
 const {modifySingleItem} = require("../../utils/pmmo_util");
 const {WorkingTexture, combine} = require("../../utils/texture_util");
 
@@ -47,11 +59,19 @@ const materials = [
     {item: item_undergarden.i_froststeel_ingot, type: "crafting", name: "froststeel", base_damage: 65, durability: 1800, armor: 65, pmmoLevel: 63, materialColor: "#3786aa"},
     {item: item_undergarden.i_utherium_crystal, type: "crafting", name: "utherium", base_damage: 75, durability: 1900, armor: 75, pmmoLevel: 65, materialColor: "#831414"},
     {item: item_undergarden.i_forgotten_ingot, type: "smithing", name: "forgotten", smithing: item_undergarden.i_forgotten_upgrade_smithing_template, "base": "utherium", base_damage: 85, durability: 2000, armor: 85, pmmoLevel: 67, materialColor: "#29ae63"},
-    {item: item_betterend.i_thallasium_forged_plate, type: "crafting", name: "thallasium", base_damage: 100, durability: 2200, armor: 100, pmmoLevel: 73, materialColor: "#38b1b1"},
-    {item: item_betterend.i_terminite_ingot, type: "crafting", name: "terminite", base_damage: 127, durability: 2400, armor: 127, pmmoLevel: 75, materialColor: "#3bffff"},
-    {item: item_betterend.i_aeternium_forged_plate, type: "crafting", name: "aeternium", base_damage: 157, durability: 2600, armor: 157, pmmoLevel: 77, materialColor: "#636e6d"},
-    {item: item_betterend.i_aurora_crystal, type: "crafting", name: "aurora", base_damage: 186, durability: 2800, armor: 186, pmmoLevel: 79, materialColor: "#df3ef9"},
-    {item: "callfromthedepth_:immemorialingot", type: "crafting", name: "immemorial", base_damage: 200, durability: 2800, armor: 200, pmmoLevel: 84, materialColor: "#629592"},
+    {item: item_call_of_yucutan.i_jade, type: "crafting", name: "jade", base_damage: 80, durability: 2000, armor: 80, pmmoLevel: 69, materialColor: "#6bfbbe"},
+    // darker green pls
+
+
+    // purple tint slightly
+    {item: item_phantasm.i_crystal_block, type: "crafting", name: "crystalline", base_damage: 100, durability: 2200, armor: 100, pmmoLevel: 73, materialColor: "#f3e0ef"},
+    // negro
+    {item: item_ender_dragon_loot_.i_dragon_scale, type: "smithing", name: "dragon", base_damage: 127, durability: 2400, armor: 127, pmmoLevel: 75, materialColor: "#ca01f6"},
+    {item: item_enlightened_end.i_adamantite_ingot, type: "smithing", name: "adamantite", base_damage: 157, durability: 2600, armor: 157, pmmoLevel: 77, materialColor: "#4a7dfd"},
+    {item: item_enderitemod.i_enderite_ingot, type: "smithing", name: "enderite", base_damage: 186, durability: 2800, armor: 186, pmmoLevel: 79, materialColor: "#1b564d"},
+    // disable the ones in the mod
+
+    {item: item_callfromthedepth_.i_immemorialingot, type: "crafting", name: "immemorial", base_damage: 200, durability: 2800, armor: 200, pmmoLevel: 84, materialColor: "#629592"},
     {item: item_theabyss.i_fixed_bone, type: "crafting", name: "fixed_bone", base_damage: 239, durability: 3200, armor: 239, pmmoLevel: 90, materialColor: "#c6c6c6"},
     {item: item_theabyss.i_fusion_ingot, type: "crafting", name: "fusion", base_damage: 223, durability: 3400, armor: 223, pmmoLevel: 91, materialColor: "#39ebc7"},
     {item: item_theabyss.i_aberythe_gem, type: "crafting", name: "aberythe", base_damage: 232, durability: 3600, armor: 232, pmmoLevel: 92, materialColor: "#451e63"},

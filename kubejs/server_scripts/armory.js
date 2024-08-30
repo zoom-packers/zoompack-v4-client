@@ -61,16 +61,19 @@ event.shaped('1x zoomers_armory:utherium_dagger', ["ABC","DEF","GHI"], {"A":"","
 event.smithing('1x zoomers_armory:forgotten_dagger', 'zoomers_armory:utherium_dagger', 'undergarden:forgotten_ingot');
 
 
-event.shaped('1x zoomers_armory:thallasium_dagger', ["ABC","DEF","GHI"], {"A":"","B":"","C":"","D":"","E":"betterend:thallasium_forged_plate","F":"","G":"#forge:rods/wooden","H":"","I":""});
+event.shaped('1x zoomers_armory:jade_dagger', ["ABC","DEF","GHI"], {"A":"","B":"","C":"","D":"","E":"call_of_yucutan:jade","F":"","G":"#forge:rods/wooden","H":"","I":""});
 
 
-event.shaped('1x zoomers_armory:terminite_dagger', ["ABC","DEF","GHI"], {"A":"","B":"","C":"","D":"","E":"betterend:terminite_ingot","F":"","G":"#forge:rods/wooden","H":"","I":""});
+event.shaped('1x zoomers_armory:crystalline_dagger', ["ABC","DEF","GHI"], {"A":"","B":"","C":"","D":"","E":"phantasm:crystal_block","F":"","G":"#forge:rods/wooden","H":"","I":""});
 
 
-event.shaped('1x zoomers_armory:aeternium_dagger', ["ABC","DEF","GHI"], {"A":"","B":"","C":"","D":"","E":"betterend:aeternium_forged_plate","F":"","G":"#forge:rods/wooden","H":"","I":""});
+event.smithing('1x zoomers_armory:dragon_dagger', 'zoomers_armory:undefined_dagger', 'ender_dragon_loot_:dragon_scale');
 
 
-event.shaped('1x zoomers_armory:aurora_dagger', ["ABC","DEF","GHI"], {"A":"","B":"","C":"","D":"","E":"betterend:aurora_crystal","F":"","G":"#forge:rods/wooden","H":"","I":""});
+event.smithing('1x zoomers_armory:adamantite_dagger', 'zoomers_armory:undefined_dagger', 'enlightened_end:adamantite_ingot');
+
+
+event.smithing('1x zoomers_armory:enderite_dagger', 'zoomers_armory:undefined_dagger', 'enderitemod:enderite_ingot');
 
 
 event.shaped('1x zoomers_armory:immemorial_dagger', ["ABC","DEF","GHI"], {"A":"","B":"","C":"","D":"","E":"callfromthedepth_:immemorialingot","F":"","G":"#forge:rods/wooden","H":"","I":""});
@@ -160,16 +163,19 @@ event.shaped('1x zoomers_armory:utherium_shortsword', ["ABC","DEF","GHI"], {"A":
 event.smithing('1x zoomers_armory:forgotten_shortsword', 'zoomers_armory:utherium_shortsword', 'undergarden:forgotten_ingot');
 
 
-event.shaped('1x zoomers_armory:thallasium_shortsword', ["ABC","DEF","GHI"], {"A":"","B":"","C":"","D":"","E":"betterend:thallasium_forged_plate","F":"","G":"","H":"#forge:rods/wooden","I":""});
+event.shaped('1x zoomers_armory:jade_shortsword', ["ABC","DEF","GHI"], {"A":"","B":"","C":"","D":"","E":"call_of_yucutan:jade","F":"","G":"","H":"#forge:rods/wooden","I":""});
 
 
-event.shaped('1x zoomers_armory:terminite_shortsword', ["ABC","DEF","GHI"], {"A":"","B":"","C":"","D":"","E":"betterend:terminite_ingot","F":"","G":"","H":"#forge:rods/wooden","I":""});
+event.shaped('1x zoomers_armory:crystalline_shortsword', ["ABC","DEF","GHI"], {"A":"","B":"","C":"","D":"","E":"phantasm:crystal_block","F":"","G":"","H":"#forge:rods/wooden","I":""});
 
 
-event.shaped('1x zoomers_armory:aeternium_shortsword', ["ABC","DEF","GHI"], {"A":"","B":"","C":"","D":"","E":"betterend:aeternium_forged_plate","F":"","G":"","H":"#forge:rods/wooden","I":""});
+event.smithing('1x zoomers_armory:dragon_shortsword', 'zoomers_armory:undefined_shortsword', 'ender_dragon_loot_:dragon_scale');
 
 
-event.shaped('1x zoomers_armory:aurora_shortsword', ["ABC","DEF","GHI"], {"A":"","B":"","C":"","D":"","E":"betterend:aurora_crystal","F":"","G":"","H":"#forge:rods/wooden","I":""});
+event.smithing('1x zoomers_armory:adamantite_shortsword', 'zoomers_armory:undefined_shortsword', 'enlightened_end:adamantite_ingot');
+
+
+event.smithing('1x zoomers_armory:enderite_shortsword', 'zoomers_armory:undefined_shortsword', 'enderitemod:enderite_ingot');
 
 
 event.shaped('1x zoomers_armory:immemorial_shortsword', ["ABC","DEF","GHI"], {"A":"","B":"","C":"","D":"","E":"callfromthedepth_:immemorialingot","F":"","G":"","H":"#forge:rods/wooden","I":""});
@@ -259,16 +265,19 @@ event.shaped('1x zoomers_armory:utherium_heavysword', ["ABC","DEF","GHI"], {"A":
 event.smithing('1x zoomers_armory:forgotten_heavysword', 'zoomers_armory:utherium_heavysword', 'undergarden:forgotten_ingot');
 
 
-event.shaped('1x zoomers_armory:thallasium_heavysword', ["ABC","DEF","GHI"], {"A":"","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"","E":"betterend:thallasium_forged_plate","F":"","G":"#forge:rods/wooden","H":"","I":""});
+event.shaped('1x zoomers_armory:jade_heavysword', ["ABC","DEF","GHI"], {"A":"","B":"call_of_yucutan:jade","C":"call_of_yucutan:jade","D":"","E":"call_of_yucutan:jade","F":"","G":"#forge:rods/wooden","H":"","I":""});
 
 
-event.shaped('1x zoomers_armory:terminite_heavysword', ["ABC","DEF","GHI"], {"A":"","B":"betterend:terminite_ingot","C":"betterend:terminite_ingot","D":"","E":"betterend:terminite_ingot","F":"","G":"#forge:rods/wooden","H":"","I":""});
+event.shaped('1x zoomers_armory:crystalline_heavysword', ["ABC","DEF","GHI"], {"A":"","B":"phantasm:crystal_block","C":"phantasm:crystal_block","D":"","E":"phantasm:crystal_block","F":"","G":"#forge:rods/wooden","H":"","I":""});
 
 
-event.shaped('1x zoomers_armory:aeternium_heavysword', ["ABC","DEF","GHI"], {"A":"","B":"betterend:aeternium_forged_plate","C":"betterend:aeternium_forged_plate","D":"","E":"betterend:aeternium_forged_plate","F":"","G":"#forge:rods/wooden","H":"","I":""});
+event.smithing('1x zoomers_armory:dragon_heavysword', 'zoomers_armory:undefined_heavysword', 'ender_dragon_loot_:dragon_scale');
 
 
-event.shaped('1x zoomers_armory:aurora_heavysword', ["ABC","DEF","GHI"], {"A":"","B":"betterend:aurora_crystal","C":"betterend:aurora_crystal","D":"","E":"betterend:aurora_crystal","F":"","G":"#forge:rods/wooden","H":"","I":""});
+event.smithing('1x zoomers_armory:adamantite_heavysword', 'zoomers_armory:undefined_heavysword', 'enlightened_end:adamantite_ingot');
+
+
+event.smithing('1x zoomers_armory:enderite_heavysword', 'zoomers_armory:undefined_heavysword', 'enderitemod:enderite_ingot');
 
 
 event.shaped('1x zoomers_armory:immemorial_heavysword', ["ABC","DEF","GHI"], {"A":"","B":"callfromthedepth_:immemorialingot","C":"callfromthedepth_:immemorialingot","D":"","E":"callfromthedepth_:immemorialingot","F":"","G":"#forge:rods/wooden","H":"","I":""});
@@ -358,16 +367,19 @@ event.shaped('1x zoomers_armory:utherium_cutlass', ["ABC","DEF","GHI"], {"A":"",
 event.smithing('1x zoomers_armory:forgotten_cutlass', 'zoomers_armory:utherium_cutlass', 'undergarden:forgotten_ingot');
 
 
-event.shaped('1x zoomers_armory:thallasium_cutlass', ["ABC","DEF","GHI"], {"A":"","B":"betterend:thallasium_forged_plate","C":"","D":"betterend:thallasium_forged_plate","E":"","F":"","G":"#forge:rods/wooden","H":"","I":""});
+event.shaped('1x zoomers_armory:jade_cutlass', ["ABC","DEF","GHI"], {"A":"","B":"call_of_yucutan:jade","C":"","D":"call_of_yucutan:jade","E":"","F":"","G":"#forge:rods/wooden","H":"","I":""});
 
 
-event.shaped('1x zoomers_armory:terminite_cutlass', ["ABC","DEF","GHI"], {"A":"","B":"betterend:terminite_ingot","C":"","D":"betterend:terminite_ingot","E":"","F":"","G":"#forge:rods/wooden","H":"","I":""});
+event.shaped('1x zoomers_armory:crystalline_cutlass', ["ABC","DEF","GHI"], {"A":"","B":"phantasm:crystal_block","C":"","D":"phantasm:crystal_block","E":"","F":"","G":"#forge:rods/wooden","H":"","I":""});
 
 
-event.shaped('1x zoomers_armory:aeternium_cutlass', ["ABC","DEF","GHI"], {"A":"","B":"betterend:aeternium_forged_plate","C":"","D":"betterend:aeternium_forged_plate","E":"","F":"","G":"#forge:rods/wooden","H":"","I":""});
+event.smithing('1x zoomers_armory:dragon_cutlass', 'zoomers_armory:undefined_cutlass', 'ender_dragon_loot_:dragon_scale');
 
 
-event.shaped('1x zoomers_armory:aurora_cutlass', ["ABC","DEF","GHI"], {"A":"","B":"betterend:aurora_crystal","C":"","D":"betterend:aurora_crystal","E":"","F":"","G":"#forge:rods/wooden","H":"","I":""});
+event.smithing('1x zoomers_armory:adamantite_cutlass', 'zoomers_armory:undefined_cutlass', 'enlightened_end:adamantite_ingot');
+
+
+event.smithing('1x zoomers_armory:enderite_cutlass', 'zoomers_armory:undefined_cutlass', 'enderitemod:enderite_ingot');
 
 
 event.shaped('1x zoomers_armory:immemorial_cutlass', ["ABC","DEF","GHI"], {"A":"","B":"callfromthedepth_:immemorialingot","C":"","D":"callfromthedepth_:immemorialingot","E":"","F":"","G":"#forge:rods/wooden","H":"","I":""});
@@ -457,16 +469,19 @@ event.shaped('1x zoomers_armory:utherium_mace', ["ABC","DEF","GHI"], {"A":"","B"
 event.smithing('1x zoomers_armory:forgotten_mace', 'zoomers_armory:utherium_mace', 'undergarden:forgotten_ingot');
 
 
-event.shaped('1x zoomers_armory:thallasium_mace', ["ABC","DEF","GHI"], {"A":"","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"","E":"#forge:rods/wooden","F":"betterend:thallasium_forged_plate","G":"#forge:rods/wooden","H":"","I":""});
+event.shaped('1x zoomers_armory:jade_mace', ["ABC","DEF","GHI"], {"A":"","B":"call_of_yucutan:jade","C":"call_of_yucutan:jade","D":"","E":"#forge:rods/wooden","F":"call_of_yucutan:jade","G":"#forge:rods/wooden","H":"","I":""});
 
 
-event.shaped('1x zoomers_armory:terminite_mace', ["ABC","DEF","GHI"], {"A":"","B":"betterend:terminite_ingot","C":"betterend:terminite_ingot","D":"","E":"#forge:rods/wooden","F":"betterend:terminite_ingot","G":"#forge:rods/wooden","H":"","I":""});
+event.shaped('1x zoomers_armory:crystalline_mace', ["ABC","DEF","GHI"], {"A":"","B":"phantasm:crystal_block","C":"phantasm:crystal_block","D":"","E":"#forge:rods/wooden","F":"phantasm:crystal_block","G":"#forge:rods/wooden","H":"","I":""});
 
 
-event.shaped('1x zoomers_armory:aeternium_mace', ["ABC","DEF","GHI"], {"A":"","B":"betterend:aeternium_forged_plate","C":"betterend:aeternium_forged_plate","D":"","E":"#forge:rods/wooden","F":"betterend:aeternium_forged_plate","G":"#forge:rods/wooden","H":"","I":""});
+event.smithing('1x zoomers_armory:dragon_mace', 'zoomers_armory:undefined_mace', 'ender_dragon_loot_:dragon_scale');
 
 
-event.shaped('1x zoomers_armory:aurora_mace', ["ABC","DEF","GHI"], {"A":"","B":"betterend:aurora_crystal","C":"betterend:aurora_crystal","D":"","E":"#forge:rods/wooden","F":"betterend:aurora_crystal","G":"#forge:rods/wooden","H":"","I":""});
+event.smithing('1x zoomers_armory:adamantite_mace', 'zoomers_armory:undefined_mace', 'enlightened_end:adamantite_ingot');
+
+
+event.smithing('1x zoomers_armory:enderite_mace', 'zoomers_armory:undefined_mace', 'enderitemod:enderite_ingot');
 
 
 event.shaped('1x zoomers_armory:immemorial_mace', ["ABC","DEF","GHI"], {"A":"","B":"callfromthedepth_:immemorialingot","C":"callfromthedepth_:immemorialingot","D":"","E":"#forge:rods/wooden","F":"callfromthedepth_:immemorialingot","G":"#forge:rods/wooden","H":"","I":""});
@@ -556,16 +571,19 @@ event.shaped('1x zoomers_armory:utherium_heavymace', ["ABC","DEF","GHI"], {"A":"
 event.smithing('1x zoomers_armory:forgotten_heavymace', 'zoomers_armory:utherium_heavymace', 'undergarden:forgotten_ingot');
 
 
-event.shaped('1x zoomers_armory:thallasium_heavymace', ["ABC","DEF","GHI"], {"A":"","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"","H":"#forge:rods/wooden","I":""});
+event.shaped('1x zoomers_armory:jade_heavymace', ["ABC","DEF","GHI"], {"A":"","B":"call_of_yucutan:jade","C":"call_of_yucutan:jade","D":"","E":"call_of_yucutan:jade","F":"call_of_yucutan:jade","G":"","H":"#forge:rods/wooden","I":""});
 
 
-event.shaped('1x zoomers_armory:terminite_heavymace', ["ABC","DEF","GHI"], {"A":"","B":"betterend:terminite_ingot","C":"betterend:terminite_ingot","D":"","E":"betterend:terminite_ingot","F":"betterend:terminite_ingot","G":"","H":"#forge:rods/wooden","I":""});
+event.shaped('1x zoomers_armory:crystalline_heavymace', ["ABC","DEF","GHI"], {"A":"","B":"phantasm:crystal_block","C":"phantasm:crystal_block","D":"","E":"phantasm:crystal_block","F":"phantasm:crystal_block","G":"","H":"#forge:rods/wooden","I":""});
 
 
-event.shaped('1x zoomers_armory:aeternium_heavymace', ["ABC","DEF","GHI"], {"A":"","B":"betterend:aeternium_forged_plate","C":"betterend:aeternium_forged_plate","D":"","E":"betterend:aeternium_forged_plate","F":"betterend:aeternium_forged_plate","G":"","H":"#forge:rods/wooden","I":""});
+event.smithing('1x zoomers_armory:dragon_heavymace', 'zoomers_armory:undefined_heavymace', 'ender_dragon_loot_:dragon_scale');
 
 
-event.shaped('1x zoomers_armory:aurora_heavymace', ["ABC","DEF","GHI"], {"A":"","B":"betterend:aurora_crystal","C":"betterend:aurora_crystal","D":"","E":"betterend:aurora_crystal","F":"betterend:aurora_crystal","G":"","H":"#forge:rods/wooden","I":""});
+event.smithing('1x zoomers_armory:adamantite_heavymace', 'zoomers_armory:undefined_heavymace', 'enlightened_end:adamantite_ingot');
+
+
+event.smithing('1x zoomers_armory:enderite_heavymace', 'zoomers_armory:undefined_heavymace', 'enderitemod:enderite_ingot');
 
 
 event.shaped('1x zoomers_armory:immemorial_heavymace', ["ABC","DEF","GHI"], {"A":"","B":"callfromthedepth_:immemorialingot","C":"callfromthedepth_:immemorialingot","D":"","E":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"","H":"#forge:rods/wooden","I":""});
@@ -655,16 +673,19 @@ event.shaped('1x zoomers_armory:utherium_warhammer', ["ABC","DEF","GHI"], {"A":"
 event.smithing('1x zoomers_armory:forgotten_warhammer', 'zoomers_armory:utherium_warhammer', 'undergarden:forgotten_ingot');
 
 
-event.shaped('1x zoomers_armory:thallasium_warhammer', ["ABC","DEF","GHI"], {"A":"betterend:thallasium_forged_plate","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"","E":"#forge:rods/wooden","F":"betterend:thallasium_forged_plate","G":"#forge:rods/wooden","H":"","I":""});
+event.shaped('1x zoomers_armory:jade_warhammer', ["ABC","DEF","GHI"], {"A":"call_of_yucutan:jade","B":"call_of_yucutan:jade","C":"call_of_yucutan:jade","D":"","E":"#forge:rods/wooden","F":"call_of_yucutan:jade","G":"#forge:rods/wooden","H":"","I":""});
 
 
-event.shaped('1x zoomers_armory:terminite_warhammer', ["ABC","DEF","GHI"], {"A":"betterend:terminite_ingot","B":"betterend:terminite_ingot","C":"betterend:terminite_ingot","D":"","E":"#forge:rods/wooden","F":"betterend:terminite_ingot","G":"#forge:rods/wooden","H":"","I":""});
+event.shaped('1x zoomers_armory:crystalline_warhammer', ["ABC","DEF","GHI"], {"A":"phantasm:crystal_block","B":"phantasm:crystal_block","C":"phantasm:crystal_block","D":"","E":"#forge:rods/wooden","F":"phantasm:crystal_block","G":"#forge:rods/wooden","H":"","I":""});
 
 
-event.shaped('1x zoomers_armory:aeternium_warhammer', ["ABC","DEF","GHI"], {"A":"betterend:aeternium_forged_plate","B":"betterend:aeternium_forged_plate","C":"betterend:aeternium_forged_plate","D":"","E":"#forge:rods/wooden","F":"betterend:aeternium_forged_plate","G":"#forge:rods/wooden","H":"","I":""});
+event.smithing('1x zoomers_armory:dragon_warhammer', 'zoomers_armory:undefined_warhammer', 'ender_dragon_loot_:dragon_scale');
 
 
-event.shaped('1x zoomers_armory:aurora_warhammer', ["ABC","DEF","GHI"], {"A":"betterend:aurora_crystal","B":"betterend:aurora_crystal","C":"betterend:aurora_crystal","D":"","E":"#forge:rods/wooden","F":"betterend:aurora_crystal","G":"#forge:rods/wooden","H":"","I":""});
+event.smithing('1x zoomers_armory:adamantite_warhammer', 'zoomers_armory:undefined_warhammer', 'enlightened_end:adamantite_ingot');
+
+
+event.smithing('1x zoomers_armory:enderite_warhammer', 'zoomers_armory:undefined_warhammer', 'enderitemod:enderite_ingot');
 
 
 event.shaped('1x zoomers_armory:immemorial_warhammer', ["ABC","DEF","GHI"], {"A":"callfromthedepth_:immemorialingot","B":"callfromthedepth_:immemorialingot","C":"callfromthedepth_:immemorialingot","D":"","E":"#forge:rods/wooden","F":"callfromthedepth_:immemorialingot","G":"#forge:rods/wooden","H":"","I":""});
@@ -754,16 +775,19 @@ event.shaped('1x zoomers_armory:utherium_spear', ["ABC","DEF","GHI"], {"A":"","B
 event.smithing('1x zoomers_armory:forgotten_spear', 'zoomers_armory:utherium_spear', 'undergarden:forgotten_ingot');
 
 
-event.shaped('1x zoomers_armory:thallasium_spear', ["ABC","DEF","GHI"], {"A":"","B":"","C":"betterend:thallasium_forged_plate","D":"","E":"#forge:rods/wooden","F":"","G":"#forge:rods/wooden","H":"","I":""});
+event.shaped('1x zoomers_armory:jade_spear', ["ABC","DEF","GHI"], {"A":"","B":"","C":"call_of_yucutan:jade","D":"","E":"#forge:rods/wooden","F":"","G":"#forge:rods/wooden","H":"","I":""});
 
 
-event.shaped('1x zoomers_armory:terminite_spear', ["ABC","DEF","GHI"], {"A":"","B":"","C":"betterend:terminite_ingot","D":"","E":"#forge:rods/wooden","F":"","G":"#forge:rods/wooden","H":"","I":""});
+event.shaped('1x zoomers_armory:crystalline_spear', ["ABC","DEF","GHI"], {"A":"","B":"","C":"phantasm:crystal_block","D":"","E":"#forge:rods/wooden","F":"","G":"#forge:rods/wooden","H":"","I":""});
 
 
-event.shaped('1x zoomers_armory:aeternium_spear', ["ABC","DEF","GHI"], {"A":"","B":"","C":"betterend:aeternium_forged_plate","D":"","E":"#forge:rods/wooden","F":"","G":"#forge:rods/wooden","H":"","I":""});
+event.smithing('1x zoomers_armory:dragon_spear', 'zoomers_armory:undefined_spear', 'ender_dragon_loot_:dragon_scale');
 
 
-event.shaped('1x zoomers_armory:aurora_spear', ["ABC","DEF","GHI"], {"A":"","B":"","C":"betterend:aurora_crystal","D":"","E":"#forge:rods/wooden","F":"","G":"#forge:rods/wooden","H":"","I":""});
+event.smithing('1x zoomers_armory:adamantite_spear', 'zoomers_armory:undefined_spear', 'enlightened_end:adamantite_ingot');
+
+
+event.smithing('1x zoomers_armory:enderite_spear', 'zoomers_armory:undefined_spear', 'enderitemod:enderite_ingot');
 
 
 event.shaped('1x zoomers_armory:immemorial_spear', ["ABC","DEF","GHI"], {"A":"","B":"","C":"callfromthedepth_:immemorialingot","D":"","E":"#forge:rods/wooden","F":"","G":"#forge:rods/wooden","H":"","I":""});
@@ -853,16 +877,19 @@ event.shaped('1x zoomers_armory:utherium_halberd', ["ABC","DEF","GHI"], {"A":"",
 event.smithing('1x zoomers_armory:forgotten_halberd', 'zoomers_armory:utherium_halberd', 'undergarden:forgotten_ingot');
 
 
-event.shaped('1x zoomers_armory:thallasium_halberd', ["ABC","DEF","GHI"], {"A":"","B":"","C":"betterend:thallasium_forged_plate","D":"","E":"#forge:rods/wooden","F":"betterend:thallasium_forged_plate","G":"#forge:rods/wooden","H":"","I":""});
+event.shaped('1x zoomers_armory:jade_halberd', ["ABC","DEF","GHI"], {"A":"","B":"","C":"call_of_yucutan:jade","D":"","E":"#forge:rods/wooden","F":"call_of_yucutan:jade","G":"#forge:rods/wooden","H":"","I":""});
 
 
-event.shaped('1x zoomers_armory:terminite_halberd', ["ABC","DEF","GHI"], {"A":"","B":"","C":"betterend:terminite_ingot","D":"","E":"#forge:rods/wooden","F":"betterend:terminite_ingot","G":"#forge:rods/wooden","H":"","I":""});
+event.shaped('1x zoomers_armory:crystalline_halberd', ["ABC","DEF","GHI"], {"A":"","B":"","C":"phantasm:crystal_block","D":"","E":"#forge:rods/wooden","F":"phantasm:crystal_block","G":"#forge:rods/wooden","H":"","I":""});
 
 
-event.shaped('1x zoomers_armory:aeternium_halberd', ["ABC","DEF","GHI"], {"A":"","B":"","C":"betterend:aeternium_forged_plate","D":"","E":"#forge:rods/wooden","F":"betterend:aeternium_forged_plate","G":"#forge:rods/wooden","H":"","I":""});
+event.smithing('1x zoomers_armory:dragon_halberd', 'zoomers_armory:undefined_halberd', 'ender_dragon_loot_:dragon_scale');
 
 
-event.shaped('1x zoomers_armory:aurora_halberd', ["ABC","DEF","GHI"], {"A":"","B":"","C":"betterend:aurora_crystal","D":"","E":"#forge:rods/wooden","F":"betterend:aurora_crystal","G":"#forge:rods/wooden","H":"","I":""});
+event.smithing('1x zoomers_armory:adamantite_halberd', 'zoomers_armory:undefined_halberd', 'enlightened_end:adamantite_ingot');
+
+
+event.smithing('1x zoomers_armory:enderite_halberd', 'zoomers_armory:undefined_halberd', 'enderitemod:enderite_ingot');
 
 
 event.shaped('1x zoomers_armory:immemorial_halberd', ["ABC","DEF","GHI"], {"A":"","B":"","C":"callfromthedepth_:immemorialingot","D":"","E":"#forge:rods/wooden","F":"callfromthedepth_:immemorialingot","G":"#forge:rods/wooden","H":"","I":""});
@@ -952,16 +979,19 @@ event.shaped('1x zoomers_armory:utherium_buckler', ["ABC","DEF","GHI"], {"A":"",
 event.smithing('1x zoomers_armory:forgotten_buckler', 'zoomers_armory:utherium_buckler', 'undergarden:forgotten_ingot');
 
 
-event.shaped('1x zoomers_armory:thallasium_buckler', ["ABC","DEF","GHI"], {"A":"","B":"#minecraft:planks","C":"","D":"#minecraft:planks","E":"betterend:thallasium_forged_plate","F":"#minecraft:planks","G":"","H":"#minecraft:planks","I":""});
+event.shaped('1x zoomers_armory:jade_buckler', ["ABC","DEF","GHI"], {"A":"","B":"#minecraft:planks","C":"","D":"#minecraft:planks","E":"call_of_yucutan:jade","F":"#minecraft:planks","G":"","H":"#minecraft:planks","I":""});
 
 
-event.shaped('1x zoomers_armory:terminite_buckler', ["ABC","DEF","GHI"], {"A":"","B":"#minecraft:planks","C":"","D":"#minecraft:planks","E":"betterend:terminite_ingot","F":"#minecraft:planks","G":"","H":"#minecraft:planks","I":""});
+event.shaped('1x zoomers_armory:crystalline_buckler', ["ABC","DEF","GHI"], {"A":"","B":"#minecraft:planks","C":"","D":"#minecraft:planks","E":"phantasm:crystal_block","F":"#minecraft:planks","G":"","H":"#minecraft:planks","I":""});
 
 
-event.shaped('1x zoomers_armory:aeternium_buckler', ["ABC","DEF","GHI"], {"A":"","B":"#minecraft:planks","C":"","D":"#minecraft:planks","E":"betterend:aeternium_forged_plate","F":"#minecraft:planks","G":"","H":"#minecraft:planks","I":""});
+event.smithing('1x zoomers_armory:dragon_buckler', 'zoomers_armory:undefined_buckler', 'ender_dragon_loot_:dragon_scale');
 
 
-event.shaped('1x zoomers_armory:aurora_buckler', ["ABC","DEF","GHI"], {"A":"","B":"#minecraft:planks","C":"","D":"#minecraft:planks","E":"betterend:aurora_crystal","F":"#minecraft:planks","G":"","H":"#minecraft:planks","I":""});
+event.smithing('1x zoomers_armory:adamantite_buckler', 'zoomers_armory:undefined_buckler', 'enlightened_end:adamantite_ingot');
+
+
+event.smithing('1x zoomers_armory:enderite_buckler', 'zoomers_armory:undefined_buckler', 'enderitemod:enderite_ingot');
 
 
 event.shaped('1x zoomers_armory:immemorial_buckler', ["ABC","DEF","GHI"], {"A":"","B":"#minecraft:planks","C":"","D":"#minecraft:planks","E":"callfromthedepth_:immemorialingot","F":"#minecraft:planks","G":"","H":"#minecraft:planks","I":""});
@@ -1051,16 +1081,19 @@ event.shaped('1x zoomers_armory:utherium_heater', ["ABC","DEF","GHI"], {"A":"#mi
 event.smithing('1x zoomers_armory:forgotten_heater', 'zoomers_armory:utherium_heater', 'undergarden:forgotten_ingot');
 
 
-event.shaped('1x zoomers_armory:thallasium_heater', ["ABC","DEF","GHI"], {"A":"#minecraft:planks","B":"betterend:thallasium_forged_plate","C":"#minecraft:planks","D":"#minecraft:planks","E":"betterend:thallasium_forged_plate","F":"#minecraft:planks","G":"","H":"#minecraft:planks","I":""});
+event.shaped('1x zoomers_armory:jade_heater', ["ABC","DEF","GHI"], {"A":"#minecraft:planks","B":"call_of_yucutan:jade","C":"#minecraft:planks","D":"#minecraft:planks","E":"call_of_yucutan:jade","F":"#minecraft:planks","G":"","H":"#minecraft:planks","I":""});
 
 
-event.shaped('1x zoomers_armory:terminite_heater', ["ABC","DEF","GHI"], {"A":"#minecraft:planks","B":"betterend:terminite_ingot","C":"#minecraft:planks","D":"#minecraft:planks","E":"betterend:terminite_ingot","F":"#minecraft:planks","G":"","H":"#minecraft:planks","I":""});
+event.shaped('1x zoomers_armory:crystalline_heater', ["ABC","DEF","GHI"], {"A":"#minecraft:planks","B":"phantasm:crystal_block","C":"#minecraft:planks","D":"#minecraft:planks","E":"phantasm:crystal_block","F":"#minecraft:planks","G":"","H":"#minecraft:planks","I":""});
 
 
-event.shaped('1x zoomers_armory:aeternium_heater', ["ABC","DEF","GHI"], {"A":"#minecraft:planks","B":"betterend:aeternium_forged_plate","C":"#minecraft:planks","D":"#minecraft:planks","E":"betterend:aeternium_forged_plate","F":"#minecraft:planks","G":"","H":"#minecraft:planks","I":""});
+event.smithing('1x zoomers_armory:dragon_heater', 'zoomers_armory:undefined_heater', 'ender_dragon_loot_:dragon_scale');
 
 
-event.shaped('1x zoomers_armory:aurora_heater', ["ABC","DEF","GHI"], {"A":"#minecraft:planks","B":"betterend:aurora_crystal","C":"#minecraft:planks","D":"#minecraft:planks","E":"betterend:aurora_crystal","F":"#minecraft:planks","G":"","H":"#minecraft:planks","I":""});
+event.smithing('1x zoomers_armory:adamantite_heater', 'zoomers_armory:undefined_heater', 'enlightened_end:adamantite_ingot');
+
+
+event.smithing('1x zoomers_armory:enderite_heater', 'zoomers_armory:undefined_heater', 'enderitemod:enderite_ingot');
 
 
 event.shaped('1x zoomers_armory:immemorial_heater', ["ABC","DEF","GHI"], {"A":"#minecraft:planks","B":"callfromthedepth_:immemorialingot","C":"#minecraft:planks","D":"#minecraft:planks","E":"callfromthedepth_:immemorialingot","F":"#minecraft:planks","G":"","H":"#minecraft:planks","I":""});
@@ -1150,16 +1183,19 @@ event.shaped('1x zoomers_armory:utherium_tower', ["ABC","DEF","GHI"], {"A":"#min
 event.smithing('1x zoomers_armory:forgotten_tower', 'zoomers_armory:utherium_tower', 'undergarden:forgotten_ingot');
 
 
-event.shaped('1x zoomers_armory:thallasium_tower', ["ABC","DEF","GHI"], {"A":"#minecraft:planks","B":"betterend:thallasium_forged_plate","C":"#minecraft:planks","D":"#minecraft:planks","E":"betterend:thallasium_forged_plate","F":"#minecraft:planks","G":"#minecraft:planks","H":"betterend:thallasium_forged_plate","I":"#minecraft:planks"});
+event.shaped('1x zoomers_armory:jade_tower', ["ABC","DEF","GHI"], {"A":"#minecraft:planks","B":"call_of_yucutan:jade","C":"#minecraft:planks","D":"#minecraft:planks","E":"call_of_yucutan:jade","F":"#minecraft:planks","G":"#minecraft:planks","H":"call_of_yucutan:jade","I":"#minecraft:planks"});
 
 
-event.shaped('1x zoomers_armory:terminite_tower', ["ABC","DEF","GHI"], {"A":"#minecraft:planks","B":"betterend:terminite_ingot","C":"#minecraft:planks","D":"#minecraft:planks","E":"betterend:terminite_ingot","F":"#minecraft:planks","G":"#minecraft:planks","H":"betterend:terminite_ingot","I":"#minecraft:planks"});
+event.shaped('1x zoomers_armory:crystalline_tower', ["ABC","DEF","GHI"], {"A":"#minecraft:planks","B":"phantasm:crystal_block","C":"#minecraft:planks","D":"#minecraft:planks","E":"phantasm:crystal_block","F":"#minecraft:planks","G":"#minecraft:planks","H":"phantasm:crystal_block","I":"#minecraft:planks"});
 
 
-event.shaped('1x zoomers_armory:aeternium_tower', ["ABC","DEF","GHI"], {"A":"#minecraft:planks","B":"betterend:aeternium_forged_plate","C":"#minecraft:planks","D":"#minecraft:planks","E":"betterend:aeternium_forged_plate","F":"#minecraft:planks","G":"#minecraft:planks","H":"betterend:aeternium_forged_plate","I":"#minecraft:planks"});
+event.smithing('1x zoomers_armory:dragon_tower', 'zoomers_armory:undefined_tower', 'ender_dragon_loot_:dragon_scale');
 
 
-event.shaped('1x zoomers_armory:aurora_tower', ["ABC","DEF","GHI"], {"A":"#minecraft:planks","B":"betterend:aurora_crystal","C":"#minecraft:planks","D":"#minecraft:planks","E":"betterend:aurora_crystal","F":"#minecraft:planks","G":"#minecraft:planks","H":"betterend:aurora_crystal","I":"#minecraft:planks"});
+event.smithing('1x zoomers_armory:adamantite_tower', 'zoomers_armory:undefined_tower', 'enlightened_end:adamantite_ingot');
+
+
+event.smithing('1x zoomers_armory:enderite_tower', 'zoomers_armory:undefined_tower', 'enderitemod:enderite_ingot');
 
 
 event.shaped('1x zoomers_armory:immemorial_tower', ["ABC","DEF","GHI"], {"A":"#minecraft:planks","B":"callfromthedepth_:immemorialingot","C":"#minecraft:planks","D":"#minecraft:planks","E":"callfromthedepth_:immemorialingot","F":"#minecraft:planks","G":"#minecraft:planks","H":"callfromthedepth_:immemorialingot","I":"#minecraft:planks"});
@@ -1249,16 +1285,19 @@ event.shaped('1x zoomers_armory:utherium_bow', ["ABC","DEF","GHI"], {"A":"","B":
 event.smithing('1x zoomers_armory:forgotten_bow', 'zoomers_armory:utherium_bow', 'undergarden:forgotten_ingot');
 
 
-event.shaped('1x zoomers_armory:thallasium_bow', ["ABC","DEF","GHI"], {"A":"","B":"betterend:thallasium_forged_plate","C":"#c:string","D":"betterend:thallasium_forged_plate","E":"","F":"#c:string","G":"","H":"betterend:thallasium_forged_plate","I":"#c:string"});
+event.shaped('1x zoomers_armory:jade_bow', ["ABC","DEF","GHI"], {"A":"","B":"call_of_yucutan:jade","C":"#c:string","D":"call_of_yucutan:jade","E":"","F":"#c:string","G":"","H":"call_of_yucutan:jade","I":"#c:string"});
 
 
-event.shaped('1x zoomers_armory:terminite_bow', ["ABC","DEF","GHI"], {"A":"","B":"betterend:terminite_ingot","C":"#c:string","D":"betterend:terminite_ingot","E":"","F":"#c:string","G":"","H":"betterend:terminite_ingot","I":"#c:string"});
+event.shaped('1x zoomers_armory:crystalline_bow', ["ABC","DEF","GHI"], {"A":"","B":"phantasm:crystal_block","C":"#c:string","D":"phantasm:crystal_block","E":"","F":"#c:string","G":"","H":"phantasm:crystal_block","I":"#c:string"});
 
 
-event.shaped('1x zoomers_armory:aeternium_bow', ["ABC","DEF","GHI"], {"A":"","B":"betterend:aeternium_forged_plate","C":"#c:string","D":"betterend:aeternium_forged_plate","E":"","F":"#c:string","G":"","H":"betterend:aeternium_forged_plate","I":"#c:string"});
+event.smithing('1x zoomers_armory:dragon_bow', 'zoomers_armory:undefined_bow', 'ender_dragon_loot_:dragon_scale');
 
 
-event.shaped('1x zoomers_armory:aurora_bow', ["ABC","DEF","GHI"], {"A":"","B":"betterend:aurora_crystal","C":"#c:string","D":"betterend:aurora_crystal","E":"","F":"#c:string","G":"","H":"betterend:aurora_crystal","I":"#c:string"});
+event.smithing('1x zoomers_armory:adamantite_bow', 'zoomers_armory:undefined_bow', 'enlightened_end:adamantite_ingot');
+
+
+event.smithing('1x zoomers_armory:enderite_bow', 'zoomers_armory:undefined_bow', 'enderitemod:enderite_ingot');
 
 
 event.shaped('1x zoomers_armory:immemorial_bow', ["ABC","DEF","GHI"], {"A":"","B":"callfromthedepth_:immemorialingot","C":"#c:string","D":"callfromthedepth_:immemorialingot","E":"","F":"#c:string","G":"","H":"callfromthedepth_:immemorialingot","I":"#c:string"});
@@ -1348,16 +1387,19 @@ event.shaped('1x zoomers_armory:utherium_crossbow', ["ABC","DEF","GHI"], {"A":"u
 event.smithing('1x zoomers_armory:forgotten_crossbow', 'zoomers_armory:utherium_crossbow', 'undergarden:forgotten_ingot');
 
 
-event.shaped('1x zoomers_armory:thallasium_crossbow', ["ABC","DEF","GHI"], {"A":"betterend:thallasium_forged_plate","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"#c:string","E":"minecraft:tripwire_hook","F":"#c:string","G":"","H":"#forge:rods/wooden","I":""});
+event.shaped('1x zoomers_armory:jade_crossbow', ["ABC","DEF","GHI"], {"A":"call_of_yucutan:jade","B":"call_of_yucutan:jade","C":"call_of_yucutan:jade","D":"#c:string","E":"minecraft:tripwire_hook","F":"#c:string","G":"","H":"#forge:rods/wooden","I":""});
 
 
-event.shaped('1x zoomers_armory:terminite_crossbow', ["ABC","DEF","GHI"], {"A":"betterend:terminite_ingot","B":"betterend:terminite_ingot","C":"betterend:terminite_ingot","D":"#c:string","E":"minecraft:tripwire_hook","F":"#c:string","G":"","H":"#forge:rods/wooden","I":""});
+event.shaped('1x zoomers_armory:crystalline_crossbow', ["ABC","DEF","GHI"], {"A":"phantasm:crystal_block","B":"phantasm:crystal_block","C":"phantasm:crystal_block","D":"#c:string","E":"minecraft:tripwire_hook","F":"#c:string","G":"","H":"#forge:rods/wooden","I":""});
 
 
-event.shaped('1x zoomers_armory:aeternium_crossbow', ["ABC","DEF","GHI"], {"A":"betterend:aeternium_forged_plate","B":"betterend:aeternium_forged_plate","C":"betterend:aeternium_forged_plate","D":"#c:string","E":"minecraft:tripwire_hook","F":"#c:string","G":"","H":"#forge:rods/wooden","I":""});
+event.smithing('1x zoomers_armory:dragon_crossbow', 'zoomers_armory:undefined_crossbow', 'ender_dragon_loot_:dragon_scale');
 
 
-event.shaped('1x zoomers_armory:aurora_crossbow', ["ABC","DEF","GHI"], {"A":"betterend:aurora_crystal","B":"betterend:aurora_crystal","C":"betterend:aurora_crystal","D":"#c:string","E":"minecraft:tripwire_hook","F":"#c:string","G":"","H":"#forge:rods/wooden","I":""});
+event.smithing('1x zoomers_armory:adamantite_crossbow', 'zoomers_armory:undefined_crossbow', 'enlightened_end:adamantite_ingot');
+
+
+event.smithing('1x zoomers_armory:enderite_crossbow', 'zoomers_armory:undefined_crossbow', 'enderitemod:enderite_ingot');
 
 
 event.shaped('1x zoomers_armory:immemorial_crossbow', ["ABC","DEF","GHI"], {"A":"callfromthedepth_:immemorialingot","B":"callfromthedepth_:immemorialingot","C":"callfromthedepth_:immemorialingot","D":"#c:string","E":"minecraft:tripwire_hook","F":"#c:string","G":"","H":"#forge:rods/wooden","I":""});
