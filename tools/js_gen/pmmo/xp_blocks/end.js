@@ -1,5 +1,5 @@
 const {Template} = require('./template.js');
-const {item_enlightened_end} = require("../../typedefs/item_typedefs");
+const {item_enlightened_end} = require("../../typedefs/item_typedefs.js");
 
 const malachite = Template.build()
     .withTagFor(item_enlightened_end.i_malachite_ore)
