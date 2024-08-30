@@ -74,9 +74,63 @@ a_generic: "projectile_damage:generic",
  * @readonly
  * @enum {string}
  */
-const attribute_betterend = {
+const attribute_zoompack_overrides_forge = {
     /** @type {string} */
-a_generic_blindness_resistance: "betterend:generic_blindness_resistance",
+a_fisherman_luck: "zoompack_overrides_forge:fisherman_luck",
+/** @type {string} */
+a_lure_speed: "zoompack_overrides_forge:lure_speed",
+/** @type {string} */
+a_tech_xp_multiplier: "zoompack_overrides_forge:tech_xp_multiplier",
+/** @type {string} */
+a_magic_xp_multiplier: "zoompack_overrides_forge:magic_xp_multiplier",
+/** @type {string} */
+a_slayer_xp_multiplier: "zoompack_overrides_forge:slayer_xp_multiplier",
+/** @type {string} */
+a_fishing_xp_multiplier: "zoompack_overrides_forge:fishing_xp_multiplier",
+/** @type {string} */
+a_fightgroup_xp_multiplier: "zoompack_overrides_forge:fightgroup_xp_multiplier",
+/** @type {string} */
+a_combat_xp_multiplier: "zoompack_overrides_forge:combat_xp_multiplier",
+/** @type {string} */
+a_swordsmanship_xp_multiplier: "zoompack_overrides_forge:swordsmanship_xp_multiplier",
+/** @type {string} */
+a_alchemy_xp_multiplier: "zoompack_overrides_forge:alchemy_xp_multiplier",
+/** @type {string} */
+a_mining_xp_multiplier: "zoompack_overrides_forge:mining_xp_multiplier",
+/** @type {string} */
+a_engineering_xp_multiplier: "zoompack_overrides_forge:engineering_xp_multiplier",
+/** @type {string} */
+a_endurance_xp_multiplier: "zoompack_overrides_forge:endurance_xp_multiplier",
+/** @type {string} */
+a_building_xp_multiplier: "zoompack_overrides_forge:building_xp_multiplier",
+/** @type {string} */
+a_smithing_xp_multiplier: "zoompack_overrides_forge:smithing_xp_multiplier",
+/** @type {string} */
+a_swimming_xp_multiplier: "zoompack_overrides_forge:swimming_xp_multiplier",
+/** @type {string} */
+a_woodcutting_xp_multiplier: "zoompack_overrides_forge:woodcutting_xp_multiplier",
+/** @type {string} */
+a_gunslinging_xp_multiplier: "zoompack_overrides_forge:gunslinging_xp_multiplier",
+/** @type {string} */
+a_crafting_xp_multiplier: "zoompack_overrides_forge:crafting_xp_multiplier",
+/** @type {string} */
+a_excavation_xp_multiplier: "zoompack_overrides_forge:excavation_xp_multiplier",
+/** @type {string} */
+a_farming_xp_multiplier: "zoompack_overrides_forge:farming_xp_multiplier",
+/** @type {string} */
+a_flying_xp_multiplier: "zoompack_overrides_forge:flying_xp_multiplier",
+/** @type {string} */
+a_cooking_xp_multiplier: "zoompack_overrides_forge:cooking_xp_multiplier",
+/** @type {string} */
+a_agility_xp_multiplier: "zoompack_overrides_forge:agility_xp_multiplier",
+/** @type {string} */
+a_sailing_xp_multiplier: "zoompack_overrides_forge:sailing_xp_multiplier",
+/** @type {string} */
+a_hunter_xp_multiplier: "zoompack_overrides_forge:hunter_xp_multiplier",
+/** @type {string} */
+a_archery_xp_multiplier: "zoompack_overrides_forge:archery_xp_multiplier",
+/** @type {string} */
+a_taming_xp_multiplier: "zoompack_overrides_forge:taming_xp_multiplier",
 
 };
 
@@ -586,6 +640,28 @@ a_spell_type_eldritch_blast: "additional_attributes:spell_type_eldritch_blast",
  * @readonly
  * @enum {string}
  */
+const attribute_functionalarmortrim = {
+    /** @type {string} */
+a_night_vision: "functionalarmortrim:night_vision",
+/** @type {string} */
+a_fire_resistance: "functionalarmortrim:fire_resistance",
+/** @type {string} */
+a_experience_boost: "functionalarmortrim:experience_boost",
+/** @type {string} */
+a_thorns: "functionalarmortrim:thorns",
+/** @type {string} */
+a_gossip_boost: "functionalarmortrim:gossip_boost",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const attribute_forge = {
     /** @type {string} */
 a_swim_speed: "forge:swim_speed",
@@ -623,9 +699,9 @@ a_attack_range: "reach_entity_attributes:attack_range",
 
 /**
  * Auto-generated Typedef
- * @typedef {attribute_minecraft | attribute_combatroll | attribute_projectile_damage | attribute_betterend | attribute_attributeslib | attribute_caelus | attribute_doggytalents | attribute_puffish_attributes | attribute_obscure_api | attribute_minecolonies | attribute_additionalentityattributes | attribute_irons_spellbooks | attribute_additional_attributes | attribute_forge | attribute_reach_entity_attributes} attribute
+ * @typedef {attribute_minecraft | attribute_combatroll | attribute_projectile_damage | attribute_zoompack_overrides_forge | attribute_attributeslib | attribute_caelus | attribute_doggytalents | attribute_puffish_attributes | attribute_obscure_api | attribute_minecolonies | attribute_additionalentityattributes | attribute_irons_spellbooks | attribute_additional_attributes | attribute_functionalarmortrim | attribute_forge | attribute_reach_entity_attributes} attribute
  */
 
 module.exports = {
-    attribute_minecraft, attribute_combatroll, attribute_projectile_damage, attribute_betterend, attribute_attributeslib, attribute_caelus, attribute_doggytalents, attribute_puffish_attributes, attribute_obscure_api, attribute_minecolonies, attribute_additionalentityattributes, attribute_irons_spellbooks, attribute_additional_attributes, attribute_forge, attribute_reach_entity_attributes
+    attribute_minecraft, attribute_combatroll, attribute_projectile_damage, attribute_zoompack_overrides_forge, attribute_attributeslib, attribute_caelus, attribute_doggytalents, attribute_puffish_attributes, attribute_obscure_api, attribute_minecolonies, attribute_additionalentityattributes, attribute_irons_spellbooks, attribute_additional_attributes, attribute_functionalarmortrim, attribute_forge, attribute_reach_entity_attributes
 }

@@ -22,31 +22,15 @@ d_the_end: "minecraft:the_end",
  * @readonly
  * @enum {string}
  */
-const dimension_blue_skies = {
-    /** @type {string} */
-d_everdawn: "blue_skies:everdawn",
-/** @type {string} */
-d_everbright: "blue_skies:everbright",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
 const dimension_theabyss = {
     /** @type {string} */
-d_the_abyss: "theabyss:the_abyss",
+d_frost_world: "theabyss:frost_world",
 /** @type {string} */
 d_spectral_world: "theabyss:spectral_world",
 /** @type {string} */
-d_frost_world: "theabyss:frost_world",
-/** @type {string} */
 d_pocket_dimension: "theabyss:pocket_dimension",
+/** @type {string} */
+d_the_abyss: "theabyss:the_abyss",
 
 };
 
@@ -72,9 +56,25 @@ d_the_aether: "aether:the_aether",
  * @readonly
  * @enum {string}
  */
-const dimension_teddy = {
+const dimension_blue_skies = {
     /** @type {string} */
-d_test: "teddy:test",
+d_everdawn: "blue_skies:everdawn",
+/** @type {string} */
+d_everbright: "blue_skies:everbright",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const dimension_callfromthedepth_ = {
+    /** @type {string} */
+d_depth: "callfromthedepth_:depth",
 
 };
 
@@ -96,24 +96,10 @@ d_undergarden: "undergarden:undergarden",
 
 
 /**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
-const dimension_deeperdarker = {
-    /** @type {string} */
-d_otherside: "deeperdarker:otherside",
-
-};
-
-
-
-
-/**
  * Auto-generated Typedef
- * @typedef {dimension_minecraft | dimension_blue_skies | dimension_theabyss | dimension_aether | dimension_teddy | dimension_undergarden | dimension_deeperdarker} dimension
+ * @typedef {dimension_minecraft | dimension_theabyss | dimension_aether | dimension_blue_skies | dimension_callfromthedepth_ | dimension_undergarden} dimension
  */
 
 module.exports = {
-    dimension_minecraft, dimension_blue_skies, dimension_theabyss, dimension_aether, dimension_teddy, dimension_undergarden, dimension_deeperdarker
+    dimension_minecraft, dimension_theabyss, dimension_aether, dimension_blue_skies, dimension_callfromthedepth_, dimension_undergarden
 }

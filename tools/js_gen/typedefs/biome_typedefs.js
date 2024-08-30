@@ -4,68 +4,6 @@
  * @readonly
  * @enum {string}
  */
-const biome_betterend = {
-    /** @type {string} */
-b_amber_land: "betterend:amber_land",
-/** @type {string} */
-b_blossoming_spires: "betterend:blossoming_spires",
-/** @type {string} */
-b_chorus_forest: "betterend:chorus_forest",
-/** @type {string} */
-b_crystal_mountains: "betterend:crystal_mountains",
-/** @type {string} */
-b_dragon_graveyards: "betterend:dragon_graveyards",
-/** @type {string} */
-b_dry_shrubland: "betterend:dry_shrubland",
-/** @type {string} */
-b_dust_wastelands: "betterend:dust_wastelands",
-/** @type {string} */
-b_empty_aurora_cave: "betterend:empty_aurora_cave",
-/** @type {string} */
-b_empty_end_cave: "betterend:empty_end_cave",
-/** @type {string} */
-b_empty_smaragdant_cave: "betterend:empty_smaragdant_cave",
-/** @type {string} */
-b_foggy_mushroomland: "betterend:foggy_mushroomland",
-/** @type {string} */
-b_glowing_grasslands: "betterend:glowing_grasslands",
-/** @type {string} */
-b_ice_starfield: "betterend:ice_starfield",
-/** @type {string} */
-b_jade_cave: "betterend:jade_cave",
-/** @type {string} */
-b_lantern_woods: "betterend:lantern_woods",
-/** @type {string} */
-b_lush_aurora_cave: "betterend:lush_aurora_cave",
-/** @type {string} */
-b_lush_smaragdant_cave: "betterend:lush_smaragdant_cave",
-/** @type {string} */
-b_megalake: "betterend:megalake",
-/** @type {string} */
-b_megalake_grove: "betterend:megalake_grove",
-/** @type {string} */
-b_neon_oasis: "betterend:neon_oasis",
-/** @type {string} */
-b_painted_mountains: "betterend:painted_mountains",
-/** @type {string} */
-b_shadow_forest: "betterend:shadow_forest",
-/** @type {string} */
-b_sulphur_springs: "betterend:sulphur_springs",
-/** @type {string} */
-b_umbra_valley: "betterend:umbra_valley",
-/** @type {string} */
-b_umbrella_jungle: "betterend:umbrella_jungle",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
 const biome_undergarden = {
     /** @type {string} */
 b_ancient_sea: "undergarden:ancient_sea",
@@ -556,13 +494,23 @@ b_unorthodox_valley: "blue_skies:unorthodox_valley",
  * @readonly
  * @enum {string}
  */
-const biome_deeperdarker = {
+const biome_callfromthedepth_ = {
     /** @type {string} */
-b_deeplands: "deeperdarker:deeplands",
+b_deepamethistforest: "callfromthedepth_:deepamethistforest",
 /** @type {string} */
-b_echoing_forest: "deeperdarker:echoing_forest",
+b_deepdepth: "callfromthedepth_:deepdepth",
 /** @type {string} */
-b_overcast_columns: "deeperdarker:overcast_columns",
+b_deepforest: "callfromthedepth_:deepforest",
+/** @type {string} */
+b_deepmagma: "callfromthedepth_:deepmagma",
+/** @type {string} */
+b_deeprot: "callfromthedepth_:deeprot",
+/** @type {string} */
+b_lostsoulsbiome: "callfromthedepth_:lostsoulsbiome",
+/** @type {string} */
+b_skulkswamp: "callfromthedepth_:skulkswamp",
+/** @type {string} */
+b_strongsculkswamp: "callfromthedepth_:strongsculkswamp",
 
 };
 
@@ -577,6 +525,20 @@ b_overcast_columns: "deeperdarker:overcast_columns",
 const biome_terrablender = {
     /** @type {string} */
 b_deferred_placeholder: "terrablender:deferred_placeholder",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const biome_phantasm = {
+    /** @type {string} */
+b_dreaming_den: "phantasm:dreaming_den",
 
 };
 
@@ -619,9 +581,9 @@ b_skyroot_woodland: "aether:skyroot_woodland",
 
 /**
  * Auto-generated Typedef
- * @typedef {biome_betterend | biome_undergarden | biome_biomesoplenty | biome_outer_end | biome_minecraft | biome_theabyss | biome_betternether | biome_blue_skies | biome_deeperdarker | biome_terrablender | biome_blueprint | biome_aether} biome
+ * @typedef {biome_undergarden | biome_biomesoplenty | biome_outer_end | biome_minecraft | biome_theabyss | biome_betternether | biome_blue_skies | biome_callfromthedepth_ | biome_terrablender | biome_phantasm | biome_blueprint | biome_aether} biome
  */
 
 module.exports = {
-    biome_betterend, biome_undergarden, biome_biomesoplenty, biome_outer_end, biome_minecraft, biome_theabyss, biome_betternether, biome_blue_skies, biome_deeperdarker, biome_terrablender, biome_blueprint, biome_aether
+    biome_undergarden, biome_biomesoplenty, biome_outer_end, biome_minecraft, biome_theabyss, biome_betternether, biome_blue_skies, biome_callfromthedepth_, biome_terrablender, biome_phantasm, biome_blueprint, biome_aether
 }
