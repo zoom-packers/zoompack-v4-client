@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/incorythe_crossbow",
+    "textures": {
+        "layer0": "zoomers_armory:item/incorythe_crossbow_drawing_0"
+    }
+}

@@ -133,10 +133,9 @@ function materialWithTypeShouldBeSkiped(verified_material, item_to_be_created_ty
 
     if ('skip' in verified_material){
         to_skip = verified_material.skip;
-        console.log(to_skip);
     }
 
-    return to_skip.includes(item_to_be_created_type);
+    return to_skip.includes(item_to_be_created_type.name);
 }
 
 //=====================
