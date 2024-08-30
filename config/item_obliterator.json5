@@ -17,7 +17,11 @@
   //    Example: minecraft:diamond
   "blacklisted_items": [
     "theabyss:dream_shifter",
-    "theabyss:ring_of_pocket_box"
+    "theabyss:ring_of_pocket_box",
+    "enderitemod:enderite_shears",
+    "enderitemod:enderite_shield",
+    "enderitemod:enderite_elytra",
+    "ender_dragon_loot_:dragon_paxel"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
