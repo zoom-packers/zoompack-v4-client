@@ -33,7 +33,7 @@ createDatapack(blueSkiesOres, datapackPath + "blue_skies");
 createDatapack(aetherOres, datapackPath + "aether");
 createDatapack(betterNetherOres, datapackPath + "betternether");
 createDatapack(undergardenOres, datapackPath + "undergarden");
-createDatapack(betterEndOres, datapackPath + "betterend");
+createDatapack(endOres, datapackPath + "enlightened_end");
 createDatapack(callOfYucatanOres, datapackPath + "call_of_yucatan");
 createDatapack(callFromTheDepthOres, datapackPath + "call_from_the_depth");
 createDatapack(abyssOres, datapackPath + "the_abyss");
