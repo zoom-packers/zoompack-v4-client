@@ -6,17 +6,17 @@
           {
             "type": "minecraft:loot_table",
             "name": "zoompack_economy:special_modded_loots/common_end_loot",
+            "weight": 55
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "abuhussains_structure:chests/bastionendother/bastionendtreasure",
             "weight": 40
           },
           {
             "type": "minecraft:loot_table",
-            "name": "betterend:chests/chorus_forest",
-            "weight": 40
-          },
-          {
-            "type": "minecraft:loot_table",
-            "name": "betterend:chests/lantern_woods",
-            "weight": 20
+            "name": "ender_dragon_loot_:blocks/dragon_scale_loot",
+            "weight": 5
           }
         ]
       }
