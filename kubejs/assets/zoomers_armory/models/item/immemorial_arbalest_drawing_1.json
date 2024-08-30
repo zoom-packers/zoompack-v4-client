@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/immemorial_arbalest",
+    "textures": {
+        "layer0": "zoomers_armory:item/immemorial_arbalest_drawing_1"
+    }
+}

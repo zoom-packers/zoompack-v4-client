@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/cloggrum_crossbow",
+    "textures": {
+        "layer0": "zoomers_armory:item/cloggrum_crossbow_firework"
+    }
+}

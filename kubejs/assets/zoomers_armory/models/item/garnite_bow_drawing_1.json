@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/garnite_bow",
+    "textures": {
+        "layer0": "zoomers_armory:item/garnite_bow_drawing_1"
+    }
+}

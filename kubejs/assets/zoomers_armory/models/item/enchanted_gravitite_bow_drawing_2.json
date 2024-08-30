@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/enchanted_gravitite_bow",
+    "textures": {
+        "layer0": "zoomers_armory:item/enchanted_gravitite_bow_drawing_2"
+    }
+}

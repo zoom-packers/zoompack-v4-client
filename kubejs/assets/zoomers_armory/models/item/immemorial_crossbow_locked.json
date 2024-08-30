@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/immemorial_crossbow",
+    "textures": {
+        "layer0": "zoomers_armory:item/immemorial_crossbow_locked"
+    }
+}

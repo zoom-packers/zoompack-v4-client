@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/flint_arbalest",
+    "textures": {
+        "layer0": "zoomers_armory:item/flint_arbalest_drawing_2"
+    }
+}

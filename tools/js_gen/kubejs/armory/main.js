@@ -13,6 +13,8 @@ StartupEvents.registry("item", e => {
 `
 const weaponTemplate = `e.create("{id}", "sword").displayName("{displayName}").texture("{texture}").maxDamage({durability});`
 const shieldTemplate = `e.create("{id}", "shield").displayName("{displayName}").texture("{texture}").maxDamage({durability});`
+const bowTemplate = `e.create("{id}", "bow").displayName("{displayName}").texture("{texture}").maxDamage({durability});`
+const crossbowTemplate = `e.create("{id}", "crossbow").displayName("{displayName}").texture("{texture}").maxDamage({durability});`
 const recipesTemplate = `
 ServerEvents.recipes(event => { 
     {recipeStr}
@@ -62,24 +64,37 @@ const materials = [
 
 
 const weaponTypes = [
-    {name: "dagger", recipe: ["","","","","material","","stick","",""], durabilityMultiplier: 0.9, damageMultiplier: 0.5, speedMultiplier: 0.5, textureGenType: "normal"},
-    {name: "shortsword", recipe: ["","","","","material","","","stick",""], durabilityMultiplier: 1, damageMultiplier: 0.8, speedMultiplier: 0.2, textureGenType: "normal"},
-    {name: "heavysword", recipe: ["","material","material","","material","","stick","",""], durabilityMultiplier: 1.5, damageMultiplier: 1.2, speedMultiplier: -0.2, textureGenType: "long"},
-    {name: "cutlass", recipe: ["","material","","material","","","stick","",""], durabilityMultiplier: 1.2, damageMultiplier: 1.1, speedMultiplier: -0.1, textureGenType: "normal"},
-    {name: "mace", recipe: ["","material","material","","stick","material","stick","",""], durabilityMultiplier: 1.2, damageMultiplier: 1.15, speedMultiplier: -0.15, textureGenType: "normal"},
-    {name: "heavymace", recipe: ["","material","material","","material","material","","stick",""], durabilityMultiplier: 1.5, damageMultiplier: 1.3, speedMultiplier: -0.3, textureGenType: "long"},
-    {name: "warhammer", recipe: ["material","material","material","","stick","material","stick","",""], durabilityMultiplier: 1.8, damageMultiplier: 1.5, speedMultiplier: -0.4, textureGenType: "long"},
-    {name: "spear", recipe: ["","","material","","stick","","stick","",""], durabilityMultiplier: 1, damageMultiplier: 0.9, speedMultiplier: -0.15, textureGenType: "spear"},
-    {name: "halberd", recipe: ["","","material","","stick","material","stick","",""], durabilityMultiplier: 1.2, damageMultiplier: 1.1, speedMultiplier: -0.3, textureGenType: "spear"},
+    {name: "dagger", recipe: ["","","","","material","","#forge:rods/wooden","",""], durabilityMultiplier: 0.9, damageMultiplier: 0.5, speedMultiplier: 0.5, textureGenType: "normal"},
+    {name: "shortsword", recipe: ["","","","","material","","","#forge:rods/wooden",""], durabilityMultiplier: 1, damageMultiplier: 0.8, speedMultiplier: 0.2, textureGenType: "normal"},
+    {name: "heavysword", recipe: ["","material","material","","material","","#forge:rods/wooden","",""], durabilityMultiplier: 1.5, damageMultiplier: 1.2, speedMultiplier: -0.2, textureGenType: "long"},
+    {name: "cutlass", recipe: ["","material","","material","","","#forge:rods/wooden","",""], durabilityMultiplier: 1.2, damageMultiplier: 1.1, speedMultiplier: -0.1, textureGenType: "normal"},
+    {name: "mace", recipe: ["","material","material","","#forge:rods/wooden","material","#forge:rods/wooden","",""], durabilityMultiplier: 1.2, damageMultiplier: 1.15, speedMultiplier: -0.15, textureGenType: "normal"},
+    {name: "heavymace", recipe: ["","material","material","","material","material","","#forge:rods/wooden",""], durabilityMultiplier: 1.5, damageMultiplier: 1.3, speedMultiplier: -0.3, textureGenType: "long"},
+    {name: "warhammer", recipe: ["material","material","material","","#forge:rods/wooden","material","#forge:rods/wooden","",""], durabilityMultiplier: 1.8, damageMultiplier: 1.5, speedMultiplier: -0.4, textureGenType: "long"},
+    {name: "spear", recipe: ["","","material","","#forge:rods/wooden","","#forge:rods/wooden","",""], durabilityMultiplier: 1, damageMultiplier: 0.9, speedMultiplier: -0.15, textureGenType: "spear"},
+    {name: "halberd", recipe: ["","","material","","#forge:rods/wooden","material","#forge:rods/wooden","",""], durabilityMultiplier: 1.2, damageMultiplier: 1.1, speedMultiplier: -0.3, textureGenType: "spear"},
 ]
 
 const shieldTypes = [
     {name: "buckler", recipe: ["","#minecraft:planks","","#minecraft:planks","material","#minecraft:planks","","#minecraft:planks",""], durabilityMultiplier: 0.9, armorMultiplier: 0.75, speedMultiplier: 0, textureGenType: "buckler_shield"},
-    {name: "heater", recipe: ["#minecraft:planks","","#minecraft:planks","#minecraft:planks","material","#minecraft:planks","","#minecraft:planks",""], durabilityMultiplier: 1.2, armorMultiplier: 1, speedMultiplier: -0.1, textureGenType: "heater_shield"},
-    {name: "tower", recipe: ["#minecraft:planks","#minecraft:planks","#minecraft:planks","#minecraft:planks","material","#minecraft:planks","#minecraft:planks","#minecraft:planks","#minecraft:planks"], durabilityMultiplier: 1.5, armorMultiplier: 1.25, speedMultiplier: -0.2, textureGenType: "tower_shield"},
+    {name: "heater", recipe: ["#minecraft:planks","material","#minecraft:planks","#minecraft:planks","material","#minecraft:planks","","#minecraft:planks",""], durabilityMultiplier: 1.2, armorMultiplier: 1, speedMultiplier: -0.1, textureGenType: "heater_shield"},
+    {name: "tower", recipe: ["#minecraft:planks","material","#minecraft:planks","#minecraft:planks","material","#minecraft:planks","#minecraft:planks","material","#minecraft:planks"], durabilityMultiplier: 1.5, armorMultiplier: 1.25, speedMultiplier: -0.2, textureGenType: "tower_shield"},
 ]
 
-const mergedTypes = [...weaponTypes, ...shieldTypes];
+const bowTypes = [
+    // {name: "shortbow", recipe: ["material","#forge:rods/wooden","","material","","#forge:rods/wooden","","material",""], durabilityMultiplier: 1, damageMultiplier: 0.8, speedMultiplier: 0.2, textureGenType: "normal"},
+    {name: "bow", recipe: ["","material","#c:string","material","","#c:string","","material","#c:string"], durabilityMultiplier: 1, damageMultiplier: 1, speedMultiplier: 0, textureGenType: "normal"},
+    // {name: "longbow", recipe: ["material","#forge:rods/wooden","","material","#forge:rods/wooden","","material","#forge:rods/wooden",""], durabilityMultiplier: 1.2, damageMultiplier: 1.1, speedMultiplier: -0.1, textureGenType: "long"}
+]
+
+const crossbowTypes = [
+    {name: "crossbow", recipe: ["material","material","material","#c:string","minecraft:tripwire_hook","#c:string","","#forge:rods/wooden",""], durabilityMultiplier: 1.5, damageMultiplier: 1.2, speedMultiplier: 0, textureGenType: "normal"},
+    // {name: "arbalest", recipe: ["material","material","material","material","#forge:rods/wooden","material","material","material",""], durabilityMultiplier: 1.8, damageMultiplier: 1.5, speedMultiplier: -0.4, textureGenType: "long"},
+]
+
+
+const mergedTypes = [...weaponTypes, ...shieldTypes, ...bowTypes, ...crossbowTypes];
+const mergedArcheryTypes = [...bowTypes, ...crossbowTypes];
 
 //=====================
 // REGISTRATION
@@ -103,6 +118,22 @@ for (const material of materials) {
         const texture = `${modId}:textures/item/${id}`;
         startupContent.push(shieldTemplate.replace("{id}", id).replace("{displayName}", displayName).replace("{texture}", texture).replace("{durability}", durability));
     }
+    for (const bowType of bowTypes) {
+        const materialIdPart = material.name;
+        const id = `${modId}:${materialIdPart}_${bowType.name}`;
+        const displayName = `${materialIdPart.toUpperCase()[0] + materialIdPart.slice(1)} ${bowType.name.toUpperCase()[0] + bowType.name.slice(1)}`;
+        const durability = material.durability * bowType.durabilityMultiplier;
+        const texture = `${modId}:textures/item/${id}`;
+        startupContent.push(bowTemplate.replace("{id}", id).replace("{displayName}", displayName).replace("{texture}", texture).replace("{durability}", durability));
+    }
+    for (const crossbowType of crossbowTypes) {
+        const materialIdPart = material.name;
+        const id = `${modId}:${materialIdPart}_${crossbowType.name}`;
+        const displayName = `${materialIdPart.toUpperCase()[0] + materialIdPart.slice(1)} ${crossbowType.name.toUpperCase()[0] + crossbowType.name.slice(1)}`;
+        const durability = material.durability * crossbowType.durabilityMultiplier;
+        const texture = `${modId}:textures/item/${id}`;
+        startupContent.push(crossbowTemplate.replace("{id}", id).replace("{displayName}", displayName).replace("{texture}", texture).replace("{durability}", durability));
+    }
     materialIndex++;
 }
 const startupScript = template.replace("{content}", startupContent.join("\n"));
@@ -119,7 +150,7 @@ for (const material of materials) {
     for (const weaponType of weaponTypes) {
         const materialIdPart = material.name;
         const id = `${modId}:${materialIdPart}_${weaponType.name}`;
-        const entry = createCiaSword(id, material, weaponType);
+        const entry = createCiaWeapon(id, material, weaponType);
         addItemToCia(cia, entry);
     }
     for (const shieldType of shieldTypes) {
@@ -128,10 +159,16 @@ for (const material of materials) {
         const entry = createCiaShield(id, material, shieldType);
         addItemToCia(cia, entry);
     }
+    for (const bowType of mergedArcheryTypes) {
+        const materialIdPart = material.name;
+        const id = `${modId}:${materialIdPart}_${bowType.name}`;
+        const entry = createCiaProjectileWeapon(id, material, bowType);
+        addItemToCia(cia, entry);
+    }
 }
 fs.writeFileSync(ciaPath, JSON.stringify(cia, null, 4), "utf8");
 
-function createCiaSword(itemId, material, weaponType) {
+function createCiaWeapon(itemId, material, weaponType) {
     return createCiaMainHand(itemId, [
         {
             attribute: "minecraft:generic.attack_damage",
@@ -140,6 +177,22 @@ function createCiaSword(itemId, material, weaponType) {
         },
         {
             attribute: "minecraft:generic.attack_speed",
+            operation: operation.MULTIPLY_BASE,
+            value: weaponType.speedMultiplier
+        },
+    ])
+}
+
+
+function createCiaProjectileWeapon(itemId, material, weaponType) {
+    return createCiaMainHand(itemId, [
+        {
+            attribute: "projectile_damage:generic",
+            operation: operation.ADDITION,
+            value: 6 + (material.base_damage > 0 ? material.base_damage * weaponType.damageMultiplier : material.base_damage / weaponType.damageMultiplier)
+        },
+        {
+            attribute: "attributeslib:draw_speed",
             operation: operation.MULTIPLY_BASE,
             value: weaponType.speedMultiplier
         },
@@ -160,7 +213,6 @@ function createCiaShield(itemId, material, shieldType) {
         },
     ])
 }
-
 
 //=====================
 // RECIPES
@@ -197,20 +249,28 @@ fs.writeFileSync(serverScript, recipesStr);
 //=====================
 // PMMO LEVELS
 //=====================
-for (const mergedType of weaponTypes) {
+for (const weaponType of weaponTypes) {
     for (const material of materials) {
         const materialIdPart = material.name;
-        const id = `${materialIdPart}_${mergedType.name}`;
+        const id = `${materialIdPart}_${weaponType.name}`;
         modifySingleItem(modId, id, "sword", material.pmmoLevel);
     }
 }
-for (const mergedType of shieldTypes) {
+for (const shieldType of shieldTypes) {
     for (const material of materials) {
         const materialIdPart = material.name;
-        const id = `${materialIdPart}_${mergedType.name}`;
+        const id = `${materialIdPart}_${shieldType.name}`;
         modifySingleItem(modId, id, "shield", material.pmmoLevel);
     }
 }
+for (const archeryType of mergedArcheryTypes) {
+    for (const material of materials) {
+        const materialIdPart = material.name;
+        const id = `${materialIdPart}_${archeryType.name}`;
+        modifySingleItem(modId, id, "bow", material.pmmoLevel);
+    }
+}
+
 
 //=====================
 // MODEL GEN
@@ -272,6 +332,48 @@ for (const type of shieldTypes) {
     }
 }
 
+const bowModel = require(`${inputModelsDir}/bow.json`);
+const crossbowModel = require(`${inputModelsDir}/crossbow.json`);
+for (const type of mergedArcheryTypes) {
+    for (const material of materials) {
+        const materialIdPart = material.name;
+        const id = `${materialIdPart}_${type.name}`;
+        const model = bowTypes.includes(type) ? JSON.parse(JSON.stringify(bowModel)) : JSON.parse(JSON.stringify(crossbowModel));
+        model.textures.layer0 = `zoomers_armory:item/${id}`;
+        model.overrides[0].model = `zoomers_armory:item/${id}_drawing_0`;
+        model.overrides[1].model = `zoomers_armory:item/${id}_drawing_1`;
+        model.overrides[2].model = `zoomers_armory:item/${id}_drawing_2`;
+
+        for (let i = 1; i < 4; i++) {
+            const subModel = {
+                parent: `zoomers_armory:item/${id}`,
+                textures: {
+                    layer0: `zoomers_armory:item/${id}_drawing_${i - 1}`
+                }
+            }
+            fs.writeFileSync(`${outputModelsDir}/${id}_drawing_${i - 1}.json`, JSON.stringify(subModel, null, 4), "utf8");
+        }
+
+        // Crossbow extra states
+        if (crossbowTypes.includes(type)) {
+            model.overrides[3].model = `zoomers_armory:item/${id}_locked`;
+            model.overrides[4].model = `zoomers_armory:item/${id}_firework`;
+            const extraStates = ["locked", "firework"];
+            for (const extraState of extraStates) {
+                const extraModel = {
+                    parent: `zoomers_armory:item/${id}`,
+                    textures: {
+                        layer0: `zoomers_armory:item/${id}_${extraState}`
+                    }
+                }
+                fs.writeFileSync(`${outputModelsDir}/${id}_${extraState}.json`, JSON.stringify(extraModel, null, 4), "utf8");
+            }
+        }
+
+        fs.writeFileSync(`${outputModelsDir}/${id}.json`, JSON.stringify(model, null, 4), "utf8");
+    }
+}
+
 const itemModelsToCopy = [
     `${inputModelsDir}/normal.json`,
     `${inputModelsDir}/long.json`,
@@ -287,13 +389,15 @@ for (const modelPath of itemModelsToCopy) {
 // TEXTURE GEN
 //=====================
 async function genTextures() {
-    for (const type of mergedTypes) {
+    // SWORDS & SHIELDS
+    const types = [...weaponTypes, ...shieldTypes];
+    for (const type of types) {
         let assets = inputTexturesPaths.filter(path => path.startsWith(type.name));
         if (assets.length === 0) {
             continue;
         }
         assets = assets.map(asset => `${inputTexturesDir}/${asset}`);
-        console.log(assets);
+        console.log("Processing textures for", type.name);
         for (const material of materials) {
             const materialColor = material.materialColor;
             const workingAssets = [];
@@ -307,6 +411,53 @@ async function genTextures() {
             const id = `${material.name}_${type.name}`;
             const texture = await combine(workingAssets);
             texture.toFile(`${outputTexturesDir}/${id}.png`);
+        }
+    }
+
+    // BOWS
+    for (const type of mergedArcheryTypes) {
+        console.log("Processing textures for", type.name);
+        for (let i = 0; i < 4; i++) {
+            const index = i + 1;
+            const basePath = `${inputTexturesDir}/${type.name}_base_${index}.png`;
+            const arrowPath = `${inputTexturesDir}/${type.name}_arrow_${index}.png`;
+            const stringPath = `${inputTexturesDir}/${type.name}_string_${index}.png`;
+            for (const material of materials) {
+                const materialColor = material.materialColor;
+                const workingAssets = [
+                    new WorkingTexture().withPath(basePath).withTint(materialColor),
+                    new WorkingTexture().withPath(arrowPath),
+                    new WorkingTexture().withPath(stringPath),
+                ];
+                let id = `${material.name}_${type.name}`;
+                if ([1,2,3].includes(i)) {
+                    id = `${material.name}_${type.name}_drawing_${i - 1}`;
+                }
+                const texture = await combine(workingAssets);
+                texture.toFile(`${outputTexturesDir}/${id}.png`);
+            }
+        }
+    }
+
+    // CROSSBOWS Extra
+    for (const type of crossbowTypes) {
+        const extraStates = ["locked", "firework"]
+        console.log("Processing extra textures for", type.name);
+        for (const extraState of extraStates) {
+            const basePath = `${inputTexturesDir}/${type.name}_${extraState}_base.png`;
+            const stringPath = `${inputTexturesDir}/${type.name}_${extraState}_string.png`;
+            const arrowPath = `${inputTexturesDir}/${type.name}_${extraState}_arrow.png`;
+            for (const material of materials) {
+                const materialColor = material.materialColor;
+                const workingAssets = [
+                    new WorkingTexture().withPath(basePath).withTint(materialColor),
+                    new WorkingTexture().withPath(stringPath),
+                    new WorkingTexture().withPath(arrowPath),
+                ];
+                const id = `${material.name}_${type.name}_${extraState}`;
+                const texture = await combine(workingAssets);
+                texture.toFile(`${outputTexturesDir}/${id}.png`);
+            }
         }
     }
 }
