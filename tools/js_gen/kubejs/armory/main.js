@@ -14,7 +14,8 @@ const {item_minecraft,
     item_enlightened_end,
     item_enderitemod,
     item_phantasm,
-    item_theabyss} = require("../../typedefs/item_typedefs");
+    item_theabyss,
+    item_aquaculture} = require("../../typedefs/item_typedefs");
 const {modifySingleItem} = require("../../utils/pmmo_util");
 const {WorkingTexture, combine} = require("../../utils/texture_util");
 
@@ -43,9 +44,7 @@ const materials = [
     {item: item_minecraft.i_iron_ingot, type: "crafting", "name": "iron", base_damage: 1, durability: 250, armor: 1, pmmoLevel: 9, materialColor: "#C0C0C0"},
     {item: item_minecraft.i_gold_ingot, type: "crafting", name: "gold", base_damage: 1.5, durability: 50, armor: 1.5, pmmoLevel: 12, materialColor: "#FFD700"},
     {item: item_minecraft.i_diamond, type: "crafting", name: "diamond", base_damage: 2, durability: 500, armor: 2, pmmoLevel: 18, materialColor: "#00FFFF"},
-    // {item: item_minecraft.i_diamond, type: "crafting", name: "neptunium", base_damage: 2, durability: 1000, armor: 2, pmmoLevel: 19, materialColor: "#00FFFF"},
-
-    // Add neptune
+    {item: item_aquaculture.i_neptunium_ingot, type: "crafting", name: "neptunium", base_damage: 2.5, durability: 1000, armor: 2, pmmoLevel: 19, materialColor: "#2cb28e", skip: ["bow"]},
 
     // Blue skies
     {item: item_blue_skies.i_pyrope_gem, type: "crafting", name: "pyrope", base_damage: 2, durability: 1600, armor: 2.5, pmmoLevel: 21, materialColor: "#e61542"},

@@ -13,6 +13,9 @@ event.shaped('1x zoomers_armory:gold_dagger', ["ABC","DEF","GHI"], {"A":"","B":"
 event.shaped('1x zoomers_armory:diamond_dagger', ["ABC","DEF","GHI"], {"A":"","B":"","C":"","D":"","E":"minecraft:diamond","F":"","G":"#forge:rods/wooden","H":"","I":""});
 
 
+event.shaped('1x zoomers_armory:neptunium_dagger', ["ABC","DEF","GHI"], {"A":"","B":"","C":"","D":"","E":"aquaculture:neptunium_ingot","F":"","G":"#forge:rods/wooden","H":"","I":""});
+
+
 event.shaped('1x zoomers_armory:pyrope_dagger', ["ABC","DEF","GHI"], {"A":"","B":"","C":"","D":"","E":"blue_skies:pyrope_gem","F":"","G":"#forge:rods/wooden","H":"","I":""});
 
 
@@ -122,6 +125,9 @@ event.shaped('1x zoomers_armory:gold_shortsword', ["ABC","DEF","GHI"], {"A":"","
 
 
 event.shaped('1x zoomers_armory:diamond_shortsword', ["ABC","DEF","GHI"], {"A":"","B":"","C":"","D":"","E":"minecraft:diamond","F":"","G":"","H":"#forge:rods/wooden","I":""});
+
+
+event.shaped('1x zoomers_armory:neptunium_shortsword', ["ABC","DEF","GHI"], {"A":"","B":"","C":"","D":"","E":"aquaculture:neptunium_ingot","F":"","G":"","H":"#forge:rods/wooden","I":""});
 
 
 event.shaped('1x zoomers_armory:pyrope_shortsword', ["ABC","DEF","GHI"], {"A":"","B":"","C":"","D":"","E":"blue_skies:pyrope_gem","F":"","G":"","H":"#forge:rods/wooden","I":""});
@@ -235,6 +241,9 @@ event.shaped('1x zoomers_armory:gold_heavysword', ["ABC","DEF","GHI"], {"A":"","
 event.shaped('1x zoomers_armory:diamond_heavysword', ["ABC","DEF","GHI"], {"A":"","B":"minecraft:diamond","C":"minecraft:diamond","D":"","E":"minecraft:diamond","F":"","G":"#forge:rods/wooden","H":"","I":""});
 
 
+event.shaped('1x zoomers_armory:neptunium_heavysword', ["ABC","DEF","GHI"], {"A":"","B":"aquaculture:neptunium_ingot","C":"aquaculture:neptunium_ingot","D":"","E":"aquaculture:neptunium_ingot","F":"","G":"#forge:rods/wooden","H":"","I":""});
+
+
 event.shaped('1x zoomers_armory:pyrope_heavysword', ["ABC","DEF","GHI"], {"A":"","B":"blue_skies:pyrope_gem","C":"blue_skies:pyrope_gem","D":"","E":"blue_skies:pyrope_gem","F":"","G":"#forge:rods/wooden","H":"","I":""});
 
 
@@ -344,6 +353,9 @@ event.shaped('1x zoomers_armory:gold_cutlass', ["ABC","DEF","GHI"], {"A":"","B":
 
 
 event.shaped('1x zoomers_armory:diamond_cutlass', ["ABC","DEF","GHI"], {"A":"","B":"minecraft:diamond","C":"","D":"minecraft:diamond","E":"","F":"","G":"#forge:rods/wooden","H":"","I":""});
+
+
+event.shaped('1x zoomers_armory:neptunium_cutlass', ["ABC","DEF","GHI"], {"A":"","B":"aquaculture:neptunium_ingot","C":"","D":"aquaculture:neptunium_ingot","E":"","F":"","G":"#forge:rods/wooden","H":"","I":""});
 
 
 event.shaped('1x zoomers_armory:pyrope_cutlass', ["ABC","DEF","GHI"], {"A":"","B":"blue_skies:pyrope_gem","C":"","D":"blue_skies:pyrope_gem","E":"","F":"","G":"#forge:rods/wooden","H":"","I":""});
@@ -457,6 +469,9 @@ event.shaped('1x zoomers_armory:gold_mace', ["ABC","DEF","GHI"], {"A":"","B":"mi
 event.shaped('1x zoomers_armory:diamond_mace', ["ABC","DEF","GHI"], {"A":"","B":"minecraft:diamond","C":"minecraft:diamond","D":"","E":"#forge:rods/wooden","F":"minecraft:diamond","G":"#forge:rods/wooden","H":"","I":""});
 
 
+event.shaped('1x zoomers_armory:neptunium_mace', ["ABC","DEF","GHI"], {"A":"","B":"aquaculture:neptunium_ingot","C":"aquaculture:neptunium_ingot","D":"","E":"#forge:rods/wooden","F":"aquaculture:neptunium_ingot","G":"#forge:rods/wooden","H":"","I":""});
+
+
 event.shaped('1x zoomers_armory:pyrope_mace', ["ABC","DEF","GHI"], {"A":"","B":"blue_skies:pyrope_gem","C":"blue_skies:pyrope_gem","D":"","E":"#forge:rods/wooden","F":"blue_skies:pyrope_gem","G":"#forge:rods/wooden","H":"","I":""});
 
 
@@ -566,6 +581,9 @@ event.shaped('1x zoomers_armory:gold_heavymace', ["ABC","DEF","GHI"], {"A":"","B
 
 
 event.shaped('1x zoomers_armory:diamond_heavymace', ["ABC","DEF","GHI"], {"A":"","B":"minecraft:diamond","C":"minecraft:diamond","D":"","E":"minecraft:diamond","F":"minecraft:diamond","G":"","H":"#forge:rods/wooden","I":""});
+
+
+event.shaped('1x zoomers_armory:neptunium_heavymace', ["ABC","DEF","GHI"], {"A":"","B":"aquaculture:neptunium_ingot","C":"aquaculture:neptunium_ingot","D":"","E":"aquaculture:neptunium_ingot","F":"aquaculture:neptunium_ingot","G":"","H":"#forge:rods/wooden","I":""});
 
 
 event.shaped('1x zoomers_armory:pyrope_heavymace', ["ABC","DEF","GHI"], {"A":"","B":"blue_skies:pyrope_gem","C":"blue_skies:pyrope_gem","D":"","E":"blue_skies:pyrope_gem","F":"blue_skies:pyrope_gem","G":"","H":"#forge:rods/wooden","I":""});
@@ -679,6 +697,9 @@ event.shaped('1x zoomers_armory:gold_warhammer', ["ABC","DEF","GHI"], {"A":"mine
 event.shaped('1x zoomers_armory:diamond_warhammer', ["ABC","DEF","GHI"], {"A":"minecraft:diamond","B":"minecraft:diamond","C":"minecraft:diamond","D":"","E":"#forge:rods/wooden","F":"minecraft:diamond","G":"#forge:rods/wooden","H":"","I":""});
 
 
+event.shaped('1x zoomers_armory:neptunium_warhammer', ["ABC","DEF","GHI"], {"A":"aquaculture:neptunium_ingot","B":"aquaculture:neptunium_ingot","C":"aquaculture:neptunium_ingot","D":"","E":"#forge:rods/wooden","F":"aquaculture:neptunium_ingot","G":"#forge:rods/wooden","H":"","I":""});
+
+
 event.shaped('1x zoomers_armory:pyrope_warhammer', ["ABC","DEF","GHI"], {"A":"blue_skies:pyrope_gem","B":"blue_skies:pyrope_gem","C":"blue_skies:pyrope_gem","D":"","E":"#forge:rods/wooden","F":"blue_skies:pyrope_gem","G":"#forge:rods/wooden","H":"","I":""});
 
 
@@ -788,6 +809,9 @@ event.shaped('1x zoomers_armory:gold_spear', ["ABC","DEF","GHI"], {"A":"","B":""
 
 
 event.shaped('1x zoomers_armory:diamond_spear', ["ABC","DEF","GHI"], {"A":"","B":"","C":"minecraft:diamond","D":"","E":"#forge:rods/wooden","F":"","G":"#forge:rods/wooden","H":"","I":""});
+
+
+event.shaped('1x zoomers_armory:neptunium_spear', ["ABC","DEF","GHI"], {"A":"","B":"","C":"aquaculture:neptunium_ingot","D":"","E":"#forge:rods/wooden","F":"","G":"#forge:rods/wooden","H":"","I":""});
 
 
 event.shaped('1x zoomers_armory:pyrope_spear', ["ABC","DEF","GHI"], {"A":"","B":"","C":"blue_skies:pyrope_gem","D":"","E":"#forge:rods/wooden","F":"","G":"#forge:rods/wooden","H":"","I":""});
@@ -901,6 +925,9 @@ event.shaped('1x zoomers_armory:gold_halberd', ["ABC","DEF","GHI"], {"A":"","B":
 event.shaped('1x zoomers_armory:diamond_halberd', ["ABC","DEF","GHI"], {"A":"","B":"","C":"minecraft:diamond","D":"","E":"#forge:rods/wooden","F":"minecraft:diamond","G":"#forge:rods/wooden","H":"","I":""});
 
 
+event.shaped('1x zoomers_armory:neptunium_halberd', ["ABC","DEF","GHI"], {"A":"","B":"","C":"aquaculture:neptunium_ingot","D":"","E":"#forge:rods/wooden","F":"aquaculture:neptunium_ingot","G":"#forge:rods/wooden","H":"","I":""});
+
+
 event.shaped('1x zoomers_armory:pyrope_halberd', ["ABC","DEF","GHI"], {"A":"","B":"","C":"blue_skies:pyrope_gem","D":"","E":"#forge:rods/wooden","F":"blue_skies:pyrope_gem","G":"#forge:rods/wooden","H":"","I":""});
 
 
@@ -1010,6 +1037,9 @@ event.shaped('1x zoomers_armory:gold_buckler', ["ABC","DEF","GHI"], {"A":"","B":
 
 
 event.shaped('1x zoomers_armory:diamond_buckler', ["ABC","DEF","GHI"], {"A":"","B":"#minecraft:planks","C":"","D":"#minecraft:planks","E":"minecraft:diamond","F":"#minecraft:planks","G":"","H":"#minecraft:planks","I":""});
+
+
+event.shaped('1x zoomers_armory:neptunium_buckler', ["ABC","DEF","GHI"], {"A":"","B":"#minecraft:planks","C":"","D":"#minecraft:planks","E":"aquaculture:neptunium_ingot","F":"#minecraft:planks","G":"","H":"#minecraft:planks","I":""});
 
 
 event.shaped('1x zoomers_armory:pyrope_buckler', ["ABC","DEF","GHI"], {"A":"","B":"#minecraft:planks","C":"","D":"#minecraft:planks","E":"blue_skies:pyrope_gem","F":"#minecraft:planks","G":"","H":"#minecraft:planks","I":""});
@@ -1123,6 +1153,9 @@ event.shaped('1x zoomers_armory:gold_heater', ["ABC","DEF","GHI"], {"A":"#minecr
 event.shaped('1x zoomers_armory:diamond_heater', ["ABC","DEF","GHI"], {"A":"#minecraft:planks","B":"minecraft:diamond","C":"#minecraft:planks","D":"#minecraft:planks","E":"minecraft:diamond","F":"#minecraft:planks","G":"","H":"#minecraft:planks","I":""});
 
 
+event.shaped('1x zoomers_armory:neptunium_heater', ["ABC","DEF","GHI"], {"A":"#minecraft:planks","B":"aquaculture:neptunium_ingot","C":"#minecraft:planks","D":"#minecraft:planks","E":"aquaculture:neptunium_ingot","F":"#minecraft:planks","G":"","H":"#minecraft:planks","I":""});
+
+
 event.shaped('1x zoomers_armory:pyrope_heater', ["ABC","DEF","GHI"], {"A":"#minecraft:planks","B":"blue_skies:pyrope_gem","C":"#minecraft:planks","D":"#minecraft:planks","E":"blue_skies:pyrope_gem","F":"#minecraft:planks","G":"","H":"#minecraft:planks","I":""});
 
 
@@ -1232,6 +1265,9 @@ event.shaped('1x zoomers_armory:gold_tower', ["ABC","DEF","GHI"], {"A":"#minecra
 
 
 event.shaped('1x zoomers_armory:diamond_tower', ["ABC","DEF","GHI"], {"A":"#minecraft:planks","B":"minecraft:diamond","C":"#minecraft:planks","D":"#minecraft:planks","E":"minecraft:diamond","F":"#minecraft:planks","G":"#minecraft:planks","H":"minecraft:diamond","I":"#minecraft:planks"});
+
+
+event.shaped('1x zoomers_armory:neptunium_tower', ["ABC","DEF","GHI"], {"A":"#minecraft:planks","B":"aquaculture:neptunium_ingot","C":"#minecraft:planks","D":"#minecraft:planks","E":"aquaculture:neptunium_ingot","F":"#minecraft:planks","G":"#minecraft:planks","H":"aquaculture:neptunium_ingot","I":"#minecraft:planks"});
 
 
 event.shaped('1x zoomers_armory:pyrope_tower', ["ABC","DEF","GHI"], {"A":"#minecraft:planks","B":"blue_skies:pyrope_gem","C":"#minecraft:planks","D":"#minecraft:planks","E":"blue_skies:pyrope_gem","F":"#minecraft:planks","G":"#minecraft:planks","H":"blue_skies:pyrope_gem","I":"#minecraft:planks"});
@@ -1451,6 +1487,9 @@ event.shaped('1x zoomers_armory:gold_crossbow', ["ABC","DEF","GHI"], {"A":"minec
 
 
 event.shaped('1x zoomers_armory:diamond_crossbow', ["ABC","DEF","GHI"], {"A":"minecraft:diamond","B":"minecraft:diamond","C":"minecraft:diamond","D":"#c:string","E":"minecraft:tripwire_hook","F":"#c:string","G":"","H":"#forge:rods/wooden","I":""});
+
+
+event.shaped('1x zoomers_armory:neptunium_crossbow', ["ABC","DEF","GHI"], {"A":"aquaculture:neptunium_ingot","B":"aquaculture:neptunium_ingot","C":"aquaculture:neptunium_ingot","D":"#c:string","E":"minecraft:tripwire_hook","F":"#c:string","G":"","H":"#forge:rods/wooden","I":""});
 
 
 event.shaped('1x zoomers_armory:pyrope_crossbow', ["ABC","DEF","GHI"], {"A":"blue_skies:pyrope_gem","B":"blue_skies:pyrope_gem","C":"blue_skies:pyrope_gem","D":"#c:string","E":"minecraft:tripwire_hook","F":"#c:string","G":"","H":"#forge:rods/wooden","I":""});
