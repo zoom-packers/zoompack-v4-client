@@ -26408,6 +26408,27 @@
             "overrides_legs": [],
             "overrides_feet": [],
             "unbreakable": false
+        },
+        {
+            "item": "zoomers_armory:obliterator_crossbow",
+            "overrides_off_hand": [],
+            "overrides_main_hand": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "value": 12000004.799999999
+                },
+                {
+                    "attribute": "attributeslib:draw_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": -0.9997222222
+                }
+            ],
+            "overrides_head": [],
+            "overrides_chest": [],
+            "overrides_legs": [],
+            "overrides_feet": [],
+            "unbreakable": false
         }
     ]
 }

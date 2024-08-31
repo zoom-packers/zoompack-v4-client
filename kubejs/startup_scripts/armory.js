@@ -530,4 +530,5 @@ e.create("zoomers_armory:incorythe_heater", "shield").displayName("Incorythe Hea
 e.create("zoomers_armory:incorythe_tower", "shield").displayName("Incorythe Tower").texture("zoomers_armory:textures/item/zoomers_armory:incorythe_tower").maxDamage(12000);
 e.create("zoomers_armory:incorythe_bow", "bow").displayName("Incorythe Bow").texture("zoomers_armory:textures/item/zoomers_armory:incorythe_bow").maxDamage(8000);
 e.create("zoomers_armory:incorythe_crossbow", "crossbow").displayName("Incorythe Crossbow").texture("zoomers_armory:textures/item/zoomers_armory:incorythe_crossbow").maxDamage(12000);
+e.create("zoomers_armory:obliterator_crossbow", "crossbow").displayName("Obliterator Crossbow").texture("zoomers_armory:textures/item/zoomers_armory:obliterator_crossbow").maxDamage(1.5);
 });

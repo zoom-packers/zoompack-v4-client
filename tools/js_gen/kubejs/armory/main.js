@@ -92,6 +92,14 @@ const materials = [
     {item: item_theabyss.i_phantom_ingot, type: "crafting", name: "phantom", base_damage: 324, durability: 7500, armor: 324, pmmoLevel: 96, materialColor: "#0f5226"},
     {item: item_theabyss.i_unorithe_ingot, type: "crafting", name: "unorithe", base_damage: 355, durability: 7750, armor: 355, pmmoLevel: 97, materialColor: "#092a23"},
     {item: item_theabyss.i_incorythe_gem, type: "crafting", name: "incorythe", base_damage: 400, durability: 8000, armor: 400, pmmoLevel: 98, materialColor: "#72d5ca"},
+
+    // Meme
+    {item: item_minecraft.i_amethyst_block, type: "crafting", name: "obliterator", base_damage: 9999999, durability: 1, pmmoLevel: 0, materialColor: "#ffffff", only: ["crossbow"], memeOverrides:
+            [{
+                attribute: "attributeslib:draw_speed",
+                operation: operation.MULTIPLY_BASE,
+                value: -0.9994444444 // Roughly 1 hour to draw
+            }]},
 ]
 
 const weaponTypes = [
@@ -132,6 +140,12 @@ function materialWithTypeShouldBeSkiped(verified_material, item_to_be_created_ty
 
     if ('skip' in verified_material){
         to_skip = verified_material.skip;
+    }
+
+    if ('only' in verified_material){
+        if (!verified_material.only.includes(item_to_be_created_type.name)){
+            return true;
+        }
     }
 
     return to_skip.includes(item_to_be_created_type.name);
@@ -208,6 +222,7 @@ for (const material of materials) {
         const materialIdPart = material.name;
         const id = `${modId}:${materialIdPart}_${weaponType.name}`;
         const entry = createCiaWeapon(id, material, weaponType);
+        applyMemeStats(entry, material.memeOverrides);
         addItemToCia(cia, entry);
     }
     for (const shieldType of shieldTypes) {
@@ -217,15 +232,17 @@ for (const material of materials) {
         const materialIdPart = material.name;
         const id = `${modId}:${materialIdPart}_${shieldType.name}`;
         const entry = createCiaShield(id, material, shieldType);
+        applyMemeStats(entry, material.memeOverrides);
         addItemToCia(cia, entry);
     }
-    for (const bowType of mergedArcheryTypes) {
-        if(materialWithTypeShouldBeSkiped(material, bowType)){
+    for (const archeryType of mergedArcheryTypes) {
+        if(materialWithTypeShouldBeSkiped(material, archeryType)){
             continue;
         }
         const materialIdPart = material.name;
-        const id = `${modId}:${materialIdPart}_${bowType.name}`;
-        const entry = createCiaProjectileWeapon(id, material, bowType);
+        const id = `${modId}:${materialIdPart}_${archeryType.name}`;
+        const entry = createCiaProjectileWeapon(id, material, archeryType);
+        applyMemeStats(entry, material.memeOverrides);
         addItemToCia(cia, entry);
     }
 }
@@ -244,6 +261,26 @@ function createCiaWeapon(itemId, material, weaponType) {
             value: weaponType.speedMultiplier
         },
     ])
+}
+
+/**
+ *
+ * @param ciaEntry {CiaEntry}
+ * @param memeOverrides
+ */
+function applyMemeStats(ciaEntry, memeOverrides){
+    if (memeOverrides === undefined) {
+        return;
+    }
+    var allOverrides = [ciaEntry.overrides_chest, ciaEntry.overrides_feet, ciaEntry.overrides_head, ciaEntry.overrides_legs, ciaEntry.overrides_main_hand, ciaEntry.overrides_off_hand];
+    for (const memeOverride of memeOverrides){
+        for (const override of allOverrides) {
+            const attributeIndex = override.findIndex(attr => attr.attribute === memeOverride.attribute);
+            if (attributeIndex !== -1){
+                override[attributeIndex] = memeOverride;
+            }
+        }
+    }
 }
 
 
@@ -317,6 +354,9 @@ fs.writeFileSync(serverScript, recipesStr);
 //=====================
 for (const weaponType of weaponTypes) {
     for (const material of materials) {
+        if (materialWithTypeShouldBeSkiped(material, weaponType)){
+            continue;
+        }
         const materialIdPart = material.name;
         const id = `${materialIdPart}_${weaponType.name}`;
         modifySingleItem(modId, id, "sword", material.pmmoLevel);
@@ -324,6 +364,9 @@ for (const weaponType of weaponTypes) {
 }
 for (const shieldType of shieldTypes) {
     for (const material of materials) {
+        if (materialWithTypeShouldBeSkiped(material, shieldType)){
+            continue;
+        }
         const materialIdPart = material.name;
         const id = `${materialIdPart}_${shieldType.name}`;
         modifySingleItem(modId, id, "shield", material.pmmoLevel);
@@ -331,6 +374,9 @@ for (const shieldType of shieldTypes) {
 }
 for (const archeryType of mergedArcheryTypes) {
     for (const material of materials) {
+        if (materialWithTypeShouldBeSkiped(material, archeryType)){
+            continue;
+        }
         const materialIdPart = material.name;
         const id = `${materialIdPart}_${archeryType.name}`;
         modifySingleItem(modId, id, "bow", material.pmmoLevel);
@@ -353,6 +399,9 @@ const outputModelsDir = `${outputAssetsDir}/models/item`;
 
 for (const type of weaponTypes) {
     for (const material of materials) {
+        if (materialWithTypeShouldBeSkiped(material, type)){
+            continue;
+        }
         const materialIdPart = material.name;
         const id = `${materialIdPart}_${type.name}`;
         const item = {
@@ -372,6 +421,9 @@ const heaterBlockingModel = require(`${inputModelsDir}/heater_shield_blocking.js
 const towerBlockingModel = require(`${inputModelsDir}/tower_shield_blocking.json`);
 for (const type of shieldTypes) {
     for (const material of materials) {
+        if (materialWithTypeShouldBeSkiped(material, type)){
+            continue;
+        }
         const materialIdPart = material.name;
         const id = `${materialIdPart}_${type.name}`;
         let model;
@@ -402,6 +454,9 @@ const bowModel = require(`${inputModelsDir}/bow.json`);
 const crossbowModel = require(`${inputModelsDir}/crossbow.json`);
 for (const type of mergedArcheryTypes) {
     for (const material of materials) {
+        if (materialWithTypeShouldBeSkiped(material, type)){
+            continue;
+        }
         const materialIdPart = material.name;
         const id = `${materialIdPart}_${type.name}`;
         const model = bowTypes.includes(type) ? JSON.parse(JSON.stringify(bowModel)) : JSON.parse(JSON.stringify(crossbowModel));
@@ -465,6 +520,9 @@ async function genTextures() {
         assets = assets.map(asset => `${inputTexturesDir}/${asset}`);
         console.log("Processing textures for", type.name);
         for (const material of materials) {
+            if (materialWithTypeShouldBeSkiped(material, type)){
+                continue;
+            }
             const materialColor = material.materialColor;
             const workingAssets = [];
             for (const asset of assets) {
@@ -489,6 +547,9 @@ async function genTextures() {
             const arrowPath = `${inputTexturesDir}/${type.name}_arrow_${index}.png`;
             const stringPath = `${inputTexturesDir}/${type.name}_string_${index}.png`;
             for (const material of materials) {
+                if (materialWithTypeShouldBeSkiped(material, type)){
+                    continue;
+                }
                 const materialColor = material.materialColor;
                 const workingAssets = [
                     new WorkingTexture().withPath(basePath).withTint(materialColor),
@@ -514,6 +575,9 @@ async function genTextures() {
             const stringPath = `${inputTexturesDir}/${type.name}_${extraState}_string.png`;
             const arrowPath = `${inputTexturesDir}/${type.name}_${extraState}_arrow.png`;
             for (const material of materials) {
+                if (materialWithTypeShouldBeSkiped(material, type)){
+                    continue;
+                }
                 const materialColor = material.materialColor;
                 const workingAssets = [
                     new WorkingTexture().withPath(basePath).withTint(materialColor),

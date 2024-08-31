@@ -1590,4 +1590,7 @@ event.shaped('1x zoomers_armory:unorithe_crossbow', ["ABC","DEF","GHI"], {"A":"t
 
 event.shaped('1x zoomers_armory:incorythe_crossbow', ["ABC","DEF","GHI"], {"A":"theabyss:incorythe_gem","B":"theabyss:incorythe_gem","C":"theabyss:incorythe_gem","D":"#c:string","E":"minecraft:tripwire_hook","F":"#c:string","G":"","H":"#forge:rods/wooden","I":""});
 
+
+event.shaped('1x zoomers_armory:obliterator_crossbow', ["ABC","DEF","GHI"], {"A":"minecraft:amethyst_block","B":"minecraft:amethyst_block","C":"minecraft:amethyst_block","D":"#c:string","E":"minecraft:tripwire_hook","F":"#c:string","G":"","H":"#forge:rods/wooden","I":""});
+
 })
