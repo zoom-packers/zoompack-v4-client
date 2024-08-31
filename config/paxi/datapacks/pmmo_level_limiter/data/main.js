@@ -252,8 +252,10 @@ function modifyFullSets() {
     processor.modifySetRequirements("outer_end", "cobalt_crystal", 71);
     processor.modifySetRequirements("outer_end", "mint_crystal", 71);
 
-    processor.modifySetRequirements("betterend", "thallasium", 73);
-    processor.modifySingleItem("zoomer_bows", "thallasium_bow", "bow", 73);
+    processor.modifySetRequirements("phantasm", "crystalline", 72, ["sword", "axe", "pickaxe", "shovel", "hoe"], "{set_name}_{item}");
+    processor.modifySingleItem("ender_dragon_loot_", "dragon_picaxe", "pickaxe", 73);
+    processor.modifySetRequirements("ender_dragon_loot_", "dragon", 73, ["sword", "axe", "shovel", "hoe"], "{set_name}_{item}");
+    processor.modifySetRequirements("ender_dragon_loot_", "dragon_armor", 73, "armor");
 
     processor.modifySetRequirements("irons_spellbooks", "pyromancer_tier_6", 73, "armor");
     processor.modifySetRequirements("irons_spellbooks", "electromancer_tier_6", 73, "armor");
@@ -265,15 +267,12 @@ function modifyFullSets() {
     processor.modifySetRequirements("irons_spellbooks", "plagued_tier_6", 73, "armor");
     modifyOffhandForTier(6, 73)
 
-    processor.modifySetRequirements("betterend", "terminite", 75);
-    processor.modifySingleItem("zoomer_bows", "terminite_bow", "bow", 75);
+    processor.modifySingleItem("enlightened_end", "dashing_leggings_leggings", "leggings", 75);
+    processor.modifySingleItem("enlightened_end", "boost_boots_boots", "boots", 75);
+    processor.modifySetRequirements("enlightened_end", "adamantite", 76, ["sword", "axe", "pickaxe", "shovel", "hoe"], "{set_name}_{item}");
+    processor.modifySetRequirements("enlightened_end", "adamantite_armor", 76, "armor");
 
-    processor.modifySetRequirements("betterend", "aeternium", 77);
-    processor.modifySingleItem("zoomer_bows", "aeternium_bow", "bow", 77);
-    processor.modifySingleItem("betterend", "elytra_armored", "chestplate", 77);
-
-    processor.modifySetRequirements("betterend", "crystalite", 79, "armor");
-    processor.modifySingleItem("betterend", "elytra_crystalite", "chestplate", 79);
+    processor.modifySetRequirements("enderitemod", "enderite", 79, "armor");
 
     // Deeper darker
     processor.modifySetRequirements("callfromthedepth_", "immemorial", 84, ["sword","axe", "pickaxe", "shovel", "hoe"], "{set_name}{item}");

@@ -3,8 +3,8 @@ const items = require("../../typedefs/item_typedefs");
 const blocks = require("../../typedefs/block_typedefs");
 const entities = require("../../typedefs/entity_typedefs");
 const biomes = require("../../typedefs/biome_typedefs");
-const {biome_betternether, biome_betterend} = require("../../typedefs/biome_typedefs");
-const {entity_minecraft, entity_betternether, entity_betterend, entity_endermanoverhaul, entity_outer_end,
+const {biome_betternether, biome_outer_end} = require("../../typedefs/biome_typedefs");
+const {entity_minecraft, entity_betternether, entity_outer_end, entity_endlessbiomes, entity_endermanoverhaul, entity_outer_end,
 } = require("../../typedefs/entity_typedefs");
 const loot_tables = require("../../typedefs/loot_table_typedefs");
 const {loot_table_minecraft} = require("../../typedefs/loot_table_typedefs");
@@ -249,7 +249,7 @@ const nether = {
 const end = {
     dimensionName: dims.dimension_minecraft.d_the_end,
     simpleName: dims.dimension_minecraft.d_the_end.split(":")[1],
-    biomeNames: Object.values(biome_betterend),
+    biomeNames: Object.values(biome_outer_end),
     themes: [
         {
             id: 0,
@@ -263,11 +263,11 @@ const end = {
             stoneBrickSlab: blocks.block_minecraft.b_end_stone_brick_slab,
             cobblestoneWall: blocks.block_minecraft.b_end_stone_brick_cracked_wall,
             stoneBrickWall: blocks.block_minecraft.b_end_stone_brick_wall,
-            ironBars: blocks.block_betterend.b_terminite_bars,
+            ironBars: blocks.block_create.b_andesite_bars,
             water: blocks.block_outer_end.b_brine,
         }
     ],
-    biomeThemeMappings: Object.values(biome_betterend).reduce((acc, biome) => {
+    biomeThemeMappings: Object.values(biome_outer_end).reduce((acc, biome) => {
         acc[biome] = 0
         return acc;
     }, {}),
@@ -279,7 +279,7 @@ const end = {
                     entries: [
                         {
                             type: "loot_table",
-                            name: loot_tables.loot_table_betterend.l_chests_end_village_loot,
+                            name: loot_tables.loot_table_endlessbiomes.l_chests_radon_loot,
                         }
                     ]
                 }
@@ -292,7 +292,7 @@ const end = {
                     entries: [
                         {
                             type: "loot_table",
-                            name: loot_tables.loot_table_betterend.l_chests_end_village_loot,
+                            name: loot_tables.loot_table_endlessbiomes.l_chests_radon_loot,
                         }
                     ]
                 }
@@ -305,7 +305,7 @@ const end = {
                     entries: [
                         {
                             type: "loot_table",
-                            name: loot_tables.loot_table_betterend.l_chests_chorus_forest,
+                            name: loot_tables.loot_table_endlessbiomes.l_chests_bulwark_treasure_loot,
                         }
                     ]
                 }
@@ -318,7 +318,7 @@ const end = {
                     entries: [
                         {
                             type: "loot_table",
-                            name: loot_tables.loot_table_betterend.l_chests_shadow_forest,
+                            name: loot_tables.loot_table_endlessbiomes.l_chests_riftite_bulwark_loot,
                         }
                     ]
                 }
@@ -335,23 +335,15 @@ const end = {
                         },
                         {
                             type: "loot_table",
-                            name: loot_tables.loot_table_betterend.l_chests_chorus_forest,
+                            name: loot_tables.loot_table_endlessbiomes.l_chests_bulwark_treasure_loot,
                         },
                         {
                             type: "loot_table",
-                            name: loot_tables.loot_table_betterend.l_chests_shadow_forest,
+                            name: loot_tables.loot_table_endlessbiomes.l_chests_riftite_bulwark_loot,
                         },
                         {
                             type: "loot_table",
-                            name: loot_tables.loot_table_betterend.l_chests_foggy_mushroomland,
-                        },
-                        {
-                            type: "loot_table",
-                            name: loot_tables.loot_table_betterend.l_chests_lantern_woods,
-                        },
-                        {
-                            type: "loot_table",
-                            name: loot_tables.loot_table_betterend.l_blocks_umbrella_tree_chest,
+                            name: loot_tables.loot_table_endlessbiomes.l_chests_arkan_ruins_loot,
                         }
                     ]
                 }
@@ -367,13 +359,13 @@ const end = {
                     weight: 1
                 },
                 {
-                    entity: entity_betterend.e_end_slime,
+                    entity: entities.entity_enlightened_end.e_fumesplat,
                     weight: 1
                 },
             ],
             rare: [
                 {
-                    entity: entity_betterend.e_shadow_walker,
+                    entity: entities.entity_enlightened_end.e_stalker,
                     weight: 1
                 }
             ]
@@ -385,7 +377,7 @@ const end = {
                     weight: 1
                 },
                 {
-                    entity: entity_betterend.e_end_slime,
+                    entity: entities.entity_enlightened_end.e_fumesplat,
                     weight: 1
                 },
                 {
@@ -399,7 +391,7 @@ const end = {
             ],
             rare: [
                 {
-                    entity: entity_betterend.e_shadow_walker,
+                    entity: entities.entity_enlightened_end.e_stalker,
                     weight: 1
                 }
             ]
@@ -411,7 +403,7 @@ const end = {
                     weight: 1
                 },
                 {
-                    entity: entity_betterend.e_shadow_walker,
+                    entity: entities.entity_enlightened_end.e_stalker,
                     weight: 1
                 },
                 {

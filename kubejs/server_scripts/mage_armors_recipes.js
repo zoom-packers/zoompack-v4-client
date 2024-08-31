@@ -385,100 +385,100 @@ event.shaped('1x irons_spellbooks:plagued_tier_5_leggings', ["ABC","DEF","G I"],
 event.shaped('1x irons_spellbooks:plagued_tier_5_boots', ["   ","D F","GHI"], {"D":"undergarden:froststeel_ingot","F":"undergarden:froststeel_ingot","G":"undergarden:froststeel_ingot","H":"irons_spellbooks:nature_rune","I":"undergarden:froststeel_ingot"});
 
 
-event.shaped('1x irons_spellbooks:pyromancer_tier_6_helmet', ["   ","DEF","GHI"], {"D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:fire_rune","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:pyromancer_tier_6_helmet', ["   ","DEF","GHI"], {"D":"ender_dragon_loot_:dragon_scale","E":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"irons_spellbooks:fire_rune","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:pyromancer_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"betterend:thallasium_forged_plate","B":"irons_spellbooks:fire_rune","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:pyromancer_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"ender_dragon_loot_:dragon_scale","B":"irons_spellbooks:fire_rune","C":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:pyromancer_tier_6_leggings', ["ABC","DEF","G I"], {"A":"betterend:thallasium_forged_plate","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:fire_rune","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:pyromancer_tier_6_leggings', ["ABC","DEF","G I"], {"A":"ender_dragon_loot_:dragon_scale","B":"ender_dragon_loot_:dragon_scale","C":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"irons_spellbooks:fire_rune","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:pyromancer_tier_6_boots', ["   ","D F","GHI"], {"D":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:fire_rune","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:pyromancer_tier_6_boots', ["   ","D F","GHI"], {"D":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"irons_spellbooks:fire_rune","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:cryomancer_tier_6_helmet', ["   ","DEF","GHI"], {"D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:ice_rune","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:cryomancer_tier_6_helmet', ["   ","DEF","GHI"], {"D":"ender_dragon_loot_:dragon_scale","E":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"irons_spellbooks:ice_rune","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:cryomancer_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"betterend:thallasium_forged_plate","B":"irons_spellbooks:ice_rune","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:cryomancer_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"ender_dragon_loot_:dragon_scale","B":"irons_spellbooks:ice_rune","C":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:cryomancer_tier_6_leggings', ["ABC","DEF","G I"], {"A":"betterend:thallasium_forged_plate","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:ice_rune","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:cryomancer_tier_6_leggings', ["ABC","DEF","G I"], {"A":"ender_dragon_loot_:dragon_scale","B":"ender_dragon_loot_:dragon_scale","C":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"irons_spellbooks:ice_rune","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:cryomancer_tier_6_boots', ["   ","D F","GHI"], {"D":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:ice_rune","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:cryomancer_tier_6_boots', ["   ","D F","GHI"], {"D":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"irons_spellbooks:ice_rune","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:electromancer_tier_6_helmet', ["   ","DEF","GHI"], {"D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:lightning_rune","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:electromancer_tier_6_helmet', ["   ","DEF","GHI"], {"D":"ender_dragon_loot_:dragon_scale","E":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"irons_spellbooks:lightning_rune","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:electromancer_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"betterend:thallasium_forged_plate","B":"irons_spellbooks:lightning_rune","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:electromancer_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"ender_dragon_loot_:dragon_scale","B":"irons_spellbooks:lightning_rune","C":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:electromancer_tier_6_leggings', ["ABC","DEF","G I"], {"A":"betterend:thallasium_forged_plate","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:lightning_rune","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:electromancer_tier_6_leggings', ["ABC","DEF","G I"], {"A":"ender_dragon_loot_:dragon_scale","B":"ender_dragon_loot_:dragon_scale","C":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"irons_spellbooks:lightning_rune","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:electromancer_tier_6_boots', ["   ","D F","GHI"], {"D":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:lightning_rune","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:electromancer_tier_6_boots', ["   ","D F","GHI"], {"D":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"irons_spellbooks:lightning_rune","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:archevoker_tier_6_helmet', ["   ","DEF","GHI"], {"D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:evocation_rune","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:archevoker_tier_6_helmet', ["   ","DEF","GHI"], {"D":"ender_dragon_loot_:dragon_scale","E":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"irons_spellbooks:evocation_rune","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:archevoker_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"betterend:thallasium_forged_plate","B":"irons_spellbooks:evocation_rune","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:archevoker_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"ender_dragon_loot_:dragon_scale","B":"irons_spellbooks:evocation_rune","C":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:archevoker_tier_6_leggings', ["ABC","DEF","G I"], {"A":"betterend:thallasium_forged_plate","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:evocation_rune","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:archevoker_tier_6_leggings', ["ABC","DEF","G I"], {"A":"ender_dragon_loot_:dragon_scale","B":"ender_dragon_loot_:dragon_scale","C":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"irons_spellbooks:evocation_rune","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:archevoker_tier_6_boots', ["   ","D F","GHI"], {"D":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:evocation_rune","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:archevoker_tier_6_boots', ["   ","D F","GHI"], {"D":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"irons_spellbooks:evocation_rune","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:cultist_tier_6_helmet', ["   ","DEF","GHI"], {"D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:blood_rune","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:cultist_tier_6_helmet', ["   ","DEF","GHI"], {"D":"ender_dragon_loot_:dragon_scale","E":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"irons_spellbooks:blood_rune","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:cultist_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"betterend:thallasium_forged_plate","B":"irons_spellbooks:blood_rune","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:cultist_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"ender_dragon_loot_:dragon_scale","B":"irons_spellbooks:blood_rune","C":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:cultist_tier_6_leggings', ["ABC","DEF","G I"], {"A":"betterend:thallasium_forged_plate","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:blood_rune","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:cultist_tier_6_leggings', ["ABC","DEF","G I"], {"A":"ender_dragon_loot_:dragon_scale","B":"ender_dragon_loot_:dragon_scale","C":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"irons_spellbooks:blood_rune","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:cultist_tier_6_boots', ["   ","D F","GHI"], {"D":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:blood_rune","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:cultist_tier_6_boots', ["   ","D F","GHI"], {"D":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"irons_spellbooks:blood_rune","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:shadowwalker_tier_6_helmet', ["   ","DEF","GHI"], {"D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:ender_rune","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:shadowwalker_tier_6_helmet', ["   ","DEF","GHI"], {"D":"ender_dragon_loot_:dragon_scale","E":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"irons_spellbooks:ender_rune","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:shadowwalker_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"betterend:thallasium_forged_plate","B":"irons_spellbooks:ender_rune","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:shadowwalker_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"ender_dragon_loot_:dragon_scale","B":"irons_spellbooks:ender_rune","C":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:shadowwalker_tier_6_leggings', ["ABC","DEF","G I"], {"A":"betterend:thallasium_forged_plate","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:ender_rune","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:shadowwalker_tier_6_leggings', ["ABC","DEF","G I"], {"A":"ender_dragon_loot_:dragon_scale","B":"ender_dragon_loot_:dragon_scale","C":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"irons_spellbooks:ender_rune","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:shadowwalker_tier_6_boots', ["   ","D F","GHI"], {"D":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:ender_rune","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:shadowwalker_tier_6_boots', ["   ","D F","GHI"], {"D":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"irons_spellbooks:ender_rune","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:priest_tier_6_helmet', ["   ","DEF","GHI"], {"D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:holy_rune","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:priest_tier_6_helmet', ["   ","DEF","GHI"], {"D":"ender_dragon_loot_:dragon_scale","E":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"irons_spellbooks:holy_rune","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:priest_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"betterend:thallasium_forged_plate","B":"irons_spellbooks:holy_rune","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:priest_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"ender_dragon_loot_:dragon_scale","B":"irons_spellbooks:holy_rune","C":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:priest_tier_6_leggings', ["ABC","DEF","G I"], {"A":"betterend:thallasium_forged_plate","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:holy_rune","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:priest_tier_6_leggings', ["ABC","DEF","G I"], {"A":"ender_dragon_loot_:dragon_scale","B":"ender_dragon_loot_:dragon_scale","C":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"irons_spellbooks:holy_rune","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:priest_tier_6_boots', ["   ","D F","GHI"], {"D":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:holy_rune","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:priest_tier_6_boots', ["   ","D F","GHI"], {"D":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"irons_spellbooks:holy_rune","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:plagued_tier_6_helmet', ["   ","DEF","GHI"], {"D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:nature_rune","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:plagued_tier_6_helmet', ["   ","DEF","GHI"], {"D":"ender_dragon_loot_:dragon_scale","E":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"irons_spellbooks:nature_rune","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:plagued_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"betterend:thallasium_forged_plate","B":"irons_spellbooks:nature_rune","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:plagued_tier_6_chestplate', ["ABC","DEF","GHI"], {"A":"ender_dragon_loot_:dragon_scale","B":"irons_spellbooks:nature_rune","C":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:plagued_tier_6_leggings', ["ABC","DEF","G I"], {"A":"betterend:thallasium_forged_plate","B":"betterend:thallasium_forged_plate","C":"betterend:thallasium_forged_plate","D":"betterend:thallasium_forged_plate","E":"irons_spellbooks:nature_rune","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:plagued_tier_6_leggings', ["ABC","DEF","G I"], {"A":"ender_dragon_loot_:dragon_scale","B":"ender_dragon_loot_:dragon_scale","C":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"irons_spellbooks:nature_rune","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","I":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x irons_spellbooks:plagued_tier_6_boots', ["   ","D F","GHI"], {"D":"betterend:thallasium_forged_plate","F":"betterend:thallasium_forged_plate","G":"betterend:thallasium_forged_plate","H":"irons_spellbooks:nature_rune","I":"betterend:thallasium_forged_plate"});
+event.shaped('1x irons_spellbooks:plagued_tier_6_boots', ["   ","D F","GHI"], {"D":"ender_dragon_loot_:dragon_scale","F":"ender_dragon_loot_:dragon_scale","G":"ender_dragon_loot_:dragon_scale","H":"irons_spellbooks:nature_rune","I":"ender_dragon_loot_:dragon_scale"});
 
 
 event.shaped('1x irons_spellbooks:pyromancer_tier_7_helmet', ["   ","DEF","GHI"], {"D":"callfromthedepth_:immemorialingot","E":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"irons_spellbooks:fire_rune","I":"callfromthedepth_:immemorialingot"});

@@ -290,30 +290,6 @@ e_naga_projectile: "betternether:naga_projectile",
  * @readonly
  * @enum {string}
  */
-const entity_betterend = {
-    /** @type {string} */
-e_dragonfly: "betterend:dragonfly",
-/** @type {string} */
-e_end_slime: "betterend:end_slime",
-/** @type {string} */
-e_end_fish: "betterend:end_fish",
-/** @type {string} */
-e_shadow_walker: "betterend:shadow_walker",
-/** @type {string} */
-e_cubozoa: "betterend:cubozoa",
-/** @type {string} */
-e_silk_moth: "betterend:silk_moth",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
 const entity_bclib = {
     /** @type {string} */
 e_chair: "bclib:chair",
@@ -387,6 +363,24 @@ e_cloud: "tombstone:cloud",
 e_spectral_bite: "tombstone:spectral_bite",
 /** @type {string} */
 e_spectral_wolf: "tombstone:spectral_wolf",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const entity_trials = {
+    /** @type {string} */
+e_bogged: "trials:bogged",
+/** @type {string} */
+e_breeze: "trials:breeze",
+/** @type {string} */
+e_wind_charge: "trials:wind_charge",
 
 };
 
@@ -505,6 +499,22 @@ e_chest_boat: "biomesoplenty:chest_boat",
 const entity_lootr = {
     /** @type {string} */
 e_lootr_minecart: "lootr:lootr_minecart",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const entity_phantasm = {
+    /** @type {string} */
+e_crystie: "phantasm:crystie",
+/** @type {string} */
+e_behemoth: "phantasm:behemoth",
 
 };
 
@@ -713,6 +723,54 @@ e_vein_goblin_trader: "goblintraders:vein_goblin_trader",
 const entity_obscure_api = {
     /** @type {string} */
 e_vfx: "obscure_api:vfx",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const entity_enlightened_end = {
+    /** @type {string} */
+e_projectile_helium_dart: "enlightened_end:projectile_helium_dart",
+/** @type {string} */
+e_projectile_xenon_dart: "enlightened_end:projectile_xenon_dart",
+/** @type {string} */
+e_projectile_flash_bomb: "enlightened_end:projectile_flash_bomb",
+/** @type {string} */
+e_floating_elevibloom: "enlightened_end:floating_elevibloom",
+/** @type {string} */
+e_ringling: "enlightened_end:ringling",
+/** @type {string} */
+e_fumesplat: "enlightened_end:fumesplat",
+/** @type {string} */
+e_gloop: "enlightened_end:gloop",
+/** @type {string} */
+e_bouncer: "enlightened_end:bouncer",
+/** @type {string} */
+e_stalker: "enlightened_end:stalker",
+/** @type {string} */
+e_void_leviathan: "enlightened_end:void_leviathan",
+/** @type {string} */
+e_activated_nuclear_bomb: "enlightened_end:activated_nuclear_bomb",
+/** @type {string} */
+e_falling_bounceling_nut: "enlightened_end:falling_bounceling_nut",
+/** @type {string} */
+e_disturbed_helium_gas: "enlightened_end:disturbed_helium_gas",
+/** @type {string} */
+e_disturbed_xenon_gas: "enlightened_end:disturbed_xenon_gas",
+/** @type {string} */
+e_falling_heliosand: "enlightened_end:falling_heliosand",
+/** @type {string} */
+e_ooze_bubble: "enlightened_end:ooze_bubble",
+/** @type {string} */
+e_radiator: "enlightened_end:radiator",
+/** @type {string} */
+e_eidolon: "enlightened_end:eidolon",
 
 };
 
@@ -1103,6 +1161,50 @@ e_cultist: "irons_spellbooks:cultist",
 e_ball_lightning: "irons_spellbooks:ball_lightning",
 
 };
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const entity_callfromthedepth_ = {
+    /** @type {string} */
+e_sculkcreeper: "callfromthedepth_:sculkcreeper",
+/** @type {string} */
+e_riper: "callfromthedepth_:riper",
+/** @type {string} */
+e_citadelguardian: "callfromthedepth_:citadelguardian",
+/** @type {string} */
+e_seeker: "callfromthedepth_:seeker",
+/** @type {string} */
+e_mushroom: "callfromthedepth_:mushroom",
+/** @type {string} */
+e_rotwalker: "callfromthedepth_:rotwalker",
+/** @type {string} */
+e_roteater: "callfromthedepth_:roteater",
+/** @type {string} */
+e_deepspider: "callfromthedepth_:deepspider",
+/** @type {string} */
+e_soulblast: "callfromthedepth_:soulblast",
+/** @type {string} */
+e_agonysoul: "callfromthedepth_:agonysoul",
+/** @type {string} */
+e_poison: "callfromthedepth_:poison",
+/** @type {string} */
+e_screamer: "callfromthedepth_:screamer",
+/** @type {string} */
+e_deepcitizen: "callfromthedepth_:deepcitizen",
+/** @type {string} */
+e_screamercreature: "callfromthedepth_:screamercreature",
+/** @type {string} */
+e_soularrowrange: "callfromthedepth_:soularrowrange",
+
+};
+
+
 
 
 /**
@@ -1608,6 +1710,40 @@ e_ocean_creeper: "creeperoverhaul:ocean_creeper",
  * @readonly
  * @enum {string}
  */
+const entity_crittersandcompanions = {
+    /** @type {string} */
+e_dragonfly: "crittersandcompanions:dragonfly",
+/** @type {string} */
+e_dumbo_octopus: "crittersandcompanions:dumbo_octopus",
+/** @type {string} */
+e_ferret: "crittersandcompanions:ferret",
+/** @type {string} */
+e_grappling_hook: "crittersandcompanions:grappling_hook",
+/** @type {string} */
+e_jumping_spider: "crittersandcompanions:jumping_spider",
+/** @type {string} */
+e_koi_fish: "crittersandcompanions:koi_fish",
+/** @type {string} */
+e_leaf_insect: "crittersandcompanions:leaf_insect",
+/** @type {string} */
+e_otter: "crittersandcompanions:otter",
+/** @type {string} */
+e_red_panda: "crittersandcompanions:red_panda",
+/** @type {string} */
+e_sea_bunny: "crittersandcompanions:sea_bunny",
+/** @type {string} */
+e_shima_enaga: "crittersandcompanions:shima_enaga",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const entity_aether = {
     /** @type {string} */
 e_phyg: "aether:phyg",
@@ -1696,6 +1832,82 @@ e_hammer_projectile: "aether:hammer_projectile",
  * @readonly
  * @enum {string}
  */
+const entity_naturalist = {
+    /** @type {string} */
+e_duck_egg: "naturalist:duck_egg",
+/** @type {string} */
+e_snail: "naturalist:snail",
+/** @type {string} */
+e_bear: "naturalist:bear",
+/** @type {string} */
+e_butterfly: "naturalist:butterfly",
+/** @type {string} */
+e_firefly: "naturalist:firefly",
+/** @type {string} */
+e_snake: "naturalist:snake",
+/** @type {string} */
+e_coral_snake: "naturalist:coral_snake",
+/** @type {string} */
+e_rattlesnake: "naturalist:rattlesnake",
+/** @type {string} */
+e_deer: "naturalist:deer",
+/** @type {string} */
+e_bluejay: "naturalist:bluejay",
+/** @type {string} */
+e_canary: "naturalist:canary",
+/** @type {string} */
+e_cardinal: "naturalist:cardinal",
+/** @type {string} */
+e_robin: "naturalist:robin",
+/** @type {string} */
+e_finch: "naturalist:finch",
+/** @type {string} */
+e_sparrow: "naturalist:sparrow",
+/** @type {string} */
+e_caterpillar: "naturalist:caterpillar",
+/** @type {string} */
+e_rhino: "naturalist:rhino",
+/** @type {string} */
+e_lion: "naturalist:lion",
+/** @type {string} */
+e_elephant: "naturalist:elephant",
+/** @type {string} */
+e_zebra: "naturalist:zebra",
+/** @type {string} */
+e_giraffe: "naturalist:giraffe",
+/** @type {string} */
+e_hippo: "naturalist:hippo",
+/** @type {string} */
+e_vulture: "naturalist:vulture",
+/** @type {string} */
+e_boar: "naturalist:boar",
+/** @type {string} */
+e_dragonfly: "naturalist:dragonfly",
+/** @type {string} */
+e_catfish: "naturalist:catfish",
+/** @type {string} */
+e_alligator: "naturalist:alligator",
+/** @type {string} */
+e_bass: "naturalist:bass",
+/** @type {string} */
+e_lizard: "naturalist:lizard",
+/** @type {string} */
+e_lizard_tail: "naturalist:lizard_tail",
+/** @type {string} */
+e_tortoise: "naturalist:tortoise",
+/** @type {string} */
+e_duck: "naturalist:duck",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const entity_immersive_aircraft = {
     /** @type {string} */
 e_gyrodyne: "immersive_aircraft:gyrodyne",
@@ -1722,250 +1934,6 @@ e_tiny_tnt: "immersive_aircraft:tiny_tnt",
  * @readonly
  * @enum {string}
  */
-const entity_alexsmobs = {
-    /** @type {string} */
-e_grizzly_bear: "alexsmobs:grizzly_bear",
-/** @type {string} */
-e_roadrunner: "alexsmobs:roadrunner",
-/** @type {string} */
-e_bone_serpent: "alexsmobs:bone_serpent",
-/** @type {string} */
-e_bone_serpent_part: "alexsmobs:bone_serpent_part",
-/** @type {string} */
-e_gazelle: "alexsmobs:gazelle",
-/** @type {string} */
-e_crocodile: "alexsmobs:crocodile",
-/** @type {string} */
-e_fly: "alexsmobs:fly",
-/** @type {string} */
-e_hummingbird: "alexsmobs:hummingbird",
-/** @type {string} */
-e_orca: "alexsmobs:orca",
-/** @type {string} */
-e_sunbird: "alexsmobs:sunbird",
-/** @type {string} */
-e_gorilla: "alexsmobs:gorilla",
-/** @type {string} */
-e_crimson_mosquito: "alexsmobs:crimson_mosquito",
-/** @type {string} */
-e_mosquito_spit: "alexsmobs:mosquito_spit",
-/** @type {string} */
-e_rattlesnake: "alexsmobs:rattlesnake",
-/** @type {string} */
-e_endergrade: "alexsmobs:endergrade",
-/** @type {string} */
-e_hammerhead_shark: "alexsmobs:hammerhead_shark",
-/** @type {string} */
-e_shark_tooth_arrow: "alexsmobs:shark_tooth_arrow",
-/** @type {string} */
-e_lobster: "alexsmobs:lobster",
-/** @type {string} */
-e_komodo_dragon: "alexsmobs:komodo_dragon",
-/** @type {string} */
-e_capuchin_monkey: "alexsmobs:capuchin_monkey",
-/** @type {string} */
-e_tossed_item: "alexsmobs:tossed_item",
-/** @type {string} */
-e_centipede_head: "alexsmobs:centipede_head",
-/** @type {string} */
-e_centipede_body: "alexsmobs:centipede_body",
-/** @type {string} */
-e_centipede_tail: "alexsmobs:centipede_tail",
-/** @type {string} */
-e_warped_toad: "alexsmobs:warped_toad",
-/** @type {string} */
-e_moose: "alexsmobs:moose",
-/** @type {string} */
-e_mimicube: "alexsmobs:mimicube",
-/** @type {string} */
-e_raccoon: "alexsmobs:raccoon",
-/** @type {string} */
-e_blobfish: "alexsmobs:blobfish",
-/** @type {string} */
-e_seal: "alexsmobs:seal",
-/** @type {string} */
-e_cockroach: "alexsmobs:cockroach",
-/** @type {string} */
-e_cockroach_egg: "alexsmobs:cockroach_egg",
-/** @type {string} */
-e_shoebill: "alexsmobs:shoebill",
-/** @type {string} */
-e_elephant: "alexsmobs:elephant",
-/** @type {string} */
-e_soul_vulture: "alexsmobs:soul_vulture",
-/** @type {string} */
-e_snow_leopard: "alexsmobs:snow_leopard",
-/** @type {string} */
-e_spectre: "alexsmobs:spectre",
-/** @type {string} */
-e_crow: "alexsmobs:crow",
-/** @type {string} */
-e_alligator_snapping_turtle: "alexsmobs:alligator_snapping_turtle",
-/** @type {string} */
-e_mungus: "alexsmobs:mungus",
-/** @type {string} */
-e_mantis_shrimp: "alexsmobs:mantis_shrimp",
-/** @type {string} */
-e_guster: "alexsmobs:guster",
-/** @type {string} */
-e_sand_shot: "alexsmobs:sand_shot",
-/** @type {string} */
-e_gust: "alexsmobs:gust",
-/** @type {string} */
-e_warped_mosco: "alexsmobs:warped_mosco",
-/** @type {string} */
-e_hemolymph: "alexsmobs:hemolymph",
-/** @type {string} */
-e_straddler: "alexsmobs:straddler",
-/** @type {string} */
-e_stradpole: "alexsmobs:stradpole",
-/** @type {string} */
-e_straddleboard: "alexsmobs:straddleboard",
-/** @type {string} */
-e_emu: "alexsmobs:emu",
-/** @type {string} */
-e_emu_egg: "alexsmobs:emu_egg",
-/** @type {string} */
-e_platypus: "alexsmobs:platypus",
-/** @type {string} */
-e_dropbear: "alexsmobs:dropbear",
-/** @type {string} */
-e_tasmanian_devil: "alexsmobs:tasmanian_devil",
-/** @type {string} */
-e_kangaroo: "alexsmobs:kangaroo",
-/** @type {string} */
-e_cachalot_whale: "alexsmobs:cachalot_whale",
-/** @type {string} */
-e_cachalot_echo: "alexsmobs:cachalot_echo",
-/** @type {string} */
-e_leafcutter_ant: "alexsmobs:leafcutter_ant",
-/** @type {string} */
-e_enderiophage: "alexsmobs:enderiophage",
-/** @type {string} */
-e_enderiophage_rocket: "alexsmobs:enderiophage_rocket",
-/** @type {string} */
-e_bald_eagle: "alexsmobs:bald_eagle",
-/** @type {string} */
-e_tiger: "alexsmobs:tiger",
-/** @type {string} */
-e_tarantula_hawk: "alexsmobs:tarantula_hawk",
-/** @type {string} */
-e_void_worm: "alexsmobs:void_worm",
-/** @type {string} */
-e_void_worm_part: "alexsmobs:void_worm_part",
-/** @type {string} */
-e_void_worm_shot: "alexsmobs:void_worm_shot",
-/** @type {string} */
-e_void_portal: "alexsmobs:void_portal",
-/** @type {string} */
-e_frilled_shark: "alexsmobs:frilled_shark",
-/** @type {string} */
-e_mimic_octopus: "alexsmobs:mimic_octopus",
-/** @type {string} */
-e_seagull: "alexsmobs:seagull",
-/** @type {string} */
-e_froststalker: "alexsmobs:froststalker",
-/** @type {string} */
-e_ice_shard: "alexsmobs:ice_shard",
-/** @type {string} */
-e_tusklin: "alexsmobs:tusklin",
-/** @type {string} */
-e_laviathan: "alexsmobs:laviathan",
-/** @type {string} */
-e_cosmaw: "alexsmobs:cosmaw",
-/** @type {string} */
-e_toucan: "alexsmobs:toucan",
-/** @type {string} */
-e_maned_wolf: "alexsmobs:maned_wolf",
-/** @type {string} */
-e_anaconda: "alexsmobs:anaconda",
-/** @type {string} */
-e_anaconda_part: "alexsmobs:anaconda_part",
-/** @type {string} */
-e_vine_lasso: "alexsmobs:vine_lasso",
-/** @type {string} */
-e_anteater: "alexsmobs:anteater",
-/** @type {string} */
-e_rocky_roller: "alexsmobs:rocky_roller",
-/** @type {string} */
-e_flutter: "alexsmobs:flutter",
-/** @type {string} */
-e_pollen_ball: "alexsmobs:pollen_ball",
-/** @type {string} */
-e_gelada_monkey: "alexsmobs:gelada_monkey",
-/** @type {string} */
-e_jerboa: "alexsmobs:jerboa",
-/** @type {string} */
-e_terrapin: "alexsmobs:terrapin",
-/** @type {string} */
-e_comb_jelly: "alexsmobs:comb_jelly",
-/** @type {string} */
-e_cosmic_cod: "alexsmobs:cosmic_cod",
-/** @type {string} */
-e_bunfungus: "alexsmobs:bunfungus",
-/** @type {string} */
-e_bison: "alexsmobs:bison",
-/** @type {string} */
-e_giant_squid: "alexsmobs:giant_squid",
-/** @type {string} */
-e_squid_grapple: "alexsmobs:squid_grapple",
-/** @type {string} */
-e_sea_bear: "alexsmobs:sea_bear",
-/** @type {string} */
-e_devils_hole_pupfish: "alexsmobs:devils_hole_pupfish",
-/** @type {string} */
-e_catfish: "alexsmobs:catfish",
-/** @type {string} */
-e_flying_fish: "alexsmobs:flying_fish",
-/** @type {string} */
-e_skelewag: "alexsmobs:skelewag",
-/** @type {string} */
-e_rain_frog: "alexsmobs:rain_frog",
-/** @type {string} */
-e_potoo: "alexsmobs:potoo",
-/** @type {string} */
-e_mudskipper: "alexsmobs:mudskipper",
-/** @type {string} */
-e_mud_ball: "alexsmobs:mud_ball",
-/** @type {string} */
-e_rhinoceros: "alexsmobs:rhinoceros",
-/** @type {string} */
-e_sugar_glider: "alexsmobs:sugar_glider",
-/** @type {string} */
-e_farseer: "alexsmobs:farseer",
-/** @type {string} */
-e_skreecher: "alexsmobs:skreecher",
-/** @type {string} */
-e_underminer: "alexsmobs:underminer",
-/** @type {string} */
-e_murmur: "alexsmobs:murmur",
-/** @type {string} */
-e_murmur_head: "alexsmobs:murmur_head",
-/** @type {string} */
-e_tendon_segment: "alexsmobs:tendon_segment",
-/** @type {string} */
-e_skunk: "alexsmobs:skunk",
-/** @type {string} */
-e_fart: "alexsmobs:fart",
-/** @type {string} */
-e_banana_slug: "alexsmobs:banana_slug",
-/** @type {string} */
-e_blue_jay: "alexsmobs:blue_jay",
-/** @type {string} */
-e_caiman: "alexsmobs:caiman",
-/** @type {string} */
-e_triops: "alexsmobs:triops",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
 const entity_railways = {
     /** @type {string} */
 e_benchcart: "railways:benchcart",
@@ -1973,20 +1941,6 @@ e_benchcart: "railways:benchcart",
 e_jukeboxcart: "railways:jukeboxcart",
 /** @type {string} */
 e_conductor: "railways:conductor",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
-const entity_dummmmmmy = {
-    /** @type {string} */
-e_target_dummy: "dummmmmmy:target_dummy",
 
 };
 
@@ -2030,23 +1984,23 @@ e_weighted_anchor: "cuffed:weighted_anchor",
  * @readonly
  * @enum {string}
  */
-const entity_deeperdarker = {
+const entity_mokels_boss_mantyd = {
     /** @type {string} */
-e_boat: "deeperdarker:boat",
+e_boss_mantyd: "mokels_boss_mantyd:boss_mantyd",
 /** @type {string} */
-e_chest_boat: "deeperdarker:chest_boat",
+e_petal_projectile: "mokels_boss_mantyd:petal_projectile",
 /** @type {string} */
-e_sculk_centipede: "deeperdarker:sculk_centipede",
+e_mantyd_bloom: "mokels_boss_mantyd:mantyd_bloom",
 /** @type {string} */
-e_sculk_leech: "deeperdarker:sculk_leech",
+e_mantyd_boss_spawn: "mokels_boss_mantyd:mantyd_boss_spawn",
 /** @type {string} */
-e_sculk_snapper: "deeperdarker:sculk_snapper",
+e_mantydbossdead: "mokels_boss_mantyd:mantydbossdead",
 /** @type {string} */
-e_shattered: "deeperdarker:shattered",
+e_mantydbosssiting: "mokels_boss_mantyd:mantydbosssiting",
 /** @type {string} */
-e_shriek_worm: "deeperdarker:shriek_worm",
+e_mantydboss_echo: "mokels_boss_mantyd:mantydboss_echo",
 /** @type {string} */
-e_stalker: "deeperdarker:stalker",
+e_mantydbosssitingtwo: "mokels_boss_mantyd:mantydbosssitingtwo",
 
 };
 
@@ -2236,6 +2190,42 @@ e_brass_cube_r: "create_sa:brass_cube_r",
  * @readonly
  * @enum {string}
  */
+const entity_call_of_yucutan = {
+    /** @type {string} */
+e_ah_puch: "call_of_yucutan:ah_puch",
+/** @type {string} */
+e_mitnal_monkey: "call_of_yucutan:mitnal_monkey",
+/** @type {string} */
+e_kukulkan: "call_of_yucutan:kukulkan",
+/** @type {string} */
+e_kukulkan_pr: "call_of_yucutan:kukulkan_pr",
+/** @type {string} */
+e_undead_warrior: "call_of_yucutan:undead_warrior",
+/** @type {string} */
+e_blowgun_huracan: "call_of_yucutan:blowgun_huracan",
+/** @type {string} */
+e_dart: "call_of_yucutan:dart",
+/** @type {string} */
+e_updater: "call_of_yucutan:updater",
+/** @type {string} */
+e_golden_guard: "call_of_yucutan:golden_guard",
+/** @type {string} */
+e_obsidian_arrow_projectile: "call_of_yucutan:obsidian_arrow_projectile",
+/** @type {string} */
+e_chaac: "call_of_yucutan:chaac",
+/** @type {string} */
+e_ahaw: "call_of_yucutan:ahaw",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const entity_blueprint = {
     /** @type {string} */
 e_boat: "blueprint:boat",
@@ -2327,9 +2317,9 @@ e_resistive_sentinel: "endlessbiomes:resistive_sentinel",
 
 /**
  * Auto-generated Typedef
- * @typedef {entity_minecraft | entity_betternether | entity_betterend | entity_bclib | entity_supplementaries | entity_handcrafted | entity_tombstone | entity_mutantmonsters | entity_endertrigon | entity_kobolds | entity_biomesoplenty | entity_lootr | entity_doggytalents | entity_insanelib | entity_mimic | entity_apotheosis | entity_sophisticatedbackpacks | entity_progressivebosses | entity_undergarden | entity_goblintraders | entity_obscure_api | entity_outer_end | entity_bosses_of_mass_destruction | entity_endermanoverhaul | entity_minecolonies | entity_perfectplushies | entity_man_of_many_planes | entity_irons_spellbooks | entity_shetiphiancore | entity_origins | entity_theabyss | entity_mcwfurnitures | entity_mythicmounts | entity_aquaculture | entity_medievalorigins | entity_aquamirae | entity_blue_skies | entity_creeperoverhaul | entity_aether | entity_immersive_aircraft | entity_alexsmobs | entity_railways | entity_dummmmmmy | entity_farmersdelight | entity_cuffed | entity_deeperdarker | entity_doapi | entity_terraform | entity_vinery | entity_bakery | entity_brewery | entity_meadow | entity_beachparty | entity_smallships | entity_create | entity_blueprint | entity_apugli | entity_create_sa | entity_endlessbiomes} entity
+ * @typedef {entity_minecraft | entity_betternether | entity_bclib | entity_supplementaries | entity_handcrafted | entity_tombstone | entity_trials | entity_mutantmonsters | entity_endertrigon | entity_kobolds | entity_biomesoplenty | entity_lootr | entity_phantasm | entity_doggytalents | entity_insanelib | entity_mimic | entity_apotheosis | entity_sophisticatedbackpacks | entity_progressivebosses | entity_undergarden | entity_goblintraders | entity_obscure_api | entity_enlightened_end | entity_outer_end | entity_bosses_of_mass_destruction | entity_endermanoverhaul | entity_minecolonies | entity_perfectplushies | entity_man_of_many_planes | entity_irons_spellbooks | entity_callfromthedepth_ | entity_shetiphiancore | entity_origins | entity_theabyss | entity_mcwfurnitures | entity_mythicmounts | entity_aquaculture | entity_medievalorigins | entity_aquamirae | entity_blue_skies | entity_creeperoverhaul | entity_crittersandcompanions | entity_aether | entity_naturalist | entity_immersive_aircraft | entity_railways | entity_farmersdelight | entity_cuffed | entity_mokels_boss_mantyd | entity_doapi | entity_terraform | entity_vinery | entity_bakery | entity_brewery | entity_meadow | entity_beachparty | entity_smallships | entity_create | entity_call_of_yucutan | entity_blueprint | entity_apugli | entity_create_sa | entity_endlessbiomes} entity
  */
 
 module.exports = {
-    entity_minecraft, entity_betternether, entity_betterend, entity_bclib, entity_supplementaries, entity_handcrafted, entity_tombstone, entity_mutantmonsters, entity_endertrigon, entity_kobolds, entity_biomesoplenty, entity_lootr, entity_doggytalents, entity_insanelib, entity_mimic, entity_apotheosis, entity_sophisticatedbackpacks, entity_progressivebosses, entity_undergarden, entity_goblintraders, entity_obscure_api, entity_outer_end, entity_bosses_of_mass_destruction, entity_endermanoverhaul, entity_minecolonies, entity_perfectplushies, entity_man_of_many_planes, entity_irons_spellbooks, entity_shetiphiancore, entity_origins, entity_theabyss, entity_mcwfurnitures, entity_mythicmounts, entity_aquaculture, entity_medievalorigins, entity_aquamirae, entity_blue_skies, entity_creeperoverhaul, entity_aether, entity_immersive_aircraft, entity_alexsmobs, entity_railways, entity_dummmmmmy, entity_farmersdelight, entity_cuffed, entity_deeperdarker, entity_doapi, entity_terraform, entity_vinery, entity_bakery, entity_brewery, entity_meadow, entity_beachparty, entity_smallships, entity_create, entity_blueprint, entity_apugli, entity_create_sa, entity_endlessbiomes
+    entity_minecraft, entity_betternether, entity_bclib, entity_supplementaries, entity_handcrafted, entity_tombstone, entity_trials, entity_mutantmonsters, entity_endertrigon, entity_kobolds, entity_biomesoplenty, entity_lootr, entity_phantasm, entity_doggytalents, entity_insanelib, entity_mimic, entity_apotheosis, entity_sophisticatedbackpacks, entity_progressivebosses, entity_undergarden, entity_goblintraders, entity_obscure_api, entity_enlightened_end, entity_outer_end, entity_bosses_of_mass_destruction, entity_endermanoverhaul, entity_minecolonies, entity_perfectplushies, entity_man_of_many_planes, entity_irons_spellbooks, entity_callfromthedepth_, entity_shetiphiancore, entity_origins, entity_theabyss, entity_mcwfurnitures, entity_mythicmounts, entity_aquaculture, entity_medievalorigins, entity_aquamirae, entity_blue_skies, entity_creeperoverhaul, entity_crittersandcompanions, entity_aether, entity_naturalist, entity_immersive_aircraft, entity_railways, entity_farmersdelight, entity_cuffed, entity_mokels_boss_mantyd, entity_doapi, entity_terraform, entity_vinery, entity_bakery, entity_brewery, entity_meadow, entity_beachparty, entity_smallships, entity_create, entity_call_of_yucutan, entity_blueprint, entity_apugli, entity_create_sa, entity_endlessbiomes
 }

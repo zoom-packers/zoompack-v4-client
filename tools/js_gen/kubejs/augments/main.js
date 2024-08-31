@@ -6,8 +6,8 @@ const {
     item_aether,
     item_betternether,
     item_undergarden,
-    item_betterend,
-    item_deeperdarker,
+    item_callfromthedepth_,
+    item_ender_dragon_loot_,
     item_theabyss,
     item_irons_spellbooks
 } = require("../../typedefs/item_typedefs");
@@ -191,9 +191,9 @@ function getTierItemBase(tier) {
         case 5:
             return item_undergarden.i_froststeel_ingot;
         case 6:
-            return item_betterend.i_thallasium_forged_plate;
+            return item_ender_dragon_loot_.i_dragon_scale;
         case 7:
-            return "callfromthedepth_:immemorialingot";
+            return item_callfromthedepth_.i_immemorialingot;
         case 8:
             return item_theabyss.i_fixed_bone;
     }

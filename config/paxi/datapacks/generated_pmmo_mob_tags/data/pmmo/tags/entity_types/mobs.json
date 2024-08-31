@@ -131,12 +131,6 @@
         "betternether:jungle_skeleton",
         "betternether:skull",
         "betternether:naga_projectile",
-        "betterend:dragonfly",
-        "betterend:end_slime",
-        "betterend:end_fish",
-        "betterend:shadow_walker",
-        "betterend:cubozoa",
-        "betterend:silk_moth",
         "bclib:chair",
         "supplementaries:pearl_marker",
         "supplementaries:dispenser_minecart",
@@ -821,6 +815,17 @@
         "mokels_boss_mantyd:mantydboss_echo",
         "mokels_boss_mantyd:mantydbossdead",
         "mokels_boss_mantyd:mantydbosssiting",
-        "mokels_boss_mantyd:mantydbosssitingtwo"
+        "mokels_boss_mantyd:mantydbosssitingtwo",
+        "phantasm:behemoth",
+        "phantasm:crystie",
+        "enlightened_end:bouncer",
+        "enlightened_end:eidolon",
+        "enlightened_end:floating_elevibloom",
+        "enlightened_end:fumesplat",
+        "enlightened_end:gloop",
+        "enlightened_end:radiator",
+        "enlightened_end:ringling",
+        "enlightened_end:stalker",
+        "enlightened_end:void_leviathan"
     ]
 }

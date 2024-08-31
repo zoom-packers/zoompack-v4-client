@@ -3158,1470 +3158,6 @@ b_golden_lumabus_seed: "betternether:golden_lumabus_seed",
  * @readonly
  * @enum {string}
  */
-const block_lootcrates = {
-    /** @type {string} */
-b_common_chest_loot_crate: "lootcrates:common_chest_loot_crate",
-/** @type {string} */
-b_common_shulker_loot_crate: "lootcrates:common_shulker_loot_crate",
-/** @type {string} */
-b_common_loot_barrel: "lootcrates:common_loot_barrel",
-/** @type {string} */
-b_uncommon_chest_loot_crate: "lootcrates:uncommon_chest_loot_crate",
-/** @type {string} */
-b_uncommon_shulker_loot_crate: "lootcrates:uncommon_shulker_loot_crate",
-/** @type {string} */
-b_uncommon_loot_barrel: "lootcrates:uncommon_loot_barrel",
-/** @type {string} */
-b_rare_chest_loot_crate: "lootcrates:rare_chest_loot_crate",
-/** @type {string} */
-b_rare_shulker_loot_crate: "lootcrates:rare_shulker_loot_crate",
-/** @type {string} */
-b_rare_loot_barrel: "lootcrates:rare_loot_barrel",
-/** @type {string} */
-b_epic_chest_loot_crate: "lootcrates:epic_chest_loot_crate",
-/** @type {string} */
-b_epic_shulker_loot_crate: "lootcrates:epic_shulker_loot_crate",
-/** @type {string} */
-b_epic_loot_barrel: "lootcrates:epic_loot_barrel",
-/** @type {string} */
-b_ghost_chest_loot_crate: "lootcrates:ghost_chest_loot_crate",
-/** @type {string} */
-b_ghost_shulker_loot_crate: "lootcrates:ghost_shulker_loot_crate",
-/** @type {string} */
-b_ghost_loot_barrel: "lootcrates:ghost_loot_barrel",
-/** @type {string} */
-b_blaze_chest_loot_crate: "lootcrates:blaze_chest_loot_crate",
-/** @type {string} */
-b_blaze_shulker_loot_crate: "lootcrates:blaze_shulker_loot_crate",
-/** @type {string} */
-b_blaze_loot_barrel: "lootcrates:blaze_loot_barrel",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
-const block_betterend = {
-    /** @type {string} */
-b_endstone_dust: "betterend:endstone_dust",
-/** @type {string} */
-b_end_mycelium: "betterend:end_mycelium",
-/** @type {string} */
-b_end_moss: "betterend:end_moss",
-/** @type {string} */
-b_chorus_nylium: "betterend:chorus_nylium",
-/** @type {string} */
-b_cave_moss: "betterend:cave_moss",
-/** @type {string} */
-b_crystal_moss: "betterend:crystal_moss",
-/** @type {string} */
-b_shadow_grass: "betterend:shadow_grass",
-/** @type {string} */
-b_pink_moss: "betterend:pink_moss",
-/** @type {string} */
-b_amber_moss: "betterend:amber_moss",
-/** @type {string} */
-b_jungle_moss: "betterend:jungle_moss",
-/** @type {string} */
-b_sangnum: "betterend:sangnum",
-/** @type {string} */
-b_rutiscus: "betterend:rutiscus",
-/** @type {string} */
-b_pallidium_full: "betterend:pallidium_full",
-/** @type {string} */
-b_pallidium_heavy: "betterend:pallidium_heavy",
-/** @type {string} */
-b_pallidium_thin: "betterend:pallidium_thin",
-/** @type {string} */
-b_pallidium_tiny: "betterend:pallidium_tiny",
-/** @type {string} */
-b_end_mycelium_path: "betterend:end_mycelium_path",
-/** @type {string} */
-b_end_moss_path: "betterend:end_moss_path",
-/** @type {string} */
-b_chorus_nylium_path: "betterend:chorus_nylium_path",
-/** @type {string} */
-b_cave_moss_path: "betterend:cave_moss_path",
-/** @type {string} */
-b_crystal_moss_path: "betterend:crystal_moss_path",
-/** @type {string} */
-b_shadow_grass_path: "betterend:shadow_grass_path",
-/** @type {string} */
-b_pink_moss_path: "betterend:pink_moss_path",
-/** @type {string} */
-b_amber_moss_path: "betterend:amber_moss_path",
-/** @type {string} */
-b_jungle_moss_path: "betterend:jungle_moss_path",
-/** @type {string} */
-b_sangnum_path: "betterend:sangnum_path",
-/** @type {string} */
-b_rutiscus_path: "betterend:rutiscus_path",
-/** @type {string} */
-b_mossy_obsidian: "betterend:mossy_obsidian",
-/** @type {string} */
-b_dragon_bone_block: "betterend:dragon_bone_block",
-/** @type {string} */
-b_dragon_bone_stairs: "betterend:dragon_bone_stairs",
-/** @type {string} */
-b_dragon_bone_slab: "betterend:dragon_bone_slab",
-/** @type {string} */
-b_mossy_dragon_bone: "betterend:mossy_dragon_bone",
-/** @type {string} */
-b_flavolite: "betterend:flavolite",
-/** @type {string} */
-b_flavolite_polished: "betterend:flavolite_polished",
-/** @type {string} */
-b_flavolite_tiles: "betterend:flavolite_tiles",
-/** @type {string} */
-b_flavolite_pillar: "betterend:flavolite_pillar",
-/** @type {string} */
-b_flavolite_stairs: "betterend:flavolite_stairs",
-/** @type {string} */
-b_flavolite_slab: "betterend:flavolite_slab",
-/** @type {string} */
-b_flavolite_wall: "betterend:flavolite_wall",
-/** @type {string} */
-b_flavolite_button: "betterend:flavolite_button",
-/** @type {string} */
-b_flavolite_plate: "betterend:flavolite_plate",
-/** @type {string} */
-b_flavolite_pedestal: "betterend:flavolite_pedestal",
-/** @type {string} */
-b_flavolite_lantern: "betterend:flavolite_lantern",
-/** @type {string} */
-b_flavolite_bricks: "betterend:flavolite_bricks",
-/** @type {string} */
-b_flavolite_bricks_stairs: "betterend:flavolite_bricks_stairs",
-/** @type {string} */
-b_flavolite_bricks_slab: "betterend:flavolite_bricks_slab",
-/** @type {string} */
-b_flavolite_bricks_wall: "betterend:flavolite_bricks_wall",
-/** @type {string} */
-b_flavolite_furnace: "betterend:flavolite_furnace",
-/** @type {string} */
-b_flavolite_flower_pot: "betterend:flavolite_flower_pot",
-/** @type {string} */
-b_violecite: "betterend:violecite",
-/** @type {string} */
-b_violecite_polished: "betterend:violecite_polished",
-/** @type {string} */
-b_violecite_tiles: "betterend:violecite_tiles",
-/** @type {string} */
-b_violecite_pillar: "betterend:violecite_pillar",
-/** @type {string} */
-b_violecite_stairs: "betterend:violecite_stairs",
-/** @type {string} */
-b_violecite_slab: "betterend:violecite_slab",
-/** @type {string} */
-b_violecite_wall: "betterend:violecite_wall",
-/** @type {string} */
-b_violecite_button: "betterend:violecite_button",
-/** @type {string} */
-b_violecite_plate: "betterend:violecite_plate",
-/** @type {string} */
-b_violecite_pedestal: "betterend:violecite_pedestal",
-/** @type {string} */
-b_violecite_lantern: "betterend:violecite_lantern",
-/** @type {string} */
-b_violecite_bricks: "betterend:violecite_bricks",
-/** @type {string} */
-b_violecite_bricks_stairs: "betterend:violecite_bricks_stairs",
-/** @type {string} */
-b_violecite_bricks_slab: "betterend:violecite_bricks_slab",
-/** @type {string} */
-b_violecite_bricks_wall: "betterend:violecite_bricks_wall",
-/** @type {string} */
-b_violecite_furnace: "betterend:violecite_furnace",
-/** @type {string} */
-b_violecite_flower_pot: "betterend:violecite_flower_pot",
-/** @type {string} */
-b_sulphuric_rock: "betterend:sulphuric_rock",
-/** @type {string} */
-b_sulphuric_rock_polished: "betterend:sulphuric_rock_polished",
-/** @type {string} */
-b_sulphuric_rock_tiles: "betterend:sulphuric_rock_tiles",
-/** @type {string} */
-b_sulphuric_rock_pillar: "betterend:sulphuric_rock_pillar",
-/** @type {string} */
-b_sulphuric_rock_stairs: "betterend:sulphuric_rock_stairs",
-/** @type {string} */
-b_sulphuric_rock_slab: "betterend:sulphuric_rock_slab",
-/** @type {string} */
-b_sulphuric_rock_wall: "betterend:sulphuric_rock_wall",
-/** @type {string} */
-b_sulphuric_rock_button: "betterend:sulphuric_rock_button",
-/** @type {string} */
-b_sulphuric_rock_plate: "betterend:sulphuric_rock_plate",
-/** @type {string} */
-b_sulphuric_rock_pedestal: "betterend:sulphuric_rock_pedestal",
-/** @type {string} */
-b_sulphuric_rock_lantern: "betterend:sulphuric_rock_lantern",
-/** @type {string} */
-b_sulphuric_rock_bricks: "betterend:sulphuric_rock_bricks",
-/** @type {string} */
-b_sulphuric_rock_bricks_stairs: "betterend:sulphuric_rock_bricks_stairs",
-/** @type {string} */
-b_sulphuric_rock_bricks_slab: "betterend:sulphuric_rock_bricks_slab",
-/** @type {string} */
-b_sulphuric_rock_bricks_wall: "betterend:sulphuric_rock_bricks_wall",
-/** @type {string} */
-b_sulphuric_rock_furnace: "betterend:sulphuric_rock_furnace",
-/** @type {string} */
-b_sulphuric_rock_flower_pot: "betterend:sulphuric_rock_flower_pot",
-/** @type {string} */
-b_virid_jadestone: "betterend:virid_jadestone",
-/** @type {string} */
-b_virid_jadestone_polished: "betterend:virid_jadestone_polished",
-/** @type {string} */
-b_virid_jadestone_tiles: "betterend:virid_jadestone_tiles",
-/** @type {string} */
-b_virid_jadestone_pillar: "betterend:virid_jadestone_pillar",
-/** @type {string} */
-b_virid_jadestone_stairs: "betterend:virid_jadestone_stairs",
-/** @type {string} */
-b_virid_jadestone_slab: "betterend:virid_jadestone_slab",
-/** @type {string} */
-b_virid_jadestone_wall: "betterend:virid_jadestone_wall",
-/** @type {string} */
-b_virid_jadestone_button: "betterend:virid_jadestone_button",
-/** @type {string} */
-b_virid_jadestone_plate: "betterend:virid_jadestone_plate",
-/** @type {string} */
-b_virid_jadestone_pedestal: "betterend:virid_jadestone_pedestal",
-/** @type {string} */
-b_virid_jadestone_lantern: "betterend:virid_jadestone_lantern",
-/** @type {string} */
-b_virid_jadestone_bricks: "betterend:virid_jadestone_bricks",
-/** @type {string} */
-b_virid_jadestone_bricks_stairs: "betterend:virid_jadestone_bricks_stairs",
-/** @type {string} */
-b_virid_jadestone_bricks_slab: "betterend:virid_jadestone_bricks_slab",
-/** @type {string} */
-b_virid_jadestone_bricks_wall: "betterend:virid_jadestone_bricks_wall",
-/** @type {string} */
-b_virid_jadestone_furnace: "betterend:virid_jadestone_furnace",
-/** @type {string} */
-b_virid_jadestone_flower_pot: "betterend:virid_jadestone_flower_pot",
-/** @type {string} */
-b_azure_jadestone: "betterend:azure_jadestone",
-/** @type {string} */
-b_azure_jadestone_polished: "betterend:azure_jadestone_polished",
-/** @type {string} */
-b_azure_jadestone_tiles: "betterend:azure_jadestone_tiles",
-/** @type {string} */
-b_azure_jadestone_pillar: "betterend:azure_jadestone_pillar",
-/** @type {string} */
-b_azure_jadestone_stairs: "betterend:azure_jadestone_stairs",
-/** @type {string} */
-b_azure_jadestone_slab: "betterend:azure_jadestone_slab",
-/** @type {string} */
-b_azure_jadestone_wall: "betterend:azure_jadestone_wall",
-/** @type {string} */
-b_azure_jadestone_button: "betterend:azure_jadestone_button",
-/** @type {string} */
-b_azure_jadestone_plate: "betterend:azure_jadestone_plate",
-/** @type {string} */
-b_azure_jadestone_pedestal: "betterend:azure_jadestone_pedestal",
-/** @type {string} */
-b_azure_jadestone_lantern: "betterend:azure_jadestone_lantern",
-/** @type {string} */
-b_azure_jadestone_bricks: "betterend:azure_jadestone_bricks",
-/** @type {string} */
-b_azure_jadestone_bricks_stairs: "betterend:azure_jadestone_bricks_stairs",
-/** @type {string} */
-b_azure_jadestone_bricks_slab: "betterend:azure_jadestone_bricks_slab",
-/** @type {string} */
-b_azure_jadestone_bricks_wall: "betterend:azure_jadestone_bricks_wall",
-/** @type {string} */
-b_azure_jadestone_furnace: "betterend:azure_jadestone_furnace",
-/** @type {string} */
-b_azure_jadestone_flower_pot: "betterend:azure_jadestone_flower_pot",
-/** @type {string} */
-b_sandy_jadestone: "betterend:sandy_jadestone",
-/** @type {string} */
-b_sandy_jadestone_polished: "betterend:sandy_jadestone_polished",
-/** @type {string} */
-b_sandy_jadestone_tiles: "betterend:sandy_jadestone_tiles",
-/** @type {string} */
-b_sandy_jadestone_pillar: "betterend:sandy_jadestone_pillar",
-/** @type {string} */
-b_sandy_jadestone_stairs: "betterend:sandy_jadestone_stairs",
-/** @type {string} */
-b_sandy_jadestone_slab: "betterend:sandy_jadestone_slab",
-/** @type {string} */
-b_sandy_jadestone_wall: "betterend:sandy_jadestone_wall",
-/** @type {string} */
-b_sandy_jadestone_button: "betterend:sandy_jadestone_button",
-/** @type {string} */
-b_sandy_jadestone_plate: "betterend:sandy_jadestone_plate",
-/** @type {string} */
-b_sandy_jadestone_pedestal: "betterend:sandy_jadestone_pedestal",
-/** @type {string} */
-b_sandy_jadestone_lantern: "betterend:sandy_jadestone_lantern",
-/** @type {string} */
-b_sandy_jadestone_bricks: "betterend:sandy_jadestone_bricks",
-/** @type {string} */
-b_sandy_jadestone_bricks_stairs: "betterend:sandy_jadestone_bricks_stairs",
-/** @type {string} */
-b_sandy_jadestone_bricks_slab: "betterend:sandy_jadestone_bricks_slab",
-/** @type {string} */
-b_sandy_jadestone_bricks_wall: "betterend:sandy_jadestone_bricks_wall",
-/** @type {string} */
-b_sandy_jadestone_furnace: "betterend:sandy_jadestone_furnace",
-/** @type {string} */
-b_sandy_jadestone_flower_pot: "betterend:sandy_jadestone_flower_pot",
-/** @type {string} */
-b_umbralith: "betterend:umbralith",
-/** @type {string} */
-b_umbralith_polished: "betterend:umbralith_polished",
-/** @type {string} */
-b_umbralith_tiles: "betterend:umbralith_tiles",
-/** @type {string} */
-b_umbralith_pillar: "betterend:umbralith_pillar",
-/** @type {string} */
-b_umbralith_stairs: "betterend:umbralith_stairs",
-/** @type {string} */
-b_umbralith_slab: "betterend:umbralith_slab",
-/** @type {string} */
-b_umbralith_wall: "betterend:umbralith_wall",
-/** @type {string} */
-b_umbralith_button: "betterend:umbralith_button",
-/** @type {string} */
-b_umbralith_plate: "betterend:umbralith_plate",
-/** @type {string} */
-b_umbralith_pedestal: "betterend:umbralith_pedestal",
-/** @type {string} */
-b_umbralith_lantern: "betterend:umbralith_lantern",
-/** @type {string} */
-b_umbralith_bricks: "betterend:umbralith_bricks",
-/** @type {string} */
-b_umbralith_bricks_stairs: "betterend:umbralith_bricks_stairs",
-/** @type {string} */
-b_umbralith_bricks_slab: "betterend:umbralith_bricks_slab",
-/** @type {string} */
-b_umbralith_bricks_wall: "betterend:umbralith_bricks_wall",
-/** @type {string} */
-b_umbralith_furnace: "betterend:umbralith_furnace",
-/** @type {string} */
-b_umbralith_flower_pot: "betterend:umbralith_flower_pot",
-/** @type {string} */
-b_brimstone: "betterend:brimstone",
-/** @type {string} */
-b_sulphur_crystal: "betterend:sulphur_crystal",
-/** @type {string} */
-b_missing_tile: "betterend:missing_tile",
-/** @type {string} */
-b_endstone_flower_pot: "betterend:endstone_flower_pot",
-/** @type {string} */
-b_flavolite_runed: "betterend:flavolite_runed",
-/** @type {string} */
-b_flavolite_runed_eternal: "betterend:flavolite_runed_eternal",
-/** @type {string} */
-b_andesite_pedestal: "betterend:andesite_pedestal",
-/** @type {string} */
-b_diorite_pedestal: "betterend:diorite_pedestal",
-/** @type {string} */
-b_granite_pedestal: "betterend:granite_pedestal",
-/** @type {string} */
-b_quartz_pedestal: "betterend:quartz_pedestal",
-/** @type {string} */
-b_purpur_pedestal: "betterend:purpur_pedestal",
-/** @type {string} */
-b_hydrothermal_vent: "betterend:hydrothermal_vent",
-/** @type {string} */
-b_vent_bubble_column: "betterend:vent_bubble_column",
-/** @type {string} */
-b_dense_snow: "betterend:dense_snow",
-/** @type {string} */
-b_emerald_ice: "betterend:emerald_ice",
-/** @type {string} */
-b_dense_emerald_ice: "betterend:dense_emerald_ice",
-/** @type {string} */
-b_ancient_emerald_ice: "betterend:ancient_emerald_ice",
-/** @type {string} */
-b_end_stone_stalactite: "betterend:end_stone_stalactite",
-/** @type {string} */
-b_end_stone_stalactite_cavemoss: "betterend:end_stone_stalactite_cavemoss",
-/** @type {string} */
-b_mossy_glowshroom_sapling: "betterend:mossy_glowshroom_sapling",
-/** @type {string} */
-b_mossy_glowshroom_cap: "betterend:mossy_glowshroom_cap",
-/** @type {string} */
-b_mossy_glowshroom_hymenophore: "betterend:mossy_glowshroom_hymenophore",
-/** @type {string} */
-b_mossy_glowshroom_fur: "betterend:mossy_glowshroom_fur",
-/** @type {string} */
-b_mossy_glowshroom_stripped_log: "betterend:mossy_glowshroom_stripped_log",
-/** @type {string} */
-b_mossy_glowshroom_stripped_bark: "betterend:mossy_glowshroom_stripped_bark",
-/** @type {string} */
-b_mossy_glowshroom_log: "betterend:mossy_glowshroom_log",
-/** @type {string} */
-b_mossy_glowshroom_bark: "betterend:mossy_glowshroom_bark",
-/** @type {string} */
-b_mossy_glowshroom_planks: "betterend:mossy_glowshroom_planks",
-/** @type {string} */
-b_mossy_glowshroom_stairs: "betterend:mossy_glowshroom_stairs",
-/** @type {string} */
-b_mossy_glowshroom_slab: "betterend:mossy_glowshroom_slab",
-/** @type {string} */
-b_mossy_glowshroom_fence: "betterend:mossy_glowshroom_fence",
-/** @type {string} */
-b_mossy_glowshroom_gate: "betterend:mossy_glowshroom_gate",
-/** @type {string} */
-b_mossy_glowshroom_button: "betterend:mossy_glowshroom_button",
-/** @type {string} */
-b_mossy_glowshroom_plate: "betterend:mossy_glowshroom_plate",
-/** @type {string} */
-b_mossy_glowshroom_trapdoor: "betterend:mossy_glowshroom_trapdoor",
-/** @type {string} */
-b_mossy_glowshroom_door: "betterend:mossy_glowshroom_door",
-/** @type {string} */
-b_mossy_glowshroom_ladder: "betterend:mossy_glowshroom_ladder",
-/** @type {string} */
-b_mossy_glowshroom_sign: "betterend:mossy_glowshroom_sign",
-/** @type {string} */
-b_mossy_glowshroom_wall_sign: "betterend:mossy_glowshroom_wall_sign",
-/** @type {string} */
-b_mossy_glowshroom_chest: "betterend:mossy_glowshroom_chest",
-/** @type {string} */
-b_mossy_glowshroom_barrel: "betterend:mossy_glowshroom_barrel",
-/** @type {string} */
-b_mossy_glowshroom_crafting_table: "betterend:mossy_glowshroom_crafting_table",
-/** @type {string} */
-b_mossy_glowshroom_bookshelf: "betterend:mossy_glowshroom_bookshelf",
-/** @type {string} */
-b_mossy_glowshroom_composter: "betterend:mossy_glowshroom_composter",
-/** @type {string} */
-b_mossy_glowshroom_hanging_sign: "betterend:mossy_glowshroom_hanging_sign",
-/** @type {string} */
-b_mossy_glowshroom_wall_hanging_sign: "betterend:mossy_glowshroom_wall_hanging_sign",
-/** @type {string} */
-b_mossy_glowshroom_taburet: "betterend:mossy_glowshroom_taburet",
-/** @type {string} */
-b_mossy_glowshroom_bar_stool: "betterend:mossy_glowshroom_bar_stool",
-/** @type {string} */
-b_mossy_glowshroom_chair: "betterend:mossy_glowshroom_chair",
-/** @type {string} */
-b_mossy_glowshroom_wall: "betterend:mossy_glowshroom_wall",
-/** @type {string} */
-b_pythadendron_sapling: "betterend:pythadendron_sapling",
-/** @type {string} */
-b_pythadendron_leaves: "betterend:pythadendron_leaves",
-/** @type {string} */
-b_pythadendron_stripped_log: "betterend:pythadendron_stripped_log",
-/** @type {string} */
-b_pythadendron_stripped_bark: "betterend:pythadendron_stripped_bark",
-/** @type {string} */
-b_pythadendron_log: "betterend:pythadendron_log",
-/** @type {string} */
-b_pythadendron_bark: "betterend:pythadendron_bark",
-/** @type {string} */
-b_pythadendron_planks: "betterend:pythadendron_planks",
-/** @type {string} */
-b_pythadendron_stairs: "betterend:pythadendron_stairs",
-/** @type {string} */
-b_pythadendron_slab: "betterend:pythadendron_slab",
-/** @type {string} */
-b_pythadendron_fence: "betterend:pythadendron_fence",
-/** @type {string} */
-b_pythadendron_gate: "betterend:pythadendron_gate",
-/** @type {string} */
-b_pythadendron_button: "betterend:pythadendron_button",
-/** @type {string} */
-b_pythadendron_plate: "betterend:pythadendron_plate",
-/** @type {string} */
-b_pythadendron_trapdoor: "betterend:pythadendron_trapdoor",
-/** @type {string} */
-b_pythadendron_door: "betterend:pythadendron_door",
-/** @type {string} */
-b_pythadendron_ladder: "betterend:pythadendron_ladder",
-/** @type {string} */
-b_pythadendron_sign: "betterend:pythadendron_sign",
-/** @type {string} */
-b_pythadendron_wall_sign: "betterend:pythadendron_wall_sign",
-/** @type {string} */
-b_pythadendron_chest: "betterend:pythadendron_chest",
-/** @type {string} */
-b_pythadendron_barrel: "betterend:pythadendron_barrel",
-/** @type {string} */
-b_pythadendron_crafting_table: "betterend:pythadendron_crafting_table",
-/** @type {string} */
-b_pythadendron_bookshelf: "betterend:pythadendron_bookshelf",
-/** @type {string} */
-b_pythadendron_composter: "betterend:pythadendron_composter",
-/** @type {string} */
-b_pythadendron_hanging_sign: "betterend:pythadendron_hanging_sign",
-/** @type {string} */
-b_pythadendron_wall_hanging_sign: "betterend:pythadendron_wall_hanging_sign",
-/** @type {string} */
-b_pythadendron_taburet: "betterend:pythadendron_taburet",
-/** @type {string} */
-b_pythadendron_bar_stool: "betterend:pythadendron_bar_stool",
-/** @type {string} */
-b_pythadendron_chair: "betterend:pythadendron_chair",
-/** @type {string} */
-b_pythadendron_wall: "betterend:pythadendron_wall",
-/** @type {string} */
-b_end_lotus_seed: "betterend:end_lotus_seed",
-/** @type {string} */
-b_end_lotus_stem: "betterend:end_lotus_stem",
-/** @type {string} */
-b_end_lotus_leaf: "betterend:end_lotus_leaf",
-/** @type {string} */
-b_end_lotus_flower: "betterend:end_lotus_flower",
-/** @type {string} */
-b_end_lotus_stripped_log: "betterend:end_lotus_stripped_log",
-/** @type {string} */
-b_end_lotus_stripped_bark: "betterend:end_lotus_stripped_bark",
-/** @type {string} */
-b_end_lotus_log: "betterend:end_lotus_log",
-/** @type {string} */
-b_end_lotus_bark: "betterend:end_lotus_bark",
-/** @type {string} */
-b_end_lotus_planks: "betterend:end_lotus_planks",
-/** @type {string} */
-b_end_lotus_stairs: "betterend:end_lotus_stairs",
-/** @type {string} */
-b_end_lotus_slab: "betterend:end_lotus_slab",
-/** @type {string} */
-b_end_lotus_fence: "betterend:end_lotus_fence",
-/** @type {string} */
-b_end_lotus_gate: "betterend:end_lotus_gate",
-/** @type {string} */
-b_end_lotus_button: "betterend:end_lotus_button",
-/** @type {string} */
-b_end_lotus_plate: "betterend:end_lotus_plate",
-/** @type {string} */
-b_end_lotus_trapdoor: "betterend:end_lotus_trapdoor",
-/** @type {string} */
-b_end_lotus_door: "betterend:end_lotus_door",
-/** @type {string} */
-b_end_lotus_ladder: "betterend:end_lotus_ladder",
-/** @type {string} */
-b_end_lotus_sign: "betterend:end_lotus_sign",
-/** @type {string} */
-b_end_lotus_wall_sign: "betterend:end_lotus_wall_sign",
-/** @type {string} */
-b_end_lotus_chest: "betterend:end_lotus_chest",
-/** @type {string} */
-b_end_lotus_barrel: "betterend:end_lotus_barrel",
-/** @type {string} */
-b_end_lotus_crafting_table: "betterend:end_lotus_crafting_table",
-/** @type {string} */
-b_end_lotus_bookshelf: "betterend:end_lotus_bookshelf",
-/** @type {string} */
-b_end_lotus_composter: "betterend:end_lotus_composter",
-/** @type {string} */
-b_end_lotus_hanging_sign: "betterend:end_lotus_hanging_sign",
-/** @type {string} */
-b_end_lotus_wall_hanging_sign: "betterend:end_lotus_wall_hanging_sign",
-/** @type {string} */
-b_end_lotus_taburet: "betterend:end_lotus_taburet",
-/** @type {string} */
-b_end_lotus_bar_stool: "betterend:end_lotus_bar_stool",
-/** @type {string} */
-b_end_lotus_chair: "betterend:end_lotus_chair",
-/** @type {string} */
-b_end_lotus_wall: "betterend:end_lotus_wall",
-/** @type {string} */
-b_lacugrove_sapling: "betterend:lacugrove_sapling",
-/** @type {string} */
-b_lacugrove_leaves: "betterend:lacugrove_leaves",
-/** @type {string} */
-b_lacugrove_stripped_log: "betterend:lacugrove_stripped_log",
-/** @type {string} */
-b_lacugrove_stripped_bark: "betterend:lacugrove_stripped_bark",
-/** @type {string} */
-b_lacugrove_log: "betterend:lacugrove_log",
-/** @type {string} */
-b_lacugrove_bark: "betterend:lacugrove_bark",
-/** @type {string} */
-b_lacugrove_planks: "betterend:lacugrove_planks",
-/** @type {string} */
-b_lacugrove_stairs: "betterend:lacugrove_stairs",
-/** @type {string} */
-b_lacugrove_slab: "betterend:lacugrove_slab",
-/** @type {string} */
-b_lacugrove_fence: "betterend:lacugrove_fence",
-/** @type {string} */
-b_lacugrove_gate: "betterend:lacugrove_gate",
-/** @type {string} */
-b_lacugrove_button: "betterend:lacugrove_button",
-/** @type {string} */
-b_lacugrove_plate: "betterend:lacugrove_plate",
-/** @type {string} */
-b_lacugrove_trapdoor: "betterend:lacugrove_trapdoor",
-/** @type {string} */
-b_lacugrove_door: "betterend:lacugrove_door",
-/** @type {string} */
-b_lacugrove_ladder: "betterend:lacugrove_ladder",
-/** @type {string} */
-b_lacugrove_sign: "betterend:lacugrove_sign",
-/** @type {string} */
-b_lacugrove_wall_sign: "betterend:lacugrove_wall_sign",
-/** @type {string} */
-b_lacugrove_chest: "betterend:lacugrove_chest",
-/** @type {string} */
-b_lacugrove_barrel: "betterend:lacugrove_barrel",
-/** @type {string} */
-b_lacugrove_crafting_table: "betterend:lacugrove_crafting_table",
-/** @type {string} */
-b_lacugrove_bookshelf: "betterend:lacugrove_bookshelf",
-/** @type {string} */
-b_lacugrove_composter: "betterend:lacugrove_composter",
-/** @type {string} */
-b_lacugrove_hanging_sign: "betterend:lacugrove_hanging_sign",
-/** @type {string} */
-b_lacugrove_wall_hanging_sign: "betterend:lacugrove_wall_hanging_sign",
-/** @type {string} */
-b_lacugrove_taburet: "betterend:lacugrove_taburet",
-/** @type {string} */
-b_lacugrove_bar_stool: "betterend:lacugrove_bar_stool",
-/** @type {string} */
-b_lacugrove_chair: "betterend:lacugrove_chair",
-/** @type {string} */
-b_lacugrove_wall: "betterend:lacugrove_wall",
-/** @type {string} */
-b_dragon_tree_sapling: "betterend:dragon_tree_sapling",
-/** @type {string} */
-b_dragon_tree_leaves: "betterend:dragon_tree_leaves",
-/** @type {string} */
-b_dragon_tree_stripped_log: "betterend:dragon_tree_stripped_log",
-/** @type {string} */
-b_dragon_tree_stripped_bark: "betterend:dragon_tree_stripped_bark",
-/** @type {string} */
-b_dragon_tree_log: "betterend:dragon_tree_log",
-/** @type {string} */
-b_dragon_tree_bark: "betterend:dragon_tree_bark",
-/** @type {string} */
-b_dragon_tree_planks: "betterend:dragon_tree_planks",
-/** @type {string} */
-b_dragon_tree_stairs: "betterend:dragon_tree_stairs",
-/** @type {string} */
-b_dragon_tree_slab: "betterend:dragon_tree_slab",
-/** @type {string} */
-b_dragon_tree_fence: "betterend:dragon_tree_fence",
-/** @type {string} */
-b_dragon_tree_gate: "betterend:dragon_tree_gate",
-/** @type {string} */
-b_dragon_tree_button: "betterend:dragon_tree_button",
-/** @type {string} */
-b_dragon_tree_plate: "betterend:dragon_tree_plate",
-/** @type {string} */
-b_dragon_tree_trapdoor: "betterend:dragon_tree_trapdoor",
-/** @type {string} */
-b_dragon_tree_door: "betterend:dragon_tree_door",
-/** @type {string} */
-b_dragon_tree_ladder: "betterend:dragon_tree_ladder",
-/** @type {string} */
-b_dragon_tree_sign: "betterend:dragon_tree_sign",
-/** @type {string} */
-b_dragon_tree_wall_sign: "betterend:dragon_tree_wall_sign",
-/** @type {string} */
-b_dragon_tree_chest: "betterend:dragon_tree_chest",
-/** @type {string} */
-b_dragon_tree_barrel: "betterend:dragon_tree_barrel",
-/** @type {string} */
-b_dragon_tree_crafting_table: "betterend:dragon_tree_crafting_table",
-/** @type {string} */
-b_dragon_tree_bookshelf: "betterend:dragon_tree_bookshelf",
-/** @type {string} */
-b_dragon_tree_composter: "betterend:dragon_tree_composter",
-/** @type {string} */
-b_dragon_tree_hanging_sign: "betterend:dragon_tree_hanging_sign",
-/** @type {string} */
-b_dragon_tree_wall_hanging_sign: "betterend:dragon_tree_wall_hanging_sign",
-/** @type {string} */
-b_dragon_tree_taburet: "betterend:dragon_tree_taburet",
-/** @type {string} */
-b_dragon_tree_bar_stool: "betterend:dragon_tree_bar_stool",
-/** @type {string} */
-b_dragon_tree_chair: "betterend:dragon_tree_chair",
-/** @type {string} */
-b_dragon_tree_wall: "betterend:dragon_tree_wall",
-/** @type {string} */
-b_tenanea_sapling: "betterend:tenanea_sapling",
-/** @type {string} */
-b_tenanea_leaves: "betterend:tenanea_leaves",
-/** @type {string} */
-b_tenanea_flowers: "betterend:tenanea_flowers",
-/** @type {string} */
-b_tenanea_outer_leaves: "betterend:tenanea_outer_leaves",
-/** @type {string} */
-b_tenanea_stripped_log: "betterend:tenanea_stripped_log",
-/** @type {string} */
-b_tenanea_stripped_bark: "betterend:tenanea_stripped_bark",
-/** @type {string} */
-b_tenanea_log: "betterend:tenanea_log",
-/** @type {string} */
-b_tenanea_bark: "betterend:tenanea_bark",
-/** @type {string} */
-b_tenanea_planks: "betterend:tenanea_planks",
-/** @type {string} */
-b_tenanea_stairs: "betterend:tenanea_stairs",
-/** @type {string} */
-b_tenanea_slab: "betterend:tenanea_slab",
-/** @type {string} */
-b_tenanea_fence: "betterend:tenanea_fence",
-/** @type {string} */
-b_tenanea_gate: "betterend:tenanea_gate",
-/** @type {string} */
-b_tenanea_button: "betterend:tenanea_button",
-/** @type {string} */
-b_tenanea_plate: "betterend:tenanea_plate",
-/** @type {string} */
-b_tenanea_trapdoor: "betterend:tenanea_trapdoor",
-/** @type {string} */
-b_tenanea_door: "betterend:tenanea_door",
-/** @type {string} */
-b_tenanea_ladder: "betterend:tenanea_ladder",
-/** @type {string} */
-b_tenanea_sign: "betterend:tenanea_sign",
-/** @type {string} */
-b_tenanea_wall_sign: "betterend:tenanea_wall_sign",
-/** @type {string} */
-b_tenanea_chest: "betterend:tenanea_chest",
-/** @type {string} */
-b_tenanea_barrel: "betterend:tenanea_barrel",
-/** @type {string} */
-b_tenanea_crafting_table: "betterend:tenanea_crafting_table",
-/** @type {string} */
-b_tenanea_bookshelf: "betterend:tenanea_bookshelf",
-/** @type {string} */
-b_tenanea_composter: "betterend:tenanea_composter",
-/** @type {string} */
-b_tenanea_hanging_sign: "betterend:tenanea_hanging_sign",
-/** @type {string} */
-b_tenanea_wall_hanging_sign: "betterend:tenanea_wall_hanging_sign",
-/** @type {string} */
-b_tenanea_taburet: "betterend:tenanea_taburet",
-/** @type {string} */
-b_tenanea_bar_stool: "betterend:tenanea_bar_stool",
-/** @type {string} */
-b_tenanea_chair: "betterend:tenanea_chair",
-/** @type {string} */
-b_tenanea_wall: "betterend:tenanea_wall",
-/** @type {string} */
-b_helix_tree_sapling: "betterend:helix_tree_sapling",
-/** @type {string} */
-b_helix_tree_leaves: "betterend:helix_tree_leaves",
-/** @type {string} */
-b_helix_tree_stripped_log: "betterend:helix_tree_stripped_log",
-/** @type {string} */
-b_helix_tree_stripped_bark: "betterend:helix_tree_stripped_bark",
-/** @type {string} */
-b_helix_tree_log: "betterend:helix_tree_log",
-/** @type {string} */
-b_helix_tree_bark: "betterend:helix_tree_bark",
-/** @type {string} */
-b_helix_tree_planks: "betterend:helix_tree_planks",
-/** @type {string} */
-b_helix_tree_stairs: "betterend:helix_tree_stairs",
-/** @type {string} */
-b_helix_tree_slab: "betterend:helix_tree_slab",
-/** @type {string} */
-b_helix_tree_fence: "betterend:helix_tree_fence",
-/** @type {string} */
-b_helix_tree_gate: "betterend:helix_tree_gate",
-/** @type {string} */
-b_helix_tree_button: "betterend:helix_tree_button",
-/** @type {string} */
-b_helix_tree_plate: "betterend:helix_tree_plate",
-/** @type {string} */
-b_helix_tree_trapdoor: "betterend:helix_tree_trapdoor",
-/** @type {string} */
-b_helix_tree_door: "betterend:helix_tree_door",
-/** @type {string} */
-b_helix_tree_ladder: "betterend:helix_tree_ladder",
-/** @type {string} */
-b_helix_tree_sign: "betterend:helix_tree_sign",
-/** @type {string} */
-b_helix_tree_wall_sign: "betterend:helix_tree_wall_sign",
-/** @type {string} */
-b_helix_tree_chest: "betterend:helix_tree_chest",
-/** @type {string} */
-b_helix_tree_barrel: "betterend:helix_tree_barrel",
-/** @type {string} */
-b_helix_tree_crafting_table: "betterend:helix_tree_crafting_table",
-/** @type {string} */
-b_helix_tree_bookshelf: "betterend:helix_tree_bookshelf",
-/** @type {string} */
-b_helix_tree_composter: "betterend:helix_tree_composter",
-/** @type {string} */
-b_helix_tree_hanging_sign: "betterend:helix_tree_hanging_sign",
-/** @type {string} */
-b_helix_tree_wall_hanging_sign: "betterend:helix_tree_wall_hanging_sign",
-/** @type {string} */
-b_helix_tree_taburet: "betterend:helix_tree_taburet",
-/** @type {string} */
-b_helix_tree_bar_stool: "betterend:helix_tree_bar_stool",
-/** @type {string} */
-b_helix_tree_chair: "betterend:helix_tree_chair",
-/** @type {string} */
-b_helix_tree_wall: "betterend:helix_tree_wall",
-/** @type {string} */
-b_umbrella_tree_sapling: "betterend:umbrella_tree_sapling",
-/** @type {string} */
-b_umbrella_tree_membrane: "betterend:umbrella_tree_membrane",
-/** @type {string} */
-b_umbrella_tree_cluster: "betterend:umbrella_tree_cluster",
-/** @type {string} */
-b_umbrella_tree_cluster_empty: "betterend:umbrella_tree_cluster_empty",
-/** @type {string} */
-b_umbrella_tree_stripped_log: "betterend:umbrella_tree_stripped_log",
-/** @type {string} */
-b_umbrella_tree_stripped_bark: "betterend:umbrella_tree_stripped_bark",
-/** @type {string} */
-b_umbrella_tree_log: "betterend:umbrella_tree_log",
-/** @type {string} */
-b_umbrella_tree_bark: "betterend:umbrella_tree_bark",
-/** @type {string} */
-b_umbrella_tree_planks: "betterend:umbrella_tree_planks",
-/** @type {string} */
-b_umbrella_tree_stairs: "betterend:umbrella_tree_stairs",
-/** @type {string} */
-b_umbrella_tree_slab: "betterend:umbrella_tree_slab",
-/** @type {string} */
-b_umbrella_tree_fence: "betterend:umbrella_tree_fence",
-/** @type {string} */
-b_umbrella_tree_gate: "betterend:umbrella_tree_gate",
-/** @type {string} */
-b_umbrella_tree_button: "betterend:umbrella_tree_button",
-/** @type {string} */
-b_umbrella_tree_plate: "betterend:umbrella_tree_plate",
-/** @type {string} */
-b_umbrella_tree_trapdoor: "betterend:umbrella_tree_trapdoor",
-/** @type {string} */
-b_umbrella_tree_door: "betterend:umbrella_tree_door",
-/** @type {string} */
-b_umbrella_tree_ladder: "betterend:umbrella_tree_ladder",
-/** @type {string} */
-b_umbrella_tree_sign: "betterend:umbrella_tree_sign",
-/** @type {string} */
-b_umbrella_tree_wall_sign: "betterend:umbrella_tree_wall_sign",
-/** @type {string} */
-b_umbrella_tree_chest: "betterend:umbrella_tree_chest",
-/** @type {string} */
-b_umbrella_tree_barrel: "betterend:umbrella_tree_barrel",
-/** @type {string} */
-b_umbrella_tree_crafting_table: "betterend:umbrella_tree_crafting_table",
-/** @type {string} */
-b_umbrella_tree_bookshelf: "betterend:umbrella_tree_bookshelf",
-/** @type {string} */
-b_umbrella_tree_composter: "betterend:umbrella_tree_composter",
-/** @type {string} */
-b_umbrella_tree_hanging_sign: "betterend:umbrella_tree_hanging_sign",
-/** @type {string} */
-b_umbrella_tree_wall_hanging_sign: "betterend:umbrella_tree_wall_hanging_sign",
-/** @type {string} */
-b_umbrella_tree_taburet: "betterend:umbrella_tree_taburet",
-/** @type {string} */
-b_umbrella_tree_bar_stool: "betterend:umbrella_tree_bar_stool",
-/** @type {string} */
-b_umbrella_tree_chair: "betterend:umbrella_tree_chair",
-/** @type {string} */
-b_umbrella_tree_wall: "betterend:umbrella_tree_wall",
-/** @type {string} */
-b_jellyshroom_cap_purple: "betterend:jellyshroom_cap_purple",
-/** @type {string} */
-b_jellyshroom_stripped_log: "betterend:jellyshroom_stripped_log",
-/** @type {string} */
-b_jellyshroom_stripped_bark: "betterend:jellyshroom_stripped_bark",
-/** @type {string} */
-b_jellyshroom_log: "betterend:jellyshroom_log",
-/** @type {string} */
-b_jellyshroom_bark: "betterend:jellyshroom_bark",
-/** @type {string} */
-b_jellyshroom_planks: "betterend:jellyshroom_planks",
-/** @type {string} */
-b_jellyshroom_stairs: "betterend:jellyshroom_stairs",
-/** @type {string} */
-b_jellyshroom_slab: "betterend:jellyshroom_slab",
-/** @type {string} */
-b_jellyshroom_fence: "betterend:jellyshroom_fence",
-/** @type {string} */
-b_jellyshroom_gate: "betterend:jellyshroom_gate",
-/** @type {string} */
-b_jellyshroom_button: "betterend:jellyshroom_button",
-/** @type {string} */
-b_jellyshroom_plate: "betterend:jellyshroom_plate",
-/** @type {string} */
-b_jellyshroom_trapdoor: "betterend:jellyshroom_trapdoor",
-/** @type {string} */
-b_jellyshroom_door: "betterend:jellyshroom_door",
-/** @type {string} */
-b_jellyshroom_ladder: "betterend:jellyshroom_ladder",
-/** @type {string} */
-b_jellyshroom_sign: "betterend:jellyshroom_sign",
-/** @type {string} */
-b_jellyshroom_wall_sign: "betterend:jellyshroom_wall_sign",
-/** @type {string} */
-b_jellyshroom_chest: "betterend:jellyshroom_chest",
-/** @type {string} */
-b_jellyshroom_barrel: "betterend:jellyshroom_barrel",
-/** @type {string} */
-b_jellyshroom_crafting_table: "betterend:jellyshroom_crafting_table",
-/** @type {string} */
-b_jellyshroom_bookshelf: "betterend:jellyshroom_bookshelf",
-/** @type {string} */
-b_jellyshroom_composter: "betterend:jellyshroom_composter",
-/** @type {string} */
-b_jellyshroom_hanging_sign: "betterend:jellyshroom_hanging_sign",
-/** @type {string} */
-b_jellyshroom_wall_hanging_sign: "betterend:jellyshroom_wall_hanging_sign",
-/** @type {string} */
-b_jellyshroom_taburet: "betterend:jellyshroom_taburet",
-/** @type {string} */
-b_jellyshroom_bar_stool: "betterend:jellyshroom_bar_stool",
-/** @type {string} */
-b_jellyshroom_chair: "betterend:jellyshroom_chair",
-/** @type {string} */
-b_jellyshroom_wall: "betterend:jellyshroom_wall",
-/** @type {string} */
-b_lucernia_sapling: "betterend:lucernia_sapling",
-/** @type {string} */
-b_lucernia_leaves: "betterend:lucernia_leaves",
-/** @type {string} */
-b_lucernia_outer_leaves: "betterend:lucernia_outer_leaves",
-/** @type {string} */
-b_lucernia_stripped_log: "betterend:lucernia_stripped_log",
-/** @type {string} */
-b_lucernia_stripped_bark: "betterend:lucernia_stripped_bark",
-/** @type {string} */
-b_lucernia_log: "betterend:lucernia_log",
-/** @type {string} */
-b_lucernia_bark: "betterend:lucernia_bark",
-/** @type {string} */
-b_lucernia_planks: "betterend:lucernia_planks",
-/** @type {string} */
-b_lucernia_stairs: "betterend:lucernia_stairs",
-/** @type {string} */
-b_lucernia_slab: "betterend:lucernia_slab",
-/** @type {string} */
-b_lucernia_fence: "betterend:lucernia_fence",
-/** @type {string} */
-b_lucernia_gate: "betterend:lucernia_gate",
-/** @type {string} */
-b_lucernia_button: "betterend:lucernia_button",
-/** @type {string} */
-b_lucernia_plate: "betterend:lucernia_plate",
-/** @type {string} */
-b_lucernia_trapdoor: "betterend:lucernia_trapdoor",
-/** @type {string} */
-b_lucernia_door: "betterend:lucernia_door",
-/** @type {string} */
-b_lucernia_ladder: "betterend:lucernia_ladder",
-/** @type {string} */
-b_lucernia_sign: "betterend:lucernia_sign",
-/** @type {string} */
-b_lucernia_wall_sign: "betterend:lucernia_wall_sign",
-/** @type {string} */
-b_lucernia_chest: "betterend:lucernia_chest",
-/** @type {string} */
-b_lucernia_barrel: "betterend:lucernia_barrel",
-/** @type {string} */
-b_lucernia_crafting_table: "betterend:lucernia_crafting_table",
-/** @type {string} */
-b_lucernia_bookshelf: "betterend:lucernia_bookshelf",
-/** @type {string} */
-b_lucernia_composter: "betterend:lucernia_composter",
-/** @type {string} */
-b_lucernia_hanging_sign: "betterend:lucernia_hanging_sign",
-/** @type {string} */
-b_lucernia_wall_hanging_sign: "betterend:lucernia_wall_hanging_sign",
-/** @type {string} */
-b_lucernia_taburet: "betterend:lucernia_taburet",
-/** @type {string} */
-b_lucernia_bar_stool: "betterend:lucernia_bar_stool",
-/** @type {string} */
-b_lucernia_chair: "betterend:lucernia_chair",
-/** @type {string} */
-b_lucernia_wall: "betterend:lucernia_wall",
-/** @type {string} */
-b_lucernia_jellyshroom_hanging_sign: "betterend:lucernia_jellyshroom_hanging_sign",
-/** @type {string} */
-b_lucernia_jellyshroom_wall_hanging_sign: "betterend:lucernia_jellyshroom_wall_hanging_sign",
-/** @type {string} */
-b_umbrella_moss: "betterend:umbrella_moss",
-/** @type {string} */
-b_umbrella_moss_tall: "betterend:umbrella_moss_tall",
-/** @type {string} */
-b_creeping_moss: "betterend:creeping_moss",
-/** @type {string} */
-b_chorus_grass: "betterend:chorus_grass",
-/** @type {string} */
-b_cave_grass: "betterend:cave_grass",
-/** @type {string} */
-b_crystal_grass: "betterend:crystal_grass",
-/** @type {string} */
-b_shadow_plant: "betterend:shadow_plant",
-/** @type {string} */
-b_bushy_grass: "betterend:bushy_grass",
-/** @type {string} */
-b_amber_grass: "betterend:amber_grass",
-/** @type {string} */
-b_twisted_umbrella_moss: "betterend:twisted_umbrella_moss",
-/** @type {string} */
-b_twisted_umbrella_moss_tall: "betterend:twisted_umbrella_moss_tall",
-/** @type {string} */
-b_jungle_grass: "betterend:jungle_grass",
-/** @type {string} */
-b_blooming_cooksonia: "betterend:blooming_cooksonia",
-/** @type {string} */
-b_salteago: "betterend:salteago",
-/** @type {string} */
-b_vaiolush_fern: "betterend:vaiolush_fern",
-/** @type {string} */
-b_fracturn: "betterend:fracturn",
-/** @type {string} */
-b_clawfern: "betterend:clawfern",
-/** @type {string} */
-b_globulagus: "betterend:globulagus",
-/** @type {string} */
-b_orango: "betterend:orango",
-/** @type {string} */
-b_aeridium: "betterend:aeridium",
-/** @type {string} */
-b_lutebus: "betterend:lutebus",
-/** @type {string} */
-b_lamellarium: "betterend:lamellarium",
-/** @type {string} */
-b_inflexia: "betterend:inflexia",
-/** @type {string} */
-b_flammalix: "betterend:flammalix",
-/** @type {string} */
-b_crystal_moss_cover: "betterend:crystal_moss_cover",
-/** @type {string} */
-b_blue_vine_seed: "betterend:blue_vine_seed",
-/** @type {string} */
-b_blue_vine: "betterend:blue_vine",
-/** @type {string} */
-b_blue_vine_lantern: "betterend:blue_vine_lantern",
-/** @type {string} */
-b_blue_vine_fur: "betterend:blue_vine_fur",
-/** @type {string} */
-b_lanceleaf_seed: "betterend:lanceleaf_seed",
-/** @type {string} */
-b_lanceleaf: "betterend:lanceleaf",
-/** @type {string} */
-b_glowing_pillar_seed: "betterend:glowing_pillar_seed",
-/** @type {string} */
-b_glowing_pillar_roots: "betterend:glowing_pillar_roots",
-/** @type {string} */
-b_glowing_pillar_luminophor: "betterend:glowing_pillar_luminophor",
-/** @type {string} */
-b_glowing_pillar_leaves: "betterend:glowing_pillar_leaves",
-/** @type {string} */
-b_small_jellyshroom: "betterend:small_jellyshroom",
-/** @type {string} */
-b_bolux_mushroom: "betterend:bolux_mushroom",
-/** @type {string} */
-b_lumecorn_seed: "betterend:lumecorn_seed",
-/** @type {string} */
-b_lumecorn: "betterend:lumecorn",
-/** @type {string} */
-b_small_amaranita_mushroom: "betterend:small_amaranita_mushroom",
-/** @type {string} */
-b_large_amaranita_mushroom: "betterend:large_amaranita_mushroom",
-/** @type {string} */
-b_amaranita_stem: "betterend:amaranita_stem",
-/** @type {string} */
-b_amaranita_hyphae: "betterend:amaranita_hyphae",
-/** @type {string} */
-b_amaranita_hymenophore: "betterend:amaranita_hymenophore",
-/** @type {string} */
-b_amaranita_lantern: "betterend:amaranita_lantern",
-/** @type {string} */
-b_amaranita_fur: "betterend:amaranita_fur",
-/** @type {string} */
-b_amaranita_cap: "betterend:amaranita_cap",
-/** @type {string} */
-b_neon_cactus: "betterend:neon_cactus",
-/** @type {string} */
-b_neon_cactus_block: "betterend:neon_cactus_block",
-/** @type {string} */
-b_neon_cactus_stairs: "betterend:neon_cactus_stairs",
-/** @type {string} */
-b_neon_cactus_slab: "betterend:neon_cactus_slab",
-/** @type {string} */
-b_shadow_berry: "betterend:shadow_berry",
-/** @type {string} */
-b_blossom_berry_seed: "betterend:blossom_berry_seed",
-/** @type {string} */
-b_amber_root_seed: "betterend:amber_root_seed",
-/** @type {string} */
-b_chorus_mushroom_seed: "betterend:chorus_mushroom_seed",
-/** @type {string} */
-b_cave_pumpkin_seed: "betterend:cave_pumpkin_seed",
-/** @type {string} */
-b_cave_pumpkin: "betterend:cave_pumpkin",
-/** @type {string} */
-b_bubble_coral: "betterend:bubble_coral",
-/** @type {string} */
-b_menger_sponge: "betterend:menger_sponge",
-/** @type {string} */
-b_menger_sponge_wet: "betterend:menger_sponge_wet",
-/** @type {string} */
-b_charnia_red: "betterend:charnia_red",
-/** @type {string} */
-b_charnia_purple: "betterend:charnia_purple",
-/** @type {string} */
-b_charnia_orange: "betterend:charnia_orange",
-/** @type {string} */
-b_charnia_light_blue: "betterend:charnia_light_blue",
-/** @type {string} */
-b_charnia_cyan: "betterend:charnia_cyan",
-/** @type {string} */
-b_charnia_green: "betterend:charnia_green",
-/** @type {string} */
-b_end_lily: "betterend:end_lily",
-/** @type {string} */
-b_end_lily_seed: "betterend:end_lily_seed",
-/** @type {string} */
-b_hydralux_sapling: "betterend:hydralux_sapling",
-/** @type {string} */
-b_hydralux: "betterend:hydralux",
-/** @type {string} */
-b_hydralux_petal_block: "betterend:hydralux_petal_block",
-/** @type {string} */
-b_hydralux_petal_block_white: "betterend:hydralux_petal_block_white",
-/** @type {string} */
-b_hydralux_petal_block_gray: "betterend:hydralux_petal_block_gray",
-/** @type {string} */
-b_hydralux_petal_block_light_gray: "betterend:hydralux_petal_block_light_gray",
-/** @type {string} */
-b_hydralux_petal_block_black: "betterend:hydralux_petal_block_black",
-/** @type {string} */
-b_hydralux_petal_block_blue: "betterend:hydralux_petal_block_blue",
-/** @type {string} */
-b_hydralux_petal_block_lime: "betterend:hydralux_petal_block_lime",
-/** @type {string} */
-b_hydralux_petal_block_magenta: "betterend:hydralux_petal_block_magenta",
-/** @type {string} */
-b_hydralux_petal_block_red: "betterend:hydralux_petal_block_red",
-/** @type {string} */
-b_hydralux_petal_block_orange: "betterend:hydralux_petal_block_orange",
-/** @type {string} */
-b_hydralux_petal_block_purple: "betterend:hydralux_petal_block_purple",
-/** @type {string} */
-b_hydralux_petal_block_cyan: "betterend:hydralux_petal_block_cyan",
-/** @type {string} */
-b_hydralux_petal_block_brown: "betterend:hydralux_petal_block_brown",
-/** @type {string} */
-b_hydralux_petal_block_green: "betterend:hydralux_petal_block_green",
-/** @type {string} */
-b_hydralux_petal_block_yellow: "betterend:hydralux_petal_block_yellow",
-/** @type {string} */
-b_hydralux_petal_block_pink: "betterend:hydralux_petal_block_pink",
-/** @type {string} */
-b_hydralux_petal_block_light_blue: "betterend:hydralux_petal_block_light_blue",
-/** @type {string} */
-b_pond_anemone: "betterend:pond_anemone",
-/** @type {string} */
-b_flamaea: "betterend:flamaea",
-/** @type {string} */
-b_cave_bush: "betterend:cave_bush",
-/** @type {string} */
-b_murkweed: "betterend:murkweed",
-/** @type {string} */
-b_needlegrass: "betterend:needlegrass",
-/** @type {string} */
-b_purple_polypore: "betterend:purple_polypore",
-/** @type {string} */
-b_aurant_polypore: "betterend:aurant_polypore",
-/** @type {string} */
-b_tail_moss: "betterend:tail_moss",
-/** @type {string} */
-b_cyan_moss: "betterend:cyan_moss",
-/** @type {string} */
-b_twisted_moss: "betterend:twisted_moss",
-/** @type {string} */
-b_tube_worm: "betterend:tube_worm",
-/** @type {string} */
-b_bulb_moss: "betterend:bulb_moss",
-/** @type {string} */
-b_jungle_fern: "betterend:jungle_fern",
-/** @type {string} */
-b_ruscus: "betterend:ruscus",
-/** @type {string} */
-b_dense_vine: "betterend:dense_vine",
-/** @type {string} */
-b_twisted_vine: "betterend:twisted_vine",
-/** @type {string} */
-b_bulb_vine_seed: "betterend:bulb_vine_seed",
-/** @type {string} */
-b_bulb_vine: "betterend:bulb_vine",
-/** @type {string} */
-b_jungle_vine: "betterend:jungle_vine",
-/** @type {string} */
-b_rubinea: "betterend:rubinea",
-/** @type {string} */
-b_magnula: "betterend:magnula",
-/** @type {string} */
-b_filalux: "betterend:filalux",
-/** @type {string} */
-b_filalux_wings: "betterend:filalux_wings",
-/** @type {string} */
-b_filalux_lantern: "betterend:filalux_lantern",
-/** @type {string} */
-b_silk_moth_nest: "betterend:silk_moth_nest",
-/** @type {string} */
-b_silk_moth_hive: "betterend:silk_moth_hive",
-/** @type {string} */
-b_ender_ore: "betterend:ender_ore",
-/** @type {string} */
-b_amber_ore: "betterend:amber_ore",
-/** @type {string} */
-b_thallasium_ore: "betterend:thallasium_ore",
-/** @type {string} */
-b_thallasium_block: "betterend:thallasium_block",
-/** @type {string} */
-b_thallasium_tile: "betterend:thallasium_tile",
-/** @type {string} */
-b_thallasium_stairs: "betterend:thallasium_stairs",
-/** @type {string} */
-b_thallasium_slab: "betterend:thallasium_slab",
-/** @type {string} */
-b_thallasium_door: "betterend:thallasium_door",
-/** @type {string} */
-b_thallasium_trapdoor: "betterend:thallasium_trapdoor",
-/** @type {string} */
-b_thallasium_bars: "betterend:thallasium_bars",
-/** @type {string} */
-b_thallasium_chain: "betterend:thallasium_chain",
-/** @type {string} */
-b_thallasium_plate: "betterend:thallasium_plate",
-/** @type {string} */
-b_thallasium_chandelier: "betterend:thallasium_chandelier",
-/** @type {string} */
-b_thallasium_bulb_lantern: "betterend:thallasium_bulb_lantern",
-/** @type {string} */
-b_thallasium_bulb_lantern_white: "betterend:thallasium_bulb_lantern_white",
-/** @type {string} */
-b_thallasium_bulb_lantern_gray: "betterend:thallasium_bulb_lantern_gray",
-/** @type {string} */
-b_thallasium_bulb_lantern_light_gray: "betterend:thallasium_bulb_lantern_light_gray",
-/** @type {string} */
-b_thallasium_bulb_lantern_black: "betterend:thallasium_bulb_lantern_black",
-/** @type {string} */
-b_thallasium_bulb_lantern_blue: "betterend:thallasium_bulb_lantern_blue",
-/** @type {string} */
-b_thallasium_bulb_lantern_lime: "betterend:thallasium_bulb_lantern_lime",
-/** @type {string} */
-b_thallasium_bulb_lantern_magenta: "betterend:thallasium_bulb_lantern_magenta",
-/** @type {string} */
-b_thallasium_bulb_lantern_red: "betterend:thallasium_bulb_lantern_red",
-/** @type {string} */
-b_thallasium_bulb_lantern_orange: "betterend:thallasium_bulb_lantern_orange",
-/** @type {string} */
-b_thallasium_bulb_lantern_purple: "betterend:thallasium_bulb_lantern_purple",
-/** @type {string} */
-b_thallasium_bulb_lantern_cyan: "betterend:thallasium_bulb_lantern_cyan",
-/** @type {string} */
-b_thallasium_bulb_lantern_brown: "betterend:thallasium_bulb_lantern_brown",
-/** @type {string} */
-b_thallasium_bulb_lantern_green: "betterend:thallasium_bulb_lantern_green",
-/** @type {string} */
-b_thallasium_bulb_lantern_yellow: "betterend:thallasium_bulb_lantern_yellow",
-/** @type {string} */
-b_thallasium_bulb_lantern_pink: "betterend:thallasium_bulb_lantern_pink",
-/** @type {string} */
-b_thallasium_bulb_lantern_light_blue: "betterend:thallasium_bulb_lantern_light_blue",
-/** @type {string} */
-b_thallasium_anvil: "betterend:thallasium_anvil",
-/** @type {string} */
-b_terminite_block: "betterend:terminite_block",
-/** @type {string} */
-b_terminite_tile: "betterend:terminite_tile",
-/** @type {string} */
-b_terminite_stairs: "betterend:terminite_stairs",
-/** @type {string} */
-b_terminite_slab: "betterend:terminite_slab",
-/** @type {string} */
-b_terminite_door: "betterend:terminite_door",
-/** @type {string} */
-b_terminite_trapdoor: "betterend:terminite_trapdoor",
-/** @type {string} */
-b_terminite_bars: "betterend:terminite_bars",
-/** @type {string} */
-b_terminite_chain: "betterend:terminite_chain",
-/** @type {string} */
-b_terminite_plate: "betterend:terminite_plate",
-/** @type {string} */
-b_terminite_chandelier: "betterend:terminite_chandelier",
-/** @type {string} */
-b_terminite_bulb_lantern: "betterend:terminite_bulb_lantern",
-/** @type {string} */
-b_terminite_bulb_lantern_white: "betterend:terminite_bulb_lantern_white",
-/** @type {string} */
-b_terminite_bulb_lantern_gray: "betterend:terminite_bulb_lantern_gray",
-/** @type {string} */
-b_terminite_bulb_lantern_light_gray: "betterend:terminite_bulb_lantern_light_gray",
-/** @type {string} */
-b_terminite_bulb_lantern_black: "betterend:terminite_bulb_lantern_black",
-/** @type {string} */
-b_terminite_bulb_lantern_blue: "betterend:terminite_bulb_lantern_blue",
-/** @type {string} */
-b_terminite_bulb_lantern_lime: "betterend:terminite_bulb_lantern_lime",
-/** @type {string} */
-b_terminite_bulb_lantern_magenta: "betterend:terminite_bulb_lantern_magenta",
-/** @type {string} */
-b_terminite_bulb_lantern_red: "betterend:terminite_bulb_lantern_red",
-/** @type {string} */
-b_terminite_bulb_lantern_orange: "betterend:terminite_bulb_lantern_orange",
-/** @type {string} */
-b_terminite_bulb_lantern_purple: "betterend:terminite_bulb_lantern_purple",
-/** @type {string} */
-b_terminite_bulb_lantern_cyan: "betterend:terminite_bulb_lantern_cyan",
-/** @type {string} */
-b_terminite_bulb_lantern_brown: "betterend:terminite_bulb_lantern_brown",
-/** @type {string} */
-b_terminite_bulb_lantern_green: "betterend:terminite_bulb_lantern_green",
-/** @type {string} */
-b_terminite_bulb_lantern_yellow: "betterend:terminite_bulb_lantern_yellow",
-/** @type {string} */
-b_terminite_bulb_lantern_pink: "betterend:terminite_bulb_lantern_pink",
-/** @type {string} */
-b_terminite_bulb_lantern_light_blue: "betterend:terminite_bulb_lantern_light_blue",
-/** @type {string} */
-b_terminite_anvil: "betterend:terminite_anvil",
-/** @type {string} */
-b_aeternium_block: "betterend:aeternium_block",
-/** @type {string} */
-b_charcoal_block: "betterend:charcoal_block",
-/** @type {string} */
-b_ender_block: "betterend:ender_block",
-/** @type {string} */
-b_aurora_crystal: "betterend:aurora_crystal",
-/** @type {string} */
-b_amber_block: "betterend:amber_block",
-/** @type {string} */
-b_smaragdant_crystal_shard: "betterend:smaragdant_crystal_shard",
-/** @type {string} */
-b_smaragdant_crystal: "betterend:smaragdant_crystal",
-/** @type {string} */
-b_smaragdant_crystal_polished: "betterend:smaragdant_crystal_polished",
-/** @type {string} */
-b_smaragdant_crystal_tiles: "betterend:smaragdant_crystal_tiles",
-/** @type {string} */
-b_smaragdant_crystal_pillar: "betterend:smaragdant_crystal_pillar",
-/** @type {string} */
-b_smaragdant_crystal_stairs: "betterend:smaragdant_crystal_stairs",
-/** @type {string} */
-b_smaragdant_crystal_slab: "betterend:smaragdant_crystal_slab",
-/** @type {string} */
-b_smaragdant_crystal_wall: "betterend:smaragdant_crystal_wall",
-/** @type {string} */
-b_smaragdant_crystal_pedestal: "betterend:smaragdant_crystal_pedestal",
-/** @type {string} */
-b_smaragdant_crystal_bricks: "betterend:smaragdant_crystal_bricks",
-/** @type {string} */
-b_smaragdant_crystal_bricks_stairs: "betterend:smaragdant_crystal_bricks_stairs",
-/** @type {string} */
-b_smaragdant_crystal_bricks_slab: "betterend:smaragdant_crystal_bricks_slab",
-/** @type {string} */
-b_smaragdant_crystal_bricks_wall: "betterend:smaragdant_crystal_bricks_wall",
-/** @type {string} */
-b_budding_smaragdant_crystal: "betterend:budding_smaragdant_crystal",
-/** @type {string} */
-b_respawn_obelisk: "betterend:respawn_obelisk",
-/** @type {string} */
-b_andesite_lantern: "betterend:andesite_lantern",
-/** @type {string} */
-b_diorite_lantern: "betterend:diorite_lantern",
-/** @type {string} */
-b_granite_lantern: "betterend:granite_lantern",
-/** @type {string} */
-b_quartz_lantern: "betterend:quartz_lantern",
-/** @type {string} */
-b_purpur_lantern: "betterend:purpur_lantern",
-/** @type {string} */
-b_end_stone_lantern: "betterend:end_stone_lantern",
-/** @type {string} */
-b_blackstone_lantern: "betterend:blackstone_lantern",
-/** @type {string} */
-b_iron_bulb_lantern: "betterend:iron_bulb_lantern",
-/** @type {string} */
-b_iron_bulb_lantern_white: "betterend:iron_bulb_lantern_white",
-/** @type {string} */
-b_iron_bulb_lantern_gray: "betterend:iron_bulb_lantern_gray",
-/** @type {string} */
-b_iron_bulb_lantern_light_gray: "betterend:iron_bulb_lantern_light_gray",
-/** @type {string} */
-b_iron_bulb_lantern_black: "betterend:iron_bulb_lantern_black",
-/** @type {string} */
-b_iron_bulb_lantern_blue: "betterend:iron_bulb_lantern_blue",
-/** @type {string} */
-b_iron_bulb_lantern_lime: "betterend:iron_bulb_lantern_lime",
-/** @type {string} */
-b_iron_bulb_lantern_magenta: "betterend:iron_bulb_lantern_magenta",
-/** @type {string} */
-b_iron_bulb_lantern_red: "betterend:iron_bulb_lantern_red",
-/** @type {string} */
-b_iron_bulb_lantern_orange: "betterend:iron_bulb_lantern_orange",
-/** @type {string} */
-b_iron_bulb_lantern_purple: "betterend:iron_bulb_lantern_purple",
-/** @type {string} */
-b_iron_bulb_lantern_cyan: "betterend:iron_bulb_lantern_cyan",
-/** @type {string} */
-b_iron_bulb_lantern_brown: "betterend:iron_bulb_lantern_brown",
-/** @type {string} */
-b_iron_bulb_lantern_green: "betterend:iron_bulb_lantern_green",
-/** @type {string} */
-b_iron_bulb_lantern_yellow: "betterend:iron_bulb_lantern_yellow",
-/** @type {string} */
-b_iron_bulb_lantern_pink: "betterend:iron_bulb_lantern_pink",
-/** @type {string} */
-b_iron_bulb_lantern_light_blue: "betterend:iron_bulb_lantern_light_blue",
-/** @type {string} */
-b_iron_chandelier: "betterend:iron_chandelier",
-/** @type {string} */
-b_gold_chandelier: "betterend:gold_chandelier",
-/** @type {string} */
-b_end_stone_furnace: "betterend:end_stone_furnace",
-/** @type {string} */
-b_end_stone_smelter: "betterend:end_stone_smelter",
-/** @type {string} */
-b_eternal_pedestal: "betterend:eternal_pedestal",
-/** @type {string} */
-b_infusion_pedestal: "betterend:infusion_pedestal",
-/** @type {string} */
-b_aeternium_anvil: "betterend:aeternium_anvil",
-/** @type {string} */
-b_end_portal_block: "betterend:end_portal_block",
-/** @type {string} */
-b_end_stone_brick_cracked: "betterend:end_stone_brick_cracked",
-/** @type {string} */
-b_end_stone_brick_cracked_slab: "betterend:end_stone_brick_cracked_slab",
-/** @type {string} */
-b_end_stone_brick_cracked_stairs: "betterend:end_stone_brick_cracked_stairs",
-/** @type {string} */
-b_end_stone_brick_cracked_wall: "betterend:end_stone_brick_cracked_wall",
-/** @type {string} */
-b_end_stone_brick_weathered: "betterend:end_stone_brick_weathered",
-/** @type {string} */
-b_end_stone_brick_weathered_slab: "betterend:end_stone_brick_weathered_slab",
-/** @type {string} */
-b_end_stone_brick_weathered_stairs: "betterend:end_stone_brick_weathered_stairs",
-/** @type {string} */
-b_end_stone_brick_weathered_wall: "betterend:end_stone_brick_weathered_wall",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
 const block_simplemagnets = {
     /** @type {string} */
 b_basic_demagnetization_coil: "simplemagnets:basic_demagnetization_coil",
@@ -6250,6 +4786,26 @@ b_mining_bench: "morevillagers:mining_bench",
  * @readonly
  * @enum {string}
  */
+const block_zoomers_extended_apotheosis = {
+    /** @type {string} */
+b_artisanal_reforging_table: "zoomers_extended_apotheosis:artisanal_reforging_table",
+/** @type {string} */
+b_enhanced_reforging_table: "zoomers_extended_apotheosis:enhanced_reforging_table",
+/** @type {string} */
+b_ultimate_reforging_table: "zoomers_extended_apotheosis:ultimate_reforging_table",
+/** @type {string} */
+b_god_reforging_table: "zoomers_extended_apotheosis:god_reforging_table",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const block_corail_woodcutter = {
     /** @type {string} */
 b_acacia_woodcutter: "corail_woodcutter:acacia_woodcutter",
@@ -6295,6 +4851,20 @@ b_bop_redwood_woodcutter: "corail_woodcutter:bop_redwood_woodcutter",
 b_bop_umbran_woodcutter: "corail_woodcutter:bop_umbran_woodcutter",
 /** @type {string} */
 b_bop_willow_woodcutter: "corail_woodcutter:bop_willow_woodcutter",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const block_toms_trading_network = {
+    /** @type {string} */
+b_vending_machine: "toms_trading_network:vending_machine",
 
 };
 
@@ -6395,6 +4965,136 @@ b_copper_chimes: "chimes:copper_chimes",
 b_amethyst_chimes: "chimes:amethyst_chimes",
 /** @type {string} */
 b_glass_bells: "chimes:glass_bells",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const block_trials = {
+    /** @type {string} */
+b_tuff_stairs: "trials:tuff_stairs",
+/** @type {string} */
+b_tuff_slab: "trials:tuff_slab",
+/** @type {string} */
+b_tuff_wall: "trials:tuff_wall",
+/** @type {string} */
+b_polished_tuff: "trials:polished_tuff",
+/** @type {string} */
+b_polished_tuff_stairs: "trials:polished_tuff_stairs",
+/** @type {string} */
+b_polished_tuff_slab: "trials:polished_tuff_slab",
+/** @type {string} */
+b_polished_tuff_wall: "trials:polished_tuff_wall",
+/** @type {string} */
+b_tuff_bricks: "trials:tuff_bricks",
+/** @type {string} */
+b_tuff_brick_stairs: "trials:tuff_brick_stairs",
+/** @type {string} */
+b_tuff_brick_slab: "trials:tuff_brick_slab",
+/** @type {string} */
+b_tuff_brick_wall: "trials:tuff_brick_wall",
+/** @type {string} */
+b_chiseled_tuff: "trials:chiseled_tuff",
+/** @type {string} */
+b_chiseled_tuff_bricks: "trials:chiseled_tuff_bricks",
+/** @type {string} */
+b_chiseled_tuff_bulb: "trials:chiseled_tuff_bulb",
+/** @type {string} */
+b_chiseled_copper: "trials:chiseled_copper",
+/** @type {string} */
+b_chiseled_copper_exposed: "trials:chiseled_copper_exposed",
+/** @type {string} */
+b_chiseled_copper_weathered: "trials:chiseled_copper_weathered",
+/** @type {string} */
+b_chiseled_copper_oxidized: "trials:chiseled_copper_oxidized",
+/** @type {string} */
+b_waxed_chiseled_copper: "trials:waxed_chiseled_copper",
+/** @type {string} */
+b_waxed_chiseled_copper_exposed: "trials:waxed_chiseled_copper_exposed",
+/** @type {string} */
+b_waxed_chiseled_copper_weathered: "trials:waxed_chiseled_copper_weathered",
+/** @type {string} */
+b_waxed_chiseled_copper_oxidized: "trials:waxed_chiseled_copper_oxidized",
+/** @type {string} */
+b_copper_grate: "trials:copper_grate",
+/** @type {string} */
+b_copper_grate_exposed: "trials:copper_grate_exposed",
+/** @type {string} */
+b_copper_grate_weathered: "trials:copper_grate_weathered",
+/** @type {string} */
+b_copper_grate_oxidized: "trials:copper_grate_oxidized",
+/** @type {string} */
+b_waxed_copper_grate: "trials:waxed_copper_grate",
+/** @type {string} */
+b_waxed_copper_grate_exposed: "trials:waxed_copper_grate_exposed",
+/** @type {string} */
+b_waxed_copper_grate_weathered: "trials:waxed_copper_grate_weathered",
+/** @type {string} */
+b_waxed_copper_grate_oxidized: "trials:waxed_copper_grate_oxidized",
+/** @type {string} */
+b_copper_trapdoor: "trials:copper_trapdoor",
+/** @type {string} */
+b_copper_trapdoor_exposed: "trials:copper_trapdoor_exposed",
+/** @type {string} */
+b_copper_trapdoor_weathered: "trials:copper_trapdoor_weathered",
+/** @type {string} */
+b_copper_trapdoor_oxidized: "trials:copper_trapdoor_oxidized",
+/** @type {string} */
+b_waxed_copper_trapdoor: "trials:waxed_copper_trapdoor",
+/** @type {string} */
+b_waxed_copper_trapdoor_exposed: "trials:waxed_copper_trapdoor_exposed",
+/** @type {string} */
+b_waxed_copper_trapdoor_weathered: "trials:waxed_copper_trapdoor_weathered",
+/** @type {string} */
+b_waxed_copper_trapdoor_oxidized: "trials:waxed_copper_trapdoor_oxidized",
+/** @type {string} */
+b_copper_door: "trials:copper_door",
+/** @type {string} */
+b_copper_door_exposed: "trials:copper_door_exposed",
+/** @type {string} */
+b_copper_door_weathered: "trials:copper_door_weathered",
+/** @type {string} */
+b_copper_door_oxidized: "trials:copper_door_oxidized",
+/** @type {string} */
+b_waxed_copper_door: "trials:waxed_copper_door",
+/** @type {string} */
+b_waxed_copper_door_exposed: "trials:waxed_copper_door_exposed",
+/** @type {string} */
+b_waxed_copper_door_weathered: "trials:waxed_copper_door_weathered",
+/** @type {string} */
+b_waxed_copper_door_oxidized: "trials:waxed_copper_door_oxidized",
+/** @type {string} */
+b_copper_bulb: "trials:copper_bulb",
+/** @type {string} */
+b_copper_bulb_exposed: "trials:copper_bulb_exposed",
+/** @type {string} */
+b_copper_bulb_weathered: "trials:copper_bulb_weathered",
+/** @type {string} */
+b_copper_bulb_oxidized: "trials:copper_bulb_oxidized",
+/** @type {string} */
+b_waxed_copper_bulb: "trials:waxed_copper_bulb",
+/** @type {string} */
+b_waxed_copper_bulb_exposed: "trials:waxed_copper_bulb_exposed",
+/** @type {string} */
+b_waxed_copper_bulb_weathered: "trials:waxed_copper_bulb_weathered",
+/** @type {string} */
+b_waxed_copper_bulb_oxidized: "trials:waxed_copper_bulb_oxidized",
+/** @type {string} */
+b_crafter: "trials:crafter",
+/** @type {string} */
+b_trial_spawner: "trials:trial_spawner",
+/** @type {string} */
+b_trial_vault: "trials:trial_vault",
+/** @type {string} */
+b_trial_vault_ominous: "trials:trial_vault_ominous",
+/** @type {string} */
+b_heavy_core: "trials:heavy_core",
 
 };
 
@@ -7720,9 +6420,131 @@ b_lootr_trapped_chest: "lootr:lootr_trapped_chest",
 /** @type {string} */
 b_lootr_inventory: "lootr:lootr_inventory",
 /** @type {string} */
-b_lootr_shulker: "lootr:lootr_shulker",
-/** @type {string} */
 b_trophy: "lootr:trophy",
+/** @type {string} */
+b_lootr_shulker: "lootr:lootr_shulker",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const block_phantasm = {
+    /** @type {string} */
+b_fallen_star: "phantasm:fallen_star",
+/** @type {string} */
+b_polished_obsidian: "phantasm:polished_obsidian",
+/** @type {string} */
+b_polished_obsidian_bricks: "phantasm:polished_obsidian_bricks",
+/** @type {string} */
+b_polished_obsidian_bricks_stairs: "phantasm:polished_obsidian_bricks_stairs",
+/** @type {string} */
+b_polished_obsidian_bricks_slab: "phantasm:polished_obsidian_bricks_slab",
+/** @type {string} */
+b_crystal_shard: "phantasm:crystal_shard",
+/** @type {string} */
+b_void_crystal_shard: "phantasm:void_crystal_shard",
+/** @type {string} */
+b_crystal_block: "phantasm:crystal_block",
+/** @type {string} */
+b_crystal_tiles: "phantasm:crystal_tiles",
+/** @type {string} */
+b_crystal_tiles_stairs: "phantasm:crystal_tiles_stairs",
+/** @type {string} */
+b_crystal_tiles_slab: "phantasm:crystal_tiles_slab",
+/** @type {string} */
+b_crystal_pillar: "phantasm:crystal_pillar",
+/** @type {string} */
+b_crystal_glass: "phantasm:crystal_glass",
+/** @type {string} */
+b_crystal_glass_pane: "phantasm:crystal_glass_pane",
+/** @type {string} */
+b_void_crystal_block: "phantasm:void_crystal_block",
+/** @type {string} */
+b_void_crystal_tiles: "phantasm:void_crystal_tiles",
+/** @type {string} */
+b_void_crystal_tiles_stairs: "phantasm:void_crystal_tiles_stairs",
+/** @type {string} */
+b_void_crystal_tiles_slab: "phantasm:void_crystal_tiles_slab",
+/** @type {string} */
+b_void_crystal_pillar: "phantasm:void_crystal_pillar",
+/** @type {string} */
+b_void_crystal_glass: "phantasm:void_crystal_glass",
+/** @type {string} */
+b_void_crystal_glass_pane: "phantasm:void_crystal_glass_pane",
+/** @type {string} */
+b_stripped_pream_log: "phantasm:stripped_pream_log",
+/** @type {string} */
+b_pream_log: "phantasm:pream_log",
+/** @type {string} */
+b_stripped_pream_wood: "phantasm:stripped_pream_wood",
+/** @type {string} */
+b_pream_wood: "phantasm:pream_wood",
+/** @type {string} */
+b_pream_leaves: "phantasm:pream_leaves",
+/** @type {string} */
+b_hanging_pream_leaves: "phantasm:hanging_pream_leaves",
+/** @type {string} */
+b_pream_planks: "phantasm:pream_planks",
+/** @type {string} */
+b_pream_stairs: "phantasm:pream_stairs",
+/** @type {string} */
+b_pream_slab: "phantasm:pream_slab",
+/** @type {string} */
+b_pream_pressure_plate: "phantasm:pream_pressure_plate",
+/** @type {string} */
+b_pream_button: "phantasm:pream_button",
+/** @type {string} */
+b_pream_fence: "phantasm:pream_fence",
+/** @type {string} */
+b_pream_fence_gate: "phantasm:pream_fence_gate",
+/** @type {string} */
+b_pream_door: "phantasm:pream_door",
+/** @type {string} */
+b_pream_trapdoor: "phantasm:pream_trapdoor",
+/** @type {string} */
+b_pream_sign: "phantasm:pream_sign",
+/** @type {string} */
+b_pream_wall_sign: "phantasm:pream_wall_sign",
+/** @type {string} */
+b_pream_hanging_sign: "phantasm:pream_hanging_sign",
+/** @type {string} */
+b_pream_wall_hanging_sign: "phantasm:pream_wall_hanging_sign",
+/** @type {string} */
+b_pream_sapling: "phantasm:pream_sapling",
+/** @type {string} */
+b_oblivine: "phantasm:oblivine",
+/** @type {string} */
+b_oblivion: "phantasm:oblivion",
+/** @type {string} */
+b_crystalily: "phantasm:crystalily",
+/** @type {string} */
+b_vivid_nihilium: "phantasm:vivid_nihilium",
+/** @type {string} */
+b_vivid_nihilis: "phantasm:vivid_nihilis",
+/** @type {string} */
+b_starflower: "phantasm:starflower",
+/** @type {string} */
+b_tall_vivid_nihilis: "phantasm:tall_vivid_nihilis",
+/** @type {string} */
+b_raw_purpur: "phantasm:raw_purpur",
+/** @type {string} */
+b_raw_purpur_bricks: "phantasm:raw_purpur_bricks",
+/** @type {string} */
+b_raw_purpur_bricks_stairs: "phantasm:raw_purpur_bricks_stairs",
+/** @type {string} */
+b_raw_purpur_bricks_slab: "phantasm:raw_purpur_bricks_slab",
+/** @type {string} */
+b_raw_purpur_tiles: "phantasm:raw_purpur_tiles",
+/** @type {string} */
+b_raw_purpur_pillar: "phantasm:raw_purpur_pillar",
+/** @type {string} */
+b_purpur_lamp: "phantasm:purpur_lamp",
 
 };
 
@@ -8670,6 +7492,650 @@ b_virulent_mix_cauldron: "undergarden:virulent_mix_cauldron",
  * @readonly
  * @enum {string}
  */
+const block_copycats = {
+    /** @type {string} */
+b_wrapped_copycat: "copycats:wrapped_copycat",
+/** @type {string} */
+b_copycat_base: "copycats:copycat_base",
+/** @type {string} */
+b_copycat_block: "copycats:copycat_block",
+/** @type {string} */
+b_copycat_beam: "copycats:copycat_beam",
+/** @type {string} */
+b_copycat_board: "copycats:copycat_board",
+/** @type {string} */
+b_copycat_wooden_button: "copycats:copycat_wooden_button",
+/** @type {string} */
+b_copycat_stone_button: "copycats:copycat_stone_button",
+/** @type {string} */
+b_copycat_byte: "copycats:copycat_byte",
+/** @type {string} */
+b_copycat_fence: "copycats:copycat_fence",
+/** @type {string} */
+b_copycat_fence_gate: "copycats:copycat_fence_gate",
+/** @type {string} */
+b_copycat_ghost_block: "copycats:copycat_ghost_block",
+/** @type {string} */
+b_copycat_half_layer: "copycats:copycat_half_layer",
+/** @type {string} */
+b_copycat_half_panel: "copycats:copycat_half_panel",
+/** @type {string} */
+b_copycat_ladder: "copycats:copycat_ladder",
+/** @type {string} */
+b_copycat_layer: "copycats:copycat_layer",
+/** @type {string} */
+b_copycat_wooden_pressure_plate: "copycats:copycat_wooden_pressure_plate",
+/** @type {string} */
+b_copycat_stone_pressure_plate: "copycats:copycat_stone_pressure_plate",
+/** @type {string} */
+b_copycat_heavy_weighted_pressure_plate: "copycats:copycat_heavy_weighted_pressure_plate",
+/** @type {string} */
+b_copycat_light_weighted_pressure_plate: "copycats:copycat_light_weighted_pressure_plate",
+/** @type {string} */
+b_copycat_slab: "copycats:copycat_slab",
+/** @type {string} */
+b_copycat_slice: "copycats:copycat_slice",
+/** @type {string} */
+b_copycat_stairs: "copycats:copycat_stairs",
+/** @type {string} */
+b_copycat_vertical_stairs: "copycats:copycat_vertical_stairs",
+/** @type {string} */
+b_copycat_trapdoor: "copycats:copycat_trapdoor",
+/** @type {string} */
+b_copycat_iron_trapdoor: "copycats:copycat_iron_trapdoor",
+/** @type {string} */
+b_copycat_vertical_slice: "copycats:copycat_vertical_slice",
+/** @type {string} */
+b_copycat_vertical_step: "copycats:copycat_vertical_step",
+/** @type {string} */
+b_copycat_wall: "copycats:copycat_wall",
+/** @type {string} */
+b_copycat_slope: "copycats:copycat_slope",
+/** @type {string} */
+b_copycat_vertical_slope: "copycats:copycat_vertical_slope",
+/** @type {string} */
+b_copycat_slope_layer: "copycats:copycat_slope_layer",
+/** @type {string} */
+b_copycat_shaft: "copycats:copycat_shaft",
+/** @type {string} */
+b_copycat_cogwheel: "copycats:copycat_cogwheel",
+/** @type {string} */
+b_copycat_large_cogwheel: "copycats:copycat_large_cogwheel",
+/** @type {string} */
+b_copycat_fluid_pipe: "copycats:copycat_fluid_pipe",
+/** @type {string} */
+b_copycat_glass_fluid_pipe: "copycats:copycat_glass_fluid_pipe",
+/** @type {string} */
+b_copycat_door: "copycats:copycat_door",
+/** @type {string} */
+b_copycat_iron_door: "copycats:copycat_iron_door",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const block_enlightened_end = {
+    /** @type {string} */
+b_closed_odd_roots: "enlightened_end:closed_odd_roots",
+/** @type {string} */
+b_open_odd_roots: "enlightened_end:open_odd_roots",
+/** @type {string} */
+b_smooth_purpur: "enlightened_end:smooth_purpur",
+/** @type {string} */
+b_smooth_purpur_stairs: "enlightened_end:smooth_purpur_stairs",
+/** @type {string} */
+b_smooth_purpur_slab: "enlightened_end:smooth_purpur_slab",
+/** @type {string} */
+b_smooth_purpur_wall: "enlightened_end:smooth_purpur_wall",
+/** @type {string} */
+b_cracked_purpur: "enlightened_end:cracked_purpur",
+/** @type {string} */
+b_purpur_wall: "enlightened_end:purpur_wall",
+/** @type {string} */
+b_end_stone_stairs: "enlightened_end:end_stone_stairs",
+/** @type {string} */
+b_end_stone_slab: "enlightened_end:end_stone_slab",
+/** @type {string} */
+b_cracked_end_stone_bricks: "enlightened_end:cracked_end_stone_bricks",
+/** @type {string} */
+b_cracked_end_stone_tiles: "enlightened_end:cracked_end_stone_tiles",
+/** @type {string} */
+b_end_stone_tiles: "enlightened_end:end_stone_tiles",
+/** @type {string} */
+b_end_stone_tile_stairs: "enlightened_end:end_stone_tile_stairs",
+/** @type {string} */
+b_end_stone_tile_slab: "enlightened_end:end_stone_tile_slab",
+/** @type {string} */
+b_end_stone_tile_wall: "enlightened_end:end_stone_tile_wall",
+/** @type {string} */
+b_chiseled_palerock: "enlightened_end:chiseled_palerock",
+/** @type {string} */
+b_palerock: "enlightened_end:palerock",
+/** @type {string} */
+b_palerock_stairs: "enlightened_end:palerock_stairs",
+/** @type {string} */
+b_palerock_slab: "enlightened_end:palerock_slab",
+/** @type {string} */
+b_palerock_wall: "enlightened_end:palerock_wall",
+/** @type {string} */
+b_palerock_pressure_plate: "enlightened_end:palerock_pressure_plate",
+/** @type {string} */
+b_palerock_button: "enlightened_end:palerock_button",
+/** @type {string} */
+b_polished_palerock: "enlightened_end:polished_palerock",
+/** @type {string} */
+b_polished_palerock_stairs: "enlightened_end:polished_palerock_stairs",
+/** @type {string} */
+b_polished_palerock_slab: "enlightened_end:polished_palerock_slab",
+/** @type {string} */
+b_polished_palerock_wall: "enlightened_end:polished_palerock_wall",
+/** @type {string} */
+b_cracked_palerock_bricks: "enlightened_end:cracked_palerock_bricks",
+/** @type {string} */
+b_palerock_bricks: "enlightened_end:palerock_bricks",
+/** @type {string} */
+b_palerock_brick_stairs: "enlightened_end:palerock_brick_stairs",
+/** @type {string} */
+b_palerock_brick_slab: "enlightened_end:palerock_brick_slab",
+/** @type {string} */
+b_palerock_brick_wall: "enlightened_end:palerock_brick_wall",
+/** @type {string} */
+b_cracked_palerock_tiles: "enlightened_end:cracked_palerock_tiles",
+/** @type {string} */
+b_palerock_tiles: "enlightened_end:palerock_tiles",
+/** @type {string} */
+b_palerock_tile_stairs: "enlightened_end:palerock_tile_stairs",
+/** @type {string} */
+b_palerock_tile_slab: "enlightened_end:palerock_tile_slab",
+/** @type {string} */
+b_palerock_tile_wall: "enlightened_end:palerock_tile_wall",
+/** @type {string} */
+b_chiseled_void_shale: "enlightened_end:chiseled_void_shale",
+/** @type {string} */
+b_void_shale: "enlightened_end:void_shale",
+/** @type {string} */
+b_void_shale_stairs: "enlightened_end:void_shale_stairs",
+/** @type {string} */
+b_void_shale_slab: "enlightened_end:void_shale_slab",
+/** @type {string} */
+b_void_shale_wall: "enlightened_end:void_shale_wall",
+/** @type {string} */
+b_void_shale_pressure_plate: "enlightened_end:void_shale_pressure_plate",
+/** @type {string} */
+b_void_shale_button: "enlightened_end:void_shale_button",
+/** @type {string} */
+b_polished_void_shale: "enlightened_end:polished_void_shale",
+/** @type {string} */
+b_polished_void_shale_stairs: "enlightened_end:polished_void_shale_stairs",
+/** @type {string} */
+b_polished_void_shale_slab: "enlightened_end:polished_void_shale_slab",
+/** @type {string} */
+b_polished_void_shale_wall: "enlightened_end:polished_void_shale_wall",
+/** @type {string} */
+b_cracked_void_shale_bricks: "enlightened_end:cracked_void_shale_bricks",
+/** @type {string} */
+b_void_shale_bricks: "enlightened_end:void_shale_bricks",
+/** @type {string} */
+b_void_shale_brick_stairs: "enlightened_end:void_shale_brick_stairs",
+/** @type {string} */
+b_void_shale_brick_slab: "enlightened_end:void_shale_brick_slab",
+/** @type {string} */
+b_void_shale_brick_wall: "enlightened_end:void_shale_brick_wall",
+/** @type {string} */
+b_cracked_void_shale_tiles: "enlightened_end:cracked_void_shale_tiles",
+/** @type {string} */
+b_void_shale_tiles: "enlightened_end:void_shale_tiles",
+/** @type {string} */
+b_void_shale_tile_stairs: "enlightened_end:void_shale_tile_stairs",
+/** @type {string} */
+b_void_shale_tile_slab: "enlightened_end:void_shale_tile_slab",
+/** @type {string} */
+b_void_shale_tile_wall: "enlightened_end:void_shale_tile_wall",
+/** @type {string} */
+b_ennegel_block: "enlightened_end:ennegel_block",
+/** @type {string} */
+b_ennegel_splat: "enlightened_end:ennegel_splat",
+/** @type {string} */
+b_hanging_ennegel: "enlightened_end:hanging_ennegel",
+/** @type {string} */
+b_indigo_eylium: "enlightened_end:indigo_eylium",
+/** @type {string} */
+b_indigo_roots: "enlightened_end:indigo_roots",
+/** @type {string} */
+b_indigo_sprouts: "enlightened_end:indigo_sprouts",
+/** @type {string} */
+b_ennegel_fern: "enlightened_end:ennegel_fern",
+/** @type {string} */
+b_springleaf: "enlightened_end:springleaf",
+/** @type {string} */
+b_indigo_stem: "enlightened_end:indigo_stem",
+/** @type {string} */
+b_indigo_hyphae: "enlightened_end:indigo_hyphae",
+/** @type {string} */
+b_stripped_indigo_stem: "enlightened_end:stripped_indigo_stem",
+/** @type {string} */
+b_stripped_indigo_hyphae: "enlightened_end:stripped_indigo_hyphae",
+/** @type {string} */
+b_indigo_planks: "enlightened_end:indigo_planks",
+/** @type {string} */
+b_indigo_stairs: "enlightened_end:indigo_stairs",
+/** @type {string} */
+b_indigo_slab: "enlightened_end:indigo_slab",
+/** @type {string} */
+b_indigo_fence_gate: "enlightened_end:indigo_fence_gate",
+/** @type {string} */
+b_indigo_fence: "enlightened_end:indigo_fence",
+/** @type {string} */
+b_indigo_door: "enlightened_end:indigo_door",
+/** @type {string} */
+b_indigo_trapdoor: "enlightened_end:indigo_trapdoor",
+/** @type {string} */
+b_indigo_pressure_plate: "enlightened_end:indigo_pressure_plate",
+/** @type {string} */
+b_indigo_button: "enlightened_end:indigo_button",
+/** @type {string} */
+b_underlily: "enlightened_end:underlily",
+/** @type {string} */
+b_cradling_flower: "enlightened_end:cradling_flower",
+/** @type {string} */
+b_cerulean_grass: "enlightened_end:cerulean_grass",
+/** @type {string} */
+b_cerulean_vine: "enlightened_end:cerulean_vine",
+/** @type {string} */
+b_cerulean_frond: "enlightened_end:cerulean_frond",
+/** @type {string} */
+b_closed_glow_gourd: "enlightened_end:closed_glow_gourd",
+/** @type {string} */
+b_glow_gourd: "enlightened_end:glow_gourd",
+/** @type {string} */
+b_cerulean_log: "enlightened_end:cerulean_log",
+/** @type {string} */
+b_stripped_cerulean_log: "enlightened_end:stripped_cerulean_log",
+/** @type {string} */
+b_cerulean_planks: "enlightened_end:cerulean_planks",
+/** @type {string} */
+b_cerulean_stairs: "enlightened_end:cerulean_stairs",
+/** @type {string} */
+b_cerulean_slab: "enlightened_end:cerulean_slab",
+/** @type {string} */
+b_cerulean_fence: "enlightened_end:cerulean_fence",
+/** @type {string} */
+b_cerulean_fence_gate: "enlightened_end:cerulean_fence_gate",
+/** @type {string} */
+b_cerulean_trapdoor: "enlightened_end:cerulean_trapdoor",
+/** @type {string} */
+b_cerulean_door: "enlightened_end:cerulean_door",
+/** @type {string} */
+b_cerulean_pressure_plate: "enlightened_end:cerulean_pressure_plate",
+/** @type {string} */
+b_cerulean_button: "enlightened_end:cerulean_button",
+/** @type {string} */
+b_ooze_fluid: "enlightened_end:ooze_fluid",
+/** @type {string} */
+b_ooze_tubes: "enlightened_end:ooze_tubes",
+/** @type {string} */
+b_gas_vent: "enlightened_end:gas_vent",
+/** @type {string} */
+b_chorloam: "enlightened_end:chorloam",
+/** @type {string} */
+b_glowseep: "enlightened_end:glowseep",
+/** @type {string} */
+b_bubble_jelly_block: "enlightened_end:bubble_jelly_block",
+/** @type {string} */
+b_frostburnt_void_shale: "enlightened_end:frostburnt_void_shale",
+/** @type {string} */
+b_frostburn_ice: "enlightened_end:frostburn_ice",
+/** @type {string} */
+b_freezing_totem: "enlightened_end:freezing_totem",
+/** @type {string} */
+b_offering_statue: "enlightened_end:offering_statue",
+/** @type {string} */
+b_content_offering_statue: "enlightened_end:content_offering_statue",
+/** @type {string} */
+b_superheated_pot: "enlightened_end:superheated_pot",
+/** @type {string} */
+b_glacium_block: "enlightened_end:glacium_block",
+/** @type {string} */
+b_glacium_bricks: "enlightened_end:glacium_bricks",
+/** @type {string} */
+b_glacium_brick_stairs: "enlightened_end:glacium_brick_stairs",
+/** @type {string} */
+b_glacium_brick_slab: "enlightened_end:glacium_brick_slab",
+/** @type {string} */
+b_glacium_brick_wall: "enlightened_end:glacium_brick_wall",
+/** @type {string} */
+b_stardust_block: "enlightened_end:stardust_block",
+/** @type {string} */
+b_xenon_laser: "enlightened_end:xenon_laser",
+/** @type {string} */
+b_xenon_lantern: "enlightened_end:xenon_lantern",
+/** @type {string} */
+b_heliosand: "enlightened_end:heliosand",
+/** @type {string} */
+b_helium_lantern: "enlightened_end:helium_lantern",
+/** @type {string} */
+b_malachite_ore: "enlightened_end:malachite_ore",
+/** @type {string} */
+b_chiseled_malachite: "enlightened_end:chiseled_malachite",
+/** @type {string} */
+b_malachite_block: "enlightened_end:malachite_block",
+/** @type {string} */
+b_malachite_stairs: "enlightened_end:malachite_stairs",
+/** @type {string} */
+b_malachite_slab: "enlightened_end:malachite_slab",
+/** @type {string} */
+b_malachite_wall: "enlightened_end:malachite_wall",
+/** @type {string} */
+b_polished_malachite: "enlightened_end:polished_malachite",
+/** @type {string} */
+b_polished_malachite_stairs: "enlightened_end:polished_malachite_stairs",
+/** @type {string} */
+b_polished_malachite_slab: "enlightened_end:polished_malachite_slab",
+/** @type {string} */
+b_polished_malachite_wall: "enlightened_end:polished_malachite_wall",
+/** @type {string} */
+b_cracked_malachite_bricks: "enlightened_end:cracked_malachite_bricks",
+/** @type {string} */
+b_malachite_bricks: "enlightened_end:malachite_bricks",
+/** @type {string} */
+b_malachite_brick_stairs: "enlightened_end:malachite_brick_stairs",
+/** @type {string} */
+b_malachite_brick_slab: "enlightened_end:malachite_brick_slab",
+/** @type {string} */
+b_malachite_brick_wall: "enlightened_end:malachite_brick_wall",
+/** @type {string} */
+b_cracked_malachite_tiles: "enlightened_end:cracked_malachite_tiles",
+/** @type {string} */
+b_malachite_tiles: "enlightened_end:malachite_tiles",
+/** @type {string} */
+b_malachite_tile_stairs: "enlightened_end:malachite_tile_stairs",
+/** @type {string} */
+b_malachite_tile_slab: "enlightened_end:malachite_tile_slab",
+/** @type {string} */
+b_malachite_tile_wall: "enlightened_end:malachite_tile_wall",
+/** @type {string} */
+b_malachite_capsule: "enlightened_end:malachite_capsule",
+/** @type {string} */
+b_teleporter: "enlightened_end:teleporter",
+/** @type {string} */
+b_irradium_ore: "enlightened_end:irradium_ore",
+/** @type {string} */
+b_raw_irradium_block: "enlightened_end:raw_irradium_block",
+/** @type {string} */
+b_irradium_block: "enlightened_end:irradium_block",
+/** @type {string} */
+b_irradium_bricks: "enlightened_end:irradium_bricks",
+/** @type {string} */
+b_irradium_brick_stairs: "enlightened_end:irradium_brick_stairs",
+/** @type {string} */
+b_irradium_brick_slab: "enlightened_end:irradium_brick_slab",
+/** @type {string} */
+b_irradium_brick_wall: "enlightened_end:irradium_brick_wall",
+/** @type {string} */
+b_nuclear_furnace: "enlightened_end:nuclear_furnace",
+/** @type {string} */
+b_irradium_lamp: "enlightened_end:irradium_lamp",
+/** @type {string} */
+b_depleted_irradium_block: "enlightened_end:depleted_irradium_block",
+/** @type {string} */
+b_depleted_irradium_bricks: "enlightened_end:depleted_irradium_bricks",
+/** @type {string} */
+b_depleted_irradium_brick_stairs: "enlightened_end:depleted_irradium_brick_stairs",
+/** @type {string} */
+b_depleted_irradium_brick_slab: "enlightened_end:depleted_irradium_brick_slab",
+/** @type {string} */
+b_depleted_irradium_brick_wall: "enlightened_end:depleted_irradium_brick_wall",
+/** @type {string} */
+b_nuclear_bomb: "enlightened_end:nuclear_bomb",
+/** @type {string} */
+b_raw_bismuth_block: "enlightened_end:raw_bismuth_block",
+/** @type {string} */
+b_bismuth_ore: "enlightened_end:bismuth_ore",
+/** @type {string} */
+b_bismuth_block: "enlightened_end:bismuth_block",
+/** @type {string} */
+b_bismuth_sheets: "enlightened_end:bismuth_sheets",
+/** @type {string} */
+b_bismuth_sheet_stairs: "enlightened_end:bismuth_sheet_stairs",
+/** @type {string} */
+b_bismuth_sheet_slab: "enlightened_end:bismuth_sheet_slab",
+/** @type {string} */
+b_bismuth_sheet_wall: "enlightened_end:bismuth_sheet_wall",
+/** @type {string} */
+b_bismuth_glass_pane: "enlightened_end:bismuth_glass_pane",
+/** @type {string} */
+b_bismuth_glass: "enlightened_end:bismuth_glass",
+/** @type {string} */
+b_bismuth_lamp: "enlightened_end:bismuth_lamp",
+/** @type {string} */
+b_waxed_bismuth_block: "enlightened_end:waxed_bismuth_block",
+/** @type {string} */
+b_waxed_bismuth_sheets: "enlightened_end:waxed_bismuth_sheets",
+/** @type {string} */
+b_waxed_bismuth_sheet_stairs: "enlightened_end:waxed_bismuth_sheet_stairs",
+/** @type {string} */
+b_waxed_bismuth_sheet_slab: "enlightened_end:waxed_bismuth_sheet_slab",
+/** @type {string} */
+b_waxed_bismuth_sheet_wall: "enlightened_end:waxed_bismuth_sheet_wall",
+/** @type {string} */
+b_waxed_bismuth_glass_pane: "enlightened_end:waxed_bismuth_glass_pane",
+/** @type {string} */
+b_waxed_bismuth_glass: "enlightened_end:waxed_bismuth_glass",
+/** @type {string} */
+b_waxed_bismuth_lamp: "enlightened_end:waxed_bismuth_lamp",
+/** @type {string} */
+b_dazzling_bismuth_block: "enlightened_end:dazzling_bismuth_block",
+/** @type {string} */
+b_dazzling_bismuth_sheets: "enlightened_end:dazzling_bismuth_sheets",
+/** @type {string} */
+b_dazzling_bismuth_sheet_stairs: "enlightened_end:dazzling_bismuth_sheet_stairs",
+/** @type {string} */
+b_dazzling_bismuth_slab: "enlightened_end:dazzling_bismuth_slab",
+/** @type {string} */
+b_dazzling_bismuth_wall: "enlightened_end:dazzling_bismuth_wall",
+/** @type {string} */
+b_dazzling_bismuth_glass_pane: "enlightened_end:dazzling_bismuth_glass_pane",
+/** @type {string} */
+b_dazzling_bismuth_glass: "enlightened_end:dazzling_bismuth_glass",
+/** @type {string} */
+b_dazzling_bismuth_lamp: "enlightened_end:dazzling_bismuth_lamp",
+/** @type {string} */
+b_verdant_bismuth_block: "enlightened_end:verdant_bismuth_block",
+/** @type {string} */
+b_verdant_bismuth_sheets: "enlightened_end:verdant_bismuth_sheets",
+/** @type {string} */
+b_verdant_bismuth_sheet_stairs: "enlightened_end:verdant_bismuth_sheet_stairs",
+/** @type {string} */
+b_verdant_bismuth_sheet_slab: "enlightened_end:verdant_bismuth_sheet_slab",
+/** @type {string} */
+b_verdant_bismuth_sheet_wall: "enlightened_end:verdant_bismuth_sheet_wall",
+/** @type {string} */
+b_verdant_bismuth_glass_pane: "enlightened_end:verdant_bismuth_glass_pane",
+/** @type {string} */
+b_verdant_bismuth_glass: "enlightened_end:verdant_bismuth_glass",
+/** @type {string} */
+b_verdant_bismuth_lamp: "enlightened_end:verdant_bismuth_lamp",
+/** @type {string} */
+b_poise_bismuth_block: "enlightened_end:poise_bismuth_block",
+/** @type {string} */
+b_poise_bismuth_sheets: "enlightened_end:poise_bismuth_sheets",
+/** @type {string} */
+b_poise_bismuth_sheet_stairs: "enlightened_end:poise_bismuth_sheet_stairs",
+/** @type {string} */
+b_poise_bismuth_sheet_slab: "enlightened_end:poise_bismuth_sheet_slab",
+/** @type {string} */
+b_poise_bismuth_sheet_wall: "enlightened_end:poise_bismuth_sheet_wall",
+/** @type {string} */
+b_poise_bismuth_glass_pane: "enlightened_end:poise_bismuth_glass_pane",
+/** @type {string} */
+b_poise_bismuth_glass: "enlightened_end:poise_bismuth_glass",
+/** @type {string} */
+b_poise_bismuth_lamp: "enlightened_end:poise_bismuth_lamp",
+/** @type {string} */
+b_ethereal_bismuth_block: "enlightened_end:ethereal_bismuth_block",
+/** @type {string} */
+b_ethereal_bismuth_sheets: "enlightened_end:ethereal_bismuth_sheets",
+/** @type {string} */
+b_ethereal_bismuth_sheet_stairs: "enlightened_end:ethereal_bismuth_sheet_stairs",
+/** @type {string} */
+b_ethereal_bismuth_sheet_slab: "enlightened_end:ethereal_bismuth_sheet_slab",
+/** @type {string} */
+b_ethereal_bismuth_sheet_wall: "enlightened_end:ethereal_bismuth_sheet_wall",
+/** @type {string} */
+b_ethereal_bismuth_glass_pane: "enlightened_end:ethereal_bismuth_glass_pane",
+/** @type {string} */
+b_ethereal_bismuth_glass: "enlightened_end:ethereal_bismuth_glass",
+/** @type {string} */
+b_ethereal_bismuth_lamp: "enlightened_end:ethereal_bismuth_lamp",
+/** @type {string} */
+b_serene_bismuth_block: "enlightened_end:serene_bismuth_block",
+/** @type {string} */
+b_serene_bismuth_sheets: "enlightened_end:serene_bismuth_sheets",
+/** @type {string} */
+b_serene_bismuth_sheet_stairs: "enlightened_end:serene_bismuth_sheet_stairs",
+/** @type {string} */
+b_serene_bismuth_sheet_slab: "enlightened_end:serene_bismuth_sheet_slab",
+/** @type {string} */
+b_serene_bismuth_sheet_wall: "enlightened_end:serene_bismuth_sheet_wall",
+/** @type {string} */
+b_serene_bismuth_glass_pane: "enlightened_end:serene_bismuth_glass_pane",
+/** @type {string} */
+b_serene_bismuth_glass: "enlightened_end:serene_bismuth_glass",
+/** @type {string} */
+b_serene_bismuth_lamp: "enlightened_end:serene_bismuth_lamp",
+/** @type {string} */
+b_iridescent_bismuth_lamp: "enlightened_end:iridescent_bismuth_lamp",
+/** @type {string} */
+b_iridescent_bismuth_sheets: "enlightened_end:iridescent_bismuth_sheets",
+/** @type {string} */
+b_iridescent_bismuth_sheet_stairs: "enlightened_end:iridescent_bismuth_sheet_stairs",
+/** @type {string} */
+b_iridescent_bismuth_sheet_slab: "enlightened_end:iridescent_bismuth_sheet_slab",
+/** @type {string} */
+b_iridescent_bismuth_sheet_wall: "enlightened_end:iridescent_bismuth_sheet_wall",
+/** @type {string} */
+b_iridescent_bismuth_glass_pane: "enlightened_end:iridescent_bismuth_glass_pane",
+/** @type {string} */
+b_iridescent_bismuth_glass: "enlightened_end:iridescent_bismuth_glass",
+/** @type {string} */
+b_iridescent_bismuth_block: "enlightened_end:iridescent_bismuth_block",
+/** @type {string} */
+b_adamantite_node: "enlightened_end:adamantite_node",
+/** @type {string} */
+b_adamantite_block: "enlightened_end:adamantite_block",
+/** @type {string} */
+b_cerulean_vine_tip: "enlightened_end:cerulean_vine_tip",
+/** @type {string} */
+b_cerulean_bush_top: "enlightened_end:cerulean_bush_top",
+/** @type {string} */
+b_cerulean_bush_bottom: "enlightened_end:cerulean_bush_bottom",
+/** @type {string} */
+b_potted_ennegel_fern: "enlightened_end:potted_ennegel_fern",
+/** @type {string} */
+b_helium_gas: "enlightened_end:helium_gas",
+/** @type {string} */
+b_xenon_gas: "enlightened_end:xenon_gas",
+/** @type {string} */
+b_planetary_air: "enlightened_end:planetary_air",
+/** @type {string} */
+b_plantery_system_air: "enlightened_end:plantery_system_air",
+/** @type {string} */
+b_springleaf_vine: "enlightened_end:springleaf_vine",
+/** @type {string} */
+b_spring_leaf_deactivated: "enlightened_end:spring_leaf_deactivated",
+/** @type {string} */
+b_closed_malachite_capsule: "enlightened_end:closed_malachite_capsule",
+/** @type {string} */
+b_malachite_reflector_up: "enlightened_end:malachite_reflector_up",
+/** @type {string} */
+b_laser_emission: "enlightened_end:laser_emission",
+/** @type {string} */
+b_malachite_reflector_horizontal: "enlightened_end:malachite_reflector_horizontal",
+/** @type {string} */
+b_malachite_reflector_veritcal_on: "enlightened_end:malachite_reflector_veritcal_on",
+/** @type {string} */
+b_malachite_reflector_horizontal_on: "enlightened_end:malachite_reflector_horizontal_on",
+/** @type {string} */
+b_malachite_reflector_down: "enlightened_end:malachite_reflector_down",
+/** @type {string} */
+b_malachite_reflector_down_on: "enlightened_end:malachite_reflector_down_on",
+/** @type {string} */
+b_xenon_laser_on: "enlightened_end:xenon_laser_on",
+/** @type {string} */
+b_bouncling_nut_2: "enlightened_end:bouncling_nut_2",
+/** @type {string} */
+b_bouncling_nut_0: "enlightened_end:bouncling_nut_0",
+/** @type {string} */
+b_azure_berry_vine_0: "enlightened_end:azure_berry_vine_0",
+/** @type {string} */
+b_azure_berry_vine_1: "enlightened_end:azure_berry_vine_1",
+/** @type {string} */
+b_azure_berry_vine_2: "enlightened_end:azure_berry_vine_2",
+/** @type {string} */
+b_irradium_lamp_off: "enlightened_end:irradium_lamp_off",
+/** @type {string} */
+b_gas_vent_middle: "enlightened_end:gas_vent_middle",
+/** @type {string} */
+b_gas_vent_ooze: "enlightened_end:gas_vent_ooze",
+/** @type {string} */
+b_gas_vent_bottom: "enlightened_end:gas_vent_bottom",
+/** @type {string} */
+b_gas_vent_water: "enlightened_end:gas_vent_water",
+/** @type {string} */
+b_gas_vent_lava: "enlightened_end:gas_vent_lava",
+/** @type {string} */
+b_gas_vent_xenon: "enlightened_end:gas_vent_xenon",
+/** @type {string} */
+b_gas_vent_helium: "enlightened_end:gas_vent_helium",
+/** @type {string} */
+b_cerulean_stalk_1: "enlightened_end:cerulean_stalk_1",
+/** @type {string} */
+b_cerulean_stalk_2: "enlightened_end:cerulean_stalk_2",
+/** @type {string} */
+b_cerulean_stalk_3: "enlightened_end:cerulean_stalk_3",
+/** @type {string} */
+b_elevibloom_0: "enlightened_end:elevibloom_0",
+/** @type {string} */
+b_elevibloom_1: "enlightened_end:elevibloom_1",
+/** @type {string} */
+b_elevibloom_2: "enlightened_end:elevibloom_2",
+/** @type {string} */
+b_elevibloom_3: "enlightened_end:elevibloom_3",
+/** @type {string} */
+b_ooze_cauldron_full: "enlightened_end:ooze_cauldron_full",
+/** @type {string} */
+b_ooze_cauldron_2: "enlightened_end:ooze_cauldron_2",
+/** @type {string} */
+b_ooze_cauldron_1: "enlightened_end:ooze_cauldron_1",
+/** @type {string} */
+b_cerulean_stalk_0: "enlightened_end:cerulean_stalk_0",
+/** @type {string} */
+b_potted_odd_roots: "enlightened_end:potted_odd_roots",
+/** @type {string} */
+b_potted_open_odd_roots: "enlightened_end:potted_open_odd_roots",
+/** @type {string} */
+b_potted_indigo_sprouts: "enlightened_end:potted_indigo_sprouts",
+/** @type {string} */
+b_potted_indigo_roots: "enlightened_end:potted_indigo_roots",
+/** @type {string} */
+b_end_stone_wall: "enlightened_end:end_stone_wall",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const block_outer_end = {
     /** @type {string} */
 b_azure_stem: "outer_end:azure_stem",
@@ -9314,6 +8780,9 @@ b_slot_machine: "slotmachinemod:slot_machine",
 
 };
 
+
+
+
 /**
  * Auto-generated Enum
  * @readonly
@@ -9440,6 +8909,110 @@ b_redwood_rail_bridge: "macawsbridgesbop:redwood_rail_bridge",
 b_umbran_rail_bridge: "macawsbridgesbop:umbran_rail_bridge",
 /** @type {string} */
 b_willow_rail_bridge: "macawsbridgesbop:willow_rail_bridge",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const block_callfromthedepth_ = {
+    /** @type {string} */
+b_deepgrass: "callfromthedepth_:deepgrass",
+/** @type {string} */
+b_deepstone: "callfromthedepth_:deepstone",
+/** @type {string} */
+b_deeptree: "callfromthedepth_:deeptree",
+/** @type {string} */
+b_deepflower: "callfromthedepth_:deepflower",
+/** @type {string} */
+b_deepgrib: "callfromthedepth_:deepgrib",
+/** @type {string} */
+b_deepgrassorange: "callfromthedepth_:deepgrassorange",
+/** @type {string} */
+b_depth_sculk_magma: "callfromthedepth_:depth_sculk_magma",
+/** @type {string} */
+b_deeplegorange: "callfromthedepth_:deeplegorange",
+/** @type {string} */
+b_orangemushroom: "callfromthedepth_:orangemushroom",
+/** @type {string} */
+b_jawsapple: "callfromthedepth_:jawsapple",
+/** @type {string} */
+b_deepmagmamushroom: "callfromthedepth_:deepmagmamushroom",
+/** @type {string} */
+b_firegrass: "callfromthedepth_:firegrass",
+/** @type {string} */
+b_depthsforestgrass: "callfromthedepth_:depthsforestgrass",
+/** @type {string} */
+b_boneflower: "callfromthedepth_:boneflower",
+/** @type {string} */
+b_skulkgrass: "callfromthedepth_:skulkgrass",
+/** @type {string} */
+b_deeplamplight: "callfromthedepth_:deeplamplight",
+/** @type {string} */
+b_deeplamp: "callfromthedepth_:deeplamp",
+/** @type {string} */
+b_swampblock: "callfromthedepth_:swampblock",
+/** @type {string} */
+b_poisonwater: "callfromthedepth_:poisonwater",
+/** @type {string} */
+b_lostsoulssand: "callfromthedepth_:lostsoulssand",
+/** @type {string} */
+b_soultree: "callfromthedepth_:soultree",
+/** @type {string} */
+b_soulrose: "callfromthedepth_:soulrose",
+/** @type {string} */
+b_soulgrass: "callfromthedepth_:soulgrass",
+/** @type {string} */
+b_jumpblock: "callfromthedepth_:jumpblock",
+/** @type {string} */
+b_bloodgore: "callfromthedepth_:bloodgore",
+/** @type {string} */
+b_rotjaws: "callfromthedepth_:rotjaws",
+/** @type {string} */
+b_rottencameli: "callfromthedepth_:rottencameli",
+/** @type {string} */
+b_rottentacles: "callfromthedepth_:rottentacles",
+/** @type {string} */
+b_rottenjump: "callfromthedepth_:rottenjump",
+/** @type {string} */
+b_immemorial_debris: "callfromthedepth_:immemorial_debris",
+/** @type {string} */
+b_underwater_sculk: "callfromthedepth_:underwater_sculk",
+/** @type {string} */
+b_deeptreeplanks: "callfromthedepth_:deeptreeplanks",
+/** @type {string} */
+b_lostsoulssoil: "callfromthedepth_:lostsoulssoil",
+/** @type {string} */
+b_marble_ore: "callfromthedepth_:marble_ore",
+/** @type {string} */
+b_marble_block: "callfromthedepth_:marble_block",
+/** @type {string} */
+b_carved_marble_block: "callfromthedepth_:carved_marble_block",
+/** @type {string} */
+b_marble_slap: "callfromthedepth_:marble_slap",
+/** @type {string} */
+b_marble_stairs: "callfromthedepth_:marble_stairs",
+/** @type {string} */
+b_smoothmarbleblock: "callfromthedepth_:smoothmarbleblock",
+/** @type {string} */
+b_smooth_marble_slab: "callfromthedepth_:smooth_marble_slab",
+/** @type {string} */
+b_smooth_marble_stair: "callfromthedepth_:smooth_marble_stair",
+/** @type {string} */
+b_marble_bricks: "callfromthedepth_:marble_bricks",
+/** @type {string} */
+b_depth_portal: "callfromthedepth_:depth_portal",
+/** @type {string} */
+b_bonedsculkstone: "callfromthedepth_:bonedsculkstone",
+/** @type {string} */
+b_stone_of_sacrificial: "callfromthedepth_:stone_of_sacrificial",
+/** @type {string} */
+b_stalkertable: "callfromthedepth_:stalkertable",
 
 };
 
@@ -13073,6 +12646,22 @@ b_potted_tiny_cactus: "creeperoverhaul:potted_tiny_cactus",
  * @readonly
  * @enum {string}
  */
+const block_crittersandcompanions = {
+    /** @type {string} */
+b_silk_cocoon: "crittersandcompanions:silk_cocoon",
+/** @type {string} */
+b_sea_bunny_slime_block: "crittersandcompanions:sea_bunny_slime_block",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const block_aether = {
     /** @type {string} */
 b_aether_portal: "aether:aether_portal",
@@ -13347,6 +12936,78 @@ b_unstable_obsidian: "aether:unstable_obsidian",
  * @readonly
  * @enum {string}
  */
+const block_naturalist = {
+    /** @type {string} */
+b_chrysalis: "naturalist:chrysalis",
+/** @type {string} */
+b_duckweed: "naturalist:duckweed",
+/** @type {string} */
+b_glow_goop: "naturalist:glow_goop",
+/** @type {string} */
+b_azure_froglass: "naturalist:azure_froglass",
+/** @type {string} */
+b_verdant_froglass: "naturalist:verdant_froglass",
+/** @type {string} */
+b_crimson_froglass: "naturalist:crimson_froglass",
+/** @type {string} */
+b_azure_froglass_pane: "naturalist:azure_froglass_pane",
+/** @type {string} */
+b_verdant_froglass_pane: "naturalist:verdant_froglass_pane",
+/** @type {string} */
+b_crimson_froglass_pane: "naturalist:crimson_froglass_pane",
+/** @type {string} */
+b_cattail: "naturalist:cattail",
+/** @type {string} */
+b_tortoise_egg: "naturalist:tortoise_egg",
+/** @type {string} */
+b_alligator_egg: "naturalist:alligator_egg",
+/** @type {string} */
+b_snail_eggs: "naturalist:snail_eggs",
+/** @type {string} */
+b_teddy_bear: "naturalist:teddy_bear",
+/** @type {string} */
+b_shellstone: "naturalist:shellstone",
+/** @type {string} */
+b_shellstone_stairs: "naturalist:shellstone_stairs",
+/** @type {string} */
+b_shellstone_slab: "naturalist:shellstone_slab",
+/** @type {string} */
+b_shellstone_wall: "naturalist:shellstone_wall",
+/** @type {string} */
+b_shellstone_bricks: "naturalist:shellstone_bricks",
+/** @type {string} */
+b_shellstone_brick_stairs: "naturalist:shellstone_brick_stairs",
+/** @type {string} */
+b_shellstone_brick_slab: "naturalist:shellstone_brick_slab",
+/** @type {string} */
+b_shellstone_brick_wall: "naturalist:shellstone_brick_wall",
+/** @type {string} */
+b_cut_shellstone: "naturalist:cut_shellstone",
+/** @type {string} */
+b_cut_shellstone_stairs: "naturalist:cut_shellstone_stairs",
+/** @type {string} */
+b_cut_shellstone_slab: "naturalist:cut_shellstone_slab",
+/** @type {string} */
+b_cut_shellstone_wall: "naturalist:cut_shellstone_wall",
+/** @type {string} */
+b_smooth_shellstone: "naturalist:smooth_shellstone",
+/** @type {string} */
+b_smooth_shellstone_stairs: "naturalist:smooth_shellstone_stairs",
+/** @type {string} */
+b_smooth_shellstone_slab: "naturalist:smooth_shellstone_slab",
+/** @type {string} */
+b_smooth_shellstone_wall: "naturalist:smooth_shellstone_wall",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const block_cookingforblockheads = {
     /** @type {string} */
 b_tool_rack: "cookingforblockheads:tool_rack",
@@ -13479,68 +13140,6 @@ b_lectern: "citadel:lectern",
  * @readonly
  * @enum {string}
  */
-const block_alexsmobs = {
-    /** @type {string} */
-b_banana_peel: "alexsmobs:banana_peel",
-/** @type {string} */
-b_hummingbird_feeder: "alexsmobs:hummingbird_feeder",
-/** @type {string} */
-b_crocodile_egg: "alexsmobs:crocodile_egg",
-/** @type {string} */
-b_gustmaker: "alexsmobs:gustmaker",
-/** @type {string} */
-b_straddlite_block: "alexsmobs:straddlite_block",
-/** @type {string} */
-b_platypus_egg: "alexsmobs:platypus_egg",
-/** @type {string} */
-b_leafcutter_anthill: "alexsmobs:leafcutter_anthill",
-/** @type {string} */
-b_leafcutter_ant_chamber: "alexsmobs:leafcutter_ant_chamber",
-/** @type {string} */
-b_capsid: "alexsmobs:capsid",
-/** @type {string} */
-b_void_worm_beak: "alexsmobs:void_worm_beak",
-/** @type {string} */
-b_void_worm_effigy: "alexsmobs:void_worm_effigy",
-/** @type {string} */
-b_terrapin_egg: "alexsmobs:terrapin_egg",
-/** @type {string} */
-b_rainbow_glass: "alexsmobs:rainbow_glass",
-/** @type {string} */
-b_bison_fur_block: "alexsmobs:bison_fur_block",
-/** @type {string} */
-b_bison_carpet: "alexsmobs:bison_carpet",
-/** @type {string} */
-b_sand_circle: "alexsmobs:sand_circle",
-/** @type {string} */
-b_red_sand_circle: "alexsmobs:red_sand_circle",
-/** @type {string} */
-b_ender_residue: "alexsmobs:ender_residue",
-/** @type {string} */
-b_transmutation_table: "alexsmobs:transmutation_table",
-/** @type {string} */
-b_sculk_boomer: "alexsmobs:sculk_boomer",
-/** @type {string} */
-b_skunk_spray: "alexsmobs:skunk_spray",
-/** @type {string} */
-b_banana_slug_slime_block: "alexsmobs:banana_slug_slime_block",
-/** @type {string} */
-b_crystalized_banana_slug_mucus: "alexsmobs:crystalized_banana_slug_mucus",
-/** @type {string} */
-b_caiman_egg: "alexsmobs:caiman_egg",
-/** @type {string} */
-b_triops_eggs: "alexsmobs:triops_eggs",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
 const block_railways = {
     /** @type {string} */
 b_semaphore: "railways:semaphore",
@@ -13579,57 +13178,57 @@ b_track_phantom: "railways:track_phantom",
 /** @type {string} */
 b_track_mangrove: "railways:track_mangrove",
 /** @type {string} */
+b_track_tieless_wide: "railways:track_tieless_wide",
+/** @type {string} */
+b_track_jungle_wide: "railways:track_jungle_wide",
+/** @type {string} */
+b_track_crimson_wide: "railways:track_crimson_wide",
+/** @type {string} */
+b_track_warped_wide: "railways:track_warped_wide",
+/** @type {string} */
 b_track_create_andesite_wide: "railways:track_create_andesite_wide",
 /** @type {string} */
 b_track_birch_wide: "railways:track_birch_wide",
 /** @type {string} */
-b_track_blackstone_wide: "railways:track_blackstone_wide",
+b_track_ender_wide: "railways:track_ender_wide",
 /** @type {string} */
 b_track_oak_wide: "railways:track_oak_wide",
 /** @type {string} */
-b_track_mangrove_wide: "railways:track_mangrove_wide",
-/** @type {string} */
-b_track_dark_oak_wide: "railways:track_dark_oak_wide",
-/** @type {string} */
-b_track_ender_wide: "railways:track_ender_wide",
-/** @type {string} */
 b_track_spruce_wide: "railways:track_spruce_wide",
-/** @type {string} */
-b_track_crimson_wide: "railways:track_crimson_wide",
-/** @type {string} */
-b_track_tieless_wide: "railways:track_tieless_wide",
-/** @type {string} */
-b_track_warped_wide: "railways:track_warped_wide",
 /** @type {string} */
 b_track_acacia_wide: "railways:track_acacia_wide",
 /** @type {string} */
-b_track_jungle_wide: "railways:track_jungle_wide",
+b_track_blackstone_wide: "railways:track_blackstone_wide",
+/** @type {string} */
+b_track_dark_oak_wide: "railways:track_dark_oak_wide",
+/** @type {string} */
+b_track_mangrove_wide: "railways:track_mangrove_wide",
+/** @type {string} */
+b_track_tieless_narrow: "railways:track_tieless_narrow",
+/** @type {string} */
+b_track_jungle_narrow: "railways:track_jungle_narrow",
+/** @type {string} */
+b_track_crimson_narrow: "railways:track_crimson_narrow",
+/** @type {string} */
+b_track_warped_narrow: "railways:track_warped_narrow",
 /** @type {string} */
 b_track_create_andesite_narrow: "railways:track_create_andesite_narrow",
 /** @type {string} */
 b_track_birch_narrow: "railways:track_birch_narrow",
 /** @type {string} */
-b_track_blackstone_narrow: "railways:track_blackstone_narrow",
+b_track_ender_narrow: "railways:track_ender_narrow",
 /** @type {string} */
 b_track_oak_narrow: "railways:track_oak_narrow",
 /** @type {string} */
-b_track_mangrove_narrow: "railways:track_mangrove_narrow",
-/** @type {string} */
-b_track_dark_oak_narrow: "railways:track_dark_oak_narrow",
-/** @type {string} */
-b_track_ender_narrow: "railways:track_ender_narrow",
-/** @type {string} */
 b_track_spruce_narrow: "railways:track_spruce_narrow",
-/** @type {string} */
-b_track_crimson_narrow: "railways:track_crimson_narrow",
-/** @type {string} */
-b_track_tieless_narrow: "railways:track_tieless_narrow",
-/** @type {string} */
-b_track_warped_narrow: "railways:track_warped_narrow",
 /** @type {string} */
 b_track_acacia_narrow: "railways:track_acacia_narrow",
 /** @type {string} */
-b_track_jungle_narrow: "railways:track_jungle_narrow",
+b_track_blackstone_narrow: "railways:track_blackstone_narrow",
+/** @type {string} */
+b_track_dark_oak_narrow: "railways:track_dark_oak_narrow",
+/** @type {string} */
+b_track_mangrove_narrow: "railways:track_mangrove_narrow",
 /** @type {string} */
 b_track_monorail: "railways:track_monorail",
 /** @type {string} */
@@ -14603,246 +14202,6 @@ b_bountyboard: "bountiful:bountyboard",
  * @readonly
  * @enum {string}
  */
-const block_deeperdarker = {
-    /** @type {string} */
-b_echo_log: "deeperdarker:echo_log",
-/** @type {string} */
-b_echo_wood: "deeperdarker:echo_wood",
-/** @type {string} */
-b_stripped_echo_log: "deeperdarker:stripped_echo_log",
-/** @type {string} */
-b_stripped_echo_wood: "deeperdarker:stripped_echo_wood",
-/** @type {string} */
-b_echo_planks: "deeperdarker:echo_planks",
-/** @type {string} */
-b_echo_stairs: "deeperdarker:echo_stairs",
-/** @type {string} */
-b_echo_slab: "deeperdarker:echo_slab",
-/** @type {string} */
-b_echo_fence: "deeperdarker:echo_fence",
-/** @type {string} */
-b_echo_fence_gate: "deeperdarker:echo_fence_gate",
-/** @type {string} */
-b_echo_door: "deeperdarker:echo_door",
-/** @type {string} */
-b_echo_trapdoor: "deeperdarker:echo_trapdoor",
-/** @type {string} */
-b_echo_pressure_plate: "deeperdarker:echo_pressure_plate",
-/** @type {string} */
-b_echo_button: "deeperdarker:echo_button",
-/** @type {string} */
-b_echo_leaves: "deeperdarker:echo_leaves",
-/** @type {string} */
-b_echo_sapling: "deeperdarker:echo_sapling",
-/** @type {string} */
-b_echo_sign: "deeperdarker:echo_sign",
-/** @type {string} */
-b_echo_wall_sign: "deeperdarker:echo_wall_sign",
-/** @type {string} */
-b_echo_hanging_sign: "deeperdarker:echo_hanging_sign",
-/** @type {string} */
-b_echo_wall_hanging_sign: "deeperdarker:echo_wall_hanging_sign",
-/** @type {string} */
-b_potted_echo_sapling: "deeperdarker:potted_echo_sapling",
-/** @type {string} */
-b_sculk_stone: "deeperdarker:sculk_stone",
-/** @type {string} */
-b_sculk_stone_stairs: "deeperdarker:sculk_stone_stairs",
-/** @type {string} */
-b_sculk_stone_slab: "deeperdarker:sculk_stone_slab",
-/** @type {string} */
-b_sculk_stone_wall: "deeperdarker:sculk_stone_wall",
-/** @type {string} */
-b_cobbled_sculk_stone: "deeperdarker:cobbled_sculk_stone",
-/** @type {string} */
-b_cobbled_sculk_stone_stairs: "deeperdarker:cobbled_sculk_stone_stairs",
-/** @type {string} */
-b_cobbled_sculk_stone_slab: "deeperdarker:cobbled_sculk_stone_slab",
-/** @type {string} */
-b_cobbled_sculk_stone_wall: "deeperdarker:cobbled_sculk_stone_wall",
-/** @type {string} */
-b_polished_sculk_stone: "deeperdarker:polished_sculk_stone",
-/** @type {string} */
-b_polished_sculk_stone_stairs: "deeperdarker:polished_sculk_stone_stairs",
-/** @type {string} */
-b_polished_sculk_stone_slab: "deeperdarker:polished_sculk_stone_slab",
-/** @type {string} */
-b_polished_sculk_stone_wall: "deeperdarker:polished_sculk_stone_wall",
-/** @type {string} */
-b_sculk_stone_bricks: "deeperdarker:sculk_stone_bricks",
-/** @type {string} */
-b_sculk_stone_brick_stairs: "deeperdarker:sculk_stone_brick_stairs",
-/** @type {string} */
-b_sculk_stone_brick_slab: "deeperdarker:sculk_stone_brick_slab",
-/** @type {string} */
-b_sculk_stone_brick_wall: "deeperdarker:sculk_stone_brick_wall",
-/** @type {string} */
-b_sculk_stone_tiles: "deeperdarker:sculk_stone_tiles",
-/** @type {string} */
-b_sculk_stone_tile_stairs: "deeperdarker:sculk_stone_tile_stairs",
-/** @type {string} */
-b_sculk_stone_tile_slab: "deeperdarker:sculk_stone_tile_slab",
-/** @type {string} */
-b_sculk_stone_tile_wall: "deeperdarker:sculk_stone_tile_wall",
-/** @type {string} */
-b_smooth_sculk_stone: "deeperdarker:smooth_sculk_stone",
-/** @type {string} */
-b_smooth_sculk_stone_stairs: "deeperdarker:smooth_sculk_stone_stairs",
-/** @type {string} */
-b_smooth_sculk_stone_slab: "deeperdarker:smooth_sculk_stone_slab",
-/** @type {string} */
-b_smooth_sculk_stone_wall: "deeperdarker:smooth_sculk_stone_wall",
-/** @type {string} */
-b_cut_sculk_stone: "deeperdarker:cut_sculk_stone",
-/** @type {string} */
-b_cut_sculk_stone_stairs: "deeperdarker:cut_sculk_stone_stairs",
-/** @type {string} */
-b_cut_sculk_stone_slab: "deeperdarker:cut_sculk_stone_slab",
-/** @type {string} */
-b_cut_sculk_stone_wall: "deeperdarker:cut_sculk_stone_wall",
-/** @type {string} */
-b_chiseled_sculk_stone: "deeperdarker:chiseled_sculk_stone",
-/** @type {string} */
-b_gloomslate: "deeperdarker:gloomslate",
-/** @type {string} */
-b_gloomslate_stairs: "deeperdarker:gloomslate_stairs",
-/** @type {string} */
-b_gloomslate_slab: "deeperdarker:gloomslate_slab",
-/** @type {string} */
-b_gloomslate_wall: "deeperdarker:gloomslate_wall",
-/** @type {string} */
-b_cobbled_gloomslate: "deeperdarker:cobbled_gloomslate",
-/** @type {string} */
-b_cobbled_gloomslate_stairs: "deeperdarker:cobbled_gloomslate_stairs",
-/** @type {string} */
-b_cobbled_gloomslate_slab: "deeperdarker:cobbled_gloomslate_slab",
-/** @type {string} */
-b_cobbled_gloomslate_wall: "deeperdarker:cobbled_gloomslate_wall",
-/** @type {string} */
-b_polished_gloomslate: "deeperdarker:polished_gloomslate",
-/** @type {string} */
-b_polished_gloomslate_stairs: "deeperdarker:polished_gloomslate_stairs",
-/** @type {string} */
-b_polished_gloomslate_slab: "deeperdarker:polished_gloomslate_slab",
-/** @type {string} */
-b_polished_gloomslate_wall: "deeperdarker:polished_gloomslate_wall",
-/** @type {string} */
-b_gloomslate_bricks: "deeperdarker:gloomslate_bricks",
-/** @type {string} */
-b_gloomslate_brick_stairs: "deeperdarker:gloomslate_brick_stairs",
-/** @type {string} */
-b_gloomslate_brick_slab: "deeperdarker:gloomslate_brick_slab",
-/** @type {string} */
-b_gloomslate_brick_wall: "deeperdarker:gloomslate_brick_wall",
-/** @type {string} */
-b_gloomslate_tiles: "deeperdarker:gloomslate_tiles",
-/** @type {string} */
-b_gloomslate_tile_stairs: "deeperdarker:gloomslate_tile_stairs",
-/** @type {string} */
-b_gloomslate_tile_slab: "deeperdarker:gloomslate_tile_slab",
-/** @type {string} */
-b_gloomslate_tile_wall: "deeperdarker:gloomslate_tile_wall",
-/** @type {string} */
-b_smooth_gloomslate: "deeperdarker:smooth_gloomslate",
-/** @type {string} */
-b_smooth_gloomslate_stairs: "deeperdarker:smooth_gloomslate_stairs",
-/** @type {string} */
-b_smooth_gloomslate_slab: "deeperdarker:smooth_gloomslate_slab",
-/** @type {string} */
-b_smooth_gloomslate_wall: "deeperdarker:smooth_gloomslate_wall",
-/** @type {string} */
-b_cut_gloomslate: "deeperdarker:cut_gloomslate",
-/** @type {string} */
-b_cut_gloomslate_stairs: "deeperdarker:cut_gloomslate_stairs",
-/** @type {string} */
-b_cut_gloomslate_slab: "deeperdarker:cut_gloomslate_slab",
-/** @type {string} */
-b_cut_gloomslate_wall: "deeperdarker:cut_gloomslate_wall",
-/** @type {string} */
-b_chiseled_gloomslate: "deeperdarker:chiseled_gloomslate",
-/** @type {string} */
-b_sculk_grime: "deeperdarker:sculk_grime",
-/** @type {string} */
-b_sculk_grime_bricks: "deeperdarker:sculk_grime_bricks",
-/** @type {string} */
-b_sculk_grime_brick_slab: "deeperdarker:sculk_grime_brick_slab",
-/** @type {string} */
-b_sculk_grime_brick_stairs: "deeperdarker:sculk_grime_brick_stairs",
-/** @type {string} */
-b_sculk_grime_brick_wall: "deeperdarker:sculk_grime_brick_wall",
-/** @type {string} */
-b_echo_soil: "deeperdarker:echo_soil",
-/** @type {string} */
-b_gloomy_sculk: "deeperdarker:gloomy_sculk",
-/** @type {string} */
-b_gloomy_geyser: "deeperdarker:gloomy_geyser",
-/** @type {string} */
-b_crystallized_amber: "deeperdarker:crystallized_amber",
-/** @type {string} */
-b_sculk_gleam: "deeperdarker:sculk_gleam",
-/** @type {string} */
-b_sculk_stone_coal_ore: "deeperdarker:sculk_stone_coal_ore",
-/** @type {string} */
-b_sculk_stone_iron_ore: "deeperdarker:sculk_stone_iron_ore",
-/** @type {string} */
-b_sculk_stone_copper_ore: "deeperdarker:sculk_stone_copper_ore",
-/** @type {string} */
-b_sculk_stone_gold_ore: "deeperdarker:sculk_stone_gold_ore",
-/** @type {string} */
-b_sculk_stone_redstone_ore: "deeperdarker:sculk_stone_redstone_ore",
-/** @type {string} */
-b_sculk_stone_emerald_ore: "deeperdarker:sculk_stone_emerald_ore",
-/** @type {string} */
-b_sculk_stone_lapis_ore: "deeperdarker:sculk_stone_lapis_ore",
-/** @type {string} */
-b_sculk_stone_diamond_ore: "deeperdarker:sculk_stone_diamond_ore",
-/** @type {string} */
-b_gloomslate_coal_ore: "deeperdarker:gloomslate_coal_ore",
-/** @type {string} */
-b_gloomslate_iron_ore: "deeperdarker:gloomslate_iron_ore",
-/** @type {string} */
-b_gloomslate_copper_ore: "deeperdarker:gloomslate_copper_ore",
-/** @type {string} */
-b_gloomslate_gold_ore: "deeperdarker:gloomslate_gold_ore",
-/** @type {string} */
-b_gloomslate_redstone_ore: "deeperdarker:gloomslate_redstone_ore",
-/** @type {string} */
-b_gloomslate_emerald_ore: "deeperdarker:gloomslate_emerald_ore",
-/** @type {string} */
-b_gloomslate_lapis_ore: "deeperdarker:gloomslate_lapis_ore",
-/** @type {string} */
-b_gloomslate_diamond_ore: "deeperdarker:gloomslate_diamond_ore",
-/** @type {string} */
-b_gloomy_grass: "deeperdarker:gloomy_grass",
-/** @type {string} */
-b_gloomy_cactus: "deeperdarker:gloomy_cactus",
-/** @type {string} */
-b_sculk_tendrils: "deeperdarker:sculk_tendrils",
-/** @type {string} */
-b_sculk_tendrils_plant: "deeperdarker:sculk_tendrils_plant",
-/** @type {string} */
-b_sculk_vines: "deeperdarker:sculk_vines",
-/** @type {string} */
-b_sculk_vines_plant: "deeperdarker:sculk_vines_plant",
-/** @type {string} */
-b_ancient_vase: "deeperdarker:ancient_vase",
-/** @type {string} */
-b_infested_sculk: "deeperdarker:infested_sculk",
-/** @type {string} */
-b_sculk_jaw: "deeperdarker:sculk_jaw",
-/** @type {string} */
-b_otherside_portal: "deeperdarker:otherside_portal",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
 const block_doapi = {
     /** @type {string} */
 b_standard: "doapi:standard",
@@ -15149,6 +14508,28 @@ b_dark_cherry_wall_hanging_sign: "vinery:dark_cherry_wall_hanging_sign",
  * @readonly
  * @enum {string}
  */
+const block_enderitemod = {
+    /** @type {string} */
+b_enderite_block: "enderitemod:enderite_block",
+/** @type {string} */
+b_enderite_ore: "enderitemod:enderite_ore",
+/** @type {string} */
+b_cracked_enderite_ore: "enderitemod:cracked_enderite_ore",
+/** @type {string} */
+b_enderite_respawn_anchor: "enderitemod:enderite_respawn_anchor",
+/** @type {string} */
+b_enderite_shulker_box: "enderitemod:enderite_shulker_box",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const block_herbalbrews = {
     /** @type {string} */
 b_stove: "herbalbrews:stove",
@@ -15206,6 +14587,20 @@ b_potted_wild_rooibos: "herbalbrews:potted_wild_rooibos",
 b_potted_wild_coffee: "herbalbrews:potted_wild_coffee",
 /** @type {string} */
 b_potted_wild_yerba_mate: "herbalbrews:potted_wild_yerba_mate",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const block_auctionworld = {
+    /** @type {string} */
+b_auction_house: "auctionworld:auction_house",
 
 };
 
@@ -19343,6 +18738,128 @@ b_hammock_black: "comforts:hammock_black",
  * @readonly
  * @enum {string}
  */
+const block_call_of_yucutan = {
+    /** @type {string} */
+b_red_limestone: "call_of_yucutan:red_limestone",
+/** @type {string} */
+b_polished_red_limestone: "call_of_yucutan:polished_red_limestone",
+/** @type {string} */
+b_chiseled_red_limestone: "call_of_yucutan:chiseled_red_limestone",
+/** @type {string} */
+b_red_limestone_tiles: "call_of_yucutan:red_limestone_tiles",
+/** @type {string} */
+b_ritual_rocks: "call_of_yucutan:ritual_rocks",
+/** @type {string} */
+b_polished_ritual_rock: "call_of_yucutan:polished_ritual_rock",
+/** @type {string} */
+b_ritual_rock_pillar: "call_of_yucutan:ritual_rock_pillar",
+/** @type {string} */
+b_ritual_rock_tiles: "call_of_yucutan:ritual_rock_tiles",
+/** @type {string} */
+b_red_limestone_stairs: "call_of_yucutan:red_limestone_stairs",
+/** @type {string} */
+b_red_limestone_slab: "call_of_yucutan:red_limestone_slab",
+/** @type {string} */
+b_red_limestone_wall: "call_of_yucutan:red_limestone_wall",
+/** @type {string} */
+b_polished_red_limestone_stairs: "call_of_yucutan:polished_red_limestone_stairs",
+/** @type {string} */
+b_polished_red_limestone_slab: "call_of_yucutan:polished_red_limestone_slab",
+/** @type {string} */
+b_polished_red_limestone_wall: "call_of_yucutan:polished_red_limestone_wall",
+/** @type {string} */
+b_red_limestone_tile_stairs: "call_of_yucutan:red_limestone_tile_stairs",
+/** @type {string} */
+b_red_limestone_tile_slab: "call_of_yucutan:red_limestone_tile_slab",
+/** @type {string} */
+b_ritual_rock_stairs: "call_of_yucutan:ritual_rock_stairs",
+/** @type {string} */
+b_ritual_rock_slab: "call_of_yucutan:ritual_rock_slab",
+/** @type {string} */
+b_ritual_rock_wall: "call_of_yucutan:ritual_rock_wall",
+/** @type {string} */
+b_polished_ritual_rock_stairs: "call_of_yucutan:polished_ritual_rock_stairs",
+/** @type {string} */
+b_polished_ritual_rock_slab: "call_of_yucutan:polished_ritual_rock_slab",
+/** @type {string} */
+b_polished_ritual_rock_wall: "call_of_yucutan:polished_ritual_rock_wall",
+/** @type {string} */
+b_ancient_gold: "call_of_yucutan:ancient_gold",
+/** @type {string} */
+b_ancient_gold_pillar: "call_of_yucutan:ancient_gold_pillar",
+/** @type {string} */
+b_reflector: "call_of_yucutan:reflector",
+/** @type {string} */
+b_solar_projector: "call_of_yucutan:solar_projector",
+/** @type {string} */
+b_mossy_red_limestone: "call_of_yucutan:mossy_red_limestone",
+/** @type {string} */
+b_mossy_limestone_tiles: "call_of_yucutan:mossy_limestone_tiles",
+/** @type {string} */
+b_mossy_ritual_rocks: "call_of_yucutan:mossy_ritual_rocks",
+/** @type {string} */
+b_mossy_ritual_rock_tiles: "call_of_yucutan:mossy_ritual_rock_tiles",
+/** @type {string} */
+b_jade_block: "call_of_yucutan:jade_block",
+/** @type {string} */
+b_jade_tiles: "call_of_yucutan:jade_tiles",
+/** @type {string} */
+b_chiseled_jade: "call_of_yucutan:chiseled_jade",
+/** @type {string} */
+b_jade_stairs: "call_of_yucutan:jade_stairs",
+/** @type {string} */
+b_jade_slab: "call_of_yucutan:jade_slab",
+/** @type {string} */
+b_jade_wall: "call_of_yucutan:jade_wall",
+/** @type {string} */
+b_jade_tile_stairs: "call_of_yucutan:jade_tile_stairs",
+/** @type {string} */
+b_jade_tile_slab: "call_of_yucutan:jade_tile_slab",
+/** @type {string} */
+b_ancient_gold_stairs: "call_of_yucutan:ancient_gold_stairs",
+/** @type {string} */
+b_ancient_gold_slab: "call_of_yucutan:ancient_gold_slab",
+/** @type {string} */
+b_ancient_gold_wall: "call_of_yucutan:ancient_gold_wall",
+/** @type {string} */
+b_mystic_vine_block: "call_of_yucutan:mystic_vine_block",
+/** @type {string} */
+b_polished_jade_block: "call_of_yucutan:polished_jade_block",
+/** @type {string} */
+b_ah_puch_idol: "call_of_yucutan:ah_puch_idol",
+/** @type {string} */
+b_kukulkan_idol: "call_of_yucutan:kukulkan_idol",
+/** @type {string} */
+b_hematite_block: "call_of_yucutan:hematite_block",
+/** @type {string} */
+b_jade_ore: "call_of_yucutan:jade_ore",
+/** @type {string} */
+b_deepslate_jade_ore: "call_of_yucutan:deepslate_jade_ore",
+/** @type {string} */
+b_overgrown_chest: "call_of_yucutan:overgrown_chest",
+/** @type {string} */
+b_bone_torch_ground: "call_of_yucutan:bone_torch_ground",
+/** @type {string} */
+b_bone_torch_wall: "call_of_yucutan:bone_torch_wall",
+/** @type {string} */
+b_golden_torch_ground: "call_of_yucutan:golden_torch_ground",
+/** @type {string} */
+b_golden_torch_wall: "call_of_yucutan:golden_torch_wall",
+/** @type {string} */
+b_red_limestone_pressure_plate: "call_of_yucutan:red_limestone_pressure_plate",
+/** @type {string} */
+b_chili_pepper_seeds: "call_of_yucutan:chili_pepper_seeds",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const block_nethersdelight = {
     /** @type {string} */
 b_blackstone_stove: "nethersdelight:blackstone_stove",
@@ -19632,9 +19149,9 @@ b_resistive_arkan: "endlessbiomes:resistive_arkan",
 
 /**
  * Auto-generated Typedef
- * @typedef {block_minecraft | block_betternether | block_lootcrates | block_betterend | block_simplemagnets | block_apotheosis | block_supplementaries | block_refinedstorage | block_structure_gel | block_handcrafted | block_morevillagers | block_corail_woodcutter | block_tombstone | block_chimes | block_mcwlights | block_bellsandwhistles | block_mutantmonsters | block_endertrigon | block_libraryferret | block_kobolds | block_biomesoplenty | block_domum_ornamentum | block_structurize | block_lootr | block_doggytalents | block_sophisticatedbackpacks | block_plentyplates | block_utilitarian | block_mcwbridges | block_endertanks | block_simplylight | block_everythingisedibleeie | block_elevatorid | block_undergarden | block_outer_end | block_bosses_of_mass_destruction | block_azurelib | block_endermanoverhaul | block_minecolonies | block_bushierflowers | block_simpleradio | block_createaddition | block_perfectplushies | block_irons_spellbooks | block_slotmachinemod | block_macawsbridgesbop | block_torchmaster | block_ironfurnaces | block_mysticaloaktree | block_origins | block_energymeter | block_theabyss | block_mcwfurnitures | block_multipiston | block_packingtape | block_mythicmounts | block_mcwpaths | block_usefulrailroads | block_croptopia | block_oceansdelight | block_aquaculture | block_aquamirae | block_blue_skies | block_creeperoverhaul | block_aether | block_cookingforblockheads | block_dankstorage | block_citadel | block_alexsmobs | block_railways | block_farmersdelight | block_cuffed | block_compressium | block_endersdelight | block_endrem | block_bountiful | block_deeperdarker | block_doapi | block_vinery | block_herbalbrews | block_bakery | block_brewery | block_meadow | block_nethervinery | block_candlelight | block_beachparty | block_trashcans | block_easy_mob_farm | block_sophisticatedstorage | block_additionallanterns | block_ftbquests | block_create | block_waystones | block_comforts | block_nethersdelight | block_create_sa | block_enderchests | block_endlessbiomes} block
+ * @typedef {block_minecraft | block_betternether | block_simplemagnets | block_apotheosis | block_supplementaries | block_refinedstorage | block_structure_gel | block_handcrafted | block_morevillagers | block_zoomers_extended_apotheosis | block_corail_woodcutter | block_toms_trading_network | block_tombstone | block_chimes | block_trials | block_mcwlights | block_bellsandwhistles | block_mutantmonsters | block_endertrigon | block_libraryferret | block_kobolds | block_biomesoplenty | block_domum_ornamentum | block_structurize | block_lootr | block_phantasm | block_doggytalents | block_sophisticatedbackpacks | block_plentyplates | block_utilitarian | block_mcwbridges | block_endertanks | block_simplylight | block_everythingisedibleeie | block_elevatorid | block_undergarden | block_copycats | block_enlightened_end | block_outer_end | block_bosses_of_mass_destruction | block_azurelib | block_endermanoverhaul | block_minecolonies | block_bushierflowers | block_simpleradio | block_createaddition | block_perfectplushies | block_irons_spellbooks | block_slotmachinemod | block_macawsbridgesbop | block_callfromthedepth_ | block_torchmaster | block_ironfurnaces | block_mysticaloaktree | block_origins | block_energymeter | block_theabyss | block_mcwfurnitures | block_multipiston | block_packingtape | block_mythicmounts | block_mcwpaths | block_usefulrailroads | block_croptopia | block_oceansdelight | block_aquaculture | block_aquamirae | block_blue_skies | block_creeperoverhaul | block_crittersandcompanions | block_aether | block_naturalist | block_cookingforblockheads | block_dankstorage | block_citadel | block_railways | block_farmersdelight | block_cuffed | block_compressium | block_endersdelight | block_endrem | block_bountiful | block_doapi | block_vinery | block_enderitemod | block_herbalbrews | block_auctionworld | block_bakery | block_brewery | block_meadow | block_nethervinery | block_candlelight | block_beachparty | block_trashcans | block_easy_mob_farm | block_sophisticatedstorage | block_additionallanterns | block_ftbquests | block_create | block_waystones | block_comforts | block_call_of_yucutan | block_nethersdelight | block_create_sa | block_enderchests | block_endlessbiomes} block
  */
 
 module.exports = {
-    block_minecraft, block_betternether, block_lootcrates, block_betterend, block_simplemagnets, block_apotheosis, block_supplementaries, block_refinedstorage, block_structure_gel, block_handcrafted, block_morevillagers, block_corail_woodcutter, block_tombstone, block_chimes, block_mcwlights, block_bellsandwhistles, block_mutantmonsters, block_endertrigon, block_libraryferret, block_kobolds, block_biomesoplenty, block_domum_ornamentum, block_structurize, block_lootr, block_doggytalents, block_sophisticatedbackpacks, block_plentyplates, block_utilitarian, block_mcwbridges, block_endertanks, block_simplylight, block_everythingisedibleeie, block_elevatorid, block_undergarden, block_outer_end, block_bosses_of_mass_destruction, block_azurelib, block_endermanoverhaul, block_minecolonies, block_bushierflowers, block_simpleradio, block_createaddition, block_perfectplushies, block_irons_spellbooks, block_slotmachinemod, block_macawsbridgesbop, block_torchmaster, block_ironfurnaces, block_mysticaloaktree, block_origins, block_energymeter, block_theabyss, block_mcwfurnitures, block_multipiston, block_packingtape, block_mythicmounts, block_mcwpaths, block_usefulrailroads, block_croptopia, block_oceansdelight, block_aquaculture, block_aquamirae, block_blue_skies, block_creeperoverhaul, block_aether, block_cookingforblockheads, block_dankstorage, block_citadel, block_alexsmobs, block_railways, block_farmersdelight, block_cuffed, block_compressium, block_endersdelight, block_endrem, block_bountiful, block_deeperdarker, block_doapi, block_vinery, block_herbalbrews, block_bakery, block_brewery, block_meadow, block_nethervinery, block_candlelight, block_beachparty, block_trashcans, block_easy_mob_farm, block_sophisticatedstorage, block_additionallanterns, block_ftbquests, block_create, block_waystones, block_comforts, block_nethersdelight, block_create_sa, block_enderchests, block_endlessbiomes
+    block_minecraft, block_betternether, block_simplemagnets, block_apotheosis, block_supplementaries, block_refinedstorage, block_structure_gel, block_handcrafted, block_morevillagers, block_zoomers_extended_apotheosis, block_corail_woodcutter, block_toms_trading_network, block_tombstone, block_chimes, block_trials, block_mcwlights, block_bellsandwhistles, block_mutantmonsters, block_endertrigon, block_libraryferret, block_kobolds, block_biomesoplenty, block_domum_ornamentum, block_structurize, block_lootr, block_phantasm, block_doggytalents, block_sophisticatedbackpacks, block_plentyplates, block_utilitarian, block_mcwbridges, block_endertanks, block_simplylight, block_everythingisedibleeie, block_elevatorid, block_undergarden, block_copycats, block_enlightened_end, block_outer_end, block_bosses_of_mass_destruction, block_azurelib, block_endermanoverhaul, block_minecolonies, block_bushierflowers, block_simpleradio, block_createaddition, block_perfectplushies, block_irons_spellbooks, block_slotmachinemod, block_macawsbridgesbop, block_callfromthedepth_, block_torchmaster, block_ironfurnaces, block_mysticaloaktree, block_origins, block_energymeter, block_theabyss, block_mcwfurnitures, block_multipiston, block_packingtape, block_mythicmounts, block_mcwpaths, block_usefulrailroads, block_croptopia, block_oceansdelight, block_aquaculture, block_aquamirae, block_blue_skies, block_creeperoverhaul, block_crittersandcompanions, block_aether, block_naturalist, block_cookingforblockheads, block_dankstorage, block_citadel, block_railways, block_farmersdelight, block_cuffed, block_compressium, block_endersdelight, block_endrem, block_bountiful, block_doapi, block_vinery, block_enderitemod, block_herbalbrews, block_auctionworld, block_bakery, block_brewery, block_meadow, block_nethervinery, block_candlelight, block_beachparty, block_trashcans, block_easy_mob_farm, block_sophisticatedstorage, block_additionallanterns, block_ftbquests, block_create, block_waystones, block_comforts, block_call_of_yucutan, block_nethersdelight, block_create_sa, block_enderchests, block_endlessbiomes
 }

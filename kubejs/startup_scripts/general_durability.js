@@ -261,97 +261,109 @@ ItemEvents.modification((event) => {
     event.modify("outer_end:mint_crystal_boots", item => {
         item.maxDamage = 3540;
     });
-    event.modify("betterend:thallasium_sword", item => {
-        item.maxDamage = 4500;
+    event.modify("phantasm:crystalline_sword", item => {
+        item.maxDamage = 4600;
     });
-    event.modify("betterend:thallasium_axe", item => {
-        item.maxDamage = 4500;
+    event.modify("phantasm:crystalline_axe", item => {
+        item.maxDamage = 4600;
     });
-    event.modify("betterend:thallasium_pickaxe", item => {
-        item.maxDamage = 4500;
+    event.modify("phantasm:crystalline_pickaxe", item => {
+        item.maxDamage = 4600;
     });
-    event.modify("betterend:thallasium_shovel", item => {
-        item.maxDamage = 4500;
+    event.modify("phantasm:crystalline_shovel", item => {
+        item.maxDamage = 4600;
     });
-    event.modify("betterend:thallasium_hoe", item => {
-        item.maxDamage = 4500;
+    event.modify("phantasm:crystalline_hoe", item => {
+        item.maxDamage = 4600;
     });
-    event.modify("betterend:thallasium_helmet", item => {
+    event.modify("ender_dragon_loot_:dragon_sword", item => {
+        item.maxDamage = 4800;
+    });
+    event.modify("ender_dragon_loot_:dragon_axe", item => {
+        item.maxDamage = 4800;
+    });
+    event.modify("ender_dragon_loot_:dragon_pickaxe", item => {
+        item.maxDamage = 4800;
+    });
+    event.modify("ender_dragon_loot_:dragon_shovel", item => {
+        item.maxDamage = 4800;
+    });
+    event.modify("ender_dragon_loot_:dragon_hoe", item => {
+        item.maxDamage = 4800;
+    });
+    event.modify("ender_dragon_loot_:dragon_picaxe", item => {
+        item.maxDamage = 4800;
+    });
+    event.modify("ender_dragon_loot_:dragon_armor_helmet", item => {
         item.maxDamage = 3000;
     });
-    event.modify("betterend:thallasium_chestplate", item => {
+    event.modify("ender_dragon_loot_:dragon_armor_chestplate", item => {
         item.maxDamage = 4350;
     });
-    event.modify("betterend:thallasium_leggings", item => {
+    event.modify("ender_dragon_loot_:dragon_armor_leggings", item => {
         item.maxDamage = 4050;
     });
-    event.modify("betterend:thallasium_boots", item => {
+    event.modify("ender_dragon_loot_:dragon_armor_boots", item => {
         item.maxDamage = 3600;
     });
-    event.modify("betterend:terminite_sword", item => {
-        item.maxDamage = 4950;
+    event.modify("enlightened_end:dashing_leggings_leggings", item => {
+        item.maxDamage = 5200;
     });
-    event.modify("betterend:terminite_axe", item => {
-        item.maxDamage = 4950;
+    event.modify("enlightened_end:boost_boots_boots", item => {
+        item.maxDamage = 5200;
     });
-    event.modify("betterend:terminite_pickaxe", item => {
-        item.maxDamage = 4950;
+    event.modify("enlightened_end:adamantite_sword", item => {
+        item.maxDamage = 5200;
     });
-    event.modify("betterend:terminite_shovel", item => {
-        item.maxDamage = 4950;
+    event.modify("enlightened_end:adamantite_axe", item => {
+        item.maxDamage = 5200;
     });
-    event.modify("betterend:terminite_hoe", item => {
-        item.maxDamage = 4950;
+    event.modify("enlightened_end:adamantite_pickaxe", item => {
+        item.maxDamage = 5200;
     });
-    event.modify("betterend:terminite_helmet", item => {
-        item.maxDamage = 3200;
+    event.modify("enlightened_end:adamantite_shovel", item => {
+        item.maxDamage = 5200;
     });
-    event.modify("betterend:terminite_chestplate", item => {
-        item.maxDamage = 4640;
+    event.modify("enlightened_end:adamantite_hoe", item => {
+        item.maxDamage = 5200;
     });
-    event.modify("betterend:terminite_leggings", item => {
-        item.maxDamage = 4320;
-    });
-    event.modify("betterend:terminite_boots", item => {
-        item.maxDamage = 3840;
-    });
-    event.modify("betterend:aeternium_sword", item => {
-        item.maxDamage = 5250;
-    });
-    event.modify("betterend:aeternium_axe", item => {
-        item.maxDamage = 5250;
-    });
-    event.modify("betterend:aeternium_pickaxe", item => {
-        item.maxDamage = 5250;
-    });
-    event.modify("betterend:aeternium_shovel", item => {
-        item.maxDamage = 5250;
-    });
-    event.modify("betterend:aeternium_hoe", item => {
-        item.maxDamage = 5250;
-    });
-    event.modify("betterend:aeternium_helmet", item => {
+    event.modify("enlightened_end:adamantite_armor_helmet", item => {
         item.maxDamage = 3400;
     });
-    event.modify("betterend:aeternium_chestplate", item => {
+    event.modify("enlightened_end:adamantite_armor_chestplate", item => {
         item.maxDamage = 4930;
     });
-    event.modify("betterend:aeternium_leggings", item => {
+    event.modify("enlightened_end:adamantite_armor_leggings", item => {
         item.maxDamage = 4590;
     });
-    event.modify("betterend:aeternium_boots", item => {
+    event.modify("enlightened_end:adamantite_armor_boots", item => {
         item.maxDamage = 4080;
     });
-    event.modify("betterend:crystalite_helmet", item => {
+    event.modify("enderitemod:enderite_sword", item => {
+        item.maxDamage = 5500;
+    });
+    event.modify("enderitemod:enderite_axe", item => {
+        item.maxDamage = 5500;
+    });
+    event.modify("enderitemod:enderite_pickaxe", item => {
+        item.maxDamage = 5500;
+    });
+    event.modify("enderitemod:enderite_shovel", item => {
+        item.maxDamage = 5500;
+    });
+    event.modify("enderitemod:enderite_hoe", item => {
+        item.maxDamage = 5500;
+    });
+    event.modify("enderitemod:enderite_helmet", item => {
         item.maxDamage = 3890;
     });
-    event.modify("betterend:crystalite_chestplate", item => {
+    event.modify("enderitemod:enderite_chestplate", item => {
         item.maxDamage = 5640;
     });
-    event.modify("betterend:crystalite_leggings", item => {
+    event.modify("enderitemod:enderite_leggings", item => {
         item.maxDamage = 5251;
     });
-    event.modify("betterend:crystalite_boots", item => {
+    event.modify("enderitemod:enderite_boots", item => {
         item.maxDamage = 4668;
     });
     event.modify("callfromthedepth_:depth_armor_helmet", item => {

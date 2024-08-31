@@ -1,7 +1,7 @@
 {
     "override": true,
     "isTagFor": [
-        "betterend:thallasium_ore"
+        "enlightened_end:bismuth_ore"
     ],
     "xp_values": {
         "BLOCK_BREAK": {

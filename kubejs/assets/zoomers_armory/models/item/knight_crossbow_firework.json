@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/knight_crossbow",
+    "textures": {
+        "layer0": "zoomers_armory:item/knight_crossbow_firework"
+    }
+}

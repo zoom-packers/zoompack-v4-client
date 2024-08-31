@@ -5,7 +5,7 @@
             "weight": 1
         },
         {
-            "entity": "betterend:end_slime",
+            "entity": "endlessbiomes:riftite_sentinel",
             "weight": 1
         },
         {
@@ -19,7 +19,7 @@
     ],
     "rare": [
         {
-            "entity": "betterend:shadow_walker",
+            "entity": "enlightened_end:stalker",
             "weight": 1
         }
     ]

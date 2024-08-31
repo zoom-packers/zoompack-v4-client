@@ -104,9 +104,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'betterend:thallasium_block',
-                S: 'betterend:terminite_block',
-                T: 'betterend:aeternium_block',
+                F: 'phantasm:crystal_block',
+                S: 'enlightened_end:bismuth_block',
+                T: 'enlightened_end:adamantite_block',
                 C: 'kubejs:tier_6_armor_power_up',
                 E: 'minecraft:shield',
             }
@@ -264,9 +264,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'betterend:thallasium_block',
-                S: 'betterend:terminite_block',
-                T: 'betterend:aeternium_block',
+                F: 'phantasm:crystal_block',
+                S: 'enlightened_end:bismuth_block',
+                T: 'enlightened_end:adamantite_block',
                 C: 'kubejs:tier_6_armor_toughness_power_up',
                 E: 'supplementaries:hourglass',
             }
@@ -424,9 +424,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'betterend:thallasium_block',
-                S: 'betterend:terminite_block',
-                T: 'betterend:aeternium_block',
+                F: 'phantasm:crystal_block',
+                S: 'enlightened_end:bismuth_block',
+                T: 'enlightened_end:adamantite_block',
                 C: 'kubejs:tier_6_armor_pierce_power_up',
                 E: 'minecraft:heartbreak_pottery_sherd',
             }
@@ -584,9 +584,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'betterend:thallasium_block',
-                S: 'betterend:terminite_block',
-                T: 'betterend:aeternium_block',
+                F: 'phantasm:crystal_block',
+                S: 'enlightened_end:bismuth_block',
+                T: 'enlightened_end:adamantite_block',
                 C: 'kubejs:tier_6_armor_shred_power_up',
                 E: 'minecraft:skull_pottery_sherd',
             }
@@ -744,9 +744,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'betterend:thallasium_block',
-                S: 'betterend:terminite_block',
-                T: 'betterend:aeternium_block',
+                F: 'phantasm:crystal_block',
+                S: 'enlightened_end:bismuth_block',
+                T: 'enlightened_end:adamantite_block',
                 C: 'kubejs:tier_6_cooldown_reduction_power_up',
                 E: 'irons_spellbooks:arcane_ingot',
             }
@@ -904,9 +904,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'betterend:thallasium_block',
-                S: 'betterend:terminite_block',
-                T: 'betterend:aeternium_block',
+                F: 'phantasm:crystal_block',
+                S: 'enlightened_end:bismuth_block',
+                T: 'enlightened_end:adamantite_block',
                 C: 'kubejs:tier_6_crit_chance_power_up',
                 E: 'aquamirae:ship_graveyard_echo',
             }
@@ -1064,9 +1064,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'betterend:thallasium_block',
-                S: 'betterend:terminite_block',
-                T: 'betterend:aeternium_block',
+                F: 'phantasm:crystal_block',
+                S: 'enlightened_end:bismuth_block',
+                T: 'enlightened_end:adamantite_block',
                 C: 'kubejs:tier_6_crit_damage_power_up',
                 E: 'aquamirae:anglers_fang',
             }
@@ -1224,9 +1224,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'betterend:thallasium_block',
-                S: 'betterend:terminite_block',
-                T: 'betterend:aeternium_block',
+                F: 'phantasm:crystal_block',
+                S: 'enlightened_end:bismuth_block',
+                T: 'enlightened_end:adamantite_block',
                 C: 'kubejs:tier_6_health_boost_power_up',
                 E: 'candlelight:hearth',
             }
@@ -1384,9 +1384,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'betterend:thallasium_block',
-                S: 'betterend:terminite_block',
-                T: 'betterend:aeternium_block',
+                F: 'phantasm:crystal_block',
+                S: 'enlightened_end:bismuth_block',
+                T: 'enlightened_end:adamantite_block',
                 C: 'kubejs:tier_6_knockback_resistance_power_up',
                 E: 'create:copper_backtank',
             }
@@ -1544,9 +1544,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'betterend:thallasium_block',
-                S: 'betterend:terminite_block',
-                T: 'betterend:aeternium_block',
+                F: 'phantasm:crystal_block',
+                S: 'enlightened_end:bismuth_block',
+                T: 'enlightened_end:adamantite_block',
                 C: 'kubejs:tier_6_lung_capacity_power_up',
                 E: 'minecraft:conduit',
             }
@@ -1704,9 +1704,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'betterend:thallasium_block',
-                S: 'betterend:terminite_block',
-                T: 'betterend:aeternium_block',
+                F: 'phantasm:crystal_block',
+                S: 'enlightened_end:bismuth_block',
+                T: 'enlightened_end:adamantite_block',
                 C: 'kubejs:tier_6_mana_boost_power_up',
                 E: 'irons_spellbooks:mana_ring',
             }
@@ -1864,9 +1864,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'betterend:thallasium_block',
-                S: 'betterend:terminite_block',
-                T: 'betterend:aeternium_block',
+                F: 'phantasm:crystal_block',
+                S: 'enlightened_end:bismuth_block',
+                T: 'enlightened_end:adamantite_block',
                 C: 'kubejs:tier_6_mana_regen_power_up',
                 E: 'irons_spellbooks:mana_upgrade_orb',
             }
@@ -2024,9 +2024,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'betterend:thallasium_block',
-                S: 'betterend:terminite_block',
-                T: 'betterend:aeternium_block',
+                F: 'phantasm:crystal_block',
+                S: 'enlightened_end:bismuth_block',
+                T: 'enlightened_end:adamantite_block',
                 C: 'kubejs:tier_6_movement_speed_power_up',
                 E: 'minecraft:dirt_path',
             }
@@ -2184,9 +2184,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'betterend:thallasium_block',
-                S: 'betterend:terminite_block',
-                T: 'betterend:aeternium_block',
+                F: 'phantasm:crystal_block',
+                S: 'enlightened_end:bismuth_block',
+                T: 'enlightened_end:adamantite_block',
                 C: 'kubejs:tier_6_spell_power_power_up',
                 E: 'irons_spellbooks:magic_cloth',
             }
@@ -2344,9 +2344,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'betterend:thallasium_block',
-                S: 'betterend:terminite_block',
-                T: 'betterend:aeternium_block',
+                F: 'phantasm:crystal_block',
+                S: 'enlightened_end:bismuth_block',
+                T: 'enlightened_end:adamantite_block',
                 C: 'kubejs:tier_6_stamina_power_up',
                 E: 'create:zinc_block',
             }
@@ -2504,9 +2504,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'betterend:thallasium_block',
-                S: 'betterend:terminite_block',
-                T: 'betterend:aeternium_block',
+                F: 'phantasm:crystal_block',
+                S: 'enlightened_end:bismuth_block',
+                T: 'enlightened_end:adamantite_block',
                 C: 'kubejs:tier_6_swim_speed_power_up',
                 E: 'minecraft:copper_block',
             }

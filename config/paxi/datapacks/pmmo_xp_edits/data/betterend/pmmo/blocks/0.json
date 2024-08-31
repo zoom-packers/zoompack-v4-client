@@ -1,7 +1,7 @@
 {
     "override": true,
     "isTagFor": [
-        "betterend:ender_ore"
+        "enlightened_end:malachite_ore"
     ],
     "xp_values": {
         "BLOCK_BREAK": {

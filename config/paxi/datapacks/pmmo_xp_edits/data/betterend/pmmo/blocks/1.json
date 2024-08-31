@@ -1,7 +1,7 @@
 {
     "override": true,
     "isTagFor": [
-        "betterend:amber_ore"
+        "enlightened_end:irradium_ore"
     ],
     "xp_values": {
         "BLOCK_BREAK": {

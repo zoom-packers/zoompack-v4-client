@@ -23,7 +23,7 @@ const abyss = {
             stoneBrickSlab: blocks.block_theabyss.b_frost_bricks_slab,
             cobblestoneWall: blocks.block_theabyss.b_cobble_stone_wall,
             stoneBrickWall: blocks.block_theabyss.b_frost_brick_wall,
-            ironBars: blocks.block_betterend.b_thallasium_bars,
+            ironBars: blocks.block_create.b_andesite_bars,
             water: blocks.block_theabyss.b_infused_lava,
         }
     ],

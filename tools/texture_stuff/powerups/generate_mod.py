@@ -170,9 +170,9 @@ tier_recipe_base = {
         'third' : 'undergarden:forgotten_block',
     },
     7 : {
-        'first' : 'betterend:thallasium_block',
-        'second' : 'betterend:terminite_block',
-        'third' : 'betterend:aeternium_block',
+        'first' : 'phantasm:crystal_block',
+        'second' : 'enlightened_end:bismuth_block',
+        'third' : 'enlightened_end:adamantite_block',
     },
     8 : {
         'first' : 'callfromthedepth_:fullsoul',

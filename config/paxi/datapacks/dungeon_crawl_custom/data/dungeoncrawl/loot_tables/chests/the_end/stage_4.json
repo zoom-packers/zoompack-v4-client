@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "loot_table",
-                    "name": "betterend:chests/shadow_forest"
+                    "name": "endlessbiomes:chests/arkan_ruins_loot"
                 }
             ]
         }

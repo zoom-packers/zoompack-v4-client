@@ -196,58 +196,6 @@ l_blocks_wart_chest: "betternether:blocks/wart_chest",
  * @readonly
  * @enum {string}
  */
-const loot_table_betterend = {
-    /** @type {string} */
-l_chests_shadow_forest: "betterend:chests/shadow_forest",
-/** @type {string} */
-l_chests_chorus_forest: "betterend:chests/chorus_forest",
-/** @type {string} */
-l_blocks_jellyshroom_chest: "betterend:blocks/jellyshroom_chest",
-/** @type {string} */
-l_chests_common: "betterend:chests/common",
-/** @type {string} */
-l_blocks_end_lotus_chest: "betterend:blocks/end_lotus_chest",
-/** @type {string} */
-l_blocks_pythadendron_chest: "betterend:blocks/pythadendron_chest",
-/** @type {string} */
-l_chests_end_village_bonus_loot: "betterend:chests/end_village_bonus_loot",
-/** @type {string} */
-l_chests_lantern_woods: "betterend:chests/lantern_woods",
-/** @type {string} */
-l_chests_umbrella_jungle: "betterend:chests/umbrella_jungle",
-/** @type {string} */
-l_blocks_mossy_glowshroom_chest: "betterend:blocks/mossy_glowshroom_chest",
-/** @type {string} */
-l_chests_foggy_mushroomland: "betterend:chests/foggy_mushroomland",
-/** @type {string} */
-l_blocks_lacugrove_chest: "betterend:blocks/lacugrove_chest",
-/** @type {string} */
-l_blocks_helix_tree_chest: "betterend:blocks/helix_tree_chest",
-/** @type {string} */
-l_chests_biome: "betterend:chests/biome",
-/** @type {string} */
-l_blocks_umbrella_tree_chest: "betterend:blocks/umbrella_tree_chest",
-/** @type {string} */
-l_blocks_dragon_tree_chest: "betterend:blocks/dragon_tree_chest",
-/** @type {string} */
-l_chests_end_village_template_loot: "betterend:chests/end_village_template_loot",
-/** @type {string} */
-l_blocks_lucernia_chest: "betterend:blocks/lucernia_chest",
-/** @type {string} */
-l_blocks_tenanea_chest: "betterend:blocks/tenanea_chest",
-/** @type {string} */
-l_chests_end_village_loot: "betterend:chests/end_village_loot",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
 const loot_table_aether = {
     /** @type {string} */
 l_chests_dungeon_silver_silver_dungeon: "aether:chests/dungeon/silver/silver_dungeon",
@@ -312,6 +260,16 @@ l_chests_treasure: "dungeoncrawl:chests/treasure",
 /** @type {string} */
 l_chests_library: "dungeoncrawl:chests/library",
 /** @type {string} */
+l_chests_everbright_stage_5: "dungeoncrawl:chests/everbright/stage_5",
+/** @type {string} */
+l_chests_everbright_stage_4: "dungeoncrawl:chests/everbright/stage_4",
+/** @type {string} */
+l_chests_everbright_stage_1: "dungeoncrawl:chests/everbright/stage_1",
+/** @type {string} */
+l_chests_everbright_stage_3: "dungeoncrawl:chests/everbright/stage_3",
+/** @type {string} */
+l_chests_everbright_stage_2: "dungeoncrawl:chests/everbright/stage_2",
+/** @type {string} */
 l_chests_undergarden_stage_2: "dungeoncrawl:chests/undergarden/stage_2",
 /** @type {string} */
 l_chests_undergarden_stage_1: "dungeoncrawl:chests/undergarden/stage_1",
@@ -327,6 +285,46 @@ l_chests_secret_room: "dungeoncrawl:chests/secret_room",
 l_chests_supply: "dungeoncrawl:chests/supply",
 /** @type {string} */
 l_chests_forge: "dungeoncrawl:chests/forge",
+/** @type {string} */
+l_chests_the_end_stage_5: "dungeoncrawl:chests/the_end/stage_5",
+/** @type {string} */
+l_chests_the_end_stage_2: "dungeoncrawl:chests/the_end/stage_2",
+/** @type {string} */
+l_chests_the_end_stage_1: "dungeoncrawl:chests/the_end/stage_1",
+/** @type {string} */
+l_chests_the_end_stage_4: "dungeoncrawl:chests/the_end/stage_4",
+/** @type {string} */
+l_chests_the_end_stage_3: "dungeoncrawl:chests/the_end/stage_3",
+/** @type {string} */
+l_chests_the_nether_stage_4: "dungeoncrawl:chests/the_nether/stage_4",
+/** @type {string} */
+l_chests_the_nether_stage_5: "dungeoncrawl:chests/the_nether/stage_5",
+/** @type {string} */
+l_chests_the_nether_stage_2: "dungeoncrawl:chests/the_nether/stage_2",
+/** @type {string} */
+l_chests_the_nether_stage_3: "dungeoncrawl:chests/the_nether/stage_3",
+/** @type {string} */
+l_chests_the_nether_stage_1: "dungeoncrawl:chests/the_nether/stage_1",
+/** @type {string} */
+l_chests_everdawn_stage_2: "dungeoncrawl:chests/everdawn/stage_2",
+/** @type {string} */
+l_chests_everdawn_stage_3: "dungeoncrawl:chests/everdawn/stage_3",
+/** @type {string} */
+l_chests_everdawn_stage_4: "dungeoncrawl:chests/everdawn/stage_4",
+/** @type {string} */
+l_chests_everdawn_stage_5: "dungeoncrawl:chests/everdawn/stage_5",
+/** @type {string} */
+l_chests_everdawn_stage_1: "dungeoncrawl:chests/everdawn/stage_1",
+/** @type {string} */
+l_chests_the_aether_stage_5: "dungeoncrawl:chests/the_aether/stage_5",
+/** @type {string} */
+l_chests_the_aether_stage_4: "dungeoncrawl:chests/the_aether/stage_4",
+/** @type {string} */
+l_chests_the_aether_stage_3: "dungeoncrawl:chests/the_aether/stage_3",
+/** @type {string} */
+l_chests_the_aether_stage_2: "dungeoncrawl:chests/the_aether/stage_2",
+/** @type {string} */
+l_chests_the_aether_stage_1: "dungeoncrawl:chests/the_aether/stage_1",
 /** @type {string} */
 l_chests_stage_3: "dungeoncrawl:chests/stage_3",
 /** @type {string} */
@@ -408,28 +406,6 @@ l_chests_artifact_loot: "kobolds:chests/artifact_loot",
  * @readonly
  * @enum {string}
  */
-const loot_table_deeperdarker = {
-    /** @type {string} */
-l_chests_ancient_temple_apex: "deeperdarker:chests/ancient_temple_apex",
-/** @type {string} */
-l_chests_ancient_temple_basement: "deeperdarker:chests/ancient_temple_basement",
-/** @type {string} */
-l_chests_ancient_temple_storage: "deeperdarker:chests/ancient_temple_storage",
-/** @type {string} */
-l_chests_ancient_temple_fountain: "deeperdarker:chests/ancient_temple_fountain",
-/** @type {string} */
-l_chests_ancient_temple_secret: "deeperdarker:chests/ancient_temple_secret",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
 const loot_table_beachparty = {
     /** @type {string} */
 l_chests_village_village_cartographer: "beachparty:chests/village/village_cartographer",
@@ -477,6 +453,22 @@ l_chests_end_city_treasure: "outer_end:chests/end_city_treasure",
 l_chests_catacomb_treasure: "outer_end:chests/catacomb_treasure",
 /** @type {string} */
 l_chests_catacomb_generic: "outer_end:chests/catacomb_generic",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const loot_table_vsrevamped = {
+    /** @type {string} */
+l_chests_village_village_library: "vsrevamped:chests/village/village_library",
+/** @type {string} */
+l_chests_village_village_cherry_house: "vsrevamped:chests/village/village_cherry_house",
 
 };
 
@@ -794,11 +786,15 @@ l_chests_village_village_fletcher: "minecraft:chests/village/village_fletcher",
 /** @type {string} */
 l_chests_buried_treasure: "minecraft:chests/buried_treasure",
 /** @type {string} */
+l_chests_ancient_tower_lootmid: "minecraft:chests/ancient_tower_lootmid",
+/** @type {string} */
 l_chests_bastion_bridge: "minecraft:chests/bastion_bridge",
 /** @type {string} */
 l_chests_village_village_taiga_house: "minecraft:chests/village/village_taiga_house",
 /** @type {string} */
 l_chests_woodland_mansion: "minecraft:chests/woodland_mansion",
+/** @type {string} */
+l_chests_deep_citadel_loot_hight: "minecraft:chests/deep_citadel_loot_hight",
 /** @type {string} */
 l_chests_village_village_shepherd: "minecraft:chests/village/village_shepherd",
 /** @type {string} */
@@ -815,6 +811,8 @@ l_chests_village_village_tannery: "minecraft:chests/village/village_tannery",
 l_chests_spawn_bonus_chest: "minecraft:chests/spawn_bonus_chest",
 /** @type {string} */
 l_blocks_trapped_chest: "minecraft:blocks/trapped_chest",
+/** @type {string} */
+l_chests_tample: "minecraft:chests/tample",
 /** @type {string} */
 l_chests_village_village_butcher: "minecraft:chests/village/village_butcher",
 /** @type {string} */
@@ -844,13 +842,21 @@ l_chests_village_village_toolsmith: "minecraft:chests/village/village_toolsmith"
 /** @type {string} */
 l_chests_shipwreck_map: "minecraft:chests/shipwreck_map",
 /** @type {string} */
+l_chests_library_1: "minecraft:chests/library_1",
+/** @type {string} */
+l_chests_library_2: "minecraft:chests/library_2",
+/** @type {string} */
 l_chests_nether_bridge: "minecraft:chests/nether_bridge",
 /** @type {string} */
 l_chests_bastion_hoglin_stable: "minecraft:chests/bastion_hoglin_stable",
 /** @type {string} */
 l_blocks_chest: "minecraft:blocks/chest",
 /** @type {string} */
+l_chests_rare: "minecraft:chests/rare",
+/** @type {string} */
 l_chests_village_village_desert_house: "minecraft:chests/village/village_desert_house",
+/** @type {string} */
+l_chests_citadel_2: "minecraft:chests/citadel_2",
 /** @type {string} */
 l_chests_stronghold_library: "minecraft:chests/stronghold_library",
 /** @type {string} */
@@ -895,6 +901,20 @@ l_chests_gear_loot: "custom:chests/gear_loot",
 l_chests_ghastly_gear_loot: "custom:chests/ghastly_gear_loot",
 /** @type {string} */
 l_chests_epic_gear_loot: "custom:chests/epic_gear_loot",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const loot_table_trials = {
+    /** @type {string} */
+l_chests_tower_loot: "trials:chests/tower_loot",
 
 };
 
@@ -1023,20 +1043,6 @@ const loot_table_minecolonies = {
 l_chests_supplyship: "minecolonies:chests/supplyship",
 /** @type {string} */
 l_chests_supplycamp: "minecolonies:chests/supplycamp",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
-const loot_table_alexsmobs = {
-    /** @type {string} */
-l_gameplay_trader_elephant_chest: "alexsmobs:gameplay/trader_elephant_chest",
 
 };
 
@@ -1332,6 +1338,24 @@ l_chests_bastionendother_bastionbridge: "abuhussains_structure:chests/bastionend
  * @readonly
  * @enum {string}
  */
+const loot_table_call_of_yucutan = {
+    /** @type {string} */
+l_chest_overgrown_chest_loot: "call_of_yucutan:chest/overgrown_chest_loot",
+/** @type {string} */
+l_chest_crypt_chest_loot: "call_of_yucutan:chest/crypt_chest_loot",
+/** @type {string} */
+l_blocks_overgrown_chest: "call_of_yucutan:blocks/overgrown_chest",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const loot_table_betterjungletemples = {
     /** @type {string} */
 l_chests_campsite: "betterjungletemples:chests/campsite",
@@ -1387,9 +1411,9 @@ l_box_treasure_chest: "aquaculture:box/treasure_chest",
 
 /**
  * Auto-generated Typedef
- * @typedef {loot_table_simply_houses | loot_table_endrem | loot_table_totw_additions | loot_table_apotheosis | loot_table_betternether | loot_table_betterend | loot_table_aether | loot_table_dungeoncrawl | loot_table_farmersdelight | loot_table_kobolds | loot_table_deeperdarker | loot_table_beachparty | loot_table_outer_end | loot_table_blue_skies | loot_table_irons_spellbooks | loot_table_betterdeserttemples | loot_table_betterdungeons | loot_table_minecraft | loot_table_custom | loot_table_letsdoaddon_structures | loot_table_bakery | loot_table_betterfortresses | loot_table_sophisticatedstorage | loot_table_minecolonies | loot_table_alexsmobs | loot_table_sophisticatedbackpacks | loot_table_betterstrongholds | loot_table_endlessbiomes | loot_table_perfectplushies | loot_table_bosses_of_mass_destruction | loot_table_brewery | loot_table_enderchests | loot_table_nethervinery | loot_table_betterwitchhuts | loot_table_lootr | loot_table_morevillagers | loot_table_undergarden | loot_table_aquamirae | loot_table_abuhussains_structure | loot_table_betterjungletemples | loot_table_totw_modded | loot_table_betteroceanmonuments | loot_table_aquaculture} loot_table
+ * @typedef {loot_table_simply_houses | loot_table_endrem | loot_table_totw_additions | loot_table_apotheosis | loot_table_betternether | loot_table_aether | loot_table_dungeoncrawl | loot_table_farmersdelight | loot_table_kobolds | loot_table_beachparty | loot_table_outer_end | loot_table_vsrevamped | loot_table_blue_skies | loot_table_irons_spellbooks | loot_table_betterdeserttemples | loot_table_betterdungeons | loot_table_minecraft | loot_table_custom | loot_table_trials | loot_table_letsdoaddon_structures | loot_table_bakery | loot_table_betterfortresses | loot_table_sophisticatedstorage | loot_table_minecolonies | loot_table_sophisticatedbackpacks | loot_table_betterstrongholds | loot_table_endlessbiomes | loot_table_perfectplushies | loot_table_bosses_of_mass_destruction | loot_table_brewery | loot_table_enderchests | loot_table_nethervinery | loot_table_betterwitchhuts | loot_table_lootr | loot_table_morevillagers | loot_table_undergarden | loot_table_aquamirae | loot_table_abuhussains_structure | loot_table_call_of_yucutan | loot_table_betterjungletemples | loot_table_totw_modded | loot_table_betteroceanmonuments | loot_table_aquaculture} loot_table
  */
 
 module.exports = {
-    loot_table_simply_houses, loot_table_endrem, loot_table_totw_additions, loot_table_apotheosis, loot_table_betternether, loot_table_betterend, loot_table_aether, loot_table_dungeoncrawl, loot_table_farmersdelight, loot_table_kobolds, loot_table_deeperdarker, loot_table_beachparty, loot_table_outer_end, loot_table_blue_skies, loot_table_irons_spellbooks, loot_table_betterdeserttemples, loot_table_betterdungeons, loot_table_minecraft, loot_table_custom, loot_table_letsdoaddon_structures, loot_table_bakery, loot_table_betterfortresses, loot_table_sophisticatedstorage, loot_table_minecolonies, loot_table_alexsmobs, loot_table_sophisticatedbackpacks, loot_table_betterstrongholds, loot_table_endlessbiomes, loot_table_perfectplushies, loot_table_bosses_of_mass_destruction, loot_table_brewery, loot_table_enderchests, loot_table_nethervinery, loot_table_betterwitchhuts, loot_table_lootr, loot_table_morevillagers, loot_table_undergarden, loot_table_aquamirae, loot_table_abuhussains_structure, loot_table_betterjungletemples, loot_table_totw_modded, loot_table_betteroceanmonuments, loot_table_aquaculture
+    loot_table_simply_houses, loot_table_endrem, loot_table_totw_additions, loot_table_apotheosis, loot_table_betternether, loot_table_aether, loot_table_dungeoncrawl, loot_table_farmersdelight, loot_table_kobolds, loot_table_beachparty, loot_table_outer_end, loot_table_vsrevamped, loot_table_blue_skies, loot_table_irons_spellbooks, loot_table_betterdeserttemples, loot_table_betterdungeons, loot_table_minecraft, loot_table_custom, loot_table_trials, loot_table_letsdoaddon_structures, loot_table_bakery, loot_table_betterfortresses, loot_table_sophisticatedstorage, loot_table_minecolonies, loot_table_sophisticatedbackpacks, loot_table_betterstrongholds, loot_table_endlessbiomes, loot_table_perfectplushies, loot_table_bosses_of_mass_destruction, loot_table_brewery, loot_table_enderchests, loot_table_nethervinery, loot_table_betterwitchhuts, loot_table_lootr, loot_table_morevillagers, loot_table_undergarden, loot_table_aquamirae, loot_table_abuhussains_structure, loot_table_call_of_yucutan, loot_table_betterjungletemples, loot_table_totw_modded, loot_table_betteroceanmonuments, loot_table_aquaculture
 }
