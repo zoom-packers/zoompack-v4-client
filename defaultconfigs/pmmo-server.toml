@@ -61,11 +61,11 @@
 		swimming = 0.1
 		taming = 0.1
 		woodcutting = 0.2
-		mining = 0.2
-		swordsmanship = 4
-		combat = 3
-		archery = 4
-		magic = 4
+		mining = 0.5
+		swordsmanship = 3
+		combat = 2.5
+		archery = 3
+		magic = 3
 
 	#Settings for Linear XP configuration
 	[Levels."LINEAR LEVELS"]
