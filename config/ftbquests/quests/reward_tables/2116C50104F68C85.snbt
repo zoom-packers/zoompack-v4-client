@@ -1,0 +1,29 @@
+{
+	icon: "minecraft:chest"
+	id: "2116C50104F68C85"
+	loot_size: 1
+	order_index: 21
+	rewards: [{
+		item: {
+			Count: 1
+			id: "minecraft:written_book"
+			tag: {
+				author: "Zoopack 4"
+				display: {
+					Lore: ["Small piece of information to guide yourself through the realm easier"]
+				}
+				pages: [
+					"{\"extra\":[{\"bold\":true,\"text\":\"The Journey Beyond\"},{\"text\":\"\\n\\nAs you craft your first Tier 1 Power Up, a surge of energy courses through your armor, enhancing your strength and abilities. But this is only the beginning. \"}],\"text\":\"\"}"
+					"{\"text\":\"To craft the next level of power, a Tier 2 Power Up, you'll need to venture beyond the familiar world and into the unknown.\\nYour next challenge awaits in the mystical Everbright Dimension, a realm of eternal day and shimmering light. \"}"
+					"{\"text\":\"To reach this dimension, you must first craft a special portal. The materials for this portal are not of this world; they can be found deep within the caverns and ancient ruins of your current world.\\n \"}"
+					"{\"extra\":[{\"text\":\"Once you've gathered the necessary materials, create a portal frame using the unique Everbright Blocks. With the frame in place, light it using the magical item known as the \"},{\"bold\":true,\"text\":\"Zeal Lighter\"},{\"text\":\". \"}],\"text\":\"\"}"
+					"{\"text\":\"The portal will come alive, its swirling energy beckoning you to step through.\\nUpon entering the Everbright Dimension, you'll find yourself in a world filled with new challenges, strange creatures, and powerful resources. \"}"
+					"{\"text\":\"Here, the materials for your Tier 2 Power Up can be found. Explore, gather, and craft your way to even greater strength as you prepare to face the dangers that lie ahead.\"}"
+				]
+				resolved: 1b
+				title: "Chapter 2: The Journey Beyond"
+			}
+		}
+	}]
+	title: "tier_1_reward_book"
+}
