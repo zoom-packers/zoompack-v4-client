@@ -1,0 +1,659 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tips__tricks"
+	group: "095B5FA2C9ED2F6A"
+	icon: "minecraft:writable_book"
+	id: "2CF1763C3AD8E068"
+	images: [
+		{
+			height: 14.0d
+			image: "blockui:textures/gui/button_mini.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/gui/title/minecraft.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 2.5d
+			y: -6.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["In here you will find a ton of tips for your playthrough. Go through them one by one to see what this modpack has to offer and how to get unstuck from sticky situations."]
+			icon: {
+				Count: 1
+				id: "aquaculture:neptunium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "355E5DA9DA5538F6"
+			subtitle: "You are in for a wild ride"
+			tasks: [{
+				id: "54967B52156E8084"
+				title: "Welcome to Zoomcraft"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["355E5DA9DA5538F6"]
+			description: [
+				"When joining the world for the first time, you might have noticed you had to select an origin and a class. This brings certain advantages and disadvantages. We reccomend starting as a human with any profession, so you can get acustomed to the modpack."
+				""
+				"Don't worry, &l you can change both your origin and class &lONCE&r afterwards&r."
+			]
+			icon: "origins:orb_of_origin"
+			id: "04312F393D9DFFA8"
+			subtitle: "You have come | *Cyberpunk theme starts*"
+			tasks: [{
+				id: "2F5F1BD9D581F225"
+				title: "Basics: Origins"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04312F393D9DFFA8"]
+			description: [
+				"In this modpack there are global skill that will alter your gameplay experience."
+				""
+				"First of all, you can check your current skills by opening your inventory and clicking on the purple button beneath the 2x2 crafting grid."
+				""
+				"You will see the skills you've aready started gaining experience, as well as your progress until the next level. More information is available in the Project MMO chapter."
+			]
+			icon: {
+				Count: 1
+				id: "theabyss:nosaj_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6DE6A1C239394FD5"
+			subtitle: "They're an issue"
+			tasks: [{
+				id: "773549F74E030C9B"
+				title: "Basics: Skills"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DE6A1C239394FD5"]
+			description: [
+				"There are mods for Chunk claiming and Party creation."
+				""
+				"We suggest you claim chunks only after you are in a party, so you don't lose access to your own terrain."
+			]
+			icon: "minecraft:map"
+			id: "755B9A7ECA9E24C6"
+			subtitle: "Fatten The Beast"
+			tasks: [{
+				id: "30BB5FB40D7176A8"
+				title: "Basics: FTB Mods"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"As this modpack is relatively new, and people are learning the modpack, we've thought maybe you feel like you've chosen an origin and got stuck. You are free to change your origin \\& class &l&nONCE&r."
+				""
+				"Claim the reward above while in a &lsafe space&r to bring up the Origin selection menu."
+				""
+				"Note: You will only change your race."
+				""
+				"&lFREE TIP&r: As you can only change once, we reccomend joining the server with a few dummy accounts and try out all the races of interest, before commiting to your final race."
+			]
+			id: "252191073DE8B0E3"
+			rewards: [{
+				auto: "disabled"
+				command: "/origin gui @s origins:origin"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "origins:orb_of_origin"
+				id: "2D053FB8F1F42A60"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				title: "Choose a new origin"
+				type: "command"
+			}]
+			subtitle: "You want change, I get it"
+			tasks: [{
+				id: "4CEE89BB2CDD26DB"
+				requiredLevel: 10
+				skill: "agility"
+				title: "Agility: 10"
+				type: "pmmo:skill"
+			}]
+			title: "Origin Respec"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"As this modpack is relatively new, and people are learning the modpack, we've thought maybe you feel like you've chosen an origin and got stuck. You are free to change your origin \\& class &l&nONCE&r."
+				""
+				"Claim the reward above while in a &lsafe space&r to bring up the Class selection menu."
+				""
+				"Note: You will only change your class."
+				""
+				"&lFREE TIP&r: As you can only change once, we reccomend joining the server with a few dummy accounts and try out all the races of interest, before commiting to your final race."
+			]
+			id: "7F4826BD86C0575C"
+			rewards: [{
+				auto: "disabled"
+				command: "/origin gui @s origins-classes:class"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "origins:orb_of_origin"
+				id: "3B706D19F074F4F2"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				title: "Change your class"
+				type: "command"
+			}]
+			subtitle: "Nu a mers faza pe Spania"
+			tasks: [{
+				id: "1C0E5FB54146E6BF"
+				requiredLevel: 40
+				skill: "agility"
+				type: "pmmo:skill"
+			}]
+			title: "Class Respec"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			icon: "minecolonies:scroll_highlight"
+			id: "1230AF3A415E15BB"
+			subtitle: "CBT is OFFICIALLY allowed"
+			tasks: [{
+				id: "645680E16CB8560D"
+				title: "Rules \\& Stuff"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"There are plenty of active events that are happening on the community server on a daily basis, sometimes even multiple times a day!"
+				""
+				"&e&lHere are some commands to help you&r&r"
+				"Just type them in the chat in the &e&lOfficial Zoompack Server&r&r"
+				""
+				"/events active"
+				"&2&oThis shows the currently active events&r&r"
+				""
+				"/events calendar"
+				"&2&oThis shows full calendar of events&r&r"
+				""
+				"/events today"
+				"&2&oThis shows today's events&r&r"
+				""
+				"&o&bThese are all exclusive to the Official Community Server&r&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:lingering_potion"
+				tag: {
+					Potion: "minecraft:long_leaping"
+				}
+			}
+			id: "2D72E4DD3F561D0B"
+			subtitle: "Daily/Weekly Events!"
+			tasks: [{
+				id: "34C51D01B0D3DCD4"
+				title: "Events"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"There are so many mounts that you can find in the world. However you can even whistle to it."
+				""
+				"&e&lHow to set your personal mount?&r&r"
+				"Hop on your mount and press &c&oALT+V&r&r"
+				"Now this is now set as your personal mount."
+				""
+				"&e&lHow to call your personal mount?&r&r"
+				"Wherever you are press &c&oV&r&r to call your personal mount to your character."
+			]
+			icon: "blue_skies:camel_saddle"
+			id: "1F7911B301774426"
+			subtitle: "And so many they are"
+			tasks: [{
+				id: "1085BD4768B3CE98"
+				title: "Mounts"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"If you wish to powerup your gear (armors, tools, weapons) with gems you must first create a socket for that piece of gear in order to install a gem."
+				""
+				"&e&lWhere do i create gem sockets?&r&r"
+				"For this you must put your gear into a Reforging Table"
+				"{image:apotheosis:blocks/reforging/simple_table_top width:30 height:30 align:1}"
+				"After having the gear inside you must add regorging materials such as:"
+				""
+				"&e&lMysterious Scrap Metal&r &r"
+				"{image:apotheosis:items/common_material width:20 height:20 align:1}"
+				""
+				"&e&lTimeworn Fabric&r&r"
+				"{image:apotheosis:items/uncommon_material width:20 height:20 align:1}"
+				""
+				"&e&lLuminous Crystal Shard&r&r"
+				"{image:apotheosis:items/rare_material width:20 height:20 align:1}"
+				""
+				"&e&lArcane Sands&r&r"
+				"{image:apotheosis:items/epic_material width:20 height:20 align:1}"
+				""
+				"&e&lGodforged Pearl&r&r"
+				"{image:apotheosis:items/mythic_material width:20 height:20 align:1}"
+				""
+				"&d&lMilea's Sweat&r&r"
+				"{image:kubejs:item/apoth_extra_tier_0 width:10 height:10 align:1}"
+				""
+				"&d&lCalin's Torment&r&r"
+				"{image:kubejs:item/apoth_extra_tier_1 width:10 height:10 align:1}"
+				""
+				"&d&lMarius's Tears&r&r"
+				"{image:kubejs:item/apoth_extra_tier_2 width:10 height:10 align:1}"
+				""
+				"&d&lEmi's Blood&r&r"
+				"{image:kubejs:item/apoth_extra_tier_3 width:10 height:10 align:1}"
+				""
+				"Then, just roll the dices!"
+			]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:the_end/endersurge"
+				}
+			}
+			id: "37AB552495798316"
+			subtitle: "They need a socket"
+			tasks: [{
+				id: "426868F725DE72DF"
+				title: "Gems"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"&2&lUnderstanding Apotheosis Enchanting Mechanics&r&r"
+				"&e&lOverhauled Enchanting Table:&r&r Apotheosis revamps the enchanting system with a new GUI and advanced mechanics. Enchantments are more dynamic and varied, with some previously unenchantable items, like shears, now eligible for enchantments."
+				""
+				"&e&lEnhanced Enchantment Factors:&r&r Three key stats influence your enchantments:"
+				""
+				"&d&lEterna:&r&r Determines the strength of your enchantments and increases the level cost."
+				"&d&lQuanta:&r&r Adjusts the randomness of enchantment results, affecting the RNG."
+				"&d&lArcana:&r&r Affects the number of enchantments and the likelihood of rare enchantments appearing."
+				""
+				"&e&lMax Levels and Stats:&r&r The mod increases the maximum levels of many enchantments and introduces new blocks and bookshelves that provide Enchanting Stats, enhancing the effectiveness of enchantments. Vanilla blocks like skulls and candles can also contribute to your enchanting setup."
+				""
+				"&e&lCustomizable Enchanting:&r&r With these enhancements, enchanting becomes a strategic and customizable process, moving beyond the simplistic Vanilla system."
+			]
+			icon: "minecolonies:blockhutenchanter"
+			id: "0FDCC38C52EC2B0A"
+			subtitle: "&6&lHarness the Power of Apotheosis for Superior Enchantments!&r&r"
+			tasks: [{
+				id: "25ADDDECBA087381"
+				title: "Enchanting"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"&2&lIntroduction to Project MMO&r&r"
+				"&e&lSkill-Based Experience System:&r&r Project MMO (PMMO) enhances Minecraft by adding an RPG-style experience system. As you perform activities like mining, combat, or crafting, you earn experience that levels up specific skills. This leveling system unlocks new items and grants various perks."
+				""
+				"&e&lPerks and Benefits:&r&r Skills in Project MMO offer tangible benefits such as faster run speed, higher jumping, quicker digging, longer underwater breath, and increased damage. These perks improve your gameplay and adapt to your play style."
+				""
+				"&e&lSpecial Features:&r&r Project MMO introduces several advanced features:"
+				""
+				"Vein Mining: Mine entire veins of ores in one go."
+				""
+				"Extra Drops: Gain additional items based on skill levels."
+				""
+				"Treasure Drops: Discover rare loot and valuable items."
+				""
+				"Mob Scaling: Encounter tougher mobs based on your strength. High scale change through dimensions."
+				""
+				"Parties: Share XP and gain a boost when playing with friends."
+				""
+				"Salvaging: Break down items into their components for reuse."
+				""
+				"&e&lExtensive Skill List:&r&r PMMO includes skills such as agility, alchemy, archery, building, combat, cooking, crafting, and more. These skills cover a wide range of activities and provide a deep, engaging experience."
+			]
+			icon: "endlessbiomes:anklor_upgrade_template"
+			id: "301C03DAB5AE0E67"
+			subtitle: "&6&lDive into Project MMO for an enriched Minecraft experience with skill-based progression and unique features!&r&r"
+			tasks: [{
+				id: "3B151CA71E8A46DA"
+				title: "Leveling"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"In this FTBQuest Book you shall find all the tips and tricks you need in this universe!"
+				""
+				"Some other books can be accessed with such commands:"
+				""
+				"&e&l/help"
+				"You get here"
+				""
+				"&l&e/gems&r&r "
+				"{ \"text\": \"GEMS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37AB552495798316\" } }"
+				""
+				"&l&e/mounts&r&r"
+				"{ \"text\": \"MOUNTS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1F7911B301774426\" } }"
+				""
+				"&l&e/enchanting&r&r"
+				"{ \"text\": \"ENCHANTING - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FDCC38C52EC2B0A\" } }"
+				""
+				"&l&e/events&r&r"
+				"{ \"text\": \"EVENTS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2D72E4DD3F561D0B\" } }"
+				""
+				"&l&e/economy&r&r"
+				"{ \"text\": \"ECONOMY - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"547C6F5B2EC94450\" } }"
+				""
+				"&l&e/trims&r&r"
+				"&l&e/powerups&r&r"
+				"{ \"text\": \"TRIMS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"089EF30AFF6A1D46\" } }"
+				""
+				"&l&e/talents&r&r"
+				"{ \"text\": \"TALENTS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"70CF500D7065E04A\" } }"
+				""
+				"&l&e/dimensions&r&r"
+				"{ \"text\": \"DIMENSIONS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C849DD6772F7444\" } }"
+				""
+				"&l&e/magic&r&r"
+				"{ \"text\": \"MAGIC - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D7C3CC83BAFAC1A\" } }"
+				""
+				"&l&e/weapons&r&r"
+				"{ \"text\": \"WEAPONS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"113FBB2750B2CCC8\" } }"
+				""
+				"&l&e/levels&r&r"
+				"&l&e/leveling&r&r"
+				"{ \"text\": \"LEVELING - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"301C03DAB5AE0E67\" } }"
+			]
+			icon: "refinedstorage:4k_storage_part"
+			id: "39A979E3A6CE5B99"
+			subtitle: "Welcome in the sandbox RPG"
+			tasks: [{
+				id: "7E4FE6C5918ADC95"
+				title: "Zoompack 4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"The Zoompack Economy consinsts of 4 main currencies:"
+				""
+				"&6&l- Bronze Coin&r&r"
+				"{image:dotcoinmod:item/bronze_coin width:10 height:10 align:1 fit:false}"
+				""
+				"&7&l- Silver Coin &r&r"
+				"{image:dotcoinmod:item/silver_coin width:10 height:10 align:1 fit:false}"
+				""
+				"&e&l- Gold Coin &r&r"
+				"{image:dotcoinmod:item/gold_coin width:10 height:10 align:1 fit:false}"
+				""
+				"&2&l- Emerald Coin &r&r"
+				"{image:dotcoinmod:item/emerald_coin width:10 height:10 align:1 fit:false}"
+				""
+				"You can also earn Tokens from daily rewards that you recieve on a daily basis with a chance after plaing at least 30 minutes."
+				"Claim them with this command: &b&o/daily&r&r"
+				"{image:dotcoinmod:item/token width:10 height:10 align:1 fit:false}"
+				""
+				"You now have also a wallet on your Inventory GUI, a safe place to keep your money on your character."
+				""
+				"Across the Overworld you will come across Banks near villages."
+				"These banks have traders that will ask you for coins in exchange of other goods."
+				"Some might even help you with some coins if you can fetch something useful for them."
+				""
+				"&a&lEmerald City Bankers&r&r"
+				"The Emerald City bankers include many trades, some are unique in the world and including XP groth boost potions, mounts and other perks"
+				""
+				"&2&lAUCTION HOUSE&r&r"
+				"Try our amazing auction house using the command &b&o/auctions&r&r or just craft one and place it wherever you desire and right click it to open the auction house board. Search for this item: &b&lAuction House&r&r"
+			]
+			icon: "dotcoinmod:diamond_coin"
+			id: "547C6F5B2EC94450"
+			subtitle: "Zooming Economy"
+			tasks: [{
+				id: "0FB19D9E3305CB6C"
+				title: "Economy"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{image:blue_skies:item/toxic_armor_trim_smithing_template width:50 height:50 align:2}"
+				"In the world of Zoompack your gear is not just customizeable with trims, but also you have the possibility to enhance your gear with special trimming materials, called &e&oPower-Ups&r&r"
+				""
+				"You can craft them from materials depending on the &o&aTier&r&r"
+				"These power-ups can improve many attributes of all the armors depending on the path you want to choose for your character."
+				"Now, be aware, high tiers become more and more expensive to craft."
+				""
+				""
+				"{image:kubejs:item/tier_10_knockback_resistance_power_up width:100 height:100 align:1}"
+			]
+			icon: "kubejs:tier_7_health_boost_power_up"
+			id: "089EF30AFF6A1D46"
+			subtitle: "Endless Possibilities"
+			tasks: [{
+				id: "230A49995C926316"
+				title: "Trims & Power-ups"
+				type: "checkmark"
+			}]
+			title: "Trims and Powerups"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Your unskilled character can become a very skilled individual and develop talents."
+				""
+				"By pressing the key &b&oK&r&r on your keyboard you can open the Talents Skill Tree."
+				""
+				"There are plenty of talents to learn and make use of all the perks!"
+				"Each one leveling up in different ways:"
+				"either from one shotting enemies or even saving villagers from raids"
+			]
+			icon: {
+				Count: 1
+				id: "vinery:winemaker_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "70CF500D7065E04A"
+			subtitle: "Do some push-ups"
+			tasks: [{
+				id: "6A5BBDFE373042D7"
+				title: "Talents"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"In the Zoompack world there are many dimensions you can explore. Each has it's own way of entering and you must go though each one to make your character stronger. "
+				""
+				"Each dimension is accessible depending on the combat and endurance level you have."
+				""
+				"{ \"text\": \"Overworld - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7BEC85EFE323F106\" } } "
+				"&b&o0-19&r&r"
+				""
+				"{ \"text\": \"Everbright - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"049267B81C4A89DF\" } }"
+				"&b&o20-27&r&r"
+				""
+				"{ \"text\": \"Everdawn - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"649893D325C5BAAD\" } }"
+				"&b&o28-34&r&r"
+				""
+				"{ \"text\": \"Aether - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"68C47292D31DEEB2\" } }"
+				"&b&o35-49&r&r"
+				""
+				"{ \"text\": \"The Nether - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"247A495F1595C8DB\" } }"
+				"&b&o50-59&r&r"
+				""
+				"{ \"text\": \"Undergarden - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"45104F8FBB6A4444\" } }"
+				"&b&o60-69&r&r"
+				""
+				"{ \"text\": \"The End - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6ECCCD1F8E408C4E\" } }"
+				"&b&o70-79&r&r"
+				""
+				"{ \"text\": \"Depth - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"490EDC4B6B7407F9\" } }"
+				"&b&o80-89&r&r"
+				""
+				"{ \"text\": \"Abyss - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"025294015F77A53B\" } }"
+				"&b&o90-100&r&r"
+				""
+				"{ \"text\": \"Frost World - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6D21E24BA4F25D58\" } }"
+				"&b&o90-100&r&r"
+			]
+			icon: "aether:aether_portal_frame"
+			id: "5C849DD6772F7444"
+			subtitle: "How many can you visit?"
+			tasks: [{
+				id: "0ACFA80ECCEFB5F1"
+				title: "Dimensions"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Zoompack includes a magic system in which your character has mana and spell power. "
+				""
+				"> There are &nstaffs, offhands, totems and various armory pieces&r that improve those stats!"
+				""
+				"> You might find in the world various scrolls, that can be used to cast spells without consuming &l&9mana.&r&r"
+				""
+				"> Increase your &9&lmana&r&r finding various artifacts in the world, or craft them, or even upgrade your armor to support more of it."
+				""
+				"> You can use an &a&lInscription Table&r&r to add spells to a &d&lSpell Book&r&r and choose which slot is going to be binded to. "
+				""
+				"> You can also craft scrolls using the &c&lScroll Forge&r&r."
+				""
+				"> There are multiple &d&lSpell Books&r&r and the better the spell book, then you could fit more spells inside of it and also providing more &3&lSpell Power&r&r for specific Spells."
+				""
+				"&2&lARCANE ANVIL&r&r"
+				"You can imbue spells into weapons using the &l&dArcane Anvil&r&r."
+				"You can also use the &d&lArcane Anvil&r&r to upgrade the&a &lLevel&r&r of &a&lScrolls&r&r or even to upgrade your Magic Armor or &d&lSpell Books&r&r with &d&lUpgrade Orbs&r&r. "
+				"Use the Shiving Stone in the Arcane Anvil to remove the spells from your Weapons."
+				""
+				"Also there are multiple Magic Classes and there are specific armors that ehance that class spell power."
+				""
+				"&2&lAlmost 100 upgradeable spells from all these classes&r&r"
+				"&e&lPyromancer&r&r - &b&oFire Spell Power&r&r"
+				"&e&lCryomancer&r&r - &b&oIce Spell Power&r&r"
+				"&e&lElectromancer&r&r - &b&oLightning Spell Power&r&r"
+				"&e&lArchevoker&r&r - &b&oEvokation Spell Power&r&r"
+				"&e&lCultist&r&r - &b&oBlood Spell Power&r&r"
+				"&l&eShadowwalker&r&r - &b&oEnder Spell Power&r&r"
+				"&e&lPriest&r&r - &b&oHoly Spell Power&r&r"
+				"&e&lPlagued&r&r - &b&oPoison Spell Power&r&r"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:dragonskin_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 12
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "0D7C3CC83BAFAC1A"
+			subtitle: "Ever dreamt of shooting stars?"
+			tasks: [{
+				id: "1C9807BDC940AEF7"
+				title: "Zoomers Sorecery"
+				type: "checkmark"
+			}]
+			title: "Zoomers Sorcery"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"There is a vast amount of weapons and weapon types that you can equip on your character."
+				""
+				"> There multiple types of weapons such as: &o&bSwords, Axe, Dagger, Shordsword, Heavysword, Cutlass, Mace, Heavymace, Warhammer, Spear, Halberd&r&r"
+				"{image:theabyss:item/knight_sword_broekn width:40 height:40 align:1}"
+				""
+				"> Hand combat is not everything, beyond &nmagic&r there are also bows for each material tier!"
+				"{image:aether:item/weapons/phoenix_bow_pulling_2 width:40 height:40 align:1}"
+				""
+				"> Let's not forget about &ndefense,&r there are multiple type of shields for each tier. Such as: &b&oBuckler, Heater, Tower&r&r"
+				"{image:ftblibrary:icons/shield width:40 height:40 align:1}"
+				""
+				"> There are multiple tiers of weaponry for you to discover. "
+				"The higher the dimension level, the higher the stats shall be."
+				"Each dimension has multiple tiers of weapons awaiting for you to discover."
+				""
+				"&2&lCheck out the dimensions!&r&r"
+				"{ \"text\": \"DIMENSIONS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C849DD6772F7444\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "endermanoverhaul:corrupted_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "113FBB2750B2CCC8"
+			subtitle: "Stab, Slash, Sweep and Ram your waepons"
+			tasks: [{
+				id: "6E6CC5CF8828EC7B"
+				title: "Zoomers Weaponry"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+	]
+	title: "Tips \\& Tricks"
+}
