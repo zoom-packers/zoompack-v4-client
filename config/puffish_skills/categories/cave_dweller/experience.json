@@ -18,9 +18,9 @@
 						}
 					},
 					"ore_like": {
-						"type": "block_tag",
+						"type": "block",
 						"data": {
-							"tag": "#forge:ores"
+							"block": "#forge:ores"
 						}
 					}
 				},
