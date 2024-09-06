@@ -59,7 +59,7 @@
 	Potions = true
 	#Potion HUD alpha
 	#Range: 0 ~ 100
-	potAlpha = 100
+	potAlpha = 0
 	#Potion HUD gap
 	#Range: -5 ~ 5
 	potGap = 0
