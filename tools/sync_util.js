@@ -30,10 +30,15 @@ function isFileSourceControlled(file) {
 }
 
 
-function ensureDirSync(dir) {
-    if (!fs.existsSync(dir)) {
-        fs.mkdirSync(dir);
-    }
+function ensureDirSync(path) {
+    let folders = path.split("/");
+    let currentPath = "";
+    folders.forEach((folder) => {
+        currentPath += folder + "/";
+        if (!fs.existsSync(currentPath)) {
+            fs.mkdirSync(currentPath);
+        }
+    });
 }
 
 async function askUserAboutSaveFolder(savesFolder) {

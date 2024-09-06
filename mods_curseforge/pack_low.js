@@ -1,6 +1,9 @@
 const archiver = requireGlobal('archiver');
 const fs = require('fs');
-const variantConfig = require('./low.json')
+const path = require('path');
+const config = require('./config.json');
+const variantConfig = require('./config_low.json')
+const {traverseDirectoryAndZipDatapacksAndResourcePacks} = require("./archiverUtils");
 
 
 function requireGlobal(packageName) {
@@ -36,7 +39,7 @@ function installGlobal(packageName) {
 }
 
 function createManifestJson() {
-    const manifest = require('../manifest.json');
+    const manifest = require('./manifest.json');
     manifest.files = manifest.files.filter(file => {
         const modId = file.projectID;
         const index = variantConfig.removeMods.findIndex(mod => mod.modId === modId);
@@ -51,11 +54,11 @@ function createManifestJson() {
         };
         manifest.files.push(mod);
     }
-    fs.writeFileSync('./manifest.json', JSON.stringify(manifest, null, 4));
+    fs.writeFileSync('./manifest_low.json', JSON.stringify(manifest, null, 4));
 }
 
 function createModlistHtml() {
-    let html = fs.readFileSync('../modlist.html', 'utf8');
+    let html = fs.readFileSync('./modlist.html', 'utf8');
     for (const mod of variantConfig.removeMods) {
         const modId = mod.modId;
         const regex = new RegExp('<li><a href="https://www.curseforge.com/projects/' + modId + '.*?</li>', 'g');
@@ -68,41 +71,46 @@ function createModlistHtml() {
         const replacement = '<ul><li><a href="https://www.curseforge.com/projects/' + modId + '">' + modName + '</a></li>\n';
         html = html.replace(regex, replacement);
     }
-    fs.writeFileSync('./modlist.html', html);
+    fs.writeFileSync('./modlist_low.html', html);
 }
 
-// MAIN
-const config = require('../pack_builder_config.json');
-for (let i = 0; i < config.includes.length; i++) {
-    config.includes[i] = "../" + config.includes[i];
-}
-createManifestJson();
-createModlistHtml();
-config.exportZipName = variantConfig.exportZipName;
-const output = fs.createWriteStream(__dirname + '/' + config.exportZipName);
-const archive = archiver('zip', {
-    zlib: { level: 9 } // Sets the compression level.
-});
+async function main() {
+    createManifestJson();
+    createModlistHtml();
+    config.exportZipName = variantConfig.exportZipName;
+    const output = fs.createWriteStream(__dirname + '/' + config.exportZipName);
+    const archive = archiver('zip', {
+        zlib: {level: 9} // Sets the compression level.
+    });
 
-archive.pipe(output);
-console.log("Packing...");
-archive.directory("../overrides", "overrides");
-console.log("Packing overrides");
-archive.file("./manifest.json", {name: "manifest.json"});
-archive.file("./modlist.html", {name: "modlist.html"});
-console.log("Packing manifest and modlist");
-const includes = config.includes;
-for (const include of includes) {
-    const isDir = fs.lstatSync(include).isDirectory();
-    const last = include.split("/").pop();
-    if (isDir) {
-        archive.directory(include, "overrides/" + last);
-    } else {
-        archive.file(include, {name: "overrides/" + last});
+    archive.pipe(output);
+    console.log("Packing...");
+    archive.directory("./overrides", "overrides");
+    console.log("Packing overrides");
+    archive.file("./manifest_low.json", {name: "manifest.json"});
+    archive.file("./modlist_low.html", {name: "modlist.html"});
+    console.log("Packing manifest and modlist");
+
+    const includes = config.includes;
+    for (const include of includes) {
+        if (variantConfig.removeFolders.includes(include)) {
+            console.log("Skipping " + include);
+            continue;
+        }
+        await traverseDirectoryAndZipDatapacksAndResourcePacks(archiver, archive, "overrides/", include,
+            path.join(config.datapackPath),
+            path.join(config.resourcepackPath),
+            path.join(config.kubejsDataPath),
+            path.join(config.kubejsAssetsPath));
+        console.log("Packing " + include);
     }
-    console.log("Packing " + include);
+    console.log("Writing to disk...");
+    await archive.finalize();
+    console.log("Cleaning up...");
+    fs.rmSync("../build", {recursive: true});
+    fs.rmSync("./manifest_low.json");
+    fs.rmSync("./modlist_low.html");
+    console.log("Done!");
 }
-console.log("Writing to disk...");
-archive.finalize().then(() => {
-    console.log("Done");
-});
+
+main();

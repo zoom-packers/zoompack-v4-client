@@ -10,5 +10,9 @@
     "../icon.png",
     "../options.txt",
     "../servers.dat"
-  ]
+  ],
+  "datapackPath": "../config/paxi/datapacks",
+  "resourcepackPath": "../config/paxi/resourcepacks",
+  "kubejsDataPath": "../kubejs/data",
+  "kubejsAssetsPath": "../kubejs/assets"
 }
