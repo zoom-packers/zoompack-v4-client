@@ -1,0 +1,46 @@
+{
+    "loading_priority": 111,
+    "type": "origins:multiple",
+    "no_fall_damage": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:in_tag",
+                    "tag": "is_fall"
+                },
+                {
+                    "type": "origins:amount",
+                    "compare_to": 10,
+                    "comparison": "<"
+                }
+            ]
+        },
+        "modifier": {
+            "operation": "set_total",
+            "value": 0
+        }
+    },
+    "reduced_fall_damage": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:in_tag",
+                    "tag": "is_fall"
+                },
+                {
+                    "type": "origins:amount",
+                    "compare_to": 10,
+                    "comparison": ">"
+                }
+            ]
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.75
+        }
+    }
+}
