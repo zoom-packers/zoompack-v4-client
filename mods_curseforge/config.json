@@ -9,7 +9,8 @@
     "../shaderpacks",
     "../icon.png",
     "../options.txt",
-    "../servers.dat"
+    "../servers.dat",
+    "../nutritionalbalance.data"
   ],
   "datapackPath": "../config/paxi/datapacks",
   "resourcepackPath": "../config/paxi/resourcepacks",
