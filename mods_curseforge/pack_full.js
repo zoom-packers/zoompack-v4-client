@@ -52,7 +52,7 @@ async function main() {
 
     const includes = config.includes;
     for (const include of includes) {
-        await traverseDirectoryAndZipDatapacksAndResourcePacks(archiver, archive, "overrides/", include,
+        await traverseDirectoryAndZipDatapacksAndResourcePacks(archiver, archive, "overrides/", path.join(include),
             path.join(config.datapackPath),
             path.join(config.resourcepackPath),
             path.join(config.kubejsDataPath),
