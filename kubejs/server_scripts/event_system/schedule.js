@@ -1,3 +1,4 @@
+//priority: 999
 const magicUUID = "85883543-c4a3-406e-ba46-9cb463a56225"
 
 const combatEvent = new Event()

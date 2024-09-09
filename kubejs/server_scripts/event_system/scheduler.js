@@ -1,3 +1,4 @@
+//priority: 997
 let schedulerTimer = 0;
 let playerTickTimer = 0;
 let tickInterval = 20 * 10; // 30 seconds

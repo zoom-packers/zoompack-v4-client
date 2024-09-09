@@ -1,3 +1,5 @@
+//priority: 1000
+
 function Event() {
     this.isActive = false;
     this.name = "";

@@ -1,3 +1,4 @@
+//priority: 1000
 // API: KubeJS
 // KubeJS: 1.0.0
 // MC: 1.20.1
