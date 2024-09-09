@@ -3,6 +3,7 @@
 function Event() {
     this.isActive = false;
     this.name = "";
+    this.icon = "";
     this.description = "";
     this.intervals = [];
     this.hours = [];
@@ -21,6 +22,11 @@ Event.prototype = {
 
     withName: function (name) {
         this.name = name;
+        return this;
+    },
+
+    withIcon: function (icon) {
+        this.icon = icon;
         return this;
     },
 
@@ -160,5 +166,10 @@ Event.prototype = {
             message += `§e${keys[i]}:§r §f${values[i].join(" §7|§r ")}§r\n`;
         }
         return message;
+    },
+
+    remindActive: function (server) {
+        let formattedText = `§fEvent §r§a${this.name}§r - §b${this.description}§r is active, make sure to take advantage of it!§r`;
+        server.runCommandSilent(`/tellraw @a "${formattedText}"`);
     }
 }

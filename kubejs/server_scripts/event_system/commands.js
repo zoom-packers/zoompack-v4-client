@@ -43,5 +43,21 @@ ServerEvents.commandRegistry(event => {
                         return 1;
                     })
             )
+            .then(Commands.literal('toggleUi')
+                .executes(ctx => {
+                    const server = ctx.source.server;
+                    const player = ctx.source.player;
+                    console.log(`Toggling UI for ${player.getName()}`, server);
+                    const invisible = server.persistentData.get(`events_ui_invisible_${player.getName()}`);
+                    console.log(`Invisible value: ${invisible}`);
+                    const invisibleValue = invisible === null ? 0 : invisible === true ? 0 : 1;
+                    console.log(`Setting invisible value to ${invisibleValue}`);
+                    if (invisibleValue === 1) {
+                        server.persistentData.putBoolean(`events_ui_invisible_${player.getName()}`, true);
+                    } else {
+                        server.persistentData.putBoolean(`events_ui_invisible_${player.getName()}`, false);
+                    }
+                })
+            )
     );
 });
