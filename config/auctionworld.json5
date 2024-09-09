@@ -1,0 +1,22 @@
+{
+  "currencies": [
+    "dotcoinmod:bronze_coin",
+    "dotcoinmod:silver_coin",
+    "dotcoinmod:gold_coin",
+    "dotcoinmod:emerald_coin"
+  ],
+  "currencyAliases": [
+    "Bronze Coin",
+    "Silver Coin",
+    "Gold Coin",
+    "Emerald Coin"
+  ],
+  "startingCurrencies": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "listingFee": -1,
+  "addTimeAfterBid": -1
+}
