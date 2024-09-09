@@ -879,6 +879,12 @@
 				}
 			}
 			id: "76948D8EFE97F7C1"
+			rewards: [{
+				count: 3
+				id: "38A9EBCFC3CE38CC"
+				item: "aquaculture:neptunium_ingot"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0E1F0BD7E857C329"

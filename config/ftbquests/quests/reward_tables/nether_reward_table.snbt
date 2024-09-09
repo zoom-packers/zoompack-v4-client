@@ -1,0 +1,23 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "supplementaries:textures/map_marker/nether_portal.png"
+		}
+	}
+	id: "032A481F1460E830"
+	loot_size: 1
+	order_index: 36
+	rewards: [
+		{ count: 4, item: "minecraft:ghast_tear", random_bonus: 4 }
+		{ count: 4, item: "minecraft:blaze_rod" }
+		{
+			type: "xp_levels"
+			xp_levels: 4
+		}
+		{ count: 6, item: "minecraft:gold_block", random_bonus: 6 }
+		{ item: "minecraft:ancient_debris", random_bonus: 1 }
+	]
+	title: "Nether reward table"
+}
