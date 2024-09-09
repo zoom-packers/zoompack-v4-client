@@ -47,10 +47,10 @@ function playDingSoundToAllPlayers(server) {
 
 function announce_players(server, delta) {
     let in_time = convert_ticks_to_human_readable_time(delta);
+    server.runCommandSilent(`/tellraw @a "${CLEAR_LAG_TEXT_PREFIX} Items on the ground will be cleared in ${in_time}"`);
     if(DING_TIMERS.includes(delta)){
         playDingSoundToAllPlayers(server);
     }
-    server.runCommandSilent(`/tellraw @a "${CLEAR_LAG_TEXT_PREFIX} Items on the ground will be cleared in ${in_time}"`);
 }
 
 ServerEvents.tick((event) => {
