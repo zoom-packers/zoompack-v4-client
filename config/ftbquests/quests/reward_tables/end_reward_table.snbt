@@ -1,0 +1,14 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftbchunks:textures/faces/minecraft/enderman.png"
+		}
+	}
+	id: "3D9CCC44F814EF67"
+	loot_size: 1
+	order_index: 37
+	rewards: [ ]
+	title: "End reward table"
+}
