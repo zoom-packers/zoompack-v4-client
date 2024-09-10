@@ -59,14 +59,14 @@
 	Potions = true
 	#Potion HUD alpha
 	#Range: 0 ~ 100
-	potAlpha = 0
+	potAlpha = 100
 	#Potion HUD gap
 	#Range: -5 ~ 5
 	potGap = 0
 	#Potion HUD mini mode
-	potMini = false
+	potMini = true
 	#Potion HUD horizontal mode
-	potHor = false
+	potHor = true
 	#Full bar duration
 	#Range: > 1
 	barDuration = 300
@@ -107,16 +107,16 @@
 	yArmPos = 79
 	#Potion HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
-	potValign = "TOP"
+	potValign = "BOTTOM"
 	#Potion HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	potHalign = "LEFT"
+	potHalign = "RIGHT"
 	#Potion HUD position (X)
 	#Range: -9999 ~ 9999
-	xPotionPos = 19
+	xPotionPos = -3000
 	#Potion HUD position (Y)
 	#Range: -9999 ~ 9999
-	yPotionPos = 60
+	yPotionPos = 106
 	#Helmet position (X)
 	#Range: -9999 ~ 9999
 	helmPosX = 103
