@@ -71,6 +71,28 @@
           ]
         },{
           "type": "minecraft:item",
+          "name": "vinery:mule_spawn_egg",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"vinery:mule\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:33.0000f},{Name:\"generic.movement_speed\",Base:0.2363f},{Name:\"horse.jump_strength\",Base:0.7350f},{Name:\"generic.armor\",Base:5f},{Name:\"generic.attack_damage\",Base:5f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Worn Mule Mount", "color": "yellow", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 2 : Mule", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
           "name": "minecraft:llama_spawn_egg",
           "weight": 12,
           "functions": [

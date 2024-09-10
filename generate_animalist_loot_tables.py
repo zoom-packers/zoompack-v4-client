@@ -39,6 +39,16 @@ mobs = {
         'name': 'Mule',
         'weight': 10
     },
+    'vinery:mule': {
+        'hp': 30.0,
+        'speed': 0.225,
+        'jump': 0.7,
+        'armor': 0,
+        'dmg': 0,
+        'egg_id': 'vinery:mule_spawn_egg',
+        'name': 'Mule',
+        'weight': 10
+    },
     'minecraft:llama': {
         'hp': 15.0,
         'speed': 0.22,
