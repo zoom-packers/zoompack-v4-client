@@ -19,6 +19,16 @@ mobs = {
         'name': 'Horse',
         'weight': 10
     },
+    'naturalist:zebra': {
+        'hp': 35.0,
+        'speed': 0.3575,
+        'jump': 1.0,
+        'armor': 0,
+        'dmg': 0,
+        'egg_id': 'naturalist:zebra_spawn_egg',
+        'name': 'Zebra',
+        'weight': 10
+    },
     'minecraft:donkey': {
         'hp': 30.0,
         'speed': 0.225,

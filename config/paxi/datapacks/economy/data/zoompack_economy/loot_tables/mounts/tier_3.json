@@ -27,6 +27,28 @@
           ]
         },{
           "type": "minecraft:item",
+          "name": "naturalist:zebra_spawn_egg",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"naturalist:zebra\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:45.5000f},{Name:\"generic.movement_speed\",Base:0.3932f},{Name:\"horse.jump_strength\",Base:1.1000f},{Name:\"generic.armor\",Base:10f},{Name:\"generic.attack_damage\",Base:10f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Rustic Zebra Mount", "color": "gold", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 3 : Zebra", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
           "name": "minecraft:donkey_spawn_egg",
           "weight": 10,
           "functions": [
