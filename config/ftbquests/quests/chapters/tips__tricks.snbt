@@ -4,7 +4,7 @@
 	filename: "tips__tricks"
 	group: "095B5FA2C9ED2F6A"
 	icon: "minecraft:writable_book"
-	id: "2CF1763C3AD8E068"
+	id: "4D9E368DED5B6766"
 	images: [
 		{
 			height: 14.0d
@@ -36,14 +36,14 @@
 				""
 				"&lFREE TIP&r: As you can only change once, we reccomend joining the server with a few dummy accounts and try out all the races of interest, before commiting to your final race."
 			]
-			id: "252191073DE8B0E3"
+			id: "116558D20F47DFE2"
 			rewards: [{
 				auto: "disabled"
 				command: "/origin gui @s origins:origin"
 				elevate_perms: true
 				exclude_from_claim_all: true
 				icon: "origins:orb_of_origin"
-				id: "2D053FB8F1F42A60"
+				id: "0722C2667D55DF8D"
 				ignore_reward_blocking: true
 				silent: true
 				team_reward: false
@@ -52,7 +52,7 @@
 			}]
 			subtitle: "You want change, I get it"
 			tasks: [{
-				id: "4CEE89BB2CDD26DB"
+				id: "254B92168E810A01"
 				requiredLevel: 10
 				skill: "agility"
 				title: "Agility: 10"
@@ -72,14 +72,14 @@
 				""
 				"&lFREE TIP&r: As you can only change once, we reccomend joining the server with a few dummy accounts and try out all the races of interest, before commiting to your final race."
 			]
-			id: "7F4826BD86C0575C"
+			id: "4E84B0A00BF1B845"
 			rewards: [{
 				auto: "disabled"
 				command: "/origin gui @s origins-classes:class"
 				elevate_perms: true
 				exclude_from_claim_all: true
 				icon: "origins:orb_of_origin"
-				id: "3B706D19F074F4F2"
+				id: "329F67CC806DCB71"
 				ignore_reward_blocking: true
 				silent: true
 				team_reward: false
@@ -88,7 +88,7 @@
 			}]
 			subtitle: "Nu a mers faza pe Spania"
 			tasks: [{
-				id: "1C0E5FB54146E6BF"
+				id: "6078922F421775ED"
 				requiredLevel: 40
 				skill: "agility"
 				type: "pmmo:skill"
@@ -99,10 +99,10 @@
 		}
 		{
 			icon: "minecolonies:scroll_highlight"
-			id: "1230AF3A415E15BB"
+			id: "0290D572AA16B1C4"
 			subtitle: "CBT is OFFICIALLY allowed"
 			tasks: [{
-				id: "645680E16CB8560D"
+				id: "7DA3F7C7DDA9C7AE"
 				title: "Rules \\& Stuff"
 				type: "checkmark"
 			}]
@@ -134,10 +134,10 @@
 					Potion: "minecraft:long_leaping"
 				}
 			}
-			id: "2D72E4DD3F561D0B"
+			id: "0436F4A75269D46E"
 			subtitle: "Daily/Weekly Events!"
 			tasks: [{
-				id: "34C51D01B0D3DCD4"
+				id: "3A710BA8104F8BE7"
 				title: "Events"
 				type: "checkmark"
 			}]
@@ -156,10 +156,10 @@
 				"Wherever you are press &c&oV&r&r to call your personal mount to your character."
 			]
 			icon: "blue_skies:camel_saddle"
-			id: "1F7911B301774426"
+			id: "11C225FDA56117C0"
 			subtitle: "And so many they are"
 			tasks: [{
-				id: "1085BD4768B3CE98"
+				id: "27860AA6F872D780"
 				title: "Mounts"
 				type: "checkmark"
 			}]
@@ -214,10 +214,10 @@
 					gem: "apotheosis:the_end/endersurge"
 				}
 			}
-			id: "37AB552495798316"
+			id: "2194CCE71EC3873A"
 			subtitle: "They need a socket"
 			tasks: [{
-				id: "426868F725DE72DF"
+				id: "633BAB210304440B"
 				title: "Gems"
 				type: "checkmark"
 			}]
@@ -240,10 +240,10 @@
 				"&e&lCustomizable Enchanting:&r&r With these enhancements, enchanting becomes a strategic and customizable process, moving beyond the simplistic Vanilla system."
 			]
 			icon: "minecolonies:blockhutenchanter"
-			id: "0FDCC38C52EC2B0A"
+			id: "176CB0E9A7D2E553"
 			subtitle: "&6&lHarness the Power of Apotheosis for Superior Enchantments!&r&r"
 			tasks: [{
-				id: "25ADDDECBA087381"
+				id: "4B157BB5DF745E72"
 				title: "Enchanting"
 				type: "checkmark"
 			}]
@@ -276,10 +276,10 @@
 				"&e&lExtensive Skill List:&r&r PMMO includes skills such as agility, alchemy, archery, building, combat, cooking, crafting, and more. These skills cover a wide range of activities and provide a deep, engaging experience."
 			]
 			icon: "endlessbiomes:anklor_upgrade_template"
-			id: "301C03DAB5AE0E67"
+			id: "659C3D1B12F38293"
 			subtitle: "&6&lDive into Project MMO for an enriched Minecraft experience with skill-based progression and unique features!&r&r"
 			tasks: [{
-				id: "3B151CA71E8A46DA"
+				id: "3E958BC57781CBC7"
 				title: "Leveling"
 				type: "checkmark"
 			}]
@@ -296,45 +296,45 @@
 				"You get here"
 				""
 				"&l&e/gems&r&r "
-				"{ \"text\": \"GEMS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37AB552495798316\" } }"
+				"{ \"text\": \"GEMS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2194CCE71EC3873A\" } }"
 				""
 				"&l&e/mounts&r&r"
-				"{ \"text\": \"MOUNTS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1F7911B301774426\" } }"
+				"{ \"text\": \"MOUNTS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"11C225FDA56117C0\" } }"
 				""
 				"&l&e/enchanting&r&r"
-				"{ \"text\": \"ENCHANTING - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FDCC38C52EC2B0A\" } }"
+				"{ \"text\": \"ENCHANTING - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"176CB0E9A7D2E553\" } }"
 				""
 				"&l&e/events&r&r"
-				"{ \"text\": \"EVENTS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2D72E4DD3F561D0B\" } }"
+				"{ \"text\": \"EVENTS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0436F4A75269D46E\" } }"
 				""
 				"&l&e/economy&r&r"
-				"{ \"text\": \"ECONOMY - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"547C6F5B2EC94450\" } }"
+				"{ \"text\": \"ECONOMY - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"06E7A591A771D66B\" } }"
 				""
 				"&l&e/trims&r&r"
 				"&l&e/powerups&r&r"
-				"{ \"text\": \"TRIMS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"089EF30AFF6A1D46\" } }"
+				"{ \"text\": \"TRIMS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"68225318CD594DA4\" } }"
 				""
 				"&l&e/talents&r&r"
-				"{ \"text\": \"TALENTS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"70CF500D7065E04A\" } }"
+				"{ \"text\": \"TALENTS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0A307DF8271A9780\" } }"
 				""
 				"&l&e/dimensions&r&r"
-				"{ \"text\": \"DIMENSIONS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C849DD6772F7444\" } }"
+				"{ \"text\": \"DIMENSIONS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"625C95F55A1B894E\" } }"
 				""
 				"&l&e/magic&r&r"
-				"{ \"text\": \"MAGIC - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D7C3CC83BAFAC1A\" } }"
+				"{ \"text\": \"MAGIC - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4DC536C0184DFD68\" } }"
 				""
 				"&l&e/weapons&r&r"
-				"{ \"text\": \"WEAPONS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"113FBB2750B2CCC8\" } }"
+				"{ \"text\": \"WEAPONS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"02EBA84B4ABC57D0\" } }"
 				""
 				"&l&e/levels&r&r"
 				"&l&e/leveling&r&r"
-				"{ \"text\": \"LEVELING - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"301C03DAB5AE0E67\" } }"
+				"{ \"text\": \"LEVELING - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"659C3D1B12F38293\" } }"
 			]
 			icon: "refinedstorage:4k_storage_part"
-			id: "39A979E3A6CE5B99"
+			id: "526A8BDBC17120FA"
 			subtitle: "Welcome in the sandbox RPG"
 			tasks: [{
-				id: "7E4FE6C5918ADC95"
+				id: "4BDF6056F55E9137"
 				title: "Zoompack 4"
 				type: "checkmark"
 			}]
@@ -374,10 +374,10 @@
 				"Try our amazing auction house using the command &b&o/auctions&r&r or just craft one and place it wherever you desire and right click it to open the auction house board. Search for this item: &b&lAuction House&r&r"
 			]
 			icon: "dotcoinmod:diamond_coin"
-			id: "547C6F5B2EC94450"
+			id: "06E7A591A771D66B"
 			subtitle: "Zooming Economy"
 			tasks: [{
-				id: "0FB19D9E3305CB6C"
+				id: "29D7ECB62DE7DA36"
 				title: "Economy"
 				type: "checkmark"
 			}]
@@ -397,10 +397,10 @@
 				"{image:kubejs:item/tier_10_knockback_resistance_power_up width:100 height:100 align:1}"
 			]
 			icon: "kubejs:tier_7_health_boost_power_up"
-			id: "089EF30AFF6A1D46"
+			id: "68225318CD594DA4"
 			subtitle: "Endless Possibilities"
 			tasks: [{
-				id: "230A49995C926316"
+				id: "642118F165041BD4"
 				title: "Trims & Power-ups"
 				type: "checkmark"
 			}]
@@ -425,10 +425,10 @@
 					Damage: 0
 				}
 			}
-			id: "70CF500D7065E04A"
+			id: "0A307DF8271A9780"
 			subtitle: "Do some push-ups"
 			tasks: [{
-				id: "6A5BBDFE373042D7"
+				id: "64E4FA92D650AC3D"
 				title: "Talents"
 				type: "checkmark"
 			}]
@@ -472,10 +472,10 @@
 				"&b&o90-100&r&r"
 			]
 			icon: "aether:aether_portal_frame"
-			id: "5C849DD6772F7444"
+			id: "625C95F55A1B894E"
 			subtitle: "How many can you visit?"
 			tasks: [{
-				id: "0ACFA80ECCEFB5F1"
+				id: "52E6ACC46BFFF093"
 				title: "Dimensions"
 				type: "checkmark"
 			}]
@@ -527,10 +527,10 @@
 					}
 				}
 			}
-			id: "0D7C3CC83BAFAC1A"
+			id: "4DC536C0184DFD68"
 			subtitle: "Ever dreamt of shooting stars?"
 			tasks: [{
-				id: "1C9807BDC940AEF7"
+				id: "3A4E7D094C488DF4"
 				title: "Zoomers Sorecery"
 				type: "checkmark"
 			}]
@@ -565,10 +565,10 @@
 					Damage: 0
 				}
 			}
-			id: "113FBB2750B2CCC8"
+			id: "02EBA84B4ABC57D0"
 			subtitle: "Stab, Slash, Sweep and Ram your waepons"
 			tasks: [{
-				id: "6E6CC5CF8828EC7B"
+				id: "6EAA110E62BDB084"
 				title: "Zoomers Weaponry"
 				type: "checkmark"
 			}]
@@ -588,16 +588,16 @@
 				"Wanna change your origin? Did a bad call?"
 				""
 				"&e&lRaise your agility to lvl 10 then you can change your Race&r&r"
-				"{ \"text\": \"CLICK HERE to change your RACE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7B8281DAB3405B2E\" } }"
+				"{ \"text\": \"CLICK HERE to change your RACE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"116558D20F47DFE2\" } }"
 				""
 				"&e&lRaise your agility to lvl 40 then you can change your Class&r&r"
-				"{ \"text\": \"CLICK HERE to change your CLASS\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7EDDBBF09CEBDA20\" } }"
+				"{ \"text\": \"CLICK HERE to change your CLASS\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4E84B0A00BF1B845\" } }"
 			]
 			icon: "origins:orb_of_origin"
-			id: "53E43B5B94215429"
+			id: "59D44C51887D8237"
 			subtitle: "Discovering Your True Self"
 			tasks: [{
-				id: "3D3E89B972AD8CA2"
+				id: "2AFE6805F2D1135E"
 				title: "Origins"
 				type: "checkmark"
 			}]
@@ -605,6 +605,7 @@
 			y: -3.0d
 		}
 		{
+			icon: "aquaculture:treasure_chest"
 			id: "1CBC2D540815A7B1"
 			subtitle: "Claim and Conquer"
 			tasks: [{
@@ -625,6 +626,7 @@
 				""
 				"Unlock new kitchen components to expand your cooking possibilities: &nan upgraded recipe book&r that can craft food directly, a #NoFilter book to view all recipes, and sorting options to find the most nutritious meals. This mod also seamlessly integrates with Pam's Harvestcraft and other food mods, offering endless culinary creativity."
 			]
+			icon: "farmersdelight:cooking_pot"
 			id: "364A2B07F68C2EA0"
 			subtitle: "Just a 25 seconds video"
 			tasks: [{
@@ -650,8 +652,18 @@
 				"All the enchants have their level limit doubled."
 				""
 				"&l&dEnchanting system is completly revamped&r"
-				"{ \"text\": \"CLICK HERE to learn more about enchanting\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FDCC38C52EC2B0A\" } }"
+				"{ \"text\": \"CLICK HERE to learn more about enchanting\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"176CB0E9A7D2E553\" } }"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 8s
+					}]
+				}
+			}
 			id: "0342720BBBACC053"
 			subtitle: "Forger everything you know about vanilla"
 			tasks: [{
