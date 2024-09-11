@@ -20,7 +20,10 @@ let COMMANDS_CUSTOM_MAP = {
     'talents': ftb_book_command('70CF500D7065E04A'),
     'dimensions': ftb_book_command('5C849DD6772F7444'),
     'magic': ftb_book_command('0D7C3CC83BAFAC1A'),
-    'weapons': ftb_book_command('113FBB2750B2CCC8')
+    'weapons': ftb_book_command('113FBB2750B2CCC8'),
+    'origins': ftb_book_command('53E43B5B94215429'),
+    'cooking': ftb_book_command('364A2B07F68C2EA0'),
+    'enchants': ftb_book_command('0342720BBBACC053')
 }
 
 ServerEvents.commandRegistry(event => {

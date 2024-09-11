@@ -27,87 +27,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["In here you will find a ton of tips for your playthrough. Go through them one by one to see what this modpack has to offer and how to get unstuck from sticky situations."]
-			icon: {
-				Count: 1
-				id: "aquaculture:neptunium_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "355E5DA9DA5538F6"
-			subtitle: "You are in for a wild ride"
-			tasks: [{
-				id: "54967B52156E8084"
-				title: "Welcome to Zoomcraft"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["355E5DA9DA5538F6"]
-			description: [
-				"When joining the world for the first time, you might have noticed you had to select an origin and a class. This brings certain advantages and disadvantages. We reccomend starting as a human with any profession, so you can get acustomed to the modpack."
-				""
-				"Don't worry, &l you can change both your origin and class &lONCE&r afterwards&r."
-			]
-			icon: "origins:orb_of_origin"
-			id: "04312F393D9DFFA8"
-			subtitle: "You have come | *Cyberpunk theme starts*"
-			tasks: [{
-				id: "2F5F1BD9D581F225"
-				title: "Basics: Origins"
-				type: "checkmark"
-			}]
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["04312F393D9DFFA8"]
-			description: [
-				"In this modpack there are global skill that will alter your gameplay experience."
-				""
-				"First of all, you can check your current skills by opening your inventory and clicking on the purple button beneath the 2x2 crafting grid."
-				""
-				"You will see the skills you've aready started gaining experience, as well as your progress until the next level. More information is available in the Project MMO chapter."
-			]
-			icon: {
-				Count: 1
-				id: "theabyss:nosaj_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "6DE6A1C239394FD5"
-			subtitle: "They're an issue"
-			tasks: [{
-				id: "773549F74E030C9B"
-				title: "Basics: Skills"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6DE6A1C239394FD5"]
-			description: [
-				"There are mods for Chunk claiming and Party creation."
-				""
-				"We suggest you claim chunks only after you are in a party, so you don't lose access to your own terrain."
-			]
-			icon: "minecraft:map"
-			id: "755B9A7ECA9E24C6"
-			subtitle: "Fatten The Beast"
-			tasks: [{
-				id: "30BB5FB40D7176A8"
-				title: "Basics: FTB Mods"
-				type: "checkmark"
-			}]
-			x: 4.5d
-			y: 0.0d
-		}
-		{
 			description: [
 				"As this modpack is relatively new, and people are learning the modpack, we've thought maybe you feel like you've chosen an origin and got stuck. You are free to change your origin \\& class &l&nONCE&r."
 				""
@@ -140,7 +59,7 @@
 				type: "pmmo:skill"
 			}]
 			title: "Origin Respec"
-			x: 0.0d
+			x: 4.0d
 			y: 1.5d
 		}
 		{
@@ -175,8 +94,8 @@
 				type: "pmmo:skill"
 			}]
 			title: "Class Respec"
-			x: 1.5d
-			y: 1.5d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
 			icon: "minecolonies:scroll_highlight"
@@ -187,8 +106,8 @@
 				title: "Rules \\& Stuff"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: 2.5d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -336,11 +255,12 @@
 				"&2&lIntroduction to Project MMO&r&r"
 				"&e&lSkill-Based Experience System:&r&r Project MMO (PMMO) enhances Minecraft by adding an RPG-style experience system. As you perform activities like mining, combat, or crafting, you earn experience that levels up specific skills. This leveling system unlocks new items and grants various perks."
 				""
+				"&e&lHow to check your skills?&r&r"
+				"You can check your skill levels by opening your inventory and clicking on the purple button beneath the 2x2 crafting grid."
+				""
 				"&e&lPerks and Benefits:&r&r Skills in Project MMO offer tangible benefits such as faster run speed, higher jumping, quicker digging, longer underwater breath, and increased damage. These perks improve your gameplay and adapt to your play style."
 				""
 				"&e&lSpecial Features:&r&r Project MMO introduces several advanced features:"
-				""
-				"Vein Mining: Mine entire veins of ores in one go."
 				""
 				"Extra Drops: Gain additional items based on skill levels."
 				""
@@ -351,6 +271,7 @@
 				"Parties: Share XP and gain a boost when playing with friends."
 				""
 				"Salvaging: Break down items into their components for reuse."
+				""
 				""
 				"&e&lExtensive Skill List:&r&r PMMO includes skills such as agility, alchemy, archery, building, combat, cooking, crafting, and more. These skills cover a wide range of activities and provide a deep, engaging experience."
 			]
@@ -680,7 +601,65 @@
 				title: "Origins"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "1CBC2D540815A7B1"
+			subtitle: "Claim and Conquer"
+			tasks: [{
+				id: "422D6291FAA47C27"
+				title: "Feed The Zoompack"
+				type: "checkmark"
+			}]
+			title: "Party and Claim System"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&a&2&lReady to take your culinary skills to the next level? &r&r"
+				"&nThe Cooking for Blockheads&r mod introduces a revolutionary way to cook in Minecraft. Start by using the cooking book or the Cooking Table to discover recipes based on the ingredients you currently have. With just a single click, you can cook up &ndelicious meals instantly!&r"
+				""
+				"The kitchen is modular, meaning you can upgrade it with additional blocks for expanded storage, infinite water from the sink, and even a functional oven for efficient cooking. For the true &nculinary enthusiasts&r, capturing a cow in a jar &nprovides a limitless supply of milk!&r"
+				""
+				"Unlock new kitchen components to expand your cooking possibilities: &nan upgraded recipe book&r that can craft food directly, a #NoFilter book to view all recipes, and sorting options to find the most nutritious meals. This mod also seamlessly integrates with Pam's Harvestcraft and other food mods, offering endless culinary creativity."
+			]
+			id: "364A2B07F68C2EA0"
+			subtitle: "Just a 25 seconds video"
+			tasks: [{
+				id: "115A8F2BE451A5BC"
+				title: "Cooking Explained"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&e&lEnchants&r&r are not what they used to be. "
+				""
+				"&d&lEnchants Altered&r&r"
+				"Very common enchants have been altered. Most of them behave slightly differend to not be overkill for &b&olow&r&r level players and not useless for &b&ohigh&r&r level players."
+				""
+				"&d&lNo more MENDING!&r&r"
+				"You are granted with a lot of gear through your gameplay. Scaling with various perks and durability amount. There is no need for infinite durability."
+				""
+				"&d&lDouble Enchanted&r&r"
+				"Why sattle for &b&oSharpness V&r&r when you can reach &b&oSharpness X&r&r ?"
+				"All the enchants have their level limit doubled."
+				""
+				"&l&dEnchanting system is completly revamped&r"
+				"{ \"text\": \"CLICK HERE to learn more about enchanting\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FDCC38C52EC2B0A\" } }"
+			]
+			id: "0342720BBBACC053"
+			subtitle: "Forger everything you know about vanilla"
+			tasks: [{
+				id: "47BE49A436ED973F"
+				title: "Enchants"
+				type: "checkmark"
+			}]
+			x: 4.0d
 			y: -3.0d
 		}
 	]
