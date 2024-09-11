@@ -27,6 +27,28 @@
           ]
         },{
           "type": "minecraft:item",
+          "name": "naturalist:zebra_spawn_egg",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"naturalist:zebra\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:105.0000f},{Name:\"generic.movement_speed\",Base:0.4290f},{Name:\"horse.jump_strength\",Base:1.2000f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:15f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Trained Zebra Mount", "color": "dark_red", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 5 : Zebra", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
           "name": "minecraft:donkey_spawn_egg",
           "weight": 10,
           "functions": [
@@ -55,6 +77,28 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{EntityTag:{id:\"minecraft:mule\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:90.0000f},{Name:\"generic.movement_speed\",Base:0.2700f},{Name:\"horse.jump_strength\",Base:0.8400f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:15f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Trained Mule Mount", "color": "dark_red", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 5 : Mule", "color": "purple", "italic":false},
+                {"text": "Common", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "vinery:mule_spawn_egg",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"vinery:mule\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:90.0000f},{Name:\"generic.movement_speed\",Base:0.2700f},{Name:\"horse.jump_strength\",Base:0.8400f},{Name:\"generic.armor\",Base:15f},{Name:\"generic.attack_damage\",Base:15f}]}}"
             },
             {
               "function": "minecraft:set_name",
