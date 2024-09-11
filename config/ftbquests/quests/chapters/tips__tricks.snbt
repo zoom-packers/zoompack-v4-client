@@ -144,6 +144,8 @@
 				"&2&oThis shows today's events&r&r"
 				""
 				"&o&bThese are all exclusive to the Official Community Server&r&r"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: {
 				Count: 1
@@ -167,11 +169,13 @@
 				"There are so many mounts that you can find in the world. However you can even whistle to it."
 				""
 				"&e&lHow to set your personal mount?&r&r"
-				"Hop on your mount and press &c&oALT+V&r&r"
+				"While in game, hop on your mount and press &c&oALT+V&r&r"
 				"Now this is now set as your personal mount."
 				""
 				"&e&lHow to call your personal mount?&r&r"
-				"Wherever you are press &c&oV&r&r to call your personal mount to your character."
+				"Wherever you are press &c&oV&r&r on your keyboard while in game to call your personal mount to your character."
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: "blue_skies:camel_saddle"
 			id: "11C225FDA56117C0"
@@ -221,6 +225,8 @@
 				"{image:kubejs:item/apoth_extra_tier_3 width:10 height:10 align:1}"
 				""
 				"Then, just roll the dices!"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: {
 				Count: 1
@@ -256,6 +262,8 @@
 				"&e&lMax Levels and Stats:&r&r The mod increases the maximum levels of many enchantments and introduces new blocks and bookshelves that provide Enchanting Stats, enhancing the effectiveness of enchantments. Vanilla blocks like skulls and candles can also contribute to your enchanting setup."
 				""
 				"&e&lCustomizable Enchanting:&r&r With these enhancements, enchanting becomes a strategic and customizable process, moving beyond the simplistic Vanilla system."
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: "minecolonies:blockhutenchanter"
 			id: "176CB0E9A7D2E553"
@@ -292,6 +300,8 @@
 				""
 				""
 				"&e&lExtensive Skill List:&r&r PMMO includes skills such as agility, alchemy, archery, building, combat, cooking, crafting, and more. These skills cover a wide range of activities and provide a deep, engaging experience."
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: "endlessbiomes:anklor_upgrade_template"
 			id: "659C3D1B12F38293"
@@ -359,6 +369,8 @@
 				""
 				"&l&e/rules&r&r"
 				"{ \"text\": \"RULES - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0290D572AA16B1C4\" } }"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: "refinedstorage:4k_storage_part"
 			id: "526A8BDBC17120FA"
@@ -402,6 +414,8 @@
 				""
 				"&2&lAUCTION HOUSE&r&r"
 				"Try our amazing auction house using the command &b&o/auctions&r&r or just craft one and place it wherever you desire and right click it to open the auction house board. Search for this item: &b&lAuction House&r&r"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: "dotcoinmod:diamond_coin"
 			id: "06E7A591A771D66B"
@@ -425,6 +439,9 @@
 				""
 				""
 				"{image:kubejs:item/tier_10_knockback_resistance_power_up width:100 height:100 align:1}"
+				""
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: "kubejs:tier_7_health_boost_power_up"
 			id: "68225318CD594DA4"
@@ -447,6 +464,8 @@
 				"There are plenty of talents to learn and make use of all the perks!"
 				"Each one leveling up in different ways:"
 				"either from one shotting enemies or even saving villagers from raids"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: {
 				Count: 1
@@ -500,6 +519,8 @@
 				""
 				"{ \"text\": \"Frost World - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6D21E24BA4F25D58\" } }"
 				"&b&o90-100&r&r"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: "aether:aether_portal_frame"
 			id: "625C95F55A1B894E"
@@ -544,6 +565,8 @@
 				"&l&eShadowwalker&r&r - &b&oEnder Spell Power&r&r"
 				"&e&lPriest&r&r - &b&oHoly Spell Power&r&r"
 				"&e&lPlagued&r&r - &b&oPoison Spell Power&r&r"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: {
 				Count: 1
@@ -587,6 +610,8 @@
 				""
 				"&2&lCheck out the dimensions!&r&r"
 				"{ \"text\": \"DIMENSIONS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"625C95F55A1B894E\" } }"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: {
 				Count: 1
@@ -613,7 +638,7 @@
 				""
 				"On the other hand, your &d&lClass&r&r represents your character’s chosen profession and brings only benefits. Whether you’re a Miner with enhanced digging speed or a Cleric with healing abilities, your class boosts your effectiveness in specific areas without drawbacks."
 				""
-				"Remember, your &d&lRace&r&r defines who you are; your &d&lClass&r&r defines what you do. If you ever need to remember your choices, press &c&oINSERT&r&r to revisit your origins and continue your adventure with purpose."
+				"Remember, your &d&lRace&r&r defines who you are; your &d&lClass&r&r defines what you do. If you ever need to remember your choices, press &c&oINSERT&r&r on your keyboard while in game to revisit your origins and continue your adventure with purpose."
 				""
 				"Wanna change your origin? Did a bad call?"
 				""
@@ -622,6 +647,8 @@
 				""
 				"&e&lRaise your agility to lvl 40 then you can change your Class&r&r"
 				"{ \"text\": \"CLICK HERE to change your CLASS\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4E84B0A00BF1B845\" } }"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: "origins:orb_of_origin"
 			id: "59D44C51887D8237"
@@ -637,13 +664,14 @@
 		{
 			description: [
 				"You might have noticed that on the left top corner you can see your character along with some stats."
-				"Well, this is part of the &dParty System&r."
+				"Well, this is part of the &dParty System&r. Aimed to give you a better overview over your party!"
 				""
-				"Create a party and invite people in your party!"
+				"Create a party and invite people in your party to gain all sorts of perks!"
 				""
 				"&e&lParty System supports:&r&r&e"
 				"- Team Claming chunks"
 				"- XP sharing with team members"
+				"- Skill Experience sharing with team members"
 				"- Overview on the location of your team members"
 				"- Overview on each party member's dimension"
 				""
@@ -659,6 +687,8 @@
 				""
 				"&e&lHow to transfer ownership?&r&r"
 				"&o/ftbteams party transfer_ownership &bPLAYER_NAME&r&r"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: "aquaculture:treasure_chest"
 			id: "1CBC2D540815A7B1"
@@ -680,6 +710,8 @@
 				"The kitchen is modular, meaning you can upgrade it with additional blocks for expanded storage, infinite water from the sink, and even a functional oven for efficient cooking. For the true &nculinary enthusiasts&r, capturing a cow in a jar &nprovides a limitless supply of milk!&r"
 				""
 				"Unlock new kitchen components to expand your cooking possibilities: &nan upgraded recipe book&r that can craft food directly, a #NoFilter book to view all recipes, and sorting options to find the most nutritious meals. This mod also seamlessly integrates with Pam's Harvestcraft and other food mods, offering endless culinary creativity."
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: "farmersdelight:cooking_pot"
 			id: "364A2B07F68C2EA0"
@@ -708,6 +740,8 @@
 				""
 				"&l&dEnchanting system is completly revamped&r"
 				"{ \"text\": \"CLICK HERE to learn more about enchanting\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"176CB0E9A7D2E553\" } }"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: {
 				Count: 1
