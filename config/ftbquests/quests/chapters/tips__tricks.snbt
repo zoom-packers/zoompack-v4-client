@@ -118,6 +118,20 @@
 			]
 			icon: "minecolonies:scroll_highlight"
 			id: "0290D572AA16B1C4"
+			rewards: [{
+				auto: "enabled"
+				command: "/say Hi, @p! Thanks for approving the Zoompack 4 rules. Make sure not to breake them as there are some consequences involved in that. And mostly we care about the player's enjoyment, not tooling. HAVE FUN!"
+				icon: {
+					Count: 1
+					id: "create_sa:experience_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7284306B48134274"
+				title: "Rules approved?"
+				type: "command"
+			}]
 			subtitle: "CBT is OFFICIALLY allowed"
 			tasks: [{
 				id: "7DA3F7C7DDA9C7AE"
@@ -191,6 +205,12 @@
 		{
 			description: [
 				"If you wish to powerup your gear (armors, tools, weapons) with gems you must first create a socket for that piece of gear in order to install a gem."
+				""
+				"&e&lHow to create gem dust?&r&r"
+				"Well, let an &b&oanvil&r&r crush some gems. Then the gems become dust!"
+				""
+				"&e&lHow to apply gems to a socket?&r&r"
+				"Just put the item with gem socket available in the &b&osmithing table&r&r and upgrade it with the desired gem!"
 				""
 				"&e&lWhere do i create gem sockets?&r&r"
 				"For this you must put your gear into a Reforging Table"
