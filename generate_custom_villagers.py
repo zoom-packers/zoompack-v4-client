@@ -30,7 +30,7 @@ custom_villagers_trades_data = {
   'ticketmaster': ticketmaster_config
 }
 
-def new_custom_villager_trade(villager, request, offer, trade_xp, max_uses, trade_lvl,price_multiplier = 0, demand=0, additional_request = None, potion_offer_effects = None, potion_color = 16004148, loot_table = None, item_title=None, item_lore=None, rarity=-1, item_title_color=None, item_lore_color=None, egg_mob=None, mob_hp_percentage_boost=1, mob_armor_boost=0, mob_damage_boost=0, mob_speed_pertange_boost=0):
+def new_custom_villager_trade(villager, request, offer, trade_xp, max_uses, trade_lvl,price_multiplier = 0, demand=0, additional_request = None, potion_offer_effects = None, potion_color = 16004148, loot_table = None, item_title=None, item_lore=None, rarity=-1, item_title_color=None, item_lore_color=None, egg_mob=None, mob_hp_percentage_boost=1, mob_armor_boost=0, mob_damage_boost=0, mob_speed_pertange_boost=0, structure_id = None):
     trade_data = {
       "request": {
         "itemKey": request[0],
@@ -46,6 +46,9 @@ def new_custom_villager_trade(villager, request, offer, trade_xp, max_uses, trad
       "demand": demand,
       "tradeLevel": trade_lvl
     }
+
+    if structure_id:
+        trade_data['offer']['mapStructure'] = structure_id
 
     if potion_offer_effects:
         trade_data['offer']['effects'] = potion_offer_effects
@@ -84,6 +87,8 @@ def new_default_trade(villager, request, offer, trade_xp, trade_lvl, additional_
 def new_animalist_trade(villager, request, offer, trade_xp, trade_lvl, additional_request = None, potion_offer_effects = None, potion_color = 16004148, loot_table = None, item_title=None, item_lore=None, rarity=-1, item_title_color=None, item_lore_color=None, egg_mob=None, mob_hp_percentage_boost=1, mob_armor_boost=0, mob_damage_boost=0, mob_speed_pertange_boost=0):
     new_custom_villager_trade(villager, request,offer, trade_xp, 9999999, trade_lvl, additional_request=additional_request, potion_offer_effects=potion_offer_effects, potion_color=potion_color, loot_table=loot_table, item_title=item_title, item_lore=item_lore, rarity=rarity, item_title_color=item_title_color, item_lore_color=item_lore_color, egg_mob=egg_mob, mob_hp_percentage_boost=mob_hp_percentage_boost, mob_armor_boost=mob_armor_boost, mob_damage_boost=mob_damage_boost, mob_speed_pertange_boost=mob_speed_pertange_boost)
 
+def new_map_trade(villager, request, offer, trade_xp, trade_lvl, additional_request = None, structure_id=None, item_title=None, item_lore=None, rarity=-1, item_title_color=None, item_lore_color=None):
+    new_custom_villager_trade(villager, request, offer, trade_xp, 9999999, trade_lvl, additional_request=additional_request, structure_id=structure_id, item_title=item_title, item_lore=item_lore, rarity=rarity, item_title_color=item_title_color, item_lore_color=item_lore_color)
 
 def get_trade_effects(effect_key, duration, level, visivble=False):
     return [{
@@ -107,10 +112,11 @@ ideas for trades:
 # Banker Basic trades
 #buy
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 5), ('minecraft:ender_pearl', 1), 1, 1)
+new_default_trade('banker', ('dotcoinmod:bronze_coin', 49), ('zoomers_economy:gatekeeper_bag', 1), 1, 1)
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 10), ('trials:trial_key', 1), 1, 1)
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 30), ('minecraft:emerald', 1), 1, 1)
-new_default_trade('banker', ('dotcoinmod:bronze_coin', 30), ('blue_skies:blinding_key', 1), 2, 2)
-new_default_trade('banker', ('dotcoinmod:bronze_coin', 30), ('trials:trial_key_ominous', 1), 1, 1)
+new_default_trade('banker', ('dotcoinmod:bronze_coin', 32), ('blue_skies:blinding_key', 1), 2, 2)
+new_default_trade('banker', ('dotcoinmod:bronze_coin', 34), ('trials:trial_key_ominous', 1), 1, 1)
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 48), ('minecraft:iron_ingot', 1), 1, 1)
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 60), ('blue_skies:nature_key', 1), 2, 2)
 new_default_trade('banker', ('dotcoinmod:silver_coin', 1), ('blue_skies:poison_key', 1), 2, 2, additional_request=('dotcoinmod:bronze_coin', 26))
