@@ -238,7 +238,7 @@ export class PolymorphArmoryVariants {
         durabilityMultiplier: 1.2,
         damageMultiplier: 0.8,
         speedMultiplier: 0.2,
-        modelType: "normal",
+        modelType: "short_bow",
         additionalAttributes: []
     }
     private static readonly BOW_VARIANT: BowVariant = {
@@ -249,7 +249,7 @@ export class PolymorphArmoryVariants {
         durabilityMultiplier: 1,
         damageMultiplier: 1,
         speedMultiplier: 0,
-        modelType: "normal",
+        modelType: "bow",
         additionalAttributes: []
     }
     private static readonly LONGBOW_VARIANT: BowVariant = {
@@ -259,15 +259,15 @@ export class PolymorphArmoryVariants {
         recipe: ["", "material", "#c:string", "", "material", "#c:string", "material", "#c:string", ""],
         durabilityMultiplier: 0.8,
         damageMultiplier: 1.2,
-        speedMultiplier: -0.2,
-        modelType: "long",
+        speedMultiplier: -0.3,
+        modelType: "long_bow",
         additionalAttributes: []
     }
 
     public static readonly BOWS: BowVariant[] = [
-        // PolymorphArmoryVariants.SHORTBOW_VARIANT,
+        PolymorphArmoryVariants.SHORTBOW_VARIANT,
         PolymorphArmoryVariants.BOW_VARIANT,
-        // PolymorphArmoryVariants.LONGBOW_VARIANT
+        PolymorphArmoryVariants.LONGBOW_VARIANT
     ];
     //#endregion
 
@@ -277,10 +277,10 @@ export class PolymorphArmoryVariants {
         type: "crossbow",
         displayName: "Crossbow",
         recipe: ["material", "material", "material", "#c:string", "minecraft:tripwire_hook", "#c:string", "", "#forge:rods/wooden", ""],
-        durabilityMultiplier: 1.5,
-        damageMultiplier: 0.2,
-        speedMultiplier: 0,
-        modelType: "normal",
+        durabilityMultiplier: 0.75,
+        damageMultiplier: 1.5,
+        speedMultiplier: -0.2,
+        modelType: "crossbow",
         additionalAttributes: []
     }
     private static readonly ARBALEST_VARIANT: CrossbowVariant = {
@@ -291,7 +291,7 @@ export class PolymorphArmoryVariants {
         durabilityMultiplier: 1.2,
         damageMultiplier: 0.4,
         speedMultiplier: -0.2,
-        modelType: "normal",
+        modelType: "crossbow",
         additionalAttributes: []
     }
 

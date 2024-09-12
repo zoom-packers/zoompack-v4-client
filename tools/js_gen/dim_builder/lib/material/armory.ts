@@ -214,6 +214,8 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         const heaterBlockingModel = JSON.parse(fs.readFileSync(`${inputModelsDir}/heater_shield_blocking.json`, 'utf8'));
         const towerBlockingModel = JSON.parse(fs.readFileSync(`${inputModelsDir}/tower_shield_blocking.json`, 'utf8'));
         const bowModel = JSON.parse(fs.readFileSync(`${inputModelsDir}/bow.json`, 'utf8'));
+        const shortbowModel = JSON.parse(fs.readFileSync(`${inputModelsDir}/short_bow.json`, 'utf8'));
+        const longbowModel = JSON.parse(fs.readFileSync(`${inputModelsDir}/long_bow.json`, 'utf8'));
         const crossbowModel = JSON.parse(fs.readFileSync(`${inputModelsDir}/crossbow.json`, 'utf8'));
 
 
@@ -273,7 +275,21 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             }
             const id = `${materialIdPart}_${type.id}`;
             // @ts-ignore
-            const model = PolymorphArmoryVariants.BOWS.includes(type) ? JSON.parse(JSON.stringify(bowModel)) : JSON.parse(JSON.stringify(crossbowModel));
+            let model;
+            switch (type.modelType) {
+                case "bow":
+                    model = bowModel;
+                    break;
+                case "short_bow":
+                    model = shortbowModel;
+                    break;
+                case "long_bow":
+                    model = longbowModel;
+                    break;
+                case "crossbow":
+                    model = crossbowModel;
+                    break;
+            }
             model.textures.layer0 = `${this.internalNamespace}:item/${id}`;
             model.overrides[0].model = `${this.internalNamespace}:item/${id}_drawing_0`;
             model.overrides[1].model = `${this.internalNamespace}:item/${id}_drawing_1`;
@@ -361,9 +377,9 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             }
             for (let i = 0; i < 4; i++) {
                 const index = i + 1;
-                const basePath = `${inputTexturesDir}/${type.id}_base_${index}.png`;
-                const arrowPath = `${inputTexturesDir}/${type.id}_arrow_${index}.png`;
-                const stringPath = `${inputTexturesDir}/${type.id}_string_${index}.png`;
+                const basePath = `${inputTexturesDir}/${type.type}_base_${index}.png`;
+                const arrowPath = `${inputTexturesDir}/${type.type}_arrow_${index}.png`;
+                const stringPath = `${inputTexturesDir}/${type.type}_string_${index}.png`;
                 const materialColor = material.color;
                 const workingAssets = [
                     new WorkingTexture().withPath(basePath).withTint(materialColor),
@@ -373,7 +389,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                 let id = `${material.internalName}_${type.id}`;
                 // @ts-ignore
                 if ([1, 2, 3].includes(i)) {
-                    id = `${material.internalName}_${type.id}_drawing_${i - 1}`;
+                    id = `${material.internalName}_${type.type}_drawing_${i - 1}`;
                 }
                 const texture = await combine(workingAssets);
                 texture.toFile(`${outputTexturesDir}/${id}.png`);
@@ -600,7 +616,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             {
                 attribute: "projectile_damage:generic",
                 operation: operation.ADDITION,
-                value: 6 + (this.baseDamage > 0 ? this.baseDamage * weaponType.damageMultiplier : this.baseDamage / weaponType.damageMultiplier)
+                value: (this.baseDamage > 0 ? this.baseDamage * weaponType.damageMultiplier : this.baseDamage / weaponType.damageMultiplier)
             },
             {
                 attribute: "attributeslib:draw_speed",

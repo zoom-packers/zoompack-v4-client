@@ -20,7 +20,7 @@ export class HarvestLevelTweaker extends BasicDataHolder<HarvestLevelTweaker> {
     levels: HarvestLevel[] = [...HarvestLevelTweaker.minecraftLevels];
 
     withLevel(level: HarvestLevel) {
-        if (this.levels.find(l => l.id === level.id)) {
+        if (this.levels.find(l => l.id === level.id || l.level === level.level)) {
             log(this, `Level with id ${level.id} already exists, merging...`);
             this.levels.find(l => l.id === level.id)?.merge(level);
             return this;
