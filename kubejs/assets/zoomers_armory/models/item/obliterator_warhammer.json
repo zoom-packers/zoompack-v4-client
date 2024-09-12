@@ -1,6 +1,0 @@
-{
-    "textures": {
-        "layer0": "zoomers_armory:item/obliterator_warhammer"
-    },
-    "parent": "zoomers_armory:item/long"
-}

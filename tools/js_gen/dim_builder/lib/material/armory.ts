@@ -214,8 +214,8 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         const heaterBlockingModel = JSON.parse(fs.readFileSync(`${inputModelsDir}/heater_shield_blocking.json`, 'utf8'));
         const towerBlockingModel = JSON.parse(fs.readFileSync(`${inputModelsDir}/tower_shield_blocking.json`, 'utf8'));
         const bowModel = JSON.parse(fs.readFileSync(`${inputModelsDir}/bow.json`, 'utf8'));
-        const shortbowModel = JSON.parse(fs.readFileSync(`${inputModelsDir}/short_bow.json`, 'utf8'));
-        const longbowModel = JSON.parse(fs.readFileSync(`${inputModelsDir}/long_bow.json`, 'utf8'));
+        const shortbowModel = JSON.parse(fs.readFileSync(`${inputModelsDir}/shortbow.json`, 'utf8'));
+        const longbowModel = JSON.parse(fs.readFileSync(`${inputModelsDir}/longbow.json`, 'utf8'));
         const crossbowModel = JSON.parse(fs.readFileSync(`${inputModelsDir}/crossbow.json`, 'utf8'));
 
 
@@ -280,10 +280,10 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                 case "bow":
                     model = bowModel;
                     break;
-                case "short_bow":
+                case "shortbow":
                     model = shortbowModel;
                     break;
-                case "long_bow":
+                case "longbow":
                     model = longbowModel;
                     break;
                 case "crossbow":
@@ -377,9 +377,9 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             }
             for (let i = 0; i < 4; i++) {
                 const index = i + 1;
-                const basePath = `${inputTexturesDir}/${type.type}_base_${index}.png`;
-                const arrowPath = `${inputTexturesDir}/${type.type}_arrow_${index}.png`;
-                const stringPath = `${inputTexturesDir}/${type.type}_string_${index}.png`;
+                const basePath = `${inputTexturesDir}/${type.id}_base_${index}.png`;
+                const arrowPath = `${inputTexturesDir}/${type.id}_arrow_${index}.png`;
+                const stringPath = `${inputTexturesDir}/${type.id}_string_${index}.png`;
                 const materialColor = material.color;
                 const workingAssets = [
                     new WorkingTexture().withPath(basePath).withTint(materialColor),
@@ -389,7 +389,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                 let id = `${material.internalName}_${type.id}`;
                 // @ts-ignore
                 if ([1, 2, 3].includes(i)) {
-                    id = `${material.internalName}_${type.type}_drawing_${i - 1}`;
+                    id = `${material.internalName}_${type.id}_drawing_${i - 1}`;
                 }
                 const texture = await combine(workingAssets);
                 texture.toFile(`${outputTexturesDir}/${id}.png`);

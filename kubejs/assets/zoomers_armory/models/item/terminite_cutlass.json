@@ -1,6 +1,0 @@
-{
-    "textures": {
-        "layer0": "zoomers_armory:item/terminite_cutlass"
-    },
-    "parent": "zoomers_armory:item/normal"
-}

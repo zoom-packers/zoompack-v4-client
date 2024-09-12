@@ -1,6 +1,0 @@
-{
-    "textures": {
-        "layer0": "zoomers_armory:item/unorithe_axe"
-    },
-    "parent": "zoomers_armory:item/normal"
-}

@@ -1,6 +1,0 @@
-{
-    "parent": "zoomers_armory:item/netherite_arbalest",
-    "textures": {
-        "layer0": "zoomers_armory:item/netherite_arbalest_drawing_1"
-    }
-}

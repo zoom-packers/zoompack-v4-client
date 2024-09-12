@@ -1,6 +1,0 @@
-{
-    "textures": {
-        "layer0": "zoomers_armory:item/incorythe_shovel"
-    },
-    "parent": "zoomers_armory:item/normal"
-}

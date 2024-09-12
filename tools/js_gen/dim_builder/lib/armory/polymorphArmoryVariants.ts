@@ -238,7 +238,7 @@ export class PolymorphArmoryVariants {
         durabilityMultiplier: 1.2,
         damageMultiplier: 0.8,
         speedMultiplier: 0.2,
-        modelType: "short_bow",
+        modelType: "shortbow",
         additionalAttributes: []
     }
     private static readonly BOW_VARIANT: BowVariant = {
@@ -260,7 +260,7 @@ export class PolymorphArmoryVariants {
         durabilityMultiplier: 0.8,
         damageMultiplier: 1.2,
         speedMultiplier: -0.3,
-        modelType: "long_bow",
+        modelType: "longbow",
         additionalAttributes: []
     }
 

@@ -1,6 +1,0 @@
-{
-    "parent": "zoomers_armory:item/terminite_crossbow",
-    "textures": {
-        "layer0": "zoomers_armory:item/terminite_crossbow_firework"
-    }
-}
