@@ -17,6 +17,8 @@
 !/config/sedparties/**
 !/config/ftbquests/
 !/config/ftbquests/**
+!/config/hltweaker/
+!/config/hltweaker/**
 !/defaultconfigs
 !/defaultconfigs/**
 !/js_gen
