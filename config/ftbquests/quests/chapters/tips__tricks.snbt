@@ -4,7 +4,7 @@
 	filename: "tips__tricks"
 	group: "095B5FA2C9ED2F6A"
 	icon: "minecraft:writable_book"
-	id: "2CF1763C3AD8E068"
+	id: "4D9E368DED5B6766"
 	images: [
 		{
 			height: 14.0d
@@ -27,87 +27,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["In here you will find a ton of tips for your playthrough. Go through them one by one to see what this modpack has to offer and how to get unstuck from sticky situations."]
-			icon: {
-				Count: 1
-				id: "aquaculture:neptunium_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "355E5DA9DA5538F6"
-			subtitle: "You are in for a wild ride"
-			tasks: [{
-				id: "54967B52156E8084"
-				title: "Welcome to Zoomcraft"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["355E5DA9DA5538F6"]
-			description: [
-				"When joining the world for the first time, you might have noticed you had to select an origin and a class. This brings certain advantages and disadvantages. We reccomend starting as a human with any profession, so you can get acustomed to the modpack."
-				""
-				"Don't worry, &l you can change both your origin and class &lONCE&r afterwards&r."
-			]
-			icon: "origins:orb_of_origin"
-			id: "04312F393D9DFFA8"
-			subtitle: "You have come | *Cyberpunk theme starts*"
-			tasks: [{
-				id: "2F5F1BD9D581F225"
-				title: "Basics: Origins"
-				type: "checkmark"
-			}]
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["04312F393D9DFFA8"]
-			description: [
-				"In this modpack there are global skill that will alter your gameplay experience."
-				""
-				"First of all, you can check your current skills by opening your inventory and clicking on the purple button beneath the 2x2 crafting grid."
-				""
-				"You will see the skills you've aready started gaining experience, as well as your progress until the next level. More information is available in the Project MMO chapter."
-			]
-			icon: {
-				Count: 1
-				id: "theabyss:nosaj_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "6DE6A1C239394FD5"
-			subtitle: "They're an issue"
-			tasks: [{
-				id: "773549F74E030C9B"
-				title: "Basics: Skills"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6DE6A1C239394FD5"]
-			description: [
-				"There are mods for Chunk claiming and Party creation."
-				""
-				"We suggest you claim chunks only after you are in a party, so you don't lose access to your own terrain."
-			]
-			icon: "minecraft:map"
-			id: "755B9A7ECA9E24C6"
-			subtitle: "Fatten The Beast"
-			tasks: [{
-				id: "30BB5FB40D7176A8"
-				title: "Basics: FTB Mods"
-				type: "checkmark"
-			}]
-			x: 4.5d
-			y: 0.0d
-		}
-		{
 			description: [
 				"As this modpack is relatively new, and people are learning the modpack, we've thought maybe you feel like you've chosen an origin and got stuck. You are free to change your origin \\& class &l&nONCE&r."
 				""
@@ -117,14 +36,14 @@
 				""
 				"&lFREE TIP&r: As you can only change once, we reccomend joining the server with a few dummy accounts and try out all the races of interest, before commiting to your final race."
 			]
-			id: "252191073DE8B0E3"
+			id: "116558D20F47DFE2"
 			rewards: [{
 				auto: "disabled"
 				command: "/origin gui @s origins:origin"
 				elevate_perms: true
 				exclude_from_claim_all: true
 				icon: "origins:orb_of_origin"
-				id: "2D053FB8F1F42A60"
+				id: "0722C2667D55DF8D"
 				ignore_reward_blocking: true
 				silent: true
 				team_reward: false
@@ -133,14 +52,14 @@
 			}]
 			subtitle: "You want change, I get it"
 			tasks: [{
-				id: "4CEE89BB2CDD26DB"
+				id: "254B92168E810A01"
 				requiredLevel: 10
 				skill: "agility"
 				title: "Agility: 10"
 				type: "pmmo:skill"
 			}]
 			title: "Origin Respec"
-			x: 0.0d
+			x: 4.0d
 			y: 1.5d
 		}
 		{
@@ -153,14 +72,14 @@
 				""
 				"&lFREE TIP&r: As you can only change once, we reccomend joining the server with a few dummy accounts and try out all the races of interest, before commiting to your final race."
 			]
-			id: "7F4826BD86C0575C"
+			id: "4E84B0A00BF1B845"
 			rewards: [{
 				auto: "disabled"
 				command: "/origin gui @s origins-classes:class"
 				elevate_perms: true
 				exclude_from_claim_all: true
 				icon: "origins:orb_of_origin"
-				id: "3B706D19F074F4F2"
+				id: "329F67CC806DCB71"
 				ignore_reward_blocking: true
 				silent: true
 				team_reward: false
@@ -169,26 +88,58 @@
 			}]
 			subtitle: "Nu a mers faza pe Spania"
 			tasks: [{
-				id: "1C0E5FB54146E6BF"
+				id: "6078922F421775ED"
 				requiredLevel: 40
 				skill: "agility"
 				type: "pmmo:skill"
 			}]
 			title: "Class Respec"
-			x: 1.5d
-			y: 1.5d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
+			description: [
+				"&e&lRules of Zoompack 4:&r&r"
+				"&d&l1>&r&r Have fun"
+				"&d&l2>&r&r Consider Playing with friends. It's been build for multiplayer in mind"
+				""
+				"&e&lRules of the Official Zoompack 4 Server:&r&r"
+				"&d&l1>&r&r&r No cheats"
+				"&d&l2>&r&r No Helper mods (fullbright, xray, etc..)"
+				"&d&l3>&r&r No helper resource packs (fullbright, xray, etc..)"
+				"&d&l4>&r&r Don't ask for OP, Ranks or Items"
+				""
+				"&e&lRoles:&r&r"
+				"&o&d- Tester&r&r"
+				"Testers are players that report and test various behaviors of the modpack. They have some special perks thanks to their dedication."
+				""
+				"&o&d- Moderator&r&r"
+				"Moderators are players that also moderate the community, the server and actively contribute to the development of the modpack."
+			]
 			icon: "minecolonies:scroll_highlight"
-			id: "1230AF3A415E15BB"
+			id: "0290D572AA16B1C4"
+			rewards: [{
+				auto: "enabled"
+				command: "/say Hi, @p! Thanks for approving the Zoompack 4 rules. Make sure not to breake them as there are some consequences involved in that. And mostly we care about the player's enjoyment, not tooling. HAVE FUN!"
+				icon: {
+					Count: 1
+					id: "create_sa:experience_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7284306B48134274"
+				title: "Rules approved?"
+				type: "command"
+			}]
 			subtitle: "CBT is OFFICIALLY allowed"
 			tasks: [{
-				id: "645680E16CB8560D"
+				id: "7DA3F7C7DDA9C7AE"
 				title: "Rules \\& Stuff"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: 2.5d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -207,6 +158,8 @@
 				"&2&oThis shows today's events&r&r"
 				""
 				"&o&bThese are all exclusive to the Official Community Server&r&r"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: {
 				Count: 1
@@ -215,10 +168,10 @@
 					Potion: "minecraft:long_leaping"
 				}
 			}
-			id: "2D72E4DD3F561D0B"
+			id: "0436F4A75269D46E"
 			subtitle: "Daily/Weekly Events!"
 			tasks: [{
-				id: "34C51D01B0D3DCD4"
+				id: "3A710BA8104F8BE7"
 				title: "Events"
 				type: "checkmark"
 			}]
@@ -230,17 +183,19 @@
 				"There are so many mounts that you can find in the world. However you can even whistle to it."
 				""
 				"&e&lHow to set your personal mount?&r&r"
-				"Hop on your mount and press &c&oALT+V&r&r"
+				"While in game, hop on your mount and press &c&oALT+V&r&r"
 				"Now this is now set as your personal mount."
 				""
 				"&e&lHow to call your personal mount?&r&r"
-				"Wherever you are press &c&oV&r&r to call your personal mount to your character."
+				"Wherever you are press &c&oV&r&r on your keyboard while in game to call your personal mount to your character."
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: "blue_skies:camel_saddle"
-			id: "1F7911B301774426"
+			id: "11C225FDA56117C0"
 			subtitle: "And so many they are"
 			tasks: [{
-				id: "1085BD4768B3CE98"
+				id: "27860AA6F872D780"
 				title: "Mounts"
 				type: "checkmark"
 			}]
@@ -250,6 +205,12 @@
 		{
 			description: [
 				"If you wish to powerup your gear (armors, tools, weapons) with gems you must first create a socket for that piece of gear in order to install a gem."
+				""
+				"&e&lHow to create gem dust?&r&r"
+				"Well, let an &b&oanvil&r&r crush some gems. Then the gems become dust!"
+				""
+				"&e&lHow to apply gems to a socket?&r&r"
+				"Just put the item with gem socket available in the &b&osmithing table&r&r and upgrade it with the desired gem!"
 				""
 				"&e&lWhere do i create gem sockets?&r&r"
 				"For this you must put your gear into a Reforging Table"
@@ -284,6 +245,8 @@
 				"{image:kubejs:item/apoth_extra_tier_3 width:10 height:10 align:1}"
 				""
 				"Then, just roll the dices!"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: {
 				Count: 1
@@ -295,10 +258,10 @@
 					gem: "apotheosis:the_end/endersurge"
 				}
 			}
-			id: "37AB552495798316"
+			id: "2194CCE71EC3873A"
 			subtitle: "They need a socket"
 			tasks: [{
-				id: "426868F725DE72DF"
+				id: "633BAB210304440B"
 				title: "Gems"
 				type: "checkmark"
 			}]
@@ -319,12 +282,14 @@
 				"&e&lMax Levels and Stats:&r&r The mod increases the maximum levels of many enchantments and introduces new blocks and bookshelves that provide Enchanting Stats, enhancing the effectiveness of enchantments. Vanilla blocks like skulls and candles can also contribute to your enchanting setup."
 				""
 				"&e&lCustomizable Enchanting:&r&r With these enhancements, enchanting becomes a strategic and customizable process, moving beyond the simplistic Vanilla system."
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: "minecolonies:blockhutenchanter"
-			id: "0FDCC38C52EC2B0A"
+			id: "176CB0E9A7D2E553"
 			subtitle: "&6&lHarness the Power of Apotheosis for Superior Enchantments!&r&r"
 			tasks: [{
-				id: "25ADDDECBA087381"
+				id: "4B157BB5DF745E72"
 				title: "Enchanting"
 				type: "checkmark"
 			}]
@@ -336,11 +301,12 @@
 				"&2&lIntroduction to Project MMO&r&r"
 				"&e&lSkill-Based Experience System:&r&r Project MMO (PMMO) enhances Minecraft by adding an RPG-style experience system. As you perform activities like mining, combat, or crafting, you earn experience that levels up specific skills. This leveling system unlocks new items and grants various perks."
 				""
+				"&e&lHow to check your skills?&r&r"
+				"You can check your skill levels by opening your inventory and clicking on the purple button beneath the 2x2 crafting grid."
+				""
 				"&e&lPerks and Benefits:&r&r Skills in Project MMO offer tangible benefits such as faster run speed, higher jumping, quicker digging, longer underwater breath, and increased damage. These perks improve your gameplay and adapt to your play style."
 				""
 				"&e&lSpecial Features:&r&r Project MMO introduces several advanced features:"
-				""
-				"Vein Mining: Mine entire veins of ores in one go."
 				""
 				"Extra Drops: Gain additional items based on skill levels."
 				""
@@ -352,13 +318,16 @@
 				""
 				"Salvaging: Break down items into their components for reuse."
 				""
+				""
 				"&e&lExtensive Skill List:&r&r PMMO includes skills such as agility, alchemy, archery, building, combat, cooking, crafting, and more. These skills cover a wide range of activities and provide a deep, engaging experience."
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: "endlessbiomes:anklor_upgrade_template"
-			id: "301C03DAB5AE0E67"
+			id: "659C3D1B12F38293"
 			subtitle: "&6&lDive into Project MMO for an enriched Minecraft experience with skill-based progression and unique features!&r&r"
 			tasks: [{
-				id: "3B151CA71E8A46DA"
+				id: "3E958BC57781CBC7"
 				title: "Leveling"
 				type: "checkmark"
 			}]
@@ -375,45 +344,59 @@
 				"You get here"
 				""
 				"&l&e/gems&r&r "
-				"{ \"text\": \"GEMS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37AB552495798316\" } }"
+				"{ \"text\": \"GEMS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2194CCE71EC3873A\" } }"
 				""
 				"&l&e/mounts&r&r"
-				"{ \"text\": \"MOUNTS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1F7911B301774426\" } }"
+				"{ \"text\": \"MOUNTS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"11C225FDA56117C0\" } }"
 				""
 				"&l&e/enchanting&r&r"
-				"{ \"text\": \"ENCHANTING - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0FDCC38C52EC2B0A\" } }"
+				"{ \"text\": \"ENCHANTING - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"176CB0E9A7D2E553\" } }"
 				""
 				"&l&e/events&r&r"
-				"{ \"text\": \"EVENTS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2D72E4DD3F561D0B\" } }"
+				"{ \"text\": \"EVENTS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0436F4A75269D46E\" } }"
 				""
 				"&l&e/economy&r&r"
-				"{ \"text\": \"ECONOMY - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"547C6F5B2EC94450\" } }"
+				"{ \"text\": \"ECONOMY - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"06E7A591A771D66B\" } }"
 				""
 				"&l&e/trims&r&r"
 				"&l&e/powerups&r&r"
-				"{ \"text\": \"TRIMS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"089EF30AFF6A1D46\" } }"
+				"{ \"text\": \"TRIMS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"68225318CD594DA4\" } }"
 				""
 				"&l&e/talents&r&r"
-				"{ \"text\": \"TALENTS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"70CF500D7065E04A\" } }"
+				"{ \"text\": \"TALENTS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0A307DF8271A9780\" } }"
 				""
 				"&l&e/dimensions&r&r"
-				"{ \"text\": \"DIMENSIONS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C849DD6772F7444\" } }"
+				"{ \"text\": \"DIMENSIONS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"625C95F55A1B894E\" } }"
 				""
 				"&l&e/magic&r&r"
-				"{ \"text\": \"MAGIC - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D7C3CC83BAFAC1A\" } }"
+				"{ \"text\": \"MAGIC - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4DC536C0184DFD68\" } }"
 				""
 				"&l&e/weapons&r&r"
-				"{ \"text\": \"WEAPONS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"113FBB2750B2CCC8\" } }"
+				"{ \"text\": \"WEAPONS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"02EBA84B4ABC57D0\" } }"
 				""
 				"&l&e/levels&r&r"
 				"&l&e/leveling&r&r"
-				"{ \"text\": \"LEVELING - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"301C03DAB5AE0E67\" } }"
+				"{ \"text\": \"LEVELING - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"659C3D1B12F38293\" } }"
+				""
+				"&l&e/origins&r&r"
+				"{ \"text\": \"ORIGINS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59D44C51887D8237\" } }"
+				""
+				"&l&e/cooking&r&r"
+				"{ \"text\": \"ORIGINS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"364A2B07F68C2EA0\" } }"
+				""
+				"&l&e/enchants&r&r"
+				"{ \"text\": \"ENCHANTS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0342720BBBACC053\" } }"
+				""
+				"&l&e/rules&r&r"
+				"{ \"text\": \"RULES - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0290D572AA16B1C4\" } }"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: "refinedstorage:4k_storage_part"
-			id: "39A979E3A6CE5B99"
+			id: "526A8BDBC17120FA"
 			subtitle: "Welcome in the sandbox RPG"
 			tasks: [{
-				id: "7E4FE6C5918ADC95"
+				id: "4BDF6056F55E9137"
 				title: "Zoompack 4"
 				type: "checkmark"
 			}]
@@ -451,12 +434,14 @@
 				""
 				"&2&lAUCTION HOUSE&r&r"
 				"Try our amazing auction house using the command &b&o/auctions&r&r or just craft one and place it wherever you desire and right click it to open the auction house board. Search for this item: &b&lAuction House&r&r"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: "dotcoinmod:diamond_coin"
-			id: "547C6F5B2EC94450"
+			id: "06E7A591A771D66B"
 			subtitle: "Zooming Economy"
 			tasks: [{
-				id: "0FB19D9E3305CB6C"
+				id: "29D7ECB62DE7DA36"
 				title: "Economy"
 				type: "checkmark"
 			}]
@@ -474,12 +459,15 @@
 				""
 				""
 				"{image:kubejs:item/tier_10_knockback_resistance_power_up width:100 height:100 align:1}"
+				""
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: "kubejs:tier_7_health_boost_power_up"
-			id: "089EF30AFF6A1D46"
+			id: "68225318CD594DA4"
 			subtitle: "Endless Possibilities"
 			tasks: [{
-				id: "230A49995C926316"
+				id: "642118F165041BD4"
 				title: "Trims & Power-ups"
 				type: "checkmark"
 			}]
@@ -496,6 +484,8 @@
 				"There are plenty of talents to learn and make use of all the perks!"
 				"Each one leveling up in different ways:"
 				"either from one shotting enemies or even saving villagers from raids"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: {
 				Count: 1
@@ -504,10 +494,10 @@
 					Damage: 0
 				}
 			}
-			id: "70CF500D7065E04A"
+			id: "0A307DF8271A9780"
 			subtitle: "Do some push-ups"
 			tasks: [{
-				id: "6A5BBDFE373042D7"
+				id: "64E4FA92D650AC3D"
 				title: "Talents"
 				type: "checkmark"
 			}]
@@ -549,12 +539,14 @@
 				""
 				"{ \"text\": \"Frost World - click for details\", \"bold\":\"true\" , \"color\":\"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6D21E24BA4F25D58\" } }"
 				"&b&o90-100&r&r"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: "aether:aether_portal_frame"
-			id: "5C849DD6772F7444"
+			id: "625C95F55A1B894E"
 			subtitle: "How many can you visit?"
 			tasks: [{
-				id: "0ACFA80ECCEFB5F1"
+				id: "52E6ACC46BFFF093"
 				title: "Dimensions"
 				type: "checkmark"
 			}]
@@ -593,6 +585,8 @@
 				"&l&eShadowwalker&r&r - &b&oEnder Spell Power&r&r"
 				"&e&lPriest&r&r - &b&oHoly Spell Power&r&r"
 				"&e&lPlagued&r&r - &b&oPoison Spell Power&r&r"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: {
 				Count: 1
@@ -606,10 +600,10 @@
 					}
 				}
 			}
-			id: "0D7C3CC83BAFAC1A"
+			id: "4DC536C0184DFD68"
 			subtitle: "Ever dreamt of shooting stars?"
 			tasks: [{
-				id: "1C9807BDC940AEF7"
+				id: "3A4E7D094C488DF4"
 				title: "Zoomers Sorecery"
 				type: "checkmark"
 			}]
@@ -635,7 +629,9 @@
 				"Each dimension has multiple tiers of weapons awaiting for you to discover."
 				""
 				"&2&lCheck out the dimensions!&r&r"
-				"{ \"text\": \"DIMENSIONS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C849DD6772F7444\" } }"
+				"{ \"text\": \"DIMENSIONS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"625C95F55A1B894E\" } }"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
 			]
 			icon: {
 				Count: 1
@@ -644,15 +640,148 @@
 					Damage: 0
 				}
 			}
-			id: "113FBB2750B2CCC8"
+			id: "02EBA84B4ABC57D0"
 			subtitle: "Stab, Slash, Sweep and Ram your waepons"
 			tasks: [{
-				id: "6E6CC5CF8828EC7B"
+				id: "6EAA110E62BDB084"
 				title: "Zoomers Weaponry"
 				type: "checkmark"
 			}]
 			x: 5.0d
 			y: -4.0d
+		}
+		{
+			description: [
+				"&2&lYour journey begins with two crucial choices:&r &r&oRace and Class. &r"
+				""
+				"Your &d&lRace&r&r reflects your ancestral roots, shaping your character’s inherent abilities and weaknesses. For example, as a Yeti, you might be resilient to cold but vulnerable to heat, while a Gorgona could petrify enemies but have other vulnerabilities. &d&lRaces&r&r offer a mix of advantages and limitations, deeply influencing how you navigate the world."
+				""
+				"On the other hand, your &d&lClass&r&r represents your character’s chosen profession and brings only benefits. Whether you’re a Miner with enhanced digging speed or a Cleric with healing abilities, your class boosts your effectiveness in specific areas without drawbacks."
+				""
+				"Remember, your &d&lRace&r&r defines who you are; your &d&lClass&r&r defines what you do. If you ever need to remember your choices, press &c&oINSERT&r&r on your keyboard while in game to revisit your origins and continue your adventure with purpose."
+				""
+				"Wanna change your origin? Did a bad call?"
+				""
+				"&e&lRaise your agility to lvl 10 then you can change your Race&r&r"
+				"{ \"text\": \"CLICK HERE to change your RACE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"116558D20F47DFE2\" } }"
+				""
+				"&e&lRaise your agility to lvl 40 then you can change your Class&r&r"
+				"{ \"text\": \"CLICK HERE to change your CLASS\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4E84B0A00BF1B845\" } }"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
+			]
+			icon: "origins:orb_of_origin"
+			id: "59D44C51887D8237"
+			subtitle: "Discovering Your True Self"
+			tasks: [{
+				id: "2AFE6805F2D1135E"
+				title: "Origins"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"You might have noticed that on the left top corner you can see your character along with some stats."
+				"Well, this is part of the &dParty System&r. Aimed to give you a better overview over your party!"
+				""
+				"Create a party and invite people in your party to gain all sorts of perks!"
+				""
+				"&e&lParty System supports:&r&r&e"
+				"- Team Claming chunks"
+				"- XP sharing with team members"
+				"- Skill Experience sharing with team members"
+				"- Overview on the location of your team members"
+				"- Overview on each party member's dimension"
+				""
+				"&e&l&lHow to create a party?&r&r&r"
+				"just run: "
+				"&o/ftbteams party create &bCustom Party Name&r&r"
+				""
+				"&e&lHow to invite people to your party?&r&r"
+				"&o/ftbteams party invite &bPLAYER_NAME&r&r"
+				""
+				"&e&lHow to disband your party?&r&r"
+				"&o/ftbteams party leave&r"
+				""
+				"&e&lHow to transfer ownership?&r&r"
+				"&o/ftbteams party transfer_ownership &bPLAYER_NAME&r&r"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
+			]
+			icon: "aquaculture:treasure_chest"
+			id: "1CBC2D540815A7B1"
+			subtitle: "Claim and Conquer"
+			tasks: [{
+				id: "422D6291FAA47C27"
+				title: "Feed The Zoompack"
+				type: "checkmark"
+			}]
+			title: "Party and Claim System"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&a&2&lReady to take your culinary skills to the next level? &r&r"
+				"&nThe Cooking for Blockheads&r mod introduces a revolutionary way to cook in Minecraft. Start by using the cooking book or the Cooking Table to discover recipes based on the ingredients you currently have. With just a single click, you can cook up &ndelicious meals instantly!&r"
+				""
+				"The kitchen is modular, meaning you can upgrade it with additional blocks for expanded storage, infinite water from the sink, and even a functional oven for efficient cooking. For the true &nculinary enthusiasts&r, capturing a cow in a jar &nprovides a limitless supply of milk!&r"
+				""
+				"Unlock new kitchen components to expand your cooking possibilities: &nan upgraded recipe book&r that can craft food directly, a #NoFilter book to view all recipes, and sorting options to find the most nutritious meals. This mod also seamlessly integrates with Pam's Harvestcraft and other food mods, offering endless culinary creativity."
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
+			]
+			icon: "farmersdelight:cooking_pot"
+			id: "364A2B07F68C2EA0"
+			subtitle: "Just a 25 seconds video"
+			tasks: [{
+				id: "115A8F2BE451A5BC"
+				title: "Cooking Explained"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&e&lEnchants&r&r are not what they used to be. "
+				""
+				"&d&lEnchants Altered&r&r"
+				"Very common enchants have been altered. Most of them behave slightly differend to not be overkill for &b&olow&r&r level players and not useless for &b&ohigh&r&r level players."
+				""
+				"&d&lNo more MENDING!&r&r"
+				"You are granted with a lot of gear through your gameplay. Scaling with various perks and durability amount. There is no need for infinite durability."
+				""
+				"&d&lDouble Enchanted&r&r"
+				"Why sattle for &b&oSharpness V&r&r when you can reach &b&oSharpness X&r&r ?"
+				"All the enchants have their level limit doubled."
+				""
+				"&l&dEnchanting system is completly revamped&r"
+				"{ \"text\": \"CLICK HERE to learn more about enchanting\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"176CB0E9A7D2E553\" } }"
+				""
+				"{image:enlightened_end:particle/xenon_bubble_pop width:50 height:50 align:1}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 8s
+					}]
+				}
+			}
+			id: "0342720BBBACC053"
+			subtitle: "Forger everything you know about vanilla"
+			tasks: [{
+				id: "47BE49A436ED973F"
+				title: "Enchants"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -3.0d
 		}
 	]
 	title: "Tips \\& Tricks"

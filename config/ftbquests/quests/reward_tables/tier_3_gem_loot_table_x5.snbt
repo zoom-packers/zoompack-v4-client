@@ -11,7 +11,7 @@
 	}
 	id: "74438B3FAE0C32B1"
 	loot_size: 1
-	order_index: 23
+	order_index: 22
 	rewards: [{
 		command: "/loot give @s loot zoompack_economy:gems/tier_3"
 		type: "command"
