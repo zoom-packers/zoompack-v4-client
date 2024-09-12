@@ -1,0 +1,19 @@
+{
+  "exportZipName": "Zoompack 4 - FULL Version v0.1.0.zip",
+  "includes": [
+    "../config",
+    "../defaultconfigs",
+    "../emotes",
+    "../kubejs",
+    "../packmenu",
+    "../shaderpacks",
+    "../icon.png",
+    "../options.txt",
+    "../servers.dat",
+    "../nutritionalbalance.data"
+  ],
+  "datapackPath": "../config/paxi/datapacks",
+  "resourcepackPath": "../config/paxi/resourcepacks",
+  "kubejsDataPath": "../kubejs/data",
+  "kubejsAssetsPath": "../kubejs/assets"
+}

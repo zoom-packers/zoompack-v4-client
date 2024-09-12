@@ -206,24 +206,6 @@
     {
       "offer": {
         "itemKey": "minecraft:emerald",
-        "amount": 20,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "alexsmobs:ambergris",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "tradeExp": 4,
-      "maxUses": 3,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 2,
-      "UTID": "minecraft:fisherman_emerald_for_ambergris"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:emerald",
         "amount": 2,
         "priceModifier": 0
       },

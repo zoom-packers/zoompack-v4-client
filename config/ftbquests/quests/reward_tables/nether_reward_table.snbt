@@ -8,7 +8,7 @@
 	}
 	id: "032A481F1460E830"
 	loot_size: 1
-	order_index: 35
+	order_index: 36
 	rewards: [
 		{ count: 4, item: "minecraft:ghast_tear", random_bonus: 4 }
 		{ count: 4, item: "minecraft:blaze_rod" }

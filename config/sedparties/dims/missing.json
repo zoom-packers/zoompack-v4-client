@@ -1,0 +1,50 @@
+[
+  {
+    "dimension": "blue_skies:everdawn",
+    "item": "blue_skies:lunar_stone",
+    "color": 7280250,
+    "priority": -1
+  },
+  {
+    "dimension": "theabyss:spectral_world",
+    "item": "theabyss:vigilant_moss",
+    "color": 472047,
+    "priority": -1
+  },
+  {
+    "dimension": "theabyss:the_abyss",
+    "item": "theabyss:infected_grass",
+    "color": 2040647,
+    "priority": -1
+  },
+  {
+    "dimension": "blue_skies:everbright",
+    "item": "blue_skies:turquoise_stone",
+    "color": 4628704,
+    "priority": -1
+  },
+  {
+    "dimension": "undergarden:undergarden",
+    "item": "undergarden:shiverstone",
+    "color": 2440497,
+    "priority": -1
+  },
+  {
+    "dimension": "callfromthedepth_:depth",
+    "item": "minecraft:sculk_sensor",
+    "color": 1722222,
+    "priority": -1
+  },
+  {
+    "dimension": "theabyss:frost_world",
+    "item": "theabyss:snow_block",
+    "color": 16777215,
+    "priority": -1
+  },
+  {
+    "dimension": "theabyss:pocket_dimension",
+    "item": "theabyss:black_void",
+    "color": 0,
+    "priority": -1
+  }
+]

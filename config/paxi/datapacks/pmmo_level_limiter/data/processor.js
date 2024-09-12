@@ -33,6 +33,9 @@ function modifySetRequirements(modId, set_name, level, items = undefined, set_fo
         let itemId = set_formatting.replace("{set_name}", set_name).replace("{item}", type);
         let filePath = `${folder}/${itemId}.json`;
         checkFileExists(filePath, modId, itemId, type, level);
+        if (type.includes("hammer")) {
+            type = "pickaxe";
+        }
         const template = createItemRequirement(type, level);
         writeJson(template, filePath);
     });

@@ -1,0 +1,2 @@
+License: LPUL
+Available at the following URL: https://modrinth.com/mod/tiny-item-animations

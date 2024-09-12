@@ -1,3 +1,5 @@
+//priority: 500
+
 function createRarityMaterial(e, name, displayName, texture) {
     return e.create(name)
         .displayName(displayName)

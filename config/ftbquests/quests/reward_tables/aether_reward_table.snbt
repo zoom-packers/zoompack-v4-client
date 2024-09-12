@@ -2,7 +2,7 @@
 	icon: "aether:golden_oak_sapling"
 	id: "391FE18EE04B561C"
 	loot_size: 1
-	order_index: 23
+	order_index: 24
 	rewards: [
 		{ count: 5, item: "aether:zanite_gemstone" }
 		{ count: 12, item: "aether:ambrosium_shard" }

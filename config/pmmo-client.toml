@@ -34,7 +34,7 @@
 		"Salvage Item Color" = 366125849
 		#How long, in ticks, items on the gain list should stay on screen before disappearing
 		"Gain List Linger Duration" = 100
-		#skills that should now show their gains in the gain list.  this can be used to limit spammy skills
+		#skills that should not show their gains in the gain list.  this can be used to limit spammy skills
 		"Gain Blacklist" = ["agility", "swimming"]
 		#if true, removes the skills button from the inventory screen
 		"hide skill button" = false
@@ -45,7 +45,7 @@
 		#Default = -22
 		skill_button_y = -22
 		#If enabled, lists in chat all features unlocked when a skill levels up.
-		skillup_unlocks = true
+		skillup_unlocks = false
 
 	#Generic Tooltip Settings
 	[Client.ToolTip_Settings]

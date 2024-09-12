@@ -13,6 +13,8 @@
 !/config/*
 !/config/paxi/*
 !/config/paxi/**
+!/config/sedparties/*
+!/config/sedparties/**
 !/config/ftbquests/
 !/config/ftbquests/**
 !/defaultconfigs
