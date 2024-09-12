@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "zoomers_armory:item/phantom_pickaxe"
+    },
+    "parent": "zoomers_armory:item/normal"
+}

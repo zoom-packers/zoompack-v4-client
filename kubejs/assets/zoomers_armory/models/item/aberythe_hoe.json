@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "zoomers_armory:item/aberythe_hoe"
+    },
+    "parent": "zoomers_armory:item/normal"
+}

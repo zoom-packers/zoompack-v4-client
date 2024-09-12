@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "zoomers_armory:item/cincinnasite_pickaxe"
+    },
+    "parent": "zoomers_armory:item/normal"
+}
