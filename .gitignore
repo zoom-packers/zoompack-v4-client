@@ -40,3 +40,5 @@
 /tools/js_gen/node_modules
 /tools/js_gen/node_modules/**
 /tools/js_gen/package-lock.json
+/tools/js_gen/dim_builder/mc
+/tools/js_gen/dim_builder/mc/**
