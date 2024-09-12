@@ -71,28 +71,28 @@
         }
     },
     "textures": {
-        "layer0": "zoomers_armory:item/neptunium_bow"
+        "layer0": "zoomers_armory:item/[object Object]"
     },
     "overrides": [
         {
             "predicate": {
                 "minecraft:pulling": 1
             },
-            "model": "zoomers_armory:item/neptunium_bow_drawing_0"
+            "model": "zoomers_armory:item/[object Object]_drawing_0"
         },
         {
             "predicate": {
                 "minecraft:pulling": 1,
                 "minecraft:pull": 0.65
             },
-            "model": "zoomers_armory:item/neptunium_bow_drawing_1"
+            "model": "zoomers_armory:item/[object Object]_drawing_1"
         },
         {
             "predicate": {
                 "minecraft:pulling": 1,
                 "minecraft:pull": 0.9
             },
-            "model": "zoomers_armory:item/neptunium_bow_drawing_2"
+            "model": "zoomers_armory:item/[object Object]_drawing_2"
         }
     ]
 }

@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/ignisithe_longbow",
+    "textures": {
+        "layer0": "zoomers_armory:item/ignisithe_longbow_drawing_0"
+    }
+}

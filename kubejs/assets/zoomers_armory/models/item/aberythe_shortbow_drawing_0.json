@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/aberythe_shortbow",
+    "textures": {
+        "layer0": "zoomers_armory:item/aberythe_shortbow_drawing_0"
+    }
+}

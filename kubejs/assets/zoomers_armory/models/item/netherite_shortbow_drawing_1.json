@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/netherite_shortbow",
+    "textures": {
+        "layer0": "zoomers_armory:item/netherite_shortbow_drawing_1"
+    }
+}

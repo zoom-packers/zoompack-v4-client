@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/flint_shortbow",
+    "textures": {
+        "layer0": "zoomers_armory:item/flint_shortbow_drawing_2"
+    }
+}
