@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/pyrope_shortbow",
+    "textures": {
+        "layer0": "zoomers_armory:item/pyrope_shortbow_drawing_2"
+    }
+}

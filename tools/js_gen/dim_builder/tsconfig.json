@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "target": "es6",
+    "allowSyntheticDefaultImports": true,
+    "types": ["node"]
+  }
+}

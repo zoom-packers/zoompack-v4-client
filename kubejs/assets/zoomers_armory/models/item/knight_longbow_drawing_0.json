@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/knight_longbow",
+    "textures": {
+        "layer0": "zoomers_armory:item/knight_longbow_drawing_0"
+    }
+}

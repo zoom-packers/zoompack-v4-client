@@ -1,0 +1,112 @@
+{
+    "parent": "minecraft:item/generated",
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [
+                -80,
+                260,
+                -40
+            ],
+            "translation": [
+                -1,
+                -2,
+                2.5
+            ],
+            "scale": [
+                1.8,
+                1.8,
+                1
+            ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [
+                -80,
+                -280,
+                40
+            ],
+            "translation": [
+                -1,
+                -2,
+                2.5
+            ],
+            "scale": [
+                1.8,
+                1.8,
+                1
+            ]
+        },
+        "firstperson_righthand": {
+            "rotation": [
+                0,
+                -90,
+                25
+            ],
+            "translation": [
+                1.13,
+                3.2,
+                1.13
+            ],
+            "scale": [
+                1.36,
+                1.36,
+                0.76
+            ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [
+                0,
+                90,
+                -25
+            ],
+            "translation": [
+                1.13,
+                3.2,
+                1.13
+            ],
+            "scale": [
+                1.36,
+                1.36,
+                0.76
+            ]
+        },
+        "gui": {
+            "scale": [
+                1.25,
+                1.25,
+                1
+            ]
+        },
+        "fixed": {
+            "scale": [
+                1.25,
+                1.25,
+                1
+            ]
+        }
+    },
+    "textures": {
+        "layer0": "zoomers_armory:item/gold_longbow"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "minecraft:pulling": 1
+            },
+            "model": "zoomers_armory:item/gold_longbow_drawing_0"
+        },
+        {
+            "predicate": {
+                "minecraft:pulling": 1,
+                "minecraft:pull": 0.65
+            },
+            "model": "zoomers_armory:item/gold_longbow_drawing_1"
+        },
+        {
+            "predicate": {
+                "minecraft:pulling": 1,
+                "minecraft:pull": 0.9
+            },
+            "model": "zoomers_armory:item/gold_longbow_drawing_2"
+        }
+    ]
+}

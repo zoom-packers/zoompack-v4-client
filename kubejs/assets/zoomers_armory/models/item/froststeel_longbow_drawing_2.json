@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/froststeel_longbow",
+    "textures": {
+        "layer0": "zoomers_armory:item/froststeel_longbow_drawing_2"
+    }
+}

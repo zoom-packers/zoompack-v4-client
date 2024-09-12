@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/charoite_shortbow",
+    "textures": {
+        "layer0": "zoomers_armory:item/charoite_shortbow_drawing_0"
+    }
+}

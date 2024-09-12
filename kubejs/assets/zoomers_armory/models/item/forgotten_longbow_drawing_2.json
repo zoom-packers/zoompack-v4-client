@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/forgotten_longbow",
+    "textures": {
+        "layer0": "zoomers_armory:item/forgotten_longbow_drawing_2"
+    }
+}

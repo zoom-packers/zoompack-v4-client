@@ -1,0 +1,14 @@
+{
+    "requirements": {
+        "WEAPON": {
+            "archery": 52
+        },
+        "WEAR": {
+            "archery": 52
+        },
+        "USE": {
+            "archery": 52
+        }
+    },
+    "override": true
+}

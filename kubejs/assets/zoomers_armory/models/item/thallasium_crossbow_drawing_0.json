@@ -1,6 +1,0 @@
-{
-    "parent": "zoomers_armory:item/thallasium_crossbow",
-    "textures": {
-        "layer0": "zoomers_armory:item/thallasium_crossbow_drawing_0"
-    }
-}

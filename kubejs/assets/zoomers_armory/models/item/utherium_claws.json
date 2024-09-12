@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "0": "zoomers_armory:item/utherium_claws"
+    },
+    "parent": "zoomers_armory:item/claws"
+}

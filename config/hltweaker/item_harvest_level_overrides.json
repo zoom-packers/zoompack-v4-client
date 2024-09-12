@@ -1,0 +1,38 @@
+{
+    "zoomers_armory:flint_pickaxe": {
+        "minecraft:mineable/pickaxe": "minecraft:stone"
+    },
+    "zoomers_armory:flint_axe": {
+        "minecraft:mineable/axe": "minecraft:stone"
+    },
+    "zoomers_armory:flint_shovel": {
+        "minecraft:mineable/shovel": "minecraft:stone"
+    },
+    "zoomers_armory:flint_hoe": {
+        "minecraft:mineable/hoe": "minecraft:stone"
+    },
+    "zoomers_armory:neptunium_pickaxe": {
+        "minecraft:mineable/pickaxe": "minecraft:diamond"
+    },
+    "zoomers_armory:neptunium_axe": {
+        "minecraft:mineable/axe": "minecraft:diamond"
+    },
+    "zoomers_armory:neptunium_shovel": {
+        "minecraft:mineable/shovel": "minecraft:diamond"
+    },
+    "zoomers_armory:neptunium_hoe": {
+        "minecraft:mineable/hoe": "minecraft:diamond"
+    },
+    "zoomers_armory:crystalline_pickaxe": {
+        "minecraft:mineable/pickaxe": "forgotten"
+    },
+    "zoomers_armory:crystalline_axe": {
+        "minecraft:mineable/axe": "forgotten"
+    },
+    "zoomers_armory:crystalline_shovel": {
+        "minecraft:mineable/shovel": "forgotten"
+    },
+    "zoomers_armory:crystalline_hoe": {
+        "minecraft:mineable/hoe": "forgotten"
+    }
+}

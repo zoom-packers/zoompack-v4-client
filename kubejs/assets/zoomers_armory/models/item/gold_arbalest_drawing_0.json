@@ -1,6 +1,0 @@
-{
-    "parent": "zoomers_armory:item/gold_arbalest",
-    "textures": {
-        "layer0": "zoomers_armory:item/gold_arbalest_drawing_0"
-    }
-}

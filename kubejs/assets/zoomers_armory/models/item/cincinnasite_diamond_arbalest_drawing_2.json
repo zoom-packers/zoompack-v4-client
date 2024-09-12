@@ -1,6 +1,0 @@
-{
-    "parent": "zoomers_armory:item/cincinnasite_diamond_arbalest",
-    "textures": {
-        "layer0": "zoomers_armory:item/cincinnasite_diamond_arbalest_drawing_2"
-    }
-}

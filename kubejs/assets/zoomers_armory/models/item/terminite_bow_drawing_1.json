@@ -1,6 +1,0 @@
-{
-    "parent": "zoomers_armory:item/terminite_bow",
-    "textures": {
-        "layer0": "zoomers_armory:item/terminite_bow_drawing_1"
-    }
-}

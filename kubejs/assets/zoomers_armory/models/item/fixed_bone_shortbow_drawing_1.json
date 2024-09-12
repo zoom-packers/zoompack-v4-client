@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/fixed_bone_shortbow",
+    "textures": {
+        "layer0": "zoomers_armory:item/fixed_bone_shortbow_drawing_1"
+    }
+}

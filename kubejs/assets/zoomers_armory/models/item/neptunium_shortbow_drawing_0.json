@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/neptunium_shortbow",
+    "textures": {
+        "layer0": "zoomers_armory:item/neptunium_shortbow_drawing_0"
+    }
+}

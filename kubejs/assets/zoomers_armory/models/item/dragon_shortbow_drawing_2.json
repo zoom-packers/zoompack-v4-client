@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/dragon_shortbow",
+    "textures": {
+        "layer0": "zoomers_armory:item/dragon_shortbow_drawing_2"
+    }
+}

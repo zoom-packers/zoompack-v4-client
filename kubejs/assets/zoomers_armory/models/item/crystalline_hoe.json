@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "zoomers_armory:item/crystalline_hoe"
+    },
+    "parent": "zoomers_armory:item/normal"
+}
