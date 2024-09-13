@@ -121,8 +121,6 @@ key_key.hotbar.9:key.keyboard.9
 key_key.puffish_skills.open:key.keyboard.k
 key_simplemagnets.keys.toggle:key.keyboard.m:SHIFT
 key_key.modernfix.config:key.keyboard.unknown
-key_asteorbar.key.toggle_overlay:key.keyboard.f8
-key_asteorbar.key.toggle_mob_bar:key.keyboard.f10
 key_key.apotheosis.toggle_radial_mining:key.keyboard.unknown
 key_supplementaries.keybind.quiver:key.keyboard.unknown
 key_key.refinedstorage.focusSearchBar:key.keyboard.tab
@@ -336,6 +334,7 @@ key_key.open_convenient_gui:key.keyboard.unknown
 key_key.aether.open_accessories.desc:key.keyboard.unknown
 key_key.aether.gravitite_jump_ability.desc:key.keyboard.space
 key_key.aether.invisibility_toggle.desc:key.keyboard.unknown
+key_giacomos_hud_conf.toggle_config:key.keyboard.unknown
 key_advancements_tracker.keys.show_widget:key.keyboard.l:ALT
 key_advancements_tracker.keys.show_overview:key.keyboard.l:CONTROL
 key_key.immersive_aircraft.fallback_control_left:key.keyboard.unknown
