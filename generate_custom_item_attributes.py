@@ -229,13 +229,13 @@ new_armor_set_config("aquaculture", "neptunium", [0,0,0,0], 0, 0.01)
 
 # blue skies
 new_armor_set_config("blue_skies", "pyrope", [1.5,3.5,2.5,2.5], 2, 0.02)
-new_sword_config("blue_skies","pyrope", 0.5) #7.5
+new_sword_config("blue_skies","pyrope", 0.5, attack_speed=-0.4) #7.5
 
 new_armor_set_config("blue_skies", "aquite", [2,3,2,2], 2, 0.021)
 new_sword_config("blue_skies","aquite", 2) #8
 
 new_armor_set_config("blue_skies", "diopside", [2,2.25,2,2], -2, 0.022)
-# new_sword_config("blue_skies","diopside", 0) #9
+new_sword_config("blue_skies","diopside", 0, attack_speed=0.4) #9
 
 new_armor_set_config("blue_skies", "charoite", [1,1.5,1.25,1.5], 0.5, 0.023)
 new_sword_config("blue_skies","charoite", 3) #10
@@ -250,11 +250,16 @@ new_armor_set_config("aether", "gravitite", [0,0,0,0], 0, -0.023)
 new_armor_set_config("aether", "valkyrie", [0,0,0,0], 0, -0.022)
 new_armor_set_config("aether", "phoenix", [0,0,0,0], 0, -0.071)
 new_armor_set_config("aether", "obsidian", [0,0,0,0], 0, -0.12)
+new_sword_config("aether", "valkyrie_lance", 0, full_id=True, attack_speed=0.3)
 
 # Nether 
 new_armor_set_config("betternether", "cincinnasite", [7,8,7,6], 4, -0.005)
 new_armor_set_config("betternether", "nether_ruby", [8,12,10,7], 5.6, -0.167)
 new_armor_set_config("betternether", "flaming_ruby", [8,13,10,8], 4.4, -0.262)
+new_sword_config("betternether","cincinnasite", 0, attack_speed=-0.2)
+new_sword_config("betternether","cincinnasite_sword_diamond", 0, full_id=True, attack_speed=-0.3)
+new_sword_config("betternether","nether_ruby", 0, attack_speed=-0.2)
+new_sword_config("betternether","flaming_ruby", 0, attack_speed=-0.4)
 new_sword_config("minecraft","netherite", 30)
 new_sword_config("nethersdelight","netherite_machete", 30, full_id=True)
 new_armor_set_config("create", "netherite_diving", [0,0,0,0], 0.0, -0.06)
@@ -262,8 +267,9 @@ new_armor_set_config("create", "netherite_diving", [0,0,0,0], 0.0, -0.06)
 new_armor_set_config("aquamirae", "abyssal", [0,0,13,10], 5, -0.06)
 new_armor_set_config("aquamirae", "abyssal_brigantine", [0,18,0,0], 5, -0.06, full_id=True, actual_piece="chestplate")
 new_armor_set_config("aquamirae", "abyssal_heaume", [6,0,0,0], 5, -0.06, full_id=True, actual_piece="helmet")
+new_armor_set_config("aquamirae", "abyssal_tiara", [10,0,0,0], 8, 0.04, full_id=True, actual_piece="helmet")
 
-new_sword_config("aquamirae","divider", 30, full_id=True)
+new_sword_config("aquamirae","divider", 30, full_id=True, attack_speed=0.2)
 new_sword_config("aquamirae","whisper_of_the_abyss", 30, full_id=True)
 
 # Undergarden
@@ -276,18 +282,18 @@ new_sword_config("undergarden","forgotten_battleaxe", 259, full_id=True)
 new_sword_config("undergarden","cloggrum_battleaxe", 171, full_id=True)
 new_sword_config("mokels_boss_mantyd","mantyd_scythe", 85, full_id=True)
 new_sword_config("call_of_yucutan","sentient_vine", 81, full_id=True)
-new_sword_config("call_of_yucutan","jade", 80)
+new_sword_config("call_of_yucutan","jade", 80, attack_speed=-0.1)
 new_armor_set_config("call_of_yucutan", "jades", [14.5,19.5,16.5,14.5], 8.5, 0.008)
 new_armor_set_config("mokels_boss_mantyd", "mantydhelmet", [14,0,0,0], 8, -0.042)
 
 
 # end related content
-new_sword_config("endlessbiomes","void_touched_blade", 95, full_id=True)
+new_sword_config("endlessbiomes","void_touched_blade", 95, full_id=True, attack_speed=-0.4)
 new_sword_config("outer_end","sinker_dagger", 95, full_id=True)
 
 new_sword_config("phantasm","crystalline", 85)
-new_sword_config("ender_dragon_loot_","dragon", 100)
-new_sword_config("enlightened_end","adamantite", 120)
+new_sword_config("ender_dragon_loot_","dragon", 100, attack_speed=0.4)
+new_sword_config("enlightened_end","adamantite", 120, attack_speed=0.2)
 new_sword_config("enderitemod","enderite", 140)
 
 new_armor_piece_config("endlessbiomes", "void_touched_leggings_leggings", 17, 9, -0.34, actual_piece="leggings")
@@ -306,39 +312,39 @@ new_armor_set_config("enderitemod", "enderite", [40,59,49,40], 8, -0.01)
 # call from the depths
 new_sword_config("callfromthedepth_","immemorialsword", 170, full_id=True)
 new_armor_set_config("callfromthedepth_", "depth_armor", [50,70,60,50], 7.5, -0.1)
-new_sword_config("callfromthedepth_","soul_blade", 190, full_id=True, attack_speed=0.4)
+new_sword_config("callfromthedepth_","soul_blade", 190, full_id=True, attack_speed=0.3)
 
 # The abyss
 new_armor_set_config("theabyss", "fusion_armor", [60,85,70,60], 10.5, -0.09)
-new_sword_config("theabyss","fusion", 220)
+new_sword_config("theabyss","fusion", 220, attack_speed=-0.2)
 
 new_armor_set_config("theabyss", "aberythe_armor", [70,100,80,70], 11.5, 0.015)
-new_sword_config("theabyss","aberythe", 230)
+new_sword_config("theabyss","aberythe", 230, attack_speed=-0.2)
 
 new_armor_set_config("theabyss", "bone_armor", [80,110,90,80], 11.5, 0.02)
-new_sword_config("theabyss","bone_sword_item", 240, full_id=True)
+new_sword_config("theabyss","bone_sword_item", 240, full_id=True, attack_speed=-0.4)
 
 new_armor_set_config("theabyss", "ignisithe_armor", [90,120,100,90], 10.5, 0.025)
-new_sword_config("theabyss","ignisithe", 260)
-new_sword_config("theabyss","bricked_knight", 276)
+new_sword_config("theabyss","ignisithe", 260, attack_speed=-0.4)
+new_sword_config("theabyss","bricked_knight", 276, attack_speed=-0.1)
 
 new_armor_set_config("theabyss", "glacerythe_armor", [100,130,110,100], 10.5, -0.17)
 new_sword_config("theabyss","knight", 280)
 
 new_armor_set_config("theabyss", "garnite_armor", [110,140,120,110], 11.5, -0.265)
-new_sword_config("theabyss","garnite", 300)
+new_sword_config("theabyss","garnite", 300, attack_speed=-0.2)
 
 new_armor_set_config("theabyss", "phantom_armor", [120,150,130,120], 12, -0.06)
-new_sword_config("theabyss","phantom", 320)
+new_sword_config("theabyss","phantom", 320, attack_speed=-0.2)
 
 new_armor_set_config("theabyss", "unorithe_armor", [130,160,140,130], 14, -0.255)
-new_sword_config("theabyss","unorithe", 350)
+new_sword_config("theabyss","unorithe", 350, attack_speed=-0.4)
 
 new_armor_set_config("theabyss", "incorythe_armor", [150,170,150,150], 13, -0.15)
-new_sword_config("theabyss","incorythe", 390)
-new_sword_config("theabyss","incorythe_sword_mkii", 420, full_id=True)
+new_sword_config("theabyss","incorythe", 390, attack_speed=-0.4)
+new_sword_config("theabyss","incorythe_sword_mkii", 420, full_id=True, attack_speed=-0.6)
 
-new_sword_config("theabyss","abyss_sword", 420, full_id=True)
+new_sword_config("theabyss","abyss_sword", 420, full_id=True, attack_speed=-0.4)
 
 
 # Kube JS config generator
