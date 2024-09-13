@@ -1,12 +1,10 @@
 #determine whether or not loot generated is the same for all players using the provided seed, or randomised per player
 randomise_seed = true
-#the maximum age for containers; entries above this age will be discarded [default: 180 * 20, 3 minutes]
+#the maximum age for containers; entries above this age will be discarded [default: 60 * 20 * 15, fifteen minutes] [note: the value 6000 will be corrected to 18000. if you wish to use 6000, please use 6001 or 5999.]
 #Range: > 0
-max_age = 6000
+max_age = 18000
 #if true, no chests will be converted
 disable = false
-#skip unloaded block entities that are eligible for conversion, set to false to potentially resolve issues with containers that aren't being converted [default: true]
-skip_unloaded = true
 #whether or not mineshaft chest minecarts should be converted to standard loot chests
 convert_mineshafts = true
 #whether or not the Elytra item frame should be converted into a standard loot chest with a guaranteed elytra
