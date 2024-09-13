@@ -176,7 +176,7 @@ function drawActiveEvents(server, player) {
         event_4_icon: {},
     }
     const persistentData = server.persistentData
-    const playerUIInvisibleTag = persistentData.get(`events_ui_invisible_${player.getName()}`);
+    const playerUIInvisibleTag = persistentData.get(`events_ui_invisible_${player.getName().getString()}`);
     const playerUIInvisible = playerUIInvisibleTag === null ? false : playerUIInvisibleTag === true;
     if (activeEvents === undefined || activeEvents.length === 0 || playerUIInvisible) {
         var vals = Object.values(renderer);
