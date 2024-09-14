@@ -1,0 +1,18 @@
+{
+    "override": true,
+    "isTagFor": [
+        "#minecraft:logs"
+    ],
+    "xp_values":{
+        "BLOCK_BREAK" : {
+            "woodcutting": 40
+        },
+        "BLOCK_PLACE": {
+            "building": 10
+        }
+    },
+    "requirements":{
+        "BREAK": {"mining":0},
+        "PLACE": {"mining":0}
+    }
+}

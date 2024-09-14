@@ -1306,19 +1306,25 @@
 			]
 			icon: {
 				Count: 1
-				id: "everythingcopper:copper_chestplate"
+				id: "minecraft:chainmail_chestplate"
 				tag: {
 					Damage: 0
 				}
 			}
 			id: "4FC29920B3872099"
+			rewards: [{
+				id: "61AD9612C00FCB78"
+				item: "croptopia:mead"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
-				id: "070C86C26AB73170"
-				title: "Dad bod recipe"
-				type: "checkmark"
+				id: "2FB7CE4F0AAF5D79"
+				item: "brewery:beer_wheat"
+				type: "item"
 			}]
+			title: "Dad BOD"
 			x: -9.0d
 			y: -5.0d
 		}
