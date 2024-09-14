@@ -65,7 +65,7 @@
   },
   "gui": {
     "walletEnabled": true,
-    "walletGuiPos": "BOTTOM",
+    "walletGuiPos": "TOP",
     "walletGuiAxis": "RIGHT",
     "walletMaxSlotSize": 999,
     "clientShowWallet": true,
