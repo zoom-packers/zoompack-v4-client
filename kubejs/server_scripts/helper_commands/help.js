@@ -28,7 +28,7 @@ let COMMANDS_CUSTOM_MAP = {
 }
 
 ServerEvents.commandRegistry(event => {
-    const {commands: Commands, arguments: Arguments} = event;
+    let {commands: Commands, arguments: Arguments} = event;
     Object.entries(COMMANDS_CUSTOM_MAP).forEach(([commandName, command]) => {
         event.register(
             Commands.literal(commandName)

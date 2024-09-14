@@ -11,7 +11,7 @@ function addCreeperBehavior(creeperId) {
     })
 }
 
-const creeperIds = [
+let creeperIds = [
     "creeperoverhaul:badlands_creeper",
     "creeperoverhaul:bamboo_creeper",
     "creeperoverhaul:beach_creeper",
@@ -29,6 +29,6 @@ const creeperIds = [
     "creeperoverhaul:swamp_creeper"
     ];
 
-for (const creeperId of creeperIds) {
+for (let creeperId of creeperIds) {
     addCreeperBehavior(creeperId);
 }

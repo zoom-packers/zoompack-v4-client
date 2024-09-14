@@ -1,7 +1,7 @@
 //priority: 999
-const magicUUID = "85883543-c4a3-406e-ba46-9cb463a56225"
+let magicUUID = "85883543-c4a3-406e-ba46-9cb463a56225"
 
-const combatEvent = new Event()
+let combatEvent = new Event()
     .withName("Combat Training")
     .withIcon("minecraft:textures/item/iron_sword.png")
     .withDescription("Extra damage & XP gain.")
@@ -13,7 +13,7 @@ const combatEvent = new Event()
     .withAttributeModifier("zoompack_overrides_forge:archery_xp_multiplier", "add", 0.2, magicUUID)
     .withAttributeModifier("zoompack_overrides_forge:magic_xp_multiplier", "add", 0.2, magicUUID)
 
-const weekendCombatEvent = new Event()
+let weekendCombatEvent = new Event()
     .withName("Weekend Combat Training")
     .withIcon("minecraft:textures/item/diamond_sword.png")
     .withDescription("Even more damage & XP Gain.")
@@ -26,7 +26,7 @@ const weekendCombatEvent = new Event()
     .withAttributeModifier("zoompack_overrides_forge:archery_xp_multiplier", "add", 0.5, magicUUID)
     .withAttributeModifier("zoompack_overrides_forge:magic_xp_multiplier", "add", 0.5, magicUUID)
 
-const fishingFriday = new Event()
+let fishingFriday = new Event()
     .withName("Fishing Friday")
     .withIcon("minecraft:textures/item/fishing_rod.png")
     .withDescription("Extra fishing luck & XP gain.")
@@ -35,7 +35,7 @@ const fishingFriday = new Event()
     .withAttributeModifier("zoompack_overrides_forge:fisherman_luck", "add", 1, magicUUID)
     .withAttributeModifier("zoompack_overrides_forge:fishing_xp_multiplier", "add", 0.5, magicUUID);
 
-const miningMonday = new Event()
+let miningMonday = new Event()
     .withName("Mining Monday")
     .withIcon("minecraft:textures/item/iron_pickaxe.png")
     .withDescription("Extra fortune & XP gain.")
@@ -44,7 +44,7 @@ const miningMonday = new Event()
     .withAttributeModifier("puffish_attributes:player.fortune", "add", 2, magicUUID)
     .withAttributeModifier("zoompack_overrides_forge:mining_xp_multiplier", "add", 0.5, magicUUID);
 
-const farmingFrenzy = new Event()
+let farmingFrenzy = new Event()
     .withName("Farming Frenzy")
     .withIcon("minecraft:textures/item/iron_hoe.png")
     .withDescription("Extra harvests & XP gain.")
@@ -53,7 +53,7 @@ const farmingFrenzy = new Event()
     .withAttributeModifier("additional_attributes:harvest", "add", 0.5, magicUUID)
     .withAttributeModifier("zoompack_overrides_forge:farming_xp_multiplier", "add", 0.5, magicUUID);
 
-const explorationTime = new Event()
+let explorationTime = new Event()
     .withName("Stop, Explore Time!")
     .withIcon("minecraft:textures/item/compass.png")
     .withDescription("Extra luck & XP gain.")
@@ -65,7 +65,7 @@ const explorationTime = new Event()
     .withAttributeModifier("minecraft:generic.luck", "add", 2, magicUUID)
 
 // Fun event, but not suitable for a public server.
-// const immortality = new Event()
+// let immortality = new Event()
 //     .withName("Immortality")
 //     .withDescription("You are immortal for a limited time.")
 //     .allWeek("00:00", "24:00")

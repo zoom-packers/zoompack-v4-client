@@ -1,9 +1,9 @@
-const BRONZE_COIN = 'dotcoinmod:bronze_coin';
-const SILVER_COIN = 'dotcoinmod:silver_coin';
-const GOLD_COIN = 'dotcoinmod:gold_coin';
-const EMERALD_COIN = 'dotcoinmod:emerald_coin';
+let BRONZE_COIN = 'dotcoinmod:bronze_coin';
+let SILVER_COIN = 'dotcoinmod:silver_coin';
+let GOLD_COIN = 'dotcoinmod:gold_coin';
+let EMERALD_COIN = 'dotcoinmod:emerald_coin';
 
-const COINS = [BRONZE_COIN, SILVER_COIN, GOLD_COIN, EMERALD_COIN];
+let COINS = [BRONZE_COIN, SILVER_COIN, GOLD_COIN, EMERALD_COIN];
 
 let DIMENSION_MULTIPLIERS = {
     'minecraft:overworld': 1

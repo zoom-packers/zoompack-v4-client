@@ -147,7 +147,7 @@ global.createAugument = (event, id, name, texture, attributes) => {
     var capability = CuriosCapabilityBuilder.CURIOS.itemStack();
     capability.canEquip((stack, context) => true);
     capability.canUnequip((stack, context) => true);
-    for (const attribute of attributes) {
+    for (let attribute of attributes) {
         capability.modifyAttribute(attribute.attribute, attribute.uuid, attribute.value, attribute.operation);
     }
 
@@ -160,11 +160,11 @@ global.createAugument = (event, id, name, texture, attributes) => {
 
 global.createGeckoArmorTier = (event, modId, prefix, tier, textures, helmName, chestName, pantsName, legName, nameSuffix,
                                helmModelPath, helmTexturePath, chestModelPath, chestTexturePath, pantsModelPath, pantsTexturePath, bootsModelPath, bootsTexturePath) => {
-    const itemTypePrefix = !hasGeckoJs ? "" : "anim_";
-    const helmet = event.create(`${modId}:${prefix}_helmet`, `${itemTypePrefix}helmet`).displayName(`${helmName} ${nameSuffix}`).texture(textures.helmet).tier(tier);
-    const chestplate = event.create(`${modId}:${prefix}_chestplate`, `${itemTypePrefix}chestplate`).displayName(`${chestName} ${nameSuffix}`).texture(textures.chestplate).tier(tier);
-    const leggings = event.create(`${modId}:${prefix}_leggings`, `${itemTypePrefix}leggings`).displayName(`${pantsName} ${nameSuffix}`).texture(textures.leggings).tier(tier);
-    const boots = event.create(`${modId}:${prefix}_boots`, `${itemTypePrefix}boots`).displayName(`${legName} ${nameSuffix}`).texture(textures.boots).tier(tier);
+    let itemTypePrefix = !hasGeckoJs ? "" : "anim_";
+    let helmet = event.create(`${modId}:${prefix}_helmet`, `${itemTypePrefix}helmet`).displayName(`${helmName} ${nameSuffix}`).texture(textures.helmet).tier(tier);
+    let chestplate = event.create(`${modId}:${prefix}_chestplate`, `${itemTypePrefix}chestplate`).displayName(`${chestName} ${nameSuffix}`).texture(textures.chestplate).tier(tier);
+    let leggings = event.create(`${modId}:${prefix}_leggings`, `${itemTypePrefix}leggings`).displayName(`${pantsName} ${nameSuffix}`).texture(textures.leggings).tier(tier);
+    let boots = event.create(`${modId}:${prefix}_boots`, `${itemTypePrefix}boots`).displayName(`${legName} ${nameSuffix}`).texture(textures.boots).tier(tier);
     if (hasGeckoJs) {
         helmet
             .geoModel(geo => {
@@ -219,8 +219,8 @@ global.createGeckoArmorTier = (event, modId, prefix, tier, textures, helmName, c
 }
 
 global.enhanceWithAttributes = (item, attributesJson) => {
-    const attributes = JSON.parse(attributesJson);
-    for (const attribute of attributes) {
+    let attributes = JSON.parse(attributesJson);
+    for (let attribute of attributes) {
         item.modifyAttribute(attribute.attribute, attribute.uuid, attribute.amount, attribute.operation);
     }
 }

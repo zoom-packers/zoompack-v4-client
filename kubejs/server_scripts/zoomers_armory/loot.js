@@ -1,9 +1,9 @@
 LootJS.modifiers((event) => {
-    const ores = [];
+    let ores = [];
     
     var silky;
     var rawOre;
-    for (const ore of ores) {
+    for (let ore of ores) {
         silky = LootEntry.of(ore.blockId).when((c) =>
             c.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
         );
