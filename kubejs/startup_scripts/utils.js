@@ -148,10 +148,6 @@ global.createAugument = (event, id, name, texture, attributes) => {
     capability.canEquip((stack, context) => true);
     capability.canUnequip((stack, context) => true);
     for (const attribute of attributes) {
-        console.log(attribute.attribute);
-        console.log(attribute.uuid);
-        console.log(attribute.value);
-        console.log(attribute.operation);
         capability.modifyAttribute(attribute.attribute, attribute.uuid, attribute.value, attribute.operation);
     }
 
@@ -162,13 +158,13 @@ global.createAugument = (event, id, name, texture, attributes) => {
         .attachCapability(capability);
 }
 
-global.createGeckoArmorTier = (event, modId, tier, textures, helmName, chestName, pantsName, legName, nameSuffix,
+global.createGeckoArmorTier = (event, modId, prefix, tier, textures, helmName, chestName, pantsName, legName, nameSuffix,
                                helmModelPath, helmTexturePath, chestModelPath, chestTexturePath, pantsModelPath, pantsTexturePath, bootsModelPath, bootsTexturePath) => {
     const itemTypePrefix = !hasGeckoJs ? "" : "anim_";
-    const helmet = event.create(`${modId}:${tier}_helmet`, `${itemTypePrefix}helmet`).displayName(`${helmName} ${nameSuffix}`).texture(textures.helmet).tier(tier);
-    const chestplate = event.create(`${modId}:${tier}_chestplate`, `${itemTypePrefix}chestplate`).displayName(`${chestName} ${nameSuffix}`).texture(textures.chestplate).tier(tier);
-    const leggings = event.create(`${modId}:${tier}_leggings`, `${itemTypePrefix}leggings`).displayName(`${pantsName} ${nameSuffix}`).texture(textures.leggings).tier(tier);
-    const boots = event.create(`${modId}:${tier}_boots`, `${itemTypePrefix}boots`).displayName(`${legName} ${nameSuffix}`).texture(textures.boots).tier(tier);
+    const helmet = event.create(`${modId}:${prefix}_helmet`, `${itemTypePrefix}helmet`).displayName(`${helmName} ${nameSuffix}`).texture(textures.helmet).tier(tier);
+    const chestplate = event.create(`${modId}:${prefix}_chestplate`, `${itemTypePrefix}chestplate`).displayName(`${chestName} ${nameSuffix}`).texture(textures.chestplate).tier(tier);
+    const leggings = event.create(`${modId}:${prefix}_leggings`, `${itemTypePrefix}leggings`).displayName(`${pantsName} ${nameSuffix}`).texture(textures.leggings).tier(tier);
+    const boots = event.create(`${modId}:${prefix}_boots`, `${itemTypePrefix}boots`).displayName(`${legName} ${nameSuffix}`).texture(textures.boots).tier(tier);
     if (hasGeckoJs) {
         helmet
             .geoModel(geo => {
@@ -202,8 +198,8 @@ global.createGeckoArmorTier = (event, modId, tier, textures, helmName, chestName
             .boneVisibility((renderer, slot) => {
                 renderer.setAllVisible(false);
                 if (slot === "legs") {
-                    renderer.setBoneVisible(renderer.getRightLegBone(), true);
-                    renderer.setBoneVisible(renderer.getLeftLegBone(), true);
+                    renderer.setBoneVisible(renderer.getRightBootBone(), true);
+                    renderer.setBoneVisible(renderer.getLeftBootBone(), true);
                 }
             });
         boots

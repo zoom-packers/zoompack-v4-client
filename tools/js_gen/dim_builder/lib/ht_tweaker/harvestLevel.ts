@@ -3,14 +3,16 @@ export class HarvestLevel {
     level: number;
     color: string;
     icons: string[] | undefined;
+    nameOverride: string | undefined;
     blocks: HarvestableBlock[] | undefined;
     items: string[] | undefined;
 
-    constructor(id: string, level: number, color: string, icons: string[] | undefined) {
+    constructor(id: string, level: number, color: string, icons: string[] | undefined, nameOverride: string | undefined = undefined) {
         this.id = id;
         this.level = level;
         this.color = color;
         this.icons = icons;
+        this.nameOverride = nameOverride;
         this.blocks = [];
         this.items = [];
     }

@@ -42,6 +42,9 @@ const ARMOR_TIER_TEMPLATE = `  event.add("{id}", tier => {
     tier.toughness = {toughness} // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = {knockbackResistance} // diamond has 0.0, netherite 0.1
   });`
+const GECKO_ARMOR_TEMPLATE =
+`global.createGeckoArmorTier(e, "{modId}", "{prefix}", "{tierId}", global.getMaterialTexturesObject("{modId}", "{tierId}"), "{helmName}", "{chestName}", "{legName}", "{bootName}", "{nameSuffix}",
+    "{modelPath}", "{texturePath}", "{modelPath}", "{texturePath}", "{modelPath}", "{texturePath}", "{modelPath}", "{texturePath}");`
 
 export class KubeJsRegistrar extends BasicDataHolder<KubeJsRegistrar> {
     items: string[] = [];
@@ -77,6 +80,28 @@ export class KubeJsRegistrar extends BasicDataHolder<KubeJsRegistrar> {
         this.armorTiers.push(ARMOR_TIER_TEMPLATE.replace("{id}", id).replace("{durabilityMultiplier}", durabilityMultiplier.toString()).replace("{slotProtections}", slotProtections.toString()).replace("{enchantmentValue}", enchantmentValue.toString()).replace("{repairIngredient}", repairIngredient).replace("{toughness}", toughness.toString()).replace("{knockbackResistance}", knockbackResistance.toString()));
     }
 
+    registerGeckoArmor(modId: string, prefix: string, tierId: string, helmName: string, chestName: string, legName: string, bootName: string, nameSuffix: string, modelPath: string, texturePath: string) {
+        this.items.push(GECKO_ARMOR_TEMPLATE
+            .replace("{modId}", modId)
+            .replace("{prefix}", prefix)
+            .replace("{tierId}", tierId)
+            .replace("{modId}", modId)
+            .replace("{tierId}", tierId)
+            .replace("{helmName}", helmName)
+            .replace("{chestName}", chestName)
+            .replace("{legName}", legName)
+            .replace("{bootName}", bootName)
+            .replace("{nameSuffix}", nameSuffix)
+            .replace("{modelPath}", modelPath)
+            .replace("{texturePath}", texturePath)
+            .replace("{modelPath}", modelPath)
+            .replace("{texturePath}", texturePath)
+            .replace("{modelPath}", modelPath)
+            .replace("{texturePath}", texturePath)
+            .replace("{modelPath}", modelPath)
+            .replace("{texturePath}", texturePath));
+    }
+
     writeToFile() {
         const kjsPath = kubejsStartupScriptsPath();
         const folder = `${kjsPath}/${this.internalNamespace}`;
@@ -90,4 +115,3 @@ export class KubeJsRegistrar extends BasicDataHolder<KubeJsRegistrar> {
         fs.writeFileSync(path, content);
     }
 }
-

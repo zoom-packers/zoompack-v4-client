@@ -1,0 +1,32 @@
+{
+    "values": [
+        "minecraft:gold_ore",
+        "minecraft:deepslate_gold_ore",
+        "minecraft:nether_gold_ore",
+        "undergarden:depthrock_gold_ore",
+        "theabyss:block_gold_variant",
+        "meadow:alpine_gold_ore",
+        "minecraft:redstone_ore",
+        "minecraft:deepslate_redstone_ore",
+        "betternether:nether_redstone_ore",
+        "meadow:alpine_redstone_ore",
+        "minecraft:lapis_ore",
+        "minecraft:deepslate_lapis_ore",
+        "betternether:nether_lapis_ore",
+        "meadow:alpine_lapis_ore",
+        "minecraft:diamond_ore",
+        "minecraft:deepslate_diamond_ore",
+        "undergarden:depthrock_diamond_ore",
+        "undergarden:shiverstone_diamond_ore",
+        "theabyss:block_diamond_variant",
+        "meadow:alpine_diamond_ore",
+        "minecraft:emerald_ore",
+        "minecraft:deepslate_emerald_ore",
+        "blue_skies:everbright_emerald_ore",
+        "blue_skies:everdawn_emerald_ore",
+        "undergarden:depthrock_emerald_ore",
+        "undergarden:shiverstone_emerald_ore",
+        "theabyss:block_emerald_variant",
+        "meadow:alpine_emerald_ore"
+    ]
+}

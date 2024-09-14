@@ -7,10 +7,12 @@ import {HarvestLevel} from "../ht_tweaker/harvestLevel";
 
 import {PolymorphMaterial} from "./PolymorphMaterial";
 import {IArmory} from "./IArmory";
+import {ExistingOre} from "./existingOre";
 
 export class Material extends BasicDataHolder<Material> {
     color: string = "#ffffff";
     ore: Ore;
+    existingOre: ExistingOre;
     level: number = 2; // 0 is Wood, 1 is Stone, 2 is Iron, 3 is Diamond, 4 is Netherite, 5 is Custom
     armory: IArmory<Armory | PolymorphMaterial>;
 
@@ -25,6 +27,11 @@ export class Material extends BasicDataHolder<Material> {
             this.ore.setJsContainer(this.kubeJsContainer);
             await this.ore.build(this);
         }
+        if (this.existingOre) {
+            this.existingOre.rootPath = this.rootPath;
+            this.existingOre.setJsContainer(this.kubeJsContainer);
+            await this.existingOre.build(this);
+        }
         if (this.armory) {
             await this.armory.withNamespace(this.internalNamespace).withName(this.internalName).withMaterial(this).setJsContainer(this.kubeJsContainer).build();
         }
@@ -33,6 +40,11 @@ export class Material extends BasicDataHolder<Material> {
     withOre(ore: Ore): Material {
         this.ore = ore;
         return this;
+    }
+
+    withExistingOre(existingOre: ExistingOre): Material {
+        this.existingOre = existingOre;
+        return this
     }
 
     withColor(color: string): Material {

@@ -42,12 +42,14 @@ export type ArmorVariant = BaseVariant & {
     knockbackResistanceMultiplier: number
 }
 
+export type AnyVariant = SwordVariant | ShieldVariant | BowVariant | CrossbowVariant | ToolVariant | ArmorVariant;
+
 
 export type ChromaKeyOperation = {
     colorToReplace: string,
     replaceWith: string,
     tolerance: number,
-    function: "linear" | "square" | "cubic",
+    function: "linear" | "squared" | "cubic",
 }
 
 

@@ -1,13 +1,13 @@
 import {OreFeatureConfiguration, VARIANTS, VARIANTS_BASE_TEXTURE_MAP} from "./oreFeatureConfiguration";
 import {OreFeaturePlacement} from "./oreFeaturePlacement";
-import {BasicDataHolder} from "../selfWritingJson";
 import {ensureFolderExists, idToDisplayName, kubejsAssetsPath, removeNamespace} from "../utils";
 import {combine} from "../textureGen/util";
 import {Material} from "./material";
 import {ItemTextureWrapper} from "../textureGen/itemTextureWrapper";
 import {WorkingTexture} from "../textureGen/workingTexture";
+import {ExistingOre} from "./existingOre";
 
-export class Ore extends BasicDataHolder<Ore>{
+export class Ore extends ExistingOre {
     config: OreFeatureConfiguration;
     placements: OreFeaturePlacement[] = [];
     isSmeltable: boolean = true;
@@ -18,23 +18,17 @@ export class Ore extends BasicDataHolder<Ore>{
     rawMaterialTexture = new ItemTextureWrapper().fromAssets("item/raw_iron").withTint(true);
     gemMaterialTexture = new ItemTextureWrapper().fromAssets("item/textures/diamond").withTint(true);
     ingotMaterialTexture = new ItemTextureWrapper().fromAssets("item/iron_ingot").withTint(true);
-    material: Material;
-    miningLevel: number = 2;
+
+    constructor() {
+        super("", "");
+    }
 
     async build(material: Material) {
-        this.material = material;
-        this.buildHarvestLevelTweaker();
+        super.build(material);
         this.buildKubeJS();
         this.buildDatapack();
         await this.buildAssets();
         return this;
-    }
-
-    private buildHarvestLevelTweaker() {
-        for (const variant of this.variants) {
-            const blockId = this.getBlockId(variant);
-            this.kubeJsContainer.harvestLevelTweaker.withBlock(blockId, this.miningLevel, "pickaxe");
-        }
     }
 
     private buildKubeJS() {
@@ -57,21 +51,6 @@ export class Ore extends BasicDataHolder<Ore>{
             const blockId = this.getBlockId(v);
             this.kubeJsContainer.registrar.registerOreBlock(blockId, idToDisplayName(blockId));
         })
-    }
-
-    private getBlockId(variant: VARIANTS) {
-        let processedVariant: string = variant;
-        if (variant === VARIANTS.STONE) {
-            processedVariant = "";
-        }
-        let blockId = `${processedVariant.toLowerCase()}_${this.internalName}_ore`;
-        blockId = blockId.replace("__", "_");
-        // @ts-ignore
-        if (blockId.startsWith("_")) {
-            blockId = blockId.substring(1);
-        }
-        blockId = `${this.internalNamespace}:${blockId}`;
-        return blockId;
     }
 
     private async buildAssets() {
@@ -173,16 +152,6 @@ export class Ore extends BasicDataHolder<Ore>{
 
     noIngot() {
         this.turnsIntoIngot = false;
-        return this;
-    }
-
-    withVariant(variant: VARIANTS) {
-        this.variants.push(variant);
-        return this;
-    }
-
-    withVariants(variants: VARIANTS[]) {
-        this.variants = [...this.variants, ...variants];
         return this;
     }
 

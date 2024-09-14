@@ -1,0 +1,13 @@
+{
+    "values": [
+        "minecraft:copper_ore",
+        "minecraft:deepslate_copper_ore",
+        "meadow:alpine_copper_ore",
+        "minecraft:iron_ore",
+        "minecraft:deepslate_iron_ore",
+        "undergarden:depthrock_iron_ore",
+        "undergarden:shiverstone_iron_ore",
+        "theabyss:block_iron_variant",
+        "meadow:alpine_iron_ore"
+    ]
+}

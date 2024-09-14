@@ -52,8 +52,26 @@ export class OreFeatureConfiguration extends SelfWritingJson {
 }
 
 export enum VARIANTS {
+    BLOCK = "BLOCK",
+    // Overworld
     STONE = "STONE",
-    DEEPSLATE = "DEEPSLATE"
+    DEEPSLATE = "DEEPSLATE",
+
+    // Blue Skies
+    EVERBRIGHT = "EVERBRIGHT",
+    EVERDAWN = "EVERDAWN",
+
+    // Nether
+    NETHER = "NETHER",
+
+    // Undergarden
+    DEPTHROCK = "DEPTHROCK",
+    SHIVERSTONE = "SHIVERSTONE",
+    TREMBLECRUST = "TREMBLECRUST",
+
+    // Meadow
+    ALPINE = "ALPINE",
+
 }
 
 export const VARIANTS_BASE_TEXTURE_MAP = {

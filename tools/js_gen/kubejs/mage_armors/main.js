@@ -22,7 +22,7 @@ ItemEvents.armorTierRegistry(event => {
 });
 
 StartupEvents.registry("item", e => {
-    const result = global.createGeckoArmorTier(e, {modId}, {tierId}, global.getMaterialTexturesObject({modId}, {tierId}), {helmName}, {chestName}, {legName}, {bootName}, {nameSuffix},
+    const result = global.createGeckoArmorTier(e, {modId}, {prefix}, {tierId}, global.getMaterialTexturesObject({modId}, {tierId}), {helmName}, {chestName}, {legName}, {bootName}, {nameSuffix},
     {modelPath}, {texturePath}, {modelPath}, {texturePath}, {modelPath}, {texturePath}, {modelPath}, {texturePath});
 });
 `
@@ -151,6 +151,7 @@ function createKubeJsScript() {
                 .replace("{repairIngredientTag}", `"${repairIngredientTag}"`)
                 .replace("{modId}", `"${modId}"`)
                 .replace("{modId}", `"${modId}"`)
+                .replace("{prefix}", `"${tierId}"`)
                 .replace("{helmName}", `"${helmetName}"`)
                 .replace("{chestName}", `"${chestplateName}"`)
                 .replace("{legName}", `"${leggingsName}"`)

@@ -23,16 +23,136 @@
     "zoomers_armory:neptunium_hoe": {
         "minecraft:mineable/hoe": "minecraft:diamond"
     },
-    "zoomers_armory:crystalline_pickaxe": {
-        "minecraft:mineable/pickaxe": "forgotten"
+    "blue_skies:bluebright_pickaxe": {
+        "minecraft:mineable/pickaxe": "minecraft:netherite"
     },
-    "zoomers_armory:crystalline_axe": {
-        "minecraft:mineable/axe": "forgotten"
+    "blue_skies:starlit_pickaxe": {
+        "minecraft:mineable/pickaxe": "minecraft:netherite"
     },
-    "zoomers_armory:crystalline_shovel": {
-        "minecraft:mineable/shovel": "forgotten"
+    "blue_skies:frostbright_pickaxe": {
+        "minecraft:mineable/pickaxe": "minecraft:netherite"
     },
-    "zoomers_armory:crystalline_hoe": {
-        "minecraft:mineable/hoe": "forgotten"
+    "blue_skies:lunar_pickaxe": {
+        "minecraft:mineable/pickaxe": "minecraft:netherite"
+    },
+    "blue_skies:dusk_pickaxe": {
+        "minecraft:mineable/pickaxe": "minecraft:netherite"
+    },
+    "blue_skies:maple_pickaxe": {
+        "minecraft:mineable/pickaxe": "minecraft:netherite"
+    },
+    "blue_skies:comet_pickaxe": {
+        "minecraft:mineable/pickaxe": "minecraft:netherite"
+    },
+    "blue_skies:turquoise_stone_pickaxe": {
+        "minecraft:mineable/pickaxe": "blue_skies_stone"
+    },
+    "blue_skies:lunar_stone_pickaxe": {
+        "minecraft:mineable/pickaxe": "blue_skies_stone"
+    },
+    "blue_skies:pyrope_pickaxe": {
+        "minecraft:mineable/pickaxe": "blue_skies_pyrope"
+    },
+    "blue_skies:aquite_pickaxe": {
+        "minecraft:mineable/pickaxe": "blue_skies_pyrope"
+    },
+    "blue_skies:diopside_pickaxe": {
+        "minecraft:mineable/pickaxe": "blue_skies_pyrope"
+    },
+    "blue_skies:charoite_pickaxe": {
+        "minecraft:mineable/pickaxe": "blue_skies_charoite"
+    },
+    "blue_skies:horizonite_pickaxe": {
+        "minecraft:mineable/pickaxe": "blue_skies_charoite"
+    },
+    "aether:skyroot_pickaxe": {
+        "minecraft:mineable/pickaxe": "aether_skyroot"
+    },
+    "aether:holystone_pickaxe": {
+        "minecraft:mineable/pickaxe": "aether_holystone"
+    },
+    "aether:zanite_pickaxe": {
+        "minecraft:mineable/pickaxe": "aether_zanite"
+    },
+    "aether:gravitite_pickaxe": {
+        "minecraft:mineable/pickaxe": "aether_zanite"
+    },
+    "aether:valkyrie_pickaxe": {
+        "minecraft:mineable/pickaxe": "aether_zanite"
+    },
+    "betternether:cincinnasite_pickaxe": {
+        "minecraft:mineable/pickaxe": "nether_cincinnasite"
+    },
+    "betternether:cincinnasite_pickaxe_diamond": {
+        "minecraft:mineable/pickaxe": "nether_cincinnasite"
+    },
+    "betternether:nether_ruby_pickaxe": {
+        "minecraft:mineable/pickaxe": "nether_ruby"
+    },
+    "betternether:flaming_ruby_pickaxe": {
+        "minecraft:mineable/pickaxe": "nether_ruby"
+    },
+    "minecraft:netherite_pickaxe": {
+        "minecraft:mineable/pickaxe": "nether_netherite"
+    },
+    "undergarden:cloggrum_pickaxe": {
+        "minecraft:mineable/pickaxe": "nether_netherite"
+    },
+    "undergarden:froststeel_pickaxe": {
+        "minecraft:mineable/pickaxe": "undergarden_froststeel"
+    },
+    "undergarden:utherium_pickaxe": {
+        "minecraft:mineable/pickaxe": "undergarden_utherium"
+    },
+    "call_of_yucutan:jade_pickaxe": {
+        "minecraft:mineable/pickaxe": "undergarden_utherium"
+    },
+    "undergarden:forgotten_pickaxe": {
+        "minecraft:mineable/pickaxe": "undergarden_forgotten"
+    },
+    "phantasm:crystalline_pickaxe": {
+        "minecraft:mineable/pickaxe": "end_crystal"
+    },
+    "enlightened_end:adamantite_pickaxe": {
+        "minecraft:mineable/pickaxe": "end_crystal"
+    },
+    "enderitemod:enderite_pickaxe": {
+        "minecraft:mineable/pickaxe": "end_enderite"
+    },
+    "callfromthedepth_:immemorialpickaxe": {
+        "minecraft:mineable/pickaxe": "depth_immemorial"
+    },
+    "zoomers_armory:soul_pickaxe": {
+        "minecraft:mineable/pickaxe": "abyss_fusion"
+    },
+    "zoomers_armory:soul_axe": {
+        "minecraft:mineable/axe": "abyss_fusion"
+    },
+    "zoomers_armory:soul_shovel": {
+        "minecraft:mineable/shovel": "abyss_fusion"
+    },
+    "zoomers_armory:soul_hoe": {
+        "minecraft:mineable/hoe": "abyss_fusion"
+    },
+    "theabyss:bone_pickaxe": {
+        "minecraft:mineable/pickaxe": "abyss_fusion"
+    },
+    "theabyss:fusion_pickaxe": {
+        "minecraft:mineable/pickaxe": "abyss_fusion"
+    },
+    "theabyss:aberythe_pickaxe": {
+        "minecraft:mineable/pickaxe": "abyss_aberythe"
+    },
+    "theabyss:incorythe_pickaxe": {
+        "minecraft:mineable/pickaxe": "abyss_incorythe"
+    },
+    "theabyss:phantom_pickaxe": {
+        "minecraft:mineable/pickaxe": "abyss_phantom"
+    },
+    "theabyss:garnite_pickaxe": {
+        "minecraft:mineable/pickaxe": "abyss_garnite"
+    },
+    "theabyss:unorithe_pick_axe": {
+        "minecraft:mineable/axe": "abyss_unorithe"
     }
 }

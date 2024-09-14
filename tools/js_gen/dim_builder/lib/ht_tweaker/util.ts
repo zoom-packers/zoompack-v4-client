@@ -42,7 +42,16 @@ export function addItemHarvestLevelOverride(overrides: any, itemId: string, leve
         "hoe": "minecraft:mineable/hoe"
     }
     const itemIdSplit = itemId.split("_");
-    const itemType = itemIdSplit[itemIdSplit.length - 1];
+    let itemType = itemIdSplit[itemIdSplit.length - 1];
+    if (itemId.includes("pickaxe")) {
+        itemType = "pickaxe";
+    } else if (itemId.includes("axe")) {
+        itemType = "axe";
+    } else if (itemId.includes("shovel")) {
+        itemType = "shovel";
+    } else if (itemId.includes("hoe")) {
+        itemType = "hoe";
+    }
     const itemMapping = map[itemType];
     if (!itemMapping) {
         throw new Error("Invalid item type");

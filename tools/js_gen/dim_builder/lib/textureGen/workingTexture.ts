@@ -58,15 +58,23 @@ export class WorkingTexture {
     }
 
     async toBitmap() {
-        const buffer = await this.toSharpTexture().raw().toBuffer();
-        return buffer;
+        const sharpTexture = this.toSharpTexture();
+        const buffer = await sharpTexture.raw().toBuffer();
+        const metadata = await sharpTexture.metadata();
+        const width = metadata.width;
+        const height = metadata.height;
+        return {
+            buffer,
+            width,
+            height
+        }
     }
 
     async chromaKey(h: number, s: number, v: number, tolerance: number, fun: "linear" | "squared" | "cubic") {
         const hOffset = this.adaptHueForChromaKeying(h);
         h += hOffset;
         const bitmap = await this.toBitmap();
-        const data = new Uint8Array(bitmap);
+        const data = new Uint8Array(bitmap.buffer);
         const result = new Uint8Array(data.length);
         for (let i = 0; i < data.length; i += 4) {
             const r = data[i];
@@ -90,7 +98,7 @@ export class WorkingTexture {
             }
 
             const newHSV = {h, s: hsv.s, v: hsv.v};
-            const newRGB = hsvToRgb(0, 0, newHSV.v);
+            const newRGB = hsvToRgb(newHSV.h, newHSV.s, newHSV.v);
             // const newA = hDiff < tolerance && sDiff < tolerance && vDiff < tolerance ? a : 0;
             const newA = hDiff < tolerance ? a : 0;
             result[i] = newRGB.r;
@@ -101,7 +109,7 @@ export class WorkingTexture {
         if (data.length < 32) {
             console.log("data length", data.length);
         }
-        const sharpImage = sharp(result, {raw: {width: Math.sqrt(data.length / 4), height: Math.sqrt(data.length / 4), channels: 4}});
+        const sharpImage = sharp(result, {raw: {width: bitmap.width, height: bitmap.height, channels: 4}});
         return sharpImage;
     }
 

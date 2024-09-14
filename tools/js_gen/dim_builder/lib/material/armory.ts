@@ -1,6 +1,6 @@
 import {BasicDataHolder} from "../selfWritingJson";
 import {Material} from "./material";
-import {capitalizeFirstLetter, ensureFolderExists, idToDisplayName, kubejsAssetsPath, log, rootPath} from "../utils";
+import {capitalizeFirstLetter, ensureFolderExists, idToDisplayName, kubejsAssetsPath, log} from "../utils";
 // @ts-ignore
 import fs from "fs";
 import {
@@ -17,7 +17,10 @@ import {combine} from "../textureGen/util";
 import {WorkingTexture} from "../textureGen/workingTexture";
 import {IArmory} from "./IArmory";
 import {PolymorphArmoryVariants} from "../armory/polymorphArmoryVariants";
-import {ArmorVariant, BaseVariant, ChromaKeyOperation, SwordVariant, ToolVariant} from "./ArmoryTypes";
+import {ArmorVariant, BaseVariant, ChromaKeyOperation, ToolVariant} from "./ArmoryTypes";
+import {CustomArmoryEntry, GeckoArmorArmoryEntry} from "./geckoArmorArmoryEntry";
+import path from "path";
+import {Config} from "../config";
 
 export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
     gear: string[] = [];
@@ -33,34 +36,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
     chromaKeyOperations: ChromaKeyOperation[] = [];
     material: Material;
     craftingMaterialInternal: string;
-
-    get id() {
-        return this.internalName;
-    }
-
-    get displayName() {
-        return idToDisplayName(this.internalName);
-    }
-
-    get craftingMaterial() {
-        if (this.craftingMaterialInternal) {
-            return this.craftingMaterialInternal;
-        }
-        return this.material.ore.getSmeltedMaterialId();
-    }
-
-    get color() {
-        return this.material.color;
-    }
-
-    get harvestLevel() {
-        return this.material.level;
-    }
-
-    shouldSkip(type: BaseVariant){
-        // @ts-ignore
-        return !this.gear.includes(type.id);
-    }
+    customArmoryEntries: CustomArmoryEntry[] = [];
 
     async build() {
         if (!this.material) {
@@ -83,7 +59,17 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         log(this, `Created model assets for <${capitalizeFirstLetter(material.internalName)}>`);
         await this.createTextureAssets();
         log(this, `Created texture assets for <${capitalizeFirstLetter(material.internalName)}>`);
+
+        log(this, `Building Custom Armory Entries for <${capitalizeFirstLetter(material.internalName)}>`);
+        for (const entry of this.customArmoryEntries) {
+            if (entry instanceof GeckoArmorArmoryEntry) {
+                await entry.build(path.join(kubejsAssetsPath(), this.internalNamespace), this.internalNamespace, material);
+            }
+        }
+        log(this, `Built Armory Pack for <${capitalizeFirstLetter(material.internalName)}>`);
     }
+
+    //#region Main Methods
 
     registerTier() {
         const material = this.material;
@@ -91,10 +77,10 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         const materialIdPart = material.internalName;
         const id = `${modId}:${materialIdPart}`;
         const slotProtections = [
-            this.baseArmor * PolymorphArmoryVariants.ARMORS.find(x => x.id === "boots").armorMultiplier,
-            this.baseArmor * PolymorphArmoryVariants.ARMORS.find(x => x.id === "leggings").armorMultiplier,
-            this.baseArmor * PolymorphArmoryVariants.ARMORS.find(x => x.id === "chestplate").armorMultiplier,
-            this.baseArmor * PolymorphArmoryVariants.ARMORS.find(x => x.id === "helmet").armorMultiplier,
+            this.baseArmor * PolymorphArmoryVariants.ARMORS.find(x => x.id === "boots").armorMultiplier * 2 / 15,
+            this.baseArmor * PolymorphArmoryVariants.ARMORS.find(x => x.id === "leggings").armorMultiplier * 5 / 15,
+            this.baseArmor * PolymorphArmoryVariants.ARMORS.find(x => x.id === "chestplate").armorMultiplier * 6 / 15,
+            this.baseArmor * PolymorphArmoryVariants.ARMORS.find(x => x.id === "helmet").armorMultiplier * 2 / 15,
         ]
         PolymorphArmoryVariants.TOOLS.forEach(toolType => {
             if (this.shouldSkip(toolType)) {
@@ -105,6 +91,26 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         });
         this.kubeJsContainer.registrar.registerToolTier(id, this.durability, this.harvestSpeed, this.baseDamage - 4, this.material.level, 9, this.craftingMaterial);
         this.kubeJsContainer.registrar.registerArmorTier(id, this.durability / 15, slotProtections, 9, this.craftingMaterial, this.baseArmorToughness, this.baseArmorKnockbackResistance);
+
+        for (const customArmoryEntry of this.customArmoryEntries) {
+            if (customArmoryEntry instanceof GeckoArmorArmoryEntry) {
+                // @ts-ignore
+                const helmet = customArmoryEntry.variants.find(x => x.slot === "head") as ArmorVariant;
+                // @ts-ignore
+                const chestplate = customArmoryEntry.variants.find(x => x.slot === "chest") as ArmorVariant;
+                // @ts-ignore
+                const leggings = customArmoryEntry.variants.find(x => x.slot === "legs") as ArmorVariant;
+                // @ts-ignore
+                const boots = customArmoryEntry.variants.find(x => x.slot === "feet") as ArmorVariant;
+                const slotProtections = [
+                    this.baseArmor * boots.armorMultiplier * 2 / 15,
+                    this.baseArmor * leggings.armorMultiplier * 5 / 15,
+                    this.baseArmor * chestplate.armorMultiplier * 6 / 15,
+                    this.baseArmor * helmet.armorMultiplier * 2 / 15,
+                ];
+                this.kubeJsContainer.registrar.registerArmorTier(`${modId}:${materialIdPart}_${customArmoryEntry.armorId}`, this.durability / 15, slotProtections, 9, this.craftingMaterial, this.baseArmorToughness, this.baseArmorKnockbackResistance);
+            }
+        }
     }
 
     registerItems() {
@@ -126,32 +132,50 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                 this.kubeJsContainer.registrar.registerArmoryItem(id, this.getTypeName(type), displayName, durability);
             }
         }
+
+        for (const customArmoryEntry of this.customArmoryEntries) {
+            if (customArmoryEntry instanceof GeckoArmorArmoryEntry) {
+                // @ts-ignore
+                const helmet = customArmoryEntry.variants.find(x => x.slot === "head") as ArmorVariant;
+                // @ts-ignore
+                const chestplate = customArmoryEntry.variants.find(x => x.slot === "chest") as ArmorVariant;
+                // @ts-ignore
+                const leggings = customArmoryEntry.variants.find(x => x.slot === "legs") as ArmorVariant;
+                // @ts-ignore
+                const boots = customArmoryEntry.variants.find(x => x.slot === "feet") as ArmorVariant;
+                this.kubeJsContainer.registrar.registerGeckoArmor(modId,
+                    `${material.internalName}_${customArmoryEntry.armorId}`,
+                    `${modId}:${material.internalName}_${customArmoryEntry.armorId}`,
+                    `${idToDisplayName(material.internalName)} ${helmet.displayName}`,
+                    `${idToDisplayName(material.internalName)} ${chestplate.displayName}`,
+                    `${idToDisplayName(material.internalName)} ${leggings.displayName}`,
+                    `${idToDisplayName(material.internalName)} ${boots.displayName}`,
+                    "",
+                    `${modId}:geo/${customArmoryEntry.armorId}.geo.json`,
+                    `${modId}:textures/models/armor/${material.internalName}_${customArmoryEntry.armorId}_armor.png`);
+            }
+        }
     }
 
     createCiaEntries() {
-        var ciaPath = getCiaPath();
         const cia = JSON.parse(fs.readFileSync(getCiaPath(), "utf8"));
 
         const materialIdPart = this.material.internalName;
-        for (const mergedType of PolymorphArmoryVariants.ALL) {
+        const allVariants = [...PolymorphArmoryVariants.ALL, ...this.customArmoryEntries.map(x => x.variants).flat()];
+        for (const mergedType of allVariants) {
             const id = `${this.internalNamespace}:${materialIdPart}_${mergedType.id}`;
             let entry: CiaEntry;
             // @ts-ignore
-            if (PolymorphArmoryVariants.SWORDS.includes(mergedType)) {
-                if (mergedType.id === "claws") {
-                    entry = this.createCiaWeapon(id, this.material, mergedType);
-                    // entry = this.createCiaUnarmedWeapon(id, this.material, mergedType);
-                } else {
-                    entry = this.createCiaWeapon(id, this.material, mergedType);
-                }
+            if (mergedType.type === "sword") {
+                entry = this.createCiaWeapon(id, this.material, mergedType);
                 // @ts-ignore
-            } else if (PolymorphArmoryVariants.SHIELDS.includes(mergedType)) {
+            } else if (mergedType.type === "shield") {
                 entry = this.createCiaShield(id, this.material, mergedType);
                 // @ts-ignore
-            } else if (PolymorphArmoryVariants.ARMORS.includes(mergedType)) {
+            } else if (mergedType.type === "armor") {
                 entry = this.createCiaArmor(id, this.material, mergedType);
                 // @ts-ignore
-            } else if (PolymorphArmoryVariants.TOOLS.includes(mergedType)) {
+            } else if (mergedType.type === "tool") {
                 entry = this.createCiaTool(id, this.material, mergedType);
             } else {
                 entry = this.createCiaProjectileWeapon(id, this.material, mergedType);
@@ -164,7 +188,8 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
     createRecipes() {
         const material = this.material;
         const materialIdPart = material.internalName;
-        for (const type of PolymorphArmoryVariants.ALL) {
+        const allVariants = [...PolymorphArmoryVariants.ALL, ...this.customArmoryEntries.map(x => x.variants).flat()];
+        for (const type of allVariants) {
             if (this.shouldSkip(type)) {
                 continue;
             }
@@ -188,7 +213,8 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
     }
 
     setPMMOLevels() {
-        for (const type of PolymorphArmoryVariants.ALL) {
+        const allVariants = [...PolymorphArmoryVariants.ALL, ...this.customArmoryEntries.map(x => x.variants).flat()];
+        for (const type of allVariants) {
             if (this.shouldSkip(type)) {
                 continue;
             }
@@ -199,6 +225,9 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
     }
 
     createModelAssets() {
+        if (Config.instance.skipAssets) {
+            return;
+        }
         const inputAssetsDir = `./mc/assets`;
         const inputModelsDir = `${inputAssetsDir}/_custom/models`;
         const outputAssetsDir = `${kubejsAssetsPath()}/${this.internalNamespace}`;
@@ -338,6 +367,9 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
     }
 
     async createTextureAssets() {
+        if (Config.instance.skipAssets) {
+            return;
+        }
         const inputAssetsDir = `./mc/assets`;
         const inputTexturesDir = `${inputAssetsDir}/_custom/textures`;
         const inputTexturesPaths = fs.readdirSync(inputTexturesDir).filter(path => path.endsWith(".png"));
@@ -434,6 +466,34 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         combinedArmorLayer2Texture.toFile(`${outputAssetsDir}/textures/models/armor/${material.internalName}_layer_2.png`);
     }
 
+    //#endregion
+
+    //#region Builder Methods
+
+    get id() {
+        return this.internalName;
+    }
+
+    get displayName() {
+        return idToDisplayName(this.internalName);
+    }
+
+    get craftingMaterial() {
+        if (this.craftingMaterialInternal) {
+            return this.craftingMaterialInternal;
+        }
+        return this.material.ore.getSmeltedMaterialId();
+    }
+
+    get color() {
+        return this.material.color;
+    }
+
+    get harvestLevel() {
+        return this.material.level;
+    }
+
+
     withId(id: string): Armory {
         this.internalName = id;
         return this;
@@ -447,7 +507,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         return this;
     }
 
-    withChromaKey(colorToReplace: string, tolerance: number, functionType: "linear" | "square" | "cubic", replaceWith: string): Armory {
+    withChromaKey(colorToReplace: string, tolerance: number, functionType: "linear" | "squared" | "cubic", replaceWith: string): Armory {
         this.chromaKeyOperations.push({colorToReplace, tolerance, function: functionType, replaceWith});
         return this;
     }
@@ -552,7 +612,34 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         return this;
     }
 
+    withCustomArmoryEntry(entry: CustomArmoryEntry): Armory {
+        this.customArmoryEntries.push(entry);
+        const variants = entry.variants;
+        for (const variant of variants) {
+            this.gear.push(variant.id);
+        }
+        return this;
+    }
+
+    //#endregion
+
+    //#region Helper Methods
+
+    shouldSkip(type: BaseVariant){
+        // @ts-ignore
+        return !this.gear.includes(type.id);
+    }
+
     private getTypeName(type: BaseVariant) {
+        if (type.id.includes("helmet")) {
+            return "helmet";
+        } else if (type.id.includes("chestplate")) {
+            return "chestplate";
+        } else if (type.id.includes("leggings")) {
+            return "leggings";
+        } else if (type.id.includes("boots")) {
+            return "boots";
+        }
         switch (type.type) {
             case "sword":
                 return "sword";
@@ -568,9 +655,8 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             case "armor":
                 const armorType = type as ArmorVariant;
                 return armorType.id;
-            default:
-                return type.id;
         }
+        return type.id;
     }
 
     private createCiaWeapon(itemId, material, weaponType) {
@@ -661,4 +747,6 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             ])
         }
     }
+
+    //#endregion
 }

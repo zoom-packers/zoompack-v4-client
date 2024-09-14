@@ -8,6 +8,10 @@ import {PackMcMeta} from "./packMcMeta";
 import {log} from "./utils";
 import {StructureDefinition} from "./worldgen/structureDefinition";
 
+import {VanillaModification} from "./vanillaModification";
+import {PickaxeLevelModification} from "./pickaxeLevelModification";
+import {HarvestLevel} from "./ht_tweaker/harvestLevel";
+
 export class ExpansionPack extends BasicDataHolder<ExpansionPack> {
     kubeMcMeta: PackMcMeta = new PackMcMeta(this.rootPath, this.internalNamespace);
     paxiPackMeta: PackMcMeta = new PackMcMeta(this.rootPath, this.internalNamespace).isPaxiPackMeta();
@@ -16,6 +20,8 @@ export class ExpansionPack extends BasicDataHolder<ExpansionPack> {
     biomes: Biome[] = [];
     materials: Material[] = [];
     structures: StructureDefinition[] = [];
+    vanillaModifications: VanillaModification[] = [];
+    harvestLevels: HarvestLevel[] = [];
 
     content = [[this.kubeMcMeta, this.paxiPackMeta], this.dimensions, this.dimensionTypes, this.biomes, this.materials, this.structures];
     buildableContent = [this.materials, this.structures];
@@ -23,6 +29,7 @@ export class ExpansionPack extends BasicDataHolder<ExpansionPack> {
     async build() {
         log(this, `Building expansion pack <${this.internalName}>`);
         this.kubeJsContainer = new KubeJSContainer().withNamespace(this.internalNamespace);
+        this.harvestLevels.map(level => this.kubeJsContainer.harvestLevelTweaker.withLevel(level));
         this.content.forEach(content => content.forEach(item => {
             item.withNamespace(this.internalNamespace);
             item.setJsContainer(this.kubeJsContainer)
@@ -38,6 +45,12 @@ export class ExpansionPack extends BasicDataHolder<ExpansionPack> {
                 item.afterBuild()
             }
         }));
+        for (const vanillaModification of this.vanillaModifications) {
+            if (vanillaModification instanceof PickaxeLevelModification) {
+                vanillaModification.setJsContainer(this.kubeJsContainer);
+                await vanillaModification.build();
+            }
+        }
         log(this, `Finished building expansion pack <${this.internalName}>`);
         return this;
     }
@@ -119,6 +132,30 @@ export class ExpansionPack extends BasicDataHolder<ExpansionPack> {
     withStructures(structures: StructureDefinition[]): ExpansionPack {
         for (const structure of structures) {
             this.withStructure(structure);
+        }
+        return this;
+    }
+
+    withVanillaModification(modification: VanillaModification): ExpansionPack {
+        this.vanillaModifications.push(modification);
+        return this;
+    }
+
+    withVanillaModifications(modifications: VanillaModification[]): ExpansionPack {
+        for (const modification of modifications) {
+            this.withVanillaModification(modification);
+        }
+        return this;
+    }
+
+    withHarvestLevel(level: HarvestLevel): ExpansionPack {
+        this.harvestLevels.push(level);
+        return this;
+    }
+
+    withHarvestLevels(levels: HarvestLevel[]): ExpansionPack {
+        for (const level of levels) {
+            this.withHarvestLevel(level);
         }
         return this;
     }
