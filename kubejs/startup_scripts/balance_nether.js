@@ -127,7 +127,7 @@ ItemEvents.toolTierRegistry(event => {
 });
 
 ItemEvents.armorTierRegistry(event => {
-    global.createArmorTier(event, "cincinnasite_diamond", 95, [10, 14, 17, 10], 50, 6, 0.036, "minecraft:diamond");
+    global.createArmorTier(event, "cincinnasite_diamond", 95, [10, 14, 17, 10], 50, 6, 0.032, "minecraft:diamond");
 });
 
 StartupEvents.registry("item", e => {

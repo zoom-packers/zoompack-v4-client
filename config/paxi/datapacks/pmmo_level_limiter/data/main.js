@@ -164,6 +164,7 @@ function modifyFullSets() {
     processor.modifySingleItem("zoomer_bows", "valkyrie_bow", "bow", 41);
 
     processor.modifySetRequirements("aether", "phoenix", 45, "armor");
+    processor.modifySetRequirements("lost_aether_content", "phoenix", 45);
     processor.modifySingleItem("aether", "phoenix_bow", "bow", 45);
 
     processor.modifySetRequirements("aether", "obsidian", 49, "armor");
