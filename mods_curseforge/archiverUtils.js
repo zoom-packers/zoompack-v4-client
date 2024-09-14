@@ -55,7 +55,7 @@ async function createZip(archiver, directory, type) {
         const filePath = path.join(directory, file);
         const stats = fs.lstatSync(filePath);
         if (stats.isDirectory()) {
-            archive.directory(filePath, {name: file});
+            archive.directory(filePath, file);
         } else {
             archive.file(filePath, {name: file});
         }
