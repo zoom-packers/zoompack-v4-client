@@ -46,11 +46,18 @@ function playDingSoundToAllPlayers(server) {
 }
 
 function announce_players(server, delta) {
-    let in_time = convert_ticks_to_human_readable_time(delta);
-    server.runCommandSilent(`/tellraw @a "${CLEAR_LAG_TEXT_PREFIX} Items on the ground will be cleared in ${in_time}"`);
     if(DING_TIMERS.includes(delta)){
         playDingSoundToAllPlayers(server);
     }
+}
+
+function shouldIAnnounce(timer){
+    for (let i = 0; i < ANNOUNCE_TIMERS.length; i++) {
+        if (timer === cleaningTime - ANNOUNCE_TIMERS[i]) {
+            return true;
+        }
+    }
+    return false;
 }
 
 ServerEvents.tick((event) => {
@@ -60,11 +67,12 @@ ServerEvents.tick((event) => {
         timer = 0;
         announce_next(event.server);
     } else {
-        for (let i = 0; i < ANNOUNCE_TIMERS.length; i++) {
-            if (timer === cleaningTime - ANNOUNCE_TIMERS[i]) {
-                announce_players(event.server, cleaningTime - timer);
-                break;
-            }
+        if(shouldIAnnounce(timer)){
+            let delta = cleaningTime - timer;
+            let in_time = convert_ticks_to_human_readable_time(delta);
+
+            announce_players(event.server, delta);
+            event.server.runCommandSilent(`/tellraw @a "${CLEAR_LAG_TEXT_PREFIX} Items on the ground will be cleared in ${in_time}"`);
         }
     }
 });
