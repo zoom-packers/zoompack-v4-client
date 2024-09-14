@@ -332,25 +332,12 @@
 		{
 			dependencies: ["633499C57C9CE4CF"]
 			id: "226B619AE352B9D3"
-			rewards: [
-				{
-					id: "0404DC4C60F167D8"
-					item: {
-						Count: 1
-						id: "easy_mob_farm:golden_lasso"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0163E3FBFEE31E82"
-					table_id: 4648757727491339053L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0163E3FBFEE31E82"
+				table_id: 4648757727491339053L
+				type: "loot"
+			}]
 			tasks: [{
 				count: 10L
 				id: "78810B8D6BED9558"
