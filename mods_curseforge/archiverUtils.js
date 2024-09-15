@@ -61,6 +61,18 @@ async function createZip(archiver, directory, type) {
         }
     }
     await archive.finalize();
+    let finished = false;
+    output.on('close', function() {
+        finished = true;
+    });
+    await new Promise((resolve, reject) => {
+        const interval = setInterval(() => {
+            if (finished) {
+                clearInterval(interval);
+                resolve();
+            }
+        }, 10);
+    });
     console.log(`Created zip at ${outputPath}/${archiveName} for ${type}`);
     return `${outputPath}/${archiveName}`;
 }
@@ -87,10 +99,24 @@ async function createKubeJSPack(archiver, dataPath, type) {
     archive.directory(dataPath, type === "datapack" ? "data" : "assets");
     archive.append(json, {name: "pack.mcmeta"});
     await archive.finalize();
+    let finished = false;
+    output.on('close', function() {
+        finished = true;
+    });
+    await new Promise((resolve, reject) => {
+        const interval = setInterval(() => {
+            if (finished) {
+                clearInterval(interval);
+                resolve();
+            }
+        }, 10);
+    });
     console.log(`Created kubejs datapack at ${filePath}`);
     return filePath;
 }
 
 module.exports = {
-    traverseDirectoryAndZipDatapacksAndResourcePacks
+    traverseDirectoryAndZipDatapacksAndResourcePacks,
+    createZip,
+    createKubeJSPack
 }
