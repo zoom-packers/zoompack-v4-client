@@ -59,7 +59,6 @@ export const existingOres = [
 
     new ExistingOre("minecraft", "emerald").withMiningLevel(2).withVariants([VARIANTS.STONE, VARIANTS.DEEPSLATE]),
     new ExistingOre("blue_skies", "emerald").withMiningLevel(2).withVariants([VARIANTS.EVERBRIGHT, VARIANTS.EVERDAWN]),
-    new ExistingOre("undergarden", "emerald").withMiningLevel(2).withVariants([VARIANTS.DEPTHROCK, VARIANTS.SHIVERSTONE]),
     new ExistingOre("theabyss", "emerald_variant").withMiningLevel(2).withVariants([VARIANTS.BLOCK]),
     new ExistingOre("meadow", "emerald").withMiningLevel(2).withVariants([VARIANTS.ALPINE]),
 
@@ -83,16 +82,16 @@ export const existingOres = [
     // The Nether Ores
     // Quartz, Cincinnasite, Nether Ruby, Ancient Debris
     new ExistingOre("minecraft", "quartz").withMiningLevel(tier_levels_nether_start).withVariants([VARIANTS.NETHER]),
-    new ExistingOre("betternether", "cincinnasite").withMiningLevel(tier_levels_nether_start).withVariants([VARIANTS.NETHER]),
-    new ExistingOre("betternether", "nether_ruby").withMiningLevel(tier_levels_nether_start + 1).withVariants([VARIANTS.NETHER]),
+    new ExistingOre("betternether", "cincinnasite").withMiningLevel(tier_levels_nether_start).withVariants([VARIANTS.STONE]),
+    new ExistingOre("betternether", "nether_ruby").withMiningLevel(tier_levels_nether_start + 1).withVariants([VARIANTS.STONE]),
     new ExistingOre("minecraft", "ancient_debris").withMiningLevel(tier_levels_nether_start + 2).withVariants([VARIANTS.BLOCK]),
 
     // Undergarden Ores
     // Cloggrum, Froststeel, Utherium, Regalium
     new ExistingOre("undergarden", "cloggrum").withMiningLevel(tier_levels_undergarden_start).withVariants([VARIANTS.DEPTHROCK, VARIANTS.SHIVERSTONE]),
-    new ExistingOre("undergarden", "froststeel").withMiningLevel(tier_levels_undergarden_start + 1).withVariants([VARIANTS.DEPTHROCK, VARIANTS.SHIVERSTONE]),
-    new ExistingOre("undergarden", "utherium").withMiningLevel(tier_levels_undergarden_start + 2).withVariants([VARIANTS.DEPTHROCK, VARIANTS.SHIVERSTONE]),
-    new ExistingOre("undergarden", "regalium").withMiningLevel(tier_levels_undergarden_start + 3).withVariants([VARIANTS.DEPTHROCK, VARIANTS.SHIVERSTONE, VARIANTS.TREMBLECRUST]),
+    new ExistingOre("undergarden", "froststeel").withMiningLevel(tier_levels_undergarden_start + 1).withVariants([VARIANTS.SHIVERSTONE]),
+    new ExistingOre("undergarden", "utherium").withMiningLevel(tier_levels_undergarden_start + 2).withVariants([VARIANTS.DEPTHROCK, VARIANTS.SHIVERSTONE, VARIANTS.TREMBLECRUST]),
+    new ExistingOre("undergarden", "regalium").withMiningLevel(tier_levels_undergarden_start + 3).withVariants([VARIANTS.DEPTHROCK, VARIANTS.SHIVERSTONE]),
     new ExistingOre("call_of_yucutan", "jade").withMiningLevel(tier_levels_undergarden_start + 2).withVariants([VARIANTS.STONE, VARIANTS.DEEPSLATE]),
 
     // End Ores

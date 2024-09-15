@@ -2,8 +2,8 @@
     "values": [
         "enlightened_end:irradium_ore",
         "enlightened_end:bismuth_ore",
-        "enderitemod:block_enderite_block",
-        "enderitemod:block_enderite_respawn_anchor",
+        "enderitemod:enderite_block",
+        "enderitemod:enderite_respawn_anchor",
         "enderitemod:enderite_ore",
         "enderitemod:cracked_enderite_ore"
     ]

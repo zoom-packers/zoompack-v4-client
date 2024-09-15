@@ -48,7 +48,7 @@ export class ExistingOre extends BasicDataHolder<ExistingOre> {
         }
         let blockId = `${processedVariant.toLowerCase()}_${this.internalName}_ore`;
         if (variant === VARIANTS.BLOCK) {
-            blockId = blockId.substring(0, blockId.length - 4);
+            blockId = `${this.internalName}`;
         }
         blockId = blockId.replace("__", "_");
         // @ts-ignore

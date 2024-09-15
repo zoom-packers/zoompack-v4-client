@@ -7,7 +7,7 @@
         "minecraft:deepslate_iron_ore",
         "undergarden:depthrock_iron_ore",
         "undergarden:shiverstone_iron_ore",
-        "theabyss:block_iron_variant",
+        "theabyss:iron_variant",
         "meadow:alpine_iron_ore"
     ]
 }
