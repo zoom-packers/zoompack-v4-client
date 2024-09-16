@@ -140,7 +140,7 @@
 				}
 				{
 					id: "33A4EE99CB308F74"
-					item: "additionallanterns:black_andesite_lantern"
+					item: "minecraft:lantern"
 					type: "item"
 				}
 			]
