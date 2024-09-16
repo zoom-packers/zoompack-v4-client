@@ -376,10 +376,6 @@ key_key.inventoryessentials.screen_bulk_drop:key.mouse.left:SHIFT
 key_key.inventoryessentials.drag_transfer:key.keyboard.left.shift
 key_key.smallships.ship_sail:key.keyboard.r
 key_key.nutritionalbalance.opennutrientgui:key.keyboard.n:SHIFT
-key_key.trashslot.toggle:key.keyboard.t
-key_key.trashslot.toggleLock:key.keyboard.t:SHIFT
-key_key.trashslot.delete:key.keyboard.delete
-key_key.trashslot.deleteAll:key.keyboard.delete:SHIFT
 key_keybind.sophisticatedstorage.sort:key.mouse.middle
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
