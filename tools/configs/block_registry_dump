@@ -4201,10 +4201,6 @@ callfromthedepth_:depth_portal
 callfromthedepth_:bonedsculkstone
 callfromthedepth_:stone_of_sacrificial
 callfromthedepth_:stalkertable
-torchmaster:megatorch
-torchmaster:dreadlamp
-torchmaster:feral_flare_lantern
-torchmaster:invisible_light
 ironfurnaces:iron_furnace
 ironfurnaces:gold_furnace
 ironfurnaces:diamond_furnace

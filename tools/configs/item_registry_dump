@@ -5672,10 +5672,6 @@ daily_rewards:skip_day
 daily_rewards:skipped_day
 daily_rewards:lock_day
 daily_rewards:unlock_day
-torchmaster:megatorch
-torchmaster:dreadlamp
-torchmaster:feral_flare_lantern
-torchmaster:frozen_pearl
 ironfurnaces:iron_furnace
 ironfurnaces:gold_furnace
 ironfurnaces:diamond_furnace
