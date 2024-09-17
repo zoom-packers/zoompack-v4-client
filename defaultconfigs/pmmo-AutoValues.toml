@@ -55,7 +55,7 @@
 		"ENTITY Xp Award Values Generate" = true
 		"RECEIVED_AS_TRADE Xp Award Values Generate" = true
 		"RIDING Xp Award Values Generate" = true
-		"SHIELD_BLOCK Xp Award Values Generate" = true
+		"SHIELD_BLOCK Xp Award Values Generate" = false
 		"SKILL_UP Xp Award Values Generate" = true
 		"SPRINTING Xp Award Values Generate" = true
 		"SUBMERGED Xp Award Values Generate" = true
@@ -138,7 +138,7 @@
 				taming = 1
 
 			[Auto_Values.Xp_Awards.Entities."SHIELD_BLOCK Default Xp Award"]
-				combat = 1
+				combat = 0
 
 			[Auto_Values.Xp_Awards.Entities."TAMING Default Xp Award"]
 				taming = 1
