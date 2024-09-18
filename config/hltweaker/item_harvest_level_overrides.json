@@ -113,9 +113,6 @@
     "phantasm:crystalline_pickaxe": {
         "minecraft:mineable/pickaxe": "end_crystal"
     },
-    "enlightened_end:adamantite_pickaxe": {
-        "minecraft:mineable/pickaxe": "end_crystal"
-    },
     "enderitemod:enderite_pickaxe": {
         "minecraft:mineable/pickaxe": "end_enderite"
     },
