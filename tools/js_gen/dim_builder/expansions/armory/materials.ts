@@ -7,7 +7,6 @@ import {
     item_callfromthedepth_,
     item_ender_dragon_loot_,
     item_enderitemod,
-    item_enlightened_end,
     item_minecraft,
     item_phantasm, item_theabyss,
     item_undergarden
@@ -377,22 +376,6 @@ const materials = [
         knockbackResistance: 0.07,
         pmmoLevel: 75,
         materialColor: "#1a1a1a",
-        skip: ["armor", "tools"]
-    },
-    {
-        item: item_enlightened_end.i_adamantite_ingot,
-        tier: tier_levels_end_start,
-        type: "smithing",
-        name: "adamantite",
-        smithing: item_enlightened_end.i_adamantite_smithing_template,
-        "base": "diamond",
-        base_damage: 163,
-        durability: 5200,
-        armor: 168,
-        armorToughness: 11.5,
-        knockbackResistance: 0.08,
-        pmmoLevel: 77,
-        materialColor: "#4a7dfd",
         skip: ["armor", "tools"]
     },
     {

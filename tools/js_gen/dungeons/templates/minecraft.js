@@ -357,15 +357,11 @@ const end = {
                 {
                     entity: entity_minecraft.e_endermite,
                     weight: 1
-                },
-                {
-                    entity: entities.entity_enlightened_end.e_fumesplat,
-                    weight: 1
-                },
+                }
             ],
             rare: [
                 {
-                    entity: entities.entity_enlightened_end.e_stalker,
+                    entity: entity_outer_end.e_entombed,
                     weight: 1
                 }
             ]
@@ -374,10 +370,6 @@ const end = {
             common: [
                 {
                     entity: entity_minecraft.e_endermite,
-                    weight: 1
-                },
-                {
-                    entity: entities.entity_enlightened_end.e_fumesplat,
                     weight: 1
                 },
                 {
@@ -391,7 +383,7 @@ const end = {
             ],
             rare: [
                 {
-                    entity: entities.entity_enlightened_end.e_stalker,
+                    entity: entity_outer_end.e_entombed,
                     weight: 1
                 }
             ]
@@ -400,10 +392,6 @@ const end = {
             common: [
                 {
                     entity: entity_outer_end.e_sinker,
-                    weight: 1
-                },
-                {
-                    entity: entities.entity_enlightened_end.e_stalker,
                     weight: 1
                 },
                 {

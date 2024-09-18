@@ -192,14 +192,6 @@ ItemEvents.toolTierRegistry(event => {
     tier.enchantmentValue = 9
     tier.repairIngredient = "ender_dragon_loot_:dragon_scale"
   });
-  event.add("zoomers_armory:adamantite", tier => {
-    tier.uses = 5200
-    tier.speed = 72
-    tier.attackDamageBonus = 159
-    tier.level = 18
-    tier.enchantmentValue = 9
-    tier.repairIngredient = "enlightened_end:adamantite_ingot"
-  });
   event.add("zoomers_armory:enderite", tier => {
     tier.uses = 5500
     tier.speed = 76
@@ -1171,42 +1163,6 @@ ItemEvents.armorTierRegistry(event => {
     tier.repairIngredient = "ender_dragon_loot_:dragon_scale" // #forge:ingots/iron'
     tier.toughness = 11 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:adamantite", tier => {
-    tier.durabilityMultiplier = 346.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [22.4,56,67.2,22.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "enlightened_end:adamantite_ingot" // #forge:ingots/iron'
-    tier.toughness = 11.5 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.08 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:adamantite_samurai_light", tier => {
-    tier.durabilityMultiplier = 346.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [22.4,56,67.2,22.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "enlightened_end:adamantite_ingot" // #forge:ingots/iron'
-    tier.toughness = 11.5 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.08 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:adamantite_samurai", tier => {
-    tier.durabilityMultiplier = 346.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [22.4,56,67.2,22.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "enlightened_end:adamantite_ingot" // #forge:ingots/iron'
-    tier.toughness = 11.5 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.08 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:adamantite_samurai_master", tier => {
-    tier.durabilityMultiplier = 346.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [22.4,56,67.2,22.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "enlightened_end:adamantite_ingot" // #forge:ingots/iron'
-    tier.toughness = 11.5 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.08 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enderite", tier => {
     tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]

@@ -8,7 +8,6 @@ import {
     item_call_of_yucutan,
     item_callfromthedepth_,
     item_enderitemod,
-    item_enlightened_end,
     item_minecraft,
     item_phantasm,
     item_theabyss,
@@ -98,9 +97,6 @@ export const existingOres = [
     // Crystal, Malachite, Irradium, Bismuth, Enderite Ore, Cracked Enderite Ore
     new ExistingOre("phantasm", "crystal_block").withMiningLevel(tier_levels_end_start).withVariants([VARIANTS.BLOCK]),
     new ExistingOre("phantasm", "void_crystal_block").withMiningLevel(tier_levels_end_start).withVariants([VARIANTS.BLOCK]),
-    new ExistingOre("enlightened_end", "malachite").withMiningLevel(tier_levels_end_start).withVariants([VARIANTS.STONE]),
-    new ExistingOre("enlightened_end", "irradium").withMiningLevel(tier_levels_end_start + 1).withVariants([VARIANTS.STONE]),
-    new ExistingOre("enlightened_end", "bismuth").withMiningLevel(tier_levels_end_start + 1).withVariants([VARIANTS.STONE]),
     new ExistingOre("enderitemod", "enderite_block").withMiningLevel(tier_levels_end_start + 1).withVariants([VARIANTS.BLOCK]),
     new ExistingOre("enderitemod", "enderite_respawn_anchor").withMiningLevel(tier_levels_end_start + 1).withVariants([VARIANTS.BLOCK]),
     new ExistingOre("enderitemod", "enderite").withMiningLevel(tier_levels_end_start + 1).withVariants([VARIANTS.STONE]),
@@ -167,7 +163,6 @@ export const pickaxeLevelModifications = [
     new PickaxeLevelModification(item_call_of_yucutan.i_jade_pickaxe, tier_levels_undergarden_start + 2),
 
     new PickaxeLevelModification(item_phantasm.i_crystalline_pickaxe, tier_levels_end_start),
-    new PickaxeLevelModification(item_enlightened_end.i_adamantite_pickaxe, tier_levels_end_start),
     new PickaxeLevelModification(item_enderitemod.i_enderite_pickaxe, tier_levels_end_start + 1),
 
     new PickaxeLevelModification(item_callfromthedepth_.i_immemorialpickaxe, tier_levels_call_from_the_depths_start),

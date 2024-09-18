@@ -348,30 +348,6 @@ export enum entity_obscure_api {
 
 
 
-export enum entity_enlightened_end {
-    e_projectile_helium_dart = "enlightened_end:projectile_helium_dart",
-e_projectile_xenon_dart = "enlightened_end:projectile_xenon_dart",
-e_projectile_flash_bomb = "enlightened_end:projectile_flash_bomb",
-e_floating_elevibloom = "enlightened_end:floating_elevibloom",
-e_ringling = "enlightened_end:ringling",
-e_fumesplat = "enlightened_end:fumesplat",
-e_gloop = "enlightened_end:gloop",
-e_bouncer = "enlightened_end:bouncer",
-e_stalker = "enlightened_end:stalker",
-e_void_leviathan = "enlightened_end:void_leviathan",
-e_activated_nuclear_bomb = "enlightened_end:activated_nuclear_bomb",
-e_falling_bounceling_nut = "enlightened_end:falling_bounceling_nut",
-e_disturbed_helium_gas = "enlightened_end:disturbed_helium_gas",
-e_disturbed_xenon_gas = "enlightened_end:disturbed_xenon_gas",
-e_falling_heliosand = "enlightened_end:falling_heliosand",
-e_ooze_bubble = "enlightened_end:ooze_bubble",
-e_radiator = "enlightened_end:radiator",
-e_eidolon = "enlightened_end:eidolon",
-
-}
-
-
-
 export enum entity_outer_end {
     e_purpur_golem = "outer_end:purpur_golem",
 e_himmelite = "outer_end:himmelite",
@@ -1141,8 +1117,8 @@ e_resistive_sentinel = "endlessbiomes:resistive_sentinel",
 
 
 
-export type entity = entity_minecraft | entity_betternether | entity_bclib | entity_supplementaries | entity_handcrafted | entity_tombstone | entity_trials | entity_mutantmonsters | entity_kobolds | entity_biomesoplenty | entity_lootr | entity_phantasm | entity_doggytalents | entity_insanelib | entity_mimic | entity_apotheosis | entity_sophisticatedbackpacks | entity_undergarden | entity_goblintraders | entity_obscure_api | entity_enlightened_end | entity_outer_end | entity_bosses_of_mass_destruction | entity_endermanoverhaul | entity_minecolonies | entity_perfectplushies | entity_man_of_many_planes | entity_irons_spellbooks | entity_callfromthedepth_ | entity_shetiphiancore | entity_origins | entity_theabyss | entity_mcwfurnitures | entity_mythicmounts | entity_aquaculture | entity_medievalorigins | entity_aquamirae | entity_blue_skies | entity_creeperoverhaul | entity_crittersandcompanions | entity_aether | entity_naturalist | entity_immersive_aircraft | entity_railways | entity_farmersdelight | entity_cuffed | entity_mokels_boss_mantyd | entity_doapi | entity_terraform | entity_vinery | entity_bakery | entity_brewery | entity_meadow | entity_beachparty | entity_smallships | entity_create | entity_call_of_yucutan | entity_blueprint | entity_apugli | entity_create_sa | entity_endlessbiomes;
+export type entity = entity_minecraft | entity_betternether | entity_bclib | entity_supplementaries | entity_handcrafted | entity_tombstone | entity_trials | entity_mutantmonsters | entity_kobolds | entity_biomesoplenty | entity_lootr | entity_phantasm | entity_doggytalents | entity_insanelib | entity_mimic | entity_apotheosis | entity_sophisticatedbackpacks | entity_undergarden | entity_goblintraders | entity_obscure_api | entity_outer_end | entity_bosses_of_mass_destruction | entity_endermanoverhaul | entity_minecolonies | entity_perfectplushies | entity_man_of_many_planes | entity_irons_spellbooks | entity_callfromthedepth_ | entity_shetiphiancore | entity_origins | entity_theabyss | entity_mcwfurnitures | entity_mythicmounts | entity_aquaculture | entity_medievalorigins | entity_aquamirae | entity_blue_skies | entity_creeperoverhaul | entity_crittersandcompanions | entity_aether | entity_naturalist | entity_immersive_aircraft | entity_railways | entity_farmersdelight | entity_cuffed | entity_mokels_boss_mantyd | entity_doapi | entity_terraform | entity_vinery | entity_bakery | entity_brewery | entity_meadow | entity_beachparty | entity_smallships | entity_create | entity_call_of_yucutan | entity_blueprint | entity_apugli | entity_create_sa | entity_endlessbiomes;
 
 module.exports = {
-    entity_minecraft, entity_betternether, entity_bclib, entity_supplementaries, entity_handcrafted, entity_tombstone, entity_trials, entity_mutantmonsters, entity_kobolds, entity_biomesoplenty, entity_lootr, entity_phantasm, entity_doggytalents, entity_insanelib, entity_mimic, entity_apotheosis, entity_sophisticatedbackpacks, entity_undergarden, entity_goblintraders, entity_obscure_api, entity_enlightened_end, entity_outer_end, entity_bosses_of_mass_destruction, entity_endermanoverhaul, entity_minecolonies, entity_perfectplushies, entity_man_of_many_planes, entity_irons_spellbooks, entity_callfromthedepth_, entity_shetiphiancore, entity_origins, entity_theabyss, entity_mcwfurnitures, entity_mythicmounts, entity_aquaculture, entity_medievalorigins, entity_aquamirae, entity_blue_skies, entity_creeperoverhaul, entity_crittersandcompanions, entity_aether, entity_naturalist, entity_immersive_aircraft, entity_railways, entity_farmersdelight, entity_cuffed, entity_mokels_boss_mantyd, entity_doapi, entity_terraform, entity_vinery, entity_bakery, entity_brewery, entity_meadow, entity_beachparty, entity_smallships, entity_create, entity_call_of_yucutan, entity_blueprint, entity_apugli, entity_create_sa, entity_endlessbiomes
+    entity_minecraft, entity_betternether, entity_bclib, entity_supplementaries, entity_handcrafted, entity_tombstone, entity_trials, entity_mutantmonsters, entity_kobolds, entity_biomesoplenty, entity_lootr, entity_phantasm, entity_doggytalents, entity_insanelib, entity_mimic, entity_apotheosis, entity_sophisticatedbackpacks, entity_undergarden, entity_goblintraders, entity_obscure_api, entity_outer_end, entity_bosses_of_mass_destruction, entity_endermanoverhaul, entity_minecolonies, entity_perfectplushies, entity_man_of_many_planes, entity_irons_spellbooks, entity_callfromthedepth_, entity_shetiphiancore, entity_origins, entity_theabyss, entity_mcwfurnitures, entity_mythicmounts, entity_aquaculture, entity_medievalorigins, entity_aquamirae, entity_blue_skies, entity_creeperoverhaul, entity_crittersandcompanions, entity_aether, entity_naturalist, entity_immersive_aircraft, entity_railways, entity_farmersdelight, entity_cuffed, entity_mokels_boss_mantyd, entity_doapi, entity_terraform, entity_vinery, entity_bakery, entity_brewery, entity_meadow, entity_beachparty, entity_smallships, entity_create, entity_call_of_yucutan, entity_blueprint, entity_apugli, entity_create_sa, entity_endlessbiomes
 }
