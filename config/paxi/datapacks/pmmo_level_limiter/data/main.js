@@ -273,11 +273,6 @@ function modifyFullSets() {
     processor.modifySetRequirements("irons_spellbooks", "plagued_tier_6", 73, "armor");
     modifyOffhandForTier(6, 73)
 
-    processor.modifySingleItem("enlightened_end", "dashing_leggings_leggings", "leggings", 75);
-    processor.modifySingleItem("enlightened_end", "boost_boots_boots", "boots", 75);
-    processor.modifySetRequirements("enlightened_end", "adamantite", 76, ["sword", "axe", "pickaxe", "shovel", "hoe"], "{set_name}_{item}");
-    processor.modifySetRequirements("enlightened_end", "adamantite_armor", 76, "armor");
-
     processor.modifySetRequirements("enderitemod", "enderite", 79, "armor");
 
     // Deeper darker
