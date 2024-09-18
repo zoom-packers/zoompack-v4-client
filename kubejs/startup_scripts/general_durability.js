@@ -366,39 +366,6 @@ ItemEvents.modification((event) => {
     event.modify("ender_dragon_loot_:dragon_armor_boots", item => {
         item.maxDamage = 3600;
     });
-    event.modify("enlightened_end:dashing_leggings_leggings", item => {
-        item.maxDamage = 5200;
-    });
-    event.modify("enlightened_end:boost_boots_boots", item => {
-        item.maxDamage = 5200;
-    });
-    event.modify("enlightened_end:adamantite_sword", item => {
-        item.maxDamage = 5200;
-    });
-    event.modify("enlightened_end:adamantite_axe", item => {
-        item.maxDamage = 5200;
-    });
-    event.modify("enlightened_end:adamantite_pickaxe", item => {
-        item.maxDamage = 5200;
-    });
-    event.modify("enlightened_end:adamantite_shovel", item => {
-        item.maxDamage = 5200;
-    });
-    event.modify("enlightened_end:adamantite_hoe", item => {
-        item.maxDamage = 5200;
-    });
-    event.modify("enlightened_end:adamantite_armor_helmet", item => {
-        item.maxDamage = 3400;
-    });
-    event.modify("enlightened_end:adamantite_armor_chestplate", item => {
-        item.maxDamage = 4930;
-    });
-    event.modify("enlightened_end:adamantite_armor_leggings", item => {
-        item.maxDamage = 4590;
-    });
-    event.modify("enlightened_end:adamantite_armor_boots", item => {
-        item.maxDamage = 4080;
-    });
     event.modify("enderitemod:enderite_sword", item => {
         item.maxDamage = 5500;
     });
