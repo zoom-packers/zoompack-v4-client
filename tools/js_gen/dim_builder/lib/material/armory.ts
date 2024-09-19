@@ -195,8 +195,8 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             }
             const id = `${this.internalNamespace}:${materialIdPart}_${type.id}`;
             if (this.gearUsesSmithingTemplate) {
-                const baseItemId = this.smithingFromTier + "_" + type.id;
-                const enhanceItemId = this.material.ore.getSmeltedMaterialId()
+                const baseItemId = `${this.internalNamespace}:${this.smithingFromTier}_${type.id}`;
+                const enhanceItemId = this.craftingMaterial;
                 this.kubeJsContainer.recipes.smithingRecipe(id, baseItemId, enhanceItemId);
             }
             else {

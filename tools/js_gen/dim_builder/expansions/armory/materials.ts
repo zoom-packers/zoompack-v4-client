@@ -216,7 +216,7 @@ const materials = [
         type: "smithing",
         name: "cincinnasite_diamond",
         smithing: item_betternether.i_cincinnasite_diamond_upgrade_smithing_template,
-        "base": "cincinnasite",
+        base: "cincinnasite",
         base_damage: 18,
         durability: 2800,
         armor: 51,
@@ -246,7 +246,7 @@ const materials = [
         type: "smithing",
         name: "flaming_ruby",
         smithing: item_betternether.i_flaming_ruby_upgrade_smithing_template,
-        "base": "nether_ruby",
+        base: "nether_ruby",
         base_damage: 25,
         durability: 3025,
         armor: 59,
@@ -322,7 +322,7 @@ const materials = [
         type: "smithing",
         name: "forgotten",
         smithing: item_undergarden.i_forgotten_upgrade_smithing_template,
-        "base": "utherium",
+        base: "utherium",
         base_damage: 91,
         durability: 4100,
         armor: 95,
@@ -368,7 +368,7 @@ const materials = [
         type: "smithing",
         name: "dragon",
         smithing: item_ender_dragon_loot_.i_dragon_upgrade_template,
-        "base": "netherite",
+        base: "netherite",
         base_damage: 133,
         durability: 4800,
         armor: 120,
@@ -384,7 +384,7 @@ const materials = [
         type: "smithing",
         name: "enderite",
         smithing: item_enderitemod.i_enderite_upgrade_smithing_template,
-        "base": "netherite",
+        base: "netherite",
         base_damage: 192,
         durability: 5500,
         armor: 212,
@@ -416,7 +416,7 @@ const materials = [
         type: "smithing",
         name: "soul",
         smithing: item_callfromthedepth_.i_immemorialupgradesmithingtemplate,
-        "base": "depth",
+        base: "depth",
         base_damage: 226,
         durability: 6000,
         armor: 260,
@@ -571,7 +571,10 @@ const materials = [
 ]
 
 
-function convertMaterial(name: string, color: string, level: number, pmmoLevel: number, craftingMaterial: string, toolSpeed: number, baseDamage: number, durability: number, armor: number, armorToughness: number, knockbackResistance: number, skip: string[] = [], smithingMaterial: string|undefined = undefined) {
+function convertMaterial(name: string, color: string, level: number, pmmoLevel: number, craftingMaterial: string,
+                         toolSpeed: number, baseDamage: number, durability: number, armor: number,
+                         armorToughness: number, knockbackResistance: number,
+                         skip: string[] = [], smithingMaterial: string|undefined = undefined) {
     const material = new Material()
         .withName(name)
         .withColor(color)
@@ -612,5 +615,8 @@ export const armoryMaterials = materials.map(material => {
     if (material.skip && material.skip.includes("sword")) {
         return
     }
-    return convertMaterial(material.name, material.materialColor, material.tier, material.pmmoLevel, material.item, material.tier * 4, material.base_damage, material.durability, material.armor, material.armorToughness, material.knockbackResistance, material.skip)
+    return convertMaterial(material.name, material.materialColor, material.tier, material.pmmoLevel,
+        material.item, material.tier * 4, material.base_damage, material.durability, material.armor,
+        material.armorToughness, material.knockbackResistance, material.skip,
+        material.type === "smithing" ? material.base : undefined)
 }).filter(material => material !== undefined);
