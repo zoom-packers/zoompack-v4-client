@@ -416,7 +416,7 @@ const materials = [
         type: "smithing",
         name: "soul",
         smithing: item_callfromthedepth_.i_immemorialupgradesmithingtemplate,
-        base: "depth",
+        base: "immemorial",
         base_damage: 226,
         durability: 6000,
         armor: 260,
@@ -424,7 +424,7 @@ const materials = [
         knockbackResistance: 0.11,
         pmmoLevel: 88,
         materialColor: "#2ea4ad",
-        skip: ["bow"]
+        skip: ["bow", "tools", "armor"]
     },
 
     // Abyss

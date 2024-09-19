@@ -21,6 +21,7 @@ import {ArmorVariant, BaseVariant, ChromaKeyOperation, ToolVariant} from "./Armo
 import {CustomArmoryEntry, GeckoArmorArmoryEntry} from "./geckoArmorArmoryEntry";
 import path from "path";
 import {Config} from "../config";
+import {item_minecraft} from "../../../typedefs/item_typedefs";
 
 export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
     gear: string[] = [];

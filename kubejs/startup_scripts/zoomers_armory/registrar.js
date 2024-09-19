@@ -2319,14 +2319,6 @@ e.create("zoomers_armory:soul_tower", "shield").displayName("Soul Tower").maxDam
 e.create("zoomers_armory:soul_shortbow", "bow").displayName("Soul Shortbow").maxDamage(7200)
 e.create("zoomers_armory:soul_longbow", "bow").displayName("Soul Longbow").maxDamage(4800)
 e.create("zoomers_armory:soul_crossbow", "crossbow").displayName("Soul Crossbow").maxDamage(4500)
-e.create("zoomers_armory:soul_pickaxe", "pickaxe").displayName("Soul Pickaxe").tier("zoomers_armory:soul")
-e.create("zoomers_armory:soul_axe", "axe").displayName("Soul Axe").tier("zoomers_armory:soul")
-e.create("zoomers_armory:soul_shovel", "shovel").displayName("Soul Shovel").tier("zoomers_armory:soul")
-e.create("zoomers_armory:soul_hoe", "hoe").displayName("Soul Hoe").tier("zoomers_armory:soul")
-e.create("zoomers_armory:soul_helmet", "helmet").displayName("Soul Helmet").tier("zoomers_armory:soul")
-e.create("zoomers_armory:soul_chestplate", "chestplate").displayName("Soul Chestplate").tier("zoomers_armory:soul")
-e.create("zoomers_armory:soul_leggings", "leggings").displayName("Soul Leggings").tier("zoomers_armory:soul")
-e.create("zoomers_armory:soul_boots", "boots").displayName("Soul Boots").tier("zoomers_armory:soul")
 global.createGeckoArmorTier(e, "zoomers_armory", "soul_samurai_light", "zoomers_armory:soul_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:soul_samurai_light"), "Soul Samurai Light Helmet", "Soul Samurai Light Chestplate", "Soul Samurai Light Leggings", "Soul Samurai Light Boots", "",
     "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "soul_samurai", "zoomers_armory:soul_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:soul_samurai"), "Soul Samurai Helmet", "Soul Samurai Chestplate", "Soul Samurai Leggings", "Soul Samurai Boots", "",
