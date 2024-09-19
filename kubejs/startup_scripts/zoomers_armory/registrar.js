@@ -2251,31 +2251,6 @@ global.createGeckoArmorTier(e, "zoomers_armory", "dragon_samurai", "zoomers_armo
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "dragon_samurai_master", "zoomers_armory:dragon_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:dragon_samurai_master"), "Dragon Samurai Master Helmet", "Dragon Samurai Master Chestplate", "Dragon Samurai Master Leggings", "Dragon Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_master_armor.png");
-e.create("zoomers_armory:adamantite_claws", "sword").displayName("Adamantite Claws").maxDamage(6760)
-e.create("zoomers_armory:adamantite_dagger", "sword").displayName("Adamantite Dagger").maxDamage(7800)
-e.create("zoomers_armory:adamantite_shortsword", "sword").displayName("Adamantite Shortsword").maxDamage(6240)
-e.create("zoomers_armory:adamantite_heavysword", "sword").displayName("Adamantite Heavysword").maxDamage(4160)
-e.create("zoomers_armory:adamantite_cutlass", "sword").displayName("Adamantite Cutlass").maxDamage(6240)
-e.create("zoomers_armory:adamantite_mace", "sword").displayName("Adamantite Mace").maxDamage(6240)
-e.create("zoomers_armory:adamantite_heavymace", "sword").displayName("Adamantite Heavymace").maxDamage(4160)
-e.create("zoomers_armory:adamantite_warhammer", "sword").displayName("Adamantite Warhammer").maxDamage(3639.9999999999995)
-e.create("zoomers_armory:adamantite_battleaxe", "sword").displayName("Adamantite Battleaxe").maxDamage(4160)
-e.create("zoomers_armory:adamantite_spear", "sword").displayName("Adamantite Spear").maxDamage(6240)
-e.create("zoomers_armory:adamantite_halberd", "sword").displayName("Adamantite Halberd").maxDamage(4420)
-e.create("zoomers_armory:adamantite_scythe", "sword").displayName("Adamantite Scythe").maxDamage(4160)
-e.create("zoomers_armory:adamantite_buckler", "shield").displayName("Adamantite Buckler").maxDamage(4680)
-e.create("zoomers_armory:adamantite_heater", "shield").displayName("Adamantite Heater").maxDamage(6240)
-e.create("zoomers_armory:adamantite_tower", "shield").displayName("Adamantite Tower").maxDamage(7800)
-e.create("zoomers_armory:adamantite_shortbow", "bow").displayName("Adamantite Shortbow").maxDamage(6240)
-e.create("zoomers_armory:adamantite_bow", "bow").displayName("Adamantite Bow").maxDamage(5200)
-e.create("zoomers_armory:adamantite_longbow", "bow").displayName("Adamantite Longbow").maxDamage(4160)
-e.create("zoomers_armory:adamantite_crossbow", "crossbow").displayName("Adamantite Crossbow").maxDamage(3900)
-global.createGeckoArmorTier(e, "zoomers_armory", "adamantite_samurai_light", "zoomers_armory:adamantite_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:adamantite_samurai_light"), "Adamantite Samurai Light Helmet", "Adamantite Samurai Light Chestplate", "Adamantite Samurai Light Leggings", "Adamantite Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/adamantite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/adamantite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/adamantite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/adamantite_samurai_light_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "adamantite_samurai", "zoomers_armory:adamantite_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:adamantite_samurai"), "Adamantite Samurai Helmet", "Adamantite Samurai Chestplate", "Adamantite Samurai Leggings", "Adamantite Samurai Boots", "",
-    "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/adamantite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/adamantite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/adamantite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/adamantite_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "adamantite_samurai_master", "zoomers_armory:adamantite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:adamantite_samurai_master"), "Adamantite Samurai Master Helmet", "Adamantite Samurai Master Chestplate", "Adamantite Samurai Master Leggings", "Adamantite Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/adamantite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/adamantite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/adamantite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/adamantite_samurai_master_armor.png");
 e.create("zoomers_armory:enderite_claws", "sword").displayName("Enderite Claws").maxDamage(7150)
 e.create("zoomers_armory:enderite_dagger", "sword").displayName("Enderite Dagger").maxDamage(8250)
 e.create("zoomers_armory:enderite_shortsword", "sword").displayName("Enderite Shortsword").maxDamage(6600)

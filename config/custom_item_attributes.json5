@@ -35618,7 +35618,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35644,7 +35644,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35670,7 +35670,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35696,7 +35696,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35722,7 +35722,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35748,7 +35748,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35774,7 +35774,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35800,7 +35800,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35826,7 +35826,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35852,7 +35852,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35878,7 +35878,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35904,7 +35904,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35930,7 +35930,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35956,7 +35956,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35982,7 +35982,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36008,7 +36008,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36034,7 +36034,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36060,7 +36060,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36086,7 +36086,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36112,7 +36112,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36138,7 +36138,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36164,7 +36164,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36190,7 +36190,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36216,7 +36216,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36242,7 +36242,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -38092,7 +38092,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -38118,7 +38118,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -38144,7 +38144,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -38170,7 +38170,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -38732,7 +38732,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -38763,7 +38763,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -38794,7 +38794,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -38825,7 +38825,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
