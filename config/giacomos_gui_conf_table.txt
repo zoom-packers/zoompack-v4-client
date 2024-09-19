@@ -19,6 +19,7 @@ minecraft:fps_graph=0.0,0.0,1.0,1.0,0.0
 minecraft:helmet=0.0,0.0,1.0,1.0,0.0
 inventoryhud:armor=0.0,0.0,1.0,1.0,0.0
 minecraft:debug_text=0.0,0.0,1.0,1.0,0.0
+irons_spellbooks:mana_overlay=6.0,147.75,1.0,1.0,0.0
 supplementaries:quiver_overlay=0.0,0.0,1.0,1.0,0.0
 aether:aether_portal_overlay=0.0,0.0,1.0,1.0,0.0
 minecraft:player_health=13.75,292.0,1.0,1.0,0.0
