@@ -1,0 +1,10 @@
+{
+    "requirements": {
+        "PLACE": {
+            "endurance": 60
+        },
+        "INTERACT": {
+            "endurance": 60
+        }
+    }
+}

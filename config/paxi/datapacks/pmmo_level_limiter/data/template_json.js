@@ -116,6 +116,19 @@ function place(skill, value) {
     }
 }
 
+function block(skill, value) {
+    return {
+        requirements: {
+            PLACE: {
+                [skill]: value
+            },
+            INTERACT: {
+                [skill]: value
+            }
+        }
+    }
+}
+
 module.exports = {
     armor,
     sword,
@@ -125,5 +138,6 @@ module.exports = {
     use,
     generalUse,
     place,
-    offhand
+    offhand,
+    block
 }

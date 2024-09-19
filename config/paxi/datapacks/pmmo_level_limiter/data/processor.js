@@ -50,6 +50,15 @@ function modifySingleItem(modId, modItem, type, level) {
     writeJson(template, filePath);
 }
 
+function modifySingleBlock(modId, modBlock, skill, level) {
+    let folder = `./${modId}/pmmo/blocks`;
+    let filePath = `${folder}/${modBlock}.json`;
+    checkFileExists(filePath, modId, modBlock, skill, level);
+    const template = templateFormatter.block(skill, level)
+    ensureFolderExists(folder)
+    writeJson(template, filePath);
+}
+
 function modifySingleItemForMount(modId, modItem, skill, level) {
     let folder = `./${modId}/pmmo/items`;
     let filePath = `${folder}/${modItem}.json`;
@@ -140,6 +149,7 @@ function ensureFolderExists(path) {
 module.exports = {
     modifySetRequirements,
     modifySingleItem,
+    modifySingleBlock,
     modifyEntityMountable,
     modifySingleItemForMount,
     modifyGeneralUseItemRequirements,

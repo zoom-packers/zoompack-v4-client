@@ -388,6 +388,12 @@ function modifySophisticatedBackpacks() {
     processor.modifyGeneralUseItemRequirements("sophisticatedbackpacks", "gold_backpack", "endurance", 40);
     processor.modifyGeneralUseItemRequirements("sophisticatedbackpacks", "diamond_backpack", "endurance", 60);
     processor.modifyGeneralUseItemRequirements("sophisticatedbackpacks", "netherite_backpack", "endurance", 80);
+    processor.modifySingleBlock("sophisticatedbackpacks", "backpack", "endurance", 5);
+    processor.modifySingleBlock("sophisticatedbackpacks", "copper_backpack", "endurance", 10);
+    processor.modifySingleBlock("sophisticatedbackpacks", "iron_backpack", "endurance", 20);
+    processor.modifySingleBlock("sophisticatedbackpacks", "gold_backpack", "endurance", 40);
+    processor.modifySingleBlock("sophisticatedbackpacks", "diamond_backpack", "endurance", 60);
+    processor.modifySingleBlock("sophisticatedbackpacks", "netherite_backpack", "endurance", 80);
 }
 
 function modifySophisticatedStorage() {
