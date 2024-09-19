@@ -1,7 +1,6 @@
 {
     "values": [
         "phantasm:crystal_block",
-        "phantasm:void_crystal_block",
-        "enlightened_end:malachite_ore"
+        "phantasm:void_crystal_block"
     ]
 }

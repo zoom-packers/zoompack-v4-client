@@ -293,7 +293,6 @@ new_sword_config("outer_end","sinker_dagger", 95, full_id=True)
 
 new_sword_config("phantasm","crystalline", 85)
 new_sword_config("ender_dragon_loot_","dragon", 100, attack_speed=0.4)
-new_sword_config("enlightened_end","adamantite", 120, attack_speed=0.2)
 new_sword_config("enderitemod","enderite", 140)
 
 new_armor_piece_config("endlessbiomes", "void_touched_leggings_leggings", 17, 9, -0.34, actual_piece="leggings")
@@ -304,9 +303,6 @@ new_armor_set_config("outer_end", "cobalt_crystal", [15,21,17,15], 8, -0.04)
 new_armor_set_config("outer_end", "mint_crystal", [15,21,17,15], 8, -0.04)
 
 new_armor_set_config("ender_dragon_loot_", "dragon_armor", [18,28,23,18], 6.5, -0.13)
-new_armor_set_config("enlightened_end", "adamantite_armor", [31,46,40,31], 7.5, -0.12, speed_bonus=[0.03, 0.05, 0.04, 0.03])
-new_armor_piece_config("enlightened_end", "dashing_leggings_leggings", 44, 11.5, 0.08, actual_piece="leggings")
-new_armor_piece_config("enlightened_end", "boost_boots_boots", 33, 11.5, 0.08, actual_piece="boots")
 new_armor_set_config("enderitemod", "enderite", [40,59,49,40], 8, -0.01)
 
 # call from the depths
@@ -433,10 +429,6 @@ new_kjs_config_durability_tools("phantasm", "crystalline", 4600)
 new_kjs_config_durability_tools("ender_dragon_loot_", "dragon", 4800)
 new_kjs_config_durability("ender_dragon_loot_", "dragon_picaxe", 4800)
 new_kjs_config_durability_armor_set("ender_dragon_loot_", "dragon_armor", get_durability_list_from_helmet(3000))
-new_kjs_config_durability("enlightened_end", "dashing_leggings_leggings", 5200)
-new_kjs_config_durability("enlightened_end", "boost_boots_boots", 5200)
-new_kjs_config_durability_tools("enlightened_end", "adamantite", 5200)
-new_kjs_config_durability_armor_set("enlightened_end", "adamantite_armor", get_durability_list_from_helmet(3400))
 new_kjs_config_durability_material("enderitemod", "enderite", 5500, get_durability_list_from_helmet(3890))
 
 # deeper

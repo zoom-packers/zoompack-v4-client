@@ -203,7 +203,6 @@ key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt
 key_key.sethorse.desc:key.keyboard.v:ALT
 key_key.callhorse.desc:key.keyboard.v
 key_key.showstats.desc:key.keyboard.v:CONTROL
-key_key.enlightened_end.dashing_leggings_ability:key.keyboard.g
 key_merchantmarkers.key.showMarkers:key.keyboard.left.alt
 key_key.azurelib.reload:key.keyboard.unknown
 key_key.azurelib.scope:key.keyboard.unknown

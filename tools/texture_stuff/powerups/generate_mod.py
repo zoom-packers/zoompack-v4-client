@@ -171,8 +171,8 @@ tier_recipe_base = {
     },
     7 : {
         'first' : 'phantasm:crystal_block',
-        'second' : 'enlightened_end:bismuth_block',
-        'third' : 'enlightened_end:adamantite_block',
+        'second' : 'enderitemod:enderite_ingot',
+        'third' : 'ender_dragon_loot_:dragon_scale',
     },
     8 : {
         'first' : 'callfromthedepth_:fullsoul',

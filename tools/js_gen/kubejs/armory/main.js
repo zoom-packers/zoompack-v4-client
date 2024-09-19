@@ -11,7 +11,6 @@ const {item_minecraft,
     item_call_of_yucutan, 
     item_endlessbiomes,
     item_ender_dragon_loot_,
-    item_enlightened_end,
     item_enderitemod,
     item_phantasm,
     item_theabyss,
@@ -74,7 +73,6 @@ const materials = [
     // End
     {item: item_phantasm.i_crystal_block, type: "crafting", name: "crystalline", base_damage: 108, durability: 4600, armor: 100, pmmoLevel: 73, materialColor: "#50437a"},
     {item: item_ender_dragon_loot_.i_dragon_scale, type: "smithing", name: "dragon", smithing: item_ender_dragon_loot_.i_dragon_upgrade_template, "base": "netherite", base_damage: 133, durability: 4800, armor: 127, pmmoLevel: 75, materialColor: "#343434"},
-    {item: item_enlightened_end.i_adamantite_ingot, type: "smithing", name: "adamantite", smithing: item_enlightened_end.i_adamantite_smithing_template, "base": "diamond", base_damage: 163, durability: 5200, armor: 157, pmmoLevel: 77, materialColor: "#4a7dfd"},
     {item: item_enderitemod.i_enderite_ingot, type: "smithing", name: "enderite", smithing: item_enderitemod.i_enderite_upgrade_smithing_template, "base": "netherite", base_damage: 192, durability: 5500, armor: 186, pmmoLevel: 79, materialColor: "#1b564d"},
     
     // Call from the depth

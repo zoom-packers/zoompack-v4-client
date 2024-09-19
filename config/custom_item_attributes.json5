@@ -17726,32 +17726,6 @@
             "unbreakable": false
         },
         {
-            "item": "enlightened_end:dash_leggings_leggings",
-            "overrides_legs": [
-                {
-                    "attribute": "minecraft:generic.armor",
-                    "value": 17,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0,
-                    "operation": "ADDITION"
-                }
-            ],
-            "overrides_main_hand": [],
-            "overrides_off_hand": [],
-            "overrides_head": [],
-            "overrides_chest": [],
-            "overrides_feet": [],
-            "unbreakable": false
-        },
-        {
             "item": "zoomers_armory:flint_bow",
             "overrides_off_hand": [],
             "overrides_main_hand": [
@@ -35644,7 +35618,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35670,7 +35644,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35696,7 +35670,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35722,7 +35696,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35748,7 +35722,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35774,7 +35748,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35800,7 +35774,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35826,7 +35800,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35852,7 +35826,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35878,7 +35852,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35904,7 +35878,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35930,7 +35904,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35956,7 +35930,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -35982,7 +35956,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36008,7 +35982,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36034,7 +36008,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36060,7 +36034,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36086,7 +36060,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36112,7 +36086,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36138,7 +36112,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36164,7 +36138,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36190,7 +36164,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36216,7 +36190,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36242,7 +36216,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -36268,7 +36242,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -38118,7 +38092,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -38144,7 +38118,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -38170,7 +38144,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -38196,7 +38170,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -38758,7 +38732,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -38789,7 +38763,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -38820,7 +38794,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -38851,7 +38825,7 @@
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.0,
+                    "value": 0,
                     "operation": "ADDITION"
                 },
                 {
@@ -39224,27 +39198,6 @@
                 {
                     "attribute": "minecraft:generic.attack_speed",
                     "value": 0.4,
-                    "operation": "ADDITION"
-                }
-            ],
-            "overrides_off_hand": [],
-            "overrides_head": [],
-            "overrides_chest": [],
-            "overrides_legs": [],
-            "overrides_feet": [],
-            "unbreakable": false
-        },
-        {
-            "item": "enlightened_end:adamantite_sword",
-            "overrides_main_hand": [
-                {
-                    "attribute": "minecraft:generic.attack_damage",
-                    "value": 120,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.attack_speed",
-                    "value": 0.2,
                     "operation": "ADDITION"
                 }
             ],
@@ -39833,182 +39786,6 @@
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
                     "value": -0.13,
-                    "operation": "ADDITION"
-                }
-            ],
-            "overrides_main_hand": [],
-            "overrides_off_hand": [],
-            "overrides_head": [],
-            "overrides_chest": [],
-            "overrides_legs": [],
-            "unbreakable": false
-        },
-        {
-            "item": "enlightened_end:adamantite_armor_helmet",
-            "overrides_head": [
-                {
-                    "attribute": "minecraft:generic.armor",
-                    "value": 31,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.armor_toughness",
-                    "value": 7.5,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.12,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.movement_speed",
-                    "value": 0.03,
-                    "operation": "MULTIPLY_TOTAL"
-                }
-            ],
-            "overrides_main_hand": [],
-            "overrides_off_hand": [],
-            "overrides_chest": [],
-            "overrides_legs": [],
-            "overrides_feet": [],
-            "unbreakable": false
-        },
-        {
-            "item": "enlightened_end:adamantite_armor_chestplate",
-            "overrides_chest": [
-                {
-                    "attribute": "minecraft:generic.armor",
-                    "value": 46,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.armor_toughness",
-                    "value": 7.5,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.12,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.movement_speed",
-                    "value": 0.05,
-                    "operation": "MULTIPLY_TOTAL"
-                }
-            ],
-            "overrides_main_hand": [],
-            "overrides_off_hand": [],
-            "overrides_head": [],
-            "overrides_legs": [],
-            "overrides_feet": [],
-            "unbreakable": false
-        },
-        {
-            "item": "enlightened_end:adamantite_armor_leggings",
-            "overrides_legs": [
-                {
-                    "attribute": "minecraft:generic.armor",
-                    "value": 40,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.armor_toughness",
-                    "value": 7.5,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.12,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.movement_speed",
-                    "value": 0.04,
-                    "operation": "MULTIPLY_TOTAL"
-                }
-            ],
-            "overrides_main_hand": [],
-            "overrides_off_hand": [],
-            "overrides_head": [],
-            "overrides_chest": [],
-            "overrides_feet": [],
-            "unbreakable": false
-        },
-        {
-            "item": "enlightened_end:adamantite_armor_boots",
-            "overrides_feet": [
-                {
-                    "attribute": "minecraft:generic.armor",
-                    "value": 31,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.armor_toughness",
-                    "value": 7.5,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.knockback_resistance",
-                    "value": -0.12,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.movement_speed",
-                    "value": 0.03,
-                    "operation": "MULTIPLY_TOTAL"
-                }
-            ],
-            "overrides_main_hand": [],
-            "overrides_off_hand": [],
-            "overrides_head": [],
-            "overrides_chest": [],
-            "overrides_legs": [],
-            "unbreakable": false
-        },
-        {
-            "item": "enlightened_end:dashing_leggings_leggings",
-            "overrides_legs": [
-                {
-                    "attribute": "minecraft:generic.armor",
-                    "value": 44,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.armor_toughness",
-                    "value": 11.5,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.08,
-                    "operation": "ADDITION"
-                }
-            ],
-            "overrides_main_hand": [],
-            "overrides_off_hand": [],
-            "overrides_head": [],
-            "overrides_chest": [],
-            "overrides_feet": [],
-            "unbreakable": false
-        },
-        {
-            "item": "enlightened_end:boost_boots_boots",
-            "overrides_feet": [
-                {
-                    "attribute": "minecraft:generic.armor",
-                    "value": 33,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.armor_toughness",
-                    "value": 11.5,
-                    "operation": "ADDITION"
-                },
-                {
-                    "attribute": "minecraft:generic.knockback_resistance",
-                    "value": 0.08,
                     "operation": "ADDITION"
                 }
             ],
