@@ -1,0 +1,87 @@
+{
+  "moduleList": [
+    {
+      "name": "icon",
+      "display": true,
+      "context": "icon.png"
+    },
+    {
+      "name": "text",
+      "display": true,
+      "context": "Zoompack 4 - Sandbox RPG"
+    },
+    {
+      "name": "mods",
+      "display": false
+    },
+    {
+      "name": "clock",
+      "display": false,
+      "context": "HH:mm:ss"
+    },
+    {
+      "name": "session",
+      "display": false
+    },
+    {
+      "name": "day",
+      "display": false
+    },
+    {
+      "name": "time",
+      "display": false
+    },
+    {
+      "name": "weather",
+      "display": false
+    },
+    {
+      "name": "fps",
+      "display": false
+    },
+    {
+      "name": "ping",
+      "display": false
+    },
+    {
+      "name": "memory",
+      "display": false
+    },
+    {
+      "name": "dimension",
+      "display": false
+    },
+    {
+      "name": "biome",
+      "display": false
+    },
+    {
+      "name": "position",
+      "display": false
+    },
+    {
+      "name": "chunk",
+      "display": false
+    },
+    {
+      "name": "facing",
+      "display": false
+    },
+    {
+      "name": "looking_at",
+      "display": false
+    },
+    {
+      "name": "property",
+      "display": false
+    },
+    {
+      "name": "target",
+      "display": false
+    },
+    {
+      "name": "target_health",
+      "display": false
+    }
+  ]
+}
