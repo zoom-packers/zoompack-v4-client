@@ -107,20 +107,31 @@
 				"&d&l1>&r&r&r No cheats"
 				"&d&l2>&r&r No Helper mods (fullbright, xray, etc..)"
 				"&d&l3>&r&r No helper resource packs (fullbright, xray, etc..)"
-				"&d&l4>&r&r Don't ask for OP, Ranks or Items"
+				"&d&l4>&r&r Don't ask for OP, Ranks or Items."
+				"&d&l5>&r&r Don't abuse any sort of mechanic for experience gains, report it instead."
+				"&d&l6>&r&r Don't abuse any sort of duplication mechanism, report it instead."
+				"&d&l7>&r&r Don't use mob farms. We want less entities on the server, use &d&oEasy Mob Farm&r&r mod instead."
+				"&d&l8>&r&r Don't try to connect to admin accounts."
+				""
+				"Failure to disobey any of these rules, depending on the gravity, can lead to:"
+				"&e->&r &bFull character reset&r"
+				"&e->&r &bExperience reset&r"
+				"&e->&r &bClaim reset&r"
+				"&e->&r &bKicks&r"
+				"&e->&r &bBan&r"
 				""
 				"&e&lRoles:&r&r"
 				"&o&d- Tester&r&r"
 				"Testers are players that report and test various behaviors of the modpack. They have some special perks thanks to their dedication."
 				""
-				"&o&d- Moderator&r&r"
-				"Moderators are players that also moderate the community, the server and actively contribute to the development of the modpack."
+				"&o&d- Dev&r&r"
+				"Developers are players that also moderate the community, the server and actively contribute to the development of the modpack."
 			]
 			icon: "minecolonies:scroll_highlight"
 			id: "0290D572AA16B1C4"
 			rewards: [{
 				auto: "enabled"
-				command: "/say Hi, @p! Thanks for approving the Zoompack 4 rules. Make sure not to breake them as there are some consequences involved in that. And mostly we care about the player's enjoyment, not tooling. HAVE FUN!"
+				command: "/execute as @p run rules accept"
 				icon: {
 					Count: 1
 					id: "create_sa:experience_shovel"
@@ -139,7 +150,7 @@
 				type: "checkmark"
 			}]
 			x: 2.5d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			description: [
@@ -689,11 +700,29 @@
 				"Create a party and invite people in your party to gain all sorts of perks!"
 				""
 				"&e&lParty System supports:&r&r&e"
+				"> Create your party to invite others"
+				"&b&o/zparty create&r&r"
+				""
+				"> Invite a player into your party"
+				"&b&o/zparty invite PLAYER_NAME&r&r"
+				""
+				"> Kick a player from your party"
+				"&b&o/zparty kick PLAYER_NAME&r&r"
+				""
+				"> Leave/Disband the party"
+				"&b&o/zparty leave&r&r"
+				""
+				"&6&lParty System Features:&r&r"
+				"- Share experience with your party members"
+				"- Share skill points with your party members"
+				"- Overview over other's stats and dimensions"
+				""
+				""
+				"The claim system is based on territory and it's different from the party system."
+				""
+				"&e&lClaim System supports:&r&r&e"
 				"- Team Claming chunks"
-				"- XP sharing with team members"
-				"- Skill Experience sharing with team members"
 				"- Overview on the location of your team members"
-				"- Overview on each party member's dimension"
 				""
 				"&e&l&lHow to create a party?&r&r&r"
 				"just run: "
@@ -782,6 +811,75 @@
 			}]
 			x: 4.0d
 			y: -3.0d
+		}
+		{
+			description: [
+				"&2&lChange your skin in game at any time!&r&r"
+				""
+				"This feature is only available in the official &e&lZoompack 4 Community Server&r&r"
+				""
+				"> Set the skin of another Minecraft Account, for example, Dream"
+				"&o&b/skin set mojang Dream&r&r"
+				""
+				"> Set the skin based on a public url"
+				"&o&b/skin set web slim \"https://imgur.com/d9Nw5kz\"&r&r"
+				""
+				"> Clear/Reset the skin to your original appearance"
+				"&o&b/skin clear &r&r"
+				""
+				"{image:biomesoplenty:block/pus_bubble width:50 height:50 align:1}"
+			]
+			icon: "minecraft:player_head"
+			id: "34DD9E65C1995FA2"
+			subtitle: "Why stick to only one appearance"
+			tasks: [{
+				id: "00FA8E8CC5FA6807"
+				title: "Skins"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&2&lTalk with your friends in game with your microphone. Broadcast through radios aswell&r&r"
+				""
+				"This feature is only available in the official &e&lZoompack 4 Community Server&r&r"
+				""
+				"In order to setup voice chat, simply press &b&o`&r&r or &b&o~&r&r then you can start talking."
+				"Select carefully your &b&omicrophone&r&r and &b&ospeaker&r&r and talk in game. Remember, this is proximity based, not global."
+				""
+				"If you wish to broadcast to other players craft devices to broadcast on long distances! "
+				""
+				">Try &o&bSpuddie Talkie&r&r very bad quality but cheap to build."
+				""
+				">Or make a real &b&oWalkie Talkie&r&r for better quality and range."
+				""
+				">Or go pro with &o&bTransciever&r&r but it's more expensive."
+				""
+				">Build even &b&oSpeakers&r&r and &b&oMicrophones&r&r and make a cool sound system around the colony!"
+				""
+				">Or just listen to the &b&oRadio&r&r"
+				""
+				"You can adjust for each device the &o&bAM/FM&r and also the &b&ofrequency&r&r in a &b&oRadiosmithing Table&r&r"
+				""
+				""
+				"{image:biomesoplenty:block/pus_bubble width:50 height:50 align:1}"
+			]
+			icon: {
+				Count: 1
+				id: "simpleradio:radio"
+				tag: { }
+			}
+			id: "69676D40420966BA"
+			subtitle: "Talk and Transmit AM/FM"
+			tasks: [{
+				id: "5F041D471CCA8032"
+				title: "Voice Chat"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.0d
 		}
 	]
 	title: "Tips \\& Tricks"
