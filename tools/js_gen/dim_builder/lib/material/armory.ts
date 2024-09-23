@@ -169,17 +169,36 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             // @ts-ignore
             if (mergedType.type === "sword") {
                 entry = this.createCiaWeapon(id, this.material, mergedType);
+                entry.overrides_main_hand = [...entry.overrides_main_hand, ...mergedType.additionalAttributes]
                 // @ts-ignore
             } else if (mergedType.type === "shield") {
                 entry = this.createCiaShield(id, this.material, mergedType);
+                entry.overrides_off_hand = [...entry.overrides_off_hand, ...mergedType.additionalAttributes]
                 // @ts-ignore
             } else if (mergedType.type === "armor") {
                 entry = this.createCiaArmor(id, this.material, mergedType);
                 // @ts-ignore
+                switch (mergedType.slot) {
+                    case "head":
+                        entry.overrides_head = [...entry.overrides_head, ...mergedType.additionalAttributes]
+                        break;
+                    case "chest":
+                        entry.overrides_chest = [...entry.overrides_chest, ...mergedType.additionalAttributes]
+                        break;
+                    case "legs":
+                        entry.overrides_legs = [...entry.overrides_legs, ...mergedType.additionalAttributes]
+                        break;
+                    case "feet":
+                        entry.overrides_feet = [...entry.overrides_feet, ...mergedType.additionalAttributes]
+                        break;
+                }
+                // @ts-ignore
             } else if (mergedType.type === "tool") {
                 entry = this.createCiaTool(id, this.material, mergedType);
+                entry.overrides_main_hand = [...entry.overrides_main_hand, ...mergedType.additionalAttributes]
             } else {
                 entry = this.createCiaProjectileWeapon(id, this.material, mergedType);
+                entry.overrides_main_hand = [...entry.overrides_main_hand, ...mergedType.additionalAttributes]
             }
             addItemToCia(cia, entry);
         }

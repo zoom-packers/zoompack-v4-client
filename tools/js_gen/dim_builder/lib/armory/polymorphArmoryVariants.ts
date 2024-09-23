@@ -196,7 +196,7 @@ export class PolymorphArmoryVariants {
         durabilityMultiplier: 0.9,
         armorMultiplier: 0.3,
         speedMultiplier: 0,
-        modelType: "heater_shield",
+        modelType: "buckler_shield",
         additionalAttributes: []
     }
     private static readonly HEATER_VARIANT: ShieldVariant = {

@@ -1,6 +1,8 @@
 import path from "path";
 import {ArmorVariant} from "./lib/material/ArmoryTypes";
 import {GeckoArmorArmoryEntry} from "./lib/material/geckoArmorArmoryEntry";
+import {CiaModifier, operation} from "./lib/cia/util";
+import {attribute_minecraft} from "../typedefs/attribute_typedefs";
 
 const samuraiAssetsPath = path.join("mc", "assets", "_mod_samurai", "samurai_dynasty");
 const samuraiGeoPath = path.join(samuraiAssetsPath, "geo");
@@ -8,18 +10,67 @@ const samuraiModelPath = path.join(samuraiAssetsPath, "models", "item");
 const samuraiItemTexturePath = path.join(samuraiAssetsPath, "textures", "item");
 const samuraiArmorTexturePath = path.join(samuraiAssetsPath, "textures", "armor");
 
+const lightAttributes: CiaModifier[] = [
+    {
+        attribute: "minecraft:generic.movement_speed",
+        operation: operation.MULTIPLY_BASE,
+        value: 0.05,
+    },
+    {
+        attribute: "minecraft:generic.armor",
+        operation: operation.MULTIPLY_BASE,
+        value: -0.05,
+    }
+];
+
+const mediumAttributes: CiaModifier[] = [
+    {
+        attribute: "minecraft:generic.movement_speed",
+        operation: operation.MULTIPLY_BASE,
+        value: -0.05,
+    },
+    {
+        attribute: "minecraft:generic.armor",
+        operation: operation.MULTIPLY_BASE,
+        value: 0.05,
+    },
+    {
+        attribute: "minecraft:generic.armor_toughness",
+        operation: operation.MULTIPLY_BASE,
+        value: 0.05,
+    }
+];
+
+const heavyAttributes: CiaModifier[] = [
+    {
+        attribute: "minecraft:generic.movement_speed",
+        operation: operation.MULTIPLY_BASE,
+        value: -0.1,
+    },
+    {
+        attribute: "minecraft:generic.armor",
+        operation: operation.MULTIPLY_BASE,
+        value: 0.2,
+    },
+    {
+        attribute: "minecraft:generic.armor_toughness",
+        operation: operation.MULTIPLY_BASE,
+        value: 0.2,
+    }
+];
+
 const samuraiLightHelmetVariant: ArmorVariant = {
     id: "samurai_light_helmet",
     type: "armor",
     slot: "head",
     displayName: "Samurai Light Helmet",
-    recipe: ["material", "material", "material", "material", "", "material", "", "", ""],
-    durabilityMultiplier: 1,
+    recipe: ["material", "material", "material", "material", "compressium:redstone_1", "material", "", "", ""],
+    durabilityMultiplier: 1.05,
     armorMultiplier: 1,
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: []
+    additionalAttributes: lightAttributes
 }
 
 const samuraiLightChestplateVariant: ArmorVariant = {
@@ -27,13 +78,13 @@ const samuraiLightChestplateVariant: ArmorVariant = {
     type: "armor",
     slot: "chest",
     displayName: "Samurai Light Chestplate",
-    recipe: ["material", "", "material", "material", "material", "material", "material", "material", "material"],
-    durabilityMultiplier: 1,
+    recipe: ["material", "compressium:redstone_1", "material", "material", "material", "material", "material", "material", "material"],
+    durabilityMultiplier: 1.05,
     armorMultiplier: 1,
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: []
+    additionalAttributes: lightAttributes
 }
 
 const samuraiLightLeggingsVariant: ArmorVariant = {
@@ -41,13 +92,13 @@ const samuraiLightLeggingsVariant: ArmorVariant = {
     type: "armor",
     slot: "legs",
     displayName: "Samurai Light Leggings",
-    recipe: ["material", "material", "material", "material", "", "material", "material", "", "material"],
-    durabilityMultiplier: 1,
+    recipe: ["material", "material", "material", "material", "compressium:redstone_1", "material", "material", "", "material"],
+    durabilityMultiplier: 1.05,
     armorMultiplier: 1,
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: []
+    additionalAttributes: lightAttributes
 }
 
 const samuraiLightBootsVariant: ArmorVariant = {
@@ -55,13 +106,13 @@ const samuraiLightBootsVariant: ArmorVariant = {
     type: "armor",
     slot: "feet",
     displayName: "Samurai Light Boots",
-    recipe: ["", "", "", "material", "", "material", "material", "", "material"],
-    durabilityMultiplier: 1,
+    recipe: ["", "compressium:redstone_1", "", "material", "", "material", "material", "", "material"],
+    durabilityMultiplier: 1.05,
     armorMultiplier: 1,
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: []
+    additionalAttributes: lightAttributes
 }
 
 const samuraiHelmetVariant: ArmorVariant = {
@@ -69,13 +120,13 @@ const samuraiHelmetVariant: ArmorVariant = {
     type: "armor",
     slot: "head",
     displayName: "Samurai Helmet",
-    recipe: ["material", "material", "material", "material", "", "material", "", "", ""],
-    durabilityMultiplier: 1,
+    recipe: ["material", "material", "material", "material", "minecraft:emerald_block", "material", "", "", ""],
+    durabilityMultiplier: 1.05,
     armorMultiplier: 1,
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: []
+    additionalAttributes: mediumAttributes
 }
 
 const samuraiChestplateVariant: ArmorVariant = {
@@ -83,13 +134,13 @@ const samuraiChestplateVariant: ArmorVariant = {
     type: "armor",
     slot: "chest",
     displayName: "Samurai Chestplate",
-    recipe: ["material", "", "material", "material", "material", "material", "material", "material", "material"],
-    durabilityMultiplier: 1,
+    recipe: ["material", "minecraft:emerald_block", "material", "material", "material", "material", "material", "material", "material"],
+    durabilityMultiplier: 1.1,
     armorMultiplier: 1,
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: []
+    additionalAttributes: mediumAttributes
 }
 
 const samuraiLeggingsVariant: ArmorVariant = {
@@ -97,13 +148,13 @@ const samuraiLeggingsVariant: ArmorVariant = {
     type: "armor",
     slot: "legs",
     displayName: "Samurai Leggings",
-    recipe: ["material", "material", "material", "material", "", "material", "material", "", "material"],
-    durabilityMultiplier: 1,
+    recipe: ["material", "material", "material", "material", "minecraft:emerald_block", "material", "material", "", "material"],
+    durabilityMultiplier: 1.1,
     armorMultiplier: 1,
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: []
+    additionalAttributes: mediumAttributes
 }
 
 const samuraiBootsVariant: ArmorVariant = {
@@ -111,13 +162,13 @@ const samuraiBootsVariant: ArmorVariant = {
     type: "armor",
     slot: "feet",
     displayName: "Samurai Boots",
-    recipe: ["", "", "", "material", "", "material", "material", "", "material"],
-    durabilityMultiplier: 1,
+    recipe: ["", "minecraft:emerald_block", "", "material", "", "material", "material", "", "material"],
+    durabilityMultiplier: 1.1,
     armorMultiplier: 1,
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: []
+    additionalAttributes: mediumAttributes
 }
 
 const samuraiMasterHelmetVariant: ArmorVariant = {
@@ -125,13 +176,13 @@ const samuraiMasterHelmetVariant: ArmorVariant = {
     type: "armor",
     slot: "head",
     displayName: "Samurai Master Helmet",
-    recipe: ["material", "material", "material", "material", "", "material", "", "", ""],
-    durabilityMultiplier: 1,
+    recipe: ["material", "material", "material", "material", "compressium:obsidian_2", "material", "", "", ""],
+    durabilityMultiplier: 1.2,
     armorMultiplier: 1,
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: []
+    additionalAttributes: heavyAttributes
 }
 
 const samuraiMasterChestplateVariant: ArmorVariant = {
@@ -139,13 +190,13 @@ const samuraiMasterChestplateVariant: ArmorVariant = {
     type: "armor",
     slot: "chest",
     displayName: "Samurai Master Chestplate",
-    recipe: ["material", "", "material", "material", "material", "material", "material", "material", "material"],
-    durabilityMultiplier: 1,
+    recipe: ["material", "compressium:obsidian_2", "material", "material", "material", "material", "material", "material", "material"],
+    durabilityMultiplier: 1.2,
     armorMultiplier: 1,
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: []
+    additionalAttributes: heavyAttributes
 }
 
 const samuraiMasterLeggingsVariant: ArmorVariant = {
@@ -153,13 +204,13 @@ const samuraiMasterLeggingsVariant: ArmorVariant = {
     type: "armor",
     slot: "legs",
     displayName: "Samurai Master Leggings",
-    recipe: ["material", "material", "material", "material", "", "material", "material", "", "material"],
-    durabilityMultiplier: 1,
+    recipe: ["material", "material", "material", "material", "compressium:obsidian_2", "material", "material", "", "material"],
+    durabilityMultiplier: 1.2,
     armorMultiplier: 1,
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: []
+    additionalAttributes: heavyAttributes
 }
 
 const samuraiMasterBootsVariant: ArmorVariant = {
@@ -167,13 +218,13 @@ const samuraiMasterBootsVariant: ArmorVariant = {
     type: "armor",
     slot: "feet",
     displayName: "Samurai Master Boots",
-    recipe: ["", "", "", "material", "", "material", "material", "", "material"],
-    durabilityMultiplier: 1,
+    recipe: ["", "compressium:obsidian_2", "", "material", "", "material", "material", "", "material"],
+    durabilityMultiplier: 1.2,
     armorMultiplier: 1,
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: []
+    additionalAttributes: heavyAttributes
 }
 
 const samuraiLightArmors = [samuraiLightHelmetVariant, samuraiLightChestplateVariant, samuraiLightLeggingsVariant, samuraiLightBootsVariant];
