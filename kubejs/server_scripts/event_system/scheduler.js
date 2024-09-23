@@ -161,19 +161,19 @@ function cleanupModifiers(event, server, player) {
 
 function drawActiveEvents(server, player) {
     let renderer = {
-        wrapper: {},
-        gradient: {},
-        title: {},
-        event_0: {},
-        event_1: {},
-        event_2: {},
-        event_3: {},
-        event_4: {},
-        event_0_icon: {},
-        event_1_icon: {},
-        event_2_icon: {},
-        event_3_icon: {},
-        event_4_icon: {},
+        wrapper: {type: 'gradient', visible: false, x: 0, y: 0, w: 0, h: 0, colorT: "#282c36", colorB: "#1a1d24", u0: 0, v0: 0, u1: 1, v1: 1},
+        gradient: {type: 'gradient', visible: false, x: 0, y: 0, w: 0, h: 0, colorT: "#282c36", colorB: "#1a1d24", u0: 0, v0: 0, u1: 1, v1: 1},
+        title: {type: 'gradient', visible: false, x: 0, y: 0, w: 0, h: 0, colorT: "#282c36", colorB: "#1a1d24", u0: 0, v0: 0, u1: 1, v1: 1},
+        event_0: {type: 'gradient', visible: false, x: 0, y: 0, w: 0, h: 0, colorT: "#282c36", colorB: "#1a1d24", u0: 0, v0: 0, u1: 1, v1: 1},
+        event_1: {type: 'gradient', visible: false, x: 0, y: 0, w: 0, h: 0, colorT: "#282c36", colorB: "#1a1d24", u0: 0, v0: 0, u1: 1, v1: 1},
+        event_2: {type: 'gradient', visible: false, x: 0, y: 0, w: 0, h: 0, colorT: "#282c36", colorB: "#1a1d24", u0: 0, v0: 0, u1: 1, v1: 1},
+        event_3: {type: 'gradient', visible: false, x: 0, y: 0, w: 0, h: 0, colorT: "#282c36", colorB: "#1a1d24", u0: 0, v0: 0, u1: 1, v1: 1},
+        event_4: {type: 'gradient', visible: false, x: 0, y: 0, w: 0, h: 0, colorT: "#282c36", colorB: "#1a1d24", u0: 0, v0: 0, u1: 1, v1: 1},
+        event_0_icon: {type: 'gradient', visible: false, x: 0, y: 0, w: 0, h: 0, colorT: "#282c36", colorB: "#1a1d24", u0: 0, v0: 0, u1: 1, v1: 1},
+        event_1_icon: {type: 'gradient', visible: false, x: 0, y: 0, w: 0, h: 0, colorT: "#282c36", colorB: "#1a1d24", u0: 0, v0: 0, u1: 1, v1: 1},
+        event_2_icon: {type: 'gradient', visible: false, x: 0, y: 0, w: 0, h: 0, colorT: "#282c36", colorB: "#1a1d24", u0: 0, v0: 0, u1: 1, v1: 1},
+        event_3_icon: {type: 'gradient', visible: false, x: 0, y: 0, w: 0, h: 0, colorT: "#282c36", colorB: "#1a1d24", u0: 0, v0: 0, u1: 1, v1: 1},
+        event_4_icon: {type: 'gradient', visible: false, x: 0, y: 0, w: 0, h: 0, colorT: "#282c36", colorB: "#1a1d24", u0: 0, v0: 0, u1: 1, v1: 1},
     }
     let persistentData = server.persistentData
     let playerUIInvisibleTag = persistentData.get(`events_ui_invisible_${player.getName().getString()}`);
