@@ -11,7 +11,7 @@
       {
         "attribute":"minecraft:generic.attack_damage",
         "operation": "MULTIPLY_BASE",
-        "amount": 39
+        "amount": 9
       },
       {
         "attribute":"minecraft:generic.armor",
