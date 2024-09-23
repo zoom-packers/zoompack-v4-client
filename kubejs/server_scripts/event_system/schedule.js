@@ -55,7 +55,7 @@ let farmingFrenzy = new Event()
 
 let explorationTime = new Event()
     .withName("Stop, Explore Time!")
-    .withIcon("minecraft:textures/item/compass.png")
+    .withIcon("minecraft:textures/item/compass_00.png")
     .withDescription("Extra luck & XP gain.")
     .addInterval("Friday","16:00", "18:00")
     .addInterval("Saturday","16:00", "18:00")
