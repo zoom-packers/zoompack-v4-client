@@ -1,0 +1,11 @@
+{
+    "override": true,
+    "xp_values":{
+        "BLOCK_BREAK" : {
+            "mining": 20
+        }
+    },
+    "requirements":{
+        "BREAK": {"mining":20}
+    }
+}
