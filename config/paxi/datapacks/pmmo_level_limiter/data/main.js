@@ -273,7 +273,7 @@ function modifyFullSets() {
     processor.modifySetRequirements("irons_spellbooks", "plagued_tier_6", 73, "armor");
     modifyOffhandForTier(6, 73)
 
-    processor.modifySetRequirements("enderitemod", "enderite", 79, "armor");
+    processor.modifySetRequirements("enderitemod", "enderite", 79);
 
     // Deeper darker
     processor.modifySetRequirements("callfromthedepth_", "immemorial", 84, ["sword","axe", "pickaxe", "shovel", "hoe"], "{set_name}{item}");
