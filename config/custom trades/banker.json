@@ -23,7 +23,6 @@
       "offer": {
         "itemKey": "minecraft:filled_map",
         "amount": 1,
-        "priceModifier": 0,
         "mapStructure": "blue_skies:gatekeeper_houses"
       },
       "request": {
@@ -35,7 +34,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:banker_gatekeeper_bag_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_filled_map_for_bronze_coin"
     },
     {
       "offer": {

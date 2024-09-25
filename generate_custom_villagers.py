@@ -112,7 +112,7 @@ ideas for trades:
 # Banker Basic trades
 #buy
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 5), ('minecraft:ender_pearl', 1), 1, 1)
-new_default_trade('banker', ('dotcoinmod:bronze_coin', 49), ('zoomers_economy:gatekeeper_bag', 1), 1, 1)
+new_map_trade('banker', ('dotcoinmod:bronze_coin', 49), ('minecraft:filled_map', 1), 1, 1, structure_id="blue_skies:gatekeeper_houses")
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 10), ('trials:trial_key', 1), 1, 1)
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 30), ('minecraft:emerald', 1), 1, 1)
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 32), ('blue_skies:blinding_key', 1), 2, 2)
