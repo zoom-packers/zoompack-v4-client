@@ -13,14 +13,12 @@ js_cosmetics_base_str = js_base_str
 def new_kjs_cosmetic(mod_id, item_id):
     global js_cosmetics_base_str
     new_js = """event.modify(\"""" + mod_id + ':' + item_id + """\", item => {
-        item.armorProtection = 0;
+        item.armorProtection = -1;
         item.armorToughness = 0;
         item.maxDamage = 696;
     });
     {--}"""
     js_cosmetics_base_str = js_cosmetics_base_str.replace('{--}', new_js)
-
-
 
 config_path = 'config\custom_item_attributes.json5'
 BANNED_MODS = ["betterend"]
@@ -287,7 +285,6 @@ for piece in ['helmet', 'chestplate', 'leggings', 'boots']:
     for armor_prefix in ['eclipse_soldier', 'dragonslayer', 'hero', 'golden_horns', 'thief', 'wandering_wizard', 'chess_board_knight', 'dark_lord', 'sunset_wings']:
         new_cosmetic_armor_config('fantasy_armor', f'{armor_prefix}_{piece}', piece)
 
-
 # Armor of the ages
 armor_of_the_ages_map = {
     'head':'helmet',
@@ -304,7 +301,6 @@ for piece_id in armor_of_the_ages_map:
 for piece in ['helmet', 'chestplate', 'leggings', 'boots']:
     for armor_prefix in ['infernal_gladiator', 'warped_fungus', 'crimson_fungus', 'obsidian']:
         new_cosmetic_armor_config('nether_armory', f'{armor_prefix}_armor_{piece}', piece)
-
 
 
 # Custom item attributes config generator
