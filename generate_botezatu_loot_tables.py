@@ -192,17 +192,18 @@ for loot_table_tier in loot_tiers:
                 item_id = f'{mod_id}:{armor_prefix}{prefix_suffix_bridge}{piece}'
                 item_weight = mod['prefixes'][armor_prefix][loot_table_tier]
 
-                loot_table['pools'][0]['entries'].append({
-                    'type' : 'minecraft:item',
-                    'name' : item_id,
-                    'weight' : item_weight,
-                    'functions' : [
-                        {
-                            'function' : "minecraft:set_nbt",
-                            "tag": """{affix_data:{affixes:{"apotheosis:armor/attribute/ironforged":0.0f}}}"""
-                        }
-                    ]
-                })
+                if item_weight>0:
+                    loot_table['pools'][0]['entries'].append({
+                        'type' : 'minecraft:item',
+                        'name' : item_id,
+                        'weight' : item_weight,
+                        'functions' : [
+                            {
+                                'function' : "minecraft:set_nbt",
+                                "tag": """{affix_data:{affixes:{"apotheosis:armor/attribute/ironforged":0.0f}}}"""
+                            }
+                        ]
+                    })
 
     with open(file_to_use, 'w+') as f:
         f.write(json.dumps(loot_table, indent=4))
