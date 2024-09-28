@@ -1,4 +1,27 @@
+import os
 import json
+
+#KJS
+js_base_str = """
+ItemEvents.modification((event) => {
+    {--}
+});
+"""
+
+js_cosmetics_base_str = js_base_str
+
+def new_kjs_cosmetic(mod_id, item_id):
+    global js_cosmetics_base_str
+    new_js = """event.modify(\"""" + mod_id + ':' + item_id + """\", item => {
+        item.armorProtection = 0;
+        item.armorToughness = 0;
+        item.maxDamage = 696;
+    });
+    {--}"""
+    js_cosmetics_base_str = js_cosmetics_base_str.replace('{--}', new_js)
+
+
+
 config_path = 'config\custom_item_attributes.json5'
 BANNED_MODS = ["betterend"]
 # These are mods that were removed so items in this mod shall be skipped at running
@@ -30,7 +53,7 @@ def remove_duplicate_modifiers():
     
     return unique_config
 
-def fill_config_item_gaps(item_config):
+def fill_config_item_gaps(item_config, cosmetic=False):
     new_item_config = item_config.copy()
 
     if 'overrides_main_hand' not in new_item_config:
@@ -51,12 +74,11 @@ def fill_config_item_gaps(item_config):
     if 'overrides_feet' not in new_item_config:
         new_item_config['overrides_feet'] = []
 
-    if 'unbreakable' not in new_item_config:
-        new_item_config['unbreakable'] = False
+    new_item_config['unbreakable'] = cosmetic
 
     return new_item_config.copy()
 
-def alter_config(new_item_config):
+def alter_config(new_item_config, cosmetic=False):
     items = base_config.get("items", [])
 
     for index in range(0, len(items)):
@@ -64,12 +86,12 @@ def alter_config(new_item_config):
         item_name = item.get('item')
         if item_name == new_item_config.get('item'):
             items.pop(index)
-            items.append(fill_config_item_gaps(new_item_config))
+            items.append(fill_config_item_gaps(new_item_config, cosmetic=cosmetic))
             return
     
-    base_config.get("items", []).append(fill_config_item_gaps(new_item_config))
+    base_config.get("items", []).append(fill_config_item_gaps(new_item_config, cosmetic=cosmetic))
 
-def new_item_config(mod_id, item_id, item_type, mod_map):
+def new_item_config(mod_id, item_id, item_type, mod_map, cosmetic=False):
     overrides = []
     for attr, modification in mod_map.items():
         overrides.append({
@@ -83,45 +105,50 @@ def new_item_config(mod_id, item_id, item_type, mod_map):
             "item": f"{mod_id}:{item_id}",
             "overrides_main_hand": overrides,
         }
-        alter_config(new_item_config)
+        alter_config(new_item_config, cosmetic=cosmetic)
 
     if item_type == 'helmet':
         new_item_config = {
             "item": f"{mod_id}:{item_id}",
             "overrides_head": overrides,
         }
-        alter_config(new_item_config)
+        alter_config(new_item_config, cosmetic=cosmetic)
 
     if item_type == 'chestplate':
         new_item_config = {
             "item": f"{mod_id}:{item_id}",
             "overrides_chest": overrides,
         }
-        alter_config(new_item_config)
+        alter_config(new_item_config, cosmetic=cosmetic)
 
     if item_type == 'leggings':
         new_item_config = {
             "item": f"{mod_id}:{item_id}",
             "overrides_legs": overrides,
         }
-        alter_config(new_item_config)
+        alter_config(new_item_config, cosmetic=cosmetic)
 
     if item_type == 'boots':
         new_item_config = {
             "item": f"{mod_id}:{item_id}",
             "overrides_feet": overrides,
         }
-        alter_config(new_item_config)
+        alter_config(new_item_config, cosmetic=cosmetic)
 
     if item_type == 'offhand':
         new_item_config = {
             "item": f"{mod_id}:{item_id}",
             "overrides_off_hand": overrides,
         }
-        base_config.get("items", []).append(fill_config_item_gaps(new_item_config))
+        alter_config(new_item_config, cosmetic=cosmetic)
+    
+    if cosmetic:
+        new_item_config['unbreakable'] = True
+        
+    base_config.get("items", []).append(fill_config_item_gaps(new_item_config, cosmetic=cosmetic))
 
 
-def new_armor_set_config(mod_id, material_prefix, armor_list, armor_toughness, knockback_resistance, hp_bonus=[0,0,0,0], speed_bonus =[0,0,0,0], full_id=False, actual_piece=None):
+def new_armor_set_config(mod_id, material_prefix, armor_list, armor_toughness, knockback_resistance, hp_bonus=[0,0,0,0], speed_bonus =[0,0,0,0], full_id=False, actual_piece=None, cosmetic=False):
     armor_map = {
         'helmet' : armor_list[0],
         'chestplate' : armor_list[1],
@@ -158,12 +185,25 @@ def new_armor_set_config(mod_id, material_prefix, armor_list, armor_toughness, k
         if speed_map[piece] != 0:
             attr_config["minecraft:generic.movement_speed"] = (speed_map[piece],'MULTIPLY_TOTAL')
 
-        if full_id:
-            new_item_config(mod_id, material_prefix, piece, attr_config)
-        else:
-            new_item_config(mod_id,f'{material_prefix}_{piece}', piece, attr_config)
+        if cosmetic:
+            attr_config = {}
+            for attr_mod in ["minecraft:generic.attack_damage",
+                         "minecraft:generic.attack_speed",
+                         "minecraft:generic.luck",
+                         "minecraft:generic.knockback_resistance"]:
+                attr_config[attr_mod] = (-1, 'MULTIPLY_BASE')
 
-def new_armor_piece_config(mod_id, full_item_id, armor, armor_toughness, knockback_resistance, hp_bonus=0, speed_bonus= 0, actual_piece = 'helmet'):
+            for attr_mod in ["minecraft:generic.movement_speed",
+                             "minecraft:generic.max_health"]:
+                attr_config[attr_mod] = (-0.15, 'MULTIPLY_BASE')
+        
+        item = f'{material_prefix}_{piece}'
+        if full_id:
+            item = material_prefix
+
+        new_item_config(mod_id, item, piece, attr_config, cosmetic=cosmetic)
+
+def new_armor_piece_config(mod_id, full_item_id, armor, armor_toughness, knockback_resistance, hp_bonus=0, speed_bonus= 0, actual_piece = 'helmet', cosmetic=False):
     armor_arg = [armor, 0, 0, 0]
     if actual_piece == 'chestplate':
         armor_arg = [0, armor, 0, 0]
@@ -171,7 +211,7 @@ def new_armor_piece_config(mod_id, full_item_id, armor, armor_toughness, knockba
         armor_arg = [0, 0, armor, 0]
     if actual_piece == 'boots':
         armor_arg = [0, 0, 0, armor]
-    new_armor_set_config(mod_id, full_item_id, armor_list=armor_arg, armor_toughness=armor_toughness, knockback_resistance=knockback_resistance, hp_bonus=[hp_bonus, 0, 0, 0], speed_bonus=[speed_bonus, 0, 0, 0], full_id=True, actual_piece=actual_piece)
+    new_armor_set_config(mod_id, full_item_id, armor_list=armor_arg, armor_toughness=armor_toughness, knockback_resistance=knockback_resistance, hp_bonus=[hp_bonus, 0, 0, 0], speed_bonus=[speed_bonus, 0, 0, 0], full_id=True, actual_piece=actual_piece, cosmetic=cosmetic)
 
 def new_bow_config(mod_id, material_prefix, damage, full_id=False):
     attr_config = {
@@ -206,12 +246,65 @@ def get_durability_list_from_helmet(helmet_durability):
 
     return quantities
 
+def create_directory(path):
+    os.makedirs(path, exist_ok=True)
+
+def pmmo_config_lvl_armor(mod_id, item_id, level):
+    create_directory(f"config/paxi/datapacks/pmmo_level_limiter/data/{mod_id}/pmmo/items")
+    pmmo_json = {
+        "requirements": {
+            "WEAR": {
+                "endurance": level
+            }
+        },
+        "override": True
+    }
+    with open(f"config/paxi/datapacks/pmmo_level_limiter/data/{mod_id}/pmmo/items/{item_id}.json", 'w+') as f:
+        f.write(json.dumps(pmmo_json, indent=4))
+
+def pmmo_config_cosmetic(mod_id, item_id, level=696):
+    pmmo_config_lvl_armor(mod_id, item_id, level)
+
+def kjs_pmmo_cosmetic(mod_id, item_id):
+    new_kjs_cosmetic(mod_id, item_id)
+    pmmo_config_cosmetic(mod_id, item_id)
+
+def new_cosmetic_armor_config(mod_id, item_id, piece):
+    new_armor_piece_config(mod_id, full_item_id=item_id, actual_piece=piece, cosmetic=True, armor=0, armor_toughness=0, knockback_resistance=0)
+    kjs_pmmo_cosmetic(mod_id, item_id)
+
 # Non destructive shit
 with open(config_path, 'r') as f:
     try:
         base_config = json.loads(f.read())
     except Exception:
         pass
+
+# Cosmetics
+
+# fantasy_armor
+for piece in ['helmet', 'chestplate', 'leggings', 'boots']:
+    for armor_prefix in ['eclipse_soldier', 'dragonslayer', 'hero', 'golden_horns', 'thief', 'wandering_wizard', 'chess_board_knight', 'dark_lord', 'sunset_wings']:
+        new_cosmetic_armor_config('fantasy_armor', f'{armor_prefix}_{piece}', piece)
+
+
+# Armor of the ages
+armor_of_the_ages_map = {
+    'head':'helmet',
+    'chest':'chestplate',
+    'legs':'leggings',
+    'feet':'boots'
+}
+for piece_id in armor_of_the_ages_map:
+    actual_piece = armor_of_the_ages_map[piece_id]
+    for armor_prefix in ['anubis', 'centurion', 'holy', 'iron_plate', 'japanese_light', 'o_yoroi', 'pharaoh', 'quetzalcoatl', 'raijin']:
+        new_cosmetic_armor_config('armoroftheages', f'{armor_prefix}_armor_{piece_id}', actual_piece)
+
+# Nether armory
+for piece in ['helmet', 'chestplate', 'leggings', 'boots']:
+    for armor_prefix in ['infernal_gladiator', 'warped_fungus', 'crimson_fungus', 'obsidian']:
+        new_cosmetic_armor_config('nether_armory', f'{armor_prefix}_armor_{piece}', piece)
+
 
 
 # Custom item attributes config generator
@@ -344,11 +437,6 @@ new_sword_config("theabyss","abyss_sword", 420, full_id=True, attack_speed=-0.4)
 
 
 # Kube JS config generator
-js_base_str = """
-ItemEvents.modification((event) => {
-    {--}
-});
-"""
 
 def new_kjs_config_durability(mod_id, item_id, durability):
     global js_base_str
@@ -540,3 +628,6 @@ with open(config_path, 'w+') as f:
 # ////////////////////////////////////////////////////////////////////
 with open('kubejs\startup_scripts\general_durability.js', 'w+') as f:
     f.write(js_base_str.replace('{--}',''))
+
+with open('kubejs\startup_scripts\\balance_cosmetics.js', 'w+') as f:
+    f.write(js_cosmetics_base_str.replace('{--}',''))
