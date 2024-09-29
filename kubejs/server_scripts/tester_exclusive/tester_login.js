@@ -56,3 +56,4 @@ PlayerEvents.loggedIn(event => {
         }   
     }
 });
+// TODO: move to server the whole folder, this is excusive to server
