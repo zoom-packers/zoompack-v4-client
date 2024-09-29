@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "test"
+	filename: "overworld"
 	group: "653CB9213F69DF0A"
 	icon: "minecraft:grass_block"
 	id: "2A69D6F9DDB6664E"
@@ -70,7 +70,7 @@
 		}
 		{
 			height: 2.0d
-			image: "tombstone:textures/aura/aura1.png"
+			image: "zoomers_armory:item/flint_shortbow_drawing_2"
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
@@ -79,7 +79,7 @@
 		}
 		{
 			height: 2.0d
-			image: "tombstone:textures/aura/aura1.png"
+			image: "aether:item/armor/valkyrie_chestplate"
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
@@ -88,7 +88,7 @@
 		}
 		{
 			height: 2.0d
-			image: "tombstone:textures/aura/aura1.png"
+			image: "create_sa:item/copper_magnet"
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
@@ -97,7 +97,7 @@
 		}
 		{
 			height: 2.0d
-			image: "tombstone:textures/aura/aura1.png"
+			image: "theabyss:item/bone_pickaxe"
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
@@ -106,7 +106,7 @@
 		}
 		{
 			height: 2.0d
-			image: "tombstone:textures/aura/aura1.png"
+			image: "create_sa:item/experience_pickaxe"
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
@@ -115,7 +115,7 @@
 		}
 		{
 			height: 2.0d
-			image: "tombstone:textures/aura/aura1.png"
+			image: "sophisticatedbackpacks:item/anvil_upgrade"
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
@@ -124,7 +124,7 @@
 		}
 		{
 			height: 2.0d
-			image: "tombstone:textures/aura/aura1.png"
+			image: "zoomers_armory:item/flint_shortbow_drawing_0"
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
@@ -133,7 +133,7 @@
 		}
 		{
 			height: 2.0d
-			image: "tombstone:textures/aura/aura1.png"
+			image: "zoomers_armory:item/flint_longbow_drawing_0"
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
@@ -142,7 +142,7 @@
 		}
 		{
 			height: 2.0d
-			image: "tombstone:textures/aura/aura1.png"
+			image: "theabyss:item/ice-diamond"
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
@@ -151,7 +151,7 @@
 		}
 		{
 			height: 2.0d
-			image: "tombstone:textures/aura/aura1.png"
+			image: "aether:item/food/candy_cane"
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
@@ -160,7 +160,7 @@
 		}
 		{
 			height: 2.0d
-			image: "tombstone:textures/aura/aura1.png"
+			image: "simpleradio:block/antenna"
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
@@ -169,7 +169,7 @@
 		}
 		{
 			height: 2.0d
-			image: "tombstone:textures/aura/aura1.png"
+			image: "minecraft:item/fishing_rod"
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
@@ -178,7 +178,7 @@
 		}
 		{
 			height: 2.0d
-			image: "tombstone:textures/aura/aura1.png"
+			image: "minecraft:textures/particle/lava.png"
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
@@ -187,7 +187,7 @@
 		}
 		{
 			height: 2.0d
-			image: "tombstone:textures/aura/aura1.png"
+			image: "immersive_melodies:item/icon/bagpipe"
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
@@ -196,7 +196,7 @@
 		}
 		{
 			height: 2.0d
-			image: "tombstone:textures/aura/aura1.png"
+			image: "man_of_many_planes:item/scarlet_biplane"
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
@@ -295,7 +295,7 @@
 		}
 		{
 			height: 2.0d
-			image: "callfromthedepth_:particle/soulsonic"
+			image: "ftblibrary:icons/star"
 			order: 3
 			rotation: 0.0d
 			width: 2.0d
@@ -322,7 +322,7 @@
 		}
 		{
 			height: 5.0d
-			image: "enlightened_end:block/gas_vent_ooze"
+			image: "waystones:textures/gui/inventory_button.png"
 			order: 2
 			rotation: 0.0d
 			width: 5.0d
