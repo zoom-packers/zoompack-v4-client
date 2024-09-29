@@ -12,6 +12,14 @@
 		}
 	}
 	id: "081724BA5A975B87"
+	images: [{
+		height: 70.0d
+		image: "vahmas_creator_pack:textures/gui/pano_lavafields.png"
+		rotation: 0.0d
+		width: 130.1379811183733d
+		x: -5.0d
+		y: -5.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

@@ -5,28 +5,277 @@
 	group: "653CB9213F69DF0A"
 	icon: "minecraft:end_crystal"
 	id: "5B4648983CF9E35E"
+	images: [
+		{
+			height: 20.0d
+			image: "minecraft:block/end_portal_frame_top"
+			order: -1
+			rotation: 0.0d
+			width: 20.0d
+			x: -9.392857142857139d
+			y: -0.8333333333333499d
+		}
+		{
+			height: 3.0d
+			image: "endlessbiomes:item/penumbralvineitemnewest"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.4880952380952266d
+			y: -8.273809523809526d
+		}
+		{
+			height: 3.0d
+			image: "endlessbiomes:item/penumbralvineitem"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.4642857142857011d
+			y: -3.2619047619047734d
+		}
+		{
+			height: 3.0d
+			image: "outer_end:block/small_rose_crystal"
+			rotation: 0.0d
+			width: 3.0d
+			x: 11.249999999999957d
+			y: 6.46428571428568d
+		}
+		{
+			height: 3.0d
+			image: "croptopia:block/eggplant_crop_stage3"
+			rotation: 0.0d
+			width: 3.0d
+			x: 15.059523809523768d
+			y: 6.416666666666629d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:item/seagrass"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.916666666666629d
+			y: 6.46428571428568d
+		}
+		{
+			height: 3.0d
+			image: "undergarden:block/glitterkelp"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.9880952380952266d
+			y: 6.297619047619044d
+		}
+		{
+			height: 3.0d
+			image: "undergarden:block/glitterkelp_plant"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/swamp_grass_3"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.15476190476186957d
+			y: 6.46428571428568d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/swamp_grass_2"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 13.249999999999957d
+			y: 6.46428571428568d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/swamp_grass_3"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.535714285714249d
+			y: 6.46428571428568d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/swamp_grass_3"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.773809523809476d
+			y: 6.46428571428568d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/swamp_grass_3"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.011904761904717d
+			y: 6.46428571428568d
+		}
+		{
+			height: 3.0d
+			image: "phantasm:block/oblivine_fruit"
+			rotation: 0.0d
+			width: 3.0d
+			x: 14.988095238095227d
+			y: -8.345238095238095d
+		}
+		{
+			height: 3.0d
+			image: "phantasm:block/oblivine_fruit"
+			rotation: 0.0d
+			width: 3.0d
+			x: 14.988095238095227d
+			y: -5.7738095238095255d
+		}
+		{
+			height: 3.0d
+			image: "phantasm:item/oblifruit"
+			order: 1
+			rotation: 46.0d
+			width: 3.0d
+			x: 15.130952380952365d
+			y: -3.845238095238095d
+		}
+		{
+			height: 3.0d
+			image: "supplementaries:textures/particle/bubble_block_pop_3.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 11.0d
+			y: -5.988095238095241d
+		}
+		{
+			height: 20.0d
+			image: "outer_end:block/cobalt_crystal_lamp"
+			rotation: 0.0d
+			width: 20.0d
+			x: 24.89285714285714d
+			y: -0.9047619047619264d
+		}
+		{
+			height: 4.0d
+			image: "ironfurnaces:item/upgrade_obsidian"
+			rotation: 0.0d
+			width: 4.0d
+			x: 8.71428571428568d
+			y: 5.86904761904762d
+		}
+		{
+			height: 20.0d
+			image: "outer_end:block/rose_crystal"
+			order: -2
+			rotation: 0.0d
+			width: 20.0d
+			x: 7.749999999999986d
+			y: -0.8690476190476275d
+		}
+		{
+			height: 3.0d
+			image: "endlessbiomes:item/penumbralvineitem"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.3928571428571317d
+			y: -5.690476190476204d
+		}
+		{
+			height: 20.0d
+			image: "betternether:block/weeping_obsidian"
+			rotation: 0.0d
+			width: 20.0d
+			x: 24.892857142857125d
+			y: 16.273809523809504d
+		}
+		{
+			height: 20.0d
+			image: "enderitemod:block/enderite_ore"
+			rotation: 0.0d
+			width: 20.0d
+			x: -9.32142857142857d
+			y: 16.273809523809504d
+		}
+		{
+			height: 20.0d
+			image: "outer_end:block/endskirmitestockpile"
+			rotation: 0.0d
+			width: 20.0d
+			x: -9.321428571428584d
+			y: -17.97619047619049d
+		}
+		{
+			height: 20.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/dragon_breath.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 24.964285714285694d
+			y: -18.047619047619065d
+		}
+		{
+			height: 20.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/void_tentacles.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 7.821428571428541d
+			y: 16.273809523809504d
+		}
+		{
+			height: 20.0d
+			image: "endlessbiomes:block/vwooperback"
+			rotation: 0.0d
+			width: 20.0d
+			x: 7.785714285714292d
+			y: -18.101190476190496d
+		}
+	]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0F1B354191B2C626"]
+			dependencies: [
+				"0F1B354191B2C626"
+				"242D7BC20C1B3480"
+			]
+			description: ["&7Step through the End portal and enter the End. This mysterious dimension is filled with new challenges, rare resources, and secrets waiting to be discovered. Explore its void, face its formidable foes, and uncover the mysteries that lie beyond the portal!"]
 			icon: "minecraft:end_portal_frame"
 			id: "1524A7053FBA0402"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "622922F893BC107A"
+				table_id: 1610080839990707444L
+				type: "choice"
+			}]
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "543FD4E25510AAD4"
 				type: "dimension"
 			}]
 			title: "Into the void"
-			x: -7.0d
-			y: 0.5d
+			x: 8.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1524A7053FBA0402"]
 			id: "3D1D4DB94127689A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F3CF5B58F82482A"
+					table_id: 7559836027894330734L
+					type: "choice"
+				}
+				{
+					id: "05CD84B1281CDFCC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Epic fight"
+			subtitle: "Face the mighty Ender Dragon in the heart of the End. This formidable beast guards the realm's greatest treasures. Defeat it to claim your victory, earn rare rewards, and unlock new possibilities for your adventure. Prepare for a battle that will test your strength and skill!"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				id: "28FD7790DFF67ECE"
@@ -34,8 +283,8 @@
 				value: 1L
 			}]
 			title: "Same old, but wait it has 3 heads"
-			x: -5.5d
-			y: -1.0d
+			x: 10.25d
+			y: -3.0d
 		}
 		{
 			id: "0F1B354191B2C626"
@@ -44,29 +293,47 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			subtitle: "Deep beneath the earth, you’ve unearthed the stronghold, a forgotten bastion of ancient secrets and hidden power. The path to the End is now within your grasp."
 			tasks: [{
 				id: "269E5802BD17BE3E"
 				structure: "betterstrongholds:stronghold"
 				type: "structure"
 			}]
 			title: "The stronghold"
-			x: -9.0d
-			y: 0.5d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3D1D4DB94127689A"]
+			description: ["&7Claim the Dragon Egg after defeating the Ender Dragon. This rare treasure is a symbol of your triumph and can be used for powerful enchantments or as a valuable keepsake. Secure it and mark your victory in the End!"]
 			id: "4A6E11AE3DC9ADCE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E8E33DFB6D9A020"
+				table_id: 4439647929272430439L
+				type: "loot"
+			}]
+			subtitle: "Omelette?"
 			tasks: [{
 				id: "11C871DD0D97FE63"
 				item: "minecraft:dragon_egg"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -1.0d
+			title: "Dragon's Legacy"
+			x: 7.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4A6E11AE3DC9ADCE"]
+			description: ["&7Discover the Elytra hidden within an End Ship. Glide through the End's expanse with these wings, offering unparalleled aerial mobility. Locate the ship, retrieve the Elytra, and take to the skies like never before!"]
 			id: "7D21477B0427485A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FC4B62DE4FC123C"
+				table_id: 4439647929272430439L
+				type: "loot"
+			}]
+			subtitle: "Elytra"
 			tasks: [{
 				id: "13B6D49F5E422ECD"
 				item: {
@@ -78,45 +345,78 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: -2.0d
+			title: "Wings of the Void"
+			x: 5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1524A7053FBA0402"]
+			description: ["&7Acquire the coveted Dragon’s Breath by confronting the Ender Dragon. As the beast unleashes its fiery attack, capture this rare and potent substance. Dragon’s Breath is essential for powerful potions and crafting unique items. Harness its power and elevate your mastery!"]
 			id: "597903365EB0C55E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BE7533F40864919"
+				table_id: 4439647929272430439L
+				type: "loot"
+			}]
+			subtitle: "Hot hot hot!"
 			tasks: [{
 				id: "7AA5AB3FB4C9FEC3"
 				item: "minecraft:dragon_breath"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 0.5d
+			x: 12.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4A6E11AE3DC9ADCE"]
+			description: ["&7Collect Shulker Shells by defeating Shulkers in the End. These elusive creatures drop shells that are essential for crafting unique storage solutions. Gather enough shells to enhance your inventory management and keep your loot safe!"]
 			id: "7DAB18743F487AF6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3031A997240A8897"
+				table_id: 4439647929272430439L
+				type: "loot"
+			}]
+			subtitle: "Extra dimensional properties"
 			tasks: [{
 				id: "5DC88AD4C5A321EE"
 				item: "minecraft:shulker_shell"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -1.0d
+			title: "Shulker Harvest"
+			x: 4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3D1D4DB94127689A"]
+			description: ["&7In the void's dark embrace, the ancient Obsidilith rises—a towering obelisk of obsidian, born from the depths of nothingness. Defeating this primordial force will unveil its secrets and reward the bravest of adventurers."]
 			icon: "bosses_of_mass_destruction:obsidian_heart"
 			id: "7396F8EA48C42D37"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "297582AB7C3C01E3"
+					table_id: 7559836027894330734L
+					type: "choice"
+				}
+				{
+					id: "010BAEBF21109F1C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "pentagon"
 			size: 2.0d
+			subtitle: "Find the obsidilith atop tall end structures"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:obsidilith"
 				id: "71829D9166C0F095"
 				type: "kill"
 				value: 1L
 			}]
-			x: -6.0d
-			y: -2.5d
+			x: 11.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1524A7053FBA0402"]
@@ -126,8 +426,8 @@
 				item: "theabyss:loran"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 2.0d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1524A7053FBA0402"]
@@ -137,11 +437,33 @@
 				item: "theabyss:ender_crystal_ore"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 2.0d
+			x: 11.0d
+			y: 3.5d
 		}
 		{
+			description: ["&7Found in Desert Pyramid chests"]
 			id: "26AAA98B4D4803CB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5BE30854D79D1031"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "369BFEF02548EB3B"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A6D303E619E0286"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
+			subtitle: "Sandy"
 			tasks: [{
 				id: "2E879FFF65A67929"
 				item: {
@@ -153,11 +475,32 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
-			y: 3.0d
+			x: -13.583333333333329d
+			y: 2.3333333333333286d
 		}
 		{
+			description: ["&7Dropped by Elder Guardians"]
 			id: "14DFFFAE1035DEEC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77779EA949E5EC06"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C45A786EBBBBA9C"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BB7D1375CD62FC9"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "719E879122B09723"
 				item: {
@@ -169,11 +512,32 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -4.5d
+			x: -9.583333333333329d
+			y: -5.166666666666671d
 		}
 		{
+			description: ["&7Chance of dropping when enchanting items"]
 			id: "64CC4BB7D1EFBB97"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A43A7795061EA2D"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A46326815CA99DB"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "755B50AAB5359176"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "55F8D9920E62206B"
 				item: {
@@ -185,11 +549,32 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: 4.5d
+			x: -9.583333333333329d
+			y: 3.8333333333333286d
 		}
 		{
+			description: ["&7Found in Nether Fortress chests "]
 			id: "1ECD825622B79CFA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C8D3BA9CBA5A756"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25077C4980199D03"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6445E93BA3C326AF"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "689E5D5F50253751"
 				item: {
@@ -201,11 +586,32 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: 4.0d
+			x: -11.583333333333329d
+			y: 3.3333333333333286d
 		}
 		{
+			description: ["&7Found in Woodland Mansion chests and dropped by Evokers"]
 			id: "480D4B411EE14D16"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6FBC8C03EDB310DA"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "677441DC828D6A24"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34ABE480EC3159F3"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "1396ABFA60AFB739"
 				item: {
@@ -217,11 +623,32 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -4.5d
+			x: -10.583333333333329d
+			y: -5.166666666666671d
 		}
 		{
+			description: ["&7Found in Mineshaft chests"]
 			id: "79F034ACF7DE0CFC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C641ADB871033AD"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "007E43A1B6DEBFB5"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26A24665F25689E0"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "35C17DF2C825C59C"
 				item: {
@@ -233,11 +660,32 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: 4.5d
+			x: -10.583333333333329d
+			y: 3.8333333333333286d
 		}
 		{
+			description: ["&7Crafted with 1 Eye of Ender and 1 Witch Pupil "]
 			id: "6FAB57C5765F94ED"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "50EB1C5717E59D00"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "298FD354A63F9EB9"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34D68B25B8AB3C62"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "4D236A0A999E3268"
 				item: {
@@ -249,11 +697,32 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -4.5d
+			x: -8.583333333333329d
+			y: -5.166666666666671d
 		}
 		{
+			description: ["&7Bought from Master-level Cleric Villagers for Emeralds (random amount) and 1 Rabbit's Foot. This trade may randomly replace one or both of the Cleric's vanilla Master-level trades."]
 			id: "06DCF93168961EF0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "45AF2CC7A18000CF"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E5AE640248ADC79"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02A4F89B33CC9D9A"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "40A75A278216221F"
 				item: {
@@ -265,11 +734,32 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: -3.5d
+			x: -12.583333333333329d
+			y: -4.166666666666671d
 		}
 		{
+			description: ["&7Crafted with 1 Phantom Membrane, 1 Bone, 1 Rotten Flesh, 1 Ghast Tear, and 1 Undead Soul "]
 			id: "751852A2934B89C9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40189D35763259F0"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B8BF243C0C11DE7"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DE8329E032E8CE3"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "767590A6817B43D4"
 				item: {
@@ -281,11 +771,32 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: -4.0d
+			x: -11.583333333333329d
+			y: -4.666666666666671d
 		}
 		{
+			description: ["&7Found in Jungle Pyramid chests"]
 			id: "62A3747899183C4B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "792963D1FB238AF5"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A2937F7765B82A2"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "619BCF089F58EF43"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "4F4282D6C83537A0"
 				item: {
@@ -297,11 +808,32 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: 4.5d
+			x: -8.583333333333329d
+			y: 3.8333333333333286d
 		}
 		{
+			description: ["&7Dropped by the Wither"]
 			id: "6A7BF24BAC52F096"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "266E6E20AF191921"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "421ED27B5DD78992"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5072099A94FBEA6E"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "28774D25C4520627"
 				item: {
@@ -313,11 +845,32 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -4.0d
+			x: -7.583333333333329d
+			y: -4.666666666666671d
 		}
 		{
+			description: ["&7Found in Pillager Outpost chests"]
 			id: "016320D94C702CFB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1ACA1CA4E4A7CBB8"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49EA075FEED2AA3C"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E9CB2DBF6B79481"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "0356E95F3211BD04"
 				item: {
@@ -329,11 +882,32 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.0d
+			x: -7.583333333333329d
+			y: 3.3333333333333286d
 		}
 		{
+			description: ["&7Found in Bastion Remnant Treasure chests"]
 			id: "007305AFCD232F2A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BD9D32EBC256E81"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4AAA9332C5E00A93"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19706C3A0413D4D2"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "74DC2EB16514E41E"
 				item: {
@@ -345,11 +919,32 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: 3.5d
+			x: -6.583333333333329d
+			y: 2.8333333333333286d
 		}
 		{
+			description: ["&7Found in Buried Treasure chests"]
 			id: "478C1DA3B9F48FB6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "027775F70DA8C892"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58E9B54E464216B4"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0382BD2B241BA8DF"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "34EC347DFA96D783"
 				item: {
@@ -361,11 +956,32 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: -3.5d
+			x: -6.583333333333329d
+			y: -4.166666666666671d
 		}
 		{
+			description: ["&7Found in Igloo chests "]
 			id: "01C3A3A52DAD0409"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75B93CF6CBC013DF"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EAC400271F3FE4B"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58D1B3B3A2F5A5E2"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "487EC24534ABDFF3"
 				item: {
@@ -377,11 +993,32 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: 3.5d
+			x: -12.583333333333329d
+			y: 2.8333333333333286d
 		}
 		{
+			description: ["&7Crafted with 1 Eye of Ender, 4 Corals (bubble, fire, horn, and tube), 2 Conduits, and 2 Glow Ink Sacs."]
 			id: "53C5164FCD4E0688"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C793E3AA622487E"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1870F29E545EAEEB"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EEBD855CAB9309B"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "369E388C12E08F05"
 				item: {
@@ -393,8 +1030,52 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.0d
+			x: -5.583333333333329d
+			y: 2.3333333333333286d
+		}
+		{
+			dependencies: [
+				"26AAA98B4D4803CB"
+				"14DFFFAE1035DEEC"
+				"64CC4BB7D1EFBB97"
+				"1ECD825622B79CFA"
+				"480D4B411EE14D16"
+				"79F034ACF7DE0CFC"
+				"6FAB57C5765F94ED"
+				"06DCF93168961EF0"
+				"751852A2934B89C9"
+				"62A3747899183C4B"
+				"6A7BF24BAC52F096"
+				"016320D94C702CFB"
+				"007305AFCD232F2A"
+				"478C1DA3B9F48FB6"
+				"01C3A3A52DAD0409"
+				"53C5164FCD4E0688"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "bosses_of_mass_destruction:particle/eye_open_5"
+				}
+			}
+			id: "242D7BC20C1B3480"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06117657603BEFFB"
+				table_id: 4129790000591020242L
+				type: "choice"
+			}]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "With the collection of ancient eyes, you now behold the world in its full, hidden splendor. The veils have lifted, and the unseen is revealed to you alone."
+			tasks: [{
+				id: "0E2D9C1D849726C2"
+				title: "All seeing"
+				type: "checkmark"
+			}]
+			x: -9.583333333333329d
+			y: -0.6666666666666714d
 		}
 	]
 	title: "The end"

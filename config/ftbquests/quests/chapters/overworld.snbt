@@ -1,14 +1,520 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "test"
+	filename: "overworld"
 	group: "653CB9213F69DF0A"
 	icon: "minecraft:grass_block"
 	id: "2A69D6F9DDB6664E"
+	images: [
+		{
+			height: 1.0d
+			image: "phantasm:block/void_crystal_shard_down_tip"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.0d
+			y: -16.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cave_vines"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.0d
+			y: -14.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/soul_campfire_fire"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.5d
+			y: -13.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/soul_campfire_fire"
+			order: 1
+			rotation: 180.0d
+			width: 3.0d
+			x: 9.5d
+			y: -10.5d
+		}
+		{
+			height: 2.0d
+			image: "tombstone:textures/aura/aura1.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			height: 2.0d
+			image: "zoomers_armory:item/flint_shortbow_drawing_2"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			height: 2.0d
+			image: "aether:item/armor/valkyrie_chestplate"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "create_sa:item/copper_magnet"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			height: 2.0d
+			image: "theabyss:item/bone_pickaxe"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			height: 2.0d
+			image: "create_sa:item/experience_pickaxe"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			height: 2.0d
+			image: "sophisticatedbackpacks:item/anvil_upgrade"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			height: 2.0d
+			image: "zoomers_armory:item/flint_shortbow_drawing_0"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			height: 2.0d
+			image: "zoomers_armory:item/flint_longbow_drawing_0"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			height: 2.0d
+			image: "theabyss:item/ice-diamond"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "aether:item/food/candy_cane"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "simpleradio:block/antenna"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:item/fishing_rod"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/particle/lava.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			height: 2.0d
+			image: "immersive_melodies:item/icon/bagpipe"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			height: 2.0d
+			image: "man_of_many_planes:item/scarlet_biplane"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			image: "phantasm:block/void_crystal_shard_down_tip"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "phantasm:block/void_crystal_shard_down_tip"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cave_vines_plant"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.0d
+			y: -11.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cave_vines_lit"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -1.0d
+			y: -11.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cave_vines_plant_lit"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -1.0d
+			y: -16.5d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/golden_vine"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 15.0d
+			y: -16.5d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/golden_vine_bottom"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 15.0d
+			y: -11.5d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/golden_vine"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 15.0d
+			y: -14.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/tall_seagrass_bottom"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/tall_seagrass_top"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			height: 2.0d
+			image: "ftblibrary:icons/star"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.5d
+			y: -11.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cave_vines_plant_lit"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -1.0d
+			y: -14.0d
+		}
+		{
+			height: 4.0d
+			image: "supplementaries:block/pedestal_side"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: 9.5d
+			y: -9.0d
+		}
+		{
+			height: 5.0d
+			image: "waystones:textures/gui/inventory_button.png"
+			order: 2
+			rotation: 0.0d
+			width: 5.0d
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "phantasm:block/void_crystal_shard_down_tip"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "phantasm:block/void_crystal_shard_down_tip"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "phantasm:block/void_crystal_shard_down_tip"
+			order: 1
+			rotation: 180.0d
+			width: 1.0d
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "phantasm:block/void_crystal_shard_down_tip"
+			order: 1
+			rotation: 180.0d
+			width: 1.0d
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "phantasm:block/void_crystal_shard_down_tip"
+			order: 1
+			rotation: 180.0d
+			width: 1.0d
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "phantasm:block/void_crystal_shard_down_tip"
+			order: 1
+			rotation: 180.0d
+			width: 1.0d
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "phantasm:block/void_crystal_shard_down_tip"
+			order: 1
+			rotation: 180.0d
+			width: 1.0d
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/tall_seagrass_bottom"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/tall_seagrass_bottom"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/tall_seagrass_top"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/tall_seagrass_top"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			height: 5.0d
+			image: "blue_skies:block/misc/black_fire_1"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			height: 30.0d
+			image: "betternether:block/obsidian_rod_tiles"
+			rotation: 0.0d
+			width: 30.0d
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			height: 30.0d
+			image: "minecraft:block/bedrock"
+			rotation: 0.0d
+			width: 30.0d
+			x: 29.571428571428612d
+			y: -4.904761904761912d
+		}
+		{
+			height: 30.0d
+			image: "minecraft:block/blackstone"
+			rotation: 0.0d
+			width: 30.0d
+			x: 29.714285714285737d
+			y: -30.642857142857125d
+		}
+		{
+			height: 30.0d
+			image: "minecraft:block/obsidian2"
+			rotation: 0.0d
+			width: 30.0d
+			x: 4.000000000000028d
+			y: -30.500000000000014d
+		}
+		{
+			height: 30.0d
+			image: "minecraft:block/deepslate_gold_ore"
+			rotation: 0.0d
+			width: 30.0d
+			x: -21.714285714285694d
+			y: 20.809523809523796d
+		}
+		{
+			height: 30.0d
+			image: "minecraft:block/deepslate_copper_ore"
+			rotation: 0.0d
+			width: 30.0d
+			x: -21.714285714285694d
+			y: -4.904761904761912d
+		}
+		{
+			height: 30.0d
+			image: "minecraft:block/deepslate_diamond_ore3"
+			rotation: 0.0d
+			width: 30.0d
+			x: 4.000000000000028d
+			y: 20.74999999999997d
+		}
+		{
+			height: 30.0d
+			image: "callfromthedepth_:block/netherite_block"
+			rotation: 0.0d
+			width: 30.0d
+			x: 29.714285714285722d
+			y: 20.785714285714278d
+		}
+		{
+			height: 30.0d
+			image: "nethersdelight:block/nether_brick_smoker_bottom"
+			rotation: 0.0d
+			width: 30.0d
+			x: -21.714285714285687d
+			y: -30.61904761904762d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["&7Every great journey starts with a simple step. Craft your first wooden tools and prepare to carve your path in this untamed world. The adventure begins now!"]
 			icon: {
 				Count: 1
 				id: "minecraft:wooden_pickaxe"
@@ -36,6 +542,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Morning wood"
 			tasks: [
 				{
 					id: "24B3BA582FB1B1DB"
@@ -72,11 +579,12 @@
 				}
 			]
 			title: "In the beginning"
-			x: -4.5d
-			y: -3.5d
+			x: -6.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["55DA1E2F65D47606"]
+			description: ["&7From wood to stone, take your tools to the next level. Harness the strength of the earth and shape your destiny with sturdier stone tools. You're ready to dig deeper!"]
 			icon: {
 				Count: 1
 				id: "minecraft:stone_pickaxe"
@@ -103,6 +611,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Hard as rock"
 			tasks: [
 				{
 					id: "25F9E0A1EC3811C0"
@@ -139,11 +648,12 @@
 				}
 			]
 			title: "Stone age"
-			x: -3.0d
-			y: -3.5d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3E3C192F1B2C4AFB"]
+			description: ["&7You've mastered the basics, now it's time to wield the power of iron. Craft tools that can stand the test of time, and prepare for the challenges ahead. Your true journey begins here!"]
 			icon: {
 				Count: 1
 				id: "minecraft:iron_pickaxe"
@@ -176,6 +686,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Iron prowess"
 			tasks: [
 				{
 					id: "483E68222853A8B2"
@@ -211,12 +722,13 @@
 					type: "item"
 				}
 			]
-			title: "Iron age"
+			title: "Forged in Iron "
 			x: -1.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["3F6B027FC76927D9"]
+			description: ["&7You've captured the fury of the earth itself. With a bucket of lava in hand, you hold the power to reshape the world, fuel great forges, or unleash fiery destruction. Use this molten force wisely!"]
 			id: "6671E971AE1EEE0C"
 			rewards: [
 				{
@@ -231,17 +743,19 @@
 					type: "item"
 				}
 			]
+			subtitle: "Bucket challenge"
 			tasks: [{
 				id: "4A159C5D3FEFA566"
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
 			title: "Hot stuff"
-			x: 0.0d
-			y: -5.0d
+			x: -0.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3F6B027FC76927D9"]
+			description: ["&7Armor up! With a full suit of iron, you're no longer just surviving—you're thriving. Step into the fray with the strength to withstand any challenge. The world better be ready for you now!"]
 			icon: {
 				Count: 1
 				id: "minecraft:iron_chestplate"
@@ -268,6 +782,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Suits"
 			tasks: [
 				{
 					id: "461D8C5229373D52"
@@ -326,18 +841,33 @@
 				}
 			]
 			title: "Iron man"
-			x: 0.0d
-			y: -1.0d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["633499C57C9CE4CF"]
+			description: ["&7You've struck treasure! With diamonds in hand, you've discovered the rarest and most powerful resource. These gems hold the key to crafting legendary gear. Your journey just reached a whole new level!"]
 			id: "226B619AE352B9D3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0163E3FBFEE31E82"
-				table_id: 4648757727491339053L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "0404DC4C60F167D8"
+					item: {
+						Count: 1
+						id: "easy_mob_farm:golden_lasso"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0163E3FBFEE31E82"
+					table_id: 4648757727491339053L
+					type: "loot"
+				}
+			]
+			subtitle: "D..d...d..d DIAMONDS!"
 			tasks: [{
 				count: 10L
 				id: "78810B8D6BED9558"
@@ -350,6 +880,7 @@
 		}
 		{
 			dependencies: ["226B619AE352B9D3"]
+			description: ["&7Adorn yourself in the ultimate symbol of strength and prestige with a full suit of diamond armor. Unmatched in protection and style, this gear will prepare you for the fiercest battles and grandest adventures. Stand tall and unyielding!"]
 			icon: {
 				Count: 1
 				id: "minecraft:diamond_chestplate"
@@ -372,6 +903,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "Carbon armor"
 			tasks: [
 				{
 					id: "4A20E6F0BC5E4BB6"
@@ -431,10 +963,11 @@
 			]
 			title: "Haladit"
 			x: 6.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["480BE4229F53362D"]
+			description: ["&7With a strike of flint and steel, unleash the power of fire. Ignite your path forward, bringing light to the darkness and warmth to the cold. Let the sparks of progress guide you!"]
 			id: "3F6B027FC76927D9"
 			rewards: [
 				{
@@ -473,6 +1006,7 @@
 					type: "loot"
 				}
 			]
+			subtitle: "FIRE!!!"
 			tasks: [{
 				id: "49B7A696BF34C2B0"
 				item: {
@@ -490,23 +1024,26 @@
 		}
 		{
 			dependencies: ["226B619AE352B9D3"]
+			description: ["&7Harness the mystic energies of the world with an enchanting table. Infuse your gear with powerful enchantments and unlock magical potential. The secrets of the arcane are now at your fingertips!"]
 			id: "4B27B1A14C811542"
 			rewards: [{
 				id: "35EB09CB7661CB4D"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
+			subtitle: "Shiny!"
 			tasks: [{
 				id: "47A658F132010D38"
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
 			title: "Vrajeala"
-			x: 1.5d
-			y: -5.0d
+			x: 2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["480BE4229F53362D"]
+			description: ["&7You've come far, but true craftsmanship lies in the art of repair and enchantment. Construct an anvil and unlock the power to mend and enhance your gear. The tools of a master are now within your reach!"]
 			id: "7580DA820A650C2C"
 			rewards: [
 				{
@@ -533,14 +1070,15 @@
 					type: "item"
 				}
 			]
+			subtitle: "Hammer time"
 			tasks: [{
 				id: "4D15880CBAF89D61"
 				item: "minecraft:anvil"
 				type: "item"
 			}]
 			title: "Nicoleta"
-			x: -2.0d
-			y: -5.5d
+			x: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7DCD75CD3573BDFC"]
@@ -572,10 +1110,11 @@
 				type: "item"
 			}]
 			title: "Meth"
-			x: 5.5d
-			y: -1.5d
+			x: 9.5d
+			y: 0.0d
 		}
 		{
+			description: ["&7Craft a candy that seems a bit too intriguing. Its mysterious appearance and unknown effects might hold unexpected surprises. Dare to taste and uncover the secrets hidden within this suspicious treat!"]
 			id: "7DCD75CD3573BDFC"
 			rewards: [
 				{
@@ -603,11 +1142,12 @@
 				type: "item"
 			}]
 			title: "Sus looking candy"
-			x: 2.5d
-			y: -1.5d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["633499C57C9CE4CF"]
+			description: ["&7Harness the power of attraction with a new magnet. This device extends your pickup range, making it easier to gather resources from afar. With this handy tool, no treasure will be out of reach!"]
 			id: "527A569F3EE723FF"
 			rewards: [
 				{
@@ -634,6 +1174,7 @@
 					xp_levels: 1
 				}
 			]
+			subtitle: "Magnetism!"
 			tasks: [{
 				id: "0839346ABB8DCC7F"
 				item: {
@@ -644,11 +1185,12 @@
 				type: "item"
 			}]
 			title: "Magnetic field"
-			x: -2.0d
-			y: -1.0d
+			x: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["527A569F3EE723FF"]
+			description: ["&7Step up your collection game with an advanced magnet that extends your pickup range even further. With its incredible reach, you’ll gather resources from great distances and make every haul more efficient. The world’s treasures are now within your grasp!"]
 			id: "21FA97DF5F12E048"
 			rewards: [
 				{
@@ -672,6 +1214,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "Gold magnet"
 			tasks: [{
 				id: "032EA425088DF81E"
 				item: {
@@ -682,11 +1225,12 @@
 				type: "item"
 			}]
 			title: "Pussy magnet"
-			x: -3.5d
-			y: 0.5d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6671E971AE1EEE0C"]
+			description: ["&7Take to the skies with the Gyrodrone, your first step into the world of flight. Crafted with ingenuity, this basic aircraft lets you soar above the land and explore new horizons. The sky is no longer the limit!"]
 			id: "3CA3A36693BBA2AA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -696,6 +1240,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "Feet powered"
 			tasks: [{
 				id: "0F43FC1D3D3F92AA"
 				item: "immersive_aircraft:gyrodyne"
@@ -703,33 +1248,37 @@
 			}]
 			title: "Take flight"
 			x: 0.0d
-			y: -7.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["3CA3A36693BBA2AA"]
+			description: ["&7You've mastered the art of flight with your very own plane. This powerful craft allows you to travel far and wide, conquering the skies with speed and precision. The world is yours to explore from above!"]
 			id: "41120B9014BDF3A5"
 			rewards: [{
 				id: "46B815737F0EC283"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "Coal powered"
 			tasks: [{
 				id: "62F08E7A79EE801C"
 				item: "immersive_aircraft:biplane"
 				type: "item"
 			}]
 			title: "Gonna go far kid"
-			x: 1.5d
-			y: -8.0d
+			x: 3.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["3CA3A36693BBA2AA"]
+			description: ["&7Elevate your flying machines with crucial enhancements. Equip steel pipes for durability, a sturdy boiler for efficiency, and an enhanced propeller for speed. With these upgrades, your Gyrodrone and plane will conquer the skies with unmatched power and precision!"]
 			id: "1A94B4301FB129D8"
 			rewards: [{
 				id: "3F96853A57964E7A"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "Room for upgrades"
 			tasks: [
 				{
 					id: "1D4956C607C5AF7E"
@@ -748,11 +1297,12 @@
 				}
 			]
 			title: "Small upgrades"
-			x: -1.5d
-			y: -8.0d
+			x: -3.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["4B27B1A14C811542"]
+			description: ["&7Unlock the secrets of instant travel with a Warp Stone. This powerful gem is the key to crafting a Waystone, allowing you to teleport between distant locations. Journey effortlessly across the world and explore with newfound freedom!"]
 			id: "696C6897F7D9BAC2"
 			rewards: [{
 				id: "3D0C11E3C62CE53B"
@@ -761,6 +1311,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "Warping wonders"
 			tasks: [{
 				id: "0E0248E300028B51"
 				item: {
@@ -773,11 +1324,12 @@
 				type: "item"
 			}]
 			title: "Calea Domnului"
-			x: 2.5d
-			y: -6.0d
+			x: 3.75d
+			y: -8.25d
 		}
 		{
 			dependencies: ["643CA4CD577CD3C5"]
+			description: ["&7Confront the ancient terror of the Void Blossom, a colossal, man-eating plant twisted by the void’s dark power. Its insatiable hunger and otherworldly strength make it a formidable foe. Overcome this monstrous bloom to rid the land of its malevolent influence!"]
 			icon: "bosses_of_mass_destruction:void_thorn"
 			id: "6D3B6335BF44D066"
 			rewards: [
@@ -807,17 +1359,19 @@
 			]
 			shape: "octagon"
 			size: 2.0d
+			subtitle: "Flower power"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:void_blossom"
 				id: "22F5DCE69C3AB7F9"
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.0d
-			y: -1.5d
+			x: 13.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4B206DEC6377851A"]
+			description: ["&7Face the darkness head-on and defeat the Night Lich. This powerful foe dwells in shadows, commanding fear and necromantic might. Triumph over the lich to restore light and peace to the land. The night ends now!"]
 			icon: "doggytalents:throw_bone_wet"
 			id: "0E0B717E48E481D2"
 			rewards: [
@@ -847,17 +1401,19 @@
 			]
 			shape: "octagon"
 			size: 2.0d
+			subtitle: "Facing a calamity"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:lich"
 				id: "7174189AFBDA444A"
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.0d
-			y: -5.0d
+			x: 9.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["64EE5B69C5E20AB1"]
+			description: ["&7Forge a full set of Neptunium armor, the legendary metal once wielded by the ancient sirens. Infused with their lost magic and unrivaled strength, this armor offers unmatched protection and grace. Don this set and channel the power of the deep seas!"]
 			icon: {
 				Count: 1
 				id: "aquaculture:neptunium_chestplate"
@@ -866,12 +1422,7 @@
 				}
 			}
 			id: "76948D8EFE97F7C1"
-			rewards: [{
-				count: 3
-				id: "38A9EBCFC3CE38CC"
-				item: "aquaculture:neptunium_ingot"
-				type: "item"
-			}]
+			subtitle: "Fish power"
 			tasks: [
 				{
 					id: "0E1F0BD7E857C329"
@@ -919,22 +1470,24 @@
 				}
 			]
 			x: 11.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
+			description: ["&7Harness the ethereal power of the Soul Star. This mystical artifact will lead you to the hidden citadel of the Night Lich. Follow its otherworldly glow to uncover the secrets of this formidable foe's lair."]
 			id: "4B206DEC6377851A"
 			rewards: [{
 				id: "6D3BD2C9006BF083"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "Soul chilling"
 			tasks: [{
 				id: "0EBCAB5C10662EAD"
 				item: "bosses_of_mass_destruction:soul_star"
 				type: "item"
 			}]
 			x: 6.5d
-			y: -5.0d
+			y: -11.5d
 		}
 	]
 	title: "Everyone starts somewhere"

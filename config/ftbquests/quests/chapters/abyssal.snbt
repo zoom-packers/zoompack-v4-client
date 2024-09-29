@@ -5,32 +5,886 @@
 	group: "653CB9213F69DF0A"
 	icon: "theabyss:eye_of_abyss"
 	id: "4E57F70FEB4CECB2"
+	images: [{
+		height: 70.0d
+		image: "vahmas_creator_pack:textures/gui/pano4_aby.png"
+		rotation: 0.0d
+		width: 130.1379811183733d
+		x: 1.5d
+		y: 1.5d
+	}]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1118105FC75DE975"]
 			icon: "theabyss:eye_of_abyss"
 			id: "66A4C5E4A2DCED88"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22C7E1E1C35A03E2"
+					table_id: 1610080839990707444L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04D7D10995DF82C2"
+					table_id: 6759378343124754253L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "605DEF3EE2F8D16E"
+					table_id: 7559836027894330734L
+					type: "choice"
+				}
+			]
+			subtitle: "Take a good look at the abyss"
 			tasks: [{
 				dimension: "theabyss:the_abyss"
 				id: "1246222D5B675547"
 				type: "dimension"
 			}]
 			title: "It stares back..."
-			x: 0.0d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
-			id: "1118105FC75DE975"
+			dependencies: ["66A4C5E4A2DCED88"]
+			id: "732914CFE175C63B"
+			rewards: [{
+				id: "19B40C7E7F4349D4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
-				id: "7871733FE2DDED4D"
-				item: "theabyss:dream_shifter"
+				id: "7EE16BFA70D83FC8"
+				item: "theabyss:fusion_ore"
 				type: "item"
 			}]
-			title: "The dreamscape"
 			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66A4C5E4A2DCED88"]
+			id: "6EBA714613BF6706"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "175DA89EC0B3D13A"
+				table_id: 9128693189845719534L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "045A623851DE39E0"
+				item: "theabyss:aberythe_gem"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["66A4C5E4A2DCED88"]
+			id: "1AB3CEA122EAB921"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B91E286EEE6E9A9"
+				table_id: 9128693189845719534L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "114EB9B1EDA97143"
+				item: "theabyss:ignisithe_gem"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["66A4C5E4A2DCED88"]
+			id: "2A227B4173F1124C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "389843B106212496"
+				table_id: 9128693189845719534L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4DE2691C30128643"
+				item: "theabyss:glacerythe_gem"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["66A4C5E4A2DCED88"]
+			id: "1F0C3300AA173C59"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B01E3CED3C0F0BF"
+				table_id: 9128693189845719534L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "51586CD87E01C50F"
+				item: "theabyss:unorithe_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["66A4C5E4A2DCED88"]
+			id: "5A7A993C49F8477D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "147EE934FC500A57"
+				table_id: 9128693189845719534L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1197F81824AF114D"
+				item: "theabyss:incorythe_gem"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["46A6D90790580052"]
+			id: "2621B36AEC0729BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A180ACB69BF08BC"
+				table_id: 9128693189845719534L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6A5179AD7DB5B4C9"
+				item: "theabyss:arcane_workbench"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["66A4C5E4A2DCED88"]
+			id: "64161A8E64A38AE0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38EA5FE2D95414FA"
+				table_id: 9128693189845719534L
+				type: "loot"
+			}]
+			subtitle: "Nightmarish gems"
+			tasks: [{
+				id: "006EE77500A388F9"
+				item: "theabyss:crystal_cutter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"592BF5C692840768"
+				"1D7BA6D53470074C"
+			]
+			id: "1B926686AE4A26BD"
+			rewards: [
+				{
+					id: "77EFA8AFD6F8FE58"
+					item: "theabyss:apple_of_immortality"
+					type: "item"
+				}
+				{
+					id: "392E683E7E54BDEB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "4AC606E4F0508415"
+				item: "theabyss:somnium_infuser"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["66A4C5E4A2DCED88"]
+			id: "5AB5EC9F2BFB7C8A"
+			rewards: [
+				{
+					count: 2
+					id: "2386FFF142031027"
+					item: "theabyss:bottle_of_somnium"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "258EFA8D4D30BD27"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					id: "0D16B8B34DE78CB5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Used for crushing ingredients found around in the abyss"
+			tasks: [{
+				id: "67ACF0D248A6DB79"
+				item: "theabyss:mortar_and_pestle"
+				type: "item"
+			}]
+			x: -3.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["66A4C5E4A2DCED88"]
+			id: "5EBCA0D2D5030D12"
+			rewards: [
+				{
+					count: 3
+					id: "3D7887614BA84F42"
+					item: "croptopia:tea_leaves"
+					type: "item"
+				}
+				{
+					id: "4DA13A28B82BFE5C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "47445BA1EFD7F8FA"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77D683E37B7A20FF"
+					table_id: 9128693189845719534L
+					type: "loot"
+				}
+			]
+			subtitle: "Essence of dreams..."
+			tasks: [{
+				id: "22E7AFF07C7E041F"
+				item: "theabyss:somnium"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5EBCA0D2D5030D12"]
+			id: "4B067C51EAA56738"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42C48E68254249EF"
+				table_id: 9034325636812312147L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "328E7D8F4399E2DD"
+				item: "theabyss:bottle_of_somnium"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4B067C51EAA56738"]
+			id: "1D7BA6D53470074C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E0262F2D65B8E97"
+				table_id: 9034325636812312147L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7889C471B7301898"
+				item: "theabyss:test_tube"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4B067C51EAA56738"]
+			id: "592BF5C692840768"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "003D28D0FDCC2C37"
+				table_id: 9034325636812312147L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4DDB56652C45718A"
+				item: "theabyss:test_tube_head"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5A7A993C49F8477D"]
+			id: "46A6D90790580052"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FCF45EF53A8CC56"
+				table_id: 9128693189845719534L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0CA86384039725F4"
+				item: {
+					Count: 1
+					id: "theabyss:loran_energy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["64161A8E64A38AE0"]
+			id: "027D95D93801FFEF"
+			rewards: [
+				{
+					count: 3
+					id: "54E46A9C3DCD7B0D"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "466E6587360224EA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "7976997AEE073B27"
+				item: "theabyss:ender_crystal_shard"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["64161A8E64A38AE0"]
+			id: "2FC5E82F4614918A"
+			rewards: [{
+				id: "2BAE9C854B38573F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "65B7D18909B7F395"
+				item: "theabyss:crimson_crystal_shard"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["64161A8E64A38AE0"]
+			id: "403BDA401FEB68BB"
+			rewards: [
+				{
+					count: 3
+					id: "72634A08FCEABA53"
+					item: "theabyss:glacerythe_gem"
+					type: "item"
+				}
+				{
+					id: "60CABB35D2326680"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "1FAA7A4370BF5101"
+				item: "theabyss:frost_crystal_shard"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64161A8E64A38AE0"]
+			id: "34368179FFA5D918"
+			rewards: [{
+				count: 2
+				id: "4719D4E0B08A7B34"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D73C7F17399E5F9"
+				item: "theabyss:hollow_crystal_shard"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["64161A8E64A38AE0"]
+			id: "403448F1D8FEE76C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27AF504BBD926852"
+				table_id: 5864491233161153354L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1E2A7F7A36A3FFEF"
+				item: "theabyss:abyss_crystal_shard"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["64161A8E64A38AE0"]
+			id: "520F55F002793B47"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F5F72E9E27E3DD5"
+				table_id: 5864491233161153354L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "43924E1CCA8B85CE"
+				item: "theabyss:warped_crystal_shard"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["64161A8E64A38AE0"]
+			id: "0221089EC1AC4376"
+			rewards: [
+				{
+					count: 2
+					id: "3BBAC16B760F8CA1"
+					item: "theabyss:glacerythe_gem"
+					type: "item"
+				}
+				{
+					id: "33C25230DB5E9EE4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "54B6D8E78F2982E9"
+				item: "theabyss:caverna_crystal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64161A8E64A38AE0"]
+			id: "1CF5523345D678B5"
+			rewards: [
+				{
+					count: 2
+					id: "3A6F4AAC860690DD"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "2283EC9C23368FF5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "63D10E504807BA55"
+				item: "theabyss:aurel_crystal_shard"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5AB5EC9F2BFB7C8A"]
+			id: "2B89C3E918FD7BDB"
+			rewards: [{
+				count: 32
+				id: "2C26B4E93F625F9B"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20F6633A070E6129"
+				item: "theabyss:abyss_powder"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5AB5EC9F2BFB7C8A"]
+			id: "5798B2267C29A135"
+			rewards: [{
+				id: "4FA817342EBEC4EA"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2894F5F7FDB6C8A8"
+				item: "theabyss:aurel_powder"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5AB5EC9F2BFB7C8A"]
+			id: "7A2A7C35BCBC092F"
+			rewards: [{
+				count: 10
+				id: "533264BC59CE3301"
+				item: "create:golden_sheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D564D8AF034DA24"
+				item: "theabyss:caverna_powder"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5AB5EC9F2BFB7C8A"]
+			id: "21E55AEF1B8DCD4A"
+			rewards: [{
+				count: 10
+				id: "49023898C3C27961"
+				item: "createaddition:electrum_sheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "232FF75571E397BF"
+				item: "theabyss:crimson_powder"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5AB5EC9F2BFB7C8A"]
+			id: "3AD209BC53C5BAD0"
+			rewards: [{
+				count: 10
+				id: "4165F12534E1B443"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "054AC91606F3F7A5"
+				item: "theabyss:ender_powder"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5AB5EC9F2BFB7C8A"]
+			id: "2FA988EFA360DFB6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76C817D024F0DC9D"
+				table_id: 8377692837458490033L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0BA78E51F5BC0B3C"
+				item: "theabyss:fear_powder"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5AB5EC9F2BFB7C8A"]
+			id: "371D4BD398A711E0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34580B9778AF7143"
+					table_id: 5864491233161153354L
+					type: "loot"
+				}
+				{
+					id: "66D6C0BD94C57A50"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3553A2BBED035F1B"
+					table_id: 9128693189845719534L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6B06D14E95B5F086"
+				item: "theabyss:ardor_powder"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5AB5EC9F2BFB7C8A"]
+			id: "1D20FE9F26B50BEA"
+			rewards: [
+				{
+					count: 10
+					id: "01F384A483A9F560"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "2CB3B2618AE3A36F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "13151BF9F54CD190"
+				item: "theabyss:tenebris_powder"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5AB5EC9F2BFB7C8A"]
+			id: "0A881A8852237047"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "327916D6003EFC1A"
+				table_id: 5864491233161153354L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6AE697DC09DB276E"
+				item: "theabyss:frost_powder"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5AB5EC9F2BFB7C8A"]
+			id: "7CF0634CA3B39F02"
+			rewards: [{
+				count: 10
+				id: "56FFEB298668EEFB"
+				item: "create:brass_sheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64DFDD1A87198E42"
+				item: "theabyss:hollow_powder"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5AB5EC9F2BFB7C8A"]
+			id: "6CD97749BA5EAF83"
+			rewards: [{
+				count: 10
+				id: "785CB44D2C4CFE60"
+				item: "create:copper_sheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E717D3187B53624"
+				item: "theabyss:vit_powder"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5AB5EC9F2BFB7C8A"]
+			id: "7CCD7D56B6B1F6B9"
+			rewards: [{
+				count: 10
+				id: "3342CFE992C72D49"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7ED3315CE702F3DF"
+				item: "theabyss:warped_powder"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B926686AE4A26BD"]
+			id: "7E4E2A93F66B00D9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4EAA370EA98F94D6"
+					table_id: 9034325636812312147L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3ED48B49A2A0F71D"
+					table_id: 9128693189845719534L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "09A4D7197953F537"
+				item: "theabyss:lurker_juice"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1B926686AE4A26BD"]
+			id: "05E203C3B8896853"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B72197716BBCB23"
+					table_id: 9034325636812312147L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5501FAE03E5C1CAB"
+					table_id: 9128693189845719534L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "19A88AE990E4C407"
+				item: "theabyss:somnium_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1B926686AE4A26BD"]
+			id: "7369F2A733801356"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "76AD48ABEABDC107"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44C1C089C75CAF4A"
+					table_id: 9034325636812312147L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3AA78BEC6FCF45E4"
+				item: "theabyss:somnium_regen_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1B926686AE4A26BD"]
+			id: "6F1E9D12CED922AD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "26D7406CFEDE6F77"
+					table_id: 9128693189845719534L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39714E757FE387C7"
+					table_id: 9034325636812312147L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6E21B307196EAE04"
+				item: "theabyss:somnium_damage_upragde"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1B926686AE4A26BD"]
+			id: "633BC0679E3C5CB4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "288624A88BFFAE61"
+					table_id: 9034325636812312147L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "717F6EC0207809EC"
+					table_id: 9128693189845719534L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "21A5F525E71EE20F"
+				item: "theabyss:somnium_cooldown_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2621B36AEC0729BF"]
+			id: "34EC3382A5C632F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "158F45B0021D79CB"
+				table_id: 9128693189845719534L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "43D39414CC704794"
+				item: {
+					Count: 1
+					id: "theabyss:ring_of_reg"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
 		}
 	]
 	title: "Abyssal"

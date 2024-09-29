@@ -9,6 +9,29 @@
 	id: "394FF61FFE3020D2"
 	loot_size: 1
 	order_index: 16
-	rewards: [ ]
+	rewards: [
+		{
+			type: "xp_levels"
+			xp_levels: 30
+		}
+		{
+			amount: 5
+			auto: "invisible"
+			skill: "swordsmanship"
+			type: "pmmo:levelreward"
+		}
+		{
+			amount: 5
+			auto: "invisible"
+			skill: "archery"
+			type: "pmmo:levelreward"
+		}
+		{
+			amount: 5
+			auto: "invisible"
+			skill: "endurance"
+			type: "pmmo:levelreward"
+		}
+	]
 	title: "D6"
 }

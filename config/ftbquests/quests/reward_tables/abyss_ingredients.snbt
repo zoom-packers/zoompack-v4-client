@@ -1,0 +1,21 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "theabyss:item/elixir_of_abyss"
+		}
+	}
+	id: "7D605F4CFF670E53"
+	loot_size: 1
+	order_index: 38
+	rewards: [
+		{ count: 7, item: "theabyss:thunder_dust" }
+		{ count: 7, item: "theabyss:anima_dust" }
+		{ count: 7, item: "theabyss:vitae_dust" }
+		{ count: 5, item: "theabyss:knight_shard" }
+		{ count: 3, item: "theabyss:fixed_bone" }
+		{ count: 2, item: "theabyss:scorpion_eye" }
+	]
+	title: "abyss ingredients"
+}
