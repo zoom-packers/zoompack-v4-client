@@ -5,6 +5,14 @@
 	group: "11E2BD453633E57D"
 	icon: "bakery:strawberry_cake"
 	id: "5ABDF78A6A2077C6"
+	images: [{
+		height: 70.0d
+		image: "vahmas_creator_pack:textures/gui/pano_bake.png"
+		rotation: 0.0d
+		width: 130.1379811183733d
+		x: 2.0d
+		y: -7.0d
+	}]
 	order_index: 5
 	quest_links: [ ]
 	quests: [

@@ -5,6 +5,14 @@
 	group: "13CD0C62E96AC261"
 	icon: "sophisticatedstorage:controller"
 	id: "2538D7B0B2B5C08E"
+	images: [{
+		height: 70.0d
+		image: "vahmas_creator_pack:textures/gui/pano_mountains.png"
+		rotation: 0.0d
+		width: 130.1379811183733d
+		x: -1.5d
+		y: 1.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

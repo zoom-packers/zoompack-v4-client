@@ -3,6 +3,29 @@
 	id: "24E338914A17D37D"
 	loot_size: 1
 	order_index: 15
-	rewards: [ ]
+	rewards: [
+		{
+			type: "xp_levels"
+			xp_levels: 15
+		}
+		{
+			amount: 3
+			auto: "invisible"
+			skill: "archery"
+			type: "pmmo:levelreward"
+		}
+		{
+			amount: 3
+			auto: "invisible"
+			skill: "swordsmanship"
+			type: "pmmo:levelreward"
+		}
+		{
+			amount: 3
+			auto: "invisible"
+			skill: "endurance"
+			type: "pmmo:levelreward"
+		}
+	]
 	title: "D4"
 }

@@ -5,51 +5,353 @@
 	group: "653CB9213F69DF0A"
 	icon: "theabyss:infected_grass"
 	id: "3898F592514827E7"
+	images: [
+		{
+			height: 20.0d
+			image: "undergarden:block/deepturf_block_side"
+			order: -2
+			rotation: 0.0d
+			width: 20.0d
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			height: 20.0d
+			image: "undergarden:block/undergarden_portal"
+			rotation: 0.0d
+			width: 20.0d
+			x: 18.142857142857153d
+			y: 2.1000000000000156d
+		}
+		{
+			height: 20.0d
+			image: "undergarden:block/cracked_shiverstone_bricks"
+			rotation: 0.0d
+			width: 20.0d
+			x: 1.0d
+			y: 19.242857142857154d
+		}
+		{
+			height: 20.0d
+			image: "undergarden:block/boomgourd_side"
+			rotation: 0.0d
+			width: 20.0d
+			x: 18.142857142857153d
+			y: 19.24285714285716d
+		}
+		{
+			height: 20.0d
+			image: "undergarden:block/depthrock_utherium_ore"
+			rotation: 0.0d
+			width: 20.0d
+			x: -16.142857142857153d
+			y: 2.1000000000000085d
+		}
+		{
+			height: 20.0d
+			image: "undergarden:block/depthrock_regalium_ore"
+			rotation: 0.0d
+			width: 20.0d
+			x: -16.14285714285714d
+			y: 19.24285714285716d
+		}
+		{
+			height: 20.0d
+			image: "undergarden:block/cloggrum_tiles"
+			rotation: 0.0d
+			width: 20.0d
+			x: 1.0000000000000142d
+			y: -15.042857142857137d
+		}
+		{
+			height: 20.0d
+			image: "undergarden:block/wigglewood_log_side"
+			rotation: 0.0d
+			width: 20.0d
+			x: 18.142857142857153d
+			y: -15.04285714285713d
+		}
+		{
+			height: 20.0d
+			image: "undergarden:block/boomgourd_top"
+			rotation: 0.0d
+			width: 20.0d
+			x: -16.142857142857117d
+			y: -15.04285714285713d
+		}
+		{
+			height: 3.0d
+			image: "undergarden:block/frozen_deepturf"
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.5d
+			y: 9.5d
+		}
+		{
+			height: 3.0d
+			image: "undergarden:block/frozen_deepturf"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			height: 3.0d
+			image: "undergarden:block/frozen_deepturf"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			height: 3.0d
+			image: "undergarden:block/frozen_deepturf"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.42857142857138797d
+			y: 9.492857142857154d
+		}
+		{
+			height: 3.0d
+			image: "undergarden:block/frozen_deepturf"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			height: 3.0d
+			image: "undergarden:block/frozen_deepturf"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			height: 3.0d
+			image: "undergarden:block/frozen_deepturf"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.785714285714334d
+			y: 9.492857142857154d
+		}
+		{
+			height: 3.0d
+			image: "undergarden:block/frozen_deepturf"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.0d
+			y: 9.5d
+		}
+		{
+			height: 3.0d
+			image: "undergarden:block/frozen_deepturf"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.5d
+			y: 9.5d
+		}
+		{
+			height: 3.0d
+			image: "undergarden:block/blisterberry_bush_3"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.57142857142852d
+			y: 9.385714285714293d
+		}
+		{
+			height: 3.0d
+			image: "undergarden:block/ink_mushroom"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.000000000000043d
+			y: 9.492857142857154d
+		}
+		{
+			height: 3.0d
+			image: "undergarden:block/glitterkelp_plant"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.19047619047623243d
+			y: 9.421428571428585d
+		}
+		{
+			height: 3.0d
+			image: "undergarden:block/glitterkelp"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.19047619047623243d
+			y: 6.8500000000000085d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/whispering_gourd_vine"
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.738095238095198d
+			y: -5.150000000000006d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/whispering_gourd_vine_end"
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.666666666666636d
+			y: -0.007142857142859782d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/whispering_gourd_vine"
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.738095238095212d
+			y: -2.578571428571429d
+		}
+		{
+			height: 3.0d
+			image: "undergarden:block/droopvine_plant"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.642857142857153d
+			y: -5.078571428571415d
+		}
+		{
+			height: 3.0d
+			image: "undergarden:block/droopvine"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.642857142857153d
+			y: 0.06428571428573093d
+		}
+		{
+			height: 3.0d
+			image: "undergarden:block/droopvine_plant"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.642857142857153d
+			y: -2.5071428571428385d
+		}
+		{
+			height: 20.0d
+			image: "undergarden:block/grongle_sapling"
+			order: -2
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.4285714285714306d
+			y: 1.957142857142884d
+		}
+		{
+			height: 3.0d
+			image: "supplementaries:block/cannon_target"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.0d
+			y: 0.0d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["443C276C7BAB15D6"]
+			description: ["&7With the portal lit, it's time to step into the Undergarden, a dimension shrouded in darkness and mystery. As you cross the threshold, prepare for a world unlike any other, teeming with unique resources and dangerous creatures. Be vigilant—survival in the Undergarden demands courage and cunning. Explore its eerie landscapes, gather rare materials, and uncover secrets long forgotten. The journey ahead will be perilous, but the rewards are great for those who dare to brave the depths."]
 			icon: "theabyss:infected_grass"
 			id: "4FF94E7816313E70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "202536AA7EA8C29D"
+				table_id: 1610080839990707444L
+				type: "choice"
+			}]
+			subtitle: "Smells like vegans"
 			tasks: [{
 				dimension: "undergarden:undergarden"
 				id: "500A7E6E286D64F5"
 				type: "dimension"
 			}]
-			title: "Smells like vegans"
+			title: "Hidden Jungle Part 2"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
-			description: ["Catalizatorul de la masina lui Milea. Dupa ce a fost furat poate fi folosit pentru a descuia dimensiunea veganilor."]
+			description: ["&7The Underworld calls, but to reach it, you must first harness its catalyst. Deep within the Overworld lies the Catalyst, a rare item needed to access the mysterious realm known as the Undergarden. Seek out this precious item through exploration or crafting. Once obtained, construct a portal frame using Stone Bricks and activate it with the Catalyst. The eerie glow will reveal the gateway to the Undergarden—a place of strange flora, ominous creatures, and untold secrets. Prepare yourself for the unknown!"]
 			id: "443C276C7BAB15D6"
-			subtitle: "Use it to light a portal made of bricks"
+			rewards: [{
+				id: "5DC4354913D3DA8D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Use it to light a portal made of stone bricks"
 			tasks: [{
 				id: "13C1946AD858B569"
 				item: "undergarden:catalyst"
 				type: "item"
 			}]
-			title: "Catalizator"
+			title: "Hidden Jungle Part 1"
 			x: 1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4FF94E7816313E70"]
+			description: ["&7The frigid depths of the Undergarden conceal a valuable resource: Froststeel. This rare metal, infused with the icy essence of the realm, is highly sought after for its strength and durability. To obtain it, you must mine Froststeel Ore found deep within the frosty biomes of the Undergarden. Smelt the ore in a furnace to create Froststeel Ingots—a crucial material for crafting powerful tools and armor that can withstand the harshest of environments. Brave the cold, and let the frost guide your way to untold power!"]
 			id: "5C0F5BD4A341EE6E"
+			rewards: [
+				{
+					id: "5B75FCD6458F5AB1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "005BEEECAD58E057"
+					item: "undergarden:froststeel_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "389D73A4010109D9"
+					table_id: 9153771261078832289L
+					type: "choice"
+				}
+			]
+			subtitle: "Subzero"
 			tasks: [{
 				count: 5L
 				id: "1725BF464C7EA407"
 				item: "undergarden:froststeel_ingot"
 				type: "item"
 			}]
-			title: "Frosted sperm"
+			title: "Steel of Frost"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5C0F5BD4A341EE6E"]
+			description: ["&7Beneath the murky swamps of the Undergarden lies a hidden treasure: Mud Ingots. This unusual metal, forged from Cloggrum Ore and the rich mud of the realm, holds surprising strength. To craft these ingots, collect Cloggrum Ore and combine it with the dense mud found in the dark, marshy biomes of the Undergarden. Smelt this mixture to create Mud Ingots, a material perfect for crafting durable gear with unique properties. Embrace the muck, for within it lies the key to resilient tools and armor!"]
 			id: "59666E245031C7ED"
+			rewards: [
+				{
+					id: "04E6736682CDD64D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "54CB71E0C3C7AA47"
+					item: "undergarden:cloggrum_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48591E5C49B9D4B4"
+					table_id: 9153771261078832289L
+					type: "choice"
+				}
+			]
+			subtitle: "Mud powaah"
 			tasks: [{
 				count: 5L
 				id: "674D73073A6152DB"
@@ -62,75 +364,142 @@
 		}
 		{
 			dependencies: ["59666E245031C7ED"]
+			description: ["&7Deep within the shadowed caverns of the Undergarden, a radiant energy pulses from within the earth—Utherium Crystals. These rare and powerful crystals are prized for their mystical properties, capable of enhancing your tools, weapons, and more. To obtain them, delve into the most dangerous depths, where the air hums with energy and the walls glow faintly with eerie light. Mine these precious crystals with care; their power is immense but not easily tamed. Harness the energy of the Undergarden with Utherium Crystals and unlock your true potential!"]
 			id: "0C63004C99406DBD"
+			rewards: [
+				{
+					id: "16B31A635D2E09F9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "5E83BBE1E73B0DA3"
+					item: "undergarden:utherium_crystal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6179129526DF161D"
+					table_id: 9153771261078832289L
+					type: "choice"
+				}
+			]
+			subtitle: "Ominous glow..."
 			tasks: [{
 				count: 5L
 				id: "081AD92FC4690ECD"
 				item: "undergarden:utherium_crystal"
 				type: "item"
 			}]
-			title: "Ciclu uscat"
+			title: "Utherium"
 			x: 1.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["01130E9743A8E5A5"]
+			description: ["&7Hidden in the remains of the ancient Forgotten Guardians lies a rare material known as Forgotten Steel. This metal, forged from the essence of the Undergarden’s past, is both strong and mysterious. To obtain it, defeat a Forgotten Guardian and claim its essence. Smelt the essence into Forgotten Steel Ingots, a vital resource for crafting powerful relics and gear. Harness the strength of the forgotten and wield the might of the Undergarden’s lost history!"]
 			id: "55BA21A39EB22E95"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "421DFEF52BA82921"
+					table_id: 9153771261078832289L
+					type: "choice"
+				}
+				{
+					id: "57EB077E22C439A8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Green netherite"
 			tasks: [{
 				id: "4A91093AB85F191D"
 				item: "undergarden:forgotten_ingot"
 				type: "item"
 			}]
-			title: "Netherite de vegani"
-			x: 2.0d
-			y: 3.5d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["2B2E0F0F896B830C"]
+			dependencies: ["242DD57B316BCAC9"]
+			description: ["&7A menacing force guards the secrets of the Undergarden—the Forgotten Guardian. This ancient entity prowls the depths, protecting its domain with relentless power. To progress, you must defeat this formidable foe. Prepare yourself for a fierce battle; only those who conquer the Guardian can claim its spoils and unlock the deeper mysteries of the Undergarden. Face the forgotten, and let no shadow stand in your way!"]
 			id: "01130E9743A8E5A5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11DBE56F910372DF"
+					table_id: 8444144891421678922L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B51E0E825490D9E"
+					table_id: 1610080839990707444L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Find and kill a forgotten guardian in an undeground dungeon"
 			tasks: [{
 				entity: "undergarden:forgotten_guardian"
 				id: "2D31B83F2AF5AD0F"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Golem de buget"
+			title: "Budget Golem"
 			x: 3.5d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0C63004C99406DBD"]
+			description: ["&7In the heart of the Undergarden lies a metal of unmatched rarity and value: Regalium. Known as the \"King's Metal,\" this shimmering ore is hidden deep within the most treacherous biomes. Mining Regalium Ore requires determination and keen exploration, as it is often found in dangerous, hard-to-reach areas. Once obtained, smelt the ore to produce Regalium Ingots, a material fit for crafting the finest tools, armor, and artifacts. With Regalium in hand, you'll wield the power and prestige of a true ruler of the Undergarden."]
 			id: "242DD57B316BCAC9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25624D840C7D9C67"
+					table_id: 9153771261078832289L
+					type: "choice"
+				}
+				{
+					count: 4
+					id: "584D626BAE067936"
+					item: "undergarden:regalium_crystal"
+					type: "item"
+				}
+			]
+			subtitle: "Fit for a King"
 			tasks: [{
+				count: 6L
 				id: "588E81FF0A053C8E"
 				item: "undergarden:regalium_crystal"
 				type: "item"
 			}]
-			title: "Aur de vegani"
+			title: "Regalium"
 			x: 3.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["242DD57B316BCAC9"]
-			id: "2B2E0F0F896B830C"
-			tasks: [{
-				id: "5C1DA4F1003B459B"
-				item: {
-					Count: 1
-					id: "undergarden:cloggrum_battleaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Topor"
-			x: 3.5d
-			y: -0.5d
-		}
-		{
 			dependencies: ["55BA21A39EB22E95"]
+			description: ["&7Among the relics of the Undergarden, none are as fearsome as the Forgotten Battleaxe. This ancient weapon, once wielded by the Forgotten Guardians, is a symbol of unmatched power. To claim it, you must gather Forgotten Steel and other rare materials, then craft the battleaxe using a special recipe. Once forged, the Forgotten Battleaxe will grant you immense strength in combat, cleaving through foes with the might of the ancients. Wield this weapon, and let the echoes of the past guide your strikes!"]
 			id: "2A0442070E8F3D6E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41F8D7F4ADA048EF"
+					table_id: 9153771261078832289L
+					type: "choice"
+				}
+				{
+					id: "3C8564E1CAD5D0F1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "He needs THE AX!"
 			tasks: [{
 				id: "0C16FC7015DBBCBB"
 				item: {
@@ -142,9 +511,9 @@
 				}
 				type: "item"
 			}]
-			title: "TOPOR"
-			x: -0.5d
-			y: 3.5d
+			title: "AX"
+			x: 1.0d
+			y: 4.0d
 		}
 	]
 	title: "Salad of a dimension"

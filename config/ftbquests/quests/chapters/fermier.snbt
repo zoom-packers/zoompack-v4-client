@@ -11,6 +11,14 @@
 		}
 	}
 	id: "74622BF11DA05692"
+	images: [{
+		height: 70.0d
+		image: "vahmas_creator_pack:textures/gui/pano_cooking.png"
+		rotation: 0.0d
+		width: 130.1379811183733d
+		x: -0.5d
+		y: -6.0d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -1306,25 +1314,25 @@
 			]
 			icon: {
 				Count: 1
-				id: "minecraft:chainmail_chestplate"
+				id: "ftbquests:custom_icon"
 				tag: {
-					Damage: 0
+					Icon: "curios:slot/empty_body_slot"
 				}
 			}
 			id: "4FC29920B3872099"
 			rewards: [{
-				id: "61AD9612C00FCB78"
-				item: "croptopia:mead"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "192BAA30E48A5A30"
+				table_id: 3240117060646635505L
+				type: "loot"
 			}]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
-				id: "2FB7CE4F0AAF5D79"
-				item: "brewery:beer_wheat"
-				type: "item"
+				id: "070C86C26AB73170"
+				title: "Dad bod recipe"
+				type: "checkmark"
 			}]
-			title: "Dad BOD"
 			x: -9.0d
 			y: -5.0d
 		}

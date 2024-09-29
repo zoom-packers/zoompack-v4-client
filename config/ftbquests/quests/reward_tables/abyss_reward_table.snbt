@@ -1,0 +1,12 @@
+{
+	icon: "theabyss:abyss_crystal_ore"
+	id: "7EAFA2171C4819EE"
+	loot_size: 1
+	order_index: 37
+	rewards: [
+		{ count: 2, item: "theabyss:bottle_of_somnium" }
+		{ count: 3, item: "theabyss:jungle_melon_item" }
+		{ count: 5, item: "theabyss:vitae_dust" }
+	]
+	title: "abyss reward table"
+}
