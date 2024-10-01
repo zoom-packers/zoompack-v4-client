@@ -135,10 +135,24 @@ export class GeckoArmorArmoryEntry extends CustomArmoryEntry{
             outputPath = outputPath.replace("{material}", material.internalName);
         }
         for (const materialChromaKeyOperation of this.materialChromaKeyOperations) {
-            itemTexture = itemTexture.withChromaKey(materialChromaKeyOperation.colorToReplace, materialChromaKeyOperation.tolerance, materialChromaKeyOperation.function, material.color);
+            itemTexture = itemTexture.withChromaKey(
+                {
+                    colorToReplace: materialChromaKeyOperation.colorToReplace,
+                    tolerance: materialChromaKeyOperation.tolerance,
+                    function: materialChromaKeyOperation.function,
+                    replaceWith: material.color
+                }
+            );
         }
         for (const customChromaKeyOperation of this.customChromaKeyOperations) {
-            itemTexture = itemTexture.withChromaKey(customChromaKeyOperation.colorToReplace, customChromaKeyOperation.tolerance, customChromaKeyOperation.function, customChromaKeyOperation.replaceWith);
+            itemTexture = itemTexture.withChromaKey(
+                {
+                    colorToReplace: customChromaKeyOperation.colorToReplace,
+                    tolerance: customChromaKeyOperation.tolerance,
+                    function: customChromaKeyOperation.function,
+                    replaceWith: customChromaKeyOperation.replaceWith
+                }
+            );
         }
         const workingTexture = itemTexture.toWorkingTexture();
         const buffer = await workingTexture.sharpProcess();
