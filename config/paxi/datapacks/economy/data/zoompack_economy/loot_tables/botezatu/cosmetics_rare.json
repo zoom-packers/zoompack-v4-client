@@ -6,34 +6,31 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "fantasy_armor:eclipse_soldier_helmet",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
                     "name": "fantasy_armor:dragonslayer_helmet",
                     "weight": 1,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"RARE\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
                         }
                     ]
                 },
                 {
                     "type": "minecraft:item",
                     "name": "fantasy_armor:hero_helmet",
-                    "weight": 1,
+                    "weight": 2,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"RARE\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
                         }
                     ]
                 },
@@ -45,72 +42,10 @@
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:thief_helmet",
-                    "weight": 1,
-                    "functions": [
+                        },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:wandering_wizard_helmet",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:chess_board_knight_helmet",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:dark_lord_helmet",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:sunset_wings_helmet",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:eclipse_soldier_chestplate",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"RARE\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
                         }
                     ]
                 },
@@ -122,17 +57,25 @@
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"RARE\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
                         }
                     ]
                 },
                 {
                     "type": "minecraft:item",
                     "name": "fantasy_armor:hero_chestplate",
-                    "weight": 1,
+                    "weight": 2,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"RARE\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
                         }
                     ]
                 },
@@ -144,72 +87,10 @@
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:thief_chestplate",
-                    "weight": 1,
-                    "functions": [
+                        },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:wandering_wizard_chestplate",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:chess_board_knight_chestplate",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:dark_lord_chestplate",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:sunset_wings_chestplate",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:eclipse_soldier_leggings",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"RARE\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
                         }
                     ]
                 },
@@ -221,17 +102,25 @@
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"RARE\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
                         }
                     ]
                 },
                 {
                     "type": "minecraft:item",
                     "name": "fantasy_armor:hero_leggings",
-                    "weight": 1,
+                    "weight": 2,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"RARE\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
                         }
                     ]
                 },
@@ -243,72 +132,10 @@
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:thief_leggings",
-                    "weight": 1,
-                    "functions": [
+                        },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:wandering_wizard_leggings",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:chess_board_knight_leggings",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:dark_lord_leggings",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:sunset_wings_leggings",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:eclipse_soldier_boots",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"RARE\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
                         }
                     ]
                 },
@@ -320,17 +147,25 @@
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"RARE\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
                         }
                     ]
                 },
                 {
                     "type": "minecraft:item",
                     "name": "fantasy_armor:hero_boots",
-                    "weight": 1,
+                    "weight": 2,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"RARE\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
                         }
                     ]
                 },
@@ -342,633 +177,70 @@
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:thief_boots",
-                    "weight": 1,
-                    "functions": [
+                        },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:wandering_wizard_boots",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:chess_board_knight_boots",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:dark_lord_boots",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "fantasy_armor:sunset_wings_boots",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:anubis_armor_head",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:centurion_armor_head",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:holy_armor_head",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:iron_plate_armor_head",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:japanese_light_armor_head",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:o_yoroi_armor_head",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"RARE\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
                         }
                     ]
                 },
                 {
                     "type": "minecraft:item",
                     "name": "armoroftheages:pharaoh_armor_head",
-                    "weight": 1,
+                    "weight": 4,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:quetzalcoatl_armor_head",
-                    "weight": 1,
-                    "functions": [
+                        },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:raijin_armor_head",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:anubis_armor_chest",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:centurion_armor_chest",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:holy_armor_chest",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:iron_plate_armor_chest",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:japanese_light_armor_chest",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:o_yoroi_armor_chest",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"RARE\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
                         }
                     ]
                 },
                 {
                     "type": "minecraft:item",
                     "name": "armoroftheages:pharaoh_armor_chest",
-                    "weight": 1,
+                    "weight": 4,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:quetzalcoatl_armor_chest",
-                    "weight": 1,
-                    "functions": [
+                        },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:raijin_armor_chest",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:anubis_armor_legs",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:centurion_armor_legs",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:holy_armor_legs",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:iron_plate_armor_legs",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:japanese_light_armor_legs",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:o_yoroi_armor_legs",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"RARE\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
                         }
                     ]
                 },
                 {
                     "type": "minecraft:item",
                     "name": "armoroftheages:pharaoh_armor_legs",
-                    "weight": 1,
+                    "weight": 4,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:quetzalcoatl_armor_legs",
-                    "weight": 1,
-                    "functions": [
+                        },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:raijin_armor_legs",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:anubis_armor_feet",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:centurion_armor_feet",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:holy_armor_feet",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:iron_plate_armor_feet",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:japanese_light_armor_feet",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:o_yoroi_armor_feet",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"RARE\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
                         }
                     ]
                 },
                 {
                     "type": "minecraft:item",
                     "name": "armoroftheages:pharaoh_armor_feet",
-                    "weight": 1,
+                    "weight": 4,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:quetzalcoatl_armor_feet",
-                    "weight": 1,
-                    "functions": [
+                        },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "armoroftheages:raijin_armor_feet",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "nether_armory:infernal_gladiator_armor_helmet",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "nether_armory:warped_fungus_armor_helmet",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "nether_armory:crimson_fungus_armor_helmet",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "nether_armory:obsidian_armor_helmet",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "nether_armory:infernal_gladiator_armor_chestplate",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "nether_armory:warped_fungus_armor_chestplate",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "nether_armory:crimson_fungus_armor_chestplate",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "nether_armory:obsidian_armor_chestplate",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "nether_armory:infernal_gladiator_armor_leggings",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "nether_armory:warped_fungus_armor_leggings",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "nether_armory:crimson_fungus_armor_leggings",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "nether_armory:obsidian_armor_leggings",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "nether_armory:infernal_gladiator_armor_boots",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "nether_armory:warped_fungus_armor_boots",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "nether_armory:crimson_fungus_armor_boots",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "nether_armory:obsidian_armor_boots",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"RARE\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
                         }
                     ]
                 }
