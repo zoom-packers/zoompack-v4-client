@@ -137,7 +137,12 @@ EntityEvents.death((event) => {
 
 function applyEffects(event, server, player) {
     for (let effect of event.effects) {
-        server.runCommandSilent(`/effect give ${player.getName().getString()} ${effect.effect} infinite ${effect.power}`);
+        let player_name = player.getName().getString();
+        
+        if(PLAYERS_DOUBLE_MODIFIER.includes(player_name)){
+            effect.power = effect.power * 2;
+        }
+        server.runCommandSilent(`/effect give ${player_name} ${effect.effect} infinite ${effect.power}`);
     }
 }
 
