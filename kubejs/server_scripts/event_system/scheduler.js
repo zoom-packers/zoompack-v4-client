@@ -149,7 +149,12 @@ function cleanupEffects(event, server, player) {
 
 function applyModifiers(event, server, player) {
     for (let modifier of event.attributeModifiers) {
-        server.runCommandSilent(`/attribute ${player.getName().getString()} ${modifier.attribute} modifier add ${modifier.uuid} "Zoompack Event" ${modifier.amount} ${modifier.operation}`);
+        let player_name = player.getName().getString();
+        
+        if(PLAYERS_DOUBLE_MODIFIER.includes(player_name)){
+            modifier.amount = modifier.amount * 2;
+        }
+        server.runCommandSilent(`/attribute ${player_name} ${modifier.attribute} modifier add ${modifier.uuid} "Zoompack Event" ${modifier.amount} ${modifier.operation}`);
     }
 }
 
