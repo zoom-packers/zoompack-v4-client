@@ -13,6 +13,8 @@ let TESTER_MAP = {
 
 // TODO: change points for each for release
 
+let BOOK_PLAYERS = ['GeniusM', 'MihaiAleXD'];
+
 let TESTER_REWARDS_TAG = 'TESTER_REWARDED_AUTO_FEATURES';
 
 function playerHasTag(tags, searched_tag){
@@ -30,6 +32,10 @@ function performFirstJoinTesterGrantPoints(server, player_name, points){
     server.runCommandSilent(`/puffish_skills category unlock ${player_name} puffish_skills:secret_tester`);
     server.runCommandSilent(`/puffish_skills points set ${player_name} puffish_skills:secret_tester ${points}`);
     server.runCommandSilent(`/tag ${player_name} add ${TESTER_REWARDS_TAG}`);
+    if(BOOK_PLAYERS.includes(player_name)){
+        server.runCommandSilent(`/advancement grant ${player_name} only zoomers_testers:tester_tag`);
+    }
+    
 }
 
 PlayerEvents.loggedIn(event => {
