@@ -1,0 +1,388 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tester_membership"
+	group: ""
+	icon: "create:wrench"
+	id: "3378D44684A87AD6"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["For your devotion and sweat put into the product you are now rewarded with the special &b&oUnbreaking Membership&r&r"]
+			id: "2946575394B90AFF"
+			rewards: [{
+				count: 10
+				id: "55D51409FC4845DC"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&l&6 Unbreaking Membership"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "49E7AC8E2B8D61B4"
+				requiredLevel: 10
+				skill: "combat"
+				title: "&l&aReach Combat lvl 10"
+				type: "pmmo:skill"
+			}]
+			title: "&l&aReach Combat lvl 10"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2946575394B90AFF"]
+			description: ["For your devotion and sweat put into the product you are now rewarded with the special &b&oUnbreaking Membership&r&r"]
+			id: "4493D26AB66F00CA"
+			rewards: [{
+				count: 10
+				id: "69851728B9EA3892"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&l&6 Unbreaking Membership"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "blue_skies:diopside_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "276DFECB1F27C080"
+				requiredLevel: 20
+				skill: "combat"
+				title: "&l&aReach Combat lvl 20"
+				type: "pmmo:skill"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4493D26AB66F00CA"]
+			description: ["For your devotion and sweat put into the product you are now rewarded with the special &b&oUnbreaking Membership&r&r"]
+			id: "59C8D297B1AB3BB0"
+			rewards: [{
+				count: 10
+				id: "2087FB2216587E59"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&l&6 Unbreaking Membership"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "blue_skies:horizonite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6677A9AC50D099D1"
+				requiredLevel: 30
+				skill: "combat"
+				title: "&l&aReach Combat lvl 30"
+				type: "pmmo:skill"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["59C8D297B1AB3BB0"]
+			description: ["For your devotion and sweat put into the product you are now rewarded with the special &b&oUnbreaking Membership&r&r"]
+			id: "253AF6D809426BAB"
+			rewards: [{
+				count: 10
+				id: "2FD1E048B6013775"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 4s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&l&6 Unbreaking Membership"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "aether:zanite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "378E59E6003E86D1"
+				requiredLevel: 40
+				skill: "combat"
+				title: "&l&aReach Combat lvl 40"
+				type: "pmmo:skill"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["253AF6D809426BAB"]
+			description: ["For your devotion and sweat put into the product you are now rewarded with the special &b&oUnbreaking Membership&r&r"]
+			id: "427393BED4B67939"
+			rewards: [{
+				count: 10
+				id: "025CAA00DE27EC92"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&l&6 Unbreaking Membership"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "betternether:flaming_ruby_sword"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "betternether:ruby_fire"
+							lvl: 1s
+						}]
+					}
+				}
+				id: "38309694B02DD70A"
+				requiredLevel: 50
+				skill: "combat"
+				title: "&l&aReach Combat lvl 50"
+				type: "pmmo:skill"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["427393BED4B67939"]
+			description: ["For your devotion and sweat put into the product you are now rewarded with the special &b&oUnbreaking Membership&r&r"]
+			id: "07C6BAB73D8ED282"
+			rewards: [{
+				count: 10
+				id: "4B0559EAF925C010"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 6s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&l&6 Unbreaking Membership"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "undergarden:forgotten_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4FAD09B29EE54A6F"
+				requiredLevel: 60
+				skill: "combat"
+				title: "&l&aReach Combat lvl 60"
+				type: "pmmo:skill"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["07C6BAB73D8ED282"]
+			description: ["For your devotion and sweat put into the product you are now rewarded with the special &b&oUnbreaking Membership&r&r"]
+			id: "2A9F4817C70AA014"
+			rewards: [{
+				count: 10
+				id: "06BC75A12F604493"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 7s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&l&6 Unbreaking Membership"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "enderitemod:enderite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3A2831C288CCB72D"
+				requiredLevel: 70
+				skill: "combat"
+				title: "&l&aReach Combat lvl 70"
+				type: "pmmo:skill"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2A9F4817C70AA014"]
+			description: ["For your devotion and sweat put into the product you are now rewarded with the special &b&oUnbreaking Membership&r&r"]
+			id: "261924634D2D8F42"
+			rewards: [{
+				count: 10
+				id: "34A2BC41FF459951"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 8s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&l&6 Unbreaking Membership"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "callfromthedepth_:soul_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "79131393096A5319"
+				requiredLevel: 80
+				skill: "combat"
+				title: "&l&aReach Combat lvl 80"
+				type: "pmmo:skill"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["261924634D2D8F42"]
+			description: ["For your devotion and sweat put into the product you are now rewarded with the special &b&oUnbreaking Membership&r&r"]
+			id: "37248DA65B25300A"
+			rewards: [{
+				count: 10
+				id: "796C762B967B5A51"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 9s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&l&6 Unbreaking Membership"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "theabyss:knight_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "53F8CBBFD63B3E40"
+				requiredLevel: 90
+				skill: "combat"
+				title: "&l&aReach Combat lvl 90"
+				type: "pmmo:skill"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["53F8CBBFD63B3E40"]
+			description: ["For your devotion and sweat put into the product you are now rewarded with the special &b&oUnbreaking Membership&r&r"]
+			id: "4C77F30F9509BFDD"
+			rewards: [{
+				count: 10
+				id: "57B36D0F1C695997"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 10s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&l&6 Unbreaking Membership"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "theabyss:aberythe_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4F7258DF23A8B886"
+				requiredLevel: 100
+				skill: "combat"
+				title: "&l&aReach Combat lvl 100"
+				type: "pmmo:skill"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+	]
+	title: "Tester Membership"
+}

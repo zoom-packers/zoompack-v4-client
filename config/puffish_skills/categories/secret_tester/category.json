@@ -1,0 +1,14 @@
+{
+	"unlocked_by_default": false,
+	"title": [ 
+		{"text": "§4§lTESTER REWARDS > "},
+		{"text": "Bugs reported have a return, here you go!"}
+	],
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "create:wrench"
+		}
+	},
+	"background": "textures/block/crying_obsidian.png"
+}
