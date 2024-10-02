@@ -10,5 +10,10 @@
 			"item": "fishing_rod"
 		}
 	},
-	"background": "minecraft:textures/block/lapis_block.png"
+	"background": {
+        "texture": "zoomers_wallpapers:textures/fishing_sim.png",
+        "width": 1080,
+        "height": 1080,
+		"position": "fill"
+    }
 }

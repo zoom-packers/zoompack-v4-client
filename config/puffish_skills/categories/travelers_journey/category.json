@@ -10,5 +10,10 @@
 			"item": "compass"
 		}
 	},
-	"background": "minecraft:textures/block/white_wool.png"
+	"background": {
+        "texture": "zoomers_wallpapers:textures/travelers_journey.png",
+        "width": 1080,
+        "height": 1080,
+		"position": "fill"
+    }
 }
