@@ -254,12 +254,20 @@ export const samuraiLightCustomArmory = new GeckoArmorArmoryEntry(samuraiLightAr
             }
         ]
     )
-    .withMaterialChromaKeyOperations([{
+    .withMaterialChromaKeyOperations([
+        {
+            colorToReplace: "#bebaae",
+            tolerance: 0.2,
+            function: "linear",
+            replaceWith: "#000000"
+        },
+        {
         colorToReplace: "#2f335e",
         tolerance: 0.1,
         function: "linear",
         replaceWith: "#000000"
-    }])
+        }
+    ])
 
 export const samuraiCustomArmory = new GeckoArmorArmoryEntry(samuraiArmors)
     .withArmorId("samurai")
@@ -284,12 +292,20 @@ export const samuraiCustomArmory = new GeckoArmorArmoryEntry(samuraiArmors)
             }
         ]
     )
-    .withMaterialChromaKeyOperations([{
+    .withMaterialChromaKeyOperations([
+        {
+            colorToReplace: "#bebaae",
+            tolerance: 0.2,
+            function: "linear",
+            replaceWith: "#000000"
+        },
+        {
         colorToReplace: "#2f335e",
         tolerance: 0.1,
         function: "linear",
         replaceWith: "#000000"
-    }])
+        }
+        ])
 
 export const samuraiMasterCustomArmory = new GeckoArmorArmoryEntry(samuraiMasterArmors)
     .withArmorId("samurai_master")
@@ -314,7 +330,14 @@ export const samuraiMasterCustomArmory = new GeckoArmorArmoryEntry(samuraiMaster
             }
         ]
     )
-    .withMaterialChromaKeyOperations([{
+    .withMaterialChromaKeyOperations([
+        {
+            colorToReplace: "#bebaae",
+            tolerance: 0.2,
+            function: "linear",
+            replaceWith: "#000000"
+        },
+        {
         colorToReplace: "#2f335e",
         tolerance: 0.1,
         function: "linear",

@@ -5,6 +5,14 @@
 	group: "13CD0C62E96AC261"
 	icon: "kubejs:tier_10_health_boost_power_up"
 	id: "37FDA5D5A7E7B2D6"
+	images: [{
+		height: 70.0d
+		image: "vahmas_creator_pack:textures/gui/pano_well.png"
+		rotation: 0.0d
+		width: 130.1379811183733d
+		x: -3.5d
+		y: 4.0d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -45,7 +53,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["7DFE5E489580EDFB"]
+			dependencies: ["4B2A120E598A2756"]
 			description: ["Collect any Tier 2 Power Up to enhance your armor's strength and abilities."]
 			id: "58256075E3F0B81F"
 			rewards: [
@@ -81,7 +89,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["58256075E3F0B81F"]
+			dependencies: ["74F778D3A3A91986"]
 			description: ["Collect any Tier 3 Power Up to enhance your armor's strength and abilities."]
 			id: "480E44DE7DBDA06F"
 			rewards: [
@@ -116,7 +124,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["480E44DE7DBDA06F"]
+			dependencies: ["567AD7980B0B9164"]
 			description: ["Collect any Tier 4 Power Up to enhance your armor's strength and abilities."]
 			id: "0DEE294697284158"
 			rewards: [
@@ -151,7 +159,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["0DEE294697284158"]
+			dependencies: ["71B8DEDC1A6970E1"]
 			description: ["Collect any Tier 5 Power Up to enhance your armor's strength and abilities."]
 			id: "272867B0B1FA25C3"
 			rewards: [
@@ -187,7 +195,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["272867B0B1FA25C3"]
+			dependencies: ["2F34DB9D9307B4AA"]
 			description: ["Collect any Tier 6 Power Up to enhance your armor's strength and abilities."]
 			id: "349176E8E9C24E7C"
 			rewards: [
@@ -234,7 +242,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["349176E8E9C24E7C"]
+			dependencies: ["122767A94637D00C"]
 			description: ["Collect any Tier 7 Power Up to enhance your armor's strength and abilities."]
 			id: "2759DC4802FD08E8"
 			rewards: [
@@ -275,7 +283,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["2759DC4802FD08E8"]
+			dependencies: ["21AE8329889BBC24"]
 			description: ["Collect any Tier 8 Power Up to enhance your armor's strength and abilities."]
 			id: "602E6D59FB864C40"
 			rewards: [
@@ -311,7 +319,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["602E6D59FB864C40"]
+			dependencies: ["5E42861DFEDF17FA"]
 			description: ["Collect any Tier 9 Power Up to enhance your armor's strength and abilities."]
 			id: "668C6F77A5EF4CFA"
 			rewards: [
@@ -355,7 +363,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["668C6F77A5EF4CFA"]
+			dependencies: ["538974E19C1B5181"]
 			description: ["Collect any Tier 10 Power Up to enhance your armor's strength and abilities."]
 			id: "2C866C17A437C287"
 			rewards: [

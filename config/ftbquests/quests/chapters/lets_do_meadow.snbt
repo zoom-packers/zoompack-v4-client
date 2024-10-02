@@ -5,6 +5,14 @@
 	group: "11E2BD453633E57D"
 	icon: "meadow:piece_of_cheese"
 	id: "2E469DC6A444C9D1"
+	images: [{
+		height: 70.0d
+		image: "vahmas_creator_pack:textures/gui/pano_meadow.png"
+		rotation: 0.0d
+		width: 130.1379811183733d
+		x: -7.5d
+		y: -3.5d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [

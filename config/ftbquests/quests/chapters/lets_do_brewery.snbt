@@ -5,6 +5,14 @@
 	group: "11E2BD453633E57D"
 	icon: "brewery:beer_wheat"
 	id: "1F0D2D7314D751D1"
+	images: [{
+		height: 70.0d
+		image: "vahmas_creator_pack:textures/gui/pano_brew.png"
+		rotation: 0.0d
+		width: 130.1379811183733d
+		x: 2.0d
+		y: 2.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

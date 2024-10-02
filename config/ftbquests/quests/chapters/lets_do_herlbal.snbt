@@ -5,6 +5,14 @@
 	group: "11E2BD453633E57D"
 	icon: "herbalbrews:tea_kettle"
 	id: "0026D4FE31FAEE62"
+	images: [{
+		height: 70.0d
+		image: "vahmas_creator_pack:textures/gui/pano_herbal.png"
+		rotation: 0.0d
+		width: 130.1379811183733d
+		x: 9.5d
+		y: -1.0d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

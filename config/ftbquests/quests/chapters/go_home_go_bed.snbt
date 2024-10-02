@@ -5,6 +5,14 @@
 	group: "13CD0C62E96AC261"
 	icon: "supplementaries:hourglass"
 	id: "1F92F0F7C94DDE6F"
+	images: [{
+		height: 70.0d
+		image: "vahmas_creator_pack:textures/gui/pano_home.png"
+		rotation: 0.0d
+		width: 130.1379811183733d
+		x: -1.0d
+		y: 2.5d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -140,7 +148,7 @@
 				}
 				{
 					id: "33A4EE99CB308F74"
-					item: "minecraft:lantern"
+					item: "additionallanterns:black_andesite_lantern"
 					type: "item"
 				}
 			]
