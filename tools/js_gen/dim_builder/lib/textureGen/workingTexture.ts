@@ -1,6 +1,7 @@
 import sharp from "sharp";
 import {combine} from "./util";
-import {hsvToRgb, rgbToHsv} from "../utils";
+import {hexToRGB, hsvToRgb, rgbToHsv} from "../utils";
+import {ChromaKeyOperation} from "../material/ArmoryTypes";
 
 export class WorkingTexture {
     path = "";
@@ -9,7 +10,7 @@ export class WorkingTexture {
     brightness = 0;
     width = 0;
     height = 0;
-    chromaKeyOperations: {h: number, s: number, v: number, tolerance: number, fun: "linear" | "squared" | "cubic", newTintColor: string}[] = [];
+    chromaKeyOperations: ChromaKeyOperation[] = [];
 
     withPath(path: string) {
         this.path = path;
@@ -49,7 +50,7 @@ export class WorkingTexture {
         return this
     }
 
-    withChromaKey(operations: {h: number, s: number, v: number, tolerance: number, fun: "linear" | "squared" | "cubic", newTintColor: string}) {
+    withChromaKey(operations: ChromaKeyOperation) {
         this.chromaKeyOperations.push(operations);
     }
 
@@ -70,37 +71,27 @@ export class WorkingTexture {
         }
     }
 
-    async chromaKey(h: number, s: number, v: number, tolerance: number, fun: "linear" | "squared" | "cubic") {
-        const hOffset = this.adaptHueForChromaKeying(h);
-        h += hOffset;
+    async chromaKey(oldH: number, oldS: number, oldV: number, newH: number, newS: number, newV: number, tolerance: number) {
+        const hOffset = this.adaptHueForChromaKeying(oldH);
+        oldH += hOffset;
         const bitmap = await this.toBitmap();
         const data = new Uint8Array(bitmap.buffer);
         const result = new Uint8Array(data.length);
         for (let i = 0; i < data.length; i += 4) {
-            const r = data[i];
-            const g = data[i + 1];
-            const b = data[i + 2];
-            const a = data[i + 3];
-            const hsv = rgbToHsv(r, g, b);
-            hsv.h += hOffset;
-            const hDiff = Math.abs(hsv.h - h);
-            const sDiff = Math.abs(hsv.s - s);
-            const vDiff = Math.abs(hsv.v - v);
+            const pixelR = data[i];
+            const pixelG = data[i + 1];
+            const pixelB = data[i + 2];
+            const pixelA = data[i + 3];
+            const pixelHsv = rgbToHsv(pixelR, pixelG, pixelB);
+            pixelHsv.h += hOffset;
+            const hDiff = Math.abs(pixelHsv.h - oldH);
+            const sDiff = Math.abs(pixelHsv.s - oldS);
+            const vDiff = Math.abs(pixelHsv.v - oldV);
 
-            let colResult = 0;
-            if (hDiff < tolerance) {
-                colResult = 1 - hDiff / tolerance;
-            }
-            if (fun === "squared") {
-                colResult = colResult ** 2;
-            } else if (fun === "cubic") {
-                colResult = colResult ** 3;
-            }
 
-            const newHSV = {h, s: hsv.s, v: hsv.v};
+            const newHSV = {h: newS, s: pixelHsv.s, v: pixelHsv.v};
             const newRGB = hsvToRgb(newHSV.h, newHSV.s, newHSV.v);
-            // const newA = hDiff < tolerance && sDiff < tolerance && vDiff < tolerance ? a : 0;
-            const newA = hDiff < tolerance ? a : 0;
+            const newA = hDiff < tolerance ? pixelA : 0;
             result[i] = newRGB.r;
             result[i + 1] = newRGB.g;
             result[i + 2] = newRGB.b;
@@ -120,8 +111,12 @@ export class WorkingTexture {
         }
         let buffer = await this.toSharpTexture().png().toBuffer();
         for (const op of this.chromaKeyOperations) {
-            const chromaKeyed = await this.chromaKey(op.h, op.s, op.v, op.tolerance, op.fun);
-            chromaKeyed.tint(op.newTintColor);
+            const oldRGB = hexToRGB(op.colorToReplace);
+            const oldHSV = rgbToHsv(oldRGB.r, oldRGB.g, oldRGB.b);
+            const newRGB = hexToRGB(op.replaceWith);
+            const newHSV = rgbToHsv(newRGB.r, newRGB.g, newRGB.b);
+            const chromaKeyed = await this.chromaKey(oldHSV.h, oldHSV.s, oldHSV.v, newHSV.h, newHSV.s, newHSV.v, op.tolerance);
+            chromaKeyed.tint(op.replaceWith);
             const chromaBuffer = await chromaKeyed.png().toBuffer();
             const result = await combine([buffer, chromaBuffer]);
             buffer = await result.png().toBuffer();
