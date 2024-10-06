@@ -338,6 +338,7 @@ new_armor_set_config("aether", "neptune", [0,0,0,0], 0, 0.026)
 new_armor_set_config("aether", "gravitite", [0,0,0,0], 0, -0.023)
 new_armor_set_config("aether", "valkyrie", [0,0,0,0], 0, -0.022)
 new_armor_set_config("aether", "phoenix", [0,0,0,0], 0, -0.071)
+new_sword_config('lost_aether_content', 'phoenix', 5.5, attack_speed=0.3)
 new_armor_set_config("aether", "obsidian", [0,0,0,0], 0, -0.12)
 new_sword_config("aether", "valkyrie_lance", 0, full_id=True, attack_speed=0.3)
 
@@ -442,6 +443,10 @@ def new_kjs_config_durability(mod_id, item_id, durability):
     {--}"""
     js_base_str = js_base_str.replace('{--}', new_js)
 
+def multiple_kjs_config_durabilities(mod_id, items, durability):
+    for item in items:
+        new_kjs_config_durability(mod_id, item, durability)
+
 def new_kjs_config_durability_armor_set(mod_id, material, durability_list):
     armor_durabilities = {
         'helmet':durability_list[0],
@@ -487,6 +492,34 @@ new_kjs_config_durability_material("blue_skies", "aquite", 1700, get_durability_
 new_kjs_config_durability_material("blue_skies", "diopside", 1800, get_durability_list_from_helmet(430))
 new_kjs_config_durability_material("blue_skies", "charoite", 1900, get_durability_list_from_helmet(450))
 new_kjs_config_durability_material("blue_skies", "horizonite", 2000, get_durability_list_from_helmet(475))
+
+
+#aether 
+new_kjs_config_durability_tools('lost_aether_content', 'phoenix', 500)
+new_kjs_config_durability("mod_id","item_id", 4000)
+multiple_kjs_config_durabilities("aetherdelight", [
+    "holystone_knife_sword",
+    "holystone_knife_axe",
+    "holystone_knife_pickaxe",
+    "holystone_knife_shovel",
+    "holystone_knife_hoe"
+], 500)
+
+multiple_kjs_config_durabilities("aetherdelight", [
+    "zanite_knife_sword",
+    "zanite_knife_axe",
+    "zanite_knife_pickaxe",
+    "zanite_knife_shovel",
+    "zanite_knife_hoe"
+], 1000)
+
+multiple_kjs_config_durabilities("aetherdelight", [
+    "gravitite_knife_sword",
+    "gravitite_knife_axe",
+    "gravitite_knife_pickaxe",
+    "gravitite_knife_shovel",
+    "gravitite_knife_hoe"
+], 2000)
 
 # netherite
 new_kjs_config_durability("nethersdelight","netherite_machete", 3100)

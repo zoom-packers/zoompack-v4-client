@@ -135,6 +135,69 @@ ItemEvents.modification((event) => {
     event.modify("blue_skies:horizonite_boots", item => {
         item.maxDamage = 570;
     });
+    event.modify("lost_aether_content:phoenix_sword", item => {
+        item.maxDamage = 500;
+    });
+    event.modify("lost_aether_content:phoenix_axe", item => {
+        item.maxDamage = 500;
+    });
+    event.modify("lost_aether_content:phoenix_pickaxe", item => {
+        item.maxDamage = 500;
+    });
+    event.modify("lost_aether_content:phoenix_shovel", item => {
+        item.maxDamage = 500;
+    });
+    event.modify("lost_aether_content:phoenix_hoe", item => {
+        item.maxDamage = 500;
+    });
+    event.modify("mod_id:item_id", item => {
+        item.maxDamage = 4000;
+    });
+    event.modify("aetherdelight:holystone_knife_sword", item => {
+        item.maxDamage = 500;
+    });
+    event.modify("aetherdelight:holystone_knife_axe", item => {
+        item.maxDamage = 500;
+    });
+    event.modify("aetherdelight:holystone_knife_pickaxe", item => {
+        item.maxDamage = 500;
+    });
+    event.modify("aetherdelight:holystone_knife_shovel", item => {
+        item.maxDamage = 500;
+    });
+    event.modify("aetherdelight:holystone_knife_hoe", item => {
+        item.maxDamage = 500;
+    });
+    event.modify("aetherdelight:zanite_knife_sword", item => {
+        item.maxDamage = 1000;
+    });
+    event.modify("aetherdelight:zanite_knife_axe", item => {
+        item.maxDamage = 1000;
+    });
+    event.modify("aetherdelight:zanite_knife_pickaxe", item => {
+        item.maxDamage = 1000;
+    });
+    event.modify("aetherdelight:zanite_knife_shovel", item => {
+        item.maxDamage = 1000;
+    });
+    event.modify("aetherdelight:zanite_knife_hoe", item => {
+        item.maxDamage = 1000;
+    });
+    event.modify("aetherdelight:gravitite_knife_sword", item => {
+        item.maxDamage = 2000;
+    });
+    event.modify("aetherdelight:gravitite_knife_axe", item => {
+        item.maxDamage = 2000;
+    });
+    event.modify("aetherdelight:gravitite_knife_pickaxe", item => {
+        item.maxDamage = 2000;
+    });
+    event.modify("aetherdelight:gravitite_knife_shovel", item => {
+        item.maxDamage = 2000;
+    });
+    event.modify("aetherdelight:gravitite_knife_hoe", item => {
+        item.maxDamage = 2000;
+    });
     event.modify("nethersdelight:netherite_machete", item => {
         item.maxDamage = 3100;
     });
