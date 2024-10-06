@@ -495,7 +495,7 @@ new_kjs_config_durability_material("blue_skies", "horizonite", 2000, get_durabil
 
 
 #aether 
-new_kjs_config_durability_tools('lost_aether_content', 'phoenix', 500)
+new_kjs_config_durability_tools('lost_aether_content', 'phoenix', 2640)
 multiple_kjs_config_durabilities("aetherdelight", [
     "holystone_knife_sword",
     "holystone_knife_axe",

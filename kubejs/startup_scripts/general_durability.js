@@ -136,19 +136,19 @@ ItemEvents.modification((event) => {
         item.maxDamage = 570;
     });
     event.modify("lost_aether_content:phoenix_sword", item => {
-        item.maxDamage = 500;
+        item.maxDamage = 2640;
     });
     event.modify("lost_aether_content:phoenix_axe", item => {
-        item.maxDamage = 500;
+        item.maxDamage = 2640;
     });
     event.modify("lost_aether_content:phoenix_pickaxe", item => {
-        item.maxDamage = 500;
+        item.maxDamage = 2640;
     });
     event.modify("lost_aether_content:phoenix_shovel", item => {
-        item.maxDamage = 500;
+        item.maxDamage = 2640;
     });
     event.modify("lost_aether_content:phoenix_hoe", item => {
-        item.maxDamage = 500;
+        item.maxDamage = 2640;
     });
     event.modify("aetherdelight:holystone_knife_sword", item => {
         item.maxDamage = 500;
