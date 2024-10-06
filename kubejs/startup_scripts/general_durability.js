@@ -150,9 +150,6 @@ ItemEvents.modification((event) => {
     event.modify("lost_aether_content:phoenix_hoe", item => {
         item.maxDamage = 500;
     });
-    event.modify("mod_id:item_id", item => {
-        item.maxDamage = 4000;
-    });
     event.modify("aetherdelight:holystone_knife_sword", item => {
         item.maxDamage = 500;
     });
