@@ -1,0 +1,19 @@
+{
+	"unlocked_by_default": false,
+	"title": [ 
+		{"text": "§4§lTESTER REWARDS > "},
+		{"text": "Bugs reported have a return, here you go!"}
+	],
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "create:wrench"
+		}
+	},
+	"background": {
+        "texture": "zoomers_wallpapers:textures/secret_tester.png",
+        "width": 1080,
+        "height": 1080,
+		"position": "fill"
+    }
+}

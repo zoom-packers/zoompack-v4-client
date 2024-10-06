@@ -10,5 +10,10 @@
 			"effect": "resistance"
 		}
 	},
-	"background": "supplementaries:textures/block/feather_block.png"
+	"background": {
+        "texture": "zoomers_wallpapers:textures/steel_path.png",
+        "width": 1080,
+        "height": 1080,
+		"position": "fill"
+    }
 }

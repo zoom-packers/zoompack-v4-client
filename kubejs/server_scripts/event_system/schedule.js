@@ -1,5 +1,6 @@
 //priority: 999
-let magicUUID = "85883543-c4a3-406e-ba46-9cb463a56225"
+let magicUUID = "85883543-c4a3-406e-ba46-9cb463a56225";
+let PLAYERS_DOUBLE_MODIFIER = ['GeniusM'];
 
 let combatEvent = new Event()
     .withName("Combat Training")

@@ -137,7 +137,13 @@ EntityEvents.death((event) => {
 
 function applyEffects(event, server, player) {
     for (let effect of event.effects) {
-        server.runCommandSilent(`/effect give ${player.getName().getString()} ${effect.effect} infinite ${effect.power}`);
+        let player_name = player.getName().getString();
+        let final_effect_power = effect.power;
+        
+        if(PLAYERS_DOUBLE_MODIFIER.includes(player_name)){
+            final_effect_power = effect.power * 2;
+        }
+        server.runCommandSilent(`/effect give ${player_name} ${effect.effect} infinite ${final_effect_power}`);
     }
 }
 
@@ -149,7 +155,13 @@ function cleanupEffects(event, server, player) {
 
 function applyModifiers(event, server, player) {
     for (let modifier of event.attributeModifiers) {
-        server.runCommandSilent(`/attribute ${player.getName().getString()} ${modifier.attribute} modifier add ${modifier.uuid} "Zoompack Event" ${modifier.amount} ${modifier.operation}`);
+        let player_name = player.getName().getString();
+        let final_modifier_amount =  modifier.amount;
+        
+        if(PLAYERS_DOUBLE_MODIFIER.includes(player_name)){
+            final_modifier_amount = modifier.amount * 2;
+        }
+        server.runCommandSilent(`/attribute ${player_name} ${modifier.attribute} modifier add ${modifier.uuid} "Zoompack Event" ${final_modifier_amount} ${modifier.operation}`);
     }
 }
 
