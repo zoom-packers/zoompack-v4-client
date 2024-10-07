@@ -8,7 +8,7 @@
         {
             "attribute":"minecraft:generic.max_health",
             "operation": "MULTIPLY_BASE",
-            "amount": 9
+            "amount": 44
         },
         {
             "attribute":"minecraft:generic.attack_damage",
@@ -28,12 +28,12 @@
         {
             "attribute":"minecraft:generic.armor",
             "operation": "MULTIPLY_TOTAL",
-            "amount": 0.5
+            "amount": 2
         },
         {
             "attribute":"minecraft:generic.armor_toughness",
             "operation": "MULTIPLY_TOTAL",
-            "amount": 1
+            "amount": 2
         }
     ],
     "mob_modifier": {},
