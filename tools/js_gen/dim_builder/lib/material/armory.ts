@@ -129,11 +129,15 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             const id = `${modId}:${materialIdPart}_${type.id}`;
             const displayName = idToDisplayName(id);
             const durability = this.durability * type.durabilityMultiplier;
+            let itemType = this.getTypeName(type);
+            if (itemType === "staff") {
+                itemType = "sword";
+            }
             // @ts-ignore
             if (tieredTypes.includes(type)) {
-                this.kubeJsContainer.registrar.registerTieredItem(id, this.getTypeName(type), displayName, `${modId}:${material.internalName}`);
+                this.kubeJsContainer.registrar.registerTieredItem(id, itemType, displayName, `${modId}:${material.internalName}`);
             } else {
-                this.kubeJsContainer.registrar.registerArmoryItem(id, this.getTypeName(type), displayName, durability);
+                this.kubeJsContainer.registrar.registerArmoryItem(id, itemType, displayName, durability);
             }
         }
 
@@ -700,7 +704,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         } else if (type.id.includes("boots")) {
             return "boots";
         } else if (type.id.includes("staff")) {
-            return "staff";
+            return "sword";
         }
         switch (type.type) {
             case "sword":
