@@ -31,6 +31,22 @@ function sword (value) {
     }
 }
 
+function staff(value) {
+    return {
+        requirements: {
+            WEAPON: {
+                magic: value
+            },
+            WEAR: {
+                magic: value,
+            },
+            TOOL: {
+                farming : 0
+            }
+        }
+    }
+}
+
 function axe (value) {
     return {
         requirements: {
@@ -155,7 +171,8 @@ const item_functions = {
     "hoe": tool,
     "bow": bow,
     "crossbow": bow,
-    "offhand": offhand
+    "offhand": offhand,
+    "staff": staff,
 }
 const tool_skills = {
     "pickaxe": "mining",
