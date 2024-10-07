@@ -1,18 +1,18 @@
 
 export enum attribute_minecraft {
-    a_generic_max_health = "minecraft:generic_max_health",
-a_generic_follow_range = "minecraft:generic_follow_range",
-a_generic_knockback_resistance = "minecraft:generic_knockback_resistance",
-a_generic_movement_speed = "minecraft:generic_movement_speed",
-a_generic_flying_speed = "minecraft:generic_flying_speed",
-a_generic_attack_damage = "minecraft:generic_attack_damage",
-a_generic_attack_knockback = "minecraft:generic_attack_knockback",
-a_generic_attack_speed = "minecraft:generic_attack_speed",
-a_generic_armor = "minecraft:generic_armor",
-a_generic_armor_toughness = "minecraft:generic_armor_toughness",
-a_generic_luck = "minecraft:generic_luck",
-a_zombie_spawn_reinforcements = "minecraft:zombie_spawn_reinforcements",
-a_horse_jump_strength = "minecraft:horse_jump_strength",
+    a_generic_max_health = "minecraft:generic.max_health",
+a_generic_follow_range = "minecraft:generic.follow_range",
+a_generic_knockback_resistance = "minecraft:generic.knockback_resistance",
+a_generic_movement_speed = "minecraft:generic.movement_speed",
+a_generic_flying_speed = "minecraft:generic.flying_speed",
+a_generic_attack_damage = "minecraft:generic.attack_damage",
+a_generic_attack_knockback = "minecraft:generic.attack_knockback",
+a_generic_attack_speed = "minecraft:generic.attack_speed",
+a_generic_armor = "minecraft:generic.armor",
+a_generic_armor_toughness = "minecraft:generic.armor_toughness",
+a_generic_luck = "minecraft:generic.luck",
+a_zombie_spawn_reinforcements = "minecraft:zombie.spawn_reinforcements",
+a_horse_jump_strength = "minecraft:horse.jump_strength",
 
 }
 
@@ -103,29 +103,29 @@ export enum attribute_caelus {
 
 
 export enum attribute_doggytalents {
-    a_generic_jump_power = "doggytalents:generic_jump_power",
-a_generic_crit_chance = "doggytalents:generic_crit_chance",
-a_generic_crit_bonus = "doggytalents:generic_crit_bonus",
+    a_generic_jump_power = "doggytalents:generic.jump_power",
+a_generic_crit_chance = "doggytalents:generic.crit_chance",
+a_generic_crit_bonus = "doggytalents:generic.crit_bonus",
 
 }
 
 
 
 export enum attribute_puffish_attributes {
-    a_player_stamina = "puffish_attributes:player_stamina",
-a_player_melee_damage = "puffish_attributes:player_melee_damage",
-a_player_ranged_damage = "puffish_attributes:player_ranged_damage",
-a_player_fortune = "puffish_attributes:player_fortune",
-a_player_healing = "puffish_attributes:player_healing",
-a_player_jump = "puffish_attributes:player_jump",
-a_player_resistance = "puffish_attributes:player_resistance",
-a_player_mining_speed = "puffish_attributes:player_mining_speed",
-a_player_pickaxe_speed = "puffish_attributes:player_pickaxe_speed",
-a_player_axe_speed = "puffish_attributes:player_axe_speed",
-a_player_shovel_speed = "puffish_attributes:player_shovel_speed",
-a_player_sprinting_speed = "puffish_attributes:player_sprinting_speed",
-a_player_knockback = "puffish_attributes:player_knockback",
-a_player_repair_cost = "puffish_attributes:player_repair_cost",
+    a_player_stamina = "puffish_attributes:player.stamina",
+a_player_melee_damage = "puffish_attributes:player.melee_damage",
+a_player_ranged_damage = "puffish_attributes:player.ranged_damage",
+a_player_fortune = "puffish_attributes:player.fortune",
+a_player_healing = "puffish_attributes:player.healing",
+a_player_jump = "puffish_attributes:player.jump",
+a_player_resistance = "puffish_attributes:player.resistance",
+a_player_mining_speed = "puffish_attributes:player.mining_speed",
+a_player_pickaxe_speed = "puffish_attributes:player.pickaxe_speed",
+a_player_axe_speed = "puffish_attributes:player.axe_speed",
+a_player_shovel_speed = "puffish_attributes:player.shovel_speed",
+a_player_sprinting_speed = "puffish_attributes:player.sprinting_speed",
+a_player_knockback = "puffish_attributes:player.knockback",
+a_player_repair_cost = "puffish_attributes:player.repair_cost",
 
 }
 

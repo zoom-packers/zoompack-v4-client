@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "dimensions"
-	group: "095B5FA2C9ED2F6A"
+	group: ""
 	icon: {
 		Count: 1
 		id: "irons_spellbooks:wayward_compass"
@@ -12,7 +12,7 @@
 	images: [
 		{
 			height: 4.0d
-			image: "minecraft:particle/vibration"
+			image: "minecraft:textures/particle/vibration.png"
 			rotation: -180.0d
 			width: 4.0d
 			x: 1.0d

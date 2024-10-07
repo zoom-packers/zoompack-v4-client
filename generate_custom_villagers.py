@@ -19,6 +19,9 @@ gemist_config['profession'] = "spacecatcustomprofessions:gemist"
 animalist_config = copy.deepcopy(base_villager_trade_data)
 animalist_config['profession'] = "spacecatcustomprofessions:animalist"
 
+botezatu_config = copy.deepcopy(base_villager_trade_data)
+botezatu_config['profession'] = "spacecatcustomprofessions:botezatu"
+
 ticketmaster_config = copy.deepcopy(base_villager_trade_data)
 ticketmaster_config['profession'] = "spacecatcustomprofessions:ticketmaster"
 ticketmaster_config['maxTrades'] = 99999999
@@ -27,7 +30,8 @@ custom_villagers_trades_data = {
   'banker' : banker_config,
   'gemist' : gemist_config,
   'animalist' : animalist_config,
-  'ticketmaster': ticketmaster_config
+  'ticketmaster': ticketmaster_config,
+  'botezatu' : botezatu_config,
 }
 
 def new_custom_villager_trade(villager, request, offer, trade_xp, max_uses, trade_lvl,price_multiplier = 0, demand=0, additional_request = None, potion_offer_effects = None, potion_color = 16004148, loot_table = None, item_title=None, item_lore=None, rarity=-1, item_title_color=None, item_lore_color=None, egg_mob=None, mob_hp_percentage_boost=1, mob_armor_boost=0, mob_damage_boost=0, mob_speed_pertange_boost=0, structure_id = None):
@@ -112,7 +116,7 @@ ideas for trades:
 # Banker Basic trades
 #buy
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 5), ('minecraft:ender_pearl', 1), 1, 1)
-new_default_trade('banker', ('dotcoinmod:bronze_coin', 49), ('zoomers_economy:gatekeeper_bag', 1), 1, 1)
+new_map_trade('banker', ('dotcoinmod:bronze_coin', 49), ('minecraft:filled_map', 1), 1, 1, structure_id="blue_skies:gatekeeper_houses")
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 10), ('trials:trial_key', 1), 1, 1)
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 30), ('minecraft:emerald', 1), 1, 1)
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 32), ('blue_skies:blinding_key', 1), 2, 2)
@@ -333,3 +337,10 @@ for skill in skills:
                   item_title_color="dark_red", item_lore_color="aqua")
 
 save_villager_config('ticketmaster')
+
+new_default_trade('botezatu', ('dotcoinmod:silver_coin', 20), ('blue_skies:loot_bag_summoner', 1), 1, 1, loot_table="zoompack_economy:botezatu/cosmetics_common", item_title = "Common Cosmetic Loot Bag", item_lore="Right-Click to open the lootbag", rarity=0, item_title_color="dark_green", item_lore_color="purple")
+new_default_trade('botezatu', ('dotcoinmod:gold_coin', 5), ('blue_skies:loot_bag_alchemist', 1), 2, 2, loot_table="zoompack_economy:botezatu/cosmetics_uncommon", item_title = "Uncommon Cosmetic Loot Bag", item_lore="Right-Click to open the lootbag", rarity=0, item_title_color="blue", item_lore_color="purple")
+new_default_trade('botezatu', ('dotcoinmod:gold_coin', 60), ('blue_skies:loot_bag_starlit_crusher', 1), 3, 3, loot_table="zoompack_economy:botezatu/cosmetics_rare", item_title = "Rare Cosmetic Loot Bag", item_lore="Right-Click to open the lootbag", rarity=1, item_title_color="light_purple", item_lore_color="purple")
+new_default_trade('botezatu', ('dotcoinmod:emerald_coin', 4), ('blue_skies:loot_bag_arachnarch', 1), 4, 4, loot_table="zoompack_economy:botezatu/cosmetics_legendary", item_title = "Legendary Cosmetic Loot Bag", item_lore="Right-Click to open the lootbag", rarity=2, item_title_color="yellow", item_lore_color="purple")
+
+save_villager_config('botezatu')

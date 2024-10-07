@@ -23,7 +23,7 @@ export interface IArmory<T> extends IBasicDataHolder<IArmory<T>> {
 
     withColor(color: string): T;
 
-    withChromaKey(colorToReplace: string, tolerance: number, functionType: "linear" | "squared" | "cubic", replaceWith: string): T;
+    withChromaKey(chromaKey: ChromaKeyOperation): T;
 
     withChromaKeys(chromaKeyOperations: ChromaKeyOperation[]): T;
 

@@ -1,0 +1,75 @@
+{
+  "profession": "spacecatcustomprofessions:botezatu",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_summoner",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:botezatu/cosmetics_common\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Common Cosmetic Loot Bag\",\"italic\":false,\"color\":\"dark_green\"}]\u0027},Rarity:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:silver_coin",
+        "amount": 20
+      },
+      "tradeExp": 1,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "spacecatcustomprofessions:botezatu_loot_bag_summoner_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_alchemist",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:botezatu/cosmetics_uncommon\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Uncommon Cosmetic Loot Bag\",\"italic\":false,\"color\":\"blue\"}]\u0027},Rarity:0}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 5
+      },
+      "tradeExp": 2,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "spacecatcustomprofessions:botezatu_loot_bag_alchemist_for_gold_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_starlit_crusher",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:botezatu/cosmetics_rare\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Rare Cosmetic Loot Bag\",\"italic\":false,\"color\":\"light_purple\"}]\u0027},Rarity:1}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:gold_coin",
+        "amount": 60
+      },
+      "tradeExp": 3,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "spacecatcustomprofessions:botezatu_loot_bag_starlit_crusher_for_gold_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "blue_skies:loot_bag_arachnarch",
+        "amount": 1,
+        "advancedNBTData": "{LootTable:\"zoompack_economy:botezatu/cosmetics_legendary\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Legendary Cosmetic Loot Bag\",\"italic\":false,\"color\":\"yellow\"}]\u0027},Rarity:2}"
+      },
+      "request": {
+        "itemKey": "dotcoinmod:emerald_coin",
+        "amount": 4
+      },
+      "tradeExp": 4,
+      "maxUses": 9999999,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "spacecatcustomprofessions:botezatu_loot_bag_arachnarch_for_emerald_coin"
+    }
+  ]
+}

@@ -3,9 +3,575 @@
 	default_quest_shape: ""
 	filename: "call_of_the_depths"
 	group: "653CB9213F69DF0A"
+	icon: {
+		Count: 1
+		id: "callfromthedepth_:depth_armor_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "720047A70BAE83E7"
+	images: [
+		{
+			height: 20.0d
+			image: "minecraft:block/bedrock"
+			rotation: 0.0d
+			width: 20.0d
+			x: 19.750000000000014d
+			y: -0.40476190476194773d
+		}
+		{
+			height: 20.0d
+			image: "callfromthedepth_:block/cracked_deepslate_bricks"
+			rotation: 0.0d
+			width: 20.0d
+			x: -14.53571428571425d
+			y: -0.4047619047619264d
+		}
+		{
+			height: 20.0d
+			image: "callfromthedepth_:block/cracked_deepslate_bricks"
+			rotation: 0.0d
+			width: 20.0d
+			x: 19.750000000000043d
+			y: -17.54761904761908d
+		}
+		{
+			height: 20.0d
+			image: "minecraft:block/black_concrete"
+			rotation: 0.0d
+			width: 20.0d
+			x: -14.53571428571425d
+			y: -17.54761904761908d
+		}
+		{
+			height: 20.0d
+			image: "minecraft:block/bedrock"
+			rotation: 0.0d
+			width: 20.0d
+			x: 2.6071428571428896d
+			y: -17.54761904761908d
+		}
+		{
+			height: 20.0d
+			image: "callfromthedepth_:block/deepearth"
+			rotation: 0.0d
+			width: 20.0d
+			x: -14.53571428571425d
+			y: 16.738095238095212d
+		}
+		{
+			height: 20.0d
+			image: "callfromthedepth_:block/deepearth"
+			rotation: 0.0d
+			width: 20.0d
+			x: 19.750000000000014d
+			y: 16.738095238095198d
+		}
+		{
+			height: 20.0d
+			image: "apotheosis:blocks/soul_touched_deepshelf"
+			rotation: 0.0d
+			width: 20.0d
+			x: 2.5714285714285694d
+			y: -0.3571428571428825d
+		}
+		{
+			height: 3.0d
+			image: "theabyss:textures/abyss_power_icon.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/particle/soul_7.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -15.5d
+			y: 10.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/particle/soul_7.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/particle/soul_7.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 17.0d
+			y: 12.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/particle/soul_8.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/particle/soul_8.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.0d
+			y: 11.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/particle/soul_8.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -9.5d
+			y: -10.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/particle/soul_9.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 18.5d
+			y: -1.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/particle/soul_9.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.5d
+			y: -14.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/particle/soul_9.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 16.0d
+			y: -16.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/particle/soul_9.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.5d
+			y: -18.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/particle/soul_9.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 22.0d
+			y: 14.0d
+		}
+		{
+			height: 20.0d
+			image: "callfromthedepth_:block/rotjawsblock"
+			rotation: 0.0d
+			width: 20.0d
+			x: 2.6071428571428754d
+			y: 16.738095238095198d
+		}
+		{
+			height: 5.0d
+			image: "theabyss:item/nosajsword"
+			rotation: -90.0d
+			width: 5.0d
+			x: 7.928571428571416d
+			y: 4.997619047618997d
+		}
+		{
+			height: 5.0d
+			image: "theabyss:item/nosajsword"
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.785714285714299d
+			y: 4.997619047618997d
+		}
+		{
+			height: 5.0d
+			image: "theabyss:item/nosajsword"
+			rotation: -180.0d
+			width: 5.0d
+			x: 7.999999999999986d
+			y: -5.8238095238095795d
+		}
+		{
+			height: 5.0d
+			image: "theabyss:item/nosajsword"
+			rotation: 90.0d
+			width: 5.0d
+			x: -2.8571428571428683d
+			y: -5.8238095238095795d
+		}
+	]
 	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
-	title: "Call of from depths"
+	quests: [
+		{
+			description: ["&7Venture into the depths of the world to uncover the Ancient City. This long-forgotten stronghold, shrouded in mystery and danger, holds untold treasures and secrets. Explore its vast ruins and discover the hidden history and valuable relics it conceals."]
+			id: "3E6BAFFB123AC899"
+			rewards: [{
+				id: "3C3ED843274FCA9F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Don't make a sound"
+			tasks: [{
+				id: "14930028763C6828"
+				structure: "minecraft:ancient_city"
+				type: "structure"
+			}]
+			title: "Lost civilization"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3E6BAFFB123AC899"]
+			description: ["&7Face the formidable Warden lurking within the depths of the Ancient City. This fearsome guardian is a true test of courage and skill. Defeat the Warden to claim its rare drops and assert your dominance over the city's dark forces."]
+			id: "011E3C1FA180B63F"
+			rewards: [
+				{
+					count: 6
+					id: "3CD276558141F0D1"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					amount: 1
+					auto: "invisible"
+					id: "53AF7796F1C97B3D"
+					skill: "swordsmanship"
+					type: "pmmo:levelreward"
+				}
+				{
+					amount: 1
+					auto: "invisible"
+					id: "5408AA6C08A47035"
+					skill: "archery"
+					type: "pmmo:levelreward"
+				}
+				{
+					id: "3385A371DBD93C99"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Here it comes..."
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbchunks:textures/faces/minecraft/warden.png"
+					}
+				}
+				id: "2FD95D5C37EF1276"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Mistake coming here,,,"
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["43A4A35E322B8106"]
+			description: ["&7With the Depth Key in hand, unlock the portal in the Ancient City and step into the Depths Dimension. A new world awaits, filled with untold mysteries, dangerous creatures, and rare treasures. Venture forth and explore the unknown, as your journey takes you deeper than ever before!"]
+			id: "58F809034FC1B7B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73705A8D0EC8151D"
+				table_id: 1610080839990707444L
+				type: "loot"
+			}]
+			subtitle: "Down we go"
+			tasks: [{
+				dimension: "callfromthedepth_:depth"
+				id: "19A90F5CFF826D4A"
+				type: "dimension"
+			}]
+			title: "Depths"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["58F809034FC1B7B2"]
+			description: ["&7Deep within the Depths Dimension lies a haunting resource: Lost Souls Sand. This eerie sand is infused with the remnants of forgotten spirits."]
+			id: "777CCA33DE66B663"
+			rewards: [{
+				count: 3
+				id: "17FBE73A349ED742"
+				item: "callfromthedepth_:lostsoulitem"
+				type: "item"
+			}]
+			subtitle: "I swear i could hear screams"
+			tasks: [{
+				id: "4964735A1C3B8A5C"
+				item: "callfromthedepth_:lostsoulssand"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["777CCA33DE66B663"]
+			description: [""]
+			id: "6239C669C8486D2F"
+			rewards: [{
+				id: "43A095C9753E20B8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Sieve the Lost Souls Sand to uncover Lost Soul Shards, fragments of the spirits trapped within. These shards are rare and potent, holding the essence of the departed."
+			tasks: [{
+				id: "690AC34A56C10275"
+				item: "callfromthedepth_:lostsoulitem"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6239C669C8486D2F"]
+			id: "6B3CEE7AB892E4A7"
+			rewards: [{
+				id: "4D7135846CF563FA"
+				item: "callfromthedepth_:immemorialscrap"
+				type: "item"
+			}]
+			subtitle: "Combine the soul shards"
+			tasks: [{
+				id: "3673DBFEEACBA2C5"
+				item: "callfromthedepth_:fullsoul"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B3CEE7AB892E4A7"]
+			id: "36CFEEC172B41BC1"
+			rewards: [{
+				count: 5
+				id: "2E66670CC376DDED"
+				item: "callfromthedepth_:immemorialscrap"
+				type: "item"
+			}]
+			subtitle: "Just one more thing to do..."
+			tasks: [{
+				id: "4F2000C52E81C2B6"
+				item: "callfromthedepth_:soulinagony"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["36CFEEC172B41BC1"]
+			id: "586ABE08384682E8"
+			rewards: [
+				{
+					count: 2
+					id: "0ACDE6485E66D54E"
+					item: "callfromthedepth_:immemorialingot"
+					type: "item"
+				}
+				{
+					id: "5BC9E7FB5D57020D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Confront the Soul of Agony, an ancient demigod beast lurking deep within the Depths. This powerful entity embodies torment and despair, challenging all who dare to face it. Defeat the Soul of Agony to claim its dark essence and prove your dominance over the most fearsome forces in the Depths!"
+			tasks: [{
+				entity: "callfromthedepth_:agonysoul"
+				id: "6DA7AC69AD971559"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Agony’s End"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			id: "43A7871F46A29EEB"
+			rewards: [{
+				id: "04D67C2DB9A3F0F5"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Shards that gradually peeled of the coruption"
+			tasks: [{
+				id: "432E8DC4F2A9FD8B"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["011E3C1FA180B63F"]
+			description: ["&7Unearth the elusive Depth Key, a powerful artifact hidden within the darkest corners of the world. This key holds the power to activate the mysterious portal found in the Ancient City. Secure the Depth Key to unlock new adventures and unknown realms that lie beyond the portal!"]
+			id: "43A4A35E322B8106"
+			rewards: [
+				{
+					count: 2
+					id: "0D8FD0C06A3F12D8"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "2C863337D1507E4F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft it"
+			tasks: [{
+				id: "460224C39331E66A"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:depth"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"43A7871F46A29EEB"
+				"6B3CEE7AB892E4A7"
+			]
+			id: "4102FC8BBEF616F7"
+			rewards: [
+				{
+					count: 3
+					id: "3ADC626BA65EE321"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "44C0E5461505AD15"
+					item: "callfromthedepth_:immemorialscrap"
+					type: "item"
+				}
+				{
+					id: "1F0AA81640B98442"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Craft the Sculk Hearth, a twisted amalgam of corruption and dark energy."
+			tasks: [{
+				id: "54207BA0F2ABA0D3"
+				item: "callfromthedepth_:sculkhearth"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["58F809034FC1B7B2"]
+			id: "64489279CC477F2C"
+			rewards: [
+				{
+					id: "51C6FCE33442A694"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "1EEC129DDC8062CA"
+					item: "callfromthedepth_:lostsoulitem"
+					type: "item"
+				}
+			]
+			subtitle: "The stuff of nightmares..."
+			tasks: [{
+				id: "44A93CF233BC1A70"
+				item: "callfromthedepth_:immemorial_debris"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["64489279CC477F2C"]
+			id: "5A245B0FC26D8857"
+			rewards: [
+				{
+					id: "4CAB232E4F64C917"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "3F68D0778D6592EC"
+					item: "callfromthedepth_:lostsoulitem"
+					type: "item"
+				}
+			]
+			subtitle: "Looks familiar..."
+			tasks: [{
+				id: "53990E76027BC93A"
+				item: "callfromthedepth_:immemorialscrap"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4102FC8BBEF616F7"
+				"5A245B0FC26D8857"
+			]
+			id: "2AACFE4FEBAA1768"
+			rewards: [
+				{
+					amount: 1
+					auto: "invisible"
+					id: "2C1331585F7D8CE4"
+					skill: "endurance"
+					type: "pmmo:levelreward"
+				}
+				{
+					id: "648A9EB1A7E4218A"
+					item: "callfromthedepth_:immemorialupgradesmithingtemplate"
+					type: "item"
+				}
+				{
+					id: "77FA420398B09925"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Here we go again..."
+			tasks: [{
+				id: "6683566549EAADDA"
+				item: "callfromthedepth_:immemorialingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+	]
+	title: "Call from the depth"
 }

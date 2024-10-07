@@ -1,55 +1,11 @@
-import {AnyVariant, ChromaKeyOperation} from "./ArmoryTypes";
+import {AnyVariant} from "./ArmoryTypes";
 import fs from "fs";
 import path from "path";
 import {ItemTextureWrapper} from "../textureGen/itemTextureWrapper";
 import {Material} from "./material";
 import {ensureFolderExists, log, removeNamespace} from "../utils";
 import {Config} from "../config";
-
-export abstract class CustomArmoryEntry {
-    variants: AnyVariant[];
-    modelPaths: string[] = [];
-    geoPaths: string[] = [];
-    textures: { [key: string]: string[] } = {};
-    additionalTextures: {path: string, resultFileName:string}[] = [];
-    customChromaKeyOperations: ChromaKeyOperation[] = [];
-    materialChromaKeyOperations: ChromaKeyOperation[] = [];
-
-    protected constructor(variants: AnyVariant[]) {
-        this.variants = variants;
-    }
-
-    withModelPaths(modelPaths: string[]) {
-        this.modelPaths = modelPaths;
-        return this;
-    }
-
-    withGeoPaths(geoPaths: string[]) {
-        this.geoPaths = geoPaths;
-        return this;
-    }
-
-    withTextures(textures: { [key: string]: string[] }) {
-        this.textures = textures;
-        return this;
-    }
-
-    withAdditionalTextures(additionalTextures: {path: string, resultFileName:string}[]) {
-        this.additionalTextures = additionalTextures;
-        return this;
-    }
-
-    withCustomChromaKeyOperations(customChromaKeyOperations: ChromaKeyOperation[]) {
-        this.customChromaKeyOperations = customChromaKeyOperations;
-        return this;
-    }
-
-    withMaterialChromaKeyOperations(materialChromaKeyOperations: ChromaKeyOperation[]) {
-        this.materialChromaKeyOperations = materialChromaKeyOperations;
-        return this;
-    }
-
-}
+import {CustomArmoryEntry} from "./customArmoryEntry";
 
 
 export class GeckoArmorArmoryEntry extends CustomArmoryEntry{
@@ -135,10 +91,24 @@ export class GeckoArmorArmoryEntry extends CustomArmoryEntry{
             outputPath = outputPath.replace("{material}", material.internalName);
         }
         for (const materialChromaKeyOperation of this.materialChromaKeyOperations) {
-            itemTexture = itemTexture.withChromaKey(materialChromaKeyOperation.colorToReplace, materialChromaKeyOperation.tolerance, materialChromaKeyOperation.function, material.color);
+            itemTexture = itemTexture.withChromaKey(
+                {
+                    colorToReplace: materialChromaKeyOperation.colorToReplace,
+                    tolerance: materialChromaKeyOperation.tolerance,
+                    function: materialChromaKeyOperation.function,
+                    replaceWith: material.color
+                }
+            );
         }
         for (const customChromaKeyOperation of this.customChromaKeyOperations) {
-            itemTexture = itemTexture.withChromaKey(customChromaKeyOperation.colorToReplace, customChromaKeyOperation.tolerance, customChromaKeyOperation.function, customChromaKeyOperation.replaceWith);
+            itemTexture = itemTexture.withChromaKey(
+                {
+                    colorToReplace: customChromaKeyOperation.colorToReplace,
+                    tolerance: customChromaKeyOperation.tolerance,
+                    function: customChromaKeyOperation.function,
+                    replaceWith: customChromaKeyOperation.replaceWith
+                }
+            );
         }
         const workingTexture = itemTexture.toWorkingTexture();
         const buffer = await workingTexture.sharpProcess();

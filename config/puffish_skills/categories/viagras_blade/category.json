@@ -10,5 +10,10 @@
 			"item": "theabyss:nosaj_sword"
 		}
 	},
-	"background": "textures/block/cut_copper.png"
+	"background": {
+        "texture": "zoomers_wallpapers:textures/viagras_blade.png",
+        "width": 1729,
+        "height": 1300,
+		"position": "fill"
+    }
 }

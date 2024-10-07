@@ -3294,6 +3294,7 @@ i_mutant_skeleton_skull = "mutantmonsters:mutant_skeleton_skull",
 }
 
 
+
 export enum item_libraryferret {
     i_iron_coins_jtl = "libraryferret:iron_coins_jtl",
 i_emerald_coins_jtl = "libraryferret:emerald_coins_jtl",
@@ -4157,6 +4158,7 @@ i_mossy_stone_bricks_pressure_plate = "plentyplates:mossy_stone_bricks_pressure_
 i_chiseled_stone_bricks_pressure_plate = "plentyplates:chiseled_stone_bricks_pressure_plate",
 
 }
+
 
 
 export enum item_utilitarian {
@@ -10103,6 +10105,7 @@ i_mantydhelmet_helmet = "mokels_boss_mantyd:mantydhelmet_helmet",
 }
 
 
+
 export enum item_patchouli {
     i_guide_book = "patchouli:guide_book",
 
@@ -12082,6 +12085,7 @@ i_debug_tool = "sophisticatedstorage:debug_tool",
 i_inaccessible_slot = "sophisticatedstorage:inaccessible_slot",
 
 }
+
 
 
 export enum item_itemfilters {

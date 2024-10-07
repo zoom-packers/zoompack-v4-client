@@ -5,14 +5,422 @@
 	group: "653CB9213F69DF0A"
 	icon: "minecraft:glowstone"
 	id: "23F3E31CAB0F87C8"
+	images: [
+		{
+			height: 2.0d
+			image: "aetherdelight:item/aetherflower_tea"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "naturalist:item/clouded_yellow"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "naturalist:item/clouded_yellow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "naturalist:item/clouded_yellow"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "naturalist:item/blue_morpho"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 20.0d
+			image: "aether:block/natural/enchanted_aether_grass_block_side"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "naturalist:item/swallowtail"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "naturalist:item/swallowtail"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "naturalist:item/swallowtail"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "naturalist:item/clouded_yellow"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "naturalist:item/clouded_yellow"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "naturalist:item/clouded_yellow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "naturalist:item/blue_morpho"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "naturalist:item/blue_morpho"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "naturalist:item/blue_morpho"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/seagrass"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/seagrass"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/seagrass"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/seagrass"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/seagrass"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/seagrass"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/seagrass"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/golden_vine"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/golden_vine_bottom"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/golden_vine"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/golden_vine"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/golden_vine_bottom"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/golden_vine"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/golden_vine"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/golden_vine_bottom"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/golden_vine"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/golden_vine_bottom"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/kelp_plant"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/kelp"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/kelp_plant"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/kelp_plant"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/kelp_plant"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/kelp_plant"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/kelp_plant"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/kelp"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/kelp"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			height: 20.0d
+			image: "aether_redux:block/natural/cloudcap_stem"
+			order: -1
+			rotation: 0.0d
+			width: 20.0d
+			x: -16.64285714285713d
+			y: -0.4642857142857153d
+		}
+		{
+			height: 20.0d
+			image: "minecraft:block/raw_gold_block1"
+			order: -1
+			rotation: 0.0d
+			width: 20.0d
+			x: 17.64285714285718d
+			y: -0.4642857142857153d
+		}
+		{
+			height: 20.0d
+			image: "minecraft:block/coal_block"
+			order: -1
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.5000000000000284d
+			y: 16.607142857142847d
+		}
+		{
+			height: 20.0d
+			image: "aether_redux:block/natural/cloudcap_stem"
+			order: -1
+			rotation: 0.0d
+			width: 20.0d
+			x: 17.714285714285722d
+			y: 16.714285714285715d
+		}
+		{
+			height: 20.0d
+			image: "minecraft:block/raw_gold_block1"
+			order: -1
+			rotation: 0.0d
+			width: 20.0d
+			x: -16.714285714285694d
+			y: 16.714285714285715d
+		}
+		{
+			height: 20.0d
+			image: "minecraft:block/coal_block"
+			order: -1
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.428571428571459d
+			y: -17.57142857142857d
+		}
+		{
+			height: 20.0d
+			image: "aether_redux:block/natural/cloudcap_stem"
+			order: -1
+			rotation: 0.0d
+			width: 20.0d
+			x: 17.571428571428584d
+			y: -17.7142857142857d
+		}
+		{
+			height: 20.0d
+			image: "minecraft:block/raw_gold_block1"
+			order: -1
+			rotation: 0.0d
+			width: 20.0d
+			x: -16.714285714285694d
+			y: -17.57142857142857d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Make a glowstone portal and light it with water"]
+			description: ["&7Legends speak of a mystical realm high above the clouds, known as the Aether—a land of floating islands, ancient ruins, and heavenly creatures. To reach this enchanting dimension, you'll need to craft a portal using Glowstone and ignite it with Water. Once activated, the portal will transport you to the Aether's breathtaking skies, where new adventures, challenges, and treasures await. Prepare yourself for the wonders and dangers of this celestial world!"]
 			icon: "minecraft:glowstone"
 			id: "55494C46BBB4B12E"
-			subtitle: "Get yo ass in the aether"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E5974265F234D4A"
+				table_id: 1610080839990707444L
+				type: "choice"
+			}]
+			subtitle: "Construct a portal to enter the Aether dimension"
 			tasks: [{
 				dimension: "aether:the_aether"
 				id: "4D67F63180730817"
@@ -20,12 +428,20 @@
 			}]
 			title: "On cloud 9"
 			x: -0.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["55494C46BBB4B12E"]
+			description: ["&7Deep within the floating islands of the Aether, a rare and powerful gem known as Zanite lies hidden. This vibrant purple crystal is said to grow stronger as it takes damage, making it highly sought after by adventurers. Your mission is to explore the Aether’s treacherous caves and towering cliffs to mine Zanite Ore. Be prepared to face the challenges of the Aether’s unique environment, including hostile creatures and tricky terrain. Gather enough Zanite to craft powerful tools and armor, and harness the true potential of this mystical gem."]
 			id: "67238295F602FF1E"
+			rewards: [{
+				id: "4B9A4511109D4B25"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Mine some zanite"
 			tasks: [{
+				count: 15L
 				id: "124892B4357D392B"
 				item: "aether:zanite_gemstone"
 				type: "item"
@@ -36,42 +452,109 @@
 		}
 		{
 			dependencies: ["67238295F602FF1E"]
+			description: ["&7The vibrant Aechor Plant, found only in the lush landscapes of the Aether, holds a unique treasure: the Aechor Petal. This delicate petal is known for its potent properties, used in crafting and alchemy. Your mission is to track down these elusive plants, often found in dangerous, high-altitude areas guarded by hostile creatures. Approach with caution, as the Aechor Plant can release toxic spores when threatened. Once you've harvested the Aechor Petal, you'll have a valuable ingredient to enhance your crafting and potion-making abilities in the mystical world of the Aether."]
 			id: "45A1F8526A688E67"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "611DF0D8242CC10E"
+					table_id: 4116256588204561948L
+					type: "loot"
+				}
+				{
+					id: "2A5FE1B728E7CEC0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Kill a flower"
 			tasks: [{
 				id: "25E7026E19A115A1"
 				item: "aether:aechor_petal"
 				type: "item"
 			}]
 			title: "Mario plant"
-			x: 1.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["67238295F602FF1E"]
+			description: ["&7The majestic Blue Moa, a rare bird native to the Aether, is known for its powerful abilities and striking blue feathers. These creatures are highly prized for their loyalty and the ability to carry riders across the Aether’s vast skies. Your task is to locate a Blue Moa and obtain one of its eggs. Search the floating islands, where these creatures nest, but beware—they are guarded fiercely. Once you find an egg, carefully bring it back to your base, where you can hatch and raise your very own Blue Moa, unlocking the skies for your future adventures."]
 			id: "332A0C087A610042"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74520569170F069E"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D01B658A501FA4B"
+					table_id: 4116256588204561948L
+					type: "loot"
+				}
+			]
+			subtitle: "Kill aether chickens"
 			tasks: [{
 				id: "6B1F25D077AEB272"
 				item: "aether:blue_moa_egg"
 				type: "item"
 			}]
 			title: "Ou de cioara"
-			x: 1.0d
-			y: 4.0d
+			x: 1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["332A0C087A610042"]
+			description: ["&7The Incubator is a crucial tool for raising exotic creatures in the Aether, allowing you to hatch and nurture rare eggs into loyal companions. To acquire this valuable item, you must seek out the ancient, hidden structures within the Aether’s floating islands. These Incubators are often stored in well-guarded treasure chests or crafted by skilled artisans. Navigate through challenging terrain and fend off the Aether’s fierce inhabitants to find the Incubator. Once in your possession, you’ll be able to hatch and raise Aether's unique creatures, expanding your adventure in this celestial realm."]
 			id: "0E800C6CDF4A9BC5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5623A9887247D72A"
+					table_id: 4116256588204561948L
+					type: "loot"
+				}
+				{
+					id: "5C9B1DC74A40E6F3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Utilized for cooking eggs"
 			tasks: [{
 				id: "0E444D16D00D5E61"
 				item: "aether:incubator"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.5d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["67238295F602FF1E"]
+			description: ["&7The mysterious realm of the Aether holds powerful artifacts beyond mortal reach. Your task is to venture into this celestial domain and recover the Aether Altar, a sacred construct said to amplify the very essence of the heavens."]
 			id: "2EA1095579D85C17"
+			rewards: [
+				{
+					count: 5
+					id: "53B8D36C12504430"
+					item: "aether:blue_berry"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "268CAB8894A1668B"
+					item: "aether:golden_dart"
+					type: "item"
+				}
+				{
+					id: "2E1CB03D87DA41F5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Creepy altar"
 			tasks: [{
 				id: "4E4A5B96BA48241F"
 				item: "aether:altar"
@@ -83,23 +566,18 @@
 		}
 		{
 			dependencies: ["2EA1095579D85C17"]
-			id: "66A656064AC344B9"
-			tasks: [{
-				id: "57D0A71BAB539E6C"
-				item: "aether:enchanted_gravitite"
-				type: "item"
-			}]
-			title: "Pimp ore"
-			x: -0.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["66A656064AC344B9"]
+			description: ["&7A menacing force stirs in the heart of the Aether, and only the bravest adventurers can stand against it. The Slider Boss, a formidable guardian of the Aether's secrets, threatens the realm with its chaotic power. Your mission is to confront and vanquish this colossal foe to restore peace."]
 			icon: "minecraft:cobblestone"
 			id: "7F2F6FEF5EE62FB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DDBCBDDF85B8E32"
+				table_id: 3842121167734636042L
+				type: "loot"
+			}]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Kill the Thwomp boss"
+			subtitle: "Kill the Thwomp boss found in bronze dungeons"
 			tasks: [{
 				entity: "aether:slider"
 				id: "13C3C63AE608A37C"
@@ -107,13 +585,32 @@
 				value: 1L
 			}]
 			title: "Thwomp"
-			x: 0.5d
-			y: -1.0d
+			x: -1.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["66A656064AC344B9"]
-			description: ["Go to a bronze tier dungeon and obtain the lance and the hammer."]
+			description: ["&7Two legendary weapons lie hidden in the Aether: the mighty Hammer of Kingbdogz and the graceful Valkyrie Lance. Seek out these relics of immense power to enhance your arsenal. Overcome the challenges guarding them and claim these treasured artifacts."]
 			id: "5FA420AA2104459E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5398AB753DC575A8"
+					table_id: 6759378343124754253L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11A074E868D12FBC"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "697A0470B35CDD83"
+					table_id: 4116256588204561948L
+					type: "loot"
+				}
+			]
 			subtitle: "<>"
 			tasks: [
 				{
@@ -140,19 +637,26 @@
 				}
 			]
 			title: "Ciocan si Dildou"
-			x: -1.5d
-			y: -1.0d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
 				"5FA420AA2104459E"
 				"7F2F6FEF5EE62FB0"
 			]
+			description: ["&7The Valkyrie Queen, ruler of the Aether’s elite, reigns with unmatched power and grace. To restore balance, you must confront and defeat this formidable foe. Prepare for a fierce battle and claim victory over the queen of the skies."]
 			icon: "aether:music_disc_ascending_dawn"
 			id: "7851AE5F185EA4EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FF5AC91D4E16C92"
+				table_id: 3842121167734636042L
+				type: "loot"
+			}]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Kill superwoman"
+			subtitle: "Kill superwoman found in the temple like structures"
 			tasks: [{
 				entity: "aether:valkyrie_queen"
 				id: "2F2F52FC4997EE9E"
@@ -160,14 +664,34 @@
 				value: 1L
 			}]
 			title: "Valkyrie queen"
-			x: -0.5d
-			y: -2.5d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7851AE5F185EA4EF"]
-			description: ["Go to a silver tier dungeon and lay waste in hopes of finding valkyrie armor"]
+			description: ["&7The Valkyrie Armor, a set of legendary gear forged in the Aether, offers unparalleled protection and might. Venture into the Aether’s depths to seek out and acquire this exalted armor. Conquer the trials set before you to claim its celestial power."]
 			id: "6E41D797FBD7B5DB"
-			subtitle: "Armura de femeie imputernicita"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2DD9A795AE089176"
+					table_id: 4116256588204561948L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25BBF3FB883E300F"
+					table_id: 2622458127975197730L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "684E2102673F6BB0"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+			]
+			subtitle: "Valkyrie’s Valor"
 			tasks: [
 				{
 					id: "1135A589885DD904"
@@ -220,8 +744,15 @@
 		}
 		{
 			dependencies: ["6E41D797FBD7B5DB"]
+			description: ["&7The Sun Spirit, a radiant and powerful entity, threatens the harmony of the Aether. Your task is to challenge and defeat this blazing guardian to restore celestial balance. Face the heat of battle and emerge victorious."]
 			icon: "minecraft:blaze_powder"
 			id: "1EB33191AC23D02E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D5A5ABACC0C2188"
+				table_id: 3842121167734636042L
+				type: "loot"
+			}]
 			shape: "octagon"
 			size: 2.0d
 			subtitle: "Kill the fire lord"
@@ -231,13 +762,35 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Ragnaros"
+			title: "Lil Ragnaros"
 			x: 0.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["1EB33191AC23D02E"]
+			description: ["&7The Phoenix Armor, imbued with the essence of the mythical phoenix, offers both fiery strength and resilience. Explore the Aether and overcome its trials to secure this legendary armor. Embrace the flames and rise with renewed power."]
 			id: "18C69A2ED032842E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "598FB00C90295AE4"
+					table_id: 6759378343124754253L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10EA430A85F79CD4"
+					table_id: 4116256588204561948L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "529CB5C9ED2EC4F5"
+					table_id: 7743076479955517786L
+					type: "loot"
+				}
+			]
+			subtitle: "Obtain it and become a demigod of the sun"
 			tasks: [
 				{
 					id: "5F5589E954D50C7A"
@@ -284,8 +837,9 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -5.5d
+			title: "Rise from the ashes"
+			x: -1.0d
+			y: -7.5d
 		}
 	]
 	title: "Aether"

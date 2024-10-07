@@ -6589,6 +6589,8 @@ i_mutant_skeleton_skull: "mutantmonsters:mutant_skeleton_skull",
 };
 
 
+
+
 /**
  * Auto-generated Enum
  * @readonly
@@ -8317,6 +8319,8 @@ i_mossy_stone_bricks_pressure_plate: "plentyplates:mossy_stone_bricks_pressure_p
 i_chiseled_stone_bricks_pressure_plate: "plentyplates:chiseled_stone_bricks_pressure_plate",
 
 };
+
+
 
 
 /**
@@ -11917,6 +11921,7 @@ i_lock_day: "daily_rewards:lock_day",
 i_unlock_day: "daily_rewards:unlock_day",
 
 };
+
 
 
 
@@ -20207,6 +20212,7 @@ i_mantydhelmet_helmet: "mokels_boss_mantyd:mantydhelmet_helmet",
 
 
 
+
 /**
  * Auto-generated Enum
  * @readonly
@@ -24167,6 +24173,9 @@ i_debug_tool: "sophisticatedstorage:debug_tool",
 i_inaccessible_slot: "sophisticatedstorage:inaccessible_slot",
 
 };
+
+
+
 
 /**
  * Auto-generated Enum

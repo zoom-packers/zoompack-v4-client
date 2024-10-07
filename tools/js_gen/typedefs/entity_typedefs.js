@@ -426,6 +426,7 @@ e_skull_spirit: "mutantmonsters:skull_spirit",
 
 
 
+
 /**
  * Auto-generated Enum
  * @readonly
@@ -596,6 +597,7 @@ const entity_sophisticatedbackpacks = {
 e_everlasting_backpack_item: "sophisticatedbackpacks:everlasting_backpack_item",
 
 };
+
 
 
 

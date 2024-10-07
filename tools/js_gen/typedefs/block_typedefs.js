@@ -8448,6 +8448,7 @@ b_stalkertable: "callfromthedepth_:stalkertable",
 
 
 
+
 /**
  * Auto-generated Enum
  * @readonly
@@ -13591,6 +13592,7 @@ b_ancient_portal_frame: "endrem:ancient_portal_frame",
 
 
 
+
 /**
  * Auto-generated Enum
  * @readonly
@@ -15251,6 +15253,7 @@ b_storage_input: "sophisticatedstorage:storage_input",
 b_storage_output: "sophisticatedstorage:storage_output",
 
 };
+
 
 
 

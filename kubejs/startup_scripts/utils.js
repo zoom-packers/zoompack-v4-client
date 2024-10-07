@@ -198,8 +198,8 @@ global.createGeckoArmorTier = (event, modId, prefix, tier, textures, helmName, c
             .boneVisibility((renderer, slot) => {
                 renderer.setAllVisible(false);
                 if (slot === "legs") {
-                    renderer.setBoneVisible(renderer.getRightBootBone(), true);
-                    renderer.setBoneVisible(renderer.getLeftBootBone(), true);
+                    renderer.setBoneVisible(renderer.getRightLegBone(), true);
+                    renderer.setBoneVisible(renderer.getLeftLegBone(), true);
                 }
             });
         boots
@@ -210,8 +210,8 @@ global.createGeckoArmorTier = (event, modId, prefix, tier, textures, helmName, c
             .boneVisibility((renderer, slot) => {
                 renderer.setAllVisible(false);
                 if (slot === "feet") {
-                    renderer.setBoneVisible(renderer.getRightLegBone(), true);
-                    renderer.setBoneVisible(renderer.getLeftLegBone(), true);
+                    renderer.setBoneVisible(renderer.getRightBootBone(), true);
+                    renderer.setBoneVisible(renderer.getLeftBootBone(), true);
                 }
             });
     }

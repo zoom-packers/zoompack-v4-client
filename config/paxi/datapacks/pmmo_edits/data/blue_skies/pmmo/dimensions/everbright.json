@@ -8,7 +8,7 @@
         {
             "attribute":"minecraft:generic.max_health",
             "operation": "MULTIPLY_BASE",
-            "amount": 0.5
+            "amount": 3
         },
         {
             "attribute":"minecraft:generic.attack_damage",

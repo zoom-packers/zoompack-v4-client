@@ -92,5 +92,7 @@ for mod_id in mod_ids:
 
 ARMOR_ITEM_IDS = include_item_ids_from_CIA(CIAT_FILE_PATH, ARMOR_ITEM_IDS)
 
+# This script grabs data from pmmo edits and cia and generates trimmable tags for armors (pmmo only wear in config + cia overrides not on mainhand or offhand)
+
 generate_server_js_tags_file(f'{server_scripts_path}/trimmable_generated_tags.js', sorted(ARMOR_ITEM_IDS), f'minecraft:trimmable_armor')
 print('ZOOM >>> Trimmable Armor Tags Generated')

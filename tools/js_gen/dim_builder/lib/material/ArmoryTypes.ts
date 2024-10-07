@@ -8,13 +8,14 @@ export type BaseVariant = {
     recipe: string[],
     durabilityMultiplier: number,
     modelType: string,
-    additionalAttributes: CiaModifier[]
+    additionalAttributes?: CiaModifier[],
+    additionalAttributesPerLevel?: CiaModifier[] | undefined,
 }
 
 export type SwordVariant = BaseVariant & {
     damageMultiplier: number,
-    speedFlatAddition: number,
-    reachFlatAddition: number
+    speedMultiplier: number,
+    reachMultiplier: number
 }
 
 export type ShieldVariant = BaseVariant & {

@@ -1,0 +1,321 @@
+{
+    "nbt_requirements": {
+        "USE": [
+            {
+                "behavior_to_previous": "HIGHEST",
+                "should_cases_add": true,
+                "cases": [
+                    {
+                        "paths": [
+                            "ISB_Spells{}.data[].level"
+                        ],
+                        "criteria": [
+                            {
+                                "operator": "EQUALS",
+                                "comparators": [
+                                    "2"
+                                ],
+                                "value": {
+                                    "magic": 5
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "paths": [
+                            "ISB_Spells{}.data[].level"
+                        ],
+                        "criteria": [
+                            {
+                                "operator": "EQUALS",
+                                "comparators": [
+                                    "3"
+                                ],
+                                "value": {
+                                    "magic": 10
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "paths": [
+                            "ISB_Spells{}.data[].level"
+                        ],
+                        "criteria": [
+                            {
+                                "operator": "EQUALS",
+                                "comparators": [
+                                    "4"
+                                ],
+                                "value": {
+                                    "magic": 15
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "paths": [
+                            "ISB_Spells{}.data[].level"
+                        ],
+                        "criteria": [
+                            {
+                                "operator": "EQUALS",
+                                "comparators": [
+                                    "5"
+                                ],
+                                "value": {
+                                    "magic": 20
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "paths": [
+                            "ISB_Spells{}.data[].level"
+                        ],
+                        "criteria": [
+                            {
+                                "operator": "EQUALS",
+                                "comparators": [
+                                    "6"
+                                ],
+                                "value": {
+                                    "magic": 25
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "paths": [
+                            "ISB_Spells{}.data[].level"
+                        ],
+                        "criteria": [
+                            {
+                                "operator": "EQUALS",
+                                "comparators": [
+                                    "7"
+                                ],
+                                "value": {
+                                    "magic": 30
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "paths": [
+                            "ISB_Spells{}.data[].level"
+                        ],
+                        "criteria": [
+                            {
+                                "operator": "EQUALS",
+                                "comparators": [
+                                    "8"
+                                ],
+                                "value": {
+                                    "magic": 35
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "paths": [
+                            "ISB_Spells{}.data[].level"
+                        ],
+                        "criteria": [
+                            {
+                                "operator": "EQUALS",
+                                "comparators": [
+                                    "9"
+                                ],
+                                "value": {
+                                    "magic": 40
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "paths": [
+                            "ISB_Spells{}.data[].level"
+                        ],
+                        "criteria": [
+                            {
+                                "operator": "EQUALS",
+                                "comparators": [
+                                    "10"
+                                ],
+                                "value": {
+                                    "magic": 45
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "paths": [
+                            "ISB_Spells{}.data[].level"
+                        ],
+                        "criteria": [
+                            {
+                                "operator": "EQUALS",
+                                "comparators": [
+                                    "11"
+                                ],
+                                "value": {
+                                    "magic": 50
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "paths": [
+                            "ISB_Spells{}.data[].level"
+                        ],
+                        "criteria": [
+                            {
+                                "operator": "EQUALS",
+                                "comparators": [
+                                    "12"
+                                ],
+                                "value": {
+                                    "magic": 55
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "paths": [
+                            "ISB_Spells{}.data[].level"
+                        ],
+                        "criteria": [
+                            {
+                                "operator": "EQUALS",
+                                "comparators": [
+                                    "13"
+                                ],
+                                "value": {
+                                    "magic": 60
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "paths": [
+                            "ISB_Spells{}.data[].level"
+                        ],
+                        "criteria": [
+                            {
+                                "operator": "EQUALS",
+                                "comparators": [
+                                    "14"
+                                ],
+                                "value": {
+                                    "magic": 65
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "paths": [
+                            "ISB_Spells{}.data[].level"
+                        ],
+                        "criteria": [
+                            {
+                                "operator": "EQUALS",
+                                "comparators": [
+                                    "15"
+                                ],
+                                "value": {
+                                    "magic": 70
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "paths": [
+                            "ISB_Spells{}.data[].level"
+                        ],
+                        "criteria": [
+                            {
+                                "operator": "EQUALS",
+                                "comparators": [
+                                    "16"
+                                ],
+                                "value": {
+                                    "magic": 75
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "paths": [
+                            "ISB_Spells{}.data[].level"
+                        ],
+                        "criteria": [
+                            {
+                                "operator": "EQUALS",
+                                "comparators": [
+                                    "17"
+                                ],
+                                "value": {
+                                    "magic": 80
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "paths": [
+                            "ISB_Spells{}.data[].level"
+                        ],
+                        "criteria": [
+                            {
+                                "operator": "EQUALS",
+                                "comparators": [
+                                    "18"
+                                ],
+                                "value": {
+                                    "magic": 85
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "paths": [
+                            "ISB_Spells{}.data[].level"
+                        ],
+                        "criteria": [
+                            {
+                                "operator": "EQUALS",
+                                "comparators": [
+                                    "19"
+                                ],
+                                "value": {
+                                    "magic": 90
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "paths": [
+                            "ISB_Spells{}.data[].level"
+                        ],
+                        "criteria": [
+                            {
+                                "operator": "EQUALS",
+                                "comparators": [
+                                    "20"
+                                ],
+                                "value": {
+                                    "magic": 95
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "requirements": {
+        "USE": {
+            "magic": 99
+        }
+    }
+}

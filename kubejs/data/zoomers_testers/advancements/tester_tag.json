@@ -1,0 +1,26 @@
+{
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "display": {
+      "title": {
+        "text": "Tester Tag",
+        "color": "dark_purple"
+      },
+      "description": {
+        "text": "This advancement is only for testers."
+      },
+      "icon": {
+        "item": "minecraft:command_block"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "rewards": {
+      "function": "zoomers_testers:grant_tester_reward"
+    }
+  }

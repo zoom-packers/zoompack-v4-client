@@ -19,6 +19,16 @@ export interface CiaModifier {
     operation: operation;
 }
 
+export class CiaModifierBuilder {
+    static create(attribute: string, operation: operation, value: number): CiaModifier {
+        return {
+            attribute,
+            operation,
+            value
+        }
+    }
+}
+
 /**
  * A CIA entry
  */

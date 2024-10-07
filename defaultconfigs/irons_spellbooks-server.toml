@@ -1,5 +1,5 @@
 [Misc]
-rarityConfig = [ 0.3, 0.25, 0.2, 0.15, 0.1 ]
+rarityConfig = [ 0.6, 0.3, 0.05, 0.025, 0.005 ]
 swordsConsumeMana = true
 swordsCooldownMultiplier = 0.5
 canAttackOwnSummons = false
@@ -420,7 +420,7 @@ AllowCrafting = true
 [Spells."irons_spellbooks:wololo"]
 Enabled = true
 School = "irons_spellbooks:evocation"
-MaxLevel = 20
+MaxLevel = 1
 MinRarity = "LEGENDARY"
 ManaCostMultiplier = 2.5
 SpellPowerMultiplier = 2.5
@@ -448,7 +448,7 @@ CooldownInSeconds = 20
 AllowCrafting = true
 
 [Spells."irons_spellbooks:spectral_hammer"]
-Enabled = true
+Enabled = false
 School = "irons_spellbooks:evocation"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
@@ -510,7 +510,7 @@ AllowCrafting = true
 [Spells."irons_spellbooks:recall"]
 Enabled = true
 School = "irons_spellbooks:ender"
-MaxLevel = 20
+MaxLevel = 1
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
 SpellPowerMultiplier = 2.5
@@ -530,7 +530,7 @@ AllowCrafting = true
 [Spells."irons_spellbooks:summon_ender_chest"]
 Enabled = true
 School = "irons_spellbooks:ender"
-MaxLevel = 20
+MaxLevel = 1
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
 SpellPowerMultiplier = 2.5

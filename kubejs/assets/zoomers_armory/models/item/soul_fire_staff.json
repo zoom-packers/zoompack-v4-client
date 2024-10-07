@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "0": "zoomers_armory:item/soul_fire_staff"
+    },
+    "parent": "zoomers_armory:item/fire_staff"
+}

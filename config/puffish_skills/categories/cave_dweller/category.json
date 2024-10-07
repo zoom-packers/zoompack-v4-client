@@ -10,5 +10,10 @@
 			"effect": "haste"
 		}
 	},
-	"background": "create:textures/block/palettes/stone_types/cut/diorite_cut.png"
+	"background": {
+        "texture": "zoomers_wallpapers:textures/cave_dweller.png",
+        "width": 1080,
+        "height": 1080,
+		"position": "fill"
+    }
 }

@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "0": "zoomers_armory:item/cincinnasite_diamond_ice_staff"
+    },
+    "parent": "zoomers_armory:item/ice_staff"
+}
