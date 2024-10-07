@@ -10,5 +10,10 @@
 			"item": "immersive_aircraft:heavy_crossbow"
 		}
 	},
-	"background": "textures/block/cut_sandstone.png"
+	"background": {
+        "texture": "zoomers_wallpapers:textures/arthemis_grace.png",
+        "width": 1080,
+        "height": 1080,
+		"position": "fill"
+    }
 }

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"o o",
+		"oio",
+		"III"
+	],
+	"key": {
+		"o": {
+			"item": "minecraft:string"
+		},
+		"I": {
+			"tag": "forge:leather"
+		},
+		"i": {
+			"item": "minecraft:leather_chestplate"
+		}
+	},
+	"result": {
+        "item": "minecraft:air"
+	}
+}

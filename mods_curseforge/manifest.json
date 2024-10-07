@@ -2080,6 +2080,36 @@
       "fileID": 5736059,
       "projectID": 980834,
       "required": true
+    },
+    {
+      "fileID": 5483524,
+      "projectID": 975288,
+      "required": true
+    },
+    {
+      "fileID": 5686554,
+      "projectID": 1083998,
+      "required": true
+    },
+    {
+      "fileID": 5516260,
+      "projectID": 1060368,
+      "required": true
+    },
+    {
+      "fileID": 5393101,
+      "projectID": 319596,
+      "required": true
+    },
+    {
+      "fileID": 5564768,
+      "projectID": 1071005,
+      "required": true
+    },
+    {
+      "fileID": 4652648,
+      "projectID": 314579,
+      "required": true
     }
   ],
   "manifestType": "minecraftModpack",
