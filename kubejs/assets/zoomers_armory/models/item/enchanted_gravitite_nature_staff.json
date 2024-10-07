@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "0": "zoomers_armory:item/enchanted_gravitite_nature_staff"
+    },
+    "parent": "zoomers_armory:item/nature_staff"
+}

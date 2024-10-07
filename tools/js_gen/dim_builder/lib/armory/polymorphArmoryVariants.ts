@@ -6,7 +6,12 @@ import {
     SwordVariant,
     ToolVariant
 } from "../material/ArmoryTypes";
-import {operation} from "../cia/util";
+import {CiaModifier, operation} from "../cia/util";
+import {
+    attribute_attributeslib,
+    attribute_irons_spellbooks,
+    attribute_minecraft
+} from "../../../typedefs/attribute_typedefs";
 
 export class PolymorphArmoryVariants {
 
@@ -19,8 +24,8 @@ export class PolymorphArmoryVariants {
         recipe: ["", "", "", "", "material", "material", "", "", ""],
         durabilityMultiplier: 1.3,
         damageMultiplier: 0.7,
-        speedFlatAddition: 0.5,
-        reachFlatAddition: -0.1,
+        speedMultiplier: 0.5,
+        reachMultiplier: -0.1,
         modelType: "claws",
         additionalAttributes: [
             {
@@ -38,8 +43,8 @@ export class PolymorphArmoryVariants {
         recipe: ["", "", "", "", "material", "", "#forge:rods/wooden", "", ""],
         durabilityMultiplier: 1.5,
         damageMultiplier: 0.7,
-        speedFlatAddition: 0.5,
-        reachFlatAddition: -0.2,
+        speedMultiplier: 0.5,
+        reachMultiplier: -0.2,
         modelType: "normal",
         additionalAttributes: [
             {
@@ -56,8 +61,8 @@ export class PolymorphArmoryVariants {
         recipe: ["", "", "", "", "material", "", "", "#forge:rods/wooden", ""],
         durabilityMultiplier: 1.2,
         damageMultiplier: 0.8,
-        speedFlatAddition: 0.2,
-        reachFlatAddition: -0.1,
+        speedMultiplier: 0.2,
+        reachMultiplier: -0.1,
         modelType: "normal",
         additionalAttributes: []
     }
@@ -68,8 +73,8 @@ export class PolymorphArmoryVariants {
         recipe: ["", "material", "material", "", "material", "", "#forge:rods/wooden", "", ""],
         durabilityMultiplier: 0.8,
         damageMultiplier: 1.2,
-        speedFlatAddition: 0,
-        reachFlatAddition: 0,
+        speedMultiplier: 0,
+        reachMultiplier: 0,
         modelType: "long",
         additionalAttributes: []
     }
@@ -80,8 +85,8 @@ export class PolymorphArmoryVariants {
         recipe: ["", "material", "", "material", "", "", "#forge:rods/wooden", "", ""],
         durabilityMultiplier: 1.2,
         damageMultiplier: 1.1,
-        speedFlatAddition: -0.1,
-        reachFlatAddition: 0,
+        speedMultiplier: -0.1,
+        reachMultiplier: 0,
         modelType: "normal",
         additionalAttributes: []
     }
@@ -92,8 +97,8 @@ export class PolymorphArmoryVariants {
         recipe: ["", "material", "material", "", "#forge:rods/wooden", "material", "#forge:rods/wooden", "", ""],
         durabilityMultiplier: 1.2,
         damageMultiplier: 1.15,
-        speedFlatAddition: -0.15,
-        reachFlatAddition: 0,
+        speedMultiplier: -0.15,
+        reachMultiplier: 0,
         modelType: "normal",
         additionalAttributes: []
     }
@@ -104,8 +109,8 @@ export class PolymorphArmoryVariants {
         recipe: ["", "material", "material", "", "material", "material", "", "#forge:rods/wooden", ""],
         durabilityMultiplier: 0.8,
         damageMultiplier: 1.3,
-        speedFlatAddition: -0.3,
-        reachFlatAddition: 0.3,
+        speedMultiplier: -0.3,
+        reachMultiplier: 0.3,
         modelType: "long",
         additionalAttributes: []
     }
@@ -116,8 +121,8 @@ export class PolymorphArmoryVariants {
         recipe: ["material", "material", "material", "", "#forge:rods/wooden", "material", "#forge:rods/wooden", "", ""],
         durabilityMultiplier: 0.7,
         damageMultiplier: 1.5,
-        speedFlatAddition: -0.35,
-        reachFlatAddition: 0.3,
+        speedMultiplier: -0.35,
+        reachMultiplier: 0.3,
         modelType: "long",
         additionalAttributes: []
     }
@@ -128,8 +133,8 @@ export class PolymorphArmoryVariants {
         recipe: ["material", "material", "material", "material", "#forge:rods/wooden", "material", "", "#forge:rods/wooden", ""],
         durabilityMultiplier: 0.8,
         damageMultiplier: 1.35,
-        speedFlatAddition: -0.25,
-        reachFlatAddition: 0.3,
+        speedMultiplier: -0.25,
+        reachMultiplier: 0.3,
         modelType: "long",
         additionalAttributes: []
     }
@@ -140,8 +145,8 @@ export class PolymorphArmoryVariants {
         recipe: ["", "", "material", "", "#forge:rods/wooden", "", "#forge:rods/wooden", "", ""],
         durabilityMultiplier: 1.2,
         damageMultiplier: 0.9,
-        speedFlatAddition: -0.15,
-        reachFlatAddition: 0.7,
+        speedMultiplier: -0.15,
+        reachMultiplier: 0.7,
         modelType: "spear",
         additionalAttributes: []
     }
@@ -152,8 +157,8 @@ export class PolymorphArmoryVariants {
         recipe: ["", "", "material", "", "#forge:rods/wooden", "material", "#forge:rods/wooden", "", ""],
         durabilityMultiplier: 0.85,
         damageMultiplier: 1.15,
-        speedFlatAddition: -0.3,
-        reachFlatAddition: 0.7,
+        speedMultiplier: -0.3,
+        reachMultiplier: 0.7,
         modelType: "spear",
         additionalAttributes: []
     }
@@ -165,11 +170,319 @@ export class PolymorphArmoryVariants {
         recipe: ["material","material","","#forge:rods/wooden","material","","#forge:rods/wooden","",""],
         durabilityMultiplier: 0.8,
         damageMultiplier: 1.3,
-        speedFlatAddition: -0.4,
-        reachFlatAddition: 0.7,
+        speedMultiplier: -0.4,
+        reachMultiplier: 0.7,
         modelType: "long",
         additionalAttributes: []
     }
+
+    //#region STAFFS
+    private static readonly arcaneStaffAttributes: CiaModifier[] = [
+        {
+            attribute: attribute_irons_spellbooks.a_cast_time_reduction,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.15
+        },
+        {
+            attribute: attribute_irons_spellbooks.a_cooldown_reduction,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.15
+        },
+        {
+            attribute: attribute_irons_spellbooks.a_spell_power,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.1
+        }
+    ];
+
+    private static readonly woodwindStaffAttributes: CiaModifier[] = [
+        {
+            attribute: attribute_irons_spellbooks.a_mana_regen,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.25
+        },
+        {
+            attribute: attribute_irons_spellbooks.a_spell_power,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.1
+        }
+    ];
+
+    private static readonly fireStaffAttributes: CiaModifier[] = [
+        {
+            attribute: attribute_irons_spellbooks.a_cast_time_reduction,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.1
+        },
+        {
+            attribute: attribute_irons_spellbooks.a_spell_power,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.05
+        },
+        {
+            attribute: attribute_irons_spellbooks.a_fire_spell_power,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.15
+        }
+    ];
+
+    private static readonly iceStaffAttributes: CiaModifier[] = [
+        {
+            attribute: attribute_minecraft.a_generic_armor_toughness,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.05
+        },
+        {
+            attribute: attribute_irons_spellbooks.a_spell_power,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.05
+        },
+        {
+            attribute: attribute_irons_spellbooks.a_ice_spell_power,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.15
+        }
+    ];
+
+    private static readonly lightningStaffAttributes: CiaModifier[] = [
+        {
+            attribute: attribute_minecraft.a_generic_movement_speed,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.02
+        },
+        {
+            attribute: attribute_irons_spellbooks.a_spell_power,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.05
+        },
+        {
+            attribute: attribute_irons_spellbooks.a_lightning_spell_power,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.15
+        }
+    ];
+
+    private static readonly natureStaffAttributes: CiaModifier[] = [
+        {
+            attribute: attribute_irons_spellbooks.a_mana_regen,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.1
+        },
+        {
+            attribute: attribute_irons_spellbooks.a_spell_power,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.05
+        },
+        {
+            attribute: attribute_irons_spellbooks.a_nature_spell_power,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.15
+        }
+    ];
+
+    private static readonly holyStaffAttributes: CiaModifier[] = [
+        {
+            attribute: attribute_irons_spellbooks.a_spell_resist,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.1
+        },
+        {
+            attribute: attribute_irons_spellbooks.a_spell_power,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.05
+        },
+        {
+            attribute: attribute_irons_spellbooks.a_holy_spell_power,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.15
+        }
+    ];
+
+    private static readonly bloodStaffAttributes: CiaModifier[] = [
+        {
+            attribute: attribute_attributeslib.a_life_steal,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.02
+        },
+        {
+            attribute: attribute_irons_spellbooks.a_spell_power,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.05
+        },
+        {
+            attribute: attribute_irons_spellbooks.a_blood_spell_power,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.15
+        }
+    ];
+
+    private static readonly evocationStaffAttributes: CiaModifier[] = [
+        {
+            attribute: attribute_irons_spellbooks.a_summon_damage,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.1
+        },
+        {
+            attribute: attribute_irons_spellbooks.a_spell_power,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.05
+        },
+        {
+            attribute: attribute_irons_spellbooks.a_evocation_spell_power,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.15
+        }
+    ];
+
+    private static readonly enderStaffAttributes: CiaModifier[] = [
+        {
+            attribute: attribute_irons_spellbooks.a_max_mana,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.2
+        },
+        {
+            attribute: attribute_irons_spellbooks.a_spell_power,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.1
+        },
+        {
+            attribute: attribute_irons_spellbooks.a_ender_spell_power,
+            operation: operation.MULTIPLY_BASE,
+            value: 0.2
+        }
+    ];
+
+    private static readonly ARCANE_STAFF: SwordVariant = {
+        id: "arcane_staff",
+        type: "sword",
+        displayName: "Arcane Staff",
+        recipe: ["", "minecraft:amethyst_shard", "#minecraft:planks", "", "#minecraft:planks", "material", "#minecraft:planks", "material", ""],
+        durabilityMultiplier: 1,
+        damageMultiplier: 0.5,
+        speedMultiplier: 0,
+        reachMultiplier: 0,
+        modelType: "arcane_staff",
+        additionalAttributesPerLevel: PolymorphArmoryVariants.arcaneStaffAttributes,
+    }
+
+    private static readonly WOODWIND_STAFF: SwordVariant = {
+        id: "woodwind_staff",
+        type: "sword",
+        displayName: "Wood Wind Staff",
+        recipe: ["", "#minecraft:logs", "#minecraft:planks", "", "#minecraft:planks", "material", "#minecraft:planks", "material", ""],
+        durabilityMultiplier: 1,
+        damageMultiplier: 0.5,
+        speedMultiplier: 0,
+        reachMultiplier: 0,
+        modelType: "woodwind_staff",
+        additionalAttributesPerLevel: PolymorphArmoryVariants.woodwindStaffAttributes,
+    }
+
+    private static readonly FIRE_STAFF: SwordVariant = {
+        id: "fire_staff",
+        type: "sword",
+        displayName: "Fire Staff",
+        recipe: ["", "minecraft:blaze_powder", "#minecraft:planks", "", "#minecraft:planks", "material", "#minecraft:planks", "material", ""],
+        durabilityMultiplier: 1,
+        damageMultiplier: 0.5,
+        speedMultiplier: 0,
+        reachMultiplier: 0,
+        modelType: "fire_staff",
+        additionalAttributesPerLevel: PolymorphArmoryVariants.fireStaffAttributes,
+    }
+
+    private static readonly ICE_STAFF: SwordVariant = {
+        id: "ice_staff",
+        type: "sword",
+        displayName: "Ice Staff",
+        recipe: ["", "minecraft:packed_ice", "#minecraft:planks", "", "#minecraft:planks", "material", "#minecraft:planks", "material", ""],
+        durabilityMultiplier: 1,
+        damageMultiplier: 0.5,
+        speedMultiplier: 0,
+        reachMultiplier: 0,
+        modelType: "ice_staff",
+        additionalAttributesPerLevel: PolymorphArmoryVariants.iceStaffAttributes,
+    }
+
+    private static readonly LIGHTNING_STAFF: SwordVariant = {
+        id: "lightning_staff",
+        type: "sword",
+        displayName: "Lightning Staff",
+        recipe: ["", "irons_spellbooks:lightning_bottle", "#minecraft:planks", "", "#minecraft:planks", "material", "#minecraft:planks", "material", ""],
+        durabilityMultiplier: 1,
+        damageMultiplier: 0.5,
+        speedMultiplier: 0,
+        reachMultiplier: 0,
+        modelType: "lightning_staff",
+        additionalAttributesPerLevel: PolymorphArmoryVariants.lightningStaffAttributes,
+    }
+
+    private static readonly NATURE_STAFF: SwordVariant = {
+        id: "nature_staff",
+        type: "sword",
+        displayName: "Nature Staff",
+        recipe: ["", "minecraft:poisonous_potato", "#minecraft:planks", "", "#minecraft:planks", "material", "#minecraft:planks", "material", ""],
+        durabilityMultiplier: 1,
+        damageMultiplier: 0.5,
+        speedMultiplier: 0,
+        reachMultiplier: 0,
+        modelType: "nature_staff",
+        additionalAttributesPerLevel: PolymorphArmoryVariants.natureStaffAttributes,
+    }
+
+    private static readonly HOLY_STAFF: SwordVariant = {
+        id: "holy_staff",
+        type: "sword",
+        displayName: "Holy Staff",
+        recipe: ["", "irons_spellbooks:divine_pearl", "#minecraft:planks", "", "#minecraft:planks", "material", "#minecraft:planks", "material", ""],
+        durabilityMultiplier: 1,
+        damageMultiplier: 0.5,
+        speedMultiplier: 0,
+        reachMultiplier: 0,
+        modelType: "holy_staff",
+        additionalAttributesPerLevel: PolymorphArmoryVariants.holyStaffAttributes,
+    }
+
+    private static readonly BLOOD_STAFF: SwordVariant = {
+        id: "blood_staff",
+        type: "sword",
+        displayName: "Blood Staff",
+        recipe: ["", "irons_spellbooks:blood_vial", "#minecraft:planks", "", "#minecraft:planks", "material", "#minecraft:planks", "material", ""],
+        durabilityMultiplier: 1,
+        damageMultiplier: 0.5,
+        speedMultiplier: 0,
+        reachMultiplier: 0,
+        modelType: "blood_staff",
+        additionalAttributesPerLevel: PolymorphArmoryVariants.bloodStaffAttributes,
+    }
+
+    private static readonly EVOCATION_STAFF: SwordVariant = {
+        id: "evocation_staff",
+        type: "sword",
+        displayName: "Evocation Staff",
+        recipe: ["", "minecraft:emerald", "#minecraft:planks", "", "#minecraft:planks", "material", "#minecraft:planks", "material", ""],
+        durabilityMultiplier: 1,
+        damageMultiplier: 0.5,
+        speedMultiplier: 0,
+        reachMultiplier: 0,
+        modelType: "evocation_staff",
+        additionalAttributesPerLevel: PolymorphArmoryVariants.evocationStaffAttributes,
+    }
+
+    private static readonly ENDER_STAFF: SwordVariant = {
+        id: "ender_staff",
+        type: "sword",
+        displayName: "Ender Staff",
+        recipe: ["", "minecraft:ender_pearl", "#minecraft:planks", "", "#minecraft:planks", "material", "#minecraft:planks", "material", ""],
+        durabilityMultiplier: 1,
+        damageMultiplier: 0.5,
+        speedMultiplier: 0,
+        reachMultiplier: 0,
+        modelType: "ender_staff",
+        additionalAttributesPerLevel: PolymorphArmoryVariants.enderStaffAttributes,
+    }
+
+    //#endregion
 
     public static readonly SWORDS: SwordVariant[] = [
         PolymorphArmoryVariants.CLAWS_VARIANT,
@@ -183,7 +496,17 @@ export class PolymorphArmoryVariants {
         PolymorphArmoryVariants.BATTLEAXE_VARIANT,
         PolymorphArmoryVariants.SPEAR_VARIANT,
         PolymorphArmoryVariants.HALBERD_VARIANT,
-        PolymorphArmoryVariants.SCYTHE_VARIANT
+        PolymorphArmoryVariants.SCYTHE_VARIANT,
+        PolymorphArmoryVariants.ARCANE_STAFF,
+        PolymorphArmoryVariants.WOODWIND_STAFF,
+        PolymorphArmoryVariants.FIRE_STAFF,
+        PolymorphArmoryVariants.ICE_STAFF,
+        PolymorphArmoryVariants.LIGHTNING_STAFF,
+        PolymorphArmoryVariants.NATURE_STAFF,
+        PolymorphArmoryVariants.HOLY_STAFF,
+        PolymorphArmoryVariants.BLOOD_STAFF,
+        PolymorphArmoryVariants.EVOCATION_STAFF,
+        PolymorphArmoryVariants.ENDER_STAFF
     ];
     //#endregion
 

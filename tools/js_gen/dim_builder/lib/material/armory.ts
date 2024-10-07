@@ -18,10 +18,11 @@ import {WorkingTexture} from "../textureGen/workingTexture";
 import {IArmory} from "./IArmory";
 import {PolymorphArmoryVariants} from "../armory/polymorphArmoryVariants";
 import {ArmorVariant, BaseVariant, ChromaKeyOperation, ToolVariant} from "./ArmoryTypes";
-import {CustomArmoryEntry, GeckoArmorArmoryEntry} from "./geckoArmorArmoryEntry";
+import {GeckoArmorArmoryEntry} from "./geckoArmorArmoryEntry";
 import path from "path";
 import {Config} from "../config";
-import {item_minecraft} from "../../../typedefs/item_typedefs";
+import {CustomArmoryEntry} from "./customArmoryEntry";
+import {SimpleItemArmoryEntry} from "./simpleItemArmoryEntry";
 
 export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
     gear: string[] = [];
@@ -64,6 +65,8 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         log(this, `Building Custom Armory Entries for <${capitalizeFirstLetter(material.internalName)}>`);
         for (const entry of this.customArmoryEntries) {
             if (entry instanceof GeckoArmorArmoryEntry) {
+                await entry.build(path.join(kubejsAssetsPath(), this.internalNamespace), this.internalNamespace, material);
+            } else if (entry instanceof SimpleItemArmoryEntry) {
                 await entry.build(path.join(kubejsAssetsPath(), this.internalNamespace), this.internalNamespace, material);
             }
         }
@@ -154,6 +157,8 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                     "",
                     `${modId}:geo/${customArmoryEntry.armorId}.geo.json`,
                     `${modId}:textures/models/armor/${material.internalName}_${customArmoryEntry.armorId}_armor.png`);
+            } else if (customArmoryEntry instanceof SimpleItemArmoryEntry) {
+                this.kubeJsContainer.registrar.registerArmoryItem(`${modId}:${materialIdPart}_${customArmoryEntry.itemId}`, customArmoryEntry.variants[0].type, customArmoryEntry.variants[0].displayName, customArmoryEntry.variants[0].durabilityMultiplier * this.durability);
             }
         }
     }
@@ -164,41 +169,49 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         const materialIdPart = this.material.internalName;
         const allVariants = [...PolymorphArmoryVariants.ALL, ...this.customArmoryEntries.map(x => x.variants).flat()];
         for (const mergedType of allVariants) {
+            const mergedAttributes = [];
+            if (mergedType.additionalAttributes) {
+                mergedAttributes.push(...mergedType.additionalAttributes);
+            }
+            if (mergedType.additionalAttributesPerLevel) {
+                const multipliedAttributes = this.multiplyAdditionalAttributesPerLevel(mergedType.additionalAttributesPerLevel);
+                mergedAttributes.push(...multipliedAttributes);
+            }
             const id = `${this.internalNamespace}:${materialIdPart}_${mergedType.id}`;
             let entry: CiaEntry;
             // @ts-ignore
             if (mergedType.type === "sword") {
                 entry = this.createCiaWeapon(id, this.material, mergedType);
-                entry.overrides_main_hand = [...entry.overrides_main_hand, ...mergedType.additionalAttributes]
+                entry.overrides_main_hand = [...entry.overrides_main_hand, ...mergedAttributes]
                 // @ts-ignore
             } else if (mergedType.type === "shield") {
                 entry = this.createCiaShield(id, this.material, mergedType);
-                entry.overrides_off_hand = [...entry.overrides_off_hand, ...mergedType.additionalAttributes]
+                entry.overrides_off_hand = [...entry.overrides_off_hand, ...mergedAttributes]
                 // @ts-ignore
             } else if (mergedType.type === "armor") {
                 entry = this.createCiaArmor(id, this.material, mergedType);
                 // @ts-ignore
                 switch (mergedType.slot) {
                     case "head":
-                        entry.overrides_head = [...entry.overrides_head, ...mergedType.additionalAttributes]
+                        entry.overrides_head = [...entry.overrides_head, ...mergedAttributes]
                         break;
                     case "chest":
-                        entry.overrides_chest = [...entry.overrides_chest, ...mergedType.additionalAttributes]
+                        entry.overrides_chest = [...entry.overrides_chest, ...mergedAttributes]
                         break;
                     case "legs":
-                        entry.overrides_legs = [...entry.overrides_legs, ...mergedType.additionalAttributes]
+                        entry.overrides_legs = [...entry.overrides_legs, ...mergedAttributes]
                         break;
                     case "feet":
-                        entry.overrides_feet = [...entry.overrides_feet, ...mergedType.additionalAttributes]
+                        entry.overrides_feet = [...entry.overrides_feet, ...mergedAttributes]
                         break;
                 }
                 // @ts-ignore
             } else if (mergedType.type === "tool") {
                 entry = this.createCiaTool(id, this.material, mergedType);
-                entry.overrides_main_hand = [...entry.overrides_main_hand, ...mergedType.additionalAttributes]
+                entry.overrides_main_hand = [...entry.overrides_main_hand, ...mergedAttributes]
             } else {
                 entry = this.createCiaProjectileWeapon(id, this.material, mergedType);
-                entry.overrides_main_hand = [...entry.overrides_main_hand, ...mergedType.additionalAttributes]
+                entry.overrides_main_hand = [...entry.overrides_main_hand, ...mergedAttributes]
             }
             addItemToCia(cia, entry);
         }
@@ -281,7 +294,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                 textures: {}
             } as any;
             item.parent = `${this.internalNamespace}:item/` + type.modelType;
-            if (type.id === "claws") {
+            if (type.id === "claws" || type.id.includes("staff")) {
                 item.textures["0"] = `${this.internalNamespace}:item/${id}`;
             } else {
                 item.textures.layer0 = `${this.internalNamespace}:item/${id}`;
@@ -379,6 +392,16 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             `${inputModelsDir}/long.json`,
             `${inputModelsDir}/spear.json`,
             `${inputModelsDir}/claws.json`,
+            `${inputModelsDir}/arcane_staff.json`,
+            `${inputModelsDir}/blood_staff.json`,
+            `${inputModelsDir}/ender_staff.json`,
+            `${inputModelsDir}/evocation_staff.json`,
+            `${inputModelsDir}/fire_staff.json`,
+            `${inputModelsDir}/holy_staff.json`,
+            `${inputModelsDir}/ice_staff.json`,
+            `${inputModelsDir}/lightning_staff.json`,
+            `${inputModelsDir}/nature_staff.json`,
+            `${inputModelsDir}/woodwind_staff.json`,
         ]
 
         for (const modelPath of itemModelsToCopy) {
@@ -527,8 +550,8 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         return this;
     }
 
-    withChromaKey(colorToReplace: string, tolerance: number, functionType: "linear" | "squared" | "cubic", replaceWith: string): Armory {
-        this.chromaKeyOperations.push({colorToReplace, tolerance, function: functionType, replaceWith});
+    withChromaKey(chromaKey:ChromaKeyOperation): Armory {
+        this.chromaKeyOperations.push(chromaKey);
         return this;
     }
 
@@ -558,6 +581,12 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
 
     full() : Armory {
         this.gear = [...PolymorphArmoryVariants.ALL.map(x => x.id)];
+        return this;
+    }
+
+    empty() : Armory {
+        this.gear = [];
+        this.customArmoryEntries = [];
         return this;
     }
 
@@ -641,6 +670,17 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         return this;
     }
 
+    withCustomArmoryEntries(entries: CustomArmoryEntry[]): Armory {
+        this.customArmoryEntries = [...this.customArmoryEntries, ...entries];
+        for (const entry of entries) {
+            const variants = entry.variants;
+            for (const variant of variants) {
+                this.gear.push(variant.id);
+            }
+        }
+        return this;
+    }
+
     //#endregion
 
     //#region Helper Methods
@@ -659,6 +699,8 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             return "leggings";
         } else if (type.id.includes("boots")) {
             return "boots";
+        } else if (type.id.includes("staff")) {
+            return "staff";
         }
         switch (type.type) {
             case "sword":
@@ -689,12 +731,12 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             {
                 attribute: "forge:entity_reach",
                 operation: operation.MULTIPLY_BASE,
-                value: weaponType.reachFlatAddition
+                value: weaponType.reachMultiplier
             },
             {
                 attribute: "minecraft:generic.attack_speed",
                 operation: operation.MULTIPLY_BASE,
-                value: weaponType.speedFlatAddition
+                value: weaponType.speedMultiplier
             },
         ])
     }
@@ -708,12 +750,12 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             {
                 attribute: "forge:entity_reach",
                 operation: operation.MULTIPLY_BASE,
-                value: weaponType.reachFlatAddition
+                value: weaponType.reachMultiplier
             },
             {
                 attribute: "minecraft:generic.attack_speed",
                 operation: operation.MULTIPLY_BASE,
-                value: weaponType.speedFlatAddition
+                value: weaponType.speedMultiplier
             },
         ])
     }
@@ -766,6 +808,17 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                 },
             ])
         }
+    }
+    private multiplyAdditionalAttributesPerLevel(attributes) {
+        if (attributes === undefined) {
+            return [];
+        }
+        return attributes.map(attribute => {
+            return {
+                ...attribute,
+                value: attribute.value * this.harvestLevel
+            }
+        });
     }
 
     //#endregion

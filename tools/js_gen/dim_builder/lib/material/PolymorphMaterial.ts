@@ -34,8 +34,8 @@ export class PolymorphMaterial extends BasicDataHolder<PolymorphMaterial> implem
         return this;
     }
 
-    withChromaKey(colorToReplace: string, tolerance: number, functionType: "linear" | "square" | "cubic", replaceWith: string) {
-        this.chromaKeyOperations.push({colorToReplace, tolerance, function: functionType, replaceWith});
+    withChromaKey(chromaKeyOperation: ChromaKeyOperation) {
+        this.chromaKeyOperations.push(chromaKeyOperation);
         return this;
     }
 

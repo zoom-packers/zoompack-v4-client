@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "0": "zoomers_armory:item/aquite_woodwind_staff"
+    },
+    "parent": "zoomers_armory:item/woodwind_staff"
+}

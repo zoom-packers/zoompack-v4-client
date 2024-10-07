@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "0": "zoomers_armory:item/froststeel_lightning_staff"
+    },
+    "parent": "zoomers_armory:item/lightning_staff"
+}

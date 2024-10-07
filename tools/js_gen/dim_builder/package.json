@@ -2,7 +2,7 @@
   "name": "dim_builder",
   "version": "1.0.0",
   "scripts": {
-    "start": "ts-node main.ts",
+    "armory": "ts-node armory.ts",
     "structure-maps": "ts-node extractStructureMaps.ts",
     "extractor": "ts-node extractor/main.ts",
     "extractor-symlink": "ts-node extractor/symlinks.ts",
