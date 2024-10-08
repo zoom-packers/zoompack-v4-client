@@ -131,7 +131,7 @@
 			id: "0290D572AA16B1C4"
 			rewards: [{
 				auto: "enabled"
-				command: "/execute as @p run rules accept"
+				command: "/rules accept"
 				icon: {
 					Count: 1
 					id: "create_sa:experience_shovel"
