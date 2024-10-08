@@ -90,7 +90,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "tombstone:bone_needle"
+				"item": "doggytalents:throw_bone_wet"
 			}
 		},
 		"rewards": [
