@@ -181,12 +181,12 @@ export class PolymorphArmoryVariants {
         {
             attribute: attribute_irons_spellbooks.a_cast_time_reduction,
             operation: operation.MULTIPLY_BASE,
-            value: 0.15
+            value: 0.05
         },
         {
             attribute: attribute_irons_spellbooks.a_cooldown_reduction,
             operation: operation.MULTIPLY_BASE,
-            value: 0.15
+            value: 0.02
         },
         {
             attribute: attribute_irons_spellbooks.a_spell_power,

@@ -22,7 +22,7 @@ ItemEvents.armorTierRegistry(event => {
 });
 
 StartupEvents.registry("item", e => {
-    const result = global.createGeckoArmorTier(e, {modId}, {prefix}, {tierId}, global.getMaterialTexturesObject({modId}, {tierId}), {helmName}, {chestName}, {legName}, {bootName}, {nameSuffix},
+    let result = global.createGeckoArmorTier(e, {modId}, {prefix}, {tierId}, global.getMaterialTexturesObject({modId}, {tierId}), {helmName}, {chestName}, {legName}, {bootName}, {nameSuffix},
     {modelPath}, {texturePath}, {modelPath}, {texturePath}, {modelPath}, {texturePath}, {modelPath}, {texturePath});
 });
 `
@@ -55,10 +55,10 @@ const spellPowers = [
     0.2, 0.4, 0.7, 0.9, 1.1, 1.3, 1.4
 ];
 const manaBoosts = [
-    25, 35, 50, 60, 70, 85, 100
+    150, 175, 200, 250, 300, 350, 420
 ]
 const manaRegens = [
-    0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.4
+    0.1, 0.2, 0.3, 0.5, 0.7, 0.9, 1.2
 ]
 const enchantmentValue = 10;
 const repairIngredientTags = [

@@ -704,7 +704,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         } else if (type.id.includes("boots")) {
             return "boots";
         } else if (type.id.includes("staff")) {
-            return "sword";
+            return "staff";
         }
         switch (type.type) {
             case "sword":

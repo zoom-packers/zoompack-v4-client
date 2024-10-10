@@ -12,12 +12,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -39,12 +39,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -66,12 +66,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -93,12 +93,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -116,12 +116,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -143,12 +143,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -170,12 +170,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -197,12 +197,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -220,12 +220,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -247,12 +247,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -274,12 +274,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -301,12 +301,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -324,12 +324,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -351,12 +351,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -378,12 +378,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -405,12 +405,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -428,12 +428,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -455,12 +455,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -482,12 +482,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -509,12 +509,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -532,12 +532,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -559,12 +559,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -586,12 +586,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -613,12 +613,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -636,12 +636,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -663,12 +663,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -690,12 +690,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -717,12 +717,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -740,12 +740,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -767,12 +767,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -794,12 +794,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -821,12 +821,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 25,
+                    "value": 150,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.05,
+                    "value": 0.1,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -844,12 +844,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -871,12 +871,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -898,12 +898,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -925,12 +925,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -948,12 +948,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -975,12 +975,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1002,12 +1002,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1029,12 +1029,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1052,12 +1052,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1079,12 +1079,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1106,12 +1106,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1133,12 +1133,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1156,12 +1156,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1183,12 +1183,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1210,12 +1210,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1237,12 +1237,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1260,12 +1260,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1287,12 +1287,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1314,12 +1314,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1341,12 +1341,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1364,12 +1364,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1391,12 +1391,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1418,12 +1418,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1445,12 +1445,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1468,12 +1468,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1495,12 +1495,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1522,12 +1522,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1549,12 +1549,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1572,12 +1572,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1599,12 +1599,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1626,12 +1626,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1653,12 +1653,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 35,
+                    "value": 175,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.1,
+                    "value": 0.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1676,12 +1676,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1703,12 +1703,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1730,12 +1730,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1757,12 +1757,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1780,12 +1780,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1807,12 +1807,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1834,12 +1834,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1861,12 +1861,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1884,12 +1884,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1911,12 +1911,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1938,12 +1938,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1965,12 +1965,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -1988,12 +1988,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2015,12 +2015,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2042,12 +2042,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2069,12 +2069,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2092,12 +2092,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2119,12 +2119,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2146,12 +2146,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2173,12 +2173,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2196,12 +2196,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2223,12 +2223,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2250,12 +2250,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2277,12 +2277,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2300,12 +2300,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2327,12 +2327,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2354,12 +2354,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2381,12 +2381,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2404,12 +2404,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2431,12 +2431,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2458,12 +2458,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2485,12 +2485,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 50,
+                    "value": 200,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.15,
+                    "value": 0.3,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2508,12 +2508,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2535,12 +2535,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2562,12 +2562,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2589,12 +2589,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2612,12 +2612,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2639,12 +2639,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2666,12 +2666,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2693,12 +2693,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2716,12 +2716,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2743,12 +2743,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2770,12 +2770,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2797,12 +2797,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2820,12 +2820,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2847,12 +2847,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2874,12 +2874,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2901,12 +2901,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2924,12 +2924,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2951,12 +2951,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -2978,12 +2978,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3005,12 +3005,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3028,12 +3028,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3055,12 +3055,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3082,12 +3082,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3109,12 +3109,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3132,12 +3132,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3159,12 +3159,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3186,12 +3186,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3213,12 +3213,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3236,12 +3236,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3263,12 +3263,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3290,12 +3290,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3317,12 +3317,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 60,
+                    "value": 250,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.2,
+                    "value": 0.5,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3340,12 +3340,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3367,12 +3367,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3394,12 +3394,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3421,12 +3421,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3444,12 +3444,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3471,12 +3471,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3498,12 +3498,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3525,12 +3525,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3548,12 +3548,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3575,12 +3575,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3602,12 +3602,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3629,12 +3629,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3652,12 +3652,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3679,12 +3679,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3706,12 +3706,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3733,12 +3733,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3756,12 +3756,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3783,12 +3783,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3810,12 +3810,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3837,12 +3837,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3860,12 +3860,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3887,12 +3887,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3914,12 +3914,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3941,12 +3941,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3964,12 +3964,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -3991,12 +3991,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4018,12 +4018,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4045,12 +4045,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4068,12 +4068,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4095,12 +4095,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4122,12 +4122,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4149,12 +4149,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 70,
+                    "value": 300,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.25,
+                    "value": 0.7,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4172,12 +4172,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4199,12 +4199,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4226,12 +4226,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4253,12 +4253,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4276,12 +4276,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4303,12 +4303,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4330,12 +4330,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4357,12 +4357,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4380,12 +4380,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4407,12 +4407,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4434,12 +4434,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4461,12 +4461,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4484,12 +4484,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4511,12 +4511,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4538,12 +4538,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4565,12 +4565,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4588,12 +4588,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4615,12 +4615,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4642,12 +4642,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4669,12 +4669,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4692,12 +4692,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4719,12 +4719,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4746,12 +4746,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4773,12 +4773,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4796,12 +4796,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4823,12 +4823,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4850,12 +4850,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4877,12 +4877,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4900,12 +4900,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4927,12 +4927,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4954,12 +4954,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -4981,12 +4981,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 85,
+                    "value": 350,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.3,
+                    "value": 0.9,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5004,12 +5004,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5031,12 +5031,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5058,12 +5058,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5085,12 +5085,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5108,12 +5108,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5135,12 +5135,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5162,12 +5162,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5189,12 +5189,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5212,12 +5212,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5239,12 +5239,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5266,12 +5266,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5293,12 +5293,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5316,12 +5316,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5343,12 +5343,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5370,12 +5370,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5397,12 +5397,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5420,12 +5420,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5447,12 +5447,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5474,12 +5474,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5501,12 +5501,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5524,12 +5524,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5551,12 +5551,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5578,12 +5578,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5605,12 +5605,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5628,12 +5628,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5655,12 +5655,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5682,12 +5682,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5709,12 +5709,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5732,12 +5732,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5759,12 +5759,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5786,12 +5786,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -5813,12 +5813,12 @@
                 },
                 {
                     "attribute": "irons_spellbooks:max_mana",
-                    "value": 100,
+                    "value": 420,
                     "operation": "ADDITION"
                 },
                 {
                     "attribute": "irons_spellbooks:mana_regen",
-                    "value": 0.4,
+                    "value": 1.2,
                     "operation": "MULTIPLY_BASE"
                 }
             ],
@@ -53848,12 +53848,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 0.15
+                    "value": 0.05
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 0.15
+                    "value": 0.02
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -54253,12 +54253,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 0.3
+                    "value": 0.1
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 0.3
+                    "value": 0.04
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -54658,12 +54658,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 0.15
+                    "value": 0.05
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 0.15
+                    "value": 0.02
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -55063,12 +55063,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 0.44999999999999996
+                    "value": 0.15000000000000002
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 0.44999999999999996
+                    "value": 0.06
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -55468,12 +55468,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 0.44999999999999996
+                    "value": 0.15000000000000002
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 0.44999999999999996
+                    "value": 0.06
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -55873,12 +55873,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 0.8999999999999999
+                    "value": 0.30000000000000004
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 0.8999999999999999
+                    "value": 0.12
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -56278,12 +56278,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 0.8999999999999999
+                    "value": 0.30000000000000004
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 0.8999999999999999
+                    "value": 0.12
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -56683,12 +56683,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 0.8999999999999999
+                    "value": 0.30000000000000004
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 0.8999999999999999
+                    "value": 0.12
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -57088,12 +57088,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 1.05
+                    "value": 0.35000000000000003
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 1.05
+                    "value": 0.14
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -57493,12 +57493,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 1.05
+                    "value": 0.35000000000000003
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 1.05
+                    "value": 0.14
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -57898,12 +57898,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 1.65
+                    "value": 0.55
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 1.65
+                    "value": 0.22
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -58303,12 +58303,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 1.65
+                    "value": 0.55
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 1.65
+                    "value": 0.22
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -58708,12 +58708,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 1.7999999999999998
+                    "value": 0.6000000000000001
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 1.7999999999999998
+                    "value": 0.24
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -59113,12 +59113,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 1.7999999999999998
+                    "value": 0.6000000000000001
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 1.7999999999999998
+                    "value": 0.24
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -59518,12 +59518,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 1.95
+                    "value": 0.65
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 1.95
+                    "value": 0.26
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -59923,12 +59923,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 1.95
+                    "value": 0.65
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 1.95
+                    "value": 0.26
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -60328,12 +60328,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 2.1
+                    "value": 0.7000000000000001
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 2.1
+                    "value": 0.28
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -60733,12 +60733,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 2.1
+                    "value": 0.7000000000000001
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 2.1
+                    "value": 0.28
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -61138,12 +61138,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 2.25
+                    "value": 0.75
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 2.25
+                    "value": 0.3
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -61543,12 +61543,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 2.4
+                    "value": 0.8
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 2.4
+                    "value": 0.32
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -61948,12 +61948,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 2.55
+                    "value": 0.8500000000000001
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 2.55
+                    "value": 0.34
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -62353,12 +62353,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 2.4
+                    "value": 0.8
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 2.4
+                    "value": 0.32
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -62758,12 +62758,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 2.6999999999999997
+                    "value": 0.9
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 2.6999999999999997
+                    "value": 0.36
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -63163,12 +63163,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 2.85
+                    "value": 0.9500000000000001
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 2.85
+                    "value": 0.38
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -63568,12 +63568,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 2.85
+                    "value": 0.9500000000000001
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 2.85
+                    "value": 0.38
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -63973,12 +63973,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3
+                    "value": 1
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3
+                    "value": 0.4
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -64378,12 +64378,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3.15
+                    "value": 1.05
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3.15
+                    "value": 0.42
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -64783,12 +64783,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3.15
+                    "value": 1.05
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3.15
+                    "value": 0.42
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -65188,12 +65188,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3.15
+                    "value": 1.05
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3.15
+                    "value": 0.42
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -65593,12 +65593,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3.3
+                    "value": 1.1
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3.3
+                    "value": 0.44
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -65998,12 +65998,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3.4499999999999997
+                    "value": 1.1500000000000001
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3.4499999999999997
+                    "value": 0.46
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -66403,12 +66403,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 0.6
+                    "value": 0.2
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 0.6
+                    "value": 0.08
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -66808,12 +66808,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3.5999999999999996
+                    "value": 1.2000000000000002
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3.5999999999999996
+                    "value": 0.48
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -67213,12 +67213,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3.75
+                    "value": 1.25
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3.75
+                    "value": 0.5
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -67618,12 +67618,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3.5999999999999996
+                    "value": 1.2000000000000002
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3.5999999999999996
+                    "value": 0.48
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -68023,12 +68023,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3.75
+                    "value": 1.25
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3.75
+                    "value": 0.5
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
@@ -68428,12 +68428,12 @@
                 {
                     "attribute": "irons_spellbooks:cast_time_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3.4499999999999997
+                    "value": 1.1500000000000001
                 },
                 {
                     "attribute": "irons_spellbooks:cooldown_reduction",
                     "operation": "MULTIPLY_BASE",
-                    "value": 3.4499999999999997
+                    "value": 0.46
                 },
                 {
                     "attribute": "irons_spellbooks:spell_power",
