@@ -703,140 +703,140 @@
         {
             "attribute": "irons_spellbooks:max_mana",
             "operation": "ADDITION",
-            "amount": 10
+            "amount": 20
         }
     ],
     "kubejs:tier_2_mana_boost_power_up": [
         {
             "attribute": "irons_spellbooks:max_mana",
             "operation": "ADDITION",
-            "amount": 12
+            "amount": 25
         }
     ],
     "kubejs:tier_3_mana_boost_power_up": [
         {
             "attribute": "irons_spellbooks:max_mana",
             "operation": "ADDITION",
-            "amount": 15
+            "amount": 30
         }
     ],
     "kubejs:tier_4_mana_boost_power_up": [
         {
             "attribute": "irons_spellbooks:max_mana",
             "operation": "ADDITION",
-            "amount": 17
+            "amount": 35
         }
     ],
     "kubejs:tier_5_mana_boost_power_up": [
         {
             "attribute": "irons_spellbooks:max_mana",
             "operation": "ADDITION",
-            "amount": 20
+            "amount": 40
         }
     ],
     "kubejs:tier_6_mana_boost_power_up": [
         {
             "attribute": "irons_spellbooks:max_mana",
             "operation": "ADDITION",
-            "amount": 25
+            "amount": 45
         }
     ],
     "kubejs:tier_7_mana_boost_power_up": [
         {
             "attribute": "irons_spellbooks:max_mana",
             "operation": "ADDITION",
-            "amount": 30
+            "amount": 50
         }
     ],
     "kubejs:tier_8_mana_boost_power_up": [
         {
             "attribute": "irons_spellbooks:max_mana",
             "operation": "ADDITION",
-            "amount": 35
+            "amount": 65
         }
     ],
     "kubejs:tier_9_mana_boost_power_up": [
         {
             "attribute": "irons_spellbooks:max_mana",
             "operation": "ADDITION",
-            "amount": 40
+            "amount": 80
         }
     ],
     "kubejs:tier_10_mana_boost_power_up": [
         {
             "attribute": "irons_spellbooks:max_mana",
             "operation": "ADDITION",
-            "amount": 50
+            "amount": 100
         }
     ],
     "kubejs:tier_1_mana_regen_power_up": [
         {
             "attribute": "irons_spellbooks:mana_regen",
             "operation": "ADDITION",
-            "amount": 0.01
+            "amount": 0.05
         }
     ],
     "kubejs:tier_2_mana_regen_power_up": [
         {
             "attribute": "irons_spellbooks:mana_regen",
             "operation": "ADDITION",
-            "amount": 0.02
+            "amount": 0.08
         }
     ],
     "kubejs:tier_3_mana_regen_power_up": [
         {
             "attribute": "irons_spellbooks:mana_regen",
             "operation": "ADDITION",
-            "amount": 0.04
+            "amount": 0.1
         }
     ],
     "kubejs:tier_4_mana_regen_power_up": [
         {
             "attribute": "irons_spellbooks:mana_regen",
             "operation": "ADDITION",
-            "amount": 0.08
+            "amount": 0.12
         }
     ],
     "kubejs:tier_5_mana_regen_power_up": [
         {
             "attribute": "irons_spellbooks:mana_regen",
             "operation": "ADDITION",
-            "amount": 0.1
+            "amount": 0.15
         }
     ],
     "kubejs:tier_6_mana_regen_power_up": [
         {
             "attribute": "irons_spellbooks:mana_regen",
             "operation": "ADDITION",
-            "amount": 0.12
+            "amount": 0.18
         }
     ],
     "kubejs:tier_7_mana_regen_power_up": [
         {
             "attribute": "irons_spellbooks:mana_regen",
             "operation": "ADDITION",
-            "amount": 0.14
+            "amount": 0.22
         }
     ],
     "kubejs:tier_8_mana_regen_power_up": [
         {
             "attribute": "irons_spellbooks:mana_regen",
             "operation": "ADDITION",
-            "amount": 0.16
+            "amount": 0.25
         }
     ],
     "kubejs:tier_9_mana_regen_power_up": [
         {
             "attribute": "irons_spellbooks:mana_regen",
             "operation": "ADDITION",
-            "amount": 0.18
+            "amount": 0.3
         }
     ],
     "kubejs:tier_10_mana_regen_power_up": [
         {
             "attribute": "irons_spellbooks:mana_regen",
             "operation": "ADDITION",
-            "amount": 0.2
+            "amount": 0.35
         }
     ],
     "kubejs:tier_1_movement_speed_power_up": [
@@ -913,70 +913,70 @@
         {
             "attribute": "irons_spellbooks:spell_power",
             "operation": "ADDITION",
-            "amount": 0.01
+            "amount": 0.1
         }
     ],
     "kubejs:tier_2_spell_power_power_up": [
         {
             "attribute": "irons_spellbooks:spell_power",
             "operation": "ADDITION",
-            "amount": 0.0125
+            "amount": 0.11
         }
     ],
     "kubejs:tier_3_spell_power_power_up": [
         {
             "attribute": "irons_spellbooks:spell_power",
             "operation": "ADDITION",
-            "amount": 0.015
+            "amount": 0.12
         }
     ],
     "kubejs:tier_4_spell_power_power_up": [
         {
             "attribute": "irons_spellbooks:spell_power",
             "operation": "ADDITION",
-            "amount": 0.0175
+            "amount": 0.13
         }
     ],
     "kubejs:tier_5_spell_power_power_up": [
         {
             "attribute": "irons_spellbooks:spell_power",
             "operation": "ADDITION",
-            "amount": 0.02
+            "amount": 0.14
         }
     ],
     "kubejs:tier_6_spell_power_power_up": [
         {
             "attribute": "irons_spellbooks:spell_power",
             "operation": "ADDITION",
-            "amount": 0.025
+            "amount": 0.15
         }
     ],
     "kubejs:tier_7_spell_power_power_up": [
         {
             "attribute": "irons_spellbooks:spell_power",
             "operation": "ADDITION",
-            "amount": 0.03
+            "amount": 0.16
         }
     ],
     "kubejs:tier_8_spell_power_power_up": [
         {
             "attribute": "irons_spellbooks:spell_power",
             "operation": "ADDITION",
-            "amount": 0.035
+            "amount": 0.17
         }
     ],
     "kubejs:tier_9_spell_power_power_up": [
         {
             "attribute": "irons_spellbooks:spell_power",
             "operation": "ADDITION",
-            "amount": 0.04
+            "amount": 0.18
         }
     ],
     "kubejs:tier_10_spell_power_power_up": [
         {
             "attribute": "irons_spellbooks:spell_power",
             "operation": "ADDITION",
-            "amount": 0.05
+            "amount": 0.2
         }
     ],
     "kubejs:tier_1_stamina_power_up": [

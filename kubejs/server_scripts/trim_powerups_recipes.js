@@ -8,9 +8,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'minecraft:diamond_block',
+                F: 'minecraft:diamond',
                 S: 'minecraft:iron_block',
-                T: 'minecraft:emerald_block',
+                T: 'minecraft:emerald',
                 C: '#trim_templates',
                 E: 'minecraft:shield',
             }
@@ -24,8 +24,8 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:charoite_block',
-                S: 'blue_skies:falsite_block',
+                F: 'blue_skies:charoite',
+                S: 'blue_skies:aquite',
                 T: 'blue_skies:pyrope_block',
                 C: 'kubejs:tier_1_armor_power_up',
                 E: 'minecraft:shield',
@@ -40,9 +40,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:aquite_block',
-                S: 'blue_skies:diopside_block',
-                T: 'blue_skies:horizonite_block',
+                F: 'blue_skies:aquite',
+                S: 'blue_skies:diopside_gem',
+                T: 'blue_skies:horizonite_ingot',
                 C: 'kubejs:tier_2_armor_power_up',
                 E: 'minecraft:shield',
             }
@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'aether:ambrosium_block',
-                S: 'aether:zanite_block',
+                S: 'aether:zanite_gemstone',
                 T: 'aether:enchanted_gravitite',
                 C: 'kubejs:tier_3_armor_power_up',
                 E: 'minecraft:shield',
@@ -73,7 +73,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'betternether:cincinnasite_lantern',
-                S: 'betternether:nether_ruby_block',
+                S: 'betternether:nether_ruby',
                 T: 'minecraft:netherite_ingot',
                 C: 'kubejs:tier_4_armor_power_up',
                 E: 'minecraft:shield',
@@ -89,8 +89,8 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'undergarden:cloggrum_block',
-                S: 'undergarden:froststeel_block',
-                T: 'undergarden:forgotten_block',
+                S: 'undergarden:froststeel_ingot',
+                T: 'undergarden:forgotten_ingot',
                 C: 'kubejs:tier_5_armor_power_up',
                 E: 'minecraft:shield',
             }
@@ -168,9 +168,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'minecraft:diamond_block',
+                F: 'minecraft:diamond',
                 S: 'minecraft:iron_block',
-                T: 'minecraft:emerald_block',
+                T: 'minecraft:emerald',
                 C: '#trim_templates',
                 E: 'supplementaries:hourglass',
             }
@@ -184,8 +184,8 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:charoite_block',
-                S: 'blue_skies:falsite_block',
+                F: 'blue_skies:charoite',
+                S: 'blue_skies:aquite',
                 T: 'blue_skies:pyrope_block',
                 C: 'kubejs:tier_1_armor_toughness_power_up',
                 E: 'supplementaries:hourglass',
@@ -200,9 +200,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:aquite_block',
-                S: 'blue_skies:diopside_block',
-                T: 'blue_skies:horizonite_block',
+                F: 'blue_skies:aquite',
+                S: 'blue_skies:diopside_gem',
+                T: 'blue_skies:horizonite_ingot',
                 C: 'kubejs:tier_2_armor_toughness_power_up',
                 E: 'supplementaries:hourglass',
             }
@@ -217,7 +217,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'aether:ambrosium_block',
-                S: 'aether:zanite_block',
+                S: 'aether:zanite_gemstone',
                 T: 'aether:enchanted_gravitite',
                 C: 'kubejs:tier_3_armor_toughness_power_up',
                 E: 'supplementaries:hourglass',
@@ -233,7 +233,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'betternether:cincinnasite_lantern',
-                S: 'betternether:nether_ruby_block',
+                S: 'betternether:nether_ruby',
                 T: 'minecraft:netherite_ingot',
                 C: 'kubejs:tier_4_armor_toughness_power_up',
                 E: 'supplementaries:hourglass',
@@ -249,8 +249,8 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'undergarden:cloggrum_block',
-                S: 'undergarden:froststeel_block',
-                T: 'undergarden:forgotten_block',
+                S: 'undergarden:froststeel_ingot',
+                T: 'undergarden:forgotten_ingot',
                 C: 'kubejs:tier_5_armor_toughness_power_up',
                 E: 'supplementaries:hourglass',
             }
@@ -328,9 +328,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'minecraft:diamond_block',
+                F: 'minecraft:diamond',
                 S: 'minecraft:iron_block',
-                T: 'minecraft:emerald_block',
+                T: 'minecraft:emerald',
                 C: '#trim_templates',
                 E: 'minecraft:heartbreak_pottery_sherd',
             }
@@ -344,8 +344,8 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:charoite_block',
-                S: 'blue_skies:falsite_block',
+                F: 'blue_skies:charoite',
+                S: 'blue_skies:aquite',
                 T: 'blue_skies:pyrope_block',
                 C: 'kubejs:tier_1_armor_pierce_power_up',
                 E: 'minecraft:heartbreak_pottery_sherd',
@@ -360,9 +360,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:aquite_block',
-                S: 'blue_skies:diopside_block',
-                T: 'blue_skies:horizonite_block',
+                F: 'blue_skies:aquite',
+                S: 'blue_skies:diopside_gem',
+                T: 'blue_skies:horizonite_ingot',
                 C: 'kubejs:tier_2_armor_pierce_power_up',
                 E: 'minecraft:heartbreak_pottery_sherd',
             }
@@ -377,7 +377,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'aether:ambrosium_block',
-                S: 'aether:zanite_block',
+                S: 'aether:zanite_gemstone',
                 T: 'aether:enchanted_gravitite',
                 C: 'kubejs:tier_3_armor_pierce_power_up',
                 E: 'minecraft:heartbreak_pottery_sherd',
@@ -393,7 +393,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'betternether:cincinnasite_lantern',
-                S: 'betternether:nether_ruby_block',
+                S: 'betternether:nether_ruby',
                 T: 'minecraft:netherite_ingot',
                 C: 'kubejs:tier_4_armor_pierce_power_up',
                 E: 'minecraft:heartbreak_pottery_sherd',
@@ -409,8 +409,8 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'undergarden:cloggrum_block',
-                S: 'undergarden:froststeel_block',
-                T: 'undergarden:forgotten_block',
+                S: 'undergarden:froststeel_ingot',
+                T: 'undergarden:forgotten_ingot',
                 C: 'kubejs:tier_5_armor_pierce_power_up',
                 E: 'minecraft:heartbreak_pottery_sherd',
             }
@@ -488,9 +488,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'minecraft:diamond_block',
+                F: 'minecraft:diamond',
                 S: 'minecraft:iron_block',
-                T: 'minecraft:emerald_block',
+                T: 'minecraft:emerald',
                 C: '#trim_templates',
                 E: 'minecraft:skull_pottery_sherd',
             }
@@ -504,8 +504,8 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:charoite_block',
-                S: 'blue_skies:falsite_block',
+                F: 'blue_skies:charoite',
+                S: 'blue_skies:aquite',
                 T: 'blue_skies:pyrope_block',
                 C: 'kubejs:tier_1_armor_shred_power_up',
                 E: 'minecraft:skull_pottery_sherd',
@@ -520,9 +520,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:aquite_block',
-                S: 'blue_skies:diopside_block',
-                T: 'blue_skies:horizonite_block',
+                F: 'blue_skies:aquite',
+                S: 'blue_skies:diopside_gem',
+                T: 'blue_skies:horizonite_ingot',
                 C: 'kubejs:tier_2_armor_shred_power_up',
                 E: 'minecraft:skull_pottery_sherd',
             }
@@ -537,7 +537,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'aether:ambrosium_block',
-                S: 'aether:zanite_block',
+                S: 'aether:zanite_gemstone',
                 T: 'aether:enchanted_gravitite',
                 C: 'kubejs:tier_3_armor_shred_power_up',
                 E: 'minecraft:skull_pottery_sherd',
@@ -553,7 +553,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'betternether:cincinnasite_lantern',
-                S: 'betternether:nether_ruby_block',
+                S: 'betternether:nether_ruby',
                 T: 'minecraft:netherite_ingot',
                 C: 'kubejs:tier_4_armor_shred_power_up',
                 E: 'minecraft:skull_pottery_sherd',
@@ -569,8 +569,8 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'undergarden:cloggrum_block',
-                S: 'undergarden:froststeel_block',
-                T: 'undergarden:forgotten_block',
+                S: 'undergarden:froststeel_ingot',
+                T: 'undergarden:forgotten_ingot',
                 C: 'kubejs:tier_5_armor_shred_power_up',
                 E: 'minecraft:skull_pottery_sherd',
             }
@@ -648,9 +648,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'minecraft:diamond_block',
+                F: 'minecraft:diamond',
                 S: 'minecraft:iron_block',
-                T: 'minecraft:emerald_block',
+                T: 'minecraft:emerald',
                 C: '#trim_templates',
                 E: 'irons_spellbooks:arcane_ingot',
             }
@@ -664,8 +664,8 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:charoite_block',
-                S: 'blue_skies:falsite_block',
+                F: 'blue_skies:charoite',
+                S: 'blue_skies:aquite',
                 T: 'blue_skies:pyrope_block',
                 C: 'kubejs:tier_1_cooldown_reduction_power_up',
                 E: 'irons_spellbooks:arcane_ingot',
@@ -680,9 +680,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:aquite_block',
-                S: 'blue_skies:diopside_block',
-                T: 'blue_skies:horizonite_block',
+                F: 'blue_skies:aquite',
+                S: 'blue_skies:diopside_gem',
+                T: 'blue_skies:horizonite_ingot',
                 C: 'kubejs:tier_2_cooldown_reduction_power_up',
                 E: 'irons_spellbooks:arcane_ingot',
             }
@@ -697,7 +697,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'aether:ambrosium_block',
-                S: 'aether:zanite_block',
+                S: 'aether:zanite_gemstone',
                 T: 'aether:enchanted_gravitite',
                 C: 'kubejs:tier_3_cooldown_reduction_power_up',
                 E: 'irons_spellbooks:arcane_ingot',
@@ -713,7 +713,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'betternether:cincinnasite_lantern',
-                S: 'betternether:nether_ruby_block',
+                S: 'betternether:nether_ruby',
                 T: 'minecraft:netherite_ingot',
                 C: 'kubejs:tier_4_cooldown_reduction_power_up',
                 E: 'irons_spellbooks:arcane_ingot',
@@ -729,8 +729,8 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'undergarden:cloggrum_block',
-                S: 'undergarden:froststeel_block',
-                T: 'undergarden:forgotten_block',
+                S: 'undergarden:froststeel_ingot',
+                T: 'undergarden:forgotten_ingot',
                 C: 'kubejs:tier_5_cooldown_reduction_power_up',
                 E: 'irons_spellbooks:arcane_ingot',
             }
@@ -808,9 +808,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'minecraft:diamond_block',
+                F: 'minecraft:diamond',
                 S: 'minecraft:iron_block',
-                T: 'minecraft:emerald_block',
+                T: 'minecraft:emerald',
                 C: '#trim_templates',
                 E: 'aquamirae:ship_graveyard_echo',
             }
@@ -824,8 +824,8 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:charoite_block',
-                S: 'blue_skies:falsite_block',
+                F: 'blue_skies:charoite',
+                S: 'blue_skies:aquite',
                 T: 'blue_skies:pyrope_block',
                 C: 'kubejs:tier_1_crit_chance_power_up',
                 E: 'aquamirae:ship_graveyard_echo',
@@ -840,9 +840,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:aquite_block',
-                S: 'blue_skies:diopside_block',
-                T: 'blue_skies:horizonite_block',
+                F: 'blue_skies:aquite',
+                S: 'blue_skies:diopside_gem',
+                T: 'blue_skies:horizonite_ingot',
                 C: 'kubejs:tier_2_crit_chance_power_up',
                 E: 'aquamirae:ship_graveyard_echo',
             }
@@ -857,7 +857,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'aether:ambrosium_block',
-                S: 'aether:zanite_block',
+                S: 'aether:zanite_gemstone',
                 T: 'aether:enchanted_gravitite',
                 C: 'kubejs:tier_3_crit_chance_power_up',
                 E: 'aquamirae:ship_graveyard_echo',
@@ -873,7 +873,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'betternether:cincinnasite_lantern',
-                S: 'betternether:nether_ruby_block',
+                S: 'betternether:nether_ruby',
                 T: 'minecraft:netherite_ingot',
                 C: 'kubejs:tier_4_crit_chance_power_up',
                 E: 'aquamirae:ship_graveyard_echo',
@@ -889,8 +889,8 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'undergarden:cloggrum_block',
-                S: 'undergarden:froststeel_block',
-                T: 'undergarden:forgotten_block',
+                S: 'undergarden:froststeel_ingot',
+                T: 'undergarden:forgotten_ingot',
                 C: 'kubejs:tier_5_crit_chance_power_up',
                 E: 'aquamirae:ship_graveyard_echo',
             }
@@ -968,9 +968,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'minecraft:diamond_block',
+                F: 'minecraft:diamond',
                 S: 'minecraft:iron_block',
-                T: 'minecraft:emerald_block',
+                T: 'minecraft:emerald',
                 C: '#trim_templates',
                 E: 'aquamirae:anglers_fang',
             }
@@ -984,8 +984,8 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:charoite_block',
-                S: 'blue_skies:falsite_block',
+                F: 'blue_skies:charoite',
+                S: 'blue_skies:aquite',
                 T: 'blue_skies:pyrope_block',
                 C: 'kubejs:tier_1_crit_damage_power_up',
                 E: 'aquamirae:anglers_fang',
@@ -1000,9 +1000,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:aquite_block',
-                S: 'blue_skies:diopside_block',
-                T: 'blue_skies:horizonite_block',
+                F: 'blue_skies:aquite',
+                S: 'blue_skies:diopside_gem',
+                T: 'blue_skies:horizonite_ingot',
                 C: 'kubejs:tier_2_crit_damage_power_up',
                 E: 'aquamirae:anglers_fang',
             }
@@ -1017,7 +1017,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'aether:ambrosium_block',
-                S: 'aether:zanite_block',
+                S: 'aether:zanite_gemstone',
                 T: 'aether:enchanted_gravitite',
                 C: 'kubejs:tier_3_crit_damage_power_up',
                 E: 'aquamirae:anglers_fang',
@@ -1033,7 +1033,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'betternether:cincinnasite_lantern',
-                S: 'betternether:nether_ruby_block',
+                S: 'betternether:nether_ruby',
                 T: 'minecraft:netherite_ingot',
                 C: 'kubejs:tier_4_crit_damage_power_up',
                 E: 'aquamirae:anglers_fang',
@@ -1049,8 +1049,8 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'undergarden:cloggrum_block',
-                S: 'undergarden:froststeel_block',
-                T: 'undergarden:forgotten_block',
+                S: 'undergarden:froststeel_ingot',
+                T: 'undergarden:forgotten_ingot',
                 C: 'kubejs:tier_5_crit_damage_power_up',
                 E: 'aquamirae:anglers_fang',
             }
@@ -1128,9 +1128,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'minecraft:diamond_block',
+                F: 'minecraft:diamond',
                 S: 'minecraft:iron_block',
-                T: 'minecraft:emerald_block',
+                T: 'minecraft:emerald',
                 C: '#trim_templates',
                 E: 'candlelight:hearth',
             }
@@ -1144,8 +1144,8 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:charoite_block',
-                S: 'blue_skies:falsite_block',
+                F: 'blue_skies:charoite',
+                S: 'blue_skies:aquite',
                 T: 'blue_skies:pyrope_block',
                 C: 'kubejs:tier_1_health_boost_power_up',
                 E: 'candlelight:hearth',
@@ -1160,9 +1160,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:aquite_block',
-                S: 'blue_skies:diopside_block',
-                T: 'blue_skies:horizonite_block',
+                F: 'blue_skies:aquite',
+                S: 'blue_skies:diopside_gem',
+                T: 'blue_skies:horizonite_ingot',
                 C: 'kubejs:tier_2_health_boost_power_up',
                 E: 'candlelight:hearth',
             }
@@ -1177,7 +1177,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'aether:ambrosium_block',
-                S: 'aether:zanite_block',
+                S: 'aether:zanite_gemstone',
                 T: 'aether:enchanted_gravitite',
                 C: 'kubejs:tier_3_health_boost_power_up',
                 E: 'candlelight:hearth',
@@ -1193,7 +1193,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'betternether:cincinnasite_lantern',
-                S: 'betternether:nether_ruby_block',
+                S: 'betternether:nether_ruby',
                 T: 'minecraft:netherite_ingot',
                 C: 'kubejs:tier_4_health_boost_power_up',
                 E: 'candlelight:hearth',
@@ -1209,8 +1209,8 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'undergarden:cloggrum_block',
-                S: 'undergarden:froststeel_block',
-                T: 'undergarden:forgotten_block',
+                S: 'undergarden:froststeel_ingot',
+                T: 'undergarden:forgotten_ingot',
                 C: 'kubejs:tier_5_health_boost_power_up',
                 E: 'candlelight:hearth',
             }
@@ -1288,9 +1288,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'minecraft:diamond_block',
+                F: 'minecraft:diamond',
                 S: 'minecraft:iron_block',
-                T: 'minecraft:emerald_block',
+                T: 'minecraft:emerald',
                 C: '#trim_templates',
                 E: 'create:copper_backtank',
             }
@@ -1304,8 +1304,8 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:charoite_block',
-                S: 'blue_skies:falsite_block',
+                F: 'blue_skies:charoite',
+                S: 'blue_skies:aquite',
                 T: 'blue_skies:pyrope_block',
                 C: 'kubejs:tier_1_knockback_resistance_power_up',
                 E: 'create:copper_backtank',
@@ -1320,9 +1320,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:aquite_block',
-                S: 'blue_skies:diopside_block',
-                T: 'blue_skies:horizonite_block',
+                F: 'blue_skies:aquite',
+                S: 'blue_skies:diopside_gem',
+                T: 'blue_skies:horizonite_ingot',
                 C: 'kubejs:tier_2_knockback_resistance_power_up',
                 E: 'create:copper_backtank',
             }
@@ -1337,7 +1337,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'aether:ambrosium_block',
-                S: 'aether:zanite_block',
+                S: 'aether:zanite_gemstone',
                 T: 'aether:enchanted_gravitite',
                 C: 'kubejs:tier_3_knockback_resistance_power_up',
                 E: 'create:copper_backtank',
@@ -1353,7 +1353,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'betternether:cincinnasite_lantern',
-                S: 'betternether:nether_ruby_block',
+                S: 'betternether:nether_ruby',
                 T: 'minecraft:netherite_ingot',
                 C: 'kubejs:tier_4_knockback_resistance_power_up',
                 E: 'create:copper_backtank',
@@ -1369,8 +1369,8 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'undergarden:cloggrum_block',
-                S: 'undergarden:froststeel_block',
-                T: 'undergarden:forgotten_block',
+                S: 'undergarden:froststeel_ingot',
+                T: 'undergarden:forgotten_ingot',
                 C: 'kubejs:tier_5_knockback_resistance_power_up',
                 E: 'create:copper_backtank',
             }
@@ -1448,9 +1448,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'minecraft:diamond_block',
+                F: 'minecraft:diamond',
                 S: 'minecraft:iron_block',
-                T: 'minecraft:emerald_block',
+                T: 'minecraft:emerald',
                 C: '#trim_templates',
                 E: 'minecraft:conduit',
             }
@@ -1464,8 +1464,8 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:charoite_block',
-                S: 'blue_skies:falsite_block',
+                F: 'blue_skies:charoite',
+                S: 'blue_skies:aquite',
                 T: 'blue_skies:pyrope_block',
                 C: 'kubejs:tier_1_lung_capacity_power_up',
                 E: 'minecraft:conduit',
@@ -1480,9 +1480,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:aquite_block',
-                S: 'blue_skies:diopside_block',
-                T: 'blue_skies:horizonite_block',
+                F: 'blue_skies:aquite',
+                S: 'blue_skies:diopside_gem',
+                T: 'blue_skies:horizonite_ingot',
                 C: 'kubejs:tier_2_lung_capacity_power_up',
                 E: 'minecraft:conduit',
             }
@@ -1497,7 +1497,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'aether:ambrosium_block',
-                S: 'aether:zanite_block',
+                S: 'aether:zanite_gemstone',
                 T: 'aether:enchanted_gravitite',
                 C: 'kubejs:tier_3_lung_capacity_power_up',
                 E: 'minecraft:conduit',
@@ -1513,7 +1513,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'betternether:cincinnasite_lantern',
-                S: 'betternether:nether_ruby_block',
+                S: 'betternether:nether_ruby',
                 T: 'minecraft:netherite_ingot',
                 C: 'kubejs:tier_4_lung_capacity_power_up',
                 E: 'minecraft:conduit',
@@ -1529,8 +1529,8 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'undergarden:cloggrum_block',
-                S: 'undergarden:froststeel_block',
-                T: 'undergarden:forgotten_block',
+                S: 'undergarden:froststeel_ingot',
+                T: 'undergarden:forgotten_ingot',
                 C: 'kubejs:tier_5_lung_capacity_power_up',
                 E: 'minecraft:conduit',
             }
@@ -1608,9 +1608,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'minecraft:diamond_block',
+                F: 'minecraft:diamond',
                 S: 'minecraft:iron_block',
-                T: 'minecraft:emerald_block',
+                T: 'minecraft:emerald',
                 C: '#trim_templates',
                 E: 'irons_spellbooks:mana_ring',
             }
@@ -1624,8 +1624,8 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:charoite_block',
-                S: 'blue_skies:falsite_block',
+                F: 'blue_skies:charoite',
+                S: 'blue_skies:aquite',
                 T: 'blue_skies:pyrope_block',
                 C: 'kubejs:tier_1_mana_boost_power_up',
                 E: 'irons_spellbooks:mana_ring',
@@ -1640,9 +1640,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:aquite_block',
-                S: 'blue_skies:diopside_block',
-                T: 'blue_skies:horizonite_block',
+                F: 'blue_skies:aquite',
+                S: 'blue_skies:diopside_gem',
+                T: 'blue_skies:horizonite_ingot',
                 C: 'kubejs:tier_2_mana_boost_power_up',
                 E: 'irons_spellbooks:mana_ring',
             }
@@ -1657,7 +1657,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'aether:ambrosium_block',
-                S: 'aether:zanite_block',
+                S: 'aether:zanite_gemstone',
                 T: 'aether:enchanted_gravitite',
                 C: 'kubejs:tier_3_mana_boost_power_up',
                 E: 'irons_spellbooks:mana_ring',
@@ -1673,7 +1673,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'betternether:cincinnasite_lantern',
-                S: 'betternether:nether_ruby_block',
+                S: 'betternether:nether_ruby',
                 T: 'minecraft:netherite_ingot',
                 C: 'kubejs:tier_4_mana_boost_power_up',
                 E: 'irons_spellbooks:mana_ring',
@@ -1689,8 +1689,8 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'undergarden:cloggrum_block',
-                S: 'undergarden:froststeel_block',
-                T: 'undergarden:forgotten_block',
+                S: 'undergarden:froststeel_ingot',
+                T: 'undergarden:forgotten_ingot',
                 C: 'kubejs:tier_5_mana_boost_power_up',
                 E: 'irons_spellbooks:mana_ring',
             }
@@ -1768,9 +1768,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'minecraft:diamond_block',
+                F: 'minecraft:diamond',
                 S: 'minecraft:iron_block',
-                T: 'minecraft:emerald_block',
+                T: 'minecraft:emerald',
                 C: '#trim_templates',
                 E: 'irons_spellbooks:mana_upgrade_orb',
             }
@@ -1784,8 +1784,8 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:charoite_block',
-                S: 'blue_skies:falsite_block',
+                F: 'blue_skies:charoite',
+                S: 'blue_skies:aquite',
                 T: 'blue_skies:pyrope_block',
                 C: 'kubejs:tier_1_mana_regen_power_up',
                 E: 'irons_spellbooks:mana_upgrade_orb',
@@ -1800,9 +1800,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:aquite_block',
-                S: 'blue_skies:diopside_block',
-                T: 'blue_skies:horizonite_block',
+                F: 'blue_skies:aquite',
+                S: 'blue_skies:diopside_gem',
+                T: 'blue_skies:horizonite_ingot',
                 C: 'kubejs:tier_2_mana_regen_power_up',
                 E: 'irons_spellbooks:mana_upgrade_orb',
             }
@@ -1817,7 +1817,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'aether:ambrosium_block',
-                S: 'aether:zanite_block',
+                S: 'aether:zanite_gemstone',
                 T: 'aether:enchanted_gravitite',
                 C: 'kubejs:tier_3_mana_regen_power_up',
                 E: 'irons_spellbooks:mana_upgrade_orb',
@@ -1833,7 +1833,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'betternether:cincinnasite_lantern',
-                S: 'betternether:nether_ruby_block',
+                S: 'betternether:nether_ruby',
                 T: 'minecraft:netherite_ingot',
                 C: 'kubejs:tier_4_mana_regen_power_up',
                 E: 'irons_spellbooks:mana_upgrade_orb',
@@ -1849,8 +1849,8 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'undergarden:cloggrum_block',
-                S: 'undergarden:froststeel_block',
-                T: 'undergarden:forgotten_block',
+                S: 'undergarden:froststeel_ingot',
+                T: 'undergarden:forgotten_ingot',
                 C: 'kubejs:tier_5_mana_regen_power_up',
                 E: 'irons_spellbooks:mana_upgrade_orb',
             }
@@ -1928,9 +1928,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'minecraft:diamond_block',
+                F: 'minecraft:diamond',
                 S: 'minecraft:iron_block',
-                T: 'minecraft:emerald_block',
+                T: 'minecraft:emerald',
                 C: '#trim_templates',
                 E: 'minecraft:dirt_path',
             }
@@ -1944,8 +1944,8 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:charoite_block',
-                S: 'blue_skies:falsite_block',
+                F: 'blue_skies:charoite',
+                S: 'blue_skies:aquite',
                 T: 'blue_skies:pyrope_block',
                 C: 'kubejs:tier_1_movement_speed_power_up',
                 E: 'minecraft:dirt_path',
@@ -1960,9 +1960,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:aquite_block',
-                S: 'blue_skies:diopside_block',
-                T: 'blue_skies:horizonite_block',
+                F: 'blue_skies:aquite',
+                S: 'blue_skies:diopside_gem',
+                T: 'blue_skies:horizonite_ingot',
                 C: 'kubejs:tier_2_movement_speed_power_up',
                 E: 'minecraft:dirt_path',
             }
@@ -1977,7 +1977,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'aether:ambrosium_block',
-                S: 'aether:zanite_block',
+                S: 'aether:zanite_gemstone',
                 T: 'aether:enchanted_gravitite',
                 C: 'kubejs:tier_3_movement_speed_power_up',
                 E: 'minecraft:dirt_path',
@@ -1993,7 +1993,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'betternether:cincinnasite_lantern',
-                S: 'betternether:nether_ruby_block',
+                S: 'betternether:nether_ruby',
                 T: 'minecraft:netherite_ingot',
                 C: 'kubejs:tier_4_movement_speed_power_up',
                 E: 'minecraft:dirt_path',
@@ -2009,8 +2009,8 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'undergarden:cloggrum_block',
-                S: 'undergarden:froststeel_block',
-                T: 'undergarden:forgotten_block',
+                S: 'undergarden:froststeel_ingot',
+                T: 'undergarden:forgotten_ingot',
                 C: 'kubejs:tier_5_movement_speed_power_up',
                 E: 'minecraft:dirt_path',
             }
@@ -2088,9 +2088,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'minecraft:diamond_block',
+                F: 'minecraft:diamond',
                 S: 'minecraft:iron_block',
-                T: 'minecraft:emerald_block',
+                T: 'minecraft:emerald',
                 C: '#trim_templates',
                 E: 'irons_spellbooks:magic_cloth',
             }
@@ -2104,8 +2104,8 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:charoite_block',
-                S: 'blue_skies:falsite_block',
+                F: 'blue_skies:charoite',
+                S: 'blue_skies:aquite',
                 T: 'blue_skies:pyrope_block',
                 C: 'kubejs:tier_1_spell_power_power_up',
                 E: 'irons_spellbooks:magic_cloth',
@@ -2120,9 +2120,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:aquite_block',
-                S: 'blue_skies:diopside_block',
-                T: 'blue_skies:horizonite_block',
+                F: 'blue_skies:aquite',
+                S: 'blue_skies:diopside_gem',
+                T: 'blue_skies:horizonite_ingot',
                 C: 'kubejs:tier_2_spell_power_power_up',
                 E: 'irons_spellbooks:magic_cloth',
             }
@@ -2137,7 +2137,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'aether:ambrosium_block',
-                S: 'aether:zanite_block',
+                S: 'aether:zanite_gemstone',
                 T: 'aether:enchanted_gravitite',
                 C: 'kubejs:tier_3_spell_power_power_up',
                 E: 'irons_spellbooks:magic_cloth',
@@ -2153,7 +2153,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'betternether:cincinnasite_lantern',
-                S: 'betternether:nether_ruby_block',
+                S: 'betternether:nether_ruby',
                 T: 'minecraft:netherite_ingot',
                 C: 'kubejs:tier_4_spell_power_power_up',
                 E: 'irons_spellbooks:magic_cloth',
@@ -2169,8 +2169,8 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'undergarden:cloggrum_block',
-                S: 'undergarden:froststeel_block',
-                T: 'undergarden:forgotten_block',
+                S: 'undergarden:froststeel_ingot',
+                T: 'undergarden:forgotten_ingot',
                 C: 'kubejs:tier_5_spell_power_power_up',
                 E: 'irons_spellbooks:magic_cloth',
             }
@@ -2248,9 +2248,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'minecraft:diamond_block',
+                F: 'minecraft:diamond',
                 S: 'minecraft:iron_block',
-                T: 'minecraft:emerald_block',
+                T: 'minecraft:emerald',
                 C: '#trim_templates',
                 E: 'create:zinc_block',
             }
@@ -2264,8 +2264,8 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:charoite_block',
-                S: 'blue_skies:falsite_block',
+                F: 'blue_skies:charoite',
+                S: 'blue_skies:aquite',
                 T: 'blue_skies:pyrope_block',
                 C: 'kubejs:tier_1_stamina_power_up',
                 E: 'create:zinc_block',
@@ -2280,9 +2280,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:aquite_block',
-                S: 'blue_skies:diopside_block',
-                T: 'blue_skies:horizonite_block',
+                F: 'blue_skies:aquite',
+                S: 'blue_skies:diopside_gem',
+                T: 'blue_skies:horizonite_ingot',
                 C: 'kubejs:tier_2_stamina_power_up',
                 E: 'create:zinc_block',
             }
@@ -2297,7 +2297,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'aether:ambrosium_block',
-                S: 'aether:zanite_block',
+                S: 'aether:zanite_gemstone',
                 T: 'aether:enchanted_gravitite',
                 C: 'kubejs:tier_3_stamina_power_up',
                 E: 'create:zinc_block',
@@ -2313,7 +2313,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'betternether:cincinnasite_lantern',
-                S: 'betternether:nether_ruby_block',
+                S: 'betternether:nether_ruby',
                 T: 'minecraft:netherite_ingot',
                 C: 'kubejs:tier_4_stamina_power_up',
                 E: 'create:zinc_block',
@@ -2329,8 +2329,8 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'undergarden:cloggrum_block',
-                S: 'undergarden:froststeel_block',
-                T: 'undergarden:forgotten_block',
+                S: 'undergarden:froststeel_ingot',
+                T: 'undergarden:forgotten_ingot',
                 C: 'kubejs:tier_5_stamina_power_up',
                 E: 'create:zinc_block',
             }
@@ -2408,9 +2408,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'minecraft:diamond_block',
+                F: 'minecraft:diamond',
                 S: 'minecraft:iron_block',
-                T: 'minecraft:emerald_block',
+                T: 'minecraft:emerald',
                 C: '#trim_templates',
                 E: 'minecraft:copper_block',
             }
@@ -2424,8 +2424,8 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:charoite_block',
-                S: 'blue_skies:falsite_block',
+                F: 'blue_skies:charoite',
+                S: 'blue_skies:aquite',
                 T: 'blue_skies:pyrope_block',
                 C: 'kubejs:tier_1_swim_speed_power_up',
                 E: 'minecraft:copper_block',
@@ -2440,9 +2440,9 @@ ServerEvents.recipes(event => {
                 'TET'
             ],
             {
-                F: 'blue_skies:aquite_block',
-                S: 'blue_skies:diopside_block',
-                T: 'blue_skies:horizonite_block',
+                F: 'blue_skies:aquite',
+                S: 'blue_skies:diopside_gem',
+                T: 'blue_skies:horizonite_ingot',
                 C: 'kubejs:tier_2_swim_speed_power_up',
                 E: 'minecraft:copper_block',
             }
@@ -2457,7 +2457,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'aether:ambrosium_block',
-                S: 'aether:zanite_block',
+                S: 'aether:zanite_gemstone',
                 T: 'aether:enchanted_gravitite',
                 C: 'kubejs:tier_3_swim_speed_power_up',
                 E: 'minecraft:copper_block',
@@ -2473,7 +2473,7 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'betternether:cincinnasite_lantern',
-                S: 'betternether:nether_ruby_block',
+                S: 'betternether:nether_ruby',
                 T: 'minecraft:netherite_ingot',
                 C: 'kubejs:tier_4_swim_speed_power_up',
                 E: 'minecraft:copper_block',
@@ -2489,8 +2489,8 @@ ServerEvents.recipes(event => {
             ],
             {
                 F: 'undergarden:cloggrum_block',
-                S: 'undergarden:froststeel_block',
-                T: 'undergarden:forgotten_block',
+                S: 'undergarden:froststeel_ingot',
+                T: 'undergarden:forgotten_ingot',
                 C: 'kubejs:tier_5_swim_speed_power_up',
                 E: 'minecraft:copper_block',
             }
