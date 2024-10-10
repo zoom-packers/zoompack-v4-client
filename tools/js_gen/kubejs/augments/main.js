@@ -50,9 +50,13 @@ const setIds = [
     "treasure_hunter",
     "explorer",
     "healer",
-    "tank"
+    "tank",
+    "health",
+    "armor",
+    "mana",
+    "mana_regen",
 ];
-const mageAttributeValues = [0.02, 0.04, 0.06, 0.08, 0.1, 0.12, 0.14, 0.16, 0.18];
+const mageAttributeValues = [0.1, 0.12, 0.14, 0.16, 0.18, 0.2, 0.22, 0.24, 0.26];
 const attributeValues = {
     pyromancer: mageAttributeValues,
     cryomancer: mageAttributeValues,
@@ -62,15 +66,19 @@ const attributeValues = {
     shadowwalker: mageAttributeValues,
     priest: mageAttributeValues,
     plagued: mageAttributeValues,
-    cooldown: [0.03, 0.06, 0.09, 0.12, 0.15, 0.18, 0.21, 0.24, 0.27],
-    barbarian: [0.02, 0.04, 0.06, 0.08, 0.1, 0.12, 0.14, 0.16, 0.18],
+    cooldown: [0.05, 0.08, 0.11, 0.14, 0.17, 0.2, 0.23, 0.26, 0.3],
+    barbarian: [0.1, 0.12, 0.14, 0.16, 0.18, 0.2, 0.22, 0.24, 0.26],
     berserker: [0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09],
-    crusader: [0.005, 0.01, 0.015, 0.02, 0.025, 0.03, 0.035, 0.04, 0.045],
-    archer: [0.02, 0.04, 0.06, 0.08, 0.1, 0.12, 0.14, 0.16, 0.18],
-    treasure_hunter: [0.02, 0.04, 0.06, 0.08, 0.1, 0.12, 0.14, 0.16, 0.18],
-    explorer: [0.02, 0.04, 0.06, 0.08, 0.1, 0.12, 0.14, 0.16, 0.18],
-    healer: [0.02, 0.04, 0.06, 0.08, 0.1, 0.12, 0.14, 0.16, 0.18],
-    tank: [0.02, 0.04, 0.06, 0.08, 0.1, 0.12, 0.14, 0.16, 0.18],
+    crusader: [0.01, 0.015, 0.02, 0.025, 0.03, 0.035, 0.04, 0.045, 0.05],
+    archer: [0.1, 0.12, 0.14, 0.16, 0.18, 0.2, 0.22, 0.24, 0.26],
+    treasure_hunter: [0.1, 0.12, 0.14, 0.16, 0.18, 0.2, 0.22, 0.24, 0.26],
+    explorer: [0.1, 0.12, 0.14, 0.16, 0.18, 0.2, 0.22, 0.24, 0.26],
+    healer: [0.1, 0.12, 0.14, 0.16, 0.18, 0.2, 0.22, 0.24, 0.26],
+    tank: [0.1, 0.12, 0.14, 0.16, 0.18, 0.2, 0.22, 0.24, 0.26],
+    health: [0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5],
+    armor: [0.1, 0.12, 0.14, 0.16, 0.18, 0.2, 0.22, 0.24, 0.26],
+    mana: [0.1, 0.12, 0.14, 0.16, 0.18, 0.2, 0.22, 0.24, 0.26],
+    mana_regen: [0.1, 0.12, 0.14, 0.16, 0.18, 0.2, 0.22, 0.24, 0.26],
 };
 const lastMageSetIndex = 7;
 function getSpellPowerByName(setName) {
@@ -111,9 +119,17 @@ function getNonMageAttribute(setName) {
         case "treasure_hunter":
             return "minecraft:generic.luck";
         case "healer":
-            return "pufferfish_attributes:player.healing";
+            return "puffish_attributes:player.healing";
         case "tank":
             return "minecraft:generic.armor_toughness";
+        case "health":
+            return "minecraft:generic.max_health";
+        case "armor":
+            return "minecraft:generic.armor";
+        case "mana":
+            return "irons_spellbooks:max_mana";
+        case "mana_regen":
+            return "irons_spellbooks:mana_regen";
     }
 }
 
@@ -136,7 +152,7 @@ for (let tierIndex = 0; tierIndex < tiers; tierIndex++) {
             {
                 attribute: isMageSet ? `irons_spellbooks:${getSpellPowerByName(setId)}` : getNonMageAttribute(setId),
                 uuid: id,
-                operation: operation.MULTIPLY_BASE.toLowerCase(),
+                operation: operation.MULTIPLY_TOTAL.toLowerCase(),
                 value: attributeValues[setId][tierIndex],
             },
         ]
@@ -235,7 +251,15 @@ function getSetRune(setName) {
         case "healer":
             return item_minecraft.i_golden_apple;
         case "tank":
+            return item_minecraft.i_shield;
+        case "health":
+            return item_minecraft.i_honey_bottle;
+        case "armor":
             return item_minecraft.i_diamond_chestplate;
+        case "mana":
+            return item_irons_spellbooks.i_arcane_rune;
+        case "mana_regen":
+            return item_irons_spellbooks.i_amethyst_resonance_charm;
     }
 }
 

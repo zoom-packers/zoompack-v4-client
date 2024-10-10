@@ -49,7 +49,19 @@ event.shaped('1x zoomers_magic:augment_explorer_1', [" B ","DEF"," H "], {"B":"m
 event.shaped('1x zoomers_magic:augment_healer_1', [" B ","DEF"," H "], {"B":"minecraft:diamond","D":"minecraft:diamond","E":"minecraft:golden_apple","F":"minecraft:diamond","H":"minecraft:diamond"});
 
 
-event.shaped('1x zoomers_magic:augment_tank_1', [" B ","DEF"," H "], {"B":"minecraft:diamond","D":"minecraft:diamond","E":"minecraft:diamond_chestplate","F":"minecraft:diamond","H":"minecraft:diamond"});
+event.shaped('1x zoomers_magic:augment_tank_1', [" B ","DEF"," H "], {"B":"minecraft:diamond","D":"minecraft:diamond","E":"minecraft:shield","F":"minecraft:diamond","H":"minecraft:diamond"});
+
+
+event.shaped('1x zoomers_magic:augment_health_1', [" B ","DEF"," H "], {"B":"minecraft:diamond","D":"minecraft:diamond","E":"minecraft:honey_bottle","F":"minecraft:diamond","H":"minecraft:diamond"});
+
+
+event.shaped('1x zoomers_magic:augment_armor_1', [" B ","DEF"," H "], {"B":"minecraft:diamond","D":"minecraft:diamond","E":"minecraft:diamond_chestplate","F":"minecraft:diamond","H":"minecraft:diamond"});
+
+
+event.shaped('1x zoomers_magic:augment_mana_1', [" B ","DEF"," H "], {"B":"minecraft:diamond","D":"minecraft:diamond","E":"irons_spellbooks:arcane_rune","F":"minecraft:diamond","H":"minecraft:diamond"});
+
+
+event.shaped('1x zoomers_magic:augment_mana_regen_1', [" B ","DEF"," H "], {"B":"minecraft:diamond","D":"minecraft:diamond","E":"irons_spellbooks:amethyst_resonance_charm","F":"minecraft:diamond","H":"minecraft:diamond"});
 
 
 event.shaped('1x zoomers_magic:augment_pyromancer_2', [" B ","DEF"," H "], {"B":"blue_skies:aquite","D":"blue_skies:aquite","E":"irons_spellbooks:fire_rune","F":"blue_skies:aquite","H":"blue_skies:aquite"});
@@ -100,7 +112,19 @@ event.shaped('1x zoomers_magic:augment_explorer_2', [" B ","DEF"," H "], {"B":"b
 event.shaped('1x zoomers_magic:augment_healer_2', [" B ","DEF"," H "], {"B":"blue_skies:aquite","D":"blue_skies:aquite","E":"minecraft:golden_apple","F":"blue_skies:aquite","H":"blue_skies:aquite"});
 
 
-event.shaped('1x zoomers_magic:augment_tank_2', [" B ","DEF"," H "], {"B":"blue_skies:aquite","D":"blue_skies:aquite","E":"minecraft:diamond_chestplate","F":"blue_skies:aquite","H":"blue_skies:aquite"});
+event.shaped('1x zoomers_magic:augment_tank_2', [" B ","DEF"," H "], {"B":"blue_skies:aquite","D":"blue_skies:aquite","E":"minecraft:shield","F":"blue_skies:aquite","H":"blue_skies:aquite"});
+
+
+event.shaped('1x zoomers_magic:augment_health_2', [" B ","DEF"," H "], {"B":"blue_skies:aquite","D":"blue_skies:aquite","E":"minecraft:honey_bottle","F":"blue_skies:aquite","H":"blue_skies:aquite"});
+
+
+event.shaped('1x zoomers_magic:augment_armor_2', [" B ","DEF"," H "], {"B":"blue_skies:aquite","D":"blue_skies:aquite","E":"minecraft:diamond_chestplate","F":"blue_skies:aquite","H":"blue_skies:aquite"});
+
+
+event.shaped('1x zoomers_magic:augment_mana_2', [" B ","DEF"," H "], {"B":"blue_skies:aquite","D":"blue_skies:aquite","E":"irons_spellbooks:arcane_rune","F":"blue_skies:aquite","H":"blue_skies:aquite"});
+
+
+event.shaped('1x zoomers_magic:augment_mana_regen_2', [" B ","DEF"," H "], {"B":"blue_skies:aquite","D":"blue_skies:aquite","E":"irons_spellbooks:amethyst_resonance_charm","F":"blue_skies:aquite","H":"blue_skies:aquite"});
 
 
 event.shaped('1x zoomers_magic:augment_pyromancer_3', [" B ","DEF"," H "], {"B":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"irons_spellbooks:fire_rune","F":"aether:zanite_gemstone","H":"aether:zanite_gemstone"});
@@ -151,7 +175,19 @@ event.shaped('1x zoomers_magic:augment_explorer_3', [" B ","DEF"," H "], {"B":"a
 event.shaped('1x zoomers_magic:augment_healer_3', [" B ","DEF"," H "], {"B":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"minecraft:golden_apple","F":"aether:zanite_gemstone","H":"aether:zanite_gemstone"});
 
 
-event.shaped('1x zoomers_magic:augment_tank_3', [" B ","DEF"," H "], {"B":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"minecraft:diamond_chestplate","F":"aether:zanite_gemstone","H":"aether:zanite_gemstone"});
+event.shaped('1x zoomers_magic:augment_tank_3', [" B ","DEF"," H "], {"B":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"minecraft:shield","F":"aether:zanite_gemstone","H":"aether:zanite_gemstone"});
+
+
+event.shaped('1x zoomers_magic:augment_health_3', [" B ","DEF"," H "], {"B":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"minecraft:honey_bottle","F":"aether:zanite_gemstone","H":"aether:zanite_gemstone"});
+
+
+event.shaped('1x zoomers_magic:augment_armor_3', [" B ","DEF"," H "], {"B":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"minecraft:diamond_chestplate","F":"aether:zanite_gemstone","H":"aether:zanite_gemstone"});
+
+
+event.shaped('1x zoomers_magic:augment_mana_3', [" B ","DEF"," H "], {"B":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"irons_spellbooks:arcane_rune","F":"aether:zanite_gemstone","H":"aether:zanite_gemstone"});
+
+
+event.shaped('1x zoomers_magic:augment_mana_regen_3', [" B ","DEF"," H "], {"B":"aether:zanite_gemstone","D":"aether:zanite_gemstone","E":"irons_spellbooks:amethyst_resonance_charm","F":"aether:zanite_gemstone","H":"aether:zanite_gemstone"});
 
 
 event.shaped('1x zoomers_magic:augment_pyromancer_4', [" B ","DEF"," H "], {"B":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"irons_spellbooks:fire_rune","F":"betternether:nether_ruby","H":"betternether:nether_ruby"});
@@ -202,7 +238,19 @@ event.shaped('1x zoomers_magic:augment_explorer_4', [" B ","DEF"," H "], {"B":"b
 event.shaped('1x zoomers_magic:augment_healer_4', [" B ","DEF"," H "], {"B":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"minecraft:golden_apple","F":"betternether:nether_ruby","H":"betternether:nether_ruby"});
 
 
-event.shaped('1x zoomers_magic:augment_tank_4', [" B ","DEF"," H "], {"B":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"minecraft:diamond_chestplate","F":"betternether:nether_ruby","H":"betternether:nether_ruby"});
+event.shaped('1x zoomers_magic:augment_tank_4', [" B ","DEF"," H "], {"B":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"minecraft:shield","F":"betternether:nether_ruby","H":"betternether:nether_ruby"});
+
+
+event.shaped('1x zoomers_magic:augment_health_4', [" B ","DEF"," H "], {"B":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"minecraft:honey_bottle","F":"betternether:nether_ruby","H":"betternether:nether_ruby"});
+
+
+event.shaped('1x zoomers_magic:augment_armor_4', [" B ","DEF"," H "], {"B":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"minecraft:diamond_chestplate","F":"betternether:nether_ruby","H":"betternether:nether_ruby"});
+
+
+event.shaped('1x zoomers_magic:augment_mana_4', [" B ","DEF"," H "], {"B":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"irons_spellbooks:arcane_rune","F":"betternether:nether_ruby","H":"betternether:nether_ruby"});
+
+
+event.shaped('1x zoomers_magic:augment_mana_regen_4', [" B ","DEF"," H "], {"B":"betternether:nether_ruby","D":"betternether:nether_ruby","E":"irons_spellbooks:amethyst_resonance_charm","F":"betternether:nether_ruby","H":"betternether:nether_ruby"});
 
 
 event.shaped('1x zoomers_magic:augment_pyromancer_5', [" B ","DEF"," H "], {"B":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"irons_spellbooks:fire_rune","F":"undergarden:froststeel_ingot","H":"undergarden:froststeel_ingot"});
@@ -253,7 +301,19 @@ event.shaped('1x zoomers_magic:augment_explorer_5', [" B ","DEF"," H "], {"B":"u
 event.shaped('1x zoomers_magic:augment_healer_5', [" B ","DEF"," H "], {"B":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"minecraft:golden_apple","F":"undergarden:froststeel_ingot","H":"undergarden:froststeel_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_tank_5', [" B ","DEF"," H "], {"B":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"minecraft:diamond_chestplate","F":"undergarden:froststeel_ingot","H":"undergarden:froststeel_ingot"});
+event.shaped('1x zoomers_magic:augment_tank_5', [" B ","DEF"," H "], {"B":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"minecraft:shield","F":"undergarden:froststeel_ingot","H":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x zoomers_magic:augment_health_5', [" B ","DEF"," H "], {"B":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"minecraft:honey_bottle","F":"undergarden:froststeel_ingot","H":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x zoomers_magic:augment_armor_5', [" B ","DEF"," H "], {"B":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"minecraft:diamond_chestplate","F":"undergarden:froststeel_ingot","H":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x zoomers_magic:augment_mana_5', [" B ","DEF"," H "], {"B":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"irons_spellbooks:arcane_rune","F":"undergarden:froststeel_ingot","H":"undergarden:froststeel_ingot"});
+
+
+event.shaped('1x zoomers_magic:augment_mana_regen_5', [" B ","DEF"," H "], {"B":"undergarden:froststeel_ingot","D":"undergarden:froststeel_ingot","E":"irons_spellbooks:amethyst_resonance_charm","F":"undergarden:froststeel_ingot","H":"undergarden:froststeel_ingot"});
 
 
 event.shaped('1x zoomers_magic:augment_pyromancer_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"irons_spellbooks:fire_rune","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
@@ -304,7 +364,19 @@ event.shaped('1x zoomers_magic:augment_explorer_6', [" B ","DEF"," H "], {"B":"e
 event.shaped('1x zoomers_magic:augment_healer_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"minecraft:golden_apple","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
 
 
-event.shaped('1x zoomers_magic:augment_tank_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"minecraft:diamond_chestplate","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
+event.shaped('1x zoomers_magic:augment_tank_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"minecraft:shield","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
+
+
+event.shaped('1x zoomers_magic:augment_health_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"minecraft:honey_bottle","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
+
+
+event.shaped('1x zoomers_magic:augment_armor_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"minecraft:diamond_chestplate","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
+
+
+event.shaped('1x zoomers_magic:augment_mana_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"irons_spellbooks:arcane_rune","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
+
+
+event.shaped('1x zoomers_magic:augment_mana_regen_6', [" B ","DEF"," H "], {"B":"ender_dragon_loot_:dragon_scale","D":"ender_dragon_loot_:dragon_scale","E":"irons_spellbooks:amethyst_resonance_charm","F":"ender_dragon_loot_:dragon_scale","H":"ender_dragon_loot_:dragon_scale"});
 
 
 event.shaped('1x zoomers_magic:augment_pyromancer_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:fire_rune","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
@@ -355,7 +427,19 @@ event.shaped('1x zoomers_magic:augment_explorer_7', [" B ","DEF"," H "], {"B":"c
 event.shaped('1x zoomers_magic:augment_healer_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"minecraft:golden_apple","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x zoomers_magic:augment_tank_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"minecraft:diamond_chestplate","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
+event.shaped('1x zoomers_magic:augment_tank_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"minecraft:shield","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
+
+
+event.shaped('1x zoomers_magic:augment_health_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"minecraft:honey_bottle","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
+
+
+event.shaped('1x zoomers_magic:augment_armor_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"minecraft:diamond_chestplate","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
+
+
+event.shaped('1x zoomers_magic:augment_mana_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:arcane_rune","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
+
+
+event.shaped('1x zoomers_magic:augment_mana_regen_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:amethyst_resonance_charm","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
 
 
 event.shaped('1x zoomers_magic:augment_pyromancer_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:fire_rune","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
@@ -406,6 +490,18 @@ event.shaped('1x zoomers_magic:augment_explorer_8', [" B ","DEF"," H "], {"B":"t
 event.shaped('1x zoomers_magic:augment_healer_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"minecraft:golden_apple","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
 
 
-event.shaped('1x zoomers_magic:augment_tank_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"minecraft:diamond_chestplate","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_tank_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"minecraft:shield","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+
+
+event.shaped('1x zoomers_magic:augment_health_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"minecraft:honey_bottle","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+
+
+event.shaped('1x zoomers_magic:augment_armor_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"minecraft:diamond_chestplate","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+
+
+event.shaped('1x zoomers_magic:augment_mana_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:arcane_rune","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+
+
+event.shaped('1x zoomers_magic:augment_mana_regen_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:amethyst_resonance_charm","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
 
 })
