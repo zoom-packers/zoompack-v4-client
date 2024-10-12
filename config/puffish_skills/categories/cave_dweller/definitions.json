@@ -45,8 +45,8 @@
 			"icon": "yxsovsyhbykzui1z"
 		}
 	},
-	"fortune+0.01": {
-		"title": "§a+0.01 Fortune",
+	"mining_xp+0.5%": {
+		"title": "§a+0.5% Mining XP",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -63,9 +63,9 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.fortune",
-					"value": 0.01,
-					"operation": "addition"
+					"attribute": "zoompack_overrides_forge:mining_xp_multiplier",
+					"value": 0.005,
+					"operation": "multiply_base"
 				}
 			}
 		],
