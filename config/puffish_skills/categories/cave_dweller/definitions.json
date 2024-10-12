@@ -1,6 +1,6 @@
 {
 	"root": {
-		"title": "§aGain some fortune, luck and mining speed",
+		"title": "§aGain some xp boost mining, luck and mining speed",
 		"description": {"text": "§l§aSOURCE: §rMine ores"},
 		"size" : 3,
 		"frame": {
@@ -19,9 +19,9 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.fortune",
-					"value": 0.01,
-					"operation": "addition"
+					"attribute": "zoompack_overrides_forge:mining_xp_multiplier",
+					"value": 0.005,
+					"operation": "multiply_base"
 				}
 			},
 			{
