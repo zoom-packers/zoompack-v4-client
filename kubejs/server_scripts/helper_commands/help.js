@@ -40,6 +40,14 @@ ServerEvents.commandRegistry(event => {
                     ctx.source.server.runCommandSilent(`execute as ${ctx.source.player.name.string} run ${command}`);
                     return 1;
                 })
-        );
+        );        
     });
+
+    event.register(
+        Commands.literal('discord')
+            .executes(ctx => {
+                ctx.source.server.runCommandSilent(`/tellraw ${ctx.source.player.name.string} {"text":"Click here to join our discord: ","extra":[{"text":"https://zoomers.tech/discord","color":"aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://zoomers.tech/discord"}}]}`);
+                return 1;
+            })
+    );
 });
