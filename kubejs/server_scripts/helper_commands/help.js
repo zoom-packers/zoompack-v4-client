@@ -27,7 +27,8 @@ let COMMANDS_CUSTOM_MAP = {
     'rules': ftb_book_command('0290D572AA16B1C4'),
     'skin': ftb_book_command('34DD9E65C1995FA2'),
     'skins': ftb_book_command('34DD9E65C1995FA2'),
-    'voice': ftb_book_command('69676D40420966BA')
+    'voice': ftb_book_command('69676D40420966BA'),
+    'parties' : ftb_book_command('1CBC2D540815A7B1')
 }
 
 ServerEvents.commandRegistry(event => {
