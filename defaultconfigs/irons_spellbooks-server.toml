@@ -508,7 +508,7 @@ CooldownInSeconds = 180
 AllowCrafting = true
 
 [Spells."irons_spellbooks:recall"]
-Enabled = true
+Enabled = false
 School = "irons_spellbooks:ender"
 MaxLevel = 1
 MinRarity = "UNCOMMON"
@@ -548,7 +548,7 @@ CooldownInSeconds = 8
 AllowCrafting = true
 
 [Spells."irons_spellbooks:teleport"]
-Enabled = true
+Enabled = false
 School = "irons_spellbooks:ender"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
