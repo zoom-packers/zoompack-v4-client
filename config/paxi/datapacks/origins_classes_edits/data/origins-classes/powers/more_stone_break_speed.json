@@ -1,0 +1,184 @@
+{
+    "type": "origins:multiple",
+    "loading_priority": 111,
+    "miner_stone_break_speed0": {
+        "type": "origins_classes:modify_block_loot",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_mining",
+                    "comparison": ">=",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_mining",
+                    "comparison": "<",
+                    "compare_to": 20
+                },
+                {
+                    "type": "origins:enchantment",
+                    "enchantment": "minecraft:silk_touch",
+                    "calculation": "sum",
+                    "comparison": "<",
+                    "compare_to": 1
+                }
+            ]
+        },
+        "modifier": {
+            "name": "Miner Ore Loot Bonus",
+            "value": 0.5,
+            "operation": "multiply_base"
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "forge:ores"
+        }
+    },
+    "miner_stone_break_speed1": {
+        "type": "origins_classes:modify_block_loot",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_mining",
+                    "comparison": ">=",
+                    "compare_to": 20
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_mining",
+                    "comparison": "<",
+                    "compare_to": 40
+                },
+                {
+                    "type": "origins:enchantment",
+                    "enchantment": "minecraft:silk_touch",
+                    "calculation": "sum",
+                    "comparison": "<",
+                    "compare_to": 1
+                }
+            ]
+        },
+        "modifier": {
+            "name": "Miner Ore Loot Bonus",
+            "value": 1,
+            "operation": "multiply_base"
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "forge:ores"
+        }
+    },
+    "miner_stone_break_speed2": {
+        "type": "origins_classes:modify_block_loot",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_mining",
+                    "comparison": ">=",
+                    "compare_to": 40
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_mining",
+                    "comparison": "<",
+                    "compare_to": 60
+                },
+                {
+                    "type": "origins:enchantment",
+                    "enchantment": "minecraft:silk_touch",
+                    "calculation": "sum",
+                    "comparison": "<",
+                    "compare_to": 1
+                }
+            ]
+        },
+        "modifier": {
+            "name": "Miner Ore Loot Bonus",
+            "value": 1.5,
+            "operation": "multiply_base"
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "forge:ores"
+        }
+    },
+    "miner_stone_break_speed3": {
+        "type": "origins_classes:modify_block_loot",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_mining",
+                    "comparison": ">=",
+                    "compare_to": 60
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_mining",
+                    "comparison": "<",
+                    "compare_to": 80
+                },
+                {
+                    "type": "origins:enchantment",
+                    "enchantment": "minecraft:silk_touch",
+                    "calculation": "sum",
+                    "comparison": "<",
+                    "compare_to": 1
+                }
+            ]
+        },
+        "modifier": {
+            "name": "Miner Ore Loot Bonus",
+            "value": 2,
+            "operation": "multiply_base"
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "forge:ores"
+        }
+    },
+    "miner_stone_break_speed4": {
+        "type": "origins_classes:modify_block_loot",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_mining",
+                    "comparison": ">=",
+                    "compare_to": 80
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_mining",
+                    "comparison": "<",
+                    "compare_to": 1000
+                },
+                {
+                    "type": "origins:enchantment",
+                    "enchantment": "minecraft:silk_touch",
+                    "calculation": "sum",
+                    "comparison": "<",
+                    "compare_to": 1
+                }
+            ]
+        },
+        "modifier": {
+            "name": "Miner Ore Loot Bonus",
+            "value": 2.5,
+            "operation": "multiply_base"
+        },
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "forge:ores"
+        }
+    }
+}
