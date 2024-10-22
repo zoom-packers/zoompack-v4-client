@@ -398,13 +398,13 @@ function modifySophisticatedBackpacks() {
 
 function modifySophisticatedStorage() {
     let levels = [2, 5, 10, 15, 20, 25];
-    modifyStorageBlocksByType("{tier}_barrel", "crafting", levels);
-    modifyStorageBlocksByType("limited_{tier}_barrel_1", "crafting", levels);
-    modifyStorageBlocksByType("limited_{tier}_barrel_2", "crafting", levels);
-    modifyStorageBlocksByType("limited_{tier}_barrel_3", "crafting", levels);
-    modifyStorageBlocksByType("limited_{tier}_barrel_4", "crafting", levels);
-    modifyStorageBlocksByType("{tier}_chest", "crafting", levels);
-    modifyStorageBlocksByType("{tier}_shulker_box", "crafting", levels + 20);
+    modifyStorageBlocksByType("{tier}_barrel", "engineering", levels);
+    modifyStorageBlocksByType("limited_{tier}_barrel_1", "engineering", levels);
+    modifyStorageBlocksByType("limited_{tier}_barrel_2", "engineering", levels);
+    modifyStorageBlocksByType("limited_{tier}_barrel_3", "engineering", levels);
+    modifyStorageBlocksByType("limited_{tier}_barrel_4", "engineering", levels);
+    modifyStorageBlocksByType("{tier}_chest", "engineering", levels);
+    modifyStorageBlocksByType("{tier}_shulker_box", "engineering", levels + 20);
 
     processor.modifyPlaceBlockRequirements("sophisticatedstorage", "controller", "crafting", 10);
     processor.modifyPlaceBlockRequirements("sophisticatedstorage", "storage_link", "crafting", 15);
@@ -413,30 +413,64 @@ function modifySophisticatedStorage() {
     processor.modifyPlaceBlockRequirements("sophisticatedstorage", "storage_output", "crafting", 30);
 }
 
+function modifyCreate() {
+    processor.modifyPlaceBlockRequirements("create", "andesite_casing", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "shaft", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "cogwheel", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "large_cogwheel", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "hand_crank", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "gearbox", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("copycats", "copycat_cogwheel", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("copycats", "copycat_large_cogwheel", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "mechanical_press", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "gearbox", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "mechanical_mixer", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "mechanical_piston", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "sticky_mechanical_piston", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "mechanical_bearing", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "mechanical_drill", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "mechanical_saw", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "mechanical_harvester", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "mechanical_plough", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "mechanical_roller", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "belt_connector", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("trials", "crafter", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "brass_casing", "engineering", 20);
+    processor.modifyPlaceBlockRequirements("create", "deployer", "engineering", 20);
+    processor.modifyPlaceBlockRequirements("create", "mechanical_crafter", "engineering", 25);
+    processor.modifyPlaceBlockRequirements("create", "mechanical_arm", "engineering", 25);
+    processor.modifyPlaceBlockRequirements("create", "mechanical_pump", "engineering", 30);
+    processor.modifyPlaceBlockRequirements("create", "steam_engine", "engineering", 30);
+    processor.modifyPlaceBlockRequirements("create", "blaze_burner", "engineering", 30);
+    processor.modifyPlaceBlockRequirements("create", "empty_blaze_burner", "engineering", 30);
+    processor.modifyPlaceBlockRequirements("createaddition", "electric_motor", "engineering", 35);
+    processor.modifyPlaceBlockRequirements("createaddition", "alternator", "engineering", 35);
+}
+
 function modifyRefinedStorage() {
-    processor.modifyPlaceBlockRequirements("refinedstorage", "controller", "crafting", 30);
-    processor.modifyPlaceBlockRequirements("refinedstorage", "grid", "crafting", 30);
-    processor.modifyPlaceBlockRequirements("refinedstorage", "crafting_grid", "crafting", 30);
-    processor.modifyPlaceBlockRequirements("refinedstorage", "fluid_grid", "crafting", 30);
-    processor.modifyPlaceBlockRequirements("refinedstorage", "pattern_grid", "crafting", 30);
-    processor.modifyPlaceBlockRequirements("refinedstorage", "crafter_manager", "crafting", 30);
-    processor.modifyPlaceBlockRequirements("refinedstorage", "crafting_monitor", "crafting", 30);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "controller", "engineering", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "grid", "engineering", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "crafting_grid", "engineering", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "fluid_grid", "engineering", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "pattern_grid", "engineering", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "crafter_manager", "engineering", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "crafting_monitor", "engineering", 40);
 
-    processor.modifyPlaceBlockRequirements("refinedstorage", "1k_storage_block", "crafting", 30);
-    processor.modifyPlaceBlockRequirements("refinedstorage", "4k_storage_block", "crafting", 40);
-    processor.modifyPlaceBlockRequirements("refinedstorage", "16k_storage_block", "crafting", 50);
-    processor.modifyPlaceBlockRequirements("refinedstorage", "64k_storage_block", "crafting", 60);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "1k_storage_block", "engineering", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "4k_storage_block", "engineering", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "16k_storage_block", "engineering", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "64k_storage_block", "engineering", 40);
 
-    processor.modifyPlaceBlockRequirements("refinedstorage", "1k_fluid_storage_block", "crafting", 30);
-    processor.modifyPlaceBlockRequirements("refinedstorage", "4k_fluid_storage_block", "crafting", 40);
-    processor.modifyPlaceBlockRequirements("refinedstorage", "16k_fluid_storage_block", "crafting", 50);
-    processor.modifyPlaceBlockRequirements("refinedstorage", "64k_fluid_storage_block", "crafting", 60);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "1k_fluid_storage_block", "engineering", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "4k_fluid_storage_block", "engineering", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "16k_fluid_storage_block", "engineering", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "64k_fluid_storage_block", "engineering", 40);
 
-    processor.modifyPlaceBlockRequirements("refinedstorage", "disk_drive", "crafting", 60);
-    processor.modifyPlaceBlockRequirements("refinedstorage", "importer", "crafting", 70);
-    processor.modifyPlaceBlockRequirements("refinedstorage", "cable", "crafting", 70);
-    processor.modifyPlaceBlockRequirements("refinedstorage", "exporter", "crafting", 70);
-    processor.modifyPlaceBlockRequirements("refinedstorage", "external_storage", "crafting", 70);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "disk_drive", "engineering", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "importer", "engineering", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "cable", "engineering", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "exporter", "engineering", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "external_storage", "engineering", 40);
 }
 
 function modifyStorageBlocksByType(template, skill, levels) {
@@ -461,6 +495,7 @@ modifyMiscItems()
 modifyMounts()
 modifySophisticatedBackpacks()
 modifySophisticatedStorage()
+modifyCreate();
 modifyRefinedStorage()
 
 
