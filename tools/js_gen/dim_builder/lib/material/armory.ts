@@ -131,7 +131,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             const durability = this.durability * type.durabilityMultiplier;
             let itemType = this.getTypeName(type);
             if (itemType === "staff") {
-                itemType = "sword";
+                itemType = "irons_spells_js:staff";
             }
             // @ts-ignore
             if (tieredTypes.includes(type)) {
