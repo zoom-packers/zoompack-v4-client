@@ -29,7 +29,6 @@ ForgeEvents.onEvent("net.minecraftforge.event.entity.EntityTravelToDimensionEven
 
         if (dimensionId === "minecraft:the_end" && targetDimensionId === 'minecraft:overworld') {
 
-            console.log(isPlayerInPortal(entity));
             if(isPlayerInPortal(entity)){
                 event.setCanceled(true);
 
