@@ -37,7 +37,7 @@ PlayerEvents.spellPreCast(event => {
     let server = event.server;
     const {player} = event;
     let player_name = player.name.string;
-    let bannedSpells = ['irons_spellbooks:frost_step', 'irons_spellbooks:teleport', 'irons_spellbooks:blood_step', 'irons_spellbooks:teleport', 'irons_spellbooks:cloud_of_regeneration', 'irons_spellbooks:thunderstorm', 'irons_spellbooks:black_hole', 'irons_spellbooks:spectral_hammer', 'irons_spellbooks:charge']
+    let bannedSpells = ['irons_spellbooks:frost_step', 'irons_spellbooks:teleport', 'irons_spellbooks:blood_step', 'irons_spellbooks:teleport', 'irons_spellbooks:cloud_of_regeneration', 'irons_spellbooks:thunderstorm', 'irons_spellbooks:black_hole', 'irons_spellbooks:spectral_hammer', 'irons_spellbooks:charge', 'irons_spellbooks:echoing_strikes']
 
     if(bannedSpells.includes(spellId)){
         playerBlockSpellMessage(server, player_name)
