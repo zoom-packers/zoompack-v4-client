@@ -958,7 +958,7 @@ CooldownInSeconds = 1
 AllowCrafting = true
 
 [Spells."irons_spellbooks:charge"]
-Enabled = true
+Enabled = false
 School = "irons_spellbooks:lightning"
 MaxLevel = 20
 MinRarity = "RARE"
