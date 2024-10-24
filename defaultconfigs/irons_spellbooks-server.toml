@@ -578,7 +578,7 @@ CooldownInSeconds = 10
 AllowCrafting = true
 
 [Spells."irons_spellbooks:echoing_strikes"]
-Enabled = true
+Enabled = false
 School = "irons_spellbooks:ender"
 MaxLevel = 20
 MinRarity = "RARE"
