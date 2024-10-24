@@ -888,7 +888,7 @@ CooldownInSeconds = 8
 AllowCrafting = true
 
 [Spells."irons_spellbooks:thunderstorm"]
-Enabled = true
+Enabled = false
 School = "irons_spellbooks:lightning"
 MaxLevel = 20
 MinRarity = "RARE"
