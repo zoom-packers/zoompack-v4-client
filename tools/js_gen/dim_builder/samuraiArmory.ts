@@ -70,7 +70,8 @@ const samuraiLightHelmetVariant: ArmorVariant = {
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: lightAttributes
+    additionalAttributes: lightAttributes,
+    pmmoSkill: "combat"
 }
 
 const samuraiLightChestplateVariant: ArmorVariant = {
@@ -84,7 +85,8 @@ const samuraiLightChestplateVariant: ArmorVariant = {
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: lightAttributes
+    additionalAttributes: lightAttributes,
+    pmmoSkill: "combat"
 }
 
 const samuraiLightLeggingsVariant: ArmorVariant = {
@@ -98,7 +100,8 @@ const samuraiLightLeggingsVariant: ArmorVariant = {
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: lightAttributes
+    additionalAttributes: lightAttributes,
+    pmmoSkill: "combat"
 }
 
 const samuraiLightBootsVariant: ArmorVariant = {
@@ -112,7 +115,8 @@ const samuraiLightBootsVariant: ArmorVariant = {
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: lightAttributes
+    additionalAttributes: lightAttributes,
+    pmmoSkill: "combat"
 }
 
 const samuraiHelmetVariant: ArmorVariant = {

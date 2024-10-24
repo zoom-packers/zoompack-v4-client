@@ -12,7 +12,7 @@ import {
     getCiaPath,
     operation
 } from "../cia/util";
-import {modifySingleItem} from "../pmmo/util";
+import {modifySingleItem, modifySingleItemWithSkill} from "../pmmo/util";
 import {combine} from "../textureGen/util";
 import {WorkingTexture} from "../textureGen/workingTexture";
 import {IArmory} from "./IArmory";
@@ -257,7 +257,11 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             }
             const materialIdPart = this.material.internalName;
             const id = `${materialIdPart}_${type.id}`;
-            modifySingleItem(this.internalNamespace, id, this.getTypeName(type), this.pmmoLevel);
+            if (type.pmmoSkill !== undefined) {
+                modifySingleItemWithSkill(this.internalNamespace, id, this.getTypeName(type), this.pmmoLevel, type.pmmoSkill);
+            } else {
+                modifySingleItem(this.internalNamespace, id, this.getTypeName(type), this.pmmoLevel);
+            }
         }
     }
 

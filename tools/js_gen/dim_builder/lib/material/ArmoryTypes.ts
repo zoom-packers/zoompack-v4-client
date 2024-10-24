@@ -10,6 +10,7 @@ export type BaseVariant = {
     modelType: string,
     additionalAttributes?: CiaModifier[],
     additionalAttributesPerLevel?: CiaModifier[] | undefined,
+    pmmoSkill?: string;
 }
 
 export type SwordVariant = BaseVariant & {
@@ -20,7 +21,7 @@ export type SwordVariant = BaseVariant & {
 
 export type ShieldVariant = BaseVariant & {
     armorMultiplier: number,
-    speedMultiplier: number
+    speedMultiplier: number,
 }
 
 export type BowVariant = BaseVariant & {
@@ -51,6 +52,13 @@ export type ChromaKeyOperation = {
     replaceWith: string,
     tolerance: number,
     function: "linear" | "squared" | "cubic",
+
+}
+
+export class ChromaCreator {
+    static create(colorToReplace: string, replaceWith: string, tolerance: number, fun: "linear" | "squared" | "cubic"): ChromaKeyOperation {
+        return {colorToReplace, replaceWith, tolerance, function: fun};
+    }
 }
 
 

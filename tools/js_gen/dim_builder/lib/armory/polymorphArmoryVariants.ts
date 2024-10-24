@@ -520,7 +520,8 @@ export class PolymorphArmoryVariants {
         armorMultiplier: 0.3,
         speedMultiplier: 0,
         modelType: "buckler_shield",
-        additionalAttributes: []
+        additionalAttributes: [],
+        pmmoSkill: "combat"
     }
     private static readonly HEATER_VARIANT: ShieldVariant = {
         id: "heater",
