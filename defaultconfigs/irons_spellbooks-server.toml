@@ -33,28 +33,28 @@ School = "irons_spellbooks:fire"
 MaxLevel = 20
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 25
+SpellPowerMultiplier = 0.34
+CooldownInSeconds = 240.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:heat_surge"]
 Enabled = true
 School = "irons_spellbooks:fire"
 MaxLevel = 20
-MinRarity = "COMMON"
+MinRarity = "LEGENDARY"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 45
-AllowCrafting = true
+SpellPowerMultiplier = 0.05
+CooldownInSeconds = 1200.0
+AllowCrafting = false
 
 [Spells."irons_spellbooks:wall_of_fire"]
 Enabled = true
 School = "irons_spellbooks:fire"
 MaxLevel = 20
 MinRarity = "COMMON"
-ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 30
+ManaCostMultiplier = 4.5
+SpellPowerMultiplier = 0.9
+CooldownInSeconds = 225.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:fire_breath"]
@@ -63,8 +63,8 @@ School = "irons_spellbooks:fire"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 12
+SpellPowerMultiplier = 0.52
+CooldownInSeconds = 48.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:magma_bomb"]
@@ -73,8 +73,8 @@ School = "irons_spellbooks:fire"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 12
+SpellPowerMultiplier = 1.6
+CooldownInSeconds = 240.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:scorch"]
@@ -83,8 +83,8 @@ School = "irons_spellbooks:fire"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 12
+SpellPowerMultiplier = 1.2
+CooldownInSeconds = 90.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:burning_dash"]
@@ -93,8 +93,8 @@ School = "irons_spellbooks:fire"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 10
+SpellPowerMultiplier = 0.1
+CooldownInSeconds = 160.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:blaze_storm"]
@@ -103,8 +103,8 @@ School = "irons_spellbooks:fire"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 20
+SpellPowerMultiplier = 0.8
+CooldownInSeconds = 160.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:firebolt"]
@@ -113,8 +113,8 @@ School = "irons_spellbooks:fire"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 1
+SpellPowerMultiplier = 2.1
+CooldownInSeconds = 20.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:flaming_barrage"]
@@ -123,8 +123,8 @@ School = "irons_spellbooks:fire"
 MaxLevel = 20
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 15
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 48.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:flaming_strike"]
@@ -133,8 +133,8 @@ School = "irons_spellbooks:fire"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 15
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 60.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:poison_arrow"]
@@ -143,8 +143,8 @@ School = "irons_spellbooks:nature"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 15
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 100.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:earthquake"]
@@ -153,8 +153,8 @@ School = "irons_spellbooks:nature"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 16
+SpellPowerMultiplier = 0.125
+CooldownInSeconds = 120.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:poison_splash"]
@@ -163,29 +163,29 @@ School = "irons_spellbooks:nature"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 20
+SpellPowerMultiplier = 1.1
+CooldownInSeconds = 480.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:oakskin"]
 Enabled = true
 School = "irons_spellbooks:nature"
-MaxLevel = 20
-MinRarity = "COMMON"
+MaxLevel = 5
+MinRarity = "LEGENDARY"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 35
-AllowCrafting = true
+SpellPowerMultiplier = 0.1
+CooldownInSeconds = 4800.0
+AllowCrafting = false
 
 [Spells."irons_spellbooks:spider_aspect"]
 Enabled = true
 School = "irons_spellbooks:nature"
-MaxLevel = 20
-MinRarity = "RARE"
+MaxLevel = 5
+MinRarity = "LEGENDARY"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 90
-AllowCrafting = true
+SpellPowerMultiplier = 0.1
+CooldownInSeconds = 4800.0
+AllowCrafting = false
 
 [Spells."irons_spellbooks:firefly_swarm"]
 Enabled = true
@@ -193,28 +193,28 @@ School = "irons_spellbooks:nature"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 20
+SpellPowerMultiplier = 0.4
+CooldownInSeconds = 60.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:root"]
 Enabled = true
 School = "irons_spellbooks:nature"
 MaxLevel = 20
-MinRarity = "UNCOMMON"
-ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 35
-AllowCrafting = true
+MinRarity = "RARE"
+ManaCostMultiplier = 12.5
+SpellPowerMultiplier = 0.0025
+CooldownInSeconds = 200.0
+AllowCrafting = false
 
 [Spells."irons_spellbooks:blight"]
 Enabled = true
 School = "irons_spellbooks:nature"
-MaxLevel = 20
-MinRarity = "RARE"
-ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 35
+MaxLevel = 5
+MinRarity = "LEGENDARY"
+ManaCostMultiplier = 12.5
+SpellPowerMultiplier = 0.02
+CooldownInSeconds = 4800.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:stomp"]
@@ -223,19 +223,19 @@ School = "irons_spellbooks:nature"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 16
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 48.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:acid_orb"]
 Enabled = true
 School = "irons_spellbooks:nature"
-MaxLevel = 20
-MinRarity = "COMMON"
-ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 15
-AllowCrafting = true
+MaxLevel = 5
+MinRarity = "LEGENDARY"
+ManaCostMultiplier = 12.5
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 5400.0
+AllowCrafting = false
 
 [Spells."irons_spellbooks:poison_breath"]
 Enabled = true
@@ -243,19 +243,19 @@ School = "irons_spellbooks:nature"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 12
+SpellPowerMultiplier = 0.48
+CooldownInSeconds = 48.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:gluttony"]
 Enabled = true
 School = "irons_spellbooks:nature"
-MaxLevel = 20
-MinRarity = "COMMON"
-ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 90
-AllowCrafting = true
+MaxLevel = 5
+MinRarity = "LEGENDARY"
+ManaCostMultiplier = 12.5
+SpellPowerMultiplier = 0.12
+CooldownInSeconds = 3600.0
+AllowCrafting = false
 
 [Spells."irons_spellbooks:frostbite"]
 Enabled = true
@@ -263,8 +263,8 @@ School = "irons_spellbooks:ice"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 0
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 7.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:ice_block"]
@@ -273,8 +273,8 @@ School = "irons_spellbooks:ice"
 MaxLevel = 20
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 15
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 112.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:ray_of_frost"]
@@ -283,8 +283,8 @@ School = "irons_spellbooks:ice"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 15
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 112.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:cone_of_cold"]
@@ -293,8 +293,8 @@ School = "irons_spellbooks:ice"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 12
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 90.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:frost_step"]
@@ -303,8 +303,8 @@ School = "irons_spellbooks:ice"
 MaxLevel = 20
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 10
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 75.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:frostwave"]
@@ -313,8 +313,8 @@ School = "irons_spellbooks:ice"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 45
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 337.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:summon_polar_bear"]
@@ -323,8 +323,8 @@ School = "irons_spellbooks:ice"
 MaxLevel = 20
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 180
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 1350.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:icicle"]
@@ -333,8 +333,8 @@ School = "irons_spellbooks:ice"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 1
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 7.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:arrow_volley"]
@@ -343,8 +343,8 @@ School = "irons_spellbooks:evocation"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 15
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 112.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:fang_ward"]
@@ -353,8 +353,8 @@ School = "irons_spellbooks:evocation"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 15
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 112.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:fang_strike"]
@@ -363,8 +363,8 @@ School = "irons_spellbooks:evocation"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 5
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 37.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:chain_creeper"]
@@ -373,8 +373,8 @@ School = "irons_spellbooks:evocation"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 15
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 112.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:gust"]
@@ -383,8 +383,8 @@ School = "irons_spellbooks:evocation"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 12
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 90.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:invisibility"]
@@ -393,8 +393,8 @@ School = "irons_spellbooks:evocation"
 MaxLevel = 20
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 45
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 337.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:summon_vex"]
@@ -403,8 +403,8 @@ School = "irons_spellbooks:evocation"
 MaxLevel = 20
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 150
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 1125.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:lob_creeper"]
@@ -413,8 +413,8 @@ School = "irons_spellbooks:evocation"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 2
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 15.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:wololo"]
@@ -423,8 +423,8 @@ School = "irons_spellbooks:evocation"
 MaxLevel = 1
 MinRarity = "LEGENDARY"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 10
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 75.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:shield"]
@@ -433,8 +433,8 @@ School = "irons_spellbooks:evocation"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 8
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 60.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:summon_horse"]
@@ -443,8 +443,8 @@ School = "irons_spellbooks:evocation"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 20
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 150.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:spectral_hammer"]
@@ -453,8 +453,8 @@ School = "irons_spellbooks:evocation"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 2
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 15.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:slow"]
@@ -463,8 +463,8 @@ School = "irons_spellbooks:evocation"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 45
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 337.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:firecracker"]
@@ -473,18 +473,18 @@ School = "irons_spellbooks:evocation"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 1.5
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 112.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:portal"]
-Enabled = true
+Enabled = false
 School = "irons_spellbooks:ender"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 180
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 1350.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:black_hole"]
@@ -493,8 +493,8 @@ School = "irons_spellbooks:ender"
 MaxLevel = 20
 MinRarity = "LEGENDARY"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 120
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 900.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:evasion"]
@@ -503,8 +503,8 @@ School = "irons_spellbooks:ender"
 MaxLevel = 20
 MinRarity = "EPIC"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 180
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 1350.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:recall"]
@@ -513,8 +513,8 @@ School = "irons_spellbooks:ender"
 MaxLevel = 1
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 300
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 2250.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:magic_missile"]
@@ -523,8 +523,8 @@ School = "irons_spellbooks:ender"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 1
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 7.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:summon_ender_chest"]
@@ -533,8 +533,8 @@ School = "irons_spellbooks:ender"
 MaxLevel = 1
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 5
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 37.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:magic_arrow"]
@@ -543,8 +543,8 @@ School = "irons_spellbooks:ender"
 MaxLevel = 20
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 8
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 60.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:teleport"]
@@ -553,8 +553,8 @@ School = "irons_spellbooks:ender"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 3
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 22.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:dragon_breath"]
@@ -563,8 +563,8 @@ School = "irons_spellbooks:ender"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 12
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 90.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:counterspell"]
@@ -573,8 +573,8 @@ School = "irons_spellbooks:ender"
 MaxLevel = 20
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 10
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 75.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:echoing_strikes"]
@@ -583,8 +583,8 @@ School = "irons_spellbooks:ender"
 MaxLevel = 20
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 60
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 2700.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:starfall"]
@@ -593,8 +593,8 @@ School = "irons_spellbooks:ender"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 16
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 120.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:sculk_tentacles"]
@@ -603,8 +603,8 @@ School = "irons_spellbooks:eldritch"
 MaxLevel = 20
 MinRarity = "LEGENDARY"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 30
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 225.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:telekinesis"]
@@ -613,8 +613,8 @@ School = "irons_spellbooks:eldritch"
 MaxLevel = 20
 MinRarity = "LEGENDARY"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 35
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 262.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:planar_sight"]
@@ -623,8 +623,8 @@ School = "irons_spellbooks:eldritch"
 MaxLevel = 20
 MinRarity = "LEGENDARY"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 200
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 1500.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:eldritch_blast"]
@@ -633,8 +633,8 @@ School = "irons_spellbooks:eldritch"
 MaxLevel = 20
 MinRarity = "LEGENDARY"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 15
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 112.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:abyssal_shroud"]
@@ -643,8 +643,8 @@ School = "irons_spellbooks:eldritch"
 MaxLevel = 20
 MinRarity = "LEGENDARY"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 200
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 1500.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:sonic_boom"]
@@ -653,8 +653,8 @@ School = "irons_spellbooks:eldritch"
 MaxLevel = 20
 MinRarity = "LEGENDARY"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 25
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 187.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:healing_circle"]
@@ -663,8 +663,8 @@ School = "irons_spellbooks:holy"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 25
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 187.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:blessing_of_life"]
@@ -673,8 +673,8 @@ School = "irons_spellbooks:holy"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 10
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 75.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:angel_wing"]
@@ -683,8 +683,8 @@ School = "irons_spellbooks:holy"
 MaxLevel = 20
 MinRarity = "EPIC"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 120
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 900.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:sunbeam"]
@@ -693,8 +693,8 @@ School = "irons_spellbooks:holy"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 20
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 150.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:fortify"]
@@ -703,8 +703,8 @@ School = "irons_spellbooks:holy"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 35
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 262.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:guiding_bolt"]
@@ -713,8 +713,8 @@ School = "irons_spellbooks:holy"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 8
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 60.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:heal"]
@@ -723,8 +723,8 @@ School = "irons_spellbooks:holy"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 25
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 187.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:haste"]
@@ -733,8 +733,8 @@ School = "irons_spellbooks:holy"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 45
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 337.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:wisp"]
@@ -743,8 +743,8 @@ School = "irons_spellbooks:holy"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 3
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 22.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:divine_smite"]
@@ -753,8 +753,8 @@ School = "irons_spellbooks:holy"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 15
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 112.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:greater_heal"]
@@ -763,8 +763,8 @@ School = "irons_spellbooks:holy"
 MaxLevel = 20
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 45
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 337.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:cloud_of_regeneration"]
@@ -773,8 +773,8 @@ School = "irons_spellbooks:holy"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 35
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 262.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:raise_dead"]
@@ -783,8 +783,8 @@ School = "irons_spellbooks:blood"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 150
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 1125.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:blood_slash"]
@@ -793,8 +793,8 @@ School = "irons_spellbooks:blood"
 MaxLevel = 20
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 10
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 75.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:blood_step"]
@@ -803,8 +803,8 @@ School = "irons_spellbooks:blood"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 5
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 37.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:acupuncture"]
@@ -813,8 +813,8 @@ School = "irons_spellbooks:blood"
 MaxLevel = 20
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 20
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 150.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:ray_of_siphoning"]
@@ -823,8 +823,8 @@ School = "irons_spellbooks:blood"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 15
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 112.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:blood_needles"]
@@ -833,8 +833,8 @@ School = "irons_spellbooks:blood"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 10
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 75.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:sacrifice"]
@@ -843,8 +843,8 @@ School = "irons_spellbooks:blood"
 MaxLevel = 20
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 1
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 7.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:heartstop"]
@@ -853,8 +853,8 @@ School = "irons_spellbooks:blood"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 120
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 900.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:devour"]
@@ -863,8 +863,8 @@ School = "irons_spellbooks:blood"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 20
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 150.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:wither_skull"]
@@ -873,8 +873,8 @@ School = "irons_spellbooks:blood"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 1
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 7.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:thunder_step"]
@@ -883,8 +883,8 @@ School = "irons_spellbooks:lightning"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 8
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 60.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:thunderstorm"]
@@ -893,8 +893,8 @@ School = "irons_spellbooks:lightning"
 MaxLevel = 20
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 120
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 900.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:ascension"]
@@ -903,8 +903,8 @@ School = "irons_spellbooks:lightning"
 MaxLevel = 20
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 15
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 112.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:lightning_lance"]
@@ -913,8 +913,8 @@ School = "irons_spellbooks:lightning"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 8
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 60.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:shockwave"]
@@ -923,8 +923,8 @@ School = "irons_spellbooks:lightning"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 30
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 225.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:electrocute"]
@@ -933,8 +933,8 @@ School = "irons_spellbooks:lightning"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 12
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 90.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:lightning_bolt"]
@@ -943,8 +943,8 @@ School = "irons_spellbooks:lightning"
 MaxLevel = 20
 MinRarity = "EPIC"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 25
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 187.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:ball_lightning"]
@@ -953,8 +953,8 @@ School = "irons_spellbooks:lightning"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 1
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 7.5
 AllowCrafting = true
 
 [Spells."irons_spellbooks:charge"]
@@ -963,8 +963,8 @@ School = "irons_spellbooks:lightning"
 MaxLevel = 20
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 40
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 300.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:chain_lightning"]
@@ -973,6 +973,6 @@ School = "irons_spellbooks:lightning"
 MaxLevel = 20
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 2.5
-CooldownInSeconds = 20
+SpellPowerMultiplier = 1.5
+CooldownInSeconds = 150.0
 AllowCrafting = true
