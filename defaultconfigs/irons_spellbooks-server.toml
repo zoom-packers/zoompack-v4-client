@@ -274,7 +274,7 @@ MaxLevel = 20
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
 SpellPowerMultiplier = 1.5
-CooldownInSeconds = 112.5
+CooldownInSeconds = 80.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:ray_of_frost"]
@@ -284,7 +284,7 @@ MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
 SpellPowerMultiplier = 1.5
-CooldownInSeconds = 112.5
+CooldownInSeconds = 80.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:cone_of_cold"]
@@ -293,18 +293,18 @@ School = "irons_spellbooks:ice"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 1.5
-CooldownInSeconds = 90.0
+SpellPowerMultiplier = 0.52
+CooldownInSeconds = 48.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:frost_step"]
-Enabled = false
+Enabled = true
 School = "irons_spellbooks:ice"
 MaxLevel = 20
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 1.5
-CooldownInSeconds = 75.0
+SpellPowerMultiplier = 0.1
+CooldownInSeconds = 48.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:frostwave"]
@@ -313,8 +313,8 @@ School = "irons_spellbooks:ice"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 1.5
-CooldownInSeconds = 337.5
+SpellPowerMultiplier = 0.0005
+CooldownInSeconds = 160.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:summon_polar_bear"]
@@ -323,8 +323,8 @@ School = "irons_spellbooks:ice"
 MaxLevel = 20
 MinRarity = "RARE"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 1.5
-CooldownInSeconds = 1350.0
+SpellPowerMultiplier = 12.0
+CooldownInSeconds = 600.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:icicle"]
@@ -333,8 +333,8 @@ School = "irons_spellbooks:ice"
 MaxLevel = 20
 MinRarity = "COMMON"
 ManaCostMultiplier = 2.5
-SpellPowerMultiplier = 1.5
-CooldownInSeconds = 7.5
+SpellPowerMultiplier = 2.0
+CooldownInSeconds = 10.0
 AllowCrafting = true
 
 [Spells."irons_spellbooks:arrow_volley"]
