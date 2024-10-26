@@ -20,9 +20,6 @@ function getSkillMaxLvl(spellId){
 }
 
 function isSkillCapped(spellId, spellLvl){
-    console.log(spellId);
-    console.log(getSkillMaxLvl(spellId));
-    console.log(spellLvl);
     return getSkillMaxLvl(spellId) < spellLvl;
 }
 
