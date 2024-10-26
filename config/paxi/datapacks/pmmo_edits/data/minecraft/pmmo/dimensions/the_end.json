@@ -35,7 +35,25 @@
             "amount": 7
         }
     ],
-    "mob_modifier": {},
+    "mob_modifier": {
+        "minecraft:ender_dragon": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "amount": -100.0,
+                "operation": "MULTIPLY_BASE"
+            },
+            {
+                "attribute":"minecraft:generic.armor",
+                "operation": "ADDITION",
+                "amount": -50.0
+            },
+            {
+                "attribute":"minecraft:generic.armor_toughness",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": -5.0
+            }
+        ]
+    },
     "override": false,
     "isTagFor": [],
     "bonus": {}
