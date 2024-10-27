@@ -18,7 +18,7 @@ import {WorkingTexture} from "../textureGen/workingTexture";
 import {IArmory} from "./IArmory";
 import {PolymorphArmoryVariants} from "../armory/polymorphArmoryVariants";
 import {ArmorVariant, BaseVariant, ChromaKeyOperation, ToolVariant} from "./ArmoryTypes";
-import {GeckoArmorArmoryEntry} from "./geckoArmorArmoryEntry";
+import {GeckoArmorArmoryEntry, SimpleArmorArmoryEntry} from "./geckoArmorArmoryEntry";
 import path from "path";
 import {Config} from "../config";
 import {CustomArmoryEntry} from "./customArmoryEntry";
@@ -145,7 +145,14 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         }
 
         for (const customArmoryEntry of this.customArmoryEntries) {
-            if (customArmoryEntry instanceof GeckoArmorArmoryEntry) {
+            if (customArmoryEntry instanceof SimpleArmorArmoryEntry) {
+                for (const variant of customArmoryEntry.variants) {
+                    var id = `${modId}:${materialIdPart}_${variant.id}`;
+                    var displayName = variant.displayName;
+                    var itemType = this.getTypeName(variant);
+                    this.kubeJsContainer.registrar.registerTieredItem(id, itemType, displayName, `${modId}:${material.internalName}_${customArmoryEntry.armorId}`);
+                }
+            } else if (customArmoryEntry instanceof GeckoArmorArmoryEntry) {
                 // @ts-ignore
                 const helmet = customArmoryEntry.variants.find(x => x.slot === "head") as ArmorVariant;
                 // @ts-ignore
