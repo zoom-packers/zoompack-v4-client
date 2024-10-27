@@ -91,110 +91,128 @@ def alter_config(new_item_config, cosmetic=False):
 
 def new_item_config(mod_id, item_id, item_type, mod_map, cosmetic=False):
     overrides = []
-    for attr, modification in mod_map.items():
-        overrides.append({
-            "attribute": attr,
-            "value": modification[0],
-            "operation": modification[1]
-        })
-
-    if item_type in ['sword', 'bow']:
-        new_item_config = {
-            "item": f"{mod_id}:{item_id}",
-            "overrides_main_hand": overrides,
-        }
-        alter_config(new_item_config, cosmetic=cosmetic)
-
-    if item_type == 'helmet':
-        new_item_config = {
-            "item": f"{mod_id}:{item_id}",
-            "overrides_head": overrides,
-        }
-        alter_config(new_item_config, cosmetic=cosmetic)
-
-    if item_type == 'chestplate':
-        new_item_config = {
-            "item": f"{mod_id}:{item_id}",
-            "overrides_chest": overrides,
-        }
-        alter_config(new_item_config, cosmetic=cosmetic)
-
-    if item_type == 'leggings':
-        new_item_config = {
-            "item": f"{mod_id}:{item_id}",
-            "overrides_legs": overrides,
-        }
-        alter_config(new_item_config, cosmetic=cosmetic)
-
-    if item_type == 'boots':
-        new_item_config = {
-            "item": f"{mod_id}:{item_id}",
-            "overrides_feet": overrides,
-        }
-        alter_config(new_item_config, cosmetic=cosmetic)
-
-    if item_type == 'offhand':
-        new_item_config = {
-            "item": f"{mod_id}:{item_id}",
-            "overrides_off_hand": overrides,
-        }
-        alter_config(new_item_config, cosmetic=cosmetic)
     
+    if isinstance(mod_map, dict):
+        for attr, modification in mod_map.items():
+            if modification[0] == 0 or modification[0] == 0.0:
+                continue
+            overrides.append({
+                "attribute": attr,
+                "value": modification[0],
+                "operation": modification[1]
+            })
+    elif isinstance(mod_map, list):
+        for attr_id, amount, operation in mod_map:
+            if amount == 0 or amount == 0.0:
+                continue 
+            overrides.append({
+                "attribute": attr_id,
+                "value": amount,
+                "operation": operation
+            })
+
+    new_item_config = {"item": f"{mod_id}:{item_id}"}
+    
+    if item_type in ['sword', 'bow']:
+        new_item_config["overrides_main_hand"] = overrides
+    elif item_type == 'helmet':
+        new_item_config["overrides_head"] = overrides
+    elif item_type == 'chestplate':
+        new_item_config["overrides_chest"] = overrides
+    elif item_type == 'leggings':
+        new_item_config["overrides_legs"] = overrides
+    elif item_type == 'boots':
+        new_item_config["overrides_feet"] = overrides
+    elif item_type == 'offhand':
+        new_item_config["overrides_off_hand"] = overrides
+
     if cosmetic:
         new_item_config['unbreakable'] = True
-        
-    base_config.get("items", []).append(fill_config_item_gaps(new_item_config, cosmetic=cosmetic))
 
+    filled_config = fill_config_item_gaps(new_item_config, cosmetic=cosmetic)
+    base_config.setdefault("items", []).append(filled_config)
 
-def new_armor_set_config(mod_id, material_prefix, armor_list, armor_toughness, knockback_resistance, hp_bonus=[0,0,0,0], speed_bonus =[0,0,0,0], full_id=False, actual_piece=None, cosmetic=False):
+    alter_config(new_item_config, cosmetic=cosmetic)
+
+class PolymorphArmoryVariants:
+    PIERCE_MULTIPLIER = 3
+    ARMOR_HP_FLAT_ADDITION = 2
+    ARMOR_HP_MULTIPLIER = 0.23
+    ARMOR_HELMET_FRACTION = 0.175
+    ARMOR_CHESTPLATE_FRACTION = 0.4
+    ARMOR_LEGGINGS_FRACTION = 0.3
+    ARMOR_BOOTS_FRACTION = 0.125
+
+def create_health_per_level_attributes(piece, tier):
+    if piece == 'helmet':
+        piece_multiplier = PolymorphArmoryVariants.ARMOR_HELMET_FRACTION
+    elif piece == 'chestplate':
+        piece_multiplier = PolymorphArmoryVariants.ARMOR_CHESTPLATE_FRACTION
+    elif piece == 'leggings':
+        piece_multiplier = PolymorphArmoryVariants.ARMOR_LEGGINGS_FRACTION
+    else:
+        piece_multiplier = PolymorphArmoryVariants.ARMOR_BOOTS_FRACTION
+
+    return [
+        ('minecraft:generic.max_health', PolymorphArmoryVariants.ARMOR_HP_FLAT_ADDITION * piece_multiplier * tier, 'ADDITION'),
+        ('minecraft:generic.max_health', PolymorphArmoryVariants.ARMOR_HP_MULTIPLIER * piece_multiplier * tier, 'MULTIPLY_BASE')
+    ]
+
+def new_armor_set_config(
+        mod_id, material_prefix, armor_list, armor_toughness, knockback_resistance, 
+        hp_bonus=[0, 0, 0, 0], speed_bonus=[0, 0, 0, 0], full_id=False, 
+        actual_piece=None, cosmetic=False, hp_tier=None):
+    
     armor_map = {
-        'helmet' : armor_list[0],
-        'chestplate' : armor_list[1],
-        'leggings' : armor_list[2],
-        'boots' : armor_list[3]
+        'helmet': armor_list[0],
+        'chestplate': armor_list[1],
+        'leggings': armor_list[2],
+        'boots': armor_list[3]
     }
     hp_map = {
-        'helmet' : hp_bonus[0],
-        'chestplate' : hp_bonus[1],
-        'leggings' : hp_bonus[2],
-        'boots' : hp_bonus[3]        
+        'helmet': hp_bonus[0],
+        'chestplate': hp_bonus[1],
+        'leggings': hp_bonus[2],
+        'boots': hp_bonus[3]
     }
     speed_map = {
-        'helmet' : speed_bonus[0],
-        'chestplate' : speed_bonus[1],
-        'leggings' : speed_bonus[2],
-        'boots' : speed_bonus[3]        
+        'helmet': speed_bonus[0],
+        'chestplate': speed_bonus[1],
+        'leggings': speed_bonus[2],
+        'boots': speed_bonus[3]
     }
 
     pieces = ['helmet', 'chestplate', 'leggings', 'boots']
     if full_id:
         pieces = [actual_piece]
-    
-    for piece in pieces:        
-        attr_config = {
-                "minecraft:generic.armor" : (armor_map[piece],'ADDITION'),
-                "minecraft:generic.armor_toughness" : (armor_toughness,'ADDITION'),
-                "minecraft:generic.knockback_resistance" : (knockback_resistance,'ADDITION')
-            }
+
+    for piece in pieces:
+        attr_config = [
+            ("minecraft:generic.armor", armor_map[piece], 'ADDITION'),
+            ("minecraft:generic.armor_toughness", armor_toughness, 'ADDITION'),
+            ("minecraft:generic.knockback_resistance", knockback_resistance, 'ADDITION')
+        ]
         
-        if hp_map[piece] != 0:
-            attr_config["minecraft:generic.max_health"] = (hp_map[piece],'ADDITION')
+        if hp_tier:
+            hp_modifiers = create_health_per_level_attributes(piece, hp_tier)
+            attr_config.extend(hp_modifiers)
+        else:
+            if hp_map[piece] != 0:
+                attr_config.append(("minecraft:generic.max_health", hp_map[piece], 'ADDITION'))
 
         if speed_map[piece] != 0:
-            attr_config["minecraft:generic.movement_speed"] = (speed_map[piece],'MULTIPLY_TOTAL')
+            attr_config.append(("minecraft:generic.movement_speed", speed_map[piece], 'MULTIPLY_TOTAL'))
 
         if cosmetic:
-            attr_config = {}
-            for attr_mod in ["minecraft:generic.attack_damage",
-                         "minecraft:generic.attack_speed",
-                         "minecraft:generic.luck",
-                         "minecraft:generic.knockback_resistance"]:
-                attr_config[attr_mod] = (-1, 'MULTIPLY_BASE')
+            attr_config = [
+                ("minecraft:generic.attack_damage", -1, 'MULTIPLY_BASE'),
+                ("minecraft:generic.attack_speed", -1, 'MULTIPLY_BASE'),
+                ("minecraft:generic.luck", -1, 'MULTIPLY_BASE'),
+                ("minecraft:generic.knockback_resistance", -1, 'MULTIPLY_BASE'),
+                ("minecraft:generic.movement_speed", -0.15, 'MULTIPLY_BASE'),
+                ("minecraft:generic.max_health", -0.15, 'MULTIPLY_BASE')
+            ]
 
-            for attr_mod in ["minecraft:generic.movement_speed",
-                             "minecraft:generic.max_health"]:
-                attr_config[attr_mod] = (-0.15, 'MULTIPLY_BASE')
-        
         item = f'{material_prefix}_{piece}'
         if full_id:
             item = material_prefix
@@ -307,74 +325,81 @@ for piece in ['helmet', 'chestplate', 'leggings', 'boots']:
 # ////////////////////////////////////////////////////////////////////
 
 # OW
-new_armor_set_config("create_sa", "brass", [0,0,0,0], 0.0, -0.09)
-new_armor_set_config("create_sa", "brass_jetpack", [0,0,0,0], 0.0, -0.09)
-new_armor_set_config("create_sa", "brass_exoskeleton", [0,0,0,0], 0.0, -0.09)
-new_armor_set_config("aquamirae", "three_bolt", [0,0,0,0], 0.0, -0.09)
-new_armor_set_config("aquamirae", "three_bolt_suit", [0,0,0,0], 0.0, -0.09, full_id=True, actual_piece="chestplate")
-new_armor_set_config("meadow", "fur", [0,0,0,0], 0.0, -0.09)
-new_armor_set_config("immersive_armors", "heavy", [0,0,0,0], 0.0, -0.45)
-new_armor_set_config("aquaculture", "neptunium", [0,0,0,0], 0, 0.01)
+new_armor_set_config("minecraft", "iron", [0,0,0,0], 0.0, 0.0, hp_tier=2)
+new_armor_set_config("create_sa", "brass", [0,0,0,0], 0.0, -0.09, hp_tier=2)
+new_armor_set_config("create_sa", "brass_jetpack", [0,0,0,0], 0.0, -0.09, hp_tier=2)
+new_armor_set_config("create_sa", "brass_exoskeleton", [0,0,0,0], 0.0, -0.09, hp_tier=2)
+new_armor_set_config("aquamirae", "three_bolt", [0,0,0,0], 0.0, -0.09, hp_tier=3)
+new_armor_set_config("aquamirae", "three_bolt_suit", [0,0,0,0], 0.0, -0.09, full_id=True, actual_piece="chestplate", hp_tier=3)
+new_armor_set_config("meadow", "fur", [0,0,0,0], 0.0, -0.09, hp_tier=1)
+new_armor_set_config("immersive_armors", "heavy", [0,0,0,0], 0.0, -0.45, hp_tier=3)
+new_armor_set_config("minecraft", "diamond", [0,0,0,0], 0.0, 0.0, hp_tier=3)
+new_armor_set_config("aquaculture", "neptunium", [0,0,0,0], 0, 0.01, hp_tier=3)
 
 # blue skies
-new_armor_set_config("blue_skies", "pyrope", [1.5,3.5,2.5,2.5], 2, 0.02)
+new_armor_set_config("blue_skies", "pyrope", [1.5,3.5,2.5,2.5], 2, 0.02, hp_tier=6)
 new_sword_config("blue_skies","pyrope", 0.5, attack_speed=-0.4) #7.5
 
-new_armor_set_config("blue_skies", "aquite", [2,3,2,2], 2, 0.021)
+new_armor_set_config("blue_skies", "aquite", [2,3,2,2], 2, 0.021, hp_tier=6)
 new_sword_config("blue_skies","aquite", 2) #8
 
-new_armor_set_config("blue_skies", "diopside", [2,2.25,2,2], -2, 0.022)
+new_armor_set_config("blue_skies", "diopside", [2,2.25,2,2], -2, 0.022, hp_tier=6)
 new_sword_config("blue_skies","diopside", 0, attack_speed=0.4) #9
 
-new_armor_set_config("blue_skies", "charoite", [1,1.5,1.25,1.5], 0.5, 0.023)
+new_armor_set_config("blue_skies", "charoite", [1,1.5,1.25,1.5], 0.5, 0.023, hp_tier=7)
 new_sword_config("blue_skies","charoite", 3) #10
 
-new_armor_set_config("blue_skies", "horizonite", [2.5,4.5,3.5,3.5], 2.5, 0.24)
+new_armor_set_config("blue_skies", "horizonite", [2.5,4.5,3.5,3.5], 2.5, 0.24, hp_tier=7)
 new_sword_config("blue_skies","horizonite", 4.5) #10.5
 
 # Aether
-new_armor_set_config("aether", "zanite", [0,0,0,0], 0, 0.025)
-new_armor_set_config("aether", "neptune", [0,0,0,0], 0, 0.026)
-new_armor_set_config("aether", "gravitite", [0,0,0,0], 0, -0.023)
-new_armor_set_config("aether", "valkyrie", [0,0,0,0], 0, -0.022)
-new_armor_set_config("aether", "phoenix", [0,0,0,0], 0, -0.071)
+new_armor_set_config("aether", "zanite", [0,0,0,0], 0, 0.025, hp_tier=11)
+new_armor_set_config("aether", "neptune", [0,0,0,0], 0, 0.026, hp_tier=11)
+new_armor_set_config("aether", "gravitite", [0,0,0,0], 0, -0.023, hp_tier=11)
+new_armor_set_config("aether", "valkyrie", [0,0,0,0], 0, -0.022, hp_tier=11)
+new_armor_set_config("aether", "phoenix", [0,0,0,0], 0, -0.071, hp_tier=11)
 new_sword_config('lost_aether_content', 'phoenix', 5.5, attack_speed=0.3)
-new_armor_set_config("aether", "obsidian", [0,0,0,0], 0, -0.12)
+new_armor_set_config("aether", "obsidian", [0,0,0,0], 0, -0.12, hp_tier=11)
 new_sword_config("aether", "valkyrie_lance", 0, full_id=True, attack_speed=0.3)
 
 # Nether 
-new_armor_set_config("betternether", "cincinnasite", [7,8,7,6], 4, -0.005)
-new_armor_set_config("betternether", "nether_ruby", [8,12,10,7], 5.6, -0.167)
-new_armor_set_config("betternether", "flaming_ruby", [8,13,10,8], 4.4, -0.262)
+new_armor_set_config("betternether", "cincinnasite", [7,8,7,6], 4, -0.005, hp_tier=12)
+new_armor_set_config("kubejs", "cincinnasite_diamond", [0,0,0,0], 0.0, 0.0, hp_tier=13)
+new_armor_set_config("betternether", "nether_ruby", [8,12,10,7], 5.6, -0.167, hp_tier=13)
+new_armor_set_config("betternether", "flaming_ruby", [8,13,10,8], 4.4, -0.262, hp_tier=13)
 new_sword_config("betternether","cincinnasite", 0, attack_speed=-0.2)
 new_sword_config("betternether","cincinnasite_sword_diamond", 0, full_id=True, attack_speed=-0.3)
 new_sword_config("betternether","nether_ruby", 0, attack_speed=-0.2)
 new_sword_config("betternether","flaming_ruby", 0, attack_speed=-0.4)
 new_sword_config("minecraft","netherite", 30)
 new_sword_config("nethersdelight","netherite_machete", 30, full_id=True)
-new_armor_set_config("create", "netherite_diving", [0,0,0,0], 0.0, -0.06)
+new_armor_set_config("create", "netherite_diving", [0,0,0,0], 0.0, -0.06, hp_tier=14)
+new_armor_set_config("minecraft", "netherite", [0,0,0,0], 0.0, 0.0, hp_tier=14)
 
-new_armor_set_config("aquamirae", "abyssal", [0,0,13,10], 5, -0.06)
-new_armor_set_config("aquamirae", "abyssal_brigantine", [0,18,0,0], 5, -0.06, full_id=True, actual_piece="chestplate")
-new_armor_set_config("aquamirae", "abyssal_heaume", [6,0,0,0], 5, -0.06, full_id=True, actual_piece="helmet")
-new_armor_set_config("aquamirae", "abyssal_tiara", [10,0,0,0], 8, 0.04, full_id=True, actual_piece="helmet")
+new_armor_set_config("aquamirae", "abyssal", [0,0,13,10], 5, -0.06, hp_tier=14)
+new_armor_set_config("aquamirae", "abyssal_brigantine", [0,18,0,0], 5, -0.06, full_id=True, actual_piece="chestplate", hp_tier=14)
+new_armor_set_config("aquamirae", "abyssal_heaume", [6,0,0,0], 5, -0.06, full_id=True, actual_piece="helmet", hp_tier=14)
+new_armor_set_config("aquamirae", "abyssal_tiara", [10,0,0,0], 8, 0.04, full_id=True, actual_piece="helmet", hp_tier=14)
 
 new_sword_config("aquamirae","divider", 30, full_id=True, attack_speed=0.2)
 new_sword_config("aquamirae","whisper_of_the_abyss", 30, full_id=True)
 
 # Undergarden
-new_armor_set_config("call_of_yucutan", "warrior", [11,15,11,11], 5, 0.058)
-new_armor_set_config("call_of_yucutan", "huracan",[11,15,11,11], 5, 0.058)
-new_armor_set_config("call_of_yucutan", "monkey", [11,15,11,11], 5, 0.058)
+new_armor_set_config("call_of_yucutan", "warrior", [11,15,11,11], 5, 0.058, hp_tier=16)
+new_armor_set_config("call_of_yucutan", "huracan",[11,15,11,11], 5, 0.058, hp_tier=16)
+new_armor_set_config("call_of_yucutan", "monkey", [11,15,11,11], 5, 0.058, hp_tier=16)
 
-new_armor_set_config("undergarden", "froststeel", [11,15,11,11], 5, 0.0, speed_bonus=[0.05, 0.05, 0.05, 0.05])
+new_armor_set_config("undergarden", "cloggrum", [0,0,0,0], 0, 0.0, hp_tier=14)
+new_armor_set_config("undergarden", "froststeel", [11,15,11,11], 5, 0.0, speed_bonus=[0.05, 0.05, 0.05, 0.05], hp_tier=15)
+new_armor_set_config("undergarden", "utherium", [0,0,0,0], 0, 0.0, hp_tier=16)
+new_armor_set_config("undergarden", "forgotten", [0,0,0,0], 0, 0.0, hp_tier=17)
 new_sword_config("undergarden","forgotten_battleaxe", 259, full_id=True)
 new_sword_config("undergarden","cloggrum_battleaxe", 171, full_id=True)
 new_sword_config("mokels_boss_mantyd","mantyd_scythe", 85, full_id=True)
 new_sword_config("call_of_yucutan","sentient_vine", 81, full_id=True)
 new_sword_config("call_of_yucutan","jade", 80, attack_speed=-0.1)
-new_armor_set_config("call_of_yucutan", "jades", [14.5,19.5,16.5,14.5], 8.5, 0.008)
-new_armor_set_config("mokels_boss_mantyd", "mantydhelmet", [14,0,0,0], 8, -0.042)
+new_armor_set_config("call_of_yucutan", "jades", [14.5,19.5,16.5,14.5], 8.5, 0.008, hp_tier=16)
+new_armor_set_config("mokels_boss_mantyd", "mantydhelmet", [14,0,0,0], 8, -0.042, hp_tier=16)
 
 
 # end related content
@@ -387,46 +412,46 @@ new_sword_config("enderitemod","enderite", 140)
 
 new_armor_piece_config("endlessbiomes", "void_touched_leggings_leggings", 17, 9, -0.34, actual_piece="leggings")
 new_armor_piece_config("endlessbiomes", "void_touched_boots_boots", 15, 9, 0.06, actual_piece="boots")
-new_armor_set_config("endlessbiomes", "anklor_shell_armour", [15,21,17,15], 9, 0.01)
-new_armor_set_config("outer_end", "rose_crystal", [15,21,17,15], 8, -0.04)
-new_armor_set_config("outer_end", "cobalt_crystal", [15,21,17,15], 8, -0.04)
-new_armor_set_config("outer_end", "mint_crystal", [15,21,17,15], 8, -0.04)
+new_armor_set_config("endlessbiomes", "anklor_shell_armour", [15,21,17,15], 9, 0.01, hp_tier=18)
+new_armor_set_config("outer_end", "rose_crystal", [15,21,17,15], 8, -0.04, hp_tier=18)
+new_armor_set_config("outer_end", "cobalt_crystal", [15,21,17,15], 8, -0.04, hp_tier=18)
+new_armor_set_config("outer_end", "mint_crystal", [15,21,17,15], 8, -0.04, hp_tier=18)
 
-new_armor_set_config("ender_dragon_loot_", "dragon_armor", [18,28,23,18], 6.5, -0.13)
-new_armor_set_config("enderitemod", "enderite", [40,59,49,40], 8, -0.01)
+new_armor_set_config("ender_dragon_loot_", "dragon_armor", [18,28,23,18], 6.5, -0.13, hp_tier=19)
+new_armor_set_config("enderitemod", "enderite", [40,59,49,40], 8, -0.01, hp_tier=19)
 
 # call from the depths
 new_sword_config("callfromthedepth_","immemorialsword", 170, full_id=True)
-new_armor_set_config("callfromthedepth_", "depth_armor", [50,70,60,50], 7.5, -0.1)
+new_armor_set_config("callfromthedepth_", "depth_armor", [50,70,60,50], 7.5, -0.1, hp_tier=20)
 new_sword_config("callfromthedepth_","soul_blade", 190, full_id=True, attack_speed=0.3)
 
 # The abyss
-new_armor_set_config("theabyss", "fusion_armor", [60,85,70,60], 10.5, -0.09)
+new_armor_set_config("theabyss", "fusion_armor", [60,85,70,60], 10.5, -0.09, hp_tier=21)
 new_sword_config("theabyss","fusion", 220, attack_speed=-0.2)
 
-new_armor_set_config("theabyss", "aberythe_armor", [70,100,80,70], 11.5, 0.015)
+new_armor_set_config("theabyss", "aberythe_armor", [70,100,80,70], 11.5, 0.015, hp_tier=22)
 new_sword_config("theabyss","aberythe", 230, attack_speed=-0.2)
 
-new_armor_set_config("theabyss", "bone_armor", [80,110,90,80], 11.5, 0.02)
+new_armor_set_config("theabyss", "bone_armor", [80,110,90,80], 11.5, 0.02, hp_tier=21)
 new_sword_config("theabyss","bone_sword_item", 240, full_id=True, attack_speed=-0.4)
 
-new_armor_set_config("theabyss", "ignisithe_armor", [90,120,100,90], 10.5, 0.025)
+new_armor_set_config("theabyss", "ignisithe_armor", [90,120,100,90], 10.5, 0.025, hp_tier=23)
 new_sword_config("theabyss","ignisithe", 260, attack_speed=-0.4)
 new_sword_config("theabyss","bricked_knight", 276, attack_speed=-0.1)
 
-new_armor_set_config("theabyss", "glacerythe_armor", [100,130,110,100], 10.5, -0.17)
+new_armor_set_config("theabyss", "glacerythe_armor", [100,130,110,100], 10.5, -0.17, hp_tier=24)
 new_sword_config("theabyss","knight", 280)
 
-new_armor_set_config("theabyss", "garnite_armor", [110,140,120,110], 11.5, -0.265)
+new_armor_set_config("theabyss", "garnite_armor", [110,140,120,110], 11.5, -0.265, hp_tier=25)
 new_sword_config("theabyss","garnite", 300, attack_speed=-0.2)
 
-new_armor_set_config("theabyss", "phantom_armor", [120,150,130,120], 12, -0.06)
+new_armor_set_config("theabyss", "phantom_armor", [120,150,130,120], 12, -0.06, hp_tier=24)
 new_sword_config("theabyss","phantom", 320, attack_speed=-0.2)
 
-new_armor_set_config("theabyss", "unorithe_armor", [130,160,140,130], 14, -0.255)
+new_armor_set_config("theabyss", "unorithe_armor", [130,160,140,130], 14, -0.255, hp_tier=25)
 new_sword_config("theabyss","unorithe", 350, attack_speed=-0.4)
 
-new_armor_set_config("theabyss", "incorythe_armor", [150,170,150,150], 13, -0.15)
+new_armor_set_config("theabyss", "incorythe_armor", [150,170,150,150], 13, -0.15, hp_tier=23)
 new_sword_config("theabyss","incorythe", 390, attack_speed=-0.4)
 new_sword_config("theabyss","incorythe_sword_mkii", 420, full_id=True, attack_speed=-0.6)
 
