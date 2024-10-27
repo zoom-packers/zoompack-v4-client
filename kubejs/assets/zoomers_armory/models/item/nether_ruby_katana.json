@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "0": "zoomers_armory:item/nether_ruby_katana"
+    },
+    "parent": "zoomers_armory:item/katana"
+}

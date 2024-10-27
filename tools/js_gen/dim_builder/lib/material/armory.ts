@@ -302,7 +302,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                 textures: {}
             } as any;
             item.parent = `${this.internalNamespace}:item/` + type.modelType;
-            if (type.id === "claws" || type.id.includes("staff")) {
+            if (type.id === "claws" || type.id.includes("staff") || type.id.includes("katana") || type.id.includes("musashi")) {
                 item.textures["0"] = `${this.internalNamespace}:item/${id}`;
             } else {
                 item.textures.layer0 = `${this.internalNamespace}:item/${id}`;
@@ -399,7 +399,8 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             `${inputModelsDir}/normal.json`,
             `${inputModelsDir}/long.json`,
             `${inputModelsDir}/spear.json`,
-            `${inputModelsDir}/claws.json`,
+            `${inputModelsDir}/katana.json`,
+            `${inputModelsDir}/musashi.json`,
             `${inputModelsDir}/arcane_staff.json`,
             `${inputModelsDir}/blood_staff.json`,
             `${inputModelsDir}/ender_staff.json`,
