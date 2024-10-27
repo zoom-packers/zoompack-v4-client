@@ -24,6 +24,9 @@ import {Config} from "../config";
 import {CustomArmoryEntry} from "./customArmoryEntry";
 import {SimpleItemArmoryEntry} from "./simpleItemArmoryEntry";
 
+export const GENERAL_DURABILITY_MULTIPLIER = 1.331945;
+export const PER_TIER_MULTIPLIER = 0.125;
+
 export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
     gear: string[] = [];
     durability: number = 250; // Iron has 250, diamond has 1561, netherite has 2031
@@ -94,7 +97,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             this.kubeJsContainer.harvestLevelTweaker.withItem(itemId, this.material.level);
         });
         this.kubeJsContainer.registrar.registerToolTier(id, this.durability, this.harvestSpeed, this.baseDamage - 4, this.material.level, 9, this.craftingMaterial);
-        this.kubeJsContainer.registrar.registerArmorTier(id, this.durability / 15, slotProtections, 9, this.craftingMaterial, this.baseArmorToughness, this.baseArmorKnockbackResistance);
+        this.kubeJsContainer.registrar.registerArmorTier(id, this.harvestLevel, this.durability / 15, slotProtections, 9, this.craftingMaterial, this.baseArmorToughness, this.baseArmorKnockbackResistance);
 
         for (const customArmoryEntry of this.customArmoryEntries) {
             if (customArmoryEntry instanceof GeckoArmorArmoryEntry) {
@@ -112,7 +115,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                     this.baseArmor * chestplate.armorMultiplier * 6 / 15,
                     this.baseArmor * helmet.armorMultiplier * 2 / 15,
                 ];
-                this.kubeJsContainer.registrar.registerArmorTier(`${modId}:${materialIdPart}_${customArmoryEntry.armorId}`, this.durability / 15, slotProtections, 9, this.craftingMaterial, this.baseArmorToughness, this.baseArmorKnockbackResistance);
+                this.kubeJsContainer.registrar.registerArmorTier(`${modId}:${materialIdPart}_${customArmoryEntry.armorId}`, this.harvestLevel, this.durability / 15, slotProtections, 9, this.craftingMaterial, this.baseArmorToughness, this.baseArmorKnockbackResistance);
             }
         }
     }
@@ -542,6 +545,12 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
     }
 
     get harvestLevel() {
+        if (this.material === undefined) {
+            throw new Error("Material is not set");
+        }
+        if (this.material.level === undefined) {
+            throw new Error("Material level is not set");
+        }
         return this.material.level;
     }
 
