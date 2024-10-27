@@ -157,7 +157,7 @@ function announceReward(server, player_name, rewards, entity_name){
     }
 
     if (rewards_text.length > 0){
-        let actionbar_text = `§e§lRecieved: ${rewards_text}§e§lfrom killing ${entity_name}`;
+        let actionbar_text = `§e§lReceived: ${rewards_text}§e§lfrom killing ${entity_name}`;
         sendPlayerTitle(server, player_name, actionbar_text);
     }
 }
