@@ -336,6 +336,78 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 0 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:flint_pyromancer", tier => {
+    tier.durabilityMultiplier = 6.666666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:flint" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:flint_cryomancer", tier => {
+    tier.durabilityMultiplier = 6.666666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:flint" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:flint_electromancer", tier => {
+    tier.durabilityMultiplier = 6.666666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:flint" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:flint_archevoker", tier => {
+    tier.durabilityMultiplier = 6.666666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:flint" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:flint_cultist", tier => {
+    tier.durabilityMultiplier = 6.666666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:flint" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:flint_shadowwalker", tier => {
+    tier.durabilityMultiplier = 6.666666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:flint" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:flint_priest", tier => {
+    tier.durabilityMultiplier = 6.666666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:flint" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:flint_plagued", tier => {
+    tier.durabilityMultiplier = 6.666666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:flint" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:iron", tier => {
     tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
@@ -366,6 +438,78 @@ ItemEvents.armorTierRegistry(event => {
   event.add("zoomers_armory:iron_samurai_master", tier => {
     tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:iron_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:iron_pyromancer", tier => {
+    tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.5,3.75,4.5,1.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:iron_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:iron_cryomancer", tier => {
+    tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.5,3.75,4.5,1.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:iron_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:iron_electromancer", tier => {
+    tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.5,3.75,4.5,1.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:iron_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:iron_archevoker", tier => {
+    tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.5,3.75,4.5,1.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:iron_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:iron_cultist", tier => {
+    tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.5,3.75,4.5,1.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:iron_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:iron_shadowwalker", tier => {
+    tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.5,3.75,4.5,1.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:iron_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:iron_priest", tier => {
+    tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.5,3.75,4.5,1.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:iron_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:iron_plagued", tier => {
+    tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.5,3.75,4.5,1.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
     tier.repairIngredient = "minecraft:iron_ingot" // #forge:ingots/iron'
@@ -408,6 +552,78 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 0 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:gold_pyromancer", tier => {
+    tier.durabilityMultiplier = 3.3333333333333335 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:gold_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:gold_cryomancer", tier => {
+    tier.durabilityMultiplier = 3.3333333333333335 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:gold_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:gold_electromancer", tier => {
+    tier.durabilityMultiplier = 3.3333333333333335 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:gold_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:gold_archevoker", tier => {
+    tier.durabilityMultiplier = 3.3333333333333335 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:gold_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:gold_cultist", tier => {
+    tier.durabilityMultiplier = 3.3333333333333335 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:gold_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:gold_shadowwalker", tier => {
+    tier.durabilityMultiplier = 3.3333333333333335 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:gold_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:gold_priest", tier => {
+    tier.durabilityMultiplier = 3.3333333333333335 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:gold_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:gold_plagued", tier => {
+    tier.durabilityMultiplier = 3.3333333333333335 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:gold_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:diamond", tier => {
     tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.6666666666666665,6.666666666666667,8,2.6666666666666665] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
@@ -438,6 +654,78 @@ ItemEvents.armorTierRegistry(event => {
   event.add("zoomers_armory:diamond_samurai_master", tier => {
     tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.6666666666666665,6.666666666666667,8,2.6666666666666665] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:diamond_pyromancer", tier => {
+    tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:diamond_cryomancer", tier => {
+    tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:diamond_electromancer", tier => {
+    tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:diamond_archevoker", tier => {
+    tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:diamond_cultist", tier => {
+    tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:diamond_shadowwalker", tier => {
+    tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:diamond_priest", tier => {
+    tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:diamond_plagued", tier => {
+    tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
     tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
@@ -480,6 +768,78 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 3 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:neptunium_pyromancer", tier => {
+    tier.durabilityMultiplier = 66.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aquaculture:neptunium_ingot" // #forge:ingots/iron'
+    tier.toughness = 3 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:neptunium_cryomancer", tier => {
+    tier.durabilityMultiplier = 66.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aquaculture:neptunium_ingot" // #forge:ingots/iron'
+    tier.toughness = 3 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:neptunium_electromancer", tier => {
+    tier.durabilityMultiplier = 66.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aquaculture:neptunium_ingot" // #forge:ingots/iron'
+    tier.toughness = 3 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:neptunium_archevoker", tier => {
+    tier.durabilityMultiplier = 66.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aquaculture:neptunium_ingot" // #forge:ingots/iron'
+    tier.toughness = 3 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:neptunium_cultist", tier => {
+    tier.durabilityMultiplier = 66.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aquaculture:neptunium_ingot" // #forge:ingots/iron'
+    tier.toughness = 3 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:neptunium_shadowwalker", tier => {
+    tier.durabilityMultiplier = 66.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aquaculture:neptunium_ingot" // #forge:ingots/iron'
+    tier.toughness = 3 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:neptunium_priest", tier => {
+    tier.durabilityMultiplier = 66.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aquaculture:neptunium_ingot" // #forge:ingots/iron'
+    tier.toughness = 3 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:neptunium_plagued", tier => {
+    tier.durabilityMultiplier = 66.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aquaculture:neptunium_ingot" // #forge:ingots/iron'
+    tier.toughness = 3 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:pyrope", tier => {
     tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.933333333333333,7.333333333333333,8.8,2.933333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
@@ -510,6 +870,78 @@ ItemEvents.armorTierRegistry(event => {
   event.add("zoomers_armory:pyrope_samurai_master", tier => {
     tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.933333333333333,7.333333333333333,8.8,2.933333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:pyrope_gem" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:pyrope_pyromancer", tier => {
+    tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:pyrope_gem" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:pyrope_cryomancer", tier => {
+    tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:pyrope_gem" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:pyrope_electromancer", tier => {
+    tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:pyrope_gem" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:pyrope_archevoker", tier => {
+    tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:pyrope_gem" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:pyrope_cultist", tier => {
+    tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:pyrope_gem" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:pyrope_shadowwalker", tier => {
+    tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:pyrope_gem" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:pyrope_priest", tier => {
+    tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:pyrope_gem" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:pyrope_plagued", tier => {
+    tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
     tier.repairIngredient = "blue_skies:pyrope_gem" // #forge:ingots/iron'
@@ -552,6 +984,78 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 2 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:aquite_pyromancer", tier => {
+    tier.durabilityMultiplier = 113.33333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:aquite" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:aquite_cryomancer", tier => {
+    tier.durabilityMultiplier = 113.33333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:aquite" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:aquite_electromancer", tier => {
+    tier.durabilityMultiplier = 113.33333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:aquite" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:aquite_archevoker", tier => {
+    tier.durabilityMultiplier = 113.33333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:aquite" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:aquite_cultist", tier => {
+    tier.durabilityMultiplier = 113.33333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:aquite" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:aquite_shadowwalker", tier => {
+    tier.durabilityMultiplier = 113.33333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:aquite" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:aquite_priest", tier => {
+    tier.durabilityMultiplier = 113.33333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:aquite" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:aquite_plagued", tier => {
+    tier.durabilityMultiplier = 113.33333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:aquite" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:diopside", tier => {
     tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.2,8,9.6,3.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
@@ -582,6 +1086,78 @@ ItemEvents.armorTierRegistry(event => {
   event.add("zoomers_armory:diopside_samurai_master", tier => {
     tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.2,8,9.6,3.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:diopside_gem" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:diopside_pyromancer", tier => {
+    tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:diopside_gem" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:diopside_cryomancer", tier => {
+    tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:diopside_gem" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:diopside_electromancer", tier => {
+    tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:diopside_gem" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:diopside_archevoker", tier => {
+    tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:diopside_gem" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:diopside_cultist", tier => {
+    tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:diopside_gem" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:diopside_shadowwalker", tier => {
+    tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:diopside_gem" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:diopside_priest", tier => {
+    tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:diopside_gem" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:diopside_plagued", tier => {
+    tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
     tier.repairIngredient = "blue_skies:diopside_gem" // #forge:ingots/iron'
@@ -624,6 +1200,78 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:charoite_pyromancer", tier => {
+    tier.durabilityMultiplier = 126.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.5,6.25,7.5,2.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:charoite" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:charoite_cryomancer", tier => {
+    tier.durabilityMultiplier = 126.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.5,6.25,7.5,2.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:charoite" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:charoite_electromancer", tier => {
+    tier.durabilityMultiplier = 126.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.5,6.25,7.5,2.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:charoite" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:charoite_archevoker", tier => {
+    tier.durabilityMultiplier = 126.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.5,6.25,7.5,2.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:charoite" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:charoite_cultist", tier => {
+    tier.durabilityMultiplier = 126.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.5,6.25,7.5,2.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:charoite" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:charoite_shadowwalker", tier => {
+    tier.durabilityMultiplier = 126.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.5,6.25,7.5,2.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:charoite" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:charoite_priest", tier => {
+    tier.durabilityMultiplier = 126.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.5,6.25,7.5,2.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:charoite" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:charoite_plagued", tier => {
+    tier.durabilityMultiplier = 126.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.5,6.25,7.5,2.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:charoite" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:horizonite", tier => {
     tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.466666666666667,8.666666666666666,10.4,3.466666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
@@ -654,6 +1302,78 @@ ItemEvents.armorTierRegistry(event => {
   event.add("zoomers_armory:horizonite_samurai_master", tier => {
     tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.466666666666667,8.666666666666666,10.4,3.466666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:horizonite_ingot" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:horizonite_pyromancer", tier => {
+    tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.6,6.5,7.8,2.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:horizonite_ingot" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:horizonite_cryomancer", tier => {
+    tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.6,6.5,7.8,2.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:horizonite_ingot" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:horizonite_electromancer", tier => {
+    tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.6,6.5,7.8,2.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:horizonite_ingot" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:horizonite_archevoker", tier => {
+    tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.6,6.5,7.8,2.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:horizonite_ingot" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:horizonite_cultist", tier => {
+    tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.6,6.5,7.8,2.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:horizonite_ingot" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:horizonite_shadowwalker", tier => {
+    tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.6,6.5,7.8,2.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:horizonite_ingot" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:horizonite_priest", tier => {
+    tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.6,6.5,7.8,2.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:horizonite_ingot" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:horizonite_plagued", tier => {
+    tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.6,6.5,7.8,2.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
     tier.repairIngredient = "blue_skies:horizonite_ingot" // #forge:ingots/iron'
@@ -696,6 +1416,78 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:zanite_pyromancer", tier => {
+    tier.durabilityMultiplier = 147.4 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.8,7,8.4,2.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aether:zanite_gemstone" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:zanite_cryomancer", tier => {
+    tier.durabilityMultiplier = 147.4 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.8,7,8.4,2.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aether:zanite_gemstone" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:zanite_electromancer", tier => {
+    tier.durabilityMultiplier = 147.4 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.8,7,8.4,2.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aether:zanite_gemstone" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:zanite_archevoker", tier => {
+    tier.durabilityMultiplier = 147.4 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.8,7,8.4,2.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aether:zanite_gemstone" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:zanite_cultist", tier => {
+    tier.durabilityMultiplier = 147.4 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.8,7,8.4,2.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aether:zanite_gemstone" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:zanite_shadowwalker", tier => {
+    tier.durabilityMultiplier = 147.4 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.8,7,8.4,2.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aether:zanite_gemstone" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:zanite_priest", tier => {
+    tier.durabilityMultiplier = 147.4 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.8,7,8.4,2.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aether:zanite_gemstone" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:zanite_plagued", tier => {
+    tier.durabilityMultiplier = 147.4 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.8,7,8.4,2.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aether:zanite_gemstone" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:enchanted_gravitite", tier => {
     tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [4.8,12,14.4,4.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
@@ -726,6 +1518,78 @@ ItemEvents.armorTierRegistry(event => {
   event.add("zoomers_armory:enchanted_gravitite_samurai_master", tier => {
     tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [4.8,12,14.4,4.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aether:enchanted_gravitite" // #forge:ingots/iron'
+    tier.toughness = 3 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:enchanted_gravitite_pyromancer", tier => {
+    tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [3.6,9,10.8,3.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aether:enchanted_gravitite" // #forge:ingots/iron'
+    tier.toughness = 3 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:enchanted_gravitite_cryomancer", tier => {
+    tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [3.6,9,10.8,3.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aether:enchanted_gravitite" // #forge:ingots/iron'
+    tier.toughness = 3 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:enchanted_gravitite_electromancer", tier => {
+    tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [3.6,9,10.8,3.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aether:enchanted_gravitite" // #forge:ingots/iron'
+    tier.toughness = 3 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:enchanted_gravitite_archevoker", tier => {
+    tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [3.6,9,10.8,3.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aether:enchanted_gravitite" // #forge:ingots/iron'
+    tier.toughness = 3 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:enchanted_gravitite_cultist", tier => {
+    tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [3.6,9,10.8,3.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aether:enchanted_gravitite" // #forge:ingots/iron'
+    tier.toughness = 3 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:enchanted_gravitite_shadowwalker", tier => {
+    tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [3.6,9,10.8,3.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aether:enchanted_gravitite" // #forge:ingots/iron'
+    tier.toughness = 3 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:enchanted_gravitite_priest", tier => {
+    tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [3.6,9,10.8,3.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aether:enchanted_gravitite" // #forge:ingots/iron'
+    tier.toughness = 3 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:enchanted_gravitite_plagued", tier => {
+    tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [3.6,9,10.8,3.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
     tier.repairIngredient = "aether:enchanted_gravitite" // #forge:ingots/iron'
@@ -768,6 +1632,78 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:cincinnasite_pyromancer", tier => {
+    tier.durabilityMultiplier = 180 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [4.5,11.25,13.5,4.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "betternether:cincinnasite_ingot" // #forge:ingots/iron'
+    tier.toughness = 5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cincinnasite_cryomancer", tier => {
+    tier.durabilityMultiplier = 180 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [4.5,11.25,13.5,4.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "betternether:cincinnasite_ingot" // #forge:ingots/iron'
+    tier.toughness = 5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cincinnasite_electromancer", tier => {
+    tier.durabilityMultiplier = 180 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [4.5,11.25,13.5,4.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "betternether:cincinnasite_ingot" // #forge:ingots/iron'
+    tier.toughness = 5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cincinnasite_archevoker", tier => {
+    tier.durabilityMultiplier = 180 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [4.5,11.25,13.5,4.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "betternether:cincinnasite_ingot" // #forge:ingots/iron'
+    tier.toughness = 5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cincinnasite_cultist", tier => {
+    tier.durabilityMultiplier = 180 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [4.5,11.25,13.5,4.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "betternether:cincinnasite_ingot" // #forge:ingots/iron'
+    tier.toughness = 5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cincinnasite_shadowwalker", tier => {
+    tier.durabilityMultiplier = 180 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [4.5,11.25,13.5,4.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "betternether:cincinnasite_ingot" // #forge:ingots/iron'
+    tier.toughness = 5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cincinnasite_priest", tier => {
+    tier.durabilityMultiplier = 180 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [4.5,11.25,13.5,4.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "betternether:cincinnasite_ingot" // #forge:ingots/iron'
+    tier.toughness = 5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cincinnasite_plagued", tier => {
+    tier.durabilityMultiplier = 180 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [4.5,11.25,13.5,4.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "betternether:cincinnasite_ingot" // #forge:ingots/iron'
+    tier.toughness = 5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:cincinnasite_diamond", tier => {
     tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.8,17,20.4,6.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
@@ -798,6 +1734,78 @@ ItemEvents.armorTierRegistry(event => {
   event.add("zoomers_armory:cincinnasite_diamond_samurai_master", tier => {
     tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.8,17,20.4,6.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
+    tier.toughness = 6 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cincinnasite_diamond_pyromancer", tier => {
+    tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.1,12.75,15.3,5.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
+    tier.toughness = 6 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cincinnasite_diamond_cryomancer", tier => {
+    tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.1,12.75,15.3,5.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
+    tier.toughness = 6 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cincinnasite_diamond_electromancer", tier => {
+    tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.1,12.75,15.3,5.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
+    tier.toughness = 6 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cincinnasite_diamond_archevoker", tier => {
+    tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.1,12.75,15.3,5.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
+    tier.toughness = 6 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cincinnasite_diamond_cultist", tier => {
+    tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.1,12.75,15.3,5.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
+    tier.toughness = 6 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cincinnasite_diamond_shadowwalker", tier => {
+    tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.1,12.75,15.3,5.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
+    tier.toughness = 6 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cincinnasite_diamond_priest", tier => {
+    tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.1,12.75,15.3,5.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
+    tier.toughness = 6 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cincinnasite_diamond_plagued", tier => {
+    tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.1,12.75,15.3,5.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
     tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
@@ -840,6 +1848,78 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 7 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:nether_ruby_pyromancer", tier => {
+    tier.durabilityMultiplier = 196.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.5,13.75,16.5,5.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "betternether:nether_ruby" // #forge:ingots/iron'
+    tier.toughness = 7 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:nether_ruby_cryomancer", tier => {
+    tier.durabilityMultiplier = 196.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.5,13.75,16.5,5.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "betternether:nether_ruby" // #forge:ingots/iron'
+    tier.toughness = 7 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:nether_ruby_electromancer", tier => {
+    tier.durabilityMultiplier = 196.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.5,13.75,16.5,5.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "betternether:nether_ruby" // #forge:ingots/iron'
+    tier.toughness = 7 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:nether_ruby_archevoker", tier => {
+    tier.durabilityMultiplier = 196.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.5,13.75,16.5,5.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "betternether:nether_ruby" // #forge:ingots/iron'
+    tier.toughness = 7 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:nether_ruby_cultist", tier => {
+    tier.durabilityMultiplier = 196.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.5,13.75,16.5,5.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "betternether:nether_ruby" // #forge:ingots/iron'
+    tier.toughness = 7 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:nether_ruby_shadowwalker", tier => {
+    tier.durabilityMultiplier = 196.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.5,13.75,16.5,5.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "betternether:nether_ruby" // #forge:ingots/iron'
+    tier.toughness = 7 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:nether_ruby_priest", tier => {
+    tier.durabilityMultiplier = 196.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.5,13.75,16.5,5.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "betternether:nether_ruby" // #forge:ingots/iron'
+    tier.toughness = 7 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:nether_ruby_plagued", tier => {
+    tier.durabilityMultiplier = 196.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.5,13.75,16.5,5.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "betternether:nether_ruby" // #forge:ingots/iron'
+    tier.toughness = 7 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:flaming_ruby", tier => {
     tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [7.866666666666666,19.666666666666668,23.6,7.866666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
@@ -870,6 +1950,78 @@ ItemEvents.armorTierRegistry(event => {
   event.add("zoomers_armory:flaming_ruby_samurai_master", tier => {
     tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [7.866666666666666,19.666666666666668,23.6,7.866666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:sculk_catalyst" // #forge:ingots/iron'
+    tier.toughness = 7 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:flaming_ruby_pyromancer", tier => {
+    tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.9,14.75,17.7,5.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:sculk_catalyst" // #forge:ingots/iron'
+    tier.toughness = 7 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:flaming_ruby_cryomancer", tier => {
+    tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.9,14.75,17.7,5.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:sculk_catalyst" // #forge:ingots/iron'
+    tier.toughness = 7 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:flaming_ruby_electromancer", tier => {
+    tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.9,14.75,17.7,5.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:sculk_catalyst" // #forge:ingots/iron'
+    tier.toughness = 7 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:flaming_ruby_archevoker", tier => {
+    tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.9,14.75,17.7,5.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:sculk_catalyst" // #forge:ingots/iron'
+    tier.toughness = 7 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:flaming_ruby_cultist", tier => {
+    tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.9,14.75,17.7,5.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:sculk_catalyst" // #forge:ingots/iron'
+    tier.toughness = 7 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:flaming_ruby_shadowwalker", tier => {
+    tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.9,14.75,17.7,5.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:sculk_catalyst" // #forge:ingots/iron'
+    tier.toughness = 7 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:flaming_ruby_priest", tier => {
+    tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.9,14.75,17.7,5.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:sculk_catalyst" // #forge:ingots/iron'
+    tier.toughness = 7 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:flaming_ruby_plagued", tier => {
+    tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.9,14.75,17.7,5.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
     tier.repairIngredient = "minecraft:sculk_catalyst" // #forge:ingots/iron'
@@ -912,6 +2064,78 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 8 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:netherite_pyromancer", tier => {
+    tier.durabilityMultiplier = 206.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:netherite_ingot" // #forge:ingots/iron'
+    tier.toughness = 8 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:netherite_cryomancer", tier => {
+    tier.durabilityMultiplier = 206.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:netherite_ingot" // #forge:ingots/iron'
+    tier.toughness = 8 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:netherite_electromancer", tier => {
+    tier.durabilityMultiplier = 206.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:netherite_ingot" // #forge:ingots/iron'
+    tier.toughness = 8 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:netherite_archevoker", tier => {
+    tier.durabilityMultiplier = 206.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:netherite_ingot" // #forge:ingots/iron'
+    tier.toughness = 8 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:netherite_cultist", tier => {
+    tier.durabilityMultiplier = 206.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:netherite_ingot" // #forge:ingots/iron'
+    tier.toughness = 8 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:netherite_shadowwalker", tier => {
+    tier.durabilityMultiplier = 206.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:netherite_ingot" // #forge:ingots/iron'
+    tier.toughness = 8 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:netherite_priest", tier => {
+    tier.durabilityMultiplier = 206.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:netherite_ingot" // #forge:ingots/iron'
+    tier.toughness = 8 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:netherite_plagued", tier => {
+    tier.durabilityMultiplier = 206.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:netherite_ingot" // #forge:ingots/iron'
+    tier.toughness = 8 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:cloggrum", tier => {
     tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.4,21,25.2,8.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
@@ -942,6 +2166,78 @@ ItemEvents.armorTierRegistry(event => {
   event.add("zoomers_armory:cloggrum_samurai_master", tier => {
     tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.4,21,25.2,8.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:cloggrum_ingot" // #forge:ingots/iron'
+    tier.toughness = 9 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cloggrum_pyromancer", tier => {
+    tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:cloggrum_ingot" // #forge:ingots/iron'
+    tier.toughness = 9 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cloggrum_cryomancer", tier => {
+    tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:cloggrum_ingot" // #forge:ingots/iron'
+    tier.toughness = 9 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cloggrum_electromancer", tier => {
+    tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:cloggrum_ingot" // #forge:ingots/iron'
+    tier.toughness = 9 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cloggrum_archevoker", tier => {
+    tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:cloggrum_ingot" // #forge:ingots/iron'
+    tier.toughness = 9 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cloggrum_cultist", tier => {
+    tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:cloggrum_ingot" // #forge:ingots/iron'
+    tier.toughness = 9 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cloggrum_shadowwalker", tier => {
+    tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:cloggrum_ingot" // #forge:ingots/iron'
+    tier.toughness = 9 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cloggrum_priest", tier => {
+    tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:cloggrum_ingot" // #forge:ingots/iron'
+    tier.toughness = 9 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cloggrum_plagued", tier => {
+    tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
     tier.repairIngredient = "undergarden:cloggrum_ingot" // #forge:ingots/iron'
@@ -984,6 +2280,78 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 9 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:froststeel_pyromancer", tier => {
+    tier.durabilityMultiplier = 233.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.6,16.5,19.8,6.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:froststeel_ingot" // #forge:ingots/iron'
+    tier.toughness = 9 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:froststeel_cryomancer", tier => {
+    tier.durabilityMultiplier = 233.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.6,16.5,19.8,6.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:froststeel_ingot" // #forge:ingots/iron'
+    tier.toughness = 9 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:froststeel_electromancer", tier => {
+    tier.durabilityMultiplier = 233.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.6,16.5,19.8,6.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:froststeel_ingot" // #forge:ingots/iron'
+    tier.toughness = 9 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:froststeel_archevoker", tier => {
+    tier.durabilityMultiplier = 233.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.6,16.5,19.8,6.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:froststeel_ingot" // #forge:ingots/iron'
+    tier.toughness = 9 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:froststeel_cultist", tier => {
+    tier.durabilityMultiplier = 233.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.6,16.5,19.8,6.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:froststeel_ingot" // #forge:ingots/iron'
+    tier.toughness = 9 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:froststeel_shadowwalker", tier => {
+    tier.durabilityMultiplier = 233.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.6,16.5,19.8,6.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:froststeel_ingot" // #forge:ingots/iron'
+    tier.toughness = 9 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:froststeel_priest", tier => {
+    tier.durabilityMultiplier = 233.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.6,16.5,19.8,6.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:froststeel_ingot" // #forge:ingots/iron'
+    tier.toughness = 9 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:froststeel_plagued", tier => {
+    tier.durabilityMultiplier = 233.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.6,16.5,19.8,6.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:froststeel_ingot" // #forge:ingots/iron'
+    tier.toughness = 9 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:utherium", tier => {
     tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [11.066666666666666,27.666666666666668,33.2,11.066666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
@@ -1014,6 +2382,78 @@ ItemEvents.armorTierRegistry(event => {
   event.add("zoomers_armory:utherium_samurai_master", tier => {
     tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [11.066666666666666,27.666666666666668,33.2,11.066666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:utherium_crystal" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:utherium_pyromancer", tier => {
+    tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [8.3,20.75,24.9,8.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:utherium_crystal" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:utherium_cryomancer", tier => {
+    tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [8.3,20.75,24.9,8.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:utherium_crystal" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:utherium_electromancer", tier => {
+    tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [8.3,20.75,24.9,8.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:utherium_crystal" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:utherium_archevoker", tier => {
+    tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [8.3,20.75,24.9,8.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:utherium_crystal" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:utherium_cultist", tier => {
+    tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [8.3,20.75,24.9,8.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:utherium_crystal" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:utherium_shadowwalker", tier => {
+    tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [8.3,20.75,24.9,8.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:utherium_crystal" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:utherium_priest", tier => {
+    tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [8.3,20.75,24.9,8.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:utherium_crystal" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:utherium_plagued", tier => {
+    tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [8.3,20.75,24.9,8.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
     tier.repairIngredient = "undergarden:utherium_crystal" // #forge:ingots/iron'
@@ -1056,6 +2496,78 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 10 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:forgotten_pyromancer", tier => {
+    tier.durabilityMultiplier = 273.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [9.5,23.75,28.5,9.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:forgotten_ingot" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:forgotten_cryomancer", tier => {
+    tier.durabilityMultiplier = 273.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [9.5,23.75,28.5,9.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:forgotten_ingot" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:forgotten_electromancer", tier => {
+    tier.durabilityMultiplier = 273.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [9.5,23.75,28.5,9.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:forgotten_ingot" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:forgotten_archevoker", tier => {
+    tier.durabilityMultiplier = 273.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [9.5,23.75,28.5,9.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:forgotten_ingot" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:forgotten_cultist", tier => {
+    tier.durabilityMultiplier = 273.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [9.5,23.75,28.5,9.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:forgotten_ingot" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:forgotten_shadowwalker", tier => {
+    tier.durabilityMultiplier = 273.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [9.5,23.75,28.5,9.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:forgotten_ingot" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:forgotten_priest", tier => {
+    tier.durabilityMultiplier = 273.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [9.5,23.75,28.5,9.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:forgotten_ingot" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:forgotten_plagued", tier => {
+    tier.durabilityMultiplier = 273.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [9.5,23.75,28.5,9.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:forgotten_ingot" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:jade", tier => {
     tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [11.333333333333334,28.333333333333332,34,11.333333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
@@ -1086,6 +2598,78 @@ ItemEvents.armorTierRegistry(event => {
   event.add("zoomers_armory:jade_samurai_master", tier => {
     tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [11.333333333333334,28.333333333333332,34,11.333333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "call_of_yucutan:jade" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:jade_pyromancer", tier => {
+    tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [8.5,21.25,25.5,8.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "call_of_yucutan:jade" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:jade_cryomancer", tier => {
+    tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [8.5,21.25,25.5,8.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "call_of_yucutan:jade" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:jade_electromancer", tier => {
+    tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [8.5,21.25,25.5,8.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "call_of_yucutan:jade" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:jade_archevoker", tier => {
+    tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [8.5,21.25,25.5,8.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "call_of_yucutan:jade" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:jade_cultist", tier => {
+    tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [8.5,21.25,25.5,8.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "call_of_yucutan:jade" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:jade_shadowwalker", tier => {
+    tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [8.5,21.25,25.5,8.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "call_of_yucutan:jade" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:jade_priest", tier => {
+    tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [8.5,21.25,25.5,8.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "call_of_yucutan:jade" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:jade_plagued", tier => {
+    tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [8.5,21.25,25.5,8.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
     tier.repairIngredient = "call_of_yucutan:jade" // #forge:ingots/iron'
@@ -1128,6 +2712,78 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 10 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:crystalline_pyromancer", tier => {
+    tier.durabilityMultiplier = 306.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [10.5,26.25,31.5,10.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "phantasm:crystal_block" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:crystalline_cryomancer", tier => {
+    tier.durabilityMultiplier = 306.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [10.5,26.25,31.5,10.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "phantasm:crystal_block" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:crystalline_electromancer", tier => {
+    tier.durabilityMultiplier = 306.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [10.5,26.25,31.5,10.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "phantasm:crystal_block" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:crystalline_archevoker", tier => {
+    tier.durabilityMultiplier = 306.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [10.5,26.25,31.5,10.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "phantasm:crystal_block" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:crystalline_cultist", tier => {
+    tier.durabilityMultiplier = 306.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [10.5,26.25,31.5,10.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "phantasm:crystal_block" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:crystalline_shadowwalker", tier => {
+    tier.durabilityMultiplier = 306.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [10.5,26.25,31.5,10.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "phantasm:crystal_block" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:crystalline_priest", tier => {
+    tier.durabilityMultiplier = 306.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [10.5,26.25,31.5,10.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "phantasm:crystal_block" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:crystalline_plagued", tier => {
+    tier.durabilityMultiplier = 306.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [10.5,26.25,31.5,10.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "phantasm:crystal_block" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:dragon", tier => {
     tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [16,40,48,16] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
@@ -1158,6 +2814,78 @@ ItemEvents.armorTierRegistry(event => {
   event.add("zoomers_armory:dragon_samurai_master", tier => {
     tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [16,40,48,16] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "ender_dragon_loot_:dragon_scale" // #forge:ingots/iron'
+    tier.toughness = 11 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:dragon_pyromancer", tier => {
+    tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [12,30,36,12] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "ender_dragon_loot_:dragon_scale" // #forge:ingots/iron'
+    tier.toughness = 11 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:dragon_cryomancer", tier => {
+    tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [12,30,36,12] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "ender_dragon_loot_:dragon_scale" // #forge:ingots/iron'
+    tier.toughness = 11 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:dragon_electromancer", tier => {
+    tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [12,30,36,12] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "ender_dragon_loot_:dragon_scale" // #forge:ingots/iron'
+    tier.toughness = 11 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:dragon_archevoker", tier => {
+    tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [12,30,36,12] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "ender_dragon_loot_:dragon_scale" // #forge:ingots/iron'
+    tier.toughness = 11 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:dragon_cultist", tier => {
+    tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [12,30,36,12] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "ender_dragon_loot_:dragon_scale" // #forge:ingots/iron'
+    tier.toughness = 11 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:dragon_shadowwalker", tier => {
+    tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [12,30,36,12] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "ender_dragon_loot_:dragon_scale" // #forge:ingots/iron'
+    tier.toughness = 11 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:dragon_priest", tier => {
+    tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [12,30,36,12] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "ender_dragon_loot_:dragon_scale" // #forge:ingots/iron'
+    tier.toughness = 11 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:dragon_plagued", tier => {
+    tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [12,30,36,12] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
     tier.repairIngredient = "ender_dragon_loot_:dragon_scale" // #forge:ingots/iron'
@@ -1200,6 +2928,78 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 12 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:enderite_pyromancer", tier => {
+    tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [21.2,53,63.6,21.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "enderitemod:enderite_ingot" // #forge:ingots/iron'
+    tier.toughness = 12 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:enderite_cryomancer", tier => {
+    tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [21.2,53,63.6,21.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "enderitemod:enderite_ingot" // #forge:ingots/iron'
+    tier.toughness = 12 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:enderite_electromancer", tier => {
+    tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [21.2,53,63.6,21.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "enderitemod:enderite_ingot" // #forge:ingots/iron'
+    tier.toughness = 12 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:enderite_archevoker", tier => {
+    tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [21.2,53,63.6,21.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "enderitemod:enderite_ingot" // #forge:ingots/iron'
+    tier.toughness = 12 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:enderite_cultist", tier => {
+    tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [21.2,53,63.6,21.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "enderitemod:enderite_ingot" // #forge:ingots/iron'
+    tier.toughness = 12 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:enderite_shadowwalker", tier => {
+    tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [21.2,53,63.6,21.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "enderitemod:enderite_ingot" // #forge:ingots/iron'
+    tier.toughness = 12 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:enderite_priest", tier => {
+    tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [21.2,53,63.6,21.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "enderitemod:enderite_ingot" // #forge:ingots/iron'
+    tier.toughness = 12 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:enderite_plagued", tier => {
+    tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [21.2,53,63.6,21.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "enderitemod:enderite_ingot" // #forge:ingots/iron'
+    tier.toughness = 12 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:immemorial", tier => {
     tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [26.666666666666668,66.66666666666667,80,26.666666666666668] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
@@ -1230,6 +3030,78 @@ ItemEvents.armorTierRegistry(event => {
   event.add("zoomers_armory:immemorial_samurai_master", tier => {
     tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [26.666666666666668,66.66666666666667,80,26.666666666666668] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "callfromthedepth_:immemorialingot" // #forge:ingots/iron'
+    tier.toughness = 13 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:immemorial_pyromancer", tier => {
+    tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [20,50,60,20] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "callfromthedepth_:immemorialingot" // #forge:ingots/iron'
+    tier.toughness = 13 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:immemorial_cryomancer", tier => {
+    tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [20,50,60,20] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "callfromthedepth_:immemorialingot" // #forge:ingots/iron'
+    tier.toughness = 13 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:immemorial_electromancer", tier => {
+    tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [20,50,60,20] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "callfromthedepth_:immemorialingot" // #forge:ingots/iron'
+    tier.toughness = 13 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:immemorial_archevoker", tier => {
+    tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [20,50,60,20] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "callfromthedepth_:immemorialingot" // #forge:ingots/iron'
+    tier.toughness = 13 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:immemorial_cultist", tier => {
+    tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [20,50,60,20] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "callfromthedepth_:immemorialingot" // #forge:ingots/iron'
+    tier.toughness = 13 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:immemorial_shadowwalker", tier => {
+    tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [20,50,60,20] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "callfromthedepth_:immemorialingot" // #forge:ingots/iron'
+    tier.toughness = 13 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:immemorial_priest", tier => {
+    tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [20,50,60,20] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "callfromthedepth_:immemorialingot" // #forge:ingots/iron'
+    tier.toughness = 13 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:immemorial_plagued", tier => {
+    tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [20,50,60,20] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
     tier.repairIngredient = "callfromthedepth_:immemorialingot" // #forge:ingots/iron'
@@ -1272,6 +3144,78 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 13 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:soul_pyromancer", tier => {
+    tier.durabilityMultiplier = 400 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [26,65,78,26] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "callfromthedepth_:soulingot" // #forge:ingots/iron'
+    tier.toughness = 13 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:soul_cryomancer", tier => {
+    tier.durabilityMultiplier = 400 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [26,65,78,26] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "callfromthedepth_:soulingot" // #forge:ingots/iron'
+    tier.toughness = 13 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:soul_electromancer", tier => {
+    tier.durabilityMultiplier = 400 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [26,65,78,26] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "callfromthedepth_:soulingot" // #forge:ingots/iron'
+    tier.toughness = 13 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:soul_archevoker", tier => {
+    tier.durabilityMultiplier = 400 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [26,65,78,26] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "callfromthedepth_:soulingot" // #forge:ingots/iron'
+    tier.toughness = 13 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:soul_cultist", tier => {
+    tier.durabilityMultiplier = 400 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [26,65,78,26] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "callfromthedepth_:soulingot" // #forge:ingots/iron'
+    tier.toughness = 13 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:soul_shadowwalker", tier => {
+    tier.durabilityMultiplier = 400 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [26,65,78,26] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "callfromthedepth_:soulingot" // #forge:ingots/iron'
+    tier.toughness = 13 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:soul_priest", tier => {
+    tier.durabilityMultiplier = 400 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [26,65,78,26] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "callfromthedepth_:soulingot" // #forge:ingots/iron'
+    tier.toughness = 13 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:soul_plagued", tier => {
+    tier.durabilityMultiplier = 400 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [26,65,78,26] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "callfromthedepth_:soulingot" // #forge:ingots/iron'
+    tier.toughness = 13 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:fixed_bone", tier => {
     tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [39.86666666666667,99.66666666666667,119.6,39.86666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
@@ -1302,6 +3246,78 @@ ItemEvents.armorTierRegistry(event => {
   event.add("zoomers_armory:fixed_bone_samurai_master", tier => {
     tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [39.86666666666667,99.66666666666667,119.6,39.86666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
+    tier.toughness = 13.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:fixed_bone_pyromancer", tier => {
+    tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [29.9,74.75,89.7,29.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
+    tier.toughness = 13.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:fixed_bone_cryomancer", tier => {
+    tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [29.9,74.75,89.7,29.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
+    tier.toughness = 13.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:fixed_bone_electromancer", tier => {
+    tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [29.9,74.75,89.7,29.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
+    tier.toughness = 13.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:fixed_bone_archevoker", tier => {
+    tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [29.9,74.75,89.7,29.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
+    tier.toughness = 13.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:fixed_bone_cultist", tier => {
+    tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [29.9,74.75,89.7,29.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
+    tier.toughness = 13.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:fixed_bone_shadowwalker", tier => {
+    tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [29.9,74.75,89.7,29.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
+    tier.toughness = 13.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:fixed_bone_priest", tier => {
+    tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [29.9,74.75,89.7,29.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
+    tier.toughness = 13.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:fixed_bone_plagued", tier => {
+    tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [29.9,74.75,89.7,29.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
     tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
@@ -1344,6 +3360,78 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 14 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:fusion_pyromancer", tier => {
+    tier.durabilityMultiplier = 416.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [22.3,55.75,66.9,22.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fusion_ingot" // #forge:ingots/iron'
+    tier.toughness = 14 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:fusion_cryomancer", tier => {
+    tier.durabilityMultiplier = 416.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [22.3,55.75,66.9,22.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fusion_ingot" // #forge:ingots/iron'
+    tier.toughness = 14 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:fusion_electromancer", tier => {
+    tier.durabilityMultiplier = 416.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [22.3,55.75,66.9,22.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fusion_ingot" // #forge:ingots/iron'
+    tier.toughness = 14 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:fusion_archevoker", tier => {
+    tier.durabilityMultiplier = 416.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [22.3,55.75,66.9,22.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fusion_ingot" // #forge:ingots/iron'
+    tier.toughness = 14 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:fusion_cultist", tier => {
+    tier.durabilityMultiplier = 416.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [22.3,55.75,66.9,22.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fusion_ingot" // #forge:ingots/iron'
+    tier.toughness = 14 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:fusion_shadowwalker", tier => {
+    tier.durabilityMultiplier = 416.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [22.3,55.75,66.9,22.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fusion_ingot" // #forge:ingots/iron'
+    tier.toughness = 14 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:fusion_priest", tier => {
+    tier.durabilityMultiplier = 416.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [22.3,55.75,66.9,22.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fusion_ingot" // #forge:ingots/iron'
+    tier.toughness = 14 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:fusion_plagued", tier => {
+    tier.durabilityMultiplier = 416.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [22.3,55.75,66.9,22.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fusion_ingot" // #forge:ingots/iron'
+    tier.toughness = 14 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:aberythe", tier => {
     tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [45.46666666666667,113.66666666666667,136.4,45.46666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
@@ -1374,6 +3462,78 @@ ItemEvents.armorTierRegistry(event => {
   event.add("zoomers_armory:aberythe_samurai_master", tier => {
     tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [45.46666666666667,113.66666666666667,136.4,45.46666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:aberythe_gem" // #forge:ingots/iron'
+    tier.toughness = 15 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:aberythe_pyromancer", tier => {
+    tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [34.1,85.25,102.3,34.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:aberythe_gem" // #forge:ingots/iron'
+    tier.toughness = 15 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:aberythe_cryomancer", tier => {
+    tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [34.1,85.25,102.3,34.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:aberythe_gem" // #forge:ingots/iron'
+    tier.toughness = 15 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:aberythe_electromancer", tier => {
+    tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [34.1,85.25,102.3,34.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:aberythe_gem" // #forge:ingots/iron'
+    tier.toughness = 15 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:aberythe_archevoker", tier => {
+    tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [34.1,85.25,102.3,34.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:aberythe_gem" // #forge:ingots/iron'
+    tier.toughness = 15 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:aberythe_cultist", tier => {
+    tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [34.1,85.25,102.3,34.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:aberythe_gem" // #forge:ingots/iron'
+    tier.toughness = 15 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:aberythe_shadowwalker", tier => {
+    tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [34.1,85.25,102.3,34.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:aberythe_gem" // #forge:ingots/iron'
+    tier.toughness = 15 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:aberythe_priest", tier => {
+    tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [34.1,85.25,102.3,34.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:aberythe_gem" // #forge:ingots/iron'
+    tier.toughness = 15 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:aberythe_plagued", tier => {
+    tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [34.1,85.25,102.3,34.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
     tier.repairIngredient = "theabyss:aberythe_gem" // #forge:ingots/iron'
@@ -1416,6 +3576,78 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 14 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:ignisithe_pyromancer", tier => {
+    tier.durabilityMultiplier = 450 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [42,105,126,42] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:ignisithe_gem" // #forge:ingots/iron'
+    tier.toughness = 14 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:ignisithe_cryomancer", tier => {
+    tier.durabilityMultiplier = 450 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [42,105,126,42] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:ignisithe_gem" // #forge:ingots/iron'
+    tier.toughness = 14 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:ignisithe_electromancer", tier => {
+    tier.durabilityMultiplier = 450 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [42,105,126,42] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:ignisithe_gem" // #forge:ingots/iron'
+    tier.toughness = 14 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:ignisithe_archevoker", tier => {
+    tier.durabilityMultiplier = 450 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [42,105,126,42] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:ignisithe_gem" // #forge:ingots/iron'
+    tier.toughness = 14 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:ignisithe_cultist", tier => {
+    tier.durabilityMultiplier = 450 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [42,105,126,42] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:ignisithe_gem" // #forge:ingots/iron'
+    tier.toughness = 14 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:ignisithe_shadowwalker", tier => {
+    tier.durabilityMultiplier = 450 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [42,105,126,42] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:ignisithe_gem" // #forge:ingots/iron'
+    tier.toughness = 14 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:ignisithe_priest", tier => {
+    tier.durabilityMultiplier = 450 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [42,105,126,42] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:ignisithe_gem" // #forge:ingots/iron'
+    tier.toughness = 14 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:ignisithe_plagued", tier => {
+    tier.durabilityMultiplier = 450 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [42,105,126,42] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:ignisithe_gem" // #forge:ingots/iron'
+    tier.toughness = 14 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:knight", tier => {
     tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [50.13333333333333,125.33333333333333,150.4,50.13333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
@@ -1446,6 +3678,78 @@ ItemEvents.armorTierRegistry(event => {
   event.add("zoomers_armory:knight_samurai_master", tier => {
     tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [50.13333333333333,125.33333333333333,150.4,50.13333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
+    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:knight_pyromancer", tier => {
+    tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [37.6,94,112.8,37.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
+    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:knight_cryomancer", tier => {
+    tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [37.6,94,112.8,37.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
+    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:knight_electromancer", tier => {
+    tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [37.6,94,112.8,37.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
+    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:knight_archevoker", tier => {
+    tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [37.6,94,112.8,37.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
+    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:knight_cultist", tier => {
+    tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [37.6,94,112.8,37.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
+    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:knight_shadowwalker", tier => {
+    tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [37.6,94,112.8,37.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
+    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:knight_priest", tier => {
+    tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [37.6,94,112.8,37.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
+    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:knight_plagued", tier => {
+    tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [37.6,94,112.8,37.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
     tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
@@ -1488,6 +3792,78 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:glacerythe_pyromancer", tier => {
+    tier.durabilityMultiplier = 466.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [45.9,114.75,137.7,45.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:glacerythe_gem" // #forge:ingots/iron'
+    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:glacerythe_cryomancer", tier => {
+    tier.durabilityMultiplier = 466.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [45.9,114.75,137.7,45.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:glacerythe_gem" // #forge:ingots/iron'
+    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:glacerythe_electromancer", tier => {
+    tier.durabilityMultiplier = 466.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [45.9,114.75,137.7,45.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:glacerythe_gem" // #forge:ingots/iron'
+    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:glacerythe_archevoker", tier => {
+    tier.durabilityMultiplier = 466.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [45.9,114.75,137.7,45.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:glacerythe_gem" // #forge:ingots/iron'
+    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:glacerythe_cultist", tier => {
+    tier.durabilityMultiplier = 466.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [45.9,114.75,137.7,45.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:glacerythe_gem" // #forge:ingots/iron'
+    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:glacerythe_shadowwalker", tier => {
+    tier.durabilityMultiplier = 466.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [45.9,114.75,137.7,45.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:glacerythe_gem" // #forge:ingots/iron'
+    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:glacerythe_priest", tier => {
+    tier.durabilityMultiplier = 466.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [45.9,114.75,137.7,45.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:glacerythe_gem" // #forge:ingots/iron'
+    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:glacerythe_plagued", tier => {
+    tier.durabilityMultiplier = 466.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [45.9,114.75,137.7,45.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:glacerythe_gem" // #forge:ingots/iron'
+    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:garnite", tier => {
     tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [66.93333333333334,167.33333333333334,200.8,66.93333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
@@ -1518,6 +3894,78 @@ ItemEvents.armorTierRegistry(event => {
   event.add("zoomers_armory:garnite_samurai_master", tier => {
     tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [66.93333333333334,167.33333333333334,200.8,66.93333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:garnite_ingot" // #forge:ingots/iron'
+    tier.toughness = 15 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:garnite_pyromancer", tier => {
+    tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [50.2,125.5,150.6,50.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:garnite_ingot" // #forge:ingots/iron'
+    tier.toughness = 15 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:garnite_cryomancer", tier => {
+    tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [50.2,125.5,150.6,50.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:garnite_ingot" // #forge:ingots/iron'
+    tier.toughness = 15 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:garnite_electromancer", tier => {
+    tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [50.2,125.5,150.6,50.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:garnite_ingot" // #forge:ingots/iron'
+    tier.toughness = 15 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:garnite_archevoker", tier => {
+    tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [50.2,125.5,150.6,50.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:garnite_ingot" // #forge:ingots/iron'
+    tier.toughness = 15 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:garnite_cultist", tier => {
+    tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [50.2,125.5,150.6,50.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:garnite_ingot" // #forge:ingots/iron'
+    tier.toughness = 15 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:garnite_shadowwalker", tier => {
+    tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [50.2,125.5,150.6,50.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:garnite_ingot" // #forge:ingots/iron'
+    tier.toughness = 15 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:garnite_priest", tier => {
+    tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [50.2,125.5,150.6,50.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:garnite_ingot" // #forge:ingots/iron'
+    tier.toughness = 15 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:garnite_plagued", tier => {
+    tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [50.2,125.5,150.6,50.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
     tier.repairIngredient = "theabyss:garnite_ingot" // #forge:ingots/iron'
@@ -1560,6 +4008,78 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 16 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:phantom_pyromancer", tier => {
+    tier.durabilityMultiplier = 500 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [54.3,135.75,162.9,54.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:phantom_ingot" // #forge:ingots/iron'
+    tier.toughness = 16 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:phantom_cryomancer", tier => {
+    tier.durabilityMultiplier = 500 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [54.3,135.75,162.9,54.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:phantom_ingot" // #forge:ingots/iron'
+    tier.toughness = 16 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:phantom_electromancer", tier => {
+    tier.durabilityMultiplier = 500 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [54.3,135.75,162.9,54.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:phantom_ingot" // #forge:ingots/iron'
+    tier.toughness = 16 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:phantom_archevoker", tier => {
+    tier.durabilityMultiplier = 500 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [54.3,135.75,162.9,54.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:phantom_ingot" // #forge:ingots/iron'
+    tier.toughness = 16 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:phantom_cultist", tier => {
+    tier.durabilityMultiplier = 500 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [54.3,135.75,162.9,54.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:phantom_ingot" // #forge:ingots/iron'
+    tier.toughness = 16 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:phantom_shadowwalker", tier => {
+    tier.durabilityMultiplier = 500 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [54.3,135.75,162.9,54.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:phantom_ingot" // #forge:ingots/iron'
+    tier.toughness = 16 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:phantom_priest", tier => {
+    tier.durabilityMultiplier = 500 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [54.3,135.75,162.9,54.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:phantom_ingot" // #forge:ingots/iron'
+    tier.toughness = 16 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:phantom_plagued", tier => {
+    tier.durabilityMultiplier = 500 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [54.3,135.75,162.9,54.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:phantom_ingot" // #forge:ingots/iron'
+    tier.toughness = 16 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:unorithe", tier => {
     tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [78.13333333333334,195.33333333333334,234.4,78.13333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
@@ -1590,6 +4110,78 @@ ItemEvents.armorTierRegistry(event => {
   event.add("zoomers_armory:unorithe_samurai_master", tier => {
     tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [78.13333333333334,195.33333333333334,234.4,78.13333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:unorithe_ingot" // #forge:ingots/iron'
+    tier.toughness = 17 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:unorithe_pyromancer", tier => {
+    tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [58.6,146.5,175.8,58.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:unorithe_ingot" // #forge:ingots/iron'
+    tier.toughness = 17 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:unorithe_cryomancer", tier => {
+    tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [58.6,146.5,175.8,58.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:unorithe_ingot" // #forge:ingots/iron'
+    tier.toughness = 17 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:unorithe_electromancer", tier => {
+    tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [58.6,146.5,175.8,58.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:unorithe_ingot" // #forge:ingots/iron'
+    tier.toughness = 17 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:unorithe_archevoker", tier => {
+    tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [58.6,146.5,175.8,58.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:unorithe_ingot" // #forge:ingots/iron'
+    tier.toughness = 17 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:unorithe_cultist", tier => {
+    tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [58.6,146.5,175.8,58.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:unorithe_ingot" // #forge:ingots/iron'
+    tier.toughness = 17 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:unorithe_shadowwalker", tier => {
+    tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [58.6,146.5,175.8,58.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:unorithe_ingot" // #forge:ingots/iron'
+    tier.toughness = 17 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:unorithe_priest", tier => {
+    tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [58.6,146.5,175.8,58.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:unorithe_ingot" // #forge:ingots/iron'
+    tier.toughness = 17 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:unorithe_plagued", tier => {
+    tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [58.6,146.5,175.8,58.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
     tier.repairIngredient = "theabyss:unorithe_ingot" // #forge:ingots/iron'
@@ -1632,6 +4224,78 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 18 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:incorythe_pyromancer", tier => {
+    tier.durabilityMultiplier = 533.3333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [64.5,161.25,193.5,64.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:incorythe_gem" // #forge:ingots/iron'
+    tier.toughness = 18 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:incorythe_cryomancer", tier => {
+    tier.durabilityMultiplier = 533.3333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [64.5,161.25,193.5,64.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:incorythe_gem" // #forge:ingots/iron'
+    tier.toughness = 18 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:incorythe_electromancer", tier => {
+    tier.durabilityMultiplier = 533.3333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [64.5,161.25,193.5,64.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:incorythe_gem" // #forge:ingots/iron'
+    tier.toughness = 18 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:incorythe_archevoker", tier => {
+    tier.durabilityMultiplier = 533.3333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [64.5,161.25,193.5,64.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:incorythe_gem" // #forge:ingots/iron'
+    tier.toughness = 18 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:incorythe_cultist", tier => {
+    tier.durabilityMultiplier = 533.3333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [64.5,161.25,193.5,64.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:incorythe_gem" // #forge:ingots/iron'
+    tier.toughness = 18 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:incorythe_shadowwalker", tier => {
+    tier.durabilityMultiplier = 533.3333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [64.5,161.25,193.5,64.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:incorythe_gem" // #forge:ingots/iron'
+    tier.toughness = 18 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:incorythe_priest", tier => {
+    tier.durabilityMultiplier = 533.3333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [64.5,161.25,193.5,64.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:incorythe_gem" // #forge:ingots/iron'
+    tier.toughness = 18 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:incorythe_plagued", tier => {
+    tier.durabilityMultiplier = 533.3333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [64.5,161.25,193.5,64.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:incorythe_gem" // #forge:ingots/iron'
+    tier.toughness = 18 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
+  });
 });
 
 
@@ -1648,6 +4312,8 @@ e.create("zoomers_armory:flint_battleaxe", "sword").displayName("Flint Battleaxe
 e.create("zoomers_armory:flint_spear", "sword").displayName("Flint Spear").maxDamage(120)
 e.create("zoomers_armory:flint_halberd", "sword").displayName("Flint Halberd").maxDamage(85)
 e.create("zoomers_armory:flint_scythe", "sword").displayName("Flint Scythe").maxDamage(80)
+e.create("zoomers_armory:flint_katana", "sword").displayName("Flint Katana").maxDamage(120)
+e.create("zoomers_armory:flint_musashi", "sword").displayName("Flint Musashi").maxDamage(90)
 e.create("zoomers_armory:flint_arcane_staff", "irons_spells_js:staff").displayName("Flint Arcane Staff").maxDamage(100)
 e.create("zoomers_armory:flint_woodwind_staff", "irons_spells_js:staff").displayName("Flint Woodwind Staff").maxDamage(100)
 e.create("zoomers_armory:flint_fire_staff", "irons_spells_js:staff").displayName("Flint Fire Staff").maxDamage(100)
@@ -1675,6 +4341,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "flint_samurai", "zoomers_armor
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "flint_samurai_master", "zoomers_armory:flint_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flint_samurai_master"), "Flint Samurai Master Helmet", "Flint Samurai Master Chestplate", "Flint Samurai Master Leggings", "Flint Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "flint_pyromancer", "zoomers_armory:flint_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flint_pyromancer"), "Flint Pyromancer Hat", "Flint Pyromancer Robe", "Flint Pyromancer Leggings", "Flint Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/flint_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/flint_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/flint_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/flint_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "flint_cryomancer", "zoomers_armory:flint_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flint_cryomancer"), "Flint Cryomancer Hat", "Flint Cryomancer Robe", "Flint Cryomancer Leggings", "Flint Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/flint_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/flint_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/flint_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/flint_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "flint_electromancer", "zoomers_armory:flint_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flint_electromancer"), "Flint Electromancer Hat", "Flint Electromancer Robe", "Flint Electromancer Leggings", "Flint Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/flint_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/flint_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/flint_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/flint_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "flint_archevoker", "zoomers_armory:flint_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flint_archevoker"), "Flint Archevoker Hat", "Flint Archevoker Robe", "Flint Archevoker Leggings", "Flint Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/flint_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/flint_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/flint_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/flint_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "flint_cultist", "zoomers_armory:flint_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flint_cultist"), "Flint Cultist Hat", "Flint Cultist Robe", "Flint Cultist Leggings", "Flint Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/flint_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/flint_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/flint_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/flint_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "flint_shadowwalker", "zoomers_armory:flint_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flint_shadowwalker"), "Flint Shadowwalker Hat", "Flint Shadowwalker Robe", "Flint Shadowwalker Leggings", "Flint Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/flint_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/flint_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/flint_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/flint_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "flint_priest", "zoomers_armory:flint_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flint_priest"), "Flint Priest Hat", "Flint Priest Robe", "Flint Priest Leggings", "Flint Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/flint_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/flint_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/flint_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/flint_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "flint_plagued", "zoomers_armory:flint_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flint_plagued"), "Flint Plagued Hat", "Flint Plagued Robe", "Flint Plagued Leggings", "Flint Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/flint_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/flint_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/flint_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/flint_plagued_armor.png");
 e.create("zoomers_armory:iron_claws", "sword").displayName("Iron Claws").maxDamage(325)
 e.create("zoomers_armory:iron_dagger", "sword").displayName("Iron Dagger").maxDamage(375)
 e.create("zoomers_armory:iron_shortsword", "sword").displayName("Iron Shortsword").maxDamage(300)
@@ -1687,6 +4369,8 @@ e.create("zoomers_armory:iron_battleaxe", "sword").displayName("Iron Battleaxe")
 e.create("zoomers_armory:iron_spear", "sword").displayName("Iron Spear").maxDamage(300)
 e.create("zoomers_armory:iron_halberd", "sword").displayName("Iron Halberd").maxDamage(212.5)
 e.create("zoomers_armory:iron_scythe", "sword").displayName("Iron Scythe").maxDamage(200)
+e.create("zoomers_armory:iron_katana", "sword").displayName("Iron Katana").maxDamage(300)
+e.create("zoomers_armory:iron_musashi", "sword").displayName("Iron Musashi").maxDamage(225)
 e.create("zoomers_armory:iron_arcane_staff", "irons_spells_js:staff").displayName("Iron Arcane Staff").maxDamage(250)
 e.create("zoomers_armory:iron_woodwind_staff", "irons_spells_js:staff").displayName("Iron Woodwind Staff").maxDamage(250)
 e.create("zoomers_armory:iron_fire_staff", "irons_spells_js:staff").displayName("Iron Fire Staff").maxDamage(250)
@@ -1710,6 +4394,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "iron_samurai", "zoomers_armory
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "iron_samurai_master", "zoomers_armory:iron_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:iron_samurai_master"), "Iron Samurai Master Helmet", "Iron Samurai Master Chestplate", "Iron Samurai Master Leggings", "Iron Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "iron_pyromancer", "zoomers_armory:iron_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:iron_pyromancer"), "Iron Pyromancer Hat", "Iron Pyromancer Robe", "Iron Pyromancer Leggings", "Iron Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/iron_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/iron_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/iron_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/iron_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "iron_cryomancer", "zoomers_armory:iron_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:iron_cryomancer"), "Iron Cryomancer Hat", "Iron Cryomancer Robe", "Iron Cryomancer Leggings", "Iron Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/iron_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/iron_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/iron_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/iron_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "iron_electromancer", "zoomers_armory:iron_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:iron_electromancer"), "Iron Electromancer Hat", "Iron Electromancer Robe", "Iron Electromancer Leggings", "Iron Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/iron_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/iron_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/iron_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/iron_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "iron_archevoker", "zoomers_armory:iron_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:iron_archevoker"), "Iron Archevoker Hat", "Iron Archevoker Robe", "Iron Archevoker Leggings", "Iron Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/iron_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/iron_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/iron_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/iron_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "iron_cultist", "zoomers_armory:iron_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:iron_cultist"), "Iron Cultist Hat", "Iron Cultist Robe", "Iron Cultist Leggings", "Iron Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/iron_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/iron_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/iron_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/iron_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "iron_shadowwalker", "zoomers_armory:iron_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:iron_shadowwalker"), "Iron Shadowwalker Hat", "Iron Shadowwalker Robe", "Iron Shadowwalker Leggings", "Iron Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/iron_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/iron_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/iron_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/iron_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "iron_priest", "zoomers_armory:iron_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:iron_priest"), "Iron Priest Hat", "Iron Priest Robe", "Iron Priest Leggings", "Iron Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/iron_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/iron_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/iron_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/iron_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "iron_plagued", "zoomers_armory:iron_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:iron_plagued"), "Iron Plagued Hat", "Iron Plagued Robe", "Iron Plagued Leggings", "Iron Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/iron_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/iron_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/iron_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/iron_plagued_armor.png");
 e.create("zoomers_armory:gold_claws", "sword").displayName("Gold Claws").maxDamage(65)
 e.create("zoomers_armory:gold_dagger", "sword").displayName("Gold Dagger").maxDamage(75)
 e.create("zoomers_armory:gold_shortsword", "sword").displayName("Gold Shortsword").maxDamage(60)
@@ -1722,6 +4422,8 @@ e.create("zoomers_armory:gold_battleaxe", "sword").displayName("Gold Battleaxe")
 e.create("zoomers_armory:gold_spear", "sword").displayName("Gold Spear").maxDamage(60)
 e.create("zoomers_armory:gold_halberd", "sword").displayName("Gold Halberd").maxDamage(42.5)
 e.create("zoomers_armory:gold_scythe", "sword").displayName("Gold Scythe").maxDamage(40)
+e.create("zoomers_armory:gold_katana", "sword").displayName("Gold Katana").maxDamage(60)
+e.create("zoomers_armory:gold_musashi", "sword").displayName("Gold Musashi").maxDamage(45)
 e.create("zoomers_armory:gold_arcane_staff", "irons_spells_js:staff").displayName("Gold Arcane Staff").maxDamage(50)
 e.create("zoomers_armory:gold_woodwind_staff", "irons_spells_js:staff").displayName("Gold Woodwind Staff").maxDamage(50)
 e.create("zoomers_armory:gold_fire_staff", "irons_spells_js:staff").displayName("Gold Fire Staff").maxDamage(50)
@@ -1745,6 +4447,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "gold_samurai", "zoomers_armory
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "gold_samurai_master", "zoomers_armory:gold_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:gold_samurai_master"), "Gold Samurai Master Helmet", "Gold Samurai Master Chestplate", "Gold Samurai Master Leggings", "Gold Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "gold_pyromancer", "zoomers_armory:gold_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:gold_pyromancer"), "Gold Pyromancer Hat", "Gold Pyromancer Robe", "Gold Pyromancer Leggings", "Gold Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/gold_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/gold_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/gold_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/gold_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "gold_cryomancer", "zoomers_armory:gold_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:gold_cryomancer"), "Gold Cryomancer Hat", "Gold Cryomancer Robe", "Gold Cryomancer Leggings", "Gold Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/gold_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/gold_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/gold_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/gold_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "gold_electromancer", "zoomers_armory:gold_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:gold_electromancer"), "Gold Electromancer Hat", "Gold Electromancer Robe", "Gold Electromancer Leggings", "Gold Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/gold_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/gold_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/gold_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/gold_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "gold_archevoker", "zoomers_armory:gold_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:gold_archevoker"), "Gold Archevoker Hat", "Gold Archevoker Robe", "Gold Archevoker Leggings", "Gold Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/gold_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/gold_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/gold_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/gold_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "gold_cultist", "zoomers_armory:gold_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:gold_cultist"), "Gold Cultist Hat", "Gold Cultist Robe", "Gold Cultist Leggings", "Gold Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/gold_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/gold_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/gold_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/gold_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "gold_shadowwalker", "zoomers_armory:gold_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:gold_shadowwalker"), "Gold Shadowwalker Hat", "Gold Shadowwalker Robe", "Gold Shadowwalker Leggings", "Gold Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/gold_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/gold_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/gold_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/gold_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "gold_priest", "zoomers_armory:gold_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:gold_priest"), "Gold Priest Hat", "Gold Priest Robe", "Gold Priest Leggings", "Gold Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/gold_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/gold_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/gold_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/gold_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "gold_plagued", "zoomers_armory:gold_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:gold_plagued"), "Gold Plagued Hat", "Gold Plagued Robe", "Gold Plagued Leggings", "Gold Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/gold_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/gold_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/gold_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/gold_plagued_armor.png");
 e.create("zoomers_armory:diamond_claws", "sword").displayName("Diamond Claws").maxDamage(650)
 e.create("zoomers_armory:diamond_dagger", "sword").displayName("Diamond Dagger").maxDamage(750)
 e.create("zoomers_armory:diamond_shortsword", "sword").displayName("Diamond Shortsword").maxDamage(600)
@@ -1757,6 +4475,8 @@ e.create("zoomers_armory:diamond_battleaxe", "sword").displayName("Diamond Battl
 e.create("zoomers_armory:diamond_spear", "sword").displayName("Diamond Spear").maxDamage(600)
 e.create("zoomers_armory:diamond_halberd", "sword").displayName("Diamond Halberd").maxDamage(425)
 e.create("zoomers_armory:diamond_scythe", "sword").displayName("Diamond Scythe").maxDamage(400)
+e.create("zoomers_armory:diamond_katana", "sword").displayName("Diamond Katana").maxDamage(600)
+e.create("zoomers_armory:diamond_musashi", "sword").displayName("Diamond Musashi").maxDamage(450)
 e.create("zoomers_armory:diamond_arcane_staff", "irons_spells_js:staff").displayName("Diamond Arcane Staff").maxDamage(500)
 e.create("zoomers_armory:diamond_woodwind_staff", "irons_spells_js:staff").displayName("Diamond Woodwind Staff").maxDamage(500)
 e.create("zoomers_armory:diamond_fire_staff", "irons_spells_js:staff").displayName("Diamond Fire Staff").maxDamage(500)
@@ -1780,6 +4500,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "diamond_samurai", "zoomers_arm
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "diamond_samurai_master", "zoomers_armory:diamond_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diamond_samurai_master"), "Diamond Samurai Master Helmet", "Diamond Samurai Master Chestplate", "Diamond Samurai Master Leggings", "Diamond Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "diamond_pyromancer", "zoomers_armory:diamond_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diamond_pyromancer"), "Diamond Pyromancer Hat", "Diamond Pyromancer Robe", "Diamond Pyromancer Leggings", "Diamond Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/diamond_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/diamond_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/diamond_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/diamond_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "diamond_cryomancer", "zoomers_armory:diamond_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diamond_cryomancer"), "Diamond Cryomancer Hat", "Diamond Cryomancer Robe", "Diamond Cryomancer Leggings", "Diamond Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/diamond_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/diamond_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/diamond_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/diamond_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "diamond_electromancer", "zoomers_armory:diamond_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diamond_electromancer"), "Diamond Electromancer Hat", "Diamond Electromancer Robe", "Diamond Electromancer Leggings", "Diamond Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/diamond_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/diamond_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/diamond_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/diamond_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "diamond_archevoker", "zoomers_armory:diamond_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diamond_archevoker"), "Diamond Archevoker Hat", "Diamond Archevoker Robe", "Diamond Archevoker Leggings", "Diamond Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/diamond_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/diamond_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/diamond_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/diamond_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "diamond_cultist", "zoomers_armory:diamond_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diamond_cultist"), "Diamond Cultist Hat", "Diamond Cultist Robe", "Diamond Cultist Leggings", "Diamond Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/diamond_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/diamond_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/diamond_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/diamond_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "diamond_shadowwalker", "zoomers_armory:diamond_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diamond_shadowwalker"), "Diamond Shadowwalker Hat", "Diamond Shadowwalker Robe", "Diamond Shadowwalker Leggings", "Diamond Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/diamond_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/diamond_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/diamond_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/diamond_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "diamond_priest", "zoomers_armory:diamond_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diamond_priest"), "Diamond Priest Hat", "Diamond Priest Robe", "Diamond Priest Leggings", "Diamond Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/diamond_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/diamond_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/diamond_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/diamond_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "diamond_plagued", "zoomers_armory:diamond_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diamond_plagued"), "Diamond Plagued Hat", "Diamond Plagued Robe", "Diamond Plagued Leggings", "Diamond Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/diamond_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/diamond_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/diamond_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/diamond_plagued_armor.png");
 e.create("zoomers_armory:neptunium_claws", "sword").displayName("Neptunium Claws").maxDamage(1300)
 e.create("zoomers_armory:neptunium_dagger", "sword").displayName("Neptunium Dagger").maxDamage(1500)
 e.create("zoomers_armory:neptunium_shortsword", "sword").displayName("Neptunium Shortsword").maxDamage(1200)
@@ -1792,6 +4528,8 @@ e.create("zoomers_armory:neptunium_battleaxe", "sword").displayName("Neptunium B
 e.create("zoomers_armory:neptunium_spear", "sword").displayName("Neptunium Spear").maxDamage(1200)
 e.create("zoomers_armory:neptunium_halberd", "sword").displayName("Neptunium Halberd").maxDamage(850)
 e.create("zoomers_armory:neptunium_scythe", "sword").displayName("Neptunium Scythe").maxDamage(800)
+e.create("zoomers_armory:neptunium_katana", "sword").displayName("Neptunium Katana").maxDamage(1200)
+e.create("zoomers_armory:neptunium_musashi", "sword").displayName("Neptunium Musashi").maxDamage(900)
 e.create("zoomers_armory:neptunium_arcane_staff", "irons_spells_js:staff").displayName("Neptunium Arcane Staff").maxDamage(1000)
 e.create("zoomers_armory:neptunium_woodwind_staff", "irons_spells_js:staff").displayName("Neptunium Woodwind Staff").maxDamage(1000)
 e.create("zoomers_armory:neptunium_fire_staff", "irons_spells_js:staff").displayName("Neptunium Fire Staff").maxDamage(1000)
@@ -1822,6 +4560,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "neptunium_samurai", "zoomers_a
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "neptunium_samurai_master", "zoomers_armory:neptunium_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:neptunium_samurai_master"), "Neptunium Samurai Master Helmet", "Neptunium Samurai Master Chestplate", "Neptunium Samurai Master Leggings", "Neptunium Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "neptunium_pyromancer", "zoomers_armory:neptunium_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:neptunium_pyromancer"), "Neptunium Pyromancer Hat", "Neptunium Pyromancer Robe", "Neptunium Pyromancer Leggings", "Neptunium Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/neptunium_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/neptunium_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/neptunium_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/neptunium_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "neptunium_cryomancer", "zoomers_armory:neptunium_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:neptunium_cryomancer"), "Neptunium Cryomancer Hat", "Neptunium Cryomancer Robe", "Neptunium Cryomancer Leggings", "Neptunium Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/neptunium_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/neptunium_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/neptunium_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/neptunium_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "neptunium_electromancer", "zoomers_armory:neptunium_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:neptunium_electromancer"), "Neptunium Electromancer Hat", "Neptunium Electromancer Robe", "Neptunium Electromancer Leggings", "Neptunium Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/neptunium_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/neptunium_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/neptunium_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/neptunium_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "neptunium_archevoker", "zoomers_armory:neptunium_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:neptunium_archevoker"), "Neptunium Archevoker Hat", "Neptunium Archevoker Robe", "Neptunium Archevoker Leggings", "Neptunium Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/neptunium_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/neptunium_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/neptunium_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/neptunium_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "neptunium_cultist", "zoomers_armory:neptunium_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:neptunium_cultist"), "Neptunium Cultist Hat", "Neptunium Cultist Robe", "Neptunium Cultist Leggings", "Neptunium Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/neptunium_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/neptunium_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/neptunium_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/neptunium_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "neptunium_shadowwalker", "zoomers_armory:neptunium_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:neptunium_shadowwalker"), "Neptunium Shadowwalker Hat", "Neptunium Shadowwalker Robe", "Neptunium Shadowwalker Leggings", "Neptunium Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/neptunium_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/neptunium_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/neptunium_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/neptunium_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "neptunium_priest", "zoomers_armory:neptunium_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:neptunium_priest"), "Neptunium Priest Hat", "Neptunium Priest Robe", "Neptunium Priest Leggings", "Neptunium Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/neptunium_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/neptunium_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/neptunium_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/neptunium_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "neptunium_plagued", "zoomers_armory:neptunium_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:neptunium_plagued"), "Neptunium Plagued Hat", "Neptunium Plagued Robe", "Neptunium Plagued Leggings", "Neptunium Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/neptunium_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/neptunium_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/neptunium_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/neptunium_plagued_armor.png");
 e.create("zoomers_armory:pyrope_claws", "sword").displayName("Pyrope Claws").maxDamage(2080)
 e.create("zoomers_armory:pyrope_dagger", "sword").displayName("Pyrope Dagger").maxDamage(2400)
 e.create("zoomers_armory:pyrope_shortsword", "sword").displayName("Pyrope Shortsword").maxDamage(1920)
@@ -1834,6 +4588,8 @@ e.create("zoomers_armory:pyrope_battleaxe", "sword").displayName("Pyrope Battlea
 e.create("zoomers_armory:pyrope_spear", "sword").displayName("Pyrope Spear").maxDamage(1920)
 e.create("zoomers_armory:pyrope_halberd", "sword").displayName("Pyrope Halberd").maxDamage(1360)
 e.create("zoomers_armory:pyrope_scythe", "sword").displayName("Pyrope Scythe").maxDamage(1280)
+e.create("zoomers_armory:pyrope_katana", "sword").displayName("Pyrope Katana").maxDamage(1920)
+e.create("zoomers_armory:pyrope_musashi", "sword").displayName("Pyrope Musashi").maxDamage(1440)
 e.create("zoomers_armory:pyrope_arcane_staff", "irons_spells_js:staff").displayName("Pyrope Arcane Staff").maxDamage(1600)
 e.create("zoomers_armory:pyrope_woodwind_staff", "irons_spells_js:staff").displayName("Pyrope Woodwind Staff").maxDamage(1600)
 e.create("zoomers_armory:pyrope_fire_staff", "irons_spells_js:staff").displayName("Pyrope Fire Staff").maxDamage(1600)
@@ -1857,6 +4613,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "pyrope_samurai", "zoomers_armo
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "pyrope_samurai_master", "zoomers_armory:pyrope_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:pyrope_samurai_master"), "Pyrope Samurai Master Helmet", "Pyrope Samurai Master Chestplate", "Pyrope Samurai Master Leggings", "Pyrope Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "pyrope_pyromancer", "zoomers_armory:pyrope_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:pyrope_pyromancer"), "Pyrope Pyromancer Hat", "Pyrope Pyromancer Robe", "Pyrope Pyromancer Leggings", "Pyrope Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/pyrope_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/pyrope_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/pyrope_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/pyrope_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "pyrope_cryomancer", "zoomers_armory:pyrope_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:pyrope_cryomancer"), "Pyrope Cryomancer Hat", "Pyrope Cryomancer Robe", "Pyrope Cryomancer Leggings", "Pyrope Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/pyrope_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/pyrope_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/pyrope_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/pyrope_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "pyrope_electromancer", "zoomers_armory:pyrope_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:pyrope_electromancer"), "Pyrope Electromancer Hat", "Pyrope Electromancer Robe", "Pyrope Electromancer Leggings", "Pyrope Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/pyrope_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/pyrope_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/pyrope_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/pyrope_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "pyrope_archevoker", "zoomers_armory:pyrope_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:pyrope_archevoker"), "Pyrope Archevoker Hat", "Pyrope Archevoker Robe", "Pyrope Archevoker Leggings", "Pyrope Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/pyrope_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/pyrope_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/pyrope_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/pyrope_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "pyrope_cultist", "zoomers_armory:pyrope_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:pyrope_cultist"), "Pyrope Cultist Hat", "Pyrope Cultist Robe", "Pyrope Cultist Leggings", "Pyrope Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/pyrope_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/pyrope_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/pyrope_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/pyrope_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "pyrope_shadowwalker", "zoomers_armory:pyrope_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:pyrope_shadowwalker"), "Pyrope Shadowwalker Hat", "Pyrope Shadowwalker Robe", "Pyrope Shadowwalker Leggings", "Pyrope Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/pyrope_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/pyrope_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/pyrope_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/pyrope_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "pyrope_priest", "zoomers_armory:pyrope_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:pyrope_priest"), "Pyrope Priest Hat", "Pyrope Priest Robe", "Pyrope Priest Leggings", "Pyrope Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/pyrope_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/pyrope_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/pyrope_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/pyrope_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "pyrope_plagued", "zoomers_armory:pyrope_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:pyrope_plagued"), "Pyrope Plagued Hat", "Pyrope Plagued Robe", "Pyrope Plagued Leggings", "Pyrope Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/pyrope_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/pyrope_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/pyrope_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/pyrope_plagued_armor.png");
 e.create("zoomers_armory:aquite_claws", "sword").displayName("Aquite Claws").maxDamage(2210)
 e.create("zoomers_armory:aquite_dagger", "sword").displayName("Aquite Dagger").maxDamage(2550)
 e.create("zoomers_armory:aquite_shortsword", "sword").displayName("Aquite Shortsword").maxDamage(2040)
@@ -1869,6 +4641,8 @@ e.create("zoomers_armory:aquite_battleaxe", "sword").displayName("Aquite Battlea
 e.create("zoomers_armory:aquite_spear", "sword").displayName("Aquite Spear").maxDamage(2040)
 e.create("zoomers_armory:aquite_halberd", "sword").displayName("Aquite Halberd").maxDamage(1445)
 e.create("zoomers_armory:aquite_scythe", "sword").displayName("Aquite Scythe").maxDamage(1360)
+e.create("zoomers_armory:aquite_katana", "sword").displayName("Aquite Katana").maxDamage(2040)
+e.create("zoomers_armory:aquite_musashi", "sword").displayName("Aquite Musashi").maxDamage(1530)
 e.create("zoomers_armory:aquite_arcane_staff", "irons_spells_js:staff").displayName("Aquite Arcane Staff").maxDamage(1700)
 e.create("zoomers_armory:aquite_woodwind_staff", "irons_spells_js:staff").displayName("Aquite Woodwind Staff").maxDamage(1700)
 e.create("zoomers_armory:aquite_fire_staff", "irons_spells_js:staff").displayName("Aquite Fire Staff").maxDamage(1700)
@@ -1892,6 +4666,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "aquite_samurai", "zoomers_armo
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "aquite_samurai_master", "zoomers_armory:aquite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aquite_samurai_master"), "Aquite Samurai Master Helmet", "Aquite Samurai Master Chestplate", "Aquite Samurai Master Leggings", "Aquite Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "aquite_pyromancer", "zoomers_armory:aquite_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aquite_pyromancer"), "Aquite Pyromancer Hat", "Aquite Pyromancer Robe", "Aquite Pyromancer Leggings", "Aquite Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/aquite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/aquite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/aquite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/aquite_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "aquite_cryomancer", "zoomers_armory:aquite_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aquite_cryomancer"), "Aquite Cryomancer Hat", "Aquite Cryomancer Robe", "Aquite Cryomancer Leggings", "Aquite Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/aquite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/aquite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/aquite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/aquite_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "aquite_electromancer", "zoomers_armory:aquite_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aquite_electromancer"), "Aquite Electromancer Hat", "Aquite Electromancer Robe", "Aquite Electromancer Leggings", "Aquite Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/aquite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/aquite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/aquite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/aquite_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "aquite_archevoker", "zoomers_armory:aquite_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aquite_archevoker"), "Aquite Archevoker Hat", "Aquite Archevoker Robe", "Aquite Archevoker Leggings", "Aquite Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/aquite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/aquite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/aquite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/aquite_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "aquite_cultist", "zoomers_armory:aquite_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aquite_cultist"), "Aquite Cultist Hat", "Aquite Cultist Robe", "Aquite Cultist Leggings", "Aquite Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/aquite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/aquite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/aquite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/aquite_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "aquite_shadowwalker", "zoomers_armory:aquite_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aquite_shadowwalker"), "Aquite Shadowwalker Hat", "Aquite Shadowwalker Robe", "Aquite Shadowwalker Leggings", "Aquite Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/aquite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/aquite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/aquite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/aquite_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "aquite_priest", "zoomers_armory:aquite_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aquite_priest"), "Aquite Priest Hat", "Aquite Priest Robe", "Aquite Priest Leggings", "Aquite Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/aquite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/aquite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/aquite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/aquite_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "aquite_plagued", "zoomers_armory:aquite_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aquite_plagued"), "Aquite Plagued Hat", "Aquite Plagued Robe", "Aquite Plagued Leggings", "Aquite Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/aquite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/aquite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/aquite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/aquite_plagued_armor.png");
 e.create("zoomers_armory:diopside_claws", "sword").displayName("Diopside Claws").maxDamage(2340)
 e.create("zoomers_armory:diopside_dagger", "sword").displayName("Diopside Dagger").maxDamage(2700)
 e.create("zoomers_armory:diopside_shortsword", "sword").displayName("Diopside Shortsword").maxDamage(2160)
@@ -1904,6 +4694,8 @@ e.create("zoomers_armory:diopside_battleaxe", "sword").displayName("Diopside Bat
 e.create("zoomers_armory:diopside_spear", "sword").displayName("Diopside Spear").maxDamage(2160)
 e.create("zoomers_armory:diopside_halberd", "sword").displayName("Diopside Halberd").maxDamage(1530)
 e.create("zoomers_armory:diopside_scythe", "sword").displayName("Diopside Scythe").maxDamage(1440)
+e.create("zoomers_armory:diopside_katana", "sword").displayName("Diopside Katana").maxDamage(2160)
+e.create("zoomers_armory:diopside_musashi", "sword").displayName("Diopside Musashi").maxDamage(1620)
 e.create("zoomers_armory:diopside_arcane_staff", "irons_spells_js:staff").displayName("Diopside Arcane Staff").maxDamage(1800)
 e.create("zoomers_armory:diopside_woodwind_staff", "irons_spells_js:staff").displayName("Diopside Woodwind Staff").maxDamage(1800)
 e.create("zoomers_armory:diopside_fire_staff", "irons_spells_js:staff").displayName("Diopside Fire Staff").maxDamage(1800)
@@ -1927,6 +4719,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "diopside_samurai", "zoomers_ar
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "diopside_samurai_master", "zoomers_armory:diopside_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diopside_samurai_master"), "Diopside Samurai Master Helmet", "Diopside Samurai Master Chestplate", "Diopside Samurai Master Leggings", "Diopside Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "diopside_pyromancer", "zoomers_armory:diopside_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diopside_pyromancer"), "Diopside Pyromancer Hat", "Diopside Pyromancer Robe", "Diopside Pyromancer Leggings", "Diopside Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/diopside_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/diopside_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/diopside_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/diopside_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "diopside_cryomancer", "zoomers_armory:diopside_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diopside_cryomancer"), "Diopside Cryomancer Hat", "Diopside Cryomancer Robe", "Diopside Cryomancer Leggings", "Diopside Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/diopside_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/diopside_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/diopside_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/diopside_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "diopside_electromancer", "zoomers_armory:diopside_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diopside_electromancer"), "Diopside Electromancer Hat", "Diopside Electromancer Robe", "Diopside Electromancer Leggings", "Diopside Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/diopside_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/diopside_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/diopside_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/diopside_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "diopside_archevoker", "zoomers_armory:diopside_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diopside_archevoker"), "Diopside Archevoker Hat", "Diopside Archevoker Robe", "Diopside Archevoker Leggings", "Diopside Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/diopside_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/diopside_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/diopside_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/diopside_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "diopside_cultist", "zoomers_armory:diopside_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diopside_cultist"), "Diopside Cultist Hat", "Diopside Cultist Robe", "Diopside Cultist Leggings", "Diopside Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/diopside_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/diopside_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/diopside_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/diopside_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "diopside_shadowwalker", "zoomers_armory:diopside_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diopside_shadowwalker"), "Diopside Shadowwalker Hat", "Diopside Shadowwalker Robe", "Diopside Shadowwalker Leggings", "Diopside Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/diopside_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/diopside_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/diopside_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/diopside_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "diopside_priest", "zoomers_armory:diopside_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diopside_priest"), "Diopside Priest Hat", "Diopside Priest Robe", "Diopside Priest Leggings", "Diopside Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/diopside_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/diopside_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/diopside_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/diopside_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "diopside_plagued", "zoomers_armory:diopside_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diopside_plagued"), "Diopside Plagued Hat", "Diopside Plagued Robe", "Diopside Plagued Leggings", "Diopside Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/diopside_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/diopside_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/diopside_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/diopside_plagued_armor.png");
 e.create("zoomers_armory:charoite_claws", "sword").displayName("Charoite Claws").maxDamage(2470)
 e.create("zoomers_armory:charoite_dagger", "sword").displayName("Charoite Dagger").maxDamage(2850)
 e.create("zoomers_armory:charoite_shortsword", "sword").displayName("Charoite Shortsword").maxDamage(2280)
@@ -1939,6 +4747,8 @@ e.create("zoomers_armory:charoite_battleaxe", "sword").displayName("Charoite Bat
 e.create("zoomers_armory:charoite_spear", "sword").displayName("Charoite Spear").maxDamage(2280)
 e.create("zoomers_armory:charoite_halberd", "sword").displayName("Charoite Halberd").maxDamage(1615)
 e.create("zoomers_armory:charoite_scythe", "sword").displayName("Charoite Scythe").maxDamage(1520)
+e.create("zoomers_armory:charoite_katana", "sword").displayName("Charoite Katana").maxDamage(2280)
+e.create("zoomers_armory:charoite_musashi", "sword").displayName("Charoite Musashi").maxDamage(1710)
 e.create("zoomers_armory:charoite_arcane_staff", "irons_spells_js:staff").displayName("Charoite Arcane Staff").maxDamage(1900)
 e.create("zoomers_armory:charoite_woodwind_staff", "irons_spells_js:staff").displayName("Charoite Woodwind Staff").maxDamage(1900)
 e.create("zoomers_armory:charoite_fire_staff", "irons_spells_js:staff").displayName("Charoite Fire Staff").maxDamage(1900)
@@ -1962,6 +4772,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "charoite_samurai", "zoomers_ar
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "charoite_samurai_master", "zoomers_armory:charoite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:charoite_samurai_master"), "Charoite Samurai Master Helmet", "Charoite Samurai Master Chestplate", "Charoite Samurai Master Leggings", "Charoite Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "charoite_pyromancer", "zoomers_armory:charoite_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:charoite_pyromancer"), "Charoite Pyromancer Hat", "Charoite Pyromancer Robe", "Charoite Pyromancer Leggings", "Charoite Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/charoite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/charoite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/charoite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/charoite_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "charoite_cryomancer", "zoomers_armory:charoite_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:charoite_cryomancer"), "Charoite Cryomancer Hat", "Charoite Cryomancer Robe", "Charoite Cryomancer Leggings", "Charoite Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/charoite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/charoite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/charoite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/charoite_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "charoite_electromancer", "zoomers_armory:charoite_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:charoite_electromancer"), "Charoite Electromancer Hat", "Charoite Electromancer Robe", "Charoite Electromancer Leggings", "Charoite Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/charoite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/charoite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/charoite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/charoite_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "charoite_archevoker", "zoomers_armory:charoite_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:charoite_archevoker"), "Charoite Archevoker Hat", "Charoite Archevoker Robe", "Charoite Archevoker Leggings", "Charoite Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/charoite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/charoite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/charoite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/charoite_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "charoite_cultist", "zoomers_armory:charoite_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:charoite_cultist"), "Charoite Cultist Hat", "Charoite Cultist Robe", "Charoite Cultist Leggings", "Charoite Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/charoite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/charoite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/charoite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/charoite_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "charoite_shadowwalker", "zoomers_armory:charoite_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:charoite_shadowwalker"), "Charoite Shadowwalker Hat", "Charoite Shadowwalker Robe", "Charoite Shadowwalker Leggings", "Charoite Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/charoite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/charoite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/charoite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/charoite_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "charoite_priest", "zoomers_armory:charoite_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:charoite_priest"), "Charoite Priest Hat", "Charoite Priest Robe", "Charoite Priest Leggings", "Charoite Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/charoite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/charoite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/charoite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/charoite_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "charoite_plagued", "zoomers_armory:charoite_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:charoite_plagued"), "Charoite Plagued Hat", "Charoite Plagued Robe", "Charoite Plagued Leggings", "Charoite Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/charoite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/charoite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/charoite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/charoite_plagued_armor.png");
 e.create("zoomers_armory:horizonite_claws", "sword").displayName("Horizonite Claws").maxDamage(2600)
 e.create("zoomers_armory:horizonite_dagger", "sword").displayName("Horizonite Dagger").maxDamage(3000)
 e.create("zoomers_armory:horizonite_shortsword", "sword").displayName("Horizonite Shortsword").maxDamage(2400)
@@ -1974,6 +4800,8 @@ e.create("zoomers_armory:horizonite_battleaxe", "sword").displayName("Horizonite
 e.create("zoomers_armory:horizonite_spear", "sword").displayName("Horizonite Spear").maxDamage(2400)
 e.create("zoomers_armory:horizonite_halberd", "sword").displayName("Horizonite Halberd").maxDamage(1700)
 e.create("zoomers_armory:horizonite_scythe", "sword").displayName("Horizonite Scythe").maxDamage(1600)
+e.create("zoomers_armory:horizonite_katana", "sword").displayName("Horizonite Katana").maxDamage(2400)
+e.create("zoomers_armory:horizonite_musashi", "sword").displayName("Horizonite Musashi").maxDamage(1800)
 e.create("zoomers_armory:horizonite_arcane_staff", "irons_spells_js:staff").displayName("Horizonite Arcane Staff").maxDamage(2000)
 e.create("zoomers_armory:horizonite_woodwind_staff", "irons_spells_js:staff").displayName("Horizonite Woodwind Staff").maxDamage(2000)
 e.create("zoomers_armory:horizonite_fire_staff", "irons_spells_js:staff").displayName("Horizonite Fire Staff").maxDamage(2000)
@@ -1997,6 +4825,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "horizonite_samurai", "zoomers_
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "horizonite_samurai_master", "zoomers_armory:horizonite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:horizonite_samurai_master"), "Horizonite Samurai Master Helmet", "Horizonite Samurai Master Chestplate", "Horizonite Samurai Master Leggings", "Horizonite Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "horizonite_pyromancer", "zoomers_armory:horizonite_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:horizonite_pyromancer"), "Horizonite Pyromancer Hat", "Horizonite Pyromancer Robe", "Horizonite Pyromancer Leggings", "Horizonite Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/horizonite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/horizonite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/horizonite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/horizonite_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "horizonite_cryomancer", "zoomers_armory:horizonite_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:horizonite_cryomancer"), "Horizonite Cryomancer Hat", "Horizonite Cryomancer Robe", "Horizonite Cryomancer Leggings", "Horizonite Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/horizonite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/horizonite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/horizonite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/horizonite_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "horizonite_electromancer", "zoomers_armory:horizonite_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:horizonite_electromancer"), "Horizonite Electromancer Hat", "Horizonite Electromancer Robe", "Horizonite Electromancer Leggings", "Horizonite Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/horizonite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/horizonite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/horizonite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/horizonite_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "horizonite_archevoker", "zoomers_armory:horizonite_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:horizonite_archevoker"), "Horizonite Archevoker Hat", "Horizonite Archevoker Robe", "Horizonite Archevoker Leggings", "Horizonite Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/horizonite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/horizonite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/horizonite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/horizonite_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "horizonite_cultist", "zoomers_armory:horizonite_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:horizonite_cultist"), "Horizonite Cultist Hat", "Horizonite Cultist Robe", "Horizonite Cultist Leggings", "Horizonite Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/horizonite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/horizonite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/horizonite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/horizonite_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "horizonite_shadowwalker", "zoomers_armory:horizonite_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:horizonite_shadowwalker"), "Horizonite Shadowwalker Hat", "Horizonite Shadowwalker Robe", "Horizonite Shadowwalker Leggings", "Horizonite Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/horizonite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/horizonite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/horizonite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/horizonite_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "horizonite_priest", "zoomers_armory:horizonite_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:horizonite_priest"), "Horizonite Priest Hat", "Horizonite Priest Robe", "Horizonite Priest Leggings", "Horizonite Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/horizonite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/horizonite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/horizonite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/horizonite_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "horizonite_plagued", "zoomers_armory:horizonite_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:horizonite_plagued"), "Horizonite Plagued Hat", "Horizonite Plagued Robe", "Horizonite Plagued Leggings", "Horizonite Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/horizonite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/horizonite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/horizonite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/horizonite_plagued_armor.png");
 e.create("zoomers_armory:zanite_claws", "sword").displayName("Zanite Claws").maxDamage(2874.3)
 e.create("zoomers_armory:zanite_dagger", "sword").displayName("Zanite Dagger").maxDamage(3316.5)
 e.create("zoomers_armory:zanite_shortsword", "sword").displayName("Zanite Shortsword").maxDamage(2653.2)
@@ -2009,6 +4853,8 @@ e.create("zoomers_armory:zanite_battleaxe", "sword").displayName("Zanite Battlea
 e.create("zoomers_armory:zanite_spear", "sword").displayName("Zanite Spear").maxDamage(2653.2)
 e.create("zoomers_armory:zanite_halberd", "sword").displayName("Zanite Halberd").maxDamage(1879.35)
 e.create("zoomers_armory:zanite_scythe", "sword").displayName("Zanite Scythe").maxDamage(1768.8000000000002)
+e.create("zoomers_armory:zanite_katana", "sword").displayName("Zanite Katana").maxDamage(2653.2)
+e.create("zoomers_armory:zanite_musashi", "sword").displayName("Zanite Musashi").maxDamage(1989.9)
 e.create("zoomers_armory:zanite_arcane_staff", "irons_spells_js:staff").displayName("Zanite Arcane Staff").maxDamage(2211)
 e.create("zoomers_armory:zanite_woodwind_staff", "irons_spells_js:staff").displayName("Zanite Woodwind Staff").maxDamage(2211)
 e.create("zoomers_armory:zanite_fire_staff", "irons_spells_js:staff").displayName("Zanite Fire Staff").maxDamage(2211)
@@ -2032,6 +4878,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "zanite_samurai", "zoomers_armo
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "zanite_samurai_master", "zoomers_armory:zanite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:zanite_samurai_master"), "Zanite Samurai Master Helmet", "Zanite Samurai Master Chestplate", "Zanite Samurai Master Leggings", "Zanite Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "zanite_pyromancer", "zoomers_armory:zanite_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:zanite_pyromancer"), "Zanite Pyromancer Hat", "Zanite Pyromancer Robe", "Zanite Pyromancer Leggings", "Zanite Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/zanite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/zanite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/zanite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/zanite_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "zanite_cryomancer", "zoomers_armory:zanite_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:zanite_cryomancer"), "Zanite Cryomancer Hat", "Zanite Cryomancer Robe", "Zanite Cryomancer Leggings", "Zanite Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/zanite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/zanite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/zanite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/zanite_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "zanite_electromancer", "zoomers_armory:zanite_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:zanite_electromancer"), "Zanite Electromancer Hat", "Zanite Electromancer Robe", "Zanite Electromancer Leggings", "Zanite Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/zanite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/zanite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/zanite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/zanite_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "zanite_archevoker", "zoomers_armory:zanite_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:zanite_archevoker"), "Zanite Archevoker Hat", "Zanite Archevoker Robe", "Zanite Archevoker Leggings", "Zanite Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/zanite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/zanite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/zanite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/zanite_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "zanite_cultist", "zoomers_armory:zanite_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:zanite_cultist"), "Zanite Cultist Hat", "Zanite Cultist Robe", "Zanite Cultist Leggings", "Zanite Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/zanite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/zanite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/zanite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/zanite_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "zanite_shadowwalker", "zoomers_armory:zanite_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:zanite_shadowwalker"), "Zanite Shadowwalker Hat", "Zanite Shadowwalker Robe", "Zanite Shadowwalker Leggings", "Zanite Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/zanite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/zanite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/zanite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/zanite_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "zanite_priest", "zoomers_armory:zanite_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:zanite_priest"), "Zanite Priest Hat", "Zanite Priest Robe", "Zanite Priest Leggings", "Zanite Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/zanite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/zanite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/zanite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/zanite_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "zanite_plagued", "zoomers_armory:zanite_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:zanite_plagued"), "Zanite Plagued Hat", "Zanite Plagued Robe", "Zanite Plagued Leggings", "Zanite Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/zanite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/zanite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/zanite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/zanite_plagued_armor.png");
 e.create("zoomers_armory:enchanted_gravitite_claws", "sword").displayName("Enchanted Gravitite Claws").maxDamage(3160.3)
 e.create("zoomers_armory:enchanted_gravitite_dagger", "sword").displayName("Enchanted Gravitite Dagger").maxDamage(3646.5)
 e.create("zoomers_armory:enchanted_gravitite_shortsword", "sword").displayName("Enchanted Gravitite Shortsword").maxDamage(2917.2)
@@ -2044,6 +4906,8 @@ e.create("zoomers_armory:enchanted_gravitite_battleaxe", "sword").displayName("E
 e.create("zoomers_armory:enchanted_gravitite_spear", "sword").displayName("Enchanted Gravitite Spear").maxDamage(2917.2)
 e.create("zoomers_armory:enchanted_gravitite_halberd", "sword").displayName("Enchanted Gravitite Halberd").maxDamage(2066.35)
 e.create("zoomers_armory:enchanted_gravitite_scythe", "sword").displayName("Enchanted Gravitite Scythe").maxDamage(1944.8000000000002)
+e.create("zoomers_armory:enchanted_gravitite_katana", "sword").displayName("Enchanted Gravitite Katana").maxDamage(2917.2)
+e.create("zoomers_armory:enchanted_gravitite_musashi", "sword").displayName("Enchanted Gravitite Musashi").maxDamage(2187.9)
 e.create("zoomers_armory:enchanted_gravitite_arcane_staff", "irons_spells_js:staff").displayName("Enchanted Gravitite Arcane Staff").maxDamage(2431)
 e.create("zoomers_armory:enchanted_gravitite_woodwind_staff", "irons_spells_js:staff").displayName("Enchanted Gravitite Woodwind Staff").maxDamage(2431)
 e.create("zoomers_armory:enchanted_gravitite_fire_staff", "irons_spells_js:staff").displayName("Enchanted Gravitite Fire Staff").maxDamage(2431)
@@ -2067,6 +4931,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "enchanted_gravitite_samurai", 
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "enchanted_gravitite_samurai_master", "zoomers_armory:enchanted_gravitite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enchanted_gravitite_samurai_master"), "Enchanted Gravitite Samurai Master Helmet", "Enchanted Gravitite Samurai Master Chestplate", "Enchanted Gravitite Samurai Master Leggings", "Enchanted Gravitite Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "enchanted_gravitite_pyromancer", "zoomers_armory:enchanted_gravitite_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enchanted_gravitite_pyromancer"), "Enchanted Gravitite Pyromancer Hat", "Enchanted Gravitite Pyromancer Robe", "Enchanted Gravitite Pyromancer Leggings", "Enchanted Gravitite Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "enchanted_gravitite_cryomancer", "zoomers_armory:enchanted_gravitite_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enchanted_gravitite_cryomancer"), "Enchanted Gravitite Cryomancer Hat", "Enchanted Gravitite Cryomancer Robe", "Enchanted Gravitite Cryomancer Leggings", "Enchanted Gravitite Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "enchanted_gravitite_electromancer", "zoomers_armory:enchanted_gravitite_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enchanted_gravitite_electromancer"), "Enchanted Gravitite Electromancer Hat", "Enchanted Gravitite Electromancer Robe", "Enchanted Gravitite Electromancer Leggings", "Enchanted Gravitite Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "enchanted_gravitite_archevoker", "zoomers_armory:enchanted_gravitite_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enchanted_gravitite_archevoker"), "Enchanted Gravitite Archevoker Hat", "Enchanted Gravitite Archevoker Robe", "Enchanted Gravitite Archevoker Leggings", "Enchanted Gravitite Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "enchanted_gravitite_cultist", "zoomers_armory:enchanted_gravitite_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enchanted_gravitite_cultist"), "Enchanted Gravitite Cultist Hat", "Enchanted Gravitite Cultist Robe", "Enchanted Gravitite Cultist Leggings", "Enchanted Gravitite Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "enchanted_gravitite_shadowwalker", "zoomers_armory:enchanted_gravitite_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enchanted_gravitite_shadowwalker"), "Enchanted Gravitite Shadowwalker Hat", "Enchanted Gravitite Shadowwalker Robe", "Enchanted Gravitite Shadowwalker Leggings", "Enchanted Gravitite Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "enchanted_gravitite_priest", "zoomers_armory:enchanted_gravitite_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enchanted_gravitite_priest"), "Enchanted Gravitite Priest Hat", "Enchanted Gravitite Priest Robe", "Enchanted Gravitite Priest Leggings", "Enchanted Gravitite Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "enchanted_gravitite_plagued", "zoomers_armory:enchanted_gravitite_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enchanted_gravitite_plagued"), "Enchanted Gravitite Plagued Hat", "Enchanted Gravitite Plagued Robe", "Enchanted Gravitite Plagued Leggings", "Enchanted Gravitite Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_plagued_armor.png");
 e.create("zoomers_armory:cincinnasite_claws", "sword").displayName("Cincinnasite Claws").maxDamage(3510)
 e.create("zoomers_armory:cincinnasite_dagger", "sword").displayName("Cincinnasite Dagger").maxDamage(4050)
 e.create("zoomers_armory:cincinnasite_shortsword", "sword").displayName("Cincinnasite Shortsword").maxDamage(3240)
@@ -2079,6 +4959,8 @@ e.create("zoomers_armory:cincinnasite_battleaxe", "sword").displayName("Cincinna
 e.create("zoomers_armory:cincinnasite_spear", "sword").displayName("Cincinnasite Spear").maxDamage(3240)
 e.create("zoomers_armory:cincinnasite_halberd", "sword").displayName("Cincinnasite Halberd").maxDamage(2295)
 e.create("zoomers_armory:cincinnasite_scythe", "sword").displayName("Cincinnasite Scythe").maxDamage(2160)
+e.create("zoomers_armory:cincinnasite_katana", "sword").displayName("Cincinnasite Katana").maxDamage(3240)
+e.create("zoomers_armory:cincinnasite_musashi", "sword").displayName("Cincinnasite Musashi").maxDamage(2430)
 e.create("zoomers_armory:cincinnasite_arcane_staff", "irons_spells_js:staff").displayName("Cincinnasite Arcane Staff").maxDamage(2700)
 e.create("zoomers_armory:cincinnasite_woodwind_staff", "irons_spells_js:staff").displayName("Cincinnasite Woodwind Staff").maxDamage(2700)
 e.create("zoomers_armory:cincinnasite_fire_staff", "irons_spells_js:staff").displayName("Cincinnasite Fire Staff").maxDamage(2700)
@@ -2102,6 +4984,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_samurai", "zoomer
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_samurai_master", "zoomers_armory:cincinnasite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_samurai_master"), "Cincinnasite Samurai Master Helmet", "Cincinnasite Samurai Master Chestplate", "Cincinnasite Samurai Master Leggings", "Cincinnasite Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_pyromancer", "zoomers_armory:cincinnasite_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_pyromancer"), "Cincinnasite Pyromancer Hat", "Cincinnasite Pyromancer Robe", "Cincinnasite Pyromancer Leggings", "Cincinnasite Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_cryomancer", "zoomers_armory:cincinnasite_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_cryomancer"), "Cincinnasite Cryomancer Hat", "Cincinnasite Cryomancer Robe", "Cincinnasite Cryomancer Leggings", "Cincinnasite Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_electromancer", "zoomers_armory:cincinnasite_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_electromancer"), "Cincinnasite Electromancer Hat", "Cincinnasite Electromancer Robe", "Cincinnasite Electromancer Leggings", "Cincinnasite Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_archevoker", "zoomers_armory:cincinnasite_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_archevoker"), "Cincinnasite Archevoker Hat", "Cincinnasite Archevoker Robe", "Cincinnasite Archevoker Leggings", "Cincinnasite Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_cultist", "zoomers_armory:cincinnasite_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_cultist"), "Cincinnasite Cultist Hat", "Cincinnasite Cultist Robe", "Cincinnasite Cultist Leggings", "Cincinnasite Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_shadowwalker", "zoomers_armory:cincinnasite_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_shadowwalker"), "Cincinnasite Shadowwalker Hat", "Cincinnasite Shadowwalker Robe", "Cincinnasite Shadowwalker Leggings", "Cincinnasite Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_priest", "zoomers_armory:cincinnasite_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_priest"), "Cincinnasite Priest Hat", "Cincinnasite Priest Robe", "Cincinnasite Priest Leggings", "Cincinnasite Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_plagued", "zoomers_armory:cincinnasite_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_plagued"), "Cincinnasite Plagued Hat", "Cincinnasite Plagued Robe", "Cincinnasite Plagued Leggings", "Cincinnasite Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_plagued_armor.png");
 e.create("zoomers_armory:cincinnasite_diamond_claws", "sword").displayName("Cincinnasite Diamond Claws").maxDamage(3640)
 e.create("zoomers_armory:cincinnasite_diamond_dagger", "sword").displayName("Cincinnasite Diamond Dagger").maxDamage(4200)
 e.create("zoomers_armory:cincinnasite_diamond_shortsword", "sword").displayName("Cincinnasite Diamond Shortsword").maxDamage(3360)
@@ -2114,6 +5012,8 @@ e.create("zoomers_armory:cincinnasite_diamond_battleaxe", "sword").displayName("
 e.create("zoomers_armory:cincinnasite_diamond_spear", "sword").displayName("Cincinnasite Diamond Spear").maxDamage(3360)
 e.create("zoomers_armory:cincinnasite_diamond_halberd", "sword").displayName("Cincinnasite Diamond Halberd").maxDamage(2380)
 e.create("zoomers_armory:cincinnasite_diamond_scythe", "sword").displayName("Cincinnasite Diamond Scythe").maxDamage(2240)
+e.create("zoomers_armory:cincinnasite_diamond_katana", "sword").displayName("Cincinnasite Diamond Katana").maxDamage(3360)
+e.create("zoomers_armory:cincinnasite_diamond_musashi", "sword").displayName("Cincinnasite Diamond Musashi").maxDamage(2520)
 e.create("zoomers_armory:cincinnasite_diamond_arcane_staff", "irons_spells_js:staff").displayName("Cincinnasite Diamond Arcane Staff").maxDamage(2800)
 e.create("zoomers_armory:cincinnasite_diamond_woodwind_staff", "irons_spells_js:staff").displayName("Cincinnasite Diamond Woodwind Staff").maxDamage(2800)
 e.create("zoomers_armory:cincinnasite_diamond_fire_staff", "irons_spells_js:staff").displayName("Cincinnasite Diamond Fire Staff").maxDamage(2800)
@@ -2137,6 +5037,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_diamond_samurai",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_diamond_samurai_master", "zoomers_armory:cincinnasite_diamond_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_diamond_samurai_master"), "Cincinnasite Diamond Samurai Master Helmet", "Cincinnasite Diamond Samurai Master Chestplate", "Cincinnasite Diamond Samurai Master Leggings", "Cincinnasite Diamond Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_diamond_pyromancer", "zoomers_armory:cincinnasite_diamond_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_diamond_pyromancer"), "Cincinnasite Diamond Pyromancer Hat", "Cincinnasite Diamond Pyromancer Robe", "Cincinnasite Diamond Pyromancer Leggings", "Cincinnasite Diamond Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_diamond_cryomancer", "zoomers_armory:cincinnasite_diamond_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_diamond_cryomancer"), "Cincinnasite Diamond Cryomancer Hat", "Cincinnasite Diamond Cryomancer Robe", "Cincinnasite Diamond Cryomancer Leggings", "Cincinnasite Diamond Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_diamond_electromancer", "zoomers_armory:cincinnasite_diamond_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_diamond_electromancer"), "Cincinnasite Diamond Electromancer Hat", "Cincinnasite Diamond Electromancer Robe", "Cincinnasite Diamond Electromancer Leggings", "Cincinnasite Diamond Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_diamond_archevoker", "zoomers_armory:cincinnasite_diamond_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_diamond_archevoker"), "Cincinnasite Diamond Archevoker Hat", "Cincinnasite Diamond Archevoker Robe", "Cincinnasite Diamond Archevoker Leggings", "Cincinnasite Diamond Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_diamond_cultist", "zoomers_armory:cincinnasite_diamond_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_diamond_cultist"), "Cincinnasite Diamond Cultist Hat", "Cincinnasite Diamond Cultist Robe", "Cincinnasite Diamond Cultist Leggings", "Cincinnasite Diamond Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_diamond_shadowwalker", "zoomers_armory:cincinnasite_diamond_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_diamond_shadowwalker"), "Cincinnasite Diamond Shadowwalker Hat", "Cincinnasite Diamond Shadowwalker Robe", "Cincinnasite Diamond Shadowwalker Leggings", "Cincinnasite Diamond Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_diamond_priest", "zoomers_armory:cincinnasite_diamond_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_diamond_priest"), "Cincinnasite Diamond Priest Hat", "Cincinnasite Diamond Priest Robe", "Cincinnasite Diamond Priest Leggings", "Cincinnasite Diamond Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_diamond_plagued", "zoomers_armory:cincinnasite_diamond_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_diamond_plagued"), "Cincinnasite Diamond Plagued Hat", "Cincinnasite Diamond Plagued Robe", "Cincinnasite Diamond Plagued Leggings", "Cincinnasite Diamond Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_plagued_armor.png");
 e.create("zoomers_armory:nether_ruby_claws", "sword").displayName("Nether Ruby Claws").maxDamage(3835)
 e.create("zoomers_armory:nether_ruby_dagger", "sword").displayName("Nether Ruby Dagger").maxDamage(4425)
 e.create("zoomers_armory:nether_ruby_shortsword", "sword").displayName("Nether Ruby Shortsword").maxDamage(3540)
@@ -2149,6 +5065,8 @@ e.create("zoomers_armory:nether_ruby_battleaxe", "sword").displayName("Nether Ru
 e.create("zoomers_armory:nether_ruby_spear", "sword").displayName("Nether Ruby Spear").maxDamage(3540)
 e.create("zoomers_armory:nether_ruby_halberd", "sword").displayName("Nether Ruby Halberd").maxDamage(2507.5)
 e.create("zoomers_armory:nether_ruby_scythe", "sword").displayName("Nether Ruby Scythe").maxDamage(2360)
+e.create("zoomers_armory:nether_ruby_katana", "sword").displayName("Nether Ruby Katana").maxDamage(3540)
+e.create("zoomers_armory:nether_ruby_musashi", "sword").displayName("Nether Ruby Musashi").maxDamage(2655)
 e.create("zoomers_armory:nether_ruby_arcane_staff", "irons_spells_js:staff").displayName("Nether Ruby Arcane Staff").maxDamage(2950)
 e.create("zoomers_armory:nether_ruby_woodwind_staff", "irons_spells_js:staff").displayName("Nether Ruby Woodwind Staff").maxDamage(2950)
 e.create("zoomers_armory:nether_ruby_fire_staff", "irons_spells_js:staff").displayName("Nether Ruby Fire Staff").maxDamage(2950)
@@ -2172,6 +5090,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "nether_ruby_samurai", "zoomers
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "nether_ruby_samurai_master", "zoomers_armory:nether_ruby_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:nether_ruby_samurai_master"), "Nether Ruby Samurai Master Helmet", "Nether Ruby Samurai Master Chestplate", "Nether Ruby Samurai Master Leggings", "Nether Ruby Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "nether_ruby_pyromancer", "zoomers_armory:nether_ruby_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:nether_ruby_pyromancer"), "Nether Ruby Pyromancer Hat", "Nether Ruby Pyromancer Robe", "Nether Ruby Pyromancer Leggings", "Nether Ruby Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "nether_ruby_cryomancer", "zoomers_armory:nether_ruby_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:nether_ruby_cryomancer"), "Nether Ruby Cryomancer Hat", "Nether Ruby Cryomancer Robe", "Nether Ruby Cryomancer Leggings", "Nether Ruby Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "nether_ruby_electromancer", "zoomers_armory:nether_ruby_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:nether_ruby_electromancer"), "Nether Ruby Electromancer Hat", "Nether Ruby Electromancer Robe", "Nether Ruby Electromancer Leggings", "Nether Ruby Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "nether_ruby_archevoker", "zoomers_armory:nether_ruby_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:nether_ruby_archevoker"), "Nether Ruby Archevoker Hat", "Nether Ruby Archevoker Robe", "Nether Ruby Archevoker Leggings", "Nether Ruby Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "nether_ruby_cultist", "zoomers_armory:nether_ruby_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:nether_ruby_cultist"), "Nether Ruby Cultist Hat", "Nether Ruby Cultist Robe", "Nether Ruby Cultist Leggings", "Nether Ruby Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "nether_ruby_shadowwalker", "zoomers_armory:nether_ruby_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:nether_ruby_shadowwalker"), "Nether Ruby Shadowwalker Hat", "Nether Ruby Shadowwalker Robe", "Nether Ruby Shadowwalker Leggings", "Nether Ruby Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "nether_ruby_priest", "zoomers_armory:nether_ruby_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:nether_ruby_priest"), "Nether Ruby Priest Hat", "Nether Ruby Priest Robe", "Nether Ruby Priest Leggings", "Nether Ruby Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "nether_ruby_plagued", "zoomers_armory:nether_ruby_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:nether_ruby_plagued"), "Nether Ruby Plagued Hat", "Nether Ruby Plagued Robe", "Nether Ruby Plagued Leggings", "Nether Ruby Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_plagued_armor.png");
 e.create("zoomers_armory:flaming_ruby_claws", "sword").displayName("Flaming Ruby Claws").maxDamage(3932.5)
 e.create("zoomers_armory:flaming_ruby_dagger", "sword").displayName("Flaming Ruby Dagger").maxDamage(4537.5)
 e.create("zoomers_armory:flaming_ruby_shortsword", "sword").displayName("Flaming Ruby Shortsword").maxDamage(3630)
@@ -2184,6 +5118,8 @@ e.create("zoomers_armory:flaming_ruby_battleaxe", "sword").displayName("Flaming 
 e.create("zoomers_armory:flaming_ruby_spear", "sword").displayName("Flaming Ruby Spear").maxDamage(3630)
 e.create("zoomers_armory:flaming_ruby_halberd", "sword").displayName("Flaming Ruby Halberd").maxDamage(2571.25)
 e.create("zoomers_armory:flaming_ruby_scythe", "sword").displayName("Flaming Ruby Scythe").maxDamage(2420)
+e.create("zoomers_armory:flaming_ruby_katana", "sword").displayName("Flaming Ruby Katana").maxDamage(3630)
+e.create("zoomers_armory:flaming_ruby_musashi", "sword").displayName("Flaming Ruby Musashi").maxDamage(2722.5)
 e.create("zoomers_armory:flaming_ruby_arcane_staff", "irons_spells_js:staff").displayName("Flaming Ruby Arcane Staff").maxDamage(3025)
 e.create("zoomers_armory:flaming_ruby_woodwind_staff", "irons_spells_js:staff").displayName("Flaming Ruby Woodwind Staff").maxDamage(3025)
 e.create("zoomers_armory:flaming_ruby_fire_staff", "irons_spells_js:staff").displayName("Flaming Ruby Fire Staff").maxDamage(3025)
@@ -2207,6 +5143,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "flaming_ruby_samurai", "zoomer
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "flaming_ruby_samurai_master", "zoomers_armory:flaming_ruby_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flaming_ruby_samurai_master"), "Flaming Ruby Samurai Master Helmet", "Flaming Ruby Samurai Master Chestplate", "Flaming Ruby Samurai Master Leggings", "Flaming Ruby Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "flaming_ruby_pyromancer", "zoomers_armory:flaming_ruby_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flaming_ruby_pyromancer"), "Flaming Ruby Pyromancer Hat", "Flaming Ruby Pyromancer Robe", "Flaming Ruby Pyromancer Leggings", "Flaming Ruby Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "flaming_ruby_cryomancer", "zoomers_armory:flaming_ruby_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flaming_ruby_cryomancer"), "Flaming Ruby Cryomancer Hat", "Flaming Ruby Cryomancer Robe", "Flaming Ruby Cryomancer Leggings", "Flaming Ruby Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "flaming_ruby_electromancer", "zoomers_armory:flaming_ruby_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flaming_ruby_electromancer"), "Flaming Ruby Electromancer Hat", "Flaming Ruby Electromancer Robe", "Flaming Ruby Electromancer Leggings", "Flaming Ruby Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "flaming_ruby_archevoker", "zoomers_armory:flaming_ruby_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flaming_ruby_archevoker"), "Flaming Ruby Archevoker Hat", "Flaming Ruby Archevoker Robe", "Flaming Ruby Archevoker Leggings", "Flaming Ruby Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "flaming_ruby_cultist", "zoomers_armory:flaming_ruby_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flaming_ruby_cultist"), "Flaming Ruby Cultist Hat", "Flaming Ruby Cultist Robe", "Flaming Ruby Cultist Leggings", "Flaming Ruby Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "flaming_ruby_shadowwalker", "zoomers_armory:flaming_ruby_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flaming_ruby_shadowwalker"), "Flaming Ruby Shadowwalker Hat", "Flaming Ruby Shadowwalker Robe", "Flaming Ruby Shadowwalker Leggings", "Flaming Ruby Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "flaming_ruby_priest", "zoomers_armory:flaming_ruby_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flaming_ruby_priest"), "Flaming Ruby Priest Hat", "Flaming Ruby Priest Robe", "Flaming Ruby Priest Leggings", "Flaming Ruby Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "flaming_ruby_plagued", "zoomers_armory:flaming_ruby_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flaming_ruby_plagued"), "Flaming Ruby Plagued Hat", "Flaming Ruby Plagued Robe", "Flaming Ruby Plagued Leggings", "Flaming Ruby Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_plagued_armor.png");
 e.create("zoomers_armory:netherite_claws", "sword").displayName("Netherite Claws").maxDamage(4030)
 e.create("zoomers_armory:netherite_dagger", "sword").displayName("Netherite Dagger").maxDamage(4650)
 e.create("zoomers_armory:netherite_shortsword", "sword").displayName("Netherite Shortsword").maxDamage(3720)
@@ -2219,6 +5171,8 @@ e.create("zoomers_armory:netherite_battleaxe", "sword").displayName("Netherite B
 e.create("zoomers_armory:netherite_spear", "sword").displayName("Netherite Spear").maxDamage(3720)
 e.create("zoomers_armory:netherite_halberd", "sword").displayName("Netherite Halberd").maxDamage(2635)
 e.create("zoomers_armory:netherite_scythe", "sword").displayName("Netherite Scythe").maxDamage(2480)
+e.create("zoomers_armory:netherite_katana", "sword").displayName("Netherite Katana").maxDamage(3720)
+e.create("zoomers_armory:netherite_musashi", "sword").displayName("Netherite Musashi").maxDamage(2790)
 e.create("zoomers_armory:netherite_arcane_staff", "irons_spells_js:staff").displayName("Netherite Arcane Staff").maxDamage(3100)
 e.create("zoomers_armory:netherite_woodwind_staff", "irons_spells_js:staff").displayName("Netherite Woodwind Staff").maxDamage(3100)
 e.create("zoomers_armory:netherite_fire_staff", "irons_spells_js:staff").displayName("Netherite Fire Staff").maxDamage(3100)
@@ -2242,6 +5196,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "netherite_samurai", "zoomers_a
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "netherite_samurai_master", "zoomers_armory:netherite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:netherite_samurai_master"), "Netherite Samurai Master Helmet", "Netherite Samurai Master Chestplate", "Netherite Samurai Master Leggings", "Netherite Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "netherite_pyromancer", "zoomers_armory:netherite_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:netherite_pyromancer"), "Netherite Pyromancer Hat", "Netherite Pyromancer Robe", "Netherite Pyromancer Leggings", "Netherite Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/netherite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/netherite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/netherite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/netherite_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "netherite_cryomancer", "zoomers_armory:netherite_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:netherite_cryomancer"), "Netherite Cryomancer Hat", "Netherite Cryomancer Robe", "Netherite Cryomancer Leggings", "Netherite Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/netherite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/netherite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/netherite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/netherite_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "netherite_electromancer", "zoomers_armory:netherite_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:netherite_electromancer"), "Netherite Electromancer Hat", "Netherite Electromancer Robe", "Netherite Electromancer Leggings", "Netherite Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/netherite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/netherite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/netherite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/netherite_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "netherite_archevoker", "zoomers_armory:netherite_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:netherite_archevoker"), "Netherite Archevoker Hat", "Netherite Archevoker Robe", "Netherite Archevoker Leggings", "Netherite Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/netherite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/netherite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/netherite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/netherite_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "netherite_cultist", "zoomers_armory:netherite_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:netherite_cultist"), "Netherite Cultist Hat", "Netherite Cultist Robe", "Netherite Cultist Leggings", "Netherite Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/netherite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/netherite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/netherite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/netherite_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "netherite_shadowwalker", "zoomers_armory:netherite_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:netherite_shadowwalker"), "Netherite Shadowwalker Hat", "Netherite Shadowwalker Robe", "Netherite Shadowwalker Leggings", "Netherite Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/netherite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/netherite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/netherite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/netherite_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "netherite_priest", "zoomers_armory:netherite_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:netherite_priest"), "Netherite Priest Hat", "Netherite Priest Robe", "Netherite Priest Leggings", "Netherite Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/netherite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/netherite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/netherite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/netherite_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "netherite_plagued", "zoomers_armory:netherite_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:netherite_plagued"), "Netherite Plagued Hat", "Netherite Plagued Robe", "Netherite Plagued Leggings", "Netherite Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/netherite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/netherite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/netherite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/netherite_plagued_armor.png");
 e.create("zoomers_armory:cloggrum_claws", "sword").displayName("Cloggrum Claws").maxDamage(4290)
 e.create("zoomers_armory:cloggrum_dagger", "sword").displayName("Cloggrum Dagger").maxDamage(4950)
 e.create("zoomers_armory:cloggrum_shortsword", "sword").displayName("Cloggrum Shortsword").maxDamage(3960)
@@ -2254,6 +5224,8 @@ e.create("zoomers_armory:cloggrum_battleaxe", "sword").displayName("Cloggrum Bat
 e.create("zoomers_armory:cloggrum_spear", "sword").displayName("Cloggrum Spear").maxDamage(3960)
 e.create("zoomers_armory:cloggrum_halberd", "sword").displayName("Cloggrum Halberd").maxDamage(2805)
 e.create("zoomers_armory:cloggrum_scythe", "sword").displayName("Cloggrum Scythe").maxDamage(2640)
+e.create("zoomers_armory:cloggrum_katana", "sword").displayName("Cloggrum Katana").maxDamage(3960)
+e.create("zoomers_armory:cloggrum_musashi", "sword").displayName("Cloggrum Musashi").maxDamage(2970)
 e.create("zoomers_armory:cloggrum_arcane_staff", "irons_spells_js:staff").displayName("Cloggrum Arcane Staff").maxDamage(3300)
 e.create("zoomers_armory:cloggrum_woodwind_staff", "irons_spells_js:staff").displayName("Cloggrum Woodwind Staff").maxDamage(3300)
 e.create("zoomers_armory:cloggrum_fire_staff", "irons_spells_js:staff").displayName("Cloggrum Fire Staff").maxDamage(3300)
@@ -2277,6 +5249,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "cloggrum_samurai", "zoomers_ar
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "cloggrum_samurai_master", "zoomers_armory:cloggrum_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cloggrum_samurai_master"), "Cloggrum Samurai Master Helmet", "Cloggrum Samurai Master Chestplate", "Cloggrum Samurai Master Leggings", "Cloggrum Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cloggrum_pyromancer", "zoomers_armory:cloggrum_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cloggrum_pyromancer"), "Cloggrum Pyromancer Hat", "Cloggrum Pyromancer Robe", "Cloggrum Pyromancer Leggings", "Cloggrum Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cloggrum_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cloggrum_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cloggrum_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cloggrum_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cloggrum_cryomancer", "zoomers_armory:cloggrum_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cloggrum_cryomancer"), "Cloggrum Cryomancer Hat", "Cloggrum Cryomancer Robe", "Cloggrum Cryomancer Leggings", "Cloggrum Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/cloggrum_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/cloggrum_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/cloggrum_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/cloggrum_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cloggrum_electromancer", "zoomers_armory:cloggrum_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cloggrum_electromancer"), "Cloggrum Electromancer Hat", "Cloggrum Electromancer Robe", "Cloggrum Electromancer Leggings", "Cloggrum Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/cloggrum_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/cloggrum_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/cloggrum_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/cloggrum_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cloggrum_archevoker", "zoomers_armory:cloggrum_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cloggrum_archevoker"), "Cloggrum Archevoker Hat", "Cloggrum Archevoker Robe", "Cloggrum Archevoker Leggings", "Cloggrum Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/cloggrum_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/cloggrum_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/cloggrum_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/cloggrum_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cloggrum_cultist", "zoomers_armory:cloggrum_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cloggrum_cultist"), "Cloggrum Cultist Hat", "Cloggrum Cultist Robe", "Cloggrum Cultist Leggings", "Cloggrum Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/cloggrum_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/cloggrum_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/cloggrum_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/cloggrum_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cloggrum_shadowwalker", "zoomers_armory:cloggrum_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cloggrum_shadowwalker"), "Cloggrum Shadowwalker Hat", "Cloggrum Shadowwalker Robe", "Cloggrum Shadowwalker Leggings", "Cloggrum Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/cloggrum_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/cloggrum_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/cloggrum_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/cloggrum_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cloggrum_priest", "zoomers_armory:cloggrum_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cloggrum_priest"), "Cloggrum Priest Hat", "Cloggrum Priest Robe", "Cloggrum Priest Leggings", "Cloggrum Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/cloggrum_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/cloggrum_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/cloggrum_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/cloggrum_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "cloggrum_plagued", "zoomers_armory:cloggrum_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cloggrum_plagued"), "Cloggrum Plagued Hat", "Cloggrum Plagued Robe", "Cloggrum Plagued Leggings", "Cloggrum Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/cloggrum_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/cloggrum_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/cloggrum_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/cloggrum_plagued_armor.png");
 e.create("zoomers_armory:froststeel_claws", "sword").displayName("Froststeel Claws").maxDamage(4550)
 e.create("zoomers_armory:froststeel_dagger", "sword").displayName("Froststeel Dagger").maxDamage(5250)
 e.create("zoomers_armory:froststeel_shortsword", "sword").displayName("Froststeel Shortsword").maxDamage(4200)
@@ -2289,6 +5277,8 @@ e.create("zoomers_armory:froststeel_battleaxe", "sword").displayName("Froststeel
 e.create("zoomers_armory:froststeel_spear", "sword").displayName("Froststeel Spear").maxDamage(4200)
 e.create("zoomers_armory:froststeel_halberd", "sword").displayName("Froststeel Halberd").maxDamage(2975)
 e.create("zoomers_armory:froststeel_scythe", "sword").displayName("Froststeel Scythe").maxDamage(2800)
+e.create("zoomers_armory:froststeel_katana", "sword").displayName("Froststeel Katana").maxDamage(4200)
+e.create("zoomers_armory:froststeel_musashi", "sword").displayName("Froststeel Musashi").maxDamage(3150)
 e.create("zoomers_armory:froststeel_arcane_staff", "irons_spells_js:staff").displayName("Froststeel Arcane Staff").maxDamage(3500)
 e.create("zoomers_armory:froststeel_woodwind_staff", "irons_spells_js:staff").displayName("Froststeel Woodwind Staff").maxDamage(3500)
 e.create("zoomers_armory:froststeel_fire_staff", "irons_spells_js:staff").displayName("Froststeel Fire Staff").maxDamage(3500)
@@ -2312,6 +5302,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "froststeel_samurai", "zoomers_
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "froststeel_samurai_master", "zoomers_armory:froststeel_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:froststeel_samurai_master"), "Froststeel Samurai Master Helmet", "Froststeel Samurai Master Chestplate", "Froststeel Samurai Master Leggings", "Froststeel Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "froststeel_pyromancer", "zoomers_armory:froststeel_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:froststeel_pyromancer"), "Froststeel Pyromancer Hat", "Froststeel Pyromancer Robe", "Froststeel Pyromancer Leggings", "Froststeel Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/froststeel_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/froststeel_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/froststeel_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/froststeel_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "froststeel_cryomancer", "zoomers_armory:froststeel_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:froststeel_cryomancer"), "Froststeel Cryomancer Hat", "Froststeel Cryomancer Robe", "Froststeel Cryomancer Leggings", "Froststeel Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/froststeel_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/froststeel_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/froststeel_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/froststeel_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "froststeel_electromancer", "zoomers_armory:froststeel_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:froststeel_electromancer"), "Froststeel Electromancer Hat", "Froststeel Electromancer Robe", "Froststeel Electromancer Leggings", "Froststeel Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/froststeel_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/froststeel_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/froststeel_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/froststeel_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "froststeel_archevoker", "zoomers_armory:froststeel_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:froststeel_archevoker"), "Froststeel Archevoker Hat", "Froststeel Archevoker Robe", "Froststeel Archevoker Leggings", "Froststeel Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/froststeel_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/froststeel_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/froststeel_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/froststeel_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "froststeel_cultist", "zoomers_armory:froststeel_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:froststeel_cultist"), "Froststeel Cultist Hat", "Froststeel Cultist Robe", "Froststeel Cultist Leggings", "Froststeel Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/froststeel_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/froststeel_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/froststeel_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/froststeel_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "froststeel_shadowwalker", "zoomers_armory:froststeel_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:froststeel_shadowwalker"), "Froststeel Shadowwalker Hat", "Froststeel Shadowwalker Robe", "Froststeel Shadowwalker Leggings", "Froststeel Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/froststeel_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/froststeel_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/froststeel_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/froststeel_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "froststeel_priest", "zoomers_armory:froststeel_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:froststeel_priest"), "Froststeel Priest Hat", "Froststeel Priest Robe", "Froststeel Priest Leggings", "Froststeel Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/froststeel_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/froststeel_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/froststeel_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/froststeel_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "froststeel_plagued", "zoomers_armory:froststeel_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:froststeel_plagued"), "Froststeel Plagued Hat", "Froststeel Plagued Robe", "Froststeel Plagued Leggings", "Froststeel Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/froststeel_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/froststeel_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/froststeel_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/froststeel_plagued_armor.png");
 e.create("zoomers_armory:utherium_claws", "sword").displayName("Utherium Claws").maxDamage(4810)
 e.create("zoomers_armory:utherium_dagger", "sword").displayName("Utherium Dagger").maxDamage(5550)
 e.create("zoomers_armory:utherium_shortsword", "sword").displayName("Utherium Shortsword").maxDamage(4440)
@@ -2324,6 +5330,8 @@ e.create("zoomers_armory:utherium_battleaxe", "sword").displayName("Utherium Bat
 e.create("zoomers_armory:utherium_spear", "sword").displayName("Utherium Spear").maxDamage(4440)
 e.create("zoomers_armory:utherium_halberd", "sword").displayName("Utherium Halberd").maxDamage(3145)
 e.create("zoomers_armory:utherium_scythe", "sword").displayName("Utherium Scythe").maxDamage(2960)
+e.create("zoomers_armory:utherium_katana", "sword").displayName("Utherium Katana").maxDamage(4440)
+e.create("zoomers_armory:utherium_musashi", "sword").displayName("Utherium Musashi").maxDamage(3330)
 e.create("zoomers_armory:utherium_arcane_staff", "irons_spells_js:staff").displayName("Utherium Arcane Staff").maxDamage(3700)
 e.create("zoomers_armory:utherium_woodwind_staff", "irons_spells_js:staff").displayName("Utherium Woodwind Staff").maxDamage(3700)
 e.create("zoomers_armory:utherium_fire_staff", "irons_spells_js:staff").displayName("Utherium Fire Staff").maxDamage(3700)
@@ -2347,6 +5355,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "utherium_samurai", "zoomers_ar
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "utherium_samurai_master", "zoomers_armory:utherium_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:utherium_samurai_master"), "Utherium Samurai Master Helmet", "Utherium Samurai Master Chestplate", "Utherium Samurai Master Leggings", "Utherium Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "utherium_pyromancer", "zoomers_armory:utherium_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:utherium_pyromancer"), "Utherium Pyromancer Hat", "Utherium Pyromancer Robe", "Utherium Pyromancer Leggings", "Utherium Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/utherium_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/utherium_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/utherium_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/utherium_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "utherium_cryomancer", "zoomers_armory:utherium_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:utherium_cryomancer"), "Utherium Cryomancer Hat", "Utherium Cryomancer Robe", "Utherium Cryomancer Leggings", "Utherium Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/utherium_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/utherium_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/utherium_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/utherium_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "utherium_electromancer", "zoomers_armory:utherium_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:utherium_electromancer"), "Utherium Electromancer Hat", "Utherium Electromancer Robe", "Utherium Electromancer Leggings", "Utherium Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/utherium_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/utherium_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/utherium_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/utherium_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "utherium_archevoker", "zoomers_armory:utherium_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:utherium_archevoker"), "Utherium Archevoker Hat", "Utherium Archevoker Robe", "Utherium Archevoker Leggings", "Utherium Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/utherium_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/utherium_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/utherium_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/utherium_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "utherium_cultist", "zoomers_armory:utherium_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:utherium_cultist"), "Utherium Cultist Hat", "Utherium Cultist Robe", "Utherium Cultist Leggings", "Utherium Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/utherium_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/utherium_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/utherium_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/utherium_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "utherium_shadowwalker", "zoomers_armory:utherium_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:utherium_shadowwalker"), "Utherium Shadowwalker Hat", "Utherium Shadowwalker Robe", "Utherium Shadowwalker Leggings", "Utherium Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/utherium_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/utherium_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/utherium_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/utherium_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "utherium_priest", "zoomers_armory:utherium_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:utherium_priest"), "Utherium Priest Hat", "Utherium Priest Robe", "Utherium Priest Leggings", "Utherium Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/utherium_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/utherium_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/utherium_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/utherium_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "utherium_plagued", "zoomers_armory:utherium_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:utherium_plagued"), "Utherium Plagued Hat", "Utherium Plagued Robe", "Utherium Plagued Leggings", "Utherium Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/utherium_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/utherium_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/utherium_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/utherium_plagued_armor.png");
 e.create("zoomers_armory:forgotten_claws", "sword").displayName("Forgotten Claws").maxDamage(5330)
 e.create("zoomers_armory:forgotten_dagger", "sword").displayName("Forgotten Dagger").maxDamage(6150)
 e.create("zoomers_armory:forgotten_shortsword", "sword").displayName("Forgotten Shortsword").maxDamage(4920)
@@ -2359,6 +5383,8 @@ e.create("zoomers_armory:forgotten_battleaxe", "sword").displayName("Forgotten B
 e.create("zoomers_armory:forgotten_spear", "sword").displayName("Forgotten Spear").maxDamage(4920)
 e.create("zoomers_armory:forgotten_halberd", "sword").displayName("Forgotten Halberd").maxDamage(3485)
 e.create("zoomers_armory:forgotten_scythe", "sword").displayName("Forgotten Scythe").maxDamage(3280)
+e.create("zoomers_armory:forgotten_katana", "sword").displayName("Forgotten Katana").maxDamage(4920)
+e.create("zoomers_armory:forgotten_musashi", "sword").displayName("Forgotten Musashi").maxDamage(3690)
 e.create("zoomers_armory:forgotten_arcane_staff", "irons_spells_js:staff").displayName("Forgotten Arcane Staff").maxDamage(4100)
 e.create("zoomers_armory:forgotten_woodwind_staff", "irons_spells_js:staff").displayName("Forgotten Woodwind Staff").maxDamage(4100)
 e.create("zoomers_armory:forgotten_fire_staff", "irons_spells_js:staff").displayName("Forgotten Fire Staff").maxDamage(4100)
@@ -2382,6 +5408,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "forgotten_samurai", "zoomers_a
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "forgotten_samurai_master", "zoomers_armory:forgotten_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:forgotten_samurai_master"), "Forgotten Samurai Master Helmet", "Forgotten Samurai Master Chestplate", "Forgotten Samurai Master Leggings", "Forgotten Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "forgotten_pyromancer", "zoomers_armory:forgotten_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:forgotten_pyromancer"), "Forgotten Pyromancer Hat", "Forgotten Pyromancer Robe", "Forgotten Pyromancer Leggings", "Forgotten Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/forgotten_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/forgotten_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/forgotten_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/forgotten_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "forgotten_cryomancer", "zoomers_armory:forgotten_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:forgotten_cryomancer"), "Forgotten Cryomancer Hat", "Forgotten Cryomancer Robe", "Forgotten Cryomancer Leggings", "Forgotten Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/forgotten_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/forgotten_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/forgotten_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/forgotten_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "forgotten_electromancer", "zoomers_armory:forgotten_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:forgotten_electromancer"), "Forgotten Electromancer Hat", "Forgotten Electromancer Robe", "Forgotten Electromancer Leggings", "Forgotten Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/forgotten_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/forgotten_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/forgotten_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/forgotten_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "forgotten_archevoker", "zoomers_armory:forgotten_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:forgotten_archevoker"), "Forgotten Archevoker Hat", "Forgotten Archevoker Robe", "Forgotten Archevoker Leggings", "Forgotten Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/forgotten_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/forgotten_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/forgotten_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/forgotten_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "forgotten_cultist", "zoomers_armory:forgotten_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:forgotten_cultist"), "Forgotten Cultist Hat", "Forgotten Cultist Robe", "Forgotten Cultist Leggings", "Forgotten Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/forgotten_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/forgotten_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/forgotten_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/forgotten_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "forgotten_shadowwalker", "zoomers_armory:forgotten_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:forgotten_shadowwalker"), "Forgotten Shadowwalker Hat", "Forgotten Shadowwalker Robe", "Forgotten Shadowwalker Leggings", "Forgotten Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/forgotten_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/forgotten_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/forgotten_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/forgotten_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "forgotten_priest", "zoomers_armory:forgotten_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:forgotten_priest"), "Forgotten Priest Hat", "Forgotten Priest Robe", "Forgotten Priest Leggings", "Forgotten Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/forgotten_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/forgotten_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/forgotten_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/forgotten_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "forgotten_plagued", "zoomers_armory:forgotten_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:forgotten_plagued"), "Forgotten Plagued Hat", "Forgotten Plagued Robe", "Forgotten Plagued Leggings", "Forgotten Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/forgotten_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/forgotten_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/forgotten_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/forgotten_plagued_armor.png");
 e.create("zoomers_armory:jade_claws", "sword").displayName("Jade Claws").maxDamage(5200)
 e.create("zoomers_armory:jade_dagger", "sword").displayName("Jade Dagger").maxDamage(6000)
 e.create("zoomers_armory:jade_shortsword", "sword").displayName("Jade Shortsword").maxDamage(4800)
@@ -2394,6 +5436,8 @@ e.create("zoomers_armory:jade_battleaxe", "sword").displayName("Jade Battleaxe")
 e.create("zoomers_armory:jade_spear", "sword").displayName("Jade Spear").maxDamage(4800)
 e.create("zoomers_armory:jade_halberd", "sword").displayName("Jade Halberd").maxDamage(3400)
 e.create("zoomers_armory:jade_scythe", "sword").displayName("Jade Scythe").maxDamage(3200)
+e.create("zoomers_armory:jade_katana", "sword").displayName("Jade Katana").maxDamage(4800)
+e.create("zoomers_armory:jade_musashi", "sword").displayName("Jade Musashi").maxDamage(3600)
 e.create("zoomers_armory:jade_arcane_staff", "irons_spells_js:staff").displayName("Jade Arcane Staff").maxDamage(4000)
 e.create("zoomers_armory:jade_woodwind_staff", "irons_spells_js:staff").displayName("Jade Woodwind Staff").maxDamage(4000)
 e.create("zoomers_armory:jade_fire_staff", "irons_spells_js:staff").displayName("Jade Fire Staff").maxDamage(4000)
@@ -2417,6 +5461,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "jade_samurai", "zoomers_armory
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "jade_samurai_master", "zoomers_armory:jade_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:jade_samurai_master"), "Jade Samurai Master Helmet", "Jade Samurai Master Chestplate", "Jade Samurai Master Leggings", "Jade Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "jade_pyromancer", "zoomers_armory:jade_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:jade_pyromancer"), "Jade Pyromancer Hat", "Jade Pyromancer Robe", "Jade Pyromancer Leggings", "Jade Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/jade_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/jade_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/jade_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/jade_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "jade_cryomancer", "zoomers_armory:jade_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:jade_cryomancer"), "Jade Cryomancer Hat", "Jade Cryomancer Robe", "Jade Cryomancer Leggings", "Jade Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/jade_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/jade_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/jade_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/jade_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "jade_electromancer", "zoomers_armory:jade_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:jade_electromancer"), "Jade Electromancer Hat", "Jade Electromancer Robe", "Jade Electromancer Leggings", "Jade Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/jade_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/jade_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/jade_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/jade_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "jade_archevoker", "zoomers_armory:jade_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:jade_archevoker"), "Jade Archevoker Hat", "Jade Archevoker Robe", "Jade Archevoker Leggings", "Jade Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/jade_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/jade_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/jade_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/jade_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "jade_cultist", "zoomers_armory:jade_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:jade_cultist"), "Jade Cultist Hat", "Jade Cultist Robe", "Jade Cultist Leggings", "Jade Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/jade_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/jade_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/jade_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/jade_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "jade_shadowwalker", "zoomers_armory:jade_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:jade_shadowwalker"), "Jade Shadowwalker Hat", "Jade Shadowwalker Robe", "Jade Shadowwalker Leggings", "Jade Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/jade_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/jade_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/jade_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/jade_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "jade_priest", "zoomers_armory:jade_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:jade_priest"), "Jade Priest Hat", "Jade Priest Robe", "Jade Priest Leggings", "Jade Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/jade_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/jade_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/jade_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/jade_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "jade_plagued", "zoomers_armory:jade_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:jade_plagued"), "Jade Plagued Hat", "Jade Plagued Robe", "Jade Plagued Leggings", "Jade Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/jade_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/jade_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/jade_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/jade_plagued_armor.png");
 e.create("zoomers_armory:crystalline_claws", "sword").displayName("Crystalline Claws").maxDamage(5980)
 e.create("zoomers_armory:crystalline_dagger", "sword").displayName("Crystalline Dagger").maxDamage(6900)
 e.create("zoomers_armory:crystalline_shortsword", "sword").displayName("Crystalline Shortsword").maxDamage(5520)
@@ -2429,6 +5489,8 @@ e.create("zoomers_armory:crystalline_battleaxe", "sword").displayName("Crystalli
 e.create("zoomers_armory:crystalline_spear", "sword").displayName("Crystalline Spear").maxDamage(5520)
 e.create("zoomers_armory:crystalline_halberd", "sword").displayName("Crystalline Halberd").maxDamage(3910)
 e.create("zoomers_armory:crystalline_scythe", "sword").displayName("Crystalline Scythe").maxDamage(3680)
+e.create("zoomers_armory:crystalline_katana", "sword").displayName("Crystalline Katana").maxDamage(5520)
+e.create("zoomers_armory:crystalline_musashi", "sword").displayName("Crystalline Musashi").maxDamage(4140)
 e.create("zoomers_armory:crystalline_arcane_staff", "irons_spells_js:staff").displayName("Crystalline Arcane Staff").maxDamage(4600)
 e.create("zoomers_armory:crystalline_woodwind_staff", "irons_spells_js:staff").displayName("Crystalline Woodwind Staff").maxDamage(4600)
 e.create("zoomers_armory:crystalline_fire_staff", "irons_spells_js:staff").displayName("Crystalline Fire Staff").maxDamage(4600)
@@ -2456,6 +5518,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "crystalline_samurai", "zoomers
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "crystalline_samurai_master", "zoomers_armory:crystalline_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:crystalline_samurai_master"), "Crystalline Samurai Master Helmet", "Crystalline Samurai Master Chestplate", "Crystalline Samurai Master Leggings", "Crystalline Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "crystalline_pyromancer", "zoomers_armory:crystalline_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:crystalline_pyromancer"), "Crystalline Pyromancer Hat", "Crystalline Pyromancer Robe", "Crystalline Pyromancer Leggings", "Crystalline Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/crystalline_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/crystalline_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/crystalline_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/crystalline_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "crystalline_cryomancer", "zoomers_armory:crystalline_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:crystalline_cryomancer"), "Crystalline Cryomancer Hat", "Crystalline Cryomancer Robe", "Crystalline Cryomancer Leggings", "Crystalline Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/crystalline_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/crystalline_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/crystalline_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/crystalline_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "crystalline_electromancer", "zoomers_armory:crystalline_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:crystalline_electromancer"), "Crystalline Electromancer Hat", "Crystalline Electromancer Robe", "Crystalline Electromancer Leggings", "Crystalline Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/crystalline_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/crystalline_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/crystalline_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/crystalline_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "crystalline_archevoker", "zoomers_armory:crystalline_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:crystalline_archevoker"), "Crystalline Archevoker Hat", "Crystalline Archevoker Robe", "Crystalline Archevoker Leggings", "Crystalline Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/crystalline_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/crystalline_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/crystalline_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/crystalline_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "crystalline_cultist", "zoomers_armory:crystalline_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:crystalline_cultist"), "Crystalline Cultist Hat", "Crystalline Cultist Robe", "Crystalline Cultist Leggings", "Crystalline Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/crystalline_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/crystalline_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/crystalline_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/crystalline_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "crystalline_shadowwalker", "zoomers_armory:crystalline_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:crystalline_shadowwalker"), "Crystalline Shadowwalker Hat", "Crystalline Shadowwalker Robe", "Crystalline Shadowwalker Leggings", "Crystalline Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/crystalline_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/crystalline_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/crystalline_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/crystalline_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "crystalline_priest", "zoomers_armory:crystalline_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:crystalline_priest"), "Crystalline Priest Hat", "Crystalline Priest Robe", "Crystalline Priest Leggings", "Crystalline Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/crystalline_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/crystalline_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/crystalline_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/crystalline_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "crystalline_plagued", "zoomers_armory:crystalline_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:crystalline_plagued"), "Crystalline Plagued Hat", "Crystalline Plagued Robe", "Crystalline Plagued Leggings", "Crystalline Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/crystalline_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/crystalline_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/crystalline_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/crystalline_plagued_armor.png");
 e.create("zoomers_armory:dragon_claws", "sword").displayName("Dragon Claws").maxDamage(6240)
 e.create("zoomers_armory:dragon_dagger", "sword").displayName("Dragon Dagger").maxDamage(7200)
 e.create("zoomers_armory:dragon_shortsword", "sword").displayName("Dragon Shortsword").maxDamage(5760)
@@ -2468,6 +5546,8 @@ e.create("zoomers_armory:dragon_battleaxe", "sword").displayName("Dragon Battlea
 e.create("zoomers_armory:dragon_spear", "sword").displayName("Dragon Spear").maxDamage(5760)
 e.create("zoomers_armory:dragon_halberd", "sword").displayName("Dragon Halberd").maxDamage(4080)
 e.create("zoomers_armory:dragon_scythe", "sword").displayName("Dragon Scythe").maxDamage(3840)
+e.create("zoomers_armory:dragon_katana", "sword").displayName("Dragon Katana").maxDamage(5760)
+e.create("zoomers_armory:dragon_musashi", "sword").displayName("Dragon Musashi").maxDamage(4320)
 e.create("zoomers_armory:dragon_arcane_staff", "irons_spells_js:staff").displayName("Dragon Arcane Staff").maxDamage(4800)
 e.create("zoomers_armory:dragon_woodwind_staff", "irons_spells_js:staff").displayName("Dragon Woodwind Staff").maxDamage(4800)
 e.create("zoomers_armory:dragon_fire_staff", "irons_spells_js:staff").displayName("Dragon Fire Staff").maxDamage(4800)
@@ -2491,6 +5571,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "dragon_samurai", "zoomers_armo
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "dragon_samurai_master", "zoomers_armory:dragon_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:dragon_samurai_master"), "Dragon Samurai Master Helmet", "Dragon Samurai Master Chestplate", "Dragon Samurai Master Leggings", "Dragon Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "dragon_pyromancer", "zoomers_armory:dragon_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:dragon_pyromancer"), "Dragon Pyromancer Hat", "Dragon Pyromancer Robe", "Dragon Pyromancer Leggings", "Dragon Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/dragon_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/dragon_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/dragon_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/dragon_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "dragon_cryomancer", "zoomers_armory:dragon_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:dragon_cryomancer"), "Dragon Cryomancer Hat", "Dragon Cryomancer Robe", "Dragon Cryomancer Leggings", "Dragon Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/dragon_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/dragon_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/dragon_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/dragon_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "dragon_electromancer", "zoomers_armory:dragon_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:dragon_electromancer"), "Dragon Electromancer Hat", "Dragon Electromancer Robe", "Dragon Electromancer Leggings", "Dragon Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/dragon_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/dragon_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/dragon_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/dragon_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "dragon_archevoker", "zoomers_armory:dragon_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:dragon_archevoker"), "Dragon Archevoker Hat", "Dragon Archevoker Robe", "Dragon Archevoker Leggings", "Dragon Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/dragon_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/dragon_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/dragon_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/dragon_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "dragon_cultist", "zoomers_armory:dragon_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:dragon_cultist"), "Dragon Cultist Hat", "Dragon Cultist Robe", "Dragon Cultist Leggings", "Dragon Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/dragon_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/dragon_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/dragon_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/dragon_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "dragon_shadowwalker", "zoomers_armory:dragon_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:dragon_shadowwalker"), "Dragon Shadowwalker Hat", "Dragon Shadowwalker Robe", "Dragon Shadowwalker Leggings", "Dragon Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/dragon_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/dragon_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/dragon_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/dragon_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "dragon_priest", "zoomers_armory:dragon_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:dragon_priest"), "Dragon Priest Hat", "Dragon Priest Robe", "Dragon Priest Leggings", "Dragon Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/dragon_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/dragon_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/dragon_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/dragon_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "dragon_plagued", "zoomers_armory:dragon_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:dragon_plagued"), "Dragon Plagued Hat", "Dragon Plagued Robe", "Dragon Plagued Leggings", "Dragon Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/dragon_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/dragon_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/dragon_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/dragon_plagued_armor.png");
 e.create("zoomers_armory:enderite_claws", "sword").displayName("Enderite Claws").maxDamage(7150)
 e.create("zoomers_armory:enderite_dagger", "sword").displayName("Enderite Dagger").maxDamage(8250)
 e.create("zoomers_armory:enderite_shortsword", "sword").displayName("Enderite Shortsword").maxDamage(6600)
@@ -2503,6 +5599,8 @@ e.create("zoomers_armory:enderite_battleaxe", "sword").displayName("Enderite Bat
 e.create("zoomers_armory:enderite_spear", "sword").displayName("Enderite Spear").maxDamage(6600)
 e.create("zoomers_armory:enderite_halberd", "sword").displayName("Enderite Halberd").maxDamage(4675)
 e.create("zoomers_armory:enderite_scythe", "sword").displayName("Enderite Scythe").maxDamage(4400)
+e.create("zoomers_armory:enderite_katana", "sword").displayName("Enderite Katana").maxDamage(6600)
+e.create("zoomers_armory:enderite_musashi", "sword").displayName("Enderite Musashi").maxDamage(4950)
 e.create("zoomers_armory:enderite_arcane_staff", "irons_spells_js:staff").displayName("Enderite Arcane Staff").maxDamage(5500)
 e.create("zoomers_armory:enderite_woodwind_staff", "irons_spells_js:staff").displayName("Enderite Woodwind Staff").maxDamage(5500)
 e.create("zoomers_armory:enderite_fire_staff", "irons_spells_js:staff").displayName("Enderite Fire Staff").maxDamage(5500)
@@ -2526,6 +5624,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "enderite_samurai", "zoomers_ar
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "enderite_samurai_master", "zoomers_armory:enderite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enderite_samurai_master"), "Enderite Samurai Master Helmet", "Enderite Samurai Master Chestplate", "Enderite Samurai Master Leggings", "Enderite Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "enderite_pyromancer", "zoomers_armory:enderite_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enderite_pyromancer"), "Enderite Pyromancer Hat", "Enderite Pyromancer Robe", "Enderite Pyromancer Leggings", "Enderite Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/enderite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/enderite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/enderite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/enderite_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "enderite_cryomancer", "zoomers_armory:enderite_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enderite_cryomancer"), "Enderite Cryomancer Hat", "Enderite Cryomancer Robe", "Enderite Cryomancer Leggings", "Enderite Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/enderite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/enderite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/enderite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/enderite_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "enderite_electromancer", "zoomers_armory:enderite_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enderite_electromancer"), "Enderite Electromancer Hat", "Enderite Electromancer Robe", "Enderite Electromancer Leggings", "Enderite Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/enderite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/enderite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/enderite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/enderite_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "enderite_archevoker", "zoomers_armory:enderite_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enderite_archevoker"), "Enderite Archevoker Hat", "Enderite Archevoker Robe", "Enderite Archevoker Leggings", "Enderite Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/enderite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/enderite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/enderite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/enderite_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "enderite_cultist", "zoomers_armory:enderite_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enderite_cultist"), "Enderite Cultist Hat", "Enderite Cultist Robe", "Enderite Cultist Leggings", "Enderite Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/enderite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/enderite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/enderite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/enderite_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "enderite_shadowwalker", "zoomers_armory:enderite_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enderite_shadowwalker"), "Enderite Shadowwalker Hat", "Enderite Shadowwalker Robe", "Enderite Shadowwalker Leggings", "Enderite Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/enderite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/enderite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/enderite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/enderite_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "enderite_priest", "zoomers_armory:enderite_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enderite_priest"), "Enderite Priest Hat", "Enderite Priest Robe", "Enderite Priest Leggings", "Enderite Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/enderite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/enderite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/enderite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/enderite_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "enderite_plagued", "zoomers_armory:enderite_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enderite_plagued"), "Enderite Plagued Hat", "Enderite Plagued Robe", "Enderite Plagued Leggings", "Enderite Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/enderite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/enderite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/enderite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/enderite_plagued_armor.png");
 e.create("zoomers_armory:immemorial_claws", "sword").displayName("Immemorial Claws").maxDamage(7410)
 e.create("zoomers_armory:immemorial_dagger", "sword").displayName("Immemorial Dagger").maxDamage(8550)
 e.create("zoomers_armory:immemorial_shortsword", "sword").displayName("Immemorial Shortsword").maxDamage(6840)
@@ -2538,6 +5652,8 @@ e.create("zoomers_armory:immemorial_battleaxe", "sword").displayName("Immemorial
 e.create("zoomers_armory:immemorial_spear", "sword").displayName("Immemorial Spear").maxDamage(6840)
 e.create("zoomers_armory:immemorial_halberd", "sword").displayName("Immemorial Halberd").maxDamage(4845)
 e.create("zoomers_armory:immemorial_scythe", "sword").displayName("Immemorial Scythe").maxDamage(4560)
+e.create("zoomers_armory:immemorial_katana", "sword").displayName("Immemorial Katana").maxDamage(6840)
+e.create("zoomers_armory:immemorial_musashi", "sword").displayName("Immemorial Musashi").maxDamage(5130)
 e.create("zoomers_armory:immemorial_arcane_staff", "irons_spells_js:staff").displayName("Immemorial Arcane Staff").maxDamage(5700)
 e.create("zoomers_armory:immemorial_woodwind_staff", "irons_spells_js:staff").displayName("Immemorial Woodwind Staff").maxDamage(5700)
 e.create("zoomers_armory:immemorial_fire_staff", "irons_spells_js:staff").displayName("Immemorial Fire Staff").maxDamage(5700)
@@ -2561,6 +5677,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "immemorial_samurai", "zoomers_
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "immemorial_samurai_master", "zoomers_armory:immemorial_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:immemorial_samurai_master"), "Immemorial Samurai Master Helmet", "Immemorial Samurai Master Chestplate", "Immemorial Samurai Master Leggings", "Immemorial Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "immemorial_pyromancer", "zoomers_armory:immemorial_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:immemorial_pyromancer"), "Immemorial Pyromancer Hat", "Immemorial Pyromancer Robe", "Immemorial Pyromancer Leggings", "Immemorial Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/immemorial_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/immemorial_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/immemorial_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/immemorial_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "immemorial_cryomancer", "zoomers_armory:immemorial_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:immemorial_cryomancer"), "Immemorial Cryomancer Hat", "Immemorial Cryomancer Robe", "Immemorial Cryomancer Leggings", "Immemorial Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/immemorial_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/immemorial_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/immemorial_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/immemorial_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "immemorial_electromancer", "zoomers_armory:immemorial_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:immemorial_electromancer"), "Immemorial Electromancer Hat", "Immemorial Electromancer Robe", "Immemorial Electromancer Leggings", "Immemorial Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/immemorial_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/immemorial_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/immemorial_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/immemorial_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "immemorial_archevoker", "zoomers_armory:immemorial_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:immemorial_archevoker"), "Immemorial Archevoker Hat", "Immemorial Archevoker Robe", "Immemorial Archevoker Leggings", "Immemorial Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/immemorial_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/immemorial_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/immemorial_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/immemorial_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "immemorial_cultist", "zoomers_armory:immemorial_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:immemorial_cultist"), "Immemorial Cultist Hat", "Immemorial Cultist Robe", "Immemorial Cultist Leggings", "Immemorial Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/immemorial_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/immemorial_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/immemorial_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/immemorial_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "immemorial_shadowwalker", "zoomers_armory:immemorial_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:immemorial_shadowwalker"), "Immemorial Shadowwalker Hat", "Immemorial Shadowwalker Robe", "Immemorial Shadowwalker Leggings", "Immemorial Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/immemorial_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/immemorial_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/immemorial_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/immemorial_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "immemorial_priest", "zoomers_armory:immemorial_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:immemorial_priest"), "Immemorial Priest Hat", "Immemorial Priest Robe", "Immemorial Priest Leggings", "Immemorial Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/immemorial_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/immemorial_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/immemorial_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/immemorial_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "immemorial_plagued", "zoomers_armory:immemorial_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:immemorial_plagued"), "Immemorial Plagued Hat", "Immemorial Plagued Robe", "Immemorial Plagued Leggings", "Immemorial Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/immemorial_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/immemorial_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/immemorial_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/immemorial_plagued_armor.png");
 e.create("zoomers_armory:soul_claws", "sword").displayName("Soul Claws").maxDamage(7800)
 e.create("zoomers_armory:soul_dagger", "sword").displayName("Soul Dagger").maxDamage(9000)
 e.create("zoomers_armory:soul_shortsword", "sword").displayName("Soul Shortsword").maxDamage(7200)
@@ -2573,6 +5705,8 @@ e.create("zoomers_armory:soul_battleaxe", "sword").displayName("Soul Battleaxe")
 e.create("zoomers_armory:soul_spear", "sword").displayName("Soul Spear").maxDamage(7200)
 e.create("zoomers_armory:soul_halberd", "sword").displayName("Soul Halberd").maxDamage(5100)
 e.create("zoomers_armory:soul_scythe", "sword").displayName("Soul Scythe").maxDamage(4800)
+e.create("zoomers_armory:soul_katana", "sword").displayName("Soul Katana").maxDamage(7200)
+e.create("zoomers_armory:soul_musashi", "sword").displayName("Soul Musashi").maxDamage(5400)
 e.create("zoomers_armory:soul_arcane_staff", "irons_spells_js:staff").displayName("Soul Arcane Staff").maxDamage(6000)
 e.create("zoomers_armory:soul_woodwind_staff", "irons_spells_js:staff").displayName("Soul Woodwind Staff").maxDamage(6000)
 e.create("zoomers_armory:soul_fire_staff", "irons_spells_js:staff").displayName("Soul Fire Staff").maxDamage(6000)
@@ -2595,6 +5729,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "soul_samurai", "zoomers_armory
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "soul_samurai_master", "zoomers_armory:soul_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:soul_samurai_master"), "Soul Samurai Master Helmet", "Soul Samurai Master Chestplate", "Soul Samurai Master Leggings", "Soul Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "soul_pyromancer", "zoomers_armory:soul_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:soul_pyromancer"), "Soul Pyromancer Hat", "Soul Pyromancer Robe", "Soul Pyromancer Leggings", "Soul Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/soul_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/soul_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/soul_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/soul_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "soul_cryomancer", "zoomers_armory:soul_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:soul_cryomancer"), "Soul Cryomancer Hat", "Soul Cryomancer Robe", "Soul Cryomancer Leggings", "Soul Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/soul_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/soul_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/soul_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/soul_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "soul_electromancer", "zoomers_armory:soul_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:soul_electromancer"), "Soul Electromancer Hat", "Soul Electromancer Robe", "Soul Electromancer Leggings", "Soul Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/soul_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/soul_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/soul_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/soul_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "soul_archevoker", "zoomers_armory:soul_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:soul_archevoker"), "Soul Archevoker Hat", "Soul Archevoker Robe", "Soul Archevoker Leggings", "Soul Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/soul_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/soul_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/soul_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/soul_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "soul_cultist", "zoomers_armory:soul_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:soul_cultist"), "Soul Cultist Hat", "Soul Cultist Robe", "Soul Cultist Leggings", "Soul Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/soul_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/soul_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/soul_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/soul_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "soul_shadowwalker", "zoomers_armory:soul_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:soul_shadowwalker"), "Soul Shadowwalker Hat", "Soul Shadowwalker Robe", "Soul Shadowwalker Leggings", "Soul Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/soul_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/soul_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/soul_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/soul_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "soul_priest", "zoomers_armory:soul_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:soul_priest"), "Soul Priest Hat", "Soul Priest Robe", "Soul Priest Leggings", "Soul Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/soul_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/soul_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/soul_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/soul_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "soul_plagued", "zoomers_armory:soul_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:soul_plagued"), "Soul Plagued Hat", "Soul Plagued Robe", "Soul Plagued Leggings", "Soul Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/soul_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/soul_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/soul_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/soul_plagued_armor.png");
 e.create("zoomers_armory:fixed_bone_claws", "sword").displayName("Fixed Bone Claws").maxDamage(7930)
 e.create("zoomers_armory:fixed_bone_dagger", "sword").displayName("Fixed Bone Dagger").maxDamage(9150)
 e.create("zoomers_armory:fixed_bone_shortsword", "sword").displayName("Fixed Bone Shortsword").maxDamage(7320)
@@ -2607,6 +5757,8 @@ e.create("zoomers_armory:fixed_bone_battleaxe", "sword").displayName("Fixed Bone
 e.create("zoomers_armory:fixed_bone_spear", "sword").displayName("Fixed Bone Spear").maxDamage(7320)
 e.create("zoomers_armory:fixed_bone_halberd", "sword").displayName("Fixed Bone Halberd").maxDamage(5185)
 e.create("zoomers_armory:fixed_bone_scythe", "sword").displayName("Fixed Bone Scythe").maxDamage(4880)
+e.create("zoomers_armory:fixed_bone_katana", "sword").displayName("Fixed Bone Katana").maxDamage(7320)
+e.create("zoomers_armory:fixed_bone_musashi", "sword").displayName("Fixed Bone Musashi").maxDamage(5490)
 e.create("zoomers_armory:fixed_bone_arcane_staff", "irons_spells_js:staff").displayName("Fixed Bone Arcane Staff").maxDamage(6100)
 e.create("zoomers_armory:fixed_bone_woodwind_staff", "irons_spells_js:staff").displayName("Fixed Bone Woodwind Staff").maxDamage(6100)
 e.create("zoomers_armory:fixed_bone_fire_staff", "irons_spells_js:staff").displayName("Fixed Bone Fire Staff").maxDamage(6100)
@@ -2630,6 +5782,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "fixed_bone_samurai", "zoomers_
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "fixed_bone_samurai_master", "zoomers_armory:fixed_bone_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fixed_bone_samurai_master"), "Fixed Bone Samurai Master Helmet", "Fixed Bone Samurai Master Chestplate", "Fixed Bone Samurai Master Leggings", "Fixed Bone Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "fixed_bone_pyromancer", "zoomers_armory:fixed_bone_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fixed_bone_pyromancer"), "Fixed Bone Pyromancer Hat", "Fixed Bone Pyromancer Robe", "Fixed Bone Pyromancer Leggings", "Fixed Bone Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "fixed_bone_cryomancer", "zoomers_armory:fixed_bone_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fixed_bone_cryomancer"), "Fixed Bone Cryomancer Hat", "Fixed Bone Cryomancer Robe", "Fixed Bone Cryomancer Leggings", "Fixed Bone Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "fixed_bone_electromancer", "zoomers_armory:fixed_bone_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fixed_bone_electromancer"), "Fixed Bone Electromancer Hat", "Fixed Bone Electromancer Robe", "Fixed Bone Electromancer Leggings", "Fixed Bone Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "fixed_bone_archevoker", "zoomers_armory:fixed_bone_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fixed_bone_archevoker"), "Fixed Bone Archevoker Hat", "Fixed Bone Archevoker Robe", "Fixed Bone Archevoker Leggings", "Fixed Bone Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "fixed_bone_cultist", "zoomers_armory:fixed_bone_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fixed_bone_cultist"), "Fixed Bone Cultist Hat", "Fixed Bone Cultist Robe", "Fixed Bone Cultist Leggings", "Fixed Bone Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "fixed_bone_shadowwalker", "zoomers_armory:fixed_bone_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fixed_bone_shadowwalker"), "Fixed Bone Shadowwalker Hat", "Fixed Bone Shadowwalker Robe", "Fixed Bone Shadowwalker Leggings", "Fixed Bone Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "fixed_bone_priest", "zoomers_armory:fixed_bone_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fixed_bone_priest"), "Fixed Bone Priest Hat", "Fixed Bone Priest Robe", "Fixed Bone Priest Leggings", "Fixed Bone Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "fixed_bone_plagued", "zoomers_armory:fixed_bone_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fixed_bone_plagued"), "Fixed Bone Plagued Hat", "Fixed Bone Plagued Robe", "Fixed Bone Plagued Leggings", "Fixed Bone Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_plagued_armor.png");
 e.create("zoomers_armory:fusion_claws", "sword").displayName("Fusion Claws").maxDamage(8125)
 e.create("zoomers_armory:fusion_dagger", "sword").displayName("Fusion Dagger").maxDamage(9375)
 e.create("zoomers_armory:fusion_shortsword", "sword").displayName("Fusion Shortsword").maxDamage(7500)
@@ -2642,6 +5810,8 @@ e.create("zoomers_armory:fusion_battleaxe", "sword").displayName("Fusion Battlea
 e.create("zoomers_armory:fusion_spear", "sword").displayName("Fusion Spear").maxDamage(7500)
 e.create("zoomers_armory:fusion_halberd", "sword").displayName("Fusion Halberd").maxDamage(5312.5)
 e.create("zoomers_armory:fusion_scythe", "sword").displayName("Fusion Scythe").maxDamage(5000)
+e.create("zoomers_armory:fusion_katana", "sword").displayName("Fusion Katana").maxDamage(7500)
+e.create("zoomers_armory:fusion_musashi", "sword").displayName("Fusion Musashi").maxDamage(5625)
 e.create("zoomers_armory:fusion_arcane_staff", "irons_spells_js:staff").displayName("Fusion Arcane Staff").maxDamage(6250)
 e.create("zoomers_armory:fusion_woodwind_staff", "irons_spells_js:staff").displayName("Fusion Woodwind Staff").maxDamage(6250)
 e.create("zoomers_armory:fusion_fire_staff", "irons_spells_js:staff").displayName("Fusion Fire Staff").maxDamage(6250)
@@ -2665,6 +5835,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "fusion_samurai", "zoomers_armo
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "fusion_samurai_master", "zoomers_armory:fusion_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fusion_samurai_master"), "Fusion Samurai Master Helmet", "Fusion Samurai Master Chestplate", "Fusion Samurai Master Leggings", "Fusion Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "fusion_pyromancer", "zoomers_armory:fusion_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fusion_pyromancer"), "Fusion Pyromancer Hat", "Fusion Pyromancer Robe", "Fusion Pyromancer Leggings", "Fusion Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/fusion_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/fusion_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/fusion_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/fusion_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "fusion_cryomancer", "zoomers_armory:fusion_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fusion_cryomancer"), "Fusion Cryomancer Hat", "Fusion Cryomancer Robe", "Fusion Cryomancer Leggings", "Fusion Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/fusion_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/fusion_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/fusion_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/fusion_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "fusion_electromancer", "zoomers_armory:fusion_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fusion_electromancer"), "Fusion Electromancer Hat", "Fusion Electromancer Robe", "Fusion Electromancer Leggings", "Fusion Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/fusion_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/fusion_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/fusion_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/fusion_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "fusion_archevoker", "zoomers_armory:fusion_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fusion_archevoker"), "Fusion Archevoker Hat", "Fusion Archevoker Robe", "Fusion Archevoker Leggings", "Fusion Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/fusion_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/fusion_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/fusion_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/fusion_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "fusion_cultist", "zoomers_armory:fusion_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fusion_cultist"), "Fusion Cultist Hat", "Fusion Cultist Robe", "Fusion Cultist Leggings", "Fusion Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/fusion_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/fusion_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/fusion_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/fusion_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "fusion_shadowwalker", "zoomers_armory:fusion_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fusion_shadowwalker"), "Fusion Shadowwalker Hat", "Fusion Shadowwalker Robe", "Fusion Shadowwalker Leggings", "Fusion Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/fusion_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/fusion_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/fusion_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/fusion_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "fusion_priest", "zoomers_armory:fusion_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fusion_priest"), "Fusion Priest Hat", "Fusion Priest Robe", "Fusion Priest Leggings", "Fusion Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/fusion_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/fusion_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/fusion_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/fusion_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "fusion_plagued", "zoomers_armory:fusion_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fusion_plagued"), "Fusion Plagued Hat", "Fusion Plagued Robe", "Fusion Plagued Leggings", "Fusion Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/fusion_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/fusion_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/fusion_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/fusion_plagued_armor.png");
 e.create("zoomers_armory:aberythe_claws", "sword").displayName("Aberythe Claws").maxDamage(8450)
 e.create("zoomers_armory:aberythe_dagger", "sword").displayName("Aberythe Dagger").maxDamage(9750)
 e.create("zoomers_armory:aberythe_shortsword", "sword").displayName("Aberythe Shortsword").maxDamage(7800)
@@ -2677,6 +5863,8 @@ e.create("zoomers_armory:aberythe_battleaxe", "sword").displayName("Aberythe Bat
 e.create("zoomers_armory:aberythe_spear", "sword").displayName("Aberythe Spear").maxDamage(7800)
 e.create("zoomers_armory:aberythe_halberd", "sword").displayName("Aberythe Halberd").maxDamage(5525)
 e.create("zoomers_armory:aberythe_scythe", "sword").displayName("Aberythe Scythe").maxDamage(5200)
+e.create("zoomers_armory:aberythe_katana", "sword").displayName("Aberythe Katana").maxDamage(7800)
+e.create("zoomers_armory:aberythe_musashi", "sword").displayName("Aberythe Musashi").maxDamage(5850)
 e.create("zoomers_armory:aberythe_arcane_staff", "irons_spells_js:staff").displayName("Aberythe Arcane Staff").maxDamage(6500)
 e.create("zoomers_armory:aberythe_woodwind_staff", "irons_spells_js:staff").displayName("Aberythe Woodwind Staff").maxDamage(6500)
 e.create("zoomers_armory:aberythe_fire_staff", "irons_spells_js:staff").displayName("Aberythe Fire Staff").maxDamage(6500)
@@ -2700,6 +5888,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "aberythe_samurai", "zoomers_ar
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "aberythe_samurai_master", "zoomers_armory:aberythe_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aberythe_samurai_master"), "Aberythe Samurai Master Helmet", "Aberythe Samurai Master Chestplate", "Aberythe Samurai Master Leggings", "Aberythe Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "aberythe_pyromancer", "zoomers_armory:aberythe_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aberythe_pyromancer"), "Aberythe Pyromancer Hat", "Aberythe Pyromancer Robe", "Aberythe Pyromancer Leggings", "Aberythe Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/aberythe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/aberythe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/aberythe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/aberythe_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "aberythe_cryomancer", "zoomers_armory:aberythe_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aberythe_cryomancer"), "Aberythe Cryomancer Hat", "Aberythe Cryomancer Robe", "Aberythe Cryomancer Leggings", "Aberythe Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/aberythe_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/aberythe_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/aberythe_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/aberythe_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "aberythe_electromancer", "zoomers_armory:aberythe_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aberythe_electromancer"), "Aberythe Electromancer Hat", "Aberythe Electromancer Robe", "Aberythe Electromancer Leggings", "Aberythe Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/aberythe_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/aberythe_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/aberythe_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/aberythe_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "aberythe_archevoker", "zoomers_armory:aberythe_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aberythe_archevoker"), "Aberythe Archevoker Hat", "Aberythe Archevoker Robe", "Aberythe Archevoker Leggings", "Aberythe Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/aberythe_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/aberythe_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/aberythe_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/aberythe_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "aberythe_cultist", "zoomers_armory:aberythe_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aberythe_cultist"), "Aberythe Cultist Hat", "Aberythe Cultist Robe", "Aberythe Cultist Leggings", "Aberythe Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/aberythe_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/aberythe_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/aberythe_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/aberythe_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "aberythe_shadowwalker", "zoomers_armory:aberythe_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aberythe_shadowwalker"), "Aberythe Shadowwalker Hat", "Aberythe Shadowwalker Robe", "Aberythe Shadowwalker Leggings", "Aberythe Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/aberythe_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/aberythe_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/aberythe_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/aberythe_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "aberythe_priest", "zoomers_armory:aberythe_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aberythe_priest"), "Aberythe Priest Hat", "Aberythe Priest Robe", "Aberythe Priest Leggings", "Aberythe Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/aberythe_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/aberythe_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/aberythe_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/aberythe_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "aberythe_plagued", "zoomers_armory:aberythe_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aberythe_plagued"), "Aberythe Plagued Hat", "Aberythe Plagued Robe", "Aberythe Plagued Leggings", "Aberythe Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/aberythe_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/aberythe_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/aberythe_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/aberythe_plagued_armor.png");
 e.create("zoomers_armory:ignisithe_claws", "sword").displayName("Ignisithe Claws").maxDamage(8775)
 e.create("zoomers_armory:ignisithe_dagger", "sword").displayName("Ignisithe Dagger").maxDamage(10125)
 e.create("zoomers_armory:ignisithe_shortsword", "sword").displayName("Ignisithe Shortsword").maxDamage(8100)
@@ -2712,6 +5916,8 @@ e.create("zoomers_armory:ignisithe_battleaxe", "sword").displayName("Ignisithe B
 e.create("zoomers_armory:ignisithe_spear", "sword").displayName("Ignisithe Spear").maxDamage(8100)
 e.create("zoomers_armory:ignisithe_halberd", "sword").displayName("Ignisithe Halberd").maxDamage(5737.5)
 e.create("zoomers_armory:ignisithe_scythe", "sword").displayName("Ignisithe Scythe").maxDamage(5400)
+e.create("zoomers_armory:ignisithe_katana", "sword").displayName("Ignisithe Katana").maxDamage(8100)
+e.create("zoomers_armory:ignisithe_musashi", "sword").displayName("Ignisithe Musashi").maxDamage(6075)
 e.create("zoomers_armory:ignisithe_arcane_staff", "irons_spells_js:staff").displayName("Ignisithe Arcane Staff").maxDamage(6750)
 e.create("zoomers_armory:ignisithe_woodwind_staff", "irons_spells_js:staff").displayName("Ignisithe Woodwind Staff").maxDamage(6750)
 e.create("zoomers_armory:ignisithe_fire_staff", "irons_spells_js:staff").displayName("Ignisithe Fire Staff").maxDamage(6750)
@@ -2735,6 +5941,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "ignisithe_samurai", "zoomers_a
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "ignisithe_samurai_master", "zoomers_armory:ignisithe_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:ignisithe_samurai_master"), "Ignisithe Samurai Master Helmet", "Ignisithe Samurai Master Chestplate", "Ignisithe Samurai Master Leggings", "Ignisithe Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "ignisithe_pyromancer", "zoomers_armory:ignisithe_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:ignisithe_pyromancer"), "Ignisithe Pyromancer Hat", "Ignisithe Pyromancer Robe", "Ignisithe Pyromancer Leggings", "Ignisithe Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/ignisithe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/ignisithe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/ignisithe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/ignisithe_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "ignisithe_cryomancer", "zoomers_armory:ignisithe_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:ignisithe_cryomancer"), "Ignisithe Cryomancer Hat", "Ignisithe Cryomancer Robe", "Ignisithe Cryomancer Leggings", "Ignisithe Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/ignisithe_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/ignisithe_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/ignisithe_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/ignisithe_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "ignisithe_electromancer", "zoomers_armory:ignisithe_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:ignisithe_electromancer"), "Ignisithe Electromancer Hat", "Ignisithe Electromancer Robe", "Ignisithe Electromancer Leggings", "Ignisithe Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/ignisithe_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/ignisithe_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/ignisithe_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/ignisithe_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "ignisithe_archevoker", "zoomers_armory:ignisithe_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:ignisithe_archevoker"), "Ignisithe Archevoker Hat", "Ignisithe Archevoker Robe", "Ignisithe Archevoker Leggings", "Ignisithe Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/ignisithe_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/ignisithe_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/ignisithe_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/ignisithe_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "ignisithe_cultist", "zoomers_armory:ignisithe_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:ignisithe_cultist"), "Ignisithe Cultist Hat", "Ignisithe Cultist Robe", "Ignisithe Cultist Leggings", "Ignisithe Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/ignisithe_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/ignisithe_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/ignisithe_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/ignisithe_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "ignisithe_shadowwalker", "zoomers_armory:ignisithe_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:ignisithe_shadowwalker"), "Ignisithe Shadowwalker Hat", "Ignisithe Shadowwalker Robe", "Ignisithe Shadowwalker Leggings", "Ignisithe Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/ignisithe_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/ignisithe_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/ignisithe_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/ignisithe_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "ignisithe_priest", "zoomers_armory:ignisithe_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:ignisithe_priest"), "Ignisithe Priest Hat", "Ignisithe Priest Robe", "Ignisithe Priest Leggings", "Ignisithe Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/ignisithe_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/ignisithe_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/ignisithe_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/ignisithe_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "ignisithe_plagued", "zoomers_armory:ignisithe_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:ignisithe_plagued"), "Ignisithe Plagued Hat", "Ignisithe Plagued Robe", "Ignisithe Plagued Leggings", "Ignisithe Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/ignisithe_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/ignisithe_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/ignisithe_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/ignisithe_plagued_armor.png");
 e.create("zoomers_armory:knight_claws", "sword").displayName("Knight Claws").maxDamage(8937.5)
 e.create("zoomers_armory:knight_dagger", "sword").displayName("Knight Dagger").maxDamage(10312.5)
 e.create("zoomers_armory:knight_shortsword", "sword").displayName("Knight Shortsword").maxDamage(8250)
@@ -2747,6 +5969,8 @@ e.create("zoomers_armory:knight_battleaxe", "sword").displayName("Knight Battlea
 e.create("zoomers_armory:knight_spear", "sword").displayName("Knight Spear").maxDamage(8250)
 e.create("zoomers_armory:knight_halberd", "sword").displayName("Knight Halberd").maxDamage(5843.75)
 e.create("zoomers_armory:knight_scythe", "sword").displayName("Knight Scythe").maxDamage(5500)
+e.create("zoomers_armory:knight_katana", "sword").displayName("Knight Katana").maxDamage(8250)
+e.create("zoomers_armory:knight_musashi", "sword").displayName("Knight Musashi").maxDamage(6187.5)
 e.create("zoomers_armory:knight_arcane_staff", "irons_spells_js:staff").displayName("Knight Arcane Staff").maxDamage(6875)
 e.create("zoomers_armory:knight_woodwind_staff", "irons_spells_js:staff").displayName("Knight Woodwind Staff").maxDamage(6875)
 e.create("zoomers_armory:knight_fire_staff", "irons_spells_js:staff").displayName("Knight Fire Staff").maxDamage(6875)
@@ -2770,6 +5994,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "knight_samurai", "zoomers_armo
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "knight_samurai_master", "zoomers_armory:knight_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:knight_samurai_master"), "Knight Samurai Master Helmet", "Knight Samurai Master Chestplate", "Knight Samurai Master Leggings", "Knight Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "knight_pyromancer", "zoomers_armory:knight_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:knight_pyromancer"), "Knight Pyromancer Hat", "Knight Pyromancer Robe", "Knight Pyromancer Leggings", "Knight Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/knight_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/knight_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/knight_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/knight_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "knight_cryomancer", "zoomers_armory:knight_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:knight_cryomancer"), "Knight Cryomancer Hat", "Knight Cryomancer Robe", "Knight Cryomancer Leggings", "Knight Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/knight_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/knight_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/knight_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/knight_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "knight_electromancer", "zoomers_armory:knight_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:knight_electromancer"), "Knight Electromancer Hat", "Knight Electromancer Robe", "Knight Electromancer Leggings", "Knight Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/knight_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/knight_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/knight_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/knight_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "knight_archevoker", "zoomers_armory:knight_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:knight_archevoker"), "Knight Archevoker Hat", "Knight Archevoker Robe", "Knight Archevoker Leggings", "Knight Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/knight_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/knight_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/knight_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/knight_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "knight_cultist", "zoomers_armory:knight_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:knight_cultist"), "Knight Cultist Hat", "Knight Cultist Robe", "Knight Cultist Leggings", "Knight Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/knight_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/knight_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/knight_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/knight_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "knight_shadowwalker", "zoomers_armory:knight_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:knight_shadowwalker"), "Knight Shadowwalker Hat", "Knight Shadowwalker Robe", "Knight Shadowwalker Leggings", "Knight Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/knight_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/knight_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/knight_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/knight_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "knight_priest", "zoomers_armory:knight_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:knight_priest"), "Knight Priest Hat", "Knight Priest Robe", "Knight Priest Leggings", "Knight Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/knight_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/knight_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/knight_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/knight_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "knight_plagued", "zoomers_armory:knight_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:knight_plagued"), "Knight Plagued Hat", "Knight Plagued Robe", "Knight Plagued Leggings", "Knight Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/knight_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/knight_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/knight_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/knight_plagued_armor.png");
 e.create("zoomers_armory:glacerythe_claws", "sword").displayName("Glacerythe Claws").maxDamage(9100)
 e.create("zoomers_armory:glacerythe_dagger", "sword").displayName("Glacerythe Dagger").maxDamage(10500)
 e.create("zoomers_armory:glacerythe_shortsword", "sword").displayName("Glacerythe Shortsword").maxDamage(8400)
@@ -2782,6 +6022,8 @@ e.create("zoomers_armory:glacerythe_battleaxe", "sword").displayName("Glacerythe
 e.create("zoomers_armory:glacerythe_spear", "sword").displayName("Glacerythe Spear").maxDamage(8400)
 e.create("zoomers_armory:glacerythe_halberd", "sword").displayName("Glacerythe Halberd").maxDamage(5950)
 e.create("zoomers_armory:glacerythe_scythe", "sword").displayName("Glacerythe Scythe").maxDamage(5600)
+e.create("zoomers_armory:glacerythe_katana", "sword").displayName("Glacerythe Katana").maxDamage(8400)
+e.create("zoomers_armory:glacerythe_musashi", "sword").displayName("Glacerythe Musashi").maxDamage(6300)
 e.create("zoomers_armory:glacerythe_arcane_staff", "irons_spells_js:staff").displayName("Glacerythe Arcane Staff").maxDamage(7000)
 e.create("zoomers_armory:glacerythe_woodwind_staff", "irons_spells_js:staff").displayName("Glacerythe Woodwind Staff").maxDamage(7000)
 e.create("zoomers_armory:glacerythe_fire_staff", "irons_spells_js:staff").displayName("Glacerythe Fire Staff").maxDamage(7000)
@@ -2805,6 +6047,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "glacerythe_samurai", "zoomers_
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "glacerythe_samurai_master", "zoomers_armory:glacerythe_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:glacerythe_samurai_master"), "Glacerythe Samurai Master Helmet", "Glacerythe Samurai Master Chestplate", "Glacerythe Samurai Master Leggings", "Glacerythe Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "glacerythe_pyromancer", "zoomers_armory:glacerythe_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:glacerythe_pyromancer"), "Glacerythe Pyromancer Hat", "Glacerythe Pyromancer Robe", "Glacerythe Pyromancer Leggings", "Glacerythe Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/glacerythe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/glacerythe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/glacerythe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/glacerythe_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "glacerythe_cryomancer", "zoomers_armory:glacerythe_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:glacerythe_cryomancer"), "Glacerythe Cryomancer Hat", "Glacerythe Cryomancer Robe", "Glacerythe Cryomancer Leggings", "Glacerythe Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/glacerythe_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/glacerythe_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/glacerythe_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/glacerythe_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "glacerythe_electromancer", "zoomers_armory:glacerythe_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:glacerythe_electromancer"), "Glacerythe Electromancer Hat", "Glacerythe Electromancer Robe", "Glacerythe Electromancer Leggings", "Glacerythe Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/glacerythe_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/glacerythe_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/glacerythe_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/glacerythe_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "glacerythe_archevoker", "zoomers_armory:glacerythe_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:glacerythe_archevoker"), "Glacerythe Archevoker Hat", "Glacerythe Archevoker Robe", "Glacerythe Archevoker Leggings", "Glacerythe Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/glacerythe_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/glacerythe_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/glacerythe_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/glacerythe_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "glacerythe_cultist", "zoomers_armory:glacerythe_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:glacerythe_cultist"), "Glacerythe Cultist Hat", "Glacerythe Cultist Robe", "Glacerythe Cultist Leggings", "Glacerythe Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/glacerythe_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/glacerythe_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/glacerythe_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/glacerythe_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "glacerythe_shadowwalker", "zoomers_armory:glacerythe_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:glacerythe_shadowwalker"), "Glacerythe Shadowwalker Hat", "Glacerythe Shadowwalker Robe", "Glacerythe Shadowwalker Leggings", "Glacerythe Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/glacerythe_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/glacerythe_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/glacerythe_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/glacerythe_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "glacerythe_priest", "zoomers_armory:glacerythe_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:glacerythe_priest"), "Glacerythe Priest Hat", "Glacerythe Priest Robe", "Glacerythe Priest Leggings", "Glacerythe Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/glacerythe_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/glacerythe_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/glacerythe_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/glacerythe_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "glacerythe_plagued", "zoomers_armory:glacerythe_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:glacerythe_plagued"), "Glacerythe Plagued Hat", "Glacerythe Plagued Robe", "Glacerythe Plagued Leggings", "Glacerythe Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/glacerythe_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/glacerythe_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/glacerythe_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/glacerythe_plagued_armor.png");
 e.create("zoomers_armory:garnite_claws", "sword").displayName("Garnite Claws").maxDamage(9425)
 e.create("zoomers_armory:garnite_dagger", "sword").displayName("Garnite Dagger").maxDamage(10875)
 e.create("zoomers_armory:garnite_shortsword", "sword").displayName("Garnite Shortsword").maxDamage(8700)
@@ -2817,6 +6075,8 @@ e.create("zoomers_armory:garnite_battleaxe", "sword").displayName("Garnite Battl
 e.create("zoomers_armory:garnite_spear", "sword").displayName("Garnite Spear").maxDamage(8700)
 e.create("zoomers_armory:garnite_halberd", "sword").displayName("Garnite Halberd").maxDamage(6162.5)
 e.create("zoomers_armory:garnite_scythe", "sword").displayName("Garnite Scythe").maxDamage(5800)
+e.create("zoomers_armory:garnite_katana", "sword").displayName("Garnite Katana").maxDamage(8700)
+e.create("zoomers_armory:garnite_musashi", "sword").displayName("Garnite Musashi").maxDamage(6525)
 e.create("zoomers_armory:garnite_arcane_staff", "irons_spells_js:staff").displayName("Garnite Arcane Staff").maxDamage(7250)
 e.create("zoomers_armory:garnite_woodwind_staff", "irons_spells_js:staff").displayName("Garnite Woodwind Staff").maxDamage(7250)
 e.create("zoomers_armory:garnite_fire_staff", "irons_spells_js:staff").displayName("Garnite Fire Staff").maxDamage(7250)
@@ -2840,6 +6100,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "garnite_samurai", "zoomers_arm
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "garnite_samurai_master", "zoomers_armory:garnite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:garnite_samurai_master"), "Garnite Samurai Master Helmet", "Garnite Samurai Master Chestplate", "Garnite Samurai Master Leggings", "Garnite Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "garnite_pyromancer", "zoomers_armory:garnite_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:garnite_pyromancer"), "Garnite Pyromancer Hat", "Garnite Pyromancer Robe", "Garnite Pyromancer Leggings", "Garnite Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/garnite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/garnite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/garnite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/garnite_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "garnite_cryomancer", "zoomers_armory:garnite_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:garnite_cryomancer"), "Garnite Cryomancer Hat", "Garnite Cryomancer Robe", "Garnite Cryomancer Leggings", "Garnite Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/garnite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/garnite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/garnite_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/garnite_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "garnite_electromancer", "zoomers_armory:garnite_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:garnite_electromancer"), "Garnite Electromancer Hat", "Garnite Electromancer Robe", "Garnite Electromancer Leggings", "Garnite Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/garnite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/garnite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/garnite_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/garnite_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "garnite_archevoker", "zoomers_armory:garnite_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:garnite_archevoker"), "Garnite Archevoker Hat", "Garnite Archevoker Robe", "Garnite Archevoker Leggings", "Garnite Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/garnite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/garnite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/garnite_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/garnite_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "garnite_cultist", "zoomers_armory:garnite_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:garnite_cultist"), "Garnite Cultist Hat", "Garnite Cultist Robe", "Garnite Cultist Leggings", "Garnite Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/garnite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/garnite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/garnite_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/garnite_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "garnite_shadowwalker", "zoomers_armory:garnite_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:garnite_shadowwalker"), "Garnite Shadowwalker Hat", "Garnite Shadowwalker Robe", "Garnite Shadowwalker Leggings", "Garnite Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/garnite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/garnite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/garnite_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/garnite_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "garnite_priest", "zoomers_armory:garnite_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:garnite_priest"), "Garnite Priest Hat", "Garnite Priest Robe", "Garnite Priest Leggings", "Garnite Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/garnite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/garnite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/garnite_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/garnite_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "garnite_plagued", "zoomers_armory:garnite_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:garnite_plagued"), "Garnite Plagued Hat", "Garnite Plagued Robe", "Garnite Plagued Leggings", "Garnite Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/garnite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/garnite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/garnite_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/garnite_plagued_armor.png");
 e.create("zoomers_armory:phantom_claws", "sword").displayName("Phantom Claws").maxDamage(9750)
 e.create("zoomers_armory:phantom_dagger", "sword").displayName("Phantom Dagger").maxDamage(11250)
 e.create("zoomers_armory:phantom_shortsword", "sword").displayName("Phantom Shortsword").maxDamage(9000)
@@ -2852,6 +6128,8 @@ e.create("zoomers_armory:phantom_battleaxe", "sword").displayName("Phantom Battl
 e.create("zoomers_armory:phantom_spear", "sword").displayName("Phantom Spear").maxDamage(9000)
 e.create("zoomers_armory:phantom_halberd", "sword").displayName("Phantom Halberd").maxDamage(6375)
 e.create("zoomers_armory:phantom_scythe", "sword").displayName("Phantom Scythe").maxDamage(6000)
+e.create("zoomers_armory:phantom_katana", "sword").displayName("Phantom Katana").maxDamage(9000)
+e.create("zoomers_armory:phantom_musashi", "sword").displayName("Phantom Musashi").maxDamage(6750)
 e.create("zoomers_armory:phantom_arcane_staff", "irons_spells_js:staff").displayName("Phantom Arcane Staff").maxDamage(7500)
 e.create("zoomers_armory:phantom_woodwind_staff", "irons_spells_js:staff").displayName("Phantom Woodwind Staff").maxDamage(7500)
 e.create("zoomers_armory:phantom_fire_staff", "irons_spells_js:staff").displayName("Phantom Fire Staff").maxDamage(7500)
@@ -2875,6 +6153,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "phantom_samurai", "zoomers_arm
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "phantom_samurai_master", "zoomers_armory:phantom_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:phantom_samurai_master"), "Phantom Samurai Master Helmet", "Phantom Samurai Master Chestplate", "Phantom Samurai Master Leggings", "Phantom Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "phantom_pyromancer", "zoomers_armory:phantom_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:phantom_pyromancer"), "Phantom Pyromancer Hat", "Phantom Pyromancer Robe", "Phantom Pyromancer Leggings", "Phantom Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/phantom_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/phantom_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/phantom_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/phantom_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "phantom_cryomancer", "zoomers_armory:phantom_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:phantom_cryomancer"), "Phantom Cryomancer Hat", "Phantom Cryomancer Robe", "Phantom Cryomancer Leggings", "Phantom Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/phantom_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/phantom_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/phantom_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/phantom_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "phantom_electromancer", "zoomers_armory:phantom_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:phantom_electromancer"), "Phantom Electromancer Hat", "Phantom Electromancer Robe", "Phantom Electromancer Leggings", "Phantom Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/phantom_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/phantom_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/phantom_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/phantom_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "phantom_archevoker", "zoomers_armory:phantom_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:phantom_archevoker"), "Phantom Archevoker Hat", "Phantom Archevoker Robe", "Phantom Archevoker Leggings", "Phantom Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/phantom_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/phantom_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/phantom_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/phantom_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "phantom_cultist", "zoomers_armory:phantom_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:phantom_cultist"), "Phantom Cultist Hat", "Phantom Cultist Robe", "Phantom Cultist Leggings", "Phantom Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/phantom_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/phantom_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/phantom_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/phantom_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "phantom_shadowwalker", "zoomers_armory:phantom_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:phantom_shadowwalker"), "Phantom Shadowwalker Hat", "Phantom Shadowwalker Robe", "Phantom Shadowwalker Leggings", "Phantom Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/phantom_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/phantom_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/phantom_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/phantom_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "phantom_priest", "zoomers_armory:phantom_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:phantom_priest"), "Phantom Priest Hat", "Phantom Priest Robe", "Phantom Priest Leggings", "Phantom Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/phantom_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/phantom_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/phantom_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/phantom_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "phantom_plagued", "zoomers_armory:phantom_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:phantom_plagued"), "Phantom Plagued Hat", "Phantom Plagued Robe", "Phantom Plagued Leggings", "Phantom Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/phantom_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/phantom_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/phantom_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/phantom_plagued_armor.png");
 e.create("zoomers_armory:unorithe_claws", "sword").displayName("Unorithe Claws").maxDamage(10075)
 e.create("zoomers_armory:unorithe_dagger", "sword").displayName("Unorithe Dagger").maxDamage(11625)
 e.create("zoomers_armory:unorithe_shortsword", "sword").displayName("Unorithe Shortsword").maxDamage(9300)
@@ -2887,6 +6181,8 @@ e.create("zoomers_armory:unorithe_battleaxe", "sword").displayName("Unorithe Bat
 e.create("zoomers_armory:unorithe_spear", "sword").displayName("Unorithe Spear").maxDamage(9300)
 e.create("zoomers_armory:unorithe_halberd", "sword").displayName("Unorithe Halberd").maxDamage(6587.5)
 e.create("zoomers_armory:unorithe_scythe", "sword").displayName("Unorithe Scythe").maxDamage(6200)
+e.create("zoomers_armory:unorithe_katana", "sword").displayName("Unorithe Katana").maxDamage(9300)
+e.create("zoomers_armory:unorithe_musashi", "sword").displayName("Unorithe Musashi").maxDamage(6975)
 e.create("zoomers_armory:unorithe_arcane_staff", "irons_spells_js:staff").displayName("Unorithe Arcane Staff").maxDamage(7750)
 e.create("zoomers_armory:unorithe_woodwind_staff", "irons_spells_js:staff").displayName("Unorithe Woodwind Staff").maxDamage(7750)
 e.create("zoomers_armory:unorithe_fire_staff", "irons_spells_js:staff").displayName("Unorithe Fire Staff").maxDamage(7750)
@@ -2910,6 +6206,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "unorithe_samurai", "zoomers_ar
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "unorithe_samurai_master", "zoomers_armory:unorithe_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:unorithe_samurai_master"), "Unorithe Samurai Master Helmet", "Unorithe Samurai Master Chestplate", "Unorithe Samurai Master Leggings", "Unorithe Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "unorithe_pyromancer", "zoomers_armory:unorithe_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:unorithe_pyromancer"), "Unorithe Pyromancer Hat", "Unorithe Pyromancer Robe", "Unorithe Pyromancer Leggings", "Unorithe Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/unorithe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/unorithe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/unorithe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/unorithe_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "unorithe_cryomancer", "zoomers_armory:unorithe_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:unorithe_cryomancer"), "Unorithe Cryomancer Hat", "Unorithe Cryomancer Robe", "Unorithe Cryomancer Leggings", "Unorithe Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/unorithe_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/unorithe_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/unorithe_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/unorithe_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "unorithe_electromancer", "zoomers_armory:unorithe_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:unorithe_electromancer"), "Unorithe Electromancer Hat", "Unorithe Electromancer Robe", "Unorithe Electromancer Leggings", "Unorithe Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/unorithe_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/unorithe_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/unorithe_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/unorithe_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "unorithe_archevoker", "zoomers_armory:unorithe_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:unorithe_archevoker"), "Unorithe Archevoker Hat", "Unorithe Archevoker Robe", "Unorithe Archevoker Leggings", "Unorithe Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/unorithe_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/unorithe_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/unorithe_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/unorithe_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "unorithe_cultist", "zoomers_armory:unorithe_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:unorithe_cultist"), "Unorithe Cultist Hat", "Unorithe Cultist Robe", "Unorithe Cultist Leggings", "Unorithe Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/unorithe_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/unorithe_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/unorithe_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/unorithe_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "unorithe_shadowwalker", "zoomers_armory:unorithe_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:unorithe_shadowwalker"), "Unorithe Shadowwalker Hat", "Unorithe Shadowwalker Robe", "Unorithe Shadowwalker Leggings", "Unorithe Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/unorithe_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/unorithe_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/unorithe_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/unorithe_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "unorithe_priest", "zoomers_armory:unorithe_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:unorithe_priest"), "Unorithe Priest Hat", "Unorithe Priest Robe", "Unorithe Priest Leggings", "Unorithe Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/unorithe_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/unorithe_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/unorithe_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/unorithe_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "unorithe_plagued", "zoomers_armory:unorithe_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:unorithe_plagued"), "Unorithe Plagued Hat", "Unorithe Plagued Robe", "Unorithe Plagued Leggings", "Unorithe Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/unorithe_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/unorithe_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/unorithe_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/unorithe_plagued_armor.png");
 e.create("zoomers_armory:incorythe_claws", "sword").displayName("Incorythe Claws").maxDamage(10400)
 e.create("zoomers_armory:incorythe_dagger", "sword").displayName("Incorythe Dagger").maxDamage(12000)
 e.create("zoomers_armory:incorythe_shortsword", "sword").displayName("Incorythe Shortsword").maxDamage(9600)
@@ -2922,6 +6234,8 @@ e.create("zoomers_armory:incorythe_battleaxe", "sword").displayName("Incorythe B
 e.create("zoomers_armory:incorythe_spear", "sword").displayName("Incorythe Spear").maxDamage(9600)
 e.create("zoomers_armory:incorythe_halberd", "sword").displayName("Incorythe Halberd").maxDamage(6800)
 e.create("zoomers_armory:incorythe_scythe", "sword").displayName("Incorythe Scythe").maxDamage(6400)
+e.create("zoomers_armory:incorythe_katana", "sword").displayName("Incorythe Katana").maxDamage(9600)
+e.create("zoomers_armory:incorythe_musashi", "sword").displayName("Incorythe Musashi").maxDamage(7200)
 e.create("zoomers_armory:incorythe_arcane_staff", "irons_spells_js:staff").displayName("Incorythe Arcane Staff").maxDamage(8000)
 e.create("zoomers_armory:incorythe_woodwind_staff", "irons_spells_js:staff").displayName("Incorythe Woodwind Staff").maxDamage(8000)
 e.create("zoomers_armory:incorythe_fire_staff", "irons_spells_js:staff").displayName("Incorythe Fire Staff").maxDamage(8000)
@@ -2945,6 +6259,22 @@ global.createGeckoArmorTier(e, "zoomers_armory", "incorythe_samurai", "zoomers_a
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "incorythe_samurai_master", "zoomers_armory:incorythe_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:incorythe_samurai_master"), "Incorythe Samurai Master Helmet", "Incorythe Samurai Master Chestplate", "Incorythe Samurai Master Leggings", "Incorythe Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "incorythe_pyromancer", "zoomers_armory:incorythe_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:incorythe_pyromancer"), "Incorythe Pyromancer Hat", "Incorythe Pyromancer Robe", "Incorythe Pyromancer Leggings", "Incorythe Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/incorythe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/incorythe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/incorythe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/incorythe_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "incorythe_cryomancer", "zoomers_armory:incorythe_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:incorythe_cryomancer"), "Incorythe Cryomancer Hat", "Incorythe Cryomancer Robe", "Incorythe Cryomancer Leggings", "Incorythe Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/incorythe_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/incorythe_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/incorythe_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/incorythe_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "incorythe_electromancer", "zoomers_armory:incorythe_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:incorythe_electromancer"), "Incorythe Electromancer Hat", "Incorythe Electromancer Robe", "Incorythe Electromancer Leggings", "Incorythe Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/incorythe_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/incorythe_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/incorythe_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/incorythe_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "incorythe_archevoker", "zoomers_armory:incorythe_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:incorythe_archevoker"), "Incorythe Archevoker Hat", "Incorythe Archevoker Robe", "Incorythe Archevoker Leggings", "Incorythe Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/incorythe_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/incorythe_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/incorythe_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/incorythe_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "incorythe_cultist", "zoomers_armory:incorythe_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:incorythe_cultist"), "Incorythe Cultist Hat", "Incorythe Cultist Robe", "Incorythe Cultist Leggings", "Incorythe Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/incorythe_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/incorythe_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/incorythe_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/incorythe_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "incorythe_shadowwalker", "zoomers_armory:incorythe_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:incorythe_shadowwalker"), "Incorythe Shadowwalker Hat", "Incorythe Shadowwalker Robe", "Incorythe Shadowwalker Leggings", "Incorythe Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/incorythe_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/incorythe_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/incorythe_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/incorythe_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "incorythe_priest", "zoomers_armory:incorythe_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:incorythe_priest"), "Incorythe Priest Hat", "Incorythe Priest Robe", "Incorythe Priest Leggings", "Incorythe Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/incorythe_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/incorythe_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/incorythe_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/incorythe_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "incorythe_plagued", "zoomers_armory:incorythe_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:incorythe_plagued"), "Incorythe Plagued Hat", "Incorythe Plagued Robe", "Incorythe Plagued Leggings", "Incorythe Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/incorythe_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/incorythe_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/incorythe_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/incorythe_plagued_armor.png");
 });
 
 

@@ -20,6 +20,7 @@ import {
     tier_levels_nether_start, tier_levels_the_abyss_start,
     tier_levels_undergarden_start
 } from "./ores";
+import {magicArmorSets} from "../../magic_armors";
 
 const materials = [
     {
@@ -584,6 +585,7 @@ function convertMaterial(name: string, color: string, level: number, pmmoLevel: 
             .withCustomArmoryEntry(samuraiLightCustomArmory)
             .withCustomArmoryEntry(samuraiCustomArmory)
             .withCustomArmoryEntry(samuraiMasterCustomArmory)
+            .withCustomArmoryEntries(magicArmorSets)
             .withCraftingMaterial(craftingMaterial)
             .withBaseArmor(armor)
             .withArmorToughness(armorToughness)

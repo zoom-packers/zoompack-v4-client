@@ -12,7 +12,7 @@ import {
     getCiaPath,
     operation
 } from "../cia/util";
-import {modifySingleItem} from "../pmmo/util";
+import {modifySingleItem, modifySingleItemWithSkill} from "../pmmo/util";
 import {combine} from "../textureGen/util";
 import {WorkingTexture} from "../textureGen/workingTexture";
 import {IArmory} from "./IArmory";
@@ -257,7 +257,11 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             }
             const materialIdPart = this.material.internalName;
             const id = `${materialIdPart}_${type.id}`;
-            modifySingleItem(this.internalNamespace, id, this.getTypeName(type), this.pmmoLevel);
+            if (type.pmmoSkill !== undefined) {
+                modifySingleItemWithSkill(this.internalNamespace, id, this.getTypeName(type), this.pmmoLevel, type.pmmoSkill);
+            } else {
+                modifySingleItem(this.internalNamespace, id, this.getTypeName(type), this.pmmoLevel);
+            }
         }
     }
 
@@ -298,7 +302,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                 textures: {}
             } as any;
             item.parent = `${this.internalNamespace}:item/` + type.modelType;
-            if (type.id === "claws" || type.id.includes("staff")) {
+            if (type.id === "claws" || type.id.includes("staff") || type.id.includes("katana") || type.id.includes("musashi")) {
                 item.textures["0"] = `${this.internalNamespace}:item/${id}`;
             } else {
                 item.textures.layer0 = `${this.internalNamespace}:item/${id}`;
@@ -395,7 +399,8 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             `${inputModelsDir}/normal.json`,
             `${inputModelsDir}/long.json`,
             `${inputModelsDir}/spear.json`,
-            `${inputModelsDir}/claws.json`,
+            `${inputModelsDir}/katana.json`,
+            `${inputModelsDir}/musashi.json`,
             `${inputModelsDir}/arcane_staff.json`,
             `${inputModelsDir}/blood_staff.json`,
             `${inputModelsDir}/ender_staff.json`,

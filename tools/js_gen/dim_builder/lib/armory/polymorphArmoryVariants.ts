@@ -1,19 +1,46 @@
 import {
-    ArmorVariant, BaseVariant,
+    ArmorVariant,
+    BaseVariant,
     BowVariant,
     CrossbowVariant,
     ShieldVariant,
     SwordVariant,
     ToolVariant
 } from "../material/ArmoryTypes";
-import {CiaModifier, operation} from "../cia/util";
+import {CiaModifier, CiaModifierBuilder, operation} from "../cia/util";
 import {
     attribute_attributeslib,
     attribute_irons_spellbooks,
     attribute_minecraft
 } from "../../../typedefs/attribute_typedefs";
 
+
+export function createHealthPerLevelAttributes(piece: 'helmet' | 'chestplate' | 'leggings' | 'boots', tier: 'light' | 'medium' | 'heavy'): CiaModifier[] {
+    const pieceMultiplier = piece === 'helmet' ? PolymorphArmoryVariants.ARMOR_HELMET_FRACTION :
+        piece === 'chestplate' ? PolymorphArmoryVariants.ARMOR_CHESTPLATE_FRACTION :
+            piece === 'leggings' ? PolymorphArmoryVariants.ARMOR_LEGGINGS_FRACTION :
+                PolymorphArmoryVariants.ARMOR_BOOTS_FRACTION;
+
+    const healthMultiplier = tier === 'light' ? 0.9 :
+        tier === 'medium' ? 1 :
+            1.1;
+
+    return [
+        CiaModifierBuilder.create(attribute_minecraft.a_generic_max_health, operation.ADDITION, PolymorphArmoryVariants.ARMOR_HP_FLAT_ADDITION * pieceMultiplier * healthMultiplier),
+        CiaModifierBuilder.create(attribute_minecraft.a_generic_max_health, operation.MULTIPLY_BASE, PolymorphArmoryVariants.ARMOR_HP_MULTIPLIER * pieceMultiplier * healthMultiplier)
+    ]
+}
+
 export class PolymorphArmoryVariants {
+
+    public static readonly PIERCE_MULTIPLIER = 3;
+    public static readonly ARMOR_HP_FLAT_ADDITION = 2;
+    public static readonly ARMOR_HP_MULTIPLIER = 0.23;
+    public static readonly ARMOR_HELMET_FRACTION = 0.175;
+    public static readonly ARMOR_CHESTPLATE_FRACTION = 0.4;
+    public static readonly ARMOR_LEGGINGS_FRACTION = 0.3;
+    public static readonly ARMOR_BOOTS_FRACTION = 0.125;
+
 
     //#region SWORDS
 
@@ -33,6 +60,10 @@ export class PolymorphArmoryVariants {
                 value: 0.1,
                 operation: operation.LOWERCASE_ADDITION
             }
+        ],
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.53),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.1125 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
         ]
     };
 
@@ -52,6 +83,10 @@ export class PolymorphArmoryVariants {
                 value: 0.1,
                 operation: operation.LOWERCASE_ADDITION
             }
+        ],
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.44),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.105 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
         ]
     }
     private static readonly SHORTSWORD_VARIANT: SwordVariant = {
@@ -64,7 +99,13 @@ export class PolymorphArmoryVariants {
         speedMultiplier: 0.2,
         reachMultiplier: -0.1,
         modelType: "normal",
-        additionalAttributes: []
+        additionalAttributes: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_dodge_chance, operation.ADDITION, 0.075)
+        ],
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.48),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.11 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
+        ]
     }
     private static readonly LONGSWORD_VARIANT: SwordVariant = {
         id: "heavysword",
@@ -74,9 +115,12 @@ export class PolymorphArmoryVariants {
         durabilityMultiplier: 0.8,
         damageMultiplier: 1.2,
         speedMultiplier: 0,
-        reachMultiplier: 0,
+        reachMultiplier: 0.3,
         modelType: "long",
-        additionalAttributes: []
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.55),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.12 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
+        ]
     }
     private static readonly CUTLASS_VARIANT: SwordVariant = {
         id: "cutlass",
@@ -88,7 +132,10 @@ export class PolymorphArmoryVariants {
         speedMultiplier: -0.1,
         reachMultiplier: 0,
         modelType: "normal",
-        additionalAttributes: []
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.55),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.12 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
+        ]
     }
     private static readonly MACE_VARIANT: SwordVariant = {
         id: "mace",
@@ -100,7 +147,13 @@ export class PolymorphArmoryVariants {
         speedMultiplier: -0.15,
         reachMultiplier: 0,
         modelType: "normal",
-        additionalAttributes: []
+        additionalAttributes: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_shred, operation.ADDITION, 0.05),
+        ],
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_shred, operation.ADDITION, 0.01),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_shred, operation.MULTIPLY_BASE, 0.02)
+        ]
     }
     private static readonly HEAVY_MACE_VARIANT: SwordVariant = {
         id: "heavymace",
@@ -112,7 +165,13 @@ export class PolymorphArmoryVariants {
         speedMultiplier: -0.3,
         reachMultiplier: 0.3,
         modelType: "long",
-        additionalAttributes: []
+        additionalAttributes: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_shred, operation.ADDITION, 0.075)
+        ],
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_shred, operation.ADDITION, 0.01),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_shred, operation.MULTIPLY_BASE, 0.02)
+        ]
     }
     private static readonly WARHAMMER_VARIANT: SwordVariant = {
         id: "warhammer",
@@ -124,7 +183,13 @@ export class PolymorphArmoryVariants {
         speedMultiplier: -0.35,
         reachMultiplier: 0.3,
         modelType: "long",
-        additionalAttributes: []
+        additionalAttributes: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_shred, operation.ADDITION, 0.1)
+        ],
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_shred, operation.ADDITION, 0.01),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_shred, operation.MULTIPLY_BASE, 0.02)
+        ]
     }
     private static readonly BATTLEAXE_VARIANT: SwordVariant = {
         id: "battleaxe",
@@ -136,7 +201,12 @@ export class PolymorphArmoryVariants {
         speedMultiplier: -0.25,
         reachMultiplier: 0.3,
         modelType: "long",
-        additionalAttributes: []
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_shred, operation.ADDITION, 0.005),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_shred, operation.MULTIPLY_BASE, 0.02),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.45),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.1 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
+        ]
     }
     private static readonly SPEAR_VARIANT: SwordVariant = {
         id: "spear",
@@ -148,7 +218,10 @@ export class PolymorphArmoryVariants {
         speedMultiplier: -0.15,
         reachMultiplier: 0.7,
         modelType: "spear",
-        additionalAttributes: []
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.5),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.2 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
+        ]
     }
     private static readonly HALBERD_VARIANT: SwordVariant = {
         id: "halberd",
@@ -160,7 +233,10 @@ export class PolymorphArmoryVariants {
         speedMultiplier: -0.3,
         reachMultiplier: 0.7,
         modelType: "spear",
-        additionalAttributes: []
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.5),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.18 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
+        ]
     }
 
     private static readonly SCYTHE_VARIANT: SwordVariant = {
@@ -173,7 +249,42 @@ export class PolymorphArmoryVariants {
         speedMultiplier: -0.4,
         reachMultiplier: 0.7,
         modelType: "long",
-        additionalAttributes: []
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.6),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.15 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
+        ]
+    }
+
+    private static readonly KATANA_VARIANT: SwordVariant = {
+        id: "katana",
+        type: "sword",
+        displayName: "Katana",
+        recipe: ["material", "material", "", "material", "", "", "#forge:rods/wooden", "", ""],
+        durabilityMultiplier: 1.2,
+        damageMultiplier: 0.9,
+        speedMultiplier: 0.1,
+        reachMultiplier: 0.3,
+        modelType: "katana",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.55),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.12 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
+        ]
+    }
+
+    private static readonly MUSASHI_VARIANT: SwordVariant = {
+        id: "musashi",
+        type: "sword",
+        displayName: "Musashi",
+        recipe: ["", "material", "material", "", "", "material", "", "", "#forge:rods/wooden"],
+        durabilityMultiplier: 0.9,
+        damageMultiplier: 0.8,
+        speedMultiplier: 0.15,
+        reachMultiplier: 0,
+        modelType: "musashi",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.6),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.08 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
+        ]
     }
 
     //#region STAFFS
@@ -497,6 +608,8 @@ export class PolymorphArmoryVariants {
         PolymorphArmoryVariants.SPEAR_VARIANT,
         PolymorphArmoryVariants.HALBERD_VARIANT,
         PolymorphArmoryVariants.SCYTHE_VARIANT,
+        PolymorphArmoryVariants.KATANA_VARIANT,
+        PolymorphArmoryVariants.MUSASHI_VARIANT,
         PolymorphArmoryVariants.ARCANE_STAFF,
         PolymorphArmoryVariants.WOODWIND_STAFF,
         PolymorphArmoryVariants.FIRE_STAFF,
@@ -520,7 +633,8 @@ export class PolymorphArmoryVariants {
         armorMultiplier: 0.3,
         speedMultiplier: 0,
         modelType: "buckler_shield",
-        additionalAttributes: []
+        additionalAttributes: [],
+        pmmoSkill: "combat"
     }
     private static readonly HEATER_VARIANT: ShieldVariant = {
         id: "heater",
@@ -562,7 +676,10 @@ export class PolymorphArmoryVariants {
         damageMultiplier: 0.8,
         speedMultiplier: 0.2,
         modelType: "shortbow",
-        additionalAttributes: []
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.55),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.12 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
+        ]
     }
     private static readonly BOW_VARIANT: BowVariant = {
         id: "bow",
@@ -573,7 +690,10 @@ export class PolymorphArmoryVariants {
         damageMultiplier: 1,
         speedMultiplier: 0,
         modelType: "bow",
-        additionalAttributes: []
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.55),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.12 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
+        ]
     }
     private static readonly LONGBOW_VARIANT: BowVariant = {
         id: "longbow",
@@ -584,7 +704,10 @@ export class PolymorphArmoryVariants {
         damageMultiplier: 1.2,
         speedMultiplier: -0.3,
         modelType: "longbow",
-        additionalAttributes: []
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.55),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.12 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
+        ]
     }
 
     public static readonly BOWS: BowVariant[] = [
@@ -604,7 +727,13 @@ export class PolymorphArmoryVariants {
         damageMultiplier: 1.5,
         speedMultiplier: -0.2,
         modelType: "crossbow",
-        additionalAttributes: []
+        additionalAttributes: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_shred, operation.ADDITION, 0.075)
+        ],
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_shred, operation.ADDITION, 0.01),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_shred, operation.MULTIPLY_BASE, 0.02)
+        ]
     }
     private static readonly ARBALEST_VARIANT: CrossbowVariant = {
         id: "arbalest",
@@ -615,7 +744,13 @@ export class PolymorphArmoryVariants {
         damageMultiplier: 0.4,
         speedMultiplier: -0.2,
         modelType: "crossbow",
-        additionalAttributes: []
+        additionalAttributes: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_shred, operation.ADDITION, 0.075)
+        ],
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_shred, operation.ADDITION, 0.01),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_shred, operation.MULTIPLY_BASE, 0.02)
+        ]
     }
 
     public static readonly CROSSBOWS: CrossbowVariant[] = [
@@ -694,7 +829,10 @@ export class PolymorphArmoryVariants {
         toughnessMultiplier: 1,
         knockbackResistanceMultiplier: 1,
         modelType: "normal",
-        additionalAttributes: []
+        additionalAttributes: [],
+        additionalAttributesPerLevel: [
+            ...createHealthPerLevelAttributes("helmet", "medium")
+        ]
     }
     private static readonly CHESTPLATE_VARIANT: ArmorVariant = {
         id: "chestplate",
@@ -707,7 +845,10 @@ export class PolymorphArmoryVariants {
         toughnessMultiplier: 1,
         knockbackResistanceMultiplier: 1,
         modelType: "normal",
-        additionalAttributes: []
+        additionalAttributes: [],
+        additionalAttributesPerLevel: [
+            ...createHealthPerLevelAttributes("chestplate", "medium")
+        ]
     }
     private static readonly LEGGINGS_VARIANT: ArmorVariant = {
         id: "leggings",
@@ -720,7 +861,10 @@ export class PolymorphArmoryVariants {
         toughnessMultiplier: 1,
         knockbackResistanceMultiplier: 1,
         modelType: "normal",
-        additionalAttributes: []
+        additionalAttributes: [],
+        additionalAttributesPerLevel: [
+            ...createHealthPerLevelAttributes("leggings", "medium")
+        ]
     }
     private static readonly BOOTS_VARIANT: ArmorVariant = {
         id: "boots",
@@ -733,7 +877,10 @@ export class PolymorphArmoryVariants {
         toughnessMultiplier: 1,
         knockbackResistanceMultiplier: 1,
         modelType: "normal",
-        additionalAttributes: []
+        additionalAttributes: [],
+        additionalAttributesPerLevel: [
+            ...createHealthPerLevelAttributes("boots", "medium")
+        ]
     }
 
     public static readonly ARMORS: ArmorVariant[] = [
