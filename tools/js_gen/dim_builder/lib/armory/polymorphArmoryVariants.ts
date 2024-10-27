@@ -14,9 +14,33 @@ import {
     attribute_minecraft
 } from "../../../typedefs/attribute_typedefs";
 
+
+export function createHealthPerLevelAttributes(piece: 'helmet' | 'chestplate' | 'leggings' | 'boots', tier: 'light' | 'medium' | 'heavy'): CiaModifier[] {
+    const pieceMultiplier = piece === 'helmet' ? PolymorphArmoryVariants.ARMOR_HELMET_FRACTION :
+        piece === 'chestplate' ? PolymorphArmoryVariants.ARMOR_CHESTPLATE_FRACTION :
+            piece === 'leggings' ? PolymorphArmoryVariants.ARMOR_LEGGINGS_FRACTION :
+                PolymorphArmoryVariants.ARMOR_BOOTS_FRACTION;
+
+    const healthMultiplier = tier === 'light' ? 0.9 :
+        tier === 'medium' ? 1 :
+            1.1;
+
+    return [
+        CiaModifierBuilder.create(attribute_minecraft.a_generic_max_health, operation.ADDITION, PolymorphArmoryVariants.ARMOR_HP_FLAT_ADDITION * pieceMultiplier * healthMultiplier),
+        CiaModifierBuilder.create(attribute_minecraft.a_generic_max_health, operation.MULTIPLY_BASE, PolymorphArmoryVariants.ARMOR_HP_MULTIPLIER * pieceMultiplier * healthMultiplier)
+    ]
+}
+
 export class PolymorphArmoryVariants {
 
-    private static readonly PIERCE_MULTIPLIER = 3;
+    public static readonly PIERCE_MULTIPLIER = 3;
+    public static readonly ARMOR_HP_FLAT_ADDITION = 2;
+    public static readonly ARMOR_HP_MULTIPLIER = 0.23;
+    public static readonly ARMOR_HELMET_FRACTION = 0.175;
+    public static readonly ARMOR_CHESTPLATE_FRACTION = 0.4;
+    public static readonly ARMOR_LEGGINGS_FRACTION = 0.3;
+    public static readonly ARMOR_BOOTS_FRACTION = 0.125;
+
 
     //#region SWORDS
 
@@ -805,7 +829,10 @@ export class PolymorphArmoryVariants {
         toughnessMultiplier: 1,
         knockbackResistanceMultiplier: 1,
         modelType: "normal",
-        additionalAttributes: []
+        additionalAttributes: [],
+        additionalAttributesPerLevel: [
+            ...createHealthPerLevelAttributes("helmet", "medium")
+        ]
     }
     private static readonly CHESTPLATE_VARIANT: ArmorVariant = {
         id: "chestplate",
@@ -818,7 +845,10 @@ export class PolymorphArmoryVariants {
         toughnessMultiplier: 1,
         knockbackResistanceMultiplier: 1,
         modelType: "normal",
-        additionalAttributes: []
+        additionalAttributes: [],
+        additionalAttributesPerLevel: [
+            ...createHealthPerLevelAttributes("chestplate", "medium")
+        ]
     }
     private static readonly LEGGINGS_VARIANT: ArmorVariant = {
         id: "leggings",
@@ -831,7 +861,10 @@ export class PolymorphArmoryVariants {
         toughnessMultiplier: 1,
         knockbackResistanceMultiplier: 1,
         modelType: "normal",
-        additionalAttributes: []
+        additionalAttributes: [],
+        additionalAttributesPerLevel: [
+            ...createHealthPerLevelAttributes("leggings", "medium")
+        ]
     }
     private static readonly BOOTS_VARIANT: ArmorVariant = {
         id: "boots",
@@ -844,7 +877,10 @@ export class PolymorphArmoryVariants {
         toughnessMultiplier: 1,
         knockbackResistanceMultiplier: 1,
         modelType: "normal",
-        additionalAttributes: []
+        additionalAttributes: [],
+        additionalAttributesPerLevel: [
+            ...createHealthPerLevelAttributes("boots", "medium")
+        ]
     }
 
     public static readonly ARMORS: ArmorVariant[] = [

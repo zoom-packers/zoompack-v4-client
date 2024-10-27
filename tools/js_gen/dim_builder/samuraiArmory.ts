@@ -2,13 +2,14 @@ import path from "path";
 import {ArmorVariant} from "./lib/material/ArmoryTypes";
 import {GeckoArmorArmoryEntry} from "./lib/material/geckoArmorArmoryEntry";
 import {CiaModifier, operation} from "./lib/cia/util";
-import {attribute_minecraft} from "../typedefs/attribute_typedefs";
+import {createHealthPerLevelAttributes} from "./lib/armory/polymorphArmoryVariants";
 
 const samuraiAssetsPath = path.join("mc", "assets", "_mod_samurai", "samurai_dynasty");
 const samuraiGeoPath = path.join(samuraiAssetsPath, "geo");
 const samuraiModelPath = path.join(samuraiAssetsPath, "models", "item");
 const samuraiItemTexturePath = path.join(samuraiAssetsPath, "textures", "item");
 const samuraiArmorTexturePath = path.join(samuraiAssetsPath, "textures", "armor");
+
 
 const lightAttributes: CiaModifier[] = [
     {
@@ -71,7 +72,8 @@ const samuraiLightHelmetVariant: ArmorVariant = {
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
     additionalAttributes: lightAttributes,
-    pmmoSkill: "combat"
+    pmmoSkill: "combat",
+    additionalAttributesPerLevel: createHealthPerLevelAttributes('helmet', 'light')
 }
 
 const samuraiLightChestplateVariant: ArmorVariant = {
@@ -86,7 +88,8 @@ const samuraiLightChestplateVariant: ArmorVariant = {
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
     additionalAttributes: lightAttributes,
-    pmmoSkill: "combat"
+    pmmoSkill: "combat",
+    additionalAttributesPerLevel: createHealthPerLevelAttributes('chestplate', 'light')
 }
 
 const samuraiLightLeggingsVariant: ArmorVariant = {
@@ -101,7 +104,8 @@ const samuraiLightLeggingsVariant: ArmorVariant = {
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
     additionalAttributes: lightAttributes,
-    pmmoSkill: "combat"
+    pmmoSkill: "combat",
+    additionalAttributesPerLevel: createHealthPerLevelAttributes('leggings', 'light')
 }
 
 const samuraiLightBootsVariant: ArmorVariant = {
@@ -116,7 +120,8 @@ const samuraiLightBootsVariant: ArmorVariant = {
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
     additionalAttributes: lightAttributes,
-    pmmoSkill: "combat"
+    pmmoSkill: "combat",
+    additionalAttributesPerLevel: createHealthPerLevelAttributes('boots', 'light')
 }
 
 const samuraiHelmetVariant: ArmorVariant = {
@@ -130,7 +135,8 @@ const samuraiHelmetVariant: ArmorVariant = {
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: mediumAttributes
+    additionalAttributes: mediumAttributes,
+    additionalAttributesPerLevel: createHealthPerLevelAttributes('helmet', 'medium')
 }
 
 const samuraiChestplateVariant: ArmorVariant = {
@@ -144,7 +150,8 @@ const samuraiChestplateVariant: ArmorVariant = {
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: mediumAttributes
+    additionalAttributes: mediumAttributes,
+    additionalAttributesPerLevel: createHealthPerLevelAttributes('chestplate', 'medium')
 }
 
 const samuraiLeggingsVariant: ArmorVariant = {
@@ -158,7 +165,8 @@ const samuraiLeggingsVariant: ArmorVariant = {
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: mediumAttributes
+    additionalAttributes: mediumAttributes,
+    additionalAttributesPerLevel: createHealthPerLevelAttributes('leggings', 'medium')
 }
 
 const samuraiBootsVariant: ArmorVariant = {
@@ -172,7 +180,8 @@ const samuraiBootsVariant: ArmorVariant = {
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: mediumAttributes
+    additionalAttributes: mediumAttributes,
+    additionalAttributesPerLevel: createHealthPerLevelAttributes('boots', 'medium')
 }
 
 const samuraiMasterHelmetVariant: ArmorVariant = {
@@ -186,7 +195,8 @@ const samuraiMasterHelmetVariant: ArmorVariant = {
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: heavyAttributes
+    additionalAttributes: heavyAttributes,
+    additionalAttributesPerLevel: createHealthPerLevelAttributes('helmet', 'heavy')
 }
 
 const samuraiMasterChestplateVariant: ArmorVariant = {
@@ -200,7 +210,8 @@ const samuraiMasterChestplateVariant: ArmorVariant = {
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: heavyAttributes
+    additionalAttributes: heavyAttributes,
+    additionalAttributesPerLevel: createHealthPerLevelAttributes('chestplate', 'heavy')
 }
 
 const samuraiMasterLeggingsVariant: ArmorVariant = {
@@ -214,7 +225,8 @@ const samuraiMasterLeggingsVariant: ArmorVariant = {
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: heavyAttributes
+    additionalAttributes: heavyAttributes,
+    additionalAttributesPerLevel: createHealthPerLevelAttributes('leggings', 'heavy')
 }
 
 const samuraiMasterBootsVariant: ArmorVariant = {
@@ -228,7 +240,8 @@ const samuraiMasterBootsVariant: ArmorVariant = {
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: heavyAttributes
+    additionalAttributes: heavyAttributes,
+    additionalAttributesPerLevel: createHealthPerLevelAttributes('boots', 'heavy')
 }
 
 const samuraiLightArmors = [samuraiLightHelmetVariant, samuraiLightChestplateVariant, samuraiLightLeggingsVariant, samuraiLightBootsVariant];

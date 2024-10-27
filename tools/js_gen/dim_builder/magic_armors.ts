@@ -15,6 +15,7 @@ import {item_irons_spellbooks} from "../typedefs/item_typedefs";
 import {ArmorVariant, ChromaCreator, ChromaKeyOperation} from "./lib/material/ArmoryTypes";
 import {capitalizeFirstLetter} from "./lib/utils";
 import {GeckoArmorArmoryEntry} from "./lib/material/geckoArmorArmoryEntry";
+import {createHealthPerLevelAttributes} from "./lib/armory/polymorphArmoryVariants";
 
 const assetsPath = path.join("mc", "assets", "_mod_irons", "irons_spellbooks")
 const geoPath = path.join(assetsPath, "geo")
@@ -65,7 +66,7 @@ const chestplateRecipe = ["material", "rune", "material", "material", "material"
 const leggingsRecipe = ["material", "material", "material", "material", "rune", "material", "material", "", "material"];
 const bootsRecipe = ["", "", "", "material", "rune", "material", "material", "", "material"];
 
-function createCiaAttribute(attribute: string, level: number): CiaModifier[] {
+function createCiaAttribute(attribute: string, piece: 'helmet' | 'chestplate' | 'leggings' | 'boots', level: number): CiaModifier[] {
     return [
         {
             attribute: attribute_irons_spellbooks.a_mana_regen,
@@ -96,7 +97,8 @@ function createCiaAttribute(attribute: string, level: number): CiaModifier[] {
             attribute: attribute,
             operation: operation.MULTIPLY_BASE,
             value: powerMultiplierPerSetPerLevel * level / 4
-        }
+        },
+        ...createHealthPerLevelAttributes(piece, "light")
     ]
 }
 
@@ -160,7 +162,7 @@ function createArmorVariant(name: string, slot: string, rune): ArmorVariant {
             attribute = plaguedAttribute;
             break;
     };
-    let modifiers = createCiaAttribute(attribute, 1);
+    let modifiers = createCiaAttribute(attribute, typeId, 1);
 
     return {
         id: `${name}_${typeId}`,
