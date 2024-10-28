@@ -529,7 +529,14 @@ new_kjs_config_durability_material("blue_skies", "charoite", 1900, get_durabilit
 new_kjs_config_durability_material("blue_skies", "horizonite", 2000, get_durability_list_from_helmet(475), tier=7, tier_to='A')
 
 
-#aether 
+#aether
+new_kjs_config_durability_armor_set("aether", "zanite", get_durability_list_from_helmet(500), tier=11)
+new_kjs_config_durability_armor_set("aether", "neptune", get_durability_list_from_helmet(550), tier=11)
+new_kjs_config_durability_armor_set("aether", "gravitite", get_durability_list_from_helmet(600), tier=11)
+new_kjs_config_durability_armor_set("aether", "valkyrie", get_durability_list_from_helmet(645), tier=11)
+new_kjs_config_durability_armor_set("aether", "phoenix", get_durability_list_from_helmet(675), tier=11)
+new_kjs_config_durability_armor_set("aether", "obsidian", get_durability_list_from_helmet(700), tier=11)
+
 new_kjs_config_durability_tools('lost_aether_content', 'phoenix', 2640)
 multiple_kjs_config_durabilities("aetherdelight", [
     "holystone_knife_sword",
@@ -556,68 +563,79 @@ multiple_kjs_config_durabilities("aetherdelight", [
 ], 2000)
 
 # netherite
+new_kjs_config_durability_armor_set("betternether", "cincinnasite", get_durability_list_from_helmet(850), tier=12)
+new_kjs_config_durability_armor_set("kubejs", "cincinnasite_diamond", get_durability_list_from_helmet(950), tier=12)
+new_kjs_config_durability_armor_set("betternether", "nether_ruby", get_durability_list_from_helmet(1350), tier=13)
+new_kjs_config_durability_armor_set("betternether", "flaming_ruby", get_durability_list_from_helmet(1350), tier=13)
+new_kjs_config_durability_armor_set("minecraft", "netherite", get_durability_list_from_helmet(2000), tier=14)
+
 new_kjs_config_durability("nethersdelight","netherite_machete", 3100)
 
 # undergarden
+new_kjs_config_durability_armor_set("undergarden", "cloggrum", get_durability_list_from_helmet(2300), tier=14)
+new_kjs_config_durability_armor_set("undergarden", "froststeel", get_durability_list_from_helmet(2630), tier=15)
+new_kjs_config_durability_armor_set("undergarden", "utherium", get_durability_list_from_helmet(2890), tier=16)
+
+
 new_kjs_config_durability_tools("call_of_yucutan", "jade", 4000)
-new_kjs_config_durability_armor_set("call_of_yucutan", "jades", get_durability_list_from_helmet(2925))
-new_kjs_config_durability("call_of_yucutan","sentient_vine", 4000)
-new_kjs_config_durability("mokels_boss_mantyd","mantyd_scythe", 4300)
-new_kjs_config_durability_armor_set("mokels_boss_mantyd", "mantydhelmet", get_durability_list_from_helmet(2950))
+new_kjs_config_durability_armor_set("call_of_yucutan", "jades", get_durability_list_from_helmet(2925), tier=16)
+new_kjs_config_durability("call_of_yucutan","sentient_vine", 4000, tier=16)
+new_kjs_config_durability("mokels_boss_mantyd","mantyd_scythe", 4300, tier=16)
+new_kjs_config_durability_armor_set("mokels_boss_mantyd", "mantydhelmet", get_durability_list_from_helmet(2950), tier=16)
 
 
 # ende related
 new_kjs_config_durability("endlessbiomes", "void_touched_blade", 4400)
 new_kjs_config_durability("outer_end", "sinker_dagger", 4400)
-new_kjs_config_durability_armor_set("endlessbiomes", "void_touched_boots",  get_durability_list_from_helmet(2950))
-new_kjs_config_durability_armor_set("endlessbiomes", "void_touched_leggings",  get_durability_list_from_helmet(2950))
-new_kjs_config_durability_armor_set("endlessbiomes", "anklor_shell_armour", get_durability_list_from_helmet(2950))
-new_kjs_config_durability_armor_set("outer_end", "rose_crystal", get_durability_list_from_helmet(2950))
-new_kjs_config_durability_armor_set("outer_end", "cobalt_crystal", get_durability_list_from_helmet(2950))
-new_kjs_config_durability_armor_set("outer_end", "mint_crystal", get_durability_list_from_helmet(2950))
+new_kjs_config_durability_armor_set("endlessbiomes", "void_touched_boots",  get_durability_list_from_helmet(2950), tier=18)
+new_kjs_config_durability_armor_set("endlessbiomes", "void_touched_leggings",  get_durability_list_from_helmet(2950), tier=18)
+new_kjs_config_durability_armor_set("endlessbiomes", "anklor_shell_armour", get_durability_list_from_helmet(2950), tier=18)
+new_kjs_config_durability_armor_set("outer_end", "rose_crystal", get_durability_list_from_helmet(2950), tier=18)
+new_kjs_config_durability_armor_set("outer_end", "cobalt_crystal", get_durability_list_from_helmet(2950), tier=18)
+new_kjs_config_durability_armor_set("outer_end", "mint_crystal", get_durability_list_from_helmet(2950), tier=18)
 
 new_kjs_config_durability_tools("phantasm", "crystalline", 4600)
 new_kjs_config_durability_tools("ender_dragon_loot_", "dragon", 4800)
 new_kjs_config_durability("ender_dragon_loot_", "dragon_picaxe", 4800)
-new_kjs_config_durability_armor_set("ender_dragon_loot_", "dragon_armor", get_durability_list_from_helmet(3000))
-new_kjs_config_durability_material("enderitemod", "enderite", 5500, get_durability_list_from_helmet(3890))
+new_kjs_config_durability_armor_set("ender_dragon_loot_", "dragon_armor", get_durability_list_from_helmet(3000), tier=19)
+new_kjs_config_durability_material("enderitemod", "enderite", 5500, get_durability_list_from_helmet(3890), tier=19, tier_to='A')
 
 # deeper
-new_kjs_config_durability_armor_set("callfromthedepth_", "depth_armor", get_durability_list_from_helmet(4100))
+new_kjs_config_durability_armor_set("callfromthedepth_", "depth_armor", get_durability_list_from_helmet(4100), tier=20)
 for piece in ['sword', 'axe', 'pickaxe', 'shovel', 'hoe']:
     new_kjs_config_durability("callfromthedepth_", f"immemorial{piece}", 5700)
 new_kjs_config_durability("callfromthedepth_", "soul_blade", 5900)
 
 # Abyss
 
-new_kjs_config_durability_armor_set("theabyss", "fusion_armor",  get_durability_list_from_helmet(4400))
+new_kjs_config_durability_armor_set("theabyss", "fusion_armor",  get_durability_list_from_helmet(4400), tier=21)
 new_kjs_config_durability_tools("theabyss", "fusion", 6100)
 
-new_kjs_config_durability_armor_set("theabyss", "aberythe_armor",  get_durability_list_from_helmet(4500))
+new_kjs_config_durability_armor_set("theabyss", "aberythe_armor",  get_durability_list_from_helmet(4500), tier=22)
 new_kjs_config_durability_tools("theabyss", "aberythe", 6250)
 
-new_kjs_config_durability_armor_set("theabyss", "bone_armor",  get_durability_list_from_helmet(4650))
+new_kjs_config_durability_armor_set("theabyss", "bone_armor",  get_durability_list_from_helmet(4650), tier=22)
 new_kjs_config_durability_tools("theabyss", "bone", 6500)
 new_kjs_config_durability("theabyss", "bone_sword_item", 6500)
 
-new_kjs_config_durability_armor_set("theabyss", "ignisithe_armor", get_durability_list_from_helmet(4890))
+new_kjs_config_durability_armor_set("theabyss", "ignisithe_armor", get_durability_list_from_helmet(4890), tier=23)
 new_kjs_config_durability("theabyss", "ignisithe_sword", 6750)
 new_kjs_config_durability("theabyss", "bricked_knight_sword", 6750)
 
-new_kjs_config_durability_armor_set("theabyss", "glacerythe_armor",  get_durability_list_from_helmet(5100))
+new_kjs_config_durability_armor_set("theabyss", "glacerythe_armor",  get_durability_list_from_helmet(5100), tier=24)
 new_kjs_config_durability_tools("theabyss", "knight", 7000)
 
-new_kjs_config_durability_armor_set("theabyss", "garnite_armor", get_durability_list_from_helmet(5200))
+new_kjs_config_durability_armor_set("theabyss", "garnite_armor", get_durability_list_from_helmet(5200), tier=25)
 new_kjs_config_durability_tools("theabyss", "garnite", 7250)
 
-new_kjs_config_durability_armor_set("theabyss", "phantom_armor", get_durability_list_from_helmet(5350))
+new_kjs_config_durability_armor_set("theabyss", "phantom_armor", get_durability_list_from_helmet(5350), tier=24)
 new_kjs_config_durability_tools("theabyss", "phantom", 7500)
 
-new_kjs_config_durability_armor_set("theabyss", "unorithe_armor", get_durability_list_from_helmet(5600))
+new_kjs_config_durability_armor_set("theabyss", "unorithe_armor", get_durability_list_from_helmet(5600), tier=25)
 new_kjs_config_durability_tools("theabyss", "unorithe", 7750)
 new_kjs_config_durability("theabyss", "unorithe_pick_axe", 7750)
 
-new_kjs_config_durability_armor_set("theabyss", "incorythe_armor", get_durability_list_from_helmet(6200))
+new_kjs_config_durability_armor_set("theabyss", "incorythe_armor", get_durability_list_from_helmet(6200), tier=23)
 new_kjs_config_durability_tools("theabyss", "incorythe", 8000)
 new_kjs_config_durability("theabyss", "incorythe_sword_mkii", 8000)
 
