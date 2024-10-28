@@ -442,66 +442,66 @@ event.shaped('1x zoomers_magic:augment_mana_7', [" B ","DEF"," H "], {"B":"callf
 event.shaped('1x zoomers_magic:augment_mana_regen_7', [" B ","DEF"," H "], {"B":"callfromthedepth_:immemorialingot","D":"callfromthedepth_:immemorialingot","E":"irons_spellbooks:amethyst_resonance_charm","F":"callfromthedepth_:immemorialingot","H":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x zoomers_magic:augment_pyromancer_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:fire_rune","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_pyromancer_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"irons_spellbooks:fire_rune","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_cryomancer_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:ice_rune","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_cryomancer_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"irons_spellbooks:ice_rune","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_electromancer_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:lightning_rune","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_electromancer_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"irons_spellbooks:lightning_rune","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_archevoker_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:evocation_rune","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_archevoker_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"irons_spellbooks:evocation_rune","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_cultist_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:blood_rune","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_cultist_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"irons_spellbooks:blood_rune","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_shadowwalker_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:ender_rune","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_shadowwalker_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"irons_spellbooks:ender_rune","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_priest_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:holy_rune","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_priest_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"irons_spellbooks:holy_rune","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_plagued_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:nature_rune","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_plagued_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"irons_spellbooks:nature_rune","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_cooldown_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:cooldown_rune","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_cooldown_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"irons_spellbooks:cooldown_rune","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_barbarian_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"minecraft:diamond_axe","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_barbarian_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"minecraft:diamond_axe","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_berserker_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"minecraft:iron_chestplate","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_berserker_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"minecraft:iron_chestplate","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_crusader_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"minecraft:diamond_sword","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_crusader_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"minecraft:diamond_sword","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_archer_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"minecraft:bow","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_archer_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"minecraft:bow","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_treasure_hunter_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"minecraft:golden_shovel","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_treasure_hunter_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"minecraft:golden_shovel","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_explorer_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"minecraft:leather_boots","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_explorer_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"minecraft:leather_boots","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_healer_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"minecraft:golden_apple","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_healer_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"minecraft:golden_apple","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_tank_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"minecraft:shield","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_tank_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"minecraft:shield","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_health_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"minecraft:honey_bottle","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_health_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"minecraft:honey_bottle","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_armor_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"minecraft:diamond_chestplate","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_armor_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"minecraft:diamond_chestplate","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_mana_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:arcane_rune","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_mana_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"irons_spellbooks:arcane_rune","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x zoomers_magic:augment_mana_regen_8', [" B ","DEF"," H "], {"B":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:amethyst_resonance_charm","F":"theabyss:fixed_bone","H":"theabyss:fixed_bone"});
+event.shaped('1x zoomers_magic:augment_mana_regen_8', [" B ","DEF"," H "], {"B":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"irons_spellbooks:amethyst_resonance_charm","F":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot"});
 
 })

@@ -577,99 +577,99 @@ event.shaped('1x irons_spellbooks:plagued_tier_7_leggings', ["ABC","DEF","G I"],
 event.shaped('1x irons_spellbooks:plagued_tier_7_boots', ["   ","D F","GHI"], {"D":"callfromthedepth_:immemorialingot","F":"callfromthedepth_:immemorialingot","G":"callfromthedepth_:immemorialingot","H":"irons_spellbooks:nature_rune","I":"callfromthedepth_:immemorialingot"});
 
 
-event.shaped('1x irons_spellbooks:pyromancer_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:fire_rune","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:pyromancer_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fusion_ingot","E":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"irons_spellbooks:fire_rune","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:pyromancer_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fixed_bone","B":"irons_spellbooks:fire_rune","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:pyromancer_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fusion_ingot","B":"irons_spellbooks:fire_rune","C":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:pyromancer_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fixed_bone","B":"theabyss:fixed_bone","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:fire_rune","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:pyromancer_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fusion_ingot","B":"theabyss:fusion_ingot","C":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"irons_spellbooks:fire_rune","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:pyromancer_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:fire_rune","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:pyromancer_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"irons_spellbooks:fire_rune","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:cryomancer_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:ice_rune","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:cryomancer_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fusion_ingot","E":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"irons_spellbooks:ice_rune","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:cryomancer_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fixed_bone","B":"irons_spellbooks:ice_rune","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:cryomancer_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fusion_ingot","B":"irons_spellbooks:ice_rune","C":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:cryomancer_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fixed_bone","B":"theabyss:fixed_bone","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:ice_rune","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:cryomancer_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fusion_ingot","B":"theabyss:fusion_ingot","C":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"irons_spellbooks:ice_rune","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:cryomancer_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:ice_rune","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:cryomancer_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"irons_spellbooks:ice_rune","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:electromancer_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:lightning_rune","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:electromancer_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fusion_ingot","E":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"irons_spellbooks:lightning_rune","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:electromancer_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fixed_bone","B":"irons_spellbooks:lightning_rune","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:electromancer_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fusion_ingot","B":"irons_spellbooks:lightning_rune","C":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:electromancer_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fixed_bone","B":"theabyss:fixed_bone","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:lightning_rune","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:electromancer_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fusion_ingot","B":"theabyss:fusion_ingot","C":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"irons_spellbooks:lightning_rune","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:electromancer_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:lightning_rune","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:electromancer_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"irons_spellbooks:lightning_rune","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:archevoker_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:evocation_rune","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:archevoker_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fusion_ingot","E":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"irons_spellbooks:evocation_rune","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:archevoker_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fixed_bone","B":"irons_spellbooks:evocation_rune","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:archevoker_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fusion_ingot","B":"irons_spellbooks:evocation_rune","C":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:archevoker_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fixed_bone","B":"theabyss:fixed_bone","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:evocation_rune","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:archevoker_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fusion_ingot","B":"theabyss:fusion_ingot","C":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"irons_spellbooks:evocation_rune","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:archevoker_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:evocation_rune","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:archevoker_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"irons_spellbooks:evocation_rune","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:cultist_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:blood_rune","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:cultist_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fusion_ingot","E":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"irons_spellbooks:blood_rune","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:cultist_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fixed_bone","B":"irons_spellbooks:blood_rune","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:cultist_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fusion_ingot","B":"irons_spellbooks:blood_rune","C":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:cultist_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fixed_bone","B":"theabyss:fixed_bone","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:blood_rune","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:cultist_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fusion_ingot","B":"theabyss:fusion_ingot","C":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"irons_spellbooks:blood_rune","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:cultist_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:blood_rune","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:cultist_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"irons_spellbooks:blood_rune","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:shadowwalker_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:ender_rune","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:shadowwalker_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fusion_ingot","E":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"irons_spellbooks:ender_rune","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:shadowwalker_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fixed_bone","B":"irons_spellbooks:ender_rune","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:shadowwalker_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fusion_ingot","B":"irons_spellbooks:ender_rune","C":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:shadowwalker_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fixed_bone","B":"theabyss:fixed_bone","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:ender_rune","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:shadowwalker_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fusion_ingot","B":"theabyss:fusion_ingot","C":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"irons_spellbooks:ender_rune","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:shadowwalker_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:ender_rune","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:shadowwalker_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"irons_spellbooks:ender_rune","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:priest_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:holy_rune","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:priest_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fusion_ingot","E":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"irons_spellbooks:holy_rune","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:priest_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fixed_bone","B":"irons_spellbooks:holy_rune","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:priest_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fusion_ingot","B":"irons_spellbooks:holy_rune","C":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:priest_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fixed_bone","B":"theabyss:fixed_bone","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:holy_rune","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:priest_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fusion_ingot","B":"theabyss:fusion_ingot","C":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"irons_spellbooks:holy_rune","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:priest_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:holy_rune","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:priest_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"irons_spellbooks:holy_rune","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:plagued_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:nature_rune","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:plagued_tier_8_helmet', ["   ","DEF","GHI"], {"D":"theabyss:fusion_ingot","E":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"irons_spellbooks:nature_rune","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:plagued_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fixed_bone","B":"irons_spellbooks:nature_rune","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:plagued_tier_8_chestplate', ["ABC","DEF","GHI"], {"A":"theabyss:fusion_ingot","B":"irons_spellbooks:nature_rune","C":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"theabyss:fusion_ingot","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:plagued_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fixed_bone","B":"theabyss:fixed_bone","C":"theabyss:fixed_bone","D":"theabyss:fixed_bone","E":"irons_spellbooks:nature_rune","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:plagued_tier_8_leggings', ["ABC","DEF","G I"], {"A":"theabyss:fusion_ingot","B":"theabyss:fusion_ingot","C":"theabyss:fusion_ingot","D":"theabyss:fusion_ingot","E":"irons_spellbooks:nature_rune","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","I":"theabyss:fusion_ingot"});
 
 
-event.shaped('1x irons_spellbooks:plagued_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fixed_bone","F":"theabyss:fixed_bone","G":"theabyss:fixed_bone","H":"irons_spellbooks:nature_rune","I":"theabyss:fixed_bone"});
+event.shaped('1x irons_spellbooks:plagued_tier_8_boots', ["   ","D F","GHI"], {"D":"theabyss:fusion_ingot","F":"theabyss:fusion_ingot","G":"theabyss:fusion_ingot","H":"irons_spellbooks:nature_rune","I":"theabyss:fusion_ingot"});
 
 })
