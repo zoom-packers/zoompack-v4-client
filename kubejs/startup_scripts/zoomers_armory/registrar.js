@@ -301,7 +301,7 @@ ItemEvents.toolTierRegistry(event => {
 
 ItemEvents.armorTierRegistry(event => {
   event.add("zoomers_armory:flint", tier => {
-    tier.durabilityMultiplier = 6.666666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1,2.5,3,1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -310,7 +310,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flint_samurai_light", tier => {
-    tier.durabilityMultiplier = 6.666666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1,2.5,3,1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -319,7 +319,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flint_samurai", tier => {
-    tier.durabilityMultiplier = 6.666666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1,2.5,3,1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -328,7 +328,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flint_samurai_master", tier => {
-    tier.durabilityMultiplier = 6.666666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1,2.5,3,1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -336,8 +336,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 0 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:flint_archer", tier => {
+    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:flint" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:flint_ranger", tier => {
+    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [0.85,2.125,2.55,0.85] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:flint" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:flint_pyromancer", tier => {
-    tier.durabilityMultiplier = 6.666666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -346,7 +364,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flint_cryomancer", tier => {
-    tier.durabilityMultiplier = 6.666666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -355,7 +373,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flint_electromancer", tier => {
-    tier.durabilityMultiplier = 6.666666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -364,7 +382,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flint_archevoker", tier => {
-    tier.durabilityMultiplier = 6.666666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -373,7 +391,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flint_cultist", tier => {
-    tier.durabilityMultiplier = 6.666666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -382,7 +400,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flint_shadowwalker", tier => {
-    tier.durabilityMultiplier = 6.666666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -391,7 +409,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flint_priest", tier => {
-    tier.durabilityMultiplier = 6.666666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -400,7 +418,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flint_plagued", tier => {
-    tier.durabilityMultiplier = 6.666666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -409,7 +427,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:iron", tier => {
-    tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 34.68606770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -418,7 +436,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:iron_samurai_light", tier => {
-    tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 34.68606770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -427,7 +445,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:iron_samurai", tier => {
-    tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 34.68606770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -436,7 +454,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:iron_samurai_master", tier => {
-    tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 34.68606770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -444,8 +462,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 0 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:iron_archer", tier => {
+    tier.durabilityMultiplier = 34.68606770833333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.5,3.75,4.5,1.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:iron_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:iron_ranger", tier => {
+    tier.durabilityMultiplier = 34.68606770833333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.7,4.25,5.1,1.7] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:iron_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:iron_pyromancer", tier => {
-    tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 34.68606770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.5,3.75,4.5,1.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -454,7 +490,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:iron_cryomancer", tier => {
-    tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 34.68606770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.5,3.75,4.5,1.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -463,7 +499,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:iron_electromancer", tier => {
-    tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 34.68606770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.5,3.75,4.5,1.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -472,7 +508,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:iron_archevoker", tier => {
-    tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 34.68606770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.5,3.75,4.5,1.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -481,7 +517,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:iron_cultist", tier => {
-    tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 34.68606770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.5,3.75,4.5,1.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -490,7 +526,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:iron_shadowwalker", tier => {
-    tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 34.68606770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.5,3.75,4.5,1.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -499,7 +535,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:iron_priest", tier => {
-    tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 34.68606770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.5,3.75,4.5,1.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -508,7 +544,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:iron_plagued", tier => {
-    tier.durabilityMultiplier = 16.666666666666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 34.68606770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.5,3.75,4.5,1.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -517,7 +553,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:gold", tier => {
-    tier.durabilityMultiplier = 3.3333333333333335 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5.619142968749999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.4666666666666666,3.6666666666666665,4.4,1.4666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -526,7 +562,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:gold_samurai_light", tier => {
-    tier.durabilityMultiplier = 3.3333333333333335 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5.619142968749999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.4666666666666666,3.6666666666666665,4.4,1.4666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -535,7 +571,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:gold_samurai", tier => {
-    tier.durabilityMultiplier = 3.3333333333333335 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5.619142968749999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.4666666666666666,3.6666666666666665,4.4,1.4666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -544,7 +580,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:gold_samurai_master", tier => {
-    tier.durabilityMultiplier = 3.3333333333333335 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5.619142968749999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.4666666666666666,3.6666666666666665,4.4,1.4666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -552,8 +588,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 0 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:gold_archer", tier => {
+    tier.durabilityMultiplier = 5.619142968749999 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:gold_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:gold_ranger", tier => {
+    tier.durabilityMultiplier = 5.619142968749999 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.2466666666666666,3.1166666666666667,3.7399999999999998,1.2466666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:gold_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:gold_pyromancer", tier => {
-    tier.durabilityMultiplier = 3.3333333333333335 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5.619142968749999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -562,7 +616,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:gold_cryomancer", tier => {
-    tier.durabilityMultiplier = 3.3333333333333335 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5.619142968749999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -571,7 +625,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:gold_electromancer", tier => {
-    tier.durabilityMultiplier = 3.3333333333333335 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5.619142968749999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -580,7 +634,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:gold_archevoker", tier => {
-    tier.durabilityMultiplier = 3.3333333333333335 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5.619142968749999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -589,7 +643,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:gold_cultist", tier => {
-    tier.durabilityMultiplier = 3.3333333333333335 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5.619142968749999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -598,7 +652,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:gold_shadowwalker", tier => {
-    tier.durabilityMultiplier = 3.3333333333333335 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5.619142968749999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -607,7 +661,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:gold_priest", tier => {
-    tier.durabilityMultiplier = 3.3333333333333335 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5.619142968749999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -616,7 +670,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:gold_plagued", tier => {
-    tier.durabilityMultiplier = 3.3333333333333335 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5.619142968749999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -625,7 +679,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diamond", tier => {
-    tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 83.94028385416667 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.6666666666666665,6.666666666666667,8,2.6666666666666665] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -634,7 +688,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diamond_samurai_light", tier => {
-    tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 83.94028385416667 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.6666666666666665,6.666666666666667,8,2.6666666666666665] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -643,7 +697,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diamond_samurai", tier => {
-    tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 83.94028385416667 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.6666666666666665,6.666666666666667,8,2.6666666666666665] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -652,7 +706,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diamond_samurai_master", tier => {
-    tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 83.94028385416667 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.6666666666666665,6.666666666666667,8,2.6666666666666665] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -660,8 +714,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 2 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:diamond_archer", tier => {
+    tier.durabilityMultiplier = 83.94028385416667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:diamond_ranger", tier => {
+    tier.durabilityMultiplier = 83.94028385416667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.2666666666666666,5.666666666666667,6.8,2.2666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:diamond_pyromancer", tier => {
-    tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 83.94028385416667 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -670,7 +742,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diamond_cryomancer", tier => {
-    tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 83.94028385416667 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -679,7 +751,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diamond_electromancer", tier => {
-    tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 83.94028385416667 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -688,7 +760,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diamond_archevoker", tier => {
-    tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 83.94028385416667 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -697,7 +769,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diamond_cultist", tier => {
-    tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 83.94028385416667 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -706,7 +778,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diamond_shadowwalker", tier => {
-    tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 83.94028385416667 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -715,7 +787,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diamond_priest", tier => {
-    tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 83.94028385416667 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -724,7 +796,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diamond_plagued", tier => {
-    tier.durabilityMultiplier = 33.333333333333336 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 83.94028385416667 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -733,7 +805,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:neptunium", tier => {
-    tier.durabilityMultiplier = 66.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 167.88056770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.933333333333333,7.333333333333333,8.8,2.933333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -742,7 +814,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:neptunium_samurai_light", tier => {
-    tier.durabilityMultiplier = 66.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 167.88056770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.933333333333333,7.333333333333333,8.8,2.933333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -751,7 +823,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:neptunium_samurai", tier => {
-    tier.durabilityMultiplier = 66.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 167.88056770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.933333333333333,7.333333333333333,8.8,2.933333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -760,7 +832,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:neptunium_samurai_master", tier => {
-    tier.durabilityMultiplier = 66.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 167.88056770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.933333333333333,7.333333333333333,8.8,2.933333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -768,8 +840,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 3 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:neptunium_archer", tier => {
+    tier.durabilityMultiplier = 167.88056770833333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aquaculture:neptunium_ingot" // #forge:ingots/iron'
+    tier.toughness = 3 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:neptunium_ranger", tier => {
+    tier.durabilityMultiplier = 167.88056770833333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.493333333333333,6.233333333333333,7.4799999999999995,2.493333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aquaculture:neptunium_ingot" // #forge:ingots/iron'
+    tier.toughness = 3 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:neptunium_pyromancer", tier => {
-    tier.durabilityMultiplier = 66.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 167.88056770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -778,7 +868,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:neptunium_cryomancer", tier => {
-    tier.durabilityMultiplier = 66.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 167.88056770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -787,7 +877,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:neptunium_electromancer", tier => {
-    tier.durabilityMultiplier = 66.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 167.88056770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -796,7 +886,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:neptunium_archevoker", tier => {
-    tier.durabilityMultiplier = 66.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 167.88056770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -805,7 +895,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:neptunium_cultist", tier => {
-    tier.durabilityMultiplier = 66.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 167.88056770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -814,7 +904,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:neptunium_shadowwalker", tier => {
-    tier.durabilityMultiplier = 66.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 167.88056770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -823,7 +913,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:neptunium_priest", tier => {
-    tier.durabilityMultiplier = 66.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 167.88056770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -832,7 +922,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:neptunium_plagued", tier => {
-    tier.durabilityMultiplier = 66.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 167.88056770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -841,7 +931,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:pyrope", tier => {
-    tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 435.10203333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.933333333333333,7.333333333333333,8.8,2.933333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -850,7 +940,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:pyrope_samurai_light", tier => {
-    tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 435.10203333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.933333333333333,7.333333333333333,8.8,2.933333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -859,7 +949,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:pyrope_samurai", tier => {
-    tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 435.10203333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.933333333333333,7.333333333333333,8.8,2.933333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -868,7 +958,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:pyrope_samurai_master", tier => {
-    tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 435.10203333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.933333333333333,7.333333333333333,8.8,2.933333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -876,8 +966,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 2 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:pyrope_archer", tier => {
+    tier.durabilityMultiplier = 435.10203333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:pyrope_gem" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:pyrope_ranger", tier => {
+    tier.durabilityMultiplier = 435.10203333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.493333333333333,6.233333333333333,7.4799999999999995,2.493333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:pyrope_gem" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:pyrope_pyromancer", tier => {
-    tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 435.10203333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -886,7 +994,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:pyrope_cryomancer", tier => {
-    tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 435.10203333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -895,7 +1003,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:pyrope_electromancer", tier => {
-    tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 435.10203333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -904,7 +1012,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:pyrope_archevoker", tier => {
-    tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 435.10203333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -913,7 +1021,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:pyrope_cultist", tier => {
-    tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 435.10203333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -922,7 +1030,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:pyrope_shadowwalker", tier => {
-    tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 435.10203333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -931,7 +1039,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:pyrope_priest", tier => {
-    tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 435.10203333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -940,7 +1048,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:pyrope_plagued", tier => {
-    tier.durabilityMultiplier = 106.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 435.10203333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.2,5.5,6.6,2.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -949,7 +1057,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aquite", tier => {
-    tier.durabilityMultiplier = 113.33333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 462.29591041666663 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.2,8,9.6,3.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -958,7 +1066,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aquite_samurai_light", tier => {
-    tier.durabilityMultiplier = 113.33333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 462.29591041666663 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.2,8,9.6,3.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -967,7 +1075,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aquite_samurai", tier => {
-    tier.durabilityMultiplier = 113.33333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 462.29591041666663 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.2,8,9.6,3.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -976,7 +1084,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aquite_samurai_master", tier => {
-    tier.durabilityMultiplier = 113.33333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 462.29591041666663 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.2,8,9.6,3.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -984,8 +1092,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 2 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:aquite_archer", tier => {
+    tier.durabilityMultiplier = 462.29591041666663 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:aquite" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:aquite_ranger", tier => {
+    tier.durabilityMultiplier = 462.29591041666663 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.7199999999999998,6.8,8.16,2.7199999999999998] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:aquite" // #forge:ingots/iron'
+    tier.toughness = 2 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:aquite_pyromancer", tier => {
-    tier.durabilityMultiplier = 113.33333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 462.29591041666663 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -994,7 +1120,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aquite_cryomancer", tier => {
-    tier.durabilityMultiplier = 113.33333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 462.29591041666663 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1003,7 +1129,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aquite_electromancer", tier => {
-    tier.durabilityMultiplier = 113.33333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 462.29591041666663 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1012,7 +1138,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aquite_archevoker", tier => {
-    tier.durabilityMultiplier = 113.33333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 462.29591041666663 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1021,7 +1147,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aquite_cultist", tier => {
-    tier.durabilityMultiplier = 113.33333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 462.29591041666663 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1030,7 +1156,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aquite_shadowwalker", tier => {
-    tier.durabilityMultiplier = 113.33333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 462.29591041666663 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1039,7 +1165,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aquite_priest", tier => {
-    tier.durabilityMultiplier = 113.33333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 462.29591041666663 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1048,7 +1174,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aquite_plagued", tier => {
-    tier.durabilityMultiplier = 113.33333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 462.29591041666663 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1057,7 +1183,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diopside", tier => {
-    tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 489.4897875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.2,8,9.6,3.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1066,7 +1192,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diopside_samurai_light", tier => {
-    tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 489.4897875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.2,8,9.6,3.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1075,7 +1201,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diopside_samurai", tier => {
-    tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 489.4897875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.2,8,9.6,3.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1084,7 +1210,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diopside_samurai_master", tier => {
-    tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 489.4897875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.2,8,9.6,3.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1092,8 +1218,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:diopside_archer", tier => {
+    tier.durabilityMultiplier = 489.4897875 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:diopside_gem" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:diopside_ranger", tier => {
+    tier.durabilityMultiplier = 489.4897875 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.7199999999999998,6.8,8.16,2.7199999999999998] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:diopside_gem" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:diopside_pyromancer", tier => {
-    tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 489.4897875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1102,7 +1246,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diopside_cryomancer", tier => {
-    tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 489.4897875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1111,7 +1255,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diopside_electromancer", tier => {
-    tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 489.4897875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1120,7 +1264,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diopside_archevoker", tier => {
-    tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 489.4897875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1129,7 +1273,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diopside_cultist", tier => {
-    tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 489.4897875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1138,7 +1282,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diopside_shadowwalker", tier => {
-    tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 489.4897875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1147,7 +1291,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diopside_priest", tier => {
-    tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 489.4897875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1156,7 +1300,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:diopside_plagued", tier => {
-    tier.durabilityMultiplier = 120 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 489.4897875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.4,6,7.2,2.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1165,7 +1309,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:charoite", tier => {
-    tier.durabilityMultiplier = 126.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 593.1317578124999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.3333333333333335,8.333333333333334,10,3.3333333333333335] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1174,7 +1318,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:charoite_samurai_light", tier => {
-    tier.durabilityMultiplier = 126.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 593.1317578124999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.3333333333333335,8.333333333333334,10,3.3333333333333335] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1183,7 +1327,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:charoite_samurai", tier => {
-    tier.durabilityMultiplier = 126.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 593.1317578124999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.3333333333333335,8.333333333333334,10,3.3333333333333335] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1192,7 +1336,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:charoite_samurai_master", tier => {
-    tier.durabilityMultiplier = 126.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 593.1317578124999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.3333333333333335,8.333333333333334,10,3.3333333333333335] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1200,8 +1344,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:charoite_archer", tier => {
+    tier.durabilityMultiplier = 593.1317578124999 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.5,6.25,7.5,2.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:charoite" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:charoite_ranger", tier => {
+    tier.durabilityMultiplier = 593.1317578124999 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.8333333333333335,7.083333333333333,8.5,2.8333333333333335] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:charoite" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:charoite_pyromancer", tier => {
-    tier.durabilityMultiplier = 126.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 593.1317578124999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.5,6.25,7.5,2.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1210,7 +1372,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:charoite_cryomancer", tier => {
-    tier.durabilityMultiplier = 126.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 593.1317578124999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.5,6.25,7.5,2.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1219,7 +1381,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:charoite_electromancer", tier => {
-    tier.durabilityMultiplier = 126.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 593.1317578124999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.5,6.25,7.5,2.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1228,7 +1390,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:charoite_archevoker", tier => {
-    tier.durabilityMultiplier = 126.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 593.1317578124999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.5,6.25,7.5,2.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1237,7 +1399,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:charoite_cultist", tier => {
-    tier.durabilityMultiplier = 126.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 593.1317578124999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.5,6.25,7.5,2.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1246,7 +1408,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:charoite_shadowwalker", tier => {
-    tier.durabilityMultiplier = 126.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 593.1317578124999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.5,6.25,7.5,2.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1255,7 +1417,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:charoite_priest", tier => {
-    tier.durabilityMultiplier = 126.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 593.1317578124999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.5,6.25,7.5,2.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1264,7 +1426,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:charoite_plagued", tier => {
-    tier.durabilityMultiplier = 126.66666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 593.1317578124999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.5,6.25,7.5,2.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1273,7 +1435,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:horizonite", tier => {
-    tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 624.3492187500001 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.466666666666667,8.666666666666666,10.4,3.466666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1282,7 +1444,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:horizonite_samurai_light", tier => {
-    tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 624.3492187500001 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.466666666666667,8.666666666666666,10.4,3.466666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1291,7 +1453,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:horizonite_samurai", tier => {
-    tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 624.3492187500001 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.466666666666667,8.666666666666666,10.4,3.466666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1300,7 +1462,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:horizonite_samurai_master", tier => {
-    tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 624.3492187500001 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.466666666666667,8.666666666666666,10.4,3.466666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1308,8 +1470,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:horizonite_archer", tier => {
+    tier.durabilityMultiplier = 624.3492187500001 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.6,6.5,7.8,2.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:horizonite_ingot" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:horizonite_ranger", tier => {
+    tier.durabilityMultiplier = 624.3492187500001 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.9466666666666663,7.366666666666665,8.84,2.9466666666666663] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "blue_skies:horizonite_ingot" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:horizonite_pyromancer", tier => {
-    tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 624.3492187500001 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.6,6.5,7.8,2.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1318,7 +1498,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:horizonite_cryomancer", tier => {
-    tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 624.3492187500001 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.6,6.5,7.8,2.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1327,7 +1507,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:horizonite_electromancer", tier => {
-    tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 624.3492187500001 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.6,6.5,7.8,2.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1336,7 +1516,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:horizonite_archevoker", tier => {
-    tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 624.3492187500001 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.6,6.5,7.8,2.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1345,7 +1525,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:horizonite_cultist", tier => {
-    tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 624.3492187500001 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.6,6.5,7.8,2.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1354,7 +1534,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:horizonite_shadowwalker", tier => {
-    tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 624.3492187500001 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.6,6.5,7.8,2.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1363,7 +1543,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:horizonite_priest", tier => {
-    tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 624.3492187500001 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.6,6.5,7.8,2.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1372,7 +1552,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:horizonite_plagued", tier => {
-    tier.durabilityMultiplier = 133.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 624.3492187500001 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.6,6.5,7.8,2.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1381,7 +1561,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:zanite", tier => {
-    tier.durabilityMultiplier = 147.4 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1107.416533953125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.7333333333333334,9.333333333333334,11.2,3.7333333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1390,7 +1570,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:zanite_samurai_light", tier => {
-    tier.durabilityMultiplier = 147.4 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1107.416533953125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.7333333333333334,9.333333333333334,11.2,3.7333333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1399,7 +1579,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:zanite_samurai", tier => {
-    tier.durabilityMultiplier = 147.4 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1107.416533953125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.7333333333333334,9.333333333333334,11.2,3.7333333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1408,7 +1588,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:zanite_samurai_master", tier => {
-    tier.durabilityMultiplier = 147.4 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1107.416533953125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.7333333333333334,9.333333333333334,11.2,3.7333333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1416,8 +1596,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:zanite_archer", tier => {
+    tier.durabilityMultiplier = 1107.416533953125 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [2.8,7,8.4,2.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aether:zanite_gemstone" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:zanite_ranger", tier => {
+    tier.durabilityMultiplier = 1107.416533953125 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [3.1733333333333333,7.933333333333334,9.520000000000001,3.1733333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aether:zanite_gemstone" // #forge:ingots/iron'
+    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:zanite_pyromancer", tier => {
-    tier.durabilityMultiplier = 147.4 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1107.416533953125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.8,7,8.4,2.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1426,7 +1624,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:zanite_cryomancer", tier => {
-    tier.durabilityMultiplier = 147.4 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1107.416533953125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.8,7,8.4,2.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1435,7 +1633,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:zanite_electromancer", tier => {
-    tier.durabilityMultiplier = 147.4 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1107.416533953125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.8,7,8.4,2.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1444,7 +1642,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:zanite_archevoker", tier => {
-    tier.durabilityMultiplier = 147.4 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1107.416533953125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.8,7,8.4,2.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1453,7 +1651,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:zanite_cultist", tier => {
-    tier.durabilityMultiplier = 147.4 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1107.416533953125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.8,7,8.4,2.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1462,7 +1660,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:zanite_shadowwalker", tier => {
-    tier.durabilityMultiplier = 147.4 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1107.416533953125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.8,7,8.4,2.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1471,7 +1669,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:zanite_priest", tier => {
-    tier.durabilityMultiplier = 147.4 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1107.416533953125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.8,7,8.4,2.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1480,7 +1678,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:zanite_plagued", tier => {
-    tier.durabilityMultiplier = 147.4 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1107.416533953125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.8,7,8.4,2.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1489,7 +1687,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enchanted_gravitite", tier => {
-    tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1217.6072338489582 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [4.8,12,14.4,4.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1498,7 +1696,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enchanted_gravitite_samurai_light", tier => {
-    tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1217.6072338489582 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [4.8,12,14.4,4.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1507,7 +1705,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enchanted_gravitite_samurai", tier => {
-    tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1217.6072338489582 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [4.8,12,14.4,4.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1516,7 +1714,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enchanted_gravitite_samurai_master", tier => {
-    tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1217.6072338489582 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [4.8,12,14.4,4.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1524,8 +1722,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 3 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:enchanted_gravitite_archer", tier => {
+    tier.durabilityMultiplier = 1217.6072338489582 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [3.6,9,10.8,3.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aether:enchanted_gravitite" // #forge:ingots/iron'
+    tier.toughness = 3 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:enchanted_gravitite_ranger", tier => {
+    tier.durabilityMultiplier = 1217.6072338489582 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [4.08,10.2,12.24,4.08] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "aether:enchanted_gravitite" // #forge:ingots/iron'
+    tier.toughness = 3 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:enchanted_gravitite_pyromancer", tier => {
-    tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1217.6072338489582 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.6,9,10.8,3.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1534,7 +1750,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enchanted_gravitite_cryomancer", tier => {
-    tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1217.6072338489582 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.6,9,10.8,3.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1543,7 +1759,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enchanted_gravitite_electromancer", tier => {
-    tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1217.6072338489582 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.6,9,10.8,3.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1552,7 +1768,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enchanted_gravitite_archevoker", tier => {
-    tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1217.6072338489582 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.6,9,10.8,3.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1561,7 +1777,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enchanted_gravitite_cultist", tier => {
-    tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1217.6072338489582 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.6,9,10.8,3.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1570,7 +1786,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enchanted_gravitite_shadowwalker", tier => {
-    tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1217.6072338489582 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.6,9,10.8,3.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1579,7 +1795,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enchanted_gravitite_priest", tier => {
-    tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1217.6072338489582 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.6,9,10.8,3.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1588,7 +1804,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enchanted_gravitite_plagued", tier => {
-    tier.durabilityMultiplier = 162.06666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1217.6072338489582 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.6,9,10.8,3.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1597,7 +1813,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite", tier => {
-    tier.durabilityMultiplier = 180 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1498.438125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6,15,18,6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1606,7 +1822,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_samurai_light", tier => {
-    tier.durabilityMultiplier = 180 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1498.438125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6,15,18,6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1615,7 +1831,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_samurai", tier => {
-    tier.durabilityMultiplier = 180 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1498.438125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6,15,18,6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1624,7 +1840,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_samurai_master", tier => {
-    tier.durabilityMultiplier = 180 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1498.438125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6,15,18,6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1632,8 +1848,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:cincinnasite_archer", tier => {
+    tier.durabilityMultiplier = 1498.438125 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [4.5,11.25,13.5,4.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "betternether:cincinnasite_ingot" // #forge:ingots/iron'
+    tier.toughness = 5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cincinnasite_ranger", tier => {
+    tier.durabilityMultiplier = 1498.438125 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.1,12.75,15.3,5.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "betternether:cincinnasite_ingot" // #forge:ingots/iron'
+    tier.toughness = 5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:cincinnasite_pyromancer", tier => {
-    tier.durabilityMultiplier = 180 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1498.438125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [4.5,11.25,13.5,4.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1642,7 +1876,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_cryomancer", tier => {
-    tier.durabilityMultiplier = 180 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1498.438125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [4.5,11.25,13.5,4.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1651,7 +1885,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_electromancer", tier => {
-    tier.durabilityMultiplier = 180 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1498.438125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [4.5,11.25,13.5,4.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1660,7 +1894,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_archevoker", tier => {
-    tier.durabilityMultiplier = 180 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1498.438125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [4.5,11.25,13.5,4.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1669,7 +1903,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_cultist", tier => {
-    tier.durabilityMultiplier = 180 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1498.438125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [4.5,11.25,13.5,4.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1678,7 +1912,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_shadowwalker", tier => {
-    tier.durabilityMultiplier = 180 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1498.438125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [4.5,11.25,13.5,4.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1687,7 +1921,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_priest", tier => {
-    tier.durabilityMultiplier = 180 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1498.438125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [4.5,11.25,13.5,4.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1696,7 +1930,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_plagued", tier => {
-    tier.durabilityMultiplier = 180 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1498.438125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [4.5,11.25,13.5,4.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1705,7 +1939,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_diamond", tier => {
-    tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1553.935833333333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.8,17,20.4,6.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1714,7 +1948,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_diamond_samurai_light", tier => {
-    tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1553.935833333333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.8,17,20.4,6.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1723,7 +1957,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_diamond_samurai", tier => {
-    tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1553.935833333333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.8,17,20.4,6.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1732,7 +1966,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_diamond_samurai_master", tier => {
-    tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1553.935833333333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.8,17,20.4,6.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1740,8 +1974,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 6 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:cincinnasite_diamond_archer", tier => {
+    tier.durabilityMultiplier = 1553.935833333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.1,12.75,15.3,5.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
+    tier.toughness = 6 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cincinnasite_diamond_ranger", tier => {
+    tier.durabilityMultiplier = 1553.935833333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.78,14.45,17.34,5.78] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:diamond" // #forge:ingots/iron'
+    tier.toughness = 6 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:cincinnasite_diamond_pyromancer", tier => {
-    tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1553.935833333333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.1,12.75,15.3,5.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1750,7 +2002,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_diamond_cryomancer", tier => {
-    tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1553.935833333333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.1,12.75,15.3,5.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1759,7 +2011,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_diamond_electromancer", tier => {
-    tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1553.935833333333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.1,12.75,15.3,5.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1768,7 +2020,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_diamond_archevoker", tier => {
-    tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1553.935833333333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.1,12.75,15.3,5.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1777,7 +2029,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_diamond_cultist", tier => {
-    tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1553.935833333333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.1,12.75,15.3,5.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1786,7 +2038,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_diamond_shadowwalker", tier => {
-    tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1553.935833333333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.1,12.75,15.3,5.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1795,7 +2047,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_diamond_priest", tier => {
-    tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1553.935833333333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.1,12.75,15.3,5.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1804,7 +2056,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cincinnasite_diamond_plagued", tier => {
-    tier.durabilityMultiplier = 186.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1553.935833333333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.1,12.75,15.3,5.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1813,7 +2065,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:nether_ruby", tier => {
-    tier.durabilityMultiplier = 196.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1804.9935914062498 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [7.333333333333333,18.333333333333332,22,7.333333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1822,7 +2074,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:nether_ruby_samurai_light", tier => {
-    tier.durabilityMultiplier = 196.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1804.9935914062498 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [7.333333333333333,18.333333333333332,22,7.333333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1831,7 +2083,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:nether_ruby_samurai", tier => {
-    tier.durabilityMultiplier = 196.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1804.9935914062498 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [7.333333333333333,18.333333333333332,22,7.333333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1840,7 +2092,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:nether_ruby_samurai_master", tier => {
-    tier.durabilityMultiplier = 196.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1804.9935914062498 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [7.333333333333333,18.333333333333332,22,7.333333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1848,8 +2100,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 7 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:nether_ruby_archer", tier => {
+    tier.durabilityMultiplier = 1804.9935914062498 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.5,13.75,16.5,5.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "betternether:nether_ruby" // #forge:ingots/iron'
+    tier.toughness = 7 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:nether_ruby_ranger", tier => {
+    tier.durabilityMultiplier = 1804.9935914062498 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.233333333333333,15.583333333333334,18.7,6.233333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "betternether:nether_ruby" // #forge:ingots/iron'
+    tier.toughness = 7 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:nether_ruby_pyromancer", tier => {
-    tier.durabilityMultiplier = 196.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1804.9935914062498 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.5,13.75,16.5,5.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1858,7 +2128,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:nether_ruby_cryomancer", tier => {
-    tier.durabilityMultiplier = 196.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1804.9935914062498 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.5,13.75,16.5,5.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1867,7 +2137,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:nether_ruby_electromancer", tier => {
-    tier.durabilityMultiplier = 196.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1804.9935914062498 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.5,13.75,16.5,5.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1876,7 +2146,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:nether_ruby_archevoker", tier => {
-    tier.durabilityMultiplier = 196.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1804.9935914062498 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.5,13.75,16.5,5.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1885,7 +2155,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:nether_ruby_cultist", tier => {
-    tier.durabilityMultiplier = 196.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1804.9935914062498 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.5,13.75,16.5,5.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1894,7 +2164,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:nether_ruby_shadowwalker", tier => {
-    tier.durabilityMultiplier = 196.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1804.9935914062498 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.5,13.75,16.5,5.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1903,7 +2173,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:nether_ruby_priest", tier => {
-    tier.durabilityMultiplier = 196.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1804.9935914062498 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.5,13.75,16.5,5.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1912,7 +2182,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:nether_ruby_plagued", tier => {
-    tier.durabilityMultiplier = 196.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1804.9935914062498 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.5,13.75,16.5,5.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1921,7 +2191,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flaming_ruby", tier => {
-    tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1850.8832589843748 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [7.866666666666666,19.666666666666668,23.6,7.866666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1930,7 +2200,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flaming_ruby_samurai_light", tier => {
-    tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1850.8832589843748 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [7.866666666666666,19.666666666666668,23.6,7.866666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1939,7 +2209,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flaming_ruby_samurai", tier => {
-    tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1850.8832589843748 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [7.866666666666666,19.666666666666668,23.6,7.866666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1948,7 +2218,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flaming_ruby_samurai_master", tier => {
-    tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1850.8832589843748 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [7.866666666666666,19.666666666666668,23.6,7.866666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1956,8 +2226,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 7 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:flaming_ruby_archer", tier => {
+    tier.durabilityMultiplier = 1850.8832589843748 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [5.9,14.75,17.7,5.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:sculk_catalyst" // #forge:ingots/iron'
+    tier.toughness = 7 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:flaming_ruby_ranger", tier => {
+    tier.durabilityMultiplier = 1850.8832589843748 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.6866666666666665,16.716666666666665,20.06,6.6866666666666665] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:sculk_catalyst" // #forge:ingots/iron'
+    tier.toughness = 7 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:flaming_ruby_pyromancer", tier => {
-    tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1850.8832589843748 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.9,14.75,17.7,5.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1966,7 +2254,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flaming_ruby_cryomancer", tier => {
-    tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1850.8832589843748 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.9,14.75,17.7,5.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1975,7 +2263,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flaming_ruby_electromancer", tier => {
-    tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1850.8832589843748 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.9,14.75,17.7,5.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1984,7 +2272,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flaming_ruby_archevoker", tier => {
-    tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1850.8832589843748 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.9,14.75,17.7,5.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -1993,7 +2281,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flaming_ruby_cultist", tier => {
-    tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1850.8832589843748 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.9,14.75,17.7,5.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2002,7 +2290,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flaming_ruby_shadowwalker", tier => {
-    tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1850.8832589843748 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.9,14.75,17.7,5.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2011,7 +2299,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flaming_ruby_priest", tier => {
-    tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1850.8832589843748 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.9,14.75,17.7,5.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2020,7 +2308,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:flaming_ruby_plagued", tier => {
-    tier.durabilityMultiplier = 201.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1850.8832589843748 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [5.9,14.75,17.7,5.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2029,7 +2317,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:netherite", tier => {
-    tier.durabilityMultiplier = 206.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2081.719039583333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.4,21,25.2,8.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2038,7 +2326,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:netherite_samurai_light", tier => {
-    tier.durabilityMultiplier = 206.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2081.719039583333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.4,21,25.2,8.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2047,7 +2335,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:netherite_samurai", tier => {
-    tier.durabilityMultiplier = 206.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2081.719039583333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.4,21,25.2,8.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2056,7 +2344,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:netherite_samurai_master", tier => {
-    tier.durabilityMultiplier = 206.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2081.719039583333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.4,21,25.2,8.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2064,8 +2352,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 8 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:netherite_archer", tier => {
+    tier.durabilityMultiplier = 2081.719039583333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:netherite_ingot" // #forge:ingots/iron'
+    tier.toughness = 8 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:netherite_ranger", tier => {
+    tier.durabilityMultiplier = 2081.719039583333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [7.14,17.85,21.419999999999998,7.14] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "minecraft:netherite_ingot" // #forge:ingots/iron'
+    tier.toughness = 8 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:netherite_pyromancer", tier => {
-    tier.durabilityMultiplier = 206.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2081.719039583333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2074,7 +2380,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:netherite_cryomancer", tier => {
-    tier.durabilityMultiplier = 206.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2081.719039583333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2083,7 +2389,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:netherite_electromancer", tier => {
-    tier.durabilityMultiplier = 206.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2081.719039583333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2092,7 +2398,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:netherite_archevoker", tier => {
-    tier.durabilityMultiplier = 206.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2081.719039583333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2101,7 +2407,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:netherite_cultist", tier => {
-    tier.durabilityMultiplier = 206.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2081.719039583333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2110,7 +2416,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:netherite_shadowwalker", tier => {
-    tier.durabilityMultiplier = 206.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2081.719039583333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2119,7 +2425,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:netherite_priest", tier => {
-    tier.durabilityMultiplier = 206.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2081.719039583333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2128,7 +2434,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:netherite_plagued", tier => {
-    tier.durabilityMultiplier = 206.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2081.719039583333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2137,7 +2443,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cloggrum", tier => {
-    tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2216.02349375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.4,21,25.2,8.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2146,7 +2452,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cloggrum_samurai_light", tier => {
-    tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2216.02349375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.4,21,25.2,8.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2155,7 +2461,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cloggrum_samurai", tier => {
-    tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2216.02349375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.4,21,25.2,8.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2164,7 +2470,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cloggrum_samurai_master", tier => {
-    tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2216.02349375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.4,21,25.2,8.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2172,8 +2478,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 9 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:cloggrum_archer", tier => {
+    tier.durabilityMultiplier = 2216.02349375 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:cloggrum_ingot" // #forge:ingots/iron'
+    tier.toughness = 9 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:cloggrum_ranger", tier => {
+    tier.durabilityMultiplier = 2216.02349375 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [7.14,17.85,21.419999999999998,7.14] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:cloggrum_ingot" // #forge:ingots/iron'
+    tier.toughness = 9 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:cloggrum_pyromancer", tier => {
-    tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2216.02349375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2182,7 +2506,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cloggrum_cryomancer", tier => {
-    tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2216.02349375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2191,7 +2515,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cloggrum_electromancer", tier => {
-    tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2216.02349375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2200,7 +2524,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cloggrum_archevoker", tier => {
-    tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2216.02349375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2209,7 +2533,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cloggrum_cultist", tier => {
-    tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2216.02349375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2218,7 +2542,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cloggrum_shadowwalker", tier => {
-    tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2216.02349375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2227,7 +2551,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cloggrum_priest", tier => {
-    tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2216.02349375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2236,7 +2560,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:cloggrum_plagued", tier => {
-    tier.durabilityMultiplier = 220 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2216.02349375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.3,15.75,18.9,6.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2245,7 +2569,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:froststeel", tier => {
-    tier.durabilityMultiplier = 233.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2568.8501744791665 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.8,22,26.4,8.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2254,7 +2578,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:froststeel_samurai_light", tier => {
-    tier.durabilityMultiplier = 233.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2568.8501744791665 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.8,22,26.4,8.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2263,7 +2587,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:froststeel_samurai", tier => {
-    tier.durabilityMultiplier = 233.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2568.8501744791665 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.8,22,26.4,8.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2272,7 +2596,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:froststeel_samurai_master", tier => {
-    tier.durabilityMultiplier = 233.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2568.8501744791665 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.8,22,26.4,8.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2280,8 +2604,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 9 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:froststeel_archer", tier => {
+    tier.durabilityMultiplier = 2568.8501744791665 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [6.6,16.5,19.8,6.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:froststeel_ingot" // #forge:ingots/iron'
+    tier.toughness = 9 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:froststeel_ranger", tier => {
+    tier.durabilityMultiplier = 2568.8501744791665 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [7.48,18.7,22.44,7.48] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:froststeel_ingot" // #forge:ingots/iron'
+    tier.toughness = 9 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:froststeel_pyromancer", tier => {
-    tier.durabilityMultiplier = 233.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2568.8501744791665 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.6,16.5,19.8,6.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2290,7 +2632,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:froststeel_cryomancer", tier => {
-    tier.durabilityMultiplier = 233.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2568.8501744791665 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.6,16.5,19.8,6.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2299,7 +2641,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:froststeel_electromancer", tier => {
-    tier.durabilityMultiplier = 233.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2568.8501744791665 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.6,16.5,19.8,6.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2308,7 +2650,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:froststeel_archevoker", tier => {
-    tier.durabilityMultiplier = 233.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2568.8501744791665 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.6,16.5,19.8,6.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2317,7 +2659,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:froststeel_cultist", tier => {
-    tier.durabilityMultiplier = 233.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2568.8501744791665 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.6,16.5,19.8,6.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2326,7 +2668,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:froststeel_shadowwalker", tier => {
-    tier.durabilityMultiplier = 233.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2568.8501744791665 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.6,16.5,19.8,6.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2335,7 +2677,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:froststeel_priest", tier => {
-    tier.durabilityMultiplier = 233.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2568.8501744791665 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.6,16.5,19.8,6.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2344,7 +2686,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:froststeel_plagued", tier => {
-    tier.durabilityMultiplier = 233.33333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2568.8501744791665 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.6,16.5,19.8,6.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2353,7 +2695,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:utherium", tier => {
-    tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2956.9179 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [11.066666666666666,27.666666666666668,33.2,11.066666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2362,7 +2704,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:utherium_samurai_light", tier => {
-    tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2956.9179 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [11.066666666666666,27.666666666666668,33.2,11.066666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2371,7 +2713,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:utherium_samurai", tier => {
-    tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2956.9179 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [11.066666666666666,27.666666666666668,33.2,11.066666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2380,7 +2722,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:utherium_samurai_master", tier => {
-    tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2956.9179 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [11.066666666666666,27.666666666666668,33.2,11.066666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2388,8 +2730,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 10 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:utherium_archer", tier => {
+    tier.durabilityMultiplier = 2956.9179 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [8.3,20.75,24.9,8.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:utherium_crystal" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:utherium_ranger", tier => {
+    tier.durabilityMultiplier = 2956.9179 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [9.406666666666666,23.516666666666666,28.219999999999995,9.406666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:utherium_crystal" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:utherium_pyromancer", tier => {
-    tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2956.9179 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.3,20.75,24.9,8.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2398,7 +2758,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:utherium_cryomancer", tier => {
-    tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2956.9179 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.3,20.75,24.9,8.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2407,7 +2767,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:utherium_electromancer", tier => {
-    tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2956.9179 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.3,20.75,24.9,8.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2416,7 +2776,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:utherium_archevoker", tier => {
-    tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2956.9179 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.3,20.75,24.9,8.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2425,7 +2785,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:utherium_cultist", tier => {
-    tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2956.9179 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.3,20.75,24.9,8.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2434,7 +2794,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:utherium_shadowwalker", tier => {
-    tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2956.9179 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.3,20.75,24.9,8.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2443,7 +2803,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:utherium_priest", tier => {
-    tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2956.9179 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.3,20.75,24.9,8.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2452,7 +2812,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:utherium_plagued", tier => {
-    tier.durabilityMultiplier = 246.66666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 2956.9179 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.3,20.75,24.9,8.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2461,7 +2821,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:forgotten", tier => {
-    tier.durabilityMultiplier = 273.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3555.321940104166 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [12.666666666666666,31.666666666666668,38,12.666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2470,7 +2830,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:forgotten_samurai_light", tier => {
-    tier.durabilityMultiplier = 273.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3555.321940104166 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [12.666666666666666,31.666666666666668,38,12.666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2479,7 +2839,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:forgotten_samurai", tier => {
-    tier.durabilityMultiplier = 273.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3555.321940104166 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [12.666666666666666,31.666666666666668,38,12.666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2488,7 +2848,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:forgotten_samurai_master", tier => {
-    tier.durabilityMultiplier = 273.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3555.321940104166 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [12.666666666666666,31.666666666666668,38,12.666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2496,8 +2856,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 10 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:forgotten_archer", tier => {
+    tier.durabilityMultiplier = 3555.321940104166 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [9.5,23.75,28.5,9.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:forgotten_ingot" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:forgotten_ranger", tier => {
+    tier.durabilityMultiplier = 3555.321940104166 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [10.766666666666667,26.916666666666668,32.3,10.766666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "undergarden:forgotten_ingot" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:forgotten_pyromancer", tier => {
-    tier.durabilityMultiplier = 273.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3555.321940104166 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [9.5,23.75,28.5,9.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2506,7 +2884,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:forgotten_cryomancer", tier => {
-    tier.durabilityMultiplier = 273.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3555.321940104166 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [9.5,23.75,28.5,9.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2515,7 +2893,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:forgotten_electromancer", tier => {
-    tier.durabilityMultiplier = 273.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3555.321940104166 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [9.5,23.75,28.5,9.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2524,7 +2902,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:forgotten_archevoker", tier => {
-    tier.durabilityMultiplier = 273.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3555.321940104166 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [9.5,23.75,28.5,9.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2533,7 +2911,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:forgotten_cultist", tier => {
-    tier.durabilityMultiplier = 273.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3555.321940104166 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [9.5,23.75,28.5,9.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2542,7 +2920,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:forgotten_shadowwalker", tier => {
-    tier.durabilityMultiplier = 273.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3555.321940104166 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [9.5,23.75,28.5,9.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2551,7 +2929,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:forgotten_priest", tier => {
-    tier.durabilityMultiplier = 273.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3555.321940104166 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [9.5,23.75,28.5,9.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2560,7 +2938,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:forgotten_plagued", tier => {
-    tier.durabilityMultiplier = 273.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3555.321940104166 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [9.5,23.75,28.5,9.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2569,7 +2947,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:jade", tier => {
-    tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3196.6679999999997 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [11.333333333333334,28.333333333333332,34,11.333333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2578,7 +2956,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:jade_samurai_light", tier => {
-    tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3196.6679999999997 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [11.333333333333334,28.333333333333332,34,11.333333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2587,7 +2965,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:jade_samurai", tier => {
-    tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3196.6679999999997 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [11.333333333333334,28.333333333333332,34,11.333333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2596,7 +2974,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:jade_samurai_master", tier => {
-    tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3196.6679999999997 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [11.333333333333334,28.333333333333332,34,11.333333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2604,8 +2982,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 10 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:jade_archer", tier => {
+    tier.durabilityMultiplier = 3196.6679999999997 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [8.5,21.25,25.5,8.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "call_of_yucutan:jade" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:jade_ranger", tier => {
+    tier.durabilityMultiplier = 3196.6679999999997 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [9.633333333333333,24.083333333333332,28.9,9.633333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "call_of_yucutan:jade" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:jade_pyromancer", tier => {
-    tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3196.6679999999997 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.5,21.25,25.5,8.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2614,7 +3010,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:jade_cryomancer", tier => {
-    tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3196.6679999999997 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.5,21.25,25.5,8.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2623,7 +3019,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:jade_electromancer", tier => {
-    tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3196.6679999999997 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.5,21.25,25.5,8.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2632,7 +3028,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:jade_archevoker", tier => {
-    tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3196.6679999999997 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.5,21.25,25.5,8.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2641,7 +3037,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:jade_cultist", tier => {
-    tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3196.6679999999997 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.5,21.25,25.5,8.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2650,7 +3046,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:jade_shadowwalker", tier => {
-    tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3196.6679999999997 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.5,21.25,25.5,8.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2659,7 +3055,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:jade_priest", tier => {
-    tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3196.6679999999997 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.5,21.25,25.5,8.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2668,7 +3064,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:jade_plagued", tier => {
-    tier.durabilityMultiplier = 266.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 3196.6679999999997 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.5,21.25,25.5,8.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2677,7 +3073,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:crystalline", tier => {
-    tier.durabilityMultiplier = 306.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4314.391845833334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [14,35,42,14] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2686,7 +3082,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:crystalline_samurai_light", tier => {
-    tier.durabilityMultiplier = 306.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4314.391845833334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [14,35,42,14] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2695,7 +3091,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:crystalline_samurai", tier => {
-    tier.durabilityMultiplier = 306.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4314.391845833334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [14,35,42,14] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2704,7 +3100,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:crystalline_samurai_master", tier => {
-    tier.durabilityMultiplier = 306.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4314.391845833334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [14,35,42,14] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2712,8 +3108,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 10 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:crystalline_archer", tier => {
+    tier.durabilityMultiplier = 4314.391845833334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [10.5,26.25,31.5,10.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "phantasm:crystal_block" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:crystalline_ranger", tier => {
+    tier.durabilityMultiplier = 4314.391845833334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [11.9,29.75,35.7,11.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "phantasm:crystal_block" // #forge:ingots/iron'
+    tier.toughness = 10 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:crystalline_pyromancer", tier => {
-    tier.durabilityMultiplier = 306.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4314.391845833334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [10.5,26.25,31.5,10.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2722,7 +3136,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:crystalline_cryomancer", tier => {
-    tier.durabilityMultiplier = 306.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4314.391845833334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [10.5,26.25,31.5,10.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2731,7 +3145,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:crystalline_electromancer", tier => {
-    tier.durabilityMultiplier = 306.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4314.391845833334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [10.5,26.25,31.5,10.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2740,7 +3154,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:crystalline_archevoker", tier => {
-    tier.durabilityMultiplier = 306.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4314.391845833334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [10.5,26.25,31.5,10.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2749,7 +3163,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:crystalline_cultist", tier => {
-    tier.durabilityMultiplier = 306.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4314.391845833334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [10.5,26.25,31.5,10.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2758,7 +3172,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:crystalline_shadowwalker", tier => {
-    tier.durabilityMultiplier = 306.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4314.391845833334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [10.5,26.25,31.5,10.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2767,7 +3181,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:crystalline_priest", tier => {
-    tier.durabilityMultiplier = 306.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4314.391845833334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [10.5,26.25,31.5,10.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2776,7 +3190,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:crystalline_plagued", tier => {
-    tier.durabilityMultiplier = 306.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4314.391845833334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [10.5,26.25,31.5,10.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2785,7 +3199,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:dragon", tier => {
-    tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4854.939525 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [16,40,48,16] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2794,7 +3208,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:dragon_samurai_light", tier => {
-    tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4854.939525 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [16,40,48,16] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2803,7 +3217,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:dragon_samurai", tier => {
-    tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4854.939525 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [16,40,48,16] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2812,7 +3226,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:dragon_samurai_master", tier => {
-    tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4854.939525 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [16,40,48,16] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2820,8 +3234,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 11 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:dragon_archer", tier => {
+    tier.durabilityMultiplier = 4854.939525 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [12,30,36,12] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "ender_dragon_loot_:dragon_scale" // #forge:ingots/iron'
+    tier.toughness = 11 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:dragon_ranger", tier => {
+    tier.durabilityMultiplier = 4854.939525 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [13.6,34,40.8,13.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "ender_dragon_loot_:dragon_scale" // #forge:ingots/iron'
+    tier.toughness = 11 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:dragon_pyromancer", tier => {
-    tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4854.939525 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [12,30,36,12] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2830,7 +3262,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:dragon_cryomancer", tier => {
-    tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4854.939525 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [12,30,36,12] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2839,7 +3271,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:dragon_electromancer", tier => {
-    tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4854.939525 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [12,30,36,12] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2848,7 +3280,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:dragon_archevoker", tier => {
-    tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4854.939525 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [12,30,36,12] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2857,7 +3289,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:dragon_cultist", tier => {
-    tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4854.939525 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [12,30,36,12] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2866,7 +3298,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:dragon_shadowwalker", tier => {
-    tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4854.939525 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [12,30,36,12] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2875,7 +3307,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:dragon_priest", tier => {
-    tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4854.939525 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [12,30,36,12] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2884,7 +3316,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:dragon_plagued", tier => {
-    tier.durabilityMultiplier = 320 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 4854.939525 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [12,30,36,12] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2893,7 +3325,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enderite", tier => {
-    tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5562.9515390625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [28.266666666666666,70.66666666666667,84.8,28.266666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2902,7 +3334,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enderite_samurai_light", tier => {
-    tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5562.9515390625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [28.266666666666666,70.66666666666667,84.8,28.266666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2911,7 +3343,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enderite_samurai", tier => {
-    tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5562.9515390625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [28.266666666666666,70.66666666666667,84.8,28.266666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2920,7 +3352,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enderite_samurai_master", tier => {
-    tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5562.9515390625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [28.266666666666666,70.66666666666667,84.8,28.266666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2928,8 +3360,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 12 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:enderite_archer", tier => {
+    tier.durabilityMultiplier = 5562.9515390625 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [21.2,53,63.6,21.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "enderitemod:enderite_ingot" // #forge:ingots/iron'
+    tier.toughness = 12 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:enderite_ranger", tier => {
+    tier.durabilityMultiplier = 5562.9515390625 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [24.026666666666664,60.06666666666667,72.07999999999998,24.026666666666664] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "enderitemod:enderite_ingot" // #forge:ingots/iron'
+    tier.toughness = 12 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:enderite_pyromancer", tier => {
-    tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5562.9515390625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [21.2,53,63.6,21.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2938,7 +3388,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enderite_cryomancer", tier => {
-    tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5562.9515390625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [21.2,53,63.6,21.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2947,7 +3397,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enderite_electromancer", tier => {
-    tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5562.9515390625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [21.2,53,63.6,21.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2956,7 +3406,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enderite_archevoker", tier => {
-    tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5562.9515390625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [21.2,53,63.6,21.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2965,7 +3415,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enderite_cultist", tier => {
-    tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5562.9515390625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [21.2,53,63.6,21.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2974,7 +3424,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enderite_shadowwalker", tier => {
-    tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5562.9515390625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [21.2,53,63.6,21.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2983,7 +3433,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enderite_priest", tier => {
-    tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5562.9515390625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [21.2,53,63.6,21.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -2992,7 +3442,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:enderite_plagued", tier => {
-    tier.durabilityMultiplier = 366.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 5562.9515390625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [21.2,53,63.6,21.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3001,7 +3451,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:immemorial", tier => {
-    tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [26.666666666666668,66.66666666666667,80,26.666666666666668] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3010,7 +3460,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:immemorial_samurai_light", tier => {
-    tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [26.666666666666668,66.66666666666667,80,26.666666666666668] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3019,7 +3469,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:immemorial_samurai", tier => {
-    tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [26.666666666666668,66.66666666666667,80,26.666666666666668] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3028,7 +3478,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:immemorial_samurai_master", tier => {
-    tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [26.666666666666668,66.66666666666667,80,26.666666666666668] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3036,8 +3486,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 13 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:immemorial_archer", tier => {
+    tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [20,50,60,20] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "callfromthedepth_:immemorialingot" // #forge:ingots/iron'
+    tier.toughness = 13 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:immemorial_ranger", tier => {
+    tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [22.666666666666668,56.666666666666664,68,22.666666666666668] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "callfromthedepth_:immemorialingot" // #forge:ingots/iron'
+    tier.toughness = 13 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:immemorial_pyromancer", tier => {
-    tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [20,50,60,20] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3046,7 +3514,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:immemorial_cryomancer", tier => {
-    tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [20,50,60,20] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3055,7 +3523,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:immemorial_electromancer", tier => {
-    tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [20,50,60,20] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3064,7 +3532,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:immemorial_archevoker", tier => {
-    tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [20,50,60,20] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3073,7 +3541,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:immemorial_cultist", tier => {
-    tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [20,50,60,20] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3082,7 +3550,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:immemorial_shadowwalker", tier => {
-    tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [20,50,60,20] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3091,7 +3559,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:immemorial_priest", tier => {
-    tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [20,50,60,20] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3100,7 +3568,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:immemorial_plagued", tier => {
-    tier.durabilityMultiplier = 380 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [20,50,60,20] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3109,7 +3577,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:soul", tier => {
-    tier.durabilityMultiplier = 400 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7001.035906249999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [34.666666666666664,86.66666666666667,104,34.666666666666664] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3118,7 +3586,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:soul_samurai_light", tier => {
-    tier.durabilityMultiplier = 400 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7001.035906249999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [34.666666666666664,86.66666666666667,104,34.666666666666664] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3127,7 +3595,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:soul_samurai", tier => {
-    tier.durabilityMultiplier = 400 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7001.035906249999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [34.666666666666664,86.66666666666667,104,34.666666666666664] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3136,7 +3604,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:soul_samurai_master", tier => {
-    tier.durabilityMultiplier = 400 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7001.035906249999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [34.666666666666664,86.66666666666667,104,34.666666666666664] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3144,8 +3612,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 13 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:soul_archer", tier => {
+    tier.durabilityMultiplier = 7001.035906249999 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [26,65,78,26] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "callfromthedepth_:soulingot" // #forge:ingots/iron'
+    tier.toughness = 13 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:soul_ranger", tier => {
+    tier.durabilityMultiplier = 7001.035906249999 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [29.466666666666665,73.66666666666667,88.4,29.466666666666665] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "callfromthedepth_:soulingot" // #forge:ingots/iron'
+    tier.toughness = 13 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:soul_pyromancer", tier => {
-    tier.durabilityMultiplier = 400 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7001.035906249999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [26,65,78,26] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3154,7 +3640,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:soul_cryomancer", tier => {
-    tier.durabilityMultiplier = 400 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7001.035906249999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [26,65,78,26] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3163,7 +3649,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:soul_electromancer", tier => {
-    tier.durabilityMultiplier = 400 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7001.035906249999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [26,65,78,26] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3172,7 +3658,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:soul_archevoker", tier => {
-    tier.durabilityMultiplier = 400 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7001.035906249999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [26,65,78,26] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3181,7 +3667,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:soul_cultist", tier => {
-    tier.durabilityMultiplier = 400 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7001.035906249999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [26,65,78,26] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3190,7 +3676,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:soul_shadowwalker", tier => {
-    tier.durabilityMultiplier = 400 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7001.035906249999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [26,65,78,26] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3199,7 +3685,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:soul_priest", tier => {
-    tier.durabilityMultiplier = 400 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7001.035906249999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [26,65,78,26] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3208,7 +3694,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:soul_plagued", tier => {
-    tier.durabilityMultiplier = 400 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7001.035906249999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [26,65,78,26] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3217,7 +3703,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fixed_bone", tier => {
-    tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7117.719838020834 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [39.86666666666667,99.66666666666667,119.6,39.86666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3226,7 +3712,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fixed_bone_samurai_light", tier => {
-    tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7117.719838020834 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [39.86666666666667,99.66666666666667,119.6,39.86666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3235,7 +3721,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fixed_bone_samurai", tier => {
-    tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7117.719838020834 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [39.86666666666667,99.66666666666667,119.6,39.86666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3244,7 +3730,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fixed_bone_samurai_master", tier => {
-    tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7117.719838020834 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [39.86666666666667,99.66666666666667,119.6,39.86666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3252,8 +3738,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 13.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:fixed_bone_archer", tier => {
+    tier.durabilityMultiplier = 7117.719838020834 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [29.9,74.75,89.7,29.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
+    tier.toughness = 13.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:fixed_bone_ranger", tier => {
+    tier.durabilityMultiplier = 7117.719838020834 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [33.88666666666667,84.71666666666667,101.66000000000001,33.88666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
+    tier.toughness = 13.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:fixed_bone_pyromancer", tier => {
-    tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7117.719838020834 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [29.9,74.75,89.7,29.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3262,7 +3766,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fixed_bone_cryomancer", tier => {
-    tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7117.719838020834 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [29.9,74.75,89.7,29.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3271,7 +3775,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fixed_bone_electromancer", tier => {
-    tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7117.719838020834 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [29.9,74.75,89.7,29.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3280,7 +3784,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fixed_bone_archevoker", tier => {
-    tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7117.719838020834 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [29.9,74.75,89.7,29.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3289,7 +3793,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fixed_bone_cultist", tier => {
-    tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7117.719838020834 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [29.9,74.75,89.7,29.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3298,7 +3802,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fixed_bone_shadowwalker", tier => {
-    tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7117.719838020834 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [29.9,74.75,89.7,29.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3307,7 +3811,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fixed_bone_priest", tier => {
-    tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7117.719838020834 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [29.9,74.75,89.7,29.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3316,7 +3820,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fixed_bone_plagued", tier => {
-    tier.durabilityMultiplier = 406.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7117.719838020834 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [29.9,74.75,89.7,29.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3325,7 +3829,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fusion", tier => {
-    tier.durabilityMultiplier = 416.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7292.745735677084 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [29.733333333333334,74.33333333333333,89.2,29.733333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3334,7 +3838,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fusion_samurai_light", tier => {
-    tier.durabilityMultiplier = 416.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7292.745735677084 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [29.733333333333334,74.33333333333333,89.2,29.733333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3343,7 +3847,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fusion_samurai", tier => {
-    tier.durabilityMultiplier = 416.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7292.745735677084 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [29.733333333333334,74.33333333333333,89.2,29.733333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3352,7 +3856,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fusion_samurai_master", tier => {
-    tier.durabilityMultiplier = 416.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7292.745735677084 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [29.733333333333334,74.33333333333333,89.2,29.733333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3360,8 +3864,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 14 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:fusion_archer", tier => {
+    tier.durabilityMultiplier = 7292.745735677084 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [22.3,55.75,66.9,22.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fusion_ingot" // #forge:ingots/iron'
+    tier.toughness = 14 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:fusion_ranger", tier => {
+    tier.durabilityMultiplier = 7292.745735677084 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [25.27333333333333,63.18333333333332,75.82,25.27333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fusion_ingot" // #forge:ingots/iron'
+    tier.toughness = 14 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:fusion_pyromancer", tier => {
-    tier.durabilityMultiplier = 416.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7292.745735677084 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [22.3,55.75,66.9,22.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3370,7 +3892,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fusion_cryomancer", tier => {
-    tier.durabilityMultiplier = 416.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7292.745735677084 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [22.3,55.75,66.9,22.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3379,7 +3901,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fusion_electromancer", tier => {
-    tier.durabilityMultiplier = 416.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7292.745735677084 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [22.3,55.75,66.9,22.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3388,7 +3910,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fusion_archevoker", tier => {
-    tier.durabilityMultiplier = 416.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7292.745735677084 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [22.3,55.75,66.9,22.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3397,7 +3919,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fusion_cultist", tier => {
-    tier.durabilityMultiplier = 416.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7292.745735677084 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [22.3,55.75,66.9,22.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3406,7 +3928,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fusion_shadowwalker", tier => {
-    tier.durabilityMultiplier = 416.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7292.745735677084 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [22.3,55.75,66.9,22.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3415,7 +3937,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fusion_priest", tier => {
-    tier.durabilityMultiplier = 416.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7292.745735677084 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [22.3,55.75,66.9,22.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3424,7 +3946,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:fusion_plagued", tier => {
-    tier.durabilityMultiplier = 416.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 7292.745735677084 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [22.3,55.75,66.9,22.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3433,7 +3955,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aberythe", tier => {
-    tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8116.53984375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [45.46666666666667,113.66666666666667,136.4,45.46666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3442,7 +3964,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aberythe_samurai_light", tier => {
-    tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8116.53984375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [45.46666666666667,113.66666666666667,136.4,45.46666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3451,7 +3973,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aberythe_samurai", tier => {
-    tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8116.53984375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [45.46666666666667,113.66666666666667,136.4,45.46666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3460,7 +3982,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aberythe_samurai_master", tier => {
-    tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8116.53984375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [45.46666666666667,113.66666666666667,136.4,45.46666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3468,8 +3990,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 15 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:aberythe_archer", tier => {
+    tier.durabilityMultiplier = 8116.53984375 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [34.1,85.25,102.3,34.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:aberythe_gem" // #forge:ingots/iron'
+    tier.toughness = 15 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:aberythe_ranger", tier => {
+    tier.durabilityMultiplier = 8116.53984375 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [38.64666666666666,96.61666666666665,115.94,38.64666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:aberythe_gem" // #forge:ingots/iron'
+    tier.toughness = 15 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:aberythe_pyromancer", tier => {
-    tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8116.53984375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [34.1,85.25,102.3,34.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3478,7 +4018,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aberythe_cryomancer", tier => {
-    tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8116.53984375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [34.1,85.25,102.3,34.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3487,7 +4027,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aberythe_electromancer", tier => {
-    tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8116.53984375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [34.1,85.25,102.3,34.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3496,7 +4036,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aberythe_archevoker", tier => {
-    tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8116.53984375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [34.1,85.25,102.3,34.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3505,7 +4045,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aberythe_cultist", tier => {
-    tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8116.53984375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [34.1,85.25,102.3,34.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3514,7 +4054,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aberythe_shadowwalker", tier => {
-    tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8116.53984375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [34.1,85.25,102.3,34.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3523,7 +4063,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aberythe_priest", tier => {
-    tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8116.53984375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [34.1,85.25,102.3,34.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3532,7 +4072,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:aberythe_plagued", tier => {
-    tier.durabilityMultiplier = 433.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8116.53984375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [34.1,85.25,102.3,34.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3541,7 +4081,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:ignisithe", tier => {
-    tier.durabilityMultiplier = 450 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8999.993988281249 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [56,140,168,56] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3550,7 +4090,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:ignisithe_samurai_light", tier => {
-    tier.durabilityMultiplier = 450 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8999.993988281249 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [56,140,168,56] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3559,7 +4099,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:ignisithe_samurai", tier => {
-    tier.durabilityMultiplier = 450 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8999.993988281249 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [56,140,168,56] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3568,7 +4108,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:ignisithe_samurai_master", tier => {
-    tier.durabilityMultiplier = 450 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8999.993988281249 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [56,140,168,56] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3576,8 +4116,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 14 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:ignisithe_archer", tier => {
+    tier.durabilityMultiplier = 8999.993988281249 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [42,105,126,42] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:ignisithe_gem" // #forge:ingots/iron'
+    tier.toughness = 14 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:ignisithe_ranger", tier => {
+    tier.durabilityMultiplier = 8999.993988281249 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [47.6,119,142.8,47.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:ignisithe_gem" // #forge:ingots/iron'
+    tier.toughness = 14 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:ignisithe_pyromancer", tier => {
-    tier.durabilityMultiplier = 450 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8999.993988281249 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [42,105,126,42] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3586,7 +4144,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:ignisithe_cryomancer", tier => {
-    tier.durabilityMultiplier = 450 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8999.993988281249 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [42,105,126,42] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3595,7 +4153,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:ignisithe_electromancer", tier => {
-    tier.durabilityMultiplier = 450 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8999.993988281249 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [42,105,126,42] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3604,7 +4162,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:ignisithe_archevoker", tier => {
-    tier.durabilityMultiplier = 450 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8999.993988281249 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [42,105,126,42] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3613,7 +4171,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:ignisithe_cultist", tier => {
-    tier.durabilityMultiplier = 450 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8999.993988281249 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [42,105,126,42] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3622,7 +4180,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:ignisithe_shadowwalker", tier => {
-    tier.durabilityMultiplier = 450 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8999.993988281249 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [42,105,126,42] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3631,7 +4189,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:ignisithe_priest", tier => {
-    tier.durabilityMultiplier = 450 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8999.993988281249 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [42,105,126,42] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3640,7 +4198,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:ignisithe_plagued", tier => {
-    tier.durabilityMultiplier = 450 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 8999.993988281249 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [42,105,126,42] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3649,7 +4207,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:knight", tier => {
-    tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1373.56828125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [50.13333333333333,125.33333333333333,150.4,50.13333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3658,7 +4216,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:knight_samurai_light", tier => {
-    tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1373.56828125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [50.13333333333333,125.33333333333333,150.4,50.13333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3667,7 +4225,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:knight_samurai", tier => {
-    tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1373.56828125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [50.13333333333333,125.33333333333333,150.4,50.13333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3676,7 +4234,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:knight_samurai_master", tier => {
-    tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1373.56828125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [50.13333333333333,125.33333333333333,150.4,50.13333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3684,8 +4242,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:knight_archer", tier => {
+    tier.durabilityMultiplier = 1373.56828125 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [37.6,94,112.8,37.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
+    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:knight_ranger", tier => {
+    tier.durabilityMultiplier = 1373.56828125 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [42.61333333333333,106.53333333333332,127.83999999999999,42.61333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:fixed_bone" // #forge:ingots/iron'
+    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:knight_pyromancer", tier => {
-    tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1373.56828125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [37.6,94,112.8,37.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3694,7 +4270,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:knight_cryomancer", tier => {
-    tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1373.56828125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [37.6,94,112.8,37.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3703,7 +4279,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:knight_electromancer", tier => {
-    tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1373.56828125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [37.6,94,112.8,37.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3712,7 +4288,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:knight_archevoker", tier => {
-    tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1373.56828125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [37.6,94,112.8,37.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3721,7 +4297,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:knight_cultist", tier => {
-    tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1373.56828125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [37.6,94,112.8,37.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3730,7 +4306,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:knight_shadowwalker", tier => {
-    tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1373.56828125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [37.6,94,112.8,37.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3739,7 +4315,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:knight_priest", tier => {
-    tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1373.56828125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [37.6,94,112.8,37.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3748,7 +4324,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:knight_plagued", tier => {
-    tier.durabilityMultiplier = 458.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 1373.56828125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [37.6,94,112.8,37.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3757,7 +4333,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:glacerythe", tier => {
-    tier.durabilityMultiplier = 466.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 9945.189333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [61.2,153,183.6,61.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3766,7 +4342,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:glacerythe_samurai_light", tier => {
-    tier.durabilityMultiplier = 466.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 9945.189333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [61.2,153,183.6,61.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3775,7 +4351,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:glacerythe_samurai", tier => {
-    tier.durabilityMultiplier = 466.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 9945.189333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [61.2,153,183.6,61.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3784,7 +4360,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:glacerythe_samurai_master", tier => {
-    tier.durabilityMultiplier = 466.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 9945.189333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [61.2,153,183.6,61.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3792,8 +4368,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:glacerythe_archer", tier => {
+    tier.durabilityMultiplier = 9945.189333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [45.9,114.75,137.7,45.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:glacerythe_gem" // #forge:ingots/iron'
+    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:glacerythe_ranger", tier => {
+    tier.durabilityMultiplier = 9945.189333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [52.019999999999996,130.05,156.05999999999997,52.019999999999996] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:glacerythe_gem" // #forge:ingots/iron'
+    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:glacerythe_pyromancer", tier => {
-    tier.durabilityMultiplier = 466.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 9945.189333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [45.9,114.75,137.7,45.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3802,7 +4396,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:glacerythe_cryomancer", tier => {
-    tier.durabilityMultiplier = 466.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 9945.189333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [45.9,114.75,137.7,45.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3811,7 +4405,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:glacerythe_electromancer", tier => {
-    tier.durabilityMultiplier = 466.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 9945.189333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [45.9,114.75,137.7,45.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3820,7 +4414,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:glacerythe_archevoker", tier => {
-    tier.durabilityMultiplier = 466.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 9945.189333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [45.9,114.75,137.7,45.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3829,7 +4423,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:glacerythe_cultist", tier => {
-    tier.durabilityMultiplier = 466.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 9945.189333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [45.9,114.75,137.7,45.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3838,7 +4432,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:glacerythe_shadowwalker", tier => {
-    tier.durabilityMultiplier = 466.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 9945.189333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [45.9,114.75,137.7,45.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3847,7 +4441,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:glacerythe_priest", tier => {
-    tier.durabilityMultiplier = 466.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 9945.189333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [45.9,114.75,137.7,45.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3856,7 +4450,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:glacerythe_plagued", tier => {
-    tier.durabilityMultiplier = 466.6666666666667 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 9945.189333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [45.9,114.75,137.7,45.9] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3865,7 +4459,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:garnite", tier => {
-    tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10954.20704296875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [66.93333333333334,167.33333333333334,200.8,66.93333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3874,7 +4468,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:garnite_samurai_light", tier => {
-    tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10954.20704296875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [66.93333333333334,167.33333333333334,200.8,66.93333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3883,7 +4477,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:garnite_samurai", tier => {
-    tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10954.20704296875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [66.93333333333334,167.33333333333334,200.8,66.93333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3892,7 +4486,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:garnite_samurai_master", tier => {
-    tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10954.20704296875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [66.93333333333334,167.33333333333334,200.8,66.93333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3900,8 +4494,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 15 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:garnite_archer", tier => {
+    tier.durabilityMultiplier = 10954.20704296875 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [50.2,125.5,150.6,50.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:garnite_ingot" // #forge:ingots/iron'
+    tier.toughness = 15 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:garnite_ranger", tier => {
+    tier.durabilityMultiplier = 10954.20704296875 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [56.89333333333333,142.23333333333332,170.67999999999998,56.89333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:garnite_ingot" // #forge:ingots/iron'
+    tier.toughness = 15 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:garnite_pyromancer", tier => {
-    tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10954.20704296875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [50.2,125.5,150.6,50.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3910,7 +4522,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:garnite_cryomancer", tier => {
-    tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10954.20704296875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [50.2,125.5,150.6,50.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3919,7 +4531,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:garnite_electromancer", tier => {
-    tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10954.20704296875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [50.2,125.5,150.6,50.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3928,7 +4540,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:garnite_archevoker", tier => {
-    tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10954.20704296875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [50.2,125.5,150.6,50.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3937,7 +4549,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:garnite_cultist", tier => {
-    tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10954.20704296875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [50.2,125.5,150.6,50.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3946,7 +4558,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:garnite_shadowwalker", tier => {
-    tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10954.20704296875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [50.2,125.5,150.6,50.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3955,7 +4567,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:garnite_priest", tier => {
-    tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10954.20704296875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [50.2,125.5,150.6,50.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3964,7 +4576,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:garnite_plagued", tier => {
-    tier.durabilityMultiplier = 483.3333333333333 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10954.20704296875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [50.2,125.5,150.6,50.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3973,7 +4585,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:phantom", tier => {
-    tier.durabilityMultiplier = 500 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10655.56 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [72.4,181,217.2,72.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3982,7 +4594,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:phantom_samurai_light", tier => {
-    tier.durabilityMultiplier = 500 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10655.56 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [72.4,181,217.2,72.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -3991,7 +4603,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:phantom_samurai", tier => {
-    tier.durabilityMultiplier = 500 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10655.56 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [72.4,181,217.2,72.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4000,7 +4612,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:phantom_samurai_master", tier => {
-    tier.durabilityMultiplier = 500 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10655.56 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [72.4,181,217.2,72.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4008,8 +4620,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 16 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:phantom_archer", tier => {
+    tier.durabilityMultiplier = 10655.56 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [54.3,135.75,162.9,54.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:phantom_ingot" // #forge:ingots/iron'
+    tier.toughness = 16 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:phantom_ranger", tier => {
+    tier.durabilityMultiplier = 10655.56 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [61.54,153.85,184.62,61.54] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:phantom_ingot" // #forge:ingots/iron'
+    tier.toughness = 16 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:phantom_pyromancer", tier => {
-    tier.durabilityMultiplier = 500 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10655.56 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [54.3,135.75,162.9,54.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4018,7 +4648,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:phantom_cryomancer", tier => {
-    tier.durabilityMultiplier = 500 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10655.56 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [54.3,135.75,162.9,54.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4027,7 +4657,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:phantom_electromancer", tier => {
-    tier.durabilityMultiplier = 500 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10655.56 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [54.3,135.75,162.9,54.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4036,7 +4666,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:phantom_archevoker", tier => {
-    tier.durabilityMultiplier = 500 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10655.56 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [54.3,135.75,162.9,54.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4045,7 +4675,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:phantom_cultist", tier => {
-    tier.durabilityMultiplier = 500 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10655.56 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [54.3,135.75,162.9,54.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4054,7 +4684,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:phantom_shadowwalker", tier => {
-    tier.durabilityMultiplier = 500 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10655.56 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [54.3,135.75,162.9,54.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4063,7 +4693,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:phantom_priest", tier => {
-    tier.durabilityMultiplier = 500 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10655.56 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [54.3,135.75,162.9,54.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4072,7 +4702,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:phantom_plagued", tier => {
-    tier.durabilityMultiplier = 500 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10655.56 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [54.3,135.75,162.9,54.3] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4081,7 +4711,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:unorithe", tier => {
-    tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11709.66959765625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [78.13333333333334,195.33333333333334,234.4,78.13333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4090,7 +4720,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:unorithe_samurai_light", tier => {
-    tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11709.66959765625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [78.13333333333334,195.33333333333334,234.4,78.13333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4099,7 +4729,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:unorithe_samurai", tier => {
-    tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11709.66959765625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [78.13333333333334,195.33333333333334,234.4,78.13333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4108,7 +4738,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:unorithe_samurai_master", tier => {
-    tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11709.66959765625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [78.13333333333334,195.33333333333334,234.4,78.13333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4116,8 +4746,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 17 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:unorithe_archer", tier => {
+    tier.durabilityMultiplier = 11709.66959765625 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [58.6,146.5,175.8,58.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:unorithe_ingot" // #forge:ingots/iron'
+    tier.toughness = 17 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:unorithe_ranger", tier => {
+    tier.durabilityMultiplier = 11709.66959765625 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [66.41333333333333,166.03333333333333,199.23999999999998,66.41333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:unorithe_ingot" // #forge:ingots/iron'
+    tier.toughness = 17 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:unorithe_pyromancer", tier => {
-    tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11709.66959765625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [58.6,146.5,175.8,58.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4126,7 +4774,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:unorithe_cryomancer", tier => {
-    tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11709.66959765625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [58.6,146.5,175.8,58.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4135,7 +4783,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:unorithe_electromancer", tier => {
-    tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11709.66959765625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [58.6,146.5,175.8,58.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4144,7 +4792,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:unorithe_archevoker", tier => {
-    tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11709.66959765625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [58.6,146.5,175.8,58.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4153,7 +4801,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:unorithe_cultist", tier => {
-    tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11709.66959765625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [58.6,146.5,175.8,58.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4162,7 +4810,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:unorithe_shadowwalker", tier => {
-    tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11709.66959765625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [58.6,146.5,175.8,58.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4171,7 +4819,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:unorithe_priest", tier => {
-    tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11709.66959765625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [58.6,146.5,175.8,58.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4180,7 +4828,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:unorithe_plagued", tier => {
-    tier.durabilityMultiplier = 516.6666666666666 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 11709.66959765625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [58.6,146.5,175.8,58.6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4189,7 +4837,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:incorythe", tier => {
-    tier.durabilityMultiplier = 533.3333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10666.659541666668 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [86,215,258,86] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4198,7 +4846,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:incorythe_samurai_light", tier => {
-    tier.durabilityMultiplier = 533.3333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10666.659541666668 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [86,215,258,86] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4207,7 +4855,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:incorythe_samurai", tier => {
-    tier.durabilityMultiplier = 533.3333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10666.659541666668 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [86,215,258,86] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4216,7 +4864,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:incorythe_samurai_master", tier => {
-    tier.durabilityMultiplier = 533.3333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10666.659541666668 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [86,215,258,86] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4224,8 +4872,26 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 18 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
   });
+  event.add("zoomers_armory:incorythe_archer", tier => {
+    tier.durabilityMultiplier = 10666.659541666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [64.5,161.25,193.5,64.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:incorythe_gem" // #forge:ingots/iron'
+    tier.toughness = 18 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:incorythe_ranger", tier => {
+    tier.durabilityMultiplier = 10666.659541666668 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [73.1,182.75,219.3,73.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "theabyss:incorythe_gem" // #forge:ingots/iron'
+    tier.toughness = 18 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
+  });
   event.add("zoomers_armory:incorythe_pyromancer", tier => {
-    tier.durabilityMultiplier = 533.3333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10666.659541666668 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [64.5,161.25,193.5,64.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4234,7 +4900,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:incorythe_cryomancer", tier => {
-    tier.durabilityMultiplier = 533.3333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10666.659541666668 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [64.5,161.25,193.5,64.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4243,7 +4909,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:incorythe_electromancer", tier => {
-    tier.durabilityMultiplier = 533.3333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10666.659541666668 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [64.5,161.25,193.5,64.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4252,7 +4918,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:incorythe_archevoker", tier => {
-    tier.durabilityMultiplier = 533.3333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10666.659541666668 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [64.5,161.25,193.5,64.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4261,7 +4927,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:incorythe_cultist", tier => {
-    tier.durabilityMultiplier = 533.3333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10666.659541666668 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [64.5,161.25,193.5,64.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4270,7 +4936,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:incorythe_shadowwalker", tier => {
-    tier.durabilityMultiplier = 533.3333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10666.659541666668 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [64.5,161.25,193.5,64.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4279,7 +4945,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:incorythe_priest", tier => {
-    tier.durabilityMultiplier = 533.3333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10666.659541666668 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [64.5,161.25,193.5,64.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4288,7 +4954,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
   });
   event.add("zoomers_armory:incorythe_plagued", tier => {
-    tier.durabilityMultiplier = 533.3333333333334 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 10666.659541666668 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [64.5,161.25,193.5,64.5] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
@@ -4341,6 +5007,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "flint_samurai", "zoomers_armor
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "flint_samurai_master", "zoomers_armory:flint_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flint_samurai_master"), "Flint Samurai Master Helmet", "Flint Samurai Master Chestplate", "Flint Samurai Master Leggings", "Flint Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_master_armor.png");
+e.create("zoomers_armory:flint_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:flint_archer")
+e.create("zoomers_armory:flint_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:flint_archer")
+e.create("zoomers_armory:flint_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:flint_archer")
+e.create("zoomers_armory:flint_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:flint_archer")
+e.create("zoomers_armory:flint_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:flint_ranger")
+e.create("zoomers_armory:flint_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:flint_ranger")
+e.create("zoomers_armory:flint_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:flint_ranger")
+e.create("zoomers_armory:flint_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:flint_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "flint_pyromancer", "zoomers_armory:flint_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flint_pyromancer"), "Flint Pyromancer Hat", "Flint Pyromancer Robe", "Flint Pyromancer Leggings", "Flint Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/flint_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/flint_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/flint_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/flint_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "flint_cryomancer", "zoomers_armory:flint_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flint_cryomancer"), "Flint Cryomancer Hat", "Flint Cryomancer Robe", "Flint Cryomancer Leggings", "Flint Cryomancer Boots", "",
@@ -4394,6 +5068,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "iron_samurai", "zoomers_armory
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "iron_samurai_master", "zoomers_armory:iron_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:iron_samurai_master"), "Iron Samurai Master Helmet", "Iron Samurai Master Chestplate", "Iron Samurai Master Leggings", "Iron Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_master_armor.png");
+e.create("zoomers_armory:iron_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:iron_archer")
+e.create("zoomers_armory:iron_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:iron_archer")
+e.create("zoomers_armory:iron_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:iron_archer")
+e.create("zoomers_armory:iron_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:iron_archer")
+e.create("zoomers_armory:iron_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:iron_ranger")
+e.create("zoomers_armory:iron_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:iron_ranger")
+e.create("zoomers_armory:iron_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:iron_ranger")
+e.create("zoomers_armory:iron_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:iron_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "iron_pyromancer", "zoomers_armory:iron_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:iron_pyromancer"), "Iron Pyromancer Hat", "Iron Pyromancer Robe", "Iron Pyromancer Leggings", "Iron Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/iron_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/iron_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/iron_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/iron_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "iron_cryomancer", "zoomers_armory:iron_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:iron_cryomancer"), "Iron Cryomancer Hat", "Iron Cryomancer Robe", "Iron Cryomancer Leggings", "Iron Cryomancer Boots", "",
@@ -4447,6 +5129,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "gold_samurai", "zoomers_armory
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "gold_samurai_master", "zoomers_armory:gold_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:gold_samurai_master"), "Gold Samurai Master Helmet", "Gold Samurai Master Chestplate", "Gold Samurai Master Leggings", "Gold Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_master_armor.png");
+e.create("zoomers_armory:gold_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:gold_archer")
+e.create("zoomers_armory:gold_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:gold_archer")
+e.create("zoomers_armory:gold_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:gold_archer")
+e.create("zoomers_armory:gold_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:gold_archer")
+e.create("zoomers_armory:gold_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:gold_ranger")
+e.create("zoomers_armory:gold_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:gold_ranger")
+e.create("zoomers_armory:gold_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:gold_ranger")
+e.create("zoomers_armory:gold_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:gold_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "gold_pyromancer", "zoomers_armory:gold_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:gold_pyromancer"), "Gold Pyromancer Hat", "Gold Pyromancer Robe", "Gold Pyromancer Leggings", "Gold Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/gold_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/gold_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/gold_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/gold_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "gold_cryomancer", "zoomers_armory:gold_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:gold_cryomancer"), "Gold Cryomancer Hat", "Gold Cryomancer Robe", "Gold Cryomancer Leggings", "Gold Cryomancer Boots", "",
@@ -4500,6 +5190,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "diamond_samurai", "zoomers_arm
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "diamond_samurai_master", "zoomers_armory:diamond_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diamond_samurai_master"), "Diamond Samurai Master Helmet", "Diamond Samurai Master Chestplate", "Diamond Samurai Master Leggings", "Diamond Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_master_armor.png");
+e.create("zoomers_armory:diamond_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:diamond_archer")
+e.create("zoomers_armory:diamond_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:diamond_archer")
+e.create("zoomers_armory:diamond_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:diamond_archer")
+e.create("zoomers_armory:diamond_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:diamond_archer")
+e.create("zoomers_armory:diamond_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:diamond_ranger")
+e.create("zoomers_armory:diamond_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:diamond_ranger")
+e.create("zoomers_armory:diamond_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:diamond_ranger")
+e.create("zoomers_armory:diamond_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:diamond_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "diamond_pyromancer", "zoomers_armory:diamond_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diamond_pyromancer"), "Diamond Pyromancer Hat", "Diamond Pyromancer Robe", "Diamond Pyromancer Leggings", "Diamond Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/diamond_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/diamond_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/diamond_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/diamond_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "diamond_cryomancer", "zoomers_armory:diamond_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diamond_cryomancer"), "Diamond Cryomancer Hat", "Diamond Cryomancer Robe", "Diamond Cryomancer Leggings", "Diamond Cryomancer Boots", "",
@@ -4560,6 +5258,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "neptunium_samurai", "zoomers_a
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "neptunium_samurai_master", "zoomers_armory:neptunium_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:neptunium_samurai_master"), "Neptunium Samurai Master Helmet", "Neptunium Samurai Master Chestplate", "Neptunium Samurai Master Leggings", "Neptunium Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_master_armor.png");
+e.create("zoomers_armory:neptunium_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:neptunium_archer")
+e.create("zoomers_armory:neptunium_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:neptunium_archer")
+e.create("zoomers_armory:neptunium_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:neptunium_archer")
+e.create("zoomers_armory:neptunium_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:neptunium_archer")
+e.create("zoomers_armory:neptunium_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:neptunium_ranger")
+e.create("zoomers_armory:neptunium_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:neptunium_ranger")
+e.create("zoomers_armory:neptunium_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:neptunium_ranger")
+e.create("zoomers_armory:neptunium_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:neptunium_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "neptunium_pyromancer", "zoomers_armory:neptunium_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:neptunium_pyromancer"), "Neptunium Pyromancer Hat", "Neptunium Pyromancer Robe", "Neptunium Pyromancer Leggings", "Neptunium Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/neptunium_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/neptunium_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/neptunium_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/neptunium_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "neptunium_cryomancer", "zoomers_armory:neptunium_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:neptunium_cryomancer"), "Neptunium Cryomancer Hat", "Neptunium Cryomancer Robe", "Neptunium Cryomancer Leggings", "Neptunium Cryomancer Boots", "",
@@ -4613,6 +5319,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "pyrope_samurai", "zoomers_armo
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "pyrope_samurai_master", "zoomers_armory:pyrope_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:pyrope_samurai_master"), "Pyrope Samurai Master Helmet", "Pyrope Samurai Master Chestplate", "Pyrope Samurai Master Leggings", "Pyrope Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_master_armor.png");
+e.create("zoomers_armory:pyrope_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:pyrope_archer")
+e.create("zoomers_armory:pyrope_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:pyrope_archer")
+e.create("zoomers_armory:pyrope_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:pyrope_archer")
+e.create("zoomers_armory:pyrope_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:pyrope_archer")
+e.create("zoomers_armory:pyrope_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:pyrope_ranger")
+e.create("zoomers_armory:pyrope_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:pyrope_ranger")
+e.create("zoomers_armory:pyrope_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:pyrope_ranger")
+e.create("zoomers_armory:pyrope_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:pyrope_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "pyrope_pyromancer", "zoomers_armory:pyrope_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:pyrope_pyromancer"), "Pyrope Pyromancer Hat", "Pyrope Pyromancer Robe", "Pyrope Pyromancer Leggings", "Pyrope Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/pyrope_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/pyrope_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/pyrope_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/pyrope_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "pyrope_cryomancer", "zoomers_armory:pyrope_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:pyrope_cryomancer"), "Pyrope Cryomancer Hat", "Pyrope Cryomancer Robe", "Pyrope Cryomancer Leggings", "Pyrope Cryomancer Boots", "",
@@ -4666,6 +5380,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "aquite_samurai", "zoomers_armo
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "aquite_samurai_master", "zoomers_armory:aquite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aquite_samurai_master"), "Aquite Samurai Master Helmet", "Aquite Samurai Master Chestplate", "Aquite Samurai Master Leggings", "Aquite Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_master_armor.png");
+e.create("zoomers_armory:aquite_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:aquite_archer")
+e.create("zoomers_armory:aquite_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:aquite_archer")
+e.create("zoomers_armory:aquite_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:aquite_archer")
+e.create("zoomers_armory:aquite_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:aquite_archer")
+e.create("zoomers_armory:aquite_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:aquite_ranger")
+e.create("zoomers_armory:aquite_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:aquite_ranger")
+e.create("zoomers_armory:aquite_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:aquite_ranger")
+e.create("zoomers_armory:aquite_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:aquite_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "aquite_pyromancer", "zoomers_armory:aquite_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aquite_pyromancer"), "Aquite Pyromancer Hat", "Aquite Pyromancer Robe", "Aquite Pyromancer Leggings", "Aquite Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/aquite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/aquite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/aquite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/aquite_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "aquite_cryomancer", "zoomers_armory:aquite_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aquite_cryomancer"), "Aquite Cryomancer Hat", "Aquite Cryomancer Robe", "Aquite Cryomancer Leggings", "Aquite Cryomancer Boots", "",
@@ -4719,6 +5441,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "diopside_samurai", "zoomers_ar
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "diopside_samurai_master", "zoomers_armory:diopside_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diopside_samurai_master"), "Diopside Samurai Master Helmet", "Diopside Samurai Master Chestplate", "Diopside Samurai Master Leggings", "Diopside Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_master_armor.png");
+e.create("zoomers_armory:diopside_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:diopside_archer")
+e.create("zoomers_armory:diopside_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:diopside_archer")
+e.create("zoomers_armory:diopside_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:diopside_archer")
+e.create("zoomers_armory:diopside_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:diopside_archer")
+e.create("zoomers_armory:diopside_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:diopside_ranger")
+e.create("zoomers_armory:diopside_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:diopside_ranger")
+e.create("zoomers_armory:diopside_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:diopside_ranger")
+e.create("zoomers_armory:diopside_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:diopside_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "diopside_pyromancer", "zoomers_armory:diopside_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diopside_pyromancer"), "Diopside Pyromancer Hat", "Diopside Pyromancer Robe", "Diopside Pyromancer Leggings", "Diopside Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/diopside_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/diopside_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/diopside_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/diopside_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "diopside_cryomancer", "zoomers_armory:diopside_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diopside_cryomancer"), "Diopside Cryomancer Hat", "Diopside Cryomancer Robe", "Diopside Cryomancer Leggings", "Diopside Cryomancer Boots", "",
@@ -4772,6 +5502,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "charoite_samurai", "zoomers_ar
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "charoite_samurai_master", "zoomers_armory:charoite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:charoite_samurai_master"), "Charoite Samurai Master Helmet", "Charoite Samurai Master Chestplate", "Charoite Samurai Master Leggings", "Charoite Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_master_armor.png");
+e.create("zoomers_armory:charoite_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:charoite_archer")
+e.create("zoomers_armory:charoite_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:charoite_archer")
+e.create("zoomers_armory:charoite_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:charoite_archer")
+e.create("zoomers_armory:charoite_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:charoite_archer")
+e.create("zoomers_armory:charoite_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:charoite_ranger")
+e.create("zoomers_armory:charoite_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:charoite_ranger")
+e.create("zoomers_armory:charoite_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:charoite_ranger")
+e.create("zoomers_armory:charoite_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:charoite_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "charoite_pyromancer", "zoomers_armory:charoite_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:charoite_pyromancer"), "Charoite Pyromancer Hat", "Charoite Pyromancer Robe", "Charoite Pyromancer Leggings", "Charoite Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/charoite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/charoite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/charoite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/charoite_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "charoite_cryomancer", "zoomers_armory:charoite_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:charoite_cryomancer"), "Charoite Cryomancer Hat", "Charoite Cryomancer Robe", "Charoite Cryomancer Leggings", "Charoite Cryomancer Boots", "",
@@ -4825,6 +5563,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "horizonite_samurai", "zoomers_
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "horizonite_samurai_master", "zoomers_armory:horizonite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:horizonite_samurai_master"), "Horizonite Samurai Master Helmet", "Horizonite Samurai Master Chestplate", "Horizonite Samurai Master Leggings", "Horizonite Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_master_armor.png");
+e.create("zoomers_armory:horizonite_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:horizonite_archer")
+e.create("zoomers_armory:horizonite_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:horizonite_archer")
+e.create("zoomers_armory:horizonite_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:horizonite_archer")
+e.create("zoomers_armory:horizonite_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:horizonite_archer")
+e.create("zoomers_armory:horizonite_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:horizonite_ranger")
+e.create("zoomers_armory:horizonite_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:horizonite_ranger")
+e.create("zoomers_armory:horizonite_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:horizonite_ranger")
+e.create("zoomers_armory:horizonite_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:horizonite_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "horizonite_pyromancer", "zoomers_armory:horizonite_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:horizonite_pyromancer"), "Horizonite Pyromancer Hat", "Horizonite Pyromancer Robe", "Horizonite Pyromancer Leggings", "Horizonite Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/horizonite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/horizonite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/horizonite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/horizonite_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "horizonite_cryomancer", "zoomers_armory:horizonite_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:horizonite_cryomancer"), "Horizonite Cryomancer Hat", "Horizonite Cryomancer Robe", "Horizonite Cryomancer Leggings", "Horizonite Cryomancer Boots", "",
@@ -4878,6 +5624,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "zanite_samurai", "zoomers_armo
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "zanite_samurai_master", "zoomers_armory:zanite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:zanite_samurai_master"), "Zanite Samurai Master Helmet", "Zanite Samurai Master Chestplate", "Zanite Samurai Master Leggings", "Zanite Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_master_armor.png");
+e.create("zoomers_armory:zanite_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:zanite_archer")
+e.create("zoomers_armory:zanite_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:zanite_archer")
+e.create("zoomers_armory:zanite_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:zanite_archer")
+e.create("zoomers_armory:zanite_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:zanite_archer")
+e.create("zoomers_armory:zanite_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:zanite_ranger")
+e.create("zoomers_armory:zanite_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:zanite_ranger")
+e.create("zoomers_armory:zanite_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:zanite_ranger")
+e.create("zoomers_armory:zanite_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:zanite_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "zanite_pyromancer", "zoomers_armory:zanite_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:zanite_pyromancer"), "Zanite Pyromancer Hat", "Zanite Pyromancer Robe", "Zanite Pyromancer Leggings", "Zanite Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/zanite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/zanite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/zanite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/zanite_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "zanite_cryomancer", "zoomers_armory:zanite_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:zanite_cryomancer"), "Zanite Cryomancer Hat", "Zanite Cryomancer Robe", "Zanite Cryomancer Leggings", "Zanite Cryomancer Boots", "",
@@ -4931,6 +5685,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "enchanted_gravitite_samurai", 
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "enchanted_gravitite_samurai_master", "zoomers_armory:enchanted_gravitite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enchanted_gravitite_samurai_master"), "Enchanted Gravitite Samurai Master Helmet", "Enchanted Gravitite Samurai Master Chestplate", "Enchanted Gravitite Samurai Master Leggings", "Enchanted Gravitite Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_master_armor.png");
+e.create("zoomers_armory:enchanted_gravitite_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:enchanted_gravitite_archer")
+e.create("zoomers_armory:enchanted_gravitite_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:enchanted_gravitite_archer")
+e.create("zoomers_armory:enchanted_gravitite_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:enchanted_gravitite_archer")
+e.create("zoomers_armory:enchanted_gravitite_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:enchanted_gravitite_archer")
+e.create("zoomers_armory:enchanted_gravitite_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:enchanted_gravitite_ranger")
+e.create("zoomers_armory:enchanted_gravitite_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:enchanted_gravitite_ranger")
+e.create("zoomers_armory:enchanted_gravitite_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:enchanted_gravitite_ranger")
+e.create("zoomers_armory:enchanted_gravitite_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:enchanted_gravitite_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "enchanted_gravitite_pyromancer", "zoomers_armory:enchanted_gravitite_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enchanted_gravitite_pyromancer"), "Enchanted Gravitite Pyromancer Hat", "Enchanted Gravitite Pyromancer Robe", "Enchanted Gravitite Pyromancer Leggings", "Enchanted Gravitite Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "enchanted_gravitite_cryomancer", "zoomers_armory:enchanted_gravitite_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enchanted_gravitite_cryomancer"), "Enchanted Gravitite Cryomancer Hat", "Enchanted Gravitite Cryomancer Robe", "Enchanted Gravitite Cryomancer Leggings", "Enchanted Gravitite Cryomancer Boots", "",
@@ -4984,6 +5746,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_samurai", "zoomer
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_samurai_master", "zoomers_armory:cincinnasite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_samurai_master"), "Cincinnasite Samurai Master Helmet", "Cincinnasite Samurai Master Chestplate", "Cincinnasite Samurai Master Leggings", "Cincinnasite Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_master_armor.png");
+e.create("zoomers_armory:cincinnasite_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:cincinnasite_archer")
+e.create("zoomers_armory:cincinnasite_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:cincinnasite_archer")
+e.create("zoomers_armory:cincinnasite_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:cincinnasite_archer")
+e.create("zoomers_armory:cincinnasite_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:cincinnasite_archer")
+e.create("zoomers_armory:cincinnasite_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:cincinnasite_ranger")
+e.create("zoomers_armory:cincinnasite_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:cincinnasite_ranger")
+e.create("zoomers_armory:cincinnasite_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:cincinnasite_ranger")
+e.create("zoomers_armory:cincinnasite_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:cincinnasite_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_pyromancer", "zoomers_armory:cincinnasite_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_pyromancer"), "Cincinnasite Pyromancer Hat", "Cincinnasite Pyromancer Robe", "Cincinnasite Pyromancer Leggings", "Cincinnasite Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_cryomancer", "zoomers_armory:cincinnasite_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_cryomancer"), "Cincinnasite Cryomancer Hat", "Cincinnasite Cryomancer Robe", "Cincinnasite Cryomancer Leggings", "Cincinnasite Cryomancer Boots", "",
@@ -5037,6 +5807,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_diamond_samurai",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_diamond_samurai_master", "zoomers_armory:cincinnasite_diamond_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_diamond_samurai_master"), "Cincinnasite Diamond Samurai Master Helmet", "Cincinnasite Diamond Samurai Master Chestplate", "Cincinnasite Diamond Samurai Master Leggings", "Cincinnasite Diamond Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_master_armor.png");
+e.create("zoomers_armory:cincinnasite_diamond_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:cincinnasite_diamond_archer")
+e.create("zoomers_armory:cincinnasite_diamond_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:cincinnasite_diamond_archer")
+e.create("zoomers_armory:cincinnasite_diamond_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:cincinnasite_diamond_archer")
+e.create("zoomers_armory:cincinnasite_diamond_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:cincinnasite_diamond_archer")
+e.create("zoomers_armory:cincinnasite_diamond_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:cincinnasite_diamond_ranger")
+e.create("zoomers_armory:cincinnasite_diamond_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:cincinnasite_diamond_ranger")
+e.create("zoomers_armory:cincinnasite_diamond_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:cincinnasite_diamond_ranger")
+e.create("zoomers_armory:cincinnasite_diamond_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:cincinnasite_diamond_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_diamond_pyromancer", "zoomers_armory:cincinnasite_diamond_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_diamond_pyromancer"), "Cincinnasite Diamond Pyromancer Hat", "Cincinnasite Diamond Pyromancer Robe", "Cincinnasite Diamond Pyromancer Leggings", "Cincinnasite Diamond Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_diamond_cryomancer", "zoomers_armory:cincinnasite_diamond_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_diamond_cryomancer"), "Cincinnasite Diamond Cryomancer Hat", "Cincinnasite Diamond Cryomancer Robe", "Cincinnasite Diamond Cryomancer Leggings", "Cincinnasite Diamond Cryomancer Boots", "",
@@ -5090,6 +5868,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "nether_ruby_samurai", "zoomers
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "nether_ruby_samurai_master", "zoomers_armory:nether_ruby_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:nether_ruby_samurai_master"), "Nether Ruby Samurai Master Helmet", "Nether Ruby Samurai Master Chestplate", "Nether Ruby Samurai Master Leggings", "Nether Ruby Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_master_armor.png");
+e.create("zoomers_armory:nether_ruby_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:nether_ruby_archer")
+e.create("zoomers_armory:nether_ruby_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:nether_ruby_archer")
+e.create("zoomers_armory:nether_ruby_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:nether_ruby_archer")
+e.create("zoomers_armory:nether_ruby_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:nether_ruby_archer")
+e.create("zoomers_armory:nether_ruby_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:nether_ruby_ranger")
+e.create("zoomers_armory:nether_ruby_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:nether_ruby_ranger")
+e.create("zoomers_armory:nether_ruby_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:nether_ruby_ranger")
+e.create("zoomers_armory:nether_ruby_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:nether_ruby_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "nether_ruby_pyromancer", "zoomers_armory:nether_ruby_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:nether_ruby_pyromancer"), "Nether Ruby Pyromancer Hat", "Nether Ruby Pyromancer Robe", "Nether Ruby Pyromancer Leggings", "Nether Ruby Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "nether_ruby_cryomancer", "zoomers_armory:nether_ruby_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:nether_ruby_cryomancer"), "Nether Ruby Cryomancer Hat", "Nether Ruby Cryomancer Robe", "Nether Ruby Cryomancer Leggings", "Nether Ruby Cryomancer Boots", "",
@@ -5143,6 +5929,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "flaming_ruby_samurai", "zoomer
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "flaming_ruby_samurai_master", "zoomers_armory:flaming_ruby_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flaming_ruby_samurai_master"), "Flaming Ruby Samurai Master Helmet", "Flaming Ruby Samurai Master Chestplate", "Flaming Ruby Samurai Master Leggings", "Flaming Ruby Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_master_armor.png");
+e.create("zoomers_armory:flaming_ruby_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:flaming_ruby_archer")
+e.create("zoomers_armory:flaming_ruby_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:flaming_ruby_archer")
+e.create("zoomers_armory:flaming_ruby_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:flaming_ruby_archer")
+e.create("zoomers_armory:flaming_ruby_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:flaming_ruby_archer")
+e.create("zoomers_armory:flaming_ruby_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:flaming_ruby_ranger")
+e.create("zoomers_armory:flaming_ruby_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:flaming_ruby_ranger")
+e.create("zoomers_armory:flaming_ruby_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:flaming_ruby_ranger")
+e.create("zoomers_armory:flaming_ruby_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:flaming_ruby_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "flaming_ruby_pyromancer", "zoomers_armory:flaming_ruby_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flaming_ruby_pyromancer"), "Flaming Ruby Pyromancer Hat", "Flaming Ruby Pyromancer Robe", "Flaming Ruby Pyromancer Leggings", "Flaming Ruby Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "flaming_ruby_cryomancer", "zoomers_armory:flaming_ruby_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flaming_ruby_cryomancer"), "Flaming Ruby Cryomancer Hat", "Flaming Ruby Cryomancer Robe", "Flaming Ruby Cryomancer Leggings", "Flaming Ruby Cryomancer Boots", "",
@@ -5196,6 +5990,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "netherite_samurai", "zoomers_a
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "netherite_samurai_master", "zoomers_armory:netherite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:netherite_samurai_master"), "Netherite Samurai Master Helmet", "Netherite Samurai Master Chestplate", "Netherite Samurai Master Leggings", "Netherite Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_master_armor.png");
+e.create("zoomers_armory:netherite_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:netherite_archer")
+e.create("zoomers_armory:netherite_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:netherite_archer")
+e.create("zoomers_armory:netherite_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:netherite_archer")
+e.create("zoomers_armory:netherite_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:netherite_archer")
+e.create("zoomers_armory:netherite_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:netherite_ranger")
+e.create("zoomers_armory:netherite_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:netherite_ranger")
+e.create("zoomers_armory:netherite_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:netherite_ranger")
+e.create("zoomers_armory:netherite_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:netherite_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "netherite_pyromancer", "zoomers_armory:netherite_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:netherite_pyromancer"), "Netherite Pyromancer Hat", "Netherite Pyromancer Robe", "Netherite Pyromancer Leggings", "Netherite Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/netherite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/netherite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/netherite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/netherite_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "netherite_cryomancer", "zoomers_armory:netherite_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:netherite_cryomancer"), "Netherite Cryomancer Hat", "Netherite Cryomancer Robe", "Netherite Cryomancer Leggings", "Netherite Cryomancer Boots", "",
@@ -5249,6 +6051,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "cloggrum_samurai", "zoomers_ar
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "cloggrum_samurai_master", "zoomers_armory:cloggrum_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cloggrum_samurai_master"), "Cloggrum Samurai Master Helmet", "Cloggrum Samurai Master Chestplate", "Cloggrum Samurai Master Leggings", "Cloggrum Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_master_armor.png");
+e.create("zoomers_armory:cloggrum_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:cloggrum_archer")
+e.create("zoomers_armory:cloggrum_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:cloggrum_archer")
+e.create("zoomers_armory:cloggrum_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:cloggrum_archer")
+e.create("zoomers_armory:cloggrum_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:cloggrum_archer")
+e.create("zoomers_armory:cloggrum_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:cloggrum_ranger")
+e.create("zoomers_armory:cloggrum_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:cloggrum_ranger")
+e.create("zoomers_armory:cloggrum_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:cloggrum_ranger")
+e.create("zoomers_armory:cloggrum_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:cloggrum_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "cloggrum_pyromancer", "zoomers_armory:cloggrum_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cloggrum_pyromancer"), "Cloggrum Pyromancer Hat", "Cloggrum Pyromancer Robe", "Cloggrum Pyromancer Leggings", "Cloggrum Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cloggrum_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cloggrum_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cloggrum_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/cloggrum_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "cloggrum_cryomancer", "zoomers_armory:cloggrum_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cloggrum_cryomancer"), "Cloggrum Cryomancer Hat", "Cloggrum Cryomancer Robe", "Cloggrum Cryomancer Leggings", "Cloggrum Cryomancer Boots", "",
@@ -5302,6 +6112,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "froststeel_samurai", "zoomers_
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "froststeel_samurai_master", "zoomers_armory:froststeel_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:froststeel_samurai_master"), "Froststeel Samurai Master Helmet", "Froststeel Samurai Master Chestplate", "Froststeel Samurai Master Leggings", "Froststeel Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_master_armor.png");
+e.create("zoomers_armory:froststeel_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:froststeel_archer")
+e.create("zoomers_armory:froststeel_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:froststeel_archer")
+e.create("zoomers_armory:froststeel_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:froststeel_archer")
+e.create("zoomers_armory:froststeel_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:froststeel_archer")
+e.create("zoomers_armory:froststeel_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:froststeel_ranger")
+e.create("zoomers_armory:froststeel_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:froststeel_ranger")
+e.create("zoomers_armory:froststeel_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:froststeel_ranger")
+e.create("zoomers_armory:froststeel_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:froststeel_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "froststeel_pyromancer", "zoomers_armory:froststeel_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:froststeel_pyromancer"), "Froststeel Pyromancer Hat", "Froststeel Pyromancer Robe", "Froststeel Pyromancer Leggings", "Froststeel Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/froststeel_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/froststeel_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/froststeel_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/froststeel_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "froststeel_cryomancer", "zoomers_armory:froststeel_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:froststeel_cryomancer"), "Froststeel Cryomancer Hat", "Froststeel Cryomancer Robe", "Froststeel Cryomancer Leggings", "Froststeel Cryomancer Boots", "",
@@ -5355,6 +6173,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "utherium_samurai", "zoomers_ar
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "utherium_samurai_master", "zoomers_armory:utherium_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:utherium_samurai_master"), "Utherium Samurai Master Helmet", "Utherium Samurai Master Chestplate", "Utherium Samurai Master Leggings", "Utherium Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_master_armor.png");
+e.create("zoomers_armory:utherium_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:utherium_archer")
+e.create("zoomers_armory:utherium_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:utherium_archer")
+e.create("zoomers_armory:utherium_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:utherium_archer")
+e.create("zoomers_armory:utherium_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:utherium_archer")
+e.create("zoomers_armory:utherium_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:utherium_ranger")
+e.create("zoomers_armory:utherium_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:utherium_ranger")
+e.create("zoomers_armory:utherium_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:utherium_ranger")
+e.create("zoomers_armory:utherium_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:utherium_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "utherium_pyromancer", "zoomers_armory:utherium_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:utherium_pyromancer"), "Utherium Pyromancer Hat", "Utherium Pyromancer Robe", "Utherium Pyromancer Leggings", "Utherium Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/utherium_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/utherium_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/utherium_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/utherium_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "utherium_cryomancer", "zoomers_armory:utherium_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:utherium_cryomancer"), "Utherium Cryomancer Hat", "Utherium Cryomancer Robe", "Utherium Cryomancer Leggings", "Utherium Cryomancer Boots", "",
@@ -5408,6 +6234,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "forgotten_samurai", "zoomers_a
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "forgotten_samurai_master", "zoomers_armory:forgotten_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:forgotten_samurai_master"), "Forgotten Samurai Master Helmet", "Forgotten Samurai Master Chestplate", "Forgotten Samurai Master Leggings", "Forgotten Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_master_armor.png");
+e.create("zoomers_armory:forgotten_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:forgotten_archer")
+e.create("zoomers_armory:forgotten_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:forgotten_archer")
+e.create("zoomers_armory:forgotten_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:forgotten_archer")
+e.create("zoomers_armory:forgotten_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:forgotten_archer")
+e.create("zoomers_armory:forgotten_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:forgotten_ranger")
+e.create("zoomers_armory:forgotten_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:forgotten_ranger")
+e.create("zoomers_armory:forgotten_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:forgotten_ranger")
+e.create("zoomers_armory:forgotten_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:forgotten_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "forgotten_pyromancer", "zoomers_armory:forgotten_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:forgotten_pyromancer"), "Forgotten Pyromancer Hat", "Forgotten Pyromancer Robe", "Forgotten Pyromancer Leggings", "Forgotten Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/forgotten_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/forgotten_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/forgotten_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/forgotten_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "forgotten_cryomancer", "zoomers_armory:forgotten_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:forgotten_cryomancer"), "Forgotten Cryomancer Hat", "Forgotten Cryomancer Robe", "Forgotten Cryomancer Leggings", "Forgotten Cryomancer Boots", "",
@@ -5461,6 +6295,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "jade_samurai", "zoomers_armory
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "jade_samurai_master", "zoomers_armory:jade_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:jade_samurai_master"), "Jade Samurai Master Helmet", "Jade Samurai Master Chestplate", "Jade Samurai Master Leggings", "Jade Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_master_armor.png");
+e.create("zoomers_armory:jade_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:jade_archer")
+e.create("zoomers_armory:jade_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:jade_archer")
+e.create("zoomers_armory:jade_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:jade_archer")
+e.create("zoomers_armory:jade_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:jade_archer")
+e.create("zoomers_armory:jade_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:jade_ranger")
+e.create("zoomers_armory:jade_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:jade_ranger")
+e.create("zoomers_armory:jade_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:jade_ranger")
+e.create("zoomers_armory:jade_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:jade_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "jade_pyromancer", "zoomers_armory:jade_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:jade_pyromancer"), "Jade Pyromancer Hat", "Jade Pyromancer Robe", "Jade Pyromancer Leggings", "Jade Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/jade_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/jade_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/jade_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/jade_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "jade_cryomancer", "zoomers_armory:jade_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:jade_cryomancer"), "Jade Cryomancer Hat", "Jade Cryomancer Robe", "Jade Cryomancer Leggings", "Jade Cryomancer Boots", "",
@@ -5518,6 +6360,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "crystalline_samurai", "zoomers
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "crystalline_samurai_master", "zoomers_armory:crystalline_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:crystalline_samurai_master"), "Crystalline Samurai Master Helmet", "Crystalline Samurai Master Chestplate", "Crystalline Samurai Master Leggings", "Crystalline Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_master_armor.png");
+e.create("zoomers_armory:crystalline_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:crystalline_archer")
+e.create("zoomers_armory:crystalline_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:crystalline_archer")
+e.create("zoomers_armory:crystalline_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:crystalline_archer")
+e.create("zoomers_armory:crystalline_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:crystalline_archer")
+e.create("zoomers_armory:crystalline_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:crystalline_ranger")
+e.create("zoomers_armory:crystalline_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:crystalline_ranger")
+e.create("zoomers_armory:crystalline_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:crystalline_ranger")
+e.create("zoomers_armory:crystalline_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:crystalline_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "crystalline_pyromancer", "zoomers_armory:crystalline_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:crystalline_pyromancer"), "Crystalline Pyromancer Hat", "Crystalline Pyromancer Robe", "Crystalline Pyromancer Leggings", "Crystalline Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/crystalline_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/crystalline_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/crystalline_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/crystalline_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "crystalline_cryomancer", "zoomers_armory:crystalline_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:crystalline_cryomancer"), "Crystalline Cryomancer Hat", "Crystalline Cryomancer Robe", "Crystalline Cryomancer Leggings", "Crystalline Cryomancer Boots", "",
@@ -5571,6 +6421,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "dragon_samurai", "zoomers_armo
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "dragon_samurai_master", "zoomers_armory:dragon_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:dragon_samurai_master"), "Dragon Samurai Master Helmet", "Dragon Samurai Master Chestplate", "Dragon Samurai Master Leggings", "Dragon Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_master_armor.png");
+e.create("zoomers_armory:dragon_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:dragon_archer")
+e.create("zoomers_armory:dragon_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:dragon_archer")
+e.create("zoomers_armory:dragon_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:dragon_archer")
+e.create("zoomers_armory:dragon_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:dragon_archer")
+e.create("zoomers_armory:dragon_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:dragon_ranger")
+e.create("zoomers_armory:dragon_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:dragon_ranger")
+e.create("zoomers_armory:dragon_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:dragon_ranger")
+e.create("zoomers_armory:dragon_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:dragon_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "dragon_pyromancer", "zoomers_armory:dragon_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:dragon_pyromancer"), "Dragon Pyromancer Hat", "Dragon Pyromancer Robe", "Dragon Pyromancer Leggings", "Dragon Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/dragon_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/dragon_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/dragon_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/dragon_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "dragon_cryomancer", "zoomers_armory:dragon_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:dragon_cryomancer"), "Dragon Cryomancer Hat", "Dragon Cryomancer Robe", "Dragon Cryomancer Leggings", "Dragon Cryomancer Boots", "",
@@ -5624,6 +6482,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "enderite_samurai", "zoomers_ar
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "enderite_samurai_master", "zoomers_armory:enderite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enderite_samurai_master"), "Enderite Samurai Master Helmet", "Enderite Samurai Master Chestplate", "Enderite Samurai Master Leggings", "Enderite Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_master_armor.png");
+e.create("zoomers_armory:enderite_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:enderite_archer")
+e.create("zoomers_armory:enderite_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:enderite_archer")
+e.create("zoomers_armory:enderite_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:enderite_archer")
+e.create("zoomers_armory:enderite_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:enderite_archer")
+e.create("zoomers_armory:enderite_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:enderite_ranger")
+e.create("zoomers_armory:enderite_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:enderite_ranger")
+e.create("zoomers_armory:enderite_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:enderite_ranger")
+e.create("zoomers_armory:enderite_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:enderite_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "enderite_pyromancer", "zoomers_armory:enderite_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enderite_pyromancer"), "Enderite Pyromancer Hat", "Enderite Pyromancer Robe", "Enderite Pyromancer Leggings", "Enderite Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/enderite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/enderite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/enderite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/enderite_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "enderite_cryomancer", "zoomers_armory:enderite_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enderite_cryomancer"), "Enderite Cryomancer Hat", "Enderite Cryomancer Robe", "Enderite Cryomancer Leggings", "Enderite Cryomancer Boots", "",
@@ -5677,6 +6543,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "immemorial_samurai", "zoomers_
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "immemorial_samurai_master", "zoomers_armory:immemorial_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:immemorial_samurai_master"), "Immemorial Samurai Master Helmet", "Immemorial Samurai Master Chestplate", "Immemorial Samurai Master Leggings", "Immemorial Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_master_armor.png");
+e.create("zoomers_armory:immemorial_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:immemorial_archer")
+e.create("zoomers_armory:immemorial_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:immemorial_archer")
+e.create("zoomers_armory:immemorial_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:immemorial_archer")
+e.create("zoomers_armory:immemorial_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:immemorial_archer")
+e.create("zoomers_armory:immemorial_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:immemorial_ranger")
+e.create("zoomers_armory:immemorial_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:immemorial_ranger")
+e.create("zoomers_armory:immemorial_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:immemorial_ranger")
+e.create("zoomers_armory:immemorial_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:immemorial_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "immemorial_pyromancer", "zoomers_armory:immemorial_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:immemorial_pyromancer"), "Immemorial Pyromancer Hat", "Immemorial Pyromancer Robe", "Immemorial Pyromancer Leggings", "Immemorial Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/immemorial_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/immemorial_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/immemorial_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/immemorial_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "immemorial_cryomancer", "zoomers_armory:immemorial_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:immemorial_cryomancer"), "Immemorial Cryomancer Hat", "Immemorial Cryomancer Robe", "Immemorial Cryomancer Leggings", "Immemorial Cryomancer Boots", "",
@@ -5729,6 +6603,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "soul_samurai", "zoomers_armory
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "soul_samurai_master", "zoomers_armory:soul_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:soul_samurai_master"), "Soul Samurai Master Helmet", "Soul Samurai Master Chestplate", "Soul Samurai Master Leggings", "Soul Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_master_armor.png");
+e.create("zoomers_armory:soul_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:soul_archer")
+e.create("zoomers_armory:soul_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:soul_archer")
+e.create("zoomers_armory:soul_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:soul_archer")
+e.create("zoomers_armory:soul_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:soul_archer")
+e.create("zoomers_armory:soul_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:soul_ranger")
+e.create("zoomers_armory:soul_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:soul_ranger")
+e.create("zoomers_armory:soul_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:soul_ranger")
+e.create("zoomers_armory:soul_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:soul_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "soul_pyromancer", "zoomers_armory:soul_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:soul_pyromancer"), "Soul Pyromancer Hat", "Soul Pyromancer Robe", "Soul Pyromancer Leggings", "Soul Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/soul_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/soul_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/soul_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/soul_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "soul_cryomancer", "zoomers_armory:soul_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:soul_cryomancer"), "Soul Cryomancer Hat", "Soul Cryomancer Robe", "Soul Cryomancer Leggings", "Soul Cryomancer Boots", "",
@@ -5782,6 +6664,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "fixed_bone_samurai", "zoomers_
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "fixed_bone_samurai_master", "zoomers_armory:fixed_bone_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fixed_bone_samurai_master"), "Fixed Bone Samurai Master Helmet", "Fixed Bone Samurai Master Chestplate", "Fixed Bone Samurai Master Leggings", "Fixed Bone Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_master_armor.png");
+e.create("zoomers_armory:fixed_bone_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:fixed_bone_archer")
+e.create("zoomers_armory:fixed_bone_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:fixed_bone_archer")
+e.create("zoomers_armory:fixed_bone_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:fixed_bone_archer")
+e.create("zoomers_armory:fixed_bone_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:fixed_bone_archer")
+e.create("zoomers_armory:fixed_bone_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:fixed_bone_ranger")
+e.create("zoomers_armory:fixed_bone_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:fixed_bone_ranger")
+e.create("zoomers_armory:fixed_bone_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:fixed_bone_ranger")
+e.create("zoomers_armory:fixed_bone_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:fixed_bone_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "fixed_bone_pyromancer", "zoomers_armory:fixed_bone_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fixed_bone_pyromancer"), "Fixed Bone Pyromancer Hat", "Fixed Bone Pyromancer Robe", "Fixed Bone Pyromancer Leggings", "Fixed Bone Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "fixed_bone_cryomancer", "zoomers_armory:fixed_bone_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fixed_bone_cryomancer"), "Fixed Bone Cryomancer Hat", "Fixed Bone Cryomancer Robe", "Fixed Bone Cryomancer Leggings", "Fixed Bone Cryomancer Boots", "",
@@ -5835,6 +6725,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "fusion_samurai", "zoomers_armo
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "fusion_samurai_master", "zoomers_armory:fusion_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fusion_samurai_master"), "Fusion Samurai Master Helmet", "Fusion Samurai Master Chestplate", "Fusion Samurai Master Leggings", "Fusion Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_master_armor.png");
+e.create("zoomers_armory:fusion_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:fusion_archer")
+e.create("zoomers_armory:fusion_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:fusion_archer")
+e.create("zoomers_armory:fusion_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:fusion_archer")
+e.create("zoomers_armory:fusion_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:fusion_archer")
+e.create("zoomers_armory:fusion_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:fusion_ranger")
+e.create("zoomers_armory:fusion_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:fusion_ranger")
+e.create("zoomers_armory:fusion_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:fusion_ranger")
+e.create("zoomers_armory:fusion_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:fusion_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "fusion_pyromancer", "zoomers_armory:fusion_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fusion_pyromancer"), "Fusion Pyromancer Hat", "Fusion Pyromancer Robe", "Fusion Pyromancer Leggings", "Fusion Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/fusion_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/fusion_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/fusion_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/fusion_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "fusion_cryomancer", "zoomers_armory:fusion_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fusion_cryomancer"), "Fusion Cryomancer Hat", "Fusion Cryomancer Robe", "Fusion Cryomancer Leggings", "Fusion Cryomancer Boots", "",
@@ -5888,6 +6786,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "aberythe_samurai", "zoomers_ar
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "aberythe_samurai_master", "zoomers_armory:aberythe_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aberythe_samurai_master"), "Aberythe Samurai Master Helmet", "Aberythe Samurai Master Chestplate", "Aberythe Samurai Master Leggings", "Aberythe Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_master_armor.png");
+e.create("zoomers_armory:aberythe_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:aberythe_archer")
+e.create("zoomers_armory:aberythe_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:aberythe_archer")
+e.create("zoomers_armory:aberythe_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:aberythe_archer")
+e.create("zoomers_armory:aberythe_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:aberythe_archer")
+e.create("zoomers_armory:aberythe_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:aberythe_ranger")
+e.create("zoomers_armory:aberythe_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:aberythe_ranger")
+e.create("zoomers_armory:aberythe_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:aberythe_ranger")
+e.create("zoomers_armory:aberythe_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:aberythe_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "aberythe_pyromancer", "zoomers_armory:aberythe_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aberythe_pyromancer"), "Aberythe Pyromancer Hat", "Aberythe Pyromancer Robe", "Aberythe Pyromancer Leggings", "Aberythe Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/aberythe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/aberythe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/aberythe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/aberythe_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "aberythe_cryomancer", "zoomers_armory:aberythe_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aberythe_cryomancer"), "Aberythe Cryomancer Hat", "Aberythe Cryomancer Robe", "Aberythe Cryomancer Leggings", "Aberythe Cryomancer Boots", "",
@@ -5941,6 +6847,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "ignisithe_samurai", "zoomers_a
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "ignisithe_samurai_master", "zoomers_armory:ignisithe_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:ignisithe_samurai_master"), "Ignisithe Samurai Master Helmet", "Ignisithe Samurai Master Chestplate", "Ignisithe Samurai Master Leggings", "Ignisithe Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_master_armor.png");
+e.create("zoomers_armory:ignisithe_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:ignisithe_archer")
+e.create("zoomers_armory:ignisithe_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:ignisithe_archer")
+e.create("zoomers_armory:ignisithe_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:ignisithe_archer")
+e.create("zoomers_armory:ignisithe_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:ignisithe_archer")
+e.create("zoomers_armory:ignisithe_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:ignisithe_ranger")
+e.create("zoomers_armory:ignisithe_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:ignisithe_ranger")
+e.create("zoomers_armory:ignisithe_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:ignisithe_ranger")
+e.create("zoomers_armory:ignisithe_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:ignisithe_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "ignisithe_pyromancer", "zoomers_armory:ignisithe_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:ignisithe_pyromancer"), "Ignisithe Pyromancer Hat", "Ignisithe Pyromancer Robe", "Ignisithe Pyromancer Leggings", "Ignisithe Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/ignisithe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/ignisithe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/ignisithe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/ignisithe_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "ignisithe_cryomancer", "zoomers_armory:ignisithe_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:ignisithe_cryomancer"), "Ignisithe Cryomancer Hat", "Ignisithe Cryomancer Robe", "Ignisithe Cryomancer Leggings", "Ignisithe Cryomancer Boots", "",
@@ -5994,6 +6908,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "knight_samurai", "zoomers_armo
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "knight_samurai_master", "zoomers_armory:knight_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:knight_samurai_master"), "Knight Samurai Master Helmet", "Knight Samurai Master Chestplate", "Knight Samurai Master Leggings", "Knight Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_master_armor.png");
+e.create("zoomers_armory:knight_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:knight_archer")
+e.create("zoomers_armory:knight_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:knight_archer")
+e.create("zoomers_armory:knight_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:knight_archer")
+e.create("zoomers_armory:knight_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:knight_archer")
+e.create("zoomers_armory:knight_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:knight_ranger")
+e.create("zoomers_armory:knight_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:knight_ranger")
+e.create("zoomers_armory:knight_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:knight_ranger")
+e.create("zoomers_armory:knight_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:knight_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "knight_pyromancer", "zoomers_armory:knight_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:knight_pyromancer"), "Knight Pyromancer Hat", "Knight Pyromancer Robe", "Knight Pyromancer Leggings", "Knight Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/knight_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/knight_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/knight_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/knight_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "knight_cryomancer", "zoomers_armory:knight_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:knight_cryomancer"), "Knight Cryomancer Hat", "Knight Cryomancer Robe", "Knight Cryomancer Leggings", "Knight Cryomancer Boots", "",
@@ -6047,6 +6969,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "glacerythe_samurai", "zoomers_
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "glacerythe_samurai_master", "zoomers_armory:glacerythe_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:glacerythe_samurai_master"), "Glacerythe Samurai Master Helmet", "Glacerythe Samurai Master Chestplate", "Glacerythe Samurai Master Leggings", "Glacerythe Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_master_armor.png");
+e.create("zoomers_armory:glacerythe_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:glacerythe_archer")
+e.create("zoomers_armory:glacerythe_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:glacerythe_archer")
+e.create("zoomers_armory:glacerythe_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:glacerythe_archer")
+e.create("zoomers_armory:glacerythe_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:glacerythe_archer")
+e.create("zoomers_armory:glacerythe_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:glacerythe_ranger")
+e.create("zoomers_armory:glacerythe_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:glacerythe_ranger")
+e.create("zoomers_armory:glacerythe_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:glacerythe_ranger")
+e.create("zoomers_armory:glacerythe_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:glacerythe_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "glacerythe_pyromancer", "zoomers_armory:glacerythe_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:glacerythe_pyromancer"), "Glacerythe Pyromancer Hat", "Glacerythe Pyromancer Robe", "Glacerythe Pyromancer Leggings", "Glacerythe Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/glacerythe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/glacerythe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/glacerythe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/glacerythe_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "glacerythe_cryomancer", "zoomers_armory:glacerythe_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:glacerythe_cryomancer"), "Glacerythe Cryomancer Hat", "Glacerythe Cryomancer Robe", "Glacerythe Cryomancer Leggings", "Glacerythe Cryomancer Boots", "",
@@ -6100,6 +7030,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "garnite_samurai", "zoomers_arm
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "garnite_samurai_master", "zoomers_armory:garnite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:garnite_samurai_master"), "Garnite Samurai Master Helmet", "Garnite Samurai Master Chestplate", "Garnite Samurai Master Leggings", "Garnite Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_master_armor.png");
+e.create("zoomers_armory:garnite_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:garnite_archer")
+e.create("zoomers_armory:garnite_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:garnite_archer")
+e.create("zoomers_armory:garnite_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:garnite_archer")
+e.create("zoomers_armory:garnite_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:garnite_archer")
+e.create("zoomers_armory:garnite_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:garnite_ranger")
+e.create("zoomers_armory:garnite_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:garnite_ranger")
+e.create("zoomers_armory:garnite_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:garnite_ranger")
+e.create("zoomers_armory:garnite_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:garnite_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "garnite_pyromancer", "zoomers_armory:garnite_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:garnite_pyromancer"), "Garnite Pyromancer Hat", "Garnite Pyromancer Robe", "Garnite Pyromancer Leggings", "Garnite Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/garnite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/garnite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/garnite_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/garnite_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "garnite_cryomancer", "zoomers_armory:garnite_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:garnite_cryomancer"), "Garnite Cryomancer Hat", "Garnite Cryomancer Robe", "Garnite Cryomancer Leggings", "Garnite Cryomancer Boots", "",
@@ -6153,6 +7091,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "phantom_samurai", "zoomers_arm
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "phantom_samurai_master", "zoomers_armory:phantom_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:phantom_samurai_master"), "Phantom Samurai Master Helmet", "Phantom Samurai Master Chestplate", "Phantom Samurai Master Leggings", "Phantom Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_master_armor.png");
+e.create("zoomers_armory:phantom_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:phantom_archer")
+e.create("zoomers_armory:phantom_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:phantom_archer")
+e.create("zoomers_armory:phantom_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:phantom_archer")
+e.create("zoomers_armory:phantom_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:phantom_archer")
+e.create("zoomers_armory:phantom_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:phantom_ranger")
+e.create("zoomers_armory:phantom_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:phantom_ranger")
+e.create("zoomers_armory:phantom_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:phantom_ranger")
+e.create("zoomers_armory:phantom_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:phantom_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "phantom_pyromancer", "zoomers_armory:phantom_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:phantom_pyromancer"), "Phantom Pyromancer Hat", "Phantom Pyromancer Robe", "Phantom Pyromancer Leggings", "Phantom Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/phantom_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/phantom_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/phantom_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/phantom_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "phantom_cryomancer", "zoomers_armory:phantom_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:phantom_cryomancer"), "Phantom Cryomancer Hat", "Phantom Cryomancer Robe", "Phantom Cryomancer Leggings", "Phantom Cryomancer Boots", "",
@@ -6206,6 +7152,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "unorithe_samurai", "zoomers_ar
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "unorithe_samurai_master", "zoomers_armory:unorithe_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:unorithe_samurai_master"), "Unorithe Samurai Master Helmet", "Unorithe Samurai Master Chestplate", "Unorithe Samurai Master Leggings", "Unorithe Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_master_armor.png");
+e.create("zoomers_armory:unorithe_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:unorithe_archer")
+e.create("zoomers_armory:unorithe_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:unorithe_archer")
+e.create("zoomers_armory:unorithe_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:unorithe_archer")
+e.create("zoomers_armory:unorithe_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:unorithe_archer")
+e.create("zoomers_armory:unorithe_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:unorithe_ranger")
+e.create("zoomers_armory:unorithe_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:unorithe_ranger")
+e.create("zoomers_armory:unorithe_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:unorithe_ranger")
+e.create("zoomers_armory:unorithe_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:unorithe_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "unorithe_pyromancer", "zoomers_armory:unorithe_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:unorithe_pyromancer"), "Unorithe Pyromancer Hat", "Unorithe Pyromancer Robe", "Unorithe Pyromancer Leggings", "Unorithe Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/unorithe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/unorithe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/unorithe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/unorithe_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "unorithe_cryomancer", "zoomers_armory:unorithe_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:unorithe_cryomancer"), "Unorithe Cryomancer Hat", "Unorithe Cryomancer Robe", "Unorithe Cryomancer Leggings", "Unorithe Cryomancer Boots", "",
@@ -6259,6 +7213,14 @@ global.createGeckoArmorTier(e, "zoomers_armory", "incorythe_samurai", "zoomers_a
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "incorythe_samurai_master", "zoomers_armory:incorythe_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:incorythe_samurai_master"), "Incorythe Samurai Master Helmet", "Incorythe Samurai Master Chestplate", "Incorythe Samurai Master Leggings", "Incorythe Samurai Master Boots", "",
     "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_master_armor.png");
+e.create("zoomers_armory:incorythe_archer_helmet", "helmet").displayName("Archer Helmet").tier("zoomers_armory:incorythe_archer")
+e.create("zoomers_armory:incorythe_archer_chestplate", "chestplate").displayName("Archer Chestplate").tier("zoomers_armory:incorythe_archer")
+e.create("zoomers_armory:incorythe_archer_leggings", "leggings").displayName("Archer Leggings").tier("zoomers_armory:incorythe_archer")
+e.create("zoomers_armory:incorythe_archer_boots", "boots").displayName("Archer Boots").tier("zoomers_armory:incorythe_archer")
+e.create("zoomers_armory:incorythe_ranger_helmet", "helmet").displayName("Ranger Helmet").tier("zoomers_armory:incorythe_ranger")
+e.create("zoomers_armory:incorythe_ranger_chestplate", "chestplate").displayName("Ranger Chestplate").tier("zoomers_armory:incorythe_ranger")
+e.create("zoomers_armory:incorythe_ranger_leggings", "leggings").displayName("Ranger Leggings").tier("zoomers_armory:incorythe_ranger")
+e.create("zoomers_armory:incorythe_ranger_boots", "boots").displayName("Ranger Boots").tier("zoomers_armory:incorythe_ranger")
 global.createGeckoArmorTier(e, "zoomers_armory", "incorythe_pyromancer", "zoomers_armory:incorythe_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:incorythe_pyromancer"), "Incorythe Pyromancer Hat", "Incorythe Pyromancer Robe", "Incorythe Pyromancer Leggings", "Incorythe Pyromancer Boots", "",
     "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/incorythe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/incorythe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/incorythe_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/incorythe_pyromancer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "incorythe_cryomancer", "zoomers_armory:incorythe_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:incorythe_cryomancer"), "Incorythe Cryomancer Hat", "Incorythe Cryomancer Robe", "Incorythe Cryomancer Leggings", "Incorythe Cryomancer Boots", "",

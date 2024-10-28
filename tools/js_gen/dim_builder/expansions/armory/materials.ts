@@ -21,6 +21,7 @@ import {
     tier_levels_undergarden_start
 } from "./ores";
 import {magicArmorSets} from "../../magic_armors";
+import {archerCustomArmory, rangerCustomArmory} from "../../archerArmory";
 
 const materials = [
     {
@@ -585,6 +586,8 @@ function convertMaterial(name: string, color: string, level: number, pmmoLevel: 
             .withCustomArmoryEntry(samuraiLightCustomArmory)
             .withCustomArmoryEntry(samuraiCustomArmory)
             .withCustomArmoryEntry(samuraiMasterCustomArmory)
+            .withCustomArmoryEntry(archerCustomArmory)
+            .withCustomArmoryEntry(rangerCustomArmory)
             .withCustomArmoryEntries(magicArmorSets)
             .withCraftingMaterial(craftingMaterial)
             .withBaseArmor(armor)
