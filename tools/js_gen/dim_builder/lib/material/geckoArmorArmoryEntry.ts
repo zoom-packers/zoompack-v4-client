@@ -139,3 +139,9 @@ export class GeckoArmorArmoryEntry extends CustomArmoryEntry{
         return itemId;
     }
 }
+
+export class SimpleArmorArmoryEntry extends GeckoArmorArmoryEntry {
+    override buildGeos(outputFolderPath: string, materialId: string) {
+        // NOOP
+    }
+}

@@ -18,11 +18,14 @@ import {WorkingTexture} from "../textureGen/workingTexture";
 import {IArmory} from "./IArmory";
 import {PolymorphArmoryVariants} from "../armory/polymorphArmoryVariants";
 import {ArmorVariant, BaseVariant, ChromaKeyOperation, ToolVariant} from "./ArmoryTypes";
-import {GeckoArmorArmoryEntry} from "./geckoArmorArmoryEntry";
+import {GeckoArmorArmoryEntry, SimpleArmorArmoryEntry} from "./geckoArmorArmoryEntry";
 import path from "path";
 import {Config} from "../config";
 import {CustomArmoryEntry} from "./customArmoryEntry";
 import {SimpleItemArmoryEntry} from "./simpleItemArmoryEntry";
+
+export const GENERAL_DURABILITY_MULTIPLIER = 1.331945;
+export const PER_TIER_MULTIPLIER = 0.125;
 
 export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
     gear: string[] = [];
@@ -94,7 +97,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             this.kubeJsContainer.harvestLevelTweaker.withItem(itemId, this.material.level);
         });
         this.kubeJsContainer.registrar.registerToolTier(id, this.durability, this.harvestSpeed, this.baseDamage - 4, this.material.level, 9, this.craftingMaterial);
-        this.kubeJsContainer.registrar.registerArmorTier(id, this.durability / 15, slotProtections, 9, this.craftingMaterial, this.baseArmorToughness, this.baseArmorKnockbackResistance);
+        this.kubeJsContainer.registrar.registerArmorTier(id, this.harvestLevel, this.durability / 15, slotProtections, 9, this.craftingMaterial, this.baseArmorToughness, this.baseArmorKnockbackResistance);
 
         for (const customArmoryEntry of this.customArmoryEntries) {
             if (customArmoryEntry instanceof GeckoArmorArmoryEntry) {
@@ -112,7 +115,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                     this.baseArmor * chestplate.armorMultiplier * 6 / 15,
                     this.baseArmor * helmet.armorMultiplier * 2 / 15,
                 ];
-                this.kubeJsContainer.registrar.registerArmorTier(`${modId}:${materialIdPart}_${customArmoryEntry.armorId}`, this.durability / 15, slotProtections, 9, this.craftingMaterial, this.baseArmorToughness, this.baseArmorKnockbackResistance);
+                this.kubeJsContainer.registrar.registerArmorTier(`${modId}:${materialIdPart}_${customArmoryEntry.armorId}`, this.harvestLevel, this.durability / 15, slotProtections, 9, this.craftingMaterial, this.baseArmorToughness, this.baseArmorKnockbackResistance);
             }
         }
     }
@@ -142,7 +145,14 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         }
 
         for (const customArmoryEntry of this.customArmoryEntries) {
-            if (customArmoryEntry instanceof GeckoArmorArmoryEntry) {
+            if (customArmoryEntry instanceof SimpleArmorArmoryEntry) {
+                for (const variant of customArmoryEntry.variants) {
+                    var id = `${modId}:${materialIdPart}_${variant.id}`;
+                    var displayName = variant.displayName;
+                    var itemType = this.getTypeName(variant);
+                    this.kubeJsContainer.registrar.registerTieredItem(id, itemType, displayName, `${modId}:${material.internalName}_${customArmoryEntry.armorId}`);
+                }
+            } else if (customArmoryEntry instanceof GeckoArmorArmoryEntry) {
                 // @ts-ignore
                 const helmet = customArmoryEntry.variants.find(x => x.slot === "head") as ArmorVariant;
                 // @ts-ignore
@@ -542,6 +552,12 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
     }
 
     get harvestLevel() {
+        if (this.material === undefined) {
+            throw new Error("Material is not set");
+        }
+        if (this.material.level === undefined) {
+            throw new Error("Material level is not set");
+        }
         return this.material.level;
     }
 

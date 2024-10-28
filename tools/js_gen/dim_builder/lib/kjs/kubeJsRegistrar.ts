@@ -3,6 +3,7 @@ import fs from "fs";
 import {BasicDataHolder} from "../selfWritingJson";
 import {ensureFolderExists, kubejsStartupScriptsPath} from "../utils";
 import {KubeJSBlock, KubeJsItem} from "./kubeJsItem";
+import {GENERAL_DURABILITY_MULTIPLIER, PER_TIER_MULTIPLIER} from "../material/armory";
 
 export const REGISTRATION_TEMPLATE =`
 StartupEvents.registry({type}, e => {
@@ -76,8 +77,9 @@ export class KubeJsRegistrar extends BasicDataHolder<KubeJsRegistrar> {
         this.toolTiers.push(TOOL_TIER_TEMPLATE.replace("{id}", id).replace("{uses}", uses.toString()).replace("{speed}", speed.toString()).replace("{attackDamageBonus}", attackDamageBonus.toString()).replace("{level}", level.toString()).replace("{enchantmentValue}", enchantmentValue.toString()).replace("{repairIngredient}", repairIngredient));
     }
 
-    registerArmorTier(id: string, durabilityMultiplier: number, slotProtections: number[], enchantmentValue: number, repairIngredient: string, toughness: number, knockbackResistance: number) {
-        this.armorTiers.push(ARMOR_TIER_TEMPLATE.replace("{id}", id).replace("{durabilityMultiplier}", durabilityMultiplier.toString()).replace("{slotProtections}", slotProtections.toString()).replace("{enchantmentValue}", enchantmentValue.toString()).replace("{repairIngredient}", repairIngredient).replace("{toughness}", toughness.toString()).replace("{knockbackResistance}", knockbackResistance.toString()));
+    registerArmorTier(id: string, tier: number, durabilityMultiplier: number, slotProtections: number[], enchantmentValue: number, repairIngredient: string, toughness: number, knockbackResistance: number) {
+        var durabilityFormula = durabilityMultiplier * (Math.pow(1.0 + PER_TIER_MULTIPLIER * tier, 2)) * GENERAL_DURABILITY_MULTIPLIER;
+        this.armorTiers.push(ARMOR_TIER_TEMPLATE.replace("{id}", id).replace("{durabilityMultiplier}", durabilityFormula.toString()).replace("{slotProtections}", slotProtections.toString()).replace("{enchantmentValue}", enchantmentValue.toString()).replace("{repairIngredient}", repairIngredient).replace("{toughness}", toughness.toString()).replace("{knockbackResistance}", knockbackResistance.toString()));
     }
 
     registerGeckoArmor(modId: string, prefix: string, tierId: string, helmName: string, chestName: string, legName: string, bootName: string, nameSuffix: string, modelPath: string, texturePath: string) {
