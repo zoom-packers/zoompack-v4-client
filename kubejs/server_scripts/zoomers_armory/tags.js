@@ -1,0 +1,38 @@
+
+ServerEvents.tags('item', event => {
+event.add("minecraft:flint", "minecraft:flint");
+event.add("minecraft:iron_ingot", "minecraft:iron_ingot");
+event.add("minecraft:gold_ingot", "minecraft:gold_ingot");
+event.add("minecraft:diamond", "minecraft:diamond");
+event.add("aquaculture:neptunium_ingot", "aquaculture:neptunium_ingot");
+event.add("blue_skies:pyrope_gem", "blue_skies:pyrope_gem");
+event.add("blue_skies:aquite", "blue_skies:aquite");
+event.add("blue_skies:diopside_gem", "blue_skies:diopside_gem");
+event.add("blue_skies:charoite", "blue_skies:charoite");
+event.add("blue_skies:horizonite_ingot", "blue_skies:horizonite_ingot");
+event.add("aether:zanite_gemstone", "aether:zanite_gemstone");
+event.add("aether:enchanted_gravitite", "aether:enchanted_gravitite");
+event.add("betternether:cincinnasite_ingot", "betternether:cincinnasite_ingot");
+event.add("betternether:nether_ruby", "betternether:nether_ruby");
+event.add("minecraft:sculk_catalyst", "minecraft:sculk_catalyst");
+event.add("minecraft:netherite_ingot", "minecraft:netherite_ingot");
+event.add("undergarden:cloggrum_ingot", "undergarden:cloggrum_ingot");
+event.add("undergarden:froststeel_ingot", "undergarden:froststeel_ingot");
+event.add("undergarden:utherium_crystal", "undergarden:utherium_crystal");
+event.add("undergarden:forgotten_ingot", "undergarden:forgotten_ingot");
+event.add("call_of_yucutan:jade", "call_of_yucutan:jade");
+event.add("phantasm:crystal_block", "phantasm:crystal_block");
+event.add("ender_dragon_loot_:dragon_scale", "ender_dragon_loot_:dragon_scale");
+event.add("enderitemod:enderite_ingot", "enderitemod:enderite_ingot");
+event.add("callfromthedepth_:immemorialingot", "callfromthedepth_:immemorialingot");
+event.add("callfromthedepth_:soulingot", "callfromthedepth_:soulingot");
+event.add("theabyss:fixed_bone", "theabyss:fixed_bone");
+event.add("theabyss:fusion_ingot", "theabyss:fusion_ingot");
+event.add("theabyss:aberythe_gem", "theabyss:aberythe_gem");
+event.add("theabyss:ignisithe_gem", "theabyss:ignisithe_gem");
+event.add("theabyss:glacerythe_gem", "theabyss:glacerythe_gem");
+event.add("theabyss:garnite_ingot", "theabyss:garnite_ingot");
+event.add("theabyss:phantom_ingot", "theabyss:phantom_ingot");
+event.add("theabyss:unorithe_ingot", "theabyss:unorithe_ingot");
+event.add("theabyss:incorythe_gem", "theabyss:incorythe_gem");
+});

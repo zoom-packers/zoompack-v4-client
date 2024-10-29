@@ -140,7 +140,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             if (tieredTypes.includes(type)) {
                 this.kubeJsContainer.registrar.registerTieredItem(id, itemType, displayName, `${modId}:${material.internalName}`);
             } else {
-                this.kubeJsContainer.registrar.registerArmoryItem(id, itemType, displayName, durability);
+                this.kubeJsContainer.registrar.registerArmoryItem(id, itemType, displayName, durability,`${modId}:${material.internalName}`);
             }
         }
 
@@ -172,7 +172,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                     `${modId}:geo/${customArmoryEntry.armorId}.geo.json`,
                     `${modId}:textures/models/armor/${material.internalName}_${customArmoryEntry.armorId}_armor.png`);
             } else if (customArmoryEntry instanceof SimpleItemArmoryEntry) {
-                this.kubeJsContainer.registrar.registerArmoryItem(`${modId}:${materialIdPart}_${customArmoryEntry.itemId}`, customArmoryEntry.variants[0].type, customArmoryEntry.variants[0].displayName, customArmoryEntry.variants[0].durabilityMultiplier * this.durability);
+                this.kubeJsContainer.registrar.registerArmoryItem(`${modId}:${materialIdPart}_${customArmoryEntry.itemId}`, customArmoryEntry.variants[0].type, customArmoryEntry.variants[0].displayName, customArmoryEntry.variants[0].durabilityMultiplier * this.durability, `${modId}:${material.internalName}`);
             }
         }
     }

@@ -1,7 +1,7 @@
 // @ts-ignore
 import fs from "fs";
 import {BasicDataHolder} from "../selfWritingJson";
-import {ensureFolderExists, kubejsStartupScriptsPath} from "../utils";
+import {ensureFolderExists, kubejsServerScriptsPath, kubejsStartupScriptsPath} from "../utils";
 import {KubeJSBlock, KubeJsItem} from "./kubeJsItem";
 import {GENERAL_DURABILITY_MULTIPLIER, PER_TIER_MULTIPLIER} from "../material/armory";
 
@@ -20,6 +20,11 @@ ItemEvents.armorTierRegistry(event => {
 {content}
 });
 `
+const TAG_REGISTRATION_TEMPLATE = `
+ServerEvents.tags('item', event => {
+{content}
+});
+`
 
 const ARMORY_TEMPLATE = `e.create("{id}", {type}).displayName("{displayName}").maxDamage({durability});`
 const TIERED_ITEM_TEMPLATE = `e.create("{id}", "{type}").displayName("{displayName}").tier("{tier}");`
@@ -32,14 +37,14 @@ const TOOL_TIER_TEMPLATE = `  event.add("{id}", tier => {
     tier.attackDamageBonus = {attackDamageBonus}
     tier.level = {level}
     tier.enchantmentValue = {enchantmentValue}
-    tier.repairIngredient = "{repairIngredient}"
+    tier.repairIngredient = "#{repairIngredient}"
   });`
 const ARMOR_TIER_TEMPLATE = `  event.add("{id}", tier => {
     tier.durabilityMultiplier = {durabilityMultiplier} // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [{slotProtections}] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = {enchantmentValue}
     tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "{repairIngredient}" // #forge:ingots/iron'
+    tier.repairIngredient = "#{repairIngredient}" // #forge:ingots/iron'
     tier.toughness = {toughness} // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = {knockbackResistance} // diamond has 0.0, netherite 0.1
   });`
@@ -52,6 +57,7 @@ export class KubeJsRegistrar extends BasicDataHolder<KubeJsRegistrar> {
     blocks: string[] = [];
     toolTiers: string[] = [];
     armorTiers: string[] = [];
+    repairTags: string[] = [];
 
     registerBlock(id: string, displayName: string) {
         this.blocks.push(new KubeJSBlock().withId(id).withDisplayName(displayName).toString());
@@ -65,8 +71,8 @@ export class KubeJsRegistrar extends BasicDataHolder<KubeJsRegistrar> {
         this.items.push(new KubeJsItem().withId(id).withDisplayName(displayName).withDurability(durability).toString());
     }
 
-    registerArmoryItem(id: string, type: string, displayName: string, durability: number) {
-        this.items.push(new KubeJsItem().withId(id).withType(type).withDisplayName(displayName).withDurability(durability).toString());
+    registerArmoryItem(id: string, type: string, displayName: string, durability: number, tier: string) {
+        this.items.push(new KubeJsItem().withId(id).withType(type).withDisplayName(displayName).withDurability(durability).withTier(tier).toString());
     }
 
     registerTieredItem(id: string, type: string, displayName: string, tier: string) {
@@ -75,11 +81,19 @@ export class KubeJsRegistrar extends BasicDataHolder<KubeJsRegistrar> {
 
     registerToolTier(id: string, uses: number, speed: number, attackDamageBonus: number, level: number, enchantmentValue: number, repairIngredient: string) {
         this.toolTiers.push(TOOL_TIER_TEMPLATE.replace("{id}", id).replace("{uses}", uses.toString()).replace("{speed}", speed.toString()).replace("{attackDamageBonus}", attackDamageBonus.toString()).replace("{level}", level.toString()).replace("{enchantmentValue}", enchantmentValue.toString()).replace("{repairIngredient}", repairIngredient));
+        this.registerIngredientTag(repairIngredient);
     }
 
     registerArmorTier(id: string, tier: number, durabilityMultiplier: number, slotProtections: number[], enchantmentValue: number, repairIngredient: string, toughness: number, knockbackResistance: number) {
         var durabilityFormula = durabilityMultiplier * (Math.pow(1.0 + PER_TIER_MULTIPLIER * tier, 2)) * GENERAL_DURABILITY_MULTIPLIER;
         this.armorTiers.push(ARMOR_TIER_TEMPLATE.replace("{id}", id).replace("{durabilityMultiplier}", durabilityFormula.toString()).replace("{slotProtections}", slotProtections.toString()).replace("{enchantmentValue}", enchantmentValue.toString()).replace("{repairIngredient}", repairIngredient).replace("{toughness}", toughness.toString()).replace("{knockbackResistance}", knockbackResistance.toString()));
+        this.registerIngredientTag(repairIngredient);
+    }
+
+    registerIngredientTag(tag: string) {
+        if (!this.repairTags.includes(tag)) {
+            this.repairTags.push(tag);
+        }
     }
 
     registerGeckoArmor(modId: string, prefix: string, tierId: string, helmName: string, chestName: string, legName: string, bootName: string, nameSuffix: string, modelPath: string, texturePath: string) {
@@ -115,5 +129,16 @@ export class KubeJsRegistrar extends BasicDataHolder<KubeJsRegistrar> {
         const blockContent = REGISTRATION_TEMPLATE.replace("{type}", "\"block\"").replace("{content}", this.blocks.join("\n"));
         const content = [toolTierContent, armorTierContent, itemContent, blockContent].join("\n");
         fs.writeFileSync(path, content);
+
+        function buildTagContent(tags: string[]) {
+            return tags.map(tag => `event.add("${tag}", "${tag}");`).join("\n");
+        }
+
+        const serverPath = kubejsServerScriptsPath();
+        const serverFolder = `${serverPath}/${this.internalNamespace}`;
+        ensureFolderExists(serverFolder);
+        const tagsPathFile = `${serverFolder}/tags.js`;
+        const tagsFileContent = TAG_REGISTRATION_TEMPLATE.replace("{content}", buildTagContent(this.repairTags));
+        fs.writeFileSync(tagsPathFile, tagsFileContent);
     }
 }
