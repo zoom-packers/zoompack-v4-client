@@ -2,7 +2,7 @@ function armor (value) {
     return {
         requirements: {
             WEAR: {
-                endurance: value
+                combat: value
             }
         }
     }
@@ -12,10 +12,10 @@ function sword (value) {
     return {
         requirements: {
             WEAPON: {
-                swordsmanship: value
+                swordsmanship: value,
             },
             WEAR: {
-                swordsmanship: value,
+                wear: 0
             },
             TOOL: {
                 farming : 0
@@ -33,7 +33,13 @@ function axe (value) {
             WEAPON: {
                 swordsmanship: value
             },
+            USE: {
+                woodcutting: value
+            },
             WEAR: {
+                wear: 0
+            },
+            INTERACT: {
                 woodcutting: value
             }
         }
@@ -47,7 +53,7 @@ function tool(skill, value) {
                 [skill]: value
             },
             WEAR: {
-                [skill]: value
+                wear: 0
             },
             WEAPON: {
                 combat: 0

@@ -4,7 +4,7 @@
             "swordsmanship": 100
         },
         "WEAR": {
-            "swordsmanship": 100
+            "wear": 0
         },
         "TOOL": {
             "farming": 0

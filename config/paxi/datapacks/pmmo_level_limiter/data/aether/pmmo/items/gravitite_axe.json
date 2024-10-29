@@ -6,7 +6,13 @@
         "WEAPON": {
             "swordsmanship": 39
         },
+        "USE": {
+            "woodcutting": 39
+        },
         "WEAR": {
+            "wear": 0
+        },
+        "INTERACT": {
             "woodcutting": 39
         }
     },
