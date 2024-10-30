@@ -367,6 +367,15 @@ new_axe_config("theabyss","incorythe", 628, attack_speed=-0.7) #644
 # Custom item attributes config generator
 # ////////////////////////////////////////////////////////////////////
 
+# Special section
+# Item.of('irons_spellbooks:gold_crown', '{Damage:0}')
+new_item_config("irons_spellbooks", "gold_crown", 'helmet', [
+                ("irons_spellbooks:cooldown_reduction", -0.5, 'MULTIPLY_BASE'),
+                ('irons_spellbooks:max_mana', -9800, 'ADDITION'),
+                ('irons_spellbooks:spell_power', -0.8, 'MULTIPLY_BASE')
+            ], cosmetic=False)
+
+
 # OW
 new_armor_set_config("minecraft", "iron", [0,0,0,0], 0.0, 0.0, hp_tier=2)
 new_sword_config("kobolds", "kobold_iron", 1)
