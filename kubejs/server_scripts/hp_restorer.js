@@ -6,27 +6,13 @@ PlayerEvents.loggedOut(event => {
 
 PlayerEvents.loggedIn(event => {
     let player = event.player;
-});
-let hpRestorerPlayerTicks = {};
+    let persistentData = player.persistentData;
+    let hp_to_restore = persistentData.getFloat("hp_to_restore");
 
-PlayerEvents.tick(event => {
-    let player = event.player;
-    let uuid = player.uuid;
-    if (!hpRestorerPlayerTicks[uuid]) {
-        hpRestorerPlayerTicks[uuid] = 0;
-    }
-    if (hpRestorerPlayerTicks[uuid] < 0) {
-        return;
-    }
-    hpRestorerPlayerTicks[uuid]++;
-
-    if (hpRestorerPlayerTicks[uuid] >= 20) {
-        let persistentData = player.persistentData;
-        let hp_to_restore = persistentData.getFloat("hp_to_restore");
-        if (hp_to_restore) {
-            hpRestorerPlayerTicks[uuid] = -1;
+    if (hp_to_restore) {
+        event.server.scheduleInTicks(20, () => {
             player.health = hp_to_restore;
             persistentData.remove("hp_to_restore");
-        }
+        });
     }
 });
