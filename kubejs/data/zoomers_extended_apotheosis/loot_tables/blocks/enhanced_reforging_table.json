@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "zoomers_extended_apotheosis:enhanced_reforging_table"
+                }
+            ]
+        }
+    ]
+}
