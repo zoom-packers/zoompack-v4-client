@@ -1,6 +1,6 @@
 let pmmoWarnTicks = {}
 let pmmoWarnLastSendTimes = {}
-let pmmoWarnTimeBetweenMessage = 1000 * 5; // 10 seconds
+let pmmoWarnTimeBetweenMessage = 1000 * 5; // 5 seconds
 
 PlayerEvents.inventoryChanged(event => {
     
@@ -29,7 +29,7 @@ PlayerEvents.inventoryChanged(event => {
             hasSlowness2 = true;
         }
     }
-    
+
     if (hasWeakness2 && hasMiningFatigue2 && hasSlowness2) {
         let now = Date.now();
 
