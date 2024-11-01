@@ -6,9 +6,15 @@ function setPlayerInCombat(player){
 let rpgHealingTickInterval = 20;
 let rpgHealingTimer = 0;
 
-ServerEvents.tick((event) => {
-    rpgHealingTimer++;
-    if (rpgHealingTimer > rpgHealingTickInterval) {
+EntityEvents.hurt(event=>{
+    if (event.entity.type == 'minecraft:player') {
+        let player = event.entity;
+        setPlayerInCombat(player);
+    }
+})
+
+function healPlayers(event){
+    event.server.scheduleInTicks(rpgHealingTickInterval, callback => {
         event.server.players.forEach(player => {
             if (!player.persistentData.lastDamageTime) {
                 player.persistentData.lastDamageTime = 0;
@@ -24,13 +30,11 @@ ServerEvents.tick((event) => {
                 player.heal(healAmount);
             }
         });
-        rpgHealingTimer = 0;
-    }
-});
 
-EntityEvents.hurt(event=>{
-    if (event.entity.type == 'minecraft:player') {
-        let player = event.entity;
-        setPlayerInCombat(player);
-    }
+        healPlayers(event);
+    });
+}
+
+ServerEvents.loaded(event => {
+    healPlayers(event);
 })
