@@ -34,7 +34,7 @@
         },
         "block_condition": {
             "type": "origins:in_tag",
-            "tag": "forge:ores"
+            "tag": "zoompack:ores"
         }
     },
     "miner_stone_break_speed1": {
@@ -70,7 +70,7 @@
         },
         "block_condition": {
             "type": "origins:in_tag",
-            "tag": "forge:ores"
+            "tag": "zoompack:ores"
         }
     },
     "miner_stone_break_speed2": {
@@ -106,7 +106,7 @@
         },
         "block_condition": {
             "type": "origins:in_tag",
-            "tag": "forge:ores"
+            "tag": "zoompack:ores"
         }
     },
     "miner_stone_break_speed3": {
@@ -142,7 +142,7 @@
         },
         "block_condition": {
             "type": "origins:in_tag",
-            "tag": "forge:ores"
+            "tag": "zoompack:ores"
         }
     },
     "miner_stone_break_speed4": {
@@ -178,7 +178,7 @@
         },
         "block_condition": {
             "type": "origins:in_tag",
-            "tag": "forge:ores"
+            "tag": "zoompack:ores"
         }
     }
 }
