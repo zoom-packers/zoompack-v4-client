@@ -37,19 +37,19 @@
           "leggings"
         ]
       },
-      "attribute": "forge:entity_gravity",
-      "operation": "MULTIPLY_TOTAL",
+      "attribute": "attributeslib:dodge_chance",
+      "operation": "ADDITION",
       "values": {
-        "common": 0.1,
-        "uncommon": 0.25,
-        "rare": 0.45,
-        "epic": 0.65,
-        "mythic": 0.85,
-        "ancient": 2.6,
-        "custom_0": 1.06,
-        "custom_1": 1.33,
-        "custom_2": 1.66,
-        "custom_3": 2.08
+        "common": 0.005,
+        "uncommon": 0.01,
+        "rare": 0.015,
+        "epic": 0.02,
+        "mythic": 0.025,
+        "ancient": 0.08,
+        "custom_0": 0.03,
+        "custom_1": 0.04,
+        "custom_2": 0.05,
+        "custom_3": 0.06
       }
     },
     {

@@ -40,16 +40,16 @@
       "attribute": "forge:entity_gravity",
       "operation": "MULTIPLY_TOTAL",
       "values": {
-        "common": -0.1,
-        "uncommon": -0.25,
-        "rare": -0.45,
-        "epic": -0.65,
-        "mythic": -0.85,
-        "ancient": -2.57,
-        "custom_0": -1.06,
-        "custom_1": -1.32,
-        "custom_2": -1.65,
-        "custom_3": -2.06
+        "common": -0.025,
+        "uncommon": -0.05,
+        "rare": -0.075,
+        "epic": -0.1,
+        "mythic": -0.125,
+        "ancient": -0.39,
+        "custom_0": -0.16,
+        "custom_1": -0.2,
+        "custom_2": -0.25,
+        "custom_3": -0.31
       }
     },
     {
