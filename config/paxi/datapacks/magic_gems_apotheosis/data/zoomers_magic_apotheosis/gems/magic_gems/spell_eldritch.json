@@ -23,16 +23,16 @@
 			"attribute": "irons_spellbooks:eldritch_spell_power",
 			"operation": "MULTIPLY_TOTAL",
 			"values": {
-				"common": 0.025,
-				"uncommon": 0.03,
-				"rare": 0.035,
-				"epic": 0.04,
-				"mythic": 0.045,
-				"ancient": 0.1,
-				"custom_0": 0.05,
-				"custom_1": 0.06,
-				"custom_2": 0.07,
-				"custom_3": 0.08
+				"common": 0.05,
+				"uncommon": 0.06,
+				"rare": 0.07,
+				"epic": 0.08,
+				"mythic": 0.09,
+				"ancient": 0.2,
+				"custom_0": 0.1,
+				"custom_1": 0.12,
+				"custom_2": 0.14,
+				"custom_3": 0.16
 			}
 		},
 		{
