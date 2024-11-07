@@ -113,7 +113,7 @@ def new_item_config(mod_id, item_id, item_type, mod_map, cosmetic=False):
 
     new_item_config = {"item": f"{mod_id}:{item_id}"}
     
-    if item_type in ['sword', 'bow']:
+    if item_type in ['sword', 'bow', 'axe']:
         new_item_config["overrides_main_hand"] = overrides
     elif item_type == 'helmet':
         new_item_config["overrides_head"] = overrides
@@ -244,6 +244,16 @@ def new_sword_config(mod_id, material_prefix, damage, full_id=False, attack_spee
 
     new_item_config(mod_id,f"{material_prefix}_sword" if not full_id else material_prefix,'sword',attr_config)
 
+def new_axe_config(mod_id, material_prefix, damage, full_id=False, attack_speed = 0.0):
+    # Axes are set based on DPS, however they require a third more materials, hence damage is *1.15
+    attr_config = {
+        "minecraft:generic.attack_damage" : (damage*1.15,'ADDITION'),
+    }
+    if attack_speed!=0:
+        attr_config['minecraft:generic.attack_speed'] = (attack_speed,'ADDITION')
+
+    new_item_config(mod_id,f"{material_prefix}_axe" if not full_id else material_prefix,'axe',attr_config)
+
 def create_directory(path):
     os.makedirs(path, exist_ok=True)
 
@@ -303,11 +313,72 @@ for piece in ['helmet', 'chestplate', 'leggings', 'boots']:
         new_cosmetic_armor_config('nether_armory', f'{armor_prefix}_armor_{piece}', piece)
 
 
+# AXES!
+# OW
+new_axe_config("minecraft", "wooden", -0.6, attack_speed=0.2) #6.4
+new_axe_config("minecraft", "golden", -0.6) #6.4
+new_axe_config("minecraft", "iron", 0.6, attack_speed=0.1) #9.6
+new_axe_config("kobolds", "kobold_iron", 2.8) #10.8
+new_axe_config("minecraft", "diamond", 1.2) # 11.2
+new_axe_config("aquaculture", "neptunium", 8.1) # 17.6
+# BS
+new_axe_config("blue_skies", "pyrope", 1.1) # 9.6
+new_axe_config("blue_skies", "aquite", 3.8, attack_speed=0.1) # 12.8
+new_axe_config("blue_skies", "diopside", 2.4, attack_speed=0.5) # 14.4
+new_axe_config("blue_skies", "charoite", 7.0) # 16
+new_axe_config("blue_skies", "horizonite", 7.8) # 16.8
+# ET
+new_axe_config("aether", "zanite", 8.6) # 16.8
+new_axe_config("aether", "gravitite", 10.2) # 19.2
+new_axe_config("aether", "valkyrie", 11.4, attack_speed=0.3) # 22.4
+
+# NT
+new_axe_config("betternether", "cincinnasite", 17.7, attack_speed=-0.1) #27.2
+new_axe_config("betternether", "cincinnasite_axe_diamond", 20.7, full_id=True, attack_speed=-0.3) #30.4
+new_axe_config("betternether", "nether_ruby", 26.1, attack_speed=-0.2) #35.2
+new_axe_config("betternether", "flaming_ruby", 29.6, attack_speed=-0.4) #41.6
+new_axe_config("minecraft", "netherite", 50.8) # 60.8
+
+# UG
+new_axe_config("undergarden", "cloggrum", 88.6, attack_speed=0.1) # 97.6
+new_axe_config("undergarden", "froststeel", 104.6) # 113.6
+new_axe_config("undergarden", "utherium", 120.1) # 129.6
+new_axe_config("undergarden", "forgotten", 136.6) # 145.6
+new_axe_config("call_of_yucutan", "jade", 131.3) # 140.8
+
+# END
+new_axe_config("phantasm", "crystalline", 136.6) # 145.6
+new_axe_config("ender_dragon_loot_", "dragon", 170.2, attack_speed=-0.2) # 179.2
+new_axe_config("enderitemod", "enderite", 227.4) # 238.4
+
+# DEPTH
+new_axe_config("callfromthedepth_","immemorialaxe", 276, full_id=True) #288
+
+# Abyss
+new_axe_config("theabyss","bone", 384.5, attack_speed=-0.2) #392
+new_axe_config("theabyss","fusion", 355.4, attack_speed=-0.4) #366.4
+new_axe_config("theabyss","aberythe", 370.8, attack_speed=-0.2) #380.8
+new_axe_config("theabyss","knight", 455.6, attack_speed=-0.5) #473.6
+new_axe_config("theabyss","garnite", 483.1, attack_speed=-0.4) #493.6
+new_axe_config("theabyss","phantom", 518, attack_speed=-0.7) #528
+new_axe_config("theabyss","unorithe", 564.6, attack_speed=-0.5) #577.6
+new_axe_config("theabyss","incorythe", 628, attack_speed=-0.7) #644
+
 # Custom item attributes config generator
 # ////////////////////////////////////////////////////////////////////
 
+# Special section
+# Item.of('irons_spellbooks:gold_crown', '{Damage:0}')
+new_item_config("irons_spellbooks", "gold_crown", 'helmet', [
+                ("irons_spellbooks:cooldown_reduction", -0.5, 'MULTIPLY_BASE'),
+                ('irons_spellbooks:max_mana', -9800, 'ADDITION'),
+                ('irons_spellbooks:spell_power', -0.8, 'MULTIPLY_BASE')
+            ], cosmetic=False)
+
+
 # OW
 new_armor_set_config("minecraft", "iron", [0,0,0,0], 0.0, 0.0, hp_tier=2)
+new_sword_config("kobolds", "kobold_iron", 1)
 new_armor_set_config("create_sa", "brass", [0,0,0,0], 0.0, -0.09, hp_tier=2)
 new_armor_set_config("create_sa", "brass_jetpack", [0,0,0,0], 0.0, -0.09, hp_tier=2)
 new_armor_set_config("create_sa", "brass_exoskeleton", [0,0,0,0], 0.0, -0.09, hp_tier=2)
