@@ -1,4 +1,4 @@
-import {KubeJsRegistrar} from "./kubeJsRegistrar";
+import {KubeJsRegistrar, KubeJsTagger} from "./kubeJsRegistrar";
 import {KubeJsRecipes} from "./kubeJsRecipes";
 import {BasicDataHolder} from "../selfWritingJson";
 
@@ -9,6 +9,7 @@ import {KubeJsArmory} from "./kubeJsArmory";
 export class KubeJSContainer extends BasicDataHolder<KubeJSContainer> {
     registrar: KubeJsRegistrar;
     recipes: KubeJsRecipes;
+    tagger: KubeJsTagger;
     loot: KubeJsLoot;
     armory: KubeJsArmory;
     harvestLevelTweaker: HarvestLevelTweaker;
@@ -17,6 +18,7 @@ export class KubeJSContainer extends BasicDataHolder<KubeJSContainer> {
         super();
         this.registrar = new KubeJsRegistrar();
         this.recipes = new KubeJsRecipes();
+        this.tagger = new KubeJsTagger();
         this.loot = new KubeJsLoot();
         this.armory = new KubeJsArmory();
         this.harvestLevelTweaker = new HarvestLevelTweaker();
@@ -25,6 +27,7 @@ export class KubeJSContainer extends BasicDataHolder<KubeJSContainer> {
     writeFiles() {
         this.registrar.writeToFile();
         this.recipes.writeToFile();
+        this.tagger.writeToFile();
         this.loot.writeToFile();
         this.armory.writeToFile();
         this.harvestLevelTweaker.writeToFile();
@@ -33,6 +36,7 @@ export class KubeJSContainer extends BasicDataHolder<KubeJSContainer> {
     withNamespace(namespace: string): KubeJSContainer {
         this.registrar.withNamespace(namespace);
         this.recipes.withNamespace(namespace);
+        this.tagger.withNamespace(namespace);
         this.loot.withNamespace(namespace);
         this.armory.withNamespace(namespace);
         this.harvestLevelTweaker.withNamespace(namespace);

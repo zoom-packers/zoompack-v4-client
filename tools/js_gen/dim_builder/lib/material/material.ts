@@ -11,6 +11,7 @@ import {ExistingOre} from "./existingOre";
 
 export class Material extends BasicDataHolder<Material> {
     color: string = "#ffffff";
+    brightnessBoost: number = 0;
     ore: Ore;
     existingOre: ExistingOre;
     level: number = 2; // 0 is Wood, 1 is Stone, 2 is Iron, 3 is Diamond, 4 is Netherite, 5 is Custom
@@ -49,6 +50,11 @@ export class Material extends BasicDataHolder<Material> {
 
     withColor(color: string): Material {
         this.color = color;
+        return this;
+    }
+
+    withBrightnessBoost(brightnessBoost: number): Material {
+        this.brightnessBoost = brightnessBoost;
         return this;
     }
 

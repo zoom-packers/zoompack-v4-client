@@ -2,10 +2,11 @@ import {CiaModifierBuilder, operation} from "./lib/cia/util";
 import {attribute_minecraft, attribute_projectile_damage} from "../typedefs/attribute_typedefs";
 import {ArmorVariant, ChromaCreator} from "./lib/material/ArmoryTypes";
 import {createHealthPerLevelAttributes} from "./lib/armory/polymorphArmoryVariants";
-import {SimpleArmorArmoryEntry} from "./lib/material/geckoArmorArmoryEntry";
+import {GeckoArmorArmoryEntry, SimpleArmorArmoryEntry} from "./lib/material/geckoArmorArmoryEntry";
 import path from "path";
 
 const archerAssetsPath = path.join("mc", "assets", "_custom");
+const archerGeoPath = path.join(archerAssetsPath, "geo");
 const archerModelPath = path.join(archerAssetsPath, "models", "armor");
 const archerArmorTexturePath = path.join(archerAssetsPath, "textures", "armor");
 const archerItemTexturePath = path.join(archerAssetsPath, "textures");
@@ -158,8 +159,11 @@ const rangerBootsVariant: ArmorVariant = {
 const archerVariants = [archerHelmetVariant, archerChestplateVariant, archerLeggingsVariant, archerBootsVariant];
 const rangerVariants = [rangerHelmetVariant, rangerChestplateVariant, rangerLeggingsVariant, rangerBootsVariant];
 
-export const archerCustomArmory = new SimpleArmorArmoryEntry(archerVariants)
+export const archerCustomArmory = new GeckoArmorArmoryEntry(archerVariants)
     .withArmorId("archer")
+    .withGeoPaths([
+        path.join(archerGeoPath, "archer_armor.geo.json"),
+    ])
     .withModelPaths([
         path.join(archerModelPath, "archer_helmet.json"),
         path.join(archerModelPath, "archer_chestplate.json"),
@@ -175,15 +179,18 @@ export const archerCustomArmory = new SimpleArmorArmoryEntry(archerVariants)
     .withAdditionalTextures([
         {
             path: path.join(archerArmorTexturePath, "archer_armor.png"),
-            resultFileName: "{material}_archer_layer_1.png"
+            resultFileName: "{material}_archer_armor.png"
         }
         ])
     .withMaterialChromaKeyOperations([
-        ChromaCreator.create("#3B3047", "#000000", 0.1, "linear"),
+        ChromaCreator.create("#36583a", "#000000", 0.1, "linear"),
     ]);
 
-export const rangerCustomArmory = new SimpleArmorArmoryEntry(rangerVariants)
+export const rangerCustomArmory = new GeckoArmorArmoryEntry(rangerVariants)
     .withArmorId("ranger")
+    .withGeoPaths([
+        path.join(archerGeoPath, "ranger_armor.geo.json"),
+    ])
     .withModelPaths([
         path.join(archerModelPath, "ranger_helmet.json"),
         path.join(archerModelPath, "ranger_chestplate.json"),
@@ -199,10 +206,10 @@ export const rangerCustomArmory = new SimpleArmorArmoryEntry(rangerVariants)
     .withAdditionalTextures([
         {
             path: path.join(archerArmorTexturePath, "ranger_armor.png"),
-            resultFileName: "{material}_ranger_layer_1.png"
+            resultFileName: "{material}_ranger_armor.png"
         }
         ])
     .withMaterialChromaKeyOperations([
-        ChromaCreator.create("#2A6235", "#000000", 0.15, "linear"),
+        ChromaCreator.create("#ac0d00", "#000000", 0.05, "linear"),
     ]);
 

@@ -4,6 +4,7 @@ import {BasicDataHolder} from "../selfWritingJson";
 import {ensureFolderExists, kubejsServerScriptsPath, kubejsStartupScriptsPath} from "../utils";
 import {KubeJSBlock, KubeJsItem} from "./kubeJsItem";
 import {GENERAL_DURABILITY_MULTIPLIER, PER_TIER_MULTIPLIER} from "../material/armory";
+import {CiaModifier} from "../cia/util";
 
 export const REGISTRATION_TEMPLATE =`
 StartupEvents.registry({type}, e => {
@@ -58,6 +59,7 @@ export class KubeJsRegistrar extends BasicDataHolder<KubeJsRegistrar> {
     toolTiers: string[] = [];
     armorTiers: string[] = [];
     repairTags: string[] = [];
+    curios: string[] = [];
 
     registerBlock(id: string, displayName: string) {
         this.blocks.push(new KubeJSBlock().withId(id).withDisplayName(displayName).toString());
@@ -77,6 +79,10 @@ export class KubeJsRegistrar extends BasicDataHolder<KubeJsRegistrar> {
 
     registerTieredItem(id: string, type: string, displayName: string, tier: string) {
         this.items.push(new KubeJsItem().withId(id).withType(type).withDisplayName(displayName).withTier(tier).toString());
+    }
+
+    registerCurioVariant(id: string, displayName: string, attributes: CiaModifier[]) {
+        this.curios.push(`global.createCurio(e, "${id}", "${displayName}", ${JSON.stringify(attributes)});`);
     }
 
     registerToolTier(id: string, uses: number, speed: number, attackDamageBonus: number, level: number, enchantmentValue: number, repairIngredient: string) {
@@ -125,7 +131,7 @@ export class KubeJsRegistrar extends BasicDataHolder<KubeJsRegistrar> {
         const path = `${folder}/registrar.js`;
         const toolTierContent = TOOL_TIER_REGISTRY_TEMPLATE.replace("{content}", this.toolTiers.join("\n"));
         const armorTierContent = ARMOR_TIER_REGISTRY_TEMPLATE.replace("{content}", this.armorTiers.join("\n"));
-        const itemContent = REGISTRATION_TEMPLATE.replace("{type}", "\"item\"").replace("{content}", this.items.join("\n"));
+        const itemContent = REGISTRATION_TEMPLATE.replace("{type}", "\"item\"").replace("{content}", this.items.join("\n") + "\n" + this.curios.join("\n"));
         const blockContent = REGISTRATION_TEMPLATE.replace("{type}", "\"block\"").replace("{content}", this.blocks.join("\n"));
         const content = [toolTierContent, armorTierContent, itemContent, blockContent].join("\n");
         fs.writeFileSync(path, content);
@@ -140,5 +146,27 @@ export class KubeJsRegistrar extends BasicDataHolder<KubeJsRegistrar> {
         const tagsPathFile = `${serverFolder}/tags.js`;
         const tagsFileContent = TAG_REGISTRATION_TEMPLATE.replace("{content}", buildTagContent(this.repairTags));
         fs.writeFileSync(tagsPathFile, tagsFileContent);
+    }
+}
+
+export class KubeJsTagger extends BasicDataHolder<KubeJsTagger> {
+    tags: { [key: string]: string[] } = {};
+
+    tagItem(item: string, tag: string) {
+        if (!this.tags[tag]) {
+            this.tags[tag] = [];
+        }
+        this.tags[tag].push(item);
+    }
+
+    writeToFile() {
+        const kjsPath = kubejsServerScriptsPath();
+        const folder = `${kjsPath}/${this.internalNamespace}`;
+        ensureFolderExists(folder);
+        const path = `${folder}/tags.js`;
+        const content = Object.keys(this.tags).map(tag => `ServerEvents.tags('item', event => {
+${this.tags[tag].map(item => `  event.add("${tag}", "${item}");`).join("\n")}
+});`).join("\n");
+        fs.writeFileSync(path, content);
     }
 }

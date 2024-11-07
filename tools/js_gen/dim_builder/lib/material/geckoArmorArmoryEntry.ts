@@ -59,7 +59,11 @@ export class GeckoArmorArmoryEntry extends CustomArmoryEntry{
             const textures = fileJson.textures;
             const keys = Object.keys(textures);
             for (const key of keys) {
-                textures[key] = `${modId}:item/${itemId}`;
+                if (textures[key].endsWith("_overlay")) {
+                    textures[key] = `${modId}:item/${itemId}_overlay`;
+                } else {
+                    textures[key] = `${modId}:item/${itemId}`;
+                }
             }
             const newContent = JSON.stringify(fileJson, null, 4);
             ensureFolderExists(modelFolderPath);
@@ -96,7 +100,8 @@ export class GeckoArmorArmoryEntry extends CustomArmoryEntry{
                     colorToReplace: materialChromaKeyOperation.colorToReplace,
                     tolerance: materialChromaKeyOperation.tolerance,
                     function: materialChromaKeyOperation.function,
-                    replaceWith: material.color
+                    replaceWith: material.color,
+                    brightness: material.brightnessBoost !== 0 ? material.brightnessBoost : undefined
                 }
             );
         }

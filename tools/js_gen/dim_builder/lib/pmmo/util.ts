@@ -173,6 +173,7 @@ const item_functions = {
     "crossbow": bow,
     "offhand": offhand,
     "staff": staff,
+    "curio": armor,
 }
 const tool_skills = {
     "pickaxe": "mining",

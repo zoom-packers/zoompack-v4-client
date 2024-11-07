@@ -1,8 +1,8 @@
 import {
     ArmorVariant,
     BaseVariant,
-    BowVariant,
-    CrossbowVariant,
+    BowVariant, ChromaCreator, ChromaKeyOperation,
+    CrossbowVariant, CurioVariant,
     ShieldVariant,
     SwordVariant,
     ToolVariant
@@ -11,8 +11,9 @@ import {CiaModifier, CiaModifierBuilder, operation} from "../cia/util";
 import {
     attribute_attributeslib,
     attribute_irons_spellbooks,
-    attribute_minecraft
+    attribute_minecraft, attribute_projectile_damage
 } from "../../../typedefs/attribute_typedefs";
+import {item_irons_spellbooks} from "../../../typedefs/item_typedefs";
 
 
 export function createHealthPerLevelAttributes(piece: 'helmet' | 'chestplate' | 'leggings' | 'boots', tier: 'light' | 'medium' | 'heavy'): CiaModifier[] {
@@ -891,6 +892,257 @@ export class PolymorphArmoryVariants {
     ];
     //#endregion
 
+    //#region CURIOS
+
+    private static createRingChroma(baseColor: string, accentColor: string): ChromaKeyOperation[] {
+        return [
+            ChromaCreator.create("#a72331", accentColor, 0.15, "linear"),
+            ChromaCreator.create("#009400", baseColor, 0.15, "linear"),
+        ]
+    }
+
+    private static createNecklaceChroma(baseColor: string, accentColor: string): ChromaKeyOperation[] {
+        return [
+            ChromaCreator.create("#af0000", accentColor, 0.15, "linear"),
+            ChromaCreator.create("#009400", baseColor, 0.15, "linear"),
+        ]
+    }
+
+    private static readonly MANA_RING_VARIANT: CurioVariant = {
+        id: "mana_ring",
+        type: "curio",
+        slot: "ring",
+        displayName: "Mana Ring",
+        recipe: ["", "material", "", "material", item_irons_spellbooks.i_arcane_rune, "material", "", "material", ""],
+        durabilityMultiplier: 1,
+        modelType: "normal",
+        pmmoSkill: "magic",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_max_mana, operation.ADDITION, 5),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_max_mana, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_mana_regen, operation.ADDITION, 0.015),
+        ],
+        textureGenDetails: {
+            textureName: "ring_1.png",
+            chromaKeyOperations: PolymorphArmoryVariants.createRingChroma("#000000", "#21a9bf")
+        }
+    }
+
+    private static readonly DEXTERITY_RING_VARIANT: CurioVariant = {
+        id: "dexterity_ring",
+        type: "curio",
+        slot: "ring",
+        displayName: "Dexterity Ring",
+        recipe: ["", "material", "", "material", item_irons_spellbooks.i_lightning_rune, "material", "", "material", ""],
+        durabilityMultiplier: 1,
+        modelType: "normal",
+        pmmoSkill: "archery",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.ADDITION, 1),
+            CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 1),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.01),
+        ],
+        textureGenDetails: {
+            textureName: "ring_1.png",
+            chromaKeyOperations: PolymorphArmoryVariants.createRingChroma("#000000", "#50bf21")
+        }
+    }
+
+    private static readonly BERSERKER_RING_VARIANT: CurioVariant = {
+        id: "berserker_ring",
+        type: "curio",
+        slot: "ring",
+        displayName: "Berserker Ring",
+        recipe: ["", "material", "", "material", item_irons_spellbooks.i_fire_rune, "material", "", "material", ""],
+        durabilityMultiplier: 1,
+        modelType: "normal",
+        pmmoSkill: "combat",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_attack_damage, operation.ADDITION, 1),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_attack_damage, operation.MULTIPLY_BASE, 0.01),
+        ],
+        textureGenDetails: {
+            textureName: "ring_1.png",
+            chromaKeyOperations: PolymorphArmoryVariants.createRingChroma("#000000", "#bf6521")
+        }
+    }
+
+    private static readonly FORTIFIED_RING_VARIANT: CurioVariant = {
+        id: "fortified_ring",
+        type: "curio",
+        slot: "ring",
+        displayName: "Fortified Ring",
+        recipe: ["", "material", "", "material", item_irons_spellbooks.i_protection_rune, "material", "", "material", ""],
+        durabilityMultiplier: 1,
+        modelType: "normal",
+        pmmoSkill: "endurance",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_armor, operation.ADDITION, 1),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_armor, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_armor_toughness, operation.ADDITION, 1),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_armor_toughness, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_knockback_resistance, operation.ADDITION, 1),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_knockback_resistance, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_max_health, operation.ADDITION, 1),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_max_health, operation.MULTIPLY_BASE, 0.01),
+        ],
+        textureGenDetails: {
+            textureName: "ring_1.png",
+            chromaKeyOperations: PolymorphArmoryVariants.createRingChroma("#000000", "#bf2121")
+        }
+    }
+
+    private static readonly INFUSED_RING_VARIANT: CurioVariant = {
+        id: "infused_ring",
+        type: "curio",
+        slot: "ring",
+        displayName: "Infused Ring",
+        recipe: ["", "material", "", "material", item_irons_spellbooks.i_cooldown_rune, "material", "", "material", ""],
+        durabilityMultiplier: 1,
+        modelType: "normal",
+        pmmoSkill: "magic",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_spell_power, operation.ADDITION, 0.01),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_spell_power, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_cast_time_reduction, operation.ADDITION, 0.01),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_cooldown_reduction, operation.ADDITION, 0.01),
+        ],
+        textureGenDetails: {
+            textureName: "ring_1.png",
+            chromaKeyOperations: PolymorphArmoryVariants.createRingChroma("#000000", "#a8c9ce")
+        }
+    }
+
+    public static readonly RINGS: CurioVariant[] = [
+        PolymorphArmoryVariants.MANA_RING_VARIANT,
+        PolymorphArmoryVariants.DEXTERITY_RING_VARIANT,
+        PolymorphArmoryVariants.BERSERKER_RING_VARIANT,
+        PolymorphArmoryVariants.FORTIFIED_RING_VARIANT,
+        PolymorphArmoryVariants.INFUSED_RING_VARIANT
+    ];
+
+    private static readonly MANA_NECKLACE_VARIANT: CurioVariant = {
+        id: "mana_necklace",
+        type: "curio",
+        slot: "necklace",
+        displayName: "Mana Necklace",
+        recipe: ["material", "", "material", "material", "", "material", "", item_irons_spellbooks.i_arcane_rune, ""],
+        durabilityMultiplier: 1,
+        modelType: "normal",
+        pmmoSkill: "magic",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_max_mana, operation.ADDITION, 7.5),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_max_mana, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_mana_regen, operation.ADDITION, 0.015),
+        ],
+        textureGenDetails: {
+            textureName: "necklace_1.png",
+            chromaKeyOperations: PolymorphArmoryVariants.createNecklaceChroma("#000000", "#21a9bf")
+        }
+    }
+
+    private static readonly DEXTERITY_NECKLACE_VARIANT: CurioVariant = {
+        id: "dexterity_necklace",
+        type: "curio",
+        slot: "necklace",
+        displayName: "Dexterity Necklace",
+        recipe: ["material", "", "material", "material", "", "material", "", item_irons_spellbooks.i_lightning_rune, ""],
+        durabilityMultiplier: 1,
+        modelType: "normal",
+        pmmoSkill: "archery",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.ADDITION, 1.5),
+            CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 1.5),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.01),
+        ],
+        textureGenDetails: {
+            textureName: "necklace_1.png",
+            chromaKeyOperations: PolymorphArmoryVariants.createNecklaceChroma("#000000", "#50bf21")
+        }
+    }
+
+    private static readonly BERSERKER_NECKLACE_VARIANT: CurioVariant = {
+        id: "berserker_necklace",
+        type: "curio",
+        slot: "necklace",
+        displayName: "Berserker Necklace",
+        recipe: ["material", "", "material", "material", "", "material", "", item_irons_spellbooks.i_fire_rune, ""],
+        durabilityMultiplier: 1,
+        modelType: "normal",
+        pmmoSkill: "combat",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_attack_damage, operation.ADDITION, 1.5),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_attack_damage, operation.MULTIPLY_BASE, 0.01),
+        ],
+        textureGenDetails: {
+            textureName: "necklace_1.png",
+            chromaKeyOperations: PolymorphArmoryVariants.createNecklaceChroma("#000000", "#bf6521")
+        }
+    }
+
+    private static readonly FORTIFIED_NECKLACE_VARIANT: CurioVariant = {
+        id: "fortified_necklace",
+        type: "curio",
+        slot: "necklace",
+        displayName: "Fortified Necklace",
+        recipe: ["material", "", "material", "material", "", "material", "", item_irons_spellbooks.i_protection_rune, ""],
+        durabilityMultiplier: 1,
+        modelType: "normal",
+        pmmoSkill: "endurance",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_armor, operation.ADDITION, 1.5),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_armor, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_armor_toughness, operation.ADDITION, 1.5),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_armor_toughness, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_knockback_resistance, operation.ADDITION, 1.5),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_knockback_resistance, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_max_health, operation.ADDITION, 1.5),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_max_health, operation.MULTIPLY_BASE, 0.01),
+        ],
+        textureGenDetails: {
+            textureName: "necklace_1.png",
+            chromaKeyOperations: PolymorphArmoryVariants.createNecklaceChroma("#000000", "#bf2121")
+        }
+    }
+
+    private static readonly INFUSED_NECKLACE_VARIANT: CurioVariant = {
+        id: "infused_necklace",
+        type: "curio",
+        slot: "necklace",
+        displayName: "Infused Necklace",
+        recipe: ["material", "", "material", "material", "", "material", "", item_irons_spellbooks.i_cooldown_rune, ""],
+        durabilityMultiplier: 1,
+        modelType: "normal",
+        pmmoSkill: "magic",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_spell_power, operation.ADDITION, 0.015),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_spell_power, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_cast_time_reduction, operation.ADDITION, 0.015),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_cooldown_reduction, operation.ADDITION, 0.015),
+        ],
+        textureGenDetails: {
+            textureName: "necklace_1.png",
+            chromaKeyOperations: PolymorphArmoryVariants.createNecklaceChroma("#000000", "#a8c9ce")
+        }
+    }
+
+    public static readonly NECKLACES: CurioVariant[] = [
+        PolymorphArmoryVariants.MANA_NECKLACE_VARIANT,
+        PolymorphArmoryVariants.DEXTERITY_NECKLACE_VARIANT,
+        PolymorphArmoryVariants.BERSERKER_NECKLACE_VARIANT,
+        PolymorphArmoryVariants.FORTIFIED_NECKLACE_VARIANT,
+        PolymorphArmoryVariants.INFUSED_NECKLACE_VARIANT
+    ];
+
+    public static readonly CURIOS: CurioVariant[] = [
+        ...PolymorphArmoryVariants.RINGS,
+        ...PolymorphArmoryVariants.NECKLACES
+    ];
+
+    //#endregion
+
     public static readonly ARCHERY: (BowVariant | CrossbowVariant)[] = [
         ...PolymorphArmoryVariants.BOWS,
         ...PolymorphArmoryVariants.CROSSBOWS
@@ -899,9 +1151,9 @@ export class PolymorphArmoryVariants {
     public static readonly ALL: BaseVariant[] = [
         ...PolymorphArmoryVariants.SWORDS,
         ...PolymorphArmoryVariants.SHIELDS,
-        ...PolymorphArmoryVariants.BOWS,
-        ...PolymorphArmoryVariants.CROSSBOWS,
+        ...PolymorphArmoryVariants.ARCHERY,
         ...PolymorphArmoryVariants.TOOLS,
-        ...PolymorphArmoryVariants.ARMORS
+        ...PolymorphArmoryVariants.ARMORS,
+        ...PolymorphArmoryVariants.CURIOS
     ];
 }
