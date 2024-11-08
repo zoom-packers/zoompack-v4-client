@@ -88,15 +88,15 @@
       "operation": "MULTIPLY_TOTAL",
       "values": {
         "common": 0.05,
-        "uncommon": 0.1,
-        "rare": 0.125,
-        "epic": 0.15,
-        "mythic": 0.175,
-        "ancient": 0.55,
-        "custom_0": 0.22,
-        "custom_1": 0.28,
-        "custom_2": 0.35,
-        "custom_3": 0.44
+        "uncommon": 0.075,
+        "rare": 0.1,
+        "epic": 0.125,
+        "mythic": 0.15,
+        "ancient": 0.3,
+        "custom_0": 0.175,
+        "custom_1": 0.2,
+        "custom_2": 0.225,
+        "custom_3": 0.25
       }
     }
   ]

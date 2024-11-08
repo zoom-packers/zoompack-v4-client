@@ -17,6 +17,8 @@
       },
       "operation": "multiply_total",
       "values": {
+        "common": 0.01,
+        "uncommon": 0.025,
         "rare": 0.05,
         "epic": 0.075,
         "mythic": 0.1,
@@ -77,6 +79,8 @@
         "item": "minecraft:raw_gold"
       },
       "values": {
+        "common": 0.01,
+        "uncommon": 0.02,
         "rare": 0.04,
         "epic": 0.06,
         "mythic": 0.08,

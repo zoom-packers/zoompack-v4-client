@@ -20,13 +20,15 @@ for (const folder of folders) {
             if (bonus.values === undefined) {
                 continue;
             }
-            if(!file.includes("combatant")){
-                bonus.values.custom_0 = roundToDecimal(bonus.values.mythic * 1.25, 2)
-                bonus.values.custom_1 = roundToDecimal(bonus.values.custom_0 * 1.25, 2)
-                bonus.values.custom_2 = roundToDecimal(bonus.values.custom_1 * 1.25, 2)
-                bonus.values.custom_3 = roundToDecimal(bonus.values.custom_2 * 1.25, 2)
-                bonus.values.ancient = roundToDecimal(bonus.values.custom_3 * 1.25, 2)
-            }
+
+            // TODO: all manually from now on as balancing requires a lot of precision.!!!!
+            // if(!file.includes("combatant") || !file.includes("tyrannical")){
+            //     bonus.values.custom_0 = roundToDecimal(bonus.values.mythic * 1.25, 2)
+            //     bonus.values.custom_1 = roundToDecimal(bonus.values.custom_0 * 1.25, 2)
+            //     bonus.values.custom_2 = roundToDecimal(bonus.values.custom_1 * 1.25, 2)
+            //     bonus.values.custom_3 = roundToDecimal(bonus.values.custom_2 * 1.25, 2)
+            //     bonus.values.ancient = roundToDecimal(bonus.values.custom_3 * 1.25, 2)
+            // }
             
         }
 

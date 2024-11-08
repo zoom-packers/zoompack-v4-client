@@ -20,6 +20,8 @@
       "enchantment": "sharpness",
       "must_exist": true,
       "values": {
+        "common": 1,
+        "uncommon": 1,
         "rare": 1,
         "epic": 2,
         "mythic": 3,
@@ -42,6 +44,8 @@
       "enchantment": "protection",
       "must_exist": true,
       "values": {
+        "common": 1,
+        "uncommon": 1,
         "rare": 1,
         "epic": 2,
         "mythic": 3,
@@ -64,6 +68,8 @@
       "enchantment": "fortune",
       "must_exist": true,
       "values": {
+        "common": 1,
+        "uncommon": 1,
         "rare": 1,
         "epic": 2,
         "mythic": 3,
