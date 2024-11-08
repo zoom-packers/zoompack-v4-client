@@ -1,3 +1,4 @@
+//priority: 997
 let BRONZE_COIN = 'dotcoinmod:bronze_coin';
 let SILVER_COIN = 'dotcoinmod:silver_coin';
 let GOLD_COIN = 'dotcoinmod:gold_coin';
