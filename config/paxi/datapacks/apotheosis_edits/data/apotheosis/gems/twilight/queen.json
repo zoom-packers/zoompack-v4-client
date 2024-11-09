@@ -1,87 +1,54 @@
 {
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "twilightforest"
-    }
-  ],
   "weight": 5,
   "quality": 1.5,
   "dimensions": [
-    "twilightforest:twilight_forest"
   ],
   "unique": true,
-  "min_rarity": "rare",
+  "min_rarity": "common",
   "bonuses": [
     {
-      "type": "apotheosis:twilight_fortification",
-      "gem_class": {
-        "key": "chestplate",
-        "types": [
-          "chestplate"
-        ]
-      },
-      "values": {
-        "rare": {
-          "chance": 0.05,
-          "cooldown": 6000
-        },
-        "epic": {
-          "chance": 0.1,
-          "cooldown": 5400
-        },
-        "mythic": {
-          "chance": 0.125,
-          "cooldown": 5100
-        },
-        "ancient": null,
-        "custom_0": null,
-        "custom_1": null,
-        "custom_2": null,
-        "custom_3": null
-      }
-    },
-    {
-      "type": "apotheosis:attribute",
-      "gem_class": {
-        "key": "helmet",
-        "types": [
-          "helmet"
-        ]
-      },
-      "attribute": "attributeslib:cold_damage",
-      "operation": "MULTIPLY_TOTAL",
-      "values": {
-        "rare": 0.5,
-        "epic": 0.625,
-        "mythic": 0.75,
-        "ancient": 2.31,
-        "custom_0": 0.94,
-        "custom_1": 1.18,
-        "custom_2": 1.48,
-        "custom_3": 1.85
-      }
-    },
-    {
-      "type": "apotheosis:attribute",
+      "type": "apotheosis:multi_attribute",
+      "desc": "bonus.apotheosis:multi_attr.desc.and",
       "gem_class": {
         "key": "heavy_weapon",
         "types": [
           "heavy_weapon"
         ]
       },
-      "attribute": "attributeslib:cold_damage",
-      "operation": "ADDITION",
-      "values": {
-        "rare": 6,
-        "epic": 8,
-        "mythic": 10,
-        "ancient": 30.53,
-        "custom_0": 12.5,
-        "custom_1": 15.63,
-        "custom_2": 19.54,
-        "custom_3": 24.42
-      }
+      "modifiers": [
+        {
+          "attribute": "attributeslib:cold_damage",
+          "operation": "MULTIPLY_TOTAL",
+          "values": {
+            "common": 0.15,
+            "uncommon": 0.3,
+            "rare": 0.5,
+            "epic": 0.625,
+            "mythic": 0.75,
+            "ancient": 2.31,
+            "custom_0": 0.94,
+            "custom_1": 1.18,
+            "custom_2": 1.48,
+            "custom_3": 1.85
+          }
+        },
+        {
+          "attribute": "attributeslib:cold_damage",
+          "operation": "ADDITION",
+          "values": {
+            "common": 2,
+            "uncommon": 4,
+            "rare": 6,
+            "epic": 8,
+            "mythic": 10,
+            "ancient": 30.53,
+            "custom_0": 12.5,
+            "custom_1": 15.63,
+            "custom_2": 19.54,
+            "custom_3": 24.42
+          }
+        }
+      ]
     },
     {
       "type": "apotheosis:mob_effect",
@@ -93,19 +60,59 @@
           "trident"
         ]
       },
-      "mob_effect": "twilightforest:frosted",
+      "mob_effect": "minecraft:weakness",
       "target": "arrow_target",
       "values": {
+        "common": {
+          "duration": 20,
+          "amplifier": 0,
+          "cooldown": 800
+        },
+        "uncommon": {
+          "duration": 20,
+          "amplifier": 0,
+          "cooldown": 760
+        },
+        "rare": {
+          "duration": 40,
+          "amplifier": 0,
+          "cooldown": 740
+        },
+        "epic": {
+          "duration": 40,
+          "amplifier": 0,
+          "cooldown": 720
+        },
         "mythic": {
-          "duration": 180,
-          "amplifier": 1,
+          "duration": 60,
+          "amplifier": 0,
+          "cooldown": 700
+        },
+        "ancient": {
+          "duration": 120,
+          "amplifier": 2,
           "cooldown": 500
         },
-        "ancient": null,
-        "custom_0": null,
-        "custom_1": null,
-        "custom_2": null,
-        "custom_3": null
+        "custom_0": {
+          "duration": 70,
+          "amplifier": 1,
+          "cooldown": 670
+        },
+        "custom_1": {
+          "duration": 80,
+          "amplifier": 1,
+          "cooldown": 640
+        },
+        "custom_2": {
+          "duration": 90,
+          "amplifier": 1,
+          "cooldown": 610
+        },
+        "custom_3": {
+          "duration": 100,
+          "amplifier": 1,
+          "cooldown": 580
+        }
       }
     }
   ]

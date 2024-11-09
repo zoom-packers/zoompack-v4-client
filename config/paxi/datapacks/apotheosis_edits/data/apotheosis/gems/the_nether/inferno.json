@@ -8,10 +8,9 @@
   "weight": 5,
   "quality": 1.5,
   "dimensions": [
-    "the_nether"
   ],
   "unique": true,
-  "min_rarity": "rare",
+  "min_rarity": "common",
   "bonuses": [
     {
       "type": "apotheosis:attribute",
@@ -24,6 +23,8 @@
       "attribute": "attributeslib:fire_damage",
       "operation": "ADDITION",
       "values": {
+        "common" : 2,
+        "uncommon" : 4,
         "rare": 6,
         "epic": 8,
         "mythic": 10,
@@ -46,10 +47,55 @@
       "mob_effect": "attributeslib:detonation",
       "target": "attack_target",
       "values": {
-        "mythic": {
-          "duration": 100,
+        "common": {
+          "duration": 20,
           "amplifier": 0,
-          "cooldown": 1200
+          "cooldown": 800
+        },
+        "uncommon": {
+          "duration": 20,
+          "amplifier": 0,
+          "cooldown": 760
+        },
+        "rare": {
+          "duration": 40,
+          "amplifier": 0,
+          "cooldown": 740
+        },
+        "epic": {
+          "duration": 40,
+          "amplifier": 0,
+          "cooldown": 720
+        },
+        "mythic": {
+          "duration": 60,
+          "amplifier": 0,
+          "cooldown": 700
+        },
+        "ancient": {
+          "duration": 120,
+          "amplifier": 2,
+          "cooldown": 500
+        },
+        "custom_0": {
+          "duration": 70,
+          "amplifier": 1,
+          "cooldown": 670
+        },
+        "custom_1": {
+          "duration": 80,
+          "amplifier": 1,
+          "cooldown": 640
+        },
+        "custom_2": {
+          "duration": 90,
+          "amplifier": 1,
+          "cooldown": 610
+        },
+        "custom_3": {
+          "duration": 100,
+          "amplifier": 1,
+          "cooldown": 580
         }
       }
     },
@@ -63,14 +109,16 @@
       },
       "enchantment": "apotheosis:berserkers_fury",
       "values": {
+        "common" : 1,
+        "uncommon" : 1,
         "rare": 1,
-        "epic": 1,
+        "epic": 2,
         "mythic": 2,
-        "ancient": 6.11,
-        "custom_0": 2.5,
-        "custom_1": 3.13,
-        "custom_2": 3.91,
-        "custom_3": 4.89
+        "ancient": 4,
+        "custom_0": 2,
+        "custom_1": 3,
+        "custom_2": 3,
+        "custom_3": 3
       }
     },
     {
@@ -84,14 +132,16 @@
       },
       "enchantment": "efficiency",
       "values": {
+        "common" : 1,
+        "uncommon" : 1,
         "rare": 1,
         "epic": 2,
         "mythic": 3,
-        "ancient": 9.16,
-        "custom_0": 3.75,
-        "custom_1": 4.69,
-        "custom_2": 5.86,
-        "custom_3": 7.33
+        "ancient": 4,
+        "custom_0": 2,
+        "custom_1": 3,
+        "custom_2": 3,
+        "custom_3": 3
       }
     },
     {
@@ -105,6 +155,8 @@
       "attribute": "attributeslib:fire_damage",
       "operation": "MULTIPLY_TOTAL",
       "values": {
+        "common" : 0.2,
+        "uncommon" : 0.35,
         "rare": 0.5,
         "epic": 0.625,
         "mythic": 0.75,

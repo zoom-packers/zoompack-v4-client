@@ -1,9 +1,8 @@
 {
   "weight": 5,
   "quality": 1.5,
-  "min_rarity": "epic",
+  "min_rarity": "common",
   "dimensions": [
-    "the_end"
   ],
   "unique": true,
   "bonuses": [

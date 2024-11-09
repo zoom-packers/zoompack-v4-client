@@ -2,10 +2,9 @@
   "weight": 5,
   "quality": 1.5,
   "dimensions": [
-    "minecraft:the_nether"
   ],
   "unique": true,
-  "min_rarity": "rare",
+  "min_rarity": "common",
   "bonuses": [
     {
       "type": "apotheosis:multi_attribute",

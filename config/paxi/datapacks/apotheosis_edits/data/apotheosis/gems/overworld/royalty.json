@@ -2,10 +2,9 @@
   "weight": 5,
   "quality": 1.5,
   "dimensions": [
-    "minecraft:overworld"
   ],
   "unique": true,
-  "min_rarity": "rare",
+  "min_rarity": "common",
   "bonuses": [
     {
       "type": "apotheosis:all_stats",
@@ -107,20 +106,32 @@
           "attribute": "attributeslib:prot_shred",
           "operation": "ADDITION",
           "values": {
-            "rare": 0.25,
-            "epic": 0.3,
-            "mythic": 0.35,
-            "ancient": 0.4
+            "common": 0.02,
+            "uncommon": 0.04,
+            "rare": 0.06,
+            "epic": 0.08,
+            "mythic": 0.1,
+            "ancient": 0.2,
+            "custom_0": 0.12,
+            "custom_1": 0.14,
+            "custom_2": 0.16,
+            "custom_3": 0.18
           }
         },
         {
           "attribute": "attributeslib:draw_speed",
           "operation": "MULTIPLY_TOTAL",
           "values": {
-            "rare": -0.35,
-            "epic": -0.45,
-            "mythic": -0.55,
-            "ancient": -0.65
+            "common": -0.04,
+            "uncommon": -0.08,
+            "rare": -0.12,
+            "epic": -0.16,
+            "mythic": -0.2,
+            "ancient": -0.4,
+            "custom_0": -0.24,
+            "custom_1": -0.28,
+            "custom_2": -0.32,
+            "custom_3": -0.36
           }
         }
       ]
@@ -139,20 +150,32 @@
           "attribute": "minecraft:generic.armor",
           "operation": "MULTIPLY_TOTAL",
           "values": {
-            "rare": 0.15,
-            "epic": 0.25,
-            "mythic": 0.35,
-            "ancient": 0.5
+            "common": 0.02,
+            "uncommon": 0.04,
+            "rare": 0.06,
+            "epic": 0.08,
+            "mythic": 0.1,
+            "ancient": 0.2,
+            "custom_0": 0.12,
+            "custom_1": 0.14,
+            "custom_2": 0.16,
+            "custom_3": 0.18
           }
         },
         {
           "attribute": "minecraft:generic.armor_toughness",
           "operation": "MULTIPLY_TOTAL",
           "values": {
-            "rare": 0.075,
-            "epic": 0.125,
-            "mythic": 0.225,
-            "ancient": 0.3
+            "common": 0.02,
+            "uncommon": 0.04,
+            "rare": 0.06,
+            "epic": 0.08,
+            "mythic": 0.1,
+            "ancient": 0.2,
+            "custom_0": 0.12,
+            "custom_1": 0.14,
+            "custom_2": 0.16,
+            "custom_3": 0.18
           }
         }
       ]
