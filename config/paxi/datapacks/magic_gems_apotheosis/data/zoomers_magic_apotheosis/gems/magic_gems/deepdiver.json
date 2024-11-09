@@ -102,7 +102,7 @@
                 ]
             },
             "attribute": "forge:swim_speed",
-            "operation": "MULTIPLY_BASE",
+            "operation": "MULTIPLY_TOTAL",
             "values": {
                 "common": 0.02,
                 "uncommon": 0.04,

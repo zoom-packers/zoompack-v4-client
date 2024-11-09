@@ -64,16 +64,16 @@
       "attribute": "forge:swim_speed",
       "operation": "MULTIPLY_BASE",
       "values": {
-        "common": 0.1,
-        "uncommon": 0.2,
-        "rare": 0.3,
-        "epic": 0.45,
-        "mythic": 0.6,
-        "ancient": 1.85,
-        "custom_0": 0.75,
-        "custom_1": 0.94,
-        "custom_2": 1.18,
-        "custom_3": 1.48
+        "common": 0.01,
+        "uncommon": 0.02,
+        "rare": 0.03,
+        "epic": 0.045,
+        "mythic": 0.06,
+        "ancient": 0.185,
+        "custom_0": 0.075,
+        "custom_1": 0.094,
+        "custom_2": 0.118,
+        "custom_3": 0.148
       }
     }
   ]

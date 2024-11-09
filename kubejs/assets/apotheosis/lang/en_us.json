@@ -37,6 +37,8 @@
     "affix.zoomers_magic_apotheosis:curios_jewelry/attribute/deepdiver": "Underwater Diver",
     "affix.zoomers_magic_apotheosis:curios_jewelry/attribute/deepdiver.suffix": "with Grills",
     "gem_class.spellbook": "Spellbooks",
+    "gem_class.bow": "Bows",
+    "gem_class.shovel": "Shovels",
     "gem_class.books_n_rings": "Spellbooks and Rings",
     "text.apotheosis.category.curios:spellbook.plural": "Spellbooks",
     "text.apotheosis.category.curios:ring.plural": "Rings"

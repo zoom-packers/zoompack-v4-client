@@ -1,0 +1,55 @@
+{
+    "variant": "ender",
+    "weight": 5,
+    "quality": 0,
+    "dimensions": [],
+    "unique": true,
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "chestplate",
+                "types": [
+                    "chestplate"
+                ]
+            },
+            "attribute": "attributeslib:experience_gained",
+            "operation": "MULTIPLY_TOTAL",
+            "values": {
+                "common": 0.005,
+                "uncommon": 0.01,
+                "rare": 0.015,
+                "epic": 0.02,
+                "mythic": 0.025,
+                "ancient": 0.05,
+                "custom_0": 0.03,
+                "custom_1": 0.035,
+                "custom_2": 0.04,
+                "custom_3": 0.045
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "boots",
+                "types": [
+                    "boots"
+                ]
+            },
+            "attribute": "attributeslib:experience_gained",
+            "operation": "MULTIPLY_TOTAL",
+            "values": {
+                "common": 0.005,
+                "uncommon": 0.01,
+                "rare": 0.015,
+                "epic": 0.02,
+                "mythic": 0.025,
+                "ancient": 0.05,
+                "custom_0": 0.03,
+                "custom_1": 0.035,
+                "custom_2": 0.04,
+                "custom_3": 0.045
+            }
+        }
+    ]
+}

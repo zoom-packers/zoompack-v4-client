@@ -1,0 +1,34 @@
+{
+    "variant": "evocation",
+    "weight": 5,
+    "quality": 0,
+    "dimensions": [],
+    "unique": true,
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "weapon",
+                "types": [
+                    "sword",
+                    "trident",
+                    "heavy_weapon"
+                ]
+            },
+            "attribute": "zoompack_overrides_forge:woodcutting_xp_multiplier",
+            "operation": "MULTIPLY_TOTAL",
+            "values": {
+                "common": 0.02,
+                "uncommon": 0.04,
+                "rare": 0.06,
+                "epic": 0.08,
+                "mythic": 0.1,
+                "ancient": 0.2,
+                "custom_0": 0.12,
+                "custom_1": 0.14,
+                "custom_2": 0.16,
+                "custom_3": 0.18
+            }
+        }
+    ]
+}

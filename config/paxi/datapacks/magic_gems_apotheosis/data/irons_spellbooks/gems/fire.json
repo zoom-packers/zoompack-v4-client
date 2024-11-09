@@ -1,0 +1,56 @@
+{
+    "variant": "fire",
+    "weight": 5,
+    "quality": 0,
+    "dimensions": [],
+    "unique": true,
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "weapon",
+                "types": [
+                    "sword",
+                    "trident"
+                ]
+            },
+            "attribute": "attributeslib:fire_damage",
+            "operation": "ADDITION",
+            "values": {
+                "common": 2,
+                "uncommon": 4,
+                "rare": 6,
+                "epic": 10,
+                "mythic": 14,
+                "ancient": 40,
+                "custom_0": 18,
+                "custom_1": 22,
+                "custom_2": 26,
+                "custom_3": 30
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "weapon",
+                "types": [
+                    "heavy_weapon"
+                ]
+            },
+            "attribute": "attributeslib:fire_damage",
+            "operation": "ADDITION",
+            "values": {
+                "common": 4,
+                "uncommon": 8,
+                "rare": 12,
+                "epic": 20,
+                "mythic": 28,
+                "ancient": 80,
+                "custom_0": 36,
+                "custom_1": 44,
+                "custom_2": 52,
+                "custom_3": 60
+            }
+        }
+    ]
+}
