@@ -32,7 +32,7 @@
         {
             "type": "apotheosis:attribute",
             "gem_class": {
-                "key": "weapon",
+                "key": "heavy_weapon",
                 "types": [
                     "heavy_weapon"
                 ]

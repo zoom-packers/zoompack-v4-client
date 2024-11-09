@@ -33,9 +33,10 @@
         {
             "type": "apotheosis:attribute",
             "gem_class": {
-                "key": "bow",
+                "key": "ranged_weapon",
                 "types": [
-                    "bow"
+                    "bow",
+                    "crossbow"
                 ]
             },
             "attribute": "zoompack_overrides_forge:archery_xp_multiplier",
