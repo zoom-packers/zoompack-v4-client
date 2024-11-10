@@ -78,7 +78,12 @@ let GEM_TYPES = {
     "apotheosis:core/warlord": 1,
     "apotheosis:overworld/earth": 1,
     "apotheosis:overworld/royal": 1,
+    "apotheosis:the_nether/blood_lord": 1,
+    "apotheosis:the_nether/inferno": 1,
     "apotheosis:the_end/endersurge": 1,
+    "apotheosis:the_end/mageslayer": 1,
+    "apotheosis:twilight/forest": 1,
+    "apotheosis:twilight/qeen": 1,
     'EQ_magic': {
         "zoomers_magic_apotheosis:magic_gems/spell_blood": 1,
         "zoomers_magic_apotheosis:magic_gems/spell_eldritch": 1,
@@ -89,7 +94,23 @@ let GEM_TYPES = {
         "zoomers_magic_apotheosis:magic_gems/spell_holy": 1,
         "zoomers_magic_apotheosis:magic_gems/spell_ice": 1,
         "zoomers_magic_apotheosis:magic_gems/spell_lightning": 1,
-        "zoomers_magic_apotheosis:magic_gems/spell_nature": 0
+        "zoomers_magic_apotheosis:magic_gems/spell_nature": 1,
+        "zoomers_magic_apotheosis:magic_gems/deepdiver": 1
+    },
+    'EQ_xp_boost': {
+        "irons_spellbooks:blood": 1,
+        "irons_spellbooks:cast_time": 1,
+        "irons_spellbooks:cooldown": 1,
+        "irons_spellbooks:ender": 1,
+        "irons_spellbooks:evocation": 1,
+        "irons_spellbooks:fire": 1,
+        "irons_spellbooks:holy": 1,
+        "irons_spellbooks:ice": 1,
+        "irons_spellbooks:intelligent": 1,
+        "irons_spellbooks:lightning": 1,
+        "irons_spellbooks:nature": 1,
+        "irons_spellbooks:spell_resist": 1,
+        "irons_spellbooks:summoning": 1
     }
 
 }
