@@ -18,6 +18,8 @@ let RARITIES = [
 ]
 let MAX_RARITY_LOOTABLE = RARITIES.length - 1;
 
+let BOSSES = ['minecraft:elder_guardian','aquamirae:captain_cornelia', 'aquamirae:maze_mother', 'aquamirae:eel', 'bosses_of_mass_destruction:lich', 'bosses_of_mass_destruction:void_blossom' ,'blue_skies:alchemist', 'blue_skies:arachnarch', 'blue_skies:arachnarch', 'blue_skies:summoner','aether:slider', 'lost_aether_content:aerwhale_king','aether:valkyrie','aether:sun_spirit','minecraft:wither','bosses_of_mass_destruction:gauntlet', 'callfromthedepth_:agonysoul', 'call_of_yucutan:kukulkan', 'call_of_yucutan:ah_puch', 'mokels_boss_mantyd:boss_mantyd', 'minecraft:ender_dragon', 'bosses_of_mass_destruction:obsidilith', 'theabyss:abyssaur', 'theabyss:elder', 'theabyss:nightblade_boss', 'theabyss:the_roka', 'theabyss:crystal_golem', 'theabyss:magician'];
+
 let DIMENSION_RARITIES = {
     'minecraft:overworld': {
         'min': 0,
@@ -77,13 +79,13 @@ let GEM_TYPES = {
     "apotheosis:core/tyrannical": 1,
     "apotheosis:core/warlord": 1,
     "apotheosis:overworld/earth": 1,
-    "apotheosis:overworld/royal": 1,
+    "apotheosis:overworld/royalty": 1,
     "apotheosis:the_nether/blood_lord": 1,
     "apotheosis:the_nether/inferno": 1,
     "apotheosis:the_end/endersurge": 1,
     "apotheosis:the_end/mageslayer": 1,
     "apotheosis:twilight/forest": 1,
-    "apotheosis:twilight/qeen": 1,
+    "apotheosis:twilight/queen": 1,
     'EQ_magic': {
         "zoomers_magic_apotheosis:magic_gems/spell_blood": 1,
         "zoomers_magic_apotheosis:magic_gems/spell_eldritch": 1,
@@ -150,11 +152,9 @@ function getRandomGem() {
 }
 
 function isMobBoss(entity) {
-    // TODO: implement check if mob is boss and loot should be spread to multiple players
-    return false;
+    return BOSSES.includes(entity.getType());
 }
 
-// TODO: if entity is a known boss grant for all players
 function getRarity(entity) {
     let dimension = entity.level.dimension;
 
@@ -185,44 +185,35 @@ function summonGem(server, rarity, gem, count, x, y, z) {
     server.runCommandSilent(`/summon minecraft:item ${x} ${y} ${z} {Item:{id:"apotheosis:gem",Count:${count},tag:{affix_data:{rarity:"${rarity}"},gem:"${gem}"}}}`)
 }
 
-function summonForEachPlayerInRange(server, x, y, z) {
 
+function summonForEachPlayerInRange(server, x, y, z, dimension, rarity, gem) {
+    let COMMAND = `execute in ${dimension} run execute positioned ${x} ${y} ${z} run execute as @p[distance=..15] run give @s apotheosis:gem{affix_data:{rarity:"${rarity}"},gem:"${gem}"}`
+    console.log(COMMAND);
+    server.runCommandSilent(COMMAND);
 }
 
 EntityEvents.death(event => {
     let player = event.source.player;
-    // player.runCommandSilent("/summon vex");
     if (player != null) {
-        let player_name = player.name.string;
         let server = event.server;
         let entity = event.entity;
-        let entity_name = entity.name.string;
 
         if (player.getType() === 'minecraft:player') {
             if (isEntityAllowed(entity)) {
-
 
                 let x = entity.x;
                 let y = entity.y;
                 let z = entity.z;
 
+                let gem = getRandomGem();
+                let rarity = getRarity(entity);
+
                 if (isMobBoss(entity)) {
-
-
-                    // generate list of max 15 gem types
-                    // get the rariry
-                    // run for each player
-
+                    summonForEachPlayerInRange(server, x, y, z, entity.level.dimension, rarity, gem);
                 }
-                else {
-                    if (willGemDrop()) {
-                        let gem = getRandomGem();
-                        let rarity = getRarity(entity);
-                        summonGem(server, rarity, gem, 1, x, y, z);
-                    }
+                if (willGemDrop()) {
+                    summonGem(server, rarity, gem, 1, x, y, z);
                 }
-
-
             }
         }
     }
