@@ -36,6 +36,8 @@
     "affix.zoomers_magic_apotheosis:curios_jewelry/attribute/general_power.suffix": "with Spell Power",
     "affix.zoomers_magic_apotheosis:curios_jewelry/attribute/deepdiver": "Underwater Diver",
     "affix.zoomers_magic_apotheosis:curios_jewelry/attribute/deepdiver.suffix": "with Grills",
+    "item.apotheosis.gem.apotheosis:twilight/forest": "Penetration Gem",
+    "item.apotheosis.gem.apotheosis:twilight/queen": "Frozen Blade Gem",
     "gem_class.spellbook": "Spellbooks",
     "gem_class.bow": "Bows",
     "gem_class.shovel": "Shovels",
