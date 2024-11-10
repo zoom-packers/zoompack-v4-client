@@ -62,16 +62,16 @@
         ]
       },
       "values": {
-        "common": 0.1,
-        "uncommon": 0.15,
-        "rare": 0.25,
-        "epic": 0.35,
-        "mythic": 0.45,
-        "ancient": 1.38,
-        "custom_0": 0.56,
-        "custom_1": 0.7,
-        "custom_2": 0.88,
-        "custom_3": 1.1
+        "common": 0.05,
+        "uncommon": 0.1,
+        "rare": 0.15,
+        "epic": 0.2,
+        "mythic": 0.25,
+        "ancient": 0.5,
+        "custom_0": 0.3,
+        "custom_1": 0.35,
+        "custom_2": 0.4,
+        "custom_3": 0.45
       }
     },
     {
@@ -86,16 +86,16 @@
       "attribute": "minecraft:generic.knockback_resistance",
       "operation": "ADDITION",
       "values": {
-        "common": 0.1,
-        "uncommon": 0.2,
-        "rare": 0.3,
-        "epic": 0.4,
+        "common": 0.01,
+        "uncommon": 0.02,
+        "rare": 0.03,
+        "epic": 0.04,
         "mythic": 0.5,
-        "ancient": 1.55,
-        "custom_0": 0.63,
-        "custom_1": 0.79,
-        "custom_2": 0.99,
-        "custom_3": 1.24
+        "ancient": 0.3,
+        "custom_0": 0.25,
+        "custom_1": 0.2,
+        "custom_2": 0.15,
+        "custom_3": 0.1
       }
     }
   ]

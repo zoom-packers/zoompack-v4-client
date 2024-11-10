@@ -8,12 +8,13 @@
         {
             "type": "apotheosis:attribute",
             "gem_class": {
-                "key": "shovel",
+                "key": "light_weapon",
                 "types": [
-                    "shovel"
+                    "sword",
+                    "trident"
                 ]
             },
-            "attribute": "zoompack_overrides_forge:excavation_xp_multiplier",
+            "attribute": "minecraft:generic.attack_damage",
             "operation": "MULTIPLY_TOTAL",
             "values": {
                 "common": 0.02,

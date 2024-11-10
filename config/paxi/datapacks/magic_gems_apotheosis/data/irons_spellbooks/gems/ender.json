@@ -16,16 +16,16 @@
             "attribute": "attributeslib:experience_gained",
             "operation": "MULTIPLY_TOTAL",
             "values": {
-                "common": 0.005,
-                "uncommon": 0.01,
-                "rare": 0.015,
-                "epic": 0.02,
-                "mythic": 0.025,
-                "ancient": 0.05,
-                "custom_0": 0.03,
-                "custom_1": 0.035,
-                "custom_2": 0.04,
-                "custom_3": 0.045
+                "common": 0.05,
+                "uncommon": 0.1,
+                "rare": 0.15,
+                "epic": 0.2,
+                "mythic": 0.25,
+                "ancient": 0.5,
+                "custom_0": 0.3,
+                "custom_1": 0.35,
+                "custom_2": 0.4,
+                "custom_3": 0.45
             }
         },
         {
@@ -39,16 +39,16 @@
             "attribute": "attributeslib:experience_gained",
             "operation": "MULTIPLY_TOTAL",
             "values": {
-                "common": 0.005,
-                "uncommon": 0.01,
-                "rare": 0.015,
-                "epic": 0.02,
-                "mythic": 0.025,
-                "ancient": 0.05,
-                "custom_0": 0.03,
-                "custom_1": 0.035,
-                "custom_2": 0.04,
-                "custom_3": 0.045
+                "common": 0.05,
+                "uncommon": 0.1,
+                "rare": 0.15,
+                "epic": 0.2,
+                "mythic": 0.25,
+                "ancient": 0.5,
+                "custom_0": 0.3,
+                "custom_1": 0.35,
+                "custom_2": 0.4,
+                "custom_3": 0.45
             }
         }
     ]

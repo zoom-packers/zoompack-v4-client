@@ -31,30 +31,6 @@
     {
       "type": "apotheosis:attribute",
       "gem_class": {
-        "key": "light_weapon",
-        "types": [
-          "sword",
-          "trident"
-        ]
-      },
-      "attribute": "minecraft:generic.attack_knockback",
-      "operation": "ADDITION",
-      "values": {
-        "common": 0.5,
-        "uncommon": 1,
-        "rare": 1.5,
-        "epic": 2,
-        "mythic": 3,
-        "ancient": 9.16,
-        "custom_0": 3.75,
-        "custom_1": 4.69,
-        "custom_2": 5.86,
-        "custom_3": 7.33
-      }
-    },
-    {
-      "type": "apotheosis:attribute",
-      "gem_class": {
         "key": "core_armor",
         "types": [
           "chestplate",
@@ -90,13 +66,13 @@
         "common": 0.05,
         "uncommon": 0.1,
         "rare": 0.15,
-        "epic": 0.225,
-        "mythic": 0.3,
-        "ancient": 0.94,
-        "custom_0": 0.38,
-        "custom_1": 0.48,
-        "custom_2": 0.6,
-        "custom_3": 0.75
+        "epic": 0.2,
+        "mythic": 0.25,
+        "ancient": 0.5,
+        "custom_0": 0.3,
+        "custom_1": 0.35,
+        "custom_2": 0.4,
+        "custom_3": 0.45
       }
     }
   ]

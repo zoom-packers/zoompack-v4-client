@@ -17,16 +17,16 @@
       "attribute": "minecraft:generic.armor",
       "operation": "ADDITION",
       "values": {
-        "common": 0.5,
-        "uncommon": 1,
-        "rare": 2.5,
-        "epic": 4,
-        "mythic": 6,
-        "ancient": 18.33,
-        "custom_0": 7.5,
-        "custom_1": 9.38,
-        "custom_2": 11.73,
-        "custom_3": 14.66
+        "common": 0.05,
+        "uncommon": 0.1,
+        "rare": 0.15,
+        "epic": 0.2,
+        "mythic": 0.25,
+        "ancient": 0.5,
+        "custom_0": 0.3,
+        "custom_1": 0.35,
+        "custom_2": 0.4,
+        "custom_3": 0.45
       }
     },
     {
@@ -41,16 +41,16 @@
       "attribute": "attributeslib:life_steal",
       "operation": "ADDITION",
       "values": {
-        "common": 0.05,
-        "uncommon": 0.1,
-        "rare": 0.15,
-        "epic": 0.2,
-        "mythic": 0.25,
-        "ancient": 0.76,
-        "custom_0": 0.31,
-        "custom_1": 0.39,
-        "custom_2": 0.49,
-        "custom_3": 0.61
+        "common": 0.03,
+        "uncommon": 0.06,
+        "rare": 0.09,
+        "epic": 0.12,
+        "mythic": 0.3,
+        "ancient": 0.15,
+        "custom_0": 0.18,
+        "custom_1": 0.21,
+        "custom_2": 0.24,
+        "custom_3": 0.27
       }
     },
     {
@@ -64,16 +64,16 @@
       "attribute": "attributeslib:overheal",
       "operation": "ADDITION",
       "values": {
-        "common": 0.05,
-        "uncommon": 0.1,
-        "rare": 0.15,
-        "epic": 0.2,
-        "mythic": 0.25,
-        "ancient": 0.76,
-        "custom_0": 0.31,
-        "custom_1": 0.39,
-        "custom_2": 0.49,
-        "custom_3": 0.61
+        "common": 0.03,
+        "uncommon": 0.06,
+        "rare": 0.09,
+        "epic": 0.12,
+        "mythic": 0.3,
+        "ancient": 0.15,
+        "custom_0": 0.18,
+        "custom_1": 0.21,
+        "custom_2": 0.24,
+        "custom_3": 0.27
       }
     },
     {
