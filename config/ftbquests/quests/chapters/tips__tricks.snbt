@@ -410,6 +410,9 @@
 				"&l&e/skins&r&r"
 				"{ \"text\": \"SKINS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"34DD9E65C1995FA2\" } }"
 				""
+				"&l&e/engineering&r&r"
+				"{ \"text\": \"SKINS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1AA0F65AD529C944\" } }"
+				""
 				"{image:biomesoplenty:block/pus_bubble width:50 height:50 align:1}"
 			]
 			icon: "refinedstorage:4k_storage_part"
