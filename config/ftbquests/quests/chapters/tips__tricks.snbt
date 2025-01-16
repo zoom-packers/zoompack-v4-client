@@ -917,6 +917,44 @@
 			x: 1.5d
 			y: -2.0d
 		}
+		{
+			description: [
+				"&2&lEngineering System! Ready to become a certified Mechanic?&r&r"
+				""
+				"To achive full control and usability over items from the Create mod and it's addons you must have specific level of engineering skill in order to use or place such items. "
+				""
+				"&6&l>&r&r To start the progress just right click a &d&oLectern&r&r with your hand."
+				""
+				"&6&l>&r&r To progress right click it with redstone in your hand."
+				""
+				"&6&l>&r&r You must provide various items in order to progress and the &d&oLectern&r&r will inform you which one."
+				""
+				"&6&l>&r&r Don't have a &d&oLectern&r&r? Just craft one!"
+				""
+				"&l&6Possible requirments:&r&r"
+				"- Basic minecraft redstone items"
+				"- Create related items"
+				""
+				"{image:biomesoplenty:block/pus_bubble width:50 height:50 align:1}"
+			]
+			icon: {
+				Count: 1
+				id: "supplementaries:wrench"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1AA0F65AD529C944"
+			subtitle: "All the technological advancements"
+			tasks: [{
+				id: "38C5E13314D61B57"
+				title: "Engineering System"
+				type: "checkmark"
+			}]
+			title: "Engineering System"
+			x: 2.5d
+			y: -2.0d
+		}
 	]
 	title: "Tips \\& Tricks"
 }
