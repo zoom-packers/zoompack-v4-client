@@ -20,15 +20,15 @@
       "operation": "ADDITION",
       "values": {
         "common": 0.05,
-        "uncommon": 0.15,
-        "rare": 0.25,
-        "epic": 0.35,
-        "mythic": 0.4,
-        "ancient": 1.24,
-        "custom_0": 0.5,
-        "custom_1": 0.63,
-        "custom_2": 0.79,
-        "custom_3": 0.99
+        "uncommon": 0.1,
+        "rare": 0.15,
+        "epic": 0.2,
+        "mythic": 0.25,
+        "ancient": 0.5,
+        "custom_0": 0.3,
+        "custom_1": 0.35,
+        "custom_2": 0.4,
+        "custom_3": 0.45
       }
     },
     {
@@ -42,16 +42,16 @@
       "attribute": "attributeslib:crit_chance",
       "operation": "ADDITION",
       "values": {
-        "common": 0.1,
-        "uncommon": 0.25,
-        "rare": 0.35,
-        "epic": 0.4,
-        "mythic": 0.475,
-        "ancient": 1.45,
-        "custom_0": 0.59,
-        "custom_1": 0.74,
-        "custom_2": 0.93,
-        "custom_3": 1.16
+        "common": 0.06,
+        "uncommon": 0.12,
+        "rare": 0.18,
+        "epic": 0.24,
+        "mythic": 0.3,
+        "ancient": 0.58,
+        "custom_0": 0.36,
+        "custom_1": 0.41,
+        "custom_2": 0.47,
+        "custom_3": 0.51
       }
     },
     {
@@ -71,7 +71,7 @@
         "rare": 0.08,
         "epic": 0.13,
         "mythic": 0.2,
-        "ancient": 0.61,
+        "ancient": 0.52,
         "custom_0": 0.25,
         "custom_1": 0.31,
         "custom_2": 0.39,
