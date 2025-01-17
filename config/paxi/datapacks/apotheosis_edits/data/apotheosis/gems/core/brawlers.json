@@ -41,16 +41,16 @@
       "attribute": "minecraft:generic.max_health",
       "operation": "ADDITION",
       "values": {
-        "common": 1,
-        "uncommon": 2,
-        "rare": 4,
-        "epic": 6,
-        "mythic": 8,
-        "ancient": 24.42,
-        "custom_0": 10,
-        "custom_1": 12.5,
-        "custom_2": 15.63,
-        "custom_3": 19.54
+        "common": 2,
+        "uncommon": 4,
+        "rare": 8,
+        "epic": 12,
+        "mythic": 18,
+        "ancient": 60,
+        "custom_0": 24,
+        "custom_1": 30,
+        "custom_2": 40,
+        "custom_3": 50
       }
     },
     {
