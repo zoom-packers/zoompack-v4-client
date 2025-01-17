@@ -111,9 +111,9 @@ function stunPlayer(server, player){
 
 PlayerEvents.inventoryChanged(event => {
     let item = event.getItem();
-    let item_id =item.item.getId();
+    let item_id = item.item.getId();
 
-    if (backpackLimiterIds.includes(item_id)){
+    if (backpackLimiterIds.includes(item_id)) {
         let player = event.player
         let server = event.server
         let playerUUID = player.uuid;
@@ -121,15 +121,15 @@ PlayerEvents.inventoryChanged(event => {
         if (getPlayerBackpacksTotal(player) > backpackLimiterMaxBackpacks) {
             stunPlayer(server, player);
         }
-        else{
-            if (backpackLimiterPreviousBackpackCount[playerUUID]<=backpackLimiterMaxBackpacks){
+        else {
+            if (backpackLimiterPreviousBackpackCount[playerUUID] <= backpackLimiterMaxBackpacks && backpackLimiterPreviousBackpackCount[playerUUID]>backpackLimiterMaxBackpacks ) {
                 clearPlayerStun(server, player);
             }
         }
 
-        backpackLimiterPreviousBackpackCount[playerUUID] = backpackCount;
+        backpackLimiterPreviousBackpackCount[playerUUID] = getPlayerBackpacksTotal(player);
     }
-    
+
 });
 
 function backpackLimiterCheckForBackpack(itemStack) {
