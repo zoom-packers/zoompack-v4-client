@@ -3,7 +3,6 @@ minecraft:hotbar=0.0,0.0,1.0,1.0,0.0
 apoli:bottom_overlay=0.0,0.0,1.0,1.0,0.0
 minecraft:food_level=-147.0,249.75,1.0,1.0,0.0
 apoli:overlay=0.0,0.0,1.0,1.0,0.0
-dankstorage:dankstorage=0.0,0.0,1.0,1.0,0.0
 minecraft:potion_icons=0.0,0.0,1.0,1.0,0.0
 minecraft:experience_bar=12.0,374.0,1.0,1.0,0.0
 aether:hammer_cooldown=0.0,0.0,1.0,1.0,0.0
