@@ -34,7 +34,6 @@
     "io.github.edwinmindcraft.origins.client.screen.WaitForPowersScreen": true,
     "com.leobeliik.extremesoundmuffler.gui.MufflerScreen": true,
     "net.minecraft.client.gui.screens.inventory.SmithingScreen": true,
-    "tfar.dankstorage.client.screens.CDankStorageScreen": true,
     "net.minecraft.client.gui.screens.social.SocialInteractionsScreen": true,
     "dlovin.inventoryhud.gui.config.ArmorConfigScreen": true,
     "dlovin.inventoryhud.gui.config.PotionConfigScreen": true,
