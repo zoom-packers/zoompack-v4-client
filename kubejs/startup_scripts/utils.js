@@ -143,7 +143,8 @@ global.createOffhand = (event, id, texture, name) => {
         .maxStackSize(1)
 }
 
-global.createAugument = (event, id, name, texture, attributes) => {
+
+global.createCurio = (event, id, displayName, attributes) => {
     var capability = CuriosCapabilityBuilder.CURIOS.itemStack();
     capability.canEquip((stack, context) => true);
     capability.canUnequip((stack, context) => true);
@@ -151,11 +152,17 @@ global.createAugument = (event, id, name, texture, attributes) => {
         capability.modifyAttribute(attribute.attribute, attribute.uuid, attribute.value, attribute.operation);
     }
 
-    event.create(id)
-        .displayName(name)
-        .texture(texture)
+    return event.create(id)
+        .displayName(displayName)
         .maxStackSize(1)
         .attachCapability(capability);
+}
+
+global.createAugument = (event, id, name, texture, attributes) => {
+    var curio = global.createCurio(event, id, name, attributes);
+    curio.displayName(name)
+    curio.texture(texture)
+    return curio;
 }
 
 global.createGeckoArmorTier = (event, modId, prefix, tier, textures, helmName, chestName, pantsName, legName, nameSuffix,

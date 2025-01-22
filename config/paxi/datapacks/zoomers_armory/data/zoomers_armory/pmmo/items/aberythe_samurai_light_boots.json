@@ -1,10 +1,10 @@
 {
     "requirements": {
         "WEAR": {
-            "endurance": 92
+            "combat": 92
         },
         "USE": {
-            "endurance": 92
+            "combat": 92
         }
     },
     "override": true

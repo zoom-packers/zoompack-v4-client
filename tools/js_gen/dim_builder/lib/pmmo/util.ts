@@ -173,6 +173,7 @@ const item_functions = {
     "crossbow": bow,
     "offhand": offhand,
     "staff": staff,
+    "curio": armor,
 }
 const tool_skills = {
     "pickaxe": "mining",
@@ -201,6 +202,24 @@ export function modifySingleItem(modId, modItem, type, level) {
     let filePath = `${folder}/${modItem}.json`;
     checkFileExists(filePath, modId, modItem, type, level);
     const template = createItemRequirement(type, level);
+    ensureFolderExists(folder)
+    writeJson(template, filePath);
+}
+
+export function modifySingleItemWithSkill(modId, modItem, type, level, skill) {
+    let folder = `${paxiDatapacksPath()}/${modId}/data/${modId}/pmmo/items`;
+    let filePath = `${folder}/${modItem}.json`;
+    checkFileExists(filePath, modId, modItem, type, level);
+    const template = createItemRequirement(type, level);
+    const requirements = template.requirements;
+    const keys = Object.keys(requirements);
+    for (const key of keys) {
+        const requirementKeys = Object.keys(requirements[key]);
+        for (const requirementKey of requirementKeys) {
+            requirements[key][requirementKey] = undefined;
+        }
+        requirements[key][skill] = level;
+    }
     ensureFolderExists(folder)
     writeJson(template, filePath);
 }

@@ -99,7 +99,7 @@
       "weapon_attributes": "bettercombat:cutlass"
     },
     {
-      "item_id_regex": "sword|blade",
+      "item_id_regex": "sword|blade|musashi",
       "weapon_attributes": "bettercombat:sword"
     }
   ],

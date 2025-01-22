@@ -28,8 +28,6 @@ export class WorkingTexture {
         let g = parseInt(hex.substring(3, 5), 16);
         let b = parseInt(hex.substring(5, 7), 16);
         const hsv = rgbToHsv(r, g, b);
-        const grayscale = (r * 0.299 + g * 0.587 + b * 0.114) / 255;
-        const dumbGrayscale = (r + g + b) / 3;
         const boost = hsv.v
         this.brightness = boost;
         const normalized = 255 / Math.max(r, g, b);
@@ -52,6 +50,12 @@ export class WorkingTexture {
 
     withChromaKey(operations: ChromaKeyOperation) {
         this.chromaKeyOperations.push(operations);
+        return this;
+    }
+
+    withChromaKeys(operations: ChromaKeyOperation[]) {
+        this.chromaKeyOperations = [...this.chromaKeyOperations, ...operations];
+        return this;
     }
 
     toSharpTexture() {
@@ -117,7 +121,12 @@ export class WorkingTexture {
             const newHSV = rgbToHsv(newRGB.r, newRGB.g, newRGB.b);
             const chromaKeyed = await this.chromaKey(oldHSV.h, oldHSV.s, oldHSV.v, newHSV.h, newHSV.s, newHSV.v, op.tolerance);
             chromaKeyed.tint(op.replaceWith);
-            const chromaBuffer = await chromaKeyed.png().toBuffer();
+            let chromaBuffer = await chromaKeyed.png().toBuffer();
+            if (op.brightness) {
+                const texture = sharp(chromaBuffer);
+                texture.modulate({brightness: op.brightness});
+                chromaBuffer = await texture.png().toBuffer();
+            }
             const result = await combine([buffer, chromaBuffer]);
             buffer = await result.png().toBuffer();
         }

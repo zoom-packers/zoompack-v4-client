@@ -5,24 +5,27 @@ import {capitalizeFirstLetter, ensureFolderExists, idToDisplayName, kubejsAssets
 import fs from "fs";
 import {
     addItemToCia,
-    CiaEntry,
+    CiaEntry, CiaModifier,
     createCiaGenericArmor,
     createCiaMainHand,
     createCiaOffhand,
     getCiaPath,
     operation
 } from "../cia/util";
-import {modifySingleItem} from "../pmmo/util";
+import {modifySingleItem, modifySingleItemWithSkill} from "../pmmo/util";
 import {combine} from "../textureGen/util";
 import {WorkingTexture} from "../textureGen/workingTexture";
 import {IArmory} from "./IArmory";
 import {PolymorphArmoryVariants} from "../armory/polymorphArmoryVariants";
-import {ArmorVariant, BaseVariant, ChromaKeyOperation, ToolVariant} from "./ArmoryTypes";
-import {GeckoArmorArmoryEntry} from "./geckoArmorArmoryEntry";
+import {ArmorVariant, BaseVariant, ChromaKeyOperation, CurioVariant, ToolVariant} from "./ArmoryTypes";
+import {GeckoArmorArmoryEntry, SimpleArmorArmoryEntry} from "./geckoArmorArmoryEntry";
 import path from "path";
 import {Config} from "../config";
 import {CustomArmoryEntry} from "./customArmoryEntry";
 import {SimpleItemArmoryEntry} from "./simpleItemArmoryEntry";
+
+export const GENERAL_DURABILITY_MULTIPLIER = 1.331945;
+export const PER_TIER_MULTIPLIER = 0.125;
 
 export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
     gear: string[] = [];
@@ -51,6 +54,8 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         log(this, `Registered tier for <${capitalizeFirstLetter(material.internalName)}>`);
         this.registerItems();
         log(this, `Registered items for <${capitalizeFirstLetter(material.internalName)}>`);
+        this.createTags();
+        log(this, `Created tags for <${capitalizeFirstLetter(material.internalName)}>`);
         this.createCiaEntries();
         log(this, `Created CIA entries for <${capitalizeFirstLetter(material.internalName)}>`);
         this.createRecipes();
@@ -94,7 +99,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             this.kubeJsContainer.harvestLevelTweaker.withItem(itemId, this.material.level);
         });
         this.kubeJsContainer.registrar.registerToolTier(id, this.durability, this.harvestSpeed, this.baseDamage - 4, this.material.level, 9, this.craftingMaterial);
-        this.kubeJsContainer.registrar.registerArmorTier(id, this.durability / 15, slotProtections, 9, this.craftingMaterial, this.baseArmorToughness, this.baseArmorKnockbackResistance);
+        this.kubeJsContainer.registrar.registerArmorTier(id, this.harvestLevel, this.durability / 15, slotProtections, 9, this.craftingMaterial, this.baseArmorToughness, this.baseArmorKnockbackResistance);
 
         for (const customArmoryEntry of this.customArmoryEntries) {
             if (customArmoryEntry instanceof GeckoArmorArmoryEntry) {
@@ -112,7 +117,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                     this.baseArmor * chestplate.armorMultiplier * 6 / 15,
                     this.baseArmor * helmet.armorMultiplier * 2 / 15,
                 ];
-                this.kubeJsContainer.registrar.registerArmorTier(`${modId}:${materialIdPart}_${customArmoryEntry.armorId}`, this.durability / 15, slotProtections, 9, this.craftingMaterial, this.baseArmorToughness, this.baseArmorKnockbackResistance);
+                this.kubeJsContainer.registrar.registerArmorTier(`${modId}:${materialIdPart}_${customArmoryEntry.armorId}`, this.harvestLevel, this.durability / 15, slotProtections, 9, this.craftingMaterial, this.baseArmorToughness, this.baseArmorKnockbackResistance);
             }
         }
     }
@@ -136,13 +141,30 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             // @ts-ignore
             if (tieredTypes.includes(type)) {
                 this.kubeJsContainer.registrar.registerTieredItem(id, itemType, displayName, `${modId}:${material.internalName}`);
+            } else if (PolymorphArmoryVariants.CURIOS.includes(<CurioVariant>type)) {
+                let attributes: CiaModifier[] = [];
+                if (type.additionalAttributes) {
+                    attributes = [...attributes, ...type.additionalAttributes];
+                }
+                if (type.additionalAttributesPerLevel) {
+                    let leveledAttributes = this.multiplyAdditionalAttributesPerLevel(type.additionalAttributesPerLevel);
+                    attributes = [...attributes, ...leveledAttributes];
+                }
+                this.kubeJsContainer.registrar.registerCurioVariant(id, displayName, attributes);
             } else {
-                this.kubeJsContainer.registrar.registerArmoryItem(id, itemType, displayName, durability);
+                this.kubeJsContainer.registrar.registerArmoryItem(id, itemType, displayName, durability,`${modId}:${material.internalName}`);
             }
         }
 
         for (const customArmoryEntry of this.customArmoryEntries) {
-            if (customArmoryEntry instanceof GeckoArmorArmoryEntry) {
+            if (customArmoryEntry instanceof SimpleArmorArmoryEntry) {
+                for (const variant of customArmoryEntry.variants) {
+                    var id = `${modId}:${materialIdPart}_${variant.id}`;
+                    var displayName = variant.displayName;
+                    var itemType = this.getTypeName(variant);
+                    this.kubeJsContainer.registrar.registerTieredItem(id, itemType, displayName, `${modId}:${material.internalName}_${customArmoryEntry.armorId}`);
+                }
+            } else if (customArmoryEntry instanceof GeckoArmorArmoryEntry) {
                 // @ts-ignore
                 const helmet = customArmoryEntry.variants.find(x => x.slot === "head") as ArmorVariant;
                 // @ts-ignore
@@ -162,9 +184,27 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                     `${modId}:geo/${customArmoryEntry.armorId}.geo.json`,
                     `${modId}:textures/models/armor/${material.internalName}_${customArmoryEntry.armorId}_armor.png`);
             } else if (customArmoryEntry instanceof SimpleItemArmoryEntry) {
-                this.kubeJsContainer.registrar.registerArmoryItem(`${modId}:${materialIdPart}_${customArmoryEntry.itemId}`, customArmoryEntry.variants[0].type, customArmoryEntry.variants[0].displayName, customArmoryEntry.variants[0].durabilityMultiplier * this.durability);
+                this.kubeJsContainer.registrar.registerArmoryItem(`${modId}:${materialIdPart}_${customArmoryEntry.itemId}`, customArmoryEntry.variants[0].type, customArmoryEntry.variants[0].displayName, customArmoryEntry.variants[0].durabilityMultiplier * this.durability, `${modId}:${material.internalName}`);
             }
         }
+    }
+
+    createTags() {
+        for (const ring of PolymorphArmoryVariants.RINGS) {
+            if (this.shouldSkip(ring)) {
+                continue;
+            }
+            const id = `${this.internalNamespace}:${this.material.internalName}_${ring.id}`;
+            this.kubeJsContainer.tagger.tagItem(id, "curios:ring");
+        }
+        for (const necklace of PolymorphArmoryVariants.NECKLACES) {
+            if (this.shouldSkip(necklace)) {
+                continue;
+            }
+            const id = `${this.internalNamespace}:${this.material.internalName}_${necklace.id}`;
+            this.kubeJsContainer.tagger.tagItem(id, "curios:necklace");
+        }
+        this.kubeJsContainer.tagger.tagItem(this.craftingMaterial, this.craftingMaterial);
     }
 
     createCiaEntries() {
@@ -213,11 +253,13 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             } else if (mergedType.type === "tool") {
                 entry = this.createCiaTool(id, this.material, mergedType);
                 entry.overrides_main_hand = [...entry.overrides_main_hand, ...mergedAttributes]
-            } else {
+            } else if (mergedType.type === "bow" || mergedType.type === "crossbow") {
                 entry = this.createCiaProjectileWeapon(id, this.material, mergedType);
                 entry.overrides_main_hand = [...entry.overrides_main_hand, ...mergedAttributes]
             }
-            addItemToCia(cia, entry);
+            if (entry !== undefined) {
+                addItemToCia(cia, entry);
+            }
         }
         fs.writeFileSync(getCiaPath(), JSON.stringify(cia, null, 4), "utf8");
     }
@@ -257,7 +299,11 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             }
             const materialIdPart = this.material.internalName;
             const id = `${materialIdPart}_${type.id}`;
-            modifySingleItem(this.internalNamespace, id, this.getTypeName(type), this.pmmoLevel);
+            if (type.pmmoSkill !== undefined) {
+                modifySingleItemWithSkill(this.internalNamespace, id, this.getTypeName(type), this.pmmoLevel, type.pmmoSkill);
+            } else {
+                modifySingleItem(this.internalNamespace, id, this.getTypeName(type), this.pmmoLevel);
+            }
         }
     }
 
@@ -287,7 +333,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
 
         const material = this.material;
         const materialIdPart = material.internalName;
-        const simpleModelTypes = [...PolymorphArmoryVariants.SWORDS, ...PolymorphArmoryVariants.TOOLS, ...PolymorphArmoryVariants.ARMORS]
+        const simpleModelTypes = [...PolymorphArmoryVariants.SWORDS, ...PolymorphArmoryVariants.TOOLS, ...PolymorphArmoryVariants.ARMORS, ...PolymorphArmoryVariants.CURIOS]
         // TODO Expand Armory to generate Armors & Tools
         for (const type of simpleModelTypes) {
             if (this.shouldSkip(type)) {
@@ -298,7 +344,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                 textures: {}
             } as any;
             item.parent = `${this.internalNamespace}:item/` + type.modelType;
-            if (type.id === "claws" || type.id.includes("staff")) {
+            if (type.id === "claws" || type.id.includes("staff") || type.id.includes("katana") || type.id.includes("musashi")) {
                 item.textures["0"] = `${this.internalNamespace}:item/${id}`;
             } else {
                 item.textures.layer0 = `${this.internalNamespace}:item/${id}`;
@@ -395,7 +441,8 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             `${inputModelsDir}/normal.json`,
             `${inputModelsDir}/long.json`,
             `${inputModelsDir}/spear.json`,
-            `${inputModelsDir}/claws.json`,
+            `${inputModelsDir}/katana.json`,
+            `${inputModelsDir}/musashi.json`,
             `${inputModelsDir}/arcane_staff.json`,
             `${inputModelsDir}/blood_staff.json`,
             `${inputModelsDir}/ender_staff.json`,
@@ -425,28 +472,52 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         ensureFolderExists(outputTexturesDir);
         // SWORDS & SHIELDS
         const material = this.material;
-        const types = [...PolymorphArmoryVariants.SWORDS, ...PolymorphArmoryVariants.SHIELDS, ...PolymorphArmoryVariants.TOOLS, ...PolymorphArmoryVariants.ARMORS];
+        const types = [...PolymorphArmoryVariants.SWORDS, ...PolymorphArmoryVariants.SHIELDS, ...PolymorphArmoryVariants.TOOLS, ...PolymorphArmoryVariants.ARMORS, ...PolymorphArmoryVariants.CURIOS];
         for (const type of types) {
             if (this.shouldSkip(type)) {
                 continue;
             }
-            let assets = inputTexturesPaths.filter(path => path.startsWith(type.id));
-            if (assets.length === 0) {
-                continue;
-            }
-            assets = assets.map(asset => `${inputTexturesDir}/${asset}`);
-            const materialColor = material.color;
-            const workingAssets = [];
-            for (const asset of assets) {
-                if (asset.endsWith("no_tint.png")) {
-                    workingAssets.push(new WorkingTexture().withPath(asset));
-                } else {
-                    workingAssets.push(new WorkingTexture().withPath(asset).withTint(materialColor));
+            if (type.textureGenDetails === undefined) {
+                let assets = inputTexturesPaths.filter(path => path.startsWith(type.id));
+                if (assets.length === 0) {
+                    continue;
                 }
+                assets = assets.map(asset => `${inputTexturesDir}/${asset}`);
+                const materialColor = material.color;
+                const workingAssets = [];
+                for (const asset of assets) {
+                    if (asset.endsWith("no_tint.png")) {
+                        workingAssets.push(new WorkingTexture().withPath(asset));
+                    } else {
+                        const tex = new WorkingTexture().withPath(asset).withTint(materialColor);
+                        if (material.brightnessBoost !== 0) {
+                            tex.withBrightness(material.brightnessBoost);
+                        }
+                        workingAssets.push(tex);
+                    }
+                }
+                const id = `${material.internalName}_${type.id}`;
+                const texture = await combine(workingAssets);
+                await texture.toFile(`${outputTexturesDir}/${id}.png`);
+            } else {
+                let assets = [`${inputTexturesDir}/${type.textureGenDetails.textureName}`];
+                const workingAssets = [];
+                const chromaKeyOperationsCopy = [];
+                for (const chromaKeyOperation of type.textureGenDetails.chromaKeyOperations) {
+                    const newChromaKeyOperation = {...chromaKeyOperation};
+                    if (newChromaKeyOperation.replaceWith === "#000000") {
+                        newChromaKeyOperation.replaceWith = material.color;
+                        if (material.brightnessBoost !== 0) {
+                            newChromaKeyOperation.brightness = material.brightnessBoost;
+                        }
+                    }
+                    chromaKeyOperationsCopy.push(newChromaKeyOperation);
+                }
+                workingAssets.push(new WorkingTexture().withPath(assets[0]).withChromaKeys(chromaKeyOperationsCopy));
+                const id = `${material.internalName}_${type.id}`;
+                const texture = await combine(workingAssets);
+                await texture.toFile(`${outputTexturesDir}/${id}.png`);
             }
-            const id = `${material.internalName}_${type.id}`;
-            const texture = await combine(workingAssets);
-            texture.toFile(`${outputTexturesDir}/${id}.png`);
         }
 
         // BOWS
@@ -537,6 +608,12 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
     }
 
     get harvestLevel() {
+        if (this.material === undefined) {
+            throw new Error("Material is not set");
+        }
+        if (this.material.level === undefined) {
+            throw new Error("Material level is not set");
+        }
         return this.material.level;
     }
 
@@ -721,6 +798,8 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             case "armor":
                 const armorType = type as ArmorVariant;
                 return armorType.id;
+            case "curio":
+                return "curio";
         }
         return type.id;
     }
@@ -813,7 +892,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             ])
         }
     }
-    private multiplyAdditionalAttributesPerLevel(attributes) {
+    private multiplyAdditionalAttributesPerLevel(attributes: CiaModifier[]): CiaModifier[] {
         if (attributes === undefined) {
             return [];
         }

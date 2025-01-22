@@ -5,32 +5,28 @@ let modifications_map = [
         'piece' : 'helmet',
         'armor' : 12,
         'armor_t' : 9,
-        'knock_r' : 0.045,
-        'durability' : 2300
+        'knock_r' : 0.045
     },
     {
         'material': 'cloggrum',
         'piece' : 'chestplate',
         'armor' : 22,
         'armor_t' : 9,
-        'knock_r' : 0.045,
-        'durability' : 3335
+        'knock_r' : 0.045
     },
     {
         'material': 'cloggrum',
         'piece' : 'leggings',
         'armor' : 17,
         'armor_t' : 9,
-        'knock_r' : 0.045,
-        'durability' : 3105
+        'knock_r' : 0.045
     },
     {
         'material': 'cloggrum',
         'piece' : 'boots',
         'armor' : 12,
         'armor_t' : 9,
-        'knock_r' : 0.045,
-        'durability' : 2760
+        'knock_r' : 0.045
     },
     // Frossteel - besides durability all is hardcoded in jar
     {
@@ -38,32 +34,28 @@ let modifications_map = [
         'piece' : 'helmet',
         'armor' : 14,
         'armor_t' : 9,
-        'knock_r' : 0.05,
-        'durability' : 2630
+        'knock_r' : 0.05
     },
     {
         'material': 'froststeel',
         'piece' : 'chestplate',
         'armor' : 24,
         'armor_t' : 9,
-        'knock_r' : 0.05,
-        'durability' : 3813
+        'knock_r' : 0.05
     },
     {
         'material': 'froststeel',
         'piece' : 'leggings',
         'armor' : 19,
         'armor_t' : 9,
-        'knock_r' : 0.05,
-        'durability' : 3550
+        'knock_r' : 0.05
     },
     {
         'material': 'froststeel',
         'piece' : 'boots',
         'armor' : 14,
         'armor_t' : 9,
-        'knock_r' : 0.05,
-        'durability' : 3156
+        'knock_r' : 0.05
     },
     // utherium
     {
@@ -71,32 +63,28 @@ let modifications_map = [
         'piece' : 'helmet',
         'armor' : 17,
         'armor_t' : 10,
-        'knock_r' : 0.055,
-        'durability' : 2890
+        'knock_r' : 0.055
     },
     {
         'material': 'utherium',
         'piece' : 'chestplate',
         'armor' : 27,
         'armor_t' : 10,
-        'knock_r' : 0.055,
-        'durability' : 4190
+        'knock_r' : 0.055
     },
     {
         'material': 'utherium',
         'piece' : 'leggings',
         'armor' : 22,
         'armor_t' : 10,
-        'knock_r' : 0.055,
-        'durability' : 3901
+        'knock_r' : 0.055
     },
     {
         'material': 'utherium',
         'piece' : 'boots',
         'armor' : 17,
         'armor_t' : 10,
-        'knock_r' : 0.055,
-        'durability' : 3468
+        'knock_r' : 0.055
     },
 
 
@@ -177,7 +165,6 @@ ItemEvents.modification( (event) => {
                 item.armorProtection = data['armor'];
                 item.armorToughness = data['armor_t'];
                 item.armorKnockbackResistance = data['knock_r'];
-                item.maxDamage = data['durability'];
             });
         }
         else if (data['piece']==='sword'){
