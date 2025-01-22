@@ -27,7 +27,8 @@ let COMMANDS_CUSTOM_MAP = {
     'rules': ftb_book_command('0290D572AA16B1C4'),
     'skin': ftb_book_command('34DD9E65C1995FA2'),
     'skins': ftb_book_command('34DD9E65C1995FA2'),
-    'voice': ftb_book_command('69676D40420966BA')
+    'voice': ftb_book_command('69676D40420966BA'),
+    'parties' : ftb_book_command('1CBC2D540815A7B1')
 }
 
 ServerEvents.commandRegistry(event => {
@@ -39,6 +40,14 @@ ServerEvents.commandRegistry(event => {
                     ctx.source.server.runCommandSilent(`execute as ${ctx.source.player.name.string} run ${command}`);
                     return 1;
                 })
-        );
+        );        
     });
+
+    event.register(
+        Commands.literal('discord')
+            .executes(ctx => {
+                ctx.source.server.runCommandSilent(`/tellraw ${ctx.source.player.name.string} {"text":"Click here to join our discord: ","extra":[{"text":"https://zoomers.tech/discord","color":"aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://zoomers.tech/discord"}}]}`);
+                return 1;
+            })
+    );
 });

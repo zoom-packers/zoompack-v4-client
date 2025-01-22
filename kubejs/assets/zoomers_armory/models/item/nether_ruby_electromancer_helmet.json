@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "zoomers_armory:item/nether_ruby_electromancer_helmet"
+    }
+}

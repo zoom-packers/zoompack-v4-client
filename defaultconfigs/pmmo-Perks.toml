@@ -108,22 +108,29 @@
 			perk = "pmmo:attribute"
 			skill = "endurance"
 			attribute = "minecraft:generic.max_health"
-			per_level = 0.05
-			max_boost = 10.0
+			per_level = 0.5
+			max_boost = 50.0
 
 		[[Perks.For_Event.SKILL_UP]]
 			perk = "pmmo:attribute"
-			skill = "combat"
-			attribute = "minecraft:generic.attack_damage"
-			per_level = 0.005
-			max_boost = 1.0
+			skill = "endurance"
+			attribute = "irons_spellbooks:spell_resist"
+			per_level = 0.01
+			max_boost = 0.9
+
+		[[Perks.For_Event.SKILL_UP]]
+			perk = "pmmo:attribute"
+			skill = "swordsmanship"
+			attribute = "puffish_attributes:player.melee_damage"
+			per_level = 0.2
+			max_boost = 20.0
 
 		[[Perks.For_Event.SKILL_UP]]
 			perk = "pmmo:attribute"
 			skill = "archery"
 			attribute = "projectile_damage:generic"
-			per_level = 0.005
-			max_boost = 1.0
+			per_level = 0.2
+			max_boost = 20.0
 
 		[[Perks.For_Event.SKILL_UP]]
 			perk = "ars_scalaes:mana_boost"
@@ -147,6 +154,13 @@
 		[[Perks.For_Event.SKILL_UP]]
 			perk = "pmmo:attribute"
 			attribute = "irons_spellbooks:mana_regen"
+			skill = "magic"
+			per_level = 0.01
+			max_boost = 100.0
+
+		[[Perks.For_Event.SKILL_UP]]
+			perk = "pmmo:attribute"
+			attribute = "irons_spellbooks:spell_power"
 			skill = "magic"
 			per_level = 0.01
 			max_boost = 100.0

@@ -88,7 +88,7 @@ function modifyGeneralUseItemRequirements(modId, modItem, skill, level) {
 }
 
 function modifyPlaceBlockRequirements(modId, modItem, skill, level) {
-    let folder = `./${modId}/pmmo/items`;
+    let folder = `./${modId}/pmmo/blocks`;
     let filePath = `${folder}/${modItem}.json`;
     checkFileExists(filePath, modId, modItem, skill, level);
     const template = templateFormatter.place(skill, level)

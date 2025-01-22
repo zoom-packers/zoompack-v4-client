@@ -95,28 +95,24 @@ ItemEvents.modification((event) => {
         item.armorProtection = 12;
         item.armorToughness = 8;
         item.armorKnockbackResistance = 0.04;
-        item.maxDamage = 2000;
     });
 
     event.modify("minecraft:netherite_chestplate", item => {
         item.armorProtection = 22;
         item.armorToughness = 8;
         item.armorKnockbackResistance = 0.04;
-        item.maxDamage = 2900;
     });
 
     event.modify("minecraft:netherite_leggings", item => {
         item.armorProtection = 17;
         item.armorToughness = 8;
         item.armorKnockbackResistance = 0.04;
-        item.maxDamage = 2700;
     });
 
     event.modify("minecraft:netherite_boots", item => {
         item.armorProtection = 12;
         item.armorToughness = 8;
         item.armorKnockbackResistance = 0.04;
-        item.maxDamage = 2400;
     });
 
 });

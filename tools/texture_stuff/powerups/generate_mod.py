@@ -140,34 +140,34 @@ def generate_trim_lang(file_location, generated_trim_lang):
 
 tier_recipe_base = {
     1 : {
-        'first' : 'minecraft:diamond_block',
+        'first' : 'minecraft:diamond',
         'second' : 'minecraft:iron_block',
-        'third' : 'minecraft:emerald_block'
+        'third' : 'minecraft:emerald'
     },
     2 : {
-        'first' : 'blue_skies:charoite_block',
-        'second' : 'blue_skies:falsite_block',
+        'first' : 'blue_skies:charoite',
+        'second' : 'blue_skies:aquite',
         'third' : 'blue_skies:pyrope_block'
     },
     3 : {
-        'first' : 'blue_skies:aquite_block',
-        'second' : 'blue_skies:diopside_block',
-        'third' : 'blue_skies:horizonite_block'
+        'first' : 'blue_skies:aquite',
+        'second' : 'blue_skies:diopside_gem',
+        'third' : 'blue_skies:horizonite_ingot'
     },
     4 : {
         'first' : 'aether:ambrosium_block',
-        'second' : 'aether:zanite_block',
+        'second' : 'aether:zanite_gemstone',
         'third' : 'aether:enchanted_gravitite',
     },
     5 : {
         'first' : 'betternether:cincinnasite_lantern',
-        'second' : 'betternether:nether_ruby_block',
+        'second' : 'betternether:nether_ruby',
         'third' : 'minecraft:netherite_ingot',
     },
     6 : {
         'first' : 'undergarden:cloggrum_block',
-        'second' : 'undergarden:froststeel_block',
-        'third' : 'undergarden:forgotten_block',
+        'second' : 'undergarden:froststeel_ingot',
+        'third' : 'undergarden:forgotten_ingot',
     },
     7 : {
         'first' : 'phantasm:crystal_block',
@@ -201,12 +201,12 @@ attr_map = {
         'operation': 'ADDITION',
         'percentage' : False,
         'tier_m': {
-            1: 1,
-            2: 2,
-            3: 3,
-            4: 5,
-            5: 7,
-            6: 10,
+            1: 2,
+            2: 4,
+            3: 6,
+            4: 8,
+            5: 12,
+            6: 18,
             7: 25,
             8: 32,
             9: 40,
@@ -285,16 +285,16 @@ attr_map = {
         'operation': 'ADDITION',
         'percentage' : True,
         'tier_m': {
-            1: 0.001,
-            2: 0.002,
-            3: 0.003,
-            4: 0.004,
-            5: 0.005,
-            6: 0.01,
-            7: 0.02,
-            8: 0.04,
-            9: 0.06,
-            10: 0.08
+            1: 0.0375,
+            2: 0.04,
+            3: 0.0425,
+            4: 0.045,
+            5: 0.05,
+            6: 0.06,
+            7: 0.07,
+            8: 0.08,
+            9: 0.09,
+            10: 0.125
         }
     },
     'crit_chance': {
@@ -411,16 +411,16 @@ attr_map = {
         'operation': 'ADDITION',
         'percentage' : False,
         'tier_m': {
-            1: 10,
-            2: 12,
-            3: 15,
-            4: 17,
-            5: 20,
-            6: 25,
-            7: 30,
-            8: 35,
-            9: 40,
-            10: 50
+            1: 20,
+            2: 25,
+            3: 30,
+            4: 35,
+            5: 40,
+            6: 45,
+            7: 50,
+            8: 65,
+            9: 80,
+            10: 100
         }
     },
     'mana_regen': {
@@ -432,16 +432,16 @@ attr_map = {
         'operation': 'ADDITION',
         'percentage' : True,
         'tier_m': {
-            1: 0.01,
-            2: 0.02,
-            3: 0.04,
-            4: 0.08,
-            5: 0.1,
-            6: 0.12,
-            7: 0.14,
-            8: 0.16,
-            9: 0.18,
-            10: 0.2
+            1: 0.05,
+            2: 0.08,
+            3: 0.1,
+            4: 0.12,
+            5: 0.15,
+            6: 0.18,
+            7: 0.22,
+            8: 0.25,
+            9: 0.3,
+            10: 0.35
         }
     },
     'movement_speed': {
@@ -474,16 +474,16 @@ attr_map = {
         'operation': 'ADDITION',
         'percentage' : True,
         'tier_m': {
-            1: 0.01,
-            2: 0.0125,
-            3: 0.015,
-            4: 0.0175,
-            5: 0.02,
-            6: 0.025,
-            7: 0.03,
-            8: 0.035,
-            9: 0.04,
-            10: 0.05
+            1: 0.1,
+            2: 0.11,
+            3: 0.12,
+            4: 0.13,
+            5: 0.14,
+            6: 0.15,
+            7: 0.16,
+            8: 0.17,
+            9: 0.18,
+            10: 0.2
         }
     },
     'stamina': {

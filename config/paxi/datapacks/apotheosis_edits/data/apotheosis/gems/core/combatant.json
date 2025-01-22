@@ -41,16 +41,16 @@
       },
       "damage_type": "physical",
       "values": {
-        "common": 0.05,
-        "uncommon": 0.075,
-        "rare": 0.125,
-        "epic": 0.175,
-        "mythic": 0.225,
-        "ancient": 0.69,
-        "custom_0": 0.28,
-        "custom_1": 0.35,
-        "custom_2": 0.44,
-        "custom_3": 0.55
+        "common": 0.01,
+        "uncommon": 0.02,
+        "rare": 0.03,
+        "epic": 0.04,
+        "mythic": 0.5,
+        "ancient": 0.2,
+        "custom_0": 0.06,
+        "custom_1": 0.08,
+        "custom_2": 0.12,
+        "custom_3": 0.16
       }
     },
     {

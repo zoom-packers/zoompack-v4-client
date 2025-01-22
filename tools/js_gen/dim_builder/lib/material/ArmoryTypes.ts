@@ -1,6 +1,11 @@
 import {CiaModifier} from "../cia/util";
 import {CraftingRecipe} from "../kjs/kubeJsRecipes";
 
+export type TextureGenDetails = {
+    textureName: string,
+    chromaKeyOperations: ChromaKeyOperation[]
+}
+
 export type BaseVariant = {
     id: string,
     displayName: string,
@@ -10,6 +15,12 @@ export type BaseVariant = {
     modelType: string,
     additionalAttributes?: CiaModifier[],
     additionalAttributesPerLevel?: CiaModifier[] | undefined,
+    pmmoSkill?: string;
+    textureGenDetails?: TextureGenDetails
+}
+
+export type CurioVariant = BaseVariant & {
+    slot: string;
 }
 
 export type SwordVariant = BaseVariant & {
@@ -20,7 +31,7 @@ export type SwordVariant = BaseVariant & {
 
 export type ShieldVariant = BaseVariant & {
     armorMultiplier: number,
-    speedMultiplier: number
+    speedMultiplier: number,
 }
 
 export type BowVariant = BaseVariant & {
@@ -51,6 +62,13 @@ export type ChromaKeyOperation = {
     replaceWith: string,
     tolerance: number,
     function: "linear" | "squared" | "cubic",
+    brightness?: number
+}
+
+export class ChromaCreator {
+    static create(colorToReplace: string, replaceWith: string, tolerance: number, fun: "linear" | "squared" | "cubic", brightness = 0): ChromaKeyOperation {
+        return {colorToReplace, replaceWith, tolerance, function: fun, brightness};
+    }
 }
 
 

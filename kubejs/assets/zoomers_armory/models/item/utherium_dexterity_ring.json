@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "zoomers_armory:item/utherium_dexterity_ring"
+    },
+    "parent": "zoomers_armory:item/normal"
+}

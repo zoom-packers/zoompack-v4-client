@@ -20,6 +20,8 @@ import {
     tier_levels_nether_start, tier_levels_the_abyss_start,
     tier_levels_undergarden_start
 } from "./ores";
+import {magicArmorSets} from "../../magic_armors";
+import {archerCustomArmory, rangerCustomArmory} from "../../archerArmory";
 
 const materials = [
     {
@@ -62,6 +64,7 @@ const materials = [
         knockbackResistance: 0,
         pmmoLevel: 12,
         materialColor: "#ffdd2a",
+        brightnessBoost: 1.2,
         skip: ["armor", "tools"]
     },
     {
@@ -486,7 +489,7 @@ const materials = [
     },
     {
         item: item_theabyss.i_fixed_bone,
-        tier: 4,
+        tier: tier_levels_the_abyss_start + 2,
         type: "crafting",
         name: "knight",
         base_damage: 278,
@@ -571,19 +574,23 @@ const materials = [
 ]
 
 
-function convertMaterial(name: string, color: string, level: number, pmmoLevel: number, craftingMaterial: string,
+function convertMaterial(name: string, color: string, brightnessBoost: number, level: number, pmmoLevel: number, craftingMaterial: string,
                          toolSpeed: number, baseDamage: number, durability: number, armor: number,
                          armorToughness: number, knockbackResistance: number,
                          skip: string[] = [], smithingMaterial: string|undefined = undefined) {
     const material = new Material()
         .withName(name)
         .withColor(color)
+        .withBrightnessBoost(brightnessBoost)
         .withLevel(level)
         .withArmory(new Armory()
             .full()
             .withCustomArmoryEntry(samuraiLightCustomArmory)
             .withCustomArmoryEntry(samuraiCustomArmory)
             .withCustomArmoryEntry(samuraiMasterCustomArmory)
+            .withCustomArmoryEntry(archerCustomArmory)
+            .withCustomArmoryEntry(rangerCustomArmory)
+            .withCustomArmoryEntries(magicArmorSets)
             .withCraftingMaterial(craftingMaterial)
             .withBaseArmor(armor)
             .withArmorToughness(armorToughness)
@@ -615,7 +622,7 @@ export const armoryMaterials = materials.map(material => {
     if (material.skip && material.skip.includes("sword")) {
         return
     }
-    return convertMaterial(material.name, material.materialColor, material.tier, material.pmmoLevel,
+    return convertMaterial(material.name, material.materialColor, material.brightnessBoost ?? 0, material.tier, material.pmmoLevel,
         material.item, material.tier * 4, material.base_damage, material.durability, material.armor,
         material.armorToughness, material.knockbackResistance, material.skip,
         material.type === "smithing" ? material.base : undefined)

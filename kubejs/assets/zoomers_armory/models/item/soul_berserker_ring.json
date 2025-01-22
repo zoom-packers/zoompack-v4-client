@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "zoomers_armory:item/soul_berserker_ring"
+    },
+    "parent": "zoomers_armory:item/normal"
+}

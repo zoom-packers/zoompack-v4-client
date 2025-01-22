@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
     // TBA
-    event.remove({ output: 'minecraft:diamond' })
+    event.remove({ output: 'minecraft:diamond', input: "minecraft:coal_block" })
     event.remove({ output: 'minecolonies:supplychestdeployer' })
     event.remove({ output: 'minecolonies:supplycampdeployer' })
     event.remove({ output: 'slotmachinemod:slot_machine' })

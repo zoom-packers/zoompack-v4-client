@@ -17,6 +17,13 @@
                     "objective": "pmmo_mining",
                     "comparison": "<",
                     "compare_to": 20
+                },
+                {
+                    "type": "origins:enchantment",
+                    "enchantment": "minecraft:silk_touch",
+                    "calculation": "sum",
+                    "comparison": "<",
+                    "compare_to": 1
                 }
             ]
         },
@@ -46,6 +53,13 @@
                     "objective": "pmmo_mining",
                     "comparison": "<",
                     "compare_to": 40
+                },
+                {
+                    "type": "origins:enchantment",
+                    "enchantment": "minecraft:silk_touch",
+                    "calculation": "sum",
+                    "comparison": "<",
+                    "compare_to": 1
                 }
             ]
         },
@@ -75,6 +89,13 @@
                     "objective": "pmmo_mining",
                     "comparison": "<",
                     "compare_to": 60
+                },
+                {
+                    "type": "origins:enchantment",
+                    "enchantment": "minecraft:silk_touch",
+                    "calculation": "sum",
+                    "comparison": "<",
+                    "compare_to": 1
                 }
             ]
         },
@@ -104,6 +125,13 @@
                     "objective": "pmmo_mining",
                     "comparison": "<",
                     "compare_to": 80
+                },
+                {
+                    "type": "origins:enchantment",
+                    "enchantment": "minecraft:silk_touch",
+                    "calculation": "sum",
+                    "comparison": "<",
+                    "compare_to": 1
                 }
             ]
         },
@@ -133,6 +161,13 @@
                     "objective": "pmmo_mining",
                     "comparison": "<",
                     "compare_to": 1000
+                },
+                {
+                    "type": "origins:enchantment",
+                    "enchantment": "minecraft:silk_touch",
+                    "calculation": "sum",
+                    "comparison": "<",
+                    "compare_to": 1
                 }
             ]
         },
