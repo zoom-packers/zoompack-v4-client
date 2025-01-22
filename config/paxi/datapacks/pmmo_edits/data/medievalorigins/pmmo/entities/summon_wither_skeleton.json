@@ -1,0 +1,17 @@
+{
+    "dealt_damage_xp": {},
+    "received_damage_xp": {},
+    "nbt_requirements": {
+      "TAME": [],
+      "BREED": [],
+      "ENTITY_INTERACT": [],
+      "RIDE": [],
+      "KILL": []
+    },
+    "xp_values": {
+      "DEATH": {
+        "endurance": 0
+      }
+    },
+    "override": true
+  }

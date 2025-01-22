@@ -18,7 +18,10 @@ function isEntityInBannedRewards(entity_id){
     let banned_entity_ids = [
         'minecraft:player',
         'minecraft:armor_stand',
-        'dummmmmmy:target_dummy'
+        'dummmmmmy:target_dummy',
+        "medievalorigins:summon_skeleton",
+        "medievalorigins:summon_wither_skeleton",
+        "medievalorigins:summon_zombie"
     ]
 
     return banned_entity_ids.includes(entity_id)
