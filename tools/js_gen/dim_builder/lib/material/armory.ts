@@ -31,6 +31,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
     gear: string[] = [];
     durability: number = 250; // Iron has 250, diamond has 1561, netherite has 2031
     gearUsesSmithingTemplate: boolean = false;
+    smithingTemplateId: string = "";
     smithingFromTier: string = "iron";
     pmmoLevel: number = 10;
     baseDamage: number = 6; // Iron has 6, diamond has 7, netherite has 8
@@ -276,7 +277,11 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             if (this.gearUsesSmithingTemplate) {
                 const baseItemId = `${this.internalNamespace}:${this.smithingFromTier}_${type.id}`;
                 const enhanceItemId = this.craftingMaterial;
-                this.kubeJsContainer.recipes.smithingRecipe(id, baseItemId, enhanceItemId);
+                if (!!this.smithingTemplateId) {
+                    this.kubeJsContainer.recipes.smithingFullRecipe(id, baseItemId, enhanceItemId, this.smithingTemplateId);
+                } else {
+                    this.kubeJsContainer.recipes.smithingRecipe(id, baseItemId, enhanceItemId);
+                }
             }
             else {
                 const recipe = type.recipe.map(item => {
@@ -706,9 +711,10 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         return this;
     }
 
-    withSmithing(fromTier: string): Armory {
+    withSmithing(fromTier: string, templateId: string | undefined): Armory {
         this.gearUsesSmithingTemplate = true;
         this.smithingFromTier = fromTier;
+        this.smithingTemplateId = templateId ?? undefined;
         return this;
     }
 

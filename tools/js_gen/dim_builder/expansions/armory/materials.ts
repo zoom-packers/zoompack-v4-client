@@ -577,7 +577,7 @@ const materials = [
 function convertMaterial(name: string, color: string, brightnessBoost: number, level: number, pmmoLevel: number, craftingMaterial: string,
                          toolSpeed: number, baseDamage: number, durability: number, armor: number,
                          armorToughness: number, knockbackResistance: number,
-                         skip: string[] = [], smithingMaterial: string|undefined = undefined) {
+                         skip: string[] = [], smithingMaterial: string|undefined = undefined, smithingTemplateId: string|undefined = undefined) {
     const material = new Material()
         .withName(name)
         .withColor(color)
@@ -613,7 +613,7 @@ function convertMaterial(name: string, color: string, brightnessBoost: number, l
 
     if (smithingMaterial && material.armory instanceof Armory) {
         const armory = material.armory as Armory;
-        armory.withSmithing(smithingMaterial)
+        armory.withSmithing(smithingMaterial, smithingTemplateId);
     }
     return material
 }
@@ -625,5 +625,5 @@ export const armoryMaterials = materials.map(material => {
     return convertMaterial(material.name, material.materialColor, material.brightnessBoost ?? 0, material.tier, material.pmmoLevel,
         material.item, material.tier * 4, material.base_damage, material.durability, material.armor,
         material.armorToughness, material.knockbackResistance, material.skip,
-        material.type === "smithing" ? material.base : undefined)
+        material.type === "smithing" ? material.base : undefined, material.type === "smithing" && !!material.smithing ? material.smithing : undefined)
 }).filter(material => material !== undefined);

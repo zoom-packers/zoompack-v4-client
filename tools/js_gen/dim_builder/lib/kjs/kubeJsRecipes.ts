@@ -11,6 +11,7 @@ ServerEvents.recipes(event => {
 const craftingTemplate = `event.shaped('{resultCount}x {resultId}', {recipePattern}, {recipeItems});`
 const shapelessTemplate = `event.shapeless('{resultCount}x {resultId}', {recipeItems});`
 const smithingTemplate = `event.smithing('{resultCount}x {resultId}', '{baseId}', '{additionId}');`
+const smithingFullTemplate = `event.smithing('{resultCount}x {resultId}', '{templateId}', '{baseId}', '{additionId}');`
 const smeltingTemplate = `event.smelting('{resultCount}x {resultId}', '{inputId}');`
 const blastingTemplate = `event.blasting('{resultCount}x {resultId}', '{inputId}');`
 const smokingTemplate = `event.smoking('{resultCount}x {resultId}', '{inputId}');`
@@ -62,6 +63,10 @@ export class KubeJsRecipes extends BasicDataHolder<KubeJsRecipes> {
         return smithingTemplate.replace('{resultId}', resultId).replace('{baseId}', baseId).replace('{additionId}', additionId).replace('{resultCount}', resultCount.toString());
     }
 
+    static smithingFullRecipe(resultId, baseId, additionId, templateId, resultCount = 1) {
+        return smithingFullTemplate.replace('{resultId}', resultId).replace('{baseId}', baseId).replace('{additionId}', additionId).replace('{resultCount}', resultCount.toString()).replace('{templateId}', templateId);
+    }
+
     static smeltingRecipe(resultId, inputId, resultCount = 1) {
         return smeltingTemplate.replace('{resultId}', resultId).replace('{inputId}', inputId).replace('{resultCount}', resultCount.toString());
     }
@@ -88,6 +93,10 @@ export class KubeJsRecipes extends BasicDataHolder<KubeJsRecipes> {
 
     smithingRecipe(resultId, baseId, additionId, resultCount = 1) {
         this.recipes.push(KubeJsRecipes.smithingRecipe(resultId, baseId, additionId, resultCount));
+    }
+
+    smithingFullRecipe(resultId, baseId, additionId, templateId, resultCount = 1) {
+        this.recipes.push(KubeJsRecipes.smithingFullRecipe(resultId, baseId, additionId, templateId, resultCount));
     }
 
     smeltingRecipe(resultId, inputId, resultCount = 1) {
