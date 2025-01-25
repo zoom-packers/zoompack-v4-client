@@ -17,6 +17,7 @@
   "power.medievalorigins.gorgon/petrified.name": "Petrified",
   "power.medievalorigins.gorgon/petrified.description": "Gorgons were doomed to stay bound in dark caves and old dungeons. Being outside in daylight causes them to slightly petrified until night, enduring various debuffs. Can be negated by wearing a helmet. These debuffs turn into buffs after the sun fades.",
   "power.medievalorigins.gorgon/hydrophobia.name": "Hydrophobe",
-  "power.medievalorigins.gorgon/hydrophobia.description": "Gorgons can not tolerate the purity of water and slowly take damage from it."
+  "power.medievalorigins.gorgon/hydrophobia.description": "Gorgons can not tolerate the purity of water and slowly take damage from it.",
+  "origin.medievalorigins.troll.description": "Large, lumbering giants who hail from the mountains, trolls are aggressive and self sufficient - they prefer to live and fight alone."
 
 }
