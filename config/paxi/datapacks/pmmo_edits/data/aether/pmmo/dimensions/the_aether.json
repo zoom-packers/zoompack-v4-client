@@ -35,7 +35,15 @@
             "amount": 1
         }
     ],
-    "mob_modifier": {},
+    "mob_modifier": {
+        "aether:slider": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "amount": -13.9,
+                "operation": "MULTIPLY_BASE"
+            }
+        ]
+    },
     "override": false,
     "isTagFor": [],
     "bonus": {}
