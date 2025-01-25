@@ -4,7 +4,7 @@ CIAT_FILE_PATH = 'config\custom_item_attributes.json5'
 server_scripts_path = f'kubejs/server_scripts'
 
 def is_shield_by_id(item_id):
-    for match in ['_shield', '_tower', '_buckler']:
+    for match in ['_shield', '_tower', '_buckler', '_heater']:
         if match in item_id:
             return True
         
