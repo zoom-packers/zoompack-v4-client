@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "sdob:spiral_dungeon_of_babel_black",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 50,
+    "separation": 5,
+    "salt": 2062464127
+  }
+}
