@@ -101,7 +101,7 @@
 
 		[Skills.Entry.engineering]
 			maxLevel = 100
-			icon = "minecraft:textures/item/redstone.png"
+			icon = "supplementaries:textures/item/wrench.png"
 			iconSize = 16
 			color = 16777215
 			noAfkPenalty = false
