@@ -1,5 +1,4 @@
-let techProgLearningBench = "minecraft:lectern"
-let techProgItemInHand = "minecraft:redstone"
+let techProgLearningBench = "kubejs:engineering_table"
 let techProgPmmoSkillName = "engineering"
 
 let techProgMilestones = [
@@ -248,7 +247,6 @@ BlockEvents.rightClicked(event => {
     let player = event.player;
     let block = event.block;
     // Logic: Check if the player is right clicking the learning bench
-    // The player must have the <techProgItemInHand> in their main hand
     // If this is true, we get the player's persistent data and we check their current milestone id
     // Next up we check if they have the required items for the next milestone in their whole inventory
     // If they don't, we send a message to the player telling them they don't have the required items
@@ -281,8 +279,6 @@ BlockEvents.rightClicked(event => {
         player.sendSystemMessage("You've completed all the milestones");
         return;
     }
-
-    if (mainHandItemId !== techProgItemInHand) return;
 
     let hasRequiredItems = techProgPlayerHasMilestoneItems(currentMilestone, player);
 
@@ -396,7 +392,7 @@ function techProgSendCurrentMilestone(player, currentMilestone) {
 }
 
 function techProgSendWelcomeMessage(player) {
-    player.sendSystemMessage("§eWelcome to the technology progression system. §r" +
+    player.sendSystemMessage("§eWelcome to the Engineering progression system. §r" +
         "In order to progress, you need to complete milestones. Each milestone grants you 5 levels in the Engineering skill.");
     player.sendSystemMessage("To §a complete a milestone§r, you need to §3right click the lectern with a piece of redstone in your hand§r. ");
     player.sendSystemMessage("You can §acheck your current milestone§r by §3right clicking the lectern with an empty hand§r. ");

@@ -13,5 +13,11 @@
   "origin.medievalorigins.arachnae.description": "-§l Notable Changes§r: \n§o§2+ Poison, Crowd Control\n+ Wall Climbing§r\n§o§c- Hunger, Armor§r\nA grotesque amalgamation of spider and human, with venomous fangs and bristled feet yet the ability to walk upright and wield weaponry.",
   "origin.medievalorigins.alfiq.description": "-§l Notable Changes§r: \n§o§2+ Unarmed Bonus§r\n§o§2+ Unique Movement§r\n§o§c- Defense§r\n§lAlfiq§r are a cunning species of anthropomorphic felines with sharp claws and excellent agility. Their roads often lead to warm sands.",
   "origin.medievalorigins.wood_elf.description": "-§l Notable Changes§r: \n§o§2+ Ranged Bonuses, Speed§r\n§o§6• Stealthy§r\n§o§c- Melee Damage, Defense§r\n§lWood Elves§r are a wise, long-lived race who live in harmony with the Earth. They are quick with a sword and bow and can outwit their enemies while among the trees.",
-  "power.medievalorigins.alfiq/on_your_feet.description": "You take less falling damage than ususal. If you would take 10 damage normally, the Alfiq would be immune. If you would take more than 10 damage normall, the Alfiq will take only a fraction of it."
+  "power.medievalorigins.alfiq/on_your_feet.description": "You take less falling damage than ususal. If you would take 10 damage normally, the Alfiq would be immune. If you would take more than 10 damage normall, the Alfiq will take only a fraction of it.",
+  "power.medievalorigins.gorgon/petrified.name": "Petrified",
+  "power.medievalorigins.gorgon/petrified.description": "Gorgons were doomed to stay bound in dark caves and old dungeons. Being outside in daylight causes them to slightly petrified until night, enduring various debuffs. Can be negated by wearing a helmet. These debuffs turn into buffs after the sun fades.",
+  "power.medievalorigins.gorgon/hydrophobia.name": "Hydrophobe",
+  "power.medievalorigins.gorgon/hydrophobia.description": "Gorgons can not tolerate the purity of water and slowly take damage from it.",
+  "origin.medievalorigins.troll.description": "Large, lumbering giants who hail from the mountains, trolls are aggressive and self sufficient - they prefer to live and fight alone."
+
 }

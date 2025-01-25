@@ -1,0 +1,52 @@
+{
+	"type": "origins:multiple",
+	"stoned_snake": {
+		"type": "origins:conditioned_attribute",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.max_health",
+				"operation": "multiply_total",
+				"value": -0.3
+			},
+			{
+				"attribute": "minecraft:generic.movement_speed",
+				"operation": "multiply_total",
+				"value": -0.3
+			},
+			{
+				"attribute": "minecraft:generic.attack_damage",
+				"operation": "multiply_total",
+				"value": -0.15
+			}			
+		],
+		"tick_rate": 200,
+		"condition": {
+			"type": "origins:exposed_to_sun"
+		}
+	},
+	"night_rattle_hunter": {
+		"type": "origins:conditioned_attribute",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.max_health",
+				"operation": "multiply_total",
+				"value": 0.3
+			},
+			{
+				"attribute": "minecraft:generic.movement_speed",
+				"operation": "multiply_total",
+				"value": 0.3
+			},
+			{
+				"attribute": "minecraft:generic.attack_damage",
+				"operation": "multiply_total",
+				"value": 0.15
+			}
+		],
+		"tick_rate": 200,
+		"condition": {
+			"inverted": true,
+			"type": "origins:exposed_to_sun"
+		}
+	}
+}
