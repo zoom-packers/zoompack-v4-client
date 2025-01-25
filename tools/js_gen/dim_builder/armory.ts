@@ -3,7 +3,7 @@ import {armoryMaterials} from "./expansions/armory/materials";
 import {existingMaterials, pickaxeLevelModifications, pickaxeLevels} from "./expansions/armory/ores";
 import {Config} from "./lib/config";
 
-Config.instance.skipAssets = false;
+Config.instance.skipAssets = true;
 
 const expansionPack = new ExpansionPack()
     .withNamespace("zoomers_armory")
