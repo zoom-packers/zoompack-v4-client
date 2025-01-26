@@ -10189,10 +10189,10 @@ easy_mob_farm:netherite_ocean_farm
 easy_mob_farm:netherite_swamp_farm
 easy_mob_farm:creative_mob_farm
 easy_mob_farm:iron_golem_farm
-kubejs:apoth_extra_tier_0
-kubejs:apoth_extra_tier_1
-kubejs:apoth_extra_tier_2
-kubejs:apoth_extra_tier_3
+zoomers_extended_apotheosis:radiant_material
+zoomers_extended_apotheosis:celestial_material
+zoomers_extended_apotheosis:angelic_material
+zoomers_extended_apotheosis:godly_material
 zoomers_armory:flint_dagger
 zoomers_armory:flint_shortsword
 zoomers_armory:flint_heavysword

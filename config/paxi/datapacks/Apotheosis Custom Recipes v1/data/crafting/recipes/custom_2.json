@@ -2,13 +2,13 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "kubejs:apoth_extra_tier_1"
+            "item": "zoomers_extended_apotheosis:celestial_material"
         },
         {
             "item": "undergarden:utherium_block"
         },
         {
-            "item": "kubejs:apoth_extra_tier_1"
+            "item": "zoomers_extended_apotheosis:celestial_material"
         },
         {
             "item": "undergarden:froststeel_block"
@@ -20,17 +20,17 @@
             "item": "undergarden:froststeel_block"
         },
         {
-            "item": "kubejs:apoth_extra_tier_1"
+            "item": "zoomers_extended_apotheosis:celestial_material"
         },
         {
             "item": "undergarden:utherium_block"
         },
         {
-            "item": "kubejs:apoth_extra_tier_1"
+            "item": "zoomers_extended_apotheosis:celestial_material"
         }
     ],
     "result": {
-        "item": "kubejs:apoth_extra_tier_2",
+        "item": "zoomers_extended_apotheosis:angelic_material",
         "count": 2
     }
 }

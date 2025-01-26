@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
     event.shaped('zoomers_extended_apotheosis:artisanal_reforging_table', [
         ' B ', "CDC", "FEF"], {
         B: 'aether:zanite_block',
-        C: 'kubejs:apoth_extra_tier_0',
+        C: 'zoomers_extended_apotheosis:radiant_material',
         D: 'apotheosis:reforging_table',
         E: 'aether:ambrosium_block',
         F: 'aether:holystone',
@@ -32,7 +32,7 @@ ServerEvents.recipes((event) => {
     event.shaped('zoomers_extended_apotheosis:enhanced_reforging_table', [
         ' B ', "CDC", "FEF"], {
         B: 'betternether:nether_ruby_block',
-        C: 'kubejs:apoth_extra_tier_1',
+        C: 'zoomers_extended_apotheosis:celestial_material',
         D: 'zoomers_extended_apotheosis:artisanal_reforging_table',
         E: 'betternether:cincinnasite_forged',
         F: 'minecraft:quartz_block',
@@ -41,7 +41,7 @@ ServerEvents.recipes((event) => {
     event.shaped('zoomers_extended_apotheosis:ultimate_reforging_table', [
         ' B ', "CDC", "FEF"], {
         B: 'callfromthedepth_:immemorialingot',
-        C: 'kubejs:apoth_extra_tier_2',
+        C: 'zoomers_extended_apotheosis:angelic_material',
         D: 'zoomers_extended_apotheosis:enhanced_reforging_table',
         E: 'minecraft:sculk_shrieker',
         F: 'minecraft:sculk',
@@ -50,7 +50,7 @@ ServerEvents.recipes((event) => {
     event.shaped('zoomers_extended_apotheosis:god_reforging_table', [
         ' B ', "CDC", "FEF"], {
         B: 'theabyss:fusion_ingot',
-        C: 'kubejs:apoth_extra_tier_3',
+        C: 'zoomers_extended_apotheosis:godly_material',
         D: 'zoomers_extended_apotheosis:ultimate_reforging_table',
         E: 'theabyss:somnium_extractor',
         F: 'theabyss:stone',

@@ -264,11 +264,11 @@ new_default_trade('gemist', ('dotcoinmod:gold_coin', 1), ('blue_skies:loot_bag_s
 new_default_trade('gemist', ('dotcoinmod:gold_coin', 2), ('blue_skies:loot_bag_summoner', 1), 3, 3, loot_table="zoompack_economy:gems/tier_4", item_title = "Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=0, item_title_color="dark_green", item_lore_color="purple")
 new_default_trade('gemist', ('dotcoinmod:gold_coin', 4), ('blue_skies:loot_bag_alchemist', 1), 3, 3, loot_table="zoompack_economy:gems/tier_5", item_title = "Flawless Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=1, item_title_color="light_purple", item_lore_color="purple")
 # Lvl 4
-new_default_trade('gemist', ('dotcoinmod:gold_coin', 8), ('blue_skies:loot_bag_alchemist', 1), 4, 4, loot_table="zoompack_economy:gems/tier_6", item_title = "Smecher Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=1, item_title_color="blue", item_lore_color="purple")
-new_default_trade('gemist', ('dotcoinmod:gold_coin', 16), ('blue_skies:loot_bag_starlit_crusher', 1), 4, 4, loot_table="zoompack_economy:gems/tier_7", item_title = "Pizdos Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=1, item_title_color="red", item_lore_color="purple")
+new_default_trade('gemist', ('dotcoinmod:gold_coin', 8), ('blue_skies:loot_bag_alchemist', 1), 4, 4, loot_table="zoompack_economy:gems/tier_6", item_title = "Radiant Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=1, item_title_color="blue", item_lore_color="purple")
+new_default_trade('gemist', ('dotcoinmod:gold_coin', 16), ('blue_skies:loot_bag_starlit_crusher', 1), 4, 4, loot_table="zoompack_economy:gems/tier_7", item_title = "Celestial Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=1, item_title_color="red", item_lore_color="purple")
 # Lvl 5
-new_default_trade('gemist', ('dotcoinmod:gold_coin', 32), ('blue_skies:loot_bag_starlit_crusher', 1), 5, 5, loot_table="zoompack_economy:gems/tier_8", item_title = "Barosan Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=1, item_title_color="aqua", item_lore_color="purple")
-new_default_trade('gemist', ('dotcoinmod:gold_coin', 64), ('blue_skies:loot_bag_arachnarch', 1), 5, 5, loot_table="zoompack_economy:gems/tier_9", item_title = "Obscen Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=2, item_title_color="yellow", item_lore_color="purple")
+new_default_trade('gemist', ('dotcoinmod:gold_coin', 32), ('blue_skies:loot_bag_starlit_crusher', 1), 5, 5, loot_table="zoompack_economy:gems/tier_8", item_title = "Angelic Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=1, item_title_color="aqua", item_lore_color="purple")
+new_default_trade('gemist', ('dotcoinmod:gold_coin', 64), ('blue_skies:loot_bag_arachnarch', 1), 5, 5, loot_table="zoompack_economy:gems/tier_9", item_title = "Godly Gem Lootbag", item_lore="Right-Click to open the lootbag", rarity=2, item_title_color="yellow", item_lore_color="purple")
 save_villager_config('gemist')
 
 # Animalist

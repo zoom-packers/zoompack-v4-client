@@ -30,26 +30,25 @@
           },
           {
             "type": "minecraft:item",
-            "name": "kubejs:apoth_extra_tier_0",
+            "name": "zoomers_extended_apotheosis:radiant_material",
             "weight": 8
           },
           {
             "type": "minecraft:item",
-            "name": "kubejs:apoth_extra_tier_1",
+            "name": "zoomers_extended_apotheosis:celestial_material",
             "weight": 4
           },
           {
             "type": "minecraft:item",
-            "name": "kubejs:apoth_extra_tier_2",
+            "name": "zoomers_extended_apotheosis:angelic_material",
             "weight": 2
           },
           {
             "type": "minecraft:item",
-            "name": "kubejs:apoth_extra_tier_3",
+            "name": "zoomers_extended_apotheosis:godly_material",
             "weight": 1
           }
         ]
       }
     ]
   }
-  

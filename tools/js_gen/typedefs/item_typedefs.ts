@@ -11112,10 +11112,10 @@ i_iron_golem_farm = "easy_mob_farm:iron_golem_farm",
 
 
 export enum item_kubejs {
-    i_apoth_extra_tier_0 = "kubejs:apoth_extra_tier_0",
-i_apoth_extra_tier_1 = "kubejs:apoth_extra_tier_1",
-i_apoth_extra_tier_2 = "kubejs:apoth_extra_tier_2",
-i_apoth_extra_tier_3 = "kubejs:apoth_extra_tier_3",
+    i_apoth_extra_tier_0 = "zoomers_extended_apotheosis:radiant_material",
+i_apoth_extra_tier_1 = "zoomers_extended_apotheosis:celestial_material",
+i_apoth_extra_tier_2 = "zoomers_extended_apotheosis:angelic_material",
+i_apoth_extra_tier_3 = "zoomers_extended_apotheosis:godly_material",
 i_cincinnasite_diamond_helmet = "kubejs:cincinnasite_diamond_helmet",
 i_cincinnasite_diamond_chestplate = "kubejs:cincinnasite_diamond_chestplate",
 i_cincinnasite_diamond_leggings = "kubejs:cincinnasite_diamond_leggings",

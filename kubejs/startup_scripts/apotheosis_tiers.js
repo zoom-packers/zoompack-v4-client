@@ -1,14 +1,13 @@
 //priority: 500
 
-function createRarityMaterial(e, name, displayName, texture) {
+function createRarityMaterial(e, name, displayName) {
     return e.create(name)
         .displayName(displayName)
-        .texture(texture)
 }
 
 StartupEvents.registry("item", e => {
-    createRarityMaterial(e, "apoth_extra_tier_0", "Milea's Sweat", "kubejs:item/apoth_extra_tier_0")
-    createRarityMaterial(e, "apoth_extra_tier_1", "Calin's Torment", "kubejs:item/apoth_extra_tier_1")
-    createRarityMaterial(e, "apoth_extra_tier_2", "Marius's Tears", "kubejs:item/apoth_extra_tier_2")
-    createRarityMaterial(e, "apoth_extra_tier_3", "Emi's Blood", "kubejs:item/apoth_extra_tier_3")
+    createRarityMaterial(e, "zoomers_extended_apotheosis:radiant_material", "Spectral Dust")
+    createRarityMaterial(e, "zoomers_extended_apotheosis:celestial_material", "Ethereal Essence")
+    createRarityMaterial(e, "zoomers_extended_apotheosis:angelic_material", "Astral Breath")
+    createRarityMaterial(e, "zoomers_extended_apotheosis:godly_material", "God Eye")
 })

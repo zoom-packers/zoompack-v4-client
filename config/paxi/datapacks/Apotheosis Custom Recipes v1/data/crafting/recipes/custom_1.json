@@ -2,13 +2,13 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "kubejs:apoth_extra_tier_0"
+            "item": "zoomers_extended_apotheosis:radiant_material"
         },
         {
             "item": "betternether:cincinnasite_ingot"
         },
         {
-            "item": "kubejs:apoth_extra_tier_0"
+            "item": "zoomers_extended_apotheosis:radiant_material"
         },
         {
             "item": "betternether:cincinnasite_ingot"
@@ -20,17 +20,17 @@
             "item": "betternether:cincinnasite_ingot"
         },
         {
-            "item": "kubejs:apoth_extra_tier_0"
+            "item": "zoomers_extended_apotheosis:radiant_material"
         },
         {
             "item": "betternether:cincinnasite_ingot"
         },
         {
-            "item": "kubejs:apoth_extra_tier_0"
+            "item": "zoomers_extended_apotheosis:radiant_material"
         }
     ],
     "result": {
-        "item": "kubejs:apoth_extra_tier_1",
+        "item": "zoomers_extended_apotheosis:celestial_material",
         "count": 2
     }
 }
