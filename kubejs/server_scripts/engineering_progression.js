@@ -194,7 +194,7 @@ let lockedBlocksPmmoLevels = {
     "create:gearbox": 10,
     "copycats:copycat_cogwheel": 10,
     "copycats:copycat_large_cogwheel": 10,
-    "create:mechanical_press": 15,
+    "create:mechanical_press": 10,
     "create:mechanical_mixer": 15,
     "create:mechanical_piston": 15,
     "create:sticky_mechanical_piston": 15,

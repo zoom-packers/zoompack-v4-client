@@ -417,7 +417,7 @@ function modifyCreate() {
     processor.modifyPlaceBlockRequirements("create", "gearbox", "engineering", 10);
     processor.modifyPlaceBlockRequirements("copycats", "copycat_cogwheel", "engineering", 10);
     processor.modifyPlaceBlockRequirements("copycats", "copycat_large_cogwheel", "engineering", 10);
-    processor.modifyPlaceBlockRequirements("create", "mechanical_press", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "mechanical_press", "engineering", 10);
     processor.modifyPlaceBlockRequirements("create", "gearbox", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_mixer", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_piston", "engineering", 15);
