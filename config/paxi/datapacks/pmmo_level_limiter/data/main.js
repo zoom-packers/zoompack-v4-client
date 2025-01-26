@@ -418,6 +418,7 @@ function modifyCreate() {
     processor.modifyPlaceBlockRequirements("copycats", "copycat_cogwheel", "engineering", 10);
     processor.modifyPlaceBlockRequirements("copycats", "copycat_large_cogwheel", "engineering", 10);
     processor.modifyPlaceBlockRequirements("create", "mechanical_press", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("createlowheated", "basic_burner", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "gearbox", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_mixer", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_piston", "engineering", 15);
@@ -436,8 +437,8 @@ function modifyCreate() {
     processor.modifyPlaceBlockRequirements("create", "mechanical_arm", "engineering", 25);
     processor.modifyPlaceBlockRequirements("create", "mechanical_pump", "engineering", 30);
     processor.modifyPlaceBlockRequirements("create", "steam_engine", "engineering", 30);
-    processor.modifyPlaceBlockRequirements("create", "blaze_burner", "engineering", 15);
-    processor.modifyPlaceBlockRequirements("create", "empty_blaze_burner", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "blaze_burner", "engineering", 30);
+    processor.modifyPlaceBlockRequirements("create", "empty_blaze_burner", "engineering", 30);
     processor.modifyPlaceBlockRequirements("createaddition", "electric_motor", "engineering", 35);
     processor.modifyPlaceBlockRequirements("createaddition", "alternator", "engineering", 35);
 }
