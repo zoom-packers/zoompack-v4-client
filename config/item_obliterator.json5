@@ -24,7 +24,20 @@
     "enderitemod:enderite_bow",
     "enderitemod:enderite_crossbow",
     "ender_dragon_loot_:dragon_paxel",
-    "call_of_yucutan:wand_of_radiance"
+    "call_of_yucutan:wand_of_radiance",
+    "aether:leather_gloves",
+    "aether:iron_gloves",
+    "aether:chainmail_gloves",
+    "aether:golden_gloves",
+    "aether:diamond_gloves",
+    "aether:netherite_gloves",
+    "aether:zanite_gloves",
+    "aether:gravitite_gloves",
+    "aether:neptune_gloves",
+    "aether:valkyrie_gloves",
+    "aether:phoenix_gloves",
+    "aether:obsidian_gloves",
+    "lost_aether_content:power_gloves"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
