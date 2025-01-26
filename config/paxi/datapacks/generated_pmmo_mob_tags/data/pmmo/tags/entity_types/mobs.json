@@ -745,6 +745,7 @@
         "endlessbiomes:riftite_sentinel",
         "endlessbiomes:projectile_penumbral_disk",
         "endlessbiomes:resistive_sentinel",
-        "lost_aether_content:aerwhale_king"
+        "lost_aether_content:aerwhale_king",
+        "battletowers:battle_tower_golem"
     ]
 }
