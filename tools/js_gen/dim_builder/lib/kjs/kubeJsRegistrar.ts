@@ -81,6 +81,10 @@ export class KubeJsRegistrar extends BasicDataHolder<KubeJsRegistrar> {
         this.items.push(new KubeJsItem().withId(id).withType(type).withDisplayName(displayName).withTier(tier).toString());
     }
 
+    registerGlovesItem(id: string, attackDamage: number, durability: number, repairIngredient: string) {
+        this.items.push(`e.create("${id}", "gloves").attackDamage(${attackDamage}).maxDamage(${durability}).material(999, Ingredient.of("${repairIngredient}"));`);
+    }
+
     registerCurioVariant(id: string, displayName: string, attributes: CiaModifier[]) {
         this.curios.push(`global.createCurio(e, "${id}", "${displayName}", ${JSON.stringify(attributes)});`);
     }

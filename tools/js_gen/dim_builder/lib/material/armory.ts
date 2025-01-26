@@ -17,7 +17,7 @@ import {combine} from "../textureGen/util";
 import {WorkingTexture} from "../textureGen/workingTexture";
 import {IArmory} from "./IArmory";
 import {PolymorphArmoryVariants} from "../armory/polymorphArmoryVariants";
-import {ArmorVariant, BaseVariant, ChromaKeyOperation, CurioVariant, ToolVariant} from "./ArmoryTypes";
+import {ArmorVariant, BaseVariant, ChromaKeyOperation, CurioVariant, GlovesVariant, ToolVariant} from "./ArmoryTypes";
 import {GeckoArmorArmoryEntry, SimpleArmorArmoryEntry} from "./geckoArmorArmoryEntry";
 import path from "path";
 import {Config} from "../config";
@@ -152,6 +152,8 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                     attributes = [...attributes, ...leveledAttributes];
                 }
                 this.kubeJsContainer.registrar.registerCurioVariant(id, displayName, attributes);
+            } else if (PolymorphArmoryVariants.GLOVES.includes(<GlovesVariant>type)) {
+                this.kubeJsContainer.registrar.registerGlovesItem(id, this.harvestLevel * 0.25, this.durability * type.durabilityMultiplier, this.craftingMaterial);
             } else {
                 this.kubeJsContainer.registrar.registerArmoryItem(id, itemType, displayName, durability,`${modId}:${material.internalName}`);
             }
@@ -204,6 +206,20 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             }
             const id = `${this.internalNamespace}:${this.material.internalName}_${necklace.id}`;
             this.kubeJsContainer.tagger.tagItem(id, "curios:necklace");
+        }
+        for (const glove of PolymorphArmoryVariants.GLOVES) {
+            if (this.shouldSkip(glove)) {
+                continue;
+            }
+            const id = `${this.internalNamespace}:${this.material.internalName}_${glove.id}`;
+            this.kubeJsContainer.tagger.tagItem(id, "aether:accessories_gloves");
+        }
+        for (const necklace of PolymorphArmoryVariants.CURIO_GLOVES) {
+            if (this.shouldSkip(necklace)) {
+                continue;
+            }
+            const id = `${this.internalNamespace}:${this.material.internalName}_${necklace.id}`;
+            this.kubeJsContainer.tagger.tagItem(id, "aether:accessories_gloves");
         }
         this.kubeJsContainer.tagger.tagItem(this.craftingMaterial, this.craftingMaterial);
     }
@@ -338,7 +354,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
 
         const material = this.material;
         const materialIdPart = material.internalName;
-        const simpleModelTypes = [...PolymorphArmoryVariants.SWORDS, ...PolymorphArmoryVariants.TOOLS, ...PolymorphArmoryVariants.ARMORS, ...PolymorphArmoryVariants.CURIOS]
+        const simpleModelTypes = [...PolymorphArmoryVariants.SWORDS, ...PolymorphArmoryVariants.TOOLS, ...PolymorphArmoryVariants.ARMORS, ...PolymorphArmoryVariants.CURIOS, ...PolymorphArmoryVariants.GLOVES];
         // TODO Expand Armory to generate Armors & Tools
         for (const type of simpleModelTypes) {
             if (this.shouldSkip(type)) {
@@ -477,7 +493,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         ensureFolderExists(outputTexturesDir);
         // SWORDS & SHIELDS
         const material = this.material;
-        const types = [...PolymorphArmoryVariants.SWORDS, ...PolymorphArmoryVariants.SHIELDS, ...PolymorphArmoryVariants.TOOLS, ...PolymorphArmoryVariants.ARMORS, ...PolymorphArmoryVariants.CURIOS];
+        const types = [...PolymorphArmoryVariants.SWORDS, ...PolymorphArmoryVariants.SHIELDS, ...PolymorphArmoryVariants.TOOLS, ...PolymorphArmoryVariants.ARMORS, ...PolymorphArmoryVariants.CURIOS, ...PolymorphArmoryVariants.GLOVES];
         for (const type of types) {
             if (this.shouldSkip(type)) {
                 continue;
