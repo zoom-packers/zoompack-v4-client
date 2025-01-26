@@ -436,8 +436,8 @@ function modifyCreate() {
     processor.modifyPlaceBlockRequirements("create", "mechanical_arm", "engineering", 25);
     processor.modifyPlaceBlockRequirements("create", "mechanical_pump", "engineering", 30);
     processor.modifyPlaceBlockRequirements("create", "steam_engine", "engineering", 30);
-    processor.modifyPlaceBlockRequirements("create", "blaze_burner", "engineering", 30);
-    processor.modifyPlaceBlockRequirements("create", "empty_blaze_burner", "engineering", 30);
+    processor.modifyPlaceBlockRequirements("create", "blaze_burner", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "empty_blaze_burner", "engineering", 15);
     processor.modifyPlaceBlockRequirements("createaddition", "electric_motor", "engineering", 35);
     processor.modifyPlaceBlockRequirements("createaddition", "alternator", "engineering", 35);
 }

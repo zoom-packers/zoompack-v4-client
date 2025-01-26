@@ -212,8 +212,8 @@ let lockedBlocksPmmoLevels = {
     "create:mechanical_arm": 25,
     "create:mechanical_pump": 30,
     "create:steam_engine": 30,
-    "create:blaze_burner": 30,
-    "create:empty_blaze_burner": 30,
+    "create:blaze_burner": 15,
+    "create:empty_blaze_burner": 15,
     "createaddition:electric_motor": 35,
     "createaddition:alternator": 35,
 
