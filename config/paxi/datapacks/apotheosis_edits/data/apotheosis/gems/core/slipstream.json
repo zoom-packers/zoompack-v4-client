@@ -18,15 +18,15 @@
       "operation": "MULTIPLY_BASE",
       "values": {
         "common": 0.1,
-        "uncommon": 0.25,
-        "rare": 0.35,
-        "epic": 0.45,
-        "mythic": 0.5,
-        "ancient": 1.55,
-        "custom_0": 0.63,
-        "custom_1": 0.79,
-        "custom_2": 0.99,
-        "custom_3": 1.24
+        "uncommon": 0.13,
+        "rare": 0.15,
+        "epic": 0.19,
+        "mythic": 0.23,
+        "ancient": 0.6,
+        "custom_0": 0.29,
+        "custom_1": 0.35,
+        "custom_2": 0.42,
+        "custom_3": 0.5
       }
     },
     {

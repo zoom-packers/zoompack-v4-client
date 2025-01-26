@@ -5,6 +5,7 @@ import {ensureFolderExists, kubejsServerScriptsPath, kubejsStartupScriptsPath} f
 import {KubeJSBlock, KubeJsItem} from "./kubeJsItem";
 import {GENERAL_DURABILITY_MULTIPLIER, PER_TIER_MULTIPLIER} from "../material/armory";
 import {CiaModifier} from "../cia/util";
+import {createUuid} from "../uuid_util";
 
 export const REGISTRATION_TEMPLATE =`
 StartupEvents.registry({type}, e => {
@@ -86,6 +87,10 @@ export class KubeJsRegistrar extends BasicDataHolder<KubeJsRegistrar> {
     }
 
     registerCurioVariant(id: string, displayName: string, attributes: CiaModifier[]) {
+        attributes.forEach(attribute => {
+            const seed = id + attribute.attribute + attribute.operation;
+            attribute.uuid = createUuid(seed);
+        })
         this.curios.push(`global.createCurio(e, "${id}", "${displayName}", ${JSON.stringify(attributes)});`);
     }
 

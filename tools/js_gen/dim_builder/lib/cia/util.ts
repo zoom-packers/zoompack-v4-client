@@ -14,6 +14,7 @@ export enum operation {
  * A CIA attribute modifier
  */
 export interface CiaModifier {
+    uuid?: string | undefined;
     attribute: string;
     value: number;
     operation: operation;

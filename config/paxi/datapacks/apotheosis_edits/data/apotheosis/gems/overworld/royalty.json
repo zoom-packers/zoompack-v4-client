@@ -39,7 +39,7 @@
         "minecraft:generic.luck",
         "attributeslib:armor_pierce",
         "attributeslib:armor_shred",
-        "attributeslib:arrow_damage",
+        "projectile_damage:generic",
         "attributeslib:arrow_velocity",
         "attributeslib:cold_damage",
         "attributeslib:crit_chance",

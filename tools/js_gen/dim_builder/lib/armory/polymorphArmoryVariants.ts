@@ -973,10 +973,8 @@ export class PolymorphArmoryVariants {
         modelType: "normal",
         pmmoSkill: "archery",
         additionalAttributesPerLevel: [
-            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.ADDITION, 0.1),
-            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.MULTIPLY_BASE, 0.05),
+            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.ADDITION, 0.01),
             CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.ADDITION, 0.02),
-            CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.MULTIPLY_BASE, 0.01),
         ],
         textureGenDetails: {
             textureName: "ring_1.png",
@@ -1110,10 +1108,8 @@ export class PolymorphArmoryVariants {
         modelType: "normal",
         pmmoSkill: "archery",
         additionalAttributesPerLevel: [
-            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.ADDITION, 0.1),
-            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.MULTIPLY_BASE, 0.05),
+            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.ADDITION, 0.01),
             CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.ADDITION, 0.03),
-            CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.MULTIPLY_BASE, 0.01),
         ],
         textureGenDetails: {
             textureName: "necklace_1.png",
@@ -1250,10 +1246,8 @@ export class PolymorphArmoryVariants {
         modelType: "normal",
         pmmoSkill: "archery",
         additionalAttributesPerLevel: [
-            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.ADDITION, 0.1),
-            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.MULTIPLY_BASE, 0.05),
+            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.ADDITION, 0.01),
             CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.ADDITION, 0.015),
-            CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.MULTIPLY_BASE, 0.01),
         ],
         textureGenDetails: {
             textureName: "sharpshooter_gloves.png",

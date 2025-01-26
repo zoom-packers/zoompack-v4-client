@@ -1,8 +1,12 @@
 import {CiaModifierBuilder, operation} from "./lib/cia/util";
-import {attribute_minecraft, attribute_projectile_damage} from "../typedefs/attribute_typedefs";
+import {
+    attribute_attributeslib,
+    attribute_minecraft,
+    attribute_projectile_damage
+} from "../typedefs/attribute_typedefs";
 import {ArmorVariant, ChromaCreator} from "./lib/material/ArmoryTypes";
 import {createHealthPerLevelAttributes} from "./lib/armory/polymorphArmoryVariants";
-import {GeckoArmorArmoryEntry, SimpleArmorArmoryEntry} from "./lib/material/geckoArmorArmoryEntry";
+import {GeckoArmorArmoryEntry} from "./lib/material/geckoArmorArmoryEntry";
 import path from "path";
 
 const archerAssetsPath = path.join("mc", "assets", "_custom");
@@ -19,13 +23,15 @@ const rangerAttributes = [
 ]
 
 const archerAttributesPerLevel = [
-    CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.ADDITION, 1),
-    CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.MULTIPLY_BASE, 0.02),
+    CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.ADDITION, 0.45),
+    CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.MULTIPLY_BASE, 0.0055),
+    CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.ADDITION, 0.0075),
 ]
 
 const rangerAttributesPerLevel = [
-    CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.ADDITION, 1.25),
-    CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.MULTIPLY_BASE, 0.015),
+    CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.ADDITION, 0.35),
+    CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.MULTIPLY_BASE, 0.0068),
+    CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.ADDITION, 0.005),
 ]
 
 const archerHelmetVariant: ArmorVariant = {
@@ -41,7 +47,7 @@ const archerHelmetVariant: ArmorVariant = {
     modelType: "normal",
     pmmoSkill: "archery",
     additionalAttributes: archerAttributes,
-    additionalAttributesPerLevel: [...rangerAttributesPerLevel, ...createHealthPerLevelAttributes('helmet', 'light')]
+    additionalAttributesPerLevel: [...archerAttributesPerLevel, ...createHealthPerLevelAttributes('helmet', 'light')]
 }
 
 const archerChestplateVariant: ArmorVariant = {
@@ -57,7 +63,7 @@ const archerChestplateVariant: ArmorVariant = {
     modelType: "normal",
     pmmoSkill: "archery",
     additionalAttributes: archerAttributes,
-    additionalAttributesPerLevel: [...rangerAttributesPerLevel, ...createHealthPerLevelAttributes('chestplate', 'light')]
+    additionalAttributesPerLevel: [...archerAttributesPerLevel, ...createHealthPerLevelAttributes('chestplate', 'light')]
 }
 
 const archerLeggingsVariant: ArmorVariant = {
@@ -73,7 +79,7 @@ const archerLeggingsVariant: ArmorVariant = {
     modelType: "normal",
     pmmoSkill: "archery",
     additionalAttributes: archerAttributes,
-    additionalAttributesPerLevel: [...rangerAttributesPerLevel, ...createHealthPerLevelAttributes('leggings', 'light')]
+    additionalAttributesPerLevel: [...archerAttributesPerLevel, ...createHealthPerLevelAttributes('leggings', 'light')]
 }
 
 const archerBootsVariant: ArmorVariant = {
@@ -89,7 +95,7 @@ const archerBootsVariant: ArmorVariant = {
     modelType: "normal",
     pmmoSkill: "archery",
     additionalAttributes: archerAttributes,
-    additionalAttributesPerLevel: [...rangerAttributesPerLevel, ...createHealthPerLevelAttributes('boots', 'light')]
+    additionalAttributesPerLevel: [...archerAttributesPerLevel, ...createHealthPerLevelAttributes('boots', 'light')]
 }
 
 const rangerHelmetVariant: ArmorVariant = {
