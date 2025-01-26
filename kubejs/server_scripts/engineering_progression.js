@@ -9,10 +9,78 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "minecraft:redstone",
-                amount: 64
+                amount: 32
+            }
+        ],
+        pmmoLevelSet: 2,
+    },
+    {
+        id: "the_signal_source",
+        name: "The Signal Source",
+        description: "Controll the signal by using it's source",
+        requirements: [
+            {
+                item: "minecraft:redstone_block",
+                amount: 5
+            }
+        ],
+        pmmoLevelSet: 3,
+    },
+    {
+        id: "slighly_conductive_metal",
+        name: "Slightly Conductive Metal",
+        description: "Metals can be used to craft all sorts of things. Including machines.",
+        requirements: [
+            {
+                item: "minecraft:iron",
+                amount: 16
+            }
+        ],
+        pmmoLevelSet: 4,
+    },
+    {
+        id: "the_path_to_casing",
+        name: "The Path To Casing",
+        description: "All the machinees must be put inside a casing.",
+        requirements: [
+            {
+                item: "minecraft:andesite",
+                amount: 8
+            },
+            {
+                item: "create:zinc_nugget",
+                amount: 8
             }
         ],
         pmmoLevelSet: 5,
+    },
+    {
+        id: "with_your_own_hand",
+        name: "With Your Own Hand",
+        description: "You can use your arms muscle to spin the shafts.",
+        requirements: [
+            {
+                item: "create:shaft",
+                amount: 16
+            }
+        ],
+        pmmoLevelSet: 6,
+    },
+    {
+        id: "the_prime_resources",
+        name: "The Prime Resources",
+        description: "The Wheels can move when applied force",
+        requirements: [
+            {
+                item: "create:zinc_ingot",
+                amount: 8
+            },
+            {
+                item: "minecraft:copper_ingot",
+                amount: 8
+            }
+        ],
+        pmmoLevelSet: 7,
     },
     {
         id: "mechanical_power",
@@ -187,16 +255,20 @@ let techProgMilestones = [
 let lockedBlocksPmmoLevels = {
     // Create
     "create:andesite_casing": 5,
-    "create:shaft": 10,
-    "create:cogwheel": 10,
-    "create:large_cogwheel": 10,
-    "create:hand_crank": 10,
+    "create:shaft": 6,
+    "create:hand_crank": 6,
+    "create:cogwheel": 7,
+    "create:large_cogwheel": 8,
+    "create:windmill_bearing": 10,
     "create:gearbox": 10,
+    "create:clutch": 10,
     "copycats:copycat_cogwheel": 10,
     "copycats:copycat_large_cogwheel": 10,
     "create:mechanical_press": 10,
     "createlowheated:basic_burner": 15,
+    "create:encased_fan": 15,
     "create:mechanical_mixer": 15,
+    "createaddition:rolling_mill": 15,
     "create:mechanical_piston": 15,
     "create:sticky_mechanical_piston": 15,
     "create:mechanical_bearing": 15,

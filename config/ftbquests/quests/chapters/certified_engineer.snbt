@@ -1,0 +1,105 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "certified_engineer"
+	group: "13CD0C62E96AC261"
+	icon: {
+		Count: 1
+		id: "supplementaries:wrench"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "60FEED1EB65D5470"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Are you ready to embrace industrialization?"
+				""
+				"It all starts with connecting components with the right connectors. Collect more and in abbundance to progress further!"
+			]
+			id: "26FA81FDB8F7F77D"
+			rewards: [
+				{
+					id: "44A3C7FCA611DAD6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6B3DC987371332F2"
+					item: "minecraft:redstone_torch"
+					type: "item"
+				}
+			]
+			subtitle: "Just the Begining"
+			tasks: [{
+				id: "5B590B21D49ADFA5"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "Red Powder"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["26FA81FDB8F7F77D"]
+			description: [
+				"It's about time you progress further with engineering and become an novice engineer."
+				""
+				"If you wish to unlock more engineering items and blocks do some learning about them."
+				""
+				"Redstone is a very good start as it's the base of connecting blocks with signals."
+				""
+				"Check out the Engineering Table for more!"
+			]
+			id: "530490109902DD98"
+			rewards: [
+				{
+					count: 2
+					id: "411CA606743E2618"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3A082A06810DD665"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Start your engineering journey"
+			tasks: [{
+				count: 64L
+				id: "3CC40C8A73995D1C"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "The Beginning"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "3162EC02ACE82342"
+			rewards: [{
+				id: "4465163F9D829B0D"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "create:wrench"
+				id: "124A3A9BC4F627EC"
+				requiredLevel: 5
+				skill: "engineering"
+				title: "Reach Engineering Level 5"
+				type: "pmmo:skill"
+			}]
+			title: "Novice Engineer"
+			x: 2.5d
+			y: -2.5d
+		}
+	]
+	subtitle: ["Embrance the industrialization"]
+	title: "Certified Engineer"
+}

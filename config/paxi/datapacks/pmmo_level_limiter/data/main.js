@@ -410,17 +410,21 @@ function modifySophisticatedStorage() {
 
 function modifyCreate() {
     processor.modifyPlaceBlockRequirements("create", "andesite_casing", "engineering", 5);
-    processor.modifyPlaceBlockRequirements("create", "shaft", "engineering", 10);
-    processor.modifyPlaceBlockRequirements("create", "cogwheel", "engineering", 10);
-    processor.modifyPlaceBlockRequirements("create", "large_cogwheel", "engineering", 10);
-    processor.modifyPlaceBlockRequirements("create", "hand_crank", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "shaft", "engineering", 6);
+    processor.modifyPlaceBlockRequirements("create", "hand_crank", "engineering", 6);
+    processor.modifyPlaceBlockRequirements("create", "cogwheel", "engineering", 7);
+    processor.modifyPlaceBlockRequirements("create", "large_cogwheel", "engineering", 8);
+    processor.modifyPlaceBlockRequirements("create", "windmill_bearing", "engineering", 10);
     processor.modifyPlaceBlockRequirements("create", "gearbox", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "clutch", "engineering", 10);
     processor.modifyPlaceBlockRequirements("copycats", "copycat_cogwheel", "engineering", 10);
     processor.modifyPlaceBlockRequirements("copycats", "copycat_large_cogwheel", "engineering", 10);
     processor.modifyPlaceBlockRequirements("create", "mechanical_press", "engineering", 10);
     processor.modifyPlaceBlockRequirements("createlowheated", "basic_burner", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "encased_fan", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "gearbox", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_mixer", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("createaddition", "rolling_mill", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_piston", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "sticky_mechanical_piston", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_bearing", "engineering", 15);
