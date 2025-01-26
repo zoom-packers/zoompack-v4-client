@@ -54,6 +54,10 @@ export type ArmorVariant = BaseVariant & {
     knockbackResistanceMultiplier: number
 }
 
+export type GlovesVariant = BaseVariant & {
+    damagePerLevel: number,
+}
+
 export type AnyVariant = SwordVariant | ShieldVariant | BowVariant | CrossbowVariant | ToolVariant | ArmorVariant;
 
 

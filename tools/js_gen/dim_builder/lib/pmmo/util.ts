@@ -163,6 +163,7 @@ const item_functions = {
     "chestplate": armor,
     "leggings": armor,
     "boots": armor,
+    "gloves": armor,
     "axe": axe,
     "sword": sword,
     "shield": armor,
@@ -284,6 +285,9 @@ function writeJson(template, filePath) {
 function createItemRequirement(type, level) {
     let template = undefined;
     let templateFunction = item_functions[type];
+    if (!templateFunction) {
+        debugger;
+    }
     if (templateFunction === tool) {
         template = templateFunction(tool_skills[type], level);
     } else {

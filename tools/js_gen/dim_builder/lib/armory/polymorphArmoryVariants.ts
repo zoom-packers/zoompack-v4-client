@@ -2,7 +2,7 @@ import {
     ArmorVariant,
     BaseVariant,
     BowVariant, ChromaCreator, ChromaKeyOperation,
-    CrossbowVariant, CurioVariant,
+    CrossbowVariant, CurioVariant, GlovesVariant,
     ShieldVariant,
     SwordVariant,
     ToolVariant
@@ -884,11 +884,25 @@ export class PolymorphArmoryVariants {
         ]
     }
 
+    // public static readonly GLOVES_VARIANT: GlovesVariant = {
+    //     id: "gloves",
+    //     type: "armor",
+    //     durabilityMultiplier: 1,
+    //     modelType: "normal",
+    //     displayName: "Gloves",
+    //     recipe: ["", "", "", "material", "", "material", "", "", ""],
+    //     damagePerLevel: 0.25,
+    //     pmmoSkill: "combat",
+    // }
+
     public static readonly ARMORS: ArmorVariant[] = [
         PolymorphArmoryVariants.HELMET_VARIANT,
         PolymorphArmoryVariants.CHESTPLATE_VARIANT,
         PolymorphArmoryVariants.LEGGINGS_VARIANT,
         PolymorphArmoryVariants.BOOTS_VARIANT
+    ];
+
+    public static readonly GLOVES: GlovesVariant[] = [
     ];
     //#endregion
 
@@ -946,6 +960,27 @@ export class PolymorphArmoryVariants {
         textureGenDetails: {
             textureName: "ring_1.png",
             chromaKeyOperations: PolymorphArmoryVariants.createRingChroma("#000000", "#50bf21")
+        }
+    }
+
+    private static readonly SHARPSHOOTER_RING_VARIANT: CurioVariant = {
+        id: "sharpshooter_ring",
+        type: "curio",
+        slot: "ring",
+        displayName: "Sharpshooter Ring",
+        recipe: ["", "material", "", "material", item_irons_spellbooks.i_blood_rune, "material", "", "material", ""],
+        durabilityMultiplier: 1,
+        modelType: "normal",
+        pmmoSkill: "archery",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.ADDITION, 0.1),
+            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.MULTIPLY_BASE, 0.05),
+            CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.ADDITION, 0.02),
+            CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.MULTIPLY_BASE, 0.01),
+        ],
+        textureGenDetails: {
+            textureName: "ring_1.png",
+            chromaKeyOperations: PolymorphArmoryVariants.createRingChroma("#000000", "#7f1212")
         }
     }
 
@@ -1017,6 +1052,7 @@ export class PolymorphArmoryVariants {
     public static readonly RINGS: CurioVariant[] = [
         PolymorphArmoryVariants.MANA_RING_VARIANT,
         PolymorphArmoryVariants.DEXTERITY_RING_VARIANT,
+        PolymorphArmoryVariants.SHARPSHOOTER_RING_VARIANT,
         PolymorphArmoryVariants.BERSERKER_RING_VARIANT,
         PolymorphArmoryVariants.FORTIFIED_RING_VARIANT,
         PolymorphArmoryVariants.INFUSED_RING_VARIANT
@@ -1060,6 +1096,28 @@ export class PolymorphArmoryVariants {
         textureGenDetails: {
             textureName: "necklace_1.png",
             chromaKeyOperations: PolymorphArmoryVariants.createNecklaceChroma("#000000", "#50bf21")
+        }
+    }
+
+
+    private static readonly SHARPSHOOTER_NECKLACE_VARIANT: CurioVariant = {
+        id: "sharpshooter_necklace",
+        type: "curio",
+        slot: "necklace",
+        displayName: "Sharpshooter Necklace",
+        recipe: ["material", "", "material", "material", "minecraft:bow", "material", "", item_irons_spellbooks.i_blood_rune, ""],
+        durabilityMultiplier: 1,
+        modelType: "normal",
+        pmmoSkill: "archery",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.ADDITION, 0.1),
+            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.MULTIPLY_BASE, 0.05),
+            CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.ADDITION, 0.03),
+            CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.MULTIPLY_BASE, 0.01),
+        ],
+        textureGenDetails: {
+            textureName: "necklace_1.png",
+            chromaKeyOperations: PolymorphArmoryVariants.createNecklaceChroma("#000000", "#7f1212")
         }
     }
 
@@ -1131,14 +1189,166 @@ export class PolymorphArmoryVariants {
     public static readonly NECKLACES: CurioVariant[] = [
         PolymorphArmoryVariants.MANA_NECKLACE_VARIANT,
         PolymorphArmoryVariants.DEXTERITY_NECKLACE_VARIANT,
+        PolymorphArmoryVariants.SHARPSHOOTER_NECKLACE_VARIANT,
         PolymorphArmoryVariants.BERSERKER_NECKLACE_VARIANT,
         PolymorphArmoryVariants.FORTIFIED_NECKLACE_VARIANT,
         PolymorphArmoryVariants.INFUSED_NECKLACE_VARIANT
     ];
 
+    private static readonly MANA_GLOVES_VARIANT: CurioVariant = {
+        id: "mana_gloves",
+        type: "curio",
+        slot: "hands",
+        displayName: "Gloves",
+        recipe: ["", "", "", "material", item_irons_spellbooks.i_arcane_rune, "material", "", "", ""],
+        durabilityMultiplier: 1,
+        modelType: "normal",
+        pmmoSkill: "magic",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_max_mana, operation.ADDITION, 7.5),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_max_mana, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_mana_regen, operation.ADDITION, 0.015),
+        ],
+        textureGenDetails: {
+            textureName: "mana_gloves.png",
+            chromaKeyOperations: [
+                ChromaCreator.create("#B3B3B3", "#000000", 0.1, "linear"),
+            ]
+        }
+    }
+
+    private static readonly DEXTERITY_GLOVES_VARIANT: CurioVariant = {
+        id: "dexterity_gloves",
+        type: "curio",
+        slot: "hands",
+        displayName: "Gloves",
+        recipe: ["", "", "", "material", item_irons_spellbooks.i_lightning_rune, "material", "", "", ""],
+        durabilityMultiplier: 1,
+        modelType: "normal",
+        pmmoSkill: "archery",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.ADDITION, 1.5),
+            CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 1.5),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.01),
+        ],
+        textureGenDetails: {
+            textureName: "dexterity_gloves.png",
+            chromaKeyOperations: [
+                ChromaCreator.create("#B3B3B3", "#000000", 0.05, "linear"),
+            ]
+        }
+    }
+
+    private static readonly SHARPSHOOTER_GLOVES_VARIANT: CurioVariant = {
+        id: "sharpshooter_gloves",
+        type: "curio",
+        slot: "hands",
+        displayName: "Gloves",
+        recipe: ["", "", "", "material", item_irons_spellbooks.i_blood_rune, "material", "", "", ""],
+        durabilityMultiplier: 1,
+        modelType: "normal",
+        pmmoSkill: "archery",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.ADDITION, 0.1),
+            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.MULTIPLY_BASE, 0.05),
+            CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.ADDITION, 0.015),
+            CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.MULTIPLY_BASE, 0.01),
+        ],
+        textureGenDetails: {
+            textureName: "sharpshooter_gloves.png",
+            chromaKeyOperations: [
+                ChromaCreator.create("#B3B3B3", "#000000", 0.1, "linear"),
+            ]
+        }
+    }
+
+    private static readonly BERSERKER_GLOVES_VARIANT: CurioVariant = {
+        id: "berserker_gloves",
+        type: "curio",
+        slot: "hands",
+        displayName: "Gloves",
+        recipe: ["", "", "", "material", item_irons_spellbooks.i_fire_rune, "material", "", "", ""],
+        durabilityMultiplier: 1,
+        modelType: "normal",
+        pmmoSkill: "combat",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_attack_damage, operation.ADDITION, 1.5),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_attack_damage, operation.MULTIPLY_BASE, 0.01),
+        ],
+        textureGenDetails: {
+            textureName: "berserker_gloves.png",
+            chromaKeyOperations: [
+                ChromaCreator.create("#E3F3F3", "#000000", 0.1, "linear"),
+                ChromaCreator.create("#DBA213", "#db3113", 0.1, "linear"),
+            ]
+        }
+    }
+
+    private static readonly FORTIFIED_GLOVES_VARIANT: CurioVariant = {
+        id: "fortified_gloves",
+        type: "curio",
+        slot: "hands",
+        displayName: "Gloves",
+        recipe: ["", "", "", "material", item_irons_spellbooks.i_protection_rune, "material", "", "", ""],
+        durabilityMultiplier: 1,
+        modelType: "normal",
+        pmmoSkill: "endurance",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_armor, operation.ADDITION, 1.5),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_armor, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_armor_toughness, operation.ADDITION, 1.5),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_armor_toughness, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_knockback_resistance, operation.ADDITION, 1.5),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_knockback_resistance, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_max_health, operation.ADDITION, 1.5),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_max_health, operation.MULTIPLY_BASE, 0.01),
+        ],
+        textureGenDetails: {
+            textureName: "fortified_gloves.png",
+            chromaKeyOperations: [
+                ChromaCreator.create("#E3F3F3", "#000000", 0.1, "linear"),
+            ]
+        }
+    }
+
+    private static readonly INFUSED_GLOVES_VARIANT: CurioVariant = {
+        id: "infused_gloves",
+        type: "curio",
+        slot: "hands",
+        displayName: "Gloves",
+        recipe: ["", "", "", "material", item_irons_spellbooks.i_cooldown_rune, "material", "", "", ""],
+        durabilityMultiplier: 1,
+        modelType: "normal",
+        pmmoSkill: "magic",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_spell_power, operation.ADDITION, 0.015),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_spell_power, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_cast_time_reduction, operation.ADDITION, 0.015),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_cooldown_reduction, operation.ADDITION, 0.015),
+        ],
+        textureGenDetails: {
+            textureName: "infused_gloves.png",
+            chromaKeyOperations: [
+                ChromaCreator.create("#B3B3B3", "#000000", 0.1, "linear"),
+            ]
+        }
+    }
+
+
+    public static readonly CURIO_GLOVES: CurioVariant[] = [
+        PolymorphArmoryVariants.MANA_GLOVES_VARIANT,
+        PolymorphArmoryVariants.DEXTERITY_GLOVES_VARIANT,
+        PolymorphArmoryVariants.SHARPSHOOTER_GLOVES_VARIANT,
+        PolymorphArmoryVariants.BERSERKER_GLOVES_VARIANT,
+        PolymorphArmoryVariants.FORTIFIED_GLOVES_VARIANT,
+        PolymorphArmoryVariants.INFUSED_GLOVES_VARIANT
+    ];
+
     public static readonly CURIOS: CurioVariant[] = [
         ...PolymorphArmoryVariants.RINGS,
-        ...PolymorphArmoryVariants.NECKLACES
+        ...PolymorphArmoryVariants.NECKLACES,
+        ...PolymorphArmoryVariants.CURIO_GLOVES
     ];
 
     //#endregion
@@ -1154,6 +1364,7 @@ export class PolymorphArmoryVariants {
         ...PolymorphArmoryVariants.ARCHERY,
         ...PolymorphArmoryVariants.TOOLS,
         ...PolymorphArmoryVariants.ARMORS,
-        ...PolymorphArmoryVariants.CURIOS
+        ...PolymorphArmoryVariants.CURIOS,
+        ...PolymorphArmoryVariants.GLOVES
     ];
 }

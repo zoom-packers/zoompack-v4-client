@@ -50,7 +50,7 @@ const materials = [
         knockbackResistance: 0,
         pmmoLevel: 9,
         materialColor: "#e9e9e9",
-        skip: ["armor", "tools"]
+        skip: ["armor", "tools", "gloves"]
     },
     {
         item: item_minecraft.i_gold_ingot,
@@ -65,7 +65,7 @@ const materials = [
         pmmoLevel: 12,
         materialColor: "#ffdd2a",
         brightnessBoost: 1.2,
-        skip: ["armor", "tools"]
+        skip: ["armor", "tools", "gloves"]
     },
     {
         item: item_minecraft.i_diamond,
@@ -79,7 +79,7 @@ const materials = [
         knockbackResistance: 0,
         pmmoLevel: 18,
         materialColor: "#00FFFF",
-        skip: ["armor", "tools"]
+        skip: ["armor", "tools", "gloves"]
     },
     {
         item: item_aquaculture.i_neptunium_ingot,
@@ -181,7 +181,7 @@ const materials = [
         knockbackResistance: 0.025,
         pmmoLevel: 35,
         materialColor: "#7539cc",
-        skip: ["armor", "tools"]
+        skip: ["armor", "tools", "gloves"]
     },
     {
         item: item_aether.i_enchanted_gravitite,
@@ -195,7 +195,7 @@ const materials = [
         knockbackResistance: 0.027,
         pmmoLevel: 39,
         materialColor: "#be40b4",
-        skip: ["armor", "tools"]
+        skip: ["armor", "tools", "gloves"]
     },
 
     // Nether
@@ -227,7 +227,7 @@ const materials = [
         knockbackResistance: 0.045,
         pmmoLevel: 54,
         materialColor: "#965f01",
-        skip: ["armor", "tools"]
+        skip: ["armor", "tools", "gloves"]
     },
     {
         item: item_betternether.i_nether_ruby,
