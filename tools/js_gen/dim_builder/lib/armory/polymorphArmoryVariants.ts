@@ -974,7 +974,7 @@ export class PolymorphArmoryVariants {
         pmmoSkill: "archery",
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.ADDITION, 0.01),
-            CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.ADDITION, 0.02),
+            CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.ADDITION, 0.005),
         ],
         textureGenDetails: {
             textureName: "ring_1.png",
