@@ -83,10 +83,6 @@
         "theabyss:aberythe_ore",
         "theabyss:ignisithe_ore",
         "theabyss:glacerythe_ore",
-        "theabyss:garnite_ore",
-        "zoomers_extended_apotheosis:artisanal_reforging_table",
-        "zoomers_extended_apotheosis:enhanced_reforging_table",
-        "zoomers_extended_apotheosis:ultimate_reforging_table",
-        "zoomers_extended_apotheosis:god_reforging_table"
+        "theabyss:garnite_ore"
     ]
 }

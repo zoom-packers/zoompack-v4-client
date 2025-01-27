@@ -2865,10 +2865,10 @@ i_mining_bench = "morevillagers:mining_bench",
 
 
 export enum item_zoomers_extended_apotheosis {
-    i_artisanal_reforging_table = "zoomers_extended_apotheosis:artisanal_reforging_table",
-i_enhanced_reforging_table = "zoomers_extended_apotheosis:enhanced_reforging_table",
-i_ultimate_reforging_table = "zoomers_extended_apotheosis:ultimate_reforging_table",
-i_god_reforging_table = "zoomers_extended_apotheosis:god_reforging_table",
+    i_artisanal_reforging_table = "ze_apotheosis:artisanal_reforging_table",
+i_enhanced_reforging_table = "ze_apotheosis:enhanced_reforging_table",
+i_ultimate_reforging_table = "ze_apotheosis:ultimate_reforging_table",
+i_god_reforging_table = "ze_apotheosis:god_reforging_table",
 
 }
 

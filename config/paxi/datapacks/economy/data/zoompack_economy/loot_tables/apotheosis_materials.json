@@ -30,22 +30,22 @@
           },
           {
             "type": "minecraft:item",
-            "name": "zoomers_extended_apotheosis:radiant_material",
+            "name": "ze_apotheosis:radiant_material",
             "weight": 8
           },
           {
             "type": "minecraft:item",
-            "name": "zoomers_extended_apotheosis:celestial_material",
+            "name": "ze_apotheosis:celestial_material",
             "weight": 4
           },
           {
             "type": "minecraft:item",
-            "name": "zoomers_extended_apotheosis:angelic_material",
+            "name": "ze_apotheosis:angelic_material",
             "weight": 2
           },
           {
             "type": "minecraft:item",
-            "name": "zoomers_extended_apotheosis:godly_material",
+            "name": "ze_apotheosis:godly_material",
             "weight": 1
           }
         ]
