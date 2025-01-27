@@ -409,40 +409,163 @@ function modifySophisticatedStorage() {
 }
 
 function modifyCreate() {
+    processor.modifyPlaceBlockRequirements("create", "hand_crank", "engineering", 3);
+    processor.modifyPlaceBlockRequirements("create", "mysterious_cuckoo_clock", "engineering", 3);
+    processor.modifyPlaceBlockRequirements("create", "cuckoo_clock", "engineering", 3);
+    processor.modifyPlaceBlockRequirements("create", "piston_extension_pole", "engineering", 3);
+
+    processor.modifyPlaceBlockRequirements("create", "schematic_table", "engineering", 4);
+    processor.modifyPlaceBlockRequirements("trials", "crafter", "engineering", 4);
+
     processor.modifyPlaceBlockRequirements("create", "andesite_casing", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "depot", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "speedometer", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "stressometer", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "cart_assembler", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "sticker", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "analog_lever", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "powered_latch", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "powered_toggle_latch", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "andesite_door", "engineering", 5);
+
     processor.modifyPlaceBlockRequirements("create", "shaft", "engineering", 6);
-    processor.modifyPlaceBlockRequirements("create", "hand_crank", "engineering", 6);
+    processor.modifyPlaceBlockRequirements("create", "turntable", "engineering", 6);
+    processor.modifyPlaceBlockRequirements("create", "gantry_shaft", "engineering", 6);
+    processor.modifyPlaceBlockRequirements("create", "gantry_carriage", "engineering", 6);
+    processor.modifyPlaceBlockRequirements("copycats", "copycat_shaft", "engineering", 6);
+    processor.modifyPlaceBlockRequirements("create", "clutch", "engineering", 6);
+    processor.modifyPlaceBlockRequirements("create", "windmill_bearing", "engineering", 6);
+    processor.modifyPlaceBlockRequirements("create", "white_sail", "engineering", 6);
+    processor.modifyPlaceBlockRequirements("create", "sail_frame", "engineering", 6);
+    processor.modifyPlaceBlockRequirements("create", "gearbox", "engineering", 6);
+    processor.modifyPlaceBlockRequirements("create", "vertical_gearbox", "engineering", 6);
+    processor.modifyPlaceBlockRequirements("create", "mechanical_piston", "engineering", 6);
+    processor.modifyPlaceBlockRequirements("create", "sticky_mechanical_piston", "engineering", 6);
+
     processor.modifyPlaceBlockRequirements("create", "cogwheel", "engineering", 7);
+    processor.modifyPlaceBlockRequirements("create", "water_wheel", "engineering", 7);
+    processor.modifyPlaceBlockRequirements("create", "gearshift", "engineering", 7);
+    processor.modifyPlaceBlockRequirements("create", "encased_chain_drive", "engineering", 7);
+
     processor.modifyPlaceBlockRequirements("create", "large_cogwheel", "engineering", 8);
-    processor.modifyPlaceBlockRequirements("create", "windmill_bearing", "engineering", 10);
-    processor.modifyPlaceBlockRequirements("create", "gearbox", "engineering", 10);
-    processor.modifyPlaceBlockRequirements("create", "clutch", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "large_water_wheel", "engineering", 8);
+    processor.modifyPlaceBlockRequirements("create", "mechanical_bearing", "engineering", 8);
+    processor.modifyPlaceBlockRequirements("create", "millstone", "engineering", 8);
+
+    processor.modifyPlaceBlockRequirements("create", "schematicannon", "engineering", 9);
+    processor.modifyPlaceBlockRequirements("create", "basin", "engineering", 9);
+    processor.modifyPlaceBlockRequirements("create", "belt_connector", "engineering", 9);
+    processor.modifyPlaceBlockRequirements("create", "andesite_funnel", "engineering", 9);
+    processor.modifyPlaceBlockRequirements("create", "andesite_tunnel", "engineering", 9);
+
+    processor.modifyPlaceBlockRequirements("create", "encased_fan", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "nozzle", "engineering", 10);
     processor.modifyPlaceBlockRequirements("copycats", "copycat_cogwheel", "engineering", 10);
     processor.modifyPlaceBlockRequirements("copycats", "copycat_large_cogwheel", "engineering", 10);
     processor.modifyPlaceBlockRequirements("create", "mechanical_press", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "steam_whistle", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "fluid_pipe", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("copycats", "copycat_fluid_pipe", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "mechanical_pump", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "copper_valve_handle", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "white_valve_handle", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "orange_valve_handle", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "magenta_valve_handle", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "light_blue_valve_handle", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "yellow_valve_handle", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "lime_valve_handle", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "pink_valve_handle", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "gray_valve_handle", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "light_gray_valve_handle", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "cyan_valve_handle", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "purple_valve_handle", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "blue_valve_handle", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "brown_valve_handle", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "green_valve_handle", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "red_valve_handle", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "black_valve_handle", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "copper_casing", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "copper_door", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "fluid_tank", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "hose_pulley", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "item_drain", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "spout", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "rope_pulley", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "contraption_controls", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "redstone_contact", "engineering", 10);
+
+    processor.modifyPlaceBlockRequirements("create", "item_vault", "engineering", 12);
+
     processor.modifyPlaceBlockRequirements("createlowheated", "basic_burner", "engineering", 15);
-    processor.modifyPlaceBlockRequirements("create", "encased_fan", "engineering", 15);
-    processor.modifyPlaceBlockRequirements("create", "gearbox", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_mixer", "engineering", 15);
     processor.modifyPlaceBlockRequirements("createaddition", "rolling_mill", "engineering", 15);
-    processor.modifyPlaceBlockRequirements("create", "mechanical_piston", "engineering", 15);
-    processor.modifyPlaceBlockRequirements("create", "sticky_mechanical_piston", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("createaddition", "barbed_wire", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_bearing", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_drill", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_saw", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_harvester", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_plough", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_roller", "engineering", 15);
-    processor.modifyPlaceBlockRequirements("create", "belt_connector", "engineering", 15);
-    processor.modifyPlaceBlockRequirements("trials", "crafter", "engineering", 15);
-    processor.modifyPlaceBlockRequirements("create", "brass_casing", "engineering", 20);
+    processor.modifyPlaceBlockRequirements("create", "adjustable_chain_gearshift", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "chute", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "fluid_valve", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "portable_fluid_interface", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "portable_storage_interface", "engineering", 15);
+
+    processor.modifyPlaceBlockRequirements("create", "brass_casing", "engineering", 16);
+    processor.modifyPlaceBlockRequirements("create", "brass_door", "engineering", 16);
+    processor.modifyPlaceBlockRequirements("create", "weighted_ejector", "engineering", 16);
+    processor.modifyPlaceBlockRequirements("create", "smart_fluid_pipe", "engineering", 16);
+    processor.modifyPlaceBlockRequirements("create", "clockwork_bearing", "engineering", 16);
+    processor.modifyPlaceBlockRequirements("create", "elevator_pulley", "engineering", 16);
+    processor.modifyPlaceBlockRequirements("create", "brass_funnel", "engineering", 16);
+    processor.modifyPlaceBlockRequirements("create", "brass_tunnel", "engineering", 16);
+    processor.modifyPlaceBlockRequirements("create", "content_observer", "engineering", 16);
+    processor.modifyPlaceBlockRequirements("create", "stockpile_switch", "engineering", 16);
+    processor.modifyPlaceBlockRequirements("create", "display_link", "engineering", 16);
+    processor.modifyPlaceBlockRequirements("create", "display_board", "engineering", 16);
+    processor.modifyPlaceBlockRequirements("create", "nixie_tube", "engineering", 16);
+    processor.modifyPlaceBlockRequirements("create", "placard", "engineering", 16);
+    processor.modifyPlaceBlockRequirements("create", "pulse_repeater", "engineering", 16);
+    processor.modifyPlaceBlockRequirements("create", "pulse_extender", "engineering", 16);
+    processor.modifyPlaceBlockRequirements("create", "pelicular_bell", "engineering", 16);
+    processor.modifyPlaceBlockRequirements("create", "haunted_bell", "engineering", 16);
+
+    processor.modifyPlaceBlockRequirements("create", "mechanical_crafter", "engineering", 17);
+    processor.modifyPlaceBlockRequirements("create", "mechanical_arm", "engineering", 17);
+    processor.modifyPlaceBlockRequirements("create", "sequenced_gearshift", "engineering", 17);
+    processor.modifyPlaceBlockRequirements("create", "rotation_speed_controller", "engineering", 17);
+    processor.modifyPlaceBlockRequirements("create", "redstone_link", "engineering", 17);
+    processor.modifyPlaceBlockRequirements("create", "linked_controller", "engineering", 17);
+    
+    processor.modifyPlaceBlockRequirements("create", "crushing_wheel", "engineering", 18);
+    processor.modifyPlaceBlockRequirements("create", "smart_chute", "engineering", 18);
+
+    processor.modifyPlaceBlockRequirements("create", "railway_casing", "engineering", 20);
+    processor.modifyPlaceBlockRequirements("create", "flywheel", "engineering", 20);
     processor.modifyPlaceBlockRequirements("create", "deployer", "engineering", 20);
-    processor.modifyPlaceBlockRequirements("create", "mechanical_crafter", "engineering", 25);
-    processor.modifyPlaceBlockRequirements("create", "mechanical_arm", "engineering", 25);
-    processor.modifyPlaceBlockRequirements("create", "mechanical_pump", "engineering", 30);
+    processor.modifyPlaceBlockRequirements("railways", "semaphore", "engineering", 20);
+    processor.modifyPlaceBlockRequirements("railways", "track_coupler", "engineering", 20);
+    processor.modifyPlaceBlockRequirements("create", "track_station", "engineering", 20);
+    processor.modifyPlaceBlockRequirements("create", "track_signal", "engineering", 20);
+    processor.modifyPlaceBlockRequirements("create", "track_observer", "engineering", 20);
+    processor.modifyPlaceBlockRequirements("create", "controls", "engineering", 20);
+    processor.modifyPlaceBlockRequirements("create", "train_door", "engineering", 20);
+    processor.modifyPlaceBlockRequirements("create", "train_trapdoor", "engineering", 20);
+    processor.modifyPlaceBlockRequirements("railways", "track_switch_andesite", "engineering", 20);
+    processor.modifyPlaceBlockRequirements("railways", "track_switch_brass", "engineering", 20);    
+
     processor.modifyPlaceBlockRequirements("create", "steam_engine", "engineering", 30);
     processor.modifyPlaceBlockRequirements("create", "blaze_burner", "engineering", 30);
     processor.modifyPlaceBlockRequirements("create", "empty_blaze_burner", "engineering", 30);
+
+    processor.modifyPlaceBlockRequirements("createaddition", "connector", "engineering", 35);
+    processor.modifyPlaceBlockRequirements("createaddition", "small_light_connector", "engineering", 35);
+    processor.modifyPlaceBlockRequirements("createaddition", "large_connector", "engineering", 35);
+    processor.modifyPlaceBlockRequirements("createaddition", "redstone_relay", "engineering", 35);
+    processor.modifyPlaceBlockRequirements("createaddition", "tesla_coil", "engineering", 35);
+    processor.modifyPlaceBlockRequirements("createaddition", "modular_accumulator", "engineering", 35);
+    processor.modifyPlaceBlockRequirements("createaddition", "portable_energy_interface", "engineering", 35);
     processor.modifyPlaceBlockRequirements("createaddition", "electric_motor", "engineering", 35);
     processor.modifyPlaceBlockRequirements("createaddition", "alternator", "engineering", 35);
 }
