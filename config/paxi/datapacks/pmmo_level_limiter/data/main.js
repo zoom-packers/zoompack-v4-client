@@ -409,13 +409,14 @@ function modifySophisticatedStorage() {
 }
 
 function modifyCreate() {
+    processor.modifyPlaceBlockRequirements("trials", "crafter", "engineering", 2);
+
     processor.modifyPlaceBlockRequirements("create", "hand_crank", "engineering", 3);
     processor.modifyPlaceBlockRequirements("create", "mysterious_cuckoo_clock", "engineering", 3);
     processor.modifyPlaceBlockRequirements("create", "cuckoo_clock", "engineering", 3);
     processor.modifyPlaceBlockRequirements("create", "piston_extension_pole", "engineering", 3);
 
     processor.modifyPlaceBlockRequirements("create", "schematic_table", "engineering", 4);
-    processor.modifyPlaceBlockRequirements("trials", "crafter", "engineering", 4);
 
     processor.modifyPlaceBlockRequirements("create", "andesite_casing", "engineering", 5);
     processor.modifyPlaceBlockRequirements("create", "depot", "engineering", 5);
@@ -490,9 +491,10 @@ function modifyCreate() {
     processor.modifyPlaceBlockRequirements("create", "hose_pulley", "engineering", 10);
     processor.modifyPlaceBlockRequirements("create", "item_drain", "engineering", 10);
     processor.modifyPlaceBlockRequirements("create", "spout", "engineering", 10);
-    processor.modifyPlaceBlockRequirements("create", "rope_pulley", "engineering", 10);
-    processor.modifyPlaceBlockRequirements("create", "contraption_controls", "engineering", 10);
-    processor.modifyPlaceBlockRequirements("create", "redstone_contact", "engineering", 10);
+
+    processor.modifyPlaceBlockRequirements("create", "rope_pulley", "engineering", 11);
+    processor.modifyPlaceBlockRequirements("create", "contraption_controls", "engineering", 11);
+    processor.modifyPlaceBlockRequirements("create", "redstone_contact", "engineering", 11);
 
     processor.modifyPlaceBlockRequirements("create", "item_vault", "engineering", 12);
 

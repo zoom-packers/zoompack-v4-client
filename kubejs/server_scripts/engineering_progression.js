@@ -44,12 +44,8 @@ let techProgMilestones = [
         description: "All the machinees must be put inside a casing.",
         requirements: [
             {
-                item: "minecraft:andesite",
-                amount: 8
-            },
-            {
-                item: "create:zinc_nugget",
-                amount: 8
+                item: "minecraft:andesite_alloy",
+                amount: 16
             }
         ],
         pmmoLevelSet: 5,
@@ -57,10 +53,14 @@ let techProgMilestones = [
     {
         id: "with_your_own_hand",
         name: "With Your Own Hand",
-        description: "You can use your arms muscle to spin the shafts.",
+        description: "You can use your arms muscle to spin the shafts. Or let the wind work your sails.",
         requirements: [
             {
                 item: "create:shaft",
+                amount: 32
+            },
+            {
+                item: "create:analog_lever",
                 amount: 16
             }
         ],
@@ -78,29 +78,113 @@ let techProgMilestones = [
             {
                 item: "minecraft:copper_ingot",
                 amount: 8
+            },
+            {
+                item: "create:clutch",
+                amount: 8
+            },
+            {
+                item: "create:white_sail",
+                amount: 32
             }
         ],
         pmmoLevelSet: 7,
     },
     {
+        id: "bigger_and_better",
+        name: "Bigger And Better",
+        description: "Does bigger always mean better? When it comes to wheels, yeah..",
+        requirements: [
+            {
+                item: "create:cogwheel",
+                amount: 16
+            },
+            {
+                item: "create:water_wheel",
+                amount: 16
+            },
+            {
+                item: "create:gearbox",
+                amount: 32
+            }
+        ],
+        pmmoLevelSet: 8,
+    },
+    {
         id: "mechanical_power",
         name: "Mechanical Power",
-        description: "Harness the power of mechanical energy",
+        description: "Harness the power of mechanical energy along with item junction.",
         requirements: [
             {
                 item: "create:andesite_casing",
                 amount: 64
             },
             {
-                item: "create:gearbox",
+                item: "create:large_cogwheel",
                 amount: 16
             },
             {
-                item: "create:water_wheel",
+                item: "create:large_water_wheel",
+                amount: 8
+            }
+        ],
+        pmmoLevelSet: 9,
+    },
+    {
+        id: "check_your_pipes",
+        name: "Check your pipes",
+        description: "Move lava, water, milk, or you know what? The whole ocean!",
+        requirements: [
+            {
+                item: "create:basin",
+                amount: 16
+            },
+            {
+                item: "create:belt_connector",
+                amount: 64
+            },
+            {
+                item: "create:andesite_funnel",
+                amount: 16
+            },
+            {
+                item: "create:andesite_tunnel",
+                amount: 16
+            },
+            {
+                item: "create:millstone",
                 amount: 8
             }
         ],
         pmmoLevelSet: 10,
+    },
+    {
+        id: "smart_contraptions",
+        name: "Smart Contraptions",
+        description: "Build smart contraptions that can elevate your mechanization builds.",
+        requirements: [
+            {
+                item: "create:fluid_pipe",
+                amount: 32
+            },
+            {
+                item: "create:nozzle",
+                amount: 32
+            },
+            {
+                item: "create:mechanical_pump",
+                amount: 32
+            },
+            {
+                item: "create:copper_casing",
+                amount: 64
+            },
+            {
+                item: "create:encased_fan",
+                amount: 16
+            }
+        ],
+        pmmoLevelSet: 11,
     },
     {
         id: "automation",
@@ -254,13 +338,14 @@ let techProgMilestones = [
 
 let lockedBlocksPmmoLevels = {
     // Create
+    "trials:crafter": 2,
+
     "create:hand_crank": 3,
     "create:mysterious_cuckoo_clock": 3,
     "create:cuckoo_clock": 3,
     "create:piston_extension_pole": 3,
 
     "create:schematic_table": 4,
-    "trials:crafter": 4,
 
     "create:andesite_casing": 5,
     "create:depot": 5,
@@ -288,11 +373,13 @@ let lockedBlocksPmmoLevels = {
     "create:sticky_mechanical_piston": 6,
 
     "create:cogwheel": 7,
+    "copycats:copycat_cogwheel": 7,
     "create:water_wheel": 7,
     "create:gearshift": 7,
     "create:encased_chain_drive": 7,
 
     "create:large_cogwheel": 8,
+    "copycats:copycat_large_cogwheel": 8,
     "create:large_water_wheel": 8,
     "create:mechanical_bearing": 8,
     "create:millstone": 8,
@@ -305,8 +392,6 @@ let lockedBlocksPmmoLevels = {
 
     "create:encased_fan": 10,
     "create:nozzle": 10,
-    "copycats:copycat_cogwheel": 10,
-    "copycats:copycat_large_cogwheel": 10,
     "create:mechanical_press": 10,
     "create:steam_whistle": 10,
     "create:fluid_pipe": 10,
@@ -335,9 +420,10 @@ let lockedBlocksPmmoLevels = {
     "create:hose_pulley": 10,
     "create:item_drain": 10,
     "create:spout": 10,
-    "create:rope_pulley": 10,
-    "create:contraption_controls": 10,
-    "create:redstone_contact": 10,
+    
+    "create:redstone_contact": 11,
+    "create:rope_pulley": 11,
+    "create:contraption_controls": 11,
 
     "create:item_vault": 12,
 
