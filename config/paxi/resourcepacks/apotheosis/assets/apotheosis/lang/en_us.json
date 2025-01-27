@@ -1,10 +1,10 @@
 {
-  "rarity.apotheosis:custom_0": "Smecherie de",
-  "rarity.apotheosis:custom_1": "Pizdeala de",
-  "rarity.apotheosis:custom_2": "Barosaneala de",
-  "rarity.apotheosis:custom_3": "Obscenitate de",
-  "item.apotheosis.gem.apotheosis:custom_0": "%s Smecher",
-  "item.apotheosis.gem.apotheosis:custom_1": "%s Pizdos",
-  "item.apotheosis.gem.apotheosis:custom_2": "%s Barosan",
-  "item.apotheosis.gem.apotheosis:custom_3": "%s Obscen"
+  "rarity.apotheosis:custom_0": "Radiant",
+  "rarity.apotheosis:custom_1": "Celestial",
+  "rarity.apotheosis:custom_2": "Angelic",
+  "rarity.apotheosis:custom_3": "Godly",
+  "item.apotheosis.gem.apotheosis:custom_0": "Radiant %s",
+  "item.apotheosis.gem.apotheosis:custom_1": "Celestial %s",
+  "item.apotheosis.gem.apotheosis:custom_2": "Angelic %s",
+  "item.apotheosis.gem.apotheosis:custom_3": "Godly %s"
 }

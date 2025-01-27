@@ -10,10 +10,10 @@ let RARITIES = [
     "rare", // 2
     "epic", // 3
     "mythic", // 4
-    "custom_0", // 5 // smecher
-    "custom_1", // 6 //pizdos
-    "custom_2", // 7 // barosan
-    "custom_3", // 8 // obscen
+    "custom_0", // 5 // radiant
+    "custom_1", // 6 //celestial
+    "custom_2", // 7 // angelic
+    "custom_3", // 8 // godly
     "ancient" // 9 //perfect
 ]
 let MAX_RARITY_LOOTABLE = RARITIES.length - 1;
