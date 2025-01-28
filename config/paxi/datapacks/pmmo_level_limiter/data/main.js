@@ -10,7 +10,6 @@ function modifyFullSets() {
     processor.modifySetRequirements("minecraft", "leather", 3, "armor");
     processor.modifySetRequirements("minecraft", "turtle", 3, ["helmet"]);
     processor.modifySetRequirements("minecraft", "stone", 3, "tools");
-    processor.modifySetRequirements("justhammers", "stone", 3, ["hammer", "impact_hammer", "reinforced_hammer", "reinforced_impact_hammer", "destructor_hammer"], "{set_name}_{item}");
     processor.modifySingleItem("aquaculture", "stone_fillet_knife", "sword", 3);
     processor.modifySingleItem("call_of_yucutan", "silex_tecpatl", "sword", 3);
     processor.modifySingleItem("call_of_yucutan", "flint_tecpatl", "sword", 3);
@@ -29,7 +28,6 @@ function modifyFullSets() {
     processor.modifySingleItem("mutantmonsters", "mutant_skeleton_skull", "helmet", 5);
     processor.modifySetRequirements("mutantmonsters", "mutant_skeleton", 8, ["chestplate", "leggings", "boots"]);
     processor.modifySetRequirements("minecraft", "iron", 9);
-    processor.modifySetRequirements("justhammers", "iron", 9, ["hammer", "impact_hammer", "reinforced_hammer", "reinforced_impact_hammer", "destructor_hammer"], "{set_name}_{item}");
     processor.modifySingleItem("nethersdelight", "iron_machete", "sword", 9);
     processor.modifySingleItem("minecolonies", "iron_scimitar", "sword", 9);
     processor.modifySingleItem("doggytalents", "sussy_sickle", "sword", 9);
@@ -44,7 +42,6 @@ function modifyFullSets() {
     processor.modifySetRequirements("immersive_armors", "robe", 10, "armor");
     processor.modifySetRequirements("kobolds", "kobold_iron", 11, "tools");
     processor.modifySetRequirements("minecraft", "gold", 12, undefined, "golden_{item}");
-    processor.modifySetRequirements("justhammers", "gold", 12, ["hammer", "impact_hammer", "reinforced_hammer", "reinforced_impact_hammer", "destructor_hammer"], "{set_name}_{item}");
     processor.modifySetRequirements("create_sa", "zinc", 12, ["sword"]);
     processor.modifySetRequirements("irons_spellbooks", "pumpkin", 12, "armor");
     processor.modifySetRequirements("immersive_armors", "divine", 13, "armor");
@@ -72,7 +69,6 @@ function modifyFullSets() {
     processor.modifySetRequirements("irons_spellbooks", "plagued", 17, "armor");
     processor.modifySingleItem("zoomer_bows", "diamond_bow", "bow", 18);
     processor.modifySetRequirements("minecraft", "diamond", 18);
-    processor.modifySetRequirements("justhammers", "diamond", 18, ["hammer", "impact_hammer", "reinforced_hammer", "reinforced_impact_hammer", "destructor_hammer"], "{set_name}_{item}");
     processor.modifySingleItem("nethersdelight", "diamond_machete", "sword", 18);
     processor.modifySingleItem("aquaculture", "diamond_fillet_knife", "sword", 18);
     processor.modifySingleItem("aquamirae", "fin_cutter", "sword", 6);
@@ -195,7 +191,6 @@ function modifyFullSets() {
     processor.modifySingleItem("zoomer_bows", "fire_ruby_bow", "bow", 57);
 
     processor.modifySetRequirements("minecraft", "netherite", 58);
-    processor.modifySetRequirements("justhammers", "netherite", 58, ["hammer", "impact_hammer", "reinforced_hammer", "reinforced_impact_hammer", "destructor_hammer"], "{set_name}_{item}");
     processor.modifySingleItem("nethersdelight", "netherite_machete", "sword", 58);
     processor.modifySingleItem("zoomer_bows", "netherite_bow", "bow", 58);
     processor.modifySingleItem("create", "netherite_backtank", "chestplate", 58);
@@ -422,7 +417,8 @@ function modifyCreate() {
     processor.modifyPlaceBlockRequirements("create", "gearbox", "engineering", 10);
     processor.modifyPlaceBlockRequirements("copycats", "copycat_cogwheel", "engineering", 10);
     processor.modifyPlaceBlockRequirements("copycats", "copycat_large_cogwheel", "engineering", 10);
-    processor.modifyPlaceBlockRequirements("create", "mechanical_press", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "mechanical_press", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("createlowheated", "basic_burner", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "gearbox", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_mixer", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_piston", "engineering", 15);

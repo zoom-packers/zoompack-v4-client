@@ -416,22 +416,6 @@
 			y: 10.5d
 		}
 		{
-			id: "68E09F42FC7B463A"
-			rewards: [{
-				count: 16
-				id: "559DBBA61423E439"
-				item: "minecraft:oak_log"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0A148F573E953AF0"
-				item: "corail_woodcutter:oak_woodcutter"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 0.0d
-		}
-		{
 			id: "6DF417BC0426F6BF"
 			rewards: [{
 				count: 16
@@ -493,7 +477,6 @@
 				"654EB363B7A37C3E"
 				"3338B0479CACB6C3"
 				"6DF417BC0426F6BF"
-				"68E09F42FC7B463A"
 				"67B91ACA726C1901"
 				"075AD0FF4874FEE2"
 				"33CD0A444AE7F96B"
@@ -868,7 +851,7 @@
 			y: -4.0d
 		}
 		{
-			icon: "alexsmobs:spawn_egg_cachalot_whale"
+			icon: "theabyss:versa_whale_spawn_egg"
 			id: "4F5D799AB873599A"
 			rewards: [
 				{
@@ -892,7 +875,7 @@
 			]
 			subtitle: "Like to fish"
 			tasks: [{
-				entity: "alexsmobs:cachalot_whale"
+				entity: "theabyss:versa_whale"
 				id: "5DE16DE1DF4A2195"
 				type: "kill"
 				value: 2L

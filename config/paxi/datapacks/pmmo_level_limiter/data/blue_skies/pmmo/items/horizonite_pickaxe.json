@@ -4,7 +4,7 @@
             "mining": 32
         },
         "WEAR": {
-            "mining": 32
+            "wear": 0
         },
         "WEAPON": {
             "combat": 0

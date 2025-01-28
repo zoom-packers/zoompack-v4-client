@@ -4,7 +4,7 @@
             "excavation": 12
         },
         "WEAR": {
-            "excavation": 12
+            "wear": 0
         },
         "WEAPON": {
             "combat": 0

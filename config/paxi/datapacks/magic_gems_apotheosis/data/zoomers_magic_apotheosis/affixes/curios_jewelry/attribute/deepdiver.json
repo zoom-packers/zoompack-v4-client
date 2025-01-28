@@ -1,0 +1,71 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "irons_spellbooks"
+		},
+		{
+			"type": "forge:mod_loaded",
+			"modid": "apothiccurios"
+		}
+	],
+	"type": "apotheosis:attribute",
+	"attribute": "forge:lung_capacity",
+	"operation": "ADDITION",
+	"values": {
+		"common": {
+			"min": 5,
+			"steps": 11,
+			"step": 5
+		},
+		"uncommon": {
+			"min": 10,
+			"steps": 10,
+			"step": 5
+		},
+		"rare": {
+			"min": 15,
+			"steps": 9,
+			"step": 5
+		},
+		"epic": {
+			"min": 20,
+			"steps": 8,
+			"step": 5
+		},
+		"mythic": {
+			"min": 25,
+			"steps": 7,
+			"step": 5
+		},
+		"ancient": {
+			"min": 60,
+			"steps": 2,
+			"step": 5
+		},
+		"custom_0": {
+			"min": 35,
+			"steps": 5,
+			"step": 5
+		},
+		"custom_1": {
+			"min": 40,
+			"steps": 4,
+			"step": 5
+		},
+		"custom_2": {
+			"min": 45,
+			"steps": 3,
+			"step": 5
+		},
+		"custom_3": {
+			"min": 50,
+			"steps": 2,
+			"step": 5
+		}
+	},
+	"types": [
+		"curios:ring",
+		"curios:necklace"
+	]
+}

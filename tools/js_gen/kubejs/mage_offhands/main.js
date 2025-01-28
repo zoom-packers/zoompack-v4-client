@@ -168,7 +168,7 @@ function getTierItemBase(tier) {
         case 7:
             return item_callfromthedepth_.i_immemorialingot;
         case 8:
-            return item_theabyss.i_fixed_bone;
+            return item_theabyss.i_fusion_ingot;
     }
 }
 

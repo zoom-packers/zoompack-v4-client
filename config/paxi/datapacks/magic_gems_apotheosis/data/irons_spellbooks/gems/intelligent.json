@@ -1,0 +1,32 @@
+{
+    "variant": "intelligent",
+    "weight": 5,
+    "quality": 0,
+    "dimensions": [],
+    "unique": true,
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "pickaxe",
+                "types": [
+                    "pickaxe"
+                ]
+            },
+            "attribute": "zoompack_overrides_forge:mining_xp_multiplier",
+            "operation": "MULTIPLY_TOTAL",
+            "values": {
+                "common": 0.1,
+                "uncommon": 0.2,
+                "rare": 0.3,
+                "epic": 0.4,
+                "mythic": 0.5,
+                "ancient": 1.0,
+                "custom_0": 0.6,
+                "custom_1": 0.7,
+                "custom_2": 0.8,
+                "custom_3": 0.9
+            }
+        }
+    ]
+}

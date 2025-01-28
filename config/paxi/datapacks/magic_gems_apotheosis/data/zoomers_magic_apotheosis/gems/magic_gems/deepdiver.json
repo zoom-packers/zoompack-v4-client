@@ -1,0 +1,120 @@
+{
+    "variant": "deepdiver",
+    "weight": 5,
+    "quality": 0,
+    "min_rarity": "common",
+    "unique": true,
+    "dimensions": [],
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "core_armor",
+                "types": [
+                    "chestplate",
+                    "leggings"
+                ]
+            },
+            "attribute": "additionalentityattributes:lung_capacity",
+            "operation": "ADDITION",
+            "values": {
+                "common": 10,
+                "uncommon": 20,
+                "rare": 30,
+                "epic": 40,
+                "mythic": 50,
+                "ancient": 100,
+                "custom_0": 60,
+                "custom_1": 70,
+                "custom_2": 80,
+                "custom_3": 90
+            }
+        },
+        {
+            "type": "apotheosis:mob_effect",
+            "gem_class": {
+                "key": "boots",
+                "types": [
+                    "boots"
+                ]
+            },
+            "mob_effect": "minecraft:water_breathing",
+            "target": "HURT_SELF",
+            "values": {
+                "common": {
+                    "duration": 20,
+                    "amplifier": 0,
+                    "cooldown": 800
+                },
+                "uncommon": {
+                    "duration": 40,
+                    "amplifier": 0,
+                    "cooldown": 760
+                },
+                "rare": {
+                    "duration": 60,
+                    "amplifier": 0,
+                    "cooldown": 740
+                },
+                "epic": {
+                    "duration": 80,
+                    "amplifier": 0,
+                    "cooldown": 720
+                },
+                "mythic": {
+                    "duration": 100,
+                    "amplifier": 0,
+                    "cooldown": 700
+                },
+                "ancient": {
+                    "duration": 200,
+                    "amplifier": 0,
+                    "cooldown": 500
+                },
+                "custom_0": {
+                    "duration": 120,
+                    "amplifier": 0,
+                    "cooldown": 670
+                },
+                "custom_1": {
+                    "duration": 140,
+                    "amplifier": 0,
+                    "cooldown": 640
+                },
+                "custom_2": {
+                    "duration": 160,
+                    "amplifier": 0,
+                    "cooldown": 610
+                },
+                "custom_3": {
+                    "duration": 180,
+                    "amplifier": 0,
+                    "cooldown": 580
+                }
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "helmet",
+                "types": [
+                    "helmet"
+                ]
+            },
+            "attribute": "forge:swim_speed",
+            "operation": "MULTIPLY_TOTAL",
+            "values": {
+                "common": 0.02,
+                "uncommon": 0.04,
+                "rare": 0.06,
+                "epic": 0.09,
+                "mythic": 0.12,
+                "ancient": 0.37,
+                "custom_0": 0.15,
+                "custom_1": 0.188,
+                "custom_2": 0.236,
+                "custom_3": 0.296
+            }
+        }
+    ]
+}

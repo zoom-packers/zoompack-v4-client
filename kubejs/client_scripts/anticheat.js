@@ -14,59 +14,51 @@ function getModList() {
 function getResourcePackList() {
     let minecraftClass = Java.loadClass('net.minecraft.client.Minecraft');
     let resourcePackList = minecraftClass.getInstance().getResourcePackRepository().getSelectedPacks();
-    return resourcePackList.map(resourcePack => {
-        return {
-            id: resourcePack.getId() ?? "",
-            name: resourcePack.getTitle() ?? "",
-            description: resourcePack.getDescription() ?? ""
+
+    let results = [];
+
+    resourcePackList.forEach(rp=>{
+        results.push({
+            id: rp.getId() ?? "",
+            name: rp.getTitle() ?? "",
+            description: rp.getDescription() ?? ""
+        });
+    })
+
+    return results;
+}
+
+function batchObjects(objectList) {
+    const batchSize = 100;
+    const batches = [];
+    let currentBatch = [];
+
+    objectList.forEach((element, index) => {
+        currentBatch.push(element);
+
+        if (currentBatch.length >= batchSize || index === objectList.length - 1) {
+            batches.push(currentBatch);
+            currentBatch = [];
         }
     });
+
+    return batches;
 }
 
-function buildServerPackages() {
-    let modList = getModList();
-    let resourcePackList = getResourcePackList();
-    let batchCount = 100;
-    let modBatches = [];
-    let resourcePackBatches = [];
-    for (let i = 0; i < modList.length; i += batchCount) {
-        let maxIndex = Math.min(i + batchCount, modList.length);
-        modBatches.push(modList.slice(i, maxIndex));
-    }
-    resourcePackBatches = [resourcePackList];
-    return {
-        modBatches: modBatches,
-        resourcePackBatches: resourcePackBatches
-    };
-}
+NetworkEvents.dataReceived('anticheat:check_mods', function (event) {
+    let mods = batchObjects(getModList());
+    mods.forEach(batch => {
+        event.getEntity().sendData('anticheat:response_mods', {
+            mods: batch
+        });
+    });;
+})
 
-NetworkEvents.dataReceived('anticheat:check', function (event) {
-    let batches = buildServerPackages();
-    let minBatches = Math.min(batches.modBatches.length, batches.resourcePackBatches.length);
-    let maxBatches = Math.max(batches.modBatches.length, batches.resourcePackBatches.length);
-    let mostBatches = batches.modBatches.length > batches.resourcePackBatches.length ? 'mods' : 'resource packs';
-    for (let i = 0; i < minBatches; i++) {
-        let serverPackage = {
-            mods: batches.modBatches[i],
-            resourcePacks: batches.resourcePackBatches[i]
-        };
-        event.getEntity().sendData('anticheat:response', serverPackage);
-    }
-    if (mostBatches === 'mods') {
-        for (let i = minBatches; i < maxBatches; i++) {
-            let serverPackage = {
-                mods: batches.modBatches[i],
-                resourcePacks: []
-            };
-            event.getEntity().sendData('anticheat:response', serverPackage);
-        }
-    } else {
-        for (let i = minBatches; i < maxBatches; i++) {
-            let serverPackage = {
-                mods: [],
-                resourcePacks: batches.resourcePackBatches[i]
-            };
-            event.getEntity().sendData('anticheat:response', serverPackage);
-        }
-    }
-});
+NetworkEvents.dataReceived('anticheat:check_rps', function (event) {
+    let rps = batchObjects(getResourcePackList());
+    rps.forEach(batch => {
+        event.getEntity().sendData('anticheat:response_rps', {
+            resourcePacks: batch
+        });
+    });;
+})

@@ -1,3 +1,4 @@
+//priority: 997
 let BRONZE_COIN = 'dotcoinmod:bronze_coin';
 let SILVER_COIN = 'dotcoinmod:silver_coin';
 let GOLD_COIN = 'dotcoinmod:gold_coin';
@@ -9,16 +10,38 @@ let DIMENSION_MULTIPLIERS = {
     'minecraft:overworld': 1
 };
 
+let NO_ECONOMY_LOOT = [0,0,0,0]
+
 let LAST_CONVERTED = {};
 
 function isEntityInBannedRewards(entity_id){
     let banned_entity_ids = [
         'minecraft:player',
         'minecraft:armor_stand',
-        'dummmmmmy:target_dummy'
+        'dummmmmmy:target_dummy',
+        "medievalorigins:summon_skeleton",
+        "medievalorigins:summon_wither_skeleton",
+        "medievalorigins:summon_zombie"
     ]
 
     return banned_entity_ids.includes(entity_id)
+}
+
+function entityHasBannedTags(entity){
+    let banned_entity_tags = [
+        'necroskelwall'
+    ]
+
+    let entityTags = entity.getTags().toString();
+    let banned = false;
+
+    banned_entity_tags.forEach(banned_tag =>{
+        if(entityTags.includes(banned_tag)){
+            banned = true;
+        }
+    })
+
+    return banned;
 }
 
 function isItemCurrency(item_name){
@@ -30,7 +53,7 @@ function isEntityHostile(entity){
 }
 
 function isEntityAllowed(entity){
-    return !isEntityInBannedRewards(entity.getType()) && isEntityHostile(entity);
+    return !isEntityInBannedRewards(entity.getType()) && isEntityHostile(entity) && !entityHasBannedTags(entity);
 }
 
 function getCountPlayerItem(player, searched_item) {
@@ -52,8 +75,11 @@ function clearPlayer(player_name, item, count, server){
 }
 
 function getReward(entity, player){
+
     let health = entity.getMaxHealth();
     let dimension = entity.level.dimension;
+
+    
 
     // Randomness for drop
     health = health * ((Math.random() * 40 - 20)/100+1);

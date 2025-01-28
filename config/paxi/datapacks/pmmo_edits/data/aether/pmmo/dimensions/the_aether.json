@@ -35,7 +35,22 @@
             "amount": 1
         }
     ],
-    "mob_modifier": {},
+    "mob_modifier": {
+        "aether:slider": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "amount": -13.9,
+                "operation": "MULTIPLY_BASE"
+            }
+        ],
+        "aether:valkyrie_queen": [
+            {
+                "attribute":"minecraft:generic.knockback_resistance",
+                "operation": "ADDITION",
+                "amount": 10
+            }
+        ]
+    },
     "override": false,
     "isTagFor": [],
     "bonus": {}

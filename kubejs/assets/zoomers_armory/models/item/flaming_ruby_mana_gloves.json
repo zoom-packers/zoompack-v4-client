@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "zoomers_armory:item/flaming_ruby_mana_gloves"
+    },
+    "parent": "zoomers_armory:item/normal"
+}

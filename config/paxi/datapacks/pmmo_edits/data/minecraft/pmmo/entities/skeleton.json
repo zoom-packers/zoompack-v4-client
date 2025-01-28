@@ -1,0 +1,118 @@
+{
+    "nbt_xp_values": {
+      "SPRINT_JUMP": [],
+      "CROUCH": [],
+      "RECEIVE_DAMAGE": [],
+      "SURFACING": [],
+      "TAMING": [],
+      "JUMP": [],
+      "DIVING": [],
+      "EFFECT": [],
+      "CROUCH_JUMP": [],
+      "SHIELD_BLOCK": [],
+      "DEAL_DAMAGE": [{
+        "behavior_to_previous": "ADD_TO",
+        "should_cases_add": false,
+        "cases": [
+            {
+                "paths": [
+                    "Tags[]"
+                ],
+                "criteria": [
+                    {
+                        "operator": "EQUALS",
+                        "comparators": [
+                            "necroskelwall"
+                        ],
+                        "value": {
+                            "mining": 0,
+                            "swordsmanship": 0,
+                            "magic": 0,
+                            "combat": 0,
+                            "archery": 0,
+                            "endurance": 0
+                        }
+                    }
+                ]
+            }
+        ]
+    }],
+      "ENTITY": [],
+      "SWIMMING": [],
+      "SWIM_SPRINTING": [],
+      "SUBMERGED": [],
+      "BREATH_CHANGE": [],
+      "BREED": [],
+      "DEATH": [{
+        "behavior_to_previous": "ADD_TO",
+        "should_cases_add": false,
+        "cases": [
+            {
+                "paths": [
+                    "Tags[]"
+                ],
+                "criteria": [
+                    {
+                        "operator": "EQUALS",
+                        "comparators": [
+                            "necroskelwall"
+                        ],
+                        "value": {
+                            "mining": 0,
+                            "swordsmanship": 0,
+                            "magic": 0,
+                            "combat": 0,
+                            "archery": 0,
+                            "endurance": 0
+                        }
+                    }
+                ]
+            }
+        ]
+    }],
+      "RIDING": [],
+      "SPRINTING": []
+    },
+    "dealt_damage_xp": {},
+    "received_damage_xp": {},
+    "nbt_requirements": {
+      "TAME": [],
+      "BREED": [],
+      "ENTITY_INTERACT": [],
+      "RIDE": [],
+      "KILL": []
+    },
+    "xp_values": {
+      "SPRINT_JUMP": {},
+      "CROUCH": {},
+      "RECEIVE_DAMAGE": {},
+      "SURFACING": {},
+      "TAMING": {},
+      "JUMP": {},
+      "DIVING": {},
+      "EFFECT": {},
+      "CROUCH_JUMP": {},
+      "SHIELD_BLOCK": {},
+      "DEAL_DAMAGE": {},
+      "ENTITY": {},
+      "SWIMMING": {},
+      "SWIM_SPRINTING": {},
+      "SUBMERGED": {},
+      "BREATH_CHANGE": {},
+      "BREED": {},
+      "DEATH": {
+        "endurance": 23
+      },
+      "RIDING": {},
+      "SPRINTING": {}
+    },
+    "override": true,
+    "isTagFor": [],
+    "requirements": {
+      "TAME": {},
+      "BREED": {},
+      "ENTITY_INTERACT": {},
+      "RIDE": {},
+      "KILL": {}
+    }
+  }

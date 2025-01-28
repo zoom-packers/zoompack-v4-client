@@ -4,7 +4,7 @@
             "farming": 20
         },
         "WEAR": {
-            "farming": 20
+            "wear": 0
         },
         "WEAPON": {
             "combat": 0

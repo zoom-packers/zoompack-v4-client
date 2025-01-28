@@ -4806,62 +4806,6 @@ b_god_reforging_table: "zoomers_extended_apotheosis:god_reforging_table",
  * @readonly
  * @enum {string}
  */
-const block_corail_woodcutter = {
-    /** @type {string} */
-b_acacia_woodcutter: "corail_woodcutter:acacia_woodcutter",
-/** @type {string} */
-b_bamboo_woodcutter: "corail_woodcutter:bamboo_woodcutter",
-/** @type {string} */
-b_bamboo_mosaic_woodcutter: "corail_woodcutter:bamboo_mosaic_woodcutter",
-/** @type {string} */
-b_birch_woodcutter: "corail_woodcutter:birch_woodcutter",
-/** @type {string} */
-b_cherry_woodcutter: "corail_woodcutter:cherry_woodcutter",
-/** @type {string} */
-b_crimson_woodcutter: "corail_woodcutter:crimson_woodcutter",
-/** @type {string} */
-b_dark_oak_woodcutter: "corail_woodcutter:dark_oak_woodcutter",
-/** @type {string} */
-b_jungle_woodcutter: "corail_woodcutter:jungle_woodcutter",
-/** @type {string} */
-b_spruce_woodcutter: "corail_woodcutter:spruce_woodcutter",
-/** @type {string} */
-b_mangrove_woodcutter: "corail_woodcutter:mangrove_woodcutter",
-/** @type {string} */
-b_oak_woodcutter: "corail_woodcutter:oak_woodcutter",
-/** @type {string} */
-b_warped_woodcutter: "corail_woodcutter:warped_woodcutter",
-/** @type {string} */
-b_bop_dead_woodcutter: "corail_woodcutter:bop_dead_woodcutter",
-/** @type {string} */
-b_bop_fir_woodcutter: "corail_woodcutter:bop_fir_woodcutter",
-/** @type {string} */
-b_bop_hellbark_woodcutter: "corail_woodcutter:bop_hellbark_woodcutter",
-/** @type {string} */
-b_bop_jacaranda_woodcutter: "corail_woodcutter:bop_jacaranda_woodcutter",
-/** @type {string} */
-b_bop_magic_woodcutter: "corail_woodcutter:bop_magic_woodcutter",
-/** @type {string} */
-b_bop_mahogany_woodcutter: "corail_woodcutter:bop_mahogany_woodcutter",
-/** @type {string} */
-b_bop_palm_woodcutter: "corail_woodcutter:bop_palm_woodcutter",
-/** @type {string} */
-b_bop_redwood_woodcutter: "corail_woodcutter:bop_redwood_woodcutter",
-/** @type {string} */
-b_bop_umbran_woodcutter: "corail_woodcutter:bop_umbran_woodcutter",
-/** @type {string} */
-b_bop_willow_woodcutter: "corail_woodcutter:bop_willow_woodcutter",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
 const block_toms_trading_network = {
     /** @type {string} */
 b_vending_machine: "toms_trading_network:vending_machine",
@@ -12522,20 +12466,6 @@ b_black_oven: "cookingforblockheads:black_oven",
  * @readonly
  * @enum {string}
  */
-const block_dankstorage = {
-    /** @type {string} */
-b_dock: "dankstorage:dock",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
 const block_citadel = {
     /** @type {string} */
 b_lectern: "citadel:lectern",
@@ -17061,9 +16991,9 @@ b_resistive_arkan: "endlessbiomes:resistive_arkan",
 
 /**
  * Auto-generated Typedef
- * @typedef {block_minecraft | block_betternether | block_simplemagnets | block_apotheosis | block_supplementaries | block_refinedstorage | block_structure_gel | block_handcrafted | block_morevillagers | block_zoomers_extended_apotheosis | block_corail_woodcutter | block_toms_trading_network | block_tombstone | block_chimes | block_trials | block_mcwlights | block_bellsandwhistles | block_mutantmonsters | block_libraryferret | block_kobolds | block_biomesoplenty | block_domum_ornamentum | block_structurize | block_lootr | block_phantasm | block_doggytalents | block_sophisticatedbackpacks | block_plentyplates | block_utilitarian | block_mcwbridges | block_endertanks | block_simplylight | block_everythingisedibleeie | block_elevatorid | block_undergarden | block_copycats | block_outer_end | block_bosses_of_mass_destruction | block_azurelib | block_endermanoverhaul | block_minecolonies | block_bushierflowers | block_simpleradio | block_createaddition | block_perfectplushies | block_irons_spellbooks | block_slotmachinemod | block_macawsbridgesbop | block_callfromthedepth_ | block_ironfurnaces | block_mysticaloaktree | block_origins | block_energymeter | block_theabyss | block_mcwfurnitures | block_multipiston | block_packingtape | block_mythicmounts | block_mcwpaths | block_usefulrailroads | block_croptopia | block_oceansdelight | block_aquaculture | block_aquamirae | block_blue_skies | block_creeperoverhaul | block_crittersandcompanions | block_aether | block_naturalist | block_cookingforblockheads | block_dankstorage | block_citadel | block_railways | block_farmersdelight | block_cuffed | block_compressium | block_endersdelight | block_endrem | block_doapi | block_vinery | block_enderitemod | block_herbalbrews | block_auctionworld | block_bakery | block_brewery | block_meadow | block_nethervinery | block_candlelight | block_beachparty | block_trashcans | block_easy_mob_farm | block_sophisticatedstorage | block_ftbquests | block_create | block_waystones | block_comforts | block_call_of_yucutan | block_nethersdelight | block_create_sa | block_enderchests | block_endlessbiomes} block
+ * @typedef {block_minecraft | block_betternether | block_simplemagnets | block_apotheosis | block_supplementaries | block_refinedstorage | block_structure_gel | block_handcrafted | block_morevillagers | block_zoomers_extended_apotheosis | block_toms_trading_network | block_tombstone | block_chimes | block_trials | block_mcwlights | block_bellsandwhistles | block_mutantmonsters | block_libraryferret | block_kobolds | block_biomesoplenty | block_domum_ornamentum | block_structurize | block_lootr | block_phantasm | block_doggytalents | block_sophisticatedbackpacks | block_plentyplates | block_utilitarian | block_mcwbridges | block_endertanks | block_simplylight | block_everythingisedibleeie | block_elevatorid | block_undergarden | block_copycats | block_outer_end | block_bosses_of_mass_destruction | block_azurelib | block_endermanoverhaul | block_minecolonies | block_bushierflowers | block_simpleradio | block_createaddition | block_perfectplushies | block_irons_spellbooks | block_slotmachinemod | block_macawsbridgesbop | block_callfromthedepth_ | block_ironfurnaces | block_mysticaloaktree | block_origins | block_energymeter | block_theabyss | block_mcwfurnitures | block_multipiston | block_packingtape | block_mythicmounts | block_mcwpaths | block_usefulrailroads | block_croptopia | block_oceansdelight | block_aquaculture | block_aquamirae | block_blue_skies | block_creeperoverhaul | block_crittersandcompanions | block_aether | block_naturalist | block_cookingforblockheads | block_citadel | block_railways | block_farmersdelight | block_cuffed | block_compressium | block_endersdelight | block_endrem | block_doapi | block_vinery | block_enderitemod | block_herbalbrews | block_auctionworld | block_bakery | block_brewery | block_meadow | block_nethervinery | block_candlelight | block_beachparty | block_trashcans | block_easy_mob_farm | block_sophisticatedstorage | block_ftbquests | block_create | block_waystones | block_comforts | block_call_of_yucutan | block_nethersdelight | block_create_sa | block_enderchests | block_endlessbiomes} block
  */
 
 module.exports = {
-    block_minecraft, block_betternether, block_simplemagnets, block_apotheosis, block_supplementaries, block_refinedstorage, block_structure_gel, block_handcrafted, block_morevillagers, block_zoomers_extended_apotheosis, block_corail_woodcutter, block_toms_trading_network, block_tombstone, block_chimes, block_trials, block_mcwlights, block_bellsandwhistles, block_mutantmonsters, block_libraryferret, block_kobolds, block_biomesoplenty, block_domum_ornamentum, block_structurize, block_lootr, block_phantasm, block_doggytalents, block_sophisticatedbackpacks, block_plentyplates, block_utilitarian, block_mcwbridges, block_endertanks, block_simplylight, block_everythingisedibleeie, block_elevatorid, block_undergarden, block_copycats, block_outer_end, block_bosses_of_mass_destruction, block_azurelib, block_endermanoverhaul, block_minecolonies, block_bushierflowers, block_simpleradio, block_createaddition, block_perfectplushies, block_irons_spellbooks, block_slotmachinemod, block_macawsbridgesbop, block_callfromthedepth_, block_ironfurnaces, block_mysticaloaktree, block_origins, block_energymeter, block_theabyss, block_mcwfurnitures, block_multipiston, block_packingtape, block_mythicmounts, block_mcwpaths, block_usefulrailroads, block_croptopia, block_oceansdelight, block_aquaculture, block_aquamirae, block_blue_skies, block_creeperoverhaul, block_crittersandcompanions, block_aether, block_naturalist, block_cookingforblockheads, block_dankstorage, block_citadel, block_railways, block_farmersdelight, block_cuffed, block_compressium, block_endersdelight, block_endrem, block_doapi, block_vinery, block_enderitemod, block_herbalbrews, block_auctionworld, block_bakery, block_brewery, block_meadow, block_nethervinery, block_candlelight, block_beachparty, block_trashcans, block_easy_mob_farm, block_sophisticatedstorage, block_ftbquests, block_create, block_waystones, block_comforts, block_call_of_yucutan, block_nethersdelight, block_create_sa, block_enderchests, block_endlessbiomes
+    block_minecraft, block_betternether, block_simplemagnets, block_apotheosis, block_supplementaries, block_refinedstorage, block_structure_gel, block_handcrafted, block_morevillagers, block_zoomers_extended_apotheosis, block_toms_trading_network, block_tombstone, block_chimes, block_trials, block_mcwlights, block_bellsandwhistles, block_mutantmonsters, block_libraryferret, block_kobolds, block_biomesoplenty, block_domum_ornamentum, block_structurize, block_lootr, block_phantasm, block_doggytalents, block_sophisticatedbackpacks, block_plentyplates, block_utilitarian, block_mcwbridges, block_endertanks, block_simplylight, block_everythingisedibleeie, block_elevatorid, block_undergarden, block_copycats, block_outer_end, block_bosses_of_mass_destruction, block_azurelib, block_endermanoverhaul, block_minecolonies, block_bushierflowers, block_simpleradio, block_createaddition, block_perfectplushies, block_irons_spellbooks, block_slotmachinemod, block_macawsbridgesbop, block_callfromthedepth_, block_ironfurnaces, block_mysticaloaktree, block_origins, block_energymeter, block_theabyss, block_mcwfurnitures, block_multipiston, block_packingtape, block_mythicmounts, block_mcwpaths, block_usefulrailroads, block_croptopia, block_oceansdelight, block_aquaculture, block_aquamirae, block_blue_skies, block_creeperoverhaul, block_crittersandcompanions, block_aether, block_naturalist, block_cookingforblockheads, block_citadel, block_railways, block_farmersdelight, block_cuffed, block_compressium, block_endersdelight, block_endrem, block_doapi, block_vinery, block_enderitemod, block_herbalbrews, block_auctionworld, block_bakery, block_brewery, block_meadow, block_nethervinery, block_candlelight, block_beachparty, block_trashcans, block_easy_mob_farm, block_sophisticatedstorage, block_ftbquests, block_create, block_waystones, block_comforts, block_call_of_yucutan, block_nethersdelight, block_create_sa, block_enderchests, block_endlessbiomes
 }

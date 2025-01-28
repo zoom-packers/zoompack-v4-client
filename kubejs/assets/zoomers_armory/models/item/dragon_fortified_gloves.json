@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "zoomers_armory:item/dragon_fortified_gloves"
+    },
+    "parent": "zoomers_armory:item/normal"
+}

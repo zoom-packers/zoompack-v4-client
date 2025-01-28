@@ -1,7 +1,9 @@
 {
     "loading_priority": 111,
     "powers": [
-        "medievalorigins:fae/levitation",
+        "medievalorigins:pixie/flight",
+        "medievalorigins:pixie/feather_footed",
+        "medievalorigins:pixie/curse_of_flight",
         "medievalorigins:fae/magic_resistance",
         "medievalorigins:fae/magic_damage_boost",
         "medievalorigins:fae/regen",
