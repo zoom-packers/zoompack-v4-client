@@ -187,6 +187,26 @@ let techProgMilestones = [
         pmmoLevelSet: 11,
     },
     {
+        id: "item_storage",
+        name: "Item Storage",
+        description: "Ever wanted to store a lot of items? Well, there are ways to store thousands in a small place.",
+        requirements: [
+            {
+                item: "create:iron_sheet",
+                amount: 64
+            },
+            {
+                item: "create:golden_sheet",
+                amount: 64
+            },
+            {
+                item: "create:copper_sheet",
+                amount: 64
+            }
+        ],
+        pmmoLevelSet: 12,
+    },
+    {
         id: "automation",
         name: "Automation",
         description: "Belt go brrrr",
@@ -202,7 +222,7 @@ let techProgMilestones = [
             {
                 item: "create:mechanical_mixer",
                 amount: 16
-            },
+            }
         ],
         pmmoLevelSet: 15,
     },
