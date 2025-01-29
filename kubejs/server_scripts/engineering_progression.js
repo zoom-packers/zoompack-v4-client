@@ -209,7 +209,7 @@ let techProgMilestones = [
     {
         id: "automation",
         name: "Automation",
-        description: "Belt go brrrr",
+        description: "Special mechanical driven gear awaits your usage",
         requirements: [
             {
                 item: "create:belt_connector",
@@ -229,7 +229,71 @@ let techProgMilestones = [
     {
         id: "brass_age",
         name: "Brass Age",
-        description: "Brass is the new iron",
+        description: "Avange further into the world of cogwheels and evolve with the new alloy: brass",
+        requirements: [
+            {
+                item: "create:mechanical_saw",
+                amount: 16
+            },
+            {
+                item: "createaddition:rolling_mill",
+                amount: 16
+            },
+            {
+                item: "create:fluid_valve",
+                amount: 16
+            },
+            {
+                item: "create:chute",
+                amount: 32
+            }
+        ],
+        pmmoLevelSet: 16,
+    },
+    {
+        id: "brass_age",
+        name: "Brass Age",
+        description: "Avange further into the world of cogwheels and evolve with the new alloy: brass",
+        requirements: [
+            {
+                item: "create:brass_casing",
+                amount: 64
+            },
+            {
+                item: "create:brass_funnel",
+                amount: 64
+            },
+            {
+                item: "create:brass_tunnel",
+                amount: 64
+            }
+        ],
+        pmmoLevelSet: 17,
+    },
+    {
+        id: "crushing_age",
+        name: "Crushing Age",
+        description: "It's time to evolve and look at brass like iron. It's time to fully use the ores and squeeze everything from it.",
+        requirements: [
+            {
+                item: "create:mechanical_crafter",
+                amount: 32
+            },
+            {
+                item: "create:sequenced_gearshift",
+                amount: 32
+            },
+            {
+                item: "create:linked_controller",
+                amount: 32
+            }
+        ],
+        pmmoLevelSet: 18,
+    },
+    {
+        id: "mechanical_extension",
+        name: "Mechanical Extension",
+        description: "Brass is the new iron. Iron is the new coal. Coal is the new dirt. Dirt is dirt... duuh",
         requirements: [
             {
                 item: "create:iron_sheet",
@@ -251,9 +315,25 @@ let techProgMilestones = [
         pmmoLevelSet: 20,
     },
     {
+        id: "railway_path",
+        name: "Railway Path",
+        description: "Railway time, explore the world in a train. Live in the train or even achive multi dimensional travel with them.",
+        requirements: [
+            {
+                item: "create:railway_casing",
+                amount: 128
+            },
+            {
+                item: "create:flywheel",
+                amount: 256
+            }
+        ],
+        pmmoLevelSet: 22,
+    },
+    {
         id: "big_machines",
         name: "Big Machines",
-        description: "You'll need a bigger workshop",
+        description: "You'll need a bigger workshop. But also rail complexity...",
         requirements: [
             {
                 item: "create:brass_sheet",
@@ -262,7 +342,15 @@ let techProgMilestones = [
             {
                 item: "create:brass_casing",
                 amount: 128
-            },
+            }
+        ],
+        pmmoLevelSet: 23,
+    },
+    {
+        id: "all_the_mechanic",
+        name: "All The Mechanic",
+        description: "Combine electricity with mechanical gears. You will enjoy the result.",
+        requirements: [
             {
                 item: "create:mechanical_crafter",
                 amount: 64
@@ -270,6 +358,26 @@ let techProgMilestones = [
             {
                 item: "create:electron_tube",
                 amount: 64
+            }
+        ],
+        pmmoLevelSet: 24,
+    },
+    {
+        id: "train_controls",
+        name: "Train Controls",
+        description: "It's time for you to go through the next steps of creating a train. Customize it.",
+        requirements: [
+            {
+                item: "create:controls",
+                amount: 16
+            },
+            {
+                item: "create:train_door",
+                amount: 32
+            },
+            {
+                item: "create:train_trapdoor",
+                amount: 32
             },
         ],
         pmmoLevelSet: 25,
@@ -281,20 +389,88 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "create:brass_sheet",
-                amount: 256
+                amount: 64
             },
             {
                 item: "create:mechanical_crafter",
-                amount: 128,
-            },
-            {
-                item: "create:mechanical_pump",
-                amount: 128,
+                amount: 32,
             },
             {
                 item: "create:steam_engine",
+                amount: 16
+            },
+        ],
+        pmmoLevelSet: 26,
+    },
+    {
+        id: "brass_power",
+        name: "Brass Power",
+        description: "So many things could be done with brass it's almost a shame piglins don't trade it. Or do they?",
+        requirements: [
+            {
+                item: "create:brass_sheet",
                 amount: 64
             },
+            {
+                item: "create:mechanical_crafter",
+                amount: 32,
+            },
+            {
+                item: "create:steam_engine",
+                amount: 16
+            },
+        ],
+        pmmoLevelSet: 27,
+    },
+    {
+        id: "encased_flowers",
+        name: "Encased Flowers",
+        description: "There is an old piglin say 'Brass, Gass or ^#$@'. Sorry",
+        requirements: [
+            {
+                item: "create:brass_sheet",
+                amount: 64
+            },
+            {
+                item: "create:mechanical_crafter",
+                amount: 32,
+            },
+            {
+                item: "create:steam_engine",
+                amount: 16
+            },
+        ],
+        pmmoLevelSet: 28,
+    },
+    {
+        id: "fast_gear_rotation",
+        name: "Fast Gear Rotation",
+        description: "Have you ever tried to build a rotation speed controller? you should...",
+        requirements: [
+            {
+                item: "create:brass_sheet",
+                amount: 64
+            },
+            {
+                item: "create:mechanical_crafter",
+                amount: 32,
+            },
+            {
+                item: "create:steam_engine",
+                amount: 16
+            },
+        ],
+        pmmoLevelSet: 29,
+    },
+    {
+        id: "water_pump",
+        name: "Water Pump",
+        description: "It must be really complex to create a mechanism to power a mechanism...",
+        requirements: [
+            {
+                item: "create:mechanical_pump",
+                amount: 128,
+            }
         ],
         pmmoLevelSet: 30,
     },
@@ -306,19 +482,51 @@ let techProgMilestones = [
             {
                 item: "createaddition:copper_spool",
                 amount: 512
-            },
+            }
+        ],
+        pmmoLevelSet: 31,
+    },
+    {
+        id: "electricity_tier_iii",
+        name: "Electricity Tier III",
+        description: "Dan, you gotta stop using trifazic setup",
+        requirements: [
             {
                 item: "createaddition:capacitor",
                 amount: 256
-            },
+            }
+        ],
+        pmmoLevelSet: 32,
+    },
+    {
+        id: "broken_power_outlet",
+        name: "Broken Power Outlet",
+        description: "Dan, i still don't get it why you play with the copper wires.",
+        requirements: [
             {
                 item: "createaddition:large_connector",
                 amount: 256
-            },
+            }
+        ],
+        pmmoLevelSet: 33,
+    },
+    {
+        id: "lost_electricity",
+        name: "Lost Electricity",
+        description: "Dan, you can sell the copper to Nitro",
+        requirements: [
             {
                 item: "createaddition:electric_motor",
                 amount: 64
-            },
+            }
+        ],
+        pmmoLevelSet: 34,
+    },
+    {
+        id: "copper_conduction",
+        name: "Copper Conduction",
+        description: "Dan, did you steal anything from Nitro?",
+        requirements: [
             {
                 item: "createaddition:alternator",
                 amount: 64
@@ -327,30 +535,62 @@ let techProgMilestones = [
         pmmoLevelSet: 35,
     },
     {
-        id: "digital_age",
-        name: "Digital Age",
-        description: "Alright, you can get your engineering degree now",
+        id: "steam_enthusiast",
+        name: "Steam Enthusiast",
+        description: "You've built a boiler, but your steam-powered dreams are still a bit… leaky.",
         requirements: [
             {
                 item: "refinedstorage:quartz_enriched_iron",
                 amount: 512
-            },
+            }
+        ],
+        pmmoLevelSet: 36,
+    },
+    {
+        id: "gearhead",
+        name: "Gearhead",
+        description: "You see gears spinning, and you hear music. Wait, why is everything moving on its own?!",
+        requirements: [
             {
                 item: "refinedstorage:improved_processor",
                 amount: 256
-            },
+            }
+        ],
+        pmmoLevelSet: 37,
+    },
+    {
+        id: "conveyor_whisperer",
+        name: "The Conveyor Whisperer",
+        description: "Belts. Everywhere. You might have taken the factory aesthetic a bit too seriously.",
+        requirements: [
             {
                 item: "refinedstorage:silicon",
                 amount: 256
-            },
+            }
+        ],
+        pmmoLevelSet: 38,
+    },
+    {
+        id: "overworked_engineer",
+        name:  "Overworked Engineer",
+        description: "You haven't seen the sun in days. Your only light source? Blaze burners.",
+        requirements: [
             {
                 item: "refinedstorage:construction_core",
                 amount: 64
-            },
+            }
+        ],
+        pmmoLevelSet: 39,
+    },
+    {
+        id: "industrial_overlord",
+        name: "Industrial Overlord",
+        description: "Your factory is so efficient, villagers have started worshiping you as their automation god.",
+        requirements: [
             {
                 item: "refinedstorage:destruction_core",
                 amount: 64
-            },
+            }
         ],
         pmmoLevelSet: 40,
     }
@@ -495,17 +735,19 @@ let lockedBlocksPmmoLevels = {
     "create:railway_casing": 20,
     "create:flywheel": 20,
     "create:deployer": 20,
-    "railways:semaphore": 20,
-    "railways:track_coupler": 20,
-    "create:track_station": 20,
-    "create:track_station": 20,
-    "create:track_signal": 20,
-    "create:track_observer": 20,
-    "create:controls": 20,
-    "create:train_door": 20,
-    "create:train_trapdoor": 20,
-    "railways:track_switch_andesite": 20,
-    "railways:track_switch_brass": 20,    
+
+    "railways:semaphore": 22,
+    "railways:track_coupler": 22,
+    "create:track_station": 22,
+    "create:track_station": 22,
+    "create:track_signal": 22,
+    "create:track_observer": 22,
+
+    "create:controls": 25,
+    "create:train_door": 25,
+    "create:train_trapdoor": 25,
+    "railways:track_switch_andesite": 25,
+    "railways:track_switch_brass": 25,    
 
     "create:blaze_burner": 30,
     "create:empty_blaze_burner": 30,
@@ -520,7 +762,6 @@ let lockedBlocksPmmoLevels = {
     "createaddition:portable_energy_interface": 35,
     "createaddition:electric_motor": 35,
     "createaddition:alternator": 35,
-
 
     // Refined Storage
     "refinedstorage:controller": 40,

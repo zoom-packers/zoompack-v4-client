@@ -546,16 +546,18 @@ function modifyCreate() {
     processor.modifyPlaceBlockRequirements("create", "railway_casing", "engineering", 20);
     processor.modifyPlaceBlockRequirements("create", "flywheel", "engineering", 20);
     processor.modifyPlaceBlockRequirements("create", "deployer", "engineering", 20);
-    processor.modifyPlaceBlockRequirements("railways", "semaphore", "engineering", 20);
-    processor.modifyPlaceBlockRequirements("railways", "track_coupler", "engineering", 20);
-    processor.modifyPlaceBlockRequirements("create", "track_station", "engineering", 20);
-    processor.modifyPlaceBlockRequirements("create", "track_signal", "engineering", 20);
-    processor.modifyPlaceBlockRequirements("create", "track_observer", "engineering", 20);
-    processor.modifyPlaceBlockRequirements("create", "controls", "engineering", 20);
-    processor.modifyPlaceBlockRequirements("create", "train_door", "engineering", 20);
-    processor.modifyPlaceBlockRequirements("create", "train_trapdoor", "engineering", 20);
-    processor.modifyPlaceBlockRequirements("railways", "track_switch_andesite", "engineering", 20);
-    processor.modifyPlaceBlockRequirements("railways", "track_switch_brass", "engineering", 20);    
+
+    processor.modifyPlaceBlockRequirements("railways", "semaphore", "engineering", 22);
+    processor.modifyPlaceBlockRequirements("railways", "track_coupler", "engineering", 22);
+    processor.modifyPlaceBlockRequirements("create", "track_station", "engineering", 22);
+    processor.modifyPlaceBlockRequirements("create", "track_signal", "engineering", 22);
+    processor.modifyPlaceBlockRequirements("create", "track_observer", "engineering", 22);
+
+    processor.modifyPlaceBlockRequirements("create", "controls", "engineering", 25);
+    processor.modifyPlaceBlockRequirements("create", "train_door", "engineering", 25);
+    processor.modifyPlaceBlockRequirements("create", "train_trapdoor", "engineering", 25);
+    processor.modifyPlaceBlockRequirements("railways", "track_switch_andesite", "engineering", 25);
+    processor.modifyPlaceBlockRequirements("railways", "track_switch_brass", "engineering", 25);    
 
     processor.modifyPlaceBlockRequirements("create", "steam_engine", "engineering", 30);
     processor.modifyPlaceBlockRequirements("create", "blaze_burner", "engineering", 30);
