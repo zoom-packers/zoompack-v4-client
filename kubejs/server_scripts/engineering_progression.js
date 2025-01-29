@@ -32,7 +32,7 @@ let techProgMilestones = [
         description: "Metals can be used to craft all sorts of things. Including machines.",
         requirements: [
             {
-                item: "minecraft:iron",
+                item: "minecraft:iron_ingot",
                 amount: 16
             }
         ],
