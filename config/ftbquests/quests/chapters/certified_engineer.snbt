@@ -99,6 +99,55 @@
 			x: 2.5d
 			y: -2.5d
 		}
+		{
+			id: "63C62D97FCD8F9F5"
+			tasks: [{
+				id: "1B75D1BB3112669B"
+				requiredLevel: 2
+				skill: "engineering"
+				title: "eng lvl 2"
+				type: "pmmo:skill"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "2C7445C4E2EBE070"
+			tasks: [{
+				id: "66DFA1348F97D764"
+				requiredLevel: 3
+				skill: "engineering"
+				type: "pmmo:skill"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "7BF6B45062A610E1"
+			tasks: [{
+				id: "2D10B8EFEE2D68CB"
+				requiredLevel: 4
+				skill: "engineering"
+				type: "pmmo:skill"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "5837554BDABC168A"
+			rewards: [{
+				id: "381F47B0935CBCA4"
+				item: "trials:crafter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "685C37987D2DD462"
+				item: "create:schematic_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
 	]
 	subtitle: ["Embrance the industrialization"]
 	title: "Certified Engineer"
