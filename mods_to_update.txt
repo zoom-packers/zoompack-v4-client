@@ -1,2 +1,4 @@
 ZE Apotheosis
+Z Auctions
 Z Overrides Forge
+Dungeon Crawl Dimensional Patch
