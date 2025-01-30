@@ -1,0 +1,17 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "lowheated",
+    "ingredients": [
+      {
+        "item": "create:silicon_remains"
+      },
+      {
+        "item": "minecraft:clay_ball"
+      }
+    ],
+    "results": [
+      {
+        "item": "create:dirty_silicon_chunk"
+      }
+    ]
+  }
