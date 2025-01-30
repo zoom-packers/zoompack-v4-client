@@ -1,0 +1,13 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+      {
+        "item": "create:pressed_silicon_chunk"
+      }
+    ],
+    "results": [
+      {
+        "item": "minecraft:quartz"
+      }
+    ]
+  }

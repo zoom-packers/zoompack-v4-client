@@ -1,0 +1,14 @@
+{
+    "type": "create:splashing",
+    "ingredients": [
+      {
+        "item": "create:dirty_silicon_chunk"
+      }
+    ],
+    "results": [
+      {
+        "chance": 0.25,
+        "item": "create:clean_silicon_chunk"
+      }
+    ]
+  }
