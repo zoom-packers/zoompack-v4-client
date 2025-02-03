@@ -93,7 +93,7 @@ export class WorkingTexture {
             const vDiff = Math.abs(pixelHsv.v - oldV);
 
 
-            const newHSV = {h: newS, s: pixelHsv.s, v: pixelHsv.v};
+            const newHSV = {h: newH, s: pixelHsv.s, v: pixelHsv.v};
             const newRGB = hsvToRgb(newHSV.h, newHSV.s, newHSV.v);
             const newA = hDiff < tolerance ? pixelA : 0;
             result[i] = newRGB.r;
