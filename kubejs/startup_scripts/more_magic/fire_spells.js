@@ -25,7 +25,7 @@ StartupEvents.registry('irons_spellbooks:spells', event => {
             let /** @type {Internal.ServerPlayer} */ player = ctx.entity;
             let spell_power = player.getAttribute('irons_spellbooks:spell_power').getValue();
             let fire_spell_power = player.getAttribute('irons_spellbooks:fire_spell_power').getValue();
-            player.potionEffects.add("irons_spellbooks:frost_power", spell_power * fire_spell_power * ctx.spellLevel * 20, 1+spell_power * fire_spell_power, false, true)
+            player.potionEffects.add("irons_spellbooks:fire_power", spell_power * fire_spell_power * ctx.spellLevel * 20, 1+spell_power * fire_spell_power, false, true)
         })
         .setUniqueInfo((spellLevel, caster) => {
             let fire_spell_power = caster.getAttribute('irons_spellbooks:fire_spell_power').getValue();

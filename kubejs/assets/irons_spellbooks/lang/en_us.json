@@ -11,5 +11,11 @@
     "item.apotheosis.gem.irons_spellbooks:cast_time": "Gem of the Warrior",
     "item.apotheosis.gem.irons_spellbooks:cooldown": "Slayer Gem",
     "item.apotheosis.gem.irons_spellbooks:summoning": "Explorer Gem",
-    "item.apotheosis.gem.irons_spellbooks:spell_resist": "Fisherman Gem"
+    "item.apotheosis.gem.irons_spellbooks:spell_resist": "Fisherman Gem",
+    "spell.irons_spellbooks.ice_power": "Frostful Blade",
+    "spell.irons_spellbooks.fire_power": "Burning Blade",
+    "spell.irons_spellbooks.inebriation": "Drunken",
+    "spell.irons_spellbooks.bloodfed": "Bloodfed",
+    "spell.irons_spellbooks.water_breating": "Donlphin's Grills",
+    "spell.irons_spellbooks.stun": "Stun"
 }
