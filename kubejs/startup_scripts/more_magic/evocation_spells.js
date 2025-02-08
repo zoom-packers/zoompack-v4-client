@@ -7,7 +7,7 @@ function stunRange(base, spell_power, evocation_spell_power){
 
 StartupEvents.registry('irons_spellbooks:spells', event => {
     event.create('irons_spellbooks:stun')
-        .setCastTime(40)
+        .setCastTime(20)
         .setCooldownSeconds(400)
         .setManaCostPerLevel(10)
         .setCastType('long')
