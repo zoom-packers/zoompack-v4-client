@@ -28,9 +28,9 @@
 	#Use fill items if there are not enough valid items for a month. (e.g. if there are only 2 items for a month and the player claims 3 rewards, the 3rd reward will be a fill item)
 	useFillItems = true
 	#List of normal fill items which are used in the case we have not enough valid items for a month.
-	normalFillItems = ["minecraft:ender_pearl:16", "apotheosis:common_material:32", "apotheosis:uncommon_material:12", "apotheosis:rare_material:4", "dotcoinmod:token:2", "irons_spellbooks:arcane_essence:32", "apotheosis:gem_dust:16", "minecraft:lead:8", "minecraft:ghast_tear:8", "minecraft:lapis_lazuli:21", "irons_spellbooks:common_ink:8", "irons_spellbooks:common_ink:8", "irons_spellbooks:uncommon_ink:4", "irons_spellbooks:rare_ink:2", "create:experience_nugget:4", "create:experience_block:1", "trials:ominous_bottle:4"]
+	normalFillItems = ["minecraft:ender_pearl:16", "apotheosis:common_material:32", "apotheosis:uncommon_material:12", "apotheosis:rare_material:4", "dotcoinmod:token:2", "irons_spellbooks:arcane_essence:32", "apotheosis:gem_dust:16", "minecraft:lead:8", "minecraft:ghast_tear:8", "minecraft:lapis_lazuli:21", "irons_spellbooks:common_ink:8", "irons_spellbooks:common_ink:8", "irons_spellbooks:uncommon_ink:4", "irons_spellbooks:rare_ink:2", "create:experience_nugget:4", "create:experience_block:1", "trials:ominous_bottle:4", "create:blaze_cake:1"]
 	#List of rare fill items which are used in the case we have not enough valid items for a month.
-	rareFillItems = ["apotheosis:gem_dust:12", "dotcoinmod:token:4", "minecraft:bundle:1", "irons_spellbooks:epic_ink:1","irons_spellbooks:blank_rune:1"]
+	rareFillItems = ["apotheosis:gem_dust:12", "dotcoinmod:token:4", "minecraft:bundle:1", "irons_spellbooks:epic_ink:1", "irons_spellbooks:blank_rune:1"]
 	#The chance to use a rare item instead of a regular one. e.g. 7 means every 7th items could be a rare item. (0 = disabled)
 	#Range: 0 ~ 100
 	rareFillItemsChance = 12
