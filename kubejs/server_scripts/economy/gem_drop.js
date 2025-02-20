@@ -218,3 +218,7 @@ EntityEvents.death(event => {
         }
     }
 })
+
+global.randomGem = getRandomGem;
+global.GEM_TYPES = GEM_TYPES;
+global.GEM_RARIETIES = RARITIES;

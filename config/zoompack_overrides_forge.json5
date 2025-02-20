@@ -129,5 +129,78 @@
       "archery",
       "taming"
     ]
+  },
+  "parties": {
+    "renderSimplifiedPlayerModel": true
+  },
+  "aura": {
+    "auras": [
+      {
+        "id": "zoompack_overrides_forge:aura_annoying",
+        "shaderLocation": "zoompack_overrides_forge:aura",
+        "textureLocation": "zoompack_overrides_forge:textures/effect/aura_annoying.png",
+        "zoom": 0.3,
+        "animSpeedU": 30.0,
+        "animSpeedV": 20.0,
+        "animAlphaSpeed": 2.0,
+        "baseAlpha": 0.01,
+        "alphaMultiplier": 0.1
+      },
+      {
+        "id": "zoompack_overrides_forge:aura_trained",
+        "shaderLocation": "zoompack_overrides_forge:aura",
+        "textureLocation": "zoompack_overrides_forge:textures/effect/aura_trained.png",
+        "zoom": 0.4,
+        "animSpeedU": 30.0,
+        "animSpeedV": 20.0,
+        "animAlphaSpeed": 2.0,
+        "baseAlpha": 0.01,
+        "alphaMultiplier": 0.1
+      },
+      {
+        "id": "zoompack_overrides_forge:aura_elite",
+        "shaderLocation": "zoompack_overrides_forge:aura",
+        "textureLocation": "zoompack_overrides_forge:textures/effect/aura_elite.png",
+        "zoom": 0.5,
+        "animSpeedU": 30.0,
+        "animSpeedV": 20.0,
+        "animAlphaSpeed": 2.0,
+        "baseAlpha": 0.01,
+        "alphaMultiplier": 0.1
+      },
+      {
+        "id": "zoompack_overrides_forge:aura_champion",
+        "shaderLocation": "zoompack_overrides_forge:aura",
+        "textureLocation": "zoompack_overrides_forge:textures/effect/aura_champion.png",
+        "zoom": 0.6,
+        "animSpeedU": 30.0,
+        "animSpeedV": 20.0,
+        "animAlphaSpeed": 2.0,
+        "baseAlpha": 0.01,
+        "alphaMultiplier": 0.1
+      },
+      {
+        "id": "zoompack_overrides_forge:aura_miniboss",
+        "shaderLocation": "zoompack_overrides_forge:aura",
+        "textureLocation": "zoompack_overrides_forge:textures/effect/aura_miniboss.png",
+        "zoom": 0.7,
+        "animSpeedU": 30.0,
+        "animSpeedV": 20.0,
+        "animAlphaSpeed": 2.0,
+        "baseAlpha": 0.01,
+        "alphaMultiplier": 0.1
+      },
+      {
+        "id": "zoompack_overrides_forge:aura_horde_cheif",
+        "shaderLocation": "zoompack_overrides_forge:aura",
+        "textureLocation": "zoompack_overrides_forge:textures/effect/aura_horde_cheif.png",
+        "zoom": 0.8,
+        "animSpeedU": 30.0,
+        "animSpeedV": 20.0,
+        "animAlphaSpeed": 2.0,
+        "baseAlpha": 0.01,
+        "alphaMultiplier": 0.1
+      }
+    ]
   }
 }
