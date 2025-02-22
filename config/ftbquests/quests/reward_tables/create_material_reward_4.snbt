@@ -1,0 +1,21 @@
+{
+	icon: "minecraft:emerald"
+	id: "1915F352E6D0A8CC"
+	loot_size: 1
+	order_index: 45
+	rewards: [
+		{ count: 8, item: "minecraft:raw_gold", weight: 0.0f }
+		{ count: 2, item: "minecraft:amethyst_shard", weight: 0.0f }
+		{ count: 2, item: "minecraft:quartz", weight: 0.0f }
+		{ count: 2, item: "minecraft:slime_ball", weight: 0.0f }
+		{ count: 3, item: "minecraft:diamond", weight: 0.0f }
+		{ item: "minecraft:ender_pearl", weight: 0.0f }
+		{ count: 4, item: "minecraft:emerald", weight: 0.0f }
+		{
+			type: "xp_levels"
+			xp_levels: 2
+		}
+		{ count: 16, item: "minecraft:raw_iron" }
+	]
+	title: "Create material reward 4"
+}

@@ -1,0 +1,24 @@
+{
+	icon: {
+		Count: 1
+		id: "sophisticatedstorage:iron_chest"
+		tag: {
+			accentColor: 1908001
+			mainColor: 1908001
+			uuid: [I;
+				961522712
+				1183796706
+				-1292858627
+				1546695160
+			]
+		}
+	}
+	id: "69E657F50BDB20E4"
+	loot_size: 1
+	order_index: 50
+	rewards: [{
+		type: "xp_levels"
+		xp_levels: 10
+	}]
+	title: "Create level reward 2"
+}

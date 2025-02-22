@@ -1,0 +1,20 @@
+{
+	icon: "minecraft:diamond"
+	id: "74CE7ABA12EC3AE2"
+	loot_size: 1
+	order_index: 43
+	rewards: [
+		{ item: "minecraft:diamond", weight: 0.0f }
+		{ count: 8, item: "minecraft:raw_iron", weight: 0.0f }
+		{ count: 8, item: "minecraft:raw_copper", weight: 0.0f }
+		{ item: "minecraft:slime_ball", weight: 0.0f }
+		{ item: "minecraft:emerald", weight: 40.0f }
+		{ count: 8, item: "create:raw_zinc", weight: 0.0f }
+		{
+			type: "xp_levels"
+			weight: 0.0f
+			xp_levels: 2
+		}
+	]
+	title: "Create material rewards 3"
+}

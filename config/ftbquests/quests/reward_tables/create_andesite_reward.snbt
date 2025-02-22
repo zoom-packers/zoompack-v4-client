@@ -1,0 +1,11 @@
+{
+	icon: "create:andesite_alloy"
+	id: "49B4EF95D589D888"
+	loot_size: 1
+	order_index: 41
+	rewards: [
+		{ count: 8, item: "minecraft:andesite", weight: 0.0f }
+		{ count: 3, item: "minecraft:spruce_log" }
+	]
+	title: "Create andesite reward"
+}

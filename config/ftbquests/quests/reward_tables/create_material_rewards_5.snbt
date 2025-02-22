@@ -1,0 +1,20 @@
+{
+	icon: "create:brass_ingot"
+	id: "41820AA1C85F62DA"
+	loot_size: 1
+	order_index: 47
+	rewards: [
+		{ count: 16, item: "minecraft:raw_gold", weight: 0.0f }
+		{ count: 16, item: "minecraft:raw_iron", weight: 0.0f }
+		{ count: 16, item: "minecraft:raw_copper", weight: 0.0f }
+		{ count: 3, item: "minecraft:diamond", weight: 0.0f }
+		{ count: 16, item: "create:raw_zinc", weight: 0.0f }
+		{ count: 3, item: "create:brass_ingot" }
+		{
+			type: "xp_levels"
+			weight: 0.0f
+			xp_levels: 3
+		}
+	]
+	title: "Create material rewards 5"
+}
