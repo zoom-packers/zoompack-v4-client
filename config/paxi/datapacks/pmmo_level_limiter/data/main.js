@@ -502,7 +502,6 @@ function modifyCreate() {
     processor.modifyPlaceBlockRequirements("create", "mechanical_mixer", "engineering", 15);
     processor.modifyPlaceBlockRequirements("createaddition", "rolling_mill", "engineering", 15);
     processor.modifyPlaceBlockRequirements("createaddition", "barbed_wire", "engineering", 15);
-    processor.modifyPlaceBlockRequirements("create", "mechanical_bearing", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_drill", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_saw", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_harvester", "engineering", 15);

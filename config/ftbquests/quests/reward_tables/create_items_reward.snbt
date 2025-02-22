@@ -1,0 +1,16 @@
+{
+	icon: "create:cogwheel"
+	id: "62E91995DC2D64D2"
+	loot_size: 1
+	order_index: 40
+	rewards: [
+		{ count: 5, item: "create:andesite_casing", weight: 0.0f }
+		{ count: 2, item: "minecraft:slime_ball", weight: 0.0f }
+		{ count: 5, item: "minecraft:string", weight: 0.0f }
+		{ count: 5, item: "minecraft:redstone_block", weight: 50.0f }
+		{ count: 5, item: "create:shaft", weight: 0.0f }
+		{ count: 32, item: "minecraft:dried_kelp", weight: 0.0f }
+		{ count: 5, item: "create:gearbox", weight: 50.0f }
+	]
+	title: "Create items reward"
+}

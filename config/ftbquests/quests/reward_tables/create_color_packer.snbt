@@ -1,0 +1,15 @@
+{
+	icon: "biomesoplenty:rainbow_birch_sapling"
+	id: "0937AEBFAF8B6B8F"
+	loot_size: 1
+	order_index: 46
+	rewards: [
+		{ count: 32, item: "minecraft:red_dye" }
+		{ count: 32, item: "minecraft:yellow_dye" }
+		{ count: 32, item: "minecraft:blue_dye" }
+		{ count: 32, item: "minecraft:black_dye" }
+		{ count: 32, item: "minecraft:white_dye" }
+		{ count: 32, item: "minecraft:green_dye" }
+	]
+	title: "Create color packer"
+}
