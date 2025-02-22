@@ -18,6 +18,15 @@ const skills = [
     {skill: 'crafting', color: 16701501},
     {skill: 'excavation', color: 11833187},
     {skill: 'engineering', color: 16723494},
+    {skill: 'tech', color: 14933976},
+    {skill: 'slayer', color: 13383457},
+    {skill: 'fightgroup', color: 13383457},
+    {skill: 'building', color: 13401883},
+    {skill: 'gunslinging', color: 13383457},
+    {skill: 'flying', color: 13383457},
+    {skill: 'sailing', color: 3827157},
+    {skill: 'hunter', color: 13383457},
+    {skill: 'taming', color: 16371082},
 ]
 
 const outputAssetsDir = `${kubejsAssetsPath()}/zoompack_overrides_forge`;
