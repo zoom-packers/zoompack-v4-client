@@ -270,6 +270,10 @@
     {
       "modName": "Fresh Moves",
       "modId": 990406
+    },
+    {
+      "modName": "EMI",
+      "modId": 580555
     }
   ],
   "removeFolders": [
