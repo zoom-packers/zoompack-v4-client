@@ -1,0 +1,18 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "create:item/brass_hand"
+		}
+	}
+	id: "3F17BA898F3FC0C9"
+	loot_size: 1
+	order_index: 44
+	rewards: [
+		{ count: 2, item: "minecraft:obsidian" }
+		{ item: "minecraft:crying_obsidian" }
+		{ count: 2, item: "minecraft:ender_pearl" }
+	]
+	title: "Create choice reward"
+}

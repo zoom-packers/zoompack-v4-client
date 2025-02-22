@@ -229,7 +229,7 @@ let techProgMilestones = [
     {
         id: "brass_age",
         name: "Brass Age",
-        description: "Avange further into the world of cogwheels and evolve with the new alloy: brass",
+        description: "Advance further into the world of cogwheels and evolve with the new alloy: brass",
         requirements: [
             {
                 item: "create:mechanical_saw",
@@ -251,20 +251,20 @@ let techProgMilestones = [
         pmmoLevelSet: 16,
     },
     {
-        id: "brass_age",
-        name: "Brass Age",
-        description: "Avange further into the world of cogwheels and evolve with the new alloy: brass",
+        id: "iron_age",
+        name: "Iron Age",
+        description: "Time to iron some things out",
         requirements: [
             {
-                item: "create:brass_casing",
+                item: "minecraft:iron_ingot",
                 amount: 64
             },
             {
-                item: "create:brass_funnel",
+                item: "create:iron_sheet",
                 amount: 64
             },
             {
-                item: "create:brass_tunnel",
+                item: "create:item_vault",
                 amount: 64
             }
         ],
@@ -487,8 +487,8 @@ let techProgMilestones = [
         pmmoLevelSet: 31,
     },
     {
-        id: "electricity_tier_iii",
-        name: "Electricity Tier III",
+        id: "electricity_tier_ii",
+        name: "Electricity Tier II",
         description: "Dan, you gotta stop using trifazic setup",
         requirements: [
             {
@@ -691,7 +691,6 @@ let lockedBlocksPmmoLevels = {
     "create:mechanical_mixer": 15,
     "createaddition:rolling_mill": 15,
     "createaddition:barbed_wire": 15,
-    "create:mechanical_bearing": 15,
     "create:mechanical_drill": 15,
     "create:mechanical_saw": 15,
     "create:mechanical_harvester": 15,
@@ -736,9 +735,10 @@ let lockedBlocksPmmoLevels = {
     "create:flywheel": 20,
     "create:deployer": 20,
 
+    /* 2 track stations? */
+
     "railways:semaphore": 22,
     "railways:track_coupler": 22,
-    "create:track_station": 22,
     "create:track_station": 22,
     "create:track_signal": 22,
     "create:track_observer": 22,
@@ -772,14 +772,18 @@ let lockedBlocksPmmoLevels = {
     "refinedstorage:crafter_manager": 40,
     "refinedstorage:crafting_monitor": 40,
 
+
+    /* Shit don't exist (1-64k fluid blocks) */
+
     "refinedstorage:1k_storage_block": 40,
     "refinedstorage:4k_storage_block": 40,
     "refinedstorage:16k_storage_block": 40,
     "refinedstorage:64k_storage_block": 40,
-    "refinedstorage:1k_fluid_storage_block": 40,
-    "refinedstorage:4k_fluid_storage_block": 40,
-    "refinedstorage:16k_fluid_storage_block": 40,
     "refinedstorage:64k_fluid_storage_block": 40,
+    "refinedstorage:256k_fluid_storage_block": 40,
+    "refinedstorage:1024k_fluid_storage_block": 40,
+    "refinedstorage:4096k_fluid_storage_block": 40,
+    
 
     "refinedstorage:disk_drive": 40,
     "refinedstorage:importer": 40,

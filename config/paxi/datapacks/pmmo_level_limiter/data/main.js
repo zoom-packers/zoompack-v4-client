@@ -502,7 +502,6 @@ function modifyCreate() {
     processor.modifyPlaceBlockRequirements("create", "mechanical_mixer", "engineering", 15);
     processor.modifyPlaceBlockRequirements("createaddition", "rolling_mill", "engineering", 15);
     processor.modifyPlaceBlockRequirements("createaddition", "barbed_wire", "engineering", 15);
-    processor.modifyPlaceBlockRequirements("create", "mechanical_bearing", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_drill", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_saw", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_harvester", "engineering", 15);
@@ -592,6 +591,9 @@ function modifyRefinedStorage() {
     processor.modifyPlaceBlockRequirements("refinedstorage", "4k_fluid_storage_block", "engineering", 40);
     processor.modifyPlaceBlockRequirements("refinedstorage", "16k_fluid_storage_block", "engineering", 40);
     processor.modifyPlaceBlockRequirements("refinedstorage", "64k_fluid_storage_block", "engineering", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "256k_fluid_storage_block", "engineering", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "1024k_fluid_storage_block", "engineering", 40);
+    processor.modifyPlaceBlockRequirements("refinedstorage", "4096k_fluid_storage_block", "engineering", 40);
 
     processor.modifyPlaceBlockRequirements("refinedstorage", "disk_drive", "engineering", 40);
     processor.modifyPlaceBlockRequirements("refinedstorage", "importer", "engineering", 40);
