@@ -1,1282 +1,1159 @@
 {
-  "profession": "spacecatcustomprofessions:ticketmaster",
-  "removeOtherTrades": true,
-  "maxTrades": 2,
-  "trades": [
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:combat_xp_multiplier",
-            "duration": 72000,
-            "level": 1,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:14937324,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 20% more Combat XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Combat XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 2
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:combat_xp_multiplier",
-            "duration": 72000,
-            "level": 3,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:14937324,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 60% more Combat XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Combat XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:combat_xp_multiplier",
-            "duration": 72000,
-            "level": 5,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:14937324,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 100% more Combat XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Combat XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:swordsmanship_xp_multiplier",
-            "duration": 72000,
-            "level": 1,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:13127231,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 20% more Swordsmanship XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Swordsmanship XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 2
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:swordsmanship_xp_multiplier",
-            "duration": 72000,
-            "level": 3,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:13127231,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 60% more Swordsmanship XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Swordsmanship XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:swordsmanship_xp_multiplier",
-            "duration": 72000,
-            "level": 5,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:13127231,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 100% more Swordsmanship XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Swordsmanship XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:archery_xp_multiplier",
-            "duration": 72000,
-            "level": 1,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:8634943,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 20% more Archery XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Archery XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 2
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:archery_xp_multiplier",
-            "duration": 72000,
-            "level": 3,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:8634943,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 60% more Archery XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Archery XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:archery_xp_multiplier",
-            "duration": 72000,
-            "level": 5,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:8634943,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 100% more Archery XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Archery XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:magic_xp_multiplier",
-            "duration": 72000,
-            "level": 1,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:4869045,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 20% more Magic XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Magic XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 2
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:magic_xp_multiplier",
-            "duration": 72000,
-            "level": 3,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:4869045,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 60% more Magic XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Magic XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:magic_xp_multiplier",
-            "duration": 72000,
-            "level": 5,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:4869045,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 100% more Magic XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Magic XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:endurance_xp_multiplier",
-            "duration": 72000,
-            "level": 1,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:7407124,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 20% more Endurance XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Endurance XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 2
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:endurance_xp_multiplier",
-            "duration": 72000,
-            "level": 3,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:7407124,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 60% more Endurance XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Endurance XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:endurance_xp_multiplier",
-            "duration": 72000,
-            "level": 5,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:7407124,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 100% more Endurance XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Endurance XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:agility_xp_multiplier",
-            "duration": 72000,
-            "level": 1,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:3857271,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 20% more Agility XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Agility XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 2
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:agility_xp_multiplier",
-            "duration": 72000,
-            "level": 3,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:3857271,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 60% more Agility XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Agility XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:agility_xp_multiplier",
-            "duration": 72000,
-            "level": 5,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:3857271,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 100% more Agility XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Agility XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:swimming_xp_multiplier",
-            "duration": 72000,
-            "level": 1,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:3827157,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 20% more Swimming XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Swimming XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 2
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:swimming_xp_multiplier",
-            "duration": 72000,
-            "level": 3,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:3827157,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 60% more Swimming XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Swimming XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:swimming_xp_multiplier",
-            "duration": 72000,
-            "level": 5,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:3827157,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 100% more Swimming XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Swimming XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:mining_xp_multiplier",
-            "duration": 72000,
-            "level": 1,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:6704448,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 20% more Mining XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Mining XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 2
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:mining_xp_multiplier",
-            "duration": 72000,
-            "level": 3,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:6704448,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 60% more Mining XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Mining XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:mining_xp_multiplier",
-            "duration": 72000,
-            "level": 5,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:6704448,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 100% more Mining XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Mining XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:woodcutting_xp_multiplier",
-            "duration": 72000,
-            "level": 1,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:4530449,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 20% more Woodcutting XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Woodcutting XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 2
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:woodcutting_xp_multiplier",
-            "duration": 72000,
-            "level": 3,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:4530449,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 60% more Woodcutting XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Woodcutting XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:woodcutting_xp_multiplier",
-            "duration": 72000,
-            "level": 5,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:4530449,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 100% more Woodcutting XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Woodcutting XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:fishing_xp_multiplier",
-            "duration": 72000,
-            "level": 1,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:9228517,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 20% more Fishing XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Fishing XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 2
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:fishing_xp_multiplier",
-            "duration": 72000,
-            "level": 3,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:9228517,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 60% more Fishing XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Fishing XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:fishing_xp_multiplier",
-            "duration": 72000,
-            "level": 5,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:9228517,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 100% more Fishing XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Fishing XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:farming_xp_multiplier",
-            "duration": 72000,
-            "level": 1,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:6192150,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 20% more Farming XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Farming XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 2
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:farming_xp_multiplier",
-            "duration": 72000,
-            "level": 3,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:6192150,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 60% more Farming XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Farming XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:farming_xp_multiplier",
-            "duration": 72000,
-            "level": 5,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:6192150,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 100% more Farming XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Farming XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:alchemy_xp_multiplier",
-            "duration": 72000,
-            "level": 1,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:15961002,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 20% more Alchemy XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Alchemy XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 2
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:alchemy_xp_multiplier",
-            "duration": 72000,
-            "level": 3,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:15961002,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 60% more Alchemy XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Alchemy XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:alchemy_xp_multiplier",
-            "duration": 72000,
-            "level": 5,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:15961002,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 100% more Alchemy XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Alchemy XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:cooking_xp_multiplier",
-            "duration": 72000,
-            "level": 1,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:16371082,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 20% more Cooking XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Cooking XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 2
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:cooking_xp_multiplier",
-            "duration": 72000,
-            "level": 3,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:16371082,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 60% more Cooking XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Cooking XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:cooking_xp_multiplier",
-            "duration": 72000,
-            "level": 5,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:16371082,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 100% more Cooking XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Cooking XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:smithing_xp_multiplier",
-            "duration": 72000,
-            "level": 1,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:4673419,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 20% more Smithing XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Smithing XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 2
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:smithing_xp_multiplier",
-            "duration": 72000,
-            "level": 3,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:4673419,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 60% more Smithing XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Smithing XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:smithing_xp_multiplier",
-            "duration": 72000,
-            "level": 5,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:4673419,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 100% more Smithing XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Smithing XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:crafting_xp_multiplier",
-            "duration": 72000,
-            "level": 1,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:16701501,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 20% more Crafting XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Crafting XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 2
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:crafting_xp_multiplier",
-            "duration": 72000,
-            "level": 3,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:16701501,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 60% more Crafting XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Crafting XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:crafting_xp_multiplier",
-            "duration": 72000,
-            "level": 5,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:16701501,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 100% more Crafting XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Crafting XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:excavation_xp_multiplier",
-            "duration": 72000,
-            "level": 1,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:11833187,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 20% more Excavation XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Excavation XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 2
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:excavation_xp_multiplier",
-            "duration": 72000,
-            "level": 3,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:11833187,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 60% more Excavation XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Excavation XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:excavation_xp_multiplier",
-            "duration": 72000,
-            "level": 5,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:11833187,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 100% more Excavation XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Excavation XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:engineering_xp_multiplier",
-            "duration": 72000,
-            "level": 1,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:16723494,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 20% more Engineering XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Engineering XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 2
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:engineering_xp_multiplier",
-            "duration": 72000,
-            "level": 3,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:16723494,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 60% more Engineering XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Engineering XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:engineering_xp_multiplier",
-            "duration": 72000,
-            "level": 5,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:16723494,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 100% more Engineering XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Engineering XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    }
-  ]
+    "removeOtherTrades": true,
+    "trades": [
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 2
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:combat_xp_multiplier",
+                        "duration": "72000",
+                        "level": 1,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:14937324,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 20% more Combat XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Combat XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 3
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:combat_xp_multiplier",
+                        "duration": "72000",
+                        "level": 3,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:14937324,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 60% more Combat XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Combat XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 4
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:combat_xp_multiplier",
+                        "duration": "72000",
+                        "level": 5,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:14937324,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 100% more Combat XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Combat XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 2
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:swordsmanship_xp_multiplier",
+                        "duration": "72000",
+                        "level": 1,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:13127231,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 20% more Swordsmanship XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Swordsmanship XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 3
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:swordsmanship_xp_multiplier",
+                        "duration": "72000",
+                        "level": 3,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:13127231,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 60% more Swordsmanship XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Swordsmanship XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 4
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:swordsmanship_xp_multiplier",
+                        "duration": "72000",
+                        "level": 5,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:13127231,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 100% more Swordsmanship XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Swordsmanship XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 2
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:archery_xp_multiplier",
+                        "duration": "72000",
+                        "level": 1,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:8634943,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 20% more Archery XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Archery XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 3
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:archery_xp_multiplier",
+                        "duration": "72000",
+                        "level": 3,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:8634943,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 60% more Archery XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Archery XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 4
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:archery_xp_multiplier",
+                        "duration": "72000",
+                        "level": 5,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:8634943,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 100% more Archery XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Archery XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 2
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:magic_xp_multiplier",
+                        "duration": "72000",
+                        "level": 1,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:4869045,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 20% more Magic XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Magic XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 3
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:magic_xp_multiplier",
+                        "duration": "72000",
+                        "level": 3,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:4869045,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 60% more Magic XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Magic XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 4
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:magic_xp_multiplier",
+                        "duration": "72000",
+                        "level": 5,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:4869045,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 100% more Magic XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Magic XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 2
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:endurance_xp_multiplier",
+                        "duration": "72000",
+                        "level": 1,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:7407124,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 20% more Endurance XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Endurance XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 3
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:endurance_xp_multiplier",
+                        "duration": "72000",
+                        "level": 3,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:7407124,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 60% more Endurance XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Endurance XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 4
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:endurance_xp_multiplier",
+                        "duration": "72000",
+                        "level": 5,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:7407124,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 100% more Endurance XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Endurance XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 2
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:agility_xp_multiplier",
+                        "duration": "72000",
+                        "level": 1,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:3857271,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 20% more Agility XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Agility XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 3
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:agility_xp_multiplier",
+                        "duration": "72000",
+                        "level": 3,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:3857271,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 60% more Agility XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Agility XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 4
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:agility_xp_multiplier",
+                        "duration": "72000",
+                        "level": 5,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:3857271,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 100% more Agility XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Agility XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 2
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:swimming_xp_multiplier",
+                        "duration": "72000",
+                        "level": 1,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:3827157,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 20% more Swimming XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Swimming XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 3
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:swimming_xp_multiplier",
+                        "duration": "72000",
+                        "level": 3,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:3827157,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 60% more Swimming XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Swimming XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 4
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:swimming_xp_multiplier",
+                        "duration": "72000",
+                        "level": 5,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:3827157,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 100% more Swimming XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Swimming XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 2
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:mining_xp_multiplier",
+                        "duration": "72000",
+                        "level": 1,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:6704448,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 20% more Mining XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Mining XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 3
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:mining_xp_multiplier",
+                        "duration": "72000",
+                        "level": 3,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:6704448,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 60% more Mining XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Mining XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 4
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:mining_xp_multiplier",
+                        "duration": "72000",
+                        "level": 5,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:6704448,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 100% more Mining XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Mining XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 2
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:woodcutting_xp_multiplier",
+                        "duration": "72000",
+                        "level": 1,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:4530449,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 20% more Woodcutting XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Woodcutting XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 3
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:woodcutting_xp_multiplier",
+                        "duration": "72000",
+                        "level": 3,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:4530449,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 60% more Woodcutting XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Woodcutting XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 4
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:woodcutting_xp_multiplier",
+                        "duration": "72000",
+                        "level": 5,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:4530449,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 100% more Woodcutting XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Woodcutting XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 2
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:fishing_xp_multiplier",
+                        "duration": "72000",
+                        "level": 1,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:9228517,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 20% more Fishing XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Fishing XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 3
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:fishing_xp_multiplier",
+                        "duration": "72000",
+                        "level": 3,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:9228517,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 60% more Fishing XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Fishing XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 4
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:fishing_xp_multiplier",
+                        "duration": "72000",
+                        "level": 5,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:9228517,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 100% more Fishing XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Fishing XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 2
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:farming_xp_multiplier",
+                        "duration": "72000",
+                        "level": 1,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:6192150,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 20% more Farming XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Farming XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 3
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:farming_xp_multiplier",
+                        "duration": "72000",
+                        "level": 3,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:6192150,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 60% more Farming XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Farming XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 4
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:farming_xp_multiplier",
+                        "duration": "72000",
+                        "level": 5,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:6192150,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 100% more Farming XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Farming XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 2
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:alchemy_xp_multiplier",
+                        "duration": "72000",
+                        "level": 1,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:15961002,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 20% more Alchemy XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Alchemy XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 3
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:alchemy_xp_multiplier",
+                        "duration": "72000",
+                        "level": 3,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:15961002,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 60% more Alchemy XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Alchemy XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 4
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:alchemy_xp_multiplier",
+                        "duration": "72000",
+                        "level": 5,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:15961002,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 100% more Alchemy XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Alchemy XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 2
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:cooking_xp_multiplier",
+                        "duration": "72000",
+                        "level": 1,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:16371082,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 20% more Cooking XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Cooking XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 3
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:cooking_xp_multiplier",
+                        "duration": "72000",
+                        "level": 3,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:16371082,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 60% more Cooking XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Cooking XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 4
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:cooking_xp_multiplier",
+                        "duration": "72000",
+                        "level": 5,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:16371082,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 100% more Cooking XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Cooking XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 2
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:smithing_xp_multiplier",
+                        "duration": "72000",
+                        "level": 1,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:4673419,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 20% more Smithing XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Smithing XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 3
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:smithing_xp_multiplier",
+                        "duration": "72000",
+                        "level": 3,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:4673419,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 60% more Smithing XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Smithing XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 4
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:smithing_xp_multiplier",
+                        "duration": "72000",
+                        "level": 5,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:4673419,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 100% more Smithing XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Smithing XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 2
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:excavation_xp_multiplier",
+                        "duration": "72000",
+                        "level": 1,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:11833187,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 20% more Excavation XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Excavation XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 3
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:excavation_xp_multiplier",
+                        "duration": "72000",
+                        "level": 3,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:11833187,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 60% more Excavation XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Excavation XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 4
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:excavation_xp_multiplier",
+                        "duration": "72000",
+                        "level": 5,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:11833187,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 100% more Excavation XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Excavation XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 2
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:engineering_xp_multiplier",
+                        "duration": "72000",
+                        "level": 1,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:16723494,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 20% more Engineering XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Engineering XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 3
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:engineering_xp_multiplier",
+                        "duration": "72000",
+                        "level": 3,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:16723494,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 60% more Engineering XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Engineering XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        },
+        {
+            "request": {
+                "itemKey": "dotcoinmod:token",
+                "amount": 4
+            },
+            "offer": {
+                "itemKey": "minecraft:potion",
+                "amount": 1,
+                "effects": [
+                    {
+                        "effectKey": "zoompack_overrides_forge:engineering_xp_multiplier",
+                        "duration": "72000",
+                        "level": 5,
+                        "isVisible": false
+                    }
+                ],
+                "advancedNBTData": "{CustomPotionColor:16723494,display:{Lore:['[\"\",{\"text\":\"Drink this to gain 100% more Engineering XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]'],Name:'[\"\",{\"text\":\"Engineering XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]'}}"
+            },
+            "tradeExp": 1,
+            "maxUses": 9999999,
+            "priceMultiplier": 0,
+            "demand": 0,
+            "tradeLevel": 1
+        }
+    ],
+    "maxTrades": 99999999,
+    "profession": "spacecatcustomprofessions:ticketmaster"
 }

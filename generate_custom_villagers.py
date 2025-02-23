@@ -299,7 +299,6 @@ save_villager_config('animalist')
 # Alchemy
 # Cooking
 # Smithing
-# Crafting
 # Excavaion
 # Engineering
 
@@ -318,7 +317,6 @@ skills = [
     ('alchemy', 15961002),
     ('cooking', 16371082),
     ('smithing', 4673419),
-    ('crafting', 16701501),
     ('excavation', 11833187),
     ('engineering', 16723494),
 ]

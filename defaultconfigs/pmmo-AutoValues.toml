@@ -76,9 +76,6 @@
 			[Auto_Values.Xp_Awards.Items."BLOCK_PLACE Default Xp Award"]
 				building = 10
 
-			[Auto_Values.Xp_Awards.Items."CRAFT Default Xp Award"]
-				crafting = 10
-
 			[Auto_Values.Xp_Awards.Items."CONSUME Default Xp Award"]
 				cooking = 10
 
