@@ -162,6 +162,15 @@
 			displayGroupName = false
 			useTotalLevels = false
 
+		[Skills.Entry.crafting]
+			maxLevel = 0
+			icon = "pmmo:textures/skills/crafting.png"
+			iconSize = 32
+			color = 16750848
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = true
+
 		[Skills.Entry.excavation]
 			maxLevel = 2147483647
 			icon = "minecraft:textures/item/iron_shovel.png"
