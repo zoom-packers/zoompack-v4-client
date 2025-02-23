@@ -274,6 +274,10 @@
     {
       "modName": "EMI",
       "modId": 580555
+    },
+    {
+      "modName": "Obscure Tooltips",
+      "modId": 715660
     }
   ],
   "removeFolders": [
