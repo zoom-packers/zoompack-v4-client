@@ -1,12 +1,6 @@
 {
 	"loading_priority": 1,
 	"type": "origins:multiple",
-	"no_food": {
-		"type": "origins:prevent_item_use",
-		"item_condition": {
-			"type": "origins:food"
-		}
-	},
 	"live_kills": {
 		"type": "origins:self_action_on_kill",
 		"entity_action": {
