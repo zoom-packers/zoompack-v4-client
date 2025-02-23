@@ -278,6 +278,10 @@
     {
       "modName": "Obscure Tooltips",
       "modId": 715660
+    },
+    {
+      "modName": "Obscure Tooltips Fix",
+      "modId": 1103943
     }
   ],
   "removeFolders": [
