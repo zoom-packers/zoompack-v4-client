@@ -192,6 +192,28 @@ function lootlib_p_getGem(rarity_index) {
     }
 }
 
+function lootlib_p_getFortunasMaterial(rarity) {
+    let materials = [
+        'common_material',
+        'uncommon_material',
+        'rare_material'
+    ];
+    return `fortunas_anvil:${materials[rarity]}`;
+}
+
+function lootlib_p_getFortunasCatalyst(rarity) {
+    let catalysts = [
+        'common_cataylst',
+        'uncommon_cataylst',
+        'rare_cataylst'
+    ]
+    return `fortunas_anvil:${catalysts[rarity]}`;
+}
+
+function lootlib_p_getFortunasProtectionRune() {
+    return 'fortunas_anvil:protection_rune';
+}
+
 function weightedEntry(item, weight) {
     return {item: item, weight: weight};
 }
@@ -254,6 +276,7 @@ function overworldDrops(rolls) {
             weightedEntry(lootlib_p_getGem(0), 10),
             weightedEntry(lootlib_p_getGem(1), 10),
             weightedEntry(lootlib_p_getGem(2), 5),
+            weightedEntry(lootlib_p_getFortunasMaterial(0), 10),
         ]
         drops.push(rollWeightedTable(weighted));
     }
@@ -279,6 +302,8 @@ function everbrightDrops(rolls) {
             weightedEntry(lootlib_p_getGem(1), 10),
             weightedEntry(lootlib_p_getGem(2), 10),
             weightedEntry(lootlib_p_getGem(3), 5),
+            weightedEntry(lootlib_p_getFortunasMaterial(0), 10),
+            weightedEntry(lootlib_p_getFortunasCatalyst(0), 10),
         ]
         drops.push(rollWeightedTable(weighted));
     }
@@ -304,6 +329,9 @@ function everdawnDrops(rolls) {
             weightedEntry(lootlib_p_getGem(2), 10),
             weightedEntry(lootlib_p_getGem(3), 10),
             weightedEntry(lootlib_p_getGem(4), 5),
+            weightedEntry(lootlib_p_getFortunasMaterial(0), 10),
+            weightedEntry(lootlib_p_getFortunasCatalyst(0), 10),
+            weightedEntry(lootlib_p_getFortunasProtectionRune(), 1),
         ]
         drops.push(rollWeightedTable(weighted));
     }
@@ -329,6 +357,9 @@ function aetherDrops(rolls) {
             weightedEntry(lootlib_p_getGem(3), 7),
             weightedEntry(lootlib_p_getGem(4), 7),
             weightedEntry(lootlib_p_getGem(5), 5),
+            weightedEntry(lootlib_p_getFortunasMaterial(1), 10),
+            weightedEntry(lootlib_p_getFortunasCatalyst(0), 10),
+            weightedEntry(lootlib_p_getFortunasProtectionRune(), 2),
         ]
         drops.push(rollWeightedTable(weighted));
     }
@@ -355,6 +386,9 @@ function netherDrops(rolls) {
             weightedEntry(lootlib_p_getGem(4), 10),
             weightedEntry(lootlib_p_getGem(5), 10),
             weightedEntry(lootlib_p_getGem(6), 5),
+            weightedEntry(lootlib_p_getFortunasMaterial(1), 10),
+            weightedEntry(lootlib_p_getFortunasCatalyst(1), 10),
+            weightedEntry(lootlib_p_getFortunasProtectionRune(), 3),
         ]
         drops.push(rollWeightedTable(weighted));
     }
@@ -377,6 +411,9 @@ function undergardenDrops(rolls) {
             weightedEntry(lootlib_p_getGem(4), 5),
             weightedEntry(lootlib_p_getGem(5), 8),
             weightedEntry(lootlib_p_getGem(6), 1),
+            weightedEntry(lootlib_p_getFortunasMaterial(1), 10),
+            weightedEntry(lootlib_p_getFortunasCatalyst(1), 10),
+            weightedEntry(lootlib_p_getFortunasProtectionRune(), 4),
         ]
         drops.push(rollWeightedTable(weighted));
     }
@@ -402,6 +439,9 @@ function endDrops(rolls) {
             weightedEntry(lootlib_p_getGem(5), 8),
             weightedEntry(lootlib_p_getGem(6), 3),
             weightedEntry(lootlib_p_getGem(7), 1),
+            weightedEntry(lootlib_p_getFortunasMaterial(2), 10),
+            weightedEntry(lootlib_p_getFortunasCatalyst(1), 10),
+            weightedEntry(lootlib_p_getFortunasProtectionRune(), 6),
         ]
         drops.push(rollWeightedTable(weighted));
     }
@@ -427,6 +467,9 @@ function deepDrops(rolls) {
             weightedEntry(lootlib_p_getGem(6), 5),
             weightedEntry(lootlib_p_getGem(7), 3),
             weightedEntry(lootlib_p_getGem(8), 1),
+            weightedEntry(lootlib_p_getFortunasMaterial(2), 10),
+            weightedEntry(lootlib_p_getFortunasCatalyst(2), 10),
+            weightedEntry(lootlib_p_getFortunasProtectionRune(), 8),
         ]
         drops.push(rollWeightedTable(weighted));
     }
@@ -450,6 +493,9 @@ function abyssDrops(rolls) {
             weightedEntry(lootlib_p_getGem(7), 7),
             weightedEntry(lootlib_p_getGem(8), 3),
             weightedEntry(lootlib_p_getGem(9), 1),
+            weightedEntry(lootlib_p_getFortunasMaterial(2), 10),
+            weightedEntry(lootlib_p_getFortunasCatalyst(2), 10),
+            weightedEntry(lootlib_p_getFortunasProtectionRune(), 10),
         ]
         drops.push(rollWeightedTable(weighted));
     }
@@ -466,3 +512,4 @@ global.netherDrops = netherDrops;
 global.undergardenDrops = undergardenDrops;
 global.endDrops = endDrops;
 global.deepDrops = deepDrops;
+global.abyssDrops = abyssDrops;
