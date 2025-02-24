@@ -65,14 +65,6 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "zoompack_overrides_forge:crafting_xp_multiplier",
-					"value": 0.01,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
 					"attribute": "zoompack_overrides_forge:endurance_xp_multiplier",
 					"value": 0.01,
 					"operation": "multiply_total"
