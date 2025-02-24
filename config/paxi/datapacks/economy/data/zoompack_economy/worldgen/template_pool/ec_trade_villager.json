@@ -1,0 +1,16 @@
+{
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "zoompack_economy:ec_trade_villager",
+          "processors": {
+            "processors": []
+          },
+          "projection": "rigid"
+        },
+        "weight": 1
+      }
+    ],
+    "fallback": "minecraft:empty"
+  }
