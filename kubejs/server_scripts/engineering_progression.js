@@ -44,7 +44,7 @@ let techProgMilestones = [
         description: "All the machinees must be put inside a casing.",
         requirements: [
             {
-                item: "minecraft:andesite_alloy",
+                item: "create:andesite_alloy",
                 amount: 16
             }
         ],
