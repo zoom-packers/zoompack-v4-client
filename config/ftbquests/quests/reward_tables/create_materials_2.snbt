@@ -1,0 +1,17 @@
+{
+	icon: "minecraft:gold_nugget"
+	id: "1355620DEA0B120F"
+	loot_size: 1
+	order_index: 42
+	rewards: [
+		{ count: 2, item: "create:raw_zinc", weight: 0.0f }
+		{ item: "minecraft:raw_gold", weight: 50.0f }
+		{ count: 4, item: "minecraft:raw_iron", weight: 0.0f }
+		{
+			type: "xp_levels"
+			weight: 0.0f
+			xp_levels: 1
+		}
+	]
+	title: "Create material reward 2"
+}

@@ -7,13 +7,13 @@ import {
     SwordVariant,
     ToolVariant
 } from "../material/ArmoryTypes";
-import {CiaModifier, CiaModifierBuilder, operation} from "../cia/util";
+import { CiaModifier, CiaModifierBuilder, operation } from "../cia/util";
 import {
     attribute_attributeslib,
     attribute_irons_spellbooks,
     attribute_minecraft, attribute_projectile_damage
 } from "../../../typedefs/attribute_typedefs";
-import {item_irons_spellbooks} from "../../../typedefs/item_typedefs";
+import { item_irons_spellbooks } from "../../../typedefs/item_typedefs";
 
 
 export function createHealthPerLevelAttributes(piece: 'helmet' | 'chestplate' | 'leggings' | 'boots', tier: 'light' | 'medium' | 'heavy'): CiaModifier[] {
@@ -244,7 +244,7 @@ export class PolymorphArmoryVariants {
         id: "scythe",
         type: "sword",
         displayName: "Scythe",
-        recipe: ["material","material","","#forge:rods/wooden","material","","#forge:rods/wooden","",""],
+        recipe: ["material", "material", "", "#forge:rods/wooden", "material", "", "#forge:rods/wooden", "", ""],
         durabilityMultiplier: 0.8,
         damageMultiplier: 1.3,
         speedMultiplier: -0.4,
@@ -268,6 +268,61 @@ export class PolymorphArmoryVariants {
         modelType: "katana",
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.55),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.12 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
+        ]
+    }
+
+    private static readonly SAI_VARIANT: SwordVariant = {
+        id: "sai",
+        type: "sword",
+        displayName: "Sai",
+        recipe: ["", "material", "", "", "#forge:rods/wooden", "", "", "", ""],
+        durabilityMultiplier: 1.5,
+        damageMultiplier: 0.725,
+        speedMultiplier: 0.45,
+        reachMultiplier: -0.2,
+        modelType: "normal",
+        additionalAttributes: [
+            {
+                attribute: "attributeslib:dodge_chance",
+                value: 0.09,
+                operation: operation.LOWERCASE_ADDITION
+            }
+        ],
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.45),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.09 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
+        ]
+    }
+
+    private static readonly TWINBLADE_VARIANT: SwordVariant = {
+        id: "twinblade",
+        type: "sword",
+        displayName: "Twinblade",
+        recipe: ["", "material", "", "", "#forge:rods/wooden", "", "", "material", ""],
+        durabilityMultiplier: 1.3,
+        damageMultiplier: 0.6,
+        speedMultiplier: 0.3,
+        reachMultiplier: 0.15,
+        modelType: "twinblade",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.4),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.08 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
+        ]
+    }
+
+    private static readonly WARGLAIVE_VARIANT: SwordVariant = {
+        id: "warglaive",
+        type: "sword",
+        displayName: "Warglaive",
+        recipe: ["", "material", "material", "", "#forge:rods/wooden", "", "", "material", "material"],
+        durabilityMultiplier: 1.5,
+        damageMultiplier: 0.5,
+        speedMultiplier: 0.25,
+        reachMultiplier: 0.13,
+        modelType: "warglaive",
+        additionalAttributesPerLevel: [
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.6),
             CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.12 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
         ]
     }
@@ -610,6 +665,9 @@ export class PolymorphArmoryVariants {
         PolymorphArmoryVariants.HALBERD_VARIANT,
         PolymorphArmoryVariants.SCYTHE_VARIANT,
         PolymorphArmoryVariants.KATANA_VARIANT,
+        PolymorphArmoryVariants.TWINBLADE_VARIANT,
+        PolymorphArmoryVariants.SAI_VARIANT,
+        PolymorphArmoryVariants.WARGLAIVE_VARIANT,
         PolymorphArmoryVariants.MUSASHI_VARIANT,
         PolymorphArmoryVariants.ARCANE_STAFF,
         PolymorphArmoryVariants.WOODWIND_STAFF,

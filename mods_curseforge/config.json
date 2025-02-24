@@ -1,11 +1,10 @@
 {
-  "exportZipName": "Zoompack 4 - FULL Version v1.0.1.zip",
+  "exportZipName": "Zoompack 4 - FULL Version v2.0.0.zip",
   "includes": [
     "../config",
     "../defaultconfigs",
     "../emotes",
     "../kubejs",
-    "../packmenu",
     "../shaderpacks",
     "../icon.png",
     "../options.txt",

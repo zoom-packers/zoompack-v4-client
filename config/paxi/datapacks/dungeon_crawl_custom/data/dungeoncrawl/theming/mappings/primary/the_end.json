@@ -1,32 +1,32 @@
 {
     "default": [
         {
-            "key": "dungeoncrawl:the_end_0",
+            "key": "dungeoncrawl:the_end_no_pillars_0",
             "weight": 1
         }
     ],
     "mapping": {
         "outer_end:crystal_crag": [
             {
-                "key": "dungeoncrawl:the_end_0",
+                "key": "dungeoncrawl:the_end_no_pillars_0",
                 "weight": 1
             }
         ],
         "outer_end:azure_forest": [
             {
-                "key": "dungeoncrawl:the_end_0",
+                "key": "dungeoncrawl:the_end_no_pillars_0",
                 "weight": 1
             }
         ],
         "outer_end:primordial_pools": [
             {
-                "key": "dungeoncrawl:the_end_0",
+                "key": "dungeoncrawl:the_end_no_pillars_0",
                 "weight": 1
             }
         ],
         "phantasm:dreaming_den": [
             {
-                "key": "dungeoncrawl:the_end_0",
+                "key": "dungeoncrawl:the_end_no_pillars_0",
                 "weight": 1
             }
         ]

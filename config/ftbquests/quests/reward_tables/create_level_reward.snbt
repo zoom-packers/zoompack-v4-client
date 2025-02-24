@@ -1,0 +1,11 @@
+{
+	icon: "minecraft:ender_chest"
+	id: "1F591AE170778B18"
+	loot_size: 1
+	order_index: 48
+	rewards: [{
+		type: "xp_levels"
+		xp_levels: 5
+	}]
+	title: "Create level reward"
+}

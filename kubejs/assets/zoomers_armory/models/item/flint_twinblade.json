@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "zoomers_armory:item/flint_twinblade"
+    },
+    "parent": "zoomers_armory:item/twinblade"
+}

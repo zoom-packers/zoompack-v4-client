@@ -462,6 +462,8 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             `${inputModelsDir}/normal.json`,
             `${inputModelsDir}/long.json`,
             `${inputModelsDir}/spear.json`,
+            `${inputModelsDir}/twinblade.json`,
+            `${inputModelsDir}/warglaive.json`,
             `${inputModelsDir}/katana.json`,
             `${inputModelsDir}/musashi.json`,
             `${inputModelsDir}/arcane_staff.json`,

@@ -1,5 +1,5 @@
 {
-  "exportZipName": "Zoompack 4 - POTATO Version v1.0.1.zip",
+  "exportZipName": "Zoompack 4 - POTATO Version v2.0.0.zip",
   "addMods": [
   ],
   "removeMods": [
@@ -266,6 +266,50 @@
     {
       "modName": "A Good Place",
       "modId": 1020455
+    },
+    {
+      "modName": "Fresh Moves",
+      "modId": 990406
+    },
+    {
+      "modName": "EMI",
+      "modId": 580555
+    },
+    {
+      "modName": "Obscure Tooltips",
+      "modId": 715660
+    },
+    {
+      "modName": "Obscure Tooltips Fix",
+      "modId": 1103943
+    },
+    {
+      "modName": "EMI Trades",
+      "modId": 735523
+    },
+    {
+      "modName": "Emi Enchants",
+      "modId": 1036393
+    },
+    {
+      "modName": "Emi Enchanting",
+      "modId": 936713
+    },
+    {
+      "modName": "Emi Loot",
+      "modId": 681783
+    },
+    {
+      "modName": "Emi Effect",
+      "modId": 735528
+    },
+    {
+      "modName": "Emi Let's do compat",
+      "modId": 1063821
+    },
+    {
+      "modName": "Emi Integrations",
+      "modId": 739970
     }
   ],
   "removeFolders": [
