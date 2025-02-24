@@ -287,9 +287,7 @@ function elite_summonFriends(world, entity, groupSize) {
 
 function elite_getDifficulty() {
     var rand = Math.random();
-    if (rand < 0.005) {
-        return "horde_cheif"
-    } else if (rand < 0.02) {
+    if (rand < 0.02) {
         return "miniboss";
     } else if (rand < 0.05) {
         return "champion";
@@ -314,8 +312,6 @@ function elite_getRolls(difficulty) {
             return 4;
         case "miniboss":
             return 8;
-        case "horde_cheif":
-            return 16;
     }
 }
 
@@ -336,8 +332,6 @@ function elite_getMinionCountAndDifficulty(difficulty) {
             return {count: 3, difficulty: "trained"};
         case "miniboss":
             return {count: 3, difficulty: "elite"};
-        case "horde_cheif":
-            return {count: 12, difficulty: "elite"};
     }
 }
 
@@ -399,17 +393,6 @@ function elite_getDifficultyConfig(difficulty) {
                 chatColor: $ChatFormatting.DARK_RED,
                 groupSize: 1
             }
-        case "horde_cheif":
-            return {
-                modifiers: {
-                    "generic.max_health": 49,
-                    "generic.attack_damage": 3,
-                    "projectile_damage:generic": 3
-                },
-                name: "Horde Cheif",
-                chatColor: $ChatFormatting.DARK_PURPLE,
-                groupSize: 1
-            }
     }
 }
 
@@ -462,11 +445,6 @@ function elite_setPehkuiSize(server, entity, difficulty) {
             height = 2
             width = 2.5
             stepHeight = 2
-            break;
-        case "horde_cheif":
-            height = 2.5
-            width = 3
-            stepHeight = 2;
             break;
     }
     let entitySelector = entity.getStringUuid();
