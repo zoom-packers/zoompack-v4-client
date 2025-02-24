@@ -5,6 +5,12 @@ ServerEvents.tags('item', event => {
   event.add("curios:ring", "zoomers_armory:flint_berserker_ring");
   event.add("curios:ring", "zoomers_armory:flint_fortified_ring");
   event.add("curios:ring", "zoomers_armory:flint_infused_ring");
+  event.add("curios:ring", "zoomers_armory:copper_mana_ring");
+  event.add("curios:ring", "zoomers_armory:copper_dexterity_ring");
+  event.add("curios:ring", "zoomers_armory:copper_sharpshooter_ring");
+  event.add("curios:ring", "zoomers_armory:copper_berserker_ring");
+  event.add("curios:ring", "zoomers_armory:copper_fortified_ring");
+  event.add("curios:ring", "zoomers_armory:copper_infused_ring");
   event.add("curios:ring", "zoomers_armory:iron_mana_ring");
   event.add("curios:ring", "zoomers_armory:iron_dexterity_ring");
   event.add("curios:ring", "zoomers_armory:iron_sharpshooter_ring");
@@ -229,6 +235,12 @@ ServerEvents.tags('item', event => {
   event.add("curios:necklace", "zoomers_armory:flint_berserker_necklace");
   event.add("curios:necklace", "zoomers_armory:flint_fortified_necklace");
   event.add("curios:necklace", "zoomers_armory:flint_infused_necklace");
+  event.add("curios:necklace", "zoomers_armory:copper_mana_necklace");
+  event.add("curios:necklace", "zoomers_armory:copper_dexterity_necklace");
+  event.add("curios:necklace", "zoomers_armory:copper_sharpshooter_necklace");
+  event.add("curios:necklace", "zoomers_armory:copper_berserker_necklace");
+  event.add("curios:necklace", "zoomers_armory:copper_fortified_necklace");
+  event.add("curios:necklace", "zoomers_armory:copper_infused_necklace");
   event.add("curios:necklace", "zoomers_armory:iron_mana_necklace");
   event.add("curios:necklace", "zoomers_armory:iron_dexterity_necklace");
   event.add("curios:necklace", "zoomers_armory:iron_sharpshooter_necklace");
@@ -453,6 +465,12 @@ ServerEvents.tags('item', event => {
   event.add("aether:accessories_gloves", "zoomers_armory:flint_berserker_gloves");
   event.add("aether:accessories_gloves", "zoomers_armory:flint_fortified_gloves");
   event.add("aether:accessories_gloves", "zoomers_armory:flint_infused_gloves");
+  event.add("aether:accessories_gloves", "zoomers_armory:copper_mana_gloves");
+  event.add("aether:accessories_gloves", "zoomers_armory:copper_dexterity_gloves");
+  event.add("aether:accessories_gloves", "zoomers_armory:copper_sharpshooter_gloves");
+  event.add("aether:accessories_gloves", "zoomers_armory:copper_berserker_gloves");
+  event.add("aether:accessories_gloves", "zoomers_armory:copper_fortified_gloves");
+  event.add("aether:accessories_gloves", "zoomers_armory:copper_infused_gloves");
   event.add("aether:accessories_gloves", "zoomers_armory:iron_mana_gloves");
   event.add("aether:accessories_gloves", "zoomers_armory:iron_dexterity_gloves");
   event.add("aether:accessories_gloves", "zoomers_armory:iron_sharpshooter_gloves");
@@ -672,6 +690,9 @@ ServerEvents.tags('item', event => {
 });
 ServerEvents.tags('item', event => {
   event.add("minecraft:flint", "minecraft:flint");
+});
+ServerEvents.tags('item', event => {
+  event.add("minecraft:copper_ingot", "minecraft:copper_ingot");
 });
 ServerEvents.tags('item', event => {
   event.add("minecraft:iron_ingot", "minecraft:iron_ingot");

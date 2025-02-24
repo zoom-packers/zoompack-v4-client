@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "zoomers_armory:item/copper_infused_ring"
+    },
+    "parent": "zoomers_armory:item/normal"
+}

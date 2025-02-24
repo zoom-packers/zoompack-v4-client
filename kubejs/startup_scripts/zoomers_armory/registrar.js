@@ -8,6 +8,14 @@ ItemEvents.toolTierRegistry(event => {
     tier.enchantmentValue = 9
     tier.repairIngredient = "#minecraft:flint"
   });
+  event.add("zoomers_armory:copper", tier => {
+    tier.uses = 180
+    tier.speed = 4
+    tier.attackDamageBonus = 1.5
+    tier.level = 1
+    tier.enchantmentValue = 9
+    tier.repairIngredient = "#minecraft:copper_ingot"
+  });
   event.add("zoomers_armory:iron", tier => {
     tier.uses = 250
     tier.speed = 8
@@ -423,6 +431,132 @@ ItemEvents.armorTierRegistry(event => {
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
     tier.repairIngredient = "#minecraft:flint" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:copper", tier => {
+    tier.durabilityMultiplier = 20.228914687499998 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.4666666666666666,3.6666666666666665,4.4,1.4666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "#minecraft:copper_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:copper_samurai_light", tier => {
+    tier.durabilityMultiplier = 20.228914687499998 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.4666666666666666,3.6666666666666665,4.4,1.4666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "#minecraft:copper_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:copper_samurai", tier => {
+    tier.durabilityMultiplier = 20.228914687499998 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.4666666666666666,3.6666666666666665,4.4,1.4666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "#minecraft:copper_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:copper_samurai_master", tier => {
+    tier.durabilityMultiplier = 20.228914687499998 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.4666666666666666,3.6666666666666665,4.4,1.4666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "#minecraft:copper_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:copper_archer", tier => {
+    tier.durabilityMultiplier = 20.228914687499998 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "#minecraft:copper_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:copper_ranger", tier => {
+    tier.durabilityMultiplier = 20.228914687499998 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.2466666666666666,3.1166666666666667,3.7399999999999998,1.2466666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "#minecraft:copper_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:copper_pyromancer", tier => {
+    tier.durabilityMultiplier = 20.228914687499998 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "#minecraft:copper_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:copper_cryomancer", tier => {
+    tier.durabilityMultiplier = 20.228914687499998 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "#minecraft:copper_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:copper_electromancer", tier => {
+    tier.durabilityMultiplier = 20.228914687499998 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "#minecraft:copper_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:copper_archevoker", tier => {
+    tier.durabilityMultiplier = 20.228914687499998 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "#minecraft:copper_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:copper_cultist", tier => {
+    tier.durabilityMultiplier = 20.228914687499998 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "#minecraft:copper_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:copper_shadowwalker", tier => {
+    tier.durabilityMultiplier = 20.228914687499998 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "#minecraft:copper_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:copper_priest", tier => {
+    tier.durabilityMultiplier = 20.228914687499998 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "#minecraft:copper_ingot" // #forge:ingots/iron'
+    tier.toughness = 0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
+  });
+  event.add("zoomers_armory:copper_plagued", tier => {
+    tier.durabilityMultiplier = 20.228914687499998 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.1,2.75,3.3,1.1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
+    tier.enchantmentValue = 9
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = "#minecraft:copper_ingot" // #forge:ingots/iron'
     tier.toughness = 0 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
@@ -5030,6 +5164,66 @@ global.createGeckoArmorTier(e, "zoomers_armory", "flint_priest", "zoomers_armory
     "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/flint_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/flint_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/flint_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/flint_priest_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "flint_plagued", "zoomers_armory:flint_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flint_plagued"), "Flint Plagued Hat", "Flint Plagued Robe", "Flint Plagued Leggings", "Flint Plagued Boots", "",
     "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/flint_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/flint_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/flint_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/flint_plagued_armor.png");
+e.create("zoomers_armory:copper_claws", "sword").displayName("Copper Claws").maxDamage(234).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_dagger", "sword").displayName("Copper Dagger").maxDamage(270).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_shortsword", "sword").displayName("Copper Shortsword").maxDamage(216).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_heavysword", "sword").displayName("Copper Heavysword").maxDamage(144).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_cutlass", "sword").displayName("Copper Cutlass").maxDamage(216).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_mace", "sword").displayName("Copper Mace").maxDamage(216).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_heavymace", "sword").displayName("Copper Heavymace").maxDamage(144).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_warhammer", "sword").displayName("Copper Warhammer").maxDamage(125.99999999999999).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_battleaxe", "sword").displayName("Copper Battleaxe").maxDamage(144).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_spear", "sword").displayName("Copper Spear").maxDamage(216).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_halberd", "sword").displayName("Copper Halberd").maxDamage(153).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_scythe", "sword").displayName("Copper Scythe").maxDamage(144).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_katana", "sword").displayName("Copper Katana").maxDamage(216).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_twinblade", "sword").displayName("Copper Twinblade").maxDamage(234).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_sai", "sword").displayName("Copper Sai").maxDamage(270).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_warglaive", "sword").displayName("Copper Warglaive").maxDamage(270).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_musashi", "sword").displayName("Copper Musashi").maxDamage(162).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_arcane_staff", "irons_spells_js:staff").displayName("Copper Arcane Staff").maxDamage(180).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_woodwind_staff", "irons_spells_js:staff").displayName("Copper Woodwind Staff").maxDamage(180).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_fire_staff", "irons_spells_js:staff").displayName("Copper Fire Staff").maxDamage(180).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_ice_staff", "irons_spells_js:staff").displayName("Copper Ice Staff").maxDamage(180).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_lightning_staff", "irons_spells_js:staff").displayName("Copper Lightning Staff").maxDamage(180).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_nature_staff", "irons_spells_js:staff").displayName("Copper Nature Staff").maxDamage(180).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_holy_staff", "irons_spells_js:staff").displayName("Copper Holy Staff").maxDamage(180).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_blood_staff", "irons_spells_js:staff").displayName("Copper Blood Staff").maxDamage(180).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_evocation_staff", "irons_spells_js:staff").displayName("Copper Evocation Staff").maxDamage(180).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_ender_staff", "irons_spells_js:staff").displayName("Copper Ender Staff").maxDamage(180).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_buckler", "shield").displayName("Copper Buckler").maxDamage(162).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_heater", "shield").displayName("Copper Heater").maxDamage(216).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_tower", "shield").displayName("Copper Tower").maxDamage(270).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_shortbow", "bow").displayName("Copper Shortbow").maxDamage(216).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_bow", "bow").displayName("Copper Bow").maxDamage(180).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_longbow", "bow").displayName("Copper Longbow").maxDamage(144).tier("zoomers_armory:copper")
+e.create("zoomers_armory:copper_crossbow", "crossbow").displayName("Copper Crossbow").maxDamage(135).tier("zoomers_armory:copper")
+global.createGeckoArmorTier(e, "zoomers_armory", "copper_samurai_light", "zoomers_armory:copper_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:copper_samurai_light"), "Copper Samurai Light Helmet", "Copper Samurai Light Chestplate", "Copper Samurai Light Leggings", "Copper Samurai Light Boots", "",
+    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_light_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "copper_samurai", "zoomers_armory:copper_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:copper_samurai"), "Copper Samurai Helmet", "Copper Samurai Chestplate", "Copper Samurai Leggings", "Copper Samurai Boots", "",
+    "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "copper_samurai_master", "zoomers_armory:copper_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:copper_samurai_master"), "Copper Samurai Master Helmet", "Copper Samurai Master Chestplate", "Copper Samurai Master Leggings", "Copper Samurai Master Boots", "",
+    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_master_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "copper_archer", "zoomers_armory:copper_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:copper_archer"), "Copper Archer Helmet", "Copper Archer Chestplate", "Copper Archer Leggings", "Copper Archer Boots", "",
+    "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/copper_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/copper_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/copper_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/copper_archer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "copper_ranger", "zoomers_armory:copper_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:copper_ranger"), "Copper Ranger Helmet", "Copper Ranger Chestplate", "Copper Ranger Leggings", "Copper Ranger Boots", "",
+    "zoomers_armory:geo/ranger.geo.json", "zoomers_armory:textures/models/armor/copper_ranger_armor.png", "zoomers_armory:geo/ranger.geo.json", "zoomers_armory:textures/models/armor/copper_ranger_armor.png", "zoomers_armory:geo/ranger.geo.json", "zoomers_armory:textures/models/armor/copper_ranger_armor.png", "zoomers_armory:geo/ranger.geo.json", "zoomers_armory:textures/models/armor/copper_ranger_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "copper_pyromancer", "zoomers_armory:copper_pyromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:copper_pyromancer"), "Copper Pyromancer Hat", "Copper Pyromancer Robe", "Copper Pyromancer Leggings", "Copper Pyromancer Boots", "",
+    "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/copper_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/copper_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/copper_pyromancer_armor.png", "zoomers_armory:geo/pyromancer.geo.json", "zoomers_armory:textures/models/armor/copper_pyromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "copper_cryomancer", "zoomers_armory:copper_cryomancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:copper_cryomancer"), "Copper Cryomancer Hat", "Copper Cryomancer Robe", "Copper Cryomancer Leggings", "Copper Cryomancer Boots", "",
+    "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/copper_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/copper_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/copper_cryomancer_armor.png", "zoomers_armory:geo/cryomancer.geo.json", "zoomers_armory:textures/models/armor/copper_cryomancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "copper_electromancer", "zoomers_armory:copper_electromancer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:copper_electromancer"), "Copper Electromancer Hat", "Copper Electromancer Robe", "Copper Electromancer Leggings", "Copper Electromancer Boots", "",
+    "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/copper_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/copper_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/copper_electromancer_armor.png", "zoomers_armory:geo/electromancer.geo.json", "zoomers_armory:textures/models/armor/copper_electromancer_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "copper_archevoker", "zoomers_armory:copper_archevoker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:copper_archevoker"), "Copper Archevoker Hat", "Copper Archevoker Robe", "Copper Archevoker Leggings", "Copper Archevoker Boots", "",
+    "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/copper_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/copper_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/copper_archevoker_armor.png", "zoomers_armory:geo/archevoker.geo.json", "zoomers_armory:textures/models/armor/copper_archevoker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "copper_cultist", "zoomers_armory:copper_cultist", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:copper_cultist"), "Copper Cultist Hat", "Copper Cultist Robe", "Copper Cultist Leggings", "Copper Cultist Boots", "",
+    "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/copper_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/copper_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/copper_cultist_armor.png", "zoomers_armory:geo/cultist.geo.json", "zoomers_armory:textures/models/armor/copper_cultist_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "copper_shadowwalker", "zoomers_armory:copper_shadowwalker", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:copper_shadowwalker"), "Copper Shadowwalker Hat", "Copper Shadowwalker Robe", "Copper Shadowwalker Leggings", "Copper Shadowwalker Boots", "",
+    "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/copper_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/copper_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/copper_shadowwalker_armor.png", "zoomers_armory:geo/shadowwalker.geo.json", "zoomers_armory:textures/models/armor/copper_shadowwalker_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "copper_priest", "zoomers_armory:copper_priest", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:copper_priest"), "Copper Priest Hat", "Copper Priest Robe", "Copper Priest Leggings", "Copper Priest Boots", "",
+    "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/copper_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/copper_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/copper_priest_armor.png", "zoomers_armory:geo/priest.geo.json", "zoomers_armory:textures/models/armor/copper_priest_armor.png");
+global.createGeckoArmorTier(e, "zoomers_armory", "copper_plagued", "zoomers_armory:copper_plagued", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:copper_plagued"), "Copper Plagued Hat", "Copper Plagued Robe", "Copper Plagued Leggings", "Copper Plagued Boots", "",
+    "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/copper_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/copper_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/copper_plagued_armor.png", "zoomers_armory:geo/plagued.geo.json", "zoomers_armory:textures/models/armor/copper_plagued_armor.png");
 e.create("zoomers_armory:iron_claws", "sword").displayName("Iron Claws").maxDamage(325).tier("zoomers_armory:iron")
 e.create("zoomers_armory:iron_dagger", "sword").displayName("Iron Dagger").maxDamage(375).tier("zoomers_armory:iron")
 e.create("zoomers_armory:iron_shortsword", "sword").displayName("Iron Shortsword").maxDamage(300).tier("zoomers_armory:iron")
@@ -7218,6 +7412,24 @@ global.createCurio(e, "zoomers_armory:flint_sharpshooter_gloves", "Flint Sharpsh
 global.createCurio(e, "zoomers_armory:flint_berserker_gloves", "Flint Berserker Gloves", [{"attribute":"minecraft:generic.attack_damage","operation":"ADDITION","value":1.5,"uuid":"52afacf9-8b18-576e-7308-7999028a20c1"},{"attribute":"minecraft:generic.attack_damage","operation":"MULTIPLY_BASE","value":0.01,"uuid":"b72ba9c7-df33-5bcb-e7ea-efda05b44689"}]);
 global.createCurio(e, "zoomers_armory:flint_fortified_gloves", "Flint Fortified Gloves", [{"attribute":"minecraft:generic.armor","operation":"ADDITION","value":1.5,"uuid":"63c7b460-2864-5a57-7404-ff2b2dcaf64f"},{"attribute":"minecraft:generic.armor","operation":"MULTIPLY_BASE","value":0.01,"uuid":"20f76fbc-9ac0-5749-c2cc-ea9b63a9cbb8"},{"attribute":"minecraft:generic.armor_toughness","operation":"ADDITION","value":1.5,"uuid":"d6e0a3aa-69e3-5d54-f41c-d14eaf665fcc"},{"attribute":"minecraft:generic.armor_toughness","operation":"MULTIPLY_BASE","value":0.01,"uuid":"f2f52255-abfb-5bfc-f778-576f2bcd0f63"},{"attribute":"minecraft:generic.knockback_resistance","operation":"ADDITION","value":1.5,"uuid":"a8b6b612-a461-5db1-636e-4f4aa90de268"},{"attribute":"minecraft:generic.knockback_resistance","operation":"MULTIPLY_BASE","value":0.01,"uuid":"120f0537-c21c-5e1f-010a-4805cb2d578d"},{"attribute":"minecraft:generic.max_health","operation":"ADDITION","value":1.5,"uuid":"9f5d6d38-b3dc-5deb-8833-41b600a44a7d"},{"attribute":"minecraft:generic.max_health","operation":"MULTIPLY_BASE","value":0.01,"uuid":"69a0d8ac-9a2a-5782-df5f-c7446b72fb70"}]);
 global.createCurio(e, "zoomers_armory:flint_infused_gloves", "Flint Infused Gloves", [{"attribute":"irons_spellbooks:spell_power","operation":"ADDITION","value":0.015,"uuid":"3c8e2e02-f1a7-58d9-3745-35ea3ba6a4ae"},{"attribute":"irons_spellbooks:spell_power","operation":"MULTIPLY_BASE","value":0.01,"uuid":"50f15c78-9d84-5bea-b5c2-1223accf1864"},{"attribute":"irons_spellbooks:cast_time_reduction","operation":"ADDITION","value":0.015,"uuid":"80bdf747-72a6-5dbf-155b-479fc3b7be5f"},{"attribute":"irons_spellbooks:cooldown_reduction","operation":"ADDITION","value":0.015,"uuid":"507dae38-2478-5799-422a-0585a47cacff"}]);
+global.createCurio(e, "zoomers_armory:copper_mana_ring", "Copper Mana Ring", [{"attribute":"irons_spellbooks:max_mana","operation":"ADDITION","value":5,"uuid":"09bd0a33-7474-5d64-0def-c00b605c5dc5"},{"attribute":"irons_spellbooks:max_mana","operation":"MULTIPLY_BASE","value":0.01,"uuid":"a0608e21-9513-5d65-c5b9-c89391207cd8"},{"attribute":"irons_spellbooks:mana_regen","operation":"ADDITION","value":0.015,"uuid":"beab9f05-c2e9-5311-197a-001bac367b1c"}]);
+global.createCurio(e, "zoomers_armory:copper_dexterity_ring", "Copper Dexterity Ring", [{"attribute":"projectile_damage:generic","operation":"ADDITION","value":1,"uuid":"2b8919ea-368d-5e60-c819-3c2ebe29c156"},{"attribute":"projectile_damage:generic","operation":"MULTIPLY_BASE","value":0.01,"uuid":"8ca2b5d9-2208-53bf-f48b-67b435de9641"},{"attribute":"attributeslib:armor_pierce","operation":"ADDITION","value":1,"uuid":"da72ea2e-901a-546e-0d48-a60bed235acf"},{"attribute":"attributeslib:armor_pierce","operation":"MULTIPLY_BASE","value":0.01,"uuid":"ba1e93dd-cada-57f2-821f-682a9e43323e"}]);
+global.createCurio(e, "zoomers_armory:copper_sharpshooter_ring", "Copper Sharpshooter Ring", [{"attribute":"attributeslib:arrow_velocity","operation":"ADDITION","value":0.01,"uuid":"c0f4151c-fa67-5567-a8ae-93df30c0a5e1"},{"attribute":"attributeslib:draw_speed","operation":"ADDITION","value":0.005,"uuid":"762e841e-73d7-5d13-b6fd-50a4af9fc262"}]);
+global.createCurio(e, "zoomers_armory:copper_berserker_ring", "Copper Berserker Ring", [{"attribute":"minecraft:generic.attack_damage","operation":"ADDITION","value":1,"uuid":"b5035ef8-4544-5b27-25a4-5bc59ba189bd"},{"attribute":"minecraft:generic.attack_damage","operation":"MULTIPLY_BASE","value":0.01,"uuid":"f1feeea0-6024-56d7-f4c7-90e7ddf74906"}]);
+global.createCurio(e, "zoomers_armory:copper_fortified_ring", "Copper Fortified Ring", [{"attribute":"minecraft:generic.armor","operation":"ADDITION","value":1,"uuid":"f9aa43c0-a104-5052-2ab0-4daf40189c46"},{"attribute":"minecraft:generic.armor","operation":"MULTIPLY_BASE","value":0.01,"uuid":"6eac7f31-6a49-561c-db49-613b829c09de"},{"attribute":"minecraft:generic.armor_toughness","operation":"ADDITION","value":1,"uuid":"ed86411c-73a3-5bd8-5156-a4654715826e"},{"attribute":"minecraft:generic.armor_toughness","operation":"MULTIPLY_BASE","value":0.01,"uuid":"2dcae971-e885-562f-9d02-8e52d068a4dc"},{"attribute":"minecraft:generic.knockback_resistance","operation":"ADDITION","value":1,"uuid":"79ada925-2e65-58ea-5935-e15ecb0dae6e"},{"attribute":"minecraft:generic.knockback_resistance","operation":"MULTIPLY_BASE","value":0.01,"uuid":"44b248a7-55c4-5e81-9d6f-6763de8874d3"},{"attribute":"minecraft:generic.max_health","operation":"ADDITION","value":1,"uuid":"04940efe-dea5-5b8f-391d-8ad1536bdd7f"},{"attribute":"minecraft:generic.max_health","operation":"MULTIPLY_BASE","value":0.01,"uuid":"10fe9339-abf2-53fb-2466-d941362a4556"}]);
+global.createCurio(e, "zoomers_armory:copper_infused_ring", "Copper Infused Ring", [{"attribute":"irons_spellbooks:spell_power","operation":"ADDITION","value":0.01,"uuid":"e4760fd9-90d6-5409-ab5c-a84ccba9ec57"},{"attribute":"irons_spellbooks:spell_power","operation":"MULTIPLY_BASE","value":0.01,"uuid":"44456f79-1f44-5e2e-8b64-94b3966fd40f"},{"attribute":"irons_spellbooks:cast_time_reduction","operation":"ADDITION","value":0.01,"uuid":"9c11f6cf-bf47-5d6b-bd23-ea4780cfe09c"},{"attribute":"irons_spellbooks:cooldown_reduction","operation":"ADDITION","value":0.01,"uuid":"dfd8e078-693b-5f50-f49d-988ab7a86384"}]);
+global.createCurio(e, "zoomers_armory:copper_mana_necklace", "Copper Mana Necklace", [{"attribute":"irons_spellbooks:max_mana","operation":"ADDITION","value":7.5,"uuid":"3fb7e56d-7dba-5332-a593-83d119fdd834"},{"attribute":"irons_spellbooks:max_mana","operation":"MULTIPLY_BASE","value":0.01,"uuid":"72d52c2e-92ca-5789-fbf4-5fec2f7fa4d6"},{"attribute":"irons_spellbooks:mana_regen","operation":"ADDITION","value":0.015,"uuid":"7b2b264d-c1be-5851-dc53-8e656a718c6c"}]);
+global.createCurio(e, "zoomers_armory:copper_dexterity_necklace", "Copper Dexterity Necklace", [{"attribute":"projectile_damage:generic","operation":"ADDITION","value":1.5,"uuid":"5ab0dc15-3258-5925-556b-4b551bf61bfe"},{"attribute":"projectile_damage:generic","operation":"MULTIPLY_BASE","value":0.01,"uuid":"8bb39018-b5e8-5baf-ae49-04a92bee11a6"},{"attribute":"attributeslib:armor_pierce","operation":"ADDITION","value":1.5,"uuid":"3ba71440-5879-5467-ae96-8ba41226e678"},{"attribute":"attributeslib:armor_pierce","operation":"MULTIPLY_BASE","value":0.01,"uuid":"a418e204-f0fe-5cd5-7dd8-42241f9500d9"}]);
+global.createCurio(e, "zoomers_armory:copper_sharpshooter_necklace", "Copper Sharpshooter Necklace", [{"attribute":"attributeslib:arrow_velocity","operation":"ADDITION","value":0.01,"uuid":"9f1ef2fa-d944-5311-9cf2-8bb53c6563fc"},{"attribute":"attributeslib:draw_speed","operation":"ADDITION","value":0.03,"uuid":"de334573-e7b6-55a6-4675-d0afd27aa950"}]);
+global.createCurio(e, "zoomers_armory:copper_berserker_necklace", "Copper Berserker Necklace", [{"attribute":"minecraft:generic.attack_damage","operation":"ADDITION","value":1.5,"uuid":"ed9d0667-4438-5713-2893-1ff93c881aac"},{"attribute":"minecraft:generic.attack_damage","operation":"MULTIPLY_BASE","value":0.01,"uuid":"b7de0c72-9749-5e46-15df-f2af82a44cdc"}]);
+global.createCurio(e, "zoomers_armory:copper_fortified_necklace", "Copper Fortified Necklace", [{"attribute":"minecraft:generic.armor","operation":"ADDITION","value":1.5,"uuid":"7f64c831-2409-5695-41b5-f4943aecafb9"},{"attribute":"minecraft:generic.armor","operation":"MULTIPLY_BASE","value":0.01,"uuid":"66344bf3-a71d-541c-f476-c0fa837713b7"},{"attribute":"minecraft:generic.armor_toughness","operation":"ADDITION","value":1.5,"uuid":"2b37bc41-9cac-55a5-9e8d-5cf81fc99d4f"},{"attribute":"minecraft:generic.armor_toughness","operation":"MULTIPLY_BASE","value":0.01,"uuid":"eb130b84-4c50-5372-ccf4-9c1f87ad101d"},{"attribute":"minecraft:generic.knockback_resistance","operation":"ADDITION","value":1.5,"uuid":"429a75e7-dff7-5f2d-d07d-0758edfbc59b"},{"attribute":"minecraft:generic.knockback_resistance","operation":"MULTIPLY_BASE","value":0.01,"uuid":"dde9ca32-3e46-5024-fd79-9b652da5f15c"},{"attribute":"minecraft:generic.max_health","operation":"ADDITION","value":1.5,"uuid":"d1500b43-dec9-55ff-ec0f-ed8ab81b264e"},{"attribute":"minecraft:generic.max_health","operation":"MULTIPLY_BASE","value":0.01,"uuid":"bf538eaf-b16a-553f-cc6b-790deb1866b1"}]);
+global.createCurio(e, "zoomers_armory:copper_infused_necklace", "Copper Infused Necklace", [{"attribute":"irons_spellbooks:spell_power","operation":"ADDITION","value":0.015,"uuid":"0ca33cf7-c3a3-5b26-6df2-8e1c2a4bb8a6"},{"attribute":"irons_spellbooks:spell_power","operation":"MULTIPLY_BASE","value":0.01,"uuid":"ebfd259d-e3dd-519a-0baf-b1ed3c7b8afe"},{"attribute":"irons_spellbooks:cast_time_reduction","operation":"ADDITION","value":0.015,"uuid":"46090d3a-dc12-5a42-b459-052518978585"},{"attribute":"irons_spellbooks:cooldown_reduction","operation":"ADDITION","value":0.015,"uuid":"ad3cd39e-c4e9-54b8-f299-a619c0ddfb7c"}]);
+global.createCurio(e, "zoomers_armory:copper_mana_gloves", "Copper Mana Gloves", [{"attribute":"irons_spellbooks:max_mana","operation":"ADDITION","value":7.5,"uuid":"096861bc-09ad-5ccf-37a5-8738a85f2d16"},{"attribute":"irons_spellbooks:max_mana","operation":"MULTIPLY_BASE","value":0.01,"uuid":"bc4ab1c8-fb35-502d-916b-018bb1ca4d2b"},{"attribute":"irons_spellbooks:mana_regen","operation":"ADDITION","value":0.015,"uuid":"b8574532-677d-5980-ff8d-c36df5c7d5ee"}]);
+global.createCurio(e, "zoomers_armory:copper_dexterity_gloves", "Copper Dexterity Gloves", [{"attribute":"projectile_damage:generic","operation":"ADDITION","value":1.5,"uuid":"1ed8f9c2-a245-5da5-7b2f-ddff2ebe9dd1"},{"attribute":"projectile_damage:generic","operation":"MULTIPLY_BASE","value":0.01,"uuid":"76904423-2a6d-5a9d-2a3c-795fe235b61f"},{"attribute":"attributeslib:armor_pierce","operation":"ADDITION","value":1.5,"uuid":"aa9f2a31-bf39-5455-e921-91737866d237"},{"attribute":"attributeslib:armor_pierce","operation":"MULTIPLY_BASE","value":0.01,"uuid":"92e3cb3b-9785-5f32-2f40-a6ac6e7c86c7"}]);
+global.createCurio(e, "zoomers_armory:copper_sharpshooter_gloves", "Copper Sharpshooter Gloves", [{"attribute":"attributeslib:arrow_velocity","operation":"ADDITION","value":0.01,"uuid":"61433fcc-94dc-5f9c-5486-0c5346260f0c"},{"attribute":"attributeslib:draw_speed","operation":"ADDITION","value":0.015,"uuid":"96239d87-fefe-51b4-e1e4-f2f1b5472ecc"}]);
+global.createCurio(e, "zoomers_armory:copper_berserker_gloves", "Copper Berserker Gloves", [{"attribute":"minecraft:generic.attack_damage","operation":"ADDITION","value":1.5,"uuid":"40e80520-3b4d-54ff-0ff1-55ed7069f46b"},{"attribute":"minecraft:generic.attack_damage","operation":"MULTIPLY_BASE","value":0.01,"uuid":"fce78223-b7aa-52ef-6a07-24bf4b1b9cb5"}]);
+global.createCurio(e, "zoomers_armory:copper_fortified_gloves", "Copper Fortified Gloves", [{"attribute":"minecraft:generic.armor","operation":"ADDITION","value":1.5,"uuid":"8a6ba194-964d-587a-d103-acb83159993e"},{"attribute":"minecraft:generic.armor","operation":"MULTIPLY_BASE","value":0.01,"uuid":"73b2004b-6569-5dd5-6643-45505ba58b98"},{"attribute":"minecraft:generic.armor_toughness","operation":"ADDITION","value":1.5,"uuid":"65a758cd-04d6-5335-3c1c-8ee98e0e9b75"},{"attribute":"minecraft:generic.armor_toughness","operation":"MULTIPLY_BASE","value":0.01,"uuid":"55dbc4ff-ca56-52f2-d0a6-c65cebbe3e57"},{"attribute":"minecraft:generic.knockback_resistance","operation":"ADDITION","value":1.5,"uuid":"87290888-04f7-5059-0d11-deceaae24667"},{"attribute":"minecraft:generic.knockback_resistance","operation":"MULTIPLY_BASE","value":0.01,"uuid":"046b2b40-7993-5e69-dd23-815355123cb4"},{"attribute":"minecraft:generic.max_health","operation":"ADDITION","value":1.5,"uuid":"daea7d56-9ddb-5d50-328a-511a30af5262"},{"attribute":"minecraft:generic.max_health","operation":"MULTIPLY_BASE","value":0.01,"uuid":"fd7037e5-a682-55fc-a2cc-84d3fa20001a"}]);
+global.createCurio(e, "zoomers_armory:copper_infused_gloves", "Copper Infused Gloves", [{"attribute":"irons_spellbooks:spell_power","operation":"ADDITION","value":0.015,"uuid":"9357a364-96bb-57ca-b991-2a0e78ef485a"},{"attribute":"irons_spellbooks:spell_power","operation":"MULTIPLY_BASE","value":0.01,"uuid":"b4b29ba7-702c-55f4-2921-f10d3e43a6b8"},{"attribute":"irons_spellbooks:cast_time_reduction","operation":"ADDITION","value":0.015,"uuid":"20b73b8e-a341-5b20-4885-721daf4dd438"},{"attribute":"irons_spellbooks:cooldown_reduction","operation":"ADDITION","value":0.015,"uuid":"5dc911fe-39da-5fe3-359e-7d3b47238ff1"}]);
 global.createCurio(e, "zoomers_armory:iron_mana_ring", "Iron Mana Ring", [{"attribute":"irons_spellbooks:max_mana","operation":"ADDITION","value":10,"uuid":"71d6e65d-9ce0-56c9-1e5f-2fa8dd3c55a0"},{"attribute":"irons_spellbooks:max_mana","operation":"MULTIPLY_BASE","value":0.02,"uuid":"2f326572-f0a5-59e0-8f8e-9bd72dda4e37"},{"attribute":"irons_spellbooks:mana_regen","operation":"ADDITION","value":0.03,"uuid":"edc8ca7f-234f-5c05-45b5-5b6e3e5a1f1a"}]);
 global.createCurio(e, "zoomers_armory:iron_dexterity_ring", "Iron Dexterity Ring", [{"attribute":"projectile_damage:generic","operation":"ADDITION","value":2,"uuid":"1340d9fb-6ab3-5733-3d6d-f052ea466a5f"},{"attribute":"projectile_damage:generic","operation":"MULTIPLY_BASE","value":0.02,"uuid":"d8929de2-4b90-5cb9-f162-ea8df68aea82"},{"attribute":"attributeslib:armor_pierce","operation":"ADDITION","value":2,"uuid":"e31a8a04-295a-547a-f2ba-fe6cbbb1bd47"},{"attribute":"attributeslib:armor_pierce","operation":"MULTIPLY_BASE","value":0.02,"uuid":"6f272726-f765-551e-224b-8f4b208f1c65"}]);
 global.createCurio(e, "zoomers_armory:iron_sharpshooter_ring", "Iron Sharpshooter Ring", [{"attribute":"attributeslib:arrow_velocity","operation":"ADDITION","value":0.02,"uuid":"5215e997-2707-5e5b-b325-143007e11879"},{"attribute":"attributeslib:draw_speed","operation":"ADDITION","value":0.01,"uuid":"371733b2-eabd-598b-de2b-2dcb2b929d49"}]);
