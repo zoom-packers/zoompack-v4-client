@@ -107,9 +107,13 @@ ServerEvents.commandRegistry(elite_commands);
 
 let elite_commands_to_run = [];
 let elites = [];
+let eliteLifetimeInMinutes = 10;
 
 function elite_onEntitySpawned(event) {
     let entity = event.getEntity();
+    if (elite_isElite(entity)) {
+        return;
+    }
     let world = entity.getLevel();
     let type = entity.getType();
     if (elite_allowsEliteMobs(type)) {
@@ -118,9 +122,9 @@ function elite_onEntitySpawned(event) {
         }
         let difficulty = elite_getDifficulty();
         let config = elite_getDifficultyConfig(difficulty);
-        let friends = elite_summonFriends(world, entity, config.groupSize - 1);
+        let friends = elite_summonFriends(world, entity, config.groupSize - 1, difficulty);
         let minionConfig = elite_getMinionCountAndDifficulty(difficulty);
-        let minions = elite_summonFriends(world, entity, minionConfig.count);
+        let minions = elite_summonFriends(world, entity, minionConfig.count, difficulty);
         elite_initElite(entity, difficulty);
         for (let friend of friends) {
             elite_initElite(friend, difficulty);
@@ -147,13 +151,18 @@ function elite_onDeath(event) {
      @type {ServerPlayer}
      */
     let player = killingEntity;
-    let lootingLevel = player.getMainHandItem().getEnchantmentLevel("minecraft:looting");
+    if (!player) {
+        return;
+    }
+    let mainHandItem = player.getMainHandItem();
+    let lootingLevel = 0;
+    if (mainHandItem.hasEnchantment("minecraft:looting")) {
+        lootingLevel = mainHandItem.getEnchantmentLevel("minecraft:looting");
+    }
     let dimensionRL = event.level.dimension.toString();
     let loot = null;
     let diff = entity.getPersistentData().getString("elite");
-    console.error("Looting Level: " + lootingLevel);
     let rolls = elite_getRolls(diff) + lootingLevel;
-    console.error("Rolls: " + rolls);
     switch (dimensionRL) {
         case "minecraft:overworld":
             loot = global.overworldDrops(rolls);
@@ -202,16 +211,30 @@ function elite_onTick(event) {
 
     let $AuraCapabilityProvider = Java.loadClass("com.pandaismyname1.zoompack_overrides_forge.aura.AuraCapabilityProvider");
     let tick = event.getServer().getTickCount();
-    if (tick % 20 === 0) {
+    if (tick % 69 === 0) {
+        let currentTime = Date.now();
+        let isDedicatedServer = server.isDedicated();
         event.getServer().getAllLevels().forEach(level => {
             var entities = level.getEntities();
             entities.forEach(entity => {
-                let capability = entity.getCapability($AuraCapabilityProvider.AURA_CAPABILITY).orElse(null);
-                if (capability == null) {
+                let isElite = elite_isElite(entity);
+                if (!isElite) {
                     return;
                 }
-                let auraId = capability.getAuraId();
-                $AuraCapabilityProvider.setAuraId(entity, auraId);
+                let spawnEpoch = entity.getPersistentData().getLong("eliteSpawnedEpoch");
+                let timeDiff = currentTime - spawnEpoch;
+                if (timeDiff > eliteLifetimeInMinutes * 60 * 1000) {
+                    entity.remove("discarded")
+                    return;
+                }
+                if (!isDedicatedServer) {
+                    let capability = entity.getCapability($AuraCapabilityProvider.AURA_CAPABILITY).orElse(null);
+                    if (capability == null) {
+                        return;
+                    }
+                    let auraId = capability.getAuraId();
+                    $AuraCapabilityProvider.setAuraId(entity, auraId);
+                }
             });
         });
     }
@@ -267,7 +290,7 @@ function elite_initElite(entity, difficulty) {
 }
 
 
-function elite_summonFriends(world, entity, groupSize) {
+function elite_summonFriends(world, entity, groupSize, difficulty) {
     let entityPos = entity.getPos();
     let type = entity.getEntityType();
     let $MobSpawnType = Java.loadClass("net.minecraft.world.entity.MobSpawnType");
@@ -275,6 +298,7 @@ function elite_summonFriends(world, entity, groupSize) {
     let friends = [];
     for (let i = 0; i < groupSize; i++) {
         let friend = type.create(world);
+        elite_initElite(friend, difficulty);
         friend.setPosition(entityPos.x(), entityPos.y(), entityPos.z());
         world.addFreshEntity(friend);
         // Fuck you minecraft, Fuck you Java, Fuck you Forge, and finally, Fuck you Microsoft
@@ -317,7 +341,7 @@ function elite_getRolls(difficulty) {
 
 function elite_canSpawn() {
     let rand = Math.random();
-    return rand < 0.05;
+    return rand < 0.3;
 }
 
 function elite_getMinionCountAndDifficulty(difficulty) {
@@ -408,6 +432,7 @@ function elite_isElite(entity) {
 function elite_setDifficulty(entity, difficulty) {
     var compoundTag = entity.getPersistentData();
     compoundTag.putString("elite", difficulty);
+    compoundTag.putLong("eliteSpawnedEpoch", Date.now());
 }
 
 function elite_setGlowEffect(entity, difficulty) {
