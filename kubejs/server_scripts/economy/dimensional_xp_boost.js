@@ -26,6 +26,5 @@ PlayerEvents.tick( event => {
     if (economy_dimension_xp_multipliers[dimension] !== undefined) {
         server.runCommandSilent(`/attribute ${player_name} ${modifier.attribute} modifier remove ${modifier.uuid}`);
         server.runCommandSilent(`/attribute ${player_name} ${modifier.attribute} modifier add ${modifier.uuid} "Dimensional Boost Modifier" ${final_modifier_amount} ${modifier.operation}`);
-        console.log(`running command: /attribute ${player_name} ${modifier.attribute} modifier add ${modifier.uuid} "Dimensional Boost Modifier" ${final_modifier_amount} ${modifier.operation}`);
     }
 })
