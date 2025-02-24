@@ -39,6 +39,20 @@ const materials = [
         skip: ["armor"]
     },
     {
+        item: item_minecraft.i_copper_ingot,
+        tier: 1,
+        type: "crafting",
+        name: "copper",
+        base_damage: 5.5,
+        durability: 180,
+        armor: 11,
+        armorToughness: 0,
+        knockbackResistance: 0,
+        pmmoLevel: 6,
+        materialColor: "#da712b",
+        skip: ["armor", "tools"]
+    },
+    {
         item: item_minecraft.i_iron_ingot,
         tier: 2,
         type: "crafting",
