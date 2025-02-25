@@ -19,7 +19,7 @@ PlayerEvents.tick( event => {
     if (economy_dimension_xp_multipliers[dimension] === undefined) return;
     let modifier = {
         attribute: "attributeslib:experience_gained",
-        uuid: "85883543-c4a3-406e-ba46-9c146fa16248",
+        uuid: "85883543-c4a3-406e-ba46-9a1b6f917548",
         operation: "multiply_base"
     }
     let final_modifier_amount = economy_dimension_xp_multipliers[dimension] - 1;

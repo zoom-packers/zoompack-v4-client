@@ -156,9 +156,6 @@ function elite_onDeath(event) {
     }
     let mainHandItem = player.getMainHandItem();
     let lootingLevel = 0;
-    if (mainHandItem.hasEnchantment("minecraft:looting")) {
-        lootingLevel = mainHandItem.getEnchantmentLevel("minecraft:looting");
-    }
     let dimensionRL = event.level.dimension.toString();
     let loot = null;
     let diff = entity.getPersistentData().getString("elite");
