@@ -87,6 +87,15 @@ function modifyGeneralUseItemRequirements(modId, modItem, skill, level) {
     writeJson(template, filePath);
 }
 
+function modifyUseItemRequirements(modId, modItem, skill, level) {
+    let folder = `./${modId}/pmmo/items`;
+    let filePath = `${folder}/${modItem}.json`;
+    checkFileExists(filePath, modId, modItem, skill, level);
+    const template = templateFormatter.use(skill, level)
+    ensureFolderExists(folder)
+    writeJson(template, filePath);
+}
+
 function modifyPlaceBlockRequirements(modId, modItem, skill, level) {
     let folder = `./${modId}/pmmo/blocks`;
     let filePath = `${folder}/${modItem}.json`;
@@ -153,5 +162,6 @@ module.exports = {
     modifyEntityMountable,
     modifySingleItemForMount,
     modifyGeneralUseItemRequirements,
+    modifyUseItemRequirements,
     modifyPlaceBlockRequirements
 }

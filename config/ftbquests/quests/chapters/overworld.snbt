@@ -160,15 +160,6 @@
 		}
 		{
 			height: 2.0d
-			image: "simpleradio:block/antenna"
-			order: 1
-			rotation: 0.0d
-			width: 2.0d
-			x: 9.5d
-			y: 0.0d
-		}
-		{
-			height: 2.0d
 			image: "minecraft:item/fishing_rod"
 			order: 1
 			rotation: 0.0d
@@ -327,7 +318,7 @@
 			rotation: 0.0d
 			width: 5.0d
 			x: 13.0d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
 			height: 1.0d
@@ -431,7 +422,7 @@
 		{
 			height: 5.0d
 			image: "blue_skies:block/misc/black_fire_1"
-			order: 1
+			order: 2
 			rotation: 0.0d
 			width: 3.0d
 			x: 13.0d

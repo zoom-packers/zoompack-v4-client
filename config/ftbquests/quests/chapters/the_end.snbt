@@ -60,8 +60,8 @@
 			image: "undergarden:block/glitterkelp"
 			rotation: 0.0d
 			width: 3.0d
-			x: 2.9880952380952266d
-			y: 6.297619047619044d
+			x: 1.5714285714285623d
+			y: 3.9077380952380807d
 		}
 		{
 			height: 3.0d
@@ -158,23 +158,6 @@
 			y: -0.9047619047619264d
 		}
 		{
-			height: 4.0d
-			image: "ironfurnaces:item/upgrade_obsidian"
-			rotation: 0.0d
-			width: 4.0d
-			x: 8.71428571428568d
-			y: 5.86904761904762d
-		}
-		{
-			height: 20.0d
-			image: "outer_end:block/rose_crystal"
-			order: -2
-			rotation: 0.0d
-			width: 20.0d
-			x: 7.749999999999986d
-			y: -0.8690476190476275d
-		}
-		{
 			height: 3.0d
 			image: "endlessbiomes:item/penumbralvineitem"
 			rotation: 0.0d
@@ -229,6 +212,39 @@
 			width: 20.0d
 			x: 7.785714285714292d
 			y: -18.101190476190496d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/black_vine"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.357142857142847d
+			y: -8.127976190476211d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/black_vine_bottom"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.6428571428571317d
+			y: -2.985119047619065d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/black_vine"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.499999999999993d
+			y: -5.556547619047635d
+		}
+		{
+			height: 20.0d
+			image: "betternether:block/obsidian_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 20.0d
+			x: 7.785714285714278d
+			y: -0.8422619047619193d
 		}
 	]
 	order_index: 5
@@ -1054,10 +1070,8 @@
 			]
 			icon: {
 				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "bosses_of_mass_destruction:particle/eye_open_5"
-				}
+				id: "supplementaries:enderman_head"
+				tag: { }
 			}
 			id: "242D7BC20C1B3480"
 			rewards: [{
