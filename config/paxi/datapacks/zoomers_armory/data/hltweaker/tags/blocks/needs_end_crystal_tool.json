@@ -1,6 +1,10 @@
 {
     "values": [
         "phantasm:crystal_block",
-        "phantasm:void_crystal_block"
+        "phantasm:void_crystal_block",
+        "enderitemod:enderite_block",
+        "enderitemod:enderite_respawn_anchor",
+        "enderitemod:enderite_ore",
+        "enderitemod:cracked_enderite_ore"
     ]
 }

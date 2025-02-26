@@ -80,10 +80,10 @@ export const existingOres = [
 
     // The Nether Ores
     // Quartz, Cincinnasite, Nether Ruby, Ancient Debris
-    new ExistingOre("minecraft", "quartz").withMiningLevel(tier_levels_nether_start).withVariants([VARIANTS.NETHER]),
-    new ExistingOre("betternether", "cincinnasite").withMiningLevel(tier_levels_nether_start).withVariants([VARIANTS.STONE]),
-    new ExistingOre("betternether", "nether_ruby").withMiningLevel(tier_levels_nether_start + 1).withVariants([VARIANTS.STONE]),
-    new ExistingOre("minecraft", "ancient_debris").withMiningLevel(tier_levels_nether_start + 2).withVariants([VARIANTS.BLOCK]),
+    new ExistingOre("minecraft", "quartz").withMiningLevel(tier_levels_nether_start - 1).withVariants([VARIANTS.NETHER]),
+    new ExistingOre("betternether", "cincinnasite").withMiningLevel(tier_levels_nether_start - 1).withVariants([VARIANTS.STONE]),
+    new ExistingOre("betternether", "nether_ruby").withMiningLevel(tier_levels_nether_start).withVariants([VARIANTS.STONE]),
+    new ExistingOre("minecraft", "ancient_debris").withMiningLevel(tier_levels_nether_start + 1).withVariants([VARIANTS.BLOCK]),
 
     // Undergarden Ores
     // Cloggrum, Froststeel, Utherium, Regalium
@@ -97,10 +97,10 @@ export const existingOres = [
     // Crystal, Malachite, Irradium, Bismuth, Enderite Ore, Cracked Enderite Ore
     new ExistingOre("phantasm", "crystal_block").withMiningLevel(tier_levels_end_start).withVariants([VARIANTS.BLOCK]),
     new ExistingOre("phantasm", "void_crystal_block").withMiningLevel(tier_levels_end_start).withVariants([VARIANTS.BLOCK]),
-    new ExistingOre("enderitemod", "enderite_block").withMiningLevel(tier_levels_end_start + 1).withVariants([VARIANTS.BLOCK]),
-    new ExistingOre("enderitemod", "enderite_respawn_anchor").withMiningLevel(tier_levels_end_start + 1).withVariants([VARIANTS.BLOCK]),
-    new ExistingOre("enderitemod", "enderite").withMiningLevel(tier_levels_end_start + 1).withVariants([VARIANTS.STONE]),
-    new ExistingOre("enderitemod", "cracked_enderite").withMiningLevel(tier_levels_end_start + 1).withVariants([VARIANTS.STONE]),
+    new ExistingOre("enderitemod", "enderite_block").withMiningLevel(tier_levels_end_start).withVariants([VARIANTS.BLOCK]),
+    new ExistingOre("enderitemod", "enderite_respawn_anchor").withMiningLevel(tier_levels_end_start).withVariants([VARIANTS.BLOCK]),
+    new ExistingOre("enderitemod", "enderite").withMiningLevel(tier_levels_end_start).withVariants([VARIANTS.STONE]),
+    new ExistingOre("enderitemod", "cracked_enderite").withMiningLevel(tier_levels_end_start).withVariants([VARIANTS.STONE]),
 
     // Call from the Depths Ores
     // Immemorial Debris

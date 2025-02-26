@@ -1,5 +1,7 @@
 {
     "values": [
-        "aether:gravitite_ore"
+        "aether:gravitite_ore",
+        "minecraft:nether_quartz_ore",
+        "betternether:cincinnasite_ore"
     ]
 }
