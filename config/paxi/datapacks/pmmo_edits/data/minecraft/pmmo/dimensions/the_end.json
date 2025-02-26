@@ -12,7 +12,12 @@
         {
             "attribute":"minecraft:generic.attack_damage",
             "operation": "MULTIPLY_BASE",
-            "amount": 39
+            "amount": 19
+        },
+        {
+            "attribute":"minecraft:generic.attack_damage",
+            "operation": "MULTIPLY_BASE",
+            "amount": 19
         },
         {
             "attribute":"minecraft:generic.armor",
