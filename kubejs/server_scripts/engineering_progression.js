@@ -67,25 +67,21 @@ let techProgMilestones = [
         pmmoLevelSet: 6,
     },
     {
-        id: "the_prime_resources",
-        name: "The Prime Resources",
-        description: "The Wheels can move when applied force",
+        id: "mechanical_power",
+        name: "Mechanical Power",
+        description: "Harness the power of mechanical energy along with item junction.",
         requirements: [
             {
-                item: "create:zinc_ingot",
-                amount: 8
+                item: "create:andesite_casing",
+                amount: 64
             },
             {
-                item: "minecraft:copper_ingot",
-                amount: 8
-            },
-            {
-                item: "create:clutch",
-                amount: 8
+                item: "create:gearbox",
+                amount: 16
             },
             {
                 item: "create:white_sail",
-                amount: 32
+                amount: 8
             }
         ],
         pmmoLevelSet: 7,
@@ -111,24 +107,28 @@ let techProgMilestones = [
         pmmoLevelSet: 8,
     },
     {
-        id: "mechanical_power",
-        name: "Mechanical Power",
-        description: "Harness the power of mechanical energy along with item junction.",
+        id: "the_prime_resources",
+        name: "The Prime Resources",
+        description: "The Wheels can move when applied force",
         requirements: [
             {
-                item: "create:andesite_casing",
-                amount: 64
+                item: "create:zinc_ingot",
+                amount: 8
             },
             {
-                item: "create:gearbox",
-                amount: 16
+                item: "minecraft:copper_ingot",
+                amount: 8
+            },
+            {
+                item: "create:clutch",
+                amount: 8
             },
             {
                 item: "create:white_sail",
-                amount: 8
+                amount: 32
             }
         ],
-        pmmoLevelSet: 7,
+        pmmoLevelSet: 9,
     },
     {
         id: "check_your_pipes",
