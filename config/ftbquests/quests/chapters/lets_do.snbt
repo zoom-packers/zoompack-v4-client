@@ -30,6 +30,7 @@
 				table_id: 3076555991572753089L
 				type: "loot"
 			}]
+			subtitle: "Use grapes on it and jump on it"
 			tasks: [{
 				id: "17A63BBC46BA4996"
 				item: "vinery:grapevine_pot"
@@ -265,6 +266,7 @@
 				table_id: 6759378343124754253L
 				type: "loot"
 			}]
+			subtitle: "Use a bottle on the grapevine pot to obtain ze juice"
 			tasks: [{
 				id: "619435CFAC1F7C6D"
 				item: "vinery:wine_bottle"

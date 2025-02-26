@@ -1,0 +1,166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fortunas"
+	group: "13CD0C62E96AC261"
+	icon: {
+		Count: 1
+		id: "fortunas_anvil:fortunas_anvil"
+		tag: { }
+	}
+	id: "0B38F22DB5861FCC"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&eUseable with weapons swords/tridents/bows. Place a catalyst, a material and a protection rune (optional ^^) alongside a weapon to roll for an upgrade. Failing to upgrade will destroy the item so we sugest placing a protection rune.&r"]
+			id: "5DF792A67667432F"
+			rewards: [{
+				id: "44CC8BFC1BEB7DB2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Special anvil used to upgrade items"
+			tasks: [{
+				id: "443412940BB560C5"
+				item: {
+					Count: 1
+					id: "fortunas_anvil:fortunas_anvil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "44F9A64FCF772422"
+			tasks: [{
+				id: "4795CB66A2D68139"
+				item: {
+					Count: 1
+					id: "fortunas_anvil:protection_rune"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "5BC572E42DDBD2E5"
+			rewards: [{
+				id: "40EA5CF511E4B78E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "606D838CCF42D11E"
+				item: {
+					Count: 1
+					id: "fortunas_anvil:rare_catalyst"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "62A674FFE52F4C7A"
+			rewards: [{
+				id: "54E36437E1B1A109"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2F945053C3828465"
+				item: {
+					Count: 1
+					id: "fortunas_anvil:uncommon_catalyst"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "1C0AC8759554C672"
+			rewards: [{
+				id: "15A4B0E4CB19F431"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "6DF81DA7C4299088"
+				item: {
+					Count: 1
+					id: "fortunas_anvil:common_catalyst"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "0B2D4E14F259EC16"
+			rewards: [{
+				id: "3511FC400BCF8EDC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "416C3C141FE45C4C"
+				item: {
+					Count: 1
+					id: "fortunas_anvil:common_material"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "75F6E1D0701F1DDA"
+			rewards: [{
+				id: "1492F9EFAFEC10B5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "65696F41FCA134C0"
+				item: {
+					Count: 1
+					id: "fortunas_anvil:uncommon_material"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "25273163713CA246"
+			rewards: [{
+				id: "0083112DFE976CC3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "49DA48F66256E1A5"
+				item: {
+					Count: 1
+					id: "fortunas_anvil:rare_material"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+	]
+	title: "Fortunas"
+}

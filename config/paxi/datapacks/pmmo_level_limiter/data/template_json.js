@@ -88,6 +88,9 @@ function use(skill, value) {
         requirements: {
             USE: {
                 [skill]: value
+            },
+            INTERACT: {
+                [skill]: value
             }
         }
     }

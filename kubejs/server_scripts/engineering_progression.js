@@ -67,6 +67,46 @@ let techProgMilestones = [
         pmmoLevelSet: 6,
     },
     {
+        id: "mechanical_power",
+        name: "Mechanical Power",
+        description: "Harness the power of mechanical energy along with item junction.",
+        requirements: [
+            {
+                item: "create:andesite_casing",
+                amount: 64
+            },
+            {
+                item: "create:gearbox",
+                amount: 16
+            },
+            {
+                item: "create:white_sail",
+                amount: 8
+            }
+        ],
+        pmmoLevelSet: 7,
+    },
+    {
+        id: "bigger_and_better",
+        name: "Bigger And Better",
+        description: "Does bigger always mean better? When it comes to wheels, yeah..",
+        requirements: [
+            {
+                item: "create:cogwheel",
+                amount: 16
+            },
+            {
+                item: "create:large_cogwheel",
+                amount: 16
+            },
+            {
+                item: "create:gearbox",
+                amount: 32
+            }
+        ],
+        pmmoLevelSet: 8,
+    },
+    {
         id: "the_prime_resources",
         name: "The Prime Resources",
         description: "The Wheels can move when applied force",
@@ -86,46 +126,6 @@ let techProgMilestones = [
             {
                 item: "create:white_sail",
                 amount: 32
-            }
-        ],
-        pmmoLevelSet: 7,
-    },
-    {
-        id: "bigger_and_better",
-        name: "Bigger And Better",
-        description: "Does bigger always mean better? When it comes to wheels, yeah..",
-        requirements: [
-            {
-                item: "create:cogwheel",
-                amount: 16
-            },
-            {
-                item: "create:water_wheel",
-                amount: 16
-            },
-            {
-                item: "create:gearbox",
-                amount: 32
-            }
-        ],
-        pmmoLevelSet: 8,
-    },
-    {
-        id: "mechanical_power",
-        name: "Mechanical Power",
-        description: "Harness the power of mechanical energy along with item junction.",
-        requirements: [
-            {
-                item: "create:andesite_casing",
-                amount: 64
-            },
-            {
-                item: "create:large_cogwheel",
-                amount: 16
-            },
-            {
-                item: "create:large_water_wheel",
-                amount: 8
             }
         ],
         pmmoLevelSet: 9,
