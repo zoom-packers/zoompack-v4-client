@@ -1,0 +1,10 @@
+{
+    "requirements": {
+        "USE": {
+            "engineering": 25
+        },
+        "INTERACT": {
+            "engineering": 25
+        }
+    }
+}

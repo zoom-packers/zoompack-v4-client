@@ -328,6 +328,7 @@ function modifySophisticatedBackpacks() {
 }
 
 function modifySophisticatedStorage() {
+    let tiers = ["basic", "copper", "iron", "gold", "diamond", "netherite"];
     let levels = [2, 5, 10, 15, 20, 25];
     modifyStorageBlocksByType("{tier}_barrel", "engineering", levels);
     modifyStorageBlocksByType("limited_{tier}_barrel_1", "engineering", levels);
@@ -336,6 +337,18 @@ function modifySophisticatedStorage() {
     modifyStorageBlocksByType("limited_{tier}_barrel_4", "engineering", levels);
     modifyStorageBlocksByType("{tier}_chest", "engineering", levels);
     modifyStorageBlocksByType("{tier}_shulker_box", "engineering", levels + 20);
+
+    processor.modifyUseItemRequirements("sophisticatedstorage","basic_tier_upgrade", "engineering", 2)
+    
+    for (let i = 0; i < tiers.length; i++) {
+        for (let j = i + 1; j < tiers.length; j++) {
+            let fromTier = tiers[i];
+            let toTier = tiers[j];
+            let requiredLevel = levels[j];
+    
+            processor.modifyUseItemRequirements("sophisticatedstorage", `${fromTier}_to_${toTier}_tier_upgrade`, "engineering", requiredLevel);
+        }
+    }
 
     processor.modifyPlaceBlockRequirements("sophisticatedstorage", "controller", "engineering", 10);
     processor.modifyPlaceBlockRequirements("sophisticatedstorage", "storage_link", "engineering", 15);
@@ -551,8 +564,8 @@ function modifyStorageBlocksByType(template, skill, levels) {
 }
 
 function modifyMounts() {
-    processor.modifySingleItemForMount("immersive_aircraft", "gyrodyne", "agility", 30)
-    processor.modifyEntityMountable("immersive_aircraft", "gyrodyne", "agility", 30)
+    // processor.modifySingleItemForMount("immersive_aircraft", "gyrodyne", "agility", 30)
+    // processor.modifyEntityMountable("immersive_aircraft", "gyrodyne", "agility", 30)
 }
 
 modifyFullSets()
