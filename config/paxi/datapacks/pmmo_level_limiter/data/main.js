@@ -30,7 +30,6 @@ function modifyFullSets() {
     processor.modifySetRequirements("minecraft", "iron", 9);
     processor.modifySingleItem("nethersdelight", "iron_machete", "sword", 9);
     processor.modifySingleItem("minecolonies", "iron_scimitar", "sword", 9);
-    processor.modifySingleItem("doggytalents", "sussy_sickle", "sword", 9);
     processor.modifySingleItem("endermanoverhaul", "corrupted_blade", "sword", 9);
     processor.modifySingleItem("aquaculture", "iron_fillet_knife", "sword", 9);
     processor.modifySingleItem("aquamirae", "dagger_of_greed", "sword", 9);
@@ -102,15 +101,6 @@ function modifyFullSets() {
 
     processor.modifySetRequirements("blue_skies", "pyrope", 21);
     processor.modifySingleItem("zoomer_bows", "pyrope_bow", "bow", 21);
-
-    processor.modifySetRequirements("irons_spellbooks", "pyromancer_tier_2", 23, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "electromancer_tier_2", 23, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "archevoker_tier_2", 23, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "cultist_tier_2", 23, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "cryomancer_tier_2", 23, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "shadowwalker_tier_2", 23, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "priest_tier_2", 23, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "plagued_tier_2", 23, "armor");
     modifyOffhandForTier(2, 23)
 
     processor.modifySetRequirements("blue_skies", "aquite", 23);
@@ -132,15 +122,6 @@ function modifyFullSets() {
     processor.modifySetRequirements("aether", "holystone", 33, ["sword"]);
     processor.modifySetRequirements("aether", "zanite", 35);
     processor.modifySingleItem("zoomer_bows", "zanite_bow", "bow", 35);
-
-    processor.modifySetRequirements("irons_spellbooks", "pyromancer_tier_3", 35, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "electromancer_tier_3", 35, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "archevoker_tier_3", 35, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "cultist_tier_3", 35, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "cryomancer_tier_3", 35, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "shadowwalker_tier_3", 35, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "priest_tier_3", 35, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "plagued_tier_3", 35, "armor");
     modifyOffhandForTier(3, 35)
 
     processor.modifySetRequirements("aether", "neptune", 37, "armor");
@@ -176,15 +157,6 @@ function modifyFullSets() {
 
     processor.modifySetRequirements("betternether", "nether_ruby", 56);
     processor.modifySingleItem("zoomer_bows", "nether_ruby_bow", "bow", 56);
-
-    processor.modifySetRequirements("irons_spellbooks", "pyromancer_tier_4", 56, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "electromancer_tier_4", 56, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "archevoker_tier_4", 56, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "cultist_tier_4", 56, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "cryomancer_tier_4", 56, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "shadowwalker_tier_4", 56, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "priest_tier_4", 56, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "plagued_tier_4", 56, "armor");
     modifyOffhandForTier(4, 56)
 
     processor.modifySetRequirements("betternether", "flaming_ruby", 57);
@@ -216,15 +188,6 @@ function modifyFullSets() {
 
     processor.modifySetRequirements("undergarden", "froststeel", 63);
     processor.modifySingleItem("zoomer_bows", "froststeel_bow", "bow", 63);
-
-    processor.modifySetRequirements("irons_spellbooks", "pyromancer_tier_5", 63, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "electromancer_tier_5", 63, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "archevoker_tier_5", 63, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "cultist_tier_5", 63, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "cryomancer_tier_5", 63, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "shadowwalker_tier_5", 63, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "priest_tier_5", 63, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "plagued_tier_5", 63, "armor");
     modifyOffhandForTier(5, 63)
 
     processor.modifySetRequirements("undergarden", "utherium", 65);
@@ -257,15 +220,6 @@ function modifyFullSets() {
     processor.modifySingleItem("ender_dragon_loot_", "dragon_picaxe", "pickaxe", 73);
     processor.modifySetRequirements("ender_dragon_loot_", "dragon", 73, ["sword", "axe", "shovel", "hoe"], "{set_name}_{item}");
     processor.modifySetRequirements("ender_dragon_loot_", "dragon_armor", 73, "armor");
-
-    processor.modifySetRequirements("irons_spellbooks", "pyromancer_tier_6", 73, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "electromancer_tier_6", 73, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "archevoker_tier_6", 73, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "cultist_tier_6", 73, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "cryomancer_tier_6", 73, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "shadowwalker_tier_6", 73, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "priest_tier_6", 73, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "plagued_tier_6", 73, "armor");
     modifyOffhandForTier(6, 73)
 
     processor.modifySetRequirements("enderitemod", "enderite", 79);
@@ -275,29 +229,11 @@ function modifyFullSets() {
     processor.modifySetRequirements("callfromthedepth_", "depth_armor", 84, "armor");
     processor.modifySingleItem("callfromthedepth_", "soulbow", "bow", 84);
     processor.modifySingleItem("callfromthedepth_", "soul_blade", "sword", 84);
-
-    processor.modifySetRequirements("irons_spellbooks", "pyromancer_tier_7", 84, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "electromancer_tier_7", 84, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "archevoker_tier_7", 84, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "cultist_tier_7", 84, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "cryomancer_tier_7", 84, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "shadowwalker_tier_7", 84, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "priest_tier_7", 84, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "plagued_tier_7", 84, "armor");
     modifyOffhandForTier(7, 84)
 
     // The abyss
     processor.modifySetRequirements("theabyss", "bone_armor", 90, "armor");
     processor.modifySingleItem("zoomer_bows", "bone_bow", "bow", 90);
-
-    processor.modifySetRequirements("irons_spellbooks", "pyromancer_tier_8", 91, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "electromancer_tier_8", 91, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "archevoker_tier_8", 91, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "cultist_tier_8", 91, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "cryomancer_tier_8", 91, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "shadowwalker_tier_8", 91, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "priest_tier_8", 91, "armor");
-    processor.modifySetRequirements("irons_spellbooks", "plagued_tier_8", 91, "armor");
     modifyOffhandForTier(8, 91)
 
     processor.modifySetRequirements("theabyss", "fusion_armor", 91, "armor");
