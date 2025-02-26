@@ -49,7 +49,7 @@ const materials = [
         armorToughness: 0,
         knockbackResistance: 0,
         pmmoLevel: 6,
-        materialColor: "#da712b",
+        materialColor: "#a45726",
         skip: ["armor", "tools"]
     },
     {
@@ -254,7 +254,7 @@ const materials = [
         armorToughness: 7,
         knockbackResistance: 0.033,
         pmmoLevel: 56,
-        materialColor: "#cc1425",
+        materialColor: "#ad1423",
         skip: ["armor", "tools"]
     },
     {

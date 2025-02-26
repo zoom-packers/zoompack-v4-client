@@ -150,9 +150,9 @@ export const pickaxeLevelModifications = [
     new PickaxeLevelModification(item_aether.i_gravitite_pickaxe, tier_levels_aether_start + 2),
     new PickaxeLevelModification(item_aether.i_valkyrie_pickaxe, tier_levels_aether_start + 2),
 
-    new PickaxeLevelModification(item_betternether.i_cincinnasite_pickaxe, tier_levels_nether_start),
+    new PickaxeLevelModification(item_betternether.i_cincinnasite_pickaxe, tier_levels_nether_start - 1),
     new PickaxeLevelModification(item_betternether.i_cincinnasite_pickaxe_diamond, tier_levels_nether_start),
-    new PickaxeLevelModification(item_betternether.i_nether_ruby_pickaxe, tier_levels_nether_start + 1),
+    new PickaxeLevelModification(item_betternether.i_nether_ruby_pickaxe, tier_levels_nether_start),
     new PickaxeLevelModification(item_betternether.i_flaming_ruby_pickaxe, tier_levels_nether_start + 1),
     new PickaxeLevelModification(item_minecraft.i_netherite_pickaxe, tier_levels_nether_start + 2),
 
@@ -177,33 +177,33 @@ export const pickaxeLevelModifications = [
 ]
 
 export const pickaxeLevels = [
-    new HarvestLevel("blue_skies_wood", tier_levels_blue_skies_start, "#a3a3a3", undefined, "Blue Skies Wood"),
-    new HarvestLevel("blue_skies_stone", tier_levels_blue_skies_start + 1, "#a3a3a3", undefined, "Blue Skies Stone"),
-    new HarvestLevel("blue_skies_pyrope", tier_levels_blue_skies_start + 2, "#a3a3a3", undefined, "Blue Skies Pyrope"),
-    new HarvestLevel("blue_skies_charoite", tier_levels_blue_skies_start + 3, "#a3a3a3", undefined, "Blue Skies Charoite"),
+    new HarvestLevel("blue_skies_wood", tier_levels_blue_skies_start, "#3f4959", undefined, "Wood"),
+    new HarvestLevel("blue_skies_stone", tier_levels_blue_skies_start + 1, "#353946", undefined, "Stone"),
+    new HarvestLevel("blue_skies_pyrope", tier_levels_blue_skies_start + 2, "#e61542", undefined, "Pyrope"),
+    new HarvestLevel("blue_skies_charoite", tier_levels_blue_skies_start + 3, "#9e74c6", undefined, "Charoite"),
 
-    new HarvestLevel("aether_skyroot", tier_levels_aether_start, "#a3a3a3", undefined, "Aether Skyroot"),
-    new HarvestLevel("aether_holystone", tier_levels_aether_start + 1, "#a3a3a3", undefined, "Aether Holystone"),
-    new HarvestLevel("aether_zanite", tier_levels_aether_start + 2, "#a3a3a3", undefined, "Aether Zanite"),
+    new HarvestLevel("aether_skyroot", tier_levels_aether_start, "#a18655", undefined, "Skyroot"),
+    new HarvestLevel("aether_holystone", tier_levels_aether_start + 1, "#c5c5c5", undefined, "Holystone"),
+    new HarvestLevel("aether_zanite", tier_levels_aether_start + 2, "#7539cc", undefined, "Zanite"),
 
-    new HarvestLevel("nether_cincinnasite", tier_levels_nether_start, "#a3a3a3", undefined, "Nether Cincinnasite"),
-    new HarvestLevel("nether_ruby", tier_levels_nether_start + 1, "#a3a3a3", undefined, "Nether Ruby"),
-    new HarvestLevel("nether_netherite", tier_levels_nether_start + 2, "#a3a3a3", undefined, "Netherite"),
+    new HarvestLevel("nether_cincinnasite_diamond", tier_levels_nether_start, "#61cbf2", undefined, "Cincinnasite Diamond"),
+    new HarvestLevel("nether_flaming_ruby", tier_levels_nether_start + 1, "#cc144b", undefined, "Nether Ruby"),
+    new HarvestLevel("nether_netherite", tier_levels_nether_start + 2, "#282224", undefined, "Netherite"),
 
-    new HarvestLevel("undergarden_cloggrum", tier_levels_undergarden_start, "#a3a3a3", undefined, "Undergarden Cloggrum"),
-    new HarvestLevel("undergarden_froststeel", tier_levels_undergarden_start + 1, "#a3a3a3", undefined, "Undergarden Froststeel"),
-    new HarvestLevel("undergarden_utherium", tier_levels_undergarden_start + 2, "#a3a3a3", undefined, "Undergarden Utherium"),
-    new HarvestLevel("undergarden_forgotten", tier_levels_undergarden_start + 3, "#a3a3a3", undefined, "Undergarden Forgotten"),
+    new HarvestLevel("undergarden_cloggrum", tier_levels_undergarden_start, "#947f67", undefined, "Cloggrum"),
+    new HarvestLevel("undergarden_froststeel", tier_levels_undergarden_start + 1, "#82a3c3", undefined, "Froststeel"),
+    new HarvestLevel("undergarden_utherium", tier_levels_undergarden_start + 2, "#c1424b", undefined, "Utherium"),
+    new HarvestLevel("undergarden_forgotten", tier_levels_undergarden_start + 3, "#56e0b1", undefined, "Forgotten"),
 
-    new HarvestLevel("end_crystal", tier_levels_end_start, "#a3a3a3", undefined, "End Crystal"),
-    new HarvestLevel("end_enderite", tier_levels_end_start + 1, "#a3a3a3", undefined, "Enderite"),
+    new HarvestLevel("end_crystal", tier_levels_end_start, "#ecd0ee", undefined, "End Crystal"),
+    new HarvestLevel("end_enderite", tier_levels_end_start + 1, "#1b564d", undefined, "Enderite"),
 
-    new HarvestLevel("depth_immemorial", tier_levels_call_from_the_depths_start, "#a3a3a3", undefined, "Immemorial Debris"),
+    new HarvestLevel("depth_immemorial", tier_levels_call_from_the_depths_start, "#629592", undefined, "Immemorial"),
 
-    new HarvestLevel("abyss_fusion", tier_levels_the_abyss_start, "#a3a3a3", undefined, "Abyss Fusion"),
-    new HarvestLevel("abyss_aberythe", tier_levels_the_abyss_start + 1, "#a3a3a3", undefined, "Abyss Aberythe"),
-    new HarvestLevel("abyss_incorythe", tier_levels_the_abyss_start + 2, "#a3a3a3", undefined, "Abyss Incorythe"),
-    new HarvestLevel("abyss_phantom", tier_levels_the_abyss_start + 3, "#a3a3a3", undefined, "Abyss Phantom"),
-    new HarvestLevel("abyss_garnite", tier_levels_the_abyss_start + 4, "#a3a3a3", undefined, "Abyss Garnite"),
-    new HarvestLevel("abyss_unorithe", tier_levels_the_abyss_start + 5, "#a3a3a3", undefined, "Abyss Unorithe"),
+    new HarvestLevel("abyss_fusion", tier_levels_the_abyss_start, "#29383e", undefined, "Fusion"),
+    new HarvestLevel("abyss_aberythe", tier_levels_the_abyss_start + 1, "#8930c6", undefined, "Aberythe"),
+    new HarvestLevel("abyss_incorythe", tier_levels_the_abyss_start + 2, "#4df7d5", undefined, "Incorythe"),
+    new HarvestLevel("abyss_phantom", tier_levels_the_abyss_start + 3, "#289b6e", undefined, "Phantom"),
+    new HarvestLevel("abyss_garnite", tier_levels_the_abyss_start + 4, "#54c890", undefined, "Garnite"),
+    new HarvestLevel("abyss_unorithe", tier_levels_the_abyss_start + 5, "#00eeca", undefined, "Unorithe"),
 ]

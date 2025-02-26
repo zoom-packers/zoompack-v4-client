@@ -81,16 +81,16 @@
         "minecraft:mineable/pickaxe": "aether_zanite"
     },
     "betternether:cincinnasite_pickaxe": {
-        "minecraft:mineable/pickaxe": "nether_cincinnasite"
+        "minecraft:mineable/pickaxe": "aether_zanite"
     },
     "betternether:cincinnasite_pickaxe_diamond": {
-        "minecraft:mineable/pickaxe": "nether_cincinnasite"
+        "minecraft:mineable/pickaxe": "nether_cincinnasite_diamond"
     },
     "betternether:nether_ruby_pickaxe": {
-        "minecraft:mineable/pickaxe": "nether_ruby"
+        "minecraft:mineable/pickaxe": "nether_cincinnasite_diamond"
     },
     "betternether:flaming_ruby_pickaxe": {
-        "minecraft:mineable/pickaxe": "nether_ruby"
+        "minecraft:mineable/pickaxe": "nether_flaming_ruby"
     },
     "minecraft:netherite_pickaxe": {
         "minecraft:mineable/pickaxe": "nether_netherite"
