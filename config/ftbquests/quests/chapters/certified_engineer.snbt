@@ -858,7 +858,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["6C78B9D6AF17502B"]
+			dependencies: ["116FE80931F79650"]
 			icon: "create:white_sail"
 			id: "64C5FC899A6F0F34"
 			shape: "gear"
@@ -894,17 +894,17 @@
 				}
 				{
 					id: "7C8830BC257C47BA"
-					requiredLevel: 7
+					requiredLevel: 9
 					skill: "engineering"
 					type: "pmmo:skill"
 				}
 			]
 			title: "The Prime Resources"
-			x: -13.0d
-			y: 3.5d
+			x: -4.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["64C5FC899A6F0F34"]
+			dependencies: ["045F1DF8071F3068"]
 			icon: "create:water_wheel"
 			id: "116FE80931F79650"
 			shape: "gear"
@@ -920,7 +920,11 @@
 				{
 					count: 16L
 					id: "7C10C9FC693CF15E"
-					item: "create:water_wheel"
+					item: {
+						Count: 1
+						id: "create:large_cogwheel"
+						tag: { }
+					}
 					optional_task: true
 					type: "item"
 				}
@@ -943,7 +947,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["116FE80931F79650"]
+			dependencies: ["6C78B9D6AF17502B"]
 			icon: "create:large_cogwheel"
 			id: "045F1DF8071F3068"
 			rewards: [{
@@ -965,30 +969,38 @@
 				{
 					count: 16L
 					id: "1ACE98289893A382"
-					item: "create:large_cogwheel"
+					item: {
+						Count: 1
+						id: "create:gearbox"
+						tag: { }
+					}
 					optional_task: true
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "263AFB58A325E9C1"
-					item: "create:large_water_wheel"
+					item: {
+						Count: 1
+						id: "create:white_sail"
+						tag: { }
+					}
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "42CC95A49EB8FF64"
-					requiredLevel: 9
+					requiredLevel: 7
 					skill: "engineering"
 					type: "pmmo:skill"
 				}
 			]
 			title: "Mechanical Power"
-			x: -4.5d
-			y: 4.0d
+			x: -13.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["045F1DF8071F3068"]
+			dependencies: ["64C5FC899A6F0F34"]
 			icon: "create:andesite_funnel"
 			id: "48D35FB15EED1E1B"
 			rewards: [{
@@ -2619,7 +2631,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["64C5FC899A6F0F34"]
+			dependencies: ["045F1DF8071F3068"]
 			id: "0B738ED7F080D0FB"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2633,10 +2645,10 @@
 				type: "item"
 			}]
 			x: -13.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["64C5FC899A6F0F34"]
+			dependencies: ["045F1DF8071F3068"]
 			id: "1988B7D8195C621D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2653,7 +2665,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["64C5FC899A6F0F34"]
+			dependencies: ["116FE80931F79650"]
 			id: "0693F5E0D8C24918"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2666,11 +2678,11 @@
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 1.5d
+			x: -9.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["64C5FC899A6F0F34"]
+			dependencies: ["116FE80931F79650"]
 			id: "207647EF77F673E1"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2683,11 +2695,11 @@
 				item: "create:gearshift"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 5.0d
+			x: -9.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["64C5FC899A6F0F34"]
+			dependencies: ["116FE80931F79650"]
 			id: "2ACD8DFA66FDDD2E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2700,11 +2712,11 @@
 				item: "create:encased_chain_drive"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 5.0d
+			x: -8.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["116FE80931F79650"]
+			dependencies: ["045F1DF8071F3068"]
 			id: "1A7922D0D6B0E031"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2717,11 +2729,11 @@
 				item: "create:large_cogwheel"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 3.0d
+			x: -13.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["116FE80931F79650"]
+			dependencies: ["045F1DF8071F3068"]
 			id: "22ECC97BF67FC3EC"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2734,8 +2746,8 @@
 				item: "copycats:copycat_large_cogwheel"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 4.0d
+			x: -12.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["116FE80931F79650"]
@@ -2751,11 +2763,11 @@
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 5.0d
+			x: -8.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["116FE80931F79650"]
+			dependencies: ["64C5FC899A6F0F34"]
 			id: "76073FCD33877CCB"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2768,7 +2780,7 @@
 				item: "create:mechanical_bearing"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -3.0d
 			y: 2.0d
 		}
 		{
@@ -2786,10 +2798,10 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["045F1DF8071F3068"]
+			dependencies: ["116FE80931F79650"]
 			id: "3CE79357CF583E09"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2802,11 +2814,11 @@
 				item: "create:schematicannon"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -7.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["045F1DF8071F3068"]
+			dependencies: ["64C5FC899A6F0F34"]
 			id: "4786E1601F8F93DC"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2823,7 +2835,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["045F1DF8071F3068"]
+			dependencies: ["64C5FC899A6F0F34"]
 			id: "53F29B2C01A8E231"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2840,7 +2852,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["045F1DF8071F3068"]
+			dependencies: ["64C5FC899A6F0F34"]
 			id: "4FFF59D0F09EF949"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2857,7 +2869,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["045F1DF8071F3068"]
+			dependencies: ["64C5FC899A6F0F34"]
 			id: "1D1A96CC51FA8D7B"
 			rewards: [{
 				exclude_from_claim_all: true

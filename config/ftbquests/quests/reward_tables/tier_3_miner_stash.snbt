@@ -3,6 +3,32 @@
 	id: "65A153101D8A8BDF"
 	loot_size: 1
 	order_index: 10
-	rewards: [ ]
+	rewards: [
+		{
+			count: 12
+			item: {
+				Count: 1
+				id: "minecraft:golden_apple"
+				tag: { }
+			}
+			weight: 0.0f
+		}
+		{
+			count: 5
+			item: {
+				Count: 1
+				id: "minecraft:diamond_block"
+				tag: { }
+			}
+			weight: 0.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_golden_apple"
+				tag: { }
+			}
+		}
+	]
 	title: "Godly overworld choice bag"
 }

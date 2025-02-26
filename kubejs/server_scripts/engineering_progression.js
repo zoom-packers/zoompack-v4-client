@@ -100,7 +100,7 @@ let techProgMilestones = [
                 amount: 16
             },
             {
-                item: "create:water_wheel",
+                item: "create:large_cogwheel",
                 amount: 16
             },
             {
@@ -120,15 +120,15 @@ let techProgMilestones = [
                 amount: 64
             },
             {
-                item: "create:large_cogwheel",
+                item: "create:gearbox",
                 amount: 16
             },
             {
-                item: "create:large_water_wheel",
+                item: "create:white_sail",
                 amount: 8
             }
         ],
-        pmmoLevelSet: 9,
+        pmmoLevelSet: 7,
     },
     {
         id: "check_your_pipes",

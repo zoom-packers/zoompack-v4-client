@@ -1,13 +1,45 @@
 {
-	icon: "create:gearbox"
+	icon: {
+		Count: 1
+		id: "minecolonies:eggplant"
+		tag: { }
+	}
 	id: "2CF7354CBE8687F1"
 	loot_size: 1
 	order_index: 12
 	rewards: [
-		{ count: 2, item: "create:gearbox" }
-		{ count: 16, item: "minecraft:andesite" }
-		{ count: 8, item: "minecraft:iron_ingot" }
-		{ count: 4, item: "create:shaft" }
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "minecraft:golden_apple"
+				tag: { }
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "minecraft:pumpkin_pie"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "minecolonies:eggplant"
+				tag: { }
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "croptopia:mango_ice_cream"
+				tag: { }
+			}
+		}
 	]
 	title: "Tier 1 create box"
 }
