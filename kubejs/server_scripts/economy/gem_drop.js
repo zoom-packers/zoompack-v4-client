@@ -181,8 +181,8 @@ function getBoostedRarity(entity, boost) {
     return RARITIES[0];
 }
 
-function summonGem(server, rarity, gem, count, x, y, z) {
-    server.runCommandSilent(`/summon minecraft:item ${x} ${y} ${z} {Item:{id:"apotheosis:gem",Count:${count},tag:{affix_data:{rarity:"${rarity}"},gem:"${gem}"}}}`)
+function summonGem(server, dimension, rarity, gem, count, x, y, z) {
+    server.runCommandSilent(`execute in ${dimension} run execute summon minecraft:item ${x} ${y} ${z} {Item:{id:"apotheosis:gem",Count:${count},tag:{affix_data:{rarity:"${rarity}"},gem:"${gem}"}}}`)
 }
 
 
@@ -212,7 +212,7 @@ EntityEvents.death(event => {
                     summonForEachPlayerInRange(server, x, y, z, entity.level.dimension, rarity, gem);
                 }
                 if (willGemDrop()) {
-                    summonGem(server, rarity, gem, 1, x, y, z);
+                    summonGem(server, entity.level.dimension, rarity, gem, 1, x, y, z);
                 }
             }
         }
