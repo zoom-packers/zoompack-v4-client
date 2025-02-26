@@ -1,7 +1,7 @@
 {
     "requirements": {
         "PLACE": {
-            "crafting": 10
+            "engineering": 10
         }
     }
 }

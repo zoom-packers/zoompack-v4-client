@@ -401,11 +401,11 @@ function modifySophisticatedStorage() {
     modifyStorageBlocksByType("{tier}_chest", "engineering", levels);
     modifyStorageBlocksByType("{tier}_shulker_box", "engineering", levels + 20);
 
-    processor.modifyPlaceBlockRequirements("sophisticatedstorage", "controller", "crafting", 10);
-    processor.modifyPlaceBlockRequirements("sophisticatedstorage", "storage_link", "crafting", 15);
-    processor.modifyPlaceBlockRequirements("sophisticatedstorage", "storage_io", "crafting", 20);
-    processor.modifyPlaceBlockRequirements("sophisticatedstorage", "storage_input", "crafting", 25);
-    processor.modifyPlaceBlockRequirements("sophisticatedstorage", "storage_output", "crafting", 30);
+    processor.modifyPlaceBlockRequirements("sophisticatedstorage", "controller", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("sophisticatedstorage", "storage_link", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("sophisticatedstorage", "storage_io", "engineering", 20);
+    processor.modifyPlaceBlockRequirements("sophisticatedstorage", "storage_input", "engineering", 25);
+    processor.modifyPlaceBlockRequirements("sophisticatedstorage", "storage_output", "engineering", 30);
 }
 
 function modifyCreate() {
