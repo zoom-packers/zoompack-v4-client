@@ -162,31 +162,31 @@ function elite_onDeath(event) {
     let rolls = elite_getRolls(diff) + lootingLevel;
     switch (dimensionRL) {
         case "minecraft:overworld":
-            loot = global.overworldDrops(rolls);
+            loot = global.overworldEliteDrops(rolls);
             break;
         case "blue_skies:everbright":
-            loot = global.everbrightDrops(rolls);
+            loot = global.everbrightEliteDrops(rolls);
             break;
         case "blue_skies:everdawn":
-            loot = global.everdawnDrops(rolls);
+            loot = global.everdawnEliteDrops(rolls);
             break;
         case "aether:the_aether":
-            loot = global.aetherDrops(rolls);
+            loot = global.aetherEliteDrops(rolls);
             break;
         case "minecraft:the_nether":
-            loot = global.netherDrops(rolls);
+            loot = global.netherEliteDrops(rolls);
             break;
         case "undergarden:undergarden":
-            loot = global.undergardenDrops(rolls);
+            loot = global.undergardenEliteDrops(rolls);
             break;
         case "minecraft:the_end":
-            loot = global.endDrops(rolls);
+            loot = global.endEliteDrops(rolls);
             break;
         case "callfromthedepth_:depth":
-            loot = global.deepDrops(rolls);
+            loot = global.deepEliteDrops(rolls);
             break;
         case "theabyss:the_abyss":
-            loot = global.abyssDrops(rolls);
+            loot = global.abyssEliteDrops(rolls);
             break;
 
     }

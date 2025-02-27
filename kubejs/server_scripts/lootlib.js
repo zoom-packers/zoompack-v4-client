@@ -196,16 +196,24 @@ function lootlib_p_getFortunasMaterial(rarity) {
     let materials = [
         'common_material',
         'uncommon_material',
-        'rare_material'
+        'rare_material',
+        'epic_material',
+        'legendary_material',
+        'mythic_material',
+        'ascended_material'
     ];
     return `fortunas_anvil:${materials[rarity]}`;
 }
 
 function lootlib_p_getFortunasCatalyst(rarity) {
     let catalysts = [
-        'common_cataylst',
-        'uncommon_cataylst',
-        'rare_cataylst'
+        'common_catalyst',
+        'uncommon_catalyst',
+        'rare_catalyst',
+        'epic_catalyst',
+        'legendary_catalyst',
+        'mythic_catalyst',
+        'ascended_catalyst'
     ]
     return `fortunas_anvil:${catalysts[rarity]}`;
 }
@@ -260,7 +268,7 @@ function lootlib_summonItem(server, dimension, x, y, z, details) {
     server.runCommandSilent(command);
 }
 
-function overworldDrops(rolls) {
+function overworldEliteDrops(rolls) {
     let drops = [];
     for (let i = 0; i <= rolls; i++) {
         let weighted = [
@@ -268,8 +276,8 @@ function overworldDrops(rolls) {
             weightedEntry(lootlib_p_getRandomTome(), 3),
             weightedEntry(lootlib_p_getSigil(0), 1),
             weightedEntry(lootlib_p_getAugment(0), 2),
-            weightedEntry(lootlib_p_getInk(0), 10),
-            weightedEntry(lootlib_p_getScroll(1), 10),
+            weightedEntry(lootlib_p_getInk(0), 30),
+            weightedEntry(lootlib_p_getScroll(1), 70),
             weightedEntry(lootlib_p_getMaterial(0), 10),
             weightedEntry(lootlib_p_getMaterial(1), 10),
             weightedEntry(lootlib_p_getMaterial(2), 5),
@@ -277,13 +285,15 @@ function overworldDrops(rolls) {
             weightedEntry(lootlib_p_getGem(1), 10),
             weightedEntry(lootlib_p_getGem(2), 5),
             weightedEntry(lootlib_p_getFortunasMaterial(0), 10),
+            weightedEntry(lootlib_p_getFortunasCatalyst(0), 10),
+            weightedEntry(lootlib_p_getFortunasProtectionRune(), 3),
         ]
         drops.push(rollWeightedTable(weighted));
     }
     return drops;
 }
 
-function everbrightDrops(rolls) {
+function everbrightEliteDrops(rolls) {
     let drops = [];
     for (let i = 0; i <= rolls; i++) {
         let weighted = [
@@ -291,9 +301,9 @@ function everbrightDrops(rolls) {
             weightedEntry(lootlib_p_getRandomTome(), 5),
             weightedEntry(lootlib_p_getSigil(0.05), 1),
             weightedEntry(lootlib_p_getAugment(1), 5),
-            weightedEntry(lootlib_p_getInk(0), 10),
-            weightedEntry(lootlib_p_getInk(1), 3),
-            weightedEntry(lootlib_p_getScroll(3), 10),
+            weightedEntry(lootlib_p_getInk(0), 30),
+            weightedEntry(lootlib_p_getInk(1), 10),
+            weightedEntry(lootlib_p_getScroll(3), 30),
             weightedEntry(lootlib_p_getMaterial(0), 10),
             weightedEntry(lootlib_p_getMaterial(1), 10),
             weightedEntry(lootlib_p_getMaterial(2), 10),
@@ -303,14 +313,17 @@ function everbrightDrops(rolls) {
             weightedEntry(lootlib_p_getGem(2), 10),
             weightedEntry(lootlib_p_getGem(3), 5),
             weightedEntry(lootlib_p_getFortunasMaterial(0), 10),
+            weightedEntry(lootlib_p_getFortunasMaterial(1), 5),
             weightedEntry(lootlib_p_getFortunasCatalyst(0), 10),
+            weightedEntry(lootlib_p_getFortunasCatalyst(1), 5),
+            weightedEntry(lootlib_p_getFortunasProtectionRune(), 5),
         ]
         drops.push(rollWeightedTable(weighted));
     }
     return drops;
 }
 
-function everdawnDrops(rolls) {
+function everdawnEliteDrops(rolls) {
     let drops = [];
     for (let i = 0; i <= rolls; i++) {
         let weighted = [
@@ -318,9 +331,9 @@ function everdawnDrops(rolls) {
             weightedEntry(lootlib_p_getRandomTome(), 10),
             weightedEntry(lootlib_p_getSigil(0.3), 3),
             weightedEntry(lootlib_p_getAugment(1), 10),
-            weightedEntry(lootlib_p_getInk(0), 10),
-            weightedEntry(lootlib_p_getInk(1), 7),
-            weightedEntry(lootlib_p_getScroll(5), 5),
+            weightedEntry(lootlib_p_getInk(0), 30),
+            weightedEntry(lootlib_p_getInk(1), 20),
+            weightedEntry(lootlib_p_getScroll(5), 30),
             weightedEntry(lootlib_p_getMaterial(1), 10),
             weightedEntry(lootlib_p_getMaterial(2), 10),
             weightedEntry(lootlib_p_getMaterial(3), 10),
@@ -329,16 +342,20 @@ function everdawnDrops(rolls) {
             weightedEntry(lootlib_p_getGem(2), 10),
             weightedEntry(lootlib_p_getGem(3), 10),
             weightedEntry(lootlib_p_getGem(4), 5),
-            weightedEntry(lootlib_p_getFortunasMaterial(0), 10),
-            weightedEntry(lootlib_p_getFortunasCatalyst(0), 10),
-            weightedEntry(lootlib_p_getFortunasProtectionRune(), 1),
+            weightedEntry(lootlib_p_getFortunasMaterial(0), 5),
+            weightedEntry(lootlib_p_getFortunasMaterial(1), 10),
+            weightedEntry(lootlib_p_getFortunasMaterial(2), 5),
+            weightedEntry(lootlib_p_getFortunasCatalyst(0), 5),
+            weightedEntry(lootlib_p_getFortunasCatalyst(1), 10),
+            weightedEntry(lootlib_p_getFortunasCatalyst(2), 5),
+            weightedEntry(lootlib_p_getFortunasProtectionRune(), 6),
         ]
         drops.push(rollWeightedTable(weighted));
     }
     return drops;
 }
 
-function aetherDrops(rolls) {
+function aetherEliteDrops(rolls) {
     let drops = [];
     for (let i = 0; i <= rolls; i++) {
         let weighted = [
@@ -348,7 +365,7 @@ function aetherDrops(rolls) {
             weightedEntry(lootlib_p_getAugment(2), 15),
             weightedEntry(lootlib_p_getInk(1), 10),
             weightedEntry(lootlib_p_getInk(2), 3),
-            weightedEntry(lootlib_p_getScroll(7), 5),
+            weightedEntry(lootlib_p_getScroll(7), 20),
             weightedEntry(lootlib_p_getMaterial(2), 5),
             weightedEntry(lootlib_p_getMaterial(3), 7),
             weightedEntry(lootlib_p_getMaterial(4), 7),
@@ -357,16 +374,20 @@ function aetherDrops(rolls) {
             weightedEntry(lootlib_p_getGem(3), 7),
             weightedEntry(lootlib_p_getGem(4), 7),
             weightedEntry(lootlib_p_getGem(5), 5),
-            weightedEntry(lootlib_p_getFortunasMaterial(1), 10),
-            weightedEntry(lootlib_p_getFortunasCatalyst(0), 10),
-            weightedEntry(lootlib_p_getFortunasProtectionRune(), 2),
+            weightedEntry(lootlib_p_getFortunasMaterial(1), 5),
+            weightedEntry(lootlib_p_getFortunasMaterial(2), 10),
+            weightedEntry(lootlib_p_getFortunasMaterial(3), 5),
+            weightedEntry(lootlib_p_getFortunasCatalyst(1), 5),
+            weightedEntry(lootlib_p_getFortunasCatalyst(2), 10),
+            weightedEntry(lootlib_p_getFortunasCatalyst(3), 5),
+            weightedEntry(lootlib_p_getFortunasProtectionRune(), 7),
         ]
         drops.push(rollWeightedTable(weighted));
     }
     return drops;
 }
 
-function netherDrops(rolls) {
+function netherEliteDrops(rolls) {
     let drops = [];
     for (let i = 0; i <= rolls; i++) {
         let weighted = [
@@ -377,7 +398,7 @@ function netherDrops(rolls) {
             weightedEntry(lootlib_p_getInk(1), 5),
             weightedEntry(lootlib_p_getInk(2), 5),
             weightedEntry(lootlib_p_getInk(3), 3),
-            weightedEntry(lootlib_p_getScroll(10), 5),
+            weightedEntry(lootlib_p_getScroll(10), 15),
             weightedEntry(lootlib_p_getMaterial(3), 5),
             weightedEntry(lootlib_p_getMaterial(4), 10),
             weightedEntry(lootlib_p_getMaterial(5), 10),
@@ -386,16 +407,20 @@ function netherDrops(rolls) {
             weightedEntry(lootlib_p_getGem(4), 10),
             weightedEntry(lootlib_p_getGem(5), 10),
             weightedEntry(lootlib_p_getGem(6), 5),
-            weightedEntry(lootlib_p_getFortunasMaterial(1), 10),
-            weightedEntry(lootlib_p_getFortunasCatalyst(1), 10),
-            weightedEntry(lootlib_p_getFortunasProtectionRune(), 3),
+            weightedEntry(lootlib_p_getFortunasMaterial(2), 5),
+            weightedEntry(lootlib_p_getFortunasMaterial(3), 10),
+            weightedEntry(lootlib_p_getFortunasMaterial(4), 5),
+            weightedEntry(lootlib_p_getFortunasCatalyst(2), 5),
+            weightedEntry(lootlib_p_getFortunasCatalyst(3), 10),
+            weightedEntry(lootlib_p_getFortunasCatalyst(4), 5),
+            weightedEntry(lootlib_p_getFortunasProtectionRune(), 8),
         ]
         drops.push(rollWeightedTable(weighted));
     }
     return drops;
 }
 
-function undergardenDrops(rolls) {
+function undergardenEliteDrops(rolls) {
     let drops = [];
     for (let i = 0; i <= rolls; i++) {
         let weighted = [
@@ -404,23 +429,27 @@ function undergardenDrops(rolls) {
             weightedEntry(lootlib_p_getAugment(4), 10),
             weightedEntry(lootlib_p_getInk(2), 5),
             weightedEntry(lootlib_p_getInk(3), 5),
-            weightedEntry(lootlib_p_getScroll(12), 5),
+            weightedEntry(lootlib_p_getScroll(12), 10),
             weightedEntry(lootlib_p_getMaterial(4), 6),
             weightedEntry(lootlib_p_getMaterial(5), 6),
             weightedEntry(lootlib_p_getMaterial(6), 8),
             weightedEntry(lootlib_p_getGem(4), 5),
             weightedEntry(lootlib_p_getGem(5), 8),
             weightedEntry(lootlib_p_getGem(6), 1),
-            weightedEntry(lootlib_p_getFortunasMaterial(1), 10),
-            weightedEntry(lootlib_p_getFortunasCatalyst(1), 10),
-            weightedEntry(lootlib_p_getFortunasProtectionRune(), 4),
+            weightedEntry(lootlib_p_getFortunasMaterial(3), 15),
+            weightedEntry(lootlib_p_getFortunasMaterial(4), 3),
+            weightedEntry(lootlib_p_getFortunasMaterial(5), 1),
+            weightedEntry(lootlib_p_getFortunasCatalyst(3), 15),
+            weightedEntry(lootlib_p_getFortunasCatalyst(4), 3),
+            weightedEntry(lootlib_p_getFortunasCatalyst(5), 1),
+            weightedEntry(lootlib_p_getFortunasProtectionRune(), 10),
         ]
         drops.push(rollWeightedTable(weighted));
     }
     return drops;
 }
 
-function endDrops(rolls) {
+function endEliteDrops(rolls) {
     let drops = [];
     for (let i = 0; i <= rolls; i++) {
         let weighted = [
@@ -439,16 +468,20 @@ function endDrops(rolls) {
             weightedEntry(lootlib_p_getGem(5), 8),
             weightedEntry(lootlib_p_getGem(6), 3),
             weightedEntry(lootlib_p_getGem(7), 1),
-            weightedEntry(lootlib_p_getFortunasMaterial(2), 10),
-            weightedEntry(lootlib_p_getFortunasCatalyst(1), 10),
-            weightedEntry(lootlib_p_getFortunasProtectionRune(), 6),
+            weightedEntry(lootlib_p_getFortunasMaterial(3), 8),
+            weightedEntry(lootlib_p_getFortunasMaterial(4), 5),
+            weightedEntry(lootlib_p_getFortunasMaterial(5), 2),
+            weightedEntry(lootlib_p_getFortunasCatalyst(3), 8),
+            weightedEntry(lootlib_p_getFortunasCatalyst(4), 5),
+            weightedEntry(lootlib_p_getFortunasCatalyst(5), 2),
+            weightedEntry(lootlib_p_getFortunasProtectionRune(), 12),
         ]
         drops.push(rollWeightedTable(weighted));
     }
     return drops;
 }
 
-function deepDrops(rolls) {
+function deepEliteDrops(rolls) {
     let drops = [];
     for (let i = 0; i <= rolls; i++) {
         let weighted = [
@@ -458,7 +491,7 @@ function deepDrops(rolls) {
             weightedEntry(lootlib_p_getInk(2), 5),
             weightedEntry(lootlib_p_getInk(3), 8),
             weightedEntry(lootlib_p_getInk(4), 4),
-            weightedEntry(lootlib_p_getScroll(17), 5),
+            weightedEntry(lootlib_p_getScroll(17), 4),
             weightedEntry(lootlib_p_getMaterial(5), 2),
             weightedEntry(lootlib_p_getMaterial(6), 5),
             weightedEntry(lootlib_p_getMaterial(7), 3),
@@ -467,16 +500,20 @@ function deepDrops(rolls) {
             weightedEntry(lootlib_p_getGem(6), 5),
             weightedEntry(lootlib_p_getGem(7), 3),
             weightedEntry(lootlib_p_getGem(8), 1),
-            weightedEntry(lootlib_p_getFortunasMaterial(2), 10),
-            weightedEntry(lootlib_p_getFortunasCatalyst(2), 10),
-            weightedEntry(lootlib_p_getFortunasProtectionRune(), 8),
+            weightedEntry(lootlib_p_getFortunasMaterial(4), 8),
+            weightedEntry(lootlib_p_getFortunasMaterial(5), 5),
+            weightedEntry(lootlib_p_getFortunasMaterial(6), 2),
+            weightedEntry(lootlib_p_getFortunasCatalyst(4), 8),
+            weightedEntry(lootlib_p_getFortunasCatalyst(5), 5),
+            weightedEntry(lootlib_p_getFortunasCatalyst(6), 2),
+            weightedEntry(lootlib_p_getFortunasProtectionRune(), 15),
         ]
         drops.push(rollWeightedTable(weighted));
     }
     return drops;
 }
 
-function abyssDrops(rolls) {
+function abyssEliteDrops(rolls) {
     let drops = [];
     for (let i = 0; i <= rolls; i++) {
         let weighted = [
@@ -485,7 +522,7 @@ function abyssDrops(rolls) {
             weightedEntry(lootlib_p_getAugment(7), 10),
             weightedEntry(lootlib_p_getInk(3), 8),
             weightedEntry(lootlib_p_getInk(4), 10),
-            weightedEntry(lootlib_p_getScroll(19), 5),
+            weightedEntry(lootlib_p_getScroll(19), 3),
             weightedEntry(lootlib_p_getMaterial(6), 3),
             weightedEntry(lootlib_p_getMaterial(7), 6),
             weightedEntry(lootlib_p_getMaterial(8), 8),
@@ -493,23 +530,149 @@ function abyssDrops(rolls) {
             weightedEntry(lootlib_p_getGem(7), 7),
             weightedEntry(lootlib_p_getGem(8), 3),
             weightedEntry(lootlib_p_getGem(9), 1),
-            weightedEntry(lootlib_p_getFortunasMaterial(2), 10),
-            weightedEntry(lootlib_p_getFortunasCatalyst(2), 10),
-            weightedEntry(lootlib_p_getFortunasProtectionRune(), 10),
+            weightedEntry(lootlib_p_getFortunasMaterial(4), 5),
+            weightedEntry(lootlib_p_getFortunasMaterial(5), 5),
+            weightedEntry(lootlib_p_getFortunasMaterial(6), 5),
+            weightedEntry(lootlib_p_getFortunasCatalyst(4), 5),
+            weightedEntry(lootlib_p_getFortunasCatalyst(5), 5),
+            weightedEntry(lootlib_p_getFortunasCatalyst(6), 5),
+            weightedEntry(lootlib_p_getFortunasProtectionRune(), 15),
         ]
         drops.push(rollWeightedTable(weighted));
     }
     return drops;
 }
 
+function overworldFortunasDrop() {
+    let weighted = [
+        weightedEntry(lootlib_p_getFortunasMaterial(0), 10),
+        weightedEntry(lootlib_p_getFortunasCatalyst(0), 10),
+        weightedEntry(lootlib_p_getFortunasProtectionRune(), 3),
+    ]
+    return rollWeightedTable(weighted);
+}
+
+function everbrightFortunasDrop() {
+    let weighted = [
+        weightedEntry(lootlib_p_getFortunasMaterial(0), 10),
+        weightedEntry(lootlib_p_getFortunasMaterial(1), 5),
+        weightedEntry(lootlib_p_getFortunasCatalyst(0), 10),
+        weightedEntry(lootlib_p_getFortunasCatalyst(1), 5),
+        weightedEntry(lootlib_p_getFortunasProtectionRune(), 5),
+    ]
+    return rollWeightedTable(weighted);
+}
+
+function everdawnFortunasDrop() {
+    let weighted = [
+        weightedEntry(lootlib_p_getFortunasMaterial(0), 5),
+        weightedEntry(lootlib_p_getFortunasMaterial(1), 10),
+        weightedEntry(lootlib_p_getFortunasMaterial(2), 5),
+        weightedEntry(lootlib_p_getFortunasCatalyst(0), 5),
+        weightedEntry(lootlib_p_getFortunasCatalyst(1), 10),
+        weightedEntry(lootlib_p_getFortunasCatalyst(2), 5),
+        weightedEntry(lootlib_p_getFortunasProtectionRune(), 6),
+    ]
+    return rollWeightedTable(weighted);
+}
+
+function aetherFortunasDrop() {
+    let weighted = [
+        weightedEntry(lootlib_p_getFortunasMaterial(1), 5),
+        weightedEntry(lootlib_p_getFortunasMaterial(2), 10),
+        weightedEntry(lootlib_p_getFortunasMaterial(3), 5),
+        weightedEntry(lootlib_p_getFortunasCatalyst(1), 5),
+        weightedEntry(lootlib_p_getFortunasCatalyst(2), 10),
+        weightedEntry(lootlib_p_getFortunasCatalyst(3), 5),
+        weightedEntry(lootlib_p_getFortunasProtectionRune(), 7),
+    ]
+    return rollWeightedTable(weighted);
+}
+
+function netherFortunasDrop() {
+    let weighted = [
+        weightedEntry(lootlib_p_getFortunasMaterial(2), 5),
+        weightedEntry(lootlib_p_getFortunasMaterial(3), 10),
+        weightedEntry(lootlib_p_getFortunasMaterial(4), 5),
+        weightedEntry(lootlib_p_getFortunasCatalyst(2), 5),
+        weightedEntry(lootlib_p_getFortunasCatalyst(3), 10),
+        weightedEntry(lootlib_p_getFortunasCatalyst(4), 5),
+        weightedEntry(lootlib_p_getFortunasProtectionRune(), 8),
+    ]
+    return rollWeightedTable(weighted);
+}
+
+function undergardenFortunasDrop() {
+    let weighted = [
+        weightedEntry(lootlib_p_getFortunasMaterial(3), 15),
+        weightedEntry(lootlib_p_getFortunasMaterial(4), 3),
+        weightedEntry(lootlib_p_getFortunasMaterial(5), 1),
+        weightedEntry(lootlib_p_getFortunasCatalyst(3), 15),
+        weightedEntry(lootlib_p_getFortunasCatalyst(4), 3),
+        weightedEntry(lootlib_p_getFortunasCatalyst(5), 1),
+        weightedEntry(lootlib_p_getFortunasProtectionRune(), 10),
+    ]
+    return rollWeightedTable(weighted);
+}
+
+function endFortunasDrop() {
+    let weighted = [
+        weightedEntry(lootlib_p_getFortunasMaterial(3), 8),
+        weightedEntry(lootlib_p_getFortunasMaterial(4), 5),
+        weightedEntry(lootlib_p_getFortunasMaterial(5), 2),
+        weightedEntry(lootlib_p_getFortunasCatalyst(3), 8),
+        weightedEntry(lootlib_p_getFortunasCatalyst(4), 5),
+        weightedEntry(lootlib_p_getFortunasCatalyst(5), 2),
+        weightedEntry(lootlib_p_getFortunasProtectionRune(), 12),
+    ]
+    return rollWeightedTable(weighted);
+}
+
+function deepFortunasDrop() {
+    let weighted = [
+        weightedEntry(lootlib_p_getFortunasMaterial(4), 8),
+        weightedEntry(lootlib_p_getFortunasMaterial(5), 5),
+        weightedEntry(lootlib_p_getFortunasMaterial(6), 2),
+        weightedEntry(lootlib_p_getFortunasCatalyst(4), 8),
+        weightedEntry(lootlib_p_getFortunasCatalyst(5), 5),
+        weightedEntry(lootlib_p_getFortunasCatalyst(6), 2),
+        weightedEntry(lootlib_p_getFortunasProtectionRune(), 15),
+    ]
+    return rollWeightedTable(weighted);
+}
+
+function abyssFortunasDrop() {
+    let weighted = [
+        weightedEntry(lootlib_p_getFortunasMaterial(4), 5),
+        weightedEntry(lootlib_p_getFortunasMaterial(5), 5),
+        weightedEntry(lootlib_p_getFortunasMaterial(6), 5),
+        weightedEntry(lootlib_p_getFortunasCatalyst(4), 5),
+        weightedEntry(lootlib_p_getFortunasCatalyst(5), 5),
+        weightedEntry(lootlib_p_getFortunasCatalyst(6), 5),
+        weightedEntry(lootlib_p_getFortunasProtectionRune(), 15),
+    ]
+    return rollWeightedTable(weighted);
+}
+
+
 global.lootlib_getItemDetails = lootlib_getItemDetails;
 global.lootlib_summonItem = lootlib_summonItem;
-global.overworldDrops = overworldDrops;
-global.everbrightDrops = everbrightDrops;
-global.everdawnDrops = everdawnDrops;
-global.aetherDrops = aetherDrops;
-global.netherDrops = netherDrops;
-global.undergardenDrops = undergardenDrops;
-global.endDrops = endDrops;
-global.deepDrops = deepDrops;
-global.abyssDrops = abyssDrops;
+global.overworlEliteDrops = overworldEliteDrops;
+global.everbrightEliteDrops = everbrightEliteDrops;
+global.everdawnEliteDrops = everdawnEliteDrops;
+global.aetherEliteDrops = aetherEliteDrops;
+global.netherEliteDrops = netherEliteDrops;
+global.undergardenEliteDrops = undergardenEliteDrops;
+global.endEliteDrops = endEliteDrops;
+global.deepEliteDrops = deepEliteDrops;
+global.abyssEliteDrops = abyssEliteDrops;
+
+global.overworldFortunasDrop = overworldFortunasDrop;
+global.everbrightFortunasDrop = everbrightFortunasDrop;
+global.everdawnFortunasDrop = everdawnFortunasDrop;
+global.aetherFortunasDrop = aetherFortunasDrop;
+global.netherFortunasDrop = netherFortunasDrop;
+global.undergardenFortunasDrop = undergardenFortunasDrop;
+global.endFortunasDrop = endFortunasDrop;
+global.deepFortunasDrop = deepFortunasDrop;
+global.abyssFortunasDrop = abyssFortunasDrop;
