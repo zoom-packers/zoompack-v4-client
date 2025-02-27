@@ -616,11 +616,11 @@
 		{
 			height: 300.0d
 			image: "vahmas_creator_pack:textures/gui/createback.png"
-			order: -2
+			order: -100
 			rotation: 0.0d
-			width: 557.7342047930283d
-			x: 0.0d
-			y: 0.0d
+			width: 555.0d
+			x: -52.5d
+			y: -0.5d
 		}
 	]
 	order_index: 5
@@ -4937,6 +4937,90 @@
 			}]
 			x: 98.66666666666671d
 			y: -0.04761904761906521d
+		}
+		{
+			dependencies: ["045F1DF8071F3068"]
+			id: "277296E83B44B075"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7278B189957F2D7B"
+				table_id: 5114688297455528537L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "322852074E957C8F"
+				item: {
+					Count: 1
+					id: "extendedgears:half_shaft_cogwheel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["045F1DF8071F3068"]
+			id: "1086720D8FFA361F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B5E8C578D16CC26"
+				table_id: 5114688297455528537L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3CCB77050E6A56EF"
+				item: {
+					Count: 1
+					id: "extendedgears:large_half_shaft_cogwheel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["045F1DF8071F3068"]
+			id: "43EE71CCD54FEB67"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26F748408E474284"
+				table_id: 5114688297455528537L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1270979E86340D40"
+				item: {
+					Count: 1
+					id: "extendedgears:shaftless_cogwheel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["045F1DF8071F3068"]
+			id: "33FDFE6286D65DFA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DFF5C78134D97C2"
+				table_id: 5114688297455528537L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "74E4D6C63F68C07D"
+				item: {
+					Count: 1
+					id: "extendedgears:large_shaftless_cogwheel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 6.5d
 		}
 	]
 	subtitle: ["Embrance the industrialization"]

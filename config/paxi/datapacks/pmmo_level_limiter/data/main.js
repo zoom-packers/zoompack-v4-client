@@ -393,16 +393,22 @@ function modifyCreate() {
     processor.modifyPlaceBlockRequirements("create", "sticky_mechanical_piston", "engineering", 6);
 
     processor.modifyPlaceBlockRequirements("create", "cogwheel", "engineering", 7);
+    processor.modifyPlaceBlockRequirements("create", "large_cogwheel", "engineering", 7);
+    processor.modifyPlaceBlockRequirements("copycats", "copycat_cogwheel", "engineering", 7);
+    processor.modifyPlaceBlockRequirements("copycats", "copycat_large_cogwheel", "engineering", 7);
+    processor.modifyPlaceBlockRequirements("extendedgears", "half_shaft_cogwheel", "engineering", 7);
+    processor.modifyPlaceBlockRequirements("extendedgears", "large_half_shaft_cogwheel", "engineering", 7);
+    processor.modifyPlaceBlockRequirements("extendedgears", "shaftless_cogwheel", "engineering", 7);
+    processor.modifyPlaceBlockRequirements("extendedgears", "large_shaftless_cogwheel", "engineering", 7);
+
     processor.modifyPlaceBlockRequirements("create", "water_wheel", "engineering", 8);
     processor.modifyPlaceBlockRequirements("create", "gearshift", "engineering", 8);
-    processor.modifyPlaceBlockRequirements("create", "encased_chain_drive", "engineering", 8);
-
-    processor.modifyPlaceBlockRequirements("create", "large_cogwheel", "engineering", 7);
-    processor.modifyPlaceBlockRequirements("create", "large_water_wheel", "engineering", 8);
-    processor.modifyPlaceBlockRequirements("create", "mechanical_bearing", "engineering", 9);
     processor.modifyPlaceBlockRequirements("create", "millstone", "engineering", 8);
-
     processor.modifyPlaceBlockRequirements("create", "schematicannon", "engineering", 8);
+    processor.modifyPlaceBlockRequirements("create", "encased_chain_drive", "engineering", 8);
+    processor.modifyPlaceBlockRequirements("create", "large_water_wheel", "engineering", 8);
+
+    processor.modifyPlaceBlockRequirements("create", "mechanical_bearing", "engineering", 9);
     processor.modifyPlaceBlockRequirements("create", "basin", "engineering", 9);
     processor.modifyPlaceBlockRequirements("create", "belt_connector", "engineering", 9);
     processor.modifyPlaceBlockRequirements("create", "andesite_funnel", "engineering", 9);
@@ -410,8 +416,6 @@ function modifyCreate() {
 
     processor.modifyPlaceBlockRequirements("create", "encased_fan", "engineering", 10);
     processor.modifyPlaceBlockRequirements("create", "nozzle", "engineering", 10);
-    processor.modifyPlaceBlockRequirements("copycats", "copycat_cogwheel", "engineering", 7);
-    processor.modifyPlaceBlockRequirements("copycats", "copycat_large_cogwheel", "engineering", 7);
     processor.modifyPlaceBlockRequirements("create", "mechanical_press", "engineering", 10);
     processor.modifyPlaceBlockRequirements("create", "steam_whistle", "engineering", 10);
     processor.modifyPlaceBlockRequirements("create", "fluid_pipe", "engineering", 10);
