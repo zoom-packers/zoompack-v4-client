@@ -23,6 +23,10 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"Fancy a job?"
+				"How about some grape sqeezin'?"
+			]
 			id: "69C02A448E72D64F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -30,7 +34,7 @@
 				table_id: 3076555991572753089L
 				type: "loot"
 			}]
-			subtitle: "Use grapes on it and jump on it"
+			subtitle: "Grapes must be sqeezed"
 			tasks: [{
 				id: "17A63BBC46BA4996"
 				item: "vinery:grapevine_pot"
@@ -41,6 +45,13 @@
 		}
 		{
 			dependencies: ["69C02A448E72D64F"]
+			description: [
+				"Aging barrels in Minecraft are used to refine and enhance items over time. "
+				""
+				"Players place ingredients inside, wait for a set duration, and retrieve improved products. These barrels can age potions, food, or special materials, increasing their potency or value. "
+				""
+				"The process requires patience, as longer aging often yields better results. Some mods add aging barrels for brewing drinks like wine or whiskey, transforming basic ingredients into high-quality versions. To complete the quest, craft a barrel, place an item inside, wait for the aging process to finish, and collect your upgraded reward!"
+			]
 			id: "130156AB0D683049"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -48,6 +59,7 @@
 				table_id: 1112731193001374020L
 				type: "loot"
 			}]
+			subtitle: "The older the better - RS"
 			tasks: [{
 				id: "0FE52BCBC6B09EDC"
 				item: "vinery:fermentation_barrel"
@@ -58,6 +70,11 @@
 		}
 		{
 			dependencies: ["69C02A448E72D64F"]
+			description: [
+				"Juice has to be kept at air pressure."
+				""
+				"Try finding a way to achive such culiary advancement."
+			]
 			id: "0F5C967288F990AF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -65,6 +82,7 @@
 				table_id: 2531024133250134695L
 				type: "loot"
 			}]
+			subtitle: "No pressure"
 			tasks: [{
 				id: "7AC7C4E8EF046EE0"
 				item: "vinery:apple_press"
@@ -259,6 +277,11 @@
 		}
 		{
 			dependencies: ["69C02A448E72D64F"]
+			description: [
+				"There are so many flavours of wine to be crafted and to be tasted."
+				""
+				"Can you prepare them all?"
+			]
 			id: "34A853CB5B43B8F3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -280,6 +303,7 @@
 				"130156AB0D683049"
 				"34A853CB5B43B8F3"
 			]
+			description: ["Craft your first wine! Grow grapes, crush them, ferment the juice in a barrel, then bottle the aged wine. Enjoy your homemade vintage and become a true winemaker!"]
 			id: "4065D455DC704769"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -289,6 +313,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "The first is unforgetable"
 			tasks: [{
 				advancement: "vinery:main/get_wine"
 				criterion: ""
@@ -337,6 +362,11 @@
 		}
 		{
 			dependencies: ["4065D455DC704769"]
+			description: [
+				"Feeling good about preparing wine?"
+				""
+				"Prepare all the possible flavors for a well deserved reward to boost your vinery abilities."
+			]
 			id: "1C1D9AC572C3DA48"
 			rewards: [
 				{
@@ -411,6 +441,7 @@
 			]
 			shape: "octagon"
 			size: 2.0d
+			subtitle: "Dedication is key"
 			tasks: [{
 				advancement: "vinery:main/wine_collector"
 				criterion: ""
