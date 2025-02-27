@@ -338,7 +338,7 @@ function elite_getRolls(difficulty) {
 
 function elite_canSpawn() {
     let rand = Math.random();
-    return rand < 0.3;
+    return rand < 0.05;
 }
 
 function elite_getMinionCountAndDifficulty(difficulty) {
