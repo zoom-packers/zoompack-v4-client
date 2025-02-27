@@ -411,7 +411,10 @@
 				"{ \"text\": \"SKINS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"34DD9E65C1995FA2\" } }"
 				""
 				"&l&e/engineering&r&r"
-				"{ \"text\": \"SKINS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1AA0F65AD529C944\" } }"
+				"{ \"text\": \"ENGINEERING - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1AA0F65AD529C944\" } }"
+				""
+				"&l&e/fortunas&r&r"
+				"{ \"text\": \"FORTUNAS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3386CB291F6CC121\" } }"
 				""
 				"{image:biomesoplenty:block/pus_bubble width:50 height:50 align:1}"
 			]
@@ -957,6 +960,33 @@
 			title: "Engineering System"
 			x: 2.5d
 			y: -2.0d
+		}
+		{
+			description: [
+				"&l&o&aPrepare yourself accordingly with our upgrade system&r&r&r"
+				""
+				""
+				"&e>&rFortunas is a mod that lets you &dupgrade weapons (including magic) and armors&r similarly to the dark souls series."
+				""
+				"&e>&rThrough the usage of &dmaterials, protection runes and catalysts&r you may now take your weapons up to +99 (99 being the level not the actual damage or armor increase)"
+				""
+				"&e>&r&dThe damage values and armor values can be previewd in the anvil itself.&r"
+				"{image:biomesoplenty:block/pus_bubble width:50 height:50 align:1}"
+			]
+			icon: {
+				Count: 1
+				id: "fortunas_anvil:fortunas_anvil"
+				tag: { }
+			}
+			id: "3386CB291F6CC121"
+			subtitle: "Upgrades people! Upgrades!"
+			tasks: [{
+				id: "7A16A8B43E4E3D56"
+				title: "Fortunas"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.0d
 		}
 	]
 	title: "Tips \\& Tricks"
