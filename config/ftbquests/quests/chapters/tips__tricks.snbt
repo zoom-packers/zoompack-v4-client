@@ -971,6 +971,8 @@
 				"&e>&rThrough the usage of &dmaterials, protection runes and catalysts&r you may now take your weapons up to +99 (99 being the level not the actual damage or armor increase)"
 				""
 				"&e>&r&dThe damage values and armor values can be previewd in the anvil itself.&r"
+				""
+				"&e>&r&dYou can loot these items from elite mobs and pretty much any loot or treasure chest from dungeons.&r"
 				"{image:biomesoplenty:block/pus_bubble width:50 height:50 align:1}"
 			]
 			icon: {
