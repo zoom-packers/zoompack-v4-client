@@ -9,6 +9,14 @@
 		tag: { }
 	}
 	id: "0B38F22DB5861FCC"
+	images: [{
+		height: 10.0d
+		image: "meadow:block/brick_stove_top_on"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.0d
+		y: -3.5d
+	}]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
@@ -35,6 +43,11 @@
 		}
 		{
 			id: "44F9A64FCF772422"
+			rewards: [{
+				id: "1E8DF4B34C196ED2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4795CB66A2D68139"
 				item: {
@@ -49,20 +62,47 @@
 		}
 		{
 			id: "5BC572E42DDBD2E5"
-			rewards: [{
-				id: "40EA5CF511E4B78E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "606D838CCF42D11E"
-				item: {
-					Count: 1
-					id: "fortunas_anvil:rare_catalyst"
-					tag: { }
+			rewards: [
+				{
+					id: "40EA5CF511E4B78E"
+					type: "xp_levels"
+					xp_levels: 3
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "2C8434EFD7219108"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:uncommon_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "606D838CCF42D11E"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:rare_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "betternether:nether_ruby_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "124BB395D1D44C23"
+					requiredLevel: 15
+					skill: "combat"
+					type: "pmmo:skill"
+				}
+			]
 			x: 2.0d
 			y: -3.0d
 		}
@@ -73,15 +113,30 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [{
-				id: "2F945053C3828465"
-				item: {
-					Count: 1
-					id: "fortunas_anvil:uncommon_catalyst"
-					tag: { }
+			tasks: [
+				{
+					id: "2F945053C3828465"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:uncommon_catalyst"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					icon: {
+						Count: 1
+						id: "betternether:nether_ruby_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "21A5BDD3BF1DFFFA"
+					requiredLevel: 10
+					skill: "combat"
+					type: "pmmo:skill"
+				}
+			]
 			x: 2.0d
 			y: -2.0d
 		}
@@ -92,15 +147,30 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [{
-				id: "6DF81DA7C4299088"
-				item: {
-					Count: 1
-					id: "fortunas_anvil:common_catalyst"
-					tag: { }
+			tasks: [
+				{
+					id: "6DF81DA7C4299088"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:common_catalyst"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					icon: {
+						Count: 1
+						id: "betternether:nether_ruby_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4B03EE869B6A0C61"
+					requiredLevel: 5
+					skill: "combat"
+					type: "pmmo:skill"
+				}
+			]
 			x: 2.0d
 			y: -1.0d
 		}
@@ -111,15 +181,30 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [{
-				id: "416C3C141FE45C4C"
-				item: {
-					Count: 1
-					id: "fortunas_anvil:common_material"
-					tag: { }
+			tasks: [
+				{
+					id: "416C3C141FE45C4C"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:common_material"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					icon: {
+						Count: 1
+						id: "betternether:nether_ruby_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "49D61719E3ADAC6F"
+					requiredLevel: 5
+					skill: "combat"
+					type: "pmmo:skill"
+				}
+			]
 			x: -2.0d
 			y: -1.0d
 		}
@@ -128,39 +213,450 @@
 			rewards: [{
 				id: "1492F9EFAFEC10B5"
 				type: "xp_levels"
-				xp_levels: 1
+				xp_levels: 2
 			}]
-			tasks: [{
-				id: "65696F41FCA134C0"
-				item: {
-					Count: 1
-					id: "fortunas_anvil:uncommon_material"
-					tag: { }
+			tasks: [
+				{
+					id: "65696F41FCA134C0"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:uncommon_material"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					icon: {
+						Count: 1
+						id: "betternether:nether_ruby_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "19424270D6563DB5"
+					requiredLevel: 10
+					skill: "combat"
+					type: "pmmo:skill"
+				}
+			]
 			x: -2.0d
 			y: -2.0d
 		}
 		{
 			id: "25273163713CA246"
-			rewards: [{
-				id: "0083112DFE976CC3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "49DA48F66256E1A5"
-				item: {
-					Count: 1
-					id: "fortunas_anvil:rare_material"
-					tag: { }
+			rewards: [
+				{
+					id: "0083112DFE976CC3"
+					type: "xp_levels"
+					xp_levels: 3
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "07CDC3609CBD45C8"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:uncommon_material"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "49DA48F66256E1A5"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:rare_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "betternether:nether_ruby_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5E02C7201E8428B9"
+					requiredLevel: 15
+					skill: "combat"
+					type: "pmmo:skill"
+				}
+			]
 			x: -2.0d
 			y: -3.0d
 		}
+		{
+			id: "2370DD3D2CF8EF77"
+			rewards: [
+				{
+					count: 2
+					id: "455862A4BF8AC4C7"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:rare_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3AE0B3D1D96F088E"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					id: "5803E76CCCACEAFC"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:epic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "betternether:nether_ruby_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "07ACE49E99A436F2"
+					requiredLevel: 20
+					skill: "combat"
+					type: "pmmo:skill"
+				}
+			]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			id: "3557E1904BE380CE"
+			rewards: [
+				{
+					count: 2
+					id: "4C4E28F28A7CED14"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:epic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "63CDF97475B3A737"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "667F803FFBED388E"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:legendary_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "betternether:nether_ruby_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2C5A9571240F39B9"
+					requiredLevel: 25
+					skill: "combat"
+					type: "pmmo:skill"
+				}
+			]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			id: "2681A295DE3182F8"
+			rewards: [
+				{
+					count: 2
+					id: "73EE8491A7EB1633"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:legendary_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "796B912FC2657B2D"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			tasks: [
+				{
+					id: "1F66CA5FE4496DDA"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:mythic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "betternether:nether_ruby_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4EF0FDAB4CDE8B75"
+					requiredLevel: 30
+					skill: "combat"
+					type: "pmmo:skill"
+				}
+			]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "4FE2350D53000D45"
+			rewards: [
+				{
+					count: 2
+					id: "36904EF3D1639FFE"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:mythic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0860F7CFA7872788"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+			]
+			tasks: [
+				{
+					id: "3B70105FF1359800"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:ascended_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "betternether:nether_ruby_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1452F41FE856C9CF"
+					requiredLevel: 50
+					skill: "combat"
+					type: "pmmo:skill"
+				}
+			]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			id: "30220C17917B936B"
+			rewards: [
+				{
+					count: 2
+					id: "4DDB687E7E86E4E0"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:rare_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6F8C717AF5A75D01"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					id: "523EBDF90F4B429D"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:epic_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "betternether:nether_ruby_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "32FF40D37A8B9ADE"
+					requiredLevel: 20
+					skill: "combat"
+					type: "pmmo:skill"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "2C01310FB87D74BB"
+			rewards: [
+				{
+					count: 2
+					id: "70496676C23806FF"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:epic_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4DC23205020D74B6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "37F59BB428754797"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:legendary_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "betternether:nether_ruby_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "279458BF94B3620E"
+					requiredLevel: 25
+					skill: "combat"
+					type: "pmmo:skill"
+				}
+			]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			id: "63AB2F1D38154822"
+			rewards: [
+				{
+					count: 2
+					id: "57A9840D89837DB0"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:legendary_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "08D7CAB52C2A8F66"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			tasks: [
+				{
+					id: "2E514BAE94835D71"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:mythic_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "betternether:nether_ruby_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5811BBB4A9E5152D"
+					requiredLevel: 30
+					skill: "combat"
+					type: "pmmo:skill"
+				}
+			]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			id: "1DF9D76FAAE6ADEE"
+			rewards: [
+				{
+					count: 2
+					id: "10E1BA3D98CCC219"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:mythic_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "420E4CB9BB428706"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+			]
+			tasks: [
+				{
+					id: "2444BA60B999EA04"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:ascended_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "betternether:nether_ruby_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7ABB5903BC3238DB"
+					requiredLevel: 50
+					skill: "combat"
+					type: "pmmo:skill"
+				}
+			]
+			x: 2.0d
+			y: -7.0d
+		}
 	]
-	title: "Fortunas"
+	subtitle: ["The mighty fms"]
+	title: "Fortuna's Anvil"
 }

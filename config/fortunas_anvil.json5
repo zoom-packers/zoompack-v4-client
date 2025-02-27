@@ -518,7 +518,7 @@
   // The maximum number of levels an item can have. If it exceeds 99, you will need to create new textures for the levels.
   "maxItemLevel": 99,
   // How many catalyst rarities there are. Max is 10, but 3 is sweet spot for vanilla. If it exceeds 3, you will need to create new textures for the catalysts.
-  "maxCatalystLevels": 3,
+  "maxCatalystLevels": 7,
   // How many material rarities there are. Max is 10, but 3 is sweet spot for vanilla. If it exceeds 3, you will need to create new textures for the materials.
-  "maxMaterialLevels": 3
+  "maxMaterialLevels": 7
 }
