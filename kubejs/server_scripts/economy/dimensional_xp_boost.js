@@ -36,10 +36,8 @@ let woodcutting_xp_dimension_multipliers = {
     "theabyss:the_abyss": 64,
 }
 
-
-function loopDimensionapXPBoost(event) {
+function grantPlayersBoosters(event) {
     let server = event.getServer();
-
     event.server.players.forEach(player => {
         let player_name = player.getName().getString();
         let dimension = player.level.dimension.toString();
@@ -56,25 +54,32 @@ function loopDimensionapXPBoost(event) {
         }
         let woodcutting_modifier = {
             attribute: "zoompack_overrides_forge:woodcutting_xp_multiplier",
-            uuid: "85883543-c4a3-406e-ba46-9a1b6f917549",
+            uuid: "494476cb-75d1-48b6-b4b3-c279a4893cb4",
             operation: "add"
         }
+
         let final_modifier_amount = economy_dimension_xp_multipliers[dimension] - 1;
         if (economy_dimension_xp_multipliers[dimension] !== undefined) {
             server.runCommandSilent(`/attribute ${player_name} ${modifier.attribute} modifier remove ${modifier.uuid}`);
             server.runCommandSilent(`/attribute ${player_name} ${modifier.attribute} modifier add ${modifier.uuid} "Dimensional Boost Modifier" ${final_modifier_amount} ${modifier.operation}`);
         }
+
         if (mining_xp_dimension_multipliers[dimension] !== undefined) {
             server.runCommandSilent(`/attribute ${player_name} ${mining_modifier.attribute} modifier remove ${mining_modifier.uuid}`);
             server.runCommandSilent(`/attribute ${player_name} ${mining_modifier.attribute} modifier add ${mining_modifier.uuid} "Dimensional Mining Boost Modifier" ${mining_xp_dimension_multipliers[dimension]} ${mining_modifier.operation}`);
         }
+
         if (woodcutting_xp_dimension_multipliers[dimension] !== undefined) {
             server.runCommandSilent(`/attribute ${player_name} ${woodcutting_modifier.attribute} modifier remove ${woodcutting_modifier.uuid}`);
             server.runCommandSilent(`/attribute ${player_name} ${woodcutting_modifier.attribute} modifier add ${woodcutting_modifier.uuid} "Dimensional Woodcutting Modifier" ${woodcutting_xp_dimension_multipliers[dimension]} ${woodcutting_modifier.operation}`);
         }
-        event.server.scheduleInTicks(DIMENSIONAL_XP_BOOST_INTERVAL, callback => {
-            loopDimensionapXPBoost(event);
-        });
+    });
+}
+
+function loopDimensionapXPBoost(event) {
+    grantPlayersBoosters(event);
+    event.server.scheduleInTicks(DIMENSIONAL_XP_BOOST_INTERVAL, callback => {
+        loopDimensionapXPBoost(event);
     });
 }
 
