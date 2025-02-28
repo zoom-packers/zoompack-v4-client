@@ -1,0 +1,12 @@
+{
+    "priority": 9999,
+    "panel": "obscure_tooltips:undergarden",
+    "frame": "obscure_tooltips:undergarden",
+    "icon": "obscure_tooltips:undergarden",
+    "effects": [
+      "obscure_tooltips:undergarden"
+    ],
+    "filter": {
+      "mods": ["undergarden", "call_of_yucutan", "mokels_boss_mantyd"]
+    }
+  }
