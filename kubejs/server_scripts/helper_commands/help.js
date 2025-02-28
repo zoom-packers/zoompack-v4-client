@@ -18,7 +18,7 @@ let COMMANDS_CUSTOM_MAP = {
     'trims': ftb_book_command('68225318CD594DA4'),
     'powerups': ftb_book_command('68225318CD594DA4'),
     'talents': ftb_book_command('0A307DF8271A9780'),
-    'dimensions': ftb_book_command('625C95F55A1B894E'),
+    'dimensions': ftb_book_command('7BEC85EFE323F106'),
     'magic': ftb_book_command('4DC536C0184DFD68'),
     'weapons': ftb_book_command('02EBA84B4ABC57D0'),
     'origins': ftb_book_command('59D44C51887D8237'),
