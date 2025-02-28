@@ -1,4 +1,5 @@
 let ELITE_MOBS_UUID = "f3f8f5f1-0f1b-4b8f-8b8b-5f3f8f6b4b8f";
+const ELITE_TICK_INTERVAL = 69;
 
 let elite_hostileMobs = [
     "aether:blue_swet",
@@ -102,7 +103,6 @@ let elite_hostileMobs = [
 
 EntityEvents.spawned(elite_onEntitySpawned);
 EntityEvents.death(elite_onDeath);
-ServerEvents.tick(elite_onTick);
 ServerEvents.commandRegistry(elite_commands);
 
 let elite_commands_to_run = [];
@@ -199,7 +199,7 @@ function elite_onDeath(event) {
     }
 }
 
-function elite_onTick(event) {
+function eliteScheduler(event) {
     let server = event.getServer();
     for (let command of elite_commands_to_run) {
         server.runCommandSilent(command);
@@ -207,39 +207,36 @@ function elite_onTick(event) {
     elite_commands_to_run = [];
 
     let $AuraCapabilityProvider = Java.loadClass("com.pandaismyname1.zoompack_overrides_forge.aura.AuraCapabilityProvider");
-    let tick = event.getServer().getTickCount();
-    if (tick % 69 === 0) {
-        let currentTime = Date.now();
-        let isDedicatedServer = server.isDedicated();
-        event.getServer().getAllLevels().forEach(level => {
-            var entities = level.getEntities();
-            entities.forEach(entity => {
-                let isElite = elite_isElite(entity);
-                if (!isElite) {
+    let currentTime = Date.now();
+    let isDedicatedServer = server.isDedicated();
+    event.getServer().getAllLevels().forEach(level => {
+        var entities = level.getEntities();
+        entities.forEach(entity => {
+            let isElite = elite_isElite(entity);
+            if (!isElite) {
+                return;
+            }
+            let spawnEpoch = entity.getPersistentData().getLong("eliteSpawnedEpoch");
+            let timeDiff = currentTime - spawnEpoch;
+            if (timeDiff > eliteLifetimeInMinutes * 60 * 1000) {
+                entity.remove("discarded")
+                return;
+            }
+            if (!isDedicatedServer) {
+                let capability = entity.getCapability($AuraCapabilityProvider.AURA_CAPABILITY).orElse(null);
+                if (capability == null) {
                     return;
                 }
-                let spawnEpoch = entity.getPersistentData().getLong("eliteSpawnedEpoch");
-                let timeDiff = currentTime - spawnEpoch;
-                if (timeDiff > eliteLifetimeInMinutes * 60 * 1000) {
-                    entity.remove("discarded")
-                    return;
-                }
-                if (!isDedicatedServer) {
-                    let capability = entity.getCapability($AuraCapabilityProvider.AURA_CAPABILITY).orElse(null);
-                    if (capability == null) {
-                        return;
-                    }
-                    let auraId = capability.getAuraId();
-                    $AuraCapabilityProvider.setAuraId(entity, auraId);
-                }
-            });
+                let auraId = capability.getAuraId();
+                $AuraCapabilityProvider.setAuraId(entity, auraId);
+            }
         });
-    }
+    });
 }
 
 
 function elite_commands(event) {
-    let {commands, arguments} = event;
+    let { commands, arguments } = event;
     let StringArgument = Java.loadClass("com.mojang.brigadier.arguments.StringArgumentType");
     event.register(
         commands.literal('summon_elite')
@@ -263,8 +260,13 @@ function elite_commands(event) {
                         let pos = ctx.getSource().getPlayerOrException().getPos();
                         entity.setPosition(pos.x(), pos.y(), pos.z());
                         world.addFreshEntity(entity);
-                        elite_initElite(entity, difficulty);
-                        return 1;
+
+                        if(elite_initElite(entity, difficulty)){
+                            return 1;
+                        }
+                        else{
+                            return 0;
+                        }
                     })
                 )
             )
@@ -276,14 +278,21 @@ function elite_initElite(entity, difficulty) {
     elite_setGlowEffect(entity, difficulty);
     elite_setPehkuiSize(entity.getServer(), entity, difficulty);
     let config = elite_getDifficultyConfig(difficulty);
-    let baseName = entity.getName().getString();
-    let newName = Component.literal(config.name + " " + baseName).withStyle(config.chatColor);
-    entity.setCustomName(newName);
-    for (const modifier of Object.keys(config.modifiers)) {
-        addModifier(entity, modifier, config.modifiers[modifier], "multiply_total");
+    if(config == undefined){
+        return false;
     }
-    entity.heal(entity.getMaxHealth());
-    elites.push(entity);
+    else{
+        let baseName = entity.getName().getString();
+        let newName = Component.literal(config.name + " " + baseName).withStyle(config.chatColor);
+        entity.setCustomName(newName);
+        for (const modifier of Object.keys(config.modifiers)) {
+            addModifier(entity, modifier, config.modifiers[modifier], "multiply_total");
+        }
+        entity.heal(entity.getMaxHealth());
+        elites.push(entity);
+        return true;
+    }
+    
 }
 
 
@@ -344,15 +353,15 @@ function elite_canSpawn() {
 function elite_getMinionCountAndDifficulty(difficulty) {
     switch (difficulty) {
         case "annoying":
-            return {count: 0, difficulty: "trained"};
+            return { count: 0, difficulty: "trained" };
         case "trained":
-            return {count: 0, difficulty: "trained"};
+            return { count: 0, difficulty: "trained" };
         case "elite":
-            return {count: 0, difficulty: "trained"};
+            return { count: 0, difficulty: "trained" };
         case "champion":
-            return {count: 3, difficulty: "trained"};
+            return { count: 3, difficulty: "trained" };
         case "miniboss":
-            return {count: 3, difficulty: "elite"};
+            return { count: 3, difficulty: "elite" };
     }
 }
 
@@ -511,3 +520,14 @@ function addModifier(entity, attributeId, amount, operation) {
     attributeInstance.removeModifier(UUID.fromString(ELITE_MOBS_UUID));
     attributeInstance.addTransientModifier(modifier);
 }
+
+function loopEliteMobsEvent(event){
+    eliteScheduler(event);
+    event.server.scheduleInTicks(ELITE_TICK_INTERVAL, callback => {
+        eliteScheduler(event);
+    });
+}
+
+ServerEvents.loaded(event => {
+    loopEliteMobsEvent(event);
+})
