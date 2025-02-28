@@ -81,14 +81,17 @@ ARMOR_ITEM_IDS = []
 mod_ids = os.listdir(pmmo_edits_path)
 for mod_id in mod_ids:
     if '.js' not in mod_id:
-        mod_items = os.listdir(f'{pmmo_edits_path}/{mod_id}/{pmmo_generic_path}')
-        for mod_item in mod_items:
-            mod_item_id = mod_item.replace('.json','')
-            mod_item_path = f'{pmmo_edits_path}/{mod_id}/{pmmo_generic_path}/{mod_item}'
-            item_id = f'{mod_id}:{mod_item_id}'
+        try:
+            mod_items = os.listdir(f'{pmmo_edits_path}/{mod_id}/{pmmo_generic_path}')
+            for mod_item in mod_items:
+                mod_item_id = mod_item.replace('.json','')
+                mod_item_path = f'{pmmo_edits_path}/{mod_id}/{pmmo_generic_path}/{mod_item}'
+                item_id = f'{mod_id}:{mod_item_id}'
 
-            if is_config_path_armor(mod_item_path) and is_item_id_allowed(mod_item_id):
-                ARMOR_ITEM_IDS.append(item_id)
+                if is_config_path_armor(mod_item_path) and is_item_id_allowed(mod_item_id):
+                    ARMOR_ITEM_IDS.append(item_id)
+        except FileNotFoundError:
+            pass
 
 ARMOR_ITEM_IDS = include_item_ids_from_CIA(CIAT_FILE_PATH, ARMOR_ITEM_IDS)
 
