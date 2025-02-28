@@ -1,9 +1,9 @@
 {
-    "priority": 9999,
-    "factory": "obscure_tooltips:descent_shine",
-    "center_color": "8013a842",
-    "start_color": "30218741",
-    "end_color": "00218741",
-    "particle_center_color": "fc6d60c",
-    "particle_edge_color": "f7b5c519"
-  }
+  "priority": 9999,
+  "factory": "obscure_tooltips:descent_shine",
+  "center_color": "8013a842",
+  "start_color": "30218741",
+  "end_color": "00218741",
+  "particle_center_color": "fc6d60c",
+  "particle_edge_color": "f7b5c519"
+}
