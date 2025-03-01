@@ -146,9 +146,41 @@ def get_item_registry(registry_path):
 item_registry  = get_item_registry(REGISTRY_PATH)
 
 
-def filter_for_end(item_registry):
-    # The items that contain _end or end_
-    mods_to_skip = [
+def get_item_list(item_registry, matches, mods_to_skip=[], no_matches=[],  mods_to_include=[]):
+    """
+        item regsitry should be the list of all the items
+        mods to skip are the mods that should not be taken into consideration
+        matches = list of rules to apply like each matches in
+        no_matches = the opposite of matches
+        mods to include are the mods that should only be taken into consideration if not empty
+    """
+    selected_items = []
+
+    for item in item_registry:
+        mod_id = item.split(':')[0]
+        if mod_id not in mods_to_skip:
+            to_continue = False
+
+            if mods_to_include:
+                if mod_id in mods_to_include:
+                    to_continue=True
+            else:
+                to_continue = True
+            
+            if to_continue:
+                for match in matches:
+                    if match in item:
+                        to_add = True
+                        for no_match in no_matches:
+                            if no_match in item:
+                                to_add = False
+                        
+                        if to_add:
+                            selected_items.append(item)
+
+    return list(set(selected_items))
+
+end_related_items = get_item_list(item_registry, ['_end',':end_'], [
       "outer_end",
       "endlessbiomes",
       "phantasm",
@@ -156,20 +188,8 @@ def filter_for_end(item_registry):
       "enderitemod",
       'zoomers_armory',
       'iron_spellbooks'
-    ]
-
-    end_items = []
-
-    for item in item_registry:
-        if '_end' in item or ':end_' in item:
-            mod_id = item.split(':')[0]
-            if mod_id not in mods_to_skip:
-                end_items.append(item)
-
-    return end_items
-
-# end_related_items = filter_for_end(item_registry)
-# copy_style_for_items('the_end_style.json', 'the_end_style2.json', end_related_items, priority=9998)
+    ])
+copy_style_for_items('the_end_style.json', 'the_end_style2.json', end_related_items, priority=9998)
 
 
 
