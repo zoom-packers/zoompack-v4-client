@@ -857,7 +857,6 @@ function techProgPlayerHasMilestoneItems(milestone, player) {
     let requirementsCount = {};
     let playerInventory = player.inventory.items;
     for (const inventoryItemStack of playerInventory) {
-        console.info(inventoryItemStack);
         let inventoryItem = inventoryItemStack.item;
         let inventoryItemId = Item.getId(inventoryItem);
         for (const milestoneElement of milestone.requirements) {
@@ -870,7 +869,6 @@ function techProgPlayerHasMilestoneItems(milestone, player) {
             }
         }
     }
-    console.info(requirementsCount);
 
     let hasRequiredItems = true;
     for (const requirement of milestone.requirements) {
