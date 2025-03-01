@@ -221,6 +221,17 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             const id = `${this.internalNamespace}:${this.material.internalName}_${necklace.id}`;
             this.kubeJsContainer.tagger.tagItem(id, "aether:accessories_gloves");
         }
+        for (const item of PolymorphArmoryVariants.ALL) {
+            if (this.shouldSkip(item)) {
+                continue;
+            }
+            if (!!item.tags) {
+                const id = `${this.internalNamespace}:${this.material.internalName}_${item.id}`;
+                for (const tag of item.tags) {
+                    this.kubeJsContainer.tagger.tagItem(id, tag);
+                }
+            }
+        }
         this.kubeJsContainer.tagger.tagItem(this.craftingMaterial, this.craftingMaterial);
     }
 

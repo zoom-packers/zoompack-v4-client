@@ -48,6 +48,7 @@ export class PolymorphArmoryVariants {
     private static readonly CLAWS_VARIANT: SwordVariant = {
         id: "claws",
         type: "sword",
+        tags: ["zoompack:small_melee_weapon"],
         displayName: "Claws",
         recipe: ["", "", "", "", "material", "material", "", "", ""],
         durabilityMultiplier: 1.3,
@@ -71,6 +72,7 @@ export class PolymorphArmoryVariants {
     private static readonly DAGGER_VARIANT: SwordVariant = {
         id: "dagger",
         type: "sword",
+        tags: ["zoompack:small_melee_weapon"],
         displayName: "Dagger",
         recipe: ["", "", "", "", "material", "", "#forge:rods/wooden", "", ""],
         durabilityMultiplier: 1.5,
@@ -111,6 +113,7 @@ export class PolymorphArmoryVariants {
     private static readonly LONGSWORD_VARIANT: SwordVariant = {
         id: "heavysword",
         type: "sword",
+        tags: ["zoompack:dual_handed_weapon"],
         displayName: "Heavysword",
         recipe: ["", "material", "material", "", "material", "", "#forge:rods/wooden", "", ""],
         durabilityMultiplier: 0.8,
@@ -159,6 +162,7 @@ export class PolymorphArmoryVariants {
     private static readonly HEAVY_MACE_VARIANT: SwordVariant = {
         id: "heavymace",
         type: "sword",
+        tags: ["zoompack:dual_handed_weapon"],
         displayName: "Heavy Mace",
         recipe: ["", "material", "material", "", "material", "material", "", "#forge:rods/wooden", ""],
         durabilityMultiplier: 0.8,
@@ -177,6 +181,7 @@ export class PolymorphArmoryVariants {
     private static readonly WARHAMMER_VARIANT: SwordVariant = {
         id: "warhammer",
         type: "sword",
+        tags: ["zoompack:dual_handed_weapon"],
         displayName: "Warhammer",
         recipe: ["material", "material", "material", "", "#forge:rods/wooden", "material", "#forge:rods/wooden", "", ""],
         durabilityMultiplier: 0.7,
@@ -195,6 +200,7 @@ export class PolymorphArmoryVariants {
     private static readonly BATTLEAXE_VARIANT: SwordVariant = {
         id: "battleaxe",
         type: "sword",
+        tags: ["zoompack:dual_handed_weapon"],
         displayName: "Battleaxe",
         recipe: ["material", "material", "material", "material", "#forge:rods/wooden", "material", "", "#forge:rods/wooden", ""],
         durabilityMultiplier: 0.8,
@@ -212,6 +218,7 @@ export class PolymorphArmoryVariants {
     private static readonly SPEAR_VARIANT: SwordVariant = {
         id: "spear",
         type: "sword",
+        tags: ["zoompack:dual_handed_weapon"],
         displayName: "Spear",
         recipe: ["", "", "material", "", "#forge:rods/wooden", "", "#forge:rods/wooden", "", ""],
         durabilityMultiplier: 1.2,
@@ -227,6 +234,7 @@ export class PolymorphArmoryVariants {
     private static readonly HALBERD_VARIANT: SwordVariant = {
         id: "halberd",
         type: "sword",
+        tags: ["zoompack:dual_handed_weapon"],
         displayName: "Halberd",
         recipe: ["", "", "material", "", "#forge:rods/wooden", "material", "#forge:rods/wooden", "", ""],
         durabilityMultiplier: 0.85,
@@ -243,6 +251,7 @@ export class PolymorphArmoryVariants {
     private static readonly SCYTHE_VARIANT: SwordVariant = {
         id: "scythe",
         type: "sword",
+        tags: ["zoompack:dual_handed_weapon"],
         displayName: "Scythe",
         recipe: ["material", "material", "", "#forge:rods/wooden", "material", "", "#forge:rods/wooden", "", ""],
         durabilityMultiplier: 0.8,
@@ -259,6 +268,7 @@ export class PolymorphArmoryVariants {
     private static readonly KATANA_VARIANT: SwordVariant = {
         id: "katana",
         type: "sword",
+        tags: ["zoompack:dual_handed_weapon"],
         displayName: "Katana",
         recipe: ["material", "material", "", "material", "", "", "#forge:rods/wooden", "", ""],
         durabilityMultiplier: 1.2,
@@ -275,6 +285,7 @@ export class PolymorphArmoryVariants {
     private static readonly SAI_VARIANT: SwordVariant = {
         id: "sai",
         type: "sword",
+        tags: ["zoompack:small_melee_weapon"],
         displayName: "Sai",
         recipe: ["", "material", "", "", "#forge:rods/wooden", "", "", "", ""],
         durabilityMultiplier: 1.5,
@@ -298,6 +309,7 @@ export class PolymorphArmoryVariants {
     private static readonly TWINBLADE_VARIANT: SwordVariant = {
         id: "twinblade",
         type: "sword",
+        tags: ["zoompack:dual_handed_weapon"],
         displayName: "Twinblade",
         recipe: ["", "material", "", "", "#forge:rods/wooden", "", "", "material", ""],
         durabilityMultiplier: 1.3,
@@ -314,6 +326,7 @@ export class PolymorphArmoryVariants {
     private static readonly WARGLAIVE_VARIANT: SwordVariant = {
         id: "warglaive",
         type: "sword",
+        tags: ["zoompack:dual_handed_weapon"],
         displayName: "Warglaive",
         recipe: ["", "material", "material", "", "#forge:rods/wooden", "", "", "material", "material"],
         durabilityMultiplier: 1.5,
@@ -729,6 +742,7 @@ export class PolymorphArmoryVariants {
     private static readonly SHORTBOW_VARIANT: BowVariant = {
         id: "shortbow",
         type: "bow",
+        tags: ["zoompack:small_ranged_weapon"],
         displayName: "Shortbow",
         recipe: ["", "material", "#c:string", "material", "", "#c:string", "", "material", "#c:string"],
         durabilityMultiplier: 1.2,

@@ -9,6 +9,7 @@ export type TextureGenDetails = {
 export type BaseVariant = {
     id: string,
     displayName: string,
+    tags?: string[] | undefined,
     type: string,
     recipe: string[],
     durabilityMultiplier: number,
