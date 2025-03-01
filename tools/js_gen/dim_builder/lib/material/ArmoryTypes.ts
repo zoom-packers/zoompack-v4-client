@@ -26,7 +26,7 @@ export type CurioVariant = BaseVariant & {
 
 export type SwordVariant = BaseVariant & {
     damageMultiplier: number,
-    speedMultiplier: number,
+    speedAddition: number,
     reachMultiplier: number
 }
 

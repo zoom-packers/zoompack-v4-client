@@ -59,7 +59,7 @@ export class KubeJsGlobalArmory {
         if (variant.type === "sword") {
             const sword = variant as SwordVariant;
             content += `.attackDamage(${sword.damageMultiplier})`;
-            content += `.attackSpeed(${sword.speedMultiplier})`;
+            content += `.attackSpeed(${sword.speedAddition})`;
             content += `.reach(${sword.reachMultiplier})`;
         } else if (variant.type === "shield") {
             const shield = variant as ShieldVariant;

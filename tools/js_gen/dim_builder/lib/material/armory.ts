@@ -853,8 +853,8 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             },
             {
                 attribute: "minecraft:generic.attack_speed",
-                operation: operation.MULTIPLY_BASE,
-                value: weaponType.speedMultiplier
+                operation: operation.ADDITION,
+                value: weaponType.speedAddition
             },
         ])
     }
