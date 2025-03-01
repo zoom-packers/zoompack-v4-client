@@ -1,0 +1,9 @@
+{
+  "priority": 9999,
+  "factory": "obscure_tooltips:descent_shine",
+  "center_color": "20003020",
+  "start_color": "00003010",
+  "end_color": "40002820",
+  "particle_center_color": "20003020",
+  "particle_edge_color": "60004030"
+}

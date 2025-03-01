@@ -1,0 +1,12 @@
+{
+    "priority": 9999,
+    "panel": "obscure_tooltips:depth",
+    "frame": "obscure_tooltips:depth",
+    "icon": "obscure_tooltips:depth",
+    "effects": [
+      "obscure_tooltips:depth"
+    ],
+    "filter": {
+      "mods": ["callfromthedepth_"]
+    }
+  }

@@ -1,8 +1,0 @@
-{
-  "priority": 9999,
-  "effects": [ "obscure_tooltips:undergarden" ],
-  "frame" : "obscure_tooltips:undergarden",
-  "filter": {
-    "mods": ["undergarden"]
-  }
-}
