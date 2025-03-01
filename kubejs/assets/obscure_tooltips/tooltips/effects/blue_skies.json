@@ -1,0 +1,8 @@
+{
+    "priority": 9999,
+    "factory": "obscure_tooltips:rim_lighting",
+    "start_color": "294f0c6d",
+    "end_color": "00280d70",
+    "particle_center_color": "ce116070",
+    "particle_edge_color": "87923414"
+}

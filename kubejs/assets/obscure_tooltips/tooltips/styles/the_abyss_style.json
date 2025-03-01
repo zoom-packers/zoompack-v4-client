@@ -1,0 +1,14 @@
+{
+    "priority": 9999,
+    "panel": "obscure_tooltips:the_abyss",
+    "frame": "obscure_tooltips:the_abyss",
+    "icon": "obscure_tooltips:the_abyss",
+    "effects": [
+        "obscure_tooltips:the_abyss"
+    ],
+    "filter": {
+        "mods": [
+            "theabyss"
+        ]
+    }
+}

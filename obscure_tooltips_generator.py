@@ -1,0 +1,184 @@
+import os
+import json
+import random
+
+def create_folder_if_not_exists(folder_path):
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+
+REGISTRY_PATH = 'tools\configs\item_registry_dump'
+obscure_tooltips_assets_path = "kubejs/assets/obscure_tooltips"
+tooltips_path = f'{obscure_tooltips_assets_path}/tooltips'
+styles_path = f'{tooltips_path}/styles'
+panels_path = f'{tooltips_path}/panels'
+icons_path = f'{tooltips_path}/icons'
+effects_path = f'{tooltips_path}/effects'
+
+create_folder_if_not_exists(obscure_tooltips_assets_path)
+create_folder_if_not_exists(tooltips_path)
+
+for path in [tooltips_path, styles_path, panels_path, icons_path, effects_path]:
+    create_folder_if_not_exists(path)
+
+
+def rgb_to_argb(rgb, alpha):
+    """Convert RGB color to ARGB format with the given alpha."""
+    return f"{alpha:02x}{rgb[0]:02x}{rgb[1]:02x}{rgb[2]:02x}"
+
+def generate_colors(base_colors):
+    """Generate ARGB colors with varying alpha values."""
+    colors = []
+    for color in base_colors:
+        alpha = random.randint(0x80, 0xFC)
+        argb = rgb_to_argb(color, alpha)
+        colors.append(argb)
+    return colors
+
+def effect_start_color(color):
+    alpha = random.randint(0x20, 0x30)
+    return f'{alpha:02x}{color[2:]}'
+
+def effect_end_color(color):
+    return '00' + color[2:]
+
+def panel_adjustment_color(color):
+    alpha = random.randint(0xf0, 0xfc)
+    return f'{alpha:02x}{color[2:]}'
+
+def icon_alpha(color):
+    alpha = random.randint(0x10, 0x20)
+    return f'{alpha:02x}{color[2:]}'
+
+def generate_json_content(colors):
+    """Generate the JSON content as a dictionary based on the provided colors."""
+    effects = {
+        "priority": 9999,
+        "factory": "obscure_tooltips:rim_lighting",
+        "start_color": effect_start_color(colors[0]),
+        "end_color": effect_end_color(colors[1]),
+        "particle_center_color": colors[2],
+        "particle_edge_color": colors[3]
+    }
+
+    icons = {
+        "priority": 9999,
+        "factory": "obscure_tooltips:descent_shine",
+        "center_color": icon_alpha(colors[1]),
+        "start_color": colors[0],
+        "end_color": icon_alpha(colors[1]),
+        "particle_center_color": colors[2],
+        "particle_edge_color": colors[3]
+    }
+
+    panels = {
+        "priority": 9999,
+        "factory": "obscure_tooltips:color_rect",
+        "back_top_color": panel_adjustment_color(colors[0]),
+        "back_bottom_color": panel_adjustment_color(colors[1]),
+        "border_top_color": panel_adjustment_color(colors[2]),
+        "border_bottom_color": panel_adjustment_color(colors[3]),
+        "slot_color": "30ffffff"
+    }
+
+    return {
+        "effects.json": effects,
+        "icons.json": icons,
+        "panels.json": panels
+    }
+
+def generate_style_file(file_name, mod_id):
+    return {
+        "priority": 9999,
+        "panel": f"obscure_tooltips:{file_name}",
+        "frame": f"obscure_tooltips:{file_name}",
+        "icon": f"obscure_tooltips:{file_name}",
+        "effects": [
+            f"obscure_tooltips:{file_name}"
+        ],
+        "filter": {
+            "mods": [
+                mod_id
+            ]
+        }
+    }
+
+def write_json_file(json_content, path):
+    with open(path, 'w+') as file:
+        json.dump(json_content, file, indent=4)
+
+def generate_theme_for_mod(mod_id, color_schemes, file_prefix, tint_down):
+    modified_colors = []
+    for color in color_schemes:
+        modified_colors.append( (int(color[0]*tint_down), int(color[1]*tint_down), int(color[2]*tint_down)) )
+
+    colors = generate_colors(modified_colors)
+    json_content = generate_json_content(colors)
+
+    effects_content = json_content['effects.json']
+    icons_content = json_content['icons.json']
+    panels_content = json_content['panels.json']
+
+    write_json_file(effects_content, f'{effects_path}/{file_prefix}.json')
+    write_json_file(icons_content, f'{icons_path}/{file_prefix}.json')
+    write_json_file(panels_content, f'{panels_path}/{file_prefix}.json')
+
+    style_file_content = generate_style_file(file_prefix, mod_id)
+    write_json_file(style_file_content, f'{styles_path}/{file_prefix}_style.json')
+
+def copy_style_for_items(style_to_copy_and_change, new_file, item_list, priority = 9999):
+    with open(f'{styles_path}/{style_to_copy_and_change}' ,'r') as file:
+        json_content = json.loads(file.read())
+
+        json_content['filter'] = {
+            'items' : item_list
+        }
+        json_content['priority'] = priority
+
+        with open(f'{styles_path}/{new_file}', 'w+') as new_file:
+            new_file.write(json.dumps(json_content, indent=4))
+
+# Registry related
+
+def get_item_registry(registry_path):
+    with open(registry_path, 'r') as file:
+        return [dirty_line.replace("\n",'') for dirty_line in file.readlines()]
+
+item_registry  = get_item_registry(REGISTRY_PATH)
+
+
+def filter_for_end(item_registry):
+    # The items that contain _end or end_
+    mods_to_skip = [
+      "outer_end",
+      "endlessbiomes",
+      "phantasm",
+      "ender_dragon_loot_",
+      "enderitemod",
+      'zoomers_armory',
+      'iron_spellbooks'
+    ]
+
+    end_items = []
+
+    for item in item_registry:
+        if '_end' in item or ':end_' in item:
+            mod_id = item.split(':')[0]
+            if mod_id not in mods_to_skip:
+                end_items.append(item)
+
+    return end_items
+
+# end_related_items = filter_for_end(item_registry)
+# copy_style_for_items('the_end_style.json', 'the_end_style2.json', end_related_items, priority=9998)
+
+
+
+
+
+
+
+
+
+
+# generate_theme_for_mod('theabyss', [(29, 32, 88),(36, 40, 123),(97, 25, 88),(127, 21, 113)], 'the_abyss', 0.7)
+# generate_theme_for_mod('blue_skies', [(99, 16, 137),(50, 17, 141),(22, 121, 141),(183, 65, 26)], 'blue_skies', 0.8)

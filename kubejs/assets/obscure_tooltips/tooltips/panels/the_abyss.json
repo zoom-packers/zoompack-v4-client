@@ -1,0 +1,9 @@
+{
+    "priority": 9999,
+    "factory": "obscure_tooltips:color_rect",
+    "back_top_color": "f114163d",
+    "back_bottom_color": "f7191c56",
+    "border_top_color": "fa43113d",
+    "border_bottom_color": "f1580e4f",
+    "slot_color": "30ffffff"
+}
