@@ -15,6 +15,11 @@
             "amount": 1
         },
         {
+            "attribute":"projectile_damage:generic",
+            "operation": "ADDITION",
+            "amount": 10
+        },
+        {
             "attribute":"minecraft:generic.armor",
             "operation": "ADDITION",
             "amount": 4

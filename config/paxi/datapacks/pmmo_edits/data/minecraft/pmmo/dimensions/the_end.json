@@ -15,9 +15,14 @@
             "amount": 19
         },
         {
-            "attribute":"minecraft:generic.attack_damage",
+            "attribute":"projectile_damage:generic",
+            "operation": "ADDITION",
+            "amount": 14
+        },
+        {
+            "attribute":"projectile_damage:generic",
             "operation": "MULTIPLY_BASE",
-            "amount": 19
+            "amount": 34
         },
         {
             "attribute":"minecraft:generic.armor",
