@@ -13,6 +13,7 @@ styles_path = f'{tooltips_path}/styles'
 panels_path = f'{tooltips_path}/panels'
 icons_path = f'{tooltips_path}/icons'
 effects_path = f'{tooltips_path}/effects'
+frames_path = f'{tooltips_path}/frames'
 
 create_folder_if_not_exists(obscure_tooltips_assets_path)
 create_folder_if_not_exists(tooltips_path)
@@ -106,6 +107,12 @@ def write_json_file(json_content, path):
     with open(path, 'w+') as file:
         json.dump(json_content, file, indent=4)
 
+def new_icons_file_content(texture_file):
+    return {
+        "factory": "obscure_tooltips:texture",
+        "texture": f"obscure_tooltips:textures/tooltips/{texture_file}.png"
+    }
+
 def generate_theme_for_mod(mod_id, color_schemes, file_prefix, tint_down):
     modified_colors = []
     for color in color_schemes:
@@ -121,6 +128,7 @@ def generate_theme_for_mod(mod_id, color_schemes, file_prefix, tint_down):
     write_json_file(effects_content, f'{effects_path}/{file_prefix}.json')
     write_json_file(icons_content, f'{icons_path}/{file_prefix}.json')
     write_json_file(panels_content, f'{panels_path}/{file_prefix}.json')
+    write_json_file(new_icons_file_content(file_prefix), f'{frames_path}/{file_prefix}.json')
 
     style_file_content = generate_style_file(file_prefix, mod_id)
     write_json_file(style_file_content, f'{styles_path}/{file_prefix}_style.json')
@@ -180,6 +188,25 @@ def get_item_list(item_registry, matches, mods_to_skip=[], no_matches=[],  mods_
 
     return list(set(selected_items))
 
+
+generate_theme_for_mod('betternether', [(191, 143, 0),(139, 0, 0),(0, 0, 0),(64, 64, 64)], 'the_nether', 0.5)
+# generate_theme_for_mod('theabyss', [(29, 32, 88),(36, 40, 123),(97, 25, 88),(127, 21, 113)], 'the_abyss', 0.7)
+# generate_theme_for_mod('blue_skies', [(99, 16, 137),(50, 17, 141),(22, 121, 141),(183, 65, 26)], 'blue_skies', 0.8)
+
+
+
+
+
+
+the_nether_related_items = get_item_list(item_registry, ['nether', 'cincinnasite'])
+the_nether_related_items2 = get_item_list(item_registry, ['cincinnasite', 'nether_ruby', 'flaming_ruby', 'netherite'], [], [], ['zoomers_armory'])
+copy_style_for_items('the_nether_style.json', 'the_nether_style2.json', the_nether_related_items + the_nether_related_items2, priority=9999)
+
+
+undergarden_related_items =  get_item_list(item_registry, ['cloggrum', 'froststeel', 'utherium', 'forgotten', 'jade'], [], [], ['zoomers_armory'])
+copy_style_for_items('undergarden_style.json', 'undergarden_style2.json', undergarden_related_items, priority=9999)
+
+
 end_related_items = get_item_list(item_registry, ['_end',':end_'], [
       "outer_end",
       "endlessbiomes",
@@ -189,20 +216,16 @@ end_related_items = get_item_list(item_registry, ['_end',':end_'], [
       'zoomers_armory',
       'iron_spellbooks'
     ])
-copy_style_for_items('the_end_style.json', 'the_end_style2.json', end_related_items, priority=9998)
+end_related_items2 =  get_item_list(item_registry, ['dragon', 'enderite'], [], [], ['zoomers_armory'])
+copy_style_for_items('the_end_style.json', 'the_end_style2.json', end_related_items + end_related_items2, priority=9998)
+
+depth_related_items =  get_item_list(item_registry, ['soul', 'immemorial'], [], [], ['zoomers_armory'])
+copy_style_for_items('depth_style.json', 'depth_style2.json', depth_related_items, priority=9999)
 
 
 
-abyss_related_items = get_item_list(item_registry, ['fusion', 'aberythe', 'bone', 'ignisithe', 'glacerythe', 'garnite', 'phantom', 'unorithe', 'incorythe', 'abyss_'],[],[],['zoomers_armory'])
+abyss_related_items = get_item_list(item_registry, ['fusion', 'aberythe', 'bone', 'ignisithe', 'glacerythe', 'garnite', 'phantom', 'unorithe', 'incorythe', 'abyss_'],[],[], ['zoomers_armory'])
 copy_style_for_items('the_abyss_style.json', 'the_abyss_style2.json', abyss_related_items, priority=9999)
 
 
 
-
-
-
-
-
-
-# generate_theme_for_mod('theabyss', [(29, 32, 88),(36, 40, 123),(97, 25, 88),(127, 21, 113)], 'the_abyss', 0.7)
-# generate_theme_for_mod('blue_skies', [(99, 16, 137),(50, 17, 141),(22, 121, 141),(183, 65, 26)], 'blue_skies', 0.8)

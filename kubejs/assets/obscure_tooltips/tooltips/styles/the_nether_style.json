@@ -1,0 +1,14 @@
+{
+    "priority": 9999,
+    "panel": "obscure_tooltips:the_nether",
+    "frame": "obscure_tooltips:the_nether",
+    "icon": "obscure_tooltips:the_nether",
+    "effects": [
+        "obscure_tooltips:the_nether"
+    ],
+    "filter": {
+        "mods": [
+            "betternether"
+        ]
+    }
+}
