@@ -6,7 +6,7 @@
         "stacks": [
             {
                 "item": "minecraft:potion",
-                "tag": "{pmmo_tank_potion:1b,CustomPotionColor:16711680,display:{Name:\"{\\\"text\\\":\\\"Tank's Potion - DRINK IMMEDIATELY\\\",\\\"color\\\":\\\"red\\\"}\"}}",
+                "tag": "{pmmo_tank_potion:1b,CustomPotionColor:16711680,display:{Name:\"{\\\"text\\\":\\\"Tank's Potion - DRINK IMMEDIATELY\\\",\\\"color\\\":\\\"red\\\"}\",Lore:[\"{\\\"text\\\":\\\"Sets PMMO Skills to:\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"- Swordsmanship 6\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"- Combat 9\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\"- Endurance 9\\\",\\\"color\\\":\\\"gold\\\"}\",\"{\\\"text\\\":\\\" \\\"}\",\"{\\\"text\\\":\\\"WARNING: Use immediately! Using later may reset existing progress\\\",\\\"color\\\":\\\"red\\\"}\"]}}",
                 "count": 1
             }
         ]
