@@ -1,0 +1,6 @@
+{
+  "type": "origins:replace_loot_table",
+  "replace": {
+    ".*:chest.*": "origins-classes:mage_drops"
+  }
+}

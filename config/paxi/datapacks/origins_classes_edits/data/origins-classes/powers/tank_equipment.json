@@ -1,0 +1,33 @@
+{
+  "loading_priority": 111,
+  "type": "origins:multiple",
+  "equipment": {
+    "type": "origins:starting_equipment",
+    "stacks": [
+      {
+        "item": "create_sa:copper_sword",
+        "amount": 1
+      },
+      {
+        "item": "minecraft:shield",
+        "amount": 1
+      },
+      {
+        "item": "minecraft:iron_helmet",
+        "amount": 1
+      },
+      {
+        "item": "minecraft:iron_chestplate",
+        "amount": 1
+      },
+      {
+        "item": "minecraft:iron_leggings",
+        "amount": 1
+      },
+      {
+        "item": "minecraft:iron_boots",
+        "amount": 1
+      }
+    ]
+  }
+}

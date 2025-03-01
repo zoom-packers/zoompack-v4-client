@@ -1,0 +1,94 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "apoli:replaced_loot_table"
+                }
+            ]
+        },
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "irons_spellbooks:arcane_essence",
+                    "weight": 500
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "irons_spellbooks:blood_vial",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:blaze_rod",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "irons_spellbooks:frozen_bone",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "irons_spellbooks:lightning_bottle",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "irons_spellbooks:divine_pearl",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ender_pearl",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:poisonous_potato",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "irons_spellbooks:common_ink",
+                    "weight": 400
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "irons_spellbooks:uncommon_ink",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "irons_spellbooks:rare_ink",
+                    "weight": 50
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "irons_spellbooks:epic_ink",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "irons_spellbooks:legendary_ink",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:air",
+                    "weight": 6000
+                }
+            ]
+        }
+    ]
+}

@@ -36,7 +36,7 @@ function modifyFullSets() {
     processor.modifySingleItem("aquamirae", "poisoned_blade", "sword", 9);
     processor.modifySingleItem("bakery", "bread_knife", 'sword', 9);
     processor.modifySingleItem("zoomer_bows", "iron_bow", "bow", 9);
-    processor.modifySetRequirements("irons_spellbooks", "wandering_magician", 10, "armor");
+    processor.modifySetRequirements("irons_spellbooks", "wandering_magician", 3, "armor");
     processor.modifySetRequirements("immersive_armors", "slime", 10, "armor");
     processor.modifySetRequirements("immersive_armors", "robe", 10, "armor");
     processor.modifySetRequirements("kobolds", "kobold_iron", 11, "tools");

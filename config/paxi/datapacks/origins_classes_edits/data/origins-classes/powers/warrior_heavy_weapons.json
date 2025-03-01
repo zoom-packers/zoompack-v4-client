@@ -1,0 +1,44 @@
+{
+  "loading_priority": 111,
+  "type": "origins:multiple",
+  "better_dual_handed": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "name": "Origin Modifier",
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "multiply_total",
+      "value": 0.2
+    },
+    "tick_rate": 20,
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "zoompack:dual_handed_weapon"
+        }
+      }
+    }
+  },
+  "slower_dual_handed": {
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "name": "Origin Modifier",
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "multiply_total",
+    "value": -0.2
+  },
+  "tick_rate": 20,
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "tag": "zoompack:dual_handed_weapon"
+      }
+    }
+  }
+}
+}

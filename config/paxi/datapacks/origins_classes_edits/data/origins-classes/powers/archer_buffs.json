@@ -1,0 +1,31 @@
+{
+  "loading_priority": 111,
+  "type": "origins:multiple",
+  "worse_melee": {
+    "type": "origins:attribute",
+    "modifier": {
+      "name": "Origin Modifier",
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "multiply_total",
+      "value": -0.5
+    }
+  },
+  "better_projectile": {
+    "type": "origins:attribute",
+    "modifier": {
+      "name": "Origin Modifier",
+      "attribute": "projectile_damage:generic",
+      "operation": "multiply_total",
+      "value": 0.2
+    }
+  },
+  "worse_magic": {
+    "type": "origins:attribute",
+    "modifier": {
+      "name": "Origin Modifier",
+      "attribute": "irons_spellbooks:spell_power",
+      "operation": "multiply_total",
+      "value": -0.5
+    }
+  }
+}

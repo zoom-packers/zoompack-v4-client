@@ -1,0 +1,37 @@
+{
+  "loading_priority": 111,
+  "type": "origins:multiple",
+  "equipment": {
+    "type": "origins:starting_equipment",
+    "stacks": [
+      {
+        "item": "minecraft:bow",
+        "amount": 1
+      },
+      {
+        "item": "minecraft:arrow",
+        "amount": 64
+      },
+      {
+        "item": "minecraft:arrow",
+        "amount": 64
+      },
+      {
+        "item": "immersive_armors:wooden_helmet",
+        "amount": 1
+      },
+      {
+        "item": "immersive_armors:wooden_chestplate",
+        "amount": 1
+      },
+      {
+        "item": "immersive_armors:wooden_leggings",
+        "amount": 1
+      },
+      {
+        "item": "immersive_armors:wooden_boots",
+        "amount": 1
+      }
+    ]
+  }
+}

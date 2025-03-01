@@ -1,11 +1,12 @@
 {
-  "powers": [
-    "origins-classes:no_projectile_divergence",
-    "origins-classes:less_bow_slowdown",
-    "origins-classes:bow_damage_boost"
-  ],
   "loading_priority": 111,
+  "powers": [
+    "origins-classes:archer_buffs",
+    "origins-classes:less_bow_slowdown",
+    "origins-classes:archer_equipment",
+    "origins-classes:archer_levels"
+  ],
   "icon": "minecraft:bow",
-  "order": 11,
+  "order": 2,
   "impact": 0
 }

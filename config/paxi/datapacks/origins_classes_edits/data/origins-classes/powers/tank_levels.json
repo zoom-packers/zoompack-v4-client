@@ -1,0 +1,47 @@
+{
+    "loading_priority": 111,
+    "type": "origins:multiple",
+    "potion": {
+        "type": "origins:starting_equipment",
+        "stacks": [
+            {
+                "item": "minecraft:potion",
+                "tag": "{pmmo_tank_potion:1b,CustomPotionColor:16711680,display:{Name:\"{\\\"text\\\":\\\"Tank's Potion - DRINK IMMEDIATELY\\\",\\\"color\\\":\\\"red\\\"}\"}}",
+                "count": 1
+            }
+        ]
+    },
+    "swordsmanship": {
+        "type": "origins:action_on_item_use",
+        "item_condition": {
+            "type": "origins:nbt",
+            "nbt": "{pmmo_tank_potion:1b}"
+        },
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "pmmo admin @s set swordsmanship level 6"
+        }
+    },
+    "combat": {
+        "type": "origins:action_on_item_use",
+        "item_condition": {
+            "type": "origins:nbt",
+            "nbt": "{pmmo_tank_potion:1b}"
+        },
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "pmmo admin @s set combat level 9"
+        }
+    },
+    "endurance": {
+        "type": "origins:action_on_item_use",
+        "item_condition": {
+            "type": "origins:nbt",
+            "nbt": "{pmmo_tank_potion:1b}"
+        },
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "pmmo admin @s set endurance level 9"
+        }
+    }
+}

@@ -1,0 +1,95 @@
+{
+  "loading_priority": 111,
+  "type": "origins:multiple",
+  "better_small_melee": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "name": "Origin Modifier",
+      "attribute": "attributeslib:crit_chance",
+      "operation": "addition",
+      "value": 0.33
+    },
+    "tick_rate": 20,
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "zoompack:small_melee_weapon"
+        }
+      }
+    }
+  },
+  "better_small_ranged": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "name": "Origin Modifier",
+      "attribute": "attributeslib:crit_chance",
+      "operation": "addition",
+      "value": 0.33
+    },
+    "tick_rate": 20,
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "zoompack:small_ranged_weapon"
+        }
+      }
+    }
+  },
+  "worse_big_melee": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "name": "Origin Modifier",
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "multiply_total",
+      "value": -0.5
+    },
+    "tick_rate": 20,
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "zoompack:small_melee_weapon"
+        },
+        "inverted": true
+      }
+    }
+  },
+  "worse_big_ranged": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "name": "Origin Modifier",
+      "attribute": "projectile_damage:generic",
+      "operation": "multiply_total",
+      "value": -0.5
+    },
+    "tick_rate": 20,
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "zoompack:small_ranged_weapon"
+        },
+        "inverted": true
+      }
+    }
+  },
+  "worse_magic": {
+    "type": "origins:attribute",
+    "modifier": {
+      "name": "Origin Modifier",
+      "attribute": "irons_spellbooks:spell_power",
+      "operation": "multiply_total",
+      "value": -0.5
+    }
+  }
+}

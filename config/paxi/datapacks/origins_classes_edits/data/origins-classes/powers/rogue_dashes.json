@@ -1,0 +1,22 @@
+{
+  "loading_priority": 111,
+  "type": "origins:multiple",
+  "more_dashes": {
+    "type": "origins:attribute",
+    "modifier": {
+      "name": "Origin Modifier",
+      "attribute": "combatroll:count",
+      "operation": "addition",
+      "value": 1
+    }
+  },
+  "dash_recharge_faster": {
+    "type": "origins:attribute",
+    "modifier": {
+      "name": "Origin Modifier",
+      "attribute": "combatroll:recharge",
+      "operation": "addition",
+      "value": 10
+    }
+  }
+}

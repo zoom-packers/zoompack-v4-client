@@ -1,0 +1,14 @@
+{
+    "loading_priority": 111,
+    "replace": true,
+    "order": 15,
+    "enabled": true,
+    "origins": [
+        "origins-classes:warrior",
+        "origins-classes:archer",
+        "origins-classes:rogue",
+        "origins-classes:mage",
+        "origins-classes:tank",
+        "origins-classes:all_rounder"
+    ]
+}
