@@ -1,0 +1,12 @@
+{
+  "loading_priority": 111,
+  "powers": [
+    "origins-classes:longer_potions",
+    "origins-classes:better_enchanting",
+    "origins-classes:cleric_equipment",
+    "origins-classes:cleric_levels"
+  ],
+  "icon": "minecraft:potion",
+  "order": 7,
+  "impact": 0
+}
