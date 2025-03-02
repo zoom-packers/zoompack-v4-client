@@ -1,0 +1,21 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": false,
+    "exclusion_zone": {
+      "radius": 10,
+      "structures": "#blue_skies:on_poison_maps"
+    },
+    "frequency": 0.75,
+    "offset": 31,
+    "salt": 353125685,
+    "spacing": 34,
+    "structure": "blue_skies:everdawn_blinding_dungeon"
+  },
+  "structures": [
+    {
+      "structure": "blue_skies:everdawn_blinding_dungeon",
+      "weight": 1
+    }
+  ]
+}

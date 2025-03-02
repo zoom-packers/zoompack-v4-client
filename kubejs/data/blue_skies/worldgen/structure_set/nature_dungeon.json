@@ -1,0 +1,17 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": false,
+    "frequency": 0.8,
+    "offset": 33,
+    "salt": 60364478,
+    "spacing": 42,
+    "structure": "blue_skies:nature_dungeon"
+  },
+  "structures": [
+    {
+      "structure": "blue_skies:nature_dungeon",
+      "weight": 1
+    }
+  ]
+}
