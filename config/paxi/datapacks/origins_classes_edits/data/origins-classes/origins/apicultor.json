@@ -1,0 +1,10 @@
+{
+  "loading_priority": 111,
+  "powers": [
+    "origins-classes:friendly_bees",
+    "origins-classes:apicultor_equipment"
+  ],
+  "icon": "minecraft:honeycomb",
+  "order": 99,
+  "impact": 0
+}

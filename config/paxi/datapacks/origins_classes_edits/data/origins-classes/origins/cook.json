@@ -2,7 +2,9 @@
   "loading_priority": 111,
   "powers": [
     "origins-classes:better_crafted_food",
-    "origins-classes:more_smoker_xp"
+    "origins-classes:more_smoker_xp",
+    "origins-classes:cook_equipment",
+    "origins-classes:cook_levels"
   ],
   "icon": "minecraft:rabbit_stew",
   "order": 5,

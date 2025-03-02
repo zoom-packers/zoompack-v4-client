@@ -1,0 +1,14 @@
+{
+  "loading_priority": 111,
+  "type": "origins:multiple",
+  "equipment": {
+    "type": "origins:starting_equipment",
+    "stacks": [
+      {
+        "item": "minecraft:bundle",
+        "amount": 1,
+        "tag": "{Items:[{Count:1b,id:\"minecraft:shears\"},{Count:1b,id:\"easy_mob_farm:insect_net\"},{Count:8b,id:\"minecraft:dandelion\"},{Count:8b,id:\"minecraft:oxeye_daisy\"},{Count:8b,id:\"minecraft:poppy\"},{Count:8b,id:\"minecraft:honeycomb\"},{Count:4b,id:\"minecraft:beehive\"}]}"
+      }
+    ]
+  }
+}

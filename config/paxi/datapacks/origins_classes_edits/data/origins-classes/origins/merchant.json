@@ -1,0 +1,11 @@
+{
+    "loading_priority": 111,
+    "powers": [
+        "origins-classes:trade_availability",
+        "origins-classes:rare_wandering_loot",
+        "origins-classes:merchant_equipment"
+    ],
+    "icon": "minecraft:emerald",
+    "order": 8,
+    "impact": 0
+}

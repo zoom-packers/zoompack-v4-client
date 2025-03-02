@@ -1,7 +1,10 @@
 {
+  "loading_priority": 111,
   "powers": [
     "origins-classes:more_stone_break_speed",
-    "origins-classes:no_mining_exhaustion"
+    "origins-classes:no_mining_exhaustion",
+    "origins-classes:miner_equipment",
+    "origins-classes:miner_levels"
   ],
   "icon": "minecraft:iron_pickaxe",
   "order": 3,

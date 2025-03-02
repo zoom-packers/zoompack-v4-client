@@ -6,7 +6,7 @@
     "layer.origins-classes.playstyle.missing_origin.description": "You do not have a proficiency.",
 
     "power.origins-classes.warrior_buffs.name": "Melee Proficiency",
-    "power.origins-classes.warrior_buffs.description": "Able to use melee weapons proficiently. Can't wield magic to it's full potential. Bows and Crossbows are too intricate for you.",
+    "power.origins-classes.warrior_buffs.description": "Able to use melee weapons proficiently. Can't wield magic to its full potential. Bows and Crossbows are too intricate for you.",
     "power.origins-classes.warrior_equipment.name": "Army Equipment",
     "power.origins-classes.warrior_equipment.description": "Basic Equipment every warrior needs are provided from your army days.",
     "power.origins-classes.warrior_levels.name": "Past Altercations",
@@ -34,12 +34,12 @@
 
 
     "origin.origins-classes.rogue.name": "Rogue",
-    "origin.origins-classes.rogue.description": "Fast and nible, you zoom around the battlefield.",
+    "origin.origins-classes.rogue.description": "Fast and nimble, you zoom around the battlefield.",
     "power.origins-classes.rogue_buffs.name": "Critical Criticality",
     "power.origins-classes.rogue_buffs.description": "Your critical chance is increased when using small melee (daggers, claws, sais) or ranged weapons (shortbows). Any other weapons will be debuffed. Magic is not your cup of tea either.",
     "power.origins-classes.rogue_equipment.name": "Sneaky Clothing",
     "power.origins-classes.rogue_equipment.description": "You're starting out with some light armor and two daggers. Management is not responsible for any injuries.",
-    "power.origins-classes.rogue_levels.name": "Theives Guild Initiation",
+    "power.origins-classes.rogue_levels.name": "Thieves Guild Initiation",
     "power.origins-classes.rogue_levels.description": "You'll be granted a potion that will set your initial levels. Use it immediately to kickstart your journey! Or don't, you do you...",
     "power.origins-classes.rogue_dashes.name": "Zooming is my Middle Name",
     "power.origins-classes.rogue_dashes.description": "Your agility is unmatched. You have 2 dashes that recharge quicker than others.",
@@ -60,5 +60,52 @@
     "power.origins-classes.all_rounder_equipment.name": "Basic Supplies",
     "power.origins-classes.all_rounder_equipment.description": "You're starting out with some basic supplies. Nothing too fancy, but it'll get you started.",
     "power.origins-classes.all_rounder_levels.name": "The Beginning",
-    "power.origins-classes.all_rounder_levels.description": "You'll be granted a potion that will set your initial levels. Use it immediately to kickstart your journey! Or don't, you do you..."
+    "power.origins-classes.all_rounder_levels.description": "You'll be granted a potion that will set your initial levels. Use it immediately to kickstart your journey! Or don't, you do you...",
+
+    "power.origins-classes.blacksmith_equipment.name": "Blacksmith Equipment",
+    "power.origins-classes.blacksmith_equipment.description": "Starting equipment for a blacksmith, including an anvil to forge your creations.",
+    "power.origins-classes.blacksmith_levels.name": "Blacksmith's Mastery",
+    "power.origins-classes.blacksmith_levels.description": "You'll be granted a potion that will set your initial levels. Use it immediately to kickstart your journey! Or don't, you do you...",
+    
+    "power.origins-classes.cleric_equipment.name": "Cleric Equipment",
+    "power.origins-classes.cleric_equipment.description": "Essential supplies for a cleric, including a bundle filled with potion ingredients.",
+    "power.origins-classes.cleric_levels.name": "Cleric's Blessing",
+    "power.origins-classes.cleric_levels.description": "You'll be granted a potion that will set your initial levels. Use it immediately to kickstart your journey! Or don't, you do you...",
+    
+    "power.origins-classes.cook_equipment.name": "Cook's Equipment",
+    "power.origins-classes.cook_equipment.description": "Starting supplies for a cook, including a smoker and various meats.",
+    "power.origins-classes.cook_levels.name": "Culinary Expertise",
+    "power.origins-classes.cook_levels.description": "You'll be granted a potion that will set your initial levels. Use it immediately to kickstart your journey! Or don't, you do you...",
+    
+    "power.origins-classes.farmer_equipment.name": "Farmer's Equipment",
+    "power.origins-classes.farmer_equipment.description": "Starting tools for a farmer, including seeds and a copper hoe.",
+    "power.origins-classes.farmer_levels.name": "Agricultural Wisdom",
+    "power.origins-classes.farmer_levels.description": "You'll be granted a potion that will set your initial levels. Use it immediately to kickstart your journey! Or don't, you do you...",
+
+    "power.origins-classes.lumberjack_equipment.name": "Lumberjack Equipment",
+    "power.origins-classes.lumberjack_equipment.description": "Starting equipment for a lumberjack, including a copper axe.",
+    "power.origins-classes.lumberjack_levels.name": "Lumberjack's Hard Work",
+    "power.origins-classes.lumberjack_levels.description": "You'll be granted a potion that will set your initial levels. Use it immediately to kickstart your journey! Or don't, you do you...",
+
+    "power.origins-classes.merchant_equipment.name": "Merchant Equipment",
+    "power.origins-classes.merchant_equipment.description": "Starting equipment for a merchant, including a bundle filled with emeralds. Not to the brim though.",
+    "power.origins-classes.merchant_levels.name": "Merchant's Charm",
+    "power.origins-classes.merchant_levels.description": "You'll be granted a potion that will set your initial levels. Use it immediately to kickstart your journey! Or don't, you do you...",
+
+    "power.origins-classes.miner_equipment.name": "Miner Equipment",
+    "power.origins-classes.miner_equipment.description": "Starting equipment for a miner, including a copper pickaxe.",
+    "power.origins-classes.miner_levels.name": "Miner's Dedication",
+    "power.origins-classes.miner_levels.description": "You'll be granted a potion that will set your initial levels. Use it immediately to kickstart your journey! Or don't, you do you...",
+
+    "power.origins-classes.rancher_equipment.name": "Rancher Equipment",
+    "power.origins-classes.rancher_equipment.description": "Starting equipment for a rancher, including leads for animals.",
+    "power.origins-classes.rancher_levels.name": "Rancher's Resilience",
+    "power.origins-classes.rancher_levels.description": "You'll be granted a potion that will set your initial levels. Use it immediately to kickstart your journey! Or don't, you do you...",
+
+    "origin.origins-classes.apicultor.name": "Apicultor",
+    "origin.origins-classes.apicultor.description": "You've grown up around bees, and you know how to handle them.",
+    "power.origins-classes.friendly_bees.name": "Friendly Bees",
+    "power.origins-classes.friendly_bees.description": "Whenever you collect honey or honeycombs from a beehive, the bees won't be mad at you.",
+    "power.origins-classes.apicultor_equipment.name": "Apicultor Appliances",
+    "power.origins-classes.apicultor_equipment.description": "You're starting out with a bundle filled with some hives, shears, an insect net, and some flowers."
 }

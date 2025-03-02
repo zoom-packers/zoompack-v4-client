@@ -1,0 +1,13 @@
+{
+  "loading_priority": 111,
+  "type": "origins:multiple",
+  "equipment": {
+    "type": "origins:starting_equipment",
+    "stacks": [
+      {
+        "item": "create_sa:copper_axe",
+        "amount": 1
+      }
+    ]
+  }
+}

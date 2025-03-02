@@ -1,0 +1,14 @@
+{
+  "loading_priority": 111,
+  "type": "origins:multiple",
+  "equipment": {
+    "type": "origins:starting_equipment",
+    "stacks": [
+      {
+        "item": "minecraft:bundle",
+        "amount": 1,
+        "tag": "{Items:[{Count:4b,id:\"aquaculture:jellyfish\",tag:{}},{Count:6b,id:\"minecraft:blaze_powder\",tag:{}},{Count:1b,id:\"minecraft:brewing_stand\"},{Count:4b,id:\"minecraft:fermented_spider_eye\",tag:{}},{Count:4b,id:\"minecraft:glistering_melon_slice\",tag:{}},{Count:4b,id:\"minecraft:sugar\",tag:{}},{Count:8b,id:\"minecraft:redstone\"},{Count:16b,id:\"minecraft:glass_bottle\",tag:{}},{Count:8b,id:\"minecraft:soul_sand\"},{Count:8b,id:\"minecraft:nether_wart\"},{Count:1b,id:\"minecraft:cauldron\"}]}"
+      }
+    ]
+  }
+}

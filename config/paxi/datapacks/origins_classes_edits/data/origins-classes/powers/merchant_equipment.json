@@ -1,0 +1,14 @@
+{
+  "loading_priority": 111,
+  "type": "origins:multiple",
+  "equipment": {
+    "type": "origins:starting_equipment",
+    "stacks": [
+      {
+        "item": "minecraft:bundle",
+        "amount": 1,
+        "tag": "{Items:[{Count:32b,id:\"minecraft:emerald\",tag:{}}]}"
+      }
+    ]
+  }
+}
