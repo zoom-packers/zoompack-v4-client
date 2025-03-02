@@ -189,10 +189,12 @@ def get_item_list(item_registry, matches, mods_to_skip=[], no_matches=[],  mods_
     return list(set(selected_items))
 
 
-generate_theme_for_mod('betternether', [(191, 143, 0),(139, 0, 0),(0, 0, 0),(64, 64, 64)], 'the_nether', 0.5)
+# generate_theme_for_mod('betternether', [(191, 143, 0),(139, 0, 0),(0, 0, 0),(64, 64, 64)], 'the_nether', 0.5)
 # generate_theme_for_mod('theabyss', [(29, 32, 88),(36, 40, 123),(97, 25, 88),(127, 21, 113)], 'the_abyss', 0.7)
 # generate_theme_for_mod('blue_skies', [(99, 16, 137),(50, 17, 141),(22, 121, 141),(183, 65, 26)], 'blue_skies', 0.8)
 
+blue_skies_related_items =  get_item_list(item_registry, ['pyrope', 'aquite', 'diopside', 'charoite', 'horizonite'], [], [], ['zoomers_armory'])
+copy_style_for_items('blue_skies_style.json', 'blue_skies_style2.json', blue_skies_related_items, priority=9999)
 
 
 
@@ -200,7 +202,8 @@ generate_theme_for_mod('betternether', [(191, 143, 0),(139, 0, 0),(0, 0, 0),(64,
 
 the_nether_related_items = get_item_list(item_registry, ['nether', 'cincinnasite'])
 the_nether_related_items2 = get_item_list(item_registry, ['cincinnasite', 'nether_ruby', 'flaming_ruby', 'netherite'], [], [], ['zoomers_armory'])
-copy_style_for_items('the_nether_style.json', 'the_nether_style2.json', the_nether_related_items + the_nether_related_items2, priority=9999)
+the_nether_related_items3 = get_item_list(item_registry, ['abyssal', 'whisper_of_the_abyss', 'divider'], [],['amethyst'],['aquamirae'])
+copy_style_for_items('the_nether_style.json', 'the_nether_style2.json', the_nether_related_items + the_nether_related_items2 + the_nether_related_items3, priority=9999)
 
 
 undergarden_related_items =  get_item_list(item_registry, ['cloggrum', 'froststeel', 'utherium', 'forgotten', 'jade'], [], [], ['zoomers_armory'])
