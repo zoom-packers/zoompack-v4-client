@@ -1,5 +1,5 @@
 {
-  "exportZipName": "Zoompack 4 - FULL Version v2.0.3.zip",
+  "exportZipName": "Zoompack 4 - FULL Version v2.0.4.zip",
   "includes": [
     "../config",
     "../defaultconfigs",
@@ -8,8 +8,7 @@
     "../shaderpacks",
     "../icon.png",
     "../options.txt",
-    "../servers.dat",
-    "../nutritionalbalance.data"
+    "../servers.dat"
   ],
   "datapackPath": "../config/paxi/datapacks",
   "resourcepackPath": "../config/paxi/resourcepacks",
