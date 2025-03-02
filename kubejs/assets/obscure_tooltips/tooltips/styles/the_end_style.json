@@ -1,18 +1,17 @@
 {
-  "priority": 9999,
-  "panel": "obscure_tooltips:the_end",
-  "frame": "obscure_tooltips:the_end",
-  "icon": "obscure_tooltips:the_end",
-  "effects": [
-    "obscure_tooltips:the_end"
-  ],
-  "filter": {
-    "mods": [
-      "outer_end",
-      "endlessbiomes",
-      "phantasm",
-      "ender_dragon_loot_",
-      "enderitemod"
-    ]
-  }
+    "priority": 9999,
+    "panel": "obscure_tooltips:the_end",
+    "frame": "obscure_tooltips:the_end",
+    "effects": [
+        "obscure_tooltips:the_end"
+    ],
+    "filter": {
+        "mods": [
+            "outer_end",
+            "endlessbiomes",
+            "phantasm",
+            "ender_dragon_loot_",
+            "enderitemod"
+        ]
+    }
 }

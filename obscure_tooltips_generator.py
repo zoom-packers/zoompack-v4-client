@@ -189,10 +189,33 @@ def get_item_list(item_registry, matches, mods_to_skip=[], no_matches=[],  mods_
     return list(set(selected_items))
 
 
+def remove_style_features(style_file, keys_to_remove = []):
+    style_path = f'{styles_path}/{style_file}'
+    style_content = {}
+
+    with open(style_path, 'r') as file:
+        style_content = json.loads(file.read())
+
+    for key_to_remove in keys_to_remove:
+        if key_to_remove in style_content:
+            style_content.pop(key_to_remove)
+
+    with open(style_path, 'w+') as file:
+        file.write(json.dumps(style_content, indent=4))
+    
+
+
 # generate_theme_for_mod('blue_skies', [(99, 16, 137),(50, 17, 141),(22, 121, 141),(183, 65, 26)], 'blue_skies', 0.8)
 # generate_theme_for_mod('aether', [(161, 123, 58),(79, 97, 171),(255, 215, 0),(128, 0, 128)], 'the_aether', 0.8)
 # generate_theme_for_mod('betternether', [(191, 143, 0),(139, 0, 0),(0, 0, 0),(64, 64, 64)], 'the_nether', 0.5)
 # generate_theme_for_mod('theabyss', [(29, 32, 88),(36, 40, 123),(97, 25, 88),(127, 21, 113)], 'the_abyss', 0.7)
+
+remove_style_features('blue_skies_style.json',keys_to_remove=['effects', 'icon', 'panel'])
+remove_style_features('the_aether_style.json',keys_to_remove=['icon', 'panel'])
+remove_style_features('the_nether_style.json',keys_to_remove=['icon', 'panel'])
+remove_style_features('undergarden_style.json',keys_to_remove=['icon'])
+remove_style_features('the_end_style.json',keys_to_remove=['icon'])
+
 
 blue_skies_related_items =  get_item_list(item_registry, ['pyrope', 'aquite', 'diopside', 'charoite', 'horizonite'], [], [], ['zoomers_armory'])
 copy_style_for_items('blue_skies_style.json', 'blue_skies_style2.json', blue_skies_related_items, priority=9999)
@@ -233,6 +256,9 @@ copy_style_for_items('depth_style.json', 'depth_style2.json', depth_related_item
 
 abyss_related_items = get_item_list(item_registry, ['fusion', 'aberythe', 'bone', 'ignisithe', 'glacerythe', 'garnite', 'phantom', 'unorithe', 'incorythe', 'abyss_'],[],[], ['zoomers_armory'])
 copy_style_for_items('the_abyss_style.json', 'the_abyss_style2.json', abyss_related_items, priority=9999)
+
+
+
 
 
 

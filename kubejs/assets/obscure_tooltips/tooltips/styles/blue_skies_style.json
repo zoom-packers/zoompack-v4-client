@@ -1,11 +1,6 @@
 {
     "priority": 9999,
-    "panel": "obscure_tooltips:blue_skies",
     "frame": "obscure_tooltips:blue_skies",
-    "icon": "obscure_tooltips:blue_skies",
-    "effects": [
-        "obscure_tooltips:blue_skies"
-    ],
     "filter": {
         "mods": [
             "blue_skies"
