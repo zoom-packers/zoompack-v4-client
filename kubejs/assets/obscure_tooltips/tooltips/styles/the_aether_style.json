@@ -1,0 +1,14 @@
+{
+    "priority": 9999,
+    "panel": "obscure_tooltips:the_aether",
+    "frame": "obscure_tooltips:the_aether",
+    "icon": "obscure_tooltips:the_aether",
+    "effects": [
+        "obscure_tooltips:the_aether"
+    ],
+    "filter": {
+        "mods": [
+            "aether"
+        ]
+    }
+}

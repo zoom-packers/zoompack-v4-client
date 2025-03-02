@@ -87,7 +87,7 @@ def generate_json_content(colors):
         "panels.json": panels
     }
 
-def generate_style_file(file_name, mod_id):
+def generate_style_file(file_name, mod_id, mods=[]):
     return {
         "priority": 9999,
         "panel": f"obscure_tooltips:{file_name}",
@@ -189,15 +189,19 @@ def get_item_list(item_registry, matches, mods_to_skip=[], no_matches=[],  mods_
     return list(set(selected_items))
 
 
+# generate_theme_for_mod('blue_skies', [(99, 16, 137),(50, 17, 141),(22, 121, 141),(183, 65, 26)], 'blue_skies', 0.8)
+# generate_theme_for_mod('aether', [(161, 123, 58),(79, 97, 171),(255, 215, 0),(128, 0, 128)], 'the_aether', 0.8)
 # generate_theme_for_mod('betternether', [(191, 143, 0),(139, 0, 0),(0, 0, 0),(64, 64, 64)], 'the_nether', 0.5)
 # generate_theme_for_mod('theabyss', [(29, 32, 88),(36, 40, 123),(97, 25, 88),(127, 21, 113)], 'the_abyss', 0.7)
-# generate_theme_for_mod('blue_skies', [(99, 16, 137),(50, 17, 141),(22, 121, 141),(183, 65, 26)], 'blue_skies', 0.8)
 
 blue_skies_related_items =  get_item_list(item_registry, ['pyrope', 'aquite', 'diopside', 'charoite', 'horizonite'], [], [], ['zoomers_armory'])
 copy_style_for_items('blue_skies_style.json', 'blue_skies_style2.json', blue_skies_related_items, priority=9999)
 
 
 
+aeter_related_items =  get_item_list(item_registry, ['zanite', 'neptune', 'gravitite', 'valkyrie', 'phoenix', 'obsidian'], [], [], ['zoomers_armory'])
+aeter_related_items2 = get_item_list(item_registry,['aether'],[],[],['lost_aether_content', 'aether_protect_your_moa', 'aetherdelight'])
+copy_style_for_items('the_aether_style.json', 'the_aether_style2.json', aeter_related_items + aeter_related_items2, priority=9999)
 
 
 the_nether_related_items = get_item_list(item_registry, ['nether', 'cincinnasite'])
