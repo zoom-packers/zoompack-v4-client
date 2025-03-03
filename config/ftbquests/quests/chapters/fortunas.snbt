@@ -61,6 +61,11 @@
 			y: -2.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "fortunas_anvil:rare_catalyst"
+				tag: { }
+			}
 			id: "5BC572E42DDBD2E5"
 			rewards: [
 				{
@@ -107,6 +112,11 @@
 			y: -3.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "fortunas_anvil:uncommon_catalyst"
+				tag: { }
+			}
 			id: "62A674FFE52F4C7A"
 			rewards: [{
 				id: "54E36437E1B1A109"
@@ -141,6 +151,11 @@
 			y: -2.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "fortunas_anvil:common_catalyst"
+				tag: { }
+			}
 			id: "1C0AC8759554C672"
 			rewards: [{
 				id: "15A4B0E4CB19F431"
@@ -175,6 +190,11 @@
 			y: -1.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "fortunas_anvil:common_material"
+				tag: { }
+			}
 			id: "0B2D4E14F259EC16"
 			rewards: [{
 				id: "3511FC400BCF8EDC"
@@ -209,6 +229,11 @@
 			y: -1.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "fortunas_anvil:uncommon_material"
+				tag: { }
+			}
 			id: "75F6E1D0701F1DDA"
 			rewards: [{
 				id: "1492F9EFAFEC10B5"
@@ -243,6 +268,11 @@
 			y: -2.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "fortunas_anvil:rare_material"
+				tag: { }
+			}
 			id: "25273163713CA246"
 			rewards: [
 				{
@@ -289,6 +319,11 @@
 			y: -3.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "fortunas_anvil:epic_material"
+				tag: { }
+			}
 			id: "2370DD3D2CF8EF77"
 			rewards: [
 				{
@@ -335,6 +370,11 @@
 			y: -4.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "fortunas_anvil:legendary_material"
+				tag: { }
+			}
 			id: "3557E1904BE380CE"
 			rewards: [
 				{
@@ -381,6 +421,11 @@
 			y: -5.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "fortunas_anvil:mythic_material"
+				tag: { }
+			}
 			id: "2681A295DE3182F8"
 			rewards: [
 				{
@@ -427,6 +472,11 @@
 			y: -6.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "fortunas_anvil:ascended_material"
+				tag: { }
+			}
 			id: "4FE2350D53000D45"
 			rewards: [
 				{
@@ -473,6 +523,11 @@
 			y: -7.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "fortunas_anvil:epic_catalyst"
+				tag: { }
+			}
 			id: "30220C17917B936B"
 			rewards: [
 				{
@@ -519,6 +574,11 @@
 			y: -4.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "fortunas_anvil:legendary_catalyst"
+				tag: { }
+			}
 			id: "2C01310FB87D74BB"
 			rewards: [
 				{
@@ -565,6 +625,11 @@
 			y: -5.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "fortunas_anvil:mythic_catalyst"
+				tag: { }
+			}
 			id: "63AB2F1D38154822"
 			rewards: [
 				{
@@ -611,6 +676,11 @@
 			y: -6.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "fortunas_anvil:ascended_catalyst"
+				tag: { }
+			}
 			id: "1DF9D76FAAE6ADEE"
 			rewards: [
 				{

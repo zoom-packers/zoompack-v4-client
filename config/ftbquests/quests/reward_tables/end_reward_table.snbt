@@ -9,6 +9,30 @@
 	id: "3D9CCC44F814EF67"
 	loot_size: 1
 	order_index: 36
-	rewards: [ ]
+	rewards: [
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "ender_dragon_loot_:dragon_scale"
+				tag: { }
+			}
+			weight: 0.0f
+		}
+		{
+			count: 5
+			item: {
+				Count: 1
+				id: "phantasm:crystal_shard"
+				tag: { }
+			}
+			random_bonus: 10
+		}
+		{
+			type: "xp_levels"
+			weight: 0.0f
+			xp_levels: 3
+		}
+	]
 	title: "End reward table"
 }

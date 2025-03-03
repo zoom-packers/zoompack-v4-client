@@ -19,88 +19,88 @@
 			image: "minecraft:block/nether_wart_stage2_2"
 			rotation: 0.0d
 			width: 3.0d
-			x: 7.0d
-			y: 10.0d
+			x: 6.821428571428569d
+			y: 9.78571428571427d
 		}
 		{
 			height: 3.0d
 			image: "minecraft:block/nether_wart_stage2_2"
 			rotation: 0.0d
 			width: 3.0d
-			x: 4.0d
-			y: 10.0d
+			x: 3.6785714285714306d
+			y: 9.78571428571427d
 		}
 		{
 			height: 3.0d
 			image: "minecraft:block/nether_wart_stage2_2"
 			rotation: 0.0d
 			width: 3.0d
-			x: -3.0d
-			y: 10.0d
+			x: -2.892857142857139d
+			y: 9.78571428571427d
 		}
 		{
 			height: 3.0d
 			image: "minecraft:block/nether_wart_stage2_2"
 			rotation: 0.0d
 			width: 3.0d
-			x: -7.0d
-			y: 10.0d
+			x: -7.392857142857146d
+			y: 9.78571428571427d
 		}
 		{
 			height: 3.0d
 			image: "minecraft:block/nether_wart_stage2_2"
 			rotation: 0.0d
 			width: 3.0d
-			x: 0.5d
-			y: 10.0d
+			x: 0.5357142857142918d
+			y: 9.78571428571427d
 		}
 		{
 			height: 3.0d
 			image: "nethersdelight:block/propelplant_berry_cane_berry"
 			rotation: 0.0d
 			width: 3.0d
-			x: -5.0d
-			y: 5.0d
+			x: -5.178571428571431d
+			y: 4.642857142857125d
 		}
 		{
 			height: 3.0d
 			image: "nethersdelight:block/propelplant_cane"
 			rotation: 0.0d
 			width: 3.0d
-			x: -5.0d
-			y: 10.0d
+			x: -5.178571428571431d
+			y: 9.78571428571427d
 		}
 		{
 			height: 3.0d
 			image: "nethersdelight:block/propelplant_cane"
 			rotation: 0.0d
 			width: 3.0d
-			x: -5.0d
-			y: 7.5d
+			x: -5.178571428571431d
+			y: 7.214285714285694d
 		}
 		{
 			height: 3.0d
 			image: "nethersdelight:block/propelplant_cane"
 			rotation: 0.0d
 			width: 3.0d
-			x: 6.0d
-			y: 7.5d
+			x: 5.464285714285708d
+			y: 7.285714285714278d
 		}
 		{
 			height: 3.0d
 			image: "nethersdelight:block/propelplant_cane"
 			rotation: 0.0d
 			width: 3.0d
-			x: 6.0d
-			y: 10.0d
+			x: 5.464285714285708d
+			y: 9.78571428571427d
 		}
 		{
 			height: 3.0d
 			image: "nethersdelight:block/propelplant_berry_cane_berry"
 			rotation: 0.0d
 			width: 3.0d
-			x: 6.0d
-			y: 5.5d
+			x: 5.464285714285708d
+			y: 4.714285714285694d
 		}
 		{
 			height: 3.0d
@@ -155,8 +155,8 @@
 			image: "betternether:item/golden_vine"
 			rotation: 0.0d
 			width: 3.0d
-			x: -3.0d
-			y: -5.0d
+			x: -5.60714285714284d
+			y: -0.892857142857153d
 		}
 		{
 			height: 3.0d
@@ -238,6 +238,70 @@
 			x: -17.5d
 			y: 19.5d
 		}
+		{
+			height: 3.0d
+			image: "undergarden:block/ink_mushroom"
+			rotation: 0.0d
+			width: 3.0d
+			x: -1.1785714285714306d
+			y: 9.78571428571427d
+		}
+		{
+			height: 4.0d
+			image: "undergarden:block/blood_mushroom"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.107142857142861d
+			y: 9.35714285714284d
+		}
+		{
+			height: 3.0d
+			image: "biomesoplenty:block/glowshroom"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.75d
+			y: 9.78571428571427d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/golden_lumabus_sapling"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.535714285714306d
+			y: -4.750000000000014d
+		}
+		{
+			height: 3.0d
+			image: "betternether:block/golden_lumabus_sapling"
+			rotation: 0.0d
+			width: 3.0d
+			x: -3.60714285714284d
+			y: -4.750000000000014d
+		}
+		{
+			height: 3.0d
+			image: "betternether:item/golden_vine"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "theabyss:item/phantom_lantern"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.7499999999999858d
+			y: -2.750000000000014d
+		}
+		{
+			height: 3.0d
+			image: "aether_redux:item/misc/veridium_chain"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.607142857142847d
+			y: -4.89285714285716d
+		}
 	]
 	order_index: 3
 	quest_links: [ ]
@@ -252,6 +316,7 @@
 				table_id: 1610080839990707444L
 				type: "choice"
 			}]
+			size: 1.5d
 			subtitle: "Get yo ass in the nether"
 			tasks: [{
 				dimension: "minecraft:the_nether"
@@ -273,36 +338,60 @@
 					xp_levels: 2
 				}
 				{
-					count: 6
-					id: "6B08CDF95365981C"
-					item: "minecraft:glowstone"
+					count: 4
+					id: "18C608650C9BF4A3"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_scrap"
+						tag: { }
+					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "6AB64F0861C1AF09"
+					table_id: 228074029458712624L
+					type: "loot"
+				}
 			]
-			subtitle: "Gloweee"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Quest consumes Task items"
 			tasks: [{
-				count: 20L
+				consume_items: true
+				count: 128L
 				id: "13F92840130CE5D2"
 				item: "minecraft:glowstone_dust"
 				type: "item"
 			}]
 			title: "First things first"
-			x: 3.0d
-			y: 0.5d
+			x: 3.297619047619037d
+			y: -1.08333333333335d
 		}
 		{
 			dependencies: ["31EDA7FF103CFD88"]
 			description: ["&7Blaze Rods, the fiery cores of Blazes, are crucial for potion-making and brewing. Your task is to venture into a Nether Fortress, defeat Blazes, and collect 10 Blaze Rods. Prepare for a heated battle as you brave the Nether’s inferno to secure these essential ingredients."]
 			id: "4C53C2947307307E"
-			rewards: [{
-				id: "7BAE5325D58B1FD4"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			subtitle: "Could fit somewhere..."
+			rewards: [
+				{
+					id: "7BAE5325D58B1FD4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "545440FED6E3A67E"
+					table_id: 228074029458712624L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Quest consumes Task item"
 			tasks: [
 				{
-					count: 4L
+					consume_items: true
+					count: 20L
 					id: "381FC962632C9047"
 					item: "minecraft:blaze_rod"
 					type: "item"
@@ -311,26 +400,36 @@
 					entity: "minecraft:blaze"
 					id: "00F4F3AA356576E7"
 					type: "kill"
-					value: 4L
+					value: 35L
 				}
 			]
 			title: "Blazing Fury"
-			x: 3.5d
-			y: 2.5d
+			x: 4.535714285714278d
+			y: 2.869047619047606d
 		}
 		{
 			dependencies: ["31EDA7FF103CFD88"]
 			description: ["&7Magma Cream, a fiery substance derived from Magma Cubes, is vital for crafting potions and other powerful items. Venture into the blazing depths of the Nether to defeat Magma Cubes and collect 10 Magma Cream. Brace yourself for the intense heat and dangerous mobs as you gather this essential ingredient."]
 			id: "30ADB5594E103B55"
-			rewards: [{
-				id: "4433A798CBF93157"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "4433A798CBF93157"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7700A06C4BC3DA82"
+					table_id: 228074029458712624L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Works in cakes too"
 			tasks: [
 				{
-					count: 4L
+					count: 10L
 					id: "38CC6072D51FB7BD"
 					item: "minecraft:magma_cream"
 					type: "item"
@@ -339,12 +438,12 @@
 					entity: "minecraft:magma_cube"
 					id: "1CB42E5A64707081"
 					type: "kill"
-					value: 4L
+					value: 10L
 				}
 			]
 			title: "Ze crem de la crem"
-			x: 3.5d
-			y: 1.5d
+			x: 4.630952380952365d
+			y: 0.9166666666666501d
 		}
 		{
 			dependencies: ["31EDA7FF103CFD88"]
@@ -367,7 +466,15 @@
 					item: "minecraft:obsidian"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "6BAED39C475E416C"
+					table_id: 228074029458712624L
+					type: "loot"
+				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Everyones favorite resource"
 			tasks: [{
 				count: 4L
@@ -376,8 +483,8 @@
 				type: "item"
 			}]
 			title: "Netherite Pursuit"
-			x: -2.0d
-			y: 3.5d
+			x: -2.607142857142861d
+			y: 3.10714285714284d
 		}
 		{
 			dependencies: ["3C827F99DFFB320F"]
@@ -396,6 +503,8 @@
 					type: "loot"
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "V12"
 			tasks: [{
 				id: "060A59CC0B7D790D"
@@ -403,8 +512,8 @@
 				type: "item"
 			}]
 			title: "GAS GAS GAS!"
-			x: -2.5d
-			y: 5.0d
+			x: -3.035714285714292d
+			y: 6.011904761904745d
 		}
 		{
 			dependencies: ["3C827F99DFFB320F"]
@@ -454,6 +563,8 @@
 					type: "loot"
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Bone to pick"
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
@@ -462,8 +573,8 @@
 				value: 25L
 			}]
 			title: "Tedious"
-			x: -0.5d
-			y: 4.5d
+			x: -1.0357142857142918d
+			y: 4.440476190476183d
 		}
 		{
 			dependencies: ["20276551923E1F32"]
@@ -512,19 +623,21 @@
 					type: "loot"
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Bad lil piggy"
 			tasks: [
 				{
 					entity: "minecraft:piglin_brute"
 					id: "6CCFF72AEEF398C9"
 					type: "kill"
-					value: 5L
+					value: 15L
 				}
 				{
 					entity: "minecraft:piglin"
 					id: "088A35EE251EA8C0"
 					type: "kill"
-					value: 15L
+					value: 30L
 				}
 				{
 					advancement: "minecraft:nether/loot_bastion"
@@ -534,8 +647,8 @@
 				}
 			]
 			title: "Bastion’s Bane"
-			x: -2.0d
-			y: 0.5d
+			x: -1.797619047619051d
+			y: -0.6547619047619193d
 		}
 		{
 			dependencies: ["3D603CE1A04E774C"]
@@ -554,6 +667,8 @@
 					type: "loot"
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Gonna need some diamonds..."
 			tasks: [{
 				id: "62087326933C683A"
@@ -561,19 +676,29 @@
 				type: "item"
 			}]
 			title: "Upgrades people! upgrades..."
-			x: -4.0d
-			y: 1.0d
+			x: -3.750000000000007d
+			y: 0.1547619047618909d
 		}
 		{
 			dependencies: ["31EDA7FF103CFD88"]
 			description: ["&7Ghasts are the floating terrors of the Nether. Hunt down and slay a Ghast to collect its ghastly tear. Your success will aid in crafting powerful potions and gear."]
 			id: "19BF334A8B854D86"
-			rewards: [{
-				id: "2DFD2D0EA44A700B"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			subtitle: "The tears taste sweet"
+			rewards: [
+				{
+					id: "2DFD2D0EA44A700B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "543549907EE8C221"
+					table_id: 228074029458712624L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Quest consumes Task item"
 			tasks: [
 				{
 					count: 5L
@@ -585,12 +710,12 @@
 					entity: "minecraft:ghast"
 					id: "54C34DD58FFECA29"
 					type: "kill"
-					value: 1L
+					value: 5L
 				}
 			]
 			title: "Ghastly Encounter"
-			x: 3.0d
-			y: 3.5d
+			x: 3.154761904761884d
+			y: 4.345238095238081d
 		}
 		{
 			dependencies: ["31EDA7FF103CFD88"]
@@ -601,8 +726,8 @@
 				item: "theabyss:crimson_crystal_ore"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.0d
+			x: 1.5357142857142776d
+			y: 4.916666666666657d
 		}
 		{
 			dependencies: ["31EDA7FF103CFD88"]
@@ -613,8 +738,8 @@
 				item: "theabyss:warped_crystal_ore"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.5d
+			x: 0.3452380952380878d
+			y: 5.202380952380935d
 		}
 		{
 			dependencies: ["31EDA7FF103CFD88"]
@@ -627,22 +752,25 @@
 					xp_levels: 2
 				}
 				{
-					count: 16
-					id: "4D67F025C491387F"
-					item: "minecraft:quartz"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "73A648A1E841E12E"
+					table_id: 228074029458712624L
+					type: "loot"
 				}
 			]
-			subtitle: "White substance"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Quest Consumes task item"
 			tasks: [{
-				count: 20L
+				consume_items: true
+				count: 128L
 				id: "2E5C19EE06871818"
 				item: "minecraft:quartz"
 				type: "item"
 			}]
 			title: "Quartz is life"
-			x: 2.0d
-			y: -1.5d
+			x: 1.7738095238095184d
+			y: -2.3690476190476346d
 		}
 	]
 	title: "Nether"

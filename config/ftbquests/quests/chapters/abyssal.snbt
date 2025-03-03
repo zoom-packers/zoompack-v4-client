@@ -6,12 +6,12 @@
 	icon: "theabyss:eye_of_abyss"
 	id: "4E57F70FEB4CECB2"
 	images: [{
-		height: 70.0d
+		height: 53.7890625d
 		image: "vahmas_creator_pack:textures/gui/pano4_aby.png"
 		rotation: 0.0d
-		width: 130.1379811183733d
-		x: 1.5d
-		y: 1.5d
+		width: 100.0d
+		x: 0.0d
+		y: 0.0d
 	}]
 	order_index: 7
 	quest_links: [ ]
@@ -39,6 +39,8 @@
 					type: "choice"
 				}
 			]
+			shape: "gear"
+			size: 1.5d
 			subtitle: "Take a good look at the abyss"
 			tasks: [{
 				dimension: "theabyss:the_abyss"
@@ -47,7 +49,7 @@
 			}]
 			title: "It stares back..."
 			x: 1.0d
-			y: 0.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["66A4C5E4A2DCED88"]
@@ -57,13 +59,14 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "7EE16BFA70D83FC8"
 				item: "theabyss:fusion_ore"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.5d
+			x: -2.25d
+			y: -6.0d
 		}
 		{
 			dependencies: ["66A4C5E4A2DCED88"]
@@ -74,13 +77,14 @@
 				table_id: 9128693189845719534L
 				type: "loot"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "045A623851DE39E0"
 				item: "theabyss:aberythe_gem"
 				type: "item"
 			}]
 			x: -1.5d
-			y: -2.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["66A4C5E4A2DCED88"]
@@ -91,13 +95,14 @@
 				table_id: 9128693189845719534L
 				type: "loot"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "114EB9B1EDA97143"
 				item: "theabyss:ignisithe_gem"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.5d
+			x: -0.75d
+			y: -9.0d
 		}
 		{
 			dependencies: ["66A4C5E4A2DCED88"]
@@ -108,13 +113,14 @@
 				table_id: 9128693189845719534L
 				type: "loot"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "4DE2691C30128643"
 				item: "theabyss:glacerythe_gem"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.5d
+			x: 0.75d
+			y: -10.5d
 		}
 		{
 			dependencies: ["66A4C5E4A2DCED88"]
@@ -125,13 +131,14 @@
 				table_id: 9128693189845719534L
 				type: "loot"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "51586CD87E01C50F"
 				item: "theabyss:unorithe_ingot"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -5.0d
+			x: 2.25d
+			y: -11.25d
 		}
 		{
 			dependencies: ["66A4C5E4A2DCED88"]
@@ -142,13 +149,14 @@
 				table_id: 9128693189845719534L
 				type: "loot"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "1197F81824AF114D"
 				item: "theabyss:incorythe_gem"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -5.5d
+			x: 3.75d
+			y: -12.0d
 		}
 		{
 			dependencies: ["46A6D90790580052"]
@@ -159,13 +167,14 @@
 				table_id: 9128693189845719534L
 				type: "loot"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "6A5179AD7DB5B4C9"
 				item: "theabyss:arcane_workbench"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.5d
+			x: 6.75d
+			y: -9.0d
 		}
 		{
 			dependencies: ["66A4C5E4A2DCED88"]
@@ -176,6 +185,8 @@
 				table_id: 9128693189845719534L
 				type: "loot"
 			}]
+			shape: "square"
+			size: 1.5d
 			subtitle: "Nightmarish gems"
 			tasks: [{
 				id: "006EE77500A388F9"
@@ -183,7 +194,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -203,13 +214,15 @@
 					xp_levels: 1
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "4AC606E4F0508415"
 				item: "theabyss:somnium_infuser"
 				type: "item"
 			}]
 			x: 1.0d
-			y: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["66A4C5E4A2DCED88"]
@@ -233,6 +246,8 @@
 					xp_levels: 1
 				}
 			]
+			shape: "square"
+			size: 1.5d
 			subtitle: "Used for crushing ingredients found around in the abyss"
 			tasks: [{
 				id: "67ACF0D248A6DB79"
@@ -240,7 +255,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 0.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["66A4C5E4A2DCED88"]
@@ -269,6 +284,8 @@
 					type: "loot"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			subtitle: "Essence of dreams..."
 			tasks: [{
 				id: "22E7AFF07C7E041F"
@@ -276,7 +293,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5EBCA0D2D5030D12"]
@@ -287,13 +304,15 @@
 				table_id: 9034325636812312147L
 				type: "loot"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "328E7D8F4399E2DD"
 				item: "theabyss:bottle_of_somnium"
 				type: "item"
 			}]
 			x: 1.0d
-			y: 4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4B067C51EAA56738"]
@@ -304,13 +323,15 @@
 				table_id: 9034325636812312147L
 				type: "loot"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "7889C471B7301898"
 				item: "theabyss:test_tube"
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4B067C51EAA56738"]
@@ -321,13 +342,15 @@
 				table_id: 9034325636812312147L
 				type: "loot"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "4DDB56652C45718A"
 				item: "theabyss:test_tube_head"
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5A7A993C49F8477D"]
@@ -338,6 +361,7 @@
 				table_id: 9128693189845719534L
 				type: "loot"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "0CA86384039725F4"
 				item: {
@@ -349,8 +373,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -5.0d
+			x: 6.75d
+			y: -11.25d
 		}
 		{
 			dependencies: ["64161A8E64A38AE0"]
@@ -368,13 +392,14 @@
 					xp_levels: 1
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				id: "7976997AEE073B27"
 				item: "theabyss:ender_crystal_shard"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.0d
+			x: 8.892857142857153d
+			y: -1.1785714285714235d
 		}
 		{
 			dependencies: ["64161A8E64A38AE0"]
@@ -384,13 +409,14 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "65B7D18909B7F395"
 				item: "theabyss:crimson_crystal_shard"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 4.0d
+			x: 7.107142857142847d
+			y: 0.9642857142857224d
 		}
 		{
 			dependencies: ["64161A8E64A38AE0"]
@@ -408,13 +434,14 @@
 					xp_levels: 1
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				id: "1FAA7A4370BF5101"
 				item: "theabyss:frost_crystal_shard"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.0d
+			x: 8.392857142857139d
+			y: 0.2500000000000071d
 		}
 		{
 			dependencies: ["64161A8E64A38AE0"]
@@ -425,13 +452,14 @@
 				item: "minecraft:golden_apple"
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "3D73C7F17399E5F9"
 				item: "theabyss:hollow_crystal_shard"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -0.5d
+			x: 8.535714285714292d
+			y: -4.392857142857132d
 		}
 		{
 			dependencies: ["64161A8E64A38AE0"]
@@ -442,13 +470,14 @@
 				table_id: 5864491233161153354L
 				type: "loot"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "1E2A7F7A36A3FFEF"
 				item: "theabyss:abyss_crystal_shard"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.5d
+			x: 5.75d
+			y: 1.5357142857142918d
 		}
 		{
 			dependencies: ["64161A8E64A38AE0"]
@@ -459,13 +488,14 @@
 				table_id: 5864491233161153354L
 				type: "loot"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "43924E1CCA8B85CE"
 				item: "theabyss:warped_crystal_shard"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 5.0d
+			x: 4.321428571428569d
+			y: 1.892857142857146d
 		}
 		{
 			dependencies: ["64161A8E64A38AE0"]
@@ -483,13 +513,14 @@
 					xp_levels: 1
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				id: "54B6D8E78F2982E9"
 				item: "theabyss:caverna_crystal"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.5d
+			x: 7.607142857142847d
+			y: -5.892857142857132d
 		}
 		{
 			dependencies: ["64161A8E64A38AE0"]
@@ -507,13 +538,14 @@
 					xp_levels: 1
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				id: "63D10E504807BA55"
 				item: "theabyss:aurel_crystal_shard"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.5d
+			x: 8.750000000000014d
+			y: -2.749999999999993d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
@@ -524,13 +556,15 @@
 				item: "create:iron_sheet"
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "20F6633A070E6129"
 				item: "theabyss:abyss_powder"
 				type: "item"
 			}]
 			x: -6.0d
-			y: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
@@ -540,13 +574,15 @@
 				item: "minecraft:enchanted_golden_apple"
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "2894F5F7FDB6C8A8"
 				item: "theabyss:aurel_powder"
 				type: "item"
 			}]
 			x: -6.0d
-			y: 2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
@@ -557,13 +593,15 @@
 				item: "create:golden_sheet"
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "0D564D8AF034DA24"
 				item: "theabyss:caverna_powder"
 				type: "item"
 			}]
 			x: -6.0d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
@@ -574,13 +612,15 @@
 				item: "createaddition:electrum_sheet"
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "232FF75571E397BF"
 				item: "theabyss:crimson_powder"
 				type: "item"
 			}]
 			x: -6.0d
-			y: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
@@ -591,13 +631,15 @@
 				item: "create:sturdy_sheet"
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "054AC91606F3F7A5"
 				item: "theabyss:ender_powder"
 				type: "item"
 			}]
 			x: -6.0d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
@@ -608,13 +650,15 @@
 				table_id: 8377692837458490033L
 				type: "loot"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "0BA78E51F5BC0B3C"
 				item: "theabyss:fear_powder"
 				type: "item"
 			}]
 			x: -6.0d
-			y: 6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
@@ -638,13 +682,15 @@
 					type: "loot"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "6B06D14E95B5F086"
 				item: "theabyss:ardor_powder"
 				type: "item"
 			}]
 			x: -6.0d
-			y: -5.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
@@ -662,13 +708,15 @@
 					xp_levels: 2
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "13151BF9F54CD190"
 				item: "theabyss:tenebris_powder"
 				type: "item"
 			}]
 			x: -6.0d
-			y: -4.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
@@ -679,13 +727,15 @@
 				table_id: 5864491233161153354L
 				type: "loot"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "6AE697DC09DB276E"
 				item: "theabyss:frost_powder"
 				type: "item"
 			}]
 			x: -6.0d
-			y: -3.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
@@ -696,13 +746,15 @@
 				item: "create:brass_sheet"
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "64DFDD1A87198E42"
 				item: "theabyss:hollow_powder"
 				type: "item"
 			}]
 			x: -6.0d
-			y: -2.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
@@ -713,13 +765,15 @@
 				item: "create:copper_sheet"
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "7E717D3187B53624"
 				item: "theabyss:vit_powder"
 				type: "item"
 			}]
 			x: -6.0d
-			y: -1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
@@ -730,13 +784,15 @@
 				item: "apotheosis:gem_dust"
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "7ED3315CE702F3DF"
 				item: "theabyss:warped_powder"
 				type: "item"
 			}]
 			x: -6.0d
-			y: 0.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1B926686AE4A26BD"]
@@ -755,13 +811,15 @@
 					type: "loot"
 				}
 			]
+			shape: "heart"
+			size: 1.5d
 			tasks: [{
 				id: "09A4D7197953F537"
 				item: "theabyss:lurker_juice"
 				type: "item"
 			}]
 			x: 1.0d
-			y: 9.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1B926686AE4A26BD"]
@@ -780,13 +838,15 @@
 					type: "loot"
 				}
 			]
+			shape: "heart"
+			size: 1.5d
 			tasks: [{
 				id: "19A88AE990E4C407"
 				item: "theabyss:somnium_upgrade"
 				type: "item"
 			}]
 			x: -0.5d
-			y: 9.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1B926686AE4A26BD"]
@@ -805,13 +865,15 @@
 					type: "loot"
 				}
 			]
+			shape: "heart"
+			size: 1.5d
 			tasks: [{
 				id: "3AA78BEC6FCF45E4"
 				item: "theabyss:somnium_regen_upgrade"
 				type: "item"
 			}]
 			x: 2.5d
-			y: 9.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1B926686AE4A26BD"]
@@ -830,13 +892,15 @@
 					type: "loot"
 				}
 			]
+			shape: "heart"
+			size: 1.5d
 			tasks: [{
 				id: "6E21B307196EAE04"
 				item: "theabyss:somnium_damage_upragde"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 9.5d
+			x: -2.25d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1B926686AE4A26BD"]
@@ -855,13 +919,15 @@
 					type: "loot"
 				}
 			]
+			shape: "heart"
+			size: 1.5d
 			tasks: [{
 				id: "21A5F525E71EE20F"
 				item: "theabyss:somnium_cooldown_upgrade"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 9.5d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2621B36AEC0729BF"]
@@ -872,6 +938,7 @@
 				table_id: 9128693189845719534L
 				type: "loot"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "43D39414CC704794"
 				item: {
@@ -883,8 +950,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.5d
+			x: 9.75d
+			y: -9.0d
 		}
 	]
 	title: "Abyssal"

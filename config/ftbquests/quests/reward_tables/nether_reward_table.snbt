@@ -10,14 +10,24 @@
 	loot_size: 1
 	order_index: 35
 	rewards: [
-		{ count: 4, item: "minecraft:ghast_tear", random_bonus: 4 }
-		{ count: 4, item: "minecraft:blaze_rod" }
+		{ count: 4, item: "minecraft:ghast_tear", random_bonus: 4, weight: 0.0f }
+		{ count: 4, item: "minecraft:blaze_rod", weight: 0.0f }
 		{
 			type: "xp_levels"
-			xp_levels: 4
+			weight: 0.0f
+			xp_levels: 1
 		}
-		{ count: 6, item: "minecraft:gold_block", random_bonus: 6 }
+		{ count: 3, item: "minecraft:gold_block", random_bonus: 6, weight: 0.0f }
 		{ item: "minecraft:ancient_debris", random_bonus: 1 }
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "minecraft:magma_cream"
+				tag: { }
+			}
+			weight: 0.0f
+		}
 	]
 	title: "Nether reward table"
 }

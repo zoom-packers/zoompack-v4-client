@@ -131,208 +131,208 @@
 			image: "minecraft:block/seagrass"
 			rotation: 0.0d
 			width: 3.0d
-			x: -7.0d
-			y: 7.0d
+			x: -6.738095238095234d
+			y: 6.7619047619047805d
 		}
 		{
 			height: 3.0d
 			image: "minecraft:block/seagrass"
 			rotation: 0.0d
 			width: 3.0d
-			x: -4.5d
-			y: 7.0d
+			x: -4.214285714285708d
+			y: 6.767857142857146d
 		}
 		{
 			height: 3.0d
 			image: "minecraft:block/seagrass"
 			rotation: 0.0d
 			width: 3.0d
-			x: -2.0d
-			y: 7.0d
+			x: -1.8214285714285836d
+			y: 6.767857142857146d
 		}
 		{
 			height: 3.0d
 			image: "minecraft:block/seagrass"
 			rotation: 0.0d
 			width: 3.0d
-			x: 0.5d
-			y: 7.0d
+			x: 0.7142857142857082d
+			y: 6.767857142857146d
 		}
 		{
 			height: 3.0d
 			image: "minecraft:block/seagrass"
 			rotation: 0.0d
 			width: 3.0d
-			x: 3.0d
-			y: 7.0d
+			x: 3.107142857142847d
+			y: 6.76785714285716d
 		}
 		{
 			height: 3.0d
 			image: "minecraft:block/seagrass"
 			rotation: 0.0d
 			width: 3.0d
-			x: 5.5d
-			y: 7.0d
+			x: 5.642857142857139d
+			y: 6.76785714285716d
 		}
 		{
 			height: 3.0d
 			image: "minecraft:block/seagrass"
 			rotation: 0.0d
 			width: 3.0d
-			x: 8.0d
-			y: 7.0d
+			x: 7.821428571428555d
+			y: 6.76785714285716d
 		}
 		{
 			height: 3.0d
 			image: "betternether:block/golden_vine"
 			rotation: 0.0d
 			width: 3.0d
-			x: 5.0d
-			y: -8.0d
+			x: 4.357142857142819d
+			y: -7.7857142857142705d
 		}
 		{
 			height: 3.0d
 			image: "betternether:block/golden_vine_bottom"
 			rotation: 0.0d
 			width: 3.0d
-			x: 5.0d
-			y: -5.5d
+			x: 4.14285714285711d
+			y: -5.2857142857142705d
 		}
 		{
 			height: 3.0d
 			image: "betternether:block/golden_vine"
 			rotation: 0.0d
 			width: 3.0d
-			x: -7.0d
-			y: -8.0d
+			x: -6.714285714285751d
+			y: -7.7857142857142705d
 		}
 		{
 			height: 3.0d
 			image: "betternether:block/golden_vine"
 			rotation: 0.0d
 			width: 3.0d
-			x: -7.0d
-			y: -5.5d
+			x: -6.78571428571432d
+			y: -5.214285714285701d
 		}
 		{
 			height: 3.0d
 			image: "betternether:block/golden_vine_bottom"
 			rotation: 0.0d
 			width: 3.0d
-			x: -7.0d
-			y: -3.0d
+			x: -6.78571428571432d
+			y: -2.6428571428571246d
 		}
 		{
 			height: 3.0d
 			image: "betternether:block/golden_vine"
 			rotation: 0.0d
 			width: 3.0d
-			x: 7.0d
-			y: -8.0d
+			x: 6.571428571428541d
+			y: -7.7857142857142705d
 		}
 		{
 			height: 3.0d
 			image: "betternether:block/golden_vine"
 			rotation: 0.0d
 			width: 3.0d
-			x: 7.0d
-			y: -5.5d
+			x: 6.571428571428541d
+			y: -5.214285714285701d
 		}
 		{
 			height: 3.0d
 			image: "betternether:block/golden_vine_bottom"
 			rotation: 0.0d
 			width: 3.0d
-			x: 7.0d
-			y: -3.0d
+			x: 6.428571428571388d
+			y: -2.6428571428571246d
 		}
 		{
 			height: 3.0d
 			image: "betternether:block/golden_vine"
 			rotation: 0.0d
 			width: 3.0d
-			x: -4.5d
-			y: -8.0d
+			x: -4.28571428571432d
+			y: -7.7857142857142705d
 		}
 		{
 			height: 3.0d
 			image: "betternether:block/golden_vine_bottom"
 			rotation: 0.0d
 			width: 3.0d
-			x: -5.0d
-			y: -5.5d
+			x: -4.500000000000028d
+			y: -5.214285714285701d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/kelp_plant"
 			rotation: 0.0d
 			width: 2.0d
-			x: -6.5d
-			y: 6.0d
+			x: -6.285714285714306d
+			y: 5.482142857142875d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/kelp"
 			rotation: 0.0d
 			width: 2.0d
-			x: -6.5d
-			y: 3.0d
+			x: -6.178571428571445d
+			y: 2.160714285714313d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/kelp_plant"
 			rotation: 0.0d
 			width: 2.0d
-			x: -6.5d
-			y: 7.5d
+			x: -6.392857142857167d
+			y: 7.1964285714285765d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/kelp_plant"
 			rotation: 0.0d
 			width: 2.0d
-			x: -6.5d
-			y: 4.5d
+			x: -6.178571428571445d
+			y: 3.767857142857167d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/kelp_plant"
 			rotation: 0.0d
 			width: 2.0d
-			x: 4.5d
-			y: 7.5d
+			x: 6.142857142857125d
+			y: 7.1964285714285765d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/kelp_plant"
 			rotation: 0.0d
 			width: 2.0d
-			x: 4.5d
-			y: 6.0d
+			x: 6.178571428571402d
+			y: 5.482142857142875d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/kelp_plant"
 			rotation: 0.0d
 			width: 2.0d
-			x: -2.5d
-			y: 7.5d
+			x: -3.1071428571428754d
+			y: 7.196428571428591d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/kelp"
 			rotation: 0.0d
 			width: 2.0d
-			x: -2.5d
-			y: 6.0d
+			x: -3.0714285714285836d
+			y: 5.482142857142875d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/kelp"
 			rotation: 0.0d
 			width: 2.0d
-			x: 4.5d
-			y: 4.5d
+			x: 6.178571428571402d
+			y: 3.767857142857153d
 		}
 		{
 			height: 20.0d
@@ -340,8 +340,8 @@
 			order: -1
 			rotation: 0.0d
 			width: 20.0d
-			x: -16.64285714285713d
-			y: -0.4642857142857153d
+			x: -16.60714285714286d
+			y: 16.57142857142857d
 		}
 		{
 			height: 20.0d
@@ -349,8 +349,8 @@
 			order: -1
 			rotation: 0.0d
 			width: 20.0d
-			x: 17.64285714285718d
-			y: -0.4642857142857153d
+			x: 17.535714285714306d
+			y: -0.542857142857109d
 		}
 		{
 			height: 20.0d
@@ -358,8 +358,8 @@
 			order: -1
 			rotation: 0.0d
 			width: 20.0d
-			x: 0.5000000000000284d
-			y: 16.607142857142847d
+			x: 0.4642857142857366d
+			y: 16.635714285714293d
 		}
 		{
 			height: 20.0d
@@ -367,8 +367,8 @@
 			order: -1
 			rotation: 0.0d
 			width: 20.0d
-			x: 17.714285714285722d
-			y: 16.714285714285715d
+			x: -16.571428571428527d
+			y: -17.642857142857103d
 		}
 		{
 			height: 20.0d
@@ -376,8 +376,8 @@
 			order: -1
 			rotation: 0.0d
 			width: 20.0d
-			x: -16.714285714285694d
-			y: 16.714285714285715d
+			x: -16.607142857142854d
+			y: -0.43571428571424065d
 		}
 		{
 			height: 20.0d
@@ -385,8 +385,8 @@
 			order: -1
 			rotation: 0.0d
 			width: 20.0d
-			x: 0.428571428571459d
-			y: -17.57142857142857d
+			x: 0.5357142857142918d
+			y: -17.542857142857088d
 		}
 		{
 			height: 20.0d
@@ -394,17 +394,17 @@
 			order: -1
 			rotation: 0.0d
 			width: 20.0d
-			x: 17.571428571428584d
-			y: -17.7142857142857d
+			x: 17.678571428571416d
+			y: -17.53928571428569d
 		}
 		{
 			height: 20.0d
-			image: "minecraft:block/raw_gold_block1"
+			image: "callfromthedepth_:block/marble_block"
 			order: -1
 			rotation: 0.0d
 			width: 20.0d
-			x: -16.714285714285694d
-			y: -17.57142857142857d
+			x: 17.535714285714278d
+			y: 16.60000000000003d
 		}
 	]
 	order_index: 2
@@ -420,6 +420,7 @@
 				table_id: 1610080839990707444L
 				type: "choice"
 			}]
+			shape: "square"
 			subtitle: "Construct a portal to enter the Aether dimension"
 			tasks: [{
 				dimension: "aether:the_aether"
@@ -439,6 +440,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			shape: "square"
 			subtitle: "Mine some zanite"
 			tasks: [{
 				count: 15L
@@ -446,7 +448,7 @@
 				item: "aether:zanite_gemstone"
 				type: "item"
 			}]
-			title: "Ametist ieftin"
+			title: "Cheap amethyst"
 			x: -0.5d
 			y: 3.5d
 		}
@@ -467,6 +469,7 @@
 					xp_levels: 2
 				}
 			]
+			shape: "square"
 			subtitle: "Kill a flower"
 			tasks: [{
 				id: "25E7026E19A115A1"
@@ -495,13 +498,14 @@
 					type: "loot"
 				}
 			]
+			shape: "square"
 			subtitle: "Kill aether chickens"
 			tasks: [{
 				id: "6B1F25D077AEB272"
 				item: "aether:blue_moa_egg"
 				type: "item"
 			}]
-			title: "Ou de cioara"
+			title: "Raven egg"
 			x: 1.5d
 			y: 5.0d
 		}
@@ -522,6 +526,7 @@
 					xp_levels: 2
 				}
 			]
+			shape: "square"
 			subtitle: "Utilized for cooking eggs"
 			tasks: [{
 				id: "0E444D16D00D5E61"
@@ -554,6 +559,7 @@
 					xp_levels: 1
 				}
 			]
+			shape: "square"
 			subtitle: "Creepy altar"
 			tasks: [{
 				id: "4E4A5B96BA48241F"
@@ -611,6 +617,7 @@
 					type: "loot"
 				}
 			]
+			shape: "square"
 			subtitle: "<>"
 			tasks: [
 				{
@@ -636,7 +643,7 @@
 					type: "item"
 				}
 			]
-			title: "Ciocan si Dildou"
+			title: "Hammer and nail"
 			x: -2.0d
 			y: -2.5d
 		}
@@ -691,6 +698,7 @@
 					type: "loot"
 				}
 			]
+			shape: "square"
 			subtitle: "Valkyrie’s Valor"
 			tasks: [
 				{
@@ -790,6 +798,7 @@
 					type: "loot"
 				}
 			]
+			shape: "square"
 			subtitle: "Obtain it and become a demigod of the sun"
 			tasks: [
 				{

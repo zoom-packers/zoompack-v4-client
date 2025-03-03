@@ -268,6 +268,22 @@
 			x: 22.595238095238052d
 			y: 16.404761904761898d
 		}
+		{
+			height: 3.0d
+			image: "blue_skies:block/plants/brumble_vine"
+			rotation: 180.0d
+			width: 3.0d
+			x: 3.2976190476190297d
+			y: -7.755952380952387d
+		}
+		{
+			height: 3.0d
+			image: "blue_skies:block/plants/brumble_vine_top"
+			rotation: 180.0d
+			width: 3.0d
+			x: 3.1547619047618767d
+			y: -5.184523809523817d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -275,6 +291,13 @@
 		{
 			description: ["&7Obtain the Zeal Lighter, a mystical tool that illuminates the path to the Everdawn and Everbright dimensions. Its radiant flame will guide you through the veils between worlds and reveal the way to realms beyond your imagination."]
 			id: "562AAFDF220019AD"
+			rewards: [{
+				id: "4DA35617D73B8473"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Buy it from a villager found in the overworld"
 			tasks: [{
 				id: "43F41A54C8274720"
@@ -300,6 +323,8 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Moonstuff"
 			tasks: [{
 				id: "13F4D3F253044E06"
@@ -307,7 +332,7 @@
 				type: "item"
 			}]
 			title: "Qiatra de luna"
-			x: 2.0d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
@@ -321,6 +346,8 @@
 				table_id: 1610080839990707444L
 				type: "choice"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Find a portal and light it using the zeal lighter"
 			tasks: [{
 				dimension: "blue_skies:everdawn"
@@ -340,6 +367,8 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "0B7D0E0ADA99E46E"
 				item: "blue_skies:horizonite_ingot"
@@ -347,7 +376,7 @@
 			}]
 			title: "Terraria yeye ingot"
 			x: 3.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0F905561BBD0BA6A"]
@@ -358,6 +387,8 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Horizonite forge"
 			tasks: [{
 				id: "7D6E63AC970C5DAF"
@@ -365,8 +396,8 @@
 				type: "item"
 			}]
 			title: "Forja lu'Thor"
-			x: 3.0d
-			y: -4.5d
+			x: 1.5d
+			y: -5.25d
 		}
 		{
 			dependencies: ["0F905561BBD0BA6A"]
@@ -455,6 +486,8 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Green power ranger"
 			tasks: [{
 				id: "289E5A69F6E93AF6"
@@ -462,7 +495,7 @@
 				type: "item"
 			}]
 			title: "Kryptonita"
-			x: 6.5d
+			x: 10.5d
 			y: -1.0d
 		}
 		{
@@ -474,6 +507,8 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Blue power ranger"
 			tasks: [{
 				id: "7E68CF3FAE9DFBEE"
@@ -481,7 +516,7 @@
 				type: "item"
 			}]
 			title: "Safir gheto"
-			x: 5.0d
+			x: 7.5d
 			y: -1.0d
 		}
 		{
@@ -493,6 +528,8 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Red power ranger"
 			tasks: [{
 				id: "30266096FCE3C807"
@@ -500,7 +537,7 @@
 				type: "item"
 			}]
 			title: "Rubin gheto"
-			x: 3.5d
+			x: 5.0d
 			y: -1.0d
 		}
 		{
@@ -526,14 +563,16 @@
 					xp_levels: 1
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Galactic Treat"
 			tasks: [{
 				id: "632E1067ED4D345C"
 				item: "blue_skies:comet_berry_pie"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.5d
+			x: 7.154761904761877d
+			y: 1.0654761904761898d
 		}
 		{
 			dependencies: ["562AAFDF220019AD"]
@@ -558,26 +597,35 @@
 					xp_levels: 1
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Celestial Harvest"
 			tasks: [{
 				id: "7C7F605D54AA0880"
 				item: "blue_skies:comet_berries"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: 4.011904761904738d
+			y: 1.0654761904761898d
 		}
 		{
 			dependencies: ["562AAFDF220019AD"]
 			description: ["&7Discover the rare Comet Sapling, a plant with cosmic origins. This unique sapling, touched by the stars, holds the potential to grow into a celestial tree. Collect it to add a touch of the cosmos to your world and unlock its otherworldly potential!"]
 			id: "1E107FF07D5D0B93"
+			rewards: [{
+				id: "7CB4094626846A33"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "0C55EF20AA2EC050"
 				item: "blue_skies:comet_sapling"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.5d
+			x: 1.869047619047592d
+			y: 2.422619047619044d
 		}
 		{
 			dependencies: ["562AAFDF220019AD"]
@@ -590,6 +638,8 @@
 				table_id: 1610080839990707444L
 				type: "choice"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Find a portal and light it using the zeal lighter"
 			tasks: [{
 				dimension: "blue_skies:everbright"
@@ -597,7 +647,7 @@
 				type: "dimension"
 			}]
 			title: "Into the unknown"
-			x: 0.5d
+			x: -0.75d
 			y: 3.0d
 		}
 		{
@@ -623,6 +673,8 @@
 					xp_levels: 1
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Snowy oven"
 			tasks: [{
 				id: "656497144F168D2D"
@@ -630,8 +682,8 @@
 				type: "item"
 			}]
 			title: "Cuptoru bunicutzei"
-			x: 2.5d
-			y: 3.0d
+			x: 0.75d
+			y: 5.25d
 		}
 		{
 			dependencies: ["7E42557F15C39ABE"]
@@ -642,6 +694,8 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "purple ingot"
 			tasks: [{
 				id: "14297A11A51005A3"
@@ -649,8 +703,8 @@
 				type: "item"
 			}]
 			title: "Fals"
-			x: 5.0d
-			y: 3.0d
+			x: 4.5d
+			y: 3.75d
 		}
 		{
 			dependencies: ["7E42557F15C39ABE"]
@@ -661,6 +715,8 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Red iron"
 			tasks: [{
 				id: "20AA4B5725D145E9"
@@ -668,8 +724,8 @@
 				type: "item"
 			}]
 			title: "Ciclu ingot"
-			x: 4.0d
-			y: 4.0d
+			x: 3.75d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3D7CC62B4B83870D"]
@@ -694,6 +750,8 @@
 					xp_levels: 1
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Retrieve a special toolbox from the depths of the Everbright dimension in the Blue Skies mod."
 			tasks: [{
 				id: "3CD52B0ADE71534D"
@@ -701,8 +759,8 @@
 				type: "item"
 			}]
 			title: "Cutia cu scule"
-			x: 5.5d
-			y: 4.5d
+			x: 6.75d
+			y: 6.75d
 		}
 		{
 			description: ["&7Dark omens have spread across the land, with villagers whispering of a malevolent entity known as the Summoner, hiding deep within the towering structures of the Everbright or Everdawn dimensions. Your mission is to seek out the Summoner's domain—an ancient dungeon guarded by fearsome creatures. Explore the depths of this perilous stronghold, solve its puzzles, and fight your way through waves of enemies to confront the Summoner. Armed with devastating magic and formidable strength, this boss will test your skills to the limit. Only the bravest will prevail and claim the Summoner's powerful loot as their own."]

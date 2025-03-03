@@ -23,12 +23,19 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				Count: 1
+				id: "minecraft:carrot"
+				tag: { }
+			}
 			id: "1C5B79B916E043AD"
 			rewards: [{
 				id: "01954FB136C5B71E"
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "5E837C88D0569ABF"
@@ -48,9 +55,14 @@
 			]
 			title: "The basics"
 			x: -1.5d
-			y: 1.0d
+			y: 4.5d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "minecraft:chicken"
+				tag: { }
+			}
 			id: "2DED787833A9D4F5"
 			rewards: [
 				{
@@ -77,6 +89,8 @@
 					type: "item"
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "44278036BDB27DB4"
@@ -99,17 +113,24 @@
 					type: "item"
 				}
 			]
-			title: "Like it raw"
-			x: 1.5d
-			y: 1.0d
+			title: "RAWWWW!"
+			x: 2.25d
+			y: 3.75d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "minecraft:red_mushroom"
+				tag: { }
+			}
 			id: "01C00F153FC95541"
 			rewards: [{
 				id: "4A92C970DA685C93"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "29952405177345B1"
@@ -129,10 +150,15 @@
 				}
 			]
 			title: "Paracetamol"
-			x: -0.5d
-			y: 1.0d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "minecraft:egg"
+				tag: { }
+			}
 			id: "028D13E011ABEF58"
 			rewards: [
 				{
@@ -152,6 +178,8 @@
 					type: "item"
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "5418D4537079DA2E"
@@ -179,11 +207,16 @@
 					type: "item"
 				}
 			]
-			title: "Gud shit"
-			x: 0.5d
-			y: 1.0d
+			title: "He need sum milk"
+			x: 1.5d
+			y: 4.5d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "minecraft:sweet_berries"
+				tag: { }
+			}
 			id: "503AB64B41A38CCD"
 			rewards: [
 				{
@@ -198,6 +231,8 @@
 					xp_levels: 2
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "373659A32CC75CB1"
@@ -226,10 +261,15 @@
 				}
 			]
 			title: "Disgustingly sweet"
-			x: -2.5d
-			y: 1.0d
+			x: -2.25d
+			y: 3.75d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "minecraft:melon"
+				tag: { }
+			}
 			id: "6BA048949B6DFF67"
 			rewards: [
 				{
@@ -248,6 +288,8 @@
 					type: "item"
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "1A4D4629BA4981C6"
@@ -261,8 +303,8 @@
 				}
 			]
 			title: "Meloane si Pumpkiloane"
-			x: -3.5d
-			y: 1.0d
+			x: -3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -274,6 +316,11 @@
 				"1C5B79B916E043AD"
 				"7732B2DC323B3AFB"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:cake"
+				tag: { }
+			}
 			id: "23BBBC5CFB7D9049"
 			rewards: [
 				{
@@ -319,7 +366,7 @@
 				}
 			]
 			shape: "diamond"
-			size: 2.0d
+			size: 3.0d
 			tasks: [
 				{
 					id: "512E7F3698FEF267"
@@ -343,16 +390,23 @@
 				}
 			]
 			title: "Let him cook"
-			x: -0.5d
-			y: -1.5d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "croptopia:tomato"
+				tag: { }
+			}
 			id: "7732B2DC323B3AFB"
 			rewards: [{
 				id: "081D21B535E0CFB2"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "757C237E294374A2"
@@ -365,10 +419,15 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 1.0d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "croptopia:onion"
+				tag: { }
+			}
 			id: "091E5C7ADC2BF9BB"
 			rewards: [
 				{
@@ -383,6 +442,8 @@
 					xp_levels: 3
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "237DB06F017B05CF"
@@ -411,16 +472,23 @@
 				}
 			]
 			title: "Onioo"
-			x: 3.5d
-			y: -3.5d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "croptopia:lettuce"
+				tag: { }
+			}
 			id: "30B4CD235F6FCDE9"
 			rewards: [{
 				id: "20B9A13B32CB496A"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "049484FE91653733"
@@ -434,10 +502,15 @@
 				}
 			]
 			title: "Letussy"
-			x: -3.5d
-			y: -1.0d
+			x: -6.75d
+			y: 2.25d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "croptopia:bellpepper"
+				tag: { }
+			}
 			id: "1DAD45880CF77BC3"
 			rewards: [
 				{
@@ -451,6 +524,8 @@
 					xp_levels: 2
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "691EE0D6B35CB60A"
@@ -469,16 +544,23 @@
 				}
 			]
 			title: "Piping Hot"
-			x: 8.5d
-			y: -3.5d
+			x: 10.5d
+			y: -3.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "croptopia:garlic"
+				tag: { }
+			}
 			id: "11619645A5FA7F1E"
 			rewards: [{
 				id: "2FB77D9201F44ED6"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "6620CBB4D10F7499"
@@ -492,16 +574,23 @@
 				}
 			]
 			title: "Smelly breath"
-			x: -2.5d
-			y: -2.5d
+			x: -5.25d
+			y: 0.75d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "croptopia:peanut_butter"
+				tag: { }
+			}
 			id: "0D849E90ADDF6207"
 			rewards: [{
 				id: "04DAAE36BDAF6A11"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "208A65E5370C3721"
@@ -514,8 +603,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 1.0d
+			x: 7.500000000000014d
+			y: 4.035714285714278d
 		}
 		{
 			id: "159A6261D832CD50"
@@ -524,6 +613,8 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "39942A6CC8ABDD33"
@@ -572,8 +663,8 @@
 				}
 			]
 			title: "JAMMING TIME"
-			x: 6.5d
-			y: 1.0d
+			x: 9.000000000000014d
+			y: 4.035714285714278d
 		}
 		{
 			dependencies: [
@@ -588,15 +679,15 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			size: 2.0d
+			size: 3.0d
 			tasks: [{
 				id: "19DCBE9E9A2C31B8"
 				item: "croptopia:peanut_butter_and_jam"
 				type: "item"
 			}]
 			title: "PNUT BUTTA JELLY TIME"
-			x: 5.0d
-			y: -1.0d
+			x: 8.250000000000014d
+			y: 1.0357142857142776d
 		}
 		{
 			id: "43EAA6C2D79A1888"
@@ -605,6 +696,8 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "1B0DA6AA650B7881"
 				item: {
@@ -616,17 +709,24 @@
 				}
 				type: "item"
 			}]
-			title: "Tigaia lui Ramsay"
-			x: -8.0d
-			y: 1.0d
+			title: "Ramsay's pan"
+			x: -11.25d
+			y: 3.25d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "croptopia:cooking_pot"
+				tag: { }
+			}
 			id: "1D288E3ECE7E38B6"
 			rewards: [{
 				id: "3B64D70E199E00E8"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "4D45711C09B3838C"
@@ -639,9 +739,9 @@
 					type: "item"
 				}
 			]
-			title: "Aci se face borsu"
-			x: -9.0d
-			y: 1.0d
+			title: "Suup"
+			x: -12.0d
+			y: 4.0d
 		}
 		{
 			id: "4D6F308506302E92"
@@ -650,22 +750,33 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "5A4364BC40CD2076"
 				item: "farmersdelight:stove"
 				type: "item"
 			}]
-			title: "Soba lu bunica"
-			x: -7.0d
-			y: 1.0d
+			title: "Grannys oven"
+			x: -10.5d
+			y: 4.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "farmersdelight:iron_knife"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "14BE77EDD8CC7058"
 			rewards: [{
 				id: "3709F70827942E25"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "018053C95E886F7F"
@@ -707,8 +818,8 @@
 				}
 			]
 			title: "Finest cutlery"
-			x: -10.0d
-			y: 1.0d
+			x: -13.5d
+			y: 4.0d
 		}
 		{
 			id: "2CCD576A996B9039"
@@ -717,14 +828,16 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "45CB9A5ADE3AD46C"
 				item: "croptopia:food_press"
 				type: "item"
 			}]
-			title: "Presa de la sala"
-			x: -11.0d
-			y: 1.0d
+			title: "Gym press"
+			x: -12.75d
+			y: 3.25d
 		}
 		{
 			id: "79C8D9A50E72935E"
@@ -733,14 +846,16 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "1C9746C2B5DA0E45"
 				item: "croptopia:mortar_and_pestle"
 				type: "item"
 			}]
 			title: "Mortar si pistol"
-			x: -12.0d
-			y: 1.0d
+			x: -12.75d
+			y: 4.75d
 		}
 		{
 			dependencies: [
@@ -799,15 +914,15 @@
 				}
 			]
 			shape: "diamond"
-			size: 2.0d
+			size: 3.0d
 			subtitle: "Now you got the equipment."
 			tasks: [{
 				id: "6E81C4BF35E15E15"
 				title: "WHERE'S THE LAMB SAUCE"
 				type: "checkmark"
 			}]
-			x: -9.0d
-			y: -1.0d
+			x: -12.0d
+			y: 0.75d
 		}
 		{
 			id: "2FCF1BA550AC34AB"
@@ -816,16 +931,23 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "10EB5A7747D6E4D8"
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			title: "Carton magic"
-			x: -6.0d
-			y: 1.0d
+			title: "Magic carton"
+			x: -11.25d
+			y: 4.75d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "croptopia:vanilla"
+				tag: { }
+			}
 			id: "561B1692B46DCBE3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -833,6 +955,8 @@
 				table_id: 2622458127975197730L
 				type: "loot"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "3B452C5076572EF3"
@@ -845,8 +969,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -6.5d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -857,6 +981,11 @@
 				"7746FF3C5E22B45C"
 				"720B6FAA096F1435"
 			]
+			icon: {
+				Count: 1
+				id: "croptopia:strawberry_ice_cream"
+				tag: { }
+			}
 			id: "7990B7665C9A3309"
 			rewards: [{
 				id: "05ABB1A3A115F71F"
@@ -864,7 +993,7 @@
 				xp_levels: 2
 			}]
 			shape: "diamond"
-			size: 2.0d
+			size: 3.0d
 			tasks: [
 				{
 					id: "1767C6A1FAA70EBB"
@@ -897,11 +1026,16 @@
 					type: "item"
 				}
 			]
-			title: "Marius la orice ora"
-			x: -1.0d
-			y: -4.0d
+			title: "Me at every hour"
+			x: 1.5d
+			y: -6.75d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "croptopia:mango"
+				tag: { }
+			}
 			id: "4DB47223742CA333"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -909,6 +1043,8 @@
 				table_id: 2622458127975197730L
 				type: "loot"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "3B0E1AE4F7D248D2"
@@ -922,10 +1058,15 @@
 				}
 			]
 			title: "Mango the bango"
-			x: -1.0d
-			y: -6.5d
+			x: 0.75d
+			y: -3.25d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "croptopia:pecan"
+				tag: { }
+			}
 			id: "3974C8FFF2240908"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -933,6 +1074,8 @@
 				table_id: 2622458127975197730L
 				type: "loot"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "5E5FAA714A788B07"
@@ -946,10 +1089,15 @@
 				}
 			]
 			title: "Decan"
-			x: 0.0d
-			y: -6.5d
+			x: 2.25d
+			y: -3.25d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "croptopia:strawberry"
+				tag: { }
+			}
 			id: "7746FF3C5E22B45C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -957,6 +1105,8 @@
 				table_id: 2622458127975197730L
 				type: "loot"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "510087651D3123EA"
@@ -970,10 +1120,15 @@
 				}
 			]
 			title: "Capsunica"
-			x: 1.0d
-			y: -6.5d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "croptopia:grape"
+				tag: { }
+			}
 			id: "720B6FAA096F1435"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -981,6 +1136,8 @@
 				table_id: 2622458127975197730L
 				type: "loot"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "43ABC2A5EC0C58D1"
@@ -994,8 +1151,8 @@
 				}
 			]
 			title: "Ingredientu pasiunii romanesti"
-			x: 2.0d
-			y: -6.5d
+			x: 3.75d
+			y: -3.25d
 		}
 		{
 			id: "3D656241A41E1859"
@@ -1005,16 +1162,23 @@
 				table_id: 2622458127975197730L
 				type: "loot"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Harvested straight from the chocolate men"
 			tasks: [{
 				id: "63DD515C34E09A6F"
 				item: "croptopia:chocolate"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -6.5d
+			x: -0.75d
+			y: -3.25d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "croptopia:rice"
+				tag: { }
+			}
 			id: "12715C534D12225B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1022,6 +1186,8 @@
 				table_id: 434528124089394039L
 				type: "loot"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "421E00E8D0303B7A"
@@ -1039,17 +1205,24 @@
 					type: "item"
 				}
 			]
-			title: "Orez cu Pula"
-			x: -8.0d
-			y: -4.0d
+			title: "Orez cu Polonicu"
+			x: -11.25d
+			y: -3.607142857142861d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "croptopia:corn"
+				tag: { }
+			}
 			id: "54B7E48206778BB8"
 			rewards: [{
 				id: "7CBBEA965510F125"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "5AB666228928EE7D"
@@ -1063,8 +1236,8 @@
 				}
 			]
 			title: "Porn"
-			x: -4.5d
-			y: -4.5d
+			x: -6.75d
+			y: -0.75d
 		}
 		{
 			dependencies: [
@@ -1102,23 +1275,30 @@
 				}
 			]
 			shape: "diamond"
-			size: 2.0d
+			size: 3.0d
 			subtitle: "Made by chef Ratatoile"
 			tasks: [{
 				id: "1C9D3824C26B0D03"
 				item: "croptopia:ratatouille"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -5.0d
+			x: 8.25d
+			y: -6.75d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "croptopia:eggplant"
+				tag: { }
+			}
 			id: "2C7570760E8127F5"
 			rewards: [{
 				id: "01256E412EC6279B"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "3D08744903A17BBC"
@@ -1132,16 +1312,23 @@
 				}
 			]
 			title: "Spelunky 2"
-			x: 4.5d
-			y: -3.5d
+			x: 6.75d
+			y: -3.75d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "croptopia:basil"
+				tag: { }
+			}
 			id: "501005D30121B875"
 			rewards: [{
 				id: "3C4499BCB12818A4"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "1A66F564B70FAB12"
@@ -1155,16 +1342,23 @@
 				}
 			]
 			title: "Basil doom hd"
-			x: 5.5d
-			y: -3.5d
+			x: 7.5d
+			y: -3.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "croptopia:zucchini"
+				tag: { }
+			}
 			id: "00270C916686D170"
 			rewards: [{
 				id: "0A043AEF1425D2A5"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "3688669DA4181454"
@@ -1178,16 +1372,23 @@
 				}
 			]
 			title: "Zucini"
-			x: 6.5d
-			y: -3.5d
+			x: 9.0d
+			y: -3.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "croptopia:squash"
+				tag: { }
+			}
 			id: "14BCFA9A1D7DB305"
 			rewards: [{
 				id: "50CD464EECEBD59D"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "07B4454B6F6652B5"
@@ -1201,16 +1402,23 @@
 				}
 			]
 			title: "Turtita"
-			x: 7.5d
-			y: -3.5d
+			x: 9.75d
+			y: -3.75d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "croptopia:spinach"
+				tag: { }
+			}
 			id: "58BDD3F13AE867E6"
 			rewards: [{
 				id: "01A0BD63C9A4F99F"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "539C27C6328DB943"
@@ -1224,16 +1432,23 @@
 				}
 			]
 			title: "Eeeugh!"
-			x: -5.5d
-			y: -3.0d
+			x: -8.25d
+			y: 0.75d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "croptopia:kale"
+				tag: { }
+			}
 			id: "05198662FD6443D0"
 			rewards: [{
 				id: "05F6BF2DC904E133"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [
 				{
 					id: "5E656E6451C70B63"
@@ -1247,8 +1462,8 @@
 				}
 			]
 			title: "yuck"
-			x: -5.5d
-			y: -1.0d
+			x: -8.25d
+			y: 2.25d
 		}
 		{
 			dependencies: [
@@ -1263,14 +1478,16 @@
 				table_id: 434528124089394039L
 				type: "loot"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "08083C91E121D6F6"
 				item: "croptopia:leafy_salad"
 				type: "item"
 			}]
 			title: "Vegan imputit"
-			x: -4.5d
-			y: -2.0d
+			x: -7.5d
+			y: 1.5d
 		}
 		{
 			id: "33D519D2997F37A0"
@@ -1280,14 +1497,16 @@
 				table_id: 4648757727491339053L
 				type: "loot"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "1C33BF66F2F815E3"
 				item: "farmersdelight:hamburger"
 				type: "item"
 			}]
 			title: "Milea's favorite"
-			x: -10.0d
-			y: -4.0d
+			x: -12.75d
+			y: -3.607142857142861d
 		}
 		{
 			id: "6422AD9CB8A16CA9"
@@ -1297,14 +1516,16 @@
 				table_id: 434528124089394039L
 				type: "loot"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "5136CCBC4F861365"
 				item: "croptopia:protein_bar"
 				type: "item"
 			}]
-			title: "Cacat la ordinu zilei"
-			x: -9.0d
-			y: -3.5d
+			title: "Protaineee"
+			x: -12.0d
+			y: -4.357142857142861d
 		}
 		{
 			dependencies: [
@@ -1327,14 +1548,14 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			size: 2.0d
+			size: 3.0d
 			tasks: [{
 				id: "070C86C26AB73170"
 				title: "Dad bod recipe"
 				type: "checkmark"
 			}]
-			x: -9.0d
-			y: -5.0d
+			x: -11.964285714285737d
+			y: -6.75d
 		}
 		{
 			id: "7653FAB6DFF7020A"
@@ -1344,13 +1565,15 @@
 				table_id: 7743076479955517786L
 				type: "loot"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "5C97436661E9606F"
 				item: "croptopia:hashed_brown"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -6.5d
+			x: -6.75d
+			y: -3.6785714285714235d
 		}
 		{
 			id: "58E37513A00F4C18"
@@ -1360,14 +1583,16 @@
 				table_id: 434528124089394039L
 				type: "loot"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "6D994BFCF7C431C8"
 				item: "croptopia:baked_beans"
 				type: "item"
 			}]
 			title: "Beanz"
-			x: -5.5d
-			y: -6.5d
+			x: -6.0d
+			y: -2.9285714285714235d
 		}
 		{
 			id: "2DB71FCF7C5BD794"
@@ -1377,14 +1602,16 @@
 				table_id: 2622458127975197730L
 				type: "loot"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "233A9ACF6295EE96"
 				item: "croptopia:bacon"
 				type: "item"
 			}]
 			title: "Pork"
-			x: -4.5d
-			y: -7.5d
+			x: -5.25d
+			y: -3.6785714285714235d
 		}
 		{
 			id: "44727B5673BE36B2"
@@ -1394,14 +1621,16 @@
 				table_id: 4648757727491339053L
 				type: "loot"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "42AF1ABAE91B0380"
 				item: "croptopia:sausage"
 				type: "item"
 			}]
 			title: "dicker"
-			x: -7.5d
-			y: -7.0d
+			x: -6.0d
+			y: -4.4285714285714235d
 		}
 		{
 			dependencies: [
@@ -1426,7 +1655,7 @@
 				}
 			]
 			shape: "diamond"
-			size: 2.0d
+			size: 3.0d
 			subtitle: "Ron Swanson would be proud"
 			tasks: [{
 				id: "5E7567BBFAB1CDD6"
@@ -1434,8 +1663,8 @@
 				type: "item"
 			}]
 			title: "Freedom Meal"
-			x: -6.0d
-			y: -8.0d
+			x: -5.964285714285708d
+			y: -6.75d
 		}
 		{
 			dependencies: [
@@ -1453,15 +1682,15 @@
 				type: "loot"
 			}]
 			shape: "diamond"
-			size: 2.0d
+			size: 3.0d
 			tasks: [{
 				id: "68BCEDFC2A902CB7"
 				item: "aquamirae:poseidons_breakfast"
 				type: "item"
 			}]
-			title: "Scuipatu lui Poseidon"
-			x: -1.0d
-			y: -12.0d
+			title: "Poisedon's bowl"
+			x: -2.25d
+			y: -12.75d
 		}
 		{
 			id: "7AC873E5A3236106"
@@ -1479,14 +1708,16 @@
 					type: "loot"
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "39FC93ABEB37179A"
 				item: "croptopia:sushi"
 				type: "item"
 			}]
-			title: "Mancare de chinez"
-			x: -2.0d
-			y: -10.0d
+			title: "Anime food"
+			x: -3.0d
+			y: -9.0d
 		}
 		{
 			id: "37531268C18FBC89"
@@ -1504,14 +1735,15 @@
 					type: "loot"
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "73A9598618837706"
 				item: "croptopia:crab_legs"
 				type: "item"
 			}]
-			title: "Lady legs"
-			x: -1.0d
-			y: -10.0d
+			x: -2.25d
+			y: -9.75d
 		}
 		{
 			id: "0317EFE67B24F415"
@@ -1529,14 +1761,15 @@
 					type: "loot"
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "6EC6E826972E11C9"
 				item: "croptopia:steamed_clams"
 				type: "item"
 			}]
-			title: "Clamidia"
-			x: 0.0d
-			y: -10.0d
+			x: -1.5d
+			y: -9.0d
 		}
 		{
 			id: "0EBA393AF846C413"
@@ -1554,14 +1787,15 @@
 					type: "loot"
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "116AD4909550016E"
 				item: "croptopia:grilled_oysters"
 				type: "item"
 			}]
-			title: "ovare"
-			x: 1.0d
-			y: -10.0d
+			x: -0.75d
+			y: -9.75d
 		}
 		{
 			id: "240580A04C88A867"
@@ -1579,14 +1813,15 @@
 					type: "loot"
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "1B4FC8E12F64676D"
 				item: "croptopia:deep_fried_shrimp"
 				type: "item"
 			}]
-			title: "Lady boy"
-			x: -3.0d
-			y: -10.0d
+			x: -3.75d
+			y: -9.75d
 		}
 		{
 			dependencies: [
@@ -1600,14 +1835,16 @@
 				table_id: 434528124089394039L
 				type: "loot"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "42E48D625F63F773"
 				item: "croptopia:shepherds_pie"
 				type: "item"
 			}]
 			title: "Placinta vietii"
-			x: -3.5d
-			y: -3.5d
+			x: -6.0d
+			y: 0.0d
 		}
 	]
 	title: "Culinary Enlightenment"

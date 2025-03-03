@@ -23,6 +23,7 @@
 				item: "supplementaries:hourglass"
 				type: "item"
 			}]
+			shape: "heart"
 			tasks: [{
 				id: "05880F469186CFAC"
 				item: "minecraft:white_bed"
@@ -46,6 +47,7 @@
 				}
 				type: "item"
 			}]
+			shape: "heart"
 			tasks: [{
 				id: "7AFD88E9A82637F2"
 				item: "minecraft:furnace"
@@ -70,6 +72,7 @@
 					type: "item"
 				}
 			]
+			shape: "heart"
 			tasks: [{
 				id: "621C54B7E2F5198C"
 				item: "minecraft:campfire"
@@ -98,6 +101,7 @@
 					type: "item"
 				}
 			]
+			shape: "heart"
 			tasks: [{
 				id: "5EC0D1CA792E222D"
 				item: "minecraft:blast_furnace"
@@ -129,6 +133,7 @@
 					type: "pmmo:levelreward"
 				}
 			]
+			shape: "square"
 			tasks: [{
 				id: "317A0FC567403C43"
 				item: "ironfurnaces:copper_furnace"
@@ -140,18 +145,12 @@
 		{
 			icon: "chimes:bamboo_chimes"
 			id: "69D00EB2506FB3F7"
-			rewards: [
-				{
-					id: "3B6F6EE3B5E9BBA5"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
-					id: "33A4EE99CB308F74"
-					item: "additionallanterns:black_andesite_lantern"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3B6F6EE3B5E9BBA5"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "heart"
 			tasks: [
 				{
 					id: "5A9DCCBAFCEBE832"
@@ -191,13 +190,14 @@
 				item: "ironfurnaces:upgrade_iron2"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "7E5684DE74D267D3"
 				item: "ironfurnaces:augment_blasting"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 10.0d
+			x: 1.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["32A5E557FEF93B22"]
@@ -215,13 +215,14 @@
 					xp_levels: 1
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				id: "54A36FEF17737915"
 				item: "ironfurnaces:augment_smoking"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 9.5d
+			x: 2.5d
+			y: 8.0d
 		}
 		{
 			id: "32A5E557FEF93B22"
@@ -231,6 +232,7 @@
 				item: "minecraft:salmon"
 				type: "item"
 			}]
+			shape: "heart"
 			tasks: [{
 				id: "6FAC74D6440EDB88"
 				item: "minecraft:smoker"
@@ -260,6 +262,7 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				id: "4DECADD9382E9556"
 				item: "ironfurnaces:augment_factory"
@@ -272,18 +275,12 @@
 		{
 			dependencies: ["06EDD0255A1874C1"]
 			id: "6053BD58C28761D3"
-			rewards: [
-				{
-					id: "55FD3C5130DD12B3"
-					item: "create:mechanical_press"
-					type: "item"
-				}
-				{
-					id: "257B1E1DE13A80F3"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "257B1E1DE13A80F3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "6B5BF9DE9C28389B"
 				item: "ironfurnaces:augment_generator"
@@ -296,19 +293,12 @@
 		{
 			dependencies: ["06EDD0255A1874C1"]
 			id: "390D9E0A95966DE2"
-			rewards: [
-				{
-					count: 3
-					id: "54BD6FF6C721E2E2"
-					item: "create:gearbox"
-					type: "item"
-				}
-				{
-					id: "221E02FCAFA23F8D"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "221E02FCAFA23F8D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "38EF6D81D4AC1347"
 				item: "ironfurnaces:augment_speed"
@@ -320,25 +310,12 @@
 		{
 			dependencies: ["06EDD0255A1874C1"]
 			id: "08D542FFF35D90EA"
-			rewards: [
-				{
-					count: 3
-					id: "3AC9CE984C562FEE"
-					item: "create:cogwheel"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "47B39540C4133E2A"
-					item: "create:large_cogwheel"
-					type: "item"
-				}
-				{
-					id: "7F8C0CD7460C372A"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "7F8C0CD7460C372A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "473664A9FD3176BF"
 				item: "ironfurnaces:augment_fuel"
@@ -363,6 +340,7 @@
 					xp_levels: 1
 				}
 			]
+			shape: "square"
 			tasks: [{
 				id: "146A8FCB4C004269"
 				item: "ironfurnaces:iron_furnace"
@@ -388,6 +366,7 @@
 					type: "loot"
 				}
 			]
+			shape: "square"
 			tasks: [{
 				id: "2545E71FDAB2F509"
 				item: "ironfurnaces:obsidian_furnace"
@@ -406,6 +385,7 @@
 				table_id: 7323225797761338335L
 				type: "loot"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "463D9C29E7BCEA74"
 				item: "ironfurnaces:netherite_furnace"
@@ -423,6 +403,7 @@
 				item: "minecraft:stone_bricks"
 				type: "item"
 			}]
+			shape: "heart"
 			tasks: [{
 				id: "6CF57C5770D88EAB"
 				item: "minecraft:stonecutter"
@@ -438,6 +419,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "heart"
 			tasks: [{
 				id: "4A169026A5D3DD23"
 				item: "elevatorid:elevator_white"
@@ -456,6 +438,7 @@
 				item: "minecraft:lantern"
 				type: "item"
 			}]
+			shape: "heart"
 			tasks: [
 				{
 					id: "63D7F84044022CA2"
@@ -519,6 +502,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
 			tasks: [
 				{
 					count: 5L
@@ -543,6 +527,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
 			tasks: [
 				{
 					count: 5L
@@ -567,6 +552,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
 			tasks: [
 				{
 					count: 5L
@@ -591,6 +577,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
 			tasks: [
 				{
 					count: 5L
@@ -615,6 +602,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
 			tasks: [
 				{
 					count: 5L
@@ -639,6 +627,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
 			tasks: [
 				{
 					count: 5L
@@ -663,6 +652,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "diamond"
 			tasks: [
 				{
 					count: 5L
@@ -716,6 +706,7 @@
 					xp_levels: 2
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				count: 26L
 				id: "31A1EA4FF6F3FE49"
@@ -733,6 +724,7 @@
 				item: "minecraft:pig_spawn_egg"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				count: 30L
 				id: "265F4BC75953C52B"
@@ -756,6 +748,7 @@
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				count: 10L
 				id: "4C6E79C57FCEDC6A"
@@ -794,6 +787,7 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				count: 10L
 				id: "7AF7ADBDE00055D5"
@@ -840,6 +834,7 @@
 				skill: "swordsmanship"
 				type: "pmmo:levelreward"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				entity: "minecraft:pig"
 				id: "15404958FB01E581"
@@ -873,6 +868,7 @@
 					type: "choice"
 				}
 			]
+			shape: "rsquare"
 			subtitle: "Like to fish"
 			tasks: [{
 				entity: "theabyss:versa_whale"

@@ -7,42 +7,6 @@
 	id: "2A69D6F9DDB6664E"
 	images: [
 		{
-			height: 1.0d
-			image: "phantasm:block/void_crystal_shard_down_tip"
-			order: 1
-			rotation: 0.0d
-			width: 1.0d
-			x: 9.5d
-			y: -1.5d
-		}
-		{
-			height: 3.0d
-			image: "minecraft:block/cave_vines_plant"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: -6.0d
-			y: -16.5d
-		}
-		{
-			height: 3.0d
-			image: "minecraft:block/cave_vines"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: -6.0d
-			y: -9.0d
-		}
-		{
-			height: 3.0d
-			image: "minecraft:block/cave_vines_plant"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: -6.0d
-			y: -14.0d
-		}
-		{
 			height: 3.0d
 			image: "minecraft:block/soul_campfire_fire"
 			order: 1
@@ -62,128 +26,12 @@
 		}
 		{
 			height: 2.0d
-			image: "tombstone:textures/aura/aura1.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 2.0d
-			y: -6.0d
-		}
-		{
-			height: 2.0d
-			image: "zoomers_armory:item/flint_shortbow_drawing_2"
-			order: 1
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.0d
-			y: -3.5d
-		}
-		{
-			height: 2.0d
-			image: "aether:item/armor/valkyrie_chestplate"
-			order: 1
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.5d
-			y: 0.0d
-		}
-		{
-			height: 2.0d
-			image: "create_sa:item/copper_magnet"
-			order: 1
-			rotation: 0.0d
-			width: 2.0d
-			x: -2.5d
-			y: -0.5d
-		}
-		{
-			height: 2.0d
-			image: "theabyss:item/bone_pickaxe"
-			order: 1
-			rotation: 0.0d
-			width: 2.0d
-			x: -4.5d
-			y: -2.5d
-		}
-		{
-			height: 2.0d
-			image: "create_sa:item/experience_pickaxe"
-			order: 1
-			rotation: 0.0d
-			width: 2.0d
-			x: -6.5d
-			y: -4.0d
-		}
-		{
-			height: 2.0d
-			image: "sophisticatedbackpacks:item/anvil_upgrade"
-			order: 1
-			rotation: 0.0d
-			width: 2.0d
-			x: -4.0d
-			y: -6.0d
-		}
-		{
-			height: 2.0d
-			image: "zoomers_armory:item/flint_shortbow_drawing_0"
-			order: 1
-			rotation: 0.0d
-			width: 2.0d
-			x: -1.5d
-			y: -3.5d
-		}
-		{
-			height: 2.0d
-			image: "zoomers_armory:item/flint_longbow_drawing_0"
-			order: 1
-			rotation: 0.0d
-			width: 2.0d
-			x: 1.5d
-			y: -3.5d
-		}
-		{
-			height: 2.0d
-			image: "theabyss:item/ice-diamond"
-			order: 1
-			rotation: 0.0d
-			width: 2.0d
-			x: 6.0d
-			y: -4.5d
-		}
-		{
-			height: 2.0d
-			image: "aether:item/food/candy_cane"
-			order: 1
-			rotation: 0.0d
-			width: 2.0d
-			x: 5.0d
-			y: 0.0d
-		}
-		{
-			height: 2.0d
-			image: "minecraft:item/fishing_rod"
-			order: 1
-			rotation: 0.0d
-			width: 2.0d
-			x: 11.5d
-			y: -4.5d
-		}
-		{
-			height: 2.0d
-			image: "minecraft:textures/particle/lava.png"
-			order: 1
-			rotation: 0.0d
-			width: 2.0d
-			x: -0.5d
-			y: -7.0d
-		}
-		{
-			height: 2.0d
 			image: "immersive_melodies:item/icon/bagpipe"
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
-			x: -3.5d
-			y: -10.5d
+			x: -3.7142857142856798d
+			y: -12.73809523809524d
 		}
 		{
 			height: 2.0d
@@ -191,98 +39,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
-			x: 3.5d
-			y: -10.5d
-		}
-		{
-			height: 1.0d
-			image: "phantasm:block/void_crystal_shard_down_tip"
-			order: 1
-			rotation: 0.0d
-			width: 1.0d
-			x: 8.5d
-			y: -1.5d
-		}
-		{
-			height: 1.0d
-			image: "phantasm:block/void_crystal_shard_down_tip"
-			order: 1
-			rotation: 0.0d
-			width: 1.0d
-			x: 9.0d
-			y: -1.5d
-		}
-		{
-			height: 3.0d
-			image: "minecraft:block/cave_vines_plant"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: -6.0d
-			y: -11.5d
-		}
-		{
-			height: 3.0d
-			image: "minecraft:block/cave_vines_lit"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: -1.0d
-			y: -11.5d
-		}
-		{
-			height: 3.0d
-			image: "minecraft:block/cave_vines_plant_lit"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: -1.0d
-			y: -16.5d
-		}
-		{
-			height: 3.0d
-			image: "betternether:block/golden_vine"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: 15.0d
-			y: -16.5d
-		}
-		{
-			height: 3.0d
-			image: "betternether:block/golden_vine_bottom"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: 15.0d
-			y: -11.5d
-		}
-		{
-			height: 3.0d
-			image: "betternether:block/golden_vine"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: 15.0d
-			y: -14.0d
-		}
-		{
-			height: 3.0d
-			image: "minecraft:block/tall_seagrass_bottom"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: 4.0d
-			y: 6.5d
-		}
-		{
-			height: 3.0d
-			image: "minecraft:block/tall_seagrass_top"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: 4.0d
-			y: 4.0d
+			x: 3.2142857142857366d
+			y: -12.595238095238102d
 		}
 		{
 			height: 2.0d
@@ -292,15 +50,6 @@
 			width: 2.0d
 			x: 6.5d
 			y: -11.5d
-		}
-		{
-			height: 3.0d
-			image: "minecraft:block/cave_vines_plant_lit"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: -1.0d
-			y: -14.0d
 		}
 		{
 			height: 4.0d
@@ -317,107 +66,8 @@
 			order: 2
 			rotation: 0.0d
 			width: 5.0d
-			x: 13.0d
-			y: 4.5d
-		}
-		{
-			height: 1.0d
-			image: "phantasm:block/void_crystal_shard_down_tip"
-			order: 1
-			rotation: 0.0d
-			width: 1.0d
-			x: 10.0d
-			y: -1.5d
-		}
-		{
-			height: 1.0d
-			image: "phantasm:block/void_crystal_shard_down_tip"
-			order: 1
-			rotation: 0.0d
-			width: 1.0d
-			x: 10.5d
-			y: -1.5d
-		}
-		{
-			height: 1.0d
-			image: "phantasm:block/void_crystal_shard_down_tip"
-			order: 1
-			rotation: 180.0d
-			width: 1.0d
-			x: 8.5d
-			y: 1.0d
-		}
-		{
-			height: 1.0d
-			image: "phantasm:block/void_crystal_shard_down_tip"
-			order: 1
-			rotation: 180.0d
-			width: 1.0d
 			x: 9.0d
-			y: 1.0d
-		}
-		{
-			height: 1.0d
-			image: "phantasm:block/void_crystal_shard_down_tip"
-			order: 1
-			rotation: 180.0d
-			width: 1.0d
-			x: 9.5d
-			y: 1.0d
-		}
-		{
-			height: 1.0d
-			image: "phantasm:block/void_crystal_shard_down_tip"
-			order: 1
-			rotation: 180.0d
-			width: 1.0d
-			x: 10.0d
-			y: 1.0d
-		}
-		{
-			height: 1.0d
-			image: "phantasm:block/void_crystal_shard_down_tip"
-			order: 1
-			rotation: 180.0d
-			width: 1.0d
-			x: 10.5d
-			y: 1.0d
-		}
-		{
-			height: 3.0d
-			image: "minecraft:block/tall_seagrass_bottom"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: 0.5d
-			y: 6.5d
-		}
-		{
-			height: 3.0d
-			image: "minecraft:block/tall_seagrass_bottom"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: -6.0d
-			y: 6.5d
-		}
-		{
-			height: 3.0d
-			image: "minecraft:block/tall_seagrass_top"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: 0.5d
-			y: 4.0d
-		}
-		{
-			height: 3.0d
-			image: "minecraft:block/tall_seagrass_top"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: -6.0d
-			y: 4.0d
+			y: 0.5d
 		}
 		{
 			height: 5.0d
@@ -425,12 +75,13 @@
 			order: 2
 			rotation: 0.0d
 			width: 3.0d
-			x: 13.0d
-			y: 3.0d
+			x: 9.0d
+			y: -0.5d
 		}
 		{
 			height: 30.0d
 			image: "betternether:block/obsidian_rod_tiles"
+			order: -2
 			rotation: 0.0d
 			width: 30.0d
 			x: 4.0d
@@ -500,6 +151,232 @@
 			x: -21.714285714285687d
 			y: -30.61904761904762d
 		}
+		{
+			height: 3.0d
+			image: "nethersdelight:block/propelplant_stem"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.000000000000071d
+			y: 6.630952380952365d
+		}
+		{
+			height: 3.0d
+			image: "nethersdelight:block/propelplant_cane"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.000000000000071d
+			y: 4.059523809523796d
+		}
+		{
+			height: 3.0d
+			image: "nethersdelight:block/propelplant_berry_cane_berry"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.000000000000071d
+			y: 1.4880952380952266d
+		}
+		{
+			height: 3.0d
+			image: "theabyss:block/loran_flower_lower"
+			rotation: 180.0d
+			width: 3.0d
+			x: -7.285714285714263d
+			y: -16.226190476190496d
+		}
+		{
+			height: 3.0d
+			image: "theabyss:block/loran_flower_upper"
+			rotation: 180.0d
+			width: 3.0d
+			x: -7.14285714285711d
+			y: -13.654761904761926d
+		}
+		{
+			height: 3.0d
+			image: "theabyss:block/loran_flower_upper"
+			rotation: 180.0d
+			width: 3.0d
+			x: 12.142857142857167d
+			y: -16.511904761904773d
+		}
+		{
+			height: 3.0d
+			image: "blue_skies:block/misc/moonstone_crystal"
+			rotation: 90.0d
+			width: 3.0d
+			x: -7.571428571428541d
+			y: -7.654761904761926d
+		}
+		{
+			height: 3.0d
+			image: "blue_skies:block/misc/sunstone_crystal"
+			rotation: -90.0d
+			width: 3.0d
+			x: 15.428571428571459d
+			y: -7.511904761904773d
+		}
+		{
+			height: 3.0d
+			image: "blue_skies:block/misc/sunstone_crystal"
+			rotation: 180.0d
+			width: 3.0d
+			x: -0.7142857142856798d
+			y: -16.369047619047635d
+		}
+		{
+			height: 3.0d
+			image: "blue_skies:block/misc/moonstone_crystal"
+			rotation: 180.0d
+			width: 3.0d
+			x: 8.000000000000028d
+			y: -16.369047619047635d
+		}
+		{
+			height: 3.0d
+			image: "nethersdelight:block/propelplant_berry_stem_berry"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.2857142857142918d
+			y: 6.630952380952365d
+		}
+		{
+			height: 3.0d
+			image: "nethersdelight:block/propelplant_berry_stem"
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.285714285714292d
+			y: 6.630952380952365d
+		}
+		{
+			height: 3.0d
+			image: "nethersdelight:block/propelplant_stem"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.000000000000014d
+			y: 6.630952380952365d
+		}
+		{
+			height: 3.0d
+			image: "nethersdelight:block/propelplant_cane"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.000000000000014d
+			y: 4.059523809523796d
+		}
+		{
+			height: 3.0d
+			image: "nethersdelight:block/propelplant_berry_cane"
+			rotation: 0.0d
+			width: 3.0d
+			x: -3.857142857142847d
+			y: 1.6309523809523654d
+		}
+		{
+			height: 3.0d
+			image: "nethersdelight:block/propelplant_stem"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.428571428571445d
+			y: 6.630952380952365d
+		}
+		{
+			height: 3.0d
+			image: "nethersdelight:block/propelplant_stem"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.428571428571416d
+			y: 6.630952380952365d
+		}
+		{
+			height: 3.0d
+			image: "nethersdelight:block/propelplant_berry_cane_berry"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			height: 3.0d
+			image: "nethersdelight:block/propelplant_berry_stem"
+			rotation: 0.0d
+			width: 3.0d
+			x: 15.571428571428584d
+			y: 6.630952380952365d
+		}
+		{
+			height: 3.0d
+			image: "nethersdelight:block/propelplant_stem"
+			rotation: 0.0d
+			width: 3.0d
+			x: 13.000000000000014d
+			y: 6.630952380952365d
+		}
+		{
+			height: 3.0d
+			image: "nethersdelight:block/propelplant_cane"
+			rotation: 0.0d
+			width: 3.0d
+			x: 13.000000000000028d
+			y: 4.047619047619051d
+		}
+		{
+			height: 3.0d
+			image: "nethersdelight:block/propelplant_berry_cane_berry"
+			rotation: 0.0d
+			width: 3.0d
+			x: 13.000000000000028d
+			y: 1.4761904761904674d
+		}
+		{
+			height: 3.0d
+			image: "phantasm:block/crystal_shard_base"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.857142857142875d
+			y: 6.630952380952351d
+		}
+		{
+			height: 3.0d
+			image: "phantasm:block/crystal_shard_up_tip"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.0d
+			y: 4.059523809523782d
+		}
+		{
+			height: 3.0d
+			image: "phantasm:block/crystal_shard_base"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.0d
+			y: 6.630952380952351d
+		}
+		{
+			height: 3.0d
+			image: "phantasm:block/crystal_shard_up_tip"
+			rotation: 0.0d
+			width: 3.0d
+			x: -1.9999999999999858d
+			y: 4.059523809523782d
+		}
+		{
+			height: 3.0d
+			image: "phantasm:block/crystal_shard_up_tip"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.999999999999986d
+			y: 6.630952380952351d
+		}
+		{
+			height: 3.0d
+			image: "phantasm:block/crystal_shard_up_tip"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: 11.142857142857153d
+			y: 6.630952380952351d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -533,6 +410,8 @@
 					type: "item"
 				}
 			]
+			shape: "pentagon"
+			size: 1.5d
 			subtitle: "Morning wood"
 			tasks: [
 				{
@@ -601,7 +480,19 @@
 					item: "minecraft:cobblestone"
 					type: "item"
 				}
+				{
+					count: 5
+					id: "6037BEC1A808B3CA"
+					item: {
+						Count: 1
+						id: "minecraft:cooked_beef"
+						tag: { }
+					}
+					type: "item"
+				}
 			]
+			shape: "pentagon"
+			size: 1.5d
 			subtitle: "Hard as rock"
 			tasks: [
 				{
@@ -639,8 +530,8 @@
 				}
 			]
 			title: "Stone age"
-			x: -4.5d
-			y: -2.5d
+			x: -3.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["3E3C192F1B2C4AFB"]
@@ -655,8 +546,13 @@
 			id: "480BE4229F53362D"
 			rewards: [
 				{
+					count: 2
 					id: "6723D350CB477B0A"
-					item: "minecraft:diamond"
+					item: {
+						Count: 1
+						id: "minecraft:diamond"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
@@ -665,9 +561,13 @@
 					xp_levels: 1
 				}
 				{
-					count: 2
+					count: 4
 					id: "130965C9EE05737B"
-					item: "minecraft:obsidian"
+					item: {
+						Count: 1
+						id: "minecraft:obsidian"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
@@ -676,7 +576,19 @@
 					item: "minecraft:cobblestone"
 					type: "item"
 				}
+				{
+					count: 5
+					id: "6E70A208902B838C"
+					item: {
+						Count: 1
+						id: "minecraft:cooked_beef"
+						tag: { }
+					}
+					type: "item"
+				}
 			]
+			shape: "pentagon"
+			size: 1.5d
 			subtitle: "Iron prowess"
 			tasks: [
 				{
@@ -715,34 +627,52 @@
 			]
 			title: "Forged in Iron "
 			x: -1.5d
-			y: -3.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3F6B027FC76927D9"]
 			description: ["&7You've captured the fury of the earth itself. With a bucket of lava in hand, you hold the power to reshape the world, fuel great forges, or unleash fiery destruction. Use this molten force wisely!"]
+			icon: {
+				Count: 1
+				id: "minecraft:lava_bucket"
+				tag: { }
+			}
 			id: "6671E971AE1EEE0C"
 			rewards: [
 				{
-					count: 2
+					count: 5
 					id: "1647C79ECA3EF0D7"
-					item: "minecraft:obsidian"
+					item: {
+						Count: 1
+						id: "minecraft:obsidian"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
+					count: 5
 					id: "7A78C03DA353FC92"
-					item: "minecraft:diamond"
+					item: {
+						Count: 1
+						id: "minecraft:diamond"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
+			shape: "pentagon"
+			size: 1.5d
 			subtitle: "Bucket challenge"
 			tasks: [{
+				consume_items: true
+				count: 5L
 				id: "4A159C5D3FEFA566"
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
 			title: "Hot stuff"
-			x: -0.5d
-			y: -7.0d
+			x: 0.0d
+			y: -9.75d
 		}
 		{
 			dependencies: ["3F6B027FC76927D9"]
@@ -772,7 +702,19 @@
 					item: "minecraft:ender_pearl"
 					type: "item"
 				}
+				{
+					count: 4
+					id: "04EA77893B26C688"
+					item: {
+						Count: 1
+						id: "minecraft:diamond"
+						tag: { }
+					}
+					type: "item"
+				}
 			]
+			shape: "pentagon"
+			size: 1.5d
 			subtitle: "Suits"
 			tasks: [
 				{
@@ -819,21 +761,10 @@
 					}
 					type: "item"
 				}
-				{
-					id: "471468293C33727E"
-					item: {
-						Count: 1
-						id: "aether:iron_gloves"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
 			]
 			title: "Iron man"
-			x: 0.5d
-			y: 0.0d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["633499C57C9CE4CF"]
@@ -858,6 +789,8 @@
 					type: "loot"
 				}
 			]
+			shape: "pentagon"
+			size: 1.5d
 			subtitle: "D..d...d..d DIAMONDS!"
 			tasks: [{
 				count: 10L
@@ -866,8 +799,8 @@
 				type: "item"
 			}]
 			title: "Valoare"
-			x: 1.5d
-			y: -3.5d
+			x: 4.5d
+			y: -3.75d
 		}
 		{
 			dependencies: ["226B619AE352B9D3"]
@@ -894,6 +827,8 @@
 					type: "loot"
 				}
 			]
+			shape: "pentagon"
+			size: 1.5d
 			subtitle: "Carbon armor"
 			tasks: [
 				{
@@ -940,20 +875,9 @@
 					}
 					type: "item"
 				}
-				{
-					id: "64FBA2478C31E10F"
-					item: {
-						Count: 1
-						id: "aether:diamond_gloves"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
 			]
 			title: "Haladit"
-			x: 6.0d
+			x: 8.25d
 			y: -4.5d
 		}
 		{
@@ -997,6 +921,8 @@
 					type: "loot"
 				}
 			]
+			shape: "pentagon"
+			size: 1.5d
 			subtitle: "FIRE!!!"
 			tasks: [{
 				id: "49B7A696BF34C2B0"
@@ -1010,8 +936,8 @@
 				type: "item"
 			}]
 			title: "Arson"
-			x: 0.0d
-			y: -3.5d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["226B619AE352B9D3"]
@@ -1022,6 +948,8 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
+			shape: "pentagon"
+			size: 1.5d
 			subtitle: "Shiny!"
 			tasks: [{
 				id: "47A658F132010D38"
@@ -1029,8 +957,8 @@
 				type: "item"
 			}]
 			title: "Vrajeala"
-			x: 2.0d
-			y: -6.0d
+			x: 3.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["480BE4229F53362D"]
@@ -1055,12 +983,9 @@
 					item: "minecraft:andesite"
 					type: "item"
 				}
-				{
-					id: "17A635977F73F71B"
-					item: "refinedstorage:raw_basic_processor"
-					type: "item"
-				}
 			]
+			shape: "pentagon"
+			size: 1.5d
 			subtitle: "Hammer time"
 			tasks: [{
 				id: "4D15880CBAF89D61"
@@ -1068,8 +993,8 @@
 				type: "item"
 			}]
 			title: "Nicoleta"
-			x: -4.0d
-			y: -6.0d
+			x: -4.5d
+			y: -8.25d
 		}
 		{
 			dependencies: ["7DCD75CD3573BDFC"]
@@ -1093,6 +1018,8 @@
 					type: "item"
 				}
 			]
+			shape: "pentagon"
+			size: 1.5d
 			subtitle: "I spy with my little eye a handsome wizzard and a giant flower "
 			tasks: [{
 				count: 10L
@@ -1101,8 +1028,8 @@
 				type: "item"
 			}]
 			title: "Meth"
-			x: 9.5d
-			y: 0.0d
+			x: 6.75d
+			y: -2.25d
 		}
 		{
 			description: ["&7Craft a candy that seems a bit too intriguing. Its mysterious appearance and unknown effects might hold unexpected surprises. Dare to taste and uncover the secrets hidden within this suspicious treat!"]
@@ -1126,6 +1053,8 @@
 					xp_levels: 1
 				}
 			]
+			shape: "pentagon"
+			size: 1.5d
 			subtitle: "So high right now..."
 			tasks: [{
 				id: "7F594003796DDCCD"
@@ -1165,6 +1094,8 @@
 					xp_levels: 1
 				}
 			]
+			shape: "gear"
+			size: 1.5d
 			subtitle: "Magnetism!"
 			tasks: [{
 				id: "0839346ABB8DCC7F"
@@ -1176,8 +1107,8 @@
 				type: "item"
 			}]
 			title: "Magnetic field"
-			x: -2.5d
-			y: -0.5d
+			x: -0.75d
+			y: -0.75d
 		}
 		{
 			dependencies: ["527A569F3EE723FF"]
@@ -1204,7 +1135,7 @@
 				}
 			]
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "Gold magnet"
 			tasks: [{
 				id: "032EA425088DF81E"
@@ -1216,8 +1147,8 @@
 				type: "item"
 			}]
 			title: "Pussy magnet"
-			x: -4.5d
-			y: 1.5d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6671E971AE1EEE0C"]
@@ -1238,8 +1169,8 @@
 				type: "item"
 			}]
 			title: "Take flight"
-			x: 0.0d
-			y: -10.0d
+			x: -0.25d
+			y: -12.25d
 		}
 		{
 			dependencies: ["3CA3A36693BBA2AA"]
@@ -1250,6 +1181,8 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "gear"
+			size: 1.5d
 			subtitle: "Coal powered"
 			tasks: [{
 				id: "62F08E7A79EE801C"
@@ -1257,18 +1190,25 @@
 				type: "item"
 			}]
 			title: "Gonna go far kid"
-			x: 3.5d
-			y: -10.5d
+			x: 3.25d
+			y: -12.75d
 		}
 		{
 			dependencies: ["3CA3A36693BBA2AA"]
 			description: ["&7Elevate your flying machines with crucial enhancements. Equip steel pipes for durability, a sturdy boiler for efficiency, and an enhanced propeller for speed. With these upgrades, your Gyrodrone and plane will conquer the skies with unmatched power and precision!"]
+			icon: {
+				Count: 1
+				id: "immersive_aircraft:steel_boiler"
+				tag: { }
+			}
 			id: "1A94B4301FB129D8"
 			rewards: [{
 				id: "3F96853A57964E7A"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "gear"
+			size: 1.5d
 			subtitle: "Room for upgrades"
 			tasks: [
 				{
@@ -1288,8 +1228,8 @@
 				}
 			]
 			title: "Small upgrades"
-			x: -3.5d
-			y: -10.5d
+			x: -3.75d
+			y: -12.75d
 		}
 		{
 			dependencies: ["4B27B1A14C811542"]
@@ -1315,7 +1255,7 @@
 				type: "item"
 			}]
 			title: "Calea Domnului"
-			x: 3.75d
+			x: 6.0d
 			y: -8.25d
 		}
 		{
@@ -1357,8 +1297,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 13.0d
-			y: 4.0d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B206DEC6377851A"]
@@ -1413,6 +1353,14 @@
 				}
 			}
 			id: "76948D8EFE97F7C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78A69AF4E637F584"
+				table_id: 5864491233161153354L
+				type: "loot"
+			}]
+			shape: "pentagon"
+			size: 1.5d
 			subtitle: "Fish power"
 			tasks: [
 				{
@@ -1460,8 +1408,8 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
-			y: -4.5d
+			x: 11.25d
+			y: -6.0d
 		}
 		{
 			description: ["&7Harness the ethereal power of the Soul Star. This mystical artifact will lead you to the hidden citadel of the Night Lich. Follow its otherworldly glow to uncover the secrets of this formidable foe's lair."]

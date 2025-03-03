@@ -31,13 +31,15 @@
 					type: "item"
 				}
 			]
+			shape: "square"
+			size: 2.0d
 			tasks: [{
 				id: "55F8BE28610FFB50"
 				item: "brewery:wooden_brewingstation"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.0d
+			x: 3.5d
+			y: 0.5d
 		}
 		{
 			id: "25B74DADCCED2798"
@@ -59,7 +61,7 @@
 				item: "brewery:silo_wood"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -70,13 +72,15 @@
 				item: "minecraft:iron_block"
 				type: "item"
 			}]
+			shape: "square"
+			size: 2.0d
 			tasks: [{
 				id: "69987B1FB1CAF57A"
 				item: "brewery:copper_brewingstation"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.5d
+			x: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1A352BBE70AC070C"]
@@ -87,13 +91,15 @@
 				table_id: 4129790000591020242L
 				type: "loot"
 			}]
+			shape: "square"
+			size: 2.0d
 			tasks: [{
 				id: "39EE1D4A02EE8A35"
 				item: "brewery:netherite_brewingstation"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -3.0d
+			x: 1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["25B74DADCCED2798"]
@@ -103,8 +109,8 @@
 				item: "brewery:silo_copper"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: -3.0d
+			y: -2.5d
 		}
 		{
 			id: "36B917AD8D43095F"
@@ -118,7 +124,7 @@
 				item: "brewery:barrel_main"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -9.0d
 			y: -0.5d
 		}
 		{
@@ -134,7 +140,7 @@
 				item: "brewery:rope"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -6.0d
 			y: -0.5d
 		}
 		{
@@ -149,7 +155,7 @@
 				item: "brewery:beer_mug"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -7.5d
 			y: -0.5d
 		}
 		{
