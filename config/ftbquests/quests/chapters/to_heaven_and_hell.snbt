@@ -342,7 +342,7 @@
 					id: "18C608650C9BF4A3"
 					item: {
 						Count: 1
-						id: "minecraft:netherite_scrap"
+						id: "minecraft:diamond"
 						tag: { }
 					}
 					type: "item"
@@ -457,7 +457,7 @@
 				}
 				{
 					id: "03D6092A7C97D258"
-					item: "minecraft:netherite_ingot"
+					item: "minecraft:diamond"
 					type: "item"
 				}
 				{
