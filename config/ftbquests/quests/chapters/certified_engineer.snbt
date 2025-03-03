@@ -1168,21 +1168,21 @@
 			subtitle: "Brass is the new iron. Iron is the new coal. Coal is the new dirt. Dirt is dirt... duuh"
 			tasks: [
 				{
-					count: 128L
+					count: 32L
 					id: "7F9500C73F432F71"
 					item: "create:iron_sheet"
 					optional_task: true
 					type: "item"
 				}
 				{
-					count: 96L
+					count: 24L
 					id: "51059CC0C40A37FD"
 					item: "createaddition:zinc_sheet"
 					optional_task: true
 					type: "item"
 				}
 				{
-					count: 64L
+					count: 16L
 					id: "14F5E83DA08CD53A"
 					item: "create:brass_casing"
 					optional_task: true
@@ -1220,14 +1220,14 @@
 			subtitle: "Railway time, explore the world in a train. Live in the train or even achive multi dimensional travel with them."
 			tasks: [
 				{
-					count: 128L
+					count: 16L
 					id: "4520A393E850C7BA"
 					item: "create:railway_casing"
 					optional_task: true
 					type: "item"
 				}
 				{
-					count: 256L
+					count: 16L
 					id: "0E07DB4E9B472F3C"
 					item: "create:flywheel"
 					optional_task: true
@@ -1258,14 +1258,14 @@
 			subtitle: "You'll need a bigger workshop. But also rail complexity..."
 			tasks: [
 				{
-					count: 256L
+					count: 32L
 					id: "0ECB34B407F915DF"
 					item: "create:brass_sheet"
 					optional_task: true
 					type: "item"
 				}
 				{
-					count: 128L
+					count: 32L
 					id: "07B5A95EC7301555"
 					item: "create:brass_casing"
 					optional_task: true
@@ -1296,14 +1296,14 @@
 			subtitle: "Combine electricity with mechanical gears. You will enjoy the result."
 			tasks: [
 				{
-					count: 64L
+					count: 24L
 					id: "09199779DB0DD337"
 					item: "create:mechanical_crafter"
 					optional_task: true
 					type: "item"
 				}
 				{
-					count: 64L
+					count: 24L
 					id: "26D6F7318A626ABE"
 					item: "create:electron_tube"
 					optional_task: true
@@ -1380,21 +1380,21 @@
 			subtitle: "Is it me or is it getting hot in here?"
 			tasks: [
 				{
-					count: 64L
+					count: 32L
 					id: "52C476B3914A3A25"
 					item: "create:brass_sheet"
 					optional_task: true
 					type: "item"
 				}
 				{
-					count: 32L
+					count: 16L
 					id: "1F992364776B570C"
 					item: "create:mechanical_crafter"
 					optional_task: true
 					type: "item"
 				}
 				{
-					count: 16L
+					count: 8L
 					id: "6C5C2CD0A7A836CD"
 					item: "create:steam_engine"
 					optional_task: true
@@ -1426,21 +1426,21 @@
 			subtitle: "So many things could be done with brass it's almost a shame piglins don't trade it. Or do they?"
 			tasks: [
 				{
-					count: 64L
+					count: 32L
 					id: "543786A881A6503A"
 					item: "create:brass_sheet"
 					optional_task: true
 					type: "item"
 				}
 				{
-					count: 32L
+					count: 16L
 					id: "069AAF63D63780F9"
 					item: "create:mechanical_crafter"
 					optional_task: true
 					type: "item"
 				}
 				{
-					count: 16L
+					count: 8L
 					id: "3252C4748AB6CBBB"
 					item: "create:steam_engine"
 					optional_task: true
@@ -1472,21 +1472,21 @@
 			subtitle: "There is an old piglin say 'Brass, Gass or ^#$@'. Sorry"
 			tasks: [
 				{
-					count: 64L
+					count: 32L
 					id: "4C068A02F2EA0207"
 					item: "create:brass_sheet"
 					optional_task: true
 					type: "item"
 				}
 				{
-					count: 32L
+					count: 16L
 					id: "3F24847D8AF510B9"
 					item: "create:mechanical_crafter"
 					optional_task: true
 					type: "item"
 				}
 				{
-					count: 16L
+					count: 8L
 					id: "3A55904A11E20442"
 					item: "create:steam_engine"
 					optional_task: true
@@ -1518,21 +1518,21 @@
 			subtitle: "Have you ever tried to build a rotation speed controller? you should..."
 			tasks: [
 				{
-					count: 64L
+					count: 32L
 					id: "608347DC8CB081F7"
 					item: "create:brass_sheet"
 					optional_task: true
 					type: "item"
 				}
 				{
-					count: 32L
+					count: 16L
 					id: "2D8FCFE7C9907E9A"
 					item: "create:mechanical_crafter"
 					optional_task: true
 					type: "item"
 				}
 				{
-					count: 16L
+					count: 8L
 					id: "48C80CC9712F2C3E"
 					item: "create:steam_engine"
 					optional_task: true
@@ -1564,7 +1564,7 @@
 			subtitle: "It must be really complex to create a mechanism to power a mechanism..."
 			tasks: [
 				{
-					count: 128L
+					count: 48L
 					id: "750C0DF17FFB8B6C"
 					item: "create:mechanical_pump"
 					optional_task: true
@@ -1596,7 +1596,7 @@
 			subtitle: "Dan, stop probing the power outlets"
 			tasks: [
 				{
-					count: 512L
+					count: 32L
 					id: "4B197A631D0A69D9"
 					item: "createaddition:copper_spool"
 					optional_task: true
@@ -1628,7 +1628,7 @@
 			subtitle: "Dan, you gotta stop using trifazic setup"
 			tasks: [
 				{
-					count: 256L
+					count: 16L
 					id: "3598A085E11D4906"
 					item: "createaddition:capacitor"
 					optional_task: true
@@ -1660,7 +1660,7 @@
 			subtitle: "Dan, i still don't get it why you play with the copper wires."
 			tasks: [
 				{
-					count: 256L
+					count: 16L
 					id: "609D1EF7864CC4F8"
 					item: "createaddition:large_connector"
 					optional_task: true
@@ -1686,7 +1686,7 @@
 			subtitle: "Dan, you can sell the copper to Nitro"
 			tasks: [
 				{
-					count: 64L
+					count: 4L
 					id: "30346F85A45BE74C"
 					item: "createaddition:electric_motor"
 					optional_task: true
@@ -1718,7 +1718,7 @@
 			subtitle: "You've built a boiler, but your steam-powered dreams are still a bit… leaky."
 			tasks: [
 				{
-					count: 512L
+					count: 64L
 					id: "757203A37DAB230D"
 					item: "refinedstorage:quartz_enriched_iron"
 					optional_task: true
@@ -1750,7 +1750,7 @@
 			subtitle: "You see gears spinning, and you hear music. Wait, why is everything moving on its own?!"
 			tasks: [
 				{
-					count: 256L
+					count: 32L
 					id: "5144F9C84AEBC95D"
 					item: "refinedstorage:improved_processor"
 					optional_task: true
@@ -1782,7 +1782,7 @@
 			subtitle: "Belts. Everywhere. You might have taken the factory aesthetic a bit too seriously."
 			tasks: [
 				{
-					count: 256L
+					count: 42L
 					id: "3010BC650CC3780C"
 					item: "refinedstorage:silicon"
 					optional_task: true
@@ -1814,7 +1814,7 @@
 			subtitle: "You haven't seen the sun in days. Your only light source? Blaze burners."
 			tasks: [
 				{
-					count: 64L
+					count: 8L
 					id: "71EC643FC1892CBB"
 					item: "refinedstorage:construction_core"
 					optional_task: true
@@ -1850,7 +1850,7 @@
 			subtitle: "Your factory is so efficient, villagers have started worshiping you as their automation god."
 			tasks: [
 				{
-					count: 64L
+					count: 4L
 					id: "6BF38BADCE103FE8"
 					item: "refinedstorage:destruction_core"
 					optional_task: true
@@ -2102,7 +2102,7 @@
 					type: "item"
 				}
 				{
-					count: 64L
+					count: 16L
 					id: "30F4D835722150E5"
 					item: "create:item_vault"
 					optional_task: true
@@ -2133,7 +2133,7 @@
 			subtitle: "Dan, did you steal anything from Nitro?"
 			tasks: [
 				{
-					count: 64L
+					count: 4L
 					id: "066BD478E098F847"
 					item: "createaddition:alternator"
 					optional_task: true

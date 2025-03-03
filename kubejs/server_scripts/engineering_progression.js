@@ -265,7 +265,7 @@ let techProgMilestones = [
             },
             {
                 item: "create:item_vault",
-                amount: 64
+                amount: 16
             }
         ],
         pmmoLevelSet: 17,
@@ -297,15 +297,15 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "create:iron_sheet",
-                amount: 128
+                amount: 32
             },
             {
                 item: "createaddition:zinc_sheet",
-                amount: 96
+                amount: 24
             },
             {
                 item: "create:brass_casing",
-                amount: 64
+                amount: 16
             },
             {
                 item: "create:brass_hand",
@@ -321,11 +321,11 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "create:railway_casing",
-                amount: 128
+                amount: 16
             },
             {
                 item: "create:flywheel",
-                amount: 256
+                amount: 16
             }
         ],
         pmmoLevelSet: 22,
@@ -337,11 +337,11 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "create:brass_sheet",
-                amount: 256
+                amount: 32
             },
             {
                 item: "create:brass_casing",
-                amount: 128
+                amount: 32
             }
         ],
         pmmoLevelSet: 23,
@@ -353,11 +353,11 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "create:mechanical_crafter",
-                amount: 64
+                amount: 24
             },
             {
                 item: "create:electron_tube",
-                amount: 64
+                amount: 24
             }
         ],
         pmmoLevelSet: 24,
@@ -389,15 +389,15 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "create:brass_sheet",
-                amount: 64
+                amount: 32
             },
             {
                 item: "create:mechanical_crafter",
-                amount: 32,
+                amount: 16,
             },
             {
                 item: "create:steam_engine",
-                amount: 16
+                amount: 8
             },
         ],
         pmmoLevelSet: 26,
@@ -409,16 +409,16 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "create:brass_sheet",
-                amount: 64
+                amount: 32
             },
             {
                 item: "create:mechanical_crafter",
-                amount: 32,
+                amount: 16,
             },
             {
                 item: "create:steam_engine",
-                amount: 16
-            },
+                amount: 8
+            }
         ],
         pmmoLevelSet: 27,
     },
@@ -429,15 +429,15 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "create:brass_sheet",
-                amount: 64
+                amount: 32
             },
             {
                 item: "create:mechanical_crafter",
-                amount: 32,
+                amount: 16,
             },
             {
                 item: "create:steam_engine",
-                amount: 16
+                amount: 8
             },
         ],
         pmmoLevelSet: 28,
@@ -449,15 +449,15 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "create:brass_sheet",
-                amount: 64
+                amount: 32
             },
             {
                 item: "create:mechanical_crafter",
-                amount: 32,
+                amount: 16,
             },
             {
                 item: "create:steam_engine",
-                amount: 16
+                amount: 8
             },
         ],
         pmmoLevelSet: 29,
@@ -469,7 +469,7 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "create:mechanical_pump",
-                amount: 128,
+                amount: 48,
             }
         ],
         pmmoLevelSet: 30,
@@ -481,7 +481,7 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "createaddition:copper_spool",
-                amount: 512
+                amount: 32
             }
         ],
         pmmoLevelSet: 31,
@@ -493,7 +493,7 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "createaddition:capacitor",
-                amount: 256
+                amount: 16
             }
         ],
         pmmoLevelSet: 32,
@@ -505,7 +505,7 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "createaddition:large_connector",
-                amount: 256
+                amount: 16
             }
         ],
         pmmoLevelSet: 33,
@@ -517,7 +517,7 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "createaddition:electric_motor",
-                amount: 64
+                amount: 4
             }
         ],
         pmmoLevelSet: 34,
@@ -529,7 +529,7 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "createaddition:alternator",
-                amount: 64
+                amount: 4
             }
         ],
         pmmoLevelSet: 35,
@@ -541,7 +541,7 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "refinedstorage:quartz_enriched_iron",
-                amount: 512
+                amount: 64
             }
         ],
         pmmoLevelSet: 36,
@@ -553,7 +553,7 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "refinedstorage:improved_processor",
-                amount: 256
+                amount: 32
             }
         ],
         pmmoLevelSet: 37,
@@ -565,7 +565,7 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "refinedstorage:silicon",
-                amount: 256
+                amount: 42
             }
         ],
         pmmoLevelSet: 38,
@@ -577,7 +577,7 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "refinedstorage:construction_core",
-                amount: 64
+                amount: 8
             }
         ],
         pmmoLevelSet: 39,
@@ -589,7 +589,7 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "refinedstorage:destruction_core",
-                amount: 64
+                amount: 4
             }
         ],
         pmmoLevelSet: 40,

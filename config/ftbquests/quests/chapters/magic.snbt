@@ -579,23 +579,11 @@
 				tag: { }
 			}
 			id: "7AD6592FA836D26B"
-			rewards: [
-				{
-					count: 2
-					id: "287B68BF388D6EE4"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:uncommon_ink"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "76A74E90ABAEA6A6"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "76A74E90ABAEA6A6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
@@ -633,7 +621,7 @@
 					id: "28FB6CA0C51C311D"
 					item: {
 						Count: 1
-						id: "irons_spellbooks:rare_ink"
+						id: "irons_spellbooks:common_ink"
 						tag: { }
 					}
 					type: "item"
@@ -681,7 +669,7 @@
 					id: "10BA0318574DB2DC"
 					item: {
 						Count: 1
-						id: "irons_spellbooks:epic_ink"
+						id: "irons_spellbooks:uncommon_ink"
 						tag: { }
 					}
 					type: "item"
@@ -729,7 +717,7 @@
 					id: "118F1FAB69AE1F4C"
 					item: {
 						Count: 1
-						id: "irons_spellbooks:legendary_ink"
+						id: "irons_spellbooks:rare_ink"
 						tag: { }
 					}
 					type: "item"
@@ -1111,7 +1099,7 @@
 					id: "6B366151EB421B65"
 					item: {
 						Count: 1
-						id: "minecraft:netherite_scrap"
+						id: "minecraft:diamond"
 						tag: { }
 					}
 					type: "item"
