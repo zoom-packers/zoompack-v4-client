@@ -1,6 +1,17 @@
 let techProgLearningBench = "kubejs:engineering_table"
 let techProgPmmoSkillName = "engineering"
 
+function calculateRewards(previousRequirements) {
+    let rewards = [];
+    for (const req of previousRequirements) {
+        let rewardAmount = Math.floor(req.amount / 8);
+        if (rewardAmount > 0) {
+            rewards.push({ item: req.item, amount: rewardAmount });
+        }
+    }
+    return rewards;
+}
+
 let techProgMilestones = [
     {
         id: "the_beginning",
@@ -12,22 +23,34 @@ let techProgMilestones = [
                 amount: 32
             }
         ],
+        rewards: [
+            {
+                item: "minecraft:chest",
+                amount: 4
+            }
+        ],
         pmmoLevelSet: 2,
     },
     {
         id: "the_signal_source",
         name: "The Signal Source",
-        description: "Controll the signal by using it's source",
+        description: "Control the signal by using its source",
         requirements: [
             {
                 item: "minecraft:redstone_block",
                 amount: 5
             }
         ],
+        rewards: [
+            {
+                item: "minecraft:redstone",
+                amount: 8
+            }
+        ],
         pmmoLevelSet: 3,
     },
     {
-        id: "slighly_conductive_metal",
+        id: "slightly_conductive_metal",
         name: "Slightly Conductive Metal",
         description: "Metals can be used to craft all sorts of things. Including machines.",
         requirements: [
@@ -36,16 +59,28 @@ let techProgMilestones = [
                 amount: 16
             }
         ],
+        rewards: [
+            {
+                item: "minecraft:redstone_block",
+                amount: 1
+            }
+        ],
         pmmoLevelSet: 4,
     },
     {
         id: "the_path_to_casing",
         name: "The Path To Casing",
-        description: "All the machinees must be put inside a casing.",
+        description: "All the machines must be put inside a casing.",
         requirements: [
             {
                 item: "create:andesite_alloy",
                 amount: 16
+            }
+        ],
+        rewards: [
+            {
+                item: "minecraft:iron_ingot",
+                amount: 2
             }
         ],
         pmmoLevelSet: 5,
@@ -62,6 +97,12 @@ let techProgMilestones = [
             {
                 item: "create:analog_lever",
                 amount: 16
+            }
+        ],
+        rewards: [
+            {
+                item: "create:andesite_alloy",
+                amount: 2
             }
         ],
         pmmoLevelSet: 6,
@@ -84,12 +125,22 @@ let techProgMilestones = [
                 amount: 8
             }
         ],
+        rewards: [
+            {
+                item: "create:shaft",
+                amount: 4
+            },
+            {
+                item: "create:analog_lever",
+                amount: 2
+            }
+        ],
         pmmoLevelSet: 7,
     },
     {
         id: "bigger_and_better",
         name: "Bigger And Better",
-        description: "Does bigger always mean better? When it comes to wheels, yeah..",
+        description: "Does bigger always mean better? When it comes to wheels, yeah.",
         requirements: [
             {
                 item: "create:cogwheel",
@@ -102,6 +153,20 @@ let techProgMilestones = [
             {
                 item: "create:gearbox",
                 amount: 32
+            }
+        ],
+        rewards: [
+            {
+                item: "create:andesite_casing",
+                amount: 8
+            },
+            {
+                item: "create:gearbox",
+                amount: 2
+            },
+            {
+                item: "create:white_sail",
+                amount: 4
             }
         ],
         pmmoLevelSet: 8,
@@ -126,6 +191,20 @@ let techProgMilestones = [
             {
                 item: "create:white_sail",
                 amount: 32
+            }
+        ],
+        rewards: [
+            {
+                item: "create:cogwheel",
+                amount: 4
+            },
+            {
+                item: "create:large_cogwheel",
+                amount: 4
+            },
+            {
+                item: "create:gearbox",
+                amount: 4
             }
         ],
         pmmoLevelSet: 9,
@@ -153,6 +232,24 @@ let techProgMilestones = [
             },
             {
                 item: "create:millstone",
+                amount: 8
+            }
+        ],
+        rewards: [
+            {
+                item: "create:zinc_ingot",
+                amount: 2
+            },
+            {
+                item: "minecraft:copper_ingot",
+                amount: 2
+            },
+            {
+                item: "create:clutch",
+                amount: 2
+            },
+            {
+                item: "create:white_sail",
                 amount: 8
             }
         ],
@@ -184,6 +281,28 @@ let techProgMilestones = [
                 amount: 16
             }
         ],
+        rewards: [
+            {
+                item: "create:basin",
+                amount: 4
+            },
+            {
+                item: "create:belt_connector",
+                amount: 8
+            },
+            {
+                item: "create:andesite_funnel",
+                amount: 4
+            },
+            {
+                item: "create:andesite_tunnel",
+                amount: 4
+            },
+            {
+                item: "create:millstone",
+                amount: 2
+            }
+        ],
         pmmoLevelSet: 11,
     },
     {
@@ -204,6 +323,28 @@ let techProgMilestones = [
                 amount: 64
             }
         ],
+        rewards: [
+            {
+                item: "create:fluid_pipe",
+                amount: 8
+            },
+            {
+                item: "create:nozzle",
+                amount: 8
+            },
+            {
+                item: "create:mechanical_pump",
+                amount: 8
+            },
+            {
+                item: "create:copper_casing",
+                amount: 16
+            },
+            {
+                item: "create:encased_fan",
+                amount: 4
+            }
+        ],
         pmmoLevelSet: 12,
     },
     {
@@ -221,6 +362,20 @@ let techProgMilestones = [
             },
             {
                 item: "create:mechanical_mixer",
+                amount: 16
+            }
+        ],
+        rewards: [
+            {
+                item: "create:iron_sheet",
+                amount: 16
+            },
+            {
+                item: "create:golden_sheet",
+                amount: 16
+            },
+            {
+                item: "create:copper_sheet",
                 amount: 16
             }
         ],
@@ -248,6 +403,20 @@ let techProgMilestones = [
                 amount: 32
             }
         ],
+        rewards: [
+            {
+                item: "create:belt_connector",
+                amount: 16
+            },
+            {
+                item: "create:mechanical_press",
+                amount: 4
+            },
+            {
+                item: "create:mechanical_mixer",
+                amount: 4
+            }
+        ],
         pmmoLevelSet: 16,
     },
     {
@@ -268,6 +437,24 @@ let techProgMilestones = [
                 amount: 16
             }
         ],
+        rewards: [
+            {
+                item: "create:mechanical_saw",
+                amount: 4
+            },
+            {
+                item: "createaddition:rolling_mill",
+                amount: 4
+            },
+            {
+                item: "create:fluid_valve",
+                amount: 4
+            },
+            {
+                item: "create:chute",
+                amount: 8
+            }
+        ],
         pmmoLevelSet: 17,
     },
     {
@@ -286,6 +473,20 @@ let techProgMilestones = [
             {
                 item: "create:linked_controller",
                 amount: 32
+            }
+        ],
+        rewards: [
+            {
+                item: "minecraft:iron_ingot",
+                amount: 16
+            },
+            {
+                item: "create:iron_sheet",
+                amount: 16
+            },
+            {
+                item: "create:item_vault",
+                amount: 4
             }
         ],
         pmmoLevelSet: 18,
@@ -312,12 +513,26 @@ let techProgMilestones = [
                 amount: 8
             },
         ],
+        rewards: [
+            {
+                item: "create:mechanical_crafter",
+                amount: 8
+            },
+            {
+                item: "create:sequenced_gearshift",
+                amount: 8
+            },
+            {
+                item: "create:linked_controller",
+                amount: 8
+            }
+        ],
         pmmoLevelSet: 20,
     },
     {
         id: "railway_path",
         name: "Railway Path",
-        description: "Railway time, explore the world in a train. Live in the train or even achive multi dimensional travel with them.",
+        description: "Railway time, explore the world in a train. Live in the train or even achieve multi-dimensional travel with them.",
         requirements: [
             {
                 item: "create:railway_casing",
@@ -327,6 +542,24 @@ let techProgMilestones = [
                 item: "create:flywheel",
                 amount: 16
             }
+        ],
+        rewards: [
+            {
+                item: "create:iron_sheet",
+                amount: 8
+            },
+            {
+                item: "createaddition:zinc_sheet",
+                amount: 6
+            },
+            {
+                item: "create:brass_casing",
+                amount: 4
+            },
+            {
+                item: "create:brass_hand",
+                amount: 2
+            },
         ],
         pmmoLevelSet: 22,
     },
@@ -344,6 +577,16 @@ let techProgMilestones = [
                 amount: 32
             }
         ],
+        rewards: [
+            {
+                item: "create:railway_casing",
+                amount: 4
+            },
+            {
+                item: "create:flywheel",
+                amount: 4
+            }
+        ],
         pmmoLevelSet: 23,
     },
     {
@@ -358,6 +601,16 @@ let techProgMilestones = [
             {
                 item: "create:electron_tube",
                 amount: 24
+            }
+        ],
+        rewards: [
+            {
+                item: "create:brass_sheet",
+                amount: 8
+            },
+            {
+                item: "create:brass_casing",
+                amount: 8
             }
         ],
         pmmoLevelSet: 24,
@@ -380,6 +633,16 @@ let techProgMilestones = [
                 amount: 32
             },
         ],
+        rewards: [
+            {
+                item: "create:mechanical_crafter",
+                amount: 6
+            },
+            {
+                item: "create:electron_tube",
+                amount: 6
+            }
+        ],
         pmmoLevelSet: 25,
     },
     {
@@ -397,6 +660,20 @@ let techProgMilestones = [
             },
             {
                 item: "create:steam_engine",
+                amount: 8
+            },
+        ],
+        rewards: [
+            {
+                item: "create:controls",
+                amount: 4
+            },
+            {
+                item: "create:train_door",
+                amount: 8
+            },
+            {
+                item: "create:train_trapdoor",
                 amount: 8
             },
         ],
@@ -420,6 +697,20 @@ let techProgMilestones = [
                 amount: 8
             }
         ],
+        rewards: [
+            {
+                item: "create:brass_sheet",
+                amount: 8
+            },
+            {
+                item: "create:mechanical_crafter",
+                amount: 4
+            },
+            {
+                item: "create:steam_engine",
+                amount: 2
+            }
+        ],
         pmmoLevelSet: 27,
     },
     {
@@ -438,6 +729,20 @@ let techProgMilestones = [
             {
                 item: "create:steam_engine",
                 amount: 8
+            },
+        ],
+        rewards: [
+            {
+                item: "create:brass_sheet",
+                amount: 8
+            },
+            {
+                item: "create:mechanical_crafter",
+                amount: 4
+            },
+            {
+                item: "create:steam_engine",
+                amount: 2
             },
         ],
         pmmoLevelSet: 28,
@@ -460,6 +765,20 @@ let techProgMilestones = [
                 amount: 8
             },
         ],
+        rewards: [
+            {
+                item: "create:brass_sheet",
+                amount: 8
+            },
+            {
+                item: "create:mechanical_crafter",
+                amount: 4
+            },
+            {
+                item: "create:steam_engine",
+                amount: 2
+            },
+        ],
         pmmoLevelSet: 29,
     },
     {
@@ -472,6 +791,20 @@ let techProgMilestones = [
                 amount: 48,
             }
         ],
+        rewards: [
+            {
+                item: "create:brass_sheet",
+                amount: 8
+            },
+            {
+                item: "create:mechanical_crafter",
+                amount: 4
+            },
+            {
+                item: "create:steam_engine",
+                amount: 2
+            },
+        ],
         pmmoLevelSet: 30,
     },
     {
@@ -482,6 +815,12 @@ let techProgMilestones = [
             {
                 item: "createaddition:copper_spool",
                 amount: 32
+            }
+        ],
+        rewards: [
+            {
+                item: "create:mechanical_pump",
+                amount: 12,
             }
         ],
         pmmoLevelSet: 31,
@@ -496,16 +835,28 @@ let techProgMilestones = [
                 amount: 16
             }
         ],
+        rewards: [
+            {
+                item: "createaddition:copper_spool",
+                amount: 8
+            }
+        ],
         pmmoLevelSet: 32,
     },
     {
         id: "broken_power_outlet",
         name: "Broken Power Outlet",
-        description: "Dan, i still don't get it why you play with the copper wires.",
+        description: "Dan, I still don't get it why you play with the copper wires.",
         requirements: [
             {
                 item: "createaddition:large_connector",
                 amount: 16
+            }
+        ],
+        rewards: [
+            {
+                item: "createaddition:capacitor",
+                amount: 4
             }
         ],
         pmmoLevelSet: 33,
@@ -517,6 +868,12 @@ let techProgMilestones = [
         requirements: [
             {
                 item: "createaddition:electric_motor",
+                amount: 4
+            }
+        ],
+        rewards: [
+            {
+                item: "createaddition:large_connector",
                 amount: 4
             }
         ],
@@ -532,6 +889,12 @@ let techProgMilestones = [
                 amount: 4
             }
         ],
+        rewards: [
+            {
+                item: "createaddition:electric_motor",
+                amount: 1
+            }
+        ],
         pmmoLevelSet: 35,
     },
     {
@@ -542,6 +905,12 @@ let techProgMilestones = [
             {
                 item: "refinedstorage:quartz_enriched_iron",
                 amount: 64
+            }
+        ],
+        rewards: [
+            {
+                item: "createaddition:alternator",
+                amount: 1
             }
         ],
         pmmoLevelSet: 36,
@@ -556,6 +925,12 @@ let techProgMilestones = [
                 amount: 32
             }
         ],
+        rewards: [
+            {
+                item: "refinedstorage:quartz_enriched_iron",
+                amount: 16
+            }
+        ],
         pmmoLevelSet: 37,
     },
     {
@@ -566,6 +941,12 @@ let techProgMilestones = [
             {
                 item: "refinedstorage:silicon",
                 amount: 42
+            }
+        ],
+        rewards: [
+            {
+                item: "refinedstorage:improved_processor",
+                amount: 8
             }
         ],
         pmmoLevelSet: 38,
@@ -580,6 +961,12 @@ let techProgMilestones = [
                 amount: 8
             }
         ],
+        rewards: [
+            {
+                item: "refinedstorage:silicon",
+                amount: 10
+            }
+        ],
         pmmoLevelSet: 39,
     },
     {
@@ -590,6 +977,12 @@ let techProgMilestones = [
             {
                 item: "refinedstorage:destruction_core",
                 amount: 4
+            }
+        ],
+        rewards: [
+            {
+                item: "refinedstorage:construction_core",
+                amount: 2
             }
         ],
         pmmoLevelSet: 40,
@@ -622,7 +1015,7 @@ let lockedBlocksPmmoLevels = {
     "create:turntable": 6,
     "create:gantry_shaft": 6,
     "create:gantry_carriage": 6,
-    "copycats:copycat_shaft'": 6,
+    "copycats:copycat_shaft": 6,
     "create:clutch": 6,
     "create:windmill_bearing": 6,
     "create:white_sail": 6,
@@ -796,9 +1189,14 @@ let lockedBlocksPmmoLevels = {
     "refinedstorage:external_storage": 40
 }
 
+function giveToPlayerPlayer(player_name, item, count, server){
+    server.runCommandSilent(`/give ${player_name} ${item} ${count}`);
+}
+
 BlockEvents.rightClicked(event => {
     let player = event.player;
     let block = event.block;
+    let server = event.server;
     // Logic: Check if the player is right clicking the learning bench
     // If this is true, we get the player's persistent data and we check their current milestone id
     // Next up we check if they have the required items for the next milestone in their whole inventory
@@ -840,14 +1238,19 @@ BlockEvents.rightClicked(event => {
         return;
     }
 
-    techProgAdvanceToNextMilestone(player, currentMilestone, playerData);
+    techProgAdvanceToNextMilestone(server, player, currentMilestone, playerData);
 });
 
-function techProgAdvanceToNextMilestone(player, currentMilestone, playerData) {
+function techProgAdvanceToNextMilestone(server, player, currentMilestone, playerData) {
     let pmmoApiUtils = Java.loadClass('harmonised.pmmo.api.APIUtils');
     PmmoAPIUtils.setLevel(techProgPmmoSkillName, player, currentMilestone.pmmoLevelSet);
 
     techProgRemoveMilestoneItems(currentMilestone, player);
+
+    // Grant rewards to player
+    for (const reward of currentMilestone.rewards) {
+        giveToPlayerPlayer(player.name.string, reward.item, reward.amount, server);
+    }
 
     playerData.putString("techProgLastCompletedMilestone", currentMilestone.id);
     player.sendSystemMessage("You've completed the milestone: " + currentMilestone.name);
@@ -938,6 +1341,11 @@ function techProgSendCurrentMilestone(player, currentMilestone) {
         player.sendSystemMessage("§d" + amount + "x §4" + item + "§r");
     }
     player.sendSystemMessage("");
+    player.sendSystemMessage("Rewards: ");
+    for (const reward of currentMilestone.rewards) {
+        player.sendSystemMessage("§d" + reward.amount + "x §a" + reward.item + "§r");
+    }
+    player.sendSystemMessage("");
     player.sendSystemMessage("Completing this milestone will set your Engineering level to §b" + currentMilestone.pmmoLevelSet + "§r");
     player.sendSystemMessage("==============================================================");
 }
@@ -949,6 +1357,4 @@ function techProgSendWelcomeMessage(player) {
     player.sendSystemMessage("You can §acheck your current milestone§r by §3right clicking the lectern with an empty hand§r. ");
     player.sendSystemMessage("Good luck!");
 }
-
-// TODO COMMANDS
-// TODO DOCUMENTATION
+// TODO: add commands at some point to set to player's milestone
