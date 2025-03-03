@@ -17,132 +17,6 @@
 		}
 		{
 			height: 3.0d
-			image: "endlessbiomes:item/penumbralvineitemnewest"
-			rotation: 0.0d
-			width: 3.0d
-			x: 0.4880952380952266d
-			y: -8.273809523809526d
-		}
-		{
-			height: 3.0d
-			image: "endlessbiomes:item/penumbralvineitem"
-			rotation: 0.0d
-			width: 3.0d
-			x: 0.4642857142857011d
-			y: -3.2619047619047734d
-		}
-		{
-			height: 3.0d
-			image: "outer_end:block/small_rose_crystal"
-			rotation: 0.0d
-			width: 3.0d
-			x: 11.249999999999957d
-			y: 6.46428571428568d
-		}
-		{
-			height: 3.0d
-			image: "croptopia:block/eggplant_crop_stage3"
-			rotation: 0.0d
-			width: 3.0d
-			x: 15.059523809523768d
-			y: 6.416666666666629d
-		}
-		{
-			height: 3.0d
-			image: "minecraft:item/seagrass"
-			rotation: 0.0d
-			width: 3.0d
-			x: 4.916666666666629d
-			y: 6.46428571428568d
-		}
-		{
-			height: 3.0d
-			image: "undergarden:block/glitterkelp"
-			rotation: 0.0d
-			width: 3.0d
-			x: 1.5714285714285623d
-			y: 3.9077380952380807d
-		}
-		{
-			height: 3.0d
-			image: "undergarden:block/glitterkelp_plant"
-			rotation: 0.0d
-			width: 3.0d
-			x: 1.5d
-			y: 6.5d
-		}
-		{
-			height: 3.0d
-			image: "betternether:block/swamp_grass_3"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: 0.15476190476186957d
-			y: 6.46428571428568d
-		}
-		{
-			height: 3.0d
-			image: "betternether:block/swamp_grass_2"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: 13.249999999999957d
-			y: 6.46428571428568d
-		}
-		{
-			height: 3.0d
-			image: "betternether:block/swamp_grass_3"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: 2.535714285714249d
-			y: 6.46428571428568d
-		}
-		{
-			height: 3.0d
-			image: "betternether:block/swamp_grass_3"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: 6.773809523809476d
-			y: 6.46428571428568d
-		}
-		{
-			height: 3.0d
-			image: "betternether:block/swamp_grass_3"
-			order: 1
-			rotation: 0.0d
-			width: 3.0d
-			x: 9.011904761904717d
-			y: 6.46428571428568d
-		}
-		{
-			height: 3.0d
-			image: "phantasm:block/oblivine_fruit"
-			rotation: 0.0d
-			width: 3.0d
-			x: 14.988095238095227d
-			y: -8.345238095238095d
-		}
-		{
-			height: 3.0d
-			image: "phantasm:block/oblivine_fruit"
-			rotation: 0.0d
-			width: 3.0d
-			x: 14.988095238095227d
-			y: -5.7738095238095255d
-		}
-		{
-			height: 3.0d
-			image: "phantasm:item/oblifruit"
-			order: 1
-			rotation: 46.0d
-			width: 3.0d
-			x: 15.130952380952365d
-			y: -3.845238095238095d
-		}
-		{
-			height: 3.0d
 			image: "supplementaries:textures/particle/bubble_block_pop_3.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -156,14 +30,6 @@
 			width: 20.0d
 			x: 24.89285714285714d
 			y: -0.9047619047619264d
-		}
-		{
-			height: 3.0d
-			image: "endlessbiomes:item/penumbralvineitem"
-			rotation: 0.0d
-			width: 3.0d
-			x: 0.3928571428571317d
-			y: -5.690476190476204d
 		}
 		{
 			height: 20.0d
@@ -214,33 +80,8 @@
 			y: -18.101190476190496d
 		}
 		{
-			height: 3.0d
-			image: "betternether:block/black_vine"
-			rotation: 0.0d
-			width: 3.0d
-			x: 3.357142857142847d
-			y: -8.127976190476211d
-		}
-		{
-			height: 3.0d
-			image: "betternether:block/black_vine_bottom"
-			rotation: 0.0d
-			width: 3.0d
-			x: 3.6428571428571317d
-			y: -2.985119047619065d
-		}
-		{
-			height: 3.0d
-			image: "betternether:block/black_vine"
-			rotation: 0.0d
-			width: 3.0d
-			x: 3.499999999999993d
-			y: -5.556547619047635d
-		}
-		{
 			height: 20.0d
-			image: "betternether:block/obsidian_bricks"
-			order: -2
+			image: "endersdelight:block/stove_top_on"
 			rotation: 0.0d
 			width: 20.0d
 			x: 7.785714285714278d
@@ -264,14 +105,16 @@
 				table_id: 1610080839990707444L
 				type: "choice"
 			}]
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "543FD4E25510AAD4"
 				type: "dimension"
 			}]
 			title: "Into the void"
-			x: 8.5d
-			y: 5.0d
+			x: 8.071428571428584d
+			y: 6.407738095238074d
 		}
 		{
 			dependencies: ["1524A7053FBA0402"]
@@ -288,9 +131,89 @@
 					type: "xp_levels"
 					xp_levels: 5
 				}
+				{
+					id: "09B97729775F619A"
+					item: {
+						Count: 1
+						id: "fantasy_armor:dragonslayer_helmet"
+						tag: {
+							Count: 1b
+							Damage: 0
+							Unbreakable: 1b
+							id: "fantasy_armor:dragonslayer_helmet"
+							tag: {
+								Count: 1b
+								Damage: 0
+								Unbreakable: 1b
+								id: "fantasy_armor:dragonslayer_helmet"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "172B651F876FFED8"
+					item: {
+						Count: 1
+						id: "fantasy_armor:dragonslayer_chestplate"
+						tag: {
+							Count: 1b
+							Damage: 0
+							Unbreakable: 1b
+							id: "fantasy_armor:dragonslayer_chestplate"
+							tag: {
+								Count: 1b
+								Damage: 0
+								Unbreakable: 1b
+								id: "fantasy_armor:dragonslayer_chestplate"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "440BF7DC25381862"
+					item: {
+						Count: 1
+						id: "fantasy_armor:dragonslayer_leggings"
+						tag: {
+							Count: 1b
+							Damage: 0
+							Unbreakable: 1b
+							id: "fantasy_armor:dragonslayer_leggings"
+							tag: {
+								Count: 1b
+								Damage: 0
+								Unbreakable: 1b
+								id: "fantasy_armor:dragonslayer_leggings"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D3D6FB5CD3D9E24"
+					item: {
+						Count: 1
+						id: "fantasy_armor:dragonslayer_boots"
+						tag: {
+							Count: 1b
+							Damage: 0
+							Unbreakable: 1b
+							id: "fantasy_armor:dragonslayer_boots"
+							tag: {
+								Count: 1b
+								Damage: 0
+								Unbreakable: 1b
+								id: "fantasy_armor:dragonslayer_boots"
+							}
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "pentagon"
-			size: 1.5d
+			size: 3.0d
 			subtitle: "Face the mighty Ender Dragon in the heart of the End. This formidable beast guards the realm's greatest treasures. Defeat it to claim your victory, earn rare rewards, and unlock new possibilities for your adventure. Prepare for a battle that will test your strength and skill!"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
@@ -299,8 +222,8 @@
 				value: 1L
 			}]
 			title: "Same old, but wait it has 3 heads"
-			x: 10.25d
-			y: -3.0d
+			x: 9.500000000000014d
+			y: -0.8065476190476417d
 		}
 		{
 			id: "0F1B354191B2C626"
@@ -309,6 +232,8 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			shape: "rsquare"
+			size: 2.0d
 			subtitle: "Deep beneath the earth, you’ve unearthed the stronghold, a forgotten bastion of ancient secrets and hidden power. The path to the End is now within your grasp."
 			tasks: [{
 				id: "269E5802BD17BE3E"
@@ -316,8 +241,8 @@
 				type: "structure"
 			}]
 			title: "The stronghold"
-			x: 4.0d
-			y: 1.5d
+			x: 2.4285714285714306d
+			y: 1.3363095238095042d
 		}
 		{
 			dependencies: ["3D1D4DB94127689A"]
@@ -329,6 +254,8 @@
 				table_id: 4439647929272430439L
 				type: "loot"
 			}]
+			shape: "pentagon"
+			size: 2.0d
 			subtitle: "Omelette?"
 			tasks: [{
 				id: "11C871DD0D97FE63"
@@ -336,8 +263,8 @@
 				type: "item"
 			}]
 			title: "Dragon's Legacy"
-			x: 7.5d
-			y: -3.0d
+			x: 5.500000000000014d
+			y: -3.02083333333335d
 		}
 		{
 			dependencies: ["4A6E11AE3DC9ADCE"]
@@ -349,6 +276,8 @@
 				table_id: 4439647929272430439L
 				type: "loot"
 			}]
+			shape: "rsquare"
+			size: 2.0d
 			subtitle: "Elytra"
 			tasks: [{
 				id: "13B6D49F5E422ECD"
@@ -375,6 +304,8 @@
 				table_id: 4439647929272430439L
 				type: "loot"
 			}]
+			shape: "rsquare"
+			size: 2.0d
 			subtitle: "Hot hot hot!"
 			tasks: [{
 				id: "7AA5AB3FB4C9FEC3"
@@ -382,7 +313,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 1.5d
+			y: 1.5505952380952195d
 		}
 		{
 			dependencies: ["4A6E11AE3DC9ADCE"]
@@ -394,6 +325,8 @@
 				table_id: 4439647929272430439L
 				type: "loot"
 			}]
+			shape: "rsquare"
+			size: 2.0d
 			subtitle: "Extra dimensional properties"
 			tasks: [{
 				id: "5DC88AD4C5A321EE"
@@ -401,8 +334,8 @@
 				type: "item"
 			}]
 			title: "Shulker Harvest"
-			x: 4.0d
-			y: -3.0d
+			x: 1.642857142857146d
+			y: -3.02083333333335d
 		}
 		{
 			dependencies: ["3D1D4DB94127689A"]
@@ -421,9 +354,15 @@
 					type: "xp_levels"
 					xp_levels: 5
 				}
+				{
+					exclude_from_claim_all: true
+					id: "611C8D0EA0D37E47"
+					table_id: 4439647929272430439L
+					type: "loot"
+				}
 			]
 			shape: "pentagon"
-			size: 2.0d
+			size: 3.0d
 			subtitle: "Find the obsidilith atop tall end structures"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:obsidilith"
@@ -437,24 +376,40 @@
 		{
 			dependencies: ["1524A7053FBA0402"]
 			id: "31E824261150CF38"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18AB3541E3A7C601"
+				table_id: 4439647929272430439L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "0D2C6334C1456D36"
 				item: "theabyss:loran"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.5d
+			x: 5.928571428571431d
+			y: 1.4077380952380807d
 		}
 		{
 			dependencies: ["1524A7053FBA0402"]
 			id: "586E593539FB26AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1451863110887FBE"
+				table_id: 2622458127975197730L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "19452220E34E49F0"
 				item: "theabyss:ender_crystal_ore"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 3.5d
+			x: 12.857142857142875d
+			y: 5.122023809523796d
 		}
 		{
 			description: ["&7Found in Desert Pyramid chests"]

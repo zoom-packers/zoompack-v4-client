@@ -266,6 +266,7 @@
 				table_id: 1610080839990707444L
 				type: "choice"
 			}]
+			size: 2.0d
 			subtitle: "Smells like vegans"
 			tasks: [{
 				dimension: "undergarden:undergarden"
@@ -273,8 +274,8 @@
 				type: "dimension"
 			}]
 			title: "Hidden Jungle Part 2"
-			x: 0.0d
-			y: 1.5d
+			x: -1.0714285714285694d
+			y: 2.6357142857142932d
 		}
 		{
 			description: ["&7The Underworld calls, but to reach it, you must first harness its catalyst. Deep within the Overworld lies the Catalyst, a rare item needed to access the mysterious realm known as the Undergarden. Seek out this precious item through exploration or crafting. Once obtained, construct a portal frame using Stone Bricks and activate it with the Catalyst. The eerie glow will reveal the gateway to the Undergarden—a place of strange flora, ominous creatures, and untold secrets. Prepare yourself for the unknown!"]
@@ -284,6 +285,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 2.0d
 			subtitle: "Use it to light a portal made of stone bricks"
 			tasks: [{
 				id: "13C1946AD858B569"
@@ -317,6 +319,7 @@
 					type: "choice"
 				}
 			]
+			size: 2.0d
 			subtitle: "Subzero"
 			tasks: [{
 				count: 5L
@@ -325,8 +328,8 @@
 				type: "item"
 			}]
 			title: "Steel of Frost"
-			x: -1.5d
-			y: 0.0d
+			x: -2.642857142857139d
+			y: 0.5642857142857309d
 		}
 		{
 			dependencies: ["5C0F5BD4A341EE6E"]
@@ -351,6 +354,7 @@
 					type: "choice"
 				}
 			]
+			size: 2.0d
 			subtitle: "Mud powaah"
 			tasks: [{
 				count: 5L
@@ -359,8 +363,8 @@
 				type: "item"
 			}]
 			title: "Mud ingot"
-			x: -1.0d
-			y: -2.0d
+			x: -1.9285714285714306d
+			y: -2.8642857142856997d
 		}
 		{
 			dependencies: ["59666E245031C7ED"]
@@ -385,6 +389,7 @@
 					type: "choice"
 				}
 			]
+			size: 2.0d
 			subtitle: "Ominous glow..."
 			tasks: [{
 				count: 5L
@@ -393,8 +398,8 @@
 				type: "item"
 			}]
 			title: "Utherium"
-			x: 1.0d
-			y: -2.5d
+			x: 1.0714285714285694d
+			y: -3.5071428571428456d
 		}
 		{
 			dependencies: ["01130E9743A8E5A5"]
@@ -413,14 +418,15 @@
 					xp_levels: 3
 				}
 			]
+			size: 2.0d
 			subtitle: "Green netherite"
 			tasks: [{
 				id: "4A91093AB85F191D"
 				item: "undergarden:forgotten_ingot"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.5d
+			x: 3.142857142857139d
+			y: 3.064285714285731d
 		}
 		{
 			dependencies: ["242DD57B316BCAC9"]
@@ -441,7 +447,7 @@
 				}
 			]
 			shape: "octagon"
-			size: 1.5d
+			size: 3.0d
 			subtitle: "Find and kill a forgotten guardian in an undeground dungeon"
 			tasks: [{
 				entity: "undergarden:forgotten_guardian"
@@ -450,8 +456,8 @@
 				value: 1L
 			}]
 			title: "Budget Golem"
-			x: 3.5d
-			y: 0.5d
+			x: 4.285714285714292d
+			y: 0.42142857142858503d
 		}
 		{
 			dependencies: ["0C63004C99406DBD"]
@@ -471,6 +477,7 @@
 					type: "item"
 				}
 			]
+			size: 2.0d
 			subtitle: "Fit for a King"
 			tasks: [{
 				count: 6L
@@ -479,8 +486,8 @@
 				type: "item"
 			}]
 			title: "Regalium"
-			x: 3.0d
-			y: -2.0d
+			x: 3.9285714285714306d
+			y: -2.7214285714285538d
 		}
 		{
 			dependencies: ["55BA21A39EB22E95"]
@@ -499,6 +506,7 @@
 					xp_levels: 3
 				}
 			]
+			size: 2.0d
 			subtitle: "He needs THE AX!"
 			tasks: [{
 				id: "0C16FC7015DBBCBB"
@@ -512,8 +520,8 @@
 				type: "item"
 			}]
 			title: "AX"
-			x: 1.0d
-			y: 4.0d
+			x: 0.7142857142857082d
+			y: 4.635714285714307d
 		}
 	]
 	title: "Salad of a dimension"

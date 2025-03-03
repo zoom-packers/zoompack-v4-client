@@ -224,6 +224,8 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
+			shape: "square"
+			size: 1.5d
 			subtitle: "Don't make a sound"
 			tasks: [{
 				id: "14930028763C6828"
@@ -266,7 +268,7 @@
 				}
 			]
 			shape: "octagon"
-			size: 1.5d
+			size: 2.5d
 			subtitle: "Here it comes..."
 			tasks: [{
 				entity: "minecraft:warden"
@@ -295,6 +297,8 @@
 				table_id: 1610080839990707444L
 				type: "loot"
 			}]
+			shape: "heart"
+			size: 1.5d
 			subtitle: "Down we go"
 			tasks: [{
 				dimension: "callfromthedepth_:depth"
@@ -315,6 +319,8 @@
 				item: "callfromthedepth_:lostsoulitem"
 				type: "item"
 			}]
+			shape: "square"
+			size: 1.5d
 			subtitle: "I swear i could hear screams"
 			tasks: [{
 				id: "4964735A1C3B8A5C"
@@ -333,6 +339,8 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			shape: "square"
+			size: 1.5d
 			subtitle: "Sieve the Lost Souls Sand to uncover Lost Soul Shards, fragments of the spirits trapped within. These shards are rare and potent, holding the essence of the departed."
 			tasks: [{
 				id: "690AC34A56C10275"
@@ -350,6 +358,8 @@
 				item: "callfromthedepth_:immemorialscrap"
 				type: "item"
 			}]
+			shape: "square"
+			size: 1.5d
 			subtitle: "Combine the soul shards"
 			tasks: [{
 				id: "3673DBFEEACBA2C5"
@@ -368,6 +378,8 @@
 				item: "callfromthedepth_:immemorialscrap"
 				type: "item"
 			}]
+			shape: "square"
+			size: 1.5d
 			subtitle: "Just one more thing to do..."
 			tasks: [{
 				id: "4F2000C52E81C2B6"
@@ -394,7 +406,7 @@
 				}
 			]
 			shape: "octagon"
-			size: 2.0d
+			size: 3.0d
 			subtitle: "Confront the Soul of Agony, an ancient demigod beast lurking deep within the Depths. This powerful entity embodies torment and despair, challenging all who dare to face it. Defeat the Soul of Agony to claim its dark essence and prove your dominance over the most fearsome forces in the Depths!"
 			tasks: [{
 				entity: "callfromthedepth_:agonysoul"
@@ -413,6 +425,7 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
+			size: 1.5d
 			subtitle: "Shards that gradually peeled of the coruption"
 			tasks: [{
 				id: "432E8DC4F2A9FD8B"
@@ -439,6 +452,8 @@
 					xp_levels: 2
 				}
 			]
+			shape: "square"
+			size: 1.5d
 			subtitle: "Craft it"
 			tasks: [{
 				id: "460224C39331E66A"
@@ -479,6 +494,8 @@
 					xp_levels: 1
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Craft the Sculk Hearth, a twisted amalgam of corruption and dark energy."
 			tasks: [{
 				id: "54207BA0F2ABA0D3"
@@ -504,6 +521,8 @@
 					type: "item"
 				}
 			]
+			shape: "square"
+			size: 1.5d
 			subtitle: "The stuff of nightmares..."
 			tasks: [{
 				id: "44A93CF233BC1A70"
@@ -529,6 +548,8 @@
 					type: "item"
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Looks familiar..."
 			tasks: [{
 				id: "53990E76027BC93A"
@@ -563,6 +584,8 @@
 					xp_levels: 2
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Here we go again..."
 			tasks: [{
 				id: "6683566549EAADDA"
