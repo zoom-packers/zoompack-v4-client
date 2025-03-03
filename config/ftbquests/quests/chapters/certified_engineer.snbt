@@ -841,11 +841,6 @@
 			dependencies: ["64C5FC899A6F0F34"]
 			icon: "create:andesite_funnel"
 			id: "48D35FB15EED1E1B"
-			rewards: [{
-				id: "6DA383B059B04136"
-				item: "minecraft:netherite_scrap"
-				type: "item"
-			}]
 			shape: "gear"
 			subtitle: "Move lava, water, milk, or you know what? The whole ocean!"
 			tasks: [
@@ -1005,19 +1000,12 @@
 			dependencies: ["2CE4309590602786"]
 			icon: "create:mechanical_mixer"
 			id: "7A23092E92C3E358"
-			rewards: [
-				{
-					id: "37FB92C2AE3A47C0"
-					item: "minecraft:netherite_scrap"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5900543C5FCBD39E"
-					table_id: 2258866243659860760L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5900543C5FCBD39E"
+				table_id: 2258866243659860760L
+				type: "loot"
+			}]
 			shape: "gear"
 			subtitle: "Special mechanical driven gear awaits your usage"
 			tasks: [
@@ -1057,19 +1045,12 @@
 			dependencies: ["7A23092E92C3E358"]
 			icon: "create:fluid_valve"
 			id: "041C663DCF0D6C4E"
-			rewards: [
-				{
-					id: "1C2F8685B25850FC"
-					item: "minecraft:netherite_scrap"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "40DC8D1436FA0C4F"
-					table_id: 2258866243659860760L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40DC8D1436FA0C4F"
+				table_id: 2258866243659860760L
+				type: "loot"
+			}]
 			shape: "gear"
 			subtitle: "Advance further into the world of cogwheels and evolve with the new alloy: brass"
 			tasks: [
@@ -1229,19 +1210,12 @@
 			dependencies: ["7E692A6A11F10A53"]
 			icon: "create:railway_casing"
 			id: "07D0199BD36181E6"
-			rewards: [
-				{
-					id: "0C56FBE2DBBC7F2F"
-					item: "minecraft:netherite_scrap"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "48A39C0DF38F5028"
-					table_id: 2258866243659860760L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48A39C0DF38F5028"
+				table_id: 2258866243659860760L
+				type: "loot"
+			}]
 			shape: "gear"
 			subtitle: "Railway time, explore the world in a train. Live in the train or even achive multi dimensional travel with them."
 			tasks: [
