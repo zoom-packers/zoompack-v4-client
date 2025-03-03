@@ -11,8 +11,8 @@
     "power.origins-classes.warrior_equipment.description": "Basic Equipment every warrior needs are provided from your army days.",
     "power.origins-classes.warrior_levels.name": "Past Altercations",
     "power.origins-classes.warrior_levels.description": "You'll be granted a potion that will set your initial levels. Use it immediately to kickstart your journey! Or don't, you do you...",
-    "power.origins-classes.warrior_heavy_weapons.name": "Heavy Hitter",
-    "power.origins-classes.warrior_heavy_weapons.description": "Dual-handed weapons are your forte. You'll deal more damage with them, but you'll be slower.",
+    "power.origins-classes.warrior_dual_wield.name": "Dual Wielding",
+    "power.origins-classes.warrior_dual_wield.description": "You'll deal more damage when dual-wielding melee weapons. When using a shield, you'll be more resistant to damage.",
 
     "power.origins-classes.archer_buffs.name": "Ranged Proficiency",
     "power.origins-classes.archer_buffs.description": "Able to use bows and crossbows proficiently. Swords are for nitwits, and magic is inherently flawed.",
@@ -52,6 +52,8 @@
     "power.origins-classes.tank_equipment.description": "You're starting out with some heavy armor, a sword and a shield. Will take you a long way.",
     "power.origins-classes.tank_levels.name": "Guardian's Oath",
     "power.origins-classes.tank_levels.description": "You'll be granted a potion that will set your initial levels. Use it immediately to kickstart your journey! Or don't, you do you...",
+    "power.origins-classes.tank_heavy_weapons.name": "Heavy Hitter",
+    "power.origins-classes.tank_heavy_weapons.description": "Dual-handed weapons are your forte. You'll deal more damage with them, but you'll be slower.",
 
     "origin.origins-classes.all_rounder.name": "All-Rounder",
     "origin.origins-classes.all_rounder.description": "You're decent at everything, but not the best at anything.",

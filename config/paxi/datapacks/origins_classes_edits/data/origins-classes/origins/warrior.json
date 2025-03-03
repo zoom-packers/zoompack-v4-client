@@ -2,7 +2,7 @@
   "loading_priority": 111,
   "powers": [
     "origins-classes:warrior_buffs",
-    "origins-classes:warrior_heavy_weapons",
+    "origins-classes:warrior_dual_wield",
     "origins-classes:warrior_equipment",
     "origins-classes:warrior_levels"
   ],

@@ -2,7 +2,7 @@
   "loading_priority": 111,
   "powers": [
     "origins-classes:tank_buffs",
-    "origins-classes:less_shield_slowdown",
+    "origins-classes:tank_heavy_weapons",
     "origins-classes:tank_equipment",
     "origins-classes:tank_levels"
   ],
