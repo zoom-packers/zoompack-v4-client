@@ -1,6 +1,18 @@
 {
   "vein_blacklist": [],
   "travel_req": {},
+  "global_mob_modifiers": [
+    {
+      "attribute":"minecraft:generic.max_health",
+      "operation": "MULTIPLY_TOTAL",
+      "amount": 0.5
+    },
+    {
+      "attribute":"minecraft:generic.attack_damage",
+      "operation": "MULTIPLY_TOTAL",
+      "amount": 0.5
+    }
+  ],
   "mob_modifier": {
     "minecraft:warden": [
       {
