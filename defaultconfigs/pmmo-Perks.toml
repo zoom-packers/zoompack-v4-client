@@ -8,12 +8,6 @@
 			perk = "pmmo:breath"
 			skill = "swimming"
 
-		[[Perks.For_Event.SUBMERGED]]
-			perk = "pmmo:effect"
-			skill = "swimming"
-			min_level = 25
-			effect = "minecraft:night_vision"
-
 		[[Perks.For_Event.CROUCH_JUMP]]
 			perk = "pmmo:jump_boost"
 			skill = "agility"
