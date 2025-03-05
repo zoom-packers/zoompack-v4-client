@@ -1,0 +1,3 @@
+[submodule "tools/js_gen/dim_builder/-f"]
+	path = tools/js_gen/dim_builder/-f
+	url = https://github.com/zoom-packers/mc.git
