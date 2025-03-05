@@ -189,8 +189,8 @@ export const archerCustomArmory = new GeckoArmorArmoryEntry(archerVariants)
         }
         ])
     .withMaterialChromaKeyOperations([
-        ChromaCreator.create("#36cd44", "#000000", 0.1, "linear"),
-        ChromaCreator.create("#4d7952", "#000000", 0.1, "linear"),
+        ChromaCreator.create("#21c70e", "#000000", 0.1, "linear"),
+        ChromaCreator.create("#21c70e", "#000000", 0.1, "linear"),
     ]);
 
 export const rangerCustomArmory = new GeckoArmorArmoryEntry(rangerVariants)
@@ -217,7 +217,7 @@ export const rangerCustomArmory = new GeckoArmorArmoryEntry(rangerVariants)
         }
         ])
     .withMaterialChromaKeyOperations([
-        ChromaCreator.create("#ac0d00", "#000000", 0.05, "linear"),
-        ChromaCreator.create("#a8121e", "#000000", 0.05, "linear"),
+        ChromaCreator.create("#21c70e", "#000000", 0.1, "linear"),
+        ChromaCreator.create("#21c70e", "#000000", 0.1, "linear"),
     ]);
 

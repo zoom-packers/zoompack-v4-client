@@ -200,7 +200,7 @@ export class PolymorphArmoryVariants {
         damageMultiplier: 1.1,
         speedAddition: -0.1,
         reachMultiplier: 0,
-        modelType: "normal",
+        modelType: "slightly_larger",
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.55),
             CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.12 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
