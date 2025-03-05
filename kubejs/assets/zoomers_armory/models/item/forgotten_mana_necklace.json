@@ -2,5 +2,5 @@
     "textures": {
         "layer0": "zoomers_armory:item/forgotten_mana_necklace"
     },
-    "parent": "zoomers_armory:item/normal"
+    "parent": "zoomers_armory:item/small"
 }

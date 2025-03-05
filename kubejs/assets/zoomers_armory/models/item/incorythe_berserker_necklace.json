@@ -2,5 +2,5 @@
     "textures": {
         "layer0": "zoomers_armory:item/incorythe_berserker_necklace"
     },
-    "parent": "zoomers_armory:item/normal"
+    "parent": "zoomers_armory:item/small"
 }

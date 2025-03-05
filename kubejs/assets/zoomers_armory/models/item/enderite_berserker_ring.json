@@ -2,5 +2,5 @@
     "textures": {
         "layer0": "zoomers_armory:item/enderite_berserker_ring"
     },
-    "parent": "zoomers_armory:item/normal"
+    "parent": "zoomers_armory:item/small"
 }

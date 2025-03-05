@@ -1075,7 +1075,7 @@ export class PolymorphArmoryVariants {
         displayName: "Mana Ring",
         recipe: ["", "material", "", "material", item_irons_spellbooks.i_arcane_rune, "material", "", "material", ""],
         durabilityMultiplier: 1,
-        modelType: "normal",
+        modelType: "small",
         pmmoSkill: "magic",
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_irons_spellbooks.a_max_mana, operation.ADDITION, 5),
@@ -1095,7 +1095,7 @@ export class PolymorphArmoryVariants {
         displayName: "Dexterity Ring",
         recipe: ["", "material", "", "material", item_irons_spellbooks.i_lightning_rune, "material", "", "material", ""],
         durabilityMultiplier: 1,
-        modelType: "normal",
+        modelType: "small",
         pmmoSkill: "archery",
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.ADDITION, 1),
@@ -1116,7 +1116,7 @@ export class PolymorphArmoryVariants {
         displayName: "Sharpshooter Ring",
         recipe: ["", "material", "", "material", item_irons_spellbooks.i_blood_rune, "material", "", "material", ""],
         durabilityMultiplier: 1,
-        modelType: "normal",
+        modelType: "small",
         pmmoSkill: "archery",
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.ADDITION, 0.01),
@@ -1135,7 +1135,7 @@ export class PolymorphArmoryVariants {
         displayName: "Berserker Ring",
         recipe: ["", "material", "", "material", item_irons_spellbooks.i_fire_rune, "material", "", "material", ""],
         durabilityMultiplier: 1,
-        modelType: "normal",
+        modelType: "small",
         pmmoSkill: "combat",
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_minecraft.a_generic_attack_damage, operation.ADDITION, 1),
@@ -1154,7 +1154,7 @@ export class PolymorphArmoryVariants {
         displayName: "Fortified Ring",
         recipe: ["", "material", "", "material", item_irons_spellbooks.i_protection_rune, "material", "", "material", ""],
         durabilityMultiplier: 1,
-        modelType: "normal",
+        modelType: "small",
         pmmoSkill: "endurance",
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_minecraft.a_generic_armor, operation.ADDITION, 1),
@@ -1179,7 +1179,7 @@ export class PolymorphArmoryVariants {
         displayName: "Infused Ring",
         recipe: ["", "material", "", "material", item_irons_spellbooks.i_cooldown_rune, "material", "", "material", ""],
         durabilityMultiplier: 1,
-        modelType: "normal",
+        modelType: "small",
         pmmoSkill: "magic",
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_irons_spellbooks.a_spell_power, operation.ADDITION, 0.01),
@@ -1209,7 +1209,7 @@ export class PolymorphArmoryVariants {
         displayName: "Mana Necklace",
         recipe: ["material", "", "material", "material", "", "material", "", item_irons_spellbooks.i_arcane_rune, ""],
         durabilityMultiplier: 1,
-        modelType: "normal",
+        modelType: "small",
         pmmoSkill: "magic",
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_irons_spellbooks.a_max_mana, operation.ADDITION, 7.5),
@@ -1229,7 +1229,7 @@ export class PolymorphArmoryVariants {
         displayName: "Dexterity Necklace",
         recipe: ["material", "", "material", "material", "", "material", "", item_irons_spellbooks.i_lightning_rune, ""],
         durabilityMultiplier: 1,
-        modelType: "normal",
+        modelType: "small",
         pmmoSkill: "archery",
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.ADDITION, 1.5),
@@ -1251,7 +1251,7 @@ export class PolymorphArmoryVariants {
         displayName: "Sharpshooter Necklace",
         recipe: ["material", "", "material", "material", "minecraft:bow", "material", "", item_irons_spellbooks.i_blood_rune, ""],
         durabilityMultiplier: 1,
-        modelType: "normal",
+        modelType: "small",
         pmmoSkill: "archery",
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.ADDITION, 0.01),
@@ -1270,7 +1270,7 @@ export class PolymorphArmoryVariants {
         displayName: "Berserker Necklace",
         recipe: ["material", "", "material", "material", "", "material", "", item_irons_spellbooks.i_fire_rune, ""],
         durabilityMultiplier: 1,
-        modelType: "normal",
+        modelType: "small",
         pmmoSkill: "combat",
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_minecraft.a_generic_attack_damage, operation.ADDITION, 1.5),
@@ -1289,7 +1289,7 @@ export class PolymorphArmoryVariants {
         displayName: "Fortified Necklace",
         recipe: ["material", "", "material", "material", "", "material", "", item_irons_spellbooks.i_protection_rune, ""],
         durabilityMultiplier: 1,
-        modelType: "normal",
+        modelType: "small",
         pmmoSkill: "endurance",
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_minecraft.a_generic_armor, operation.ADDITION, 1.5),
@@ -1314,7 +1314,7 @@ export class PolymorphArmoryVariants {
         displayName: "Infused Necklace",
         recipe: ["material", "", "material", "material", "", "material", "", item_irons_spellbooks.i_cooldown_rune, ""],
         durabilityMultiplier: 1,
-        modelType: "normal",
+        modelType: "small",
         pmmoSkill: "magic",
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_irons_spellbooks.a_spell_power, operation.ADDITION, 0.015),

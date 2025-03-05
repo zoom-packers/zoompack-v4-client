@@ -2,5 +2,5 @@
     "textures": {
         "layer0": "zoomers_armory:item/aquite_fortified_necklace"
     },
-    "parent": "zoomers_armory:item/normal"
+    "parent": "zoomers_armory:item/small"
 }

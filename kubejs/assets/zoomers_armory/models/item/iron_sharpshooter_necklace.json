@@ -2,5 +2,5 @@
     "textures": {
         "layer0": "zoomers_armory:item/iron_sharpshooter_necklace"
     },
-    "parent": "zoomers_armory:item/normal"
+    "parent": "zoomers_armory:item/small"
 }
