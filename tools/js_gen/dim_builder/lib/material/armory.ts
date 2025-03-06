@@ -23,6 +23,37 @@ import path from "path";
 import {Config} from "../config";
 import {CustomArmoryEntry} from "./customArmoryEntry";
 import {SimpleItemArmoryEntry} from "./simpleItemArmoryEntry";
+import {Debug} from "../debug";
+import { Worker } from "worker_threads";
+
+async function runWorker(task) {
+    return new Promise((resolve, reject) => {
+        const worker = new Worker(`
+  require('ts-node/register');
+  require(require('worker_threads').workerData.runThisFileInTheWorker);
+`, {
+            eval: true,
+            workerData: {
+                runThisFileInTheWorker: path.resolve(__dirname, 'textureWorker.ts'),
+                task: {
+                    work: task.work,
+                    path: task.path,
+                    workingDir: process.cwd()
+                }
+            }
+        });
+        worker.on('message', resolve);
+        worker.on('error', reject);
+        worker.on('exit', (code) => {
+            if (code !== 0) {
+                reject(new Error(`Worker stopped with exit code ${code}`));
+            }
+            else {
+                resolve(true);
+            }
+        });
+    });
+}
 
 export const GENERAL_DURABILITY_MULTIPLIER = 1.331945;
 export const PER_TIER_MULTIPLIER = 0.125;
@@ -48,24 +79,41 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         if (!this.material) {
             throw new Error("Material is not set");
         }
+        let now = new Date();
         const material = this.material;
         log(this, `Building Armory Pack for <${capitalizeFirstLetter(material.internalName)}>`);
         this.material = material;
         this.registerTier();
+        Debug.timeAction("registerTier", new Date().getTime() - now.getTime());
+        now = new Date();
         log(this, `Registered tier for <${capitalizeFirstLetter(material.internalName)}>`);
         this.registerItems();
+        Debug.timeAction("registerItems", new Date().getTime() - now.getTime());
+        now = new Date();
         log(this, `Registered items for <${capitalizeFirstLetter(material.internalName)}>`);
         this.createTags();
+        Debug.timeAction("createTags", new Date().getTime() - now.getTime());
+        now = new Date();
         log(this, `Created tags for <${capitalizeFirstLetter(material.internalName)}>`);
         this.createCiaEntries();
+        Debug.timeAction("createCiaEntries", new Date().getTime() - now.getTime());
+        now = new Date();
         log(this, `Created CIA entries for <${capitalizeFirstLetter(material.internalName)}>`);
         this.createRecipes();
+        Debug.timeAction("createRecipes", new Date().getTime() - now.getTime());
+        now = new Date();
         log(this, `Created recipes for <${capitalizeFirstLetter(material.internalName)}>`);
         this.setPMMOLevels();
+        Debug.timeAction("setPMMOLevels", new Date().getTime() - now.getTime());
+        now = new Date();
         log(this, `Set PMMO levels for <${capitalizeFirstLetter(material.internalName)}>`);
         this.createModelAssets();
+        Debug.timeAction("createModelAssets", new Date().getTime() - now.getTime());
+        now = new Date();
         log(this, `Created model assets for <${capitalizeFirstLetter(material.internalName)}>`);
         await this.createTextureAssets();
+        Debug.timeAction("createTextureAssets", new Date().getTime() - now.getTime());
+        now = new Date();
         log(this, `Created texture assets for <${capitalizeFirstLetter(material.internalName)}>`);
 
         log(this, `Building Custom Armory Entries for <${capitalizeFirstLetter(material.internalName)}>`);
@@ -76,6 +124,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                 await entry.build(path.join(kubejsAssetsPath(), this.internalNamespace), this.internalNamespace, material);
             }
         }
+        Debug.timeAction("createCustomArmoryEntries", new Date().getTime() - now.getTime());
         log(this, `Built Armory Pack for <${capitalizeFirstLetter(material.internalName)}>`);
     }
 
@@ -499,6 +548,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         if (Config.instance.skipAssets) {
             return;
         }
+        const tasks = [];
         const inputAssetsDir = `./mc/assets`;
         const inputTexturesDir = `${inputAssetsDir}/_custom/textures`;
         const inputTexturesPaths = fs.readdirSync(inputTexturesDir).filter(path => path.endsWith(".png"));
@@ -532,8 +582,10 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                     }
                 }
                 const id = `${material.internalName}_${type.id}`;
-                const texture = await combine(workingAssets);
-                await texture.toFile(`${outputTexturesDir}/${id}.png`);
+                tasks.push({
+                    work: workingAssets,
+                    path: `${outputTexturesDir}/${id}.png`
+                });
             } else {
                 let assets = [`${inputTexturesDir}/${type.textureGenDetails.textureName}`];
                 const workingAssets = [];
@@ -550,8 +602,10 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                 }
                 workingAssets.push(new WorkingTexture().withPath(assets[0]).withChromaKeys(chromaKeyOperationsCopy));
                 const id = `${material.internalName}_${type.id}`;
-                const texture = await combine(workingAssets);
-                await texture.toFile(`${outputTexturesDir}/${id}.png`);
+                tasks.push({
+                    work: workingAssets,
+                    path: `${outputTexturesDir}/${id}.png`
+                });
             }
         }
 
@@ -576,9 +630,10 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                 if ([1, 2, 3].includes(i)) {
                     id = `${material.internalName}_${type.id}_drawing_${i - 1}`;
                 }
-                const texture = await combine(workingAssets);
-                texture.toFile(`${outputTexturesDir}/${id}.png`);
-
+                tasks.push({
+                    work: workingAssets,
+                    path: `${outputTexturesDir}/${id}.png`
+                });
             }
         }
 
@@ -599,9 +654,10 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                     new WorkingTexture().withPath(arrowPath),
                 ];
                 const id = `${material.internalName}_${type.id}_${extraState}`;
-                const texture = await combine(workingAssets);
-                texture.toFile(`${outputTexturesDir}/${id}.png`);
-
+                tasks.push({
+                    work: workingAssets,
+                    path: `${outputTexturesDir}/${id}.png`
+                });
             }
         }
 
@@ -611,12 +667,20 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         const armorLayer1Texture = new WorkingTexture().withPath(armorLayer1).withTint(material.color);
         const armorLayer2Texture = new WorkingTexture().withPath(armorLayer2).withTint(material.color);
 
-        const combinedArmorLayer1Texture = await combine([armorLayer1Texture]);
-        const combinedArmorLayer2Texture = await combine([armorLayer2Texture]);
-
         ensureFolderExists(`${outputAssetsDir}/textures/models/armor`);
-        combinedArmorLayer1Texture.toFile(`${outputAssetsDir}/textures/models/armor/${material.internalName}_layer_1.png`);
-        combinedArmorLayer2Texture.toFile(`${outputAssetsDir}/textures/models/armor/${material.internalName}_layer_2.png`);
+        tasks.push({
+            work: [armorLayer1Texture],
+            path: `${outputAssetsDir}/textures/models/armor/${material.internalName}_layer_1.png`
+        });
+        tasks.push({
+            work: [armorLayer2Texture],
+            path: `${outputAssetsDir}/textures/models/armor/${material.internalName}_layer_2.png`
+        });
+
+        await Promise.all(tasks.map(async task => {
+            const texture = await combine(task.work);
+            await texture.toFile(task.path);
+        }));
     }
 
     //#endregion
