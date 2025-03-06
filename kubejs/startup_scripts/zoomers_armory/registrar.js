@@ -317,25 +317,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 0 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:flint_samurai_light", tier => {
-    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [1,2.5,3,1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:flint" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:flint_samurai", tier => {
-    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [1,2.5,3,1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:flint" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:flint_samurai_master", tier => {
     tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1,2.5,3,1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -443,25 +425,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 0 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:copper_samurai_light", tier => {
-    tier.durabilityMultiplier = 20.228914687499998 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [1.4666666666666666,3.6666666666666665,4.4,1.4666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:copper_ingot" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:copper_samurai", tier => {
-    tier.durabilityMultiplier = 20.228914687499998 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [1.4666666666666666,3.6666666666666665,4.4,1.4666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:copper_ingot" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:copper_samurai_master", tier => {
     tier.durabilityMultiplier = 20.228914687499998 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.4666666666666666,3.6666666666666665,4.4,1.4666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -569,25 +533,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 0 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:iron_samurai_light", tier => {
-    tier.durabilityMultiplier = 34.68606770833333 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:iron_ingot" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:iron_samurai", tier => {
-    tier.durabilityMultiplier = 34.68606770833333 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:iron_ingot" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:iron_samurai_master", tier => {
     tier.durabilityMultiplier = 34.68606770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2,5,6,2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -695,25 +641,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 0 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:gold_samurai_light", tier => {
-    tier.durabilityMultiplier = 5.619142968749999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [1.4666666666666666,3.6666666666666665,4.4,1.4666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:gold_ingot" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:gold_samurai", tier => {
-    tier.durabilityMultiplier = 5.619142968749999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [1.4666666666666666,3.6666666666666665,4.4,1.4666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:gold_ingot" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:gold_samurai_master", tier => {
     tier.durabilityMultiplier = 5.619142968749999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.4666666666666666,3.6666666666666665,4.4,1.4666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -821,25 +749,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 2 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:diamond_samurai_light", tier => {
-    tier.durabilityMultiplier = 83.94028385416667 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [2.6666666666666665,6.666666666666667,8,2.6666666666666665] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:diamond" // #forge:ingots/iron'
-    tier.toughness = 2 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:diamond_samurai", tier => {
-    tier.durabilityMultiplier = 83.94028385416667 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [2.6666666666666665,6.666666666666667,8,2.6666666666666665] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:diamond" // #forge:ingots/iron'
-    tier.toughness = 2 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:diamond_samurai_master", tier => {
     tier.durabilityMultiplier = 83.94028385416667 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.6666666666666665,6.666666666666667,8,2.6666666666666665] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -947,25 +857,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 3 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:neptunium_samurai_light", tier => {
-    tier.durabilityMultiplier = 167.88056770833333 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [2.933333333333333,7.333333333333333,8.8,2.933333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#aquaculture:neptunium_ingot" // #forge:ingots/iron'
-    tier.toughness = 3 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:neptunium_samurai", tier => {
-    tier.durabilityMultiplier = 167.88056770833333 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [2.933333333333333,7.333333333333333,8.8,2.933333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#aquaculture:neptunium_ingot" // #forge:ingots/iron'
-    tier.toughness = 3 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.01 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:neptunium_samurai_master", tier => {
     tier.durabilityMultiplier = 167.88056770833333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.933333333333333,7.333333333333333,8.8,2.933333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -1073,25 +965,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 2 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:pyrope_samurai_light", tier => {
-    tier.durabilityMultiplier = 435.10203333333334 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [2.933333333333333,7.333333333333333,8.8,2.933333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#blue_skies:pyrope_gem" // #forge:ingots/iron'
-    tier.toughness = 2 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:pyrope_samurai", tier => {
-    tier.durabilityMultiplier = 435.10203333333334 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [2.933333333333333,7.333333333333333,8.8,2.933333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#blue_skies:pyrope_gem" // #forge:ingots/iron'
-    tier.toughness = 2 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:pyrope_samurai_master", tier => {
     tier.durabilityMultiplier = 435.10203333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [2.933333333333333,7.333333333333333,8.8,2.933333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -1199,25 +1073,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 2 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:aquite_samurai_light", tier => {
-    tier.durabilityMultiplier = 462.29591041666663 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [3.2,8,9.6,3.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#blue_skies:aquite" // #forge:ingots/iron'
-    tier.toughness = 2 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:aquite_samurai", tier => {
-    tier.durabilityMultiplier = 462.29591041666663 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [3.2,8,9.6,3.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#blue_skies:aquite" // #forge:ingots/iron'
-    tier.toughness = 2 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.02 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:aquite_samurai_master", tier => {
     tier.durabilityMultiplier = 462.29591041666663 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.2,8,9.6,3.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -1325,25 +1181,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:diopside_samurai_light", tier => {
-    tier.durabilityMultiplier = 489.4897875 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [3.2,8,9.6,3.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#blue_skies:diopside_gem" // #forge:ingots/iron'
-    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:diopside_samurai", tier => {
-    tier.durabilityMultiplier = 489.4897875 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [3.2,8,9.6,3.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#blue_skies:diopside_gem" // #forge:ingots/iron'
-    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.022 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:diopside_samurai_master", tier => {
     tier.durabilityMultiplier = 489.4897875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.2,8,9.6,3.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -1451,25 +1289,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:charoite_samurai_light", tier => {
-    tier.durabilityMultiplier = 593.1317578124999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [3.3333333333333335,8.333333333333334,10,3.3333333333333335] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#blue_skies:charoite" // #forge:ingots/iron'
-    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:charoite_samurai", tier => {
-    tier.durabilityMultiplier = 593.1317578124999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [3.3333333333333335,8.333333333333334,10,3.3333333333333335] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#blue_skies:charoite" // #forge:ingots/iron'
-    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.023 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:charoite_samurai_master", tier => {
     tier.durabilityMultiplier = 593.1317578124999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.3333333333333335,8.333333333333334,10,3.3333333333333335] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -1577,25 +1397,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:horizonite_samurai_light", tier => {
-    tier.durabilityMultiplier = 624.3492187500001 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [3.466666666666667,8.666666666666666,10.4,3.466666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#blue_skies:horizonite_ingot" // #forge:ingots/iron'
-    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:horizonite_samurai", tier => {
-    tier.durabilityMultiplier = 624.3492187500001 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [3.466666666666667,8.666666666666666,10.4,3.466666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#blue_skies:horizonite_ingot" // #forge:ingots/iron'
-    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:horizonite_samurai_master", tier => {
     tier.durabilityMultiplier = 624.3492187500001 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.466666666666667,8.666666666666666,10.4,3.466666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -1703,25 +1505,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:zanite_samurai_light", tier => {
-    tier.durabilityMultiplier = 1107.416533953125 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [3.7333333333333334,9.333333333333334,11.2,3.7333333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#aether:zanite_gemstone" // #forge:ingots/iron'
-    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:zanite_samurai", tier => {
-    tier.durabilityMultiplier = 1107.416533953125 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [3.7333333333333334,9.333333333333334,11.2,3.7333333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#aether:zanite_gemstone" // #forge:ingots/iron'
-    tier.toughness = 2.5 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.025 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:zanite_samurai_master", tier => {
     tier.durabilityMultiplier = 1107.416533953125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [3.7333333333333334,9.333333333333334,11.2,3.7333333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -1829,25 +1613,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 3 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:enchanted_gravitite_samurai_light", tier => {
-    tier.durabilityMultiplier = 1217.6072338489582 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [4.8,12,14.4,4.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#aether:enchanted_gravitite" // #forge:ingots/iron'
-    tier.toughness = 3 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:enchanted_gravitite_samurai", tier => {
-    tier.durabilityMultiplier = 1217.6072338489582 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [4.8,12,14.4,4.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#aether:enchanted_gravitite" // #forge:ingots/iron'
-    tier.toughness = 3 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.027 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:enchanted_gravitite_samurai_master", tier => {
     tier.durabilityMultiplier = 1217.6072338489582 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [4.8,12,14.4,4.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -1955,25 +1721,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:cincinnasite_samurai_light", tier => {
-    tier.durabilityMultiplier = 1498.438125 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [6,15,18,6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#betternether:cincinnasite_ingot" // #forge:ingots/iron'
-    tier.toughness = 5 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:cincinnasite_samurai", tier => {
-    tier.durabilityMultiplier = 1498.438125 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [6,15,18,6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#betternether:cincinnasite_ingot" // #forge:ingots/iron'
-    tier.toughness = 5 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.036 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:cincinnasite_samurai_master", tier => {
     tier.durabilityMultiplier = 1498.438125 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6,15,18,6] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -2081,25 +1829,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 6 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:cincinnasite_diamond_samurai_light", tier => {
-    tier.durabilityMultiplier = 1553.935833333333 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [6.8,17,20.4,6.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:diamond" // #forge:ingots/iron'
-    tier.toughness = 6 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:cincinnasite_diamond_samurai", tier => {
-    tier.durabilityMultiplier = 1553.935833333333 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [6.8,17,20.4,6.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:diamond" // #forge:ingots/iron'
-    tier.toughness = 6 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:cincinnasite_diamond_samurai_master", tier => {
     tier.durabilityMultiplier = 1553.935833333333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [6.8,17,20.4,6.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -2207,25 +1937,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 7 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:nether_ruby_samurai_light", tier => {
-    tier.durabilityMultiplier = 1804.9935914062498 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [7.333333333333333,18.333333333333332,22,7.333333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#betternether:nether_ruby" // #forge:ingots/iron'
-    tier.toughness = 7 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:nether_ruby_samurai", tier => {
-    tier.durabilityMultiplier = 1804.9935914062498 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [7.333333333333333,18.333333333333332,22,7.333333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#betternether:nether_ruby" // #forge:ingots/iron'
-    tier.toughness = 7 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.033 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:nether_ruby_samurai_master", tier => {
     tier.durabilityMultiplier = 1804.9935914062498 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [7.333333333333333,18.333333333333332,22,7.333333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -2333,25 +2045,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 7 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:flaming_ruby_samurai_light", tier => {
-    tier.durabilityMultiplier = 1850.8832589843748 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [7.866666666666666,19.666666666666668,23.6,7.866666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:sculk_catalyst" // #forge:ingots/iron'
-    tier.toughness = 7 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:flaming_ruby_samurai", tier => {
-    tier.durabilityMultiplier = 1850.8832589843748 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [7.866666666666666,19.666666666666668,23.6,7.866666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:sculk_catalyst" // #forge:ingots/iron'
-    tier.toughness = 7 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.038 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:flaming_ruby_samurai_master", tier => {
     tier.durabilityMultiplier = 1850.8832589843748 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [7.866666666666666,19.666666666666668,23.6,7.866666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -2459,25 +2153,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 8 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:netherite_samurai_light", tier => {
-    tier.durabilityMultiplier = 2081.719039583333 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [8.4,21,25.2,8.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:netherite_ingot" // #forge:ingots/iron'
-    tier.toughness = 8 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:netherite_samurai", tier => {
-    tier.durabilityMultiplier = 2081.719039583333 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [8.4,21,25.2,8.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:netherite_ingot" // #forge:ingots/iron'
-    tier.toughness = 8 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.04 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:netherite_samurai_master", tier => {
     tier.durabilityMultiplier = 2081.719039583333 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.4,21,25.2,8.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -2585,25 +2261,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 9 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:cloggrum_samurai_light", tier => {
-    tier.durabilityMultiplier = 2216.02349375 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [8.4,21,25.2,8.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#undergarden:cloggrum_ingot" // #forge:ingots/iron'
-    tier.toughness = 9 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:cloggrum_samurai", tier => {
-    tier.durabilityMultiplier = 2216.02349375 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [8.4,21,25.2,8.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#undergarden:cloggrum_ingot" // #forge:ingots/iron'
-    tier.toughness = 9 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.045 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:cloggrum_samurai_master", tier => {
     tier.durabilityMultiplier = 2216.02349375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.4,21,25.2,8.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -2711,25 +2369,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 9 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:froststeel_samurai_light", tier => {
-    tier.durabilityMultiplier = 2568.8501744791665 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [8.8,22,26.4,8.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#undergarden:froststeel_ingot" // #forge:ingots/iron'
-    tier.toughness = 9 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:froststeel_samurai", tier => {
-    tier.durabilityMultiplier = 2568.8501744791665 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [8.8,22,26.4,8.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#undergarden:froststeel_ingot" // #forge:ingots/iron'
-    tier.toughness = 9 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.05 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:froststeel_samurai_master", tier => {
     tier.durabilityMultiplier = 2568.8501744791665 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [8.8,22,26.4,8.8] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -2837,25 +2477,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 10 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:utherium_samurai_light", tier => {
-    tier.durabilityMultiplier = 2956.9179 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [11.066666666666666,27.666666666666668,33.2,11.066666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#undergarden:utherium_crystal" // #forge:ingots/iron'
-    tier.toughness = 10 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:utherium_samurai", tier => {
-    tier.durabilityMultiplier = 2956.9179 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [11.066666666666666,27.666666666666668,33.2,11.066666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#undergarden:utherium_crystal" // #forge:ingots/iron'
-    tier.toughness = 10 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:utherium_samurai_master", tier => {
     tier.durabilityMultiplier = 2956.9179 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [11.066666666666666,27.666666666666668,33.2,11.066666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -2963,25 +2585,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 10 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:forgotten_samurai_light", tier => {
-    tier.durabilityMultiplier = 3555.321940104166 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [12.666666666666666,31.666666666666668,38,12.666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#undergarden:forgotten_ingot" // #forge:ingots/iron'
-    tier.toughness = 10 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:forgotten_samurai", tier => {
-    tier.durabilityMultiplier = 3555.321940104166 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [12.666666666666666,31.666666666666668,38,12.666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#undergarden:forgotten_ingot" // #forge:ingots/iron'
-    tier.toughness = 10 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.055 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:forgotten_samurai_master", tier => {
     tier.durabilityMultiplier = 3555.321940104166 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [12.666666666666666,31.666666666666668,38,12.666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3089,25 +2693,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 10 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:jade_samurai_light", tier => {
-    tier.durabilityMultiplier = 3196.6679999999997 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [11.333333333333334,28.333333333333332,34,11.333333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#call_of_yucutan:jade" // #forge:ingots/iron'
-    tier.toughness = 10 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:jade_samurai", tier => {
-    tier.durabilityMultiplier = 3196.6679999999997 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [11.333333333333334,28.333333333333332,34,11.333333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#call_of_yucutan:jade" // #forge:ingots/iron'
-    tier.toughness = 10 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.058 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:jade_samurai_master", tier => {
     tier.durabilityMultiplier = 3196.6679999999997 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [11.333333333333334,28.333333333333332,34,11.333333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3215,25 +2801,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 10 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:crystalline_samurai_light", tier => {
-    tier.durabilityMultiplier = 4314.391845833334 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [14,35,42,14] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#phantasm:crystal_block" // #forge:ingots/iron'
-    tier.toughness = 10 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:crystalline_samurai", tier => {
-    tier.durabilityMultiplier = 4314.391845833334 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [14,35,42,14] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#phantasm:crystal_block" // #forge:ingots/iron'
-    tier.toughness = 10 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.06 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:crystalline_samurai_master", tier => {
     tier.durabilityMultiplier = 4314.391845833334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [14,35,42,14] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3341,25 +2909,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 11 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:dragon_samurai_light", tier => {
-    tier.durabilityMultiplier = 4854.939525 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [16,40,48,16] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#ender_dragon_loot_:dragon_scale" // #forge:ingots/iron'
-    tier.toughness = 11 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:dragon_samurai", tier => {
-    tier.durabilityMultiplier = 4854.939525 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [16,40,48,16] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#ender_dragon_loot_:dragon_scale" // #forge:ingots/iron'
-    tier.toughness = 11 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.07 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:dragon_samurai_master", tier => {
     tier.durabilityMultiplier = 4854.939525 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [16,40,48,16] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3467,25 +3017,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 12 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:enderite_samurai_light", tier => {
-    tier.durabilityMultiplier = 5562.9515390625 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [28.266666666666666,70.66666666666667,84.8,28.266666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#enderitemod:enderite_ingot" // #forge:ingots/iron'
-    tier.toughness = 12 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:enderite_samurai", tier => {
-    tier.durabilityMultiplier = 5562.9515390625 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [28.266666666666666,70.66666666666667,84.8,28.266666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#enderitemod:enderite_ingot" // #forge:ingots/iron'
-    tier.toughness = 12 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:enderite_samurai_master", tier => {
     tier.durabilityMultiplier = 5562.9515390625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [28.266666666666666,70.66666666666667,84.8,28.266666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3593,25 +3125,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 13 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:immemorial_samurai_light", tier => {
-    tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [26.666666666666668,66.66666666666667,80,26.666666666666668] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#callfromthedepth_:immemorialingot" // #forge:ingots/iron'
-    tier.toughness = 13 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:immemorial_samurai", tier => {
-    tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [26.666666666666668,66.66666666666667,80,26.666666666666668] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#callfromthedepth_:immemorialingot" // #forge:ingots/iron'
-    tier.toughness = 13 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:immemorial_samurai_master", tier => {
     tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [26.666666666666668,66.66666666666667,80,26.666666666666668] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3719,25 +3233,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 13 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:soul_samurai_light", tier => {
-    tier.durabilityMultiplier = 7001.035906249999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [34.666666666666664,86.66666666666667,104,34.666666666666664] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#callfromthedepth_:soulingot" // #forge:ingots/iron'
-    tier.toughness = 13 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:soul_samurai", tier => {
-    tier.durabilityMultiplier = 7001.035906249999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [34.666666666666664,86.66666666666667,104,34.666666666666664] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#callfromthedepth_:soulingot" // #forge:ingots/iron'
-    tier.toughness = 13 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:soul_samurai_master", tier => {
     tier.durabilityMultiplier = 7001.035906249999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [34.666666666666664,86.66666666666667,104,34.666666666666664] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3845,25 +3341,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 13.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:fixed_bone_samurai_light", tier => {
-    tier.durabilityMultiplier = 7117.719838020834 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [39.86666666666667,99.66666666666667,119.6,39.86666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#theabyss:fixed_bone" // #forge:ingots/iron'
-    tier.toughness = 13.5 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:fixed_bone_samurai", tier => {
-    tier.durabilityMultiplier = 7117.719838020834 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [39.86666666666667,99.66666666666667,119.6,39.86666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#theabyss:fixed_bone" // #forge:ingots/iron'
-    tier.toughness = 13.5 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.12 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:fixed_bone_samurai_master", tier => {
     tier.durabilityMultiplier = 7117.719838020834 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [39.86666666666667,99.66666666666667,119.6,39.86666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3971,25 +3449,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 14 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:fusion_samurai_light", tier => {
-    tier.durabilityMultiplier = 7292.745735677084 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [29.733333333333334,74.33333333333333,89.2,29.733333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#theabyss:fusion_ingot" // #forge:ingots/iron'
-    tier.toughness = 14 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:fusion_samurai", tier => {
-    tier.durabilityMultiplier = 7292.745735677084 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [29.733333333333334,74.33333333333333,89.2,29.733333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#theabyss:fusion_ingot" // #forge:ingots/iron'
-    tier.toughness = 14 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:fusion_samurai_master", tier => {
     tier.durabilityMultiplier = 7292.745735677084 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [29.733333333333334,74.33333333333333,89.2,29.733333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -4097,25 +3557,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 15 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:aberythe_samurai_light", tier => {
-    tier.durabilityMultiplier = 8116.53984375 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [45.46666666666667,113.66666666666667,136.4,45.46666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#theabyss:aberythe_gem" // #forge:ingots/iron'
-    tier.toughness = 15 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:aberythe_samurai", tier => {
-    tier.durabilityMultiplier = 8116.53984375 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [45.46666666666667,113.66666666666667,136.4,45.46666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#theabyss:aberythe_gem" // #forge:ingots/iron'
-    tier.toughness = 15 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.115 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:aberythe_samurai_master", tier => {
     tier.durabilityMultiplier = 8116.53984375 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [45.46666666666667,113.66666666666667,136.4,45.46666666666667] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -4223,25 +3665,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 14 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:ignisithe_samurai_light", tier => {
-    tier.durabilityMultiplier = 8999.993988281249 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [56,140,168,56] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#theabyss:ignisithe_gem" // #forge:ingots/iron'
-    tier.toughness = 14 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:ignisithe_samurai", tier => {
-    tier.durabilityMultiplier = 8999.993988281249 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [56,140,168,56] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#theabyss:ignisithe_gem" // #forge:ingots/iron'
-    tier.toughness = 14 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.125 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:ignisithe_samurai_master", tier => {
     tier.durabilityMultiplier = 8999.993988281249 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [56,140,168,56] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -4349,25 +3773,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:knight_samurai_light", tier => {
-    tier.durabilityMultiplier = 9166.660543619791 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [50.13333333333333,125.33333333333333,150.4,50.13333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#theabyss:fixed_bone" // #forge:ingots/iron'
-    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:knight_samurai", tier => {
-    tier.durabilityMultiplier = 9166.660543619791 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [50.13333333333333,125.33333333333333,150.4,50.13333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#theabyss:fixed_bone" // #forge:ingots/iron'
-    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.13 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:knight_samurai_master", tier => {
     tier.durabilityMultiplier = 9166.660543619791 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [50.13333333333333,125.33333333333333,150.4,50.13333333333333] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -4475,25 +3881,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:glacerythe_samurai_light", tier => {
-    tier.durabilityMultiplier = 9945.189333333334 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [61.2,153,183.6,61.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#theabyss:glacerythe_gem" // #forge:ingots/iron'
-    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:glacerythe_samurai", tier => {
-    tier.durabilityMultiplier = 9945.189333333334 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [61.2,153,183.6,61.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#theabyss:glacerythe_gem" // #forge:ingots/iron'
-    tier.toughness = 14.5 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:glacerythe_samurai_master", tier => {
     tier.durabilityMultiplier = 9945.189333333334 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [61.2,153,183.6,61.2] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -4601,25 +3989,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 15 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:garnite_samurai_light", tier => {
-    tier.durabilityMultiplier = 10954.20704296875 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [66.93333333333334,167.33333333333334,200.8,66.93333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#theabyss:garnite_ingot" // #forge:ingots/iron'
-    tier.toughness = 15 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:garnite_samurai", tier => {
-    tier.durabilityMultiplier = 10954.20704296875 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [66.93333333333334,167.33333333333334,200.8,66.93333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#theabyss:garnite_ingot" // #forge:ingots/iron'
-    tier.toughness = 15 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.135 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:garnite_samurai_master", tier => {
     tier.durabilityMultiplier = 10954.20704296875 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [66.93333333333334,167.33333333333334,200.8,66.93333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -4727,25 +4097,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 16 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:phantom_samurai_light", tier => {
-    tier.durabilityMultiplier = 10655.56 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [72.4,181,217.2,72.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#theabyss:phantom_ingot" // #forge:ingots/iron'
-    tier.toughness = 16 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:phantom_samurai", tier => {
-    tier.durabilityMultiplier = 10655.56 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [72.4,181,217.2,72.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#theabyss:phantom_ingot" // #forge:ingots/iron'
-    tier.toughness = 16 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.14 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:phantom_samurai_master", tier => {
     tier.durabilityMultiplier = 10655.56 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [72.4,181,217.2,72.4] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -4853,25 +4205,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 17 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:unorithe_samurai_light", tier => {
-    tier.durabilityMultiplier = 11709.66959765625 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [78.13333333333334,195.33333333333334,234.4,78.13333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#theabyss:unorithe_ingot" // #forge:ingots/iron'
-    tier.toughness = 17 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:unorithe_samurai", tier => {
-    tier.durabilityMultiplier = 11709.66959765625 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [78.13333333333334,195.33333333333334,234.4,78.13333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#theabyss:unorithe_ingot" // #forge:ingots/iron'
-    tier.toughness = 17 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.145 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:unorithe_samurai_master", tier => {
     tier.durabilityMultiplier = 11709.66959765625 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [78.13333333333334,195.33333333333334,234.4,78.13333333333334] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -4979,25 +4313,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 18 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:incorythe_samurai_light", tier => {
-    tier.durabilityMultiplier = 10666.659541666668 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [86,215,258,86] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#theabyss:incorythe_gem" // #forge:ingots/iron'
-    tier.toughness = 18 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:incorythe_samurai", tier => {
-    tier.durabilityMultiplier = 10666.659541666668 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [86,215,258,86] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#theabyss:incorythe_gem" // #forge:ingots/iron'
-    tier.toughness = 18 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0.15 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:incorythe_samurai_master", tier => {
     tier.durabilityMultiplier = 10666.659541666668 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [86,215,258,86] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -5138,12 +4454,8 @@ e.create("zoomers_armory:flint_pickaxe", "pickaxe").displayName("Flint Pickaxe")
 e.create("zoomers_armory:flint_axe", "axe").displayName("Flint Axe").tier("zoomers_armory:flint")
 e.create("zoomers_armory:flint_shovel", "shovel").displayName("Flint Shovel").tier("zoomers_armory:flint")
 e.create("zoomers_armory:flint_hoe", "hoe").displayName("Flint Hoe").tier("zoomers_armory:flint")
-global.createGeckoArmorTier(e, "zoomers_armory", "flint_samurai_light", "zoomers_armory:flint_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flint_samurai_light"), "Flint Samurai Light Helmet", "Flint Samurai Light Chestplate", "Flint Samurai Light Leggings", "Flint Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "flint_samurai", "zoomers_armory:flint_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flint_samurai"), "Flint Samurai Helmet", "Flint Samurai Chestplate", "Flint Samurai Leggings", "Flint Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "flint_samurai_master", "zoomers_armory:flint_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flint_samurai_master"), "Flint Samurai Master Helmet", "Flint Samurai Master Chestplate", "Flint Samurai Master Leggings", "Flint Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flint_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "flint_archer", "zoomers_armory:flint_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flint_archer"), "Flint Archer Helmet", "Flint Archer Chestplate", "Flint Archer Leggings", "Flint Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/flint_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/flint_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/flint_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/flint_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "flint_ranger", "zoomers_armory:flint_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flint_ranger"), "Flint Ranger Helmet", "Flint Ranger Chestplate", "Flint Ranger Leggings", "Flint Ranger Boots", "",
@@ -5198,12 +4510,8 @@ e.create("zoomers_armory:copper_shortbow", "bow").displayName("Copper Shortbow")
 e.create("zoomers_armory:copper_bow", "bow").displayName("Copper Bow").maxDamage(180).tier("zoomers_armory:copper")
 e.create("zoomers_armory:copper_longbow", "bow").displayName("Copper Longbow").maxDamage(144).tier("zoomers_armory:copper")
 e.create("zoomers_armory:copper_crossbow", "crossbow").displayName("Copper Crossbow").maxDamage(135).tier("zoomers_armory:copper")
-global.createGeckoArmorTier(e, "zoomers_armory", "copper_samurai_light", "zoomers_armory:copper_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:copper_samurai_light"), "Copper Samurai Light Helmet", "Copper Samurai Light Chestplate", "Copper Samurai Light Leggings", "Copper Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "copper_samurai", "zoomers_armory:copper_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:copper_samurai"), "Copper Samurai Helmet", "Copper Samurai Chestplate", "Copper Samurai Leggings", "Copper Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "copper_samurai_master", "zoomers_armory:copper_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:copper_samurai_master"), "Copper Samurai Master Helmet", "Copper Samurai Master Chestplate", "Copper Samurai Master Leggings", "Copper Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/copper_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "copper_archer", "zoomers_armory:copper_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:copper_archer"), "Copper Archer Helmet", "Copper Archer Chestplate", "Copper Archer Leggings", "Copper Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/copper_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/copper_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/copper_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/copper_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "copper_ranger", "zoomers_armory:copper_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:copper_ranger"), "Copper Ranger Helmet", "Copper Ranger Chestplate", "Copper Ranger Leggings", "Copper Ranger Boots", "",
@@ -5258,12 +4566,8 @@ e.create("zoomers_armory:iron_shortbow", "bow").displayName("Iron Shortbow").max
 e.create("zoomers_armory:iron_bow", "bow").displayName("Iron Bow").maxDamage(250).tier("zoomers_armory:iron")
 e.create("zoomers_armory:iron_longbow", "bow").displayName("Iron Longbow").maxDamage(200).tier("zoomers_armory:iron")
 e.create("zoomers_armory:iron_crossbow", "crossbow").displayName("Iron Crossbow").maxDamage(187.5).tier("zoomers_armory:iron")
-global.createGeckoArmorTier(e, "zoomers_armory", "iron_samurai_light", "zoomers_armory:iron_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:iron_samurai_light"), "Iron Samurai Light Helmet", "Iron Samurai Light Chestplate", "Iron Samurai Light Leggings", "Iron Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "iron_samurai", "zoomers_armory:iron_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:iron_samurai"), "Iron Samurai Helmet", "Iron Samurai Chestplate", "Iron Samurai Leggings", "Iron Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "iron_samurai_master", "zoomers_armory:iron_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:iron_samurai_master"), "Iron Samurai Master Helmet", "Iron Samurai Master Chestplate", "Iron Samurai Master Leggings", "Iron Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/iron_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "iron_archer", "zoomers_armory:iron_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:iron_archer"), "Iron Archer Helmet", "Iron Archer Chestplate", "Iron Archer Leggings", "Iron Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/iron_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/iron_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/iron_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/iron_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "iron_ranger", "zoomers_armory:iron_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:iron_ranger"), "Iron Ranger Helmet", "Iron Ranger Chestplate", "Iron Ranger Leggings", "Iron Ranger Boots", "",
@@ -5318,12 +4622,8 @@ e.create("zoomers_armory:gold_shortbow", "bow").displayName("Gold Shortbow").max
 e.create("zoomers_armory:gold_bow", "bow").displayName("Gold Bow").maxDamage(50).tier("zoomers_armory:gold")
 e.create("zoomers_armory:gold_longbow", "bow").displayName("Gold Longbow").maxDamage(40).tier("zoomers_armory:gold")
 e.create("zoomers_armory:gold_crossbow", "crossbow").displayName("Gold Crossbow").maxDamage(37.5).tier("zoomers_armory:gold")
-global.createGeckoArmorTier(e, "zoomers_armory", "gold_samurai_light", "zoomers_armory:gold_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:gold_samurai_light"), "Gold Samurai Light Helmet", "Gold Samurai Light Chestplate", "Gold Samurai Light Leggings", "Gold Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "gold_samurai", "zoomers_armory:gold_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:gold_samurai"), "Gold Samurai Helmet", "Gold Samurai Chestplate", "Gold Samurai Leggings", "Gold Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "gold_samurai_master", "zoomers_armory:gold_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:gold_samurai_master"), "Gold Samurai Master Helmet", "Gold Samurai Master Chestplate", "Gold Samurai Master Leggings", "Gold Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/gold_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "gold_archer", "zoomers_armory:gold_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:gold_archer"), "Gold Archer Helmet", "Gold Archer Chestplate", "Gold Archer Leggings", "Gold Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/gold_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/gold_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/gold_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/gold_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "gold_ranger", "zoomers_armory:gold_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:gold_ranger"), "Gold Ranger Helmet", "Gold Ranger Chestplate", "Gold Ranger Leggings", "Gold Ranger Boots", "",
@@ -5378,12 +4678,8 @@ e.create("zoomers_armory:diamond_shortbow", "bow").displayName("Diamond Shortbow
 e.create("zoomers_armory:diamond_bow", "bow").displayName("Diamond Bow").maxDamage(500).tier("zoomers_armory:diamond")
 e.create("zoomers_armory:diamond_longbow", "bow").displayName("Diamond Longbow").maxDamage(400).tier("zoomers_armory:diamond")
 e.create("zoomers_armory:diamond_crossbow", "crossbow").displayName("Diamond Crossbow").maxDamage(375).tier("zoomers_armory:diamond")
-global.createGeckoArmorTier(e, "zoomers_armory", "diamond_samurai_light", "zoomers_armory:diamond_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diamond_samurai_light"), "Diamond Samurai Light Helmet", "Diamond Samurai Light Chestplate", "Diamond Samurai Light Leggings", "Diamond Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "diamond_samurai", "zoomers_armory:diamond_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diamond_samurai"), "Diamond Samurai Helmet", "Diamond Samurai Chestplate", "Diamond Samurai Leggings", "Diamond Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "diamond_samurai_master", "zoomers_armory:diamond_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diamond_samurai_master"), "Diamond Samurai Master Helmet", "Diamond Samurai Master Chestplate", "Diamond Samurai Master Leggings", "Diamond Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diamond_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "diamond_archer", "zoomers_armory:diamond_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diamond_archer"), "Diamond Archer Helmet", "Diamond Archer Chestplate", "Diamond Archer Leggings", "Diamond Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/diamond_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/diamond_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/diamond_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/diamond_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "diamond_ranger", "zoomers_armory:diamond_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diamond_ranger"), "Diamond Ranger Helmet", "Diamond Ranger Chestplate", "Diamond Ranger Leggings", "Diamond Ranger Boots", "",
@@ -5445,12 +4741,8 @@ e.create("zoomers_armory:neptunium_helmet", "helmet").displayName("Neptunium Hel
 e.create("zoomers_armory:neptunium_chestplate", "chestplate").displayName("Neptunium Chestplate").tier("zoomers_armory:neptunium")
 e.create("zoomers_armory:neptunium_leggings", "leggings").displayName("Neptunium Leggings").tier("zoomers_armory:neptunium")
 e.create("zoomers_armory:neptunium_boots", "boots").displayName("Neptunium Boots").tier("zoomers_armory:neptunium")
-global.createGeckoArmorTier(e, "zoomers_armory", "neptunium_samurai_light", "zoomers_armory:neptunium_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:neptunium_samurai_light"), "Neptunium Samurai Light Helmet", "Neptunium Samurai Light Chestplate", "Neptunium Samurai Light Leggings", "Neptunium Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "neptunium_samurai", "zoomers_armory:neptunium_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:neptunium_samurai"), "Neptunium Samurai Helmet", "Neptunium Samurai Chestplate", "Neptunium Samurai Leggings", "Neptunium Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "neptunium_samurai_master", "zoomers_armory:neptunium_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:neptunium_samurai_master"), "Neptunium Samurai Master Helmet", "Neptunium Samurai Master Chestplate", "Neptunium Samurai Master Leggings", "Neptunium Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/neptunium_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "neptunium_archer", "zoomers_armory:neptunium_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:neptunium_archer"), "Neptunium Archer Helmet", "Neptunium Archer Chestplate", "Neptunium Archer Leggings", "Neptunium Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/neptunium_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/neptunium_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/neptunium_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/neptunium_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "neptunium_ranger", "zoomers_armory:neptunium_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:neptunium_ranger"), "Neptunium Ranger Helmet", "Neptunium Ranger Chestplate", "Neptunium Ranger Leggings", "Neptunium Ranger Boots", "",
@@ -5505,12 +4797,8 @@ e.create("zoomers_armory:pyrope_shortbow", "bow").displayName("Pyrope Shortbow")
 e.create("zoomers_armory:pyrope_bow", "bow").displayName("Pyrope Bow").maxDamage(1600).tier("zoomers_armory:pyrope")
 e.create("zoomers_armory:pyrope_longbow", "bow").displayName("Pyrope Longbow").maxDamage(1280).tier("zoomers_armory:pyrope")
 e.create("zoomers_armory:pyrope_crossbow", "crossbow").displayName("Pyrope Crossbow").maxDamage(1200).tier("zoomers_armory:pyrope")
-global.createGeckoArmorTier(e, "zoomers_armory", "pyrope_samurai_light", "zoomers_armory:pyrope_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:pyrope_samurai_light"), "Pyrope Samurai Light Helmet", "Pyrope Samurai Light Chestplate", "Pyrope Samurai Light Leggings", "Pyrope Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "pyrope_samurai", "zoomers_armory:pyrope_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:pyrope_samurai"), "Pyrope Samurai Helmet", "Pyrope Samurai Chestplate", "Pyrope Samurai Leggings", "Pyrope Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "pyrope_samurai_master", "zoomers_armory:pyrope_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:pyrope_samurai_master"), "Pyrope Samurai Master Helmet", "Pyrope Samurai Master Chestplate", "Pyrope Samurai Master Leggings", "Pyrope Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/pyrope_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "pyrope_archer", "zoomers_armory:pyrope_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:pyrope_archer"), "Pyrope Archer Helmet", "Pyrope Archer Chestplate", "Pyrope Archer Leggings", "Pyrope Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/pyrope_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/pyrope_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/pyrope_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/pyrope_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "pyrope_ranger", "zoomers_armory:pyrope_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:pyrope_ranger"), "Pyrope Ranger Helmet", "Pyrope Ranger Chestplate", "Pyrope Ranger Leggings", "Pyrope Ranger Boots", "",
@@ -5565,12 +4853,8 @@ e.create("zoomers_armory:aquite_shortbow", "bow").displayName("Aquite Shortbow")
 e.create("zoomers_armory:aquite_bow", "bow").displayName("Aquite Bow").maxDamage(1700).tier("zoomers_armory:aquite")
 e.create("zoomers_armory:aquite_longbow", "bow").displayName("Aquite Longbow").maxDamage(1360).tier("zoomers_armory:aquite")
 e.create("zoomers_armory:aquite_crossbow", "crossbow").displayName("Aquite Crossbow").maxDamage(1275).tier("zoomers_armory:aquite")
-global.createGeckoArmorTier(e, "zoomers_armory", "aquite_samurai_light", "zoomers_armory:aquite_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aquite_samurai_light"), "Aquite Samurai Light Helmet", "Aquite Samurai Light Chestplate", "Aquite Samurai Light Leggings", "Aquite Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "aquite_samurai", "zoomers_armory:aquite_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aquite_samurai"), "Aquite Samurai Helmet", "Aquite Samurai Chestplate", "Aquite Samurai Leggings", "Aquite Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "aquite_samurai_master", "zoomers_armory:aquite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aquite_samurai_master"), "Aquite Samurai Master Helmet", "Aquite Samurai Master Chestplate", "Aquite Samurai Master Leggings", "Aquite Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aquite_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "aquite_archer", "zoomers_armory:aquite_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aquite_archer"), "Aquite Archer Helmet", "Aquite Archer Chestplate", "Aquite Archer Leggings", "Aquite Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/aquite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/aquite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/aquite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/aquite_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "aquite_ranger", "zoomers_armory:aquite_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aquite_ranger"), "Aquite Ranger Helmet", "Aquite Ranger Chestplate", "Aquite Ranger Leggings", "Aquite Ranger Boots", "",
@@ -5625,12 +4909,8 @@ e.create("zoomers_armory:diopside_shortbow", "bow").displayName("Diopside Shortb
 e.create("zoomers_armory:diopside_bow", "bow").displayName("Diopside Bow").maxDamage(1800).tier("zoomers_armory:diopside")
 e.create("zoomers_armory:diopside_longbow", "bow").displayName("Diopside Longbow").maxDamage(1440).tier("zoomers_armory:diopside")
 e.create("zoomers_armory:diopside_crossbow", "crossbow").displayName("Diopside Crossbow").maxDamage(1350).tier("zoomers_armory:diopside")
-global.createGeckoArmorTier(e, "zoomers_armory", "diopside_samurai_light", "zoomers_armory:diopside_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diopside_samurai_light"), "Diopside Samurai Light Helmet", "Diopside Samurai Light Chestplate", "Diopside Samurai Light Leggings", "Diopside Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "diopside_samurai", "zoomers_armory:diopside_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diopside_samurai"), "Diopside Samurai Helmet", "Diopside Samurai Chestplate", "Diopside Samurai Leggings", "Diopside Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "diopside_samurai_master", "zoomers_armory:diopside_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diopside_samurai_master"), "Diopside Samurai Master Helmet", "Diopside Samurai Master Chestplate", "Diopside Samurai Master Leggings", "Diopside Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/diopside_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "diopside_archer", "zoomers_armory:diopside_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diopside_archer"), "Diopside Archer Helmet", "Diopside Archer Chestplate", "Diopside Archer Leggings", "Diopside Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/diopside_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/diopside_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/diopside_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/diopside_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "diopside_ranger", "zoomers_armory:diopside_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:diopside_ranger"), "Diopside Ranger Helmet", "Diopside Ranger Chestplate", "Diopside Ranger Leggings", "Diopside Ranger Boots", "",
@@ -5685,12 +4965,8 @@ e.create("zoomers_armory:charoite_shortbow", "bow").displayName("Charoite Shortb
 e.create("zoomers_armory:charoite_bow", "bow").displayName("Charoite Bow").maxDamage(1900).tier("zoomers_armory:charoite")
 e.create("zoomers_armory:charoite_longbow", "bow").displayName("Charoite Longbow").maxDamage(1520).tier("zoomers_armory:charoite")
 e.create("zoomers_armory:charoite_crossbow", "crossbow").displayName("Charoite Crossbow").maxDamage(1425).tier("zoomers_armory:charoite")
-global.createGeckoArmorTier(e, "zoomers_armory", "charoite_samurai_light", "zoomers_armory:charoite_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:charoite_samurai_light"), "Charoite Samurai Light Helmet", "Charoite Samurai Light Chestplate", "Charoite Samurai Light Leggings", "Charoite Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "charoite_samurai", "zoomers_armory:charoite_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:charoite_samurai"), "Charoite Samurai Helmet", "Charoite Samurai Chestplate", "Charoite Samurai Leggings", "Charoite Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "charoite_samurai_master", "zoomers_armory:charoite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:charoite_samurai_master"), "Charoite Samurai Master Helmet", "Charoite Samurai Master Chestplate", "Charoite Samurai Master Leggings", "Charoite Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/charoite_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "charoite_archer", "zoomers_armory:charoite_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:charoite_archer"), "Charoite Archer Helmet", "Charoite Archer Chestplate", "Charoite Archer Leggings", "Charoite Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/charoite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/charoite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/charoite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/charoite_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "charoite_ranger", "zoomers_armory:charoite_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:charoite_ranger"), "Charoite Ranger Helmet", "Charoite Ranger Chestplate", "Charoite Ranger Leggings", "Charoite Ranger Boots", "",
@@ -5745,12 +5021,8 @@ e.create("zoomers_armory:horizonite_shortbow", "bow").displayName("Horizonite Sh
 e.create("zoomers_armory:horizonite_bow", "bow").displayName("Horizonite Bow").maxDamage(2000).tier("zoomers_armory:horizonite")
 e.create("zoomers_armory:horizonite_longbow", "bow").displayName("Horizonite Longbow").maxDamage(1600).tier("zoomers_armory:horizonite")
 e.create("zoomers_armory:horizonite_crossbow", "crossbow").displayName("Horizonite Crossbow").maxDamage(1500).tier("zoomers_armory:horizonite")
-global.createGeckoArmorTier(e, "zoomers_armory", "horizonite_samurai_light", "zoomers_armory:horizonite_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:horizonite_samurai_light"), "Horizonite Samurai Light Helmet", "Horizonite Samurai Light Chestplate", "Horizonite Samurai Light Leggings", "Horizonite Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "horizonite_samurai", "zoomers_armory:horizonite_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:horizonite_samurai"), "Horizonite Samurai Helmet", "Horizonite Samurai Chestplate", "Horizonite Samurai Leggings", "Horizonite Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "horizonite_samurai_master", "zoomers_armory:horizonite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:horizonite_samurai_master"), "Horizonite Samurai Master Helmet", "Horizonite Samurai Master Chestplate", "Horizonite Samurai Master Leggings", "Horizonite Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/horizonite_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "horizonite_archer", "zoomers_armory:horizonite_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:horizonite_archer"), "Horizonite Archer Helmet", "Horizonite Archer Chestplate", "Horizonite Archer Leggings", "Horizonite Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/horizonite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/horizonite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/horizonite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/horizonite_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "horizonite_ranger", "zoomers_armory:horizonite_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:horizonite_ranger"), "Horizonite Ranger Helmet", "Horizonite Ranger Chestplate", "Horizonite Ranger Leggings", "Horizonite Ranger Boots", "",
@@ -5805,12 +5077,8 @@ e.create("zoomers_armory:zanite_shortbow", "bow").displayName("Zanite Shortbow")
 e.create("zoomers_armory:zanite_bow", "bow").displayName("Zanite Bow").maxDamage(2211).tier("zoomers_armory:zanite")
 e.create("zoomers_armory:zanite_longbow", "bow").displayName("Zanite Longbow").maxDamage(1768.8000000000002).tier("zoomers_armory:zanite")
 e.create("zoomers_armory:zanite_crossbow", "crossbow").displayName("Zanite Crossbow").maxDamage(1658.25).tier("zoomers_armory:zanite")
-global.createGeckoArmorTier(e, "zoomers_armory", "zanite_samurai_light", "zoomers_armory:zanite_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:zanite_samurai_light"), "Zanite Samurai Light Helmet", "Zanite Samurai Light Chestplate", "Zanite Samurai Light Leggings", "Zanite Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "zanite_samurai", "zoomers_armory:zanite_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:zanite_samurai"), "Zanite Samurai Helmet", "Zanite Samurai Chestplate", "Zanite Samurai Leggings", "Zanite Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "zanite_samurai_master", "zoomers_armory:zanite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:zanite_samurai_master"), "Zanite Samurai Master Helmet", "Zanite Samurai Master Chestplate", "Zanite Samurai Master Leggings", "Zanite Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/zanite_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "zanite_archer", "zoomers_armory:zanite_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:zanite_archer"), "Zanite Archer Helmet", "Zanite Archer Chestplate", "Zanite Archer Leggings", "Zanite Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/zanite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/zanite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/zanite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/zanite_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "zanite_ranger", "zoomers_armory:zanite_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:zanite_ranger"), "Zanite Ranger Helmet", "Zanite Ranger Chestplate", "Zanite Ranger Leggings", "Zanite Ranger Boots", "",
@@ -5865,12 +5133,8 @@ e.create("zoomers_armory:enchanted_gravitite_shortbow", "bow").displayName("Ench
 e.create("zoomers_armory:enchanted_gravitite_bow", "bow").displayName("Enchanted Gravitite Bow").maxDamage(2431).tier("zoomers_armory:enchanted_gravitite")
 e.create("zoomers_armory:enchanted_gravitite_longbow", "bow").displayName("Enchanted Gravitite Longbow").maxDamage(1944.8000000000002).tier("zoomers_armory:enchanted_gravitite")
 e.create("zoomers_armory:enchanted_gravitite_crossbow", "crossbow").displayName("Enchanted Gravitite Crossbow").maxDamage(1823.25).tier("zoomers_armory:enchanted_gravitite")
-global.createGeckoArmorTier(e, "zoomers_armory", "enchanted_gravitite_samurai_light", "zoomers_armory:enchanted_gravitite_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enchanted_gravitite_samurai_light"), "Enchanted Gravitite Samurai Light Helmet", "Enchanted Gravitite Samurai Light Chestplate", "Enchanted Gravitite Samurai Light Leggings", "Enchanted Gravitite Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "enchanted_gravitite_samurai", "zoomers_armory:enchanted_gravitite_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enchanted_gravitite_samurai"), "Enchanted Gravitite Samurai Helmet", "Enchanted Gravitite Samurai Chestplate", "Enchanted Gravitite Samurai Leggings", "Enchanted Gravitite Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "enchanted_gravitite_samurai_master", "zoomers_armory:enchanted_gravitite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enchanted_gravitite_samurai_master"), "Enchanted Gravitite Samurai Master Helmet", "Enchanted Gravitite Samurai Master Chestplate", "Enchanted Gravitite Samurai Master Leggings", "Enchanted Gravitite Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "enchanted_gravitite_archer", "zoomers_armory:enchanted_gravitite_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enchanted_gravitite_archer"), "Enchanted Gravitite Archer Helmet", "Enchanted Gravitite Archer Chestplate", "Enchanted Gravitite Archer Leggings", "Enchanted Gravitite Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/enchanted_gravitite_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "enchanted_gravitite_ranger", "zoomers_armory:enchanted_gravitite_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enchanted_gravitite_ranger"), "Enchanted Gravitite Ranger Helmet", "Enchanted Gravitite Ranger Chestplate", "Enchanted Gravitite Ranger Leggings", "Enchanted Gravitite Ranger Boots", "",
@@ -5925,12 +5189,8 @@ e.create("zoomers_armory:cincinnasite_shortbow", "bow").displayName("Cincinnasit
 e.create("zoomers_armory:cincinnasite_bow", "bow").displayName("Cincinnasite Bow").maxDamage(2700).tier("zoomers_armory:cincinnasite")
 e.create("zoomers_armory:cincinnasite_longbow", "bow").displayName("Cincinnasite Longbow").maxDamage(2160).tier("zoomers_armory:cincinnasite")
 e.create("zoomers_armory:cincinnasite_crossbow", "crossbow").displayName("Cincinnasite Crossbow").maxDamage(2025).tier("zoomers_armory:cincinnasite")
-global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_samurai_light", "zoomers_armory:cincinnasite_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_samurai_light"), "Cincinnasite Samurai Light Helmet", "Cincinnasite Samurai Light Chestplate", "Cincinnasite Samurai Light Leggings", "Cincinnasite Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_samurai", "zoomers_armory:cincinnasite_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_samurai"), "Cincinnasite Samurai Helmet", "Cincinnasite Samurai Chestplate", "Cincinnasite Samurai Leggings", "Cincinnasite Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_samurai_master", "zoomers_armory:cincinnasite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_samurai_master"), "Cincinnasite Samurai Master Helmet", "Cincinnasite Samurai Master Chestplate", "Cincinnasite Samurai Master Leggings", "Cincinnasite Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_archer", "zoomers_armory:cincinnasite_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_archer"), "Cincinnasite Archer Helmet", "Cincinnasite Archer Chestplate", "Cincinnasite Archer Leggings", "Cincinnasite Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_ranger", "zoomers_armory:cincinnasite_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_ranger"), "Cincinnasite Ranger Helmet", "Cincinnasite Ranger Chestplate", "Cincinnasite Ranger Leggings", "Cincinnasite Ranger Boots", "",
@@ -5985,12 +5245,8 @@ e.create("zoomers_armory:cincinnasite_diamond_shortbow", "bow").displayName("Cin
 e.create("zoomers_armory:cincinnasite_diamond_bow", "bow").displayName("Cincinnasite Diamond Bow").maxDamage(2800).tier("zoomers_armory:cincinnasite_diamond")
 e.create("zoomers_armory:cincinnasite_diamond_longbow", "bow").displayName("Cincinnasite Diamond Longbow").maxDamage(2240).tier("zoomers_armory:cincinnasite_diamond")
 e.create("zoomers_armory:cincinnasite_diamond_crossbow", "crossbow").displayName("Cincinnasite Diamond Crossbow").maxDamage(2100).tier("zoomers_armory:cincinnasite_diamond")
-global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_diamond_samurai_light", "zoomers_armory:cincinnasite_diamond_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_diamond_samurai_light"), "Cincinnasite Diamond Samurai Light Helmet", "Cincinnasite Diamond Samurai Light Chestplate", "Cincinnasite Diamond Samurai Light Leggings", "Cincinnasite Diamond Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_diamond_samurai", "zoomers_armory:cincinnasite_diamond_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_diamond_samurai"), "Cincinnasite Diamond Samurai Helmet", "Cincinnasite Diamond Samurai Chestplate", "Cincinnasite Diamond Samurai Leggings", "Cincinnasite Diamond Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_diamond_samurai_master", "zoomers_armory:cincinnasite_diamond_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_diamond_samurai_master"), "Cincinnasite Diamond Samurai Master Helmet", "Cincinnasite Diamond Samurai Master Chestplate", "Cincinnasite Diamond Samurai Master Leggings", "Cincinnasite Diamond Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_diamond_archer", "zoomers_armory:cincinnasite_diamond_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_diamond_archer"), "Cincinnasite Diamond Archer Helmet", "Cincinnasite Diamond Archer Chestplate", "Cincinnasite Diamond Archer Leggings", "Cincinnasite Diamond Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/cincinnasite_diamond_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "cincinnasite_diamond_ranger", "zoomers_armory:cincinnasite_diamond_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cincinnasite_diamond_ranger"), "Cincinnasite Diamond Ranger Helmet", "Cincinnasite Diamond Ranger Chestplate", "Cincinnasite Diamond Ranger Leggings", "Cincinnasite Diamond Ranger Boots", "",
@@ -6045,12 +5301,8 @@ e.create("zoomers_armory:nether_ruby_shortbow", "bow").displayName("Nether Ruby 
 e.create("zoomers_armory:nether_ruby_bow", "bow").displayName("Nether Ruby Bow").maxDamage(2950).tier("zoomers_armory:nether_ruby")
 e.create("zoomers_armory:nether_ruby_longbow", "bow").displayName("Nether Ruby Longbow").maxDamage(2360).tier("zoomers_armory:nether_ruby")
 e.create("zoomers_armory:nether_ruby_crossbow", "crossbow").displayName("Nether Ruby Crossbow").maxDamage(2212.5).tier("zoomers_armory:nether_ruby")
-global.createGeckoArmorTier(e, "zoomers_armory", "nether_ruby_samurai_light", "zoomers_armory:nether_ruby_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:nether_ruby_samurai_light"), "Nether Ruby Samurai Light Helmet", "Nether Ruby Samurai Light Chestplate", "Nether Ruby Samurai Light Leggings", "Nether Ruby Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "nether_ruby_samurai", "zoomers_armory:nether_ruby_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:nether_ruby_samurai"), "Nether Ruby Samurai Helmet", "Nether Ruby Samurai Chestplate", "Nether Ruby Samurai Leggings", "Nether Ruby Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "nether_ruby_samurai_master", "zoomers_armory:nether_ruby_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:nether_ruby_samurai_master"), "Nether Ruby Samurai Master Helmet", "Nether Ruby Samurai Master Chestplate", "Nether Ruby Samurai Master Leggings", "Nether Ruby Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "nether_ruby_archer", "zoomers_armory:nether_ruby_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:nether_ruby_archer"), "Nether Ruby Archer Helmet", "Nether Ruby Archer Chestplate", "Nether Ruby Archer Leggings", "Nether Ruby Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/nether_ruby_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "nether_ruby_ranger", "zoomers_armory:nether_ruby_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:nether_ruby_ranger"), "Nether Ruby Ranger Helmet", "Nether Ruby Ranger Chestplate", "Nether Ruby Ranger Leggings", "Nether Ruby Ranger Boots", "",
@@ -6105,12 +5357,8 @@ e.create("zoomers_armory:flaming_ruby_shortbow", "bow").displayName("Flaming Rub
 e.create("zoomers_armory:flaming_ruby_bow", "bow").displayName("Flaming Ruby Bow").maxDamage(3025).tier("zoomers_armory:flaming_ruby")
 e.create("zoomers_armory:flaming_ruby_longbow", "bow").displayName("Flaming Ruby Longbow").maxDamage(2420).tier("zoomers_armory:flaming_ruby")
 e.create("zoomers_armory:flaming_ruby_crossbow", "crossbow").displayName("Flaming Ruby Crossbow").maxDamage(2268.75).tier("zoomers_armory:flaming_ruby")
-global.createGeckoArmorTier(e, "zoomers_armory", "flaming_ruby_samurai_light", "zoomers_armory:flaming_ruby_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flaming_ruby_samurai_light"), "Flaming Ruby Samurai Light Helmet", "Flaming Ruby Samurai Light Chestplate", "Flaming Ruby Samurai Light Leggings", "Flaming Ruby Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "flaming_ruby_samurai", "zoomers_armory:flaming_ruby_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flaming_ruby_samurai"), "Flaming Ruby Samurai Helmet", "Flaming Ruby Samurai Chestplate", "Flaming Ruby Samurai Leggings", "Flaming Ruby Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "flaming_ruby_samurai_master", "zoomers_armory:flaming_ruby_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flaming_ruby_samurai_master"), "Flaming Ruby Samurai Master Helmet", "Flaming Ruby Samurai Master Chestplate", "Flaming Ruby Samurai Master Leggings", "Flaming Ruby Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "flaming_ruby_archer", "zoomers_armory:flaming_ruby_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flaming_ruby_archer"), "Flaming Ruby Archer Helmet", "Flaming Ruby Archer Chestplate", "Flaming Ruby Archer Leggings", "Flaming Ruby Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/flaming_ruby_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "flaming_ruby_ranger", "zoomers_armory:flaming_ruby_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:flaming_ruby_ranger"), "Flaming Ruby Ranger Helmet", "Flaming Ruby Ranger Chestplate", "Flaming Ruby Ranger Leggings", "Flaming Ruby Ranger Boots", "",
@@ -6165,12 +5413,8 @@ e.create("zoomers_armory:netherite_shortbow", "bow").displayName("Netherite Shor
 e.create("zoomers_armory:netherite_bow", "bow").displayName("Netherite Bow").maxDamage(3100).tier("zoomers_armory:netherite")
 e.create("zoomers_armory:netherite_longbow", "bow").displayName("Netherite Longbow").maxDamage(2480).tier("zoomers_armory:netherite")
 e.create("zoomers_armory:netherite_crossbow", "crossbow").displayName("Netherite Crossbow").maxDamage(2325).tier("zoomers_armory:netherite")
-global.createGeckoArmorTier(e, "zoomers_armory", "netherite_samurai_light", "zoomers_armory:netherite_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:netherite_samurai_light"), "Netherite Samurai Light Helmet", "Netherite Samurai Light Chestplate", "Netherite Samurai Light Leggings", "Netherite Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "netherite_samurai", "zoomers_armory:netherite_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:netherite_samurai"), "Netherite Samurai Helmet", "Netherite Samurai Chestplate", "Netherite Samurai Leggings", "Netherite Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "netherite_samurai_master", "zoomers_armory:netherite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:netherite_samurai_master"), "Netherite Samurai Master Helmet", "Netherite Samurai Master Chestplate", "Netherite Samurai Master Leggings", "Netherite Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/netherite_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "netherite_archer", "zoomers_armory:netherite_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:netherite_archer"), "Netherite Archer Helmet", "Netherite Archer Chestplate", "Netherite Archer Leggings", "Netherite Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/netherite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/netherite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/netherite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/netherite_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "netherite_ranger", "zoomers_armory:netherite_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:netherite_ranger"), "Netherite Ranger Helmet", "Netherite Ranger Chestplate", "Netherite Ranger Leggings", "Netherite Ranger Boots", "",
@@ -6225,12 +5469,8 @@ e.create("zoomers_armory:cloggrum_shortbow", "bow").displayName("Cloggrum Shortb
 e.create("zoomers_armory:cloggrum_bow", "bow").displayName("Cloggrum Bow").maxDamage(3300).tier("zoomers_armory:cloggrum")
 e.create("zoomers_armory:cloggrum_longbow", "bow").displayName("Cloggrum Longbow").maxDamage(2640).tier("zoomers_armory:cloggrum")
 e.create("zoomers_armory:cloggrum_crossbow", "crossbow").displayName("Cloggrum Crossbow").maxDamage(2475).tier("zoomers_armory:cloggrum")
-global.createGeckoArmorTier(e, "zoomers_armory", "cloggrum_samurai_light", "zoomers_armory:cloggrum_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cloggrum_samurai_light"), "Cloggrum Samurai Light Helmet", "Cloggrum Samurai Light Chestplate", "Cloggrum Samurai Light Leggings", "Cloggrum Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "cloggrum_samurai", "zoomers_armory:cloggrum_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cloggrum_samurai"), "Cloggrum Samurai Helmet", "Cloggrum Samurai Chestplate", "Cloggrum Samurai Leggings", "Cloggrum Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "cloggrum_samurai_master", "zoomers_armory:cloggrum_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cloggrum_samurai_master"), "Cloggrum Samurai Master Helmet", "Cloggrum Samurai Master Chestplate", "Cloggrum Samurai Master Leggings", "Cloggrum Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/cloggrum_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "cloggrum_archer", "zoomers_armory:cloggrum_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cloggrum_archer"), "Cloggrum Archer Helmet", "Cloggrum Archer Chestplate", "Cloggrum Archer Leggings", "Cloggrum Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/cloggrum_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/cloggrum_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/cloggrum_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/cloggrum_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "cloggrum_ranger", "zoomers_armory:cloggrum_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:cloggrum_ranger"), "Cloggrum Ranger Helmet", "Cloggrum Ranger Chestplate", "Cloggrum Ranger Leggings", "Cloggrum Ranger Boots", "",
@@ -6285,12 +5525,8 @@ e.create("zoomers_armory:froststeel_shortbow", "bow").displayName("Froststeel Sh
 e.create("zoomers_armory:froststeel_bow", "bow").displayName("Froststeel Bow").maxDamage(3500).tier("zoomers_armory:froststeel")
 e.create("zoomers_armory:froststeel_longbow", "bow").displayName("Froststeel Longbow").maxDamage(2800).tier("zoomers_armory:froststeel")
 e.create("zoomers_armory:froststeel_crossbow", "crossbow").displayName("Froststeel Crossbow").maxDamage(2625).tier("zoomers_armory:froststeel")
-global.createGeckoArmorTier(e, "zoomers_armory", "froststeel_samurai_light", "zoomers_armory:froststeel_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:froststeel_samurai_light"), "Froststeel Samurai Light Helmet", "Froststeel Samurai Light Chestplate", "Froststeel Samurai Light Leggings", "Froststeel Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "froststeel_samurai", "zoomers_armory:froststeel_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:froststeel_samurai"), "Froststeel Samurai Helmet", "Froststeel Samurai Chestplate", "Froststeel Samurai Leggings", "Froststeel Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "froststeel_samurai_master", "zoomers_armory:froststeel_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:froststeel_samurai_master"), "Froststeel Samurai Master Helmet", "Froststeel Samurai Master Chestplate", "Froststeel Samurai Master Leggings", "Froststeel Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/froststeel_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "froststeel_archer", "zoomers_armory:froststeel_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:froststeel_archer"), "Froststeel Archer Helmet", "Froststeel Archer Chestplate", "Froststeel Archer Leggings", "Froststeel Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/froststeel_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/froststeel_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/froststeel_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/froststeel_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "froststeel_ranger", "zoomers_armory:froststeel_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:froststeel_ranger"), "Froststeel Ranger Helmet", "Froststeel Ranger Chestplate", "Froststeel Ranger Leggings", "Froststeel Ranger Boots", "",
@@ -6345,12 +5581,8 @@ e.create("zoomers_armory:utherium_shortbow", "bow").displayName("Utherium Shortb
 e.create("zoomers_armory:utherium_bow", "bow").displayName("Utherium Bow").maxDamage(3700).tier("zoomers_armory:utherium")
 e.create("zoomers_armory:utherium_longbow", "bow").displayName("Utherium Longbow").maxDamage(2960).tier("zoomers_armory:utherium")
 e.create("zoomers_armory:utherium_crossbow", "crossbow").displayName("Utherium Crossbow").maxDamage(2775).tier("zoomers_armory:utherium")
-global.createGeckoArmorTier(e, "zoomers_armory", "utherium_samurai_light", "zoomers_armory:utherium_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:utherium_samurai_light"), "Utherium Samurai Light Helmet", "Utherium Samurai Light Chestplate", "Utherium Samurai Light Leggings", "Utherium Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "utherium_samurai", "zoomers_armory:utherium_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:utherium_samurai"), "Utherium Samurai Helmet", "Utherium Samurai Chestplate", "Utherium Samurai Leggings", "Utherium Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "utherium_samurai_master", "zoomers_armory:utherium_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:utherium_samurai_master"), "Utherium Samurai Master Helmet", "Utherium Samurai Master Chestplate", "Utherium Samurai Master Leggings", "Utherium Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/utherium_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "utherium_archer", "zoomers_armory:utherium_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:utherium_archer"), "Utherium Archer Helmet", "Utherium Archer Chestplate", "Utherium Archer Leggings", "Utherium Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/utherium_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/utherium_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/utherium_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/utherium_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "utherium_ranger", "zoomers_armory:utherium_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:utherium_ranger"), "Utherium Ranger Helmet", "Utherium Ranger Chestplate", "Utherium Ranger Leggings", "Utherium Ranger Boots", "",
@@ -6405,12 +5637,8 @@ e.create("zoomers_armory:forgotten_shortbow", "bow").displayName("Forgotten Shor
 e.create("zoomers_armory:forgotten_bow", "bow").displayName("Forgotten Bow").maxDamage(4100).tier("zoomers_armory:forgotten")
 e.create("zoomers_armory:forgotten_longbow", "bow").displayName("Forgotten Longbow").maxDamage(3280).tier("zoomers_armory:forgotten")
 e.create("zoomers_armory:forgotten_crossbow", "crossbow").displayName("Forgotten Crossbow").maxDamage(3075).tier("zoomers_armory:forgotten")
-global.createGeckoArmorTier(e, "zoomers_armory", "forgotten_samurai_light", "zoomers_armory:forgotten_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:forgotten_samurai_light"), "Forgotten Samurai Light Helmet", "Forgotten Samurai Light Chestplate", "Forgotten Samurai Light Leggings", "Forgotten Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "forgotten_samurai", "zoomers_armory:forgotten_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:forgotten_samurai"), "Forgotten Samurai Helmet", "Forgotten Samurai Chestplate", "Forgotten Samurai Leggings", "Forgotten Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "forgotten_samurai_master", "zoomers_armory:forgotten_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:forgotten_samurai_master"), "Forgotten Samurai Master Helmet", "Forgotten Samurai Master Chestplate", "Forgotten Samurai Master Leggings", "Forgotten Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/forgotten_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "forgotten_archer", "zoomers_armory:forgotten_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:forgotten_archer"), "Forgotten Archer Helmet", "Forgotten Archer Chestplate", "Forgotten Archer Leggings", "Forgotten Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/forgotten_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/forgotten_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/forgotten_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/forgotten_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "forgotten_ranger", "zoomers_armory:forgotten_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:forgotten_ranger"), "Forgotten Ranger Helmet", "Forgotten Ranger Chestplate", "Forgotten Ranger Leggings", "Forgotten Ranger Boots", "",
@@ -6465,12 +5693,8 @@ e.create("zoomers_armory:jade_shortbow", "bow").displayName("Jade Shortbow").max
 e.create("zoomers_armory:jade_bow", "bow").displayName("Jade Bow").maxDamage(4000).tier("zoomers_armory:jade")
 e.create("zoomers_armory:jade_longbow", "bow").displayName("Jade Longbow").maxDamage(3200).tier("zoomers_armory:jade")
 e.create("zoomers_armory:jade_crossbow", "crossbow").displayName("Jade Crossbow").maxDamage(3000).tier("zoomers_armory:jade")
-global.createGeckoArmorTier(e, "zoomers_armory", "jade_samurai_light", "zoomers_armory:jade_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:jade_samurai_light"), "Jade Samurai Light Helmet", "Jade Samurai Light Chestplate", "Jade Samurai Light Leggings", "Jade Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "jade_samurai", "zoomers_armory:jade_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:jade_samurai"), "Jade Samurai Helmet", "Jade Samurai Chestplate", "Jade Samurai Leggings", "Jade Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "jade_samurai_master", "zoomers_armory:jade_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:jade_samurai_master"), "Jade Samurai Master Helmet", "Jade Samurai Master Chestplate", "Jade Samurai Master Leggings", "Jade Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/jade_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "jade_archer", "zoomers_armory:jade_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:jade_archer"), "Jade Archer Helmet", "Jade Archer Chestplate", "Jade Archer Leggings", "Jade Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/jade_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/jade_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/jade_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/jade_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "jade_ranger", "zoomers_armory:jade_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:jade_ranger"), "Jade Ranger Helmet", "Jade Ranger Chestplate", "Jade Ranger Leggings", "Jade Ranger Boots", "",
@@ -6529,12 +5753,8 @@ e.create("zoomers_armory:crystalline_helmet", "helmet").displayName("Crystalline
 e.create("zoomers_armory:crystalline_chestplate", "chestplate").displayName("Crystalline Chestplate").tier("zoomers_armory:crystalline")
 e.create("zoomers_armory:crystalline_leggings", "leggings").displayName("Crystalline Leggings").tier("zoomers_armory:crystalline")
 e.create("zoomers_armory:crystalline_boots", "boots").displayName("Crystalline Boots").tier("zoomers_armory:crystalline")
-global.createGeckoArmorTier(e, "zoomers_armory", "crystalline_samurai_light", "zoomers_armory:crystalline_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:crystalline_samurai_light"), "Crystalline Samurai Light Helmet", "Crystalline Samurai Light Chestplate", "Crystalline Samurai Light Leggings", "Crystalline Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "crystalline_samurai", "zoomers_armory:crystalline_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:crystalline_samurai"), "Crystalline Samurai Helmet", "Crystalline Samurai Chestplate", "Crystalline Samurai Leggings", "Crystalline Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "crystalline_samurai_master", "zoomers_armory:crystalline_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:crystalline_samurai_master"), "Crystalline Samurai Master Helmet", "Crystalline Samurai Master Chestplate", "Crystalline Samurai Master Leggings", "Crystalline Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/crystalline_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "crystalline_archer", "zoomers_armory:crystalline_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:crystalline_archer"), "Crystalline Archer Helmet", "Crystalline Archer Chestplate", "Crystalline Archer Leggings", "Crystalline Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/crystalline_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/crystalline_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/crystalline_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/crystalline_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "crystalline_ranger", "zoomers_armory:crystalline_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:crystalline_ranger"), "Crystalline Ranger Helmet", "Crystalline Ranger Chestplate", "Crystalline Ranger Leggings", "Crystalline Ranger Boots", "",
@@ -6589,12 +5809,8 @@ e.create("zoomers_armory:dragon_shortbow", "bow").displayName("Dragon Shortbow")
 e.create("zoomers_armory:dragon_bow", "bow").displayName("Dragon Bow").maxDamage(4800).tier("zoomers_armory:dragon")
 e.create("zoomers_armory:dragon_longbow", "bow").displayName("Dragon Longbow").maxDamage(3840).tier("zoomers_armory:dragon")
 e.create("zoomers_armory:dragon_crossbow", "crossbow").displayName("Dragon Crossbow").maxDamage(3600).tier("zoomers_armory:dragon")
-global.createGeckoArmorTier(e, "zoomers_armory", "dragon_samurai_light", "zoomers_armory:dragon_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:dragon_samurai_light"), "Dragon Samurai Light Helmet", "Dragon Samurai Light Chestplate", "Dragon Samurai Light Leggings", "Dragon Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "dragon_samurai", "zoomers_armory:dragon_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:dragon_samurai"), "Dragon Samurai Helmet", "Dragon Samurai Chestplate", "Dragon Samurai Leggings", "Dragon Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "dragon_samurai_master", "zoomers_armory:dragon_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:dragon_samurai_master"), "Dragon Samurai Master Helmet", "Dragon Samurai Master Chestplate", "Dragon Samurai Master Leggings", "Dragon Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/dragon_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "dragon_archer", "zoomers_armory:dragon_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:dragon_archer"), "Dragon Archer Helmet", "Dragon Archer Chestplate", "Dragon Archer Leggings", "Dragon Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/dragon_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/dragon_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/dragon_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/dragon_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "dragon_ranger", "zoomers_armory:dragon_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:dragon_ranger"), "Dragon Ranger Helmet", "Dragon Ranger Chestplate", "Dragon Ranger Leggings", "Dragon Ranger Boots", "",
@@ -6649,12 +5865,8 @@ e.create("zoomers_armory:enderite_shortbow", "bow").displayName("Enderite Shortb
 e.create("zoomers_armory:enderite_bow", "bow").displayName("Enderite Bow").maxDamage(5500).tier("zoomers_armory:enderite")
 e.create("zoomers_armory:enderite_longbow", "bow").displayName("Enderite Longbow").maxDamage(4400).tier("zoomers_armory:enderite")
 e.create("zoomers_armory:enderite_crossbow", "crossbow").displayName("Enderite Crossbow").maxDamage(4125).tier("zoomers_armory:enderite")
-global.createGeckoArmorTier(e, "zoomers_armory", "enderite_samurai_light", "zoomers_armory:enderite_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enderite_samurai_light"), "Enderite Samurai Light Helmet", "Enderite Samurai Light Chestplate", "Enderite Samurai Light Leggings", "Enderite Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "enderite_samurai", "zoomers_armory:enderite_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enderite_samurai"), "Enderite Samurai Helmet", "Enderite Samurai Chestplate", "Enderite Samurai Leggings", "Enderite Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "enderite_samurai_master", "zoomers_armory:enderite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enderite_samurai_master"), "Enderite Samurai Master Helmet", "Enderite Samurai Master Chestplate", "Enderite Samurai Master Leggings", "Enderite Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/enderite_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "enderite_archer", "zoomers_armory:enderite_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enderite_archer"), "Enderite Archer Helmet", "Enderite Archer Chestplate", "Enderite Archer Leggings", "Enderite Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/enderite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/enderite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/enderite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/enderite_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "enderite_ranger", "zoomers_armory:enderite_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:enderite_ranger"), "Enderite Ranger Helmet", "Enderite Ranger Chestplate", "Enderite Ranger Leggings", "Enderite Ranger Boots", "",
@@ -6709,12 +5921,8 @@ e.create("zoomers_armory:immemorial_shortbow", "bow").displayName("Immemorial Sh
 e.create("zoomers_armory:immemorial_bow", "bow").displayName("Immemorial Bow").maxDamage(5700).tier("zoomers_armory:immemorial")
 e.create("zoomers_armory:immemorial_longbow", "bow").displayName("Immemorial Longbow").maxDamage(4560).tier("zoomers_armory:immemorial")
 e.create("zoomers_armory:immemorial_crossbow", "crossbow").displayName("Immemorial Crossbow").maxDamage(4275).tier("zoomers_armory:immemorial")
-global.createGeckoArmorTier(e, "zoomers_armory", "immemorial_samurai_light", "zoomers_armory:immemorial_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:immemorial_samurai_light"), "Immemorial Samurai Light Helmet", "Immemorial Samurai Light Chestplate", "Immemorial Samurai Light Leggings", "Immemorial Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "immemorial_samurai", "zoomers_armory:immemorial_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:immemorial_samurai"), "Immemorial Samurai Helmet", "Immemorial Samurai Chestplate", "Immemorial Samurai Leggings", "Immemorial Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "immemorial_samurai_master", "zoomers_armory:immemorial_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:immemorial_samurai_master"), "Immemorial Samurai Master Helmet", "Immemorial Samurai Master Chestplate", "Immemorial Samurai Master Leggings", "Immemorial Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/immemorial_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "immemorial_archer", "zoomers_armory:immemorial_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:immemorial_archer"), "Immemorial Archer Helmet", "Immemorial Archer Chestplate", "Immemorial Archer Leggings", "Immemorial Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/immemorial_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/immemorial_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/immemorial_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/immemorial_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "immemorial_ranger", "zoomers_armory:immemorial_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:immemorial_ranger"), "Immemorial Ranger Helmet", "Immemorial Ranger Chestplate", "Immemorial Ranger Leggings", "Immemorial Ranger Boots", "",
@@ -6768,12 +5976,8 @@ e.create("zoomers_armory:soul_tower", "shield").displayName("Soul Tower").maxDam
 e.create("zoomers_armory:soul_shortbow", "bow").displayName("Soul Shortbow").maxDamage(7200).tier("zoomers_armory:soul")
 e.create("zoomers_armory:soul_longbow", "bow").displayName("Soul Longbow").maxDamage(4800).tier("zoomers_armory:soul")
 e.create("zoomers_armory:soul_crossbow", "crossbow").displayName("Soul Crossbow").maxDamage(4500).tier("zoomers_armory:soul")
-global.createGeckoArmorTier(e, "zoomers_armory", "soul_samurai_light", "zoomers_armory:soul_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:soul_samurai_light"), "Soul Samurai Light Helmet", "Soul Samurai Light Chestplate", "Soul Samurai Light Leggings", "Soul Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "soul_samurai", "zoomers_armory:soul_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:soul_samurai"), "Soul Samurai Helmet", "Soul Samurai Chestplate", "Soul Samurai Leggings", "Soul Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "soul_samurai_master", "zoomers_armory:soul_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:soul_samurai_master"), "Soul Samurai Master Helmet", "Soul Samurai Master Chestplate", "Soul Samurai Master Leggings", "Soul Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/soul_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "soul_archer", "zoomers_armory:soul_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:soul_archer"), "Soul Archer Helmet", "Soul Archer Chestplate", "Soul Archer Leggings", "Soul Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/soul_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/soul_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/soul_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/soul_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "soul_ranger", "zoomers_armory:soul_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:soul_ranger"), "Soul Ranger Helmet", "Soul Ranger Chestplate", "Soul Ranger Leggings", "Soul Ranger Boots", "",
@@ -6828,12 +6032,8 @@ e.create("zoomers_armory:fixed_bone_shortbow", "bow").displayName("Fixed Bone Sh
 e.create("zoomers_armory:fixed_bone_bow", "bow").displayName("Fixed Bone Bow").maxDamage(6100).tier("zoomers_armory:fixed_bone")
 e.create("zoomers_armory:fixed_bone_longbow", "bow").displayName("Fixed Bone Longbow").maxDamage(4880).tier("zoomers_armory:fixed_bone")
 e.create("zoomers_armory:fixed_bone_crossbow", "crossbow").displayName("Fixed Bone Crossbow").maxDamage(4575).tier("zoomers_armory:fixed_bone")
-global.createGeckoArmorTier(e, "zoomers_armory", "fixed_bone_samurai_light", "zoomers_armory:fixed_bone_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fixed_bone_samurai_light"), "Fixed Bone Samurai Light Helmet", "Fixed Bone Samurai Light Chestplate", "Fixed Bone Samurai Light Leggings", "Fixed Bone Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "fixed_bone_samurai", "zoomers_armory:fixed_bone_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fixed_bone_samurai"), "Fixed Bone Samurai Helmet", "Fixed Bone Samurai Chestplate", "Fixed Bone Samurai Leggings", "Fixed Bone Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "fixed_bone_samurai_master", "zoomers_armory:fixed_bone_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fixed_bone_samurai_master"), "Fixed Bone Samurai Master Helmet", "Fixed Bone Samurai Master Chestplate", "Fixed Bone Samurai Master Leggings", "Fixed Bone Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "fixed_bone_archer", "zoomers_armory:fixed_bone_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fixed_bone_archer"), "Fixed Bone Archer Helmet", "Fixed Bone Archer Chestplate", "Fixed Bone Archer Leggings", "Fixed Bone Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/fixed_bone_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "fixed_bone_ranger", "zoomers_armory:fixed_bone_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fixed_bone_ranger"), "Fixed Bone Ranger Helmet", "Fixed Bone Ranger Chestplate", "Fixed Bone Ranger Leggings", "Fixed Bone Ranger Boots", "",
@@ -6888,12 +6088,8 @@ e.create("zoomers_armory:fusion_shortbow", "bow").displayName("Fusion Shortbow")
 e.create("zoomers_armory:fusion_bow", "bow").displayName("Fusion Bow").maxDamage(6250).tier("zoomers_armory:fusion")
 e.create("zoomers_armory:fusion_longbow", "bow").displayName("Fusion Longbow").maxDamage(5000).tier("zoomers_armory:fusion")
 e.create("zoomers_armory:fusion_crossbow", "crossbow").displayName("Fusion Crossbow").maxDamage(4687.5).tier("zoomers_armory:fusion")
-global.createGeckoArmorTier(e, "zoomers_armory", "fusion_samurai_light", "zoomers_armory:fusion_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fusion_samurai_light"), "Fusion Samurai Light Helmet", "Fusion Samurai Light Chestplate", "Fusion Samurai Light Leggings", "Fusion Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "fusion_samurai", "zoomers_armory:fusion_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fusion_samurai"), "Fusion Samurai Helmet", "Fusion Samurai Chestplate", "Fusion Samurai Leggings", "Fusion Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "fusion_samurai_master", "zoomers_armory:fusion_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fusion_samurai_master"), "Fusion Samurai Master Helmet", "Fusion Samurai Master Chestplate", "Fusion Samurai Master Leggings", "Fusion Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/fusion_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "fusion_archer", "zoomers_armory:fusion_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fusion_archer"), "Fusion Archer Helmet", "Fusion Archer Chestplate", "Fusion Archer Leggings", "Fusion Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/fusion_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/fusion_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/fusion_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/fusion_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "fusion_ranger", "zoomers_armory:fusion_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:fusion_ranger"), "Fusion Ranger Helmet", "Fusion Ranger Chestplate", "Fusion Ranger Leggings", "Fusion Ranger Boots", "",
@@ -6948,12 +6144,8 @@ e.create("zoomers_armory:aberythe_shortbow", "bow").displayName("Aberythe Shortb
 e.create("zoomers_armory:aberythe_bow", "bow").displayName("Aberythe Bow").maxDamage(6500).tier("zoomers_armory:aberythe")
 e.create("zoomers_armory:aberythe_longbow", "bow").displayName("Aberythe Longbow").maxDamage(5200).tier("zoomers_armory:aberythe")
 e.create("zoomers_armory:aberythe_crossbow", "crossbow").displayName("Aberythe Crossbow").maxDamage(4875).tier("zoomers_armory:aberythe")
-global.createGeckoArmorTier(e, "zoomers_armory", "aberythe_samurai_light", "zoomers_armory:aberythe_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aberythe_samurai_light"), "Aberythe Samurai Light Helmet", "Aberythe Samurai Light Chestplate", "Aberythe Samurai Light Leggings", "Aberythe Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "aberythe_samurai", "zoomers_armory:aberythe_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aberythe_samurai"), "Aberythe Samurai Helmet", "Aberythe Samurai Chestplate", "Aberythe Samurai Leggings", "Aberythe Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "aberythe_samurai_master", "zoomers_armory:aberythe_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aberythe_samurai_master"), "Aberythe Samurai Master Helmet", "Aberythe Samurai Master Chestplate", "Aberythe Samurai Master Leggings", "Aberythe Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/aberythe_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "aberythe_archer", "zoomers_armory:aberythe_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aberythe_archer"), "Aberythe Archer Helmet", "Aberythe Archer Chestplate", "Aberythe Archer Leggings", "Aberythe Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/aberythe_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/aberythe_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/aberythe_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/aberythe_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "aberythe_ranger", "zoomers_armory:aberythe_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:aberythe_ranger"), "Aberythe Ranger Helmet", "Aberythe Ranger Chestplate", "Aberythe Ranger Leggings", "Aberythe Ranger Boots", "",
@@ -7008,12 +6200,8 @@ e.create("zoomers_armory:ignisithe_shortbow", "bow").displayName("Ignisithe Shor
 e.create("zoomers_armory:ignisithe_bow", "bow").displayName("Ignisithe Bow").maxDamage(6750).tier("zoomers_armory:ignisithe")
 e.create("zoomers_armory:ignisithe_longbow", "bow").displayName("Ignisithe Longbow").maxDamage(5400).tier("zoomers_armory:ignisithe")
 e.create("zoomers_armory:ignisithe_crossbow", "crossbow").displayName("Ignisithe Crossbow").maxDamage(5062.5).tier("zoomers_armory:ignisithe")
-global.createGeckoArmorTier(e, "zoomers_armory", "ignisithe_samurai_light", "zoomers_armory:ignisithe_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:ignisithe_samurai_light"), "Ignisithe Samurai Light Helmet", "Ignisithe Samurai Light Chestplate", "Ignisithe Samurai Light Leggings", "Ignisithe Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "ignisithe_samurai", "zoomers_armory:ignisithe_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:ignisithe_samurai"), "Ignisithe Samurai Helmet", "Ignisithe Samurai Chestplate", "Ignisithe Samurai Leggings", "Ignisithe Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "ignisithe_samurai_master", "zoomers_armory:ignisithe_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:ignisithe_samurai_master"), "Ignisithe Samurai Master Helmet", "Ignisithe Samurai Master Chestplate", "Ignisithe Samurai Master Leggings", "Ignisithe Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/ignisithe_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "ignisithe_archer", "zoomers_armory:ignisithe_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:ignisithe_archer"), "Ignisithe Archer Helmet", "Ignisithe Archer Chestplate", "Ignisithe Archer Leggings", "Ignisithe Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/ignisithe_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/ignisithe_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/ignisithe_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/ignisithe_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "ignisithe_ranger", "zoomers_armory:ignisithe_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:ignisithe_ranger"), "Ignisithe Ranger Helmet", "Ignisithe Ranger Chestplate", "Ignisithe Ranger Leggings", "Ignisithe Ranger Boots", "",
@@ -7068,12 +6256,8 @@ e.create("zoomers_armory:knight_shortbow", "bow").displayName("Knight Shortbow")
 e.create("zoomers_armory:knight_bow", "bow").displayName("Knight Bow").maxDamage(6875).tier("zoomers_armory:knight")
 e.create("zoomers_armory:knight_longbow", "bow").displayName("Knight Longbow").maxDamage(5500).tier("zoomers_armory:knight")
 e.create("zoomers_armory:knight_crossbow", "crossbow").displayName("Knight Crossbow").maxDamage(5156.25).tier("zoomers_armory:knight")
-global.createGeckoArmorTier(e, "zoomers_armory", "knight_samurai_light", "zoomers_armory:knight_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:knight_samurai_light"), "Knight Samurai Light Helmet", "Knight Samurai Light Chestplate", "Knight Samurai Light Leggings", "Knight Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "knight_samurai", "zoomers_armory:knight_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:knight_samurai"), "Knight Samurai Helmet", "Knight Samurai Chestplate", "Knight Samurai Leggings", "Knight Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "knight_samurai_master", "zoomers_armory:knight_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:knight_samurai_master"), "Knight Samurai Master Helmet", "Knight Samurai Master Chestplate", "Knight Samurai Master Leggings", "Knight Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/knight_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "knight_archer", "zoomers_armory:knight_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:knight_archer"), "Knight Archer Helmet", "Knight Archer Chestplate", "Knight Archer Leggings", "Knight Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/knight_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/knight_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/knight_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/knight_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "knight_ranger", "zoomers_armory:knight_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:knight_ranger"), "Knight Ranger Helmet", "Knight Ranger Chestplate", "Knight Ranger Leggings", "Knight Ranger Boots", "",
@@ -7128,12 +6312,8 @@ e.create("zoomers_armory:glacerythe_shortbow", "bow").displayName("Glacerythe Sh
 e.create("zoomers_armory:glacerythe_bow", "bow").displayName("Glacerythe Bow").maxDamage(7000).tier("zoomers_armory:glacerythe")
 e.create("zoomers_armory:glacerythe_longbow", "bow").displayName("Glacerythe Longbow").maxDamage(5600).tier("zoomers_armory:glacerythe")
 e.create("zoomers_armory:glacerythe_crossbow", "crossbow").displayName("Glacerythe Crossbow").maxDamage(5250).tier("zoomers_armory:glacerythe")
-global.createGeckoArmorTier(e, "zoomers_armory", "glacerythe_samurai_light", "zoomers_armory:glacerythe_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:glacerythe_samurai_light"), "Glacerythe Samurai Light Helmet", "Glacerythe Samurai Light Chestplate", "Glacerythe Samurai Light Leggings", "Glacerythe Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "glacerythe_samurai", "zoomers_armory:glacerythe_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:glacerythe_samurai"), "Glacerythe Samurai Helmet", "Glacerythe Samurai Chestplate", "Glacerythe Samurai Leggings", "Glacerythe Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "glacerythe_samurai_master", "zoomers_armory:glacerythe_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:glacerythe_samurai_master"), "Glacerythe Samurai Master Helmet", "Glacerythe Samurai Master Chestplate", "Glacerythe Samurai Master Leggings", "Glacerythe Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/glacerythe_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "glacerythe_archer", "zoomers_armory:glacerythe_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:glacerythe_archer"), "Glacerythe Archer Helmet", "Glacerythe Archer Chestplate", "Glacerythe Archer Leggings", "Glacerythe Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/glacerythe_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/glacerythe_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/glacerythe_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/glacerythe_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "glacerythe_ranger", "zoomers_armory:glacerythe_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:glacerythe_ranger"), "Glacerythe Ranger Helmet", "Glacerythe Ranger Chestplate", "Glacerythe Ranger Leggings", "Glacerythe Ranger Boots", "",
@@ -7188,12 +6368,8 @@ e.create("zoomers_armory:garnite_shortbow", "bow").displayName("Garnite Shortbow
 e.create("zoomers_armory:garnite_bow", "bow").displayName("Garnite Bow").maxDamage(7250).tier("zoomers_armory:garnite")
 e.create("zoomers_armory:garnite_longbow", "bow").displayName("Garnite Longbow").maxDamage(5800).tier("zoomers_armory:garnite")
 e.create("zoomers_armory:garnite_crossbow", "crossbow").displayName("Garnite Crossbow").maxDamage(5437.5).tier("zoomers_armory:garnite")
-global.createGeckoArmorTier(e, "zoomers_armory", "garnite_samurai_light", "zoomers_armory:garnite_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:garnite_samurai_light"), "Garnite Samurai Light Helmet", "Garnite Samurai Light Chestplate", "Garnite Samurai Light Leggings", "Garnite Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "garnite_samurai", "zoomers_armory:garnite_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:garnite_samurai"), "Garnite Samurai Helmet", "Garnite Samurai Chestplate", "Garnite Samurai Leggings", "Garnite Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "garnite_samurai_master", "zoomers_armory:garnite_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:garnite_samurai_master"), "Garnite Samurai Master Helmet", "Garnite Samurai Master Chestplate", "Garnite Samurai Master Leggings", "Garnite Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/garnite_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "garnite_archer", "zoomers_armory:garnite_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:garnite_archer"), "Garnite Archer Helmet", "Garnite Archer Chestplate", "Garnite Archer Leggings", "Garnite Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/garnite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/garnite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/garnite_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/garnite_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "garnite_ranger", "zoomers_armory:garnite_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:garnite_ranger"), "Garnite Ranger Helmet", "Garnite Ranger Chestplate", "Garnite Ranger Leggings", "Garnite Ranger Boots", "",
@@ -7248,12 +6424,8 @@ e.create("zoomers_armory:phantom_shortbow", "bow").displayName("Phantom Shortbow
 e.create("zoomers_armory:phantom_bow", "bow").displayName("Phantom Bow").maxDamage(7500).tier("zoomers_armory:phantom")
 e.create("zoomers_armory:phantom_longbow", "bow").displayName("Phantom Longbow").maxDamage(6000).tier("zoomers_armory:phantom")
 e.create("zoomers_armory:phantom_crossbow", "crossbow").displayName("Phantom Crossbow").maxDamage(5625).tier("zoomers_armory:phantom")
-global.createGeckoArmorTier(e, "zoomers_armory", "phantom_samurai_light", "zoomers_armory:phantom_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:phantom_samurai_light"), "Phantom Samurai Light Helmet", "Phantom Samurai Light Chestplate", "Phantom Samurai Light Leggings", "Phantom Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "phantom_samurai", "zoomers_armory:phantom_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:phantom_samurai"), "Phantom Samurai Helmet", "Phantom Samurai Chestplate", "Phantom Samurai Leggings", "Phantom Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "phantom_samurai_master", "zoomers_armory:phantom_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:phantom_samurai_master"), "Phantom Samurai Master Helmet", "Phantom Samurai Master Chestplate", "Phantom Samurai Master Leggings", "Phantom Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/phantom_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "phantom_archer", "zoomers_armory:phantom_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:phantom_archer"), "Phantom Archer Helmet", "Phantom Archer Chestplate", "Phantom Archer Leggings", "Phantom Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/phantom_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/phantom_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/phantom_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/phantom_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "phantom_ranger", "zoomers_armory:phantom_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:phantom_ranger"), "Phantom Ranger Helmet", "Phantom Ranger Chestplate", "Phantom Ranger Leggings", "Phantom Ranger Boots", "",
@@ -7308,12 +6480,8 @@ e.create("zoomers_armory:unorithe_shortbow", "bow").displayName("Unorithe Shortb
 e.create("zoomers_armory:unorithe_bow", "bow").displayName("Unorithe Bow").maxDamage(7750).tier("zoomers_armory:unorithe")
 e.create("zoomers_armory:unorithe_longbow", "bow").displayName("Unorithe Longbow").maxDamage(6200).tier("zoomers_armory:unorithe")
 e.create("zoomers_armory:unorithe_crossbow", "crossbow").displayName("Unorithe Crossbow").maxDamage(5812.5).tier("zoomers_armory:unorithe")
-global.createGeckoArmorTier(e, "zoomers_armory", "unorithe_samurai_light", "zoomers_armory:unorithe_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:unorithe_samurai_light"), "Unorithe Samurai Light Helmet", "Unorithe Samurai Light Chestplate", "Unorithe Samurai Light Leggings", "Unorithe Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "unorithe_samurai", "zoomers_armory:unorithe_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:unorithe_samurai"), "Unorithe Samurai Helmet", "Unorithe Samurai Chestplate", "Unorithe Samurai Leggings", "Unorithe Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "unorithe_samurai_master", "zoomers_armory:unorithe_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:unorithe_samurai_master"), "Unorithe Samurai Master Helmet", "Unorithe Samurai Master Chestplate", "Unorithe Samurai Master Leggings", "Unorithe Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/unorithe_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "unorithe_archer", "zoomers_armory:unorithe_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:unorithe_archer"), "Unorithe Archer Helmet", "Unorithe Archer Chestplate", "Unorithe Archer Leggings", "Unorithe Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/unorithe_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/unorithe_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/unorithe_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/unorithe_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "unorithe_ranger", "zoomers_armory:unorithe_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:unorithe_ranger"), "Unorithe Ranger Helmet", "Unorithe Ranger Chestplate", "Unorithe Ranger Leggings", "Unorithe Ranger Boots", "",
@@ -7368,12 +6536,8 @@ e.create("zoomers_armory:incorythe_shortbow", "bow").displayName("Incorythe Shor
 e.create("zoomers_armory:incorythe_bow", "bow").displayName("Incorythe Bow").maxDamage(8000).tier("zoomers_armory:incorythe")
 e.create("zoomers_armory:incorythe_longbow", "bow").displayName("Incorythe Longbow").maxDamage(6400).tier("zoomers_armory:incorythe")
 e.create("zoomers_armory:incorythe_crossbow", "crossbow").displayName("Incorythe Crossbow").maxDamage(6000).tier("zoomers_armory:incorythe")
-global.createGeckoArmorTier(e, "zoomers_armory", "incorythe_samurai_light", "zoomers_armory:incorythe_samurai_light", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:incorythe_samurai_light"), "Incorythe Samurai Light Helmet", "Incorythe Samurai Light Chestplate", "Incorythe Samurai Light Leggings", "Incorythe Samurai Light Boots", "",
-    "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_light_armor.png", "zoomers_armory:geo/samurai_light.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_light_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "incorythe_samurai", "zoomers_armory:incorythe_samurai", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:incorythe_samurai"), "Incorythe Samurai Helmet", "Incorythe Samurai Chestplate", "Incorythe Samurai Leggings", "Incorythe Samurai Boots", "",
     "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_armor.png", "zoomers_armory:geo/samurai.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_armor.png");
-global.createGeckoArmorTier(e, "zoomers_armory", "incorythe_samurai_master", "zoomers_armory:incorythe_samurai_master", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:incorythe_samurai_master"), "Incorythe Samurai Master Helmet", "Incorythe Samurai Master Chestplate", "Incorythe Samurai Master Leggings", "Incorythe Samurai Master Boots", "",
-    "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_master_armor.png", "zoomers_armory:geo/samurai_master.geo.json", "zoomers_armory:textures/models/armor/incorythe_samurai_master_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "incorythe_archer", "zoomers_armory:incorythe_archer", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:incorythe_archer"), "Incorythe Archer Helmet", "Incorythe Archer Chestplate", "Incorythe Archer Leggings", "Incorythe Archer Boots", "",
     "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/incorythe_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/incorythe_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/incorythe_archer_armor.png", "zoomers_armory:geo/archer.geo.json", "zoomers_armory:textures/models/armor/incorythe_archer_armor.png");
 global.createGeckoArmorTier(e, "zoomers_armory", "incorythe_ranger", "zoomers_armory:incorythe_ranger", global.getMaterialTexturesObject("zoomers_armory", "zoomers_armory:incorythe_ranger"), "Incorythe Ranger Helmet", "Incorythe Ranger Chestplate", "Incorythe Ranger Leggings", "Incorythe Ranger Boots", "",

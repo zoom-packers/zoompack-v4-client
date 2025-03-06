@@ -471,7 +471,6 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
 
         const itemModelsToCopy = [
             `${inputModelsDir}/normal.json`,
-            `${inputModelsDir}/small.json`,
             `${inputModelsDir}/slightly_larger.json`,
             `${inputModelsDir}/long.json`,
             `${inputModelsDir}/spear.json`,
