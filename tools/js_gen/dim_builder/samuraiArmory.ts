@@ -12,14 +12,9 @@ const samuraiArmorTexturePath = path.join(samuraiAssetsPath, "textures", "armor"
 
 const samuraiAttributes: CiaModifier[] = [
     {
-        attribute: "minecraft:generic.movement_speed",
-        operation: operation.MULTIPLY_BASE,
-        value: 0.05,
-    },
-    {
         attribute: "minecraft:generic.armor",
         operation: operation.MULTIPLY_BASE,
-        value: -0.05,
+        value: 0.05,
     }
 ];
 
@@ -27,7 +22,7 @@ const tankAttributes: CiaModifier[] = [
     {
         attribute: "minecraft:generic.movement_speed",
         operation: operation.MULTIPLY_BASE,
-        value: -0.1,
+        value: -0.05,
     },
     {
         attribute: "minecraft:generic.armor",
@@ -38,6 +33,24 @@ const tankAttributes: CiaModifier[] = [
         attribute: "minecraft:generic.armor_toughness",
         operation: operation.MULTIPLY_BASE,
         value: 0.2,
+    }
+];
+
+const rogueAttributes: CiaModifier[] = [
+    {
+        attribute: "minecraft:generic.movement_speed",
+        operation: operation.MULTIPLY_BASE,
+        value: 0.1,
+    },
+    {
+        attribute: "minecraft:generic.armor",
+        operation: operation.MULTIPLY_BASE,
+        value: -0.05,
+    },
+    {
+        attribute: "minecraft:generic.armor_toughness",
+        operation: operation.MULTIPLY_BASE,
+        value: -0.05,
     }
 ];
 
@@ -162,9 +175,74 @@ const tankBootsVariant: ArmorVariant = {
     additionalAttributesPerLevel: createHealthPerLevelAttributes('boots', 'heavy')
 }
 
+const rogueHelmetVariant: ArmorVariant = {
+    id: "rogue_helmet",
+    type: "armor",
+    slot: "head",
+    displayName: "Rogue Helmet",
+    recipe: ["material", "material", "material", "material", "compressium:redstone_1", "material", "", "", ""],
+    durabilityMultiplier: 1.05,
+    armorMultiplier: 1,
+    toughnessMultiplier: 1,
+    knockbackResistanceMultiplier: 1,
+    modelType: "normal",
+    additionalAttributes: rogueAttributes,
+    pmmoSkill: "combat",
+    additionalAttributesPerLevel: createHealthPerLevelAttributes('helmet', 'light')
+}
+
+const rogueChestplateVariant: ArmorVariant = {
+    id: "rogue_chestplate",
+    type: "armor",
+    slot: "chest",
+    displayName: "Rogue Chestplate",
+    recipe: ["material", "compressium:redstone_1", "material", "material", "material", "material", "material", "material", "material"],
+    durabilityMultiplier: 1.05,
+    armorMultiplier: 1,
+    toughnessMultiplier: 1,
+    knockbackResistanceMultiplier: 1,
+    modelType: "normal",
+    additionalAttributes: rogueAttributes,
+    pmmoSkill: "combat",
+    additionalAttributesPerLevel: createHealthPerLevelAttributes('chestplate', 'light')
+}
+
+const rogueLeggingsVariant: ArmorVariant = {
+    id: "rogue_leggings",
+    type: "armor",
+    slot: "legs",
+    displayName: "Rogue Leggings",
+    recipe: ["material", "material", "material", "material", "compressium:redstone_1", "material", "material", "", "material"],
+    durabilityMultiplier: 1.05,
+    armorMultiplier: 1,
+    toughnessMultiplier: 1,
+    knockbackResistanceMultiplier: 1,
+    modelType: "normal",
+    additionalAttributes: rogueAttributes,
+    pmmoSkill: "combat",
+    additionalAttributesPerLevel: createHealthPerLevelAttributes('leggings', 'light')
+}
+
+const rogueBootsVariant: ArmorVariant = {
+    id: "rogue_boots",
+    type: "armor",
+    slot: "feet",
+    displayName: "Rogue Boots",
+    recipe: ["", "compressium:redstone_1", "", "material", "", "material", "material", "", "material"],
+    durabilityMultiplier: 1.05,
+    armorMultiplier: 1,
+    toughnessMultiplier: 1,
+    knockbackResistanceMultiplier: 1,
+    modelType: "normal",
+    additionalAttributes: rogueAttributes,
+    pmmoSkill: "combat",
+    additionalAttributesPerLevel: createHealthPerLevelAttributes('boots', 'light')
+}
+
 
 const samuraiArmors = [samuraiHelmetVariant, samuraiChestplateVariant, samuraiLeggingsVariant, samuraiBootsVariant];
 const tankArmors = [tankHelmetVariant, tankChestplateVariant, tankLeggingsVariant, tankBootsVariant];
+const rogueArmors = [rogueHelmetVariant, rogueChestplateVariant, rogueLeggingsVariant, rogueBootsVariant];
 
 export const samuraiCustomArmory = new GeckoArmorArmoryEntry(samuraiArmors)
     .withArmorId("samurai")
@@ -218,6 +296,38 @@ export const tankCustomArmory = new GeckoArmorArmoryEntry(tankArmors)
             {
                 path: path.join(samuraiArmorTexturePath, "tank_armor.png"),
                 resultFileName: "{material}_tank_armor.png"
+            }
+        ]
+    )
+    .withMaterialChromaKeyOperations([
+        {
+            colorToReplace: "#19ff19",
+            tolerance: 0.1,
+            function: "linear",
+            replaceWith: "#000000"
+        },
+    ])
+
+export const rogueCustomArmory = new GeckoArmorArmoryEntry(rogueArmors)
+    .withArmorId("rogue")
+    .withGeoPaths([path.join(samuraiGeoPath, "rogue_armor.geo.json")])
+    .withModelPaths([
+        path.join(samuraiModelPath, "rogue_helmet.json"),
+        path.join(samuraiModelPath, "rogue_chestplate.json"),
+        path.join(samuraiModelPath, "rogue_leggings.json"),
+        path.join(samuraiModelPath, "rogue_boots.json")
+    ])
+    .withTextures({
+        "rogue_helmet": [path.join(samuraiItemTexturePath, "rogue_helmet.png")],
+        "rogue_chestplate": [path.join(samuraiItemTexturePath, "rogue_chestplate.png")],
+        "rogue_leggings": [path.join(samuraiItemTexturePath, "rogue_leggings.png")],
+        "rogue_boots": [path.join(samuraiItemTexturePath, "rogue_boots.png")]
+    })
+    .withAdditionalTextures(
+        [
+            {
+                path: path.join(samuraiArmorTexturePath, "rogue_armor.png"),
+                resultFileName: "{material}_rogue_armor.png"
             }
         ]
     )
