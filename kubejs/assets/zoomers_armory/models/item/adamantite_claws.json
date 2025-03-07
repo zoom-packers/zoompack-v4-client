@@ -1,6 +1,0 @@
-{
-    "textures": {
-        "0": "zoomers_armory:item/adamantite_claws"
-    },
-    "parent": "zoomers_armory:item/claws"
-}

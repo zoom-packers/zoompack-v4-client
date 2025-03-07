@@ -214,34 +214,37 @@ const plaguedChromas = [
     ChromaCreator.create("#ebe9b5", "#000000", 0.1, "linear"),
 ];
 
-function createArmorySet(name: string, geoPath: string, chromas: ChromaKeyOperation[], armorVariants: ArmorVariant[]): GeckoArmorArmoryEntry {
+function createArmorySet(name: string, geoId: string, texId: string, itemTexBase: string, geoPath: string, chromas: ChromaKeyOperation[], armorVariants: ArmorVariant[]): GeckoArmorArmoryEntry {
     const textures = {}
     textures[`${name}_helmet`] = [getTexturePath(name, "helmet")];
     textures[`${name}_chestplate`] = [getTexturePath(name, "chestplate")];
     textures[`${name}_leggings`] = [getTexturePath(name, "leggings")];
     textures[`${name}_boots`] = [getTexturePath(name, "boots")];
-    return new GeckoArmorArmoryEntry(armorVariants)
+    return new GeckoArmorArmoryEntry(armorVariants, true)
         .withArmorId(name)
-        .withGeoPaths([geoPath])
+        .withModelId(geoId)
+        .withTextureId(texId)
+        .withRootItemsTexturePath(itemTexBase)
+        // .withGeoPaths([geoPath])
         .withModelPaths(["helmet", "chestplate", "leggings", "boots"].map((piece) => getModelPath(name, piece)))
-        .withTextures(textures)
-        .withAdditionalTextures([
-            {
-                path: getGeoTexturePath(name),
-                resultFileName: `{material}_${name}_armor.png`
-            }
-        ])
-        .withMaterialChromaKeyOperations(chromas)
+        // .withTextures(textures)
+        // .withAdditionalTextures([
+        //     {
+        //         path: getGeoTexturePath(name),
+        //         resultFileName: `{material}_${name}_armor.png`
+        //     }
+        // ])
+        // .withMaterialChromaKeyOperations(chromas)
 
 }
 
 export const magicArmorSets = [
-    createArmorySet("pyromancer", pyromancerGeoPath, pyromancerChromas, pyromancerVariants),
-    createArmorySet("cryomancer", cryomancerGeoPath, cryomancerChromas, cryomancerVariants),
-    createArmorySet("electromancer", electromancerGeoPath, electromancerChromas, electromancerVariants),
-    createArmorySet("archevoker", archevokerGeoPath, archevokerChromas, archevokerVariants),
-    createArmorySet("cultist", cultistGeoPath, cultistChromas, cultistVariants),
-    createArmorySet("shadowwalker", shadowwalkerGeoPath, shadowwalkerChromas, shadowwalkerVariants),
-    createArmorySet("priest", priestGeoPath, priestChromas, priestVariants),
-    createArmorySet("plagued", plaguedGeoPath, plaguedChromas, plaguedVariants),
+    createArmorySet("pyromancer", "irons_spellbooks:geo/pyromancer_armor.geo.json", "irons_spellbooks:textures/models/armor/pyromancer.png", "irons_spellbooks:textures/item/pyromancer", pyromancerGeoPath, pyromancerChromas, pyromancerVariants),
+    createArmorySet("cryomancer", "irons_spellbooks:geo/cryomancer_armor.geo.json", "irons_spellbooks:textures/models/armor/cryomancer.png", "irons_spellbooks:textures/item/cryomancer", cryomancerGeoPath, cryomancerChromas, cryomancerVariants),
+    createArmorySet("electromancer", "irons_spellbooks:geo/electromancer_armor.geo.json", "irons_spellbooks:textures/models/armor/electromancer.png", "irons_spellbooks:textures/item/electromancer", electromancerGeoPath, electromancerChromas, electromancerVariants),
+    createArmorySet("archevoker", "irons_spellbooks:geo/archevoker_armor.geo.json", "irons_spellbooks:textures/models/armor/archevoker.png", "irons_spellbooks:textures/item/archevoker", archevokerGeoPath, archevokerChromas, archevokerVariants),
+    createArmorySet("cultist", "irons_spellbooks:geo/cultist_armor.geo.json", "irons_spellbooks:textures/models/armor/cultist.png", "irons_spellbooks:textures/item/cultist", cultistGeoPath, cultistChromas, cultistVariants),
+    createArmorySet("shadowwalker", "irons_spellbooks:geo/shadowwalker_armor.geo.json", "irons_spellbooks:textures/models/armor/shadowwalker.png", "irons_spellbooks:textures/item/shadowwalker", shadowwalkerGeoPath, shadowwalkerChromas, shadowwalkerVariants),
+    createArmorySet("priest", "irons_spellbooks:geo/priest_armor.geo.json", "irons_spellbooks:textures/models/armor/priest.png", "irons_spellbooks:textures/item/priest", priestGeoPath, priestChromas, priestVariants),
+    createArmorySet("plagued", "irons_spellbooks:geo/plagued_armor.geo.json", "irons_spellbooks:textures/models/armor/plagued.png", "irons_spellbooks:textures/item/plagued", plaguedGeoPath, plaguedChromas, plaguedVariants),
 ]

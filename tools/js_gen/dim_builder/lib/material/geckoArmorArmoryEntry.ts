@@ -10,15 +10,35 @@ import {CustomArmoryEntry} from "./customArmoryEntry";
 
 export class GeckoArmorArmoryEntry extends CustomArmoryEntry{
     armorId: string;
+    builtInAssets: boolean;
+    modelId: string;
+    textureId:string;
+    rootItemsTexturePath: string;
 
     //#region Builder methods
 
-    constructor(variants: AnyVariant[]) {
+    constructor(variants: AnyVariant[], builtInAssets: boolean = false) {
         super(variants);
+        this.builtInAssets = builtInAssets;
     }
 
     withArmorId(armorId: string): GeckoArmorArmoryEntry {
         this.armorId = armorId;
+        return this;
+    }
+
+    withModelId(modelId: string): GeckoArmorArmoryEntry {
+        this.modelId = modelId;
+        return this;
+    }
+
+    withTextureId(textureId: string): GeckoArmorArmoryEntry {
+        this.textureId = textureId;
+        return this;
+    }
+
+    withRootItemsTexturePath(rootItemsTexturePath: string): GeckoArmorArmoryEntry {
+        this.rootItemsTexturePath = rootItemsTexturePath;
         return this;
     }
 
@@ -47,27 +67,39 @@ export class GeckoArmorArmoryEntry extends CustomArmoryEntry{
     }
 
     buildModels(outputFolderPath: string, material: Material, modId: string) {
-        const modelFolderPath = path.join(outputFolderPath, "models/item");
-        for (let i = 0; i < this.modelPaths.length; i++){
-            const modelPath = this.modelPaths[i];
-            const variant = this.variants[i];
-            const itemId = this.getId(material.internalName, variant);
-            const outputPath = path.join(modelFolderPath, this.getNewFileName(modelPath, variant, itemId) + ".json");
-            const fileContent = fs.readFileSync(modelPath, "utf8");
-            const fileJson = JSON.parse(fileContent);
-            const regex = /"([^"]*)\/([^"]*)"/g;
-            const textures = fileJson.textures;
-            const keys = Object.keys(textures);
-            for (const key of keys) {
-                if (textures[key].endsWith("_overlay")) {
-                    textures[key] = `${modId}:item/${itemId}_overlay`;
-                } else {
-                    textures[key] = `${modId}:item/${itemId}`;
-                }
+        if (this.builtInAssets) {
+            const modelFolderPath = path.join(outputFolderPath, "models/item");
+            for (let i = 0; i < this.modelPaths.length; i++) {
+                const modelPath = this.modelPaths[i];
+                const variant = this.variants[i];
+                const itemId = this.getId(material.internalName, variant);
+                const outputPath = path.join(modelFolderPath, this.getNewFileName(modelPath, variant, itemId) + ".json");
+                const fileContent = fs.readFileSync(modelPath, "utf8");
+                ensureFolderExists(modelFolderPath);
+                fs.writeFileSync(outputPath, fileContent);
             }
-            const newContent = JSON.stringify(fileJson, null, 4);
-            ensureFolderExists(modelFolderPath);
-            fs.writeFileSync(outputPath, newContent);
+        } else {
+            const modelFolderPath = path.join(outputFolderPath, "models/item");
+            for (let i = 0; i < this.modelPaths.length; i++) {
+                const modelPath = this.modelPaths[i];
+                const variant = this.variants[i];
+                const itemId = this.getId(material.internalName, variant);
+                const outputPath = path.join(modelFolderPath, this.getNewFileName(modelPath, variant, itemId) + ".json");
+                const fileContent = fs.readFileSync(modelPath, "utf8");
+                const fileJson = JSON.parse(fileContent);
+                const textures = fileJson.textures;
+                const keys = Object.keys(textures);
+                for (const key of keys) {
+                    if (textures[key].endsWith("_overlay")) {
+                        textures[key] = `${modId}:item/${itemId}_overlay`;
+                    } else {
+                        textures[key] = `${modId}:item/${itemId}`;
+                    }
+                }
+                const newContent = JSON.stringify(fileJson, null, 4);
+                ensureFolderExists(modelFolderPath);
+                fs.writeFileSync(outputPath, newContent);
+            }
         }
     }
 
@@ -77,12 +109,14 @@ export class GeckoArmorArmoryEntry extends CustomArmoryEntry{
             const variant = this.variants[i];
             const itemId = this.getId(material.internalName, variant);
             const textures = this.textures[variant.id];
+            if (!textures) { return ;}
             for (let texture of textures) {
                 const outputPath = path.join(textureFolderPath, this.getNewFileName(texture, variant, itemId) + ".png");
                 let itemTexture = new ItemTextureWrapper().fromPath(texture);
                 await this.processItemTexture(itemTexture, material, textureFolderPath, outputPath);
             }
         }
+        if (!this.additionalTextures) { return ;}
         for (const additionalTexture of this.additionalTextures) {
             const outputPath = path.join(outputFolderPath, "textures/models/armor", additionalTexture.resultFileName);
             let itemTexture = new ItemTextureWrapper().fromPath(additionalTexture.path);

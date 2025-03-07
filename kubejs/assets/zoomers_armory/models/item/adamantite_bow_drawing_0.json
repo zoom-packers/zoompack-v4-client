@@ -1,6 +1,0 @@
-{
-    "parent": "zoomers_armory:item/adamantite_bow",
-    "textures": {
-        "layer0": "zoomers_armory:item/adamantite_bow_drawing_0"
-    }
-}
