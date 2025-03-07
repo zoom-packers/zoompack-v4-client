@@ -62,7 +62,7 @@ export class ExpansionPack extends BasicDataHolder<ExpansionPack> {
                 await item.writeSelf();
             }
         }
-        this.kubeJsContainer.writeFiles();
+        await this.kubeJsContainer.writeFiles();
         log(this, `Finished writing expansion pack <${this.internalName}>`);
     }
 

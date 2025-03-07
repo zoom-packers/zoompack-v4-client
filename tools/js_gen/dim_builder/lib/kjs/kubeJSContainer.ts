@@ -30,14 +30,14 @@ export class KubeJSContainer extends BasicDataHolder<KubeJSContainer> {
         this.ciaProcessor = new CiaProcessor();
     }
 
-    writeFiles() {
+    async writeFiles() {
         this.registrar.writeToFile();
         this.recipes.writeToFile();
         this.tagger.writeToFile();
         this.loot.writeToFile();
         this.armory.writeToFile();
         this.harvestLevelTweaker.writeToFile();
-        this.textureGenerator.writeToFile();
+        await this.textureGenerator.writeToFile();
         this.ciaProcessor.writeToFile();
     }
 

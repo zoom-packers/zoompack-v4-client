@@ -2,8 +2,10 @@ import {BasicDataHolder} from "../selfWritingJson";
 import fs from "fs";
 import * as ph from "path"
 import {Debug} from "../debug";
+import {combine} from "./util";
 
 export class PyTextureGenerator extends BasicDataHolder<PyTextureGenerator> {
+    static enabled = false;
     workData: any[] = [];
 
     registerWork(work: any) {
@@ -17,7 +19,15 @@ export class PyTextureGenerator extends BasicDataHolder<PyTextureGenerator> {
         this.workData = this.workData.concat(works);
     }
 
-    writeToFile(){
+    async writeToFile(){
+        if (PyTextureGenerator.enabled) {
+            this.offloadToPython();
+        } else {
+            await this.continueWithJs();
+        }
+    }
+
+    private offloadToPython() {
         const filePath = './tex_gen.json';
         const fileContent = JSON.stringify(this.workData);
         fs.writeFileSync(filePath, fileContent);
@@ -41,5 +51,21 @@ export class PyTextureGenerator extends BasicDataHolder<PyTextureGenerator> {
             console.log(`Python script executed successfully!`);
         });
         Debug.timeAction("Python Texture Generation", new Date().getTime() - now.getTime());
+    }
+
+    private async continueWithJs() {
+        Debug.logAction("Continuing with JS Texture Generation");
+        let now = new Date();
+        const results = await Promise.all(this.workData.map(a => combine(a.work)));
+        const finalPromises = [];
+        for (let i = 0; i < this.workData.length; i++) {
+            const path = this.workData[i].path;
+            const result = results[i];
+            finalPromises.push(result.toFile(path));
+        }
+        Debug.timeAction("JS Texture Generation - work", new Date().getTime() - now.getTime());
+        now = new Date();
+        await Promise.all(finalPromises);
+        Debug.timeAction("JS Texture Generation - fs", new Date().getTime() - now.getTime());
     }
 }
