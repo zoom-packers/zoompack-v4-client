@@ -13,7 +13,7 @@ import {
 } from "../../../typedefs/item_typedefs";
 import {Material} from "../../lib/material/material";
 import {Armory} from "../../lib/material/armory";
-import {samuraiCustomArmory} from "../../samuraiArmory";
+import {samuraiCustomArmory, tankCustomArmory} from "../../samuraiArmory";
 import {
     tier_levels_aether_start,
     tier_levels_blue_skies_start, tier_levels_call_from_the_depths_start, tier_levels_end_start,
@@ -600,6 +600,7 @@ function convertMaterial(name: string, color: string, brightnessBoost: number, l
         .withArmory(new Armory()
             .full()
             .withCustomArmoryEntry(samuraiCustomArmory)
+            .withCustomArmoryEntry(tankCustomArmory)
             .withCustomArmoryEntry(archerCustomArmory)
             .withCustomArmoryEntry(rangerCustomArmory)
             .withCustomArmoryEntries(magicArmorSets)

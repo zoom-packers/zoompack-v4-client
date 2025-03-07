@@ -610,6 +610,12 @@ export class PolymorphArmoryVariants {
         reachMultiplier: 0,
         modelType: "arcane_staff",
         additionalAttributesPerLevel: PolymorphArmoryVariants.arcaneStaffAttributes,
+        textureGenDetails: {
+            textureName: "staffs/arcane_staff.png",
+            chromaKeyOperations: [
+                ChromaCreator.create("#00d600", "#000000", 0.1, "linear"),
+            ]
+        }
     }
 
     private static readonly WOODWIND_STAFF: SwordVariant = {
@@ -623,6 +629,12 @@ export class PolymorphArmoryVariants {
         reachMultiplier: 0,
         modelType: "woodwind_staff",
         additionalAttributesPerLevel: PolymorphArmoryVariants.woodwindStaffAttributes,
+        textureGenDetails: {
+            textureName: "staffs/woodwind_staff.png",
+            chromaKeyOperations: [
+                ChromaCreator.create("#00d600", "#000000", 0.1, "linear"),
+            ]
+        }
     }
 
     private static readonly FIRE_STAFF: SwordVariant = {
@@ -636,6 +648,12 @@ export class PolymorphArmoryVariants {
         reachMultiplier: 0,
         modelType: "fire_staff",
         additionalAttributesPerLevel: PolymorphArmoryVariants.fireStaffAttributes,
+        textureGenDetails: {
+            textureName: "staffs/fire_staff.png",
+            chromaKeyOperations: [
+                ChromaCreator.create("#00ff19", "#000000", 0.1, "linear"),
+            ]
+        }
     }
 
     private static readonly ICE_STAFF: SwordVariant = {
@@ -649,6 +667,12 @@ export class PolymorphArmoryVariants {
         reachMultiplier: 0,
         modelType: "ice_staff",
         additionalAttributesPerLevel: PolymorphArmoryVariants.iceStaffAttributes,
+        textureGenDetails: {
+            textureName: "staffs/ice_staff.png",
+            chromaKeyOperations: [
+                ChromaCreator.create("#00d600", "#000000", 0.1, "linear"),
+            ]
+        }
     }
 
     private static readonly LIGHTNING_STAFF: SwordVariant = {
@@ -662,6 +686,12 @@ export class PolymorphArmoryVariants {
         reachMultiplier: 0,
         modelType: "lightning_staff",
         additionalAttributesPerLevel: PolymorphArmoryVariants.lightningStaffAttributes,
+        textureGenDetails: {
+            textureName: "staffs/lightning_staff.png",
+            chromaKeyOperations: [
+                ChromaCreator.create("#00d600", "#000000", 0.1, "linear"),
+            ]
+        }
     }
 
     private static readonly NATURE_STAFF: SwordVariant = {
@@ -675,6 +705,12 @@ export class PolymorphArmoryVariants {
         reachMultiplier: 0,
         modelType: "nature_staff",
         additionalAttributesPerLevel: PolymorphArmoryVariants.natureStaffAttributes,
+        textureGenDetails: {
+            textureName: "staffs/nature_staff.png",
+            chromaKeyOperations: [
+                ChromaCreator.create("#0000ea", "#000000", 0.1, "linear"),
+            ]
+        }
     }
 
     private static readonly HOLY_STAFF: SwordVariant = {
@@ -688,6 +724,12 @@ export class PolymorphArmoryVariants {
         reachMultiplier: 0,
         modelType: "holy_staff",
         additionalAttributesPerLevel: PolymorphArmoryVariants.holyStaffAttributes,
+        textureGenDetails: {
+            textureName: "staffs/holy_staff.png",
+            chromaKeyOperations: [
+                ChromaCreator.create("#f2cd59", "#000000", 0.05, "linear"),
+            ]
+        }
     }
 
     private static readonly BLOOD_STAFF: SwordVariant = {
@@ -701,6 +743,12 @@ export class PolymorphArmoryVariants {
         reachMultiplier: 0,
         modelType: "blood_staff",
         additionalAttributesPerLevel: PolymorphArmoryVariants.bloodStaffAttributes,
+        textureGenDetails: {
+            textureName: "staffs/blood_staff.png",
+            chromaKeyOperations: [
+                ChromaCreator.create("#00d600", "#000000", 0.1, "linear"),
+            ]
+        }
     }
 
     private static readonly EVOCATION_STAFF: SwordVariant = {
@@ -714,6 +762,12 @@ export class PolymorphArmoryVariants {
         reachMultiplier: 0,
         modelType: "evocation_staff",
         additionalAttributesPerLevel: PolymorphArmoryVariants.evocationStaffAttributes,
+        textureGenDetails: {
+            textureName: "staffs/evocation_staff.png",
+            chromaKeyOperations: [
+                ChromaCreator.create("#00d600", "#000000", 0.1, "linear"),
+            ]
+        }
     }
 
     private static readonly ENDER_STAFF: SwordVariant = {
@@ -727,6 +781,12 @@ export class PolymorphArmoryVariants {
         reachMultiplier: 0,
         modelType: "ender_staff",
         additionalAttributesPerLevel: PolymorphArmoryVariants.enderStaffAttributes,
+        textureGenDetails: {
+            textureName: "staffs/ender_staff.png",
+            chromaKeyOperations: [
+                ChromaCreator.create("#00ff26", "#000000", 0.1, "linear"),
+            ]
+        }
     }
 
     //#endregion

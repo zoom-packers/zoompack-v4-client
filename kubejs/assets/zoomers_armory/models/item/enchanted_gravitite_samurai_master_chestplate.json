@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "zoomers_armory:item/enchanted_gravitite_samurai_master_chestplate"
-    }
-}

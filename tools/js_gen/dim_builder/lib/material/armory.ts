@@ -225,16 +225,29 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                 const leggings = customArmoryEntry.variants.find(x => x.slot === "legs") as ArmorVariant;
                 // @ts-ignore
                 const boots = customArmoryEntry.variants.find(x => x.slot === "feet") as ArmorVariant;
-                this.kubeJsContainer.registrar.registerGeckoArmor(modId,
-                    `${material.internalName}_${customArmoryEntry.armorId}`,
-                    `${modId}:${material.internalName}_${customArmoryEntry.armorId}`,
-                    `${idToDisplayName(material.internalName)} ${helmet.displayName}`,
-                    `${idToDisplayName(material.internalName)} ${chestplate.displayName}`,
-                    `${idToDisplayName(material.internalName)} ${leggings.displayName}`,
-                    `${idToDisplayName(material.internalName)} ${boots.displayName}`,
-                    "",
-                    `${modId}:geo/${customArmoryEntry.armorId}.geo.json`,
-                    `${modId}:textures/models/armor/${material.internalName}_${customArmoryEntry.armorId}_armor.png`);
+                if (customArmoryEntry.builtInAssets) {
+                    this.kubeJsContainer.registrar.registerGeckoArmor(modId,
+                        `${material.internalName}_${customArmoryEntry.armorId}`,
+                        `${modId}:${material.internalName}_${customArmoryEntry.armorId}`,
+                        `${idToDisplayName(material.internalName)} ${helmet.displayName}`,
+                        `${idToDisplayName(material.internalName)} ${chestplate.displayName}`,
+                        `${idToDisplayName(material.internalName)} ${leggings.displayName}`,
+                        `${idToDisplayName(material.internalName)} ${boots.displayName}`,
+                        "",
+                        `${customArmoryEntry.modelId}`,
+                        `${customArmoryEntry.textureId}`);
+                } else {
+                    this.kubeJsContainer.registrar.registerGeckoArmor(modId,
+                        `${material.internalName}_${customArmoryEntry.armorId}`,
+                        `${modId}:${material.internalName}_${customArmoryEntry.armorId}`,
+                        `${idToDisplayName(material.internalName)} ${helmet.displayName}`,
+                        `${idToDisplayName(material.internalName)} ${chestplate.displayName}`,
+                        `${idToDisplayName(material.internalName)} ${leggings.displayName}`,
+                        `${idToDisplayName(material.internalName)} ${boots.displayName}`,
+                        "",
+                        `${modId}:geo/${customArmoryEntry.armorId}.geo.json`,
+                        `${modId}:textures/models/armor/${material.internalName}_${customArmoryEntry.armorId}_armor.png`);
+                }
             } else if (customArmoryEntry instanceof SimpleItemArmoryEntry) {
                 this.kubeJsContainer.registrar.registerArmoryItem(`${modId}:${materialIdPart}_${customArmoryEntry.itemId}`, customArmoryEntry.variants[0].type, customArmoryEntry.variants[0].displayName, customArmoryEntry.variants[0].durabilityMultiplier * this.durability, `${modId}:${material.internalName}`);
             }
@@ -520,6 +533,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
 
         const itemModelsToCopy = [
             `${inputModelsDir}/normal.json`,
+            `${inputModelsDir}/small.json`,
             `${inputModelsDir}/slightly_larger.json`,
             `${inputModelsDir}/long.json`,
             `${inputModelsDir}/spear.json`,
@@ -527,6 +541,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             `${inputModelsDir}/warglaive.json`,
             `${inputModelsDir}/katana.json`,
             `${inputModelsDir}/musashi.json`,
+            `${inputModelsDir}/claws.json`,
             `${inputModelsDir}/arcane_staff.json`,
             `${inputModelsDir}/blood_staff.json`,
             `${inputModelsDir}/ender_staff.json`,

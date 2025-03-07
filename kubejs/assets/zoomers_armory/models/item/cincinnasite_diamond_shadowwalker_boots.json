@@ -1,6 +1,1 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "zoomers_armory:item/cincinnasite_diamond_shadowwalker_boots"
-    }
-}
+{  "parent": "item/generated",  "textures": {    "layer0": "irons_spellbooks:item/shadowwalker_boots"  }}

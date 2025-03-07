@@ -1,6 +1,6 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "zoomers_armory:item/unorithe_cultist_leggings"
-    }
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "irons_spellbooks:item/cultist_leggings"
+  }
 }
