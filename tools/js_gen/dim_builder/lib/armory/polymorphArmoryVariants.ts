@@ -689,7 +689,7 @@ export class PolymorphArmoryVariants {
         textureGenDetails: {
             textureName: "staffs/lightning_staff.png",
             chromaKeyOperations: [
-                ChromaCreator.create("#00d600", "#000000", 0.1, "linear"),
+                ChromaCreator.create("#df0000", "#000000", 0.05, "linear"),
             ]
         }
     }
