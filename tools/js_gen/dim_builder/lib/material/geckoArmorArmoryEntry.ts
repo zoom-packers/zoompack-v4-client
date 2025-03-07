@@ -6,10 +6,12 @@ import {Material} from "./material";
 import {ensureFolderExists, log, removeNamespace} from "../utils";
 import {Config} from "../config";
 import {CustomArmoryEntry} from "./customArmoryEntry";
+import {KubeJSContainer} from "../kjs/kubeJSContainer";
 
 
-export class GeckoArmorArmoryEntry extends CustomArmoryEntry{
+export class GeckoArmorArmoryEntry extends CustomArmoryEntry {
     armorId: string;
+    container: KubeJSContainer;
 
     //#region Builder methods
 
@@ -24,7 +26,8 @@ export class GeckoArmorArmoryEntry extends CustomArmoryEntry{
 
     //#endregion
 
-    async build(outputFolderPath: string, modId: string, material: Material) {
+    async build(outputFolderPath: string, modId: string, material: Material, container: KubeJSContainer) {
+        this.container = container;
         if (Config.instance.skipAssets) {
             return;
         }
@@ -116,9 +119,14 @@ export class GeckoArmorArmoryEntry extends CustomArmoryEntry{
             );
         }
         const workingTexture = itemTexture.toWorkingTexture();
-        const buffer = await workingTexture.sharpProcess();
+        // const buffer = await workingTexture.sharpProcess();
         ensureFolderExists(textureFolderPath);
-        fs.writeFileSync(outputPath, buffer);
+        // fs.writeFileSync(outputPath, buffer);
+        const task = {
+            work: [workingTexture],
+            path: outputPath,
+        }
+        this.container.textureGenerator.registerWork(task);
     }
 
     private getId(materialId: string, variant: AnyVariant) {

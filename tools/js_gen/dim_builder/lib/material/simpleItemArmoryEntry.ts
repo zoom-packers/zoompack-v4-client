@@ -6,9 +6,11 @@ import {ensureFolderExists, log} from "../utils";
 import path from "path";
 import fs from "fs";
 import {ItemTextureWrapper} from "../textureGen/itemTextureWrapper";
+import {KubeJSContainer} from "../kjs/kubeJSContainer";
 
 export class SimpleItemArmoryEntry extends CustomArmoryEntry {
     itemId: string;
+    container: KubeJSContainer;
 
     constructor(variants: AnyVariant[]) {
         super(variants);
@@ -19,7 +21,8 @@ export class SimpleItemArmoryEntry extends CustomArmoryEntry {
         return this;
     }
 
-    async build(outputFolderPath: string, modId: string, material: Material) {
+    async build(outputFolderPath: string, modId: string, material: Material, container: KubeJSContainer) {
+        this.container = container
         if (Config.instance.skipAssets) {
             return;
         }
@@ -95,9 +98,13 @@ export class SimpleItemArmoryEntry extends CustomArmoryEntry {
             );
         }
         const workingTexture = itemTexture.toWorkingTexture();
-        const buffer = await workingTexture.sharpProcess();
         ensureFolderExists(textureFolderPath);
-        fs.writeFileSync(outputPath, buffer);
+        // fs.writeFileSync(outputPath, buffer);
+        const task = {
+            work: [workingTexture],
+            path: outputPath,
+        }
+        this.container.textureGenerator.registerWork(task);
     }
 
     private getId(materialId: string, variant: AnyVariant) {

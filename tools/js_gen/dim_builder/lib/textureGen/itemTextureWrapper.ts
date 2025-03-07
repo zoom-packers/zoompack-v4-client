@@ -1,5 +1,4 @@
 import {WorkingTexture} from "./workingTexture";
-import {hexToRGB, rgbToHsv} from "../utils";
 import {ChromaKeyOperation} from "../material/ArmoryTypes";
 
 export class ItemTextureWrapper {

@@ -5,6 +5,7 @@ import {BasicDataHolder} from "../selfWritingJson";
 import {HarvestLevelTweaker} from "../ht_tweaker/harvestLevelTweaker";
 import {KubeJsLoot} from "./kubeJsLoot";
 import {KubeJsArmory} from "./kubeJsArmory";
+import {PyTextureGenerator} from "../textureGen/pyTextureGenerator";
 
 export class KubeJSContainer extends BasicDataHolder<KubeJSContainer> {
     registrar: KubeJsRegistrar;
@@ -13,6 +14,7 @@ export class KubeJSContainer extends BasicDataHolder<KubeJSContainer> {
     loot: KubeJsLoot;
     armory: KubeJsArmory;
     harvestLevelTweaker: HarvestLevelTweaker;
+    textureGenerator: PyTextureGenerator;
 
     constructor() {
         super();
@@ -22,6 +24,7 @@ export class KubeJSContainer extends BasicDataHolder<KubeJSContainer> {
         this.loot = new KubeJsLoot();
         this.armory = new KubeJsArmory();
         this.harvestLevelTweaker = new HarvestLevelTweaker();
+        this.textureGenerator = new PyTextureGenerator();
     }
 
     writeFiles() {
@@ -31,6 +34,7 @@ export class KubeJSContainer extends BasicDataHolder<KubeJSContainer> {
         this.loot.writeToFile();
         this.armory.writeToFile();
         this.harvestLevelTweaker.writeToFile();
+        this.textureGenerator.writeToFile();
     }
 
     withNamespace(namespace: string): KubeJSContainer {
@@ -40,6 +44,7 @@ export class KubeJSContainer extends BasicDataHolder<KubeJSContainer> {
         this.loot.withNamespace(namespace);
         this.armory.withNamespace(namespace);
         this.harvestLevelTweaker.withNamespace(namespace);
+        this.textureGenerator.withNamespace(namespace);
         return super.withNamespace(namespace);
     }
 }

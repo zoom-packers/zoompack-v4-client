@@ -119,9 +119,9 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         log(this, `Building Custom Armory Entries for <${capitalizeFirstLetter(material.internalName)}>`);
         for (const entry of this.customArmoryEntries) {
             if (entry instanceof GeckoArmorArmoryEntry) {
-                await entry.build(path.join(kubejsAssetsPath(), this.internalNamespace), this.internalNamespace, material);
+                await entry.build(path.join(kubejsAssetsPath(), this.internalNamespace), this.internalNamespace, material, this.kubeJsContainer);
             } else if (entry instanceof SimpleItemArmoryEntry) {
-                await entry.build(path.join(kubejsAssetsPath(), this.internalNamespace), this.internalNamespace, material);
+                await entry.build(path.join(kubejsAssetsPath(), this.internalNamespace), this.internalNamespace, material, this.kubeJsContainer);
             }
         }
         Debug.timeAction("createCustomArmoryEntries", new Date().getTime() - now.getTime());
@@ -677,10 +677,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             path: `${outputAssetsDir}/textures/models/armor/${material.internalName}_layer_2.png`
         });
 
-        await Promise.all(tasks.map(async task => {
-            const texture = await combine(task.work);
-            await texture.toFile(task.path);
-        }));
+        this.kubeJsContainer.textureGenerator.registerWorkMultiple(tasks);
     }
 
     //#endregion
