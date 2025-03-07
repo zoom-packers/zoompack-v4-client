@@ -10,7 +10,7 @@ const samuraiModelPath = path.join(samuraiAssetsPath, "models", "armor");
 const samuraiItemTexturePath = path.join(samuraiAssetsPath, "textures");
 const samuraiArmorTexturePath = path.join(samuraiAssetsPath, "textures", "armor");
 
-const lightAttributes: CiaModifier[] = [
+const samuraiAttributes: CiaModifier[] = [
     {
         attribute: "minecraft:generic.movement_speed",
         operation: operation.MULTIPLY_BASE,
@@ -20,6 +20,24 @@ const lightAttributes: CiaModifier[] = [
         attribute: "minecraft:generic.armor",
         operation: operation.MULTIPLY_BASE,
         value: -0.05,
+    }
+];
+
+const tankAttributes: CiaModifier[] = [
+    {
+        attribute: "minecraft:generic.movement_speed",
+        operation: operation.MULTIPLY_BASE,
+        value: -0.1,
+    },
+    {
+        attribute: "minecraft:generic.armor",
+        operation: operation.MULTIPLY_BASE,
+        value: 0.2,
+    },
+    {
+        attribute: "minecraft:generic.armor_toughness",
+        operation: operation.MULTIPLY_BASE,
+        value: 0.2,
     }
 ];
 
@@ -34,7 +52,7 @@ const samuraiHelmetVariant: ArmorVariant = {
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: lightAttributes,
+    additionalAttributes: samuraiAttributes,
     additionalAttributesPerLevel: createHealthPerLevelAttributes('helmet', 'medium')
 }
 
@@ -49,7 +67,7 @@ const samuraiChestplateVariant: ArmorVariant = {
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: lightAttributes,
+    additionalAttributes: samuraiAttributes,
     additionalAttributesPerLevel: createHealthPerLevelAttributes('chestplate', 'medium')
 }
 
@@ -64,7 +82,7 @@ const samuraiLeggingsVariant: ArmorVariant = {
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: lightAttributes,
+    additionalAttributes: samuraiAttributes,
     additionalAttributesPerLevel: createHealthPerLevelAttributes('leggings', 'medium')
 }
 
@@ -79,11 +97,74 @@ const samuraiBootsVariant: ArmorVariant = {
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
-    additionalAttributes: lightAttributes,
+    additionalAttributes: samuraiAttributes,
     additionalAttributesPerLevel: createHealthPerLevelAttributes('boots', 'medium')
 }
 
+
+const tankHelmetVariant: ArmorVariant = {
+    id: "tank_helmet",
+    type: "armor",
+    slot: "head",
+    displayName: "Tank Helmet",
+    recipe: ["material", "material", "material", "material", "compressium:obsidian_1", "material", "", "", ""],
+    durabilityMultiplier: 1.2,
+    armorMultiplier: 1,
+    toughnessMultiplier: 1,
+    knockbackResistanceMultiplier: 1,
+    modelType: "normal",
+    additionalAttributes: tankAttributes,
+    additionalAttributesPerLevel: createHealthPerLevelAttributes('helmet', 'heavy')
+}
+
+const tankChestplateVariant: ArmorVariant = {
+    id: "tank_chestplate",
+    type: "armor",
+    slot: "chest",
+    displayName: "Tank Chestplate",
+    recipe: ["material", "compressium:obsidian_1", "material", "material", "material", "material", "material", "material", "material"],
+    durabilityMultiplier: 1.2,
+    armorMultiplier: 1,
+    toughnessMultiplier: 1,
+    knockbackResistanceMultiplier: 1,
+    modelType: "normal",
+    additionalAttributes: tankAttributes,
+    additionalAttributesPerLevel: createHealthPerLevelAttributes('chestplate', 'heavy')
+}
+
+const tankLeggingsVariant: ArmorVariant = {
+    id: "tank_leggings",
+    type: "armor",
+    slot: "legs",
+    displayName: "Tank Leggings",
+    recipe: ["material", "material", "material", "material", "compressium:obsidian_1", "material", "material", "", "material"],
+    durabilityMultiplier: 1.2,
+    armorMultiplier: 1,
+    toughnessMultiplier: 1,
+    knockbackResistanceMultiplier: 1,
+    modelType: "normal",
+    additionalAttributes: tankAttributes,
+    additionalAttributesPerLevel: createHealthPerLevelAttributes('leggings', 'heavy')
+}
+
+const tankBootsVariant: ArmorVariant = {
+    id: "tank_boots",
+    type: "armor",
+    slot: "feet",
+    displayName: "Tank Boots",
+    recipe: ["", "compressium:obsidian_1", "", "material", "", "material", "material", "", "material"],
+    durabilityMultiplier: 1.2,
+    armorMultiplier: 1,
+    toughnessMultiplier: 1,
+    knockbackResistanceMultiplier: 1,
+    modelType: "normal",
+    additionalAttributes: tankAttributes,
+    additionalAttributesPerLevel: createHealthPerLevelAttributes('boots', 'heavy')
+}
+
+
 const samuraiArmors = [samuraiHelmetVariant, samuraiChestplateVariant, samuraiLeggingsVariant, samuraiBootsVariant];
+const tankArmors = [tankHelmetVariant, tankChestplateVariant, tankLeggingsVariant, tankBootsVariant];
 
 export const samuraiCustomArmory = new GeckoArmorArmoryEntry(samuraiArmors)
     .withArmorId("samurai")
@@ -116,3 +197,35 @@ export const samuraiCustomArmory = new GeckoArmorArmoryEntry(samuraiArmors)
             replaceWith: "#000000"
         },
         ])
+
+export const tankCustomArmory = new GeckoArmorArmoryEntry(tankArmors)
+    .withArmorId("tank")
+    .withGeoPaths([path.join(samuraiGeoPath, "tank_armor.geo.json")])
+    .withModelPaths([
+        path.join(samuraiModelPath, "tank_helmet.json"),
+        path.join(samuraiModelPath, "tank_chestplate.json"),
+        path.join(samuraiModelPath, "tank_leggings.json"),
+        path.join(samuraiModelPath, "tank_boots.json")
+    ])
+    .withTextures({
+        "tank_helmet": [path.join(samuraiItemTexturePath, "tank_helmet.png")],
+        "tank_chestplate": [path.join(samuraiItemTexturePath, "tank_chestplate.png")],
+        "tank_leggings": [path.join(samuraiItemTexturePath, "tank_leggings.png")],
+        "tank_boots": [path.join(samuraiItemTexturePath, "tank_boots.png")]
+    })
+    .withAdditionalTextures(
+        [
+            {
+                path: path.join(samuraiArmorTexturePath, "tank_armor.png"),
+                resultFileName: "{material}_tank_armor.png"
+            }
+        ]
+    )
+    .withMaterialChromaKeyOperations([
+        {
+            colorToReplace: "#19ff19",
+            tolerance: 0.1,
+            function: "linear",
+            replaceWith: "#000000"
+        },
+    ])
