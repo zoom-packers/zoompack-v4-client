@@ -7,6 +7,7 @@ import {ensureFolderExists, log, removeNamespace} from "../utils";
 import {Config} from "../config";
 import {CustomArmoryEntry} from "./customArmoryEntry";
 import {KubeJSContainer} from "../kjs/kubeJSContainer";
+import {Debug} from "../debug";
 
 
 export class GeckoArmorArmoryEntry extends CustomArmoryEntry {
@@ -52,11 +53,17 @@ export class GeckoArmorArmoryEntry extends CustomArmoryEntry {
             return;
         }
         log(this, `Building ${material.internalName}`);
+        let now = new Date();
         this.buildModels(outputFolderPath, material, modId);
+        Debug.timeAction("geckoArmoryEntry_buildModels", new Date().getTime() - now.getTime());
+        now = new Date();
         log(this, `Built models for ${material.internalName}`);
         this.buildGeos(outputFolderPath, material.internalName);
+        Debug.timeAction("geckoArmoryEntry_buildGeos", new Date().getTime() - now.getTime());
+        now = new Date();
         log(this, `Built geos for ${material.internalName}`);
         await this.buildTextures(outputFolderPath, material, modId);
+        Debug.timeAction("geckoArmoryEntry_buildTextures", new Date().getTime() - now.getTime());
         log(this, `Built textures for ${material.internalName}`);
     }
 

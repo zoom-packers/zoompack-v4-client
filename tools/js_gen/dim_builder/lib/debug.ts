@@ -20,8 +20,10 @@ export class Debug {
             sums[action] += time;
         });
 
+        const orderedActions = Object.keys(sums).sort((a, b) => sums[a] - sums[b]);
+
         console.log("Action Statistics:");
-        for (const action in sums) {
+        for (const action of orderedActions) {
             console.log(`  ${action}: ${sums[action]}ms`);
         }
     }

@@ -298,8 +298,6 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
     }
 
     createCiaEntries() {
-        const cia = JSON.parse(fs.readFileSync(getCiaPath(), "utf8"));
-
         const materialIdPart = this.material.internalName;
         const allVariants = [...PolymorphArmoryVariants.ALL, ...this.customArmoryEntries.map(x => x.variants).flat()];
         for (const mergedType of allVariants) {
@@ -348,10 +346,9 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                 entry.overrides_main_hand = [...entry.overrides_main_hand, ...mergedAttributes]
             }
             if (entry !== undefined) {
-                addItemToCia(cia, entry);
+                this.kubeJsContainer.ciaProcessor.registerCiaEntry(entry);
             }
         }
-        fs.writeFileSync(getCiaPath(), JSON.stringify(cia, null, 4), "utf8");
     }
 
     createRecipes() {
