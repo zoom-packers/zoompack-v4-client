@@ -254,7 +254,7 @@ copy_style_for_items('depth_style.json', 'depth_style2.json', depth_related_item
 
 
 
-abyss_related_items = get_item_list(item_registry, ['fusion', 'aberythe', 'bone', 'ignisithe', 'glacerythe', 'garnite', 'phantom', 'unorithe', 'incorythe', 'abyss_'],[],[], ['zoomers_armory'])
+abyss_related_items = get_item_list(item_registry, ['fusion', 'aberythe', 'bone', 'ignisithe', 'glacerythe', 'garnite', 'phantom', 'unorithe', 'incorythe', 'abyss_', 'knight'],[],[], ['zoomers_armory'])
 copy_style_for_items('the_abyss_style.json', 'the_abyss_style2.json', abyss_related_items, priority=9999)
 
 
