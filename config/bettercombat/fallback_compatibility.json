@@ -23,6 +23,10 @@
       "weapon_attributes": "bettercombat:halberd"
     },
     {
+      "item_id_regex": "twin_blade|twinblade|war_glaive|warglaive",
+      "weapon_attributes": "bettercombat:twin_blade"
+    },
+    {
       "item_id_regex": "glaive",
       "weapon_attributes": "bettercombat:glaive"
     },
@@ -89,10 +93,6 @@
     {
       "item_id_regex": "coral_blade",
       "weapon_attributes": "bettercombat:coral_blade"
-    },
-    {
-      "item_id_regex": "twin_blade|twinblade",
-      "weapon_attributes": "bettercombat:twin_blade"
     },
     {
       "item_id_regex": "cutlass|scimitar|machete",
