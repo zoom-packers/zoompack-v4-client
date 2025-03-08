@@ -99,7 +99,3 @@ d_undergarden: "undergarden:undergarden",
  * Auto-generated Typedef
  * @typedef {dimension_minecraft | dimension_theabyss | dimension_aether | dimension_blue_skies | dimension_callfromthedepth_ | dimension_undergarden} dimension
  */
-
-module.exports = {
-    dimension_minecraft, dimension_theabyss, dimension_aether, dimension_blue_skies, dimension_callfromthedepth_, dimension_undergarden
-}

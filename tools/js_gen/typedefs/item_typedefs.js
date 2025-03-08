@@ -2554,69 +2554,69 @@ i_flaming_ruby_upgrade_smithing_template: "betternether:flaming_ruby_upgrade_smi
 /** @type {string} */
 i_cincinnasite_diamond_upgrade_smithing_template: "betternether:cincinnasite_diamond_upgrade_smithing_template",
 /** @type {string} */
-i_cincinnasite_sword: "betternether:cincinnasite_sword",
-/** @type {string} */
-i_cincinnasite_axe: "betternether:cincinnasite_axe",
-/** @type {string} */
-i_cincinnasite_shears: "betternether:cincinnasite_shears",
-/** @type {string} */
-i_cincinnasite_shovel: "betternether:cincinnasite_shovel",
+i_cincinnasite_pickaxe: "betternether:cincinnasite_pickaxe",
 /** @type {string} */
 i_cincinnasite_hoe: "betternether:cincinnasite_hoe",
 /** @type {string} */
+i_cincinnasite_chestplate: "betternether:cincinnasite_chestplate",
+/** @type {string} */
+i_cincinnasite_sword: "betternether:cincinnasite_sword",
+/** @type {string} */
 i_cincinnasite_leggings: "betternether:cincinnasite_leggings",
 /** @type {string} */
-i_cincinnasite_pickaxe: "betternether:cincinnasite_pickaxe",
-/** @type {string} */
-i_cincinnasite_chestplate: "betternether:cincinnasite_chestplate",
+i_cincinnasite_shovel: "betternether:cincinnasite_shovel",
 /** @type {string} */
 i_cincinnasite_boots: "betternether:cincinnasite_boots",
 /** @type {string} */
+i_cincinnasite_axe: "betternether:cincinnasite_axe",
+/** @type {string} */
 i_cincinnasite_helmet: "betternether:cincinnasite_helmet",
 /** @type {string} */
-i_nether_ruby_sword: "betternether:nether_ruby_sword",
-/** @type {string} */
-i_nether_ruby_axe: "betternether:nether_ruby_axe",
-/** @type {string} */
-i_nether_ruby_shovel: "betternether:nether_ruby_shovel",
-/** @type {string} */
-i_nether_ruby_hoe: "betternether:nether_ruby_hoe",
-/** @type {string} */
-i_nether_ruby_leggings: "betternether:nether_ruby_leggings",
+i_cincinnasite_shears: "betternether:cincinnasite_shears",
 /** @type {string} */
 i_nether_ruby_pickaxe: "betternether:nether_ruby_pickaxe",
 /** @type {string} */
+i_nether_ruby_hoe: "betternether:nether_ruby_hoe",
+/** @type {string} */
 i_nether_ruby_chestplate: "betternether:nether_ruby_chestplate",
+/** @type {string} */
+i_nether_ruby_sword: "betternether:nether_ruby_sword",
+/** @type {string} */
+i_nether_ruby_leggings: "betternether:nether_ruby_leggings",
+/** @type {string} */
+i_nether_ruby_shovel: "betternether:nether_ruby_shovel",
 /** @type {string} */
 i_nether_ruby_boots: "betternether:nether_ruby_boots",
 /** @type {string} */
+i_nether_ruby_axe: "betternether:nether_ruby_axe",
+/** @type {string} */
 i_nether_ruby_helmet: "betternether:nether_ruby_helmet",
-/** @type {string} */
-i_cincinnasite_sword_diamond: "betternether:cincinnasite_sword_diamond",
-/** @type {string} */
-i_cincinnasite_axe_diamond: "betternether:cincinnasite_axe_diamond",
-/** @type {string} */
-i_cincinnasite_shovel_diamond: "betternether:cincinnasite_shovel_diamond",
-/** @type {string} */
-i_cincinnasite_hoe_diamond: "betternether:cincinnasite_hoe_diamond",
 /** @type {string} */
 i_cincinnasite_pickaxe_diamond: "betternether:cincinnasite_pickaxe_diamond",
 /** @type {string} */
-i_flaming_ruby_sword: "betternether:flaming_ruby_sword",
+i_cincinnasite_hoe_diamond: "betternether:cincinnasite_hoe_diamond",
 /** @type {string} */
-i_flaming_ruby_axe: "betternether:flaming_ruby_axe",
+i_cincinnasite_sword_diamond: "betternether:cincinnasite_sword_diamond",
 /** @type {string} */
-i_flaming_ruby_shovel: "betternether:flaming_ruby_shovel",
+i_cincinnasite_shovel_diamond: "betternether:cincinnasite_shovel_diamond",
 /** @type {string} */
-i_flaming_ruby_hoe: "betternether:flaming_ruby_hoe",
-/** @type {string} */
-i_flaming_ruby_leggings: "betternether:flaming_ruby_leggings",
+i_cincinnasite_axe_diamond: "betternether:cincinnasite_axe_diamond",
 /** @type {string} */
 i_flaming_ruby_pickaxe: "betternether:flaming_ruby_pickaxe",
 /** @type {string} */
+i_flaming_ruby_hoe: "betternether:flaming_ruby_hoe",
+/** @type {string} */
 i_flaming_ruby_chestplate: "betternether:flaming_ruby_chestplate",
 /** @type {string} */
+i_flaming_ruby_sword: "betternether:flaming_ruby_sword",
+/** @type {string} */
+i_flaming_ruby_leggings: "betternether:flaming_ruby_leggings",
+/** @type {string} */
+i_flaming_ruby_shovel: "betternether:flaming_ruby_shovel",
+/** @type {string} */
 i_flaming_ruby_boots: "betternether:flaming_ruby_boots",
+/** @type {string} */
+i_flaming_ruby_axe: "betternether:flaming_ruby_axe",
 /** @type {string} */
 i_flaming_ruby_helmet: "betternether:flaming_ruby_helmet",
 /** @type {string} */
@@ -3727,6 +3727,7968 @@ i_spawn_egg_flying_pig: "betternether:spawn_egg_flying_pig",
 i_spawn_egg_jungle_skeleton: "betternether:spawn_egg_jungle_skeleton",
 /** @type {string} */
 i_spawn_egg_skull: "betternether:spawn_egg_skull",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const item_zoomers_armory = {
+    /** @type {string} */
+i_flint_tank_chestplate: "zoomers_armory:flint_tank_chestplate",
+/** @type {string} */
+i_flint_tank_leggings: "zoomers_armory:flint_tank_leggings",
+/** @type {string} */
+i_flint_tank_boots: "zoomers_armory:flint_tank_boots",
+/** @type {string} */
+i_copper_tank_helmet: "zoomers_armory:copper_tank_helmet",
+/** @type {string} */
+i_iron_tank_helmet: "zoomers_armory:iron_tank_helmet",
+/** @type {string} */
+i_iron_tank_chestplate: "zoomers_armory:iron_tank_chestplate",
+/** @type {string} */
+i_iron_tank_leggings: "zoomers_armory:iron_tank_leggings",
+/** @type {string} */
+i_iron_tank_boots: "zoomers_armory:iron_tank_boots",
+/** @type {string} */
+i_gold_tank_helmet: "zoomers_armory:gold_tank_helmet",
+/** @type {string} */
+i_flint_claws: "zoomers_armory:flint_claws",
+/** @type {string} */
+i_flint_dagger: "zoomers_armory:flint_dagger",
+/** @type {string} */
+i_flint_shortsword: "zoomers_armory:flint_shortsword",
+/** @type {string} */
+i_flint_heavysword: "zoomers_armory:flint_heavysword",
+/** @type {string} */
+i_flint_cutlass: "zoomers_armory:flint_cutlass",
+/** @type {string} */
+i_flint_mace: "zoomers_armory:flint_mace",
+/** @type {string} */
+i_flint_heavymace: "zoomers_armory:flint_heavymace",
+/** @type {string} */
+i_flint_warhammer: "zoomers_armory:flint_warhammer",
+/** @type {string} */
+i_flint_battleaxe: "zoomers_armory:flint_battleaxe",
+/** @type {string} */
+i_flint_spear: "zoomers_armory:flint_spear",
+/** @type {string} */
+i_flint_halberd: "zoomers_armory:flint_halberd",
+/** @type {string} */
+i_flint_scythe: "zoomers_armory:flint_scythe",
+/** @type {string} */
+i_flint_katana: "zoomers_armory:flint_katana",
+/** @type {string} */
+i_flint_twinblade: "zoomers_armory:flint_twinblade",
+/** @type {string} */
+i_flint_sai: "zoomers_armory:flint_sai",
+/** @type {string} */
+i_flint_warglaive: "zoomers_armory:flint_warglaive",
+/** @type {string} */
+i_flint_musashi: "zoomers_armory:flint_musashi",
+/** @type {string} */
+i_flint_arcane_staff: "zoomers_armory:flint_arcane_staff",
+/** @type {string} */
+i_flint_woodwind_staff: "zoomers_armory:flint_woodwind_staff",
+/** @type {string} */
+i_flint_fire_staff: "zoomers_armory:flint_fire_staff",
+/** @type {string} */
+i_flint_ice_staff: "zoomers_armory:flint_ice_staff",
+/** @type {string} */
+i_flint_lightning_staff: "zoomers_armory:flint_lightning_staff",
+/** @type {string} */
+i_flint_nature_staff: "zoomers_armory:flint_nature_staff",
+/** @type {string} */
+i_flint_holy_staff: "zoomers_armory:flint_holy_staff",
+/** @type {string} */
+i_flint_blood_staff: "zoomers_armory:flint_blood_staff",
+/** @type {string} */
+i_flint_evocation_staff: "zoomers_armory:flint_evocation_staff",
+/** @type {string} */
+i_flint_ender_staff: "zoomers_armory:flint_ender_staff",
+/** @type {string} */
+i_flint_buckler: "zoomers_armory:flint_buckler",
+/** @type {string} */
+i_flint_heater: "zoomers_armory:flint_heater",
+/** @type {string} */
+i_flint_tower: "zoomers_armory:flint_tower",
+/** @type {string} */
+i_flint_shortbow: "zoomers_armory:flint_shortbow",
+/** @type {string} */
+i_flint_bow: "zoomers_armory:flint_bow",
+/** @type {string} */
+i_flint_longbow: "zoomers_armory:flint_longbow",
+/** @type {string} */
+i_flint_crossbow: "zoomers_armory:flint_crossbow",
+/** @type {string} */
+i_flint_pickaxe: "zoomers_armory:flint_pickaxe",
+/** @type {string} */
+i_flint_axe: "zoomers_armory:flint_axe",
+/** @type {string} */
+i_flint_shovel: "zoomers_armory:flint_shovel",
+/** @type {string} */
+i_flint_hoe: "zoomers_armory:flint_hoe",
+/** @type {string} */
+i_gold_tank_chestplate: "zoomers_armory:gold_tank_chestplate",
+/** @type {string} */
+i_gold_tank_leggings: "zoomers_armory:gold_tank_leggings",
+/** @type {string} */
+i_gold_tank_boots: "zoomers_armory:gold_tank_boots",
+/** @type {string} */
+i_flint_tank_helmet: "zoomers_armory:flint_tank_helmet",
+/** @type {string} */
+i_flint_samurai_helmet: "zoomers_armory:flint_samurai_helmet",
+/** @type {string} */
+i_flint_samurai_chestplate: "zoomers_armory:flint_samurai_chestplate",
+/** @type {string} */
+i_flint_samurai_leggings: "zoomers_armory:flint_samurai_leggings",
+/** @type {string} */
+i_flint_samurai_boots: "zoomers_armory:flint_samurai_boots",
+/** @type {string} */
+i_diamond_tank_helmet: "zoomers_armory:diamond_tank_helmet",
+/** @type {string} */
+i_diamond_tank_chestplate: "zoomers_armory:diamond_tank_chestplate",
+/** @type {string} */
+i_diamond_tank_leggings: "zoomers_armory:diamond_tank_leggings",
+/** @type {string} */
+i_diamond_tank_boots: "zoomers_armory:diamond_tank_boots",
+/** @type {string} */
+i_flint_archer_helmet: "zoomers_armory:flint_archer_helmet",
+/** @type {string} */
+i_flint_archer_chestplate: "zoomers_armory:flint_archer_chestplate",
+/** @type {string} */
+i_flint_archer_leggings: "zoomers_armory:flint_archer_leggings",
+/** @type {string} */
+i_flint_archer_boots: "zoomers_armory:flint_archer_boots",
+/** @type {string} */
+i_flint_ranger_helmet: "zoomers_armory:flint_ranger_helmet",
+/** @type {string} */
+i_flint_ranger_chestplate: "zoomers_armory:flint_ranger_chestplate",
+/** @type {string} */
+i_flint_ranger_leggings: "zoomers_armory:flint_ranger_leggings",
+/** @type {string} */
+i_flint_ranger_boots: "zoomers_armory:flint_ranger_boots",
+/** @type {string} */
+i_flint_pyromancer_helmet: "zoomers_armory:flint_pyromancer_helmet",
+/** @type {string} */
+i_flint_pyromancer_chestplate: "zoomers_armory:flint_pyromancer_chestplate",
+/** @type {string} */
+i_flint_pyromancer_leggings: "zoomers_armory:flint_pyromancer_leggings",
+/** @type {string} */
+i_flint_pyromancer_boots: "zoomers_armory:flint_pyromancer_boots",
+/** @type {string} */
+i_flint_cryomancer_helmet: "zoomers_armory:flint_cryomancer_helmet",
+/** @type {string} */
+i_flint_cryomancer_chestplate: "zoomers_armory:flint_cryomancer_chestplate",
+/** @type {string} */
+i_flint_cryomancer_leggings: "zoomers_armory:flint_cryomancer_leggings",
+/** @type {string} */
+i_flint_cryomancer_boots: "zoomers_armory:flint_cryomancer_boots",
+/** @type {string} */
+i_flint_electromancer_helmet: "zoomers_armory:flint_electromancer_helmet",
+/** @type {string} */
+i_flint_electromancer_chestplate: "zoomers_armory:flint_electromancer_chestplate",
+/** @type {string} */
+i_flint_electromancer_leggings: "zoomers_armory:flint_electromancer_leggings",
+/** @type {string} */
+i_flint_electromancer_boots: "zoomers_armory:flint_electromancer_boots",
+/** @type {string} */
+i_flint_archevoker_helmet: "zoomers_armory:flint_archevoker_helmet",
+/** @type {string} */
+i_flint_archevoker_chestplate: "zoomers_armory:flint_archevoker_chestplate",
+/** @type {string} */
+i_flint_archevoker_leggings: "zoomers_armory:flint_archevoker_leggings",
+/** @type {string} */
+i_flint_archevoker_boots: "zoomers_armory:flint_archevoker_boots",
+/** @type {string} */
+i_flint_cultist_helmet: "zoomers_armory:flint_cultist_helmet",
+/** @type {string} */
+i_flint_cultist_chestplate: "zoomers_armory:flint_cultist_chestplate",
+/** @type {string} */
+i_flint_cultist_leggings: "zoomers_armory:flint_cultist_leggings",
+/** @type {string} */
+i_flint_cultist_boots: "zoomers_armory:flint_cultist_boots",
+/** @type {string} */
+i_flint_shadowwalker_helmet: "zoomers_armory:flint_shadowwalker_helmet",
+/** @type {string} */
+i_flint_shadowwalker_chestplate: "zoomers_armory:flint_shadowwalker_chestplate",
+/** @type {string} */
+i_flint_shadowwalker_leggings: "zoomers_armory:flint_shadowwalker_leggings",
+/** @type {string} */
+i_flint_shadowwalker_boots: "zoomers_armory:flint_shadowwalker_boots",
+/** @type {string} */
+i_flint_priest_helmet: "zoomers_armory:flint_priest_helmet",
+/** @type {string} */
+i_flint_priest_chestplate: "zoomers_armory:flint_priest_chestplate",
+/** @type {string} */
+i_flint_priest_leggings: "zoomers_armory:flint_priest_leggings",
+/** @type {string} */
+i_flint_priest_boots: "zoomers_armory:flint_priest_boots",
+/** @type {string} */
+i_flint_plagued_helmet: "zoomers_armory:flint_plagued_helmet",
+/** @type {string} */
+i_flint_plagued_chestplate: "zoomers_armory:flint_plagued_chestplate",
+/** @type {string} */
+i_flint_plagued_leggings: "zoomers_armory:flint_plagued_leggings",
+/** @type {string} */
+i_flint_plagued_boots: "zoomers_armory:flint_plagued_boots",
+/** @type {string} */
+i_copper_claws: "zoomers_armory:copper_claws",
+/** @type {string} */
+i_copper_dagger: "zoomers_armory:copper_dagger",
+/** @type {string} */
+i_copper_shortsword: "zoomers_armory:copper_shortsword",
+/** @type {string} */
+i_copper_heavysword: "zoomers_armory:copper_heavysword",
+/** @type {string} */
+i_copper_cutlass: "zoomers_armory:copper_cutlass",
+/** @type {string} */
+i_copper_mace: "zoomers_armory:copper_mace",
+/** @type {string} */
+i_copper_heavymace: "zoomers_armory:copper_heavymace",
+/** @type {string} */
+i_copper_warhammer: "zoomers_armory:copper_warhammer",
+/** @type {string} */
+i_copper_battleaxe: "zoomers_armory:copper_battleaxe",
+/** @type {string} */
+i_copper_spear: "zoomers_armory:copper_spear",
+/** @type {string} */
+i_copper_halberd: "zoomers_armory:copper_halberd",
+/** @type {string} */
+i_copper_scythe: "zoomers_armory:copper_scythe",
+/** @type {string} */
+i_copper_katana: "zoomers_armory:copper_katana",
+/** @type {string} */
+i_copper_twinblade: "zoomers_armory:copper_twinblade",
+/** @type {string} */
+i_copper_sai: "zoomers_armory:copper_sai",
+/** @type {string} */
+i_copper_warglaive: "zoomers_armory:copper_warglaive",
+/** @type {string} */
+i_copper_musashi: "zoomers_armory:copper_musashi",
+/** @type {string} */
+i_copper_arcane_staff: "zoomers_armory:copper_arcane_staff",
+/** @type {string} */
+i_copper_woodwind_staff: "zoomers_armory:copper_woodwind_staff",
+/** @type {string} */
+i_copper_fire_staff: "zoomers_armory:copper_fire_staff",
+/** @type {string} */
+i_copper_ice_staff: "zoomers_armory:copper_ice_staff",
+/** @type {string} */
+i_copper_lightning_staff: "zoomers_armory:copper_lightning_staff",
+/** @type {string} */
+i_copper_nature_staff: "zoomers_armory:copper_nature_staff",
+/** @type {string} */
+i_copper_holy_staff: "zoomers_armory:copper_holy_staff",
+/** @type {string} */
+i_copper_blood_staff: "zoomers_armory:copper_blood_staff",
+/** @type {string} */
+i_copper_evocation_staff: "zoomers_armory:copper_evocation_staff",
+/** @type {string} */
+i_copper_ender_staff: "zoomers_armory:copper_ender_staff",
+/** @type {string} */
+i_copper_buckler: "zoomers_armory:copper_buckler",
+/** @type {string} */
+i_copper_heater: "zoomers_armory:copper_heater",
+/** @type {string} */
+i_copper_tower: "zoomers_armory:copper_tower",
+/** @type {string} */
+i_copper_shortbow: "zoomers_armory:copper_shortbow",
+/** @type {string} */
+i_copper_bow: "zoomers_armory:copper_bow",
+/** @type {string} */
+i_copper_longbow: "zoomers_armory:copper_longbow",
+/** @type {string} */
+i_copper_crossbow: "zoomers_armory:copper_crossbow",
+/** @type {string} */
+i_copper_tank_chestplate: "zoomers_armory:copper_tank_chestplate",
+/** @type {string} */
+i_copper_tank_leggings: "zoomers_armory:copper_tank_leggings",
+/** @type {string} */
+i_copper_tank_boots: "zoomers_armory:copper_tank_boots",
+/** @type {string} */
+i_neptunium_tank_helmet: "zoomers_armory:neptunium_tank_helmet",
+/** @type {string} */
+i_copper_samurai_helmet: "zoomers_armory:copper_samurai_helmet",
+/** @type {string} */
+i_copper_samurai_chestplate: "zoomers_armory:copper_samurai_chestplate",
+/** @type {string} */
+i_copper_samurai_leggings: "zoomers_armory:copper_samurai_leggings",
+/** @type {string} */
+i_copper_samurai_boots: "zoomers_armory:copper_samurai_boots",
+/** @type {string} */
+i_neptunium_tank_chestplate: "zoomers_armory:neptunium_tank_chestplate",
+/** @type {string} */
+i_neptunium_tank_leggings: "zoomers_armory:neptunium_tank_leggings",
+/** @type {string} */
+i_neptunium_tank_boots: "zoomers_armory:neptunium_tank_boots",
+/** @type {string} */
+i_pyrope_tank_helmet: "zoomers_armory:pyrope_tank_helmet",
+/** @type {string} */
+i_copper_archer_helmet: "zoomers_armory:copper_archer_helmet",
+/** @type {string} */
+i_copper_archer_chestplate: "zoomers_armory:copper_archer_chestplate",
+/** @type {string} */
+i_copper_archer_leggings: "zoomers_armory:copper_archer_leggings",
+/** @type {string} */
+i_copper_archer_boots: "zoomers_armory:copper_archer_boots",
+/** @type {string} */
+i_copper_ranger_helmet: "zoomers_armory:copper_ranger_helmet",
+/** @type {string} */
+i_copper_ranger_chestplate: "zoomers_armory:copper_ranger_chestplate",
+/** @type {string} */
+i_copper_ranger_leggings: "zoomers_armory:copper_ranger_leggings",
+/** @type {string} */
+i_copper_ranger_boots: "zoomers_armory:copper_ranger_boots",
+/** @type {string} */
+i_copper_pyromancer_helmet: "zoomers_armory:copper_pyromancer_helmet",
+/** @type {string} */
+i_copper_pyromancer_chestplate: "zoomers_armory:copper_pyromancer_chestplate",
+/** @type {string} */
+i_copper_pyromancer_leggings: "zoomers_armory:copper_pyromancer_leggings",
+/** @type {string} */
+i_copper_pyromancer_boots: "zoomers_armory:copper_pyromancer_boots",
+/** @type {string} */
+i_copper_cryomancer_helmet: "zoomers_armory:copper_cryomancer_helmet",
+/** @type {string} */
+i_copper_cryomancer_chestplate: "zoomers_armory:copper_cryomancer_chestplate",
+/** @type {string} */
+i_copper_cryomancer_leggings: "zoomers_armory:copper_cryomancer_leggings",
+/** @type {string} */
+i_copper_cryomancer_boots: "zoomers_armory:copper_cryomancer_boots",
+/** @type {string} */
+i_copper_electromancer_helmet: "zoomers_armory:copper_electromancer_helmet",
+/** @type {string} */
+i_copper_electromancer_chestplate: "zoomers_armory:copper_electromancer_chestplate",
+/** @type {string} */
+i_copper_electromancer_leggings: "zoomers_armory:copper_electromancer_leggings",
+/** @type {string} */
+i_copper_electromancer_boots: "zoomers_armory:copper_electromancer_boots",
+/** @type {string} */
+i_copper_archevoker_helmet: "zoomers_armory:copper_archevoker_helmet",
+/** @type {string} */
+i_copper_archevoker_chestplate: "zoomers_armory:copper_archevoker_chestplate",
+/** @type {string} */
+i_copper_archevoker_leggings: "zoomers_armory:copper_archevoker_leggings",
+/** @type {string} */
+i_copper_archevoker_boots: "zoomers_armory:copper_archevoker_boots",
+/** @type {string} */
+i_copper_cultist_helmet: "zoomers_armory:copper_cultist_helmet",
+/** @type {string} */
+i_copper_cultist_chestplate: "zoomers_armory:copper_cultist_chestplate",
+/** @type {string} */
+i_copper_cultist_leggings: "zoomers_armory:copper_cultist_leggings",
+/** @type {string} */
+i_copper_cultist_boots: "zoomers_armory:copper_cultist_boots",
+/** @type {string} */
+i_copper_shadowwalker_helmet: "zoomers_armory:copper_shadowwalker_helmet",
+/** @type {string} */
+i_copper_shadowwalker_chestplate: "zoomers_armory:copper_shadowwalker_chestplate",
+/** @type {string} */
+i_copper_shadowwalker_leggings: "zoomers_armory:copper_shadowwalker_leggings",
+/** @type {string} */
+i_copper_shadowwalker_boots: "zoomers_armory:copper_shadowwalker_boots",
+/** @type {string} */
+i_copper_priest_helmet: "zoomers_armory:copper_priest_helmet",
+/** @type {string} */
+i_copper_priest_chestplate: "zoomers_armory:copper_priest_chestplate",
+/** @type {string} */
+i_copper_priest_leggings: "zoomers_armory:copper_priest_leggings",
+/** @type {string} */
+i_copper_priest_boots: "zoomers_armory:copper_priest_boots",
+/** @type {string} */
+i_copper_plagued_helmet: "zoomers_armory:copper_plagued_helmet",
+/** @type {string} */
+i_copper_plagued_chestplate: "zoomers_armory:copper_plagued_chestplate",
+/** @type {string} */
+i_copper_plagued_leggings: "zoomers_armory:copper_plagued_leggings",
+/** @type {string} */
+i_copper_plagued_boots: "zoomers_armory:copper_plagued_boots",
+/** @type {string} */
+i_iron_claws: "zoomers_armory:iron_claws",
+/** @type {string} */
+i_iron_dagger: "zoomers_armory:iron_dagger",
+/** @type {string} */
+i_iron_shortsword: "zoomers_armory:iron_shortsword",
+/** @type {string} */
+i_iron_heavysword: "zoomers_armory:iron_heavysword",
+/** @type {string} */
+i_iron_cutlass: "zoomers_armory:iron_cutlass",
+/** @type {string} */
+i_iron_mace: "zoomers_armory:iron_mace",
+/** @type {string} */
+i_iron_heavymace: "zoomers_armory:iron_heavymace",
+/** @type {string} */
+i_iron_warhammer: "zoomers_armory:iron_warhammer",
+/** @type {string} */
+i_iron_battleaxe: "zoomers_armory:iron_battleaxe",
+/** @type {string} */
+i_iron_spear: "zoomers_armory:iron_spear",
+/** @type {string} */
+i_iron_halberd: "zoomers_armory:iron_halberd",
+/** @type {string} */
+i_iron_scythe: "zoomers_armory:iron_scythe",
+/** @type {string} */
+i_iron_katana: "zoomers_armory:iron_katana",
+/** @type {string} */
+i_iron_twinblade: "zoomers_armory:iron_twinblade",
+/** @type {string} */
+i_iron_sai: "zoomers_armory:iron_sai",
+/** @type {string} */
+i_iron_warglaive: "zoomers_armory:iron_warglaive",
+/** @type {string} */
+i_iron_musashi: "zoomers_armory:iron_musashi",
+/** @type {string} */
+i_iron_arcane_staff: "zoomers_armory:iron_arcane_staff",
+/** @type {string} */
+i_iron_woodwind_staff: "zoomers_armory:iron_woodwind_staff",
+/** @type {string} */
+i_iron_fire_staff: "zoomers_armory:iron_fire_staff",
+/** @type {string} */
+i_iron_ice_staff: "zoomers_armory:iron_ice_staff",
+/** @type {string} */
+i_iron_lightning_staff: "zoomers_armory:iron_lightning_staff",
+/** @type {string} */
+i_iron_nature_staff: "zoomers_armory:iron_nature_staff",
+/** @type {string} */
+i_iron_holy_staff: "zoomers_armory:iron_holy_staff",
+/** @type {string} */
+i_iron_blood_staff: "zoomers_armory:iron_blood_staff",
+/** @type {string} */
+i_iron_evocation_staff: "zoomers_armory:iron_evocation_staff",
+/** @type {string} */
+i_iron_ender_staff: "zoomers_armory:iron_ender_staff",
+/** @type {string} */
+i_iron_buckler: "zoomers_armory:iron_buckler",
+/** @type {string} */
+i_iron_heater: "zoomers_armory:iron_heater",
+/** @type {string} */
+i_iron_tower: "zoomers_armory:iron_tower",
+/** @type {string} */
+i_iron_shortbow: "zoomers_armory:iron_shortbow",
+/** @type {string} */
+i_iron_bow: "zoomers_armory:iron_bow",
+/** @type {string} */
+i_iron_longbow: "zoomers_armory:iron_longbow",
+/** @type {string} */
+i_iron_crossbow: "zoomers_armory:iron_crossbow",
+/** @type {string} */
+i_pyrope_tank_chestplate: "zoomers_armory:pyrope_tank_chestplate",
+/** @type {string} */
+i_pyrope_tank_leggings: "zoomers_armory:pyrope_tank_leggings",
+/** @type {string} */
+i_pyrope_tank_boots: "zoomers_armory:pyrope_tank_boots",
+/** @type {string} */
+i_aquite_tank_helmet: "zoomers_armory:aquite_tank_helmet",
+/** @type {string} */
+i_iron_samurai_helmet: "zoomers_armory:iron_samurai_helmet",
+/** @type {string} */
+i_iron_samurai_chestplate: "zoomers_armory:iron_samurai_chestplate",
+/** @type {string} */
+i_iron_samurai_leggings: "zoomers_armory:iron_samurai_leggings",
+/** @type {string} */
+i_iron_samurai_boots: "zoomers_armory:iron_samurai_boots",
+/** @type {string} */
+i_aquite_tank_chestplate: "zoomers_armory:aquite_tank_chestplate",
+/** @type {string} */
+i_aquite_tank_leggings: "zoomers_armory:aquite_tank_leggings",
+/** @type {string} */
+i_aquite_tank_boots: "zoomers_armory:aquite_tank_boots",
+/** @type {string} */
+i_diopside_tank_helmet: "zoomers_armory:diopside_tank_helmet",
+/** @type {string} */
+i_iron_archer_helmet: "zoomers_armory:iron_archer_helmet",
+/** @type {string} */
+i_iron_archer_chestplate: "zoomers_armory:iron_archer_chestplate",
+/** @type {string} */
+i_iron_archer_leggings: "zoomers_armory:iron_archer_leggings",
+/** @type {string} */
+i_iron_archer_boots: "zoomers_armory:iron_archer_boots",
+/** @type {string} */
+i_iron_ranger_helmet: "zoomers_armory:iron_ranger_helmet",
+/** @type {string} */
+i_iron_ranger_chestplate: "zoomers_armory:iron_ranger_chestplate",
+/** @type {string} */
+i_iron_ranger_leggings: "zoomers_armory:iron_ranger_leggings",
+/** @type {string} */
+i_iron_ranger_boots: "zoomers_armory:iron_ranger_boots",
+/** @type {string} */
+i_iron_pyromancer_helmet: "zoomers_armory:iron_pyromancer_helmet",
+/** @type {string} */
+i_iron_pyromancer_chestplate: "zoomers_armory:iron_pyromancer_chestplate",
+/** @type {string} */
+i_iron_pyromancer_leggings: "zoomers_armory:iron_pyromancer_leggings",
+/** @type {string} */
+i_iron_pyromancer_boots: "zoomers_armory:iron_pyromancer_boots",
+/** @type {string} */
+i_iron_cryomancer_helmet: "zoomers_armory:iron_cryomancer_helmet",
+/** @type {string} */
+i_iron_cryomancer_chestplate: "zoomers_armory:iron_cryomancer_chestplate",
+/** @type {string} */
+i_iron_cryomancer_leggings: "zoomers_armory:iron_cryomancer_leggings",
+/** @type {string} */
+i_iron_cryomancer_boots: "zoomers_armory:iron_cryomancer_boots",
+/** @type {string} */
+i_iron_electromancer_helmet: "zoomers_armory:iron_electromancer_helmet",
+/** @type {string} */
+i_iron_electromancer_chestplate: "zoomers_armory:iron_electromancer_chestplate",
+/** @type {string} */
+i_iron_electromancer_leggings: "zoomers_armory:iron_electromancer_leggings",
+/** @type {string} */
+i_iron_electromancer_boots: "zoomers_armory:iron_electromancer_boots",
+/** @type {string} */
+i_iron_archevoker_helmet: "zoomers_armory:iron_archevoker_helmet",
+/** @type {string} */
+i_iron_archevoker_chestplate: "zoomers_armory:iron_archevoker_chestplate",
+/** @type {string} */
+i_iron_archevoker_leggings: "zoomers_armory:iron_archevoker_leggings",
+/** @type {string} */
+i_iron_archevoker_boots: "zoomers_armory:iron_archevoker_boots",
+/** @type {string} */
+i_iron_cultist_helmet: "zoomers_armory:iron_cultist_helmet",
+/** @type {string} */
+i_iron_cultist_chestplate: "zoomers_armory:iron_cultist_chestplate",
+/** @type {string} */
+i_iron_cultist_leggings: "zoomers_armory:iron_cultist_leggings",
+/** @type {string} */
+i_iron_cultist_boots: "zoomers_armory:iron_cultist_boots",
+/** @type {string} */
+i_iron_shadowwalker_helmet: "zoomers_armory:iron_shadowwalker_helmet",
+/** @type {string} */
+i_iron_shadowwalker_chestplate: "zoomers_armory:iron_shadowwalker_chestplate",
+/** @type {string} */
+i_iron_shadowwalker_leggings: "zoomers_armory:iron_shadowwalker_leggings",
+/** @type {string} */
+i_iron_shadowwalker_boots: "zoomers_armory:iron_shadowwalker_boots",
+/** @type {string} */
+i_iron_priest_helmet: "zoomers_armory:iron_priest_helmet",
+/** @type {string} */
+i_iron_priest_chestplate: "zoomers_armory:iron_priest_chestplate",
+/** @type {string} */
+i_iron_priest_leggings: "zoomers_armory:iron_priest_leggings",
+/** @type {string} */
+i_iron_priest_boots: "zoomers_armory:iron_priest_boots",
+/** @type {string} */
+i_iron_plagued_helmet: "zoomers_armory:iron_plagued_helmet",
+/** @type {string} */
+i_iron_plagued_chestplate: "zoomers_armory:iron_plagued_chestplate",
+/** @type {string} */
+i_iron_plagued_leggings: "zoomers_armory:iron_plagued_leggings",
+/** @type {string} */
+i_iron_plagued_boots: "zoomers_armory:iron_plagued_boots",
+/** @type {string} */
+i_gold_claws: "zoomers_armory:gold_claws",
+/** @type {string} */
+i_gold_dagger: "zoomers_armory:gold_dagger",
+/** @type {string} */
+i_gold_shortsword: "zoomers_armory:gold_shortsword",
+/** @type {string} */
+i_gold_heavysword: "zoomers_armory:gold_heavysword",
+/** @type {string} */
+i_gold_cutlass: "zoomers_armory:gold_cutlass",
+/** @type {string} */
+i_gold_mace: "zoomers_armory:gold_mace",
+/** @type {string} */
+i_gold_heavymace: "zoomers_armory:gold_heavymace",
+/** @type {string} */
+i_gold_warhammer: "zoomers_armory:gold_warhammer",
+/** @type {string} */
+i_gold_battleaxe: "zoomers_armory:gold_battleaxe",
+/** @type {string} */
+i_gold_spear: "zoomers_armory:gold_spear",
+/** @type {string} */
+i_gold_halberd: "zoomers_armory:gold_halberd",
+/** @type {string} */
+i_gold_scythe: "zoomers_armory:gold_scythe",
+/** @type {string} */
+i_gold_katana: "zoomers_armory:gold_katana",
+/** @type {string} */
+i_gold_twinblade: "zoomers_armory:gold_twinblade",
+/** @type {string} */
+i_gold_sai: "zoomers_armory:gold_sai",
+/** @type {string} */
+i_gold_warglaive: "zoomers_armory:gold_warglaive",
+/** @type {string} */
+i_gold_musashi: "zoomers_armory:gold_musashi",
+/** @type {string} */
+i_gold_arcane_staff: "zoomers_armory:gold_arcane_staff",
+/** @type {string} */
+i_gold_woodwind_staff: "zoomers_armory:gold_woodwind_staff",
+/** @type {string} */
+i_gold_fire_staff: "zoomers_armory:gold_fire_staff",
+/** @type {string} */
+i_gold_ice_staff: "zoomers_armory:gold_ice_staff",
+/** @type {string} */
+i_gold_lightning_staff: "zoomers_armory:gold_lightning_staff",
+/** @type {string} */
+i_gold_nature_staff: "zoomers_armory:gold_nature_staff",
+/** @type {string} */
+i_gold_holy_staff: "zoomers_armory:gold_holy_staff",
+/** @type {string} */
+i_gold_blood_staff: "zoomers_armory:gold_blood_staff",
+/** @type {string} */
+i_gold_evocation_staff: "zoomers_armory:gold_evocation_staff",
+/** @type {string} */
+i_gold_ender_staff: "zoomers_armory:gold_ender_staff",
+/** @type {string} */
+i_gold_buckler: "zoomers_armory:gold_buckler",
+/** @type {string} */
+i_gold_heater: "zoomers_armory:gold_heater",
+/** @type {string} */
+i_gold_tower: "zoomers_armory:gold_tower",
+/** @type {string} */
+i_gold_shortbow: "zoomers_armory:gold_shortbow",
+/** @type {string} */
+i_gold_bow: "zoomers_armory:gold_bow",
+/** @type {string} */
+i_gold_longbow: "zoomers_armory:gold_longbow",
+/** @type {string} */
+i_gold_crossbow: "zoomers_armory:gold_crossbow",
+/** @type {string} */
+i_diopside_tank_chestplate: "zoomers_armory:diopside_tank_chestplate",
+/** @type {string} */
+i_diopside_tank_leggings: "zoomers_armory:diopside_tank_leggings",
+/** @type {string} */
+i_diopside_tank_boots: "zoomers_armory:diopside_tank_boots",
+/** @type {string} */
+i_charoite_tank_helmet: "zoomers_armory:charoite_tank_helmet",
+/** @type {string} */
+i_gold_samurai_helmet: "zoomers_armory:gold_samurai_helmet",
+/** @type {string} */
+i_gold_samurai_chestplate: "zoomers_armory:gold_samurai_chestplate",
+/** @type {string} */
+i_gold_samurai_leggings: "zoomers_armory:gold_samurai_leggings",
+/** @type {string} */
+i_gold_samurai_boots: "zoomers_armory:gold_samurai_boots",
+/** @type {string} */
+i_charoite_tank_chestplate: "zoomers_armory:charoite_tank_chestplate",
+/** @type {string} */
+i_charoite_tank_leggings: "zoomers_armory:charoite_tank_leggings",
+/** @type {string} */
+i_charoite_tank_boots: "zoomers_armory:charoite_tank_boots",
+/** @type {string} */
+i_horizonite_tank_helmet: "zoomers_armory:horizonite_tank_helmet",
+/** @type {string} */
+i_gold_archer_helmet: "zoomers_armory:gold_archer_helmet",
+/** @type {string} */
+i_gold_archer_chestplate: "zoomers_armory:gold_archer_chestplate",
+/** @type {string} */
+i_gold_archer_leggings: "zoomers_armory:gold_archer_leggings",
+/** @type {string} */
+i_gold_archer_boots: "zoomers_armory:gold_archer_boots",
+/** @type {string} */
+i_gold_ranger_helmet: "zoomers_armory:gold_ranger_helmet",
+/** @type {string} */
+i_gold_ranger_chestplate: "zoomers_armory:gold_ranger_chestplate",
+/** @type {string} */
+i_gold_ranger_leggings: "zoomers_armory:gold_ranger_leggings",
+/** @type {string} */
+i_gold_ranger_boots: "zoomers_armory:gold_ranger_boots",
+/** @type {string} */
+i_gold_pyromancer_helmet: "zoomers_armory:gold_pyromancer_helmet",
+/** @type {string} */
+i_gold_pyromancer_chestplate: "zoomers_armory:gold_pyromancer_chestplate",
+/** @type {string} */
+i_gold_pyromancer_leggings: "zoomers_armory:gold_pyromancer_leggings",
+/** @type {string} */
+i_gold_pyromancer_boots: "zoomers_armory:gold_pyromancer_boots",
+/** @type {string} */
+i_gold_cryomancer_helmet: "zoomers_armory:gold_cryomancer_helmet",
+/** @type {string} */
+i_gold_cryomancer_chestplate: "zoomers_armory:gold_cryomancer_chestplate",
+/** @type {string} */
+i_gold_cryomancer_leggings: "zoomers_armory:gold_cryomancer_leggings",
+/** @type {string} */
+i_gold_cryomancer_boots: "zoomers_armory:gold_cryomancer_boots",
+/** @type {string} */
+i_gold_electromancer_helmet: "zoomers_armory:gold_electromancer_helmet",
+/** @type {string} */
+i_gold_electromancer_chestplate: "zoomers_armory:gold_electromancer_chestplate",
+/** @type {string} */
+i_gold_electromancer_leggings: "zoomers_armory:gold_electromancer_leggings",
+/** @type {string} */
+i_gold_electromancer_boots: "zoomers_armory:gold_electromancer_boots",
+/** @type {string} */
+i_gold_archevoker_helmet: "zoomers_armory:gold_archevoker_helmet",
+/** @type {string} */
+i_gold_archevoker_chestplate: "zoomers_armory:gold_archevoker_chestplate",
+/** @type {string} */
+i_gold_archevoker_leggings: "zoomers_armory:gold_archevoker_leggings",
+/** @type {string} */
+i_gold_archevoker_boots: "zoomers_armory:gold_archevoker_boots",
+/** @type {string} */
+i_gold_cultist_helmet: "zoomers_armory:gold_cultist_helmet",
+/** @type {string} */
+i_gold_cultist_chestplate: "zoomers_armory:gold_cultist_chestplate",
+/** @type {string} */
+i_gold_cultist_leggings: "zoomers_armory:gold_cultist_leggings",
+/** @type {string} */
+i_gold_cultist_boots: "zoomers_armory:gold_cultist_boots",
+/** @type {string} */
+i_gold_shadowwalker_helmet: "zoomers_armory:gold_shadowwalker_helmet",
+/** @type {string} */
+i_gold_shadowwalker_chestplate: "zoomers_armory:gold_shadowwalker_chestplate",
+/** @type {string} */
+i_gold_shadowwalker_leggings: "zoomers_armory:gold_shadowwalker_leggings",
+/** @type {string} */
+i_gold_shadowwalker_boots: "zoomers_armory:gold_shadowwalker_boots",
+/** @type {string} */
+i_gold_priest_helmet: "zoomers_armory:gold_priest_helmet",
+/** @type {string} */
+i_gold_priest_chestplate: "zoomers_armory:gold_priest_chestplate",
+/** @type {string} */
+i_gold_priest_leggings: "zoomers_armory:gold_priest_leggings",
+/** @type {string} */
+i_gold_priest_boots: "zoomers_armory:gold_priest_boots",
+/** @type {string} */
+i_gold_plagued_helmet: "zoomers_armory:gold_plagued_helmet",
+/** @type {string} */
+i_gold_plagued_chestplate: "zoomers_armory:gold_plagued_chestplate",
+/** @type {string} */
+i_gold_plagued_leggings: "zoomers_armory:gold_plagued_leggings",
+/** @type {string} */
+i_gold_plagued_boots: "zoomers_armory:gold_plagued_boots",
+/** @type {string} */
+i_diamond_claws: "zoomers_armory:diamond_claws",
+/** @type {string} */
+i_diamond_dagger: "zoomers_armory:diamond_dagger",
+/** @type {string} */
+i_diamond_shortsword: "zoomers_armory:diamond_shortsword",
+/** @type {string} */
+i_diamond_heavysword: "zoomers_armory:diamond_heavysword",
+/** @type {string} */
+i_diamond_cutlass: "zoomers_armory:diamond_cutlass",
+/** @type {string} */
+i_diamond_mace: "zoomers_armory:diamond_mace",
+/** @type {string} */
+i_diamond_heavymace: "zoomers_armory:diamond_heavymace",
+/** @type {string} */
+i_diamond_warhammer: "zoomers_armory:diamond_warhammer",
+/** @type {string} */
+i_diamond_battleaxe: "zoomers_armory:diamond_battleaxe",
+/** @type {string} */
+i_diamond_spear: "zoomers_armory:diamond_spear",
+/** @type {string} */
+i_diamond_halberd: "zoomers_armory:diamond_halberd",
+/** @type {string} */
+i_diamond_scythe: "zoomers_armory:diamond_scythe",
+/** @type {string} */
+i_diamond_katana: "zoomers_armory:diamond_katana",
+/** @type {string} */
+i_diamond_twinblade: "zoomers_armory:diamond_twinblade",
+/** @type {string} */
+i_diamond_sai: "zoomers_armory:diamond_sai",
+/** @type {string} */
+i_diamond_warglaive: "zoomers_armory:diamond_warglaive",
+/** @type {string} */
+i_diamond_musashi: "zoomers_armory:diamond_musashi",
+/** @type {string} */
+i_diamond_arcane_staff: "zoomers_armory:diamond_arcane_staff",
+/** @type {string} */
+i_diamond_woodwind_staff: "zoomers_armory:diamond_woodwind_staff",
+/** @type {string} */
+i_diamond_fire_staff: "zoomers_armory:diamond_fire_staff",
+/** @type {string} */
+i_diamond_ice_staff: "zoomers_armory:diamond_ice_staff",
+/** @type {string} */
+i_diamond_lightning_staff: "zoomers_armory:diamond_lightning_staff",
+/** @type {string} */
+i_diamond_nature_staff: "zoomers_armory:diamond_nature_staff",
+/** @type {string} */
+i_diamond_holy_staff: "zoomers_armory:diamond_holy_staff",
+/** @type {string} */
+i_diamond_blood_staff: "zoomers_armory:diamond_blood_staff",
+/** @type {string} */
+i_diamond_evocation_staff: "zoomers_armory:diamond_evocation_staff",
+/** @type {string} */
+i_diamond_ender_staff: "zoomers_armory:diamond_ender_staff",
+/** @type {string} */
+i_diamond_buckler: "zoomers_armory:diamond_buckler",
+/** @type {string} */
+i_diamond_heater: "zoomers_armory:diamond_heater",
+/** @type {string} */
+i_diamond_tower: "zoomers_armory:diamond_tower",
+/** @type {string} */
+i_diamond_shortbow: "zoomers_armory:diamond_shortbow",
+/** @type {string} */
+i_diamond_bow: "zoomers_armory:diamond_bow",
+/** @type {string} */
+i_diamond_longbow: "zoomers_armory:diamond_longbow",
+/** @type {string} */
+i_diamond_crossbow: "zoomers_armory:diamond_crossbow",
+/** @type {string} */
+i_horizonite_tank_chestplate: "zoomers_armory:horizonite_tank_chestplate",
+/** @type {string} */
+i_horizonite_tank_leggings: "zoomers_armory:horizonite_tank_leggings",
+/** @type {string} */
+i_horizonite_tank_boots: "zoomers_armory:horizonite_tank_boots",
+/** @type {string} */
+i_zanite_tank_helmet: "zoomers_armory:zanite_tank_helmet",
+/** @type {string} */
+i_diamond_samurai_helmet: "zoomers_armory:diamond_samurai_helmet",
+/** @type {string} */
+i_diamond_samurai_chestplate: "zoomers_armory:diamond_samurai_chestplate",
+/** @type {string} */
+i_diamond_samurai_leggings: "zoomers_armory:diamond_samurai_leggings",
+/** @type {string} */
+i_diamond_samurai_boots: "zoomers_armory:diamond_samurai_boots",
+/** @type {string} */
+i_zanite_tank_chestplate: "zoomers_armory:zanite_tank_chestplate",
+/** @type {string} */
+i_zanite_tank_leggings: "zoomers_armory:zanite_tank_leggings",
+/** @type {string} */
+i_zanite_tank_boots: "zoomers_armory:zanite_tank_boots",
+/** @type {string} */
+i_enchanted_gravitite_tank_helmet: "zoomers_armory:enchanted_gravitite_tank_helmet",
+/** @type {string} */
+i_diamond_archer_helmet: "zoomers_armory:diamond_archer_helmet",
+/** @type {string} */
+i_diamond_archer_chestplate: "zoomers_armory:diamond_archer_chestplate",
+/** @type {string} */
+i_diamond_archer_leggings: "zoomers_armory:diamond_archer_leggings",
+/** @type {string} */
+i_diamond_archer_boots: "zoomers_armory:diamond_archer_boots",
+/** @type {string} */
+i_diamond_ranger_helmet: "zoomers_armory:diamond_ranger_helmet",
+/** @type {string} */
+i_diamond_ranger_chestplate: "zoomers_armory:diamond_ranger_chestplate",
+/** @type {string} */
+i_diamond_ranger_leggings: "zoomers_armory:diamond_ranger_leggings",
+/** @type {string} */
+i_diamond_ranger_boots: "zoomers_armory:diamond_ranger_boots",
+/** @type {string} */
+i_diamond_pyromancer_helmet: "zoomers_armory:diamond_pyromancer_helmet",
+/** @type {string} */
+i_diamond_pyromancer_chestplate: "zoomers_armory:diamond_pyromancer_chestplate",
+/** @type {string} */
+i_diamond_pyromancer_leggings: "zoomers_armory:diamond_pyromancer_leggings",
+/** @type {string} */
+i_diamond_pyromancer_boots: "zoomers_armory:diamond_pyromancer_boots",
+/** @type {string} */
+i_diamond_cryomancer_helmet: "zoomers_armory:diamond_cryomancer_helmet",
+/** @type {string} */
+i_diamond_cryomancer_chestplate: "zoomers_armory:diamond_cryomancer_chestplate",
+/** @type {string} */
+i_diamond_cryomancer_leggings: "zoomers_armory:diamond_cryomancer_leggings",
+/** @type {string} */
+i_diamond_cryomancer_boots: "zoomers_armory:diamond_cryomancer_boots",
+/** @type {string} */
+i_diamond_electromancer_helmet: "zoomers_armory:diamond_electromancer_helmet",
+/** @type {string} */
+i_diamond_electromancer_chestplate: "zoomers_armory:diamond_electromancer_chestplate",
+/** @type {string} */
+i_diamond_electromancer_leggings: "zoomers_armory:diamond_electromancer_leggings",
+/** @type {string} */
+i_diamond_electromancer_boots: "zoomers_armory:diamond_electromancer_boots",
+/** @type {string} */
+i_diamond_archevoker_helmet: "zoomers_armory:diamond_archevoker_helmet",
+/** @type {string} */
+i_diamond_archevoker_chestplate: "zoomers_armory:diamond_archevoker_chestplate",
+/** @type {string} */
+i_diamond_archevoker_leggings: "zoomers_armory:diamond_archevoker_leggings",
+/** @type {string} */
+i_diamond_archevoker_boots: "zoomers_armory:diamond_archevoker_boots",
+/** @type {string} */
+i_diamond_cultist_helmet: "zoomers_armory:diamond_cultist_helmet",
+/** @type {string} */
+i_diamond_cultist_chestplate: "zoomers_armory:diamond_cultist_chestplate",
+/** @type {string} */
+i_diamond_cultist_leggings: "zoomers_armory:diamond_cultist_leggings",
+/** @type {string} */
+i_diamond_cultist_boots: "zoomers_armory:diamond_cultist_boots",
+/** @type {string} */
+i_diamond_shadowwalker_helmet: "zoomers_armory:diamond_shadowwalker_helmet",
+/** @type {string} */
+i_diamond_shadowwalker_chestplate: "zoomers_armory:diamond_shadowwalker_chestplate",
+/** @type {string} */
+i_diamond_shadowwalker_leggings: "zoomers_armory:diamond_shadowwalker_leggings",
+/** @type {string} */
+i_diamond_shadowwalker_boots: "zoomers_armory:diamond_shadowwalker_boots",
+/** @type {string} */
+i_diamond_priest_helmet: "zoomers_armory:diamond_priest_helmet",
+/** @type {string} */
+i_diamond_priest_chestplate: "zoomers_armory:diamond_priest_chestplate",
+/** @type {string} */
+i_diamond_priest_leggings: "zoomers_armory:diamond_priest_leggings",
+/** @type {string} */
+i_diamond_priest_boots: "zoomers_armory:diamond_priest_boots",
+/** @type {string} */
+i_diamond_plagued_helmet: "zoomers_armory:diamond_plagued_helmet",
+/** @type {string} */
+i_diamond_plagued_chestplate: "zoomers_armory:diamond_plagued_chestplate",
+/** @type {string} */
+i_diamond_plagued_leggings: "zoomers_armory:diamond_plagued_leggings",
+/** @type {string} */
+i_diamond_plagued_boots: "zoomers_armory:diamond_plagued_boots",
+/** @type {string} */
+i_neptunium_claws: "zoomers_armory:neptunium_claws",
+/** @type {string} */
+i_neptunium_dagger: "zoomers_armory:neptunium_dagger",
+/** @type {string} */
+i_neptunium_shortsword: "zoomers_armory:neptunium_shortsword",
+/** @type {string} */
+i_neptunium_heavysword: "zoomers_armory:neptunium_heavysword",
+/** @type {string} */
+i_neptunium_cutlass: "zoomers_armory:neptunium_cutlass",
+/** @type {string} */
+i_neptunium_mace: "zoomers_armory:neptunium_mace",
+/** @type {string} */
+i_neptunium_heavymace: "zoomers_armory:neptunium_heavymace",
+/** @type {string} */
+i_neptunium_warhammer: "zoomers_armory:neptunium_warhammer",
+/** @type {string} */
+i_neptunium_battleaxe: "zoomers_armory:neptunium_battleaxe",
+/** @type {string} */
+i_neptunium_spear: "zoomers_armory:neptunium_spear",
+/** @type {string} */
+i_neptunium_halberd: "zoomers_armory:neptunium_halberd",
+/** @type {string} */
+i_neptunium_scythe: "zoomers_armory:neptunium_scythe",
+/** @type {string} */
+i_neptunium_katana: "zoomers_armory:neptunium_katana",
+/** @type {string} */
+i_neptunium_twinblade: "zoomers_armory:neptunium_twinblade",
+/** @type {string} */
+i_neptunium_sai: "zoomers_armory:neptunium_sai",
+/** @type {string} */
+i_neptunium_warglaive: "zoomers_armory:neptunium_warglaive",
+/** @type {string} */
+i_neptunium_musashi: "zoomers_armory:neptunium_musashi",
+/** @type {string} */
+i_neptunium_arcane_staff: "zoomers_armory:neptunium_arcane_staff",
+/** @type {string} */
+i_neptunium_woodwind_staff: "zoomers_armory:neptunium_woodwind_staff",
+/** @type {string} */
+i_neptunium_fire_staff: "zoomers_armory:neptunium_fire_staff",
+/** @type {string} */
+i_neptunium_ice_staff: "zoomers_armory:neptunium_ice_staff",
+/** @type {string} */
+i_neptunium_lightning_staff: "zoomers_armory:neptunium_lightning_staff",
+/** @type {string} */
+i_neptunium_nature_staff: "zoomers_armory:neptunium_nature_staff",
+/** @type {string} */
+i_neptunium_holy_staff: "zoomers_armory:neptunium_holy_staff",
+/** @type {string} */
+i_neptunium_blood_staff: "zoomers_armory:neptunium_blood_staff",
+/** @type {string} */
+i_neptunium_evocation_staff: "zoomers_armory:neptunium_evocation_staff",
+/** @type {string} */
+i_neptunium_ender_staff: "zoomers_armory:neptunium_ender_staff",
+/** @type {string} */
+i_neptunium_buckler: "zoomers_armory:neptunium_buckler",
+/** @type {string} */
+i_neptunium_heater: "zoomers_armory:neptunium_heater",
+/** @type {string} */
+i_neptunium_tower: "zoomers_armory:neptunium_tower",
+/** @type {string} */
+i_neptunium_shortbow: "zoomers_armory:neptunium_shortbow",
+/** @type {string} */
+i_neptunium_longbow: "zoomers_armory:neptunium_longbow",
+/** @type {string} */
+i_neptunium_crossbow: "zoomers_armory:neptunium_crossbow",
+/** @type {string} */
+i_neptunium_pickaxe: "zoomers_armory:neptunium_pickaxe",
+/** @type {string} */
+i_neptunium_axe: "zoomers_armory:neptunium_axe",
+/** @type {string} */
+i_neptunium_shovel: "zoomers_armory:neptunium_shovel",
+/** @type {string} */
+i_neptunium_hoe: "zoomers_armory:neptunium_hoe",
+/** @type {string} */
+i_neptunium_helmet: "zoomers_armory:neptunium_helmet",
+/** @type {string} */
+i_neptunium_chestplate: "zoomers_armory:neptunium_chestplate",
+/** @type {string} */
+i_neptunium_leggings: "zoomers_armory:neptunium_leggings",
+/** @type {string} */
+i_neptunium_boots: "zoomers_armory:neptunium_boots",
+/** @type {string} */
+i_enchanted_gravitite_tank_chestplate: "zoomers_armory:enchanted_gravitite_tank_chestplate",
+/** @type {string} */
+i_enchanted_gravitite_tank_leggings: "zoomers_armory:enchanted_gravitite_tank_leggings",
+/** @type {string} */
+i_enchanted_gravitite_tank_boots: "zoomers_armory:enchanted_gravitite_tank_boots",
+/** @type {string} */
+i_cincinnasite_tank_helmet: "zoomers_armory:cincinnasite_tank_helmet",
+/** @type {string} */
+i_neptunium_samurai_helmet: "zoomers_armory:neptunium_samurai_helmet",
+/** @type {string} */
+i_neptunium_samurai_chestplate: "zoomers_armory:neptunium_samurai_chestplate",
+/** @type {string} */
+i_neptunium_samurai_leggings: "zoomers_armory:neptunium_samurai_leggings",
+/** @type {string} */
+i_neptunium_samurai_boots: "zoomers_armory:neptunium_samurai_boots",
+/** @type {string} */
+i_cincinnasite_tank_chestplate: "zoomers_armory:cincinnasite_tank_chestplate",
+/** @type {string} */
+i_cincinnasite_tank_leggings: "zoomers_armory:cincinnasite_tank_leggings",
+/** @type {string} */
+i_cincinnasite_tank_boots: "zoomers_armory:cincinnasite_tank_boots",
+/** @type {string} */
+i_cincinnasite_diamond_tank_helmet: "zoomers_armory:cincinnasite_diamond_tank_helmet",
+/** @type {string} */
+i_neptunium_archer_helmet: "zoomers_armory:neptunium_archer_helmet",
+/** @type {string} */
+i_neptunium_archer_chestplate: "zoomers_armory:neptunium_archer_chestplate",
+/** @type {string} */
+i_neptunium_archer_leggings: "zoomers_armory:neptunium_archer_leggings",
+/** @type {string} */
+i_neptunium_archer_boots: "zoomers_armory:neptunium_archer_boots",
+/** @type {string} */
+i_neptunium_ranger_helmet: "zoomers_armory:neptunium_ranger_helmet",
+/** @type {string} */
+i_neptunium_ranger_chestplate: "zoomers_armory:neptunium_ranger_chestplate",
+/** @type {string} */
+i_neptunium_ranger_leggings: "zoomers_armory:neptunium_ranger_leggings",
+/** @type {string} */
+i_neptunium_ranger_boots: "zoomers_armory:neptunium_ranger_boots",
+/** @type {string} */
+i_neptunium_pyromancer_helmet: "zoomers_armory:neptunium_pyromancer_helmet",
+/** @type {string} */
+i_neptunium_pyromancer_chestplate: "zoomers_armory:neptunium_pyromancer_chestplate",
+/** @type {string} */
+i_neptunium_pyromancer_leggings: "zoomers_armory:neptunium_pyromancer_leggings",
+/** @type {string} */
+i_neptunium_pyromancer_boots: "zoomers_armory:neptunium_pyromancer_boots",
+/** @type {string} */
+i_neptunium_cryomancer_helmet: "zoomers_armory:neptunium_cryomancer_helmet",
+/** @type {string} */
+i_neptunium_cryomancer_chestplate: "zoomers_armory:neptunium_cryomancer_chestplate",
+/** @type {string} */
+i_neptunium_cryomancer_leggings: "zoomers_armory:neptunium_cryomancer_leggings",
+/** @type {string} */
+i_neptunium_cryomancer_boots: "zoomers_armory:neptunium_cryomancer_boots",
+/** @type {string} */
+i_neptunium_electromancer_helmet: "zoomers_armory:neptunium_electromancer_helmet",
+/** @type {string} */
+i_neptunium_electromancer_chestplate: "zoomers_armory:neptunium_electromancer_chestplate",
+/** @type {string} */
+i_neptunium_electromancer_leggings: "zoomers_armory:neptunium_electromancer_leggings",
+/** @type {string} */
+i_neptunium_electromancer_boots: "zoomers_armory:neptunium_electromancer_boots",
+/** @type {string} */
+i_neptunium_archevoker_helmet: "zoomers_armory:neptunium_archevoker_helmet",
+/** @type {string} */
+i_neptunium_archevoker_chestplate: "zoomers_armory:neptunium_archevoker_chestplate",
+/** @type {string} */
+i_neptunium_archevoker_leggings: "zoomers_armory:neptunium_archevoker_leggings",
+/** @type {string} */
+i_neptunium_archevoker_boots: "zoomers_armory:neptunium_archevoker_boots",
+/** @type {string} */
+i_neptunium_cultist_helmet: "zoomers_armory:neptunium_cultist_helmet",
+/** @type {string} */
+i_neptunium_cultist_chestplate: "zoomers_armory:neptunium_cultist_chestplate",
+/** @type {string} */
+i_neptunium_cultist_leggings: "zoomers_armory:neptunium_cultist_leggings",
+/** @type {string} */
+i_neptunium_cultist_boots: "zoomers_armory:neptunium_cultist_boots",
+/** @type {string} */
+i_neptunium_shadowwalker_helmet: "zoomers_armory:neptunium_shadowwalker_helmet",
+/** @type {string} */
+i_neptunium_shadowwalker_chestplate: "zoomers_armory:neptunium_shadowwalker_chestplate",
+/** @type {string} */
+i_neptunium_shadowwalker_leggings: "zoomers_armory:neptunium_shadowwalker_leggings",
+/** @type {string} */
+i_neptunium_shadowwalker_boots: "zoomers_armory:neptunium_shadowwalker_boots",
+/** @type {string} */
+i_neptunium_priest_helmet: "zoomers_armory:neptunium_priest_helmet",
+/** @type {string} */
+i_neptunium_priest_chestplate: "zoomers_armory:neptunium_priest_chestplate",
+/** @type {string} */
+i_neptunium_priest_leggings: "zoomers_armory:neptunium_priest_leggings",
+/** @type {string} */
+i_neptunium_priest_boots: "zoomers_armory:neptunium_priest_boots",
+/** @type {string} */
+i_neptunium_plagued_helmet: "zoomers_armory:neptunium_plagued_helmet",
+/** @type {string} */
+i_neptunium_plagued_chestplate: "zoomers_armory:neptunium_plagued_chestplate",
+/** @type {string} */
+i_neptunium_plagued_leggings: "zoomers_armory:neptunium_plagued_leggings",
+/** @type {string} */
+i_neptunium_plagued_boots: "zoomers_armory:neptunium_plagued_boots",
+/** @type {string} */
+i_pyrope_claws: "zoomers_armory:pyrope_claws",
+/** @type {string} */
+i_pyrope_dagger: "zoomers_armory:pyrope_dagger",
+/** @type {string} */
+i_pyrope_shortsword: "zoomers_armory:pyrope_shortsword",
+/** @type {string} */
+i_pyrope_heavysword: "zoomers_armory:pyrope_heavysword",
+/** @type {string} */
+i_pyrope_cutlass: "zoomers_armory:pyrope_cutlass",
+/** @type {string} */
+i_pyrope_mace: "zoomers_armory:pyrope_mace",
+/** @type {string} */
+i_pyrope_heavymace: "zoomers_armory:pyrope_heavymace",
+/** @type {string} */
+i_pyrope_warhammer: "zoomers_armory:pyrope_warhammer",
+/** @type {string} */
+i_pyrope_battleaxe: "zoomers_armory:pyrope_battleaxe",
+/** @type {string} */
+i_pyrope_spear: "zoomers_armory:pyrope_spear",
+/** @type {string} */
+i_pyrope_halberd: "zoomers_armory:pyrope_halberd",
+/** @type {string} */
+i_pyrope_scythe: "zoomers_armory:pyrope_scythe",
+/** @type {string} */
+i_pyrope_katana: "zoomers_armory:pyrope_katana",
+/** @type {string} */
+i_pyrope_twinblade: "zoomers_armory:pyrope_twinblade",
+/** @type {string} */
+i_pyrope_sai: "zoomers_armory:pyrope_sai",
+/** @type {string} */
+i_pyrope_warglaive: "zoomers_armory:pyrope_warglaive",
+/** @type {string} */
+i_pyrope_musashi: "zoomers_armory:pyrope_musashi",
+/** @type {string} */
+i_pyrope_arcane_staff: "zoomers_armory:pyrope_arcane_staff",
+/** @type {string} */
+i_pyrope_woodwind_staff: "zoomers_armory:pyrope_woodwind_staff",
+/** @type {string} */
+i_pyrope_fire_staff: "zoomers_armory:pyrope_fire_staff",
+/** @type {string} */
+i_pyrope_ice_staff: "zoomers_armory:pyrope_ice_staff",
+/** @type {string} */
+i_pyrope_lightning_staff: "zoomers_armory:pyrope_lightning_staff",
+/** @type {string} */
+i_pyrope_nature_staff: "zoomers_armory:pyrope_nature_staff",
+/** @type {string} */
+i_pyrope_holy_staff: "zoomers_armory:pyrope_holy_staff",
+/** @type {string} */
+i_pyrope_blood_staff: "zoomers_armory:pyrope_blood_staff",
+/** @type {string} */
+i_pyrope_evocation_staff: "zoomers_armory:pyrope_evocation_staff",
+/** @type {string} */
+i_pyrope_ender_staff: "zoomers_armory:pyrope_ender_staff",
+/** @type {string} */
+i_pyrope_buckler: "zoomers_armory:pyrope_buckler",
+/** @type {string} */
+i_pyrope_heater: "zoomers_armory:pyrope_heater",
+/** @type {string} */
+i_pyrope_tower: "zoomers_armory:pyrope_tower",
+/** @type {string} */
+i_pyrope_shortbow: "zoomers_armory:pyrope_shortbow",
+/** @type {string} */
+i_pyrope_bow: "zoomers_armory:pyrope_bow",
+/** @type {string} */
+i_pyrope_longbow: "zoomers_armory:pyrope_longbow",
+/** @type {string} */
+i_pyrope_crossbow: "zoomers_armory:pyrope_crossbow",
+/** @type {string} */
+i_cincinnasite_diamond_tank_chestplate: "zoomers_armory:cincinnasite_diamond_tank_chestplate",
+/** @type {string} */
+i_cincinnasite_diamond_tank_leggings: "zoomers_armory:cincinnasite_diamond_tank_leggings",
+/** @type {string} */
+i_cincinnasite_diamond_tank_boots: "zoomers_armory:cincinnasite_diamond_tank_boots",
+/** @type {string} */
+i_nether_ruby_tank_helmet: "zoomers_armory:nether_ruby_tank_helmet",
+/** @type {string} */
+i_pyrope_samurai_helmet: "zoomers_armory:pyrope_samurai_helmet",
+/** @type {string} */
+i_pyrope_samurai_chestplate: "zoomers_armory:pyrope_samurai_chestplate",
+/** @type {string} */
+i_pyrope_samurai_leggings: "zoomers_armory:pyrope_samurai_leggings",
+/** @type {string} */
+i_pyrope_samurai_boots: "zoomers_armory:pyrope_samurai_boots",
+/** @type {string} */
+i_nether_ruby_tank_chestplate: "zoomers_armory:nether_ruby_tank_chestplate",
+/** @type {string} */
+i_nether_ruby_tank_leggings: "zoomers_armory:nether_ruby_tank_leggings",
+/** @type {string} */
+i_nether_ruby_tank_boots: "zoomers_armory:nether_ruby_tank_boots",
+/** @type {string} */
+i_flaming_ruby_tank_helmet: "zoomers_armory:flaming_ruby_tank_helmet",
+/** @type {string} */
+i_pyrope_archer_helmet: "zoomers_armory:pyrope_archer_helmet",
+/** @type {string} */
+i_pyrope_archer_chestplate: "zoomers_armory:pyrope_archer_chestplate",
+/** @type {string} */
+i_pyrope_archer_leggings: "zoomers_armory:pyrope_archer_leggings",
+/** @type {string} */
+i_pyrope_archer_boots: "zoomers_armory:pyrope_archer_boots",
+/** @type {string} */
+i_pyrope_ranger_helmet: "zoomers_armory:pyrope_ranger_helmet",
+/** @type {string} */
+i_pyrope_ranger_chestplate: "zoomers_armory:pyrope_ranger_chestplate",
+/** @type {string} */
+i_pyrope_ranger_leggings: "zoomers_armory:pyrope_ranger_leggings",
+/** @type {string} */
+i_pyrope_ranger_boots: "zoomers_armory:pyrope_ranger_boots",
+/** @type {string} */
+i_pyrope_pyromancer_helmet: "zoomers_armory:pyrope_pyromancer_helmet",
+/** @type {string} */
+i_pyrope_pyromancer_chestplate: "zoomers_armory:pyrope_pyromancer_chestplate",
+/** @type {string} */
+i_pyrope_pyromancer_leggings: "zoomers_armory:pyrope_pyromancer_leggings",
+/** @type {string} */
+i_pyrope_pyromancer_boots: "zoomers_armory:pyrope_pyromancer_boots",
+/** @type {string} */
+i_pyrope_cryomancer_helmet: "zoomers_armory:pyrope_cryomancer_helmet",
+/** @type {string} */
+i_pyrope_cryomancer_chestplate: "zoomers_armory:pyrope_cryomancer_chestplate",
+/** @type {string} */
+i_pyrope_cryomancer_leggings: "zoomers_armory:pyrope_cryomancer_leggings",
+/** @type {string} */
+i_pyrope_cryomancer_boots: "zoomers_armory:pyrope_cryomancer_boots",
+/** @type {string} */
+i_pyrope_electromancer_helmet: "zoomers_armory:pyrope_electromancer_helmet",
+/** @type {string} */
+i_pyrope_electromancer_chestplate: "zoomers_armory:pyrope_electromancer_chestplate",
+/** @type {string} */
+i_pyrope_electromancer_leggings: "zoomers_armory:pyrope_electromancer_leggings",
+/** @type {string} */
+i_pyrope_electromancer_boots: "zoomers_armory:pyrope_electromancer_boots",
+/** @type {string} */
+i_pyrope_archevoker_helmet: "zoomers_armory:pyrope_archevoker_helmet",
+/** @type {string} */
+i_pyrope_archevoker_chestplate: "zoomers_armory:pyrope_archevoker_chestplate",
+/** @type {string} */
+i_pyrope_archevoker_leggings: "zoomers_armory:pyrope_archevoker_leggings",
+/** @type {string} */
+i_pyrope_archevoker_boots: "zoomers_armory:pyrope_archevoker_boots",
+/** @type {string} */
+i_pyrope_cultist_helmet: "zoomers_armory:pyrope_cultist_helmet",
+/** @type {string} */
+i_pyrope_cultist_chestplate: "zoomers_armory:pyrope_cultist_chestplate",
+/** @type {string} */
+i_pyrope_cultist_leggings: "zoomers_armory:pyrope_cultist_leggings",
+/** @type {string} */
+i_pyrope_cultist_boots: "zoomers_armory:pyrope_cultist_boots",
+/** @type {string} */
+i_pyrope_shadowwalker_helmet: "zoomers_armory:pyrope_shadowwalker_helmet",
+/** @type {string} */
+i_pyrope_shadowwalker_chestplate: "zoomers_armory:pyrope_shadowwalker_chestplate",
+/** @type {string} */
+i_pyrope_shadowwalker_leggings: "zoomers_armory:pyrope_shadowwalker_leggings",
+/** @type {string} */
+i_pyrope_shadowwalker_boots: "zoomers_armory:pyrope_shadowwalker_boots",
+/** @type {string} */
+i_pyrope_priest_helmet: "zoomers_armory:pyrope_priest_helmet",
+/** @type {string} */
+i_pyrope_priest_chestplate: "zoomers_armory:pyrope_priest_chestplate",
+/** @type {string} */
+i_pyrope_priest_leggings: "zoomers_armory:pyrope_priest_leggings",
+/** @type {string} */
+i_pyrope_priest_boots: "zoomers_armory:pyrope_priest_boots",
+/** @type {string} */
+i_pyrope_plagued_helmet: "zoomers_armory:pyrope_plagued_helmet",
+/** @type {string} */
+i_pyrope_plagued_chestplate: "zoomers_armory:pyrope_plagued_chestplate",
+/** @type {string} */
+i_pyrope_plagued_leggings: "zoomers_armory:pyrope_plagued_leggings",
+/** @type {string} */
+i_pyrope_plagued_boots: "zoomers_armory:pyrope_plagued_boots",
+/** @type {string} */
+i_aquite_claws: "zoomers_armory:aquite_claws",
+/** @type {string} */
+i_aquite_dagger: "zoomers_armory:aquite_dagger",
+/** @type {string} */
+i_aquite_shortsword: "zoomers_armory:aquite_shortsword",
+/** @type {string} */
+i_aquite_heavysword: "zoomers_armory:aquite_heavysword",
+/** @type {string} */
+i_aquite_cutlass: "zoomers_armory:aquite_cutlass",
+/** @type {string} */
+i_aquite_mace: "zoomers_armory:aquite_mace",
+/** @type {string} */
+i_aquite_heavymace: "zoomers_armory:aquite_heavymace",
+/** @type {string} */
+i_aquite_warhammer: "zoomers_armory:aquite_warhammer",
+/** @type {string} */
+i_aquite_battleaxe: "zoomers_armory:aquite_battleaxe",
+/** @type {string} */
+i_aquite_spear: "zoomers_armory:aquite_spear",
+/** @type {string} */
+i_aquite_halberd: "zoomers_armory:aquite_halberd",
+/** @type {string} */
+i_aquite_scythe: "zoomers_armory:aquite_scythe",
+/** @type {string} */
+i_aquite_katana: "zoomers_armory:aquite_katana",
+/** @type {string} */
+i_aquite_twinblade: "zoomers_armory:aquite_twinblade",
+/** @type {string} */
+i_aquite_sai: "zoomers_armory:aquite_sai",
+/** @type {string} */
+i_aquite_warglaive: "zoomers_armory:aquite_warglaive",
+/** @type {string} */
+i_aquite_musashi: "zoomers_armory:aquite_musashi",
+/** @type {string} */
+i_aquite_arcane_staff: "zoomers_armory:aquite_arcane_staff",
+/** @type {string} */
+i_aquite_woodwind_staff: "zoomers_armory:aquite_woodwind_staff",
+/** @type {string} */
+i_aquite_fire_staff: "zoomers_armory:aquite_fire_staff",
+/** @type {string} */
+i_aquite_ice_staff: "zoomers_armory:aquite_ice_staff",
+/** @type {string} */
+i_aquite_lightning_staff: "zoomers_armory:aquite_lightning_staff",
+/** @type {string} */
+i_aquite_nature_staff: "zoomers_armory:aquite_nature_staff",
+/** @type {string} */
+i_aquite_holy_staff: "zoomers_armory:aquite_holy_staff",
+/** @type {string} */
+i_aquite_blood_staff: "zoomers_armory:aquite_blood_staff",
+/** @type {string} */
+i_aquite_evocation_staff: "zoomers_armory:aquite_evocation_staff",
+/** @type {string} */
+i_aquite_ender_staff: "zoomers_armory:aquite_ender_staff",
+/** @type {string} */
+i_aquite_buckler: "zoomers_armory:aquite_buckler",
+/** @type {string} */
+i_aquite_heater: "zoomers_armory:aquite_heater",
+/** @type {string} */
+i_aquite_tower: "zoomers_armory:aquite_tower",
+/** @type {string} */
+i_aquite_shortbow: "zoomers_armory:aquite_shortbow",
+/** @type {string} */
+i_aquite_bow: "zoomers_armory:aquite_bow",
+/** @type {string} */
+i_aquite_longbow: "zoomers_armory:aquite_longbow",
+/** @type {string} */
+i_aquite_crossbow: "zoomers_armory:aquite_crossbow",
+/** @type {string} */
+i_flaming_ruby_tank_chestplate: "zoomers_armory:flaming_ruby_tank_chestplate",
+/** @type {string} */
+i_flaming_ruby_tank_leggings: "zoomers_armory:flaming_ruby_tank_leggings",
+/** @type {string} */
+i_flaming_ruby_tank_boots: "zoomers_armory:flaming_ruby_tank_boots",
+/** @type {string} */
+i_netherite_tank_helmet: "zoomers_armory:netherite_tank_helmet",
+/** @type {string} */
+i_aquite_samurai_helmet: "zoomers_armory:aquite_samurai_helmet",
+/** @type {string} */
+i_aquite_samurai_chestplate: "zoomers_armory:aquite_samurai_chestplate",
+/** @type {string} */
+i_aquite_samurai_leggings: "zoomers_armory:aquite_samurai_leggings",
+/** @type {string} */
+i_aquite_samurai_boots: "zoomers_armory:aquite_samurai_boots",
+/** @type {string} */
+i_netherite_tank_chestplate: "zoomers_armory:netherite_tank_chestplate",
+/** @type {string} */
+i_netherite_tank_leggings: "zoomers_armory:netherite_tank_leggings",
+/** @type {string} */
+i_netherite_tank_boots: "zoomers_armory:netherite_tank_boots",
+/** @type {string} */
+i_cloggrum_tank_helmet: "zoomers_armory:cloggrum_tank_helmet",
+/** @type {string} */
+i_aquite_archer_helmet: "zoomers_armory:aquite_archer_helmet",
+/** @type {string} */
+i_aquite_archer_chestplate: "zoomers_armory:aquite_archer_chestplate",
+/** @type {string} */
+i_aquite_archer_leggings: "zoomers_armory:aquite_archer_leggings",
+/** @type {string} */
+i_aquite_archer_boots: "zoomers_armory:aquite_archer_boots",
+/** @type {string} */
+i_aquite_ranger_helmet: "zoomers_armory:aquite_ranger_helmet",
+/** @type {string} */
+i_aquite_ranger_chestplate: "zoomers_armory:aquite_ranger_chestplate",
+/** @type {string} */
+i_aquite_ranger_leggings: "zoomers_armory:aquite_ranger_leggings",
+/** @type {string} */
+i_aquite_ranger_boots: "zoomers_armory:aquite_ranger_boots",
+/** @type {string} */
+i_aquite_pyromancer_helmet: "zoomers_armory:aquite_pyromancer_helmet",
+/** @type {string} */
+i_aquite_pyromancer_chestplate: "zoomers_armory:aquite_pyromancer_chestplate",
+/** @type {string} */
+i_aquite_pyromancer_leggings: "zoomers_armory:aquite_pyromancer_leggings",
+/** @type {string} */
+i_aquite_pyromancer_boots: "zoomers_armory:aquite_pyromancer_boots",
+/** @type {string} */
+i_aquite_cryomancer_helmet: "zoomers_armory:aquite_cryomancer_helmet",
+/** @type {string} */
+i_aquite_cryomancer_chestplate: "zoomers_armory:aquite_cryomancer_chestplate",
+/** @type {string} */
+i_aquite_cryomancer_leggings: "zoomers_armory:aquite_cryomancer_leggings",
+/** @type {string} */
+i_aquite_cryomancer_boots: "zoomers_armory:aquite_cryomancer_boots",
+/** @type {string} */
+i_aquite_electromancer_helmet: "zoomers_armory:aquite_electromancer_helmet",
+/** @type {string} */
+i_aquite_electromancer_chestplate: "zoomers_armory:aquite_electromancer_chestplate",
+/** @type {string} */
+i_aquite_electromancer_leggings: "zoomers_armory:aquite_electromancer_leggings",
+/** @type {string} */
+i_aquite_electromancer_boots: "zoomers_armory:aquite_electromancer_boots",
+/** @type {string} */
+i_aquite_archevoker_helmet: "zoomers_armory:aquite_archevoker_helmet",
+/** @type {string} */
+i_aquite_archevoker_chestplate: "zoomers_armory:aquite_archevoker_chestplate",
+/** @type {string} */
+i_aquite_archevoker_leggings: "zoomers_armory:aquite_archevoker_leggings",
+/** @type {string} */
+i_aquite_archevoker_boots: "zoomers_armory:aquite_archevoker_boots",
+/** @type {string} */
+i_aquite_cultist_helmet: "zoomers_armory:aquite_cultist_helmet",
+/** @type {string} */
+i_aquite_cultist_chestplate: "zoomers_armory:aquite_cultist_chestplate",
+/** @type {string} */
+i_aquite_cultist_leggings: "zoomers_armory:aquite_cultist_leggings",
+/** @type {string} */
+i_aquite_cultist_boots: "zoomers_armory:aquite_cultist_boots",
+/** @type {string} */
+i_aquite_shadowwalker_helmet: "zoomers_armory:aquite_shadowwalker_helmet",
+/** @type {string} */
+i_aquite_shadowwalker_chestplate: "zoomers_armory:aquite_shadowwalker_chestplate",
+/** @type {string} */
+i_aquite_shadowwalker_leggings: "zoomers_armory:aquite_shadowwalker_leggings",
+/** @type {string} */
+i_aquite_shadowwalker_boots: "zoomers_armory:aquite_shadowwalker_boots",
+/** @type {string} */
+i_aquite_priest_helmet: "zoomers_armory:aquite_priest_helmet",
+/** @type {string} */
+i_aquite_priest_chestplate: "zoomers_armory:aquite_priest_chestplate",
+/** @type {string} */
+i_aquite_priest_leggings: "zoomers_armory:aquite_priest_leggings",
+/** @type {string} */
+i_aquite_priest_boots: "zoomers_armory:aquite_priest_boots",
+/** @type {string} */
+i_aquite_plagued_helmet: "zoomers_armory:aquite_plagued_helmet",
+/** @type {string} */
+i_aquite_plagued_chestplate: "zoomers_armory:aquite_plagued_chestplate",
+/** @type {string} */
+i_aquite_plagued_leggings: "zoomers_armory:aquite_plagued_leggings",
+/** @type {string} */
+i_aquite_plagued_boots: "zoomers_armory:aquite_plagued_boots",
+/** @type {string} */
+i_diopside_claws: "zoomers_armory:diopside_claws",
+/** @type {string} */
+i_diopside_dagger: "zoomers_armory:diopside_dagger",
+/** @type {string} */
+i_diopside_shortsword: "zoomers_armory:diopside_shortsword",
+/** @type {string} */
+i_diopside_heavysword: "zoomers_armory:diopside_heavysword",
+/** @type {string} */
+i_diopside_cutlass: "zoomers_armory:diopside_cutlass",
+/** @type {string} */
+i_diopside_mace: "zoomers_armory:diopside_mace",
+/** @type {string} */
+i_diopside_heavymace: "zoomers_armory:diopside_heavymace",
+/** @type {string} */
+i_diopside_warhammer: "zoomers_armory:diopside_warhammer",
+/** @type {string} */
+i_diopside_battleaxe: "zoomers_armory:diopside_battleaxe",
+/** @type {string} */
+i_diopside_spear: "zoomers_armory:diopside_spear",
+/** @type {string} */
+i_diopside_halberd: "zoomers_armory:diopside_halberd",
+/** @type {string} */
+i_diopside_scythe: "zoomers_armory:diopside_scythe",
+/** @type {string} */
+i_diopside_katana: "zoomers_armory:diopside_katana",
+/** @type {string} */
+i_diopside_twinblade: "zoomers_armory:diopside_twinblade",
+/** @type {string} */
+i_diopside_sai: "zoomers_armory:diopside_sai",
+/** @type {string} */
+i_diopside_warglaive: "zoomers_armory:diopside_warglaive",
+/** @type {string} */
+i_diopside_musashi: "zoomers_armory:diopside_musashi",
+/** @type {string} */
+i_diopside_arcane_staff: "zoomers_armory:diopside_arcane_staff",
+/** @type {string} */
+i_diopside_woodwind_staff: "zoomers_armory:diopside_woodwind_staff",
+/** @type {string} */
+i_diopside_fire_staff: "zoomers_armory:diopside_fire_staff",
+/** @type {string} */
+i_diopside_ice_staff: "zoomers_armory:diopside_ice_staff",
+/** @type {string} */
+i_diopside_lightning_staff: "zoomers_armory:diopside_lightning_staff",
+/** @type {string} */
+i_diopside_nature_staff: "zoomers_armory:diopside_nature_staff",
+/** @type {string} */
+i_diopside_holy_staff: "zoomers_armory:diopside_holy_staff",
+/** @type {string} */
+i_diopside_blood_staff: "zoomers_armory:diopside_blood_staff",
+/** @type {string} */
+i_diopside_evocation_staff: "zoomers_armory:diopside_evocation_staff",
+/** @type {string} */
+i_diopside_ender_staff: "zoomers_armory:diopside_ender_staff",
+/** @type {string} */
+i_diopside_buckler: "zoomers_armory:diopside_buckler",
+/** @type {string} */
+i_diopside_heater: "zoomers_armory:diopside_heater",
+/** @type {string} */
+i_diopside_tower: "zoomers_armory:diopside_tower",
+/** @type {string} */
+i_diopside_shortbow: "zoomers_armory:diopside_shortbow",
+/** @type {string} */
+i_diopside_bow: "zoomers_armory:diopside_bow",
+/** @type {string} */
+i_diopside_longbow: "zoomers_armory:diopside_longbow",
+/** @type {string} */
+i_diopside_crossbow: "zoomers_armory:diopside_crossbow",
+/** @type {string} */
+i_cloggrum_tank_chestplate: "zoomers_armory:cloggrum_tank_chestplate",
+/** @type {string} */
+i_cloggrum_tank_leggings: "zoomers_armory:cloggrum_tank_leggings",
+/** @type {string} */
+i_cloggrum_tank_boots: "zoomers_armory:cloggrum_tank_boots",
+/** @type {string} */
+i_froststeel_tank_helmet: "zoomers_armory:froststeel_tank_helmet",
+/** @type {string} */
+i_diopside_samurai_helmet: "zoomers_armory:diopside_samurai_helmet",
+/** @type {string} */
+i_diopside_samurai_chestplate: "zoomers_armory:diopside_samurai_chestplate",
+/** @type {string} */
+i_diopside_samurai_leggings: "zoomers_armory:diopside_samurai_leggings",
+/** @type {string} */
+i_diopside_samurai_boots: "zoomers_armory:diopside_samurai_boots",
+/** @type {string} */
+i_froststeel_tank_chestplate: "zoomers_armory:froststeel_tank_chestplate",
+/** @type {string} */
+i_froststeel_tank_leggings: "zoomers_armory:froststeel_tank_leggings",
+/** @type {string} */
+i_froststeel_tank_boots: "zoomers_armory:froststeel_tank_boots",
+/** @type {string} */
+i_utherium_tank_boots: "zoomers_armory:utherium_tank_boots",
+/** @type {string} */
+i_diopside_archer_helmet: "zoomers_armory:diopside_archer_helmet",
+/** @type {string} */
+i_diopside_archer_chestplate: "zoomers_armory:diopside_archer_chestplate",
+/** @type {string} */
+i_diopside_archer_leggings: "zoomers_armory:diopside_archer_leggings",
+/** @type {string} */
+i_diopside_archer_boots: "zoomers_armory:diopside_archer_boots",
+/** @type {string} */
+i_diopside_ranger_helmet: "zoomers_armory:diopside_ranger_helmet",
+/** @type {string} */
+i_diopside_ranger_chestplate: "zoomers_armory:diopside_ranger_chestplate",
+/** @type {string} */
+i_diopside_ranger_leggings: "zoomers_armory:diopside_ranger_leggings",
+/** @type {string} */
+i_diopside_ranger_boots: "zoomers_armory:diopside_ranger_boots",
+/** @type {string} */
+i_diopside_pyromancer_helmet: "zoomers_armory:diopside_pyromancer_helmet",
+/** @type {string} */
+i_diopside_pyromancer_chestplate: "zoomers_armory:diopside_pyromancer_chestplate",
+/** @type {string} */
+i_diopside_pyromancer_leggings: "zoomers_armory:diopside_pyromancer_leggings",
+/** @type {string} */
+i_diopside_pyromancer_boots: "zoomers_armory:diopside_pyromancer_boots",
+/** @type {string} */
+i_diopside_cryomancer_helmet: "zoomers_armory:diopside_cryomancer_helmet",
+/** @type {string} */
+i_diopside_cryomancer_chestplate: "zoomers_armory:diopside_cryomancer_chestplate",
+/** @type {string} */
+i_diopside_cryomancer_leggings: "zoomers_armory:diopside_cryomancer_leggings",
+/** @type {string} */
+i_diopside_cryomancer_boots: "zoomers_armory:diopside_cryomancer_boots",
+/** @type {string} */
+i_diopside_electromancer_helmet: "zoomers_armory:diopside_electromancer_helmet",
+/** @type {string} */
+i_diopside_electromancer_chestplate: "zoomers_armory:diopside_electromancer_chestplate",
+/** @type {string} */
+i_diopside_electromancer_leggings: "zoomers_armory:diopside_electromancer_leggings",
+/** @type {string} */
+i_diopside_electromancer_boots: "zoomers_armory:diopside_electromancer_boots",
+/** @type {string} */
+i_diopside_archevoker_helmet: "zoomers_armory:diopside_archevoker_helmet",
+/** @type {string} */
+i_diopside_archevoker_chestplate: "zoomers_armory:diopside_archevoker_chestplate",
+/** @type {string} */
+i_diopside_archevoker_leggings: "zoomers_armory:diopside_archevoker_leggings",
+/** @type {string} */
+i_diopside_archevoker_boots: "zoomers_armory:diopside_archevoker_boots",
+/** @type {string} */
+i_diopside_cultist_helmet: "zoomers_armory:diopside_cultist_helmet",
+/** @type {string} */
+i_diopside_cultist_chestplate: "zoomers_armory:diopside_cultist_chestplate",
+/** @type {string} */
+i_diopside_cultist_leggings: "zoomers_armory:diopside_cultist_leggings",
+/** @type {string} */
+i_diopside_cultist_boots: "zoomers_armory:diopside_cultist_boots",
+/** @type {string} */
+i_diopside_shadowwalker_helmet: "zoomers_armory:diopside_shadowwalker_helmet",
+/** @type {string} */
+i_diopside_shadowwalker_chestplate: "zoomers_armory:diopside_shadowwalker_chestplate",
+/** @type {string} */
+i_diopside_shadowwalker_leggings: "zoomers_armory:diopside_shadowwalker_leggings",
+/** @type {string} */
+i_diopside_shadowwalker_boots: "zoomers_armory:diopside_shadowwalker_boots",
+/** @type {string} */
+i_diopside_priest_helmet: "zoomers_armory:diopside_priest_helmet",
+/** @type {string} */
+i_diopside_priest_chestplate: "zoomers_armory:diopside_priest_chestplate",
+/** @type {string} */
+i_diopside_priest_leggings: "zoomers_armory:diopside_priest_leggings",
+/** @type {string} */
+i_diopside_priest_boots: "zoomers_armory:diopside_priest_boots",
+/** @type {string} */
+i_diopside_plagued_helmet: "zoomers_armory:diopside_plagued_helmet",
+/** @type {string} */
+i_diopside_plagued_chestplate: "zoomers_armory:diopside_plagued_chestplate",
+/** @type {string} */
+i_diopside_plagued_leggings: "zoomers_armory:diopside_plagued_leggings",
+/** @type {string} */
+i_diopside_plagued_boots: "zoomers_armory:diopside_plagued_boots",
+/** @type {string} */
+i_charoite_claws: "zoomers_armory:charoite_claws",
+/** @type {string} */
+i_charoite_dagger: "zoomers_armory:charoite_dagger",
+/** @type {string} */
+i_charoite_shortsword: "zoomers_armory:charoite_shortsword",
+/** @type {string} */
+i_charoite_heavysword: "zoomers_armory:charoite_heavysword",
+/** @type {string} */
+i_charoite_cutlass: "zoomers_armory:charoite_cutlass",
+/** @type {string} */
+i_charoite_mace: "zoomers_armory:charoite_mace",
+/** @type {string} */
+i_charoite_heavymace: "zoomers_armory:charoite_heavymace",
+/** @type {string} */
+i_charoite_warhammer: "zoomers_armory:charoite_warhammer",
+/** @type {string} */
+i_charoite_battleaxe: "zoomers_armory:charoite_battleaxe",
+/** @type {string} */
+i_charoite_spear: "zoomers_armory:charoite_spear",
+/** @type {string} */
+i_charoite_halberd: "zoomers_armory:charoite_halberd",
+/** @type {string} */
+i_charoite_scythe: "zoomers_armory:charoite_scythe",
+/** @type {string} */
+i_charoite_katana: "zoomers_armory:charoite_katana",
+/** @type {string} */
+i_charoite_twinblade: "zoomers_armory:charoite_twinblade",
+/** @type {string} */
+i_charoite_sai: "zoomers_armory:charoite_sai",
+/** @type {string} */
+i_charoite_warglaive: "zoomers_armory:charoite_warglaive",
+/** @type {string} */
+i_charoite_musashi: "zoomers_armory:charoite_musashi",
+/** @type {string} */
+i_charoite_arcane_staff: "zoomers_armory:charoite_arcane_staff",
+/** @type {string} */
+i_charoite_woodwind_staff: "zoomers_armory:charoite_woodwind_staff",
+/** @type {string} */
+i_charoite_fire_staff: "zoomers_armory:charoite_fire_staff",
+/** @type {string} */
+i_charoite_ice_staff: "zoomers_armory:charoite_ice_staff",
+/** @type {string} */
+i_charoite_lightning_staff: "zoomers_armory:charoite_lightning_staff",
+/** @type {string} */
+i_charoite_nature_staff: "zoomers_armory:charoite_nature_staff",
+/** @type {string} */
+i_charoite_holy_staff: "zoomers_armory:charoite_holy_staff",
+/** @type {string} */
+i_charoite_blood_staff: "zoomers_armory:charoite_blood_staff",
+/** @type {string} */
+i_charoite_evocation_staff: "zoomers_armory:charoite_evocation_staff",
+/** @type {string} */
+i_charoite_ender_staff: "zoomers_armory:charoite_ender_staff",
+/** @type {string} */
+i_charoite_buckler: "zoomers_armory:charoite_buckler",
+/** @type {string} */
+i_charoite_heater: "zoomers_armory:charoite_heater",
+/** @type {string} */
+i_charoite_tower: "zoomers_armory:charoite_tower",
+/** @type {string} */
+i_charoite_shortbow: "zoomers_armory:charoite_shortbow",
+/** @type {string} */
+i_charoite_bow: "zoomers_armory:charoite_bow",
+/** @type {string} */
+i_charoite_longbow: "zoomers_armory:charoite_longbow",
+/** @type {string} */
+i_charoite_crossbow: "zoomers_armory:charoite_crossbow",
+/** @type {string} */
+i_forgotten_tank_helmet: "zoomers_armory:forgotten_tank_helmet",
+/** @type {string} */
+i_forgotten_tank_chestplate: "zoomers_armory:forgotten_tank_chestplate",
+/** @type {string} */
+i_forgotten_tank_leggings: "zoomers_armory:forgotten_tank_leggings",
+/** @type {string} */
+i_jade_tank_boots: "zoomers_armory:jade_tank_boots",
+/** @type {string} */
+i_charoite_samurai_helmet: "zoomers_armory:charoite_samurai_helmet",
+/** @type {string} */
+i_charoite_samurai_chestplate: "zoomers_armory:charoite_samurai_chestplate",
+/** @type {string} */
+i_charoite_samurai_leggings: "zoomers_armory:charoite_samurai_leggings",
+/** @type {string} */
+i_charoite_samurai_boots: "zoomers_armory:charoite_samurai_boots",
+/** @type {string} */
+i_crystalline_tank_boots: "zoomers_armory:crystalline_tank_boots",
+/** @type {string} */
+i_dragon_tank_helmet: "zoomers_armory:dragon_tank_helmet",
+/** @type {string} */
+i_dragon_tank_chestplate: "zoomers_armory:dragon_tank_chestplate",
+/** @type {string} */
+i_dragon_tank_leggings: "zoomers_armory:dragon_tank_leggings",
+/** @type {string} */
+i_charoite_archer_helmet: "zoomers_armory:charoite_archer_helmet",
+/** @type {string} */
+i_charoite_archer_chestplate: "zoomers_armory:charoite_archer_chestplate",
+/** @type {string} */
+i_charoite_archer_leggings: "zoomers_armory:charoite_archer_leggings",
+/** @type {string} */
+i_charoite_archer_boots: "zoomers_armory:charoite_archer_boots",
+/** @type {string} */
+i_charoite_ranger_helmet: "zoomers_armory:charoite_ranger_helmet",
+/** @type {string} */
+i_charoite_ranger_chestplate: "zoomers_armory:charoite_ranger_chestplate",
+/** @type {string} */
+i_charoite_ranger_leggings: "zoomers_armory:charoite_ranger_leggings",
+/** @type {string} */
+i_charoite_ranger_boots: "zoomers_armory:charoite_ranger_boots",
+/** @type {string} */
+i_charoite_pyromancer_helmet: "zoomers_armory:charoite_pyromancer_helmet",
+/** @type {string} */
+i_charoite_pyromancer_chestplate: "zoomers_armory:charoite_pyromancer_chestplate",
+/** @type {string} */
+i_charoite_pyromancer_leggings: "zoomers_armory:charoite_pyromancer_leggings",
+/** @type {string} */
+i_charoite_pyromancer_boots: "zoomers_armory:charoite_pyromancer_boots",
+/** @type {string} */
+i_charoite_cryomancer_helmet: "zoomers_armory:charoite_cryomancer_helmet",
+/** @type {string} */
+i_charoite_cryomancer_chestplate: "zoomers_armory:charoite_cryomancer_chestplate",
+/** @type {string} */
+i_charoite_cryomancer_leggings: "zoomers_armory:charoite_cryomancer_leggings",
+/** @type {string} */
+i_charoite_cryomancer_boots: "zoomers_armory:charoite_cryomancer_boots",
+/** @type {string} */
+i_charoite_electromancer_helmet: "zoomers_armory:charoite_electromancer_helmet",
+/** @type {string} */
+i_charoite_electromancer_chestplate: "zoomers_armory:charoite_electromancer_chestplate",
+/** @type {string} */
+i_charoite_electromancer_leggings: "zoomers_armory:charoite_electromancer_leggings",
+/** @type {string} */
+i_charoite_electromancer_boots: "zoomers_armory:charoite_electromancer_boots",
+/** @type {string} */
+i_charoite_archevoker_helmet: "zoomers_armory:charoite_archevoker_helmet",
+/** @type {string} */
+i_charoite_archevoker_chestplate: "zoomers_armory:charoite_archevoker_chestplate",
+/** @type {string} */
+i_charoite_archevoker_leggings: "zoomers_armory:charoite_archevoker_leggings",
+/** @type {string} */
+i_charoite_archevoker_boots: "zoomers_armory:charoite_archevoker_boots",
+/** @type {string} */
+i_charoite_cultist_helmet: "zoomers_armory:charoite_cultist_helmet",
+/** @type {string} */
+i_charoite_cultist_chestplate: "zoomers_armory:charoite_cultist_chestplate",
+/** @type {string} */
+i_charoite_cultist_leggings: "zoomers_armory:charoite_cultist_leggings",
+/** @type {string} */
+i_charoite_cultist_boots: "zoomers_armory:charoite_cultist_boots",
+/** @type {string} */
+i_charoite_shadowwalker_helmet: "zoomers_armory:charoite_shadowwalker_helmet",
+/** @type {string} */
+i_charoite_shadowwalker_chestplate: "zoomers_armory:charoite_shadowwalker_chestplate",
+/** @type {string} */
+i_charoite_shadowwalker_leggings: "zoomers_armory:charoite_shadowwalker_leggings",
+/** @type {string} */
+i_charoite_shadowwalker_boots: "zoomers_armory:charoite_shadowwalker_boots",
+/** @type {string} */
+i_charoite_priest_helmet: "zoomers_armory:charoite_priest_helmet",
+/** @type {string} */
+i_charoite_priest_chestplate: "zoomers_armory:charoite_priest_chestplate",
+/** @type {string} */
+i_charoite_priest_leggings: "zoomers_armory:charoite_priest_leggings",
+/** @type {string} */
+i_charoite_priest_boots: "zoomers_armory:charoite_priest_boots",
+/** @type {string} */
+i_charoite_plagued_helmet: "zoomers_armory:charoite_plagued_helmet",
+/** @type {string} */
+i_charoite_plagued_chestplate: "zoomers_armory:charoite_plagued_chestplate",
+/** @type {string} */
+i_charoite_plagued_leggings: "zoomers_armory:charoite_plagued_leggings",
+/** @type {string} */
+i_charoite_plagued_boots: "zoomers_armory:charoite_plagued_boots",
+/** @type {string} */
+i_horizonite_claws: "zoomers_armory:horizonite_claws",
+/** @type {string} */
+i_horizonite_dagger: "zoomers_armory:horizonite_dagger",
+/** @type {string} */
+i_horizonite_shortsword: "zoomers_armory:horizonite_shortsword",
+/** @type {string} */
+i_horizonite_heavysword: "zoomers_armory:horizonite_heavysword",
+/** @type {string} */
+i_horizonite_cutlass: "zoomers_armory:horizonite_cutlass",
+/** @type {string} */
+i_horizonite_mace: "zoomers_armory:horizonite_mace",
+/** @type {string} */
+i_horizonite_heavymace: "zoomers_armory:horizonite_heavymace",
+/** @type {string} */
+i_horizonite_warhammer: "zoomers_armory:horizonite_warhammer",
+/** @type {string} */
+i_horizonite_battleaxe: "zoomers_armory:horizonite_battleaxe",
+/** @type {string} */
+i_horizonite_spear: "zoomers_armory:horizonite_spear",
+/** @type {string} */
+i_horizonite_halberd: "zoomers_armory:horizonite_halberd",
+/** @type {string} */
+i_horizonite_scythe: "zoomers_armory:horizonite_scythe",
+/** @type {string} */
+i_horizonite_katana: "zoomers_armory:horizonite_katana",
+/** @type {string} */
+i_horizonite_twinblade: "zoomers_armory:horizonite_twinblade",
+/** @type {string} */
+i_horizonite_sai: "zoomers_armory:horizonite_sai",
+/** @type {string} */
+i_horizonite_warglaive: "zoomers_armory:horizonite_warglaive",
+/** @type {string} */
+i_horizonite_musashi: "zoomers_armory:horizonite_musashi",
+/** @type {string} */
+i_horizonite_arcane_staff: "zoomers_armory:horizonite_arcane_staff",
+/** @type {string} */
+i_horizonite_woodwind_staff: "zoomers_armory:horizonite_woodwind_staff",
+/** @type {string} */
+i_horizonite_fire_staff: "zoomers_armory:horizonite_fire_staff",
+/** @type {string} */
+i_horizonite_ice_staff: "zoomers_armory:horizonite_ice_staff",
+/** @type {string} */
+i_horizonite_lightning_staff: "zoomers_armory:horizonite_lightning_staff",
+/** @type {string} */
+i_horizonite_nature_staff: "zoomers_armory:horizonite_nature_staff",
+/** @type {string} */
+i_horizonite_holy_staff: "zoomers_armory:horizonite_holy_staff",
+/** @type {string} */
+i_horizonite_blood_staff: "zoomers_armory:horizonite_blood_staff",
+/** @type {string} */
+i_horizonite_evocation_staff: "zoomers_armory:horizonite_evocation_staff",
+/** @type {string} */
+i_horizonite_ender_staff: "zoomers_armory:horizonite_ender_staff",
+/** @type {string} */
+i_horizonite_buckler: "zoomers_armory:horizonite_buckler",
+/** @type {string} */
+i_horizonite_heater: "zoomers_armory:horizonite_heater",
+/** @type {string} */
+i_horizonite_tower: "zoomers_armory:horizonite_tower",
+/** @type {string} */
+i_horizonite_shortbow: "zoomers_armory:horizonite_shortbow",
+/** @type {string} */
+i_horizonite_bow: "zoomers_armory:horizonite_bow",
+/** @type {string} */
+i_horizonite_longbow: "zoomers_armory:horizonite_longbow",
+/** @type {string} */
+i_horizonite_crossbow: "zoomers_armory:horizonite_crossbow",
+/** @type {string} */
+i_dragon_tank_boots: "zoomers_armory:dragon_tank_boots",
+/** @type {string} */
+i_enderite_tank_helmet: "zoomers_armory:enderite_tank_helmet",
+/** @type {string} */
+i_enderite_tank_chestplate: "zoomers_armory:enderite_tank_chestplate",
+/** @type {string} */
+i_enderite_tank_leggings: "zoomers_armory:enderite_tank_leggings",
+/** @type {string} */
+i_horizonite_samurai_helmet: "zoomers_armory:horizonite_samurai_helmet",
+/** @type {string} */
+i_horizonite_samurai_chestplate: "zoomers_armory:horizonite_samurai_chestplate",
+/** @type {string} */
+i_horizonite_samurai_leggings: "zoomers_armory:horizonite_samurai_leggings",
+/** @type {string} */
+i_horizonite_samurai_boots: "zoomers_armory:horizonite_samurai_boots",
+/** @type {string} */
+i_enderite_tank_boots: "zoomers_armory:enderite_tank_boots",
+/** @type {string} */
+i_immemorial_tank_helmet: "zoomers_armory:immemorial_tank_helmet",
+/** @type {string} */
+i_immemorial_tank_chestplate: "zoomers_armory:immemorial_tank_chestplate",
+/** @type {string} */
+i_immemorial_tank_leggings: "zoomers_armory:immemorial_tank_leggings",
+/** @type {string} */
+i_horizonite_archer_helmet: "zoomers_armory:horizonite_archer_helmet",
+/** @type {string} */
+i_horizonite_archer_chestplate: "zoomers_armory:horizonite_archer_chestplate",
+/** @type {string} */
+i_horizonite_archer_leggings: "zoomers_armory:horizonite_archer_leggings",
+/** @type {string} */
+i_horizonite_archer_boots: "zoomers_armory:horizonite_archer_boots",
+/** @type {string} */
+i_horizonite_ranger_helmet: "zoomers_armory:horizonite_ranger_helmet",
+/** @type {string} */
+i_horizonite_ranger_chestplate: "zoomers_armory:horizonite_ranger_chestplate",
+/** @type {string} */
+i_horizonite_ranger_leggings: "zoomers_armory:horizonite_ranger_leggings",
+/** @type {string} */
+i_horizonite_ranger_boots: "zoomers_armory:horizonite_ranger_boots",
+/** @type {string} */
+i_horizonite_pyromancer_helmet: "zoomers_armory:horizonite_pyromancer_helmet",
+/** @type {string} */
+i_horizonite_pyromancer_chestplate: "zoomers_armory:horizonite_pyromancer_chestplate",
+/** @type {string} */
+i_horizonite_pyromancer_leggings: "zoomers_armory:horizonite_pyromancer_leggings",
+/** @type {string} */
+i_horizonite_pyromancer_boots: "zoomers_armory:horizonite_pyromancer_boots",
+/** @type {string} */
+i_horizonite_cryomancer_helmet: "zoomers_armory:horizonite_cryomancer_helmet",
+/** @type {string} */
+i_horizonite_cryomancer_chestplate: "zoomers_armory:horizonite_cryomancer_chestplate",
+/** @type {string} */
+i_horizonite_cryomancer_leggings: "zoomers_armory:horizonite_cryomancer_leggings",
+/** @type {string} */
+i_horizonite_cryomancer_boots: "zoomers_armory:horizonite_cryomancer_boots",
+/** @type {string} */
+i_horizonite_electromancer_helmet: "zoomers_armory:horizonite_electromancer_helmet",
+/** @type {string} */
+i_horizonite_electromancer_chestplate: "zoomers_armory:horizonite_electromancer_chestplate",
+/** @type {string} */
+i_horizonite_electromancer_leggings: "zoomers_armory:horizonite_electromancer_leggings",
+/** @type {string} */
+i_horizonite_electromancer_boots: "zoomers_armory:horizonite_electromancer_boots",
+/** @type {string} */
+i_horizonite_archevoker_helmet: "zoomers_armory:horizonite_archevoker_helmet",
+/** @type {string} */
+i_horizonite_archevoker_chestplate: "zoomers_armory:horizonite_archevoker_chestplate",
+/** @type {string} */
+i_horizonite_archevoker_leggings: "zoomers_armory:horizonite_archevoker_leggings",
+/** @type {string} */
+i_horizonite_archevoker_boots: "zoomers_armory:horizonite_archevoker_boots",
+/** @type {string} */
+i_horizonite_cultist_helmet: "zoomers_armory:horizonite_cultist_helmet",
+/** @type {string} */
+i_horizonite_cultist_chestplate: "zoomers_armory:horizonite_cultist_chestplate",
+/** @type {string} */
+i_horizonite_cultist_leggings: "zoomers_armory:horizonite_cultist_leggings",
+/** @type {string} */
+i_horizonite_cultist_boots: "zoomers_armory:horizonite_cultist_boots",
+/** @type {string} */
+i_horizonite_shadowwalker_helmet: "zoomers_armory:horizonite_shadowwalker_helmet",
+/** @type {string} */
+i_horizonite_shadowwalker_chestplate: "zoomers_armory:horizonite_shadowwalker_chestplate",
+/** @type {string} */
+i_horizonite_shadowwalker_leggings: "zoomers_armory:horizonite_shadowwalker_leggings",
+/** @type {string} */
+i_horizonite_shadowwalker_boots: "zoomers_armory:horizonite_shadowwalker_boots",
+/** @type {string} */
+i_horizonite_priest_helmet: "zoomers_armory:horizonite_priest_helmet",
+/** @type {string} */
+i_horizonite_priest_chestplate: "zoomers_armory:horizonite_priest_chestplate",
+/** @type {string} */
+i_horizonite_priest_leggings: "zoomers_armory:horizonite_priest_leggings",
+/** @type {string} */
+i_horizonite_priest_boots: "zoomers_armory:horizonite_priest_boots",
+/** @type {string} */
+i_horizonite_plagued_helmet: "zoomers_armory:horizonite_plagued_helmet",
+/** @type {string} */
+i_horizonite_plagued_chestplate: "zoomers_armory:horizonite_plagued_chestplate",
+/** @type {string} */
+i_horizonite_plagued_leggings: "zoomers_armory:horizonite_plagued_leggings",
+/** @type {string} */
+i_horizonite_plagued_boots: "zoomers_armory:horizonite_plagued_boots",
+/** @type {string} */
+i_zanite_claws: "zoomers_armory:zanite_claws",
+/** @type {string} */
+i_zanite_dagger: "zoomers_armory:zanite_dagger",
+/** @type {string} */
+i_zanite_shortsword: "zoomers_armory:zanite_shortsword",
+/** @type {string} */
+i_zanite_heavysword: "zoomers_armory:zanite_heavysword",
+/** @type {string} */
+i_zanite_cutlass: "zoomers_armory:zanite_cutlass",
+/** @type {string} */
+i_zanite_mace: "zoomers_armory:zanite_mace",
+/** @type {string} */
+i_zanite_heavymace: "zoomers_armory:zanite_heavymace",
+/** @type {string} */
+i_zanite_warhammer: "zoomers_armory:zanite_warhammer",
+/** @type {string} */
+i_zanite_battleaxe: "zoomers_armory:zanite_battleaxe",
+/** @type {string} */
+i_zanite_spear: "zoomers_armory:zanite_spear",
+/** @type {string} */
+i_zanite_halberd: "zoomers_armory:zanite_halberd",
+/** @type {string} */
+i_zanite_scythe: "zoomers_armory:zanite_scythe",
+/** @type {string} */
+i_zanite_katana: "zoomers_armory:zanite_katana",
+/** @type {string} */
+i_zanite_twinblade: "zoomers_armory:zanite_twinblade",
+/** @type {string} */
+i_zanite_sai: "zoomers_armory:zanite_sai",
+/** @type {string} */
+i_zanite_warglaive: "zoomers_armory:zanite_warglaive",
+/** @type {string} */
+i_zanite_musashi: "zoomers_armory:zanite_musashi",
+/** @type {string} */
+i_zanite_arcane_staff: "zoomers_armory:zanite_arcane_staff",
+/** @type {string} */
+i_zanite_woodwind_staff: "zoomers_armory:zanite_woodwind_staff",
+/** @type {string} */
+i_zanite_fire_staff: "zoomers_armory:zanite_fire_staff",
+/** @type {string} */
+i_zanite_ice_staff: "zoomers_armory:zanite_ice_staff",
+/** @type {string} */
+i_zanite_lightning_staff: "zoomers_armory:zanite_lightning_staff",
+/** @type {string} */
+i_zanite_nature_staff: "zoomers_armory:zanite_nature_staff",
+/** @type {string} */
+i_zanite_holy_staff: "zoomers_armory:zanite_holy_staff",
+/** @type {string} */
+i_zanite_blood_staff: "zoomers_armory:zanite_blood_staff",
+/** @type {string} */
+i_zanite_evocation_staff: "zoomers_armory:zanite_evocation_staff",
+/** @type {string} */
+i_zanite_ender_staff: "zoomers_armory:zanite_ender_staff",
+/** @type {string} */
+i_zanite_buckler: "zoomers_armory:zanite_buckler",
+/** @type {string} */
+i_zanite_heater: "zoomers_armory:zanite_heater",
+/** @type {string} */
+i_zanite_tower: "zoomers_armory:zanite_tower",
+/** @type {string} */
+i_zanite_shortbow: "zoomers_armory:zanite_shortbow",
+/** @type {string} */
+i_zanite_bow: "zoomers_armory:zanite_bow",
+/** @type {string} */
+i_zanite_longbow: "zoomers_armory:zanite_longbow",
+/** @type {string} */
+i_zanite_crossbow: "zoomers_armory:zanite_crossbow",
+/** @type {string} */
+i_immemorial_tank_boots: "zoomers_armory:immemorial_tank_boots",
+/** @type {string} */
+i_soul_tank_helmet: "zoomers_armory:soul_tank_helmet",
+/** @type {string} */
+i_soul_tank_chestplate: "zoomers_armory:soul_tank_chestplate",
+/** @type {string} */
+i_soul_tank_leggings: "zoomers_armory:soul_tank_leggings",
+/** @type {string} */
+i_zanite_samurai_helmet: "zoomers_armory:zanite_samurai_helmet",
+/** @type {string} */
+i_zanite_samurai_chestplate: "zoomers_armory:zanite_samurai_chestplate",
+/** @type {string} */
+i_zanite_samurai_leggings: "zoomers_armory:zanite_samurai_leggings",
+/** @type {string} */
+i_zanite_samurai_boots: "zoomers_armory:zanite_samurai_boots",
+/** @type {string} */
+i_soul_tank_boots: "zoomers_armory:soul_tank_boots",
+/** @type {string} */
+i_fixed_bone_tank_helmet: "zoomers_armory:fixed_bone_tank_helmet",
+/** @type {string} */
+i_fixed_bone_tank_chestplate: "zoomers_armory:fixed_bone_tank_chestplate",
+/** @type {string} */
+i_fixed_bone_tank_leggings: "zoomers_armory:fixed_bone_tank_leggings",
+/** @type {string} */
+i_zanite_archer_helmet: "zoomers_armory:zanite_archer_helmet",
+/** @type {string} */
+i_zanite_archer_chestplate: "zoomers_armory:zanite_archer_chestplate",
+/** @type {string} */
+i_zanite_archer_leggings: "zoomers_armory:zanite_archer_leggings",
+/** @type {string} */
+i_zanite_archer_boots: "zoomers_armory:zanite_archer_boots",
+/** @type {string} */
+i_zanite_ranger_helmet: "zoomers_armory:zanite_ranger_helmet",
+/** @type {string} */
+i_zanite_ranger_chestplate: "zoomers_armory:zanite_ranger_chestplate",
+/** @type {string} */
+i_zanite_ranger_leggings: "zoomers_armory:zanite_ranger_leggings",
+/** @type {string} */
+i_zanite_ranger_boots: "zoomers_armory:zanite_ranger_boots",
+/** @type {string} */
+i_zanite_pyromancer_helmet: "zoomers_armory:zanite_pyromancer_helmet",
+/** @type {string} */
+i_zanite_pyromancer_chestplate: "zoomers_armory:zanite_pyromancer_chestplate",
+/** @type {string} */
+i_zanite_pyromancer_leggings: "zoomers_armory:zanite_pyromancer_leggings",
+/** @type {string} */
+i_zanite_pyromancer_boots: "zoomers_armory:zanite_pyromancer_boots",
+/** @type {string} */
+i_zanite_cryomancer_helmet: "zoomers_armory:zanite_cryomancer_helmet",
+/** @type {string} */
+i_zanite_cryomancer_chestplate: "zoomers_armory:zanite_cryomancer_chestplate",
+/** @type {string} */
+i_zanite_cryomancer_leggings: "zoomers_armory:zanite_cryomancer_leggings",
+/** @type {string} */
+i_zanite_cryomancer_boots: "zoomers_armory:zanite_cryomancer_boots",
+/** @type {string} */
+i_zanite_electromancer_helmet: "zoomers_armory:zanite_electromancer_helmet",
+/** @type {string} */
+i_zanite_electromancer_chestplate: "zoomers_armory:zanite_electromancer_chestplate",
+/** @type {string} */
+i_zanite_electromancer_leggings: "zoomers_armory:zanite_electromancer_leggings",
+/** @type {string} */
+i_zanite_electromancer_boots: "zoomers_armory:zanite_electromancer_boots",
+/** @type {string} */
+i_zanite_archevoker_helmet: "zoomers_armory:zanite_archevoker_helmet",
+/** @type {string} */
+i_zanite_archevoker_chestplate: "zoomers_armory:zanite_archevoker_chestplate",
+/** @type {string} */
+i_zanite_archevoker_leggings: "zoomers_armory:zanite_archevoker_leggings",
+/** @type {string} */
+i_zanite_archevoker_boots: "zoomers_armory:zanite_archevoker_boots",
+/** @type {string} */
+i_zanite_cultist_helmet: "zoomers_armory:zanite_cultist_helmet",
+/** @type {string} */
+i_zanite_cultist_chestplate: "zoomers_armory:zanite_cultist_chestplate",
+/** @type {string} */
+i_zanite_cultist_leggings: "zoomers_armory:zanite_cultist_leggings",
+/** @type {string} */
+i_zanite_cultist_boots: "zoomers_armory:zanite_cultist_boots",
+/** @type {string} */
+i_zanite_shadowwalker_helmet: "zoomers_armory:zanite_shadowwalker_helmet",
+/** @type {string} */
+i_zanite_shadowwalker_chestplate: "zoomers_armory:zanite_shadowwalker_chestplate",
+/** @type {string} */
+i_zanite_shadowwalker_leggings: "zoomers_armory:zanite_shadowwalker_leggings",
+/** @type {string} */
+i_zanite_shadowwalker_boots: "zoomers_armory:zanite_shadowwalker_boots",
+/** @type {string} */
+i_zanite_priest_helmet: "zoomers_armory:zanite_priest_helmet",
+/** @type {string} */
+i_zanite_priest_chestplate: "zoomers_armory:zanite_priest_chestplate",
+/** @type {string} */
+i_zanite_priest_leggings: "zoomers_armory:zanite_priest_leggings",
+/** @type {string} */
+i_zanite_priest_boots: "zoomers_armory:zanite_priest_boots",
+/** @type {string} */
+i_zanite_plagued_helmet: "zoomers_armory:zanite_plagued_helmet",
+/** @type {string} */
+i_zanite_plagued_chestplate: "zoomers_armory:zanite_plagued_chestplate",
+/** @type {string} */
+i_zanite_plagued_leggings: "zoomers_armory:zanite_plagued_leggings",
+/** @type {string} */
+i_zanite_plagued_boots: "zoomers_armory:zanite_plagued_boots",
+/** @type {string} */
+i_enchanted_gravitite_claws: "zoomers_armory:enchanted_gravitite_claws",
+/** @type {string} */
+i_enchanted_gravitite_dagger: "zoomers_armory:enchanted_gravitite_dagger",
+/** @type {string} */
+i_enchanted_gravitite_shortsword: "zoomers_armory:enchanted_gravitite_shortsword",
+/** @type {string} */
+i_enchanted_gravitite_heavysword: "zoomers_armory:enchanted_gravitite_heavysword",
+/** @type {string} */
+i_enchanted_gravitite_cutlass: "zoomers_armory:enchanted_gravitite_cutlass",
+/** @type {string} */
+i_enchanted_gravitite_mace: "zoomers_armory:enchanted_gravitite_mace",
+/** @type {string} */
+i_enchanted_gravitite_heavymace: "zoomers_armory:enchanted_gravitite_heavymace",
+/** @type {string} */
+i_enchanted_gravitite_warhammer: "zoomers_armory:enchanted_gravitite_warhammer",
+/** @type {string} */
+i_enchanted_gravitite_battleaxe: "zoomers_armory:enchanted_gravitite_battleaxe",
+/** @type {string} */
+i_enchanted_gravitite_spear: "zoomers_armory:enchanted_gravitite_spear",
+/** @type {string} */
+i_enchanted_gravitite_halberd: "zoomers_armory:enchanted_gravitite_halberd",
+/** @type {string} */
+i_enchanted_gravitite_scythe: "zoomers_armory:enchanted_gravitite_scythe",
+/** @type {string} */
+i_enchanted_gravitite_katana: "zoomers_armory:enchanted_gravitite_katana",
+/** @type {string} */
+i_enchanted_gravitite_twinblade: "zoomers_armory:enchanted_gravitite_twinblade",
+/** @type {string} */
+i_enchanted_gravitite_sai: "zoomers_armory:enchanted_gravitite_sai",
+/** @type {string} */
+i_enchanted_gravitite_warglaive: "zoomers_armory:enchanted_gravitite_warglaive",
+/** @type {string} */
+i_enchanted_gravitite_musashi: "zoomers_armory:enchanted_gravitite_musashi",
+/** @type {string} */
+i_enchanted_gravitite_arcane_staff: "zoomers_armory:enchanted_gravitite_arcane_staff",
+/** @type {string} */
+i_enchanted_gravitite_woodwind_staff: "zoomers_armory:enchanted_gravitite_woodwind_staff",
+/** @type {string} */
+i_enchanted_gravitite_fire_staff: "zoomers_armory:enchanted_gravitite_fire_staff",
+/** @type {string} */
+i_enchanted_gravitite_ice_staff: "zoomers_armory:enchanted_gravitite_ice_staff",
+/** @type {string} */
+i_enchanted_gravitite_lightning_staff: "zoomers_armory:enchanted_gravitite_lightning_staff",
+/** @type {string} */
+i_enchanted_gravitite_nature_staff: "zoomers_armory:enchanted_gravitite_nature_staff",
+/** @type {string} */
+i_enchanted_gravitite_holy_staff: "zoomers_armory:enchanted_gravitite_holy_staff",
+/** @type {string} */
+i_enchanted_gravitite_blood_staff: "zoomers_armory:enchanted_gravitite_blood_staff",
+/** @type {string} */
+i_enchanted_gravitite_evocation_staff: "zoomers_armory:enchanted_gravitite_evocation_staff",
+/** @type {string} */
+i_enchanted_gravitite_ender_staff: "zoomers_armory:enchanted_gravitite_ender_staff",
+/** @type {string} */
+i_enchanted_gravitite_buckler: "zoomers_armory:enchanted_gravitite_buckler",
+/** @type {string} */
+i_enchanted_gravitite_heater: "zoomers_armory:enchanted_gravitite_heater",
+/** @type {string} */
+i_enchanted_gravitite_tower: "zoomers_armory:enchanted_gravitite_tower",
+/** @type {string} */
+i_enchanted_gravitite_shortbow: "zoomers_armory:enchanted_gravitite_shortbow",
+/** @type {string} */
+i_enchanted_gravitite_bow: "zoomers_armory:enchanted_gravitite_bow",
+/** @type {string} */
+i_enchanted_gravitite_longbow: "zoomers_armory:enchanted_gravitite_longbow",
+/** @type {string} */
+i_enchanted_gravitite_crossbow: "zoomers_armory:enchanted_gravitite_crossbow",
+/** @type {string} */
+i_fixed_bone_tank_boots: "zoomers_armory:fixed_bone_tank_boots",
+/** @type {string} */
+i_fusion_tank_helmet: "zoomers_armory:fusion_tank_helmet",
+/** @type {string} */
+i_fusion_tank_chestplate: "zoomers_armory:fusion_tank_chestplate",
+/** @type {string} */
+i_fusion_tank_leggings: "zoomers_armory:fusion_tank_leggings",
+/** @type {string} */
+i_enchanted_gravitite_samurai_helmet: "zoomers_armory:enchanted_gravitite_samurai_helmet",
+/** @type {string} */
+i_enchanted_gravitite_samurai_chestplate: "zoomers_armory:enchanted_gravitite_samurai_chestplate",
+/** @type {string} */
+i_enchanted_gravitite_samurai_leggings: "zoomers_armory:enchanted_gravitite_samurai_leggings",
+/** @type {string} */
+i_enchanted_gravitite_samurai_boots: "zoomers_armory:enchanted_gravitite_samurai_boots",
+/** @type {string} */
+i_fusion_tank_boots: "zoomers_armory:fusion_tank_boots",
+/** @type {string} */
+i_aberythe_tank_helmet: "zoomers_armory:aberythe_tank_helmet",
+/** @type {string} */
+i_aberythe_tank_chestplate: "zoomers_armory:aberythe_tank_chestplate",
+/** @type {string} */
+i_aberythe_tank_leggings: "zoomers_armory:aberythe_tank_leggings",
+/** @type {string} */
+i_enchanted_gravitite_archer_helmet: "zoomers_armory:enchanted_gravitite_archer_helmet",
+/** @type {string} */
+i_enchanted_gravitite_archer_chestplate: "zoomers_armory:enchanted_gravitite_archer_chestplate",
+/** @type {string} */
+i_enchanted_gravitite_archer_leggings: "zoomers_armory:enchanted_gravitite_archer_leggings",
+/** @type {string} */
+i_enchanted_gravitite_archer_boots: "zoomers_armory:enchanted_gravitite_archer_boots",
+/** @type {string} */
+i_enchanted_gravitite_ranger_helmet: "zoomers_armory:enchanted_gravitite_ranger_helmet",
+/** @type {string} */
+i_enchanted_gravitite_ranger_chestplate: "zoomers_armory:enchanted_gravitite_ranger_chestplate",
+/** @type {string} */
+i_enchanted_gravitite_ranger_leggings: "zoomers_armory:enchanted_gravitite_ranger_leggings",
+/** @type {string} */
+i_enchanted_gravitite_ranger_boots: "zoomers_armory:enchanted_gravitite_ranger_boots",
+/** @type {string} */
+i_enchanted_gravitite_pyromancer_helmet: "zoomers_armory:enchanted_gravitite_pyromancer_helmet",
+/** @type {string} */
+i_enchanted_gravitite_pyromancer_chestplate: "zoomers_armory:enchanted_gravitite_pyromancer_chestplate",
+/** @type {string} */
+i_enchanted_gravitite_pyromancer_leggings: "zoomers_armory:enchanted_gravitite_pyromancer_leggings",
+/** @type {string} */
+i_enchanted_gravitite_pyromancer_boots: "zoomers_armory:enchanted_gravitite_pyromancer_boots",
+/** @type {string} */
+i_enchanted_gravitite_cryomancer_helmet: "zoomers_armory:enchanted_gravitite_cryomancer_helmet",
+/** @type {string} */
+i_enchanted_gravitite_cryomancer_chestplate: "zoomers_armory:enchanted_gravitite_cryomancer_chestplate",
+/** @type {string} */
+i_enchanted_gravitite_cryomancer_leggings: "zoomers_armory:enchanted_gravitite_cryomancer_leggings",
+/** @type {string} */
+i_enchanted_gravitite_cryomancer_boots: "zoomers_armory:enchanted_gravitite_cryomancer_boots",
+/** @type {string} */
+i_enchanted_gravitite_electromancer_helmet: "zoomers_armory:enchanted_gravitite_electromancer_helmet",
+/** @type {string} */
+i_enchanted_gravitite_electromancer_chestplate: "zoomers_armory:enchanted_gravitite_electromancer_chestplate",
+/** @type {string} */
+i_enchanted_gravitite_electromancer_leggings: "zoomers_armory:enchanted_gravitite_electromancer_leggings",
+/** @type {string} */
+i_enchanted_gravitite_electromancer_boots: "zoomers_armory:enchanted_gravitite_electromancer_boots",
+/** @type {string} */
+i_enchanted_gravitite_archevoker_helmet: "zoomers_armory:enchanted_gravitite_archevoker_helmet",
+/** @type {string} */
+i_enchanted_gravitite_archevoker_chestplate: "zoomers_armory:enchanted_gravitite_archevoker_chestplate",
+/** @type {string} */
+i_enchanted_gravitite_archevoker_leggings: "zoomers_armory:enchanted_gravitite_archevoker_leggings",
+/** @type {string} */
+i_enchanted_gravitite_archevoker_boots: "zoomers_armory:enchanted_gravitite_archevoker_boots",
+/** @type {string} */
+i_enchanted_gravitite_cultist_helmet: "zoomers_armory:enchanted_gravitite_cultist_helmet",
+/** @type {string} */
+i_enchanted_gravitite_cultist_chestplate: "zoomers_armory:enchanted_gravitite_cultist_chestplate",
+/** @type {string} */
+i_enchanted_gravitite_cultist_leggings: "zoomers_armory:enchanted_gravitite_cultist_leggings",
+/** @type {string} */
+i_enchanted_gravitite_cultist_boots: "zoomers_armory:enchanted_gravitite_cultist_boots",
+/** @type {string} */
+i_enchanted_gravitite_shadowwalker_helmet: "zoomers_armory:enchanted_gravitite_shadowwalker_helmet",
+/** @type {string} */
+i_enchanted_gravitite_shadowwalker_chestplate: "zoomers_armory:enchanted_gravitite_shadowwalker_chestplate",
+/** @type {string} */
+i_enchanted_gravitite_shadowwalker_leggings: "zoomers_armory:enchanted_gravitite_shadowwalker_leggings",
+/** @type {string} */
+i_enchanted_gravitite_shadowwalker_boots: "zoomers_armory:enchanted_gravitite_shadowwalker_boots",
+/** @type {string} */
+i_enchanted_gravitite_priest_helmet: "zoomers_armory:enchanted_gravitite_priest_helmet",
+/** @type {string} */
+i_enchanted_gravitite_priest_chestplate: "zoomers_armory:enchanted_gravitite_priest_chestplate",
+/** @type {string} */
+i_enchanted_gravitite_priest_leggings: "zoomers_armory:enchanted_gravitite_priest_leggings",
+/** @type {string} */
+i_enchanted_gravitite_priest_boots: "zoomers_armory:enchanted_gravitite_priest_boots",
+/** @type {string} */
+i_enchanted_gravitite_plagued_helmet: "zoomers_armory:enchanted_gravitite_plagued_helmet",
+/** @type {string} */
+i_enchanted_gravitite_plagued_chestplate: "zoomers_armory:enchanted_gravitite_plagued_chestplate",
+/** @type {string} */
+i_enchanted_gravitite_plagued_leggings: "zoomers_armory:enchanted_gravitite_plagued_leggings",
+/** @type {string} */
+i_enchanted_gravitite_plagued_boots: "zoomers_armory:enchanted_gravitite_plagued_boots",
+/** @type {string} */
+i_cincinnasite_claws: "zoomers_armory:cincinnasite_claws",
+/** @type {string} */
+i_cincinnasite_dagger: "zoomers_armory:cincinnasite_dagger",
+/** @type {string} */
+i_cincinnasite_shortsword: "zoomers_armory:cincinnasite_shortsword",
+/** @type {string} */
+i_cincinnasite_heavysword: "zoomers_armory:cincinnasite_heavysword",
+/** @type {string} */
+i_cincinnasite_cutlass: "zoomers_armory:cincinnasite_cutlass",
+/** @type {string} */
+i_cincinnasite_mace: "zoomers_armory:cincinnasite_mace",
+/** @type {string} */
+i_cincinnasite_heavymace: "zoomers_armory:cincinnasite_heavymace",
+/** @type {string} */
+i_cincinnasite_warhammer: "zoomers_armory:cincinnasite_warhammer",
+/** @type {string} */
+i_cincinnasite_battleaxe: "zoomers_armory:cincinnasite_battleaxe",
+/** @type {string} */
+i_cincinnasite_spear: "zoomers_armory:cincinnasite_spear",
+/** @type {string} */
+i_cincinnasite_halberd: "zoomers_armory:cincinnasite_halberd",
+/** @type {string} */
+i_cincinnasite_scythe: "zoomers_armory:cincinnasite_scythe",
+/** @type {string} */
+i_cincinnasite_katana: "zoomers_armory:cincinnasite_katana",
+/** @type {string} */
+i_cincinnasite_twinblade: "zoomers_armory:cincinnasite_twinblade",
+/** @type {string} */
+i_cincinnasite_sai: "zoomers_armory:cincinnasite_sai",
+/** @type {string} */
+i_cincinnasite_warglaive: "zoomers_armory:cincinnasite_warglaive",
+/** @type {string} */
+i_cincinnasite_musashi: "zoomers_armory:cincinnasite_musashi",
+/** @type {string} */
+i_cincinnasite_arcane_staff: "zoomers_armory:cincinnasite_arcane_staff",
+/** @type {string} */
+i_cincinnasite_woodwind_staff: "zoomers_armory:cincinnasite_woodwind_staff",
+/** @type {string} */
+i_cincinnasite_fire_staff: "zoomers_armory:cincinnasite_fire_staff",
+/** @type {string} */
+i_cincinnasite_ice_staff: "zoomers_armory:cincinnasite_ice_staff",
+/** @type {string} */
+i_cincinnasite_lightning_staff: "zoomers_armory:cincinnasite_lightning_staff",
+/** @type {string} */
+i_cincinnasite_nature_staff: "zoomers_armory:cincinnasite_nature_staff",
+/** @type {string} */
+i_cincinnasite_holy_staff: "zoomers_armory:cincinnasite_holy_staff",
+/** @type {string} */
+i_cincinnasite_blood_staff: "zoomers_armory:cincinnasite_blood_staff",
+/** @type {string} */
+i_cincinnasite_evocation_staff: "zoomers_armory:cincinnasite_evocation_staff",
+/** @type {string} */
+i_cincinnasite_ender_staff: "zoomers_armory:cincinnasite_ender_staff",
+/** @type {string} */
+i_cincinnasite_buckler: "zoomers_armory:cincinnasite_buckler",
+/** @type {string} */
+i_cincinnasite_heater: "zoomers_armory:cincinnasite_heater",
+/** @type {string} */
+i_cincinnasite_tower: "zoomers_armory:cincinnasite_tower",
+/** @type {string} */
+i_cincinnasite_shortbow: "zoomers_armory:cincinnasite_shortbow",
+/** @type {string} */
+i_cincinnasite_bow: "zoomers_armory:cincinnasite_bow",
+/** @type {string} */
+i_cincinnasite_longbow: "zoomers_armory:cincinnasite_longbow",
+/** @type {string} */
+i_cincinnasite_crossbow: "zoomers_armory:cincinnasite_crossbow",
+/** @type {string} */
+i_aberythe_tank_boots: "zoomers_armory:aberythe_tank_boots",
+/** @type {string} */
+i_ignisithe_tank_helmet: "zoomers_armory:ignisithe_tank_helmet",
+/** @type {string} */
+i_ignisithe_tank_chestplate: "zoomers_armory:ignisithe_tank_chestplate",
+/** @type {string} */
+i_ignisithe_tank_leggings: "zoomers_armory:ignisithe_tank_leggings",
+/** @type {string} */
+i_cincinnasite_samurai_helmet: "zoomers_armory:cincinnasite_samurai_helmet",
+/** @type {string} */
+i_cincinnasite_samurai_chestplate: "zoomers_armory:cincinnasite_samurai_chestplate",
+/** @type {string} */
+i_cincinnasite_samurai_leggings: "zoomers_armory:cincinnasite_samurai_leggings",
+/** @type {string} */
+i_cincinnasite_samurai_boots: "zoomers_armory:cincinnasite_samurai_boots",
+/** @type {string} */
+i_ignisithe_tank_boots: "zoomers_armory:ignisithe_tank_boots",
+/** @type {string} */
+i_knight_tank_helmet: "zoomers_armory:knight_tank_helmet",
+/** @type {string} */
+i_knight_tank_chestplate: "zoomers_armory:knight_tank_chestplate",
+/** @type {string} */
+i_knight_tank_leggings: "zoomers_armory:knight_tank_leggings",
+/** @type {string} */
+i_cincinnasite_archer_helmet: "zoomers_armory:cincinnasite_archer_helmet",
+/** @type {string} */
+i_cincinnasite_archer_chestplate: "zoomers_armory:cincinnasite_archer_chestplate",
+/** @type {string} */
+i_cincinnasite_archer_leggings: "zoomers_armory:cincinnasite_archer_leggings",
+/** @type {string} */
+i_cincinnasite_archer_boots: "zoomers_armory:cincinnasite_archer_boots",
+/** @type {string} */
+i_cincinnasite_ranger_helmet: "zoomers_armory:cincinnasite_ranger_helmet",
+/** @type {string} */
+i_cincinnasite_ranger_chestplate: "zoomers_armory:cincinnasite_ranger_chestplate",
+/** @type {string} */
+i_cincinnasite_ranger_leggings: "zoomers_armory:cincinnasite_ranger_leggings",
+/** @type {string} */
+i_cincinnasite_ranger_boots: "zoomers_armory:cincinnasite_ranger_boots",
+/** @type {string} */
+i_cincinnasite_pyromancer_helmet: "zoomers_armory:cincinnasite_pyromancer_helmet",
+/** @type {string} */
+i_cincinnasite_pyromancer_chestplate: "zoomers_armory:cincinnasite_pyromancer_chestplate",
+/** @type {string} */
+i_cincinnasite_pyromancer_leggings: "zoomers_armory:cincinnasite_pyromancer_leggings",
+/** @type {string} */
+i_cincinnasite_pyromancer_boots: "zoomers_armory:cincinnasite_pyromancer_boots",
+/** @type {string} */
+i_cincinnasite_cryomancer_helmet: "zoomers_armory:cincinnasite_cryomancer_helmet",
+/** @type {string} */
+i_cincinnasite_cryomancer_chestplate: "zoomers_armory:cincinnasite_cryomancer_chestplate",
+/** @type {string} */
+i_cincinnasite_cryomancer_leggings: "zoomers_armory:cincinnasite_cryomancer_leggings",
+/** @type {string} */
+i_cincinnasite_cryomancer_boots: "zoomers_armory:cincinnasite_cryomancer_boots",
+/** @type {string} */
+i_cincinnasite_electromancer_helmet: "zoomers_armory:cincinnasite_electromancer_helmet",
+/** @type {string} */
+i_cincinnasite_electromancer_chestplate: "zoomers_armory:cincinnasite_electromancer_chestplate",
+/** @type {string} */
+i_cincinnasite_electromancer_leggings: "zoomers_armory:cincinnasite_electromancer_leggings",
+/** @type {string} */
+i_cincinnasite_electromancer_boots: "zoomers_armory:cincinnasite_electromancer_boots",
+/** @type {string} */
+i_cincinnasite_archevoker_helmet: "zoomers_armory:cincinnasite_archevoker_helmet",
+/** @type {string} */
+i_cincinnasite_archevoker_chestplate: "zoomers_armory:cincinnasite_archevoker_chestplate",
+/** @type {string} */
+i_cincinnasite_archevoker_leggings: "zoomers_armory:cincinnasite_archevoker_leggings",
+/** @type {string} */
+i_cincinnasite_archevoker_boots: "zoomers_armory:cincinnasite_archevoker_boots",
+/** @type {string} */
+i_cincinnasite_cultist_helmet: "zoomers_armory:cincinnasite_cultist_helmet",
+/** @type {string} */
+i_cincinnasite_cultist_chestplate: "zoomers_armory:cincinnasite_cultist_chestplate",
+/** @type {string} */
+i_cincinnasite_cultist_leggings: "zoomers_armory:cincinnasite_cultist_leggings",
+/** @type {string} */
+i_cincinnasite_cultist_boots: "zoomers_armory:cincinnasite_cultist_boots",
+/** @type {string} */
+i_cincinnasite_shadowwalker_helmet: "zoomers_armory:cincinnasite_shadowwalker_helmet",
+/** @type {string} */
+i_cincinnasite_shadowwalker_chestplate: "zoomers_armory:cincinnasite_shadowwalker_chestplate",
+/** @type {string} */
+i_cincinnasite_shadowwalker_leggings: "zoomers_armory:cincinnasite_shadowwalker_leggings",
+/** @type {string} */
+i_cincinnasite_shadowwalker_boots: "zoomers_armory:cincinnasite_shadowwalker_boots",
+/** @type {string} */
+i_cincinnasite_priest_helmet: "zoomers_armory:cincinnasite_priest_helmet",
+/** @type {string} */
+i_cincinnasite_priest_chestplate: "zoomers_armory:cincinnasite_priest_chestplate",
+/** @type {string} */
+i_cincinnasite_priest_leggings: "zoomers_armory:cincinnasite_priest_leggings",
+/** @type {string} */
+i_cincinnasite_priest_boots: "zoomers_armory:cincinnasite_priest_boots",
+/** @type {string} */
+i_cincinnasite_plagued_helmet: "zoomers_armory:cincinnasite_plagued_helmet",
+/** @type {string} */
+i_cincinnasite_plagued_chestplate: "zoomers_armory:cincinnasite_plagued_chestplate",
+/** @type {string} */
+i_cincinnasite_plagued_leggings: "zoomers_armory:cincinnasite_plagued_leggings",
+/** @type {string} */
+i_cincinnasite_plagued_boots: "zoomers_armory:cincinnasite_plagued_boots",
+/** @type {string} */
+i_cincinnasite_diamond_claws: "zoomers_armory:cincinnasite_diamond_claws",
+/** @type {string} */
+i_cincinnasite_diamond_dagger: "zoomers_armory:cincinnasite_diamond_dagger",
+/** @type {string} */
+i_cincinnasite_diamond_shortsword: "zoomers_armory:cincinnasite_diamond_shortsword",
+/** @type {string} */
+i_cincinnasite_diamond_heavysword: "zoomers_armory:cincinnasite_diamond_heavysword",
+/** @type {string} */
+i_cincinnasite_diamond_cutlass: "zoomers_armory:cincinnasite_diamond_cutlass",
+/** @type {string} */
+i_cincinnasite_diamond_mace: "zoomers_armory:cincinnasite_diamond_mace",
+/** @type {string} */
+i_cincinnasite_diamond_heavymace: "zoomers_armory:cincinnasite_diamond_heavymace",
+/** @type {string} */
+i_cincinnasite_diamond_warhammer: "zoomers_armory:cincinnasite_diamond_warhammer",
+/** @type {string} */
+i_cincinnasite_diamond_battleaxe: "zoomers_armory:cincinnasite_diamond_battleaxe",
+/** @type {string} */
+i_cincinnasite_diamond_spear: "zoomers_armory:cincinnasite_diamond_spear",
+/** @type {string} */
+i_cincinnasite_diamond_halberd: "zoomers_armory:cincinnasite_diamond_halberd",
+/** @type {string} */
+i_cincinnasite_diamond_scythe: "zoomers_armory:cincinnasite_diamond_scythe",
+/** @type {string} */
+i_cincinnasite_diamond_katana: "zoomers_armory:cincinnasite_diamond_katana",
+/** @type {string} */
+i_cincinnasite_diamond_twinblade: "zoomers_armory:cincinnasite_diamond_twinblade",
+/** @type {string} */
+i_cincinnasite_diamond_sai: "zoomers_armory:cincinnasite_diamond_sai",
+/** @type {string} */
+i_cincinnasite_diamond_warglaive: "zoomers_armory:cincinnasite_diamond_warglaive",
+/** @type {string} */
+i_cincinnasite_diamond_musashi: "zoomers_armory:cincinnasite_diamond_musashi",
+/** @type {string} */
+i_cincinnasite_diamond_arcane_staff: "zoomers_armory:cincinnasite_diamond_arcane_staff",
+/** @type {string} */
+i_cincinnasite_diamond_woodwind_staff: "zoomers_armory:cincinnasite_diamond_woodwind_staff",
+/** @type {string} */
+i_cincinnasite_diamond_fire_staff: "zoomers_armory:cincinnasite_diamond_fire_staff",
+/** @type {string} */
+i_cincinnasite_diamond_ice_staff: "zoomers_armory:cincinnasite_diamond_ice_staff",
+/** @type {string} */
+i_cincinnasite_diamond_lightning_staff: "zoomers_armory:cincinnasite_diamond_lightning_staff",
+/** @type {string} */
+i_cincinnasite_diamond_nature_staff: "zoomers_armory:cincinnasite_diamond_nature_staff",
+/** @type {string} */
+i_cincinnasite_diamond_holy_staff: "zoomers_armory:cincinnasite_diamond_holy_staff",
+/** @type {string} */
+i_cincinnasite_diamond_blood_staff: "zoomers_armory:cincinnasite_diamond_blood_staff",
+/** @type {string} */
+i_cincinnasite_diamond_evocation_staff: "zoomers_armory:cincinnasite_diamond_evocation_staff",
+/** @type {string} */
+i_cincinnasite_diamond_ender_staff: "zoomers_armory:cincinnasite_diamond_ender_staff",
+/** @type {string} */
+i_cincinnasite_diamond_buckler: "zoomers_armory:cincinnasite_diamond_buckler",
+/** @type {string} */
+i_cincinnasite_diamond_heater: "zoomers_armory:cincinnasite_diamond_heater",
+/** @type {string} */
+i_cincinnasite_diamond_tower: "zoomers_armory:cincinnasite_diamond_tower",
+/** @type {string} */
+i_cincinnasite_diamond_shortbow: "zoomers_armory:cincinnasite_diamond_shortbow",
+/** @type {string} */
+i_cincinnasite_diamond_bow: "zoomers_armory:cincinnasite_diamond_bow",
+/** @type {string} */
+i_cincinnasite_diamond_longbow: "zoomers_armory:cincinnasite_diamond_longbow",
+/** @type {string} */
+i_cincinnasite_diamond_crossbow: "zoomers_armory:cincinnasite_diamond_crossbow",
+/** @type {string} */
+i_knight_tank_boots: "zoomers_armory:knight_tank_boots",
+/** @type {string} */
+i_glacerythe_tank_helmet: "zoomers_armory:glacerythe_tank_helmet",
+/** @type {string} */
+i_glacerythe_tank_chestplate: "zoomers_armory:glacerythe_tank_chestplate",
+/** @type {string} */
+i_glacerythe_tank_leggings: "zoomers_armory:glacerythe_tank_leggings",
+/** @type {string} */
+i_cincinnasite_diamond_samurai_helmet: "zoomers_armory:cincinnasite_diamond_samurai_helmet",
+/** @type {string} */
+i_cincinnasite_diamond_samurai_chestplate: "zoomers_armory:cincinnasite_diamond_samurai_chestplate",
+/** @type {string} */
+i_cincinnasite_diamond_samurai_leggings: "zoomers_armory:cincinnasite_diamond_samurai_leggings",
+/** @type {string} */
+i_cincinnasite_diamond_samurai_boots: "zoomers_armory:cincinnasite_diamond_samurai_boots",
+/** @type {string} */
+i_glacerythe_tank_boots: "zoomers_armory:glacerythe_tank_boots",
+/** @type {string} */
+i_garnite_tank_helmet: "zoomers_armory:garnite_tank_helmet",
+/** @type {string} */
+i_garnite_tank_chestplate: "zoomers_armory:garnite_tank_chestplate",
+/** @type {string} */
+i_garnite_tank_leggings: "zoomers_armory:garnite_tank_leggings",
+/** @type {string} */
+i_cincinnasite_diamond_archer_helmet: "zoomers_armory:cincinnasite_diamond_archer_helmet",
+/** @type {string} */
+i_cincinnasite_diamond_archer_chestplate: "zoomers_armory:cincinnasite_diamond_archer_chestplate",
+/** @type {string} */
+i_cincinnasite_diamond_archer_leggings: "zoomers_armory:cincinnasite_diamond_archer_leggings",
+/** @type {string} */
+i_cincinnasite_diamond_archer_boots: "zoomers_armory:cincinnasite_diamond_archer_boots",
+/** @type {string} */
+i_cincinnasite_diamond_ranger_helmet: "zoomers_armory:cincinnasite_diamond_ranger_helmet",
+/** @type {string} */
+i_cincinnasite_diamond_ranger_chestplate: "zoomers_armory:cincinnasite_diamond_ranger_chestplate",
+/** @type {string} */
+i_cincinnasite_diamond_ranger_leggings: "zoomers_armory:cincinnasite_diamond_ranger_leggings",
+/** @type {string} */
+i_cincinnasite_diamond_ranger_boots: "zoomers_armory:cincinnasite_diamond_ranger_boots",
+/** @type {string} */
+i_cincinnasite_diamond_pyromancer_helmet: "zoomers_armory:cincinnasite_diamond_pyromancer_helmet",
+/** @type {string} */
+i_cincinnasite_diamond_pyromancer_chestplate: "zoomers_armory:cincinnasite_diamond_pyromancer_chestplate",
+/** @type {string} */
+i_cincinnasite_diamond_pyromancer_leggings: "zoomers_armory:cincinnasite_diamond_pyromancer_leggings",
+/** @type {string} */
+i_cincinnasite_diamond_pyromancer_boots: "zoomers_armory:cincinnasite_diamond_pyromancer_boots",
+/** @type {string} */
+i_cincinnasite_diamond_cryomancer_helmet: "zoomers_armory:cincinnasite_diamond_cryomancer_helmet",
+/** @type {string} */
+i_cincinnasite_diamond_cryomancer_chestplate: "zoomers_armory:cincinnasite_diamond_cryomancer_chestplate",
+/** @type {string} */
+i_cincinnasite_diamond_cryomancer_leggings: "zoomers_armory:cincinnasite_diamond_cryomancer_leggings",
+/** @type {string} */
+i_cincinnasite_diamond_cryomancer_boots: "zoomers_armory:cincinnasite_diamond_cryomancer_boots",
+/** @type {string} */
+i_cincinnasite_diamond_electromancer_helmet: "zoomers_armory:cincinnasite_diamond_electromancer_helmet",
+/** @type {string} */
+i_cincinnasite_diamond_electromancer_chestplate: "zoomers_armory:cincinnasite_diamond_electromancer_chestplate",
+/** @type {string} */
+i_cincinnasite_diamond_electromancer_leggings: "zoomers_armory:cincinnasite_diamond_electromancer_leggings",
+/** @type {string} */
+i_cincinnasite_diamond_electromancer_boots: "zoomers_armory:cincinnasite_diamond_electromancer_boots",
+/** @type {string} */
+i_cincinnasite_diamond_archevoker_helmet: "zoomers_armory:cincinnasite_diamond_archevoker_helmet",
+/** @type {string} */
+i_cincinnasite_diamond_archevoker_chestplate: "zoomers_armory:cincinnasite_diamond_archevoker_chestplate",
+/** @type {string} */
+i_cincinnasite_diamond_archevoker_leggings: "zoomers_armory:cincinnasite_diamond_archevoker_leggings",
+/** @type {string} */
+i_cincinnasite_diamond_archevoker_boots: "zoomers_armory:cincinnasite_diamond_archevoker_boots",
+/** @type {string} */
+i_cincinnasite_diamond_cultist_helmet: "zoomers_armory:cincinnasite_diamond_cultist_helmet",
+/** @type {string} */
+i_cincinnasite_diamond_cultist_chestplate: "zoomers_armory:cincinnasite_diamond_cultist_chestplate",
+/** @type {string} */
+i_cincinnasite_diamond_cultist_leggings: "zoomers_armory:cincinnasite_diamond_cultist_leggings",
+/** @type {string} */
+i_cincinnasite_diamond_cultist_boots: "zoomers_armory:cincinnasite_diamond_cultist_boots",
+/** @type {string} */
+i_cincinnasite_diamond_shadowwalker_helmet: "zoomers_armory:cincinnasite_diamond_shadowwalker_helmet",
+/** @type {string} */
+i_cincinnasite_diamond_shadowwalker_chestplate: "zoomers_armory:cincinnasite_diamond_shadowwalker_chestplate",
+/** @type {string} */
+i_cincinnasite_diamond_shadowwalker_leggings: "zoomers_armory:cincinnasite_diamond_shadowwalker_leggings",
+/** @type {string} */
+i_cincinnasite_diamond_shadowwalker_boots: "zoomers_armory:cincinnasite_diamond_shadowwalker_boots",
+/** @type {string} */
+i_cincinnasite_diamond_priest_helmet: "zoomers_armory:cincinnasite_diamond_priest_helmet",
+/** @type {string} */
+i_cincinnasite_diamond_priest_chestplate: "zoomers_armory:cincinnasite_diamond_priest_chestplate",
+/** @type {string} */
+i_cincinnasite_diamond_priest_leggings: "zoomers_armory:cincinnasite_diamond_priest_leggings",
+/** @type {string} */
+i_cincinnasite_diamond_priest_boots: "zoomers_armory:cincinnasite_diamond_priest_boots",
+/** @type {string} */
+i_cincinnasite_diamond_plagued_helmet: "zoomers_armory:cincinnasite_diamond_plagued_helmet",
+/** @type {string} */
+i_cincinnasite_diamond_plagued_chestplate: "zoomers_armory:cincinnasite_diamond_plagued_chestplate",
+/** @type {string} */
+i_cincinnasite_diamond_plagued_leggings: "zoomers_armory:cincinnasite_diamond_plagued_leggings",
+/** @type {string} */
+i_cincinnasite_diamond_plagued_boots: "zoomers_armory:cincinnasite_diamond_plagued_boots",
+/** @type {string} */
+i_nether_ruby_claws: "zoomers_armory:nether_ruby_claws",
+/** @type {string} */
+i_nether_ruby_dagger: "zoomers_armory:nether_ruby_dagger",
+/** @type {string} */
+i_nether_ruby_shortsword: "zoomers_armory:nether_ruby_shortsword",
+/** @type {string} */
+i_nether_ruby_heavysword: "zoomers_armory:nether_ruby_heavysword",
+/** @type {string} */
+i_nether_ruby_cutlass: "zoomers_armory:nether_ruby_cutlass",
+/** @type {string} */
+i_nether_ruby_mace: "zoomers_armory:nether_ruby_mace",
+/** @type {string} */
+i_nether_ruby_heavymace: "zoomers_armory:nether_ruby_heavymace",
+/** @type {string} */
+i_nether_ruby_warhammer: "zoomers_armory:nether_ruby_warhammer",
+/** @type {string} */
+i_nether_ruby_battleaxe: "zoomers_armory:nether_ruby_battleaxe",
+/** @type {string} */
+i_nether_ruby_spear: "zoomers_armory:nether_ruby_spear",
+/** @type {string} */
+i_nether_ruby_halberd: "zoomers_armory:nether_ruby_halberd",
+/** @type {string} */
+i_nether_ruby_scythe: "zoomers_armory:nether_ruby_scythe",
+/** @type {string} */
+i_nether_ruby_katana: "zoomers_armory:nether_ruby_katana",
+/** @type {string} */
+i_nether_ruby_twinblade: "zoomers_armory:nether_ruby_twinblade",
+/** @type {string} */
+i_nether_ruby_sai: "zoomers_armory:nether_ruby_sai",
+/** @type {string} */
+i_nether_ruby_warglaive: "zoomers_armory:nether_ruby_warglaive",
+/** @type {string} */
+i_nether_ruby_musashi: "zoomers_armory:nether_ruby_musashi",
+/** @type {string} */
+i_nether_ruby_arcane_staff: "zoomers_armory:nether_ruby_arcane_staff",
+/** @type {string} */
+i_nether_ruby_woodwind_staff: "zoomers_armory:nether_ruby_woodwind_staff",
+/** @type {string} */
+i_nether_ruby_fire_staff: "zoomers_armory:nether_ruby_fire_staff",
+/** @type {string} */
+i_nether_ruby_ice_staff: "zoomers_armory:nether_ruby_ice_staff",
+/** @type {string} */
+i_nether_ruby_lightning_staff: "zoomers_armory:nether_ruby_lightning_staff",
+/** @type {string} */
+i_nether_ruby_nature_staff: "zoomers_armory:nether_ruby_nature_staff",
+/** @type {string} */
+i_nether_ruby_holy_staff: "zoomers_armory:nether_ruby_holy_staff",
+/** @type {string} */
+i_nether_ruby_blood_staff: "zoomers_armory:nether_ruby_blood_staff",
+/** @type {string} */
+i_nether_ruby_evocation_staff: "zoomers_armory:nether_ruby_evocation_staff",
+/** @type {string} */
+i_nether_ruby_ender_staff: "zoomers_armory:nether_ruby_ender_staff",
+/** @type {string} */
+i_nether_ruby_buckler: "zoomers_armory:nether_ruby_buckler",
+/** @type {string} */
+i_nether_ruby_heater: "zoomers_armory:nether_ruby_heater",
+/** @type {string} */
+i_nether_ruby_tower: "zoomers_armory:nether_ruby_tower",
+/** @type {string} */
+i_nether_ruby_shortbow: "zoomers_armory:nether_ruby_shortbow",
+/** @type {string} */
+i_nether_ruby_bow: "zoomers_armory:nether_ruby_bow",
+/** @type {string} */
+i_nether_ruby_longbow: "zoomers_armory:nether_ruby_longbow",
+/** @type {string} */
+i_nether_ruby_crossbow: "zoomers_armory:nether_ruby_crossbow",
+/** @type {string} */
+i_garnite_tank_boots: "zoomers_armory:garnite_tank_boots",
+/** @type {string} */
+i_phantom_tank_helmet: "zoomers_armory:phantom_tank_helmet",
+/** @type {string} */
+i_phantom_tank_chestplate: "zoomers_armory:phantom_tank_chestplate",
+/** @type {string} */
+i_phantom_tank_leggings: "zoomers_armory:phantom_tank_leggings",
+/** @type {string} */
+i_nether_ruby_samurai_helmet: "zoomers_armory:nether_ruby_samurai_helmet",
+/** @type {string} */
+i_nether_ruby_samurai_chestplate: "zoomers_armory:nether_ruby_samurai_chestplate",
+/** @type {string} */
+i_nether_ruby_samurai_leggings: "zoomers_armory:nether_ruby_samurai_leggings",
+/** @type {string} */
+i_nether_ruby_samurai_boots: "zoomers_armory:nether_ruby_samurai_boots",
+/** @type {string} */
+i_phantom_tank_boots: "zoomers_armory:phantom_tank_boots",
+/** @type {string} */
+i_unorithe_tank_helmet: "zoomers_armory:unorithe_tank_helmet",
+/** @type {string} */
+i_unorithe_tank_chestplate: "zoomers_armory:unorithe_tank_chestplate",
+/** @type {string} */
+i_unorithe_tank_leggings: "zoomers_armory:unorithe_tank_leggings",
+/** @type {string} */
+i_nether_ruby_archer_helmet: "zoomers_armory:nether_ruby_archer_helmet",
+/** @type {string} */
+i_nether_ruby_archer_chestplate: "zoomers_armory:nether_ruby_archer_chestplate",
+/** @type {string} */
+i_nether_ruby_archer_leggings: "zoomers_armory:nether_ruby_archer_leggings",
+/** @type {string} */
+i_nether_ruby_archer_boots: "zoomers_armory:nether_ruby_archer_boots",
+/** @type {string} */
+i_nether_ruby_ranger_helmet: "zoomers_armory:nether_ruby_ranger_helmet",
+/** @type {string} */
+i_nether_ruby_ranger_chestplate: "zoomers_armory:nether_ruby_ranger_chestplate",
+/** @type {string} */
+i_nether_ruby_ranger_leggings: "zoomers_armory:nether_ruby_ranger_leggings",
+/** @type {string} */
+i_nether_ruby_ranger_boots: "zoomers_armory:nether_ruby_ranger_boots",
+/** @type {string} */
+i_nether_ruby_pyromancer_helmet: "zoomers_armory:nether_ruby_pyromancer_helmet",
+/** @type {string} */
+i_nether_ruby_pyromancer_chestplate: "zoomers_armory:nether_ruby_pyromancer_chestplate",
+/** @type {string} */
+i_nether_ruby_pyromancer_leggings: "zoomers_armory:nether_ruby_pyromancer_leggings",
+/** @type {string} */
+i_nether_ruby_pyromancer_boots: "zoomers_armory:nether_ruby_pyromancer_boots",
+/** @type {string} */
+i_nether_ruby_cryomancer_helmet: "zoomers_armory:nether_ruby_cryomancer_helmet",
+/** @type {string} */
+i_nether_ruby_cryomancer_chestplate: "zoomers_armory:nether_ruby_cryomancer_chestplate",
+/** @type {string} */
+i_nether_ruby_cryomancer_leggings: "zoomers_armory:nether_ruby_cryomancer_leggings",
+/** @type {string} */
+i_nether_ruby_cryomancer_boots: "zoomers_armory:nether_ruby_cryomancer_boots",
+/** @type {string} */
+i_nether_ruby_electromancer_helmet: "zoomers_armory:nether_ruby_electromancer_helmet",
+/** @type {string} */
+i_nether_ruby_electromancer_chestplate: "zoomers_armory:nether_ruby_electromancer_chestplate",
+/** @type {string} */
+i_nether_ruby_electromancer_leggings: "zoomers_armory:nether_ruby_electromancer_leggings",
+/** @type {string} */
+i_nether_ruby_electromancer_boots: "zoomers_armory:nether_ruby_electromancer_boots",
+/** @type {string} */
+i_nether_ruby_archevoker_helmet: "zoomers_armory:nether_ruby_archevoker_helmet",
+/** @type {string} */
+i_nether_ruby_archevoker_chestplate: "zoomers_armory:nether_ruby_archevoker_chestplate",
+/** @type {string} */
+i_nether_ruby_archevoker_leggings: "zoomers_armory:nether_ruby_archevoker_leggings",
+/** @type {string} */
+i_nether_ruby_archevoker_boots: "zoomers_armory:nether_ruby_archevoker_boots",
+/** @type {string} */
+i_nether_ruby_cultist_helmet: "zoomers_armory:nether_ruby_cultist_helmet",
+/** @type {string} */
+i_nether_ruby_cultist_chestplate: "zoomers_armory:nether_ruby_cultist_chestplate",
+/** @type {string} */
+i_nether_ruby_cultist_leggings: "zoomers_armory:nether_ruby_cultist_leggings",
+/** @type {string} */
+i_nether_ruby_cultist_boots: "zoomers_armory:nether_ruby_cultist_boots",
+/** @type {string} */
+i_nether_ruby_shadowwalker_helmet: "zoomers_armory:nether_ruby_shadowwalker_helmet",
+/** @type {string} */
+i_nether_ruby_shadowwalker_chestplate: "zoomers_armory:nether_ruby_shadowwalker_chestplate",
+/** @type {string} */
+i_nether_ruby_shadowwalker_leggings: "zoomers_armory:nether_ruby_shadowwalker_leggings",
+/** @type {string} */
+i_nether_ruby_shadowwalker_boots: "zoomers_armory:nether_ruby_shadowwalker_boots",
+/** @type {string} */
+i_nether_ruby_priest_helmet: "zoomers_armory:nether_ruby_priest_helmet",
+/** @type {string} */
+i_nether_ruby_priest_chestplate: "zoomers_armory:nether_ruby_priest_chestplate",
+/** @type {string} */
+i_nether_ruby_priest_leggings: "zoomers_armory:nether_ruby_priest_leggings",
+/** @type {string} */
+i_nether_ruby_priest_boots: "zoomers_armory:nether_ruby_priest_boots",
+/** @type {string} */
+i_nether_ruby_plagued_helmet: "zoomers_armory:nether_ruby_plagued_helmet",
+/** @type {string} */
+i_nether_ruby_plagued_chestplate: "zoomers_armory:nether_ruby_plagued_chestplate",
+/** @type {string} */
+i_nether_ruby_plagued_leggings: "zoomers_armory:nether_ruby_plagued_leggings",
+/** @type {string} */
+i_nether_ruby_plagued_boots: "zoomers_armory:nether_ruby_plagued_boots",
+/** @type {string} */
+i_flaming_ruby_claws: "zoomers_armory:flaming_ruby_claws",
+/** @type {string} */
+i_flaming_ruby_dagger: "zoomers_armory:flaming_ruby_dagger",
+/** @type {string} */
+i_flaming_ruby_shortsword: "zoomers_armory:flaming_ruby_shortsword",
+/** @type {string} */
+i_flaming_ruby_heavysword: "zoomers_armory:flaming_ruby_heavysword",
+/** @type {string} */
+i_flaming_ruby_cutlass: "zoomers_armory:flaming_ruby_cutlass",
+/** @type {string} */
+i_flaming_ruby_mace: "zoomers_armory:flaming_ruby_mace",
+/** @type {string} */
+i_flaming_ruby_heavymace: "zoomers_armory:flaming_ruby_heavymace",
+/** @type {string} */
+i_flaming_ruby_warhammer: "zoomers_armory:flaming_ruby_warhammer",
+/** @type {string} */
+i_flaming_ruby_battleaxe: "zoomers_armory:flaming_ruby_battleaxe",
+/** @type {string} */
+i_flaming_ruby_spear: "zoomers_armory:flaming_ruby_spear",
+/** @type {string} */
+i_flaming_ruby_halberd: "zoomers_armory:flaming_ruby_halberd",
+/** @type {string} */
+i_flaming_ruby_scythe: "zoomers_armory:flaming_ruby_scythe",
+/** @type {string} */
+i_flaming_ruby_katana: "zoomers_armory:flaming_ruby_katana",
+/** @type {string} */
+i_flaming_ruby_twinblade: "zoomers_armory:flaming_ruby_twinblade",
+/** @type {string} */
+i_flaming_ruby_sai: "zoomers_armory:flaming_ruby_sai",
+/** @type {string} */
+i_flaming_ruby_warglaive: "zoomers_armory:flaming_ruby_warglaive",
+/** @type {string} */
+i_flaming_ruby_musashi: "zoomers_armory:flaming_ruby_musashi",
+/** @type {string} */
+i_flaming_ruby_arcane_staff: "zoomers_armory:flaming_ruby_arcane_staff",
+/** @type {string} */
+i_flaming_ruby_woodwind_staff: "zoomers_armory:flaming_ruby_woodwind_staff",
+/** @type {string} */
+i_flaming_ruby_fire_staff: "zoomers_armory:flaming_ruby_fire_staff",
+/** @type {string} */
+i_flaming_ruby_ice_staff: "zoomers_armory:flaming_ruby_ice_staff",
+/** @type {string} */
+i_flaming_ruby_lightning_staff: "zoomers_armory:flaming_ruby_lightning_staff",
+/** @type {string} */
+i_flaming_ruby_nature_staff: "zoomers_armory:flaming_ruby_nature_staff",
+/** @type {string} */
+i_flaming_ruby_holy_staff: "zoomers_armory:flaming_ruby_holy_staff",
+/** @type {string} */
+i_flaming_ruby_blood_staff: "zoomers_armory:flaming_ruby_blood_staff",
+/** @type {string} */
+i_flaming_ruby_evocation_staff: "zoomers_armory:flaming_ruby_evocation_staff",
+/** @type {string} */
+i_flaming_ruby_ender_staff: "zoomers_armory:flaming_ruby_ender_staff",
+/** @type {string} */
+i_flaming_ruby_buckler: "zoomers_armory:flaming_ruby_buckler",
+/** @type {string} */
+i_flaming_ruby_heater: "zoomers_armory:flaming_ruby_heater",
+/** @type {string} */
+i_flaming_ruby_tower: "zoomers_armory:flaming_ruby_tower",
+/** @type {string} */
+i_flaming_ruby_shortbow: "zoomers_armory:flaming_ruby_shortbow",
+/** @type {string} */
+i_flaming_ruby_bow: "zoomers_armory:flaming_ruby_bow",
+/** @type {string} */
+i_flaming_ruby_longbow: "zoomers_armory:flaming_ruby_longbow",
+/** @type {string} */
+i_flaming_ruby_crossbow: "zoomers_armory:flaming_ruby_crossbow",
+/** @type {string} */
+i_unorithe_tank_boots: "zoomers_armory:unorithe_tank_boots",
+/** @type {string} */
+i_incorythe_tank_helmet: "zoomers_armory:incorythe_tank_helmet",
+/** @type {string} */
+i_incorythe_tank_chestplate: "zoomers_armory:incorythe_tank_chestplate",
+/** @type {string} */
+i_incorythe_tank_leggings: "zoomers_armory:incorythe_tank_leggings",
+/** @type {string} */
+i_flaming_ruby_samurai_helmet: "zoomers_armory:flaming_ruby_samurai_helmet",
+/** @type {string} */
+i_flaming_ruby_samurai_chestplate: "zoomers_armory:flaming_ruby_samurai_chestplate",
+/** @type {string} */
+i_flaming_ruby_samurai_leggings: "zoomers_armory:flaming_ruby_samurai_leggings",
+/** @type {string} */
+i_flaming_ruby_samurai_boots: "zoomers_armory:flaming_ruby_samurai_boots",
+/** @type {string} */
+i_incorythe_tank_boots: "zoomers_armory:incorythe_tank_boots",
+/** @type {string} */
+i_flint_rogue_helmet: "zoomers_armory:flint_rogue_helmet",
+/** @type {string} */
+i_flint_rogue_chestplate: "zoomers_armory:flint_rogue_chestplate",
+/** @type {string} */
+i_flint_rogue_leggings: "zoomers_armory:flint_rogue_leggings",
+/** @type {string} */
+i_flaming_ruby_archer_helmet: "zoomers_armory:flaming_ruby_archer_helmet",
+/** @type {string} */
+i_flaming_ruby_archer_chestplate: "zoomers_armory:flaming_ruby_archer_chestplate",
+/** @type {string} */
+i_flaming_ruby_archer_leggings: "zoomers_armory:flaming_ruby_archer_leggings",
+/** @type {string} */
+i_flaming_ruby_archer_boots: "zoomers_armory:flaming_ruby_archer_boots",
+/** @type {string} */
+i_flaming_ruby_ranger_helmet: "zoomers_armory:flaming_ruby_ranger_helmet",
+/** @type {string} */
+i_flaming_ruby_ranger_chestplate: "zoomers_armory:flaming_ruby_ranger_chestplate",
+/** @type {string} */
+i_flaming_ruby_ranger_leggings: "zoomers_armory:flaming_ruby_ranger_leggings",
+/** @type {string} */
+i_flaming_ruby_ranger_boots: "zoomers_armory:flaming_ruby_ranger_boots",
+/** @type {string} */
+i_flaming_ruby_pyromancer_helmet: "zoomers_armory:flaming_ruby_pyromancer_helmet",
+/** @type {string} */
+i_flaming_ruby_pyromancer_chestplate: "zoomers_armory:flaming_ruby_pyromancer_chestplate",
+/** @type {string} */
+i_flaming_ruby_pyromancer_leggings: "zoomers_armory:flaming_ruby_pyromancer_leggings",
+/** @type {string} */
+i_flaming_ruby_pyromancer_boots: "zoomers_armory:flaming_ruby_pyromancer_boots",
+/** @type {string} */
+i_flaming_ruby_cryomancer_helmet: "zoomers_armory:flaming_ruby_cryomancer_helmet",
+/** @type {string} */
+i_flaming_ruby_cryomancer_chestplate: "zoomers_armory:flaming_ruby_cryomancer_chestplate",
+/** @type {string} */
+i_flaming_ruby_cryomancer_leggings: "zoomers_armory:flaming_ruby_cryomancer_leggings",
+/** @type {string} */
+i_flaming_ruby_cryomancer_boots: "zoomers_armory:flaming_ruby_cryomancer_boots",
+/** @type {string} */
+i_flaming_ruby_electromancer_helmet: "zoomers_armory:flaming_ruby_electromancer_helmet",
+/** @type {string} */
+i_flaming_ruby_electromancer_chestplate: "zoomers_armory:flaming_ruby_electromancer_chestplate",
+/** @type {string} */
+i_flaming_ruby_electromancer_leggings: "zoomers_armory:flaming_ruby_electromancer_leggings",
+/** @type {string} */
+i_flaming_ruby_electromancer_boots: "zoomers_armory:flaming_ruby_electromancer_boots",
+/** @type {string} */
+i_flaming_ruby_archevoker_helmet: "zoomers_armory:flaming_ruby_archevoker_helmet",
+/** @type {string} */
+i_flaming_ruby_archevoker_chestplate: "zoomers_armory:flaming_ruby_archevoker_chestplate",
+/** @type {string} */
+i_flaming_ruby_archevoker_leggings: "zoomers_armory:flaming_ruby_archevoker_leggings",
+/** @type {string} */
+i_flaming_ruby_archevoker_boots: "zoomers_armory:flaming_ruby_archevoker_boots",
+/** @type {string} */
+i_flaming_ruby_cultist_helmet: "zoomers_armory:flaming_ruby_cultist_helmet",
+/** @type {string} */
+i_flaming_ruby_cultist_chestplate: "zoomers_armory:flaming_ruby_cultist_chestplate",
+/** @type {string} */
+i_flaming_ruby_cultist_leggings: "zoomers_armory:flaming_ruby_cultist_leggings",
+/** @type {string} */
+i_flaming_ruby_cultist_boots: "zoomers_armory:flaming_ruby_cultist_boots",
+/** @type {string} */
+i_flaming_ruby_shadowwalker_helmet: "zoomers_armory:flaming_ruby_shadowwalker_helmet",
+/** @type {string} */
+i_flaming_ruby_shadowwalker_chestplate: "zoomers_armory:flaming_ruby_shadowwalker_chestplate",
+/** @type {string} */
+i_flaming_ruby_shadowwalker_leggings: "zoomers_armory:flaming_ruby_shadowwalker_leggings",
+/** @type {string} */
+i_flaming_ruby_shadowwalker_boots: "zoomers_armory:flaming_ruby_shadowwalker_boots",
+/** @type {string} */
+i_flaming_ruby_priest_helmet: "zoomers_armory:flaming_ruby_priest_helmet",
+/** @type {string} */
+i_flaming_ruby_priest_chestplate: "zoomers_armory:flaming_ruby_priest_chestplate",
+/** @type {string} */
+i_flaming_ruby_priest_leggings: "zoomers_armory:flaming_ruby_priest_leggings",
+/** @type {string} */
+i_flaming_ruby_priest_boots: "zoomers_armory:flaming_ruby_priest_boots",
+/** @type {string} */
+i_flaming_ruby_plagued_helmet: "zoomers_armory:flaming_ruby_plagued_helmet",
+/** @type {string} */
+i_flaming_ruby_plagued_chestplate: "zoomers_armory:flaming_ruby_plagued_chestplate",
+/** @type {string} */
+i_flaming_ruby_plagued_leggings: "zoomers_armory:flaming_ruby_plagued_leggings",
+/** @type {string} */
+i_flaming_ruby_plagued_boots: "zoomers_armory:flaming_ruby_plagued_boots",
+/** @type {string} */
+i_netherite_claws: "zoomers_armory:netherite_claws",
+/** @type {string} */
+i_netherite_dagger: "zoomers_armory:netherite_dagger",
+/** @type {string} */
+i_netherite_shortsword: "zoomers_armory:netherite_shortsword",
+/** @type {string} */
+i_netherite_heavysword: "zoomers_armory:netherite_heavysword",
+/** @type {string} */
+i_netherite_cutlass: "zoomers_armory:netherite_cutlass",
+/** @type {string} */
+i_netherite_mace: "zoomers_armory:netherite_mace",
+/** @type {string} */
+i_netherite_heavymace: "zoomers_armory:netherite_heavymace",
+/** @type {string} */
+i_netherite_warhammer: "zoomers_armory:netherite_warhammer",
+/** @type {string} */
+i_netherite_battleaxe: "zoomers_armory:netherite_battleaxe",
+/** @type {string} */
+i_netherite_spear: "zoomers_armory:netherite_spear",
+/** @type {string} */
+i_netherite_halberd: "zoomers_armory:netherite_halberd",
+/** @type {string} */
+i_netherite_scythe: "zoomers_armory:netherite_scythe",
+/** @type {string} */
+i_netherite_katana: "zoomers_armory:netherite_katana",
+/** @type {string} */
+i_netherite_twinblade: "zoomers_armory:netherite_twinblade",
+/** @type {string} */
+i_netherite_sai: "zoomers_armory:netherite_sai",
+/** @type {string} */
+i_netherite_warglaive: "zoomers_armory:netherite_warglaive",
+/** @type {string} */
+i_netherite_musashi: "zoomers_armory:netherite_musashi",
+/** @type {string} */
+i_netherite_arcane_staff: "zoomers_armory:netherite_arcane_staff",
+/** @type {string} */
+i_netherite_woodwind_staff: "zoomers_armory:netherite_woodwind_staff",
+/** @type {string} */
+i_netherite_fire_staff: "zoomers_armory:netherite_fire_staff",
+/** @type {string} */
+i_netherite_ice_staff: "zoomers_armory:netherite_ice_staff",
+/** @type {string} */
+i_netherite_lightning_staff: "zoomers_armory:netherite_lightning_staff",
+/** @type {string} */
+i_netherite_nature_staff: "zoomers_armory:netherite_nature_staff",
+/** @type {string} */
+i_netherite_holy_staff: "zoomers_armory:netherite_holy_staff",
+/** @type {string} */
+i_netherite_blood_staff: "zoomers_armory:netherite_blood_staff",
+/** @type {string} */
+i_netherite_evocation_staff: "zoomers_armory:netherite_evocation_staff",
+/** @type {string} */
+i_netherite_ender_staff: "zoomers_armory:netherite_ender_staff",
+/** @type {string} */
+i_netherite_buckler: "zoomers_armory:netherite_buckler",
+/** @type {string} */
+i_netherite_heater: "zoomers_armory:netherite_heater",
+/** @type {string} */
+i_netherite_tower: "zoomers_armory:netherite_tower",
+/** @type {string} */
+i_netherite_shortbow: "zoomers_armory:netherite_shortbow",
+/** @type {string} */
+i_netherite_bow: "zoomers_armory:netherite_bow",
+/** @type {string} */
+i_netherite_longbow: "zoomers_armory:netherite_longbow",
+/** @type {string} */
+i_netherite_crossbow: "zoomers_armory:netherite_crossbow",
+/** @type {string} */
+i_flint_rogue_boots: "zoomers_armory:flint_rogue_boots",
+/** @type {string} */
+i_copper_rogue_helmet: "zoomers_armory:copper_rogue_helmet",
+/** @type {string} */
+i_copper_rogue_chestplate: "zoomers_armory:copper_rogue_chestplate",
+/** @type {string} */
+i_copper_rogue_leggings: "zoomers_armory:copper_rogue_leggings",
+/** @type {string} */
+i_netherite_samurai_helmet: "zoomers_armory:netherite_samurai_helmet",
+/** @type {string} */
+i_netherite_samurai_chestplate: "zoomers_armory:netherite_samurai_chestplate",
+/** @type {string} */
+i_netherite_samurai_leggings: "zoomers_armory:netherite_samurai_leggings",
+/** @type {string} */
+i_netherite_samurai_boots: "zoomers_armory:netherite_samurai_boots",
+/** @type {string} */
+i_copper_rogue_boots: "zoomers_armory:copper_rogue_boots",
+/** @type {string} */
+i_iron_rogue_helmet: "zoomers_armory:iron_rogue_helmet",
+/** @type {string} */
+i_iron_rogue_chestplate: "zoomers_armory:iron_rogue_chestplate",
+/** @type {string} */
+i_iron_rogue_leggings: "zoomers_armory:iron_rogue_leggings",
+/** @type {string} */
+i_netherite_archer_helmet: "zoomers_armory:netherite_archer_helmet",
+/** @type {string} */
+i_netherite_archer_chestplate: "zoomers_armory:netherite_archer_chestplate",
+/** @type {string} */
+i_netherite_archer_leggings: "zoomers_armory:netherite_archer_leggings",
+/** @type {string} */
+i_netherite_archer_boots: "zoomers_armory:netherite_archer_boots",
+/** @type {string} */
+i_netherite_ranger_helmet: "zoomers_armory:netherite_ranger_helmet",
+/** @type {string} */
+i_netherite_ranger_chestplate: "zoomers_armory:netherite_ranger_chestplate",
+/** @type {string} */
+i_netherite_ranger_leggings: "zoomers_armory:netherite_ranger_leggings",
+/** @type {string} */
+i_netherite_ranger_boots: "zoomers_armory:netherite_ranger_boots",
+/** @type {string} */
+i_netherite_pyromancer_helmet: "zoomers_armory:netherite_pyromancer_helmet",
+/** @type {string} */
+i_netherite_pyromancer_chestplate: "zoomers_armory:netherite_pyromancer_chestplate",
+/** @type {string} */
+i_netherite_pyromancer_leggings: "zoomers_armory:netherite_pyromancer_leggings",
+/** @type {string} */
+i_netherite_pyromancer_boots: "zoomers_armory:netherite_pyromancer_boots",
+/** @type {string} */
+i_netherite_cryomancer_helmet: "zoomers_armory:netherite_cryomancer_helmet",
+/** @type {string} */
+i_netherite_cryomancer_chestplate: "zoomers_armory:netherite_cryomancer_chestplate",
+/** @type {string} */
+i_netherite_cryomancer_leggings: "zoomers_armory:netherite_cryomancer_leggings",
+/** @type {string} */
+i_netherite_cryomancer_boots: "zoomers_armory:netherite_cryomancer_boots",
+/** @type {string} */
+i_netherite_electromancer_helmet: "zoomers_armory:netherite_electromancer_helmet",
+/** @type {string} */
+i_netherite_electromancer_chestplate: "zoomers_armory:netherite_electromancer_chestplate",
+/** @type {string} */
+i_netherite_electromancer_leggings: "zoomers_armory:netherite_electromancer_leggings",
+/** @type {string} */
+i_netherite_electromancer_boots: "zoomers_armory:netherite_electromancer_boots",
+/** @type {string} */
+i_netherite_archevoker_helmet: "zoomers_armory:netherite_archevoker_helmet",
+/** @type {string} */
+i_netherite_archevoker_chestplate: "zoomers_armory:netherite_archevoker_chestplate",
+/** @type {string} */
+i_netherite_archevoker_leggings: "zoomers_armory:netherite_archevoker_leggings",
+/** @type {string} */
+i_netherite_archevoker_boots: "zoomers_armory:netherite_archevoker_boots",
+/** @type {string} */
+i_netherite_cultist_helmet: "zoomers_armory:netherite_cultist_helmet",
+/** @type {string} */
+i_netherite_cultist_chestplate: "zoomers_armory:netherite_cultist_chestplate",
+/** @type {string} */
+i_netherite_cultist_leggings: "zoomers_armory:netherite_cultist_leggings",
+/** @type {string} */
+i_netherite_cultist_boots: "zoomers_armory:netherite_cultist_boots",
+/** @type {string} */
+i_netherite_shadowwalker_helmet: "zoomers_armory:netherite_shadowwalker_helmet",
+/** @type {string} */
+i_netherite_shadowwalker_chestplate: "zoomers_armory:netherite_shadowwalker_chestplate",
+/** @type {string} */
+i_netherite_shadowwalker_leggings: "zoomers_armory:netherite_shadowwalker_leggings",
+/** @type {string} */
+i_netherite_shadowwalker_boots: "zoomers_armory:netherite_shadowwalker_boots",
+/** @type {string} */
+i_netherite_priest_helmet: "zoomers_armory:netherite_priest_helmet",
+/** @type {string} */
+i_netherite_priest_chestplate: "zoomers_armory:netherite_priest_chestplate",
+/** @type {string} */
+i_netherite_priest_leggings: "zoomers_armory:netherite_priest_leggings",
+/** @type {string} */
+i_netherite_priest_boots: "zoomers_armory:netherite_priest_boots",
+/** @type {string} */
+i_netherite_plagued_helmet: "zoomers_armory:netherite_plagued_helmet",
+/** @type {string} */
+i_netherite_plagued_chestplate: "zoomers_armory:netherite_plagued_chestplate",
+/** @type {string} */
+i_netherite_plagued_leggings: "zoomers_armory:netherite_plagued_leggings",
+/** @type {string} */
+i_netherite_plagued_boots: "zoomers_armory:netherite_plagued_boots",
+/** @type {string} */
+i_cloggrum_claws: "zoomers_armory:cloggrum_claws",
+/** @type {string} */
+i_cloggrum_dagger: "zoomers_armory:cloggrum_dagger",
+/** @type {string} */
+i_cloggrum_shortsword: "zoomers_armory:cloggrum_shortsword",
+/** @type {string} */
+i_cloggrum_heavysword: "zoomers_armory:cloggrum_heavysword",
+/** @type {string} */
+i_cloggrum_cutlass: "zoomers_armory:cloggrum_cutlass",
+/** @type {string} */
+i_cloggrum_mace: "zoomers_armory:cloggrum_mace",
+/** @type {string} */
+i_cloggrum_heavymace: "zoomers_armory:cloggrum_heavymace",
+/** @type {string} */
+i_cloggrum_warhammer: "zoomers_armory:cloggrum_warhammer",
+/** @type {string} */
+i_cloggrum_battleaxe: "zoomers_armory:cloggrum_battleaxe",
+/** @type {string} */
+i_cloggrum_spear: "zoomers_armory:cloggrum_spear",
+/** @type {string} */
+i_cloggrum_halberd: "zoomers_armory:cloggrum_halberd",
+/** @type {string} */
+i_cloggrum_scythe: "zoomers_armory:cloggrum_scythe",
+/** @type {string} */
+i_cloggrum_katana: "zoomers_armory:cloggrum_katana",
+/** @type {string} */
+i_cloggrum_twinblade: "zoomers_armory:cloggrum_twinblade",
+/** @type {string} */
+i_cloggrum_sai: "zoomers_armory:cloggrum_sai",
+/** @type {string} */
+i_cloggrum_warglaive: "zoomers_armory:cloggrum_warglaive",
+/** @type {string} */
+i_cloggrum_musashi: "zoomers_armory:cloggrum_musashi",
+/** @type {string} */
+i_cloggrum_arcane_staff: "zoomers_armory:cloggrum_arcane_staff",
+/** @type {string} */
+i_cloggrum_woodwind_staff: "zoomers_armory:cloggrum_woodwind_staff",
+/** @type {string} */
+i_cloggrum_fire_staff: "zoomers_armory:cloggrum_fire_staff",
+/** @type {string} */
+i_cloggrum_ice_staff: "zoomers_armory:cloggrum_ice_staff",
+/** @type {string} */
+i_cloggrum_lightning_staff: "zoomers_armory:cloggrum_lightning_staff",
+/** @type {string} */
+i_cloggrum_nature_staff: "zoomers_armory:cloggrum_nature_staff",
+/** @type {string} */
+i_cloggrum_holy_staff: "zoomers_armory:cloggrum_holy_staff",
+/** @type {string} */
+i_cloggrum_blood_staff: "zoomers_armory:cloggrum_blood_staff",
+/** @type {string} */
+i_cloggrum_evocation_staff: "zoomers_armory:cloggrum_evocation_staff",
+/** @type {string} */
+i_cloggrum_ender_staff: "zoomers_armory:cloggrum_ender_staff",
+/** @type {string} */
+i_cloggrum_buckler: "zoomers_armory:cloggrum_buckler",
+/** @type {string} */
+i_cloggrum_heater: "zoomers_armory:cloggrum_heater",
+/** @type {string} */
+i_cloggrum_tower: "zoomers_armory:cloggrum_tower",
+/** @type {string} */
+i_cloggrum_shortbow: "zoomers_armory:cloggrum_shortbow",
+/** @type {string} */
+i_cloggrum_bow: "zoomers_armory:cloggrum_bow",
+/** @type {string} */
+i_cloggrum_longbow: "zoomers_armory:cloggrum_longbow",
+/** @type {string} */
+i_cloggrum_crossbow: "zoomers_armory:cloggrum_crossbow",
+/** @type {string} */
+i_iron_rogue_boots: "zoomers_armory:iron_rogue_boots",
+/** @type {string} */
+i_gold_rogue_helmet: "zoomers_armory:gold_rogue_helmet",
+/** @type {string} */
+i_gold_rogue_chestplate: "zoomers_armory:gold_rogue_chestplate",
+/** @type {string} */
+i_gold_rogue_leggings: "zoomers_armory:gold_rogue_leggings",
+/** @type {string} */
+i_cloggrum_samurai_helmet: "zoomers_armory:cloggrum_samurai_helmet",
+/** @type {string} */
+i_cloggrum_samurai_chestplate: "zoomers_armory:cloggrum_samurai_chestplate",
+/** @type {string} */
+i_cloggrum_samurai_leggings: "zoomers_armory:cloggrum_samurai_leggings",
+/** @type {string} */
+i_cloggrum_samurai_boots: "zoomers_armory:cloggrum_samurai_boots",
+/** @type {string} */
+i_gold_rogue_boots: "zoomers_armory:gold_rogue_boots",
+/** @type {string} */
+i_diamond_rogue_helmet: "zoomers_armory:diamond_rogue_helmet",
+/** @type {string} */
+i_diamond_rogue_chestplate: "zoomers_armory:diamond_rogue_chestplate",
+/** @type {string} */
+i_diamond_rogue_leggings: "zoomers_armory:diamond_rogue_leggings",
+/** @type {string} */
+i_cloggrum_archer_helmet: "zoomers_armory:cloggrum_archer_helmet",
+/** @type {string} */
+i_cloggrum_archer_chestplate: "zoomers_armory:cloggrum_archer_chestplate",
+/** @type {string} */
+i_cloggrum_archer_leggings: "zoomers_armory:cloggrum_archer_leggings",
+/** @type {string} */
+i_cloggrum_archer_boots: "zoomers_armory:cloggrum_archer_boots",
+/** @type {string} */
+i_cloggrum_ranger_helmet: "zoomers_armory:cloggrum_ranger_helmet",
+/** @type {string} */
+i_cloggrum_ranger_chestplate: "zoomers_armory:cloggrum_ranger_chestplate",
+/** @type {string} */
+i_cloggrum_ranger_leggings: "zoomers_armory:cloggrum_ranger_leggings",
+/** @type {string} */
+i_cloggrum_ranger_boots: "zoomers_armory:cloggrum_ranger_boots",
+/** @type {string} */
+i_cloggrum_pyromancer_helmet: "zoomers_armory:cloggrum_pyromancer_helmet",
+/** @type {string} */
+i_cloggrum_pyromancer_chestplate: "zoomers_armory:cloggrum_pyromancer_chestplate",
+/** @type {string} */
+i_cloggrum_pyromancer_leggings: "zoomers_armory:cloggrum_pyromancer_leggings",
+/** @type {string} */
+i_cloggrum_pyromancer_boots: "zoomers_armory:cloggrum_pyromancer_boots",
+/** @type {string} */
+i_cloggrum_cryomancer_helmet: "zoomers_armory:cloggrum_cryomancer_helmet",
+/** @type {string} */
+i_cloggrum_cryomancer_chestplate: "zoomers_armory:cloggrum_cryomancer_chestplate",
+/** @type {string} */
+i_cloggrum_cryomancer_leggings: "zoomers_armory:cloggrum_cryomancer_leggings",
+/** @type {string} */
+i_cloggrum_cryomancer_boots: "zoomers_armory:cloggrum_cryomancer_boots",
+/** @type {string} */
+i_cloggrum_electromancer_helmet: "zoomers_armory:cloggrum_electromancer_helmet",
+/** @type {string} */
+i_cloggrum_electromancer_chestplate: "zoomers_armory:cloggrum_electromancer_chestplate",
+/** @type {string} */
+i_cloggrum_electromancer_leggings: "zoomers_armory:cloggrum_electromancer_leggings",
+/** @type {string} */
+i_cloggrum_electromancer_boots: "zoomers_armory:cloggrum_electromancer_boots",
+/** @type {string} */
+i_cloggrum_archevoker_helmet: "zoomers_armory:cloggrum_archevoker_helmet",
+/** @type {string} */
+i_cloggrum_archevoker_chestplate: "zoomers_armory:cloggrum_archevoker_chestplate",
+/** @type {string} */
+i_cloggrum_archevoker_leggings: "zoomers_armory:cloggrum_archevoker_leggings",
+/** @type {string} */
+i_cloggrum_archevoker_boots: "zoomers_armory:cloggrum_archevoker_boots",
+/** @type {string} */
+i_cloggrum_cultist_helmet: "zoomers_armory:cloggrum_cultist_helmet",
+/** @type {string} */
+i_cloggrum_cultist_chestplate: "zoomers_armory:cloggrum_cultist_chestplate",
+/** @type {string} */
+i_cloggrum_cultist_leggings: "zoomers_armory:cloggrum_cultist_leggings",
+/** @type {string} */
+i_cloggrum_cultist_boots: "zoomers_armory:cloggrum_cultist_boots",
+/** @type {string} */
+i_cloggrum_shadowwalker_helmet: "zoomers_armory:cloggrum_shadowwalker_helmet",
+/** @type {string} */
+i_cloggrum_shadowwalker_chestplate: "zoomers_armory:cloggrum_shadowwalker_chestplate",
+/** @type {string} */
+i_cloggrum_shadowwalker_leggings: "zoomers_armory:cloggrum_shadowwalker_leggings",
+/** @type {string} */
+i_cloggrum_shadowwalker_boots: "zoomers_armory:cloggrum_shadowwalker_boots",
+/** @type {string} */
+i_cloggrum_priest_helmet: "zoomers_armory:cloggrum_priest_helmet",
+/** @type {string} */
+i_cloggrum_priest_chestplate: "zoomers_armory:cloggrum_priest_chestplate",
+/** @type {string} */
+i_cloggrum_priest_leggings: "zoomers_armory:cloggrum_priest_leggings",
+/** @type {string} */
+i_cloggrum_priest_boots: "zoomers_armory:cloggrum_priest_boots",
+/** @type {string} */
+i_cloggrum_plagued_helmet: "zoomers_armory:cloggrum_plagued_helmet",
+/** @type {string} */
+i_cloggrum_plagued_chestplate: "zoomers_armory:cloggrum_plagued_chestplate",
+/** @type {string} */
+i_cloggrum_plagued_leggings: "zoomers_armory:cloggrum_plagued_leggings",
+/** @type {string} */
+i_cloggrum_plagued_boots: "zoomers_armory:cloggrum_plagued_boots",
+/** @type {string} */
+i_froststeel_claws: "zoomers_armory:froststeel_claws",
+/** @type {string} */
+i_froststeel_dagger: "zoomers_armory:froststeel_dagger",
+/** @type {string} */
+i_froststeel_shortsword: "zoomers_armory:froststeel_shortsword",
+/** @type {string} */
+i_froststeel_heavysword: "zoomers_armory:froststeel_heavysword",
+/** @type {string} */
+i_froststeel_cutlass: "zoomers_armory:froststeel_cutlass",
+/** @type {string} */
+i_froststeel_mace: "zoomers_armory:froststeel_mace",
+/** @type {string} */
+i_froststeel_heavymace: "zoomers_armory:froststeel_heavymace",
+/** @type {string} */
+i_froststeel_warhammer: "zoomers_armory:froststeel_warhammer",
+/** @type {string} */
+i_froststeel_battleaxe: "zoomers_armory:froststeel_battleaxe",
+/** @type {string} */
+i_froststeel_spear: "zoomers_armory:froststeel_spear",
+/** @type {string} */
+i_froststeel_halberd: "zoomers_armory:froststeel_halberd",
+/** @type {string} */
+i_froststeel_scythe: "zoomers_armory:froststeel_scythe",
+/** @type {string} */
+i_froststeel_katana: "zoomers_armory:froststeel_katana",
+/** @type {string} */
+i_froststeel_twinblade: "zoomers_armory:froststeel_twinblade",
+/** @type {string} */
+i_froststeel_sai: "zoomers_armory:froststeel_sai",
+/** @type {string} */
+i_froststeel_warglaive: "zoomers_armory:froststeel_warglaive",
+/** @type {string} */
+i_froststeel_musashi: "zoomers_armory:froststeel_musashi",
+/** @type {string} */
+i_froststeel_arcane_staff: "zoomers_armory:froststeel_arcane_staff",
+/** @type {string} */
+i_froststeel_woodwind_staff: "zoomers_armory:froststeel_woodwind_staff",
+/** @type {string} */
+i_froststeel_fire_staff: "zoomers_armory:froststeel_fire_staff",
+/** @type {string} */
+i_froststeel_ice_staff: "zoomers_armory:froststeel_ice_staff",
+/** @type {string} */
+i_froststeel_lightning_staff: "zoomers_armory:froststeel_lightning_staff",
+/** @type {string} */
+i_froststeel_nature_staff: "zoomers_armory:froststeel_nature_staff",
+/** @type {string} */
+i_froststeel_holy_staff: "zoomers_armory:froststeel_holy_staff",
+/** @type {string} */
+i_froststeel_blood_staff: "zoomers_armory:froststeel_blood_staff",
+/** @type {string} */
+i_froststeel_evocation_staff: "zoomers_armory:froststeel_evocation_staff",
+/** @type {string} */
+i_froststeel_ender_staff: "zoomers_armory:froststeel_ender_staff",
+/** @type {string} */
+i_froststeel_buckler: "zoomers_armory:froststeel_buckler",
+/** @type {string} */
+i_froststeel_heater: "zoomers_armory:froststeel_heater",
+/** @type {string} */
+i_froststeel_tower: "zoomers_armory:froststeel_tower",
+/** @type {string} */
+i_froststeel_shortbow: "zoomers_armory:froststeel_shortbow",
+/** @type {string} */
+i_froststeel_bow: "zoomers_armory:froststeel_bow",
+/** @type {string} */
+i_froststeel_longbow: "zoomers_armory:froststeel_longbow",
+/** @type {string} */
+i_froststeel_crossbow: "zoomers_armory:froststeel_crossbow",
+/** @type {string} */
+i_diamond_rogue_boots: "zoomers_armory:diamond_rogue_boots",
+/** @type {string} */
+i_neptunium_rogue_helmet: "zoomers_armory:neptunium_rogue_helmet",
+/** @type {string} */
+i_neptunium_rogue_chestplate: "zoomers_armory:neptunium_rogue_chestplate",
+/** @type {string} */
+i_neptunium_rogue_leggings: "zoomers_armory:neptunium_rogue_leggings",
+/** @type {string} */
+i_froststeel_samurai_helmet: "zoomers_armory:froststeel_samurai_helmet",
+/** @type {string} */
+i_froststeel_samurai_chestplate: "zoomers_armory:froststeel_samurai_chestplate",
+/** @type {string} */
+i_froststeel_samurai_leggings: "zoomers_armory:froststeel_samurai_leggings",
+/** @type {string} */
+i_froststeel_samurai_boots: "zoomers_armory:froststeel_samurai_boots",
+/** @type {string} */
+i_neptunium_rogue_boots: "zoomers_armory:neptunium_rogue_boots",
+/** @type {string} */
+i_utherium_tank_helmet: "zoomers_armory:utherium_tank_helmet",
+/** @type {string} */
+i_utherium_tank_chestplate: "zoomers_armory:utherium_tank_chestplate",
+/** @type {string} */
+i_utherium_tank_leggings: "zoomers_armory:utherium_tank_leggings",
+/** @type {string} */
+i_froststeel_archer_helmet: "zoomers_armory:froststeel_archer_helmet",
+/** @type {string} */
+i_froststeel_archer_chestplate: "zoomers_armory:froststeel_archer_chestplate",
+/** @type {string} */
+i_froststeel_archer_leggings: "zoomers_armory:froststeel_archer_leggings",
+/** @type {string} */
+i_froststeel_archer_boots: "zoomers_armory:froststeel_archer_boots",
+/** @type {string} */
+i_froststeel_ranger_helmet: "zoomers_armory:froststeel_ranger_helmet",
+/** @type {string} */
+i_froststeel_ranger_chestplate: "zoomers_armory:froststeel_ranger_chestplate",
+/** @type {string} */
+i_froststeel_ranger_leggings: "zoomers_armory:froststeel_ranger_leggings",
+/** @type {string} */
+i_froststeel_ranger_boots: "zoomers_armory:froststeel_ranger_boots",
+/** @type {string} */
+i_froststeel_pyromancer_helmet: "zoomers_armory:froststeel_pyromancer_helmet",
+/** @type {string} */
+i_froststeel_pyromancer_chestplate: "zoomers_armory:froststeel_pyromancer_chestplate",
+/** @type {string} */
+i_froststeel_pyromancer_leggings: "zoomers_armory:froststeel_pyromancer_leggings",
+/** @type {string} */
+i_froststeel_pyromancer_boots: "zoomers_armory:froststeel_pyromancer_boots",
+/** @type {string} */
+i_froststeel_cryomancer_helmet: "zoomers_armory:froststeel_cryomancer_helmet",
+/** @type {string} */
+i_froststeel_cryomancer_chestplate: "zoomers_armory:froststeel_cryomancer_chestplate",
+/** @type {string} */
+i_froststeel_cryomancer_leggings: "zoomers_armory:froststeel_cryomancer_leggings",
+/** @type {string} */
+i_froststeel_cryomancer_boots: "zoomers_armory:froststeel_cryomancer_boots",
+/** @type {string} */
+i_froststeel_electromancer_helmet: "zoomers_armory:froststeel_electromancer_helmet",
+/** @type {string} */
+i_froststeel_electromancer_chestplate: "zoomers_armory:froststeel_electromancer_chestplate",
+/** @type {string} */
+i_froststeel_electromancer_leggings: "zoomers_armory:froststeel_electromancer_leggings",
+/** @type {string} */
+i_froststeel_electromancer_boots: "zoomers_armory:froststeel_electromancer_boots",
+/** @type {string} */
+i_froststeel_archevoker_helmet: "zoomers_armory:froststeel_archevoker_helmet",
+/** @type {string} */
+i_froststeel_archevoker_chestplate: "zoomers_armory:froststeel_archevoker_chestplate",
+/** @type {string} */
+i_froststeel_archevoker_leggings: "zoomers_armory:froststeel_archevoker_leggings",
+/** @type {string} */
+i_froststeel_archevoker_boots: "zoomers_armory:froststeel_archevoker_boots",
+/** @type {string} */
+i_froststeel_cultist_helmet: "zoomers_armory:froststeel_cultist_helmet",
+/** @type {string} */
+i_froststeel_cultist_chestplate: "zoomers_armory:froststeel_cultist_chestplate",
+/** @type {string} */
+i_froststeel_cultist_leggings: "zoomers_armory:froststeel_cultist_leggings",
+/** @type {string} */
+i_froststeel_cultist_boots: "zoomers_armory:froststeel_cultist_boots",
+/** @type {string} */
+i_froststeel_shadowwalker_helmet: "zoomers_armory:froststeel_shadowwalker_helmet",
+/** @type {string} */
+i_froststeel_shadowwalker_chestplate: "zoomers_armory:froststeel_shadowwalker_chestplate",
+/** @type {string} */
+i_froststeel_shadowwalker_leggings: "zoomers_armory:froststeel_shadowwalker_leggings",
+/** @type {string} */
+i_froststeel_shadowwalker_boots: "zoomers_armory:froststeel_shadowwalker_boots",
+/** @type {string} */
+i_froststeel_priest_helmet: "zoomers_armory:froststeel_priest_helmet",
+/** @type {string} */
+i_froststeel_priest_chestplate: "zoomers_armory:froststeel_priest_chestplate",
+/** @type {string} */
+i_froststeel_priest_leggings: "zoomers_armory:froststeel_priest_leggings",
+/** @type {string} */
+i_froststeel_priest_boots: "zoomers_armory:froststeel_priest_boots",
+/** @type {string} */
+i_froststeel_plagued_helmet: "zoomers_armory:froststeel_plagued_helmet",
+/** @type {string} */
+i_froststeel_plagued_chestplate: "zoomers_armory:froststeel_plagued_chestplate",
+/** @type {string} */
+i_froststeel_plagued_leggings: "zoomers_armory:froststeel_plagued_leggings",
+/** @type {string} */
+i_froststeel_plagued_boots: "zoomers_armory:froststeel_plagued_boots",
+/** @type {string} */
+i_utherium_claws: "zoomers_armory:utherium_claws",
+/** @type {string} */
+i_utherium_dagger: "zoomers_armory:utherium_dagger",
+/** @type {string} */
+i_utherium_shortsword: "zoomers_armory:utherium_shortsword",
+/** @type {string} */
+i_utherium_heavysword: "zoomers_armory:utherium_heavysword",
+/** @type {string} */
+i_utherium_cutlass: "zoomers_armory:utherium_cutlass",
+/** @type {string} */
+i_utherium_mace: "zoomers_armory:utherium_mace",
+/** @type {string} */
+i_utherium_heavymace: "zoomers_armory:utherium_heavymace",
+/** @type {string} */
+i_utherium_warhammer: "zoomers_armory:utherium_warhammer",
+/** @type {string} */
+i_utherium_battleaxe: "zoomers_armory:utherium_battleaxe",
+/** @type {string} */
+i_utherium_spear: "zoomers_armory:utherium_spear",
+/** @type {string} */
+i_utherium_halberd: "zoomers_armory:utherium_halberd",
+/** @type {string} */
+i_utherium_scythe: "zoomers_armory:utherium_scythe",
+/** @type {string} */
+i_utherium_katana: "zoomers_armory:utherium_katana",
+/** @type {string} */
+i_utherium_twinblade: "zoomers_armory:utherium_twinblade",
+/** @type {string} */
+i_utherium_sai: "zoomers_armory:utherium_sai",
+/** @type {string} */
+i_utherium_warglaive: "zoomers_armory:utherium_warglaive",
+/** @type {string} */
+i_utherium_musashi: "zoomers_armory:utherium_musashi",
+/** @type {string} */
+i_utherium_arcane_staff: "zoomers_armory:utherium_arcane_staff",
+/** @type {string} */
+i_utherium_woodwind_staff: "zoomers_armory:utherium_woodwind_staff",
+/** @type {string} */
+i_utherium_fire_staff: "zoomers_armory:utherium_fire_staff",
+/** @type {string} */
+i_utherium_ice_staff: "zoomers_armory:utherium_ice_staff",
+/** @type {string} */
+i_utherium_lightning_staff: "zoomers_armory:utherium_lightning_staff",
+/** @type {string} */
+i_utherium_nature_staff: "zoomers_armory:utherium_nature_staff",
+/** @type {string} */
+i_utherium_holy_staff: "zoomers_armory:utherium_holy_staff",
+/** @type {string} */
+i_utherium_blood_staff: "zoomers_armory:utherium_blood_staff",
+/** @type {string} */
+i_utherium_evocation_staff: "zoomers_armory:utherium_evocation_staff",
+/** @type {string} */
+i_utherium_ender_staff: "zoomers_armory:utherium_ender_staff",
+/** @type {string} */
+i_utherium_buckler: "zoomers_armory:utherium_buckler",
+/** @type {string} */
+i_utherium_heater: "zoomers_armory:utherium_heater",
+/** @type {string} */
+i_utherium_tower: "zoomers_armory:utherium_tower",
+/** @type {string} */
+i_utherium_shortbow: "zoomers_armory:utherium_shortbow",
+/** @type {string} */
+i_utherium_bow: "zoomers_armory:utherium_bow",
+/** @type {string} */
+i_utherium_longbow: "zoomers_armory:utherium_longbow",
+/** @type {string} */
+i_utherium_crossbow: "zoomers_armory:utherium_crossbow",
+/** @type {string} */
+i_pyrope_rogue_helmet: "zoomers_armory:pyrope_rogue_helmet",
+/** @type {string} */
+i_pyrope_rogue_chestplate: "zoomers_armory:pyrope_rogue_chestplate",
+/** @type {string} */
+i_pyrope_rogue_leggings: "zoomers_armory:pyrope_rogue_leggings",
+/** @type {string} */
+i_pyrope_rogue_boots: "zoomers_armory:pyrope_rogue_boots",
+/** @type {string} */
+i_utherium_samurai_helmet: "zoomers_armory:utherium_samurai_helmet",
+/** @type {string} */
+i_utherium_samurai_chestplate: "zoomers_armory:utherium_samurai_chestplate",
+/** @type {string} */
+i_utherium_samurai_leggings: "zoomers_armory:utherium_samurai_leggings",
+/** @type {string} */
+i_utherium_samurai_boots: "zoomers_armory:utherium_samurai_boots",
+/** @type {string} */
+i_forgotten_tank_boots: "zoomers_armory:forgotten_tank_boots",
+/** @type {string} */
+i_aquite_rogue_helmet: "zoomers_armory:aquite_rogue_helmet",
+/** @type {string} */
+i_aquite_rogue_chestplate: "zoomers_armory:aquite_rogue_chestplate",
+/** @type {string} */
+i_aquite_rogue_leggings: "zoomers_armory:aquite_rogue_leggings",
+/** @type {string} */
+i_utherium_archer_helmet: "zoomers_armory:utherium_archer_helmet",
+/** @type {string} */
+i_utherium_archer_chestplate: "zoomers_armory:utherium_archer_chestplate",
+/** @type {string} */
+i_utherium_archer_leggings: "zoomers_armory:utherium_archer_leggings",
+/** @type {string} */
+i_utherium_archer_boots: "zoomers_armory:utherium_archer_boots",
+/** @type {string} */
+i_utherium_ranger_helmet: "zoomers_armory:utherium_ranger_helmet",
+/** @type {string} */
+i_utherium_ranger_chestplate: "zoomers_armory:utherium_ranger_chestplate",
+/** @type {string} */
+i_utherium_ranger_leggings: "zoomers_armory:utherium_ranger_leggings",
+/** @type {string} */
+i_utherium_ranger_boots: "zoomers_armory:utherium_ranger_boots",
+/** @type {string} */
+i_utherium_pyromancer_helmet: "zoomers_armory:utherium_pyromancer_helmet",
+/** @type {string} */
+i_utherium_pyromancer_chestplate: "zoomers_armory:utherium_pyromancer_chestplate",
+/** @type {string} */
+i_utherium_pyromancer_leggings: "zoomers_armory:utherium_pyromancer_leggings",
+/** @type {string} */
+i_utherium_pyromancer_boots: "zoomers_armory:utherium_pyromancer_boots",
+/** @type {string} */
+i_utherium_cryomancer_helmet: "zoomers_armory:utherium_cryomancer_helmet",
+/** @type {string} */
+i_utherium_cryomancer_chestplate: "zoomers_armory:utherium_cryomancer_chestplate",
+/** @type {string} */
+i_utherium_cryomancer_leggings: "zoomers_armory:utherium_cryomancer_leggings",
+/** @type {string} */
+i_utherium_cryomancer_boots: "zoomers_armory:utherium_cryomancer_boots",
+/** @type {string} */
+i_utherium_electromancer_helmet: "zoomers_armory:utherium_electromancer_helmet",
+/** @type {string} */
+i_utherium_electromancer_chestplate: "zoomers_armory:utherium_electromancer_chestplate",
+/** @type {string} */
+i_utherium_electromancer_leggings: "zoomers_armory:utherium_electromancer_leggings",
+/** @type {string} */
+i_utherium_electromancer_boots: "zoomers_armory:utherium_electromancer_boots",
+/** @type {string} */
+i_utherium_archevoker_helmet: "zoomers_armory:utherium_archevoker_helmet",
+/** @type {string} */
+i_utherium_archevoker_chestplate: "zoomers_armory:utherium_archevoker_chestplate",
+/** @type {string} */
+i_utherium_archevoker_leggings: "zoomers_armory:utherium_archevoker_leggings",
+/** @type {string} */
+i_utherium_archevoker_boots: "zoomers_armory:utherium_archevoker_boots",
+/** @type {string} */
+i_utherium_cultist_helmet: "zoomers_armory:utherium_cultist_helmet",
+/** @type {string} */
+i_utherium_cultist_chestplate: "zoomers_armory:utherium_cultist_chestplate",
+/** @type {string} */
+i_utherium_cultist_leggings: "zoomers_armory:utherium_cultist_leggings",
+/** @type {string} */
+i_utherium_cultist_boots: "zoomers_armory:utherium_cultist_boots",
+/** @type {string} */
+i_utherium_shadowwalker_helmet: "zoomers_armory:utherium_shadowwalker_helmet",
+/** @type {string} */
+i_utherium_shadowwalker_chestplate: "zoomers_armory:utherium_shadowwalker_chestplate",
+/** @type {string} */
+i_utherium_shadowwalker_leggings: "zoomers_armory:utherium_shadowwalker_leggings",
+/** @type {string} */
+i_utherium_shadowwalker_boots: "zoomers_armory:utherium_shadowwalker_boots",
+/** @type {string} */
+i_utherium_priest_helmet: "zoomers_armory:utherium_priest_helmet",
+/** @type {string} */
+i_utherium_priest_chestplate: "zoomers_armory:utherium_priest_chestplate",
+/** @type {string} */
+i_utherium_priest_leggings: "zoomers_armory:utherium_priest_leggings",
+/** @type {string} */
+i_utherium_priest_boots: "zoomers_armory:utherium_priest_boots",
+/** @type {string} */
+i_utherium_plagued_helmet: "zoomers_armory:utherium_plagued_helmet",
+/** @type {string} */
+i_utherium_plagued_chestplate: "zoomers_armory:utherium_plagued_chestplate",
+/** @type {string} */
+i_utherium_plagued_leggings: "zoomers_armory:utherium_plagued_leggings",
+/** @type {string} */
+i_utherium_plagued_boots: "zoomers_armory:utherium_plagued_boots",
+/** @type {string} */
+i_forgotten_claws: "zoomers_armory:forgotten_claws",
+/** @type {string} */
+i_forgotten_dagger: "zoomers_armory:forgotten_dagger",
+/** @type {string} */
+i_forgotten_shortsword: "zoomers_armory:forgotten_shortsword",
+/** @type {string} */
+i_forgotten_heavysword: "zoomers_armory:forgotten_heavysword",
+/** @type {string} */
+i_forgotten_cutlass: "zoomers_armory:forgotten_cutlass",
+/** @type {string} */
+i_forgotten_mace: "zoomers_armory:forgotten_mace",
+/** @type {string} */
+i_forgotten_heavymace: "zoomers_armory:forgotten_heavymace",
+/** @type {string} */
+i_forgotten_warhammer: "zoomers_armory:forgotten_warhammer",
+/** @type {string} */
+i_forgotten_battleaxe: "zoomers_armory:forgotten_battleaxe",
+/** @type {string} */
+i_forgotten_spear: "zoomers_armory:forgotten_spear",
+/** @type {string} */
+i_forgotten_halberd: "zoomers_armory:forgotten_halberd",
+/** @type {string} */
+i_forgotten_scythe: "zoomers_armory:forgotten_scythe",
+/** @type {string} */
+i_forgotten_katana: "zoomers_armory:forgotten_katana",
+/** @type {string} */
+i_forgotten_twinblade: "zoomers_armory:forgotten_twinblade",
+/** @type {string} */
+i_forgotten_sai: "zoomers_armory:forgotten_sai",
+/** @type {string} */
+i_forgotten_warglaive: "zoomers_armory:forgotten_warglaive",
+/** @type {string} */
+i_forgotten_musashi: "zoomers_armory:forgotten_musashi",
+/** @type {string} */
+i_forgotten_arcane_staff: "zoomers_armory:forgotten_arcane_staff",
+/** @type {string} */
+i_forgotten_woodwind_staff: "zoomers_armory:forgotten_woodwind_staff",
+/** @type {string} */
+i_forgotten_fire_staff: "zoomers_armory:forgotten_fire_staff",
+/** @type {string} */
+i_forgotten_ice_staff: "zoomers_armory:forgotten_ice_staff",
+/** @type {string} */
+i_forgotten_lightning_staff: "zoomers_armory:forgotten_lightning_staff",
+/** @type {string} */
+i_forgotten_nature_staff: "zoomers_armory:forgotten_nature_staff",
+/** @type {string} */
+i_forgotten_holy_staff: "zoomers_armory:forgotten_holy_staff",
+/** @type {string} */
+i_forgotten_blood_staff: "zoomers_armory:forgotten_blood_staff",
+/** @type {string} */
+i_forgotten_evocation_staff: "zoomers_armory:forgotten_evocation_staff",
+/** @type {string} */
+i_forgotten_ender_staff: "zoomers_armory:forgotten_ender_staff",
+/** @type {string} */
+i_forgotten_buckler: "zoomers_armory:forgotten_buckler",
+/** @type {string} */
+i_forgotten_heater: "zoomers_armory:forgotten_heater",
+/** @type {string} */
+i_forgotten_tower: "zoomers_armory:forgotten_tower",
+/** @type {string} */
+i_forgotten_shortbow: "zoomers_armory:forgotten_shortbow",
+/** @type {string} */
+i_forgotten_bow: "zoomers_armory:forgotten_bow",
+/** @type {string} */
+i_forgotten_longbow: "zoomers_armory:forgotten_longbow",
+/** @type {string} */
+i_forgotten_crossbow: "zoomers_armory:forgotten_crossbow",
+/** @type {string} */
+i_aquite_rogue_boots: "zoomers_armory:aquite_rogue_boots",
+/** @type {string} */
+i_jade_tank_helmet: "zoomers_armory:jade_tank_helmet",
+/** @type {string} */
+i_jade_tank_chestplate: "zoomers_armory:jade_tank_chestplate",
+/** @type {string} */
+i_jade_tank_leggings: "zoomers_armory:jade_tank_leggings",
+/** @type {string} */
+i_forgotten_samurai_helmet: "zoomers_armory:forgotten_samurai_helmet",
+/** @type {string} */
+i_forgotten_samurai_chestplate: "zoomers_armory:forgotten_samurai_chestplate",
+/** @type {string} */
+i_forgotten_samurai_leggings: "zoomers_armory:forgotten_samurai_leggings",
+/** @type {string} */
+i_forgotten_samurai_boots: "zoomers_armory:forgotten_samurai_boots",
+/** @type {string} */
+i_diopside_rogue_helmet: "zoomers_armory:diopside_rogue_helmet",
+/** @type {string} */
+i_diopside_rogue_chestplate: "zoomers_armory:diopside_rogue_chestplate",
+/** @type {string} */
+i_diopside_rogue_leggings: "zoomers_armory:diopside_rogue_leggings",
+/** @type {string} */
+i_diopside_rogue_boots: "zoomers_armory:diopside_rogue_boots",
+/** @type {string} */
+i_forgotten_archer_helmet: "zoomers_armory:forgotten_archer_helmet",
+/** @type {string} */
+i_forgotten_archer_chestplate: "zoomers_armory:forgotten_archer_chestplate",
+/** @type {string} */
+i_forgotten_archer_leggings: "zoomers_armory:forgotten_archer_leggings",
+/** @type {string} */
+i_forgotten_archer_boots: "zoomers_armory:forgotten_archer_boots",
+/** @type {string} */
+i_forgotten_ranger_helmet: "zoomers_armory:forgotten_ranger_helmet",
+/** @type {string} */
+i_forgotten_ranger_chestplate: "zoomers_armory:forgotten_ranger_chestplate",
+/** @type {string} */
+i_forgotten_ranger_leggings: "zoomers_armory:forgotten_ranger_leggings",
+/** @type {string} */
+i_forgotten_ranger_boots: "zoomers_armory:forgotten_ranger_boots",
+/** @type {string} */
+i_forgotten_pyromancer_helmet: "zoomers_armory:forgotten_pyromancer_helmet",
+/** @type {string} */
+i_forgotten_pyromancer_chestplate: "zoomers_armory:forgotten_pyromancer_chestplate",
+/** @type {string} */
+i_forgotten_pyromancer_leggings: "zoomers_armory:forgotten_pyromancer_leggings",
+/** @type {string} */
+i_forgotten_pyromancer_boots: "zoomers_armory:forgotten_pyromancer_boots",
+/** @type {string} */
+i_forgotten_cryomancer_helmet: "zoomers_armory:forgotten_cryomancer_helmet",
+/** @type {string} */
+i_forgotten_cryomancer_chestplate: "zoomers_armory:forgotten_cryomancer_chestplate",
+/** @type {string} */
+i_forgotten_cryomancer_leggings: "zoomers_armory:forgotten_cryomancer_leggings",
+/** @type {string} */
+i_forgotten_cryomancer_boots: "zoomers_armory:forgotten_cryomancer_boots",
+/** @type {string} */
+i_forgotten_electromancer_helmet: "zoomers_armory:forgotten_electromancer_helmet",
+/** @type {string} */
+i_forgotten_electromancer_chestplate: "zoomers_armory:forgotten_electromancer_chestplate",
+/** @type {string} */
+i_forgotten_electromancer_leggings: "zoomers_armory:forgotten_electromancer_leggings",
+/** @type {string} */
+i_forgotten_electromancer_boots: "zoomers_armory:forgotten_electromancer_boots",
+/** @type {string} */
+i_forgotten_archevoker_helmet: "zoomers_armory:forgotten_archevoker_helmet",
+/** @type {string} */
+i_forgotten_archevoker_chestplate: "zoomers_armory:forgotten_archevoker_chestplate",
+/** @type {string} */
+i_forgotten_archevoker_leggings: "zoomers_armory:forgotten_archevoker_leggings",
+/** @type {string} */
+i_forgotten_archevoker_boots: "zoomers_armory:forgotten_archevoker_boots",
+/** @type {string} */
+i_forgotten_cultist_helmet: "zoomers_armory:forgotten_cultist_helmet",
+/** @type {string} */
+i_forgotten_cultist_chestplate: "zoomers_armory:forgotten_cultist_chestplate",
+/** @type {string} */
+i_forgotten_cultist_leggings: "zoomers_armory:forgotten_cultist_leggings",
+/** @type {string} */
+i_forgotten_cultist_boots: "zoomers_armory:forgotten_cultist_boots",
+/** @type {string} */
+i_forgotten_shadowwalker_helmet: "zoomers_armory:forgotten_shadowwalker_helmet",
+/** @type {string} */
+i_forgotten_shadowwalker_chestplate: "zoomers_armory:forgotten_shadowwalker_chestplate",
+/** @type {string} */
+i_forgotten_shadowwalker_leggings: "zoomers_armory:forgotten_shadowwalker_leggings",
+/** @type {string} */
+i_forgotten_shadowwalker_boots: "zoomers_armory:forgotten_shadowwalker_boots",
+/** @type {string} */
+i_forgotten_priest_helmet: "zoomers_armory:forgotten_priest_helmet",
+/** @type {string} */
+i_forgotten_priest_chestplate: "zoomers_armory:forgotten_priest_chestplate",
+/** @type {string} */
+i_forgotten_priest_leggings: "zoomers_armory:forgotten_priest_leggings",
+/** @type {string} */
+i_forgotten_priest_boots: "zoomers_armory:forgotten_priest_boots",
+/** @type {string} */
+i_forgotten_plagued_helmet: "zoomers_armory:forgotten_plagued_helmet",
+/** @type {string} */
+i_forgotten_plagued_chestplate: "zoomers_armory:forgotten_plagued_chestplate",
+/** @type {string} */
+i_forgotten_plagued_leggings: "zoomers_armory:forgotten_plagued_leggings",
+/** @type {string} */
+i_forgotten_plagued_boots: "zoomers_armory:forgotten_plagued_boots",
+/** @type {string} */
+i_jade_claws: "zoomers_armory:jade_claws",
+/** @type {string} */
+i_jade_dagger: "zoomers_armory:jade_dagger",
+/** @type {string} */
+i_jade_shortsword: "zoomers_armory:jade_shortsword",
+/** @type {string} */
+i_jade_heavysword: "zoomers_armory:jade_heavysword",
+/** @type {string} */
+i_jade_cutlass: "zoomers_armory:jade_cutlass",
+/** @type {string} */
+i_jade_mace: "zoomers_armory:jade_mace",
+/** @type {string} */
+i_jade_heavymace: "zoomers_armory:jade_heavymace",
+/** @type {string} */
+i_jade_warhammer: "zoomers_armory:jade_warhammer",
+/** @type {string} */
+i_jade_battleaxe: "zoomers_armory:jade_battleaxe",
+/** @type {string} */
+i_jade_spear: "zoomers_armory:jade_spear",
+/** @type {string} */
+i_jade_halberd: "zoomers_armory:jade_halberd",
+/** @type {string} */
+i_jade_scythe: "zoomers_armory:jade_scythe",
+/** @type {string} */
+i_jade_katana: "zoomers_armory:jade_katana",
+/** @type {string} */
+i_jade_twinblade: "zoomers_armory:jade_twinblade",
+/** @type {string} */
+i_jade_sai: "zoomers_armory:jade_sai",
+/** @type {string} */
+i_jade_warglaive: "zoomers_armory:jade_warglaive",
+/** @type {string} */
+i_jade_musashi: "zoomers_armory:jade_musashi",
+/** @type {string} */
+i_jade_arcane_staff: "zoomers_armory:jade_arcane_staff",
+/** @type {string} */
+i_jade_woodwind_staff: "zoomers_armory:jade_woodwind_staff",
+/** @type {string} */
+i_jade_fire_staff: "zoomers_armory:jade_fire_staff",
+/** @type {string} */
+i_jade_ice_staff: "zoomers_armory:jade_ice_staff",
+/** @type {string} */
+i_jade_lightning_staff: "zoomers_armory:jade_lightning_staff",
+/** @type {string} */
+i_jade_nature_staff: "zoomers_armory:jade_nature_staff",
+/** @type {string} */
+i_jade_holy_staff: "zoomers_armory:jade_holy_staff",
+/** @type {string} */
+i_jade_blood_staff: "zoomers_armory:jade_blood_staff",
+/** @type {string} */
+i_jade_evocation_staff: "zoomers_armory:jade_evocation_staff",
+/** @type {string} */
+i_jade_ender_staff: "zoomers_armory:jade_ender_staff",
+/** @type {string} */
+i_jade_buckler: "zoomers_armory:jade_buckler",
+/** @type {string} */
+i_jade_heater: "zoomers_armory:jade_heater",
+/** @type {string} */
+i_jade_tower: "zoomers_armory:jade_tower",
+/** @type {string} */
+i_jade_shortbow: "zoomers_armory:jade_shortbow",
+/** @type {string} */
+i_jade_bow: "zoomers_armory:jade_bow",
+/** @type {string} */
+i_jade_longbow: "zoomers_armory:jade_longbow",
+/** @type {string} */
+i_jade_crossbow: "zoomers_armory:jade_crossbow",
+/** @type {string} */
+i_charoite_rogue_helmet: "zoomers_armory:charoite_rogue_helmet",
+/** @type {string} */
+i_crystalline_tank_helmet: "zoomers_armory:crystalline_tank_helmet",
+/** @type {string} */
+i_crystalline_tank_chestplate: "zoomers_armory:crystalline_tank_chestplate",
+/** @type {string} */
+i_crystalline_tank_leggings: "zoomers_armory:crystalline_tank_leggings",
+/** @type {string} */
+i_jade_samurai_helmet: "zoomers_armory:jade_samurai_helmet",
+/** @type {string} */
+i_jade_samurai_chestplate: "zoomers_armory:jade_samurai_chestplate",
+/** @type {string} */
+i_jade_samurai_leggings: "zoomers_armory:jade_samurai_leggings",
+/** @type {string} */
+i_jade_samurai_boots: "zoomers_armory:jade_samurai_boots",
+/** @type {string} */
+i_charoite_rogue_chestplate: "zoomers_armory:charoite_rogue_chestplate",
+/** @type {string} */
+i_charoite_rogue_leggings: "zoomers_armory:charoite_rogue_leggings",
+/** @type {string} */
+i_charoite_rogue_boots: "zoomers_armory:charoite_rogue_boots",
+/** @type {string} */
+i_horizonite_rogue_helmet: "zoomers_armory:horizonite_rogue_helmet",
+/** @type {string} */
+i_jade_archer_helmet: "zoomers_armory:jade_archer_helmet",
+/** @type {string} */
+i_jade_archer_chestplate: "zoomers_armory:jade_archer_chestplate",
+/** @type {string} */
+i_jade_archer_leggings: "zoomers_armory:jade_archer_leggings",
+/** @type {string} */
+i_jade_archer_boots: "zoomers_armory:jade_archer_boots",
+/** @type {string} */
+i_jade_ranger_helmet: "zoomers_armory:jade_ranger_helmet",
+/** @type {string} */
+i_jade_ranger_chestplate: "zoomers_armory:jade_ranger_chestplate",
+/** @type {string} */
+i_jade_ranger_leggings: "zoomers_armory:jade_ranger_leggings",
+/** @type {string} */
+i_jade_ranger_boots: "zoomers_armory:jade_ranger_boots",
+/** @type {string} */
+i_jade_pyromancer_helmet: "zoomers_armory:jade_pyromancer_helmet",
+/** @type {string} */
+i_jade_pyromancer_chestplate: "zoomers_armory:jade_pyromancer_chestplate",
+/** @type {string} */
+i_jade_pyromancer_leggings: "zoomers_armory:jade_pyromancer_leggings",
+/** @type {string} */
+i_jade_pyromancer_boots: "zoomers_armory:jade_pyromancer_boots",
+/** @type {string} */
+i_jade_cryomancer_helmet: "zoomers_armory:jade_cryomancer_helmet",
+/** @type {string} */
+i_jade_cryomancer_chestplate: "zoomers_armory:jade_cryomancer_chestplate",
+/** @type {string} */
+i_jade_cryomancer_leggings: "zoomers_armory:jade_cryomancer_leggings",
+/** @type {string} */
+i_jade_cryomancer_boots: "zoomers_armory:jade_cryomancer_boots",
+/** @type {string} */
+i_jade_electromancer_helmet: "zoomers_armory:jade_electromancer_helmet",
+/** @type {string} */
+i_jade_electromancer_chestplate: "zoomers_armory:jade_electromancer_chestplate",
+/** @type {string} */
+i_jade_electromancer_leggings: "zoomers_armory:jade_electromancer_leggings",
+/** @type {string} */
+i_jade_electromancer_boots: "zoomers_armory:jade_electromancer_boots",
+/** @type {string} */
+i_jade_archevoker_helmet: "zoomers_armory:jade_archevoker_helmet",
+/** @type {string} */
+i_jade_archevoker_chestplate: "zoomers_armory:jade_archevoker_chestplate",
+/** @type {string} */
+i_jade_archevoker_leggings: "zoomers_armory:jade_archevoker_leggings",
+/** @type {string} */
+i_jade_archevoker_boots: "zoomers_armory:jade_archevoker_boots",
+/** @type {string} */
+i_jade_cultist_helmet: "zoomers_armory:jade_cultist_helmet",
+/** @type {string} */
+i_jade_cultist_chestplate: "zoomers_armory:jade_cultist_chestplate",
+/** @type {string} */
+i_jade_cultist_leggings: "zoomers_armory:jade_cultist_leggings",
+/** @type {string} */
+i_jade_cultist_boots: "zoomers_armory:jade_cultist_boots",
+/** @type {string} */
+i_jade_shadowwalker_helmet: "zoomers_armory:jade_shadowwalker_helmet",
+/** @type {string} */
+i_jade_shadowwalker_chestplate: "zoomers_armory:jade_shadowwalker_chestplate",
+/** @type {string} */
+i_jade_shadowwalker_leggings: "zoomers_armory:jade_shadowwalker_leggings",
+/** @type {string} */
+i_jade_shadowwalker_boots: "zoomers_armory:jade_shadowwalker_boots",
+/** @type {string} */
+i_jade_priest_helmet: "zoomers_armory:jade_priest_helmet",
+/** @type {string} */
+i_jade_priest_chestplate: "zoomers_armory:jade_priest_chestplate",
+/** @type {string} */
+i_jade_priest_leggings: "zoomers_armory:jade_priest_leggings",
+/** @type {string} */
+i_jade_priest_boots: "zoomers_armory:jade_priest_boots",
+/** @type {string} */
+i_jade_plagued_helmet: "zoomers_armory:jade_plagued_helmet",
+/** @type {string} */
+i_jade_plagued_chestplate: "zoomers_armory:jade_plagued_chestplate",
+/** @type {string} */
+i_jade_plagued_leggings: "zoomers_armory:jade_plagued_leggings",
+/** @type {string} */
+i_jade_plagued_boots: "zoomers_armory:jade_plagued_boots",
+/** @type {string} */
+i_crystalline_claws: "zoomers_armory:crystalline_claws",
+/** @type {string} */
+i_crystalline_dagger: "zoomers_armory:crystalline_dagger",
+/** @type {string} */
+i_crystalline_shortsword: "zoomers_armory:crystalline_shortsword",
+/** @type {string} */
+i_crystalline_heavysword: "zoomers_armory:crystalline_heavysword",
+/** @type {string} */
+i_crystalline_cutlass: "zoomers_armory:crystalline_cutlass",
+/** @type {string} */
+i_crystalline_mace: "zoomers_armory:crystalline_mace",
+/** @type {string} */
+i_crystalline_heavymace: "zoomers_armory:crystalline_heavymace",
+/** @type {string} */
+i_crystalline_warhammer: "zoomers_armory:crystalline_warhammer",
+/** @type {string} */
+i_crystalline_battleaxe: "zoomers_armory:crystalline_battleaxe",
+/** @type {string} */
+i_crystalline_spear: "zoomers_armory:crystalline_spear",
+/** @type {string} */
+i_crystalline_halberd: "zoomers_armory:crystalline_halberd",
+/** @type {string} */
+i_crystalline_scythe: "zoomers_armory:crystalline_scythe",
+/** @type {string} */
+i_crystalline_katana: "zoomers_armory:crystalline_katana",
+/** @type {string} */
+i_crystalline_twinblade: "zoomers_armory:crystalline_twinblade",
+/** @type {string} */
+i_crystalline_sai: "zoomers_armory:crystalline_sai",
+/** @type {string} */
+i_crystalline_warglaive: "zoomers_armory:crystalline_warglaive",
+/** @type {string} */
+i_crystalline_musashi: "zoomers_armory:crystalline_musashi",
+/** @type {string} */
+i_crystalline_arcane_staff: "zoomers_armory:crystalline_arcane_staff",
+/** @type {string} */
+i_crystalline_woodwind_staff: "zoomers_armory:crystalline_woodwind_staff",
+/** @type {string} */
+i_crystalline_fire_staff: "zoomers_armory:crystalline_fire_staff",
+/** @type {string} */
+i_crystalline_ice_staff: "zoomers_armory:crystalline_ice_staff",
+/** @type {string} */
+i_crystalline_lightning_staff: "zoomers_armory:crystalline_lightning_staff",
+/** @type {string} */
+i_crystalline_nature_staff: "zoomers_armory:crystalline_nature_staff",
+/** @type {string} */
+i_crystalline_holy_staff: "zoomers_armory:crystalline_holy_staff",
+/** @type {string} */
+i_crystalline_blood_staff: "zoomers_armory:crystalline_blood_staff",
+/** @type {string} */
+i_crystalline_evocation_staff: "zoomers_armory:crystalline_evocation_staff",
+/** @type {string} */
+i_crystalline_ender_staff: "zoomers_armory:crystalline_ender_staff",
+/** @type {string} */
+i_crystalline_buckler: "zoomers_armory:crystalline_buckler",
+/** @type {string} */
+i_crystalline_heater: "zoomers_armory:crystalline_heater",
+/** @type {string} */
+i_crystalline_tower: "zoomers_armory:crystalline_tower",
+/** @type {string} */
+i_crystalline_shortbow: "zoomers_armory:crystalline_shortbow",
+/** @type {string} */
+i_crystalline_bow: "zoomers_armory:crystalline_bow",
+/** @type {string} */
+i_crystalline_longbow: "zoomers_armory:crystalline_longbow",
+/** @type {string} */
+i_crystalline_crossbow: "zoomers_armory:crystalline_crossbow",
+/** @type {string} */
+i_crystalline_helmet: "zoomers_armory:crystalline_helmet",
+/** @type {string} */
+i_crystalline_chestplate: "zoomers_armory:crystalline_chestplate",
+/** @type {string} */
+i_crystalline_leggings: "zoomers_armory:crystalline_leggings",
+/** @type {string} */
+i_crystalline_boots: "zoomers_armory:crystalline_boots",
+/** @type {string} */
+i_horizonite_rogue_chestplate: "zoomers_armory:horizonite_rogue_chestplate",
+/** @type {string} */
+i_horizonite_rogue_leggings: "zoomers_armory:horizonite_rogue_leggings",
+/** @type {string} */
+i_horizonite_rogue_boots: "zoomers_armory:horizonite_rogue_boots",
+/** @type {string} */
+i_zanite_rogue_helmet: "zoomers_armory:zanite_rogue_helmet",
+/** @type {string} */
+i_crystalline_samurai_helmet: "zoomers_armory:crystalline_samurai_helmet",
+/** @type {string} */
+i_crystalline_samurai_chestplate: "zoomers_armory:crystalline_samurai_chestplate",
+/** @type {string} */
+i_crystalline_samurai_leggings: "zoomers_armory:crystalline_samurai_leggings",
+/** @type {string} */
+i_crystalline_samurai_boots: "zoomers_armory:crystalline_samurai_boots",
+/** @type {string} */
+i_zanite_rogue_chestplate: "zoomers_armory:zanite_rogue_chestplate",
+/** @type {string} */
+i_zanite_rogue_leggings: "zoomers_armory:zanite_rogue_leggings",
+/** @type {string} */
+i_zanite_rogue_boots: "zoomers_armory:zanite_rogue_boots",
+/** @type {string} */
+i_enchanted_gravitite_rogue_helmet: "zoomers_armory:enchanted_gravitite_rogue_helmet",
+/** @type {string} */
+i_crystalline_archer_helmet: "zoomers_armory:crystalline_archer_helmet",
+/** @type {string} */
+i_crystalline_archer_chestplate: "zoomers_armory:crystalline_archer_chestplate",
+/** @type {string} */
+i_crystalline_archer_leggings: "zoomers_armory:crystalline_archer_leggings",
+/** @type {string} */
+i_crystalline_archer_boots: "zoomers_armory:crystalline_archer_boots",
+/** @type {string} */
+i_crystalline_ranger_helmet: "zoomers_armory:crystalline_ranger_helmet",
+/** @type {string} */
+i_crystalline_ranger_chestplate: "zoomers_armory:crystalline_ranger_chestplate",
+/** @type {string} */
+i_crystalline_ranger_leggings: "zoomers_armory:crystalline_ranger_leggings",
+/** @type {string} */
+i_crystalline_ranger_boots: "zoomers_armory:crystalline_ranger_boots",
+/** @type {string} */
+i_crystalline_pyromancer_helmet: "zoomers_armory:crystalline_pyromancer_helmet",
+/** @type {string} */
+i_crystalline_pyromancer_chestplate: "zoomers_armory:crystalline_pyromancer_chestplate",
+/** @type {string} */
+i_crystalline_pyromancer_leggings: "zoomers_armory:crystalline_pyromancer_leggings",
+/** @type {string} */
+i_crystalline_pyromancer_boots: "zoomers_armory:crystalline_pyromancer_boots",
+/** @type {string} */
+i_crystalline_cryomancer_helmet: "zoomers_armory:crystalline_cryomancer_helmet",
+/** @type {string} */
+i_crystalline_cryomancer_chestplate: "zoomers_armory:crystalline_cryomancer_chestplate",
+/** @type {string} */
+i_crystalline_cryomancer_leggings: "zoomers_armory:crystalline_cryomancer_leggings",
+/** @type {string} */
+i_crystalline_cryomancer_boots: "zoomers_armory:crystalline_cryomancer_boots",
+/** @type {string} */
+i_crystalline_electromancer_helmet: "zoomers_armory:crystalline_electromancer_helmet",
+/** @type {string} */
+i_crystalline_electromancer_chestplate: "zoomers_armory:crystalline_electromancer_chestplate",
+/** @type {string} */
+i_crystalline_electromancer_leggings: "zoomers_armory:crystalline_electromancer_leggings",
+/** @type {string} */
+i_crystalline_electromancer_boots: "zoomers_armory:crystalline_electromancer_boots",
+/** @type {string} */
+i_crystalline_archevoker_helmet: "zoomers_armory:crystalline_archevoker_helmet",
+/** @type {string} */
+i_crystalline_archevoker_chestplate: "zoomers_armory:crystalline_archevoker_chestplate",
+/** @type {string} */
+i_crystalline_archevoker_leggings: "zoomers_armory:crystalline_archevoker_leggings",
+/** @type {string} */
+i_crystalline_archevoker_boots: "zoomers_armory:crystalline_archevoker_boots",
+/** @type {string} */
+i_crystalline_cultist_helmet: "zoomers_armory:crystalline_cultist_helmet",
+/** @type {string} */
+i_crystalline_cultist_chestplate: "zoomers_armory:crystalline_cultist_chestplate",
+/** @type {string} */
+i_crystalline_cultist_leggings: "zoomers_armory:crystalline_cultist_leggings",
+/** @type {string} */
+i_crystalline_cultist_boots: "zoomers_armory:crystalline_cultist_boots",
+/** @type {string} */
+i_crystalline_shadowwalker_helmet: "zoomers_armory:crystalline_shadowwalker_helmet",
+/** @type {string} */
+i_crystalline_shadowwalker_chestplate: "zoomers_armory:crystalline_shadowwalker_chestplate",
+/** @type {string} */
+i_crystalline_shadowwalker_leggings: "zoomers_armory:crystalline_shadowwalker_leggings",
+/** @type {string} */
+i_crystalline_shadowwalker_boots: "zoomers_armory:crystalline_shadowwalker_boots",
+/** @type {string} */
+i_crystalline_priest_helmet: "zoomers_armory:crystalline_priest_helmet",
+/** @type {string} */
+i_crystalline_priest_chestplate: "zoomers_armory:crystalline_priest_chestplate",
+/** @type {string} */
+i_crystalline_priest_leggings: "zoomers_armory:crystalline_priest_leggings",
+/** @type {string} */
+i_crystalline_priest_boots: "zoomers_armory:crystalline_priest_boots",
+/** @type {string} */
+i_crystalline_plagued_helmet: "zoomers_armory:crystalline_plagued_helmet",
+/** @type {string} */
+i_crystalline_plagued_chestplate: "zoomers_armory:crystalline_plagued_chestplate",
+/** @type {string} */
+i_crystalline_plagued_leggings: "zoomers_armory:crystalline_plagued_leggings",
+/** @type {string} */
+i_crystalline_plagued_boots: "zoomers_armory:crystalline_plagued_boots",
+/** @type {string} */
+i_dragon_claws: "zoomers_armory:dragon_claws",
+/** @type {string} */
+i_dragon_dagger: "zoomers_armory:dragon_dagger",
+/** @type {string} */
+i_dragon_shortsword: "zoomers_armory:dragon_shortsword",
+/** @type {string} */
+i_dragon_heavysword: "zoomers_armory:dragon_heavysword",
+/** @type {string} */
+i_dragon_cutlass: "zoomers_armory:dragon_cutlass",
+/** @type {string} */
+i_dragon_mace: "zoomers_armory:dragon_mace",
+/** @type {string} */
+i_dragon_heavymace: "zoomers_armory:dragon_heavymace",
+/** @type {string} */
+i_dragon_warhammer: "zoomers_armory:dragon_warhammer",
+/** @type {string} */
+i_dragon_battleaxe: "zoomers_armory:dragon_battleaxe",
+/** @type {string} */
+i_dragon_spear: "zoomers_armory:dragon_spear",
+/** @type {string} */
+i_dragon_halberd: "zoomers_armory:dragon_halberd",
+/** @type {string} */
+i_dragon_scythe: "zoomers_armory:dragon_scythe",
+/** @type {string} */
+i_dragon_katana: "zoomers_armory:dragon_katana",
+/** @type {string} */
+i_dragon_twinblade: "zoomers_armory:dragon_twinblade",
+/** @type {string} */
+i_dragon_sai: "zoomers_armory:dragon_sai",
+/** @type {string} */
+i_dragon_warglaive: "zoomers_armory:dragon_warglaive",
+/** @type {string} */
+i_dragon_musashi: "zoomers_armory:dragon_musashi",
+/** @type {string} */
+i_dragon_arcane_staff: "zoomers_armory:dragon_arcane_staff",
+/** @type {string} */
+i_dragon_woodwind_staff: "zoomers_armory:dragon_woodwind_staff",
+/** @type {string} */
+i_dragon_fire_staff: "zoomers_armory:dragon_fire_staff",
+/** @type {string} */
+i_dragon_ice_staff: "zoomers_armory:dragon_ice_staff",
+/** @type {string} */
+i_dragon_lightning_staff: "zoomers_armory:dragon_lightning_staff",
+/** @type {string} */
+i_dragon_nature_staff: "zoomers_armory:dragon_nature_staff",
+/** @type {string} */
+i_dragon_holy_staff: "zoomers_armory:dragon_holy_staff",
+/** @type {string} */
+i_dragon_blood_staff: "zoomers_armory:dragon_blood_staff",
+/** @type {string} */
+i_dragon_evocation_staff: "zoomers_armory:dragon_evocation_staff",
+/** @type {string} */
+i_dragon_ender_staff: "zoomers_armory:dragon_ender_staff",
+/** @type {string} */
+i_dragon_buckler: "zoomers_armory:dragon_buckler",
+/** @type {string} */
+i_dragon_heater: "zoomers_armory:dragon_heater",
+/** @type {string} */
+i_dragon_tower: "zoomers_armory:dragon_tower",
+/** @type {string} */
+i_dragon_shortbow: "zoomers_armory:dragon_shortbow",
+/** @type {string} */
+i_dragon_bow: "zoomers_armory:dragon_bow",
+/** @type {string} */
+i_dragon_longbow: "zoomers_armory:dragon_longbow",
+/** @type {string} */
+i_dragon_crossbow: "zoomers_armory:dragon_crossbow",
+/** @type {string} */
+i_enchanted_gravitite_rogue_chestplate: "zoomers_armory:enchanted_gravitite_rogue_chestplate",
+/** @type {string} */
+i_enchanted_gravitite_rogue_leggings: "zoomers_armory:enchanted_gravitite_rogue_leggings",
+/** @type {string} */
+i_enchanted_gravitite_rogue_boots: "zoomers_armory:enchanted_gravitite_rogue_boots",
+/** @type {string} */
+i_cincinnasite_rogue_helmet: "zoomers_armory:cincinnasite_rogue_helmet",
+/** @type {string} */
+i_dragon_samurai_helmet: "zoomers_armory:dragon_samurai_helmet",
+/** @type {string} */
+i_dragon_samurai_chestplate: "zoomers_armory:dragon_samurai_chestplate",
+/** @type {string} */
+i_dragon_samurai_leggings: "zoomers_armory:dragon_samurai_leggings",
+/** @type {string} */
+i_dragon_samurai_boots: "zoomers_armory:dragon_samurai_boots",
+/** @type {string} */
+i_cincinnasite_rogue_chestplate: "zoomers_armory:cincinnasite_rogue_chestplate",
+/** @type {string} */
+i_cincinnasite_rogue_leggings: "zoomers_armory:cincinnasite_rogue_leggings",
+/** @type {string} */
+i_cincinnasite_rogue_boots: "zoomers_armory:cincinnasite_rogue_boots",
+/** @type {string} */
+i_cincinnasite_diamond_rogue_helmet: "zoomers_armory:cincinnasite_diamond_rogue_helmet",
+/** @type {string} */
+i_dragon_archer_helmet: "zoomers_armory:dragon_archer_helmet",
+/** @type {string} */
+i_dragon_archer_chestplate: "zoomers_armory:dragon_archer_chestplate",
+/** @type {string} */
+i_dragon_archer_leggings: "zoomers_armory:dragon_archer_leggings",
+/** @type {string} */
+i_dragon_archer_boots: "zoomers_armory:dragon_archer_boots",
+/** @type {string} */
+i_dragon_ranger_helmet: "zoomers_armory:dragon_ranger_helmet",
+/** @type {string} */
+i_dragon_ranger_chestplate: "zoomers_armory:dragon_ranger_chestplate",
+/** @type {string} */
+i_dragon_ranger_leggings: "zoomers_armory:dragon_ranger_leggings",
+/** @type {string} */
+i_dragon_ranger_boots: "zoomers_armory:dragon_ranger_boots",
+/** @type {string} */
+i_dragon_pyromancer_helmet: "zoomers_armory:dragon_pyromancer_helmet",
+/** @type {string} */
+i_dragon_pyromancer_chestplate: "zoomers_armory:dragon_pyromancer_chestplate",
+/** @type {string} */
+i_dragon_pyromancer_leggings: "zoomers_armory:dragon_pyromancer_leggings",
+/** @type {string} */
+i_dragon_pyromancer_boots: "zoomers_armory:dragon_pyromancer_boots",
+/** @type {string} */
+i_dragon_cryomancer_helmet: "zoomers_armory:dragon_cryomancer_helmet",
+/** @type {string} */
+i_dragon_cryomancer_chestplate: "zoomers_armory:dragon_cryomancer_chestplate",
+/** @type {string} */
+i_dragon_cryomancer_leggings: "zoomers_armory:dragon_cryomancer_leggings",
+/** @type {string} */
+i_dragon_cryomancer_boots: "zoomers_armory:dragon_cryomancer_boots",
+/** @type {string} */
+i_dragon_electromancer_helmet: "zoomers_armory:dragon_electromancer_helmet",
+/** @type {string} */
+i_dragon_electromancer_chestplate: "zoomers_armory:dragon_electromancer_chestplate",
+/** @type {string} */
+i_dragon_electromancer_leggings: "zoomers_armory:dragon_electromancer_leggings",
+/** @type {string} */
+i_dragon_electromancer_boots: "zoomers_armory:dragon_electromancer_boots",
+/** @type {string} */
+i_dragon_archevoker_helmet: "zoomers_armory:dragon_archevoker_helmet",
+/** @type {string} */
+i_dragon_archevoker_chestplate: "zoomers_armory:dragon_archevoker_chestplate",
+/** @type {string} */
+i_dragon_archevoker_leggings: "zoomers_armory:dragon_archevoker_leggings",
+/** @type {string} */
+i_dragon_archevoker_boots: "zoomers_armory:dragon_archevoker_boots",
+/** @type {string} */
+i_dragon_cultist_helmet: "zoomers_armory:dragon_cultist_helmet",
+/** @type {string} */
+i_dragon_cultist_chestplate: "zoomers_armory:dragon_cultist_chestplate",
+/** @type {string} */
+i_dragon_cultist_leggings: "zoomers_armory:dragon_cultist_leggings",
+/** @type {string} */
+i_dragon_cultist_boots: "zoomers_armory:dragon_cultist_boots",
+/** @type {string} */
+i_dragon_shadowwalker_helmet: "zoomers_armory:dragon_shadowwalker_helmet",
+/** @type {string} */
+i_dragon_shadowwalker_chestplate: "zoomers_armory:dragon_shadowwalker_chestplate",
+/** @type {string} */
+i_dragon_shadowwalker_leggings: "zoomers_armory:dragon_shadowwalker_leggings",
+/** @type {string} */
+i_dragon_shadowwalker_boots: "zoomers_armory:dragon_shadowwalker_boots",
+/** @type {string} */
+i_dragon_priest_helmet: "zoomers_armory:dragon_priest_helmet",
+/** @type {string} */
+i_dragon_priest_chestplate: "zoomers_armory:dragon_priest_chestplate",
+/** @type {string} */
+i_dragon_priest_leggings: "zoomers_armory:dragon_priest_leggings",
+/** @type {string} */
+i_dragon_priest_boots: "zoomers_armory:dragon_priest_boots",
+/** @type {string} */
+i_dragon_plagued_helmet: "zoomers_armory:dragon_plagued_helmet",
+/** @type {string} */
+i_dragon_plagued_chestplate: "zoomers_armory:dragon_plagued_chestplate",
+/** @type {string} */
+i_dragon_plagued_leggings: "zoomers_armory:dragon_plagued_leggings",
+/** @type {string} */
+i_dragon_plagued_boots: "zoomers_armory:dragon_plagued_boots",
+/** @type {string} */
+i_enderite_claws: "zoomers_armory:enderite_claws",
+/** @type {string} */
+i_enderite_dagger: "zoomers_armory:enderite_dagger",
+/** @type {string} */
+i_enderite_shortsword: "zoomers_armory:enderite_shortsword",
+/** @type {string} */
+i_enderite_heavysword: "zoomers_armory:enderite_heavysword",
+/** @type {string} */
+i_enderite_cutlass: "zoomers_armory:enderite_cutlass",
+/** @type {string} */
+i_enderite_mace: "zoomers_armory:enderite_mace",
+/** @type {string} */
+i_enderite_heavymace: "zoomers_armory:enderite_heavymace",
+/** @type {string} */
+i_enderite_warhammer: "zoomers_armory:enderite_warhammer",
+/** @type {string} */
+i_enderite_battleaxe: "zoomers_armory:enderite_battleaxe",
+/** @type {string} */
+i_enderite_spear: "zoomers_armory:enderite_spear",
+/** @type {string} */
+i_enderite_halberd: "zoomers_armory:enderite_halberd",
+/** @type {string} */
+i_enderite_scythe: "zoomers_armory:enderite_scythe",
+/** @type {string} */
+i_enderite_katana: "zoomers_armory:enderite_katana",
+/** @type {string} */
+i_enderite_twinblade: "zoomers_armory:enderite_twinblade",
+/** @type {string} */
+i_enderite_sai: "zoomers_armory:enderite_sai",
+/** @type {string} */
+i_enderite_warglaive: "zoomers_armory:enderite_warglaive",
+/** @type {string} */
+i_enderite_musashi: "zoomers_armory:enderite_musashi",
+/** @type {string} */
+i_enderite_arcane_staff: "zoomers_armory:enderite_arcane_staff",
+/** @type {string} */
+i_enderite_woodwind_staff: "zoomers_armory:enderite_woodwind_staff",
+/** @type {string} */
+i_enderite_fire_staff: "zoomers_armory:enderite_fire_staff",
+/** @type {string} */
+i_enderite_ice_staff: "zoomers_armory:enderite_ice_staff",
+/** @type {string} */
+i_enderite_lightning_staff: "zoomers_armory:enderite_lightning_staff",
+/** @type {string} */
+i_enderite_nature_staff: "zoomers_armory:enderite_nature_staff",
+/** @type {string} */
+i_enderite_holy_staff: "zoomers_armory:enderite_holy_staff",
+/** @type {string} */
+i_enderite_blood_staff: "zoomers_armory:enderite_blood_staff",
+/** @type {string} */
+i_enderite_evocation_staff: "zoomers_armory:enderite_evocation_staff",
+/** @type {string} */
+i_enderite_ender_staff: "zoomers_armory:enderite_ender_staff",
+/** @type {string} */
+i_enderite_buckler: "zoomers_armory:enderite_buckler",
+/** @type {string} */
+i_enderite_heater: "zoomers_armory:enderite_heater",
+/** @type {string} */
+i_enderite_tower: "zoomers_armory:enderite_tower",
+/** @type {string} */
+i_enderite_shortbow: "zoomers_armory:enderite_shortbow",
+/** @type {string} */
+i_enderite_bow: "zoomers_armory:enderite_bow",
+/** @type {string} */
+i_enderite_longbow: "zoomers_armory:enderite_longbow",
+/** @type {string} */
+i_enderite_crossbow: "zoomers_armory:enderite_crossbow",
+/** @type {string} */
+i_cincinnasite_diamond_rogue_chestplate: "zoomers_armory:cincinnasite_diamond_rogue_chestplate",
+/** @type {string} */
+i_cincinnasite_diamond_rogue_leggings: "zoomers_armory:cincinnasite_diamond_rogue_leggings",
+/** @type {string} */
+i_cincinnasite_diamond_rogue_boots: "zoomers_armory:cincinnasite_diamond_rogue_boots",
+/** @type {string} */
+i_nether_ruby_rogue_helmet: "zoomers_armory:nether_ruby_rogue_helmet",
+/** @type {string} */
+i_enderite_samurai_helmet: "zoomers_armory:enderite_samurai_helmet",
+/** @type {string} */
+i_enderite_samurai_chestplate: "zoomers_armory:enderite_samurai_chestplate",
+/** @type {string} */
+i_enderite_samurai_leggings: "zoomers_armory:enderite_samurai_leggings",
+/** @type {string} */
+i_enderite_samurai_boots: "zoomers_armory:enderite_samurai_boots",
+/** @type {string} */
+i_nether_ruby_rogue_chestplate: "zoomers_armory:nether_ruby_rogue_chestplate",
+/** @type {string} */
+i_nether_ruby_rogue_leggings: "zoomers_armory:nether_ruby_rogue_leggings",
+/** @type {string} */
+i_nether_ruby_rogue_boots: "zoomers_armory:nether_ruby_rogue_boots",
+/** @type {string} */
+i_flaming_ruby_rogue_helmet: "zoomers_armory:flaming_ruby_rogue_helmet",
+/** @type {string} */
+i_enderite_archer_helmet: "zoomers_armory:enderite_archer_helmet",
+/** @type {string} */
+i_enderite_archer_chestplate: "zoomers_armory:enderite_archer_chestplate",
+/** @type {string} */
+i_enderite_archer_leggings: "zoomers_armory:enderite_archer_leggings",
+/** @type {string} */
+i_enderite_archer_boots: "zoomers_armory:enderite_archer_boots",
+/** @type {string} */
+i_enderite_ranger_helmet: "zoomers_armory:enderite_ranger_helmet",
+/** @type {string} */
+i_enderite_ranger_chestplate: "zoomers_armory:enderite_ranger_chestplate",
+/** @type {string} */
+i_enderite_ranger_leggings: "zoomers_armory:enderite_ranger_leggings",
+/** @type {string} */
+i_enderite_ranger_boots: "zoomers_armory:enderite_ranger_boots",
+/** @type {string} */
+i_enderite_pyromancer_helmet: "zoomers_armory:enderite_pyromancer_helmet",
+/** @type {string} */
+i_enderite_pyromancer_chestplate: "zoomers_armory:enderite_pyromancer_chestplate",
+/** @type {string} */
+i_enderite_pyromancer_leggings: "zoomers_armory:enderite_pyromancer_leggings",
+/** @type {string} */
+i_enderite_pyromancer_boots: "zoomers_armory:enderite_pyromancer_boots",
+/** @type {string} */
+i_enderite_cryomancer_helmet: "zoomers_armory:enderite_cryomancer_helmet",
+/** @type {string} */
+i_enderite_cryomancer_chestplate: "zoomers_armory:enderite_cryomancer_chestplate",
+/** @type {string} */
+i_enderite_cryomancer_leggings: "zoomers_armory:enderite_cryomancer_leggings",
+/** @type {string} */
+i_enderite_cryomancer_boots: "zoomers_armory:enderite_cryomancer_boots",
+/** @type {string} */
+i_enderite_electromancer_helmet: "zoomers_armory:enderite_electromancer_helmet",
+/** @type {string} */
+i_enderite_electromancer_chestplate: "zoomers_armory:enderite_electromancer_chestplate",
+/** @type {string} */
+i_enderite_electromancer_leggings: "zoomers_armory:enderite_electromancer_leggings",
+/** @type {string} */
+i_enderite_electromancer_boots: "zoomers_armory:enderite_electromancer_boots",
+/** @type {string} */
+i_enderite_archevoker_helmet: "zoomers_armory:enderite_archevoker_helmet",
+/** @type {string} */
+i_enderite_archevoker_chestplate: "zoomers_armory:enderite_archevoker_chestplate",
+/** @type {string} */
+i_enderite_archevoker_leggings: "zoomers_armory:enderite_archevoker_leggings",
+/** @type {string} */
+i_enderite_archevoker_boots: "zoomers_armory:enderite_archevoker_boots",
+/** @type {string} */
+i_enderite_cultist_helmet: "zoomers_armory:enderite_cultist_helmet",
+/** @type {string} */
+i_enderite_cultist_chestplate: "zoomers_armory:enderite_cultist_chestplate",
+/** @type {string} */
+i_enderite_cultist_leggings: "zoomers_armory:enderite_cultist_leggings",
+/** @type {string} */
+i_enderite_cultist_boots: "zoomers_armory:enderite_cultist_boots",
+/** @type {string} */
+i_enderite_shadowwalker_helmet: "zoomers_armory:enderite_shadowwalker_helmet",
+/** @type {string} */
+i_enderite_shadowwalker_chestplate: "zoomers_armory:enderite_shadowwalker_chestplate",
+/** @type {string} */
+i_enderite_shadowwalker_leggings: "zoomers_armory:enderite_shadowwalker_leggings",
+/** @type {string} */
+i_enderite_shadowwalker_boots: "zoomers_armory:enderite_shadowwalker_boots",
+/** @type {string} */
+i_enderite_priest_helmet: "zoomers_armory:enderite_priest_helmet",
+/** @type {string} */
+i_enderite_priest_chestplate: "zoomers_armory:enderite_priest_chestplate",
+/** @type {string} */
+i_enderite_priest_leggings: "zoomers_armory:enderite_priest_leggings",
+/** @type {string} */
+i_enderite_priest_boots: "zoomers_armory:enderite_priest_boots",
+/** @type {string} */
+i_enderite_plagued_helmet: "zoomers_armory:enderite_plagued_helmet",
+/** @type {string} */
+i_enderite_plagued_chestplate: "zoomers_armory:enderite_plagued_chestplate",
+/** @type {string} */
+i_enderite_plagued_leggings: "zoomers_armory:enderite_plagued_leggings",
+/** @type {string} */
+i_enderite_plagued_boots: "zoomers_armory:enderite_plagued_boots",
+/** @type {string} */
+i_immemorial_claws: "zoomers_armory:immemorial_claws",
+/** @type {string} */
+i_immemorial_dagger: "zoomers_armory:immemorial_dagger",
+/** @type {string} */
+i_immemorial_shortsword: "zoomers_armory:immemorial_shortsword",
+/** @type {string} */
+i_immemorial_heavysword: "zoomers_armory:immemorial_heavysword",
+/** @type {string} */
+i_immemorial_cutlass: "zoomers_armory:immemorial_cutlass",
+/** @type {string} */
+i_immemorial_mace: "zoomers_armory:immemorial_mace",
+/** @type {string} */
+i_immemorial_heavymace: "zoomers_armory:immemorial_heavymace",
+/** @type {string} */
+i_immemorial_warhammer: "zoomers_armory:immemorial_warhammer",
+/** @type {string} */
+i_immemorial_battleaxe: "zoomers_armory:immemorial_battleaxe",
+/** @type {string} */
+i_immemorial_spear: "zoomers_armory:immemorial_spear",
+/** @type {string} */
+i_immemorial_halberd: "zoomers_armory:immemorial_halberd",
+/** @type {string} */
+i_immemorial_scythe: "zoomers_armory:immemorial_scythe",
+/** @type {string} */
+i_immemorial_katana: "zoomers_armory:immemorial_katana",
+/** @type {string} */
+i_immemorial_twinblade: "zoomers_armory:immemorial_twinblade",
+/** @type {string} */
+i_immemorial_sai: "zoomers_armory:immemorial_sai",
+/** @type {string} */
+i_immemorial_warglaive: "zoomers_armory:immemorial_warglaive",
+/** @type {string} */
+i_immemorial_musashi: "zoomers_armory:immemorial_musashi",
+/** @type {string} */
+i_immemorial_arcane_staff: "zoomers_armory:immemorial_arcane_staff",
+/** @type {string} */
+i_immemorial_woodwind_staff: "zoomers_armory:immemorial_woodwind_staff",
+/** @type {string} */
+i_immemorial_fire_staff: "zoomers_armory:immemorial_fire_staff",
+/** @type {string} */
+i_immemorial_ice_staff: "zoomers_armory:immemorial_ice_staff",
+/** @type {string} */
+i_immemorial_lightning_staff: "zoomers_armory:immemorial_lightning_staff",
+/** @type {string} */
+i_immemorial_nature_staff: "zoomers_armory:immemorial_nature_staff",
+/** @type {string} */
+i_immemorial_holy_staff: "zoomers_armory:immemorial_holy_staff",
+/** @type {string} */
+i_immemorial_blood_staff: "zoomers_armory:immemorial_blood_staff",
+/** @type {string} */
+i_immemorial_evocation_staff: "zoomers_armory:immemorial_evocation_staff",
+/** @type {string} */
+i_immemorial_ender_staff: "zoomers_armory:immemorial_ender_staff",
+/** @type {string} */
+i_immemorial_buckler: "zoomers_armory:immemorial_buckler",
+/** @type {string} */
+i_immemorial_heater: "zoomers_armory:immemorial_heater",
+/** @type {string} */
+i_immemorial_tower: "zoomers_armory:immemorial_tower",
+/** @type {string} */
+i_immemorial_shortbow: "zoomers_armory:immemorial_shortbow",
+/** @type {string} */
+i_immemorial_bow: "zoomers_armory:immemorial_bow",
+/** @type {string} */
+i_immemorial_longbow: "zoomers_armory:immemorial_longbow",
+/** @type {string} */
+i_immemorial_crossbow: "zoomers_armory:immemorial_crossbow",
+/** @type {string} */
+i_flaming_ruby_rogue_chestplate: "zoomers_armory:flaming_ruby_rogue_chestplate",
+/** @type {string} */
+i_flaming_ruby_rogue_leggings: "zoomers_armory:flaming_ruby_rogue_leggings",
+/** @type {string} */
+i_flaming_ruby_rogue_boots: "zoomers_armory:flaming_ruby_rogue_boots",
+/** @type {string} */
+i_netherite_rogue_helmet: "zoomers_armory:netherite_rogue_helmet",
+/** @type {string} */
+i_immemorial_samurai_helmet: "zoomers_armory:immemorial_samurai_helmet",
+/** @type {string} */
+i_immemorial_samurai_chestplate: "zoomers_armory:immemorial_samurai_chestplate",
+/** @type {string} */
+i_immemorial_samurai_leggings: "zoomers_armory:immemorial_samurai_leggings",
+/** @type {string} */
+i_immemorial_samurai_boots: "zoomers_armory:immemorial_samurai_boots",
+/** @type {string} */
+i_netherite_rogue_chestplate: "zoomers_armory:netherite_rogue_chestplate",
+/** @type {string} */
+i_netherite_rogue_leggings: "zoomers_armory:netherite_rogue_leggings",
+/** @type {string} */
+i_netherite_rogue_boots: "zoomers_armory:netherite_rogue_boots",
+/** @type {string} */
+i_cloggrum_rogue_helmet: "zoomers_armory:cloggrum_rogue_helmet",
+/** @type {string} */
+i_immemorial_archer_helmet: "zoomers_armory:immemorial_archer_helmet",
+/** @type {string} */
+i_immemorial_archer_chestplate: "zoomers_armory:immemorial_archer_chestplate",
+/** @type {string} */
+i_immemorial_archer_leggings: "zoomers_armory:immemorial_archer_leggings",
+/** @type {string} */
+i_immemorial_archer_boots: "zoomers_armory:immemorial_archer_boots",
+/** @type {string} */
+i_immemorial_ranger_helmet: "zoomers_armory:immemorial_ranger_helmet",
+/** @type {string} */
+i_immemorial_ranger_chestplate: "zoomers_armory:immemorial_ranger_chestplate",
+/** @type {string} */
+i_immemorial_ranger_leggings: "zoomers_armory:immemorial_ranger_leggings",
+/** @type {string} */
+i_immemorial_ranger_boots: "zoomers_armory:immemorial_ranger_boots",
+/** @type {string} */
+i_immemorial_pyromancer_helmet: "zoomers_armory:immemorial_pyromancer_helmet",
+/** @type {string} */
+i_immemorial_pyromancer_chestplate: "zoomers_armory:immemorial_pyromancer_chestplate",
+/** @type {string} */
+i_immemorial_pyromancer_leggings: "zoomers_armory:immemorial_pyromancer_leggings",
+/** @type {string} */
+i_immemorial_pyromancer_boots: "zoomers_armory:immemorial_pyromancer_boots",
+/** @type {string} */
+i_immemorial_cryomancer_helmet: "zoomers_armory:immemorial_cryomancer_helmet",
+/** @type {string} */
+i_immemorial_cryomancer_chestplate: "zoomers_armory:immemorial_cryomancer_chestplate",
+/** @type {string} */
+i_immemorial_cryomancer_leggings: "zoomers_armory:immemorial_cryomancer_leggings",
+/** @type {string} */
+i_immemorial_cryomancer_boots: "zoomers_armory:immemorial_cryomancer_boots",
+/** @type {string} */
+i_immemorial_electromancer_helmet: "zoomers_armory:immemorial_electromancer_helmet",
+/** @type {string} */
+i_immemorial_electromancer_chestplate: "zoomers_armory:immemorial_electromancer_chestplate",
+/** @type {string} */
+i_immemorial_electromancer_leggings: "zoomers_armory:immemorial_electromancer_leggings",
+/** @type {string} */
+i_immemorial_electromancer_boots: "zoomers_armory:immemorial_electromancer_boots",
+/** @type {string} */
+i_immemorial_archevoker_helmet: "zoomers_armory:immemorial_archevoker_helmet",
+/** @type {string} */
+i_immemorial_archevoker_chestplate: "zoomers_armory:immemorial_archevoker_chestplate",
+/** @type {string} */
+i_immemorial_archevoker_leggings: "zoomers_armory:immemorial_archevoker_leggings",
+/** @type {string} */
+i_immemorial_archevoker_boots: "zoomers_armory:immemorial_archevoker_boots",
+/** @type {string} */
+i_immemorial_cultist_helmet: "zoomers_armory:immemorial_cultist_helmet",
+/** @type {string} */
+i_immemorial_cultist_chestplate: "zoomers_armory:immemorial_cultist_chestplate",
+/** @type {string} */
+i_immemorial_cultist_leggings: "zoomers_armory:immemorial_cultist_leggings",
+/** @type {string} */
+i_immemorial_cultist_boots: "zoomers_armory:immemorial_cultist_boots",
+/** @type {string} */
+i_immemorial_shadowwalker_helmet: "zoomers_armory:immemorial_shadowwalker_helmet",
+/** @type {string} */
+i_immemorial_shadowwalker_chestplate: "zoomers_armory:immemorial_shadowwalker_chestplate",
+/** @type {string} */
+i_immemorial_shadowwalker_leggings: "zoomers_armory:immemorial_shadowwalker_leggings",
+/** @type {string} */
+i_immemorial_shadowwalker_boots: "zoomers_armory:immemorial_shadowwalker_boots",
+/** @type {string} */
+i_immemorial_priest_helmet: "zoomers_armory:immemorial_priest_helmet",
+/** @type {string} */
+i_immemorial_priest_chestplate: "zoomers_armory:immemorial_priest_chestplate",
+/** @type {string} */
+i_immemorial_priest_leggings: "zoomers_armory:immemorial_priest_leggings",
+/** @type {string} */
+i_immemorial_priest_boots: "zoomers_armory:immemorial_priest_boots",
+/** @type {string} */
+i_immemorial_plagued_helmet: "zoomers_armory:immemorial_plagued_helmet",
+/** @type {string} */
+i_immemorial_plagued_chestplate: "zoomers_armory:immemorial_plagued_chestplate",
+/** @type {string} */
+i_immemorial_plagued_leggings: "zoomers_armory:immemorial_plagued_leggings",
+/** @type {string} */
+i_immemorial_plagued_boots: "zoomers_armory:immemorial_plagued_boots",
+/** @type {string} */
+i_soul_claws: "zoomers_armory:soul_claws",
+/** @type {string} */
+i_soul_dagger: "zoomers_armory:soul_dagger",
+/** @type {string} */
+i_soul_shortsword: "zoomers_armory:soul_shortsword",
+/** @type {string} */
+i_soul_heavysword: "zoomers_armory:soul_heavysword",
+/** @type {string} */
+i_soul_cutlass: "zoomers_armory:soul_cutlass",
+/** @type {string} */
+i_soul_mace: "zoomers_armory:soul_mace",
+/** @type {string} */
+i_soul_heavymace: "zoomers_armory:soul_heavymace",
+/** @type {string} */
+i_soul_warhammer: "zoomers_armory:soul_warhammer",
+/** @type {string} */
+i_soul_battleaxe: "zoomers_armory:soul_battleaxe",
+/** @type {string} */
+i_soul_spear: "zoomers_armory:soul_spear",
+/** @type {string} */
+i_soul_halberd: "zoomers_armory:soul_halberd",
+/** @type {string} */
+i_soul_scythe: "zoomers_armory:soul_scythe",
+/** @type {string} */
+i_soul_katana: "zoomers_armory:soul_katana",
+/** @type {string} */
+i_soul_twinblade: "zoomers_armory:soul_twinblade",
+/** @type {string} */
+i_soul_sai: "zoomers_armory:soul_sai",
+/** @type {string} */
+i_soul_warglaive: "zoomers_armory:soul_warglaive",
+/** @type {string} */
+i_soul_musashi: "zoomers_armory:soul_musashi",
+/** @type {string} */
+i_soul_arcane_staff: "zoomers_armory:soul_arcane_staff",
+/** @type {string} */
+i_soul_woodwind_staff: "zoomers_armory:soul_woodwind_staff",
+/** @type {string} */
+i_soul_fire_staff: "zoomers_armory:soul_fire_staff",
+/** @type {string} */
+i_soul_ice_staff: "zoomers_armory:soul_ice_staff",
+/** @type {string} */
+i_soul_lightning_staff: "zoomers_armory:soul_lightning_staff",
+/** @type {string} */
+i_soul_nature_staff: "zoomers_armory:soul_nature_staff",
+/** @type {string} */
+i_soul_holy_staff: "zoomers_armory:soul_holy_staff",
+/** @type {string} */
+i_soul_blood_staff: "zoomers_armory:soul_blood_staff",
+/** @type {string} */
+i_soul_evocation_staff: "zoomers_armory:soul_evocation_staff",
+/** @type {string} */
+i_soul_ender_staff: "zoomers_armory:soul_ender_staff",
+/** @type {string} */
+i_soul_buckler: "zoomers_armory:soul_buckler",
+/** @type {string} */
+i_soul_heater: "zoomers_armory:soul_heater",
+/** @type {string} */
+i_soul_tower: "zoomers_armory:soul_tower",
+/** @type {string} */
+i_soul_shortbow: "zoomers_armory:soul_shortbow",
+/** @type {string} */
+i_soul_longbow: "zoomers_armory:soul_longbow",
+/** @type {string} */
+i_soul_crossbow: "zoomers_armory:soul_crossbow",
+/** @type {string} */
+i_cloggrum_rogue_chestplate: "zoomers_armory:cloggrum_rogue_chestplate",
+/** @type {string} */
+i_cloggrum_rogue_leggings: "zoomers_armory:cloggrum_rogue_leggings",
+/** @type {string} */
+i_cloggrum_rogue_boots: "zoomers_armory:cloggrum_rogue_boots",
+/** @type {string} */
+i_froststeel_rogue_helmet: "zoomers_armory:froststeel_rogue_helmet",
+/** @type {string} */
+i_soul_samurai_helmet: "zoomers_armory:soul_samurai_helmet",
+/** @type {string} */
+i_soul_samurai_chestplate: "zoomers_armory:soul_samurai_chestplate",
+/** @type {string} */
+i_soul_samurai_leggings: "zoomers_armory:soul_samurai_leggings",
+/** @type {string} */
+i_soul_samurai_boots: "zoomers_armory:soul_samurai_boots",
+/** @type {string} */
+i_froststeel_rogue_chestplate: "zoomers_armory:froststeel_rogue_chestplate",
+/** @type {string} */
+i_froststeel_rogue_leggings: "zoomers_armory:froststeel_rogue_leggings",
+/** @type {string} */
+i_froststeel_rogue_boots: "zoomers_armory:froststeel_rogue_boots",
+/** @type {string} */
+i_utherium_rogue_helmet: "zoomers_armory:utherium_rogue_helmet",
+/** @type {string} */
+i_soul_archer_helmet: "zoomers_armory:soul_archer_helmet",
+/** @type {string} */
+i_soul_archer_chestplate: "zoomers_armory:soul_archer_chestplate",
+/** @type {string} */
+i_soul_archer_leggings: "zoomers_armory:soul_archer_leggings",
+/** @type {string} */
+i_soul_archer_boots: "zoomers_armory:soul_archer_boots",
+/** @type {string} */
+i_soul_ranger_helmet: "zoomers_armory:soul_ranger_helmet",
+/** @type {string} */
+i_soul_ranger_chestplate: "zoomers_armory:soul_ranger_chestplate",
+/** @type {string} */
+i_soul_ranger_leggings: "zoomers_armory:soul_ranger_leggings",
+/** @type {string} */
+i_soul_ranger_boots: "zoomers_armory:soul_ranger_boots",
+/** @type {string} */
+i_soul_pyromancer_helmet: "zoomers_armory:soul_pyromancer_helmet",
+/** @type {string} */
+i_soul_pyromancer_chestplate: "zoomers_armory:soul_pyromancer_chestplate",
+/** @type {string} */
+i_soul_pyromancer_leggings: "zoomers_armory:soul_pyromancer_leggings",
+/** @type {string} */
+i_soul_pyromancer_boots: "zoomers_armory:soul_pyromancer_boots",
+/** @type {string} */
+i_soul_cryomancer_helmet: "zoomers_armory:soul_cryomancer_helmet",
+/** @type {string} */
+i_soul_cryomancer_chestplate: "zoomers_armory:soul_cryomancer_chestplate",
+/** @type {string} */
+i_soul_cryomancer_leggings: "zoomers_armory:soul_cryomancer_leggings",
+/** @type {string} */
+i_soul_cryomancer_boots: "zoomers_armory:soul_cryomancer_boots",
+/** @type {string} */
+i_soul_electromancer_helmet: "zoomers_armory:soul_electromancer_helmet",
+/** @type {string} */
+i_soul_electromancer_chestplate: "zoomers_armory:soul_electromancer_chestplate",
+/** @type {string} */
+i_soul_electromancer_leggings: "zoomers_armory:soul_electromancer_leggings",
+/** @type {string} */
+i_soul_electromancer_boots: "zoomers_armory:soul_electromancer_boots",
+/** @type {string} */
+i_soul_archevoker_helmet: "zoomers_armory:soul_archevoker_helmet",
+/** @type {string} */
+i_soul_archevoker_chestplate: "zoomers_armory:soul_archevoker_chestplate",
+/** @type {string} */
+i_soul_archevoker_leggings: "zoomers_armory:soul_archevoker_leggings",
+/** @type {string} */
+i_soul_archevoker_boots: "zoomers_armory:soul_archevoker_boots",
+/** @type {string} */
+i_soul_cultist_helmet: "zoomers_armory:soul_cultist_helmet",
+/** @type {string} */
+i_soul_cultist_chestplate: "zoomers_armory:soul_cultist_chestplate",
+/** @type {string} */
+i_soul_cultist_leggings: "zoomers_armory:soul_cultist_leggings",
+/** @type {string} */
+i_soul_cultist_boots: "zoomers_armory:soul_cultist_boots",
+/** @type {string} */
+i_soul_shadowwalker_helmet: "zoomers_armory:soul_shadowwalker_helmet",
+/** @type {string} */
+i_soul_shadowwalker_chestplate: "zoomers_armory:soul_shadowwalker_chestplate",
+/** @type {string} */
+i_soul_shadowwalker_leggings: "zoomers_armory:soul_shadowwalker_leggings",
+/** @type {string} */
+i_soul_shadowwalker_boots: "zoomers_armory:soul_shadowwalker_boots",
+/** @type {string} */
+i_soul_priest_helmet: "zoomers_armory:soul_priest_helmet",
+/** @type {string} */
+i_soul_priest_chestplate: "zoomers_armory:soul_priest_chestplate",
+/** @type {string} */
+i_soul_priest_leggings: "zoomers_armory:soul_priest_leggings",
+/** @type {string} */
+i_soul_priest_boots: "zoomers_armory:soul_priest_boots",
+/** @type {string} */
+i_soul_plagued_helmet: "zoomers_armory:soul_plagued_helmet",
+/** @type {string} */
+i_soul_plagued_chestplate: "zoomers_armory:soul_plagued_chestplate",
+/** @type {string} */
+i_soul_plagued_leggings: "zoomers_armory:soul_plagued_leggings",
+/** @type {string} */
+i_soul_plagued_boots: "zoomers_armory:soul_plagued_boots",
+/** @type {string} */
+i_fixed_bone_claws: "zoomers_armory:fixed_bone_claws",
+/** @type {string} */
+i_fixed_bone_dagger: "zoomers_armory:fixed_bone_dagger",
+/** @type {string} */
+i_fixed_bone_shortsword: "zoomers_armory:fixed_bone_shortsword",
+/** @type {string} */
+i_fixed_bone_heavysword: "zoomers_armory:fixed_bone_heavysword",
+/** @type {string} */
+i_fixed_bone_cutlass: "zoomers_armory:fixed_bone_cutlass",
+/** @type {string} */
+i_fixed_bone_mace: "zoomers_armory:fixed_bone_mace",
+/** @type {string} */
+i_fixed_bone_heavymace: "zoomers_armory:fixed_bone_heavymace",
+/** @type {string} */
+i_fixed_bone_warhammer: "zoomers_armory:fixed_bone_warhammer",
+/** @type {string} */
+i_fixed_bone_battleaxe: "zoomers_armory:fixed_bone_battleaxe",
+/** @type {string} */
+i_fixed_bone_spear: "zoomers_armory:fixed_bone_spear",
+/** @type {string} */
+i_fixed_bone_halberd: "zoomers_armory:fixed_bone_halberd",
+/** @type {string} */
+i_fixed_bone_scythe: "zoomers_armory:fixed_bone_scythe",
+/** @type {string} */
+i_fixed_bone_katana: "zoomers_armory:fixed_bone_katana",
+/** @type {string} */
+i_fixed_bone_twinblade: "zoomers_armory:fixed_bone_twinblade",
+/** @type {string} */
+i_fixed_bone_sai: "zoomers_armory:fixed_bone_sai",
+/** @type {string} */
+i_fixed_bone_warglaive: "zoomers_armory:fixed_bone_warglaive",
+/** @type {string} */
+i_fixed_bone_musashi: "zoomers_armory:fixed_bone_musashi",
+/** @type {string} */
+i_fixed_bone_arcane_staff: "zoomers_armory:fixed_bone_arcane_staff",
+/** @type {string} */
+i_fixed_bone_woodwind_staff: "zoomers_armory:fixed_bone_woodwind_staff",
+/** @type {string} */
+i_fixed_bone_fire_staff: "zoomers_armory:fixed_bone_fire_staff",
+/** @type {string} */
+i_fixed_bone_ice_staff: "zoomers_armory:fixed_bone_ice_staff",
+/** @type {string} */
+i_fixed_bone_lightning_staff: "zoomers_armory:fixed_bone_lightning_staff",
+/** @type {string} */
+i_fixed_bone_nature_staff: "zoomers_armory:fixed_bone_nature_staff",
+/** @type {string} */
+i_fixed_bone_holy_staff: "zoomers_armory:fixed_bone_holy_staff",
+/** @type {string} */
+i_fixed_bone_blood_staff: "zoomers_armory:fixed_bone_blood_staff",
+/** @type {string} */
+i_fixed_bone_evocation_staff: "zoomers_armory:fixed_bone_evocation_staff",
+/** @type {string} */
+i_fixed_bone_ender_staff: "zoomers_armory:fixed_bone_ender_staff",
+/** @type {string} */
+i_fixed_bone_buckler: "zoomers_armory:fixed_bone_buckler",
+/** @type {string} */
+i_fixed_bone_heater: "zoomers_armory:fixed_bone_heater",
+/** @type {string} */
+i_fixed_bone_tower: "zoomers_armory:fixed_bone_tower",
+/** @type {string} */
+i_fixed_bone_shortbow: "zoomers_armory:fixed_bone_shortbow",
+/** @type {string} */
+i_fixed_bone_bow: "zoomers_armory:fixed_bone_bow",
+/** @type {string} */
+i_fixed_bone_longbow: "zoomers_armory:fixed_bone_longbow",
+/** @type {string} */
+i_fixed_bone_crossbow: "zoomers_armory:fixed_bone_crossbow",
+/** @type {string} */
+i_utherium_rogue_chestplate: "zoomers_armory:utherium_rogue_chestplate",
+/** @type {string} */
+i_utherium_rogue_leggings: "zoomers_armory:utherium_rogue_leggings",
+/** @type {string} */
+i_utherium_rogue_boots: "zoomers_armory:utherium_rogue_boots",
+/** @type {string} */
+i_forgotten_rogue_helmet: "zoomers_armory:forgotten_rogue_helmet",
+/** @type {string} */
+i_fixed_bone_samurai_helmet: "zoomers_armory:fixed_bone_samurai_helmet",
+/** @type {string} */
+i_fixed_bone_samurai_chestplate: "zoomers_armory:fixed_bone_samurai_chestplate",
+/** @type {string} */
+i_fixed_bone_samurai_leggings: "zoomers_armory:fixed_bone_samurai_leggings",
+/** @type {string} */
+i_fixed_bone_samurai_boots: "zoomers_armory:fixed_bone_samurai_boots",
+/** @type {string} */
+i_forgotten_rogue_chestplate: "zoomers_armory:forgotten_rogue_chestplate",
+/** @type {string} */
+i_forgotten_rogue_leggings: "zoomers_armory:forgotten_rogue_leggings",
+/** @type {string} */
+i_forgotten_rogue_boots: "zoomers_armory:forgotten_rogue_boots",
+/** @type {string} */
+i_jade_rogue_helmet: "zoomers_armory:jade_rogue_helmet",
+/** @type {string} */
+i_fixed_bone_archer_helmet: "zoomers_armory:fixed_bone_archer_helmet",
+/** @type {string} */
+i_fixed_bone_archer_chestplate: "zoomers_armory:fixed_bone_archer_chestplate",
+/** @type {string} */
+i_fixed_bone_archer_leggings: "zoomers_armory:fixed_bone_archer_leggings",
+/** @type {string} */
+i_fixed_bone_archer_boots: "zoomers_armory:fixed_bone_archer_boots",
+/** @type {string} */
+i_fixed_bone_ranger_helmet: "zoomers_armory:fixed_bone_ranger_helmet",
+/** @type {string} */
+i_fixed_bone_ranger_chestplate: "zoomers_armory:fixed_bone_ranger_chestplate",
+/** @type {string} */
+i_fixed_bone_ranger_leggings: "zoomers_armory:fixed_bone_ranger_leggings",
+/** @type {string} */
+i_fixed_bone_ranger_boots: "zoomers_armory:fixed_bone_ranger_boots",
+/** @type {string} */
+i_fixed_bone_pyromancer_helmet: "zoomers_armory:fixed_bone_pyromancer_helmet",
+/** @type {string} */
+i_fixed_bone_pyromancer_chestplate: "zoomers_armory:fixed_bone_pyromancer_chestplate",
+/** @type {string} */
+i_fixed_bone_pyromancer_leggings: "zoomers_armory:fixed_bone_pyromancer_leggings",
+/** @type {string} */
+i_fixed_bone_pyromancer_boots: "zoomers_armory:fixed_bone_pyromancer_boots",
+/** @type {string} */
+i_fixed_bone_cryomancer_helmet: "zoomers_armory:fixed_bone_cryomancer_helmet",
+/** @type {string} */
+i_fixed_bone_cryomancer_chestplate: "zoomers_armory:fixed_bone_cryomancer_chestplate",
+/** @type {string} */
+i_fixed_bone_cryomancer_leggings: "zoomers_armory:fixed_bone_cryomancer_leggings",
+/** @type {string} */
+i_fixed_bone_cryomancer_boots: "zoomers_armory:fixed_bone_cryomancer_boots",
+/** @type {string} */
+i_fixed_bone_electromancer_helmet: "zoomers_armory:fixed_bone_electromancer_helmet",
+/** @type {string} */
+i_fixed_bone_electromancer_chestplate: "zoomers_armory:fixed_bone_electromancer_chestplate",
+/** @type {string} */
+i_fixed_bone_electromancer_leggings: "zoomers_armory:fixed_bone_electromancer_leggings",
+/** @type {string} */
+i_fixed_bone_electromancer_boots: "zoomers_armory:fixed_bone_electromancer_boots",
+/** @type {string} */
+i_fixed_bone_archevoker_helmet: "zoomers_armory:fixed_bone_archevoker_helmet",
+/** @type {string} */
+i_fixed_bone_archevoker_chestplate: "zoomers_armory:fixed_bone_archevoker_chestplate",
+/** @type {string} */
+i_fixed_bone_archevoker_leggings: "zoomers_armory:fixed_bone_archevoker_leggings",
+/** @type {string} */
+i_fixed_bone_archevoker_boots: "zoomers_armory:fixed_bone_archevoker_boots",
+/** @type {string} */
+i_fixed_bone_cultist_helmet: "zoomers_armory:fixed_bone_cultist_helmet",
+/** @type {string} */
+i_fixed_bone_cultist_chestplate: "zoomers_armory:fixed_bone_cultist_chestplate",
+/** @type {string} */
+i_fixed_bone_cultist_leggings: "zoomers_armory:fixed_bone_cultist_leggings",
+/** @type {string} */
+i_fixed_bone_cultist_boots: "zoomers_armory:fixed_bone_cultist_boots",
+/** @type {string} */
+i_fixed_bone_shadowwalker_helmet: "zoomers_armory:fixed_bone_shadowwalker_helmet",
+/** @type {string} */
+i_fixed_bone_shadowwalker_chestplate: "zoomers_armory:fixed_bone_shadowwalker_chestplate",
+/** @type {string} */
+i_fixed_bone_shadowwalker_leggings: "zoomers_armory:fixed_bone_shadowwalker_leggings",
+/** @type {string} */
+i_fixed_bone_shadowwalker_boots: "zoomers_armory:fixed_bone_shadowwalker_boots",
+/** @type {string} */
+i_fixed_bone_priest_helmet: "zoomers_armory:fixed_bone_priest_helmet",
+/** @type {string} */
+i_fixed_bone_priest_chestplate: "zoomers_armory:fixed_bone_priest_chestplate",
+/** @type {string} */
+i_fixed_bone_priest_leggings: "zoomers_armory:fixed_bone_priest_leggings",
+/** @type {string} */
+i_fixed_bone_priest_boots: "zoomers_armory:fixed_bone_priest_boots",
+/** @type {string} */
+i_fixed_bone_plagued_helmet: "zoomers_armory:fixed_bone_plagued_helmet",
+/** @type {string} */
+i_fixed_bone_plagued_chestplate: "zoomers_armory:fixed_bone_plagued_chestplate",
+/** @type {string} */
+i_fixed_bone_plagued_leggings: "zoomers_armory:fixed_bone_plagued_leggings",
+/** @type {string} */
+i_fixed_bone_plagued_boots: "zoomers_armory:fixed_bone_plagued_boots",
+/** @type {string} */
+i_fusion_claws: "zoomers_armory:fusion_claws",
+/** @type {string} */
+i_fusion_dagger: "zoomers_armory:fusion_dagger",
+/** @type {string} */
+i_fusion_shortsword: "zoomers_armory:fusion_shortsword",
+/** @type {string} */
+i_fusion_heavysword: "zoomers_armory:fusion_heavysword",
+/** @type {string} */
+i_fusion_cutlass: "zoomers_armory:fusion_cutlass",
+/** @type {string} */
+i_fusion_mace: "zoomers_armory:fusion_mace",
+/** @type {string} */
+i_fusion_heavymace: "zoomers_armory:fusion_heavymace",
+/** @type {string} */
+i_fusion_warhammer: "zoomers_armory:fusion_warhammer",
+/** @type {string} */
+i_fusion_battleaxe: "zoomers_armory:fusion_battleaxe",
+/** @type {string} */
+i_fusion_spear: "zoomers_armory:fusion_spear",
+/** @type {string} */
+i_fusion_halberd: "zoomers_armory:fusion_halberd",
+/** @type {string} */
+i_fusion_scythe: "zoomers_armory:fusion_scythe",
+/** @type {string} */
+i_fusion_katana: "zoomers_armory:fusion_katana",
+/** @type {string} */
+i_fusion_twinblade: "zoomers_armory:fusion_twinblade",
+/** @type {string} */
+i_fusion_sai: "zoomers_armory:fusion_sai",
+/** @type {string} */
+i_fusion_warglaive: "zoomers_armory:fusion_warglaive",
+/** @type {string} */
+i_fusion_musashi: "zoomers_armory:fusion_musashi",
+/** @type {string} */
+i_fusion_arcane_staff: "zoomers_armory:fusion_arcane_staff",
+/** @type {string} */
+i_fusion_woodwind_staff: "zoomers_armory:fusion_woodwind_staff",
+/** @type {string} */
+i_fusion_fire_staff: "zoomers_armory:fusion_fire_staff",
+/** @type {string} */
+i_fusion_ice_staff: "zoomers_armory:fusion_ice_staff",
+/** @type {string} */
+i_fusion_lightning_staff: "zoomers_armory:fusion_lightning_staff",
+/** @type {string} */
+i_fusion_nature_staff: "zoomers_armory:fusion_nature_staff",
+/** @type {string} */
+i_fusion_holy_staff: "zoomers_armory:fusion_holy_staff",
+/** @type {string} */
+i_fusion_blood_staff: "zoomers_armory:fusion_blood_staff",
+/** @type {string} */
+i_fusion_evocation_staff: "zoomers_armory:fusion_evocation_staff",
+/** @type {string} */
+i_fusion_ender_staff: "zoomers_armory:fusion_ender_staff",
+/** @type {string} */
+i_fusion_buckler: "zoomers_armory:fusion_buckler",
+/** @type {string} */
+i_fusion_heater: "zoomers_armory:fusion_heater",
+/** @type {string} */
+i_fusion_tower: "zoomers_armory:fusion_tower",
+/** @type {string} */
+i_fusion_shortbow: "zoomers_armory:fusion_shortbow",
+/** @type {string} */
+i_fusion_bow: "zoomers_armory:fusion_bow",
+/** @type {string} */
+i_fusion_longbow: "zoomers_armory:fusion_longbow",
+/** @type {string} */
+i_fusion_crossbow: "zoomers_armory:fusion_crossbow",
+/** @type {string} */
+i_jade_rogue_chestplate: "zoomers_armory:jade_rogue_chestplate",
+/** @type {string} */
+i_jade_rogue_leggings: "zoomers_armory:jade_rogue_leggings",
+/** @type {string} */
+i_jade_rogue_boots: "zoomers_armory:jade_rogue_boots",
+/** @type {string} */
+i_crystalline_rogue_helmet: "zoomers_armory:crystalline_rogue_helmet",
+/** @type {string} */
+i_fusion_samurai_helmet: "zoomers_armory:fusion_samurai_helmet",
+/** @type {string} */
+i_fusion_samurai_chestplate: "zoomers_armory:fusion_samurai_chestplate",
+/** @type {string} */
+i_fusion_samurai_leggings: "zoomers_armory:fusion_samurai_leggings",
+/** @type {string} */
+i_fusion_samurai_boots: "zoomers_armory:fusion_samurai_boots",
+/** @type {string} */
+i_crystalline_rogue_chestplate: "zoomers_armory:crystalline_rogue_chestplate",
+/** @type {string} */
+i_crystalline_rogue_leggings: "zoomers_armory:crystalline_rogue_leggings",
+/** @type {string} */
+i_crystalline_rogue_boots: "zoomers_armory:crystalline_rogue_boots",
+/** @type {string} */
+i_dragon_rogue_helmet: "zoomers_armory:dragon_rogue_helmet",
+/** @type {string} */
+i_fusion_archer_helmet: "zoomers_armory:fusion_archer_helmet",
+/** @type {string} */
+i_fusion_archer_chestplate: "zoomers_armory:fusion_archer_chestplate",
+/** @type {string} */
+i_fusion_archer_leggings: "zoomers_armory:fusion_archer_leggings",
+/** @type {string} */
+i_fusion_archer_boots: "zoomers_armory:fusion_archer_boots",
+/** @type {string} */
+i_fusion_ranger_helmet: "zoomers_armory:fusion_ranger_helmet",
+/** @type {string} */
+i_fusion_ranger_chestplate: "zoomers_armory:fusion_ranger_chestplate",
+/** @type {string} */
+i_fusion_ranger_leggings: "zoomers_armory:fusion_ranger_leggings",
+/** @type {string} */
+i_fusion_ranger_boots: "zoomers_armory:fusion_ranger_boots",
+/** @type {string} */
+i_fusion_pyromancer_helmet: "zoomers_armory:fusion_pyromancer_helmet",
+/** @type {string} */
+i_fusion_pyromancer_chestplate: "zoomers_armory:fusion_pyromancer_chestplate",
+/** @type {string} */
+i_fusion_pyromancer_leggings: "zoomers_armory:fusion_pyromancer_leggings",
+/** @type {string} */
+i_fusion_pyromancer_boots: "zoomers_armory:fusion_pyromancer_boots",
+/** @type {string} */
+i_fusion_cryomancer_helmet: "zoomers_armory:fusion_cryomancer_helmet",
+/** @type {string} */
+i_fusion_cryomancer_chestplate: "zoomers_armory:fusion_cryomancer_chestplate",
+/** @type {string} */
+i_fusion_cryomancer_leggings: "zoomers_armory:fusion_cryomancer_leggings",
+/** @type {string} */
+i_fusion_cryomancer_boots: "zoomers_armory:fusion_cryomancer_boots",
+/** @type {string} */
+i_fusion_electromancer_helmet: "zoomers_armory:fusion_electromancer_helmet",
+/** @type {string} */
+i_fusion_electromancer_chestplate: "zoomers_armory:fusion_electromancer_chestplate",
+/** @type {string} */
+i_fusion_electromancer_leggings: "zoomers_armory:fusion_electromancer_leggings",
+/** @type {string} */
+i_fusion_electromancer_boots: "zoomers_armory:fusion_electromancer_boots",
+/** @type {string} */
+i_fusion_archevoker_helmet: "zoomers_armory:fusion_archevoker_helmet",
+/** @type {string} */
+i_fusion_archevoker_chestplate: "zoomers_armory:fusion_archevoker_chestplate",
+/** @type {string} */
+i_fusion_archevoker_leggings: "zoomers_armory:fusion_archevoker_leggings",
+/** @type {string} */
+i_fusion_archevoker_boots: "zoomers_armory:fusion_archevoker_boots",
+/** @type {string} */
+i_fusion_cultist_helmet: "zoomers_armory:fusion_cultist_helmet",
+/** @type {string} */
+i_fusion_cultist_chestplate: "zoomers_armory:fusion_cultist_chestplate",
+/** @type {string} */
+i_fusion_cultist_leggings: "zoomers_armory:fusion_cultist_leggings",
+/** @type {string} */
+i_fusion_cultist_boots: "zoomers_armory:fusion_cultist_boots",
+/** @type {string} */
+i_fusion_shadowwalker_helmet: "zoomers_armory:fusion_shadowwalker_helmet",
+/** @type {string} */
+i_fusion_shadowwalker_chestplate: "zoomers_armory:fusion_shadowwalker_chestplate",
+/** @type {string} */
+i_fusion_shadowwalker_leggings: "zoomers_armory:fusion_shadowwalker_leggings",
+/** @type {string} */
+i_fusion_shadowwalker_boots: "zoomers_armory:fusion_shadowwalker_boots",
+/** @type {string} */
+i_fusion_priest_helmet: "zoomers_armory:fusion_priest_helmet",
+/** @type {string} */
+i_fusion_priest_chestplate: "zoomers_armory:fusion_priest_chestplate",
+/** @type {string} */
+i_fusion_priest_leggings: "zoomers_armory:fusion_priest_leggings",
+/** @type {string} */
+i_fusion_priest_boots: "zoomers_armory:fusion_priest_boots",
+/** @type {string} */
+i_fusion_plagued_helmet: "zoomers_armory:fusion_plagued_helmet",
+/** @type {string} */
+i_fusion_plagued_chestplate: "zoomers_armory:fusion_plagued_chestplate",
+/** @type {string} */
+i_fusion_plagued_leggings: "zoomers_armory:fusion_plagued_leggings",
+/** @type {string} */
+i_fusion_plagued_boots: "zoomers_armory:fusion_plagued_boots",
+/** @type {string} */
+i_aberythe_claws: "zoomers_armory:aberythe_claws",
+/** @type {string} */
+i_aberythe_dagger: "zoomers_armory:aberythe_dagger",
+/** @type {string} */
+i_aberythe_shortsword: "zoomers_armory:aberythe_shortsword",
+/** @type {string} */
+i_aberythe_heavysword: "zoomers_armory:aberythe_heavysword",
+/** @type {string} */
+i_aberythe_cutlass: "zoomers_armory:aberythe_cutlass",
+/** @type {string} */
+i_aberythe_mace: "zoomers_armory:aberythe_mace",
+/** @type {string} */
+i_aberythe_heavymace: "zoomers_armory:aberythe_heavymace",
+/** @type {string} */
+i_aberythe_warhammer: "zoomers_armory:aberythe_warhammer",
+/** @type {string} */
+i_aberythe_battleaxe: "zoomers_armory:aberythe_battleaxe",
+/** @type {string} */
+i_aberythe_spear: "zoomers_armory:aberythe_spear",
+/** @type {string} */
+i_aberythe_halberd: "zoomers_armory:aberythe_halberd",
+/** @type {string} */
+i_aberythe_scythe: "zoomers_armory:aberythe_scythe",
+/** @type {string} */
+i_aberythe_katana: "zoomers_armory:aberythe_katana",
+/** @type {string} */
+i_aberythe_twinblade: "zoomers_armory:aberythe_twinblade",
+/** @type {string} */
+i_aberythe_sai: "zoomers_armory:aberythe_sai",
+/** @type {string} */
+i_aberythe_warglaive: "zoomers_armory:aberythe_warglaive",
+/** @type {string} */
+i_aberythe_musashi: "zoomers_armory:aberythe_musashi",
+/** @type {string} */
+i_aberythe_arcane_staff: "zoomers_armory:aberythe_arcane_staff",
+/** @type {string} */
+i_aberythe_woodwind_staff: "zoomers_armory:aberythe_woodwind_staff",
+/** @type {string} */
+i_aberythe_fire_staff: "zoomers_armory:aberythe_fire_staff",
+/** @type {string} */
+i_aberythe_ice_staff: "zoomers_armory:aberythe_ice_staff",
+/** @type {string} */
+i_aberythe_lightning_staff: "zoomers_armory:aberythe_lightning_staff",
+/** @type {string} */
+i_aberythe_nature_staff: "zoomers_armory:aberythe_nature_staff",
+/** @type {string} */
+i_aberythe_holy_staff: "zoomers_armory:aberythe_holy_staff",
+/** @type {string} */
+i_aberythe_blood_staff: "zoomers_armory:aberythe_blood_staff",
+/** @type {string} */
+i_aberythe_evocation_staff: "zoomers_armory:aberythe_evocation_staff",
+/** @type {string} */
+i_aberythe_ender_staff: "zoomers_armory:aberythe_ender_staff",
+/** @type {string} */
+i_aberythe_buckler: "zoomers_armory:aberythe_buckler",
+/** @type {string} */
+i_aberythe_heater: "zoomers_armory:aberythe_heater",
+/** @type {string} */
+i_aberythe_tower: "zoomers_armory:aberythe_tower",
+/** @type {string} */
+i_aberythe_shortbow: "zoomers_armory:aberythe_shortbow",
+/** @type {string} */
+i_aberythe_bow: "zoomers_armory:aberythe_bow",
+/** @type {string} */
+i_aberythe_longbow: "zoomers_armory:aberythe_longbow",
+/** @type {string} */
+i_aberythe_crossbow: "zoomers_armory:aberythe_crossbow",
+/** @type {string} */
+i_dragon_rogue_chestplate: "zoomers_armory:dragon_rogue_chestplate",
+/** @type {string} */
+i_dragon_rogue_leggings: "zoomers_armory:dragon_rogue_leggings",
+/** @type {string} */
+i_dragon_rogue_boots: "zoomers_armory:dragon_rogue_boots",
+/** @type {string} */
+i_enderite_rogue_helmet: "zoomers_armory:enderite_rogue_helmet",
+/** @type {string} */
+i_aberythe_samurai_helmet: "zoomers_armory:aberythe_samurai_helmet",
+/** @type {string} */
+i_aberythe_samurai_chestplate: "zoomers_armory:aberythe_samurai_chestplate",
+/** @type {string} */
+i_aberythe_samurai_leggings: "zoomers_armory:aberythe_samurai_leggings",
+/** @type {string} */
+i_aberythe_samurai_boots: "zoomers_armory:aberythe_samurai_boots",
+/** @type {string} */
+i_enderite_rogue_chestplate: "zoomers_armory:enderite_rogue_chestplate",
+/** @type {string} */
+i_enderite_rogue_leggings: "zoomers_armory:enderite_rogue_leggings",
+/** @type {string} */
+i_enderite_rogue_boots: "zoomers_armory:enderite_rogue_boots",
+/** @type {string} */
+i_immemorial_rogue_helmet: "zoomers_armory:immemorial_rogue_helmet",
+/** @type {string} */
+i_aberythe_archer_helmet: "zoomers_armory:aberythe_archer_helmet",
+/** @type {string} */
+i_aberythe_archer_chestplate: "zoomers_armory:aberythe_archer_chestplate",
+/** @type {string} */
+i_aberythe_archer_leggings: "zoomers_armory:aberythe_archer_leggings",
+/** @type {string} */
+i_aberythe_archer_boots: "zoomers_armory:aberythe_archer_boots",
+/** @type {string} */
+i_aberythe_ranger_helmet: "zoomers_armory:aberythe_ranger_helmet",
+/** @type {string} */
+i_aberythe_ranger_chestplate: "zoomers_armory:aberythe_ranger_chestplate",
+/** @type {string} */
+i_aberythe_ranger_leggings: "zoomers_armory:aberythe_ranger_leggings",
+/** @type {string} */
+i_aberythe_ranger_boots: "zoomers_armory:aberythe_ranger_boots",
+/** @type {string} */
+i_aberythe_pyromancer_helmet: "zoomers_armory:aberythe_pyromancer_helmet",
+/** @type {string} */
+i_aberythe_pyromancer_chestplate: "zoomers_armory:aberythe_pyromancer_chestplate",
+/** @type {string} */
+i_aberythe_pyromancer_leggings: "zoomers_armory:aberythe_pyromancer_leggings",
+/** @type {string} */
+i_aberythe_pyromancer_boots: "zoomers_armory:aberythe_pyromancer_boots",
+/** @type {string} */
+i_aberythe_cryomancer_helmet: "zoomers_armory:aberythe_cryomancer_helmet",
+/** @type {string} */
+i_aberythe_cryomancer_chestplate: "zoomers_armory:aberythe_cryomancer_chestplate",
+/** @type {string} */
+i_aberythe_cryomancer_leggings: "zoomers_armory:aberythe_cryomancer_leggings",
+/** @type {string} */
+i_aberythe_cryomancer_boots: "zoomers_armory:aberythe_cryomancer_boots",
+/** @type {string} */
+i_aberythe_electromancer_helmet: "zoomers_armory:aberythe_electromancer_helmet",
+/** @type {string} */
+i_aberythe_electromancer_chestplate: "zoomers_armory:aberythe_electromancer_chestplate",
+/** @type {string} */
+i_aberythe_electromancer_leggings: "zoomers_armory:aberythe_electromancer_leggings",
+/** @type {string} */
+i_aberythe_electromancer_boots: "zoomers_armory:aberythe_electromancer_boots",
+/** @type {string} */
+i_aberythe_archevoker_helmet: "zoomers_armory:aberythe_archevoker_helmet",
+/** @type {string} */
+i_aberythe_archevoker_chestplate: "zoomers_armory:aberythe_archevoker_chestplate",
+/** @type {string} */
+i_aberythe_archevoker_leggings: "zoomers_armory:aberythe_archevoker_leggings",
+/** @type {string} */
+i_aberythe_archevoker_boots: "zoomers_armory:aberythe_archevoker_boots",
+/** @type {string} */
+i_aberythe_cultist_helmet: "zoomers_armory:aberythe_cultist_helmet",
+/** @type {string} */
+i_aberythe_cultist_chestplate: "zoomers_armory:aberythe_cultist_chestplate",
+/** @type {string} */
+i_aberythe_cultist_leggings: "zoomers_armory:aberythe_cultist_leggings",
+/** @type {string} */
+i_aberythe_cultist_boots: "zoomers_armory:aberythe_cultist_boots",
+/** @type {string} */
+i_aberythe_shadowwalker_helmet: "zoomers_armory:aberythe_shadowwalker_helmet",
+/** @type {string} */
+i_aberythe_shadowwalker_chestplate: "zoomers_armory:aberythe_shadowwalker_chestplate",
+/** @type {string} */
+i_aberythe_shadowwalker_leggings: "zoomers_armory:aberythe_shadowwalker_leggings",
+/** @type {string} */
+i_aberythe_shadowwalker_boots: "zoomers_armory:aberythe_shadowwalker_boots",
+/** @type {string} */
+i_aberythe_priest_helmet: "zoomers_armory:aberythe_priest_helmet",
+/** @type {string} */
+i_aberythe_priest_chestplate: "zoomers_armory:aberythe_priest_chestplate",
+/** @type {string} */
+i_aberythe_priest_leggings: "zoomers_armory:aberythe_priest_leggings",
+/** @type {string} */
+i_aberythe_priest_boots: "zoomers_armory:aberythe_priest_boots",
+/** @type {string} */
+i_aberythe_plagued_helmet: "zoomers_armory:aberythe_plagued_helmet",
+/** @type {string} */
+i_aberythe_plagued_chestplate: "zoomers_armory:aberythe_plagued_chestplate",
+/** @type {string} */
+i_aberythe_plagued_leggings: "zoomers_armory:aberythe_plagued_leggings",
+/** @type {string} */
+i_aberythe_plagued_boots: "zoomers_armory:aberythe_plagued_boots",
+/** @type {string} */
+i_ignisithe_claws: "zoomers_armory:ignisithe_claws",
+/** @type {string} */
+i_ignisithe_dagger: "zoomers_armory:ignisithe_dagger",
+/** @type {string} */
+i_ignisithe_shortsword: "zoomers_armory:ignisithe_shortsword",
+/** @type {string} */
+i_ignisithe_heavysword: "zoomers_armory:ignisithe_heavysword",
+/** @type {string} */
+i_ignisithe_cutlass: "zoomers_armory:ignisithe_cutlass",
+/** @type {string} */
+i_ignisithe_mace: "zoomers_armory:ignisithe_mace",
+/** @type {string} */
+i_ignisithe_heavymace: "zoomers_armory:ignisithe_heavymace",
+/** @type {string} */
+i_ignisithe_warhammer: "zoomers_armory:ignisithe_warhammer",
+/** @type {string} */
+i_ignisithe_battleaxe: "zoomers_armory:ignisithe_battleaxe",
+/** @type {string} */
+i_ignisithe_spear: "zoomers_armory:ignisithe_spear",
+/** @type {string} */
+i_ignisithe_halberd: "zoomers_armory:ignisithe_halberd",
+/** @type {string} */
+i_ignisithe_scythe: "zoomers_armory:ignisithe_scythe",
+/** @type {string} */
+i_ignisithe_katana: "zoomers_armory:ignisithe_katana",
+/** @type {string} */
+i_ignisithe_twinblade: "zoomers_armory:ignisithe_twinblade",
+/** @type {string} */
+i_ignisithe_sai: "zoomers_armory:ignisithe_sai",
+/** @type {string} */
+i_ignisithe_warglaive: "zoomers_armory:ignisithe_warglaive",
+/** @type {string} */
+i_ignisithe_musashi: "zoomers_armory:ignisithe_musashi",
+/** @type {string} */
+i_ignisithe_arcane_staff: "zoomers_armory:ignisithe_arcane_staff",
+/** @type {string} */
+i_ignisithe_woodwind_staff: "zoomers_armory:ignisithe_woodwind_staff",
+/** @type {string} */
+i_ignisithe_fire_staff: "zoomers_armory:ignisithe_fire_staff",
+/** @type {string} */
+i_ignisithe_ice_staff: "zoomers_armory:ignisithe_ice_staff",
+/** @type {string} */
+i_ignisithe_lightning_staff: "zoomers_armory:ignisithe_lightning_staff",
+/** @type {string} */
+i_ignisithe_nature_staff: "zoomers_armory:ignisithe_nature_staff",
+/** @type {string} */
+i_ignisithe_holy_staff: "zoomers_armory:ignisithe_holy_staff",
+/** @type {string} */
+i_ignisithe_blood_staff: "zoomers_armory:ignisithe_blood_staff",
+/** @type {string} */
+i_ignisithe_evocation_staff: "zoomers_armory:ignisithe_evocation_staff",
+/** @type {string} */
+i_ignisithe_ender_staff: "zoomers_armory:ignisithe_ender_staff",
+/** @type {string} */
+i_ignisithe_buckler: "zoomers_armory:ignisithe_buckler",
+/** @type {string} */
+i_ignisithe_heater: "zoomers_armory:ignisithe_heater",
+/** @type {string} */
+i_ignisithe_tower: "zoomers_armory:ignisithe_tower",
+/** @type {string} */
+i_ignisithe_shortbow: "zoomers_armory:ignisithe_shortbow",
+/** @type {string} */
+i_ignisithe_bow: "zoomers_armory:ignisithe_bow",
+/** @type {string} */
+i_ignisithe_longbow: "zoomers_armory:ignisithe_longbow",
+/** @type {string} */
+i_ignisithe_crossbow: "zoomers_armory:ignisithe_crossbow",
+/** @type {string} */
+i_immemorial_rogue_chestplate: "zoomers_armory:immemorial_rogue_chestplate",
+/** @type {string} */
+i_immemorial_rogue_leggings: "zoomers_armory:immemorial_rogue_leggings",
+/** @type {string} */
+i_immemorial_rogue_boots: "zoomers_armory:immemorial_rogue_boots",
+/** @type {string} */
+i_soul_rogue_helmet: "zoomers_armory:soul_rogue_helmet",
+/** @type {string} */
+i_ignisithe_samurai_helmet: "zoomers_armory:ignisithe_samurai_helmet",
+/** @type {string} */
+i_ignisithe_samurai_chestplate: "zoomers_armory:ignisithe_samurai_chestplate",
+/** @type {string} */
+i_ignisithe_samurai_leggings: "zoomers_armory:ignisithe_samurai_leggings",
+/** @type {string} */
+i_ignisithe_samurai_boots: "zoomers_armory:ignisithe_samurai_boots",
+/** @type {string} */
+i_soul_rogue_chestplate: "zoomers_armory:soul_rogue_chestplate",
+/** @type {string} */
+i_soul_rogue_leggings: "zoomers_armory:soul_rogue_leggings",
+/** @type {string} */
+i_soul_rogue_boots: "zoomers_armory:soul_rogue_boots",
+/** @type {string} */
+i_fixed_bone_rogue_helmet: "zoomers_armory:fixed_bone_rogue_helmet",
+/** @type {string} */
+i_ignisithe_archer_helmet: "zoomers_armory:ignisithe_archer_helmet",
+/** @type {string} */
+i_ignisithe_archer_chestplate: "zoomers_armory:ignisithe_archer_chestplate",
+/** @type {string} */
+i_ignisithe_archer_leggings: "zoomers_armory:ignisithe_archer_leggings",
+/** @type {string} */
+i_ignisithe_archer_boots: "zoomers_armory:ignisithe_archer_boots",
+/** @type {string} */
+i_ignisithe_ranger_helmet: "zoomers_armory:ignisithe_ranger_helmet",
+/** @type {string} */
+i_ignisithe_ranger_chestplate: "zoomers_armory:ignisithe_ranger_chestplate",
+/** @type {string} */
+i_ignisithe_ranger_leggings: "zoomers_armory:ignisithe_ranger_leggings",
+/** @type {string} */
+i_ignisithe_ranger_boots: "zoomers_armory:ignisithe_ranger_boots",
+/** @type {string} */
+i_ignisithe_pyromancer_helmet: "zoomers_armory:ignisithe_pyromancer_helmet",
+/** @type {string} */
+i_ignisithe_pyromancer_chestplate: "zoomers_armory:ignisithe_pyromancer_chestplate",
+/** @type {string} */
+i_ignisithe_pyromancer_leggings: "zoomers_armory:ignisithe_pyromancer_leggings",
+/** @type {string} */
+i_ignisithe_pyromancer_boots: "zoomers_armory:ignisithe_pyromancer_boots",
+/** @type {string} */
+i_ignisithe_cryomancer_helmet: "zoomers_armory:ignisithe_cryomancer_helmet",
+/** @type {string} */
+i_ignisithe_cryomancer_chestplate: "zoomers_armory:ignisithe_cryomancer_chestplate",
+/** @type {string} */
+i_ignisithe_cryomancer_leggings: "zoomers_armory:ignisithe_cryomancer_leggings",
+/** @type {string} */
+i_ignisithe_cryomancer_boots: "zoomers_armory:ignisithe_cryomancer_boots",
+/** @type {string} */
+i_ignisithe_electromancer_helmet: "zoomers_armory:ignisithe_electromancer_helmet",
+/** @type {string} */
+i_ignisithe_electromancer_chestplate: "zoomers_armory:ignisithe_electromancer_chestplate",
+/** @type {string} */
+i_ignisithe_electromancer_leggings: "zoomers_armory:ignisithe_electromancer_leggings",
+/** @type {string} */
+i_ignisithe_electromancer_boots: "zoomers_armory:ignisithe_electromancer_boots",
+/** @type {string} */
+i_ignisithe_archevoker_helmet: "zoomers_armory:ignisithe_archevoker_helmet",
+/** @type {string} */
+i_ignisithe_archevoker_chestplate: "zoomers_armory:ignisithe_archevoker_chestplate",
+/** @type {string} */
+i_ignisithe_archevoker_leggings: "zoomers_armory:ignisithe_archevoker_leggings",
+/** @type {string} */
+i_ignisithe_archevoker_boots: "zoomers_armory:ignisithe_archevoker_boots",
+/** @type {string} */
+i_ignisithe_cultist_helmet: "zoomers_armory:ignisithe_cultist_helmet",
+/** @type {string} */
+i_ignisithe_cultist_chestplate: "zoomers_armory:ignisithe_cultist_chestplate",
+/** @type {string} */
+i_ignisithe_cultist_leggings: "zoomers_armory:ignisithe_cultist_leggings",
+/** @type {string} */
+i_ignisithe_cultist_boots: "zoomers_armory:ignisithe_cultist_boots",
+/** @type {string} */
+i_ignisithe_shadowwalker_helmet: "zoomers_armory:ignisithe_shadowwalker_helmet",
+/** @type {string} */
+i_ignisithe_shadowwalker_chestplate: "zoomers_armory:ignisithe_shadowwalker_chestplate",
+/** @type {string} */
+i_ignisithe_shadowwalker_leggings: "zoomers_armory:ignisithe_shadowwalker_leggings",
+/** @type {string} */
+i_ignisithe_shadowwalker_boots: "zoomers_armory:ignisithe_shadowwalker_boots",
+/** @type {string} */
+i_ignisithe_priest_helmet: "zoomers_armory:ignisithe_priest_helmet",
+/** @type {string} */
+i_ignisithe_priest_chestplate: "zoomers_armory:ignisithe_priest_chestplate",
+/** @type {string} */
+i_ignisithe_priest_leggings: "zoomers_armory:ignisithe_priest_leggings",
+/** @type {string} */
+i_ignisithe_priest_boots: "zoomers_armory:ignisithe_priest_boots",
+/** @type {string} */
+i_ignisithe_plagued_helmet: "zoomers_armory:ignisithe_plagued_helmet",
+/** @type {string} */
+i_ignisithe_plagued_chestplate: "zoomers_armory:ignisithe_plagued_chestplate",
+/** @type {string} */
+i_ignisithe_plagued_leggings: "zoomers_armory:ignisithe_plagued_leggings",
+/** @type {string} */
+i_ignisithe_plagued_boots: "zoomers_armory:ignisithe_plagued_boots",
+/** @type {string} */
+i_knight_claws: "zoomers_armory:knight_claws",
+/** @type {string} */
+i_knight_dagger: "zoomers_armory:knight_dagger",
+/** @type {string} */
+i_knight_shortsword: "zoomers_armory:knight_shortsword",
+/** @type {string} */
+i_knight_heavysword: "zoomers_armory:knight_heavysword",
+/** @type {string} */
+i_knight_cutlass: "zoomers_armory:knight_cutlass",
+/** @type {string} */
+i_knight_mace: "zoomers_armory:knight_mace",
+/** @type {string} */
+i_knight_heavymace: "zoomers_armory:knight_heavymace",
+/** @type {string} */
+i_knight_warhammer: "zoomers_armory:knight_warhammer",
+/** @type {string} */
+i_knight_battleaxe: "zoomers_armory:knight_battleaxe",
+/** @type {string} */
+i_knight_spear: "zoomers_armory:knight_spear",
+/** @type {string} */
+i_knight_halberd: "zoomers_armory:knight_halberd",
+/** @type {string} */
+i_knight_scythe: "zoomers_armory:knight_scythe",
+/** @type {string} */
+i_knight_katana: "zoomers_armory:knight_katana",
+/** @type {string} */
+i_knight_twinblade: "zoomers_armory:knight_twinblade",
+/** @type {string} */
+i_knight_sai: "zoomers_armory:knight_sai",
+/** @type {string} */
+i_knight_warglaive: "zoomers_armory:knight_warglaive",
+/** @type {string} */
+i_knight_musashi: "zoomers_armory:knight_musashi",
+/** @type {string} */
+i_knight_arcane_staff: "zoomers_armory:knight_arcane_staff",
+/** @type {string} */
+i_knight_woodwind_staff: "zoomers_armory:knight_woodwind_staff",
+/** @type {string} */
+i_knight_fire_staff: "zoomers_armory:knight_fire_staff",
+/** @type {string} */
+i_knight_ice_staff: "zoomers_armory:knight_ice_staff",
+/** @type {string} */
+i_knight_lightning_staff: "zoomers_armory:knight_lightning_staff",
+/** @type {string} */
+i_knight_nature_staff: "zoomers_armory:knight_nature_staff",
+/** @type {string} */
+i_knight_holy_staff: "zoomers_armory:knight_holy_staff",
+/** @type {string} */
+i_knight_blood_staff: "zoomers_armory:knight_blood_staff",
+/** @type {string} */
+i_knight_evocation_staff: "zoomers_armory:knight_evocation_staff",
+/** @type {string} */
+i_knight_ender_staff: "zoomers_armory:knight_ender_staff",
+/** @type {string} */
+i_knight_buckler: "zoomers_armory:knight_buckler",
+/** @type {string} */
+i_knight_heater: "zoomers_armory:knight_heater",
+/** @type {string} */
+i_knight_tower: "zoomers_armory:knight_tower",
+/** @type {string} */
+i_knight_shortbow: "zoomers_armory:knight_shortbow",
+/** @type {string} */
+i_knight_bow: "zoomers_armory:knight_bow",
+/** @type {string} */
+i_knight_longbow: "zoomers_armory:knight_longbow",
+/** @type {string} */
+i_knight_crossbow: "zoomers_armory:knight_crossbow",
+/** @type {string} */
+i_fixed_bone_rogue_chestplate: "zoomers_armory:fixed_bone_rogue_chestplate",
+/** @type {string} */
+i_fixed_bone_rogue_leggings: "zoomers_armory:fixed_bone_rogue_leggings",
+/** @type {string} */
+i_fixed_bone_rogue_boots: "zoomers_armory:fixed_bone_rogue_boots",
+/** @type {string} */
+i_fusion_rogue_helmet: "zoomers_armory:fusion_rogue_helmet",
+/** @type {string} */
+i_knight_samurai_helmet: "zoomers_armory:knight_samurai_helmet",
+/** @type {string} */
+i_knight_samurai_chestplate: "zoomers_armory:knight_samurai_chestplate",
+/** @type {string} */
+i_knight_samurai_leggings: "zoomers_armory:knight_samurai_leggings",
+/** @type {string} */
+i_knight_samurai_boots: "zoomers_armory:knight_samurai_boots",
+/** @type {string} */
+i_fusion_rogue_chestplate: "zoomers_armory:fusion_rogue_chestplate",
+/** @type {string} */
+i_fusion_rogue_leggings: "zoomers_armory:fusion_rogue_leggings",
+/** @type {string} */
+i_fusion_rogue_boots: "zoomers_armory:fusion_rogue_boots",
+/** @type {string} */
+i_aberythe_rogue_helmet: "zoomers_armory:aberythe_rogue_helmet",
+/** @type {string} */
+i_knight_archer_helmet: "zoomers_armory:knight_archer_helmet",
+/** @type {string} */
+i_knight_archer_chestplate: "zoomers_armory:knight_archer_chestplate",
+/** @type {string} */
+i_knight_archer_leggings: "zoomers_armory:knight_archer_leggings",
+/** @type {string} */
+i_knight_archer_boots: "zoomers_armory:knight_archer_boots",
+/** @type {string} */
+i_knight_ranger_helmet: "zoomers_armory:knight_ranger_helmet",
+/** @type {string} */
+i_knight_ranger_chestplate: "zoomers_armory:knight_ranger_chestplate",
+/** @type {string} */
+i_knight_ranger_leggings: "zoomers_armory:knight_ranger_leggings",
+/** @type {string} */
+i_knight_ranger_boots: "zoomers_armory:knight_ranger_boots",
+/** @type {string} */
+i_knight_pyromancer_helmet: "zoomers_armory:knight_pyromancer_helmet",
+/** @type {string} */
+i_knight_pyromancer_chestplate: "zoomers_armory:knight_pyromancer_chestplate",
+/** @type {string} */
+i_knight_pyromancer_leggings: "zoomers_armory:knight_pyromancer_leggings",
+/** @type {string} */
+i_knight_pyromancer_boots: "zoomers_armory:knight_pyromancer_boots",
+/** @type {string} */
+i_knight_cryomancer_helmet: "zoomers_armory:knight_cryomancer_helmet",
+/** @type {string} */
+i_knight_cryomancer_chestplate: "zoomers_armory:knight_cryomancer_chestplate",
+/** @type {string} */
+i_knight_cryomancer_leggings: "zoomers_armory:knight_cryomancer_leggings",
+/** @type {string} */
+i_knight_cryomancer_boots: "zoomers_armory:knight_cryomancer_boots",
+/** @type {string} */
+i_knight_electromancer_helmet: "zoomers_armory:knight_electromancer_helmet",
+/** @type {string} */
+i_knight_electromancer_chestplate: "zoomers_armory:knight_electromancer_chestplate",
+/** @type {string} */
+i_knight_electromancer_leggings: "zoomers_armory:knight_electromancer_leggings",
+/** @type {string} */
+i_knight_electromancer_boots: "zoomers_armory:knight_electromancer_boots",
+/** @type {string} */
+i_knight_archevoker_helmet: "zoomers_armory:knight_archevoker_helmet",
+/** @type {string} */
+i_knight_archevoker_chestplate: "zoomers_armory:knight_archevoker_chestplate",
+/** @type {string} */
+i_knight_archevoker_leggings: "zoomers_armory:knight_archevoker_leggings",
+/** @type {string} */
+i_knight_archevoker_boots: "zoomers_armory:knight_archevoker_boots",
+/** @type {string} */
+i_knight_cultist_helmet: "zoomers_armory:knight_cultist_helmet",
+/** @type {string} */
+i_knight_cultist_chestplate: "zoomers_armory:knight_cultist_chestplate",
+/** @type {string} */
+i_knight_cultist_leggings: "zoomers_armory:knight_cultist_leggings",
+/** @type {string} */
+i_knight_cultist_boots: "zoomers_armory:knight_cultist_boots",
+/** @type {string} */
+i_knight_shadowwalker_helmet: "zoomers_armory:knight_shadowwalker_helmet",
+/** @type {string} */
+i_knight_shadowwalker_chestplate: "zoomers_armory:knight_shadowwalker_chestplate",
+/** @type {string} */
+i_knight_shadowwalker_leggings: "zoomers_armory:knight_shadowwalker_leggings",
+/** @type {string} */
+i_knight_shadowwalker_boots: "zoomers_armory:knight_shadowwalker_boots",
+/** @type {string} */
+i_knight_priest_helmet: "zoomers_armory:knight_priest_helmet",
+/** @type {string} */
+i_knight_priest_chestplate: "zoomers_armory:knight_priest_chestplate",
+/** @type {string} */
+i_knight_priest_leggings: "zoomers_armory:knight_priest_leggings",
+/** @type {string} */
+i_knight_priest_boots: "zoomers_armory:knight_priest_boots",
+/** @type {string} */
+i_knight_plagued_helmet: "zoomers_armory:knight_plagued_helmet",
+/** @type {string} */
+i_knight_plagued_chestplate: "zoomers_armory:knight_plagued_chestplate",
+/** @type {string} */
+i_knight_plagued_leggings: "zoomers_armory:knight_plagued_leggings",
+/** @type {string} */
+i_knight_plagued_boots: "zoomers_armory:knight_plagued_boots",
+/** @type {string} */
+i_glacerythe_claws: "zoomers_armory:glacerythe_claws",
+/** @type {string} */
+i_glacerythe_dagger: "zoomers_armory:glacerythe_dagger",
+/** @type {string} */
+i_glacerythe_shortsword: "zoomers_armory:glacerythe_shortsword",
+/** @type {string} */
+i_glacerythe_heavysword: "zoomers_armory:glacerythe_heavysword",
+/** @type {string} */
+i_glacerythe_cutlass: "zoomers_armory:glacerythe_cutlass",
+/** @type {string} */
+i_glacerythe_mace: "zoomers_armory:glacerythe_mace",
+/** @type {string} */
+i_glacerythe_heavymace: "zoomers_armory:glacerythe_heavymace",
+/** @type {string} */
+i_glacerythe_warhammer: "zoomers_armory:glacerythe_warhammer",
+/** @type {string} */
+i_glacerythe_battleaxe: "zoomers_armory:glacerythe_battleaxe",
+/** @type {string} */
+i_glacerythe_spear: "zoomers_armory:glacerythe_spear",
+/** @type {string} */
+i_glacerythe_halberd: "zoomers_armory:glacerythe_halberd",
+/** @type {string} */
+i_glacerythe_scythe: "zoomers_armory:glacerythe_scythe",
+/** @type {string} */
+i_glacerythe_katana: "zoomers_armory:glacerythe_katana",
+/** @type {string} */
+i_glacerythe_twinblade: "zoomers_armory:glacerythe_twinblade",
+/** @type {string} */
+i_glacerythe_sai: "zoomers_armory:glacerythe_sai",
+/** @type {string} */
+i_glacerythe_warglaive: "zoomers_armory:glacerythe_warglaive",
+/** @type {string} */
+i_glacerythe_musashi: "zoomers_armory:glacerythe_musashi",
+/** @type {string} */
+i_glacerythe_arcane_staff: "zoomers_armory:glacerythe_arcane_staff",
+/** @type {string} */
+i_glacerythe_woodwind_staff: "zoomers_armory:glacerythe_woodwind_staff",
+/** @type {string} */
+i_glacerythe_fire_staff: "zoomers_armory:glacerythe_fire_staff",
+/** @type {string} */
+i_glacerythe_ice_staff: "zoomers_armory:glacerythe_ice_staff",
+/** @type {string} */
+i_glacerythe_lightning_staff: "zoomers_armory:glacerythe_lightning_staff",
+/** @type {string} */
+i_glacerythe_nature_staff: "zoomers_armory:glacerythe_nature_staff",
+/** @type {string} */
+i_glacerythe_holy_staff: "zoomers_armory:glacerythe_holy_staff",
+/** @type {string} */
+i_glacerythe_blood_staff: "zoomers_armory:glacerythe_blood_staff",
+/** @type {string} */
+i_glacerythe_evocation_staff: "zoomers_armory:glacerythe_evocation_staff",
+/** @type {string} */
+i_glacerythe_ender_staff: "zoomers_armory:glacerythe_ender_staff",
+/** @type {string} */
+i_glacerythe_buckler: "zoomers_armory:glacerythe_buckler",
+/** @type {string} */
+i_glacerythe_heater: "zoomers_armory:glacerythe_heater",
+/** @type {string} */
+i_glacerythe_tower: "zoomers_armory:glacerythe_tower",
+/** @type {string} */
+i_glacerythe_shortbow: "zoomers_armory:glacerythe_shortbow",
+/** @type {string} */
+i_glacerythe_bow: "zoomers_armory:glacerythe_bow",
+/** @type {string} */
+i_glacerythe_longbow: "zoomers_armory:glacerythe_longbow",
+/** @type {string} */
+i_glacerythe_crossbow: "zoomers_armory:glacerythe_crossbow",
+/** @type {string} */
+i_aberythe_rogue_chestplate: "zoomers_armory:aberythe_rogue_chestplate",
+/** @type {string} */
+i_aberythe_rogue_leggings: "zoomers_armory:aberythe_rogue_leggings",
+/** @type {string} */
+i_aberythe_rogue_boots: "zoomers_armory:aberythe_rogue_boots",
+/** @type {string} */
+i_ignisithe_rogue_helmet: "zoomers_armory:ignisithe_rogue_helmet",
+/** @type {string} */
+i_glacerythe_samurai_helmet: "zoomers_armory:glacerythe_samurai_helmet",
+/** @type {string} */
+i_glacerythe_samurai_chestplate: "zoomers_armory:glacerythe_samurai_chestplate",
+/** @type {string} */
+i_glacerythe_samurai_leggings: "zoomers_armory:glacerythe_samurai_leggings",
+/** @type {string} */
+i_glacerythe_samurai_boots: "zoomers_armory:glacerythe_samurai_boots",
+/** @type {string} */
+i_ignisithe_rogue_chestplate: "zoomers_armory:ignisithe_rogue_chestplate",
+/** @type {string} */
+i_ignisithe_rogue_leggings: "zoomers_armory:ignisithe_rogue_leggings",
+/** @type {string} */
+i_ignisithe_rogue_boots: "zoomers_armory:ignisithe_rogue_boots",
+/** @type {string} */
+i_knight_rogue_helmet: "zoomers_armory:knight_rogue_helmet",
+/** @type {string} */
+i_glacerythe_archer_helmet: "zoomers_armory:glacerythe_archer_helmet",
+/** @type {string} */
+i_glacerythe_archer_chestplate: "zoomers_armory:glacerythe_archer_chestplate",
+/** @type {string} */
+i_glacerythe_archer_leggings: "zoomers_armory:glacerythe_archer_leggings",
+/** @type {string} */
+i_glacerythe_archer_boots: "zoomers_armory:glacerythe_archer_boots",
+/** @type {string} */
+i_glacerythe_ranger_helmet: "zoomers_armory:glacerythe_ranger_helmet",
+/** @type {string} */
+i_glacerythe_ranger_chestplate: "zoomers_armory:glacerythe_ranger_chestplate",
+/** @type {string} */
+i_glacerythe_ranger_leggings: "zoomers_armory:glacerythe_ranger_leggings",
+/** @type {string} */
+i_glacerythe_ranger_boots: "zoomers_armory:glacerythe_ranger_boots",
+/** @type {string} */
+i_glacerythe_pyromancer_helmet: "zoomers_armory:glacerythe_pyromancer_helmet",
+/** @type {string} */
+i_glacerythe_pyromancer_chestplate: "zoomers_armory:glacerythe_pyromancer_chestplate",
+/** @type {string} */
+i_glacerythe_pyromancer_leggings: "zoomers_armory:glacerythe_pyromancer_leggings",
+/** @type {string} */
+i_glacerythe_pyromancer_boots: "zoomers_armory:glacerythe_pyromancer_boots",
+/** @type {string} */
+i_glacerythe_cryomancer_helmet: "zoomers_armory:glacerythe_cryomancer_helmet",
+/** @type {string} */
+i_glacerythe_cryomancer_chestplate: "zoomers_armory:glacerythe_cryomancer_chestplate",
+/** @type {string} */
+i_glacerythe_cryomancer_leggings: "zoomers_armory:glacerythe_cryomancer_leggings",
+/** @type {string} */
+i_glacerythe_cryomancer_boots: "zoomers_armory:glacerythe_cryomancer_boots",
+/** @type {string} */
+i_glacerythe_electromancer_helmet: "zoomers_armory:glacerythe_electromancer_helmet",
+/** @type {string} */
+i_glacerythe_electromancer_chestplate: "zoomers_armory:glacerythe_electromancer_chestplate",
+/** @type {string} */
+i_glacerythe_electromancer_leggings: "zoomers_armory:glacerythe_electromancer_leggings",
+/** @type {string} */
+i_glacerythe_electromancer_boots: "zoomers_armory:glacerythe_electromancer_boots",
+/** @type {string} */
+i_glacerythe_archevoker_helmet: "zoomers_armory:glacerythe_archevoker_helmet",
+/** @type {string} */
+i_glacerythe_archevoker_chestplate: "zoomers_armory:glacerythe_archevoker_chestplate",
+/** @type {string} */
+i_glacerythe_archevoker_leggings: "zoomers_armory:glacerythe_archevoker_leggings",
+/** @type {string} */
+i_glacerythe_archevoker_boots: "zoomers_armory:glacerythe_archevoker_boots",
+/** @type {string} */
+i_glacerythe_cultist_helmet: "zoomers_armory:glacerythe_cultist_helmet",
+/** @type {string} */
+i_glacerythe_cultist_chestplate: "zoomers_armory:glacerythe_cultist_chestplate",
+/** @type {string} */
+i_glacerythe_cultist_leggings: "zoomers_armory:glacerythe_cultist_leggings",
+/** @type {string} */
+i_glacerythe_cultist_boots: "zoomers_armory:glacerythe_cultist_boots",
+/** @type {string} */
+i_glacerythe_shadowwalker_helmet: "zoomers_armory:glacerythe_shadowwalker_helmet",
+/** @type {string} */
+i_glacerythe_shadowwalker_chestplate: "zoomers_armory:glacerythe_shadowwalker_chestplate",
+/** @type {string} */
+i_glacerythe_shadowwalker_leggings: "zoomers_armory:glacerythe_shadowwalker_leggings",
+/** @type {string} */
+i_glacerythe_shadowwalker_boots: "zoomers_armory:glacerythe_shadowwalker_boots",
+/** @type {string} */
+i_glacerythe_priest_helmet: "zoomers_armory:glacerythe_priest_helmet",
+/** @type {string} */
+i_glacerythe_priest_chestplate: "zoomers_armory:glacerythe_priest_chestplate",
+/** @type {string} */
+i_glacerythe_priest_leggings: "zoomers_armory:glacerythe_priest_leggings",
+/** @type {string} */
+i_glacerythe_priest_boots: "zoomers_armory:glacerythe_priest_boots",
+/** @type {string} */
+i_glacerythe_plagued_helmet: "zoomers_armory:glacerythe_plagued_helmet",
+/** @type {string} */
+i_glacerythe_plagued_chestplate: "zoomers_armory:glacerythe_plagued_chestplate",
+/** @type {string} */
+i_glacerythe_plagued_leggings: "zoomers_armory:glacerythe_plagued_leggings",
+/** @type {string} */
+i_glacerythe_plagued_boots: "zoomers_armory:glacerythe_plagued_boots",
+/** @type {string} */
+i_garnite_claws: "zoomers_armory:garnite_claws",
+/** @type {string} */
+i_garnite_dagger: "zoomers_armory:garnite_dagger",
+/** @type {string} */
+i_garnite_shortsword: "zoomers_armory:garnite_shortsword",
+/** @type {string} */
+i_garnite_heavysword: "zoomers_armory:garnite_heavysword",
+/** @type {string} */
+i_garnite_cutlass: "zoomers_armory:garnite_cutlass",
+/** @type {string} */
+i_garnite_mace: "zoomers_armory:garnite_mace",
+/** @type {string} */
+i_garnite_heavymace: "zoomers_armory:garnite_heavymace",
+/** @type {string} */
+i_garnite_warhammer: "zoomers_armory:garnite_warhammer",
+/** @type {string} */
+i_garnite_battleaxe: "zoomers_armory:garnite_battleaxe",
+/** @type {string} */
+i_garnite_spear: "zoomers_armory:garnite_spear",
+/** @type {string} */
+i_garnite_halberd: "zoomers_armory:garnite_halberd",
+/** @type {string} */
+i_garnite_scythe: "zoomers_armory:garnite_scythe",
+/** @type {string} */
+i_garnite_katana: "zoomers_armory:garnite_katana",
+/** @type {string} */
+i_garnite_twinblade: "zoomers_armory:garnite_twinblade",
+/** @type {string} */
+i_garnite_sai: "zoomers_armory:garnite_sai",
+/** @type {string} */
+i_garnite_warglaive: "zoomers_armory:garnite_warglaive",
+/** @type {string} */
+i_garnite_musashi: "zoomers_armory:garnite_musashi",
+/** @type {string} */
+i_garnite_arcane_staff: "zoomers_armory:garnite_arcane_staff",
+/** @type {string} */
+i_garnite_woodwind_staff: "zoomers_armory:garnite_woodwind_staff",
+/** @type {string} */
+i_garnite_fire_staff: "zoomers_armory:garnite_fire_staff",
+/** @type {string} */
+i_garnite_ice_staff: "zoomers_armory:garnite_ice_staff",
+/** @type {string} */
+i_garnite_lightning_staff: "zoomers_armory:garnite_lightning_staff",
+/** @type {string} */
+i_garnite_nature_staff: "zoomers_armory:garnite_nature_staff",
+/** @type {string} */
+i_garnite_holy_staff: "zoomers_armory:garnite_holy_staff",
+/** @type {string} */
+i_garnite_blood_staff: "zoomers_armory:garnite_blood_staff",
+/** @type {string} */
+i_garnite_evocation_staff: "zoomers_armory:garnite_evocation_staff",
+/** @type {string} */
+i_garnite_ender_staff: "zoomers_armory:garnite_ender_staff",
+/** @type {string} */
+i_garnite_buckler: "zoomers_armory:garnite_buckler",
+/** @type {string} */
+i_garnite_heater: "zoomers_armory:garnite_heater",
+/** @type {string} */
+i_garnite_tower: "zoomers_armory:garnite_tower",
+/** @type {string} */
+i_garnite_shortbow: "zoomers_armory:garnite_shortbow",
+/** @type {string} */
+i_garnite_bow: "zoomers_armory:garnite_bow",
+/** @type {string} */
+i_garnite_longbow: "zoomers_armory:garnite_longbow",
+/** @type {string} */
+i_garnite_crossbow: "zoomers_armory:garnite_crossbow",
+/** @type {string} */
+i_knight_rogue_chestplate: "zoomers_armory:knight_rogue_chestplate",
+/** @type {string} */
+i_knight_rogue_leggings: "zoomers_armory:knight_rogue_leggings",
+/** @type {string} */
+i_knight_rogue_boots: "zoomers_armory:knight_rogue_boots",
+/** @type {string} */
+i_glacerythe_rogue_helmet: "zoomers_armory:glacerythe_rogue_helmet",
+/** @type {string} */
+i_garnite_samurai_helmet: "zoomers_armory:garnite_samurai_helmet",
+/** @type {string} */
+i_garnite_samurai_chestplate: "zoomers_armory:garnite_samurai_chestplate",
+/** @type {string} */
+i_garnite_samurai_leggings: "zoomers_armory:garnite_samurai_leggings",
+/** @type {string} */
+i_garnite_samurai_boots: "zoomers_armory:garnite_samurai_boots",
+/** @type {string} */
+i_glacerythe_rogue_chestplate: "zoomers_armory:glacerythe_rogue_chestplate",
+/** @type {string} */
+i_glacerythe_rogue_leggings: "zoomers_armory:glacerythe_rogue_leggings",
+/** @type {string} */
+i_glacerythe_rogue_boots: "zoomers_armory:glacerythe_rogue_boots",
+/** @type {string} */
+i_garnite_rogue_helmet: "zoomers_armory:garnite_rogue_helmet",
+/** @type {string} */
+i_garnite_archer_helmet: "zoomers_armory:garnite_archer_helmet",
+/** @type {string} */
+i_garnite_archer_chestplate: "zoomers_armory:garnite_archer_chestplate",
+/** @type {string} */
+i_garnite_archer_leggings: "zoomers_armory:garnite_archer_leggings",
+/** @type {string} */
+i_garnite_archer_boots: "zoomers_armory:garnite_archer_boots",
+/** @type {string} */
+i_garnite_ranger_helmet: "zoomers_armory:garnite_ranger_helmet",
+/** @type {string} */
+i_garnite_ranger_chestplate: "zoomers_armory:garnite_ranger_chestplate",
+/** @type {string} */
+i_garnite_ranger_leggings: "zoomers_armory:garnite_ranger_leggings",
+/** @type {string} */
+i_garnite_ranger_boots: "zoomers_armory:garnite_ranger_boots",
+/** @type {string} */
+i_garnite_pyromancer_helmet: "zoomers_armory:garnite_pyromancer_helmet",
+/** @type {string} */
+i_garnite_pyromancer_chestplate: "zoomers_armory:garnite_pyromancer_chestplate",
+/** @type {string} */
+i_garnite_pyromancer_leggings: "zoomers_armory:garnite_pyromancer_leggings",
+/** @type {string} */
+i_garnite_pyromancer_boots: "zoomers_armory:garnite_pyromancer_boots",
+/** @type {string} */
+i_garnite_cryomancer_helmet: "zoomers_armory:garnite_cryomancer_helmet",
+/** @type {string} */
+i_garnite_cryomancer_chestplate: "zoomers_armory:garnite_cryomancer_chestplate",
+/** @type {string} */
+i_garnite_cryomancer_leggings: "zoomers_armory:garnite_cryomancer_leggings",
+/** @type {string} */
+i_garnite_cryomancer_boots: "zoomers_armory:garnite_cryomancer_boots",
+/** @type {string} */
+i_garnite_electromancer_helmet: "zoomers_armory:garnite_electromancer_helmet",
+/** @type {string} */
+i_garnite_electromancer_chestplate: "zoomers_armory:garnite_electromancer_chestplate",
+/** @type {string} */
+i_garnite_electromancer_leggings: "zoomers_armory:garnite_electromancer_leggings",
+/** @type {string} */
+i_garnite_electromancer_boots: "zoomers_armory:garnite_electromancer_boots",
+/** @type {string} */
+i_garnite_archevoker_helmet: "zoomers_armory:garnite_archevoker_helmet",
+/** @type {string} */
+i_garnite_archevoker_chestplate: "zoomers_armory:garnite_archevoker_chestplate",
+/** @type {string} */
+i_garnite_archevoker_leggings: "zoomers_armory:garnite_archevoker_leggings",
+/** @type {string} */
+i_garnite_archevoker_boots: "zoomers_armory:garnite_archevoker_boots",
+/** @type {string} */
+i_garnite_cultist_helmet: "zoomers_armory:garnite_cultist_helmet",
+/** @type {string} */
+i_garnite_cultist_chestplate: "zoomers_armory:garnite_cultist_chestplate",
+/** @type {string} */
+i_garnite_cultist_leggings: "zoomers_armory:garnite_cultist_leggings",
+/** @type {string} */
+i_garnite_cultist_boots: "zoomers_armory:garnite_cultist_boots",
+/** @type {string} */
+i_garnite_shadowwalker_helmet: "zoomers_armory:garnite_shadowwalker_helmet",
+/** @type {string} */
+i_garnite_shadowwalker_chestplate: "zoomers_armory:garnite_shadowwalker_chestplate",
+/** @type {string} */
+i_garnite_shadowwalker_leggings: "zoomers_armory:garnite_shadowwalker_leggings",
+/** @type {string} */
+i_garnite_shadowwalker_boots: "zoomers_armory:garnite_shadowwalker_boots",
+/** @type {string} */
+i_garnite_priest_helmet: "zoomers_armory:garnite_priest_helmet",
+/** @type {string} */
+i_garnite_priest_chestplate: "zoomers_armory:garnite_priest_chestplate",
+/** @type {string} */
+i_garnite_priest_leggings: "zoomers_armory:garnite_priest_leggings",
+/** @type {string} */
+i_garnite_priest_boots: "zoomers_armory:garnite_priest_boots",
+/** @type {string} */
+i_garnite_plagued_helmet: "zoomers_armory:garnite_plagued_helmet",
+/** @type {string} */
+i_garnite_plagued_chestplate: "zoomers_armory:garnite_plagued_chestplate",
+/** @type {string} */
+i_garnite_plagued_leggings: "zoomers_armory:garnite_plagued_leggings",
+/** @type {string} */
+i_garnite_plagued_boots: "zoomers_armory:garnite_plagued_boots",
+/** @type {string} */
+i_phantom_claws: "zoomers_armory:phantom_claws",
+/** @type {string} */
+i_phantom_dagger: "zoomers_armory:phantom_dagger",
+/** @type {string} */
+i_phantom_shortsword: "zoomers_armory:phantom_shortsword",
+/** @type {string} */
+i_phantom_heavysword: "zoomers_armory:phantom_heavysword",
+/** @type {string} */
+i_phantom_cutlass: "zoomers_armory:phantom_cutlass",
+/** @type {string} */
+i_phantom_mace: "zoomers_armory:phantom_mace",
+/** @type {string} */
+i_phantom_heavymace: "zoomers_armory:phantom_heavymace",
+/** @type {string} */
+i_phantom_warhammer: "zoomers_armory:phantom_warhammer",
+/** @type {string} */
+i_phantom_battleaxe: "zoomers_armory:phantom_battleaxe",
+/** @type {string} */
+i_phantom_spear: "zoomers_armory:phantom_spear",
+/** @type {string} */
+i_phantom_halberd: "zoomers_armory:phantom_halberd",
+/** @type {string} */
+i_phantom_scythe: "zoomers_armory:phantom_scythe",
+/** @type {string} */
+i_phantom_katana: "zoomers_armory:phantom_katana",
+/** @type {string} */
+i_phantom_twinblade: "zoomers_armory:phantom_twinblade",
+/** @type {string} */
+i_phantom_sai: "zoomers_armory:phantom_sai",
+/** @type {string} */
+i_phantom_warglaive: "zoomers_armory:phantom_warglaive",
+/** @type {string} */
+i_phantom_musashi: "zoomers_armory:phantom_musashi",
+/** @type {string} */
+i_phantom_arcane_staff: "zoomers_armory:phantom_arcane_staff",
+/** @type {string} */
+i_phantom_woodwind_staff: "zoomers_armory:phantom_woodwind_staff",
+/** @type {string} */
+i_phantom_fire_staff: "zoomers_armory:phantom_fire_staff",
+/** @type {string} */
+i_phantom_ice_staff: "zoomers_armory:phantom_ice_staff",
+/** @type {string} */
+i_phantom_lightning_staff: "zoomers_armory:phantom_lightning_staff",
+/** @type {string} */
+i_phantom_nature_staff: "zoomers_armory:phantom_nature_staff",
+/** @type {string} */
+i_phantom_holy_staff: "zoomers_armory:phantom_holy_staff",
+/** @type {string} */
+i_phantom_blood_staff: "zoomers_armory:phantom_blood_staff",
+/** @type {string} */
+i_phantom_evocation_staff: "zoomers_armory:phantom_evocation_staff",
+/** @type {string} */
+i_phantom_ender_staff: "zoomers_armory:phantom_ender_staff",
+/** @type {string} */
+i_phantom_buckler: "zoomers_armory:phantom_buckler",
+/** @type {string} */
+i_phantom_heater: "zoomers_armory:phantom_heater",
+/** @type {string} */
+i_phantom_tower: "zoomers_armory:phantom_tower",
+/** @type {string} */
+i_phantom_shortbow: "zoomers_armory:phantom_shortbow",
+/** @type {string} */
+i_phantom_bow: "zoomers_armory:phantom_bow",
+/** @type {string} */
+i_phantom_longbow: "zoomers_armory:phantom_longbow",
+/** @type {string} */
+i_phantom_crossbow: "zoomers_armory:phantom_crossbow",
+/** @type {string} */
+i_garnite_rogue_chestplate: "zoomers_armory:garnite_rogue_chestplate",
+/** @type {string} */
+i_garnite_rogue_leggings: "zoomers_armory:garnite_rogue_leggings",
+/** @type {string} */
+i_garnite_rogue_boots: "zoomers_armory:garnite_rogue_boots",
+/** @type {string} */
+i_phantom_rogue_helmet: "zoomers_armory:phantom_rogue_helmet",
+/** @type {string} */
+i_phantom_samurai_helmet: "zoomers_armory:phantom_samurai_helmet",
+/** @type {string} */
+i_phantom_samurai_chestplate: "zoomers_armory:phantom_samurai_chestplate",
+/** @type {string} */
+i_phantom_samurai_leggings: "zoomers_armory:phantom_samurai_leggings",
+/** @type {string} */
+i_phantom_samurai_boots: "zoomers_armory:phantom_samurai_boots",
+/** @type {string} */
+i_phantom_rogue_chestplate: "zoomers_armory:phantom_rogue_chestplate",
+/** @type {string} */
+i_phantom_rogue_leggings: "zoomers_armory:phantom_rogue_leggings",
+/** @type {string} */
+i_phantom_rogue_boots: "zoomers_armory:phantom_rogue_boots",
+/** @type {string} */
+i_unorithe_rogue_chestplate: "zoomers_armory:unorithe_rogue_chestplate",
+/** @type {string} */
+i_phantom_archer_helmet: "zoomers_armory:phantom_archer_helmet",
+/** @type {string} */
+i_phantom_archer_chestplate: "zoomers_armory:phantom_archer_chestplate",
+/** @type {string} */
+i_phantom_archer_leggings: "zoomers_armory:phantom_archer_leggings",
+/** @type {string} */
+i_phantom_archer_boots: "zoomers_armory:phantom_archer_boots",
+/** @type {string} */
+i_phantom_ranger_helmet: "zoomers_armory:phantom_ranger_helmet",
+/** @type {string} */
+i_phantom_ranger_chestplate: "zoomers_armory:phantom_ranger_chestplate",
+/** @type {string} */
+i_phantom_ranger_leggings: "zoomers_armory:phantom_ranger_leggings",
+/** @type {string} */
+i_phantom_ranger_boots: "zoomers_armory:phantom_ranger_boots",
+/** @type {string} */
+i_phantom_pyromancer_helmet: "zoomers_armory:phantom_pyromancer_helmet",
+/** @type {string} */
+i_phantom_pyromancer_chestplate: "zoomers_armory:phantom_pyromancer_chestplate",
+/** @type {string} */
+i_phantom_pyromancer_leggings: "zoomers_armory:phantom_pyromancer_leggings",
+/** @type {string} */
+i_phantom_pyromancer_boots: "zoomers_armory:phantom_pyromancer_boots",
+/** @type {string} */
+i_phantom_cryomancer_helmet: "zoomers_armory:phantom_cryomancer_helmet",
+/** @type {string} */
+i_phantom_cryomancer_chestplate: "zoomers_armory:phantom_cryomancer_chestplate",
+/** @type {string} */
+i_phantom_cryomancer_leggings: "zoomers_armory:phantom_cryomancer_leggings",
+/** @type {string} */
+i_phantom_cryomancer_boots: "zoomers_armory:phantom_cryomancer_boots",
+/** @type {string} */
+i_phantom_electromancer_helmet: "zoomers_armory:phantom_electromancer_helmet",
+/** @type {string} */
+i_phantom_electromancer_chestplate: "zoomers_armory:phantom_electromancer_chestplate",
+/** @type {string} */
+i_phantom_electromancer_leggings: "zoomers_armory:phantom_electromancer_leggings",
+/** @type {string} */
+i_phantom_electromancer_boots: "zoomers_armory:phantom_electromancer_boots",
+/** @type {string} */
+i_phantom_archevoker_helmet: "zoomers_armory:phantom_archevoker_helmet",
+/** @type {string} */
+i_phantom_archevoker_chestplate: "zoomers_armory:phantom_archevoker_chestplate",
+/** @type {string} */
+i_phantom_archevoker_leggings: "zoomers_armory:phantom_archevoker_leggings",
+/** @type {string} */
+i_phantom_archevoker_boots: "zoomers_armory:phantom_archevoker_boots",
+/** @type {string} */
+i_phantom_cultist_helmet: "zoomers_armory:phantom_cultist_helmet",
+/** @type {string} */
+i_phantom_cultist_chestplate: "zoomers_armory:phantom_cultist_chestplate",
+/** @type {string} */
+i_phantom_cultist_leggings: "zoomers_armory:phantom_cultist_leggings",
+/** @type {string} */
+i_phantom_cultist_boots: "zoomers_armory:phantom_cultist_boots",
+/** @type {string} */
+i_phantom_shadowwalker_helmet: "zoomers_armory:phantom_shadowwalker_helmet",
+/** @type {string} */
+i_phantom_shadowwalker_chestplate: "zoomers_armory:phantom_shadowwalker_chestplate",
+/** @type {string} */
+i_phantom_shadowwalker_leggings: "zoomers_armory:phantom_shadowwalker_leggings",
+/** @type {string} */
+i_phantom_shadowwalker_boots: "zoomers_armory:phantom_shadowwalker_boots",
+/** @type {string} */
+i_phantom_priest_helmet: "zoomers_armory:phantom_priest_helmet",
+/** @type {string} */
+i_phantom_priest_chestplate: "zoomers_armory:phantom_priest_chestplate",
+/** @type {string} */
+i_phantom_priest_leggings: "zoomers_armory:phantom_priest_leggings",
+/** @type {string} */
+i_phantom_priest_boots: "zoomers_armory:phantom_priest_boots",
+/** @type {string} */
+i_phantom_plagued_helmet: "zoomers_armory:phantom_plagued_helmet",
+/** @type {string} */
+i_phantom_plagued_chestplate: "zoomers_armory:phantom_plagued_chestplate",
+/** @type {string} */
+i_phantom_plagued_leggings: "zoomers_armory:phantom_plagued_leggings",
+/** @type {string} */
+i_phantom_plagued_boots: "zoomers_armory:phantom_plagued_boots",
+/** @type {string} */
+i_unorithe_claws: "zoomers_armory:unorithe_claws",
+/** @type {string} */
+i_unorithe_dagger: "zoomers_armory:unorithe_dagger",
+/** @type {string} */
+i_unorithe_shortsword: "zoomers_armory:unorithe_shortsword",
+/** @type {string} */
+i_unorithe_heavysword: "zoomers_armory:unorithe_heavysword",
+/** @type {string} */
+i_unorithe_cutlass: "zoomers_armory:unorithe_cutlass",
+/** @type {string} */
+i_unorithe_mace: "zoomers_armory:unorithe_mace",
+/** @type {string} */
+i_unorithe_heavymace: "zoomers_armory:unorithe_heavymace",
+/** @type {string} */
+i_unorithe_warhammer: "zoomers_armory:unorithe_warhammer",
+/** @type {string} */
+i_unorithe_battleaxe: "zoomers_armory:unorithe_battleaxe",
+/** @type {string} */
+i_unorithe_spear: "zoomers_armory:unorithe_spear",
+/** @type {string} */
+i_unorithe_halberd: "zoomers_armory:unorithe_halberd",
+/** @type {string} */
+i_unorithe_scythe: "zoomers_armory:unorithe_scythe",
+/** @type {string} */
+i_unorithe_katana: "zoomers_armory:unorithe_katana",
+/** @type {string} */
+i_unorithe_twinblade: "zoomers_armory:unorithe_twinblade",
+/** @type {string} */
+i_unorithe_sai: "zoomers_armory:unorithe_sai",
+/** @type {string} */
+i_unorithe_warglaive: "zoomers_armory:unorithe_warglaive",
+/** @type {string} */
+i_unorithe_musashi: "zoomers_armory:unorithe_musashi",
+/** @type {string} */
+i_unorithe_arcane_staff: "zoomers_armory:unorithe_arcane_staff",
+/** @type {string} */
+i_unorithe_woodwind_staff: "zoomers_armory:unorithe_woodwind_staff",
+/** @type {string} */
+i_unorithe_fire_staff: "zoomers_armory:unorithe_fire_staff",
+/** @type {string} */
+i_unorithe_ice_staff: "zoomers_armory:unorithe_ice_staff",
+/** @type {string} */
+i_unorithe_lightning_staff: "zoomers_armory:unorithe_lightning_staff",
+/** @type {string} */
+i_unorithe_nature_staff: "zoomers_armory:unorithe_nature_staff",
+/** @type {string} */
+i_unorithe_holy_staff: "zoomers_armory:unorithe_holy_staff",
+/** @type {string} */
+i_unorithe_blood_staff: "zoomers_armory:unorithe_blood_staff",
+/** @type {string} */
+i_unorithe_evocation_staff: "zoomers_armory:unorithe_evocation_staff",
+/** @type {string} */
+i_unorithe_ender_staff: "zoomers_armory:unorithe_ender_staff",
+/** @type {string} */
+i_unorithe_buckler: "zoomers_armory:unorithe_buckler",
+/** @type {string} */
+i_unorithe_heater: "zoomers_armory:unorithe_heater",
+/** @type {string} */
+i_unorithe_tower: "zoomers_armory:unorithe_tower",
+/** @type {string} */
+i_unorithe_shortbow: "zoomers_armory:unorithe_shortbow",
+/** @type {string} */
+i_unorithe_bow: "zoomers_armory:unorithe_bow",
+/** @type {string} */
+i_unorithe_longbow: "zoomers_armory:unorithe_longbow",
+/** @type {string} */
+i_unorithe_crossbow: "zoomers_armory:unorithe_crossbow",
+/** @type {string} */
+i_unorithe_rogue_leggings: "zoomers_armory:unorithe_rogue_leggings",
+/** @type {string} */
+i_unorithe_rogue_boots: "zoomers_armory:unorithe_rogue_boots",
+/** @type {string} */
+i_incorythe_rogue_chestplate: "zoomers_armory:incorythe_rogue_chestplate",
+/** @type {string} */
+i_unorithe_rogue_helmet: "zoomers_armory:unorithe_rogue_helmet",
+/** @type {string} */
+i_unorithe_samurai_helmet: "zoomers_armory:unorithe_samurai_helmet",
+/** @type {string} */
+i_unorithe_samurai_chestplate: "zoomers_armory:unorithe_samurai_chestplate",
+/** @type {string} */
+i_unorithe_samurai_leggings: "zoomers_armory:unorithe_samurai_leggings",
+/** @type {string} */
+i_unorithe_samurai_boots: "zoomers_armory:unorithe_samurai_boots",
+/** @type {string} */
+i_incorythe_rogue_leggings: "zoomers_armory:incorythe_rogue_leggings",
+/** @type {string} */
+i_incorythe_rogue_boots: "zoomers_armory:incorythe_rogue_boots",
+/** @type {string} */
+i_unorithe_tank_boots: "zoomers_armory:unorithe_tank_boots",
+/** @type {string} */
+i_unorithe_archer_helmet: "zoomers_armory:unorithe_archer_helmet",
+/** @type {string} */
+i_unorithe_archer_helmet: "zoomers_armory:unorithe_archer_helmet",
+/** @type {string} */
+i_unorithe_archer_chestplate: "zoomers_armory:unorithe_archer_chestplate",
+/** @type {string} */
+i_unorithe_archer_leggings: "zoomers_armory:unorithe_archer_leggings",
+/** @type {string} */
+i_unorithe_archer_boots: "zoomers_armory:unorithe_archer_boots",
+/** @type {string} */
+i_unorithe_ranger_helmet: "zoomers_armory:unorithe_ranger_helmet",
+/** @type {string} */
+i_unorithe_ranger_chestplate: "zoomers_armory:unorithe_ranger_chestplate",
+/** @type {string} */
+i_unorithe_ranger_leggings: "zoomers_armory:unorithe_ranger_leggings",
+/** @type {string} */
+i_unorithe_ranger_boots: "zoomers_armory:unorithe_ranger_boots",
+/** @type {string} */
+i_unorithe_pyromancer_helmet: "zoomers_armory:unorithe_pyromancer_helmet",
+/** @type {string} */
+i_unorithe_pyromancer_chestplate: "zoomers_armory:unorithe_pyromancer_chestplate",
+/** @type {string} */
+i_unorithe_pyromancer_leggings: "zoomers_armory:unorithe_pyromancer_leggings",
+/** @type {string} */
+i_unorithe_pyromancer_boots: "zoomers_armory:unorithe_pyromancer_boots",
+/** @type {string} */
+i_unorithe_cryomancer_helmet: "zoomers_armory:unorithe_cryomancer_helmet",
+/** @type {string} */
+i_unorithe_cryomancer_chestplate: "zoomers_armory:unorithe_cryomancer_chestplate",
+/** @type {string} */
+i_unorithe_cryomancer_leggings: "zoomers_armory:unorithe_cryomancer_leggings",
+/** @type {string} */
+i_unorithe_cryomancer_boots: "zoomers_armory:unorithe_cryomancer_boots",
+/** @type {string} */
+i_unorithe_electromancer_helmet: "zoomers_armory:unorithe_electromancer_helmet",
+/** @type {string} */
+i_unorithe_electromancer_chestplate: "zoomers_armory:unorithe_electromancer_chestplate",
+/** @type {string} */
+i_unorithe_electromancer_leggings: "zoomers_armory:unorithe_electromancer_leggings",
+/** @type {string} */
+i_unorithe_electromancer_boots: "zoomers_armory:unorithe_electromancer_boots",
+/** @type {string} */
+i_unorithe_archevoker_helmet: "zoomers_armory:unorithe_archevoker_helmet",
+/** @type {string} */
+i_unorithe_archevoker_chestplate: "zoomers_armory:unorithe_archevoker_chestplate",
+/** @type {string} */
+i_unorithe_archevoker_leggings: "zoomers_armory:unorithe_archevoker_leggings",
+/** @type {string} */
+i_unorithe_archevoker_boots: "zoomers_armory:unorithe_archevoker_boots",
+/** @type {string} */
+i_unorithe_cultist_helmet: "zoomers_armory:unorithe_cultist_helmet",
+/** @type {string} */
+i_unorithe_cultist_chestplate: "zoomers_armory:unorithe_cultist_chestplate",
+/** @type {string} */
+i_unorithe_cultist_leggings: "zoomers_armory:unorithe_cultist_leggings",
+/** @type {string} */
+i_unorithe_cultist_boots: "zoomers_armory:unorithe_cultist_boots",
+/** @type {string} */
+i_unorithe_shadowwalker_helmet: "zoomers_armory:unorithe_shadowwalker_helmet",
+/** @type {string} */
+i_unorithe_shadowwalker_chestplate: "zoomers_armory:unorithe_shadowwalker_chestplate",
+/** @type {string} */
+i_unorithe_shadowwalker_leggings: "zoomers_armory:unorithe_shadowwalker_leggings",
+/** @type {string} */
+i_unorithe_shadowwalker_boots: "zoomers_armory:unorithe_shadowwalker_boots",
+/** @type {string} */
+i_unorithe_priest_helmet: "zoomers_armory:unorithe_priest_helmet",
+/** @type {string} */
+i_unorithe_priest_chestplate: "zoomers_armory:unorithe_priest_chestplate",
+/** @type {string} */
+i_unorithe_priest_leggings: "zoomers_armory:unorithe_priest_leggings",
+/** @type {string} */
+i_unorithe_priest_boots: "zoomers_armory:unorithe_priest_boots",
+/** @type {string} */
+i_unorithe_plagued_helmet: "zoomers_armory:unorithe_plagued_helmet",
+/** @type {string} */
+i_unorithe_plagued_chestplate: "zoomers_armory:unorithe_plagued_chestplate",
+/** @type {string} */
+i_unorithe_plagued_leggings: "zoomers_armory:unorithe_plagued_leggings",
+/** @type {string} */
+i_unorithe_plagued_boots: "zoomers_armory:unorithe_plagued_boots",
+/** @type {string} */
+i_incorythe_claws: "zoomers_armory:incorythe_claws",
+/** @type {string} */
+i_incorythe_dagger: "zoomers_armory:incorythe_dagger",
+/** @type {string} */
+i_incorythe_shortsword: "zoomers_armory:incorythe_shortsword",
+/** @type {string} */
+i_incorythe_heavysword: "zoomers_armory:incorythe_heavysword",
+/** @type {string} */
+i_incorythe_cutlass: "zoomers_armory:incorythe_cutlass",
+/** @type {string} */
+i_incorythe_mace: "zoomers_armory:incorythe_mace",
+/** @type {string} */
+i_incorythe_heavymace: "zoomers_armory:incorythe_heavymace",
+/** @type {string} */
+i_incorythe_warhammer: "zoomers_armory:incorythe_warhammer",
+/** @type {string} */
+i_incorythe_battleaxe: "zoomers_armory:incorythe_battleaxe",
+/** @type {string} */
+i_incorythe_spear: "zoomers_armory:incorythe_spear",
+/** @type {string} */
+i_incorythe_halberd: "zoomers_armory:incorythe_halberd",
+/** @type {string} */
+i_incorythe_scythe: "zoomers_armory:incorythe_scythe",
+/** @type {string} */
+i_incorythe_katana: "zoomers_armory:incorythe_katana",
+/** @type {string} */
+i_incorythe_twinblade: "zoomers_armory:incorythe_twinblade",
+/** @type {string} */
+i_incorythe_sai: "zoomers_armory:incorythe_sai",
+/** @type {string} */
+i_incorythe_warglaive: "zoomers_armory:incorythe_warglaive",
+/** @type {string} */
+i_incorythe_musashi: "zoomers_armory:incorythe_musashi",
+/** @type {string} */
+i_incorythe_arcane_staff: "zoomers_armory:incorythe_arcane_staff",
+/** @type {string} */
+i_incorythe_woodwind_staff: "zoomers_armory:incorythe_woodwind_staff",
+/** @type {string} */
+i_incorythe_fire_staff: "zoomers_armory:incorythe_fire_staff",
+/** @type {string} */
+i_incorythe_ice_staff: "zoomers_armory:incorythe_ice_staff",
+/** @type {string} */
+i_incorythe_lightning_staff: "zoomers_armory:incorythe_lightning_staff",
+/** @type {string} */
+i_incorythe_nature_staff: "zoomers_armory:incorythe_nature_staff",
+/** @type {string} */
+i_incorythe_holy_staff: "zoomers_armory:incorythe_holy_staff",
+/** @type {string} */
+i_incorythe_blood_staff: "zoomers_armory:incorythe_blood_staff",
+/** @type {string} */
+i_incorythe_evocation_staff: "zoomers_armory:incorythe_evocation_staff",
+/** @type {string} */
+i_incorythe_ender_staff: "zoomers_armory:incorythe_ender_staff",
+/** @type {string} */
+i_incorythe_buckler: "zoomers_armory:incorythe_buckler",
+/** @type {string} */
+i_incorythe_heater: "zoomers_armory:incorythe_heater",
+/** @type {string} */
+i_incorythe_tower: "zoomers_armory:incorythe_tower",
+/** @type {string} */
+i_incorythe_shortbow: "zoomers_armory:incorythe_shortbow",
+/** @type {string} */
+i_incorythe_bow: "zoomers_armory:incorythe_bow",
+/** @type {string} */
+i_incorythe_longbow: "zoomers_armory:incorythe_longbow",
+/** @type {string} */
+i_incorythe_crossbow: "zoomers_armory:incorythe_crossbow",
+/** @type {string} */
+i_incorythe_samurai_chestplate: "zoomers_armory:incorythe_samurai_chestplate",
+/** @type {string} */
+i_incorythe_samurai_leggings: "zoomers_armory:incorythe_samurai_leggings",
+/** @type {string} */
+i_incorythe_samurai_boots: "zoomers_armory:incorythe_samurai_boots",
+/** @type {string} */
+i_incorythe_rogue_helmet: "zoomers_armory:incorythe_rogue_helmet",
+/** @type {string} */
+i_incorythe_samurai_helmet: "zoomers_armory:incorythe_samurai_helmet",
+/** @type {string} */
+i_incorythe_samurai_chestplate: "zoomers_armory:incorythe_samurai_chestplate",
+/** @type {string} */
+i_incorythe_samurai_leggings: "zoomers_armory:incorythe_samurai_leggings",
+/** @type {string} */
+i_incorythe_samurai_boots: "zoomers_armory:incorythe_samurai_boots",
+/** @type {string} */
+i_incorythe_tank_chestplate: "zoomers_armory:incorythe_tank_chestplate",
+/** @type {string} */
+i_incorythe_tank_leggings: "zoomers_armory:incorythe_tank_leggings",
+/** @type {string} */
+i_incorythe_tank_boots: "zoomers_armory:incorythe_tank_boots",
+/** @type {string} */
+i_incorythe_archer_helmet: "zoomers_armory:incorythe_archer_helmet",
+/** @type {string} */
+i_incorythe_archer_helmet: "zoomers_armory:incorythe_archer_helmet",
+/** @type {string} */
+i_incorythe_archer_chestplate: "zoomers_armory:incorythe_archer_chestplate",
+/** @type {string} */
+i_incorythe_archer_leggings: "zoomers_armory:incorythe_archer_leggings",
+/** @type {string} */
+i_incorythe_archer_boots: "zoomers_armory:incorythe_archer_boots",
+/** @type {string} */
+i_incorythe_ranger_helmet: "zoomers_armory:incorythe_ranger_helmet",
+/** @type {string} */
+i_incorythe_ranger_chestplate: "zoomers_armory:incorythe_ranger_chestplate",
+/** @type {string} */
+i_incorythe_ranger_leggings: "zoomers_armory:incorythe_ranger_leggings",
+/** @type {string} */
+i_incorythe_ranger_boots: "zoomers_armory:incorythe_ranger_boots",
+/** @type {string} */
+i_incorythe_pyromancer_helmet: "zoomers_armory:incorythe_pyromancer_helmet",
+/** @type {string} */
+i_incorythe_pyromancer_chestplate: "zoomers_armory:incorythe_pyromancer_chestplate",
+/** @type {string} */
+i_incorythe_pyromancer_leggings: "zoomers_armory:incorythe_pyromancer_leggings",
+/** @type {string} */
+i_incorythe_pyromancer_boots: "zoomers_armory:incorythe_pyromancer_boots",
+/** @type {string} */
+i_incorythe_cryomancer_helmet: "zoomers_armory:incorythe_cryomancer_helmet",
+/** @type {string} */
+i_incorythe_cryomancer_chestplate: "zoomers_armory:incorythe_cryomancer_chestplate",
+/** @type {string} */
+i_incorythe_cryomancer_leggings: "zoomers_armory:incorythe_cryomancer_leggings",
+/** @type {string} */
+i_incorythe_cryomancer_boots: "zoomers_armory:incorythe_cryomancer_boots",
+/** @type {string} */
+i_incorythe_electromancer_helmet: "zoomers_armory:incorythe_electromancer_helmet",
+/** @type {string} */
+i_incorythe_electromancer_chestplate: "zoomers_armory:incorythe_electromancer_chestplate",
+/** @type {string} */
+i_incorythe_electromancer_leggings: "zoomers_armory:incorythe_electromancer_leggings",
+/** @type {string} */
+i_incorythe_electromancer_boots: "zoomers_armory:incorythe_electromancer_boots",
+/** @type {string} */
+i_incorythe_archevoker_helmet: "zoomers_armory:incorythe_archevoker_helmet",
+/** @type {string} */
+i_incorythe_archevoker_chestplate: "zoomers_armory:incorythe_archevoker_chestplate",
+/** @type {string} */
+i_incorythe_archevoker_leggings: "zoomers_armory:incorythe_archevoker_leggings",
+/** @type {string} */
+i_incorythe_archevoker_boots: "zoomers_armory:incorythe_archevoker_boots",
+/** @type {string} */
+i_incorythe_cultist_helmet: "zoomers_armory:incorythe_cultist_helmet",
+/** @type {string} */
+i_incorythe_cultist_chestplate: "zoomers_armory:incorythe_cultist_chestplate",
+/** @type {string} */
+i_incorythe_cultist_leggings: "zoomers_armory:incorythe_cultist_leggings",
+/** @type {string} */
+i_incorythe_cultist_boots: "zoomers_armory:incorythe_cultist_boots",
+/** @type {string} */
+i_incorythe_shadowwalker_helmet: "zoomers_armory:incorythe_shadowwalker_helmet",
+/** @type {string} */
+i_incorythe_shadowwalker_chestplate: "zoomers_armory:incorythe_shadowwalker_chestplate",
+/** @type {string} */
+i_incorythe_shadowwalker_leggings: "zoomers_armory:incorythe_shadowwalker_leggings",
+/** @type {string} */
+i_incorythe_shadowwalker_boots: "zoomers_armory:incorythe_shadowwalker_boots",
+/** @type {string} */
+i_incorythe_priest_helmet: "zoomers_armory:incorythe_priest_helmet",
+/** @type {string} */
+i_incorythe_priest_chestplate: "zoomers_armory:incorythe_priest_chestplate",
+/** @type {string} */
+i_incorythe_priest_leggings: "zoomers_armory:incorythe_priest_leggings",
+/** @type {string} */
+i_incorythe_priest_boots: "zoomers_armory:incorythe_priest_boots",
+/** @type {string} */
+i_incorythe_plagued_helmet: "zoomers_armory:incorythe_plagued_helmet",
+/** @type {string} */
+i_incorythe_plagued_chestplate: "zoomers_armory:incorythe_plagued_chestplate",
+/** @type {string} */
+i_incorythe_plagued_leggings: "zoomers_armory:incorythe_plagued_leggings",
+/** @type {string} */
+i_incorythe_plagued_boots: "zoomers_armory:incorythe_plagued_boots",
+/** @type {string} */
+i_flint_mana_ring: "zoomers_armory:flint_mana_ring",
+/** @type {string} */
+i_flint_dexterity_ring: "zoomers_armory:flint_dexterity_ring",
+/** @type {string} */
+i_flint_sharpshooter_ring: "zoomers_armory:flint_sharpshooter_ring",
+/** @type {string} */
+i_flint_berserker_ring: "zoomers_armory:flint_berserker_ring",
+/** @type {string} */
+i_flint_fortified_ring: "zoomers_armory:flint_fortified_ring",
+/** @type {string} */
+i_flint_infused_ring: "zoomers_armory:flint_infused_ring",
+/** @type {string} */
+i_flint_mana_necklace: "zoomers_armory:flint_mana_necklace",
+/** @type {string} */
+i_flint_dexterity_necklace: "zoomers_armory:flint_dexterity_necklace",
+/** @type {string} */
+i_flint_sharpshooter_necklace: "zoomers_armory:flint_sharpshooter_necklace",
+/** @type {string} */
+i_flint_berserker_necklace: "zoomers_armory:flint_berserker_necklace",
+/** @type {string} */
+i_flint_fortified_necklace: "zoomers_armory:flint_fortified_necklace",
+/** @type {string} */
+i_flint_infused_necklace: "zoomers_armory:flint_infused_necklace",
+/** @type {string} */
+i_flint_mana_gloves: "zoomers_armory:flint_mana_gloves",
+/** @type {string} */
+i_flint_dexterity_gloves: "zoomers_armory:flint_dexterity_gloves",
+/** @type {string} */
+i_flint_sharpshooter_gloves: "zoomers_armory:flint_sharpshooter_gloves",
+/** @type {string} */
+i_flint_berserker_gloves: "zoomers_armory:flint_berserker_gloves",
+/** @type {string} */
+i_flint_fortified_gloves: "zoomers_armory:flint_fortified_gloves",
+/** @type {string} */
+i_flint_infused_gloves: "zoomers_armory:flint_infused_gloves",
+/** @type {string} */
+i_copper_mana_ring: "zoomers_armory:copper_mana_ring",
+/** @type {string} */
+i_copper_dexterity_ring: "zoomers_armory:copper_dexterity_ring",
+/** @type {string} */
+i_copper_sharpshooter_ring: "zoomers_armory:copper_sharpshooter_ring",
+/** @type {string} */
+i_copper_berserker_ring: "zoomers_armory:copper_berserker_ring",
+/** @type {string} */
+i_copper_fortified_ring: "zoomers_armory:copper_fortified_ring",
+/** @type {string} */
+i_copper_infused_ring: "zoomers_armory:copper_infused_ring",
+/** @type {string} */
+i_copper_mana_necklace: "zoomers_armory:copper_mana_necklace",
+/** @type {string} */
+i_copper_dexterity_necklace: "zoomers_armory:copper_dexterity_necklace",
+/** @type {string} */
+i_copper_sharpshooter_necklace: "zoomers_armory:copper_sharpshooter_necklace",
+/** @type {string} */
+i_copper_berserker_necklace: "zoomers_armory:copper_berserker_necklace",
+/** @type {string} */
+i_copper_fortified_necklace: "zoomers_armory:copper_fortified_necklace",
+/** @type {string} */
+i_copper_infused_necklace: "zoomers_armory:copper_infused_necklace",
+/** @type {string} */
+i_copper_mana_gloves: "zoomers_armory:copper_mana_gloves",
+/** @type {string} */
+i_copper_dexterity_gloves: "zoomers_armory:copper_dexterity_gloves",
+/** @type {string} */
+i_copper_sharpshooter_gloves: "zoomers_armory:copper_sharpshooter_gloves",
+/** @type {string} */
+i_copper_berserker_gloves: "zoomers_armory:copper_berserker_gloves",
+/** @type {string} */
+i_copper_fortified_gloves: "zoomers_armory:copper_fortified_gloves",
+/** @type {string} */
+i_copper_infused_gloves: "zoomers_armory:copper_infused_gloves",
+/** @type {string} */
+i_iron_mana_ring: "zoomers_armory:iron_mana_ring",
+/** @type {string} */
+i_iron_dexterity_ring: "zoomers_armory:iron_dexterity_ring",
+/** @type {string} */
+i_iron_sharpshooter_ring: "zoomers_armory:iron_sharpshooter_ring",
+/** @type {string} */
+i_iron_berserker_ring: "zoomers_armory:iron_berserker_ring",
+/** @type {string} */
+i_iron_fortified_ring: "zoomers_armory:iron_fortified_ring",
+/** @type {string} */
+i_iron_infused_ring: "zoomers_armory:iron_infused_ring",
+/** @type {string} */
+i_iron_mana_necklace: "zoomers_armory:iron_mana_necklace",
+/** @type {string} */
+i_iron_dexterity_necklace: "zoomers_armory:iron_dexterity_necklace",
+/** @type {string} */
+i_iron_sharpshooter_necklace: "zoomers_armory:iron_sharpshooter_necklace",
+/** @type {string} */
+i_iron_berserker_necklace: "zoomers_armory:iron_berserker_necklace",
+/** @type {string} */
+i_iron_fortified_necklace: "zoomers_armory:iron_fortified_necklace",
+/** @type {string} */
+i_iron_infused_necklace: "zoomers_armory:iron_infused_necklace",
+/** @type {string} */
+i_iron_mana_gloves: "zoomers_armory:iron_mana_gloves",
+/** @type {string} */
+i_iron_dexterity_gloves: "zoomers_armory:iron_dexterity_gloves",
+/** @type {string} */
+i_iron_sharpshooter_gloves: "zoomers_armory:iron_sharpshooter_gloves",
+/** @type {string} */
+i_iron_berserker_gloves: "zoomers_armory:iron_berserker_gloves",
+/** @type {string} */
+i_iron_fortified_gloves: "zoomers_armory:iron_fortified_gloves",
+/** @type {string} */
+i_iron_infused_gloves: "zoomers_armory:iron_infused_gloves",
+/** @type {string} */
+i_gold_mana_ring: "zoomers_armory:gold_mana_ring",
+/** @type {string} */
+i_gold_dexterity_ring: "zoomers_armory:gold_dexterity_ring",
+/** @type {string} */
+i_gold_sharpshooter_ring: "zoomers_armory:gold_sharpshooter_ring",
+/** @type {string} */
+i_gold_berserker_ring: "zoomers_armory:gold_berserker_ring",
+/** @type {string} */
+i_gold_fortified_ring: "zoomers_armory:gold_fortified_ring",
+/** @type {string} */
+i_gold_infused_ring: "zoomers_armory:gold_infused_ring",
+/** @type {string} */
+i_gold_mana_necklace: "zoomers_armory:gold_mana_necklace",
+/** @type {string} */
+i_gold_dexterity_necklace: "zoomers_armory:gold_dexterity_necklace",
+/** @type {string} */
+i_gold_sharpshooter_necklace: "zoomers_armory:gold_sharpshooter_necklace",
+/** @type {string} */
+i_gold_berserker_necklace: "zoomers_armory:gold_berserker_necklace",
+/** @type {string} */
+i_gold_fortified_necklace: "zoomers_armory:gold_fortified_necklace",
+/** @type {string} */
+i_gold_infused_necklace: "zoomers_armory:gold_infused_necklace",
+/** @type {string} */
+i_gold_mana_gloves: "zoomers_armory:gold_mana_gloves",
+/** @type {string} */
+i_gold_dexterity_gloves: "zoomers_armory:gold_dexterity_gloves",
+/** @type {string} */
+i_gold_sharpshooter_gloves: "zoomers_armory:gold_sharpshooter_gloves",
+/** @type {string} */
+i_gold_berserker_gloves: "zoomers_armory:gold_berserker_gloves",
+/** @type {string} */
+i_gold_fortified_gloves: "zoomers_armory:gold_fortified_gloves",
+/** @type {string} */
+i_gold_infused_gloves: "zoomers_armory:gold_infused_gloves",
+/** @type {string} */
+i_diamond_mana_ring: "zoomers_armory:diamond_mana_ring",
+/** @type {string} */
+i_diamond_dexterity_ring: "zoomers_armory:diamond_dexterity_ring",
+/** @type {string} */
+i_diamond_sharpshooter_ring: "zoomers_armory:diamond_sharpshooter_ring",
+/** @type {string} */
+i_diamond_berserker_ring: "zoomers_armory:diamond_berserker_ring",
+/** @type {string} */
+i_diamond_fortified_ring: "zoomers_armory:diamond_fortified_ring",
+/** @type {string} */
+i_diamond_infused_ring: "zoomers_armory:diamond_infused_ring",
+/** @type {string} */
+i_diamond_mana_necklace: "zoomers_armory:diamond_mana_necklace",
+/** @type {string} */
+i_diamond_dexterity_necklace: "zoomers_armory:diamond_dexterity_necklace",
+/** @type {string} */
+i_diamond_sharpshooter_necklace: "zoomers_armory:diamond_sharpshooter_necklace",
+/** @type {string} */
+i_diamond_berserker_necklace: "zoomers_armory:diamond_berserker_necklace",
+/** @type {string} */
+i_diamond_fortified_necklace: "zoomers_armory:diamond_fortified_necklace",
+/** @type {string} */
+i_diamond_infused_necklace: "zoomers_armory:diamond_infused_necklace",
+/** @type {string} */
+i_diamond_mana_gloves: "zoomers_armory:diamond_mana_gloves",
+/** @type {string} */
+i_diamond_dexterity_gloves: "zoomers_armory:diamond_dexterity_gloves",
+/** @type {string} */
+i_diamond_sharpshooter_gloves: "zoomers_armory:diamond_sharpshooter_gloves",
+/** @type {string} */
+i_diamond_berserker_gloves: "zoomers_armory:diamond_berserker_gloves",
+/** @type {string} */
+i_diamond_fortified_gloves: "zoomers_armory:diamond_fortified_gloves",
+/** @type {string} */
+i_diamond_infused_gloves: "zoomers_armory:diamond_infused_gloves",
+/** @type {string} */
+i_neptunium_mana_ring: "zoomers_armory:neptunium_mana_ring",
+/** @type {string} */
+i_neptunium_dexterity_ring: "zoomers_armory:neptunium_dexterity_ring",
+/** @type {string} */
+i_neptunium_sharpshooter_ring: "zoomers_armory:neptunium_sharpshooter_ring",
+/** @type {string} */
+i_neptunium_berserker_ring: "zoomers_armory:neptunium_berserker_ring",
+/** @type {string} */
+i_neptunium_fortified_ring: "zoomers_armory:neptunium_fortified_ring",
+/** @type {string} */
+i_neptunium_infused_ring: "zoomers_armory:neptunium_infused_ring",
+/** @type {string} */
+i_neptunium_mana_necklace: "zoomers_armory:neptunium_mana_necklace",
+/** @type {string} */
+i_neptunium_dexterity_necklace: "zoomers_armory:neptunium_dexterity_necklace",
+/** @type {string} */
+i_neptunium_sharpshooter_necklace: "zoomers_armory:neptunium_sharpshooter_necklace",
+/** @type {string} */
+i_neptunium_berserker_necklace: "zoomers_armory:neptunium_berserker_necklace",
+/** @type {string} */
+i_neptunium_fortified_necklace: "zoomers_armory:neptunium_fortified_necklace",
+/** @type {string} */
+i_neptunium_infused_necklace: "zoomers_armory:neptunium_infused_necklace",
+/** @type {string} */
+i_neptunium_mana_gloves: "zoomers_armory:neptunium_mana_gloves",
+/** @type {string} */
+i_neptunium_dexterity_gloves: "zoomers_armory:neptunium_dexterity_gloves",
+/** @type {string} */
+i_neptunium_sharpshooter_gloves: "zoomers_armory:neptunium_sharpshooter_gloves",
+/** @type {string} */
+i_neptunium_berserker_gloves: "zoomers_armory:neptunium_berserker_gloves",
+/** @type {string} */
+i_neptunium_fortified_gloves: "zoomers_armory:neptunium_fortified_gloves",
+/** @type {string} */
+i_neptunium_infused_gloves: "zoomers_armory:neptunium_infused_gloves",
+/** @type {string} */
+i_pyrope_mana_ring: "zoomers_armory:pyrope_mana_ring",
+/** @type {string} */
+i_pyrope_dexterity_ring: "zoomers_armory:pyrope_dexterity_ring",
+/** @type {string} */
+i_pyrope_sharpshooter_ring: "zoomers_armory:pyrope_sharpshooter_ring",
+/** @type {string} */
+i_pyrope_berserker_ring: "zoomers_armory:pyrope_berserker_ring",
+/** @type {string} */
+i_pyrope_fortified_ring: "zoomers_armory:pyrope_fortified_ring",
+/** @type {string} */
+i_pyrope_infused_ring: "zoomers_armory:pyrope_infused_ring",
+/** @type {string} */
+i_pyrope_mana_necklace: "zoomers_armory:pyrope_mana_necklace",
+/** @type {string} */
+i_pyrope_dexterity_necklace: "zoomers_armory:pyrope_dexterity_necklace",
+/** @type {string} */
+i_pyrope_sharpshooter_necklace: "zoomers_armory:pyrope_sharpshooter_necklace",
+/** @type {string} */
+i_pyrope_berserker_necklace: "zoomers_armory:pyrope_berserker_necklace",
+/** @type {string} */
+i_pyrope_fortified_necklace: "zoomers_armory:pyrope_fortified_necklace",
+/** @type {string} */
+i_pyrope_infused_necklace: "zoomers_armory:pyrope_infused_necklace",
+/** @type {string} */
+i_pyrope_mana_gloves: "zoomers_armory:pyrope_mana_gloves",
+/** @type {string} */
+i_pyrope_dexterity_gloves: "zoomers_armory:pyrope_dexterity_gloves",
+/** @type {string} */
+i_pyrope_sharpshooter_gloves: "zoomers_armory:pyrope_sharpshooter_gloves",
+/** @type {string} */
+i_pyrope_berserker_gloves: "zoomers_armory:pyrope_berserker_gloves",
+/** @type {string} */
+i_pyrope_fortified_gloves: "zoomers_armory:pyrope_fortified_gloves",
+/** @type {string} */
+i_pyrope_infused_gloves: "zoomers_armory:pyrope_infused_gloves",
+/** @type {string} */
+i_aquite_mana_ring: "zoomers_armory:aquite_mana_ring",
+/** @type {string} */
+i_aquite_dexterity_ring: "zoomers_armory:aquite_dexterity_ring",
+/** @type {string} */
+i_aquite_sharpshooter_ring: "zoomers_armory:aquite_sharpshooter_ring",
+/** @type {string} */
+i_aquite_berserker_ring: "zoomers_armory:aquite_berserker_ring",
+/** @type {string} */
+i_aquite_fortified_ring: "zoomers_armory:aquite_fortified_ring",
+/** @type {string} */
+i_aquite_infused_ring: "zoomers_armory:aquite_infused_ring",
+/** @type {string} */
+i_aquite_mana_necklace: "zoomers_armory:aquite_mana_necklace",
+/** @type {string} */
+i_aquite_dexterity_necklace: "zoomers_armory:aquite_dexterity_necklace",
+/** @type {string} */
+i_aquite_sharpshooter_necklace: "zoomers_armory:aquite_sharpshooter_necklace",
+/** @type {string} */
+i_aquite_berserker_necklace: "zoomers_armory:aquite_berserker_necklace",
+/** @type {string} */
+i_aquite_fortified_necklace: "zoomers_armory:aquite_fortified_necklace",
+/** @type {string} */
+i_aquite_infused_necklace: "zoomers_armory:aquite_infused_necklace",
+/** @type {string} */
+i_aquite_mana_gloves: "zoomers_armory:aquite_mana_gloves",
+/** @type {string} */
+i_aquite_dexterity_gloves: "zoomers_armory:aquite_dexterity_gloves",
+/** @type {string} */
+i_aquite_sharpshooter_gloves: "zoomers_armory:aquite_sharpshooter_gloves",
+/** @type {string} */
+i_aquite_berserker_gloves: "zoomers_armory:aquite_berserker_gloves",
+/** @type {string} */
+i_aquite_fortified_gloves: "zoomers_armory:aquite_fortified_gloves",
+/** @type {string} */
+i_aquite_infused_gloves: "zoomers_armory:aquite_infused_gloves",
+/** @type {string} */
+i_diopside_mana_ring: "zoomers_armory:diopside_mana_ring",
+/** @type {string} */
+i_diopside_dexterity_ring: "zoomers_armory:diopside_dexterity_ring",
+/** @type {string} */
+i_diopside_sharpshooter_ring: "zoomers_armory:diopside_sharpshooter_ring",
+/** @type {string} */
+i_diopside_berserker_ring: "zoomers_armory:diopside_berserker_ring",
+/** @type {string} */
+i_diopside_fortified_ring: "zoomers_armory:diopside_fortified_ring",
+/** @type {string} */
+i_diopside_infused_ring: "zoomers_armory:diopside_infused_ring",
+/** @type {string} */
+i_diopside_mana_necklace: "zoomers_armory:diopside_mana_necklace",
+/** @type {string} */
+i_diopside_dexterity_necklace: "zoomers_armory:diopside_dexterity_necklace",
+/** @type {string} */
+i_diopside_sharpshooter_necklace: "zoomers_armory:diopside_sharpshooter_necklace",
+/** @type {string} */
+i_diopside_berserker_necklace: "zoomers_armory:diopside_berserker_necklace",
+/** @type {string} */
+i_diopside_fortified_necklace: "zoomers_armory:diopside_fortified_necklace",
+/** @type {string} */
+i_diopside_infused_necklace: "zoomers_armory:diopside_infused_necklace",
+/** @type {string} */
+i_diopside_mana_gloves: "zoomers_armory:diopside_mana_gloves",
+/** @type {string} */
+i_diopside_dexterity_gloves: "zoomers_armory:diopside_dexterity_gloves",
+/** @type {string} */
+i_diopside_sharpshooter_gloves: "zoomers_armory:diopside_sharpshooter_gloves",
+/** @type {string} */
+i_diopside_berserker_gloves: "zoomers_armory:diopside_berserker_gloves",
+/** @type {string} */
+i_diopside_fortified_gloves: "zoomers_armory:diopside_fortified_gloves",
+/** @type {string} */
+i_diopside_infused_gloves: "zoomers_armory:diopside_infused_gloves",
+/** @type {string} */
+i_charoite_mana_ring: "zoomers_armory:charoite_mana_ring",
+/** @type {string} */
+i_charoite_dexterity_ring: "zoomers_armory:charoite_dexterity_ring",
+/** @type {string} */
+i_charoite_sharpshooter_ring: "zoomers_armory:charoite_sharpshooter_ring",
+/** @type {string} */
+i_charoite_berserker_ring: "zoomers_armory:charoite_berserker_ring",
+/** @type {string} */
+i_charoite_fortified_ring: "zoomers_armory:charoite_fortified_ring",
+/** @type {string} */
+i_charoite_infused_ring: "zoomers_armory:charoite_infused_ring",
+/** @type {string} */
+i_charoite_mana_necklace: "zoomers_armory:charoite_mana_necklace",
+/** @type {string} */
+i_charoite_dexterity_necklace: "zoomers_armory:charoite_dexterity_necklace",
+/** @type {string} */
+i_charoite_sharpshooter_necklace: "zoomers_armory:charoite_sharpshooter_necklace",
+/** @type {string} */
+i_charoite_berserker_necklace: "zoomers_armory:charoite_berserker_necklace",
+/** @type {string} */
+i_charoite_fortified_necklace: "zoomers_armory:charoite_fortified_necklace",
+/** @type {string} */
+i_charoite_infused_necklace: "zoomers_armory:charoite_infused_necklace",
+/** @type {string} */
+i_charoite_mana_gloves: "zoomers_armory:charoite_mana_gloves",
+/** @type {string} */
+i_charoite_dexterity_gloves: "zoomers_armory:charoite_dexterity_gloves",
+/** @type {string} */
+i_charoite_sharpshooter_gloves: "zoomers_armory:charoite_sharpshooter_gloves",
+/** @type {string} */
+i_charoite_berserker_gloves: "zoomers_armory:charoite_berserker_gloves",
+/** @type {string} */
+i_charoite_fortified_gloves: "zoomers_armory:charoite_fortified_gloves",
+/** @type {string} */
+i_charoite_infused_gloves: "zoomers_armory:charoite_infused_gloves",
+/** @type {string} */
+i_horizonite_mana_ring: "zoomers_armory:horizonite_mana_ring",
+/** @type {string} */
+i_horizonite_dexterity_ring: "zoomers_armory:horizonite_dexterity_ring",
+/** @type {string} */
+i_horizonite_sharpshooter_ring: "zoomers_armory:horizonite_sharpshooter_ring",
+/** @type {string} */
+i_horizonite_berserker_ring: "zoomers_armory:horizonite_berserker_ring",
+/** @type {string} */
+i_horizonite_fortified_ring: "zoomers_armory:horizonite_fortified_ring",
+/** @type {string} */
+i_horizonite_infused_ring: "zoomers_armory:horizonite_infused_ring",
+/** @type {string} */
+i_horizonite_mana_necklace: "zoomers_armory:horizonite_mana_necklace",
+/** @type {string} */
+i_horizonite_dexterity_necklace: "zoomers_armory:horizonite_dexterity_necklace",
+/** @type {string} */
+i_horizonite_sharpshooter_necklace: "zoomers_armory:horizonite_sharpshooter_necklace",
+/** @type {string} */
+i_horizonite_berserker_necklace: "zoomers_armory:horizonite_berserker_necklace",
+/** @type {string} */
+i_horizonite_fortified_necklace: "zoomers_armory:horizonite_fortified_necklace",
+/** @type {string} */
+i_horizonite_infused_necklace: "zoomers_armory:horizonite_infused_necklace",
+/** @type {string} */
+i_horizonite_mana_gloves: "zoomers_armory:horizonite_mana_gloves",
+/** @type {string} */
+i_horizonite_dexterity_gloves: "zoomers_armory:horizonite_dexterity_gloves",
+/** @type {string} */
+i_horizonite_sharpshooter_gloves: "zoomers_armory:horizonite_sharpshooter_gloves",
+/** @type {string} */
+i_horizonite_berserker_gloves: "zoomers_armory:horizonite_berserker_gloves",
+/** @type {string} */
+i_horizonite_fortified_gloves: "zoomers_armory:horizonite_fortified_gloves",
+/** @type {string} */
+i_horizonite_infused_gloves: "zoomers_armory:horizonite_infused_gloves",
+/** @type {string} */
+i_zanite_mana_ring: "zoomers_armory:zanite_mana_ring",
+/** @type {string} */
+i_zanite_dexterity_ring: "zoomers_armory:zanite_dexterity_ring",
+/** @type {string} */
+i_zanite_sharpshooter_ring: "zoomers_armory:zanite_sharpshooter_ring",
+/** @type {string} */
+i_zanite_berserker_ring: "zoomers_armory:zanite_berserker_ring",
+/** @type {string} */
+i_zanite_fortified_ring: "zoomers_armory:zanite_fortified_ring",
+/** @type {string} */
+i_zanite_infused_ring: "zoomers_armory:zanite_infused_ring",
+/** @type {string} */
+i_zanite_mana_necklace: "zoomers_armory:zanite_mana_necklace",
+/** @type {string} */
+i_zanite_dexterity_necklace: "zoomers_armory:zanite_dexterity_necklace",
+/** @type {string} */
+i_zanite_sharpshooter_necklace: "zoomers_armory:zanite_sharpshooter_necklace",
+/** @type {string} */
+i_zanite_berserker_necklace: "zoomers_armory:zanite_berserker_necklace",
+/** @type {string} */
+i_zanite_fortified_necklace: "zoomers_armory:zanite_fortified_necklace",
+/** @type {string} */
+i_zanite_infused_necklace: "zoomers_armory:zanite_infused_necklace",
+/** @type {string} */
+i_zanite_mana_gloves: "zoomers_armory:zanite_mana_gloves",
+/** @type {string} */
+i_zanite_dexterity_gloves: "zoomers_armory:zanite_dexterity_gloves",
+/** @type {string} */
+i_zanite_sharpshooter_gloves: "zoomers_armory:zanite_sharpshooter_gloves",
+/** @type {string} */
+i_zanite_berserker_gloves: "zoomers_armory:zanite_berserker_gloves",
+/** @type {string} */
+i_zanite_fortified_gloves: "zoomers_armory:zanite_fortified_gloves",
+/** @type {string} */
+i_zanite_infused_gloves: "zoomers_armory:zanite_infused_gloves",
+/** @type {string} */
+i_enchanted_gravitite_mana_ring: "zoomers_armory:enchanted_gravitite_mana_ring",
+/** @type {string} */
+i_enchanted_gravitite_dexterity_ring: "zoomers_armory:enchanted_gravitite_dexterity_ring",
+/** @type {string} */
+i_enchanted_gravitite_sharpshooter_ring: "zoomers_armory:enchanted_gravitite_sharpshooter_ring",
+/** @type {string} */
+i_enchanted_gravitite_berserker_ring: "zoomers_armory:enchanted_gravitite_berserker_ring",
+/** @type {string} */
+i_enchanted_gravitite_fortified_ring: "zoomers_armory:enchanted_gravitite_fortified_ring",
+/** @type {string} */
+i_enchanted_gravitite_infused_ring: "zoomers_armory:enchanted_gravitite_infused_ring",
+/** @type {string} */
+i_enchanted_gravitite_mana_necklace: "zoomers_armory:enchanted_gravitite_mana_necklace",
+/** @type {string} */
+i_enchanted_gravitite_dexterity_necklace: "zoomers_armory:enchanted_gravitite_dexterity_necklace",
+/** @type {string} */
+i_enchanted_gravitite_sharpshooter_necklace: "zoomers_armory:enchanted_gravitite_sharpshooter_necklace",
+/** @type {string} */
+i_enchanted_gravitite_berserker_necklace: "zoomers_armory:enchanted_gravitite_berserker_necklace",
+/** @type {string} */
+i_enchanted_gravitite_fortified_necklace: "zoomers_armory:enchanted_gravitite_fortified_necklace",
+/** @type {string} */
+i_enchanted_gravitite_infused_necklace: "zoomers_armory:enchanted_gravitite_infused_necklace",
+/** @type {string} */
+i_enchanted_gravitite_mana_gloves: "zoomers_armory:enchanted_gravitite_mana_gloves",
+/** @type {string} */
+i_enchanted_gravitite_dexterity_gloves: "zoomers_armory:enchanted_gravitite_dexterity_gloves",
+/** @type {string} */
+i_enchanted_gravitite_sharpshooter_gloves: "zoomers_armory:enchanted_gravitite_sharpshooter_gloves",
+/** @type {string} */
+i_enchanted_gravitite_berserker_gloves: "zoomers_armory:enchanted_gravitite_berserker_gloves",
+/** @type {string} */
+i_enchanted_gravitite_fortified_gloves: "zoomers_armory:enchanted_gravitite_fortified_gloves",
+/** @type {string} */
+i_enchanted_gravitite_infused_gloves: "zoomers_armory:enchanted_gravitite_infused_gloves",
+/** @type {string} */
+i_cincinnasite_mana_ring: "zoomers_armory:cincinnasite_mana_ring",
+/** @type {string} */
+i_cincinnasite_dexterity_ring: "zoomers_armory:cincinnasite_dexterity_ring",
+/** @type {string} */
+i_cincinnasite_sharpshooter_ring: "zoomers_armory:cincinnasite_sharpshooter_ring",
+/** @type {string} */
+i_cincinnasite_berserker_ring: "zoomers_armory:cincinnasite_berserker_ring",
+/** @type {string} */
+i_cincinnasite_fortified_ring: "zoomers_armory:cincinnasite_fortified_ring",
+/** @type {string} */
+i_cincinnasite_infused_ring: "zoomers_armory:cincinnasite_infused_ring",
+/** @type {string} */
+i_cincinnasite_mana_necklace: "zoomers_armory:cincinnasite_mana_necklace",
+/** @type {string} */
+i_cincinnasite_dexterity_necklace: "zoomers_armory:cincinnasite_dexterity_necklace",
+/** @type {string} */
+i_cincinnasite_sharpshooter_necklace: "zoomers_armory:cincinnasite_sharpshooter_necklace",
+/** @type {string} */
+i_cincinnasite_berserker_necklace: "zoomers_armory:cincinnasite_berserker_necklace",
+/** @type {string} */
+i_cincinnasite_fortified_necklace: "zoomers_armory:cincinnasite_fortified_necklace",
+/** @type {string} */
+i_cincinnasite_infused_necklace: "zoomers_armory:cincinnasite_infused_necklace",
+/** @type {string} */
+i_cincinnasite_mana_gloves: "zoomers_armory:cincinnasite_mana_gloves",
+/** @type {string} */
+i_cincinnasite_dexterity_gloves: "zoomers_armory:cincinnasite_dexterity_gloves",
+/** @type {string} */
+i_cincinnasite_sharpshooter_gloves: "zoomers_armory:cincinnasite_sharpshooter_gloves",
+/** @type {string} */
+i_cincinnasite_berserker_gloves: "zoomers_armory:cincinnasite_berserker_gloves",
+/** @type {string} */
+i_cincinnasite_fortified_gloves: "zoomers_armory:cincinnasite_fortified_gloves",
+/** @type {string} */
+i_cincinnasite_infused_gloves: "zoomers_armory:cincinnasite_infused_gloves",
+/** @type {string} */
+i_cincinnasite_diamond_mana_ring: "zoomers_armory:cincinnasite_diamond_mana_ring",
+/** @type {string} */
+i_cincinnasite_diamond_dexterity_ring: "zoomers_armory:cincinnasite_diamond_dexterity_ring",
+/** @type {string} */
+i_cincinnasite_diamond_sharpshooter_ring: "zoomers_armory:cincinnasite_diamond_sharpshooter_ring",
+/** @type {string} */
+i_cincinnasite_diamond_berserker_ring: "zoomers_armory:cincinnasite_diamond_berserker_ring",
+/** @type {string} */
+i_cincinnasite_diamond_fortified_ring: "zoomers_armory:cincinnasite_diamond_fortified_ring",
+/** @type {string} */
+i_cincinnasite_diamond_infused_ring: "zoomers_armory:cincinnasite_diamond_infused_ring",
+/** @type {string} */
+i_cincinnasite_diamond_mana_necklace: "zoomers_armory:cincinnasite_diamond_mana_necklace",
+/** @type {string} */
+i_cincinnasite_diamond_dexterity_necklace: "zoomers_armory:cincinnasite_diamond_dexterity_necklace",
+/** @type {string} */
+i_cincinnasite_diamond_sharpshooter_necklace: "zoomers_armory:cincinnasite_diamond_sharpshooter_necklace",
+/** @type {string} */
+i_cincinnasite_diamond_berserker_necklace: "zoomers_armory:cincinnasite_diamond_berserker_necklace",
+/** @type {string} */
+i_cincinnasite_diamond_fortified_necklace: "zoomers_armory:cincinnasite_diamond_fortified_necklace",
+/** @type {string} */
+i_cincinnasite_diamond_infused_necklace: "zoomers_armory:cincinnasite_diamond_infused_necklace",
+/** @type {string} */
+i_cincinnasite_diamond_mana_gloves: "zoomers_armory:cincinnasite_diamond_mana_gloves",
+/** @type {string} */
+i_cincinnasite_diamond_dexterity_gloves: "zoomers_armory:cincinnasite_diamond_dexterity_gloves",
+/** @type {string} */
+i_cincinnasite_diamond_sharpshooter_gloves: "zoomers_armory:cincinnasite_diamond_sharpshooter_gloves",
+/** @type {string} */
+i_cincinnasite_diamond_berserker_gloves: "zoomers_armory:cincinnasite_diamond_berserker_gloves",
+/** @type {string} */
+i_cincinnasite_diamond_fortified_gloves: "zoomers_armory:cincinnasite_diamond_fortified_gloves",
+/** @type {string} */
+i_cincinnasite_diamond_infused_gloves: "zoomers_armory:cincinnasite_diamond_infused_gloves",
+/** @type {string} */
+i_nether_ruby_mana_ring: "zoomers_armory:nether_ruby_mana_ring",
+/** @type {string} */
+i_nether_ruby_dexterity_ring: "zoomers_armory:nether_ruby_dexterity_ring",
+/** @type {string} */
+i_nether_ruby_sharpshooter_ring: "zoomers_armory:nether_ruby_sharpshooter_ring",
+/** @type {string} */
+i_nether_ruby_berserker_ring: "zoomers_armory:nether_ruby_berserker_ring",
+/** @type {string} */
+i_nether_ruby_fortified_ring: "zoomers_armory:nether_ruby_fortified_ring",
+/** @type {string} */
+i_nether_ruby_infused_ring: "zoomers_armory:nether_ruby_infused_ring",
+/** @type {string} */
+i_nether_ruby_mana_necklace: "zoomers_armory:nether_ruby_mana_necklace",
+/** @type {string} */
+i_nether_ruby_dexterity_necklace: "zoomers_armory:nether_ruby_dexterity_necklace",
+/** @type {string} */
+i_nether_ruby_sharpshooter_necklace: "zoomers_armory:nether_ruby_sharpshooter_necklace",
+/** @type {string} */
+i_nether_ruby_berserker_necklace: "zoomers_armory:nether_ruby_berserker_necklace",
+/** @type {string} */
+i_nether_ruby_fortified_necklace: "zoomers_armory:nether_ruby_fortified_necklace",
+/** @type {string} */
+i_nether_ruby_infused_necklace: "zoomers_armory:nether_ruby_infused_necklace",
+/** @type {string} */
+i_nether_ruby_mana_gloves: "zoomers_armory:nether_ruby_mana_gloves",
+/** @type {string} */
+i_nether_ruby_dexterity_gloves: "zoomers_armory:nether_ruby_dexterity_gloves",
+/** @type {string} */
+i_nether_ruby_sharpshooter_gloves: "zoomers_armory:nether_ruby_sharpshooter_gloves",
+/** @type {string} */
+i_nether_ruby_berserker_gloves: "zoomers_armory:nether_ruby_berserker_gloves",
+/** @type {string} */
+i_nether_ruby_fortified_gloves: "zoomers_armory:nether_ruby_fortified_gloves",
+/** @type {string} */
+i_nether_ruby_infused_gloves: "zoomers_armory:nether_ruby_infused_gloves",
+/** @type {string} */
+i_flaming_ruby_mana_ring: "zoomers_armory:flaming_ruby_mana_ring",
+/** @type {string} */
+i_flaming_ruby_dexterity_ring: "zoomers_armory:flaming_ruby_dexterity_ring",
+/** @type {string} */
+i_flaming_ruby_sharpshooter_ring: "zoomers_armory:flaming_ruby_sharpshooter_ring",
+/** @type {string} */
+i_flaming_ruby_berserker_ring: "zoomers_armory:flaming_ruby_berserker_ring",
+/** @type {string} */
+i_flaming_ruby_fortified_ring: "zoomers_armory:flaming_ruby_fortified_ring",
+/** @type {string} */
+i_flaming_ruby_infused_ring: "zoomers_armory:flaming_ruby_infused_ring",
+/** @type {string} */
+i_flaming_ruby_mana_necklace: "zoomers_armory:flaming_ruby_mana_necklace",
+/** @type {string} */
+i_flaming_ruby_dexterity_necklace: "zoomers_armory:flaming_ruby_dexterity_necklace",
+/** @type {string} */
+i_flaming_ruby_sharpshooter_necklace: "zoomers_armory:flaming_ruby_sharpshooter_necklace",
+/** @type {string} */
+i_flaming_ruby_berserker_necklace: "zoomers_armory:flaming_ruby_berserker_necklace",
+/** @type {string} */
+i_flaming_ruby_fortified_necklace: "zoomers_armory:flaming_ruby_fortified_necklace",
+/** @type {string} */
+i_flaming_ruby_infused_necklace: "zoomers_armory:flaming_ruby_infused_necklace",
+/** @type {string} */
+i_flaming_ruby_mana_gloves: "zoomers_armory:flaming_ruby_mana_gloves",
+/** @type {string} */
+i_flaming_ruby_dexterity_gloves: "zoomers_armory:flaming_ruby_dexterity_gloves",
+/** @type {string} */
+i_flaming_ruby_sharpshooter_gloves: "zoomers_armory:flaming_ruby_sharpshooter_gloves",
+/** @type {string} */
+i_flaming_ruby_berserker_gloves: "zoomers_armory:flaming_ruby_berserker_gloves",
+/** @type {string} */
+i_flaming_ruby_fortified_gloves: "zoomers_armory:flaming_ruby_fortified_gloves",
+/** @type {string} */
+i_flaming_ruby_infused_gloves: "zoomers_armory:flaming_ruby_infused_gloves",
+/** @type {string} */
+i_netherite_mana_ring: "zoomers_armory:netherite_mana_ring",
+/** @type {string} */
+i_netherite_dexterity_ring: "zoomers_armory:netherite_dexterity_ring",
+/** @type {string} */
+i_netherite_sharpshooter_ring: "zoomers_armory:netherite_sharpshooter_ring",
+/** @type {string} */
+i_netherite_berserker_ring: "zoomers_armory:netherite_berserker_ring",
+/** @type {string} */
+i_netherite_fortified_ring: "zoomers_armory:netherite_fortified_ring",
+/** @type {string} */
+i_netherite_infused_ring: "zoomers_armory:netherite_infused_ring",
+/** @type {string} */
+i_netherite_mana_necklace: "zoomers_armory:netherite_mana_necklace",
+/** @type {string} */
+i_netherite_dexterity_necklace: "zoomers_armory:netherite_dexterity_necklace",
+/** @type {string} */
+i_netherite_sharpshooter_necklace: "zoomers_armory:netherite_sharpshooter_necklace",
+/** @type {string} */
+i_netherite_berserker_necklace: "zoomers_armory:netherite_berserker_necklace",
+/** @type {string} */
+i_netherite_fortified_necklace: "zoomers_armory:netherite_fortified_necklace",
+/** @type {string} */
+i_netherite_infused_necklace: "zoomers_armory:netherite_infused_necklace",
+/** @type {string} */
+i_netherite_mana_gloves: "zoomers_armory:netherite_mana_gloves",
+/** @type {string} */
+i_netherite_dexterity_gloves: "zoomers_armory:netherite_dexterity_gloves",
+/** @type {string} */
+i_netherite_sharpshooter_gloves: "zoomers_armory:netherite_sharpshooter_gloves",
+/** @type {string} */
+i_netherite_berserker_gloves: "zoomers_armory:netherite_berserker_gloves",
+/** @type {string} */
+i_netherite_fortified_gloves: "zoomers_armory:netherite_fortified_gloves",
+/** @type {string} */
+i_netherite_infused_gloves: "zoomers_armory:netherite_infused_gloves",
+/** @type {string} */
+i_cloggrum_mana_ring: "zoomers_armory:cloggrum_mana_ring",
+/** @type {string} */
+i_cloggrum_dexterity_ring: "zoomers_armory:cloggrum_dexterity_ring",
+/** @type {string} */
+i_cloggrum_sharpshooter_ring: "zoomers_armory:cloggrum_sharpshooter_ring",
+/** @type {string} */
+i_cloggrum_berserker_ring: "zoomers_armory:cloggrum_berserker_ring",
+/** @type {string} */
+i_cloggrum_fortified_ring: "zoomers_armory:cloggrum_fortified_ring",
+/** @type {string} */
+i_cloggrum_infused_ring: "zoomers_armory:cloggrum_infused_ring",
+/** @type {string} */
+i_cloggrum_mana_necklace: "zoomers_armory:cloggrum_mana_necklace",
+/** @type {string} */
+i_cloggrum_dexterity_necklace: "zoomers_armory:cloggrum_dexterity_necklace",
+/** @type {string} */
+i_cloggrum_sharpshooter_necklace: "zoomers_armory:cloggrum_sharpshooter_necklace",
+/** @type {string} */
+i_cloggrum_berserker_necklace: "zoomers_armory:cloggrum_berserker_necklace",
+/** @type {string} */
+i_cloggrum_fortified_necklace: "zoomers_armory:cloggrum_fortified_necklace",
+/** @type {string} */
+i_cloggrum_infused_necklace: "zoomers_armory:cloggrum_infused_necklace",
+/** @type {string} */
+i_cloggrum_mana_gloves: "zoomers_armory:cloggrum_mana_gloves",
+/** @type {string} */
+i_cloggrum_dexterity_gloves: "zoomers_armory:cloggrum_dexterity_gloves",
+/** @type {string} */
+i_cloggrum_sharpshooter_gloves: "zoomers_armory:cloggrum_sharpshooter_gloves",
+/** @type {string} */
+i_cloggrum_berserker_gloves: "zoomers_armory:cloggrum_berserker_gloves",
+/** @type {string} */
+i_cloggrum_fortified_gloves: "zoomers_armory:cloggrum_fortified_gloves",
+/** @type {string} */
+i_cloggrum_infused_gloves: "zoomers_armory:cloggrum_infused_gloves",
+/** @type {string} */
+i_froststeel_mana_ring: "zoomers_armory:froststeel_mana_ring",
+/** @type {string} */
+i_froststeel_dexterity_ring: "zoomers_armory:froststeel_dexterity_ring",
+/** @type {string} */
+i_froststeel_sharpshooter_ring: "zoomers_armory:froststeel_sharpshooter_ring",
+/** @type {string} */
+i_froststeel_berserker_ring: "zoomers_armory:froststeel_berserker_ring",
+/** @type {string} */
+i_froststeel_fortified_ring: "zoomers_armory:froststeel_fortified_ring",
+/** @type {string} */
+i_froststeel_infused_ring: "zoomers_armory:froststeel_infused_ring",
+/** @type {string} */
+i_froststeel_mana_necklace: "zoomers_armory:froststeel_mana_necklace",
+/** @type {string} */
+i_froststeel_dexterity_necklace: "zoomers_armory:froststeel_dexterity_necklace",
+/** @type {string} */
+i_froststeel_sharpshooter_necklace: "zoomers_armory:froststeel_sharpshooter_necklace",
+/** @type {string} */
+i_froststeel_berserker_necklace: "zoomers_armory:froststeel_berserker_necklace",
+/** @type {string} */
+i_froststeel_fortified_necklace: "zoomers_armory:froststeel_fortified_necklace",
+/** @type {string} */
+i_froststeel_infused_necklace: "zoomers_armory:froststeel_infused_necklace",
+/** @type {string} */
+i_froststeel_mana_gloves: "zoomers_armory:froststeel_mana_gloves",
+/** @type {string} */
+i_froststeel_dexterity_gloves: "zoomers_armory:froststeel_dexterity_gloves",
+/** @type {string} */
+i_froststeel_sharpshooter_gloves: "zoomers_armory:froststeel_sharpshooter_gloves",
+/** @type {string} */
+i_froststeel_berserker_gloves: "zoomers_armory:froststeel_berserker_gloves",
+/** @type {string} */
+i_froststeel_fortified_gloves: "zoomers_armory:froststeel_fortified_gloves",
+/** @type {string} */
+i_froststeel_infused_gloves: "zoomers_armory:froststeel_infused_gloves",
+/** @type {string} */
+i_utherium_mana_ring: "zoomers_armory:utherium_mana_ring",
+/** @type {string} */
+i_utherium_dexterity_ring: "zoomers_armory:utherium_dexterity_ring",
+/** @type {string} */
+i_utherium_sharpshooter_ring: "zoomers_armory:utherium_sharpshooter_ring",
+/** @type {string} */
+i_utherium_berserker_ring: "zoomers_armory:utherium_berserker_ring",
+/** @type {string} */
+i_utherium_fortified_ring: "zoomers_armory:utherium_fortified_ring",
+/** @type {string} */
+i_utherium_infused_ring: "zoomers_armory:utherium_infused_ring",
+/** @type {string} */
+i_utherium_mana_necklace: "zoomers_armory:utherium_mana_necklace",
+/** @type {string} */
+i_utherium_dexterity_necklace: "zoomers_armory:utherium_dexterity_necklace",
+/** @type {string} */
+i_utherium_sharpshooter_necklace: "zoomers_armory:utherium_sharpshooter_necklace",
+/** @type {string} */
+i_utherium_berserker_necklace: "zoomers_armory:utherium_berserker_necklace",
+/** @type {string} */
+i_utherium_fortified_necklace: "zoomers_armory:utherium_fortified_necklace",
+/** @type {string} */
+i_utherium_infused_necklace: "zoomers_armory:utherium_infused_necklace",
+/** @type {string} */
+i_utherium_mana_gloves: "zoomers_armory:utherium_mana_gloves",
+/** @type {string} */
+i_utherium_dexterity_gloves: "zoomers_armory:utherium_dexterity_gloves",
+/** @type {string} */
+i_utherium_sharpshooter_gloves: "zoomers_armory:utherium_sharpshooter_gloves",
+/** @type {string} */
+i_utherium_berserker_gloves: "zoomers_armory:utherium_berserker_gloves",
+/** @type {string} */
+i_utherium_fortified_gloves: "zoomers_armory:utherium_fortified_gloves",
+/** @type {string} */
+i_utherium_infused_gloves: "zoomers_armory:utherium_infused_gloves",
+/** @type {string} */
+i_forgotten_mana_ring: "zoomers_armory:forgotten_mana_ring",
+/** @type {string} */
+i_forgotten_dexterity_ring: "zoomers_armory:forgotten_dexterity_ring",
+/** @type {string} */
+i_forgotten_sharpshooter_ring: "zoomers_armory:forgotten_sharpshooter_ring",
+/** @type {string} */
+i_forgotten_berserker_ring: "zoomers_armory:forgotten_berserker_ring",
+/** @type {string} */
+i_forgotten_fortified_ring: "zoomers_armory:forgotten_fortified_ring",
+/** @type {string} */
+i_forgotten_infused_ring: "zoomers_armory:forgotten_infused_ring",
+/** @type {string} */
+i_forgotten_mana_necklace: "zoomers_armory:forgotten_mana_necklace",
+/** @type {string} */
+i_forgotten_dexterity_necklace: "zoomers_armory:forgotten_dexterity_necklace",
+/** @type {string} */
+i_forgotten_sharpshooter_necklace: "zoomers_armory:forgotten_sharpshooter_necklace",
+/** @type {string} */
+i_forgotten_berserker_necklace: "zoomers_armory:forgotten_berserker_necklace",
+/** @type {string} */
+i_forgotten_fortified_necklace: "zoomers_armory:forgotten_fortified_necklace",
+/** @type {string} */
+i_forgotten_infused_necklace: "zoomers_armory:forgotten_infused_necklace",
+/** @type {string} */
+i_forgotten_mana_gloves: "zoomers_armory:forgotten_mana_gloves",
+/** @type {string} */
+i_forgotten_dexterity_gloves: "zoomers_armory:forgotten_dexterity_gloves",
+/** @type {string} */
+i_forgotten_sharpshooter_gloves: "zoomers_armory:forgotten_sharpshooter_gloves",
+/** @type {string} */
+i_forgotten_berserker_gloves: "zoomers_armory:forgotten_berserker_gloves",
+/** @type {string} */
+i_forgotten_fortified_gloves: "zoomers_armory:forgotten_fortified_gloves",
+/** @type {string} */
+i_forgotten_infused_gloves: "zoomers_armory:forgotten_infused_gloves",
+/** @type {string} */
+i_jade_mana_ring: "zoomers_armory:jade_mana_ring",
+/** @type {string} */
+i_jade_dexterity_ring: "zoomers_armory:jade_dexterity_ring",
+/** @type {string} */
+i_jade_sharpshooter_ring: "zoomers_armory:jade_sharpshooter_ring",
+/** @type {string} */
+i_jade_berserker_ring: "zoomers_armory:jade_berserker_ring",
+/** @type {string} */
+i_jade_fortified_ring: "zoomers_armory:jade_fortified_ring",
+/** @type {string} */
+i_jade_infused_ring: "zoomers_armory:jade_infused_ring",
+/** @type {string} */
+i_jade_mana_necklace: "zoomers_armory:jade_mana_necklace",
+/** @type {string} */
+i_jade_dexterity_necklace: "zoomers_armory:jade_dexterity_necklace",
+/** @type {string} */
+i_jade_sharpshooter_necklace: "zoomers_armory:jade_sharpshooter_necklace",
+/** @type {string} */
+i_jade_berserker_necklace: "zoomers_armory:jade_berserker_necklace",
+/** @type {string} */
+i_jade_fortified_necklace: "zoomers_armory:jade_fortified_necklace",
+/** @type {string} */
+i_jade_infused_necklace: "zoomers_armory:jade_infused_necklace",
+/** @type {string} */
+i_jade_mana_gloves: "zoomers_armory:jade_mana_gloves",
+/** @type {string} */
+i_jade_dexterity_gloves: "zoomers_armory:jade_dexterity_gloves",
+/** @type {string} */
+i_jade_sharpshooter_gloves: "zoomers_armory:jade_sharpshooter_gloves",
+/** @type {string} */
+i_jade_berserker_gloves: "zoomers_armory:jade_berserker_gloves",
+/** @type {string} */
+i_jade_fortified_gloves: "zoomers_armory:jade_fortified_gloves",
+/** @type {string} */
+i_jade_infused_gloves: "zoomers_armory:jade_infused_gloves",
+/** @type {string} */
+i_crystalline_mana_ring: "zoomers_armory:crystalline_mana_ring",
+/** @type {string} */
+i_crystalline_dexterity_ring: "zoomers_armory:crystalline_dexterity_ring",
+/** @type {string} */
+i_crystalline_sharpshooter_ring: "zoomers_armory:crystalline_sharpshooter_ring",
+/** @type {string} */
+i_crystalline_berserker_ring: "zoomers_armory:crystalline_berserker_ring",
+/** @type {string} */
+i_crystalline_fortified_ring: "zoomers_armory:crystalline_fortified_ring",
+/** @type {string} */
+i_crystalline_infused_ring: "zoomers_armory:crystalline_infused_ring",
+/** @type {string} */
+i_crystalline_mana_necklace: "zoomers_armory:crystalline_mana_necklace",
+/** @type {string} */
+i_crystalline_dexterity_necklace: "zoomers_armory:crystalline_dexterity_necklace",
+/** @type {string} */
+i_crystalline_sharpshooter_necklace: "zoomers_armory:crystalline_sharpshooter_necklace",
+/** @type {string} */
+i_crystalline_berserker_necklace: "zoomers_armory:crystalline_berserker_necklace",
+/** @type {string} */
+i_crystalline_fortified_necklace: "zoomers_armory:crystalline_fortified_necklace",
+/** @type {string} */
+i_crystalline_infused_necklace: "zoomers_armory:crystalline_infused_necklace",
+/** @type {string} */
+i_crystalline_mana_gloves: "zoomers_armory:crystalline_mana_gloves",
+/** @type {string} */
+i_crystalline_dexterity_gloves: "zoomers_armory:crystalline_dexterity_gloves",
+/** @type {string} */
+i_crystalline_sharpshooter_gloves: "zoomers_armory:crystalline_sharpshooter_gloves",
+/** @type {string} */
+i_crystalline_berserker_gloves: "zoomers_armory:crystalline_berserker_gloves",
+/** @type {string} */
+i_crystalline_fortified_gloves: "zoomers_armory:crystalline_fortified_gloves",
+/** @type {string} */
+i_crystalline_infused_gloves: "zoomers_armory:crystalline_infused_gloves",
+/** @type {string} */
+i_dragon_mana_ring: "zoomers_armory:dragon_mana_ring",
+/** @type {string} */
+i_dragon_dexterity_ring: "zoomers_armory:dragon_dexterity_ring",
+/** @type {string} */
+i_dragon_sharpshooter_ring: "zoomers_armory:dragon_sharpshooter_ring",
+/** @type {string} */
+i_dragon_berserker_ring: "zoomers_armory:dragon_berserker_ring",
+/** @type {string} */
+i_dragon_fortified_ring: "zoomers_armory:dragon_fortified_ring",
+/** @type {string} */
+i_dragon_infused_ring: "zoomers_armory:dragon_infused_ring",
+/** @type {string} */
+i_dragon_mana_necklace: "zoomers_armory:dragon_mana_necklace",
+/** @type {string} */
+i_dragon_dexterity_necklace: "zoomers_armory:dragon_dexterity_necklace",
+/** @type {string} */
+i_dragon_sharpshooter_necklace: "zoomers_armory:dragon_sharpshooter_necklace",
+/** @type {string} */
+i_dragon_berserker_necklace: "zoomers_armory:dragon_berserker_necklace",
+/** @type {string} */
+i_dragon_fortified_necklace: "zoomers_armory:dragon_fortified_necklace",
+/** @type {string} */
+i_dragon_infused_necklace: "zoomers_armory:dragon_infused_necklace",
+/** @type {string} */
+i_dragon_mana_gloves: "zoomers_armory:dragon_mana_gloves",
+/** @type {string} */
+i_dragon_dexterity_gloves: "zoomers_armory:dragon_dexterity_gloves",
+/** @type {string} */
+i_dragon_sharpshooter_gloves: "zoomers_armory:dragon_sharpshooter_gloves",
+/** @type {string} */
+i_dragon_berserker_gloves: "zoomers_armory:dragon_berserker_gloves",
+/** @type {string} */
+i_dragon_fortified_gloves: "zoomers_armory:dragon_fortified_gloves",
+/** @type {string} */
+i_dragon_infused_gloves: "zoomers_armory:dragon_infused_gloves",
+/** @type {string} */
+i_enderite_mana_ring: "zoomers_armory:enderite_mana_ring",
+/** @type {string} */
+i_enderite_dexterity_ring: "zoomers_armory:enderite_dexterity_ring",
+/** @type {string} */
+i_enderite_sharpshooter_ring: "zoomers_armory:enderite_sharpshooter_ring",
+/** @type {string} */
+i_enderite_berserker_ring: "zoomers_armory:enderite_berserker_ring",
+/** @type {string} */
+i_enderite_fortified_ring: "zoomers_armory:enderite_fortified_ring",
+/** @type {string} */
+i_enderite_infused_ring: "zoomers_armory:enderite_infused_ring",
+/** @type {string} */
+i_enderite_mana_necklace: "zoomers_armory:enderite_mana_necklace",
+/** @type {string} */
+i_enderite_dexterity_necklace: "zoomers_armory:enderite_dexterity_necklace",
+/** @type {string} */
+i_enderite_sharpshooter_necklace: "zoomers_armory:enderite_sharpshooter_necklace",
+/** @type {string} */
+i_enderite_berserker_necklace: "zoomers_armory:enderite_berserker_necklace",
+/** @type {string} */
+i_enderite_fortified_necklace: "zoomers_armory:enderite_fortified_necklace",
+/** @type {string} */
+i_enderite_infused_necklace: "zoomers_armory:enderite_infused_necklace",
+/** @type {string} */
+i_enderite_mana_gloves: "zoomers_armory:enderite_mana_gloves",
+/** @type {string} */
+i_enderite_dexterity_gloves: "zoomers_armory:enderite_dexterity_gloves",
+/** @type {string} */
+i_enderite_sharpshooter_gloves: "zoomers_armory:enderite_sharpshooter_gloves",
+/** @type {string} */
+i_enderite_berserker_gloves: "zoomers_armory:enderite_berserker_gloves",
+/** @type {string} */
+i_enderite_fortified_gloves: "zoomers_armory:enderite_fortified_gloves",
+/** @type {string} */
+i_enderite_infused_gloves: "zoomers_armory:enderite_infused_gloves",
+/** @type {string} */
+i_immemorial_mana_ring: "zoomers_armory:immemorial_mana_ring",
+/** @type {string} */
+i_immemorial_dexterity_ring: "zoomers_armory:immemorial_dexterity_ring",
+/** @type {string} */
+i_immemorial_sharpshooter_ring: "zoomers_armory:immemorial_sharpshooter_ring",
+/** @type {string} */
+i_immemorial_berserker_ring: "zoomers_armory:immemorial_berserker_ring",
+/** @type {string} */
+i_immemorial_fortified_ring: "zoomers_armory:immemorial_fortified_ring",
+/** @type {string} */
+i_immemorial_infused_ring: "zoomers_armory:immemorial_infused_ring",
+/** @type {string} */
+i_immemorial_mana_necklace: "zoomers_armory:immemorial_mana_necklace",
+/** @type {string} */
+i_immemorial_dexterity_necklace: "zoomers_armory:immemorial_dexterity_necklace",
+/** @type {string} */
+i_immemorial_sharpshooter_necklace: "zoomers_armory:immemorial_sharpshooter_necklace",
+/** @type {string} */
+i_immemorial_berserker_necklace: "zoomers_armory:immemorial_berserker_necklace",
+/** @type {string} */
+i_immemorial_fortified_necklace: "zoomers_armory:immemorial_fortified_necklace",
+/** @type {string} */
+i_immemorial_infused_necklace: "zoomers_armory:immemorial_infused_necklace",
+/** @type {string} */
+i_immemorial_mana_gloves: "zoomers_armory:immemorial_mana_gloves",
+/** @type {string} */
+i_immemorial_dexterity_gloves: "zoomers_armory:immemorial_dexterity_gloves",
+/** @type {string} */
+i_immemorial_sharpshooter_gloves: "zoomers_armory:immemorial_sharpshooter_gloves",
+/** @type {string} */
+i_immemorial_berserker_gloves: "zoomers_armory:immemorial_berserker_gloves",
+/** @type {string} */
+i_immemorial_fortified_gloves: "zoomers_armory:immemorial_fortified_gloves",
+/** @type {string} */
+i_immemorial_infused_gloves: "zoomers_armory:immemorial_infused_gloves",
+/** @type {string} */
+i_soul_mana_ring: "zoomers_armory:soul_mana_ring",
+/** @type {string} */
+i_soul_dexterity_ring: "zoomers_armory:soul_dexterity_ring",
+/** @type {string} */
+i_soul_sharpshooter_ring: "zoomers_armory:soul_sharpshooter_ring",
+/** @type {string} */
+i_soul_berserker_ring: "zoomers_armory:soul_berserker_ring",
+/** @type {string} */
+i_soul_fortified_ring: "zoomers_armory:soul_fortified_ring",
+/** @type {string} */
+i_soul_infused_ring: "zoomers_armory:soul_infused_ring",
+/** @type {string} */
+i_soul_mana_necklace: "zoomers_armory:soul_mana_necklace",
+/** @type {string} */
+i_soul_dexterity_necklace: "zoomers_armory:soul_dexterity_necklace",
+/** @type {string} */
+i_soul_sharpshooter_necklace: "zoomers_armory:soul_sharpshooter_necklace",
+/** @type {string} */
+i_soul_berserker_necklace: "zoomers_armory:soul_berserker_necklace",
+/** @type {string} */
+i_soul_fortified_necklace: "zoomers_armory:soul_fortified_necklace",
+/** @type {string} */
+i_soul_infused_necklace: "zoomers_armory:soul_infused_necklace",
+/** @type {string} */
+i_soul_mana_gloves: "zoomers_armory:soul_mana_gloves",
+/** @type {string} */
+i_soul_dexterity_gloves: "zoomers_armory:soul_dexterity_gloves",
+/** @type {string} */
+i_soul_sharpshooter_gloves: "zoomers_armory:soul_sharpshooter_gloves",
+/** @type {string} */
+i_soul_berserker_gloves: "zoomers_armory:soul_berserker_gloves",
+/** @type {string} */
+i_soul_fortified_gloves: "zoomers_armory:soul_fortified_gloves",
+/** @type {string} */
+i_soul_infused_gloves: "zoomers_armory:soul_infused_gloves",
+/** @type {string} */
+i_fixed_bone_mana_ring: "zoomers_armory:fixed_bone_mana_ring",
+/** @type {string} */
+i_fixed_bone_dexterity_ring: "zoomers_armory:fixed_bone_dexterity_ring",
+/** @type {string} */
+i_fixed_bone_sharpshooter_ring: "zoomers_armory:fixed_bone_sharpshooter_ring",
+/** @type {string} */
+i_fixed_bone_berserker_ring: "zoomers_armory:fixed_bone_berserker_ring",
+/** @type {string} */
+i_fixed_bone_fortified_ring: "zoomers_armory:fixed_bone_fortified_ring",
+/** @type {string} */
+i_fixed_bone_infused_ring: "zoomers_armory:fixed_bone_infused_ring",
+/** @type {string} */
+i_fixed_bone_mana_necklace: "zoomers_armory:fixed_bone_mana_necklace",
+/** @type {string} */
+i_fixed_bone_dexterity_necklace: "zoomers_armory:fixed_bone_dexterity_necklace",
+/** @type {string} */
+i_fixed_bone_sharpshooter_necklace: "zoomers_armory:fixed_bone_sharpshooter_necklace",
+/** @type {string} */
+i_fixed_bone_berserker_necklace: "zoomers_armory:fixed_bone_berserker_necklace",
+/** @type {string} */
+i_fixed_bone_fortified_necklace: "zoomers_armory:fixed_bone_fortified_necklace",
+/** @type {string} */
+i_fixed_bone_infused_necklace: "zoomers_armory:fixed_bone_infused_necklace",
+/** @type {string} */
+i_fixed_bone_mana_gloves: "zoomers_armory:fixed_bone_mana_gloves",
+/** @type {string} */
+i_fixed_bone_dexterity_gloves: "zoomers_armory:fixed_bone_dexterity_gloves",
+/** @type {string} */
+i_fixed_bone_sharpshooter_gloves: "zoomers_armory:fixed_bone_sharpshooter_gloves",
+/** @type {string} */
+i_fixed_bone_berserker_gloves: "zoomers_armory:fixed_bone_berserker_gloves",
+/** @type {string} */
+i_fixed_bone_fortified_gloves: "zoomers_armory:fixed_bone_fortified_gloves",
+/** @type {string} */
+i_fixed_bone_infused_gloves: "zoomers_armory:fixed_bone_infused_gloves",
+/** @type {string} */
+i_fusion_mana_ring: "zoomers_armory:fusion_mana_ring",
+/** @type {string} */
+i_fusion_dexterity_ring: "zoomers_armory:fusion_dexterity_ring",
+/** @type {string} */
+i_fusion_sharpshooter_ring: "zoomers_armory:fusion_sharpshooter_ring",
+/** @type {string} */
+i_fusion_berserker_ring: "zoomers_armory:fusion_berserker_ring",
+/** @type {string} */
+i_fusion_fortified_ring: "zoomers_armory:fusion_fortified_ring",
+/** @type {string} */
+i_fusion_infused_ring: "zoomers_armory:fusion_infused_ring",
+/** @type {string} */
+i_fusion_mana_necklace: "zoomers_armory:fusion_mana_necklace",
+/** @type {string} */
+i_fusion_dexterity_necklace: "zoomers_armory:fusion_dexterity_necklace",
+/** @type {string} */
+i_fusion_sharpshooter_necklace: "zoomers_armory:fusion_sharpshooter_necklace",
+/** @type {string} */
+i_fusion_berserker_necklace: "zoomers_armory:fusion_berserker_necklace",
+/** @type {string} */
+i_fusion_fortified_necklace: "zoomers_armory:fusion_fortified_necklace",
+/** @type {string} */
+i_fusion_infused_necklace: "zoomers_armory:fusion_infused_necklace",
+/** @type {string} */
+i_fusion_mana_gloves: "zoomers_armory:fusion_mana_gloves",
+/** @type {string} */
+i_fusion_dexterity_gloves: "zoomers_armory:fusion_dexterity_gloves",
+/** @type {string} */
+i_fusion_sharpshooter_gloves: "zoomers_armory:fusion_sharpshooter_gloves",
+/** @type {string} */
+i_fusion_berserker_gloves: "zoomers_armory:fusion_berserker_gloves",
+/** @type {string} */
+i_fusion_fortified_gloves: "zoomers_armory:fusion_fortified_gloves",
+/** @type {string} */
+i_fusion_infused_gloves: "zoomers_armory:fusion_infused_gloves",
+/** @type {string} */
+i_aberythe_mana_ring: "zoomers_armory:aberythe_mana_ring",
+/** @type {string} */
+i_aberythe_dexterity_ring: "zoomers_armory:aberythe_dexterity_ring",
+/** @type {string} */
+i_aberythe_sharpshooter_ring: "zoomers_armory:aberythe_sharpshooter_ring",
+/** @type {string} */
+i_aberythe_berserker_ring: "zoomers_armory:aberythe_berserker_ring",
+/** @type {string} */
+i_aberythe_fortified_ring: "zoomers_armory:aberythe_fortified_ring",
+/** @type {string} */
+i_aberythe_infused_ring: "zoomers_armory:aberythe_infused_ring",
+/** @type {string} */
+i_aberythe_mana_necklace: "zoomers_armory:aberythe_mana_necklace",
+/** @type {string} */
+i_aberythe_dexterity_necklace: "zoomers_armory:aberythe_dexterity_necklace",
+/** @type {string} */
+i_aberythe_sharpshooter_necklace: "zoomers_armory:aberythe_sharpshooter_necklace",
+/** @type {string} */
+i_aberythe_berserker_necklace: "zoomers_armory:aberythe_berserker_necklace",
+/** @type {string} */
+i_aberythe_fortified_necklace: "zoomers_armory:aberythe_fortified_necklace",
+/** @type {string} */
+i_aberythe_infused_necklace: "zoomers_armory:aberythe_infused_necklace",
+/** @type {string} */
+i_aberythe_mana_gloves: "zoomers_armory:aberythe_mana_gloves",
+/** @type {string} */
+i_aberythe_dexterity_gloves: "zoomers_armory:aberythe_dexterity_gloves",
+/** @type {string} */
+i_aberythe_sharpshooter_gloves: "zoomers_armory:aberythe_sharpshooter_gloves",
+/** @type {string} */
+i_aberythe_berserker_gloves: "zoomers_armory:aberythe_berserker_gloves",
+/** @type {string} */
+i_aberythe_fortified_gloves: "zoomers_armory:aberythe_fortified_gloves",
+/** @type {string} */
+i_aberythe_infused_gloves: "zoomers_armory:aberythe_infused_gloves",
+/** @type {string} */
+i_ignisithe_mana_ring: "zoomers_armory:ignisithe_mana_ring",
+/** @type {string} */
+i_ignisithe_dexterity_ring: "zoomers_armory:ignisithe_dexterity_ring",
+/** @type {string} */
+i_ignisithe_sharpshooter_ring: "zoomers_armory:ignisithe_sharpshooter_ring",
+/** @type {string} */
+i_ignisithe_berserker_ring: "zoomers_armory:ignisithe_berserker_ring",
+/** @type {string} */
+i_ignisithe_fortified_ring: "zoomers_armory:ignisithe_fortified_ring",
+/** @type {string} */
+i_ignisithe_infused_ring: "zoomers_armory:ignisithe_infused_ring",
+/** @type {string} */
+i_ignisithe_mana_necklace: "zoomers_armory:ignisithe_mana_necklace",
+/** @type {string} */
+i_ignisithe_dexterity_necklace: "zoomers_armory:ignisithe_dexterity_necklace",
+/** @type {string} */
+i_ignisithe_sharpshooter_necklace: "zoomers_armory:ignisithe_sharpshooter_necklace",
+/** @type {string} */
+i_ignisithe_berserker_necklace: "zoomers_armory:ignisithe_berserker_necklace",
+/** @type {string} */
+i_ignisithe_fortified_necklace: "zoomers_armory:ignisithe_fortified_necklace",
+/** @type {string} */
+i_ignisithe_infused_necklace: "zoomers_armory:ignisithe_infused_necklace",
+/** @type {string} */
+i_ignisithe_mana_gloves: "zoomers_armory:ignisithe_mana_gloves",
+/** @type {string} */
+i_ignisithe_dexterity_gloves: "zoomers_armory:ignisithe_dexterity_gloves",
+/** @type {string} */
+i_ignisithe_sharpshooter_gloves: "zoomers_armory:ignisithe_sharpshooter_gloves",
+/** @type {string} */
+i_ignisithe_berserker_gloves: "zoomers_armory:ignisithe_berserker_gloves",
+/** @type {string} */
+i_ignisithe_fortified_gloves: "zoomers_armory:ignisithe_fortified_gloves",
+/** @type {string} */
+i_ignisithe_infused_gloves: "zoomers_armory:ignisithe_infused_gloves",
+/** @type {string} */
+i_knight_mana_ring: "zoomers_armory:knight_mana_ring",
+/** @type {string} */
+i_knight_dexterity_ring: "zoomers_armory:knight_dexterity_ring",
+/** @type {string} */
+i_knight_sharpshooter_ring: "zoomers_armory:knight_sharpshooter_ring",
+/** @type {string} */
+i_knight_berserker_ring: "zoomers_armory:knight_berserker_ring",
+/** @type {string} */
+i_knight_fortified_ring: "zoomers_armory:knight_fortified_ring",
+/** @type {string} */
+i_knight_infused_ring: "zoomers_armory:knight_infused_ring",
+/** @type {string} */
+i_knight_mana_necklace: "zoomers_armory:knight_mana_necklace",
+/** @type {string} */
+i_knight_dexterity_necklace: "zoomers_armory:knight_dexterity_necklace",
+/** @type {string} */
+i_knight_sharpshooter_necklace: "zoomers_armory:knight_sharpshooter_necklace",
+/** @type {string} */
+i_knight_berserker_necklace: "zoomers_armory:knight_berserker_necklace",
+/** @type {string} */
+i_knight_fortified_necklace: "zoomers_armory:knight_fortified_necklace",
+/** @type {string} */
+i_knight_infused_necklace: "zoomers_armory:knight_infused_necklace",
+/** @type {string} */
+i_knight_mana_gloves: "zoomers_armory:knight_mana_gloves",
+/** @type {string} */
+i_knight_dexterity_gloves: "zoomers_armory:knight_dexterity_gloves",
+/** @type {string} */
+i_knight_sharpshooter_gloves: "zoomers_armory:knight_sharpshooter_gloves",
+/** @type {string} */
+i_knight_berserker_gloves: "zoomers_armory:knight_berserker_gloves",
+/** @type {string} */
+i_knight_fortified_gloves: "zoomers_armory:knight_fortified_gloves",
+/** @type {string} */
+i_knight_infused_gloves: "zoomers_armory:knight_infused_gloves",
+/** @type {string} */
+i_glacerythe_mana_ring: "zoomers_armory:glacerythe_mana_ring",
+/** @type {string} */
+i_glacerythe_dexterity_ring: "zoomers_armory:glacerythe_dexterity_ring",
+/** @type {string} */
+i_glacerythe_sharpshooter_ring: "zoomers_armory:glacerythe_sharpshooter_ring",
+/** @type {string} */
+i_glacerythe_berserker_ring: "zoomers_armory:glacerythe_berserker_ring",
+/** @type {string} */
+i_glacerythe_fortified_ring: "zoomers_armory:glacerythe_fortified_ring",
+/** @type {string} */
+i_glacerythe_infused_ring: "zoomers_armory:glacerythe_infused_ring",
+/** @type {string} */
+i_glacerythe_mana_necklace: "zoomers_armory:glacerythe_mana_necklace",
+/** @type {string} */
+i_glacerythe_dexterity_necklace: "zoomers_armory:glacerythe_dexterity_necklace",
+/** @type {string} */
+i_glacerythe_sharpshooter_necklace: "zoomers_armory:glacerythe_sharpshooter_necklace",
+/** @type {string} */
+i_glacerythe_berserker_necklace: "zoomers_armory:glacerythe_berserker_necklace",
+/** @type {string} */
+i_glacerythe_fortified_necklace: "zoomers_armory:glacerythe_fortified_necklace",
+/** @type {string} */
+i_glacerythe_infused_necklace: "zoomers_armory:glacerythe_infused_necklace",
+/** @type {string} */
+i_glacerythe_mana_gloves: "zoomers_armory:glacerythe_mana_gloves",
+/** @type {string} */
+i_glacerythe_dexterity_gloves: "zoomers_armory:glacerythe_dexterity_gloves",
+/** @type {string} */
+i_glacerythe_sharpshooter_gloves: "zoomers_armory:glacerythe_sharpshooter_gloves",
+/** @type {string} */
+i_glacerythe_berserker_gloves: "zoomers_armory:glacerythe_berserker_gloves",
+/** @type {string} */
+i_glacerythe_fortified_gloves: "zoomers_armory:glacerythe_fortified_gloves",
+/** @type {string} */
+i_glacerythe_infused_gloves: "zoomers_armory:glacerythe_infused_gloves",
+/** @type {string} */
+i_garnite_mana_ring: "zoomers_armory:garnite_mana_ring",
+/** @type {string} */
+i_garnite_dexterity_ring: "zoomers_armory:garnite_dexterity_ring",
+/** @type {string} */
+i_garnite_sharpshooter_ring: "zoomers_armory:garnite_sharpshooter_ring",
+/** @type {string} */
+i_garnite_berserker_ring: "zoomers_armory:garnite_berserker_ring",
+/** @type {string} */
+i_garnite_fortified_ring: "zoomers_armory:garnite_fortified_ring",
+/** @type {string} */
+i_garnite_infused_ring: "zoomers_armory:garnite_infused_ring",
+/** @type {string} */
+i_garnite_mana_necklace: "zoomers_armory:garnite_mana_necklace",
+/** @type {string} */
+i_garnite_dexterity_necklace: "zoomers_armory:garnite_dexterity_necklace",
+/** @type {string} */
+i_garnite_sharpshooter_necklace: "zoomers_armory:garnite_sharpshooter_necklace",
+/** @type {string} */
+i_garnite_berserker_necklace: "zoomers_armory:garnite_berserker_necklace",
+/** @type {string} */
+i_garnite_fortified_necklace: "zoomers_armory:garnite_fortified_necklace",
+/** @type {string} */
+i_garnite_infused_necklace: "zoomers_armory:garnite_infused_necklace",
+/** @type {string} */
+i_garnite_mana_gloves: "zoomers_armory:garnite_mana_gloves",
+/** @type {string} */
+i_garnite_dexterity_gloves: "zoomers_armory:garnite_dexterity_gloves",
+/** @type {string} */
+i_garnite_sharpshooter_gloves: "zoomers_armory:garnite_sharpshooter_gloves",
+/** @type {string} */
+i_garnite_berserker_gloves: "zoomers_armory:garnite_berserker_gloves",
+/** @type {string} */
+i_garnite_fortified_gloves: "zoomers_armory:garnite_fortified_gloves",
+/** @type {string} */
+i_garnite_infused_gloves: "zoomers_armory:garnite_infused_gloves",
+/** @type {string} */
+i_phantom_mana_ring: "zoomers_armory:phantom_mana_ring",
+/** @type {string} */
+i_phantom_dexterity_ring: "zoomers_armory:phantom_dexterity_ring",
+/** @type {string} */
+i_phantom_sharpshooter_ring: "zoomers_armory:phantom_sharpshooter_ring",
+/** @type {string} */
+i_phantom_berserker_ring: "zoomers_armory:phantom_berserker_ring",
+/** @type {string} */
+i_phantom_fortified_ring: "zoomers_armory:phantom_fortified_ring",
+/** @type {string} */
+i_phantom_infused_ring: "zoomers_armory:phantom_infused_ring",
+/** @type {string} */
+i_phantom_mana_necklace: "zoomers_armory:phantom_mana_necklace",
+/** @type {string} */
+i_phantom_dexterity_necklace: "zoomers_armory:phantom_dexterity_necklace",
+/** @type {string} */
+i_phantom_sharpshooter_necklace: "zoomers_armory:phantom_sharpshooter_necklace",
+/** @type {string} */
+i_phantom_berserker_necklace: "zoomers_armory:phantom_berserker_necklace",
+/** @type {string} */
+i_phantom_fortified_necklace: "zoomers_armory:phantom_fortified_necklace",
+/** @type {string} */
+i_phantom_infused_necklace: "zoomers_armory:phantom_infused_necklace",
+/** @type {string} */
+i_phantom_mana_gloves: "zoomers_armory:phantom_mana_gloves",
+/** @type {string} */
+i_phantom_dexterity_gloves: "zoomers_armory:phantom_dexterity_gloves",
+/** @type {string} */
+i_phantom_sharpshooter_gloves: "zoomers_armory:phantom_sharpshooter_gloves",
+/** @type {string} */
+i_phantom_berserker_gloves: "zoomers_armory:phantom_berserker_gloves",
+/** @type {string} */
+i_phantom_fortified_gloves: "zoomers_armory:phantom_fortified_gloves",
+/** @type {string} */
+i_phantom_infused_gloves: "zoomers_armory:phantom_infused_gloves",
+/** @type {string} */
+i_unorithe_mana_ring: "zoomers_armory:unorithe_mana_ring",
+/** @type {string} */
+i_unorithe_dexterity_ring: "zoomers_armory:unorithe_dexterity_ring",
+/** @type {string} */
+i_unorithe_sharpshooter_ring: "zoomers_armory:unorithe_sharpshooter_ring",
+/** @type {string} */
+i_unorithe_berserker_ring: "zoomers_armory:unorithe_berserker_ring",
+/** @type {string} */
+i_unorithe_fortified_ring: "zoomers_armory:unorithe_fortified_ring",
+/** @type {string} */
+i_unorithe_infused_ring: "zoomers_armory:unorithe_infused_ring",
+/** @type {string} */
+i_unorithe_mana_necklace: "zoomers_armory:unorithe_mana_necklace",
+/** @type {string} */
+i_unorithe_dexterity_necklace: "zoomers_armory:unorithe_dexterity_necklace",
+/** @type {string} */
+i_unorithe_sharpshooter_necklace: "zoomers_armory:unorithe_sharpshooter_necklace",
+/** @type {string} */
+i_unorithe_berserker_necklace: "zoomers_armory:unorithe_berserker_necklace",
+/** @type {string} */
+i_unorithe_fortified_necklace: "zoomers_armory:unorithe_fortified_necklace",
+/** @type {string} */
+i_unorithe_infused_necklace: "zoomers_armory:unorithe_infused_necklace",
+/** @type {string} */
+i_unorithe_mana_gloves: "zoomers_armory:unorithe_mana_gloves",
+/** @type {string} */
+i_unorithe_dexterity_gloves: "zoomers_armory:unorithe_dexterity_gloves",
+/** @type {string} */
+i_unorithe_sharpshooter_gloves: "zoomers_armory:unorithe_sharpshooter_gloves",
+/** @type {string} */
+i_unorithe_berserker_gloves: "zoomers_armory:unorithe_berserker_gloves",
+/** @type {string} */
+i_unorithe_fortified_gloves: "zoomers_armory:unorithe_fortified_gloves",
+/** @type {string} */
+i_unorithe_infused_gloves: "zoomers_armory:unorithe_infused_gloves",
+/** @type {string} */
+i_incorythe_mana_ring: "zoomers_armory:incorythe_mana_ring",
+/** @type {string} */
+i_incorythe_dexterity_ring: "zoomers_armory:incorythe_dexterity_ring",
+/** @type {string} */
+i_incorythe_sharpshooter_ring: "zoomers_armory:incorythe_sharpshooter_ring",
+/** @type {string} */
+i_incorythe_berserker_ring: "zoomers_armory:incorythe_berserker_ring",
+/** @type {string} */
+i_incorythe_fortified_ring: "zoomers_armory:incorythe_fortified_ring",
+/** @type {string} */
+i_incorythe_infused_ring: "zoomers_armory:incorythe_infused_ring",
+/** @type {string} */
+i_incorythe_mana_necklace: "zoomers_armory:incorythe_mana_necklace",
+/** @type {string} */
+i_incorythe_dexterity_necklace: "zoomers_armory:incorythe_dexterity_necklace",
+/** @type {string} */
+i_incorythe_sharpshooter_necklace: "zoomers_armory:incorythe_sharpshooter_necklace",
+/** @type {string} */
+i_incorythe_berserker_necklace: "zoomers_armory:incorythe_berserker_necklace",
+/** @type {string} */
+i_incorythe_fortified_necklace: "zoomers_armory:incorythe_fortified_necklace",
+/** @type {string} */
+i_incorythe_infused_necklace: "zoomers_armory:incorythe_infused_necklace",
+/** @type {string} */
+i_incorythe_mana_gloves: "zoomers_armory:incorythe_mana_gloves",
+/** @type {string} */
+i_incorythe_dexterity_gloves: "zoomers_armory:incorythe_dexterity_gloves",
+/** @type {string} */
+i_incorythe_sharpshooter_gloves: "zoomers_armory:incorythe_sharpshooter_gloves",
+/** @type {string} */
+i_incorythe_berserker_gloves: "zoomers_armory:incorythe_berserker_gloves",
+/** @type {string} */
+i_incorythe_fortified_gloves: "zoomers_armory:incorythe_fortified_gloves",
+/** @type {string} */
+i_incorythe_infused_gloves: "zoomers_armory:incorythe_infused_gloves",
 
 };
 
@@ -5104,26 +13066,6 @@ i_dynamic_spawner: "structure_gel:dynamic_spawner",
  * @readonly
  * @enum {string}
  */
-const item_solapplepie = {
-    /** @type {string} */
-i_food_book: "solapplepie:food_book",
-/** @type {string} */
-i_lunchbox: "solapplepie:lunchbox",
-/** @type {string} */
-i_lunchbag: "solapplepie:lunchbag",
-/** @type {string} */
-i_golden_lunchbox: "solapplepie:golden_lunchbox",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
 const item_handcrafted = {
     /** @type {string} */
 i_hammer: "handcrafted:hammer",
@@ -5734,15 +13676,81 @@ i_mining_bench: "morevillagers:mining_bench",
  * @readonly
  * @enum {string}
  */
-const item_zoomers_extended_apotheosis = {
+const item_fantasy_armor = {
     /** @type {string} */
-i_artisanal_reforging_table: "zoomers_extended_apotheosis:artisanal_reforging_table",
+i_moon_crystal: "fantasy_armor:moon_crystal",
 /** @type {string} */
-i_enhanced_reforging_table: "zoomers_extended_apotheosis:enhanced_reforging_table",
+i_eclipse_soldier_helmet: "fantasy_armor:eclipse_soldier_helmet",
 /** @type {string} */
-i_ultimate_reforging_table: "zoomers_extended_apotheosis:ultimate_reforging_table",
+i_eclipse_soldier_chestplate: "fantasy_armor:eclipse_soldier_chestplate",
 /** @type {string} */
-i_god_reforging_table: "zoomers_extended_apotheosis:god_reforging_table",
+i_eclipse_soldier_leggings: "fantasy_armor:eclipse_soldier_leggings",
+/** @type {string} */
+i_eclipse_soldier_boots: "fantasy_armor:eclipse_soldier_boots",
+/** @type {string} */
+i_dragonslayer_helmet: "fantasy_armor:dragonslayer_helmet",
+/** @type {string} */
+i_dragonslayer_chestplate: "fantasy_armor:dragonslayer_chestplate",
+/** @type {string} */
+i_dragonslayer_leggings: "fantasy_armor:dragonslayer_leggings",
+/** @type {string} */
+i_dragonslayer_boots: "fantasy_armor:dragonslayer_boots",
+/** @type {string} */
+i_hero_helmet: "fantasy_armor:hero_helmet",
+/** @type {string} */
+i_hero_chestplate: "fantasy_armor:hero_chestplate",
+/** @type {string} */
+i_hero_leggings: "fantasy_armor:hero_leggings",
+/** @type {string} */
+i_hero_boots: "fantasy_armor:hero_boots",
+/** @type {string} */
+i_golden_horns_helmet: "fantasy_armor:golden_horns_helmet",
+/** @type {string} */
+i_golden_horns_chestplate: "fantasy_armor:golden_horns_chestplate",
+/** @type {string} */
+i_golden_horns_leggings: "fantasy_armor:golden_horns_leggings",
+/** @type {string} */
+i_golden_horns_boots: "fantasy_armor:golden_horns_boots",
+/** @type {string} */
+i_thief_helmet: "fantasy_armor:thief_helmet",
+/** @type {string} */
+i_thief_chestplate: "fantasy_armor:thief_chestplate",
+/** @type {string} */
+i_thief_leggings: "fantasy_armor:thief_leggings",
+/** @type {string} */
+i_thief_boots: "fantasy_armor:thief_boots",
+/** @type {string} */
+i_wandering_wizard_helmet: "fantasy_armor:wandering_wizard_helmet",
+/** @type {string} */
+i_wandering_wizard_chestplate: "fantasy_armor:wandering_wizard_chestplate",
+/** @type {string} */
+i_wandering_wizard_leggings: "fantasy_armor:wandering_wizard_leggings",
+/** @type {string} */
+i_wandering_wizard_boots: "fantasy_armor:wandering_wizard_boots",
+/** @type {string} */
+i_chess_board_knight_helmet: "fantasy_armor:chess_board_knight_helmet",
+/** @type {string} */
+i_chess_board_knight_chestplate: "fantasy_armor:chess_board_knight_chestplate",
+/** @type {string} */
+i_chess_board_knight_leggings: "fantasy_armor:chess_board_knight_leggings",
+/** @type {string} */
+i_chess_board_knight_boots: "fantasy_armor:chess_board_knight_boots",
+/** @type {string} */
+i_dark_lord_helmet: "fantasy_armor:dark_lord_helmet",
+/** @type {string} */
+i_dark_lord_chestplate: "fantasy_armor:dark_lord_chestplate",
+/** @type {string} */
+i_dark_lord_leggings: "fantasy_armor:dark_lord_leggings",
+/** @type {string} */
+i_dark_lord_boots: "fantasy_armor:dark_lord_boots",
+/** @type {string} */
+i_sunset_wings_helmet: "fantasy_armor:sunset_wings_helmet",
+/** @type {string} */
+i_sunset_wings_chestplate: "fantasy_armor:sunset_wings_chestplate",
+/** @type {string} */
+i_sunset_wings_leggings: "fantasy_armor:sunset_wings_leggings",
+/** @type {string} */
+i_sunset_wings_boots: "fantasy_armor:sunset_wings_boots",
 
 };
 
@@ -5759,208 +13767,6 @@ const item_toms_trading_network = {
 i_vending_machine: "toms_trading_network:vending_machine",
 /** @type {string} */
 i_tag_filter: "toms_trading_network:tag_filter",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
-const item_tombstone = {
-    /** @type {string} */
-i_decorative_grave_simple: "tombstone:decorative_grave_simple",
-/** @type {string} */
-i_decorative_grave_normal: "tombstone:decorative_grave_normal",
-/** @type {string} */
-i_decorative_grave_cross: "tombstone:decorative_grave_cross",
-/** @type {string} */
-i_decorative_tombstone: "tombstone:decorative_tombstone",
-/** @type {string} */
-i_decorative_subaraki_grave: "tombstone:decorative_subaraki_grave",
-/** @type {string} */
-i_decorative_grave_original: "tombstone:decorative_grave_original",
-/** @type {string} */
-i_dark_marble: "tombstone:dark_marble",
-/** @type {string} */
-i_white_marble: "tombstone:white_marble",
-/** @type {string} */
-i_blue_marble: "tombstone:blue_marble",
-/** @type {string} */
-i_green_marble: "tombstone:green_marble",
-/** @type {string} */
-i_carmin_marble: "tombstone:carmin_marble",
-/** @type {string} */
-i_dark_marble_slab: "tombstone:dark_marble_slab",
-/** @type {string} */
-i_white_marble_slab: "tombstone:white_marble_slab",
-/** @type {string} */
-i_blue_marble_slab: "tombstone:blue_marble_slab",
-/** @type {string} */
-i_green_marble_slab: "tombstone:green_marble_slab",
-/** @type {string} */
-i_carmin_marble_slab: "tombstone:carmin_marble_slab",
-/** @type {string} */
-i_dark_marble_stairs: "tombstone:dark_marble_stairs",
-/** @type {string} */
-i_white_marble_stairs: "tombstone:white_marble_stairs",
-/** @type {string} */
-i_blue_marble_stairs: "tombstone:blue_marble_stairs",
-/** @type {string} */
-i_green_marble_stairs: "tombstone:green_marble_stairs",
-/** @type {string} */
-i_carmin_marble_stairs: "tombstone:carmin_marble_stairs",
-/** @type {string} */
-i_dark_marble_wall: "tombstone:dark_marble_wall",
-/** @type {string} */
-i_white_marble_wall: "tombstone:white_marble_wall",
-/** @type {string} */
-i_blue_marble_wall: "tombstone:blue_marble_wall",
-/** @type {string} */
-i_green_marble_wall: "tombstone:green_marble_wall",
-/** @type {string} */
-i_carmin_marble_wall: "tombstone:carmin_marble_wall",
-/** @type {string} */
-i_grave_key: "tombstone:grave_key",
-/** @type {string} */
-i_grave_plate: "tombstone:grave_plate",
-/** @type {string} */
-i_ankh_of_pray: "tombstone:ankh_of_pray",
-/** @type {string} */
-i_fishing_rod_of_misadventure: "tombstone:fishing_rod_of_misadventure",
-/** @type {string} */
-i_grave_dust: "tombstone:grave_dust",
-/** @type {string} */
-i_essence_of_undeath: "tombstone:essence_of_undeath",
-/** @type {string} */
-i_impregnated_diamond: "tombstone:impregnated_diamond",
-/** @type {string} */
-i_bone_needle: "tombstone:bone_needle",
-/** @type {string} */
-i_strange_scroll: "tombstone:strange_scroll",
-/** @type {string} */
-i_strange_tablet: "tombstone:strange_tablet",
-/** @type {string} */
-i_tablet_of_recall: "tombstone:tablet_of_recall",
-/** @type {string} */
-i_tablet_of_home: "tombstone:tablet_of_home",
-/** @type {string} */
-i_tablet_of_assistance: "tombstone:tablet_of_assistance",
-/** @type {string} */
-i_tablet_of_cupidity: "tombstone:tablet_of_cupidity",
-/** @type {string} */
-i_tablet_of_guard: "tombstone:tablet_of_guard",
-/** @type {string} */
-i_lost_tablet: "tombstone:lost_tablet",
-/** @type {string} */
-i_scroll_of_knowledge: "tombstone:scroll_of_knowledge",
-/** @type {string} */
-i_dust_of_vanishing: "tombstone:dust_of_vanishing",
-/** @type {string} */
-i_dust_of_frost: "tombstone:dust_of_frost",
-/** @type {string} */
-i_book_of_disenchantment: "tombstone:book_of_disenchantment",
-/** @type {string} */
-i_book_of_recycling: "tombstone:book_of_recycling",
-/** @type {string} */
-i_book_of_repairing: "tombstone:book_of_repairing",
-/** @type {string} */
-i_book_of_scribe: "tombstone:book_of_scribe",
-/** @type {string} */
-i_book_of_magic_impregnation: "tombstone:book_of_magic_impregnation",
-/** @type {string} */
-i_voodoo_poppet: "tombstone:voodoo_poppet",
-/** @type {string} */
-i_familiar_receptacle: "tombstone:familiar_receptacle",
-/** @type {string} */
-i_soul_receptacle: "tombstone:soul_receptacle",
-/** @type {string} */
-i_lollipop: "tombstone:lollipop",
-/** @type {string} */
-i_easter_egg: "tombstone:easter_egg",
-/** @type {string} */
-i_easter_egg_food: "tombstone:easter_egg_food",
-/** @type {string} */
-i_gift: "tombstone:gift",
-/** @type {string} */
-i_bag_of_seeds: "tombstone:bag_of_seeds",
-/** @type {string} */
-i_christmas_gift: "tombstone:christmas_gift",
-/** @type {string} */
-i_villager_gift: "tombstone:villager_gift",
-/** @type {string} */
-i_seeker_rod: "tombstone:seeker_rod",
-/** @type {string} */
-i_christmas_hat: "tombstone:christmas_hat",
-/** @type {string} */
-i_rabbit_mask: "tombstone:rabbit_mask",
-/** @type {string} */
-i_smoke_ball: "tombstone:smoke_ball",
-/** @type {string} */
-i_magic_scroll: "tombstone:magic_scroll",
-/** @type {string} */
-i_familiar_stone: "tombstone:familiar_stone",
-/** @type {string} */
-i_merchant_stone: "tombstone:merchant_stone",
-/** @type {string} */
-i_prayer_stone: "tombstone:prayer_stone",
-/** @type {string} */
-i_guardian_stone: "tombstone:guardian_stone",
-/** @type {string} */
-i_scroll_of_preservation: "tombstone:scroll_of_preservation",
-/** @type {string} */
-i_scroll_of_unstable_intangibility: "tombstone:scroll_of_unstable_intangibility",
-/** @type {string} */
-i_scroll_of_feather_fall: "tombstone:scroll_of_feather_fall",
-/** @type {string} */
-i_scroll_of_purification: "tombstone:scroll_of_purification",
-/** @type {string} */
-i_scroll_of_true_sight: "tombstone:scroll_of_true_sight",
-/** @type {string} */
-i_scroll_of_reach: "tombstone:scroll_of_reach",
-/** @type {string} */
-i_scroll_of_lightning_resistance: "tombstone:scroll_of_lightning_resistance",
-/** @type {string} */
-i_scroll_of_frost_resistance: "tombstone:scroll_of_frost_resistance",
-/** @type {string} */
-i_scroll_of_aquatic_life: "tombstone:scroll_of_aquatic_life",
-/** @type {string} */
-i_scroll_of_mercy: "tombstone:scroll_of_mercy",
-/** @type {string} */
-i_advancement_0: "tombstone:advancement_0",
-/** @type {string} */
-i_advancement_1: "tombstone:advancement_1",
-/** @type {string} */
-i_advancement_2: "tombstone:advancement_2",
-/** @type {string} */
-i_advancement_3: "tombstone:advancement_3",
-/** @type {string} */
-i_advancement_4: "tombstone:advancement_4",
-/** @type {string} */
-i_advancement_5: "tombstone:advancement_5",
-/** @type {string} */
-i_advancement_6: "tombstone:advancement_6",
-/** @type {string} */
-i_advancement_7: "tombstone:advancement_7",
-/** @type {string} */
-i_advancement_8: "tombstone:advancement_8",
-/** @type {string} */
-i_advancement_9: "tombstone:advancement_9",
-/** @type {string} */
-i_advancement_10: "tombstone:advancement_10",
-/** @type {string} */
-i_advancement_11: "tombstone:advancement_11",
-/** @type {string} */
-i_advancement_12: "tombstone:advancement_12",
-/** @type {string} */
-i_advancement_13: "tombstone:advancement_13",
-/** @type {string} */
-i_advancement_14: "tombstone:advancement_14",
-/** @type {string} */
-i_advancement_15: "tombstone:advancement_15",
 
 };
 
@@ -7548,6 +15354,22 @@ i_fancy_trapdoors: "domum_ornamentum:fancy_trapdoors",
  * @readonly
  * @enum {string}
  */
+const item_gravestone = {
+    /** @type {string} */
+i_gravestone: "gravestone:gravestone",
+/** @type {string} */
+i_obituary: "gravestone:obituary",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const item_structurize = {
     /** @type {string} */
 i_sceptergold: "structurize:sceptergold",
@@ -8066,78 +15888,6 @@ i_mimic_plate: "mimic:mimic_plate",
  * @readonly
  * @enum {string}
  */
-const item_zoomer_bows = {
-    /** @type {string} */
-i_iron_bow: "zoomer_bows:iron_bow",
-/** @type {string} */
-i_pyrope_bow: "zoomer_bows:pyrope_bow",
-/** @type {string} */
-i_aquite_bow: "zoomer_bows:aquite_bow",
-/** @type {string} */
-i_diopside_bow: "zoomer_bows:diopside_bow",
-/** @type {string} */
-i_diamond_bow: "zoomer_bows:diamond_bow",
-/** @type {string} */
-i_charoite_bow: "zoomer_bows:charoite_bow",
-/** @type {string} */
-i_horizonite_bow: "zoomer_bows:horizonite_bow",
-/** @type {string} */
-i_zanite_bow: "zoomer_bows:zanite_bow",
-/** @type {string} */
-i_gravitite_bow: "zoomer_bows:gravitite_bow",
-/** @type {string} */
-i_valkyrie_bow: "zoomer_bows:valkyrie_bow",
-/** @type {string} */
-i_cincinnasite_bow: "zoomer_bows:cincinnasite_bow",
-/** @type {string} */
-i_cincinnasite_diamond_bow: "zoomer_bows:cincinnasite_diamond_bow",
-/** @type {string} */
-i_nether_ruby_bow: "zoomer_bows:nether_ruby_bow",
-/** @type {string} */
-i_fire_ruby_bow: "zoomer_bows:fire_ruby_bow",
-/** @type {string} */
-i_netherite_bow: "zoomer_bows:netherite_bow",
-/** @type {string} */
-i_cloggrum_bow: "zoomer_bows:cloggrum_bow",
-/** @type {string} */
-i_froststeel_bow: "zoomer_bows:froststeel_bow",
-/** @type {string} */
-i_utherium_bow: "zoomer_bows:utherium_bow",
-/** @type {string} */
-i_forgotten_bow: "zoomer_bows:forgotten_bow",
-/** @type {string} */
-i_aeternium_bow: "zoomer_bows:aeternium_bow",
-/** @type {string} */
-i_thallasium_bow: "zoomer_bows:thallasium_bow",
-/** @type {string} */
-i_terminite_bow: "zoomer_bows:terminite_bow",
-/** @type {string} */
-i_bone_bow: "zoomer_bows:bone_bow",
-/** @type {string} */
-i_garnite_bow: "zoomer_bows:garnite_bow",
-/** @type {string} */
-i_ignisithe_bow: "zoomer_bows:ignisithe_bow",
-/** @type {string} */
-i_fusion_bow: "zoomer_bows:fusion_bow",
-/** @type {string} */
-i_aberythe_bow: "zoomer_bows:aberythe_bow",
-/** @type {string} */
-i_unorithe_bow: "zoomer_bows:unorithe_bow",
-/** @type {string} */
-i_phantom_bow: "zoomer_bows:phantom_bow",
-/** @type {string} */
-i_incorythe_bow: "zoomer_bows:incorythe_bow",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
 const item_sophisticatedbackpacks = {
     /** @type {string} */
 i_backpack: "sophisticatedbackpacks:backpack",
@@ -8237,6 +15987,36 @@ i_xp_pump_upgrade: "sophisticatedbackpacks:xp_pump_upgrade",
 i_anvil_upgrade: "sophisticatedbackpacks:anvil_upgrade",
 /** @type {string} */
 i_upgrade_base: "sophisticatedbackpacks:upgrade_base",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const item_ze_apotheosis = {
+    /** @type {string} */
+i_artisanal_reforging_table: "ze_apotheosis:artisanal_reforging_table",
+/** @type {string} */
+i_enhanced_reforging_table: "ze_apotheosis:enhanced_reforging_table",
+/** @type {string} */
+i_ultimate_reforging_table: "ze_apotheosis:ultimate_reforging_table",
+/** @type {string} */
+i_god_reforging_table: "ze_apotheosis:god_reforging_table",
+/** @type {string} */
+i_radiant_material: "ze_apotheosis:radiant_material",
+/** @type {string} */
+i_celestial_material: "ze_apotheosis:celestial_material",
+/** @type {string} */
+i_angelic_material: "ze_apotheosis:angelic_material",
+/** @type {string} */
+i_godly_material: "ze_apotheosis:godly_material",
+/** @type {string} */
+i_ender_dragon_wing: "ze_apotheosis:ender_dragon_wing",
 
 };
 
@@ -8965,6 +16745,76 @@ i_elevator_green: "elevatorid:elevator_green",
 i_elevator_red: "elevatorid:elevator_red",
 /** @type {string} */
 i_elevator_black: "elevatorid:elevator_black",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const item_aether_protect_your_moa = {
+    /** @type {string} */
+i_leather_moa_armor: "aether_protect_your_moa:leather_moa_armor",
+/** @type {string} */
+i_iron_moa_armor: "aether_protect_your_moa:iron_moa_armor",
+/** @type {string} */
+i_golden_moa_armor: "aether_protect_your_moa:golden_moa_armor",
+/** @type {string} */
+i_diamond_moa_armor: "aether_protect_your_moa:diamond_moa_armor",
+/** @type {string} */
+i_zanite_moa_armor: "aether_protect_your_moa:zanite_moa_armor",
+/** @type {string} */
+i_gravitite_moa_armor: "aether_protect_your_moa:gravitite_moa_armor",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const item_nether_armory = {
+    /** @type {string} */
+i_core_ingot: "nether_armory:core_ingot",
+/** @type {string} */
+i_infernal_gladiator_armor_helmet: "nether_armory:infernal_gladiator_armor_helmet",
+/** @type {string} */
+i_infernal_gladiator_armor_chestplate: "nether_armory:infernal_gladiator_armor_chestplate",
+/** @type {string} */
+i_infernal_gladiator_armor_leggings: "nether_armory:infernal_gladiator_armor_leggings",
+/** @type {string} */
+i_infernal_gladiator_armor_boots: "nether_armory:infernal_gladiator_armor_boots",
+/** @type {string} */
+i_warped_fungus_armor_helmet: "nether_armory:warped_fungus_armor_helmet",
+/** @type {string} */
+i_warped_fungus_armor_chestplate: "nether_armory:warped_fungus_armor_chestplate",
+/** @type {string} */
+i_warped_fungus_armor_leggings: "nether_armory:warped_fungus_armor_leggings",
+/** @type {string} */
+i_warped_fungus_armor_boots: "nether_armory:warped_fungus_armor_boots",
+/** @type {string} */
+i_crimson_fungus_armor_helmet: "nether_armory:crimson_fungus_armor_helmet",
+/** @type {string} */
+i_crimson_fungus_armor_chestplate: "nether_armory:crimson_fungus_armor_chestplate",
+/** @type {string} */
+i_crimson_fungus_armor_leggings: "nether_armory:crimson_fungus_armor_leggings",
+/** @type {string} */
+i_crimson_fungus_armor_boots: "nether_armory:crimson_fungus_armor_boots",
+/** @type {string} */
+i_obsidian_armor_helmet: "nether_armory:obsidian_armor_helmet",
+/** @type {string} */
+i_obsidian_armor_chestplate: "nether_armory:obsidian_armor_chestplate",
+/** @type {string} */
+i_obsidian_armor_leggings: "nether_armory:obsidian_armor_leggings",
+/** @type {string} */
+i_obsidian_armor_boots: "nether_armory:obsidian_armor_boots",
 
 };
 
@@ -10060,6 +17910,94 @@ i_corrupted_shield: "endermanoverhaul:corrupted_shield",
  * @readonly
  * @enum {string}
  */
+const item_armoroftheages = {
+    /** @type {string} */
+i_armoroftheages: "armoroftheages:armoroftheages",
+/** @type {string} */
+i_bamboo_hat: "armoroftheages:bamboo_hat",
+/** @type {string} */
+i_anubis_armor_head: "armoroftheages:anubis_armor_head",
+/** @type {string} */
+i_anubis_armor_chest: "armoroftheages:anubis_armor_chest",
+/** @type {string} */
+i_anubis_armor_legs: "armoroftheages:anubis_armor_legs",
+/** @type {string} */
+i_anubis_armor_feet: "armoroftheages:anubis_armor_feet",
+/** @type {string} */
+i_centurion_armor_head: "armoroftheages:centurion_armor_head",
+/** @type {string} */
+i_centurion_armor_chest: "armoroftheages:centurion_armor_chest",
+/** @type {string} */
+i_centurion_armor_legs: "armoroftheages:centurion_armor_legs",
+/** @type {string} */
+i_centurion_armor_feet: "armoroftheages:centurion_armor_feet",
+/** @type {string} */
+i_holy_armor_head: "armoroftheages:holy_armor_head",
+/** @type {string} */
+i_holy_armor_chest: "armoroftheages:holy_armor_chest",
+/** @type {string} */
+i_holy_armor_legs: "armoroftheages:holy_armor_legs",
+/** @type {string} */
+i_holy_armor_feet: "armoroftheages:holy_armor_feet",
+/** @type {string} */
+i_iron_plate_armor_head: "armoroftheages:iron_plate_armor_head",
+/** @type {string} */
+i_iron_plate_armor_chest: "armoroftheages:iron_plate_armor_chest",
+/** @type {string} */
+i_iron_plate_armor_legs: "armoroftheages:iron_plate_armor_legs",
+/** @type {string} */
+i_iron_plate_armor_feet: "armoroftheages:iron_plate_armor_feet",
+/** @type {string} */
+i_japanese_light_armor_head: "armoroftheages:japanese_light_armor_head",
+/** @type {string} */
+i_japanese_light_armor_chest: "armoroftheages:japanese_light_armor_chest",
+/** @type {string} */
+i_japanese_light_armor_legs: "armoroftheages:japanese_light_armor_legs",
+/** @type {string} */
+i_japanese_light_armor_feet: "armoroftheages:japanese_light_armor_feet",
+/** @type {string} */
+i_o_yoroi_armor_head: "armoroftheages:o_yoroi_armor_head",
+/** @type {string} */
+i_o_yoroi_armor_chest: "armoroftheages:o_yoroi_armor_chest",
+/** @type {string} */
+i_o_yoroi_armor_legs: "armoroftheages:o_yoroi_armor_legs",
+/** @type {string} */
+i_o_yoroi_armor_feet: "armoroftheages:o_yoroi_armor_feet",
+/** @type {string} */
+i_pharaoh_armor_head: "armoroftheages:pharaoh_armor_head",
+/** @type {string} */
+i_pharaoh_armor_chest: "armoroftheages:pharaoh_armor_chest",
+/** @type {string} */
+i_pharaoh_armor_legs: "armoroftheages:pharaoh_armor_legs",
+/** @type {string} */
+i_pharaoh_armor_feet: "armoroftheages:pharaoh_armor_feet",
+/** @type {string} */
+i_quetzalcoatl_armor_head: "armoroftheages:quetzalcoatl_armor_head",
+/** @type {string} */
+i_quetzalcoatl_armor_chest: "armoroftheages:quetzalcoatl_armor_chest",
+/** @type {string} */
+i_quetzalcoatl_armor_legs: "armoroftheages:quetzalcoatl_armor_legs",
+/** @type {string} */
+i_quetzalcoatl_armor_feet: "armoroftheages:quetzalcoatl_armor_feet",
+/** @type {string} */
+i_raijin_armor_head: "armoroftheages:raijin_armor_head",
+/** @type {string} */
+i_raijin_armor_chest: "armoroftheages:raijin_armor_chest",
+/** @type {string} */
+i_raijin_armor_legs: "armoroftheages:raijin_armor_legs",
+/** @type {string} */
+i_raijin_armor_feet: "armoroftheages:raijin_armor_feet",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const item_minecolonies = {
     /** @type {string} */
 i_scroll_tp: "minecolonies:scroll_tp",
@@ -10171,6 +18109,68 @@ i_sifter_mesh_diamond: "minecolonies:sifter_mesh_diamond",
 i_magicpotion: "minecolonies:magicpotion",
 /** @type {string} */
 i_build_goggles: "minecolonies:build_goggles",
+/** @type {string} */
+i_butter: "minecolonies:butter",
+/** @type {string} */
+i_cabochis: "minecolonies:cabochis",
+/** @type {string} */
+i_cheddar_cheese: "minecolonies:cheddar_cheese",
+/** @type {string} */
+i_congee: "minecolonies:congee",
+/** @type {string} */
+i_cooked_rice: "minecolonies:cooked_rice",
+/** @type {string} */
+i_eggplant_dolma: "minecolonies:eggplant_dolma",
+/** @type {string} */
+i_feta_cheese: "minecolonies:feta_cheese",
+/** @type {string} */
+i_flatbread: "minecolonies:flatbread",
+/** @type {string} */
+i_hand_pie: "minecolonies:hand_pie",
+/** @type {string} */
+i_lamb_stew: "minecolonies:lamb_stew",
+/** @type {string} */
+i_lembas_scone: "minecolonies:lembas_scone",
+/** @type {string} */
+i_manchet_bread: "minecolonies:manchet_bread",
+/** @type {string} */
+i_manchet_dough: "minecolonies:manchet_dough",
+/** @type {string} */
+i_muffin: "minecolonies:muffin",
+/** @type {string} */
+i_muffin_dough: "minecolonies:muffin_dough",
+/** @type {string} */
+i_pasta_plain: "minecolonies:pasta_plain",
+/** @type {string} */
+i_pasta_tomato: "minecolonies:pasta_tomato",
+/** @type {string} */
+i_pepper_hummus: "minecolonies:pepper_hummus",
+/** @type {string} */
+i_pita_hummus: "minecolonies:pita_hummus",
+/** @type {string} */
+i_pottage: "minecolonies:pottage",
+/** @type {string} */
+i_raw_noodle: "minecolonies:raw_noodle",
+/** @type {string} */
+i_rice_ball: "minecolonies:rice_ball",
+/** @type {string} */
+i_stew_trencher: "minecolonies:stew_trencher",
+/** @type {string} */
+i_stuffed_pepper: "minecolonies:stuffed_pepper",
+/** @type {string} */
+i_stuffed_pita: "minecolonies:stuffed_pita",
+/** @type {string} */
+i_sushi_roll: "minecolonies:sushi_roll",
+/** @type {string} */
+i_tofu: "minecolonies:tofu",
+/** @type {string} */
+i_large_empty_bottle: "minecolonies:large_empty_bottle",
+/** @type {string} */
+i_large_water_bottle: "minecolonies:large_water_bottle",
+/** @type {string} */
+i_large_milk_bottle: "minecolonies:large_milk_bottle",
+/** @type {string} */
+i_large_soy_milk_bottle: "minecolonies:large_soy_milk_bottle",
 /** @type {string} */
 i_barbarianegg: "minecolonies:barbarianegg",
 /** @type {string} */
@@ -10302,6 +18302,8 @@ i_blockhutnetherworker: "minecolonies:blockhutnetherworker",
 /** @type {string} */
 i_blockhutalchemist: "minecolonies:blockhutalchemist",
 /** @type {string} */
+i_blockhutkitchen: "minecolonies:blockhutkitchen",
+/** @type {string} */
 i_blockconstructiontape: "minecolonies:blockconstructiontape",
 /** @type {string} */
 i_blockminecoloniesrack: "minecolonies:blockminecoloniesrack",
@@ -10321,6 +18323,30 @@ i_blockstash: "minecolonies:blockstash",
 i_decorationcontroller: "minecolonies:decorationcontroller",
 /** @type {string} */
 i_composted_dirt: "minecolonies:composted_dirt",
+/** @type {string} */
+i_farmland: "minecolonies:farmland",
+/** @type {string} */
+i_floodedfarmland: "minecolonies:floodedfarmland",
+/** @type {string} */
+i_bell_pepper: "minecolonies:bell_pepper",
+/** @type {string} */
+i_cabbage: "minecolonies:cabbage",
+/** @type {string} */
+i_chickpea: "minecolonies:chickpea",
+/** @type {string} */
+i_durum: "minecolonies:durum",
+/** @type {string} */
+i_eggplant: "minecolonies:eggplant",
+/** @type {string} */
+i_garlic: "minecolonies:garlic",
+/** @type {string} */
+i_onion: "minecolonies:onion",
+/** @type {string} */
+i_soybean: "minecolonies:soybean",
+/** @type {string} */
+i_tomato: "minecolonies:tomato",
+/** @type {string} */
+i_rice: "minecolonies:rice",
 /** @type {string} */
 i_simplequarry: "minecolonies:simplequarry",
 /** @type {string} */
@@ -10812,6 +18838,8 @@ i_permafrost_shard: "irons_spellbooks:permafrost_shard",
 /** @type {string} */
 i_energized_core: "irons_spellbooks:energized_core",
 /** @type {string} */
+i_weapon_parts: "irons_spellbooks:weapon_parts",
+/** @type {string} */
 i_inscription_table: "irons_spellbooks:inscription_table",
 /** @type {string} */
 i_arcane_anvil: "irons_spellbooks:arcane_anvil",
@@ -10966,453 +18994,101 @@ i_priest_spawn_egg: "irons_spellbooks:priest_spawn_egg",
 /** @type {string} */
 i_apothecarist_spawn_egg: "irons_spellbooks:apothecarist_spawn_egg",
 /** @type {string} */
-i_pyromancer_tier_2_helmet: "irons_spellbooks:pyromancer_tier_2_helmet",
+i_specialized_blood_spell_book: "irons_spellbooks:specialized_blood_spell_book",
 /** @type {string} */
-i_pyromancer_tier_2_chestplate: "irons_spellbooks:pyromancer_tier_2_chestplate",
+i_improved_blood_spell_book: "irons_spellbooks:improved_blood_spell_book",
 /** @type {string} */
-i_pyromancer_tier_2_leggings: "irons_spellbooks:pyromancer_tier_2_leggings",
+i_enchanted_blood_spell_book: "irons_spellbooks:enchanted_blood_spell_book",
 /** @type {string} */
-i_pyromancer_tier_2_boots: "irons_spellbooks:pyromancer_tier_2_boots",
+i_merlin_blood_spell_book: "irons_spellbooks:merlin_blood_spell_book",
 /** @type {string} */
-i_cryomancer_tier_2_helmet: "irons_spellbooks:cryomancer_tier_2_helmet",
+i_ancient_blood_spell_book: "irons_spellbooks:ancient_blood_spell_book",
 /** @type {string} */
-i_cryomancer_tier_2_chestplate: "irons_spellbooks:cryomancer_tier_2_chestplate",
+i_legendary_blood_spell_book: "irons_spellbooks:legendary_blood_spell_book",
 /** @type {string} */
-i_cryomancer_tier_2_leggings: "irons_spellbooks:cryomancer_tier_2_leggings",
+i_specialized_ender_spell_book: "irons_spellbooks:specialized_ender_spell_book",
 /** @type {string} */
-i_cryomancer_tier_2_boots: "irons_spellbooks:cryomancer_tier_2_boots",
+i_improved_ender_spell_book: "irons_spellbooks:improved_ender_spell_book",
 /** @type {string} */
-i_electromancer_tier_2_helmet: "irons_spellbooks:electromancer_tier_2_helmet",
+i_enchanted_ender_spell_book: "irons_spellbooks:enchanted_ender_spell_book",
 /** @type {string} */
-i_electromancer_tier_2_chestplate: "irons_spellbooks:electromancer_tier_2_chestplate",
+i_merlin_ender_spell_book: "irons_spellbooks:merlin_ender_spell_book",
 /** @type {string} */
-i_electromancer_tier_2_leggings: "irons_spellbooks:electromancer_tier_2_leggings",
+i_ancient_ender_spell_book: "irons_spellbooks:ancient_ender_spell_book",
 /** @type {string} */
-i_electromancer_tier_2_boots: "irons_spellbooks:electromancer_tier_2_boots",
+i_legendary_ender_spell_book: "irons_spellbooks:legendary_ender_spell_book",
 /** @type {string} */
-i_archevoker_tier_2_helmet: "irons_spellbooks:archevoker_tier_2_helmet",
+i_specialized_evocation_spell_book: "irons_spellbooks:specialized_evocation_spell_book",
 /** @type {string} */
-i_archevoker_tier_2_chestplate: "irons_spellbooks:archevoker_tier_2_chestplate",
+i_improved_evocation_spell_book: "irons_spellbooks:improved_evocation_spell_book",
 /** @type {string} */
-i_archevoker_tier_2_leggings: "irons_spellbooks:archevoker_tier_2_leggings",
+i_enchanted_evocation_spell_book: "irons_spellbooks:enchanted_evocation_spell_book",
 /** @type {string} */
-i_archevoker_tier_2_boots: "irons_spellbooks:archevoker_tier_2_boots",
+i_merlin_evocation_spell_book: "irons_spellbooks:merlin_evocation_spell_book",
 /** @type {string} */
-i_cultist_tier_2_helmet: "irons_spellbooks:cultist_tier_2_helmet",
+i_ancient_evocation_spell_book: "irons_spellbooks:ancient_evocation_spell_book",
 /** @type {string} */
-i_cultist_tier_2_chestplate: "irons_spellbooks:cultist_tier_2_chestplate",
+i_legendary_evocation_spell_book: "irons_spellbooks:legendary_evocation_spell_book",
 /** @type {string} */
-i_cultist_tier_2_leggings: "irons_spellbooks:cultist_tier_2_leggings",
+i_specialized_fire_spell_book: "irons_spellbooks:specialized_fire_spell_book",
 /** @type {string} */
-i_cultist_tier_2_boots: "irons_spellbooks:cultist_tier_2_boots",
+i_improved_fire_spell_book: "irons_spellbooks:improved_fire_spell_book",
 /** @type {string} */
-i_shadowwalker_tier_2_helmet: "irons_spellbooks:shadowwalker_tier_2_helmet",
+i_enchanted_fire_spell_book: "irons_spellbooks:enchanted_fire_spell_book",
 /** @type {string} */
-i_shadowwalker_tier_2_chestplate: "irons_spellbooks:shadowwalker_tier_2_chestplate",
+i_merlin_fire_spell_book: "irons_spellbooks:merlin_fire_spell_book",
 /** @type {string} */
-i_shadowwalker_tier_2_leggings: "irons_spellbooks:shadowwalker_tier_2_leggings",
+i_ancient_fire_spell_book: "irons_spellbooks:ancient_fire_spell_book",
 /** @type {string} */
-i_shadowwalker_tier_2_boots: "irons_spellbooks:shadowwalker_tier_2_boots",
+i_legendary_fire_spell_book: "irons_spellbooks:legendary_fire_spell_book",
 /** @type {string} */
-i_priest_tier_2_helmet: "irons_spellbooks:priest_tier_2_helmet",
+i_specialized_holy_spell_book: "irons_spellbooks:specialized_holy_spell_book",
 /** @type {string} */
-i_priest_tier_2_chestplate: "irons_spellbooks:priest_tier_2_chestplate",
+i_improved_holy_spell_book: "irons_spellbooks:improved_holy_spell_book",
 /** @type {string} */
-i_priest_tier_2_leggings: "irons_spellbooks:priest_tier_2_leggings",
+i_enchanted_holy_spell_book: "irons_spellbooks:enchanted_holy_spell_book",
 /** @type {string} */
-i_priest_tier_2_boots: "irons_spellbooks:priest_tier_2_boots",
+i_merlin_holy_spell_book: "irons_spellbooks:merlin_holy_spell_book",
 /** @type {string} */
-i_plagued_tier_2_helmet: "irons_spellbooks:plagued_tier_2_helmet",
+i_ancient_holy_spell_book: "irons_spellbooks:ancient_holy_spell_book",
 /** @type {string} */
-i_plagued_tier_2_chestplate: "irons_spellbooks:plagued_tier_2_chestplate",
+i_legendary_holy_spell_book: "irons_spellbooks:legendary_holy_spell_book",
 /** @type {string} */
-i_plagued_tier_2_leggings: "irons_spellbooks:plagued_tier_2_leggings",
+i_specialized_ice_spell_book: "irons_spellbooks:specialized_ice_spell_book",
 /** @type {string} */
-i_plagued_tier_2_boots: "irons_spellbooks:plagued_tier_2_boots",
+i_improved_ice_spell_book: "irons_spellbooks:improved_ice_spell_book",
 /** @type {string} */
-i_pyromancer_tier_3_helmet: "irons_spellbooks:pyromancer_tier_3_helmet",
+i_enchanted_ice_spell_book: "irons_spellbooks:enchanted_ice_spell_book",
 /** @type {string} */
-i_pyromancer_tier_3_chestplate: "irons_spellbooks:pyromancer_tier_3_chestplate",
+i_merlin_ice_spell_book: "irons_spellbooks:merlin_ice_spell_book",
 /** @type {string} */
-i_pyromancer_tier_3_leggings: "irons_spellbooks:pyromancer_tier_3_leggings",
+i_ancient_ice_spell_book: "irons_spellbooks:ancient_ice_spell_book",
 /** @type {string} */
-i_pyromancer_tier_3_boots: "irons_spellbooks:pyromancer_tier_3_boots",
+i_legendary_ice_spell_book: "irons_spellbooks:legendary_ice_spell_book",
 /** @type {string} */
-i_cryomancer_tier_3_helmet: "irons_spellbooks:cryomancer_tier_3_helmet",
+i_specialized_lightning_spell_book: "irons_spellbooks:specialized_lightning_spell_book",
 /** @type {string} */
-i_cryomancer_tier_3_chestplate: "irons_spellbooks:cryomancer_tier_3_chestplate",
+i_improved_lightning_spell_book: "irons_spellbooks:improved_lightning_spell_book",
 /** @type {string} */
-i_cryomancer_tier_3_leggings: "irons_spellbooks:cryomancer_tier_3_leggings",
+i_enchanted_lightning_spell_book: "irons_spellbooks:enchanted_lightning_spell_book",
 /** @type {string} */
-i_cryomancer_tier_3_boots: "irons_spellbooks:cryomancer_tier_3_boots",
+i_merlin_lightning_spell_book: "irons_spellbooks:merlin_lightning_spell_book",
 /** @type {string} */
-i_electromancer_tier_3_helmet: "irons_spellbooks:electromancer_tier_3_helmet",
+i_ancient_lightning_spell_book: "irons_spellbooks:ancient_lightning_spell_book",
 /** @type {string} */
-i_electromancer_tier_3_chestplate: "irons_spellbooks:electromancer_tier_3_chestplate",
+i_legendary_lightning_spell_book: "irons_spellbooks:legendary_lightning_spell_book",
 /** @type {string} */
-i_electromancer_tier_3_leggings: "irons_spellbooks:electromancer_tier_3_leggings",
+i_specialized_nature_spell_book: "irons_spellbooks:specialized_nature_spell_book",
 /** @type {string} */
-i_electromancer_tier_3_boots: "irons_spellbooks:electromancer_tier_3_boots",
+i_improved_nature_spell_book: "irons_spellbooks:improved_nature_spell_book",
 /** @type {string} */
-i_archevoker_tier_3_helmet: "irons_spellbooks:archevoker_tier_3_helmet",
+i_enchanted_nature_spell_book: "irons_spellbooks:enchanted_nature_spell_book",
 /** @type {string} */
-i_archevoker_tier_3_chestplate: "irons_spellbooks:archevoker_tier_3_chestplate",
+i_merlin_nature_spell_book: "irons_spellbooks:merlin_nature_spell_book",
 /** @type {string} */
-i_archevoker_tier_3_leggings: "irons_spellbooks:archevoker_tier_3_leggings",
+i_ancient_nature_spell_book: "irons_spellbooks:ancient_nature_spell_book",
 /** @type {string} */
-i_archevoker_tier_3_boots: "irons_spellbooks:archevoker_tier_3_boots",
-/** @type {string} */
-i_cultist_tier_3_helmet: "irons_spellbooks:cultist_tier_3_helmet",
-/** @type {string} */
-i_cultist_tier_3_chestplate: "irons_spellbooks:cultist_tier_3_chestplate",
-/** @type {string} */
-i_cultist_tier_3_leggings: "irons_spellbooks:cultist_tier_3_leggings",
-/** @type {string} */
-i_cultist_tier_3_boots: "irons_spellbooks:cultist_tier_3_boots",
-/** @type {string} */
-i_shadowwalker_tier_3_helmet: "irons_spellbooks:shadowwalker_tier_3_helmet",
-/** @type {string} */
-i_shadowwalker_tier_3_chestplate: "irons_spellbooks:shadowwalker_tier_3_chestplate",
-/** @type {string} */
-i_shadowwalker_tier_3_leggings: "irons_spellbooks:shadowwalker_tier_3_leggings",
-/** @type {string} */
-i_shadowwalker_tier_3_boots: "irons_spellbooks:shadowwalker_tier_3_boots",
-/** @type {string} */
-i_priest_tier_3_helmet: "irons_spellbooks:priest_tier_3_helmet",
-/** @type {string} */
-i_priest_tier_3_chestplate: "irons_spellbooks:priest_tier_3_chestplate",
-/** @type {string} */
-i_priest_tier_3_leggings: "irons_spellbooks:priest_tier_3_leggings",
-/** @type {string} */
-i_priest_tier_3_boots: "irons_spellbooks:priest_tier_3_boots",
-/** @type {string} */
-i_plagued_tier_3_helmet: "irons_spellbooks:plagued_tier_3_helmet",
-/** @type {string} */
-i_plagued_tier_3_chestplate: "irons_spellbooks:plagued_tier_3_chestplate",
-/** @type {string} */
-i_plagued_tier_3_leggings: "irons_spellbooks:plagued_tier_3_leggings",
-/** @type {string} */
-i_plagued_tier_3_boots: "irons_spellbooks:plagued_tier_3_boots",
-/** @type {string} */
-i_pyromancer_tier_4_helmet: "irons_spellbooks:pyromancer_tier_4_helmet",
-/** @type {string} */
-i_pyromancer_tier_4_chestplate: "irons_spellbooks:pyromancer_tier_4_chestplate",
-/** @type {string} */
-i_pyromancer_tier_4_leggings: "irons_spellbooks:pyromancer_tier_4_leggings",
-/** @type {string} */
-i_pyromancer_tier_4_boots: "irons_spellbooks:pyromancer_tier_4_boots",
-/** @type {string} */
-i_cryomancer_tier_4_helmet: "irons_spellbooks:cryomancer_tier_4_helmet",
-/** @type {string} */
-i_cryomancer_tier_4_chestplate: "irons_spellbooks:cryomancer_tier_4_chestplate",
-/** @type {string} */
-i_cryomancer_tier_4_leggings: "irons_spellbooks:cryomancer_tier_4_leggings",
-/** @type {string} */
-i_cryomancer_tier_4_boots: "irons_spellbooks:cryomancer_tier_4_boots",
-/** @type {string} */
-i_electromancer_tier_4_helmet: "irons_spellbooks:electromancer_tier_4_helmet",
-/** @type {string} */
-i_electromancer_tier_4_chestplate: "irons_spellbooks:electromancer_tier_4_chestplate",
-/** @type {string} */
-i_electromancer_tier_4_leggings: "irons_spellbooks:electromancer_tier_4_leggings",
-/** @type {string} */
-i_electromancer_tier_4_boots: "irons_spellbooks:electromancer_tier_4_boots",
-/** @type {string} */
-i_archevoker_tier_4_helmet: "irons_spellbooks:archevoker_tier_4_helmet",
-/** @type {string} */
-i_archevoker_tier_4_chestplate: "irons_spellbooks:archevoker_tier_4_chestplate",
-/** @type {string} */
-i_archevoker_tier_4_leggings: "irons_spellbooks:archevoker_tier_4_leggings",
-/** @type {string} */
-i_archevoker_tier_4_boots: "irons_spellbooks:archevoker_tier_4_boots",
-/** @type {string} */
-i_cultist_tier_4_helmet: "irons_spellbooks:cultist_tier_4_helmet",
-/** @type {string} */
-i_cultist_tier_4_chestplate: "irons_spellbooks:cultist_tier_4_chestplate",
-/** @type {string} */
-i_cultist_tier_4_leggings: "irons_spellbooks:cultist_tier_4_leggings",
-/** @type {string} */
-i_cultist_tier_4_boots: "irons_spellbooks:cultist_tier_4_boots",
-/** @type {string} */
-i_shadowwalker_tier_4_helmet: "irons_spellbooks:shadowwalker_tier_4_helmet",
-/** @type {string} */
-i_shadowwalker_tier_4_chestplate: "irons_spellbooks:shadowwalker_tier_4_chestplate",
-/** @type {string} */
-i_shadowwalker_tier_4_leggings: "irons_spellbooks:shadowwalker_tier_4_leggings",
-/** @type {string} */
-i_shadowwalker_tier_4_boots: "irons_spellbooks:shadowwalker_tier_4_boots",
-/** @type {string} */
-i_priest_tier_4_helmet: "irons_spellbooks:priest_tier_4_helmet",
-/** @type {string} */
-i_priest_tier_4_chestplate: "irons_spellbooks:priest_tier_4_chestplate",
-/** @type {string} */
-i_priest_tier_4_leggings: "irons_spellbooks:priest_tier_4_leggings",
-/** @type {string} */
-i_priest_tier_4_boots: "irons_spellbooks:priest_tier_4_boots",
-/** @type {string} */
-i_plagued_tier_4_helmet: "irons_spellbooks:plagued_tier_4_helmet",
-/** @type {string} */
-i_plagued_tier_4_chestplate: "irons_spellbooks:plagued_tier_4_chestplate",
-/** @type {string} */
-i_plagued_tier_4_leggings: "irons_spellbooks:plagued_tier_4_leggings",
-/** @type {string} */
-i_plagued_tier_4_boots: "irons_spellbooks:plagued_tier_4_boots",
-/** @type {string} */
-i_pyromancer_tier_5_helmet: "irons_spellbooks:pyromancer_tier_5_helmet",
-/** @type {string} */
-i_pyromancer_tier_5_chestplate: "irons_spellbooks:pyromancer_tier_5_chestplate",
-/** @type {string} */
-i_pyromancer_tier_5_leggings: "irons_spellbooks:pyromancer_tier_5_leggings",
-/** @type {string} */
-i_pyromancer_tier_5_boots: "irons_spellbooks:pyromancer_tier_5_boots",
-/** @type {string} */
-i_cryomancer_tier_5_helmet: "irons_spellbooks:cryomancer_tier_5_helmet",
-/** @type {string} */
-i_cryomancer_tier_5_chestplate: "irons_spellbooks:cryomancer_tier_5_chestplate",
-/** @type {string} */
-i_cryomancer_tier_5_leggings: "irons_spellbooks:cryomancer_tier_5_leggings",
-/** @type {string} */
-i_cryomancer_tier_5_boots: "irons_spellbooks:cryomancer_tier_5_boots",
-/** @type {string} */
-i_electromancer_tier_5_helmet: "irons_spellbooks:electromancer_tier_5_helmet",
-/** @type {string} */
-i_electromancer_tier_5_chestplate: "irons_spellbooks:electromancer_tier_5_chestplate",
-/** @type {string} */
-i_electromancer_tier_5_leggings: "irons_spellbooks:electromancer_tier_5_leggings",
-/** @type {string} */
-i_electromancer_tier_5_boots: "irons_spellbooks:electromancer_tier_5_boots",
-/** @type {string} */
-i_archevoker_tier_5_helmet: "irons_spellbooks:archevoker_tier_5_helmet",
-/** @type {string} */
-i_archevoker_tier_5_chestplate: "irons_spellbooks:archevoker_tier_5_chestplate",
-/** @type {string} */
-i_archevoker_tier_5_leggings: "irons_spellbooks:archevoker_tier_5_leggings",
-/** @type {string} */
-i_archevoker_tier_5_boots: "irons_spellbooks:archevoker_tier_5_boots",
-/** @type {string} */
-i_cultist_tier_5_helmet: "irons_spellbooks:cultist_tier_5_helmet",
-/** @type {string} */
-i_cultist_tier_5_chestplate: "irons_spellbooks:cultist_tier_5_chestplate",
-/** @type {string} */
-i_cultist_tier_5_leggings: "irons_spellbooks:cultist_tier_5_leggings",
-/** @type {string} */
-i_cultist_tier_5_boots: "irons_spellbooks:cultist_tier_5_boots",
-/** @type {string} */
-i_shadowwalker_tier_5_helmet: "irons_spellbooks:shadowwalker_tier_5_helmet",
-/** @type {string} */
-i_shadowwalker_tier_5_chestplate: "irons_spellbooks:shadowwalker_tier_5_chestplate",
-/** @type {string} */
-i_shadowwalker_tier_5_leggings: "irons_spellbooks:shadowwalker_tier_5_leggings",
-/** @type {string} */
-i_shadowwalker_tier_5_boots: "irons_spellbooks:shadowwalker_tier_5_boots",
-/** @type {string} */
-i_priest_tier_5_helmet: "irons_spellbooks:priest_tier_5_helmet",
-/** @type {string} */
-i_priest_tier_5_chestplate: "irons_spellbooks:priest_tier_5_chestplate",
-/** @type {string} */
-i_priest_tier_5_leggings: "irons_spellbooks:priest_tier_5_leggings",
-/** @type {string} */
-i_priest_tier_5_boots: "irons_spellbooks:priest_tier_5_boots",
-/** @type {string} */
-i_plagued_tier_5_helmet: "irons_spellbooks:plagued_tier_5_helmet",
-/** @type {string} */
-i_plagued_tier_5_chestplate: "irons_spellbooks:plagued_tier_5_chestplate",
-/** @type {string} */
-i_plagued_tier_5_leggings: "irons_spellbooks:plagued_tier_5_leggings",
-/** @type {string} */
-i_plagued_tier_5_boots: "irons_spellbooks:plagued_tier_5_boots",
-/** @type {string} */
-i_pyromancer_tier_6_helmet: "irons_spellbooks:pyromancer_tier_6_helmet",
-/** @type {string} */
-i_pyromancer_tier_6_chestplate: "irons_spellbooks:pyromancer_tier_6_chestplate",
-/** @type {string} */
-i_pyromancer_tier_6_leggings: "irons_spellbooks:pyromancer_tier_6_leggings",
-/** @type {string} */
-i_pyromancer_tier_6_boots: "irons_spellbooks:pyromancer_tier_6_boots",
-/** @type {string} */
-i_cryomancer_tier_6_helmet: "irons_spellbooks:cryomancer_tier_6_helmet",
-/** @type {string} */
-i_cryomancer_tier_6_chestplate: "irons_spellbooks:cryomancer_tier_6_chestplate",
-/** @type {string} */
-i_cryomancer_tier_6_leggings: "irons_spellbooks:cryomancer_tier_6_leggings",
-/** @type {string} */
-i_cryomancer_tier_6_boots: "irons_spellbooks:cryomancer_tier_6_boots",
-/** @type {string} */
-i_electromancer_tier_6_helmet: "irons_spellbooks:electromancer_tier_6_helmet",
-/** @type {string} */
-i_electromancer_tier_6_chestplate: "irons_spellbooks:electromancer_tier_6_chestplate",
-/** @type {string} */
-i_electromancer_tier_6_leggings: "irons_spellbooks:electromancer_tier_6_leggings",
-/** @type {string} */
-i_electromancer_tier_6_boots: "irons_spellbooks:electromancer_tier_6_boots",
-/** @type {string} */
-i_archevoker_tier_6_helmet: "irons_spellbooks:archevoker_tier_6_helmet",
-/** @type {string} */
-i_archevoker_tier_6_chestplate: "irons_spellbooks:archevoker_tier_6_chestplate",
-/** @type {string} */
-i_archevoker_tier_6_leggings: "irons_spellbooks:archevoker_tier_6_leggings",
-/** @type {string} */
-i_archevoker_tier_6_boots: "irons_spellbooks:archevoker_tier_6_boots",
-/** @type {string} */
-i_cultist_tier_6_helmet: "irons_spellbooks:cultist_tier_6_helmet",
-/** @type {string} */
-i_cultist_tier_6_chestplate: "irons_spellbooks:cultist_tier_6_chestplate",
-/** @type {string} */
-i_cultist_tier_6_leggings: "irons_spellbooks:cultist_tier_6_leggings",
-/** @type {string} */
-i_cultist_tier_6_boots: "irons_spellbooks:cultist_tier_6_boots",
-/** @type {string} */
-i_shadowwalker_tier_6_helmet: "irons_spellbooks:shadowwalker_tier_6_helmet",
-/** @type {string} */
-i_shadowwalker_tier_6_chestplate: "irons_spellbooks:shadowwalker_tier_6_chestplate",
-/** @type {string} */
-i_shadowwalker_tier_6_leggings: "irons_spellbooks:shadowwalker_tier_6_leggings",
-/** @type {string} */
-i_shadowwalker_tier_6_boots: "irons_spellbooks:shadowwalker_tier_6_boots",
-/** @type {string} */
-i_priest_tier_6_helmet: "irons_spellbooks:priest_tier_6_helmet",
-/** @type {string} */
-i_priest_tier_6_chestplate: "irons_spellbooks:priest_tier_6_chestplate",
-/** @type {string} */
-i_priest_tier_6_leggings: "irons_spellbooks:priest_tier_6_leggings",
-/** @type {string} */
-i_priest_tier_6_boots: "irons_spellbooks:priest_tier_6_boots",
-/** @type {string} */
-i_plagued_tier_6_helmet: "irons_spellbooks:plagued_tier_6_helmet",
-/** @type {string} */
-i_plagued_tier_6_chestplate: "irons_spellbooks:plagued_tier_6_chestplate",
-/** @type {string} */
-i_plagued_tier_6_leggings: "irons_spellbooks:plagued_tier_6_leggings",
-/** @type {string} */
-i_plagued_tier_6_boots: "irons_spellbooks:plagued_tier_6_boots",
-/** @type {string} */
-i_pyromancer_tier_7_helmet: "irons_spellbooks:pyromancer_tier_7_helmet",
-/** @type {string} */
-i_pyromancer_tier_7_chestplate: "irons_spellbooks:pyromancer_tier_7_chestplate",
-/** @type {string} */
-i_pyromancer_tier_7_leggings: "irons_spellbooks:pyromancer_tier_7_leggings",
-/** @type {string} */
-i_pyromancer_tier_7_boots: "irons_spellbooks:pyromancer_tier_7_boots",
-/** @type {string} */
-i_cryomancer_tier_7_helmet: "irons_spellbooks:cryomancer_tier_7_helmet",
-/** @type {string} */
-i_cryomancer_tier_7_chestplate: "irons_spellbooks:cryomancer_tier_7_chestplate",
-/** @type {string} */
-i_cryomancer_tier_7_leggings: "irons_spellbooks:cryomancer_tier_7_leggings",
-/** @type {string} */
-i_cryomancer_tier_7_boots: "irons_spellbooks:cryomancer_tier_7_boots",
-/** @type {string} */
-i_electromancer_tier_7_helmet: "irons_spellbooks:electromancer_tier_7_helmet",
-/** @type {string} */
-i_electromancer_tier_7_chestplate: "irons_spellbooks:electromancer_tier_7_chestplate",
-/** @type {string} */
-i_electromancer_tier_7_leggings: "irons_spellbooks:electromancer_tier_7_leggings",
-/** @type {string} */
-i_electromancer_tier_7_boots: "irons_spellbooks:electromancer_tier_7_boots",
-/** @type {string} */
-i_archevoker_tier_7_helmet: "irons_spellbooks:archevoker_tier_7_helmet",
-/** @type {string} */
-i_archevoker_tier_7_chestplate: "irons_spellbooks:archevoker_tier_7_chestplate",
-/** @type {string} */
-i_archevoker_tier_7_leggings: "irons_spellbooks:archevoker_tier_7_leggings",
-/** @type {string} */
-i_archevoker_tier_7_boots: "irons_spellbooks:archevoker_tier_7_boots",
-/** @type {string} */
-i_cultist_tier_7_helmet: "irons_spellbooks:cultist_tier_7_helmet",
-/** @type {string} */
-i_cultist_tier_7_chestplate: "irons_spellbooks:cultist_tier_7_chestplate",
-/** @type {string} */
-i_cultist_tier_7_leggings: "irons_spellbooks:cultist_tier_7_leggings",
-/** @type {string} */
-i_cultist_tier_7_boots: "irons_spellbooks:cultist_tier_7_boots",
-/** @type {string} */
-i_shadowwalker_tier_7_helmet: "irons_spellbooks:shadowwalker_tier_7_helmet",
-/** @type {string} */
-i_shadowwalker_tier_7_chestplate: "irons_spellbooks:shadowwalker_tier_7_chestplate",
-/** @type {string} */
-i_shadowwalker_tier_7_leggings: "irons_spellbooks:shadowwalker_tier_7_leggings",
-/** @type {string} */
-i_shadowwalker_tier_7_boots: "irons_spellbooks:shadowwalker_tier_7_boots",
-/** @type {string} */
-i_priest_tier_7_helmet: "irons_spellbooks:priest_tier_7_helmet",
-/** @type {string} */
-i_priest_tier_7_chestplate: "irons_spellbooks:priest_tier_7_chestplate",
-/** @type {string} */
-i_priest_tier_7_leggings: "irons_spellbooks:priest_tier_7_leggings",
-/** @type {string} */
-i_priest_tier_7_boots: "irons_spellbooks:priest_tier_7_boots",
-/** @type {string} */
-i_plagued_tier_7_helmet: "irons_spellbooks:plagued_tier_7_helmet",
-/** @type {string} */
-i_plagued_tier_7_chestplate: "irons_spellbooks:plagued_tier_7_chestplate",
-/** @type {string} */
-i_plagued_tier_7_leggings: "irons_spellbooks:plagued_tier_7_leggings",
-/** @type {string} */
-i_plagued_tier_7_boots: "irons_spellbooks:plagued_tier_7_boots",
-/** @type {string} */
-i_pyromancer_tier_8_helmet: "irons_spellbooks:pyromancer_tier_8_helmet",
-/** @type {string} */
-i_pyromancer_tier_8_chestplate: "irons_spellbooks:pyromancer_tier_8_chestplate",
-/** @type {string} */
-i_pyromancer_tier_8_leggings: "irons_spellbooks:pyromancer_tier_8_leggings",
-/** @type {string} */
-i_pyromancer_tier_8_boots: "irons_spellbooks:pyromancer_tier_8_boots",
-/** @type {string} */
-i_cryomancer_tier_8_helmet: "irons_spellbooks:cryomancer_tier_8_helmet",
-/** @type {string} */
-i_cryomancer_tier_8_chestplate: "irons_spellbooks:cryomancer_tier_8_chestplate",
-/** @type {string} */
-i_cryomancer_tier_8_leggings: "irons_spellbooks:cryomancer_tier_8_leggings",
-/** @type {string} */
-i_cryomancer_tier_8_boots: "irons_spellbooks:cryomancer_tier_8_boots",
-/** @type {string} */
-i_electromancer_tier_8_helmet: "irons_spellbooks:electromancer_tier_8_helmet",
-/** @type {string} */
-i_electromancer_tier_8_chestplate: "irons_spellbooks:electromancer_tier_8_chestplate",
-/** @type {string} */
-i_electromancer_tier_8_leggings: "irons_spellbooks:electromancer_tier_8_leggings",
-/** @type {string} */
-i_electromancer_tier_8_boots: "irons_spellbooks:electromancer_tier_8_boots",
-/** @type {string} */
-i_archevoker_tier_8_helmet: "irons_spellbooks:archevoker_tier_8_helmet",
-/** @type {string} */
-i_archevoker_tier_8_chestplate: "irons_spellbooks:archevoker_tier_8_chestplate",
-/** @type {string} */
-i_archevoker_tier_8_leggings: "irons_spellbooks:archevoker_tier_8_leggings",
-/** @type {string} */
-i_archevoker_tier_8_boots: "irons_spellbooks:archevoker_tier_8_boots",
-/** @type {string} */
-i_cultist_tier_8_helmet: "irons_spellbooks:cultist_tier_8_helmet",
-/** @type {string} */
-i_cultist_tier_8_chestplate: "irons_spellbooks:cultist_tier_8_chestplate",
-/** @type {string} */
-i_cultist_tier_8_leggings: "irons_spellbooks:cultist_tier_8_leggings",
-/** @type {string} */
-i_cultist_tier_8_boots: "irons_spellbooks:cultist_tier_8_boots",
-/** @type {string} */
-i_shadowwalker_tier_8_helmet: "irons_spellbooks:shadowwalker_tier_8_helmet",
-/** @type {string} */
-i_shadowwalker_tier_8_chestplate: "irons_spellbooks:shadowwalker_tier_8_chestplate",
-/** @type {string} */
-i_shadowwalker_tier_8_leggings: "irons_spellbooks:shadowwalker_tier_8_leggings",
-/** @type {string} */
-i_shadowwalker_tier_8_boots: "irons_spellbooks:shadowwalker_tier_8_boots",
-/** @type {string} */
-i_priest_tier_8_helmet: "irons_spellbooks:priest_tier_8_helmet",
-/** @type {string} */
-i_priest_tier_8_chestplate: "irons_spellbooks:priest_tier_8_chestplate",
-/** @type {string} */
-i_priest_tier_8_leggings: "irons_spellbooks:priest_tier_8_leggings",
-/** @type {string} */
-i_priest_tier_8_boots: "irons_spellbooks:priest_tier_8_boots",
-/** @type {string} */
-i_plagued_tier_8_helmet: "irons_spellbooks:plagued_tier_8_helmet",
-/** @type {string} */
-i_plagued_tier_8_chestplate: "irons_spellbooks:plagued_tier_8_chestplate",
-/** @type {string} */
-i_plagued_tier_8_leggings: "irons_spellbooks:plagued_tier_8_leggings",
-/** @type {string} */
-i_plagued_tier_8_boots: "irons_spellbooks:plagued_tier_8_boots",
+i_legendary_nature_spell_book: "irons_spellbooks:legendary_nature_spell_book",
 
 };
 
@@ -14138,6 +21814,26 @@ i_multipistonblock: "multipiston:multipistonblock",
  * @readonly
  * @enum {string}
  */
+const item_solonion = {
+    /** @type {string} */
+i_food_book: "solonion:food_book",
+/** @type {string} */
+i_lunchbox: "solonion:lunchbox",
+/** @type {string} */
+i_lunchbag: "solonion:lunchbag",
+/** @type {string} */
+i_golden_lunchbox: "solonion:golden_lunchbox",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const item_packingtape = {
     /** @type {string} */
 i_packaged_block: "packingtape:packaged_block",
@@ -14193,6 +21889,86 @@ i_direwolf_spawn_egg: "mythicmounts:direwolf_spawn_egg",
 i_colelytra_spawn_egg: "mythicmounts:colelytra_spawn_egg",
 /** @type {string} */
 i_firebird_spawn_egg: "mythicmounts:firebird_spawn_egg",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const item_aetherdelight = {
+    /** @type {string} */
+i_holystone_knife: "aetherdelight:holystone_knife",
+/** @type {string} */
+i_zanite_knife: "aetherdelight:zanite_knife",
+/** @type {string} */
+i_gravitite_knife: "aetherdelight:gravitite_knife",
+/** @type {string} */
+i_bowl_of_blue_berries: "aetherdelight:bowl_of_blue_berries",
+/** @type {string} */
+i_bowl_of_enchanted_berries: "aetherdelight:bowl_of_enchanted_berries",
+/** @type {string} */
+i_festive_sweets: "aetherdelight:festive_sweets",
+/** @type {string} */
+i_bowl_of_ginger_cookies: "aetherdelight:bowl_of_ginger_cookies",
+/** @type {string} */
+i_sweet_and_sour_soup: "aetherdelight:sweet_and_sour_soup",
+/** @type {string} */
+i_swet_pudding: "aetherdelight:swet_pudding",
+/** @type {string} */
+i_ambrosia_dew: "aetherdelight:ambrosia_dew",
+/** @type {string} */
+i_ambrosia_glazed_apple: "aetherdelight:ambrosia_glazed_apple",
+/** @type {string} */
+i_aetherflower_tea: "aetherdelight:aetherflower_tea",
+/** @type {string} */
+i_swet_syrup: "aetherdelight:swet_syrup",
+/** @type {string} */
+i_aechor_petal_crate: "aetherdelight:aechor_petal_crate",
+/** @type {string} */
+i_blue_berry_crate: "aetherdelight:blue_berry_crate",
+/** @type {string} */
+i_enchanted_berry_crate: "aetherdelight:enchanted_berry_crate",
+/** @type {string} */
+i_white_apple_crate: "aetherdelight:white_apple_crate",
+/** @type {string} */
+i_skyjade_knife: "aetherdelight:skyjade_knife",
+/** @type {string} */
+i_stratus_knife: "aetherdelight:stratus_knife",
+/** @type {string} */
+i_raw_aerfillet: "aetherdelight:raw_aerfillet",
+/** @type {string} */
+i_cooked_aerfillet: "aetherdelight:cooked_aerfillet",
+/** @type {string} */
+i_quail_stew: "aetherdelight:quail_stew",
+/** @type {string} */
+i_goldenleaf_salad: "aetherdelight:goldenleaf_salad",
+/** @type {string} */
+i_goldenleaf_crate: "aetherdelight:goldenleaf_crate",
+/** @type {string} */
+i_veridium_knife: "aetherdelight:veridium_knife",
+/** @type {string} */
+i_blueberry_pie_slice: "aetherdelight:blueberry_pie_slice",
+/** @type {string} */
+i_enchanted_pie_slice: "aetherdelight:enchanted_pie_slice",
+/** @type {string} */
+i_oat_cookie: "aetherdelight:oat_cookie",
+/** @type {string} */
+i_strange_root_salad: "aetherdelight:strange_root_salad",
+/** @type {string} */
+i_luxbuds_salad: "aetherdelight:luxbuds_salad",
+/** @type {string} */
+i_aether_grass_bale: "aetherdelight:aether_grass_bale",
+/** @type {string} */
+i_quickroot_crate: "aetherdelight:quickroot_crate",
+/** @type {string} */
+i_lightroot_crate: "aetherdelight:lightroot_crate",
+/** @type {string} */
+i_chromaberry_crate: "aetherdelight:chromaberry_crate",
 
 };
 
@@ -17602,6 +25378,86 @@ i_silk_cocoon: "crittersandcompanions:silk_cocoon",
  */
 const item_aether = {
     /** @type {string} */
+i_leather_moa_armor: "aether_protect_your_moa:leather_moa_armor",
+/** @type {string} */
+i_iron_moa_armor: "aether_protect_your_moa:iron_moa_armor",
+/** @type {string} */
+i_golden_moa_armor: "aether_protect_your_moa:golden_moa_armor",
+/** @type {string} */
+i_diamond_moa_armor: "aether_protect_your_moa:diamond_moa_armor",
+/** @type {string} */
+i_zanite_moa_armor: "aether_protect_your_moa:zanite_moa_armor",
+/** @type {string} */
+i_gravitite_moa_armor: "aether_protect_your_moa:gravitite_moa_armor",
+/** @type {string} */
+i_holystone_knife: "aetherdelight:holystone_knife",
+/** @type {string} */
+i_zanite_knife: "aetherdelight:zanite_knife",
+/** @type {string} */
+i_gravitite_knife: "aetherdelight:gravitite_knife",
+/** @type {string} */
+i_bowl_of_blue_berries: "aetherdelight:bowl_of_blue_berries",
+/** @type {string} */
+i_bowl_of_enchanted_berries: "aetherdelight:bowl_of_enchanted_berries",
+/** @type {string} */
+i_festive_sweets: "aetherdelight:festive_sweets",
+/** @type {string} */
+i_bowl_of_ginger_cookies: "aetherdelight:bowl_of_ginger_cookies",
+/** @type {string} */
+i_sweet_and_sour_soup: "aetherdelight:sweet_and_sour_soup",
+/** @type {string} */
+i_swet_pudding: "aetherdelight:swet_pudding",
+/** @type {string} */
+i_ambrosia_dew: "aetherdelight:ambrosia_dew",
+/** @type {string} */
+i_ambrosia_glazed_apple: "aetherdelight:ambrosia_glazed_apple",
+/** @type {string} */
+i_aetherflower_tea: "aetherdelight:aetherflower_tea",
+/** @type {string} */
+i_swet_syrup: "aetherdelight:swet_syrup",
+/** @type {string} */
+i_aechor_petal_crate: "aetherdelight:aechor_petal_crate",
+/** @type {string} */
+i_blue_berry_crate: "aetherdelight:blue_berry_crate",
+/** @type {string} */
+i_enchanted_berry_crate: "aetherdelight:enchanted_berry_crate",
+/** @type {string} */
+i_white_apple_crate: "aetherdelight:white_apple_crate",
+/** @type {string} */
+i_skyjade_knife: "aetherdelight:skyjade_knife",
+/** @type {string} */
+i_stratus_knife: "aetherdelight:stratus_knife",
+/** @type {string} */
+i_raw_aerfillet: "aetherdelight:raw_aerfillet",
+/** @type {string} */
+i_cooked_aerfillet: "aetherdelight:cooked_aerfillet",
+/** @type {string} */
+i_quail_stew: "aetherdelight:quail_stew",
+/** @type {string} */
+i_goldenleaf_salad: "aetherdelight:goldenleaf_salad",
+/** @type {string} */
+i_goldenleaf_crate: "aetherdelight:goldenleaf_crate",
+/** @type {string} */
+i_veridium_knife: "aetherdelight:veridium_knife",
+/** @type {string} */
+i_blueberry_pie_slice: "aetherdelight:blueberry_pie_slice",
+/** @type {string} */
+i_enchanted_pie_slice: "aetherdelight:enchanted_pie_slice",
+/** @type {string} */
+i_oat_cookie: "aetherdelight:oat_cookie",
+/** @type {string} */
+i_strange_root_salad: "aetherdelight:strange_root_salad",
+/** @type {string} */
+i_luxbuds_salad: "aetherdelight:luxbuds_salad",
+/** @type {string} */
+i_aether_grass_bale: "aetherdelight:aether_grass_bale",
+/** @type {string} */
+i_quickroot_crate: "aetherdelight:quickroot_crate",
+/** @type {string} */
+i_lightroot_crate: "aetherdelight:lightroot_crate",
+/** @type {string} */
+i_chromaberry_crate: "aetherdelight:chromaberry_crate",
+/** @type {string} */
 i_skyroot_pickaxe: "aether:skyroot_pickaxe",
 /** @type {string} */
 i_skyroot_axe: "aether:skyroot_axe",
@@ -17839,6 +25695,10 @@ i_music_disc_ascending_dawn: "aether:music_disc_ascending_dawn",
 i_music_disc_chinchilla: "aether:music_disc_chinchilla",
 /** @type {string} */
 i_music_disc_high: "aether:music_disc_high",
+/** @type {string} */
+i_music_disc_klepto: "aether:music_disc_klepto",
+/** @type {string} */
+i_music_disc_sliders_wrath: "aether:music_disc_sliders_wrath",
 /** @type {string} */
 i_skyroot_bucket: "aether:skyroot_bucket",
 /** @type {string} */
@@ -18176,6 +26036,98 @@ i_skyroot_bed: "aether:skyroot_bed",
  * @readonly
  * @enum {string}
  */
+const item_lost_aether_content = {
+    /** @type {string} */
+i_orange_moa_egg: "lost_aether_content:orange_moa_egg",
+/** @type {string} */
+i_brown_moa_egg: "lost_aether_content:brown_moa_egg",
+/** @type {string} */
+i_phoenix_shovel: "lost_aether_content:phoenix_shovel",
+/** @type {string} */
+i_phoenix_pickaxe: "lost_aether_content:phoenix_pickaxe",
+/** @type {string} */
+i_phoenix_axe: "lost_aether_content:phoenix_axe",
+/** @type {string} */
+i_phoenix_sword: "lost_aether_content:phoenix_sword",
+/** @type {string} */
+i_phoenix_hoe: "lost_aether_content:phoenix_hoe",
+/** @type {string} */
+i_phoenix_cape: "lost_aether_content:phoenix_cape",
+/** @type {string} */
+i_sentry_shield: "lost_aether_content:sentry_shield",
+/** @type {string} */
+i_invincibility_gem: "lost_aether_content:invincibility_gem",
+/** @type {string} */
+i_power_gloves: "lost_aether_content:power_gloves",
+/** @type {string} */
+i_flaming_gemstone: "lost_aether_content:flaming_gemstone",
+/** @type {string} */
+i_swetty_mask: "lost_aether_content:swetty_mask",
+/** @type {string} */
+i_agility_boots: "lost_aether_content:agility_boots",
+/** @type {string} */
+i_zanite_shield: "lost_aether_content:zanite_shield",
+/** @type {string} */
+i_gravitite_shield: "lost_aether_content:gravitite_shield",
+/** @type {string} */
+i_shield_of_emile: "lost_aether_content:shield_of_emile",
+/** @type {string} */
+i_platinum_key: "lost_aether_content:platinum_key",
+/** @type {string} */
+i_music_disc_legacy: "lost_aether_content:music_disc_legacy",
+/** @type {string} */
+i_music_disc_sovereign_of_the_skies: "lost_aether_content:music_disc_sovereign_of_the_skies",
+/** @type {string} */
+i_noble_armor_trim_smithing_template: "lost_aether_content:noble_armor_trim_smithing_template",
+/** @type {string} */
+i_songstone: "lost_aether_content:songstone",
+/** @type {string} */
+i_gale_stone: "lost_aether_content:gale_stone",
+/** @type {string} */
+i_light_gale_stone: "lost_aether_content:light_gale_stone",
+/** @type {string} */
+i_gale_pillar: "lost_aether_content:gale_pillar",
+/** @type {string} */
+i_locked_gale_stone: "lost_aether_content:locked_gale_stone",
+/** @type {string} */
+i_locked_light_gale_stone: "lost_aether_content:locked_light_gale_stone",
+/** @type {string} */
+i_trapped_gale_stone: "lost_aether_content:trapped_gale_stone",
+/** @type {string} */
+i_trapped_light_gale_stone: "lost_aether_content:trapped_light_gale_stone",
+/** @type {string} */
+i_boss_doorway_gale_stone: "lost_aether_content:boss_doorway_gale_stone",
+/** @type {string} */
+i_boss_doorway_light_gale_stone: "lost_aether_content:boss_doorway_light_gale_stone",
+/** @type {string} */
+i_treasure_doorway_gale_stone: "lost_aether_content:treasure_doorway_gale_stone",
+/** @type {string} */
+i_treasure_doorway_light_gale_stone: "lost_aether_content:treasure_doorway_light_gale_stone",
+/** @type {string} */
+i_gale_slab: "lost_aether_content:gale_slab",
+/** @type {string} */
+i_gale_stairs: "lost_aether_content:gale_stairs",
+/** @type {string} */
+i_gale_wall: "lost_aether_content:gale_wall",
+/** @type {string} */
+i_crystal_sapling: "lost_aether_content:crystal_sapling",
+/** @type {string} */
+i_holiday_sapling: "lost_aether_content:holiday_sapling",
+/** @type {string} */
+i_pink_aercloud: "lost_aether_content:pink_aercloud",
+/** @type {string} */
+i_enchanted_pink_aercloud: "lost_aether_content:enchanted_pink_aercloud",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const item_naturalist = {
     /** @type {string} */
 i_azure_froglass: "naturalist:azure_froglass",
@@ -18367,6 +26319,8 @@ i_boiler: "immersive_aircraft:boiler",
 i_airship: "immersive_aircraft:airship",
 /** @type {string} */
 i_cargo_airship: "immersive_aircraft:cargo_airship",
+/** @type {string} */
+i_warship: "immersive_aircraft:warship",
 /** @type {string} */
 i_biplane: "immersive_aircraft:biplane",
 /** @type {string} */
@@ -18582,57 +26536,57 @@ i_track_phantom: "railways:track_phantom",
 /** @type {string} */
 i_track_mangrove: "railways:track_mangrove",
 /** @type {string} */
-i_track_tieless_wide: "railways:track_tieless_wide",
-/** @type {string} */
-i_track_jungle_wide: "railways:track_jungle_wide",
-/** @type {string} */
-i_track_crimson_wide: "railways:track_crimson_wide",
-/** @type {string} */
-i_track_warped_wide: "railways:track_warped_wide",
-/** @type {string} */
-i_track_create_andesite_wide: "railways:track_create_andesite_wide",
-/** @type {string} */
-i_track_birch_wide: "railways:track_birch_wide",
-/** @type {string} */
-i_track_ender_wide: "railways:track_ender_wide",
-/** @type {string} */
 i_track_oak_wide: "railways:track_oak_wide",
-/** @type {string} */
-i_track_spruce_wide: "railways:track_spruce_wide",
-/** @type {string} */
-i_track_acacia_wide: "railways:track_acacia_wide",
-/** @type {string} */
-i_track_blackstone_wide: "railways:track_blackstone_wide",
-/** @type {string} */
-i_track_dark_oak_wide: "railways:track_dark_oak_wide",
 /** @type {string} */
 i_track_mangrove_wide: "railways:track_mangrove_wide",
 /** @type {string} */
-i_track_tieless_narrow: "railways:track_tieless_narrow",
+i_track_dark_oak_wide: "railways:track_dark_oak_wide",
 /** @type {string} */
-i_track_jungle_narrow: "railways:track_jungle_narrow",
+i_track_warped_wide: "railways:track_warped_wide",
 /** @type {string} */
-i_track_crimson_narrow: "railways:track_crimson_narrow",
+i_track_birch_wide: "railways:track_birch_wide",
 /** @type {string} */
-i_track_warped_narrow: "railways:track_warped_narrow",
+i_track_jungle_wide: "railways:track_jungle_wide",
 /** @type {string} */
-i_track_create_andesite_narrow: "railways:track_create_andesite_narrow",
+i_track_create_andesite_wide: "railways:track_create_andesite_wide",
 /** @type {string} */
-i_track_birch_narrow: "railways:track_birch_narrow",
+i_track_ender_wide: "railways:track_ender_wide",
 /** @type {string} */
-i_track_ender_narrow: "railways:track_ender_narrow",
+i_track_spruce_wide: "railways:track_spruce_wide",
+/** @type {string} */
+i_track_blackstone_wide: "railways:track_blackstone_wide",
+/** @type {string} */
+i_track_tieless_wide: "railways:track_tieless_wide",
+/** @type {string} */
+i_track_acacia_wide: "railways:track_acacia_wide",
+/** @type {string} */
+i_track_crimson_wide: "railways:track_crimson_wide",
 /** @type {string} */
 i_track_oak_narrow: "railways:track_oak_narrow",
 /** @type {string} */
-i_track_spruce_narrow: "railways:track_spruce_narrow",
-/** @type {string} */
-i_track_acacia_narrow: "railways:track_acacia_narrow",
-/** @type {string} */
-i_track_blackstone_narrow: "railways:track_blackstone_narrow",
+i_track_mangrove_narrow: "railways:track_mangrove_narrow",
 /** @type {string} */
 i_track_dark_oak_narrow: "railways:track_dark_oak_narrow",
 /** @type {string} */
-i_track_mangrove_narrow: "railways:track_mangrove_narrow",
+i_track_warped_narrow: "railways:track_warped_narrow",
+/** @type {string} */
+i_track_birch_narrow: "railways:track_birch_narrow",
+/** @type {string} */
+i_track_jungle_narrow: "railways:track_jungle_narrow",
+/** @type {string} */
+i_track_create_andesite_narrow: "railways:track_create_andesite_narrow",
+/** @type {string} */
+i_track_ender_narrow: "railways:track_ender_narrow",
+/** @type {string} */
+i_track_spruce_narrow: "railways:track_spruce_narrow",
+/** @type {string} */
+i_track_blackstone_narrow: "railways:track_blackstone_narrow",
+/** @type {string} */
+i_track_tieless_narrow: "railways:track_tieless_narrow",
+/** @type {string} */
+i_track_acacia_narrow: "railways:track_acacia_narrow",
+/** @type {string} */
+i_track_crimson_narrow: "railways:track_crimson_narrow",
 /** @type {string} */
 i_track_monorail: "railways:track_monorail",
 /** @type {string} */
@@ -21990,6 +29944,50 @@ i_floaty_chest_boat: "beachparty:floaty_chest_boat",
  * @readonly
  * @enum {string}
  */
+const item_fortunas_anvil = {
+    /** @type {string} */
+i_fortunas_anvil: "fortunas_anvil:fortunas_anvil",
+/** @type {string} */
+i_protection_rune: "fortunas_anvil:protection_rune",
+/** @type {string} */
+i_common_material: "fortunas_anvil:common_material",
+/** @type {string} */
+i_uncommon_material: "fortunas_anvil:uncommon_material",
+/** @type {string} */
+i_rare_material: "fortunas_anvil:rare_material",
+/** @type {string} */
+i_epic_material: "fortunas_anvil:epic_material",
+/** @type {string} */
+i_legendary_material: "fortunas_anvil:legendary_material",
+/** @type {string} */
+i_mythic_material: "fortunas_anvil:mythic_material",
+/** @type {string} */
+i_ascended_material: "fortunas_anvil:ascended_material",
+/** @type {string} */
+i_common_catalyst: "fortunas_anvil:common_catalyst",
+/** @type {string} */
+i_uncommon_catalyst: "fortunas_anvil:uncommon_catalyst",
+/** @type {string} */
+i_rare_catalyst: "fortunas_anvil:rare_catalyst",
+/** @type {string} */
+i_epic_catalyst: "fortunas_anvil:epic_catalyst",
+/** @type {string} */
+i_legendary_catalyst: "fortunas_anvil:legendary_catalyst",
+/** @type {string} */
+i_mythic_catalyst: "fortunas_anvil:mythic_catalyst",
+/** @type {string} */
+i_ascended_catalyst: "fortunas_anvil:ascended_catalyst",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const item_trashcans = {
     /** @type {string} */
 i_item_trash_can: "trashcans:item_trash_can",
@@ -22089,20 +30087,6 @@ i_bamboo_brigg: "smallships:bamboo_brigg",
 i_bamboo_galley: "smallships:bamboo_galley",
 /** @type {string} */
 i_bamboo_drakkar: "smallships:bamboo_drakkar",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
-const item_nutritionalbalance = {
-    /** @type {string} */
-i_lunchbox: "nutritionalbalance:lunchbox",
 
 };
 
@@ -22232,13 +30216,7 @@ i_iron_golem_farm: "easy_mob_farm:iron_golem_farm",
  */
 const item_kubejs = {
     /** @type {string} */
-i_apoth_extra_tier_0: "kubejs:apoth_extra_tier_0",
-/** @type {string} */
-i_apoth_extra_tier_1: "kubejs:apoth_extra_tier_1",
-/** @type {string} */
-i_apoth_extra_tier_2: "kubejs:apoth_extra_tier_2",
-/** @type {string} */
-i_apoth_extra_tier_3: "kubejs:apoth_extra_tier_3",
+i_engineering_table: "kubejs:engineering_table",
 /** @type {string} */
 i_cincinnasite_diamond_helmet: "kubejs:cincinnasite_diamond_helmet",
 /** @type {string} */
@@ -22586,810 +30564,6 @@ i_tier_10_swim_speed_power_up: "kubejs:tier_10_swim_speed_power_up",
  * @readonly
  * @enum {string}
  */
-const item_zoomers_armory = {
-    /** @type {string} */
-i_flint_dagger: "zoomers_armory:flint_dagger",
-/** @type {string} */
-i_flint_shortsword: "zoomers_armory:flint_shortsword",
-/** @type {string} */
-i_flint_heavysword: "zoomers_armory:flint_heavysword",
-/** @type {string} */
-i_flint_cutlass: "zoomers_armory:flint_cutlass",
-/** @type {string} */
-i_flint_mace: "zoomers_armory:flint_mace",
-/** @type {string} */
-i_flint_heavymace: "zoomers_armory:flint_heavymace",
-/** @type {string} */
-i_flint_warhammer: "zoomers_armory:flint_warhammer",
-/** @type {string} */
-i_flint_spear: "zoomers_armory:flint_spear",
-/** @type {string} */
-i_flint_halberd: "zoomers_armory:flint_halberd",
-/** @type {string} */
-i_flint_buckler: "zoomers_armory:flint_buckler",
-/** @type {string} */
-i_flint_heater: "zoomers_armory:flint_heater",
-/** @type {string} */
-i_flint_tower: "zoomers_armory:flint_tower",
-/** @type {string} */
-i_iron_dagger: "zoomers_armory:iron_dagger",
-/** @type {string} */
-i_iron_shortsword: "zoomers_armory:iron_shortsword",
-/** @type {string} */
-i_iron_heavysword: "zoomers_armory:iron_heavysword",
-/** @type {string} */
-i_iron_cutlass: "zoomers_armory:iron_cutlass",
-/** @type {string} */
-i_iron_mace: "zoomers_armory:iron_mace",
-/** @type {string} */
-i_iron_heavymace: "zoomers_armory:iron_heavymace",
-/** @type {string} */
-i_iron_warhammer: "zoomers_armory:iron_warhammer",
-/** @type {string} */
-i_iron_spear: "zoomers_armory:iron_spear",
-/** @type {string} */
-i_iron_halberd: "zoomers_armory:iron_halberd",
-/** @type {string} */
-i_iron_buckler: "zoomers_armory:iron_buckler",
-/** @type {string} */
-i_iron_heater: "zoomers_armory:iron_heater",
-/** @type {string} */
-i_iron_tower: "zoomers_armory:iron_tower",
-/** @type {string} */
-i_gold_dagger: "zoomers_armory:gold_dagger",
-/** @type {string} */
-i_gold_shortsword: "zoomers_armory:gold_shortsword",
-/** @type {string} */
-i_gold_heavysword: "zoomers_armory:gold_heavysword",
-/** @type {string} */
-i_gold_cutlass: "zoomers_armory:gold_cutlass",
-/** @type {string} */
-i_gold_mace: "zoomers_armory:gold_mace",
-/** @type {string} */
-i_gold_heavymace: "zoomers_armory:gold_heavymace",
-/** @type {string} */
-i_gold_warhammer: "zoomers_armory:gold_warhammer",
-/** @type {string} */
-i_gold_spear: "zoomers_armory:gold_spear",
-/** @type {string} */
-i_gold_halberd: "zoomers_armory:gold_halberd",
-/** @type {string} */
-i_gold_buckler: "zoomers_armory:gold_buckler",
-/** @type {string} */
-i_gold_heater: "zoomers_armory:gold_heater",
-/** @type {string} */
-i_gold_tower: "zoomers_armory:gold_tower",
-/** @type {string} */
-i_diamond_dagger: "zoomers_armory:diamond_dagger",
-/** @type {string} */
-i_diamond_shortsword: "zoomers_armory:diamond_shortsword",
-/** @type {string} */
-i_diamond_heavysword: "zoomers_armory:diamond_heavysword",
-/** @type {string} */
-i_diamond_cutlass: "zoomers_armory:diamond_cutlass",
-/** @type {string} */
-i_diamond_mace: "zoomers_armory:diamond_mace",
-/** @type {string} */
-i_diamond_heavymace: "zoomers_armory:diamond_heavymace",
-/** @type {string} */
-i_diamond_warhammer: "zoomers_armory:diamond_warhammer",
-/** @type {string} */
-i_diamond_spear: "zoomers_armory:diamond_spear",
-/** @type {string} */
-i_diamond_halberd: "zoomers_armory:diamond_halberd",
-/** @type {string} */
-i_diamond_buckler: "zoomers_armory:diamond_buckler",
-/** @type {string} */
-i_diamond_heater: "zoomers_armory:diamond_heater",
-/** @type {string} */
-i_diamond_tower: "zoomers_armory:diamond_tower",
-/** @type {string} */
-i_netherite_dagger: "zoomers_armory:netherite_dagger",
-/** @type {string} */
-i_netherite_shortsword: "zoomers_armory:netherite_shortsword",
-/** @type {string} */
-i_netherite_heavysword: "zoomers_armory:netherite_heavysword",
-/** @type {string} */
-i_netherite_cutlass: "zoomers_armory:netherite_cutlass",
-/** @type {string} */
-i_netherite_mace: "zoomers_armory:netherite_mace",
-/** @type {string} */
-i_netherite_heavymace: "zoomers_armory:netherite_heavymace",
-/** @type {string} */
-i_netherite_warhammer: "zoomers_armory:netherite_warhammer",
-/** @type {string} */
-i_netherite_spear: "zoomers_armory:netherite_spear",
-/** @type {string} */
-i_netherite_halberd: "zoomers_armory:netherite_halberd",
-/** @type {string} */
-i_netherite_buckler: "zoomers_armory:netherite_buckler",
-/** @type {string} */
-i_netherite_heater: "zoomers_armory:netherite_heater",
-/** @type {string} */
-i_netherite_tower: "zoomers_armory:netherite_tower",
-/** @type {string} */
-i_pyrope_dagger: "zoomers_armory:pyrope_dagger",
-/** @type {string} */
-i_pyrope_shortsword: "zoomers_armory:pyrope_shortsword",
-/** @type {string} */
-i_pyrope_heavysword: "zoomers_armory:pyrope_heavysword",
-/** @type {string} */
-i_pyrope_cutlass: "zoomers_armory:pyrope_cutlass",
-/** @type {string} */
-i_pyrope_mace: "zoomers_armory:pyrope_mace",
-/** @type {string} */
-i_pyrope_heavymace: "zoomers_armory:pyrope_heavymace",
-/** @type {string} */
-i_pyrope_warhammer: "zoomers_armory:pyrope_warhammer",
-/** @type {string} */
-i_pyrope_spear: "zoomers_armory:pyrope_spear",
-/** @type {string} */
-i_pyrope_halberd: "zoomers_armory:pyrope_halberd",
-/** @type {string} */
-i_pyrope_buckler: "zoomers_armory:pyrope_buckler",
-/** @type {string} */
-i_pyrope_heater: "zoomers_armory:pyrope_heater",
-/** @type {string} */
-i_pyrope_tower: "zoomers_armory:pyrope_tower",
-/** @type {string} */
-i_aquite_dagger: "zoomers_armory:aquite_dagger",
-/** @type {string} */
-i_aquite_shortsword: "zoomers_armory:aquite_shortsword",
-/** @type {string} */
-i_aquite_heavysword: "zoomers_armory:aquite_heavysword",
-/** @type {string} */
-i_aquite_cutlass: "zoomers_armory:aquite_cutlass",
-/** @type {string} */
-i_aquite_mace: "zoomers_armory:aquite_mace",
-/** @type {string} */
-i_aquite_heavymace: "zoomers_armory:aquite_heavymace",
-/** @type {string} */
-i_aquite_warhammer: "zoomers_armory:aquite_warhammer",
-/** @type {string} */
-i_aquite_spear: "zoomers_armory:aquite_spear",
-/** @type {string} */
-i_aquite_halberd: "zoomers_armory:aquite_halberd",
-/** @type {string} */
-i_aquite_buckler: "zoomers_armory:aquite_buckler",
-/** @type {string} */
-i_aquite_heater: "zoomers_armory:aquite_heater",
-/** @type {string} */
-i_aquite_tower: "zoomers_armory:aquite_tower",
-/** @type {string} */
-i_diopside_dagger: "zoomers_armory:diopside_dagger",
-/** @type {string} */
-i_diopside_shortsword: "zoomers_armory:diopside_shortsword",
-/** @type {string} */
-i_diopside_heavysword: "zoomers_armory:diopside_heavysword",
-/** @type {string} */
-i_diopside_cutlass: "zoomers_armory:diopside_cutlass",
-/** @type {string} */
-i_diopside_mace: "zoomers_armory:diopside_mace",
-/** @type {string} */
-i_diopside_heavymace: "zoomers_armory:diopside_heavymace",
-/** @type {string} */
-i_diopside_warhammer: "zoomers_armory:diopside_warhammer",
-/** @type {string} */
-i_diopside_spear: "zoomers_armory:diopside_spear",
-/** @type {string} */
-i_diopside_halberd: "zoomers_armory:diopside_halberd",
-/** @type {string} */
-i_diopside_buckler: "zoomers_armory:diopside_buckler",
-/** @type {string} */
-i_diopside_heater: "zoomers_armory:diopside_heater",
-/** @type {string} */
-i_diopside_tower: "zoomers_armory:diopside_tower",
-/** @type {string} */
-i_charoite_dagger: "zoomers_armory:charoite_dagger",
-/** @type {string} */
-i_charoite_shortsword: "zoomers_armory:charoite_shortsword",
-/** @type {string} */
-i_charoite_heavysword: "zoomers_armory:charoite_heavysword",
-/** @type {string} */
-i_charoite_cutlass: "zoomers_armory:charoite_cutlass",
-/** @type {string} */
-i_charoite_mace: "zoomers_armory:charoite_mace",
-/** @type {string} */
-i_charoite_heavymace: "zoomers_armory:charoite_heavymace",
-/** @type {string} */
-i_charoite_warhammer: "zoomers_armory:charoite_warhammer",
-/** @type {string} */
-i_charoite_spear: "zoomers_armory:charoite_spear",
-/** @type {string} */
-i_charoite_halberd: "zoomers_armory:charoite_halberd",
-/** @type {string} */
-i_charoite_buckler: "zoomers_armory:charoite_buckler",
-/** @type {string} */
-i_charoite_heater: "zoomers_armory:charoite_heater",
-/** @type {string} */
-i_charoite_tower: "zoomers_armory:charoite_tower",
-/** @type {string} */
-i_horizonite_dagger: "zoomers_armory:horizonite_dagger",
-/** @type {string} */
-i_horizonite_shortsword: "zoomers_armory:horizonite_shortsword",
-/** @type {string} */
-i_horizonite_heavysword: "zoomers_armory:horizonite_heavysword",
-/** @type {string} */
-i_horizonite_cutlass: "zoomers_armory:horizonite_cutlass",
-/** @type {string} */
-i_horizonite_mace: "zoomers_armory:horizonite_mace",
-/** @type {string} */
-i_horizonite_heavymace: "zoomers_armory:horizonite_heavymace",
-/** @type {string} */
-i_horizonite_warhammer: "zoomers_armory:horizonite_warhammer",
-/** @type {string} */
-i_horizonite_spear: "zoomers_armory:horizonite_spear",
-/** @type {string} */
-i_horizonite_halberd: "zoomers_armory:horizonite_halberd",
-/** @type {string} */
-i_horizonite_buckler: "zoomers_armory:horizonite_buckler",
-/** @type {string} */
-i_horizonite_heater: "zoomers_armory:horizonite_heater",
-/** @type {string} */
-i_horizonite_tower: "zoomers_armory:horizonite_tower",
-/** @type {string} */
-i_zanite_dagger: "zoomers_armory:zanite_dagger",
-/** @type {string} */
-i_zanite_shortsword: "zoomers_armory:zanite_shortsword",
-/** @type {string} */
-i_zanite_heavysword: "zoomers_armory:zanite_heavysword",
-/** @type {string} */
-i_zanite_cutlass: "zoomers_armory:zanite_cutlass",
-/** @type {string} */
-i_zanite_mace: "zoomers_armory:zanite_mace",
-/** @type {string} */
-i_zanite_heavymace: "zoomers_armory:zanite_heavymace",
-/** @type {string} */
-i_zanite_warhammer: "zoomers_armory:zanite_warhammer",
-/** @type {string} */
-i_zanite_spear: "zoomers_armory:zanite_spear",
-/** @type {string} */
-i_zanite_halberd: "zoomers_armory:zanite_halberd",
-/** @type {string} */
-i_zanite_buckler: "zoomers_armory:zanite_buckler",
-/** @type {string} */
-i_zanite_heater: "zoomers_armory:zanite_heater",
-/** @type {string} */
-i_zanite_tower: "zoomers_armory:zanite_tower",
-/** @type {string} */
-i_enchanted_gravitite_dagger: "zoomers_armory:enchanted_gravitite_dagger",
-/** @type {string} */
-i_enchanted_gravitite_shortsword: "zoomers_armory:enchanted_gravitite_shortsword",
-/** @type {string} */
-i_enchanted_gravitite_heavysword: "zoomers_armory:enchanted_gravitite_heavysword",
-/** @type {string} */
-i_enchanted_gravitite_cutlass: "zoomers_armory:enchanted_gravitite_cutlass",
-/** @type {string} */
-i_enchanted_gravitite_mace: "zoomers_armory:enchanted_gravitite_mace",
-/** @type {string} */
-i_enchanted_gravitite_heavymace: "zoomers_armory:enchanted_gravitite_heavymace",
-/** @type {string} */
-i_enchanted_gravitite_warhammer: "zoomers_armory:enchanted_gravitite_warhammer",
-/** @type {string} */
-i_enchanted_gravitite_spear: "zoomers_armory:enchanted_gravitite_spear",
-/** @type {string} */
-i_enchanted_gravitite_halberd: "zoomers_armory:enchanted_gravitite_halberd",
-/** @type {string} */
-i_enchanted_gravitite_buckler: "zoomers_armory:enchanted_gravitite_buckler",
-/** @type {string} */
-i_enchanted_gravitite_heater: "zoomers_armory:enchanted_gravitite_heater",
-/** @type {string} */
-i_enchanted_gravitite_tower: "zoomers_armory:enchanted_gravitite_tower",
-/** @type {string} */
-i_cincinnasite_dagger: "zoomers_armory:cincinnasite_dagger",
-/** @type {string} */
-i_cincinnasite_shortsword: "zoomers_armory:cincinnasite_shortsword",
-/** @type {string} */
-i_cincinnasite_heavysword: "zoomers_armory:cincinnasite_heavysword",
-/** @type {string} */
-i_cincinnasite_cutlass: "zoomers_armory:cincinnasite_cutlass",
-/** @type {string} */
-i_cincinnasite_mace: "zoomers_armory:cincinnasite_mace",
-/** @type {string} */
-i_cincinnasite_heavymace: "zoomers_armory:cincinnasite_heavymace",
-/** @type {string} */
-i_cincinnasite_warhammer: "zoomers_armory:cincinnasite_warhammer",
-/** @type {string} */
-i_cincinnasite_spear: "zoomers_armory:cincinnasite_spear",
-/** @type {string} */
-i_cincinnasite_halberd: "zoomers_armory:cincinnasite_halberd",
-/** @type {string} */
-i_cincinnasite_buckler: "zoomers_armory:cincinnasite_buckler",
-/** @type {string} */
-i_cincinnasite_heater: "zoomers_armory:cincinnasite_heater",
-/** @type {string} */
-i_cincinnasite_tower: "zoomers_armory:cincinnasite_tower",
-/** @type {string} */
-i_cincinnasite_diamond_dagger: "zoomers_armory:cincinnasite_diamond_dagger",
-/** @type {string} */
-i_cincinnasite_diamond_shortsword: "zoomers_armory:cincinnasite_diamond_shortsword",
-/** @type {string} */
-i_cincinnasite_diamond_heavysword: "zoomers_armory:cincinnasite_diamond_heavysword",
-/** @type {string} */
-i_cincinnasite_diamond_cutlass: "zoomers_armory:cincinnasite_diamond_cutlass",
-/** @type {string} */
-i_cincinnasite_diamond_mace: "zoomers_armory:cincinnasite_diamond_mace",
-/** @type {string} */
-i_cincinnasite_diamond_heavymace: "zoomers_armory:cincinnasite_diamond_heavymace",
-/** @type {string} */
-i_cincinnasite_diamond_warhammer: "zoomers_armory:cincinnasite_diamond_warhammer",
-/** @type {string} */
-i_cincinnasite_diamond_spear: "zoomers_armory:cincinnasite_diamond_spear",
-/** @type {string} */
-i_cincinnasite_diamond_halberd: "zoomers_armory:cincinnasite_diamond_halberd",
-/** @type {string} */
-i_cincinnasite_diamond_buckler: "zoomers_armory:cincinnasite_diamond_buckler",
-/** @type {string} */
-i_cincinnasite_diamond_heater: "zoomers_armory:cincinnasite_diamond_heater",
-/** @type {string} */
-i_cincinnasite_diamond_tower: "zoomers_armory:cincinnasite_diamond_tower",
-/** @type {string} */
-i_nether_ruby_dagger: "zoomers_armory:nether_ruby_dagger",
-/** @type {string} */
-i_nether_ruby_shortsword: "zoomers_armory:nether_ruby_shortsword",
-/** @type {string} */
-i_nether_ruby_heavysword: "zoomers_armory:nether_ruby_heavysword",
-/** @type {string} */
-i_nether_ruby_cutlass: "zoomers_armory:nether_ruby_cutlass",
-/** @type {string} */
-i_nether_ruby_mace: "zoomers_armory:nether_ruby_mace",
-/** @type {string} */
-i_nether_ruby_heavymace: "zoomers_armory:nether_ruby_heavymace",
-/** @type {string} */
-i_nether_ruby_warhammer: "zoomers_armory:nether_ruby_warhammer",
-/** @type {string} */
-i_nether_ruby_spear: "zoomers_armory:nether_ruby_spear",
-/** @type {string} */
-i_nether_ruby_halberd: "zoomers_armory:nether_ruby_halberd",
-/** @type {string} */
-i_nether_ruby_buckler: "zoomers_armory:nether_ruby_buckler",
-/** @type {string} */
-i_nether_ruby_heater: "zoomers_armory:nether_ruby_heater",
-/** @type {string} */
-i_nether_ruby_tower: "zoomers_armory:nether_ruby_tower",
-/** @type {string} */
-i_flaming_ruby_dagger: "zoomers_armory:flaming_ruby_dagger",
-/** @type {string} */
-i_flaming_ruby_shortsword: "zoomers_armory:flaming_ruby_shortsword",
-/** @type {string} */
-i_flaming_ruby_heavysword: "zoomers_armory:flaming_ruby_heavysword",
-/** @type {string} */
-i_flaming_ruby_cutlass: "zoomers_armory:flaming_ruby_cutlass",
-/** @type {string} */
-i_flaming_ruby_mace: "zoomers_armory:flaming_ruby_mace",
-/** @type {string} */
-i_flaming_ruby_heavymace: "zoomers_armory:flaming_ruby_heavymace",
-/** @type {string} */
-i_flaming_ruby_warhammer: "zoomers_armory:flaming_ruby_warhammer",
-/** @type {string} */
-i_flaming_ruby_spear: "zoomers_armory:flaming_ruby_spear",
-/** @type {string} */
-i_flaming_ruby_halberd: "zoomers_armory:flaming_ruby_halberd",
-/** @type {string} */
-i_flaming_ruby_buckler: "zoomers_armory:flaming_ruby_buckler",
-/** @type {string} */
-i_flaming_ruby_heater: "zoomers_armory:flaming_ruby_heater",
-/** @type {string} */
-i_flaming_ruby_tower: "zoomers_armory:flaming_ruby_tower",
-/** @type {string} */
-i_cloggrum_dagger: "zoomers_armory:cloggrum_dagger",
-/** @type {string} */
-i_cloggrum_shortsword: "zoomers_armory:cloggrum_shortsword",
-/** @type {string} */
-i_cloggrum_heavysword: "zoomers_armory:cloggrum_heavysword",
-/** @type {string} */
-i_cloggrum_cutlass: "zoomers_armory:cloggrum_cutlass",
-/** @type {string} */
-i_cloggrum_mace: "zoomers_armory:cloggrum_mace",
-/** @type {string} */
-i_cloggrum_heavymace: "zoomers_armory:cloggrum_heavymace",
-/** @type {string} */
-i_cloggrum_warhammer: "zoomers_armory:cloggrum_warhammer",
-/** @type {string} */
-i_cloggrum_spear: "zoomers_armory:cloggrum_spear",
-/** @type {string} */
-i_cloggrum_halberd: "zoomers_armory:cloggrum_halberd",
-/** @type {string} */
-i_cloggrum_buckler: "zoomers_armory:cloggrum_buckler",
-/** @type {string} */
-i_cloggrum_heater: "zoomers_armory:cloggrum_heater",
-/** @type {string} */
-i_cloggrum_tower: "zoomers_armory:cloggrum_tower",
-/** @type {string} */
-i_froststeel_dagger: "zoomers_armory:froststeel_dagger",
-/** @type {string} */
-i_froststeel_shortsword: "zoomers_armory:froststeel_shortsword",
-/** @type {string} */
-i_froststeel_heavysword: "zoomers_armory:froststeel_heavysword",
-/** @type {string} */
-i_froststeel_cutlass: "zoomers_armory:froststeel_cutlass",
-/** @type {string} */
-i_froststeel_mace: "zoomers_armory:froststeel_mace",
-/** @type {string} */
-i_froststeel_heavymace: "zoomers_armory:froststeel_heavymace",
-/** @type {string} */
-i_froststeel_warhammer: "zoomers_armory:froststeel_warhammer",
-/** @type {string} */
-i_froststeel_spear: "zoomers_armory:froststeel_spear",
-/** @type {string} */
-i_froststeel_halberd: "zoomers_armory:froststeel_halberd",
-/** @type {string} */
-i_froststeel_buckler: "zoomers_armory:froststeel_buckler",
-/** @type {string} */
-i_froststeel_heater: "zoomers_armory:froststeel_heater",
-/** @type {string} */
-i_froststeel_tower: "zoomers_armory:froststeel_tower",
-/** @type {string} */
-i_utherium_dagger: "zoomers_armory:utherium_dagger",
-/** @type {string} */
-i_utherium_shortsword: "zoomers_armory:utherium_shortsword",
-/** @type {string} */
-i_utherium_heavysword: "zoomers_armory:utherium_heavysword",
-/** @type {string} */
-i_utherium_cutlass: "zoomers_armory:utherium_cutlass",
-/** @type {string} */
-i_utherium_mace: "zoomers_armory:utherium_mace",
-/** @type {string} */
-i_utherium_heavymace: "zoomers_armory:utherium_heavymace",
-/** @type {string} */
-i_utherium_warhammer: "zoomers_armory:utherium_warhammer",
-/** @type {string} */
-i_utherium_spear: "zoomers_armory:utherium_spear",
-/** @type {string} */
-i_utherium_halberd: "zoomers_armory:utherium_halberd",
-/** @type {string} */
-i_utherium_buckler: "zoomers_armory:utherium_buckler",
-/** @type {string} */
-i_utherium_heater: "zoomers_armory:utherium_heater",
-/** @type {string} */
-i_utherium_tower: "zoomers_armory:utherium_tower",
-/** @type {string} */
-i_forgotten_dagger: "zoomers_armory:forgotten_dagger",
-/** @type {string} */
-i_forgotten_shortsword: "zoomers_armory:forgotten_shortsword",
-/** @type {string} */
-i_forgotten_heavysword: "zoomers_armory:forgotten_heavysword",
-/** @type {string} */
-i_forgotten_cutlass: "zoomers_armory:forgotten_cutlass",
-/** @type {string} */
-i_forgotten_mace: "zoomers_armory:forgotten_mace",
-/** @type {string} */
-i_forgotten_heavymace: "zoomers_armory:forgotten_heavymace",
-/** @type {string} */
-i_forgotten_warhammer: "zoomers_armory:forgotten_warhammer",
-/** @type {string} */
-i_forgotten_spear: "zoomers_armory:forgotten_spear",
-/** @type {string} */
-i_forgotten_halberd: "zoomers_armory:forgotten_halberd",
-/** @type {string} */
-i_forgotten_buckler: "zoomers_armory:forgotten_buckler",
-/** @type {string} */
-i_forgotten_heater: "zoomers_armory:forgotten_heater",
-/** @type {string} */
-i_forgotten_tower: "zoomers_armory:forgotten_tower",
-/** @type {string} */
-i_thallasium_dagger: "zoomers_armory:thallasium_dagger",
-/** @type {string} */
-i_thallasium_shortsword: "zoomers_armory:thallasium_shortsword",
-/** @type {string} */
-i_thallasium_heavysword: "zoomers_armory:thallasium_heavysword",
-/** @type {string} */
-i_thallasium_cutlass: "zoomers_armory:thallasium_cutlass",
-/** @type {string} */
-i_thallasium_mace: "zoomers_armory:thallasium_mace",
-/** @type {string} */
-i_thallasium_heavymace: "zoomers_armory:thallasium_heavymace",
-/** @type {string} */
-i_thallasium_warhammer: "zoomers_armory:thallasium_warhammer",
-/** @type {string} */
-i_thallasium_spear: "zoomers_armory:thallasium_spear",
-/** @type {string} */
-i_thallasium_halberd: "zoomers_armory:thallasium_halberd",
-/** @type {string} */
-i_thallasium_buckler: "zoomers_armory:thallasium_buckler",
-/** @type {string} */
-i_thallasium_heater: "zoomers_armory:thallasium_heater",
-/** @type {string} */
-i_thallasium_tower: "zoomers_armory:thallasium_tower",
-/** @type {string} */
-i_terminite_dagger: "zoomers_armory:terminite_dagger",
-/** @type {string} */
-i_terminite_shortsword: "zoomers_armory:terminite_shortsword",
-/** @type {string} */
-i_terminite_heavysword: "zoomers_armory:terminite_heavysword",
-/** @type {string} */
-i_terminite_cutlass: "zoomers_armory:terminite_cutlass",
-/** @type {string} */
-i_terminite_mace: "zoomers_armory:terminite_mace",
-/** @type {string} */
-i_terminite_heavymace: "zoomers_armory:terminite_heavymace",
-/** @type {string} */
-i_terminite_warhammer: "zoomers_armory:terminite_warhammer",
-/** @type {string} */
-i_terminite_spear: "zoomers_armory:terminite_spear",
-/** @type {string} */
-i_terminite_halberd: "zoomers_armory:terminite_halberd",
-/** @type {string} */
-i_terminite_buckler: "zoomers_armory:terminite_buckler",
-/** @type {string} */
-i_terminite_heater: "zoomers_armory:terminite_heater",
-/** @type {string} */
-i_terminite_tower: "zoomers_armory:terminite_tower",
-/** @type {string} */
-i_aeternium_dagger: "zoomers_armory:aeternium_dagger",
-/** @type {string} */
-i_aeternium_shortsword: "zoomers_armory:aeternium_shortsword",
-/** @type {string} */
-i_aeternium_heavysword: "zoomers_armory:aeternium_heavysword",
-/** @type {string} */
-i_aeternium_cutlass: "zoomers_armory:aeternium_cutlass",
-/** @type {string} */
-i_aeternium_mace: "zoomers_armory:aeternium_mace",
-/** @type {string} */
-i_aeternium_heavymace: "zoomers_armory:aeternium_heavymace",
-/** @type {string} */
-i_aeternium_warhammer: "zoomers_armory:aeternium_warhammer",
-/** @type {string} */
-i_aeternium_spear: "zoomers_armory:aeternium_spear",
-/** @type {string} */
-i_aeternium_halberd: "zoomers_armory:aeternium_halberd",
-/** @type {string} */
-i_aeternium_buckler: "zoomers_armory:aeternium_buckler",
-/** @type {string} */
-i_aeternium_heater: "zoomers_armory:aeternium_heater",
-/** @type {string} */
-i_aeternium_tower: "zoomers_armory:aeternium_tower",
-/** @type {string} */
-i_aurora_dagger: "zoomers_armory:aurora_dagger",
-/** @type {string} */
-i_aurora_shortsword: "zoomers_armory:aurora_shortsword",
-/** @type {string} */
-i_aurora_heavysword: "zoomers_armory:aurora_heavysword",
-/** @type {string} */
-i_aurora_cutlass: "zoomers_armory:aurora_cutlass",
-/** @type {string} */
-i_aurora_mace: "zoomers_armory:aurora_mace",
-/** @type {string} */
-i_aurora_heavymace: "zoomers_armory:aurora_heavymace",
-/** @type {string} */
-i_aurora_warhammer: "zoomers_armory:aurora_warhammer",
-/** @type {string} */
-i_aurora_spear: "zoomers_armory:aurora_spear",
-/** @type {string} */
-i_aurora_halberd: "zoomers_armory:aurora_halberd",
-/** @type {string} */
-i_aurora_buckler: "zoomers_armory:aurora_buckler",
-/** @type {string} */
-i_aurora_heater: "zoomers_armory:aurora_heater",
-/** @type {string} */
-i_aurora_tower: "zoomers_armory:aurora_tower",
-/** @type {string} */
-i_immemorial_dagger: "zoomers_armory:immemorial_dagger",
-/** @type {string} */
-i_immemorial_shortsword: "zoomers_armory:immemorial_shortsword",
-/** @type {string} */
-i_immemorial_heavysword: "zoomers_armory:immemorial_heavysword",
-/** @type {string} */
-i_immemorial_cutlass: "zoomers_armory:immemorial_cutlass",
-/** @type {string} */
-i_immemorial_mace: "zoomers_armory:immemorial_mace",
-/** @type {string} */
-i_immemorial_heavymace: "zoomers_armory:immemorial_heavymace",
-/** @type {string} */
-i_immemorial_warhammer: "zoomers_armory:immemorial_warhammer",
-/** @type {string} */
-i_immemorial_spear: "zoomers_armory:immemorial_spear",
-/** @type {string} */
-i_immemorial_halberd: "zoomers_armory:immemorial_halberd",
-/** @type {string} */
-i_immemorial_buckler: "zoomers_armory:immemorial_buckler",
-/** @type {string} */
-i_immemorial_heater: "zoomers_armory:immemorial_heater",
-/** @type {string} */
-i_immemorial_tower: "zoomers_armory:immemorial_tower",
-/** @type {string} */
-i_fixed_bone_dagger: "zoomers_armory:fixed_bone_dagger",
-/** @type {string} */
-i_fixed_bone_shortsword: "zoomers_armory:fixed_bone_shortsword",
-/** @type {string} */
-i_fixed_bone_heavysword: "zoomers_armory:fixed_bone_heavysword",
-/** @type {string} */
-i_fixed_bone_cutlass: "zoomers_armory:fixed_bone_cutlass",
-/** @type {string} */
-i_fixed_bone_mace: "zoomers_armory:fixed_bone_mace",
-/** @type {string} */
-i_fixed_bone_heavymace: "zoomers_armory:fixed_bone_heavymace",
-/** @type {string} */
-i_fixed_bone_warhammer: "zoomers_armory:fixed_bone_warhammer",
-/** @type {string} */
-i_fixed_bone_spear: "zoomers_armory:fixed_bone_spear",
-/** @type {string} */
-i_fixed_bone_halberd: "zoomers_armory:fixed_bone_halberd",
-/** @type {string} */
-i_fixed_bone_buckler: "zoomers_armory:fixed_bone_buckler",
-/** @type {string} */
-i_fixed_bone_heater: "zoomers_armory:fixed_bone_heater",
-/** @type {string} */
-i_fixed_bone_tower: "zoomers_armory:fixed_bone_tower",
-/** @type {string} */
-i_fusion_dagger: "zoomers_armory:fusion_dagger",
-/** @type {string} */
-i_fusion_shortsword: "zoomers_armory:fusion_shortsword",
-/** @type {string} */
-i_fusion_heavysword: "zoomers_armory:fusion_heavysword",
-/** @type {string} */
-i_fusion_cutlass: "zoomers_armory:fusion_cutlass",
-/** @type {string} */
-i_fusion_mace: "zoomers_armory:fusion_mace",
-/** @type {string} */
-i_fusion_heavymace: "zoomers_armory:fusion_heavymace",
-/** @type {string} */
-i_fusion_warhammer: "zoomers_armory:fusion_warhammer",
-/** @type {string} */
-i_fusion_spear: "zoomers_armory:fusion_spear",
-/** @type {string} */
-i_fusion_halberd: "zoomers_armory:fusion_halberd",
-/** @type {string} */
-i_fusion_buckler: "zoomers_armory:fusion_buckler",
-/** @type {string} */
-i_fusion_heater: "zoomers_armory:fusion_heater",
-/** @type {string} */
-i_fusion_tower: "zoomers_armory:fusion_tower",
-/** @type {string} */
-i_aberythe_dagger: "zoomers_armory:aberythe_dagger",
-/** @type {string} */
-i_aberythe_shortsword: "zoomers_armory:aberythe_shortsword",
-/** @type {string} */
-i_aberythe_heavysword: "zoomers_armory:aberythe_heavysword",
-/** @type {string} */
-i_aberythe_cutlass: "zoomers_armory:aberythe_cutlass",
-/** @type {string} */
-i_aberythe_mace: "zoomers_armory:aberythe_mace",
-/** @type {string} */
-i_aberythe_heavymace: "zoomers_armory:aberythe_heavymace",
-/** @type {string} */
-i_aberythe_warhammer: "zoomers_armory:aberythe_warhammer",
-/** @type {string} */
-i_aberythe_spear: "zoomers_armory:aberythe_spear",
-/** @type {string} */
-i_aberythe_halberd: "zoomers_armory:aberythe_halberd",
-/** @type {string} */
-i_aberythe_buckler: "zoomers_armory:aberythe_buckler",
-/** @type {string} */
-i_aberythe_heater: "zoomers_armory:aberythe_heater",
-/** @type {string} */
-i_aberythe_tower: "zoomers_armory:aberythe_tower",
-/** @type {string} */
-i_ignisithe_dagger: "zoomers_armory:ignisithe_dagger",
-/** @type {string} */
-i_ignisithe_shortsword: "zoomers_armory:ignisithe_shortsword",
-/** @type {string} */
-i_ignisithe_heavysword: "zoomers_armory:ignisithe_heavysword",
-/** @type {string} */
-i_ignisithe_cutlass: "zoomers_armory:ignisithe_cutlass",
-/** @type {string} */
-i_ignisithe_mace: "zoomers_armory:ignisithe_mace",
-/** @type {string} */
-i_ignisithe_heavymace: "zoomers_armory:ignisithe_heavymace",
-/** @type {string} */
-i_ignisithe_warhammer: "zoomers_armory:ignisithe_warhammer",
-/** @type {string} */
-i_ignisithe_spear: "zoomers_armory:ignisithe_spear",
-/** @type {string} */
-i_ignisithe_halberd: "zoomers_armory:ignisithe_halberd",
-/** @type {string} */
-i_ignisithe_buckler: "zoomers_armory:ignisithe_buckler",
-/** @type {string} */
-i_ignisithe_heater: "zoomers_armory:ignisithe_heater",
-/** @type {string} */
-i_ignisithe_tower: "zoomers_armory:ignisithe_tower",
-/** @type {string} */
-i_glacerythe_dagger: "zoomers_armory:glacerythe_dagger",
-/** @type {string} */
-i_glacerythe_shortsword: "zoomers_armory:glacerythe_shortsword",
-/** @type {string} */
-i_glacerythe_heavysword: "zoomers_armory:glacerythe_heavysword",
-/** @type {string} */
-i_glacerythe_cutlass: "zoomers_armory:glacerythe_cutlass",
-/** @type {string} */
-i_glacerythe_mace: "zoomers_armory:glacerythe_mace",
-/** @type {string} */
-i_glacerythe_heavymace: "zoomers_armory:glacerythe_heavymace",
-/** @type {string} */
-i_glacerythe_warhammer: "zoomers_armory:glacerythe_warhammer",
-/** @type {string} */
-i_glacerythe_spear: "zoomers_armory:glacerythe_spear",
-/** @type {string} */
-i_glacerythe_halberd: "zoomers_armory:glacerythe_halberd",
-/** @type {string} */
-i_glacerythe_buckler: "zoomers_armory:glacerythe_buckler",
-/** @type {string} */
-i_glacerythe_heater: "zoomers_armory:glacerythe_heater",
-/** @type {string} */
-i_glacerythe_tower: "zoomers_armory:glacerythe_tower",
-/** @type {string} */
-i_garnite_dagger: "zoomers_armory:garnite_dagger",
-/** @type {string} */
-i_garnite_shortsword: "zoomers_armory:garnite_shortsword",
-/** @type {string} */
-i_garnite_heavysword: "zoomers_armory:garnite_heavysword",
-/** @type {string} */
-i_garnite_cutlass: "zoomers_armory:garnite_cutlass",
-/** @type {string} */
-i_garnite_mace: "zoomers_armory:garnite_mace",
-/** @type {string} */
-i_garnite_heavymace: "zoomers_armory:garnite_heavymace",
-/** @type {string} */
-i_garnite_warhammer: "zoomers_armory:garnite_warhammer",
-/** @type {string} */
-i_garnite_spear: "zoomers_armory:garnite_spear",
-/** @type {string} */
-i_garnite_halberd: "zoomers_armory:garnite_halberd",
-/** @type {string} */
-i_garnite_buckler: "zoomers_armory:garnite_buckler",
-/** @type {string} */
-i_garnite_heater: "zoomers_armory:garnite_heater",
-/** @type {string} */
-i_garnite_tower: "zoomers_armory:garnite_tower",
-/** @type {string} */
-i_phantom_dagger: "zoomers_armory:phantom_dagger",
-/** @type {string} */
-i_phantom_shortsword: "zoomers_armory:phantom_shortsword",
-/** @type {string} */
-i_phantom_heavysword: "zoomers_armory:phantom_heavysword",
-/** @type {string} */
-i_phantom_cutlass: "zoomers_armory:phantom_cutlass",
-/** @type {string} */
-i_phantom_mace: "zoomers_armory:phantom_mace",
-/** @type {string} */
-i_phantom_heavymace: "zoomers_armory:phantom_heavymace",
-/** @type {string} */
-i_phantom_warhammer: "zoomers_armory:phantom_warhammer",
-/** @type {string} */
-i_phantom_spear: "zoomers_armory:phantom_spear",
-/** @type {string} */
-i_phantom_halberd: "zoomers_armory:phantom_halberd",
-/** @type {string} */
-i_phantom_buckler: "zoomers_armory:phantom_buckler",
-/** @type {string} */
-i_phantom_heater: "zoomers_armory:phantom_heater",
-/** @type {string} */
-i_phantom_tower: "zoomers_armory:phantom_tower",
-/** @type {string} */
-i_unorithe_dagger: "zoomers_armory:unorithe_dagger",
-/** @type {string} */
-i_unorithe_shortsword: "zoomers_armory:unorithe_shortsword",
-/** @type {string} */
-i_unorithe_heavysword: "zoomers_armory:unorithe_heavysword",
-/** @type {string} */
-i_unorithe_cutlass: "zoomers_armory:unorithe_cutlass",
-/** @type {string} */
-i_unorithe_mace: "zoomers_armory:unorithe_mace",
-/** @type {string} */
-i_unorithe_heavymace: "zoomers_armory:unorithe_heavymace",
-/** @type {string} */
-i_unorithe_warhammer: "zoomers_armory:unorithe_warhammer",
-/** @type {string} */
-i_unorithe_spear: "zoomers_armory:unorithe_spear",
-/** @type {string} */
-i_unorithe_halberd: "zoomers_armory:unorithe_halberd",
-/** @type {string} */
-i_unorithe_buckler: "zoomers_armory:unorithe_buckler",
-/** @type {string} */
-i_unorithe_heater: "zoomers_armory:unorithe_heater",
-/** @type {string} */
-i_unorithe_tower: "zoomers_armory:unorithe_tower",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
 const item_zoomers_magic = {
     /** @type {string} */
 i_augment_pyromancer_1: "zoomers_magic:augment_pyromancer_1",
@@ -23426,6 +30600,14 @@ i_augment_healer_1: "zoomers_magic:augment_healer_1",
 /** @type {string} */
 i_augment_tank_1: "zoomers_magic:augment_tank_1",
 /** @type {string} */
+i_augment_health_1: "zoomers_magic:augment_health_1",
+/** @type {string} */
+i_augment_armor_1: "zoomers_magic:augment_armor_1",
+/** @type {string} */
+i_augment_mana_1: "zoomers_magic:augment_mana_1",
+/** @type {string} */
+i_augment_mana_regen_1: "zoomers_magic:augment_mana_regen_1",
+/** @type {string} */
 i_augment_pyromancer_2: "zoomers_magic:augment_pyromancer_2",
 /** @type {string} */
 i_augment_cryomancer_2: "zoomers_magic:augment_cryomancer_2",
@@ -23459,6 +30641,14 @@ i_augment_explorer_2: "zoomers_magic:augment_explorer_2",
 i_augment_healer_2: "zoomers_magic:augment_healer_2",
 /** @type {string} */
 i_augment_tank_2: "zoomers_magic:augment_tank_2",
+/** @type {string} */
+i_augment_health_2: "zoomers_magic:augment_health_2",
+/** @type {string} */
+i_augment_armor_2: "zoomers_magic:augment_armor_2",
+/** @type {string} */
+i_augment_mana_2: "zoomers_magic:augment_mana_2",
+/** @type {string} */
+i_augment_mana_regen_2: "zoomers_magic:augment_mana_regen_2",
 /** @type {string} */
 i_augment_pyromancer_3: "zoomers_magic:augment_pyromancer_3",
 /** @type {string} */
@@ -23494,6 +30684,14 @@ i_augment_healer_3: "zoomers_magic:augment_healer_3",
 /** @type {string} */
 i_augment_tank_3: "zoomers_magic:augment_tank_3",
 /** @type {string} */
+i_augment_health_3: "zoomers_magic:augment_health_3",
+/** @type {string} */
+i_augment_armor_3: "zoomers_magic:augment_armor_3",
+/** @type {string} */
+i_augment_mana_3: "zoomers_magic:augment_mana_3",
+/** @type {string} */
+i_augment_mana_regen_3: "zoomers_magic:augment_mana_regen_3",
+/** @type {string} */
 i_augment_pyromancer_4: "zoomers_magic:augment_pyromancer_4",
 /** @type {string} */
 i_augment_cryomancer_4: "zoomers_magic:augment_cryomancer_4",
@@ -23527,6 +30725,14 @@ i_augment_explorer_4: "zoomers_magic:augment_explorer_4",
 i_augment_healer_4: "zoomers_magic:augment_healer_4",
 /** @type {string} */
 i_augment_tank_4: "zoomers_magic:augment_tank_4",
+/** @type {string} */
+i_augment_health_4: "zoomers_magic:augment_health_4",
+/** @type {string} */
+i_augment_armor_4: "zoomers_magic:augment_armor_4",
+/** @type {string} */
+i_augment_mana_4: "zoomers_magic:augment_mana_4",
+/** @type {string} */
+i_augment_mana_regen_4: "zoomers_magic:augment_mana_regen_4",
 /** @type {string} */
 i_augment_pyromancer_5: "zoomers_magic:augment_pyromancer_5",
 /** @type {string} */
@@ -23562,6 +30768,14 @@ i_augment_healer_5: "zoomers_magic:augment_healer_5",
 /** @type {string} */
 i_augment_tank_5: "zoomers_magic:augment_tank_5",
 /** @type {string} */
+i_augment_health_5: "zoomers_magic:augment_health_5",
+/** @type {string} */
+i_augment_armor_5: "zoomers_magic:augment_armor_5",
+/** @type {string} */
+i_augment_mana_5: "zoomers_magic:augment_mana_5",
+/** @type {string} */
+i_augment_mana_regen_5: "zoomers_magic:augment_mana_regen_5",
+/** @type {string} */
 i_augment_pyromancer_6: "zoomers_magic:augment_pyromancer_6",
 /** @type {string} */
 i_augment_cryomancer_6: "zoomers_magic:augment_cryomancer_6",
@@ -23595,6 +30809,14 @@ i_augment_explorer_6: "zoomers_magic:augment_explorer_6",
 i_augment_healer_6: "zoomers_magic:augment_healer_6",
 /** @type {string} */
 i_augment_tank_6: "zoomers_magic:augment_tank_6",
+/** @type {string} */
+i_augment_health_6: "zoomers_magic:augment_health_6",
+/** @type {string} */
+i_augment_armor_6: "zoomers_magic:augment_armor_6",
+/** @type {string} */
+i_augment_mana_6: "zoomers_magic:augment_mana_6",
+/** @type {string} */
+i_augment_mana_regen_6: "zoomers_magic:augment_mana_regen_6",
 /** @type {string} */
 i_augment_pyromancer_7: "zoomers_magic:augment_pyromancer_7",
 /** @type {string} */
@@ -23630,6 +30852,14 @@ i_augment_healer_7: "zoomers_magic:augment_healer_7",
 /** @type {string} */
 i_augment_tank_7: "zoomers_magic:augment_tank_7",
 /** @type {string} */
+i_augment_health_7: "zoomers_magic:augment_health_7",
+/** @type {string} */
+i_augment_armor_7: "zoomers_magic:augment_armor_7",
+/** @type {string} */
+i_augment_mana_7: "zoomers_magic:augment_mana_7",
+/** @type {string} */
+i_augment_mana_regen_7: "zoomers_magic:augment_mana_regen_7",
+/** @type {string} */
 i_augment_pyromancer_8: "zoomers_magic:augment_pyromancer_8",
 /** @type {string} */
 i_augment_cryomancer_8: "zoomers_magic:augment_cryomancer_8",
@@ -23663,6 +30893,14 @@ i_augment_explorer_8: "zoomers_magic:augment_explorer_8",
 i_augment_healer_8: "zoomers_magic:augment_healer_8",
 /** @type {string} */
 i_augment_tank_8: "zoomers_magic:augment_tank_8",
+/** @type {string} */
+i_augment_health_8: "zoomers_magic:augment_health_8",
+/** @type {string} */
+i_augment_armor_8: "zoomers_magic:augment_armor_8",
+/** @type {string} */
+i_augment_mana_8: "zoomers_magic:augment_mana_8",
+/** @type {string} */
+i_augment_mana_regen_8: "zoomers_magic:augment_mana_regen_8",
 /** @type {string} */
 i_pyromancer_offhand_tier_1: "zoomers_magic:pyromancer_offhand_tier_1",
 /** @type {string} */
@@ -23802,298 +31040,6 @@ i_plagued_offhand_tier_8: "zoomers_magic:plagued_offhand_tier_8",
  * @readonly
  * @enum {string}
  */
-const item_sophisticatedstorage = {
-    /** @type {string} */
-i_barrel: "sophisticatedstorage:barrel",
-/** @type {string} */
-i_copper_barrel: "sophisticatedstorage:copper_barrel",
-/** @type {string} */
-i_iron_barrel: "sophisticatedstorage:iron_barrel",
-/** @type {string} */
-i_gold_barrel: "sophisticatedstorage:gold_barrel",
-/** @type {string} */
-i_diamond_barrel: "sophisticatedstorage:diamond_barrel",
-/** @type {string} */
-i_netherite_barrel: "sophisticatedstorage:netherite_barrel",
-/** @type {string} */
-i_limited_barrel_1: "sophisticatedstorage:limited_barrel_1",
-/** @type {string} */
-i_limited_iron_barrel_1: "sophisticatedstorage:limited_iron_barrel_1",
-/** @type {string} */
-i_limited_copper_barrel_1: "sophisticatedstorage:limited_copper_barrel_1",
-/** @type {string} */
-i_limited_gold_barrel_1: "sophisticatedstorage:limited_gold_barrel_1",
-/** @type {string} */
-i_limited_diamond_barrel_1: "sophisticatedstorage:limited_diamond_barrel_1",
-/** @type {string} */
-i_limited_netherite_barrel_1: "sophisticatedstorage:limited_netherite_barrel_1",
-/** @type {string} */
-i_limited_barrel_2: "sophisticatedstorage:limited_barrel_2",
-/** @type {string} */
-i_limited_copper_barrel_2: "sophisticatedstorage:limited_copper_barrel_2",
-/** @type {string} */
-i_limited_iron_barrel_2: "sophisticatedstorage:limited_iron_barrel_2",
-/** @type {string} */
-i_limited_gold_barrel_2: "sophisticatedstorage:limited_gold_barrel_2",
-/** @type {string} */
-i_limited_diamond_barrel_2: "sophisticatedstorage:limited_diamond_barrel_2",
-/** @type {string} */
-i_limited_netherite_barrel_2: "sophisticatedstorage:limited_netherite_barrel_2",
-/** @type {string} */
-i_limited_barrel_3: "sophisticatedstorage:limited_barrel_3",
-/** @type {string} */
-i_limited_copper_barrel_3: "sophisticatedstorage:limited_copper_barrel_3",
-/** @type {string} */
-i_limited_iron_barrel_3: "sophisticatedstorage:limited_iron_barrel_3",
-/** @type {string} */
-i_limited_gold_barrel_3: "sophisticatedstorage:limited_gold_barrel_3",
-/** @type {string} */
-i_limited_diamond_barrel_3: "sophisticatedstorage:limited_diamond_barrel_3",
-/** @type {string} */
-i_limited_netherite_barrel_3: "sophisticatedstorage:limited_netherite_barrel_3",
-/** @type {string} */
-i_limited_barrel_4: "sophisticatedstorage:limited_barrel_4",
-/** @type {string} */
-i_limited_copper_barrel_4: "sophisticatedstorage:limited_copper_barrel_4",
-/** @type {string} */
-i_limited_iron_barrel_4: "sophisticatedstorage:limited_iron_barrel_4",
-/** @type {string} */
-i_limited_gold_barrel_4: "sophisticatedstorage:limited_gold_barrel_4",
-/** @type {string} */
-i_limited_diamond_barrel_4: "sophisticatedstorage:limited_diamond_barrel_4",
-/** @type {string} */
-i_limited_netherite_barrel_4: "sophisticatedstorage:limited_netherite_barrel_4",
-/** @type {string} */
-i_chest: "sophisticatedstorage:chest",
-/** @type {string} */
-i_copper_chest: "sophisticatedstorage:copper_chest",
-/** @type {string} */
-i_iron_chest: "sophisticatedstorage:iron_chest",
-/** @type {string} */
-i_gold_chest: "sophisticatedstorage:gold_chest",
-/** @type {string} */
-i_diamond_chest: "sophisticatedstorage:diamond_chest",
-/** @type {string} */
-i_netherite_chest: "sophisticatedstorage:netherite_chest",
-/** @type {string} */
-i_shulker_box: "sophisticatedstorage:shulker_box",
-/** @type {string} */
-i_copper_shulker_box: "sophisticatedstorage:copper_shulker_box",
-/** @type {string} */
-i_iron_shulker_box: "sophisticatedstorage:iron_shulker_box",
-/** @type {string} */
-i_gold_shulker_box: "sophisticatedstorage:gold_shulker_box",
-/** @type {string} */
-i_diamond_shulker_box: "sophisticatedstorage:diamond_shulker_box",
-/** @type {string} */
-i_netherite_shulker_box: "sophisticatedstorage:netherite_shulker_box",
-/** @type {string} */
-i_controller: "sophisticatedstorage:controller",
-/** @type {string} */
-i_storage_link: "sophisticatedstorage:storage_link",
-/** @type {string} */
-i_storage_io: "sophisticatedstorage:storage_io",
-/** @type {string} */
-i_storage_input: "sophisticatedstorage:storage_input",
-/** @type {string} */
-i_storage_output: "sophisticatedstorage:storage_output",
-/** @type {string} */
-i_pickup_upgrade: "sophisticatedstorage:pickup_upgrade",
-/** @type {string} */
-i_advanced_pickup_upgrade: "sophisticatedstorage:advanced_pickup_upgrade",
-/** @type {string} */
-i_filter_upgrade: "sophisticatedstorage:filter_upgrade",
-/** @type {string} */
-i_advanced_filter_upgrade: "sophisticatedstorage:advanced_filter_upgrade",
-/** @type {string} */
-i_magnet_upgrade: "sophisticatedstorage:magnet_upgrade",
-/** @type {string} */
-i_advanced_magnet_upgrade: "sophisticatedstorage:advanced_magnet_upgrade",
-/** @type {string} */
-i_feeding_upgrade: "sophisticatedstorage:feeding_upgrade",
-/** @type {string} */
-i_advanced_feeding_upgrade: "sophisticatedstorage:advanced_feeding_upgrade",
-/** @type {string} */
-i_compacting_upgrade: "sophisticatedstorage:compacting_upgrade",
-/** @type {string} */
-i_advanced_compacting_upgrade: "sophisticatedstorage:advanced_compacting_upgrade",
-/** @type {string} */
-i_void_upgrade: "sophisticatedstorage:void_upgrade",
-/** @type {string} */
-i_advanced_void_upgrade: "sophisticatedstorage:advanced_void_upgrade",
-/** @type {string} */
-i_smelting_upgrade: "sophisticatedstorage:smelting_upgrade",
-/** @type {string} */
-i_auto_smelting_upgrade: "sophisticatedstorage:auto_smelting_upgrade",
-/** @type {string} */
-i_smoking_upgrade: "sophisticatedstorage:smoking_upgrade",
-/** @type {string} */
-i_auto_smoking_upgrade: "sophisticatedstorage:auto_smoking_upgrade",
-/** @type {string} */
-i_blasting_upgrade: "sophisticatedstorage:blasting_upgrade",
-/** @type {string} */
-i_auto_blasting_upgrade: "sophisticatedstorage:auto_blasting_upgrade",
-/** @type {string} */
-i_crafting_upgrade: "sophisticatedstorage:crafting_upgrade",
-/** @type {string} */
-i_stonecutter_upgrade: "sophisticatedstorage:stonecutter_upgrade",
-/** @type {string} */
-i_stack_upgrade_tier_1: "sophisticatedstorage:stack_upgrade_tier_1",
-/** @type {string} */
-i_stack_upgrade_tier_1_plus: "sophisticatedstorage:stack_upgrade_tier_1_plus",
-/** @type {string} */
-i_stack_upgrade_tier_2: "sophisticatedstorage:stack_upgrade_tier_2",
-/** @type {string} */
-i_stack_upgrade_tier_3: "sophisticatedstorage:stack_upgrade_tier_3",
-/** @type {string} */
-i_stack_upgrade_tier_4: "sophisticatedstorage:stack_upgrade_tier_4",
-/** @type {string} */
-i_jukebox_upgrade: "sophisticatedstorage:jukebox_upgrade",
-/** @type {string} */
-i_pump_upgrade: "sophisticatedstorage:pump_upgrade",
-/** @type {string} */
-i_advanced_pump_upgrade: "sophisticatedstorage:advanced_pump_upgrade",
-/** @type {string} */
-i_xp_pump_upgrade: "sophisticatedstorage:xp_pump_upgrade",
-/** @type {string} */
-i_compression_upgrade: "sophisticatedstorage:compression_upgrade",
-/** @type {string} */
-i_hopper_upgrade: "sophisticatedstorage:hopper_upgrade",
-/** @type {string} */
-i_advanced_hopper_upgrade: "sophisticatedstorage:advanced_hopper_upgrade",
-/** @type {string} */
-i_basic_tier_upgrade: "sophisticatedstorage:basic_tier_upgrade",
-/** @type {string} */
-i_basic_to_copper_tier_upgrade: "sophisticatedstorage:basic_to_copper_tier_upgrade",
-/** @type {string} */
-i_basic_to_iron_tier_upgrade: "sophisticatedstorage:basic_to_iron_tier_upgrade",
-/** @type {string} */
-i_basic_to_gold_tier_upgrade: "sophisticatedstorage:basic_to_gold_tier_upgrade",
-/** @type {string} */
-i_basic_to_diamond_tier_upgrade: "sophisticatedstorage:basic_to_diamond_tier_upgrade",
-/** @type {string} */
-i_basic_to_netherite_tier_upgrade: "sophisticatedstorage:basic_to_netherite_tier_upgrade",
-/** @type {string} */
-i_copper_to_iron_tier_upgrade: "sophisticatedstorage:copper_to_iron_tier_upgrade",
-/** @type {string} */
-i_copper_to_gold_tier_upgrade: "sophisticatedstorage:copper_to_gold_tier_upgrade",
-/** @type {string} */
-i_copper_to_diamond_tier_upgrade: "sophisticatedstorage:copper_to_diamond_tier_upgrade",
-/** @type {string} */
-i_copper_to_netherite_tier_upgrade: "sophisticatedstorage:copper_to_netherite_tier_upgrade",
-/** @type {string} */
-i_iron_to_gold_tier_upgrade: "sophisticatedstorage:iron_to_gold_tier_upgrade",
-/** @type {string} */
-i_iron_to_diamond_tier_upgrade: "sophisticatedstorage:iron_to_diamond_tier_upgrade",
-/** @type {string} */
-i_iron_to_netherite_tier_upgrade: "sophisticatedstorage:iron_to_netherite_tier_upgrade",
-/** @type {string} */
-i_gold_to_diamond_tier_upgrade: "sophisticatedstorage:gold_to_diamond_tier_upgrade",
-/** @type {string} */
-i_gold_to_netherite_tier_upgrade: "sophisticatedstorage:gold_to_netherite_tier_upgrade",
-/** @type {string} */
-i_diamond_to_netherite_tier_upgrade: "sophisticatedstorage:diamond_to_netherite_tier_upgrade",
-/** @type {string} */
-i_upgrade_base: "sophisticatedstorage:upgrade_base",
-/** @type {string} */
-i_packing_tape: "sophisticatedstorage:packing_tape",
-/** @type {string} */
-i_storage_tool: "sophisticatedstorage:storage_tool",
-/** @type {string} */
-i_debug_tool: "sophisticatedstorage:debug_tool",
-/** @type {string} */
-i_inaccessible_slot: "sophisticatedstorage:inaccessible_slot",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
-const item_itemfilters = {
-    /** @type {string} */
-i_always_true: "itemfilters:always_true",
-/** @type {string} */
-i_always_false: "itemfilters:always_false",
-/** @type {string} */
-i_or: "itemfilters:or",
-/** @type {string} */
-i_and: "itemfilters:and",
-/** @type {string} */
-i_not: "itemfilters:not",
-/** @type {string} */
-i_xor: "itemfilters:xor",
-/** @type {string} */
-i_tag: "itemfilters:tag",
-/** @type {string} */
-i_mod: "itemfilters:mod",
-/** @type {string} */
-i_id_regex: "itemfilters:id_regex",
-/** @type {string} */
-i_damage: "itemfilters:damage",
-/** @type {string} */
-i_block: "itemfilters:block",
-/** @type {string} */
-i_max_count: "itemfilters:max_count",
-/** @type {string} */
-i_strong_nbt: "itemfilters:strong_nbt",
-/** @type {string} */
-i_weak_nbt: "itemfilters:weak_nbt",
-/** @type {string} */
-i_custom: "itemfilters:custom",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
-const item_ftbquests = {
-    /** @type {string} */
-i_book: "ftbquests:book",
-/** @type {string} */
-i_lootcrate: "ftbquests:lootcrate",
-/** @type {string} */
-i_task_screen_configurator: "ftbquests:task_screen_configurator",
-/** @type {string} */
-i_missing_item: "ftbquests:missing_item",
-/** @type {string} */
-i_custom_icon: "ftbquests:custom_icon",
-/** @type {string} */
-i_barrier: "ftbquests:barrier",
-/** @type {string} */
-i_stage_barrier: "ftbquests:stage_barrier",
-/** @type {string} */
-i_detector: "ftbquests:detector",
-/** @type {string} */
-i_loot_crate_opener: "ftbquests:loot_crate_opener",
-/** @type {string} */
-i_screen_1: "ftbquests:screen_1",
-/** @type {string} */
-i_screen_3: "ftbquests:screen_3",
-/** @type {string} */
-i_screen_5: "ftbquests:screen_5",
-/** @type {string} */
-i_screen_7: "ftbquests:screen_7",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
 const item_create = {
     /** @type {string} */
 i_electric_motor: "createaddition:electric_motor",
@@ -24185,6 +31131,16 @@ i_straw: "createaddition:straw",
 i_seed_oil_bucket: "createaddition:seed_oil_bucket",
 /** @type {string} */
 i_bioethanol_bucket: "createaddition:bioethanol_bucket",
+/** @type {string} */
+i_silicon_remains: "create:silicon_remains",
+/** @type {string} */
+i_clean_silicon_chunk: "create:clean_silicon_chunk",
+/** @type {string} */
+i_dirty_silicon_chunk: "create:dirty_silicon_chunk",
+/** @type {string} */
+i_pressed_silicon_chunk: "create:pressed_silicon_chunk",
+/** @type {string} */
+i_basic_burner: "createlowheated:basic_burner",
 /** @type {string} */
 i_schematicannon: "create:schematicannon",
 /** @type {string} */
@@ -25602,6 +32558,346 @@ i_horizonite_sheet: "create_blue_skies_compat:horizonite_sheet",
  * @readonly
  * @enum {string}
  */
+const item_zoomers_economy = {
+    /** @type {string} */
+i_gatekeeper_bag: "zoomers_economy:gatekeeper_bag",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const item_sophisticatedstorage = {
+    /** @type {string} */
+i_barrel: "sophisticatedstorage:barrel",
+/** @type {string} */
+i_copper_barrel: "sophisticatedstorage:copper_barrel",
+/** @type {string} */
+i_iron_barrel: "sophisticatedstorage:iron_barrel",
+/** @type {string} */
+i_gold_barrel: "sophisticatedstorage:gold_barrel",
+/** @type {string} */
+i_diamond_barrel: "sophisticatedstorage:diamond_barrel",
+/** @type {string} */
+i_netherite_barrel: "sophisticatedstorage:netherite_barrel",
+/** @type {string} */
+i_limited_barrel_1: "sophisticatedstorage:limited_barrel_1",
+/** @type {string} */
+i_limited_iron_barrel_1: "sophisticatedstorage:limited_iron_barrel_1",
+/** @type {string} */
+i_limited_copper_barrel_1: "sophisticatedstorage:limited_copper_barrel_1",
+/** @type {string} */
+i_limited_gold_barrel_1: "sophisticatedstorage:limited_gold_barrel_1",
+/** @type {string} */
+i_limited_diamond_barrel_1: "sophisticatedstorage:limited_diamond_barrel_1",
+/** @type {string} */
+i_limited_netherite_barrel_1: "sophisticatedstorage:limited_netherite_barrel_1",
+/** @type {string} */
+i_limited_barrel_2: "sophisticatedstorage:limited_barrel_2",
+/** @type {string} */
+i_limited_copper_barrel_2: "sophisticatedstorage:limited_copper_barrel_2",
+/** @type {string} */
+i_limited_iron_barrel_2: "sophisticatedstorage:limited_iron_barrel_2",
+/** @type {string} */
+i_limited_gold_barrel_2: "sophisticatedstorage:limited_gold_barrel_2",
+/** @type {string} */
+i_limited_diamond_barrel_2: "sophisticatedstorage:limited_diamond_barrel_2",
+/** @type {string} */
+i_limited_netherite_barrel_2: "sophisticatedstorage:limited_netherite_barrel_2",
+/** @type {string} */
+i_limited_barrel_3: "sophisticatedstorage:limited_barrel_3",
+/** @type {string} */
+i_limited_copper_barrel_3: "sophisticatedstorage:limited_copper_barrel_3",
+/** @type {string} */
+i_limited_iron_barrel_3: "sophisticatedstorage:limited_iron_barrel_3",
+/** @type {string} */
+i_limited_gold_barrel_3: "sophisticatedstorage:limited_gold_barrel_3",
+/** @type {string} */
+i_limited_diamond_barrel_3: "sophisticatedstorage:limited_diamond_barrel_3",
+/** @type {string} */
+i_limited_netherite_barrel_3: "sophisticatedstorage:limited_netherite_barrel_3",
+/** @type {string} */
+i_limited_barrel_4: "sophisticatedstorage:limited_barrel_4",
+/** @type {string} */
+i_limited_copper_barrel_4: "sophisticatedstorage:limited_copper_barrel_4",
+/** @type {string} */
+i_limited_iron_barrel_4: "sophisticatedstorage:limited_iron_barrel_4",
+/** @type {string} */
+i_limited_gold_barrel_4: "sophisticatedstorage:limited_gold_barrel_4",
+/** @type {string} */
+i_limited_diamond_barrel_4: "sophisticatedstorage:limited_diamond_barrel_4",
+/** @type {string} */
+i_limited_netherite_barrel_4: "sophisticatedstorage:limited_netherite_barrel_4",
+/** @type {string} */
+i_chest: "sophisticatedstorage:chest",
+/** @type {string} */
+i_copper_chest: "sophisticatedstorage:copper_chest",
+/** @type {string} */
+i_iron_chest: "sophisticatedstorage:iron_chest",
+/** @type {string} */
+i_gold_chest: "sophisticatedstorage:gold_chest",
+/** @type {string} */
+i_diamond_chest: "sophisticatedstorage:diamond_chest",
+/** @type {string} */
+i_netherite_chest: "sophisticatedstorage:netherite_chest",
+/** @type {string} */
+i_shulker_box: "sophisticatedstorage:shulker_box",
+/** @type {string} */
+i_copper_shulker_box: "sophisticatedstorage:copper_shulker_box",
+/** @type {string} */
+i_iron_shulker_box: "sophisticatedstorage:iron_shulker_box",
+/** @type {string} */
+i_gold_shulker_box: "sophisticatedstorage:gold_shulker_box",
+/** @type {string} */
+i_diamond_shulker_box: "sophisticatedstorage:diamond_shulker_box",
+/** @type {string} */
+i_netherite_shulker_box: "sophisticatedstorage:netherite_shulker_box",
+/** @type {string} */
+i_controller: "sophisticatedstorage:controller",
+/** @type {string} */
+i_storage_link: "sophisticatedstorage:storage_link",
+/** @type {string} */
+i_storage_io: "sophisticatedstorage:storage_io",
+/** @type {string} */
+i_storage_input: "sophisticatedstorage:storage_input",
+/** @type {string} */
+i_storage_output: "sophisticatedstorage:storage_output",
+/** @type {string} */
+i_pickup_upgrade: "sophisticatedstorage:pickup_upgrade",
+/** @type {string} */
+i_advanced_pickup_upgrade: "sophisticatedstorage:advanced_pickup_upgrade",
+/** @type {string} */
+i_filter_upgrade: "sophisticatedstorage:filter_upgrade",
+/** @type {string} */
+i_advanced_filter_upgrade: "sophisticatedstorage:advanced_filter_upgrade",
+/** @type {string} */
+i_magnet_upgrade: "sophisticatedstorage:magnet_upgrade",
+/** @type {string} */
+i_advanced_magnet_upgrade: "sophisticatedstorage:advanced_magnet_upgrade",
+/** @type {string} */
+i_feeding_upgrade: "sophisticatedstorage:feeding_upgrade",
+/** @type {string} */
+i_advanced_feeding_upgrade: "sophisticatedstorage:advanced_feeding_upgrade",
+/** @type {string} */
+i_compacting_upgrade: "sophisticatedstorage:compacting_upgrade",
+/** @type {string} */
+i_advanced_compacting_upgrade: "sophisticatedstorage:advanced_compacting_upgrade",
+/** @type {string} */
+i_void_upgrade: "sophisticatedstorage:void_upgrade",
+/** @type {string} */
+i_advanced_void_upgrade: "sophisticatedstorage:advanced_void_upgrade",
+/** @type {string} */
+i_smelting_upgrade: "sophisticatedstorage:smelting_upgrade",
+/** @type {string} */
+i_auto_smelting_upgrade: "sophisticatedstorage:auto_smelting_upgrade",
+/** @type {string} */
+i_smoking_upgrade: "sophisticatedstorage:smoking_upgrade",
+/** @type {string} */
+i_auto_smoking_upgrade: "sophisticatedstorage:auto_smoking_upgrade",
+/** @type {string} */
+i_blasting_upgrade: "sophisticatedstorage:blasting_upgrade",
+/** @type {string} */
+i_auto_blasting_upgrade: "sophisticatedstorage:auto_blasting_upgrade",
+/** @type {string} */
+i_crafting_upgrade: "sophisticatedstorage:crafting_upgrade",
+/** @type {string} */
+i_stonecutter_upgrade: "sophisticatedstorage:stonecutter_upgrade",
+/** @type {string} */
+i_stack_upgrade_tier_1: "sophisticatedstorage:stack_upgrade_tier_1",
+/** @type {string} */
+i_stack_upgrade_tier_1_plus: "sophisticatedstorage:stack_upgrade_tier_1_plus",
+/** @type {string} */
+i_stack_upgrade_tier_2: "sophisticatedstorage:stack_upgrade_tier_2",
+/** @type {string} */
+i_stack_upgrade_tier_3: "sophisticatedstorage:stack_upgrade_tier_3",
+/** @type {string} */
+i_stack_upgrade_tier_4: "sophisticatedstorage:stack_upgrade_tier_4",
+/** @type {string} */
+i_jukebox_upgrade: "sophisticatedstorage:jukebox_upgrade",
+/** @type {string} */
+i_pump_upgrade: "sophisticatedstorage:pump_upgrade",
+/** @type {string} */
+i_advanced_pump_upgrade: "sophisticatedstorage:advanced_pump_upgrade",
+/** @type {string} */
+i_xp_pump_upgrade: "sophisticatedstorage:xp_pump_upgrade",
+/** @type {string} */
+i_compression_upgrade: "sophisticatedstorage:compression_upgrade",
+/** @type {string} */
+i_hopper_upgrade: "sophisticatedstorage:hopper_upgrade",
+/** @type {string} */
+i_advanced_hopper_upgrade: "sophisticatedstorage:advanced_hopper_upgrade",
+/** @type {string} */
+i_basic_tier_upgrade: "sophisticatedstorage:basic_tier_upgrade",
+/** @type {string} */
+i_basic_to_copper_tier_upgrade: "sophisticatedstorage:basic_to_copper_tier_upgrade",
+/** @type {string} */
+i_basic_to_iron_tier_upgrade: "sophisticatedstorage:basic_to_iron_tier_upgrade",
+/** @type {string} */
+i_basic_to_gold_tier_upgrade: "sophisticatedstorage:basic_to_gold_tier_upgrade",
+/** @type {string} */
+i_basic_to_diamond_tier_upgrade: "sophisticatedstorage:basic_to_diamond_tier_upgrade",
+/** @type {string} */
+i_basic_to_netherite_tier_upgrade: "sophisticatedstorage:basic_to_netherite_tier_upgrade",
+/** @type {string} */
+i_copper_to_iron_tier_upgrade: "sophisticatedstorage:copper_to_iron_tier_upgrade",
+/** @type {string} */
+i_copper_to_gold_tier_upgrade: "sophisticatedstorage:copper_to_gold_tier_upgrade",
+/** @type {string} */
+i_copper_to_diamond_tier_upgrade: "sophisticatedstorage:copper_to_diamond_tier_upgrade",
+/** @type {string} */
+i_copper_to_netherite_tier_upgrade: "sophisticatedstorage:copper_to_netherite_tier_upgrade",
+/** @type {string} */
+i_iron_to_gold_tier_upgrade: "sophisticatedstorage:iron_to_gold_tier_upgrade",
+/** @type {string} */
+i_iron_to_diamond_tier_upgrade: "sophisticatedstorage:iron_to_diamond_tier_upgrade",
+/** @type {string} */
+i_iron_to_netherite_tier_upgrade: "sophisticatedstorage:iron_to_netherite_tier_upgrade",
+/** @type {string} */
+i_gold_to_diamond_tier_upgrade: "sophisticatedstorage:gold_to_diamond_tier_upgrade",
+/** @type {string} */
+i_gold_to_netherite_tier_upgrade: "sophisticatedstorage:gold_to_netherite_tier_upgrade",
+/** @type {string} */
+i_diamond_to_netherite_tier_upgrade: "sophisticatedstorage:diamond_to_netherite_tier_upgrade",
+/** @type {string} */
+i_upgrade_base: "sophisticatedstorage:upgrade_base",
+/** @type {string} */
+i_packing_tape: "sophisticatedstorage:packing_tape",
+/** @type {string} */
+i_storage_tool: "sophisticatedstorage:storage_tool",
+/** @type {string} */
+i_debug_tool: "sophisticatedstorage:debug_tool",
+/** @type {string} */
+i_inaccessible_slot: "sophisticatedstorage:inaccessible_slot",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const item_itemfilters = {
+    /** @type {string} */
+i_always_true: "itemfilters:always_true",
+/** @type {string} */
+i_always_false: "itemfilters:always_false",
+/** @type {string} */
+i_or: "itemfilters:or",
+/** @type {string} */
+i_and: "itemfilters:and",
+/** @type {string} */
+i_not: "itemfilters:not",
+/** @type {string} */
+i_xor: "itemfilters:xor",
+/** @type {string} */
+i_tag: "itemfilters:tag",
+/** @type {string} */
+i_mod: "itemfilters:mod",
+/** @type {string} */
+i_id_regex: "itemfilters:id_regex",
+/** @type {string} */
+i_damage: "itemfilters:damage",
+/** @type {string} */
+i_block: "itemfilters:block",
+/** @type {string} */
+i_max_count: "itemfilters:max_count",
+/** @type {string} */
+i_strong_nbt: "itemfilters:strong_nbt",
+/** @type {string} */
+i_weak_nbt: "itemfilters:weak_nbt",
+/** @type {string} */
+i_custom: "itemfilters:custom",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const item_ftbquests = {
+    /** @type {string} */
+i_book: "ftbquests:book",
+/** @type {string} */
+i_lootcrate: "ftbquests:lootcrate",
+/** @type {string} */
+i_task_screen_configurator: "ftbquests:task_screen_configurator",
+/** @type {string} */
+i_missing_item: "ftbquests:missing_item",
+/** @type {string} */
+i_custom_icon: "ftbquests:custom_icon",
+/** @type {string} */
+i_barrier: "ftbquests:barrier",
+/** @type {string} */
+i_stage_barrier: "ftbquests:stage_barrier",
+/** @type {string} */
+i_detector: "ftbquests:detector",
+/** @type {string} */
+i_loot_crate_opener: "ftbquests:loot_crate_opener",
+/** @type {string} */
+i_screen_1: "ftbquests:screen_1",
+/** @type {string} */
+i_screen_3: "ftbquests:screen_3",
+/** @type {string} */
+i_screen_5: "ftbquests:screen_5",
+/** @type {string} */
+i_screen_7: "ftbquests:screen_7",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const item_createlowheated = {
+    /** @type {string} */
+i_basic_burner: "createlowheated:basic_burner",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const item_extendedgears = {
+    /** @type {string} */
+i_half_shaft_cogwheel: "extendedgears:half_shaft_cogwheel",
+/** @type {string} */
+i_large_half_shaft_cogwheel: "extendedgears:large_half_shaft_cogwheel",
+/** @type {string} */
+i_shaftless_cogwheel: "extendedgears:shaftless_cogwheel",
+/** @type {string} */
+i_large_shaftless_cogwheel: "extendedgears:large_shaftless_cogwheel",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const item_waystones = {
     /** @type {string} */
 i_waystone: "waystones:waystone",
@@ -26571,9 +33867,5 @@ i_horizonite_sheet: "create_blue_skies_compat:horizonite_sheet",
 
 /**
  * Auto-generated Typedef
- * @typedef {item_minecraft | item_betternether | item_simplemagnets | item_apotheosis | item_supplementaries | item_refinedstorage | item_structure_gel | item_solapplepie | item_handcrafted | item_morevillagers | item_zoomers_extended_apotheosis | item_toms_trading_network | item_tombstone | item_constructionwand | item_chimes | item_trials | item_mcwlights | item_bellsandwhistles | item_mutantmonsters | item_libraryferret | item_kobolds | item_biomesoplenty | item_domum_ornamentum | item_structurize | item_lootr | item_immersive_melodies | item_phantasm | item_doggytalents | item_mimic | item_zoomer_bows | item_sophisticatedbackpacks | item_plentyplates | item_utilitarian | item_mcwbridges | item_endertanks | item_simplylight | item_everythingisedibleeie | item_elevatorid | item_undergarden | item_goblintraders | item_copycats | item_obscure_api | item_outer_end | item_bosses_of_mass_destruction | item_endermanoverhaul | item_minecolonies | item_bushierflowers | item_simpleradio | item_createaddition | item_perfectplushies | item_man_of_many_planes | item_irons_spellbooks | item_slotmachinemod | item_macawsbridgesbop | item_immersive_armors | item_callfromthedepth_ | item_daily_rewards | item_ironfurnaces | item_mysticaloaktree | item_origins | item_energymeter | item_measurements | item_theabyss | item_mcwfurnitures | item_crafting_on_a_stick | item_multipiston | item_packingtape | item_mythicmounts | item_mcwpaths | item_usefulrailroads | item_croptopia | item_oceansdelight | item_aquaculture | item_convenientcurioscontainer | item_aquamirae | item_blue_skies | item_creeperoverhaul | item_crittersandcompanions | item_aether | item_naturalist | item_immersive_aircraft | item_cookingforblockheads | item_citadel | item_railways | item_farmersdelight | item_cuffed | item_compressium | item_ender_dragon_loot_ | item_endersdelight | item_endrem | item_mokels_boss_mantyd | item_patchouli | item_vinery | item_enderitemod | item_herbalbrews | item_auctionworld | item_bakery | item_brewery | item_meadow | item_dotcoinmod | item_nethervinery | item_candlelight | item_beachparty | item_trashcans | item_smallships | item_nutritionalbalance | item_easy_mob_farm | item_kubejs | item_zoomers_armory | item_zoomers_magic | item_sophisticatedstorage | item_itemfilters | item_ftbquests | item_create | item_waystones | item_comforts | item_call_of_yucutan | item_moonlight | item_toolbelt | item_nethersdelight | item_create_sa | item_enderchests | item_endlessbiomes | item_create_blue_skies_compat} item
+ * @typedef {item_minecraft | item_betternether | item_zoomers_armory | item_simplemagnets | item_apotheosis | item_supplementaries | item_refinedstorage | item_structure_gel | item_handcrafted | item_morevillagers | item_fantasy_armor | item_toms_trading_network | item_constructionwand | item_chimes | item_trials | item_mcwlights | item_bellsandwhistles | item_mutantmonsters | item_libraryferret | item_kobolds | item_biomesoplenty | item_domum_ornamentum | item_gravestone | item_structurize | item_lootr | item_immersive_melodies | item_phantasm | item_doggytalents | item_mimic | item_sophisticatedbackpacks | item_ze_apotheosis | item_plentyplates | item_utilitarian | item_mcwbridges | item_endertanks | item_simplylight | item_everythingisedibleeie | item_elevatorid | item_aether_protect_your_moa | item_nether_armory | item_undergarden | item_goblintraders | item_copycats | item_obscure_api | item_outer_end | item_bosses_of_mass_destruction | item_endermanoverhaul | item_armoroftheages | item_minecolonies | item_bushierflowers | item_simpleradio | item_createaddition | item_perfectplushies | item_man_of_many_planes | item_irons_spellbooks | item_slotmachinemod | item_macawsbridgesbop | item_immersive_armors | item_callfromthedepth_ | item_daily_rewards | item_ironfurnaces | item_mysticaloaktree | item_origins | item_energymeter | item_measurements | item_theabyss | item_mcwfurnitures | item_crafting_on_a_stick | item_multipiston | item_solonion | item_packingtape | item_mythicmounts | item_aetherdelight | item_mcwpaths | item_usefulrailroads | item_croptopia | item_oceansdelight | item_aquaculture | item_convenientcurioscontainer | item_aquamirae | item_blue_skies | item_creeperoverhaul | item_crittersandcompanions | item_aether | item_lost_aether_content | item_naturalist | item_immersive_aircraft | item_cookingforblockheads | item_citadel | item_railways | item_farmersdelight | item_cuffed | item_compressium | item_ender_dragon_loot_ | item_endersdelight | item_endrem | item_mokels_boss_mantyd | item_patchouli | item_vinery | item_enderitemod | item_herbalbrews | item_auctionworld | item_bakery | item_brewery | item_meadow | item_dotcoinmod | item_nethervinery | item_candlelight | item_beachparty | item_fortunas_anvil | item_trashcans | item_smallships | item_easy_mob_farm | item_kubejs | item_zoomers_magic | item_create | item_zoomers_economy | item_sophisticatedstorage | item_itemfilters | item_ftbquests | item_createlowheated | item_extendedgears | item_waystones | item_comforts | item_call_of_yucutan | item_moonlight | item_toolbelt | item_nethersdelight | item_create_sa | item_enderchests | item_endlessbiomes | item_create_blue_skies_compat} item
  */
-
-module.exports = {
-    item_minecraft, item_betternether, item_simplemagnets, item_apotheosis, item_supplementaries, item_refinedstorage, item_structure_gel, item_solapplepie, item_handcrafted, item_morevillagers, item_zoomers_extended_apotheosis, item_toms_trading_network, item_tombstone, item_constructionwand, item_chimes, item_trials, item_mcwlights, item_bellsandwhistles, item_mutantmonsters, item_libraryferret, item_kobolds, item_biomesoplenty, item_domum_ornamentum, item_structurize, item_lootr, item_immersive_melodies, item_phantasm, item_doggytalents, item_mimic, item_zoomer_bows, item_sophisticatedbackpacks, item_plentyplates, item_utilitarian, item_mcwbridges, item_endertanks, item_simplylight, item_everythingisedibleeie, item_elevatorid, item_undergarden, item_goblintraders, item_copycats, item_obscure_api, item_outer_end, item_bosses_of_mass_destruction, item_endermanoverhaul, item_minecolonies, item_bushierflowers, item_simpleradio, item_createaddition, item_perfectplushies, item_man_of_many_planes, item_irons_spellbooks, item_slotmachinemod, item_macawsbridgesbop, item_immersive_armors, item_callfromthedepth_, item_daily_rewards, item_ironfurnaces, item_mysticaloaktree, item_origins, item_energymeter, item_measurements, item_theabyss, item_mcwfurnitures, item_crafting_on_a_stick, item_multipiston, item_packingtape, item_mythicmounts, item_mcwpaths, item_usefulrailroads, item_croptopia, item_oceansdelight, item_aquaculture, item_convenientcurioscontainer, item_aquamirae, item_blue_skies, item_creeperoverhaul, item_crittersandcompanions, item_aether, item_naturalist, item_immersive_aircraft, item_cookingforblockheads, item_citadel, item_railways, item_farmersdelight, item_cuffed, item_compressium, item_ender_dragon_loot_, item_endersdelight, item_endrem, item_mokels_boss_mantyd, item_patchouli, item_vinery, item_enderitemod, item_herbalbrews, item_auctionworld, item_bakery, item_brewery, item_meadow, item_dotcoinmod, item_nethervinery, item_candlelight, item_beachparty, item_trashcans, item_smallships, item_nutritionalbalance, item_easy_mob_farm, item_kubejs, item_zoomers_armory, item_zoomers_magic, item_sophisticatedstorage, item_itemfilters, item_ftbquests, item_create, item_waystones, item_comforts, item_call_of_yucutan, item_moonlight, item_toolbelt, item_nethersdelight, item_create_sa, item_enderchests, item_endlessbiomes, item_create_blue_skies_compat
-}
