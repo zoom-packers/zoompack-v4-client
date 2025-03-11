@@ -20,6 +20,14 @@ const TYPE_TEMPLATE = `
  * @typedef {{{CHILDREN}}} {{TYPE}}
  */
 `
+const TYPE_TS_TEMPLATE = `
+export type {{TYPE}} = {{CHILDREN}};
+`
+const EXPORT_TEMPLATE = `
+module.exports = {
+    {{values}}
+}
+`
 const dumpsPath = "../../configs"
 
 function createItemEnumTypedefs(inputPath, template, outputPath, prefix, replaceDots = true) {
@@ -51,6 +59,9 @@ function createItemEnumTypedefs(inputPath, template, outputPath, prefix, replace
     const typeDef = TYPE_TEMPLATE.replace("{{CHILDREN}}", modIdEnumStr).replace("{{TYPE}}", prefix);
     resultStr += typeDef;
 
+    const exportStr = EXPORT_TEMPLATE.replace("{{values}}", modIdEnums.join(", "));
+    resultStr += exportStr;
+
     fs.writeFileSync(`./${outputPath}`, resultStr);
 }
 
@@ -76,6 +87,14 @@ function createItemTSEnumTypedefs(inputPath, template, outputPath, prefix, repla
         resultStr += result;
         resultStr += "\n\n\n";
     }
+    const modIdEnums = modIds.map(modId => prefix + "_" + modId.toLowerCase());
+    const modIdEnumStr = modIdEnums.join(" | ");
+
+    const typeDef = TYPE_TS_TEMPLATE.replace("{{CHILDREN}}", modIdEnumStr).replace("{{TYPE}}", prefix);
+    resultStr += typeDef;
+
+    const exportStr = EXPORT_TEMPLATE.replace("{{values}}", modIdEnums.join(", "));
+    resultStr += exportStr;
 
     fs.writeFileSync(`./${outputPath}`, resultStr);
 }

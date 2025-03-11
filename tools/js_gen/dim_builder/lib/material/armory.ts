@@ -225,29 +225,23 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
                 const leggings = customArmoryEntry.variants.find(x => x.slot === "legs") as ArmorVariant;
                 // @ts-ignore
                 const boots = customArmoryEntry.variants.find(x => x.slot === "feet") as ArmorVariant;
-                if (customArmoryEntry.builtInAssets) {
-                    this.kubeJsContainer.registrar.registerGeckoArmor(modId,
-                        `${material.internalName}_${customArmoryEntry.armorId}`,
-                        `${modId}:${material.internalName}_${customArmoryEntry.armorId}`,
-                        `${idToDisplayName(material.internalName)} ${helmet.displayName}`,
-                        `${idToDisplayName(material.internalName)} ${chestplate.displayName}`,
-                        `${idToDisplayName(material.internalName)} ${leggings.displayName}`,
-                        `${idToDisplayName(material.internalName)} ${boots.displayName}`,
-                        "",
-                        `${customArmoryEntry.modelId}`,
-                        `${customArmoryEntry.textureId}`);
-                } else {
-                    this.kubeJsContainer.registrar.registerGeckoArmor(modId,
-                        `${material.internalName}_${customArmoryEntry.armorId}`,
-                        `${modId}:${material.internalName}_${customArmoryEntry.armorId}`,
-                        `${idToDisplayName(material.internalName)} ${helmet.displayName}`,
-                        `${idToDisplayName(material.internalName)} ${chestplate.displayName}`,
-                        `${idToDisplayName(material.internalName)} ${leggings.displayName}`,
-                        `${idToDisplayName(material.internalName)} ${boots.displayName}`,
-                        "",
-                        `${modId}:geo/${customArmoryEntry.armorId}.geo.json`,
-                        `${modId}:textures/models/armor/${material.internalName}_${customArmoryEntry.armorId}_armor.png`);
-                }
+                this.kubeJsContainer.registrar.registerGeckoArmor(
+                    modId,
+                    `${material.internalName}_${customArmoryEntry.armorId}`,
+                    `${modId}:${material.internalName}_${customArmoryEntry.armorId}`,
+                    {
+                        helmet: `${idToDisplayName(material.internalName)} ${helmet.displayName}`,
+                        chestplate: `${idToDisplayName(material.internalName)} ${chestplate.displayName}`,
+                        leggings: `${idToDisplayName(material.internalName)} ${leggings.displayName}`,
+                        boots: `${idToDisplayName(material.internalName)} ${boots.displayName}`,
+                    },
+                    {
+                        geo: `${modId}:geo/${customArmoryEntry.armorId}.geo.json`,
+                        texture: `${modId}:textures/models/armor/${material.internalName}_${customArmoryEntry.armorId}_armor.png`,
+                        animation: customArmoryEntry.animationPaths ? `${modId}:animations/${customArmoryEntry.armorId}.animation.json` : null,
+                        defaultAnimations: customArmoryEntry.defaultAnimations ?? null
+                    }
+                )
             } else if (customArmoryEntry instanceof SimpleItemArmoryEntry) {
                 this.kubeJsContainer.registrar.registerArmoryItem(`${modId}:${materialIdPart}_${customArmoryEntry.itemId}`, customArmoryEntry.variants[0].type, customArmoryEntry.variants[0].displayName, customArmoryEntry.variants[0].durabilityMultiplier * this.durability, `${modId}:${material.internalName}`);
             }

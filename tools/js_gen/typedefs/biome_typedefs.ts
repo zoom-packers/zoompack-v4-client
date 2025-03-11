@@ -288,3 +288,9 @@ b_skyroot_woodland = "aether:skyroot_woodland",
 }
 
 
+
+export type biome = biome_undergarden | biome_biomesoplenty | biome_outer_end | biome_minecraft | biome_theabyss | biome_betternether | biome_blue_skies | biome_callfromthedepth_ | biome_terrablender | biome_phantasm | biome_blueprint | biome_aether;
+
+module.exports = {
+    biome_undergarden, biome_biomesoplenty, biome_outer_end, biome_minecraft, biome_theabyss, biome_betternether, biome_blue_skies, biome_callfromthedepth_, biome_terrablender, biome_phantasm, biome_blueprint, biome_aether
+}

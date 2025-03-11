@@ -46,3 +46,9 @@ export enum dimension_undergarden {
 }
 
 
+
+export type dimension = dimension_minecraft | dimension_theabyss | dimension_aether | dimension_blue_skies | dimension_callfromthedepth_ | dimension_undergarden;
+
+module.exports = {
+    dimension_minecraft, dimension_theabyss, dimension_aether, dimension_blue_skies, dimension_callfromthedepth_, dimension_undergarden
+}

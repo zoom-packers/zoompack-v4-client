@@ -18,6 +18,9 @@ export class GeckoArmorArmoryEntry extends CustomArmoryEntry {
     rootItemsTexturePath: string;
     container: KubeJSContainer;
 
+    static builtGeos: string[] = [];
+    static builtAnims: string[] = [];
+
     //#region Builder methods
 
     constructor(variants: AnyVariant[], builtInAssets: boolean = false) {
@@ -61,6 +64,10 @@ export class GeckoArmorArmoryEntry extends CustomArmoryEntry {
         this.buildGeos(outputFolderPath, material.internalName);
         Debug.timeAction("geckoArmoryEntry_buildGeos", new Date().getTime() - now.getTime());
         now = new Date();
+        this.buildAnims(outputFolderPath, material.internalName);
+        Debug.timeAction("geckoArmoryEntry_buildAnims", new Date().getTime() - now.getTime());
+        log(this, `Built animations for ${material.internalName}`);
+        now = new Date();
         log(this, `Built geos for ${material.internalName}`);
         await this.buildTextures(outputFolderPath, material, modId);
         Debug.timeAction("geckoArmoryEntry_buildTextures", new Date().getTime() - now.getTime());
@@ -71,8 +78,25 @@ export class GeckoArmorArmoryEntry extends CustomArmoryEntry {
         const geoFolderPath = path.join(outputFolderPath, "geo");
         for (let geoPath of this.geoPaths) {
             const outputPath = path.join(geoFolderPath, removeNamespace(this.armorId) + ".geo.json");
+            if (GeckoArmorArmoryEntry.builtGeos.includes(outputPath)) {
+                continue;
+            }
             ensureFolderExists(geoFolderPath);
             fs.copyFileSync(geoPath, outputPath);
+            GeckoArmorArmoryEntry.builtGeos.push(outputPath);
+        }
+    }
+
+    buildAnims(outputFolderPath: string, materialId: string) {
+        const animFolderPath = path.join(outputFolderPath, "animations");
+        for (let animationPath of this.animationPaths) {
+            const outputPath = path.join(animFolderPath, removeNamespace(this.armorId) + ".animation.json");
+            if (GeckoArmorArmoryEntry.builtAnims.includes(outputPath)) {
+                continue;
+            }
+            ensureFolderExists(animFolderPath);
+            fs.copyFileSync(animationPath, outputPath);
+            GeckoArmorArmoryEntry.builtAnims.push(outputPath);
         }
     }
 
@@ -81,6 +105,10 @@ export class GeckoArmorArmoryEntry extends CustomArmoryEntry {
             const modelFolderPath = path.join(outputFolderPath, "models/item");
             for (let i = 0; i < this.modelPaths.length; i++) {
                 const modelPath = this.modelPaths[i];
+                if (!fs.existsSync(modelPath)) {
+                    console.warn(this, `Model path ${modelPath} does not exist. Skipping.`);
+                    continue;
+                }
                 const variant = this.variants[i];
                 const itemId = this.getId(material.internalName, variant);
                 const outputPath = path.join(modelFolderPath, this.getNewFileName(modelPath, variant, itemId) + ".json");

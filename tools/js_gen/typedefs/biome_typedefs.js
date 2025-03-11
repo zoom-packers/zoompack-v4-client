@@ -583,3 +583,7 @@ b_skyroot_woodland: "aether:skyroot_woodland",
  * Auto-generated Typedef
  * @typedef {biome_undergarden | biome_biomesoplenty | biome_outer_end | biome_minecraft | biome_theabyss | biome_betternether | biome_blue_skies | biome_callfromthedepth_ | biome_terrablender | biome_phantasm | biome_blueprint | biome_aether} biome
  */
+
+module.exports = {
+    biome_undergarden, biome_biomesoplenty, biome_outer_end, biome_minecraft, biome_theabyss, biome_betternether, biome_blue_skies, biome_callfromthedepth_, biome_terrablender, biome_phantasm, biome_blueprint, biome_aether
+}

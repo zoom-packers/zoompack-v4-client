@@ -6,6 +6,7 @@ import {KubeJSBlock, KubeJsItem} from "./kubeJsItem";
 import {GENERAL_DURABILITY_MULTIPLIER, PER_TIER_MULTIPLIER} from "../material/armory";
 import {CiaModifier} from "../cia/util";
 import {createUuid} from "../uuid_util";
+import {DefaultAnimation} from "../material/customArmoryEntry";
 
 export const REGISTRATION_TEMPLATE =`
 StartupEvents.registry({type}, e => {
@@ -51,8 +52,9 @@ const ARMOR_TIER_TEMPLATE = `  event.add("{id}", tier => {
     tier.knockbackResistance = {knockbackResistance} // diamond has 0.0, netherite 0.1
   });`
 const GECKO_ARMOR_TEMPLATE =
-`global.createGeckoArmorTier(e, "{modId}", "{prefix}", "{tierId}", global.getMaterialTexturesObject("{modId}", "{tierId}"), "{helmName}", "{chestName}", "{legName}", "{bootName}", "{nameSuffix}",
-    "{modelPath}", "{texturePath}", "{modelPath}", "{texturePath}", "{modelPath}", "{texturePath}", "{modelPath}", "{texturePath}");`
+`
+global.createGeckoArmor(e, "{modId}", "{armorName}", "{tier}", JSON.parse('{names}'), JSON.parse('{gecko}'));
+`
 
 export class KubeJsRegistrar extends BasicDataHolder<KubeJsRegistrar> {
     items: string[] = [];
@@ -111,26 +113,22 @@ export class KubeJsRegistrar extends BasicDataHolder<KubeJsRegistrar> {
         }
     }
 
-    registerGeckoArmor(modId: string, prefix: string, tierId: string, helmName: string, chestName: string, legName: string, bootName: string, nameSuffix: string, modelPath: string, texturePath: string) {
+    registerGeckoArmor(modId: string, armorName: string, tier: string,
+                       names: { helmet: string, chestplate: string, leggings: string, boots: string },
+                       gecko: {
+                            geo: string,
+                            texture: string,
+                            animation: string | null,
+                            defaultAnimations: DefaultAnimation[] | null,
+                       }) {
         this.items.push(GECKO_ARMOR_TEMPLATE
+            .trim()
             .replace("{modId}", modId)
-            .replace("{prefix}", prefix)
-            .replace("{tierId}", tierId)
-            .replace("{modId}", modId)
-            .replace("{tierId}", tierId)
-            .replace("{helmName}", helmName)
-            .replace("{chestName}", chestName)
-            .replace("{legName}", legName)
-            .replace("{bootName}", bootName)
-            .replace("{nameSuffix}", nameSuffix)
-            .replace("{modelPath}", modelPath)
-            .replace("{texturePath}", texturePath)
-            .replace("{modelPath}", modelPath)
-            .replace("{texturePath}", texturePath)
-            .replace("{modelPath}", modelPath)
-            .replace("{texturePath}", texturePath)
-            .replace("{modelPath}", modelPath)
-            .replace("{texturePath}", texturePath));
+            .replace("{armorName}", armorName)
+            .replace("{tier}", tier)
+            .replace("{names}", JSON.stringify(names))
+            .replace("{gecko}", JSON.stringify(gecko))
+        );
     }
 
     writeToFile() {

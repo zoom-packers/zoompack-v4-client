@@ -1,9 +1,16 @@
 import {AnyVariant, ChromaKeyOperation} from "./ArmoryTypes";
 
+export type DefaultAnimation = {
+    name: string;
+    piece: string | null;
+}
+
 export abstract class CustomArmoryEntry {
     variants: AnyVariant[];
     modelPaths: string[] = [];
     geoPaths: string[] = [];
+    animationPaths: string[] = [];
+    defaultAnimations: DefaultAnimation[] = [];
     textures: { [key: string]: string[] } = {};
     additionalTextures: { path: string, resultFileName: string }[] = [];
     customChromaKeyOperations: ChromaKeyOperation[] = [];
@@ -25,6 +32,16 @@ export abstract class CustomArmoryEntry {
 
     withTextures(textures: { [key: string]: string[] }) {
         this.textures = textures;
+        return this;
+    }
+
+    withAnimationPaths(animationPaths: string[]) {
+        this.animationPaths = animationPaths;
+        return this;
+    }
+
+    withDefaultAnimations(defaultAnimations: DefaultAnimation[]) {
+        this.defaultAnimations = defaultAnimations;
         return this;
     }
 
