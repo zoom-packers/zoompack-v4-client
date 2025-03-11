@@ -165,31 +165,68 @@ global.createAugument = (event, id, name, texture, attributes) => {
     return curio;
 }
 
-global.createGeckoArmorTier = (event, modId, prefix, tier, textures, helmName, chestName, pantsName, legName, nameSuffix,
-                               helmModelPath, helmTexturePath, chestModelPath, chestTexturePath, pantsModelPath, pantsTexturePath, bootsModelPath, bootsTexturePath) => {
-    let itemTypePrefix = !hasGeckoJs ? "" : "anim_";
-    let helmet = event.create(`${modId}:${prefix}_helmet`, `${itemTypePrefix}helmet`).displayName(`${helmName} ${nameSuffix}`).texture(textures.helmet).tier(tier);
-    let chestplate = event.create(`${modId}:${prefix}_chestplate`, `${itemTypePrefix}chestplate`).displayName(`${chestName} ${nameSuffix}`).texture(textures.chestplate).tier(tier);
-    let leggings = event.create(`${modId}:${prefix}_leggings`, `${itemTypePrefix}leggings`).displayName(`${pantsName} ${nameSuffix}`).texture(textures.leggings).tier(tier);
-    let boots = event.create(`${modId}:${prefix}_boots`, `${itemTypePrefix}boots`).displayName(`${legName} ${nameSuffix}`).texture(textures.boots).tier(tier);
-    if (hasGeckoJs) {
-        helmet
-            .geoModel(geo => {
-                geo.setSimpleModel(helmModelPath);
-                geo.setSimpleTexture(helmTexturePath);
-            })
-            .boneVisibility((renderer, slot) => {
+/*
+global.createGeckoArmor(event, "zoomers_armory", "gold_pyromancer", 3,
+{
+    helmet: "Gold Pyromancer Helmet",
+    chestplate: "Gold Pyromancer Chestplate",
+    leggings: "Gold Pyromancer Leggings",
+    boots: "Gold Pyromancer Boots"
+},
+{
+    geo: "zoomers_armory:geo/armor/gold_pyromancer_armor.geo.json",
+    texture: "zoomers_armory:textures/models/armor/gold_pyromancer_armor.png",
+    animation: "zoomers_armory:animations/armor/gold_pyromancer_armor.animation.json"
+    defaultAnimations: [
+        {
+            name: "animation.deco.loop",
+            piece: "chestplate",
+        }
+    ]
+}
+ */
+global.createGeckoArmor = (event, modId, armorName, tier, names, gecko) => {
+    let hasAnimation = hasGeckoJs && !!gecko.animation;
+    let helmet = event.create(`${modId}:${armorName}_helmet`, "anim_helmet").displayName(names.helmet).tier(tier);
+    let chestplate = event.create(`${modId}:${armorName}_chestplate`, "anim_chestplate").displayName(names.chestplate).tier(tier);
+    let leggings = event.create(`${modId}:${armorName}_leggings`, "anim_leggings").displayName(names.leggings).tier(tier);
+    let boots = event.create(`${modId}:${armorName}_boots`, "anim_boots").displayName(names.boots).tier(tier);
+    global.initGecko(helmet, "helmet", gecko);
+    global.initGecko(chestplate, "chestplate", gecko);
+    global.initGecko(leggings, "leggings", gecko);
+    global.initGecko(boots, "boots", gecko);
+    return { helmet: helmet, chestplate: chestplate, leggings: leggings, boots: boots };
+}
+
+global.initGecko = (item, itemType, gecko) => {
+    if (!hasGeckoJs) {
+        return;
+    }
+    let defaultAnimation = gecko.animation ? !!gecko.defaultAnimations ? gecko.defaultAnimations.find(x => x.piece === itemType) : null : null;
+    item.geoModel(geo => {
+        geo.setSimpleModel(gecko.geo);
+        geo.setSimpleTexture(gecko.texture);
+        if (!!gecko.animation && !!defaultAnimation) {
+            geo.setSimpleAnimation(gecko.animation);
+        }
+    });
+    if (!!defaultAnimation) {
+        item.addAnimation(state => {
+            return state.setAndContinue(RawAnimation.begin().thenLoop(defaultAnimation.name));
+        })
+    }
+
+    switch (itemType) {
+        case "helmet":
+            item.boneVisibility((renderer, slot) => {
                 renderer.setAllVisible(false);
                 if (slot === "head") {
                     renderer.setBoneVisible(renderer.getHeadBone(), true);
                 }
             });
-        chestplate
-            .geoModel(geo => {
-                geo.setSimpleModel(chestModelPath);
-                geo.setSimpleTexture(chestTexturePath);
-            })
-            .boneVisibility((renderer, slot) => {
+            break;
+        case "chestplate":
+            item.boneVisibility((renderer, slot) => {
                 renderer.setAllVisible(false);
                 if (slot === "chest") {
                     renderer.setBoneVisible(renderer.getBodyBone(), true);
@@ -197,32 +234,26 @@ global.createGeckoArmorTier = (event, modId, prefix, tier, textures, helmName, c
                     renderer.setBoneVisible(renderer.getLeftArmBone(), true);
                 }
             });
-        leggings
-            .geoModel(geo => {
-                geo.setSimpleModel(pantsModelPath);
-                geo.setSimpleTexture(pantsTexturePath);
-            })
-            .boneVisibility((renderer, slot) => {
+            break;
+        case "leggings":
+            item.boneVisibility((renderer, slot) => {
                 renderer.setAllVisible(false);
                 if (slot === "legs") {
                     renderer.setBoneVisible(renderer.getRightLegBone(), true);
                     renderer.setBoneVisible(renderer.getLeftLegBone(), true);
                 }
             });
-        boots
-            .geoModel(geo => {
-                geo.setSimpleModel(bootsModelPath);
-                geo.setSimpleTexture(bootsTexturePath);
-            })
-            .boneVisibility((renderer, slot) => {
+            break;
+        case "boots":
+            item.boneVisibility((renderer, slot) => {
                 renderer.setAllVisible(false);
                 if (slot === "feet") {
                     renderer.setBoneVisible(renderer.getRightBootBone(), true);
                     renderer.setBoneVisible(renderer.getLeftBootBone(), true);
                 }
             });
+            break;
     }
-    return { helmet: helmet, chestplate: chestplate, leggings: leggings, boots: boots };
 }
 
 global.enhanceWithAttributes = (item, attributesJson) => {
