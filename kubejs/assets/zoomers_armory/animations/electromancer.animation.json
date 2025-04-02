@@ -1,0 +1,102 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.deco.loop": {
+			"loop": true,
+			"animation_length": 16,
+			"bones": {
+				"deco": {
+					"rotation": {
+						"vector": [0, "query.anim_time * 90;", 0]
+					},
+					"position": {
+						"vector": ["math.random(-4, 4)", "math.random(-8, 8)", "math.random(-4, 4)"]
+					},
+					"scale": {
+						"0.0": {
+							"vector": ["{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}"]
+						},
+						"0.9583": {
+							"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]
+						},
+						"1.0": {"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]},
+						"1.0417": {
+							"vector": ["{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}"]
+						},
+						"1.875": {
+							"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]
+						},
+						"1.9167": {"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]},
+						"1.9583": {
+							"vector": ["{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}"]
+						},
+						"3.0417": {
+							"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]
+						},
+						"3.0833": {"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]},
+						"3.125": {
+							"vector": ["{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}"]
+						},
+						"3.3333": {
+							"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]
+						},
+						"3.375": {"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]},
+						"3.4167": {
+							"vector": ["{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}"]
+						},
+						"7.0833": {
+							"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]
+						},
+						"7.125": {"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]},
+						"7.1667": {
+							"vector": ["{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}"]
+						},
+						"8.2083": {
+							"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]
+						},
+						"8.25": {"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]},
+						"8.2917": {
+							"vector": ["{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}"]
+						},
+						"9.3333": {
+							"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]
+						},
+						"9.375": {"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]},
+						"9.4167": {
+							"vector": ["{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}"]
+						},
+						"11.375": {
+							"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]
+						},
+						"11.4167": {"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]},
+						"11.4583": {
+							"vector": ["{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}"]
+						},
+						"13.125": {
+							"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]
+						},
+						"13.1667": {"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]},
+						"13.2083": {
+							"vector": ["{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}"]
+						},
+						"15.0417": {
+							"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]
+						},
+						"15.0833": {"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]},
+						"15.125": {
+							"vector": ["{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}"]
+						},
+						"15.4167": {
+							"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]
+						},
+						"15.4583": {"vector": ["{return variable.sca;}", "{return variable.sca;}", "{return variable.sca;}"]},
+						"15.5": {
+							"vector": ["{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}", "{variable.sca = 0;return variable.sca;}"]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
