@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "zoomers_armory:item/flint_cultist_boots"
-    }
-}
