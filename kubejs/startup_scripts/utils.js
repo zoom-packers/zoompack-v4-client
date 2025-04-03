@@ -187,10 +187,11 @@ global.createGeckoArmor(event, "zoomers_armory", "gold_pyromancer", 3,
  */
 global.createGeckoArmor = (event, modId, armorName, tier, names, gecko) => {
     let hasAnimation = hasGeckoJs && !!gecko.animation;
-    let helmet = event.create(`${modId}:${armorName}_helmet`, "anim_helmet").displayName(names.helmet).tier(tier);
-    let chestplate = event.create(`${modId}:${armorName}_chestplate`, "anim_chestplate").displayName(names.chestplate).tier(tier);
-    let leggings = event.create(`${modId}:${armorName}_leggings`, "anim_leggings").displayName(names.leggings).tier(tier);
-    let boots = event.create(`${modId}:${armorName}_boots`, "anim_boots").displayName(names.boots).tier(tier);
+    let typePrefix = hasAnimation ? "anim_" : "";
+    let helmet = event.create(`${modId}:${armorName}_helmet`, typePrefix + "helmet").displayName(names.helmet).tier(tier);
+    let chestplate = event.create(`${modId}:${armorName}_chestplate`, typePrefix + "chestplate").displayName(names.chestplate).tier(tier);
+    let leggings = event.create(`${modId}:${armorName}_leggings`, typePrefix + "leggings").displayName(names.leggings).tier(tier);
+    let boots = event.create(`${modId}:${armorName}_boots`, typePrefix + "boots").displayName(names.boots).tier(tier);
     global.initGecko(helmet, "helmet", gecko);
     global.initGecko(chestplate, "chestplate", gecko);
     global.initGecko(leggings, "leggings", gecko);
