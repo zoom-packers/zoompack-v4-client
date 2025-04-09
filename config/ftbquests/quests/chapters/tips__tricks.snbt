@@ -719,7 +719,7 @@
 				"{ \"text\": \"CLICK HERE to change your RACE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"116558D20F47DFE2\" } }"
 				""
 				"&e&lRaise your agility to lvl 20 then you can change your Profession&r&r"
-				"{ \"text\": \"CLICK HERE to change your RACE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7B61C7DAFFAE17CA\" } }"
+				"{ \"text\": \"CLICK HERE to change your PROFESSION\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7B61C7DAFFAE17CA\" } }"
 				""
 				"&e&lRaise your agility to lvl 40 then you can change your Class&r&r"
 				"{ \"text\": \"CLICK HERE to change your CLASS\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4E84B0A00BF1B845\" } }"
