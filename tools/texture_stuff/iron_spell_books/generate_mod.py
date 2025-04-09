@@ -115,7 +115,7 @@ tiers = {'specialized':{
     'attr':0.05,
     'cdr':0.05,
     'mana':100,
-    'slots':8,
+    'slots':11,
     'upgrade':'blue_skies:horizonite_ingot'
 },
 'merlin':{
