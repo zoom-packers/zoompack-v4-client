@@ -3,6 +3,8 @@ import shutil
 import json
 import os
 
+print('if you changed the configuration, please also change it in kubejs\server_scripts\zoomers_spellbooks_max_spells_patch.js')
+
 layers_path = 'layers'
 
 def create_directory(dir_path):
