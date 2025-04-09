@@ -9,16 +9,16 @@ StartupEvents.registry('item', event => {
 
     event.create("irons_spellbooks:improved_blood_spell_book", "irons_spells_js:spellbook")
         	.setMaxSpellSlots(10)
-        	.addDefaultAttribute("irons_spellbooks:blood_spell_power", "", 0.1, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.1, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 200, "addition")
+        	.addDefaultAttribute("irons_spellbooks:blood_spell_power", "", 0.05, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.05, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 100, "addition")
             .displayName("Improved Blood Spellbook");
 
     event.create("irons_spellbooks:enchanted_blood_spell_book", "irons_spells_js:spellbook")
         	.setMaxSpellSlots(11)
-        	.addDefaultAttribute("irons_spellbooks:blood_spell_power", "", 0.05, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.05, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 100, "addition")
+        	.addDefaultAttribute("irons_spellbooks:blood_spell_power", "", 0.1, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.1, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 200, "addition")
             .displayName("Enchanted Blood Spellbook");
 
     event.create("irons_spellbooks:merlin_blood_spell_book", "irons_spells_js:spellbook")
@@ -51,16 +51,16 @@ StartupEvents.registry('item', event => {
 
     event.create("irons_spellbooks:improved_ender_spell_book", "irons_spells_js:spellbook")
         	.setMaxSpellSlots(10)
-        	.addDefaultAttribute("irons_spellbooks:ender_spell_power", "", 0.1, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.1, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 200, "addition")
+        	.addDefaultAttribute("irons_spellbooks:ender_spell_power", "", 0.05, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.05, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 100, "addition")
             .displayName("Improved Ender Spellbook");
 
     event.create("irons_spellbooks:enchanted_ender_spell_book", "irons_spells_js:spellbook")
         	.setMaxSpellSlots(11)
-        	.addDefaultAttribute("irons_spellbooks:ender_spell_power", "", 0.05, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.05, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 100, "addition")
+        	.addDefaultAttribute("irons_spellbooks:ender_spell_power", "", 0.1, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.1, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 200, "addition")
             .displayName("Enchanted Ender Spellbook");
 
     event.create("irons_spellbooks:merlin_ender_spell_book", "irons_spells_js:spellbook")
@@ -93,16 +93,16 @@ StartupEvents.registry('item', event => {
 
     event.create("irons_spellbooks:improved_evocation_spell_book", "irons_spells_js:spellbook")
         	.setMaxSpellSlots(10)
-        	.addDefaultAttribute("irons_spellbooks:evocation_spell_power", "", 0.1, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.1, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 200, "addition")
+        	.addDefaultAttribute("irons_spellbooks:evocation_spell_power", "", 0.05, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.05, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 100, "addition")
             .displayName("Improved Evocation Spellbook");
 
     event.create("irons_spellbooks:enchanted_evocation_spell_book", "irons_spells_js:spellbook")
         	.setMaxSpellSlots(11)
-        	.addDefaultAttribute("irons_spellbooks:evocation_spell_power", "", 0.05, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.05, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 100, "addition")
+        	.addDefaultAttribute("irons_spellbooks:evocation_spell_power", "", 0.1, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.1, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 200, "addition")
             .displayName("Enchanted Evocation Spellbook");
 
     event.create("irons_spellbooks:merlin_evocation_spell_book", "irons_spells_js:spellbook")
@@ -135,16 +135,16 @@ StartupEvents.registry('item', event => {
 
     event.create("irons_spellbooks:improved_fire_spell_book", "irons_spells_js:spellbook")
         	.setMaxSpellSlots(10)
-        	.addDefaultAttribute("irons_spellbooks:fire_spell_power", "", 0.1, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.1, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 200, "addition")
+        	.addDefaultAttribute("irons_spellbooks:fire_spell_power", "", 0.05, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.05, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 100, "addition")
             .displayName("Improved Fire Spellbook");
 
     event.create("irons_spellbooks:enchanted_fire_spell_book", "irons_spells_js:spellbook")
         	.setMaxSpellSlots(11)
-        	.addDefaultAttribute("irons_spellbooks:fire_spell_power", "", 0.05, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.05, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 100, "addition")
+        	.addDefaultAttribute("irons_spellbooks:fire_spell_power", "", 0.1, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.1, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 200, "addition")
             .displayName("Enchanted Fire Spellbook");
 
     event.create("irons_spellbooks:merlin_fire_spell_book", "irons_spells_js:spellbook")
@@ -177,16 +177,16 @@ StartupEvents.registry('item', event => {
 
     event.create("irons_spellbooks:improved_holy_spell_book", "irons_spells_js:spellbook")
         	.setMaxSpellSlots(10)
-        	.addDefaultAttribute("irons_spellbooks:holy_spell_power", "", 0.1, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.1, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 200, "addition")
+        	.addDefaultAttribute("irons_spellbooks:holy_spell_power", "", 0.05, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.05, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 100, "addition")
             .displayName("Improved Holy Spellbook");
 
     event.create("irons_spellbooks:enchanted_holy_spell_book", "irons_spells_js:spellbook")
         	.setMaxSpellSlots(11)
-        	.addDefaultAttribute("irons_spellbooks:holy_spell_power", "", 0.05, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.05, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 100, "addition")
+        	.addDefaultAttribute("irons_spellbooks:holy_spell_power", "", 0.1, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.1, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 200, "addition")
             .displayName("Enchanted Holy Spellbook");
 
     event.create("irons_spellbooks:merlin_holy_spell_book", "irons_spells_js:spellbook")
@@ -219,16 +219,16 @@ StartupEvents.registry('item', event => {
 
     event.create("irons_spellbooks:improved_ice_spell_book", "irons_spells_js:spellbook")
         	.setMaxSpellSlots(10)
-        	.addDefaultAttribute("irons_spellbooks:ice_spell_power", "", 0.1, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.1, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 200, "addition")
+        	.addDefaultAttribute("irons_spellbooks:ice_spell_power", "", 0.05, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.05, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 100, "addition")
             .displayName("Improved Ice Spellbook");
 
     event.create("irons_spellbooks:enchanted_ice_spell_book", "irons_spells_js:spellbook")
         	.setMaxSpellSlots(11)
-        	.addDefaultAttribute("irons_spellbooks:ice_spell_power", "", 0.05, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.05, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 100, "addition")
+        	.addDefaultAttribute("irons_spellbooks:ice_spell_power", "", 0.1, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.1, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 200, "addition")
             .displayName("Enchanted Ice Spellbook");
 
     event.create("irons_spellbooks:merlin_ice_spell_book", "irons_spells_js:spellbook")
@@ -261,16 +261,16 @@ StartupEvents.registry('item', event => {
 
     event.create("irons_spellbooks:improved_lightning_spell_book", "irons_spells_js:spellbook")
         	.setMaxSpellSlots(10)
-        	.addDefaultAttribute("irons_spellbooks:lightning_spell_power", "", 0.1, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.1, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 200, "addition")
+        	.addDefaultAttribute("irons_spellbooks:lightning_spell_power", "", 0.05, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.05, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 100, "addition")
             .displayName("Improved Lightning Spellbook");
 
     event.create("irons_spellbooks:enchanted_lightning_spell_book", "irons_spells_js:spellbook")
         	.setMaxSpellSlots(11)
-        	.addDefaultAttribute("irons_spellbooks:lightning_spell_power", "", 0.05, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.05, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 100, "addition")
+        	.addDefaultAttribute("irons_spellbooks:lightning_spell_power", "", 0.1, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.1, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 200, "addition")
             .displayName("Enchanted Lightning Spellbook");
 
     event.create("irons_spellbooks:merlin_lightning_spell_book", "irons_spells_js:spellbook")
@@ -303,16 +303,16 @@ StartupEvents.registry('item', event => {
 
     event.create("irons_spellbooks:improved_nature_spell_book", "irons_spells_js:spellbook")
         	.setMaxSpellSlots(10)
-        	.addDefaultAttribute("irons_spellbooks:nature_spell_power", "", 0.1, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.1, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 200, "addition")
+        	.addDefaultAttribute("irons_spellbooks:nature_spell_power", "", 0.05, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.05, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 100, "addition")
             .displayName("Improved Nature Spellbook");
 
     event.create("irons_spellbooks:enchanted_nature_spell_book", "irons_spells_js:spellbook")
         	.setMaxSpellSlots(11)
-        	.addDefaultAttribute("irons_spellbooks:nature_spell_power", "", 0.05, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.05, "multiply_total")
-        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 100, "addition")
+        	.addDefaultAttribute("irons_spellbooks:nature_spell_power", "", 0.1, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:cooldown_reduction", "", 0.1, "multiply_total")
+        	.addDefaultAttribute("irons_spellbooks:max_mana", "", 200, "addition")
             .displayName("Enchanted Nature Spellbook");
 
     event.create("irons_spellbooks:merlin_nature_spell_book", "irons_spells_js:spellbook")

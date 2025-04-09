@@ -105,16 +105,16 @@ tiers = {'specialized':{
     'upgrade':''
 },
 'improved':{
-    'attr':0.1,
-    'cdr':0.1,
-    'mana':200,
+    'attr':0.05,
+    'cdr':0.05,
+    'mana':100,
     'slots':10,
     'upgrade':'minecraft:diamond_block'
 }, 
 'enchanted':{
-    'attr':0.05,
-    'cdr':0.05,
-    'mana':100,
+    'attr':0.1,
+    'cdr':0.1,
+    'mana':200,
     'slots':11,
     'upgrade':'blue_skies:horizonite_ingot'
 },
