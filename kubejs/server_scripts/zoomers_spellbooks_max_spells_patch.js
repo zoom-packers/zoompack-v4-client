@@ -19,11 +19,11 @@ PlayerEvents.inventoryChanged(event => {
                 if(tiers[tier]){
                     let currentMaxSpells = isbSpells.getInt('maxSpells');
                     if(currentMaxSpells!=tiers[tier]){
-                        isbSpells.putInt('maxSpells',tiers[tier])
+                        isbSpells.putInt('maxSpells',tiers[tier]);
+                        item.nbt.put('ISB_Spells', isbSpells);
                     }
                 }
             }
-        }
-        
+        }   
     }
 });
