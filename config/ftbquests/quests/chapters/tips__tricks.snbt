@@ -28,7 +28,7 @@
 	quests: [
 		{
 			description: [
-				"As this modpack is relatively new, and people are learning the modpack, we've thought maybe you feel like you've chosen an origin and got stuck. You are free to change your origin \\& class &l&nONCE&r."
+				"As this modpack is relatively new, and people are learning the modpack, we've thought maybe you feel like you've chosen an origin and got stuck. You are free to change your origin, class and profession &l&nONCE&r"
 				""
 				"Claim the reward above while in a &lsafe space&r to bring up the Origin selection menu."
 				""
@@ -64,7 +64,7 @@
 		}
 		{
 			description: [
-				"As this modpack is relatively new, and people are learning the modpack, we've thought maybe you feel like you've chosen an origin and got stuck. You are free to change your origin \\& class &l&nONCE&r."
+				"As this modpack is relatively new, and people are learning the modpack, we've thought maybe you feel like you've chosen an origin and got stuck. You are free to change your origin, class and profession &l&nONCE&r"
 				""
 				"Claim the reward above while in a &lsafe space&r to bring up the Class selection menu."
 				""
@@ -718,6 +718,9 @@
 				"&e&lRaise your agility to lvl 10 then you can change your Race&r&r"
 				"{ \"text\": \"CLICK HERE to change your RACE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"116558D20F47DFE2\" } }"
 				""
+				"&e&lRaise your agility to lvl 20 then you can change your Profession&r&r"
+				"{ \"text\": \"CLICK HERE to change your RACE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7B61C7DAFFAE17CA\" } }"
+				""
 				"&e&lRaise your agility to lvl 40 then you can change your Class&r&r"
 				"{ \"text\": \"CLICK HERE to change your CLASS\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4E84B0A00BF1B845\" } }"
 				""
@@ -1016,6 +1019,41 @@
 			}]
 			x: 2.5d
 			y: -1.0d
+		}
+		{
+			description: [
+				"As this modpack is relatively new, and people are learning the modpack, we've thought maybe you feel like you've chosen an origin and got stuck. You are free to change your origin, class and profesion &l&nONCE&r."
+				""
+				"Claim the reward above while in a &lsafe space&r to bring up the Profession selection menu."
+				""
+				"Note: You will only change your profession (meaning blacksmith to miner and such)."
+				""
+				"&lFREE TIP&r: As you can only change once, we reccomend joining the server with a few dummy accounts and try out all the races of interest, before commiting to your final race."
+			]
+			id: "7B61C7DAFFAE17CA"
+			rewards: [{
+				auto: "disabled"
+				command: "/origin gui @s origins-classes:class"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "origins:orb_of_origin"
+				id: "2CC5CAF55A6CFB30"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: false
+				title: "Change your Profession"
+				type: "command"
+			}]
+			subtitle: "Nu a mers faza pe Germania"
+			tasks: [{
+				id: "727F69496ADDAD97"
+				requiredLevel: 20
+				skill: "agility"
+				type: "pmmo:skill"
+			}]
+			title: "Profesion Respec"
+			x: 4.0d
+			y: 0.5d
 		}
 	]
 	title: "Tips \\& Tricks"
