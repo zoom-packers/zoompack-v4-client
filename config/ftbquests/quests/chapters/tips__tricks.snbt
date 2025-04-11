@@ -75,7 +75,7 @@
 			id: "4E84B0A00BF1B845"
 			rewards: [{
 				auto: "disabled"
-				command: "/origin gui @s origins-classes:class"
+				command: "/origin gui @s origins-classes:playstyle"
 				elevate_perms: true
 				exclude_from_claim_all: true
 				icon: "origins:orb_of_origin"
@@ -1033,7 +1033,7 @@
 			id: "7B61C7DAFFAE17CA"
 			rewards: [{
 				auto: "disabled"
-				command: "/origin gui @s origins-classes:playstyle"
+				command: "/origin gui @s origins-classes:class"
 				elevate_perms: true
 				exclude_from_claim_all: true
 				icon: "origins:orb_of_origin"

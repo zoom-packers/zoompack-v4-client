@@ -721,6 +721,11 @@
 			dependencies: ["31EDA7FF103CFD88"]
 			id: "15188ACE41EC5F4F"
 			invisible: true
+			rewards: [{
+				id: "0222130775C7FD00"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				id: "0D0BF9653DA03AFC"
 				item: "theabyss:crimson_crystal_ore"
@@ -733,6 +738,11 @@
 			dependencies: ["31EDA7FF103CFD88"]
 			id: "3979B2221AFB9CE0"
 			invisible: true
+			rewards: [{
+				id: "68512572AB990283"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				id: "6EF094842E0CE647"
 				item: "theabyss:warped_crystal_ore"
