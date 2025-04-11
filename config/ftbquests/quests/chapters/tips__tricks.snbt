@@ -1033,7 +1033,7 @@
 			id: "7B61C7DAFFAE17CA"
 			rewards: [{
 				auto: "disabled"
-				command: "/origin gui @s origins-classes:class"
+				command: "/origin gui @s origins-classes:playstyle"
 				elevate_perms: true
 				exclude_from_claim_all: true
 				icon: "origins:orb_of_origin"
