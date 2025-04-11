@@ -578,7 +578,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5DDBCBDDF85B8E32"
-				table_id: 3842121167734636042L
+				table_id: 1464862878662345268L
 				type: "loot"
 			}]
 			shape: "octagon"
@@ -658,7 +658,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2FF5AC91D4E16C92"
-				table_id: 3842121167734636042L
+				table_id: 1464862878662345268L
 				type: "loot"
 			}]
 			shape: "octagon"
@@ -758,7 +758,7 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3D5A5ABACC0C2188"
-				table_id: 3842121167734636042L
+				table_id: 1464862878662345268L
 				type: "loot"
 			}]
 			shape: "octagon"
