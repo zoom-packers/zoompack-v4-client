@@ -3,42 +3,105 @@ const ELITE_TICK_INTERVAL = 80;
 const ELITE_LIFETIME_MINUTES = 10;
 
 // Convert array to Set for faster lookups
-const ELITE_HOSTILE_MOBS = new Set([
-    "aether:blue_swet", "aether:cockatrice", "aether:fire_minion", "aether:golden_swet",
-    "aether:mimic", "aether:sentry", "aether:valkyrie", "aether:zephyr",
-    "aquamirae:anglerfish", "aquamirae:maw", "aquamirae:tortured_soul",
-    "betternether:jungle_skeleton", "betternether:naga", "betternether:skull",
-    "blue_skies:crynocerous", "blue_skies:diophyde_prowler", "blue_skies:emberback",
-    "blue_skies:frost_spirit", "blue_skies:infested_swarmer", "blue_skies:nested_spider",
-    "blue_skies:nyctofly", "blue_skies:polargeist", "blue_skies:stonelet",
-    "blue_skies:venom_spider",
-    "callfromthedepth_:deepspider", "callfromthedepth_:riper", "callfromthedepth_:rotwalker",
-    "callfromthedepth_:screamer", "callfromthedepth_:sculkcreeper",
-    "minecraft:blaze", "minecraft:cave_spider", "minecraft:drowned", "minecraft:enderman",
-    "minecraft:endermite", "minecraft:ghast", "minecraft:hoglin", "minecraft:guardian",
-    "minecraft:husk", "minecraft:magma_cube", "minecraft:phantom", "minecraft:piglin",
-    "minecraft:piglin_brute", "minecraft:pillager", "minecraft:polar_bear",
-    "minecraft:ravager", "minecraft:shulker", "minecraft:shulker_bullet",
-    "minecraft:silverfish", "minecraft:skeleton", "minecraft:skeleton_horse",
-    "minecraft:slime", "minecraft:spider", "minecraft:stray", "minecraft:vindicator",
-    "minecraft:witch", "minecraft:wither_skeleton", "minecraft:zoglin",
-    "minecraft:zombie", "minecraft:zombie_horse", "minecraft:zombie_villager",
-    "minecraft:zombified_piglin",
-    "trials:bogged", "trials:breeze",
-    "kobolds:kobold_warrior", "kobolds:kobold_zombie", "kobolds:kobold_skeleton",
-    "phantasm:behemoth", "mimic:mimic",
-    "undergarden:rotling", "undergarden:rotwalker", "undergarden:rotbeast",
-    "undergarden:dweller", "undergarden:brute", "undergarden:nargoyle",
-    "undergarden:muncher", "undergarden:sploogie", "undergarden:forgotten",
-    "undergarden:forgotten_guardian",
-    "outer_end:himmelite", "outer_end:entombed", "outer_end:sinker",
-    "theabyss:ice_skeleton", "theabyss:ice_knight", "theabyss:infected_spider",
-    "theabyss:infected_creeper", "theabyss:soul_guard", "theabyss:guard",
-    "theabyss:mud_zombie", "theabyss:infected_zombie", "theabyss:raptor",
-    "theabyss:end_spider", "theabyss:haunted_skeleton", "theabyss:shattered_zombie",
-    "theabyss:infected_wolf", "theabyss:infected_phantom", "theabyss:frost_spider",
-    "theabyss:abyssal_lion"
-]);
+const ELITE_HOSTILE_MOBS = {
+    "aether:blue_swet": true,
+    "aether:cockatrice": true,
+    "aether:fire_minion": true,
+    "aether:golden_swet": true,
+    "aether:mimic": true,
+    "aether:sentry": true,
+    "aether:valkyrie": true,
+    "aether:zephyr": true,
+    "aquamirae:anglerfish": true,
+    "aquamirae:maw": true,
+    "aquamirae:tortured_soul": true,
+    "betternether:jungle_skeleton": true,
+    "betternether:naga": true,
+    "betternether:skull": true,
+    "blue_skies:crynocerous": true,
+    "blue_skies:diophyde_prowler": true,
+    "blue_skies:emberback": true,
+    "blue_skies:frost_spirit": true,
+    "blue_skies:infested_swarmer": true,
+    "blue_skies:nested_spider": true,
+    "blue_skies:nyctofly": true,
+    "blue_skies:polargeist": true,
+    "blue_skies:stonelet": true,
+    "blue_skies:venom_spider": true,
+    "callfromthedepth_:deepspider": true,
+    "callfromthedepth_:riper": true,
+    "callfromthedepth_:rotwalker": true,
+    "callfromthedepth_:screamer": true,
+    "callfromthedepth_:sculkcreeper": true,
+    "minecraft:blaze": true,
+    "minecraft:cave_spider": true,
+    "minecraft:drowned": true,
+    "minecraft:enderman": true,
+    "minecraft:endermite": true,
+    "minecraft:ghast": true,
+    "minecraft:hoglin": true,
+    "minecraft:guardian": true,
+    "minecraft:husk": true,
+    "minecraft:magma_cube": true,
+    "minecraft:phantom": true,
+    "minecraft:piglin": true,
+    "minecraft:piglin_brute": true,
+    "minecraft:pillager": true,
+    "minecraft:polar_bear": true,
+    "minecraft:ravager": true,
+    "minecraft:shulker": true,
+    "minecraft:shulker_bullet": true,
+    "minecraft:silverfish": true,
+    "minecraft:skeleton": true,
+    "minecraft:skeleton_horse": true,
+    "minecraft:slime": true,
+    "minecraft:spider": true,
+    "minecraft:stray": true,
+    "minecraft:vindicator": true,
+    "minecraft:witch": true,
+    "minecraft:wither_skeleton": true,
+    "minecraft:zoglin": true,
+    "minecraft:zombie": true,
+    "minecraft:zombie_horse": true,
+    "minecraft:zombie_villager": true,
+    "minecraft:zombified_piglin": true,
+    "trials:bogged": true,
+    "trials:breeze": true,
+    "kobolds:kobold_warrior": true,
+    "kobolds:kobold_zombie": true,
+    "kobolds:kobold_skeleton": true,
+    "phantasm:behemoth": true,
+    "mimic:mimic": true,
+    "undergarden:rotling": true,
+    "undergarden:rotwalker": true,
+    "undergarden:rotbeast": true,
+    "undergarden:dweller": true,
+    "undergarden:brute": true,
+    "undergarden:nargoyle": true,
+    "undergarden:muncher": true,
+    "undergarden:sploogie": true,
+    "undergarden:forgotten": true,
+    "undergarden:forgotten_guardian": true,
+    "outer_end:himmelite": true,
+    "outer_end:entombed": true,
+    "outer_end:sinker": true,
+    "theabyss:ice_skeleton": true,
+    "theabyss:ice_knight": true,
+    "theabyss:infected_spider": true,
+    "theabyss:infected_creeper": true,
+    "theabyss:soul_guard": true,
+    "theabyss:guard": true,
+    "theabyss:mud_zombie": true,
+    "theabyss:infected_zombie": true,
+    "theabyss:raptor": true,
+    "theabyss:end_spider": true,
+    "theabyss:haunted_skeleton": true,
+    "theabyss:shattered_zombie": true,
+    "theabyss:infected_wolf": true,
+    "theabyss:infected_phantom": true,
+    "theabyss:frost_spider": true,
+    "theabyss:abyssal_lion": true
+};
 
 // Pre-loaded Java classes
 const $ChatFormatting = Java.loadClass("net.minecraft.ChatFormatting");
@@ -117,15 +180,6 @@ const DIFFICULTY_CONFIGS = {
     }
 };
 
-// Probability table for difficulties
-const DIFFICULTY_PROBABILITIES = [
-    { threshold: 0.02, difficulty: "miniboss" },
-    { threshold: 0.05, difficulty: "champion" },
-    { threshold: 0.25, difficulty: "elite" },
-    { threshold: 0.26, difficulty: "annoying" },
-    { threshold: 1.0, difficulty: "trained" }
-];
-
 // Dimension loot tables
 const DIMENSION_LOOT_TABLES = {
     "minecraft:overworld": global.overworldEliteDrops,
@@ -152,8 +206,8 @@ function elite_onEntitySpawned(event) {
     if (elite_isElite(entity)) return;
     
     const type = entity.getType();
+    if (!elite_allowsEliteMobs(type)) return;
     if (!elite_canSpawn()) return;
-    if (!ELITE_HOSTILE_MOBS.has(type)) return;
     
     const world = entity.getLevel();
     const difficulty = elite_getDifficulty();
@@ -188,14 +242,14 @@ function elite_onDeath(event) {
     if (!loot) return;
     
     const pos = entity.getPos();
-    const server = event.getServer();
+    const server = event.server;
     loot.forEach(item => {
         global.lootlib_summonItem(server, dimensionRL, pos.x(), pos.y(), pos.z(), item);
     });
 }
 
 function eliteScheduler(event) {
-    const server = event.getServer();
+    const server = event.server;
     const currentTime = Date.now();
     const isDedicatedServer = server.isDedicated();
     
@@ -243,7 +297,7 @@ function elite_commands(event) {
             .then(commands.argument("entity_type", StringArgument.string())
                 .then(commands.argument("difficulty", StringArgument.string())
                     .executes(ctx => {
-                        let server = ctx.getSource().getServer();
+                        let server = ctx.getSource().server;
                         let entityTypeString = StringArgument.getString(ctx, "entity_type");
                         let difficulty = StringArgument.getString(ctx, "difficulty");
                         let $BuiltInRegistries = Java.loadClass("net.minecraft.core.registries.BuiltInRegistries");
@@ -319,11 +373,18 @@ function elite_summonFriends(world, entity, groupSize, difficulty) {
 }
 
 function elite_getDifficulty() {
-    const rand = Math.random();
-    for (const { threshold, difficulty } of DIFFICULTY_PROBABILITIES) {
-        if (rand < threshold) return difficulty;
+    var rand = Math.random();
+    if (rand < 0.02) {
+        return "miniboss";
+    } else if (rand < 0.05) {
+        return "champion";
+    } else if (rand < 0.25) {
+        return "elite";
+    } else if (rand < 0.26) {
+        return "annoying"
+    } else {
+        return "trained"
     }
-    return "trained";
 }
 
 function elite_canSpawn() {
@@ -331,7 +392,7 @@ function elite_canSpawn() {
 }
 
 function elite_allowsEliteMobs(type) {
-    return ELITE_HOSTILE_MOBS.has(type);
+    return ELITE_HOSTILE_MOBS[type] === true;
 }
 
 function elite_isElite(entity) {
