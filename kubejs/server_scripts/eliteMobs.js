@@ -232,32 +232,40 @@ function eliteScheduler(event) {
     toRemove.forEach(entity => eliteEntities.delete(entity));
 }
 
+
 function elite_commands(event) {
-    const { commands, arguments } = event;
-    const StringArgument = Java.loadClass("com.mojang.brigadier.arguments.StringArgumentType");
-    
+    let { commands, arguments } = event;
+    let StringArgument = Java.loadClass("com.mojang.brigadier.arguments.StringArgumentType");
+
     event.register(
         commands.literal('summon_elite')
             .requires(cs => cs.hasPermission(2))
             .then(commands.argument("entity_type", StringArgument.string())
                 .then(commands.argument("difficulty", StringArgument.string())
                     .executes(ctx => {
-                        const server = ctx.getSource().getServer();
-                        const entityTypeString = StringArgument.getString(ctx, "entity_type");
-                        const difficulty = StringArgument.getString(ctx, "difficulty");
-                        
-                        const entityType = $BuiltInRegistries.ENTITY_TYPE.get(new ResourceLocation(entityTypeString));
-                        if (!entityType) return 0;
-                        
-                        const world = ctx.getSource().getPlayerOrException().getLevel();
-                        const entity = entityType.create(world);
-                        if (!entity) return 0;
-                        
-                        const pos = ctx.getSource().getPlayerOrException().getPos();
+                        let server = ctx.getSource().getServer();
+                        let entityTypeString = StringArgument.getString(ctx, "entity_type");
+                        let difficulty = StringArgument.getString(ctx, "difficulty");
+                        let $BuiltInRegistries = Java.loadClass("net.minecraft.core.registries.BuiltInRegistries");
+                        let entityType = $BuiltInRegistries.ENTITY_TYPE.get(new ResourceLocation(entityTypeString));
+                        if (entityType == null) {
+                            return 0;
+                        }
+                        let world = ctx.getSource().getPlayerOrException().getLevel();
+                        let entity = entityType.create(world);
+                        if (entity == null) {
+                            return 0;
+                        }
+                        let pos = ctx.getSource().getPlayerOrException().getPos();
                         entity.setPosition(pos.x(), pos.y(), pos.z());
                         world.addFreshEntity(entity);
-                        
-                        return elite_initElite(entity, difficulty) ? 1 : 0;
+
+                        if(elite_initElite(entity, difficulty)){
+                            return 1;
+                        }
+                        else{
+                            return 0;
+                        }
                     })
                 )
             )
@@ -265,7 +273,7 @@ function elite_commands(event) {
 }
 
 function elite_initElite(entity, difficulty) {
-    const config = DIFFICULTY_CONFIGS[difficulty];
+    let config = DIFFICULTY_CONFIGS[difficulty];
     if (!config) return false;
     
     // Set elite properties
@@ -274,8 +282,8 @@ function elite_initElite(entity, difficulty) {
     elite_setPehkuiSize(entity, difficulty);
     
     // Apply name and modifiers
-    const baseName = entity.getName().getString();
-    const newName = Component.literal(`${config.name} ${baseName}`).withStyle(config.chatColor);
+    let baseName = entity.getName().getString();
+    let newName = Component.literal(`${config.name} ${baseName}`).withStyle(config.chatColor);
     entity.setCustomName(newName);
     
     // Apply modifiers
@@ -288,24 +296,25 @@ function elite_initElite(entity, difficulty) {
     return true;
 }
 
-function elite_summonFriends(world, entity, count, difficulty) {
-    if (count <= 0) return [];
-    
-    const entityPos = entity.getPos();
-    const type = entity.getEntityType();
-    const friends = [];
-    
-    for (let i = 0; i < count; i++) {
-        const friend = type.create(world);
-        if (!friend) continue;
-        
+
+function elite_summonFriends(world, entity, groupSize, difficulty) {
+    let entityPos = entity.getPos();
+    let type = entity.getEntityType();
+    let $MobSpawnType = Java.loadClass("net.minecraft.world.entity.MobSpawnType");
+    let $ForgeEventFactory = Java.loadClass("net.minecraftforge.event.ForgeEventFactory");
+    let friends = [];
+    for (let i = 0; i < groupSize; i++) {
+        let friend = type.create(world);
+        elite_initElite(friend, difficulty);
+
         friend.setPosition(entityPos.x(), entityPos.y(), entityPos.z());
         world.addFreshEntity(friend);
+        // Fuck you minecraft, Fuck you Java, Fuck you Forge, and finally, Fuck you Microsoft
         $ForgeEventFactory.onFinalizeSpawn(friend, world, world.getCurrentDifficultyAt(entityPos), $MobSpawnType.EVENT, null, null);
-        
+
         friends.push(friend);
     }
-    
+
     return friends;
 }
 
