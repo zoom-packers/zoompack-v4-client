@@ -129,20 +129,6 @@
 			]
 			icon: "minecolonies:scroll_highlight"
 			id: "0290D572AA16B1C4"
-			rewards: [{
-				auto: "enabled"
-				command: "/rules_accept"
-				icon: {
-					Count: 1
-					id: "create_sa:experience_shovel"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "7284306B48134274"
-				title: "Rules approved?"
-				type: "command"
-			}]
 			subtitle: "CBT is OFFICIALLY allowed"
 			tasks: [{
 				id: "7DA3F7C7DDA9C7AE"
