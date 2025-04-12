@@ -149,7 +149,7 @@
 		# 200 ticks is what a regular furnace takes.
 		# Default: 5
 		#Range: 2 ~ 72000
-		speed = 5
+		speed = 18
 		# How much RF to generate per tick
 		# Default: 1000
 		#Range: 1 ~ 100000
@@ -166,7 +166,7 @@
 		# 200 ticks is what a regular furnace takes.
 		# Default: 20
 		#Range: 2 ~ 72000
-		speed = 20
+		speed = 16
 		# How much power the Rainbow Furnace will generate.
 		# Default: 50000
 		#Range: 1 ~ 100000000
@@ -191,7 +191,7 @@
 		# 200 ticks is what a regular furnace takes.
 		# Default: 5
 		#Range: 1 ~ 72000
-		speed = 5
+		speed = 20
 		# Number of items that can be smelted at once. The regular furnace only smelts 1 item at once of course.
 		# Default: 16
 		#Range: 1 ~ 64
@@ -210,7 +210,7 @@
 		# 200 ticks is what a regular furnace takes.
 		# Default: 3
 		#Range: 1 ~ 72000
-		speed = 3
+		speed = 20
 		# Number of items that can be smelted at once. The regular furnace only smelts 1 item at once of course.
 		# Default: 32
 		#Range: 1 ~ 64
@@ -229,7 +229,7 @@
 		# 200 ticks is what a regular furnace takes.
 		# Default: 1
 		#Range: 1 ~ 72000
-		speed = 1
+		speed = 20
 		# Number of items that can be smelted at once. The regular furnace only smelts 1 item at once of course.
 		# Default: 64
 		#Range: 1 ~ 64
