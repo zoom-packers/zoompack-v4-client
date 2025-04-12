@@ -1,0 +1,83 @@
+
+#Common Party Settings
+[timers]
+	#Delay (in seconds) for player to accept invite before it automatically expires.
+	#Range: 5 ~ 60
+	playerAcceptTimer = 30
+	#Delay (in ticks) for player packet syncing (hunger, xp)
+	#Range: 10 ~ 200
+	playerUpdateInterval = 10
+	#Delay (in ticks) for player packet syncing for less frequent items (World Temp, etc)
+	#Range: 40 ~ 800
+	playerSlowUpdateInterval = 40
+
+[mechanics]
+	#Max size for a party
+	#Range: > 2
+	partySize = 20
+	#Makes the party system utilize the vanilla team system as well.
+	useVanillaTeams = true
+	#Allow players to attack each other in parties
+	friendlyFire = false
+
+[xp-share]
+	#Allow players to share XP in a party. This is a universal option.
+	enableShare = true
+	#Enables XP Sharing between party members regardless of distance from each other.
+	globalShare = false
+	#Disables XP Sharing from vanilla commands that give experience *points*.
+	#(/xp add [name] [amount] points)
+	ignoreCommand = true
+
+[mod-support]
+	#This allows for extra modded information (like cast bars) to update regardless of distance.
+	#true - Enables this feature.  Members have all information shared regardless of distance.
+	#false - Disables this feature. Members have to be within tracking range for updates.
+	#APPLIES TO: Cast Bar Element
+	allowGlobalUpdates = true
+	#Allow you to enable specific type of game stage syncing between party members.
+	#ALL - Players can opt-in to allow all game stage syncing, including previous entries.
+	#FUTURE - Players can only opt-in to allow future game stages to be synced
+	#NONE - Game stage syncing is disabled completely.
+	#Allowed Values: ALL, FUTURE, NONE
+	syncGameStages = "NONE"
+	#Specifies if Game Stages (and other mods with similar systems) should utilize server lists for syncing.
+	#These white/blacklists determine what stages are allowed to be synced by the client, regardless of sync settings.
+	#If the list is a whitelist, only stages in the list will be syncable.
+	#For a blacklist, all stages that aren't in the list will be syncable.
+	useSyncLists = false
+	#Uses FTB Teams to handle party management instead. Commands will be disabled.
+	useFTBTeams = false
+
+[boss-module]
+	#The boss module allows you to alter boss attributes and loot depending on the number of players from various types of sources.
+	#true - Enables the boss module.
+	#false - Disables the boss module.
+	bossModuleEnabled = false
+	#A list of entity IDs that the Parties mod treats as bosses. These entities will utilize the scaling of the Boss Module. Changes to this list require a restart.
+	markBosses = ["minecraft:wither", "minecraft:ender_dragon", "minecraft:warden"]
+	#Changes the way the player count is calculated to adjust the attributes and loot drops of bosses.
+	#SERVER - Counts all online players.
+	#DIMENSION - Counts all players in the same dimension.
+	#RADIUS - Counts all players in a defined radius from the spawned boss. (Not functional yet)
+	#PARTY - Counts all players in the nearest player's party.
+	#Allowed Values: SERVER, DIMENSION, RADIUS, PARTY
+	playerCountType = "DIMENSION"
+	#If playerCountType is RADIUS, this defines the radius size from the boss to look for players, in meters.
+	#Range: > 1
+	playerCountRadius = 256
+	#The health mod per player count defined above, as a total multiplier. (0.5 = 150%)
+	#A value of 0 disables health modifiers.
+	#Range: 0.0 ~ 2.147483647E9
+	healthMod = 0.25
+	#The damage mod per player count defined above, as a total multiplier. (0.5 = 150%)
+	#A value of 0 disables damage modifiers.
+	#Range: 0.0 ~ 2.147483647E9
+	damageMod = 0.25
+	#If true, scales the loot to the amount of players from the player count above.
+	#Setting this value to false disables this feature.
+	scaleLoot = true
+	#If true, scales special loot just like above.
+	#Currently determines whether you'd get more Affixed items from Apotheosis mini-bosses.
+	scaleSpecialLoot = false
+
