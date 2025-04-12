@@ -37,7 +37,10 @@
     "aether:valkyrie_gloves",
     "aether:phoenix_gloves",
     "aether:obsidian_gloves",
-    "lost_aether_content:power_gloves"
+    "lost_aether_content:power_gloves",
+    "ironfurnaces:unobtainium_furnace",
+    "ironfurnaces:vibranium_furnace",
+    "ironfurnaces:allthemodium_furnace"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
