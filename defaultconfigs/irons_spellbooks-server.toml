@@ -382,8 +382,8 @@
 		MaxLevel = 20
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
-		ManaCostMultiplier = 2.5
-		SpellPowerMultiplier = 0.015
+		ManaCostMultiplier = 1.2
+		SpellPowerMultiplier = 0.01
 		CooldownInSeconds = 600.0
 		AllowCrafting = true
 
@@ -515,8 +515,8 @@
 		MaxLevel = 20
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
-		ManaCostMultiplier = 3.0
-		SpellPowerMultiplier = 0.015
+		ManaCostMultiplier = 1.2
+		SpellPowerMultiplier = 0.01
 		CooldownInSeconds = 480.0
 		AllowCrafting = true
 
