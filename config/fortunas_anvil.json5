@@ -17,13 +17,13 @@
           "attribute": "minecraft:generic.attack_damage",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "minecraft:generic.attack_damage",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         }
       ]
     },
@@ -45,37 +45,37 @@
           "attribute": "minecraft:generic.armor",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "minecraft:generic.armor_toughness",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "minecraft:generic.max_health",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "minecraft:generic.armor",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "minecraft:generic.armor_toughness",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "minecraft:generic.max_health",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         }
       ]
     },
@@ -94,37 +94,37 @@
           "attribute": "minecraft:generic.armor",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "minecraft:generic.armor_toughness",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "minecraft:generic.max_health",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "minecraft:generic.armor",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "minecraft:generic.armor_toughness",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "minecraft:generic.max_health",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         }
       ]
     },
@@ -144,13 +144,13 @@
           "attribute": "projectile_damage:generic",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "minecraft:generic.attack_damage",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         }
       ]
     },
@@ -169,25 +169,25 @@
           "attribute": "minecraft:generic.attack_damage",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "projectile_damage:generic",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "minecraft:generic.attack_damage",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "projectile_damage:generic",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         }
       ]
     },
@@ -208,301 +208,289 @@
           "attribute": "irons_spellbooks:max_mana",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:max_mana",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:mana_regen",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:mana_regen",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
-        },
-        {
-          "attribute": "irons_spellbooks:cooldown_reduction",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.05
-        },
-        {
-          "attribute": "irons_spellbooks:cooldown_reduction",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:spell_power",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:spell_power",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:spell_resist",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:spell_resist",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:cast_time_reduction",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:cast_time_reduction",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:summon_damage",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:summon_damage",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:fire_magic_resist",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:fire_magic_resist",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:ice_magic_resist",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:ice_magic_resist",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:lightning_magic_resist",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:lightning_magic_resist",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:holy_magic_resist",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:holy_magic_resist",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:ender_magic_resist",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:ender_magic_resist",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:blood_magic_resist",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:blood_magic_resist",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:evocation_magic_resist",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:evocation_magic_resist",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:nature_magic_resist",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:nature_magic_resist",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:eldritch_magic_resist",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:eldritch_magic_resist",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:fire_spell_power",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:fire_spell_power",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:ice_spell_power",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:ice_spell_power",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:lightning_spell_power",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:lightning_spell_power",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:holy_spell_power",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:holy_spell_power",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:ender_spell_power",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:ender_spell_power",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:blood_spell_power",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:blood_spell_power",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:evocation_spell_power",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:evocation_spell_power",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:nature_spell_power",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:nature_spell_power",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:eldritch_spell_power",
           "operation": "ADDITION",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         },
         {
           "attribute": "irons_spellbooks:eldritch_spell_power",
           "operation": "MULTIPLY_BASE",
           "flatAddition": 0.0,
-          "additionPerLevel": 0.05
+          "additionPerLevel": 0.025
         }
       ]
     }
