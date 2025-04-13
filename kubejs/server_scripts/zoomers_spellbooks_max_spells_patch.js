@@ -7,7 +7,7 @@ const tiers = {
     'legendary':15    
 }
 
-PlayerEvents.inventoryChanged(event => {
+function fixSpellBook(event){
     let item = event.getItem();
     let item_id = item.item.getId();
 
@@ -20,10 +20,13 @@ PlayerEvents.inventoryChanged(event => {
                     let currentMaxSpells = isbSpells.getInt('maxSpells');
                     if(currentMaxSpells!=tiers[tier]){
                         isbSpells.putInt('maxSpells',tiers[tier]);
-                        item.nbt.put('ISB_Spells', isbSpells);
                     }
                 }
             }
         }   
     }
-});
+}
+
+PlayerEvents.inventoryChanged(fixSpellBook);
+ItemEvents.pickedUp(fixSpellBook);
+ItemEvents.dropped(fixSpellBook);
