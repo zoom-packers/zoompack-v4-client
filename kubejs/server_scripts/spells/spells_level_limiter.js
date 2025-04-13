@@ -12,3 +12,15 @@ PlayerEvents.spellPreCast(event => {
         event.cancel();
     }
 })
+
+EntityEvents.spawned(spellEntity);
+
+function spellEntity(event){
+    const entity = event.getEntity();
+    const type = entity.getType();
+    if(type === "irons_spellbooks:chain_lightning"){
+        if (entity.range>20){
+            entity.range = 20;
+        }
+    }
+}
