@@ -1,8 +1,26 @@
-//priority: 997
+let coinUtils = Java.loadClass("uk.co.dotcode.coin.CoinUtil");
+
 let BRONZE_COIN = 'dotcoinmod:bronze_coin';
 let SILVER_COIN = 'dotcoinmod:silver_coin';
 let GOLD_COIN = 'dotcoinmod:gold_coin';
 let EMERALD_COIN = 'dotcoinmod:emerald_coin';
+
+const CONVERSION_RATE = 64;
+
+const WALLET_COIN_MAX = 999;
+const COIN_SLOTS = {
+    'bronze' : 'coinslot9',
+    'silver' : 'coinslot7',
+    'gold' : 'coinslot2',
+    'emerald' : 'coinslot13'
+}
+
+const COIN_SLOTS_SET = {
+    'bronze' : 9,
+    'silver' : 7,
+    'gold' : 2,
+    'emerald' : 13
+}
 
 let COINS = [BRONZE_COIN, SILVER_COIN, GOLD_COIN, EMERALD_COIN];
 
@@ -13,6 +31,18 @@ let DIMENSION_MULTIPLIERS = {
 let NO_ECONOMY_LOOT = [0,0,0,0]
 
 let LAST_CONVERTED = {};
+
+function getPlayerCoinCount(player, coin_type){
+    return player.nbt.getInt(COIN_SLOTS[coin_type]);
+}
+
+function addPlayerBalance(player, coin_type, coin_count){
+    coinUtils.depositCoins(player, COIN_SLOTS_SET[coin_type], coin_count)
+}
+
+function withdrawPlayerBalance(player, coin_type, coin_count){
+    coinUtils.withdrawCoins(player, COIN_SLOTS_SET[coin_type], coin_count)
+}
 
 function isEntityInBannedRewards(entity_id){
     let banned_entity_ids = [
@@ -142,24 +172,108 @@ function getReward(entity, player){
     return [bronze_amount, silver_amount, gold_amount, emerald_amount];
 }
 
-function grantReward(rewards, entity, server){
-    let dimension = entity.level.dimension;
-    let x = entity.x;
-    let y = entity.y;
-    let z = entity.z;
-    let command_prefix = `execute in ${dimension} run summon minecraft:item`
+function grantReward(rewards, player, server){
+    let bronze_reward = rewards[0];
+    let silver_reward = rewards[1];
+    let gold_reward = rewards[2];
+    let emerald_reward = rewards[3];
 
-    if(rewards[0]>0){
-        server.runCommandSilent(`${command_prefix} ${x} ${y} ${z} {Item:{id:"${BRONZE_COIN}",Count:${rewards[0]}}}`);
+    let bronze_balance = getPlayerCoinCount(player, 'bronze');
+    let silver_balance = getPlayerCoinCount(player, 'silver');
+    let gold_balance = getPlayerCoinCount(player, 'gold');
+    let emerald_balance = getPlayerCoinCount(player, 'emerald');
+
+    //TODO: improve further at some point
+
+    if(bronze_reward>0){
+        if(bronze_balance+bronze_reward > WALLET_COIN_MAX){
+            if(silver_reward+silver_balance+1>WALLET_COIN_MAX){
+                let inventory_bronze_count = getCountPlayerItem(player, BRONZE_COIN);
+                if(inventory_bronze_count+bronze_reward>CONVERSION_RATE){
+                    let inventory_new_bronze_count = (inventory_bronze_count+bronze_reward)%CONVERSION_RATE;
+                    clearPlayer(player.name.string, BRONZE_COIN, CONVERSION_RATE, server);
+                    givePlayer(player.name.string, SILVER_COIN, 1, server);
+                    givePlayer(player.name.string, BRONZE_COIN, inventory_new_bronze_count, server);
+                }
+                else{
+                    givePlayer(player.name.string, BRONZE_COIN, bronze_reward, server);
+                }
+            }
+            else{
+                withdrawPlayerBalance(player, 'bronze', CONVERSION_RATE);
+                clearPlayer(player.name.string, BRONZE_COIN, CONVERSION_RATE, server);
+                silver_reward+=1;
+            }
+            
+        }
+        else{
+            addPlayerBalance(player, 'bronze', bronze_reward);
+        }
+        
     }
-    if(rewards[1]>0){
-        server.runCommandSilent(`${command_prefix} ${x} ${y} ${z} {Item:{id:"${SILVER_COIN}",Count:${rewards[1]}}}`);
+
+    if(silver_reward>0){
+        if(silver_balance+silver_reward > WALLET_COIN_MAX){
+            if(gold_reward+gold_balance+1>WALLET_COIN_MAX){
+                let inventory_silver_count = getCountPlayerItem(player, SILVER_COIN);
+                if(inventory_silver_count+silver_reward>CONVERSION_RATE){
+                    let inventory_new_silver_count = (inventory_silver_count+silver_reward)%CONVERSION_RATE;
+                    clearPlayer(player.name.string, SILVER_COIN, CONVERSION_RATE, server);
+                    givePlayer(player.name.string, GOLD_COIN, 1, server);
+                    givePlayer(player.name.string, SILVER_COIN, inventory_new_silver_count, server);
+                }
+                else{
+                    givePlayer(player.name.string, SILVER_COIN, silver_reward, server);
+                }
+            }
+            else{
+                withdrawPlayerBalance(player, 'silver', CONVERSION_RATE);
+                clearPlayer(player.name.string, SILVER_COIN, CONVERSION_RATE, server);
+                gold_reward+=1;
+            }
+            
+        }
+        else{
+            addPlayerBalance(player, 'silver', silver_reward);
+        }
+        
     }
-    if(rewards[2]>0){
-        server.runCommandSilent(`${command_prefix} ${x} ${y} ${z} {Item:{id:"${GOLD_COIN}",Count:${rewards[2]}}}`);
+
+    if(gold_reward>0){
+        if(gold_balance+gold_reward > WALLET_COIN_MAX){
+            if(emerald_reward+emerald_balance+1>WALLET_COIN_MAX){
+                let inventory_gold_count = getCountPlayerItem(player, GOLD_COIN);
+                if(inventory_gold_count+gold_reward>CONVERSION_RATE){
+                    let inventory_new_gold_count = (inventory_gold_count+gold_reward)%CONVERSION_RATE;
+                    clearPlayer(player.name.string, GOLD_COIN, CONVERSION_RATE, server);
+                    givePlayer(player.name.string, EMERALD_COIN, 1, server);
+                    givePlayer(player.name.string, GOLD_COIN, inventory_new_gold_count, server);
+                }
+                else{
+                    givePlayer(player.name.string, GOLD_COIN, gold_reward, server);
+                }
+            }
+            else{
+                withdrawPlayerBalance(player, 'gold', CONVERSION_RATE);
+                clearPlayer(player.name.string, GOLD_COIN, CONVERSION_RATE, server);
+                emerald_reward+=1;
+            }
+        }
+        else{
+            addPlayerBalance(player, 'gold', gold_reward);
+        }
+        
     }
-    if(rewards[3]>0){
-        server.runCommandSilent(`${command_prefix} ${x} ${y} ${z} {Item:{id:"${EMERALD_COIN}",Count:${rewards[3]}}}`);
+
+    if(emerald_reward>0){
+        if(emerald_balance+emerald_reward > WALLET_COIN_MAX){
+            let count_to_inv = (emerald_balance+emerald_reward)%WALLET_COIN_MAX;
+            addPlayerBalance(player, 'emerald', emerald_reward-count_to_inv);
+            givePlayer(player.name.string, EMERALD_COIN, count_to_inv, server);
+        }
+        else{
+            addPlayerBalance(player, 'emerald', emerald_reward);
+        }
     }
 }
 
@@ -199,7 +313,7 @@ EntityEvents.death(event => {
         if (player.getType() === 'minecraft:player'){   
             if (isEntityAllowed(entity)){
                 let drop_returns = getReward(entity, player);
-                grantReward(drop_returns, entity, server);
+                grantReward(drop_returns, player, server);
                 announceReward(server, player_name, drop_returns, entity_name);
             }
         }
@@ -211,31 +325,6 @@ EntityEvents.death(event => {
 // console.log(JSON.stringify(event, null, 4));
 // GET methods and attrs
 // console.log(Object.keys(event));
-
-ItemEvents.pickedUp(event => {
-    let player = event.player;
-    let player_name = player.name.string;
-    let server = event.server;
-    let item = event.getItem();
-
-    let item_id =item.item.getId();
-    let item_count = item.getCount();
-
-    if (isItemCurrency(item_id)){
-        let player_item_count = getCountPlayerItem(player, item_id);
-        [[BRONZE_COIN, SILVER_COIN], [SILVER_COIN, GOLD_COIN], [GOLD_COIN, EMERALD_COIN]].forEach(conversiondata=>{
-            let from_coin = conversiondata[0];
-            let to_coin = conversiondata[1];
-            if(item_id == from_coin){
-                let add_next_coin = parseInt(Math.floor(player_item_count/64));
-                clearPlayer(player_name, from_coin, add_next_coin*64, server);
-                givePlayer(player_name, to_coin, add_next_coin, server);
-            }
-
-        })        
-    }
-});
-
 
 ItemEvents.rightClicked(event => {
     let player = event.player;
