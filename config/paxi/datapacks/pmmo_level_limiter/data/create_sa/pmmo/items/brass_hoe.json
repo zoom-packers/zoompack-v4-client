@@ -1,0 +1,14 @@
+{
+    "requirements": {
+        "TOOL": {
+            "farming": 18
+        },
+        "WEAR": {
+            "wear": 0
+        },
+        "WEAPON": {
+            "combat": 0
+        }
+    },
+    "override": true
+}
