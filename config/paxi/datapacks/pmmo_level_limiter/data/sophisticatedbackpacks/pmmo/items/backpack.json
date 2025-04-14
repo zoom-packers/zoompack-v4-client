@@ -1,16 +1,16 @@
 {
     "requirements": {
         "WEAR": {
-            "endurance": 5
+            "endurance": 0
         },
         "INTERACT": {
-            "endurance": 5
+            "endurance": 0
         },
         "PLACE": {
-            "endurance": 5
+            "endurance": 0
         },
         "USE": {
-            "endurance": 5
+            "endurance": 0
         }
     }
 }
