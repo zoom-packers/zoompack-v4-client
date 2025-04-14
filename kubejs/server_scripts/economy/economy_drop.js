@@ -1,6 +1,3 @@
-let coinUtils = Java.loadClass("uk.co.dotcode.coin.CoinUtil");
-let coinData = Java.loadClass("uk.co.dotcode.coin.entity.CoinData");
-
 let BRONZE_COIN = 'dotcoinmod:bronze_coin';
 let SILVER_COIN = 'dotcoinmod:silver_coin';
 let GOLD_COIN = 'dotcoinmod:gold_coin';
@@ -160,7 +157,7 @@ function getReward(entity, player){
     health = health * ((Math.random() * 40 - 20)/100+1);
 
 
-    let bronze_amount_raw = health/15;
+    let bronze_amount_raw = health/30;
     let bronze_amount = Math.floor(bronze_amount_raw);
     if (Math.random() < 0.5) {
         bronze_amount = Math.ceil(bronze_amount_raw);
