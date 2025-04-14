@@ -1,5 +1,105 @@
 let ELITE_MOBS_UUID = "f3f8f5f1-0f1b-4b8f-8b8b-5f3f8f6b4b8f";
-const ELITE_TICK_INTERVAL = 69;
+const ELITE_TICK_INTERVAL = 80;
+
+const ELITE_HOSTILE_MOBS = {
+    "aether:blue_swet": true,
+    "aether:cockatrice": true,
+    "aether:fire_minion": true,
+    "aether:golden_swet": true,
+    "aether:mimic": true,
+    "aether:sentry": true,
+    "aether:valkyrie": true,
+    "aether:zephyr": true,
+    "aquamirae:anglerfish": true,
+    "aquamirae:maw": true,
+    "aquamirae:tortured_soul": true,
+    "betternether:jungle_skeleton": true,
+    "betternether:naga": true,
+    "betternether:skull": true,
+    "blue_skies:crynocerous": true,
+    "blue_skies:diophyde_prowler": true,
+    "blue_skies:emberback": true,
+    "blue_skies:frost_spirit": true,
+    "blue_skies:infested_swarmer": true,
+    "blue_skies:nested_spider": true,
+    "blue_skies:nyctofly": true,
+    "blue_skies:polargeist": true,
+    "blue_skies:stonelet": true,
+    "blue_skies:venom_spider": true,
+    "callfromthedepth_:deepspider": true,
+    "callfromthedepth_:riper": true,
+    "callfromthedepth_:rotwalker": true,
+    "callfromthedepth_:screamer": true,
+    "callfromthedepth_:sculkcreeper": true,
+    "minecraft:blaze": true,
+    "minecraft:cave_spider": true,
+    "minecraft:drowned": true,
+    "minecraft:enderman": true,
+    "minecraft:endermite": true,
+    "minecraft:ghast": true,
+    "minecraft:hoglin": true,
+    "minecraft:guardian": true,
+    "minecraft:husk": true,
+    "minecraft:magma_cube": true,
+    "minecraft:phantom": true,
+    "minecraft:piglin": true,
+    "minecraft:piglin_brute": true,
+    "minecraft:pillager": true,
+    "minecraft:polar_bear": true,
+    "minecraft:ravager": true,
+    "minecraft:shulker": true,
+    "minecraft:shulker_bullet": true,
+    "minecraft:silverfish": true,
+    "minecraft:skeleton": true,
+    "minecraft:skeleton_horse": true,
+    "minecraft:slime": true,
+    "minecraft:spider": true,
+    "minecraft:stray": true,
+    "minecraft:vindicator": true,
+    "minecraft:witch": true,
+    "minecraft:wither_skeleton": true,
+    "minecraft:zoglin": true,
+    "minecraft:zombie": true,
+    "minecraft:zombie_horse": true,
+    "minecraft:zombie_villager": true,
+    "minecraft:zombified_piglin": true,
+    "trials:bogged": true,
+    "trials:breeze": true,
+    "kobolds:kobold_warrior": true,
+    "kobolds:kobold_zombie": true,
+    "kobolds:kobold_skeleton": true,
+    "phantasm:behemoth": true,
+    "mimic:mimic": true,
+    "undergarden:rotling": true,
+    "undergarden:rotwalker": true,
+    "undergarden:rotbeast": true,
+    "undergarden:dweller": true,
+    "undergarden:brute": true,
+    "undergarden:nargoyle": true,
+    "undergarden:muncher": true,
+    "undergarden:sploogie": true,
+    "undergarden:forgotten": true,
+    "undergarden:forgotten_guardian": true,
+    "outer_end:himmelite": true,
+    "outer_end:entombed": true,
+    "outer_end:sinker": true,
+    "theabyss:ice_skeleton": true,
+    "theabyss:ice_knight": true,
+    "theabyss:infected_spider": true,
+    "theabyss:infected_creeper": true,
+    "theabyss:soul_guard": true,
+    "theabyss:guard": true,
+    "theabyss:mud_zombie": true,
+    "theabyss:infected_zombie": true,
+    "theabyss:raptor": true,
+    "theabyss:end_spider": true,
+    "theabyss:haunted_skeleton": true,
+    "theabyss:shattered_zombie": true,
+    "theabyss:infected_wolf": true,
+    "theabyss:infected_phantom": true,
+    "theabyss:frost_spider": true,
+    "theabyss:abyssal_lion": true
+};
 
 let elite_hostileMobs = [
     "aether:blue_swet",
@@ -120,6 +220,7 @@ function elite_onEntitySpawned(event) {
         if (!elite_canSpawn()) {
             return;
         }
+        console.log("spawning elite");
         let difficulty = elite_getDifficulty();
         let config = elite_getDifficultyConfig(difficulty);
         let friends = elite_summonFriends(world, entity, config.groupSize - 1, difficulty);
@@ -427,7 +528,7 @@ function elite_getDifficultyConfig(difficulty) {
 }
 
 function elite_allowsEliteMobs(type) {
-    return elite_hostileMobs.includes(type);
+    return ELITE_HOSTILE_MOBS[type] === true;
 }
 
 function elite_isElite(entity) {
