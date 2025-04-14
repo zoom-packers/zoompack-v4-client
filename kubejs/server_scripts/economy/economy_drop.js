@@ -5,8 +5,9 @@ let SILVER_COIN = 'dotcoinmod:silver_coin';
 let GOLD_COIN = 'dotcoinmod:gold_coin';
 let EMERALD_COIN = 'dotcoinmod:emerald_coin';
 
+const FREE_INV_SPACE_REQ = 5;
 const CONVERSION_RATE = 64;
-
+const TOTAL_WALLET_CAP = 999+64*999+64*64*999+64*64*64*999;
 const WALLET_COIN_MAX = 999;
 const COIN_SLOTS = {
     'bronze' : 'coinslot9',
@@ -20,6 +21,13 @@ const COIN_SLOTS_SET = {
     'silver' : 7,
     'gold' : 2,
     'emerald' : 13
+}
+
+const COIN_SLOTS_RM = {
+    'bronze' : BRONZE_COIN,
+    'silver' : SILVER_COIN,
+    'gold' : GOLD_COIN,
+    'emerald' : EMERALD_COIN
 }
 
 let COINS = [BRONZE_COIN, SILVER_COIN, GOLD_COIN, EMERALD_COIN];
@@ -36,14 +44,55 @@ function getPlayerCoinCount(player, coin_type){
     return player.nbt.getInt(COIN_SLOTS[coin_type]);
 }
 
+// this just adds to player, no source
 function addPlayerBalance(player, coin_type, coin_count){
     coinUtils.depositCoins(player, COIN_SLOTS_SET[coin_type], coin_count)
 }
 
+// This moves from wallet to inventory
 function withdrawPlayerBalance(player, coin_type, coin_count){
     coinUtils.withdrawCoins(player, COIN_SLOTS_SET[coin_type], coin_count)
 }
 
+function subtractPlayerBalance(player, coin_type, coin_count, server){
+    coinUtils.withdrawCoins(player, COIN_SLOTS_SET[coin_type], coin_count)
+    clearPlayer(player.name.string, COIN_SLOTS_RM[coin_type], coin_count, server);
+}
+
+function setPlayerCoinRemainer(player, coin_type, coint_amount){
+    player.persistentData.putFloat("wallet_remain_"+coin_type,coint_amount);
+}
+
+function getPlayerCoinRemainer(player, coin_type){
+    let wallet_coin_remain = player.persistentData.getFloat("wallet_remain_"+coin_type);
+    if (wallet_coin_remain){
+        return wallet_coin_remain;
+    }
+    else{
+        player.persistentData.putFloat("wallet_remain_"+coin_type, 0);
+        return 0;
+    }
+}
+
+function addPlayerCoinRemainer(player, coin_type, coint_amount_addition){
+    setPlayerCoinRemainer(player, coin_type, getPlayerCoinRemainer(player, coin_type)+coint_amount_addition);
+}
+
+function subtractPlayerCoinRemainer(player, coin_type, coin_subtract_amount){
+    setPlayerCoinRemainer(player, coin_type, getPlayerCoinRemainer(player, coin_type)-coin_subtract_amount);
+}
+
+function getPlayerFreeInventorySlotCount(player){
+    let count = 0;
+    let inventory = player.inventory;
+    for (let i = 0; i < inventory.slots; i++) {
+        let itemStack = inventory.getStackInSlot(i);
+        if (itemStack.isEmpty()) {
+            count+=1;
+        }
+    }
+    return count;
+}
 function isEntityInBannedRewards(entity_id){
     let banned_entity_ids = [
         'minecraft:player',
@@ -108,17 +157,11 @@ function getReward(entity, player){
 
     let health = entity.getMaxHealth();
     let dimension = entity.level.dimension;
-
-    
+    // TODO: nerf all dimensions
 
     // Randomness for drop
     health = health * ((Math.random() * 40 - 20)/100+1);
 
-    if (dimension === 'minecraft:overworld'){
-        health*=2;
-    }
-
-    let error = health%20;
 
     let bronze_amount_raw = health/15;
     let bronze_amount = Math.floor(bronze_amount_raw);
@@ -183,8 +226,6 @@ function grantReward(rewards, player, server){
     let gold_balance = getPlayerCoinCount(player, 'gold');
     let emerald_balance = getPlayerCoinCount(player, 'emerald');
 
-    //TODO: improve further at some point
-
     if(bronze_reward>0){
         if(bronze_balance+bronze_reward > WALLET_COIN_MAX){
             if(silver_reward+silver_balance+1>WALLET_COIN_MAX){
@@ -196,18 +237,47 @@ function grantReward(rewards, player, server){
                     givePlayer(player.name.string, BRONZE_COIN, inventory_new_bronze_count, server);
                 }
                 else{
-                    givePlayer(player.name.string, BRONZE_COIN, bronze_reward, server);
+                    if(getPlayerFreeInventorySlotCount(player)>FREE_INV_SPACE_REQ){
+                        givePlayer(player.name.string, BRONZE_COIN, bronze_reward, server);
+                        let bronze_remainer = getPlayerCoinRemainer(player, 'bronze');
+                        if(inventory_bronze_count+bronze_remainer<=64){
+                            givePlayer(player.name.string, BRONZE_COIN, bronze_remainer, server);
+                            subtractPlayerCoinRemainer(player, 'bronze', bronze_remainer);
+                        }
+                    }
+                    else{
+                        addPlayerCoinRemainer(player, 'bronze', bronze_reward);
+                        if(getPlayerCoinRemainer(player, 'bronze')>CONVERSION_RATE){
+                            subtractPlayerCoinRemainer(player, 'bronze', CONVERSION_RATE);
+                            addPlayerCoinRemainer(player, 'silver', 1);
+                        }
+                    }
                 }
             }
             else{
-                withdrawPlayerBalance(player, 'bronze', CONVERSION_RATE);
-                clearPlayer(player.name.string, BRONZE_COIN, CONVERSION_RATE, server);
-                silver_reward+=1;
+                if(getPlayerFreeInventorySlotCount(player)>FREE_INV_SPACE_REQ){
+                    subtractPlayerBalance(player, 'bronze', CONVERSION_RATE, server);
+                    silver_reward+=1;
+                }
+                else{
+                    addPlayerCoinRemainer(player, 'bronze', bronze_reward);
+                }
             }
             
         }
         else{
+            let bronze_remainer = getPlayerCoinRemainer(player, 'bronze');
             addPlayerBalance(player, 'bronze', bronze_reward);
+            if(bronze_remainer>0 && bronze_balance+bronze_reward+bronze_remainer <= WALLET_COIN_MAX){
+                addPlayerBalance(player, 'bronze', bronze_remainer);
+                subtractPlayerCoinRemainer(player, 'bronze', bronze_remainer);
+            }
+            else{
+                if(getPlayerFreeInventorySlotCount(player)>FREE_INV_SPACE_REQ){
+                    givePlayer(player.name.string, BRONZE_COIN, bronze_remainer, server);
+                    subtractPlayerCoinRemainer(player, 'bronze', bronze_remainer);
+                }
+            }
         }
         
     }
@@ -223,18 +293,47 @@ function grantReward(rewards, player, server){
                     givePlayer(player.name.string, SILVER_COIN, inventory_new_silver_count, server);
                 }
                 else{
-                    givePlayer(player.name.string, SILVER_COIN, silver_reward, server);
+                    if(getPlayerFreeInventorySlotCount(player)>FREE_INV_SPACE_REQ+1){
+                        givePlayer(player.name.string, SILVER_COIN, silver_reward, server);
+                        let silver_remainer = getPlayerCoinRemainer(player, 'silver');
+                        if(inventory_silver_count+silver_remainer<=64){
+                            givePlayer(player.name.string, SILVER_COIN, silver_remainer, server);
+                            subtractPlayerCoinRemainer(player, 'silver', silver_remainer);
+                        }
+                    }
+                    else{
+                        addPlayerCoinRemainer(player, 'silver', silver_reward);
+                        if(getPlayerCoinRemainer(player, 'silver')>CONVERSION_RATE){
+                            subtractPlayerCoinRemainer(player, 'silver', CONVERSION_RATE);
+                            addPlayerCoinRemainer(player, 'gold', 1);
+                        }
+                    }
                 }
             }
             else{
-                withdrawPlayerBalance(player, 'silver', CONVERSION_RATE);
-                clearPlayer(player.name.string, SILVER_COIN, CONVERSION_RATE, server);
-                gold_reward+=1;
+                if(getPlayerFreeInventorySlotCount(player)>FREE_INV_SPACE_REQ+1){
+                    subtractPlayerBalance(player, 'silver', CONVERSION_RATE, server);
+                    gold_reward+=1;
+                }
+                else{
+                    addPlayerCoinRemainer(player, 'silver', silver_reward);
+                }
             }
             
         }
         else{
+            let silver_remainer = getPlayerCoinRemainer(player, 'silver');
             addPlayerBalance(player, 'silver', silver_reward);
+            if(silver_remainer>0 && silver_balance+silver_reward+silver_remainer <= WALLET_COIN_MAX){
+                addPlayerBalance(player, 'silver', silver_remainer);
+                subtractPlayerCoinRemainer(player, 'silver', silver_remainer);
+            }
+            else{
+                if(getPlayerFreeInventorySlotCount(player)>FREE_INV_SPACE_REQ+1){
+                    givePlayer(player.name.string, SILVER_COIN, silver_remainer, server);
+                    subtractPlayerCoinRemainer(player, 'silver', silver_remainer);
+                }
+            }
         }
         
     }
@@ -250,17 +349,47 @@ function grantReward(rewards, player, server){
                     givePlayer(player.name.string, GOLD_COIN, inventory_new_gold_count, server);
                 }
                 else{
-                    givePlayer(player.name.string, GOLD_COIN, gold_reward, server);
+                    if(getPlayerFreeInventorySlotCount(player)>FREE_INV_SPACE_REQ+2){
+                        givePlayer(player.name.string, GOLD_COIN, gold_reward, server);
+                        let gold_remainer = getPlayerCoinRemainer(player, 'gold');
+                        if(inventory_gold_count+gold_remainer<=64){
+                            givePlayer(player.name.string, GOLD_COIN, gold_remainer, server);
+                            subtractPlayerCoinRemainer(player, 'gold', gold_remainer);
+                        }
+                    }
+                    else{
+                        addPlayerCoinRemainer(player, 'gold', gold_reward);
+                        if(getPlayerCoinRemainer(player, 'gold')>CONVERSION_RATE){
+                            subtractPlayerCoinRemainer(player, 'gold', CONVERSION_RATE);
+                            addPlayerCoinRemainer(player, 'emerald', 1);
+                        }
+                    }
+                    
                 }
             }
             else{
-                withdrawPlayerBalance(player, 'gold', CONVERSION_RATE);
-                clearPlayer(player.name.string, GOLD_COIN, CONVERSION_RATE, server);
-                emerald_reward+=1;
+                if(getPlayerFreeInventorySlotCount(player)>FREE_INV_SPACE_REQ+2){
+                    subtractPlayerBalance(player, 'gold', CONVERSION_RATE, server);
+                    gold_reward+=1;
+                }
+                else{
+                    addPlayerCoinRemainer(player, 'gold', gold_reward);
+                }
             }
         }
         else{
+            let gold_remainer = getPlayerCoinRemainer(player, 'gold');
             addPlayerBalance(player, 'gold', gold_reward);
+            if(gold_remainer>0 && gold_balance+gold_reward+gold_remainer <= WALLET_COIN_MAX){
+                addPlayerBalance(player, 'gold', gold_remainer);
+                subtractPlayerCoinRemainer(player, 'gold', gold_remainer);
+            }
+            else{
+                if(getPlayerFreeInventorySlotCount(player)>FREE_INV_SPACE_REQ+2){
+                    givePlayer(player.name.string, GOLD_COIN, gold_remainer, server);
+                    subtractPlayerCoinRemainer(player, 'gold', gold_remainer);
+                }
+            }
         }
         
     }
@@ -272,7 +401,12 @@ function grantReward(rewards, player, server){
             givePlayer(player.name.string, EMERALD_COIN, count_to_inv, server);
         }
         else{
+            let emerald_remainer = getPlayerCoinRemainer(player, 'emerald');
             addPlayerBalance(player, 'emerald', emerald_reward);
+            if(emerald_remainer>0 && emerald_balance+emerald_reward+emerald_remainer <= WALLET_COIN_MAX){
+                addPlayerBalance(player, 'emerald', emerald_remainer);
+                subtractPlayerCoinRemainer(player, 'emerald', emerald_remainer);
+            }
         }
     }
 }
@@ -302,6 +436,7 @@ function announceReward(server, player_name, rewards, entity_name){
     }
 }
 
+
 EntityEvents.death(event => {
     let player = event.source.player;
     if(player!=null){
@@ -310,7 +445,7 @@ EntityEvents.death(event => {
         let entity = event.entity;
         let entity_name = entity.name.string;    
 
-        if (player.getType() === 'minecraft:player'){   
+        if (player.getType() === 'minecraft:player'){
             if (isEntityAllowed(entity)){
                 let drop_returns = getReward(entity, player);
                 grantReward(drop_returns, player, server);
