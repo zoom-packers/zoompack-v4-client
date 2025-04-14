@@ -1,4 +1,5 @@
 let coinUtils = Java.loadClass("uk.co.dotcode.coin.CoinUtil");
+let coinData = Java.loadClass("uk.co.dotcode.coin.entity.CoinData");
 
 let BRONZE_COIN = 'dotcoinmod:bronze_coin';
 let SILVER_COIN = 'dotcoinmod:silver_coin';
@@ -45,18 +46,14 @@ function getPlayerCoinCount(player, coin_type){
 }
 
 // this just adds to player, no source
-function addPlayerBalance(player, coin_type, coin_count){
-    coinUtils.depositCoins(player, COIN_SLOTS_SET[coin_type], coin_count)
-}
-
-// This moves from wallet to inventory
-function withdrawPlayerBalance(player, coin_type, coin_count){
-    coinUtils.withdrawCoins(player, COIN_SLOTS_SET[coin_type], coin_count)
+function addPlayerBalance(player, coin_type, coin_count, server){
+    let new_coin_count = getPlayerCoinCount(player, coin_type) + coin_count;
+    player.runCommandSilent(`/currency set ${player.name.string} ${coin_type} ${new_coin_count}`);
 }
 
 function subtractPlayerBalance(player, coin_type, coin_count, server){
-    coinUtils.withdrawCoins(player, COIN_SLOTS_SET[coin_type], coin_count)
-    clearPlayer(player.name.string, COIN_SLOTS_RM[coin_type], coin_count, server);
+    let new_coin_count = getPlayerCoinCount(player, coin_type) - coin_count;
+    player.runCommandSilent(`/currency set ${player.name.string} ${coin_type} ${new_coin_count}`);
 }
 
 function setPlayerCoinRemainer(player, coin_type, coint_amount){
@@ -267,9 +264,9 @@ function grantReward(rewards, player, server){
         }
         else{
             let bronze_remainer = getPlayerCoinRemainer(player, 'bronze');
-            addPlayerBalance(player, 'bronze', bronze_reward);
+            addPlayerBalance(player, 'bronze', bronze_reward, server);
             if(bronze_remainer>0 && bronze_balance+bronze_reward+bronze_remainer <= WALLET_COIN_MAX){
-                addPlayerBalance(player, 'bronze', bronze_remainer);
+                addPlayerBalance(player, 'bronze', bronze_remainer, server);
                 subtractPlayerCoinRemainer(player, 'bronze', bronze_remainer);
             }
             else{
@@ -323,9 +320,9 @@ function grantReward(rewards, player, server){
         }
         else{
             let silver_remainer = getPlayerCoinRemainer(player, 'silver');
-            addPlayerBalance(player, 'silver', silver_reward);
+            addPlayerBalance(player, 'silver', silver_reward, server);
             if(silver_remainer>0 && silver_balance+silver_reward+silver_remainer <= WALLET_COIN_MAX){
-                addPlayerBalance(player, 'silver', silver_remainer);
+                addPlayerBalance(player, 'silver', silver_remainer, server);
                 subtractPlayerCoinRemainer(player, 'silver', silver_remainer);
             }
             else{
@@ -379,9 +376,9 @@ function grantReward(rewards, player, server){
         }
         else{
             let gold_remainer = getPlayerCoinRemainer(player, 'gold');
-            addPlayerBalance(player, 'gold', gold_reward);
+            addPlayerBalance(player, 'gold', gold_reward, server);
             if(gold_remainer>0 && gold_balance+gold_reward+gold_remainer <= WALLET_COIN_MAX){
-                addPlayerBalance(player, 'gold', gold_remainer);
+                addPlayerBalance(player, 'gold', gold_remainer, server);
                 subtractPlayerCoinRemainer(player, 'gold', gold_remainer);
             }
             else{
@@ -397,14 +394,14 @@ function grantReward(rewards, player, server){
     if(emerald_reward>0){
         if(emerald_balance+emerald_reward > WALLET_COIN_MAX){
             let count_to_inv = (emerald_balance+emerald_reward)%WALLET_COIN_MAX;
-            addPlayerBalance(player, 'emerald', emerald_reward-count_to_inv);
+            addPlayerBalance(player, 'emerald', emerald_reward-count_to_inv, server);
             givePlayer(player.name.string, EMERALD_COIN, count_to_inv, server);
         }
         else{
             let emerald_remainer = getPlayerCoinRemainer(player, 'emerald');
-            addPlayerBalance(player, 'emerald', emerald_reward);
+            addPlayerBalance(player, 'emerald', emerald_reward, server);
             if(emerald_remainer>0 && emerald_balance+emerald_reward+emerald_remainer <= WALLET_COIN_MAX){
-                addPlayerBalance(player, 'emerald', emerald_remainer);
+                addPlayerBalance(player, 'emerald', emerald_remainer, server);
                 subtractPlayerCoinRemainer(player, 'emerald', emerald_remainer);
             }
         }
