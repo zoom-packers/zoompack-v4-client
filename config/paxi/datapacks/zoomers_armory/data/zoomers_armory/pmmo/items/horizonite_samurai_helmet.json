@@ -1,10 +1,10 @@
 {
     "requirements": {
         "WEAR": {
-            "endurance": 32
+            "swordsmanship": 32
         },
         "USE": {
-            "endurance": 32
+            "swordsmanship": 32
         }
     },
     "override": true

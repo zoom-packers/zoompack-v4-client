@@ -65,6 +65,7 @@ const samuraiHelmetVariant: ArmorVariant = {
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
+    pmmoSkill: "swordsmanship",
     additionalAttributes: samuraiAttributes,
     additionalAttributesPerLevel: createHealthPerLevelAttributes('helmet', 'medium')
 }
@@ -80,6 +81,7 @@ const samuraiChestplateVariant: ArmorVariant = {
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
+    pmmoSkill: "swordsmanship",
     additionalAttributes: samuraiAttributes,
     additionalAttributesPerLevel: createHealthPerLevelAttributes('chestplate', 'medium')
 }
@@ -95,6 +97,7 @@ const samuraiLeggingsVariant: ArmorVariant = {
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
+    pmmoSkill: "swordsmanship",
     additionalAttributes: samuraiAttributes,
     additionalAttributesPerLevel: createHealthPerLevelAttributes('leggings', 'medium')
 }
@@ -110,6 +113,7 @@ const samuraiBootsVariant: ArmorVariant = {
     toughnessMultiplier: 1,
     knockbackResistanceMultiplier: 1,
     modelType: "normal",
+    pmmoSkill: "swordsmanship",
     additionalAttributes: samuraiAttributes,
     additionalAttributesPerLevel: createHealthPerLevelAttributes('boots', 'medium')
 }
