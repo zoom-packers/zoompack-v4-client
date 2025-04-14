@@ -120,7 +120,6 @@ function elite_onEntitySpawned(event) {
         if (!elite_canSpawn()) {
             return;
         }
-        console.log("spawning elite");
         let difficulty = elite_getDifficulty();
         let config = elite_getDifficultyConfig(difficulty);
         let friends = elite_summonFriends(world, entity, config.groupSize - 1, difficulty);
