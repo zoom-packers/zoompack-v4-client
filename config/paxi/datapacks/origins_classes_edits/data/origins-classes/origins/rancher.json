@@ -2,9 +2,7 @@
   "loading_priority": 111,
   "powers": [
     "origins-classes:twin_breeding",
-    "origins-classes:more_animal_loot",
-    "origins-classes:rancher_equipment",
-    "origins-classes:rancher_levels"
+    "origins-classes:more_animal_loot"
   ],
   "icon": "minecraft:lead",
   "order": 2,

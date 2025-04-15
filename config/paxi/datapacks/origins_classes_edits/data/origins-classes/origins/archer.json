@@ -2,9 +2,7 @@
   "loading_priority": 111,
   "powers": [
     "origins-classes:archer_buffs",
-    "origins-classes:less_bow_slowdown",
-    "origins-classes:archer_equipment",
-    "origins-classes:archer_levels"
+    "origins-classes:less_bow_slowdown"
   ],
   "icon": "minecraft:bow",
   "order": 2,

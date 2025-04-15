@@ -1,9 +1,7 @@
 {
   "loading_priority": 111,
   "powers": [
-    "origins-classes:all_rounder_buffs",
-    "origins-classes:all_rounder_equipment",
-    "origins-classes:all_rounder_levels"
+    "origins-classes:all_rounder_buffs"
   ],
   "icon": "minecraft:player_head",
   "order": 6,

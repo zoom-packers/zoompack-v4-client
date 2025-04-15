@@ -2,9 +2,7 @@
     "loading_priority": 111,
     "powers": [
         "origins-classes:rogue_buffs",
-        "origins-classes:rogue_dashes",
-        "origins-classes:rogue_equipment",
-        "origins-classes:rogue_levels"
+        "origins-classes:rogue_dashes"
     ],
     "icon": "minecraft:leather_helmet",
     "order": 4,

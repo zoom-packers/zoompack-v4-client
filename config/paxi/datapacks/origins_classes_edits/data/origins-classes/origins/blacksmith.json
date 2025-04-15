@@ -2,9 +2,7 @@
   "loading_priority": 111,
   "powers": [
     "origins-classes:quality_equipment",
-    "origins-classes:efficient_repairs",
-    "origins-classes:blacksmith_equipment",
-    "origins-classes:blacksmith_levels"
+    "origins-classes:efficient_repairs"
   ],
   "icon": "minecraft:iron_ingot",
   "order": 6,

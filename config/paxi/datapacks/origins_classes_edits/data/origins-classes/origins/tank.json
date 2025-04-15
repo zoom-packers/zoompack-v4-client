@@ -2,9 +2,7 @@
   "loading_priority": 111,
   "powers": [
     "origins-classes:tank_buffs",
-    "origins-classes:tank_heavy_weapons",
-    "origins-classes:tank_equipment",
-    "origins-classes:tank_levels"
+    "origins-classes:tank_heavy_weapons"
   ],
   "icon": "minecraft:iron_chestplate",
   "order": 5,

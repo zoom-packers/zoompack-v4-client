@@ -2,9 +2,7 @@
   "loading_priority": 111,
   "powers": [
     "origins-classes:mage_buffs",
-    "origins-classes:mage_loot",
-    "origins-classes:mage_equipment",
-    "origins-classes:mage_levels"
+    "origins-classes:mage_loot"
   ],
   "icon": "irons_spellbooks:holy_upgrade_orb",
   "order": 3,
