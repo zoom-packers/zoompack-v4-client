@@ -45,12 +45,12 @@ function getPlayerCoinCount(player, coin_type){
 // this just adds to player, no source
 function addPlayerBalance(player, coin_type, coin_count, server){
     let new_coin_count = getPlayerCoinCount(player, coin_type) + coin_count;
-    player.runCommandSilent(`/currency set ${player.name.string} ${coin_type} ${new_coin_count}`);
+    server.runCommandSilent(`/currency set ${player.name.string} ${coin_type} ${new_coin_count}`);
 }
 
 function subtractPlayerBalance(player, coin_type, coin_count, server){
     let new_coin_count = getPlayerCoinCount(player, coin_type) - coin_count;
-    player.runCommandSilent(`/currency set ${player.name.string} ${coin_type} ${new_coin_count}`);
+    server.runCommandSilent(`/currency set ${player.name.string} ${coin_type} ${new_coin_count}`);
 }
 
 function setPlayerCoinRemainer(player, coin_type, coint_amount){
