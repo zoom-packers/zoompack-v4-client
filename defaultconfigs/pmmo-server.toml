@@ -62,10 +62,10 @@
 		taming = 0.1
 		woodcutting = 0.2
 		mining = 0.5
-		swordsmanship = 3
-		combat = 2.5
-		archery = 3
-		magic = 3
+		swordsmanship = 1
+		combat = 1
+		archery = 1
+		magic = 1
 
 	#Settings for Linear XP configuration
 	[Levels."LINEAR LEVELS"]
