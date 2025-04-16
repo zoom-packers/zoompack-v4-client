@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#/#",
+        "ISN",
+        "#/#"
+    ],
+    "key": {
+        "#": "minecraft:wither_rose",
+        "/": "minecraft:blaze_rod",
+        "I": "minecraft:iron_block",
+        "S": "minecraft:skeleton_skull",
+        "N": "minecraft:netherite_scrap"
+    },
+    "result": {
+        "id": "minecraft:wither_skeleton_skull",
+        "count": 1
+    }
+}

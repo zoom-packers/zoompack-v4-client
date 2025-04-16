@@ -1,0 +1,29 @@
+{
+    "type": "sophisticatedbackpacks:backpack_upgrade",
+    "conditions": [
+      {
+        "type": "sophisticatedcore:item_enabled",
+        "itemRegistryName": "sophisticatedbackpacks:copper_backpack"
+      }
+    ],
+    "key": {
+      "B": {
+        "item": "sophisticatedbackpacks:backpack"
+      },
+      "C": {
+        "item": "minecraft:copper_block"
+      },
+      "D": {
+        "item" : "minecraft:blaze_powder"
+      }
+      
+    },
+    "pattern": [
+      "CDC",
+      "CBC",
+      "CCC"
+    ],
+    "result": {
+      "item": "sophisticatedbackpacks:copper_backpack"
+    }
+  }

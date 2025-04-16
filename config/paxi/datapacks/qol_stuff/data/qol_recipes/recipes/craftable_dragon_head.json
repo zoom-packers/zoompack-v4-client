@@ -1,0 +1,27 @@
+
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "DWD",
+        "NDN"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:shulker_shell"
+        },
+        "D": {
+            "item": "minecraft:dragon_breath"
+        },
+        "W": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "N": {
+            "item": "enderitemod:enderite_scrap"
+        }
+    },
+    "result": {
+        "item": "minecraft:dragon_head",
+        "count": 1
+    }
+}
