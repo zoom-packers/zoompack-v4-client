@@ -24,7 +24,7 @@
 
 		[Skills.Entry.magic]
 			maxLevel = 2147483647
-			icon = "minecraft:textures/particle/enchanted_hit.png"
+			icon = "irons_spellbooks:textures/mob_effect/burning_dash.png"
 			iconSize = 8
 			color = 255
 			noAfkPenalty = false
@@ -65,7 +65,7 @@
 
 		[Skills.Entry.combat]
 			maxLevel = 2147483647
-			icon = "minecraft:textures/mob_effect/bad_omen.png"
+			icon = "blue_skies:textures/item/tools/different_sword.png"
 			iconSize = 18
 			color = 16777215
 			noAfkPenalty = false
@@ -83,7 +83,7 @@
 
 		[Skills.Entry.alchemy]
 			maxLevel = 2147483647
-			icon = "minecraft:textures/item/potion.png"
+			icon = "minecraft:textures/item/experience_bottle.png"
 			iconSize = 16
 			color = 15112448
 			noAfkPenalty = true
@@ -200,7 +200,7 @@
 
 		[Skills.Entry.cooking]
 			maxLevel = 2147483647
-			icon = "minecraft:textures/item/cooked_mutton.png"
+			icon = "minecraft:textures/item/rabbit_stew.png"
 			iconSize = 16
 			color = 15112448
 			noAfkPenalty = true
