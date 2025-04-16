@@ -1,0 +1,31 @@
+{
+    "type": "sophisticatedbackpacks:backpack_upgrade",
+    "conditions": [
+      {
+        "type": "sophisticatedcore:item_enabled",
+        "itemRegistryName": "sophisticatedbackpacks:gold_backpack"
+      }
+    ],
+    "key": {
+      "B": {
+        "item": "sophisticatedbackpacks:iron_backpack"
+      },
+      "A": {
+        "item": "aether:ambrosium_block"
+      },
+      "Z": {
+        "item": "aether:zanite_block"
+      },
+      "G": {
+        "item": "aether:enchanted_gravitite"
+      }
+    },
+    "pattern": [
+      "GZG",
+      "ZBZ",
+      "AZA"
+    ],
+    "result": {
+      "item": "sophisticatedbackpacks:gold_backpack"
+    }
+  }

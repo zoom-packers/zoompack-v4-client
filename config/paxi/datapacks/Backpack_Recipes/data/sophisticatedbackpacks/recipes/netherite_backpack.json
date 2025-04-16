@@ -1,0 +1,35 @@
+{
+    "type": "sophisticatedbackpacks:backpack_upgrade",
+    "conditions": [
+      {
+        "type": "sophisticatedcore:item_enabled",
+        "itemRegistryName": "sophisticatedbackpacks:netherite_backpack"
+      }
+    ],
+    "key": {
+      "B": {
+        "item": "sophisticatedbackpacks:diamond_backpack"
+      },
+      "E": {
+        "item": "enderitemod:enderite_ingot"
+      },
+      "R": {
+        "item": "minecraft:dragon_breath"
+      },
+      "H": {
+        "item": "minecraft:dragon_head"
+      },
+      "C": {
+        "item": "compressium:endstone_3"
+      }
+
+    },
+    "pattern": [
+      "EEE",
+      "RBR",
+      "CHC"
+    ],
+    "result": {
+      "item": "sophisticatedbackpacks:netherite_backpack"
+    }
+  }

@@ -1,0 +1,34 @@
+{
+    "type": "sophisticatedbackpacks:backpack_upgrade",
+    "conditions": [
+      {
+        "type": "sophisticatedcore:item_enabled",
+        "itemRegistryName": "sophisticatedbackpacks:iron_backpack"
+      }
+    ],
+    "key": {
+      "B": {
+        "item": "sophisticatedbackpacks:backpack"
+      },
+      "P": {
+        "item": "blue_skies:pyrope_block"
+      },
+      "D": {
+        "item": "blue_skies:diopside_block"
+      },
+      "H": {
+        "item": "blue_skies:horizonite_block"
+      },
+      "V": {
+        "item": "blue_skies:ventium_block"
+      }
+    },
+    "pattern": [
+      "PHP",
+      "VBV",
+      "PDP"
+    ],
+    "result": {
+      "item": "sophisticatedbackpacks:iron_backpack"
+    }
+  }
