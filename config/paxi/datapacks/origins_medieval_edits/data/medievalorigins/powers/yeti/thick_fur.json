@@ -1,0 +1,36 @@
+{
+	"loading_priority": 111,
+	"type": "origins:multiple",
+	"speed_decrease": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.movement_speed",
+			"operation": "addition",
+			"value": -0.03
+		},
+		"condition": {
+			"type": "origins:biome",
+			"condition": {
+				"type": "origins:temperature",
+				"comparison": ">=",
+				"compare_to": 2.0
+			}
+		}
+	},
+	"health_decrease": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.max_health",
+			"operation": "muliply_total",
+			"value": -0.5
+		},
+		"condition": {
+			"type": "origins:biome",
+			"condition": {
+				"type": "origins:temperature",
+				"comparison": ">=",
+				"compare_to": 2.0
+			}
+		}
+	}
+}

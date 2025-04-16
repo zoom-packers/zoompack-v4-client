@@ -4,17 +4,17 @@
 	"modifiers": [{
 			"attribute": "minecraft:generic.max_health",
 			"operation": "multiply_total",
-			"value": 0.5
+			"value": 0.25
 		},
 		{
 			"attribute": "minecraft:generic.armor_toughness",
 			"operation": "multiply_total",
-			"value": 0.1
+			"value": 0.05
 		},
 		{
 			"attribute": "minecraft:generic.armor",
 			"operation": "multiply_total",
-			"value": 0.1
+			"value": 0.05
 		}
 	]
 }
