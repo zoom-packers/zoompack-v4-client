@@ -223,7 +223,7 @@ function modifyFullSets() {
     processor.modifySetRequirements("betternether", "flaming_ruby", 57);
 
     processor.modifySetRequirements("minecraft", "netherite", 58);
-    processor.modifySetRequirements("irons_spellbooks", "netherite_battlemage", 58, "armor");
+    processor.modifySetRequirements("irons_spellbooks", "netherite_mage", 58, "armor");
     processor.modifySingleItem("nethersdelight", "netherite_machete", "sword", 58);
     processor.modifySingleItem("create", "netherite_backtank", "chestplate", 58);
     processor.modifySetRequirements("create", "netherite_diving", 58, ["helmet", "boots"]);
