@@ -484,7 +484,7 @@
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 4.0
 		SpellPowerMultiplier = 1.4
-		CooldownInSeconds = 8.0
+		CooldownInSeconds = 20.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:wololo"]
@@ -651,8 +651,8 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.5
-		SpellPowerMultiplier = 0.21
-		CooldownInSeconds = 90.0
+		SpellPowerMultiplier = 0.31
+		CooldownInSeconds = 48.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:counterspell"]
@@ -789,16 +789,15 @@
 		CooldownInSeconds = 600.0
 		AllowCrafting = true
 
-# TODO: this was wip at the version
 	[Spells."irons_spellbooks:sunbeam"]
-		Enabled = false
+		Enabled = true
 		School = "irons_spellbooks:holy"
 		MaxLevel = 20
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 2.5
-		SpellPowerMultiplier = 0.0105
-		CooldownInSeconds = 150.0
+		SpellPowerMultiplier = 0.405
+		CooldownInSeconds = 48.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:fortify"]
@@ -853,7 +852,7 @@
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 5.0
 		SpellPowerMultiplier = 1.05
-		CooldownInSeconds = 22.5
+		CooldownInSeconds = 30.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:divine_smite"]
@@ -965,7 +964,7 @@
 		MinRarity = "RARE"
 		ManaCostMultiplier = 2.5
 		SpellPowerMultiplier = 1.05
-		CooldownInSeconds = 7.5
+		CooldownInSeconds = 20.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:heartstop"]
@@ -998,7 +997,7 @@
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 4.0
 		SpellPowerMultiplier = 1.05
-		CooldownInSeconds = 7.5
+		CooldownInSeconds = 20.0
 		AllowCrafting = true
 
 	#irons_spellbooks:lightning
@@ -1113,3 +1112,13 @@
 		CooldownInSeconds = 120.0
 		AllowCrafting = true
 
+	[Spells."irons_spellbooks:cleanse"]
+		Enabled = true
+		School = "irons_spellbooks:holy"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 60.0
+		AllowCrafting = true
