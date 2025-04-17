@@ -3,7 +3,7 @@
   "powers": [
     "origins-classes:all_rounder_buffs"
   ],
-  "icon": "minecraft:player_head",
+  "icon": "aquamirae:treasure_pouch",
   "order": 6,
   "impact": 0
 }

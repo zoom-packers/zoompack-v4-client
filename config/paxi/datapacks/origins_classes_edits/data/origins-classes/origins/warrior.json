@@ -4,7 +4,7 @@
     "origins-classes:warrior_buffs",
     "origins-classes:warrior_dual_wield"
   ],
-  "icon": "minecraft:iron_sword",
+  "icon": "fantasy_armor:chess_board_knight_helmet",
   "order": 1,
   "impact": 0
 }

@@ -4,7 +4,7 @@
     "origins-classes:archer_buffs",
     "origins-classes:less_bow_slowdown"
   ],
-  "icon": "minecraft:bow",
+  "icon": "zoomers_armory:iron_longbow",
   "order": 2,
   "impact": 0
 }

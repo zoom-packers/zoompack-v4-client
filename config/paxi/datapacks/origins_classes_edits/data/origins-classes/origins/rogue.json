@@ -4,7 +4,7 @@
         "origins-classes:rogue_buffs",
         "origins-classes:rogue_dashes"
     ],
-    "icon": "minecraft:leather_helmet",
+    "icon": "zoomers_armory:iron_rogue_helmet",
     "order": 4,
     "impact": 0
 }

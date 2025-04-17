@@ -4,7 +4,7 @@
     "origins-classes:tank_buffs",
     "origins-classes:tank_heavy_weapons"
   ],
-  "icon": "minecraft:iron_chestplate",
+  "icon": "zoomers_armory:iron_tower",
   "order": 5,
   "impact": 0
 }

@@ -5,7 +5,7 @@
 		"type": "origins:modify_damage_dealt",
 		"modifier": {
 			"operation": "multiply_total_multiplicative",
-			"value": 0.75
+			"value": 0.3
 		},
 		"condition": {
 			"type": "origins:or",
@@ -16,7 +16,11 @@
 				},
 				{
 					"type": "origins:dimension",
-					"dimension": "deeperdarker:otherside"
+					"dimension": "blue_skies:everbright"
+				},
+				{
+					"type": "origins:dimension",
+					"dimension": "callfromthedepth_:depth"
 				}
 			]
 		}
@@ -26,9 +30,9 @@
 		"modifier": {
 			"attribute": "minecraft:generic.max_health",
 			"operation": "multiply_total",
-			"value": 1.0
+			"value": 0.3
 		},
-		"tick_rate": 20,
+		"tick_rate": 40,
 		"condition": {
 			"type": "origins:or",
 			"conditions": [
@@ -38,7 +42,11 @@
 				},
 				{
 					"type": "origins:dimension",
-					"dimension": "deeperdarker:otherside"
+					"dimension": "blue_skies:everbright"
+				},
+				{
+					"type": "origins:dimension",
+					"dimension": "callfromthedepth_:depth"
 				}
 			]
 		}
@@ -50,7 +58,7 @@
 			"operation": "multiply_total",
 			"value": -0.3
 		},
-		"tick_rate": 20,
+		"tick_rate": 40,
 		"condition": {
 			"type": "origins:or",
 			"conditions": [
@@ -60,11 +68,47 @@
 				},
 				{
 					"type": "origins:dimension",
-					"dimension": "paradise_lost:paradise_lost"
-				},
+					"dimension": "blue_skies:everdawn"
+				}
+			]
+		}
+	},
+	"air_weakness": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.max_health",
+			"operation": "multiply_total",
+			"value": -0.4
+		},
+		"tick_rate": 40,
+		"condition": {
+			"type": "origins:or",
+			"conditions": [
 				{
 					"type": "origins:dimension",
 					"dimension": "aether:the_aether"
+				},
+				{
+					"type": "origins:dimension",
+					"dimension": "minecraft:the_end"
+				}
+			]
+		}
+	},
+	"under_weakness": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.max_health",
+			"operation": "multiply_total",
+			"value": -0.15
+		},
+		"tick_rate": 40,
+		"condition": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:dimension",
+					"dimension": "undergarden:undergarden"
 				}
 			]
 		}
