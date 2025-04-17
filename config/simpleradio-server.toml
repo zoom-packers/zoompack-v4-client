@@ -2,13 +2,13 @@
 #These are the configurations for the transceiver item.
 [transceiver]
 	#This is the range after which players can no longer be heard for frequency modulation. Defaults to 1000.
-	maxFMDistance = 3000
+	maxFMDistance = 10000
 	#This is the range after which audio begins to decay for frequency modulation. Defaults to 900.
-	falloffFM = 2700
+	falloffFM = 5000
 	#This is the range after which players can no longer be heard for amplitude modulation. Defaults to 1800.
-	maxAMDistance = 5400
+	maxAMDistance = 20000
 	#This is the range after which audio begins to decay for amplitude modulation. Defaults to 1700.
-	falloffAM = 5100
+	falloffAM = 10000
 	#This is whether or not using the transceiver slows the player. Defaults to true.
 	transceiverSlow = true
 	#When false, removes the transceiver recipe. Defaults to true.
@@ -17,13 +17,13 @@
 #These are the configurations for the walkie talkie item.
 [walkie_talkie]
 	#This is the range after which players can no longer be heard for frequency modulation. Defaults to 500.
-	maxFMDistance = 1500
+	maxFMDistance = 5000
 	#This is the range after which audio begins to decay for frequency modulation. Defaults to 400.
-	falloffFM = 1200
+	falloffFM = 2500
 	#This is the range after which players can no longer be heard for amplitude modulation. Defaults to 900.
-	maxAMDistance = 2700
+	maxAMDistance = 10000
 	#This is the range after which audio begins to decay for amplitude modulation. Defaults to 800.
-	falloffAM = 2400
+	falloffAM = 5000
 	#This is whether or not using the walkie talkie slows the player. Defaults to true.
 	walkieTalkieSlow = true
 	#When true, replaces the walkie talkie with the spuddie talkie. Defaults to true.
@@ -34,20 +34,20 @@
 #These are the configurations for the transmitter block. (IN DEVELOPMENT)
 [transmitter]
 	#This is the range after which players can no longer be heard for frequency modulation. Defaults to 2200.
-	maxFMDistance = 6600
+	maxFMDistance = 10000
 	#This is the range after which audio begins to decay for frequency modulation. Defaults to 2000.
-	falloffFM = 6000
+	falloffFM = 5000
 	#This is the range after which players can no longer be heard for amplitude modulation. Defaults to 4400.
-	maxAMDistance = 13200
+	maxAMDistance = 20000
 	#This is the range after which audio begins to decay for amplitude modulation. Defaults to 4000.
-	falloffAM = 12000
+	falloffAM = 10000
 	#When false, removes the transmitter (will not disable speaker) recipe. Defaults to true.
 	enabled = true
 
 #These are the configurations for the radio block.
 [radio]
 	#This is the range for the radio in which the audio transmitted from it can be heard. Defaults to 24.
-	range = 48
+	range = 10000
 	#When false, removes the radio recipe. Defaults to true.
 	enabled = true
 
