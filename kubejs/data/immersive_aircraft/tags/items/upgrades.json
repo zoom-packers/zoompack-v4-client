@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+      "immersive_aircraft:reinforced_pipes",
+      "immersive_aircraft:dragon_pipes",
+      "immersive_aircraft:dragon_engine",
+      "immersive_aircraft:targeting_device",
+      "immersive_aircraft:flaps",
+      "immersive_aircraft:mechanical_suspensions"
+    ]
+  }
