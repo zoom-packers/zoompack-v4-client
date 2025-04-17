@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "---",
+        "V V"
+    ],
+    "key": {
+        "#": {
+            "item": "undergarden:forgotten_ingot"
+        },
+        "-": {
+            "item": "undergarden:cloggrum_ingot"
+        },
+        "V": {
+            "item": "minecraft:coal_block"
+        }
+    },
+    "result": {
+        "item": "immersive_aircraft:flaps",
+        "count": 1
+    }
+}

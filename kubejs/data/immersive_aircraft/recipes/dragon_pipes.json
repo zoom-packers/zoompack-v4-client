@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #B",
+        " _ ",
+        "B# "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:crying_obsidian"
+        },
+        "B": {
+            "item": "ender_dragon_loot_:dragon_scale"
+        },
+        "_": {
+            "item": "immersive_aircraft:reinforced_pipes"
+        }
+    },
+    "result": {
+        "item": "immersive_aircraft:dragon_pipes",
+        "count": 1
+    }
+}

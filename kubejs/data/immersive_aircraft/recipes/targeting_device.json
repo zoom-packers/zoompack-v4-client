@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "#_#",
+        "   "
+    ],
+    "key": {
+        "#": {
+            "item": "ender_dragon_loot_:dragon_scale"
+        },
+        "_": {
+            "item": "immersive_aircraft:gyroscope"
+        }
+    },
+    "result": {
+        "item": "immersive_aircraft:targeting_device",
+        "count": 1
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "#_#",
+        "EEE"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:end_rod"
+        },
+        "E": {
+            "item": "minecraft:end_stone"
+        },
+        "_": {
+            "item": "immersive_aircraft:nether_engine"
+        },
+        "S": {
+            "item": "ender_dragon_loot_:dragon_scale"
+        }
+    },
+    "result": {
+        "item": "immersive_aircraft:dragon_engine",
+        "count": 1
+    }
+}

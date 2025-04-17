@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #B",
+        " _ ",
+        "B# "
+    ],
+    "key": {
+        "#": {
+            "item": "undergarden:forgotten_ingot"
+        },
+        "B": {
+            "item": "undergarden:cloggrum_ingot"
+        },
+        "_": {
+            "item": "immersive_aircraft:sturdy_pipes"
+        }
+    },
+    "result": {
+        "item": "immersive_aircraft:reinforced_pipes",
+        "count": 1
+    }
+}

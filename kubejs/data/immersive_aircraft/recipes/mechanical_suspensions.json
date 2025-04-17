@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " ##",
+        "B_#",
+        "BB "
+    ],
+    "key": {
+        "#": {
+            "item": "undergarden:cloggrum_ingot"
+        },
+        "B": {
+            "item": "undergarden:forgotten_ingot"
+        },
+        "_": {
+            "item": "immersive_aircraft:improved_landing_gear"
+        }
+    },
+    "result": {
+        "item": "immersive_aircraft:mechanical_suspensions",
+        "count": 1
+    }
+}
