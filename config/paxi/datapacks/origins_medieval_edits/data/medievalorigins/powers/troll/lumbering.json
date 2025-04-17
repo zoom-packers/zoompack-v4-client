@@ -4,6 +4,6 @@
 		"modifier": {
 			"attribute": "minecraft:generic.movement_speed",
 			"operation": "multiply_total",
-			"value": -0.03
+			"value": -0.3
 		}
 }
