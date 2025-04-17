@@ -1,4 +1,5 @@
 {
+	"loading_priority": 1,
 	"type": "origins:prevent_entity_use",
 	"bientity_action": {
 		"type": "origins:actor_action",

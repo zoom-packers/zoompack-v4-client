@@ -18,7 +18,8 @@
   "power.medievalorigins.gorgon/petrified.description": "Gorgons were doomed to stay bound in dark caves and old dungeons. Being outside in daylight causes them to slightly petrified until night, enduring various debuffs. Can be negated by wearing a helmet. These debuffs turn into buffs after the sun fades.",
   "power.medievalorigins.gorgon/hydrophobia.name": "Hydrophobe",
   "power.medievalorigins.gorgon/hydrophobia.description": "Gorgons can not tolerate the purity of water and slowly take damage from it.",
-  "origin.medievalorigins.troll.description": "-§l Notable Changes§r: \n§o§2+ Frost-Based, Very tanky§r\n§o§6• Large: 398cm/13'11\"§r\nLarge, lumbering giants who hail from the mountains, trolls are aggressive and self sufficient - they prefer to live and fight alone.",
-  "power.medievalorigins.troll/apex_predator.description": "Trolls are not big fans of food, however they tend to satiate their hunger by slaughtering other creatures."
+  "origin.medievalorigins.troll.description": "-§l Notable Changes§r: \n§o§2+ Axe Bonuses, Very tanky§r\n§o§6• Large: 398cm/13'11\"§r\nLarge, lumbering giants who hail from the mountains, trolls are aggressive and self sufficient - they prefer to live and fight alone.",
+  "power.medievalorigins.troll/apex_predator.description": "Trolls are not big fans of food, however they tend to satiate their hunger by slaughtering other creatures.",
+  "origin.medievalorigins.ogre.description": "-§l Notable Changes§r: \n§o§2+ Axe Bonuses, Defense §r\n§o§6• Massive: 268cm/9'5\"§r\n§o§c- Hunger, Speed §r\n§lOgres§r are a large, short-tempered, and brutish subspecies of Orc. Their lumbering size and limited intelligence are made up for by their raw strength."
 
 }

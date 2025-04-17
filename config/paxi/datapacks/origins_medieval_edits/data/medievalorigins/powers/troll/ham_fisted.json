@@ -5,14 +5,9 @@
 		"type": "origins:attribute",
 		"modifiers": [
 			{
-				"attribute": "minecraft:generic.attack_damage",
-				"operation": "multiply_base",
-				"value": 0.5
-			},
-			{
 				"attribute": "minecraft:generic.attack_speed",
 				"operation": "multiply_total",
-				"value": -0.3
+				"value": -0.25
 			}
 		]
 	},
@@ -20,8 +15,8 @@
 		"type": "origins:conditioned_attribute",
 		"modifier": {
 			"attribute": "minecraft:generic.attack_damage",
-			"operation": "addition",
-			"value": 4.0
+			"operation": "multiply_total",
+			"value": 0.2
 		}
 	},
 	"shieldless": {
