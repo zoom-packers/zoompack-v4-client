@@ -20,6 +20,7 @@
   "power.medievalorigins.gorgon/hydrophobia.description": "Gorgons can not tolerate the purity of water and slowly take damage from it.",
   "origin.medievalorigins.troll.description": "-§l Notable Changes§r: \n§o§2+ Axe Bonuses, Very tanky§r\n§o§6• Large: 398cm/13'11\"§r\nLarge, lumbering giants who hail from the mountains, trolls are aggressive and self sufficient - they prefer to live and fight alone.",
   "power.medievalorigins.troll/apex_predator.description": "Trolls are not big fans of food, however they tend to satiate their hunger by slaughtering other creatures.",
-  "origin.medievalorigins.ogre.description": "-§l Notable Changes§r: \n§o§2+ Axe Bonuses, Defense §r\n§o§6• Massive: 268cm/9'5\"§r\n§o§c- Hunger, Speed §r\n§lOgres§r are a large, short-tempered, and brutish subspecies of Orc. Their lumbering size and limited intelligence are made up for by their raw strength."
+  "origin.medievalorigins.ogre.description": "-§l Notable Changes§r: \n§o§2+ Axe Bonuses, Defense §r\n§o§6• Massive: 268cm/9'5\"§r\n§o§c- Hunger, Speed §r\n§lOgres§r are a large, short-tempered, and brutish subspecies of Orc. Their lumbering size and limited intelligence are made up for by their raw strength.",
+  "origin.medievalorigins.incubus.description": "-§l Notable Changes§r: \n§o§2+ Nether Bonuses\n+ Strength, Fireball§r\n§o§c- Damaged by Water§r\n§o§c- Weak in Overworld§r\n§o§c- Very Weak in high altitude and space§r\n§o§c- Slightly Weak under the world\n§lIncubi§r are evil servants of a dark power. They are powerful in their own realm, but in exchange for this they have given up their soul, and are weak to pure sources."
 
 }
