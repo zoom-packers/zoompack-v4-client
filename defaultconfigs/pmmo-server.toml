@@ -204,15 +204,9 @@
 					magic = 1
 
 				[XP_Gains.Event_XP_Specifics.Damage.RECEIVE_DAMAGE."#pmmo:environment"]
-					endurance = 10
+					endurance = 0
 
-				[XP_Gains.Event_XP_Specifics.Damage.RECEIVE_DAMAGE."#minecraft:is_projectile"]
-					endurance = 15
-
-				[XP_Gains.Event_XP_Specifics.Damage.RECEIVE_DAMAGE."#pmmo:impact"]
-					endurance = 15
-
-				[XP_Gains.Event_XP_Specifics.Damage.RECEIVE_DAMAGE."minecraft:generic_kill"]
+				[XP_Gains.Event_XP_Specifics.Damage.RECEIVE_DAMAGE."#pmmo:endurance_granting"]
 					endurance = 1
 
 		[XP_Gains.Event_XP_Specifics.Jumps]
@@ -235,10 +229,10 @@
 				endurance = 0.0
 
 			[XP_Gains.Event_XP_Specifics.Player_Actions."HEALTH_INCREASE Skills and Ratios"]
-				endurance = 1.5
+				endurance = 0.0
 
 			[XP_Gains.Event_XP_Specifics.Player_Actions."HEALTH_DECREASE Skills and Ratios"]
-				endurance = 1.5
+				endurance = 0.0
 
 			[XP_Gains.Event_XP_Specifics.Player_Actions."SPRINTING Skills and Ratios"]
 				agility = 100.0
