@@ -218,6 +218,27 @@ function lootlib_p_getFortunasCatalyst(rarity) {
     return `fortunas_anvil:${catalysts[rarity]}`;
 }
 
+function lootlib_p_getSmithingTemplate(dimension) {
+    switch (dimension) {
+        case "blue_skies:everbright":
+            return 'zoomers_armory:everbright_smithing_template';
+        case "blue_skies:everdawn":
+            return 'zoomers_armory:everbright_smithing_template';
+        case "aether:the_aether":
+            return 'zoomers_armory:aether_smithing_template';
+        case "minecraft:the_nether":
+            return 'minecraft:netherite_upgrade_smithing_template';
+        case "undergarden:undergarden":
+            return 'undergarden:forgotten_upgrade_smithing_template';
+        case "minecraft:the_end":
+            return 'enderitemod:enderite_upgrade_smithing_template';
+        case "callfromthedepth_:depth":
+            return 'callfromthedepth_:immemorialupgradesmithingtemplate';
+        case "theabyss:the_abyss":
+            return 'zoomers_armory:abyssal_smithing_template';
+    }
+}
+
 function lootlib_p_getFortunasProtectionRune() {
     return 'fortunas_anvil:protection_rune';
 }
@@ -317,6 +338,7 @@ function everbrightEliteDrops(rolls) {
             weightedEntry(lootlib_p_getFortunasCatalyst(0), 10),
             weightedEntry(lootlib_p_getFortunasCatalyst(1), 5),
             weightedEntry(lootlib_p_getFortunasProtectionRune(), 5),
+            weightedEntry(lootlib_p_getSmithingTemplate("blue_skies:everbright"), 5),
         ]
         drops.push(rollWeightedTable(weighted));
     }
@@ -349,6 +371,7 @@ function everdawnEliteDrops(rolls) {
             weightedEntry(lootlib_p_getFortunasCatalyst(1), 10),
             weightedEntry(lootlib_p_getFortunasCatalyst(2), 5),
             weightedEntry(lootlib_p_getFortunasProtectionRune(), 6),
+            weightedEntry(lootlib_p_getSmithingTemplate("blue_skies:everbright"), 10),
         ]
         drops.push(rollWeightedTable(weighted));
     }
@@ -381,6 +404,7 @@ function aetherEliteDrops(rolls) {
             weightedEntry(lootlib_p_getFortunasCatalyst(2), 10),
             weightedEntry(lootlib_p_getFortunasCatalyst(3), 5),
             weightedEntry(lootlib_p_getFortunasProtectionRune(), 7),
+            weightedEntry(lootlib_p_getSmithingTemplate("aether:the_aether"), 10),
         ]
         drops.push(rollWeightedTable(weighted));
     }
@@ -414,6 +438,7 @@ function netherEliteDrops(rolls) {
             weightedEntry(lootlib_p_getFortunasCatalyst(3), 10),
             weightedEntry(lootlib_p_getFortunasCatalyst(4), 5),
             weightedEntry(lootlib_p_getFortunasProtectionRune(), 8),
+            weightedEntry(lootlib_p_getSmithingTemplate("minecraft:the_nether"), 10),
         ]
         drops.push(rollWeightedTable(weighted));
     }
@@ -443,6 +468,7 @@ function undergardenEliteDrops(rolls) {
             weightedEntry(lootlib_p_getFortunasCatalyst(4), 3),
             weightedEntry(lootlib_p_getFortunasCatalyst(5), 1),
             weightedEntry(lootlib_p_getFortunasProtectionRune(), 10),
+            weightedEntry(lootlib_p_getSmithingTemplate("undergarden:undergarden"), 10),
         ]
         drops.push(rollWeightedTable(weighted));
     }
@@ -475,6 +501,7 @@ function endEliteDrops(rolls) {
             weightedEntry(lootlib_p_getFortunasCatalyst(4), 5),
             weightedEntry(lootlib_p_getFortunasCatalyst(5), 2),
             weightedEntry(lootlib_p_getFortunasProtectionRune(), 12),
+            weightedEntry(lootlib_p_getSmithingTemplate("minecraft:the_end"), 10),
         ]
         drops.push(rollWeightedTable(weighted));
     }
@@ -507,6 +534,7 @@ function deepEliteDrops(rolls) {
             weightedEntry(lootlib_p_getFortunasCatalyst(5), 5),
             weightedEntry(lootlib_p_getFortunasCatalyst(6), 2),
             weightedEntry(lootlib_p_getFortunasProtectionRune(), 15),
+            weightedEntry(lootlib_p_getSmithingTemplate("callfromthedepth_:depth"), 10),
         ]
         drops.push(rollWeightedTable(weighted));
     }
@@ -537,6 +565,7 @@ function abyssEliteDrops(rolls) {
             weightedEntry(lootlib_p_getFortunasCatalyst(5), 5),
             weightedEntry(lootlib_p_getFortunasCatalyst(6), 5),
             weightedEntry(lootlib_p_getFortunasProtectionRune(), 15),
+            weightedEntry(lootlib_p_getSmithingTemplate("theabyss:the_abyss"), 10),
         ]
         drops.push(rollWeightedTable(weighted));
     }
