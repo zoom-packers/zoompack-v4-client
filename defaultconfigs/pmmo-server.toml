@@ -62,6 +62,7 @@
 		taming = 0.1
 		woodcutting = 0.2
 		mining = 0.5
+		endurance = 0.5
 		swordsmanship = 1
 		combat = 1
 		archery = 1
