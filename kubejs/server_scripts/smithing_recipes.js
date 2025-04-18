@@ -139,6 +139,15 @@ ServerEvents.recipes(event => {
     doToolsInBulkSpecificID('undergarden:forgotten', 'undergarden:forgotten_upgrade_smithing_template', 'call_of_yucutan:jade', 'undergarden:forgotten_ingot');
 
     // end materials: crystaline, dragon, enderite <<<<<<<<<<========
+    event.remove({ output: 'ender_dragon_loot_:dragon_armor_helmet' });
+    event.remove({ output: 'ender_dragon_loot_:dragon_armor_chestplate' });
+    event.remove({ output: 'ender_dragon_loot_:dragon_armor_leggings' });
+    event.remove({ output: 'ender_dragon_loot_:dragon_armor_boots' });
+    event.remove({ output: 'ender_dragon_loot_:dragon_sword' });
+    event.remove({ output: 'ender_dragon_loot_:dragon_axe' });
+    event.remove({ output: 'ender_dragon_loot_:dragon_picaxe' });
+    event.remove({ output: 'ender_dragon_loot_:dragon_shovel' });
+    event.remove({ output: 'ender_dragon_loot_:dragon_hoe' });
     event.smithing('1x ender_dragon_loot_:dragon_armor_helmet', 'enderitemod:enderite_upgrade_smithing_template', 'zoomers_armory:crystalline_helmet', 'ender_dragon_loot_:dragon_scale');
     event.smithing('1x ender_dragon_loot_:dragon_armor_chestplate', 'enderitemod:enderite_upgrade_smithing_template', 'zoomers_armory:crystalline_chestplate', 'ender_dragon_loot_:dragon_scale');
     event.smithing('1x ender_dragon_loot_:dragon_armor_leggings', 'enderitemod:enderite_upgrade_smithing_template', 'zoomers_armory:crystalline_leggings', 'ender_dragon_loot_:dragon_scale');
@@ -149,6 +158,15 @@ ServerEvents.recipes(event => {
     event.smithing('1x ender_dragon_loot_:dragon_shovel', 'enderitemod:enderite_upgrade_smithing_template', 'phantasm:crystalline_shovel', 'ender_dragon_loot_:dragon_scale');
     event.smithing('1x ender_dragon_loot_:dragon_hoe', 'enderitemod:enderite_upgrade_smithing_template', 'phantasm:crystalline_hoe', 'ender_dragon_loot_:dragon_scale');
     
+    event.remove({ output: 'enderitemod:enderite_helmet' });
+    event.remove({ output: 'enderitemod:enderite_chestplate' });
+    event.remove({ output: 'enderitemod:enderite_leggings' });
+    event.remove({ output: 'enderitemod:enderite_boots' });
+    event.remove({ output: 'enderitemod:enderite_sword' });
+    event.remove({ output: 'enderitemod:enderite_axe' });
+    event.remove({ output: 'enderitemod:enderite_pickaxe' });
+    event.remove({ output: 'enderitemod:enderite_shovel' });
+    event.remove({ output: 'enderitemod:enderite_hoe' });
     event.smithing('1x enderitemod:enderite_helmet', 'enderitemod:enderite_upgrade_smithing_template', 'ender_dragon_loot_:dragon_armor_helmet', 'enderitemod:enderite_ingot');
     event.smithing('1x enderitemod:enderite_chestplate', 'enderitemod:enderite_upgrade_smithing_template', 'ender_dragon_loot_:dragon_armor_chestplate', 'enderitemod:enderite_ingot');
     event.smithing('1x enderitemod:enderite_leggings', 'enderitemod:enderite_upgrade_smithing_template', 'ender_dragon_loot_:dragon_armor_leggings', 'enderitemod:enderite_ingot');
