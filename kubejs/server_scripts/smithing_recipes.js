@@ -127,7 +127,6 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'betternether:nether_ruby_boots' });
     event.smithing('1x betternether:nether_ruby_boots', 'minecraft:netherite_upgrade_smithing_template', 'kubejs:cincinnasite_diamond_boots', 'betternether:nether_ruby');
 
-
     // doInBulk('betternether', 'nether_ruby', 'cincinnasite_diamond', 'minecraft:netherite_upgrade_smithing_template', 'betternether:nether_ruby');
     doInBulk('betternether', 'flaming_ruby', 'nether_ruby', 'minecraft:netherite_upgrade_smithing_template', 'minecraft:sculk_catalyst');
     doInBulkSpecificID('minecraft:netherite', 'minecraft:netherite_upgrade_smithing_template', 'betternether:flaming_ruby', 'minecraft:netherite_ingot');
@@ -139,19 +138,47 @@ ServerEvents.recipes(event => {
     doArmorInBulkSpecificID( "call_of_yucutan:jades", 'undergarden:forgotten_upgrade_smithing_template', 'undergarden:utherium', 'call_of_yucutan:jade');
     doToolsInBulkSpecificID('undergarden:forgotten', 'undergarden:forgotten_upgrade_smithing_template', 'call_of_yucutan:jade', 'undergarden:forgotten_ingot');
 
-    // end materials: crystaline, dragon, enderite
-    doToolsInBulkSpecificID('ender_dragon_loot_:dragon', 'enderitemod:enderite_upgrade_smithing_template', 'phantasm:crystal_block', 'ender_dragon_loot_:dragon_scale');
-    doArmorInBulkSpecificID('ender_dragon_loot_:dragon_armor', 'enderitemod:enderite_upgrade_smithing_template', 'phantasm:crystal_block', 'ender_dragon_loot_:dragon_scale');
-    doToolsInBulkSpecificID('enderitemod:enderite', 'enderitemod:enderite_upgrade_smithing_template', 'ender_dragon_loot_:dragon', 'enderitemod:enderite_ingot');
-    doArmorInBulkSpecificID('enderitemod:enderite', 'enderitemod:enderite_upgrade_smithing_template', 'ender_dragon_loot_:dragon_armor', 'enderitemod:enderite_ingot');
+    // end materials: crystaline, dragon, enderite <<<<<<<<<<========
+    event.smithing('1x ender_dragon_loot_:dragon_armor_helmet', 'enderitemod:enderite_upgrade_smithing_template', 'zoomers_armory:crystalline_helmet', 'ender_dragon_loot_:dragon_scale');
+    event.smithing('1x ender_dragon_loot_:dragon_armor_chestplate', 'enderitemod:enderite_upgrade_smithing_template', 'zoomers_armory:crystalline_chestplate', 'ender_dragon_loot_:dragon_scale');
+    event.smithing('1x ender_dragon_loot_:dragon_armor_leggings', 'enderitemod:enderite_upgrade_smithing_template', 'zoomers_armory:crystalline_leggings', 'ender_dragon_loot_:dragon_scale');
+    event.smithing('1x ender_dragon_loot_:dragon_armor_boots', 'enderitemod:enderite_upgrade_smithing_template', 'zoomers_armory:crystalline_boots', 'ender_dragon_loot_:dragon_scale');
+    event.smithing('1x ender_dragon_loot_:dragon_sword', 'enderitemod:enderite_upgrade_smithing_template', 'phantasm:crystalline_sword', 'ender_dragon_loot_:dragon_scale');
+    event.smithing('1x ender_dragon_loot_:dragon_axe', 'enderitemod:enderite_upgrade_smithing_template', 'phantasm:crystalline_axe', 'ender_dragon_loot_:dragon_scale');
+    event.smithing('1x ender_dragon_loot_:dragon_picaxe', 'enderitemod:enderite_upgrade_smithing_template', 'phantasm:crystalline_pickaxe', 'ender_dragon_loot_:dragon_scale');
+    event.smithing('1x ender_dragon_loot_:dragon_shovel', 'enderitemod:enderite_upgrade_smithing_template', 'phantasm:crystalline_shovel', 'ender_dragon_loot_:dragon_scale');
+    event.smithing('1x ender_dragon_loot_:dragon_hoe', 'enderitemod:enderite_upgrade_smithing_template', 'phantasm:crystalline_hoe', 'ender_dragon_loot_:dragon_scale');
+    
+    event.smithing('1x enderitemod:enderite_helmet', 'enderitemod:enderite_upgrade_smithing_template', 'ender_dragon_loot_:dragon_armor_helmet', 'enderitemod:enderite_ingot');
+    event.smithing('1x enderitemod:enderite_chestplate', 'enderitemod:enderite_upgrade_smithing_template', 'ender_dragon_loot_:dragon_armor_chestplate', 'enderitemod:enderite_ingot');
+    event.smithing('1x enderitemod:enderite_leggings', 'enderitemod:enderite_upgrade_smithing_template', 'ender_dragon_loot_:dragon_armor_leggings', 'enderitemod:enderite_ingot');
+    event.smithing('1x enderitemod:enderite_boots', 'enderitemod:enderite_upgrade_smithing_template', 'ender_dragon_loot_:dragon_armor_boots', 'enderitemod:enderite_ingot');
+    event.smithing('1x enderitemod:enderite_sword', 'enderitemod:enderite_upgrade_smithing_template', 'ender_dragon_loot_:dragon_sword', 'enderitemod:enderite_ingot');
+    event.smithing('1x enderitemod:enderite_axe', 'enderitemod:enderite_upgrade_smithing_template', 'ender_dragon_loot_:dragon_axe', 'enderitemod:enderite_ingot');
+    event.smithing('1x enderitemod:enderite_pickaxe', 'enderitemod:enderite_upgrade_smithing_template', 'ender_dragon_loot_:dragon_picaxe', 'enderitemod:enderite_ingot');
+    event.smithing('1x enderitemod:enderite_shovel', 'enderitemod:enderite_upgrade_smithing_template', 'ender_dragon_loot_:dragon_shovel', 'enderitemod:enderite_ingot');
+    event.smithing('1x enderitemod:enderite_hoe', 'enderitemod:enderite_upgrade_smithing_template', 'ender_dragon_loot_:dragon_hoe', 'enderitemod:enderite_ingot');
 
-    // abyss: fusion, aberythe, ignisithe, knight, glacerythe, garnite, phantom, unorithe, incorythe
-    doInBulk('theabyss', 'aberythe', 'fusion', 'zoomers_armory:abyssal_smithing_template', 'theabyss:aberythe_gem');
-    doInBulk('theabyss', 'ignisithe', 'aberythe', 'zoomers_armory:abyssal_smithing_template', 'theabyss:ignisithe_gem');
-    doInBulk('theabyss', 'knight', 'ignisithe', 'zoomers_armory:abyssal_smithing_template', 'theabyss:fixed_bone');
-    doArmorBulk('theabyss', 'glacerythe', 'knight', 'zoomers_armory:abyssal_smithing_template', 'theabyss:glacerythe_gem');
-    doInBulk('theabyss', 'garnite', 'glacerythe', 'zoomers_armory:abyssal_smithing_template', 'theabyss:garnite_ingot');
-    doInBulk('theabyss', 'phantom', 'garnite', 'zoomers_armory:abyssal_smithing_template', 'theabyss:phantom_ingot');
-    doInBulk('theabyss', 'unorithe', 'phantom', 'zoomers_armory:abyssal_smithing_template', 'theabyss:unorithe_ingot');
-    doToolsBulk('theabyss', 'incorythe', 'unorithe', 'zoomers_armory:abyssal_smithing_template', 'theabyss:incorythe_gem');
+    doArmorBulk('theabyss', 'aberythe_armor', 'fusion_armor', 'zoomers_armory:abyssal_smithing_template', 'theabyss:aberythe_gem');
+    doToolsBulk('theabyss', 'aberythe', 'fusion', 'zoomers_armory:abyssal_smithing_template', 'theabyss:aberythe_gem');
+
+    doArmorBulk('theabyss', 'ignisithe_armor', 'aberythe_armor', 'zoomers_armory:abyssal_smithing_template', 'theabyss:ignisithe_gem');
+    doToolsBulk('theabyss', 'ignisithe', 'aberythe', 'zoomers_armory:abyssal_smithing_template', 'theabyss:ignisithe_gem', ['axe', 'pickaxe', 'hoe', 'shovel']);
+    doToolsBulk('theabyss', 'knight', 'ignisithe', 'zoomers_armory:abyssal_smithing_template', 'theabyss:fixed_bone', ['axe', 'pickaxe', 'shovel', 'hoe']);
+
+    doArmorBulk('theabyss', 'glacerythe_armor', 'ignisithe_armor', 'zoomers_armory:abyssal_smithing_template', 'theabyss:glacerythe_gem');   
+    
+    doArmorBulk('theabyss', 'garnite_armor', 'glacerythe_armor', 'zoomers_armory:abyssal_smithing_template', 'theabyss:garnite_ingot');
+    
+    doArmorBulk('theabyss', 'phantom_armor', 'garnite_armor', 'zoomers_armory:abyssal_smithing_template', 'theabyss:phantom_ingot');
+    doToolsBulk('theabyss', 'phantom', 'garnite', 'zoomers_armory:abyssal_smithing_template', 'theabyss:phantom_ingot');
+    
+    doArmorBulk('theabyss', 'unorithe_armor', 'phantom_armor', 'zoomers_armory:abyssal_smithing_template', 'theabyss:unorithe_ingot');
+    doToolsBulk('theabyss', 'unorithe', 'phantom', 'zoomers_armory:abyssal_smithing_template', 'theabyss:unorithe_ingot', ['pickaxe']);
+    event.smithing('1x theabyss:unorithe_pick_axe', 'zoomers_armory:abyssal_smithing_template', 'theabyss:phantom_pickaxe', 'theabyss:unorithe_ingot');
+
+    doArmorBulk('theabyss', 'incorythe_armor', 'unorithe_armor', 'zoomers_armory:abyssal_smithing_template', 'theabyss:incorythe_gem');
+    doToolsBulk('theabyss', 'incorythe', 'unorithe', 'zoomers_armory:abyssal_smithing_template', 'theabyss:incorythe_gem', ['pickaxe']);
+    event.smithing('1x theabyss:incorythe_pickaxe', 'zoomers_armory:abyssal_smithing_template', 'theabyss:unorithe_pick_axe', 'theabyss:incorythe_gem');
+
 });
