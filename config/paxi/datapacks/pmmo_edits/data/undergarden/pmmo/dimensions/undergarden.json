@@ -12,7 +12,7 @@
         {
             "attribute":"minecraft:generic.attack_damage",
             "operation": "MULTIPLY_BASE",
-            "amount": 9
+            "amount": 19
         },
         {
             "attribute":"projectile_damage:generic",
@@ -45,7 +45,15 @@
             "amount": 4
         }
     ],
-    "mob_modifier": {},
+    "mob_modifier": {
+        "undergarden:forgotten": [
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "operation": "MULTIPLY_BASE",
+                "amount": -17
+            }
+        ]
+    },
     "override": false,
     "isTagFor": [],
     "bonus": {}
