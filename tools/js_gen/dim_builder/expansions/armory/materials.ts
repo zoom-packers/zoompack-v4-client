@@ -25,24 +25,10 @@ import {archerCustomArmory, rangerCustomArmory} from "../../archerArmory";
 
 const materials = [
     {
-        item: item_minecraft.i_flint,
-        tier: 1,
-        type: "crafting",
-        name: "flint",
-        base_damage: 4,
-        durability: 100,
-        armor: 7.5,
-        armorToughness: 0,
-        knockbackResistance: 0,
-        pmmoLevel: 3,
-        materialColor: "#232020",
-        skip: ["armor"]
-    },
-    {
-        item: item_minecraft.i_copper_ingot,
-        tier: 1,
-        type: "crafting",
         name: "copper",
+        tier: 1,
+        item: item_minecraft.i_copper_ingot,
+        type: "crafting",
         base_damage: 5.5,
         durability: 180,
         armor: 11,
@@ -53,10 +39,10 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_minecraft.i_iron_ingot,
+        name: "iron",
         tier: 2,
+        item: item_minecraft.i_iron_ingot,
         type: "crafting",
-        "name": "iron",
         base_damage: 7,
         durability: 250,
         armor: 15,
@@ -67,10 +53,10 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_minecraft.i_gold_ingot,
-        tier: 1,
-        type: "crafting",
         name: "gold",
+        tier: 1,
+        item: item_minecraft.i_gold_ingot,
+        type: "crafting",
         base_damage: 6,
         durability: 50,
         armor: 11,
@@ -82,10 +68,10 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_minecraft.i_diamond,
-        tier: 3,
-        type: "crafting",
         name: "diamond",
+        tier: 3,
+        item: item_minecraft.i_diamond,
+        type: "crafting",
         base_damage: 8,
         durability: 500,
         armor: 20,
@@ -96,10 +82,10 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_aquaculture.i_neptunium_ingot,
-        tier: 3,
-        type: "crafting",
         name: "neptunium",
+        tier: 3,
+        item: item_aquaculture.i_neptunium_ingot,
+        type: "crafting",
         base_damage: 8.5,
         durability: 1000,
         armor: 22,
@@ -112,10 +98,10 @@ const materials = [
 
     // Blue skies
     {
-        item: item_blue_skies.i_pyrope_gem,
-        tier: tier_levels_blue_skies_start + 2,
-        type: "crafting",
         name: "pyrope",
+        tier: tier_levels_blue_skies_start + 2,
+        item: item_blue_skies.i_pyrope_gem,
+        type: "crafting",
         base_damage: 8,
         durability: 1600,
         armor: 22,
@@ -126,10 +112,12 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_blue_skies.i_aquite,
-        tier: tier_levels_blue_skies_start + 2,
-        type: "crafting",
         name: "aquite",
+        tier: tier_levels_blue_skies_start + 2,
+        item: item_blue_skies.i_aquite,
+        type: "smithing",
+        smithing: "zoomers_armory:everbright_smithing_template",
+        base: "pyrope",
         base_damage: 8.5,
         durability: 1700,
         armor: 24,
@@ -140,10 +128,12 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_blue_skies.i_diopside_gem,
-        tier: tier_levels_blue_skies_start + 2,
-        type: "crafting",
         name: "diopside",
+        tier: tier_levels_blue_skies_start + 2,
+        item: item_blue_skies.i_diopside_gem,
+        type: "smithing",
+        smithing: "zoomers_armory:everbright_smithing_template",
+        base: "aquite",
         base_damage: 8.7,
         durability: 1800,
         armor: 24,
@@ -154,10 +144,12 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_blue_skies.i_charoite,
-        tier: tier_levels_blue_skies_start + 3,
-        type: "crafting",
         name: "charoite",
+        tier: tier_levels_blue_skies_start + 3,
+        item: item_blue_skies.i_charoite,
+        type: "smithing",
+        smithing: "zoomers_armory:everbright_smithing_template",
+        base: "diopside",
         base_damage: 9,
         durability: 1900,
         armor: 25,
@@ -168,10 +160,12 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_blue_skies.i_horizonite_ingot,
-        tier: tier_levels_blue_skies_start + 3,
-        type: "crafting",
         name: "horizonite",
+        tier: tier_levels_blue_skies_start + 3,
+        item: item_blue_skies.i_horizonite_ingot,
+        type: "smithing",
+        smithing: "zoomers_armory:everbright_smithing_template",
+        base: "charoite",
         base_damage: 10.5,
         durability: 2000,
         armor: 26,
@@ -184,10 +178,10 @@ const materials = [
 
     // Aether
     {
-        item: item_aether.i_zanite_gemstone,
-        tier: tier_levels_aether_start + 2,
-        type: "crafting",
         name: "zanite",
+        tier: tier_levels_aether_start + 2,
+        item: item_aether.i_zanite_gemstone,
+        type: "crafting",
         base_damage: 11,
         durability: 2211,
         armor: 28,
@@ -198,10 +192,12 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_aether.i_enchanted_gravitite,
-        tier: tier_levels_aether_start + 2,
-        type: "crafting",
         name: "enchanted_gravitite",
+        tier: tier_levels_aether_start + 2,
+        item: item_aether.i_enchanted_gravitite,
+        type: "smithing",
+        smithing: "zoomers_armory:aether_smithing_template",
+        base: "zanite",
         base_damage: 12,
         durability: 2431,
         armor: 36,
@@ -214,10 +210,10 @@ const materials = [
 
     // Nether
     {
-        item: item_betternether.i_cincinnasite_ingot,
-        tier: tier_levels_nether_start,
-        type: "crafting",
         name: "cincinnasite",
+        tier: tier_levels_nether_start,
+        item: item_betternether.i_cincinnasite_ingot,
+        type: "crafting",
         base_damage: 17,
         durability: 2700,
         armor: 45,
@@ -228,11 +224,11 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_minecraft.i_diamond,
-        tier: tier_levels_nether_start,
-        type: "smithing",
         name: "cincinnasite_diamond",
-        smithing: item_betternether.i_cincinnasite_diamond_upgrade_smithing_template,
+        tier: tier_levels_nether_start,
+        item: item_minecraft.i_diamond,
+        type: "smithing",
+        smithing: item_minecraft.i_netherite_upgrade_smithing_template,
         base: "cincinnasite",
         base_damage: 18,
         durability: 2800,
@@ -244,10 +240,12 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_betternether.i_nether_ruby,
-        tier: tier_levels_nether_start + 1,
-        type: "crafting",
         name: "nether_ruby",
+        tier: tier_levels_nether_start + 1,
+        item: item_betternether.i_nether_ruby,
+        type: "smithing",
+        smithing: item_minecraft.i_netherite_upgrade_smithing_template,
+        base: "cincinnasite_diamond",
         base_damage: 21,
         durability: 2950,
         armor: 55,
@@ -258,11 +256,11 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_minecraft.i_sculk_catalyst,
-        tier: tier_levels_nether_start + 1,
-        type: "smithing",
         name: "flaming_ruby",
-        smithing: item_betternether.i_flaming_ruby_upgrade_smithing_template,
+        tier: tier_levels_nether_start + 1,
+        item: item_minecraft.i_sculk_catalyst,
+        type: "smithing",
+        smithing: item_minecraft.i_netherite_upgrade_smithing_template,
         base: "nether_ruby",
         base_damage: 25,
         durability: 3025,
@@ -274,12 +272,12 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_minecraft.i_netherite_ingot,
-        tier: tier_levels_nether_start + 2,
-        type: "smithing",
         name: "netherite",
+        tier: tier_levels_nether_start + 2,
+        item: item_minecraft.i_netherite_ingot,
+        type: "smithing",
         smithing: item_minecraft.i_netherite_upgrade_smithing_template,
-        base: "diamond",
+        base: "flaming_ruby",
         base_damage: 31,
         durability: 3100,
         armor: 63,
@@ -292,10 +290,10 @@ const materials = [
 
     // Undergarden
     {
-        item: item_undergarden.i_cloggrum_ingot,
-        tier: tier_levels_undergarden_start,
-        type: "crafting",
         name: "cloggrum",
+        tier: tier_levels_undergarden_start,
+        item: item_undergarden.i_cloggrum_ingot,
+        type: "crafting",
         base_damage: 61,
         durability: 3300,
         armor: 63,
@@ -306,10 +304,12 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_undergarden.i_froststeel_ingot,
-        tier: tier_levels_undergarden_start + 1,
-        type: "crafting",
         name: "froststeel",
+        tier: tier_levels_undergarden_start + 1,
+        item: item_undergarden.i_froststeel_ingot,
+        type: "smithing",
+        smithing: item_undergarden.i_forgotten_upgrade_smithing_template,
+        base: "cloggrum",
         base_damage: 71,
         durability: 3500,
         armor: 66,
@@ -320,10 +320,12 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_undergarden.i_utherium_crystal,
-        tier: tier_levels_undergarden_start + 2,
-        type: "crafting",
         name: "utherium",
+        tier: tier_levels_undergarden_start + 2,
+        item: item_undergarden.i_utherium_crystal,
+        type: "smithing",
+        smithing: item_undergarden.i_forgotten_upgrade_smithing_template,
+        base: "froststeel",
         base_damage: 81,
         durability: 3700,
         armor: 83,
@@ -334,10 +336,10 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_undergarden.i_forgotten_ingot,
-        tier: tier_levels_undergarden_start + 3,
-        type: "smithing",
         name: "forgotten",
+        tier: tier_levels_undergarden_start + 3,
+        item: item_undergarden.i_forgotten_ingot,
+        type: "smithing",
         smithing: item_undergarden.i_forgotten_upgrade_smithing_template,
         base: "utherium",
         base_damage: 91,
@@ -350,10 +352,12 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_call_of_yucutan.i_jade,
-        tier: tier_levels_undergarden_start + 2,
-        type: "crafting",
         name: "jade",
+        tier: tier_levels_undergarden_start + 2,
+        item: item_call_of_yucutan.i_jade,
+        type: "smithing",
+        smithing: item_undergarden.i_forgotten_upgrade_smithing_template,
+        base: "forgotten",
         base_damage: 86,
         durability: 4000,
         armor: 85,
@@ -366,10 +370,10 @@ const materials = [
 
     // End
     {
-        item: item_phantasm.i_crystal_block,
-        tier: tier_levels_end_start,
-        type: "crafting",
         name: "crystalline",
+        tier: tier_levels_end_start,
+        item: item_phantasm.i_crystal_block,
+        type: "crafting",
         base_damage: 108,
         durability: 4600,
         armor: 105,
@@ -380,12 +384,12 @@ const materials = [
         skip: ["tools"]
     },
     {
-        item: item_ender_dragon_loot_.i_dragon_scale,
-        tier: tier_levels_end_start + 1,
-        type: "smithing",
         name: "dragon",
-        smithing: item_ender_dragon_loot_.i_dragon_upgrade_template,
-        base: "netherite",
+        tier: tier_levels_end_start + 1,
+        item: item_ender_dragon_loot_.i_dragon_scale,
+        type: "smithing",
+        smithing: item_enderitemod.i_enderite_upgrade_smithing_template,
+        base: "crystalline",
         base_damage: 133,
         durability: 4800,
         armor: 120,
@@ -396,12 +400,12 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_enderitemod.i_enderite_ingot,
-        tier: tier_levels_end_start + 1,
-        type: "smithing",
         name: "enderite",
+        tier: tier_levels_end_start + 1,
+        item: item_enderitemod.i_enderite_ingot,
+        type: "smithing",
         smithing: item_enderitemod.i_enderite_upgrade_smithing_template,
-        base: "netherite",
+        base: "dragon",
         base_damage: 192,
         durability: 5500,
         armor: 212,
@@ -414,10 +418,10 @@ const materials = [
 
     // Call from the depth
     {
-        item: item_callfromthedepth_.i_immemorialingot,
-        tier: tier_levels_call_from_the_depths_start,
-        type: "crafting",
         name: "immemorial",
+        tier: tier_levels_call_from_the_depths_start,
+        item: item_callfromthedepth_.i_immemorialingot,
+        type: "crafting",
         base_damage: 206,
         durability: 5700,
         armor: 200,
@@ -428,10 +432,10 @@ const materials = [
         skip: ["tools", "armor"]
     },
     {
-        item: item_callfromthedepth_.i_soulingot,
-        tier: tier_levels_call_from_the_depths_start + 1,
-        type: "smithing",
         name: "soul",
+        tier: tier_levels_call_from_the_depths_start + 1,
+        item: item_callfromthedepth_.i_soulingot,
+        type: "smithing",
         smithing: item_callfromthedepth_.i_immemorialupgradesmithingtemplate,
         base: "immemorial",
         base_damage: 226,
@@ -446,10 +450,10 @@ const materials = [
 
     // Abyss
     {
-        item: item_theabyss.i_fixed_bone,
-        tier: tier_levels_the_abyss_start,
-        type: "crafting",
         name: "fixed_bone",
+        tier: tier_levels_the_abyss_start,
+        item: item_theabyss.i_fixed_bone,
+        type: "crafting",
         base_damage: 245,
         durability: 6100,
         armor: 299,
@@ -460,10 +464,10 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_theabyss.i_fusion_ingot,
-        tier: tier_levels_the_abyss_start,
-        type: "crafting",
         name: "fusion",
+        tier: tier_levels_the_abyss_start,
+        item: item_theabyss.i_fusion_ingot,
+        type: "crafting",
         base_damage: 229,
         durability: 6250,
         armor: 223,
@@ -474,10 +478,12 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_theabyss.i_aberythe_gem,
-        tier: tier_levels_the_abyss_start + 1,
-        type: "crafting",
         name: "aberythe",
+        tier: tier_levels_the_abyss_start + 1,
+        item: item_theabyss.i_aberythe_gem,
+        type: "smithing",
+        smithing: "zoomers_armory:abyss_smithing_template",
+        base: "fusion",
         base_damage: 238,
         durability: 6500,
         armor: 341,
@@ -488,10 +494,12 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_theabyss.i_ignisithe_gem,
-        tier: tier_levels_the_abyss_start + 2,
-        type: "crafting",
         name: "ignisithe",
+        tier: tier_levels_the_abyss_start + 2,
+        item: item_theabyss.i_ignisithe_gem,
+        type: "smithing",
+        smithing: "zoomers_armory:abyss_smithing_template",
+        base: "aberythe",
         base_damage: 268,
         durability: 6750,
         armor: 420,
@@ -502,10 +510,12 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_theabyss.i_fixed_bone,
-        tier: tier_levels_the_abyss_start + 2,
-        type: "crafting",
         name: "knight",
+        tier: tier_levels_the_abyss_start + 2,
+        item: item_theabyss.i_fixed_bone,
+        type: "smithing",
+        smithing: "zoomers_armory:abyss_smithing_template",
+        base: "ignisithe",
         base_damage: 278,
         durability: 6875,
         armor: 376,
@@ -516,10 +526,12 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_theabyss.i_glacerythe_gem,
-        tier: tier_levels_the_abyss_start + 3,
-        type: "crafting",
         name: "glacerythe",
+        tier: tier_levels_the_abyss_start + 3,
+        item: item_theabyss.i_glacerythe_gem,
+        type: "smithing",
+        smithing: "zoomers_armory:abyss_smithing_template",
+        base: "knight",
         base_damage: 291,
         durability: 7000,
         armor: 459,
@@ -530,10 +542,12 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_theabyss.i_garnite_ingot,
-        tier: tier_levels_the_abyss_start + 4,
-        type: "crafting",
         name: "garnite",
+        tier: tier_levels_the_abyss_start + 4,
+        item: item_theabyss.i_garnite_ingot,
+        type: "smithing",
+        smithing: "zoomers_armory:abyss_smithing_template",
+        base: "glacerythe",
         base_damage: 308,
         durability: 7250,
         armor: 502,
@@ -544,10 +558,12 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_theabyss.i_phantom_ingot,
-        tier: tier_levels_the_abyss_start + 3,
-        type: "crafting",
         name: "phantom",
+        tier: tier_levels_the_abyss_start + 3,
+        item: item_theabyss.i_phantom_ingot,
+        type: "smithing",
+        smithing: "zoomers_armory:abyss_smithing_template",
+        base: "garnite",
         base_damage: 330,
         durability: 7500,
         armor: 543,
@@ -558,10 +574,12 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_theabyss.i_unorithe_ingot,
-        tier: tier_levels_the_abyss_start + 4,
-        type: "crafting",
         name: "unorithe",
+        tier: tier_levels_the_abyss_start + 4,
+        item: item_theabyss.i_unorithe_ingot,
+        type: "smithing",
+        smithing: "zoomers_armory:abyss_smithing_template",
+        base: "phantom",
         base_damage: 361,
         durability: 7750,
         armor: 586,
@@ -572,10 +590,12 @@ const materials = [
         skip: ["armor", "tools"]
     },
     {
-        item: item_theabyss.i_incorythe_gem,
-        tier: tier_levels_the_abyss_start + 2,
-        type: "crafting",
         name: "incorythe",
+        tier: tier_levels_the_abyss_start + 2,
+        item: item_theabyss.i_incorythe_gem,
+        type: "smithing",
+        smithing: "zoomers_armory:abyss_smithing_template",
+        base: "unorithe",
         base_damage: 406,
         durability: 8000,
         armor: 645,

@@ -1,13 +1,5 @@
 
 ItemEvents.toolTierRegistry(event => {
-  event.add("zoomers_armory:flint", tier => {
-    tier.uses = 100
-    tier.speed = 4
-    tier.attackDamageBonus = 0
-    tier.level = 1
-    tier.enchantmentValue = 9
-    tier.repairIngredient = "#minecraft:flint"
-  });
   event.add("zoomers_armory:copper", tier => {
     tier.uses = 180
     tier.speed = 4
@@ -308,132 +300,6 @@ ItemEvents.toolTierRegistry(event => {
 
 
 ItemEvents.armorTierRegistry(event => {
-  event.add("zoomers_armory:flint", tier => {
-    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [1,2.5,3,1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:flint" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:flint_samurai", tier => {
-    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [1,2.5,3,1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:flint" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:flint_rogue", tier => {
-    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [1,2.5,3,1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:flint" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:flint_tank", tier => {
-    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [1,2.5,3,1] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:flint" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:flint_archer", tier => {
-    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:flint" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:flint_ranger", tier => {
-    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [0.85,2.125,2.55,0.85] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:flint" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:flint_pyromancer", tier => {
-    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:flint" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:flint_cryomancer", tier => {
-    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:flint" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:flint_electromancer", tier => {
-    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:flint" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:flint_archevoker", tier => {
-    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:flint" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:flint_hemomancer", tier => {
-    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:flint" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:flint_chorusguardian", tier => {
-    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:flint" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:flint_priest", tier => {
-    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:flint" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
-  event.add("zoomers_armory:flint_druid", tier => {
-    tier.durabilityMultiplier = 11.238285937499999 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [0.75,1.875,2.25,0.75] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 9
-    tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#minecraft:flint" // #forge:ingots/iron'
-    tier.toughness = 0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 0 // diamond has 0.0, netherite 0.1
-  });
   event.add("zoomers_armory:copper", tier => {
     tier.durabilityMultiplier = 20.228914687499998 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [1.4666666666666666,3.6666666666666665,4.4,1.4666666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
@@ -5100,57 +4966,6 @@ ItemEvents.armorTierRegistry(event => {
 
 
 StartupEvents.registry("item", e => {
-e.create("zoomers_armory:flint_claws", "sword").displayName("Flint Claws").maxDamage(130).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_dagger", "sword").displayName("Flint Dagger").maxDamage(150).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_shortsword", "sword").displayName("Flint Shortsword").maxDamage(120).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_heavysword", "sword").displayName("Flint Heavysword").maxDamage(80).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_cutlass", "sword").displayName("Flint Cutlass").maxDamage(120).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_mace", "sword").displayName("Flint Mace").maxDamage(120).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_heavymace", "sword").displayName("Flint Heavymace").maxDamage(80).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_warhammer", "sword").displayName("Flint Warhammer").maxDamage(70).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_battleaxe", "sword").displayName("Flint Battleaxe").maxDamage(80).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_spear", "sword").displayName("Flint Spear").maxDamage(120).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_halberd", "sword").displayName("Flint Halberd").maxDamage(85).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_scythe", "sword").displayName("Flint Scythe").maxDamage(80).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_katana", "sword").displayName("Flint Katana").maxDamage(120).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_twinblade", "sword").displayName("Flint Twinblade").maxDamage(130).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_sai", "sword").displayName("Flint Sai").maxDamage(150).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_warglaive", "sword").displayName("Flint Warglaive").maxDamage(150).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_musashi", "sword").displayName("Flint Musashi").maxDamage(90).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_arcane_staff", "irons_spells_js:staff").displayName("Flint Arcane Staff").maxDamage(100).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_woodwind_staff", "irons_spells_js:staff").displayName("Flint Woodwind Staff").maxDamage(100).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_fire_staff", "irons_spells_js:staff").displayName("Flint Fire Staff").maxDamage(100).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_ice_staff", "irons_spells_js:staff").displayName("Flint Ice Staff").maxDamage(100).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_lightning_staff", "irons_spells_js:staff").displayName("Flint Lightning Staff").maxDamage(100).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_nature_staff", "irons_spells_js:staff").displayName("Flint Nature Staff").maxDamage(100).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_holy_staff", "irons_spells_js:staff").displayName("Flint Holy Staff").maxDamage(100).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_blood_staff", "irons_spells_js:staff").displayName("Flint Blood Staff").maxDamage(100).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_evocation_staff", "irons_spells_js:staff").displayName("Flint Evocation Staff").maxDamage(100).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_ender_staff", "irons_spells_js:staff").displayName("Flint Ender Staff").maxDamage(100).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_buckler", "shield").displayName("Flint Buckler").maxDamage(90).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_heater", "shield").displayName("Flint Heater").maxDamage(120).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_tower", "shield").displayName("Flint Tower").maxDamage(150).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_shortbow", "bow").displayName("Flint Shortbow").maxDamage(120).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_bow", "bow").displayName("Flint Bow").maxDamage(100).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_longbow", "bow").displayName("Flint Longbow").maxDamage(80).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_crossbow", "crossbow").displayName("Flint Crossbow").maxDamage(75).tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_pickaxe", "pickaxe").displayName("Flint Pickaxe").tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_axe", "axe").displayName("Flint Axe").tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_shovel", "shovel").displayName("Flint Shovel").tier("zoomers_armory:flint")
-e.create("zoomers_armory:flint_hoe", "hoe").displayName("Flint Hoe").tier("zoomers_armory:flint")
-global.createGeckoArmor(e, "zoomers_armory", "flint_samurai", "zoomers_armory:flint_samurai", JSON.parse('{"helmet":"Flint Samurai Helmet","chestplate":"Flint Samurai Chestplate","leggings":"Flint Samurai Leggings","boots":"Flint Samurai Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/samurai.geo.json","texture":"zoomers_armory:textures/models/armor/flint_samurai_armor.png","animation":"zoomers_armory:animations/samurai.animation.json","defaultAnimations":[]}'));
-global.createGeckoArmor(e, "zoomers_armory", "flint_rogue", "zoomers_armory:flint_rogue", JSON.parse('{"helmet":"Flint Rogue Helmet","chestplate":"Flint Rogue Chestplate","leggings":"Flint Rogue Leggings","boots":"Flint Rogue Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/rogue.geo.json","texture":"zoomers_armory:textures/models/armor/flint_rogue_armor.png","animation":"zoomers_armory:animations/rogue.animation.json","defaultAnimations":[]}'));
-global.createGeckoArmor(e, "zoomers_armory", "flint_tank", "zoomers_armory:flint_tank", JSON.parse('{"helmet":"Flint Tank Helmet","chestplate":"Flint Tank Chestplate","leggings":"Flint Tank Leggings","boots":"Flint Tank Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/tank.geo.json","texture":"zoomers_armory:textures/models/armor/flint_tank_armor.png","animation":"zoomers_armory:animations/tank.animation.json","defaultAnimations":[]}'));
-global.createGeckoArmor(e, "zoomers_armory", "flint_archer", "zoomers_armory:flint_archer", JSON.parse('{"helmet":"Flint Archer Helmet","chestplate":"Flint Archer Chestplate","leggings":"Flint Archer Leggings","boots":"Flint Archer Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/archer.geo.json","texture":"zoomers_armory:textures/models/armor/flint_archer_armor.png","animation":"zoomers_armory:animations/archer.animation.json","defaultAnimations":[]}'));
-global.createGeckoArmor(e, "zoomers_armory", "flint_ranger", "zoomers_armory:flint_ranger", JSON.parse('{"helmet":"Flint Ranger Helmet","chestplate":"Flint Ranger Chestplate","leggings":"Flint Ranger Leggings","boots":"Flint Ranger Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/ranger.geo.json","texture":"zoomers_armory:textures/models/armor/flint_ranger_armor.png","animation":"zoomers_armory:animations/ranger.animation.json","defaultAnimations":[]}'));
-global.createGeckoArmor(e, "zoomers_armory", "flint_pyromancer", "zoomers_armory:flint_pyromancer", JSON.parse('{"helmet":"Flint Pyromancer Hat","chestplate":"Flint Pyromancer Robe","leggings":"Flint Pyromancer Leggings","boots":"Flint Pyromancer Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/pyromancer.geo.json","texture":"zoomers_armory:textures/models/armor/flint_pyromancer_armor.png","animation":"zoomers_armory:animations/pyromancer.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
-global.createGeckoArmor(e, "zoomers_armory", "flint_cryomancer", "zoomers_armory:flint_cryomancer", JSON.parse('{"helmet":"Flint Cryomancer Hat","chestplate":"Flint Cryomancer Robe","leggings":"Flint Cryomancer Leggings","boots":"Flint Cryomancer Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/cryomancer.geo.json","texture":"zoomers_armory:textures/models/armor/flint_cryomancer_armor.png","animation":"zoomers_armory:animations/cryomancer.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
-global.createGeckoArmor(e, "zoomers_armory", "flint_electromancer", "zoomers_armory:flint_electromancer", JSON.parse('{"helmet":"Flint Electromancer Hat","chestplate":"Flint Electromancer Robe","leggings":"Flint Electromancer Leggings","boots":"Flint Electromancer Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/electromancer.geo.json","texture":"zoomers_armory:textures/models/armor/flint_electromancer_armor.png","animation":"zoomers_armory:animations/electromancer.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
-global.createGeckoArmor(e, "zoomers_armory", "flint_archevoker", "zoomers_armory:flint_archevoker", JSON.parse('{"helmet":"Flint Archevoker Hat","chestplate":"Flint Archevoker Robe","leggings":"Flint Archevoker Leggings","boots":"Flint Archevoker Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/archevoker.geo.json","texture":"zoomers_armory:textures/models/armor/flint_archevoker_armor.png","animation":"zoomers_armory:animations/archevoker.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
-global.createGeckoArmor(e, "zoomers_armory", "flint_hemomancer", "zoomers_armory:flint_hemomancer", JSON.parse('{"helmet":"Flint Hemomancer Hat","chestplate":"Flint Hemomancer Robe","leggings":"Flint Hemomancer Leggings","boots":"Flint Hemomancer Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/hemomancer.geo.json","texture":"zoomers_armory:textures/models/armor/flint_hemomancer_armor.png","animation":"zoomers_armory:animations/hemomancer.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
-global.createGeckoArmor(e, "zoomers_armory", "flint_chorusguardian", "zoomers_armory:flint_chorusguardian", JSON.parse('{"helmet":"Flint Chorusguardian Hat","chestplate":"Flint Chorusguardian Robe","leggings":"Flint Chorusguardian Leggings","boots":"Flint Chorusguardian Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/chorusguardian.geo.json","texture":"zoomers_armory:textures/models/armor/flint_chorusguardian_armor.png","animation":"zoomers_armory:animations/chorusguardian.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
-global.createGeckoArmor(e, "zoomers_armory", "flint_priest", "zoomers_armory:flint_priest", JSON.parse('{"helmet":"Flint Priest Hat","chestplate":"Flint Priest Robe","leggings":"Flint Priest Leggings","boots":"Flint Priest Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/priest.geo.json","texture":"zoomers_armory:textures/models/armor/flint_priest_armor.png","animation":"zoomers_armory:animations/priest.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
-global.createGeckoArmor(e, "zoomers_armory", "flint_druid", "zoomers_armory:flint_druid", JSON.parse('{"helmet":"Flint Druid Hat","chestplate":"Flint Druid Robe","leggings":"Flint Druid Leggings","boots":"Flint Druid Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/druid.geo.json","texture":"zoomers_armory:textures/models/armor/flint_druid_armor.png","animation":"zoomers_armory:animations/druid.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
 e.create("zoomers_armory:copper_claws", "sword").displayName("Copper Claws").maxDamage(234).tier("zoomers_armory:copper")
 e.create("zoomers_armory:copper_dagger", "sword").displayName("Copper Dagger").maxDamage(270).tier("zoomers_armory:copper")
 e.create("zoomers_armory:copper_shortsword", "sword").displayName("Copper Shortsword").maxDamage(216).tier("zoomers_armory:copper")
@@ -6900,24 +6715,6 @@ global.createGeckoArmor(e, "zoomers_armory", "incorythe_hemomancer", "zoomers_ar
 global.createGeckoArmor(e, "zoomers_armory", "incorythe_chorusguardian", "zoomers_armory:incorythe_chorusguardian", JSON.parse('{"helmet":"Incorythe Chorusguardian Hat","chestplate":"Incorythe Chorusguardian Robe","leggings":"Incorythe Chorusguardian Leggings","boots":"Incorythe Chorusguardian Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/chorusguardian.geo.json","texture":"zoomers_armory:textures/models/armor/incorythe_chorusguardian_armor.png","animation":"zoomers_armory:animations/chorusguardian.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
 global.createGeckoArmor(e, "zoomers_armory", "incorythe_priest", "zoomers_armory:incorythe_priest", JSON.parse('{"helmet":"Incorythe Priest Hat","chestplate":"Incorythe Priest Robe","leggings":"Incorythe Priest Leggings","boots":"Incorythe Priest Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/priest.geo.json","texture":"zoomers_armory:textures/models/armor/incorythe_priest_armor.png","animation":"zoomers_armory:animations/priest.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
 global.createGeckoArmor(e, "zoomers_armory", "incorythe_druid", "zoomers_armory:incorythe_druid", JSON.parse('{"helmet":"Incorythe Druid Hat","chestplate":"Incorythe Druid Robe","leggings":"Incorythe Druid Leggings","boots":"Incorythe Druid Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/druid.geo.json","texture":"zoomers_armory:textures/models/armor/incorythe_druid_armor.png","animation":"zoomers_armory:animations/druid.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
-global.createCurio(e, "zoomers_armory:flint_mana_ring", "Flint Mana Ring", [{"attribute":"irons_spellbooks:max_mana","operation":"ADDITION","value":5,"uuid":"762fe892-f4db-5063-e63d-2e6201f78bb8"},{"attribute":"irons_spellbooks:max_mana","operation":"MULTIPLY_BASE","value":0.01,"uuid":"89d39e87-ba76-56ac-0ecf-a66b81b83526"},{"attribute":"irons_spellbooks:mana_regen","operation":"ADDITION","value":0.015,"uuid":"96a04cb8-7067-5638-ec20-ba667d8451ff"}]);
-global.createCurio(e, "zoomers_armory:flint_dexterity_ring", "Flint Dexterity Ring", [{"attribute":"projectile_damage:generic","operation":"ADDITION","value":1,"uuid":"81d9799c-b89f-567e-ca01-284189747120"},{"attribute":"projectile_damage:generic","operation":"MULTIPLY_BASE","value":0.01,"uuid":"0efe5243-05b3-5882-c1be-d1e60cd1ec27"},{"attribute":"attributeslib:armor_pierce","operation":"ADDITION","value":1,"uuid":"9ad50949-e6b5-5a46-d998-4411515c72b2"},{"attribute":"attributeslib:armor_pierce","operation":"MULTIPLY_BASE","value":0.01,"uuid":"7564e0e7-f9f0-5e0e-6712-3052746a6b51"}]);
-global.createCurio(e, "zoomers_armory:flint_sharpshooter_ring", "Flint Sharpshooter Ring", [{"attribute":"attributeslib:arrow_velocity","operation":"ADDITION","value":0.01,"uuid":"0c02d58d-2954-59b8-c6dd-3d2f5377691c"},{"attribute":"attributeslib:draw_speed","operation":"ADDITION","value":0.005,"uuid":"60bfa158-73c2-51b1-fa24-080e7600ccad"}]);
-global.createCurio(e, "zoomers_armory:flint_berserker_ring", "Flint Berserker Ring", [{"attribute":"minecraft:generic.attack_damage","operation":"ADDITION","value":1,"uuid":"9c175ea5-b0e4-53f2-13a8-097dd6c67e22"},{"attribute":"minecraft:generic.attack_damage","operation":"MULTIPLY_BASE","value":0.01,"uuid":"f8c633a1-ab92-5ace-1679-f6fdbe3a2d03"}]);
-global.createCurio(e, "zoomers_armory:flint_fortified_ring", "Flint Fortified Ring", [{"attribute":"minecraft:generic.armor","operation":"ADDITION","value":1,"uuid":"c0626378-9dda-5725-4714-8f3ddde55e6d"},{"attribute":"minecraft:generic.armor","operation":"MULTIPLY_BASE","value":0.01,"uuid":"7a7328a3-0ce5-583c-3a8b-3e708e8dc3f3"},{"attribute":"minecraft:generic.armor_toughness","operation":"ADDITION","value":1,"uuid":"ab745371-f254-5d7d-8776-b98bffe3ff3f"},{"attribute":"minecraft:generic.armor_toughness","operation":"MULTIPLY_BASE","value":0.01,"uuid":"a5ab16d2-9435-514a-127f-59a1f2c82a78"},{"attribute":"minecraft:generic.knockback_resistance","operation":"ADDITION","value":1,"uuid":"9473f3e9-c2c9-5651-e840-c0034f4651d4"},{"attribute":"minecraft:generic.knockback_resistance","operation":"MULTIPLY_BASE","value":0.01,"uuid":"88145189-474a-5998-1adf-b7fc2fdd6d6d"},{"attribute":"minecraft:generic.max_health","operation":"ADDITION","value":1,"uuid":"5653ef43-5853-5ad6-bb65-7e854d90baa3"},{"attribute":"minecraft:generic.max_health","operation":"MULTIPLY_BASE","value":0.01,"uuid":"8ea2da19-8a6f-5f88-a635-bbcdd04228b5"}]);
-global.createCurio(e, "zoomers_armory:flint_infused_ring", "Flint Infused Ring", [{"attribute":"irons_spellbooks:spell_power","operation":"ADDITION","value":0.01,"uuid":"b85948f1-0ce6-5413-9c85-ebfd0e72cba5"},{"attribute":"irons_spellbooks:spell_power","operation":"MULTIPLY_BASE","value":0.01,"uuid":"0ad67b57-b499-5ad1-c2ac-a81f96e4a08d"},{"attribute":"irons_spellbooks:cast_time_reduction","operation":"ADDITION","value":0.01,"uuid":"221be7c9-8b08-57f9-4750-af01b34c680f"},{"attribute":"irons_spellbooks:cooldown_reduction","operation":"ADDITION","value":0.01,"uuid":"27011786-52af-599e-2f41-1c02ece2e008"}]);
-global.createCurio(e, "zoomers_armory:flint_mana_necklace", "Flint Mana Necklace", [{"attribute":"irons_spellbooks:max_mana","operation":"ADDITION","value":7.5,"uuid":"aac94ba0-516e-562d-69e2-6b4d4d57b032"},{"attribute":"irons_spellbooks:max_mana","operation":"MULTIPLY_BASE","value":0.01,"uuid":"8962eca0-f35b-5d44-3126-3b6ad50932ef"},{"attribute":"irons_spellbooks:mana_regen","operation":"ADDITION","value":0.015,"uuid":"eec3c861-a08d-52c1-ad3e-0dcab7c43ca1"}]);
-global.createCurio(e, "zoomers_armory:flint_dexterity_necklace", "Flint Dexterity Necklace", [{"attribute":"projectile_damage:generic","operation":"ADDITION","value":1.5,"uuid":"a73fee3b-1515-548f-0dfb-4d40da137ddf"},{"attribute":"projectile_damage:generic","operation":"MULTIPLY_BASE","value":0.01,"uuid":"f91ec668-c674-5be9-dad9-6380f69da34a"},{"attribute":"attributeslib:armor_pierce","operation":"ADDITION","value":1.5,"uuid":"a8c9cb9a-d210-577b-3234-5b30f90c33c5"},{"attribute":"attributeslib:armor_pierce","operation":"MULTIPLY_BASE","value":0.01,"uuid":"5a1723a0-ae83-5e3d-c5f8-3db87e620555"}]);
-global.createCurio(e, "zoomers_armory:flint_sharpshooter_necklace", "Flint Sharpshooter Necklace", [{"attribute":"attributeslib:arrow_velocity","operation":"ADDITION","value":0.01,"uuid":"e00441d3-5320-5973-25de-f23fae6f8e37"},{"attribute":"attributeslib:draw_speed","operation":"ADDITION","value":0.03,"uuid":"06840595-7d5d-571a-b0d9-956996c6177e"}]);
-global.createCurio(e, "zoomers_armory:flint_berserker_necklace", "Flint Berserker Necklace", [{"attribute":"minecraft:generic.attack_damage","operation":"ADDITION","value":1.5,"uuid":"d4b71c79-ca91-554c-4b29-3efc3b60d9de"},{"attribute":"minecraft:generic.attack_damage","operation":"MULTIPLY_BASE","value":0.01,"uuid":"8cd94c91-e1ce-582c-abbc-5abc02bf28bb"}]);
-global.createCurio(e, "zoomers_armory:flint_fortified_necklace", "Flint Fortified Necklace", [{"attribute":"minecraft:generic.armor","operation":"ADDITION","value":1.5,"uuid":"859a0b55-7113-53b5-6dfd-e838ccd24a71"},{"attribute":"minecraft:generic.armor","operation":"MULTIPLY_BASE","value":0.01,"uuid":"2a2bd0f9-cce5-5cd0-b59e-5cff02c26a4b"},{"attribute":"minecraft:generic.armor_toughness","operation":"ADDITION","value":1.5,"uuid":"1f2ae46e-7d95-5326-4dd2-7425839184f6"},{"attribute":"minecraft:generic.armor_toughness","operation":"MULTIPLY_BASE","value":0.01,"uuid":"7a7d8569-6924-574f-398b-d939814ef097"},{"attribute":"minecraft:generic.knockback_resistance","operation":"ADDITION","value":1.5,"uuid":"897b36b6-82e9-5371-e913-54f784610c4a"},{"attribute":"minecraft:generic.knockback_resistance","operation":"MULTIPLY_BASE","value":0.01,"uuid":"6eda91fe-b85a-5722-bea5-7f3d73eb2dde"},{"attribute":"minecraft:generic.max_health","operation":"ADDITION","value":1.5,"uuid":"cf0a7ac3-edaf-5087-7d2a-6b08115fab47"},{"attribute":"minecraft:generic.max_health","operation":"MULTIPLY_BASE","value":0.01,"uuid":"c0c3b7d9-7154-54cd-5200-2d6f6e6d5f0c"}]);
-global.createCurio(e, "zoomers_armory:flint_infused_necklace", "Flint Infused Necklace", [{"attribute":"irons_spellbooks:spell_power","operation":"ADDITION","value":0.015,"uuid":"5c03e658-6df4-5173-e12b-84907bf7217a"},{"attribute":"irons_spellbooks:spell_power","operation":"MULTIPLY_BASE","value":0.01,"uuid":"8130d2dc-432b-5c20-f125-1693d8e1b5d3"},{"attribute":"irons_spellbooks:cast_time_reduction","operation":"ADDITION","value":0.015,"uuid":"d98827e1-ea86-54f6-40ea-5e53cb3904a8"},{"attribute":"irons_spellbooks:cooldown_reduction","operation":"ADDITION","value":0.015,"uuid":"f5a37fce-59da-58a3-919f-84c8b7335ddb"}]);
-global.createCurio(e, "zoomers_armory:flint_mana_gloves", "Flint Mana Gloves", [{"attribute":"irons_spellbooks:max_mana","operation":"ADDITION","value":7.5,"uuid":"4fac833b-adff-5dce-5b5e-d0d5fcacb547"},{"attribute":"irons_spellbooks:max_mana","operation":"MULTIPLY_BASE","value":0.01,"uuid":"e948b578-87ff-528e-810b-42dd6d0577af"},{"attribute":"irons_spellbooks:mana_regen","operation":"ADDITION","value":0.015,"uuid":"86cb3118-70c7-520c-1383-36cff88d438a"}]);
-global.createCurio(e, "zoomers_armory:flint_dexterity_gloves", "Flint Dexterity Gloves", [{"attribute":"projectile_damage:generic","operation":"ADDITION","value":1.5,"uuid":"58a62c32-58e5-53c2-e381-fef4559a363b"},{"attribute":"projectile_damage:generic","operation":"MULTIPLY_BASE","value":0.01,"uuid":"b0651f96-f851-5cdd-2d62-f1837ec613dd"},{"attribute":"attributeslib:armor_pierce","operation":"ADDITION","value":1.5,"uuid":"6696f2e4-ed5a-5713-e310-58c598f4d1fe"},{"attribute":"attributeslib:armor_pierce","operation":"MULTIPLY_BASE","value":0.01,"uuid":"e17f050f-bc8e-5619-e100-b86edc80f856"}]);
-global.createCurio(e, "zoomers_armory:flint_sharpshooter_gloves", "Flint Sharpshooter Gloves", [{"attribute":"attributeslib:arrow_velocity","operation":"ADDITION","value":0.01,"uuid":"10fba450-06e4-5ec1-9928-7912a5740754"},{"attribute":"attributeslib:draw_speed","operation":"ADDITION","value":0.015,"uuid":"f57dff18-a449-5273-7842-15179f145d11"}]);
-global.createCurio(e, "zoomers_armory:flint_berserker_gloves", "Flint Berserker Gloves", [{"attribute":"minecraft:generic.attack_damage","operation":"ADDITION","value":1.5,"uuid":"52afacf9-8b18-576e-7308-7999028a20c1"},{"attribute":"minecraft:generic.attack_damage","operation":"MULTIPLY_BASE","value":0.01,"uuid":"b72ba9c7-df33-5bcb-e7ea-efda05b44689"}]);
-global.createCurio(e, "zoomers_armory:flint_fortified_gloves", "Flint Fortified Gloves", [{"attribute":"minecraft:generic.armor","operation":"ADDITION","value":1.5,"uuid":"63c7b460-2864-5a57-7404-ff2b2dcaf64f"},{"attribute":"minecraft:generic.armor","operation":"MULTIPLY_BASE","value":0.01,"uuid":"20f76fbc-9ac0-5749-c2cc-ea9b63a9cbb8"},{"attribute":"minecraft:generic.armor_toughness","operation":"ADDITION","value":1.5,"uuid":"d6e0a3aa-69e3-5d54-f41c-d14eaf665fcc"},{"attribute":"minecraft:generic.armor_toughness","operation":"MULTIPLY_BASE","value":0.01,"uuid":"f2f52255-abfb-5bfc-f778-576f2bcd0f63"},{"attribute":"minecraft:generic.knockback_resistance","operation":"ADDITION","value":1.5,"uuid":"a8b6b612-a461-5db1-636e-4f4aa90de268"},{"attribute":"minecraft:generic.knockback_resistance","operation":"MULTIPLY_BASE","value":0.01,"uuid":"120f0537-c21c-5e1f-010a-4805cb2d578d"},{"attribute":"minecraft:generic.max_health","operation":"ADDITION","value":1.5,"uuid":"9f5d6d38-b3dc-5deb-8833-41b600a44a7d"},{"attribute":"minecraft:generic.max_health","operation":"MULTIPLY_BASE","value":0.01,"uuid":"69a0d8ac-9a2a-5782-df5f-c7446b72fb70"}]);
-global.createCurio(e, "zoomers_armory:flint_infused_gloves", "Flint Infused Gloves", [{"attribute":"irons_spellbooks:spell_power","operation":"ADDITION","value":0.015,"uuid":"3c8e2e02-f1a7-58d9-3745-35ea3ba6a4ae"},{"attribute":"irons_spellbooks:spell_power","operation":"MULTIPLY_BASE","value":0.01,"uuid":"50f15c78-9d84-5bea-b5c2-1223accf1864"},{"attribute":"irons_spellbooks:cast_time_reduction","operation":"ADDITION","value":0.015,"uuid":"80bdf747-72a6-5dbf-155b-479fc3b7be5f"},{"attribute":"irons_spellbooks:cooldown_reduction","operation":"ADDITION","value":0.015,"uuid":"507dae38-2478-5799-422a-0585a47cacff"}]);
 global.createCurio(e, "zoomers_armory:copper_mana_ring", "Copper Mana Ring", [{"attribute":"irons_spellbooks:max_mana","operation":"ADDITION","value":5,"uuid":"09bd0a33-7474-5d64-0def-c00b605c5dc5"},{"attribute":"irons_spellbooks:max_mana","operation":"MULTIPLY_BASE","value":0.01,"uuid":"a0608e21-9513-5d65-c5b9-c89391207cd8"},{"attribute":"irons_spellbooks:mana_regen","operation":"ADDITION","value":0.015,"uuid":"beab9f05-c2e9-5311-197a-001bac367b1c"}]);
 global.createCurio(e, "zoomers_armory:copper_dexterity_ring", "Copper Dexterity Ring", [{"attribute":"projectile_damage:generic","operation":"ADDITION","value":1,"uuid":"2b8919ea-368d-5e60-c819-3c2ebe29c156"},{"attribute":"projectile_damage:generic","operation":"MULTIPLY_BASE","value":0.01,"uuid":"8ca2b5d9-2208-53bf-f48b-67b435de9641"},{"attribute":"attributeslib:armor_pierce","operation":"ADDITION","value":1,"uuid":"da72ea2e-901a-546e-0d48-a60bed235acf"},{"attribute":"attributeslib:armor_pierce","operation":"MULTIPLY_BASE","value":0.01,"uuid":"ba1e93dd-cada-57f2-821f-682a9e43323e"}]);
 global.createCurio(e, "zoomers_armory:copper_sharpshooter_ring", "Copper Sharpshooter Ring", [{"attribute":"attributeslib:arrow_velocity","operation":"ADDITION","value":0.01,"uuid":"c0f4151c-fa67-5567-a8ae-93df30c0a5e1"},{"attribute":"attributeslib:draw_speed","operation":"ADDITION","value":0.005,"uuid":"762e841e-73d7-5d13-b6fd-50a4af9fc262"}]);

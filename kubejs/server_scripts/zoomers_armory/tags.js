@@ -1,10 +1,4 @@
 ServerEvents.tags('item', event => {
-  event.add("curios:ring", "zoomers_armory:flint_mana_ring");
-  event.add("curios:ring", "zoomers_armory:flint_dexterity_ring");
-  event.add("curios:ring", "zoomers_armory:flint_sharpshooter_ring");
-  event.add("curios:ring", "zoomers_armory:flint_berserker_ring");
-  event.add("curios:ring", "zoomers_armory:flint_fortified_ring");
-  event.add("curios:ring", "zoomers_armory:flint_infused_ring");
   event.add("curios:ring", "zoomers_armory:copper_mana_ring");
   event.add("curios:ring", "zoomers_armory:copper_dexterity_ring");
   event.add("curios:ring", "zoomers_armory:copper_sharpshooter_ring");
@@ -229,12 +223,6 @@ ServerEvents.tags('item', event => {
   event.add("curios:ring", "zoomers_armory:incorythe_infused_ring");
 });
 ServerEvents.tags('item', event => {
-  event.add("curios:necklace", "zoomers_armory:flint_mana_necklace");
-  event.add("curios:necklace", "zoomers_armory:flint_dexterity_necklace");
-  event.add("curios:necklace", "zoomers_armory:flint_sharpshooter_necklace");
-  event.add("curios:necklace", "zoomers_armory:flint_berserker_necklace");
-  event.add("curios:necklace", "zoomers_armory:flint_fortified_necklace");
-  event.add("curios:necklace", "zoomers_armory:flint_infused_necklace");
   event.add("curios:necklace", "zoomers_armory:copper_mana_necklace");
   event.add("curios:necklace", "zoomers_armory:copper_dexterity_necklace");
   event.add("curios:necklace", "zoomers_armory:copper_sharpshooter_necklace");
@@ -459,12 +447,6 @@ ServerEvents.tags('item', event => {
   event.add("curios:necklace", "zoomers_armory:incorythe_infused_necklace");
 });
 ServerEvents.tags('item', event => {
-  event.add("aether:accessories_gloves", "zoomers_armory:flint_mana_gloves");
-  event.add("aether:accessories_gloves", "zoomers_armory:flint_dexterity_gloves");
-  event.add("aether:accessories_gloves", "zoomers_armory:flint_sharpshooter_gloves");
-  event.add("aether:accessories_gloves", "zoomers_armory:flint_berserker_gloves");
-  event.add("aether:accessories_gloves", "zoomers_armory:flint_fortified_gloves");
-  event.add("aether:accessories_gloves", "zoomers_armory:flint_infused_gloves");
   event.add("aether:accessories_gloves", "zoomers_armory:copper_mana_gloves");
   event.add("aether:accessories_gloves", "zoomers_armory:copper_dexterity_gloves");
   event.add("aether:accessories_gloves", "zoomers_armory:copper_sharpshooter_gloves");
@@ -689,23 +671,6 @@ ServerEvents.tags('item', event => {
   event.add("aether:accessories_gloves", "zoomers_armory:incorythe_infused_gloves");
 });
 ServerEvents.tags('item', event => {
-  event.add("c:swords", "zoomers_armory:flint_claws");
-  event.add("c:swords", "zoomers_armory:flint_dagger");
-  event.add("c:swords", "zoomers_armory:flint_shortsword");
-  event.add("c:swords", "zoomers_armory:flint_heavysword");
-  event.add("c:swords", "zoomers_armory:flint_cutlass");
-  event.add("c:swords", "zoomers_armory:flint_mace");
-  event.add("c:swords", "zoomers_armory:flint_heavymace");
-  event.add("c:swords", "zoomers_armory:flint_warhammer");
-  event.add("c:swords", "zoomers_armory:flint_battleaxe");
-  event.add("c:swords", "zoomers_armory:flint_spear");
-  event.add("c:swords", "zoomers_armory:flint_halberd");
-  event.add("c:swords", "zoomers_armory:flint_scythe");
-  event.add("c:swords", "zoomers_armory:flint_katana");
-  event.add("c:swords", "zoomers_armory:flint_twinblade");
-  event.add("c:swords", "zoomers_armory:flint_sai");
-  event.add("c:swords", "zoomers_armory:flint_warglaive");
-  event.add("c:swords", "zoomers_armory:flint_musashi");
   event.add("c:swords", "zoomers_armory:copper_claws");
   event.add("c:swords", "zoomers_armory:copper_dagger");
   event.add("c:swords", "zoomers_armory:copper_shortsword");
@@ -1337,23 +1302,6 @@ ServerEvents.tags('item', event => {
   event.add("c:swords", "zoomers_armory:incorythe_musashi");
 });
 ServerEvents.tags('item', event => {
-  event.add("medievalorigins:swords", "zoomers_armory:flint_claws");
-  event.add("medievalorigins:swords", "zoomers_armory:flint_dagger");
-  event.add("medievalorigins:swords", "zoomers_armory:flint_shortsword");
-  event.add("medievalorigins:swords", "zoomers_armory:flint_heavysword");
-  event.add("medievalorigins:swords", "zoomers_armory:flint_cutlass");
-  event.add("medievalorigins:swords", "zoomers_armory:flint_mace");
-  event.add("medievalorigins:swords", "zoomers_armory:flint_heavymace");
-  event.add("medievalorigins:swords", "zoomers_armory:flint_warhammer");
-  event.add("medievalorigins:swords", "zoomers_armory:flint_battleaxe");
-  event.add("medievalorigins:swords", "zoomers_armory:flint_spear");
-  event.add("medievalorigins:swords", "zoomers_armory:flint_halberd");
-  event.add("medievalorigins:swords", "zoomers_armory:flint_scythe");
-  event.add("medievalorigins:swords", "zoomers_armory:flint_katana");
-  event.add("medievalorigins:swords", "zoomers_armory:flint_twinblade");
-  event.add("medievalorigins:swords", "zoomers_armory:flint_sai");
-  event.add("medievalorigins:swords", "zoomers_armory:flint_warglaive");
-  event.add("medievalorigins:swords", "zoomers_armory:flint_musashi");
   event.add("medievalorigins:swords", "zoomers_armory:copper_claws");
   event.add("medievalorigins:swords", "zoomers_armory:copper_dagger");
   event.add("medievalorigins:swords", "zoomers_armory:copper_shortsword");
@@ -1985,23 +1933,6 @@ ServerEvents.tags('item', event => {
   event.add("medievalorigins:swords", "zoomers_armory:incorythe_musashi");
 });
 ServerEvents.tags('item', event => {
-  event.add("minecraft:swords", "zoomers_armory:flint_claws");
-  event.add("minecraft:swords", "zoomers_armory:flint_dagger");
-  event.add("minecraft:swords", "zoomers_armory:flint_shortsword");
-  event.add("minecraft:swords", "zoomers_armory:flint_heavysword");
-  event.add("minecraft:swords", "zoomers_armory:flint_cutlass");
-  event.add("minecraft:swords", "zoomers_armory:flint_mace");
-  event.add("minecraft:swords", "zoomers_armory:flint_heavymace");
-  event.add("minecraft:swords", "zoomers_armory:flint_warhammer");
-  event.add("minecraft:swords", "zoomers_armory:flint_battleaxe");
-  event.add("minecraft:swords", "zoomers_armory:flint_spear");
-  event.add("minecraft:swords", "zoomers_armory:flint_halberd");
-  event.add("minecraft:swords", "zoomers_armory:flint_scythe");
-  event.add("minecraft:swords", "zoomers_armory:flint_katana");
-  event.add("minecraft:swords", "zoomers_armory:flint_twinblade");
-  event.add("minecraft:swords", "zoomers_armory:flint_sai");
-  event.add("minecraft:swords", "zoomers_armory:flint_warglaive");
-  event.add("minecraft:swords", "zoomers_armory:flint_musashi");
   event.add("minecraft:swords", "zoomers_armory:copper_claws");
   event.add("minecraft:swords", "zoomers_armory:copper_dagger");
   event.add("minecraft:swords", "zoomers_armory:copper_shortsword");
@@ -2633,26 +2564,6 @@ ServerEvents.tags('item', event => {
   event.add("minecraft:swords", "zoomers_armory:incorythe_musashi");
 });
 ServerEvents.tags('item', event => {
-  event.add("c:tools", "zoomers_armory:flint_claws");
-  event.add("c:tools", "zoomers_armory:flint_dagger");
-  event.add("c:tools", "zoomers_armory:flint_shortsword");
-  event.add("c:tools", "zoomers_armory:flint_heavysword");
-  event.add("c:tools", "zoomers_armory:flint_cutlass");
-  event.add("c:tools", "zoomers_armory:flint_mace");
-  event.add("c:tools", "zoomers_armory:flint_heavymace");
-  event.add("c:tools", "zoomers_armory:flint_warhammer");
-  event.add("c:tools", "zoomers_armory:flint_battleaxe");
-  event.add("c:tools", "zoomers_armory:flint_spear");
-  event.add("c:tools", "zoomers_armory:flint_halberd");
-  event.add("c:tools", "zoomers_armory:flint_scythe");
-  event.add("c:tools", "zoomers_armory:flint_katana");
-  event.add("c:tools", "zoomers_armory:flint_twinblade");
-  event.add("c:tools", "zoomers_armory:flint_sai");
-  event.add("c:tools", "zoomers_armory:flint_warglaive");
-  event.add("c:tools", "zoomers_armory:flint_musashi");
-  event.add("c:tools", "zoomers_armory:flint_buckler");
-  event.add("c:tools", "zoomers_armory:flint_heater");
-  event.add("c:tools", "zoomers_armory:flint_tower");
   event.add("c:tools", "zoomers_armory:copper_claws");
   event.add("c:tools", "zoomers_armory:copper_dagger");
   event.add("c:tools", "zoomers_armory:copper_shortsword");
@@ -3395,26 +3306,6 @@ ServerEvents.tags('item', event => {
   event.add("c:tools", "zoomers_armory:incorythe_tower");
 });
 ServerEvents.tags('item', event => {
-  event.add("forge:tools", "zoomers_armory:flint_claws");
-  event.add("forge:tools", "zoomers_armory:flint_dagger");
-  event.add("forge:tools", "zoomers_armory:flint_shortsword");
-  event.add("forge:tools", "zoomers_armory:flint_heavysword");
-  event.add("forge:tools", "zoomers_armory:flint_cutlass");
-  event.add("forge:tools", "zoomers_armory:flint_mace");
-  event.add("forge:tools", "zoomers_armory:flint_heavymace");
-  event.add("forge:tools", "zoomers_armory:flint_warhammer");
-  event.add("forge:tools", "zoomers_armory:flint_battleaxe");
-  event.add("forge:tools", "zoomers_armory:flint_spear");
-  event.add("forge:tools", "zoomers_armory:flint_halberd");
-  event.add("forge:tools", "zoomers_armory:flint_scythe");
-  event.add("forge:tools", "zoomers_armory:flint_katana");
-  event.add("forge:tools", "zoomers_armory:flint_twinblade");
-  event.add("forge:tools", "zoomers_armory:flint_sai");
-  event.add("forge:tools", "zoomers_armory:flint_warglaive");
-  event.add("forge:tools", "zoomers_armory:flint_musashi");
-  event.add("forge:tools", "zoomers_armory:flint_buckler");
-  event.add("forge:tools", "zoomers_armory:flint_heater");
-  event.add("forge:tools", "zoomers_armory:flint_tower");
   event.add("forge:tools", "zoomers_armory:copper_claws");
   event.add("forge:tools", "zoomers_armory:copper_dagger");
   event.add("forge:tools", "zoomers_armory:copper_shortsword");
@@ -4157,26 +4048,6 @@ ServerEvents.tags('item', event => {
   event.add("forge:tools", "zoomers_armory:incorythe_tower");
 });
 ServerEvents.tags('item', event => {
-  event.add("minecraft:tools", "zoomers_armory:flint_claws");
-  event.add("minecraft:tools", "zoomers_armory:flint_dagger");
-  event.add("minecraft:tools", "zoomers_armory:flint_shortsword");
-  event.add("minecraft:tools", "zoomers_armory:flint_heavysword");
-  event.add("minecraft:tools", "zoomers_armory:flint_cutlass");
-  event.add("minecraft:tools", "zoomers_armory:flint_mace");
-  event.add("minecraft:tools", "zoomers_armory:flint_heavymace");
-  event.add("minecraft:tools", "zoomers_armory:flint_warhammer");
-  event.add("minecraft:tools", "zoomers_armory:flint_battleaxe");
-  event.add("minecraft:tools", "zoomers_armory:flint_spear");
-  event.add("minecraft:tools", "zoomers_armory:flint_halberd");
-  event.add("minecraft:tools", "zoomers_armory:flint_scythe");
-  event.add("minecraft:tools", "zoomers_armory:flint_katana");
-  event.add("minecraft:tools", "zoomers_armory:flint_twinblade");
-  event.add("minecraft:tools", "zoomers_armory:flint_sai");
-  event.add("minecraft:tools", "zoomers_armory:flint_warglaive");
-  event.add("minecraft:tools", "zoomers_armory:flint_musashi");
-  event.add("minecraft:tools", "zoomers_armory:flint_buckler");
-  event.add("minecraft:tools", "zoomers_armory:flint_heater");
-  event.add("minecraft:tools", "zoomers_armory:flint_tower");
   event.add("minecraft:tools", "zoomers_armory:copper_claws");
   event.add("minecraft:tools", "zoomers_armory:copper_dagger");
   event.add("minecraft:tools", "zoomers_armory:copper_shortsword");
@@ -4919,9 +4790,6 @@ ServerEvents.tags('item', event => {
   event.add("minecraft:tools", "zoomers_armory:incorythe_tower");
 });
 ServerEvents.tags('item', event => {
-  event.add("zoompack:small_melee_weapon", "zoomers_armory:flint_claws");
-  event.add("zoompack:small_melee_weapon", "zoomers_armory:flint_dagger");
-  event.add("zoompack:small_melee_weapon", "zoomers_armory:flint_sai");
   event.add("zoompack:small_melee_weapon", "zoomers_armory:copper_claws");
   event.add("zoompack:small_melee_weapon", "zoomers_armory:copper_dagger");
   event.add("zoompack:small_melee_weapon", "zoomers_armory:copper_sai");
@@ -5035,16 +4903,6 @@ ServerEvents.tags('item', event => {
   event.add("zoompack:small_melee_weapon", "zoomers_armory:incorythe_sai");
 });
 ServerEvents.tags('item', event => {
-  event.add("zoompack:dual_handed_weapon", "zoomers_armory:flint_heavysword");
-  event.add("zoompack:dual_handed_weapon", "zoomers_armory:flint_heavymace");
-  event.add("zoompack:dual_handed_weapon", "zoomers_armory:flint_warhammer");
-  event.add("zoompack:dual_handed_weapon", "zoomers_armory:flint_battleaxe");
-  event.add("zoompack:dual_handed_weapon", "zoomers_armory:flint_spear");
-  event.add("zoompack:dual_handed_weapon", "zoomers_armory:flint_halberd");
-  event.add("zoompack:dual_handed_weapon", "zoomers_armory:flint_scythe");
-  event.add("zoompack:dual_handed_weapon", "zoomers_armory:flint_katana");
-  event.add("zoompack:dual_handed_weapon", "zoomers_armory:flint_twinblade");
-  event.add("zoompack:dual_handed_weapon", "zoomers_armory:flint_warglaive");
   event.add("zoompack:dual_handed_weapon", "zoomers_armory:copper_heavysword");
   event.add("zoompack:dual_handed_weapon", "zoomers_armory:copper_heavymace");
   event.add("zoompack:dual_handed_weapon", "zoomers_armory:copper_warhammer");
@@ -5417,9 +5275,6 @@ ServerEvents.tags('item', event => {
   event.add("zoompack:dual_handed_weapon", "zoomers_armory:incorythe_warglaive");
 });
 ServerEvents.tags('item', event => {
-  event.add("bookshelf:shields", "zoomers_armory:flint_buckler");
-  event.add("bookshelf:shields", "zoomers_armory:flint_heater");
-  event.add("bookshelf:shields", "zoomers_armory:flint_tower");
   event.add("bookshelf:shields", "zoomers_armory:copper_buckler");
   event.add("bookshelf:shields", "zoomers_armory:copper_heater");
   event.add("bookshelf:shields", "zoomers_armory:copper_tower");
@@ -5533,9 +5388,6 @@ ServerEvents.tags('item', event => {
   event.add("bookshelf:shields", "zoomers_armory:incorythe_tower");
 });
 ServerEvents.tags('item', event => {
-  event.add("c:shields", "zoomers_armory:flint_buckler");
-  event.add("c:shields", "zoomers_armory:flint_heater");
-  event.add("c:shields", "zoomers_armory:flint_tower");
   event.add("c:shields", "zoomers_armory:copper_buckler");
   event.add("c:shields", "zoomers_armory:copper_heater");
   event.add("c:shields", "zoomers_armory:copper_tower");
@@ -5649,9 +5501,6 @@ ServerEvents.tags('item', event => {
   event.add("c:shields", "zoomers_armory:incorythe_tower");
 });
 ServerEvents.tags('item', event => {
-  event.add("forge:shields", "zoomers_armory:flint_buckler");
-  event.add("forge:shields", "zoomers_armory:flint_heater");
-  event.add("forge:shields", "zoomers_armory:flint_tower");
   event.add("forge:shields", "zoomers_armory:copper_buckler");
   event.add("forge:shields", "zoomers_armory:copper_heater");
   event.add("forge:shields", "zoomers_armory:copper_tower");
@@ -5765,9 +5614,6 @@ ServerEvents.tags('item', event => {
   event.add("forge:shields", "zoomers_armory:incorythe_tower");
 });
 ServerEvents.tags('item', event => {
-  event.add("origins:shields", "zoomers_armory:flint_buckler");
-  event.add("origins:shields", "zoomers_armory:flint_heater");
-  event.add("origins:shields", "zoomers_armory:flint_tower");
   event.add("origins:shields", "zoomers_armory:copper_buckler");
   event.add("origins:shields", "zoomers_armory:copper_heater");
   event.add("origins:shields", "zoomers_armory:copper_tower");
@@ -5881,9 +5727,6 @@ ServerEvents.tags('item', event => {
   event.add("origins:shields", "zoomers_armory:incorythe_tower");
 });
 ServerEvents.tags('item', event => {
-  event.add("minecraft:shields", "zoomers_armory:flint_buckler");
-  event.add("minecraft:shields", "zoomers_armory:flint_heater");
-  event.add("minecraft:shields", "zoomers_armory:flint_tower");
   event.add("minecraft:shields", "zoomers_armory:copper_buckler");
   event.add("minecraft:shields", "zoomers_armory:copper_heater");
   event.add("minecraft:shields", "zoomers_armory:copper_tower");
@@ -5997,9 +5840,6 @@ ServerEvents.tags('item', event => {
   event.add("minecraft:shields", "zoomers_armory:incorythe_tower");
 });
 ServerEvents.tags('item', event => {
-  event.add("c:tools/shield", "zoomers_armory:flint_buckler");
-  event.add("c:tools/shield", "zoomers_armory:flint_heater");
-  event.add("c:tools/shield", "zoomers_armory:flint_tower");
   event.add("c:tools/shield", "zoomers_armory:copper_buckler");
   event.add("c:tools/shield", "zoomers_armory:copper_heater");
   event.add("c:tools/shield", "zoomers_armory:copper_tower");
@@ -6113,9 +5953,6 @@ ServerEvents.tags('item', event => {
   event.add("c:tools/shield", "zoomers_armory:incorythe_tower");
 });
 ServerEvents.tags('item', event => {
-  event.add("forge:tools/shield", "zoomers_armory:flint_buckler");
-  event.add("forge:tools/shield", "zoomers_armory:flint_heater");
-  event.add("forge:tools/shield", "zoomers_armory:flint_tower");
   event.add("forge:tools/shield", "zoomers_armory:copper_buckler");
   event.add("forge:tools/shield", "zoomers_armory:copper_heater");
   event.add("forge:tools/shield", "zoomers_armory:copper_tower");
@@ -6229,9 +6066,6 @@ ServerEvents.tags('item', event => {
   event.add("forge:tools/shield", "zoomers_armory:incorythe_tower");
 });
 ServerEvents.tags('item', event => {
-  event.add("minecraft:tools/shield", "zoomers_armory:flint_buckler");
-  event.add("minecraft:tools/shield", "zoomers_armory:flint_heater");
-  event.add("minecraft:tools/shield", "zoomers_armory:flint_tower");
   event.add("minecraft:tools/shield", "zoomers_armory:copper_buckler");
   event.add("minecraft:tools/shield", "zoomers_armory:copper_heater");
   event.add("minecraft:tools/shield", "zoomers_armory:copper_tower");
@@ -6345,9 +6179,6 @@ ServerEvents.tags('item', event => {
   event.add("minecraft:tools/shield", "zoomers_armory:incorythe_tower");
 });
 ServerEvents.tags('item', event => {
-  event.add("c:tools/shields", "zoomers_armory:flint_buckler");
-  event.add("c:tools/shields", "zoomers_armory:flint_heater");
-  event.add("c:tools/shields", "zoomers_armory:flint_tower");
   event.add("c:tools/shields", "zoomers_armory:copper_buckler");
   event.add("c:tools/shields", "zoomers_armory:copper_heater");
   event.add("c:tools/shields", "zoomers_armory:copper_tower");
@@ -6461,9 +6292,6 @@ ServerEvents.tags('item', event => {
   event.add("c:tools/shields", "zoomers_armory:incorythe_tower");
 });
 ServerEvents.tags('item', event => {
-  event.add("forge:tools/shields", "zoomers_armory:flint_buckler");
-  event.add("forge:tools/shields", "zoomers_armory:flint_heater");
-  event.add("forge:tools/shields", "zoomers_armory:flint_tower");
   event.add("forge:tools/shields", "zoomers_armory:copper_buckler");
   event.add("forge:tools/shields", "zoomers_armory:copper_heater");
   event.add("forge:tools/shields", "zoomers_armory:copper_tower");
@@ -6577,10 +6405,6 @@ ServerEvents.tags('item', event => {
   event.add("forge:tools/shields", "zoomers_armory:incorythe_tower");
 });
 ServerEvents.tags('item', event => {
-  event.add("bookshelf:bows", "zoomers_armory:flint_shortbow");
-  event.add("bookshelf:bows", "zoomers_armory:flint_bow");
-  event.add("bookshelf:bows", "zoomers_armory:flint_longbow");
-  event.add("bookshelf:bows", "zoomers_armory:flint_crossbow");
   event.add("bookshelf:bows", "zoomers_armory:copper_shortbow");
   event.add("bookshelf:bows", "zoomers_armory:copper_bow");
   event.add("bookshelf:bows", "zoomers_armory:copper_longbow");
@@ -6729,10 +6553,6 @@ ServerEvents.tags('item', event => {
   event.add("bookshelf:bows", "zoomers_armory:incorythe_crossbow");
 });
 ServerEvents.tags('item', event => {
-  event.add("c:bows", "zoomers_armory:flint_shortbow");
-  event.add("c:bows", "zoomers_armory:flint_bow");
-  event.add("c:bows", "zoomers_armory:flint_longbow");
-  event.add("c:bows", "zoomers_armory:flint_crossbow");
   event.add("c:bows", "zoomers_armory:copper_shortbow");
   event.add("c:bows", "zoomers_armory:copper_bow");
   event.add("c:bows", "zoomers_armory:copper_longbow");
@@ -6881,10 +6701,6 @@ ServerEvents.tags('item', event => {
   event.add("c:bows", "zoomers_armory:incorythe_crossbow");
 });
 ServerEvents.tags('item', event => {
-  event.add("forge:bows", "zoomers_armory:flint_shortbow");
-  event.add("forge:bows", "zoomers_armory:flint_bow");
-  event.add("forge:bows", "zoomers_armory:flint_longbow");
-  event.add("forge:bows", "zoomers_armory:flint_crossbow");
   event.add("forge:bows", "zoomers_armory:copper_shortbow");
   event.add("forge:bows", "zoomers_armory:copper_bow");
   event.add("forge:bows", "zoomers_armory:copper_longbow");
@@ -7033,11 +6849,6 @@ ServerEvents.tags('item', event => {
   event.add("forge:bows", "zoomers_armory:incorythe_crossbow");
 });
 ServerEvents.tags('item', event => {
-  event.add("origins:ranged_weapons", "zoomers_armory:flint_shortbow");
-  event.add("origins:ranged_weapons", "zoomers_armory:flint_bow");
-  event.add("origins:ranged_weapons", "zoomers_armory:flint_longbow");
-  event.add("origins:ranged_weapons", "zoomers_armory:flint_crossbow");
-  event.add("origins:ranged_weapons", "zoomers_armory:flint_crossbow");
   event.add("origins:ranged_weapons", "zoomers_armory:copper_shortbow");
   event.add("origins:ranged_weapons", "zoomers_armory:copper_bow");
   event.add("origins:ranged_weapons", "zoomers_armory:copper_longbow");
@@ -7223,10 +7034,6 @@ ServerEvents.tags('item', event => {
   event.add("origins:ranged_weapons", "zoomers_armory:incorythe_crossbow");
 });
 ServerEvents.tags('item', event => {
-  event.add("minecraft:bows", "zoomers_armory:flint_shortbow");
-  event.add("minecraft:bows", "zoomers_armory:flint_bow");
-  event.add("minecraft:bows", "zoomers_armory:flint_longbow");
-  event.add("minecraft:bows", "zoomers_armory:flint_crossbow");
   event.add("minecraft:bows", "zoomers_armory:copper_shortbow");
   event.add("minecraft:bows", "zoomers_armory:copper_bow");
   event.add("minecraft:bows", "zoomers_armory:copper_longbow");
@@ -7375,10 +7182,6 @@ ServerEvents.tags('item', event => {
   event.add("minecraft:bows", "zoomers_armory:incorythe_crossbow");
 });
 ServerEvents.tags('item', event => {
-  event.add("c:tools/bow", "zoomers_armory:flint_shortbow");
-  event.add("c:tools/bow", "zoomers_armory:flint_bow");
-  event.add("c:tools/bow", "zoomers_armory:flint_longbow");
-  event.add("c:tools/bow", "zoomers_armory:flint_crossbow");
   event.add("c:tools/bow", "zoomers_armory:copper_shortbow");
   event.add("c:tools/bow", "zoomers_armory:copper_bow");
   event.add("c:tools/bow", "zoomers_armory:copper_longbow");
@@ -7527,10 +7330,6 @@ ServerEvents.tags('item', event => {
   event.add("c:tools/bow", "zoomers_armory:incorythe_crossbow");
 });
 ServerEvents.tags('item', event => {
-  event.add("forge:tools/bow", "zoomers_armory:flint_shortbow");
-  event.add("forge:tools/bow", "zoomers_armory:flint_bow");
-  event.add("forge:tools/bow", "zoomers_armory:flint_longbow");
-  event.add("forge:tools/bow", "zoomers_armory:flint_crossbow");
   event.add("forge:tools/bow", "zoomers_armory:copper_shortbow");
   event.add("forge:tools/bow", "zoomers_armory:copper_bow");
   event.add("forge:tools/bow", "zoomers_armory:copper_longbow");
@@ -7679,9 +7478,6 @@ ServerEvents.tags('item', event => {
   event.add("forge:tools/bow", "zoomers_armory:incorythe_crossbow");
 });
 ServerEvents.tags('item', event => {
-  event.add("minecraft:tools/bow", "zoomers_armory:flint_shortbow");
-  event.add("minecraft:tools/bow", "zoomers_armory:flint_bow");
-  event.add("minecraft:tools/bow", "zoomers_armory:flint_longbow");
   event.add("minecraft:tools/bow", "zoomers_armory:copper_shortbow");
   event.add("minecraft:tools/bow", "zoomers_armory:copper_bow");
   event.add("minecraft:tools/bow", "zoomers_armory:copper_longbow");
@@ -7793,7 +7589,6 @@ ServerEvents.tags('item', event => {
   event.add("minecraft:tools/bow", "zoomers_armory:incorythe_longbow");
 });
 ServerEvents.tags('item', event => {
-  event.add("zoompack:small_ranged_weapon", "zoomers_armory:flint_shortbow");
   event.add("zoompack:small_ranged_weapon", "zoomers_armory:copper_shortbow");
   event.add("zoompack:small_ranged_weapon", "zoomers_armory:iron_shortbow");
   event.add("zoompack:small_ranged_weapon", "zoomers_armory:gold_shortbow");
@@ -7833,7 +7628,6 @@ ServerEvents.tags('item', event => {
   event.add("zoompack:small_ranged_weapon", "zoomers_armory:incorythe_shortbow");
 });
 ServerEvents.tags('item', event => {
-  event.add("bookshelf:crossbows", "zoomers_armory:flint_crossbow");
   event.add("bookshelf:crossbows", "zoomers_armory:copper_crossbow");
   event.add("bookshelf:crossbows", "zoomers_armory:iron_crossbow");
   event.add("bookshelf:crossbows", "zoomers_armory:gold_crossbow");
@@ -7873,7 +7667,6 @@ ServerEvents.tags('item', event => {
   event.add("bookshelf:crossbows", "zoomers_armory:incorythe_crossbow");
 });
 ServerEvents.tags('item', event => {
-  event.add("c:crossbows", "zoomers_armory:flint_crossbow");
   event.add("c:crossbows", "zoomers_armory:copper_crossbow");
   event.add("c:crossbows", "zoomers_armory:iron_crossbow");
   event.add("c:crossbows", "zoomers_armory:gold_crossbow");
@@ -7913,7 +7706,6 @@ ServerEvents.tags('item', event => {
   event.add("c:crossbows", "zoomers_armory:incorythe_crossbow");
 });
 ServerEvents.tags('item', event => {
-  event.add("forge:crossbows", "zoomers_armory:flint_crossbow");
   event.add("forge:crossbows", "zoomers_armory:copper_crossbow");
   event.add("forge:crossbows", "zoomers_armory:iron_crossbow");
   event.add("forge:crossbows", "zoomers_armory:gold_crossbow");
@@ -7953,7 +7745,6 @@ ServerEvents.tags('item', event => {
   event.add("forge:crossbows", "zoomers_armory:incorythe_crossbow");
 });
 ServerEvents.tags('item', event => {
-  event.add("minecraft:crossbows", "zoomers_armory:flint_crossbow");
   event.add("minecraft:crossbows", "zoomers_armory:copper_crossbow");
   event.add("minecraft:crossbows", "zoomers_armory:iron_crossbow");
   event.add("minecraft:crossbows", "zoomers_armory:gold_crossbow");
@@ -7993,7 +7784,6 @@ ServerEvents.tags('item', event => {
   event.add("minecraft:crossbows", "zoomers_armory:incorythe_crossbow");
 });
 ServerEvents.tags('item', event => {
-  event.add("c:tools/crossbow", "zoomers_armory:flint_crossbow");
   event.add("c:tools/crossbow", "zoomers_armory:copper_crossbow");
   event.add("c:tools/crossbow", "zoomers_armory:iron_crossbow");
   event.add("c:tools/crossbow", "zoomers_armory:gold_crossbow");
@@ -8033,7 +7823,6 @@ ServerEvents.tags('item', event => {
   event.add("c:tools/crossbow", "zoomers_armory:incorythe_crossbow");
 });
 ServerEvents.tags('item', event => {
-  event.add("forge:tools/crossbow", "zoomers_armory:flint_crossbow");
   event.add("forge:tools/crossbow", "zoomers_armory:copper_crossbow");
   event.add("forge:tools/crossbow", "zoomers_armory:iron_crossbow");
   event.add("forge:tools/crossbow", "zoomers_armory:gold_crossbow");
@@ -8073,7 +7862,6 @@ ServerEvents.tags('item', event => {
   event.add("forge:tools/crossbow", "zoomers_armory:incorythe_crossbow");
 });
 ServerEvents.tags('item', event => {
-  event.add("minecraft:tools/crossbow", "zoomers_armory:flint_crossbow");
   event.add("minecraft:tools/crossbow", "zoomers_armory:copper_crossbow");
   event.add("minecraft:tools/crossbow", "zoomers_armory:iron_crossbow");
   event.add("minecraft:tools/crossbow", "zoomers_armory:gold_crossbow");
@@ -8111,9 +7899,6 @@ ServerEvents.tags('item', event => {
   event.add("minecraft:tools/crossbow", "zoomers_armory:phantom_crossbow");
   event.add("minecraft:tools/crossbow", "zoomers_armory:unorithe_crossbow");
   event.add("minecraft:tools/crossbow", "zoomers_armory:incorythe_crossbow");
-});
-ServerEvents.tags('item', event => {
-  event.add("minecraft:flint", "minecraft:flint");
 });
 ServerEvents.tags('item', event => {
   event.add("minecraft:copper_ingot", "minecraft:copper_ingot");
