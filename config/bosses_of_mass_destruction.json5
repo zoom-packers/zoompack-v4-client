@@ -61,6 +61,6 @@
 		"experienceDrop": 1000
 	},
 	"generalConfig": {
-		"tableOfElevationRadius": 3
+		"tableOfElevationRadius": 7
 	}
 }
