@@ -23,6 +23,7 @@
   "origin.medievalorigins.ogre.description": "-§l Notable Changes§r: \n§o§2+ Axe Bonuses, Defense §r\n§o§6• Massive: 268cm/9'5\"§r\n§o§c- Hunger, Speed §r\n§lOgres§r are a large, short-tempered, and brutish subspecies of Orc. Their lumbering size and limited intelligence are made up for by their raw strength.",
   "origin.medievalorigins.incubus.description": "-§l Notable Changes§r: \n§o§2+ Nether Bonuses\n+ Strength, Fireball§r\n§o§c- Damaged by Water§r\n§o§c- Weak in Overworld§r\n§o§c- Very Weak in high altitude and space§r\n§o§c- Slightly Weak under the world\n§lIncubi§r are evil servants of a dark power. They are powerful in their own realm, but in exchange for this they have given up their soul, and are weak to pure sources.",
   "power.medievalorigins.wood_elf/nature_magic.name": "Nature Magic",
-  "power.medievalorigins.wood_elf/nature_magic.description": "The elven magic core grants the being faster mana regeneration and more power with nature spells."
+  "power.medievalorigins.wood_elf/nature_magic.description": "The elven magic core grants the being faster mana regeneration and more power with nature spells.",
+  "origin.medievalorigins.dwarf.description": "-§l Notable Changes§r: \n§o§2+ Mining, Caving§r\n§o§6• Short: 135cm/4'7\"§r\n- Can't swim§r\n§lDwarves§r are practical, stocky, and prideful. They excel at mining and living underground, but struggle with the daylight. Rock and stone, brother."
 
 }
