@@ -1,27 +1,45 @@
 {
-	"forge:conditions": [{
-		"type": "apotheosis:module",
-		"module": "adventure"
-	}],
 	"type": "minecraft:jigsaw",
-	"biomes": {
-        "type": "forge:and",
-        "values":
-        [
-            {
-                "type": "forge:not",
-                "value": "#minecraft:is_ocean"
-            },
-            {
-                "type": "forge:not",
-                "value": "#minecraft:is_river"
-            }
-        ]
-    },
+	"biomes": [
+		"minecraft:plains",
+		"minecraft:sunflower_plains",
+		"minecraft:forest",
+		"minecraft:flower_forest",
+		"minecraft:birch_forest",
+		"minecraft:old_growth_birch_forest",
+		"minecraft:dark_forest",
+		"minecraft:savanna",
+		"minecraft:savanna_plateau",
+		"minecraft:windswept_savanna",
+		"minecraft:jungle",
+		"minecraft:sparse_jungle",
+		"minecraft:bamboo_jungle",
+		"minecraft:taiga",
+		"minecraft:old_growth_pine_taiga",
+		"minecraft:old_growth_spruce_taiga",
+		"minecraft:snowy_taiga",
+		"minecraft:snowy_plains",
+		"minecraft:meadow",
+		"minecraft:beach",
+		"minecraft:snowy_beach",
+		"minecraft:stony_shore",
+		"minecraft:grove",
+		"minecraft:snowy_slopes",
+		"minecraft:frozen_peaks",
+		"minecraft:jagged_peaks",
+		"minecraft:stony_peaks",
+		"minecraft:cherry_grove",
+		"minecraft:swamp",
+		"minecraft:mangrove_swamp",
+		"minecraft:desert",
+		"minecraft:badlands",
+		"minecraft:wooded_badlands",
+		"minecraft:eroded_badlands"
+	],
 	"step": "surface_structures",
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",
-    "start_pool": "zoompack_economy:bank",
+	"start_pool": "zoompack_economy:bank",
 	"size": 1,
 	"start_height": {
 		"absolute": 1
