@@ -19,7 +19,8 @@
 					"trident",
 					"heavy_weapon",
 					"curios:spellbook",
-					"curios:ring"
+					"curios:ring",
+					"curios:necklace"
 				]
 			},
 			"attribute": "irons_spellbooks:spell_power",
