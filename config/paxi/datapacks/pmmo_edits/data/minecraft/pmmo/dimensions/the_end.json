@@ -5,42 +5,42 @@
     },
     "global_mob_modifiers": [
         {
-            "attribute":"minecraft:generic.max_health",
+            "attribute": "minecraft:generic.max_health",
             "operation": "MULTIPLY_BASE",
             "amount": 249
         },
         {
-            "attribute":"minecraft:generic.attack_damage",
+            "attribute": "minecraft:generic.attack_damage",
             "operation": "MULTIPLY_BASE",
             "amount": 19
         },
         {
-            "attribute":"projectile_damage:generic",
+            "attribute": "projectile_damage:generic",
             "operation": "ADDITION",
             "amount": 14
         },
         {
-            "attribute":"projectile_damage:generic",
+            "attribute": "projectile_damage:generic",
             "operation": "MULTIPLY_BASE",
             "amount": 34
         },
         {
-            "attribute":"minecraft:generic.armor",
+            "attribute": "minecraft:generic.armor",
             "operation": "ADDITION",
             "amount": 10
         },
         {
-            "attribute":"minecraft:generic.armor_toughness",
+            "attribute": "minecraft:generic.armor_toughness",
             "operation": "ADDITION",
             "amount": 3
         },
         {
-            "attribute":"minecraft:generic.armor",
+            "attribute": "minecraft:generic.armor",
             "operation": "MULTIPLY_TOTAL",
             "amount": 7
         },
         {
-            "attribute":"minecraft:generic.armor_toughness",
+            "attribute": "minecraft:generic.armor_toughness",
             "operation": "MULTIPLY_TOTAL",
             "amount": 7
         }
@@ -53,14 +53,21 @@
                 "operation": "MULTIPLY_BASE"
             },
             {
-                "attribute":"minecraft:generic.armor",
+                "attribute": "minecraft:generic.armor",
                 "operation": "ADDITION",
                 "amount": -50.0
             },
             {
-                "attribute":"minecraft:generic.armor_toughness",
+                "attribute": "minecraft:generic.armor_toughness",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": -5.0
+            }
+        ],
+        "bosses_of_mass_destruction:obsidilith": [
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "operation": "ADDITION",
+                "amount": 10
             }
         ]
     },
