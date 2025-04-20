@@ -686,7 +686,7 @@ function abyssFortunasDrop() {
 
 global.lootlib_getItemDetails = lootlib_getItemDetails;
 global.lootlib_summonItem = lootlib_summonItem;
-global.overworlEliteDrops = overworldEliteDrops;
+global.overworldEliteDrops = overworldEliteDrops;
 global.everbrightEliteDrops = everbrightEliteDrops;
 global.everdawnEliteDrops = everdawnEliteDrops;
 global.aetherEliteDrops = aetherEliteDrops;

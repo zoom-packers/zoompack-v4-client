@@ -154,48 +154,50 @@ function elite_onDeath(event) {
     if (!player) {
         return;
     }
-    let mainHandItem = player.getMainHandItem();
-    let lootingLevel = 0;
-    let dimensionRL = event.level.dimension.toString();
-    let loot = null;
-    let diff = entity.getPersistentData().getString("elite");
-    let rolls = elite_getRolls(diff) + lootingLevel;
-    switch (dimensionRL) {
-        case "minecraft:overworld":
-            loot = global.overworldEliteDrops(rolls);
-            break;
-        case "blue_skies:everbright":
-            loot = global.everbrightEliteDrops(rolls);
-            break;
-        case "blue_skies:everdawn":
-            loot = global.everdawnEliteDrops(rolls);
-            break;
-        case "aether:the_aether":
-            loot = global.aetherEliteDrops(rolls);
-            break;
-        case "minecraft:the_nether":
-            loot = global.netherEliteDrops(rolls);
-            break;
-        case "undergarden:undergarden":
-            loot = global.undergardenEliteDrops(rolls);
-            break;
-        case "minecraft:the_end":
-            loot = global.endEliteDrops(rolls);
-            break;
-        case "callfromthedepth_:depth":
-            loot = global.deepEliteDrops(rolls);
-            break;
-        case "theabyss:the_abyss":
-            loot = global.abyssEliteDrops(rolls);
-            break;
 
-    }
-    if (loot == null) {
-        return;
-    }
-    let pos = entity.getPos();
-    for (let item of loot) {
-        global.lootlib_summonItem(server, dimensionRL, pos.x(), pos.y(), pos.z(), item);
+    if (player.getType() === 'minecraft:player') {
+        let lootingLevel = 0;
+        let dimensionRL = event.level.dimension.toString();
+        let loot = null;
+        let diff = entity.getPersistentData().getString("elite");
+        let rolls = elite_getRolls(diff) + lootingLevel;
+        switch (dimensionRL) {
+            case "minecraft:overworld":
+                loot = global.overworldEliteDrops(rolls);
+                break;
+            case "blue_skies:everbright":
+                loot = global.everbrightEliteDrops(rolls);
+                break;
+            case "blue_skies:everdawn":
+                loot = global.everdawnEliteDrops(rolls);
+                break;
+            case "aether:the_aether":
+                loot = global.aetherEliteDrops(rolls);
+                break;
+            case "minecraft:the_nether":
+                loot = global.netherEliteDrops(rolls);
+                break;
+            case "undergarden:undergarden":
+                loot = global.undergardenEliteDrops(rolls);
+                break;
+            case "minecraft:the_end":
+                loot = global.endEliteDrops(rolls);
+                break;
+            case "callfromthedepth_:depth":
+                loot = global.deepEliteDrops(rolls);
+                break;
+            case "theabyss:the_abyss":
+                loot = global.abyssEliteDrops(rolls);
+                break;
+
+        }
+        if (loot == null) {
+            return;
+        }
+        let pos = entity.getPos();
+        for (let item of loot) {
+            global.lootlib_summonItem(server, dimensionRL, pos.x(), pos.y(), pos.z(), item);
+        }
     }
 }
 
@@ -261,10 +263,10 @@ function elite_commands(event) {
                         entity.setPosition(pos.x(), pos.y(), pos.z());
                         world.addFreshEntity(entity);
 
-                        if(elite_initElite(entity, difficulty)){
+                        if (elite_initElite(entity, difficulty)) {
                             return 1;
                         }
-                        else{
+                        else {
                             return 0;
                         }
                     })
@@ -278,10 +280,10 @@ function elite_initElite(entity, difficulty) {
     elite_setGlowEffect(entity, difficulty);
     elite_setPehkuiSize(entity.getServer(), entity, difficulty);
     let config = elite_getDifficultyConfig(difficulty);
-    if(config == undefined){
+    if (config == undefined) {
         return false;
     }
-    else{
+    else {
         let baseName = entity.getName().getString();
         let newName = Component.literal(config.name + " " + baseName).withStyle(config.chatColor);
         entity.setCustomName(newName);
@@ -292,7 +294,7 @@ function elite_initElite(entity, difficulty) {
         elites.push(entity);
         return true;
     }
-    
+
 }
 
 
@@ -483,7 +485,7 @@ function elite_setPehkuiSize(server, entity, difficulty) {
     if (speed !== undefined) {
         mob_speed = speed;
     }
-    entity.mergeNbt({"pehkui:scale_data_types": {"pehkui:height": {scale: height}, "pehkui:width":{scale: width} ,"pehkui:step_height":{scale: stepHeight} , "pehkui:speed":{scale: mob_speed}}})
+    entity.mergeNbt({ "pehkui:scale_data_types": { "pehkui:height": { scale: height }, "pehkui:width": { scale: width }, "pehkui:step_height": { scale: stepHeight }, "pehkui:speed": { scale: mob_speed } } })
 }
 
 function tranverseElites(lambda) {
@@ -516,7 +518,7 @@ function addModifier(entity, attributeId, amount, operation) {
     attributeInstance.addTransientModifier(modifier);
 }
 
-function loopEliteMobsEvent(event){
+function loopEliteMobsEvent(event) {
     eliteScheduler(event);
     event.server.scheduleInTicks(ELITE_TICK_INTERVAL, callback => {
         eliteScheduler(event);
