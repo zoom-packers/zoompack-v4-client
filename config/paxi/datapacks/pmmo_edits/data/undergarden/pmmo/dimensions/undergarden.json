@@ -52,6 +52,13 @@
                 "operation": "MULTIPLY_BASE",
                 "amount": -17
             }
+        ],
+        "mokels_boss_mantyd:mantyd_boss_spawn": [
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "operation": "ADDITION",
+                "amount": 45
+            }
         ]
     },
     "override": false,
