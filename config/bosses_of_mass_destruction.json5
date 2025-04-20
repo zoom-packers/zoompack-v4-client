@@ -2,7 +2,7 @@
 	"lichConfig": {
 		"eternalNighttime": true,
 		"experienceDrop": 1500,
-		"idleHealingPerTick": 0.20000000298023224,
+		"idleHealingPerTick": 0.5,
 		"health": 300.0,
 		"missile": {
 			"mobEffectId": "minecraft:slowness",
@@ -35,10 +35,10 @@
 		}
 	},
 	"obsidilithConfig": {
-		"health": 300.0,
+		"health": 5000.0,
 		"armor": 14.0,
 		"attack": 16.0,
-		"idleHealingPerTick": 0.5,
+		"idleHealingPerTick": 2.0,
 		"experienceDrop": 1000,
 		"spawnPillarOnDeath": true,
 		"anvilAttackExplosionStrength": 4.0
@@ -47,8 +47,8 @@
 		"health": 250.0,
 		"armor": 8.0,
 		"attack": 16.0,
-		"idleHealingPerTick": 0.5,
-		"experienceDrop": 1000,
+		"idleHealingPerTick": 1.0,
+		"experienceDrop": 3000,
 		"spawnAncientDebrisOnDeath": false,
 		"energizedPunchExplosionSize": 4.5,
 		"normalPunchExplosionMultiplier": 1.5

@@ -45,7 +45,24 @@
             "amount": 2
         }
     ],
-    "mob_modifier": {},
+    "mob_modifier": {
+        "bosses_of_mass_destruction:gauntlet": [
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "amount": -3.95,
+                "operation": "MULTIPLY_BASE"
+            },
+            {
+                "attribute":"projectile_damage:generic",
+                "operation": "ADDITION",
+                "amount": -12
+            },
+            {
+                "attribute":"projectile_damage:generic",
+                "operation": "MULTIPLY_BASE",
+                "amount": -7
+            }
+        ]},
     "override": false,
     "isTagFor": [],
     "bonus": {}
