@@ -1140,7 +1140,7 @@ export class PolymorphArmoryVariants {
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_irons_spellbooks.a_max_mana, operation.ADDITION, 5),
             CiaModifierBuilder.create(attribute_irons_spellbooks.a_max_mana, operation.MULTIPLY_BASE, 0.01),
-            CiaModifierBuilder.create(attribute_irons_spellbooks.a_mana_regen, operation.ADDITION, 0.015),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_mana_regen, operation.MULTIPLY_BASE, 0.015),
         ],
         textureGenDetails: {
             textureName: "ring_1.png",
@@ -1179,8 +1179,8 @@ export class PolymorphArmoryVariants {
         modelType: "small",
         pmmoSkill: "archery",
         additionalAttributesPerLevel: [
-            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.ADDITION, 0.01),
-            CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.ADDITION, 0.005),
+            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.MULTIPLY_BASE, 0.005),
         ],
         textureGenDetails: {
             textureName: "ring_1.png",
@@ -1221,8 +1221,7 @@ export class PolymorphArmoryVariants {
             CiaModifierBuilder.create(attribute_minecraft.a_generic_armor, operation.MULTIPLY_BASE, 0.01),
             CiaModifierBuilder.create(attribute_minecraft.a_generic_armor_toughness, operation.ADDITION, 1),
             CiaModifierBuilder.create(attribute_minecraft.a_generic_armor_toughness, operation.MULTIPLY_BASE, 0.01),
-            CiaModifierBuilder.create(attribute_minecraft.a_generic_knockback_resistance, operation.ADDITION, 1),
-            CiaModifierBuilder.create(attribute_minecraft.a_generic_knockback_resistance, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_knockback_resistance, operation.MULTIPLY_BASE, 0.0025),
             CiaModifierBuilder.create(attribute_minecraft.a_generic_max_health, operation.ADDITION, 1),
             CiaModifierBuilder.create(attribute_minecraft.a_generic_max_health, operation.MULTIPLY_BASE, 0.01),
         ],
@@ -1242,10 +1241,9 @@ export class PolymorphArmoryVariants {
         modelType: "small",
         pmmoSkill: "magic",
         additionalAttributesPerLevel: [
-            CiaModifierBuilder.create(attribute_irons_spellbooks.a_spell_power, operation.ADDITION, 0.01),
             CiaModifierBuilder.create(attribute_irons_spellbooks.a_spell_power, operation.MULTIPLY_BASE, 0.01),
-            CiaModifierBuilder.create(attribute_irons_spellbooks.a_cast_time_reduction, operation.ADDITION, 0.01),
-            CiaModifierBuilder.create(attribute_irons_spellbooks.a_cooldown_reduction, operation.ADDITION, 0.01),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_cast_time_reduction, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_cooldown_reduction, operation.MULTIPLY_BASE, 0.01),
         ],
         textureGenDetails: {
             textureName: "ring_1.png",
@@ -1274,7 +1272,7 @@ export class PolymorphArmoryVariants {
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_irons_spellbooks.a_max_mana, operation.ADDITION, 7.5),
             CiaModifierBuilder.create(attribute_irons_spellbooks.a_max_mana, operation.MULTIPLY_BASE, 0.01),
-            CiaModifierBuilder.create(attribute_irons_spellbooks.a_mana_regen, operation.ADDITION, 0.015),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_mana_regen, operation.MULTIPLY_BASE, 0.015),
         ],
         textureGenDetails: {
             textureName: "necklace_1.png",
@@ -1314,8 +1312,8 @@ export class PolymorphArmoryVariants {
         modelType: "small",
         pmmoSkill: "archery",
         additionalAttributesPerLevel: [
-            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.ADDITION, 0.01),
-            CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.ADDITION, 0.03),
+            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.MULTIPLY_BASE, 0.03),
         ],
         textureGenDetails: {
             textureName: "necklace_1.png",
@@ -1356,8 +1354,7 @@ export class PolymorphArmoryVariants {
             CiaModifierBuilder.create(attribute_minecraft.a_generic_armor, operation.MULTIPLY_BASE, 0.01),
             CiaModifierBuilder.create(attribute_minecraft.a_generic_armor_toughness, operation.ADDITION, 1.5),
             CiaModifierBuilder.create(attribute_minecraft.a_generic_armor_toughness, operation.MULTIPLY_BASE, 0.01),
-            CiaModifierBuilder.create(attribute_minecraft.a_generic_knockback_resistance, operation.ADDITION, 1.5),
-            CiaModifierBuilder.create(attribute_minecraft.a_generic_knockback_resistance, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_knockback_resistance, operation.MULTIPLY_BASE, 0.0025),
             CiaModifierBuilder.create(attribute_minecraft.a_generic_max_health, operation.ADDITION, 1.5),
             CiaModifierBuilder.create(attribute_minecraft.a_generic_max_health, operation.MULTIPLY_BASE, 0.01),
         ],
@@ -1377,10 +1374,9 @@ export class PolymorphArmoryVariants {
         modelType: "small",
         pmmoSkill: "magic",
         additionalAttributesPerLevel: [
-            CiaModifierBuilder.create(attribute_irons_spellbooks.a_spell_power, operation.ADDITION, 0.015),
-            CiaModifierBuilder.create(attribute_irons_spellbooks.a_spell_power, operation.MULTIPLY_BASE, 0.01),
-            CiaModifierBuilder.create(attribute_irons_spellbooks.a_cast_time_reduction, operation.ADDITION, 0.015),
-            CiaModifierBuilder.create(attribute_irons_spellbooks.a_cooldown_reduction, operation.ADDITION, 0.015),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_spell_power, operation.MULTIPLY_BASE, 0.015),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_cast_time_reduction, operation.MULTIPLY_BASE, 0.015),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_cooldown_reduction, operation.MULTIPLY_BASE, 0.015),
         ],
         textureGenDetails: {
             textureName: "necklace_1.png",
@@ -1409,7 +1405,7 @@ export class PolymorphArmoryVariants {
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_irons_spellbooks.a_max_mana, operation.ADDITION, 7.5),
             CiaModifierBuilder.create(attribute_irons_spellbooks.a_max_mana, operation.MULTIPLY_BASE, 0.01),
-            CiaModifierBuilder.create(attribute_irons_spellbooks.a_mana_regen, operation.ADDITION, 0.015),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_mana_regen, operation.MULTIPLY_BASE, 0.015),
         ],
         textureGenDetails: {
             textureName: "mana_gloves.png",
@@ -1452,8 +1448,8 @@ export class PolymorphArmoryVariants {
         modelType: "normal",
         pmmoSkill: "archery",
         additionalAttributesPerLevel: [
-            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.ADDITION, 0.01),
-            CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.ADDITION, 0.015),
+            CiaModifierBuilder.create(attribute_attributeslib.a_arrow_velocity, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_attributeslib.a_draw_speed, operation.MULTIPLY_BASE, 0.015),
         ],
         textureGenDetails: {
             textureName: "sharpshooter_gloves.png",
@@ -1499,8 +1495,7 @@ export class PolymorphArmoryVariants {
             CiaModifierBuilder.create(attribute_minecraft.a_generic_armor, operation.MULTIPLY_BASE, 0.01),
             CiaModifierBuilder.create(attribute_minecraft.a_generic_armor_toughness, operation.ADDITION, 1.5),
             CiaModifierBuilder.create(attribute_minecraft.a_generic_armor_toughness, operation.MULTIPLY_BASE, 0.01),
-            CiaModifierBuilder.create(attribute_minecraft.a_generic_knockback_resistance, operation.ADDITION, 1.5),
-            CiaModifierBuilder.create(attribute_minecraft.a_generic_knockback_resistance, operation.MULTIPLY_BASE, 0.01),
+            CiaModifierBuilder.create(attribute_minecraft.a_generic_knockback_resistance, operation.MULTIPLY_BASE, 0.0025),
             CiaModifierBuilder.create(attribute_minecraft.a_generic_max_health, operation.ADDITION, 1.5),
             CiaModifierBuilder.create(attribute_minecraft.a_generic_max_health, operation.MULTIPLY_BASE, 0.01),
         ],
@@ -1522,10 +1517,9 @@ export class PolymorphArmoryVariants {
         modelType: "normal",
         pmmoSkill: "magic",
         additionalAttributesPerLevel: [
-            CiaModifierBuilder.create(attribute_irons_spellbooks.a_spell_power, operation.ADDITION, 0.015),
-            CiaModifierBuilder.create(attribute_irons_spellbooks.a_spell_power, operation.MULTIPLY_BASE, 0.01),
-            CiaModifierBuilder.create(attribute_irons_spellbooks.a_cast_time_reduction, operation.ADDITION, 0.015),
-            CiaModifierBuilder.create(attribute_irons_spellbooks.a_cooldown_reduction, operation.ADDITION, 0.015),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_spell_power, operation.MULTIPLY_BASE, 0.015),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_cast_time_reduction, operation.MULTIPLY_BASE, 0.015),
+            CiaModifierBuilder.create(attribute_irons_spellbooks.a_cooldown_reduction, operation.MULTIPLY_BASE, 0.015),
         ],
         textureGenDetails: {
             textureName: "infused_gloves.png",
