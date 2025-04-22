@@ -528,3 +528,12 @@ function loopEliteMobsEvent(event) {
 ServerEvents.loaded(event => {
     loopEliteMobsEvent(event);
 })
+
+ItemEvents.entityInteracted(event=>{
+    let {player, player:{mainHandItem, offHandItem}} = event
+    let target = event.target;
+
+    if(elite_isElite(target) && (mainHandItem.id.includes('_lasso') || offHandItem.id.includes('_lasso'))){
+        event.cancel();
+    }
+})
