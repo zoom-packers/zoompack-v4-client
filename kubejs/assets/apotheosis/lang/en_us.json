@@ -51,5 +51,6 @@
     "gem_class.shovel": "Shovels",
     "gem_class.books_n_rings": "Spellbooks and Rings",
     "text.apotheosis.category.curios:spellbook.plural": "Spellbooks",
-    "text.apotheosis.category.curios:ring.plural": "Rings"
+    "text.apotheosis.category.curios:ring.plural": "Rings",
+    "text.apotheosis.category.curios:necklace.plural": "Necklaces"
 }
