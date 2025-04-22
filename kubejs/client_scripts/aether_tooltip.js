@@ -28,7 +28,7 @@ ItemEvents.tooltip(event => {
     event.add('lost_aether_content:phoenix_cape', '§l§6A warm cloak. It has the power to give the wearer a second chance at life, should they get close to falling into the void.');
     
     
-    event.add('lost_aether_content:gravitite_shield', '§l§dA shield made completely of Zanite used to block attacks. It doesn`t seem to have any special quirks. Regardless of that, it is more durable than the typical wooden shield.');
+    event.add('lost_aether_content:gravitite_shield', '§l§dA shield made completely of Gravitite used to block attacks. It doesn`t seem to have any special quirks. Regardless of that, it is more durable than the typical wooden shield.');
     event.add('lost_aether_content:sentry_shield', '§l§9This shield seems to be ancient sentry technology. It grants the wearer immunity to explosions. It also has a chance to detonate when attacked. Both of these things damage the shield.');
     event.add('lost_aether_content:shield_of_emile', '§l§bA shield that`s said to have been used along with the Hammer of Kingbdogz. It has some scratches on it. It reflects blocked projectiles as if they were yours!');
 });
