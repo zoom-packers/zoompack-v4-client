@@ -43,7 +43,6 @@
           "attributeslib:cold_damage",
           "attributeslib:crit_chance",
           "attributeslib:crit_damage",
-          "attributeslib:current_hp_damage",
           "attributeslib:dodge_chance",
           "attributeslib:draw_speed",
           "attributeslib:experience_gained",

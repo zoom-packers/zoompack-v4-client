@@ -154,8 +154,8 @@
 			}
 		]
 	},
-	"current_hp_damage_0_001": {
-		"title": "§a+0.1% Current HP Damage",
+	"damage_plus_0_001": {
+		"title": "§a+0.1% Damage",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -172,7 +172,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:current_hp_damage",
+					"attribute": "minecraft:generic.attack_damage",
 					"value": 0.001,
 					"operation": "addition"
 				}
