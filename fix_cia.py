@@ -2,6 +2,7 @@ import json
 
 # Erros with cia cuz attr is null? run this!
 
+
 cia_path = 'config\custom_item_attributes.json5'
 cia_config = {}
 
@@ -18,6 +19,12 @@ for item in cia_config['items']:
         for item_mod in item_mods:
             if not item_mod.get('attribute'):
                 mods_clean = False
+
+    mod_id = item.get('item').split(':')[0]
+    item_id = item.get('item').split(':')[1]
+    if mod_id == 'zoomers_armory':
+        if 'flint_' in item_id:
+            mods_clean = False
         
     if mods_clean:
         new_items.append(item)
