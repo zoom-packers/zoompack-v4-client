@@ -378,25 +378,25 @@
 		"root": false
 	},
 	"ttpbxfeig1yfrofu": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": 288,
 		"y": -608,
 		"root": false
 	},
 	"0md78fxjtqpn8pm6": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": 352,
 		"y": -608,
 		"root": false
 	},
 	"0samnec65apmhanu": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": 448,
 		"y": -640,
 		"root": false
 	},
 	"4gtfpsksqvq1k7ri": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": 544,
 		"y": -672,
 		"root": false
@@ -414,43 +414,43 @@
 		"root": false
 	},
 	"alzhh78ga7f5zj3g": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": 800,
 		"y": -672,
 		"root": false
 	},
 	"29mqawwrkpt2zovf": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": 928,
 		"y": -640,
 		"root": false
 	},
 	"elg9tnv6i2pwemww": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": 1024,
 		"y": -608,
 		"root": false
 	},
 	"pj813y7ff2hqmt3m": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": 224,
 		"y": -640,
 		"root": false
 	},
 	"9dma5h707zb25a45": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": 320,
 		"y": -672,
 		"root": false
 	},
 	"c0ywg5r2j1ov75uh": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": 416,
 		"y": -704,
 		"root": false
 	},
 	"w1j4ro0wi645psm7": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": 512,
 		"y": -736,
 		"root": false
@@ -474,19 +474,19 @@
 		"root": false
 	},
 	"f0qiax81hwxiikpb": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": 832,
 		"y": -736,
 		"root": false
 	},
 	"lipqdel181f621e3": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": 928,
 		"y": -704,
 		"root": false
 	},
 	"2rd7tzzbmne4gpib": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": 1024,
 		"y": -672,
 		"root": false
@@ -522,97 +522,97 @@
 		"root": false
 	},
 	"zc0670vbmp6o8yor": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": -608,
 		"y": -672,
 		"root": false
 	},
 	"ww4ymal0jslm0v0r": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": -864,
 		"y": -672,
 		"root": false
 	},
 	"vyln1ztv8mmyk9tv": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": -896,
 		"y": -736,
 		"root": false
 	},
 	"hboqf0kuu1n099o2": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": -576,
 		"y": -736,
 		"root": false
 	},
 	"638g8dt6gocvwowj": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": -480,
 		"y": -704,
 		"root": false
 	},
 	"nkcplowq55wvldh6": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": -384,
 		"y": -672,
 		"root": false
 	},
 	"tvx7ruh0k3mo2e66": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": -992,
 		"y": -704,
 		"root": false
 	},
 	"187w7lebaynpv0tv": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": -1088,
 		"y": -672,
 		"root": false
 	},
 	"v1cnzljd5glhkgxv": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": -1184,
 		"y": -640,
 		"root": false
 	},
 	"g55gybb5y8bvzkgc": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": -288,
 		"y": -640,
 		"root": false
 	},
 	"z2stvkm60sjxgcfz": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": -352,
 		"y": -608,
 		"root": false
 	},
 	"lzynp4jzha45cjgg": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": -416,
 		"y": -608,
 		"root": false
 	},
 	"eoy71iznf1igspso": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": -1056,
 		"y": -608,
 		"root": false
 	},
 	"4xqxxjoihna2ordo": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": -1120,
 		"y": -608,
 		"root": false
 	},
 	"xiqpbuao7kjpropq": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": -960,
 		"y": -640,
 		"root": false
 	},
 	"3uwc9w9g0frvkjg0": {
-		"definition": "damage_plus_0_001",
+		"definition": "current_hp_damage_0_0005",
 		"x": -512,
 		"y": -640,
 		"root": false
