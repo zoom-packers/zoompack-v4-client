@@ -11,8 +11,16 @@ with open(cia_path, 'r') as f:
 
 new_items = []
 
+all_items = []
+
+unique_items = {}
+
 for item in cia_config['items']:
     mods_clean = True
+    if item.get('item') in all_items:
+        continue
+    all_items.append(item.get('item'))
+
     for mod in ['overrides_off_hand', 'overrides_main_hand', 'overrides_head', 'overrides_chest', 'overrides_legs', 'overrides_feet']:
         item_mods = item[mod]
 
@@ -28,6 +36,9 @@ for item in cia_config['items']:
         
     if mods_clean:
         new_items.append(item)
+
+# print(f"total items: {len(all_items)}")
+# print(f"uniq items: {len(list(set(all_items)))}")
 
 new_config = { "items":new_items}
 
