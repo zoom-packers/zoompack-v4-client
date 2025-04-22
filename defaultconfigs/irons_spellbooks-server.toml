@@ -692,24 +692,24 @@
 	[Spells."irons_spellbooks:sculk_tentacles"]
 		Enabled = true
 		School = "irons_spellbooks:eldritch"
-		MaxLevel = 20
+		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 2.5
-		SpellPowerMultiplier = 0.15
-		CooldownInSeconds = 240.0
-		AllowCrafting = true
+		SpellPowerMultiplier = 21.0
+		CooldownInSeconds = 360.0
+		AllowCrafting = false
 
 	[Spells."irons_spellbooks:telekinesis"]
 		Enabled = true
 		School = "irons_spellbooks:eldritch"
-		MaxLevel = 20
+		MaxLevel = 1
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 2.5
-		SpellPowerMultiplier = 0.07
-		CooldownInSeconds = 240.0
-		AllowCrafting = true
+		ManaCostMultiplier = 5.0
+		SpellPowerMultiplier = 0.007
+		CooldownInSeconds = 120.0
+		AllowCrafting = false
 
 	[Spells."irons_spellbooks:planar_sight"]
 		Enabled = true
@@ -719,8 +719,8 @@
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 2.5
 		SpellPowerMultiplier = 0.0052
-		CooldownInSeconds = 600.0
-		AllowCrafting = true
+		CooldownInSeconds = 80.0
+		AllowCrafting = false
 
 	[Spells."irons_spellbooks:eldritch_blast"]
 		Enabled = true
@@ -729,9 +729,9 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 2.5
-		SpellPowerMultiplier = 0.7
+		SpellPowerMultiplier = 55.5
 		CooldownInSeconds = 120.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."irons_spellbooks:abyssal_shroud"]
 		Enabled = true
@@ -740,9 +740,9 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 2.5
-		SpellPowerMultiplier = 0.0021
+		SpellPowerMultiplier = 0.012
 		CooldownInSeconds = 600.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."irons_spellbooks:sonic_boom"]
 		Enabled = true
@@ -751,9 +751,9 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 2.5
-		SpellPowerMultiplier = 0.1
+		SpellPowerMultiplier = 6.6
 		CooldownInSeconds = 120.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	#irons_spellbooks:holy
 	[Spells."irons_spellbooks:healing_circle"]
