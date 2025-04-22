@@ -1,0 +1,28 @@
+import json
+
+# Erros with cia cuz attr is null? run this!
+
+cia_path = 'config\custom_item_attributes.json5'
+cia_config = {}
+
+with open(cia_path, 'r') as f:
+    cia_config = json.loads(f.read())
+
+new_items = []
+
+for item in cia_config['items']:
+    mods_clean = True
+    for mod in ['overrides_off_hand', 'overrides_main_hand', 'overrides_head', 'overrides_chest', 'overrides_legs', 'overrides_feet']:
+        item_mods = item[mod]
+
+        for item_mod in item_mods:
+            if not item_mod.get('attribute'):
+                mods_clean = False
+        
+    if mods_clean:
+        new_items.append(item)
+
+new_config = { "items":new_items}
+
+with open(cia_path, 'w+') as f:
+    f.write(json.dumps(new_config, indent=4))

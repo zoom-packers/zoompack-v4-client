@@ -165,16 +165,16 @@ function createArmorVariant(name: string, slot: string, rune): ArmorVariant {
         case "archevoker":
             attribute = archevokerAttribute;
             break;
-        case "cultist":
+        case "hemomancer":
             attribute = cultistAttribute;
             break;
-        case "shadowwalker":
+        case "chorusguardian":
             attribute = shadowwalkerAttribute;
             break;
         case "priest":
             attribute = priestAttribute;
             break;
-        case "plagued":
+        case "druid":
             attribute = plaguedAttribute;
             break;
     };
