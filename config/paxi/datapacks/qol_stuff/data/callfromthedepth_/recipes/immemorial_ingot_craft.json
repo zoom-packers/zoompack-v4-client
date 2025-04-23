@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "acc",
+    "c  "
+  ],
+  "key": {
+    "a": {
+      "item": "callfromthedepth_:immemorialscrap"
+    },
+    "c": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "callfromthedepth_:immemorialingot",
+    "count": 1
+  }
+}
