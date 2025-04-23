@@ -1,7 +1,7 @@
 {
 	
 	"root": {
-		"title": "§a+0.5 HP",
+		"title": "§a+0.5% HP & 2% Endurance Boost",
 		"description": {"text": "§l§aSOURCE: §rTake damage"},
 		"size" : 3,
 		"frame": {
@@ -20,15 +20,23 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
+					"attribute": "zoompack_overrides_forge:endurance_xp_multiplier",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
 					"attribute": "generic.max_health",
-					"value": 0.5,
-					"operation": "addition"
+					"value": 0.005,
+					"operation": "multiply_total"
 				}
 			}
 		]
 	},
-	"health+0.5": {
-		"title": "§a+0.5 HP",
+	"health_endurance_boost": {
+		"title": "§a+0.5% HP & 2% Endurance Boost",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -45,9 +53,17 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
+					"attribute": "zoompack_overrides_forge:endurance_xp_multiplier",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
 					"attribute": "generic.max_health",
-					"value": 0.5,
-					"operation": "addition"
+					"value": 0.005,
+					"operation": "multiply_total"
 				}
 			}
 		]

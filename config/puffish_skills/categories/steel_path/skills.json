@@ -6,79 +6,79 @@
 		"root": true
 	},
 	"na152y48wxi7z35v": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 64,
 		"y": 192,
 		"root": false
 	},
 	"zkjm0qcslbo0reox": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -64,
 		"y": 192,
 		"root": false
 	},
 	"nuh7a4jk3esnqr0o": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -96,
 		"y": 128,
 		"root": false
 	},
 	"6zg3r6cazyd0210e": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 96,
 		"y": 128,
 		"root": false
 	},
 	"pk005u7gv5uzwwtd": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -160,
 		"y": 224,
 		"root": false
 	},
 	"yqjkprkjt9b5zvh2": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -128,
 		"y": 288,
 		"root": false
 	},
 	"wueqmfd3sts632yw": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 128,
 		"y": 224,
 		"root": false
 	},
 	"1veuar9cktghvank": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 160,
 		"y": 288,
 		"root": false
 	},
 	"bhbqzp8y0w6c16mo": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -160,
 		"y": 352,
 		"root": false
 	},
 	"xksew69fk3vxfih7": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 128,
 		"y": 352,
 		"root": false
 	},
 	"mwgnjroc7aygf8p4": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -64,
 		"y": 416,
 		"root": false
 	},
 	"nw4j7ej07nf7ogi7": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 0,
 		"y": 384,
 		"root": false
 	},
 	"sjbyo6c152h4824k": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 64,
 		"y": 416,
 		"root": false
@@ -414,217 +414,217 @@
 		"root": false
 	},
 	"mtev6cq0yt789lsk": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -544,
 		"y": -384,
 		"root": false
 	},
 	"lvzihkcv9mjbjurd": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -576,
 		"y": -320,
 		"root": false
 	},
 	"wwe72pg5xt2rav4d": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -608,
 		"y": -256,
 		"root": false
 	},
 	"yedvk6rhauvbib43": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -640,
 		"y": -192,
 		"root": false
 	},
 	"cdeucmr6ct2rxdra": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -672,
 		"y": -128,
 		"root": false
 	},
 	"8sxrbnsjw4rnssfp": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -640,
 		"y": -64,
 		"root": false
 	},
 	"jf771m4vydfk0pcy": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -608,
 		"y": 0,
 		"root": false
 	},
 	"gx84an4u3gbs309r": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -640,
 		"y": 64,
 		"root": false
 	},
 	"xssywiwucw2i02l5": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -608,
 		"y": 128,
 		"root": false
 	},
 	"hvy9o3c1zf2rizsc": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -544,
 		"y": 192,
 		"root": false
 	},
 	"uur04xjnxiyw2gj4": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -480,
 		"y": 256,
 		"root": false
 	},
 	"w9okkvwxl85f9h11": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -448,
 		"y": 320,
 		"root": false
 	},
 	"zgrel2zpdai1knfn": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -416,
 		"y": 384,
 		"root": false
 	},
 	"nu2dkjmn4hrv7ys7": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -352,
 		"y": 480,
 		"root": false
 	},
 	"si3plyqf5jw0j2lb": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -288,
 		"y": 544,
 		"root": false
 	},
 	"pmhwfx9m1pgr5bgs": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -224,
 		"y": 640,
 		"root": false
 	},
 	"htoijg2w5514zoxm": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -160,
 		"y": 736,
 		"root": false
 	},
 	"tls0x5gdd2ffqo2y": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 96,
 		"y": 832,
 		"root": false
 	},
 	"zbj4xhjx99sshnka": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 160,
 		"y": 736,
 		"root": false
 	},
 	"zqip4d4m2xde60w1": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 224,
 		"y": 640,
 		"root": false
 	},
 	"kgeacw9w90oodiqz": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 288,
 		"y": 544,
 		"root": false
 	},
 	"7fagje4fhv6j6v9t": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 352,
 		"y": 480,
 		"root": false
 	},
 	"jeeq6d5e0myywg7w": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 416,
 		"y": 384,
 		"root": false
 	},
 	"pg4sh7cnt16wifsr": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 448,
 		"y": 320,
 		"root": false
 	},
 	"srcl9e8n10o876cu": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 480,
 		"y": 256,
 		"root": false
 	},
 	"vupytl9exn0ryinw": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 544,
 		"y": 192,
 		"root": false
 	},
 	"9ftpuetxcq1stt3y": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 608,
 		"y": 128,
 		"root": false
 	},
 	"qaxhxr3a951rmaxe": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 640,
 		"y": 64,
 		"root": false
 	},
 	"4bt22ad5cph9e6zn": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 608,
 		"y": 0,
 		"root": false
 	},
 	"1h8qc2djgtnduari": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 640,
 		"y": -64,
 		"root": false
 	},
 	"dh8shmt2474lja4s": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 672,
 		"y": -128,
 		"root": false
 	},
 	"j8dt5izs3q7idj0o": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 640,
 		"y": -192,
 		"root": false
 	},
 	"fhdglc6fh74vs6az": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 608,
 		"y": -256,
 		"root": false
 	},
 	"x8u7l3ufzi9wwdgo": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 576,
 		"y": -320,
 		"root": false
 	},
 	"g5ivwgvn8kc2u0by": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": 544,
 		"y": -384,
 		"root": false
 	},
 	"kxzoq8semhxyh03d": {
-		"definition": "health+0.5",
+		"definition": "health_endurance_boost",
 		"x": -96,
 		"y": 832,
 		"root": false
