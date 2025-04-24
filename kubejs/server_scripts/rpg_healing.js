@@ -1,33 +1,34 @@
+const MIN_FOOD_LEVEL = 18;
+const COMBAT_CLEANUP = 100;
+const RPG_HEALING_TICK_INTERVAL = 20;
+
 function setPlayerInCombat(player){
     player.persistentData.lastDamageTime = player.level.time;
     player.persistentData.ON_COMBAT = true;
 }
 
-let rpgHealingTickInterval = 20;
-let rpgHealingTimer = 0;
-
 EntityEvents.hurt(event=>{
     if (event.entity.type == 'minecraft:player') {
-        let player = event.entity;
-        setPlayerInCombat(player);
+        setPlayerInCombat(event.entity);
     }
 })
 
 function healPlayers(event){
-    event.server.scheduleInTicks(rpgHealingTickInterval, callback => {
+    event.server.scheduleInTicks(RPG_HEALING_TICK_INTERVAL, callback => {
         event.server.players.forEach(player => {
             if (!player.persistentData.lastDamageTime) {
                 player.persistentData.lastDamageTime = 0;
             }
         
-            if (player.persistentData.lastDamageTime + 100 < player.level.time) {
+            if (player.persistentData.lastDamageTime + COMBAT_CLEANUP < player.level.time) {
                 player.persistentData.ON_COMBAT = false;
             }
-        
-            if (!player.persistentData.ON_COMBAT && player.foodData.foodLevel >= 20) {
-                let healAmount = player.maxHealth * (Math.random() * (0.10 - 0.05) + 0.05);
-                setPlayerInCombat(player);
-                player.heal(healAmount);
+
+            if (!player.persistentData.ON_COMBAT){
+                if(player.foodData.foodLevel >= MIN_FOOD_LEVEL){
+                    setPlayerInCombat(player);
+                    player.heal(player.maxHealth * 0.1);
+                }
             }
         });
 
