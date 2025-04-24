@@ -12,10 +12,17 @@ let backpackLimiterIds = [
     "sophisticatedbackpacks:netherite_backpack",
 ]
 
-let backpackLimiterPlayerTicks = {}
-let backpackLimiterPreviousBackpackCount = {}
+function backpackLimiterCheckForBackpack(itemStack) {
+    if (itemStack.isEmpty()) {
+        return false;
+    }
+    if (backpackLimiterIds.includes(itemStack.getId())) {
+        return true;
+    }
+    return false;
+}
 
-function getPlayerBackpacksTotal(player){
+function getPlayerBackpacksTotal(player) {
     let inventory = player.inventory.items;
     let armors = player.inventory.armor;
     let backSlotDefinition = backpackLimiterCuriosAPI.getCuriosInventory(player).resolve().get().getCurios().back;
@@ -51,93 +58,78 @@ function getPlayerBackpacksTotal(player){
     return backpackCount;
 }
 
-ItemEvents.pickedUp(event=>{
-    let item = event.getItem();
-    let item_id =item.item.getId();
 
-    let player = event.player
-    let server = event.server
-    let playerUUID = player.uuid;
-
-    if (backpackLimiterIds.includes(item_id)){
-        if(!backpackLimiterPreviousBackpackCount[playerUUID]){
-            backpackLimiterPreviousBackpackCount[playerUUID] = getPlayerBackpacksTotal(player);
-        }
-        else{
-            backpackLimiterPreviousBackpackCount[playerUUID] +=1;
-        }
-    }   
-
-});
-
-ItemEvents.dropped (event=>{
-    let item = event.getItem();
-    let item_id =item.item.getId();
-
-    let player = event.player
-    let server = event.server
-    let playerUUID = player.uuid;
-    if (backpackLimiterIds.includes(item_id)){
-        if(backpackLimiterPreviousBackpackCount[playerUUID]){
-            backpackLimiterPreviousBackpackCount[playerUUID] = getPlayerBackpacksTotal(player);
-        }
-        else{
-            backpackLimiterPreviousBackpackCount[playerUUID] -=1;
-        }
-        
-        if (backpackLimiterPreviousBackpackCount[playerUUID]<=backpackLimiterMaxBackpacks){
-            server.runCommandSilent(`/attribute ${player.getName().getString()} minecraft:generic.movement_speed modifier remove ${backpackLimiterMagicUUID}`);
-            player.sendSystemMessage("§3You are no longer carrying too many backpacks.§r " +
-                "§2You can now move at full speed.§r");
-        }
-    }
-
-});
-
-
-function clearPlayerStun(server, player){
+function clearPlayerStun(server, player, message) {
     server.runCommandSilent(`/attribute ${player.getName().getString()} minecraft:generic.movement_speed modifier remove ${backpackLimiterMagicUUID}`);
-    player.sendSystemMessage("§3You are no longer carrying too many backpacks.§r " +
-        "§2You can now move at full speed.§r");
+    if (message) {
+        player.sendSystemMessage("§3You are no longer carrying too many backpacks.§r " +
+            "§2You can now move at full speed.§r");
+    }
 }
 
-function stunPlayer(server, player){
+function stunPlayer(server, player) {
     player.sendSystemMessage("§4You are carrying too many backpacks! " +
         "The limit is " + backpackLimiterMaxBackpacks + " backpacks at a time." +
         "§r §2Drop some backpacks to unburden yourself.§r " +
         "§3Don't forget to check your Curios slots too.§r");
-        server.runCommandSilent(`/attribute ${player.getName().getString()} minecraft:generic.movement_speed modifier add ${backpackLimiterMagicUUID} "Backpack Penalty" -100 add`);
+    server.runCommandSilent(`/attribute ${player.getName().getString()} minecraft:generic.movement_speed modifier add ${backpackLimiterMagicUUID} "Backpack Penalty" -100 add`);
+}
+
+function isItemBackpack(event) {
+    return backpackLimiterIds.includes(event.getItem().item.getId());
 }
 
 PlayerEvents.inventoryChanged(event => {
-    let item = event.getItem();
-    let item_id = item.item.getId();
-
-    if (backpackLimiterIds.includes(item_id)) {
+    if (isItemBackpack(event)) {
         let player = event.player
         let server = event.server
-        let playerUUID = player.uuid;
+        let playerBackpackCount = getPlayerBackpacksTotal(player);
 
-        if (getPlayerBackpacksTotal(player) > backpackLimiterMaxBackpacks) {
+        if (playerBackpackCount > backpackLimiterMaxBackpacks) {
             stunPlayer(server, player);
         }
-        else {
-            if (backpackLimiterPreviousBackpackCount[playerUUID] <= backpackLimiterMaxBackpacks && backpackLimiterPreviousBackpackCount[playerUUID]>backpackLimiterMaxBackpacks ) {
-                clearPlayerStun(server, player);
-            }
+        if (playerBackpackCount == backpackLimiterMaxBackpacks) {
+            clearPlayerStun(server, player, false);
         }
-
-        backpackLimiterPreviousBackpackCount[playerUUID] = getPlayerBackpacksTotal(player);
+        if (playerBackpackCount < backpackLimiterMaxBackpacks) {
+            clearPlayerStun(server, player, false);
+        }
     }
-
 });
 
-function backpackLimiterCheckForBackpack(itemStack) {
-    if (itemStack.isEmpty()) {
-        return false;
+ItemEvents.dropped(event => {
+    if (isItemBackpack(event)) {
+        let player = event.player
+        let server = event.server
+        let playerBackpackCount = getPlayerBackpacksTotal(player);
+
+        if (playerBackpackCount > backpackLimiterMaxBackpacks) {
+            stunPlayer(server, player);
+        }
+        if (playerBackpackCount == backpackLimiterMaxBackpacks) {
+            clearPlayerStun(server, player, true);
+        }
+        if (playerBackpackCount < backpackLimiterMaxBackpacks) {
+            clearPlayerStun(server, player, false);
+        }
     }
-    if (backpackLimiterIds.includes(itemStack.getId())) {
-        return true;
+});
+
+function playerStunOrClear(event) {
+    let player = event.player
+    let server = event.server
+    let playerBackpackCount = getPlayerBackpacksTotal(player);
+
+    if (playerBackpackCount == backpackLimiterMaxBackpacks) {
+        clearPlayerStun(server, player, false);
     }
-    return false;
+    if (playerBackpackCount < backpackLimiterMaxBackpacks) {
+        clearPlayerStun(server, player, false);
+    }
 }
+
+PlayerEvents.inventoryOpened(playerStunOrClear);
+PlayerEvents.inventoryClosed(playerStunOrClear);
+PlayerEvents.inventoryChanged(playerStunOrClear);
+PlayerEvents.chestOpened(playerStunOrClear);
+PlayerEvents.chestClosed(playerStunOrClear);
