@@ -1,3 +1,5 @@
+let PartyAPI = Java.loadClass("io.sedu.mc.parties.api.helper.PartyAPI");
+
 let BRONZE_COIN = 'dotcoinmod:bronze_coin';
 let SILVER_COIN = 'dotcoinmod:silver_coin';
 let GOLD_COIN = 'dotcoinmod:gold_coin';
@@ -147,7 +149,7 @@ function clearPlayer(player_name, item, count, server){
     server.runCommandSilent(`/clear ${player_name} ${item} ${count}`);
 }
 
-function getReward(entity, player){
+function getReward(entity, party_len){
 
     let health = entity.getMaxHealth();
     let dimension = entity.level.dimension;
@@ -157,7 +159,7 @@ function getReward(entity, player){
     health = health * ((Math.random() * 40 - 20)/100+1);
 
 
-    let bronze_amount_raw = health/30;
+    let bronze_amount_raw = health/30/(1+party_len);
     let bronze_amount = Math.floor(bronze_amount_raw);
     if (Math.random() < 0.5) {
         bronze_amount = Math.ceil(bronze_amount_raw);
@@ -441,7 +443,15 @@ EntityEvents.death(event => {
 
         if (player.getType() === 'minecraft:player'){
             if (isEntityAllowed(entity)){
-                let drop_returns = getReward(entity, player);
+                let playerUUID = UUID.fromString(player.uuid)
+                let partyMembers = PartyAPI.getNearMembersWithoutSelf(playerUUID);
+                let drop_returns = getReward(entity, partyMembers.length);
+
+                for (const partyMember of partyMembers){
+                    grantReward(drop_returns, partyMember, server);
+                    announceReward(server, partyMember.name.string, drop_returns, entity_name);
+                }
+                                
                 grantReward(drop_returns, player, server);
                 announceReward(server, player_name, drop_returns, entity_name);
             }
