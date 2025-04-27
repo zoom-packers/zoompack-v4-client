@@ -443,7 +443,7 @@ EntityEvents.death(event => {
 
         if (player.getType() === 'minecraft:player'){
             if (isEntityAllowed(entity)){
-                let playerUUID = UUID.fromString(player.uuid)
+                let playerUUID = UUID.fromString(player.uuid);
                 let partyMembers = PartyAPI.getNearMembersWithoutSelf(playerUUID);
                 let drop_returns = getReward(entity, partyMembers.length);
 
