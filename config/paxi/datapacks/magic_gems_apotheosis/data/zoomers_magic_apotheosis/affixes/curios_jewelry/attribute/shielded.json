@@ -57,7 +57,7 @@
     "types": [
       "curios:ring",
       "curios:necklace",
-      "aether:accessories_gloves"
+      "curios:aether_gloves"
     ]
   }
   

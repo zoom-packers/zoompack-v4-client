@@ -46,6 +46,7 @@
     },
     "types": [
         "curios:ring",
-        "curios:necklace"
+        "curios:necklace",
+        "curios:aether_gloves"
     ]
   }
