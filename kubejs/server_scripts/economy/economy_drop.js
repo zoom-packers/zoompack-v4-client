@@ -36,6 +36,8 @@ let DIMENSION_MULTIPLIERS = {
     'minecraft:overworld': 1
 };
 
+let ALL_BOSSES = ['minecraft:elder_guardian', 'aquamirae:captain_cornelia', 'aquamirae:maze_mother', 'aquamirae:eel', 'bosses_of_mass_destruction:lich', 'bosses_of_mass_destruction:void_blossom', 'blue_skies:alchemist', 'blue_skies:arachnarch', 'blue_skies:arachnarch', 'blue_skies:summoner', 'aether:slider', 'lost_aether_content:aerwhale_king', 'aether:valkyrie', 'aether:sun_spirit', 'minecraft:wither', 'bosses_of_mass_destruction:gauntlet', 'callfromthedepth_:agonysoul', 'call_of_yucutan:kukulkan', 'call_of_yucutan:ah_puch', 'mokels_boss_mantyd:boss_mantyd', 'minecraft:ender_dragon', 'bosses_of_mass_destruction:obsidilith', 'theabyss:abyssaur', 'theabyss:elder', 'theabyss:nightblade_boss', 'theabyss:the_roka', 'theabyss:crystal_golem', 'theabyss:magician'];
+
 let NO_ECONOMY_LOOT = [0,0,0,0]
 
 let LAST_CONVERTED = {};
@@ -127,7 +129,14 @@ function isEntityHostile(entity){
     return entity.getAttribute('minecraft:generic.attack_damage')!= null;
 }
 
+function isEMobBoss(entity) {
+    return ALL_BOSSES.includes(entity.getType());
+}
+
 function isEntityAllowed(entity){
+    if(isEMobBoss(entity)){
+        return true;
+    }
     return !isEntityInBannedRewards(entity.getType()) && isEntityHostile(entity) && !entityHasBannedTags(entity);
 }
 
