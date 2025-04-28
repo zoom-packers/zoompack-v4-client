@@ -1,0 +1,177 @@
+{
+    "weight": 5,
+    "quality": 1.5,
+    "dimensions": [
+    ],
+    "unique": true,
+    "min_rarity": "common",
+    "bonuses": [
+      {
+        "type": "apotheosis:multi_attribute",
+        "desc": "bonus.apotheosis:multi_attr.desc.and",
+        "gem_class": {
+          "key": "light_weapon",
+          "types": [
+            "sword",
+            "trident"
+          ]
+        },
+        "modifiers": [
+          {
+            "attribute": "attributeslib:prot_pierce",
+            "operation": "ADDITION",
+            "values": {
+              "common": 0.5,
+              "uncommon": 1,
+              "rare": 1.5,
+              "epic": 2,
+              "mythic": 2.5,
+              "ancient": 5,
+              "custom_0": 3,
+              "custom_1": 3.5,
+              "custom_2": 4,
+              "custom_3": 4.5
+            }
+          },
+          {
+            "attribute": "attributeslib:armor_shred",
+            "operation": "MULTIPLY_TOTAL",
+            "values": {
+              "common": 0.05,
+              "uncommon": 0.075,
+              "rare": 0.1,
+              "epic": 0.125,
+              "mythic": 0.15,
+              "ancient": 0.2,
+              "custom_0": 0.16,
+              "custom_1": 0.17,
+              "custom_2": 0.18,
+              "custom_3": 0.19
+            }
+          }
+        ]
+      },
+      {
+        "type": "apotheosis:multi_attribute",
+        "desc": "bonus.apotheosis:multi_attr.desc.and",
+        "gem_class": {
+          "key": "heavy_weapon",
+          "types": [
+            "heavy_weapon"
+          ]
+        },
+        "modifiers": [
+          {
+            "attribute": "attributeslib:prot_pierce",
+            "operation": "ADDITION",
+            "values": {
+              "common": 0.5,
+              "uncommon": 1,
+              "rare": 1.5,
+              "epic": 2,
+              "mythic": 2.5,
+              "ancient": 5,
+              "custom_0": 3,
+              "custom_1": 3.5,
+              "custom_2": 4,
+              "custom_3": 4.5
+            }
+          },
+          {
+            "attribute": "attributeslib:armor_shred",
+            "operation": "MULTIPLY_TOTAL",
+            "values": {
+              "common": 0.01,
+              "uncommon": 0.15,
+              "rare": 0.2,
+              "epic": 0.25,
+              "mythic": 0.30,
+              "ancient": 0.4,
+              "custom_0": 0.32,
+              "custom_1": 0.34,
+              "custom_2": 0.36,
+              "custom_3": 0.38
+            }
+          }
+        ]
+      },
+      {
+        "type": "apotheosis:mageslayer",
+        "values": {
+          "common": 0.01,
+          "uncommon": 0.02,
+          "rare": 0.03,
+          "epic": 0.04,
+          "mythic": 0.05,
+          "ancient": 0.20,
+          "custom_0": 0.07,
+          "custom_1": 0.09,
+          "custom_2": 0.13,
+          "custom_3": 0.15
+        }
+      },
+      {
+        "type": "apotheosis:mob_effect",
+        "gem_class": {
+          "key": "shield",
+          "types": [
+            "shield"
+          ]
+        },
+        "mob_effect": "minecraft:resistance",
+        "target": "BLOCK_SELF",
+        "values": {
+          "common":{
+            "duration": 50,
+            "amplifier": 0,
+            "cooldown": 300
+          },
+          "uncommon": {
+            "duration": 50,
+            "amplifier": 0,
+            "cooldown": 250
+          },
+          "rare": {
+            "duration": 50,
+            "amplifier": 0,
+            "cooldown": 200
+          },
+          "epic": {
+            "duration": 75,
+            "amplifier": 0,
+            "cooldown": 150
+          },
+          "mythic": {
+            "duration": 100,
+            "amplifier": 0,
+            "cooldown": 200
+          },
+          "ancient": {
+            "duration": 250,
+            "amplifier": 2,
+            "cooldown": 500
+          },
+          "custom_0": {
+            "duration": 125,
+            "amplifier": 1,
+            "cooldown": 250
+          },
+          "custom_1": {
+            "duration": 150,
+            "amplifier": 1,
+            "cooldown": 300
+          },
+          "custom_2": {
+            "duration": 175,
+            "amplifier": 1,
+            "cooldown": 350
+          },
+          "custom_3": {
+            "duration": 200,
+            "amplifier": 1,
+            "cooldown": 400
+          }
+        }
+      }
+    ]
+  }
