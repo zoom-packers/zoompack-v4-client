@@ -141,8 +141,8 @@ function getCountPlayerItem(player, searched_item) {
     return item_count;
 }
 
-function givePlayer(player_name, item, count, server){
-    server.runCommandSilent(`/give ${player_name} ${item} ${count}`);
+function givePlayer(player, item, count){
+    player.give(Item.of(item, count ?? 1, {}));
 }
 
 function clearPlayer(player_name, item, count, server){
@@ -229,15 +229,15 @@ function grantReward(rewards, player, server){
                 if(inventory_bronze_count+bronze_reward>CONVERSION_RATE){
                     let inventory_new_bronze_count = (inventory_bronze_count+bronze_reward)%CONVERSION_RATE;
                     clearPlayer(player.name.string, BRONZE_COIN, CONVERSION_RATE, server);
-                    givePlayer(player.name.string, SILVER_COIN, 1, server);
-                    givePlayer(player.name.string, BRONZE_COIN, inventory_new_bronze_count, server);
+                    givePlayer(player, SILVER_COIN, 1);
+                    givePlayer(player, BRONZE_COIN, inventory_new_bronze_count);
                 }
                 else{
                     if(getPlayerFreeInventorySlotCount(player)>FREE_INV_SPACE_REQ){
-                        givePlayer(player.name.string, BRONZE_COIN, bronze_reward, server);
+                        givePlayer(player, BRONZE_COIN, bronze_reward);
                         let bronze_remainer = getPlayerCoinRemainer(player, 'bronze');
                         if(inventory_bronze_count+bronze_remainer<=64){
-                            givePlayer(player.name.string, BRONZE_COIN, bronze_remainer, server);
+                            givePlayer(player, BRONZE_COIN, bronze_remainer);
                             subtractPlayerCoinRemainer(player, 'bronze', bronze_remainer);
                         }
                     }
@@ -270,7 +270,7 @@ function grantReward(rewards, player, server){
             }
             else{
                 if(getPlayerFreeInventorySlotCount(player)>FREE_INV_SPACE_REQ){
-                    givePlayer(player.name.string, BRONZE_COIN, bronze_remainer, server);
+                    givePlayer(player, BRONZE_COIN, bronze_remainer, server);
                     subtractPlayerCoinRemainer(player, 'bronze', bronze_remainer);
                 }
             }
@@ -285,15 +285,15 @@ function grantReward(rewards, player, server){
                 if(inventory_silver_count+silver_reward>CONVERSION_RATE){
                     let inventory_new_silver_count = (inventory_silver_count+silver_reward)%CONVERSION_RATE;
                     clearPlayer(player.name.string, SILVER_COIN, CONVERSION_RATE, server);
-                    givePlayer(player.name.string, GOLD_COIN, 1, server);
-                    givePlayer(player.name.string, SILVER_COIN, inventory_new_silver_count, server);
+                    givePlayer(player, GOLD_COIN, 1);
+                    givePlayer(player, SILVER_COIN, inventory_new_silver_count);
                 }
                 else{
                     if(getPlayerFreeInventorySlotCount(player)>FREE_INV_SPACE_REQ+1){
-                        givePlayer(player.name.string, SILVER_COIN, silver_reward, server);
+                        givePlayer(player, SILVER_COIN, silver_reward, server);
                         let silver_remainer = getPlayerCoinRemainer(player, 'silver');
                         if(inventory_silver_count+silver_remainer<=64){
-                            givePlayer(player.name.string, SILVER_COIN, silver_remainer, server);
+                            givePlayer(player, SILVER_COIN, silver_remainer);
                             subtractPlayerCoinRemainer(player, 'silver', silver_remainer);
                         }
                     }
@@ -326,7 +326,7 @@ function grantReward(rewards, player, server){
             }
             else{
                 if(getPlayerFreeInventorySlotCount(player)>FREE_INV_SPACE_REQ+1){
-                    givePlayer(player.name.string, SILVER_COIN, silver_remainer, server);
+                    givePlayer(player, SILVER_COIN, silver_remainer);
                     subtractPlayerCoinRemainer(player, 'silver', silver_remainer);
                 }
             }
@@ -341,15 +341,15 @@ function grantReward(rewards, player, server){
                 if(inventory_gold_count+gold_reward>CONVERSION_RATE){
                     let inventory_new_gold_count = (inventory_gold_count+gold_reward)%CONVERSION_RATE;
                     clearPlayer(player.name.string, GOLD_COIN, CONVERSION_RATE, server);
-                    givePlayer(player.name.string, EMERALD_COIN, 1, server);
-                    givePlayer(player.name.string, GOLD_COIN, inventory_new_gold_count, server);
+                    givePlayer(player, EMERALD_COIN, 1);
+                    givePlayer(player, GOLD_COIN, inventory_new_gold_count);
                 }
                 else{
                     if(getPlayerFreeInventorySlotCount(player)>FREE_INV_SPACE_REQ+2){
-                        givePlayer(player.name.string, GOLD_COIN, gold_reward, server);
+                        givePlayer(player, GOLD_COIN, gold_reward);
                         let gold_remainer = getPlayerCoinRemainer(player, 'gold');
                         if(inventory_gold_count+gold_remainer<=64){
-                            givePlayer(player.name.string, GOLD_COIN, gold_remainer, server);
+                            givePlayer(player, GOLD_COIN, gold_remainer);
                             subtractPlayerCoinRemainer(player, 'gold', gold_remainer);
                         }
                     }
@@ -382,7 +382,7 @@ function grantReward(rewards, player, server){
             }
             else{
                 if(getPlayerFreeInventorySlotCount(player)>FREE_INV_SPACE_REQ+2){
-                    givePlayer(player.name.string, GOLD_COIN, gold_remainer, server);
+                    givePlayer(player, GOLD_COIN, gold_remainer);
                     subtractPlayerCoinRemainer(player, 'gold', gold_remainer);
                 }
             }
@@ -394,7 +394,7 @@ function grantReward(rewards, player, server){
         if(emerald_balance+emerald_reward > WALLET_COIN_MAX){
             let count_to_inv = (emerald_balance+emerald_reward)%WALLET_COIN_MAX;
             addPlayerBalance(player, 'emerald', emerald_reward-count_to_inv, server);
-            givePlayer(player.name.string, EMERALD_COIN, count_to_inv, server);
+            givePlayer(player, EMERALD_COIN, count_to_inv);
         }
         else{
             let emerald_remainer = getPlayerCoinRemainer(player, 'emerald');
@@ -487,7 +487,7 @@ ItemEvents.rightClicked(event => {
                 let to_coin = conversiondata[1];
                 if(mainHandItemID == from_coin){
                     clearPlayer(player_name, from_coin, 1, server);
-                    givePlayer(player_name, to_coin, 64, server);
+                    givePlayer(player, to_coin, 64);
                 }
     
             });
@@ -501,7 +501,7 @@ ItemEvents.rightClicked(event => {
 
                     if(mainHandItemCount==64){
                         clearPlayer(player_name, from_coin, 64, server);
-                        givePlayer(player_name, to_coin, 1, server);
+                        givePlayer(player, to_coin, 1);
                         event.cancel();
                     }
                 }
