@@ -1,0 +1,24 @@
+
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "DWD",
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "irons_spellbooks:arcane_essence"
+        },
+        "D": {
+            "item": "irons_spellbooks:scroll"
+        },
+        "W": {
+            "item": "minecraft:ancient_debris"
+        }
+    },
+    "result": {
+        "item": "irons_spellbooks:cinder_essence",
+        "count": 1
+    }
+}
