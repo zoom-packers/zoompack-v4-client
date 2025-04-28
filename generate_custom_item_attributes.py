@@ -388,7 +388,6 @@ new_armor_set_config("meadow", "fur", [0,0,0,0], 0.0, -0.09, hp_tier=1)
 new_armor_set_config("immersive_armors", "heavy", [0,0,0,0], 0.0, -0.45, hp_tier=3)
 new_armor_set_config("minecraft", "diamond", [0,0,0,0], 0.0, 0.0, hp_tier=3)
 new_armor_set_config("aquaculture", "neptunium", [0,0,0,0], 0, 0.01, hp_tier=3)
-new_sword_config("trials","mace", -9990, full_id=True)
 
 # blue skies
 new_armor_set_config("blue_skies", "pyrope", [1.5,3.5,2.5,2.5], 2, 0.02, hp_tier=6)
