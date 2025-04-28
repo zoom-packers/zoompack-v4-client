@@ -729,7 +729,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 2.5
-		SpellPowerMultiplier = 55.5
+		SpellPowerMultiplier = 3.0
 		CooldownInSeconds = 120.0
 		AllowCrafting = false
 
