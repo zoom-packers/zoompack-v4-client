@@ -117,11 +117,11 @@
           "rare": 0.04,
           "epic": 0.06,
           "mythic": 0.08,
-          "ancient": 0.25,
-          "custom_0": 0.1,
-          "custom_1": 0.13,
-          "custom_2": 0.16,
-          "custom_3": 0.2
+          "ancient": 0.125,
+          "custom_0": 0.05,
+          "custom_1": 0.065,
+          "custom_2": 0.08,
+          "custom_3": 0.1
         }
       }
     ]
