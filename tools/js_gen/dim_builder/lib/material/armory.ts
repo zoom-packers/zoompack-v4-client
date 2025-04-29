@@ -65,7 +65,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
     smithingTemplateId: string = "";
     smithingFromTier: string = "iron";
     pmmoLevel: number = 10;
-    baseDamage: number = 3; // Iron has 6, diamond has 7, netherite has 8
+    baseDamage: number = 6; // Iron has 6, diamond has 7, netherite has 8
     baseArmor: number = 15; // Iron has 15, diamond has 20, netherite has 20
     baseArmorToughness: number = 0; // diamond has 2.0, netherite 3.0
     baseArmorKnockbackResistance: number = 0; // diamond has 0.0, netherite 0.1
