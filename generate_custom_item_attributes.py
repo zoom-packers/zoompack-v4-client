@@ -476,7 +476,7 @@ new_armor_set_config("enderitemod", "enderite", [40,59,49,40], 8, -0.01, hp_tier
 # call from the depths
 new_sword_config("callfromthedepth_","immemorialsword", 170, full_id=True)
 new_armor_set_config("callfromthedepth_", "depth_armor", [50,70,60,50], 7.5, -0.1, hp_tier=20)
-new_sword_config("callfromthedepth_","soul_blade", 190, full_id=True, attack_speed=0.3)
+new_sword_config("callfromthedepth_","soul_blade", 185, full_id=True, attack_speed=0.3)
 
 # The abyss
 new_armor_set_config("theabyss", "fusion_armor", [60,85,70,60], 10.5, -0.09, hp_tier=21)
@@ -486,7 +486,7 @@ new_armor_set_config("theabyss", "aberythe_armor", [70,100,80,70], 11.5, 0.015, 
 new_sword_config("theabyss","aberythe", 230, attack_speed=-0.2)
 
 new_armor_set_config("theabyss", "bone_armor", [80,110,90,80], 11.5, 0.02, hp_tier=21)
-new_sword_config("theabyss","bone_sword_item", 240, full_id=True, attack_speed=-0.4)
+new_sword_config("theabyss","bone_sword_item", 210, full_id=True, attack_speed=-0.4)
 
 new_armor_set_config("theabyss", "ignisithe_armor", [90,120,100,90], 10.5, 0.025, hp_tier=23)
 new_sword_config("theabyss","ignisithe", 260, attack_speed=-0.4)
