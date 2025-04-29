@@ -1,0 +1,83 @@
+{
+    "weight": 5,
+    "quality": 1.5,
+    "dimensions": [
+    ],
+    "unique": true,
+    "min_rarity": "common",
+    "bonuses": [
+      {
+        "type": "apotheosis:enchantment",
+        "gem_class": {
+          "key": "melee_weapon",
+          "types": [
+            "sword",
+            "trident",
+            "heavy_weapon"
+          ]
+        },
+        "enchantment": "sharpness",
+        "must_exist": true,
+        "values": {
+          "common": 1,
+          "uncommon": 1,
+          "rare": 1,
+          "epic": 2,
+          "mythic": 2,
+          "ancient": 4,
+          "custom_0": 2,
+          "custom_1": 3,
+          "custom_2": 3,
+          "custom_3": 3
+        }
+      },
+      {
+        "type": "apotheosis:enchantment",
+        "gem_class": {
+          "key": "core_armor",
+          "types": [
+            "chestplate",
+            "leggings"
+          ]
+        },
+        "enchantment": "protection",
+        "must_exist": true,
+        "values": {
+          "common": 1,
+          "uncommon": 1,
+          "rare": 1,
+          "epic": 2,
+          "mythic": 2,
+          "ancient": 4,
+          "custom_0": 2,
+          "custom_1": 3,
+          "custom_2": 3,
+          "custom_3": 3
+        }
+      },
+      {
+        "type": "apotheosis:enchantment",
+        "gem_class": {
+          "key": "breaker",
+          "types": [
+            "shovel",
+            "pickaxe"
+          ]
+        },
+        "enchantment": "fortune",
+        "must_exist": true,
+        "values": {
+          "common": 1,
+          "uncommon": 1,
+          "rare": 1,
+          "epic": 2,
+          "mythic": 2,
+          "ancient": 4,
+          "custom_0": 2,
+          "custom_1": 3,
+          "custom_2": 3,
+          "custom_3": 3
+        }
+      }
+    ]
+  }
