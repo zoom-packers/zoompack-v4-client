@@ -1178,7 +1178,11 @@
 			subtitle: "&6&lConquer the Mighty Queen of the Silver Dungeon with Strategy and Skill!&r&r"
 			tasks: [{
 				entity: "aether:valkyrie_queen"
-				icon: "doggytalents:angel_wings"
+				icon: {
+					Count: 1
+					id: "everythingisedibleeie:vex_wing"
+					tag: { }
+				}
 				id: "673CD1FDCF7E18D7"
 				title: "Kill the Valkyrie Queen"
 				type: "kill"
@@ -2106,7 +2110,13 @@
 			subtitle: "&6&lThere is so much knowledge we still not yield&r&r"
 			tasks: [{
 				entity: "theabyss:abyssaur"
-				icon: "doggytalents:breeding_bone"
+				icon: {
+					Count: 1
+					id: "theabyss:totem_of_abyss"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "526AE6A545D2F76F"
 				title: "Kill the Abyssaur"
 				type: "kill"

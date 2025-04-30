@@ -210,24 +210,6 @@ a_fall_flying: "caelus:fall_flying",
  * @readonly
  * @enum {string}
  */
-const attribute_doggytalents = {
-    /** @type {string} */
-a_generic_jump_power: "doggytalents:generic.jump_power",
-/** @type {string} */
-a_generic_crit_chance: "doggytalents:generic.crit_chance",
-/** @type {string} */
-a_generic_crit_bonus: "doggytalents:generic.crit_bonus",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
 const attribute_puffish_attributes = {
     /** @type {string} */
 a_player_stamina: "puffish_attributes:player.stamina",
@@ -699,9 +681,9 @@ a_attack_range: "reach_entity_attributes:attack_range",
 
 /**
  * Auto-generated Typedef
- * @typedef {attribute_minecraft | attribute_combatroll | attribute_projectile_damage | attribute_zoompack_overrides_forge | attribute_attributeslib | attribute_caelus | attribute_doggytalents | attribute_puffish_attributes | attribute_obscure_api | attribute_minecolonies | attribute_additionalentityattributes | attribute_irons_spellbooks | attribute_additional_attributes | attribute_functionalarmortrim | attribute_forge | attribute_reach_entity_attributes} attribute
+ * @typedef {attribute_minecraft | attribute_combatroll | attribute_projectile_damage | attribute_zoompack_overrides_forge | attribute_attributeslib | attribute_caelus | attribute_puffish_attributes | attribute_obscure_api | attribute_minecolonies | attribute_additionalentityattributes | attribute_irons_spellbooks | attribute_additional_attributes | attribute_functionalarmortrim | attribute_forge | attribute_reach_entity_attributes} attribute
  */
 
 module.exports = {
-    attribute_minecraft, attribute_combatroll, attribute_projectile_damage, attribute_zoompack_overrides_forge, attribute_attributeslib, attribute_caelus, attribute_doggytalents, attribute_puffish_attributes, attribute_obscure_api, attribute_minecolonies, attribute_additionalentityattributes, attribute_irons_spellbooks, attribute_additional_attributes, attribute_functionalarmortrim, attribute_forge, attribute_reach_entity_attributes
+    attribute_minecraft, attribute_combatroll, attribute_projectile_damage, attribute_zoompack_overrides_forge, attribute_attributeslib, attribute_caelus, attribute_puffish_attributes, attribute_obscure_api, attribute_minecolonies, attribute_additionalentityattributes, attribute_irons_spellbooks, attribute_additional_attributes, attribute_functionalarmortrim, attribute_forge, attribute_reach_entity_attributes
 }

@@ -65,9 +65,6 @@ attributeslib:prot_shred
 attributeslib:elytra_flight
 attributeslib:creative_flight
 caelus:fall_flying
-doggytalents:generic.jump_power
-doggytalents:generic.crit_chance
-doggytalents:generic.crit_bonus
 puffish_attributes:player.stamina
 puffish_attributes:player.melee_damage
 puffish_attributes:player.ranged_damage

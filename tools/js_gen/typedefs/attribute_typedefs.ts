@@ -102,15 +102,6 @@ export enum attribute_caelus {
 
 
 
-export enum attribute_doggytalents {
-    a_generic_jump_power = "doggytalents:generic.jump_power",
-a_generic_crit_chance = "doggytalents:generic.crit_chance",
-a_generic_crit_bonus = "doggytalents:generic.crit_bonus",
-
-}
-
-
-
 export enum attribute_puffish_attributes {
     a_player_stamina = "puffish_attributes:player.stamina",
 a_player_melee_damage = "puffish_attributes:player.melee_damage",
@@ -348,8 +339,8 @@ a_attack_range = "reach_entity_attributes:attack_range",
 
 
 
-export type attribute = attribute_minecraft | attribute_combatroll | attribute_projectile_damage | attribute_zoompack_overrides_forge | attribute_attributeslib | attribute_caelus | attribute_doggytalents | attribute_puffish_attributes | attribute_obscure_api | attribute_minecolonies | attribute_additionalentityattributes | attribute_irons_spellbooks | attribute_additional_attributes | attribute_functionalarmortrim | attribute_forge | attribute_reach_entity_attributes;
+export type attribute = attribute_minecraft | attribute_combatroll | attribute_projectile_damage | attribute_zoompack_overrides_forge | attribute_attributeslib | attribute_caelus | attribute_puffish_attributes | attribute_obscure_api | attribute_minecolonies | attribute_additionalentityattributes | attribute_irons_spellbooks | attribute_additional_attributes | attribute_functionalarmortrim | attribute_forge | attribute_reach_entity_attributes;
 
 module.exports = {
-    attribute_minecraft, attribute_combatroll, attribute_projectile_damage, attribute_zoompack_overrides_forge, attribute_attributeslib, attribute_caelus, attribute_doggytalents, attribute_puffish_attributes, attribute_obscure_api, attribute_minecolonies, attribute_additionalentityattributes, attribute_irons_spellbooks, attribute_additional_attributes, attribute_functionalarmortrim, attribute_forge, attribute_reach_entity_attributes
+    attribute_minecraft, attribute_combatroll, attribute_projectile_damage, attribute_zoompack_overrides_forge, attribute_attributeslib, attribute_caelus, attribute_puffish_attributes, attribute_obscure_api, attribute_minecolonies, attribute_additionalentityattributes, attribute_irons_spellbooks, attribute_additional_attributes, attribute_functionalarmortrim, attribute_forge, attribute_reach_entity_attributes
 }

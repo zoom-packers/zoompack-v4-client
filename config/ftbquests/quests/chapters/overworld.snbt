@@ -1303,7 +1303,11 @@
 		{
 			dependencies: ["4B206DEC6377851A"]
 			description: ["&7Face the darkness head-on and defeat the Night Lich. This powerful foe dwells in shadows, commanding fear and necromantic might. Triumph over the lich to restore light and peace to the land. The night ends now!"]
-			icon: "doggytalents:throw_bone_wet"
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:frozen_bone"
+				tag: { }
+			}
 			id: "0E0B717E48E481D2"
 			rewards: [
 				{
