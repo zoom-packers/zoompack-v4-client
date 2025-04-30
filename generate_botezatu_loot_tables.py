@@ -81,6 +81,114 @@ mods = [{
             'rare' : 0,
             'legendary' : 4
         },
+        'fog_guard': {
+            'common' : 1,
+            'uncommon' : 2,
+            'rare' : 0,
+            'legendary' : 0
+        },
+        'dark_cover': {
+            'common' : 0,
+            'uncommon' : 1,
+            'rare' : 2,
+            'legendary' : 0
+        },
+        'spark_of_dawn': {
+            'common' : 1,
+            'uncommon' : 2,
+            'rare' : 0,
+            'legendary' : 0
+        },
+        'golden_execution': {
+            'common' : 0,
+            'uncommon' : 1,
+            'rare' : 2,
+            'legendary' : 0
+        },
+        'forgotten_trace': {
+            'common' : 1,
+            'uncommon' : 0,
+            'rare' : 0,
+            'legendary' : 0
+        },
+        'redeemer': {
+            'common' : 1,
+            'uncommon' : 0,
+            'rare' : 0,
+            'legendary' : 0
+        },
+        'gilded_hunt': {
+            'common' : 0,
+            'uncommon' : 1,
+            'rare' : 2,
+            'legendary' : 0
+        },
+        'lady_maria': {
+            'common' : 0,
+            'uncommon' : 1,
+            'rare' : 2,
+            'legendary' : 0
+        },
+        'crucible_knight': {
+            'common' : 0,
+            'uncommon' : 0,
+            'rare' : 0,
+            'legendary' : 2
+        },
+        'ronin': {
+            'common' : 0,
+            'uncommon' : 0,
+            'rare' : 0,
+            'legendary' : 1
+        },
+        'evening_ghost': {
+            'common' : 0,
+            'uncommon' : 1,
+            'rare' : 2,
+            'legendary' : 0
+        },
+        'malenia': {
+            'common' : 0,
+            'uncommon' : 1,
+            'rare' : 2,
+            'legendary' : 0
+        },
+        'old_knight': {
+            'common' : 2,
+            'uncommon' : 0,
+            'rare' : 0,
+            'legendary' : 0
+        },
+        'silver_knight': {
+            'common' : 0,
+            'uncommon' : 1,
+            'rare' : 2,
+            'legendary' : 0
+        },
+        'dead_gladiator': {
+            'common' : 0,
+            'uncommon' : 1,
+            'rare' : 2,
+            'legendary' : 0
+        },
+        'flesh_of_the_feaster': {
+            'common' : 0,
+            'uncommon' : 0,
+            'rare' : 0,
+            'legendary' : 1
+        },
+        'wind_worshipper': {
+            'common' : 0,
+            'uncommon' : 0,
+            'rare' : 0,
+            'legendary' : 1
+        },
+        'twinned': {
+            'common' : 1,
+            'uncommon' : 0,
+            'rare' : 0,
+            'legendary' : 0
+        }
     },
     'prefix_suffix_bridge' : '_'
 },
@@ -151,6 +259,12 @@ mods = [{
             'rare' : 0,
             'legendary' : 0
         },
+        'exalted_aurum': {
+            'common' : 0,
+            'uncommon' : 0,
+            'rare' : 0,
+            'legendary' : 1
+        }
     },
     'prefix_suffix_bridge' : '_armor_'
 },

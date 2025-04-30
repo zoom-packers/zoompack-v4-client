@@ -51,6 +51,156 @@
                 },
                 {
                     "type": "minecraft:item",
+                    "name": "fantasy_armor:fog_guard_helmet",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:dark_cover_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:spark_of_dawn_helmet",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:golden_execution_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:gilded_hunt_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:lady_maria_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:evening_ghost_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:malenia_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:silver_knight_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:dead_gladiator_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
                     "name": "fantasy_armor:eclipse_soldier_chestplate",
                     "weight": 1,
                     "functions": [
@@ -82,6 +232,156 @@
                 {
                     "type": "minecraft:item",
                     "name": "fantasy_armor:chess_board_knight_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:fog_guard_chestplate",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:dark_cover_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:spark_of_dawn_chestplate",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:golden_execution_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:gilded_hunt_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:lady_maria_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:evening_ghost_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:malenia_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:silver_knight_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:dead_gladiator_chestplate",
                     "weight": 1,
                     "functions": [
                         {
@@ -141,6 +441,156 @@
                 },
                 {
                     "type": "minecraft:item",
+                    "name": "fantasy_armor:fog_guard_leggings",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:dark_cover_leggings",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:spark_of_dawn_leggings",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:golden_execution_leggings",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:gilded_hunt_leggings",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:lady_maria_leggings",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:evening_ghost_leggings",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:malenia_leggings",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:silver_knight_leggings",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:dead_gladiator_leggings",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
                     "name": "fantasy_armor:eclipse_soldier_boots",
                     "weight": 1,
                     "functions": [
@@ -172,6 +622,156 @@
                 {
                     "type": "minecraft:item",
                     "name": "fantasy_armor:chess_board_knight_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:fog_guard_boots",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:dark_cover_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:spark_of_dawn_boots",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:golden_execution_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:gilded_hunt_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:lady_maria_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:evening_ghost_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:malenia_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:silver_knight_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{affix_data:{affixes:{\"apotheosis:armor/attribute/ironforged\":0.0f}}}"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"This is a cosmetic item granted by Catalin Botezatu\",\"color\":\"dark_green\",\"italic\":false}', '{\"text\":\"Rarity: \",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"extra\":[{\"text\":\"UNCOMMON\",\"color\":\"green\",\"bold\":true,\"italic\":false}]}']},HideFlags:63}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "fantasy_armor:dead_gladiator_boots",
                     "weight": 1,
                     "functions": [
                         {

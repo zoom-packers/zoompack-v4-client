@@ -292,7 +292,7 @@ with open(config_path, 'r') as f:
 
 # fantasy_armor
 for piece in ['helmet', 'chestplate', 'leggings', 'boots']:
-    for armor_prefix in ['eclipse_soldier', 'dragonslayer', 'hero', 'golden_horns', 'thief', 'wandering_wizard', 'chess_board_knight', 'dark_lord', 'sunset_wings']:
+    for armor_prefix in ['eclipse_soldier', 'dragonslayer', 'hero', 'golden_horns', 'thief', 'wandering_wizard', 'chess_board_knight', 'dark_lord', 'sunset_wings', 'fog_guard', 'dark_cover', 'spark_of_dawn', 'golden_execution', 'forgotten_trace', 'redeemer', 'gilded_hunt', 'lady_maria', 'crucible_knight', 'ronin', 'evening_ghost', 'malenia', 'old_knight', 'silver_knight', 'dead_gladiator', 'flesh_of_the_feaster', 'wind_worshipper', 'twinned']:
         new_cosmetic_armor_config('fantasy_armor', f'{armor_prefix}_{piece}', piece)
 
 # Armor of the ages
@@ -304,7 +304,7 @@ armor_of_the_ages_map = {
 }
 for piece_id in armor_of_the_ages_map:
     actual_piece = armor_of_the_ages_map[piece_id]
-    for armor_prefix in ['anubis', 'centurion', 'holy', 'iron_plate', 'japanese_light', 'o_yoroi', 'pharaoh', 'quetzalcoatl', 'raijin']:
+    for armor_prefix in ['anubis', 'centurion', 'holy', 'iron_plate', 'japanese_light', 'o_yoroi', 'pharaoh', 'quetzalcoatl', 'raijin', 'exalted_aurum']:
         new_cosmetic_armor_config('armoroftheages', f'{armor_prefix}_armor_{piece_id}', actual_piece)
 
 # Nether armory
