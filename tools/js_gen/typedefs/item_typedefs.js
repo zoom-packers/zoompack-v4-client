@@ -18260,100 +18260,6 @@ i_bioethanol_bucket: "createaddition:bioethanol_bucket",
  * @readonly
  * @enum {string}
  */
-const item_perfectplushies = {
-    /** @type {string} */
-i_wandering_plushie_trader_spawn_egg: "perfectplushies:wandering_plushie_trader_spawn_egg",
-/** @type {string} */
-i_nyf_plushie: "perfectplushies:nyf_plushie",
-/** @type {string} */
-i_sirjain_plushie: "perfectplushies:sirjain_plushie",
-/** @type {string} */
-i_sizableshrimp_plushie: "perfectplushies:sizableshrimp_plushie",
-/** @type {string} */
-i_tslat_plushie: "perfectplushies:tslat_plushie",
-/** @type {string} */
-i_silk_plushie: "perfectplushies:silk_plushie",
-/** @type {string} */
-i_june_plushie: "perfectplushies:june_plushie",
-/** @type {string} */
-i_daniel_plushie: "perfectplushies:daniel_plushie",
-/** @type {string} */
-i_gamerpotion_plushie: "perfectplushies:gamerpotion_plushie",
-/** @type {string} */
-i_joosh_plushie: "perfectplushies:joosh_plushie",
-/** @type {string} */
-i_rocris_plushie: "perfectplushies:rocris_plushie",
-/** @type {string} */
-i_geode_plushie: "perfectplushies:geode_plushie",
-/** @type {string} */
-i_gamerpotion_plushie_rare: "perfectplushies:gamerpotion_plushie_rare",
-/** @type {string} */
-i_sirjain_plushie_rare: "perfectplushies:sirjain_plushie_rare",
-/** @type {string} */
-i_red_fox_plushie: "perfectplushies:red_fox_plushie",
-/** @type {string} */
-i_snow_fox_plushie: "perfectplushies:snow_fox_plushie",
-/** @type {string} */
-i_raccoon_plushie: "perfectplushies:raccoon_plushie",
-/** @type {string} */
-i_red_panda_plushie: "perfectplushies:red_panda_plushie",
-/** @type {string} */
-i_red_ruffed_lemur_plushie: "perfectplushies:red_ruffed_lemur_plushie",
-/** @type {string} */
-i_capybara_plushie: "perfectplushies:capybara_plushie",
-/** @type {string} */
-i_dog_plushie: "perfectplushies:dog_plushie",
-/** @type {string} */
-i_cat_plushie: "perfectplushies:cat_plushie",
-/** @type {string} */
-i_dolphin_plushie: "perfectplushies:dolphin_plushie",
-/** @type {string} */
-i_rabbit_plushie: "perfectplushies:rabbit_plushie",
-/** @type {string} */
-i_frog_plushie: "perfectplushies:frog_plushie",
-/** @type {string} */
-i_goose_plushie: "perfectplushies:goose_plushie",
-/** @type {string} */
-i_duck_plushie: "perfectplushies:duck_plushie",
-/** @type {string} */
-i_rubber_duck_plushie: "perfectplushies:rubber_duck_plushie",
-/** @type {string} */
-i_robin_plushie: "perfectplushies:robin_plushie",
-/** @type {string} */
-i_hummingbird_plushie: "perfectplushies:hummingbird_plushie",
-/** @type {string} */
-i_hippo_plushie: "perfectplushies:hippo_plushie",
-/** @type {string} */
-i_mouse_plushie: "perfectplushies:mouse_plushie",
-/** @type {string} */
-i_turtle_plushie: "perfectplushies:turtle_plushie",
-/** @type {string} */
-i_doe_plushie: "perfectplushies:doe_plushie",
-/** @type {string} */
-i_reindeer_plushie: "perfectplushies:reindeer_plushie",
-/** @type {string} */
-i_bear_plushie: "perfectplushies:bear_plushie",
-/** @type {string} */
-i_panda_plushie: "perfectplushies:panda_plushie",
-/** @type {string} */
-i_lion_cub_plushie: "perfectplushies:lion_cub_plushie",
-/** @type {string} */
-i_elephant_plushie: "perfectplushies:elephant_plushie",
-/** @type {string} */
-i_monkey_plushie: "perfectplushies:monkey_plushie",
-/** @type {string} */
-i_seal_plushie: "perfectplushies:seal_plushie",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
 const item_man_of_many_planes = {
     /** @type {string} */
 i_scarlet_biplane: "man_of_many_planes:scarlet_biplane",
@@ -33557,9 +33463,9 @@ i_horizonite_sheet: "create_blue_skies_compat:horizonite_sheet",
 
 /**
  * Auto-generated Typedef
- * @typedef {item_minecraft | item_betternether | item_zoomers_armory | item_apotheosis | item_supplementaries | item_refinedstorage | item_structure_gel | item_handcrafted | item_morevillagers | item_fantasy_armor | item_toms_trading_network | item_constructionwand | item_chimes | item_trials | item_mcwlights | item_bellsandwhistles | item_mutantmonsters | item_libraryferret | item_kobolds | item_biomesoplenty | item_domum_ornamentum | item_gravestone | item_structurize | item_lootr | item_immersive_melodies | item_phantasm | item_mimic | item_sophisticatedbackpacks | item_ze_apotheosis | item_plentyplates | item_utilitarian | item_mcwbridges | item_endertanks | item_simplylight | item_everythingisedibleeie | item_elevatorid | item_aether_protect_your_moa | item_nether_armory | item_undergarden | item_goblintraders | item_copycats | item_obscure_api | item_outer_end | item_bosses_of_mass_destruction | item_endermanoverhaul | item_armoroftheages | item_minecolonies | item_bushierflowers | item_simpleradio | item_createaddition | item_perfectplushies | item_man_of_many_planes | item_irons_spellbooks | item_slotmachinemod | item_macawsbridgesbop | item_immersive_armors | item_callfromthedepth_ | item_daily_rewards | item_ironfurnaces | item_mysticaloaktree | item_origins | item_energymeter | item_measurements | item_theabyss | item_mcwfurnitures | item_crafting_on_a_stick | item_multipiston | item_solonion | item_packingtape | item_mythicmounts | item_aetherdelight | item_mcwpaths | item_usefulrailroads | item_croptopia | item_oceansdelight | item_aquaculture | item_convenientcurioscontainer | item_aquamirae | item_blue_skies | item_creeperoverhaul | item_crittersandcompanions | item_aether | item_lost_aether_content | item_naturalist | item_immersive_aircraft | item_cookingforblockheads | item_citadel | item_railways | item_farmersdelight | item_cuffed | item_compressium | item_ender_dragon_loot_ | item_endersdelight | item_endrem | item_mokels_boss_mantyd | item_patchouli | item_vinery | item_enderitemod | item_herbalbrews | item_auctionworld | item_bakery | item_brewery | item_meadow | item_dotcoinmod | item_nethervinery | item_candlelight | item_beachparty | item_fortunas_anvil | item_smallships | item_easy_mob_farm | item_kubejs | item_zoomers_magic | item_create | item_zoomers_economy | item_sophisticatedstorage | item_itemfilters | item_ftbquests | item_createlowheated | item_extendedgears | item_waystones | item_comforts | item_call_of_yucutan | item_moonlight | item_toolbelt | item_nethersdelight | item_create_sa | item_enderchests | item_endlessbiomes | item_create_blue_skies_compat} item
+ * @typedef {item_minecraft | item_betternether | item_zoomers_armory | item_apotheosis | item_supplementaries | item_refinedstorage | item_structure_gel | item_handcrafted | item_morevillagers | item_fantasy_armor | item_toms_trading_network | item_constructionwand | item_chimes | item_trials | item_mcwlights | item_bellsandwhistles | item_mutantmonsters | item_libraryferret | item_kobolds | item_biomesoplenty | item_domum_ornamentum | item_gravestone | item_structurize | item_lootr | item_immersive_melodies | item_phantasm | item_mimic | item_sophisticatedbackpacks | item_ze_apotheosis | item_plentyplates | item_utilitarian | item_mcwbridges | item_endertanks | item_simplylight | item_everythingisedibleeie | item_elevatorid | item_aether_protect_your_moa | item_nether_armory | item_undergarden | item_goblintraders | item_copycats | item_obscure_api | item_outer_end | item_bosses_of_mass_destruction | item_endermanoverhaul | item_armoroftheages | item_minecolonies | item_bushierflowers | item_simpleradio | item_createaddition | item_man_of_many_planes | item_irons_spellbooks | item_slotmachinemod | item_macawsbridgesbop | item_immersive_armors | item_callfromthedepth_ | item_daily_rewards | item_ironfurnaces | item_mysticaloaktree | item_origins | item_energymeter | item_measurements | item_theabyss | item_mcwfurnitures | item_crafting_on_a_stick | item_multipiston | item_solonion | item_packingtape | item_mythicmounts | item_aetherdelight | item_mcwpaths | item_usefulrailroads | item_croptopia | item_oceansdelight | item_aquaculture | item_convenientcurioscontainer | item_aquamirae | item_blue_skies | item_creeperoverhaul | item_crittersandcompanions | item_aether | item_lost_aether_content | item_naturalist | item_immersive_aircraft | item_cookingforblockheads | item_citadel | item_railways | item_farmersdelight | item_cuffed | item_compressium | item_ender_dragon_loot_ | item_endersdelight | item_endrem | item_mokels_boss_mantyd | item_patchouli | item_vinery | item_enderitemod | item_herbalbrews | item_auctionworld | item_bakery | item_brewery | item_meadow | item_dotcoinmod | item_nethervinery | item_candlelight | item_beachparty | item_fortunas_anvil | item_smallships | item_easy_mob_farm | item_kubejs | item_zoomers_magic | item_create | item_zoomers_economy | item_sophisticatedstorage | item_itemfilters | item_ftbquests | item_createlowheated | item_extendedgears | item_waystones | item_comforts | item_call_of_yucutan | item_moonlight | item_toolbelt | item_nethersdelight | item_create_sa | item_enderchests | item_endlessbiomes | item_create_blue_skies_compat} item
  */
 
 module.exports = {
-    item_minecraft, item_betternether, item_zoomers_armory, item_apotheosis, item_supplementaries, item_refinedstorage, item_structure_gel, item_handcrafted, item_morevillagers, item_fantasy_armor, item_toms_trading_network, item_constructionwand, item_chimes, item_trials, item_mcwlights, item_bellsandwhistles, item_mutantmonsters, item_libraryferret, item_kobolds, item_biomesoplenty, item_domum_ornamentum, item_gravestone, item_structurize, item_lootr, item_immersive_melodies, item_phantasm, item_mimic, item_sophisticatedbackpacks, item_ze_apotheosis, item_plentyplates, item_utilitarian, item_mcwbridges, item_endertanks, item_simplylight, item_everythingisedibleeie, item_elevatorid, item_aether_protect_your_moa, item_nether_armory, item_undergarden, item_goblintraders, item_copycats, item_obscure_api, item_outer_end, item_bosses_of_mass_destruction, item_endermanoverhaul, item_armoroftheages, item_minecolonies, item_bushierflowers, item_simpleradio, item_createaddition, item_perfectplushies, item_man_of_many_planes, item_irons_spellbooks, item_slotmachinemod, item_macawsbridgesbop, item_immersive_armors, item_callfromthedepth_, item_daily_rewards, item_ironfurnaces, item_mysticaloaktree, item_origins, item_energymeter, item_measurements, item_theabyss, item_mcwfurnitures, item_crafting_on_a_stick, item_multipiston, item_solonion, item_packingtape, item_mythicmounts, item_aetherdelight, item_mcwpaths, item_usefulrailroads, item_croptopia, item_oceansdelight, item_aquaculture, item_convenientcurioscontainer, item_aquamirae, item_blue_skies, item_creeperoverhaul, item_crittersandcompanions, item_aether, item_lost_aether_content, item_naturalist, item_immersive_aircraft, item_cookingforblockheads, item_citadel, item_railways, item_farmersdelight, item_cuffed, item_compressium, item_ender_dragon_loot_, item_endersdelight, item_endrem, item_mokels_boss_mantyd, item_patchouli, item_vinery, item_enderitemod, item_herbalbrews, item_auctionworld, item_bakery, item_brewery, item_meadow, item_dotcoinmod, item_nethervinery, item_candlelight, item_beachparty, item_fortunas_anvil, item_smallships, item_easy_mob_farm, item_kubejs, item_zoomers_magic, item_create, item_zoomers_economy, item_sophisticatedstorage, item_itemfilters, item_ftbquests, item_createlowheated, item_extendedgears, item_waystones, item_comforts, item_call_of_yucutan, item_moonlight, item_toolbelt, item_nethersdelight, item_create_sa, item_enderchests, item_endlessbiomes, item_create_blue_skies_compat
+    item_minecraft, item_betternether, item_zoomers_armory, item_apotheosis, item_supplementaries, item_refinedstorage, item_structure_gel, item_handcrafted, item_morevillagers, item_fantasy_armor, item_toms_trading_network, item_constructionwand, item_chimes, item_trials, item_mcwlights, item_bellsandwhistles, item_mutantmonsters, item_libraryferret, item_kobolds, item_biomesoplenty, item_domum_ornamentum, item_gravestone, item_structurize, item_lootr, item_immersive_melodies, item_phantasm, item_mimic, item_sophisticatedbackpacks, item_ze_apotheosis, item_plentyplates, item_utilitarian, item_mcwbridges, item_endertanks, item_simplylight, item_everythingisedibleeie, item_elevatorid, item_aether_protect_your_moa, item_nether_armory, item_undergarden, item_goblintraders, item_copycats, item_obscure_api, item_outer_end, item_bosses_of_mass_destruction, item_endermanoverhaul, item_armoroftheages, item_minecolonies, item_bushierflowers, item_simpleradio, item_createaddition, item_man_of_many_planes, item_irons_spellbooks, item_slotmachinemod, item_macawsbridgesbop, item_immersive_armors, item_callfromthedepth_, item_daily_rewards, item_ironfurnaces, item_mysticaloaktree, item_origins, item_energymeter, item_measurements, item_theabyss, item_mcwfurnitures, item_crafting_on_a_stick, item_multipiston, item_solonion, item_packingtape, item_mythicmounts, item_aetherdelight, item_mcwpaths, item_usefulrailroads, item_croptopia, item_oceansdelight, item_aquaculture, item_convenientcurioscontainer, item_aquamirae, item_blue_skies, item_creeperoverhaul, item_crittersandcompanions, item_aether, item_lost_aether_content, item_naturalist, item_immersive_aircraft, item_cookingforblockheads, item_citadel, item_railways, item_farmersdelight, item_cuffed, item_compressium, item_ender_dragon_loot_, item_endersdelight, item_endrem, item_mokels_boss_mantyd, item_patchouli, item_vinery, item_enderitemod, item_herbalbrews, item_auctionworld, item_bakery, item_brewery, item_meadow, item_dotcoinmod, item_nethervinery, item_candlelight, item_beachparty, item_fortunas_anvil, item_smallships, item_easy_mob_farm, item_kubejs, item_zoomers_magic, item_create, item_zoomers_economy, item_sophisticatedstorage, item_itemfilters, item_ftbquests, item_createlowheated, item_extendedgears, item_waystones, item_comforts, item_call_of_yucutan, item_moonlight, item_toolbelt, item_nethersdelight, item_create_sa, item_enderchests, item_endlessbiomes, item_create_blue_skies_compat
 }
