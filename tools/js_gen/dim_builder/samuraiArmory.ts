@@ -14,7 +14,22 @@ const samuraiAttributes: CiaModifier[] = [
     {
         attribute: "minecraft:generic.armor",
         operation: operation.MULTIPLY_BASE,
-        value: 0.05,
+        value: -0.05,
+    },
+    {
+        attribute: "minecraft:generic.armor_toughness",
+        operation: operation.MULTIPLY_BASE,
+        value: -0.025,
+    },
+    {
+        attribute: "minecraft:generic.movement_speed",
+        operation: operation.MULTIPLY_BASE,
+        value: 0.025,
+    },
+    {
+        attribute: "minecraft:generic.attack_speed",
+        operation: operation.MULTIPLY_BASE,
+        value: 0.025,
     }
 ];
 
@@ -25,14 +40,24 @@ const tankAttributes: CiaModifier[] = [
         value: -0.05,
     },
     {
+        attribute: "minecraft:generic.attack_damage",
+        operation: operation.MULTIPLY_BASE,
+        value: -0.1,
+    },
+    {
+        attribute: "minecraft:generic.attack_speed",
+        operation: operation.MULTIPLY_BASE,
+        value: -0.1,
+    },
+    {
         attribute: "minecraft:generic.armor",
         operation: operation.MULTIPLY_BASE,
-        value: 0.2,
+        value: 0.1,
     },
     {
         attribute: "minecraft:generic.armor_toughness",
         operation: operation.MULTIPLY_BASE,
-        value: 0.2,
+        value: 0.1,
     }
 ];
 
