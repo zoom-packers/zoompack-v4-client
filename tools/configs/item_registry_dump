@@ -10091,10 +10091,6 @@ fortunas_anvil:epic_catalyst
 fortunas_anvil:legendary_catalyst
 fortunas_anvil:mythic_catalyst
 fortunas_anvil:ascended_catalyst
-trashcans:item_trash_can
-trashcans:liquid_trash_can
-trashcans:energy_trash_can
-trashcans:ultimate_trash_can
 smallships:sail
 smallships:cannon
 smallships:cannon_ball

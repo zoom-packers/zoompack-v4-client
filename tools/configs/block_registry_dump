@@ -6957,10 +6957,6 @@ beachparty:palm_sign
 beachparty:palm_wall_sign
 beachparty:palm_hanging_sign
 beachparty:palm_wall_hanging_sign
-trashcans:item_trash_can
-trashcans:liquid_trash_can
-trashcans:energy_trash_can
-trashcans:ultimate_trash_can
 easy_mob_farm:copper_mob_farm_template
 easy_mob_farm:iron_mob_farm_template
 easy_mob_farm:gold_mob_farm_template
