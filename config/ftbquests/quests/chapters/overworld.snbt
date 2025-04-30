@@ -1101,7 +1101,7 @@
 				id: "0839346ABB8DCC7F"
 				item: {
 					Count: 1
-					id: "simplemagnets:basicmagnet"
+					id: "sophisticatedbackpacks:magnet_upgrade"
 					tag: { }
 				}
 				type: "item"
@@ -1141,12 +1141,12 @@
 				id: "032EA425088DF81E"
 				item: {
 					Count: 1
-					id: "simplemagnets:advancedmagnet"
+					id: "sophisticatedbackpacks:advanced_magnet_upgrade"
 					tag: { }
 				}
 				type: "item"
 			}]
-			title: "Pussy magnet"
+			title: "Turbo magnet"
 			x: -6.0d
 			y: 0.0d
 		}

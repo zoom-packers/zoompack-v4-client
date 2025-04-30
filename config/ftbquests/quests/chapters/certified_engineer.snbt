@@ -344,7 +344,7 @@
 		}
 		{
 			height: 6.0d
-			image: "simplemagnets:advanced_demagnetization_coil"
+			image: "minecraft:block/campfire_fire"
 			order: 1
 			rotation: -90.0d
 			width: 6.0d
@@ -388,7 +388,7 @@
 		}
 		{
 			height: 6.0d
-			image: "simplemagnets:advanced_demagnetization_coil"
+			image: "minecraft:block/campfire_fire"
 			order: 1
 			rotation: -90.0d
 			width: 6.0d
@@ -432,7 +432,7 @@
 		}
 		{
 			height: 6.0d
-			image: "simplemagnets:advanced_demagnetization_coil"
+			image: "minecraft:block/campfire_fire"
 			order: 1
 			rotation: -90.0d
 			width: 6.0d

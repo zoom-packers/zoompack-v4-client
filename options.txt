@@ -120,7 +120,6 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.puffish_skills.open:key.keyboard.k
-key_simplemagnets.keys.toggle:key.keyboard.m:SHIFT
 key_key.modernfix.config:key.keyboard.unknown
 key_key.apotheosis.toggle_radial_mining:key.keyboard.unknown
 key_supplementaries.keybind.quiver:key.keyboard.unknown
