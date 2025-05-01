@@ -7,7 +7,6 @@ EntityEvents.death(event => {
     if (!isEntityAllowed(entity)) return;
     let randomChance = Math.random();
     if (randomChance > DEFAULT_FORTUNAS_DROP_CHANCE) return;
-    let server = event.getServer();
     let dimension = event.getLevel().getDimension().toString();
     let loot = null
     switch (dimension) {
@@ -43,8 +42,7 @@ EntityEvents.death(event => {
             break;
     }
     if (!loot) return;
-    let pos = entity.getPos();
-    global.lootlib_summonItem(server, dimension, pos.x(), pos.y(), pos.z(), loot);
+    global.lootlib_summonItem(loot, entity);
 })
 
 function isEntityHostile(entity){

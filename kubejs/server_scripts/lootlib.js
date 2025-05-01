@@ -280,13 +280,12 @@ function lootlib_getItemDetails(details) {
         default:
             break;
     }
-    return `Item:{id:"${id}",Count:1,tag:{${tag}}}`;
+    return [id,`{${tag}}`];
 }
 
-function lootlib_summonItem(server, dimension, x, y, z, details) {
+function lootlib_summonItem(details, entity) {
     let args = lootlib_getItemDetails(details)
-    let command = `execute in ${dimension} run summon minecraft:item ${x} ${y} ${z} {${args}}`;
-    server.runCommandSilent(command);
+    entity.block.popItem(Item.of(args[0],1,args[1]));
 }
 
 function overworldEliteDrops(rolls) {

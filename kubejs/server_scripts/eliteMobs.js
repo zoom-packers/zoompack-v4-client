@@ -194,9 +194,8 @@ function elite_onDeath(event) {
         if (loot == null) {
             return;
         }
-        let pos = entity.getPos();
         for (let item of loot) {
-            global.lootlib_summonItem(server, dimensionRL, pos.x(), pos.y(), pos.z(), item);
+            global.lootlib_summonItem(item, entity);
         }
     }
 }
