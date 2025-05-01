@@ -4,41 +4,27 @@ let BRONZE_COIN = 'dotcoinmod:bronze_coin';
 let SILVER_COIN = 'dotcoinmod:silver_coin';
 let GOLD_COIN = 'dotcoinmod:gold_coin';
 let EMERALD_COIN = 'dotcoinmod:emerald_coin';
+let DIAMOND_COIN = 'dotcoinmod:diamond_coin';
 
 const FREE_INV_SPACE_REQ = 5;
 const CONVERSION_RATE = 64;
-const TOTAL_WALLET_CAP = 999 + 64 * 999 + 64 * 64 * 999 + 64 * 64 * 64 * 999;
+const TOTAL_WALLET_CAP = 999 + 64 * 999 + 64 * 64 * 999 + 64 * 64 * 64 * 999 + 64 * 64 * 64 * 64 * 999;
 const WALLET_COIN_MAX = 999;
 const COIN_SLOTS = {
     'bronze': 'coinslot9',
     'silver': 'coinslot7',
     'gold': 'coinslot2',
-    'emerald': 'coinslot13'
+    'emerald': 'coinslot13',
+    'diamond': 'coinslot12'
 }
 
-const COIN_SLOTS_SET = {
-    'bronze': 9,
-    'silver': 7,
-    'gold': 2,
-    'emerald': 13
-}
-
-const COIN_SLOTS_RM = {
-    'bronze': BRONZE_COIN,
-    'silver': SILVER_COIN,
-    'gold': GOLD_COIN,
-    'emerald': EMERALD_COIN
-}
-
-let COINS = [BRONZE_COIN, SILVER_COIN, GOLD_COIN, EMERALD_COIN];
+let COINS = [BRONZE_COIN, SILVER_COIN, GOLD_COIN, EMERALD_COIN, DIAMOND_COIN];
 
 let DIMENSION_MULTIPLIERS = {
     'minecraft:overworld': 1
 };
 
 let ALL_BOSSES = ['minecraft:elder_guardian', 'aquamirae:captain_cornelia', 'aquamirae:maze_mother', 'aquamirae:eel', 'bosses_of_mass_destruction:lich', 'bosses_of_mass_destruction:void_blossom', 'blue_skies:alchemist', 'blue_skies:arachnarch', 'blue_skies:arachnarch', 'blue_skies:summoner', 'aether:slider', 'lost_aether_content:aerwhale_king', 'aether:valkyrie', 'aether:sun_spirit', 'minecraft:wither', 'bosses_of_mass_destruction:gauntlet', 'callfromthedepth_:agonysoul', 'call_of_yucutan:kukulkan', 'call_of_yucutan:ah_puch', 'mokels_boss_mantyd:boss_mantyd', 'minecraft:ender_dragon', 'bosses_of_mass_destruction:obsidilith', 'theabyss:abyssaur', 'theabyss:elder', 'theabyss:nightblade_boss', 'theabyss:the_roka', 'theabyss:crystal_golem', 'theabyss:magician'];
-
-let NO_ECONOMY_LOOT = [0, 0, 0, 0]
 
 let LAST_CONVERTED = {};
 
@@ -181,6 +167,7 @@ function getReward(entity, party_len) {
     let silver_amount = 0;
     let gold_amount = 0;
     let emerald_amount = 0;
+    let diamond_amount = 0;
 
     if (bronze_amount > 64) {
         let silver_amount_raw = bronze_amount / 64;
@@ -221,25 +208,55 @@ function getReward(entity, party_len) {
         gold_amount = 0;
     }
 
-    return [bronze_amount, silver_amount, gold_amount, emerald_amount];
+    if (emerald_amount > 64) {
+        let diamond_amount_raw = emerald_amount / 64;
+        diamond_amount = Math.floor(diamond_amount_raw);
+        if (Math.random() < 0.5) {
+            diamond_amount = Math.ceil(diamond_amount_raw);
+        }
+        emerald_amount = emerald_amount % 64;
+    }
+    else if (emerald_amount == 64) {
+        diamond_amount += 1;
+        emerald_amount = 0;
+    }
+
+    return [bronze_amount, silver_amount, gold_amount, emerald_amount, diamond_amount];
 }
 
+function updatePlayerCoin(player, coinType, newAmount, currentBalance, coinItem, server) {
+    if (newAmount <= WALLET_COIN_MAX) {
+        if (newAmount !== currentBalance) {
+            setPlayerCoinCount(player, coinType, newAmount, server);
+        }
+    } else {
+        if (currentBalance !== WALLET_COIN_MAX) {
+            setPlayerCoinCount(player, coinType, WALLET_COIN_MAX, server);
+        }
+        givePlayer(player, coinItem, newAmount - WALLET_COIN_MAX);
+    }
+}
 
 function grantReward(rewards, player, server) {
     let bronze_reward = rewards[0];
     let silver_reward = rewards[1];
     let gold_reward = rewards[2];
     let emerald_reward = rewards[3];
+    let diamond_reward = rewards[4];
 
     let bronze_balance = getPlayerCoinCount(player, 'bronze');
     let silver_balance = getPlayerCoinCount(player, 'silver');
     let gold_balance = getPlayerCoinCount(player, 'gold');
     let emerald_balance = getPlayerCoinCount(player, 'emerald');
+    let diamond_balance = getPlayerCoinCount(player, 'diamond');
 
-    let total_reward = bronze_reward + CONVERSION_RATE * silver_reward + CONVERSION_RATE * CONVERSION_RATE * gold_reward + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * emerald_reward;
-    let total_balance = bronze_balance + CONVERSION_RATE * silver_balance + CONVERSION_RATE * CONVERSION_RATE * gold_balance + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * emerald_balance;
+    let total_reward = bronze_reward + CONVERSION_RATE * silver_reward + CONVERSION_RATE * CONVERSION_RATE * gold_reward + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * emerald_reward + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * diamond_reward;
+    let total_balance = bronze_balance + CONVERSION_RATE * silver_balance + CONVERSION_RATE * CONVERSION_RATE * gold_balance + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * emerald_balance + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * diamond_balance;
 
     let new_total_reward = total_reward + total_balance;
+
+    let new_diamond = Math.floor(new_total_reward / (CONVERSION_RATE ** 4));
+    new_total_reward %= (CONVERSION_RATE ** 4);
 
     let new_emerald = Math.floor(new_total_reward / (CONVERSION_RATE ** 3));
     new_total_reward %= (CONVERSION_RATE ** 3);
@@ -250,38 +267,11 @@ function grantReward(rewards, player, server) {
     let new_silver = Math.floor(new_total_reward / CONVERSION_RATE);
     let new_bronze = new_total_reward % CONVERSION_RATE;
 
-
-    if (new_bronze <= WALLET_COIN_MAX) {
-        setPlayerCoinCount(player, 'bronze', new_bronze, server);
-    }
-    else {
-        setPlayerCoinCount(player, 'bronze', WALLET_COIN_MAX, server);
-        givePlayer(player, BRONZE_COIN, new_bronze - WALLET_COIN_MAX);
-    }
-
-    if (new_silver <= WALLET_COIN_MAX) {
-        setPlayerCoinCount(player, 'silver', new_silver, server);
-    }
-    else {
-        setPlayerCoinCount(player, 'silver', WALLET_COIN_MAX, server);
-        givePlayer(player, SILVER_COIN, new_silver - WALLET_COIN_MAX);
-    }
-
-    if (new_gold <= WALLET_COIN_MAX) {
-        setPlayerCoinCount(player, 'gold', new_gold, server);
-    }
-    else {
-        setPlayerCoinCount(player, 'gold', WALLET_COIN_MAX, server);
-        givePlayer(player, GOLD_COIN, new_gold - WALLET_COIN_MAX);
-    }
-
-    if (new_emerald <= WALLET_COIN_MAX) {
-        setPlayerCoinCount(player, 'emerald', new_emerald, server);
-    }
-    else {
-        setPlayerCoinCount(player, 'emerald', WALLET_COIN_MAX, server);
-        givePlayer(player, EMERALD_COIN, new_emerald - WALLET_COIN_MAX);
-    }
+    updatePlayerCoin(player, 'bronze', new_bronze, bronze_balance, BRONZE_COIN, server);
+    updatePlayerCoin(player, 'silver', new_silver, silver_balance, SILVER_COIN, server);
+    updatePlayerCoin(player, 'gold', new_gold, gold_balance, GOLD_COIN, server);
+    updatePlayerCoin(player, 'emerald', new_emerald, emerald_balance, EMERALD_COIN, server);
+    updatePlayerCoin(player, 'diamond', new_diamond, diamond_balance, DIAMOND_COIN, server);
 }
 
 function sendPlayerTitle(server, player_name, text) {
@@ -301,6 +291,9 @@ function announceReward(server, player_name, rewards, entity_name) {
     }
     if (rewards[3] > 0) {
         rewards_text = rewards_text + `§f§o§l${rewards[3]}§a§l🪙 `;
+    }
+    if (rewards[4] > 0) {
+        rewards_text = rewards_text + `§f§o§l${rewards[4]}§b§l🪙 `;
     }
 
     if (rewards_text.length > 0) {
@@ -359,7 +352,7 @@ ItemEvents.rightClicked(event => {
         LAST_CONVERTED[player_name] = Date.now();
 
         if (crouching) {
-            [[SILVER_COIN, BRONZE_COIN], [GOLD_COIN, SILVER_COIN], [EMERALD_COIN, GOLD_COIN]].forEach(conversiondata => {
+            [[SILVER_COIN, BRONZE_COIN], [GOLD_COIN, SILVER_COIN], [EMERALD_COIN, GOLD_COIN], [DIAMOND_COIN, EMERALD_COIN]].forEach(conversiondata => {
                 let from_coin = conversiondata[0];
                 let to_coin = conversiondata[1];
                 if (mainHandItemID == from_coin) {
@@ -371,7 +364,7 @@ ItemEvents.rightClicked(event => {
             event.cancel();
         }
         else {
-            [[BRONZE_COIN, SILVER_COIN], [SILVER_COIN, GOLD_COIN], [GOLD_COIN, EMERALD_COIN]].forEach(conversiondata => {
+            [[BRONZE_COIN, SILVER_COIN], [SILVER_COIN, GOLD_COIN], [GOLD_COIN, EMERALD_COIN], [EMERALD_COIN, DIAMOND_COIN]].forEach(conversiondata => {
                 let from_coin = conversiondata[0];
                 let to_coin = conversiondata[1];
                 if (mainHandItemID == from_coin) {

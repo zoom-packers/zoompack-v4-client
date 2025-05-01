@@ -14,7 +14,7 @@
     "disableBronzeCoin": false,
     "disableBrassCoin": true,
     "disableOsmiumCoin": true,
-    "disableDiamondCoin": true,
+    "disableDiamondCoin": false,
     "disableEmeraldCoin": false,
     "disableRubyCoin": true,
     "disableSapphireCoin": true,
@@ -23,7 +23,8 @@
       "bronze",
       "silver",
       "gold",
-      "emerald"
+      "emerald",
+      "diamond"
     ]
   },
   "loot": {
