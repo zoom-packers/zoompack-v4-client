@@ -6,8 +6,8 @@ let GOLD_COIN = 'dotcoinmod:gold_coin';
 let EMERALD_COIN = 'dotcoinmod:emerald_coin';
 
 const FREE_INV_SPACE_REQ = 5;
-const CONVERSION_RATE = CONVERSION_RATE;
-const TOTAL_WALLET_CAP = 999 + CONVERSION_RATE * 999 + CONVERSION_RATE * CONVERSION_RATE * 999 + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * 999;
+const CONVERSION_RATE = 64;
+const TOTAL_WALLET_CAP = 999 + 64 * 999 + 64 * 64 * 999 + 64 * 64 * 64 * 999;
 const WALLET_COIN_MAX = 999;
 const COIN_SLOTS = {
     'bronze': 'coinslot9',
@@ -182,47 +182,48 @@ function getReward(entity, party_len) {
     let gold_amount = 0;
     let emerald_amount = 0;
 
-    if (bronze_amount > CONVERSION_RATE) {
-        let silver_amount_raw = bronze_amount / CONVERSION_RATE;
+    if (bronze_amount > 64) {
+        let silver_amount_raw = bronze_amount / 64;
         silver_amount = Math.floor(silver_amount_raw);
         if (Math.random() < 0.5) {
             silver_amount = Math.ceil(silver_amount_raw);
         }
-        bronze_amount = bronze_amount % CONVERSION_RATE;
+        bronze_amount = bronze_amount % 64;
     }
-    else if (bronze_amount == CONVERSION_RATE) {
+    else if (bronze_amount == 64) {
         silver_amount += 1;
         bronze_amount = 0;
     }
 
-    if (silver_amount > CONVERSION_RATE) {
-        let gold_amount_raw = silver_amount / CONVERSION_RATE;
+    if (silver_amount > 64) {
+        let gold_amount_raw = silver_amount / 64;
         gold_amount = Math.floor(gold_amount_raw);
         if (Math.random() < 0.5) {
             gold_amount = Math.ceil(gold_amount_raw);
         }
-        silver_amount = silver_amount % CONVERSION_RATE;
+        silver_amount = silver_amount % 64;
     }
-    else if (silver_amount == CONVERSION_RATE) {
+    else if (silver_amount == 64) {
         gold_amount += 1;
         silver_amount = 0;
     }
 
-    if (gold_amount > CONVERSION_RATE) {
-        let emerald_amount_raw = gold_amount / CONVERSION_RATE;
+    if (gold_amount > 64) {
+        let emerald_amount_raw = gold_amount / 64;
         emerald_amount = Math.floor(emerald_amount_raw);
         if (Math.random() < 0.5) {
             emerald_amount = Math.ceil(emerald_amount_raw);
         }
-        gold_amount = gold_amount % CONVERSION_RATE;
+        gold_amount = gold_amount % 64;
     }
-    else if (gold_amount == CONVERSION_RATE) {
+    else if (gold_amount == 64) {
         emerald_amount += 1;
         gold_amount = 0;
     }
 
     return [bronze_amount, silver_amount, gold_amount, emerald_amount];
 }
+
 
 function grantReward(rewards, player, server) {
     let bronze_reward = rewards[0];
@@ -235,10 +236,10 @@ function grantReward(rewards, player, server) {
     let gold_balance = getPlayerCoinCount(player, 'gold');
     let emerald_balance = getPlayerCoinCount(player, 'emerald');
 
-    let total_reward  = bronze_reward+CONVERSION_RATE*silver_reward+CONVERSION_RATE*CONVERSION_RATE*gold_reward +CONVERSION_RATE*CONVERSION_RATE*CONVERSION_RATE*emerald_reward;
-    let total_balance = bronze_balance+CONVERSION_RATE*silver_balance+CONVERSION_RATE*CONVERSION_RATE*gold_balance +CONVERSION_RATE*CONVERSION_RATE*CONVERSION_RATE*emerald_balance;
+    let total_reward = bronze_reward + CONVERSION_RATE * silver_reward + CONVERSION_RATE * CONVERSION_RATE * gold_reward + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * emerald_reward;
+    let total_balance = bronze_balance + CONVERSION_RATE * silver_balance + CONVERSION_RATE * CONVERSION_RATE * gold_balance + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * emerald_balance;
 
-    let new_total_reward = total_reward+total_balance;
+    let new_total_reward = total_reward + total_balance;
 
     let new_emerald = Math.floor(new_total_reward / (CONVERSION_RATE ** 3));
     new_total_reward %= (CONVERSION_RATE ** 3);
@@ -249,91 +250,37 @@ function grantReward(rewards, player, server) {
     let new_silver = Math.floor(new_total_reward / CONVERSION_RATE);
     let new_bronze = new_total_reward % CONVERSION_RATE;
 
-    // Convert remainers
-    let total_remainer  = getPlayerCoinRemainer(player, 'bronze')+CONVERSION_RATE*getPlayerCoinRemainer(player, 'silver')+CONVERSION_RATE*CONVERSION_RATE*getPlayerCoinRemainer(player, 'gold') +CONVERSION_RATE*CONVERSION_RATE*CONVERSION_RATE*getPlayerCoinRemainer(player, 'emerald');
-    let new_emerald_remainer = Math.floor(total_remainer / (CONVERSION_RATE ** 3));
-    total_remainer %= (CONVERSION_RATE ** 3);
 
-    let new_gold_remainer = Math.floor(total_remainer / (CONVERSION_RATE ** 2));
-    total_remainer %= (CONVERSION_RATE ** 2);
-
-    let new_silver_remainer = Math.floor(total_remainer / CONVERSION_RATE);
-    let new_bronze_remainer = total_remainer % CONVERSION_RATE;
-    setPlayerCoinRemainer(player, 'bronze', new_bronze_remainer);
-    setPlayerCoinRemainer(player, 'silver', new_silver_remainer);
-    setPlayerCoinRemainer(player, 'gold', new_gold_remainer);
-    setPlayerCoinRemainer(player, 'emerald', new_emerald_remainer);
-
-    if(new_bronze<=WALLET_COIN_MAX){
-        let bronze_remainer = getPlayerCoinRemainer(player, 'bronze');
-        if(bronze_remainer+new_bronze<=WALLET_COIN_MAX){
-            setPlayerCoinCount(player, 'bronze', new_bronze+bronze_remainer, server);
-        }
-        else{
-            setPlayerCoinCount(player, 'bronze', new_bronze, server);
-        }
-        
+    if (new_bronze <= WALLET_COIN_MAX) {
+        setPlayerCoinCount(player, 'bronze', new_bronze, server);
     }
-    else{
-        let remainer_to_add_bronze = new_bronze-WALLET_COIN_MAX;
-        addPlayerCoinRemainer(player, 'bronze', remainer_to_add_bronze);
-        if(bronze_balance!=WALLET_COIN_MAX){
-            setPlayerCoinCount(player, 'bronze', WALLET_COIN_MAX, server);
-        }
+    else {
+        setPlayerCoinCount(player, 'bronze', WALLET_COIN_MAX, server);
+        givePlayer(player, BRONZE_COIN, new_bronze - WALLET_COIN_MAX);
     }
 
-    if(new_silver<=WALLET_COIN_MAX){
-        let silver_remainer = getPlayerCoinRemainer(player, 'silver');
-        if(silver_remainer+new_silver<=WALLET_COIN_MAX){
-            setPlayerCoinCount(player, 'silver', new_silver+silver_remainer, server);
-        }
-        else{
-            setPlayerCoinCount(player, 'silver', new_silver, server);
-        }
-        
+    if (new_silver <= WALLET_COIN_MAX) {
+        setPlayerCoinCount(player, 'silver', new_silver, server);
     }
-    else{
-        let remainer_to_add_silver = new_silver-WALLET_COIN_MAX;
-        addPlayerCoinRemainer(player, 'silver', remainer_to_add_silver);
-        if(silver_balance!=WALLET_COIN_MAX){
-            setPlayerCoinCount(player, 'silver', WALLET_COIN_MAX, server);
-        }
+    else {
+        setPlayerCoinCount(player, 'silver', WALLET_COIN_MAX, server);
+        givePlayer(player, SILVER_COIN, new_silver - WALLET_COIN_MAX);
     }
 
-    if(new_gold<=WALLET_COIN_MAX){
-        let gold_remainer = getPlayerCoinRemainer(player, 'gold');
-        if(gold_remainer+new_gold<=WALLET_COIN_MAX){
-            setPlayerCoinCount(player, 'gold', new_gold+gold_remainer, server);
-        }
-        else{
-            setPlayerCoinCount(player, 'gold', new_gold, server);
-        }
-        
+    if (new_gold <= WALLET_COIN_MAX) {
+        setPlayerCoinCount(player, 'gold', new_gold, server);
     }
-    else{
-        let remainer_to_add_gold = new_gold-WALLET_COIN_MAX;
-        addPlayerCoinRemainer(player, 'gold', remainer_to_add_gold);
-        if(gold_balance!=WALLET_COIN_MAX){
-            setPlayerCoinCount(player, 'gold', WALLET_COIN_MAX, server);
-        }
+    else {
+        setPlayerCoinCount(player, 'gold', WALLET_COIN_MAX, server);
+        givePlayer(player, GOLD_COIN, new_gold - WALLET_COIN_MAX);
     }
 
-    if(new_emerald<=WALLET_COIN_MAX){
-        let emerald_remainer = getPlayerCoinRemainer(player, 'emerald');
-        if(emerald_remainer+new_emerald<=WALLET_COIN_MAX){
-            setPlayerCoinCount(player, 'emerald', new_emerald+emerald_remainer, server);
-        }
-        else{
-            setPlayerCoinCount(player, 'emerald', new_emerald, server);
-        }
-        
+    if (new_emerald <= WALLET_COIN_MAX) {
+        setPlayerCoinCount(player, 'emerald', new_emerald, server);
     }
-    else{
-        let remainer_to_add_emerald = new_emerald-WALLET_COIN_MAX;
-        addPlayerCoinRemainer(player, 'emerald', remainer_to_add_emerald);
-        if(emerald_balance!=WALLET_COIN_MAX){
-            setPlayerCoinCount(player, 'emerald', WALLET_COIN_MAX, server);
-        }
+    else {
+        setPlayerCoinCount(player, 'emerald', WALLET_COIN_MAX, server);
+        givePlayer(player, EMERALD_COIN, new_emerald - WALLET_COIN_MAX);
     }
 }
 
@@ -417,7 +364,7 @@ ItemEvents.rightClicked(event => {
                 let to_coin = conversiondata[1];
                 if (mainHandItemID == from_coin) {
                     clearPlayer(player_name, from_coin, 1, server);
-                    givePlayer(player, to_coin, CONVERSION_RATE);
+                    givePlayer(player, to_coin, 64);
                 }
 
             });
@@ -429,8 +376,8 @@ ItemEvents.rightClicked(event => {
                 let to_coin = conversiondata[1];
                 if (mainHandItemID == from_coin) {
 
-                    if (mainHandItemCount == CONVERSION_RATE) {
-                        clearPlayer(player_name, from_coin, CONVERSION_RATE, server);
+                    if (mainHandItemCount == 64) {
+                        clearPlayer(player_name, from_coin, 64, server);
                         givePlayer(player, to_coin, 1);
                         event.cancel();
                     }
