@@ -130,7 +130,7 @@ new_default_trade('banker', ('dotcoinmod:silver_coin', 2), ('minecraft:diamond',
 new_default_trade('banker', ('dotcoinmod:silver_coin', 2), ('aether:victory_medal', 1), 1, 1)
 
 new_default_trade('banker', ('minecraft:heart_of_the_sea', 1), ('dotcoinmod:bronze_coin', 20), 1, 1)
-new_default_trade('banker', ('apotheosis:gem', 1), ('dotcoinmod:bronze_coin', 20), 1, 1)
+new_default_trade('banker', ('apotheosis:gem', 1), ('dotcoinmod:bronze_coin', 56), 1, 1)
 
 #Dimensional Lootbags 
 new_default_trade('banker', ('dotcoinmod:silver_coin', 32), ('blue_skies:loot_bag_summoner', 1), 1, 1, 
@@ -138,32 +138,32 @@ new_default_trade('banker', ('dotcoinmod:silver_coin', 32), ('blue_skies:loot_ba
                   item_title = "Overworld Lootbag", item_lore="Right-Click to open the lootbag", rarity=0, 
                   item_title_color="white", item_lore_color="purple")
 
-new_default_trade('banker', ('dotcoinmod:gold_coin', 2), ('blue_skies:loot_bag_summoner', 1), 1, 1, 
+new_default_trade('banker', ('dotcoinmod:gold_coin', 1), ('blue_skies:loot_bag_summoner', 1), 1, 1, 
                   loot_table="zoompack_economy:dimensional_lootbags/blueskies_lootbag", 
                   item_title = "Blue Skies Lootbag", item_lore="Right-Click to open the lootbag", rarity=0, 
                   item_title_color="blue", item_lore_color="purple")
 
-new_default_trade('banker', ('dotcoinmod:gold_coin', 4), ('blue_skies:loot_bag_alchemist', 1), 2, 2, 
+new_default_trade('banker', ('dotcoinmod:gold_coin', 2), ('blue_skies:loot_bag_alchemist', 1), 2, 2, 
                   loot_table="zoompack_economy:dimensional_lootbags/aether_lootbag", 
                   item_title = "Aether Lootbag", item_lore="Right-Click to open the lootbag", rarity=1, 
                   item_title_color="gold", item_lore_color="purple")
 
-new_default_trade('banker', ('dotcoinmod:gold_coin', 8), ('blue_skies:loot_bag_alchemist', 1), 3, 3, 
+new_default_trade('banker', ('dotcoinmod:gold_coin', 4), ('blue_skies:loot_bag_alchemist', 1), 3, 3, 
                   loot_table="zoompack_economy:dimensional_lootbags/nether_lootbag", 
                   item_title = "Nether Lootbag", item_lore="Right-Click to open the lootbag", rarity=1, 
                   item_title_color="red", item_lore_color="purple")
 
-new_default_trade('banker', ('dotcoinmod:gold_coin', 16), ('blue_skies:loot_bag_starlit_crusher', 1), 4, 4, 
+new_default_trade('banker', ('dotcoinmod:gold_coin', 8), ('blue_skies:loot_bag_starlit_crusher', 1), 4, 4, 
                   loot_table="zoompack_economy:dimensional_lootbags/undergarden_lootbag", 
                   item_title = "Undergarden Lootbag", item_lore="Right-Click to open the lootbag", rarity=1, 
                   item_title_color="green", item_lore_color="purple")
 
-new_default_trade('banker', ('dotcoinmod:gold_coin', 32), ('blue_skies:loot_bag_starlit_crusher', 1), 4, 4, 
+new_default_trade('banker', ('dotcoinmod:gold_coin', 16), ('blue_skies:loot_bag_starlit_crusher', 1), 4, 4, 
                   loot_table="zoompack_economy:dimensional_lootbags/end_lootbag", 
                   item_title = "End Lootbag", item_lore="Right-Click to open the lootbag", rarity=2, 
                   item_title_color="purple", item_lore_color="purple")
 
-new_default_trade('banker', ('dotcoinmod:gold_coin', 64), ('blue_skies:loot_bag_arachnarch', 1), 5, 5, 
+new_default_trade('banker', ('dotcoinmod:gold_coin', 32), ('blue_skies:loot_bag_arachnarch', 1), 5, 5, 
                   loot_table="zoompack_economy:dimensional_lootbags/abyss_lootbag", 
                   item_title = "Abyss Lootbag", item_lore="Right-Click to open the lootbag", rarity=2, 
                   item_title_color="aqua", item_lore_color="purple")
@@ -280,7 +280,7 @@ new_default_trade('animalist', ('dotcoinmod:gold_coin', 8), ('blue_skies:loot_ba
 new_default_trade('animalist', ('dotcoinmod:gold_coin', 16), ('blue_skies:loot_bag_alchemist', 1), 3, 3, loot_table="zoompack_economy:mounts/tier_6", item_title = "Hardened Random Mount", item_lore="Right-Click to open the lootbag and get a tier 6 mount", rarity=1, item_title_color="red", item_lore_color="purple")
 new_default_trade('animalist', ('dotcoinmod:gold_coin', 32), ('blue_skies:loot_bag_starlit_crusher', 1), 4, 4, loot_table="zoompack_economy:mounts/tier_7", item_title = "Sturdy Random Mount", item_lore="Right-Click to open the lootbag and get a tier 7 mount", rarity=1, item_title_color="light_purple", item_lore_color="purple")
 new_default_trade('animalist', ('dotcoinmod:gold_coin', 64), ('blue_skies:loot_bag_starlit_crusher', 1), 4, 4, loot_table="zoompack_economy:mounts/tier_8", item_title = "Swift Random Mount", item_lore="Right-Click to open the lootbag and get a tier 8 mount", rarity=1, item_title_color="green", item_lore_color="purple")
-new_default_trade('animalist', ('dotcoinmod:gold_coin', 64), ('blue_skies:loot_bag_arachnarch', 1), 5, 5, additional_request=('dotcoinmod:gold_coin', 64), loot_table="zoompack_economy:mounts/tier_9", item_title = "Majestic Random Mount", item_lore="Right-Click to open the lootbag and get a tier 9 mount", rarity=2, item_title_color="dark_purple", item_lore_color="purple")
+new_default_trade('animalist', ('dotcoinmod:emerald_coin', 2), ('blue_skies:loot_bag_arachnarch', 1), 5, 5, loot_table="zoompack_economy:mounts/tier_9", item_title = "Majestic Random Mount", item_lore="Right-Click to open the lootbag and get a tier 9 mount", rarity=2, item_title_color="dark_purple", item_lore_color="purple")
 
 save_villager_config('animalist')
 
@@ -337,8 +337,8 @@ for skill in skills:
 save_villager_config('ticketmaster')
 
 new_default_trade('botezatu', ('dotcoinmod:silver_coin', 20), ('blue_skies:loot_bag_summoner', 1), 1, 1, loot_table="zoompack_economy:botezatu/cosmetics_common", item_title = "Common Cosmetic Loot Bag", item_lore="Right-Click to open the lootbag", rarity=0, item_title_color="dark_green", item_lore_color="purple")
-new_default_trade('botezatu', ('dotcoinmod:gold_coin', 5), ('blue_skies:loot_bag_alchemist', 1), 2, 2, loot_table="zoompack_economy:botezatu/cosmetics_uncommon", item_title = "Uncommon Cosmetic Loot Bag", item_lore="Right-Click to open the lootbag", rarity=0, item_title_color="blue", item_lore_color="purple")
-new_default_trade('botezatu', ('dotcoinmod:gold_coin', 60), ('blue_skies:loot_bag_starlit_crusher', 1), 3, 3, loot_table="zoompack_economy:botezatu/cosmetics_rare", item_title = "Rare Cosmetic Loot Bag", item_lore="Right-Click to open the lootbag", rarity=1, item_title_color="light_purple", item_lore_color="purple")
-new_default_trade('botezatu', ('dotcoinmod:emerald_coin', 4), ('blue_skies:loot_bag_arachnarch', 1), 4, 4, loot_table="zoompack_economy:botezatu/cosmetics_legendary", item_title = "Legendary Cosmetic Loot Bag", item_lore="Right-Click to open the lootbag", rarity=2, item_title_color="yellow", item_lore_color="purple")
+new_default_trade('botezatu', ('dotcoinmod:gold_coin', 3), ('blue_skies:loot_bag_alchemist', 1), 2, 2, loot_table="zoompack_economy:botezatu/cosmetics_uncommon", item_title = "Uncommon Cosmetic Loot Bag", item_lore="Right-Click to open the lootbag", rarity=0, item_title_color="blue", item_lore_color="purple")
+new_default_trade('botezatu', ('dotcoinmod:gold_coin', 30), ('blue_skies:loot_bag_starlit_crusher', 1), 3, 3, loot_table="zoompack_economy:botezatu/cosmetics_rare", item_title = "Rare Cosmetic Loot Bag", item_lore="Right-Click to open the lootbag", rarity=1, item_title_color="light_purple", item_lore_color="purple")
+new_default_trade('botezatu', ('dotcoinmod:emerald_coin', 2), ('blue_skies:loot_bag_arachnarch', 1), 4, 4, loot_table="zoompack_economy:botezatu/cosmetics_legendary", item_title = "Legendary Cosmetic Loot Bag", item_lore="Right-Click to open the lootbag", rarity=2, item_title_color="yellow", item_lore_color="purple")
 
 save_villager_config('botezatu')

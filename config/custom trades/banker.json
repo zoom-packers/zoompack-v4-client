@@ -219,7 +219,7 @@
     {
       "offer": {
         "itemKey": "dotcoinmod:bronze_coin",
-        "amount": 20
+        "amount": 56
       },
       "request": {
         "itemKey": "apotheosis:gem",
@@ -257,7 +257,7 @@
       },
       "request": {
         "itemKey": "dotcoinmod:gold_coin",
-        "amount": 2
+        "amount": 1
       },
       "tradeExp": 1,
       "maxUses": 9999999,
@@ -274,7 +274,7 @@
       },
       "request": {
         "itemKey": "dotcoinmod:gold_coin",
-        "amount": 4
+        "amount": 2
       },
       "tradeExp": 2,
       "maxUses": 9999999,
@@ -291,7 +291,7 @@
       },
       "request": {
         "itemKey": "dotcoinmod:gold_coin",
-        "amount": 8
+        "amount": 4
       },
       "tradeExp": 3,
       "maxUses": 9999999,
@@ -308,7 +308,7 @@
       },
       "request": {
         "itemKey": "dotcoinmod:gold_coin",
-        "amount": 16
+        "amount": 8
       },
       "tradeExp": 4,
       "maxUses": 9999999,
@@ -325,7 +325,7 @@
       },
       "request": {
         "itemKey": "dotcoinmod:gold_coin",
-        "amount": 32
+        "amount": 16
       },
       "tradeExp": 4,
       "maxUses": 9999999,
@@ -342,7 +342,7 @@
       },
       "request": {
         "itemKey": "dotcoinmod:gold_coin",
-        "amount": 64
+        "amount": 32
       },
       "tradeExp": 5,
       "maxUses": 9999999,

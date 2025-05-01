@@ -146,19 +146,15 @@
         "advancedNBTData": "{LootTable:\"zoompack_economy:mounts/tier_9\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag and get a tier 9 mount\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Majestic Random Mount\",\"italic\":false,\"color\":\"dark_purple\"}]\u0027},Rarity:2}"
       },
       "request": {
-        "itemKey": "dotcoinmod:gold_coin",
-        "amount": 64
-      },
-      "additionalRequest": {
-        "itemKey": "dotcoinmod:gold_coin",
-        "amount": 64
+        "itemKey": "dotcoinmod:emerald_coin",
+        "amount": 2
       },
       "tradeExp": 5,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 5,
-      "UTID": "spacecatcustomprofessions:animalist_loot_bag_arachnarch_for_gold_coin_and_gold_coin"
+      "UTID": "spacecatcustomprofessions:animalist_loot_bag_arachnarch_for_emerald_coin"
     }
   ]
 }

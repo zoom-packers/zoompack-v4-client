@@ -28,7 +28,7 @@
       },
       "request": {
         "itemKey": "dotcoinmod:gold_coin",
-        "amount": 5
+        "amount": 3
       },
       "tradeExp": 2,
       "maxUses": 9999999,
@@ -45,7 +45,7 @@
       },
       "request": {
         "itemKey": "dotcoinmod:gold_coin",
-        "amount": 60
+        "amount": 30
       },
       "tradeExp": 3,
       "maxUses": 9999999,
@@ -62,7 +62,7 @@
       },
       "request": {
         "itemKey": "dotcoinmod:emerald_coin",
-        "amount": 4
+        "amount": 2
       },
       "tradeExp": 4,
       "maxUses": 9999999,

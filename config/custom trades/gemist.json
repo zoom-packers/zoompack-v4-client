@@ -109,7 +109,7 @@
       "offer": {
         "itemKey": "blue_skies:loot_bag_alchemist",
         "amount": 1,
-        "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_6\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Smecher Gem Lootbag\",\"italic\":false,\"color\":\"blue\"}]\u0027},Rarity:1}"
+        "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_6\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Radiant Gem Lootbag\",\"italic\":false,\"color\":\"blue\"}]\u0027},Rarity:1}"
       },
       "request": {
         "itemKey": "dotcoinmod:gold_coin",
@@ -126,7 +126,7 @@
       "offer": {
         "itemKey": "blue_skies:loot_bag_starlit_crusher",
         "amount": 1,
-        "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_7\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Pizdos Gem Lootbag\",\"italic\":false,\"color\":\"red\"}]\u0027},Rarity:1}"
+        "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_7\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Celestial Gem Lootbag\",\"italic\":false,\"color\":\"red\"}]\u0027},Rarity:1}"
       },
       "request": {
         "itemKey": "dotcoinmod:gold_coin",
@@ -143,7 +143,7 @@
       "offer": {
         "itemKey": "blue_skies:loot_bag_starlit_crusher",
         "amount": 1,
-        "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_8\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Barosan Gem Lootbag\",\"italic\":false,\"color\":\"aqua\"}]\u0027},Rarity:1}"
+        "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_8\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Angelic Gem Lootbag\",\"italic\":false,\"color\":\"aqua\"}]\u0027},Rarity:1}"
       },
       "request": {
         "itemKey": "dotcoinmod:gold_coin",
@@ -160,7 +160,7 @@
       "offer": {
         "itemKey": "blue_skies:loot_bag_arachnarch",
         "amount": 1,
-        "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_9\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Obscen Gem Lootbag\",\"italic\":false,\"color\":\"yellow\"}]\u0027},Rarity:2}"
+        "advancedNBTData": "{LootTable:\"zoompack_economy:gems/tier_9\",display:{Lore:[\u0027[\"\",{\"text\":\"Right-Click to open the lootbag\",\"italic\":false,\"color\":\"purple\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Godly Gem Lootbag\",\"italic\":false,\"color\":\"yellow\"}]\u0027},Rarity:2}"
       },
       "request": {
         "itemKey": "dotcoinmod:gold_coin",
