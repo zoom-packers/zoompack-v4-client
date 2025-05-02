@@ -734,6 +734,19 @@
         "endlessbiomes:projectile_penumbral_disk",
         "endlessbiomes:resistive_sentinel",
         "lost_aether_content:aerwhale_king",
-        "battletowers:battle_tower_golem"
+        "battletowers:battle_tower_golem",
+        "illageandspillage:igniter",
+        "illageandspillage:twittollager",
+        "illageandspillage:preserver",
+        "illageandspillage:engineer",
+        "illageandspillage:absorber",
+        "illageandspillage:crocofang",
+        "illageandspillage:spiritcaller",
+        "illageandspillage:freakager",
+        "illageandspillage:ragno",
+        "illageandspillage:funnybone",
+        "illageandspillage:eyesore",
+        "illageandspillage:magispeller",
+        "illageandspillage:illashooter"
     ]
 }
