@@ -13,8 +13,6 @@
 	maxUpgrades = 3
 	#From 0-1, the percent of max mana a player respawns with. Default: 0.0
 	manaSpawnPercent = 0.0
-	#If true the world will attempt to be upgraded from an older version of ISS
-	runWorldUpgrader = true
 	#From 0-1, the percent chance for scrolls to be successfully recycled. Default: 0.5 (50%)
 	scrollRecycleChance = 0.7
 	#Whether or not potions should be allowed to be brewed in the alchemist cauldron)
@@ -38,6 +36,8 @@
 	upgradeWhitelist = []
 	#Upgrade Blacklist. Use an item's id to prevent it from being upgraded, ex: "minecraft:iron_sword"
 	upgradeBlacklist = []
+	#Whether merging scrolls with ink to upgrade them in the Arcane Anvil is enabled.
+	scrollMerging = true
 
 ["Imbue Overrides"]
 	#Use these lists to change what items can interact with the Arcane Anvil's imbue system.
@@ -54,7 +54,6 @@
 #Individual Spell Configuration
 [Spells]
 
-	#irons_spellbooks:fire
 	[Spells."irons_spellbooks:fireball"]
 		Enabled = true
 		School = "irons_spellbooks:fire"
@@ -88,6 +87,7 @@
 		CooldownInSeconds = 225.0
 		AllowCrafting = true
 
+	#irons_spellbooks:fire
 	[Spells."irons_spellbooks:fire_breath"]
 		Enabled = true
 		School = "irons_spellbooks:fire"
@@ -372,7 +372,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.5
-		SpellPowerMultiplier = 0.0003
+		SpellPowerMultiplier = 3.0E-4
 		CooldownInSeconds = 160.0
 		AllowCrafting = true
 
@@ -398,7 +398,6 @@
 		CooldownInSeconds = 60.0
 		AllowCrafting = true
 
-	#irons_spellbooks:evocation
 	[Spells."irons_spellbooks:arrow_volley"]
 		Enabled = true
 		School = "irons_spellbooks:evocation"
@@ -443,6 +442,7 @@
 		CooldownInSeconds = 82.0
 		AllowCrafting = true
 
+	#irons_spellbooks:evocation
 	[Spells."irons_spellbooks:gust"]
 		Enabled = true
 		School = "irons_spellbooks:evocation"
@@ -527,7 +527,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 12.5
-		SpellPowerMultiplier = 0.0002
+		SpellPowerMultiplier = 2.0E-4
 		CooldownInSeconds = 62.0
 		AllowCrafting = false
 
@@ -553,8 +553,6 @@
 		CooldownInSeconds = 80.0
 		AllowCrafting = true
 
-	#irons_spellbooks:ender
-# Too many methods to mixin
 	[Spells."irons_spellbooks:portal"]
 		Enabled = false
 		School = "irons_spellbooks:ender"
@@ -562,15 +560,14 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 2.5
-		SpellPowerMultiplier = 0.0005
+		SpellPowerMultiplier = 5.0E-4
 		CooldownInSeconds = 630.0
 		AllowCrafting = false
 
-# Too broken
 	[Spells."irons_spellbooks:black_hole"]
 		Enabled = false
 		School = "irons_spellbooks:ender"
-		MaxLevel = 20
+		MaxLevel = 1
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 2.5
@@ -578,6 +575,7 @@
 		CooldownInSeconds = 2400.0
 		AllowCrafting = false
 
+	#irons_spellbooks:ender
 	[Spells."irons_spellbooks:evasion"]
 		Enabled = true
 		School = "irons_spellbooks:ender"
@@ -688,7 +686,6 @@
 		CooldownInSeconds = 80.0
 		AllowCrafting = true
 
-	#irons_spellbooks:eldritch
 	[Spells."irons_spellbooks:sculk_tentacles"]
 		Enabled = true
 		School = "irons_spellbooks:eldritch"
@@ -700,6 +697,7 @@
 		CooldownInSeconds = 360.0
 		AllowCrafting = false
 
+	#irons_spellbooks:eldritch
 	[Spells."irons_spellbooks:telekinesis"]
 		Enabled = true
 		School = "irons_spellbooks:eldritch"
@@ -955,7 +953,6 @@
 		CooldownInSeconds = 60.0
 		AllowCrafting = true
 
-# with summon
 	[Spells."irons_spellbooks:sacrifice"]
 		Enabled = true
 		School = "irons_spellbooks:blood"
@@ -1000,8 +997,6 @@
 		CooldownInSeconds = 40.0
 		AllowCrafting = true
 
-	#irons_spellbooks:lightning
-    # unde esti wai?
 	[Spells."irons_spellbooks:thunder_step"]
 		Enabled = true
 		School = "irons_spellbooks:lightning"
@@ -1024,6 +1019,7 @@
 		CooldownInSeconds = 600.0
 		AllowCrafting = false
 
+	#irons_spellbooks:lightning
 	[Spells."irons_spellbooks:ascension"]
 		Enabled = true
 		School = "irons_spellbooks:lightning"
@@ -1122,3 +1118,114 @@
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 60.0
 		AllowCrafting = true
+
+	[Spells."ias_spellbooks:blazing_imprint"]
+		Enabled = false
+		School = "irons_spellbooks:eldritch"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 2.5
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 120.0
+		AllowCrafting = false
+
+	[Spells."ias_spellbooks:dragline"]
+		Enabled = true
+		School = "irons_spellbooks:eldritch"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 10.4
+		SpellPowerMultiplier = 0.5
+		CooldownInSeconds = 84.0
+		AllowCrafting = true
+
+	[Spells."ias_spellbooks:pumpkin_spice"]
+		Enabled = true
+		School = "irons_spellbooks:eldritch"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 10.4
+		SpellPowerMultiplier = 0.5
+		CooldownInSeconds = 120.0
+		AllowCrafting = false
+
+	[Spells."ias_spellbooks:ethereal_grasp"]
+		Enabled = true
+		School = "irons_spellbooks:evocation"
+		MaxLevel = 2
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 300.0
+		AllowCrafting = true
+
+	[Spells."ias_spellbooks:restorative_rain"]
+		Enabled = true
+		School = "irons_spellbooks:eldritch"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 240.0
+		AllowCrafting = false
+
+	[Spells."ias_spellbooks:silken_breath"]
+		Enabled = true
+		School = "irons_spellbooks:evocation"
+		MaxLevel = 20
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 2.5
+		SpellPowerMultiplier = 0.6
+		CooldownInSeconds = 60.0
+		AllowCrafting = true
+
+	[Spells."ias_spellbooks:hellish_horde"]
+		Enabled = true
+		School = "irons_spellbooks:evocation"
+		MaxLevel = 2
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 300.0
+		AllowCrafting = true
+
+	[Spells."ias_spellbooks:ice_cream_sandwich"]
+		Enabled = true
+		School = "irons_spellbooks:ice"
+		MaxLevel = 2
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 300.0
+		AllowCrafting = true
+
+	[Spells."ias_spellbooks:venomous_reborn"]
+		Enabled = true
+		School = "irons_spellbooks:eldritch"
+		MaxLevel = 20
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 0.1
+		SpellPowerMultiplier = 0.1
+		CooldownInSeconds = 300.0
+		AllowCrafting = false
+
+	[Spells."ias_spellbooks:spirits_chosen"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 300.0
+		AllowCrafting = true
+
