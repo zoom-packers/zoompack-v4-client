@@ -56,7 +56,7 @@
 #Settings for Potions HUD
 [potionshud]
 	#Is Potions HUD enabled
-	Potions = true
+	Potions = false
 	#Potion HUD alpha
 	#Range: 0 ~ 100
 	potAlpha = 100
