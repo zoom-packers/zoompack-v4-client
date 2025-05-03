@@ -1229,3 +1229,91 @@
 		CooldownInSeconds = 300.0
 		AllowCrafting = true
 
+	[Spells."irons_spellbooks:perforation"]
+		Enabled = true
+		School = "irons_spellbooks:ender"
+		MaxLevel = 20
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 0.8
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 400.0
+		AllowCrafting = true
+
+	[Spells."irons_spellbooks:bloodfed"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 20
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 30.0
+		AllowCrafting = true
+
+	[Spells."irons_spellbooks:stun"]
+		Enabled = true
+		School = "irons_spellbooks:evocation"
+		MaxLevel = 20
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 400.0
+		AllowCrafting = true
+
+	[Spells."irons_spellbooks:fire_power"]
+		Enabled = true
+		School = "irons_spellbooks:fire"
+		MaxLevel = 20
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 400.0
+		AllowCrafting = true
+
+	[Spells."irons_spellbooks:ghost"]
+		Enabled = true
+		School = "irons_spellbooks:holy"
+		MaxLevel = 20
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 360.0
+		AllowCrafting = true
+
+	[Spells."irons_spellbooks:ice_power"]
+		Enabled = true
+		School = "irons_spellbooks:ice"
+		MaxLevel = 20
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 400.0
+		AllowCrafting = true
+
+	[Spells."irons_spellbooks:water_breathing"]
+		Enabled = true
+		School = "irons_spellbooks:nature"
+		MaxLevel = 20
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 400.0
+		AllowCrafting = true
+
+	[Spells."irons_spellbooks:inebriation"]
+		Enabled = true
+		School = "irons_spellbooks:nature"
+		MaxLevel = 20
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 400.0
+		AllowCrafting = true
+
