@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
         items.forEach(i => {
             if (!!skip && skip.includes(i)) return;
             event.remove({ output: `${modId}:${material}_${i}` });
-            console.log(`smithing recipe: `, `1x ${modId}:${material}_${i}`, smithingTemplate, `${modId}:${oldMaterial}_${i}`, materialItem);
+            // console.log(`smithing recipe: `, `1x ${modId}:${material}_${i}`, smithingTemplate, `${modId}:${oldMaterial}_${i}`, materialItem);
             event.smithing(`1x ${modId}:${material}_${i}`, smithingTemplate, `${modId}:${oldMaterial}_${i}`, materialItem);
         })
     }
@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
         armors.forEach(i => {
             if (!!skip && skip.includes(i)) return;
             event.remove({ output: `${modId}:${material}_${i}` });
-            console.log(`smithing recipe: `, `1x ${modId}:${material}_${i}`, smithingTemplate, `${modId}:${oldMaterial}_${i}`, materialItem);
+            // console.log(`smithing recipe: `, `1x ${modId}:${material}_${i}`, smithingTemplate, `${modId}:${oldMaterial}_${i}`, materialItem);
             event.smithing(`1x ${modId}:${material}_${i}`, smithingTemplate, `${modId}:${oldMaterial}_${i}`, materialItem);
         })
     }
@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
         tools.forEach(i => {
             if (!!skip && skip.includes(i)) return;
             event.remove({ output: `${modId}:${material}_${i}` });
-            console.log(`smithing recipe: `, `1x ${modId}:${material}_${i}`, smithingTemplate, `${modId}:${oldMaterial}_${i}`, materialItem);
+            // console.log(`smithing recipe: `, `1x ${modId}:${material}_${i}`, smithingTemplate, `${modId}:${oldMaterial}_${i}`, materialItem);
             event.smithing(`1x ${modId}:${material}_${i}`, smithingTemplate, `${modId}:${oldMaterial}_${i}`, materialItem);
         })
     }
@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
         items.forEach(i => {
             if (!!skip && skip.includes(i)) return;
             event.remove({ output: `${newId}` });
-            console.log(`smithing recipe: `, `1x ${newId}_${i}`, smithingTemplate, `${oldId}`, materialItem);
+            // console.log(`smithing recipe: `, `1x ${newId}_${i}`, smithingTemplate, `${oldId}`, materialItem);
             event.smithing(`1x ${newId}_${i}`, smithingTemplate, `${oldId}_${i}`, materialItem);
         })
     }
@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
         armors.forEach(i => {
             if (!!skip && skip.includes(i)) return;
             event.remove({ output: `${newId}` });
-            console.log(`smithing recipe: `, `1x ${newId}_${i}`, smithingTemplate, `${oldId}`, materialItem);
+            // console.log(`smithing recipe: `, `1x ${newId}_${i}`, smithingTemplate, `${oldId}`, materialItem);
             event.smithing(`1x ${newId}_${i}`, smithingTemplate, `${oldId}_${i}`, materialItem);
         })
     }
@@ -71,7 +71,7 @@ ServerEvents.recipes(event => {
         tools.forEach(i => {
             if (!!skip && skip.includes(i)) return;
             event.remove({ output: `${newId}` });
-            console.log(`smithing recipe: `, `1x ${newId}_${i}`, smithingTemplate, `${oldId}`, materialItem);
+            // console.log(`smithing recipe: `, `1x ${newId}_${i}`, smithingTemplate, `${oldId}`, materialItem);
             event.smithing(`1x ${newId}_${i}`, smithingTemplate, `${oldId}_${i}`, materialItem);
         })
     }
