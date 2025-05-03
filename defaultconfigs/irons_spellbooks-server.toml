@@ -1317,3 +1317,14 @@
 		CooldownInSeconds = 400.0
 		AllowCrafting = true
 
+	[Spells."codinglitchs_sorcery:taunt"]
+		Enabled = true
+		School = "irons_spellbooks:holy"
+		MaxLevel = 20
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 2.5
+		SpellPowerMultiplier = 0.0025
+		CooldownInSeconds = 40.0
+		AllowCrafting = true
+
