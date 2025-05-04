@@ -6,11 +6,6 @@
             "attribute": "irons_spellbooks:nature_spell_power",
             "operation": "multiply_total",
             "value": 0.2
-        },
-        {
-            "attribute": "irons_spellbooks:mana_regen",
-            "operation": "multiply_total",
-            "value": 0.1
         }
     ]
 }

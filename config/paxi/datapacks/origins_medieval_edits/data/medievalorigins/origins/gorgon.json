@@ -6,7 +6,8 @@
         "medievalorigins:gorgon/petrified",
         "medievalorigins:gorgon/hydrophobia",
         "medievalorigins:gorgon/poison_blood",
-        "medievalorigins:gorgon/poison_immune"
+        "medievalorigins:gorgon/poison_immune",
+        "medievalorigins:gorgon/ender_power"
     ],
     "icon": {
         "item": "minecraft:ink_sac",

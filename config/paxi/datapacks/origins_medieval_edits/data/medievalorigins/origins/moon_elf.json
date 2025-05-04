@@ -6,7 +6,8 @@
         "medievalorigins:moon_elf/ethereal",
         "medievalorigins:moon_elf/nimble",
         "medievalorigins:moon_elf/fragile",
-        "medievalorigins:moon_elf/towering"
+        "medievalorigins:moon_elf/towering",
+        "medievalorigins:moon_elf/evocation_power"
     ],
     "icon": {
         "item": "minecraft:ink_sac",

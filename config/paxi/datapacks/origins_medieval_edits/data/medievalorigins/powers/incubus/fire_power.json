@@ -1,0 +1,10 @@
+{
+	"loading_priority": 111,
+	"type": "origins:attribute",
+	"modifiers": [{
+			"attribute": "irons_spellbooks:fire_spell_power",
+			"operation": "multiply_total",
+			"value": 0.2
+		}
+	]
+}
