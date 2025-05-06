@@ -4790,6 +4790,20 @@ b_god_reforging_table: "ze_apotheosis:god_reforging_table",
  * @readonly
  * @enum {string}
  */
+const block_toms_trading_network = {
+    /** @type {string} */
+b_vending_machine: "toms_trading_network:vending_machine",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const block_tombstone = {
     /** @type {string} */
 b_grave_simple: "tombstone:grave_simple",
@@ -7961,6 +7975,98 @@ b_digital_adapter: "createaddition:digital_adapter",
 b_seed_oil: "createaddition:seed_oil",
 /** @type {string} */
 b_bioethanol: "createaddition:bioethanol",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const block_perfectplushies = {
+    /** @type {string} */
+b_nyf_plushie: "perfectplushies:nyf_plushie",
+/** @type {string} */
+b_sirjain_plushie: "perfectplushies:sirjain_plushie",
+/** @type {string} */
+b_sizableshrimp_plushie: "perfectplushies:sizableshrimp_plushie",
+/** @type {string} */
+b_tslat_plushie: "perfectplushies:tslat_plushie",
+/** @type {string} */
+b_silk_plushie: "perfectplushies:silk_plushie",
+/** @type {string} */
+b_june_plushie: "perfectplushies:june_plushie",
+/** @type {string} */
+b_daniel_plushie: "perfectplushies:daniel_plushie",
+/** @type {string} */
+b_gamerpotion_plushie: "perfectplushies:gamerpotion_plushie",
+/** @type {string} */
+b_joosh_plushie: "perfectplushies:joosh_plushie",
+/** @type {string} */
+b_rocris_plushie: "perfectplushies:rocris_plushie",
+/** @type {string} */
+b_geode_plushie: "perfectplushies:geode_plushie",
+/** @type {string} */
+b_gamerpotion_plushie_rare: "perfectplushies:gamerpotion_plushie_rare",
+/** @type {string} */
+b_sirjain_plushie_rare: "perfectplushies:sirjain_plushie_rare",
+/** @type {string} */
+b_red_fox_plushie: "perfectplushies:red_fox_plushie",
+/** @type {string} */
+b_snow_fox_plushie: "perfectplushies:snow_fox_plushie",
+/** @type {string} */
+b_raccoon_plushie: "perfectplushies:raccoon_plushie",
+/** @type {string} */
+b_red_panda_plushie: "perfectplushies:red_panda_plushie",
+/** @type {string} */
+b_red_ruffed_lemur_plushie: "perfectplushies:red_ruffed_lemur_plushie",
+/** @type {string} */
+b_capybara_plushie: "perfectplushies:capybara_plushie",
+/** @type {string} */
+b_dog_plushie: "perfectplushies:dog_plushie",
+/** @type {string} */
+b_cat_plushie: "perfectplushies:cat_plushie",
+/** @type {string} */
+b_dolphin_plushie: "perfectplushies:dolphin_plushie",
+/** @type {string} */
+b_rabbit_plushie: "perfectplushies:rabbit_plushie",
+/** @type {string} */
+b_frog_plushie: "perfectplushies:frog_plushie",
+/** @type {string} */
+b_goose_plushie: "perfectplushies:goose_plushie",
+/** @type {string} */
+b_duck_plushie: "perfectplushies:duck_plushie",
+/** @type {string} */
+b_rubber_duck_plushie: "perfectplushies:rubber_duck_plushie",
+/** @type {string} */
+b_robin_plushie: "perfectplushies:robin_plushie",
+/** @type {string} */
+b_hummingbird_plushie: "perfectplushies:hummingbird_plushie",
+/** @type {string} */
+b_hippo_plushie: "perfectplushies:hippo_plushie",
+/** @type {string} */
+b_mouse_plushie: "perfectplushies:mouse_plushie",
+/** @type {string} */
+b_turtle_plushie: "perfectplushies:turtle_plushie",
+/** @type {string} */
+b_doe_plushie: "perfectplushies:doe_plushie",
+/** @type {string} */
+b_reindeer_plushie: "perfectplushies:reindeer_plushie",
+/** @type {string} */
+b_bear_plushie: "perfectplushies:bear_plushie",
+/** @type {string} */
+b_panda_plushie: "perfectplushies:panda_plushie",
+/** @type {string} */
+b_lion_cub_plushie: "perfectplushies:lion_cub_plushie",
+/** @type {string} */
+b_elephant_plushie: "perfectplushies:elephant_plushie",
+/** @type {string} */
+b_monkey_plushie: "perfectplushies:monkey_plushie",
+/** @type {string} */
+b_seal_plushie: "perfectplushies:seal_plushie",
 
 };
 
@@ -16825,9 +16931,9 @@ b_resistive_arkan: "endlessbiomes:resistive_arkan",
 
 /**
  * Auto-generated Typedef
- * @typedef {block_minecraft | block_betternether | block_apotheosis | block_supplementaries | block_refinedstorage | block_structure_gel | block_handcrafted | block_morevillagers | block_ze_apotheosis | block_tombstone | block_chimes | block_trials | block_mcwlights | block_bellsandwhistles | block_mutantmonsters | block_libraryferret | block_kobolds | block_biomesoplenty | block_domum_ornamentum | block_structurize | block_lootr | block_phantasm | block_sophisticatedbackpacks | block_plentyplates | block_utilitarian | block_mcwbridges | block_endertanks | block_simplylight | block_everythingisedibleeie | block_elevatorid | block_undergarden | block_copycats | block_outer_end | block_bosses_of_mass_destruction | block_azurelib | block_endermanoverhaul | block_minecolonies | block_bushierflowers | block_simpleradio | block_createaddition | block_irons_spellbooks | block_slotmachinemod | block_macawsbridgesbop | block_callfromthedepth_ | block_ironfurnaces | block_mysticaloaktree | block_origins | block_energymeter | block_theabyss | block_mcwfurnitures | block_multipiston | block_packingtape | block_mythicmounts | block_mcwpaths | block_usefulrailroads | block_croptopia | block_oceansdelight | block_aquaculture | block_aquamirae | block_blue_skies | block_creeperoverhaul | block_crittersandcompanions | block_aether | block_naturalist | block_cookingforblockheads | block_citadel | block_railways | block_farmersdelight | block_cuffed | block_compressium | block_endersdelight | block_endrem | block_doapi | block_vinery | block_enderitemod | block_herbalbrews | block_auctionworld | block_bakery | block_brewery | block_meadow | block_nethervinery | block_candlelight | block_beachparty | block_easy_mob_farm | block_sophisticatedstorage | block_ftbquests | block_create | block_waystones | block_comforts | block_call_of_yucutan | block_nethersdelight | block_create_sa | block_enderchests | block_endlessbiomes} block
+ * @typedef {block_minecraft | block_betternether | block_apotheosis | block_supplementaries | block_refinedstorage | block_structure_gel | block_handcrafted | block_morevillagers | block_ze_apotheosis | block_toms_trading_network | block_tombstone | block_chimes | block_trials | block_mcwlights | block_bellsandwhistles | block_mutantmonsters | block_libraryferret | block_kobolds | block_biomesoplenty | block_domum_ornamentum | block_structurize | block_lootr | block_phantasm | block_sophisticatedbackpacks | block_plentyplates | block_utilitarian | block_mcwbridges | block_endertanks | block_simplylight | block_everythingisedibleeie | block_elevatorid | block_undergarden | block_copycats | block_outer_end | block_bosses_of_mass_destruction | block_azurelib | block_endermanoverhaul | block_minecolonies | block_bushierflowers | block_simpleradio | block_createaddition | block_perfectplushies | block_irons_spellbooks | block_slotmachinemod | block_macawsbridgesbop | block_callfromthedepth_ | block_ironfurnaces | block_mysticaloaktree | block_origins | block_energymeter | block_theabyss | block_mcwfurnitures | block_multipiston | block_packingtape | block_mythicmounts | block_mcwpaths | block_usefulrailroads | block_croptopia | block_oceansdelight | block_aquaculture | block_aquamirae | block_blue_skies | block_creeperoverhaul | block_crittersandcompanions | block_aether | block_naturalist | block_cookingforblockheads | block_citadel | block_railways | block_farmersdelight | block_cuffed | block_compressium | block_endersdelight | block_endrem | block_doapi | block_vinery | block_enderitemod | block_herbalbrews | block_auctionworld | block_bakery | block_brewery | block_meadow | block_nethervinery | block_candlelight | block_beachparty | block_easy_mob_farm | block_sophisticatedstorage | block_ftbquests | block_create | block_waystones | block_comforts | block_call_of_yucutan | block_nethersdelight | block_create_sa | block_enderchests | block_endlessbiomes} block
  */
 
 module.exports = {
-    block_minecraft, block_betternether, block_apotheosis, block_supplementaries, block_refinedstorage, block_structure_gel, block_handcrafted, block_morevillagers, block_ze_apotheosis, block_tombstone, block_chimes, block_trials, block_mcwlights, block_bellsandwhistles, block_mutantmonsters, block_libraryferret, block_kobolds, block_biomesoplenty, block_domum_ornamentum, block_structurize, block_lootr, block_phantasm, block_sophisticatedbackpacks, block_plentyplates, block_utilitarian, block_mcwbridges, block_endertanks, block_simplylight, block_everythingisedibleeie, block_elevatorid, block_undergarden, block_copycats, block_outer_end, block_bosses_of_mass_destruction, block_azurelib, block_endermanoverhaul, block_minecolonies, block_bushierflowers, block_simpleradio, block_createaddition, block_irons_spellbooks, block_slotmachinemod, block_macawsbridgesbop, block_callfromthedepth_, block_ironfurnaces, block_mysticaloaktree, block_origins, block_energymeter, block_theabyss, block_mcwfurnitures, block_multipiston, block_packingtape, block_mythicmounts, block_mcwpaths, block_usefulrailroads, block_croptopia, block_oceansdelight, block_aquaculture, block_aquamirae, block_blue_skies, block_creeperoverhaul, block_crittersandcompanions, block_aether, block_naturalist, block_cookingforblockheads, block_citadel, block_railways, block_farmersdelight, block_cuffed, block_compressium, block_endersdelight, block_endrem, block_doapi, block_vinery, block_enderitemod, block_herbalbrews, block_auctionworld, block_bakery, block_brewery, block_meadow, block_nethervinery, block_candlelight, block_beachparty, block_easy_mob_farm, block_sophisticatedstorage, block_ftbquests, block_create, block_waystones, block_comforts, block_call_of_yucutan, block_nethersdelight, block_create_sa, block_enderchests, block_endlessbiomes
+    block_minecraft, block_betternether, block_apotheosis, block_supplementaries, block_refinedstorage, block_structure_gel, block_handcrafted, block_morevillagers, block_ze_apotheosis, block_toms_trading_network, block_tombstone, block_chimes, block_trials, block_mcwlights, block_bellsandwhistles, block_mutantmonsters, block_libraryferret, block_kobolds, block_biomesoplenty, block_domum_ornamentum, block_structurize, block_lootr, block_phantasm, block_sophisticatedbackpacks, block_plentyplates, block_utilitarian, block_mcwbridges, block_endertanks, block_simplylight, block_everythingisedibleeie, block_elevatorid, block_undergarden, block_copycats, block_outer_end, block_bosses_of_mass_destruction, block_azurelib, block_endermanoverhaul, block_minecolonies, block_bushierflowers, block_simpleradio, block_createaddition, block_perfectplushies, block_irons_spellbooks, block_slotmachinemod, block_macawsbridgesbop, block_callfromthedepth_, block_ironfurnaces, block_mysticaloaktree, block_origins, block_energymeter, block_theabyss, block_mcwfurnitures, block_multipiston, block_packingtape, block_mythicmounts, block_mcwpaths, block_usefulrailroads, block_croptopia, block_oceansdelight, block_aquaculture, block_aquamirae, block_blue_skies, block_creeperoverhaul, block_crittersandcompanions, block_aether, block_naturalist, block_cookingforblockheads, block_citadel, block_railways, block_farmersdelight, block_cuffed, block_compressium, block_endersdelight, block_endrem, block_doapi, block_vinery, block_enderitemod, block_herbalbrews, block_auctionworld, block_bakery, block_brewery, block_meadow, block_nethervinery, block_candlelight, block_beachparty, block_easy_mob_farm, block_sophisticatedstorage, block_ftbquests, block_create, block_waystones, block_comforts, block_call_of_yucutan, block_nethersdelight, block_create_sa, block_enderchests, block_endlessbiomes
 }
