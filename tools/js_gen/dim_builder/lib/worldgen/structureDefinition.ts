@@ -7,6 +7,7 @@ import {TemplatePool} from "./templatePool";
 import {loadJsonFromPath, navigateUpUntilTargetFolder, removeNamespace} from "../utils";
 import {findJigsawBlocks, readNbtFile} from "../nbt/util";
 import {Biome} from "./biome";
+import path from "path";
 
 export class StructureDefinition extends BasicDataHolder<StructureDefinition> {
     structureSet: StructureSet;
@@ -61,15 +62,16 @@ export class StructureDefinition extends BasicDataHolder<StructureDefinition> {
     }
 
     async fromTemplate(pathToStructureSet: string) {
-        this.structureSet = new StructureSet().fromTemplate(loadJsonFromPath(pathToStructureSet));
+        const isJar = pathToStructureSet.startsWith("jar:");
+        this.structureSet = new StructureSet().fromTemplate(await loadJsonFromPath(pathToStructureSet));
         this.structureSet.withNamespace(this.internalNamespace).withName(this.internalName);
-        const worldgenFolder = navigateUpUntilTargetFolder("worldgen", pathToStructureSet) + "/worldgen";
-        const dataFolder = navigateUpUntilTargetFolder("data", worldgenFolder) + "/data";
+        const worldgenFolder = path.join(navigateUpUntilTargetFolder("worldgen", pathToStructureSet), "worldgen");
+        const dataFolder = path.join(navigateUpUntilTargetFolder("data", worldgenFolder), "data");
         for (const structureEntry of this.structureSet.structures) {
-            const structure = new Structure().fromTemplate(loadJsonFromPath(`${worldgenFolder}/structure/${removeNamespace(structureEntry.structure)}.json`));
+            const structure = new Structure().fromTemplate(await loadJsonFromPath(`${worldgenFolder}/structure/${removeNamespace(structureEntry.structure)}.json`));
             this.structures.push(structure);
             if (structure.type === "minecraft:jigsaw") {
-                const pool = new TemplatePool().fromTemplate(loadJsonFromPath(`${worldgenFolder}/template_pool/${removeNamespace(structure.start_pool)}.json`));
+                const pool = new TemplatePool().fromTemplate(await loadJsonFromPath(`${worldgenFolder}/template_pool/${removeNamespace(structure.start_pool)}.json`));
                 pool.withNamespace(this.internalNamespace).withName(removeNamespace(structure.start_pool));
                 structure.template_pools = [pool];
                 await this.traversePool(pool, structure, dataFolder);
@@ -95,8 +97,18 @@ export class StructureDefinition extends BasicDataHolder<StructureDefinition> {
     }
 
     private async processElement(element, dataFolder: string, structure: Structure) {
+        let isJar = false;
+        let modId = "";
+        if (dataFolder.startsWith("jar:")) {
+            isJar = true;
+            const split = dataFolder.split(":");
+            modId = split[1];
+        }
         element.location = this.internalNamespace + ":" + element.location.split(":")[1];
-        const nbt = new NbtStructure().fromTemplateNbt(`${dataFolder}/structures/${removeNamespace(element.location)}.nbt`);
+        const nbtPath = isJar ?
+            `${dataFolder}/${modId}/structures/${removeNamespace(element.location)}.nbt` :
+            `${dataFolder}/structures/${removeNamespace(element.location)}.nbt`
+        const nbt = new NbtStructure().fromTemplateNbt(nbtPath);
         const data = await readNbtFile(nbt.templatePath);
         nbt.data = data.parsed;
         nbt.type = data.type;
@@ -107,13 +119,17 @@ export class StructureDefinition extends BasicDataHolder<StructureDefinition> {
             if (structure.template_pools.some(p => p.internalName === removeNamespace(jigsawPoolId))) {
                 continue;
             }
-            const jigsawPool = new TemplatePool().fromTemplate(loadJsonFromPath(`${dataFolder}/worldgen/template_pool/${removeNamespace(jigsawPoolId)}.json`));
+            const jigsawPoolPath = isJar ?
+                `${dataFolder}/${modId}/worldgen/template_pool/${removeNamespace(jigsawPoolId)}.json` :
+                `${dataFolder}/worldgen/template_pool/${removeNamespace(jigsawPoolId)}.json`;
+            const jigsawPool = new TemplatePool().fromTemplate(await loadJsonFromPath(jigsawPoolPath));
             jigsawPool.withNamespace(this.internalNamespace).withName(removeNamespace(jigsawPoolId));
             structure.template_pools.push(jigsawPool);
             await this.traversePool(jigsawPool, structure, dataFolder);
         }
         this.nbts.push(nbt);
         nbt.withNamespace(this.internalNamespace).withName(removeNamespace(element.location));
+        console.log(`Processed element: ${element.location}`);
     }
 
     afterBuild() {

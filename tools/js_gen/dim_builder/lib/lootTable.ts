@@ -20,9 +20,9 @@ export class LootTable extends SelfWritingJson {
         return this;
     }
 
-    static OreBlock(blockId: string, noSilkTouchDropId: string) {
+    static async OreBlock(blockId: string, noSilkTouchDropId: string) {
         const lootTable = new LootTable()
-        lootTable.fromTemplate(loadJsonFromPath(`./mc/data/loot_tables/blocks/diamond_ore.json`))
+        lootTable.fromTemplate(await loadJsonFromPath(`./mc/data/loot_tables/blocks/diamond_ore.json`))
         replaceStringPropertyRecursive(lootTable, "minecraft:diamond_ore", blockId);
         replaceStringPropertyRecursive(lootTable, "minecraft:diamond", noSilkTouchDropId);
         lootTable.withName(blockId.split(":")[1]).withSubFolder("/blocks");

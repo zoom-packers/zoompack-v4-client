@@ -2,8 +2,21 @@ import fs from "fs"
 import * as nbt from "prismarine-nbt"
 import {List, Tags, TagType} from "prismarine-nbt"
 import {gzip} from "node-gzip";
+import {getModData, loadBufferFromMod, loadTextFromMod} from "../jar_util";
 
 export async function readNbtFile(path: string) {
+    if (path.startsWith("jar:")) {
+        const split = path.split(":");
+        const modId = split[1];
+        const pathInJar = split[2];
+        const buffer = await loadBufferFromMod(modId, pathInJar);
+        if (buffer) {
+            const { parsed, type } = await nbt.parse(buffer);
+            return { parsed, type };
+        } else {
+            throw new Error(`Could not load buffer from mod ${modId} at path ${pathInJar}`);
+        }
+    }
     const fileContent = fs.readFileSync(path)
     const { parsed, type } = await nbt.parse(fileContent)
     return { parsed, type };

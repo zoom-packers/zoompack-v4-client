@@ -2,7 +2,8 @@
 import fs from "fs";
 // @ts-ignore
 import path from "path";
-import exp from "node:constants";
+import {loadTextFromMod} from "./jar_util";
+import stripJsonComments from "strip-json-comments";
 
 export function hexToMinecraftColor(hex: string): number {
     const rgb = hexToRGB(hex);
@@ -73,8 +74,15 @@ export function rgbToHsv(r: number, g: number, b: number): {h: number, s: number
     return {h, s, v};
 }
 
-export function loadJsonFromPath(path: string): any {
-    return JSON.parse(fs.readFileSync(path, "utf8"));
+export async function loadJsonFromPath(path: string): Promise<any> {
+    if (path.startsWith("jar:")) {
+        const split = path.split(":");
+        const modId = split[1];
+        const pathInJar = split[2];
+        const data = await loadTextFromMod(modId, pathInJar);
+        return JSON.parse(stripJsonComments(data));
+    }
+    return JSON.parse(stripJsonComments(fs.readFileSync(path, "utf8")));
 }
 
 export function removeNamespace(id: string): string {
@@ -147,14 +155,25 @@ export function idToDisplayName(id: string): string {
     return words.map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 }
 
-export function navigateUpUntilTargetFolder(targetFolderName, currentPath) {
-    let currentDir = currentPath;
-    let targetDir = path.join(currentDir, targetFolderName);
-    while (!fs.existsSync(targetDir)) {
-        currentDir = path.join(currentDir, '..');
-        targetDir = path.join(currentDir, targetFolderName);
+export function navigateUpUntilTargetFolder(targetFolderName: string, currentPath: string) {
+    let jarPrefix: string = "";
+    if (currentPath.startsWith("jar:")) {
+        const split = currentPath.split(":");
+        const lastFolder = split[split.length - 1];
+        currentPath = lastFolder;
+        jarPrefix = split[0] + ":" + split[1] + ":";
     }
-    return currentDir;
+    const separator = path.sep;
+    currentPath = path.join(currentPath);
+    const split = currentPath.split(separator);
+    for (let i = split.length - 1; i >= 0; i--) {
+        const lastFolder = split[i];
+        if (lastFolder === targetFolderName) {
+            const result = path.join(split.slice(0, i).join(separator));
+            return jarPrefix + result;
+        }
+    }
+    throw new Error(`Could not find ${targetFolderName} in path ${currentPath}`);
 }
 
 export function log(type: Object, message: string) {

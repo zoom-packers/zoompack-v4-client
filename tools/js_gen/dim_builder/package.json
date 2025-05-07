@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "armory": "ts-node armory.ts",
+    "example": "ts-node example.ts",
     "structure-maps": "ts-node extractStructureMaps.ts",
     "extractor": "ts-node extractor/main.ts",
     "extractor-symlink": "ts-node extractor/symlinks.ts",
@@ -17,7 +18,8 @@
     "node-gzip": "^1.1.2",
     "node-stream-zip": "^1.15.0",
     "prismarine-nbt": "^2.5.0",
-    "sharp": "^0.33.5"
+    "sharp": "^0.33.5",
+    "strip-json-comments": "^5.0.1"
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.4"
