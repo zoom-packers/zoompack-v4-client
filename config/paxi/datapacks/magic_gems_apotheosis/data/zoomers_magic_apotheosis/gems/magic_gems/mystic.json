@@ -1,0 +1,37 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	}],
+	"variant": "mystic",
+	"weight": 5,
+	"quality": 0,
+	"min_rarity": "common",
+	"unique": true,
+	"dimensions": [],
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "books_n_rings",
+				"types": [
+					"curios:aether_gloves"
+				]
+			},
+			"attribute": "irons_spellbooks:max_mana",
+			"operation": "ADDITION",
+			"values": {
+				"common": 20,
+				"uncommon": 40,
+				"rare": 60,
+				"epic": 80,
+				"mythic": 100,
+				"ancient": 200,
+				"custom_0": 120,
+				"custom_1": 140,
+				"custom_2": 160,
+				"custom_3": 180
+			}
+		}
+	]
+}

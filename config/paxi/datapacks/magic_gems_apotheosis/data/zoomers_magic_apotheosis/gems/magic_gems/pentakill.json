@@ -1,0 +1,61 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "irons_spellbooks"
+		}
+	],
+	"variant": "pentakill",
+	"weight": 5,
+	"quality": 0,
+	"min_rarity": "common",
+	"unique": true,
+	"dimensions": [],
+	"bonuses": [
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "core_armor",
+				"types": [
+					"chestplate",
+					"leggings"
+				]
+			},
+			"modifiers": [
+				{
+					"attribute": "minecraft:generic.armor",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"common": 0.01,
+						"uncommon": 0.02,
+						"rare": 0.03,
+						"epic": 0.04,
+						"mythic": 0.05,
+						"ancient": 0.10,
+						"custom_0": 0.06,
+						"custom_1": 0.07,
+						"custom_2": 0.08,
+						"custom_3": 0.09
+					}
+				},
+				{
+					"attribute": "irons_spellbooks:spell_power",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"common": -0.02,
+						"uncommon": -0.04,
+						"rare": -0.06,
+						"epic": -0.08,
+						"mythic": -0.1,
+						"ancient": -0.20,
+						"custom_0": -0.12,
+						"custom_1": -0.14,
+						"custom_2": -0.16,
+						"custom_3": -0.18
+					}
+				}
+			]
+		}
+	]
+}

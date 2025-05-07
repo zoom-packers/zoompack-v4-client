@@ -1,0 +1,60 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "irons_spellbooks"
+		}
+	],
+	"variant": "moonstone",
+	"weight": 5,
+	"quality": 0,
+	"min_rarity": "common",
+	"unique": true,
+	"dimensions": [],
+	"bonuses": [
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "books_n_rings",
+				"types": [
+					"curios:aether_gloves"
+				]
+			},
+			"modifiers": [
+				{
+					"attribute": "attributeslib:arrow_damage",
+					"operation": "ADDITION",
+					"values": {
+						"common": 0.02,
+						"uncommon": 0.04,
+						"rare": 0.06,
+						"epic": 0.08,
+						"mythic": 0.1,
+						"ancient": 0.20,
+						"custom_0": 0.12,
+						"custom_1": 0.14,
+						"custom_2": 0.16,
+						"custom_3": 0.18
+					}
+				},
+				{
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "ADDITION",
+					"values": {
+						"common": -0.02,
+						"uncommon": -0.04,
+						"rare": -0.06,
+						"epic": -0.08,
+						"mythic": -0.1,
+						"ancient": -0.20,
+						"custom_0": -0.12,
+						"custom_1": -0.14,
+						"custom_2": -0.16,
+						"custom_3": -0.18
+					}
+				}
+			]
+		}
+	]
+}

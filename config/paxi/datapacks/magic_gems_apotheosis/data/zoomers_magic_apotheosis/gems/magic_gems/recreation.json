@@ -1,0 +1,77 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	}],
+	"variant": "recreation",
+	"weight": 5,
+	"quality": 0,
+	"min_rarity": "common",
+	"unique": true,
+	"dimensions": [],
+	"bonuses": [
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "core_armor",
+				"types": [
+					"chestplate"
+				]
+			},
+			"mob_effect": "zoompack_overrides_forge:endurance_xp_multiplier",
+			"target": "attack_target",
+			"values": {
+				"common": {
+					"duration": 100,
+					"amplifier": 0,
+					"cooldown": 1200
+				},
+				"uncommon": {
+					"duration": 120,
+					"amplifier": 0,
+					"cooldown": 1200
+				},
+				"rare": {
+					"duration": 140,
+					"amplifier": 0,
+					"cooldown": 1200
+				},
+				"epic": {
+					"duration": 160,
+					"amplifier": 0,
+					"cooldown": 1200
+				},
+				"mythic": {
+					"duration": 180,
+					"amplifier": 0,
+					"cooldown": 1200
+				},
+				"ancient": {
+					"duration": 300,
+					"amplifier": 2,
+					"cooldown": 1200
+				},
+				"custom_0": {
+					"duration": 200,
+					"amplifier": 1,
+					"cooldown": 1200
+				},
+				"custom_1": {
+					"duration": 220,
+					"amplifier": 1,
+					"cooldown": 1200
+				},
+				"custom_2": {
+					"duration": 240,
+					"amplifier": 1,
+					"cooldown": 1200
+				},
+				"custom_3": {
+					"duration": 260,
+					"amplifier": 1,
+					"cooldown": 1200
+				}
+			}
+		}
+	]
+}
