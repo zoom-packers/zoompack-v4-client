@@ -177,14 +177,14 @@
 		}
 		{
 			description: [
-				"There are so many mounts that you can find in the world. However you can even whistle to it."
+				"There are so many mounts that you can find in the world. However you can keep it in a safe bubble and summon it whenever you want. But remember that has a cooldown."
 				""
-				"&e&lHow to set your personal mount?&r&r"
-				"While in game, hop on your mount and press &c&oALT+V&r&r"
-				"Now this is now set as your personal mount."
+				"&e&lHow to bubble a mount?&r&r"
+				"Craft a bubble and right click your mount. Then equip it into the bauble curios slot!"
+				"{image:baublemounts:item/mount_bauble width:50 height:50 align:1}"
 				""
-				"&e&lHow to call your personal mount?&r&r"
-				"Wherever you are press &c&oV&r&r on your keyboard while in game to call your personal mount to your character."
+				"&e&lHow to call your baubled mount?&r&r"
+				"Wherever you are press &c&oV&r&r on your keyboard while in game to call your mount. While mounted press the same button to put it back into the bauble."
 				""
 				"{image:biomesoplenty:block/pus_bubble width:50 height:50 align:1}"
 			]
