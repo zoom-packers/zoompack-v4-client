@@ -1,0 +1,60 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "irons_spellbooks"
+		}
+	],
+	"variant": "steelhand",
+	"weight": 5,
+	"quality": 0,
+	"min_rarity": "common",
+	"unique": true,
+	"dimensions": [],
+	"bonuses": [
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "books_n_rings",
+				"types": [
+					"curios:aether_gloves"
+				]
+			},
+			"modifiers": [
+				{
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "ADDITION",
+					"values": {
+						"common": 2,
+						"uncommon": 4,
+						"rare": 6,
+						"epic": 8,
+						"mythic": 10,
+						"ancient": 20,
+						"custom_0": 12,
+						"custom_1": 14,
+						"custom_2": 16,
+						"custom_3": 18
+					}
+				},
+				{
+					"attribute": "minecraft:generic.attack_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"common": -0.01,
+						"uncommon": -0.02,
+						"rare": -0.03,
+						"epic": -0.04,
+						"mythic": -0.5,
+						"ancient": -0.1,
+						"custom_0": -0.06,
+						"custom_1": -0.07,
+						"custom_2": -0.08,
+						"custom_3": -0.09
+					}
+				}
+			]
+		}
+	]
+}
