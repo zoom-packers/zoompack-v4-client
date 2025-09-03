@@ -38,7 +38,7 @@
 		}
 		{
 			height: 20.0d
-			image: "minecraft:block/black_concrete"
+			image: "callfromthedepth_:block/dsd"
 			rotation: 0.0d
 			width: 20.0d
 			x: -14.53571428571425d
@@ -54,7 +54,7 @@
 		}
 		{
 			height: 20.0d
-			image: "callfromthedepth_:block/deepearth"
+			image: "callfromthedepth_:block/cursed_stone"
 			rotation: 0.0d
 			width: 20.0d
 			x: -14.53571428571425d
@@ -62,7 +62,7 @@
 		}
 		{
 			height: 20.0d
-			image: "callfromthedepth_:block/deepearth"
+			image: "callfromthedepth_:block/cursed_stone"
 			rotation: 0.0d
 			width: 20.0d
 			x: 19.750000000000014d

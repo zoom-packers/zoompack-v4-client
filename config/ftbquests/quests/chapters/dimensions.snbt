@@ -63,7 +63,7 @@
 			image: "theabyss:textures/abyss_power_icon.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: -9.5d
+			x: -12.0d
 			y: 5.0d
 		}
 		{
@@ -151,7 +151,7 @@
 			image: "theabyss:item/elder_eye"
 			rotation: 0.0d
 			width: 5.0d
-			x: -5.5d
+			x: -8.0d
 			y: 3.5d
 		}
 	]
@@ -1789,12 +1789,18 @@
 			subtitle: "&6&lUnlock the Secrets of the Ancient Portal and Step Into a New Dimension!&r&r"
 			tasks: [{
 				dimension: "callfromthedepth_:depth"
-				icon: "callfromthedepth_:deeplamp"
+				icon: {
+					Count: 1
+					id: "callfromthedepth_:soularmor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "516FAB073A377414"
 				title: "Visit the Depth"
 				type: "dimension"
 			}]
-			x: -1.5d
+			x: -3.0d
 			y: 2.0d
 		}
 		{
@@ -1827,7 +1833,7 @@
 				title: "Find the Ancient Sacrificial Bastion"
 				type: "structure"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 4.0d
 		}
 		{
@@ -1863,8 +1869,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.5d
-			y: 6.0d
+			x: -1.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["6ECCCD1F8E408C4E"]
@@ -1928,7 +1934,7 @@
 				title: "Visit The Abyss"
 				type: "dimension"
 			}]
-			x: -5.5d
+			x: -8.0d
 			y: 2.0d
 		}
 		{
@@ -1960,7 +1966,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -4.5d
+			x: -7.0d
 			y: 3.5d
 		}
 		{
@@ -1990,7 +1996,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -3.5d
+			x: -6.0d
 			y: 3.5d
 		}
 		{
@@ -2020,7 +2026,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -5.5d
+			x: -8.0d
 			y: 3.5d
 		}
 		{
@@ -2046,7 +2052,7 @@
 				entity: "theabyss:night_blade_boss_clone"
 				icon: {
 					Count: 1
-					id: "callfromthedepth_:soul_blade"
+					id: "endermanoverhaul:corrupted_blade"
 					tag: {
 						Damage: 0
 					}
@@ -2056,7 +2062,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -10.5d
+			x: -13.0d
 			y: 3.0d
 		}
 		{
@@ -2086,7 +2092,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -7.5d
+			x: -10.0d
 			y: 3.5d
 		}
 		{
@@ -2122,7 +2128,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -6.5d
+			x: -9.0d
 			y: 3.5d
 		}
 		{
@@ -2153,7 +2159,7 @@
 				title: "Visit the Forst World"
 				type: "dimension"
 			}]
-			x: -7.5d
+			x: -10.0d
 			y: 0.5d
 		}
 		{
@@ -2195,6 +2201,176 @@
 			}]
 			x: 1.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["772AEE4506FBF9C8"]
+			description: [
+				"&2&lHow to Defeat the Injured Marble Guard in the Depth Dimension&r&r  "
+				""
+				"&e&lPrepare for a Heavy Defender:&r&r The &fInjured Marble Guard&r may look weakened, but it remains a relentless opponent. It wields a colossal hammer and has the ability to &aempower itself&r, making each phase of the fight progressively more dangerous. Bring high-durability armor, healing items, and weapons capable of piercing defenses.  "
+				""
+				"&e&lBeware its Attack Patterns:&r&r  "
+				"- &cArea Strikes:&r The Guard slams the ground, creating shockwaves that deal massive area damage.  "
+				"- &eEnergy Flames:&r Some attacks spawn burning flames that linger in the arena, forcing players to reposition.  "
+				"- &8Absorption Barrier:&r The Guard absorbs a portion of incoming damage, dragging the fight into a battle of endurance.  "
+				""
+				"&e&lMaster the Shield Mechanic:&r&r When the Guard raises his hammer high, an &dEnergy Shield&r forms around him, accompanied by &5purple&r and &e yellow&r flames encircling the field. The shield is unbreakable unless handled correctly. Stand inside the flame color that matches the shield:  "
+				"- &5Purple Shield → Purple Flame&r  "
+				"- &eYellow Shield → Yellow Flame&r  "
+				""
+				"Choosing correctly grants &aRegeneration&r for 2 seconds after the Guard’s area strike. Choosing wrong results in devastating damage.  "
+				""
+				"&e&lTime Your Assaults:&r&r The Guard can be weakened by breaking through his shield with consistent damage, but the flame effects fade quickly. Coordinate with your team to enter the correct flame, endure the strike, then immediately punish the Guard during his brief vulnerability window.  "
+				""
+				"&e&lExploit the Openings:&r&r After each shield cycle, the Guard staggers for a moment. This is the best opportunity to unleash powerful attacks — enchanted swords, soul-forged weapons, or heavy ranged barrages. The faster you capitalize, the less time he has to recover.  "
+				""
+				"&e&lFight with Patience and Precision:&r&r The Injured Marble Guard rewards players who pay attention to patterns. Watch his hammer carefully, adapt to the shield color, and never linger in energy flames. With coordination and timing, the Guard will crumble — leaving the path to the Marble Soul Forge unsealed.  "
+			]
+			id: "2FCC67BCC5FD2F40"
+			rewards: [{
+				id: "3CF839DDA434849F"
+				type: "xp_levels"
+				xp_levels: 11
+			}]
+			subtitle: "&8&lThe Shattered Sentinel of the Marble Forge&r&r"
+			tasks: [{
+				entity: "callfromthedepth_:injuredmarbleguard"
+				icon: {
+					Count: 1
+					id: "callfromthedepth_:marblearmor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3D2C01A367B51DA1"
+				title: "Kill Injured Marble Guard"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["490EDC4B6B7407F9"]
+			description: [
+				"&6&lNavigate the Depths, search for big white pillars. There shall lay the Marble Soul Forge!&r&r  "
+				""
+				"&e&lFollow the Beacon of White Stone:&r&r The &fMarble Soul Forge&r rests where massive ivory-like pillars rise from the murky waters, forming a labyrinth of stone. Their pale glow can be spotted even through the thick fog, standing in stark contrast to the darkness of the Depth Dimension.  "
+				""
+				"&e&lTrace the Path of Soulfire Lanterns:&r&r Along the way, you will notice &bSoulfire Lanterns&r flickering with a blue-white flame, leading deeper into the marble halls. These lights are remnants of the souls once bound to the forge — follow them carefully, for they guide the true path while false flames mislead wanderers.  "
+				""
+				"&e&lBeware the Shattered Echoes:&r&r The closer you come, the more you will hear fragments of &7ancient voices&r, echoing like broken glass. These whispers warn of those who attempted to harness the forge’s power and failed. Some whispers may lure you into traps hidden among the marble pillars.  "
+				""
+				"&e&lFace the Marble Guardians:&r&r Protecting the forge are &fStatues of Soulbound Stone&r that animate when approached. They strike with the strength of marble and the will of the souls that inhabit them. Weapons enchanted with &dSmite&r or &bSoulbound&r are most effective in breaking their defenses.  "
+				""
+				"&e&lUncover the Forge’s Core:&r&r At the heart of the structure lies the &fMarble Soul Forge&r itself, a towering anvil of pale stone infused with streams of glowing energy. Here, one can bind &dSoul Crystals&r into weapons or armor, granting immense strength — but at the cost of slowly binding your own essence to the forge.  "
+				""
+				"&9&lPrepare for the Ritual of Binding:&r&r To use the forge, you must bring &fSacrificial Marble&r shards and &dSoul Crystals&r gathered from the Depth Dimension. Place them into the anvil and endure the surge of energy. Only the strong-willed can resist having their soul fractured by the forge’s power."
+			]
+			id: "772AEE4506FBF9C8"
+			rewards: [{
+				id: "4D31BD691569DEC9"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			subtitle: "&6&lNavigate the Depths, search for big white pillars. There shall lay the Marble Soul Forge!&r&r"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "callfromthedepth_:marble_gem"
+					tag: { }
+				}
+				id: "022865E320E99F8A"
+				structure: "callfromthedepth_:marblesoulforge"
+				title: "Find the Marble Soul Forge"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["490EDC4B6B7407F9"]
+			description: [
+				"&6&lNavigate the Depths, Lurk for massive bastions, the circle marks it. Find the Darkest Altar!&r&r  "
+				""
+				"&e&lSeek the Circle of Shadows:&r&r The &0Darkest Altar&r rests at the heart of a colossal circular formation of &8obsidian monoliths&r. This circle marks the boundary between the known Depths and the forbidden domain. Look for eerie runes carved into the stone, glowing faintly with a dim violet light.  "
+				""
+				"&e&lFollow the Flow of Blackened Currents:&r&r Strange water streams, darker than the rest, converge toward the altar’s domain. These currents resist normal flow, pulling you inward as if guided by an unseen force. Swim against them carefully, for they lead directly to the altar’s resting ground.  "
+				""
+				"&e&lHeed the Whispers in the Fog:&r&r As you draw closer, the mist will carry &5whispers&r — voices that echo and distort. These spectral calls will guide, but also disorient, tempting you off the path. Trust only the compass of your intent, not the words of the fog.  "
+				""
+				"&e&lFace the Guardians of the Altar:&r&r Unlike the wardens, the altar is protected by &4Shadow Sentinels&r — towering figures born of fog and water. They wield crushing strength and vanish into darkness when struck. Only persistence and light-based weapons can hold them back.  "
+				""
+				"&e&lUnveil the Altar’s Secrets:&r&r The &0Darkest Altar&r is not only a place of sacrifice, but also of power. It hides relics of forgotten gods, sealed in obsidian chests that require solving intricate puzzles to unlock. Beware — opening them wrong may awaken what should remain buried.  "
+				""
+				"&9&lPrepare for the Final Confrontation:&r&r Arm yourself with potions of &bResistance&r and &9Night Vision&r, enchanted blades that cut through shadow, and gear that shields you from crushing pressure. Only the strongest can claim the altar’s offerings without being consumed by the Depth itself."
+			]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "callfromthedepth_:echoshardfragment"
+				tag: { }
+			}
+			id: "5C88E8AB9111A707"
+			rewards: [{
+				id: "5FFBAD2306C6BF5F"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			subtitle: "&6&lNavigate the Depths, Lurk for massive bastions, the circle marks it. Find the Darkest Altar!&r&r"
+			tasks: [{
+				id: "32DDA3C5EE027F3D"
+				structure: "callfromthedepth_:deepdarkestaltar"
+				title: "Find the The Darkest Altar"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C88E8AB9111A707"]
+			description: [
+				"&2&lHow to Defeat the Deep Darkest Spawn in the Depth Dimension&r&r  "
+				""
+				"&e&lSummon the Spawn with Caution:&r&r The &0Deep Darkest Spawn&r emerges only when the balance of the Depth Dimension is disturbed. To awaken it, you must disturb the corrupted ground with &8Lost Soul Sand&r and ignite it with a &bSoulfire Torch&r. Once summoned, the battle begins immediately.  "
+				""
+				"&e&lPrepare Your Gear and Team:&r&r This boss is scaled by strength, meaning its &cHP is measured in percentages&r rather than fixed numbers. Expect a drawn-out and brutal fight. Carry &9Soul Lamps&r to counter the crushing darkness and &fAbyss Pills&r to cleanse debilitating effects. Bring allies with strong armor and enchanted weapons — fighting alone is almost certain death.  "
+				""
+				"&e&lPhase One – 100% to 50% HP:&r&r The Spawn uses its &2tentacles&r to deal heavy poison damage, slamming them in &csquare attack patterns&r across the arena. It also unleashes a roar that shakes the ground, stunning players momentarily. Stay spread out and strike cautiously between tentacle slams to avoid being overwhelmed.  "
+				""
+				"&e&lPhase Two – 50% to 0% HP:&r&r When weakened, the Deep Darkest Spawn &8burrows underground&r. The arena is swallowed in &0darkness&r, imposing &8blindness&r and the deadly &4Abyss&r effect upon all players. To survive, you must immediately locate and destroy the &24 tentacles&r that rise from the ground. Each tentacle destroyed weakens the Abyss until the curse is fully lifted. Only then will your attacks damage the Spawn again.  "
+				""
+				"&e&lExploit the Windows of Vulnerability:&r&r After resurfacing, the Spawn is briefly staggered, leaving it open to heavy damage. Save your strongest attacks — enchanted blades, explosive potions, or soul-forged weapons — for these critical windows.  "
+				""
+				"&e&lCounter Its Abilities:&r&r  "
+				"- &2Tentacles:&r Spread out to avoid poison stacking, and strike quickly before they retract.  "
+				"- &cSquare Attacks:&r Watch the ground for patterns; move diagonally to evade.  "
+				"- &4Roar:&r Brace with shields or Soul Lamps to resist the stunning waves.  "
+				"- &8Abyss Mechanic:&r Focus fire on tentacles during the underground phase. Failure to cleanse the Abyss effect in time will result in catastrophic damage.  "
+				""
+				"&e&lFight with Precision and Endurance:&r&r This is a battle of patience, coordination, and resource management. Keep communication open, rotate healing and support items, and always save stamina for the second phase. Victory demands teamwork — but those who succeed will gain the deepest treasures of the Depth Dimension.  "
+			]
+			id: "55BCF1F1B233EA0E"
+			rewards: [{
+				id: "7BA9A24D34186C3D"
+				type: "xp_levels"
+				xp_levels: 11
+			}]
+			subtitle: "&6&lSlay the darkest spawwn of the Depth Dimension!&r&r"
+			tasks: [{
+				entity: "callfromthedepth_:deepdarkestspawn"
+				icon: {
+					Count: 1
+					id: "callfromthedepth_:deadblindsoul"
+					tag: { }
+				}
+				id: "0B85524D0990F0ED"
+				title: "Kill Deep Darkest Spawn"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 6.5d
 		}
 	]
 	subtitle: [
