@@ -1662,7 +1662,7 @@
             "required": true
         },
         {
-            "fileID": 6957244,
+            "fileID": 6960074,
             "projectID": 1078535,
             "required": true
         },
@@ -2210,6 +2210,36 @@
             "fileID": 6880659,
             "projectID": 1326254,
             "required": true
+        },
+        {
+            "fileID": 6658856,
+            "projectID": 432444,
+            "required": true
+        },
+        {
+            "fileID": 5902147,
+            "projectID": 1126435,
+            "required": true
+        },
+        {
+            "fileID": 6722208,
+            "projectID": 1298817,
+            "required": true
+        },
+        {
+            "fileID": 6058824,
+            "projectID": 916895,
+            "required": true
+        },
+        {
+            "fileID": 5532858,
+            "projectID": 1063948,
+            "required": true
+        },
+        {
+            "fileID": 5574685,
+            "projectID": 916493,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",
@@ -2217,7 +2247,7 @@
     "minecraft": {
         "modLoaders": [
             {
-                "id": "forge-47.2.20",
+                "id": "forge-47.2.30",
                 "primary": true
             }
         ],
