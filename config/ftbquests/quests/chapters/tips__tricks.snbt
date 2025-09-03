@@ -345,6 +345,9 @@
 				""
 				"&e&lExtensive Skill List:&r&r PMMO includes skills such as agility, alchemy, archery, building, combat, cooking, crafting, and more. These skills cover a wide range of activities and provide a deep, engaging experience."
 				""
+				"&e&lWanna Store Experience?&r&r"
+				"Craft experience cutters to extract orbes, perfect for storing, sharing to eventually consume!"
+				""
 				"{image:biomesoplenty:block/pus_bubble width:50 height:50 align:1}"
 			]
 			icon: "endlessbiomes:anklor_upgrade_template"
