@@ -1662,7 +1662,7 @@
             "required": true
         },
         {
-            "fileID": 6957244,
+            "fileID": 6960074,
             "projectID": 1078535,
             "required": true
         },
@@ -2217,7 +2217,7 @@
     "minecraft": {
         "modLoaders": [
             {
-                "id": "forge-47.2.20",
+                "id": "forge-47.2.30",
                 "primary": true
             }
         ],
