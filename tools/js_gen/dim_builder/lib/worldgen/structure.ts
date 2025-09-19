@@ -57,10 +57,13 @@ export class Structure extends SelfWritingJson {
     }
 
     override async writeSelf(): Promise<void> {
-        for (const templatePool of this.template_pools) {
-            await templatePool.writeSelf();
+        console.info(`Writing structure ${this.internalNamespace}: ${this.internalName}`);
+        if (!!this.template_pools) {
+            for (const templatePool of this.template_pools) {
+                await templatePool.writeSelf();
+            }
+            this.template_pools = undefined;
         }
-        this.template_pools = undefined;
         await super.writeSelf();
     }
 

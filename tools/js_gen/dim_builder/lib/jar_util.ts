@@ -15,9 +15,6 @@ async function scanModFolder() {
 
     for (const jarPath of jarPaths) {
         console.debug(`Scanning ${jarPath}`);
-        if (jarPath.includes("addon-structures")){
-            debugger;
-        }
         const zip = new StreamZip.async({file: jarPath});
         const metaPath = "META-INF/mods.toml";
         const fabricModJsonPath = "fabric.mod.json"

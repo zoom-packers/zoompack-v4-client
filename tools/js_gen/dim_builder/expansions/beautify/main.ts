@@ -37,12 +37,15 @@ const biomeMappings = {
     'undergarden.txt': Object.values(biome_undergarden),
 }
 
-const dimensionMappingFiles = fs.readdirSync(dimensionMappingPath).map(x => {
+let dimensionMappingFiles = fs.readdirSync(dimensionMappingPath).map(x => {
     return {
         filename: x,
         filepath: path.join(dimensionMappingPath, x)
     }
 })
+
+// Debug purposes
+dimensionMappingFiles = [dimensionMappingFiles[4]];
 
 // Generate Mappings
 var mappings = dimensionMappingFiles.map(file => {
@@ -98,31 +101,35 @@ loadJsons();
 const modId = "zoompack_beautify";
 async function createExpansionPack() {
 
-    const structureDefinitions: StructureDefinition[] = [];
     for (const mapping of mappings) {
         const dimensionId = fileToDimensionMappings[mapping.filename];
+        var dimensionName = mapping.filename.substring(0, mapping.filename.lastIndexOf('.')).trim();
+        var prettyDimensionName = dimensionName.substring(0,1).toUpperCase() + dimensionName.substring(1).replace('_', ' ');
+        var localModId = `${modId}_${dimensionName}`;
         if (!dimensionId) {
             console.error(`Unable to create structure: ${mapping.filename}`);
             return;
         }
 
+        const structureDefinitions: StructureDefinition[] = [];
         for (const structure of mapping.structures) {
-            const definition = await new StructureDefinition(`${structure.structureId}_${dimensionId}`, modId)
+            const definition = await new StructureDefinition(`${structure.structureId}`, localModId)
                 .fromTemplate(structure.path);
             definition.removeBiomes()
                 .onBiomes(biomeMappings[mapping.filename])
             structureDefinitions.push(definition);
         }
+
+
+        const expansion = new ExpansionPack()
+            .withName("Zoompack Beautified Dimensions - " + prettyDimensionName)
+            .withNamespace(localModId)
+            .withStructures(structureDefinitions)
+
+        await expansion.build();
+        expansion.validate();
+        await expansion.writeSelf();
     }
-
-    const expansion = new ExpansionPack()
-        .withName("Zoompack Beautified Dimensions")
-        .withNamespace(modId)
-        .withStructures(structureDefinitions)
-
-    await expansion.build();
-    expansion.validate();
-    await expansion.writeSelf();
 }
 
 createExpansionPack();
