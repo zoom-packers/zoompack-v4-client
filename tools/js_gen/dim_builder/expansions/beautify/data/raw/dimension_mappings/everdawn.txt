@@ -12,7 +12,6 @@ bakery:bakery
 bakery:oat_field
 battletowers:battletower
 brewery:brewfest_tent
-aquamirae:ice_maze
 aquamirae:outpost
 aquamirae:shelter
 aquamirae:ship

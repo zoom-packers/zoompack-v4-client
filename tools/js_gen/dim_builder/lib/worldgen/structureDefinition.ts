@@ -73,18 +73,17 @@ export class StructureDefinition extends BasicDataHolder<StructureDefinition> {
         for (const structureEntry of this.structureSet.structures) {
             const structure = new Structure().fromTemplate(await loadJsonFromPath(`${worldgenFolder}/structure/${removeNamespace(structureEntry.structure)}.json`));
             this.structures.push(structure);
-            if (structure.type === "minecraft:jigsaw") {
+            if (structure.type === "minecraft:jigsaw" || !!structure.start_pool) {
                 const pool = new TemplatePool().fromTemplate(await loadJsonFromPath(`${worldgenFolder}/template_pool/${removeNamespace(structure.start_pool)}.json`));
-                pool.withNamespace(this.internalNamespace).withName(removeNamespace(structure.start_pool));
+                pool.withNamespace(this.internalNamespace).withName(this.internalName + '_' + removeNamespace(structure.start_pool));
                 structure.template_pools = [pool];
                 await this.traversePool(pool, structure, dataFolder);
+                structure.start_pool = this.internalNamespace + ':' + this.internalName + '_' + structure.start_pool.split(':')[1];
             }
-            structure.withNamespace(this.internalNamespace).withName(removeNamespace(structureEntry.structure));
-            if (!!structure.start_pool) {
-                structure.start_pool = this.internalNamespace + ":" + structure.start_pool.split(":")[1];
-            } else {
+            else {
                 console.warn(`Structure ${structure.internalName} has no start_pool. Might be a dynamic structure. Please check to make sure.`)
             }
+            structure.withNamespace(this.internalNamespace).withName(removeNamespace(structureEntry.structure));
             structureEntry.structure = this.internalNamespace + ":" + structureEntry.structure.split(":")[1];
         }
         return this;
@@ -130,8 +129,8 @@ export class StructureDefinition extends BasicDataHolder<StructureDefinition> {
         const jigsaws = findJigsawBlocks(data.parsed);
         for (const jigsaw of jigsaws) {
             const jigsawPoolId = jigsaw.nbt.value.pool.value;
-            jigsaw.nbt.value.pool.value = this.internalNamespace + ":" + jigsawPoolId.split(":")[1];
-            if (structure.template_pools.some(p => p.internalName === removeNamespace(jigsawPoolId))) {
+            jigsaw.nbt.value.pool.value = this.internalNamespace + ":" + this.internalName + '_' + jigsawPoolId.split(":")[1];
+            if (structure.template_pools.some(p => p.internalName === this.internalName + '_' + removeNamespace(jigsawPoolId))) {
                 continue;
             }
             if (!jigsawPoolId || jigsawPoolId.trim().length === 0) {
@@ -150,12 +149,13 @@ export class StructureDefinition extends BasicDataHolder<StructureDefinition> {
                 debugger;
             }
             const jigsawPool = new TemplatePool().fromTemplate(await loadJsonFromPath(jigsawPoolPath));
-            jigsawPool.withNamespace(this.internalNamespace).withName(removeNamespace(jigsawPoolId));
+            jigsawPool.withNamespace(this.internalNamespace).withName(this.internalName + '_' + removeNamespace(jigsawPoolId));
             structure.template_pools.push(jigsawPool);
             await this.traversePool(jigsawPool, structure, dataFolder);
         }
         this.nbts.push(nbt);
-        nbt.withNamespace(this.internalNamespace).withName(removeNamespace(element.location));
+        nbt.withNamespace(this.internalNamespace).withName(this.internalName + '_' + removeNamespace(element.location));
+        element.location = this.internalNamespace + ":" + this.internalName + '_' + element.location.split(":")[1];
         console.log(`Processed element: ${element.location}`);
     }
 

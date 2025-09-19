@@ -3,9 +3,9 @@ import fs from "fs-extra";
 import {loadJsonFromPath} from "../../lib/utils";
 import {StructureDefinition} from "../../lib/worldgen/structureDefinition";
 import {
-    biome_aether,
+    biome_aether, biome_betternether,
     biome_blue_skies,
-    biome_callfromthedepth_,
+    biome_callfromthedepth_, biome_outer_end,
     biome_theabyss, biome_undergarden
 } from "../../../typedefs/biome_typedefs";
 import {ExpansionPack} from "../../lib/expansionPack";
@@ -30,10 +30,10 @@ const biomeMappings = {
     'abyss.txt': Object.values(biome_theabyss),
     'aether.txt': Object.values(biome_aether),
     'depth.txt': Object.values(biome_callfromthedepth_),
-    'end.txt': [],
+    'end.txt': Object.values(biome_outer_end),
     'everbright.txt': Object.values(biome_blue_skies),
     'everdawn.txt': Object.values(biome_blue_skies),
-    'nether.txt': [],
+    'nether.txt': Object.values(biome_betternether),
     'undergarden.txt': Object.values(biome_undergarden),
 }
 
@@ -45,7 +45,7 @@ let dimensionMappingFiles = fs.readdirSync(dimensionMappingPath).map(x => {
 })
 
 // Debug purposes
-dimensionMappingFiles = [dimensionMappingFiles[4]];
+// dimensionMappingFiles = [dimensionMappingFiles[4]];
 
 // Generate Mappings
 var mappings = dimensionMappingFiles.map(file => {
@@ -95,7 +95,6 @@ async function loadJsons() {
         }
     }
 }
-loadJsons();
 
 // Create basic structures
 const modId = "zoompack_beautify";
@@ -132,5 +131,11 @@ async function createExpansionPack() {
     }
 }
 
-createExpansionPack();
+
+async function main() {
+    await loadJsons();
+    await createExpansionPack();
+}
+
+main();
 

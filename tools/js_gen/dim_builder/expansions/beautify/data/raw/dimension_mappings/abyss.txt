@@ -9,7 +9,6 @@ apotheosis:tower_main
 apotheosis:tower_sand
 apotheosis:tower_spruce
 battletowers:battletower
-aquamirae:ice_maze
 aquamirae:outpost
 aquamirae:shelter
 aquamirae:ship

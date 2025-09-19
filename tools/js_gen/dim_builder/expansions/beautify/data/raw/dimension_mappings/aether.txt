@@ -8,7 +8,6 @@ apotheosis:tower_spruce
 bakery:bakery
 bakery:oat_field
 battletowers:battletower
-aquamirae:ice_maze
 aquamirae:outpost
 aquamirae:shelter
 aquamirae:ship
