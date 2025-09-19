@@ -4,6 +4,7 @@
   "scripts": {
     "armory": "ts-node armory.ts",
     "example": "ts-node example.ts",
+    "beautify": "ts-node expansions/beautify/main.ts",
     "structure-maps": "ts-node extractStructureMaps.ts",
     "extractor": "ts-node extractor/main.ts",
     "extractor-symlink": "ts-node extractor/symlinks.ts",

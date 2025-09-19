@@ -17,6 +17,9 @@ export async function readNbtFile(path: string) {
             throw new Error(`Could not load buffer from mod ${modId} at path ${pathInJar}`);
         }
     }
+    if (!fs.existsSync(path)) {
+        console.error(`Could not load buffer from mod ${path}`);
+    }
     const fileContent = fs.readFileSync(path)
     const { parsed, type } = await nbt.parse(fileContent)
     return { parsed, type };

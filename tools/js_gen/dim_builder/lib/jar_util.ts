@@ -14,8 +14,13 @@ async function scanModFolder() {
     const jarPaths = jarFiles.map(file => path.join(jarsPath, file));
 
     for (const jarPath of jarPaths) {
+        console.debug(`Scanning ${jarPath}`);
+        if (jarPath.includes("addon-structures")){
+            debugger;
+        }
         const zip = new StreamZip.async({file: jarPath});
         const metaPath = "META-INF/mods.toml";
+        const fabricModJsonPath = "fabric.mod.json"
         const entries = await zip.entries();
         const entryNames = Object.keys(entries);
         try {
@@ -28,21 +33,53 @@ async function scanModFolder() {
                     let modId: string | undefined;
                     let version: string | undefined;
                     for (const line of lines) {
-                        if (line.startsWith("modId")) {
+                        if (line.trimStart().startsWith("modId")) {
                             modId = line.split("=")[1].trim().replace(/"/g, "").split("#")[0].trim().split(",")[0].trim().split(" ")[0].trim();
                             break;
                         }
                     }
                     for (const line of lines) {
-                        if (line.startsWith("version")) {
+                        if (line.trimStart().startsWith("version")) {
                             version = line.split("=")[1].trim().replace(/"/g, "").split("#")[0].trim().split(",")[0].trim().split(" ")[0].trim();
                             break;
                         }
                     }
+                    if (!modId) {
+                        for (let i = 0; i < lines.length; i++) {
+                            // Ninjdai please use the fucking standards for mods.toml
+                            if (lines[i].trimStart().startsWith("mods = [")) {
+                                var nextLine = lines[i + 1].trim()
+                                var nextLineSanitized = nextLine.substring(0, nextLine.length - 1);
+                                if (nextLineSanitized.startsWith("{ modId = 'letsdoaddon_compat', "))
+                                {
+                                    modId = "letsdoaddon_compat";
+                                } else {
+                                    console.error("Some other mod is throwing a fuzz")
+                                }
+                                break;
+                            }
+                        }
+                    }
+                    if (modId === "'letsdoaddonstructures'") {
+                        modId = "letsdoaddon-structures";
+                    }
                     if (modId) {
                         modIndex.set(modId, {modId, filePath: jarPath, forge: true});
+                    } else {
+                        console.error(`Could not find modId for jar ${jarPath}`);
                     }
                 }
+            } else if (entryNames.includes(fabricModJsonPath)) {
+                const buff = await zip.entryData(fabricModJsonPath);
+                await zip.close();
+                if (buff) {
+                    const data = buff.toString("utf-8");
+                    const sanitizedData = data.replace(/\s/g, "");
+                    const json = JSON.parse(sanitizedData);
+                    modIndex.set(json.id, {modId: json.id, filePath: jarPath, forge: false})
+                }
+            } else {
+                console.error(`Could not find any information for jar ${jarPath}`);
             }
         } catch (e) {
             console.error(`Error while reading ${jarPath}:`, e);
