@@ -341,6 +341,8 @@ a_attack_range = "reach_entity_attributes:attack_range",
 
 export type attribute = attribute_minecraft | attribute_combatroll | attribute_projectile_damage | attribute_zoompack_overrides_forge | attribute_attributeslib | attribute_caelus | attribute_puffish_attributes | attribute_obscure_api | attribute_minecolonies | attribute_additionalentityattributes | attribute_irons_spellbooks | attribute_additional_attributes | attribute_functionalarmortrim | attribute_forge | attribute_reach_entity_attributes;
 
+export const attribute_all = [...Object.values(attribute_minecraft),...Object.values(attribute_combatroll),...Object.values(attribute_projectile_damage),...Object.values(attribute_zoompack_overrides_forge),...Object.values(attribute_attributeslib),...Object.values(attribute_caelus),...Object.values(attribute_puffish_attributes),...Object.values(attribute_obscure_api),...Object.values(attribute_minecolonies),...Object.values(attribute_additionalentityattributes),...Object.values(attribute_irons_spellbooks),...Object.values(attribute_additional_attributes),...Object.values(attribute_functionalarmortrim),...Object.values(attribute_forge),...Object.values(attribute_reach_entity_attributes)];
+
 module.exports = {
     attribute_minecraft, attribute_combatroll, attribute_projectile_damage, attribute_zoompack_overrides_forge, attribute_attributeslib, attribute_caelus, attribute_puffish_attributes, attribute_obscure_api, attribute_minecolonies, attribute_additionalentityattributes, attribute_irons_spellbooks, attribute_additional_attributes, attribute_functionalarmortrim, attribute_forge, attribute_reach_entity_attributes
 }

@@ -3,6 +3,7 @@ import * as nbt from "prismarine-nbt"
 import {List, Tags, TagType} from "prismarine-nbt"
 import {gzip} from "node-gzip";
 import {getModData, loadBufferFromMod, loadTextFromMod} from "../jar_util";
+import {BlockResourceLocation, EntityResourceLocation} from "../types";
 
 export async function readNbtFile(path: string) {
     if (path.startsWith("jar:")) {
@@ -63,9 +64,9 @@ export async function editNbtPalette(data: nbt.NBT, oldBlock: string, newBlock: 
     }
 }
 
-export function exportNbtPalette(data: nbt.NBT) {
+export function exportNbtPalette(data: nbt.NBT): BlockResourceLocation[] {
     const palette = data.value.palette as List<TagType.String>
-    const blocks = [];
+    const blocks: BlockResourceLocation[] = [];
     for (const entry of palette.value.value) {
         const blockEntry = entry as any;
         blocks.push(blockEntry.Name.value);
@@ -73,9 +74,9 @@ export function exportNbtPalette(data: nbt.NBT) {
     return blocks;
 }
 
-export function exportNbtEntities(data: nbt.NBT) {
+export function exportNbtEntities(data: nbt.NBT): EntityResourceLocation[] {
     const palette = data.value.entities as List<TagType.String>
-    const entities = [];
+    const entities: EntityResourceLocation[] = [];
     for (const entry of palette.value.value) {
         const entityEntry = entry as any;
         entities.push(entityEntry.nbt.value.id.value);

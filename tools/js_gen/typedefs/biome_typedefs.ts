@@ -1,21 +1,37 @@
 
-export enum biome_undergarden {
-    b_ancient_sea = "undergarden:ancient_sea",
-b_barren_abyss = "undergarden:barren_abyss",
-b_blood_mushroom_bog = "undergarden:blood_mushroom_bog",
-b_dead_sea = "undergarden:dead_sea",
-b_dense_forest = "undergarden:dense_forest",
-b_forgotten_field = "undergarden:forgotten_field",
-b_frostfields = "undergarden:frostfields",
-b_frosty_smogstem_forest = "undergarden:frosty_smogstem_forest",
-b_gronglegrowth = "undergarden:gronglegrowth",
-b_icy_sea = "undergarden:icy_sea",
-b_indigo_mushroom_bog = "undergarden:indigo_mushroom_bog",
-b_ink_mushroom_bog = "undergarden:ink_mushroom_bog",
-b_smog_spires = "undergarden:smog_spires",
-b_smogstem_forest = "undergarden:smogstem_forest",
-b_veil_mushroom_bog = "undergarden:veil_mushroom_bog",
-b_wigglewood_forest = "undergarden:wigglewood_forest",
+export enum biome_aether {
+    b_skyroot_forest = "aether:skyroot_forest",
+b_skyroot_grove = "aether:skyroot_grove",
+b_skyroot_meadow = "aether:skyroot_meadow",
+b_skyroot_woodland = "aether:skyroot_woodland",
+
+}
+
+
+
+export enum biome_betternether {
+    b_bone_reef = "betternether:bone_reef",
+b_crimson_glowing_woods = "betternether:crimson_glowing_woods",
+b_crimson_pinewood = "betternether:crimson_pinewood",
+b_flooded_deltas = "betternether:flooded_deltas",
+b_gravel_desert = "betternether:gravel_desert",
+b_magma_land = "betternether:magma_land",
+b_nether_grasslands = "betternether:nether_grasslands",
+b_nether_jungle = "betternether:nether_jungle",
+b_nether_mushroom_forest = "betternether:nether_mushroom_forest",
+b_nether_mushroom_forest_edge = "betternether:nether_mushroom_forest_edge",
+b_nether_swampland = "betternether:nether_swampland",
+b_nether_swampland_terraces = "betternether:nether_swampland_terraces",
+b_old_fungiwoods = "betternether:old_fungiwoods",
+b_old_swampland = "betternether:old_swampland",
+b_old_warped_woods = "betternether:old_warped_woods",
+b_poor_nether_grasslands = "betternether:poor_nether_grasslands",
+b_soul_plain = "betternether:soul_plain",
+b_sulfuric_bone_reef = "betternether:sulfuric_bone_reef",
+b_upside_down_forest = "betternether:upside_down_forest",
+b_upside_down_forest_cleared = "betternether:upside_down_forest_cleared",
+b_wart_forest = "betternether:wart_forest",
+b_wart_forest_edge = "betternether:wart_forest_edge",
 
 }
 
@@ -90,10 +106,51 @@ b_woodland = "biomesoplenty:woodland",
 
 
 
-export enum biome_outer_end {
-    b_azure_forest = "outer_end:azure_forest",
-b_crystal_crag = "outer_end:crystal_crag",
-b_primordial_pools = "outer_end:primordial_pools",
+export enum biome_blue_skies {
+    b_brightlands = "blue_skies:brightlands",
+b_brisk_meadow = "blue_skies:brisk_meadow",
+b_brumble_forest = "blue_skies:brumble_forest",
+b_calming_skies = "blue_skies:calming_skies",
+b_crescent_orchard = "blue_skies:crescent_orchard",
+b_crescent_orchard_lake = "blue_skies:crescent_orchard_lake",
+b_crystal_dunes = "blue_skies:crystal_dunes",
+b_crystal_dunes_spikes = "blue_skies:crystal_dunes_spikes",
+b_crystal_roughs = "blue_skies:crystal_roughs",
+b_deep_peeking_ocean = "blue_skies:deep_peeking_ocean",
+b_frostbitten_forest = "blue_skies:frostbitten_forest",
+b_frostbitten_forest_clearing = "blue_skies:frostbitten_forest_clearing",
+b_midday_shore = "blue_skies:midday_shore",
+b_moonlit_reservoir = "blue_skies:moonlit_reservoir",
+b_peeking_ocean = "blue_skies:peeking_ocean",
+b_polar_highland = "blue_skies:polar_highland",
+b_rising_creek = "blue_skies:rising_creek",
+b_searing_grassland = "blue_skies:searing_grassland",
+b_shaded_woodlands = "blue_skies:shaded_woodlands",
+b_slushlands = "blue_skies:slushlands",
+b_snow_covered_pines = "blue_skies:snow_covered_pines",
+b_sunset_maple_forest = "blue_skies:sunset_maple_forest",
+b_unorthodox_valley = "blue_skies:unorthodox_valley",
+
+}
+
+
+
+export enum biome_blueprint {
+    b_original_source_marker = "blueprint:original_source_marker",
+
+}
+
+
+
+export enum biome_callfromthedepth_ {
+    b_deepamethistforest = "callfromthedepth_:deepamethistforest",
+b_deepdepth = "callfromthedepth_:deepdepth",
+b_deepforest = "callfromthedepth_:deepforest",
+b_deepmagma = "callfromthedepth_:deepmagma",
+b_deeprot = "callfromthedepth_:deeprot",
+b_lostsoulsbiome = "callfromthedepth_:lostsoulsbiome",
+b_skulkswamp = "callfromthedepth_:skulkswamp",
+b_strongsculkswamp = "callfromthedepth_:strongsculkswamp",
 
 }
 
@@ -169,6 +226,29 @@ b_wooded_badlands = "minecraft:wooded_badlands",
 
 
 
+export enum biome_outer_end {
+    b_azure_forest = "outer_end:azure_forest",
+b_crystal_crag = "outer_end:crystal_crag",
+b_primordial_pools = "outer_end:primordial_pools",
+
+}
+
+
+
+export enum biome_phantasm {
+    b_dreaming_den = "phantasm:dreaming_den",
+
+}
+
+
+
+export enum biome_terrablender {
+    b_deferred_placeholder = "terrablender:deferred_placeholder",
+
+}
+
+
+
 export enum biome_theabyss {
     b_blaru_forest = "theabyss:blaru_forest",
 b_blue_jungle = "theabyss:blue_jungle",
@@ -187,110 +267,32 @@ b_waywardsea = "theabyss:waywardsea",
 
 
 
-export enum biome_betternether {
-    b_bone_reef = "betternether:bone_reef",
-b_crimson_glowing_woods = "betternether:crimson_glowing_woods",
-b_crimson_pinewood = "betternether:crimson_pinewood",
-b_flooded_deltas = "betternether:flooded_deltas",
-b_gravel_desert = "betternether:gravel_desert",
-b_magma_land = "betternether:magma_land",
-b_nether_grasslands = "betternether:nether_grasslands",
-b_nether_jungle = "betternether:nether_jungle",
-b_nether_mushroom_forest = "betternether:nether_mushroom_forest",
-b_nether_mushroom_forest_edge = "betternether:nether_mushroom_forest_edge",
-b_nether_swampland = "betternether:nether_swampland",
-b_nether_swampland_terraces = "betternether:nether_swampland_terraces",
-b_old_fungiwoods = "betternether:old_fungiwoods",
-b_old_swampland = "betternether:old_swampland",
-b_old_warped_woods = "betternether:old_warped_woods",
-b_poor_nether_grasslands = "betternether:poor_nether_grasslands",
-b_soul_plain = "betternether:soul_plain",
-b_sulfuric_bone_reef = "betternether:sulfuric_bone_reef",
-b_upside_down_forest = "betternether:upside_down_forest",
-b_upside_down_forest_cleared = "betternether:upside_down_forest_cleared",
-b_wart_forest = "betternether:wart_forest",
-b_wart_forest_edge = "betternether:wart_forest_edge",
+export enum biome_undergarden {
+    b_ancient_sea = "undergarden:ancient_sea",
+b_barren_abyss = "undergarden:barren_abyss",
+b_blood_mushroom_bog = "undergarden:blood_mushroom_bog",
+b_dead_sea = "undergarden:dead_sea",
+b_dense_forest = "undergarden:dense_forest",
+b_forgotten_field = "undergarden:forgotten_field",
+b_frostfields = "undergarden:frostfields",
+b_frosty_smogstem_forest = "undergarden:frosty_smogstem_forest",
+b_gronglegrowth = "undergarden:gronglegrowth",
+b_icy_sea = "undergarden:icy_sea",
+b_indigo_mushroom_bog = "undergarden:indigo_mushroom_bog",
+b_ink_mushroom_bog = "undergarden:ink_mushroom_bog",
+b_smog_spires = "undergarden:smog_spires",
+b_smogstem_forest = "undergarden:smogstem_forest",
+b_veil_mushroom_bog = "undergarden:veil_mushroom_bog",
+b_wigglewood_forest = "undergarden:wigglewood_forest",
 
 }
 
 
 
-export enum biome_blue_skies {
-    b_brightlands = "blue_skies:brightlands",
-b_brisk_meadow = "blue_skies:brisk_meadow",
-b_brumble_forest = "blue_skies:brumble_forest",
-b_calming_skies = "blue_skies:calming_skies",
-b_crescent_orchard = "blue_skies:crescent_orchard",
-b_crescent_orchard_lake = "blue_skies:crescent_orchard_lake",
-b_crystal_dunes = "blue_skies:crystal_dunes",
-b_crystal_dunes_spikes = "blue_skies:crystal_dunes_spikes",
-b_crystal_roughs = "blue_skies:crystal_roughs",
-b_deep_peeking_ocean = "blue_skies:deep_peeking_ocean",
-b_frostbitten_forest = "blue_skies:frostbitten_forest",
-b_frostbitten_forest_clearing = "blue_skies:frostbitten_forest_clearing",
-b_midday_shore = "blue_skies:midday_shore",
-b_moonlit_reservoir = "blue_skies:moonlit_reservoir",
-b_peeking_ocean = "blue_skies:peeking_ocean",
-b_polar_highland = "blue_skies:polar_highland",
-b_rising_creek = "blue_skies:rising_creek",
-b_searing_grassland = "blue_skies:searing_grassland",
-b_shaded_woodlands = "blue_skies:shaded_woodlands",
-b_slushlands = "blue_skies:slushlands",
-b_snow_covered_pines = "blue_skies:snow_covered_pines",
-b_sunset_maple_forest = "blue_skies:sunset_maple_forest",
-b_unorthodox_valley = "blue_skies:unorthodox_valley",
+export type biome = biome_aether | biome_betternether | biome_biomesoplenty | biome_blue_skies | biome_blueprint | biome_callfromthedepth_ | biome_minecraft | biome_outer_end | biome_phantasm | biome_terrablender | biome_theabyss | biome_undergarden;
 
-}
-
-
-
-export enum biome_callfromthedepth_ {
-    b_deepamethistforest = "callfromthedepth_:deepamethistforest",
-b_deepdepth = "callfromthedepth_:deepdepth",
-b_deepforest = "callfromthedepth_:deepforest",
-b_deepmagma = "callfromthedepth_:deepmagma",
-b_deeprot = "callfromthedepth_:deeprot",
-b_lostsoulsbiome = "callfromthedepth_:lostsoulsbiome",
-b_skulkswamp = "callfromthedepth_:skulkswamp",
-b_strongsculkswamp = "callfromthedepth_:strongsculkswamp",
-
-}
-
-
-
-export enum biome_terrablender {
-    b_deferred_placeholder = "terrablender:deferred_placeholder",
-
-}
-
-
-
-export enum biome_phantasm {
-    b_dreaming_den = "phantasm:dreaming_den",
-
-}
-
-
-
-export enum biome_blueprint {
-    b_original_source_marker = "blueprint:original_source_marker",
-
-}
-
-
-
-export enum biome_aether {
-    b_skyroot_forest = "aether:skyroot_forest",
-b_skyroot_grove = "aether:skyroot_grove",
-b_skyroot_meadow = "aether:skyroot_meadow",
-b_skyroot_woodland = "aether:skyroot_woodland",
-
-}
-
-
-
-export type biome = biome_undergarden | biome_biomesoplenty | biome_outer_end | biome_minecraft | biome_theabyss | biome_betternether | biome_blue_skies | biome_callfromthedepth_ | biome_terrablender | biome_phantasm | biome_blueprint | biome_aether;
+export const biome_all = [...Object.values(biome_aether),...Object.values(biome_betternether),...Object.values(biome_biomesoplenty),...Object.values(biome_blue_skies),...Object.values(biome_blueprint),...Object.values(biome_callfromthedepth_),...Object.values(biome_minecraft),...Object.values(biome_outer_end),...Object.values(biome_phantasm),...Object.values(biome_terrablender),...Object.values(biome_theabyss),...Object.values(biome_undergarden)];
 
 module.exports = {
-    biome_undergarden, biome_biomesoplenty, biome_outer_end, biome_minecraft, biome_theabyss, biome_betternether, biome_blue_skies, biome_callfromthedepth_, biome_terrablender, biome_phantasm, biome_blueprint, biome_aether
+    biome_aether, biome_betternether, biome_biomesoplenty, biome_blue_skies, biome_blueprint, biome_callfromthedepth_, biome_minecraft, biome_outer_end, biome_phantasm, biome_terrablender, biome_theabyss, biome_undergarden
 }

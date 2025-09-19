@@ -23,6 +23,9 @@ const TYPE_TEMPLATE = `
 const TYPE_TS_TEMPLATE = `
 export type {{TYPE}} = {{CHILDREN}};
 `
+const LIST_ALL_TEMPLATE = `
+export const {{TYPE}} = [{{CHILDREN}}];
+`
 const EXPORT_TEMPLATE = `
 module.exports = {
     {{values}}
@@ -92,6 +95,9 @@ function createItemTSEnumTypedefs(inputPath, template, outputPath, prefix, repla
 
     const typeDef = TYPE_TS_TEMPLATE.replace("{{CHILDREN}}", modIdEnumStr).replace("{{TYPE}}", prefix);
     resultStr += typeDef;
+
+    const arrayDef = LIST_ALL_TEMPLATE.replace("{{TYPE}}", `${prefix}_all`).replace("{{CHILDREN}}", modIdEnums.map(x => `...Object.values(${x})`).join(','));
+    resultStr += arrayDef;
 
     const exportStr = EXPORT_TEMPLATE.replace("{{values}}", modIdEnums.join(", "));
     resultStr += exportStr;

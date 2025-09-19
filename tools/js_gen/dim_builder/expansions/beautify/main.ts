@@ -1,6 +1,6 @@
 import path from "path";
 import fs from "fs-extra";
-import {loadJsonFromPath} from "../../lib/utils";
+import {ensureFolderExists, loadJsonFromPath} from "../../lib/utils";
 import {StructureDefinition} from "../../lib/worldgen/structureDefinition";
 import {
     biome_aether, biome_betternether,
@@ -9,11 +9,20 @@ import {
     biome_theabyss, biome_undergarden
 } from "../../../typedefs/biome_typedefs";
 import {ExpansionPack} from "../../lib/expansionPack";
+import {BulkStructureReplacements, BulkStructureReplacementsSpecificReplacement} from "./types";
+import {block_all} from "../../../typedefs/block_typedefs";
+import {entity_all} from "../../../typedefs/entity_typedefs";
+import {useLogLevels} from "./log_levels";
+import {ReplaceBlockCommand, ReplaceEntityCommand} from "../../lib/worldgen/nbtStructure";
 
 const beautifyPath = path.join(process.cwd(), 'expansions', 'beautify')
 const dataPath = path.join(beautifyPath, 'data')
 const rawPath = path.join(dataPath, 'raw')
 const dimensionMappingPath = path.join(rawPath, 'dimension_mappings')
+const replacementsMappingPath = path.join(rawPath, 'replacements_mappings')
+
+useLogLevels();
+global.logLevel = 'warn'
 
 const fileToDimensionMappings = {
     'abyss.txt': 'theabyss:the_abyss',
@@ -96,6 +105,85 @@ async function loadJsons() {
     }
 }
 
+function loadPalleteMap(dimension: string, structures: StructureDefinition[]) {
+    const exportPath = path.join(replacementsMappingPath, dimension + '.json')
+    const perStructureMappings = structures.map(structureDef => {
+        return {
+            structureName: structureDef.internalName,
+            nbts: structureDef.nbts.map(nbt => {
+                return {
+                    entities: nbt.exportEntities(),
+                    blocks: nbt.exportPalette()
+                }
+            })
+        }
+    });
+
+    const allBlocks = [];
+    const allEntities = [];
+    for (const structureMapping of perStructureMappings) {
+        for (const nbt of structureMapping.nbts) {
+            for (const block of nbt.blocks) {
+                if (allBlocks.indexOf(block) === -1) {
+                    allBlocks.push(block);
+                }
+            }
+            for (const entity of nbt.entities) {
+                if (allEntities.indexOf(entity) === -1) {
+                    allEntities.push(entity);
+                }
+            }
+        }
+    }
+    const allBlocksDict = {};
+    const allEntitiesDict = {};
+    for (const block of allBlocks) {
+        allBlocksDict[block] = block;
+    }
+    for (const entity of allEntities) {
+        allEntitiesDict[entity] = entity;
+    }
+    const specificReplacements: BulkStructureReplacementsSpecificReplacement[] = [];
+
+
+    if (fs.existsSync(exportPath)) {
+        const inputData = fs.readFileSync(exportPath, 'utf8');
+        const inputJson: BulkStructureReplacements = JSON.parse(inputData);
+        if (!!inputJson) {
+            for (const bulkReplacement of Object.keys(inputJson.bulkReplacements.blocks)) {
+                // if (!Object.values(block_all).includes(inputJson.bulkReplacements.blocks[bulkReplacement])) {
+                //     console.warn(`The mapping for the block ${bulkReplacement} does not exist in ${exportPath}. Actual value: ${inputJson.bulkReplacements.blocks[bulkReplacement]}`);
+                // }
+                allBlocksDict[bulkReplacement] = inputJson.bulkReplacements.blocks[bulkReplacement];
+            }
+            for (const bulkReplacement of Object.keys(inputJson.bulkReplacements.entities)) {
+                // if (!Object.values(entity_all).includes(inputJson.bulkReplacements.entities[bulkReplacement])) {
+                //     console.warn(`The mapping for the entity ${bulkReplacement} does not exist in ${exportPath}. Actual value: ${inputJson.bulkReplacements.entities[bulkReplacement]}`);
+                // }
+                allEntitiesDict[bulkReplacement] = inputJson.bulkReplacements.entities[bulkReplacement];
+            }
+            for (const specificReplacement of inputJson.specificReplacements) {
+                specificReplacements.push(specificReplacement);
+            }
+        }
+    }
+
+    const exportJson: BulkStructureReplacements = {
+        bulkReplacements: {
+            blocks: allBlocksDict,
+            entities: allEntitiesDict
+        },
+        specificReplacements: specificReplacements
+    }
+
+    const json = JSON.stringify(exportJson, null,4);
+    ensureFolderExists(replacementsMappingPath);
+    fs.writeFileSync(exportPath, json, 'utf8');
+
+    return exportJson;
+}
+
+
 // Create basic structures
 const modId = "zoompack_beautify";
 async function createExpansionPack() {
@@ -117,6 +205,35 @@ async function createExpansionPack() {
             definition.removeBiomes()
                 .onBiomes(biomeMappings[mapping.filename])
             structureDefinitions.push(definition);
+        }
+        const palleteMap = loadPalleteMap(dimensionName, structureDefinitions);
+        for (const structureDefinition of structureDefinitions) {
+            const combinedBlockPallete: {} = JSON.parse(JSON.stringify(palleteMap.bulkReplacements.blocks));
+            const combinedEntityPallete: {} = JSON.parse(JSON.stringify(palleteMap.bulkReplacements.entities));
+            const overridesIndex = palleteMap.specificReplacements.findIndex(x => x.structureId === structureDefinition.internalName);
+            if (overridesIndex >= 0) {
+                const overrides = palleteMap.specificReplacements[overridesIndex];
+                for (const blockOverride of Object.keys(overrides.blocks)) {
+                    combinedBlockPallete[blockOverride] = overrides.blocks[blockOverride];
+                }
+                for (const entityOverride of Object.keys(overrides.entities)) {
+                    combinedEntityPallete[entityOverride] = overrides.entities[entityOverride];
+                }
+            }
+            const blockCommands: ReplaceBlockCommand[] = Object.keys(combinedBlockPallete).map(x => {
+                return {
+                    oldBlock: x,
+                    newBlock: combinedBlockPallete[x],
+                }
+            });
+            const entityCommands: ReplaceEntityCommand[] = Object.keys(combinedEntityPallete).map(x => {
+                return {
+                    oldEntity: x,
+                    newEntity: combinedEntityPallete[x],
+                }
+            });
+            structureDefinition.replaceBlocks(blockCommands)
+            structureDefinition.replaceEntities(entityCommands)
         }
 
 

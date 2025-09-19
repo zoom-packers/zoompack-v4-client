@@ -81,7 +81,7 @@ export class StructureDefinition extends BasicDataHolder<StructureDefinition> {
                 structure.start_pool = this.internalNamespace + ':' + this.internalName + '_' + structure.start_pool.split(':')[1];
             }
             else {
-                console.warn(`Structure ${structure.internalName} has no start_pool. Might be a dynamic structure. Please check to make sure.`)
+                console.warn(`Structure ${`${worldgenFolder}/structure/${removeNamespace(structureEntry.structure)}.json`} has no start_pool. Might be a dynamic structure. Please check to make sure.`)
             }
             structure.withNamespace(this.internalNamespace).withName(removeNamespace(structureEntry.structure));
             structureEntry.structure = this.internalNamespace + ":" + structureEntry.structure.split(":")[1];
