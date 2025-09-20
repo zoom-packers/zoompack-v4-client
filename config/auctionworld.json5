@@ -1,25 +1,21 @@
 {
-  "currencies": [
-    "dotcoinmod:bronze_coin",
-    "dotcoinmod:silver_coin",
-    "dotcoinmod:gold_coin",
-    "dotcoinmod:emerald_coin",
-    "dotcoinmod:diamond_coin"
-  ],
-  "currencyAliases": [
-    "Bronze Coin",
-    "Silver Coin",
-    "Gold Coin",
-    "Emerald Coin",
-    "Diamond Coin"
-  ],
-  "startingCurrencies": [
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "listingFee": -1,
-  "addTimeAfterBid": -1
+    "currencies": [
+        "dotcoinmod:bronze_coin",
+        "dotcoinmod:silver_coin",
+        "dotcoinmod:gold_coin",
+        "dotcoinmod:emerald_coin",
+        "dotcoinmod:diamond_coin"
+    ],
+    "startingCurrencies": [
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "disableOpenGuiCommandForNonAdmins": true,
+    "listingFee": -1,
+    "addTimeAfterBid": -1,
+    "dotcoinModIntegration": true,
+    "useDefaultDotCoinEconomy": false
 }
