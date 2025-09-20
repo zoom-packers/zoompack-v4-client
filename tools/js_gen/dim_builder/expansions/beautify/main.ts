@@ -10,10 +10,8 @@ import {
 } from "../../../typedefs/biome_typedefs";
 import {ExpansionPack} from "../../lib/expansionPack";
 import {BulkStructureReplacements, BulkStructureReplacementsSpecificReplacement} from "./types";
-import {block_all} from "../../../typedefs/block_typedefs";
-import {entity_all} from "../../../typedefs/entity_typedefs";
 import {useLogLevels} from "./log_levels";
-import {ReplaceBlockCommand, ReplaceEntityCommand} from "../../lib/worldgen/nbtStructure";
+import {ReplaceBlockCommand, ReplaceEntityCommand, ReplaceLootTableCommand} from "../../lib/worldgen/nbtStructure";
 
 const beautifyPath = path.join(process.cwd(), 'expansions', 'beautify')
 const dataPath = path.join(beautifyPath, 'data')
@@ -113,7 +111,8 @@ function loadPalleteMap(dimension: string, structures: StructureDefinition[]) {
             nbts: structureDef.nbts.map(nbt => {
                 return {
                     entities: nbt.exportEntities(),
-                    blocks: nbt.exportPalette()
+                    blocks: nbt.exportPalette(),
+                    loot_tables: nbt.exportLootTables()
                 }
             })
         }
@@ -121,6 +120,7 @@ function loadPalleteMap(dimension: string, structures: StructureDefinition[]) {
 
     const allBlocks = [];
     const allEntities = [];
+    const allLootTables = [];
     for (const structureMapping of perStructureMappings) {
         for (const nbt of structureMapping.nbts) {
             for (const block of nbt.blocks) {
@@ -133,15 +133,24 @@ function loadPalleteMap(dimension: string, structures: StructureDefinition[]) {
                     allEntities.push(entity);
                 }
             }
+            for (const lootTable of nbt.loot_tables) {
+                if (allLootTables.indexOf(lootTable) === -1) {
+                    allLootTables.push(lootTable);
+                }
+            }
         }
     }
     const allBlocksDict = {};
     const allEntitiesDict = {};
+    const allLootTablesDict = {};
     for (const block of allBlocks) {
         allBlocksDict[block] = block;
     }
     for (const entity of allEntities) {
         allEntitiesDict[entity] = entity;
+    }
+    for (const lootTable of allLootTables) {
+        allLootTablesDict[lootTable] = lootTable;
     }
     const specificReplacements: BulkStructureReplacementsSpecificReplacement[] = [];
 
@@ -162,6 +171,14 @@ function loadPalleteMap(dimension: string, structures: StructureDefinition[]) {
                 // }
                 allEntitiesDict[bulkReplacement] = inputJson.bulkReplacements.entities[bulkReplacement];
             }
+            if (inputJson.bulkReplacements.lootTables) {
+                for (const bulkReplacement of Object.keys(inputJson.bulkReplacements.lootTables)) {
+                    // if (!Object.values(entity_all).includes(inputJson.bulkReplacements.entities[bulkReplacement])) {
+                    //     console.warn(`The mapping for the entity ${bulkReplacement} does not exist in ${exportPath}. Actual value: ${inputJson.bulkReplacements.entities[bulkReplacement]}`);
+                    // }
+                    allLootTablesDict[bulkReplacement] = inputJson.bulkReplacements.lootTables[bulkReplacement];
+                }
+            }
             for (const specificReplacement of inputJson.specificReplacements) {
                 specificReplacements.push(specificReplacement);
             }
@@ -171,7 +188,8 @@ function loadPalleteMap(dimension: string, structures: StructureDefinition[]) {
     const exportJson: BulkStructureReplacements = {
         bulkReplacements: {
             blocks: allBlocksDict,
-            entities: allEntitiesDict
+            entities: allEntitiesDict,
+            lootTables: allLootTablesDict,
         },
         specificReplacements: specificReplacements
     }
@@ -210,14 +228,24 @@ async function createExpansionPack() {
         for (const structureDefinition of structureDefinitions) {
             const combinedBlockPallete: {} = JSON.parse(JSON.stringify(palleteMap.bulkReplacements.blocks));
             const combinedEntityPallete: {} = JSON.parse(JSON.stringify(palleteMap.bulkReplacements.entities));
+            const combinedLootTables: {} = JSON.parse(JSON.stringify(palleteMap.bulkReplacements.lootTables));
             const overridesIndex = palleteMap.specificReplacements.findIndex(x => x.structureId === structureDefinition.internalName);
             if (overridesIndex >= 0) {
                 const overrides = palleteMap.specificReplacements[overridesIndex];
-                for (const blockOverride of Object.keys(overrides.blocks)) {
-                    combinedBlockPallete[blockOverride] = overrides.blocks[blockOverride];
+                if (overrides.blocks) {
+                    for (const blockOverride of Object.keys(overrides.blocks)) {
+                        combinedBlockPallete[blockOverride] = overrides.blocks[blockOverride];
+                    }
                 }
-                for (const entityOverride of Object.keys(overrides.entities)) {
-                    combinedEntityPallete[entityOverride] = overrides.entities[entityOverride];
+                if (overrides.entities) {
+                    for (const entityOverride of Object.keys(overrides.entities)) {
+                        combinedEntityPallete[entityOverride] = overrides.entities[entityOverride];
+                    }
+                }
+                if (overrides.lootTables) {
+                    for (const lootTableOverride of Object.keys(overrides.lootTables)) {
+                        combinedLootTables[lootTableOverride] = overrides.lootTables[lootTableOverride];
+                    }
                 }
             }
             const blockCommands: ReplaceBlockCommand[] = Object.keys(combinedBlockPallete).map(x => {
@@ -232,8 +260,15 @@ async function createExpansionPack() {
                     newEntity: combinedEntityPallete[x],
                 }
             });
+            const lootTableCommands: ReplaceLootTableCommand[] = Object.keys(combinedLootTables).map(x => {
+                return {
+                    oldLootTable: x,
+                    newLootTable: combinedLootTables[x]
+                }
+            })
             structureDefinition.replaceBlocks(blockCommands)
             structureDefinition.replaceEntities(entityCommands)
+            structureDefinition.replaceLootTables(lootTableCommands)
         }
 
 

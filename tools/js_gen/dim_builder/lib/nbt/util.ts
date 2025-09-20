@@ -3,7 +3,7 @@ import * as nbt from "prismarine-nbt"
 import {List, Tags, TagType} from "prismarine-nbt"
 import {gzip} from "node-gzip";
 import {getModData, loadBufferFromMod, loadTextFromMod} from "../jar_util";
-import {BlockResourceLocation, EntityResourceLocation} from "../types";
+import {BlockResourceLocation, EntityResourceLocation, LootTableResourceLocation} from "../types";
 
 export async function readNbtFile(path: string) {
     if (path.startsWith("jar:")) {
@@ -74,6 +74,24 @@ export function exportNbtPalette(data: nbt.NBT): BlockResourceLocation[] {
     return blocks;
 }
 
+export function exportNbtLootTables(data: nbt.NBT): LootTableResourceLocation[] {
+    const lootTables = [];
+    const blocks = data.value.blocks as List<TagType.Compound>
+    for (const block of blocks.value.value) {
+        if (!block.nbt) {
+            continue;
+        }
+        var nbt = block.nbt.value as TagType.Compound;
+        if (!nbt || !nbt["LootTable"]) {
+            continue;
+        }
+        var lootTable = nbt["LootTable"].value as string
+        lootTables.push(lootTable);
+    }
+
+    return lootTables;
+}
+
 export function exportNbtEntities(data: nbt.NBT): EntityResourceLocation[] {
     const palette = data.value.entities as List<TagType.String>
     const entities: EntityResourceLocation[] = [];
@@ -95,3 +113,19 @@ export async function editNbtEntities(data: nbt.NBT, oldEntity: string, newEntit
     }
 }
 
+export async function editNbtLootTables(data: nbt.NBT, oldLootTable: string, newLootTable: string) {
+    const blocks = data.value.blocks as List<TagType.Compound>
+    for (const block of blocks.value.value) {
+        if (!block.nbt) {
+            continue;
+        }
+        const nbt = block.nbt.value as TagType.Compound;
+        if (!nbt || !nbt["LootTable"]) {
+            continue;
+        }
+        const lootTable = nbt["LootTable"].value as string
+        if (lootTable === oldLootTable) {
+            nbt["LootTable"].value = newLootTable;
+        }
+    }
+}

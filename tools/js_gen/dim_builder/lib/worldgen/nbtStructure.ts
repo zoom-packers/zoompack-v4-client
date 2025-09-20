@@ -4,7 +4,7 @@ import {ensureFolderExists} from "../utils";
 import {
     editNbtEntities,
     editNbtPalette,
-    exportNbtEntities,
+    exportNbtEntities, exportNbtLootTables,
     exportNbtPalette,
     readNbtFile,
     writeNbtFile
@@ -12,6 +12,7 @@ import {
 
 export type ReplaceBlockCommand = { oldBlock: string, newBlock: string };
 export type ReplaceEntityCommand = { oldEntity: string, newEntity: string };
+export type ReplaceLootTableCommand = { oldLootTable: string, newLootTable: string };
 
 
 export class NbtStructure extends SelfWritingJson {
@@ -21,6 +22,7 @@ export class NbtStructure extends SelfWritingJson {
     type: nbt.NBTFormat;
     replaceBlockCommands: ReplaceBlockCommand[] = [];
     replaceEntityCommands: ReplaceEntityCommand[] = [];
+    replaceLootTableCommands: ReplaceLootTableCommand[] = [];
 
     constructor(name: string = "", namespace: string = "") {
         super(namespace, name, NbtStructure.outputPath);
@@ -66,12 +68,21 @@ export class NbtStructure extends SelfWritingJson {
         return this;
     }
 
+    replaceLootTable(command: ReplaceLootTableCommand) {
+        this.replaceLootTableCommands.push(command);
+        return this;
+    }
+
     exportPalette() {
         return exportNbtPalette(this.data);
     }
 
     exportEntities() {
         return exportNbtEntities(this.data);
+    }
+
+    exportLootTables() {
+        return exportNbtLootTables(this.data);
     }
 
     override validate() {

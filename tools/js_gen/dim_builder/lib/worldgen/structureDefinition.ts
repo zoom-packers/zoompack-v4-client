@@ -1,6 +1,6 @@
 import {BasicDataHolder} from "../selfWritingJson";
 
-import {NbtStructure, ReplaceBlockCommand, ReplaceEntityCommand} from "./nbtStructure";
+import {NbtStructure, ReplaceBlockCommand, ReplaceEntityCommand, ReplaceLootTableCommand} from "./nbtStructure";
 import {StructureSet} from "./structureSet";
 import {Structure} from "./structure";
 import {TemplatePool} from "./templatePool";
@@ -208,6 +208,15 @@ export class StructureDefinition extends BasicDataHolder<StructureDefinition> {
         return this;
     }
 
+    replaceLootTable(command: ReplaceLootTableCommand) {
+        this.nbts.forEach(nbt => nbt.replaceLootTable(command));
+        return this;
+    }
+
+    replaceLootTables(commands: ReplaceLootTableCommand[]) {
+        commands.forEach(command => this.nbts.forEach(nbt => nbt.replaceLootTable(command)));
+    }
+
     removeBiomes() {
         this.structures.forEach(structure => structure.removeBiomes());
         return this;
@@ -234,6 +243,16 @@ export class StructureDefinition extends BasicDataHolder<StructureDefinition> {
         const commands: ReplaceEntityCommand[] = [];
         for (const [oldEntity, newEntity] of map) {
             commands.push({oldEntity, newEntity});
+        }
+        return commands
+    }
+
+    createLootTableReplacementMap() {
+        const lootTables = this.nbts.map(nbt => nbt.exportLootTables());
+        const map = StructureDefinition.nbtCollectionToMap(lootTables);
+        const commands: ReplaceLootTableCommand[] = [];
+        for (const [oldLootTable, newLootTable] of map) {
+            commands.push({oldLootTable, newLootTable});
         }
         return commands
     }

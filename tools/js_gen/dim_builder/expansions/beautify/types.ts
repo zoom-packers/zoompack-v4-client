@@ -6,11 +6,13 @@ export type BulkStructureReplacements = {
 
 export type BulkStructureReplacementsMain = {
     blocks: {}
-    entities: {}
+    entities: {},
+    lootTables: {},
 }
 
 export type BulkStructureReplacementsSpecificReplacement = {
     structureId: string
     blocks: {},
-    entities: {}
+    entities: {},
+    lootTables: {},
 }
