@@ -7,14 +7,14 @@
             "type": "origins:and",
             "conditions": [
                 {
-                    "type": "origins:scoreboard",
-                    "objective": "pmmo_farming",
+                    "type": "zoompack_overrides_forge:pmmo_skill",
+                    "skill": "farming",
                     "comparison": ">=",
                     "compare_to": 0
                 },
                 {
-                    "type": "origins:scoreboard",
-                    "objective": "pmmo_farming",
+                    "type": "zoompack_overrides_forge:pmmo_skill",
+                    "skill": "farming",
                     "comparison": "<",
                     "compare_to": 20
                 }
@@ -35,14 +35,14 @@
             "type": "origins:and",
             "conditions": [
                 {
-                    "type": "origins:scoreboard",
-                    "objective": "pmmo_farming",
+                    "type": "zoompack_overrides_forge:pmmo_skill",
+                    "skill": "farming",
                     "comparison": ">=",
                     "compare_to": 20
                 },
                 {
-                    "type": "origins:scoreboard",
-                    "objective": "pmmo_farming",
+                    "type": "zoompack_overrides_forge:pmmo_skill",
+                    "skill": "farming",
                     "comparison": "<",
                     "compare_to": 40
                 }
@@ -63,14 +63,14 @@
             "type": "origins:and",
             "conditions": [
                 {
-                    "type": "origins:scoreboard",
-                    "objective": "pmmo_farming",
+                    "type": "zoompack_overrides_forge:pmmo_skill",
+                    "skill": "farming",
                     "comparison": ">=",
                     "compare_to": 40
                 },
                 {
-                    "type": "origins:scoreboard",
-                    "objective": "pmmo_farming",
+                    "type": "zoompack_overrides_forge:pmmo_skill",
+                    "skill": "farming",
                     "comparison": "<",
                     "compare_to": 60
                 }
@@ -91,14 +91,14 @@
             "type": "origins:and",
             "conditions": [
                 {
-                    "type": "origins:scoreboard",
-                    "objective": "pmmo_farming",
+                    "type": "zoompack_overrides_forge:pmmo_skill",
+                    "skill": "farming",
                     "comparison": ">=",
                     "compare_to": 60
                 },
                 {
-                    "type": "origins:scoreboard",
-                    "objective": "pmmo_farming",
+                    "type": "zoompack_overrides_forge:pmmo_skill",
+                    "skill": "farming",
                     "comparison": "<",
                     "compare_to": 80
                 }
@@ -119,14 +119,14 @@
             "type": "origins:and",
             "conditions": [
                 {
-                    "type": "origins:scoreboard",
-                    "objective": "pmmo_farming",
+                    "type": "zoompack_overrides_forge:pmmo_skill",
+                    "skill": "farming",
                     "comparison": ">=",
                     "compare_to": 80
                 },
                 {
-                    "type": "origins:scoreboard",
-                    "objective": "pmmo_farming",
+                    "type": "zoompack_overrides_forge:pmmo_skill",
+                    "skill": "farming",
                     "comparison": "<",
                     "compare_to": 1000
                 }
