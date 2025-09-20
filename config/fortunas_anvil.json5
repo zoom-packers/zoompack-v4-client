@@ -1,512 +1,897 @@
 {
-  // The list of upgrades for each item type. Edit with caution.
-  "upgrades": [
-    {
-      "type": "Swords and Similar",
-      "classNames": [
-        "net.minecraft.world.item.SwordItem",
-        "net.minecraft.world.item.AxeItem"
-      ],
-      "additionalIds": [],
-      "blacklistedIds": [],
-      "validSlots": [
-        "MAINHAND"
-      ],
-      "modifiers": [
+    // The list of upgrades for each item type. Edit with caution.
+    "upgrades": [
         {
-          "attribute": "minecraft:generic.attack_damage",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
+            "type": "Swords and Similar",
+            "classNames": [
+                "net.minecraft.world.item.SwordItem",
+                "net.minecraft.world.item.AxeItem"
+            ],
+            "additionalIds": [],
+            "blacklistedIds": [],
+            "validSlots": [
+                "MAINHAND"
+            ],
+            "modifiers": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                }
+            ]
         },
         {
-          "attribute": "minecraft:generic.attack_damage",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
+            "type": "Armor",
+            "classNames": [
+                "net.minecraft.world.item.ArmorItem"
+            ],
+            "additionalIds": [],
+            "blacklistedIds": [],
+            "validSlots": [
+                "HEAD",
+                "CHEST",
+                "LEGS",
+                "FEET"
+            ],
+            "modifiers": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                }
+            ]
+        },
+        {
+            "type": "Shields",
+            "classNames": [
+                "net.minecraft.world.item.ShieldItem"
+            ],
+            "additionalIds": [],
+            "blacklistedIds": [],
+            "validSlots": [
+                "OFFHAND"
+            ],
+            "modifiers": [
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                }
+            ]
+        },
+        {
+            "type": "Bows, Crossbows, and Similar",
+            "classNames": [
+                "net.minecraft.world.item.BowItem",
+                "net.minecraft.world.item.CrossbowItem"
+            ],
+            "additionalIds": [],
+            "blacklistedIds": [],
+            "validSlots": [
+                "MAINHAND"
+            ],
+            "modifiers": [
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                }
+            ]
+        },
+        {
+            "type": "Tridents and Similar",
+            "classNames": [
+                "net.minecraft.world.item.TridentItem"
+            ],
+            "additionalIds": [],
+            "blacklistedIds": [],
+            "validSlots": [
+                "MAINHAND"
+            ],
+            "modifiers": [
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "projectile_damage:generic",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                }
+            ]
+        },
+        {
+            "type": "Iron Spells \u0026 Spellbooks",
+            "classNames": [
+                "io.redspace.ironsspellbooks.item.SpellBook",
+                "io.redspace.ironsspellbooks.item.CastingItem"
+            ],
+            "additionalIds": [],
+            "blacklistedIds": [],
+            "validSlots": [
+                "MAINHAND",
+                "OFFHAND"
+            ],
+            "modifiers": [
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:max_mana",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:mana_regen",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_power",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_resist",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:spell_resist",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:cast_time_reduction",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:cast_time_reduction",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:summon_damage",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:summon_damage",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:fire_magic_resist",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:fire_magic_resist",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:ice_magic_resist",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:ice_magic_resist",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:lightning_magic_resist",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:lightning_magic_resist",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:holy_magic_resist",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:holy_magic_resist",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:ender_magic_resist",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:ender_magic_resist",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:blood_magic_resist",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:blood_magic_resist",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:evocation_magic_resist",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:evocation_magic_resist",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:nature_magic_resist",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:nature_magic_resist",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:eldritch_magic_resist",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:eldritch_magic_resist",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:fire_spell_power",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:ice_spell_power",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:lightning_spell_power",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:holy_spell_power",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:ender_spell_power",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:ender_spell_power",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:blood_spell_power",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:evocation_spell_power",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:evocation_spell_power",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:nature_spell_power",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:eldritch_spell_power",
+                    "operation": "ADDITION",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                },
+                {
+                    "attribute": "irons_spellbooks:eldritch_spell_power",
+                    "operation": "MULTIPLY_BASE",
+                    "flatAddition": 0.0,
+                    "additionPerLevel": 0.025
+                }
+            ]
         }
-      ]
-    },
-    {
-      "type": "Armor",
-      "classNames": [
-        "net.minecraft.world.item.ArmorItem"
-      ],
-      "additionalIds": [],
-      "blacklistedIds": [],
-      "validSlots": [
-        "HEAD",
-        "CHEST",
-        "LEGS",
-        "FEET"
-      ],
-      "modifiers": [
+    ],
+    // The list of dynamic loot entries. LootChance is the base chance for the loot to spawn. LootWeights is the list of weights for each loot level.
+    // Loot levels are based off the catalysts & materials. The first entry is the lowest level, and the last entry is the highest level.
+    "lootEntries": [
         {
-          "attribute": "minecraft:generic.armor",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
+            "modId": "minecraft",
+            "regex": ".*village.*",
+            "lootChance": 10,
+            "lootWeights": [
+                10,
+                8,
+                1
+            ]
         },
         {
-          "attribute": "minecraft:generic.armor_toughness",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
+            "modId": "*",
+            "regex": ".*end.*",
+            "lootChance": 100,
+            "lootWeights": [
+                3,
+                8,
+                6
+            ]
         },
         {
-          "attribute": "minecraft:generic.max_health",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
+            "modId": "*",
+            "regex": ".*dungeon.*",
+            "lootChance": 80,
+            "lootWeights": [
+                5,
+                10,
+                5
+            ]
         },
         {
-          "attribute": "minecraft:generic.armor",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
+            "modId": "*",
+            "regex": ".*bastion.*",
+            "lootChance": 80,
+            "lootWeights": [
+                5,
+                10,
+                5
+            ]
         },
         {
-          "attribute": "minecraft:generic.armor_toughness",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
+            "modId": "*",
+            "regex": ".*fortress.*",
+            "lootChance": 80,
+            "lootWeights": [
+                5,
+                10,
+                5
+            ]
         },
         {
-          "attribute": "minecraft:generic.max_health",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
+            "modId": "*",
+            "regex": ".*treasure.*",
+            "lootChance": 100,
+            "lootWeights": [
+                3,
+                8,
+                6
+            ]
+        },
+        {
+            "modId": "*",
+            "regex": ".*chest.*",
+            "lootChance": 20,
+            "lootWeights": [
+                10,
+                8,
+                1
+            ]
         }
-      ]
-    },
-    {
-      "type": "Shields",
-      "classNames": [
-        "net.minecraft.world.item.ShieldItem"
-      ],
-      "additionalIds": [],
-      "blacklistedIds": [],
-      "validSlots": [
-        "OFFHAND"
-      ],
-      "modifiers": [
+    ],
+    "enhanceLootPowers": [
         {
-          "attribute": "minecraft:generic.armor",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
+            "modId": "blue_skies",
+            "regex": ".*chest.*",
+            "lootChance": 20,
+            "min": 2,
+            "max": 4
         },
         {
-          "attribute": "minecraft:generic.armor_toughness",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
+            "modId": "blue_skies",
+            "regex": ".*treasure.*",
+            "lootChance": 70,
+            "min": 2,
+            "max": 4
         },
         {
-          "attribute": "minecraft:generic.max_health",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
+            "modId": "dungeoncrawl",
+            "regex": ".*everbright.*",
+            "lootChance": 20,
+            "min": 2,
+            "max": 4
         },
         {
-          "attribute": "minecraft:generic.armor",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
+            "modId": "dungeoncrawl",
+            "regex": ".*everdawn.*",
+            "lootChance": 20,
+            "min": 2,
+            "max": 4
         },
         {
-          "attribute": "minecraft:generic.armor_toughness",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
+            "modId": "zoompack_beautify_everbright",
+            "regex": ".*chest.*",
+            "lootChance": 20,
+            "min": 2,
+            "max": 4
         },
         {
-          "attribute": "minecraft:generic.max_health",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
+            "modId": "zoompack_beautify_everdawn",
+            "regex": ".*chest.*",
+            "lootChance": 20,
+            "min": 2,
+            "max": 4
+        },
+        {
+            "modId": "aether",
+            "regex": ".*chest.*",
+            "lootChance": 20,
+            "min": 3,
+            "max": 7
+        },
+        {
+            "modId": "aether",
+            "regex": ".*treasure.*",
+            "lootChance": 70,
+            "min": 3,
+            "max": 7
+        },
+        {
+            "modId": "zoompack_beautify_aether",
+            "regex": ".*chest.*",
+            "lootChance": 70,
+            "min": 3,
+            "max": 7
+        },
+        {
+            "modId": "dungeoncrawl",
+            "regex": ".*aether.*",
+            "lootChance": 70,
+            "min": 3,
+            "max": 7
+        },
+        {
+            "modId": "betternether",
+            "regex": ".*chest.*",
+            "lootChance": 20,
+            "min": 6,
+            "max": 11
+        },
+        {
+            "modId": "betternether",
+            "regex": ".*treasure.*",
+            "lootChance": 70,
+            "min": 6,
+            "max": 11
+        },
+        {
+            "modId": "zoompack_beautify_nether",
+            "regex": ".*chest.*",
+            "lootChance": 70,
+            "min": 6,
+            "max": 11
+        },
+        {
+            "modId": "dungeoncrawl",
+            "regex": ".*nether.*",
+            "lootChance": 70,
+            "min": 6,
+            "max": 11
+        },
+        {
+            "modId": "nethervinery",
+            "regex": ".*chest.*",
+            "lootChance": 70,
+            "min": 6,
+            "max": 11
+        },
+        {
+            "modId": "*",
+            "regex": ".*nether_.*",
+            "lootChance": 70,
+            "min": 6,
+            "max": 11
+        },
+        {
+            "modId": "undergarden",
+            "regex": ".*chest.*",
+            "lootChance": 20,
+            "min": 10,
+            "max": 16
+        },
+        {
+            "modId": "undergarden",
+            "regex": ".*treasure.*",
+            "lootChance": 70,
+            "min": 10,
+            "max": 16
+        },
+        {
+            "modId": "zoompack_beautify_nether",
+            "regex": ".*chest.*",
+            "lootChance": 20,
+            "min": 10,
+            "max": 16
+        },
+        {
+            "modId": "dungeoncrawl",
+            "regex": ".*undergarden.*",
+            "lootChance": 70,
+            "min": 21,
+            "max": 28
+        },
+        {
+            "modId": "callfromthedepth_",
+            "regex": ".*chest.*",
+            "lootChance": 20,
+            "min": 15,
+            "max": 22
+        },
+        {
+            "modId": "callfromthedepth_",
+            "regex": ".*treasure.*",
+            "lootChance": 70,
+            "min": 15,
+            "max": 22
+        },
+        {
+            "modId": "zoompack_beautify_depth",
+            "regex": ".*chest.*",
+            "lootChance": 20,
+            "min": 15,
+            "max": 22
+        },
+        {
+            "modId": "dungeoncrawl",
+            "regex": ".*depth.*",
+            "lootChance": 70,
+            "min": 21,
+            "max": 28
+        },
+        {
+            "modId": "endlessbiomes",
+            "regex": ".*chest.*",
+            "lootChance": 20,
+            "min": 21,
+            "max": 28
+        },
+        {
+            "modId": "endrem",
+            "regex": ".*chest.*",
+            "lootChance": 20,
+            "min": 21,
+            "max": 28
+        },
+        {
+            "modId": "outer_end",
+            "regex": ".*chest.*",
+            "lootChance": 70,
+            "min": 21,
+            "max": 28
+        },
+        {
+            "modId": "zoompack_beautify_end",
+            "regex": ".*chest.*",
+            "lootChance": 20,
+            "min": 21,
+            "max": 28
+        },
+        {
+            "modId": "dungeoncrawl",
+            "regex": ".*end.*",
+            "lootChance": 70,
+            "min": 21,
+            "max": 28
+        },
+        {
+            "modId": "farmersdelight",
+            "regex": ".*fd_end_city_treasure.*",
+            "lootChance": 70,
+            "min": 21,
+            "max": 28
+        },
+        {
+            "modId": "minecraft",
+            "regex": ".*chests/end.*",
+            "lootChance": 70,
+            "min": 21,
+            "max": 28
+        },
+        {
+            "modId": "abuhussains_structure",
+            "regex": ".*chest.*",
+            "lootChance": 20,
+            "min": 21,
+            "max": 28
+        },
+        {
+            "modId": "theabyss",
+            "regex": ".*chest.*",
+            "lootChance": 20,
+            "min": 25,
+            "max": 35
+        },
+        {
+            "modId": "theabyss",
+            "regex": ".*treasure.*",
+            "lootChance": 70,
+            "min": 25,
+            "max": 35
+        },
+        {
+            "modId": "zoompack_beautify_abyss",
+            "regex": ".*chest.*",
+            "lootChance": 20,
+            "min": 25,
+            "max": 35
+        },
+        {
+            "modId": "dungeoncrawl",
+            "regex": ".*abyss.*",
+            "lootChance": 70,
+            "min": 21,
+            "max": 28
+        },
+        {
+            "modId": "minecraft",
+            "regex": ".*village.*",
+            "lootChance": 10,
+            "min": 1,
+            "max": 3
+        },
+        {
+            "modId": "*",
+            "regex": ".*end.*",
+            "lootChance": 100,
+            "min": 21,
+            "max": 28
+        },
+        {
+            "modId": "*",
+            "regex": ".*dungeon.*",
+            "lootChance": 80,
+            "min": 2,
+            "max": 5
+        },
+        {
+            "modId": "*",
+            "regex": ".*bastion.*",
+            "lootChance": 80,
+            "min": 6,
+            "max": 11
+        },
+        {
+            "modId": "*",
+            "regex": ".*fortress.*",
+            "lootChance": 80,
+            "min": 6,
+            "max": 11
+        },
+        {
+            "modId": "*",
+            "regex": ".*treasure.*",
+            "lootChance": 70,
+            "min": 4,
+            "max": 8
+        },
+        {
+            "modId": "*",
+            "regex": ".*chest.*",
+            "lootChance": 20,
+            "min": 1,
+            "max": 3
         }
-      ]
-    },
-    {
-      "type": "Bows, Crossbows, and Similar",
-      "classNames": [
-        "net.minecraft.world.item.BowItem",
-        "net.minecraft.world.item.CrossbowItem"
-      ],
-      "additionalIds": [],
-      "blacklistedIds": [],
-      "validSlots": [
-        "MAINHAND"
-      ],
-      "modifiers": [
-        {
-          "attribute": "projectile_damage:generic",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "minecraft:generic.attack_damage",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        }
-      ]
-    },
-    {
-      "type": "Tridents and Similar",
-      "classNames": [
-        "net.minecraft.world.item.TridentItem"
-      ],
-      "additionalIds": [],
-      "blacklistedIds": [],
-      "validSlots": [
-        "MAINHAND"
-      ],
-      "modifiers": [
-        {
-          "attribute": "minecraft:generic.attack_damage",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "projectile_damage:generic",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "minecraft:generic.attack_damage",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "projectile_damage:generic",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        }
-      ]
-    },
-    {
-      "type": "Iron Spells \u0026 Spellbooks",
-      "classNames": [
-        "io.redspace.ironsspellbooks.item.SpellBook",
-        "io.redspace.ironsspellbooks.item.CastingItem"
-      ],
-      "additionalIds": [],
-      "blacklistedIds": [],
-      "validSlots": [
-        "MAINHAND",
-        "OFFHAND"
-      ],
-      "modifiers": [
-        {
-          "attribute": "irons_spellbooks:max_mana",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:max_mana",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:mana_regen",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:mana_regen",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:spell_power",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:spell_power",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:spell_resist",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:spell_resist",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:cast_time_reduction",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:cast_time_reduction",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:summon_damage",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:summon_damage",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:fire_magic_resist",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:fire_magic_resist",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:ice_magic_resist",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:ice_magic_resist",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:lightning_magic_resist",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:lightning_magic_resist",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:holy_magic_resist",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:holy_magic_resist",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:ender_magic_resist",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:ender_magic_resist",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:blood_magic_resist",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:blood_magic_resist",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:evocation_magic_resist",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:evocation_magic_resist",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:nature_magic_resist",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:nature_magic_resist",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:eldritch_magic_resist",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:eldritch_magic_resist",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:fire_spell_power",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:fire_spell_power",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:ice_spell_power",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:ice_spell_power",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:lightning_spell_power",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:lightning_spell_power",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:holy_spell_power",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:holy_spell_power",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:ender_spell_power",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:ender_spell_power",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:blood_spell_power",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:blood_spell_power",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:evocation_spell_power",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:evocation_spell_power",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:nature_spell_power",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:nature_spell_power",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:eldritch_spell_power",
-          "operation": "ADDITION",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        },
-        {
-          "attribute": "irons_spellbooks:eldritch_spell_power",
-          "operation": "MULTIPLY_BASE",
-          "flatAddition": 0.0,
-          "additionPerLevel": 0.025
-        }
-      ]
+    ],
+    // The base spawnChance for an upgrade to succeed. Subsequent upgrades will have a lower spawnChance.
+    "baseUpgradeChance": 1.0,
+    // If the absolute protection rune is enabled, the item will not lose levels on a failed upgrade, when using it.
+    "enableAbsoluteProtectionRune": false,
+    // The maximum number of levels an item can have. If it exceeds 99, you will need to create new textures for the levels.
+    "maxItemLevel": 99,
+    // How many catalyst rarities there are. Max is 10, but 3 is sweet spot for vanilla. If it exceeds 3, you will need to create new textures for the catalysts.
+    "maxCatalystLevels": 7,
+    // How many material rarities there are. Max is 10, but 3 is sweet spot for vanilla. If it exceeds 3, you will need to create new textures for the materials.
+    "maxMaterialLevels": 7,
+    // At what level the announcer will start announcing upgrades globally in the chat.
+    "announcerStartLevel": 17,
+    // Fortuna's Luck Success Multiplier
+    "fortunaLuckSuccessMultiplier": 1.0,
+    // Configuration for Project MMO Xp Granting when succesfully receiving a blessing. Only active if Project MMO is installed.
+    "successPmmoConfig": {
+        "skillName": "smithing",
+        "baseXP": 25.0,
+        "perFactorXp": 25.0,
+        "currentPowerFactorBase": 1.25,
+        "diffInPowerFactorBase": 1.1
     }
-  ],
-  // The list of dynamic loot entries. LootChance is the base chance for the loot to spawn. LootWeights is the list of weights for each loot level.
-  // Loot levels are based off the catalysts & materials. The first entry is the lowest level, and the last entry is the highest level.
-  "lootEntries": [
-  ],
-  // The base spawnChance for an upgrade to succeed. Subsequent upgrades will have a lower spawnChance.
-  "baseUpgradeChance": 1.0,
-  // If the absolute protection rune is enabled, the item will not lose levels on a failed upgrade, when using it.
-  "enableAbsoluteProtectionRune": false,
-  // The maximum number of levels an item can have. If it exceeds 99, you will need to create new textures for the levels.
-  "maxItemLevel": 99,
-  // How many catalyst rarities there are. Max is 10, but 3 is sweet spot for vanilla. If it exceeds 3, you will need to create new textures for the catalysts.
-  "maxCatalystLevels": 7,
-  // How many material rarities there are. Max is 10, but 3 is sweet spot for vanilla. If it exceeds 3, you will need to create new textures for the materials.
-  "maxMaterialLevels": 7
 }
