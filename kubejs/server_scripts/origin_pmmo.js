@@ -25,6 +25,17 @@ const ORIGINS_PMMO_CONFIG = {
                 tag: "{Items:[{Count:1b,id:\"minecraft:shears\"},{Count:1b,id:\"easy_mob_farm:insect_net\"},{Count:8b,id:\"minecraft:dandelion\"},{Count:8b,id:\"minecraft:oxeye_daisy\"},{Count:8b,id:\"minecraft:poppy\"},{Count:8b,id:\"minecraft:honeycomb\"},{Count:4b,id:\"minecraft:beehive\"}]}"
             }]
         },
+        'origins-classes:acolyte': {
+            levels: [
+                { skill: 'smithing', level: 6 }
+            ],
+            itemPD: 'ACOLYTE_SET_GIVEN',
+            items: [{
+                item: "minecraft:bundle",
+                amount: 1,
+                tag: "{Items:[{Count:1b,id:\"fortunas_anvil:fortunas_anvil\"},{Count:16b,id:\"fortunas_anvil:common_material\"},{Count:4b,id:\"fortunas_anvil:uncommon_material\"},{Count:8b,id:\"fortunas_anvil:common_catalyst\"}]}"
+            }]
+        },
         'origins-classes:blacksmith': {
             levels: [
                 { skill: 'smithing', level: 6 }

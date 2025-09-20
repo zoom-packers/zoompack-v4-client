@@ -109,5 +109,10 @@
     "power.origins-classes.friendly_bees.name": "Friendly Bees",
     "power.origins-classes.friendly_bees.description": "Whenever you collect honey or honeycombs from a beehive, the bees won't be mad at you.",
     "power.origins-classes.apicultor_equipment.name": "Apicultor Appliances",
-    "power.origins-classes.apicultor_equipment.description": "You're starting out with a bundle filled with some hives, shears, an insect net, and some flowers."
+    "power.origins-classes.apicultor_equipment.description": "You're starting out with a bundle filled with some hives, shears, an insect net, and some flowers.",
+
+    "origin.origins-classes.acolyte.name": "Acolyte",
+    "origin.origins-classes.acolyte.description": "You've dedicated your life and body to worshiping Fortuna",
+    "power.origins-classes.fortuna_blessing.name": "Fortuna's Favor",
+    "power.origins-classes.fortuna_blessing.description": "Your dedication to Fortuna is granting you better odds when working at her Anvil"
 }

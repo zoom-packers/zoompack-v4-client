@@ -1,0 +1,137 @@
+{
+    "type": "origins:multiple",
+    "loading_priority": 111,
+    "fortuna_blessing": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "Origin Modifier",
+            "attribute": "fortunas_anvil:fortunas_luck",
+            "operation": "multiply_total",
+            "value": 0.25
+        }
+    },
+    "progressive_blessing_1": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "Origin Modifier",
+            "attribute": "fortunas_anvil:fortunas_luck",
+            "operation": "addition",
+            "value": 0.25
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_smithing",
+                    "comparison": ">=",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_smithing",
+                    "comparison": "<",
+                    "compare_to": 20
+                }
+            ]
+        }
+    },
+    "progressive_blessing_2": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "Origin Modifier",
+            "attribute": "fortunas_anvil:fortunas_luck",
+            "operation": "addition",
+            "value": 0.5
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_smithing",
+                    "comparison": ">=",
+                    "compare_to": 20
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_smithing",
+                    "comparison": "<",
+                    "compare_to": 40
+                }
+            ]
+        }
+    },
+    "progressive_blessing_3": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "Origin Modifier",
+            "attribute": "fortunas_anvil:fortunas_luck",
+            "operation": "addition",
+            "value": 0.75
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_smithing",
+                    "comparison": ">=",
+                    "compare_to": 40
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_smithing",
+                    "comparison": "<",
+                    "compare_to": 60
+                }
+            ]
+        }
+    },
+    "progressive_blessing_4": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "Origin Modifier",
+            "attribute": "fortunas_anvil:fortunas_luck",
+            "operation": "addition",
+            "value": 1
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_smithing",
+                    "comparison": ">=",
+                    "compare_to": 60
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "pmmo_smithing",
+                    "comparison": "<",
+                    "compare_to": 80
+                }
+            ]
+        }
+    },
+    "progressive_blessing_5": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "name": "Origin Modifier",
+        "attribute": "fortunas_anvil:fortunas_luck",
+        "operation": "addition",
+        "value": 1.5
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:scoreboard",
+                "objective": "pmmo_smithing",
+                "comparison": ">=",
+                "compare_to": 80
+            }
+        ]
+    }
+}
+}

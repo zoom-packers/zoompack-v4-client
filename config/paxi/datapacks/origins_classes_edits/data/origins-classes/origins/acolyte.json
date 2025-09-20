@@ -1,0 +1,9 @@
+{
+  "loading_priority": 111,
+  "powers": [
+    "origins-classes:fortuna_blessing"
+  ],
+  "icon": "fortunas_anvil:epic_material",
+  "order": 7,
+  "impact": 0
+}

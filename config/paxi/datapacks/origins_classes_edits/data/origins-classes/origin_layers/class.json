@@ -5,6 +5,7 @@
     "enabled": true,
     "origins": [
         "origins-classes:blacksmith",
+        "origins-classes:acolyte",
         "origins-classes:cleric",
         "origins-classes:cook",
         "origins-classes:farmer",
