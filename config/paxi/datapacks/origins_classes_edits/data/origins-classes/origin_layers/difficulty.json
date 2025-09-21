@@ -1,0 +1,14 @@
+{
+    "loading_priority": 111,
+    "replace": true,
+    "order": 20,
+    "enabled": true,
+    "origins": [
+        "origins-classes:difficulty/easy",
+        "origins-classes:difficulty/normal",
+        "origins-classes:difficulty/hard",
+        "origins-classes:difficulty/brutal",
+        "origins-classes:difficulty/nightmare",
+        "origins-classes:difficulty/uninstall"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "loading_priority": 111,
+    "powers": [
+        "origins-classes:difficulty/brutal"
+    ],
+    "icon": "irons_spellbooks:cultist_helmet",
+    "order": 3,
+    "impact": 0
+}

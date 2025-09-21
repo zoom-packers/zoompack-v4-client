@@ -1,0 +1,9 @@
+{
+    "loading_priority": 111,
+    "powers": [
+        "origins-classes:difficulty/hard"
+    ],
+    "icon": "armoroftheages:holy_armor_head",
+    "order": 2,
+    "impact": 0
+}

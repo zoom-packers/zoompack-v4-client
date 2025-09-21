@@ -1,0 +1,9 @@
+{
+    "loading_priority": 111,
+    "powers": [
+        "origins-classes:difficulty/uninstall"
+    ],
+    "icon": "call_of_yucutan:monkey_helmet",
+    "order": 5,
+    "impact": 0
+}
