@@ -285,6 +285,16 @@ function modifyFullSets() {
     processor.modifySetRequirements("callfromthedepth_", "depth_armor", 84, "armor");
     processor.modifySingleItem("callfromthedepth_", "soulbow", "bow", 84);
     processor.modifySingleItem("callfromthedepth_", "soul_blade", "sword", 84);
+
+    
+    processor.modifySingleItem("callfromthedepth_", "soulclaymore", "sword", 85);
+
+    processor.modifySetRequirements("callfromthedepth_", "marblearmor", 87, "armor");
+    processor.modifySingleItem("callfromthedepth_", "soulmarblehammer", "sword", 87);
+
+    processor.modifySetRequirements("callfromthedepth_", "soularmor", 89, "armor");
+    processor.modifySingleItem("callfromthedepth_", "dark_abyssscythe", "sword", 89);
+    
     modifyOffhandForTier(7, 84)
 
     // The abyss

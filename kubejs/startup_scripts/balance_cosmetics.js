@@ -75,11 +75,6 @@ ItemEvents.modification((event) => {
         item.armorToughness = 0;
         item.maxDamage = 696;
     });
-    event.modify("fantasy_armor:winned_helmet", item => {
-        item.armorProtection = -1;
-        item.armorToughness = 0;
-        item.maxDamage = 696;
-    });
     event.modify("fantasy_armor:gilded_hunt_helmet", item => {
         item.armorProtection = -1;
         item.armorToughness = 0;
@@ -211,11 +206,6 @@ ItemEvents.modification((event) => {
         item.maxDamage = 696;
     });
     event.modify("fantasy_armor:redeemer_chestplate", item => {
-        item.armorProtection = -1;
-        item.armorToughness = 0;
-        item.maxDamage = 696;
-    });
-    event.modify("fantasy_armor:winned_chestplate", item => {
         item.armorProtection = -1;
         item.armorToughness = 0;
         item.maxDamage = 696;
@@ -355,11 +345,6 @@ ItemEvents.modification((event) => {
         item.armorToughness = 0;
         item.maxDamage = 696;
     });
-    event.modify("fantasy_armor:winned_leggings", item => {
-        item.armorProtection = -1;
-        item.armorToughness = 0;
-        item.maxDamage = 696;
-    });
     event.modify("fantasy_armor:gilded_hunt_leggings", item => {
         item.armorProtection = -1;
         item.armorToughness = 0;
@@ -491,11 +476,6 @@ ItemEvents.modification((event) => {
         item.maxDamage = 696;
     });
     event.modify("fantasy_armor:redeemer_boots", item => {
-        item.armorProtection = -1;
-        item.armorToughness = 0;
-        item.maxDamage = 696;
-    });
-    event.modify("fantasy_armor:winned_boots", item => {
         item.armorProtection = -1;
         item.armorToughness = 0;
         item.maxDamage = 696;

@@ -498,8 +498,38 @@ ItemEvents.modification((event) => {
     event.modify("callfromthedepth_:immemorialhoe", item => {
         item.maxDamage = 5700;
     });
-    event.modify("callfromthedepth_:soul_blade", item => {
+    event.modify("callfromthedepth_:soulclaymore", item => {
         item.maxDamage = 5900;
+    });
+    event.modify("callfromthedepth_:marblearmor_helmet", item => {
+        item.maxDamage = 68528;
+    });
+    event.modify("callfromthedepth_:marblearmor_chestplate", item => {
+        item.maxDamage = 99366;
+    });
+    event.modify("callfromthedepth_:marblearmor_leggings", item => {
+        item.maxDamage = 92513;
+    });
+    event.modify("callfromthedepth_:marblearmor_boots", item => {
+        item.maxDamage = 82234;
+    });
+    event.modify("callfromthedepth_:soulmarblehammer", item => {
+        item.maxDamage = 6100;
+    });
+    event.modify("callfromthedepth_:soularmor_helmet", item => {
+        item.maxDamage = 70160;
+    });
+    event.modify("callfromthedepth_:soularmor_chestplate", item => {
+        item.maxDamage = 101732;
+    });
+    event.modify("callfromthedepth_:soularmor_leggings", item => {
+        item.maxDamage = 94716;
+    });
+    event.modify("callfromthedepth_:soularmor_boots", item => {
+        item.maxDamage = 84192;
+    });
+    event.modify("callfromthedepth_:dark_abyssscythe", item => {
+        item.maxDamage = 6300;
     });
     event.modify("theabyss:fusion_armor_helmet", item => {
         item.maxDamage = 77011;
