@@ -1,0 +1,33 @@
+{
+    "loading_priority": 111,
+    "type": "origins:multiple",
+    "damage_taken": {
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "name": "Difficulty - Damage Taken",
+            "operation": "multiply_total",
+            "value": 1
+        },
+        "damage_condition": {
+            "type": "origins:attacker",
+            "entity_condition": {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:player",
+                "inverted": true
+            }
+        }
+    },
+    "damage_given": {
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "name": "Difficulty - Damage Dealt",
+            "operation": "multiply_total",
+            "value": -0.5
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:player",
+            "inverted": true
+        }
+    }
+}

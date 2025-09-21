@@ -1,0 +1,9 @@
+{
+    "loading_priority": 111,
+    "powers": [
+        "origins-classes:difficulty/easy"
+    ],
+    "icon": "supplementaries:candy",
+    "order": 0,
+    "impact": 0
+}

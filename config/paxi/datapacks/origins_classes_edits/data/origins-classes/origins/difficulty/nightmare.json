@@ -1,0 +1,9 @@
+{
+    "loading_priority": 111,
+    "powers": [
+        "origins-classes:difficulty/nightmare"
+    ],
+    "icon": "nether_armory:obsidian_armor_helmet",
+    "order": 4,
+    "impact": 0
+}

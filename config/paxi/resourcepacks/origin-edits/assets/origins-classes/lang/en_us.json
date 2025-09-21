@@ -114,5 +114,36 @@
     "origin.origins-classes.acolyte.name": "Acolyte",
     "origin.origins-classes.acolyte.description": "You've dedicated your life and body to worshiping Fortuna",
     "power.origins-classes.fortuna_blessing.name": "Fortuna's Favor",
-    "power.origins-classes.fortuna_blessing.description": "Your dedication to Fortuna is granting you better odds when working at her Anvil"
+    "power.origins-classes.fortuna_blessing.description": "Your dedication to Fortuna is granting you better odds when working at her Anvil",
+
+    "layer.origins-classes.difficulty.name": "Combat Difficulty",
+    "layer.origins-classes.difficulty.missing_origin.description": "How did you end up without choosing a difficulty? You fool!",
+
+    "origin.origins-classes.difficulty/easy.name": "Easy",
+    "origin.origins-classes.difficulty/easy.description": "Perfect for kids, or non-accredited Gamers.",
+    "power.origins-classes.difficulty/easy.name": "Don't hurt me!",
+    "power.origins-classes.difficulty/easy.description": "You take 33% less damage, and you deal 33% more damage",
+    
+    "origin.origins-classes.difficulty/normal.name": "Normal",
+    "origin.origins-classes.difficulty/normal.description": "Perfect for first time players. There are no modifiers, just fun.",
+    
+    "origin.origins-classes.difficulty/hard.name": "Hard",
+    "origin.origins-classes.difficulty/hard.description": "For seasoned warriors. Enemies hit harder, and your attacks feel somewhat weaker.",
+    "power.origins-classes.difficulty/hard.name": "Getting Serious",
+    "power.origins-classes.difficulty/hard.description": "You take 20% more damage, and you deal 20% less damage",
+
+    "origin.origins-classes.difficulty/brutal.name": "Brutal",
+    "origin.origins-classes.difficulty/brutal.description": "Your enemies laugh at your pain. Better come prepared.",
+    "power.origins-classes.difficulty/brutal.name": "Pain and Suffering",
+    "power.origins-classes.difficulty/brutal.description": "You take 40% more damage, and you deal 40% less damage",
+
+    "origin.origins-classes.difficulty/nightmare.name": "Nightmare",
+    "origin.origins-classes.difficulty/nightmare.description": "Death lurks around every corner. Say goodbye to any social life for a while.",
+    "power.origins-classes.difficulty/nightmare.name": "Grinding Fiesta",
+    "power.origins-classes.difficulty/nightmare.description": "You take 80% damage, and your attacks are 50% less damage.",
+
+    "origin.origins-classes.difficulty/uninstall.name": "Uninstall",
+    "origin.origins-classes.difficulty/uninstall.description": "Congratulations! You've chosen the 'Why do I hate myself?' difficulty. If you manage to finish Zoompack4 with this difficulty, give us a call.",
+    "power.origins-classes.difficulty/uninstall.name": "Time to Quit",
+    "power.origins-classes.difficulty/uninstall.description": "You take ??? damage, and your attacks deal ??? less damage."
 }
