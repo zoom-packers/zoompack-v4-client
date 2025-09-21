@@ -33,6 +33,16 @@ global.createArmorTier = (event, id, durabilityMultiplier, slotProtections, ench
     });
 }
 
+/** @function createItem
+ * @param {Registry.Item} event
+ * @param {string} id
+ * @param {string} name
+ * @return {Internal.BasicItemJS$Builder}
+ * */
+global.createItem = (event, id, name) => {
+    return event.create(id).displayName(name);
+}
+
 global.createSwordCustom = (event, id, texture, tier, name, attackDamage, maxDamage) => {
     global.createTool(event, id, "sword", texture, tier, name, attackDamage, maxDamage);
 }

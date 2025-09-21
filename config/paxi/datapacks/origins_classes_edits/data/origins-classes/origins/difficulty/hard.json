@@ -5,5 +5,6 @@
     ],
     "icon": "armoroftheages:holy_armor_head",
     "order": 2,
+    "unchoosable": true,
     "impact": 0
 }
