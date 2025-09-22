@@ -117,10 +117,11 @@ let GEM_TYPES = {
 
 }
 
-function willGemDrop() {
+function willGemDrop(player) {
     const randomChance = Math.random();
+    var difficultyMultiplier = getPlayerDifficultyMultiplierForEconomy(player);
 
-    if (randomChance <= DEFAULT_GEM_DROP_CHANCE) {
+    if (randomChance <= DEFAULT_GEM_DROP_CHANCE * difficultyMultiplier) {
         return true;
     } else {
         return false;
@@ -197,6 +198,8 @@ EntityEvents.death(event => {
     if (player != null) {
         let server = event.server;
         let entity = event.entity;
+        let level = entity.level;
+        let dimensionId = entity.dimension;
 
         if (player.getType() === 'minecraft:player') {
             if (isEntityAllowed(entity)) {
@@ -205,14 +208,34 @@ EntityEvents.death(event => {
                 let y = entity.y;
                 let z = entity.z;
 
-                let gem = getRandomGem();
-                let rarity = getRarity(entity);
-
-                if (isMobBoss(entity)) {
-                    summonForEachPlayerInRange(server, x, y, z, entity.level.dimension, rarity, gem);
+                if (willGemDrop(player)) {
+                    let gem = getRandomGem();
+                    let rarity = getRarity(entity);
+                    summonGem(server, dimensionId, rarity, gem, 1, x, y, z);
                 }
-                if (willGemDrop()) {
-                    summonGem(server, entity.level.dimension, rarity, gem, 1, x, y, z);
+
+                let entityArrayList = level.getEntitiesWithin([x-15,y-15,z-15,x+15,y+15,z+15])
+                let entityArrayListSize = entityArrayList.size();
+                for (let i = 0; i < entityArrayListSize; i++) {
+                    let player = entityArrayList.get(i);
+                    if (player.getType() !== 'minecraft:player') continue;
+                    x = player.x;
+                    y = player.y;
+                    z = player.z;
+                    let dropChance = getPlayerDifficultyMultiplierForEconomy(player);
+                    for (let j = 0; j < dropChance; j++) {
+                        let remainder = dropChance - j
+                        if (remainder > 0 && remainder < 1) {
+                            let randomRoll = Math.random();
+                            if (randomRoll >= remainder) {
+                                continue;
+                            }
+                        }
+
+                        let gem = getRandomGem();
+                        let rarity = getRarity(entity);
+                        summonGem(server, dimensionId, rarity, gem, 1, x, y, z);
+                    }
                 }
             }
         }

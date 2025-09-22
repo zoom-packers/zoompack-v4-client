@@ -8,7 +8,7 @@ EntityEvents.death(event => {
     var killingEntity = event.getSource().getPlayer();
     if (!killingEntity) return;
     if (killingEntity.getType() !== 'minecraft:player') return;
-    var difficultyMultiplier = getPlayerDifficultyMultiplierForEliteDrops(killingEntity);
+    var difficultyMultiplier = getPlayerDifficultyMultiplierForEconomy(killingEntity);
     let randomChance = Math.random();
     if (randomChance > DEFAULT_FORTUNAS_DROP_CHANCE * difficultyMultiplier) return;
     let dimension = event.getLevel().getDimension().toString();

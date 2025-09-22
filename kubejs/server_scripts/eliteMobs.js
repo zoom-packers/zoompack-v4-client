@@ -101,17 +101,6 @@ const ELITE_HOSTILE_MOBS = {
     "theabyss:abyssal_lion": true
 };
 
-
-let ELITE_DROPS_DIFFICULTY_MULTIPLIERS = {
-    "origin-classes:difficulty/easy": 0.8,
-    "origin-classes:difficulty/normal": 1,
-    "origin-classes:difficulty/hard": 1.2,
-    "origin-classes:difficulty/brutal": 1.5,
-    "origin-classes:difficulty/nightmare": 2,
-    "origin-classes:difficulty/uninstall": 3,
-    "default": 1,
-}
-
 EntityEvents.spawned(elite_onEntitySpawned);
 EntityEvents.death(elite_onDeath);
 ServerEvents.commandRegistry(elite_commands);
@@ -146,19 +135,6 @@ function elite_onEntitySpawned(event) {
     }
 }
 
-/**
- *
- * @param {ServerPlayer} player
- */
-function getPlayerDifficultyMultiplierForEliteDrops(player) {
-    let playerData = player.nbt.ForgeCaps;
-    let playerDifficulty = playerData["origins:origins"].Origins["origins-classes:difficulty"];
-    if (!ELITE_DROPS_DIFFICULTY_MULTIPLIERS[playerDifficulty]) {
-        return ELITE_DROPS_DIFFICULTY_MULTIPLIERS['default'];
-    }
-    return ELITE_DROPS_DIFFICULTY_MULTIPLIERS[playerDifficulty];
-}
-
 function elite_onDeath(event) {
     let entity = event.getEntity();
     if (!elite_isElite(entity)) {
@@ -183,7 +159,7 @@ function elite_onDeath(event) {
         let dimensionRL = event.level.dimension.toString();
         let loot = null;
         let diff = entity.getPersistentData().getString("elite");
-        let difficultyMultiplier = getPlayerDifficultyMultiplierForEliteDrops(player);
+        let difficultyMultiplier = getPlayerDifficultyMultiplierForEconomy(player);
         let rolls = (elite_getRolls(diff) + lootingLevel) * difficultyMultiplier;
         switch (dimensionRL) {
             case "minecraft:overworld":
