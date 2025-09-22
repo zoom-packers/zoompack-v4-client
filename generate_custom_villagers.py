@@ -115,6 +115,16 @@ ideas for trades:
 
 # Banker Basic trades
 #buy
+
+#difficulty changers
+new_default_trade('banker', ('dotcoinmod:bronze_coin', 32), ('kubejs:difficulty_changer_easy', 1), 1, 1)
+new_default_trade('banker', ('dotcoinmod:bronze_coin', 64), ('kubejs:difficulty_changer_normal', 1), 1, 1)
+new_default_trade('banker', ('dotcoinmod:silver_coin', 32), ('kubejs:difficulty_changer_hard', 1), 1, 1)
+new_default_trade('banker', ('dotcoinmod:gold_coin', 32), ('kubejs:difficulty_changer_brutal', 1), 1, 1)
+new_default_trade('banker', ('dotcoinmod:emerald_coin', 64), ('kubejs:difficulty_changer_nightmare', 1), 1, 1)
+new_default_trade('banker', ('dotcoinmod:diamond_coin', 64), ('kubejs:difficulty_changer_uninstall', 1), 1, 1)
+#end of difficulty changers
+
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 5), ('minecraft:ender_pearl', 1), 1, 1)
 new_map_trade('banker', ('dotcoinmod:bronze_coin', 49), ('minecraft:filled_map', 1), 1, 1, structure_id="blue_skies:gatekeeper_houses")
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 10), ('trials:trial_key', 1), 1, 1)
