@@ -23,10 +23,32 @@ let COINS = [BRONZE_COIN, SILVER_COIN, GOLD_COIN, EMERALD_COIN, DIAMOND_COIN];
 let DIMENSION_MULTIPLIERS = {
     'minecraft:overworld': 1
 };
+let DIFFICULTY_MULTIPLIERS = {
+    "origin-classes:difficulty/easy": 0.8,
+    "origin-classes:difficulty/normal": 1,
+    "origin-classes:difficulty/hard": 1.2,
+    "origin-classes:difficulty/brutal": 1.5,
+    "origin-classes:difficulty/nightmare": 2,
+    "origin-classes:difficulty/uninstall": 3,
+    "default": 1,
+}
 
 let ALL_BOSSES = ['minecraft:elder_guardian', 'aquamirae:captain_cornelia', 'aquamirae:maze_mother', 'aquamirae:eel', 'bosses_of_mass_destruction:lich', 'bosses_of_mass_destruction:void_blossom', 'blue_skies:alchemist', 'blue_skies:arachnarch', 'blue_skies:arachnarch', 'blue_skies:summoner', 'aether:slider', 'lost_aether_content:aerwhale_king', 'aether:valkyrie', 'aether:sun_spirit', 'minecraft:wither', 'bosses_of_mass_destruction:gauntlet', 'callfromthedepth_:agonysoul', 'call_of_yucutan:kukulkan', 'call_of_yucutan:ah_puch', 'mokels_boss_mantyd:boss_mantyd', 'minecraft:ender_dragon', 'bosses_of_mass_destruction:obsidilith', 'theabyss:abyssaur', 'theabyss:elder', 'theabyss:nightblade_boss', 'theabyss:the_roka', 'theabyss:crystal_golem', 'theabyss:magician'];
 
 let LAST_CONVERTED = {};
+
+/**
+ *
+ * @param {ServerPlayer} player
+ */
+function getPlayerDifficultyMultiplier(player) {
+    let playerData = player.nbt.ForgeCaps;
+    let playerDifficulty = playerData["origins:origins"].Origins["origins-classes:difficulty"];
+    if (!DIFFICULTY_MULTIPLIERS[playerDifficulty]) {
+        return DIFFICULTY_MULTIPLIERS['default'];
+    }
+    return DIFFICULTY_MULTIPLIERS[playerDifficulty];
+}
 
 function getPlayerCoinCount(player, coin_type) {
     return player.nbt.getInt(COIN_SLOTS[coin_type]);
@@ -253,7 +275,10 @@ function grantReward(rewards, player, server) {
     let total_reward = bronze_reward + CONVERSION_RATE * silver_reward + CONVERSION_RATE * CONVERSION_RATE * gold_reward + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * emerald_reward + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * diamond_reward;
     let total_balance = bronze_balance + CONVERSION_RATE * silver_balance + CONVERSION_RATE * CONVERSION_RATE * gold_balance + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * emerald_balance + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * diamond_balance;
 
-    let new_total_reward = total_reward + total_balance;
+    // Apply reward multipliers
+    let total_reward_plus_difficulty = Math.round(total_reward * getPlayerDifficultyMultiplier(player));
+
+    let new_total_reward = total_reward_plus_difficulty + total_balance;
 
     let new_diamond = Math.floor(new_total_reward / (CONVERSION_RATE ** 4));
     new_total_reward %= (CONVERSION_RATE ** 4);
