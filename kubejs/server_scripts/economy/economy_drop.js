@@ -23,7 +23,7 @@ let COINS = [BRONZE_COIN, SILVER_COIN, GOLD_COIN, EMERALD_COIN, DIAMOND_COIN];
 let DIMENSION_MULTIPLIERS = {
     'minecraft:overworld': 1
 };
-let DIFFICULTY_MULTIPLIERS = {
+let ECONOMY_DIFFICULTY_MULTIPLIERS = {
     "origin-classes:difficulty/easy": 0.8,
     "origin-classes:difficulty/normal": 1,
     "origin-classes:difficulty/hard": 1.2,
@@ -41,13 +41,13 @@ let LAST_CONVERTED = {};
  *
  * @param {ServerPlayer} player
  */
-function getPlayerDifficultyMultiplier(player) {
+function getPlayerDifficultyMultiplierForEconomy(player) {
     let playerData = player.nbt.ForgeCaps;
     let playerDifficulty = playerData["origins:origins"].Origins["origins-classes:difficulty"];
-    if (!DIFFICULTY_MULTIPLIERS[playerDifficulty]) {
-        return DIFFICULTY_MULTIPLIERS['default'];
+    if (!ECONOMY_DIFFICULTY_MULTIPLIERS[playerDifficulty]) {
+        return ECONOMY_DIFFICULTY_MULTIPLIERS['default'];
     }
-    return DIFFICULTY_MULTIPLIERS[playerDifficulty];
+    return ECONOMY_DIFFICULTY_MULTIPLIERS[playerDifficulty];
 }
 
 function getPlayerCoinCount(player, coin_type) {
@@ -276,7 +276,7 @@ function grantReward(rewards, player, server) {
     let total_balance = bronze_balance + CONVERSION_RATE * silver_balance + CONVERSION_RATE * CONVERSION_RATE * gold_balance + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * emerald_balance + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * diamond_balance;
 
     // Apply reward multipliers
-    let total_reward_plus_difficulty = Math.round(total_reward * getPlayerDifficultyMultiplier(player));
+    let total_reward_plus_difficulty = Math.round(total_reward * getPlayerDifficultyMultiplierForEconomy(player));
 
     let new_total_reward = total_reward_plus_difficulty + total_balance;
 
