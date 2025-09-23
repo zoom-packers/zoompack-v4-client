@@ -261,7 +261,7 @@ function rollWeightedTable(table) {
 function lootlib_getItemDetails(details) {
     if (typeof details === "string") {
         // return `{Item:{id:"${details}",Count:1}}`;
-        return `Item:{id:"${details}",Count:1}`;
+        return [details, null];
     }
     let type = details.type;
     let tag = "";
@@ -285,7 +285,11 @@ function lootlib_getItemDetails(details) {
 
 function lootlib_summonItem(details, entity) {
     let args = lootlib_getItemDetails(details)
-    entity.block.popItem(Item.of(args[0],1,args[1]));
+    if (args[1] === null) {
+        entity.block.popItem(Item.of(args[0],1));
+    } else {
+        entity.block.popItem(Item.of(args[0],1,args[1]));
+    }
 }
 
 function overworldEliteDrops(rolls) {

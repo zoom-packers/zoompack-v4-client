@@ -24,12 +24,12 @@ let DIMENSION_MULTIPLIERS = {
     'minecraft:overworld': 1
 };
 let ECONOMY_DIFFICULTY_MULTIPLIERS = {
-    "origin-classes:difficulty/easy": 0.8,
-    "origin-classes:difficulty/normal": 1,
-    "origin-classes:difficulty/hard": 1.2,
-    "origin-classes:difficulty/brutal": 1.5,
-    "origin-classes:difficulty/nightmare": 2,
-    "origin-classes:difficulty/uninstall": 3,
+    "origins-classes:difficulty/easy": 0.8,
+    "origins-classes:difficulty/normal": 1,
+    "origins-classes:difficulty/hard": 1.2,
+    "origins-classes:difficulty/brutal": 1.5,
+    "origins-classes:difficulty/nightmare": 2,
+    "origins-classes:difficulty/uninstall": 3,
     "default": 1,
 }
 
@@ -259,7 +259,7 @@ function updatePlayerCoin(player, coinType, newAmount, currentBalance, coinItem,
     }
 }
 
-function grantReward(rewards, player, server) {
+function grantReward(rewards, player, server, killedEntity) {
     let bronze_reward = rewards[0];
     let silver_reward = rewards[1];
     let gold_reward = rewards[2];
@@ -297,6 +297,16 @@ function grantReward(rewards, player, server) {
     updatePlayerCoin(player, 'gold', new_gold, gold_balance, GOLD_COIN, server);
     updatePlayerCoin(player, 'emerald', new_emerald, emerald_balance, EMERALD_COIN, server);
     updatePlayerCoin(player, 'diamond', new_diamond, diamond_balance, DIAMOND_COIN, server);
+
+    let newRewards = [
+        new_total_reward % CONVERSION_RATE,
+        Math.floor(new_total_reward / CONVERSION_RATE),
+        Math.floor(new_total_reward / (CONVERSION_RATE ** 2)),
+        Math.floor(new_total_reward / (CONVERSION_RATE ** 3)),
+        Math.floor(new_total_reward / (CONVERSION_RATE ** 4)),
+    ]
+
+    announceReward(server, player.name.string, newRewards, killedEntity);
 }
 
 function sendPlayerTitle(server, player_name, text) {
@@ -343,12 +353,10 @@ EntityEvents.death(event => {
                 let drop_returns = getReward(entity, partyMembers.length);
 
                 for (const partyMember of partyMembers) {
-                    grantReward(drop_returns, partyMember, server);
-                    announceReward(server, partyMember.name.string, drop_returns, entity_name);
+                    grantReward(drop_returns, partyMember, server, entity_name);
                 }
 
-                grantReward(drop_returns, player, server);
-                announceReward(server, player_name, drop_returns, entity_name);
+                grantReward(drop_returns, player, server, entity_name);
             }
         }
     }

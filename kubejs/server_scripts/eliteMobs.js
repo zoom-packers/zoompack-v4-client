@@ -135,6 +135,10 @@ function elite_onEntitySpawned(event) {
     }
 }
 
+/**
+ *
+ * @param {Internal.LivingEntityDeathEventJS} event
+ */
 function elite_onDeath(event) {
     let entity = event.getEntity();
     if (!elite_isElite(entity)) {
@@ -143,60 +147,54 @@ function elite_onDeath(event) {
     let server = event.getServer();
     let damageSource = event.getSource();
     let killingEntity = damageSource.causingEntity;
-    if (killingEntity !== null && !killingEntity.getType() === "player" && !killingEntity.getType() === "minecraft:player") {
+    if (killingEntity === null || killingEntity.getType() !== "minecraft:player") {
         return;
     }
     /**
      @type {ServerPlayer}
      */
     let player = killingEntity;
-    if (!player) {
+    let lootingLevel = 0;
+    let dimensionRL = event.level.dimension.toString();
+    let loot = null;
+    let diff = entity.getPersistentData().getString("elite");
+    let difficultyMultiplier = getPlayerDifficultyMultiplierForEconomy(player);
+    let rolls = (elite_getRolls(diff) + lootingLevel) * difficultyMultiplier;
+    switch (dimensionRL) {
+        case "minecraft:overworld":
+            loot = global.overworldEliteDrops(rolls);
+            break;
+        case "blue_skies:everbright":
+            loot = global.everbrightEliteDrops(rolls);
+            break;
+        case "blue_skies:everdawn":
+            loot = global.everdawnEliteDrops(rolls);
+            break;
+        case "aether:the_aether":
+            loot = global.aetherEliteDrops(rolls);
+            break;
+        case "minecraft:the_nether":
+            loot = global.netherEliteDrops(rolls);
+            break;
+        case "undergarden:undergarden":
+            loot = global.undergardenEliteDrops(rolls);
+            break;
+        case "minecraft:the_end":
+            loot = global.endEliteDrops(rolls);
+            break;
+        case "callfromthedepth_:depth":
+            loot = global.deepEliteDrops(rolls);
+            break;
+        case "theabyss:the_abyss":
+            loot = global.abyssEliteDrops(rolls);
+            break;
+
+    }
+    if (loot == null) {
         return;
     }
-
-    if (player.getType() === 'minecraft:player') {
-        let lootingLevel = 0;
-        let dimensionRL = event.level.dimension.toString();
-        let loot = null;
-        let diff = entity.getPersistentData().getString("elite");
-        let difficultyMultiplier = getPlayerDifficultyMultiplierForEconomy(player);
-        let rolls = (elite_getRolls(diff) + lootingLevel) * difficultyMultiplier;
-        switch (dimensionRL) {
-            case "minecraft:overworld":
-                loot = global.overworldEliteDrops(rolls);
-                break;
-            case "blue_skies:everbright":
-                loot = global.everbrightEliteDrops(rolls);
-                break;
-            case "blue_skies:everdawn":
-                loot = global.everdawnEliteDrops(rolls);
-                break;
-            case "aether:the_aether":
-                loot = global.aetherEliteDrops(rolls);
-                break;
-            case "minecraft:the_nether":
-                loot = global.netherEliteDrops(rolls);
-                break;
-            case "undergarden:undergarden":
-                loot = global.undergardenEliteDrops(rolls);
-                break;
-            case "minecraft:the_end":
-                loot = global.endEliteDrops(rolls);
-                break;
-            case "callfromthedepth_:depth":
-                loot = global.deepEliteDrops(rolls);
-                break;
-            case "theabyss:the_abyss":
-                loot = global.abyssEliteDrops(rolls);
-                break;
-
-        }
-        if (loot == null) {
-            return;
-        }
-        for (let item of loot) {
-            global.lootlib_summonItem(item, entity);
-        }
+    for (let item of loot) {
+        global.lootlib_summonItem(item, entity);
     }
 }
 

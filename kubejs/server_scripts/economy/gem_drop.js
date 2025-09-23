@@ -16,7 +16,6 @@ let RARITIES = [
     "custom_3", // 8 // godly
     "ancient" // 9 //perfect
 ]
-let MAX_RARITY_LOOTABLE = RARITIES.length - 1;
 
 let BOSSES = ['minecraft:elder_guardian', 'aquamirae:captain_cornelia', 'aquamirae:maze_mother', 'aquamirae:eel', 'bosses_of_mass_destruction:lich', 'bosses_of_mass_destruction:void_blossom', 'blue_skies:alchemist', 'blue_skies:arachnarch', 'blue_skies:arachnarch', 'blue_skies:summoner', 'aether:slider', 'lost_aether_content:aerwhale_king', 'aether:valkyrie', 'aether:sun_spirit', 'minecraft:wither', 'bosses_of_mass_destruction:gauntlet', 'callfromthedepth_:agonysoul', 'call_of_yucutan:kukulkan', 'call_of_yucutan:ah_puch', 'mokels_boss_mantyd:boss_mantyd', 'minecraft:ender_dragon', 'bosses_of_mass_destruction:obsidilith', 'theabyss:abyssaur', 'theabyss:elder', 'theabyss:nightblade_boss', 'theabyss:the_roka', 'theabyss:crystal_golem', 'theabyss:magician'];
 
@@ -169,37 +168,13 @@ function getRarity(entity) {
     return RARITIES[0];
 }
 
-function getBoostedRarity(entity, boost) {
-    let dimension = entity.level.dimension;
-
-    if (DIMENSION_RARITIES[dimension]) {
-        let min = DIMENSION_RARITIES[dimension]['min'];
-        let max = DIMENSION_RARITIES[dimension]['max'];
-
-        return RARITIES[getRandomBetween(Math.min(min + boost, MAX_RARITY_LOOTABLE), Math.min(max + boost, MAX_RARITY_LOOTABLE))];
-    }
-
-    return RARITIES[0];
-}
-
-function summonGem(server, dimension, rarity, gem, count, x, y, z) {
-    server.runCommandSilent(`execute in ${dimension} run execute summon minecraft:item ${x} ${y} ${z} {Item:{id:"apotheosis:gem",Count:${count},tag:{affix_data:{rarity:"${rarity}"},gem:"${gem}"}}}`)
-}
-
-
-function summonForEachPlayerInRange(server, x, y, z, dimension, rarity, gem) {
-    let COMMAND = `execute in ${dimension} run execute positioned ${x} ${y} ${z} run execute as @p[distance=..15] run give @s apotheosis:gem{affix_data:{rarity:"${rarity}"},gem:"${gem}"}`
-    console.log(COMMAND);
-    server.runCommandSilent(COMMAND);
-}
-
 EntityEvents.death(event => {
     let player = event.source.player;
     if (player != null) {
         let server = event.server;
         let entity = event.entity;
         let level = entity.level;
-        let dimensionId = entity.dimension;
+        let dimensionId = level.dimension;
 
         if (player.getType() === 'minecraft:player') {
             if (isEntityAllowed(entity)) {
@@ -211,30 +186,34 @@ EntityEvents.death(event => {
                 if (willGemDrop(player)) {
                     let gem = getRandomGem();
                     let rarity = getRarity(entity);
-                    summonGem(server, dimensionId, rarity, gem, 1, x, y, z);
+                    lootlib_summonItem({type: "gem", gemType: gem, rarity: rarity}, player);
                 }
 
-                let entityArrayList = level.getEntitiesWithin([x-15,y-15,z-15,x+15,y+15,z+15])
-                let entityArrayListSize = entityArrayList.size();
-                for (let i = 0; i < entityArrayListSize; i++) {
-                    let player = entityArrayList.get(i);
-                    if (player.getType() !== 'minecraft:player') continue;
-                    x = player.x;
-                    y = player.y;
-                    z = player.z;
-                    let dropChance = getPlayerDifficultyMultiplierForEconomy(player);
-                    for (let j = 0; j < dropChance; j++) {
-                        let remainder = dropChance - j
-                        if (remainder > 0 && remainder < 1) {
-                            let randomRoll = Math.random();
-                            if (randomRoll >= remainder) {
-                                continue;
-                            }
-                        }
+                if (isMobBoss(entity)) {
 
-                        let gem = getRandomGem();
-                        let rarity = getRarity(entity);
-                        summonGem(server, dimensionId, rarity, gem, 1, x, y, z);
+                    var aabb = Java.loadClass("net.minecraft.world.phys.AABB")
+                    let entityArrayList = level.getEntitiesWithin(new aabb(x - 15, y - 15, z - 15, x + 15, y + 15, z + 15))
+                    let entityArrayListSize = entityArrayList.size();
+                    for (let i = 0; i < entityArrayListSize; i++) {
+                        let player = entityArrayList.get(i);
+                        if (player.getType() !== 'minecraft:player') continue;
+                        x = player.x;
+                        y = player.y;
+                        z = player.z;
+                        let dropChance = getPlayerDifficultyMultiplierForEconomy(player);
+                        for (let j = 0; j < dropChance; j++) {
+                            let remainder = dropChance - j
+                            if (remainder > 0 && remainder < 1) {
+                                let randomRoll = Math.random();
+                                if (randomRoll >= remainder) {
+                                    continue;
+                                }
+                            }
+
+                            let gem = getRandomGem();
+                            let rarity = getRarity(entity);
+                            lootlib_summonItem({type: "gem", gemType: gem, rarity: rarity}, player);
+                        }
                     }
                 }
             }
