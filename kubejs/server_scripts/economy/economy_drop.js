@@ -23,10 +23,32 @@ let COINS = [BRONZE_COIN, SILVER_COIN, GOLD_COIN, EMERALD_COIN, DIAMOND_COIN];
 let DIMENSION_MULTIPLIERS = {
     'minecraft:overworld': 1
 };
+let ECONOMY_DIFFICULTY_MULTIPLIERS = {
+    "origins-classes:difficulty/easy": 0.8,
+    "origins-classes:difficulty/normal": 1,
+    "origins-classes:difficulty/hard": 1.2,
+    "origins-classes:difficulty/brutal": 1.5,
+    "origins-classes:difficulty/nightmare": 2,
+    "origins-classes:difficulty/uninstall": 3,
+    "default": 1,
+}
 
 let ALL_BOSSES = ['minecraft:elder_guardian', 'aquamirae:captain_cornelia', 'aquamirae:maze_mother', 'aquamirae:eel', 'bosses_of_mass_destruction:lich', 'bosses_of_mass_destruction:void_blossom', 'blue_skies:alchemist', 'blue_skies:arachnarch', 'blue_skies:arachnarch', 'blue_skies:summoner', 'aether:slider', 'lost_aether_content:aerwhale_king', 'aether:valkyrie', 'aether:sun_spirit', 'minecraft:wither', 'bosses_of_mass_destruction:gauntlet', 'callfromthedepth_:agonysoul', 'call_of_yucutan:kukulkan', 'call_of_yucutan:ah_puch', 'mokels_boss_mantyd:boss_mantyd', 'minecraft:ender_dragon', 'bosses_of_mass_destruction:obsidilith', 'theabyss:abyssaur', 'theabyss:elder', 'theabyss:nightblade_boss', 'theabyss:the_roka', 'theabyss:crystal_golem', 'theabyss:magician'];
 
 let LAST_CONVERTED = {};
+
+/**
+ *
+ * @param {ServerPlayer} player
+ */
+function getPlayerDifficultyMultiplierForEconomy(player) {
+    let playerData = player.nbt.ForgeCaps;
+    let playerDifficulty = playerData["origins:origins"].Origins["origins-classes:difficulty"];
+    if (!ECONOMY_DIFFICULTY_MULTIPLIERS[playerDifficulty]) {
+        return ECONOMY_DIFFICULTY_MULTIPLIERS['default'];
+    }
+    return ECONOMY_DIFFICULTY_MULTIPLIERS[playerDifficulty];
+}
 
 function getPlayerCoinCount(player, coin_type) {
     return player.nbt.getInt(COIN_SLOTS[coin_type]);
@@ -237,7 +259,7 @@ function updatePlayerCoin(player, coinType, newAmount, currentBalance, coinItem,
     }
 }
 
-function grantReward(rewards, player, server) {
+function grantReward(rewards, player, server, killedEntity) {
     let bronze_reward = rewards[0];
     let silver_reward = rewards[1];
     let gold_reward = rewards[2];
@@ -253,7 +275,10 @@ function grantReward(rewards, player, server) {
     let total_reward = bronze_reward + CONVERSION_RATE * silver_reward + CONVERSION_RATE * CONVERSION_RATE * gold_reward + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * emerald_reward + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * diamond_reward;
     let total_balance = bronze_balance + CONVERSION_RATE * silver_balance + CONVERSION_RATE * CONVERSION_RATE * gold_balance + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * emerald_balance + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * diamond_balance;
 
-    let new_total_reward = total_reward + total_balance;
+    // Apply reward multipliers
+    let total_reward_plus_difficulty = Math.round(total_reward * getPlayerDifficultyMultiplierForEconomy(player));
+
+    let new_total_reward = total_reward_plus_difficulty + total_balance;
 
     let new_diamond = Math.floor(new_total_reward / (CONVERSION_RATE ** 4));
     new_total_reward %= (CONVERSION_RATE ** 4);
@@ -272,6 +297,16 @@ function grantReward(rewards, player, server) {
     updatePlayerCoin(player, 'gold', new_gold, gold_balance, GOLD_COIN, server);
     updatePlayerCoin(player, 'emerald', new_emerald, emerald_balance, EMERALD_COIN, server);
     updatePlayerCoin(player, 'diamond', new_diamond, diamond_balance, DIAMOND_COIN, server);
+
+    let newRewards = [
+        new_total_reward % CONVERSION_RATE,
+        Math.floor(new_total_reward / CONVERSION_RATE),
+        Math.floor(new_total_reward / (CONVERSION_RATE ** 2)),
+        Math.floor(new_total_reward / (CONVERSION_RATE ** 3)),
+        Math.floor(new_total_reward / (CONVERSION_RATE ** 4)),
+    ]
+
+    announceReward(server, player.name.string, newRewards, killedEntity);
 }
 
 function sendPlayerTitle(server, player_name, text) {
@@ -318,12 +353,10 @@ EntityEvents.death(event => {
                 let drop_returns = getReward(entity, partyMembers.length);
 
                 for (const partyMember of partyMembers) {
-                    grantReward(drop_returns, partyMember, server);
-                    announceReward(server, partyMember.name.string, drop_returns, entity_name);
+                    grantReward(drop_returns, partyMember, server, entity_name);
                 }
 
-                grantReward(drop_returns, player, server);
-                announceReward(server, player_name, drop_returns, entity_name);
+                grantReward(drop_returns, player, server, entity_name);
             }
         }
     }

@@ -261,7 +261,7 @@ function rollWeightedTable(table) {
 function lootlib_getItemDetails(details) {
     if (typeof details === "string") {
         // return `{Item:{id:"${details}",Count:1}}`;
-        return `Item:{id:"${details}",Count:1}`;
+        return [details, null];
     }
     let type = details.type;
     let tag = "";
@@ -285,12 +285,24 @@ function lootlib_getItemDetails(details) {
 
 function lootlib_summonItem(details, entity) {
     let args = lootlib_getItemDetails(details)
-    entity.block.popItem(Item.of(args[0],1,args[1]));
+    if (args[1] === null) {
+        entity.block.popItem(Item.of(args[0],1));
+    } else {
+        entity.block.popItem(Item.of(args[0],1,args[1]));
+    }
 }
 
 function overworldEliteDrops(rolls) {
     let drops = [];
-    for (let i = 0; i <= rolls; i++) {
+    for (let i = 0; i < rolls; i++) {
+        // Floating point rolls logic
+        var remainder = rolls - i
+        if (remainder > 0 && remainder < 1) {
+            var randomRoll = Math.random();
+            if (randomRoll >= remainder) {
+                continue;
+            }
+        }
         let weighted = [
             weightedEntry(lootlib_p_getRandomRune(), 30),
             weightedEntry(lootlib_p_getRandomTome(), 3),
@@ -315,7 +327,15 @@ function overworldEliteDrops(rolls) {
 
 function everbrightEliteDrops(rolls) {
     let drops = [];
-    for (let i = 0; i <= rolls; i++) {
+    for (let i = 0; i < rolls; i++) {
+        // Floating point rolls logic
+        var remainder = rolls - i
+        if (remainder > 0 && remainder < 1) {
+            var randomRoll = Math.random();
+            if (randomRoll >= remainder) {
+                continue;
+            }
+        }
         let weighted = [
             weightedEntry(lootlib_p_getRandomRune(), 25),
             weightedEntry(lootlib_p_getRandomTome(), 5),
@@ -346,7 +366,15 @@ function everbrightEliteDrops(rolls) {
 
 function everdawnEliteDrops(rolls) {
     let drops = [];
-    for (let i = 0; i <= rolls; i++) {
+    for (let i = 0; i < rolls; i++) {
+        // Floating point rolls logic
+        var remainder = rolls - i
+        if (remainder > 0 && remainder < 1) {
+            var randomRoll = Math.random();
+            if (randomRoll >= remainder) {
+                continue;
+            }
+        }
         let weighted = [
             weightedEntry(lootlib_p_getRandomRune(), 20),
             weightedEntry(lootlib_p_getRandomTome(), 10),
@@ -379,7 +407,15 @@ function everdawnEliteDrops(rolls) {
 
 function aetherEliteDrops(rolls) {
     let drops = [];
-    for (let i = 0; i <= rolls; i++) {
+    for (let i = 0; i < rolls; i++) {
+        // Floating point rolls logic
+        var remainder = rolls - i
+        if (remainder > 0 && remainder < 1) {
+            var randomRoll = Math.random();
+            if (randomRoll >= remainder) {
+                continue;
+            }
+        }
         let weighted = [
             weightedEntry(lootlib_p_getRandomRune(), 15),
             weightedEntry(lootlib_p_getRandomTome(), 15),
@@ -412,7 +448,15 @@ function aetherEliteDrops(rolls) {
 
 function netherEliteDrops(rolls) {
     let drops = [];
-    for (let i = 0; i <= rolls; i++) {
+    for (let i = 0; i < rolls; i++) {
+        // Floating point rolls logic
+        var remainder = rolls - i
+        if (remainder > 0 && remainder < 1) {
+            var randomRoll = Math.random();
+            if (randomRoll >= remainder) {
+                continue;
+            }
+        }
         let weighted = [
             weightedEntry(lootlib_p_getRandomRune(), 10),
             weightedEntry(lootlib_p_getRandomTome(), 5),
@@ -446,7 +490,15 @@ function netherEliteDrops(rolls) {
 
 function undergardenEliteDrops(rolls) {
     let drops = [];
-    for (let i = 0; i <= rolls; i++) {
+    for (let i = 0; i < rolls; i++) {
+        // Floating point rolls logic
+        var remainder = rolls - i
+        if (remainder > 0 && remainder < 1) {
+            var randomRoll = Math.random();
+            if (randomRoll >= remainder) {
+                continue;
+            }
+        }
         let weighted = [
             weightedEntry(lootlib_p_getRandomRune(), 10),
             weightedEntry(lootlib_p_getSigil(1), 5),
@@ -476,7 +528,15 @@ function undergardenEliteDrops(rolls) {
 
 function endEliteDrops(rolls) {
     let drops = [];
-    for (let i = 0; i <= rolls; i++) {
+    for (let i = 0; i < rolls; i++) {
+        // Floating point rolls logic
+        var remainder = rolls - i
+        if (remainder > 0 && remainder < 1) {
+            var randomRoll = Math.random();
+            if (randomRoll >= remainder) {
+                continue;
+            }
+        }
         let weighted = [
             weightedEntry(lootlib_p_getRandomRune(), 3),
             weightedEntry(lootlib_p_getSigil(1), 7),
@@ -509,7 +569,15 @@ function endEliteDrops(rolls) {
 
 function deepEliteDrops(rolls) {
     let drops = [];
-    for (let i = 0; i <= rolls; i++) {
+    for (let i = 0; i < rolls; i++) {
+        // Floating point rolls logic
+        var remainder = rolls - i
+        if (remainder > 0 && remainder < 1) {
+            var randomRoll = Math.random();
+            if (randomRoll >= remainder) {
+                continue;
+            }
+        }
         let weighted = [
             weightedEntry(lootlib_p_getRandomRune(), 4),
             weightedEntry(lootlib_p_getSigil(1), 10),
@@ -542,7 +610,15 @@ function deepEliteDrops(rolls) {
 
 function abyssEliteDrops(rolls) {
     let drops = [];
-    for (let i = 0; i <= rolls; i++) {
+    for (let i = 0; i < rolls; i++) {
+        // Floating point rolls logic
+        var remainder = rolls - i
+        if (remainder > 0 && remainder < 1) {
+            var randomRoll = Math.random();
+            if (randomRoll >= remainder) {
+                continue;
+            }
+        }
         let weighted = [
             weightedEntry(lootlib_p_getRandomRune(), 5),
             weightedEntry(lootlib_p_getSigil(1), 15),

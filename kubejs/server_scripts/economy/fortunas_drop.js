@@ -5,8 +5,12 @@ let DEFAULT_FORTUNAS_DROP_CHANCE = 0.035;
 EntityEvents.death(event => {
     let entity = event.getEntity();
     if (!isEntityAllowed(entity)) return;
+    var killingEntity = event.getSource().getPlayer();
+    if (!killingEntity) return;
+    if (killingEntity.getType() !== 'minecraft:player') return;
+    var difficultyMultiplier = getPlayerDifficultyMultiplierForEconomy(killingEntity);
     let randomChance = Math.random();
-    if (randomChance > DEFAULT_FORTUNAS_DROP_CHANCE) return;
+    if (randomChance > DEFAULT_FORTUNAS_DROP_CHANCE * difficultyMultiplier) return;
     let dimension = event.getLevel().getDimension().toString();
     let loot = null
     switch (dimension) {
