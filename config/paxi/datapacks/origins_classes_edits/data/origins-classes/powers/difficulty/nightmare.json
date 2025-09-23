@@ -29,5 +29,41 @@
             "entity_type": "minecraft:player",
             "inverted": true
         }
+    },
+    "combat_xp_modifier": {
+        "type": "origins:attribute",
+        "modifier": {
+            "name": "Difficulty Modifier",
+            "attribute": "zoompack_overrides_forge:combat_xp_multiplier",
+            "operation": "multiply_total",
+            "value": 1.5
+        }
+    },
+    "swordsmanship_xp_modifier": {
+        "type": "origins:attribute",
+        "modifier": {
+            "name": "Difficulty Modifier",
+            "attribute": "zoompack_overrides_forge:swordsmanship_xp_multiplier",
+            "operation": "multiply_total",
+            "value": 1.5
+        }
+    },
+    "archery_xp_modifier": {
+        "type": "origins:attribute",
+        "modifier": {
+            "name": "Difficulty Modifier",
+            "attribute": "zoompack_overrides_forge:archery_xp_multiplier",
+            "operation": "multiply_total",
+            "value": 1.5
+        }
+    },
+    "magic_xp_modifier": {
+        "type": "origins:attribute",
+        "modifier": {
+            "name": "Difficulty Modifier",
+            "attribute": "zoompack_overrides_forge:magic_xp_multiplier",
+            "operation": "multiply_total",
+            "value": 1.5
+        }
     }
 }
