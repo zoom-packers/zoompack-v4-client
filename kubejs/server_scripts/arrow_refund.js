@@ -13,7 +13,6 @@ EntityEvents.death(event => {
             break;
         }
     }
-    console.log(`Killed by ${weapon.getItem().getClass().getName().toLowerCase()}`);
     if (!causeIsProjectile) return;
     let dimension = event.getEntity().level.dimension.toString();
     let position = event.getEntity().position();
@@ -22,5 +21,4 @@ EntityEvents.death(event => {
     let z = position.z();
     let arrowCount = Math.random() < 0.5 ? 1 : 2;
     server.runCommandSilent(`execute in ${dimension} run summon minecraft:item ${x} ${y} ${z} {Item:{id:"minecraft:arrow",Count:${arrowCount}}`)
-    console.info(`Killed by ${weapon.getItem().getClass().getName()}`);
 })
