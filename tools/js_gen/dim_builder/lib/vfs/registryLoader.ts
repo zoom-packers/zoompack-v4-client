@@ -54,7 +54,12 @@ export class RegistryLoader implements IRegistryLoader {
                 const split = pathDiff.split('.');
                 const pathWithoutJson = split[0];
                 const extension = split[1];
-                const resourceLocation = `${tuple.namespace}:${pathWithoutJson}`;
+                const resourceLocation = `${tuple.namespace}:${pathWithoutJson.replace(/\\/g, '/')}`;
+
+                if (['json_old'].includes(extension)) {
+                    return;
+                }
+
 
                 if (extension === 'json') {
                     result[resourceLocation] = () => {

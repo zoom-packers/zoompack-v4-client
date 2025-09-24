@@ -1,6 +1,7 @@
 import {SelfWritingJson} from "../selfWritingJson";
 
 import {Structure} from "./structure";
+import {STRUCTURE_SET_JSON_REGISTRY} from "../vfs/vfs";
 
 export class StructureSet extends SelfWritingJson {
     static outputPath = "data/<internalNamespace>/worldgen/structure_set/<internalName>.json";

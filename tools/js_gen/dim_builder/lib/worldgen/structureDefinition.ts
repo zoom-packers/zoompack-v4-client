@@ -5,9 +5,16 @@ import {StructureSet} from "./structureSet";
 import {Structure} from "./structure";
 import {TemplatePool} from "./templatePool";
 import {loadJsonFromPath, navigateUpUntilTargetFolder, removeNamespace} from "../utils";
-import {findJigsawBlocks, readNbtFile} from "../nbt/util";
+import {findJigsawBlocks, readNbtFile, readNbtFromBuffer} from "../nbt/util";
 import {Biome} from "./biome";
 import path from "path";
+import {ResourceLocation} from "../types";
+import {
+    STRUCTURE_JSON_REGISTRY,
+    STRUCTURE_NBT_REGISTRY,
+    STRUCTURE_SET_JSON_REGISTRY,
+    TEMPLATE_POOL_REGISTRY
+} from "../vfs/vfs";
 
 export class StructureDefinition extends BasicDataHolder<StructureDefinition> {
     structureSet: StructureSet;
@@ -63,25 +70,21 @@ export class StructureDefinition extends BasicDataHolder<StructureDefinition> {
         });
     }
 
-    async fromTemplate(pathToStructureSet: string) {
-        console.info(`Started decoding structure from ${pathToStructureSet}`)
-        const isJar = pathToStructureSet.startsWith("jar:");
-        this.structureSet = new StructureSet().fromTemplate(await loadJsonFromPath(pathToStructureSet));
+    async fromResourceLocation(rl: ResourceLocation) {
+        this.structureSet = await (new StructureSet().fromResourceLocation(STRUCTURE_SET_JSON_REGISTRY, rl))
         this.structureSet.withNamespace(this.internalNamespace).withName(this.internalName);
-        const worldgenFolder = path.join(navigateUpUntilTargetFolder("worldgen", pathToStructureSet), "worldgen");
-        const dataFolder = path.join(navigateUpUntilTargetFolder("data", worldgenFolder), "data");
         for (const structureEntry of this.structureSet.structures) {
-            const structure = new Structure().fromTemplate(await loadJsonFromPath(`${worldgenFolder}/structure/${removeNamespace(structureEntry.structure)}.json`));
+            const structure = await (new Structure().fromResourceLocation(STRUCTURE_JSON_REGISTRY, structureEntry.structure));
             this.structures.push(structure);
             if (structure.type === "minecraft:jigsaw" || !!structure.start_pool) {
-                const pool = new TemplatePool().fromTemplate(await loadJsonFromPath(`${worldgenFolder}/template_pool/${removeNamespace(structure.start_pool)}.json`));
+                const pool = await (new TemplatePool().fromResourceLocation(TEMPLATE_POOL_REGISTRY, structure.start_pool));
                 pool.withNamespace(this.internalNamespace).withName(this.internalName + '_' + removeNamespace(structure.start_pool));
                 structure.template_pools = [pool];
-                await this.traversePool(pool, structure, dataFolder);
+                await this.traversePool(pool, structure);
                 structure.start_pool = this.internalNamespace + ':' + this.internalName + '_' + structure.start_pool.split(':')[1];
             }
             else {
-                console.warn(`Structure ${`${worldgenFolder}/structure/${removeNamespace(structureEntry.structure)}.json`} has no start_pool. Might be a dynamic structure. Please check to make sure.`)
+                console.warn(`Structure ${structureEntry.structure} has no start_pool. Might be a dynamic structure. Please check to make sure.`)
             }
             structure.withNamespace(this.internalNamespace).withName(removeNamespace(structureEntry.structure));
             structureEntry.structure = this.internalNamespace + ":" + structureEntry.structure.split(":")[1];
@@ -89,39 +92,37 @@ export class StructureDefinition extends BasicDataHolder<StructureDefinition> {
         return this;
     }
 
-    private async traversePool(pool: TemplatePool, structure: Structure, dataFolder: string) {
+    private async traversePool(pool: TemplatePool, structure: Structure) {
         const poolElements = pool.elements;
         for (const element of poolElements) {
             if (!!element.element.processors && !!element.element.processors.endsWith && element.element.processors.endsWith('empty')) {
                 continue;
             }
             if (element.element.element_type === "minecraft:single_pool_element" || element.element.element_type === "minecraft:legacy_single_pool_element") {
-                await this.processElement(element.element, dataFolder, structure);
+                await this.processElement(element.element, structure);
             } else if (element.element.element_type === "minecraft:list_pool_element") {
                 for (const listElement of element.element.elements) {
-                    await this.processElement(listElement, dataFolder, structure);
+                    await this.processElement(listElement, structure);
                 }
             }
         }
     }
 
-    private async processElement(element, dataFolder: string, structure: Structure) {
+    private async processElement(element, structure: Structure) {
         console.log(`Started processing element: ${element.location}`);
         let isJar = false;
         let modId = "";
-        if (dataFolder.startsWith("jar:")) {
-            isJar = true;
-            const split = dataFolder.split(":");
-            modId = split[1];
+        const originalLocation = element.location;
+
+        const nbt = new NbtStructure().withResourceLocation(originalLocation);
+        const fileGetter = await STRUCTURE_NBT_REGISTRY.get(originalLocation);
+        if (!fileGetter) {
+            debugger;
         }
-        element.location = this.internalNamespace + ":" + element.location.split(":")[1];
-        const nbtPath = isJar ?
-            `${dataFolder}/${modId}/structures/${removeNamespace(element.location)}.nbt` :
-            `${dataFolder}/structures/${removeNamespace(element.location)}.nbt`
-        const nbt = new NbtStructure().fromTemplateNbt(nbtPath);
-        const data = await readNbtFile(nbt.templatePath);
+        const buffer = fileGetter();
+        const data = await readNbtFromBuffer(buffer as Buffer);
         if (data.parsed === null && data.type === null) {
-            console.error(`Something went wrong. An NBT file would've been expected at ${nbt.templatePath}, but nothing has been found`)
+            console.error(`Something went wrong. An NBT file would've been expected for ${originalLocation}, but nothing has been found`)
             return;
         }
         nbt.data = data.parsed;
@@ -133,25 +134,13 @@ export class StructureDefinition extends BasicDataHolder<StructureDefinition> {
             if (structure.template_pools.some(p => p.internalName === this.internalName + '_' + removeNamespace(jigsawPoolId))) {
                 continue;
             }
-            if (!jigsawPoolId || jigsawPoolId.trim().length === 0) {
-                debugger;
-            }
-            if (jigsawPoolId === "villager_normal") {
-                debugger;
-            }
             if (jigsawPoolId === "minecraft:empty" || jigsawPoolId === "minecraft:") {
                 continue;
             }
-            const jigsawPoolPath = isJar ?
-                `${dataFolder}/${modId}/worldgen/template_pool/${removeNamespace(jigsawPoolId)}.json` :
-                `${dataFolder}/worldgen/template_pool/${removeNamespace(jigsawPoolId)}.json`;
-            if (jigsawPoolPath === "data/irons_spellbooks/worldgen/template_pool/.json") {
-                debugger;
-            }
-            const jigsawPool = new TemplatePool().fromTemplate(await loadJsonFromPath(jigsawPoolPath));
+            const jigsawPool = await (new TemplatePool().fromResourceLocation(TEMPLATE_POOL_REGISTRY, jigsawPoolId));
             jigsawPool.withNamespace(this.internalNamespace).withName(this.internalName + '_' + removeNamespace(jigsawPoolId));
             structure.template_pools.push(jigsawPool);
-            await this.traversePool(jigsawPool, structure, dataFolder);
+            await this.traversePool(jigsawPool, structure);
         }
         this.nbts.push(nbt);
         nbt.withNamespace(this.internalNamespace).withName(this.internalName + '_' + removeNamespace(element.location));

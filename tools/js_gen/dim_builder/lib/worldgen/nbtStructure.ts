@@ -6,9 +6,11 @@ import {
     editNbtPalette,
     exportNbtEntities, exportNbtLootTables,
     exportNbtPalette,
-    readNbtFile,
+    readNbtFile, readNbtFromBuffer,
     writeNbtFile
 } from "../nbt/util";
+import {ResourceLocation} from "../types";
+import {STRUCTURE_NBT_REGISTRY} from "../vfs/vfs";
 
 export type ReplaceBlockCommand = { oldBlock: string, newBlock: string };
 export type ReplaceEntityCommand = { oldEntity: string, newEntity: string };
@@ -17,7 +19,7 @@ export type ReplaceLootTableCommand = { oldLootTable: string, newLootTable: stri
 
 export class NbtStructure extends SelfWritingJson {
     static outputPath = "data/<internalNamespace>/structures/<internalName>.nbt";
-    templatePath: string;
+    resourceLocation: string;
     data: nbt.NBT;
     type: nbt.NBTFormat;
     replaceBlockCommands: ReplaceBlockCommand[] = [];
@@ -29,11 +31,12 @@ export class NbtStructure extends SelfWritingJson {
     }
 
     async build() {
-        if (!this.templatePath) {
-            throw new Error("No template path set")
+        if (!this.resourceLocation) {
+            throw new Error("No Resource Location Set")
         }
         if (!this.data || !this.type) {
-            const data = await readNbtFile(this.templatePath);
+            const fileGetter = await STRUCTURE_NBT_REGISTRY.get(this.resourceLocation);
+            const data = await readNbtFromBuffer(fileGetter() as Buffer);
             this.data = data.parsed;
             this.type = data.type;
         }
@@ -45,16 +48,21 @@ export class NbtStructure extends SelfWritingJson {
         }
     }
 
-    override fromTemplate(template: SelfWritingJson): this {
-        throw new Error("NBT StructureDefinition does not support fromTemplate, as it's not a json file")
-    }
+    // override fromTemplate(template: SelfWritingJson): this {
+    //     throw new Error("NBT StructureDefinition does not support fromTemplate, as it's not a json file")
+    // }
+    //
+    // override fromTemplateJson(json: string): this {
+    //     throw new Error("NBT StructureDefinition does not support fromTemplateJson, as it's not a json file")
+    // }
+    //
+    // fromTemplateNbt(path: string) {
+    //     this.templatePath = path;
+    //     return this;
+    // }
 
-    override fromTemplateJson(json: string): this {
-        throw new Error("NBT StructureDefinition does not support fromTemplateJson, as it's not a json file")
-    }
-
-    fromTemplateNbt(path: string) {
-        this.templatePath = path;
+    withResourceLocation(resourceLocation: ResourceLocation) {
+        this.resourceLocation = resourceLocation;
         return this;
     }
 

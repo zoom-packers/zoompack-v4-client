@@ -14,10 +14,10 @@ const scanLocations = {
     StructureNbtLocation: "data/$datapack/structures",
     StructureJsonLocation: "data/$datapack/worldgen/structure",
     StructureSetJsonLocation: "data/$datapack/worldgen/structure_set",
-    TemplatePoolJsonLocation: "data/$datapack/worldgen/structure_set",
+    TemplatePoolJsonLocation: "data/$datapack/worldgen/template_pool",
 }
 
-class VfsRegistry {
+export class VfsRegistry {
     private scanLocation: string;
     private entries: Record<ResourceLocation, FileGetter> = {};
     private loaded: boolean = false;
@@ -26,7 +26,7 @@ class VfsRegistry {
         this.scanLocation = scanLocation;
     }
 
-    public async load() {
+    private async load() {
         if (this.loaded) {
             return;
         }
@@ -78,15 +78,22 @@ class VfsRegistry {
     }
 
 
-    public get(key: ResourceLocation) {
-        return this.entries[key];
+    public async get(key: ResourceLocation) {
+        if (!this.loaded) await this.load();
+        const result = this.entries[key];
+        if (!result) {
+            debugger;
+        }
+        return result;
     }
 
-    public set(key: ResourceLocation, value: any) {
+    public async set(key: ResourceLocation, value: any) {
+        if (!this.loaded) await this.load();
         this.entries[key] = value;
     }
 
-    public keys() {
+    public async keys() {
+        if (!this.loaded) await this.load();
         return Object.keys(this.entries);
     }
 }

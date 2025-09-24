@@ -27,6 +27,11 @@ export async function readNbtFile(path: string) {
     return { parsed, type };
 }
 
+export async function readNbtFromBuffer(buffer: Buffer) {
+    const { parsed, type } = await nbt.parse(buffer);
+    return { parsed, type };
+}
+
 export async function writeNbtFile(path: string, data: nbt.NBT, type: nbt.NBTFormat) {
     const buffer = nbt.writeUncompressed(data, type)
     const gzipped = await gzip(buffer);

@@ -2,6 +2,9 @@
 import fs from "fs";
 import {ensureFolderExists, paxiDatapacksPath} from "./utils";
 import {KubeJSContainer} from "./kjs/kubeJSContainer";
+import {ResourceLocation} from "./types";
+import {VfsRegistry} from "./vfs/vfsRegistry";
+import stripJsonComments from "strip-json-comments";
 
 export interface IBasicDataHolder<T> {
     internalName: string;
@@ -108,6 +111,25 @@ export class SelfWritingJson implements IBasicDataHolder<SelfWritingJson> {
             this[templateKey] = template[templateKey];
         }
         return this;
+    }
+
+    async fromResourceLocation(registry: VfsRegistry, rl: ResourceLocation) {
+        const fileGetter = await registry.get(rl);
+        if (!fileGetter) {
+            debugger;
+        }
+        const template = fileGetter();
+        if (typeof template !== "string") {
+            console.error(`Failed to get resource location for ${rl}. It is not a json file!`);
+        }
+        try {
+            const jsonObject = JSON.parse(stripJsonComments(template as string));
+            return this.fromTemplate(jsonObject);
+        } catch (error) {
+            console.error(`Could not parse JSON object for ${rl}. It is not a json file!`);
+            fs.writeFileSync(`errors/${rl}.json`, template as string);
+            throw error;
+        }
     }
 
     setJsContainer(jsRegistrar: KubeJSContainer): SelfWritingJson {
