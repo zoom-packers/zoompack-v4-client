@@ -55,3 +55,4 @@ structory:outcast_villager
 structory:ruin
 structory:ruin_quiet
 trials:trials_chambers
+repurposed_structures:pyramids_overworld

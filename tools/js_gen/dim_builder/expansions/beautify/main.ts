@@ -88,22 +88,10 @@ var mappings = dimensionMappingFiles.map(file => {
     };
 });
 
-// Validate Mappings
-async function loadJsons() {
-    for (const mapping of mappings) {
-        for (const structure of mapping.structures) {
-            console.info(`Scanning JSON from path: ${structure.path}`)
-            const json = await loadJsonFromPath(structure.path);
-            if (json === null || json === undefined) {
-                console.error(`Unable to load structure: ${structure.path}`);
-            } else {
-                console.info(`Found ${structure.path} structure: ${JSON.stringify(json, null, 2)}`);
-            }
-        }
-    }
-}
-
 function loadPalleteMap(dimension: string, structures: StructureDefinition[]) {
+    if (!fs.existsSync(replacementsMappingPath)) {
+        fs.mkdirSync(replacementsMappingPath);
+    }
     const exportPath = path.join(replacementsMappingPath, dimension + '.json')
     const perStructureMappings = structures.map(structureDef => {
         return {
@@ -219,7 +207,7 @@ async function createExpansionPack() {
         const structureDefinitions: StructureDefinition[] = [];
         for (const structure of mapping.structures) {
             const definition = await new StructureDefinition(`${structure.structureId}`, localModId)
-                .fromTemplate(structure.path);
+                .fromResourceLocation(structure.fullId);
             definition.removeBiomes()
                 .onBiomes(biomeMappings[mapping.filename])
             structureDefinitions.push(definition);
@@ -285,7 +273,6 @@ async function createExpansionPack() {
 
 
 async function main() {
-    await loadJsons();
     await createExpansionPack();
 }
 
