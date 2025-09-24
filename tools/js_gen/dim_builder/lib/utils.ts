@@ -95,6 +95,11 @@ export function rootPath() {
     return navigateUpUntilTargetFolder('tools', __dirname);
 }
 
+export function cachePath() {
+    const root = rootPath();
+    return path.join(root, '.cache');
+}
+
 export function paxiPath() {
     const root = rootPath();
     return path.join(root, 'config', 'paxi');

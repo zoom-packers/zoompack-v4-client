@@ -86,7 +86,11 @@ async function scanModFolder() {
     modIndexScanned = true;
 }
 
-async function createCacheFolder() {
+export async function ensureCacheFolder() {
+    if (cacheFolderCreated) {
+        return;
+    }
+
     const cachePath = path.join(rootPath(), ".cache");
     if (!fs.existsSync(cachePath)) {
         fs.mkdirSync(cachePath);
@@ -119,7 +123,7 @@ function getFileHash(filePath: string): string {
     return hashSum.digest('hex');
 }
 
-async function isModCached(modId: string, jarPath: string): Promise<boolean> {
+export async function isModCached(modId: string, jarPath: string): Promise<boolean> {
     const modCachePath = getModCachePath(modId);
     const hashFilePath = path.join(modCachePath, '.hash');
 
@@ -133,9 +137,9 @@ async function isModCached(modId: string, jarPath: string): Promise<boolean> {
     return cachedHash === currentHash;
 }
 
-async function extractJarToCache(modId: string, jarPath: string): Promise<void> {
+export async function extractJarToCache(modId: string, jarPath: string): Promise<void> {
     if (!cacheFolderCreated) {
-        await createCacheFolder();
+        await ensureCacheFolder();
     }
 
     const modCachePath = getModCachePath(modId);
@@ -160,13 +164,17 @@ async function extractJarToCache(modId: string, jarPath: string): Promise<void> 
     console.log(`Extracted ${count} entries from ${modId} jar to cache`);
 }
 
-async function initializeJarUtil(): Promise<void> {
+export async function initializeJarUtil(): Promise<void> {
     if (!modIndexScanned) {
         await scanModFolder();
     }
     if (!cacheFolderCreated) {
-        await createCacheFolder();
+        await ensureCacheFolder();
     }
+}
+
+export function getModIndexKeys() {
+    return modIndex.keys();
 }
 
 export async function getModData(modId: string): Promise<ModData | undefined> {
@@ -200,7 +208,7 @@ export async function loadBufferFromMod(modId: string, pathInJar: string): Promi
 
     // Ensure cache folder exists
     if (!cacheFolderCreated) {
-        await createCacheFolder();
+        await ensureCacheFolder();
     }
 
     // Check if mod is cached and up-to-date
