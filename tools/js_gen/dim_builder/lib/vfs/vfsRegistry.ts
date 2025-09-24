@@ -1,6 +1,13 @@
 import {getModIndexKeys, initializeJarUtil} from "../jar_util";
 import {FileGetter, ResourceLocation} from "./vfs";
-import {MinecraftRegistryLoader, ModRegistryLoader} from "./registryLoader";
+import {
+    DatapackRegistryLoader,
+    DatapackZipRegistryLoader,
+    MinecraftRegistryLoader,
+    ModRegistryLoader,
+    RegistryLoader
+} from "./registryLoader";
+import {findPaxiDatapacks, findServerDatapacks} from "../dp_util";
 
 const scanLocations = {
     LootTableLocation: "data/$datapack/loot_tables",
@@ -37,6 +44,27 @@ class VfsRegistry {
             await modLoader.pre();
             const modEntries = await modLoader.load();
             this.mergeIntoEntries(modEntries);
+        }
+
+        // Datapacks
+        const paxiDatapacks = findPaxiDatapacks();
+        for (const entry of paxiDatapacks) {
+            let datapackLoader: RegistryLoader = entry.type === 'zip' ?
+                new DatapackZipRegistryLoader(this.scanLocation, entry.path) :
+                new DatapackRegistryLoader(this.scanLocation, entry.path);
+            await datapackLoader.pre();
+            const datapackEntries = await datapackLoader.load();
+            this.mergeIntoEntries(datapackEntries);
+        }
+
+        const serverDatapacks = findServerDatapacks();
+        for (const entry of serverDatapacks) {
+            let datapackLoader: RegistryLoader = entry.type === 'zip' ?
+                new DatapackZipRegistryLoader(this.scanLocation, entry.path) :
+                new DatapackRegistryLoader(this.scanLocation, entry.path);
+            await datapackLoader.pre();
+            const datapackEntries = await datapackLoader.load();
+            this.mergeIntoEntries(datapackEntries);
         }
 
         this.loaded = true;

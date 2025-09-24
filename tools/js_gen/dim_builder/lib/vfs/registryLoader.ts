@@ -3,6 +3,7 @@ import fs from "fs-extra";
 import {FileGetter, ResourceLocation} from "./vfs";
 import {cachePath} from "../utils";
 import {ensureCacheFolder, extractJarToCache, getModData, isModCached} from "../jar_util";
+import {cacheDatapackZip, getDatapackCachePath, isZipDatapackCached} from "../dp_util";
 
 
 export interface IRegistryLoader {
@@ -12,22 +13,22 @@ export interface IRegistryLoader {
 
 export class RegistryLoader implements IRegistryLoader {
     protected scanLocation: string;
-    protected dpFolder: string;
-    protected rootPath: string
+    protected rootPath: string;
+    protected isMc: boolean;
 
-    constructor(scanLocation: string, rootPath: string, dpFolder: string) {
+    constructor(scanLocation: string, rootPath: string, isMc: boolean = false) {
         this.scanLocation = scanLocation;
         this.rootPath = rootPath;
-        this.dpFolder = dpFolder;
+        this.isMc = isMc;
     }
 
     async load(): Promise<Record<ResourceLocation, FileGetter>> {
         const result: Record<ResourceLocation, FileGetter> = {};
 
         let rootPaths: {namespace: string, path: string}[] = [];
-        if (this.dpFolder === '') {
+        if (this.isMc) {
             rootPaths.push({namespace: 'minecraft', path: path.join(this.rootPath,
-                this.scanLocation.replace('$datapack', this.dpFolder)
+                this.scanLocation.replace('$datapack', '')
                     .replace('//', '/'))});
         } else {
             const fullPath = path.join(this.rootPath, this.scanLocation);
@@ -92,7 +93,7 @@ export class RegistryLoader implements IRegistryLoader {
 export class MinecraftRegistryLoader extends RegistryLoader {
 
     constructor(scanLocation: string) {
-        super(scanLocation, './mc', '');
+        super(scanLocation, './mc', true);
     }
 }
 
@@ -100,7 +101,7 @@ export class ModRegistryLoader extends RegistryLoader {
     modId: string;
 
     constructor(scanLocation: string, modId: string) {
-        super(scanLocation, path.join(cachePath(), 'extracted_jars', modId), modId);
+        super(scanLocation, path.join(cachePath(), 'extracted_jars', modId));
         this.modId = modId;
     }
 
@@ -119,5 +120,29 @@ export class ModRegistryLoader extends RegistryLoader {
         if (!isCached) {
             await extractJarToCache(this.modId, modData.filePath);
         }
+    }
+}
+
+export class DatapackRegistryLoader extends RegistryLoader {
+    constructor(scanLocation: string, datapackPath: string) {
+        super(scanLocation, datapackPath);
+    }
+}
+
+export class DatapackZipRegistryLoader extends RegistryLoader {
+    protected datapackPath: string;
+
+    constructor(scanLocation: string, datapackPath: string) {
+        super(scanLocation, datapackPath);
+        this.datapackPath = datapackPath;
+    }
+
+    override async pre() {
+        const isCached = isZipDatapackCached(this.datapackPath);
+        if (!isCached) {
+            await cacheDatapackZip(this.datapackPath);
+        }
+        this.datapackPath = getDatapackCachePath(this.datapackPath);
+        this.rootPath = this.datapackPath;
     }
 }

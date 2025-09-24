@@ -121,6 +121,18 @@ export function kubejsAssetsPath() {
     return path.join(kubejsPath(), 'assets');
 }
 
+export function serverPath() {
+    return path.join(rootPath(), 'zoompack-v4-server');
+}
+
+export function serverOverridesPath() {
+    return path.join(serverPath(), 'build', 'overrides');
+}
+
+export function serverDatapacksPath() {
+    return path.join(serverOverridesPath(), 'world', 'datapacks');
+}
+
 /**
  * @deprecated
  */
