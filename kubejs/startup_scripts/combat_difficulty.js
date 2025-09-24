@@ -6,7 +6,7 @@
  * */
 function finishUsing(itemStack, level, player, difficulty) {
     var playerName = player.getName().getString();
-    level.server.runCommandSilent(`origin set ${playerName} origins-classes:difficulty origins-classes:difficulty/${difficulty}`);
+    level.runCommandSilent(`origin set ${playerName} origins-classes:difficulty origins-classes:difficulty/${difficulty}`);
     player.sendSystemMessage(`§eCongratualtions! Your combat difficulty has been changed to §l§4${difficulty}§r§r! Please check your difficulty by pressing the §l§3<INSERT>§r§r key to show your origins.§r`)
 }
 
