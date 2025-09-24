@@ -110,14 +110,13 @@ export class StructureDefinition extends BasicDataHolder<StructureDefinition> {
 
     private async processElement(element, structure: Structure) {
         console.log(`Started processing element: ${element.location}`);
-        let isJar = false;
-        let modId = "";
         const originalLocation = element.location;
 
         const nbt = new NbtStructure().withResourceLocation(originalLocation);
         const fileGetter = await STRUCTURE_NBT_REGISTRY.get(originalLocation);
         if (!fileGetter) {
-            debugger;
+            console.error(`Could not find structure nbt for ${originalLocation}. Skipping`)
+            return;
         }
         const buffer = fileGetter();
         const data = await readNbtFromBuffer(buffer as Buffer);
@@ -138,9 +137,11 @@ export class StructureDefinition extends BasicDataHolder<StructureDefinition> {
                 continue;
             }
             const jigsawPool = await (new TemplatePool().fromResourceLocation(TEMPLATE_POOL_REGISTRY, jigsawPoolId));
-            jigsawPool.withNamespace(this.internalNamespace).withName(this.internalName + '_' + removeNamespace(jigsawPoolId));
-            structure.template_pools.push(jigsawPool);
-            await this.traversePool(jigsawPool, structure);
+            if (!!jigsawPool) {
+                jigsawPool.withNamespace(this.internalNamespace).withName(this.internalName + '_' + removeNamespace(jigsawPoolId));
+                structure.template_pools.push(jigsawPool);
+                await this.traversePool(jigsawPool, structure);
+            }
         }
         this.nbts.push(nbt);
         nbt.withNamespace(this.internalNamespace).withName(this.internalName + '_' + removeNamespace(element.location));

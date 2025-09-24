@@ -117,6 +117,7 @@ export class SelfWritingJson implements IBasicDataHolder<SelfWritingJson> {
         const fileGetter = await registry.get(rl);
         if (!fileGetter) {
             debugger;
+            return null;
         }
         const template = fileGetter();
         if (typeof template !== "string") {

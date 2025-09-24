@@ -1,5 +1,5 @@
 import {getModIndexKeys, initializeJarUtil} from "../jar_util";
-import {FileGetter, ResourceLocation} from "./vfs";
+import {FileGetter, ResourceLocation, STRUCTURE_SET_JSON_REGISTRY} from "./vfs";
 import {
     DatapackRegistryLoader,
     DatapackZipRegistryLoader,
@@ -8,6 +8,7 @@ import {
     RegistryLoader
 } from "./registryLoader";
 import {findPaxiDatapacks, findServerDatapacks} from "../dp_util";
+import {StructureSet} from "../worldgen/structureSet";
 
 const scanLocations = {
     LootTableLocation: "data/$datapack/loot_tables",
@@ -82,7 +83,6 @@ export class VfsRegistry {
         if (!this.loaded) await this.load();
         const result = this.entries[key];
         if (!result) {
-            debugger;
         }
         return result;
     }
