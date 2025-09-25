@@ -471,7 +471,7 @@ let techProgMilestones = [
                 amount: 32
             },
             {
-                item: "create:linked_controller",
+                item: "create:redstone_link",
                 amount: 32
             }
         ],
@@ -523,7 +523,7 @@ let techProgMilestones = [
                 amount: 8
             },
             {
-                item: "create:linked_controller",
+                item: "create:redstone_link",
                 amount: 8
             }
         ],
