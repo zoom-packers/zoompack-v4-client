@@ -343,7 +343,13 @@
             "irons_spellbooks:chests/mountain_tower/mountain_tower": "irons_spellbooks:chests/mountain_tower/mountain_tower",
             "irons_spellbooks:chests/bookshelf_loot": "irons_spellbooks:chests/bookshelf_loot",
             "letsdoaddon-structures:chests/vinery": "letsdoaddon-structures:chests/vinery"
-        }
+        },
+        "biomes": [
+            "aether:skyroot_forest",
+            "aether:skyroot_grove",
+            "aether:skyroot_meadow",
+            "aether:skyroot_woodland"
+        ]
     },
     "specificReplacements": []
 }

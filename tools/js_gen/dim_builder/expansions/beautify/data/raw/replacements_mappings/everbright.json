@@ -664,7 +664,32 @@
             "betterdeserttemples:chests/flower_forest/tomb_pharaoh": "betterdeserttemples:chests/flower_forest/tomb_pharaoh",
             "betterdeserttemples:chests/flower_forest/pharaoh_hidden": "betterdeserttemples:chests/flower_forest/pharaoh_hidden",
             "repurposed_structures:chests/pyramids/flower_forest": "repurposed_structures:chests/pyramids/flower_forest"
-        }
+        },
+        "biomes": [
+            "blue_skies:brightlands",
+            "blue_skies:brisk_meadow",
+            "blue_skies:brumble_forest",
+            "blue_skies:calming_skies",
+            "blue_skies:crescent_orchard",
+            "blue_skies:crescent_orchard_lake",
+            "blue_skies:crystal_dunes",
+            "blue_skies:crystal_dunes_spikes",
+            "blue_skies:crystal_roughs",
+            "blue_skies:deep_peeking_ocean",
+            "blue_skies:frostbitten_forest",
+            "blue_skies:frostbitten_forest_clearing",
+            "blue_skies:midday_shore",
+            "blue_skies:moonlit_reservoir",
+            "blue_skies:peeking_ocean",
+            "blue_skies:polar_highland",
+            "blue_skies:rising_creek",
+            "blue_skies:searing_grassland",
+            "blue_skies:shaded_woodlands",
+            "blue_skies:slushlands",
+            "blue_skies:snow_covered_pines",
+            "blue_skies:sunset_maple_forest",
+            "blue_skies:unorthodox_valley"
+        ]
     },
     "specificReplacements": []
 }

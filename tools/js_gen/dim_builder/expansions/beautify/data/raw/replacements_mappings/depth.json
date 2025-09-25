@@ -449,7 +449,17 @@
             "kobolds:chests/artifact_loot": "kobolds:chests/artifact_loot",
             "minecraft:chests/desert_pyramid": "minecraft:chests/desert_pyramid",
             "trials:chests/tower_loot": "trials:chests/tower_loot"
-        }
+        },
+        "biomes": [
+            "callfromthedepth_:deepamethistforest",
+            "callfromthedepth_:deepdepth",
+            "callfromthedepth_:deepforest",
+            "callfromthedepth_:deepmagma",
+            "callfromthedepth_:deeprot",
+            "callfromthedepth_:lostsoulsbiome",
+            "callfromthedepth_:skulkswamp",
+            "callfromthedepth_:strongsculkswamp"
+        ]
     },
     "specificReplacements": []
 }

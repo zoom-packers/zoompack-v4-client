@@ -295,7 +295,12 @@
             "irons_spellbooks:chests/mangrove_hut/hidden_potion_storage": "irons_spellbooks:chests/mangrove_hut/hidden_potion_storage",
             "irons_spellbooks:chests/mountain_tower/mountain_tower": "irons_spellbooks:chests/mountain_tower/mountain_tower",
             "irons_spellbooks:chests/bookshelf_loot": "irons_spellbooks:chests/bookshelf_loot"
-        }
+        },
+        "biomes": [
+            "outer_end:azure_forest",
+            "outer_end:crystal_crag",
+            "outer_end:primordial_pools"
+        ]
     },
     "specificReplacements": []
 }

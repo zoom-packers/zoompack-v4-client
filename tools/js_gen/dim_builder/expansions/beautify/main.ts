@@ -131,6 +131,7 @@ function loadPalleteMap(dimension: string, structures: StructureDefinition[]) {
     const allBlocksDict = {};
     const allEntitiesDict = {};
     const allLootTablesDict = {};
+    let biomes = biomeMappings[`${dimension}.txt`];
     for (const block of allBlocks) {
         allBlocksDict[block] = block;
     }
@@ -148,24 +149,20 @@ function loadPalleteMap(dimension: string, structures: StructureDefinition[]) {
         const inputJson: BulkStructureReplacements = JSON.parse(inputData);
         if (!!inputJson) {
             for (const bulkReplacement of Object.keys(inputJson.bulkReplacements.blocks)) {
-                // if (!Object.values(block_all).includes(inputJson.bulkReplacements.blocks[bulkReplacement])) {
-                //     console.warn(`The mapping for the block ${bulkReplacement} does not exist in ${exportPath}. Actual value: ${inputJson.bulkReplacements.blocks[bulkReplacement]}`);
-                // }
+
                 allBlocksDict[bulkReplacement] = inputJson.bulkReplacements.blocks[bulkReplacement];
             }
             for (const bulkReplacement of Object.keys(inputJson.bulkReplacements.entities)) {
-                // if (!Object.values(entity_all).includes(inputJson.bulkReplacements.entities[bulkReplacement])) {
-                //     console.warn(`The mapping for the entity ${bulkReplacement} does not exist in ${exportPath}. Actual value: ${inputJson.bulkReplacements.entities[bulkReplacement]}`);
-                // }
+
                 allEntitiesDict[bulkReplacement] = inputJson.bulkReplacements.entities[bulkReplacement];
             }
             if (inputJson.bulkReplacements.lootTables) {
                 for (const bulkReplacement of Object.keys(inputJson.bulkReplacements.lootTables)) {
-                    // if (!Object.values(entity_all).includes(inputJson.bulkReplacements.entities[bulkReplacement])) {
-                    //     console.warn(`The mapping for the entity ${bulkReplacement} does not exist in ${exportPath}. Actual value: ${inputJson.bulkReplacements.entities[bulkReplacement]}`);
-                    // }
                     allLootTablesDict[bulkReplacement] = inputJson.bulkReplacements.lootTables[bulkReplacement];
                 }
+            }
+            if (inputJson.bulkReplacements.biomes && inputJson.bulkReplacements.biomes.length > 0) {
+                biomes = inputJson.bulkReplacements.biomes;
             }
             for (const specificReplacement of inputJson.specificReplacements) {
                 specificReplacements.push(specificReplacement);
@@ -178,6 +175,7 @@ function loadPalleteMap(dimension: string, structures: StructureDefinition[]) {
             blocks: allBlocksDict,
             entities: allEntitiesDict,
             lootTables: allLootTablesDict,
+            biomes: biomes
         },
         specificReplacements: specificReplacements
     }
@@ -208,8 +206,6 @@ async function createExpansionPack() {
         for (const structure of mapping.structures) {
             const definition = await new StructureDefinition(`${structure.structureId}`, localModId)
                 .fromResourceLocation(structure.fullId);
-            definition.removeBiomes()
-                .onBiomes(biomeMappings[mapping.filename])
             structureDefinitions.push(definition);
         }
         const palleteMap = loadPalleteMap(dimensionName, structureDefinitions);
@@ -217,6 +213,7 @@ async function createExpansionPack() {
             const combinedBlockPallete: {} = JSON.parse(JSON.stringify(palleteMap.bulkReplacements.blocks));
             const combinedEntityPallete: {} = JSON.parse(JSON.stringify(palleteMap.bulkReplacements.entities));
             const combinedLootTables: {} = JSON.parse(JSON.stringify(palleteMap.bulkReplacements.lootTables));
+            let combinedBiomes: string[] = JSON.parse(JSON.stringify(palleteMap.bulkReplacements.biomes));
             const overridesIndex = palleteMap.specificReplacements.findIndex(x => x.structureId === structureDefinition.internalName);
             if (overridesIndex >= 0) {
                 const overrides = palleteMap.specificReplacements[overridesIndex];
@@ -234,6 +231,9 @@ async function createExpansionPack() {
                     for (const lootTableOverride of Object.keys(overrides.lootTables)) {
                         combinedLootTables[lootTableOverride] = overrides.lootTables[lootTableOverride];
                     }
+                }
+                if (overrides.biomes && overrides.biomes.length > 0) {
+                    combinedBiomes = overrides.biomes;
                 }
             }
             const blockCommands: ReplaceBlockCommand[] = Object.keys(combinedBlockPallete).map(x => {
@@ -257,6 +257,7 @@ async function createExpansionPack() {
             structureDefinition.replaceBlocks(blockCommands)
             structureDefinition.replaceEntities(entityCommands)
             structureDefinition.replaceLootTables(lootTableCommands)
+            structureDefinition.removeBiomes().onBiomes(combinedBiomes)
         }
 
 
