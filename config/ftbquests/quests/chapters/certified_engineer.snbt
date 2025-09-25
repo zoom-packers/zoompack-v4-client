@@ -1131,7 +1131,11 @@
 				{
 					count: 32L
 					id: "447418423655BF76"
-					item: "create:linked_controller"
+					item: {
+						Count: 1
+						id: "create:redstone_link"
+						tag: { }
+					}
 					optional_task: true
 					type: "item"
 				}
