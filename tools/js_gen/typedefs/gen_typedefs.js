@@ -116,6 +116,7 @@ createItemEnumTypedefs("dimension_registry_dump", MOD_TEMPLATE, "dimension_typed
 createItemEnumTypedefs("biome_registry_dump", MOD_TEMPLATE, "biome_typedefs.js","biome");
 createItemEnumTypedefs("loot_table_registry_dump", MOD_TEMPLATE, "loot_table_typedefs.js","loot_table");
 createItemEnumTypedefs("attribute_registry_dump", MOD_TEMPLATE, "attribute_typedefs.js","attribute", false);
+createItemEnumTypedefs("structureset_registry_dump", MOD_TEMPLATE, "structureset_typedefs.js","structure_set", false);
 
 createItemTSEnumTypedefs("item_registry_dump", MOD_TS_TEMPLATE, "item_typedefs.ts","item");
 createItemTSEnumTypedefs("block_registry_dump", MOD_TS_TEMPLATE, "block_typedefs.ts","block");
@@ -124,4 +125,5 @@ createItemTSEnumTypedefs("dimension_registry_dump", MOD_TS_TEMPLATE, "dimension_
 createItemTSEnumTypedefs("biome_registry_dump", MOD_TS_TEMPLATE, "biome_typedefs.ts","biome");
 createItemTSEnumTypedefs("loot_table_registry_dump", MOD_TS_TEMPLATE, "loot_table_typedefs.ts","loot_table");
 createItemTSEnumTypedefs("attribute_registry_dump", MOD_TS_TEMPLATE, "attribute_typedefs.ts","attribute", false);
+createItemTSEnumTypedefs("structureset_registry_dump", MOD_TS_TEMPLATE, "structureset_typedefs.ts","structure_set", false);
 
