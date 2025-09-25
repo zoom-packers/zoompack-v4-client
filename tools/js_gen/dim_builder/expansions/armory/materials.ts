@@ -418,17 +418,33 @@ const materials = [
 
     // Call from the depth
     {
-        name: "immemorial",
+        name: "depth",
         tier: tier_levels_call_from_the_depths_start,
         item: item_callfromthedepth_.i_immemorialingot,
         type: "crafting",
-        base_damage: 188,
+        base_damage: 179,
         durability: 5700,
-        armor: 200,
-        armorToughness: 13,
+        armor: 230,
+        armorToughness: 12.5,
         knockbackResistance: 0.1,
         pmmoLevel: 84,
-        materialColor: "#629592",
+        materialColor: "#3b6663ff",
+        skip: ["tools", "armor"]
+    },
+    {
+        name: "marble",
+        tier: tier_levels_call_from_the_depths_start + 1,
+        item: item_callfromthedepth_.i_marbleingot,
+        type: "smithing",
+        smithing: item_callfromthedepth_.i_immemorialupgradesmithingtemplate,
+        base: "depth",
+        base_damage: 188,
+        durability: 5850,
+        armor: 250,
+        armorToughness: 13,
+        knockbackResistance: 0.11,
+        pmmoLevel: 86,
+        materialColor: "#9fabacff",
         skip: ["tools", "armor"]
     },
     {
@@ -437,15 +453,15 @@ const materials = [
         item: item_callfromthedepth_.i_soulingot,
         type: "smithing",
         smithing: item_callfromthedepth_.i_immemorialupgradesmithingtemplate,
-        base: "immemorial",
-        base_damage: 211,
+        base: "marble",
+        base_damage: 192,
         durability: 6000,
-        armor: 260,
+        armor: 270,
         armorToughness: 13,
         knockbackResistance: 0.11,
         pmmoLevel: 88,
-        materialColor: "#2ea4ad",
-        skip: ["bow", "tools", "armor"]
+        materialColor: "#105a61ff",
+        skip: ["tools", "armor"]
     },
 
     // Abyss

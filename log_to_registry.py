@@ -1,5 +1,5 @@
 SEPARATOR = '[CHAT] - '
-with open('logs/latest.log') as f:
+with open('logs/latest.log', encoding='utf-8') as f:
     log_file = f.read()
     registry_part = log_file.split('[CHAT] List of all entries for registry minecraft:item:')[1].split(' [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Total: ')[0]
     

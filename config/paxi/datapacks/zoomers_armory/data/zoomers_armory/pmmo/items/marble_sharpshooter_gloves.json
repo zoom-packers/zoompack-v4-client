@@ -1,0 +1,11 @@
+{
+    "requirements": {
+        "WEAR": {
+            "archery": 86
+        },
+        "USE": {
+            "archery": 86
+        }
+    },
+    "override": true
+}

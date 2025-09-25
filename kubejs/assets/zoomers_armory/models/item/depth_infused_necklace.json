@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "zoomers_armory:item/depth_infused_necklace"
+    },
+    "parent": "zoomers_armory:item/small"
+}

@@ -476,8 +476,8 @@ new_armor_set_config("enderitemod", "enderite", [40,59,49,40], 8, -0.01, hp_tier
 # call from the depths
 new_sword_config("callfromthedepth_","immemorialsword", 170, full_id=True)
 new_armor_set_config("callfromthedepth_", "depth_armor", [50,70,60,50], 9.4, 0.0, hp_tier=20)
-new_sword_config("callfromthedepth_","soulclaymore", 171, full_id=True, attack_speed=0.3)
-new_sword_config("callfromthedepth_","soulmarblehammer", 178, full_id=True, attack_speed=0.8) 
+new_sword_config("callfromthedepth_","soulmarblehammer", 171, full_id=True, attack_speed=0.8) 
+new_sword_config("callfromthedepth_","soulclaymore", 178, full_id=True, attack_speed=0.3)
 new_armor_set_config("callfromthedepth_", "marblearmor", [61,81,71,61], 9.8, 0.055, hp_tier=20)
 new_sword_config("callfromthedepth_","dark_abyssscythe", 185, full_id=True, attack_speed=0.6) 
 new_armor_set_config("callfromthedepth_", "soularmor", [69,89,79,69], 9.0, -0.09, hp_tier=20)

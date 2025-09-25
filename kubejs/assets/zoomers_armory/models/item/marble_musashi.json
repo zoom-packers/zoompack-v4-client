@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "0": "zoomers_armory:item/marble_musashi"
+    },
+    "parent": "zoomers_armory:item/musashi"
+}
