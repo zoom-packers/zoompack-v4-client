@@ -1328,3 +1328,79 @@
 		CooldownInSeconds = 40.0
 		AllowCrafting = true
 
+		[Spells."advs_spells_arts:groundslam"]
+		Enabled = true
+		School = "irons_spellbooks:nature"
+		MaxLevel = 20
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "UNCOMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 35.0
+		AllowCrafting = true
+
+	[Spells."advs_spells_arts:earthball"]
+		Enabled = true
+		School = "irons_spellbooks:nature"
+		MaxLevel = 20
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "UNCOMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 0.15
+		CooldownInSeconds = 35.0
+		AllowCrafting = true
+
+	[Spells."advs_spells_arts:furious_knives"]
+		Enabled = true
+		School = "irons_spellbooks:evocation"
+		MaxLevel = 20
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 0.05
+		CooldownInSeconds = 52.0
+		AllowCrafting = true
+
+	[Spells."advs_spells_arts:raining_sword"]
+		Enabled = false
+		School = "irons_spellbooks:evocation"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0E-4
+		CooldownInSeconds = 50.0
+		AllowCrafting = false
+
+	[Spells."advs_spells_arts:snowsquall"]
+		Enabled = false
+		School = "irons_spellbooks:ice"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 100.0
+		AllowCrafting = false
+
+	[Spells."advs_spells_arts:reap"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 20
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 0.01
+		CooldownInSeconds = 50.0
+		AllowCrafting = true
+
+	[Spells."advs_spells_arts:hellfist"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 20
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 0.02
+		CooldownInSeconds = 48.0
+		AllowCrafting = true
