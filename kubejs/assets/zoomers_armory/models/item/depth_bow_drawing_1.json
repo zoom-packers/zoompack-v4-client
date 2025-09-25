@@ -1,0 +1,6 @@
+{
+    "parent": "zoomers_armory:item/depth_bow",
+    "textures": {
+        "layer0": "zoomers_armory:item/depth_bow_drawing_1"
+    }
+}

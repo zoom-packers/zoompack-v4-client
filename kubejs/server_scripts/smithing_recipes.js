@@ -138,6 +138,31 @@ ServerEvents.recipes(event => {
     doArmorInBulkSpecificID( "call_of_yucutan:jades", 'undergarden:forgotten_upgrade_smithing_template', 'undergarden:utherium', 'call_of_yucutan:jade');
     doToolsInBulkSpecificID('undergarden:forgotten', 'undergarden:forgotten_upgrade_smithing_template', 'call_of_yucutan:jade', 'undergarden:forgotten_ingot');
 
+    // depth materials: depth, marble, soul
+    event.remove({ output: 'callfromthedepth_:soulmarblehammer' });
+    event.smithing('1x callfromthedepth_:soulmarblehammer', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:immemorialsword', 'callfromthedepth_:marbleingot');
+
+    event.remove({ output: 'callfromthedepth_:marblearmor_helmet' });
+    event.smithing('1x callfromthedepth_:marblearmor_helmet', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:depth_armor_helmet', 'callfromthedepth_:marbleingot');
+    event.remove({ output: 'callfromthedepth_:marblearmor_chestplate' });
+    event.smithing('1x callfromthedepth_:marblearmor_chestplate', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:depth_armor_chestplate', 'callfromthedepth_:marbleingot');
+    event.remove({ output: 'callfromthedepth_:marblearmor_leggings' });
+    event.smithing('1x callfromthedepth_:marblearmor_leggings', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:depth_armor_leggings', 'callfromthedepth_:marbleingot');
+    event.remove({ output: 'callfromthedepth_:marblearmor_boots' });
+    event.smithing('1x callfromthedepth_:marblearmor_boots', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:depth_armor_boots', 'callfromthedepth_:marbleingot');
+
+    event.remove({ output: 'callfromthedepth_:soulclaymore' });
+    event.smithing('1x callfromthedepth_:soulclaymore', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:soulmarblehammer', 'callfromthedepth_:soulingot');
+
+    event.remove({ output: 'callfromthedepth_:soularmor_helmet' });
+    event.smithing('1x callfromthedepth_:soularmor_helmet', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:marblearmor_helmet', 'callfromthedepth_:soulingot');
+    event.remove({ output: 'callfromthedepth_:soularmor_chestplate' });
+    event.smithing('1x callfromthedepth_:soularmor_chestplate', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:marblearmor_chestplate', 'callfromthedepth_:soulingot');
+    event.remove({ output: 'callfromthedepth_:soularmor_leggings' });
+    event.smithing('1x callfromthedepth_:soularmor_leggings', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:marblearmor_leggings', 'callfromthedepth_:soulingot');
+    event.remove({ output: 'callfromthedepth_:soularmor_boots' });
+    event.smithing('1x callfromthedepth_:soularmor_boots', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:marblearmor_boots', 'callfromthedepth_:soulingot');
+
     // end materials: crystaline, dragon, enderite <<<<<<<<<<========
     event.remove({ output: 'ender_dragon_loot_:dragon_armor_helmet' });
     event.remove({ output: 'ender_dragon_loot_:dragon_armor_chestplate' });
