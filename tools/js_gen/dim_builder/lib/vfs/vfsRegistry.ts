@@ -1,5 +1,5 @@
 import {getModIndexKeys, initializeJarUtil} from "../jar_util";
-import {FileGetter, ResourceLocation, STRUCTURE_SET_JSON_REGISTRY} from "./vfs";
+import {FileGetter} from "./vfs";
 import {
     DatapackRegistryLoader,
     DatapackZipRegistryLoader,
@@ -9,6 +9,7 @@ import {
 } from "./registryLoader";
 import {findPaxiDatapacks, findServerDatapacks} from "../dp_util";
 import {StructureSet} from "../worldgen/structureSet";
+import {ResourceLocation} from "../types";
 
 const scanLocations = {
     LootTableLocation: "data/$datapack/loot_tables",

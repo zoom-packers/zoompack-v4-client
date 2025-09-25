@@ -1,9 +1,10 @@
 import path from "path";
 import fs from "fs-extra";
-import {FileGetter, ResourceLocation} from "./vfs";
+import {FileGetter} from "./vfs";
 import {cachePath} from "../utils";
 import {ensureCacheFolder, extractJarToCache, getModData, isModCached} from "../jar_util";
 import {cacheDatapackZip, getDatapackCachePath, isZipDatapackCached} from "../dp_util";
+import {ResourceLocation} from "../types";
 
 
 export interface IRegistryLoader {
