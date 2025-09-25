@@ -30,7 +30,8 @@ let COMMANDS_CUSTOM_MAP = {
     'voice': ftb_book_command('69676D40420966BA'),
     'parties' : ftb_book_command('1CBC2D540815A7B1'),
     'engineering' : ftb_book_command('1AA0F65AD529C944'),
-    'fortunas' : ftb_book_command('3386CB291F6CC121')
+    'fortunas' : ftb_book_command('3386CB291F6CC121'),
+    'difficulties' : ftb_book_command('4F2F7FCD7E57575A')
 }
 
 ServerEvents.commandRegistry(event => {

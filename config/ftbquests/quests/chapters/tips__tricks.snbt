@@ -432,6 +432,9 @@
 				"&l&e/fortunas&r&r"
 				"{ \"text\": \"FORTUNAS - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3386CB291F6CC121\" } }"
 				""
+				"&l&e/difficulties&r&r"
+				"{ \"text\": \"DIFFICULTIES - click for more\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4F2F7FCD7E57575A\" } }"
+				""
 				"{image:biomesoplenty:block/pus_bubble width:50 height:50 align:1}"
 			]
 			icon: "refinedstorage:4k_storage_part"
@@ -1009,8 +1012,8 @@
 				title: "Fortunas"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: -1.0d
+			x: 5.0d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -1046,6 +1049,39 @@
 			title: "Profesion Respec"
 			x: 4.0d
 			y: 0.5d
+		}
+		{
+			description: [
+				"&6&lDifficulties&r&r"
+				""
+				"Zoompack 4 provides multiple difficulties ranging from &l&2Easy&r&r to &l&5Uninstall&r&r."
+				"These difficulties change how you play PvE and have no impact on PvP"
+				""
+				"A difficultiy is at core an Origin of your Character and you can check it at any time pressing &o&dINSERT&r&r"
+				""
+				"&6&6Find more about Origins here: &r&r"
+				"{ \"text\": \"Origins\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59D44C51887D8237\" } }"
+				""
+				"Or just type &o&e/origins&r&r in chat"
+				""
+				""
+				""
+				"{image:biomesoplenty:block/pus_bubble width:50 height:50 align:1}"
+			]
+			icon: {
+				Count: 1
+				id: "theabyss:node_shard"
+				tag: { }
+			}
+			id: "4F2F7FCD7E57575A"
+			subtitle: "How hardcore can it get?"
+			tasks: [{
+				id: "7DB0D2C9531C7BC6"
+				title: "Difficulties"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
 		}
 	]
 	title: "Tips \\& Tricks"
