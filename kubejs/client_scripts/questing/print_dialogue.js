@@ -112,6 +112,20 @@ function printDialogueOverlay(player, speaker, text, renderType, renderTarget) {
                 draw: 'ingame'
         }
     }
+    
+    if(renderType=='rectangle' && renderTarget){
+        speakerData = {
+                type: 'rectangle',
+                texture: renderTarget, 
+                x: rootX + 6,
+                y: rootY + 6,
+                w: 36,
+                h: 36,
+                alignX: 'left',
+                alignY: 'top',
+                draw: 'ingame'
+        }
+    }
 
     player.paint({ '*': { remove: true } });
     player.paint({
