@@ -1,0 +1,35 @@
+{
+	"variant": "sharpchain",
+	"weight": 5,
+	"quality": 0,
+	"min_rarity": "common",
+	"unique": true,
+	"dimensions": [],
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "books_n_rings",
+				"types": [
+					"curios:ring",
+					"curios:necklace"
+					
+				]
+			},
+			"attribute": "minecraft:generic.attack_damage",
+			"operation": "ADDITION",
+			"values": {
+				"common": 1,
+				"uncommon": 2,
+				"rare": 3,
+				"epic": 4,
+				"mythic": 5,
+				"ancient": 10,
+				"custom_0": 6,
+				"custom_1": 7,
+				"custom_2": 8,
+				"custom_3": 9
+			}
+		}
+	]
+}
