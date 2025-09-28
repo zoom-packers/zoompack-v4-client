@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "apotheosis:gem"
+        },
+        "title": "TUTORIAL - Get 5 logs",
+        "description": "Everything requires sticks, so gather some wood.",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "no": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "no"
+        ]
+    ],
+    "rewards": {
+        "experience": 20
+    },
+    "sends_telemetry_event": false
+}
