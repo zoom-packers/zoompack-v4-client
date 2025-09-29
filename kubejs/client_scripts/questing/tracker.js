@@ -107,7 +107,7 @@ function trackAdvancement(advancement){
 function getAdvancementById(id){
     let adv = AdvancementsManager.getAdvancement(id);
     if (adv == null) {
-        console.log("No advancement found for id: " + id);
+        // console.log("No advancement found for id: " + id);
         return null;
     }
     return adv;
@@ -147,36 +147,42 @@ NetworkEvents.dataReceived('advancements:track_id', event => {
     trackAdvancementById(advToTrackId);
 });
 
+NetworkEvents.dataReceived('advancements:track_ids', event => {
+    const {entity, data, level, player} = event;
+    let advToTrackIds = JSON.parse(data.getString('advancement_ids'));
+    for(const advToTrackId of advToTrackIds){
+        trackAdvancementById(advToTrackId);
+    }
+    
+});
+
 NetworkEvents.dataReceived('advancements:untrack_id', event => {
     const {entity, data, level, player} = event;
     let advToTrackId = data.advancement_id;
     untrackAdvancementById(advToTrackId);
 });
 
-// ItemEvents.rightClicked('minecraft:diamond', event => {
-    // let x = isAdvancementTrackedByID('aaaa_zp4adv:root');
-    // event.player.tell(x);
-    // untrackAdvancementById('minecraft:adventure/bullseye')
-    // untrackAdvancementById('vinery:main/get_juice')
-    // untrackAdvancementById('vinery:main/get_apple')
-    // untrackAdvancementById('lootr:1chest')
-    // untrackAdvancementById('lootr:10loot')
-    // trackAdvancementById('aaaa_zp4adv:root')
-    // trackAdvancementById('aaaa_zp4adv:5zombies')
-    
+NetworkEvents.dataReceived('advancements:untrack_ids', event => {
+    const {entity, data, level, player} = event;
+    let advToTrackIds = JSON.parse(data.getString('advancement_ids'));
+    for(const advToTrackId of advToTrackIds){
+        untrackAdvancementById(advToTrackId);
+    }
+});
 
-    // console.log(Object.keys(AdvancementsManager));
-    // let adv = getAdvancementById('lootr:10loot');
-    // console.log(Object.keys(adv));
-    // untrackAdvancement(adv.getAdvancement().getId()); // this is how to untarck advancement. it needs id as resoucelocator
+NetworkEvents.dataReceived('advancements:track_untrack_ids', event => {
+    const {entity, data, level, player} = event;
+    let trackingData = JSON.parse(data.getString('trackingData'));
+    let toTrack = trackingData.toTrack;
+    let toUntrack = trackingData.toUntrack;
 
-    // trackAdvancement(adv)
+    for(const advancementId of toUntrack){
+        if(!toTrack.includes(advancementId)){
+            untrackAdvancementById(advancementId);
+        }
+    }
 
-    // let advancements = TrackedAdvancementsManager.getTrackedAdvancements();
-    // for(const advancement of advancements){
-    //     // console.log(Object.keys(advancement.advancement));
-    //     event.player.tell(advancement.advancement.getId());
-    //     // event.player.tell(advancement.advancement.getRoot());
-    // }
-    // event.player.tell(manager.getTrackedAdvancements())
-// });
+    for(const advancementId of toTrack){
+        trackAdvancementById(advancementId);
+    }
+});

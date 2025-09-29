@@ -3,12 +3,12 @@
         "icon": {
             "item": "apotheosis:gem"
         },
-        "title": "TUTORIAL - Slay 5 Zombies",
+        "title": "TUTORIAL - Slay 10 Enemies",
         "description": "You must get used to combat. So slay some enemies.",
         "background": "textures/gui/advancements/backgrounds/stone.png",
         "frame": "task",
         "show_toast": false,
-        "announce_to_chat": false,
+        "announce_to_chat": true,
         "hidden": false
     },
     "parent": "aaaa_zp4adv:root",

@@ -11,6 +11,7 @@ PlayerEvents.tick(event => {
 NetworkEvents.dataReceived('dialogue:chat', event => {
     const {entity, data, level, player} = event;
     let dialogueData = JSON.parse(data.getString('dialogueData'));
+    console.log(dialogueData);
     BeginDialogue(player, dialogueData.speaker, dialogueData.message, dialogueData.renderType, dialogueData.renderTarget);
 });
 
