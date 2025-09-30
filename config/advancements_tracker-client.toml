@@ -21,10 +21,10 @@
 	widgetHeight = 0
 	#Defines the max.width of the widget.
 	#Range: 120 ~ 600
-	widgetWidth = 135
+	widgetWidth = 150
 	#Defines the top position relative to the widget position.
 	#Range: -400 ~ 400
-	widgetTop = 0
+	widgetTop = 10
 	#Defines the left position relative to the widget position.
 	#Range: -400 ~ 400
 	widgetLeft = 0
@@ -32,4 +32,8 @@
 [Debug]
 	#Changed the default log level to get more output.
 	logLevel = "info"
+
+[cache]
+	trackedAdvancementsRemote = [""]
+	trackedAdvancementsLocal = []
 
