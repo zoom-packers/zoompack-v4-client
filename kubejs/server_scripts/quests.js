@@ -138,7 +138,7 @@ const QUESTS = {
         "type":"place_block",
         "match":{
             "mode":"exact",
-            "match_id":"apotheosis:fortunas_anvil"
+            "match_id":"fortunas_anvil:fortunas_anvil"
         },
         "unlock":"aaaa_zp4adv:place_fortunas_anvil",
         "count":1,
@@ -498,6 +498,19 @@ function questEvent(event, eventType) {
                     if (questData.hasOwnProperty('match')) {
                         if (questData.match.mode == 'endswith') {
                             if (block.id.endsWith(questData.match.match_id)) {
+                                eventMatch = true;
+                            }
+                        }
+                    }
+                }
+            }
+
+            if (eventType == BLOCK_EVENTS_PLACED) {
+                if (questData.type == 'place_block') {
+                    const { block } = event;
+                    if (questData.hasOwnProperty('match')) {
+                        if (questData.match.mode == 'exact') {
+                            if (block.id == questData.match.match_id) {
                                 eventMatch = true;
                             }
                         }

@@ -40,7 +40,7 @@ def get_inventory_changed_advancement(root, icon, title, description, xp_reward,
         "items": [
           {
             "items": [
-              "apotheosis:gem"
+              item
             ]
           }
         ]
@@ -49,6 +49,8 @@ def get_inventory_changed_advancement(root, icon, title, description, xp_reward,
 
     if count>0:
         criteria['conditions']['items'][0]['count'] = {'min':count}
+    
+    advancement['criteria']['thecriteria'] = criteria
 
     return advancement
 
@@ -230,7 +232,7 @@ QUESTS = {
         'type': 'place_block',
         'match': {
             'mode': 'exact',
-            'match_id': 'apotheosis:fortunas_anvil'
+            'match_id': 'fortunas_anvil:fortunas_anvil'
         },
         'count': 1,
         'dialogue': {
@@ -377,7 +379,6 @@ for quest_key in QUESTS:
                 adv_data = get_inventory_changed_advancement(current_root, icon, quest_data['title'], quest_data['description'], quest_data['xp'], quest_data['match']['match_id'], count)
             else:
                 adv_data = get_inventory_changed_advancement(current_root, icon, quest_data['title'], quest_data['description'], quest_data['xp'], quest_data['match']['match_id'])
-
 
     write_json_data(path, adv_data)
     current_root = f"aaaa_zp4adv:{quest_key}"

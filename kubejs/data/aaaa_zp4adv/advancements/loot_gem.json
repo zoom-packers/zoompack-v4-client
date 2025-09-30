@@ -13,7 +13,16 @@
     "parent": "aaaa_zp4adv:10combatlvl",
     "criteria": {
         "thecriteria": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "apotheosis:gem"
+                        ]
+                    }
+                ]
+            }
         }
     },
     "requirements": [
