@@ -3,41 +3,275 @@ const $CompoundTag = Java.loadClass('net.minecraft.nbt.CompoundTag')
 // TODO: add progression announcement with text on screen
 const ACTIVE_QUEST_PD_FIELD = 'ACTIVE_QUEST';
 const ACTIVE_QUEST_PROGRESS_PD_FIELD = 'ACTIVE_QUEST_PROGRESS';
-const FIRST_QUEST = '20logs';
-const LAST_QUEST = '10enemies';
+
+//QUEST_DATA_START
 const QUESTS = {
-    '20logs': {
-        'type': 'brake_block',
-        'match': {
-            'mode': 'endswith',
-            'match_id': '_log'
+    "20logs":{
+        "type":"break_block",
+        "match":{
+            "mode":"endswith",
+            "match_id":"_log"
         },
-        'unlock': 'aaaa_zp4adv:root',
-        'count': 5,
-        'dialogue': {
-            'speaker': 'Daluku',
-            'message': 'Very nice! now up to the next quest pesant!',
-            'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+        "unlock":"aaaa_zp4adv:20logs",
+        "count":20,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Very nice! Now up to the next quest peasant!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
-        'next': '10enemies'
+        "next":"10enemies"
     },
-    '10enemies': {
-        'type': 'kill',
-        'match': {
-            'mode': 'preset_entity_check',
-            'match': 'hostile'
+    "10enemies":{
+        "type":"kill",
+        "match":{
+            "mode":"preset_entity_check",
+            "match":"hostile"
         },
-        'dialogue': {
-            'speaker': 'Daluku',
-            'message': 'Looks like you ended the game',
-            'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/troll.png'
+        "unlock":"aaaa_zp4adv:10enemies",
+        "count":10,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Looks like you are getting stronger!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/troll.png"
         },
-        'unlock': 'aaaa_zp4adv:10enemies',
-        'count': 3
+        "next":"10farmanimals"
+    },
+    "10farmanimals":{
+        "type":"kill",
+        "match":{
+            "mode":"preset_entity_check",
+            "match":"passive"
+        },
+        "unlock":"aaaa_zp4adv:10farmanimals",
+        "count":10,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Good, now you won't starve. Continue!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"10combatlvl"
+    },
+    "10combatlvl":{
+        "type":"reach_level",
+        "match":{
+            "mode":"check_level",
+            "skill":"combat"
+        },
+        "unlock":"aaaa_zp4adv:10combatlvl",
+        "count":10,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Your combat skills are improving. Keep it up!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"loot_gem"
+    },
+    "loot_gem":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"apotheosis:gem"
+        },
+        "unlock":"aaaa_zp4adv:loot_gem",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"A shiny gem! Useful for crafting.",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"crush_gem"
+    },
+    "crush_gem":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"apotheosis:gem_dust"
+        },
+        "unlock":"aaaa_zp4adv:crush_gem",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Crushed it! Now use that dust wisely.",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"place_salvaging_table"
+    },
+    "place_salvaging_table":{
+        "type":"place_block",
+        "match":{
+            "mode":"exact",
+            "match_id":"apotheosis:salvaging_table"
+        },
+        "unlock":"aaaa_zp4adv:place_salvaging_table",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Salvaging table placed. Time to recycle!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"place_simple_reforging_table"
+    },
+    "place_simple_reforging_table":{
+        "type":"place_block",
+        "match":{
+            "mode":"exact",
+            "match_id":"apotheosis:simple_reforging_table"
+        },
+        "unlock":"aaaa_zp4adv:place_simple_reforging_table",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Reforging ready. Enhance your gear!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"place_fortunas_anvil"
+    },
+    "place_fortunas_anvil":{
+        "type":"place_block",
+        "match":{
+            "mode":"exact",
+            "match_id":"apotheosis:fortunas_anvil"
+        },
+        "unlock":"aaaa_zp4adv:place_fortunas_anvil",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Fortuna's anvil is set. Good luck!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"50enemies"
+    },
+    "50enemies":{
+        "type":"kill",
+        "match":{
+            "mode":"preset_entity_check",
+            "match":"hostile"
+        },
+        "unlock":"aaaa_zp4adv:50enemies",
+        "count":50,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"50 enemies down! You're a warrior now.",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"win_raid"
+    },
+    "win_raid":{
+        "type":"raid_win",
+        "match":{},
+        "unlock":"aaaa_zp4adv:win_raid",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Raid victory! The village is safe.",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"kill_cornelia"
+    },
+    "kill_cornelia":{
+        "type":"kill",
+        "match":{
+            "mode":"preset_entity_check",
+            "match":"boss"
+        },
+        "unlock":"aaaa_zp4adv:kill_cornelia",
+        "count":4,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Bosses defeated! Impressive strength.",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"locate_gatekeeper"
+    },
+    "locate_gatekeeper":{
+        "type":"locate",
+        "match":{
+            "mode":"entity",
+            "match_id":"gatekeeper"
+        },
+        "unlock":"aaaa_zp4adv:locate_gatekeeper",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Found the Gate Keeper. Secrets await!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"get_zeal_lighter"
+    },
+    "get_zeal_lighter":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"zeal_lighter"
+        },
+        "unlock":"aaaa_zp4adv:get_zeal_lighter",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Zeal lighter acquired. Light the way!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"20combatlvl"
+    },
+    "20combatlvl":{
+        "type":"reach_level",
+        "match":{
+            "mode":"check_level",
+            "skill":"combat"
+        },
+        "unlock":"aaaa_zp4adv:20combatlvl",
+        "count":20,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Level 20 reached. You're advancing quickly!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"travel_to_everbright"
+    },
+    "travel_to_everbright":{
+        "type":"changed_dimension",
+        "match":{
+            "mode":"to",
+            "dimension":"everbright"
+        },
+        "unlock":"aaaa_zp4adv:travel_to_everbright",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Entered Everbright. New adventures begin!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        }
     }
 }
+//QUEST_DATA_END
+
+function getFirstKey(obj) {
+  return Object.keys(obj)[0];
+}
+
+function getLastKey(obj) {
+  const keys = Object.keys(obj);
+  return keys[keys.length - 1];
+}
+
+const FIRST_QUEST = getFirstKey(QUESTS);
+const LAST_QUEST = getLastKey(QUESTS);
 
 // Add listen type and playe to check with if
 
@@ -89,11 +323,11 @@ function increasePlayerQuestProgress(player) {
     return newProgress;
 }
 
-function setPlayerQuestProgress(player, progress){
+function setPlayerQuestProgress(player, progress) {
     setPlayerQPDInt(player, ACTIVE_QUEST_PROGRESS_PD_FIELD, progress);
 }
 
-function getPlayerQuestProgress(player){
+function getPlayerQuestProgress(player) {
     return getPlayerQPDInt(player, ACTIVE_QUEST_PROGRESS_PD_FIELD);
 }
 
@@ -203,6 +437,9 @@ function questEvent(event) {
     let activeQuest = getPlayerQuest(player);
     let activeQuestProgress = getPlayerProgression(player);
 
+    // player.tell(activeQuest);
+    // player.tell(activeQuestProgress);
+
     if (activeQuest && activeQuestProgress >= 0) {
         if (!doesQuestExist(activeQuest)) {
             setPlayerQuest(FIRST_QUEST);
@@ -213,8 +450,15 @@ function questEvent(event) {
         let questData = QUESTS[activeQuest];
         let eventMatch = false;
 
-        if (questData.count > activeQuestProgress) {
-            if (questData.type == 'brake_block') {
+        // player.tell(activeQuest);
+        // player.tell(activeQuestProgress);
+
+        if (
+        activeQuestProgress >= 0 &&
+        activeQuestProgress < questData.count &&
+        (activeQuest !== LAST_QUEST || activeQuestProgress < questData.count)
+        ) {
+            if (questData.type == 'break_block') {
                 const { block } = event;
                 if (questData.hasOwnProperty('match')) {
                     if (questData.match.mode == 'endswith') {
@@ -224,17 +468,46 @@ function questEvent(event) {
                     }
                 }
             }
+            
+            if (questData.type == 'reach_level') {
+                if (questData.hasOwnProperty('match')) {
+                    let skillToGet = questData.match.skill;
+                    let playerSkillLevel = getPlayerSkill(player, skillToGet);
+                    activeQuestProgress = playerSkillLevel;
+                    setPlayerQuestProgress(player, playerSkillLevel);
+                }
+            }
 
             if (questData.type == 'kill') {
                 const { entity } = event;
+
                 if (questData.hasOwnProperty('match')) {
                     if (questData.match.mode == 'preset_entity_check') {
-                        if (isEntityHostile(entity) && entity.getType() != 'minecraft:player') {
-                            eventMatch = true;
+                        if (entity.getType() != 'minecraft:player') {
+                            
+                            if (questData.match.match == 'hostile') {
+                                if (isEntityHostile(entity)) {
+                                    eventMatch = true;
+                                }
+                            }
+                            
+                            if (questData.match.match == 'passive') {
+                                if (!isEntityHostile(entity)) {
+                                    eventMatch = true;
+                                }
+                            }
+                            
+                            if (questData.match.match == 'boss') {
+                                if (isEMobBoss(entity)) {
+                                    eventMatch = true;
+                                }
+                            }
                         }
+
                     }
                 }
             }
+
 
             if (eventMatch && activeQuestProgress >= 0) {
                 activeQuestProgress = increasePlayerQuestProgress(player);
@@ -263,7 +536,9 @@ function questEvent(event) {
 
 
 EntityEvents.death(event => { questEvent(event) });
+EntityEvents.hurt(event => { questEvent(event) });
 BlockEvents.broken(event => { questEvent(event) });
+BlockEvents.placed(event => { questEvent(event) });
 
 function matchQuestDataByAdvId(advancement_id) {
     for (const quest of Object.keys(QUESTS)) {
@@ -296,18 +571,22 @@ PlayerEvents.advancement(event => {
 // TODO: this is just for debug
 ItemEvents.rightClicked('minecraft:stick', event => {
     const { player, server } = event;
-    let advIdsToUntrack = [];
-    let advIdsToTrack = [QUESTS[LAST_QUEST].unlock];
-
-    for (const quest of Object.keys(QUESTS)) {
-        let questData = QUESTS[quest];
-        revokeServerPlayerAdvancement(server, player, questData.unlock);
-        advIdsToUntrack.push(questData.unlock);
-    }
 
 
-    sendPlayerQuestTrackData(player, advIdsToTrack, advIdsToUntrack);
-    setPlayerQuest(player, LAST_QUEST);
+    setPlayerQuestProgress(player, 9);
+
+    // let advIdsToUntrack = [];
+    // let advIdsToTrack = [QUESTS[FIRST_QUEST].unlock];
+
+    // for (const quest of Object.keys(QUESTS)) {
+    //     let questData = QUESTS[quest];
+    //     revokeServerPlayerAdvancement(server, player, questData.unlock);
+    //     advIdsToUntrack.push(questData.unlock);
+    // }
+
+
+    // sendPlayerQuestTrackData(player, advIdsToTrack, advIdsToUntrack);
+    // setPlayerQuest(player, FIRST_QUEST);
 
     // setPlayerQuest(player, FIRST_QUEST);
     // sendPlayerQuestToTrack(player, QUESTS[FIRST_QUEST].unlock)
