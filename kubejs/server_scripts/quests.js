@@ -80,7 +80,7 @@ const QUESTS = {
         "count":1,
         "dialogue":{
             "speaker":"Daluku",
-            "message":"A shiny gem! Useful for crafting.",
+            "message":"A shiny gem! You can use it to enhance your weaponry on a Smithing Table.",
             "renderType":"rectangle",
             "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
@@ -96,7 +96,7 @@ const QUESTS = {
         "count":1,
         "dialogue":{
             "speaker":"Daluku",
-            "message":"Crushed it! Now use that dust wisely.",
+            "message":"Crushed it! You can use the dust to craft tables for gems and affixes. Press U while hovering over it.",
             "renderType":"rectangle",
             "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
@@ -262,12 +262,12 @@ const QUESTS = {
 //QUEST_DATA_END
 
 function getFirstKey(obj) {
-  return Object.keys(obj)[0];
+    return Object.keys(obj)[0];
 }
 
 function getLastKey(obj) {
-  const keys = Object.keys(obj);
-  return keys[keys.length - 1];
+    const keys = Object.keys(obj);
+    return keys[keys.length - 1];
 }
 
 const FIRST_QUEST = getFirstKey(QUESTS);
@@ -407,7 +407,9 @@ PlayerEvents.loggedIn(event => {
     }
     else {
         if (activeQuestProgress >= 0) {
-            sendPlayerQuestToTrack(player, QUESTS[activeQuest].unlock)
+            server.scheduleInTicks(100, () => {
+                sendPlayerQuestToTrack(player, QUESTS[activeQuest].unlock)
+            });
         }
     }
 
@@ -421,9 +423,18 @@ function fixWrongPlayerData(player, activeQuest) {
     return false;
 }
 
-function questEvent(event) {
+//EVENT_TYPES
+const ENTITY_EVENTS_DEATH = 0;
+const ENTITY_EVENTS_HURT = 1;
+const BLOCK_EVENTS_BROKEN = 2;
+const BLOCK_EVENTS_PLACED = 3;
+const PLAYER_EVENTS_INVENTORY_CHANGED = 4;
+const PLAYER_EVENTS_ADVANCEMENT = 5;
+
+function questEvent(event, eventType) {
     const { server } = event;
     let player = null;
+    let eventEntity = null;
 
     if (event.player) {
         player = event.player;
@@ -433,6 +444,24 @@ function questEvent(event) {
             player = event.source.player;
         }
     }
+
+    if (event.entity) {
+        eventEntity = event.entity;
+    }
+
+    if (eventType == ENTITY_EVENTS_HURT) {
+        if(event.source.getType() !== 'player'){
+            return 0;
+        }
+        // player.tell("se duce in pl?")
+        // if (event.entity.type != 'minecraft:player') {
+        //     player.tell("da!")
+        //     return 0;
+        // }
+    }
+
+
+    // TODO: might be worth to cache these ones
 
     let activeQuest = getPlayerQuest(player);
     let activeQuestProgress = getPlayerProgression(player);
@@ -449,77 +478,113 @@ function questEvent(event) {
 
         let questData = QUESTS[activeQuest];
         let eventMatch = false;
+        let advancementUnlocked = false;
+        let increment = true;
 
         // player.tell(activeQuest);
         // player.tell(activeQuestProgress);
 
         if (
-        activeQuestProgress >= 0 &&
-        activeQuestProgress < questData.count &&
-        (activeQuest !== LAST_QUEST || activeQuestProgress < questData.count)
+            activeQuestProgress >= 0 &&
+            activeQuestProgress < questData.count &&
+            (activeQuest !== LAST_QUEST || activeQuestProgress < questData.count)
         ) {
-            if (questData.type == 'break_block') {
-                const { block } = event;
-                if (questData.hasOwnProperty('match')) {
-                    if (questData.match.mode == 'endswith') {
-                        if (block.id.endsWith(questData.match.match_id)) {
-                            eventMatch = true;
-                        }
-                    }
-                }
-            }
-            
-            if (questData.type == 'reach_level') {
-                if (questData.hasOwnProperty('match')) {
-                    let skillToGet = questData.match.skill;
-                    let playerSkillLevel = getPlayerSkill(player, skillToGet);
-                    activeQuestProgress = playerSkillLevel;
-                    setPlayerQuestProgress(player, playerSkillLevel);
-                }
-            }
 
-            if (questData.type == 'kill') {
-                const { entity } = event;
+            // player.tell(eventType)
 
-                if (questData.hasOwnProperty('match')) {
-                    if (questData.match.mode == 'preset_entity_check') {
-                        if (entity.getType() != 'minecraft:player') {
-                            
-                            if (questData.match.match == 'hostile') {
-                                if (isEntityHostile(entity)) {
-                                    eventMatch = true;
-                                }
-                            }
-                            
-                            if (questData.match.match == 'passive') {
-                                if (!isEntityHostile(entity)) {
-                                    eventMatch = true;
-                                }
-                            }
-                            
-                            if (questData.match.match == 'boss') {
-                                if (isEMobBoss(entity)) {
-                                    eventMatch = true;
-                                }
+            if (eventType == BLOCK_EVENTS_BROKEN) {
+                if (questData.type == 'break_block') {
+                    const { block } = event;
+                    if (questData.hasOwnProperty('match')) {
+                        if (questData.match.mode == 'endswith') {
+                            if (block.id.endsWith(questData.match.match_id)) {
+                                eventMatch = true;
                             }
                         }
-
                     }
                 }
             }
 
 
-            if (eventMatch && activeQuestProgress >= 0) {
-                activeQuestProgress = increasePlayerQuestProgress(player);
-
-                // TODO: better text on screen
-                // sendPlayerQuestToTrack(player, questData.unlock);
+            if (eventType == ENTITY_EVENTS_HURT) {
+                if (questData.type == 'reach_level') {
+                    if (questData.hasOwnProperty('match')) {
+                        let skillToGet = questData.match.skill;
+                        let playerSkillLevel = getPlayerSkill(player, skillToGet);
+                        activeQuestProgress = playerSkillLevel;
+                        setPlayerQuestProgress(player, playerSkillLevel);
+                        eventMatch = true;
+                        increment = false;
+                    }
+                }
             }
+
+
+            if (eventType == ENTITY_EVENTS_DEATH) {
+                // player.tell(activeQuestProgress);
+
+                if (questData.type == 'kill') {
+                    const { entity } = event;
+
+                    if (questData.hasOwnProperty('match')) {
+                        if (questData.match.mode == 'preset_entity_check') {
+                            if (entity.getType() != 'minecraft:player') {
+
+                                if (questData.match.match == 'hostile') {
+                                    if (isEntityHostile(entity)) {
+                                        eventMatch = true;
+                                    }
+                                }
+
+                                if (questData.match.match == 'passive') {
+                                    if (!isEntityHostile(entity)) {
+                                        eventMatch = true;
+                                    }
+                                }
+
+                                if (questData.match.match == 'boss') {
+                                    if (isEMobBoss(entity)) {
+                                        eventMatch = true;
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+
+            if (eventType == PLAYER_EVENTS_ADVANCEMENT) {
+                if (questData.type == 'obtain_item') {
+                    const { advancement } = event;
+                    let advancementId = advancement.getId().toString();
+
+                    if (advancementId == questData.unlock) {
+                        advancementUnlocked = true;
+                        eventMatch = true;
+                    }
+
+                    // if match
+                }
+
+            }
+
+            if (increment) {
+                if (eventMatch && activeQuestProgress >= 0) {
+                    activeQuestProgress = increasePlayerQuestProgress(player);
+
+                    // TODO: better text on screen
+                    // sendPlayerQuestToTrack(player, questData.unlock);
+                }
+            }
+
 
             // player.tell(`${activeQuestProgress}/${questData.count}`)
 
             if (activeQuestProgress >= questData.count) {
-                grantServerPlayerAdvancement(server, player, questData.unlock);
+                if (!advancementUnlocked) {
+                    grantServerPlayerAdvancement(server, player, questData.unlock);
+                }
 
                 if (questData.hasOwnProperty('next')) {
                     setPlayerQuest(player, questData.next);
@@ -535,10 +600,13 @@ function questEvent(event) {
 }
 
 
-EntityEvents.death(event => { questEvent(event) });
-EntityEvents.hurt(event => { questEvent(event) });
-BlockEvents.broken(event => { questEvent(event) });
-BlockEvents.placed(event => { questEvent(event) });
+EntityEvents.death(event => { questEvent(event, ENTITY_EVENTS_DEATH) });
+EntityEvents.hurt(event => { questEvent(event, ENTITY_EVENTS_HURT) });
+BlockEvents.broken(event => { questEvent(event, BLOCK_EVENTS_BROKEN) });
+BlockEvents.placed(event => { questEvent(event, BLOCK_EVENTS_PLACED) });
+//PlayerEvents.inventoryChanged(event => { questEvent(event, PLAYER_EVENTS_INVENTORY_CHANGED) });
+PlayerEvents.advancement(event => { questEvent(event, PLAYER_EVENTS_ADVANCEMENT) });
+
 
 function matchQuestDataByAdvId(advancement_id) {
     for (const quest of Object.keys(QUESTS)) {
@@ -572,8 +640,14 @@ PlayerEvents.advancement(event => {
 ItemEvents.rightClicked('minecraft:stick', event => {
     const { player, server } = event;
 
+    // let activeQuest = getPlayerQuest(player);
+    // let activeQuestProgress = getPlayerProgression(player);
 
-    setPlayerQuestProgress(player, 9);
+    // sendPlayerQuestToTrack(player, QUESTS[activeQuest].unlock)
+
+
+    // setPlayerQuestProgress(player, 9);
+    // player.tell(FIRST_QUEST);
 
     // let advIdsToUntrack = [];
     // let advIdsToTrack = [QUESTS[FIRST_QUEST].unlock];

@@ -4,7 +4,7 @@
             "item": "apotheosis:gem"
         },
         "title": "TUTORIAL - Loot a Gem",
-        "description": "Pickup a gem from towers across Overworld or from Mobs",
+        "description": "Pickup a gem from towers across Overworld or from Mobs\n1g 1s 1b",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
@@ -12,13 +12,13 @@
     },
     "parent": "aaaa_zp4adv:10combatlvl",
     "criteria": {
-        "no": {
+        "thecriteria": {
             "trigger": "minecraft:impossible"
         }
     },
     "requirements": [
         [
-            "no"
+            "thecriteria"
         ]
     ],
     "rewards": {

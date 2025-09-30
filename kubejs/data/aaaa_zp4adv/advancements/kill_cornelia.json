@@ -12,13 +12,13 @@
     },
     "parent": "aaaa_zp4adv:win_raid",
     "criteria": {
-        "no": {
+        "thecriteria": {
             "trigger": "minecraft:impossible"
         }
     },
     "requirements": [
         [
-            "no"
+            "thecriteria"
         ]
     ],
     "rewards": {

@@ -12,13 +12,13 @@
     },
     "parent": "aaaa_zp4adv:20logs",
     "criteria": {
-        "no": {
+        "thecriteria": {
             "trigger": "minecraft:impossible"
         }
     },
     "requirements": [
         [
-            "no"
+            "thecriteria"
         ]
     ],
     "rewards": {

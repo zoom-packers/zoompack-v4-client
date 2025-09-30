@@ -1,7 +1,7 @@
 import json
 
 
-def get_json_data(root, icon, title, description, xp_reward):
+def get_impossible_advancement(root, icon, title, description, xp_reward):
     return {
         "display": {
             "icon": {
@@ -16,13 +16,13 @@ def get_json_data(root, icon, title, description, xp_reward):
         },
         "parent": root,
         "criteria": {
-            "no": {
+            "thecriteria": {
                 "trigger": "minecraft:impossible"
             }
         },
         "requirements": [
             [
-                "no"
+                "thecriteria"
             ]
         ],
         "rewards": {
@@ -31,6 +31,26 @@ def get_json_data(root, icon, title, description, xp_reward):
         "sends_telemetry_event": False
     }
 
+def get_inventory_changed_advancement(root, icon, title, description, xp_reward, item, count=0):
+    advancement = get_impossible_advancement(root, icon, title, description, xp_reward)
+
+    criteria = {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "apotheosis:gem"
+            ]
+          }
+        ]
+      }
+    }
+
+    if count>0:
+        criteria['conditions']['items'][0]['count'] = {'min':count}
+
+    return advancement
 
 def write_json_data(path, data):
     with open(path, 'w+') as f:
@@ -137,7 +157,7 @@ QUESTS = {
     },
     'loot_gem': {
         'title': 'TUTORIAL - Loot a Gem',
-        'description': 'Pickup a gem from towers across Overworld or from Mobs',
+        'description': 'Pickup a gem from towers across Overworld or from Mobs\n1g 1s 1b',
         'xp': 20,
         'type': 'obtain_item',
         'match': {
@@ -147,7 +167,7 @@ QUESTS = {
         'count': 1,
         'dialogue': {
             'speaker': 'Daluku',
-            'message': 'A shiny gem! Useful for crafting.',
+            'message': 'A shiny gem! You can use it to enhance your weaponry on a Smithing Table.',
             'renderType': 'rectangle',
             'renderTarget': 'medievalorigins:textures/item/high_elf.png'
         }
@@ -164,7 +184,7 @@ QUESTS = {
         'count': 1,
         'dialogue': {
             'speaker': 'Daluku',
-            'message': 'Crushed it! Now use that dust wisely.',
+            'message': 'Crushed it! You can use the dust to craft tables for gems and affixes. Press U while hovering over it.',
             'renderType': 'rectangle',
             'renderTarget': 'medievalorigins:textures/item/high_elf.png'
         }
@@ -347,7 +367,18 @@ for quest_key in QUESTS:
     icon = DEFAULT_ITEM
     if 'item' in quest_data:
         icon = quest_data['item']
-    adv_data = get_json_data(current_root, icon, quest_data['title'], quest_data['description'], quest_data['xp'])
+    
+    adv_data = get_impossible_advancement(current_root, icon, quest_data['title'], quest_data['description'], quest_data['xp'])
+
+    if quest_data['type'] == 'obtain_item':
+        if quest_data['match']['mode'] == 'exact':
+            count = quest_data['count']
+            if count>1:
+                adv_data = get_inventory_changed_advancement(current_root, icon, quest_data['title'], quest_data['description'], quest_data['xp'], quest_data['match']['match_id'], count)
+            else:
+                adv_data = get_inventory_changed_advancement(current_root, icon, quest_data['title'], quest_data['description'], quest_data['xp'], quest_data['match']['match_id'])
+
+
     write_json_data(path, adv_data)
     current_root = f"aaaa_zp4adv:{quest_key}"
 

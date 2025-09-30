@@ -12,13 +12,13 @@
     },
     "parent": "minecraft:adventure/root",
     "criteria": {
-        "no": {
+        "thecriteria": {
             "trigger": "minecraft:impossible"
         }
     },
     "requirements": [
         [
-            "no"
+            "thecriteria"
         ]
     ],
     "rewards": {
