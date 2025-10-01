@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:use_bauble_mount",
+    "parent": "minecraft:adventure/root",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

@@ -9,42 +9,6 @@ const ADV_PREFIX = `${ADV_NAMESPACE}${TWO_DOTS}`;
 
 //QUEST_DATA_START
 const QUESTS = {
-    "craft_bauble_mount":{
-        "type":"obtain_item",
-        "match":{
-            "mode":"exact",
-            "match_id":"baublemounts:mount_bauble"
-        },
-        "unlock":"aaaa_zp4adv:craft_bauble_mount",
-        "count":1,
-        "dialogue":{
-            "speaker":"Daluku",
-            "message":"Great work! Now use that to capture a tamed mount.",
-            "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
-        },
-        "next":"use_bauble_mount"
-    },
-    "use_bauble_mount":{
-        "type":"obtain_item",
-        "match":{
-            "mode":"nbt_data_includes",
-            "match_id":"Mount",
-            "sub_match":{
-                "match":"item_id_match",
-                "match_id":"baublemounts:mount_bauble"
-            }
-        },
-        "unlock":"aaaa_zp4adv:use_bauble_mount",
-        "count":1,
-        "dialogue":{
-            "speaker":"Daluku",
-            "message":"Amazing! Now you can toggle your mount with the key V. Take care of it!",
-            "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
-        },
-        "next":"20logs"
-    },
     "20logs":{
         "type":"break_block",
         "match":{
@@ -204,6 +168,42 @@ const QUESTS = {
         "dialogue":{
             "speaker":"Daluku",
             "message":"Amazing! Now let`s put your new gear to work to see how it behaves! Hunt down something!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"craft_bauble_mount"
+    },
+    "craft_bauble_mount":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"baublemounts:mount_bauble"
+        },
+        "unlock":"aaaa_zp4adv:craft_bauble_mount",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Great work! Now use that to capture a tamed mount.",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"use_bauble_mount"
+    },
+    "use_bauble_mount":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"nbt_data_includes",
+            "match_id":"Mount",
+            "sub_match":{
+                "match":"item_id_match",
+                "match_id":"baublemounts:mount_bauble"
+            }
+        },
+        "unlock":"aaaa_zp4adv:use_bauble_mount",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Amazing! Now you can toggle your mount with the key V. Take care of it!",
             "renderType":"rectangle",
             "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },

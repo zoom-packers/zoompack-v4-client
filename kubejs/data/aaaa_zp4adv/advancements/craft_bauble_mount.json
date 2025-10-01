@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "minecraft:adventure/root",
+    "parent": "aaaa_zp4adv:use_fortunas_anvil",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"
