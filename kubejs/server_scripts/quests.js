@@ -135,6 +135,22 @@ const QUESTS = {
             "renderType":"rectangle",
             "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
+        "next":"first_affix_item"
+    },
+    "first_affix_item":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"nbt_data_includes",
+            "match_id":"affix_data"
+        },
+        "unlock":"aaaa_zp4adv:first_affix_item",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Great! These are all over the world. There are many variations, make sure to equip them to match your playstyle.",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
         "next":"place_fortunas_anvil"
     },
     "place_fortunas_anvil":{
@@ -147,7 +163,7 @@ const QUESTS = {
         "count":1,
         "dialogue":{
             "speaker":"Daluku",
-            "message":"Fortuna's anvil is set. Good luck!",
+            "message":"Fortuna`s anvil is set. Good luck!",
             "renderType":"rectangle",
             "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },

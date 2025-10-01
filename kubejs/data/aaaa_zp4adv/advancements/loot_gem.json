@@ -4,7 +4,7 @@
             "item": "apotheosis:gem"
         },
         "title": "TUTORIAL - Loot a Gem",
-        "description": "Pickup a gem from towers across Overworld or from Mobs\n1g 1s 1b",
+        "description": "Pickup a gem from towers across Overworld or from Mobs",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,

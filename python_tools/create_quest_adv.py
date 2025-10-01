@@ -159,7 +159,7 @@ QUESTS = {
     },
     'loot_gem': {
         'title': 'TUTORIAL - Loot a Gem',
-        'description': 'Pickup a gem from towers across Overworld or from Mobs\n1g 1s 1b',
+        'description': 'Pickup a gem from towers across Overworld or from Mobs',
         'xp': 20,
         'type': 'obtain_item',
         'match': {
@@ -225,6 +225,23 @@ QUESTS = {
             'renderTarget': 'medievalorigins:textures/item/high_elf.png'
         }
     },
+    'first_affix_item': {
+        'title': 'TUTORIAL - Get an item with Affixes',
+        'description': 'Loot or either create an item with Affixes at the Reforging Table',
+        'xp': 20,
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'nbt_data_includes',
+            'match_id': 'affix_data'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Daluku',
+            'message': 'Great! These are all over the world. There are many variations, make sure to equip them to match your playstyle.',
+            'renderType': 'rectangle',
+            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+        }
+    },
     'place_fortunas_anvil': {
         'title': 'TUTORIAL - Get a Fortuna`s Anvil',
         'description': 'Place a Fortuna`s Anvil on the ground. Use it to upgrade your items. Type /fortunas to find out more.',
@@ -237,14 +254,14 @@ QUESTS = {
         'count': 1,
         'dialogue': {
             'speaker': 'Daluku',
-            'message': 'Fortuna\'s anvil is set. Good luck!',
+            'message': 'Fortuna`s anvil is set. Good luck!',
             'renderType': 'rectangle',
             'renderTarget': 'medievalorigins:textures/item/high_elf.png'
         }
     },
     'use_fortunas_anvil': {
         'title': 'TUTORIAL - Upgrade an item on the Fortuna`s Table',
-        'description': 'For upgrading the gear you need the item, catalyst to boost chance, material to improve gap and protection rune for protection of the item. \nType /fortunas in case you get lost to find out more about the Fortuna`s Table',
+        'description': '+1 +2 +3 ... For upgrading the gear you need the item, catalyst to boost chance, material to improve gap and protection rune for protection of the item. \nType /fortunas in case you get lost to find out more about the Fortuna`s Table',
         'xp': 20,
         'type': 'obtain_item',
         'match': {

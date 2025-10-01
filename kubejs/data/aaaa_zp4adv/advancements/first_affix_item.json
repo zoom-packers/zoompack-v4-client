@@ -3,14 +3,14 @@
         "icon": {
             "item": "apotheosis:gem"
         },
-        "title": "TUTORIAL - Upgrade an item on the Fortuna`s Table",
-        "description": "+1 +2 +3 ... For upgrading the gear you need the item, catalyst to boost chance, material to improve gap and protection rune for protection of the item. \nType /fortunas in case you get lost to find out more about the Fortuna`s Table",
+        "title": "TUTORIAL - Get an item with Affixes",
+        "description": "Loot or either create an item with Affixes at the Reforging Table",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:place_fortunas_anvil",
+    "parent": "aaaa_zp4adv:place_simple_reforging_table",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

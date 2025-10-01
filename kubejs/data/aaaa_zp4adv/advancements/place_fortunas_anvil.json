@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:place_simple_reforging_table",
+    "parent": "aaaa_zp4adv:first_affix_item",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"
