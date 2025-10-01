@@ -1,5 +1,13 @@
 
 AdvJSEvents.advancement(event => {
-    event.remove("irons_spellbooks:grant_patchouli");
-    // Add party here too [Better Togather]
+    const REMOVE_LIST = [
+        "irons_spellbooks:grant_patchouli",
+        "sedparties:bettertogether",
+        "ironfurnaces:coal"
+    ];
+
+    REMOVE_LIST.forEach(id => {
+        event.remove(id);
+    });
+
 });

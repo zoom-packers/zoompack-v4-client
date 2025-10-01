@@ -3,263 +3,274 @@ const $CompoundTag = Java.loadClass('net.minecraft.nbt.CompoundTag')
 // TODO: add progression announcement with text on screen
 const ACTIVE_QUEST_PD_FIELD = 'ACTIVE_QUEST';
 const ACTIVE_QUEST_PROGRESS_PD_FIELD = 'ACTIVE_QUEST_PROGRESS';
+const ADV_NAMESPACE = "aaaa_zp4adv";
+const TWO_DOTS = ":";
+const ADV_PREFIX = `${ADV_NAMESPACE}${TWO_DOTS}`;
 
 //QUEST_DATA_START
 const QUESTS = {
-    "20logs":{
-        "type":"break_block",
-        "match":{
-            "mode":"endswith",
-            "match_id":"_log"
+    "20logs": {
+        "type": "break_block",
+        "match": {
+            "mode": "endswith",
+            "match_id": "_log"
         },
-        "unlock":"aaaa_zp4adv:20logs",
-        "count":20,
-        "dialogue":{
-            "speaker":"Daluku",
-            "message":"Very nice! Now up to the next quest peasant!",
-            "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        "unlock": "aaaa_zp4adv:20logs",
+        "count": 20,
+        "dialogue": {
+            "speaker": "Daluku",
+            "message": "Very nice! Now up to the next quest peasant!",
+            "renderType": "rectangle",
+            "renderTarget": "medievalorigins:textures/item/high_elf.png"
         },
-        "next":"10enemies"
+        "next": "10enemies"
     },
-    "10enemies":{
-        "type":"kill",
-        "match":{
-            "mode":"preset_entity_check",
-            "match":"hostile"
+    "10enemies": {
+        "type": "kill",
+        "match": {
+            "mode": "preset_entity_check",
+            "match": "hostile"
         },
-        "unlock":"aaaa_zp4adv:10enemies",
-        "count":10,
-        "dialogue":{
-            "speaker":"Daluku",
-            "message":"Looks like you are getting stronger!",
-            "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/troll.png"
+        "unlock": "aaaa_zp4adv:10enemies",
+        "count": 10,
+        "dialogue": {
+            "speaker": "Daluku",
+            "message": "Looks like you are getting stronger!",
+            "renderType": "rectangle",
+            "renderTarget": "medievalorigins:textures/item/troll.png"
         },
-        "next":"10farmanimals"
+        "next": "10farmanimals"
     },
-    "10farmanimals":{
-        "type":"kill",
-        "match":{
-            "mode":"preset_entity_check",
-            "match":"passive"
+    "10farmanimals": {
+        "type": "kill",
+        "match": {
+            "mode": "preset_entity_check",
+            "match": "passive"
         },
-        "unlock":"aaaa_zp4adv:10farmanimals",
-        "count":10,
-        "dialogue":{
-            "speaker":"Daluku",
-            "message":"Good, now you won't starve. Continue!",
-            "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        "unlock": "aaaa_zp4adv:10farmanimals",
+        "count": 10,
+        "dialogue": {
+            "speaker": "Daluku",
+            "message": "Good, now you won't starve. Continue!",
+            "renderType": "rectangle",
+            "renderTarget": "medievalorigins:textures/item/high_elf.png"
         },
-        "next":"10combatlvl"
+        "next": "10combatlvl"
     },
-    "10combatlvl":{
-        "type":"reach_level",
-        "match":{
-            "mode":"check_level",
-            "skill":"combat"
+    "10combatlvl": {
+        "type": "reach_level",
+        "match": {
+            "mode": "check_level",
+            "skill": "combat"
         },
-        "unlock":"aaaa_zp4adv:10combatlvl",
-        "count":10,
-        "dialogue":{
-            "speaker":"Daluku",
-            "message":"Your combat skills are improving. Keep it up!",
-            "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        "unlock": "aaaa_zp4adv:10combatlvl",
+        "count": 10,
+        "dialogue": {
+            "speaker": "Daluku",
+            "message": "Your combat skills are improving. Keep it up!",
+            "renderType": "rectangle",
+            "renderTarget": "medievalorigins:textures/item/high_elf.png"
         },
-        "next":"loot_gem"
+        "next": "loot_gem"
     },
-    "loot_gem":{
-        "type":"obtain_item",
-        "match":{
-            "mode":"exact",
-            "match_id":"apotheosis:gem"
+    "loot_gem": {
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "apotheosis:gem"
         },
-        "unlock":"aaaa_zp4adv:loot_gem",
-        "count":1,
-        "dialogue":{
-            "speaker":"Daluku",
-            "message":"A shiny gem! You can use it to enhance your weaponry on a Smithing Table.",
-            "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        "unlock": "aaaa_zp4adv:loot_gem",
+        "count": 1,
+        "dialogue": {
+            "speaker": "Daluku",
+            "message": "A shiny gem! You can use it to enhance your weaponry on a Smithing Table.",
+            "renderType": "rectangle",
+            "renderTarget": "medievalorigins:textures/item/high_elf.png"
         },
-        "next":"crush_gem"
+        "next": "crush_gem"
     },
-    "crush_gem":{
-        "type":"obtain_item",
-        "match":{
-            "mode":"exact",
-            "match_id":"apotheosis:gem_dust"
+    "crush_gem": {
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "apotheosis:gem_dust"
         },
-        "unlock":"aaaa_zp4adv:crush_gem",
-        "count":1,
-        "dialogue":{
-            "speaker":"Daluku",
-            "message":"Crushed it! You can use the dust to craft tables for gems and affixes. Press U while hovering over it.",
-            "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        "unlock": "aaaa_zp4adv:crush_gem",
+        "count": 1,
+        "dialogue": {
+            "speaker": "Daluku",
+            "message": "Crushed it! You can use the dust to craft tables for gems and affixes. Press U while hovering over it.",
+            "renderType": "rectangle",
+            "renderTarget": "medievalorigins:textures/item/high_elf.png"
         },
-        "next":"place_salvaging_table"
+        "next": "place_salvaging_table"
     },
-    "place_salvaging_table":{
-        "type":"place_block",
-        "match":{
-            "mode":"exact",
-            "match_id":"apotheosis:salvaging_table"
+    "place_salvaging_table": {
+        "type": "place_block",
+        "match": {
+            "mode": "exact",
+            "match_id": "apotheosis:salvaging_table"
         },
-        "unlock":"aaaa_zp4adv:place_salvaging_table",
-        "count":1,
-        "dialogue":{
-            "speaker":"Daluku",
-            "message":"Salvaging table placed. Time to recycle!",
-            "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        "unlock": "aaaa_zp4adv:place_salvaging_table",
+        "count": 1,
+        "dialogue": {
+            "speaker": "Daluku",
+            "message": "Salvaging table placed. Time to recycle!",
+            "renderType": "rectangle",
+            "renderTarget": "medievalorigins:textures/item/high_elf.png"
         },
-        "next":"place_simple_reforging_table"
+        "next": "place_simple_reforging_table"
     },
-    "place_simple_reforging_table":{
-        "type":"place_block",
-        "match":{
-            "mode":"exact",
-            "match_id":"apotheosis:simple_reforging_table"
+    "place_simple_reforging_table": {
+        "type": "place_block",
+        "match": {
+            "mode": "exact",
+            "match_id": "apotheosis:simple_reforging_table"
         },
-        "unlock":"aaaa_zp4adv:place_simple_reforging_table",
-        "count":1,
-        "dialogue":{
-            "speaker":"Daluku",
-            "message":"Reforging ready. Enhance your gear!",
-            "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        "unlock": "aaaa_zp4adv:place_simple_reforging_table",
+        "count": 1,
+        "dialogue": {
+            "speaker": "Daluku",
+            "message": "Reforging ready. Enhance your gear!",
+            "renderType": "rectangle",
+            "renderTarget": "medievalorigins:textures/item/high_elf.png"
         },
-        "next":"place_fortunas_anvil"
+        "next": "place_fortunas_anvil"
     },
-    "place_fortunas_anvil":{
-        "type":"place_block",
-        "match":{
-            "mode":"exact",
-            "match_id":"fortunas_anvil:fortunas_anvil"
+    "place_fortunas_anvil": {
+        "type": "place_block",
+        "match": {
+            "mode": "exact",
+            "match_id": "fortunas_anvil:fortunas_anvil"
         },
-        "unlock":"aaaa_zp4adv:place_fortunas_anvil",
-        "count":1,
-        "dialogue":{
-            "speaker":"Daluku",
-            "message":"Fortuna's anvil is set. Good luck!",
-            "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        "unlock": "aaaa_zp4adv:place_fortunas_anvil",
+        "count": 1,
+        "dialogue": {
+            "speaker": "Daluku",
+            "message": "Fortuna's anvil is set. Good luck!",
+            "renderType": "rectangle",
+            "renderTarget": "medievalorigins:textures/item/high_elf.png"
         },
-        "next":"50enemies"
+        "next": "50enemies"
     },
-    "50enemies":{
-        "type":"kill",
-        "match":{
-            "mode":"preset_entity_check",
-            "match":"hostile"
+    "50enemies": {
+        "type": "kill",
+        "match": {
+            "mode": "preset_entity_check",
+            "match": "hostile"
         },
-        "unlock":"aaaa_zp4adv:50enemies",
-        "count":50,
-        "dialogue":{
-            "speaker":"Daluku",
-            "message":"50 enemies down! You're a warrior now.",
-            "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        "unlock": "aaaa_zp4adv:50enemies",
+        "count": 50,
+        "dialogue": {
+            "speaker": "Daluku",
+            "message": "50 enemies down! You're a warrior now.",
+            "renderType": "rectangle",
+            "renderTarget": "medievalorigins:textures/item/high_elf.png"
         },
-        "next":"win_raid"
+        "next": "win_raid"
     },
-    "win_raid":{
-        "type":"raid_win",
-        "match":{},
-        "unlock":"aaaa_zp4adv:win_raid",
-        "count":1,
-        "dialogue":{
-            "speaker":"Daluku",
-            "message":"Raid victory! The village is safe.",
-            "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+    "win_raid": {
+        "type": "raid_win",
+        "match": {},
+        "unlock": "aaaa_zp4adv:win_raid",
+        "count": 1,
+        "dialogue": {
+            "speaker": "Daluku",
+            "message": "Raid victory! The village is safe.",
+            "renderType": "rectangle",
+            "renderTarget": "medievalorigins:textures/item/high_elf.png"
         },
-        "next":"kill_cornelia"
+        "next": "kill_cornelia"
     },
-    "kill_cornelia":{
-        "type":"kill",
-        "match":{
-            "mode":"preset_entity_check",
-            "match":"boss"
+    "kill_cornelia": {
+        "type": "kill",
+        "match": {
+            "mode": "preset_entity_check",
+            "match": "boss"
         },
-        "unlock":"aaaa_zp4adv:kill_cornelia",
-        "count":4,
-        "dialogue":{
-            "speaker":"Daluku",
-            "message":"Bosses defeated! Impressive strength.",
-            "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        "unlock": "aaaa_zp4adv:kill_cornelia",
+        "count": 4,
+        "dialogue": {
+            "speaker": "Daluku",
+            "message": "Bosses defeated! Impressive strength.",
+            "renderType": "rectangle",
+            "renderTarget": "medievalorigins:textures/item/high_elf.png"
         },
-        "next":"locate_gatekeeper"
+        "next": "locate_gatekeeper"
     },
-    "locate_gatekeeper":{
-        "type":"locate",
-        "match":{
-            "mode":"entity",
-            "match_id":"gatekeeper"
+    "locate_gatekeeper": {
+        "type": "locate",
+        "match": {
+            "mode": "entity",
+            "match_id": "gatekeeper"
         },
-        "unlock":"aaaa_zp4adv:locate_gatekeeper",
-        "count":1,
-        "dialogue":{
-            "speaker":"Daluku",
-            "message":"Found the Gate Keeper. Secrets await!",
-            "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        "unlock": "aaaa_zp4adv:locate_gatekeeper",
+        "count": 1,
+        "dialogue": {
+            "speaker": "Daluku",
+            "message": "Found the Gate Keeper. Secrets await!",
+            "renderType": "rectangle",
+            "renderTarget": "medievalorigins:textures/item/high_elf.png"
         },
-        "next":"get_zeal_lighter"
+        "next": "get_zeal_lighter"
     },
-    "get_zeal_lighter":{
-        "type":"obtain_item",
-        "match":{
-            "mode":"exact",
-            "match_id":"zeal_lighter"
+    "get_zeal_lighter": {
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "zeal_lighter"
         },
-        "unlock":"aaaa_zp4adv:get_zeal_lighter",
-        "count":1,
-        "dialogue":{
-            "speaker":"Daluku",
-            "message":"Zeal lighter acquired. Light the way!",
-            "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        "unlock": "aaaa_zp4adv:get_zeal_lighter",
+        "count": 1,
+        "dialogue": {
+            "speaker": "Daluku",
+            "message": "Zeal lighter acquired. Light the way!",
+            "renderType": "rectangle",
+            "renderTarget": "medievalorigins:textures/item/high_elf.png"
         },
-        "next":"20combatlvl"
+        "next": "20combatlvl"
     },
-    "20combatlvl":{
-        "type":"reach_level",
-        "match":{
-            "mode":"check_level",
-            "skill":"combat"
+    "20combatlvl": {
+        "type": "reach_level",
+        "match": {
+            "mode": "check_level",
+            "skill": "combat"
         },
-        "unlock":"aaaa_zp4adv:20combatlvl",
-        "count":20,
-        "dialogue":{
-            "speaker":"Daluku",
-            "message":"Level 20 reached. You're advancing quickly!",
-            "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        "unlock": "aaaa_zp4adv:20combatlvl",
+        "count": 20,
+        "dialogue": {
+            "speaker": "Daluku",
+            "message": "Level 20 reached. You're advancing quickly!",
+            "renderType": "rectangle",
+            "renderTarget": "medievalorigins:textures/item/high_elf.png"
         },
-        "next":"travel_to_everbright"
+        "next": "travel_to_everbright"
     },
-    "travel_to_everbright":{
-        "type":"changed_dimension",
-        "match":{
-            "mode":"to",
-            "dimension":"everbright"
+    "travel_to_everbright": {
+        "type": "changed_dimension",
+        "match": {
+            "mode": "to",
+            "dimension": "everbright"
         },
-        "unlock":"aaaa_zp4adv:travel_to_everbright",
-        "count":1,
-        "dialogue":{
-            "speaker":"Daluku",
-            "message":"Entered Everbright. New adventures begin!",
-            "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        "unlock": "aaaa_zp4adv:travel_to_everbright",
+        "count": 1,
+        "dialogue": {
+            "speaker": "Daluku",
+            "message": "Entered Everbright. New adventures begin!",
+            "renderType": "rectangle",
+            "renderTarget": "medievalorigins:textures/item/high_elf.png"
         }
     }
 }
 //QUEST_DATA_END
+
+
+const questList = Object.keys(QUESTS).map(key => ADV_PREFIX + key);
+
+function getQuestIndex(questKey) {
+    const index = questList.indexOf(questKey);
+    return index === -1 ? -1 : index;
+}
 
 function getFirstKey(obj) {
     return Object.keys(obj)[0];
@@ -450,7 +461,7 @@ function questEvent(event, eventType) {
     }
 
     if (eventType == ENTITY_EVENTS_HURT) {
-        if(event.source.getType() !== 'player'){
+        if (event.source.getType() !== 'player') {
             return 0;
         }
         // player.tell("se duce in pl?")
@@ -618,7 +629,6 @@ EntityEvents.hurt(event => { questEvent(event, ENTITY_EVENTS_HURT) });
 BlockEvents.broken(event => { questEvent(event, BLOCK_EVENTS_BROKEN) });
 BlockEvents.placed(event => { questEvent(event, BLOCK_EVENTS_PLACED) });
 //PlayerEvents.inventoryChanged(event => { questEvent(event, PLAYER_EVENTS_INVENTORY_CHANGED) });
-PlayerEvents.advancement(event => { questEvent(event, PLAYER_EVENTS_ADVANCEMENT) });
 
 
 function matchQuestDataByAdvId(advancement_id) {
@@ -635,7 +645,18 @@ PlayerEvents.advancement(event => {
     const { player, advancement, server } = event;
     let advancementId = advancement.getId().toString();
 
-    if (advancementId.includes('aaaa_zp4adv')) {
+    let questIndex = getQuestIndex(advancementId);
+    if(questIndex>=0){
+        let activeQuest = getPlayerQuest(player);
+        if(questIndex>questList[getQuestIndex(`${ADV_PREFIX}${activeQuest}`)]){
+            event.cancel();
+            return 0;
+        }
+    }
+
+    questEvent(event, PLAYER_EVENTS_ADVANCEMENT)
+
+    if (advancementId.includes(ADV_NAMESPACE)) {
         let questData = matchQuestDataByAdvId(advancementId);
         if (questData) {
             if (questData.next) {
@@ -662,43 +683,45 @@ ItemEvents.rightClicked('minecraft:stick', event => {
     // setPlayerQuestProgress(player, 9);
     // player.tell(FIRST_QUEST);
 
-    // let advIdsToUntrack = [];
-    // let advIdsToTrack = [QUESTS[FIRST_QUEST].unlock];
+    let advIdsToUntrack = [];
+    let advIdsToTrack = [QUESTS[FIRST_QUEST].unlock];
 
-    // for (const quest of Object.keys(QUESTS)) {
-    //     let questData = QUESTS[quest];
-    //     revokeServerPlayerAdvancement(server, player, questData.unlock);
-    //     advIdsToUntrack.push(questData.unlock);
-    // }
+    for (const quest of Object.keys(QUESTS)) {
+        let questData = QUESTS[quest];
+        revokeServerPlayerAdvancement(server, player, questData.unlock);
+        advIdsToUntrack.push(questData.unlock);
+    }
 
 
-    // sendPlayerQuestTrackData(player, advIdsToTrack, advIdsToUntrack);
-    // setPlayerQuest(player, FIRST_QUEST);
+    sendPlayerQuestTrackData(player, advIdsToTrack, advIdsToUntrack);
+    setPlayerQuest(player, FIRST_QUEST);
 
     // setPlayerQuest(player, FIRST_QUEST);
     // sendPlayerQuestToTrack(player, QUESTS[FIRST_QUEST].unlock)
 });
 
-// ItemEvents.rightClicked('minecraft:diamond', event => {
-//     let tag = new $CompoundTag();
-//     // let dialogueData = {
-//     //     speaker: "Unknown Voice",
-//     //     message: "I’m drifting... somewhere out here. Systems failing. You need to survive. Find a way... rebuild...",
-//     //     renderType: 'item',
-//     //     renderTarget : 'minecraft:diamond'
-//     // };
-//     let dialogueData = {
-//         speaker: "IonutuBoy",
-//         message: "La Multi Ani Renato",
-//         renderType: 'rectangle',
-//         renderTarget : 'medievalorigins:textures/item/high_elf.png'
-//     };
-//     // let dialogueData = {
-//     //     speaker: "Unknown Voice",
-//     //     message: "I’m drifting... somewhere out here. Systems failing. You need to survive. Find a way... rebuild...",
-//     //     renderType: 'atlas_texture',
-//     //     renderTarget : 'minecraft:block/lava_flow'
-//     // };
-//     tag.putString('dialogueData', JSON.stringify(dialogueData));
-//     event.player.sendData('textTask', tag);
-// });
+ItemEvents.rightClicked('minecraft:diamond', event => {
+    const { player } = event;
+    let tag = new $CompoundTag();
+    let dialogueData = {
+        'speaker': 'Daluku',
+        'message': '50 enemies down! You\'re a warrior now.',
+        'renderType': 'rectangle',
+        'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+    };
+    // let dialogueData = {
+    //     speaker: "IonutuBoy",
+    //     message: "La Multi Ani Renato, fututencur sa te astup de idiot bagamias pula in tine",
+    //     renderType: 'item',
+    //     renderTarget : 'minecraft:player_head'
+    //     // renderTarget : 'minecraft:diamond_sword'
+    // };
+    // let dialogueData = {
+    //     speaker: "Unknown Voice",
+    //     message: "I’m drifting... somewhere out here. Systems failing. You need to survive. Find a way... rebuild...",
+    //     renderType: 'atlas_texture',
+    //     renderTarget : 'minecraft:block/lava_flow'
+    // };
+    tag.putString('dialogueData', JSON.stringify(dialogueData));
+    player.sendData('dialogue:chat', tag);
+});

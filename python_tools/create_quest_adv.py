@@ -91,7 +91,7 @@ DEFAULT_ROOT = "minecraft:adventure/root"
 QUESTS = {
     '20logs': {
         'title': 'TUTORIAL - Get 20 logs',
-        'description': 'Everything requires sticks, so gather some wood.',
+        'description': 'Everything requires sticks, so gather some wood',
         'xp': 20,
         'type': 'break_block',
         'match': {
@@ -101,14 +101,14 @@ QUESTS = {
         'count': 20,
         'dialogue': {
             'speaker': 'Daluku',
-            'message': 'Very nice! Now up to the next quest peasant!',
+            'message': 'Great work. Get some tools for yourself and start slaying some enemies.',
             'renderType': 'rectangle',
             'renderTarget': 'medievalorigins:textures/item/high_elf.png'
         }
     },
     '10enemies': {
         'title': 'TUTORIAL - Slay 10 Enemies',
-        'description': 'You must get used to combat. So slay some enemies.',
+        'description': 'You must get used to combat. So slay some enemies. Fighting gives you Combat XP',
         'xp': 20,
         'type': 'kill',
         'match': {
@@ -118,14 +118,14 @@ QUESTS = {
         'count': 10,
         'dialogue': {
             'speaker': 'Daluku',
-            'message': 'Looks like you are getting stronger!',
+            'message': 'Looks like you are getting stronger! Remember you are a gatherer, so butcher some animals',
             'renderType': 'rectangle',
             'renderTarget': 'medievalorigins:textures/item/troll.png'
         }
     },
     '10farmanimals': {
         'title': 'TUTORIAL - Butcher 10 Farm Animals',
-        'description': 'You must get used to gather food. Start with a farm.',
+        'description': 'You must get used to gather food. Start with a farm. ',
         'xp': 20,
         'type': 'kill',
         'match': {
