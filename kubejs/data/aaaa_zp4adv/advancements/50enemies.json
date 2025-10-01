@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:place_fortunas_anvil",
+    "parent": "aaaa_zp4adv:use_fortunas_anvil",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

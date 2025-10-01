@@ -9,256 +9,312 @@ const ADV_PREFIX = `${ADV_NAMESPACE}${TWO_DOTS}`;
 
 //QUEST_DATA_START
 const QUESTS = {
-    "20logs": {
-        "type": "break_block",
-        "match": {
-            "mode": "endswith",
-            "match_id": "_log"
+    "craft_bauble_mount":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"baublemounts:mount_bauble"
         },
-        "unlock": "aaaa_zp4adv:20logs",
-        "count": 20,
-        "dialogue": {
-            "speaker": "Daluku",
-            "message": "Very nice! Now up to the next quest peasant!",
-            "renderType": "rectangle",
-            "renderTarget": "medievalorigins:textures/item/high_elf.png"
+        "unlock":"aaaa_zp4adv:craft_bauble_mount",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Great work! Now use that to capture a tamed mount.",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
-        "next": "10enemies"
+        "next":"use_bauble_mount"
     },
-    "10enemies": {
-        "type": "kill",
-        "match": {
-            "mode": "preset_entity_check",
-            "match": "hostile"
+    "use_bauble_mount":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"nbt_data_includes",
+            "match_id":"Mount",
+            "sub_match":{
+                "match":"item_id_match",
+                "match_id":"baublemounts:mount_bauble"
+            }
         },
-        "unlock": "aaaa_zp4adv:10enemies",
-        "count": 10,
-        "dialogue": {
-            "speaker": "Daluku",
-            "message": "Looks like you are getting stronger!",
-            "renderType": "rectangle",
-            "renderTarget": "medievalorigins:textures/item/troll.png"
+        "unlock":"aaaa_zp4adv:use_bauble_mount",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Amazing! Now you can toggle your mount with the key V. Take care of it!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
-        "next": "10farmanimals"
+        "next":"20logs"
     },
-    "10farmanimals": {
-        "type": "kill",
-        "match": {
-            "mode": "preset_entity_check",
-            "match": "passive"
+    "20logs":{
+        "type":"break_block",
+        "match":{
+            "mode":"endswith",
+            "match_id":"_log"
         },
-        "unlock": "aaaa_zp4adv:10farmanimals",
-        "count": 10,
-        "dialogue": {
-            "speaker": "Daluku",
-            "message": "Good, now you won't starve. Continue!",
-            "renderType": "rectangle",
-            "renderTarget": "medievalorigins:textures/item/high_elf.png"
+        "unlock":"aaaa_zp4adv:20logs",
+        "count":20,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Great work. Get some tools for yourself and start slaying some enemies.",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
-        "next": "10combatlvl"
+        "next":"10enemies"
     },
-    "10combatlvl": {
-        "type": "reach_level",
-        "match": {
-            "mode": "check_level",
-            "skill": "combat"
+    "10enemies":{
+        "type":"kill",
+        "match":{
+            "mode":"preset_entity_check",
+            "match":"hostile"
         },
-        "unlock": "aaaa_zp4adv:10combatlvl",
-        "count": 10,
-        "dialogue": {
-            "speaker": "Daluku",
-            "message": "Your combat skills are improving. Keep it up!",
-            "renderType": "rectangle",
-            "renderTarget": "medievalorigins:textures/item/high_elf.png"
+        "unlock":"aaaa_zp4adv:10enemies",
+        "count":10,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Looks like you are getting stronger! Remember you are a gatherer, so butcher some animals",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/troll.png"
         },
-        "next": "loot_gem"
+        "next":"10farmanimals"
     },
-    "loot_gem": {
-        "type": "obtain_item",
-        "match": {
-            "mode": "exact",
-            "match_id": "apotheosis:gem"
+    "10farmanimals":{
+        "type":"kill",
+        "match":{
+            "mode":"preset_entity_check",
+            "match":"passive"
         },
-        "unlock": "aaaa_zp4adv:loot_gem",
-        "count": 1,
-        "dialogue": {
-            "speaker": "Daluku",
-            "message": "A shiny gem! You can use it to enhance your weaponry on a Smithing Table.",
-            "renderType": "rectangle",
-            "renderTarget": "medievalorigins:textures/item/high_elf.png"
+        "unlock":"aaaa_zp4adv:10farmanimals",
+        "count":10,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Good, now you won't starve. Continue!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
-        "next": "crush_gem"
+        "next":"10combatlvl"
     },
-    "crush_gem": {
-        "type": "obtain_item",
-        "match": {
-            "mode": "exact",
-            "match_id": "apotheosis:gem_dust"
+    "10combatlvl":{
+        "type":"reach_level",
+        "match":{
+            "mode":"check_level",
+            "skill":"combat"
         },
-        "unlock": "aaaa_zp4adv:crush_gem",
-        "count": 1,
-        "dialogue": {
-            "speaker": "Daluku",
-            "message": "Crushed it! You can use the dust to craft tables for gems and affixes. Press U while hovering over it.",
-            "renderType": "rectangle",
-            "renderTarget": "medievalorigins:textures/item/high_elf.png"
+        "unlock":"aaaa_zp4adv:10combatlvl",
+        "count":10,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Your combat skills are improving. Keep it up!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
-        "next": "place_salvaging_table"
+        "next":"loot_gem"
     },
-    "place_salvaging_table": {
-        "type": "place_block",
-        "match": {
-            "mode": "exact",
-            "match_id": "apotheosis:salvaging_table"
+    "loot_gem":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"apotheosis:gem"
         },
-        "unlock": "aaaa_zp4adv:place_salvaging_table",
-        "count": 1,
-        "dialogue": {
-            "speaker": "Daluku",
-            "message": "Salvaging table placed. Time to recycle!",
-            "renderType": "rectangle",
-            "renderTarget": "medievalorigins:textures/item/high_elf.png"
+        "unlock":"aaaa_zp4adv:loot_gem",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"A shiny gem! You can use it to enhance your weaponry on a Smithing Table. Type /gems to find more.",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
-        "next": "place_simple_reforging_table"
+        "next":"crush_gem"
     },
-    "place_simple_reforging_table": {
-        "type": "place_block",
-        "match": {
-            "mode": "exact",
-            "match_id": "apotheosis:simple_reforging_table"
+    "crush_gem":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"apotheosis:gem_dust"
         },
-        "unlock": "aaaa_zp4adv:place_simple_reforging_table",
-        "count": 1,
-        "dialogue": {
-            "speaker": "Daluku",
-            "message": "Reforging ready. Enhance your gear!",
-            "renderType": "rectangle",
-            "renderTarget": "medievalorigins:textures/item/high_elf.png"
+        "unlock":"aaaa_zp4adv:crush_gem",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Crushed it! You can use the dust to craft tables for gems and affixes. Press U while hovering over it.",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
-        "next": "place_fortunas_anvil"
+        "next":"place_salvaging_table"
     },
-    "place_fortunas_anvil": {
-        "type": "place_block",
-        "match": {
-            "mode": "exact",
-            "match_id": "fortunas_anvil:fortunas_anvil"
+    "place_salvaging_table":{
+        "type":"place_block",
+        "match":{
+            "mode":"exact",
+            "match_id":"apotheosis:salvaging_table"
         },
-        "unlock": "aaaa_zp4adv:place_fortunas_anvil",
-        "count": 1,
-        "dialogue": {
-            "speaker": "Daluku",
-            "message": "Fortuna's anvil is set. Good luck!",
-            "renderType": "rectangle",
-            "renderTarget": "medievalorigins:textures/item/high_elf.png"
+        "unlock":"aaaa_zp4adv:place_salvaging_table",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Salvaging table placed. Time to recycle! Extract affix materials or even ingots.",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
-        "next": "50enemies"
+        "next":"place_simple_reforging_table"
     },
-    "50enemies": {
-        "type": "kill",
-        "match": {
-            "mode": "preset_entity_check",
-            "match": "hostile"
+    "place_simple_reforging_table":{
+        "type":"place_block",
+        "match":{
+            "mode":"exact",
+            "match_id":"apotheosis:simple_reforging_table"
         },
-        "unlock": "aaaa_zp4adv:50enemies",
-        "count": 50,
-        "dialogue": {
-            "speaker": "Daluku",
-            "message": "50 enemies down! You're a warrior now.",
-            "renderType": "rectangle",
-            "renderTarget": "medievalorigins:textures/item/high_elf.png"
+        "unlock":"aaaa_zp4adv:place_simple_reforging_table",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Reforging ready. Enhance your gear! ",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
-        "next": "win_raid"
+        "next":"place_fortunas_anvil"
     },
-    "win_raid": {
-        "type": "raid_win",
-        "match": {},
-        "unlock": "aaaa_zp4adv:win_raid",
-        "count": 1,
-        "dialogue": {
-            "speaker": "Daluku",
-            "message": "Raid victory! The village is safe.",
-            "renderType": "rectangle",
-            "renderTarget": "medievalorigins:textures/item/high_elf.png"
+    "place_fortunas_anvil":{
+        "type":"place_block",
+        "match":{
+            "mode":"exact",
+            "match_id":"fortunas_anvil:fortunas_anvil"
         },
-        "next": "kill_cornelia"
+        "unlock":"aaaa_zp4adv:place_fortunas_anvil",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Fortuna's anvil is set. Good luck!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"use_fortunas_anvil"
     },
-    "kill_cornelia": {
-        "type": "kill",
-        "match": {
-            "mode": "preset_entity_check",
-            "match": "boss"
+    "use_fortunas_anvil":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"nbt_data_includes",
+            "match_id":"ZUpgradeData",
+            "sub_match":{
+                "match":"nbt_data_ge_count",
+                "match_id":"level"
+            }
         },
-        "unlock": "aaaa_zp4adv:kill_cornelia",
-        "count": 4,
-        "dialogue": {
-            "speaker": "Daluku",
-            "message": "Bosses defeated! Impressive strength.",
-            "renderType": "rectangle",
-            "renderTarget": "medievalorigins:textures/item/high_elf.png"
+        "unlock":"aaaa_zp4adv:use_fortunas_anvil",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Amazing! Now let`s put your new gear to work to see how it behaves! Hunt down something!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
-        "next": "locate_gatekeeper"
+        "next":"50enemies"
     },
-    "locate_gatekeeper": {
-        "type": "locate",
-        "match": {
-            "mode": "entity",
-            "match_id": "gatekeeper"
+    "50enemies":{
+        "type":"kill",
+        "match":{
+            "mode":"preset_entity_check",
+            "match":"hostile"
         },
-        "unlock": "aaaa_zp4adv:locate_gatekeeper",
-        "count": 1,
-        "dialogue": {
-            "speaker": "Daluku",
-            "message": "Found the Gate Keeper. Secrets await!",
-            "renderType": "rectangle",
-            "renderTarget": "medievalorigins:textures/item/high_elf.png"
+        "unlock":"aaaa_zp4adv:50enemies",
+        "count":50,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"50 enemies down! You're a warrior now.",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
-        "next": "get_zeal_lighter"
+        "next":"win_raid"
     },
-    "get_zeal_lighter": {
-        "type": "obtain_item",
-        "match": {
-            "mode": "exact",
-            "match_id": "zeal_lighter"
+    "win_raid":{
+        "type":"raid_win",
+        "match":{},
+        "unlock":"aaaa_zp4adv:win_raid",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Raid victory! The village is safe.",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
-        "unlock": "aaaa_zp4adv:get_zeal_lighter",
-        "count": 1,
-        "dialogue": {
-            "speaker": "Daluku",
-            "message": "Zeal lighter acquired. Light the way!",
-            "renderType": "rectangle",
-            "renderTarget": "medievalorigins:textures/item/high_elf.png"
-        },
-        "next": "20combatlvl"
+        "next":"kill_cornelia"
     },
-    "20combatlvl": {
-        "type": "reach_level",
-        "match": {
-            "mode": "check_level",
-            "skill": "combat"
+    "kill_cornelia":{
+        "type":"kill",
+        "match":{
+            "mode":"preset_entity_check",
+            "match":"boss"
         },
-        "unlock": "aaaa_zp4adv:20combatlvl",
-        "count": 20,
-        "dialogue": {
-            "speaker": "Daluku",
-            "message": "Level 20 reached. You're advancing quickly!",
-            "renderType": "rectangle",
-            "renderTarget": "medievalorigins:textures/item/high_elf.png"
+        "unlock":"aaaa_zp4adv:kill_cornelia",
+        "count":4,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Bosses defeated! Impressive strength.",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
-        "next": "travel_to_everbright"
+        "next":"locate_gatekeeper"
     },
-    "travel_to_everbright": {
-        "type": "changed_dimension",
-        "match": {
-            "mode": "to",
-            "dimension": "everbright"
+    "locate_gatekeeper":{
+        "type":"locate",
+        "match":{
+            "mode":"entity",
+            "match_id":"gatekeeper"
         },
-        "unlock": "aaaa_zp4adv:travel_to_everbright",
-        "count": 1,
-        "dialogue": {
-            "speaker": "Daluku",
-            "message": "Entered Everbright. New adventures begin!",
-            "renderType": "rectangle",
-            "renderTarget": "medievalorigins:textures/item/high_elf.png"
+        "unlock":"aaaa_zp4adv:locate_gatekeeper",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Found the Gate Keeper. Secrets await!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"get_zeal_lighter"
+    },
+    "get_zeal_lighter":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"zeal_lighter"
+        },
+        "unlock":"aaaa_zp4adv:get_zeal_lighter",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Zeal lighter acquired. Light the way!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"20combatlvl"
+    },
+    "20combatlvl":{
+        "type":"reach_level",
+        "match":{
+            "mode":"check_level",
+            "skill":"combat"
+        },
+        "unlock":"aaaa_zp4adv:20combatlvl",
+        "count":20,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Level 20 reached. You're advancing quickly!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"travel_to_everbright"
+    },
+    "travel_to_everbright":{
+        "type":"changed_dimension",
+        "match":{
+            "mode":"to",
+            "dimension":"everbright"
+        },
+        "unlock":"aaaa_zp4adv:travel_to_everbright",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Entered Everbright. New adventures begin!",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
         }
     }
 }
@@ -441,6 +497,7 @@ const BLOCK_EVENTS_BROKEN = 2;
 const BLOCK_EVENTS_PLACED = 3;
 const PLAYER_EVENTS_INVENTORY_CHANGED = 4;
 const PLAYER_EVENTS_ADVANCEMENT = 5;
+const ITEM_EVENTS_PICKED_UP = 6;
 
 function questEvent(event, eventType) {
     const { server } = event;
@@ -502,6 +559,58 @@ function questEvent(event, eventType) {
         ) {
 
             // player.tell(eventType)
+
+            if (eventType == PLAYER_EVENTS_INVENTORY_CHANGED) {
+                let item = event.getItem();
+                let item_id = item.item.getId();
+
+                if (questData.type == 'obtain_item') {
+                    if (questData.hasOwnProperty('match')) {
+                        if (questData.match.mode == 'exact') {
+                            if (item_id == questData.match.match_id) {
+                                eventMatch = true;
+                            }
+                        }
+
+                        if (questData.match.mode == 'nbt_data_includes') {
+                            let compoundToMatch = questData.match.match_id;
+                            let itemItem = event.getItem();
+                            let compoundDataMatch = itemItem.nbt.getCompound(compoundToMatch);
+                            let keysLen = Object.keys(compoundDataMatch).length;
+
+                            if (compoundDataMatch && compoundDataMatch != {} && keysLen>0) {
+                                if (questData.match.hasOwnProperty('sub_match')) {
+                                    let sub_match_id = questData.match.sub_match.match_id;
+                                    let sub_match_data = compoundDataMatch[sub_match_id];
+                                    
+                                    if(questData.match.sub_match.match == 'item_id_match'){
+                                        if(item_id == sub_match_id){
+                                            eventMatch = true;
+                                        }
+                                    }
+
+                                    if (sub_match_data) {
+                                        if (questData.match.sub_match.match == 'nbt_data_ge_count') {
+                                            if (sub_match_data >= questData.count) {
+                                                eventMatch = true;
+                                            }
+                                        }
+                                    }
+                                }
+                                else {
+                                    eventMatch = true;
+                                }
+
+
+                            }
+                        }
+                    }
+                }
+                // let itemItem = event.getItem();
+                // let item_id = item.getId();
+                // let isbSpells = item.nbt.getCompound('ZUpgradeData');
+
+            }
 
             if (eventType == BLOCK_EVENTS_BROKEN) {
                 if (questData.type == 'break_block') {
@@ -628,7 +737,8 @@ EntityEvents.death(event => { questEvent(event, ENTITY_EVENTS_DEATH) });
 EntityEvents.hurt(event => { questEvent(event, ENTITY_EVENTS_HURT) });
 BlockEvents.broken(event => { questEvent(event, BLOCK_EVENTS_BROKEN) });
 BlockEvents.placed(event => { questEvent(event, BLOCK_EVENTS_PLACED) });
-//PlayerEvents.inventoryChanged(event => { questEvent(event, PLAYER_EVENTS_INVENTORY_CHANGED) });
+PlayerEvents.inventoryChanged(event => { questEvent(event, PLAYER_EVENTS_INVENTORY_CHANGED) });
+ItemEvents.pickedUp(event => { questEvent(event, ITEM_EVENTS_PICKED_UP) })
 
 
 function matchQuestDataByAdvId(advancement_id) {
@@ -645,16 +755,15 @@ PlayerEvents.advancement(event => {
     const { player, advancement, server } = event;
     let advancementId = advancement.getId().toString();
 
-    let questIndex = getQuestIndex(advancementId);
-    if(questIndex>=0){
-        let activeQuest = getPlayerQuest(player);
-        if(questIndex>questList[getQuestIndex(`${ADV_PREFIX}${activeQuest}`)]){
-            event.cancel();
-            return 0;
-        }
-    }
-
-    questEvent(event, PLAYER_EVENTS_ADVANCEMENT)
+    // let questIndex = getQuestIndex(advancementId);
+    // if (questIndex >= 0) {
+    //     let activeQuest = getPlayerQuest(player);
+    //     if (questIndex > questList[getQuestIndex(`${ADV_PREFIX}${activeQuest}`)]) {
+    //         event.cancel();
+    //         return 0;
+    //     }
+    // }
+    // questEvent(event, PLAYER_EVENTS_ADVANCEMENT)
 
     if (advancementId.includes(ADV_NAMESPACE)) {
         let questData = matchQuestDataByAdvId(advancementId);
@@ -676,6 +785,8 @@ ItemEvents.rightClicked('minecraft:stick', event => {
 
     // let activeQuest = getPlayerQuest(player);
     // let activeQuestProgress = getPlayerProgression(player);
+    // player.tell(activeQuest);
+    // player.tell(activeQuestProgress);
 
     // sendPlayerQuestToTrack(player, QUESTS[activeQuest].unlock)
 

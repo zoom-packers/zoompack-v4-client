@@ -4,7 +4,7 @@
             "item": "apotheosis:gem"
         },
         "title": "TUTORIAL - Get a Simple Reforging Table",
-        "description": "Place a Simple Reforging Table on the ground. Use it to upgrade items with affixes.",
+        "description": "Place a Simple Reforging Table on the ground. Use it to upgrade items with affixes. Type /gems to find more.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,

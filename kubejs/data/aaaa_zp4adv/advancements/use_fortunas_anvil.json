@@ -3,14 +3,14 @@
         "icon": {
             "item": "apotheosis:gem"
         },
-        "title": "TUTORIAL - Slay 10 Enemies",
-        "description": "You must get used to combat. So slay some enemies. Fighting gives you Combat XP",
+        "title": "TUTORIAL - Upgrade an item on the Fortuna`s Table",
+        "description": "For upgrading the gear you need the item, catalyst to boost chance, material to improve gap and protection rune for protection of the item. \nType /fortunas in case you get lost to find out more about the Fortuna`s Table",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:20logs",
+    "parent": "aaaa_zp4adv:place_fortunas_anvil",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

@@ -169,7 +169,7 @@ QUESTS = {
         'count': 1,
         'dialogue': {
             'speaker': 'Daluku',
-            'message': 'A shiny gem! You can use it to enhance your weaponry on a Smithing Table.',
+            'message': 'A shiny gem! You can use it to enhance your weaponry on a Smithing Table. Type /gems to find more.',
             'renderType': 'rectangle',
             'renderTarget': 'medievalorigins:textures/item/high_elf.png'
         }
@@ -203,14 +203,14 @@ QUESTS = {
         'count': 1,
         'dialogue': {
             'speaker': 'Daluku',
-            'message': 'Salvaging table placed. Time to recycle!',
+            'message': 'Salvaging table placed. Time to recycle! Extract affix materials or even ingots.',
             'renderType': 'rectangle',
             'renderTarget': 'medievalorigins:textures/item/high_elf.png'
         }
     },
     'place_simple_reforging_table': {
         'title': 'TUTORIAL - Get a Simple Reforging Table',
-        'description': 'Place a Simple Reforging Table on the ground. Use it to upgrade items with affixes.',
+        'description': 'Place a Simple Reforging Table on the ground. Use it to upgrade items with affixes. Type /gems to find more.',
         'xp': 20,
         'type': 'place_block',
         'match': {
@@ -220,14 +220,14 @@ QUESTS = {
         'count': 1,
         'dialogue': {
             'speaker': 'Daluku',
-            'message': 'Reforging ready. Enhance your gear!',
+            'message': 'Reforging ready. Enhance your gear! ',
             'renderType': 'rectangle',
             'renderTarget': 'medievalorigins:textures/item/high_elf.png'
         }
     },
     'place_fortunas_anvil': {
         'title': 'TUTORIAL - Get a Fortuna`s Anvil',
-        'description': 'Place a Fortuna`s Anvil on the ground. Use it to upgrade your items.',
+        'description': 'Place a Fortuna`s Anvil on the ground. Use it to upgrade your items. Type /fortunas to find out more.',
         'xp': 20,
         'type': 'place_block',
         'match': {
@@ -238,6 +238,65 @@ QUESTS = {
         'dialogue': {
             'speaker': 'Daluku',
             'message': 'Fortuna\'s anvil is set. Good luck!',
+            'renderType': 'rectangle',
+            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+        }
+    },
+    'use_fortunas_anvil': {
+        'title': 'TUTORIAL - Upgrade an item on the Fortuna`s Table',
+        'description': 'For upgrading the gear you need the item, catalyst to boost chance, material to improve gap and protection rune for protection of the item. \nType /fortunas in case you get lost to find out more about the Fortuna`s Table',
+        'xp': 20,
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'nbt_data_includes',
+            'match_id': 'ZUpgradeData',
+            'sub_match':{
+                'match' : 'nbt_data_ge_count',
+                'match_id' : 'level'
+            }
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Daluku',
+            'message': 'Amazing! Now let`s put your new gear to work to see how it behaves! Hunt down something!',
+            'renderType': 'rectangle',
+            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+        }
+    },
+    'craft_bauble_mount': {
+        'title': 'TUTORIAL - Get a Bauble Mount',
+        'description': 'Get yourself a Bauble for a Mount. Type /mounts to find out more.',
+        'xp': 20,
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'baublemounts:mount_bauble'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Daluku',
+            'message': 'Great work! Now use that to capture a tamed mount.',
+            'renderType': 'rectangle',
+            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+        }
+    },
+    'use_bauble_mount': {
+        'title': 'TUTORIAL - Your own personal mount',
+        'description': 'Use the Mount Bauble to a tamed mob to make it yours. Type /mounts to find out more.',
+        'xp': 20,
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'nbt_data_includes',
+            'match_id': 'Mount',
+            'sub_match':{
+                'match' : 'item_id_match',
+                'match_id' : 'baublemounts:mount_bauble'
+            }
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Daluku',
+            'message': 'Amazing! Now you can toggle your mount with the key V. Take care of it!',
             'renderType': 'rectangle',
             'renderTarget': 'medievalorigins:textures/item/high_elf.png'
         }
@@ -372,13 +431,13 @@ for quest_key in QUESTS:
     
     adv_data = get_impossible_advancement(current_root, icon, quest_data['title'], quest_data['description'], quest_data['xp'])
 
-    if quest_data['type'] == 'obtain_item':
-        if quest_data['match']['mode'] == 'exact':
-            count = quest_data['count']
-            if count>1:
-                adv_data = get_inventory_changed_advancement(current_root, icon, quest_data['title'], quest_data['description'], quest_data['xp'], quest_data['match']['match_id'], count)
-            else:
-                adv_data = get_inventory_changed_advancement(current_root, icon, quest_data['title'], quest_data['description'], quest_data['xp'], quest_data['match']['match_id'])
+    # if quest_data['type'] == 'obtain_item':
+    #     if quest_data['match']['mode'] == 'exact':
+    #         count = quest_data['count']
+    #         if count>1:
+    #             adv_data = get_inventory_changed_advancement(current_root, icon, quest_data['title'], quest_data['description'], quest_data['xp'], quest_data['match']['match_id'], count)
+    #         else:
+    #             adv_data = get_inventory_changed_advancement(current_root, icon, quest_data['title'], quest_data['description'], quest_data['xp'], quest_data['match']['match_id'])
 
     write_json_data(path, adv_data)
     current_root = f"aaaa_zp4adv:{quest_key}"

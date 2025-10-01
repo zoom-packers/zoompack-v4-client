@@ -4,7 +4,7 @@
             "item": "apotheosis:gem"
         },
         "title": "TUTORIAL - Butcher 10 Farm Animals",
-        "description": "You must get used to gather food. Start with a farm.",
+        "description": "You must get used to gather food. Start with a farm. ",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
