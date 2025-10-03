@@ -1,0 +1,13 @@
+apotheosis:tower_leaf
+apotheosis:tower_main
+apotheosis:tower_sand
+apotheosis:tower_spruce
+aquamirae:outpost
+artemisoutposts:outposts
+ati_structures:gnome_hut
+battletowers:battletower
+betternether:altars
+betternether:gardens
+betternether:pillars
+betternether:respawn_points
+explorify:ruins
