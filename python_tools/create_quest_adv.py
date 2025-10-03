@@ -342,8 +342,7 @@ QUESTS = {
         'type': 'adv_unlock',
         'match': {
             'mode' : 'exact',
-            'match' : 'aaaa_zp4adv:win_raid_loop',
-            'revoke' : True
+            'match' : 'aaaa_zp4adv:win_raid_loop'
         },
         'count': 1,
         'dialogue': {

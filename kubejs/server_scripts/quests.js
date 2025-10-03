@@ -13,8 +13,7 @@ const QUESTS = {
         "type":"adv_unlock",
         "match":{
             "mode":"exact",
-            "match":"aaaa_zp4adv:win_raid_loop",
-            "revoke":true
+            "match":"aaaa_zp4adv:win_raid_loop"
         },
         "unlock":"aaaa_zp4adv:win_raid",
         "count":1,
@@ -551,6 +550,10 @@ function questEvent(event, eventType) {
 
     // TODO: might be worth to cache these ones
 
+    if(!player){
+        return 0;
+    }
+
     let activeQuest = getPlayerQuest(player);
     let activeQuestProgress = getPlayerProgression(player);
 
@@ -578,20 +581,20 @@ function questEvent(event, eventType) {
             (activeQuest !== LAST_QUEST || activeQuestProgress < questData.count)
         ) {
 
-            if(eventType == PLAYER_EVENTS_ADVANCEMENT){
+            if (eventType == PLAYER_EVENTS_ADVANCEMENT) {
                 const { advancement } = event;
                 let advancementId = advancement.getId().toString();
 
                 if (questData.type == 'adv_unlock') {
                     if (questData.hasOwnProperty('match')) {
                         if (questData.match.mode == 'exact') {
-                            if(questData.match.match == advancementId){
+                            if (questData.match.match == advancementId) {
                                 eventMatch = true;
                             }
                         }
 
-                        if(questData.match.hasOwnProperty('revoke')){
-                            if(questData.match.revoke){
+                        if (questData.match.hasOwnProperty('revoke')) {
+                            if (questData.match.revoke) {
                                 revokeServerPlayerAdvancement(server, player, advancementId);
                             }
                         }
@@ -790,6 +793,8 @@ function matchQuestDataByAdvId(advancement_id) {
     return null;
 }
 
+const INSTA_REVOKE_ADVS = ['aaaa_zp4adv:win_raid_loop'];
+
 PlayerEvents.advancement(event => {
     const { player, advancement, server } = event;
     let advancementId = advancement.getId().toString();
@@ -805,15 +810,22 @@ PlayerEvents.advancement(event => {
     questEvent(event, PLAYER_EVENTS_ADVANCEMENT)
 
     if (advancementId.includes(ADV_NAMESPACE)) {
-        let questData = matchQuestDataByAdvId(advancementId);
-        if (questData) {
-            if (questData.next) {
-                sendPlayerQuestToTrack(player, QUESTS[questData.next].unlock);
-            }
-            if (questData.hasOwnProperty('dialogue')) {
-                sendDialogueToPlayer(player, questData.dialogue.speaker, questData.dialogue.message, questData.dialogue.renderType, questData.dialogue.renderTarget);
+        if (INSTA_REVOKE_ADVS.includes(advancementId)) {
+            revokeServerPlayerAdvancement(server, player, advancementId);
+        }
+        else {
+
+            let questData = matchQuestDataByAdvId(advancementId);
+            if (questData) {
+                if (questData.next) {
+                    sendPlayerQuestToTrack(player, QUESTS[questData.next].unlock);
+                }
+                if (questData.hasOwnProperty('dialogue')) {
+                    sendDialogueToPlayer(player, questData.dialogue.speaker, questData.dialogue.message, questData.dialogue.renderType, questData.dialogue.renderTarget);
+                }
             }
         }
+
     }
 });
 

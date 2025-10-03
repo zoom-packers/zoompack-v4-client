@@ -12,7 +12,7 @@
       "text": "Protect a village from pillager raiders"
     },
     "frame": "challenge",
-    "hidden": false,
+    "hidden": true,
     "icon": {
       "item": "minecraft:emerald"
     },
