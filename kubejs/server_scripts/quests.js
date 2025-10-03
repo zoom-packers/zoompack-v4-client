@@ -9,6 +9,23 @@ const ADV_PREFIX = `${ADV_NAMESPACE}${TWO_DOTS}`;
 
 //QUEST_DATA_START
 const QUESTS = {
+    "win_raid":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match":"aaaa_zp4adv:win_raid_loop",
+            "revoke":true
+        },
+        "unlock":"aaaa_zp4adv:win_raid",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Raid victory! The village is safe. Press K and go to Villager Hero to see if you can claim more terrain.",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"20logs"
+    },
     "20logs":{
         "type":"break_block",
         "match":{
@@ -236,19 +253,6 @@ const QUESTS = {
         "dialogue":{
             "speaker":"Daluku",
             "message":"50 enemies down! You're a warrior now.",
-            "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
-        },
-        "next":"win_raid"
-    },
-    "win_raid":{
-        "type":"raid_win",
-        "match":{},
-        "unlock":"aaaa_zp4adv:win_raid",
-        "count":1,
-        "dialogue":{
-            "speaker":"Daluku",
-            "message":"Raid victory! The village is safe.",
             "renderType":"rectangle",
             "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
@@ -574,7 +578,26 @@ function questEvent(event, eventType) {
             (activeQuest !== LAST_QUEST || activeQuestProgress < questData.count)
         ) {
 
-            // player.tell(eventType)
+            if(eventType == PLAYER_EVENTS_ADVANCEMENT){
+                const { advancement } = event;
+                let advancementId = advancement.getId().toString();
+
+                if (questData.type == 'adv_unlock') {
+                    if (questData.hasOwnProperty('match')) {
+                        if (questData.match.mode == 'exact') {
+                            if(questData.match.match == advancementId){
+                                eventMatch = true;
+                            }
+                        }
+
+                        if(questData.match.hasOwnProperty('revoke')){
+                            if(questData.match.revoke){
+                                revokeServerPlayerAdvancement(server, player, advancementId);
+                            }
+                        }
+                    }
+                }
+            }
 
             if (eventType == PLAYER_EVENTS_INVENTORY_CHANGED) {
                 let item = event.getItem();
@@ -594,13 +617,13 @@ function questEvent(event, eventType) {
                             let compoundDataMatch = itemItem.nbt.getCompound(compoundToMatch);
                             let keysLen = Object.keys(compoundDataMatch).length;
 
-                            if (compoundDataMatch && compoundDataMatch != {} && keysLen>0) {
+                            if (compoundDataMatch && compoundDataMatch != {} && keysLen > 0) {
                                 if (questData.match.hasOwnProperty('sub_match')) {
                                     let sub_match_id = questData.match.sub_match.match_id;
                                     let sub_match_data = compoundDataMatch[sub_match_id];
-                                    
-                                    if(questData.match.sub_match.match == 'item_id_match'){
-                                        if(item_id == sub_match_id){
+
+                                    if (questData.match.sub_match.match == 'item_id_match') {
+                                        if (item_id == sub_match_id) {
                                             eventMatch = true;
                                         }
                                     }
@@ -779,7 +802,7 @@ PlayerEvents.advancement(event => {
     //         return 0;
     //     }
     // }
-    // questEvent(event, PLAYER_EVENTS_ADVANCEMENT)
+    questEvent(event, PLAYER_EVENTS_ADVANCEMENT)
 
     if (advancementId.includes(ADV_NAMESPACE)) {
         let questData = matchQuestDataByAdvId(advancementId);

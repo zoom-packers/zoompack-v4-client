@@ -339,12 +339,16 @@ QUESTS = {
         'title': 'TUTORIAL - Win a Raid',
         'description': 'Defeat a Raid upon a village. The more raids won, the more terrain you can claim.',
         'xp': 20,
-        'type': 'raid_win',
-        'match': {},
+        'type': 'adv_unlock',
+        'match': {
+            'mode' : 'exact',
+            'match' : 'aaaa_zp4adv:win_raid_loop',
+            'revoke' : True
+        },
         'count': 1,
         'dialogue': {
             'speaker': 'Daluku',
-            'message': 'Raid victory! The village is safe.',
+            'message': 'Raid victory! The village is safe. Press K and go to Villager Hero to see if you can claim more terrain.',
             'renderType': 'rectangle',
             'renderTarget': 'medievalorigins:textures/item/high_elf.png'
         }

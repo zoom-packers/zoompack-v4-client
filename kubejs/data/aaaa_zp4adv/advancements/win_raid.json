@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:50enemies",
+    "parent": "minecraft:adventure/root",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

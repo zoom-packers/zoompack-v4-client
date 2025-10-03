@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:win_raid",
+    "parent": "aaaa_zp4adv:50enemies",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"
