@@ -2554,71 +2554,71 @@ i_flaming_ruby_upgrade_smithing_template: "betternether:flaming_ruby_upgrade_smi
 /** @type {string} */
 i_cincinnasite_diamond_upgrade_smithing_template: "betternether:cincinnasite_diamond_upgrade_smithing_template",
 /** @type {string} */
-i_cincinnasite_shears: "betternether:cincinnasite_shears",
-/** @type {string} */
 i_cincinnasite_pickaxe: "betternether:cincinnasite_pickaxe",
 /** @type {string} */
-i_cincinnasite_helmet: "betternether:cincinnasite_helmet",
+i_cincinnasite_shears: "betternether:cincinnasite_shears",
+/** @type {string} */
+i_cincinnasite_shovel: "betternether:cincinnasite_shovel",
+/** @type {string} */
+i_cincinnasite_hoe: "betternether:cincinnasite_hoe",
+/** @type {string} */
+i_cincinnasite_sword: "betternether:cincinnasite_sword",
 /** @type {string} */
 i_cincinnasite_leggings: "betternether:cincinnasite_leggings",
+/** @type {string} */
+i_cincinnasite_axe: "betternether:cincinnasite_axe",
 /** @type {string} */
 i_cincinnasite_chestplate: "betternether:cincinnasite_chestplate",
 /** @type {string} */
 i_cincinnasite_boots: "betternether:cincinnasite_boots",
 /** @type {string} */
-i_cincinnasite_axe: "betternether:cincinnasite_axe",
-/** @type {string} */
-i_cincinnasite_shovel: "betternether:cincinnasite_shovel",
-/** @type {string} */
-i_cincinnasite_sword: "betternether:cincinnasite_sword",
-/** @type {string} */
-i_cincinnasite_hoe: "betternether:cincinnasite_hoe",
+i_cincinnasite_helmet: "betternether:cincinnasite_helmet",
 /** @type {string} */
 i_nether_ruby_pickaxe: "betternether:nether_ruby_pickaxe",
 /** @type {string} */
-i_nether_ruby_helmet: "betternether:nether_ruby_helmet",
+i_nether_ruby_shovel: "betternether:nether_ruby_shovel",
+/** @type {string} */
+i_nether_ruby_hoe: "betternether:nether_ruby_hoe",
+/** @type {string} */
+i_nether_ruby_sword: "betternether:nether_ruby_sword",
 /** @type {string} */
 i_nether_ruby_leggings: "betternether:nether_ruby_leggings",
+/** @type {string} */
+i_nether_ruby_axe: "betternether:nether_ruby_axe",
 /** @type {string} */
 i_nether_ruby_chestplate: "betternether:nether_ruby_chestplate",
 /** @type {string} */
 i_nether_ruby_boots: "betternether:nether_ruby_boots",
 /** @type {string} */
-i_nether_ruby_axe: "betternether:nether_ruby_axe",
-/** @type {string} */
-i_nether_ruby_shovel: "betternether:nether_ruby_shovel",
-/** @type {string} */
-i_nether_ruby_sword: "betternether:nether_ruby_sword",
-/** @type {string} */
-i_nether_ruby_hoe: "betternether:nether_ruby_hoe",
+i_nether_ruby_helmet: "betternether:nether_ruby_helmet",
 /** @type {string} */
 i_cincinnasite_pickaxe_diamond: "betternether:cincinnasite_pickaxe_diamond",
 /** @type {string} */
-i_cincinnasite_axe_diamond: "betternether:cincinnasite_axe_diamond",
-/** @type {string} */
 i_cincinnasite_shovel_diamond: "betternether:cincinnasite_shovel_diamond",
-/** @type {string} */
-i_cincinnasite_sword_diamond: "betternether:cincinnasite_sword_diamond",
 /** @type {string} */
 i_cincinnasite_hoe_diamond: "betternether:cincinnasite_hoe_diamond",
 /** @type {string} */
+i_cincinnasite_sword_diamond: "betternether:cincinnasite_sword_diamond",
+/** @type {string} */
+i_cincinnasite_axe_diamond: "betternether:cincinnasite_axe_diamond",
+/** @type {string} */
 i_flaming_ruby_pickaxe: "betternether:flaming_ruby_pickaxe",
 /** @type {string} */
-i_flaming_ruby_helmet: "betternether:flaming_ruby_helmet",
+i_flaming_ruby_shovel: "betternether:flaming_ruby_shovel",
+/** @type {string} */
+i_flaming_ruby_hoe: "betternether:flaming_ruby_hoe",
+/** @type {string} */
+i_flaming_ruby_sword: "betternether:flaming_ruby_sword",
 /** @type {string} */
 i_flaming_ruby_leggings: "betternether:flaming_ruby_leggings",
+/** @type {string} */
+i_flaming_ruby_axe: "betternether:flaming_ruby_axe",
 /** @type {string} */
 i_flaming_ruby_chestplate: "betternether:flaming_ruby_chestplate",
 /** @type {string} */
 i_flaming_ruby_boots: "betternether:flaming_ruby_boots",
 /** @type {string} */
-i_flaming_ruby_axe: "betternether:flaming_ruby_axe",
-/** @type {string} */
-i_flaming_ruby_shovel: "betternether:flaming_ruby_shovel",
-/** @type {string} */
-i_flaming_ruby_sword: "betternether:flaming_ruby_sword",
-/** @type {string} */
-i_flaming_ruby_hoe: "betternether:flaming_ruby_hoe",
+i_flaming_ruby_helmet: "betternether:flaming_ruby_helmet",
 /** @type {string} */
 i_glowstone_pile: "betternether:glowstone_pile",
 /** @type {string} */
@@ -3738,100 +3738,6 @@ i_spawn_egg_skull: "betternether:spawn_egg_skull",
  * @readonly
  * @enum {string}
  */
-const item_perfectplushies = {
-    /** @type {string} */
-i_wandering_plushie_trader_spawn_egg: "perfectplushies:wandering_plushie_trader_spawn_egg",
-/** @type {string} */
-i_nyf_plushie: "perfectplushies:nyf_plushie",
-/** @type {string} */
-i_sirjain_plushie: "perfectplushies:sirjain_plushie",
-/** @type {string} */
-i_sizableshrimp_plushie: "perfectplushies:sizableshrimp_plushie",
-/** @type {string} */
-i_tslat_plushie: "perfectplushies:tslat_plushie",
-/** @type {string} */
-i_silk_plushie: "perfectplushies:silk_plushie",
-/** @type {string} */
-i_june_plushie: "perfectplushies:june_plushie",
-/** @type {string} */
-i_daniel_plushie: "perfectplushies:daniel_plushie",
-/** @type {string} */
-i_gamerpotion_plushie: "perfectplushies:gamerpotion_plushie",
-/** @type {string} */
-i_joosh_plushie: "perfectplushies:joosh_plushie",
-/** @type {string} */
-i_rocris_plushie: "perfectplushies:rocris_plushie",
-/** @type {string} */
-i_geode_plushie: "perfectplushies:geode_plushie",
-/** @type {string} */
-i_gamerpotion_plushie_rare: "perfectplushies:gamerpotion_plushie_rare",
-/** @type {string} */
-i_sirjain_plushie_rare: "perfectplushies:sirjain_plushie_rare",
-/** @type {string} */
-i_red_fox_plushie: "perfectplushies:red_fox_plushie",
-/** @type {string} */
-i_snow_fox_plushie: "perfectplushies:snow_fox_plushie",
-/** @type {string} */
-i_raccoon_plushie: "perfectplushies:raccoon_plushie",
-/** @type {string} */
-i_red_panda_plushie: "perfectplushies:red_panda_plushie",
-/** @type {string} */
-i_red_ruffed_lemur_plushie: "perfectplushies:red_ruffed_lemur_plushie",
-/** @type {string} */
-i_capybara_plushie: "perfectplushies:capybara_plushie",
-/** @type {string} */
-i_dog_plushie: "perfectplushies:dog_plushie",
-/** @type {string} */
-i_cat_plushie: "perfectplushies:cat_plushie",
-/** @type {string} */
-i_dolphin_plushie: "perfectplushies:dolphin_plushie",
-/** @type {string} */
-i_rabbit_plushie: "perfectplushies:rabbit_plushie",
-/** @type {string} */
-i_frog_plushie: "perfectplushies:frog_plushie",
-/** @type {string} */
-i_goose_plushie: "perfectplushies:goose_plushie",
-/** @type {string} */
-i_duck_plushie: "perfectplushies:duck_plushie",
-/** @type {string} */
-i_rubber_duck_plushie: "perfectplushies:rubber_duck_plushie",
-/** @type {string} */
-i_robin_plushie: "perfectplushies:robin_plushie",
-/** @type {string} */
-i_hummingbird_plushie: "perfectplushies:hummingbird_plushie",
-/** @type {string} */
-i_hippo_plushie: "perfectplushies:hippo_plushie",
-/** @type {string} */
-i_mouse_plushie: "perfectplushies:mouse_plushie",
-/** @type {string} */
-i_turtle_plushie: "perfectplushies:turtle_plushie",
-/** @type {string} */
-i_doe_plushie: "perfectplushies:doe_plushie",
-/** @type {string} */
-i_reindeer_plushie: "perfectplushies:reindeer_plushie",
-/** @type {string} */
-i_bear_plushie: "perfectplushies:bear_plushie",
-/** @type {string} */
-i_panda_plushie: "perfectplushies:panda_plushie",
-/** @type {string} */
-i_lion_cub_plushie: "perfectplushies:lion_cub_plushie",
-/** @type {string} */
-i_elephant_plushie: "perfectplushies:elephant_plushie",
-/** @type {string} */
-i_monkey_plushie: "perfectplushies:monkey_plushie",
-/** @type {string} */
-i_seal_plushie: "perfectplushies:seal_plushie",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
 const item_apotheosis = {
     /** @type {string} */
 i_beeshelf: "apotheosis:beeshelf",
@@ -4438,29 +4344,11 @@ i_undergarden_sign_post_grongle: "supplementaries:undergarden/sign_post_grongle"
 /** @type {string} */
 i_outer_end_sign_post_azure: "supplementaries:outer_end/sign_post_azure",
 /** @type {string} */
+i_vanillabackport_sign_post_pale_oak: "supplementaries:vanillabackport/sign_post_pale_oak",
+/** @type {string} */
 i_theabyss_sign_post_blaru: "supplementaries:theabyss/sign_post_blaru",
 /** @type {string} */
 i_theabyss_sign_post_jungle: "supplementaries:theabyss/sign_post_jungle",
-/** @type {string} */
-i_theabyss_sign_post_slimed: "supplementaries:theabyss/sign_post_slimed",
-/** @type {string} */
-i_theabyss_sign_post_frozen: "supplementaries:theabyss/sign_post_frozen",
-/** @type {string} */
-i_theabyss_sign_post_vigilant: "supplementaries:theabyss/sign_post_vigilant",
-/** @type {string} */
-i_aether_sign_post_skyroot: "supplementaries:aether/sign_post_skyroot",
-/** @type {string} */
-i_vinery_sign_post_dark_cherry: "supplementaries:vinery/sign_post_dark_cherry",
-/** @type {string} */
-i_meadow_sign_post_pine: "supplementaries:meadow/sign_post_pine",
-/** @type {string} */
-i_beachparty_sign_post_palm: "supplementaries:beachparty/sign_post_palm",
-/** @type {string} */
-i_endlessbiomes_sign_post_penumbra: "supplementaries:endlessbiomes/sign_post_penumbra",
-/** @type {string} */
-i_endlessbiomes_sign_post_twisted: "supplementaries:endlessbiomes/sign_post_twisted",
-/** @type {string} */
-i_vanillabackport_sign_post_pale_oak: "supplementaries:vanillabackport/sign_post_pale_oak",
 /** @type {string} */
 i_theabyss_sign_post_slimed: "supplementaries:theabyss/sign_post_slimed",
 /** @type {string} */
@@ -7484,6 +7372,38 @@ i_hellbark_chest_boat: "biomesoplenty:hellbark_chest_boat",
  * @readonly
  * @enum {string}
  */
+const item_iron_biplane = {
+    /** @type {string} */
+i_copper_biplane: "iron_biplane:copper_biplane",
+/** @type {string} */
+i_copper_engine: "iron_biplane:copper_engine",
+/** @type {string} */
+i_iron_biplane: "iron_biplane:iron_biplane",
+/** @type {string} */
+i_iron_engine: "iron_biplane:iron_engine",
+/** @type {string} */
+i_golden_biplane: "iron_biplane:golden_biplane",
+/** @type {string} */
+i_golden_engine: "iron_biplane:golden_engine",
+/** @type {string} */
+i_diamond_biplane: "iron_biplane:diamond_biplane",
+/** @type {string} */
+i_diamond_engine: "iron_biplane:diamond_engine",
+/** @type {string} */
+i_netherite_biplane: "iron_biplane:netherite_biplane",
+/** @type {string} */
+i_netherite_engine: "iron_biplane:netherite_engine",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const item_domum_ornamentum = {
     /** @type {string} */
 i_architectscutter: "domum_ornamentum:architectscutter",
@@ -7677,6 +7597,26 @@ i_post: "domum_ornamentum:post",
 i_fancy_door: "domum_ornamentum:fancy_door",
 /** @type {string} */
 i_fancy_trapdoors: "domum_ornamentum:fancy_trapdoors",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const item_astikorcarts = {
+    /** @type {string} */
+i_wheel: "astikorcarts:wheel",
+/** @type {string} */
+i_supply_cart: "astikorcarts:supply_cart",
+/** @type {string} */
+i_plow: "astikorcarts:plow",
+/** @type {string} */
+i_animal_cart: "astikorcarts:animal_cart",
 
 };
 
@@ -10732,11 +10672,275 @@ i_bioethanol_bucket: "createaddition:bioethanol_bucket",
  * @readonly
  * @enum {string}
  */
+const item_perfectplushies = {
+    /** @type {string} */
+i_wandering_plushie_trader_spawn_egg: "perfectplushies:wandering_plushie_trader_spawn_egg",
+/** @type {string} */
+i_nyf_plushie: "perfectplushies:nyf_plushie",
+/** @type {string} */
+i_sirjain_plushie: "perfectplushies:sirjain_plushie",
+/** @type {string} */
+i_sizableshrimp_plushie: "perfectplushies:sizableshrimp_plushie",
+/** @type {string} */
+i_tslat_plushie: "perfectplushies:tslat_plushie",
+/** @type {string} */
+i_silk_plushie: "perfectplushies:silk_plushie",
+/** @type {string} */
+i_june_plushie: "perfectplushies:june_plushie",
+/** @type {string} */
+i_daniel_plushie: "perfectplushies:daniel_plushie",
+/** @type {string} */
+i_gamerpotion_plushie: "perfectplushies:gamerpotion_plushie",
+/** @type {string} */
+i_joosh_plushie: "perfectplushies:joosh_plushie",
+/** @type {string} */
+i_rocris_plushie: "perfectplushies:rocris_plushie",
+/** @type {string} */
+i_geode_plushie: "perfectplushies:geode_plushie",
+/** @type {string} */
+i_gamerpotion_plushie_rare: "perfectplushies:gamerpotion_plushie_rare",
+/** @type {string} */
+i_sirjain_plushie_rare: "perfectplushies:sirjain_plushie_rare",
+/** @type {string} */
+i_red_fox_plushie: "perfectplushies:red_fox_plushie",
+/** @type {string} */
+i_snow_fox_plushie: "perfectplushies:snow_fox_plushie",
+/** @type {string} */
+i_raccoon_plushie: "perfectplushies:raccoon_plushie",
+/** @type {string} */
+i_red_panda_plushie: "perfectplushies:red_panda_plushie",
+/** @type {string} */
+i_red_ruffed_lemur_plushie: "perfectplushies:red_ruffed_lemur_plushie",
+/** @type {string} */
+i_capybara_plushie: "perfectplushies:capybara_plushie",
+/** @type {string} */
+i_dog_plushie: "perfectplushies:dog_plushie",
+/** @type {string} */
+i_cat_plushie: "perfectplushies:cat_plushie",
+/** @type {string} */
+i_dolphin_plushie: "perfectplushies:dolphin_plushie",
+/** @type {string} */
+i_rabbit_plushie: "perfectplushies:rabbit_plushie",
+/** @type {string} */
+i_frog_plushie: "perfectplushies:frog_plushie",
+/** @type {string} */
+i_goose_plushie: "perfectplushies:goose_plushie",
+/** @type {string} */
+i_duck_plushie: "perfectplushies:duck_plushie",
+/** @type {string} */
+i_rubber_duck_plushie: "perfectplushies:rubber_duck_plushie",
+/** @type {string} */
+i_robin_plushie: "perfectplushies:robin_plushie",
+/** @type {string} */
+i_hummingbird_plushie: "perfectplushies:hummingbird_plushie",
+/** @type {string} */
+i_hippo_plushie: "perfectplushies:hippo_plushie",
+/** @type {string} */
+i_mouse_plushie: "perfectplushies:mouse_plushie",
+/** @type {string} */
+i_turtle_plushie: "perfectplushies:turtle_plushie",
+/** @type {string} */
+i_doe_plushie: "perfectplushies:doe_plushie",
+/** @type {string} */
+i_reindeer_plushie: "perfectplushies:reindeer_plushie",
+/** @type {string} */
+i_bear_plushie: "perfectplushies:bear_plushie",
+/** @type {string} */
+i_panda_plushie: "perfectplushies:panda_plushie",
+/** @type {string} */
+i_lion_cub_plushie: "perfectplushies:lion_cub_plushie",
+/** @type {string} */
+i_elephant_plushie: "perfectplushies:elephant_plushie",
+/** @type {string} */
+i_monkey_plushie: "perfectplushies:monkey_plushie",
+/** @type {string} */
+i_seal_plushie: "perfectplushies:seal_plushie",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const item_man_of_many_planes = {
     /** @type {string} */
 i_scarlet_biplane: "man_of_many_planes:scarlet_biplane",
 /** @type {string} */
 i_economy_plane: "man_of_many_planes:economy_plane",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const item_roost2 = {
+    /** @type {string} */
+i_crystaline_opal_block: "roost2:crystaline_opal_block",
+/** @type {string} */
+i_budding_crystaline_opal: "roost2:budding_crystaline_opal",
+/** @type {string} */
+i_crystaline_opal_cluster: "roost2:crystaline_opal_cluster",
+/** @type {string} */
+i_large_crystaline_opal_bud: "roost2:large_crystaline_opal_bud",
+/** @type {string} */
+i_medium_crystaline_opal_bud: "roost2:medium_crystaline_opal_bud",
+/** @type {string} */
+i_small_crystaline_opal_bud: "roost2:small_crystaline_opal_bud",
+/** @type {string} */
+i_marl: "roost2:marl",
+/** @type {string} */
+i_crystaline_opal_chunk: "roost2:crystaline_opal_chunk",
+/** @type {string} */
+i_roost_spawn_egg: "roost2:roost_spawn_egg",
+/** @type {string} */
+i_roost_rider_spawn_egg: "roost2:roost_rider_spawn_egg",
+/** @type {string} */
+i_plated_scythe: "roost2:plated_scythe",
+/** @type {string} */
+i_roost_feather: "roost2:roost_feather",
+/** @type {string} */
+i_roost_drumstick: "roost2:roost_drumstick",
+/** @type {string} */
+i_roost_wing: "roost2:roost_wing",
+/** @type {string} */
+i_roost_breast: "roost2:roost_breast",
+/** @type {string} */
+i_roast_roost_drumstick: "roost2:roast_roost_drumstick",
+/** @type {string} */
+i_fried_roost_wing: "roost2:fried_roost_wing",
+/** @type {string} */
+i_grilled_roost_breast: "roost2:grilled_roost_breast",
+/** @type {string} */
+i_kfr_bucket: "roost2:kfr_bucket",
+/** @type {string} */
+i_golden_kfr_bucket: "roost2:golden_kfr_bucket",
+/** @type {string} */
+i_roost_beak: "roost2:roost_beak",
+/** @type {string} */
+i_beakaxe: "roost2:beakaxe",
+/** @type {string} */
+i_featherfall_charm: "roost2:featherfall_charm",
+/** @type {string} */
+i_voidfall_charm: "roost2:voidfall_charm",
+/** @type {string} */
+i_polished_opal_block: "roost2:polished_opal_block",
+/** @type {string} */
+i_opal_bricks: "roost2:opal_bricks",
+/** @type {string} */
+i_opal_tiles: "roost2:opal_tiles",
+/** @type {string} */
+i_opaline_glass: "roost2:opaline_glass",
+/** @type {string} */
+i_opaline_glass_pane: "roost2:opaline_glass_pane",
+/** @type {string} */
+i_opal_pillar: "roost2:opal_pillar",
+/** @type {string} */
+i_polished_opal_stairs: "roost2:polished_opal_stairs",
+/** @type {string} */
+i_polished_opal_slab: "roost2:polished_opal_slab",
+/** @type {string} */
+i_opal_brick_stairs: "roost2:opal_brick_stairs",
+/** @type {string} */
+i_opal_brick_slab: "roost2:opal_brick_slab",
+/** @type {string} */
+i_polished_marl: "roost2:polished_marl",
+/** @type {string} */
+i_marl_bricks: "roost2:marl_bricks",
+/** @type {string} */
+i_marl_pillar: "roost2:marl_pillar",
+/** @type {string} */
+i_marl_tiles: "roost2:marl_tiles",
+/** @type {string} */
+i_chisled_marl_bricks: "roost2:chisled_marl_bricks",
+/** @type {string} */
+i_mini_marl_tiles: "roost2:mini_marl_tiles",
+/** @type {string} */
+i_saddle_pouch: "roost2:saddle_pouch",
+/** @type {string} */
+i_roost_egg: "roost2:roost_egg",
+/** @type {string} */
+i_essance_of_roost: "roost2:essance_of_roost",
+/** @type {string} */
+i_shard_of_speed: "roost2:shard_of_speed",
+/** @type {string} */
+i_shard_of_leaping: "roost2:shard_of_leaping",
+/** @type {string} */
+i_shard_of_flying: "roost2:shard_of_flying",
+/** @type {string} */
+i_trinity_shard: "roost2:trinity_shard",
+/** @type {string} */
+i_polished_marl_slab: "roost2:polished_marl_slab",
+/** @type {string} */
+i_polished_marl_stairs: "roost2:polished_marl_stairs",
+/** @type {string} */
+i_marl_brick_slab: "roost2:marl_brick_slab",
+/** @type {string} */
+i_marl_brick_stairs: "roost2:marl_brick_stairs",
+/** @type {string} */
+i_marl_tile_slab: "roost2:marl_tile_slab",
+/** @type {string} */
+i_marl_tile_stairs: "roost2:marl_tile_stairs",
+/** @type {string} */
+i_mini_marl_tile_slab: "roost2:mini_marl_tile_slab",
+/** @type {string} */
+i_mini_marl_tile_stairs: "roost2:mini_marl_tile_stairs",
+/** @type {string} */
+i_marl_slab: "roost2:marl_slab",
+/** @type {string} */
+i_marl_stairs: "roost2:marl_stairs",
+/** @type {string} */
+i_marl_wall: "roost2:marl_wall",
+/** @type {string} */
+i_polished_marl_wall: "roost2:polished_marl_wall",
+/** @type {string} */
+i_marl_brick_wall: "roost2:marl_brick_wall",
+/** @type {string} */
+i_marl_tile_wall: "roost2:marl_tile_wall",
+/** @type {string} */
+i_opal_tile_stairs: "roost2:opal_tile_stairs",
+/** @type {string} */
+i_opal_tile_slab: "roost2:opal_tile_slab",
+/** @type {string} */
+i_opaline_sconce: "roost2:opaline_sconce",
+/** @type {string} */
+i_opaline_chandelier: "roost2:opaline_chandelier",
+/** @type {string} */
+i_opaline_cutlass: "roost2:opaline_cutlass",
+/** @type {string} */
+i_ancient_hilt: "roost2:ancient_hilt",
+/** @type {string} */
+i_roost_design_scroll_ender: "roost2:roost_design_scroll_ender",
+/** @type {string} */
+i_roost_design_scroll_frost: "roost2:roost_design_scroll_frost",
+/** @type {string} */
+i_roost_design_scroll_dragon: "roost2:roost_design_scroll_dragon",
+/** @type {string} */
+i_roost_design_scroll_purple: "roost2:roost_design_scroll_purple",
+/** @type {string} */
+i_roost_deisgn_scroll_ender_dragon: "roost2:roost_deisgn_scroll_ender_dragon",
+/** @type {string} */
+i_roost_design_scroll_ancient_bones: "roost2:roost_design_scroll_ancient_bones",
+/** @type {string} */
+i_fried_roost_egg: "roost2:fried_roost_egg",
+/** @type {string} */
+i_roost_egg_and_bacon: "roost2:roost_egg_and_bacon",
+/** @type {string} */
+i_roost_design_scroll_aqua: "roost2:roost_design_scroll_aqua",
+/** @type {string} */
+i_roost_design_scroll_blood_bone: "roost2:roost_design_scroll_blood_bone",
+/** @type {string} */
+i_heating_lantern: "roost2:heating_lantern",
+/** @type {string} */
+i_roost_design_scroll_golden: "roost2:roost_design_scroll_golden",
 
 };
 
@@ -11432,7 +11636,11 @@ i_deepgrass: "callfromthedepth_:deepgrass",
 /** @type {string} */
 i_deepstone: "callfromthedepth_:deepstone",
 /** @type {string} */
+i_silent_tree: "callfromthedepth_:silent_tree",
+/** @type {string} */
 i_deepflower: "callfromthedepth_:deepflower",
+/** @type {string} */
+i_deep_energylight_stone: "callfromthedepth_:deep_energylight_stone",
 /** @type {string} */
 i_deepgrassorange: "callfromthedepth_:deepgrassorange",
 /** @type {string} */
@@ -11524,6 +11732,8 @@ i_mushroom_spawn_egg: "callfromthedepth_:mushroom_spawn_egg",
 /** @type {string} */
 i_rotwalker_spawn_egg: "callfromthedepth_:rotwalker_spawn_egg",
 /** @type {string} */
+i_silentreeplanks: "callfromthedepth_:silentreeplanks",
+/** @type {string} */
 i_roteater_spawn_egg: "callfromthedepth_:roteater_spawn_egg",
 /** @type {string} */
 i_deepspider_spawn_egg: "callfromthedepth_:deepspider_spawn_egg",
@@ -11558,31 +11768,19 @@ i_soulinagony: "callfromthedepth_:soulinagony",
 /** @type {string} */
 i_screamer_spawn_egg: "callfromthedepth_:screamer_spawn_egg",
 /** @type {string} */
-i_lost_harmony: "callfromthedepth_:lost_harmony",
-/** @type {string} */
 i_echoshardfragment: "callfromthedepth_:echoshardfragment",
 /** @type {string} */
-i_soulingot: "callfromthedepth_:soulingot",
+i_soulclaymore: "callfromthedepth_:soulclaymore",
 /** @type {string} */
-i_agonybossmusic: "callfromthedepth_:agonybossmusic",
+i_soulingot: "callfromthedepth_:soulingot",
 /** @type {string} */
 i_deepcitizen_spawn_egg: "callfromthedepth_:deepcitizen_spawn_egg",
 /** @type {string} */
 i_stalkertable: "callfromthedepth_:stalkertable",
 /** @type {string} */
-i_memoriespain: "callfromthedepth_:memoriespain",
-/** @type {string} */
 i_discfragment: "callfromthedepth_:discfragment",
 /** @type {string} */
 i_soularrow: "callfromthedepth_:soularrow",
-/** @type {string} */
-i_silent_tree: "callfromthedepth_:silent_tree",
-/** @type {string} */
-i_deep_energylight_stone: "callfromthedepth_:deep_energylight_stone",
-/** @type {string} */
-i_silentreeplanks: "callfromthedepth_:silentreeplanks",
-/** @type {string} */
-i_soulclaymore: "callfromthedepth_:soulclaymore",
 /** @type {string} */
 i_corruptedstone: "callfromthedepth_:corruptedstone",
 /** @type {string} */
@@ -11735,424 +11933,12 @@ i_abyssachieve: "callfromthedepth_:abyssachieve",
 i_souldepthstonebricks: "callfromthedepth_:souldepthstonebricks",
 /** @type {string} */
 i_pillsfordarkness: "callfromthedepth_:pillsfordarkness",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
-const item_kubejs = {
-    /** @type {string} */
-i_golden_experience_cutter: "kubejs:golden_experience_cutter",
 /** @type {string} */
-i_golden_experience_orbe: "kubejs:golden_experience_orbe",
+i_lost_harmony: "callfromthedepth_:lost_harmony",
 /** @type {string} */
-i_diamond_experience_cutter: "kubejs:diamond_experience_cutter",
+i_agonybossmusic: "callfromthedepth_:agonybossmusic",
 /** @type {string} */
-i_horizonite_experience_cutter: "kubejs:horizonite_experience_cutter",
-/** @type {string} */
-i_netherite_experience_cutter: "kubejs:netherite_experience_cutter",
-/** @type {string} */
-i_immemorial_experience_cutter: "kubejs:immemorial_experience_cutter",
-/** @type {string} */
-i_fusion_experience_cutter: "kubejs:fusion_experience_cutter",
-/** @type {string} */
-i_diamond_experience_orbe: "kubejs:diamond_experience_orbe",
-/** @type {string} */
-i_horizonite_experience_orbe: "kubejs:horizonite_experience_orbe",
-/** @type {string} */
-i_netherite_experience_orbe: "kubejs:netherite_experience_orbe",
-/** @type {string} */
-i_immemorial_experience_orbe: "kubejs:immemorial_experience_orbe",
-/** @type {string} */
-i_fusion_experience_orbe: "kubejs:fusion_experience_orbe",
-/** @type {string} */
-i_cincinnasite_diamond_helmet: "kubejs:cincinnasite_diamond_helmet",
-/** @type {string} */
-i_cincinnasite_diamond_chestplate: "kubejs:cincinnasite_diamond_chestplate",
-/** @type {string} */
-i_cincinnasite_diamond_leggings: "kubejs:cincinnasite_diamond_leggings",
-/** @type {string} */
-i_cincinnasite_diamond_boots: "kubejs:cincinnasite_diamond_boots",
-/** @type {string} */
-i_forgotten_scroll_piece: "kubejs:forgotten_scroll_piece",
-/** @type {string} */
-i_forgotten_scroll: "kubejs:forgotten_scroll",
-/** @type {string} */
-i_forgotten_scroll_book: "kubejs:forgotten_scroll_book",
-/** @type {string} */
-i_forgotten_scroll_tome: "kubejs:forgotten_scroll_tome",
-/** @type {string} */
-i_tier_1_armor_power_up: "kubejs:tier_1_armor_power_up",
-/** @type {string} */
-i_tier_2_armor_power_up: "kubejs:tier_2_armor_power_up",
-/** @type {string} */
-i_tier_3_armor_power_up: "kubejs:tier_3_armor_power_up",
-/** @type {string} */
-i_tier_4_armor_power_up: "kubejs:tier_4_armor_power_up",
-/** @type {string} */
-i_tier_5_armor_power_up: "kubejs:tier_5_armor_power_up",
-/** @type {string} */
-i_tier_6_armor_power_up: "kubejs:tier_6_armor_power_up",
-/** @type {string} */
-i_tier_7_armor_power_up: "kubejs:tier_7_armor_power_up",
-/** @type {string} */
-i_tier_8_armor_power_up: "kubejs:tier_8_armor_power_up",
-/** @type {string} */
-i_tier_9_armor_power_up: "kubejs:tier_9_armor_power_up",
-/** @type {string} */
-i_tier_10_armor_power_up: "kubejs:tier_10_armor_power_up",
-/** @type {string} */
-i_tier_1_armor_toughness_power_up: "kubejs:tier_1_armor_toughness_power_up",
-/** @type {string} */
-i_tier_2_armor_toughness_power_up: "kubejs:tier_2_armor_toughness_power_up",
-/** @type {string} */
-i_tier_3_armor_toughness_power_up: "kubejs:tier_3_armor_toughness_power_up",
-/** @type {string} */
-i_tier_4_armor_toughness_power_up: "kubejs:tier_4_armor_toughness_power_up",
-/** @type {string} */
-i_tier_5_armor_toughness_power_up: "kubejs:tier_5_armor_toughness_power_up",
-/** @type {string} */
-i_tier_6_armor_toughness_power_up: "kubejs:tier_6_armor_toughness_power_up",
-/** @type {string} */
-i_tier_7_armor_toughness_power_up: "kubejs:tier_7_armor_toughness_power_up",
-/** @type {string} */
-i_tier_8_armor_toughness_power_up: "kubejs:tier_8_armor_toughness_power_up",
-/** @type {string} */
-i_tier_9_armor_toughness_power_up: "kubejs:tier_9_armor_toughness_power_up",
-/** @type {string} */
-i_tier_10_armor_toughness_power_up: "kubejs:tier_10_armor_toughness_power_up",
-/** @type {string} */
-i_tier_1_armor_pierce_power_up: "kubejs:tier_1_armor_pierce_power_up",
-/** @type {string} */
-i_tier_2_armor_pierce_power_up: "kubejs:tier_2_armor_pierce_power_up",
-/** @type {string} */
-i_tier_3_armor_pierce_power_up: "kubejs:tier_3_armor_pierce_power_up",
-/** @type {string} */
-i_tier_4_armor_pierce_power_up: "kubejs:tier_4_armor_pierce_power_up",
-/** @type {string} */
-i_tier_5_armor_pierce_power_up: "kubejs:tier_5_armor_pierce_power_up",
-/** @type {string} */
-i_tier_6_armor_pierce_power_up: "kubejs:tier_6_armor_pierce_power_up",
-/** @type {string} */
-i_tier_7_armor_pierce_power_up: "kubejs:tier_7_armor_pierce_power_up",
-/** @type {string} */
-i_tier_8_armor_pierce_power_up: "kubejs:tier_8_armor_pierce_power_up",
-/** @type {string} */
-i_tier_9_armor_pierce_power_up: "kubejs:tier_9_armor_pierce_power_up",
-/** @type {string} */
-i_tier_10_armor_pierce_power_up: "kubejs:tier_10_armor_pierce_power_up",
-/** @type {string} */
-i_tier_1_armor_shred_power_up: "kubejs:tier_1_armor_shred_power_up",
-/** @type {string} */
-i_tier_2_armor_shred_power_up: "kubejs:tier_2_armor_shred_power_up",
-/** @type {string} */
-i_tier_3_armor_shred_power_up: "kubejs:tier_3_armor_shred_power_up",
-/** @type {string} */
-i_tier_4_armor_shred_power_up: "kubejs:tier_4_armor_shred_power_up",
-/** @type {string} */
-i_tier_5_armor_shred_power_up: "kubejs:tier_5_armor_shred_power_up",
-/** @type {string} */
-i_tier_6_armor_shred_power_up: "kubejs:tier_6_armor_shred_power_up",
-/** @type {string} */
-i_tier_7_armor_shred_power_up: "kubejs:tier_7_armor_shred_power_up",
-/** @type {string} */
-i_tier_8_armor_shred_power_up: "kubejs:tier_8_armor_shred_power_up",
-/** @type {string} */
-i_tier_9_armor_shred_power_up: "kubejs:tier_9_armor_shred_power_up",
-/** @type {string} */
-i_tier_10_armor_shred_power_up: "kubejs:tier_10_armor_shred_power_up",
-/** @type {string} */
-i_tier_1_cooldown_reduction_power_up: "kubejs:tier_1_cooldown_reduction_power_up",
-/** @type {string} */
-i_tier_2_cooldown_reduction_power_up: "kubejs:tier_2_cooldown_reduction_power_up",
-/** @type {string} */
-i_tier_3_cooldown_reduction_power_up: "kubejs:tier_3_cooldown_reduction_power_up",
-/** @type {string} */
-i_tier_4_cooldown_reduction_power_up: "kubejs:tier_4_cooldown_reduction_power_up",
-/** @type {string} */
-i_tier_5_cooldown_reduction_power_up: "kubejs:tier_5_cooldown_reduction_power_up",
-/** @type {string} */
-i_tier_6_cooldown_reduction_power_up: "kubejs:tier_6_cooldown_reduction_power_up",
-/** @type {string} */
-i_tier_7_cooldown_reduction_power_up: "kubejs:tier_7_cooldown_reduction_power_up",
-/** @type {string} */
-i_tier_8_cooldown_reduction_power_up: "kubejs:tier_8_cooldown_reduction_power_up",
-/** @type {string} */
-i_tier_9_cooldown_reduction_power_up: "kubejs:tier_9_cooldown_reduction_power_up",
-/** @type {string} */
-i_tier_10_cooldown_reduction_power_up: "kubejs:tier_10_cooldown_reduction_power_up",
-/** @type {string} */
-i_tier_1_crit_chance_power_up: "kubejs:tier_1_crit_chance_power_up",
-/** @type {string} */
-i_tier_2_crit_chance_power_up: "kubejs:tier_2_crit_chance_power_up",
-/** @type {string} */
-i_tier_3_crit_chance_power_up: "kubejs:tier_3_crit_chance_power_up",
-/** @type {string} */
-i_tier_4_crit_chance_power_up: "kubejs:tier_4_crit_chance_power_up",
-/** @type {string} */
-i_tier_5_crit_chance_power_up: "kubejs:tier_5_crit_chance_power_up",
-/** @type {string} */
-i_tier_6_crit_chance_power_up: "kubejs:tier_6_crit_chance_power_up",
-/** @type {string} */
-i_tier_7_crit_chance_power_up: "kubejs:tier_7_crit_chance_power_up",
-/** @type {string} */
-i_tier_8_crit_chance_power_up: "kubejs:tier_8_crit_chance_power_up",
-/** @type {string} */
-i_tier_9_crit_chance_power_up: "kubejs:tier_9_crit_chance_power_up",
-/** @type {string} */
-i_tier_10_crit_chance_power_up: "kubejs:tier_10_crit_chance_power_up",
-/** @type {string} */
-i_tier_1_crit_damage_power_up: "kubejs:tier_1_crit_damage_power_up",
-/** @type {string} */
-i_tier_2_crit_damage_power_up: "kubejs:tier_2_crit_damage_power_up",
-/** @type {string} */
-i_tier_3_crit_damage_power_up: "kubejs:tier_3_crit_damage_power_up",
-/** @type {string} */
-i_tier_4_crit_damage_power_up: "kubejs:tier_4_crit_damage_power_up",
-/** @type {string} */
-i_tier_5_crit_damage_power_up: "kubejs:tier_5_crit_damage_power_up",
-/** @type {string} */
-i_tier_6_crit_damage_power_up: "kubejs:tier_6_crit_damage_power_up",
-/** @type {string} */
-i_tier_7_crit_damage_power_up: "kubejs:tier_7_crit_damage_power_up",
-/** @type {string} */
-i_tier_8_crit_damage_power_up: "kubejs:tier_8_crit_damage_power_up",
-/** @type {string} */
-i_tier_9_crit_damage_power_up: "kubejs:tier_9_crit_damage_power_up",
-/** @type {string} */
-i_tier_10_crit_damage_power_up: "kubejs:tier_10_crit_damage_power_up",
-/** @type {string} */
-i_tier_1_health_boost_power_up: "kubejs:tier_1_health_boost_power_up",
-/** @type {string} */
-i_tier_2_health_boost_power_up: "kubejs:tier_2_health_boost_power_up",
-/** @type {string} */
-i_tier_3_health_boost_power_up: "kubejs:tier_3_health_boost_power_up",
-/** @type {string} */
-i_tier_4_health_boost_power_up: "kubejs:tier_4_health_boost_power_up",
-/** @type {string} */
-i_tier_5_health_boost_power_up: "kubejs:tier_5_health_boost_power_up",
-/** @type {string} */
-i_tier_6_health_boost_power_up: "kubejs:tier_6_health_boost_power_up",
-/** @type {string} */
-i_tier_7_health_boost_power_up: "kubejs:tier_7_health_boost_power_up",
-/** @type {string} */
-i_tier_8_health_boost_power_up: "kubejs:tier_8_health_boost_power_up",
-/** @type {string} */
-i_tier_9_health_boost_power_up: "kubejs:tier_9_health_boost_power_up",
-/** @type {string} */
-i_tier_10_health_boost_power_up: "kubejs:tier_10_health_boost_power_up",
-/** @type {string} */
-i_tier_1_knockback_resistance_power_up: "kubejs:tier_1_knockback_resistance_power_up",
-/** @type {string} */
-i_tier_2_knockback_resistance_power_up: "kubejs:tier_2_knockback_resistance_power_up",
-/** @type {string} */
-i_tier_3_knockback_resistance_power_up: "kubejs:tier_3_knockback_resistance_power_up",
-/** @type {string} */
-i_tier_4_knockback_resistance_power_up: "kubejs:tier_4_knockback_resistance_power_up",
-/** @type {string} */
-i_tier_5_knockback_resistance_power_up: "kubejs:tier_5_knockback_resistance_power_up",
-/** @type {string} */
-i_tier_6_knockback_resistance_power_up: "kubejs:tier_6_knockback_resistance_power_up",
-/** @type {string} */
-i_tier_7_knockback_resistance_power_up: "kubejs:tier_7_knockback_resistance_power_up",
-/** @type {string} */
-i_tier_8_knockback_resistance_power_up: "kubejs:tier_8_knockback_resistance_power_up",
-/** @type {string} */
-i_tier_9_knockback_resistance_power_up: "kubejs:tier_9_knockback_resistance_power_up",
-/** @type {string} */
-i_tier_10_knockback_resistance_power_up: "kubejs:tier_10_knockback_resistance_power_up",
-/** @type {string} */
-i_tier_1_lung_capacity_power_up: "kubejs:tier_1_lung_capacity_power_up",
-/** @type {string} */
-i_tier_2_lung_capacity_power_up: "kubejs:tier_2_lung_capacity_power_up",
-/** @type {string} */
-i_tier_3_lung_capacity_power_up: "kubejs:tier_3_lung_capacity_power_up",
-/** @type {string} */
-i_tier_4_lung_capacity_power_up: "kubejs:tier_4_lung_capacity_power_up",
-/** @type {string} */
-i_tier_5_lung_capacity_power_up: "kubejs:tier_5_lung_capacity_power_up",
-/** @type {string} */
-i_tier_6_lung_capacity_power_up: "kubejs:tier_6_lung_capacity_power_up",
-/** @type {string} */
-i_tier_7_lung_capacity_power_up: "kubejs:tier_7_lung_capacity_power_up",
-/** @type {string} */
-i_tier_8_lung_capacity_power_up: "kubejs:tier_8_lung_capacity_power_up",
-/** @type {string} */
-i_tier_9_lung_capacity_power_up: "kubejs:tier_9_lung_capacity_power_up",
-/** @type {string} */
-i_tier_10_lung_capacity_power_up: "kubejs:tier_10_lung_capacity_power_up",
-/** @type {string} */
-i_tier_1_mana_boost_power_up: "kubejs:tier_1_mana_boost_power_up",
-/** @type {string} */
-i_tier_2_mana_boost_power_up: "kubejs:tier_2_mana_boost_power_up",
-/** @type {string} */
-i_tier_3_mana_boost_power_up: "kubejs:tier_3_mana_boost_power_up",
-/** @type {string} */
-i_tier_4_mana_boost_power_up: "kubejs:tier_4_mana_boost_power_up",
-/** @type {string} */
-i_tier_5_mana_boost_power_up: "kubejs:tier_5_mana_boost_power_up",
-/** @type {string} */
-i_tier_6_mana_boost_power_up: "kubejs:tier_6_mana_boost_power_up",
-/** @type {string} */
-i_tier_7_mana_boost_power_up: "kubejs:tier_7_mana_boost_power_up",
-/** @type {string} */
-i_tier_8_mana_boost_power_up: "kubejs:tier_8_mana_boost_power_up",
-/** @type {string} */
-i_tier_9_mana_boost_power_up: "kubejs:tier_9_mana_boost_power_up",
-/** @type {string} */
-i_tier_10_mana_boost_power_up: "kubejs:tier_10_mana_boost_power_up",
-/** @type {string} */
-i_tier_1_mana_regen_power_up: "kubejs:tier_1_mana_regen_power_up",
-/** @type {string} */
-i_tier_2_mana_regen_power_up: "kubejs:tier_2_mana_regen_power_up",
-/** @type {string} */
-i_tier_3_mana_regen_power_up: "kubejs:tier_3_mana_regen_power_up",
-/** @type {string} */
-i_tier_4_mana_regen_power_up: "kubejs:tier_4_mana_regen_power_up",
-/** @type {string} */
-i_tier_5_mana_regen_power_up: "kubejs:tier_5_mana_regen_power_up",
-/** @type {string} */
-i_tier_6_mana_regen_power_up: "kubejs:tier_6_mana_regen_power_up",
-/** @type {string} */
-i_tier_7_mana_regen_power_up: "kubejs:tier_7_mana_regen_power_up",
-/** @type {string} */
-i_tier_8_mana_regen_power_up: "kubejs:tier_8_mana_regen_power_up",
-/** @type {string} */
-i_tier_9_mana_regen_power_up: "kubejs:tier_9_mana_regen_power_up",
-/** @type {string} */
-i_tier_10_mana_regen_power_up: "kubejs:tier_10_mana_regen_power_up",
-/** @type {string} */
-i_tier_1_movement_speed_power_up: "kubejs:tier_1_movement_speed_power_up",
-/** @type {string} */
-i_tier_2_movement_speed_power_up: "kubejs:tier_2_movement_speed_power_up",
-/** @type {string} */
-i_tier_3_movement_speed_power_up: "kubejs:tier_3_movement_speed_power_up",
-/** @type {string} */
-i_tier_4_movement_speed_power_up: "kubejs:tier_4_movement_speed_power_up",
-/** @type {string} */
-i_tier_5_movement_speed_power_up: "kubejs:tier_5_movement_speed_power_up",
-/** @type {string} */
-i_tier_6_movement_speed_power_up: "kubejs:tier_6_movement_speed_power_up",
-/** @type {string} */
-i_tier_7_movement_speed_power_up: "kubejs:tier_7_movement_speed_power_up",
-/** @type {string} */
-i_tier_8_movement_speed_power_up: "kubejs:tier_8_movement_speed_power_up",
-/** @type {string} */
-i_tier_9_movement_speed_power_up: "kubejs:tier_9_movement_speed_power_up",
-/** @type {string} */
-i_tier_10_movement_speed_power_up: "kubejs:tier_10_movement_speed_power_up",
-/** @type {string} */
-i_tier_1_spell_power_power_up: "kubejs:tier_1_spell_power_power_up",
-/** @type {string} */
-i_tier_2_spell_power_power_up: "kubejs:tier_2_spell_power_power_up",
-/** @type {string} */
-i_tier_3_spell_power_power_up: "kubejs:tier_3_spell_power_power_up",
-/** @type {string} */
-i_tier_4_spell_power_power_up: "kubejs:tier_4_spell_power_power_up",
-/** @type {string} */
-i_tier_5_spell_power_power_up: "kubejs:tier_5_spell_power_power_up",
-/** @type {string} */
-i_tier_6_spell_power_power_up: "kubejs:tier_6_spell_power_power_up",
-/** @type {string} */
-i_tier_7_spell_power_power_up: "kubejs:tier_7_spell_power_power_up",
-/** @type {string} */
-i_tier_8_spell_power_power_up: "kubejs:tier_8_spell_power_power_up",
-/** @type {string} */
-i_tier_9_spell_power_power_up: "kubejs:tier_9_spell_power_power_up",
-/** @type {string} */
-i_tier_10_spell_power_power_up: "kubejs:tier_10_spell_power_power_up",
-/** @type {string} */
-i_tier_1_stamina_power_up: "kubejs:tier_1_stamina_power_up",
-/** @type {string} */
-i_tier_2_stamina_power_up: "kubejs:tier_2_stamina_power_up",
-/** @type {string} */
-i_tier_3_stamina_power_up: "kubejs:tier_3_stamina_power_up",
-/** @type {string} */
-i_tier_4_stamina_power_up: "kubejs:tier_4_stamina_power_up",
-/** @type {string} */
-i_tier_5_stamina_power_up: "kubejs:tier_5_stamina_power_up",
-/** @type {string} */
-i_tier_6_stamina_power_up: "kubejs:tier_6_stamina_power_up",
-/** @type {string} */
-i_tier_7_stamina_power_up: "kubejs:tier_7_stamina_power_up",
-/** @type {string} */
-i_tier_8_stamina_power_up: "kubejs:tier_8_stamina_power_up",
-/** @type {string} */
-i_tier_9_stamina_power_up: "kubejs:tier_9_stamina_power_up",
-/** @type {string} */
-i_tier_10_stamina_power_up: "kubejs:tier_10_stamina_power_up",
-/** @type {string} */
-i_tier_1_swim_speed_power_up: "kubejs:tier_1_swim_speed_power_up",
-/** @type {string} */
-i_tier_2_swim_speed_power_up: "kubejs:tier_2_swim_speed_power_up",
-/** @type {string} */
-i_tier_3_swim_speed_power_up: "kubejs:tier_3_swim_speed_power_up",
-/** @type {string} */
-i_tier_4_swim_speed_power_up: "kubejs:tier_4_swim_speed_power_up",
-/** @type {string} */
-i_tier_5_swim_speed_power_up: "kubejs:tier_5_swim_speed_power_up",
-/** @type {string} */
-i_tier_6_swim_speed_power_up: "kubejs:tier_6_swim_speed_power_up",
-/** @type {string} */
-i_tier_7_swim_speed_power_up: "kubejs:tier_7_swim_speed_power_up",
-/** @type {string} */
-i_tier_8_swim_speed_power_up: "kubejs:tier_8_swim_speed_power_up",
-/** @type {string} */
-i_tier_9_swim_speed_power_up: "kubejs:tier_9_swim_speed_power_up",
-/** @type {string} */
-i_tier_10_swim_speed_power_up: "kubejs:tier_10_swim_speed_power_up",
-/** @type {string} */
-i_engineering_table: "kubejs:engineering_table",
-/** @type {string} */
-i_difficulty_changer_easy: "kubejs:difficulty_changer_easy",
-/** @type {string} */
-i_difficulty_changer_normal: "kubejs:difficulty_changer_normal",
-/** @type {string} */
-i_difficulty_changer_hard: "kubejs:difficulty_changer_hard",
-/** @type {string} */
-i_difficulty_changer_brutal: "kubejs:difficulty_changer_brutal",
-/** @type {string} */
-i_difficulty_changer_nightmare: "kubejs:difficulty_changer_nightmare",
-/** @type {string} */
-i_difficulty_changer_uninstall: "kubejs:difficulty_changer_uninstall",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
-const item_iron_biplane = {
-    /** @type {string} */
-i_copper_biplane: "iron_biplane:copper_biplane",
-/** @type {string} */
-i_copper_engine: "iron_biplane:copper_engine",
-/** @type {string} */
-i_iron_biplane: "iron_biplane:iron_biplane",
-/** @type {string} */
-i_iron_engine: "iron_biplane:iron_engine",
-/** @type {string} */
-i_golden_biplane: "iron_biplane:golden_biplane",
-/** @type {string} */
-i_golden_engine: "iron_biplane:golden_engine",
-/** @type {string} */
-i_diamond_biplane: "iron_biplane:diamond_biplane",
-/** @type {string} */
-i_diamond_engine: "iron_biplane:diamond_engine",
-/** @type {string} */
-i_netherite_biplane: "iron_biplane:netherite_biplane",
-/** @type {string} */
-i_netherite_engine: "iron_biplane:netherite_engine",
+i_memoriespain: "callfromthedepth_:memoriespain",
 
 };
 
@@ -12277,6 +12063,126 @@ i_rainbow_plating: "ironfurnaces:rainbow_plating",
 i_rainbow_coal: "ironfurnaces:rainbow_coal",
 /** @type {string} */
 i_million_furnace: "ironfurnaces:million_furnace",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const item_vanillabackport = {
+    /** @type {string} */
+i_pale_oak_leaves: "vanillabackport:pale_oak_leaves",
+/** @type {string} */
+i_pale_oak_planks: "vanillabackport:pale_oak_planks",
+/** @type {string} */
+i_pale_oak_stairs: "vanillabackport:pale_oak_stairs",
+/** @type {string} */
+i_pale_oak_slab: "vanillabackport:pale_oak_slab",
+/** @type {string} */
+i_pale_oak_fence: "vanillabackport:pale_oak_fence",
+/** @type {string} */
+i_pale_oak_fence_gate: "vanillabackport:pale_oak_fence_gate",
+/** @type {string} */
+i_pale_oak_door: "vanillabackport:pale_oak_door",
+/** @type {string} */
+i_pale_oak_wood: "vanillabackport:pale_oak_wood",
+/** @type {string} */
+i_pale_oak_log: "vanillabackport:pale_oak_log",
+/** @type {string} */
+i_stripped_pale_oak_wood: "vanillabackport:stripped_pale_oak_wood",
+/** @type {string} */
+i_stripped_pale_oak_log: "vanillabackport:stripped_pale_oak_log",
+/** @type {string} */
+i_pale_moss_block: "vanillabackport:pale_moss_block",
+/** @type {string} */
+i_pale_moss_carpet: "vanillabackport:pale_moss_carpet",
+/** @type {string} */
+i_pale_hanging_moss: "vanillabackport:pale_hanging_moss",
+/** @type {string} */
+i_open_eyeblossom: "vanillabackport:open_eyeblossom",
+/** @type {string} */
+i_closed_eyeblossom: "vanillabackport:closed_eyeblossom",
+/** @type {string} */
+i_pale_oak_sapling: "vanillabackport:pale_oak_sapling",
+/** @type {string} */
+i_creaking_heart: "vanillabackport:creaking_heart",
+/** @type {string} */
+i_pale_oak_sign: "vanillabackport:pale_oak_sign",
+/** @type {string} */
+i_pale_oak_hanging_sign: "vanillabackport:pale_oak_hanging_sign",
+/** @type {string} */
+i_pale_oak_pressure_plate: "vanillabackport:pale_oak_pressure_plate",
+/** @type {string} */
+i_pale_oak_trapdoor: "vanillabackport:pale_oak_trapdoor",
+/** @type {string} */
+i_pale_oak_button: "vanillabackport:pale_oak_button",
+/** @type {string} */
+i_resin_clump: "vanillabackport:resin_clump",
+/** @type {string} */
+i_resin_block: "vanillabackport:resin_block",
+/** @type {string} */
+i_resin_bricks: "vanillabackport:resin_bricks",
+/** @type {string} */
+i_resin_brick_stairs: "vanillabackport:resin_brick_stairs",
+/** @type {string} */
+i_resin_brick_slab: "vanillabackport:resin_brick_slab",
+/** @type {string} */
+i_resin_brick_wall: "vanillabackport:resin_brick_wall",
+/** @type {string} */
+i_chiseled_resin_bricks: "vanillabackport:chiseled_resin_bricks",
+/** @type {string} */
+i_dried_ghast: "vanillabackport:dried_ghast",
+/** @type {string} */
+i_resin_brick: "vanillabackport:resin_brick",
+/** @type {string} */
+i_pale_oak_boat: "vanillabackport:pale_oak_boat",
+/** @type {string} */
+i_pale_oak_chest_boat: "vanillabackport:pale_oak_chest_boat",
+/** @type {string} */
+i_creaking_spawn_egg: "vanillabackport:creaking_spawn_egg",
+/** @type {string} */
+i_happy_ghast_spawn_egg: "vanillabackport:happy_ghast_spawn_egg",
+/** @type {string} */
+i_white_harness: "vanillabackport:white_harness",
+/** @type {string} */
+i_orange_harness: "vanillabackport:orange_harness",
+/** @type {string} */
+i_magenta_harness: "vanillabackport:magenta_harness",
+/** @type {string} */
+i_light_blue_harness: "vanillabackport:light_blue_harness",
+/** @type {string} */
+i_yellow_harness: "vanillabackport:yellow_harness",
+/** @type {string} */
+i_lime_harness: "vanillabackport:lime_harness",
+/** @type {string} */
+i_pink_harness: "vanillabackport:pink_harness",
+/** @type {string} */
+i_gray_harness: "vanillabackport:gray_harness",
+/** @type {string} */
+i_light_gray_harness: "vanillabackport:light_gray_harness",
+/** @type {string} */
+i_cyan_harness: "vanillabackport:cyan_harness",
+/** @type {string} */
+i_purple_harness: "vanillabackport:purple_harness",
+/** @type {string} */
+i_blue_harness: "vanillabackport:blue_harness",
+/** @type {string} */
+i_brown_harness: "vanillabackport:brown_harness",
+/** @type {string} */
+i_green_harness: "vanillabackport:green_harness",
+/** @type {string} */
+i_red_harness: "vanillabackport:red_harness",
+/** @type {string} */
+i_black_harness: "vanillabackport:black_harness",
+/** @type {string} */
+i_music_disc_tears: "vanillabackport:music_disc_tears",
+/** @type {string} */
+i_music_disc_lava_chicken: "vanillabackport:music_disc_lava_chicken",
 
 };
 
@@ -14443,6 +14349,116 @@ i_damaged_anvil: "crafting_on_a_stick:damaged_anvil",
 const item_multipiston = {
     /** @type {string} */
 i_multipistonblock: "multipiston:multipistonblock",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const item_realmrpg_skeletons = {
+    /** @type {string} */
+i_duelist_skeleton: "realmrpg_skeletons:duelist_skeleton",
+/** @type {string} */
+i_unsaved_skeleton: "realmrpg_skeletons:unsaved_skeleton",
+/** @type {string} */
+i_dungeon_crawler_skeleton: "realmrpg_skeletons:dungeon_crawler_skeleton",
+/** @type {string} */
+i_mushroomer_skeleton: "realmrpg_skeletons:mushroomer_skeleton",
+/** @type {string} */
+i_fungus_gatherer_skeleton: "realmrpg_skeletons:fungus_gatherer_skeleton",
+/** @type {string} */
+i_webbed_skeleton: "realmrpg_skeletons:webbed_skeleton",
+/** @type {string} */
+i_swimmer_skeleton: "realmrpg_skeletons:swimmer_skeleton",
+/** @type {string} */
+i_thief_skeleton: "realmrpg_skeletons:thief_skeleton",
+/** @type {string} */
+i_quicksand_skeleton: "realmrpg_skeletons:quicksand_skeleton",
+/** @type {string} */
+i_acrobat_skeleton: "realmrpg_skeletons:acrobat_skeleton",
+/** @type {string} */
+i_lucky_skeleton: "realmrpg_skeletons:lucky_skeleton",
+/** @type {string} */
+i_corrupted_skeleton: "realmrpg_skeletons:corrupted_skeleton",
+/** @type {string} */
+i_basic_skeleton: "realmrpg_skeletons:basic_skeleton",
+/** @type {string} */
+i_rookie_skeleton: "realmrpg_skeletons:rookie_skeleton",
+/** @type {string} */
+i_waterdrop_skeleton: "realmrpg_skeletons:waterdrop_skeleton",
+/** @type {string} */
+i_arrow_skeleton: "realmrpg_skeletons:arrow_skeleton",
+/** @type {string} */
+i_bow_skeleton: "realmrpg_skeletons:bow_skeleton",
+/** @type {string} */
+i_burnt_skeleton: "realmrpg_skeletons:burnt_skeleton",
+/** @type {string} */
+i_snow_skeleton: "realmrpg_skeletons:snow_skeleton",
+/** @type {string} */
+i_powder_snow_skeleton: "realmrpg_skeletons:powder_snow_skeleton",
+/** @type {string} */
+i_crimson_tangled_skeleton: "realmrpg_skeletons:crimson_tangled_skeleton",
+/** @type {string} */
+i_chorus_tangled_skeleton: "realmrpg_skeletons:chorus_tangled_skeleton",
+/** @type {string} */
+i_cactus_skeleton: "realmrpg_skeletons:cactus_skeleton",
+/** @type {string} */
+i_winter_skeleton: "realmrpg_skeletons:winter_skeleton",
+/** @type {string} */
+i_devastated_skeleton: "realmrpg_skeletons:devastated_skeleton",
+/** @type {string} */
+i_frozen_waterdrop_skeleton: "realmrpg_skeletons:frozen_waterdrop_skeleton",
+/** @type {string} */
+i_vines_tangled_skeleton: "realmrpg_skeletons:vines_tangled_skeleton",
+/** @type {string} */
+i_trident_skeleton: "realmrpg_skeletons:trident_skeleton",
+/** @type {string} */
+i_melted_skeleton: "realmrpg_skeletons:melted_skeleton",
+/** @type {string} */
+i_shot_skeleton: "realmrpg_skeletons:shot_skeleton",
+/** @type {string} */
+i_hunted_skeleton: "realmrpg_skeletons:hunted_skeleton",
+/** @type {string} */
+i_common_skeleton: "realmrpg_skeletons:common_skeleton",
+/** @type {string} */
+i_pierced_skeleton: "realmrpg_skeletons:pierced_skeleton",
+/** @type {string} */
+i_dripstone_skeleton: "realmrpg_skeletons:dripstone_skeleton",
+/** @type {string} */
+i_headless_skeleton: "realmrpg_skeletons:headless_skeleton",
+/** @type {string} */
+i_stalactite_skeleton: "realmrpg_skeletons:stalactite_skeleton",
+/** @type {string} */
+i_chorus_skeleton: "realmrpg_skeletons:chorus_skeleton",
+/** @type {string} */
+i_dragon_burnt_skeleton: "realmrpg_skeletons:dragon_burnt_skeleton",
+/** @type {string} */
+i_crystal_skeleton: "realmrpg_skeletons:crystal_skeleton",
+/** @type {string} */
+i_explorer_skeleton: "realmrpg_skeletons:explorer_skeleton",
+/** @type {string} */
+i_shroom_skeleton: "realmrpg_skeletons:shroom_skeleton",
+/** @type {string} */
+i_buried_skeleton: "realmrpg_skeletons:buried_skeleton",
+/** @type {string} */
+i_dusty_skeleton: "realmrpg_skeletons:dusty_skeleton",
+/** @type {string} */
+i_headache_skeleton: "realmrpg_skeletons:headache_skeleton",
+/** @type {string} */
+i_slain_skeleton: "realmrpg_skeletons:slain_skeleton",
+/** @type {string} */
+i_skeleton_from_the_sky: "realmrpg_skeletons:skeleton_from_the_sky",
+/** @type {string} */
+i_spider_victim_skeleton: "realmrpg_skeletons:spider_victim_skeleton",
+/** @type {string} */
+i_neutralized_skeleton: "realmrpg_skeletons:neutralized_skeleton",
+/** @type {string} */
+i_mossy_skeleton: "realmrpg_skeletons:mossy_skeleton",
 
 };
 
@@ -19188,57 +19204,57 @@ i_track_phantom: "railways:track_phantom",
 /** @type {string} */
 i_track_mangrove: "railways:track_mangrove",
 /** @type {string} */
-i_track_ender_wide: "railways:track_ender_wide",
-/** @type {string} */
-i_track_acacia_wide: "railways:track_acacia_wide",
-/** @type {string} */
-i_track_tieless_wide: "railways:track_tieless_wide",
-/** @type {string} */
-i_track_spruce_wide: "railways:track_spruce_wide",
-/** @type {string} */
-i_track_warped_wide: "railways:track_warped_wide",
-/** @type {string} */
-i_track_dark_oak_wide: "railways:track_dark_oak_wide",
+i_track_create_andesite_wide: "railways:track_create_andesite_wide",
 /** @type {string} */
 i_track_jungle_wide: "railways:track_jungle_wide",
 /** @type {string} */
-i_track_crimson_wide: "railways:track_crimson_wide",
-/** @type {string} */
-i_track_blackstone_wide: "railways:track_blackstone_wide",
+i_track_tieless_wide: "railways:track_tieless_wide",
 /** @type {string} */
 i_track_oak_wide: "railways:track_oak_wide",
 /** @type {string} */
-i_track_birch_wide: "railways:track_birch_wide",
+i_track_warped_wide: "railways:track_warped_wide",
 /** @type {string} */
-i_track_create_andesite_wide: "railways:track_create_andesite_wide",
+i_track_ender_wide: "railways:track_ender_wide",
+/** @type {string} */
+i_track_dark_oak_wide: "railways:track_dark_oak_wide",
 /** @type {string} */
 i_track_mangrove_wide: "railways:track_mangrove_wide",
 /** @type {string} */
-i_track_ender_narrow: "railways:track_ender_narrow",
+i_track_birch_wide: "railways:track_birch_wide",
 /** @type {string} */
-i_track_acacia_narrow: "railways:track_acacia_narrow",
+i_track_spruce_wide: "railways:track_spruce_wide",
 /** @type {string} */
-i_track_tieless_narrow: "railways:track_tieless_narrow",
+i_track_blackstone_wide: "railways:track_blackstone_wide",
 /** @type {string} */
-i_track_spruce_narrow: "railways:track_spruce_narrow",
+i_track_acacia_wide: "railways:track_acacia_wide",
 /** @type {string} */
-i_track_warped_narrow: "railways:track_warped_narrow",
-/** @type {string} */
-i_track_dark_oak_narrow: "railways:track_dark_oak_narrow",
-/** @type {string} */
-i_track_jungle_narrow: "railways:track_jungle_narrow",
-/** @type {string} */
-i_track_crimson_narrow: "railways:track_crimson_narrow",
-/** @type {string} */
-i_track_blackstone_narrow: "railways:track_blackstone_narrow",
-/** @type {string} */
-i_track_oak_narrow: "railways:track_oak_narrow",
-/** @type {string} */
-i_track_birch_narrow: "railways:track_birch_narrow",
+i_track_crimson_wide: "railways:track_crimson_wide",
 /** @type {string} */
 i_track_create_andesite_narrow: "railways:track_create_andesite_narrow",
 /** @type {string} */
+i_track_jungle_narrow: "railways:track_jungle_narrow",
+/** @type {string} */
+i_track_tieless_narrow: "railways:track_tieless_narrow",
+/** @type {string} */
+i_track_oak_narrow: "railways:track_oak_narrow",
+/** @type {string} */
+i_track_warped_narrow: "railways:track_warped_narrow",
+/** @type {string} */
+i_track_ender_narrow: "railways:track_ender_narrow",
+/** @type {string} */
+i_track_dark_oak_narrow: "railways:track_dark_oak_narrow",
+/** @type {string} */
 i_track_mangrove_narrow: "railways:track_mangrove_narrow",
+/** @type {string} */
+i_track_spruce_narrow: "railways:track_spruce_narrow",
+/** @type {string} */
+i_track_birch_narrow: "railways:track_birch_narrow",
+/** @type {string} */
+i_track_blackstone_narrow: "railways:track_blackstone_narrow",
+/** @type {string} */
+i_track_acacia_narrow: "railways:track_acacia_narrow",
+/** @type {string} */
+i_track_crimson_narrow: "railways:track_crimson_narrow",
 /** @type {string} */
 i_track_monorail: "railways:track_monorail",
 /** @type {string} */
@@ -22835,6 +22851,392 @@ i_netherite_swamp_farm: "easy_mob_farm:netherite_swamp_farm",
 i_creative_mob_farm: "easy_mob_farm:creative_mob_farm",
 /** @type {string} */
 i_iron_golem_farm: "easy_mob_farm:iron_golem_farm",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const item_kubejs = {
+    /** @type {string} */
+i_engineering_table: "kubejs:engineering_table",
+/** @type {string} */
+i_cincinnasite_diamond_helmet: "kubejs:cincinnasite_diamond_helmet",
+/** @type {string} */
+i_cincinnasite_diamond_chestplate: "kubejs:cincinnasite_diamond_chestplate",
+/** @type {string} */
+i_cincinnasite_diamond_leggings: "kubejs:cincinnasite_diamond_leggings",
+/** @type {string} */
+i_cincinnasite_diamond_boots: "kubejs:cincinnasite_diamond_boots",
+/** @type {string} */
+i_difficulty_changer_easy: "kubejs:difficulty_changer_easy",
+/** @type {string} */
+i_difficulty_changer_normal: "kubejs:difficulty_changer_normal",
+/** @type {string} */
+i_difficulty_changer_hard: "kubejs:difficulty_changer_hard",
+/** @type {string} */
+i_difficulty_changer_brutal: "kubejs:difficulty_changer_brutal",
+/** @type {string} */
+i_difficulty_changer_nightmare: "kubejs:difficulty_changer_nightmare",
+/** @type {string} */
+i_difficulty_changer_uninstall: "kubejs:difficulty_changer_uninstall",
+/** @type {string} */
+i_golden_experience_cutter: "kubejs:golden_experience_cutter",
+/** @type {string} */
+i_diamond_experience_cutter: "kubejs:diamond_experience_cutter",
+/** @type {string} */
+i_horizonite_experience_cutter: "kubejs:horizonite_experience_cutter",
+/** @type {string} */
+i_netherite_experience_cutter: "kubejs:netherite_experience_cutter",
+/** @type {string} */
+i_immemorial_experience_cutter: "kubejs:immemorial_experience_cutter",
+/** @type {string} */
+i_fusion_experience_cutter: "kubejs:fusion_experience_cutter",
+/** @type {string} */
+i_golden_experience_orbe: "kubejs:golden_experience_orbe",
+/** @type {string} */
+i_diamond_experience_orbe: "kubejs:diamond_experience_orbe",
+/** @type {string} */
+i_horizonite_experience_orbe: "kubejs:horizonite_experience_orbe",
+/** @type {string} */
+i_netherite_experience_orbe: "kubejs:netherite_experience_orbe",
+/** @type {string} */
+i_immemorial_experience_orbe: "kubejs:immemorial_experience_orbe",
+/** @type {string} */
+i_fusion_experience_orbe: "kubejs:fusion_experience_orbe",
+/** @type {string} */
+i_forgotten_scroll_piece: "kubejs:forgotten_scroll_piece",
+/** @type {string} */
+i_forgotten_scroll: "kubejs:forgotten_scroll",
+/** @type {string} */
+i_forgotten_scroll_book: "kubejs:forgotten_scroll_book",
+/** @type {string} */
+i_forgotten_scroll_tome: "kubejs:forgotten_scroll_tome",
+/** @type {string} */
+i_tier_1_armor_power_up: "kubejs:tier_1_armor_power_up",
+/** @type {string} */
+i_tier_2_armor_power_up: "kubejs:tier_2_armor_power_up",
+/** @type {string} */
+i_tier_3_armor_power_up: "kubejs:tier_3_armor_power_up",
+/** @type {string} */
+i_tier_4_armor_power_up: "kubejs:tier_4_armor_power_up",
+/** @type {string} */
+i_tier_5_armor_power_up: "kubejs:tier_5_armor_power_up",
+/** @type {string} */
+i_tier_6_armor_power_up: "kubejs:tier_6_armor_power_up",
+/** @type {string} */
+i_tier_7_armor_power_up: "kubejs:tier_7_armor_power_up",
+/** @type {string} */
+i_tier_8_armor_power_up: "kubejs:tier_8_armor_power_up",
+/** @type {string} */
+i_tier_9_armor_power_up: "kubejs:tier_9_armor_power_up",
+/** @type {string} */
+i_tier_10_armor_power_up: "kubejs:tier_10_armor_power_up",
+/** @type {string} */
+i_tier_1_armor_toughness_power_up: "kubejs:tier_1_armor_toughness_power_up",
+/** @type {string} */
+i_tier_2_armor_toughness_power_up: "kubejs:tier_2_armor_toughness_power_up",
+/** @type {string} */
+i_tier_3_armor_toughness_power_up: "kubejs:tier_3_armor_toughness_power_up",
+/** @type {string} */
+i_tier_4_armor_toughness_power_up: "kubejs:tier_4_armor_toughness_power_up",
+/** @type {string} */
+i_tier_5_armor_toughness_power_up: "kubejs:tier_5_armor_toughness_power_up",
+/** @type {string} */
+i_tier_6_armor_toughness_power_up: "kubejs:tier_6_armor_toughness_power_up",
+/** @type {string} */
+i_tier_7_armor_toughness_power_up: "kubejs:tier_7_armor_toughness_power_up",
+/** @type {string} */
+i_tier_8_armor_toughness_power_up: "kubejs:tier_8_armor_toughness_power_up",
+/** @type {string} */
+i_tier_9_armor_toughness_power_up: "kubejs:tier_9_armor_toughness_power_up",
+/** @type {string} */
+i_tier_10_armor_toughness_power_up: "kubejs:tier_10_armor_toughness_power_up",
+/** @type {string} */
+i_tier_1_armor_pierce_power_up: "kubejs:tier_1_armor_pierce_power_up",
+/** @type {string} */
+i_tier_2_armor_pierce_power_up: "kubejs:tier_2_armor_pierce_power_up",
+/** @type {string} */
+i_tier_3_armor_pierce_power_up: "kubejs:tier_3_armor_pierce_power_up",
+/** @type {string} */
+i_tier_4_armor_pierce_power_up: "kubejs:tier_4_armor_pierce_power_up",
+/** @type {string} */
+i_tier_5_armor_pierce_power_up: "kubejs:tier_5_armor_pierce_power_up",
+/** @type {string} */
+i_tier_6_armor_pierce_power_up: "kubejs:tier_6_armor_pierce_power_up",
+/** @type {string} */
+i_tier_7_armor_pierce_power_up: "kubejs:tier_7_armor_pierce_power_up",
+/** @type {string} */
+i_tier_8_armor_pierce_power_up: "kubejs:tier_8_armor_pierce_power_up",
+/** @type {string} */
+i_tier_9_armor_pierce_power_up: "kubejs:tier_9_armor_pierce_power_up",
+/** @type {string} */
+i_tier_10_armor_pierce_power_up: "kubejs:tier_10_armor_pierce_power_up",
+/** @type {string} */
+i_tier_1_armor_shred_power_up: "kubejs:tier_1_armor_shred_power_up",
+/** @type {string} */
+i_tier_2_armor_shred_power_up: "kubejs:tier_2_armor_shred_power_up",
+/** @type {string} */
+i_tier_3_armor_shred_power_up: "kubejs:tier_3_armor_shred_power_up",
+/** @type {string} */
+i_tier_4_armor_shred_power_up: "kubejs:tier_4_armor_shred_power_up",
+/** @type {string} */
+i_tier_5_armor_shred_power_up: "kubejs:tier_5_armor_shred_power_up",
+/** @type {string} */
+i_tier_6_armor_shred_power_up: "kubejs:tier_6_armor_shred_power_up",
+/** @type {string} */
+i_tier_7_armor_shred_power_up: "kubejs:tier_7_armor_shred_power_up",
+/** @type {string} */
+i_tier_8_armor_shred_power_up: "kubejs:tier_8_armor_shred_power_up",
+/** @type {string} */
+i_tier_9_armor_shred_power_up: "kubejs:tier_9_armor_shred_power_up",
+/** @type {string} */
+i_tier_10_armor_shred_power_up: "kubejs:tier_10_armor_shred_power_up",
+/** @type {string} */
+i_tier_1_cooldown_reduction_power_up: "kubejs:tier_1_cooldown_reduction_power_up",
+/** @type {string} */
+i_tier_2_cooldown_reduction_power_up: "kubejs:tier_2_cooldown_reduction_power_up",
+/** @type {string} */
+i_tier_3_cooldown_reduction_power_up: "kubejs:tier_3_cooldown_reduction_power_up",
+/** @type {string} */
+i_tier_4_cooldown_reduction_power_up: "kubejs:tier_4_cooldown_reduction_power_up",
+/** @type {string} */
+i_tier_5_cooldown_reduction_power_up: "kubejs:tier_5_cooldown_reduction_power_up",
+/** @type {string} */
+i_tier_6_cooldown_reduction_power_up: "kubejs:tier_6_cooldown_reduction_power_up",
+/** @type {string} */
+i_tier_7_cooldown_reduction_power_up: "kubejs:tier_7_cooldown_reduction_power_up",
+/** @type {string} */
+i_tier_8_cooldown_reduction_power_up: "kubejs:tier_8_cooldown_reduction_power_up",
+/** @type {string} */
+i_tier_9_cooldown_reduction_power_up: "kubejs:tier_9_cooldown_reduction_power_up",
+/** @type {string} */
+i_tier_10_cooldown_reduction_power_up: "kubejs:tier_10_cooldown_reduction_power_up",
+/** @type {string} */
+i_tier_1_crit_chance_power_up: "kubejs:tier_1_crit_chance_power_up",
+/** @type {string} */
+i_tier_2_crit_chance_power_up: "kubejs:tier_2_crit_chance_power_up",
+/** @type {string} */
+i_tier_3_crit_chance_power_up: "kubejs:tier_3_crit_chance_power_up",
+/** @type {string} */
+i_tier_4_crit_chance_power_up: "kubejs:tier_4_crit_chance_power_up",
+/** @type {string} */
+i_tier_5_crit_chance_power_up: "kubejs:tier_5_crit_chance_power_up",
+/** @type {string} */
+i_tier_6_crit_chance_power_up: "kubejs:tier_6_crit_chance_power_up",
+/** @type {string} */
+i_tier_7_crit_chance_power_up: "kubejs:tier_7_crit_chance_power_up",
+/** @type {string} */
+i_tier_8_crit_chance_power_up: "kubejs:tier_8_crit_chance_power_up",
+/** @type {string} */
+i_tier_9_crit_chance_power_up: "kubejs:tier_9_crit_chance_power_up",
+/** @type {string} */
+i_tier_10_crit_chance_power_up: "kubejs:tier_10_crit_chance_power_up",
+/** @type {string} */
+i_tier_1_crit_damage_power_up: "kubejs:tier_1_crit_damage_power_up",
+/** @type {string} */
+i_tier_2_crit_damage_power_up: "kubejs:tier_2_crit_damage_power_up",
+/** @type {string} */
+i_tier_3_crit_damage_power_up: "kubejs:tier_3_crit_damage_power_up",
+/** @type {string} */
+i_tier_4_crit_damage_power_up: "kubejs:tier_4_crit_damage_power_up",
+/** @type {string} */
+i_tier_5_crit_damage_power_up: "kubejs:tier_5_crit_damage_power_up",
+/** @type {string} */
+i_tier_6_crit_damage_power_up: "kubejs:tier_6_crit_damage_power_up",
+/** @type {string} */
+i_tier_7_crit_damage_power_up: "kubejs:tier_7_crit_damage_power_up",
+/** @type {string} */
+i_tier_8_crit_damage_power_up: "kubejs:tier_8_crit_damage_power_up",
+/** @type {string} */
+i_tier_9_crit_damage_power_up: "kubejs:tier_9_crit_damage_power_up",
+/** @type {string} */
+i_tier_10_crit_damage_power_up: "kubejs:tier_10_crit_damage_power_up",
+/** @type {string} */
+i_tier_1_health_boost_power_up: "kubejs:tier_1_health_boost_power_up",
+/** @type {string} */
+i_tier_2_health_boost_power_up: "kubejs:tier_2_health_boost_power_up",
+/** @type {string} */
+i_tier_3_health_boost_power_up: "kubejs:tier_3_health_boost_power_up",
+/** @type {string} */
+i_tier_4_health_boost_power_up: "kubejs:tier_4_health_boost_power_up",
+/** @type {string} */
+i_tier_5_health_boost_power_up: "kubejs:tier_5_health_boost_power_up",
+/** @type {string} */
+i_tier_6_health_boost_power_up: "kubejs:tier_6_health_boost_power_up",
+/** @type {string} */
+i_tier_7_health_boost_power_up: "kubejs:tier_7_health_boost_power_up",
+/** @type {string} */
+i_tier_8_health_boost_power_up: "kubejs:tier_8_health_boost_power_up",
+/** @type {string} */
+i_tier_9_health_boost_power_up: "kubejs:tier_9_health_boost_power_up",
+/** @type {string} */
+i_tier_10_health_boost_power_up: "kubejs:tier_10_health_boost_power_up",
+/** @type {string} */
+i_tier_1_knockback_resistance_power_up: "kubejs:tier_1_knockback_resistance_power_up",
+/** @type {string} */
+i_tier_2_knockback_resistance_power_up: "kubejs:tier_2_knockback_resistance_power_up",
+/** @type {string} */
+i_tier_3_knockback_resistance_power_up: "kubejs:tier_3_knockback_resistance_power_up",
+/** @type {string} */
+i_tier_4_knockback_resistance_power_up: "kubejs:tier_4_knockback_resistance_power_up",
+/** @type {string} */
+i_tier_5_knockback_resistance_power_up: "kubejs:tier_5_knockback_resistance_power_up",
+/** @type {string} */
+i_tier_6_knockback_resistance_power_up: "kubejs:tier_6_knockback_resistance_power_up",
+/** @type {string} */
+i_tier_7_knockback_resistance_power_up: "kubejs:tier_7_knockback_resistance_power_up",
+/** @type {string} */
+i_tier_8_knockback_resistance_power_up: "kubejs:tier_8_knockback_resistance_power_up",
+/** @type {string} */
+i_tier_9_knockback_resistance_power_up: "kubejs:tier_9_knockback_resistance_power_up",
+/** @type {string} */
+i_tier_10_knockback_resistance_power_up: "kubejs:tier_10_knockback_resistance_power_up",
+/** @type {string} */
+i_tier_1_lung_capacity_power_up: "kubejs:tier_1_lung_capacity_power_up",
+/** @type {string} */
+i_tier_2_lung_capacity_power_up: "kubejs:tier_2_lung_capacity_power_up",
+/** @type {string} */
+i_tier_3_lung_capacity_power_up: "kubejs:tier_3_lung_capacity_power_up",
+/** @type {string} */
+i_tier_4_lung_capacity_power_up: "kubejs:tier_4_lung_capacity_power_up",
+/** @type {string} */
+i_tier_5_lung_capacity_power_up: "kubejs:tier_5_lung_capacity_power_up",
+/** @type {string} */
+i_tier_6_lung_capacity_power_up: "kubejs:tier_6_lung_capacity_power_up",
+/** @type {string} */
+i_tier_7_lung_capacity_power_up: "kubejs:tier_7_lung_capacity_power_up",
+/** @type {string} */
+i_tier_8_lung_capacity_power_up: "kubejs:tier_8_lung_capacity_power_up",
+/** @type {string} */
+i_tier_9_lung_capacity_power_up: "kubejs:tier_9_lung_capacity_power_up",
+/** @type {string} */
+i_tier_10_lung_capacity_power_up: "kubejs:tier_10_lung_capacity_power_up",
+/** @type {string} */
+i_tier_1_mana_boost_power_up: "kubejs:tier_1_mana_boost_power_up",
+/** @type {string} */
+i_tier_2_mana_boost_power_up: "kubejs:tier_2_mana_boost_power_up",
+/** @type {string} */
+i_tier_3_mana_boost_power_up: "kubejs:tier_3_mana_boost_power_up",
+/** @type {string} */
+i_tier_4_mana_boost_power_up: "kubejs:tier_4_mana_boost_power_up",
+/** @type {string} */
+i_tier_5_mana_boost_power_up: "kubejs:tier_5_mana_boost_power_up",
+/** @type {string} */
+i_tier_6_mana_boost_power_up: "kubejs:tier_6_mana_boost_power_up",
+/** @type {string} */
+i_tier_7_mana_boost_power_up: "kubejs:tier_7_mana_boost_power_up",
+/** @type {string} */
+i_tier_8_mana_boost_power_up: "kubejs:tier_8_mana_boost_power_up",
+/** @type {string} */
+i_tier_9_mana_boost_power_up: "kubejs:tier_9_mana_boost_power_up",
+/** @type {string} */
+i_tier_10_mana_boost_power_up: "kubejs:tier_10_mana_boost_power_up",
+/** @type {string} */
+i_tier_1_mana_regen_power_up: "kubejs:tier_1_mana_regen_power_up",
+/** @type {string} */
+i_tier_2_mana_regen_power_up: "kubejs:tier_2_mana_regen_power_up",
+/** @type {string} */
+i_tier_3_mana_regen_power_up: "kubejs:tier_3_mana_regen_power_up",
+/** @type {string} */
+i_tier_4_mana_regen_power_up: "kubejs:tier_4_mana_regen_power_up",
+/** @type {string} */
+i_tier_5_mana_regen_power_up: "kubejs:tier_5_mana_regen_power_up",
+/** @type {string} */
+i_tier_6_mana_regen_power_up: "kubejs:tier_6_mana_regen_power_up",
+/** @type {string} */
+i_tier_7_mana_regen_power_up: "kubejs:tier_7_mana_regen_power_up",
+/** @type {string} */
+i_tier_8_mana_regen_power_up: "kubejs:tier_8_mana_regen_power_up",
+/** @type {string} */
+i_tier_9_mana_regen_power_up: "kubejs:tier_9_mana_regen_power_up",
+/** @type {string} */
+i_tier_10_mana_regen_power_up: "kubejs:tier_10_mana_regen_power_up",
+/** @type {string} */
+i_tier_1_movement_speed_power_up: "kubejs:tier_1_movement_speed_power_up",
+/** @type {string} */
+i_tier_2_movement_speed_power_up: "kubejs:tier_2_movement_speed_power_up",
+/** @type {string} */
+i_tier_3_movement_speed_power_up: "kubejs:tier_3_movement_speed_power_up",
+/** @type {string} */
+i_tier_4_movement_speed_power_up: "kubejs:tier_4_movement_speed_power_up",
+/** @type {string} */
+i_tier_5_movement_speed_power_up: "kubejs:tier_5_movement_speed_power_up",
+/** @type {string} */
+i_tier_6_movement_speed_power_up: "kubejs:tier_6_movement_speed_power_up",
+/** @type {string} */
+i_tier_7_movement_speed_power_up: "kubejs:tier_7_movement_speed_power_up",
+/** @type {string} */
+i_tier_8_movement_speed_power_up: "kubejs:tier_8_movement_speed_power_up",
+/** @type {string} */
+i_tier_9_movement_speed_power_up: "kubejs:tier_9_movement_speed_power_up",
+/** @type {string} */
+i_tier_10_movement_speed_power_up: "kubejs:tier_10_movement_speed_power_up",
+/** @type {string} */
+i_tier_1_spell_power_power_up: "kubejs:tier_1_spell_power_power_up",
+/** @type {string} */
+i_tier_2_spell_power_power_up: "kubejs:tier_2_spell_power_power_up",
+/** @type {string} */
+i_tier_3_spell_power_power_up: "kubejs:tier_3_spell_power_power_up",
+/** @type {string} */
+i_tier_4_spell_power_power_up: "kubejs:tier_4_spell_power_power_up",
+/** @type {string} */
+i_tier_5_spell_power_power_up: "kubejs:tier_5_spell_power_power_up",
+/** @type {string} */
+i_tier_6_spell_power_power_up: "kubejs:tier_6_spell_power_power_up",
+/** @type {string} */
+i_tier_7_spell_power_power_up: "kubejs:tier_7_spell_power_power_up",
+/** @type {string} */
+i_tier_8_spell_power_power_up: "kubejs:tier_8_spell_power_power_up",
+/** @type {string} */
+i_tier_9_spell_power_power_up: "kubejs:tier_9_spell_power_power_up",
+/** @type {string} */
+i_tier_10_spell_power_power_up: "kubejs:tier_10_spell_power_power_up",
+/** @type {string} */
+i_tier_1_stamina_power_up: "kubejs:tier_1_stamina_power_up",
+/** @type {string} */
+i_tier_2_stamina_power_up: "kubejs:tier_2_stamina_power_up",
+/** @type {string} */
+i_tier_3_stamina_power_up: "kubejs:tier_3_stamina_power_up",
+/** @type {string} */
+i_tier_4_stamina_power_up: "kubejs:tier_4_stamina_power_up",
+/** @type {string} */
+i_tier_5_stamina_power_up: "kubejs:tier_5_stamina_power_up",
+/** @type {string} */
+i_tier_6_stamina_power_up: "kubejs:tier_6_stamina_power_up",
+/** @type {string} */
+i_tier_7_stamina_power_up: "kubejs:tier_7_stamina_power_up",
+/** @type {string} */
+i_tier_8_stamina_power_up: "kubejs:tier_8_stamina_power_up",
+/** @type {string} */
+i_tier_9_stamina_power_up: "kubejs:tier_9_stamina_power_up",
+/** @type {string} */
+i_tier_10_stamina_power_up: "kubejs:tier_10_stamina_power_up",
+/** @type {string} */
+i_tier_1_swim_speed_power_up: "kubejs:tier_1_swim_speed_power_up",
+/** @type {string} */
+i_tier_2_swim_speed_power_up: "kubejs:tier_2_swim_speed_power_up",
+/** @type {string} */
+i_tier_3_swim_speed_power_up: "kubejs:tier_3_swim_speed_power_up",
+/** @type {string} */
+i_tier_4_swim_speed_power_up: "kubejs:tier_4_swim_speed_power_up",
+/** @type {string} */
+i_tier_5_swim_speed_power_up: "kubejs:tier_5_swim_speed_power_up",
+/** @type {string} */
+i_tier_6_swim_speed_power_up: "kubejs:tier_6_swim_speed_power_up",
+/** @type {string} */
+i_tier_7_swim_speed_power_up: "kubejs:tier_7_swim_speed_power_up",
+/** @type {string} */
+i_tier_8_swim_speed_power_up: "kubejs:tier_8_swim_speed_power_up",
+/** @type {string} */
+i_tier_9_swim_speed_power_up: "kubejs:tier_9_swim_speed_power_up",
+/** @type {string} */
+i_tier_10_swim_speed_power_up: "kubejs:tier_10_swim_speed_power_up",
 
 };
 
@@ -29198,177 +29600,349 @@ i_enderite_druid_leggings: "zoomers_armory:enderite_druid_leggings",
 /** @type {string} */
 i_enderite_druid_boots: "zoomers_armory:enderite_druid_boots",
 /** @type {string} */
-i_immemorial_claws: "zoomers_armory:immemorial_claws",
+i_depth_claws: "zoomers_armory:depth_claws",
 /** @type {string} */
-i_immemorial_dagger: "zoomers_armory:immemorial_dagger",
+i_depth_dagger: "zoomers_armory:depth_dagger",
 /** @type {string} */
-i_immemorial_shortsword: "zoomers_armory:immemorial_shortsword",
+i_depth_shortsword: "zoomers_armory:depth_shortsword",
 /** @type {string} */
-i_immemorial_heavysword: "zoomers_armory:immemorial_heavysword",
+i_depth_heavysword: "zoomers_armory:depth_heavysword",
 /** @type {string} */
-i_immemorial_cutlass: "zoomers_armory:immemorial_cutlass",
+i_depth_cutlass: "zoomers_armory:depth_cutlass",
 /** @type {string} */
-i_immemorial_mace: "zoomers_armory:immemorial_mace",
+i_depth_mace: "zoomers_armory:depth_mace",
 /** @type {string} */
-i_immemorial_heavymace: "zoomers_armory:immemorial_heavymace",
+i_depth_heavymace: "zoomers_armory:depth_heavymace",
 /** @type {string} */
-i_immemorial_warhammer: "zoomers_armory:immemorial_warhammer",
+i_depth_warhammer: "zoomers_armory:depth_warhammer",
 /** @type {string} */
-i_immemorial_battleaxe: "zoomers_armory:immemorial_battleaxe",
+i_depth_battleaxe: "zoomers_armory:depth_battleaxe",
 /** @type {string} */
-i_immemorial_spear: "zoomers_armory:immemorial_spear",
+i_depth_spear: "zoomers_armory:depth_spear",
 /** @type {string} */
-i_immemorial_halberd: "zoomers_armory:immemorial_halberd",
+i_depth_halberd: "zoomers_armory:depth_halberd",
 /** @type {string} */
-i_immemorial_scythe: "zoomers_armory:immemorial_scythe",
+i_depth_scythe: "zoomers_armory:depth_scythe",
 /** @type {string} */
-i_immemorial_katana: "zoomers_armory:immemorial_katana",
+i_depth_katana: "zoomers_armory:depth_katana",
 /** @type {string} */
-i_immemorial_twinblade: "zoomers_armory:immemorial_twinblade",
+i_depth_twinblade: "zoomers_armory:depth_twinblade",
 /** @type {string} */
-i_immemorial_sai: "zoomers_armory:immemorial_sai",
+i_depth_sai: "zoomers_armory:depth_sai",
 /** @type {string} */
-i_immemorial_warglaive: "zoomers_armory:immemorial_warglaive",
+i_depth_warglaive: "zoomers_armory:depth_warglaive",
 /** @type {string} */
-i_immemorial_musashi: "zoomers_armory:immemorial_musashi",
+i_depth_musashi: "zoomers_armory:depth_musashi",
 /** @type {string} */
-i_immemorial_arcane_staff: "zoomers_armory:immemorial_arcane_staff",
+i_depth_arcane_staff: "zoomers_armory:depth_arcane_staff",
 /** @type {string} */
-i_immemorial_woodwind_staff: "zoomers_armory:immemorial_woodwind_staff",
+i_depth_woodwind_staff: "zoomers_armory:depth_woodwind_staff",
 /** @type {string} */
-i_immemorial_fire_staff: "zoomers_armory:immemorial_fire_staff",
+i_depth_fire_staff: "zoomers_armory:depth_fire_staff",
 /** @type {string} */
-i_immemorial_ice_staff: "zoomers_armory:immemorial_ice_staff",
+i_depth_ice_staff: "zoomers_armory:depth_ice_staff",
 /** @type {string} */
-i_immemorial_lightning_staff: "zoomers_armory:immemorial_lightning_staff",
+i_depth_lightning_staff: "zoomers_armory:depth_lightning_staff",
 /** @type {string} */
-i_immemorial_nature_staff: "zoomers_armory:immemorial_nature_staff",
+i_depth_nature_staff: "zoomers_armory:depth_nature_staff",
 /** @type {string} */
-i_immemorial_holy_staff: "zoomers_armory:immemorial_holy_staff",
+i_depth_holy_staff: "zoomers_armory:depth_holy_staff",
 /** @type {string} */
-i_immemorial_blood_staff: "zoomers_armory:immemorial_blood_staff",
+i_depth_blood_staff: "zoomers_armory:depth_blood_staff",
 /** @type {string} */
-i_immemorial_evocation_staff: "zoomers_armory:immemorial_evocation_staff",
+i_depth_evocation_staff: "zoomers_armory:depth_evocation_staff",
 /** @type {string} */
-i_immemorial_ender_staff: "zoomers_armory:immemorial_ender_staff",
+i_depth_ender_staff: "zoomers_armory:depth_ender_staff",
 /** @type {string} */
-i_immemorial_buckler: "zoomers_armory:immemorial_buckler",
+i_depth_buckler: "zoomers_armory:depth_buckler",
 /** @type {string} */
-i_immemorial_heater: "zoomers_armory:immemorial_heater",
+i_depth_heater: "zoomers_armory:depth_heater",
 /** @type {string} */
-i_immemorial_tower: "zoomers_armory:immemorial_tower",
+i_depth_tower: "zoomers_armory:depth_tower",
 /** @type {string} */
-i_immemorial_shortbow: "zoomers_armory:immemorial_shortbow",
+i_depth_shortbow: "zoomers_armory:depth_shortbow",
 /** @type {string} */
-i_immemorial_bow: "zoomers_armory:immemorial_bow",
+i_depth_bow: "zoomers_armory:depth_bow",
 /** @type {string} */
-i_immemorial_longbow: "zoomers_armory:immemorial_longbow",
+i_depth_longbow: "zoomers_armory:depth_longbow",
 /** @type {string} */
-i_immemorial_crossbow: "zoomers_armory:immemorial_crossbow",
+i_depth_crossbow: "zoomers_armory:depth_crossbow",
 /** @type {string} */
-i_immemorial_samurai_helmet: "zoomers_armory:immemorial_samurai_helmet",
+i_depth_samurai_helmet: "zoomers_armory:depth_samurai_helmet",
 /** @type {string} */
-i_immemorial_samurai_chestplate: "zoomers_armory:immemorial_samurai_chestplate",
+i_depth_samurai_chestplate: "zoomers_armory:depth_samurai_chestplate",
 /** @type {string} */
-i_immemorial_samurai_leggings: "zoomers_armory:immemorial_samurai_leggings",
+i_depth_samurai_leggings: "zoomers_armory:depth_samurai_leggings",
 /** @type {string} */
-i_immemorial_samurai_boots: "zoomers_armory:immemorial_samurai_boots",
+i_depth_samurai_boots: "zoomers_armory:depth_samurai_boots",
 /** @type {string} */
-i_immemorial_rogue_helmet: "zoomers_armory:immemorial_rogue_helmet",
+i_depth_rogue_helmet: "zoomers_armory:depth_rogue_helmet",
 /** @type {string} */
-i_immemorial_rogue_chestplate: "zoomers_armory:immemorial_rogue_chestplate",
+i_depth_rogue_chestplate: "zoomers_armory:depth_rogue_chestplate",
 /** @type {string} */
-i_immemorial_rogue_leggings: "zoomers_armory:immemorial_rogue_leggings",
+i_depth_rogue_leggings: "zoomers_armory:depth_rogue_leggings",
 /** @type {string} */
-i_immemorial_rogue_boots: "zoomers_armory:immemorial_rogue_boots",
+i_depth_rogue_boots: "zoomers_armory:depth_rogue_boots",
 /** @type {string} */
-i_immemorial_tank_helmet: "zoomers_armory:immemorial_tank_helmet",
+i_depth_tank_helmet: "zoomers_armory:depth_tank_helmet",
 /** @type {string} */
-i_immemorial_tank_chestplate: "zoomers_armory:immemorial_tank_chestplate",
+i_depth_tank_chestplate: "zoomers_armory:depth_tank_chestplate",
 /** @type {string} */
-i_immemorial_tank_leggings: "zoomers_armory:immemorial_tank_leggings",
+i_depth_tank_leggings: "zoomers_armory:depth_tank_leggings",
 /** @type {string} */
-i_immemorial_tank_boots: "zoomers_armory:immemorial_tank_boots",
+i_depth_tank_boots: "zoomers_armory:depth_tank_boots",
 /** @type {string} */
-i_immemorial_archer_helmet: "zoomers_armory:immemorial_archer_helmet",
+i_depth_archer_helmet: "zoomers_armory:depth_archer_helmet",
 /** @type {string} */
-i_immemorial_archer_chestplate: "zoomers_armory:immemorial_archer_chestplate",
+i_depth_archer_chestplate: "zoomers_armory:depth_archer_chestplate",
 /** @type {string} */
-i_immemorial_archer_leggings: "zoomers_armory:immemorial_archer_leggings",
+i_depth_archer_leggings: "zoomers_armory:depth_archer_leggings",
 /** @type {string} */
-i_immemorial_archer_boots: "zoomers_armory:immemorial_archer_boots",
+i_depth_archer_boots: "zoomers_armory:depth_archer_boots",
 /** @type {string} */
-i_immemorial_ranger_helmet: "zoomers_armory:immemorial_ranger_helmet",
+i_depth_ranger_helmet: "zoomers_armory:depth_ranger_helmet",
 /** @type {string} */
-i_immemorial_ranger_chestplate: "zoomers_armory:immemorial_ranger_chestplate",
+i_depth_ranger_chestplate: "zoomers_armory:depth_ranger_chestplate",
 /** @type {string} */
-i_immemorial_ranger_leggings: "zoomers_armory:immemorial_ranger_leggings",
+i_depth_ranger_leggings: "zoomers_armory:depth_ranger_leggings",
 /** @type {string} */
-i_immemorial_ranger_boots: "zoomers_armory:immemorial_ranger_boots",
+i_depth_ranger_boots: "zoomers_armory:depth_ranger_boots",
 /** @type {string} */
-i_immemorial_pyromancer_helmet: "zoomers_armory:immemorial_pyromancer_helmet",
+i_depth_pyromancer_helmet: "zoomers_armory:depth_pyromancer_helmet",
 /** @type {string} */
-i_immemorial_pyromancer_chestplate: "zoomers_armory:immemorial_pyromancer_chestplate",
+i_depth_pyromancer_chestplate: "zoomers_armory:depth_pyromancer_chestplate",
 /** @type {string} */
-i_immemorial_pyromancer_leggings: "zoomers_armory:immemorial_pyromancer_leggings",
+i_depth_pyromancer_leggings: "zoomers_armory:depth_pyromancer_leggings",
 /** @type {string} */
-i_immemorial_pyromancer_boots: "zoomers_armory:immemorial_pyromancer_boots",
+i_depth_pyromancer_boots: "zoomers_armory:depth_pyromancer_boots",
 /** @type {string} */
-i_immemorial_cryomancer_helmet: "zoomers_armory:immemorial_cryomancer_helmet",
+i_depth_cryomancer_helmet: "zoomers_armory:depth_cryomancer_helmet",
 /** @type {string} */
-i_immemorial_cryomancer_chestplate: "zoomers_armory:immemorial_cryomancer_chestplate",
+i_depth_cryomancer_chestplate: "zoomers_armory:depth_cryomancer_chestplate",
 /** @type {string} */
-i_immemorial_cryomancer_leggings: "zoomers_armory:immemorial_cryomancer_leggings",
+i_depth_cryomancer_leggings: "zoomers_armory:depth_cryomancer_leggings",
 /** @type {string} */
-i_immemorial_cryomancer_boots: "zoomers_armory:immemorial_cryomancer_boots",
+i_depth_cryomancer_boots: "zoomers_armory:depth_cryomancer_boots",
 /** @type {string} */
-i_immemorial_electromancer_helmet: "zoomers_armory:immemorial_electromancer_helmet",
+i_depth_electromancer_helmet: "zoomers_armory:depth_electromancer_helmet",
 /** @type {string} */
-i_immemorial_electromancer_chestplate: "zoomers_armory:immemorial_electromancer_chestplate",
+i_depth_electromancer_chestplate: "zoomers_armory:depth_electromancer_chestplate",
 /** @type {string} */
-i_immemorial_electromancer_leggings: "zoomers_armory:immemorial_electromancer_leggings",
+i_depth_electromancer_leggings: "zoomers_armory:depth_electromancer_leggings",
 /** @type {string} */
-i_immemorial_electromancer_boots: "zoomers_armory:immemorial_electromancer_boots",
+i_depth_electromancer_boots: "zoomers_armory:depth_electromancer_boots",
 /** @type {string} */
-i_immemorial_archevoker_helmet: "zoomers_armory:immemorial_archevoker_helmet",
+i_depth_archevoker_helmet: "zoomers_armory:depth_archevoker_helmet",
 /** @type {string} */
-i_immemorial_archevoker_chestplate: "zoomers_armory:immemorial_archevoker_chestplate",
+i_depth_archevoker_chestplate: "zoomers_armory:depth_archevoker_chestplate",
 /** @type {string} */
-i_immemorial_archevoker_leggings: "zoomers_armory:immemorial_archevoker_leggings",
+i_depth_archevoker_leggings: "zoomers_armory:depth_archevoker_leggings",
 /** @type {string} */
-i_immemorial_archevoker_boots: "zoomers_armory:immemorial_archevoker_boots",
+i_depth_archevoker_boots: "zoomers_armory:depth_archevoker_boots",
 /** @type {string} */
-i_immemorial_hemomancer_helmet: "zoomers_armory:immemorial_hemomancer_helmet",
+i_depth_hemomancer_helmet: "zoomers_armory:depth_hemomancer_helmet",
 /** @type {string} */
-i_immemorial_hemomancer_chestplate: "zoomers_armory:immemorial_hemomancer_chestplate",
+i_depth_hemomancer_chestplate: "zoomers_armory:depth_hemomancer_chestplate",
 /** @type {string} */
-i_immemorial_hemomancer_leggings: "zoomers_armory:immemorial_hemomancer_leggings",
+i_depth_hemomancer_leggings: "zoomers_armory:depth_hemomancer_leggings",
 /** @type {string} */
-i_immemorial_hemomancer_boots: "zoomers_armory:immemorial_hemomancer_boots",
+i_depth_hemomancer_boots: "zoomers_armory:depth_hemomancer_boots",
 /** @type {string} */
-i_immemorial_chorusguardian_helmet: "zoomers_armory:immemorial_chorusguardian_helmet",
+i_depth_chorusguardian_helmet: "zoomers_armory:depth_chorusguardian_helmet",
 /** @type {string} */
-i_immemorial_chorusguardian_chestplate: "zoomers_armory:immemorial_chorusguardian_chestplate",
+i_depth_chorusguardian_chestplate: "zoomers_armory:depth_chorusguardian_chestplate",
 /** @type {string} */
-i_immemorial_chorusguardian_leggings: "zoomers_armory:immemorial_chorusguardian_leggings",
+i_depth_chorusguardian_leggings: "zoomers_armory:depth_chorusguardian_leggings",
 /** @type {string} */
-i_immemorial_chorusguardian_boots: "zoomers_armory:immemorial_chorusguardian_boots",
+i_depth_chorusguardian_boots: "zoomers_armory:depth_chorusguardian_boots",
 /** @type {string} */
-i_immemorial_priest_helmet: "zoomers_armory:immemorial_priest_helmet",
+i_depth_priest_helmet: "zoomers_armory:depth_priest_helmet",
 /** @type {string} */
-i_immemorial_priest_chestplate: "zoomers_armory:immemorial_priest_chestplate",
+i_depth_priest_chestplate: "zoomers_armory:depth_priest_chestplate",
 /** @type {string} */
-i_immemorial_priest_leggings: "zoomers_armory:immemorial_priest_leggings",
+i_depth_priest_leggings: "zoomers_armory:depth_priest_leggings",
 /** @type {string} */
-i_immemorial_priest_boots: "zoomers_armory:immemorial_priest_boots",
+i_depth_priest_boots: "zoomers_armory:depth_priest_boots",
 /** @type {string} */
-i_immemorial_druid_helmet: "zoomers_armory:immemorial_druid_helmet",
+i_depth_druid_helmet: "zoomers_armory:depth_druid_helmet",
 /** @type {string} */
-i_immemorial_druid_chestplate: "zoomers_armory:immemorial_druid_chestplate",
+i_depth_druid_chestplate: "zoomers_armory:depth_druid_chestplate",
 /** @type {string} */
-i_immemorial_druid_leggings: "zoomers_armory:immemorial_druid_leggings",
+i_depth_druid_leggings: "zoomers_armory:depth_druid_leggings",
 /** @type {string} */
-i_immemorial_druid_boots: "zoomers_armory:immemorial_druid_boots",
+i_depth_druid_boots: "zoomers_armory:depth_druid_boots",
+/** @type {string} */
+i_marble_claws: "zoomers_armory:marble_claws",
+/** @type {string} */
+i_marble_dagger: "zoomers_armory:marble_dagger",
+/** @type {string} */
+i_marble_shortsword: "zoomers_armory:marble_shortsword",
+/** @type {string} */
+i_marble_heavysword: "zoomers_armory:marble_heavysword",
+/** @type {string} */
+i_marble_cutlass: "zoomers_armory:marble_cutlass",
+/** @type {string} */
+i_marble_mace: "zoomers_armory:marble_mace",
+/** @type {string} */
+i_marble_heavymace: "zoomers_armory:marble_heavymace",
+/** @type {string} */
+i_marble_warhammer: "zoomers_armory:marble_warhammer",
+/** @type {string} */
+i_marble_battleaxe: "zoomers_armory:marble_battleaxe",
+/** @type {string} */
+i_marble_spear: "zoomers_armory:marble_spear",
+/** @type {string} */
+i_marble_halberd: "zoomers_armory:marble_halberd",
+/** @type {string} */
+i_marble_scythe: "zoomers_armory:marble_scythe",
+/** @type {string} */
+i_marble_katana: "zoomers_armory:marble_katana",
+/** @type {string} */
+i_marble_twinblade: "zoomers_armory:marble_twinblade",
+/** @type {string} */
+i_marble_sai: "zoomers_armory:marble_sai",
+/** @type {string} */
+i_marble_warglaive: "zoomers_armory:marble_warglaive",
+/** @type {string} */
+i_marble_musashi: "zoomers_armory:marble_musashi",
+/** @type {string} */
+i_marble_arcane_staff: "zoomers_armory:marble_arcane_staff",
+/** @type {string} */
+i_marble_woodwind_staff: "zoomers_armory:marble_woodwind_staff",
+/** @type {string} */
+i_marble_fire_staff: "zoomers_armory:marble_fire_staff",
+/** @type {string} */
+i_marble_ice_staff: "zoomers_armory:marble_ice_staff",
+/** @type {string} */
+i_marble_lightning_staff: "zoomers_armory:marble_lightning_staff",
+/** @type {string} */
+i_marble_nature_staff: "zoomers_armory:marble_nature_staff",
+/** @type {string} */
+i_marble_holy_staff: "zoomers_armory:marble_holy_staff",
+/** @type {string} */
+i_marble_blood_staff: "zoomers_armory:marble_blood_staff",
+/** @type {string} */
+i_marble_evocation_staff: "zoomers_armory:marble_evocation_staff",
+/** @type {string} */
+i_marble_ender_staff: "zoomers_armory:marble_ender_staff",
+/** @type {string} */
+i_marble_buckler: "zoomers_armory:marble_buckler",
+/** @type {string} */
+i_marble_heater: "zoomers_armory:marble_heater",
+/** @type {string} */
+i_marble_tower: "zoomers_armory:marble_tower",
+/** @type {string} */
+i_marble_shortbow: "zoomers_armory:marble_shortbow",
+/** @type {string} */
+i_marble_bow: "zoomers_armory:marble_bow",
+/** @type {string} */
+i_marble_longbow: "zoomers_armory:marble_longbow",
+/** @type {string} */
+i_marble_crossbow: "zoomers_armory:marble_crossbow",
+/** @type {string} */
+i_marble_samurai_helmet: "zoomers_armory:marble_samurai_helmet",
+/** @type {string} */
+i_marble_samurai_chestplate: "zoomers_armory:marble_samurai_chestplate",
+/** @type {string} */
+i_marble_samurai_leggings: "zoomers_armory:marble_samurai_leggings",
+/** @type {string} */
+i_marble_samurai_boots: "zoomers_armory:marble_samurai_boots",
+/** @type {string} */
+i_marble_rogue_helmet: "zoomers_armory:marble_rogue_helmet",
+/** @type {string} */
+i_marble_rogue_chestplate: "zoomers_armory:marble_rogue_chestplate",
+/** @type {string} */
+i_marble_rogue_leggings: "zoomers_armory:marble_rogue_leggings",
+/** @type {string} */
+i_marble_rogue_boots: "zoomers_armory:marble_rogue_boots",
+/** @type {string} */
+i_marble_tank_helmet: "zoomers_armory:marble_tank_helmet",
+/** @type {string} */
+i_marble_tank_chestplate: "zoomers_armory:marble_tank_chestplate",
+/** @type {string} */
+i_marble_tank_leggings: "zoomers_armory:marble_tank_leggings",
+/** @type {string} */
+i_marble_tank_boots: "zoomers_armory:marble_tank_boots",
+/** @type {string} */
+i_marble_archer_helmet: "zoomers_armory:marble_archer_helmet",
+/** @type {string} */
+i_marble_archer_chestplate: "zoomers_armory:marble_archer_chestplate",
+/** @type {string} */
+i_marble_archer_leggings: "zoomers_armory:marble_archer_leggings",
+/** @type {string} */
+i_marble_archer_boots: "zoomers_armory:marble_archer_boots",
+/** @type {string} */
+i_marble_ranger_helmet: "zoomers_armory:marble_ranger_helmet",
+/** @type {string} */
+i_marble_ranger_chestplate: "zoomers_armory:marble_ranger_chestplate",
+/** @type {string} */
+i_marble_ranger_leggings: "zoomers_armory:marble_ranger_leggings",
+/** @type {string} */
+i_marble_ranger_boots: "zoomers_armory:marble_ranger_boots",
+/** @type {string} */
+i_marble_pyromancer_helmet: "zoomers_armory:marble_pyromancer_helmet",
+/** @type {string} */
+i_marble_pyromancer_chestplate: "zoomers_armory:marble_pyromancer_chestplate",
+/** @type {string} */
+i_marble_pyromancer_leggings: "zoomers_armory:marble_pyromancer_leggings",
+/** @type {string} */
+i_marble_pyromancer_boots: "zoomers_armory:marble_pyromancer_boots",
+/** @type {string} */
+i_marble_cryomancer_helmet: "zoomers_armory:marble_cryomancer_helmet",
+/** @type {string} */
+i_marble_cryomancer_chestplate: "zoomers_armory:marble_cryomancer_chestplate",
+/** @type {string} */
+i_marble_cryomancer_leggings: "zoomers_armory:marble_cryomancer_leggings",
+/** @type {string} */
+i_marble_cryomancer_boots: "zoomers_armory:marble_cryomancer_boots",
+/** @type {string} */
+i_marble_electromancer_helmet: "zoomers_armory:marble_electromancer_helmet",
+/** @type {string} */
+i_marble_electromancer_chestplate: "zoomers_armory:marble_electromancer_chestplate",
+/** @type {string} */
+i_marble_electromancer_leggings: "zoomers_armory:marble_electromancer_leggings",
+/** @type {string} */
+i_marble_electromancer_boots: "zoomers_armory:marble_electromancer_boots",
+/** @type {string} */
+i_marble_archevoker_helmet: "zoomers_armory:marble_archevoker_helmet",
+/** @type {string} */
+i_marble_archevoker_chestplate: "zoomers_armory:marble_archevoker_chestplate",
+/** @type {string} */
+i_marble_archevoker_leggings: "zoomers_armory:marble_archevoker_leggings",
+/** @type {string} */
+i_marble_archevoker_boots: "zoomers_armory:marble_archevoker_boots",
+/** @type {string} */
+i_marble_hemomancer_helmet: "zoomers_armory:marble_hemomancer_helmet",
+/** @type {string} */
+i_marble_hemomancer_chestplate: "zoomers_armory:marble_hemomancer_chestplate",
+/** @type {string} */
+i_marble_hemomancer_leggings: "zoomers_armory:marble_hemomancer_leggings",
+/** @type {string} */
+i_marble_hemomancer_boots: "zoomers_armory:marble_hemomancer_boots",
+/** @type {string} */
+i_marble_chorusguardian_helmet: "zoomers_armory:marble_chorusguardian_helmet",
+/** @type {string} */
+i_marble_chorusguardian_chestplate: "zoomers_armory:marble_chorusguardian_chestplate",
+/** @type {string} */
+i_marble_chorusguardian_leggings: "zoomers_armory:marble_chorusguardian_leggings",
+/** @type {string} */
+i_marble_chorusguardian_boots: "zoomers_armory:marble_chorusguardian_boots",
+/** @type {string} */
+i_marble_priest_helmet: "zoomers_armory:marble_priest_helmet",
+/** @type {string} */
+i_marble_priest_chestplate: "zoomers_armory:marble_priest_chestplate",
+/** @type {string} */
+i_marble_priest_leggings: "zoomers_armory:marble_priest_leggings",
+/** @type {string} */
+i_marble_priest_boots: "zoomers_armory:marble_priest_boots",
+/** @type {string} */
+i_marble_druid_helmet: "zoomers_armory:marble_druid_helmet",
+/** @type {string} */
+i_marble_druid_chestplate: "zoomers_armory:marble_druid_chestplate",
+/** @type {string} */
+i_marble_druid_leggings: "zoomers_armory:marble_druid_leggings",
+/** @type {string} */
+i_marble_druid_boots: "zoomers_armory:marble_druid_boots",
 /** @type {string} */
 i_soul_claws: "zoomers_armory:soul_claws",
 /** @type {string} */
@@ -29431,6 +30005,8 @@ i_soul_heater: "zoomers_armory:soul_heater",
 i_soul_tower: "zoomers_armory:soul_tower",
 /** @type {string} */
 i_soul_shortbow: "zoomers_armory:soul_shortbow",
+/** @type {string} */
+i_soul_bow: "zoomers_armory:soul_bow",
 /** @type {string} */
 i_soul_longbow: "zoomers_armory:soul_longbow",
 /** @type {string} */
@@ -32160,41 +32736,77 @@ i_enderite_fortified_gloves: "zoomers_armory:enderite_fortified_gloves",
 /** @type {string} */
 i_enderite_infused_gloves: "zoomers_armory:enderite_infused_gloves",
 /** @type {string} */
-i_immemorial_mana_ring: "zoomers_armory:immemorial_mana_ring",
+i_depth_mana_ring: "zoomers_armory:depth_mana_ring",
 /** @type {string} */
-i_immemorial_dexterity_ring: "zoomers_armory:immemorial_dexterity_ring",
+i_depth_dexterity_ring: "zoomers_armory:depth_dexterity_ring",
 /** @type {string} */
-i_immemorial_sharpshooter_ring: "zoomers_armory:immemorial_sharpshooter_ring",
+i_depth_sharpshooter_ring: "zoomers_armory:depth_sharpshooter_ring",
 /** @type {string} */
-i_immemorial_berserker_ring: "zoomers_armory:immemorial_berserker_ring",
+i_depth_berserker_ring: "zoomers_armory:depth_berserker_ring",
 /** @type {string} */
-i_immemorial_fortified_ring: "zoomers_armory:immemorial_fortified_ring",
+i_depth_fortified_ring: "zoomers_armory:depth_fortified_ring",
 /** @type {string} */
-i_immemorial_infused_ring: "zoomers_armory:immemorial_infused_ring",
+i_depth_infused_ring: "zoomers_armory:depth_infused_ring",
 /** @type {string} */
-i_immemorial_mana_necklace: "zoomers_armory:immemorial_mana_necklace",
+i_depth_mana_necklace: "zoomers_armory:depth_mana_necklace",
 /** @type {string} */
-i_immemorial_dexterity_necklace: "zoomers_armory:immemorial_dexterity_necklace",
+i_depth_dexterity_necklace: "zoomers_armory:depth_dexterity_necklace",
 /** @type {string} */
-i_immemorial_sharpshooter_necklace: "zoomers_armory:immemorial_sharpshooter_necklace",
+i_depth_sharpshooter_necklace: "zoomers_armory:depth_sharpshooter_necklace",
 /** @type {string} */
-i_immemorial_berserker_necklace: "zoomers_armory:immemorial_berserker_necklace",
+i_depth_berserker_necklace: "zoomers_armory:depth_berserker_necklace",
 /** @type {string} */
-i_immemorial_fortified_necklace: "zoomers_armory:immemorial_fortified_necklace",
+i_depth_fortified_necklace: "zoomers_armory:depth_fortified_necklace",
 /** @type {string} */
-i_immemorial_infused_necklace: "zoomers_armory:immemorial_infused_necklace",
+i_depth_infused_necklace: "zoomers_armory:depth_infused_necklace",
 /** @type {string} */
-i_immemorial_mana_gloves: "zoomers_armory:immemorial_mana_gloves",
+i_depth_mana_gloves: "zoomers_armory:depth_mana_gloves",
 /** @type {string} */
-i_immemorial_dexterity_gloves: "zoomers_armory:immemorial_dexterity_gloves",
+i_depth_dexterity_gloves: "zoomers_armory:depth_dexterity_gloves",
 /** @type {string} */
-i_immemorial_sharpshooter_gloves: "zoomers_armory:immemorial_sharpshooter_gloves",
+i_depth_sharpshooter_gloves: "zoomers_armory:depth_sharpshooter_gloves",
 /** @type {string} */
-i_immemorial_berserker_gloves: "zoomers_armory:immemorial_berserker_gloves",
+i_depth_berserker_gloves: "zoomers_armory:depth_berserker_gloves",
 /** @type {string} */
-i_immemorial_fortified_gloves: "zoomers_armory:immemorial_fortified_gloves",
+i_depth_fortified_gloves: "zoomers_armory:depth_fortified_gloves",
 /** @type {string} */
-i_immemorial_infused_gloves: "zoomers_armory:immemorial_infused_gloves",
+i_depth_infused_gloves: "zoomers_armory:depth_infused_gloves",
+/** @type {string} */
+i_marble_mana_ring: "zoomers_armory:marble_mana_ring",
+/** @type {string} */
+i_marble_dexterity_ring: "zoomers_armory:marble_dexterity_ring",
+/** @type {string} */
+i_marble_sharpshooter_ring: "zoomers_armory:marble_sharpshooter_ring",
+/** @type {string} */
+i_marble_berserker_ring: "zoomers_armory:marble_berserker_ring",
+/** @type {string} */
+i_marble_fortified_ring: "zoomers_armory:marble_fortified_ring",
+/** @type {string} */
+i_marble_infused_ring: "zoomers_armory:marble_infused_ring",
+/** @type {string} */
+i_marble_mana_necklace: "zoomers_armory:marble_mana_necklace",
+/** @type {string} */
+i_marble_dexterity_necklace: "zoomers_armory:marble_dexterity_necklace",
+/** @type {string} */
+i_marble_sharpshooter_necklace: "zoomers_armory:marble_sharpshooter_necklace",
+/** @type {string} */
+i_marble_berserker_necklace: "zoomers_armory:marble_berserker_necklace",
+/** @type {string} */
+i_marble_fortified_necklace: "zoomers_armory:marble_fortified_necklace",
+/** @type {string} */
+i_marble_infused_necklace: "zoomers_armory:marble_infused_necklace",
+/** @type {string} */
+i_marble_mana_gloves: "zoomers_armory:marble_mana_gloves",
+/** @type {string} */
+i_marble_dexterity_gloves: "zoomers_armory:marble_dexterity_gloves",
+/** @type {string} */
+i_marble_sharpshooter_gloves: "zoomers_armory:marble_sharpshooter_gloves",
+/** @type {string} */
+i_marble_berserker_gloves: "zoomers_armory:marble_berserker_gloves",
+/** @type {string} */
+i_marble_fortified_gloves: "zoomers_armory:marble_fortified_gloves",
+/** @type {string} */
+i_marble_infused_gloves: "zoomers_armory:marble_infused_gloves",
 /** @type {string} */
 i_soul_mana_ring: "zoomers_armory:soul_mana_ring",
 /** @type {string} */
@@ -33308,6 +33920,26 @@ i_ahaw_spawn_egg: "call_of_yucutan:ahaw_spawn_egg",
  * @readonly
  * @enum {string}
  */
+const item_baublemounts = {
+    /** @type {string} */
+i_mount_bauble: "baublemounts:mount_bauble",
+/** @type {string} */
+i_mount_bauble_broken: "baublemounts:mount_bauble_broken",
+/** @type {string} */
+i_vehicle_bauble: "baublemounts:vehicle_bauble",
+/** @type {string} */
+i_vehicle_bauble_broken: "baublemounts:vehicle_bauble_broken",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
 const item_moonlight = {
     /** @type {string} */
 i_placeable_item: "moonlight:placeable_item",
@@ -33589,6 +34221,28 @@ i_ender_chest: "enderchests:ender_chest",
 i_ender_bag: "enderchests:ender_bag",
 /** @type {string} */
 i_ender_pouch: "enderchests:ender_pouch",
+
+};
+
+
+
+
+/**
+ * Auto-generated Enum
+ * @readonly
+ * @enum {string}
+ */
+const item_advs_spells_arts = {
+    /** @type {string} */
+i_hellfist_spawn_egg: "advs_spells_arts:hellfist_spawn_egg",
+/** @type {string} */
+i_blood_n_bone_mage_hat_helmet: "advs_spells_arts:blood_n_bone_mage_hat_helmet",
+/** @type {string} */
+i_blood_n_bone_mage_robe_chestplate: "advs_spells_arts:blood_n_bone_mage_robe_chestplate",
+/** @type {string} */
+i_blood_n_bone_mage_leggings_leggings: "advs_spells_arts:blood_n_bone_mage_leggings_leggings",
+/** @type {string} */
+i_blood_n_bone_mage_boots_boots: "advs_spells_arts:blood_n_bone_mage_boots_boots",
 
 };
 
@@ -33896,450 +34550,10 @@ i_horizonite_sheet: "create_blue_skies_compat:horizonite_sheet",
 
 
 /**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
-const item_baublemounts = {
-    /** @type {string} */
-i_mount_bauble: "baublemounts:mount_bauble",
-/** @type {string} */
-i_mount_bauble_broken: "baublemounts:mount_bauble_broken",
-/** @type {string} */
-i_vehicle_bauble: "baublemounts:vehicle_bauble",
-/** @type {string} */
-i_vehicle_bauble_broken: "baublemounts:vehicle_bauble_broken",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
-const item_vanillabackport = {
-    /** @type {string} */
-i_pale_oak_leaves: "vanillabackport:pale_oak_leaves",
-/** @type {string} */
-i_pale_oak_planks: "vanillabackport:pale_oak_planks",
-/** @type {string} */
-i_pale_oak_stairs: "vanillabackport:pale_oak_stairs",
-/** @type {string} */
-i_pale_oak_slab: "vanillabackport:pale_oak_slab",
-/** @type {string} */
-i_pale_oak_fence: "vanillabackport:pale_oak_fence",
-/** @type {string} */
-i_pale_oak_fence_gate: "vanillabackport:pale_oak_fence_gate",
-/** @type {string} */
-i_pale_oak_door: "vanillabackport:pale_oak_door",
-/** @type {string} */
-i_pale_oak_wood: "vanillabackport:pale_oak_wood",
-/** @type {string} */
-i_pale_oak_log: "vanillabackport:pale_oak_log",
-/** @type {string} */
-i_stripped_pale_oak_wood: "vanillabackport:stripped_pale_oak_wood",
-/** @type {string} */
-i_stripped_pale_oak_log: "vanillabackport:stripped_pale_oak_log",
-/** @type {string} */
-i_pale_moss_block: "vanillabackport:pale_moss_block",
-/** @type {string} */
-i_pale_moss_carpet: "vanillabackport:pale_moss_carpet",
-/** @type {string} */
-i_pale_hanging_moss: "vanillabackport:pale_hanging_moss",
-/** @type {string} */
-i_open_eyeblossom: "vanillabackport:open_eyeblossom",
-/** @type {string} */
-i_closed_eyeblossom: "vanillabackport:closed_eyeblossom",
-/** @type {string} */
-i_pale_oak_sapling: "vanillabackport:pale_oak_sapling",
-/** @type {string} */
-i_creaking_heart: "vanillabackport:creaking_heart",
-/** @type {string} */
-i_pale_oak_sign: "vanillabackport:pale_oak_sign",
-/** @type {string} */
-i_pale_oak_hanging_sign: "vanillabackport:pale_oak_hanging_sign",
-/** @type {string} */
-i_pale_oak_pressure_plate: "vanillabackport:pale_oak_pressure_plate",
-/** @type {string} */
-i_pale_oak_trapdoor: "vanillabackport:pale_oak_trapdoor",
-/** @type {string} */
-i_pale_oak_button: "vanillabackport:pale_oak_button",
-/** @type {string} */
-i_resin_clump: "vanillabackport:resin_clump",
-/** @type {string} */
-i_resin_block: "vanillabackport:resin_block",
-/** @type {string} */
-i_resin_bricks: "vanillabackport:resin_bricks",
-/** @type {string} */
-i_resin_brick_stairs: "vanillabackport:resin_brick_stairs",
-/** @type {string} */
-i_resin_brick_slab: "vanillabackport:resin_brick_slab",
-/** @type {string} */
-i_resin_brick_wall: "vanillabackport:resin_brick_wall",
-/** @type {string} */
-i_chiseled_resin_bricks: "vanillabackport:chiseled_resin_bricks",
-/** @type {string} */
-i_dried_ghast: "vanillabackport:dried_ghast",
-/** @type {string} */
-i_resin_brick: "vanillabackport:resin_brick",
-/** @type {string} */
-i_pale_oak_boat: "vanillabackport:pale_oak_boat",
-/** @type {string} */
-i_pale_oak_chest_boat: "vanillabackport:pale_oak_chest_boat",
-/** @type {string} */
-i_creaking_spawn_egg: "vanillabackport:creaking_spawn_egg",
-/** @type {string} */
-i_happy_ghast_spawn_egg: "vanillabackport:happy_ghast_spawn_egg",
-/** @type {string} */
-i_white_harness: "vanillabackport:white_harness",
-/** @type {string} */
-i_orange_harness: "vanillabackport:orange_harness",
-/** @type {string} */
-i_magenta_harness: "vanillabackport:magenta_harness",
-/** @type {string} */
-i_light_blue_harness: "vanillabackport:light_blue_harness",
-/** @type {string} */
-i_yellow_harness: "vanillabackport:yellow_harness",
-/** @type {string} */
-i_lime_harness: "vanillabackport:lime_harness",
-/** @type {string} */
-i_pink_harness: "vanillabackport:pink_harness",
-/** @type {string} */
-i_gray_harness: "vanillabackport:gray_harness",
-/** @type {string} */
-i_light_gray_harness: "vanillabackport:light_gray_harness",
-/** @type {string} */
-i_cyan_harness: "vanillabackport:cyan_harness",
-/** @type {string} */
-i_purple_harness: "vanillabackport:purple_harness",
-/** @type {string} */
-i_blue_harness: "vanillabackport:blue_harness",
-/** @type {string} */
-i_brown_harness: "vanillabackport:brown_harness",
-/** @type {string} */
-i_green_harness: "vanillabackport:green_harness",
-/** @type {string} */
-i_red_harness: "vanillabackport:red_harness",
-/** @type {string} */
-i_black_harness: "vanillabackport:black_harness",
-/** @type {string} */
-i_music_disc_tears: "vanillabackport:music_disc_tears",
-/** @type {string} */
-i_music_disc_lava_chicken: "vanillabackport:music_disc_lava_chicken",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
-const item_astikorcarts = {
-    /** @type {string} */
-i_wheel: "astikorcarts:wheel",
-/** @type {string} */
-i_supply_cart: "astikorcarts:supply_cart",
-/** @type {string} */
-i_plow: "astikorcarts:plow",
-/** @type {string} */
-i_animal_cart: "astikorcarts:animal_cart",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
-const item_roost2 = {
-    /** @type {string} */
-i_crystaline_opal_block: "roost2:crystaline_opal_block",
-/** @type {string} */
-i_budding_crystaline_opal: "roost2:budding_crystaline_opal",
-/** @type {string} */
-i_crystaline_opal_cluster: "roost2:crystaline_opal_cluster",
-/** @type {string} */
-i_large_crystaline_opal_bud: "roost2:large_crystaline_opal_bud",
-/** @type {string} */
-i_medium_crystaline_opal_bud: "roost2:medium_crystaline_opal_bud",
-/** @type {string} */
-i_small_crystaline_opal_bud: "roost2:small_crystaline_opal_bud",
-/** @type {string} */
-i_marl: "roost2:marl",
-/** @type {string} */
-i_crystaline_opal_chunk: "roost2:crystaline_opal_chunk",
-/** @type {string} */
-i_roost_spawn_egg: "roost2:roost_spawn_egg",
-/** @type {string} */
-i_roost_rider_spawn_egg: "roost2:roost_rider_spawn_egg",
-/** @type {string} */
-i_plated_scythe: "roost2:plated_scythe",
-/** @type {string} */
-i_roost_feather: "roost2:roost_feather",
-/** @type {string} */
-i_roost_drumstick: "roost2:roost_drumstick",
-/** @type {string} */
-i_roost_wing: "roost2:roost_wing",
-/** @type {string} */
-i_roost_breast: "roost2:roost_breast",
-/** @type {string} */
-i_roast_roost_drumstick: "roost2:roast_roost_drumstick",
-/** @type {string} */
-i_fried_roost_wing: "roost2:fried_roost_wing",
-/** @type {string} */
-i_grilled_roost_breast: "roost2:grilled_roost_breast",
-/** @type {string} */
-i_kfr_bucket: "roost2:kfr_bucket",
-/** @type {string} */
-i_golden_kfr_bucket: "roost2:golden_kfr_bucket",
-/** @type {string} */
-i_roost_beak: "roost2:roost_beak",
-/** @type {string} */
-i_beakaxe: "roost2:beakaxe",
-/** @type {string} */
-i_featherfall_charm: "roost2:featherfall_charm",
-/** @type {string} */
-i_voidfall_charm: "roost2:voidfall_charm",
-/** @type {string} */
-i_polished_opal_block: "roost2:polished_opal_block",
-/** @type {string} */
-i_opal_bricks: "roost2:opal_bricks",
-/** @type {string} */
-i_opal_tiles: "roost2:opal_tiles",
-/** @type {string} */
-i_opaline_glass: "roost2:opaline_glass",
-/** @type {string} */
-i_opaline_glass_pane: "roost2:opaline_glass_pane",
-/** @type {string} */
-i_opal_pillar: "roost2:opal_pillar",
-/** @type {string} */
-i_polished_opal_stairs: "roost2:polished_opal_stairs",
-/** @type {string} */
-i_polished_opal_slab: "roost2:polished_opal_slab",
-/** @type {string} */
-i_opal_brick_stairs: "roost2:opal_brick_stairs",
-/** @type {string} */
-i_opal_brick_slab: "roost2:opal_brick_slab",
-/** @type {string} */
-i_polished_marl: "roost2:polished_marl",
-/** @type {string} */
-i_marl_bricks: "roost2:marl_bricks",
-/** @type {string} */
-i_marl_pillar: "roost2:marl_pillar",
-/** @type {string} */
-i_marl_tiles: "roost2:marl_tiles",
-/** @type {string} */
-i_chisled_marl_bricks: "roost2:chisled_marl_bricks",
-/** @type {string} */
-i_mini_marl_tiles: "roost2:mini_marl_tiles",
-/** @type {string} */
-i_saddle_pouch: "roost2:saddle_pouch",
-/** @type {string} */
-i_roost_egg: "roost2:roost_egg",
-/** @type {string} */
-i_essance_of_roost: "roost2:essance_of_roost",
-/** @type {string} */
-i_shard_of_speed: "roost2:shard_of_speed",
-/** @type {string} */
-i_shard_of_leaping: "roost2:shard_of_leaping",
-/** @type {string} */
-i_shard_of_flying: "roost2:shard_of_flying",
-/** @type {string} */
-i_trinity_shard: "roost2:trinity_shard",
-/** @type {string} */
-i_polished_marl_slab: "roost2:polished_marl_slab",
-/** @type {string} */
-i_polished_marl_stairs: "roost2:polished_marl_stairs",
-/** @type {string} */
-i_marl_brick_slab: "roost2:marl_brick_slab",
-/** @type {string} */
-i_marl_brick_stairs: "roost2:marl_brick_stairs",
-/** @type {string} */
-i_marl_tile_slab: "roost2:marl_tile_slab",
-/** @type {string} */
-i_marl_tile_stairs: "roost2:marl_tile_stairs",
-/** @type {string} */
-i_mini_marl_tile_slab: "roost2:mini_marl_tile_slab",
-/** @type {string} */
-i_mini_marl_tile_stairs: "roost2:mini_marl_tile_stairs",
-/** @type {string} */
-i_marl_slab: "roost2:marl_slab",
-/** @type {string} */
-i_marl_stairs: "roost2:marl_stairs",
-/** @type {string} */
-i_marl_wall: "roost2:marl_wall",
-/** @type {string} */
-i_polished_marl_wall: "roost2:polished_marl_wall",
-/** @type {string} */
-i_marl_brick_wall: "roost2:marl_brick_wall",
-/** @type {string} */
-i_marl_tile_wall: "roost2:marl_tile_wall",
-/** @type {string} */
-i_opal_tile_stairs: "roost2:opal_tile_stairs",
-/** @type {string} */
-i_opal_tile_slab: "roost2:opal_tile_slab",
-/** @type {string} */
-i_opaline_sconce: "roost2:opaline_sconce",
-/** @type {string} */
-i_opaline_chandelier: "roost2:opaline_chandelier",
-/** @type {string} */
-i_opaline_cutlass: "roost2:opaline_cutlass",
-/** @type {string} */
-i_ancient_hilt: "roost2:ancient_hilt",
-/** @type {string} */
-i_roost_design_scroll_ender: "roost2:roost_design_scroll_ender",
-/** @type {string} */
-i_roost_design_scroll_frost: "roost2:roost_design_scroll_frost",
-/** @type {string} */
-i_roost_design_scroll_dragon: "roost2:roost_design_scroll_dragon",
-/** @type {string} */
-i_roost_design_scroll_purple: "roost2:roost_design_scroll_purple",
-/** @type {string} */
-i_roost_deisgn_scroll_ender_dragon: "roost2:roost_deisgn_scroll_ender_dragon",
-/** @type {string} */
-i_roost_design_scroll_ancient_bones: "roost2:roost_design_scroll_ancient_bones",
-/** @type {string} */
-i_fried_roost_egg: "roost2:fried_roost_egg",
-/** @type {string} */
-i_roost_egg_and_bacon: "roost2:roost_egg_and_bacon",
-/** @type {string} */
-i_roost_design_scroll_aqua: "roost2:roost_design_scroll_aqua",
-/** @type {string} */
-i_roost_design_scroll_blood_bone: "roost2:roost_design_scroll_blood_bone",
-/** @type {string} */
-i_heating_lantern: "roost2:heating_lantern",
-/** @type {string} */
-i_roost_design_scroll_golden: "roost2:roost_design_scroll_golden",
-
-};
-
-
-
-
-/**
- * Auto-generated Enum
- * @readonly
- * @enum {string}
- */
-const item_realmrpg_skeletons = {
-    /** @type {string} */
-i_duelist_skeleton: "realmrpg_skeletons:duelist_skeleton",
-/** @type {string} */
-i_unsaved_skeleton: "realmrpg_skeletons:unsaved_skeleton",
-/** @type {string} */
-i_dungeon_crawler_skeleton: "realmrpg_skeletons:dungeon_crawler_skeleton",
-/** @type {string} */
-i_mushroomer_skeleton: "realmrpg_skeletons:mushroomer_skeleton",
-/** @type {string} */
-i_fungus_gatherer_skeleton: "realmrpg_skeletons:fungus_gatherer_skeleton",
-/** @type {string} */
-i_webbed_skeleton: "realmrpg_skeletons:webbed_skeleton",
-/** @type {string} */
-i_swimmer_skeleton: "realmrpg_skeletons:swimmer_skeleton",
-/** @type {string} */
-i_thief_skeleton: "realmrpg_skeletons:thief_skeleton",
-/** @type {string} */
-i_quicksand_skeleton: "realmrpg_skeletons:quicksand_skeleton",
-/** @type {string} */
-i_acrobat_skeleton: "realmrpg_skeletons:acrobat_skeleton",
-/** @type {string} */
-i_lucky_skeleton: "realmrpg_skeletons:lucky_skeleton",
-/** @type {string} */
-i_corrupted_skeleton: "realmrpg_skeletons:corrupted_skeleton",
-/** @type {string} */
-i_basic_skeleton: "realmrpg_skeletons:basic_skeleton",
-/** @type {string} */
-i_rookie_skeleton: "realmrpg_skeletons:rookie_skeleton",
-/** @type {string} */
-i_waterdrop_skeleton: "realmrpg_skeletons:waterdrop_skeleton",
-/** @type {string} */
-i_arrow_skeleton: "realmrpg_skeletons:arrow_skeleton",
-/** @type {string} */
-i_bow_skeleton: "realmrpg_skeletons:bow_skeleton",
-/** @type {string} */
-i_burnt_skeleton: "realmrpg_skeletons:burnt_skeleton",
-/** @type {string} */
-i_snow_skeleton: "realmrpg_skeletons:snow_skeleton",
-/** @type {string} */
-i_powder_snow_skeleton: "realmrpg_skeletons:powder_snow_skeleton",
-/** @type {string} */
-i_crimson_tangled_skeleton: "realmrpg_skeletons:crimson_tangled_skeleton",
-/** @type {string} */
-i_chorus_tangled_skeleton: "realmrpg_skeletons:chorus_tangled_skeleton",
-/** @type {string} */
-i_cactus_skeleton: "realmrpg_skeletons:cactus_skeleton",
-/** @type {string} */
-i_winter_skeleton: "realmrpg_skeletons:winter_skeleton",
-/** @type {string} */
-i_devastated_skeleton: "realmrpg_skeletons:devastated_skeleton",
-/** @type {string} */
-i_frozen_waterdrop_skeleton: "realmrpg_skeletons:frozen_waterdrop_skeleton",
-/** @type {string} */
-i_vines_tangled_skeleton: "realmrpg_skeletons:vines_tangled_skeleton",
-/** @type {string} */
-i_trident_skeleton: "realmrpg_skeletons:trident_skeleton",
-/** @type {string} */
-i_melted_skeleton: "realmrpg_skeletons:melted_skeleton",
-/** @type {string} */
-i_shot_skeleton: "realmrpg_skeletons:shot_skeleton",
-/** @type {string} */
-i_hunted_skeleton: "realmrpg_skeletons:hunted_skeleton",
-/** @type {string} */
-i_common_skeleton: "realmrpg_skeletons:common_skeleton",
-/** @type {string} */
-i_pierced_skeleton: "realmrpg_skeletons:pierced_skeleton",
-/** @type {string} */
-i_dripstone_skeleton: "realmrpg_skeletons:dripstone_skeleton",
-/** @type {string} */
-i_headless_skeleton: "realmrpg_skeletons:headless_skeleton",
-/** @type {string} */
-i_stalactite_skeleton: "realmrpg_skeletons:stalactite_skeleton",
-/** @type {string} */
-i_chorus_skeleton: "realmrpg_skeletons:chorus_skeleton",
-/** @type {string} */
-i_dragon_burnt_skeleton: "realmrpg_skeletons:dragon_burnt_skeleton",
-/** @type {string} */
-i_crystal_skeleton: "realmrpg_skeletons:crystal_skeleton",
-/** @type {string} */
-i_explorer_skeleton: "realmrpg_skeletons:explorer_skeleton",
-/** @type {string} */
-i_shroom_skeleton: "realmrpg_skeletons:shroom_skeleton",
-/** @type {string} */
-i_buried_skeleton: "realmrpg_skeletons:buried_skeleton",
-/** @type {string} */
-i_dusty_skeleton: "realmrpg_skeletons:dusty_skeleton",
-/** @type {string} */
-i_headache_skeleton: "realmrpg_skeletons:headache_skeleton",
-/** @type {string} */
-i_slain_skeleton: "realmrpg_skeletons:slain_skeleton",
-/** @type {string} */
-i_skeleton_from_the_sky: "realmrpg_skeletons:skeleton_from_the_sky",
-/** @type {string} */
-i_spider_victim_skeleton: "realmrpg_skeletons:spider_victim_skeleton",
-/** @type {string} */
-i_neutralized_skeleton: "realmrpg_skeletons:neutralized_skeleton",
-/** @type {string} */
-i_mossy_skeleton: "realmrpg_skeletons:mossy_skeleton",
-
-};
-
-
-
-
-/**
  * Auto-generated Typedef
- * @typedef {item_minecraft | item_betternether | item_perfectplushies | item_apotheosis | item_supplementaries | item_refinedstorage | item_structure_gel | item_handcrafted | item_morevillagers | item_fantasy_armor | item_constructionwand | item_chimes | item_trials | item_illageandspillage | item_mcwlights | item_bellsandwhistles | item_mutantmonsters | item_libraryferret | item_kobolds | item_biomesoplenty | item_domum_ornamentum | item_gravestone | item_structurize | item_lootr | item_immersive_melodies | item_phantasm | item_mimic | item_sophisticatedbackpacks | item_ze_apotheosis | item_plentyplates | item_utilitarian | item_mcwbridges | item_endertanks | item_simplylight | item_everythingisedibleeie | item_elevatorid | item_aether_protect_your_moa | item_nether_armory | item_undergarden | item_goblintraders | item_copycats | item_obscure_api | item_outer_end | item_bosses_of_mass_destruction | item_endermanoverhaul | item_armoroftheages | item_minecolonies | item_ias_spellbooks | item_bushierflowers | item_simpleradio | item_createaddition | item_man_of_many_planes | item_irons_spellbooks | item_slotmachinemod | item_macawsbridgesbop | item_immersive_armors | item_callfromthedepth_ | item_kubejs | item_iron_biplane | item_daily_rewards | item_ironfurnaces | item_mysticaloaktree | item_origins | item_energymeter | item_measurements | item_theabyss | item_mcwfurnitures | item_crafting_on_a_stick | item_multipiston | item_solonion | item_packingtape | item_mythicmounts | item_aetherdelight | item_mcwpaths | item_usefulrailroads | item_croptopia | item_oceansdelight | item_aquaculture | item_convenientcurioscontainer | item_aquamirae | item_blue_skies | item_creeperoverhaul | item_crittersandcompanions | item_aether | item_lost_aether_content | item_naturalist | item_immersive_aircraft | item_cookingforblockheads | item_citadel | item_railways | item_farmersdelight | item_cuffed | item_compressium | item_ender_dragon_loot_ | item_endersdelight | item_endrem | item_mokels_boss_mantyd | item_patchouli | item_vinery | item_enderitemod | item_herbalbrews | item_auctionworld | item_bakery | item_brewery | item_meadow | item_dotcoinmod | item_nethervinery | item_candlelight | item_beachparty | item_fortunas_anvil | item_smallships | item_easy_mob_farm | item_zoomers_magic | item_create | item_zoomers_economy | item_medievalorigins | item_zoomers_armory | item_sophisticatedstorage | item_itemfilters | item_ftbquests | item_createlowheated | item_extendedgears | item_waystones | item_comforts | item_call_of_yucutan | item_moonlight | item_toolbelt | item_nethersdelight | item_create_sa | item_enderchests | item_endlessbiomes | item_create_blue_skies_compat | item_baublemounts | item_vanillabackport | item_astikorcarts | item_roost2 | item_realmrpg_skeletons} item
+ * @typedef {item_minecraft | item_betternether | item_apotheosis | item_supplementaries | item_refinedstorage | item_structure_gel | item_handcrafted | item_morevillagers | item_fantasy_armor | item_constructionwand | item_chimes | item_trials | item_illageandspillage | item_mcwlights | item_bellsandwhistles | item_mutantmonsters | item_libraryferret | item_kobolds | item_biomesoplenty | item_iron_biplane | item_domum_ornamentum | item_astikorcarts | item_gravestone | item_structurize | item_lootr | item_immersive_melodies | item_phantasm | item_mimic | item_sophisticatedbackpacks | item_ze_apotheosis | item_plentyplates | item_utilitarian | item_mcwbridges | item_endertanks | item_simplylight | item_everythingisedibleeie | item_elevatorid | item_aether_protect_your_moa | item_nether_armory | item_undergarden | item_goblintraders | item_copycats | item_obscure_api | item_outer_end | item_bosses_of_mass_destruction | item_endermanoverhaul | item_armoroftheages | item_minecolonies | item_ias_spellbooks | item_bushierflowers | item_simpleradio | item_createaddition | item_perfectplushies | item_man_of_many_planes | item_roost2 | item_irons_spellbooks | item_slotmachinemod | item_macawsbridgesbop | item_immersive_armors | item_callfromthedepth_ | item_daily_rewards | item_ironfurnaces | item_vanillabackport | item_mysticaloaktree | item_origins | item_energymeter | item_measurements | item_theabyss | item_mcwfurnitures | item_crafting_on_a_stick | item_multipiston | item_realmrpg_skeletons | item_solonion | item_packingtape | item_mythicmounts | item_aetherdelight | item_mcwpaths | item_usefulrailroads | item_croptopia | item_oceansdelight | item_aquaculture | item_convenientcurioscontainer | item_aquamirae | item_blue_skies | item_creeperoverhaul | item_crittersandcompanions | item_aether | item_lost_aether_content | item_naturalist | item_immersive_aircraft | item_cookingforblockheads | item_citadel | item_railways | item_farmersdelight | item_cuffed | item_compressium | item_ender_dragon_loot_ | item_endersdelight | item_endrem | item_mokels_boss_mantyd | item_patchouli | item_vinery | item_enderitemod | item_herbalbrews | item_auctionworld | item_bakery | item_brewery | item_meadow | item_dotcoinmod | item_nethervinery | item_candlelight | item_beachparty | item_fortunas_anvil | item_smallships | item_easy_mob_farm | item_kubejs | item_zoomers_magic | item_create | item_zoomers_economy | item_medievalorigins | item_zoomers_armory | item_sophisticatedstorage | item_itemfilters | item_ftbquests | item_createlowheated | item_extendedgears | item_waystones | item_comforts | item_call_of_yucutan | item_baublemounts | item_moonlight | item_toolbelt | item_nethersdelight | item_create_sa | item_enderchests | item_advs_spells_arts | item_endlessbiomes | item_create_blue_skies_compat} item
  */
 
 module.exports = {
-    item_minecraft, item_betternether, item_perfectplushies, item_apotheosis, item_supplementaries, item_refinedstorage, item_structure_gel, item_handcrafted, item_morevillagers, item_fantasy_armor, item_constructionwand, item_chimes, item_trials, item_illageandspillage, item_mcwlights, item_bellsandwhistles, item_mutantmonsters, item_libraryferret, item_kobolds, item_biomesoplenty, item_domum_ornamentum, item_gravestone, item_structurize, item_lootr, item_immersive_melodies, item_phantasm, item_mimic, item_sophisticatedbackpacks, item_ze_apotheosis, item_plentyplates, item_utilitarian, item_mcwbridges, item_endertanks, item_simplylight, item_everythingisedibleeie, item_elevatorid, item_aether_protect_your_moa, item_nether_armory, item_undergarden, item_goblintraders, item_copycats, item_obscure_api, item_outer_end, item_bosses_of_mass_destruction, item_endermanoverhaul, item_armoroftheages, item_minecolonies, item_ias_spellbooks, item_bushierflowers, item_simpleradio, item_createaddition, item_man_of_many_planes, item_irons_spellbooks, item_slotmachinemod, item_macawsbridgesbop, item_immersive_armors, item_callfromthedepth_, item_kubejs, item_iron_biplane, item_daily_rewards, item_ironfurnaces, item_mysticaloaktree, item_origins, item_energymeter, item_measurements, item_theabyss, item_mcwfurnitures, item_crafting_on_a_stick, item_multipiston, item_solonion, item_packingtape, item_mythicmounts, item_aetherdelight, item_mcwpaths, item_usefulrailroads, item_croptopia, item_oceansdelight, item_aquaculture, item_convenientcurioscontainer, item_aquamirae, item_blue_skies, item_creeperoverhaul, item_crittersandcompanions, item_aether, item_lost_aether_content, item_naturalist, item_immersive_aircraft, item_cookingforblockheads, item_citadel, item_railways, item_farmersdelight, item_cuffed, item_compressium, item_ender_dragon_loot_, item_endersdelight, item_endrem, item_mokels_boss_mantyd, item_patchouli, item_vinery, item_enderitemod, item_herbalbrews, item_auctionworld, item_bakery, item_brewery, item_meadow, item_dotcoinmod, item_nethervinery, item_candlelight, item_beachparty, item_fortunas_anvil, item_smallships, item_easy_mob_farm, item_zoomers_magic, item_create, item_zoomers_economy, item_medievalorigins, item_zoomers_armory, item_sophisticatedstorage, item_itemfilters, item_ftbquests, item_createlowheated, item_extendedgears, item_waystones, item_comforts, item_call_of_yucutan, item_moonlight, item_toolbelt, item_nethersdelight, item_create_sa, item_enderchests, item_endlessbiomes, item_create_blue_skies_compat, item_baublemounts, item_vanillabackport, item_astikorcarts, item_roost2, item_realmrpg_skeletons
+    item_minecraft, item_betternether, item_apotheosis, item_supplementaries, item_refinedstorage, item_structure_gel, item_handcrafted, item_morevillagers, item_fantasy_armor, item_constructionwand, item_chimes, item_trials, item_illageandspillage, item_mcwlights, item_bellsandwhistles, item_mutantmonsters, item_libraryferret, item_kobolds, item_biomesoplenty, item_iron_biplane, item_domum_ornamentum, item_astikorcarts, item_gravestone, item_structurize, item_lootr, item_immersive_melodies, item_phantasm, item_mimic, item_sophisticatedbackpacks, item_ze_apotheosis, item_plentyplates, item_utilitarian, item_mcwbridges, item_endertanks, item_simplylight, item_everythingisedibleeie, item_elevatorid, item_aether_protect_your_moa, item_nether_armory, item_undergarden, item_goblintraders, item_copycats, item_obscure_api, item_outer_end, item_bosses_of_mass_destruction, item_endermanoverhaul, item_armoroftheages, item_minecolonies, item_ias_spellbooks, item_bushierflowers, item_simpleradio, item_createaddition, item_perfectplushies, item_man_of_many_planes, item_roost2, item_irons_spellbooks, item_slotmachinemod, item_macawsbridgesbop, item_immersive_armors, item_callfromthedepth_, item_daily_rewards, item_ironfurnaces, item_vanillabackport, item_mysticaloaktree, item_origins, item_energymeter, item_measurements, item_theabyss, item_mcwfurnitures, item_crafting_on_a_stick, item_multipiston, item_realmrpg_skeletons, item_solonion, item_packingtape, item_mythicmounts, item_aetherdelight, item_mcwpaths, item_usefulrailroads, item_croptopia, item_oceansdelight, item_aquaculture, item_convenientcurioscontainer, item_aquamirae, item_blue_skies, item_creeperoverhaul, item_crittersandcompanions, item_aether, item_lost_aether_content, item_naturalist, item_immersive_aircraft, item_cookingforblockheads, item_citadel, item_railways, item_farmersdelight, item_cuffed, item_compressium, item_ender_dragon_loot_, item_endersdelight, item_endrem, item_mokels_boss_mantyd, item_patchouli, item_vinery, item_enderitemod, item_herbalbrews, item_auctionworld, item_bakery, item_brewery, item_meadow, item_dotcoinmod, item_nethervinery, item_candlelight, item_beachparty, item_fortunas_anvil, item_smallships, item_easy_mob_farm, item_kubejs, item_zoomers_magic, item_create, item_zoomers_economy, item_medievalorigins, item_zoomers_armory, item_sophisticatedstorage, item_itemfilters, item_ftbquests, item_createlowheated, item_extendedgears, item_waystones, item_comforts, item_call_of_yucutan, item_baublemounts, item_moonlight, item_toolbelt, item_nethersdelight, item_create_sa, item_enderchests, item_advs_spells_arts, item_endlessbiomes, item_create_blue_skies_compat
 }
