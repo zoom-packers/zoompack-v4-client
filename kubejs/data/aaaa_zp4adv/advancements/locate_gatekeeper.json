@@ -4,13 +4,13 @@
             "item": "apotheosis:gem"
         },
         "title": "TUTORIAL - Find the Gate Keeper",
-        "description": "The Gate Keeper holds the portal towards the next dimension.",
+        "description": "Small hut with a special trader. The Gate Keeper holds the portal towards the next dimension.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:kill_cornelia",
+    "parent": "aaaa_zp4adv:kill_bosses",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

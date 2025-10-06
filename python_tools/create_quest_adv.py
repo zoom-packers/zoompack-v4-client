@@ -89,6 +89,10 @@ def generate_js_quests(quests_data):
 DEFAULT_ITEM = 'apotheosis:gem'
 DEFAULT_ROOT = "minecraft:adventure/root"
 QUESTS = {
+    
+
+    
+
     '20logs': {
         'title': 'TUTORIAL - Get 20 logs',
         'description': 'Everything requires sticks, so gather some wood',
@@ -352,7 +356,7 @@ QUESTS = {
             'renderTarget': 'medievalorigins:textures/item/high_elf.png'
         }
     },
-    'kill_cornelia': {
+    'kill_bosses': {
         'title': 'TUTORIAL - Kill 4 Bosses',
         'description': 'Check out /dimensions to see how you can find bosses in each dimension.',
         'xp': 20,
@@ -364,48 +368,51 @@ QUESTS = {
         'count': 4,
         'dialogue': {
             'speaker': 'Daluku',
-            'message': 'Bosses defeated! Impressive strength.',
+            'message': 'Bosses defeated! Impressive strength. It is time to move towards other lands.',
             'renderType': 'rectangle',
             'renderTarget': 'medievalorigins:textures/item/high_elf.png'
         }
     },
+    
     'locate_gatekeeper': {
         'title': 'TUTORIAL - Find the Gate Keeper',
-        'description': 'The Gate Keeper holds the portal towards the next dimension.',
+        'description': 'Small hut with a special trader. The Gate Keeper holds the portal towards the next dimension.',
         'xp': 20,
-        'type': 'locate',
+        'type': 'adv_unlock',
         'match': {
-            'mode': 'entity',
-            'match_id': 'gatekeeper'
+            'mode': 'any',
+            'match_ids': ['aaaa_zp4adv:find_gatekeeper_m_loop', 'aaaa_zp4adv:find_gatekeeper_s_loop', 'aaaa_zp4adv:find_gatekeeper_p_loop']
         },
         'count': 1,
         'dialogue': {
             'speaker': 'Daluku',
-            'message': 'Found the Gate Keeper. Secrets await!',
+            'message': 'Found the Gate Keeper hourse! Trade with him to get a Zeal Lighter',
             'renderType': 'rectangle',
             'renderTarget': 'medievalorigins:textures/item/high_elf.png'
         }
     },
+
     'get_zeal_lighter': {
         'title': 'TUTORIAL - Get a Zeal Lighter',
-        'description': 'Find the Gate Keeper villager and trade with him to get a zeal lighter',
+        'description': 'Trade with the Gate Keeper to obtain a zeal lighter. Use it to fire the portal that must lay near by.',
         'xp': 20,
         'type': 'obtain_item',
         'match': {
             'mode': 'exact',
-            'match_id': 'zeal_lighter'
+            'match_id': 'blue_skies:zeal_lighter'
         },
         'count': 1,
         'dialogue': {
             'speaker': 'Daluku',
-            'message': 'Zeal lighter acquired. Light the way!',
+            'message': 'Zeal lighter acquired. Light the way towards the Blue Skies!',
             'renderType': 'rectangle',
             'renderTarget': 'medievalorigins:textures/item/high_elf.png'
         }
     },
+
     '20combatlvl': {
         'title': 'TUTORIAL - Reach Combat Lvl 20',
-        'description': 'Fight enemies to raise your combat level to at least 20.',
+        'description': 'Everbright is for no weak souls. Fight enemies to raise your combat level to at least 20.',
         'xp': 20,
         'type': 'reach_level',
         'match': {
@@ -415,19 +422,19 @@ QUESTS = {
         'count': 20,
         'dialogue': {
             'speaker': 'Daluku',
-            'message': 'Level 20 reached. You\'re advancing quickly!',
+            'message': 'Level 20 reached for combat! Now you are ready for the Everbright',
             'renderType': 'rectangle',
             'renderTarget': 'medievalorigins:textures/item/high_elf.png'
         }
     },
     'travel_to_everbright': {
         'title': 'TUTORIAL - Travel to the Everbright',
-        'description': 'Light the Everbright portal with a zeal lighter to fire up the portal.',
+        'description': 'Light the portal in the Gatekeep, but make sure it is for Everbright',
         'xp': 20,
-        'type': 'changed_dimension',
+        'type': 'adv_unlock',
         'match': {
-            'mode': 'to',
-            'dimension': 'everbright'
+            'mode': 'exact',
+            'match' : 'aaaa_zp4adv:enter_everbright'
         },
         'count': 1,
         'dialogue': {
@@ -436,7 +443,7 @@ QUESTS = {
             'renderType': 'rectangle',
             'renderTarget': 'medievalorigins:textures/item/high_elf.png'
         }
-    }
+    },
     # Arcane essence towards the end of overworld
 }
 

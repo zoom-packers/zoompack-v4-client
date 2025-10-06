@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "enter_dimension": {
+      "conditions": {
+        "to": "blue_skies:everbright"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "Travel to Everbright"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "blue_skies:aquite"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Travel to Everbright"
+    }
+  },
+  "requirements": [
+    [
+      "enter_dimension"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -4,7 +4,7 @@
             "item": "apotheosis:gem"
         },
         "title": "TUTORIAL - Travel to the Everbright",
-        "description": "Light the Everbright portal with a zeal lighter to fire up the portal.",
+        "description": "Light the portal in the Gatekeep, but make sure it is for Everbright",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,

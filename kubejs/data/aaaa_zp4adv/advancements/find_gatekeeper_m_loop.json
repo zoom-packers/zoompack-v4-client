@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "in_gatekeep": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "blue_skies:gatekeeper_house_mountain"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "Locate Gatekeeper"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Find Gatekeeper"
+    }
+  },
+  "requirements": [
+    [
+      "in_gatekeep"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

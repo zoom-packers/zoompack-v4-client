@@ -9,22 +9,6 @@ const ADV_PREFIX = `${ADV_NAMESPACE}${TWO_DOTS}`;
 
 //QUEST_DATA_START
 const QUESTS = {
-    "win_raid":{
-        "type":"adv_unlock",
-        "match":{
-            "mode":"exact",
-            "match":"aaaa_zp4adv:win_raid_loop"
-        },
-        "unlock":"aaaa_zp4adv:win_raid",
-        "count":1,
-        "dialogue":{
-            "speaker":"Daluku",
-            "message":"Raid victory! The village is safe. Press K and go to Villager Hero to see if you can claim more terrain.",
-            "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
-        },
-        "next":"20logs"
-    },
     "20logs":{
         "type":"break_block",
         "match":{
@@ -255,35 +239,55 @@ const QUESTS = {
             "renderType":"rectangle",
             "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
-        "next":"kill_cornelia"
+        "next":"win_raid"
     },
-    "kill_cornelia":{
+    "win_raid":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match":"aaaa_zp4adv:win_raid_loop"
+        },
+        "unlock":"aaaa_zp4adv:win_raid",
+        "count":1,
+        "dialogue":{
+            "speaker":"Daluku",
+            "message":"Raid victory! The village is safe. Press K and go to Villager Hero to see if you can claim more terrain.",
+            "renderType":"rectangle",
+            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+        },
+        "next":"kill_bosses"
+    },
+    "kill_bosses":{
         "type":"kill",
         "match":{
             "mode":"preset_entity_check",
             "match":"boss"
         },
-        "unlock":"aaaa_zp4adv:kill_cornelia",
+        "unlock":"aaaa_zp4adv:kill_bosses",
         "count":4,
         "dialogue":{
             "speaker":"Daluku",
-            "message":"Bosses defeated! Impressive strength.",
+            "message":"Bosses defeated! Impressive strength. It is time to move towards other lands.",
             "renderType":"rectangle",
             "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
         "next":"locate_gatekeeper"
     },
     "locate_gatekeeper":{
-        "type":"locate",
+        "type":"adv_unlock",
         "match":{
-            "mode":"entity",
-            "match_id":"gatekeeper"
+            "mode":"any",
+            "match_ids":[
+                "aaaa_zp4adv:find_gatekeeper_m_loop",
+                "aaaa_zp4adv:find_gatekeeper_s_loop",
+                "aaaa_zp4adv:find_gatekeeper_p_loop"
+            ]
         },
         "unlock":"aaaa_zp4adv:locate_gatekeeper",
         "count":1,
         "dialogue":{
             "speaker":"Daluku",
-            "message":"Found the Gate Keeper. Secrets await!",
+            "message":"Found the Gate Keeper hourse! Trade with him to get a Zeal Lighter",
             "renderType":"rectangle",
             "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
@@ -293,13 +297,13 @@ const QUESTS = {
         "type":"obtain_item",
         "match":{
             "mode":"exact",
-            "match_id":"zeal_lighter"
+            "match_id":"blue_skies:zeal_lighter"
         },
         "unlock":"aaaa_zp4adv:get_zeal_lighter",
         "count":1,
         "dialogue":{
             "speaker":"Daluku",
-            "message":"Zeal lighter acquired. Light the way!",
+            "message":"Zeal lighter acquired. Light the way towards the Blue Skies!",
             "renderType":"rectangle",
             "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
@@ -315,17 +319,17 @@ const QUESTS = {
         "count":20,
         "dialogue":{
             "speaker":"Daluku",
-            "message":"Level 20 reached. You're advancing quickly!",
+            "message":"Level 20 reached for combat! Now you are ready for the Everbright",
             "renderType":"rectangle",
             "renderTarget":"medievalorigins:textures/item/high_elf.png"
         },
         "next":"travel_to_everbright"
     },
     "travel_to_everbright":{
-        "type":"changed_dimension",
+        "type":"adv_unlock",
         "match":{
-            "mode":"to",
-            "dimension":"everbright"
+            "mode":"exact",
+            "match":"aaaa_zp4adv:enter_everbright"
         },
         "unlock":"aaaa_zp4adv:travel_to_everbright",
         "count":1,
@@ -593,6 +597,15 @@ function questEvent(event, eventType) {
                             }
                         }
 
+                        
+                        if (questData.match.mode == 'any') {
+                            if(questData.match.hasOwnProperty('match_ids')){
+                                if(questData.match.match_ids.includes(advancementId)){
+                                    eventMatch = true;
+                                }
+                            }
+                        }
+
                         if (questData.match.hasOwnProperty('revoke')) {
                             if (questData.match.revoke) {
                                 revokeServerPlayerAdvancement(server, player, advancementId);
@@ -793,7 +806,7 @@ function matchQuestDataByAdvId(advancement_id) {
     return null;
 }
 
-const INSTA_REVOKE_ADVS = ['aaaa_zp4adv:win_raid_loop'];
+const INSTA_REVOKE_ADVS = ['aaaa_zp4adv:win_raid_loop', 'aaaa_zp4adv:find_gatekeeper_m_loop', 'aaaa_zp4adv:find_gatekeeper_s_loop', 'aaaa_zp4adv:find_gatekeeper_p_loop'];
 
 PlayerEvents.advancement(event => {
     const { player, advancement, server } = event;
