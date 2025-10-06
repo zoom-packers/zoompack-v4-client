@@ -806,7 +806,7 @@ function matchQuestDataByAdvId(advancement_id) {
     return null;
 }
 
-const INSTA_REVOKE_ADVS = ['aaaa_zp4adv:win_raid_loop', 'aaaa_zp4adv:find_gatekeeper_m_loop', 'aaaa_zp4adv:find_gatekeeper_s_loop', 'aaaa_zp4adv:find_gatekeeper_p_loop'];
+const INSTA_REVOKE_ADVS = ['aaaa_zp4adv:win_raid_loop', 'aaaa_zp4adv:find_gatekeeper_m_loop', 'aaaa_zp4adv:find_gatekeeper_s_loop', 'aaaa_zp4adv:find_gatekeeper_p_loop',  'aaaa_zp4adv:enter_everbright'];
 
 PlayerEvents.advancement(event => {
     const { player, advancement, server } = event;
