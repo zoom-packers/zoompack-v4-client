@@ -1,0 +1,17 @@
+{
+    "name": "abyss_arena:arena",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "location": "abyss_arena:arena",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element",
+                "override_liquid_settings": "apply_waterlogging",
+                "y_offset": -13
+            }
+        }
+    ]
+}
