@@ -1,10 +1,10 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": ["theabyss:blue_jungle"],
+    "biomes": ["theabyss:slime_forest"],
     "step": "surface_structures",
     "spawn_overrides": {},
-    "terrain_adaptation": "beard_box",
-    "start_pool": "abyss_arena:arena_roka",
+    "terrain_adaptation": "beard_thin",
+    "start_pool": "abyss_arena:arena_crystal_golem",
     "size": 7,
     "start_height": {
         "absolute": 1
