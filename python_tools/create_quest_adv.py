@@ -1,5 +1,38 @@
 import json
 
+def get_dimension_change_advancement(root, icon, title, description, dimension_id):
+    return {
+        "parent": root,
+        "criteria": {
+            "enter_dimension": {
+            "conditions": {
+                "to": dimension_id
+            },
+            "trigger": "minecraft:changed_dimension"
+            }
+        },
+        "display": {
+            "announce_to_chat": False,
+            "description": {
+            "text": description
+            },
+            "frame": "challenge",
+            "hidden": True,
+            "icon": {
+            "item": icon
+            },
+            "show_toast": False,
+            "title": {
+            "text": title
+            }
+        },
+        "requirements": [
+            [
+            "enter_dimension"
+            ]
+        ],
+        "sends_telemetry_event": False
+    }
 
 def get_impossible_advancement(root, icon, title, description, xp_reward):
     return {
@@ -123,6 +156,8 @@ def generate_js_quests(quests_data):
                 'renderType': data['dialogue'].get('renderType', '')
             }
         }
+        if 'delayNext' in data:
+            quest_entry['delayNext'] = data['delayNext']
         if 'renderTarget' in data['dialogue']:
             quest_entry['dialogue']['renderTarget'] = data['dialogue']['renderTarget']
         if i < len(quest_keys) - 1:
@@ -130,23 +165,186 @@ def generate_js_quests(quests_data):
         quests_dict[key] = quest_entry
     return f"const QUESTS = {json.dumps(quests_dict, separators=(',',':'), indent=4)}"
 
-DEFAULT_ITEM = 'kubejs:quest'
+DEFAULT_ITEM = 'kubejs:quest_book'
 DEFAULT_ROOT = "minecraft:adventure/root"
 QUESTS = {
-    '20enemies_everbright': {
-        'title': 'EVERBRIGHT - Slay 20 Enemies',
-        'description': 'This new place is much more harsh. New possibilities, new enemies. Get acquainted.',
+    'travel_to_everbright': {
+        'item': 'kubejs:quest',
+        'title': 'TUTORIAL - Travel to the Everbright',
+        'description': 'Light the portal in the Gatekeep, but make sure it is for Everbright',
+        'xp': 20,
+        'delayNext' : 200,
+        'type': 'travel_dimension',
+        'match': {
+            'mode': 'exact',
+            'match_id' : 'blue_skies:everbright'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Entered Everbright. New adventures begin!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },  
+    
+    'locate_everbright_blinding_dungeon': {
+        'item': 'kubejs:quest',
+        'title': 'Find a Blinding Dungeon',
+        'description': 'I have been informed that the habitant is possessing unique items.',
+        'xp': 20,
+        'type': 'locate_structure',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'blue_skies:everbright_blinding_dungeon'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'This is quite the place. Lurk around for keys to open the gate towards the owner.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
+        }
+    },
+    'loot_blinding_key': {
+        'item': 'kubejs:quest',
+        'title': 'Find a Blinding Dungeon Key',
+        'description': 'Search in the tower for a key. You need it to open the gate towards the Summoner',
+        'xp': 20,
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'blue_skies:blinding_key' 
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Try to get to the Summoner, if one is not enough, you might need more.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
+        }
+    },
+    'slay_summoner': {
+        'title': 'Slay The Summoner',
+        'description': 'The Summoner will use his magic against you. Take care.',
         'xp': 20,
         'type': 'kill',
         'match': {
-            'mode': 'preset_entity_check',
-            'match': 'hostile',
-            'dimension_match' : 'blue_skies:everbright'
+            'mode': 'exact',
+            'match': 'blue_skies:summoner'
         },
-        'count': 20,
+        'count': 1,
         'dialogue': {
             'speaker': 'Elder Librarian',
-            'message': 'Very good! I have heard about some towers around that the inhabitant owns special powers. See if you can find any.',
+            'message': 'Looks like he is dropping over some bags. See if you can find anything new.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
+        }
+    },
+    'loot_ethernal_arc': {
+        'item': 'kubejs:quest',
+        'title': 'Find an Ethernal Arc',
+        'description': 'Arcs are powerups for your character. Ethernal Arc is found in the Summoner loot bag.',
+        'xp': 20,
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'blue_skies:ethernal_arc' 
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'These arcs can be used instead of keys to respawn the Summoner and fight it again. Maybe we can find better loot.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
+        }
+    },
+    'place_summoning_table': {
+        'item': 'kubejs:quest',
+        'title': 'Get a Summoning Table',
+        'description': 'Summon and slay The Summoner until you find a Summoning Table and put it on the ground.',
+        'xp': 20,
+        'type': 'place_block',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'blue_skies:summoning_table' 
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'The table can be used with the Summoning Tome and Soul Fragments to produce magic.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
+        }
+    },
+    
+    'locate_everbright_nature_dungeon': {
+        'item': 'kubejs:quest',
+        'title': 'Find a Nature Dungeon',
+        'description': 'Nature dungeons are massive mazes multiple stories high. Big and green. That`s how you find them.',
+        'xp': 20,
+        'type': 'locate_structure',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'blue_skies:nature_dungeon'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'What a masterpiece of a maze. Find 4 Nature Keys and get to the top.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
+        }
+    },
+    'loot_4_nature_key': {
+        'item': 'kubejs:quest',
+        'title': 'Find 4 Nature Keys',
+        'description': 'Search the maze for keys. You need it to open the gate towards the Alchemist',
+        'xp': 20,
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'blue_skies:blinding_key' 
+        },
+        'count': 4,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Now you are ready to ender the fight. Good luck traveler!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
+        }
+    },
+    'slay_starlit_crusher': {
+        'title': 'Slay The Starlit Crusher',
+        'description': 'The Starlit Crusher is at core a tree evolved, so axes might be more useful.',
+        'xp': 20,
+        'type': 'kill',
+        'match': {
+            'mode': 'exact',
+            'match': 'blue_skies:starlit_crusher'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Good job. Open the bag to see what goods we get',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
+        }
+    },
+    'loot_nature_arc': {
+        'item': 'kubejs:quest',
+        'title': 'Find a Nature Arc',
+        'description': 'Nature arcs gives you the possibility to wistand more damage before dying',
+        'xp': 20,
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'blue_skies:nature_arc' 
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Very good! Equip it to become stronger.',
             'renderType': 'rectangle',
             'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
         }
@@ -482,22 +680,24 @@ QUESTS = {
             'renderType': 'rectangle',
             'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
-    },
-    'travel_to_everbright': {
-        'title': 'TUTORIAL - Travel to the Everbright',
-        'description': 'Light the portal in the Gatekeep, but make sure it is for Everbright',
+    },  
+    '20enemies_everbright': {
+        'item': 'kubejs:quest',
+        'title': 'EVERBRIGHT - Slay 20 Enemies',
+        'description': 'This new place is much more harsh. New possibilities, new enemies. Get acquainted.',
         'xp': 20,
-        'type': 'adv_unlock',
+        'type': 'kill',
         'match': {
-            'mode': 'exact',
-            'match' : 'aaaa_zp4adv:enter_everbright'
+            'mode': 'preset_entity_check',
+            'match': 'hostile',
+            'dimension_match' : 'blue_skies:everbright'
         },
-        'count': 1,
+        'count': 20,
         'dialogue': {
             'speaker': 'Elder Librarian',
-            'message': 'Entered Everbright. New adventures begin!',
+            'message': 'Very good! I have heard about some towers around that the inhabitant owns special powers. See if you can find any.',
             'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
         }
     },
     # Arcane essence towards the end of overworld
@@ -514,6 +714,15 @@ def get_adv_structure_text(structure_id):
     info = structure_id.replace(':',' ').replace('_',' ').title()
     return f'Locate {info}'
 
+def get_adv_sub_path_dimension(dimension_id):
+    return dimension_id.replace(':','_')+'_trigger'
+
+def get_adv_dimension_text(dimension_id):
+    info = dimension_id.replace(':',' ').replace('_',' ').title()
+    return f'Travel to {info}'
+
+INSTA_REVOKE_ADV = []
+
 current_root = DEFAULT_ROOT
 for quest_key in QUESTS:
     quest_data = QUESTS[quest_key]
@@ -523,6 +732,20 @@ for quest_key in QUESTS:
         icon = quest_data['item']
 
     sub_advs = []
+
+    if quest_data['type'] == 'travel_dimension':
+        if quest_data['match']['mode'] == 'exact':
+            dimension_id = quest_data['match']['match_id']
+            text = get_adv_dimension_text(dimension_id)
+
+            path_to_save_adv = path.replace(f'{quest_key}.json', get_adv_sub_path_dimension(dimension_id)+'.json')
+            adv_id_to_hook = 'aaaa_zp4adv:' + path_to_save_adv.split('/')[-1].replace('.json','')
+
+            sub_advs.append((get_dimension_change_advancement(DEFAULT_ROOT, DEFAULT_ITEM, text, text, dimension_id), path_to_save_adv ))
+            
+            quest_data['type'] = 'adv_unlock'
+            quest_data['match']['match_id'] = adv_id_to_hook
+
     
     if quest_data['type'] == 'locate_structure':
         
@@ -533,10 +756,10 @@ for quest_key in QUESTS:
             path_to_save_adv = path.replace(f'{quest_key}.json', get_adv_sub_path(structure_id)+'.json')
             adv_id_to_hook = 'aaaa_zp4adv:' + path_to_save_adv.split('/')[-1].replace('.json','')
 
-            sub_advs.append((get_enter_structure_advancement(DEFAULT_ROOT, DEFAULT_ITEM, text, text, quest_data['match']['match_id'])), path_to_save_adv )
+            sub_advs.append((get_enter_structure_advancement(DEFAULT_ROOT, DEFAULT_ITEM, text, text, quest_data['match']['match_id']), path_to_save_adv ))
             
             
-            quest_data['match']['match_id'] = get_adv_sub_name(structure_id)
+            quest_data['match']['match_id'] = adv_id_to_hook
             quest_data['type'] = 'adv_unlock'
         
         if quest_data['match']['mode'] == 'any':
@@ -558,19 +781,23 @@ for quest_key in QUESTS:
 
     for sub_adv in sub_advs:
         write_json_data(sub_adv[1], sub_adv[0])
+        INSTA_REVOKE_ADV.append('aaaa_zp4adv:'+sub_adv[1].split('/')[-1].split('.')[0])
     
     write_json_data(path, adv_data)
     current_root = f"aaaa_zp4adv:{quest_key}"
 
-# Generate and write JS QUESTS
-js_path = '../kubejs/server_scripts/quests.js'
-with open(js_path, 'r') as f:
-    js_content = f.read()
+def set_js_script_data(path_of_script, start_marker, end_marker, data):
+    with open(path_of_script, 'r') as f:
+        js_content = f.read()
 
-start_marker = '//QUEST_DATA_START\n'
-end_marker = '\n//QUEST_DATA_END'
-start_idx = js_content.find(start_marker) + len(start_marker)
-end_idx = js_content.find(end_marker, start_idx)
-new_content = js_content[:start_idx] + generate_js_quests(QUESTS) + js_content[end_idx:]
-with open(js_path, 'w') as f:
-    f.write(new_content)
+    if js_content:
+        start_idx = js_content.find(start_marker) + len(start_marker)
+        end_idx = js_content.find(end_marker, start_idx)
+        new_content = js_content[:start_idx] + data + js_content[end_idx:]
+        with open(path_of_script, 'w') as f:
+            f.write(new_content)
+
+QUEST_SCRIPT_PATH = '../kubejs/server_scripts/quests.js'
+
+set_js_script_data(QUEST_SCRIPT_PATH, '//QUEST_DATA_START\n', '\n//QUEST_DATA_END', generate_js_quests(QUESTS))
+set_js_script_data(QUEST_SCRIPT_PATH, '//INSTA_REVOKE_DATA_START\n', '\n//INSTA_REVOKE_DATA_END', 'const INSTA_REVOKE_ADVS_PY = '+json.dumps(INSTA_REVOKE_ADV))

@@ -26,7 +26,7 @@
         "frame": "challenge",
         "hidden": true,
         "icon": {
-            "item": "kubejs:quest"
+            "item": "kubejs:quest_book"
         },
         "show_toast": false,
         "title": {

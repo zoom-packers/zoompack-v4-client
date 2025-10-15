@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest"
+            "item": "kubejs:quest_book"
         },
         "title": "TUTORIAL - Reach Combat Lvl 10",
         "description": "Fight enemies to raise your combat level to at least 10.",

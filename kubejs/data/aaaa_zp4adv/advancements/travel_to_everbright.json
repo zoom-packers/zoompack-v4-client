@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:20combatlvl",
+    "parent": "minecraft:adventure/root",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

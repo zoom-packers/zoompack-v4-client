@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest_book"
         },
-        "title": "TUTORIAL - Get a Zeal Lighter",
-        "description": "Trade with the Gate Keeper to obtain a zeal lighter. Use it to fire the portal that must lay near by.",
+        "title": "Slay The Summoner",
+        "description": "The Summoner will use his magic against you. Take care.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:locate_gatekeeper",
+    "parent": "aaaa_zp4adv:loot_blinding_key",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

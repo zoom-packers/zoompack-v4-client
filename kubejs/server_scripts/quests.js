@@ -9,18 +9,162 @@ const ADV_PREFIX = `${ADV_NAMESPACE}${TWO_DOTS}`;
 
 //QUEST_DATA_START
 const QUESTS = {
-    "20enemies_everbright":{
-        "type":"kill",
+    "travel_to_everbright":{
+        "type":"adv_unlock",
         "match":{
-            "mode":"preset_entity_check",
-            "match":"hostile",
-            "dimension_match":"blue_skies:everbright"
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:blue_skies_everbright_trigger"
         },
-        "unlock":"aaaa_zp4adv:20enemies_everbright",
-        "count":20,
+        "unlock":"aaaa_zp4adv:travel_to_everbright",
+        "count":1,
         "dialogue":{
             "speaker":"Elder Librarian",
-            "message":"Very good! I have heard about some towers around that the inhabitant owns special powers. See if you can find any.",
+            "message":"Entered Everbright. New adventures begin!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
+        },
+        "delayNext":200,
+        "next":"locate_everbright_blinding_dungeon"
+    },
+    "locate_everbright_blinding_dungeon":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:blue_skies_everbright_blinding_dungeon_trigger"
+        },
+        "unlock":"aaaa_zp4adv:locate_everbright_blinding_dungeon",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"This is quite the place. Lurk around for keys to open the gate towards the owner.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"loot_blinding_key"
+    },
+    "loot_blinding_key":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"blue_skies:blinding_key"
+        },
+        "unlock":"aaaa_zp4adv:loot_blinding_key",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Try to get to the Summoner, if one is not enough, you might need more.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"slay_summoner"
+    },
+    "slay_summoner":{
+        "type":"kill",
+        "match":{
+            "mode":"exact",
+            "match":"blue_skies:summoner"
+        },
+        "unlock":"aaaa_zp4adv:slay_summoner",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Looks like he is dropping over some bags. See if you can find anything new.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"loot_ethernal_arc"
+    },
+    "loot_ethernal_arc":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"blue_skies:ethernal_arc"
+        },
+        "unlock":"aaaa_zp4adv:loot_ethernal_arc",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"These arcs can be used instead of keys to respawn the Summoner and fight it again. Maybe we can find better loot.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"place_summoning_table"
+    },
+    "place_summoning_table":{
+        "type":"place_block",
+        "match":{
+            "mode":"exact",
+            "match_id":"blue_skies:summoning_table"
+        },
+        "unlock":"aaaa_zp4adv:place_summoning_table",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"The table can be used with the Summoning Tome and Soul Fragments to produce magic.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"locate_everbright_nature_dungeon"
+    },
+    "locate_everbright_nature_dungeon":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:blue_skies_nature_dungeon_trigger"
+        },
+        "unlock":"aaaa_zp4adv:locate_everbright_nature_dungeon",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"What a masterpiece of a maze. Find 4 Nature Keys and get to the top.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"loot_4_nature_key"
+    },
+    "loot_4_nature_key":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"blue_skies:blinding_key"
+        },
+        "unlock":"aaaa_zp4adv:loot_4_nature_key",
+        "count":4,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Now you are ready to ender the fight. Good luck traveler!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"slay_starlit_crusher"
+    },
+    "slay_starlit_crusher":{
+        "type":"kill",
+        "match":{
+            "mode":"exact",
+            "match":"blue_skies:starlit_crusher"
+        },
+        "unlock":"aaaa_zp4adv:slay_starlit_crusher",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Good job. Open the bag to see what goods we get",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"loot_nature_arc"
+    },
+    "loot_nature_arc":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"blue_skies:nature_arc"
+        },
+        "unlock":"aaaa_zp4adv:loot_nature_arc",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Very good! Equip it to become stronger.",
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
         },
@@ -340,21 +484,22 @@ const QUESTS = {
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
-        "next":"travel_to_everbright"
+        "next":"20enemies_everbright"
     },
-    "travel_to_everbright":{
-        "type":"adv_unlock",
+    "20enemies_everbright":{
+        "type":"kill",
         "match":{
-            "mode":"exact",
-            "match":"aaaa_zp4adv:enter_everbright"
+            "mode":"preset_entity_check",
+            "match":"hostile",
+            "dimension_match":"blue_skies:everbright"
         },
-        "unlock":"aaaa_zp4adv:travel_to_everbright",
-        "count":1,
+        "unlock":"aaaa_zp4adv:20enemies_everbright",
+        "count":20,
         "dialogue":{
             "speaker":"Elder Librarian",
-            "message":"Entered Everbright. New adventures begin!",
+            "message":"Very good! I have heard about some towers around that the inhabitant owns special powers. See if you can find any.",
             "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
         }
     }
 }
@@ -571,7 +716,7 @@ function questEvent(event, eventType) {
 
     // TODO: might be worth to cache these ones
 
-    if(!player){
+    if (!player) {
         return 0;
     }
 
@@ -609,15 +754,15 @@ function questEvent(event, eventType) {
                 if (questData.type == 'adv_unlock') {
                     if (questData.hasOwnProperty('match')) {
                         if (questData.match.mode == 'exact') {
-                            if (questData.match.match == advancementId) {
+                            if (questData.match.match_id == advancementId) {
                                 eventMatch = true;
                             }
                         }
 
-                        
+
                         if (questData.match.mode == 'any') {
-                            if(questData.match.hasOwnProperty('match_ids')){
-                                if(questData.match.match_ids.includes(advancementId)){
+                            if (questData.match.hasOwnProperty('match_ids')) {
+                                if (questData.match.match_ids.includes(advancementId)) {
                                     eventMatch = true;
                                 }
                             }
@@ -640,7 +785,13 @@ function questEvent(event, eventType) {
                     if (questData.hasOwnProperty('match')) {
                         if (questData.match.mode == 'exact') {
                             if (item_id == questData.match.match_id) {
-                                eventMatch = true;
+                                if (questData.count > 1) {
+                                    setPlayerQuestProgress(player, item.getCount());
+                                    eventMatch = true;
+                                }
+                                else {
+                                    eventMatch = true;
+                                }
                             }
                         }
 
@@ -731,14 +882,16 @@ function questEvent(event, eventType) {
                 if (questData.type == 'kill') {
                     const { entity } = event;
 
-                    if (questData.hasOwnProperty('match')) {
-                        if (questData.match.mode == 'preset_entity_check') {
-                            if (entity.getType() != 'minecraft:player') {
-                                let dimensionOk = true;
+                    if (entity.getType() != 'minecraft:player') {
+                        let dimensionOk = true;
 
-                                if(questData.match.hasOwnProperty('dimension_match')){
-                                    dimensionOk = entity.level.dimension.toString()==questData.match.dimension_match;
-                                }
+                        if (questData.hasOwnProperty('match')) {
+                            if (questData.match.hasOwnProperty('dimension_match')) {
+                                dimensionOk = entity.level.dimension.toString() == questData.match.dimension_match;
+                            }
+
+                            if (questData.match.mode == 'preset_entity_check') {
+
 
                                 if (questData.match.match == 'hostile' && dimensionOk) {
                                     if (isEntityHostile(entity)) {
@@ -757,27 +910,37 @@ function questEvent(event, eventType) {
                                         eventMatch = true;
                                     }
                                 }
+
+
                             }
 
+                            if (questData.match.mode == 'exact') {
+                                if(questData.match.hasOwnProperty('match')){
+                                    if(questData.match.match == entity.getType()){
+                                        eventMatch = true;
+                                    }
+                                }
+                            }
                         }
+
                     }
                 }
             }
 
-            if (eventType == PLAYER_EVENTS_ADVANCEMENT) {
-                if (questData.type == 'obtain_item') {
-                    const { advancement } = event;
-                    let advancementId = advancement.getId().toString();
+            // if (eventType == PLAYER_EVENTS_ADVANCEMENT) {
+            //     if (questData.type == 'obtain_item') {
+            //         const { advancement } = event;
+            //         let advancementId = advancement.getId().toString();
 
-                    if (advancementId == questData.unlock) {
-                        advancementUnlocked = true;
-                        eventMatch = true;
-                    }
+            //         if (advancementId == questData.unlock) {
+            //             advancementUnlocked = true;
+            //             eventMatch = true;
+            //         }
 
-                    // if match
-                }
+            //         // if match
+            //     }
 
-            }
+            // }
 
             if (increment) {
                 if (eventMatch && activeQuestProgress >= 0) {
@@ -828,7 +991,12 @@ function matchQuestDataByAdvId(advancement_id) {
     return null;
 }
 
-const INSTA_REVOKE_ADVS = ['aaaa_zp4adv:win_raid_loop', 'aaaa_zp4adv:find_gatekeeper_m_loop', 'aaaa_zp4adv:find_gatekeeper_s_loop', 'aaaa_zp4adv:find_gatekeeper_p_loop',  'aaaa_zp4adv:enter_everbright'];
+//INSTA_REVOKE_DATA_START
+const INSTA_REVOKE_ADVS_PY = ["aaaa_zp4adv:blue_skies_everbright_trigger", "aaaa_zp4adv:blue_skies_everbright_blinding_dungeon_trigger", "aaaa_zp4adv:blue_skies_nature_dungeon_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_mountain_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_plains_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_snowy_trigger"]
+//INSTA_REVOKE_DATA_END
+
+const INSTA_REVOKE_ADVS = ['aaaa_zp4adv:win_raid_loop'].concat(INSTA_REVOKE_ADVS_PY);
+
 
 PlayerEvents.advancement(event => {
     const { player, advancement, server } = event;
@@ -853,7 +1021,16 @@ PlayerEvents.advancement(event => {
             let questData = matchQuestDataByAdvId(advancementId);
             if (questData) {
                 if (questData.next) {
-                    sendPlayerQuestToTrack(player, QUESTS[questData.next].unlock);
+                    if (questData.hasOwnProperty('delayNext')) {
+                        server.scheduleInTicks(questData.delayNext, callback => {
+                            sendPlayerQuestToTrack(player, QUESTS[questData.next].unlock);
+                        });
+                    }
+                    else {
+                        sendPlayerQuestToTrack(player, QUESTS[questData.next].unlock);
+                    }
+
+
                 }
                 if (questData.hasOwnProperty('dialogue')) {
                     sendDialogueToPlayer(player, questData.dialogue.speaker, questData.dialogue.message, questData.dialogue.renderType, questData.dialogue.renderTarget);

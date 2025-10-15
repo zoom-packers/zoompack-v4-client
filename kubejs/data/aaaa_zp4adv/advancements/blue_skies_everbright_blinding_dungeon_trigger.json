@@ -9,7 +9,7 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "structure": "blue_skies:gatekeeper_house_mountain"
+                                "structure": "blue_skies:everbright_blinding_dungeon"
                             }
                         }
                     }
@@ -21,7 +21,7 @@
     "display": {
         "announce_to_chat": false,
         "description": {
-            "text": "Locate Blue Skies Gatekeeper House Mountain"
+            "text": "Locate Blue Skies Everbright Blinding Dungeon"
         },
         "frame": "challenge",
         "hidden": true,
@@ -30,7 +30,7 @@
         },
         "show_toast": false,
         "title": {
-            "text": "Locate Blue Skies Gatekeeper House Mountain"
+            "text": "Locate Blue Skies Everbright Blinding Dungeon"
         }
     },
     "requirements": [

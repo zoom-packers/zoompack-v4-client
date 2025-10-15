@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest"
+            "item": "kubejs:quest_book"
         },
         "title": "TUTORIAL - Slay 10 Enemies",
         "description": "You must get used to combat. So slay some enemies. Fighting gives you Combat XP",

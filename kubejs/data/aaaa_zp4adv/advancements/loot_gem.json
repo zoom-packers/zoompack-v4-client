@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest"
+            "item": "kubejs:quest_book"
         },
         "title": "TUTORIAL - Loot a Gem",
         "description": "Pickup a gem from towers across Overworld or from Mobs",

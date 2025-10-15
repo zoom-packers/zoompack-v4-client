@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest"
+            "item": "kubejs:quest_book"
         },
         "title": "TUTORIAL - Win a Raid",
         "description": "Defeat a Raid upon a village. The more raids won, the more terrain you can claim.",

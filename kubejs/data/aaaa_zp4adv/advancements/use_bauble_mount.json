@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest"
+            "item": "kubejs:quest_book"
         },
         "title": "TUTORIAL - Your own personal mount",
         "description": "Use the Mount Bauble to a tamed mob to make it yours. Type /mounts to find out more.",

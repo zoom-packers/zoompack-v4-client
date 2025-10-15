@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest"
+            "item": "kubejs:quest_book"
         },
         "title": "TUTORIAL - Upgrade an item on the Fortuna`s Table",
         "description": "+1 +2 +3 ... For upgrading the gear you need the item, catalyst to boost chance, material to improve gap and protection rune for protection of the item. \nType /fortunas in case you get lost to find out more about the Fortuna`s Table",

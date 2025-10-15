@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest"
+            "item": "kubejs:quest_book"
         },
         "title": "TUTORIAL - Get 20 logs",
         "description": "Everything requires sticks, so gather some wood",
@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:20enemies_everbright",
+    "parent": "aaaa_zp4adv:loot_nature_arc",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

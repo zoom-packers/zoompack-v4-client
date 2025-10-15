@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest"
+            "item": "kubejs:quest_book"
         },
         "title": "TUTORIAL - Kill 4 Bosses",
         "description": "Check out /dimensions to see how you can find bosses in each dimension.",
