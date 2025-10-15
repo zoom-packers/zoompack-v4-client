@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "apotheosis:gem"
+            "item": "kubejs:quest"
         },
         "title": "TUTORIAL - Get some gem dust",
         "description": "Drop an anvil on gems to crush them into gem dust.",

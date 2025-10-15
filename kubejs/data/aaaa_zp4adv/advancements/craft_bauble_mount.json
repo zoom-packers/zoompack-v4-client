@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "apotheosis:gem"
+            "item": "kubejs:quest"
         },
         "title": "TUTORIAL - Get a Bauble Mount",
         "description": "Get yourself a Bauble for a Mount. Type /mounts to find out more.",

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "apotheosis:gem"
+            "item": "kubejs:quest"
         },
         "title": "TUTORIAL - Get a Fortuna`s Anvil",
         "description": "Place a Fortuna`s Anvil on the ground. Use it to upgrade your items. Type /fortunas to find out more.",

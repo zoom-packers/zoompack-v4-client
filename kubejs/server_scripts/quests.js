@@ -9,6 +9,23 @@ const ADV_PREFIX = `${ADV_NAMESPACE}${TWO_DOTS}`;
 
 //QUEST_DATA_START
 const QUESTS = {
+    "20enemies_everbright":{
+        "type":"kill",
+        "match":{
+            "mode":"preset_entity_check",
+            "match":"hostile",
+            "dimension_match":"blue_skies:everbright"
+        },
+        "unlock":"aaaa_zp4adv:20enemies_everbright",
+        "count":20,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Very good! I have heard about some towers around that the inhabitant owns special powers. See if you can find any.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"20logs"
+    },
     "20logs":{
         "type":"break_block",
         "match":{
@@ -18,10 +35,10 @@ const QUESTS = {
         "unlock":"aaaa_zp4adv:20logs",
         "count":20,
         "dialogue":{
-            "speaker":"Daluku",
+            "speaker":"Elder Librarian",
             "message":"Great work. Get some tools for yourself and start slaying some enemies.",
             "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
         "next":"10enemies"
     },
@@ -34,10 +51,10 @@ const QUESTS = {
         "unlock":"aaaa_zp4adv:10enemies",
         "count":10,
         "dialogue":{
-            "speaker":"Daluku",
+            "speaker":"Elder Librarian",
             "message":"Looks like you are getting stronger! Remember you are a gatherer, so butcher some animals",
             "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/troll.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
         "next":"10farmanimals"
     },
@@ -50,10 +67,10 @@ const QUESTS = {
         "unlock":"aaaa_zp4adv:10farmanimals",
         "count":10,
         "dialogue":{
-            "speaker":"Daluku",
+            "speaker":"Elder Librarian",
             "message":"Good, now you won't starve. Continue!",
             "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
         "next":"10combatlvl"
     },
@@ -66,10 +83,10 @@ const QUESTS = {
         "unlock":"aaaa_zp4adv:10combatlvl",
         "count":10,
         "dialogue":{
-            "speaker":"Daluku",
+            "speaker":"Elder Librarian",
             "message":"Your combat skills are improving. Keep it up!",
             "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
         "next":"loot_gem"
     },
@@ -82,10 +99,10 @@ const QUESTS = {
         "unlock":"aaaa_zp4adv:loot_gem",
         "count":1,
         "dialogue":{
-            "speaker":"Daluku",
+            "speaker":"Elder Librarian",
             "message":"A shiny gem! You can use it to enhance your weaponry on a Smithing Table. Type /gems to find more.",
             "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
         "next":"crush_gem"
     },
@@ -98,10 +115,10 @@ const QUESTS = {
         "unlock":"aaaa_zp4adv:crush_gem",
         "count":1,
         "dialogue":{
-            "speaker":"Daluku",
+            "speaker":"Elder Librarian",
             "message":"Crushed it! You can use the dust to craft tables for gems and affixes. Press U while hovering over it.",
             "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
         "next":"place_salvaging_table"
     },
@@ -114,10 +131,10 @@ const QUESTS = {
         "unlock":"aaaa_zp4adv:place_salvaging_table",
         "count":1,
         "dialogue":{
-            "speaker":"Daluku",
+            "speaker":"Elder Librarian",
             "message":"Salvaging table placed. Time to recycle! Extract affix materials or even ingots.",
             "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
         "next":"place_simple_reforging_table"
     },
@@ -130,10 +147,10 @@ const QUESTS = {
         "unlock":"aaaa_zp4adv:place_simple_reforging_table",
         "count":1,
         "dialogue":{
-            "speaker":"Daluku",
+            "speaker":"Elder Librarian",
             "message":"Reforging ready. Enhance your gear! ",
             "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
         "next":"first_affix_item"
     },
@@ -146,10 +163,10 @@ const QUESTS = {
         "unlock":"aaaa_zp4adv:first_affix_item",
         "count":1,
         "dialogue":{
-            "speaker":"Daluku",
+            "speaker":"Elder Librarian",
             "message":"Great! These are all over the world. There are many variations, make sure to equip them to match your playstyle.",
             "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
         "next":"place_fortunas_anvil"
     },
@@ -162,10 +179,10 @@ const QUESTS = {
         "unlock":"aaaa_zp4adv:place_fortunas_anvil",
         "count":1,
         "dialogue":{
-            "speaker":"Daluku",
+            "speaker":"Elder Librarian",
             "message":"Fortuna`s anvil is set. Good luck!",
             "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
         "next":"use_fortunas_anvil"
     },
@@ -182,10 +199,10 @@ const QUESTS = {
         "unlock":"aaaa_zp4adv:use_fortunas_anvil",
         "count":1,
         "dialogue":{
-            "speaker":"Daluku",
+            "speaker":"Elder Librarian",
             "message":"Amazing! Now let`s put your new gear to work to see how it behaves! Hunt down something!",
             "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
         "next":"craft_bauble_mount"
     },
@@ -198,10 +215,10 @@ const QUESTS = {
         "unlock":"aaaa_zp4adv:craft_bauble_mount",
         "count":1,
         "dialogue":{
-            "speaker":"Daluku",
+            "speaker":"Elder Librarian",
             "message":"Great work! Now use that to capture a tamed mount.",
             "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
         "next":"use_bauble_mount"
     },
@@ -218,10 +235,10 @@ const QUESTS = {
         "unlock":"aaaa_zp4adv:use_bauble_mount",
         "count":1,
         "dialogue":{
-            "speaker":"Daluku",
+            "speaker":"Elder Librarian",
             "message":"Amazing! Now you can toggle your mount with the key V. Take care of it!",
             "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
         "next":"50enemies"
     },
@@ -234,10 +251,10 @@ const QUESTS = {
         "unlock":"aaaa_zp4adv:50enemies",
         "count":50,
         "dialogue":{
-            "speaker":"Daluku",
+            "speaker":"Elder Librarian",
             "message":"50 enemies down! You're a warrior now.",
             "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
         "next":"win_raid"
     },
@@ -250,10 +267,10 @@ const QUESTS = {
         "unlock":"aaaa_zp4adv:win_raid",
         "count":1,
         "dialogue":{
-            "speaker":"Daluku",
+            "speaker":"Elder Librarian",
             "message":"Raid victory! The village is safe. Press K and go to Villager Hero to see if you can claim more terrain.",
             "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
         "next":"kill_bosses"
     },
@@ -266,10 +283,10 @@ const QUESTS = {
         "unlock":"aaaa_zp4adv:kill_bosses",
         "count":4,
         "dialogue":{
-            "speaker":"Daluku",
+            "speaker":"Elder Librarian",
             "message":"Bosses defeated! Impressive strength. It is time to move towards other lands.",
             "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
         "next":"locate_gatekeeper"
     },
@@ -278,18 +295,18 @@ const QUESTS = {
         "match":{
             "mode":"any",
             "match_ids":[
-                "aaaa_zp4adv:find_gatekeeper_m_loop",
-                "aaaa_zp4adv:find_gatekeeper_s_loop",
-                "aaaa_zp4adv:find_gatekeeper_p_loop"
+                "aaaa_zp4adv:blue_skies_gatekeeper_house_mountain_trigger",
+                "aaaa_zp4adv:blue_skies_gatekeeper_house_plains_trigger",
+                "aaaa_zp4adv:blue_skies_gatekeeper_house_snowy_trigger"
             ]
         },
         "unlock":"aaaa_zp4adv:locate_gatekeeper",
         "count":1,
         "dialogue":{
-            "speaker":"Daluku",
+            "speaker":"Elder Librarian",
             "message":"Found the Gate Keeper hourse! Trade with him to get a Zeal Lighter",
             "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
         "next":"get_zeal_lighter"
     },
@@ -302,10 +319,10 @@ const QUESTS = {
         "unlock":"aaaa_zp4adv:get_zeal_lighter",
         "count":1,
         "dialogue":{
-            "speaker":"Daluku",
+            "speaker":"Elder Librarian",
             "message":"Zeal lighter acquired. Light the way towards the Blue Skies!",
             "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
         "next":"20combatlvl"
     },
@@ -318,10 +335,10 @@ const QUESTS = {
         "unlock":"aaaa_zp4adv:20combatlvl",
         "count":20,
         "dialogue":{
-            "speaker":"Daluku",
+            "speaker":"Elder Librarian",
             "message":"Level 20 reached for combat! Now you are ready for the Everbright",
             "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
         "next":"travel_to_everbright"
     },
@@ -334,10 +351,10 @@ const QUESTS = {
         "unlock":"aaaa_zp4adv:travel_to_everbright",
         "count":1,
         "dialogue":{
-            "speaker":"Daluku",
+            "speaker":"Elder Librarian",
             "message":"Entered Everbright. New adventures begin!",
             "renderType":"rectangle",
-            "renderTarget":"medievalorigins:textures/item/high_elf.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         }
     }
 }
@@ -717,20 +734,25 @@ function questEvent(event, eventType) {
                     if (questData.hasOwnProperty('match')) {
                         if (questData.match.mode == 'preset_entity_check') {
                             if (entity.getType() != 'minecraft:player') {
+                                let dimensionOk = true;
 
-                                if (questData.match.match == 'hostile') {
+                                if(questData.match.hasOwnProperty('dimension_match')){
+                                    dimensionOk = entity.level.dimension.toString()==questData.match.dimension_match;
+                                }
+
+                                if (questData.match.match == 'hostile' && dimensionOk) {
                                     if (isEntityHostile(entity)) {
                                         eventMatch = true;
                                     }
                                 }
 
-                                if (questData.match.match == 'passive') {
+                                if (questData.match.match == 'passive' && dimensionOk) {
                                     if (!isEntityHostile(entity)) {
                                         eventMatch = true;
                                     }
                                 }
 
-                                if (questData.match.match == 'boss') {
+                                if (questData.match.match == 'boss' && dimensionOk) {
                                     if (isEMobBoss(entity)) {
                                         eventMatch = true;
                                     }

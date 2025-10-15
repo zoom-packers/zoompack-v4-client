@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "apotheosis:gem"
+            "item": "kubejs:quest"
         },
         "title": "TUTORIAL - Get a Salvaging Table",
         "description": "Place a Salvaging Table. Craft it and use it to get materials.",

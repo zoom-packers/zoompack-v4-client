@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "apotheosis:gem"
+            "item": "kubejs:quest"
         },
         "title": "TUTORIAL - Travel to the Everbright",
         "description": "Light the portal in the Gatekeep, but make sure it is for Everbright",

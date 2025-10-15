@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "apotheosis:gem"
+            "item": "kubejs:quest"
         },
         "title": "TUTORIAL - Get an item with Affixes",
         "description": "Loot or either create an item with Affixes at the Reforging Table",

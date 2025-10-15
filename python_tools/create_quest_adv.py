@@ -31,6 +31,50 @@ def get_impossible_advancement(root, icon, title, description, xp_reward):
         "sends_telemetry_event": False
     }
 
+def get_enter_structure_advancement(root, item, title, description, structure_id):
+    return {
+        "parent": root,
+        "criteria": {
+            "in_structure": {
+            "conditions": {
+                "player": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                    "location": {
+                        "structure": structure_id
+                    }
+                    }
+                }
+                ]
+            },
+            "trigger": "minecraft:location"
+            }
+        },
+        "display": {
+            "announce_to_chat": False,
+            "description": {
+            "text": description
+            },
+            "frame": "challenge",
+            "hidden": True,
+            "icon": {
+            "item": item
+            },
+            "show_toast": False,
+            "title": {
+            "text": title
+            }
+        },
+        "requirements": [
+            [
+            "in_structure"
+            ]
+        ],
+        "sends_telemetry_event": False
+        }
+
 def get_inventory_changed_advancement(root, icon, title, description, xp_reward, item, count=0):
     advancement = get_impossible_advancement(root, icon, title, description, xp_reward)
 
@@ -86,12 +130,27 @@ def generate_js_quests(quests_data):
         quests_dict[key] = quest_entry
     return f"const QUESTS = {json.dumps(quests_dict, separators=(',',':'), indent=4)}"
 
-DEFAULT_ITEM = 'apotheosis:gem'
+DEFAULT_ITEM = 'kubejs:quest'
 DEFAULT_ROOT = "minecraft:adventure/root"
 QUESTS = {
-    
-
-    
+    '20enemies_everbright': {
+        'title': 'EVERBRIGHT - Slay 20 Enemies',
+        'description': 'This new place is much more harsh. New possibilities, new enemies. Get acquainted.',
+        'xp': 20,
+        'type': 'kill',
+        'match': {
+            'mode': 'preset_entity_check',
+            'match': 'hostile',
+            'dimension_match' : 'blue_skies:everbright'
+        },
+        'count': 20,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Very good! I have heard about some towers around that the inhabitant owns special powers. See if you can find any.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
+        }
+    },
 
     '20logs': {
         'title': 'TUTORIAL - Get 20 logs',
@@ -104,10 +163,10 @@ QUESTS = {
         },
         'count': 20,
         'dialogue': {
-            'speaker': 'Daluku',
+            'speaker': 'Elder Librarian',
             'message': 'Great work. Get some tools for yourself and start slaying some enemies.',
             'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
     '10enemies': {
@@ -121,10 +180,10 @@ QUESTS = {
         },
         'count': 10,
         'dialogue': {
-            'speaker': 'Daluku',
+            'speaker': 'Elder Librarian',
             'message': 'Looks like you are getting stronger! Remember you are a gatherer, so butcher some animals',
             'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/troll.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
     '10farmanimals': {
@@ -138,10 +197,10 @@ QUESTS = {
         },
         'count': 10,
         'dialogue': {
-            'speaker': 'Daluku',
+            'speaker': 'Elder Librarian',
             'message': 'Good, now you won\'t starve. Continue!',
             'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
     '10combatlvl': {
@@ -155,10 +214,10 @@ QUESTS = {
         },
         'count': 10,
         'dialogue': {
-            'speaker': 'Daluku',
+            'speaker': 'Elder Librarian',
             'message': 'Your combat skills are improving. Keep it up!',
             'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
     'loot_gem': {
@@ -172,10 +231,10 @@ QUESTS = {
         },
         'count': 1,
         'dialogue': {
-            'speaker': 'Daluku',
+            'speaker': 'Elder Librarian',
             'message': 'A shiny gem! You can use it to enhance your weaponry on a Smithing Table. Type /gems to find more.',
             'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
     'crush_gem': {
@@ -189,10 +248,10 @@ QUESTS = {
         },
         'count': 1,
         'dialogue': {
-            'speaker': 'Daluku',
+            'speaker': 'Elder Librarian',
             'message': 'Crushed it! You can use the dust to craft tables for gems and affixes. Press U while hovering over it.',
             'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
     'place_salvaging_table': {
@@ -206,10 +265,10 @@ QUESTS = {
         },
         'count': 1,
         'dialogue': {
-            'speaker': 'Daluku',
+            'speaker': 'Elder Librarian',
             'message': 'Salvaging table placed. Time to recycle! Extract affix materials or even ingots.',
             'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
     'place_simple_reforging_table': {
@@ -223,10 +282,10 @@ QUESTS = {
         },
         'count': 1,
         'dialogue': {
-            'speaker': 'Daluku',
+            'speaker': 'Elder Librarian',
             'message': 'Reforging ready. Enhance your gear! ',
             'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
     'first_affix_item': {
@@ -240,10 +299,10 @@ QUESTS = {
         },
         'count': 1,
         'dialogue': {
-            'speaker': 'Daluku',
+            'speaker': 'Elder Librarian',
             'message': 'Great! These are all over the world. There are many variations, make sure to equip them to match your playstyle.',
             'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
     'place_fortunas_anvil': {
@@ -257,10 +316,10 @@ QUESTS = {
         },
         'count': 1,
         'dialogue': {
-            'speaker': 'Daluku',
+            'speaker': 'Elder Librarian',
             'message': 'Fortuna`s anvil is set. Good luck!',
             'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
     'use_fortunas_anvil': {
@@ -278,10 +337,10 @@ QUESTS = {
         },
         'count': 1,
         'dialogue': {
-            'speaker': 'Daluku',
+            'speaker': 'Elder Librarian',
             'message': 'Amazing! Now let`s put your new gear to work to see how it behaves! Hunt down something!',
             'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
     'craft_bauble_mount': {
@@ -295,10 +354,10 @@ QUESTS = {
         },
         'count': 1,
         'dialogue': {
-            'speaker': 'Daluku',
+            'speaker': 'Elder Librarian',
             'message': 'Great work! Now use that to capture a tamed mount.',
             'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
     'use_bauble_mount': {
@@ -316,10 +375,10 @@ QUESTS = {
         },
         'count': 1,
         'dialogue': {
-            'speaker': 'Daluku',
+            'speaker': 'Elder Librarian',
             'message': 'Amazing! Now you can toggle your mount with the key V. Take care of it!',
             'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
     '50enemies': {
@@ -333,10 +392,10 @@ QUESTS = {
         },
         'count': 50,
         'dialogue': {
-            'speaker': 'Daluku',
+            'speaker': 'Elder Librarian',
             'message': '50 enemies down! You\'re a warrior now.',
             'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
     'win_raid': {
@@ -350,10 +409,10 @@ QUESTS = {
         },
         'count': 1,
         'dialogue': {
-            'speaker': 'Daluku',
+            'speaker': 'Elder Librarian',
             'message': 'Raid victory! The village is safe. Press K and go to Villager Hero to see if you can claim more terrain.',
             'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
     'kill_bosses': {
@@ -367,31 +426,29 @@ QUESTS = {
         },
         'count': 4,
         'dialogue': {
-            'speaker': 'Daluku',
+            'speaker': 'Elder Librarian',
             'message': 'Bosses defeated! Impressive strength. It is time to move towards other lands.',
             'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
-    
     'locate_gatekeeper': {
         'title': 'TUTORIAL - Find the Gate Keeper',
         'description': 'Small hut with a special trader. The Gate Keeper holds the portal towards the next dimension.',
         'xp': 20,
-        'type': 'adv_unlock',
+        'type': 'locate_structure',
         'match': {
             'mode': 'any',
-            'match_ids': ['aaaa_zp4adv:find_gatekeeper_m_loop', 'aaaa_zp4adv:find_gatekeeper_s_loop', 'aaaa_zp4adv:find_gatekeeper_p_loop']
+            'match_ids': ['blue_skies:gatekeeper_house_mountain', 'blue_skies:gatekeeper_house_plains', 'blue_skies:gatekeeper_house_snowy']
         },
         'count': 1,
         'dialogue': {
-            'speaker': 'Daluku',
+            'speaker': 'Elder Librarian',
             'message': 'Found the Gate Keeper hourse! Trade with him to get a Zeal Lighter',
             'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
-
     'get_zeal_lighter': {
         'title': 'TUTORIAL - Get a Zeal Lighter',
         'description': 'Trade with the Gate Keeper to obtain a zeal lighter. Use it to fire the portal that must lay near by.',
@@ -403,13 +460,12 @@ QUESTS = {
         },
         'count': 1,
         'dialogue': {
-            'speaker': 'Daluku',
+            'speaker': 'Elder Librarian',
             'message': 'Zeal lighter acquired. Light the way towards the Blue Skies!',
             'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
-
     '20combatlvl': {
         'title': 'TUTORIAL - Reach Combat Lvl 20',
         'description': 'Everbright is for no weak souls. Fight enemies to raise your combat level to at least 20.',
@@ -421,10 +477,10 @@ QUESTS = {
         },
         'count': 20,
         'dialogue': {
-            'speaker': 'Daluku',
+            'speaker': 'Elder Librarian',
             'message': 'Level 20 reached for combat! Now you are ready for the Everbright',
             'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
     'travel_to_everbright': {
@@ -438,15 +494,25 @@ QUESTS = {
         },
         'count': 1,
         'dialogue': {
-            'speaker': 'Daluku',
+            'speaker': 'Elder Librarian',
             'message': 'Entered Everbright. New adventures begin!',
             'renderType': 'rectangle',
-            'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
     # Arcane essence towards the end of overworld
 }
 
+
+def get_adv_sub_name(structure_id):
+    return structure_id+'_trigger'
+
+def get_adv_sub_path(structure_id):
+    return structure_id.replace(':','_')+'_trigger'
+
+def get_adv_structure_text(structure_id):
+    info = structure_id.replace(':',' ').replace('_',' ').title()
+    return f'Locate {info}'
 
 current_root = DEFAULT_ROOT
 for quest_key in QUESTS:
@@ -455,17 +521,44 @@ for quest_key in QUESTS:
     icon = DEFAULT_ITEM
     if 'item' in quest_data:
         icon = quest_data['item']
+
+    sub_advs = []
     
+    if quest_data['type'] == 'locate_structure':
+        
+        if quest_data['match']['mode'] == 'exact':
+            structure_id = quest_data['match']['match_id']
+            text = get_adv_structure_text(structure_id)
+
+            path_to_save_adv = path.replace(f'{quest_key}.json', get_adv_sub_path(structure_id)+'.json')
+            adv_id_to_hook = 'aaaa_zp4adv:' + path_to_save_adv.split('/')[-1].replace('.json','')
+
+            sub_advs.append((get_enter_structure_advancement(DEFAULT_ROOT, DEFAULT_ITEM, text, text, quest_data['match']['match_id'])), path_to_save_adv )
+            
+            
+            quest_data['match']['match_id'] = get_adv_sub_name(structure_id)
+            quest_data['type'] = 'adv_unlock'
+        
+        if quest_data['match']['mode'] == 'any':
+            finals = []
+            for structure_id in quest_data['match']['match_ids']:
+                text = get_adv_structure_text(structure_id)
+                advancement_id = get_adv_sub_name(structure_id)
+
+                path_to_save_adv = path.replace(f'{quest_key}.json', get_adv_sub_path(structure_id)+'.json')
+                adv_id_to_hook = 'aaaa_zp4adv:' + path_to_save_adv.split('/')[-1].replace('.json','')
+
+                sub_advs.append((get_enter_structure_advancement(DEFAULT_ROOT, DEFAULT_ITEM, text, text, structure_id), path_to_save_adv))
+                finals.append(adv_id_to_hook)
+
+            quest_data['match']['match_ids'] = finals
+            quest_data['type'] = 'adv_unlock'
+
     adv_data = get_impossible_advancement(current_root, icon, quest_data['title'], quest_data['description'], quest_data['xp'])
 
-    # if quest_data['type'] == 'obtain_item':
-    #     if quest_data['match']['mode'] == 'exact':
-    #         count = quest_data['count']
-    #         if count>1:
-    #             adv_data = get_inventory_changed_advancement(current_root, icon, quest_data['title'], quest_data['description'], quest_data['xp'], quest_data['match']['match_id'], count)
-    #         else:
-    #             adv_data = get_inventory_changed_advancement(current_root, icon, quest_data['title'], quest_data['description'], quest_data['xp'], quest_data['match']['match_id'])
-
+    for sub_adv in sub_advs:
+        write_json_data(sub_adv[1], sub_adv[0])
+    
     write_json_data(path, adv_data)
     current_root = f"aaaa_zp4adv:{quest_key}"
 

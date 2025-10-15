@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "apotheosis:gem"
+            "item": "kubejs:quest"
         },
         "title": "TUTORIAL - Get a Zeal Lighter",
         "description": "Trade with the Gate Keeper to obtain a zeal lighter. Use it to fire the portal that must lay near by.",
