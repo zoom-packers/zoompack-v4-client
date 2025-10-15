@@ -1,14 +1,18 @@
 {
     "structures": [
         {
-            "structure": "abyss_arena:arena_crystal_golem",
+            "structure": "abyss_arena:arena_elder",
             "weight": 1
+        },
+        {
+          "structure": "abyss_arena:arena_magician",
+          "weight": 1
         }
     ],
     "placement": {
         "type": "minecraft:random_spread",
         "spacing": 40,
         "separation": 11,
-        "salt": 342685291
+        "salt": 472950756
     }
 }
