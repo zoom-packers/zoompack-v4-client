@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:place_summoning_table",
+    "parent": "aaaa_zp4adv:get_diopside_backpack",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

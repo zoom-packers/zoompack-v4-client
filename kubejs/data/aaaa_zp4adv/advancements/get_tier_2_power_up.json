@@ -3,7 +3,7 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Get Yourself a Stronger Powerup",
+        "title": "Get Yourself a Stronger Powerup 2",
         "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
         "frame": "task",
         "show_toast": false,

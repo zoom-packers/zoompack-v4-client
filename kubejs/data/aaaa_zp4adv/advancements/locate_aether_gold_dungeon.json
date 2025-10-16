@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:slay_valkyrie_queen",
+    "parent": "aaaa_zp4adv:45combatlvl",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

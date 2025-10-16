@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:slay_sun_spirit",
+    "parent": "aaaa_zp4adv:get_tier_4_power_up",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

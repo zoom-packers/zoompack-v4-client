@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Travel to The Aether",
-        "description": "For this you need a portal of glowston lit with water. If you ever get lost, type /dimensions for tips",
+        "title": "Slay The Aerwhale King",
+        "description": "The Aerwhale King is a nimble, yet silent trickster. Make sure to come prepared to the fight.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:root",
+    "parent": "aaaa_zp4adv:locate_aether_platinum_dungeon",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

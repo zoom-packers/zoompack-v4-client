@@ -171,7 +171,7 @@ DEFAULT_ROOT = "aaaa_zp4adv:root"
 QUESTS = {
     'travel_to_aether': {
         'item': 'kubejs:quest',
-        'title': 'TUTORIAL - Travel to The Aether',
+        'title': 'Travel to The Aether',
         'description': 'For this you need a portal of glowston lit with water. If you ever get lost, type /dimensions for tips',
         'xp': 20,
 	    'reward' : [10,0,0,0,0],
@@ -212,7 +212,7 @@ QUESTS = {
     'place_aether_altar': {
         'item': 'kubejs:quest',
         'title': 'Get an Altar',
-        'description': 'Find or craft an Altar to repair the damage on your items with Ambrosium Shards',
+        'description': 'Find or craft an Altar to repair the damage on your items with Ambrosium Shards. Please place it on a surface.',
         'xp': 20,
 	    'reward' : [10,0,0,0,0],
         'type': 'place_block',
@@ -233,7 +233,7 @@ QUESTS = {
         'title': 'Find a Bronze Dungeon',
         'description': 'Bronze Dungeons are hidden underground but they have an open exit.',
         'xp': 20,
-	    'reward' : [10,0,0,0,0],
+	    'reward' : [0,1,0,0,0],
         'type': 'locate_structure',
         'match': {
             'mode': 'exact',
@@ -262,6 +262,24 @@ QUESTS = {
         'dialogue': {
             'speaker': 'Elder Librarian',
             'message': 'Every key opens something. Look around!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
+        }
+    },
+    '40combatlvl': {
+        'title': 'Reach Combat Lvl 40',
+        'description': 'Fight enemies to raise your combat level to at least 40.',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'reach_level',
+        'match': {
+            'mode': 'check_level',
+            'skill': 'combat'
+        },
+        'count': 40,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Your combat skills are improving. Keep it up!',
             'renderType': 'rectangle',
             'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
         }
@@ -323,6 +341,43 @@ QUESTS = {
             'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
         }
     },
+    'get_aether_backpack': {
+        'item': 'kubejs:quest',
+        'title': 'Get an Aether Backpack',
+        'description': 'Craft a Aether Backpack to carry even more items with you roadming the world.',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'sophisticatedbackpacks:gold_backpack'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Great! Did you knew you can upgrade your backpack to magnetize items towards you?',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
+        }
+    },
+    '45combatlvl': {
+        'title': 'Reach Combat Lvl 45',
+        'description': 'Fight enemies to raise your combat level to at least 45.',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'reach_level',
+        'match': {
+            'mode': 'check_level',
+            'skill': 'combat'
+        },
+        'count': 45,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Your combat skills are improving. Keep it up!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
+        }
+    },
     'locate_aether_gold_dungeon': {
         'item': 'kubejs:quest',
         'title': 'Find a Gold Dungeon',
@@ -361,6 +416,43 @@ QUESTS = {
             'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
         }
     },
+    '48combatlvl': {
+        'title': 'Reach Combat Lvl 48',
+        'description': 'Fight enemies to raise your combat level to at least 48.',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'reach_level',
+        'match': {
+            'mode': 'check_level',
+            'skill': 'combat'
+        },
+        'count': 48,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Your combat skills are improving. Keep it up!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
+        }
+    },
+    'get_tier_4_power_up': {
+        'item': 'kubejs:quest',
+        'title': 'Get Yourself a Stronger Powerup 4',
+        'description': 'Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'startswith',
+            'match_id': 'kubejs:tier_4'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Great! Apply those to your armor to become stronger!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
+        }
+    },
     'locate_aether_platinum_dungeon': {
         'item': 'kubejs:quest',
         'title': 'Find a Platinum Dungeon',
@@ -376,6 +468,43 @@ QUESTS = {
         'dialogue': {
             'speaker': 'Elder Librarian',
             'message': 'Incredible construction. I wonder what loot could we get out of it.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
+        }
+    },
+    'slay_aerwhale_king': {
+        'item': 'kubejs:quest',
+        'title': 'Slay The Aerwhale King',
+        'description': 'The Aerwhale King is a nimble, yet silent trickster. Make sure to come prepared to the fight.',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'kill',
+        'match': {
+            'mode': 'exact',
+            'match': 'lost_aether_content:aerwhale_king'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Incredible! Surely not everyone could face that king. It`s time to grow stronger',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
+        }
+    },
+    '50combatlvl': {
+        'title': 'Reach Combat Lvl 50',
+        'description': 'Fight enemies to raise your combat level to at least 50.',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'reach_level',
+        'match': {
+            'mode': 'check_level',
+            'skill': 'combat'
+        },
+        'count': 50,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Your combat skills are improving. Keep it up!',
             'renderType': 'rectangle',
             'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
         }
@@ -588,6 +717,24 @@ QUESTS = {
             'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
+    'get_first_backpack': {
+        'title': 'TUTORIAL - Get your beginer Backpack',
+        'description': 'Craft a Backpack so you can carry more items around. When equiped press B to open',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'sophisticatedbackpacks:backpack'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Great. Now you can carry as much as you want. You can upgrade them aswell, tho with a price.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
     'craft_bauble_mount': {
         'title': 'TUTORIAL - Get a Bauble Mount',
         'description': 'Get yourself a Bauble for a Mount. Type /mounts to find out more.',
@@ -696,6 +843,24 @@ QUESTS = {
         'dialogue': {
             'speaker': 'Elder Librarian',
             'message': 'Raid victory! The village is safe. Press K and go to Villager Hero to see if you can claim more terrain.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
+    'get_copper_backpack': {
+        'title': 'TUTORIAL - Get a bigger Backpack',
+        'description': 'Craft a Copper Backpack to carry even more items with you roadming the world.',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'sophisticatedbackpacks:copper_backpack'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Great! Did you knew you can upgrade with a music box and play songs as you travel?',
             'renderType': 'rectangle',
             'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
@@ -906,6 +1071,25 @@ QUESTS = {
             'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
         }
     },
+    'get_diopside_backpack': {
+        'item': 'kubejs:quest',
+        'title': 'Get a Diopside Backpack',
+        'description': 'Craft a Diopside Backpack to carry even more items with you roadming the world.',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'sophisticatedbackpacks:iron_backpack'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Great! Did you knew you can upgrade your backpack to feed you while you fight?',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
+        }
+    },
     '25combatlvl': {
         'item': 'kubejs:quest',
         'title': 'Reach Combat Lvl 25',
@@ -927,7 +1111,7 @@ QUESTS = {
     },
     'get_tier_2_power_up': {
         'item': 'kubejs:quest',
-        'title': 'Get Yourself a Stronger Powerup',
+        'title': 'Get Yourself a Stronger Powerup 2',
         'description': 'Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it',
         'xp': 20,
 	    'reward' : [10,0,0,0,0],
@@ -1215,7 +1399,7 @@ QUESTS = {
     },
     'get_tier_3_power_up': {
         'item': 'kubejs:quest',
-        'title': 'Get Yourself a Stronger Powerup',
+        'title': 'Get Yourself a Stronger Powerup 3',
         'description': 'Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it',
         'xp': 20,
 	    'reward' : [10,0,0,0,0],
@@ -1327,6 +1511,26 @@ QUESTS = {
             'renderTarget': 'zoompack_images:textures/elder_librarian/everdawn.png'
         }
     },
+    'travel_back2_to_overworld': {
+        'item': 'kubejs:quest',
+        'title': 'Travel back to the Overworld',
+        'description': 'Get back home as we need to find the next adventure. Remember: /dimensions',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'delayNext' : 200,
+        'type': 'travel_dimension',
+        'match': {
+            'mode': 'exact',
+            'match_id' : 'minecraft:overworld'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Welcome back home, but adventure continues',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
+        }
+    },  
 }
 
 

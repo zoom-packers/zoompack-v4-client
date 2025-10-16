@@ -88,8 +88,8 @@ const QUESTS = {
             "match_id":"aaaa_zp4adv:aether_bronze_dungeon_trigger"
         },
         "reward":[
-            10,
             0,
+            1,
             0,
             0,
             0
@@ -122,6 +122,29 @@ const QUESTS = {
         "dialogue":{
             "speaker":"Elder Librarian",
             "message":"Every key opens something. Look around!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
+        },
+        "next":"40combatlvl"
+    },
+    "40combatlvl":{
+        "type":"reach_level",
+        "match":{
+            "mode":"check_level",
+            "skill":"combat"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:40combatlvl",
+        "count":40,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Your combat skills are improving. Keep it up!",
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
         },
@@ -194,6 +217,52 @@ const QUESTS = {
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
         },
+        "next":"get_aether_backpack"
+    },
+    "get_aether_backpack":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"sophisticatedbackpacks:gold_backpack"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:get_aether_backpack",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Great! Did you knew you can upgrade your backpack to magnetize items towards you?",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"45combatlvl"
+    },
+    "45combatlvl":{
+        "type":"reach_level",
+        "match":{
+            "mode":"check_level",
+            "skill":"combat"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:45combatlvl",
+        "count":45,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Your combat skills are improving. Keep it up!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
+        },
         "next":"locate_aether_gold_dungeon"
     },
     "locate_aether_gold_dungeon":{
@@ -240,6 +309,52 @@ const QUESTS = {
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
         },
+        "next":"48combatlvl"
+    },
+    "48combatlvl":{
+        "type":"reach_level",
+        "match":{
+            "mode":"check_level",
+            "skill":"combat"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:48combatlvl",
+        "count":48,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Your combat skills are improving. Keep it up!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
+        },
+        "next":"get_tier_4_power_up"
+    },
+    "get_tier_4_power_up":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"startswith",
+            "match_id":"kubejs:tier_4"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:get_tier_4_power_up",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Great! Apply those to your armor to become stronger!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
+        },
         "next":"locate_aether_platinum_dungeon"
     },
     "locate_aether_platinum_dungeon":{
@@ -260,6 +375,52 @@ const QUESTS = {
         "dialogue":{
             "speaker":"Elder Librarian",
             "message":"Incredible construction. I wonder what loot could we get out of it.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
+        },
+        "next":"slay_aerwhale_king"
+    },
+    "slay_aerwhale_king":{
+        "type":"kill",
+        "match":{
+            "mode":"exact",
+            "match":"lost_aether_content:aerwhale_king"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:slay_aerwhale_king",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Incredible! Surely not everyone could face that king. It`s time to grow stronger",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
+        },
+        "next":"50combatlvl"
+    },
+    "50combatlvl":{
+        "type":"reach_level",
+        "match":{
+            "mode":"check_level",
+            "skill":"combat"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:50combatlvl",
+        "count":50,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Your combat skills are improving. Keep it up!",
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
         },
@@ -520,6 +681,29 @@ const QUESTS = {
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
+        "next":"get_first_backpack"
+    },
+    "get_first_backpack":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"sophisticatedbackpacks:backpack"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:get_first_backpack",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Great. Now you can carry as much as you want. You can upgrade them aswell, tho with a price.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
+        },
         "next":"craft_bauble_mount"
     },
     "craft_bauble_mount":{
@@ -663,6 +847,29 @@ const QUESTS = {
         "dialogue":{
             "speaker":"Elder Librarian",
             "message":"Raid victory! The village is safe. Press K and go to Villager Hero to see if you can claim more terrain.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
+        },
+        "next":"get_copper_backpack"
+    },
+    "get_copper_backpack":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"sophisticatedbackpacks:copper_backpack"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:get_copper_backpack",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Great! Did you knew you can upgrade with a music box and play songs as you travel?",
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
@@ -922,6 +1129,29 @@ const QUESTS = {
         "dialogue":{
             "speaker":"Elder Librarian",
             "message":"The table can be used with the Summoning Tome and Soul Fragments to produce magic.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"get_diopside_backpack"
+    },
+    "get_diopside_backpack":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"sophisticatedbackpacks:iron_backpack"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:get_diopside_backpack",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Great! Did you knew you can upgrade your backpack to feed you while you fight?",
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
         },
@@ -1433,7 +1663,31 @@ const QUESTS = {
             "message":"Your combat skills are improving. Keep it up!",
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/everdawn.png"
-        }
+        },
+        "next":"travel_back2_to_overworld"
+    },
+    "travel_back2_to_overworld":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:minecraft_overworld_trigger"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:travel_back2_to_overworld",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Welcome back home, but adventure continues",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
+        },
+        "delayNext":200
     }
 }
 //QUEST_DATA_END
@@ -1950,7 +2204,7 @@ function matchQuestDataByAdvId(advancement_id) {
 }
 
 //INSTA_REVOKE_DATA_START
-const INSTA_REVOKE_ADVS_PY = ["aaaa_zp4adv:aether_the_aether_trigger", "aaaa_zp4adv:aether_bronze_dungeon_trigger", "aaaa_zp4adv:aether_silver_dungeon_trigger", "aaaa_zp4adv:aether_gold_dungeon_trigger", "aaaa_zp4adv:lost_aether_content_platinum_dungeon_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_mountain_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_plains_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_snowy_trigger", "aaaa_zp4adv:blue_skies_everbright_trigger", "aaaa_zp4adv:blue_skies_everbright_blinding_dungeon_trigger", "aaaa_zp4adv:blue_skies_nature_dungeon_trigger", "aaaa_zp4adv:minecraft_overworld_trigger", "aaaa_zp4adv:blue_skies_everdawn_trigger", "aaaa_zp4adv:blue_skies_everdawn_blinding_dungeon_trigger", "aaaa_zp4adv:blue_skies_poison_dungeon_trigger"]
+const INSTA_REVOKE_ADVS_PY = ["aaaa_zp4adv:aether_the_aether_trigger", "aaaa_zp4adv:aether_bronze_dungeon_trigger", "aaaa_zp4adv:aether_silver_dungeon_trigger", "aaaa_zp4adv:aether_gold_dungeon_trigger", "aaaa_zp4adv:lost_aether_content_platinum_dungeon_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_mountain_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_plains_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_snowy_trigger", "aaaa_zp4adv:blue_skies_everbright_trigger", "aaaa_zp4adv:blue_skies_everbright_blinding_dungeon_trigger", "aaaa_zp4adv:blue_skies_nature_dungeon_trigger", "aaaa_zp4adv:minecraft_overworld_trigger", "aaaa_zp4adv:blue_skies_everdawn_trigger", "aaaa_zp4adv:blue_skies_everdawn_blinding_dungeon_trigger", "aaaa_zp4adv:blue_skies_poison_dungeon_trigger", "aaaa_zp4adv:minecraft_overworld_trigger"]
 //INSTA_REVOKE_DATA_END
 
 const INSTA_REVOKE_ADVS = ['aaaa_zp4adv:win_raid_loop'].concat(INSTA_REVOKE_ADVS_PY);
@@ -1968,7 +2222,7 @@ PlayerEvents.advancement(event => {
     //         return 0;
     //     }
     // }
-    questEvent(event, PLAYER_EVENTS_ADVANCEMENT)
+    questEvent(event, PLAYER_EVENTS_ADVANCEMENT);
 
     if (advancementId.includes(ADV_NAMESPACE)) {
         if (INSTA_REVOKE_ADVS.includes(advancementId)) {

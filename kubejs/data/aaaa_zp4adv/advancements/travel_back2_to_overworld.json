@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Travel to The Aether",
-        "description": "For this you need a portal of glowston lit with water. If you ever get lost, type /dimensions for tips",
+        "title": "Travel back to the Overworld",
+        "description": "Get back home as we need to find the next adventure. Remember: /dimensions",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:root",
+    "parent": "aaaa_zp4adv:35combatlvl",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

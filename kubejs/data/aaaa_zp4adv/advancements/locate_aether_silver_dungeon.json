@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:slay_slider",
+    "parent": "aaaa_zp4adv:40combatlvl",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"
