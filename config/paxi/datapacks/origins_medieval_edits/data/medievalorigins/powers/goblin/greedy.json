@@ -7,7 +7,7 @@
 			{
 				"attribute": "minecraft:generic.attack_damage",
 				"operation": "multiply_base",
-				"value": 0.5
+				"value": 0.25
 			},
 			{
 				"attribute": "additionalentityattributes:bonus_loot_count_rolls",
@@ -43,11 +43,6 @@
 		"type": "origins:conditioned_attribute",
 		"modifiers": [
 			{
-				"attribute": "minecraft:generic.attack_damage",
-				"operation": "multiply_base",
-				"value": 0.35
-			},
-			{
 				"attribute": "additionalentityattributes:bonus_loot_count_rolls",
 				"operation": "addition",
 				"value": 1.0
@@ -69,14 +64,81 @@
 						"ingredient": {
 							"tag": "medievalorigins:golden_weapons"
 						}
-					},
-					{
-						"type": "medievalorigins:golden_weapon"
 					}
 				]
 			}
 		}
 	},
+    "golden_ranged_boosts": {
+        "type": "origins:conditioned_attribute",
+        "modifiers": [
+            {
+                "attribute": "projectile_damage:generic",
+                "operation": "multiply_base",
+                "value": 0.25
+            },
+            {
+                "attribute": "additionalentityattributes:bonus_loot_count_rolls",
+                "operation": "addition",
+                "value": 1.0
+            },
+            {
+                "attribute": "additionalentityattributes:bonus_rare_loot_rolls",
+                "operation": "addition",
+                "value": 1.0
+            }
+        ],
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "apoli:ingredient",
+                        "ingredient": {
+                            "tag": "medievalorigins:golden_ranged"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "golden_ranged_staff": {
+        "type": "origins:conditioned_attribute",
+        "modifiers": [
+            {
+                "attribute": "irons_spellbooks:spell_power",
+                "operation": "multiply_base",
+                "value": 0.25
+            },
+            {
+                "attribute": "additionalentityattributes:bonus_loot_count_rolls",
+                "operation": "addition",
+                "value": 1.0
+            },
+            {
+                "attribute": "additionalentityattributes:bonus_rare_loot_rolls",
+                "operation": "addition",
+                "value": 1.0
+            }
+        ],
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "apoli:ingredient",
+                        "ingredient": {
+                            "tag": "medievalorigins:golden_staff"
+                        }
+                    }
+                ]
+            }
+        }
+    },
 	"golden_set_bonus": {
 		"type": "origins:modify_damage_taken",
 		"modifier": {
@@ -390,41 +452,105 @@
 			}
 		]
 	},
-	"weapon_tooltip": {
-		"type": "apoli:tooltip",
-		"item_condition": {
-			"type": "origins:or",
-			"conditions": [
-				{
-					"type": "apoli:ingredient",
-					"ingredient": {
-						"tag": "medievalorigins:golden_weapons"
-					}
-				},
-				{
-					"type": "medievalorigins:golden_weapon"
-				}
-			]
-		},
-		"texts": [
-			{
-				"text": "Greedy:",
-				"color": "gold"
-			},
-			{
-				"text": "+50% Attack Damage",
-				"color": "yellow"
-			},
-			{
-				"translate": "tooltip.medievalorigins.looting_bonus",
-				"color": "yellow"
-			},
-			{
-				"text": "Increased Durability",
-				"color": "yellow"
-			}
-		]
-	},
+    "weapon_tooltip": {
+        "type": "apoli:tooltip",
+        "item_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "apoli:ingredient",
+                    "ingredient": {
+                        "tag": "medievalorigins:golden_weapons"
+                    }
+                },
+                {
+                    "type": "medievalorigins:golden_weapon"
+                }
+            ]
+        },
+        "texts": [
+            {
+                "text": "Greedy:",
+                "color": "gold"
+            },
+            {
+                "text": "+25% Attack Damage",
+                "color": "yellow"
+            },
+            {
+                "translate": "tooltip.medievalorigins.looting_bonus",
+                "color": "yellow"
+            },
+            {
+                "text": "Increased Durability",
+                "color": "yellow"
+            }
+        ]
+    },
+    "ranged_tooltip": {
+        "type": "apoli:tooltip",
+        "item_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "apoli:ingredient",
+                    "ingredient": {
+                        "tag": "medievalorigins:golden_ranged"
+                    }
+                }
+            ]
+        },
+        "texts": [
+            {
+                "text": "Greedy:",
+                "color": "gold"
+            },
+            {
+                "text": "+25% Projectile Damage",
+                "color": "yellow"
+            },
+            {
+                "translate": "tooltip.medievalorigins.looting_bonus",
+                "color": "yellow"
+            },
+            {
+                "text": "Increased Durability",
+                "color": "yellow"
+            }
+        ]
+    },
+    "staff_tooltip": {
+        "type": "apoli:tooltip",
+        "item_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "apoli:ingredient",
+                    "ingredient": {
+                        "tag": "medievalorigins:golden_staff"
+                    }
+                }
+            ]
+        },
+        "texts": [
+            {
+                "text": "Greedy:",
+                "color": "gold"
+            },
+            {
+                "text": "+25% Spell Power",
+                "color": "yellow"
+            },
+            {
+                "translate": "tooltip.medievalorigins.looting_bonus",
+                "color": "yellow"
+            },
+            {
+                "text": "Increased Durability",
+                "color": "yellow"
+            }
+        ]
+    },
 	"tools_tooltip": {
 		"type": "apoli:tooltip",
 		"item_condition": {
@@ -448,10 +574,6 @@
 			},
 			{
 				"text": "+1 Reach",
-				"color": "yellow"
-			},
-			{
-				"text": "Iron+ Mining Level",
 				"color": "yellow"
 			},
 			{

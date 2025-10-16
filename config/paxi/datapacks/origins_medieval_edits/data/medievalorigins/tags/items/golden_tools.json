@@ -1,0 +1,33 @@
+{
+    "replace": false,
+    "values": [
+        "blue_skies:pyrope_axe",
+        "blue_skies:pyrope_hoe",
+        "blue_skies:pyrope_pickaxe",
+        "blue_skies:pyrope_shovel",
+        "aether:zanite_axe",
+        "aether:zanite_hoe",
+        "aether:zanite_pickaxe",
+        "aether:zanite_shovel",
+        "betternether:cincinnasite_axe",
+        "betternether:cincinnasite_hoe",
+        "betternether:cincinnasite_pickaxe",
+        "betternether:cincinnasite_shovel",
+        "call_of_yucutan:jade_axe",
+        "call_of_yucutan:jade_hoe",
+        "call_of_yucutan:jade_pickaxe",
+        "call_of_yucutan:jade_shovel",
+        "phantasm:crystalline_axe",
+        "phantasm:crystalline_hoe",
+        "phantasm:crystalline_pickaxe",
+        "phantasm:crystalline_shovel",
+        "zoomers_armory:marble_axe",
+        "zoomers_armory:marble_hoe",
+        "zoomers_armory:marble_pickaxe",
+        "zoomers_armory:marble_shovel",
+        "theabyss:aberythe_axe",
+        "theabyss:aberythe_hoe",
+        "theabyss:aberythe_pickaxe",
+        "theabyss:aberythe_shovel"
+    ]
+}
