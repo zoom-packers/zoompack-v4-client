@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest_book"
         },
-        "title": "TUTORIAL - Get 20 logs",
-        "description": "Everything requires sticks, so gather some wood",
+        "title": "Reach Combat Lvl 60",
+        "description": "Fight enemies to raise your combat level to at least 60.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:root",
+    "parent": "aaaa_zp4adv:slay_the_wither",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

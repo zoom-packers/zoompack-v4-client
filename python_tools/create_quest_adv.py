@@ -172,9 +172,9 @@ QUESTS = {
 }
 
 QUEST_FOLDER = 'quests'
-# QUEST_FILES = ['overworld', 'everbright', 'everdawn', 'aether', 'nether', 'undergarden', 'end', 'depth', 'abyss']
+QUEST_FILES = ['overworld', 'everbright', 'everdawn', 'aether', 'nether', 'undergarden', 'end', 'depth', 'abyss']
 # QUEST_FILES = ['nether']
-QUEST_FILES = ['overworld']
+# QUEST_FILES = ['overworld']
 
 for quest_file_name in QUEST_FILES:
     with open(f'{QUEST_FOLDER}/{quest_file_name}.json','r') as f:

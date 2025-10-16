@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest_book"
+            "item": "kubejs:quest"
         },
-        "title": "TUTORIAL - Get 20 logs",
-        "description": "Everything requires sticks, so gather some wood",
+        "title": "Find a Nether Fortress",
+        "description": "The Nether Fortress hosts many dark creatures that exit to The Overworld. Give the realm some help!",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:root",
+    "parent": "aaaa_zp4adv:travel_to_the_nether",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

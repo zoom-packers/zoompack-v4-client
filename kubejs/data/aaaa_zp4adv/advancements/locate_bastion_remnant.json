@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest_book"
+            "item": "kubejs:quest"
         },
-        "title": "TUTORIAL - Get 20 logs",
-        "description": "Everything requires sticks, so gather some wood",
+        "title": "Find a Bastion",
+        "description": "Bastions are the home of the Piglins. Bling yourself with some gold if you want to trade with them.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:root",
+    "parent": "aaaa_zp4adv:50enemies_nether",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"
