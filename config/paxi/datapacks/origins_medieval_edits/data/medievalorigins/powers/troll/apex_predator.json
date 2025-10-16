@@ -12,5 +12,29 @@
 		"hud_render": {
 			"should_render": false
 		}
-	}
+	},
+    "no_eating": {
+        "type": "origins:prevent_item_use",
+        "item_condition":
+        {
+            "type": "origins:food"
+        }
+    },
+    "no_eating_tooltip": {
+        "type": "apoli:tooltip",
+        "item_condition":
+        {
+            "type": "origins:food"
+        },
+        "texts": [
+            {
+                "text": "Does not seem to be nutritive for a troll...",
+                "color": "red"
+            },
+            {
+                "text": "Trolls gain satiety by slaying creatures",
+                "color": "yellow"
+            }
+        ]
+    }
 }

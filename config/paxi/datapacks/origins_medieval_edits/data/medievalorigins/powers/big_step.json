@@ -1,0 +1,11 @@
+{
+	"loading_priority": 2,
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "attribute": "forge:step_height_addition",
+            "operation": "addition",
+            "value": 0.5
+        }
+    ]
+}

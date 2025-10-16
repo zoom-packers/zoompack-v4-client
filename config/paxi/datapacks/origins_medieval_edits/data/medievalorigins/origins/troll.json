@@ -6,7 +6,9 @@
         "medievalorigins:troll/mountainous",
         "medievalorigins:troll/apex_predator",
         "medievalorigins:troll/lumbering",
-        "origins_survive:cold_resistance"
+        "origins_survive:cold_resistance",
+        "medievalorigins:big_step",
+        "medievalorigins:weak_knees"
     ],
     "icon": {
         "item": "medievalorigins:troll"
