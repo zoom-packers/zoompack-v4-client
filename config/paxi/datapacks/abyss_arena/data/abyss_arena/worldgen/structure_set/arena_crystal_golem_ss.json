@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "abyss_arena:arena_crystal_golem",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 40,
+        "separation": 11,
+        "salt": 342685291
+    }
+}
