@@ -1,0 +1,27 @@
+{
+    "get_draconic_backpack": {
+        "item": "kubejs:quest",
+        "title": "Get a Draconic Backpack",
+        "description": "Craft a Draconic Backpack to carry even more items with you roadming the world.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "sophisticatedbackpacks:netherite_backpack"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Great! Did you knew you can upgrade your backpack hold more stacks into a single slot?",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/end.png"
+        }
+    }
+}

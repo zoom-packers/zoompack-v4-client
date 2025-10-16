@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest_book"
         },
-        "title": "TUTORIAL - Get 20 logs",
-        "description": "Everything requires sticks, so gather some wood",
+        "title": "TUTORIAL - Time To Extract Experience",
+        "description": "Ever wanted to store Experience. You can craft an Experience Cutter to turn experience into orbes. Type /leveling to find out more.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:craft_experience_cutter",
+    "parent": "aaaa_zp4adv:root",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

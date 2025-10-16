@@ -1,0 +1,53 @@
+{
+    "travel_to_the_nether": {
+        "item": "kubejs:quest",
+        "title": "Travel to The Nether",
+        "description": "A 2 by 3 ring of Obsidian lit with Flint and Steel. That`s all you need to lit and jump.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "delayNext": 200,
+        "type": "travel_dimension",
+        "match": {
+            "mode": "exact",
+            "match_id": "minecraft:the_nether"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Welcome to hell! Hard to roam around and constant fear of fire.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/nether.png"
+        }
+    },
+    "get_forged_backpack": {
+        "item": "kubejs:quest",
+        "title": "Get a Forged Backpack",
+        "description": "Craft a Forged Backpack to carry even more items with you roadming the world.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "sophisticatedbackpacks:diamond_backpack"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Great! Did you knew you can upgrade your backpack to compact items for you?",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/nether.png"
+        }
+    }
+}

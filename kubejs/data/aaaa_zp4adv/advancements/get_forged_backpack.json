@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest_book"
+            "item": "kubejs:quest"
         },
-        "title": "TUTORIAL - Get 20 logs",
-        "description": "Everything requires sticks, so gather some wood",
+        "title": "Get a Forged Backpack",
+        "description": "Craft a Forged Backpack to carry even more items with you roadming the world.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:craft_experience_cutter",
+    "parent": "aaaa_zp4adv:travel_to_the_nether",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

@@ -1,0 +1,404 @@
+{
+    "travel_to_everbright": {
+        "item": "kubejs:quest",
+        "title": "TUTORIAL - Travel to The Everbright",
+        "description": "Light the portal in the Gatekeep, but make sure it is for Everbright",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "delayNext": 200,
+        "type": "travel_dimension",
+        "match": {
+            "mode": "exact",
+            "match_id": "blue_skies:everbright"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Entered Everbright. New adventures begin!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+        }
+    },
+    "20enemies_everbright": {
+        "item": "kubejs:quest",
+        "title": "Slay 20 Enemies in The Everbright",
+        "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "kill",
+        "match": {
+            "mode": "preset_entity_check",
+            "match": "hostile",
+            "dimension_match": "blue_skies:everbright"
+        },
+        "count": 20,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Very good! I have heard about some towers around that the inhabitant owns special powers. See if you can find any.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/everbright.png"
+        }
+    },
+    "locate_everbright_blinding_dungeon": {
+        "item": "kubejs:quest",
+        "title": "Find a Blinding Dungeon",
+        "description": "I have been informed that the habitant is possessing unique items.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "locate_structure",
+        "match": {
+            "mode": "exact",
+            "match_id": "blue_skies:everbright_blinding_dungeon"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "This is quite the place. Lurk around for keys to open the gate towards the owner.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/everbright.png"
+        }
+    },
+    "loot_blinding_key": {
+        "item": "kubejs:quest",
+        "title": "Find a Blinding Dungeon Key",
+        "description": "Search in the tower for a key. You need it to open the gate towards the Summoner",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "blue_skies:blinding_key"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Try to get to the Summoner, if one is not enough, you might need more.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/everbright.png"
+        }
+    },
+    "slay_summoner": {
+        "title": "Slay The Summoner",
+        "description": "The Summoner will use his magic against you. Take care.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "kill",
+        "match": {
+            "mode": "exact",
+            "match": "blue_skies:summoner"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Looks like he is dropping over some bags. See if you can find anything new.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/everbright.png"
+        }
+    },
+    "loot_ethernal_arc": {
+        "item": "kubejs:quest",
+        "title": "Find an Ethernal Arc",
+        "description": "Arcs are powerups for your character. Ethernal Arc is found in the Summoner loot bag.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "blue_skies:ethereal_arc"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "These arcs can be used instead of keys to respawn the Summoner and fight it again. Maybe we can find better loot.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/everbright.png"
+        }
+    },
+    "place_summoning_table": {
+        "item": "kubejs:quest",
+        "title": "Get a Summoning Table",
+        "description": "Summon and slay The Summoner until you find a Summoning Table and put it on the ground.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "place_block",
+        "match": {
+            "mode": "exact",
+            "match_id": "blue_skies:summoning_table"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "The table can be used with the Summoning Tome and Soul Fragments to produce magic.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/everbright.png"
+        }
+    },
+    "get_diopside_backpack": {
+        "item": "kubejs:quest",
+        "title": "Get a Diopside Backpack",
+        "description": "Craft a Diopside Backpack to carry even more items with you roadming the world.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "sophisticatedbackpacks:iron_backpack"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Great! Did you knew you can upgrade your backpack to feed you while you fight?",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/everbright.png"
+        }
+    },
+    "25combatlvl": {
+        "item": "kubejs:quest",
+        "title": "Reach Combat Lvl 25",
+        "description": "Fight enemies to raise your combat level to at least 25.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "reach_level",
+        "match": {
+            "mode": "check_level",
+            "skill": "combat"
+        },
+        "count": 25,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Your combat skills are improving. Keep it up!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/everbright.png"
+        }
+    },
+    "get_tier_2_power_up": {
+        "item": "kubejs:quest",
+        "title": "Get Yourself a Stronger Powerup 2",
+        "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "startswith",
+            "match_id": "kubejs:tier_2"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Great! Apply those to your armor to become stronger!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/everbright.png"
+        }
+    },
+    "locate_everbright_nature_dungeon": {
+        "item": "kubejs:quest",
+        "title": "Find a Nature Dungeon",
+        "description": "Nature dungeons are massive mazes multiple stories high. Big and green. That`s how you find them.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "locate_structure",
+        "match": {
+            "mode": "exact",
+            "match_id": "blue_skies:nature_dungeon"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "What a masterpiece of a maze. Find 4 Nature Keys and get to the top.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/everbright.png"
+        }
+    },
+    "loot_4_nature_key": {
+        "item": "kubejs:quest",
+        "title": "Find 4 Nature Keys",
+        "description": "Search the maze for keys. You need it to open the gate towards the Alchemist",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "blue_skies:nature_key"
+        },
+        "count": 4,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Now you are ready to ender the fight. Good luck traveler!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/everbright.png"
+        }
+    },
+    "slay_starlit_crusher": {
+        "item": "kubejs:quest",
+        "title": "Slay The Starlit Crusher",
+        "description": "The Starlit Crusher is at core a tree evolved, so axes might be more useful.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "kill",
+        "match": {
+            "mode": "exact",
+            "match": "blue_skies:starlit_crusher"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Good job. Open the bag to see what goods we get",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/everbright.png"
+        }
+    },
+    "loot_nature_arc": {
+        "item": "kubejs:quest",
+        "title": "Find a Nature Arc",
+        "description": "Nature arcs gives you the possibility to wistand more damage before dying",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "blue_skies:nature_arc"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Very good! Equip it to become stronger. Remember, you could get a better one from the enemy",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/everbright.png"
+        }
+    },
+    "28combatlvl": {
+        "item": "kubejs:quest",
+        "title": "Reach Combat Lvl 28",
+        "description": "Fight enemies to raise your combat level to at least 28.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "reach_level",
+        "match": {
+            "mode": "check_level",
+            "skill": "combat"
+        },
+        "count": 28,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Your combat skills are improving. Keep it up!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/everbright.png"
+        }
+    },
+    "travel_back_to_overworld": {
+        "item": "kubejs:quest",
+        "title": "Travel back to the Overworld",
+        "description": "Get back home as we need to find the next adventure. Remember: /dimensions",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "delayNext": 200,
+        "type": "travel_dimension",
+        "match": {
+            "mode": "exact",
+            "match_id": "minecraft:overworld"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Welcome back home, but adventure continues",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+        }
+    }
+}

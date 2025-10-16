@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest_book"
+            "item": "kubejs:quest"
         },
-        "title": "TUTORIAL - Get 20 logs",
-        "description": "Everything requires sticks, so gather some wood",
+        "title": "Travel to The Nether",
+        "description": "A 2 by 3 ring of Obsidian lit with Flint and Steel. That`s all you need to lit and jump.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:craft_experience_cutter",
+    "parent": "aaaa_zp4adv:root",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

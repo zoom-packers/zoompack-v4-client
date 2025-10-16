@@ -1,0 +1,32 @@
+{
+    "parent": "aaaa_zp4adv:root",
+    "criteria": {
+        "enter_dimension": {
+            "conditions": {
+                "to": "minecraft:the_nether"
+            },
+            "trigger": "minecraft:changed_dimension"
+        }
+    },
+    "display": {
+        "announce_to_chat": false,
+        "description": {
+            "text": "Travel to Minecraft The Nether"
+        },
+        "frame": "challenge",
+        "hidden": true,
+        "icon": {
+            "item": "kubejs:quest_book"
+        },
+        "show_toast": false,
+        "title": {
+            "text": "Travel to Minecraft The Nether"
+        }
+    },
+    "requirements": [
+        [
+            "enter_dimension"
+        ]
+    ],
+    "sends_telemetry_event": false
+}
