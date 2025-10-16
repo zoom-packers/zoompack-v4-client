@@ -166,12 +166,362 @@ def generate_js_quests(quests_data):
     return f"const QUESTS = {json.dumps(quests_dict, separators=(',',':'), indent=4)}"
 
 DEFAULT_ITEM = 'kubejs:quest_book'
-DEFAULT_ROOT = "minecraft:adventure/root"
+DEFAULT_ROOT = "aaaa_zp4adv:root"
 QUESTS = {
+    '20logs': {
+        'title': 'TUTORIAL - Get 20 logs',
+        'description': 'Everything requires sticks, so gather some wood',
+        'xp': 20,
+        'type': 'break_block',
+        'match': {
+            'mode': 'endswith',
+            'match_id': '_log'
+        },
+        'count': 20,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Great work. Get some tools for yourself and start slaying some enemies.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
+    '10enemies': {
+        'title': 'TUTORIAL - Slay 10 Enemies',
+        'description': 'You must get used to combat. So slay some enemies. Fighting gives you Combat XP',
+        'xp': 20,
+        'type': 'kill',
+        'match': {
+            'mode': 'preset_entity_check',
+            'match': 'hostile'
+        },
+        'count': 10,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Looks like you are getting stronger! Remember you are a gatherer, so butcher some animals',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
+    '10farmanimals': {
+        'title': 'TUTORIAL - Butcher 10 Farm Animals',
+        'description': 'You must get used to gather food. Start with a farm. ',
+        'xp': 20,
+        'type': 'kill',
+        'match': {
+            'mode': 'preset_entity_check',
+            'match': 'passive'
+        },
+        'count': 10,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Good, now you won\'t starve. Continue!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
+    '10combatlvl': {
+        'title': 'TUTORIAL - Reach Combat Lvl 10',
+        'description': 'Fight enemies to raise your combat level to at least 10.',
+        'xp': 20,
+        'type': 'reach_level',
+        'match': {
+            'mode': 'check_level',
+            'skill': 'combat'
+        },
+        'count': 10,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Your combat skills are improving. Keep it up!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
+    'loot_gem': {
+        'title': 'TUTORIAL - Loot a Gem',
+        'description': 'Pickup a gem from towers across Overworld or from Mobs',
+        'xp': 20,
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'apotheosis:gem'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'A shiny gem! You can use it to enhance your weaponry on a Smithing Table. Type /gems to find more.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
+    'crush_gem': {
+        'title': 'TUTORIAL - Get some gem dust',
+        'description': 'Drop an anvil on gems to crush them into gem dust.',
+        'xp': 20,
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'apotheosis:gem_dust'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Crushed it! You can use the dust to craft tables for gems and affixes. Press U while hovering over it.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
+    'place_salvaging_table': {
+        'title': 'TUTORIAL - Get a Salvaging Table',
+        'description': 'Place a Salvaging Table. Craft it and use it to get materials.',
+        'xp': 20,
+        'type': 'place_block',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'apotheosis:salvaging_table'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Salvaging table placed. Time to recycle! Extract affix materials or even ingots.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
+    'place_simple_reforging_table': {
+        'title': 'TUTORIAL - Get a Simple Reforging Table',
+        'description': 'Place a Simple Reforging Table on the ground. Use it to upgrade items with affixes. Type /gems to find more.',
+        'xp': 20,
+        'type': 'place_block',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'apotheosis:simple_reforging_table'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Reforging ready. Enhance your gear! ',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
+    'first_affix_item': {
+        'title': 'TUTORIAL - Get an item with Affixes',
+        'description': 'Loot or either create an item with Affixes at the Reforging Table',
+        'xp': 20,
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'nbt_data_includes',
+            'match_id': 'affix_data'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Great! These are all over the world. There are many variations, make sure to equip them to match your playstyle.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
+    'place_fortunas_anvil': {
+        'title': 'TUTORIAL - Get a Fortuna`s Anvil',
+        'description': 'Place a Fortuna`s Anvil on the ground. Use it to upgrade your items. Type /fortunas to find out more.',
+        'xp': 20,
+        'type': 'place_block',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'fortunas_anvil:fortunas_anvil'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Fortuna`s anvil is set. Good luck!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
+    'use_fortunas_anvil': {
+        'title': 'TUTORIAL - Upgrade an item on the Fortuna`s Table',
+        'description': '+1 +2 +3 ... For upgrading the gear you need the item, catalyst to boost chance, material to improve gap and protection rune for protection of the item. \nType /fortunas in case you get lost to find out more about the Fortuna`s Table',
+        'xp': 20,
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'nbt_data_includes',
+            'match_id': 'ZUpgradeData',
+            'sub_match':{
+                'match' : 'nbt_data_ge_count',
+                'match_id' : 'level'
+            }
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Amazing! Now let`s put your new gear to work to see how it behaves! Hunt down something!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
+    'craft_bauble_mount': {
+        'title': 'TUTORIAL - Get a Bauble Mount',
+        'description': 'Get yourself a Bauble for a Mount. Type /mounts to find out more.',
+        'xp': 20,
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'baublemounts:mount_bauble'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Great work! Now use that to capture a tamed mount.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
+    'use_bauble_mount': {
+        'title': 'TUTORIAL - Your own personal mount',
+        'description': 'Use the Mount Bauble to a tamed mob to make it yours. Type /mounts to find out more.',
+        'xp': 20,
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'nbt_data_includes',
+            'match_id': 'Mount',
+            'sub_match':{
+                'match' : 'item_id_match',
+                'match_id' : 'baublemounts:mount_bauble'
+            }
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Amazing! Now you can toggle your mount with the key V. Take care of it!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
+    '50enemies': {
+        'title': 'TUTORIAL - Slay 50 Enemies',
+        'description': 'Test your new gear. Let`s see how strong you got.',
+        'xp': 20,
+        'type': 'kill',
+        'match': {
+            'mode': 'preset_entity_check',
+            'match': 'hostile'
+        },
+        'count': 50,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': '50 enemies down! You\'re a warrior now.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
+    'win_raid': {
+        'title': 'TUTORIAL - Win a Raid',
+        'description': 'Defeat a Raid upon a village. The more raids won, the more terrain you can claim.',
+        'xp': 20,
+        'type': 'adv_unlock',
+        'match': {
+            'mode' : 'exact',
+            'match' : 'aaaa_zp4adv:win_raid_loop'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Raid victory! The village is safe. Press K and go to Villager Hero to see if you can claim more terrain.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
+    'kill_bosses': {
+        'title': 'TUTORIAL - Kill 4 Bosses',
+        'description': 'Check out /dimensions to see how you can find bosses in each dimension.',
+        'xp': 20,
+        'type': 'kill',
+        'match': {
+            'mode': 'preset_entity_check',
+            'match': 'boss'
+        },
+        'count': 4,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Bosses defeated! Impressive strength. It is time to move towards other lands.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
+    'locate_gatekeeper': {
+        'title': 'TUTORIAL - Find the Gate Keeper',
+        'description': 'Small hut with a special trader. The Gate Keeper holds the portal towards the next dimension.',
+        'xp': 20,
+        'type': 'locate_structure',
+        'match': {
+            'mode': 'any',
+            'match_ids': ['blue_skies:gatekeeper_house_mountain', 'blue_skies:gatekeeper_house_plains', 'blue_skies:gatekeeper_house_snowy']
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Found the Gate Keeper hourse! Trade with him to get a Zeal Lighter',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
+    'get_zeal_lighter': {
+        'title': 'TUTORIAL - Get a Zeal Lighter',
+        'description': 'Trade with the Gate Keeper to obtain a zeal lighter. Use it to fire the portal that must lay near by.',
+        'xp': 20,
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'blue_skies:zeal_lighter'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Zeal lighter acquired. Light the way towards the Blue Skies!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
+    '20combatlvl': {
+        'title': 'TUTORIAL - Reach Combat Lvl 20',
+        'description': 'Everbright is for no weak souls. Fight enemies to raise your combat level to at least 20.',
+        'xp': 20,
+        'type': 'reach_level',
+        'match': {
+            'mode': 'check_level',
+            'skill': 'combat'
+        },
+        'count': 20,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Level 20 reached for combat! Now you are ready for the Everbright',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },  
+    '20enemies_everbright': {
+        'item': 'kubejs:quest',
+        'title': 'EVERBRIGHT - Slay 20 Enemies',
+        'description': 'This new place is much more harsh. New possibilities, new enemies. Get acquainted.',
+        'xp': 20,
+        'type': 'kill',
+        'match': {
+            'mode': 'preset_entity_check',
+            'match': 'hostile',
+            'dimension_match' : 'blue_skies:everbright'
+        },
+        'count': 20,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Very good! I have heard about some towers around that the inhabitant owns special powers. See if you can find any.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
+        }
+    },
     'travel_to_everbright': {
         'item': 'kubejs:quest',
         'title': 'TUTORIAL - Travel to the Everbright',
-        'description': 'Light the portal in the Gatekeep, but make sure it is for Everbright\n§b1g §c1b',
+        'description': 'Light the portal in the Gatekeep, but make sure it is for Everbright',
         'xp': 20,
         'delayNext' : 200,
         'type': 'travel_dimension',
@@ -187,7 +537,6 @@ QUESTS = {
             'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },  
-    
     'locate_everbright_blinding_dungeon': {
         'item': 'kubejs:quest',
         'title': 'Find a Blinding Dungeon',
@@ -621,362 +970,6 @@ QUESTS = {
             'renderTarget': 'zoompack_images:textures/elder_librarian/everdawn.png'
         }
     },
-
-    # blue_skies:poison_dungeon
-
-    # blue_skies:everdawn_blinding_dungeon
-
-    '20logs': {
-        'title': 'TUTORIAL - Get 20 logs',
-        'description': 'Everything requires sticks, so gather some wood',
-        'xp': 20,
-        'type': 'break_block',
-        'match': {
-            'mode': 'endswith',
-            'match_id': '_log'
-        },
-        'count': 20,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': 'Great work. Get some tools for yourself and start slaying some enemies.',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
-        }
-    },
-    '10enemies': {
-        'title': 'TUTORIAL - Slay 10 Enemies',
-        'description': 'You must get used to combat. So slay some enemies. Fighting gives you Combat XP',
-        'xp': 20,
-        'type': 'kill',
-        'match': {
-            'mode': 'preset_entity_check',
-            'match': 'hostile'
-        },
-        'count': 10,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': 'Looks like you are getting stronger! Remember you are a gatherer, so butcher some animals',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
-        }
-    },
-    '10farmanimals': {
-        'title': 'TUTORIAL - Butcher 10 Farm Animals',
-        'description': 'You must get used to gather food. Start with a farm. ',
-        'xp': 20,
-        'type': 'kill',
-        'match': {
-            'mode': 'preset_entity_check',
-            'match': 'passive'
-        },
-        'count': 10,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': 'Good, now you won\'t starve. Continue!',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
-        }
-    },
-    '10combatlvl': {
-        'title': 'TUTORIAL - Reach Combat Lvl 10',
-        'description': 'Fight enemies to raise your combat level to at least 10.',
-        'xp': 20,
-        'type': 'reach_level',
-        'match': {
-            'mode': 'check_level',
-            'skill': 'combat'
-        },
-        'count': 10,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': 'Your combat skills are improving. Keep it up!',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
-        }
-    },
-    'loot_gem': {
-        'title': 'TUTORIAL - Loot a Gem',
-        'description': 'Pickup a gem from towers across Overworld or from Mobs',
-        'xp': 20,
-        'type': 'obtain_item',
-        'match': {
-            'mode': 'exact',
-            'match_id': 'apotheosis:gem'
-        },
-        'count': 1,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': 'A shiny gem! You can use it to enhance your weaponry on a Smithing Table. Type /gems to find more.',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
-        }
-    },
-    'crush_gem': {
-        'title': 'TUTORIAL - Get some gem dust',
-        'description': 'Drop an anvil on gems to crush them into gem dust.',
-        'xp': 20,
-        'type': 'obtain_item',
-        'match': {
-            'mode': 'exact',
-            'match_id': 'apotheosis:gem_dust'
-        },
-        'count': 1,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': 'Crushed it! You can use the dust to craft tables for gems and affixes. Press U while hovering over it.',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
-        }
-    },
-    'place_salvaging_table': {
-        'title': 'TUTORIAL - Get a Salvaging Table',
-        'description': 'Place a Salvaging Table. Craft it and use it to get materials.',
-        'xp': 20,
-        'type': 'place_block',
-        'match': {
-            'mode': 'exact',
-            'match_id': 'apotheosis:salvaging_table'
-        },
-        'count': 1,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': 'Salvaging table placed. Time to recycle! Extract affix materials or even ingots.',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
-        }
-    },
-    'place_simple_reforging_table': {
-        'title': 'TUTORIAL - Get a Simple Reforging Table',
-        'description': 'Place a Simple Reforging Table on the ground. Use it to upgrade items with affixes. Type /gems to find more.',
-        'xp': 20,
-        'type': 'place_block',
-        'match': {
-            'mode': 'exact',
-            'match_id': 'apotheosis:simple_reforging_table'
-        },
-        'count': 1,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': 'Reforging ready. Enhance your gear! ',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
-        }
-    },
-    'first_affix_item': {
-        'title': 'TUTORIAL - Get an item with Affixes',
-        'description': 'Loot or either create an item with Affixes at the Reforging Table',
-        'xp': 20,
-        'type': 'obtain_item',
-        'match': {
-            'mode': 'nbt_data_includes',
-            'match_id': 'affix_data'
-        },
-        'count': 1,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': 'Great! These are all over the world. There are many variations, make sure to equip them to match your playstyle.',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
-        }
-    },
-    'place_fortunas_anvil': {
-        'title': 'TUTORIAL - Get a Fortuna`s Anvil',
-        'description': 'Place a Fortuna`s Anvil on the ground. Use it to upgrade your items. Type /fortunas to find out more.',
-        'xp': 20,
-        'type': 'place_block',
-        'match': {
-            'mode': 'exact',
-            'match_id': 'fortunas_anvil:fortunas_anvil'
-        },
-        'count': 1,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': 'Fortuna`s anvil is set. Good luck!',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
-        }
-    },
-    'use_fortunas_anvil': {
-        'title': 'TUTORIAL - Upgrade an item on the Fortuna`s Table',
-        'description': '+1 +2 +3 ... For upgrading the gear you need the item, catalyst to boost chance, material to improve gap and protection rune for protection of the item. \nType /fortunas in case you get lost to find out more about the Fortuna`s Table',
-        'xp': 20,
-        'type': 'obtain_item',
-        'match': {
-            'mode': 'nbt_data_includes',
-            'match_id': 'ZUpgradeData',
-            'sub_match':{
-                'match' : 'nbt_data_ge_count',
-                'match_id' : 'level'
-            }
-        },
-        'count': 1,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': 'Amazing! Now let`s put your new gear to work to see how it behaves! Hunt down something!',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
-        }
-    },
-    'craft_bauble_mount': {
-        'title': 'TUTORIAL - Get a Bauble Mount',
-        'description': 'Get yourself a Bauble for a Mount. Type /mounts to find out more.',
-        'xp': 20,
-        'type': 'obtain_item',
-        'match': {
-            'mode': 'exact',
-            'match_id': 'baublemounts:mount_bauble'
-        },
-        'count': 1,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': 'Great work! Now use that to capture a tamed mount.',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
-        }
-    },
-    'use_bauble_mount': {
-        'title': 'TUTORIAL - Your own personal mount',
-        'description': 'Use the Mount Bauble to a tamed mob to make it yours. Type /mounts to find out more.',
-        'xp': 20,
-        'type': 'obtain_item',
-        'match': {
-            'mode': 'nbt_data_includes',
-            'match_id': 'Mount',
-            'sub_match':{
-                'match' : 'item_id_match',
-                'match_id' : 'baublemounts:mount_bauble'
-            }
-        },
-        'count': 1,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': 'Amazing! Now you can toggle your mount with the key V. Take care of it!',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
-        }
-    },
-    '50enemies': {
-        'title': 'TUTORIAL - Slay 50 Enemies',
-        'description': 'Test your new gear. Let`s see how strong you got.',
-        'xp': 20,
-        'type': 'kill',
-        'match': {
-            'mode': 'preset_entity_check',
-            'match': 'hostile'
-        },
-        'count': 50,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': '50 enemies down! You\'re a warrior now.',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
-        }
-    },
-    'win_raid': {
-        'title': 'TUTORIAL - Win a Raid',
-        'description': 'Defeat a Raid upon a village. The more raids won, the more terrain you can claim.',
-        'xp': 20,
-        'type': 'adv_unlock',
-        'match': {
-            'mode' : 'exact',
-            'match' : 'aaaa_zp4adv:win_raid_loop'
-        },
-        'count': 1,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': 'Raid victory! The village is safe. Press K and go to Villager Hero to see if you can claim more terrain.',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
-        }
-    },
-    'kill_bosses': {
-        'title': 'TUTORIAL - Kill 4 Bosses',
-        'description': 'Check out /dimensions to see how you can find bosses in each dimension.',
-        'xp': 20,
-        'type': 'kill',
-        'match': {
-            'mode': 'preset_entity_check',
-            'match': 'boss'
-        },
-        'count': 4,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': 'Bosses defeated! Impressive strength. It is time to move towards other lands.',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
-        }
-    },
-    'locate_gatekeeper': {
-        'title': 'TUTORIAL - Find the Gate Keeper',
-        'description': 'Small hut with a special trader. The Gate Keeper holds the portal towards the next dimension.',
-        'xp': 20,
-        'type': 'locate_structure',
-        'match': {
-            'mode': 'any',
-            'match_ids': ['blue_skies:gatekeeper_house_mountain', 'blue_skies:gatekeeper_house_plains', 'blue_skies:gatekeeper_house_snowy']
-        },
-        'count': 1,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': 'Found the Gate Keeper hourse! Trade with him to get a Zeal Lighter',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
-        }
-    },
-    'get_zeal_lighter': {
-        'title': 'TUTORIAL - Get a Zeal Lighter',
-        'description': 'Trade with the Gate Keeper to obtain a zeal lighter. Use it to fire the portal that must lay near by.',
-        'xp': 20,
-        'type': 'obtain_item',
-        'match': {
-            'mode': 'exact',
-            'match_id': 'blue_skies:zeal_lighter'
-        },
-        'count': 1,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': 'Zeal lighter acquired. Light the way towards the Blue Skies!',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
-        }
-    },
-    '20combatlvl': {
-        'title': 'TUTORIAL - Reach Combat Lvl 20',
-        'description': 'Everbright is for no weak souls. Fight enemies to raise your combat level to at least 20.',
-        'xp': 20,
-        'type': 'reach_level',
-        'match': {
-            'mode': 'check_level',
-            'skill': 'combat'
-        },
-        'count': 20,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': 'Level 20 reached for combat! Now you are ready for the Everbright',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
-        }
-    },  
-    '20enemies_everbright': {
-        'item': 'kubejs:quest',
-        'title': 'EVERBRIGHT - Slay 20 Enemies',
-        'description': 'This new place is much more harsh. New possibilities, new enemies. Get acquainted.',
-        'xp': 20,
-        'type': 'kill',
-        'match': {
-            'mode': 'preset_entity_check',
-            'match': 'hostile',
-            'dimension_match' : 'blue_skies:everbright'
-        },
-        'count': 20,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': 'Very good! I have heard about some towers around that the inhabitant owns special powers. See if you can find any.',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
-        }
-    },
-    # Arcane essence towards the end of overworld
 }
 
 

@@ -9,7 +9,7 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "structure": "blue_skies:gatekeeper_house_snowy"
+                                "structure": "blue_skies:poison_dungeon"
                             }
                         }
                     }
@@ -21,7 +21,7 @@
     "display": {
         "announce_to_chat": false,
         "description": {
-            "text": "Locate Blue Skies Gatekeeper House Snowy"
+            "text": "Locate Blue Skies Poison Dungeon"
         },
         "frame": "challenge",
         "hidden": true,
@@ -30,7 +30,7 @@
         },
         "show_toast": false,
         "title": {
-            "text": "Locate Blue Skies Gatekeeper House Snowy"
+            "text": "Locate Blue Skies Poison Dungeon"
         }
     },
     "requirements": [

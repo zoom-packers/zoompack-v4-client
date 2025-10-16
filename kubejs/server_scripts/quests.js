@@ -9,167 +9,6 @@ const ADV_PREFIX = `${ADV_NAMESPACE}${TWO_DOTS}`;
 
 //QUEST_DATA_START
 const QUESTS = {
-    "travel_to_everbright":{
-        "type":"adv_unlock",
-        "match":{
-            "mode":"exact",
-            "match_id":"aaaa_zp4adv:blue_skies_everbright_trigger"
-        },
-        "unlock":"aaaa_zp4adv:travel_to_everbright",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"Entered Everbright. New adventures begin!",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
-        },
-        "delayNext":200,
-        "next":"locate_everbright_blinding_dungeon"
-    },
-    "locate_everbright_blinding_dungeon":{
-        "type":"adv_unlock",
-        "match":{
-            "mode":"exact",
-            "match_id":"aaaa_zp4adv:blue_skies_everbright_blinding_dungeon_trigger"
-        },
-        "unlock":"aaaa_zp4adv:locate_everbright_blinding_dungeon",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"This is quite the place. Lurk around for keys to open the gate towards the owner.",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
-        },
-        "next":"loot_blinding_key"
-    },
-    "loot_blinding_key":{
-        "type":"obtain_item",
-        "match":{
-            "mode":"exact",
-            "match_id":"blue_skies:blinding_key"
-        },
-        "unlock":"aaaa_zp4adv:loot_blinding_key",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"Try to get to the Summoner, if one is not enough, you might need more.",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
-        },
-        "next":"slay_summoner"
-    },
-    "slay_summoner":{
-        "type":"kill",
-        "match":{
-            "mode":"exact",
-            "match":"blue_skies:summoner"
-        },
-        "unlock":"aaaa_zp4adv:slay_summoner",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"Looks like he is dropping over some bags. See if you can find anything new.",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
-        },
-        "next":"loot_ethernal_arc"
-    },
-    "loot_ethernal_arc":{
-        "type":"obtain_item",
-        "match":{
-            "mode":"exact",
-            "match_id":"blue_skies:ethernal_arc"
-        },
-        "unlock":"aaaa_zp4adv:loot_ethernal_arc",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"These arcs can be used instead of keys to respawn the Summoner and fight it again. Maybe we can find better loot.",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
-        },
-        "next":"place_summoning_table"
-    },
-    "place_summoning_table":{
-        "type":"place_block",
-        "match":{
-            "mode":"exact",
-            "match_id":"blue_skies:summoning_table"
-        },
-        "unlock":"aaaa_zp4adv:place_summoning_table",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"The table can be used with the Summoning Tome and Soul Fragments to produce magic.",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
-        },
-        "next":"locate_everbright_nature_dungeon"
-    },
-    "locate_everbright_nature_dungeon":{
-        "type":"adv_unlock",
-        "match":{
-            "mode":"exact",
-            "match_id":"aaaa_zp4adv:blue_skies_nature_dungeon_trigger"
-        },
-        "unlock":"aaaa_zp4adv:locate_everbright_nature_dungeon",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"What a masterpiece of a maze. Find 4 Nature Keys and get to the top.",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
-        },
-        "next":"loot_4_nature_key"
-    },
-    "loot_4_nature_key":{
-        "type":"obtain_item",
-        "match":{
-            "mode":"exact",
-            "match_id":"blue_skies:blinding_key"
-        },
-        "unlock":"aaaa_zp4adv:loot_4_nature_key",
-        "count":4,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"Now you are ready to ender the fight. Good luck traveler!",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
-        },
-        "next":"slay_starlit_crusher"
-    },
-    "slay_starlit_crusher":{
-        "type":"kill",
-        "match":{
-            "mode":"exact",
-            "match":"blue_skies:starlit_crusher"
-        },
-        "unlock":"aaaa_zp4adv:slay_starlit_crusher",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"Good job. Open the bag to see what goods we get",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
-        },
-        "next":"loot_nature_arc"
-    },
-    "loot_nature_arc":{
-        "type":"obtain_item",
-        "match":{
-            "mode":"exact",
-            "match_id":"blue_skies:nature_arc"
-        },
-        "unlock":"aaaa_zp4adv:loot_nature_arc",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"Very good! Equip it to become stronger.",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
-        },
-        "next":"20logs"
-    },
     "20logs":{
         "type":"break_block",
         "match":{
@@ -500,6 +339,409 @@ const QUESTS = {
             "message":"Very good! I have heard about some towers around that the inhabitant owns special powers. See if you can find any.",
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"travel_to_everbright"
+    },
+    "travel_to_everbright":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:blue_skies_everbright_trigger"
+        },
+        "unlock":"aaaa_zp4adv:travel_to_everbright",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Entered Everbright. New adventures begin!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
+        },
+        "delayNext":200,
+        "next":"locate_everbright_blinding_dungeon"
+    },
+    "locate_everbright_blinding_dungeon":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:blue_skies_everbright_blinding_dungeon_trigger"
+        },
+        "unlock":"aaaa_zp4adv:locate_everbright_blinding_dungeon",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"This is quite the place. Lurk around for keys to open the gate towards the owner.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"loot_blinding_key"
+    },
+    "loot_blinding_key":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"blue_skies:blinding_key"
+        },
+        "unlock":"aaaa_zp4adv:loot_blinding_key",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Try to get to the Summoner, if one is not enough, you might need more.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"slay_summoner"
+    },
+    "slay_summoner":{
+        "type":"kill",
+        "match":{
+            "mode":"exact",
+            "match":"blue_skies:summoner"
+        },
+        "unlock":"aaaa_zp4adv:slay_summoner",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Looks like he is dropping over some bags. See if you can find anything new.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"loot_ethernal_arc"
+    },
+    "loot_ethernal_arc":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"blue_skies:ethereal_arc"
+        },
+        "unlock":"aaaa_zp4adv:loot_ethernal_arc",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"These arcs can be used instead of keys to respawn the Summoner and fight it again. Maybe we can find better loot.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"place_summoning_table"
+    },
+    "place_summoning_table":{
+        "type":"place_block",
+        "match":{
+            "mode":"exact",
+            "match_id":"blue_skies:summoning_table"
+        },
+        "unlock":"aaaa_zp4adv:place_summoning_table",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"The table can be used with the Summoning Tome and Soul Fragments to produce magic.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"25combatlvl"
+    },
+    "25combatlvl":{
+        "type":"reach_level",
+        "match":{
+            "mode":"check_level",
+            "skill":"combat"
+        },
+        "unlock":"aaaa_zp4adv:25combatlvl",
+        "count":25,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Your combat skills are improving. Keep it up!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"locate_everbright_nature_dungeon"
+    },
+    "locate_everbright_nature_dungeon":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:blue_skies_nature_dungeon_trigger"
+        },
+        "unlock":"aaaa_zp4adv:locate_everbright_nature_dungeon",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"What a masterpiece of a maze. Find 4 Nature Keys and get to the top.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"loot_4_nature_key"
+    },
+    "loot_4_nature_key":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"blue_skies:nature_key"
+        },
+        "unlock":"aaaa_zp4adv:loot_4_nature_key",
+        "count":4,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Now you are ready to ender the fight. Good luck traveler!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"slay_starlit_crusher"
+    },
+    "slay_starlit_crusher":{
+        "type":"kill",
+        "match":{
+            "mode":"exact",
+            "match":"blue_skies:starlit_crusher"
+        },
+        "unlock":"aaaa_zp4adv:slay_starlit_crusher",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Good job. Open the bag to see what goods we get",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"loot_nature_arc"
+    },
+    "loot_nature_arc":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"blue_skies:nature_arc"
+        },
+        "unlock":"aaaa_zp4adv:loot_nature_arc",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Very good! Equip it to become stronger. Remember, you could get a better one from the enemy",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"28combatlvl"
+    },
+    "28combatlvl":{
+        "type":"reach_level",
+        "match":{
+            "mode":"check_level",
+            "skill":"combat"
+        },
+        "unlock":"aaaa_zp4adv:28combatlvl",
+        "count":28,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Your combat skills are improving. Keep it up!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"travel_back_to_overworld"
+    },
+    "travel_back_to_overworld":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:minecraft_overworld_trigger"
+        },
+        "unlock":"aaaa_zp4adv:travel_back_to_overworld",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Welcome back home, but adventure continues",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
+        },
+        "delayNext":200,
+        "next":"travel_to_everdawn"
+    },
+    "travel_to_everdawn":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:blue_skies_everdawn_trigger"
+        },
+        "unlock":"aaaa_zp4adv:travel_to_everdawn",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"A new world with new magic mechanics!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everdawn.png"
+        },
+        "delayNext":200,
+        "next":"locate_everdawn_blinding_dungeon"
+    },
+    "locate_everdawn_blinding_dungeon":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:blue_skies_everdawn_blinding_dungeon_trigger"
+        },
+        "unlock":"aaaa_zp4adv:locate_everdawn_blinding_dungeon",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Good job! Do you still got the keys from the past day or do you need to get new ones?",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everdawn.png"
+        },
+        "next":"loot_4_blinding_keys"
+    },
+    "loot_4_blinding_keys":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"blue_skies:blinding_key"
+        },
+        "unlock":"aaaa_zp4adv:loot_4_blinding_keys",
+        "count":4,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Good! Now to the Alchemist!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everdawn.png"
+        },
+        "next":"slay_the_alchemist"
+    },
+    "slay_the_alchemist":{
+        "type":"kill",
+        "match":{
+            "mode":"exact",
+            "match":"blue_skies:alchemist"
+        },
+        "unlock":"aaaa_zp4adv:slay_the_alchemist",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Astonishing! Check the loot bag, you can get an arc from him that can turn you invisible! Remember, you could get a better one from the enemy",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everdawn.png"
+        },
+        "next":"loot_dusk_arc"
+    },
+    "loot_dusk_arc":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"blue_skies:dusk_arc"
+        },
+        "unlock":"aaaa_zp4adv:loot_dusk_arc",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Very good! Equip it to become one with the shadows! Remember, you could get a better one from the enemy",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everdawn.png"
+        },
+        "next":"place_alchemy_table"
+    },
+    "place_alchemy_table":{
+        "type":"place_block",
+        "match":{
+            "mode":"exact",
+            "match_id":"blue_skies:alchemy_table"
+        },
+        "unlock":"aaaa_zp4adv:place_alchemy_table",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"The table can be used to alterate versions of an item. Try turning redstone into glowstone.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everdawn.png"
+        },
+        "next":"32combatlvl"
+    },
+    "32combatlvl":{
+        "type":"reach_level",
+        "match":{
+            "mode":"check_level",
+            "skill":"combat"
+        },
+        "unlock":"aaaa_zp4adv:32combatlvl",
+        "count":32,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Your combat skills are improving. Keep it up!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everdawn.png"
+        },
+        "next":"locate_everdawn_poison_dungeon"
+    },
+    "locate_everdawn_poison_dungeon":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:blue_skies_poison_dungeon_trigger"
+        },
+        "unlock":"aaaa_zp4adv:locate_everdawn_poison_dungeon",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"I strongly belive you need some keys here aswell. However i do not know what kind.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everdawn.png"
+        },
+        "next":"loot_4_poison_keys"
+    },
+    "loot_4_poison_keys":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"blue_skies:poison_key"
+        },
+        "unlock":"aaaa_zp4adv:loot_4_poison_keys",
+        "count":4,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Fantastic. Let`s search around for a place where we could find him.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everdawn.png"
+        },
+        "next":"slay_the_arachnarch"
+    },
+    "slay_the_arachnarch":{
+        "type":"kill",
+        "match":{
+            "mode":"exact",
+            "match":"blue_skies:arachnarch"
+        },
+        "unlock":"aaaa_zp4adv:slay_the_arachnarch",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Astonishing! Check the loot bag, you can get an arc from it that could prevent the poisoning.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everdawn.png"
+        },
+        "next":"loot_poison_arc"
+    },
+    "loot_poison_arc":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"blue_skies:poison_arc"
+        },
+        "unlock":"aaaa_zp4adv:loot_poison_arc",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Very good! Spiders will no longer state an threat. Remember, you could get a better one from the enemy",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everdawn.png"
+        },
+        "next":"35combatlvl"
+    },
+    "35combatlvl":{
+        "type":"reach_level",
+        "match":{
+            "mode":"check_level",
+            "skill":"combat"
+        },
+        "unlock":"aaaa_zp4adv:35combatlvl",
+        "count":35,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Your combat skills are improving. Keep it up!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everdawn.png"
         }
     }
 }
@@ -992,7 +1234,7 @@ function matchQuestDataByAdvId(advancement_id) {
 }
 
 //INSTA_REVOKE_DATA_START
-const INSTA_REVOKE_ADVS_PY = ["aaaa_zp4adv:blue_skies_everbright_trigger", "aaaa_zp4adv:blue_skies_everbright_blinding_dungeon_trigger", "aaaa_zp4adv:blue_skies_nature_dungeon_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_mountain_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_plains_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_snowy_trigger"]
+const INSTA_REVOKE_ADVS_PY = ["aaaa_zp4adv:blue_skies_gatekeeper_house_mountain_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_plains_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_snowy_trigger", "aaaa_zp4adv:blue_skies_everbright_trigger", "aaaa_zp4adv:blue_skies_everbright_blinding_dungeon_trigger", "aaaa_zp4adv:blue_skies_nature_dungeon_trigger", "aaaa_zp4adv:minecraft_overworld_trigger", "aaaa_zp4adv:blue_skies_everdawn_trigger", "aaaa_zp4adv:blue_skies_everdawn_blinding_dungeon_trigger", "aaaa_zp4adv:blue_skies_poison_dungeon_trigger"]
 //INSTA_REVOKE_DATA_END
 
 const INSTA_REVOKE_ADVS = ['aaaa_zp4adv:win_raid_loop'].concat(INSTA_REVOKE_ADVS_PY);

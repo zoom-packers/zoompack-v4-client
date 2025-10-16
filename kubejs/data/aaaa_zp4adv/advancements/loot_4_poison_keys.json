@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest_book"
+            "item": "kubejs:quest"
         },
-        "title": "TUTORIAL - Get 20 logs",
-        "description": "Everything requires sticks, so gather some wood",
+        "title": "Find 4 Poison Dungeon Keys",
+        "description": "Search the ",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:root",
+    "parent": "aaaa_zp4adv:locate_everdawn_poison_dungeon",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

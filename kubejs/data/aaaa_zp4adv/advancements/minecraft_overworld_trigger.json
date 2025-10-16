@@ -3,7 +3,7 @@
     "criteria": {
         "enter_dimension": {
             "conditions": {
-                "to": "blue_skies:everbright"
+                "to": "minecraft:overworld"
             },
             "trigger": "minecraft:changed_dimension"
         }
@@ -11,7 +11,7 @@
     "display": {
         "announce_to_chat": false,
         "description": {
-            "text": "Travel to Blue Skies Everbright"
+            "text": "Travel to Minecraft Overworld"
         },
         "frame": "challenge",
         "hidden": true,
@@ -20,7 +20,7 @@
         },
         "show_toast": false,
         "title": {
-            "text": "Travel to Blue Skies Everbright"
+            "text": "Travel to Minecraft Overworld"
         }
     },
     "requirements": [

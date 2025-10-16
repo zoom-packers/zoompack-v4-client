@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest_book"
+            "item": "kubejs:quest"
         },
         "title": "Slay The Starlit Crusher",
         "description": "The Starlit Crusher is at core a tree evolved, so axes might be more useful.",
