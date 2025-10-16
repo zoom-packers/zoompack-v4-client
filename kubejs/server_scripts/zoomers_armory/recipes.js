@@ -2749,10 +2749,10 @@ event.smithing('1x zoomers_armory:marble_shortbow', 'callfromthedepth_:immemoria
 event.smithing('1x zoomers_armory:marble_bow', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'zoomers_armory:depth_bow', 'callfromthedepth_:marbleingot');
 event.smithing('1x zoomers_armory:marble_longbow', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'zoomers_armory:depth_longbow', 'callfromthedepth_:marbleingot');
 event.smithing('1x zoomers_armory:marble_crossbow', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'zoomers_armory:depth_crossbow', 'callfromthedepth_:marbleingot');
-event.smithing('1x zoomers_armory:marble_pickaxe', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'zoomers_armory:depth_pickaxe', 'callfromthedepth_:marbleingot');
-event.smithing('1x zoomers_armory:marble_axe', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'zoomers_armory:depth_axe', 'callfromthedepth_:marbleingot');
-event.smithing('1x zoomers_armory:marble_shovel', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'zoomers_armory:depth_shovel', 'callfromthedepth_:marbleingot');
-event.smithing('1x zoomers_armory:marble_hoe', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'zoomers_armory:depth_hoe', 'callfromthedepth_:marbleingot');
+event.smithing('1x zoomers_armory:marble_pickaxe', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:immemorialpickaxe', 'callfromthedepth_:marbleingot');
+event.smithing('1x zoomers_armory:marble_axe', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:immemorialaxe', 'callfromthedepth_:marbleingot');
+event.smithing('1x zoomers_armory:marble_shovel', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:immemorialshovel', 'callfromthedepth_:marbleingot');
+event.smithing('1x zoomers_armory:marble_hoe', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:immemorialhoe', 'callfromthedepth_:marbleingot');
 event.smithing('1x zoomers_armory:marble_mana_ring', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'zoomers_armory:depth_mana_ring', 'callfromthedepth_:marbleingot');
 event.smithing('1x zoomers_armory:marble_dexterity_ring', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'zoomers_armory:depth_dexterity_ring', 'callfromthedepth_:marbleingot');
 event.smithing('1x zoomers_armory:marble_sharpshooter_ring', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'zoomers_armory:depth_sharpshooter_ring', 'callfromthedepth_:marbleingot');

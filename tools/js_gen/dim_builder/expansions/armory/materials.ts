@@ -437,6 +437,12 @@ const materials = [
         item: item_callfromthedepth_.i_marbleingot,
         type: "smithing",
         smithing: item_callfromthedepth_.i_immemorialupgradesmithingtemplate,
+        tools_smithing: [
+            item_callfromthedepth_.i_immemorialaxe,
+            item_callfromthedepth_.i_immemorialpickaxe,
+            item_callfromthedepth_.i_immemorialshovel,
+            item_callfromthedepth_.i_immemorialhoe
+        ],
         base: "depth",
         base_damage: 188,
         durability: 5850,
@@ -627,7 +633,7 @@ const materials = [
 function convertMaterial(name: string, color: string, brightnessBoost: number, level: number, pmmoLevel: number, craftingMaterial: string,
                          toolSpeed: number, baseDamage: number, durability: number, armor: number,
                          armorToughness: number, knockbackResistance: number,
-                         skip: string[] = [], smithingMaterial: string|undefined = undefined, smithingTemplateId: string|undefined = undefined) {
+                         skip: string[] = [], smithingToolArray: string[]|undefined, smithingMaterial: string|undefined = undefined, smithingTemplateId: string|undefined = undefined) {
     const material = new Material()
         .withName(name)
         .withColor(color)
@@ -648,7 +654,8 @@ function convertMaterial(name: string, color: string, brightnessBoost: number, l
             .withBaseDamage(baseDamage)
             .withDurability(durability)
             .withPmmoLevel(pmmoLevel)
-            .withToolSpeed(toolSpeed))
+            .withToolSpeed(toolSpeed)
+        )
 
     if (skip) {
         if (skip.includes("armor")) {
@@ -665,6 +672,10 @@ function convertMaterial(name: string, color: string, brightnessBoost: number, l
         const armory = material.armory as Armory;
         armory.withSmithing(smithingMaterial, smithingTemplateId);
     }
+    if (smithingToolArray) {
+        const armory = material.armory as Armory;
+        armory.withSmithingToolArray(smithingToolArray)
+    }
     return material
 }
 
@@ -674,6 +685,6 @@ export const armoryMaterials = materials.map(material => {
     }
     return convertMaterial(material.name, material.materialColor, material.brightnessBoost ?? 0, material.tier, material.pmmoLevel,
         material.item, material.tier * 4, material.base_damage, material.durability, material.armor,
-        material.armorToughness, material.knockbackResistance, material.skip,
+        material.armorToughness, material.knockbackResistance, material.skip, material.tools_smithing,
         material.type === "smithing" ? material.base : undefined, material.type === "smithing" && !!material.smithing ? material.smithing : undefined)
 }).filter(material => material !== undefined);
