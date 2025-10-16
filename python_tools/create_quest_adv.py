@@ -171,7 +171,7 @@ QUESTS = {
     'travel_to_everbright': {
         'item': 'kubejs:quest',
         'title': 'TUTORIAL - Travel to the Everbright',
-        'description': 'Light the portal in the Gatekeep, but make sure it is for Everbright',
+        'description': 'Light the portal in the Gatekeep, but make sure it is for Everbright\n§b1g §c1b',
         'xp': 20,
         'delayNext' : 200,
         'type': 'travel_dimension',
@@ -249,7 +249,7 @@ QUESTS = {
         'type': 'obtain_item',
         'match': {
             'mode': 'exact',
-            'match_id': 'blue_skies:ethernal_arc' 
+            'match_id': 'blue_skies:ethereal_arc' 
         },
         'count': 1,
         'dialogue': {
@@ -277,7 +277,24 @@ QUESTS = {
             'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
         }
     },
-    
+    '25combatlvl': {
+        'item': 'kubejs:quest',
+        'title': 'Reach Combat Lvl 25',
+        'description': 'Fight enemies to raise your combat level to at least 25.',
+        'xp': 20,
+        'type': 'reach_level',
+        'match': {
+            'mode': 'check_level',
+            'skill': 'combat'
+        },
+        'count': 25,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Your combat skills are improving. Keep it up!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
+        }
+    },
     'locate_everbright_nature_dungeon': {
         'item': 'kubejs:quest',
         'title': 'Find a Nature Dungeon',
@@ -304,7 +321,7 @@ QUESTS = {
         'type': 'obtain_item',
         'match': {
             'mode': 'exact',
-            'match_id': 'blue_skies:blinding_key' 
+            'match_id': 'blue_skies:nature_key' 
         },
         'count': 4,
         'dialogue': {
@@ -315,6 +332,7 @@ QUESTS = {
         }
     },
     'slay_starlit_crusher': {
+        'item': 'kubejs:quest',
         'title': 'Slay The Starlit Crusher',
         'description': 'The Starlit Crusher is at core a tree evolved, so axes might be more useful.',
         'xp': 20,
@@ -344,11 +362,269 @@ QUESTS = {
         'count': 1,
         'dialogue': {
             'speaker': 'Elder Librarian',
-            'message': 'Very good! Equip it to become stronger.',
+            'message': 'Very good! Equip it to become stronger. Remember, you could get a better one from the enemy',
             'renderType': 'rectangle',
             'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
         }
     },
+    '28combatlvl': {
+        'item': 'kubejs:quest',
+        'title': 'Reach Combat Lvl 28',
+        'description': 'Fight enemies to raise your combat level to at least 28.',
+        'xp': 20,
+        'type': 'reach_level',
+        'match': {
+            'mode': 'check_level',
+            'skill': 'combat'
+        },
+        'count': 28,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Your combat skills are improving. Keep it up!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
+        }
+    },
+    'travel_back_to_overworld': {
+        'item': 'kubejs:quest',
+        'title': 'Travel back to the Overworld',
+        'description': 'Get back home as we need to find the next adventure. Remember: /dimensions',
+        'xp': 20,
+        'delayNext' : 200,
+        'type': 'travel_dimension',
+        'match': {
+            'mode': 'exact',
+            'match_id' : 'minecraft:overworld'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Welcome back home, but adventure continues',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },  
+    'travel_to_everdawn': {
+        'item': 'kubejs:quest',
+        'title': 'Travel to the Everdawn',
+        'description': 'Very simmilar to the Everbright portal, this one is found in gatekeer`s houses. Remember: /dimensions',
+        'xp': 20,
+        'delayNext' : 200,
+        'type': 'travel_dimension',
+        'match': {
+            'mode': 'exact',
+            'match_id' : 'blue_skies:everdawn'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'A new world with new magic mechanics!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everdawn.png'
+        }
+    },  
+    'locate_everdawn_blinding_dungeon': {
+        'item': 'kubejs:quest',
+        'title': 'Find a Blinding Dungeon',
+        'description': 'In the Everdawn there is the brother of the Summoner, The Alchemist. Be aware of the dangers of The Everdawn',
+        'xp': 20,
+        'type': 'locate_structure',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'blue_skies:everdawn_blinding_dungeon'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Good job! Do you still got the keys from the past day or do you need to get new ones?',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everdawn.png'
+        }
+    },
+    'loot_4_blinding_keys': {
+        'item': 'kubejs:quest',
+        'title': 'Find 4 Blinding Dungeon Keys',
+        'description': 'Search in the tower for keys. You need it to open the gate towards The Alchemist',
+        'xp': 20,
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'blue_skies:blinding_key' 
+        },
+        'count': 4,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Good! Now to the Alchemist!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everdawn.png'
+        }
+    },
+    'slay_the_alchemist': {
+        'item': 'kubejs:quest',
+        'title': 'Slay The Alchemist',
+        'description': 'I hope you came armed. The Alchemist is not as light as his brother.',
+        'xp': 20,
+        'type': 'kill',
+        'match': {
+            'mode': 'exact',
+            'match': 'blue_skies:alchemist'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Astonishing! Check the loot bag, you can get an arc from him that can turn you invisible! Remember, you could get a better one from the enemy',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everdawn.png'
+        }
+    },
+    'loot_dusk_arc': {
+        'item': 'kubejs:quest',
+        'title': 'Find a Dusk Arc',
+        'description': 'Dusk arcs gives you the ability to turn invisible. Very useful when evading enemies.',
+        'xp': 20,
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'blue_skies:dusk_arc' 
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Very good! Equip it to become one with the shadows! Remember, you could get a better one from the enemy',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everdawn.png'
+        }
+    },
+    'place_alchemy_table': {
+        'item': 'kubejs:quest',
+        'title': 'Get an Alchemy Table',
+        'description': 'Summon and slay The Alchemist until you find an Alchemy Table and put it on the ground.',
+        'xp': 20,
+        'type': 'place_block',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'blue_skies:alchemy_table' 
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'The table can be used to alterate versions of an item. Try turning redstone into glowstone.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everdawn.png'
+        }
+    },
+    '32combatlvl': {
+        'item': 'kubejs:quest',
+        'title': 'Reach Combat Lvl 32',
+        'description': 'Fight enemies to raise your combat level to at least 32.',
+        'xp': 20,
+        'type': 'reach_level',
+        'match': {
+            'mode': 'check_level',
+            'skill': 'combat'
+        },
+        'count': 32,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Your combat skills are improving. Keep it up!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everdawn.png'
+        }
+    },
+    'locate_everdawn_poison_dungeon': {
+        'item': 'kubejs:quest',
+        'title': 'Find a Poison Dungeon',
+        'description': 'In the Everdawn lays the Arachnarch. A gigantic vonomus spider. I suspect he lives underground.',
+        'xp': 20,
+        'type': 'locate_structure',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'blue_skies:poison_dungeon'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'I strongly belive you need some keys here aswell. However i do not know what kind.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everdawn.png'
+        }
+    },
+    'loot_4_poison_keys': {
+        'item': 'kubejs:quest',
+        'title': 'Find 4 Poison Dungeon Keys',
+        'description': 'Search the ',
+        'xp': 20,
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'blue_skies:poison_key' 
+        },
+        'count': 4,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Fantastic. Let`s search around for a place where we could find him.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everdawn.png'
+        }
+    },
+    'slay_the_arachnarch': {
+        'item': 'kubejs:quest',
+        'title': 'Slay The Arachnarch',
+        'description': 'I hope you came armed. The Alchemist is not as light as his brother.',
+        'xp': 20,
+        'type': 'kill',
+        'match': {
+            'mode': 'exact',
+            'match': 'blue_skies:arachnarch'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Astonishing! Check the loot bag, you can get an arc from it that could prevent the poisoning.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everdawn.png'
+        }
+    },
+    'loot_poison_arc': {
+        'item': 'kubejs:quest',
+        'title': 'Find a Poison Arc',
+        'description': 'Poison Arcs prevent you from being poisoned. Very useful against vonomus enemies',
+        'xp': 20,
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'blue_skies:poison_arc' 
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Very good! Spiders will no longer state an threat. Remember, you could get a better one from the enemy',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everdawn.png'
+        }
+    },
+    '35combatlvl': {
+        'item': 'kubejs:quest',
+        'title': 'Reach Combat Lvl 35',
+        'description': 'Fight enemies to raise your combat level to at least 35.',
+        'xp': 20,
+        'type': 'reach_level',
+        'match': {
+            'mode': 'check_level',
+            'skill': 'combat'
+        },
+        'count': 35,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Your combat skills are improving. Keep it up!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everdawn.png'
+        }
+    },
+
+    # blue_skies:poison_dungeon
+
+    # blue_skies:everdawn_blinding_dungeon
 
     '20logs': {
         'title': 'TUTORIAL - Get 20 logs',
