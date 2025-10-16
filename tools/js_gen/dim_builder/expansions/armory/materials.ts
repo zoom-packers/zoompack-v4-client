@@ -445,7 +445,7 @@ const materials = [
         knockbackResistance: 0.11,
         pmmoLevel: 86,
         materialColor: "#9fabacff",
-        skip: ["tools", "armor"]
+        skip: ["armor"]
     },
     {
         name: "soul",
