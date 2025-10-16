@@ -1,7 +1,7 @@
 {
 	"unlocked_by_default": true,
 	"title": [ 
-		{"text": "§6§lViagra's Blade > "},
+		{"text": "§6§lVonux's Blade > "},
 		{"text": "§r§fImprove your fighting skills and damage by killing enemies or other players"}
 	],
 	"icon": {
@@ -11,7 +11,7 @@
 		}
 	},
 	"background": {
-        "texture": "zoomers_wallpapers:textures/viagras_blade.png",
+        "texture": "zoomers_wallpapers:textures/vonux_blade.png",
         "width": 1729,
         "height": 1300,
 		"position": "fill"
