@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest"
+            "item": "kubejs:quest_book"
         },
-        "title": "Find a Poison Dungeon",
-        "description": "In the Everdawn lays the Arachnarch. A gigantic vonomus spider. I suspect he lives underground.",
+        "title": "TUTORIAL - Get Yourself a Waystone",
+        "description": "Place a Waystone on the ground. You can use those to travel vast distances at the cost of Experience",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:get_tier_3_power_up",
+    "parent": "aaaa_zp4adv:use_bauble_mount",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

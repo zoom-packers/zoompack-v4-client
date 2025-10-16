@@ -1,3 +1,4 @@
+//priority: 851
 const $CompoundTag = Java.loadClass('net.minecraft.nbt.CompoundTag')
 
 // TODO: add progression announcement with text on screen
@@ -9,12 +10,274 @@ const ADV_PREFIX = `${ADV_NAMESPACE}${TWO_DOTS}`;
 
 //QUEST_DATA_START
 const QUESTS = {
+    "travel_to_aether":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:aether_the_aether_trigger"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:travel_to_aether",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"The Aether is a friendly looking skylands with some very manacing creatures. Since is above the overworld you can jump back home anytime.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
+        },
+        "delayNext":200,
+        "next":"30enemies_aether"
+    },
+    "30enemies_aether":{
+        "type":"kill",
+        "match":{
+            "mode":"preset_entity_check",
+            "match":"hostile",
+            "dimension_match":"aether:the_aether"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:30enemies_aether",
+        "count":20,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Very good, now that you got used to the enemies around, it is time for you to search for stronger challanges.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"place_aether_altar"
+    },
+    "place_aether_altar":{
+        "type":"place_block",
+        "match":{
+            "mode":"exact",
+            "match_id":"aether:altar"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:place_aether_altar",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"The altar repairs items, however there are surely more mystical items in this realm.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
+        },
+        "next":"locate_aether_bronze_dungeon"
+    },
+    "locate_aether_bronze_dungeon":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:aether_bronze_dungeon_trigger"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:locate_aether_bronze_dungeon",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Good. Your enemy lies in one of these chambers. Make sure you have a pickaxe around!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
+        },
+        "next":"slay_slider"
+    },
+    "slay_slider":{
+        "type":"kill",
+        "match":{
+            "mode":"exact",
+            "match":"aether:slider"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:slay_slider",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Every key opens something. Look around!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
+        },
+        "next":"locate_aether_silver_dungeon"
+    },
+    "locate_aether_silver_dungeon":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:aether_silver_dungeon_trigger"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:locate_aether_silver_dungeon",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"The Silver Dungeon is home of the Valkyrie Queen, but she may be harmed in fight only with specific requirments.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
+        },
+        "next":"slay_10_valkyries"
+    },
+    "slay_10_valkyries":{
+        "type":"kill",
+        "match":{
+            "mode":"exact",
+            "match":"aether:valkyrie"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:slay_10_valkyries",
+        "count":10,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Good. Let`s hope you got enough to trade a fight with the Queen.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
+        },
+        "next":"slay_valkyrie_queen"
+    },
+    "slay_valkyrie_queen":{
+        "type":"kill",
+        "match":{
+            "mode":"exact",
+            "match":"aether:valkyrie_queen"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:slay_valkyrie_queen",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Every key opens something. Look around!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
+        },
+        "next":"locate_aether_gold_dungeon"
+    },
+    "locate_aether_gold_dungeon":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:aether_gold_dungeon_trigger"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:locate_aether_gold_dungeon",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Incredible, a creature that harnessed the power of lava fully. Let`s hope you can face the fire.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
+        },
+        "next":"slay_sun_spirit"
+    },
+    "slay_sun_spirit":{
+        "type":"kill",
+        "match":{
+            "mode":"exact",
+            "match":"aether:sun_spirit"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:slay_sun_spirit",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Impressive fight! Now don`t forget that every key opens something, so look around!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
+        },
+        "next":"locate_aether_platinum_dungeon"
+    },
+    "locate_aether_platinum_dungeon":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:lost_aether_content_platinum_dungeon_trigger"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:locate_aether_platinum_dungeon",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Incredible construction. I wonder what loot could we get out of it.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/aether.png"
+        },
+        "next":"20logs"
+    },
     "20logs":{
         "type":"break_block",
         "match":{
             "mode":"endswith",
             "match_id":"_log"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:20logs",
         "count":20,
         "dialogue":{
@@ -31,6 +294,13 @@ const QUESTS = {
             "mode":"preset_entity_check",
             "match":"hostile"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:10enemies",
         "count":10,
         "dialogue":{
@@ -47,6 +317,13 @@ const QUESTS = {
             "mode":"preset_entity_check",
             "match":"passive"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:10farmanimals",
         "count":10,
         "dialogue":{
@@ -63,6 +340,13 @@ const QUESTS = {
             "mode":"check_level",
             "skill":"combat"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:10combatlvl",
         "count":10,
         "dialogue":{
@@ -79,6 +363,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"apotheosis:gem"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:loot_gem",
         "count":1,
         "dialogue":{
@@ -95,6 +386,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"apotheosis:gem_dust"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:crush_gem",
         "count":1,
         "dialogue":{
@@ -111,6 +409,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"apotheosis:salvaging_table"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:place_salvaging_table",
         "count":1,
         "dialogue":{
@@ -127,6 +432,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"apotheosis:simple_reforging_table"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:place_simple_reforging_table",
         "count":1,
         "dialogue":{
@@ -143,6 +455,13 @@ const QUESTS = {
             "mode":"nbt_data_includes",
             "match_id":"affix_data"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:first_affix_item",
         "count":1,
         "dialogue":{
@@ -159,6 +478,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"fortunas_anvil:fortunas_anvil"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:place_fortunas_anvil",
         "count":1,
         "dialogue":{
@@ -179,6 +505,13 @@ const QUESTS = {
                 "match_id":"level"
             }
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:use_fortunas_anvil",
         "count":1,
         "dialogue":{
@@ -195,6 +528,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"baublemounts:mount_bauble"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:craft_bauble_mount",
         "count":1,
         "dialogue":{
@@ -215,11 +555,68 @@ const QUESTS = {
                 "match_id":"baublemounts:mount_bauble"
             }
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:use_bauble_mount",
         "count":1,
         "dialogue":{
             "speaker":"Elder Librarian",
             "message":"Amazing! Now you can toggle your mount with the key V. Take care of it!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
+        },
+        "next":"place_waystone"
+    },
+    "place_waystone":{
+        "type":"place_block",
+        "match":{
+            "mode":"any",
+            "match_ids":[
+                "waystones:waystone",
+                "waystones:mossy_waystone",
+                "waystones:sandy_waystone"
+            ]
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:place_waystone",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Very good! Interact with it. Maybe you can teleport somewhere.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
+        },
+        "next":"get_tier_1_power_up"
+    },
+    "get_tier_1_power_up":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"startswith",
+            "match_id":"kubejs:tier_1"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:get_tier_1_power_up",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Nice. You can use that with Trimming Templates to enhance your armors.",
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
@@ -231,6 +628,13 @@ const QUESTS = {
             "mode":"preset_entity_check",
             "match":"hostile"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:50enemies",
         "count":50,
         "dialogue":{
@@ -247,6 +651,13 @@ const QUESTS = {
             "mode":"exact",
             "match":"aaaa_zp4adv:win_raid_loop"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:win_raid",
         "count":1,
         "dialogue":{
@@ -263,6 +674,13 @@ const QUESTS = {
             "mode":"preset_entity_check",
             "match":"boss"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:kill_bosses",
         "count":4,
         "dialogue":{
@@ -283,6 +701,13 @@ const QUESTS = {
                 "aaaa_zp4adv:blue_skies_gatekeeper_house_snowy_trigger"
             ]
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:locate_gatekeeper",
         "count":1,
         "dialogue":{
@@ -299,6 +724,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"blue_skies:zeal_lighter"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:get_zeal_lighter",
         "count":1,
         "dialogue":{
@@ -315,6 +747,13 @@ const QUESTS = {
             "mode":"check_level",
             "skill":"combat"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:20combatlvl",
         "count":20,
         "dialogue":{
@@ -322,23 +761,6 @@ const QUESTS = {
             "message":"Level 20 reached for combat! Now you are ready for the Everbright",
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
-        },
-        "next":"20enemies_everbright"
-    },
-    "20enemies_everbright":{
-        "type":"kill",
-        "match":{
-            "mode":"preset_entity_check",
-            "match":"hostile",
-            "dimension_match":"blue_skies:everbright"
-        },
-        "unlock":"aaaa_zp4adv:20enemies_everbright",
-        "count":20,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"Very good! I have heard about some towers around that the inhabitant owns special powers. See if you can find any.",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
         },
         "next":"travel_to_everbright"
     },
@@ -348,6 +770,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"aaaa_zp4adv:blue_skies_everbright_trigger"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:travel_to_everbright",
         "count":1,
         "dialogue":{
@@ -357,6 +786,30 @@ const QUESTS = {
             "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
         "delayNext":200,
+        "next":"20enemies_everbright"
+    },
+    "20enemies_everbright":{
+        "type":"kill",
+        "match":{
+            "mode":"preset_entity_check",
+            "match":"hostile",
+            "dimension_match":"blue_skies:everbright"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:20enemies_everbright",
+        "count":20,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Very good! I have heard about some towers around that the inhabitant owns special powers. See if you can find any.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
         "next":"locate_everbright_blinding_dungeon"
     },
     "locate_everbright_blinding_dungeon":{
@@ -365,6 +818,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"aaaa_zp4adv:blue_skies_everbright_blinding_dungeon_trigger"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:locate_everbright_blinding_dungeon",
         "count":1,
         "dialogue":{
@@ -381,6 +841,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"blue_skies:blinding_key"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:loot_blinding_key",
         "count":1,
         "dialogue":{
@@ -397,6 +864,13 @@ const QUESTS = {
             "mode":"exact",
             "match":"blue_skies:summoner"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:slay_summoner",
         "count":1,
         "dialogue":{
@@ -413,6 +887,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"blue_skies:ethereal_arc"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:loot_ethernal_arc",
         "count":1,
         "dialogue":{
@@ -429,6 +910,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"blue_skies:summoning_table"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:place_summoning_table",
         "count":1,
         "dialogue":{
@@ -445,11 +933,41 @@ const QUESTS = {
             "mode":"check_level",
             "skill":"combat"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:25combatlvl",
         "count":25,
         "dialogue":{
             "speaker":"Elder Librarian",
             "message":"Your combat skills are improving. Keep it up!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
+        },
+        "next":"get_tier_2_power_up"
+    },
+    "get_tier_2_power_up":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"startswith",
+            "match_id":"kubejs:tier_2"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:get_tier_2_power_up",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Great! Apply those to your armor to become stronger!",
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/everbright.png"
         },
@@ -461,6 +979,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"aaaa_zp4adv:blue_skies_nature_dungeon_trigger"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:locate_everbright_nature_dungeon",
         "count":1,
         "dialogue":{
@@ -477,6 +1002,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"blue_skies:nature_key"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:loot_4_nature_key",
         "count":4,
         "dialogue":{
@@ -493,6 +1025,13 @@ const QUESTS = {
             "mode":"exact",
             "match":"blue_skies:starlit_crusher"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:slay_starlit_crusher",
         "count":1,
         "dialogue":{
@@ -509,6 +1048,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"blue_skies:nature_arc"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:loot_nature_arc",
         "count":1,
         "dialogue":{
@@ -525,6 +1071,13 @@ const QUESTS = {
             "mode":"check_level",
             "skill":"combat"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:28combatlvl",
         "count":28,
         "dialogue":{
@@ -541,6 +1094,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"aaaa_zp4adv:minecraft_overworld_trigger"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:travel_back_to_overworld",
         "count":1,
         "dialogue":{
@@ -558,6 +1118,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"aaaa_zp4adv:blue_skies_everdawn_trigger"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:travel_to_everdawn",
         "count":1,
         "dialogue":{
@@ -567,6 +1134,30 @@ const QUESTS = {
             "renderTarget":"zoompack_images:textures/elder_librarian/everdawn.png"
         },
         "delayNext":200,
+        "next":"20enemies_everdawn"
+    },
+    "20enemies_everdawn":{
+        "type":"kill",
+        "match":{
+            "mode":"preset_entity_check",
+            "match":"hostile",
+            "dimension_match":"blue_skies:everdawn"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:20enemies_everdawn",
+        "count":20,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Very good! I have heard about some towers around that the inhabitant owns special powers. See if you can find any.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everdawn.png"
+        },
         "next":"locate_everdawn_blinding_dungeon"
     },
     "locate_everdawn_blinding_dungeon":{
@@ -575,6 +1166,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"aaaa_zp4adv:blue_skies_everdawn_blinding_dungeon_trigger"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:locate_everdawn_blinding_dungeon",
         "count":1,
         "dialogue":{
@@ -591,6 +1189,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"blue_skies:blinding_key"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:loot_4_blinding_keys",
         "count":4,
         "dialogue":{
@@ -607,6 +1212,13 @@ const QUESTS = {
             "mode":"exact",
             "match":"blue_skies:alchemist"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:slay_the_alchemist",
         "count":1,
         "dialogue":{
@@ -623,6 +1235,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"blue_skies:dusk_arc"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:loot_dusk_arc",
         "count":1,
         "dialogue":{
@@ -639,6 +1258,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"blue_skies:alchemy_table"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:place_alchemy_table",
         "count":1,
         "dialogue":{
@@ -655,11 +1281,41 @@ const QUESTS = {
             "mode":"check_level",
             "skill":"combat"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:32combatlvl",
         "count":32,
         "dialogue":{
             "speaker":"Elder Librarian",
             "message":"Your combat skills are improving. Keep it up!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/everdawn.png"
+        },
+        "next":"get_tier_3_power_up"
+    },
+    "get_tier_3_power_up":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"startswith",
+            "match_id":"kubejs:tier_3"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:get_tier_3_power_up",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Great! Apply those to your armor to become stronger!",
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/everdawn.png"
         },
@@ -671,6 +1327,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"aaaa_zp4adv:blue_skies_poison_dungeon_trigger"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:locate_everdawn_poison_dungeon",
         "count":1,
         "dialogue":{
@@ -687,6 +1350,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"blue_skies:poison_key"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:loot_4_poison_keys",
         "count":4,
         "dialogue":{
@@ -703,6 +1373,13 @@ const QUESTS = {
             "mode":"exact",
             "match":"blue_skies:arachnarch"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:slay_the_arachnarch",
         "count":1,
         "dialogue":{
@@ -719,6 +1396,13 @@ const QUESTS = {
             "mode":"exact",
             "match_id":"blue_skies:poison_arc"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:loot_poison_arc",
         "count":1,
         "dialogue":{
@@ -735,6 +1419,13 @@ const QUESTS = {
             "mode":"check_level",
             "skill":"combat"
         },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
         "unlock":"aaaa_zp4adv:35combatlvl",
         "count":35,
         "dialogue":{
@@ -1036,6 +1727,18 @@ function questEvent(event, eventType) {
                                 }
                             }
                         }
+                        
+                        if (questData.match.mode == 'endswith') {
+                            if(item_id.endsWith(questData.match.match_id)){
+                                eventMatch = true;
+                            }
+                        }
+                        
+                        if (questData.match.mode == 'startswith') {
+                            if(item_id.startsWith(questData.match.match_id)){
+                                eventMatch = true;
+                            }
+                        }
 
                         if (questData.match.mode == 'nbt_data_includes') {
                             let compoundToMatch = questData.match.match_id;
@@ -1086,6 +1789,11 @@ function questEvent(event, eventType) {
                                 eventMatch = true;
                             }
                         }
+                        if (questData.match.mode == 'startswith') {
+                            if (block.id.startsWith(questData.match.match_id)) {
+                                eventMatch = true;
+                            }
+                        }
                     }
                 }
             }
@@ -1097,6 +1805,14 @@ function questEvent(event, eventType) {
                         if (questData.match.mode == 'exact') {
                             if (block.id == questData.match.match_id) {
                                 eventMatch = true;
+                            }
+                        }
+                        if (questData.match.mode == 'any') {
+                            for(const match_id of questData.match.match_ids){
+                                if(match_id == block.id){
+                                    eventMatch = true;
+                                    break;
+                                }
                             }
                         }
                     }
@@ -1234,7 +1950,7 @@ function matchQuestDataByAdvId(advancement_id) {
 }
 
 //INSTA_REVOKE_DATA_START
-const INSTA_REVOKE_ADVS_PY = ["aaaa_zp4adv:blue_skies_gatekeeper_house_mountain_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_plains_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_snowy_trigger", "aaaa_zp4adv:blue_skies_everbright_trigger", "aaaa_zp4adv:blue_skies_everbright_blinding_dungeon_trigger", "aaaa_zp4adv:blue_skies_nature_dungeon_trigger", "aaaa_zp4adv:minecraft_overworld_trigger", "aaaa_zp4adv:blue_skies_everdawn_trigger", "aaaa_zp4adv:blue_skies_everdawn_blinding_dungeon_trigger", "aaaa_zp4adv:blue_skies_poison_dungeon_trigger"]
+const INSTA_REVOKE_ADVS_PY = ["aaaa_zp4adv:aether_the_aether_trigger", "aaaa_zp4adv:aether_bronze_dungeon_trigger", "aaaa_zp4adv:aether_silver_dungeon_trigger", "aaaa_zp4adv:aether_gold_dungeon_trigger", "aaaa_zp4adv:lost_aether_content_platinum_dungeon_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_mountain_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_plains_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_snowy_trigger", "aaaa_zp4adv:blue_skies_everbright_trigger", "aaaa_zp4adv:blue_skies_everbright_blinding_dungeon_trigger", "aaaa_zp4adv:blue_skies_nature_dungeon_trigger", "aaaa_zp4adv:minecraft_overworld_trigger", "aaaa_zp4adv:blue_skies_everdawn_trigger", "aaaa_zp4adv:blue_skies_everdawn_blinding_dungeon_trigger", "aaaa_zp4adv:blue_skies_poison_dungeon_trigger"]
 //INSTA_REVOKE_DATA_END
 
 const INSTA_REVOKE_ADVS = ['aaaa_zp4adv:win_raid_loop'].concat(INSTA_REVOKE_ADVS_PY);
@@ -1263,6 +1979,7 @@ PlayerEvents.advancement(event => {
             let questData = matchQuestDataByAdvId(advancementId);
             if (questData) {
                 if (questData.next) {
+                    grantQuestReward(questData.reward, player, server);
                     if (questData.hasOwnProperty('delayNext')) {
                         server.scheduleInTicks(questData.delayNext, callback => {
                             sendPlayerQuestToTrack(player, QUESTS[questData.next].unlock);

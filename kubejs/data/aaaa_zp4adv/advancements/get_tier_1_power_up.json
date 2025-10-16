@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest"
+            "item": "kubejs:quest_book"
         },
-        "title": "Find a Poison Dungeon",
-        "description": "In the Everdawn lays the Arachnarch. A gigantic vonomus spider. I suspect he lives underground.",
+        "title": "TUTORIAL - Get Yourself a Power Up",
+        "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:get_tier_3_power_up",
+    "parent": "aaaa_zp4adv:place_waystone",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

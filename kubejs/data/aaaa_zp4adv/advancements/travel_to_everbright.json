@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "TUTORIAL - Travel to the Everbright",
+        "title": "TUTORIAL - Travel to The Everbright",
         "description": "Light the portal in the Gatekeep, but make sure it is for Everbright",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:20enemies_everbright",
+    "parent": "aaaa_zp4adv:20combatlvl",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

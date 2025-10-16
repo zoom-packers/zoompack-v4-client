@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Find a Poison Dungeon",
-        "description": "In the Everdawn lays the Arachnarch. A gigantic vonomus spider. I suspect he lives underground.",
+        "title": "Slay The Sun Spirit",
+        "description": "The Sun Spirit is a master of fire. Make sure you can wistand it.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:get_tier_3_power_up",
+    "parent": "aaaa_zp4adv:locate_aether_gold_dungeon",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

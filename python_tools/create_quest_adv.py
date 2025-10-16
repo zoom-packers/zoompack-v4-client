@@ -148,6 +148,7 @@ def generate_js_quests(quests_data):
         quest_entry = {
             'type': data['type'],
             'match': data.get('match', {}),
+            'reward': data.get('reward', [0,0,0,0,0]),
             'unlock': f'aaaa_zp4adv:{key}',
             'count': data['count'],
             'dialogue': {
@@ -168,10 +169,228 @@ def generate_js_quests(quests_data):
 DEFAULT_ITEM = 'kubejs:quest_book'
 DEFAULT_ROOT = "aaaa_zp4adv:root"
 QUESTS = {
+    'travel_to_aether': {
+        'item': 'kubejs:quest',
+        'title': 'TUTORIAL - Travel to The Aether',
+        'description': 'For this you need a portal of glowston lit with water. If you ever get lost, type /dimensions for tips',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'delayNext' : 200,
+        'type': 'travel_dimension',
+        'match': {
+            'mode': 'exact',
+            'match_id' : 'aether:the_aether'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'The Aether is a friendly looking skylands with some very manacing creatures. Since is above the overworld you can jump back home anytime.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
+        }
+    }, 
+    '30enemies_aether': {
+        'item': 'kubejs:quest',
+        'title': 'Slay 30 Enemies in The Aether',
+        'description': 'Get a glimpse of what dangers to expect from the dimension.',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'kill',
+        'match': {
+            'mode': 'preset_entity_check',
+            'match': 'hostile',
+            'dimension_match' : 'aether:the_aether'
+        },
+        'count': 20,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Very good, now that you got used to the enemies around, it is time for you to search for stronger challanges.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
+        }
+    },
+    'place_aether_altar': {
+        'item': 'kubejs:quest',
+        'title': 'Get an Altar',
+        'description': 'Find or craft an Altar to repair the damage on your items with Ambrosium Shards',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'place_block',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'aether:altar' 
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'The altar repairs items, however there are surely more mystical items in this realm.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
+        }
+    },
+    'locate_aether_bronze_dungeon': {
+        'item': 'kubejs:quest',
+        'title': 'Find a Bronze Dungeon',
+        'description': 'Bronze Dungeons are hidden underground but they have an open exit.',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'locate_structure',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'aether:bronze_dungeon'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Good. Your enemy lies in one of these chambers. Make sure you have a pickaxe around!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
+        }
+    },
+    'slay_slider': {
+        'item': 'kubejs:quest',
+        'title': 'Slay The Slider',
+        'description': 'The Slider is probably just a big minable thing.',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'kill',
+        'match': {
+            'mode': 'exact',
+            'match': 'aether:slider'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Every key opens something. Look around!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
+        }
+    },
+    'locate_aether_silver_dungeon': {
+        'item': 'kubejs:quest',
+        'title': 'Find a Silver Dungeon',
+        'description': 'Silver Dungeons are big colloseums in the clouds. Big and Goldy, hard to miss.',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'locate_structure',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'aether:silver_dungeon'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'The Silver Dungeon is home of the Valkyrie Queen, but she may be harmed in fight only with specific requirments.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
+        }
+    },
+    'slay_10_valkyries': {
+        'item': 'kubejs:quest',
+        'title': 'Slay 10 Valkyries',
+        'description': 'The Valkyries are submissive to their queen. You need their medals to trade with the Queen.',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'kill',
+        'match': {
+            'mode': 'exact',
+            'match': 'aether:valkyrie'
+        },
+        'count': 10,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Good. Let`s hope you got enough to trade a fight with the Queen.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
+        }
+    },
+    'slay_valkyrie_queen': {
+        'item': 'kubejs:quest',
+        'title': 'Slay The Valkyrie Queen',
+        'description': 'The Valkyrie Queen is a mythical being with many dodgy mechanics',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'kill',
+        'match': {
+            'mode': 'exact',
+            'match': 'aether:valkyrie_queen'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Every key opens something. Look around!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
+        }
+    },
+    'locate_aether_gold_dungeon': {
+        'item': 'kubejs:quest',
+        'title': 'Find a Gold Dungeon',
+        'description': 'Gold Dungeons are bulky islands glued togather with many trees on top. However they all have a way of going in.',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'locate_structure',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'aether:gold_dungeon'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Incredible, a creature that harnessed the power of lava fully. Let`s hope you can face the fire.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
+        }
+    },
+    'slay_sun_spirit': {
+        'item': 'kubejs:quest',
+        'title': 'Slay The Sun Spirit',
+        'description': 'The Sun Spirit is a master of fire. Make sure you can wistand it.',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'kill',
+        'match': {
+            'mode': 'exact',
+            'match': 'aether:sun_spirit'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Impressive fight! Now don`t forget that every key opens something, so look around!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
+        }
+    },
+    'locate_aether_platinum_dungeon': {
+        'item': 'kubejs:quest',
+        'title': 'Find a Platinum Dungeon',
+        'description': 'Platinum Dungeons are chunky towers up in the sky with a Whale roaming around.',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'locate_structure',
+        'match': {
+            'mode': 'exact',
+            'match_id': 'lost_aether_content:platinum_dungeon'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Incredible construction. I wonder what loot could we get out of it.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/aether.png'
+        }
+    },
+
+# aether:bronze_dungeon
+# aether:silver_dungeon
+# aether:gold_dungeon
+# lost_aether_content:platinum_dungeon
+
     '20logs': {
         'title': 'TUTORIAL - Get 20 logs',
         'description': 'Everything requires sticks, so gather some wood',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'break_block',
         'match': {
             'mode': 'endswith',
@@ -189,6 +408,7 @@ QUESTS = {
         'title': 'TUTORIAL - Slay 10 Enemies',
         'description': 'You must get used to combat. So slay some enemies. Fighting gives you Combat XP',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'kill',
         'match': {
             'mode': 'preset_entity_check',
@@ -206,6 +426,7 @@ QUESTS = {
         'title': 'TUTORIAL - Butcher 10 Farm Animals',
         'description': 'You must get used to gather food. Start with a farm. ',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'kill',
         'match': {
             'mode': 'preset_entity_check',
@@ -223,6 +444,7 @@ QUESTS = {
         'title': 'TUTORIAL - Reach Combat Lvl 10',
         'description': 'Fight enemies to raise your combat level to at least 10.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'reach_level',
         'match': {
             'mode': 'check_level',
@@ -240,6 +462,7 @@ QUESTS = {
         'title': 'TUTORIAL - Loot a Gem',
         'description': 'Pickup a gem from towers across Overworld or from Mobs',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'obtain_item',
         'match': {
             'mode': 'exact',
@@ -257,6 +480,7 @@ QUESTS = {
         'title': 'TUTORIAL - Get some gem dust',
         'description': 'Drop an anvil on gems to crush them into gem dust.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'obtain_item',
         'match': {
             'mode': 'exact',
@@ -274,6 +498,7 @@ QUESTS = {
         'title': 'TUTORIAL - Get a Salvaging Table',
         'description': 'Place a Salvaging Table. Craft it and use it to get materials.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'place_block',
         'match': {
             'mode': 'exact',
@@ -291,6 +516,7 @@ QUESTS = {
         'title': 'TUTORIAL - Get a Simple Reforging Table',
         'description': 'Place a Simple Reforging Table on the ground. Use it to upgrade items with affixes. Type /gems to find more.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'place_block',
         'match': {
             'mode': 'exact',
@@ -308,6 +534,7 @@ QUESTS = {
         'title': 'TUTORIAL - Get an item with Affixes',
         'description': 'Loot or either create an item with Affixes at the Reforging Table',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'obtain_item',
         'match': {
             'mode': 'nbt_data_includes',
@@ -325,6 +552,7 @@ QUESTS = {
         'title': 'TUTORIAL - Get a Fortuna`s Anvil',
         'description': 'Place a Fortuna`s Anvil on the ground. Use it to upgrade your items. Type /fortunas to find out more.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'place_block',
         'match': {
             'mode': 'exact',
@@ -342,6 +570,7 @@ QUESTS = {
         'title': 'TUTORIAL - Upgrade an item on the Fortuna`s Table',
         'description': '+1 +2 +3 ... For upgrading the gear you need the item, catalyst to boost chance, material to improve gap and protection rune for protection of the item. \nType /fortunas in case you get lost to find out more about the Fortuna`s Table',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'obtain_item',
         'match': {
             'mode': 'nbt_data_includes',
@@ -363,6 +592,7 @@ QUESTS = {
         'title': 'TUTORIAL - Get a Bauble Mount',
         'description': 'Get yourself a Bauble for a Mount. Type /mounts to find out more.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'obtain_item',
         'match': {
             'mode': 'exact',
@@ -380,6 +610,7 @@ QUESTS = {
         'title': 'TUTORIAL - Your own personal mount',
         'description': 'Use the Mount Bauble to a tamed mob to make it yours. Type /mounts to find out more.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'obtain_item',
         'match': {
             'mode': 'nbt_data_includes',
@@ -397,10 +628,47 @@ QUESTS = {
             'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },
+    'place_waystone': {
+        'title': 'TUTORIAL - Get Yourself a Waystone',
+        'description': 'Place a Waystone on the ground. You can use those to travel vast distances at the cost of Experience',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'place_block',
+        'match': {
+            'mode': 'any',
+            'match_ids': ['waystones:waystone','waystones:mossy_waystone','waystones:sandy_waystone']
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Very good! Interact with it. Maybe you can teleport somewhere.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
+    'get_tier_1_power_up': {
+        'title': 'TUTORIAL - Get Yourself a Power Up',
+        'description': 'Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'startswith',
+            'match_id': 'kubejs:tier_1'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Nice. You can use that with Trimming Templates to enhance your armors.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
+        }
+    },
     '50enemies': {
         'title': 'TUTORIAL - Slay 50 Enemies',
         'description': 'Test your new gear. Let`s see how strong you got.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'kill',
         'match': {
             'mode': 'preset_entity_check',
@@ -418,6 +686,7 @@ QUESTS = {
         'title': 'TUTORIAL - Win a Raid',
         'description': 'Defeat a Raid upon a village. The more raids won, the more terrain you can claim.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'adv_unlock',
         'match': {
             'mode' : 'exact',
@@ -435,6 +704,7 @@ QUESTS = {
         'title': 'TUTORIAL - Kill 4 Bosses',
         'description': 'Check out /dimensions to see how you can find bosses in each dimension.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'kill',
         'match': {
             'mode': 'preset_entity_check',
@@ -452,6 +722,7 @@ QUESTS = {
         'title': 'TUTORIAL - Find the Gate Keeper',
         'description': 'Small hut with a special trader. The Gate Keeper holds the portal towards the next dimension.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'locate_structure',
         'match': {
             'mode': 'any',
@@ -469,6 +740,7 @@ QUESTS = {
         'title': 'TUTORIAL - Get a Zeal Lighter',
         'description': 'Trade with the Gate Keeper to obtain a zeal lighter. Use it to fire the portal that must lay near by.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'obtain_item',
         'match': {
             'mode': 'exact',
@@ -486,6 +758,7 @@ QUESTS = {
         'title': 'TUTORIAL - Reach Combat Lvl 20',
         'description': 'Everbright is for no weak souls. Fight enemies to raise your combat level to at least 20.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'reach_level',
         'match': {
             'mode': 'check_level',
@@ -499,30 +772,12 @@ QUESTS = {
             'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },  
-    '20enemies_everbright': {
-        'item': 'kubejs:quest',
-        'title': 'EVERBRIGHT - Slay 20 Enemies',
-        'description': 'This new place is much more harsh. New possibilities, new enemies. Get acquainted.',
-        'xp': 20,
-        'type': 'kill',
-        'match': {
-            'mode': 'preset_entity_check',
-            'match': 'hostile',
-            'dimension_match' : 'blue_skies:everbright'
-        },
-        'count': 20,
-        'dialogue': {
-            'speaker': 'Elder Librarian',
-            'message': 'Very good! I have heard about some towers around that the inhabitant owns special powers. See if you can find any.',
-            'renderType': 'rectangle',
-            'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
-        }
-    },
     'travel_to_everbright': {
         'item': 'kubejs:quest',
-        'title': 'TUTORIAL - Travel to the Everbright',
+        'title': 'TUTORIAL - Travel to The Everbright',
         'description': 'Light the portal in the Gatekeep, but make sure it is for Everbright',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'delayNext' : 200,
         'type': 'travel_dimension',
         'match': {
@@ -537,11 +792,32 @@ QUESTS = {
             'renderTarget': 'zoompack_images:textures/elder_librarian/overworld.png'
         }
     },  
+    '20enemies_everbright': {
+        'item': 'kubejs:quest',
+        'title': 'Slay 20 Enemies in The Everbright',
+        'description': 'This new place is much more harsh. New possibilities, new enemies. Get acquainted.',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'kill',
+        'match': {
+            'mode': 'preset_entity_check',
+            'match': 'hostile',
+            'dimension_match' : 'blue_skies:everbright'
+        },
+        'count': 20,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Very good! I have heard about some towers around that the inhabitant owns special powers. See if you can find any.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
+        }
+    },
     'locate_everbright_blinding_dungeon': {
         'item': 'kubejs:quest',
         'title': 'Find a Blinding Dungeon',
         'description': 'I have been informed that the habitant is possessing unique items.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'locate_structure',
         'match': {
             'mode': 'exact',
@@ -560,6 +836,7 @@ QUESTS = {
         'title': 'Find a Blinding Dungeon Key',
         'description': 'Search in the tower for a key. You need it to open the gate towards the Summoner',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'obtain_item',
         'match': {
             'mode': 'exact',
@@ -577,6 +854,7 @@ QUESTS = {
         'title': 'Slay The Summoner',
         'description': 'The Summoner will use his magic against you. Take care.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'kill',
         'match': {
             'mode': 'exact',
@@ -595,6 +873,7 @@ QUESTS = {
         'title': 'Find an Ethernal Arc',
         'description': 'Arcs are powerups for your character. Ethernal Arc is found in the Summoner loot bag.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'obtain_item',
         'match': {
             'mode': 'exact',
@@ -613,6 +892,7 @@ QUESTS = {
         'title': 'Get a Summoning Table',
         'description': 'Summon and slay The Summoner until you find a Summoning Table and put it on the ground.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'place_block',
         'match': {
             'mode': 'exact',
@@ -631,6 +911,7 @@ QUESTS = {
         'title': 'Reach Combat Lvl 25',
         'description': 'Fight enemies to raise your combat level to at least 25.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'reach_level',
         'match': {
             'mode': 'check_level',
@@ -644,11 +925,31 @@ QUESTS = {
             'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
         }
     },
+    'get_tier_2_power_up': {
+        'item': 'kubejs:quest',
+        'title': 'Get Yourself a Stronger Powerup',
+        'description': 'Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'startswith',
+            'match_id': 'kubejs:tier_2'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Great! Apply those to your armor to become stronger!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everbright.png'
+        }
+    },
     'locate_everbright_nature_dungeon': {
         'item': 'kubejs:quest',
         'title': 'Find a Nature Dungeon',
         'description': 'Nature dungeons are massive mazes multiple stories high. Big and green. That`s how you find them.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'locate_structure',
         'match': {
             'mode': 'exact',
@@ -667,6 +968,7 @@ QUESTS = {
         'title': 'Find 4 Nature Keys',
         'description': 'Search the maze for keys. You need it to open the gate towards the Alchemist',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'obtain_item',
         'match': {
             'mode': 'exact',
@@ -685,6 +987,7 @@ QUESTS = {
         'title': 'Slay The Starlit Crusher',
         'description': 'The Starlit Crusher is at core a tree evolved, so axes might be more useful.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'kill',
         'match': {
             'mode': 'exact',
@@ -703,6 +1006,7 @@ QUESTS = {
         'title': 'Find a Nature Arc',
         'description': 'Nature arcs gives you the possibility to wistand more damage before dying',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'obtain_item',
         'match': {
             'mode': 'exact',
@@ -721,6 +1025,7 @@ QUESTS = {
         'title': 'Reach Combat Lvl 28',
         'description': 'Fight enemies to raise your combat level to at least 28.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'reach_level',
         'match': {
             'mode': 'check_level',
@@ -739,6 +1044,7 @@ QUESTS = {
         'title': 'Travel back to the Overworld',
         'description': 'Get back home as we need to find the next adventure. Remember: /dimensions',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'delayNext' : 200,
         'type': 'travel_dimension',
         'match': {
@@ -755,9 +1061,10 @@ QUESTS = {
     },  
     'travel_to_everdawn': {
         'item': 'kubejs:quest',
-        'title': 'Travel to the Everdawn',
+        'title': 'Travel to The Everdawn',
         'description': 'Very simmilar to the Everbright portal, this one is found in gatekeer`s houses. Remember: /dimensions',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'delayNext' : 200,
         'type': 'travel_dimension',
         'match': {
@@ -772,11 +1079,32 @@ QUESTS = {
             'renderTarget': 'zoompack_images:textures/elder_librarian/everdawn.png'
         }
     },  
+    '20enemies_everdawn': {
+        'item': 'kubejs:quest',
+        'title': 'Slay 20 Enemies in The Everdawn',
+        'description': 'This new place is much more harsh. New possibilities, new enemies. Get acquainted.',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'kill',
+        'match': {
+            'mode': 'preset_entity_check',
+            'match': 'hostile',
+            'dimension_match' : 'blue_skies:everdawn'
+        },
+        'count': 20,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Very good! I have heard about some towers around that the inhabitant owns special powers. See if you can find any.',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everdawn.png'
+        }
+    },
     'locate_everdawn_blinding_dungeon': {
         'item': 'kubejs:quest',
         'title': 'Find a Blinding Dungeon',
         'description': 'In the Everdawn there is the brother of the Summoner, The Alchemist. Be aware of the dangers of The Everdawn',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'locate_structure',
         'match': {
             'mode': 'exact',
@@ -795,6 +1123,7 @@ QUESTS = {
         'title': 'Find 4 Blinding Dungeon Keys',
         'description': 'Search in the tower for keys. You need it to open the gate towards The Alchemist',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'obtain_item',
         'match': {
             'mode': 'exact',
@@ -813,6 +1142,7 @@ QUESTS = {
         'title': 'Slay The Alchemist',
         'description': 'I hope you came armed. The Alchemist is not as light as his brother.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'kill',
         'match': {
             'mode': 'exact',
@@ -831,6 +1161,7 @@ QUESTS = {
         'title': 'Find a Dusk Arc',
         'description': 'Dusk arcs gives you the ability to turn invisible. Very useful when evading enemies.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'obtain_item',
         'match': {
             'mode': 'exact',
@@ -849,6 +1180,7 @@ QUESTS = {
         'title': 'Get an Alchemy Table',
         'description': 'Summon and slay The Alchemist until you find an Alchemy Table and put it on the ground.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'place_block',
         'match': {
             'mode': 'exact',
@@ -867,6 +1199,7 @@ QUESTS = {
         'title': 'Reach Combat Lvl 32',
         'description': 'Fight enemies to raise your combat level to at least 32.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'reach_level',
         'match': {
             'mode': 'check_level',
@@ -880,11 +1213,31 @@ QUESTS = {
             'renderTarget': 'zoompack_images:textures/elder_librarian/everdawn.png'
         }
     },
+    'get_tier_3_power_up': {
+        'item': 'kubejs:quest',
+        'title': 'Get Yourself a Stronger Powerup',
+        'description': 'Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it',
+        'xp': 20,
+	    'reward' : [10,0,0,0,0],
+        'type': 'obtain_item',
+        'match': {
+            'mode': 'startswith',
+            'match_id': 'kubejs:tier_3'
+        },
+        'count': 1,
+        'dialogue': {
+            'speaker': 'Elder Librarian',
+            'message': 'Great! Apply those to your armor to become stronger!',
+            'renderType': 'rectangle',
+            'renderTarget': 'zoompack_images:textures/elder_librarian/everdawn.png'
+        }
+    },
     'locate_everdawn_poison_dungeon': {
         'item': 'kubejs:quest',
         'title': 'Find a Poison Dungeon',
         'description': 'In the Everdawn lays the Arachnarch. A gigantic vonomus spider. I suspect he lives underground.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'locate_structure',
         'match': {
             'mode': 'exact',
@@ -903,6 +1256,7 @@ QUESTS = {
         'title': 'Find 4 Poison Dungeon Keys',
         'description': 'Search the ',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'obtain_item',
         'match': {
             'mode': 'exact',
@@ -921,6 +1275,7 @@ QUESTS = {
         'title': 'Slay The Arachnarch',
         'description': 'I hope you came armed. The Alchemist is not as light as his brother.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'kill',
         'match': {
             'mode': 'exact',
@@ -939,6 +1294,7 @@ QUESTS = {
         'title': 'Find a Poison Arc',
         'description': 'Poison Arcs prevent you from being poisoned. Very useful against vonomus enemies',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'obtain_item',
         'match': {
             'mode': 'exact',
@@ -957,6 +1313,7 @@ QUESTS = {
         'title': 'Reach Combat Lvl 35',
         'description': 'Fight enemies to raise your combat level to at least 35.',
         'xp': 20,
+	    'reward' : [10,0,0,0,0],
         'type': 'reach_level',
         'match': {
             'mode': 'check_level',

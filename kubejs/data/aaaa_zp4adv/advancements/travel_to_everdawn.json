@@ -3,7 +3,7 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Travel to the Everdawn",
+        "title": "Travel to The Everdawn",
         "description": "Very simmilar to the Everbright portal, this one is found in gatekeer`s houses. Remember: /dimensions",
         "frame": "task",
         "show_toast": false,

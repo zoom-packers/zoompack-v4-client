@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:root",
+    "parent": "aaaa_zp4adv:locate_aether_platinum_dungeon",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

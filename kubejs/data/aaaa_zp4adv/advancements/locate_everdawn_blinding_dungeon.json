@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:travel_to_everdawn",
+    "parent": "aaaa_zp4adv:20enemies_everdawn",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

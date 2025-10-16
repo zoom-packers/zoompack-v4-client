@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Find a Poison Dungeon",
-        "description": "In the Everdawn lays the Arachnarch. A gigantic vonomus spider. I suspect he lives underground.",
+        "title": "Find a Gold Dungeon",
+        "description": "Gold Dungeons are bulky islands glued togather with many trees on top. However they all have a way of going in.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:get_tier_3_power_up",
+    "parent": "aaaa_zp4adv:slay_valkyrie_queen",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Find a Poison Dungeon",
-        "description": "In the Everdawn lays the Arachnarch. A gigantic vonomus spider. I suspect he lives underground.",
+        "title": "TUTORIAL - Travel to The Aether",
+        "description": "For this you need a portal of glowston lit with water. If you ever get lost, type /dimensions for tips",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:get_tier_3_power_up",
+    "parent": "aaaa_zp4adv:root",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

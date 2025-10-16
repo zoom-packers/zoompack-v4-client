@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Find a Poison Dungeon",
-        "description": "In the Everdawn lays the Arachnarch. A gigantic vonomus spider. I suspect he lives underground.",
+        "title": "Find a Platinum Dungeon",
+        "description": "Platinum Dungeons are chunky towers up in the sky with a Whale roaming around.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:get_tier_3_power_up",
+    "parent": "aaaa_zp4adv:slay_sun_spirit",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"
