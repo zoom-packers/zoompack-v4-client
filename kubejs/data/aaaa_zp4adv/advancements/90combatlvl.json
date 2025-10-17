@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest"
+            "item": "kubejs:quest_book"
         },
-        "title": "Find Kinora`s Garden",
-        "description": "Kinora`s Garden is the home of Kinora The Royal Mantyd. It should be a bricked base topped with cherry blossom trees.",
+        "title": "Reach Combat Lvl 90",
+        "description": "Fight enemies to raise your combat level to at least 90.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:80enemies_undergarden",
+    "parent": "aaaa_zp4adv:100enemies_depth",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

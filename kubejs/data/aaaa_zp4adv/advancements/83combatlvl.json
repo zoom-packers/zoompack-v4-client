@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest"
+            "item": "kubejs:quest_book"
         },
-        "title": "Travel back to the Overworld",
-        "description": "Get back home as we need to find the next adventure.",
+        "title": "Reach Combat Lvl 83",
+        "description": "Fight enemies to raise your combat level to at least 83.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:70combatlvl",
+    "parent": "aaaa_zp4adv:defeat_agony_soul",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

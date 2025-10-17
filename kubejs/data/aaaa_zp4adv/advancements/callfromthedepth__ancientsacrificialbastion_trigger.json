@@ -9,7 +9,7 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "structure": "undergarden:catacombs"
+                                "structure": "callfromthedepth_:ancientsacrificialbastion"
                             }
                         }
                     }
@@ -21,7 +21,7 @@
     "display": {
         "announce_to_chat": false,
         "description": {
-            "text": "Locate Undergarden Catacombs"
+            "text": "Locate Callfromthedepth  Ancientsacrificialbastion"
         },
         "frame": "challenge",
         "hidden": true,
@@ -30,7 +30,7 @@
         },
         "show_toast": false,
         "title": {
-            "text": "Locate Undergarden Catacombs"
+            "text": "Locate Callfromthedepth  Ancientsacrificialbastion"
         }
     },
     "requirements": [

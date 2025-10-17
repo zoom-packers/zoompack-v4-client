@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Slay The Royal Mantyd",
-        "description": "She is a very tricky mantyd so make sure you can talk her down.",
+        "title": "Get an Agony Soul",
+        "description": "Agony Soul is made from Lost soul sand, but after a few iterations. Craft it to ressurect the Agony Soul",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:locate_kinoras_garden",
+    "parent": "aaaa_zp4adv:locate_sacrificial_bastion",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

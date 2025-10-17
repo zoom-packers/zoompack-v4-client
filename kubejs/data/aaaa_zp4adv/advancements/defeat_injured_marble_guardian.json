@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Find The Catacombs",
-        "description": "The Catacombs are the perfect place to find rare ancient loot!",
+        "title": "Defeat The Injured Marble Guardian",
+        "description": "The Injured Marble Guardian is a marble made entity with strong powers. Don`t be cocky while facing it.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:travel_to_the_undergarden",
+    "parent": "aaaa_zp4adv:get_weeping_soul",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

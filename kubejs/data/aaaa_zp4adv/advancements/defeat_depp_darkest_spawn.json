@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Travel to The Undergarden",
-        "description": "A 2 by 3 ring of Stone Bricks lit with the Catalyst. That`s all you need to lit and jump.",
+        "title": "Defeat The Deep Darkest Spawn",
+        "description": "All we know about the Deep Darkest Spawn is that it`s an abomination.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:loot_or_craft_catalyst",
+    "parent": "aaaa_zp4adv:get_deadblind_soul",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

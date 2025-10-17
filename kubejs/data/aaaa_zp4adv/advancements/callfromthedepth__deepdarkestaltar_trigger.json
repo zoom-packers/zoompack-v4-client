@@ -9,7 +9,7 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "structure": "mokels_boss_mantyd:kinoras_garden"
+                                "structure": "callfromthedepth_:deepdarkestaltar"
                             }
                         }
                     }
@@ -21,7 +21,7 @@
     "display": {
         "announce_to_chat": false,
         "description": {
-            "text": "Locate Mokels Boss Mantyd Kinoras Garden"
+            "text": "Locate Callfromthedepth  Deepdarkestaltar"
         },
         "frame": "challenge",
         "hidden": true,
@@ -30,7 +30,7 @@
         },
         "show_toast": false,
         "title": {
-            "text": "Locate Mokels Boss Mantyd Kinoras Garden"
+            "text": "Locate Callfromthedepth  Deepdarkestaltar"
         }
     },
     "requirements": [

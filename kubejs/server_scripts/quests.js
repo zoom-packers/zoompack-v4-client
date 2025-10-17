@@ -10,11 +10,57 @@ const ADV_PREFIX = `${ADV_NAMESPACE}${TWO_DOTS}`;
 
 //QUEST_DATA_START
 const QUESTS = {
-    "loot_or_craft_catalyst":{
+    "locate_ancient_city":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:minecraft_ancient_city_trigger"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:locate_ancient_city",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Fantastic, now make some noise to wake up the fallen.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
+        },
+        "next":"defeat_the_warden"
+    },
+    "defeat_the_warden":{
+        "type":"kill",
+        "match":{
+            "mode":"exact",
+            "match":"minecraft:warden"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:defeat_the_warden",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Astonishing! Check the loot bag, you can get an arc from him that can turn you invisible! Remember, you could get a better one from the enemy",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
+        },
+        "next":"get_depth_key"
+    },
+    "get_depth_key":{
         "type":"obtain_item",
         "match":{
             "mode":"exact",
-            "match_id":"undergarden:catalyst"
+            "match_id":"callfromthedepth_:depth"
         },
         "reward":[
             10,
@@ -23,21 +69,21 @@ const QUESTS = {
             0,
             0
         ],
-        "unlock":"aaaa_zp4adv:loot_or_craft_catalyst",
+        "unlock":"aaaa_zp4adv:get_depth_key",
         "count":1,
         "dialogue":{
             "speaker":"Elder Librarian",
-            "message":"Great! Now use it to lit the portal!",
+            "message":"Great! Now See that massive rectangle? That`s the portal!",
             "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
-        "next":"travel_to_the_undergarden"
+        "next":"travel_to_depth"
     },
-    "travel_to_the_undergarden":{
+    "travel_to_depth":{
         "type":"adv_unlock",
         "match":{
             "mode":"exact",
-            "match_id":"aaaa_zp4adv:undergarden_undergarden_trigger"
+            "match_id":"aaaa_zp4adv:callfromthedepth__depth_trigger"
         },
         "reward":[
             10,
@@ -46,46 +92,23 @@ const QUESTS = {
             0,
             0
         ],
-        "unlock":"aaaa_zp4adv:travel_to_the_undergarden",
+        "unlock":"aaaa_zp4adv:travel_to_depth",
         "count":1,
         "dialogue":{
             "speaker":"Elder Librarian",
-            "message":"Welcome to hell! Hard to roam around and constant fear of fire.",
+            "message":"Welcome to the Depth. This realm is anything but friendly. You might need new gear to see better around.",
             "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/depth.png"
         },
         "delayNext":200,
-        "next":"locate_catacombs"
+        "next":"50enemies_depth"
     },
-    "locate_catacombs":{
-        "type":"adv_unlock",
-        "match":{
-            "mode":"exact",
-            "match_id":"aaaa_zp4adv:undergarden_catacombs_trigger"
-        },
-        "reward":[
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "unlock":"aaaa_zp4adv:locate_catacombs",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"Amazing. Now let`s take care of the enemies. Search around for chests too!",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
-        },
-        "next":"80enemies_undergarden"
-    },
-    "80enemies_undergarden":{
+    "50enemies_depth":{
         "type":"kill",
         "match":{
             "mode":"preset_entity_check",
             "match":"hostile",
-            "dimension_match":"undergarden:undergarden"
+            "dimension_match":"callfromthedepth_:depth"
         },
         "reward":[
             10,
@@ -94,21 +117,21 @@ const QUESTS = {
             0,
             0
         ],
-        "unlock":"aaaa_zp4adv:80enemies_undergarden",
-        "count":80,
+        "unlock":"aaaa_zp4adv:50enemies_depth",
+        "count":50,
         "dialogue":{
             "speaker":"Elder Librarian",
-            "message":"Very good! Remember that Forgotten Guardians are not as easy to slash.",
+            "message":"Great job! Now it`s time to loot around. What did we gathered?",
             "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/depth.png"
         },
-        "next":"locate_kinoras_garden"
+        "next":"locate_sacrificial_bastion"
     },
-    "locate_kinoras_garden":{
+    "locate_sacrificial_bastion":{
         "type":"adv_unlock",
         "match":{
             "mode":"exact",
-            "match_id":"aaaa_zp4adv:mokels_boss_mantyd_kinoras_garden_trigger"
+            "match_id":"aaaa_zp4adv:callfromthedepth__ancientsacrificialbastion_trigger"
         },
         "reward":[
             10,
@@ -117,113 +140,21 @@ const QUESTS = {
             0,
             0
         ],
-        "unlock":"aaaa_zp4adv:locate_kinoras_garden",
+        "unlock":"aaaa_zp4adv:locate_sacrificial_bastion",
         "count":1,
         "dialogue":{
             "speaker":"Elder Librarian",
-            "message":"Great finding! Now it`s time to release the realm of her threat!",
+            "message":"Good job! Now we need to get a fragment of the Agony Soul to ressurect him and end it once and for all.",
             "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/depth.png"
         },
-        "next":"slay_kinora"
+        "next":"get_agony_soul"
     },
-    "slay_kinora":{
-        "type":"kill",
-        "match":{
-            "mode":"exact",
-            "match":"mokels_boss_mantyd:boss_mantyd"
-        },
-        "reward":[
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "unlock":"aaaa_zp4adv:slay_kinora",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"Good job! The realm is vast and there are more threats around.",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
-        },
-        "next":"locate_deadly_crypt"
-    },
-    "locate_deadly_crypt":{
-        "type":"adv_unlock",
-        "match":{
-            "mode":"exact",
-            "match_id":"aaaa_zp4adv:call_of_yucutan_deadly_crypt_trigger"
-        },
-        "reward":[
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "unlock":"aaaa_zp4adv:locate_deadly_crypt",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"Amazing spotting. Now take care down there as the crypt is filled with puzzles.",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
-        },
-        "next":"slay_ah_puch"
-    },
-    "slay_ah_puch":{
-        "type":"kill",
-        "match":{
-            "mode":"exact",
-            "match":"call_of_yucutan:ah_puch"
-        },
-        "reward":[
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "unlock":"aaaa_zp4adv:slay_ah_puch",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"I could not belive it even if predicted. Amazing Job! But threats still lay on these warm underlands.",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
-        },
-        "next":"get_tier_6_power_up"
-    },
-    "get_tier_6_power_up":{
+    "get_agony_soul":{
         "type":"obtain_item",
         "match":{
-            "mode":"startswith",
-            "match_id":"kubejs:tier_6"
-        },
-        "reward":[
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "unlock":"aaaa_zp4adv:get_tier_6_power_up",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"Great! Apply those to your armor to become stronger!",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
-        },
-        "next":"locate_overgrown_temple"
-    },
-    "locate_overgrown_temple":{
-        "type":"adv_unlock",
-        "match":{
             "mode":"exact",
-            "match_id":"aaaa_zp4adv:call_of_yucutan_overgrown_temple_trigger"
+            "match_id":"callfromthedepth_:soulinagony"
         },
         "reward":[
             10,
@@ -232,21 +163,21 @@ const QUESTS = {
             0,
             0
         ],
-        "unlock":"aaaa_zp4adv:locate_overgrown_temple",
+        "unlock":"aaaa_zp4adv:get_agony_soul",
         "count":1,
         "dialogue":{
             "speaker":"Elder Librarian",
-            "message":"Great! You found it. Our next enemy is located inside, but the puzzles tricked many into losing their lives.",
+            "message":"Perfect! Now use it on the Stone of Sacrificial to revive the Agony Soul",
             "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/depth.png"
         },
-        "next":"slay_kukulkan"
+        "next":"defeat_agony_soul"
     },
-    "slay_kukulkan":{
+    "defeat_agony_soul":{
         "type":"kill",
         "match":{
             "mode":"exact",
-            "match":"call_of_yucutan:kukulkan"
+            "match":"callfromthedepth_:agonysoul"
         },
         "reward":[
             10,
@@ -255,17 +186,17 @@ const QUESTS = {
             0,
             0
         ],
-        "unlock":"aaaa_zp4adv:slay_kukulkan",
+        "unlock":"aaaa_zp4adv:defeat_agony_soul",
         "count":1,
         "dialogue":{
             "speaker":"Elder Librarian",
-            "message":"Good Work! You now freed the realm of it`s threats.",
+            "message":"Good job! Use the lotted gear to become stronger!",
             "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/depth.png"
         },
-        "next":"70combatlvl"
+        "next":"83combatlvl"
     },
-    "70combatlvl":{
+    "83combatlvl":{
         "type":"reach_level",
         "match":{
             "mode":"check_level",
@@ -278,17 +209,225 @@ const QUESTS = {
             0,
             0
         ],
-        "unlock":"aaaa_zp4adv:70combatlvl",
-        "count":70,
+        "unlock":"aaaa_zp4adv:83combatlvl",
+        "count":83,
         "dialogue":{
             "speaker":"Elder Librarian",
             "message":"Your combat skills are improving. Keep it up!",
             "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/depth.png"
         },
-        "next":"travel_unbergarden_to_overworld"
+        "next":"locate_marble_forge"
     },
-    "travel_unbergarden_to_overworld":{
+    "locate_marble_forge":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:callfromthedepth__marblesoulforge_trigger"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:locate_marble_forge",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Good job! Now we can need to get the Weeping Soul to ressurect the Injured Marble Guard",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/depth.png"
+        },
+        "next":"get_weeping_soul"
+    },
+    "get_weeping_soul":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"callfromthedepth_:weepingsoul"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:get_weeping_soul",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Perfect! Now use it on the Stone of Sacrificial to revive the Injured Marble Guardian",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/depth.png"
+        },
+        "next":"defeat_injured_marble_guardian"
+    },
+    "defeat_injured_marble_guardian":{
+        "type":"kill",
+        "match":{
+            "mode":"exact",
+            "match":"callfromthedepth_:injuredmarbleguard"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:defeat_injured_marble_guardian",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Good job! Use the lotted gear to become stronger!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/depth.png"
+        },
+        "next":"86combatlvl"
+    },
+    "86combatlvl":{
+        "type":"reach_level",
+        "match":{
+            "mode":"check_level",
+            "skill":"combat"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:86combatlvl",
+        "count":86,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Your combat skills are improving. Keep it up!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/depth.png"
+        },
+        "next":"locate_deep_darkest_altar"
+    },
+    "locate_deep_darkest_altar":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:callfromthedepth__deepdarkestaltar_trigger"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:locate_deep_darkest_altar",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Good job! Now we can need to get the Deadblind Soul to ressurect the Deep Darkest Spawn.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/depth.png"
+        },
+        "next":"get_deadblind_soul"
+    },
+    "get_deadblind_soul":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"callfromthedepth_:deadblindsoul"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:get_deadblind_soul",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Perfect! Now use it on the Stone of Sacrificial to revive the Deep Darkest Spawn",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/depth.png"
+        },
+        "next":"defeat_depp_darkest_spawn"
+    },
+    "defeat_depp_darkest_spawn":{
+        "type":"kill",
+        "match":{
+            "mode":"exact",
+            "match":"callfromthedepth_:deepdarkestspwansecondphase"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:defeat_depp_darkest_spawn",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Good job! Use the lotted gear to become stronger!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/depth.png"
+        },
+        "next":"100enemies_depth"
+    },
+    "100enemies_depth":{
+        "type":"kill",
+        "match":{
+            "mode":"preset_entity_check",
+            "match":"hostile",
+            "dimension_match":"callfromthedepth_:depth"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:100enemies_depth",
+        "count":100,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Great job! Now it`s time to loot around. What did we gathered?",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/depth.png"
+        },
+        "next":"90combatlvl"
+    },
+    "90combatlvl":{
+        "type":"reach_level",
+        "match":{
+            "mode":"check_level",
+            "skill":"combat"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:90combatlvl",
+        "count":90,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Your combat skills are improving. Keep it up!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/depth.png"
+        },
+        "next":"travel_depth_to_overworld"
+    },
+    "travel_depth_to_overworld":{
         "type":"adv_unlock",
         "match":{
             "mode":"exact",
@@ -301,11 +440,11 @@ const QUESTS = {
             0,
             0
         ],
-        "unlock":"aaaa_zp4adv:travel_unbergarden_to_overworld",
+        "unlock":"aaaa_zp4adv:travel_depth_to_overworld",
         "count":1,
         "dialogue":{
             "speaker":"Elder Librarian",
-            "message":"Welcome back home, but adventure continues. We need to now go higher than The Aether!",
+            "message":"Welcome back home, but adventure continues. There is one more obscure place to visit.",
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
@@ -844,7 +983,7 @@ function matchQuestDataByAdvId(advancement_id) {
 }
 
 //INSTA_REVOKE_DATA_START
-const INSTA_REVOKE_ADVS_PY = ["aaaa_zp4adv:undergarden_undergarden_trigger", "aaaa_zp4adv:undergarden_catacombs_trigger", "aaaa_zp4adv:mokels_boss_mantyd_kinoras_garden_trigger", "aaaa_zp4adv:call_of_yucutan_deadly_crypt_trigger", "aaaa_zp4adv:call_of_yucutan_overgrown_temple_trigger", "aaaa_zp4adv:minecraft_overworld_trigger"]
+const INSTA_REVOKE_ADVS_PY = ["aaaa_zp4adv:minecraft_ancient_city_trigger", "aaaa_zp4adv:callfromthedepth__depth_trigger", "aaaa_zp4adv:callfromthedepth__ancientsacrificialbastion_trigger", "aaaa_zp4adv:callfromthedepth__marblesoulforge_trigger", "aaaa_zp4adv:callfromthedepth__deepdarkestaltar_trigger", "aaaa_zp4adv:minecraft_overworld_trigger"]
 //INSTA_REVOKE_DATA_END
 
 // const INSTA_REVOKE_ADVS = ['aaaa_zp4adv:win_raid_loop'].concat(INSTA_REVOKE_ADVS_PY);

@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Locate The Deadly Crypt",
-        "description": "The Deadly Crypt is very simmilar to a Jungle Temple, but it's just way bigger and more polished with Jade.",
+        "title": "Travel back to the Overworld",
+        "description": "Get back home as we need to find the next adventure.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:slay_kinora",
+    "parent": "aaaa_zp4adv:90combatlvl",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Slay The Ah Puch",
-        "description": "Ah Puch is pure evil awakened. Mayan devil that caught form in this realm. Be careful when fighting him.",
+        "title": "Get a Deadblind Soul",
+        "description": "Deadblind Soul is made from Lost soul sand, but after a few iterations. Craft it to ressurect the Deadblind Soul",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:locate_deadly_crypt",
+    "parent": "aaaa_zp4adv:locate_deep_darkest_altar",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Get a Catalyst",
-        "description": "Craft a Catalyst to use it to lit the Stone Bricks portal 2 by 3 like The Nether to open the gate towards The Undergarden.",
+        "title": "Travel to The Depth",
+        "description": "Lit the portal with a Depth Key and jump inside.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:root",
+    "parent": "aaaa_zp4adv:get_depth_key",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

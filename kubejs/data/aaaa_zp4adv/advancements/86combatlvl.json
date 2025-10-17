@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest"
+            "item": "kubejs:quest_book"
         },
-        "title": "Locate The Overgrown Temple",
-        "description": "The Overgrown Temple is a goldy looking pyramid in the warm lands of The Undergarden that can be found towards the upper ceiling.",
+        "title": "Reach Combat Lvl 86",
+        "description": "Fight enemies to raise your combat level to at least 86.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:get_tier_6_power_up",
+    "parent": "aaaa_zp4adv:defeat_injured_marble_guardian",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

@@ -9,7 +9,7 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "structure": "call_of_yucutan:overgrown_temple"
+                                "structure": "callfromthedepth_:marblesoulforge"
                             }
                         }
                     }
@@ -21,7 +21,7 @@
     "display": {
         "announce_to_chat": false,
         "description": {
-            "text": "Locate Call Of Yucutan Overgrown Temple"
+            "text": "Locate Callfromthedepth  Marblesoulforge"
         },
         "frame": "challenge",
         "hidden": true,
@@ -30,7 +30,7 @@
         },
         "show_toast": false,
         "title": {
-            "text": "Locate Call Of Yucutan Overgrown Temple"
+            "text": "Locate Callfromthedepth  Marblesoulforge"
         }
     },
     "requirements": [

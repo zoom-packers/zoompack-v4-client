@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Slay 80 Enemies in The Undergarden",
-        "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
+        "title": "Find The Deep Darkest Altar",
+        "description": "The Deep Darkest Altar is a massive castle arena that keeps at bay the remainings of the Deep Darkest Spawn",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:locate_catacombs",
+    "parent": "aaaa_zp4adv:86combatlvl",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

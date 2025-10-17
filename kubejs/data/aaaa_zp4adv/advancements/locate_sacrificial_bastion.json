@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Get Yourself a Stronger Powerup 6",
-        "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
+        "title": "Find a Sacrificial Bastion",
+        "description": "Sacrificial Bastions are big leveled bastions protected by Wardens",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:slay_ah_puch",
+    "parent": "aaaa_zp4adv:50enemies_depth",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

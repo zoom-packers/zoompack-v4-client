@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest_book"
+            "item": "kubejs:quest"
         },
-        "title": "Reach Combat Lvl 70",
-        "description": "Fight enemies to raise your combat level to at least 70.",
+        "title": "Slay 50 Enemies in The Depth",
+        "description": "Let`s clear the surroundings!",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:slay_kukulkan",
+    "parent": "aaaa_zp4adv:travel_to_depth",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"
