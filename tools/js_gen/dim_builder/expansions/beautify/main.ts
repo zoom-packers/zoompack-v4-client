@@ -20,7 +20,7 @@ const dimensionMappingPath = path.join(rawPath, 'dimension_mappings')
 const replacementsMappingPath = path.join(rawPath, 'replacements_mappings')
 
 useLogLevels();
-global.logLevel = 'warn'
+global.logLevel = 'info'
 
 const fileToDimensionMappings = {
     'abyss.txt': 'theabyss:the_abyss',

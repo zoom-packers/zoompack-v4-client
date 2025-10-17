@@ -1,0 +1,14 @@
+apotheosis:tower_leaf
+apotheosis:tower_main
+apotheosis:tower_sand
+apotheosis:tower_spruce
+ati_structures:gnome_hut
+ati_structures:underground_medium
+ati_structures:underground_small
+betterdeserttemples:desert_temples
+betterdungeons:skeleton_dungeons
+betterdungeons:small_dungeons
+betterdungeons:spider_dungeons
+betterdungeons:zombie_dungeons
+betterjungletemples:jungle_temples
+ethrium:catacombs

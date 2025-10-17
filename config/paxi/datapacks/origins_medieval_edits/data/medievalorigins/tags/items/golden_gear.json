@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        {"id":"#medievalorigins:golden_tools","required":false},
+        {"id":"#medievalorigins:golden_armor","required":false},
+        {"id":"#medievalorigins:golden_weapons","required":false},
+        {"id":"#medievalorigins:golden_ranged","required":false},
+        {"id":"#medievalorigins:golden_staff","required":false}
+    ]
+}

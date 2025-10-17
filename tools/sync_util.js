@@ -31,7 +31,7 @@ function isFileSourceControlled(file) {
 
 
 function ensureDirSync(path) {
-    let folders = path.split("/");
+    let folders = path.includes('/') ? path.split("/") : path.split('\\');
     let currentPath = "";
     folders.forEach((folder) => {
         currentPath += folder + "/";

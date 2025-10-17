@@ -13,7 +13,9 @@
         "medievalorigins:ogre/bloodlust_camera",
         "medievalorigins:ogre/orcish_pride",
         "origins_survive:illness_resistance",
-        "medievalorigins:ogre/ravager"
+        "medievalorigins:ogre/ravager",
+        "medievalorigins:big_step",
+        "medievalorigins:weak_knees"
     ],
     "icon": {
         "item": "minecraft:ink_sac",

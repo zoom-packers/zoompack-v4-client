@@ -64,6 +64,7 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
     gearUsesSmithingTemplate: boolean = false;
     smithingTemplateId: string = "";
     smithingFromTier: string = "iron";
+    smithingToolArray: string[];
     pmmoLevel: number = 10;
     baseDamage: number = 6; // Iron has 6, diamond has 7, netherite has 8
     baseArmor: number = 15; // Iron has 15, diamond has 20, netherite has 20
@@ -355,8 +356,22 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
             }
             const id = `${this.internalNamespace}:${materialIdPart}_${type.id}`;
             if (this.gearUsesSmithingTemplate) {
-                const baseItemId = `${this.internalNamespace}:${this.smithingFromTier}_${type.id}`;
+                let baseItemId = `${this.internalNamespace}:${this.smithingFromTier}_${type.id}`;
                 const enhanceItemId = this.craftingMaterial;
+                if (!!this.smithingToolArray) {
+                    if (type.type === 'tool' && type['toolType'] === 'axe') {
+                        baseItemId = this.smithingToolArray[0]
+                    }
+                    if (type.type === 'tool' && type['toolType'] === 'pickaxe') {
+                        baseItemId = this.smithingToolArray[1]
+                    }
+                    if (type.type === 'tool' && type['toolType'] === 'shovel') {
+                        baseItemId = this.smithingToolArray[2]
+                    }
+                    if (type.type === 'tool' && type['toolType'] === 'hoe') {
+                        baseItemId = this.smithingToolArray[3]
+                    }
+                }
                 if (!!this.smithingTemplateId) {
                     this.kubeJsContainer.recipes.smithingFullRecipe(id, baseItemId, enhanceItemId, this.smithingTemplateId);
                 } else {
@@ -812,6 +827,11 @@ export class Armory extends BasicDataHolder<Armory> implements IArmory<Armory>{
         this.gearUsesSmithingTemplate = true;
         this.smithingFromTier = fromTier;
         this.smithingTemplateId = templateId ?? undefined;
+        return this;
+    }
+
+    withSmithingToolArray(smithingToolArray: string[] | undefined): Armory {
+        this.smithingToolArray = smithingToolArray;
         return this;
     }
 

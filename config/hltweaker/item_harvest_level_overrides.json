@@ -151,5 +151,17 @@
     },
     "theabyss:unorithe_pick_axe": {
         "minecraft:mineable/axe": "abyss_unorithe"
+    },
+    "zoomers_armory:marble_pickaxe": {
+        "minecraft:mineable/pickaxe": "abyss_fusion"
+    },
+    "zoomers_armory:marble_axe": {
+        "minecraft:mineable/axe": "abyss_fusion"
+    },
+    "zoomers_armory:marble_shovel": {
+        "minecraft:mineable/shovel": "abyss_fusion"
+    },
+    "zoomers_armory:marble_hoe": {
+        "minecraft:mineable/hoe": "abyss_fusion"
     }
 }

@@ -71,7 +71,11 @@ export class StructureDefinition extends BasicDataHolder<StructureDefinition> {
     }
 
     async fromResourceLocation(rl: ResourceLocation) {
+        console.info(`Started processing structure set ${rl}`)
         this.structureSet = await (new StructureSet().fromResourceLocation(STRUCTURE_SET_JSON_REGISTRY, rl))
+        if (!this.structureSet) {
+            debugger;
+        }
         this.structureSet.withNamespace(this.internalNamespace).withName(this.internalName);
         for (const structureEntry of this.structureSet.structures) {
             const structure = await (new Structure().fromResourceLocation(STRUCTURE_JSON_REGISTRY, structureEntry.structure));
