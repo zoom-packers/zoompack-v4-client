@@ -9,7 +9,7 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "structure": "minecraft:bastion_remnant"
+                                "structure": "call_of_yucutan:deadly_crypt"
                             }
                         }
                     }
@@ -21,7 +21,7 @@
     "display": {
         "announce_to_chat": false,
         "description": {
-            "text": "Locate Minecraft Bastion Remnant"
+            "text": "Locate Call Of Yucutan Deadly Crypt"
         },
         "frame": "challenge",
         "hidden": true,
@@ -30,7 +30,7 @@
         },
         "show_toast": false,
         "title": {
-            "text": "Locate Minecraft Bastion Remnant"
+            "text": "Locate Call Of Yucutan Deadly Crypt"
         }
     },
     "requirements": [

@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Find a Nether City",
-        "description": "Nether City are hostile places but filled with Cincinnasite, the main alloy of The Nether",
+        "title": "Locate The Deadly Crypt",
+        "description": "The Deadly Crypt is very simmilar to a Jungle Temple, but it's just way bigger and more polished with Jade.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:locate_bastion_remnant",
+    "parent": "aaaa_zp4adv:slay_kinora",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

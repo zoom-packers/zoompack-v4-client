@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Find a Bastion",
-        "description": "Bastions are the home of the Piglins. Bling yourself with some gold if you want to trade with them.",
+        "title": "Slay 80 Enemies in The Undergarden",
+        "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:50enemies_nether",
+    "parent": "aaaa_zp4adv:locate_catacombs",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

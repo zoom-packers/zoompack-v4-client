@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest"
+            "item": "kubejs:quest_book"
         },
-        "title": "Get a Table Of Elevation",
-        "description": "Craft a Table Of Elevation and place it down.",
+        "title": "Reach Combat Lvl 70",
+        "description": "Fight enemies to raise your combat level to at least 70.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:get_blazing_eye",
+    "parent": "aaaa_zp4adv:slay_kukulkan",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

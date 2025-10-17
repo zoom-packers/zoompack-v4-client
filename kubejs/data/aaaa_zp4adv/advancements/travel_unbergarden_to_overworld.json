@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Slay The Wither",
-        "description": "The Wither is striclty summoned by placing 3 wither skulls over 3 soul sand blocks that are hold by another soul sand block. Be prepared.",
+        "title": "Travel back to the Overworld",
+        "description": "Get back home as we need to find the next adventure.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:get_tier_5_power_up",
+    "parent": "aaaa_zp4adv:70combatlvl",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

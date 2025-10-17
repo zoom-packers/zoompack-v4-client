@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Get a Forged Backpack",
-        "description": "Craft a Forged Backpack to carry even more items with you roadming the world.",
+        "title": "Slay Kukulkan",
+        "description": "Kukulkan is an ancient mayan being landed on this realm to find peace and hunting ocasionally in The Overworld. It`s time to put an end to it",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:locate_nether_city",
+    "parent": "aaaa_zp4adv:locate_overgrown_temple",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

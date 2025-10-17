@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Slay 50 Enemies in The Nether",
-        "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
+        "title": "Get a Catalyst",
+        "description": "Craft a Catalyst to use it to lit the Stone Bricks portal 2 by 3 like The Nether to open the gate towards The Undergarden.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:locate_nether_fortress",
+    "parent": "aaaa_zp4adv:root",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

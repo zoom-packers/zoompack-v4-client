@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Get Yourself a Stronger Powerup 5",
-        "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
+        "title": "Locate The Overgrown Temple",
+        "description": "The Overgrown Temple is a goldy looking pyramid in the warm lands of The Undergarden that can be found towards the upper ceiling.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:55combatlvl",
+    "parent": "aaaa_zp4adv:get_tier_6_power_up",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

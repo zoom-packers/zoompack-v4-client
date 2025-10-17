@@ -10,11 +10,11 @@ const ADV_PREFIX = `${ADV_NAMESPACE}${TWO_DOTS}`;
 
 //QUEST_DATA_START
 const QUESTS = {
-    "travel_to_the_nether":{
-        "type":"adv_unlock",
+    "loot_or_craft_catalyst":{
+        "type":"obtain_item",
         "match":{
             "mode":"exact",
-            "match_id":"aaaa_zp4adv:minecraft_the_nether_trigger"
+            "match_id":"undergarden:catalyst"
         },
         "reward":[
             10,
@@ -23,22 +23,45 @@ const QUESTS = {
             0,
             0
         ],
-        "unlock":"aaaa_zp4adv:travel_to_the_nether",
+        "unlock":"aaaa_zp4adv:loot_or_craft_catalyst",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Great! Now use it to lit the portal!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
+        },
+        "next":"travel_to_the_undergarden"
+    },
+    "travel_to_the_undergarden":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:undergarden_undergarden_trigger"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:travel_to_the_undergarden",
         "count":1,
         "dialogue":{
             "speaker":"Elder Librarian",
             "message":"Welcome to hell! Hard to roam around and constant fear of fire.",
             "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/nether.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
         },
         "delayNext":200,
-        "next":"locate_nether_fortress"
+        "next":"locate_catacombs"
     },
-    "locate_nether_fortress":{
+    "locate_catacombs":{
         "type":"adv_unlock",
         "match":{
             "mode":"exact",
-            "match_id":"aaaa_zp4adv:betterfortresses_fortress_trigger"
+            "match_id":"aaaa_zp4adv:undergarden_catacombs_trigger"
         },
         "reward":[
             10,
@@ -47,22 +70,22 @@ const QUESTS = {
             0,
             0
         ],
-        "unlock":"aaaa_zp4adv:locate_nether_fortress",
+        "unlock":"aaaa_zp4adv:locate_catacombs",
         "count":1,
         "dialogue":{
             "speaker":"Elder Librarian",
-            "message":"Very good! Now let`s do some cleaning around.",
+            "message":"Amazing. Now let`s take care of the enemies. Search around for chests too!",
             "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/nether.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
         },
-        "next":"50enemies_nether"
+        "next":"80enemies_undergarden"
     },
-    "50enemies_nether":{
+    "80enemies_undergarden":{
         "type":"kill",
         "match":{
             "mode":"preset_entity_check",
             "match":"hostile",
-            "dimension_match":"minecraft:the_nether"
+            "dimension_match":"undergarden:undergarden"
         },
         "reward":[
             10,
@@ -71,21 +94,21 @@ const QUESTS = {
             0,
             0
         ],
-        "unlock":"aaaa_zp4adv:50enemies_nether",
-        "count":50,
+        "unlock":"aaaa_zp4adv:80enemies_undergarden",
+        "count":80,
         "dialogue":{
             "speaker":"Elder Librarian",
-            "message":"Very good! With so many various items to pickup surely you need a better backpack to store them.",
+            "message":"Very good! Remember that Forgotten Guardians are not as easy to slash.",
             "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/nether.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
         },
-        "next":"locate_bastion_remnant"
+        "next":"locate_kinoras_garden"
     },
-    "locate_bastion_remnant":{
+    "locate_kinoras_garden":{
         "type":"adv_unlock",
         "match":{
             "mode":"exact",
-            "match_id":"aaaa_zp4adv:minecraft_bastion_remnant_trigger"
+            "match_id":"aaaa_zp4adv:mokels_boss_mantyd_kinoras_garden_trigger"
         },
         "reward":[
             10,
@@ -94,90 +117,21 @@ const QUESTS = {
             0,
             0
         ],
-        "unlock":"aaaa_zp4adv:locate_bastion_remnant",
+        "unlock":"aaaa_zp4adv:locate_kinoras_garden",
         "count":1,
         "dialogue":{
             "speaker":"Elder Librarian",
-            "message":"Amazing. See if you can find any good trades.",
+            "message":"Great finding! Now it`s time to release the realm of her threat!",
             "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/nether.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
         },
-        "next":"locate_nether_city"
+        "next":"slay_kinora"
     },
-    "locate_nether_city":{
-        "type":"adv_unlock",
-        "match":{
-            "mode":"exact",
-            "match_id":"aaaa_zp4adv:betternether_nether_city_trigger"
-        },
-        "reward":[
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "unlock":"aaaa_zp4adv:locate_nether_city",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"Good. Take care out there. It`s not as friendly as it is shiny!",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/nether.png"
-        },
-        "next":"get_forged_backpack"
-    },
-    "get_forged_backpack":{
-        "type":"obtain_item",
-        "match":{
-            "mode":"exact",
-            "match_id":"sophisticatedbackpacks:diamond_backpack"
-        },
-        "reward":[
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "unlock":"aaaa_zp4adv:get_forged_backpack",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"Great! Did you knew you can upgrade your backpack to compact items for you?",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/nether.png"
-        },
-        "next":"locate_gauntlet_arena"
-    },
-    "locate_gauntlet_arena":{
-        "type":"adv_unlock",
-        "match":{
-            "mode":"exact",
-            "match_id":"aaaa_zp4adv:bosses_of_mass_destruction_gauntlet_arena_trigger"
-        },
-        "reward":[
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "unlock":"aaaa_zp4adv:locate_gauntlet_arena",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"Creepy and warm place. Let`s hope you grabbed a pickaxe.",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/nether.png"
-        },
-        "next":"slay_nether_gauntlet"
-    },
-    "slay_nether_gauntlet":{
+    "slay_kinora":{
         "type":"kill",
         "match":{
             "mode":"exact",
-            "match":"bosses_of_mass_destruction:gauntlet"
+            "match":"mokels_boss_mantyd:boss_mantyd"
         },
         "reward":[
             10,
@@ -186,21 +140,21 @@ const QUESTS = {
             0,
             0
         ],
-        "unlock":"aaaa_zp4adv:slay_nether_gauntlet",
+        "unlock":"aaaa_zp4adv:slay_kinora",
         "count":1,
         "dialogue":{
             "speaker":"Elder Librarian",
-            "message":"Good job! You have now freed the area of the menace.",
+            "message":"Good job! The realm is vast and there are more threats around.",
             "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/nether.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
         },
-        "next":"get_blazing_eye"
+        "next":"locate_deadly_crypt"
     },
-    "get_blazing_eye":{
-        "type":"obtain_item",
+    "locate_deadly_crypt":{
+        "type":"adv_unlock",
         "match":{
             "mode":"exact",
-            "match_id":"bosses_of_mass_destruction:blazing_eye"
+            "match_id":"aaaa_zp4adv:call_of_yucutan_deadly_crypt_trigger"
         },
         "reward":[
             10,
@@ -209,21 +163,21 @@ const QUESTS = {
             0,
             0
         ],
-        "unlock":"aaaa_zp4adv:get_blazing_eye",
+        "unlock":"aaaa_zp4adv:locate_deadly_crypt",
         "count":1,
         "dialogue":{
             "speaker":"Elder Librarian",
-            "message":"Very good! You can use this eye to fly around harnessing it`s magic power",
+            "message":"Amazing spotting. Now take care down there as the crypt is filled with puzzles.",
             "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/nether.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
         },
-        "next":"place_table_of_elevation"
+        "next":"slay_ah_puch"
     },
-    "place_table_of_elevation":{
-        "type":"place_block",
+    "slay_ah_puch":{
+        "type":"kill",
         "match":{
             "mode":"exact",
-            "match_id":"bosses_of_mass_destruction:levitation_block"
+            "match":"call_of_yucutan:ah_puch"
         },
         "reward":[
             10,
@@ -232,67 +186,21 @@ const QUESTS = {
             0,
             0
         ],
-        "unlock":"aaaa_zp4adv:place_table_of_elevation",
+        "unlock":"aaaa_zp4adv:slay_ah_puch",
         "count":1,
         "dialogue":{
             "speaker":"Elder Librarian",
-            "message":"Good Job! Now you can fly around home magically!",
+            "message":"I could not belive it even if predicted. Amazing Job! But threats still lay on these warm underlands.",
             "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/nether.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
         },
-        "next":"place_augmenting_table"
+        "next":"get_tier_6_power_up"
     },
-    "place_augmenting_table":{
-        "type":"place_block",
-        "match":{
-            "mode":"exact",
-            "match_id":"apotheosis:augmenting_table"
-        },
-        "reward":[
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "unlock":"aaaa_zp4adv:place_augmenting_table",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"Amazing! Make use of it if you want stronger gear!",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/nether.png"
-        },
-        "next":"55combatlvl"
-    },
-    "55combatlvl":{
-        "type":"reach_level",
-        "match":{
-            "mode":"check_level",
-            "skill":"combat"
-        },
-        "reward":[
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "unlock":"aaaa_zp4adv:55combatlvl",
-        "count":55,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"Your combat skills are improving. Keep it up!",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/nether.png"
-        },
-        "next":"get_tier_5_power_up"
-    },
-    "get_tier_5_power_up":{
+    "get_tier_6_power_up":{
         "type":"obtain_item",
         "match":{
             "mode":"startswith",
-            "match_id":"kubejs:tier_5"
+            "match_id":"kubejs:tier_6"
         },
         "reward":[
             10,
@@ -301,21 +209,21 @@ const QUESTS = {
             0,
             0
         ],
-        "unlock":"aaaa_zp4adv:get_tier_5_power_up",
+        "unlock":"aaaa_zp4adv:get_tier_6_power_up",
         "count":1,
         "dialogue":{
             "speaker":"Elder Librarian",
             "message":"Great! Apply those to your armor to become stronger!",
             "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/nether.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
         },
-        "next":"slay_the_wither"
+        "next":"locate_overgrown_temple"
     },
-    "slay_the_wither":{
-        "type":"kill",
+    "locate_overgrown_temple":{
+        "type":"adv_unlock",
         "match":{
             "mode":"exact",
-            "match":"minecraft:wither"
+            "match_id":"aaaa_zp4adv:call_of_yucutan_overgrown_temple_trigger"
         },
         "reward":[
             10,
@@ -324,17 +232,40 @@ const QUESTS = {
             0,
             0
         ],
-        "unlock":"aaaa_zp4adv:slay_the_wither",
+        "unlock":"aaaa_zp4adv:locate_overgrown_temple",
         "count":1,
         "dialogue":{
             "speaker":"Elder Librarian",
-            "message":"Impressive work! It`s eye is a must for traveling to The End Dimension.",
+            "message":"Great! You found it. Our next enemy is located inside, but the puzzles tricked many into losing their lives.",
             "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/nether.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
         },
-        "next":"60combatlvl"
+        "next":"slay_kukulkan"
     },
-    "60combatlvl":{
+    "slay_kukulkan":{
+        "type":"kill",
+        "match":{
+            "mode":"exact",
+            "match":"call_of_yucutan:kukulkan"
+        },
+        "reward":[
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:slay_kukulkan",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Good Work! You now freed the realm of it`s threats.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
+        },
+        "next":"70combatlvl"
+    },
+    "70combatlvl":{
         "type":"reach_level",
         "match":{
             "mode":"check_level",
@@ -347,17 +278,17 @@ const QUESTS = {
             0,
             0
         ],
-        "unlock":"aaaa_zp4adv:60combatlvl",
-        "count":60,
+        "unlock":"aaaa_zp4adv:70combatlvl",
+        "count":70,
         "dialogue":{
             "speaker":"Elder Librarian",
             "message":"Your combat skills are improving. Keep it up!",
             "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/nether.png"
+            "renderTarget":"zoompack_images:textures/elder_librarian/undergarden.png"
         },
-        "next":"travel_nether_to_overworld"
+        "next":"travel_unbergarden_to_overworld"
     },
-    "travel_nether_to_overworld":{
+    "travel_unbergarden_to_overworld":{
         "type":"adv_unlock",
         "match":{
             "mode":"exact",
@@ -370,11 +301,11 @@ const QUESTS = {
             0,
             0
         ],
-        "unlock":"aaaa_zp4adv:travel_nether_to_overworld",
+        "unlock":"aaaa_zp4adv:travel_unbergarden_to_overworld",
         "count":1,
         "dialogue":{
             "speaker":"Elder Librarian",
-            "message":"Welcome back home, but adventure continues. The following dimension we shall visit is The Nether",
+            "message":"Welcome back home, but adventure continues. We need to now go higher than The Aether!",
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
@@ -403,11 +334,25 @@ function getLastKey(obj) {
 const FIRST_QUEST = getFirstKey(QUESTS);
 const LAST_QUEST = getLastKey(QUESTS);
 
-function playerQuestProgress(server, player, current, maxQuestProgress){
-    server.runCommandSilent(`/immersivemessages sendcustom ${player.name.string} {anchor:"CENTER_CENTER", background:1, y:50} 2 Quest Progress: ${current}/${maxQuestProgress}`);
-}
+const lastQuestUpdate = {};
+const PROGRESS_DELAY = 1.5;
+const PROGRESS_DELAY_TIME = PROGRESS_DELAY*1000;
 
-// Add listen type and playe to check with if
+function playerQuestProgress(server, player, current, maxQuestProgress) {
+    const now = Date.now();
+    const playerName = player.name.string;
+
+    const lastTime = lastQuestUpdate[playerName] || 0;
+    
+
+    if (now - lastTime < PROGRESS_DELAY_TIME) return;
+
+    lastQuestUpdate[playerName] = now;
+
+    server.runCommandSilent(
+        `/immersivemessages sendcustom ${playerName} {anchor:"CENTER_CENTER", background:1, y:50} ${PROGRESS_DELAY} Quest Progress: ${current}/${maxQuestProgress}`
+    );
+}
 
 function getPlayerQPDString(player, pd_field) {
     let pd_field_value = player.persistentData.getString(pd_field);
@@ -899,7 +844,7 @@ function matchQuestDataByAdvId(advancement_id) {
 }
 
 //INSTA_REVOKE_DATA_START
-const INSTA_REVOKE_ADVS_PY = ["aaaa_zp4adv:minecraft_the_nether_trigger", "aaaa_zp4adv:betterfortresses_fortress_trigger", "aaaa_zp4adv:minecraft_bastion_remnant_trigger", "aaaa_zp4adv:betternether_nether_city_trigger", "aaaa_zp4adv:bosses_of_mass_destruction_gauntlet_arena_trigger", "aaaa_zp4adv:minecraft_overworld_trigger"]
+const INSTA_REVOKE_ADVS_PY = ["aaaa_zp4adv:undergarden_undergarden_trigger", "aaaa_zp4adv:undergarden_catacombs_trigger", "aaaa_zp4adv:mokels_boss_mantyd_kinoras_garden_trigger", "aaaa_zp4adv:call_of_yucutan_deadly_crypt_trigger", "aaaa_zp4adv:call_of_yucutan_overgrown_temple_trigger", "aaaa_zp4adv:minecraft_overworld_trigger"]
 //INSTA_REVOKE_DATA_END
 
 // const INSTA_REVOKE_ADVS = ['aaaa_zp4adv:win_raid_loop'].concat(INSTA_REVOKE_ADVS_PY);

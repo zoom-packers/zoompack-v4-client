@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Get a Blazing Eye",
-        "description": "Blazing Eyes are found in the Gauntlet Arena, but i have no idea where to find them.",
+        "title": "Slay The Ah Puch",
+        "description": "Ah Puch is pure evil awakened. Mayan devil that caught form in this realm. Be careful when fighting him.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:slay_nether_gauntlet",
+    "parent": "aaaa_zp4adv:locate_deadly_crypt",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

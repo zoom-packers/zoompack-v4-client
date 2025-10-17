@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Find a Nether Fortress",
-        "description": "The Nether Fortress hosts many dark creatures that exit to The Overworld. Give the realm some help!",
+        "title": "Slay The Royal Mantyd",
+        "description": "She is a very tricky mantyd so make sure you can talk her down.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:travel_to_the_nether",
+    "parent": "aaaa_zp4adv:locate_kinoras_garden",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

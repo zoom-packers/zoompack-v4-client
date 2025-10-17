@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Get an Augmenting Table",
-        "description": "Craft an Augmenting Table and place it down. Very useful to improve your affixes.",
+        "title": "Get Yourself a Stronger Powerup 6",
+        "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:place_table_of_elevation",
+    "parent": "aaaa_zp4adv:slay_ah_puch",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

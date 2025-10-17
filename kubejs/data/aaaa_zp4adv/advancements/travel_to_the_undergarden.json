@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest_book"
+            "item": "kubejs:quest"
         },
-        "title": "Reach Combat Lvl 55",
-        "description": "Fight enemies to raise your combat level to at least 55.",
+        "title": "Travel to The Undergarden",
+        "description": "A 2 by 3 ring of Stone Bricks lit with the Catalyst. That`s all you need to lit and jump.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:place_augmenting_table",
+    "parent": "aaaa_zp4adv:loot_or_craft_catalyst",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

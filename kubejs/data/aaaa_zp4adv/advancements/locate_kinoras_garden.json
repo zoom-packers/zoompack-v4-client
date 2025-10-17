@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Travel to The Nether",
-        "description": "A 2 by 3 ring of Obsidian lit with Flint and Steel. That`s all you need to lit and jump.",
+        "title": "Find Kinora`s Garden",
+        "description": "Kinora`s Garden is the home of Kinora The Royal Mantyd. It should be a bricked base topped with cherry blossom trees.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:root",
+    "parent": "aaaa_zp4adv:80enemies_undergarden",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

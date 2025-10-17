@@ -9,7 +9,7 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "structure": "bosses_of_mass_destruction:gauntlet_arena"
+                                "structure": "call_of_yucutan:overgrown_temple"
                             }
                         }
                     }
@@ -21,7 +21,7 @@
     "display": {
         "announce_to_chat": false,
         "description": {
-            "text": "Locate Bosses Of Mass Destruction Gauntlet Arena"
+            "text": "Locate Call Of Yucutan Overgrown Temple"
         },
         "frame": "challenge",
         "hidden": true,
@@ -30,7 +30,7 @@
         },
         "show_toast": false,
         "title": {
-            "text": "Locate Bosses Of Mass Destruction Gauntlet Arena"
+            "text": "Locate Call Of Yucutan Overgrown Temple"
         }
     },
     "requirements": [

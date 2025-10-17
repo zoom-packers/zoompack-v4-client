@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Slay The Nether Gauntlet",
-        "description": "The Nether Gauntlet is an evil hand with many ways of harming others. Take care!",
+        "title": "Find The Catacombs",
+        "description": "The Catacombs are the perfect place to find rare ancient loot!",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:locate_gauntlet_arena",
+    "parent": "aaaa_zp4adv:travel_to_the_undergarden",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

@@ -9,7 +9,7 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "structure": "betterfortresses:fortress"
+                                "structure": "undergarden:catacombs"
                             }
                         }
                     }
@@ -21,7 +21,7 @@
     "display": {
         "announce_to_chat": false,
         "description": {
-            "text": "Locate Betterfortresses Fortress"
+            "text": "Locate Undergarden Catacombs"
         },
         "frame": "challenge",
         "hidden": true,
@@ -30,7 +30,7 @@
         },
         "show_toast": false,
         "title": {
-            "text": "Locate Betterfortresses Fortress"
+            "text": "Locate Undergarden Catacombs"
         }
     },
     "requirements": [
