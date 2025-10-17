@@ -4,7 +4,7 @@
             "item": "kubejs:quest"
         },
         "title": "Get a Blazing Eye",
-        "description": "Blazing Eyes are dopped by The Nether Gauntlet sometimes",
+        "description": "Blazing Eyes are found in the Gauntlet Arena, but i have no idea where to find them.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,

@@ -1,4 +1,58 @@
 import json
+import os
+
+def remove_json_files_except_root(folder_path):
+    if not os.path.isdir(folder_path):
+        print(f"Error: The path '{folder_path}' is not a valid directory.")
+        return
+    
+    removed_count = 0
+    for filename in os.listdir(folder_path):
+        if filename.endswith('.json') and filename != 'root.json':
+            file_path = os.path.join(folder_path, filename)
+            if os.path.isfile(file_path):
+                os.remove(file_path)
+                print(f"Removed: {file_path}")
+                removed_count += 1
+    
+    if removed_count == 0:
+        print("No .json files (except root.json) found to remove.")
+
+def get_trigger_adv(root, icon, title, description, trigger):
+    return {
+        "parent": root,
+        "criteria": {
+            "trigger_criteria": {
+            "conditions": {},
+                "trigger": trigger
+            }
+        },
+        "display": {
+            "announce_to_chat": False,
+            "description": {
+            "text": description
+            },
+            "frame": "challenge",
+            "hidden": True,
+            "icon": {
+            "item": icon
+            },
+            "show_toast": False,
+            "title": {
+            "text": title
+            }
+        },
+        "requirements": [
+            [
+            "trigger_criteria"
+            ]
+        ],
+        "rewards": {
+            "experience": 100
+        },
+        "sends_telemetry_event": False,
+        "repeatable": True
+    }
 
 def get_dimension_change_advancement(root, icon, title, description, dimension_id):
     return {
@@ -172,8 +226,8 @@ QUESTS = {
 }
 
 QUEST_FOLDER = 'quests'
-QUEST_FILES = ['overworld', 'everbright', 'everdawn', 'aether', 'nether', 'undergarden', 'end', 'depth', 'abyss']
-# QUEST_FILES = ['nether']
+# QUEST_FILES = ['overworld', 'everbright', 'everdawn', 'aether', 'nether', 'undergarden', 'end', 'depth', 'abyss']
+QUEST_FILES = ['undergarden']
 # QUEST_FILES = ['overworld']
 
 for quest_file_name in QUEST_FILES:
@@ -201,6 +255,12 @@ def get_adv_dimension_text(dimension_id):
     info = dimension_id.replace(':',' ').replace('_',' ').title()
     return f'Travel to {info}'
 
+def get_adv_trigger_text(trigger):
+    info = trigger.replace(':',' ').replace('_',' ').title()
+    return f'Triggered to {info}'
+
+remove_json_files_except_root("../kubejs/data/aaaa_zp4adv/advancements/")
+
 INSTA_REVOKE_ADV = []
 
 current_root = DEFAULT_ROOT
@@ -212,6 +272,20 @@ for quest_key in QUESTS:
         icon = quest_data['item']
 
     sub_advs = []
+    
+    if quest_data['type'] == 'trigger':
+        if quest_data['match']['mode'] == 'exact':
+            trigger = quest_data['match']['match']
+            text = get_adv_trigger_text(trigger)
+
+            path_to_save_adv = path.replace(f'{quest_key}.json', get_adv_sub_path_dimension(trigger)+'.json')
+            adv_id_to_hook = 'aaaa_zp4adv:' + path_to_save_adv.split('/')[-1].replace('.json','')
+        
+            sub_advs.append((get_trigger_adv(DEFAULT_ROOT, DEFAULT_ITEM, text, text, trigger), path_to_save_adv ))
+
+            quest_data['type'] = 'adv_unlock'
+            quest_data['match']['match_id'] = adv_id_to_hook
+
 
     if quest_data['type'] == 'travel_dimension':
         if quest_data['match']['mode'] == 'exact':

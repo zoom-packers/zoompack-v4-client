@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:travel_aether_to_overworld",
+    "parent": "aaaa_zp4adv:root",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"
