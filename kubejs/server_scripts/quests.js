@@ -125,29 +125,6 @@ const QUESTS = {
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/depth.png"
         },
-        "next":"locate_sacrificial_bastion"
-    },
-    "locate_sacrificial_bastion":{
-        "type":"adv_unlock",
-        "match":{
-            "mode":"exact",
-            "match_id":"aaaa_zp4adv:callfromthedepth__ancientsacrificialbastion_trigger"
-        },
-        "reward":[
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "unlock":"aaaa_zp4adv:locate_sacrificial_bastion",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"Good job! Now we need to get a fragment of the Agony Soul to ressurect him and end it once and for all.",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/depth.png"
-        },
         "next":"get_agony_soul"
     },
     "get_agony_soul":{
@@ -983,7 +960,7 @@ function matchQuestDataByAdvId(advancement_id) {
 }
 
 //INSTA_REVOKE_DATA_START
-const INSTA_REVOKE_ADVS_PY = ["aaaa_zp4adv:minecraft_ancient_city_trigger", "aaaa_zp4adv:callfromthedepth__depth_trigger", "aaaa_zp4adv:callfromthedepth__ancientsacrificialbastion_trigger", "aaaa_zp4adv:callfromthedepth__marblesoulforge_trigger", "aaaa_zp4adv:callfromthedepth__deepdarkestaltar_trigger", "aaaa_zp4adv:minecraft_overworld_trigger"]
+const INSTA_REVOKE_ADVS_PY = ["aaaa_zp4adv:minecraft_ancient_city_trigger", "aaaa_zp4adv:callfromthedepth__depth_trigger", "aaaa_zp4adv:callfromthedepth__marblesoulforge_trigger", "aaaa_zp4adv:callfromthedepth__deepdarkestaltar_trigger", "aaaa_zp4adv:minecraft_overworld_trigger"]
 //INSTA_REVOKE_DATA_END
 
 // const INSTA_REVOKE_ADVS = ['aaaa_zp4adv:win_raid_loop'].concat(INSTA_REVOKE_ADVS_PY);

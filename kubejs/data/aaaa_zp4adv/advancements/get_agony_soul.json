@@ -4,13 +4,13 @@
             "item": "kubejs:quest"
         },
         "title": "Get an Agony Soul",
-        "description": "Agony Soul is made from Lost soul sand, but after a few iterations. Craft it to ressurect the Agony Soul",
+        "description": "Sacrificial Bastions are big leveled bastions protected by Wardens. You can use the fragment there!",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:locate_sacrificial_bastion",
+    "parent": "aaaa_zp4adv:50enemies_depth",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"
