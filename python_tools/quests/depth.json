@@ -1,4 +1,196 @@
 {
+    
+    "locate_ancient_city": {
+        "item": "kubejs:quest",
+        "title": "Find an Ancient City",
+        "description": "Ancinet Cities are underground cities found in the Deep Dark biome of the Overworld",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "locate_structure",
+        "match": {
+            "mode": "exact",
+            "match_id": "minecraft:ancient_city"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Fantastic, now make some noise to wake up the fallen.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+        }
+    },
+    "defeat_the_warden": {
+        "item": "kubejs:quest",
+        "title": "Defeat The Warden",
+        "description": "The ancient cities are home to the wrath of The Warden that is awaken by sounds.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "kill",
+        "match": {
+            "mode": "exact",
+            "match": "minecraft:warden"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Astonishing! Check the loot bag, you can get an arc from him that can turn you invisible! Remember, you could get a better one from the enemy",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+        }
+    },
+
+    "get_depth_key": {
+        "item": "kubejs:quest",
+        "title": "Get a Depth Key",
+        "description": "For this you will need End Rods and what you have looted from the Warden",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "callfromthedepth_:depth"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Great! Now See that massive rectangle? That`s the portal!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+        }
+    },
+
+    "travel_to_depth": {
+        "item": "kubejs:quest",
+        "title": "Travel to The Depth",
+        "description": "Lit the portal with a Depth Key and jump inside.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "delayNext": 200,
+        "type": "travel_dimension",
+        "match": {
+            "mode": "exact",
+            "match_id": "callfromthedepth_:depth"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Welcome to the Depth. This realm is anything but friendly. You might need new gear to see better around.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
+        }
+    },
+
+
+    // '64x callfromthedepth_:soulinagony'
+    // callfromthedepth_:ancientsacrificialbastion
+    // callfromthedepth_:agonysoul
+
+    // callfromthedepth_:marblesoulforge
+    // '64x callfromthedepth_:weepingsoul'
+    // callfromthedepth_:injuredmarbleguard
+    
+    // callfromthedepth_:deepdarkestaltar
+    // '64x callfromthedepth_:deadblindsoul'
+    // callfromthedepth_:deepdarkestspwansecondphase
+    
+    "83combatlvl": {
+        "title": "Reach Combat Lvl 83",
+        "description": "Fight enemies to raise your combat level to at least 83.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "reach_level",
+        "match": {
+            "mode": "check_level",
+            "skill": "combat"
+        },
+        "count": 83,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Your combat skills are improving. Keep it up!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
+        }
+    },
+
+
+    "86combatlvl": {
+        "title": "Reach Combat Lvl 86",
+        "description": "Fight enemies to raise your combat level to at least 86.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "reach_level",
+        "match": {
+            "mode": "check_level",
+            "skill": "combat"
+        },
+        "count": 86,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Your combat skills are improving. Keep it up!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
+        }
+    },
+    "90combatlvl": {
+        "title": "Reach Combat Lvl 90",
+        "description": "Fight enemies to raise your combat level to at least 90.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "reach_level",
+        "match": {
+            "mode": "check_level",
+            "skill": "combat"
+        },
+        "count": 90,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Your combat skills are improving. Keep it up!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
+        }
+    },
 
     "travel_depth_to_overworld": {
         "item": "kubejs:quest",
@@ -21,7 +213,7 @@
         "count": 1,
         "dialogue": {
             "speaker": "Elder Librarian",
-            "message": "Welcome back home, but adventure continues. The following dimension we shall visit is The Nether",
+            "message": "Welcome back home, but adventure continues. There is one more obscure place to visit.",
             "renderType": "rectangle",
             "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
         }

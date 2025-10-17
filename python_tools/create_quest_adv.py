@@ -227,7 +227,7 @@ QUESTS = {
 
 QUEST_FOLDER = 'quests'
 # QUEST_FILES = ['overworld', 'everbright', 'everdawn', 'aether', 'nether', 'undergarden', 'end', 'depth', 'abyss']
-QUEST_FILES = ['undergarden']
+QUEST_FILES = ['end']
 # QUEST_FILES = ['overworld']
 
 for quest_file_name in QUEST_FILES:

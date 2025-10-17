@@ -102,9 +102,9 @@
             "renderTarget": "zoompack_images:textures/elder_librarian/end.png"
         }
     },
-    "10enemies_end": {
+    "25enemies_end": {
         "item": "kubejs:quest",
-        "title": "Slay 10 Enemies in The End",
+        "title": "Slay 25 Enemies in The End",
         "description": "Let`s clear the surroundings!",
         "xp": 20,
         "reward": [
@@ -120,7 +120,7 @@
             "match": "hostile",
             "dimension_match": "minecraft:the_end"
         },
-        "count": 50,
+        "count": 25,
         "dialogue": {
             "speaker": "Elder Librarian",
             "message": "Great job! Now it`s time to loot what these chests have to offer",
@@ -154,9 +154,9 @@
             "renderTarget": "zoompack_images:textures/elder_librarian/end.png"
         }
     },
-    "10enemies_2end": {
+    "50enemies_2end": {
         "item": "kubejs:quest",
-        "title": "Slay 10 Enemies in The End",
+        "title": "Slay 50 Enemies in The End",
         "description": "Let`s clear the surroundings!",
         "xp": 20,
         "reward": [
@@ -283,9 +283,57 @@
             "renderTarget": "zoompack_images:textures/elder_librarian/end.png"
         }
     },
-
-    // bosses_of_mass_destruction:obsidilith_arena
-    // bosses_of_mass_destruction:obsidilith
+    
+    "locate_obsidilith_arena": {
+        "item": "kubejs:quest",
+        "title": "Find the Obsidilith Arena",
+        "description": "The Obsidilith Arena is the pillar that holds the Obsidilith, an obsidian made creature that holds mystical items near by.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "locate_structure",
+        "match": {
+            "mode": "exact",
+            "match_id": "bosses_of_mass_destruction:obsidilith_arena"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Perfect! Now time to face the evil. Did you brought a pickaxe? Tho i think we need an Ender Eye..",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/end.png"
+        }
+    },
+    "defeat_obsidilith": {
+        "item": "kubejs:quest",
+        "title": "Defeat The Obsidilith",
+        "description": "It`s behavior is unknown. So take care when fightining it.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "kill",
+        "match": {
+            "mode": "exact",
+            "match": "bosses_of_mass_destruction:obsidilith"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Impressive results. Now grow stronger as we have new realms to free.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/end.png"
+        }
+    },
     
     "80combatlvl": {
         "title": "Reach Combat Lvl 80",
