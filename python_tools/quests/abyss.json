@@ -1,1 +1,28 @@
-{}
+{
+    "travel_abyss_to_overworld": {
+        "item": "kubejs:quest",
+        "title": "Travel back to the Overworld",
+        "description": "Get back home as we need to find the next adventure.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "delayNext": 200,
+        "type": "travel_dimension",
+        "match": {
+            "mode": "exact",
+            "match_id": "minecraft:overworld"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Welcome back home, but adventure continues. The following dimension we shall visit is The Nether",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+        }
+    }
+}

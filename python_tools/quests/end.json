@@ -1,4 +1,238 @@
 {
+    "locate_end_stronghold": {
+        "item": "kubejs:quest",
+        "title": "Find a Stronghold",
+        "description": "Strongholds are hidden underground and you can use Eyes tolocate it. The eyes are shattered across the Overworld",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "locate_structure",
+        "match": {
+            "mode": "exact",
+            "match_id": "betterstrongholds:stronghold"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Great! Let`s hope you gathered enough eyes to open the portal.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+        }
+    },
+    
+    "travel_to_the_end": {
+        "item": "kubejs:quest",
+        "title": "Travel to The End",
+        "description": "Place the eyes into the portal frame and jump inside of it.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "delayNext": 200,
+        "type": "travel_dimension",
+        "match": {
+            "mode": "exact",
+            "match_id": "minecraft:the_end"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Welcome to the high sky! Make sure not to tip over the edges of these islands as there is just abyss downwards.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/end.png"
+        }
+    },
+    "defeat_ender_dragon": {
+        "item": "kubejs:quest",
+        "title": "Defeat The Ender Dragon",
+        "description": "She is not any dragon. She is a mysic and strong dragon that helds healing power from end crystals placed on pillars",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "kill",
+        "match": {
+            "mode": "exact",
+            "match": "minecraft:ender_dragon"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "What a fight! The End is still very vast and the dragon, tho the biggest not it`s final threat.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/end.png"
+        }
+    },
+    
+    "locate_end_tower": {
+        "item": "kubejs:quest",
+        "title": "Find an End Tower",
+        "description": "End Towers are Outer End pillars with glass on top that contain rare loot.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "locate_structure",
+        "match": {
+            "mode": "exact",
+            "match_id": "outer_end:end_tower"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Amazing. Let`s clear the place so we can properly loot.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/end.png"
+        }
+    },
+    "10enemies_end": {
+        "item": "kubejs:quest",
+        "title": "Slay 10 Enemies in The End",
+        "description": "Let`s clear the surroundings!",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "kill",
+        "match": {
+            "mode": "preset_entity_check",
+            "match": "hostile",
+            "dimension_match": "minecraft:the_end"
+        },
+        "count": 50,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Great job! Now it`s time to loot what these chests have to offer",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/end.png"
+        }
+    },
+    
+    "locate_end_catacombs": {
+        "item": "kubejs:quest",
+        "title": "Find The End Catacombs",
+        "description": "The End Catacombs are bunkers with exit on the surface of islands that contain very rare loot!",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "locate_structure",
+        "match": {
+            "mode": "exact",
+            "match_id": "outer_end:catacombs"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Amazing. Let`s clear the place so we can properly loot.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/end.png"
+        }
+    },
+    "10enemies_2end": {
+        "item": "kubejs:quest",
+        "title": "Slay 10 Enemies in The End",
+        "description": "Let`s clear the surroundings!",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "kill",
+        "match": {
+            "mode": "preset_entity_check",
+            "match": "hostile",
+            "dimension_match": "minecraft:the_end"
+        },
+        "count": 50,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Great job! Now it`s time to loot what these chests have to offer",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/end.png"
+        }
+    },
+    
+    "locate_end_city": {
+        "item": "kubejs:quest",
+        "title": "Find an End City",
+        "description": "End Cities are vast or minuscule treeformed towers from the end islands with the rarest loot possible in The End.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "locate_structure",
+        "match": {
+            "mode": "exact",
+            "match_id": "minecraft:end_city"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "What a structure! Let`s hope for an Elytra!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/end.png"
+        }
+    },
+    
+    "get_dragon_head": {
+        "item": "kubejs:quest",
+        "title": "Get a Dragon Head",
+        "description": "Dragon heads can be found End Villages or End Ships. Very much needed for Library of Alexandria",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "minecraft:dragon_head"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Great! Just think about the recipes we could fill with this.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/end.png"
+        }
+    },
+
     "get_draconic_backpack": {
         "item": "kubejs:quest",
         "title": "Get a Draconic Backpack",
@@ -19,9 +253,88 @@
         "count": 1,
         "dialogue": {
             "speaker": "Elder Librarian",
-            "message": "Great! Did you knew you can upgrade your backpack hold more stacks into a single slot?",
+            "message": "Great! This is the best Backpack of the world. Did you knew you can upgrade your backpack to have workbenches?",
             "renderType": "rectangle",
             "renderTarget": "zoompack_images:textures/elder_librarian/end.png"
+        }
+    },    
+    
+    "75combatlvl": {
+        "title": "Reach Combat Lvl 75",
+        "description": "Fight enemies to raise your combat level to at least 75.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "reach_level",
+        "match": {
+            "mode": "check_level",
+            "skill": "combat"
+        },
+        "count": 75,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Your combat skills are improving. Keep it up!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/end.png"
+        }
+    },
+
+    // bosses_of_mass_destruction:obsidilith_arena
+    // bosses_of_mass_destruction:obsidilith
+    
+    "80combatlvl": {
+        "title": "Reach Combat Lvl 80",
+        "description": "Fight enemies to raise your combat level to at least 80.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "reach_level",
+        "match": {
+            "mode": "check_level",
+            "skill": "combat"
+        },
+        "count": 80,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Your combat skills are improving. Keep it up!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/end.png"
+        }
+    },
+    "travel_end_to_overworld": {
+        "item": "kubejs:quest",
+        "title": "Travel back to the Overworld",
+        "description": "Get back home as we need to find the next adventure.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "delayNext": 200,
+        "type": "travel_dimension",
+        "match": {
+            "mode": "exact",
+            "match_id": "minecraft:overworld"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Welcome back home, but adventure continues. The following dimension we shall visit is The Nether",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
         }
     }
 }

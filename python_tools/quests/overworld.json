@@ -1,29 +1,4 @@
 {
-    
-    "craft_experience_cutter": {
-        "title": "TUTORIAL - Time To Extract Experience",
-        "description": "Ever wanted to store Experience. You can craft an Experience Cutter to turn experience into orbes. Type /leveling to find out more.",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "obtain_item",
-        "match": {
-            "mode": "endswith",
-            "match_id": "_experience_cutter"
-        },
-        "count": 1,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Amazing. Now you can use it to store your experience in a safe spot.",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
-        }
-    },
     "20logs": {
         "title": "TUTORIAL - Get 20 logs",
         "description": "Everything requires sticks, so gather some wood",
@@ -91,7 +66,7 @@
         "count": 10,
         "dialogue": {
             "speaker": "Elder Librarian",
-            "message": "Good, now you won\"t starve. Continue!",
+            "message": "Good, now you won`t starve. Continue!",
             "renderType": "rectangle",
             "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
         }
@@ -292,6 +267,30 @@
             "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
         }
     },
+    "craft_experience_cutter": {
+        "title": "TUTORIAL - Time To Extract Experience",
+        "description": "Ever wanted to store Experience. You can craft an Experience Cutter to turn experience into orbes. Type /leveling to find out more.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "endswith",
+            "match_id": "_experience_cutter"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Amazing. Now you can use it to store your experience in a safe spot.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+        }
+    },
     "get_first_backpack": {
         "title": "TUTORIAL - Get your beginer Backpack",
         "description": "Craft a Backpack so you can carry more items around. When equiped press B to open",
@@ -439,7 +438,7 @@
         "count": 50,
         "dialogue": {
             "speaker": "Elder Librarian",
-            "message": "50 enemies down! You\"re a warrior now.",
+            "message": "50 enemies down! You`re a warrior now.",
             "renderType": "rectangle",
             "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
         }
@@ -455,10 +454,10 @@
             0,
             0
         ],
-        "type": "adv_unlock",
+        "type": "trigger",
         "match": {
             "mode": "exact",
-            "match": "aaaa_zp4adv:win_raid_loop"
+            "match": "minecraft:hero_of_the_village"
         },
         "count": 1,
         "dialogue": {

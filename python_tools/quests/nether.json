@@ -25,6 +25,107 @@
             "renderTarget": "zoompack_images:textures/elder_librarian/nether.png"
         }
     },
+    "locate_nether_fortress": {
+        "item": "kubejs:quest",
+        "title": "Find a Nether Fortress",
+        "description": "The Nether Fortress hosts many dark creatures that exit to The Overworld. Give the realm some help!",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "locate_structure",
+        "match": {
+            "mode": "exact",
+            "match_id": "betterfortresses:fortress"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Very good! Now let`s do some cleaning around.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/nether.png"
+        }
+    },
+    "50enemies_nether": {
+        "item": "kubejs:quest",
+        "title": "Slay 50 Enemies in The Nether",
+        "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "kill",
+        "match": {
+            "mode": "preset_entity_check",
+            "match": "hostile",
+            "dimension_match": "minecraft:the_nether"
+        },
+        "count": 50,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Very good! Theats still persists, but we have a now an improved calm.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/nether.png"
+        }
+    },
+    "locate_bastion_remnant": {
+        "item": "kubejs:quest",
+        "title": "Find a Bastion",
+        "description": "Bastions are the home of the Piglins. Bling yourself with some gold if you want to trade with them.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "locate_structure",
+        "match": {
+            "mode": "exact",
+            "match_id": "minecraft:bastion_remnant"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Amazing. See if you can find any good trades.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/nether.png"
+        }
+    },
+    "locate_nether_city": {
+        "item": "kubejs:quest",
+        "title": "Find a Nether City",
+        "description": "Nether City are hostile places but filled with Cincinnasite, the main alloy of The Nether",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "locate_structure",
+        "match": {
+            "mode": "exact",
+            "match_id": "betternether:nether_city"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Good. Take care out there. It`s not as friendly as it is shiny!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/nether.png"
+        }
+    },
     "get_forged_backpack": {
         "item": "kubejs:quest",
         "title": "Get a Forged Backpack",
@@ -48,6 +149,255 @@
             "message": "Great! Did you knew you can upgrade your backpack to compact items for you?",
             "renderType": "rectangle",
             "renderTarget": "zoompack_images:textures/elder_librarian/nether.png"
+        }
+    },
+    "locate_gauntlet_arena": {
+        "item": "kubejs:quest",
+        "title": "Find a Gantlet Arena",
+        "description": "The Gauntlet Arena is the home of Nether Gauntlet. Massive square black cube easy to spot from far away.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "locate_structure",
+        "match": {
+            "mode": "exact",
+            "match_id": "bosses_of_mass_destruction:gauntlet_arena"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Creepy and warm place. Let`s hope you grabbed a pickaxe.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/nether.png"
+        }
+    },
+    "slay_nether_gauntlet": {
+        "item": "kubejs:quest",
+        "title": "Slay The Nether Gauntlet",
+        "description": "The Nether Gauntlet is an evil hand with many ways of harming others. Take care!",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "kill",
+        "match": {
+            "mode": "exact",
+            "match": "bosses_of_mass_destruction:gauntlet"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Good job! You have now freed the area of the menace.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/nether.png"
+        }
+    },
+    "get_blazing_eye": {
+        "item": "kubejs:quest",
+        "title": "Get a Blazing Eye",
+        "description": "Blazing Eyes are found in the Gauntlet Arena, but i have no idea where to find them.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "bosses_of_mass_destruction:blazing_eye"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Very good! You can use this eye to fly around harnessing it`s magic power",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/nether.png"
+        }
+    },
+    "place_table_of_elevation": {
+        "item": "kubejs:quest",
+        "title": "Get a Table Of Elevation",
+        "description": "Craft a Table Of Elevation and place it down.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "place_block",
+        "match": {
+            "mode": "exact",
+            "match_id": "bosses_of_mass_destruction:levitation_block"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Good Job! Now you can fly around home magically!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/nether.png"
+        }
+    },
+    "55combatlvl": {
+        "title": "Reach Combat Lvl 55",
+        "description": "Fight enemies to raise your combat level to at least 55.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "reach_level",
+        "match": {
+            "mode": "check_level",
+            "skill": "combat"
+        },
+        "count": 55,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Your combat skills are improving. Keep it up!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/nether.png"
+        }
+    },
+    "get_tier_5_power_up": {
+        "item": "kubejs:quest",
+        "title": "Get Yourself a Stronger Powerup 5",
+        "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "startswith",
+            "match_id": "kubejs:tier_5"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Great! Apply those to your armor to become stronger!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/nether.png"
+        }
+    },
+    "slay_the_wither": {
+        "item": "kubejs:quest",
+        "title": "Slay The Wither",
+        "description": "The Wither is striclty summoned by placing 3 wither skulls over 3 soul sand blocks that are hold by another soul sand block. Be prepared.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "kill",
+        "match": {
+            "mode": "exact",
+            "match": "minecraft:wither"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Impressive work! It`s eye is a must for traveling to The End Dimension.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/nether.png"
+        }
+    },
+    "place_augmenting_table": {
+        "item": "kubejs:quest",
+        "title": "Get an Augmenting Table",
+        "description": "Craft an Augmenting Table and place it down. Very useful to improve your affixes.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "place_block",
+        "match": {
+            "mode": "exact",
+            "match_id": "apotheosis:augmenting_table"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Amazing! Make use of it if you want stronger gear!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/nether.png"
+        }
+    },
+    "60combatlvl": {
+        "title": "Reach Combat Lvl 60",
+        "description": "Fight enemies to raise your combat level to at least 60.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "reach_level",
+        "match": {
+            "mode": "check_level",
+            "skill": "combat"
+        },
+        "count": 60,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Your combat skills are improving. Keep it up!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/nether.png"
+        }
+    },
+    "travel_nether_to_overworld": {
+        "item": "kubejs:quest",
+        "title": "Travel back to the Overworld",
+        "description": "Get back home as we need to find the next adventure.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "delayNext": 200,
+        "type": "travel_dimension",
+        "match": {
+            "mode": "exact",
+            "match_id": "minecraft:overworld"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Welcome back home, but adventure continues. It`s time to go upwards, towards The Undergarden",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
         }
     }
 }
