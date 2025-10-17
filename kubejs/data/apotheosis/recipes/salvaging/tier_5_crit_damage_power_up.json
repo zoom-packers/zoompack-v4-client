@@ -1,0 +1,49 @@
+{
+    "type": "apotheosis:salvaging",
+    "conditions": [
+        {
+            "type": "apotheosis:module",
+            "module": "adventure"
+        }
+    ],
+    "input": {
+        "item": "kubejs:tier_5_crit_damage_power_up"
+    },
+    "outputs": [
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "betternether:cincinnasite_lantern"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "betternether:nether_ruby"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "minecraft:netherite_ingot"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "aquamirae:anglers_fang"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 1,
+            "stack": {
+                "item": "kubejs:tier_4_crit_damage_power_up"
+            }
+        }
+    ]
+}

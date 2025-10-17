@@ -239,6 +239,218 @@ function lootlib_p_getSmithingTemplate(dimension) {
     }
 }
 
+function lootlib_p_getPowerUp(dimension) {
+    let PowerUps_1 = [
+    'tier_1_armor_power_up',
+    'tier_1_armor_toughness_power_up',
+    'tier_1_armor_pierce_power_up',
+    'tier_1_armor_shred_power_up',
+    'tier_1_cooldown_reduction_power_up',
+    'tier_1_crit_chance_power_up',
+    'tier_1_crit_damage_power_up',
+    'tier_1_health_boost_power_up',
+    'tier_1_knockback_resistance_power_up',
+    'tier_1_lung_capacity_power_up',
+    'tier_1_mana_boost_power_up',
+    'tier_1_mana_regen_power_up',
+    'tier_1_movement_speed_power_up',
+    'tier_1_spell_power_power_up',
+    'tier_1_stamina_power_up',
+    'tier_1_swim_speed_power_up'
+];
+
+let PowerUps_2 = [
+    'tier_2_armor_power_up',
+    'tier_2_armor_toughness_power_up',
+    'tier_2_armor_pierce_power_up',
+    'tier_2_armor_shred_power_up',
+    'tier_2_cooldown_reduction_power_up',
+    'tier_2_crit_chance_power_up',
+    'tier_2_crit_damage_power_up',
+    'tier_2_health_boost_power_up',
+    'tier_2_knockback_resistance_power_up',
+    'tier_2_lung_capacity_power_up',
+    'tier_2_mana_boost_power_up',
+    'tier_2_mana_regen_power_up',
+    'tier_2_movement_speed_power_up',
+    'tier_2_spell_power_power_up',
+    'tier_2_stamina_power_up',
+    'tier_2_swim_speed_power_up'
+];
+
+let PowerUps_3 = [
+    'tier_3_armor_power_up',
+    'tier_3_armor_toughness_power_up',
+    'tier_3_armor_pierce_power_up',
+    'tier_3_armor_shred_power_up',
+    'tier_3_cooldown_reduction_power_up',
+    'tier_3_crit_chance_power_up',
+    'tier_3_crit_damage_power_up',
+    'tier_3_health_boost_power_up',
+    'tier_3_knockback_resistance_power_up',
+    'tier_3_lung_capacity_power_up',
+    'tier_3_mana_boost_power_up',
+    'tier_3_mana_regen_power_up',
+    'tier_3_movement_speed_power_up',
+    'tier_3_spell_power_power_up',
+    'tier_3_stamina_power_up',
+    'tier_3_swim_speed_power_up'
+];
+
+let PowerUps_4 = [
+    'tier_4_armor_power_up',
+    'tier_4_armor_toughness_power_up',
+    'tier_4_armor_pierce_power_up',
+    'tier_4_armor_shred_power_up',
+    'tier_4_cooldown_reduction_power_up',
+    'tier_4_crit_chance_power_up',
+    'tier_4_crit_damage_power_up',
+    'tier_4_health_boost_power_up',
+    'tier_4_knockback_resistance_power_up',
+    'tier_4_lung_capacity_power_up',
+    'tier_4_mana_boost_power_up',
+    'tier_4_mana_regen_power_up',
+    'tier_4_movement_speed_power_up',
+    'tier_4_spell_power_power_up',
+    'tier_4_stamina_power_up',
+    'tier_4_swim_speed_power_up'
+];
+
+let PowerUps_5 = [
+    'tier_5_armor_power_up',
+    'tier_5_armor_toughness_power_up',
+    'tier_5_armor_pierce_power_up',
+    'tier_5_armor_shred_power_up',
+    'tier_5_cooldown_reduction_power_up',
+    'tier_5_crit_chance_power_up',
+    'tier_5_crit_damage_power_up',
+    'tier_5_health_boost_power_up',
+    'tier_5_knockback_resistance_power_up',
+    'tier_5_lung_capacity_power_up',
+    'tier_5_mana_boost_power_up',
+    'tier_5_mana_regen_power_up',
+    'tier_5_movement_speed_power_up',
+    'tier_5_spell_power_power_up',
+    'tier_5_stamina_power_up',
+    'tier_5_swim_speed_power_up'
+];
+
+let PowerUps_6 = [
+    'tier_6_armor_power_up',
+    'tier_6_armor_toughness_power_up',
+    'tier_6_armor_pierce_power_up',
+    'tier_6_armor_shred_power_up',
+    'tier_6_cooldown_reduction_power_up',
+    'tier_6_crit_chance_power_up',
+    'tier_6_crit_damage_power_up',
+    'tier_6_health_boost_power_up',
+    'tier_6_knockback_resistance_power_up',
+    'tier_6_lung_capacity_power_up',
+    'tier_6_mana_boost_power_up',
+    'tier_6_mana_regen_power_up',
+    'tier_6_movement_speed_power_up',
+    'tier_6_spell_power_power_up',
+    'tier_6_stamina_power_up',
+    'tier_6_swim_speed_power_up'
+];
+
+let PowerUps_7 = [
+    'tier_7_armor_power_up',
+    'tier_7_armor_toughness_power_up',
+    'tier_7_armor_pierce_power_up',
+    'tier_7_armor_shred_power_up',
+    'tier_7_cooldown_reduction_power_up',
+    'tier_7_crit_chance_power_up',
+    'tier_7_crit_damage_power_up',
+    'tier_7_health_boost_power_up',
+    'tier_7_knockback_resistance_power_up',
+    'tier_7_lung_capacity_power_up',
+    'tier_7_mana_boost_power_up',
+    'tier_7_mana_regen_power_up',
+    'tier_7_movement_speed_power_up',
+    'tier_7_spell_power_power_up',
+    'tier_7_stamina_power_up',
+    'tier_7_swim_speed_power_up'
+];
+
+let PowerUps_8 = [
+    'tier_8_armor_power_up',
+    'tier_8_armor_toughness_power_up',
+    'tier_8_armor_pierce_power_up',
+    'tier_8_armor_shred_power_up',
+    'tier_8_cooldown_reduction_power_up',
+    'tier_8_crit_chance_power_up',
+    'tier_8_crit_damage_power_up',
+    'tier_8_health_boost_power_up',
+    'tier_8_knockback_resistance_power_up',
+    'tier_8_lung_capacity_power_up',
+    'tier_8_mana_boost_power_up',
+    'tier_8_mana_regen_power_up',
+    'tier_8_movement_speed_power_up',
+    'tier_8_spell_power_power_up',
+    'tier_8_stamina_power_up',
+    'tier_8_swim_speed_power_up'
+];
+
+let PowerUps_9_and_10 = [
+    'tier_9_armor_power_up',
+    'tier_9_armor_toughness_power_up',
+    'tier_9_armor_pierce_power_up',
+    'tier_9_armor_shred_power_up',
+    'tier_9_cooldown_reduction_power_up',
+    'tier_9_crit_chance_power_up',
+    'tier_9_crit_damage_power_up',
+    'tier_9_health_boost_power_up',
+    'tier_9_knockback_resistance_power_up',
+    'tier_9_lung_capacity_power_up',
+    'tier_9_mana_boost_power_up',
+    'tier_9_mana_regen_power_up',
+    'tier_9_movement_speed_power_up',
+    'tier_9_spell_power_power_up',
+    'tier_9_stamina_power_up',
+    'tier_9_swim_speed_power_up',
+    'tier_10_armor_power_up',
+    'tier_10_armor_toughness_power_up',
+    'tier_10_armor_pierce_power_up',
+    'tier_10_armor_shred_power_up',
+    'tier_10_cooldown_reduction_power_up',
+    'tier_10_crit_chance_power_up',
+    'tier_10_crit_damage_power_up',
+    'tier_10_health_boost_power_up',
+    'tier_10_knockback_resistance_power_up',
+    'tier_10_lung_capacity_power_up',
+    'tier_10_mana_boost_power_up',
+    'tier_10_mana_regen_power_up',
+    'tier_10_movement_speed_power_up',
+    'tier_10_spell_power_power_up',
+    'tier_10_stamina_power_up',
+    'tier_10_swim_speed_power_up'
+];
+
+
+
+    switch (dimension) {
+        case "minecraft:overworld":
+            return "kubejs:" + PowerUps_1[Math.floor(Math.random() * PowerUps_1.length)];
+        case "blue_skies:everbright":
+            return "kubejs:" + PowerUps_2[Math.floor(Math.random() * PowerUps_2.length)];
+        case "blue_skies:everdawn":
+            return "kubejs:" + PowerUps_3[Math.floor(Math.random() * PowerUps_3.length)];
+        case "aether:the_aether":
+            return "kubejs:" + PowerUps_4[Math.floor(Math.random() * PowerUps_4.length)];
+        case "minecraft:the_nether":
+            return "kubejs:" + PowerUps_5[Math.floor(Math.random() * PowerUps_5.length)];
+        case "undergarden:undergarden":
+            return "kubejs:" + PowerUps_6[Math.floor(Math.random() * PowerUps_6.length)];
+        case "minecraft:the_end":
+            return "kubejs:" + PowerUps_7[Math.floor(Math.random() * PowerUps_1.length)];
+        case "callfromthedepth_:depth":
+            return "kubejs:" + PowerUps_8[Math.floor(Math.random() * PowerUps_8.length)];
+        case "theabyss:the_abyss":
+            return "kubejs:" + PowerUps_9_and_10[Math.floor(Math.random() * PowerUps_9_and_10.length)];
+    }
+}
+
 function lootlib_p_getFortunasProtectionRune() {
     return 'fortunas_anvil:protection_rune';
 }
@@ -304,6 +516,7 @@ function overworldEliteDrops(rolls) {
             }
         }
         let weighted = [
+            weightedEntry(lootlib_p_getPowerUp("minecraft:overworld"), 1),
             weightedEntry(lootlib_p_getRandomRune(), 30),
             weightedEntry(lootlib_p_getRandomTome(), 3),
             weightedEntry(lootlib_p_getSigil(0), 1),
@@ -337,6 +550,7 @@ function everbrightEliteDrops(rolls) {
             }
         }
         let weighted = [
+            weightedEntry(lootlib_p_getPowerUp("blue_skies:everbright"), 1),
             weightedEntry(lootlib_p_getRandomRune(), 25),
             weightedEntry(lootlib_p_getRandomTome(), 5),
             weightedEntry(lootlib_p_getSigil(0.05), 1),
@@ -376,6 +590,7 @@ function everdawnEliteDrops(rolls) {
             }
         }
         let weighted = [
+            weightedEntry(lootlib_p_getPowerUp("blue_skies:everdawn"), 1),
             weightedEntry(lootlib_p_getRandomRune(), 20),
             weightedEntry(lootlib_p_getRandomTome(), 10),
             weightedEntry(lootlib_p_getSigil(0.3), 3),
@@ -417,6 +632,7 @@ function aetherEliteDrops(rolls) {
             }
         }
         let weighted = [
+            weightedEntry(lootlib_p_getPowerUp("aether:the_aether"), 1),
             weightedEntry(lootlib_p_getRandomRune(), 15),
             weightedEntry(lootlib_p_getRandomTome(), 15),
             weightedEntry(lootlib_p_getSigil(0.5), 5),
@@ -458,6 +674,7 @@ function netherEliteDrops(rolls) {
             }
         }
         let weighted = [
+            weightedEntry(lootlib_p_getPowerUp("minecraft:the_nether"), 1),
             weightedEntry(lootlib_p_getRandomRune(), 10),
             weightedEntry(lootlib_p_getRandomTome(), 5),
             weightedEntry(lootlib_p_getSigil(1), 10),
@@ -500,6 +717,7 @@ function undergardenEliteDrops(rolls) {
             }
         }
         let weighted = [
+            weightedEntry(lootlib_p_getPowerUp("undergarden:undergarden"), 1),
             weightedEntry(lootlib_p_getRandomRune(), 10),
             weightedEntry(lootlib_p_getSigil(1), 5),
             weightedEntry(lootlib_p_getAugment(4), 10),
@@ -538,6 +756,7 @@ function endEliteDrops(rolls) {
             }
         }
         let weighted = [
+            weightedEntry(lootlib_p_getPowerUp("minecraft:the_end"), 1),
             weightedEntry(lootlib_p_getRandomRune(), 3),
             weightedEntry(lootlib_p_getSigil(1), 7),
             weightedEntry(lootlib_p_getAugment(5), 10),
@@ -579,6 +798,7 @@ function deepEliteDrops(rolls) {
             }
         }
         let weighted = [
+            weightedEntry(lootlib_p_getPowerUp("callfromthedepth_:depth"), 1),
             weightedEntry(lootlib_p_getRandomRune(), 4),
             weightedEntry(lootlib_p_getSigil(1), 10),
             weightedEntry(lootlib_p_getAugment(6), 10),
@@ -620,6 +840,7 @@ function abyssEliteDrops(rolls) {
             }
         }
         let weighted = [
+            weightedEntry(lootlib_p_getPowerUp("theabyss:the_abyss"), 1),
             weightedEntry(lootlib_p_getRandomRune(), 5),
             weightedEntry(lootlib_p_getSigil(1), 15),
             weightedEntry(lootlib_p_getAugment(7), 10),

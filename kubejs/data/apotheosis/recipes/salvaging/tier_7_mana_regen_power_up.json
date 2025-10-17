@@ -1,0 +1,49 @@
+{
+    "type": "apotheosis:salvaging",
+    "conditions": [
+        {
+            "type": "apotheosis:module",
+            "module": "adventure"
+        }
+    ],
+    "input": {
+        "item": "kubejs:tier_7_mana_regen_power_up"
+    },
+    "outputs": [
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "phantasm:crystal_block"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "enderitemod:enderite_ingot"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "ender_dragon_loot_:dragon_scale"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "irons_spellbooks:mana_upgrade_orb"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 1,
+            "stack": {
+                "item": "kubejs:tier_6_mana_regen_power_up"
+            }
+        }
+    ]
+}
