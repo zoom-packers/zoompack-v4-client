@@ -1,0 +1,49 @@
+{
+    "type": "apotheosis:salvaging",
+    "conditions": [
+        {
+            "type": "apotheosis:module",
+            "module": "adventure"
+        }
+    ],
+    "input": {
+        "item": "kubejs:tier_9_armor_pierce_power_up"
+    },
+    "outputs": [
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "theabyss:fusion_ingot"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "theabyss:fixed_bone"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "theabyss:aberythe_gem"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "minecraft:heartbreak_pottery_sherd"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "kubejs:tier_8_armor_pierce_power_up"
+            }
+        }
+    ]
+}

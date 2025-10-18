@@ -1,0 +1,49 @@
+{
+    "type": "apotheosis:salvaging",
+    "conditions": [
+        {
+            "type": "apotheosis:module",
+            "module": "adventure"
+        }
+    ],
+    "input": {
+        "item": "kubejs:tier_4_armor_shred_power_up"
+    },
+    "outputs": [
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "aether:ambrosium_block"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "aether:zanite_gemstone"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "aether:enchanted_gravitite"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "minecraft:skull_pottery_sherd"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "kubejs:tier_3_armor_shred_power_up"
+            }
+        }
+    ]
+}

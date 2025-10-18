@@ -1164,7 +1164,6 @@
 			}]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Harvested straight from the chocolate men"
 			tasks: [{
 				id: "63DD515C34E09A6F"
 				item: "croptopia:chocolate"

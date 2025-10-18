@@ -1,0 +1,49 @@
+{
+    "type": "apotheosis:salvaging",
+    "conditions": [
+        {
+            "type": "apotheosis:module",
+            "module": "adventure"
+        }
+    ],
+    "input": {
+        "item": "kubejs:tier_8_health_boost_power_up"
+    },
+    "outputs": [
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "callfromthedepth_:fullsoul"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "callfromthedepth_:immemorialingot"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "callfromthedepth_:soulingot"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "candlelight:hearth"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "kubejs:tier_7_health_boost_power_up"
+            }
+        }
+    ]
+}

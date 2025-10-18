@@ -1,0 +1,49 @@
+{
+    "type": "apotheosis:salvaging",
+    "conditions": [
+        {
+            "type": "apotheosis:module",
+            "module": "adventure"
+        }
+    ],
+    "input": {
+        "item": "kubejs:tier_2_spell_power_power_up"
+    },
+    "outputs": [
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "blue_skies:charoite"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "blue_skies:aquite"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "blue_skies:pyrope_block"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "irons_spellbooks:magic_cloth"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "kubejs:tier_1_spell_power_power_up"
+            }
+        }
+    ]
+}

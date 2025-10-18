@@ -1,0 +1,49 @@
+{
+    "type": "apotheosis:salvaging",
+    "conditions": [
+        {
+            "type": "apotheosis:module",
+            "module": "adventure"
+        }
+    ],
+    "input": {
+        "item": "kubejs:tier_7_crit_chance_power_up"
+    },
+    "outputs": [
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "phantasm:crystal_block"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "enderitemod:enderite_ingot"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "ender_dragon_loot_:dragon_scale"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "aquamirae:ship_graveyard_echo"
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": "kubejs:tier_6_crit_chance_power_up"
+            }
+        }
+    ]
+}
