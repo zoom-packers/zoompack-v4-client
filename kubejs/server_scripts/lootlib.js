@@ -443,7 +443,7 @@ let PowerUps_9_and_10 = [
         case "undergarden:undergarden":
             return "kubejs:" + PowerUps_6[Math.floor(Math.random() * PowerUps_6.length)];
         case "minecraft:the_end":
-            return "kubejs:" + PowerUps_7[Math.floor(Math.random() * PowerUps_1.length)];
+            return "kubejs:" + PowerUps_7[Math.floor(Math.random() * PowerUps_7.length)];
         case "callfromthedepth_:depth":
             return "kubejs:" + PowerUps_8[Math.floor(Math.random() * PowerUps_8.length)];
         case "theabyss:the_abyss":

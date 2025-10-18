@@ -40,7 +40,7 @@
         },
         {
             "min_count": 1,
-            "max_count": 1,
+            "max_count": 2,
             "stack": {
                 "item": "kubejs:tier_8_crit_chance_power_up"
             }

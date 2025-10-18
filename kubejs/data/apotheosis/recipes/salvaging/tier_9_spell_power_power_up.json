@@ -40,7 +40,7 @@
         },
         {
             "min_count": 1,
-            "max_count": 1,
+            "max_count": 2,
             "stack": {
                 "item": "kubejs:tier_8_spell_power_power_up"
             }
