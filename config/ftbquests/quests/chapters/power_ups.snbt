@@ -24,7 +24,11 @@
 				{
 					count: 5
 					id: "642A10D3EE4AD55B"
-					item: "blue_skies:raw_falsite"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_gem"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
@@ -60,7 +64,11 @@
 				{
 					count: 5
 					id: "49D2BBD947A544B1"
-					item: "blue_skies:raw_ventium"
+					item: {
+						Count: 1
+						id: "blue_skies:horizonite_ingot"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
@@ -94,8 +102,13 @@
 			id: "480E44DE7DBDA06F"
 			rewards: [
 				{
+					count: 4
 					id: "641E5E11CCC5A193"
-					item: "aether:ambrosium_block"
+					item: {
+						Count: 1
+						id: "aether:enchanted_gravitite"
+						tag: { }
+					}
 					type: "item"
 				}
 				{

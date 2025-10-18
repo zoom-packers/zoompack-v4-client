@@ -5,14 +5,152 @@
 	group: "653CB9213F69DF0A"
 	icon: "theabyss:eye_of_abyss"
 	id: "4E57F70FEB4CECB2"
-	images: [{
-		height: 53.7890625d
-		image: "vahmas_creator_pack:textures/gui/pano4_aby.png"
-		rotation: 0.0d
-		width: 100.0d
-		x: 0.0d
-		y: 0.0d
-	}]
+	images: [
+		{
+			height: 30.0d
+			image: "theabyss:block/grass_sides_vigilant"
+			rotation: 0.0d
+			width: 30.0d
+			x: 1.5d
+			y: 20.0d
+		}
+		{
+			height: 30.0d
+			image: "theabyss:block/nightgrove_log_top"
+			rotation: 0.0d
+			width: 30.0d
+			x: 1.6309523809523938d
+			y: -5.63095238095238d
+		}
+		{
+			height: 30.0d
+			image: "theabyss:block/blaru_log_top"
+			rotation: 0.0d
+			width: 30.0d
+			x: 27.345238095238102d
+			y: -5.63095238095238d
+		}
+		{
+			height: 30.0d
+			image: "theabyss:block/loran_end_stone"
+			rotation: 0.0d
+			width: 30.0d
+			x: -24.226190476190446d
+			y: -5.630952380952387d
+		}
+		{
+			height: 30.0d
+			image: "theabyss:block/nightgrove_bookshelf"
+			rotation: 0.0d
+			width: 30.0d
+			x: -24.226190476190432d
+			y: 19.940476190476183d
+		}
+		{
+			height: 30.0d
+			image: "theabyss:block/log_sides_vigilant"
+			rotation: 0.0d
+			width: 30.0d
+			x: 27.20238095238099d
+			y: 20.083333333333336d
+		}
+		{
+			height: 30.0d
+			image: "theabyss:block/aberythe_ore"
+			rotation: 0.0d
+			width: 30.0d
+			x: 27.20238095238099d
+			y: -31.345238095238102d
+		}
+		{
+			height: 30.0d
+			image: "theabyss:block/blaru_cave_moss_top"
+			rotation: 0.0d
+			width: 30.0d
+			x: 1.4880952380953119d
+			y: -31.345238095238102d
+		}
+		{
+			height: 30.0d
+			image: "theabyss:block/purple_shroomlight"
+			rotation: 0.0d
+			width: 30.0d
+			x: -24.08333333333328d
+			y: -31.345238095238102d
+		}
+		{
+			height: 5.0d
+			image: "theabyss:block/caecus_versa"
+			rotation: 0.0d
+			width: 5.0d
+			x: 9.916666666666728d
+			y: 5.083333333333329d
+		}
+		{
+			height: 5.0d
+			image: "theabyss:block/bush_vigilant"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.5119047619047166d
+			y: 5.083333333333329d
+		}
+		{
+			height: 5.0d
+			image: "theabyss:block/hanging_plant_vigilant"
+			rotation: 0.0d
+			width: 5.0d
+			x: 9.916666666666742d
+			y: -16.345238095238102d
+		}
+		{
+			height: 3.0d
+			image: "theabyss:block/exolius_plant"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			height: 3.0d
+			image: "theabyss:block/exolius_plant"
+			rotation: 0.0d
+			width: 3.0d
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			height: 3.0d
+			image: "theabyss:block/loran_flower_lower"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			height: 3.0d
+			image: "theabyss:block/loran_flower_upper"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			height: 5.0d
+			image: "theabyss:block/lumus_rank"
+			rotation: 0.0d
+			width: 5.0d
+			x: -8.654761904761855d
+			y: -16.345238095238102d
+		}
+		{
+			height: 5.0d
+			image: "theabyss:block/lumus_rank_fruit"
+			rotation: 0.0d
+			width: 5.0d
+			x: -8.369047619047564d
+			y: -12.059523809523824d
+		}
+	]
 	order_index: 7
 	quest_links: [ ]
 	quests: [

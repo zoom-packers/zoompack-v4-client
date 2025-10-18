@@ -1113,6 +1113,39 @@
 			x: 0.0d
 			y: -3.0d
 		}
+		{
+			description: [
+				"As this modpack is relatively new, and people are learning the modpack, we've thought maybe you feel like you've chosen a difficulty and got stuck. You are free to change your difficulty for free once using this quest, &2afterwards you must visit banks/observatories to change it again.&r"
+				""
+				"Claim the reward above while in a &lsafe space&r to bring up the Difficulty selection menu."
+				""
+				"Note: You will only change your Difficulty (meaning Easy to hard and such)."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:difficulty_changer_normal"
+				tag: { }
+			}
+			id: "71957B8006FBB57C"
+			rewards: [{
+				command: "/origin gui @s origins-classes:difficulty"
+				icon: {
+					Count: 1
+					id: "kubejs:difficulty_changer_normal"
+					tag: { }
+				}
+				id: "68CF0D4042885328"
+				title: "Difficulty Change"
+				type: "command"
+			}]
+			tasks: [{
+				id: "2A6C23581248FE88"
+				title: "Difficulty change"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
 	]
 	title: "Tips \\& Tricks"
 }
