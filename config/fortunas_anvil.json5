@@ -500,7 +500,7 @@
     "lootEntries": [
         {
             "modId": "minecraft",
-            "regex": ".*village.*",
+            "regex": ".*chests/.*village.*",
             "lootChance": 10,
             "lootWeights": [
                 10,
@@ -510,7 +510,7 @@
         },
         {
             "modId": "*",
-            "regex": ".*end.*",
+            "regex": ".*chests/.*end.*",
             "lootChance": 100,
             "lootWeights": [
                 3,
@@ -520,7 +520,7 @@
         },
         {
             "modId": "*",
-            "regex": ".*dungeon.*",
+            "regex": ".*chests/.*dungeon.*",
             "lootChance": 80,
             "lootWeights": [
                 5,
@@ -530,7 +530,7 @@
         },
         {
             "modId": "*",
-            "regex": ".*bastion.*",
+            "regex": ".*chests/.*bastion.*",
             "lootChance": 80,
             "lootWeights": [
                 5,
@@ -540,7 +540,7 @@
         },
         {
             "modId": "*",
-            "regex": ".*fortress.*",
+            "regex": ".*chests/.*fortress.*",
             "lootChance": 80,
             "lootWeights": [
                 5,
@@ -550,7 +550,7 @@
         },
         {
             "modId": "*",
-            "regex": ".*treasure.*",
+            "regex": ".*chests/.*treasure.*",
             "lootChance": 100,
             "lootWeights": [
                 3,
@@ -560,8 +560,8 @@
         },
         {
             "modId": "*",
-            "regex": ".*chest.*",
-            "lootChance": 20,
+            "regex": ".*chests/.*",
+            "lootChance": 10,
             "lootWeights": [
                 10,
                 8,
