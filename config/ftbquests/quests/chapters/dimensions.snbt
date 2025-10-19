@@ -63,8 +63,8 @@
 			image: "theabyss:textures/abyss_power_icon.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: -12.0d
-			y: 5.0d
+			x: -13.5d
+			y: 3.5d
 		}
 		{
 			height: 1.0d
@@ -1938,7 +1938,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["025294015F77A53B"]
+			dependencies: ["4A7E3962D5425F5A"]
 			description: [
 				"&2&lHow to Defeat the Crystal Golem in Minecraft&r&r"
 				"&e&lPrepare for Battle:&r&r The &dCrystal Golem&r is a towering mini-boss in the Abyss dimension, standing over &63 blocks tall&r and boasting one of the highest health pools in the game, aside from major bosses. It’s the largest creature in the mod and poses a significant threat with its powerful strikes. Equip yourself with your best weapons and armor — preferably those with high durability and enchantments. Bring plenty of healing items, as this will be a tough fight!"
@@ -1967,10 +1967,10 @@
 				value: 1L
 			}]
 			x: -7.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["025294015F77A53B"]
+			dependencies: ["11C9AC9C7AE2522F"]
 			description: [
 				"&2&lHow to Defeat the Roka in Minecraft&r&r"
 				"&e&lEnter the Blue Forest:&r&r The &9Roka&r is a powerful mini-boss that spawns exclusively in the &9Blue Forests&r of the Abyss dimension. With its imposing body, large arms, and bent legs, the Roka is a fierce opponent resembling a &6Piglin Brute&r. Ensure you are well-prepared before venturing into the Blue Forests."
@@ -1997,10 +1997,10 @@
 				value: 1L
 			}]
 			x: -6.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["025294015F77A53B"]
+			dependencies: ["5ED4B8B2C13D5B39"]
 			description: [
 				"&k&2&lHow to Defeat the Agony Soul in Minecraft&r&r&k"
 				"&k&e&lSummon the Agony Soul:&r&r"
@@ -2027,7 +2027,7 @@
 				value: 1L
 			}]
 			x: -8.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["025294015F77A53B"]
@@ -2066,7 +2066,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["025294015F77A53B"]
+			dependencies: ["0933B46F9050EAC2"]
 			description: [
 				"&k&2&lHow to Defeat the Agony Soul in Minecraft&r&r&k"
 				"&k&e&lSummon the Agony Soul:&r&r"
@@ -2093,10 +2093,10 @@
 				value: 1L
 			}]
 			x: -10.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["025294015F77A53B"]
+			dependencies: ["20D5A9230E9419BC"]
 			description: [
 				"&k&2&lHow to Defeat the Agony Soul in Minecraft&r&r&k"
 				"&k&e&lSummon the Agony Soul:&r&r"
@@ -2129,7 +2129,7 @@
 				value: 1L
 			}]
 			x: -9.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["025294015F77A53B"]
@@ -2371,6 +2371,146 @@
 			}]
 			x: -3.0d
 			y: 6.5d
+		}
+		{
+			dependencies: ["025294015F77A53B"]
+			description: [
+				"&2&lPrepare for Battle!&r&r"
+				""
+				""
+				"In the blue jungle biome search for the abyssaur's arena."
+			]
+			icon: {
+				Count: 1
+				id: "theabyss:scorpion_eye"
+				tag: { }
+			}
+			id: "20D5A9230E9419BC"
+			rewards: [{
+				id: "459C132B9A19D227"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "45DD349E6E1A435C"
+				structure: "abyss_arena:arena_abyssaur"
+				type: "structure"
+			}]
+			title: "Find the abyssaur's location"
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["025294015F77A53B"]
+			description: [
+				"&2&lPrepare for Battle!&r&r"
+				""
+				""
+				"In the blue mountains biome search for the elder's arena."
+			]
+			icon: {
+				Count: 1
+				id: "theabyss:cooked_deer_beef"
+				tag: { }
+			}
+			id: "5ED4B8B2C13D5B39"
+			rewards: [{
+				id: "05B692966EA1BF88"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2E9F8AF367A355E4"
+				structure: "abyss_arena:arena_elder"
+				type: "structure"
+			}]
+			title: "Find the elder's location"
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["025294015F77A53B"]
+			description: [
+				"&2&lPrepare for Battle!&r&r"
+				""
+				""
+				"In the slime forest biome search for the golem's dome."
+			]
+			icon: {
+				Count: 1
+				id: "theabyss:ender_crystal_ore"
+				tag: { }
+			}
+			id: "4A7E3962D5425F5A"
+			rewards: [{
+				id: "26C7F3A32AE62E4B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5F4B59799ABD8CC1"
+				structure: "abyss_arena:arena_crystal_golem"
+				type: "structure"
+			}]
+			title: "Find the golem's location"
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["025294015F77A53B"]
+			description: [
+				"&2&lPrepare for Battle!&r&r"
+				""
+				""
+				"In the blue jungle biome search for the roka's tower."
+			]
+			icon: {
+				Count: 1
+				id: "theabyss:exolius_plant"
+				tag: { }
+			}
+			id: "11C9AC9C7AE2522F"
+			rewards: [{
+				id: "4D6B454C77516BF9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5523E94953D1D240"
+				structure: "abyss_arena:arena_roka"
+				type: "structure"
+			}]
+			title: "Find the roka's location"
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["025294015F77A53B"]
+			description: [
+				"&2&lPrepare for Battle!&r&r"
+				""
+				""
+				"In the blue mountains biome search for the magicians tower."
+			]
+			icon: {
+				Count: 1
+				id: "theabyss:slimed_log"
+				tag: { }
+			}
+			id: "0933B46F9050EAC2"
+			rewards: [{
+				id: "39808F78E1C7388F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "1AAD3818CBC00774"
+				structure: "abyss_arena:arena_magician"
+				type: "structure"
+			}]
+			title: "Find the magician's location"
+			x: -10.0d
+			y: 3.5d
 		}
 	]
 	subtitle: [

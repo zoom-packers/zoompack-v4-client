@@ -48,8 +48,65 @@ def create_recipe_event(item_id, first, second, third, core, element):
                 C: '"""+ core +"""',
                 E: '"""+ element +"""',
             }
-        )
+        )--
 """
+
+
+def create_salvage_recipe(item_id, first, second, third, core, element):
+    data = {
+        "type": "apotheosis:salvaging",
+    "conditions": [
+        {
+            "type": "apotheosis:module",
+            "module": "adventure"
+        }
+    ],
+    "input": {
+        "item": item_id
+    },
+    "outputs": [
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": first
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": second
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": third
+            }
+        },
+        {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": element
+            }
+        }]
+    }
+    if "#" not in core:
+        data['outputs'].append(
+            {
+            "min_count": 1,
+            "max_count": 2,
+            "stack": {
+                "item": core
+            }
+        }
+        )
+    return data
+
+
 
 def generate_startup_js_file(file_path, item_events):
     with open(file_path, 'w+', encoding='utf-8') as file:
@@ -57,6 +114,7 @@ def generate_startup_js_file(file_path, item_events):
         
         for item_id, display_name, tooltip in item_events:
             file.write(create_item_event(item_id, display_name, tooltip))
+            
         
         file.write("});\n")
 
@@ -66,7 +124,11 @@ def generate_server_js_file(file_path, item_events):
         
         for item_id, first, second, third, core, element in item_events:
             file.write(create_recipe_event(item_id, first, second, third, core, element))
-        
+            salvage_recipe = create_salvage_recipe(item_id, first, second, third, core, element)
+            clean_item_id = item_id.split(":")[1]
+            with open(f"../../../kubejs/data/apotheosis/recipes/salvaging/{clean_item_id}.json", 'w+', encoding='utf-8' ) as f:
+                f.write(json.dumps(salvage_recipe, indent=4))
+
         file.write("});\n")
 
 def generate_server_js_tags_file(file_path, items, tag):
