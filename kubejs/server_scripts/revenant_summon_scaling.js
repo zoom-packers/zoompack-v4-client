@@ -11,8 +11,9 @@ function attackModifier(level) {
     return Math.pow(1.075, level) + level * 0.75;
 }
 function projectileModifier(level) {
-    return (Math.pow(1.075, level) + level * 0.75) * 5;
+    return Math.pow(1.09, level) + level * 0.75;
 }
+
 let pmmoApiUtils = Java.loadClass('harmonised.pmmo.api.APIUtils');
 
 EntityEvents.spawned(event => {
