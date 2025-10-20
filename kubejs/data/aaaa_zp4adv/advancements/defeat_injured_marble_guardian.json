@@ -4,7 +4,7 @@
             "item": "kubejs:quest"
         },
         "title": "Defeat The Injured Marble Guardian",
-        "description": "The Injured Marble Guardian is a marble made entity with strong powers. Don`t be cocky while facing it.",
+        "description": "The Injured Marble Guardian is a marble made entity with strong powers. Don`t be cocky while facing it.\n\nREWARDS:\n\u00a7f\u00a7o- 8 \u00a77\ud83e\ude99\n\u00a7f\u00a7o- 3 \u00a76\ud83e\ude99",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
@@ -22,7 +22,7 @@
         ]
     ],
     "rewards": {
-        "experience": 20
+        "experience": 7000
     },
     "sends_telemetry_event": false
 }

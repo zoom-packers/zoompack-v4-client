@@ -4,7 +4,7 @@
             "item": "kubejs:quest"
         },
         "title": "Slay 100 Enemies in The Depth",
-        "description": "Let`s clear the surroundings!",
+        "description": "Let`s clear the surroundings!\n\nREWARDS:\n\u00a7f\u00a7o- 8 \u00a77\ud83e\ude99\n\u00a7f\u00a7o- 3 \u00a76\ud83e\ude99",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
@@ -22,7 +22,7 @@
         ]
     ],
     "rewards": {
-        "experience": 20
+        "experience": 7000
     },
     "sends_telemetry_event": false
 }

@@ -186,11 +186,7 @@ def get_inventory_changed_advancement(root, icon, title, description, xp_reward,
     return advancement
 
 def write_json_data(path, data):
-    with open(path, 'w+') as f:
-        f.write(json.dumps(data, indent=4))
-
-def write_json_data(path, data):
-    with open(path, 'w+') as f:
+    with open(path, 'w+', encoding="utf-8") as f:
         f.write(json.dumps(data, indent=4))
 
 
@@ -220,6 +216,17 @@ def generate_js_quests(quests_data):
         quests_dict[key] = quest_entry
     return f"const QUESTS = {json.dumps(quests_dict, separators=(',',':'), indent=4)}"
 
+COINS = ['Bronze','Silver','Gold','Emerald','Diamond']
+COIN_CHAR = '🪙'
+RESET = "§f§o"
+COLORS = {
+    'Bronze' : '§4',
+    'Silver' : '§7',
+    'Gold': '§6', 
+    'Emerald': '§a',
+    'Diamond': '§b'
+}
+
 DEFAULT_ITEM = 'kubejs:quest_book'
 DEFAULT_ROOT = "aaaa_zp4adv:root"
 QUESTS = {
@@ -227,8 +234,6 @@ QUESTS = {
 
 QUEST_FOLDER = 'quests'
 QUEST_FILES = ['overworld', 'everbright', 'everdawn', 'aether', 'nether', 'undergarden', 'end', 'depth', 'abyss', 'frost']
-QUEST_FILES = ['abyss', 'frost']
-# QUEST_FILES = ['overworld']
 
 for quest_file_name in QUEST_FILES:
     with open(f'{QUEST_FOLDER}/{quest_file_name}.json','r') as f:
@@ -330,6 +335,17 @@ for quest_key in QUESTS:
 
             quest_data['match']['match_ids'] = finals
             quest_data['type'] = 'adv_unlock'
+
+    rewards = quest_data['reward']
+    new_description = quest_data['description']
+
+    new_description+="\n\nREWARDS:"
+
+    for coin_id in range(0,len(COINS)):
+        if rewards[coin_id]>0:
+            new_description+=f"\n{RESET}- {rewards[coin_id]} {COLORS[COINS[coin_id]]}{COIN_CHAR}"
+
+    quest_data['description'] = new_description
 
     adv_data = get_impossible_advancement(current_root, icon, quest_data['title'], quest_data['description'], quest_data['xp'])
 

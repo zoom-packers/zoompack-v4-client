@@ -4,13 +4,13 @@
             "item": "kubejs:quest"
         },
         "title": "Find an Ancient City",
-        "description": "Ancinet Cities are underground cities found in the Deep Dark biome of the Overworld",
+        "description": "Ancinet Cities are underground cities found in the Deep Dark biome of the Overworld\n\nREWARDS:\n\u00a7f\u00a7o- 32 \u00a77\ud83e\ude99",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:root",
+    "parent": "aaaa_zp4adv:travel_end_to_overworld",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"
@@ -22,7 +22,7 @@
         ]
     ],
     "rewards": {
-        "experience": 20
+        "experience": 800
     },
     "sends_telemetry_event": false
 }

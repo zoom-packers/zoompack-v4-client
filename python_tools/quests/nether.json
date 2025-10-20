@@ -6,7 +6,7 @@
     "xp": 352,
     "reward": [
       48,
-      39,
+      23,
       0,
       0,
       0
@@ -252,6 +252,7 @@
     }
   },
   "55combatlvl": {
+    "item": "kubejs:quest",
     "title": "Reach Combat Lvl 55",
     "description": "Fight enemies to raise your combat level to at least 55.",
     "xp": 550,
@@ -351,6 +352,7 @@
     }
   },
   "60combatlvl": {
+    "item": "kubejs:quest",
     "title": "Reach Combat Lvl 60",
     "description": "Fight enemies to raise your combat level to at least 60.",
     "xp": 600,
@@ -381,7 +383,7 @@
     "xp": 352,
     "reward": [
       48,
-      39,
+      23,
       0,
       0,
       0

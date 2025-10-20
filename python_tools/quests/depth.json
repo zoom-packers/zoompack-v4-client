@@ -53,7 +53,7 @@
     "item": "kubejs:quest",
     "title": "Get a Depth Key",
     "description": "For this you will need End Rods and what you have looted from the Warden",
-    "xp": 4000,
+    "xp": 3000,
     "reward": [
       0,
       0,
@@ -82,7 +82,7 @@
     "reward": [
       0,
       62,
-      4,
+      2,
       0,
       0
     ],
@@ -130,7 +130,7 @@
     "item": "kubejs:quest",
     "title": "Get an Agony Soul",
     "description": "Sacrificial Bastions are big leveled bastions protected by Wardens. You can use the fragment there!",
-    "xp": 4000,
+    "xp": 3000,
     "reward": [
       0,
       0,
@@ -180,7 +180,7 @@
     "item": "kubejs:quest",
     "title": "Get Yourself a Stronger Powerup 8",
     "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
-    "xp": 4000,
+    "xp": 3000,
     "reward": [
       0,
       0,
@@ -202,6 +202,7 @@
     }
   },
   "83combatlvl": {
+    "item": "kubejs:quest",
     "title": "Reach Combat Lvl 83",
     "description": "Fight enemies to raise your combat level to at least 83.",
     "xp": 830,
@@ -254,7 +255,7 @@
     "item": "kubejs:quest",
     "title": "Get a Weeping Soul",
     "description": "Weeping Soul is made from Lost soul sand, but after a few iterations. Craft it to ressurect the Weeping Soul",
-    "xp": 4000,
+    "xp": 3000,
     "reward": [
       0,
       0,
@@ -301,6 +302,7 @@
     }
   },
   "86combatlvl": {
+    "item": "kubejs:quest",
     "title": "Reach Combat Lvl 86",
     "description": "Fight enemies to raise your combat level to at least 86.",
     "xp": 860,
@@ -353,7 +355,7 @@
     "item": "kubejs:quest",
     "title": "Get a Deadblind Soul",
     "description": "Deadblind Soul is made from Lost soul sand, but after a few iterations. Craft it to ressurect the Deadblind Soul",
-    "xp": 4000,
+    "xp": 3000,
     "reward": [
       0,
       0,
@@ -426,6 +428,7 @@
     }
   },
   "90combatlvl": {
+    "item": "kubejs:quest",
     "title": "Reach Combat Lvl 90",
     "description": "Fight enemies to raise your combat level to at least 90.",
     "xp": 900,
@@ -457,7 +460,7 @@
     "reward": [
       0,
       62,
-      4,
+      2,
       0,
       0
     ],

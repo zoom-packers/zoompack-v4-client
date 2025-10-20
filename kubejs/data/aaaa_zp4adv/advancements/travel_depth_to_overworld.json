@@ -4,7 +4,7 @@
             "item": "kubejs:quest"
         },
         "title": "Travel back to the Overworld",
-        "description": "Get back home as we need to find the next adventure.",
+        "description": "Get back home as we need to find the next adventure.\n\nREWARDS:\n\u00a7f\u00a7o- 62 \u00a77\ud83e\ude99\n\u00a7f\u00a7o- 2 \u00a76\ud83e\ude99",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
@@ -22,7 +22,7 @@
         ]
     ],
     "rewards": {
-        "experience": 20
+        "experience": 2816
     },
     "sends_telemetry_event": false
 }

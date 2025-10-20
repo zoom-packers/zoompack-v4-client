@@ -6,7 +6,7 @@
     "xp": 176,
     "reward": [
       56,
-      19,
+      11,
       0,
       0,
       0
@@ -127,6 +127,7 @@
     }
   },
   "40combatlvl": {
+    "item": "kubejs:quest",
     "title": "Reach Combat Lvl 40",
     "description": "Fight enemies to raise your combat level to at least 40.",
     "xp": 400,
@@ -251,6 +252,7 @@
     }
   },
   "45combatlvl": {
+    "item": "kubejs:quest",
     "title": "Reach Combat Lvl 45",
     "description": "Fight enemies to raise your combat level to at least 45.",
     "xp": 450,
@@ -325,6 +327,7 @@
     }
   },
   "48combatlvl": {
+    "item": "kubejs:quest",
     "title": "Reach Combat Lvl 48",
     "description": "Fight enemies to raise your combat level to at least 48.",
     "xp": 480,
@@ -424,6 +427,7 @@
     }
   },
   "50combatlvl": {
+    "item": "kubejs:quest",
     "title": "Reach Combat Lvl 50",
     "description": "Fight enemies to raise your combat level to at least 50.",
     "xp": 500,
@@ -454,7 +458,7 @@
     "xp": 176,
     "reward": [
       56,
-      19,
+      11,
       0,
       0,
       0

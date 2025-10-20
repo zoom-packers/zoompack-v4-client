@@ -3,11 +3,11 @@
     "item": "kubejs:quest",
     "title": "Get your hands on Loran",
     "description": "Loran is found in the End Island and can be extracted with a pickaxe.",
-    "xp": 8000,
+    "xp": 4000,
     "reward": [
       0,
-      0,
-      2,
+      32,
+      1,
       0,
       0
     ],
@@ -28,11 +28,11 @@
     "item": "kubejs:quest",
     "title": "Craft Unstable Obsidian",
     "description": "Use the Loran combined with some Obsidian to craft Unstable Obsidian.",
-    "xp": 8000,
+    "xp": 4000,
     "reward": [
       0,
-      0,
-      2,
+      32,
+      1,
       0,
       0
     ],
@@ -53,11 +53,11 @@
     "item": "kubejs:quest",
     "title": "Craft Abyss Portal Activator",
     "description": "Use the Loran to craft an Abyss Portal Activator. You guessed it, you can use it to lit the portal towards The Abyss",
-    "xp": 8000,
+    "xp": 4000,
     "reward": [
       0,
-      0,
-      2,
+      32,
+      1,
       0,
       0
     ],
@@ -82,7 +82,7 @@
     "reward": [
       0,
       60,
-      9,
+      5,
       0,
       0
     ],
@@ -154,11 +154,11 @@
     "item": "kubejs:quest",
     "title": "Obtain the Magic Core",
     "description": "Collect the Magic Core dropped by the Magician.",
-    "xp": 8000,
+    "xp": 4000,
     "reward": [
       0,
-      0,
-      2,
+      32,
+      1,
       0,
       0
     ],
@@ -176,6 +176,7 @@
     }
   },
   "92combatlvl": {
+    "item": "kubejs:quest",
     "title": "Reach Combat Lvl 92",
     "description": "Fight enemies to raise your combat level to at least 92.",
     "xp": 920,
@@ -253,11 +254,11 @@
     "item": "kubejs:quest",
     "title": "Obtain the Elder Eye",
     "description": "Collect the Elder Eye dropped by the Elder.",
-    "xp": 8000,
+    "xp": 4000,
     "reward": [
       0,
-      0,
-      2,
+      32,
+      1,
       0,
       0
     ],
@@ -303,11 +304,11 @@
     "item": "kubejs:quest",
     "title": "Get Yourself a Stronger Powerup 9",
     "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
-    "xp": 8000,
+    "xp": 4000,
     "reward": [
       0,
-      0,
-      2,
+      32,
+      1,
       0,
       0
     ],
@@ -325,6 +326,7 @@
     }
   },
   "94combatlvl": {
+    "item": "kubejs:quest",
     "title": "Reach Combat Lvl 94",
     "description": "Fight enemies to raise your combat level to at least 94.",
     "xp": 940,
@@ -402,11 +404,11 @@
     "item": "kubejs:quest",
     "title": "Obtain the Prehistoric Claw",
     "description": "Collect the Prehistoric Claw dropped by the Abyssaur.",
-    "xp": 8000,
+    "xp": 4000,
     "reward": [
       0,
-      0,
-      2,
+      32,
+      1,
       0,
       0
     ],
@@ -424,6 +426,7 @@
     }
   },
   "96combatlvl": {
+    "item": "kubejs:quest",
     "title": "Reach Combat Lvl 96",
     "description": "Fight enemies to raise your combat level to at least 96.",
     "xp": 960,
@@ -501,11 +504,11 @@
     "item": "kubejs:quest",
     "title": "Obtain the Roka Horn",
     "description": "Collect the Roka Horn dropped by the Roka.",
-    "xp": 8000,
+    "xp": 4000,
     "reward": [
       0,
-      0,
-      2,
+      32,
+      1,
       0,
       0
     ],
@@ -523,6 +526,7 @@
     }
   },
   "98combatlvl": {
+    "item": "kubejs:quest",
     "title": "Reach Combat Lvl 98",
     "description": "Fight enemies to raise your combat level to at least 98.",
     "xp": 980,
@@ -600,11 +604,11 @@
     "item": "kubejs:quest",
     "title": "Obtain the Crystal Hand",
     "description": "Collect the Crystal Hand dropped by the Crystal Golem.",
-    "xp": 8000,
+    "xp": 4000,
     "reward": [
       0,
-      0,
-      2,
+      32,
+      1,
       0,
       0
     ],
@@ -625,11 +629,11 @@
     "item": "kubejs:quest",
     "title": "Craft the Eye of Abyss",
     "description": "Combine the Magic Core, Elder Eye, Prehistoric Claw, Roka Horn, and Crystal Hand to craft the Eye of Abyss, a relic of immense power.",
-    "xp": 8000,
+    "xp": 4000,
     "reward": [
       0,
-      0,
-      2,
+      32,
+      1,
       0,
       0
     ],
@@ -650,11 +654,11 @@
     "item": "kubejs:quest",
     "title": "Get Yourself a Stronger Powerup 10",
     "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
-    "xp": 8000,
+    "xp": 4000,
     "reward": [
       0,
-      0,
-      2,
+      32,
+      1,
       0,
       0
     ],
@@ -672,6 +676,7 @@
     }
   },
   "100combatlvl": {
+    "item": "kubejs:quest",
     "title": "Reach Combat Lvl 100",
     "description": "Fight enemies to raise your combat level to at least 100.",
     "xp": 1000,

@@ -32,7 +32,7 @@
     "reward": [
       0,
       31,
-      2,
+      1,
       0,
       0
     ],
@@ -253,6 +253,7 @@
     }
   },
   "75combatlvl": {
+    "item": "kubejs:quest",
     "title": "Reach Combat Lvl 75",
     "description": "Fight enemies to raise your combat level to at least 75.",
     "xp": 750,
@@ -352,6 +353,7 @@
     }
   },
   "80combatlvl": {
+    "item": "kubejs:quest",
     "title": "Reach Combat Lvl 80",
     "description": "Fight enemies to raise your combat level to at least 80.",
     "xp": 800,
@@ -383,7 +385,7 @@
     "reward": [
       0,
       31,
-      2,
+      1,
       0,
       0
     ],

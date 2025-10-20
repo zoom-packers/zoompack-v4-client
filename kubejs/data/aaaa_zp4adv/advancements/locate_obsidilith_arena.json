@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "kubejs:quest"
+        },
+        "title": "Find the Obsidilith Arena",
+        "description": "The Obsidilith Arena is the pillar that holds the Obsidilith, an obsidian made creature that holds mystical items near by.\n\nREWARDS:\n\u00a7f\u00a7o- 16 \u00a77\ud83e\ude99",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "aaaa_zp4adv:get_tier_7_power_up",
+    "criteria": {
+        "thecriteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "thecriteria"
+        ]
+    ],
+    "rewards": {
+        "experience": 480
+    },
+    "sends_telemetry_event": false
+}

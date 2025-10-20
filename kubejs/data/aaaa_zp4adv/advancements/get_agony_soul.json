@@ -4,7 +4,7 @@
             "item": "kubejs:quest"
         },
         "title": "Get an Agony Soul",
-        "description": "Sacrificial Bastions are big leveled bastions protected by Wardens. You can use the fragment there!",
+        "description": "Sacrificial Bastions are big leveled bastions protected by Wardens. You can use the fragment there!\n\nREWARDS:\n\u00a7f\u00a7o- 1 \u00a76\ud83e\ude99",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
@@ -22,7 +22,7 @@
         ]
     ],
     "rewards": {
-        "experience": 20
+        "experience": 3000
     },
     "sends_telemetry_event": false
 }
