@@ -395,6 +395,30 @@
             "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
         }
     },
+    "place_engineering_table": {
+        "title": "TUTORIAL - Get Yourself an Engineering Table",
+        "description": "Place an Engineering Table. You can interact with it to improve your Engineering Skill. Type /engineering for details.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "place_block",
+        "match": {
+            "mode": "exact",
+            "match_id": "kubejs:engineering_table"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Very good! Interact with it. Maybe the path of an engineer is the right one for you.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+        }
+    },
     "get_tier_1_power_up": {
         "title": "TUTORIAL - Get Yourself a Power Up",
         "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
@@ -539,6 +563,30 @@
         "dialogue": {
             "speaker": "Elder Librarian",
             "message": "Found the Gate Keeper hourse! Trade with him to get a Zeal Lighter",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+        }
+    },
+    "locate_bank": {
+        "title": "TUTORIAL - Find a Bank",
+        "description": "Banks are small structures turned into Banks from Observatories on the Overworld. They are filled with villagers trading you stuff for coins.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "locate_structure",
+        "match": {
+            "mode": "exact",
+            "match_id": "zoompack_economy:bank"
+        },        
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Amazing! Let`s see what trades can you get. Trade more for more trades!",
             "renderType": "rectangle",
             "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
         }
