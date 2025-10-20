@@ -1,8 +1,83 @@
 {
-    "travel_abyss_to_overworld": {
+    "obtain_loran": {
         "item": "kubejs:quest",
-        "title": "Travel back to the Overworld",
-        "description": "Get back home as we need to find the next adventure.",
+        "title": "Get your hands on Loran",
+        "description": "Loran is found in the End Island and can be extracted with a pickaxe.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "theabyss:loran"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Great job! Now it`s tiem to get your hands on some Unsable Obsidian.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+        }
+    },
+    "obtain_unstable_obsidian": {
+        "item": "kubejs:quest",
+        "title": "Craft Unstable Obsidian",
+        "description": "Use the Loran combined with some Obsidian to craft Unstable Obsidian.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "theabyss:unstable_obsidian"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Great! Now you can make a portal out of it, so craft some more to get the first leap towards The Abyss",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+        }
+    },
+    "obtain_abyss_portal_activator": {
+        "item": "kubejs:quest",
+        "title": "Craft Abyss Portal Activator",
+        "description": "Use the Loran to craft an Abyss Portal Activator. You guessed it, you can use it to lit the portal towards The Abyss",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "theabyss:the_abyss"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Great job! Now use with on the Unstable Obisidian to travel further.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+        }
+    },
+    "travel_to_abyss": {
+        "item": "kubejs:quest",
+        "title": "Travel to The Abyss",
+        "description": "Place the eyes into the portal frame and jump inside of it.",
         "xp": 20,
         "reward": [
             10,
@@ -15,14 +90,634 @@
         "type": "travel_dimension",
         "match": {
             "mode": "exact",
-            "match_id": "minecraft:overworld"
+            "match_id": "theabyss:the_abyss"
         },
         "count": 1,
         "dialogue": {
             "speaker": "Elder Librarian",
-            "message": "Welcome back home, but adventure continues. The following dimension we shall visit is The Nether",
+            "message": "Welcome to the high sky! Make sure not to tip over the edges of these islands as there is just abyss downwards.",
             "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "locate_abyss_arena_magician": {
+        "item": "kubejs:quest",
+        "title": "Locate the Magician`s Arena",
+        "description": "Find the Magic Tower forked like a tree, home to the Magician.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "locate_structure",
+        "match": {
+            "mode": "exact",
+            "match_id": "abyss_arena:arena_magician"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "You`ve found the Magician`s domain. Prepare for battle.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "defeat_abyss_arena_magician": {
+        "item": "kubejs:quest",
+        "title": "Defeat the Magician",
+        "description": "The Magician is a keen being that holds the Magic Core of the Abyss. Defeat it in its Magic Tower.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "kill",
+        "match": {
+            "mode": "exact",
+            "match": "theabyss:magician"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Well done defeating the Magician! Now claim the Magic Core.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "obtain_magic_core": {
+        "item": "kubejs:quest",
+        "title": "Obtain the Magic Core",
+        "description": "Collect the Magic Core dropped by the Magician.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "theabyss:magic_core"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "The Magic Core is in your possession. One step closer to the Eye of Abyss.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "92combatlvl": {
+        "title": "Reach Combat Lvl 92",
+        "description": "Fight enemies to raise your combat level to at least 92.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "reach_level",
+        "match": {
+            "mode": "check_level",
+            "skill": "combat"
+        },
+        "count": 92,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Your combat skills are improving. Keep it up!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "locate_abyss_arena_elder": {
+        "item": "kubejs:quest",
+        "title": "Locate the Elder`s Arena",
+        "description": "Find the arena with tall stony pillars and a massive flat roof, domain of the Elder.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "locate_structure",
+        "match": {
+            "mode": "exact",
+            "match_id": "abyss_arena:arena_elder"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "You`ve located the Elder`s arena. Brace yourself for the fight.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "defeat_abyss_arena_elder": {
+        "item": "kubejs:quest",
+        "title": "Defeat the Elder",
+        "description": "The Elder is a kangaroo-like prehistorical entity. Defeat it in its stony pillar arena.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "kill",
+        "match": {
+            "mode": "exact",
+            "match": "theabyss:elder"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Impressive victory over the Elder! Secure the Elder Eye.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "obtain_elder_eye": {
+        "item": "kubejs:quest",
+        "title": "Obtain the Elder Eye",
+        "description": "Collect the Elder Eye dropped by the Elder.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "theabyss:elder_eye"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "The Elder Eye is yours. Continue gathering the artifacts.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "place_arcane_workbench": {
+        "item": "kubejs:quest",
+        "title": "Get an Arcane Workbench",
+        "description": "Make yourself an Arcane Workbench and put it on the ground. Very useful to make somnium constructs",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "place_block",
+        "match": {
+            "mode": "exact",
+            "match_id": "theabyss:arcane_workbench"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Amazing! It`s time to explore the vastness of recipies we could to with Somnium",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "get_tier_9_power_up": {
+        "item": "kubejs:quest",
+        "title": "Get Yourself a Stronger Powerup 9",
+        "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "startswith",
+            "match_id": "kubejs:tier_9"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Great! Apply those to your armor to become stronger!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/undergarden.png"
+        }
+    },
+    "94combatlvl": {
+        "title": "Reach Combat Lvl 94",
+        "description": "Fight enemies to raise your combat level to at least 94.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "reach_level",
+        "match": {
+            "mode": "check_level",
+            "skill": "combat"
+        },
+        "count": 94,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Your combat skills are improving. Keep it up!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "locate_abyss_arena_abyssaur": {
+        "item": "kubejs:quest",
+        "title": "Locate the Abyssaur`s Arena",
+        "description": "Find the massive ring arena like a colosseum, lair of the Abyssaur.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "locate_structure",
+        "match": {
+            "mode": "exact",
+            "match_id": "abyss_arena:arena_abyssaur"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "The Abyssaur`s colosseum is found. Prepare for a dizzying battle.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "defeat_abyss_arena_abyssaur": {
+        "item": "kubejs:quest",
+        "title": "Defeat the Abyssaur",
+        "description": "The Abyssaur is a prehistoric creature that causes dizziness. Slay it in the colosseum.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "kill",
+        "match": {
+            "mode": "exact",
+            "match": "theabyss:abyssaur"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Great triumph over the Abyssaur! Claim the Prehistoric Claw.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "obtain_prehistoric_claw": {
+        "item": "kubejs:quest",
+        "title": "Obtain the Prehistoric Claw",
+        "description": "Collect the Prehistoric Claw dropped by the Abyssaur.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "theabyss:prehistoric_claw"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "The Prehistoric Claw is secured. You`re making progress.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "96combatlvl": {
+        "title": "Reach Combat Lvl 96",
+        "description": "Fight enemies to raise your combat level to at least 96.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "reach_level",
+        "match": {
+            "mode": "check_level",
+            "skill": "combat"
+        },
+        "count": 96,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Your combat skills are improving. Keep it up!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "locate_abyss_arena_roka": {
+        "item": "kubejs:quest",
+        "title": "Locate the Roka`s Arena",
+        "description": "Find the spot marked by X, where the Roka is held.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "locate_structure",
+        "match": {
+            "mode": "exact",
+            "match_id": "abyss_arena:arena_roka"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "X marks the Roka`s location. Get ready to face the bull.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "defeat_abyss_arena_roka": {
+        "item": "kubejs:quest",
+        "title": "Defeat the Roka",
+        "description": "The Roka is a bull-like creature caught live. Defeat it at the X-marked spot.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "kill",
+        "match": {
+            "mode": "exact",
+            "match": "theabyss:the_roka"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Remarkable defeat of the Roka! Obtain the Roka Horn.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "obtain_roka_horn": {
+        "item": "kubejs:quest",
+        "title": "Obtain the Roka Horn",
+        "description": "Collect the Roka Horn dropped by the Roka.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "theabyss:roka_horn"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "The Roka Horn is yours. Almost all pieces are gathered.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "98combatlvl": {
+        "title": "Reach Combat Lvl 98",
+        "description": "Fight enemies to raise your combat level to at least 98.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "reach_level",
+        "match": {
+            "mode": "check_level",
+            "skill": "combat"
+        },
+        "count": 98,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Your combat skills are improving. Keep it up!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "locate_abyss_arena_crystal_golem": {
+        "item": "kubejs:quest",
+        "title": "Locate the Crystal Golem`s Arena",
+        "description": "Find the massive glass sphere, guardian post of the Crystal Golem.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "locate_structure",
+        "match": {
+            "mode": "exact",
+            "match_id": "abyss_arena:arena_crystal_golem"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "The glass sphere is located. Face the Crystal Golem with caution.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "defeat_abyss_arena_crystal_golem": {
+        "item": "kubejs:quest",
+        "title": "Defeat the Crystal Golem",
+        "description": "The Crystal Golem is made of rose quartz. Defeat it in the glass sphere.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "kill",
+        "match": {
+            "mode": "exact",
+            "match": "theabyss:crystal_golem"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Astounding victory! Now collect the Crystal Hand.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "obtain_crystal_hand": {
+        "item": "kubejs:quest",
+        "title": "Obtain the Crystal Hand",
+        "description": "Collect the Crystal Hand dropped by the Crystal Golem.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "theabyss:crystal_hand"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "The Crystal Hand is obtained. All artifacts are ready for crafting.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "obtain_eye_of_abyss": {
+        "item": "kubejs:quest",
+        "title": "Craft the Eye of Abyss",
+        "description": "Combine the Magic Core, Elder Eye, Prehistoric Claw, Roka Horn, and Crystal Hand to craft the Eye of Abyss, a relic of immense power.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "exact",
+            "match_id": "theabyss:eye_of_abyss"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Incredible! The Eye of Abyss is complete. Its power will guide you further.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "get_tier_10_power_up": {
+        "item": "kubejs:quest",
+        "title": "Get Yourself a Stronger Powerup 10",
+        "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "startswith",
+            "match_id": "kubejs:tier_10"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Great! Apply those to your armor to become stronger!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/undergarden.png"
+        }
+    },
+    "100combatlvl": {
+        "title": "Reach Combat Lvl 100",
+        "description": "Fight enemies to raise your combat level to at least 100.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "reach_level",
+        "match": {
+            "mode": "check_level",
+            "skill": "combat"
+        },
+        "count": 100,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Your combat skills are improving. Keep it up!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+        }
+    },
+    "defeat_nightblade_boss": {
+        "item": "kubejs:quest",
+        "title": "Defeat the Nightblade Boss",
+        "description": "Use the Eye of Abyss on the Night Altar with all Brick Stone pillars lit to summon and defeat the Nightblade Boss.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "kill",
+        "match": {
+            "mode": "exact",
+            "match": "theabyss:nightblade_boss"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Incredible! The Nightblade Boss has fallen. The Abyss grows silent.",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
         }
     }
 }

@@ -283,6 +283,31 @@
             "renderTarget": "zoompack_images:textures/elder_librarian/end.png"
         }
     },
+    "get_tier_7_power_up": {
+        "item": "kubejs:quest",
+        "title": "Get Yourself a Stronger Powerup 7",
+        "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "obtain_item",
+        "match": {
+            "mode": "startswith",
+            "match_id": "kubejs:tier_7"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Great! Apply those to your armor to become stronger!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/undergarden.png"
+        }
+    },
     
     "locate_obsidilith_arena": {
         "item": "kubejs:quest",

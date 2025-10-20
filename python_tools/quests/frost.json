@@ -1,0 +1,54 @@
+{
+    "travel_abyss_to_frost_world": {
+        "item": "kubejs:quest",
+        "title": "Travel to The Frost World",
+        "description": "The Frost World Portal is found inside The Abyss, however it could be anywhere.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "delayNext": 200,
+        "type": "travel_dimension",
+        "match": {
+            "mode": "exact",
+            "match_id": "theabyss:frost_world"
+        },
+        "count": 1,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Amazing! You made it to the last realm. There is nothing here but means to fight! Take care!",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/frost.png"
+        }
+    },
+    "500enemies_undergarden": {
+        "item": "kubejs:quest",
+        "title": "Slay 500 Enemies in The Frost World",
+        "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
+        "xp": 20,
+        "reward": [
+            10,
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "kill",
+        "match": {
+            "mode": "preset_entity_check",
+            "match": "hostile",
+            "dimension_match": "theabyss:frost_world"
+        },
+        "count": 500,
+        "dialogue": {
+            "speaker": "Elder Librarian",
+            "message": "Amazing! There is no effort without a worth reward",
+            "renderType": "rectangle",
+            "renderTarget": "zoompack_images:textures/elder_librarian/frost.png"
+        }
+    }
+}

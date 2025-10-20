@@ -228,9 +228,6 @@
             "renderTarget": "zoompack_images:textures/elder_librarian/undergarden.png"
         }
     },
-
-    
-    
     "get_tier_6_power_up": {
         "item": "kubejs:quest",
         "title": "Get Yourself a Stronger Powerup 6",
