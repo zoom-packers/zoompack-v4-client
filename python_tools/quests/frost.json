@@ -25,7 +25,7 @@
             "renderTarget": "zoompack_images:textures/elder_librarian/frost.png"
         }
     },
-    "500enemies_undergarden": {
+    "500enemies_frost_world": {
         "item": "kubejs:quest",
         "title": "Slay 500 Enemies in The Frost World",
         "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
