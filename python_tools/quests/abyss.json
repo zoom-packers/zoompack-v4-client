@@ -279,11 +279,11 @@
     "item": "kubejs:quest",
     "title": "Get an Arcane Workbench",
     "description": "Make yourself an Arcane Workbench and put it on the ground. Very useful to make somnium constructs",
-    "xp": 20,
+    "xp": 1000,
     "reward": [
-      10,
       0,
       0,
+      1,
       0,
       0
     ],

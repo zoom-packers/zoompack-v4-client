@@ -12,7 +12,7 @@
   "display": {
     "announce_to_chat": false,
     "background": "minecraft:textures/block/slime_block.png",
-    "title": "ZoomPack Quests",
+    "title": ". ZoomPack Quests",
     "description": "The ZoomPack world provides extensive mechanics along with astonishing sights and bossfights. \n\nThis shall be your guide on what's the next step in the progression!",
     "frame": "task",
     "hidden": false,

@@ -155,10 +155,10 @@
     "item": "kubejs:quest",
     "title": "Get an Alchemy Table",
     "description": "Summon and slay The Alchemist until you find an Alchemy Table and put it on the ground.",
-    "xp": 20,
+    "xp": 40,
     "reward": [
-      10,
-      0,
+      48,
+      1,
       0,
       0,
       0

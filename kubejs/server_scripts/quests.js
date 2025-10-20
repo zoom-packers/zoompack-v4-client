@@ -10,21 +10,21 @@ const ADV_PREFIX = `${ADV_NAMESPACE}${TWO_DOTS}`;
 
 //QUEST_DATA_START
 const QUESTS = {
-    "20logs":{
+    "10logs":{
         "type":"break_block",
         "match":{
             "mode":"endswith",
             "match_id":"_log"
         },
         "reward":[
-            20,
+            10,
             0,
             0,
             0,
             0
         ],
-        "unlock":"aaaa_zp4adv:20logs",
-        "count":20,
+        "unlock":"aaaa_zp4adv:10logs",
+        "count":10,
         "dialogue":{
             "speaker":"Elder Librarian",
             "message":"Great work. Get some tools for yourself and start slaying some enemies.",
@@ -50,7 +50,7 @@ const QUESTS = {
         "count":10,
         "dialogue":{
             "speaker":"Elder Librarian",
-            "message":"Looks like you are getting stronger! Remember you are a gatherer, so butcher some animals",
+            "message":"Looks like you are getting stronger! Each type of skill gives you access to items/gear and character stats.",
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
@@ -74,6 +74,29 @@ const QUESTS = {
         "dialogue":{
             "speaker":"Elder Librarian",
             "message":"Good, now you won`t starve. Continue!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
+        },
+        "next":"place_crafting_table"
+    },
+    "place_crafting_table":{
+        "type":"place_block",
+        "match":{
+            "mode":"exact",
+            "match_id":"minecraft:crafting_table"
+        },
+        "reward":[
+            20,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:place_crafting_table",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Right in your inventory you can press R to see the recipies of items while hovering over them. Use U to see the usages.",
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
@@ -155,7 +178,7 @@ const QUESTS = {
             "match_id":"apotheosis:salvaging_table"
         },
         "reward":[
-            10,
+            20,
             0,
             0,
             0,
@@ -178,7 +201,7 @@ const QUESTS = {
             "match_id":"apotheosis:simple_reforging_table"
         },
         "reward":[
-            10,
+            20,
             0,
             0,
             0,
@@ -224,7 +247,7 @@ const QUESTS = {
             "match_id":"fortunas_anvil:fortunas_anvil"
         },
         "reward":[
-            10,
+            20,
             0,
             0,
             0,
@@ -374,7 +397,7 @@ const QUESTS = {
             ]
         },
         "reward":[
-            10,
+            20,
             0,
             0,
             0,
@@ -397,7 +420,7 @@ const QUESTS = {
             "match_id":"kubejs:engineering_table"
         },
         "reward":[
-            10,
+            20,
             0,
             0,
             0,
@@ -772,8 +795,8 @@ const QUESTS = {
             "match_id":"blue_skies:summoning_table"
         },
         "reward":[
-            10,
             0,
+            1,
             0,
             0,
             0
@@ -1143,8 +1166,8 @@ const QUESTS = {
             "match_id":"blue_skies:alchemy_table"
         },
         "reward":[
-            10,
-            0,
+            48,
+            1,
             0,
             0,
             0
@@ -1399,8 +1422,8 @@ const QUESTS = {
             "match_id":"aether:altar"
         },
         "reward":[
-            10,
             0,
+            2,
             0,
             0,
             0
@@ -2000,8 +2023,8 @@ const QUESTS = {
             "match_id":"bosses_of_mass_destruction:levitation_block"
         },
         "reward":[
-            10,
             0,
+            4,
             0,
             0,
             0
@@ -2092,8 +2115,8 @@ const QUESTS = {
             "match_id":"apotheosis:augmenting_table"
         },
         "reward":[
-            10,
             0,
+            4,
             0,
             0,
             0
@@ -3554,9 +3577,9 @@ const QUESTS = {
             "match_id":"theabyss:arcane_workbench"
         },
         "reward":[
-            10,
             0,
             0,
+            1,
             0,
             0
         ],
@@ -4313,27 +4336,6 @@ function revokeServerPlayerAdvancement(server, player, advancement_id) {
     server.runCommandSilent(`advancement revoke ${player.getName().getString()} only ${advancement_id}`)
 }
 
-PlayerEvents.loggedIn(event => {
-    const { player, server } = event;
-
-    grantServerPlayerAdvancement(server, player, 'minecraft:adventure/root');
-
-    let activeQuest = getPlayerQuest(player);
-    let activeQuestProgress = getPlayerProgression(player);
-
-    if (activeQuest == undefined) {
-        setPlayerQuest(player, FIRST_QUEST);
-        sendPlayerQuestToTrack(player, QUESTS[FIRST_QUEST].unlock)
-    }
-    else {
-        if (activeQuestProgress >= 0) {
-            server.scheduleInTicks(100, () => {
-                sendPlayerQuestToTrack(player, QUESTS[activeQuest].unlock)
-            });
-        }
-    }
-
-});
 
 function fixWrongPlayerData(player, activeQuest) {
     if (!doesQuestExist(activeQuest) || activeQuest == undefined) {
@@ -4737,60 +4739,135 @@ PlayerEvents.advancement(event => {
 });
 
 
-// TODO: this is just for debug
-ItemEvents.rightClicked('minecraft:stick', event => {
-    const { player, server } = event;
-
-    // let activeQuest = getPlayerQuest(player);
-    // let activeQuestProgress = getPlayerProgression(player);
-    // player.tell(activeQuest);
-    // player.tell(activeQuestProgress);
-
-    // sendPlayerQuestToTrack(player, QUESTS[activeQuest].unlock)
 
 
-    // setPlayerQuestProgress(player, 9);
-    // player.tell(FIRST_QUEST);
-
-    let advIdsToUntrack = [];
-    let advIdsToTrack = [QUESTS[FIRST_QUEST].unlock];
-
-    for (const quest of Object.keys(QUESTS)) {
-        let questData = QUESTS[quest];
-        revokeServerPlayerAdvancement(server, player, questData.unlock);
-        advIdsToUntrack.push(questData.unlock);
-    }
 
 
-    sendPlayerQuestTrackData(player, advIdsToTrack, advIdsToUntrack);
-    setPlayerQuest(player, FIRST_QUEST);
 
-    // setPlayerQuest(player, FIRST_QUEST);
-    // sendPlayerQuestToTrack(player, QUESTS[FIRST_QUEST].unlock)
-});
 
-ItemEvents.rightClicked('minecraft:diamond', event => {
-    const { player } = event;
-    let tag = new $CompoundTag();
-    let dialogueData = {
-        'speaker': 'Daluku',
-        'message': '50 enemies down! You\'re a warrior now.',
-        'renderType': 'rectangle',
-        'renderTarget': 'medievalorigins:textures/item/high_elf.png'
+
+
+
+
+
+
+
+global.playerTracker = {};
+
+function getPlayerLocationData(player) {
+    return {
+        x: player.getX(),
+        y: player.getY(),
+        z: player.getZ(),
+        yaw: player.getYRot(),
+        pitch: player.getXRot()
     };
-    // let dialogueData = {
-    //     speaker: "IonutuBoy",
-    //     message: "La Multi Ani Renato, fututencur sa te astup de idiot bagamias pula in tine",
-    //     renderType: 'item',
-    //     renderTarget : 'minecraft:player_head'
-    //     // renderTarget : 'minecraft:diamond_sword'
-    // };
-    // let dialogueData = {
-    //     speaker: "Unknown Voice",
-    //     message: "I’m drifting... somewhere out here. Systems failing. You need to survive. Find a way... rebuild...",
-    //     renderType: 'atlas_texture',
-    //     renderTarget : 'minecraft:block/lava_flow'
-    // };
-    tag.putString('dialogueData', JSON.stringify(dialogueData));
-    player.sendData('dialogue:chat', tag);
+}
+
+PlayerEvents.loggedIn(event => {
+    const { player, server } = event;
+    const uuid = player.uuid;
+    if (!global.playerTracker) global.playerTracker = {};
+    global.playerTracker[uuid] = {
+        lastLocation: getPlayerLocationData(player),
+        isTracked: true
+    };
 });
+
+PlayerEvents.loggedOut(event => {
+    const { player, server } = event;
+    const uuid = player.uuid;
+    if (global.playerTracker && global.playerTracker[uuid]) {
+        delete global.playerTracker[uuid];
+    }
+});
+
+function trackPlayers(event) {
+    event.server.scheduleInTicks(40, callback => {
+        event.server.players.forEach(player => {
+            const uuid = player.uuid;
+            if (!global.playerTracker) global.playerTracker = {};
+            if (!global.playerTracker[uuid]) {
+                global.playerTracker[uuid] = {
+                    lastLocation: getPlayerLocationData(player),
+                    isTracked: true
+                };
+                return;
+            }
+
+            const lastLoc = global.playerTracker[uuid].lastLocation;
+            const currLoc = getPlayerLocationData(player);
+
+            const moved = lastLoc.x !== currLoc.x || lastLoc.y !== currLoc.y || lastLoc.z !== currLoc.z;
+
+            global.playerTracker[uuid].lastLocation = currLoc;
+
+            if (moved && global.playerTracker[uuid].isTracked) {
+                grantServerPlayerAdvancement(event.server, player, 'aaaa_zp4adv:root');
+                global.playerTracker[uuid].isTracked = false;
+
+                let activeQuest = getPlayerQuest(player);
+                let activeQuestProgress = getPlayerProgression(player);
+
+                if (activeQuest == undefined) {
+                    setPlayerQuest(player, FIRST_QUEST);
+                    sendPlayerQuestToTrack(player, QUESTS[FIRST_QUEST].unlock);
+                } else {
+                    if (activeQuestProgress >= 0) {
+                        sendPlayerQuestToTrack(player, QUESTS[activeQuest].unlock);
+                    }
+                }
+            }
+        });
+
+        trackPlayers(event);
+    });
+}
+
+ServerEvents.loaded(event => {
+    trackPlayers(event);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // TODO: this is just for debug
+// ItemEvents.rightClicked('minecraft:stick', event => {
+//     const { player, server } = event;
+
+//     // let activeQuest = getPlayerQuest(player);
+//     // let activeQuestProgress = getPlayerProgression(player);
+//     // player.tell(activeQuest);
+//     // player.tell(activeQuestProgress);
+
+//     // sendPlayerQuestToTrack(player, QUESTS[activeQuest].unlock)
+
+
+//     // setPlayerQuestProgress(player, 9);
+//     // player.tell(FIRST_QUEST);
+
+//     let advIdsToUntrack = [];
+//     let advIdsToTrack = [QUESTS[FIRST_QUEST].unlock];
+
+//     for (const quest of Object.keys(QUESTS)) {
+//         let questData = QUESTS[quest];
+//         revokeServerPlayerAdvancement(server, player, questData.unlock);
+//         advIdsToUntrack.push(questData.unlock);
+//     }
+
+
+//     sendPlayerQuestTrackData(player, advIdsToTrack, advIdsToUntrack);
+//     setPlayerQuest(player, FIRST_QUEST);
+
+//     // setPlayerQuest(player, FIRST_QUEST);
+//     // sendPlayerQuestToTrack(player, QUESTS[FIRST_QUEST].unlock)
+// });

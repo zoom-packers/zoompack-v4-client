@@ -4,7 +4,7 @@
             "item": "kubejs:quest"
         },
         "title": "Get an Arcane Workbench",
-        "description": "Make yourself an Arcane Workbench and put it on the ground. Very useful to make somnium constructs\n\nREWARDS:\n\u00a7f\u00a7o- 10 \u00a74\ud83e\ude99",
+        "description": "Make yourself an Arcane Workbench and put it on the ground. Very useful to make somnium constructs\n\nREWARDS:\n\u00a7f\u00a7o- 1 \u00a76\ud83e\ude99",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
@@ -22,7 +22,7 @@
         ]
     ],
     "rewards": {
-        "experience": 20
+        "experience": 1000
     },
     "sends_telemetry_event": false
 }

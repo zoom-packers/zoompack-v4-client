@@ -230,10 +230,10 @@
     "item": "kubejs:quest",
     "title": "Get a Table Of Elevation",
     "description": "Craft a Table Of Elevation and place it down.",
-    "xp": 20,
+    "xp": 100,
     "reward": [
-      10,
       0,
+      4,
       0,
       0,
       0
@@ -330,10 +330,10 @@
     "item": "kubejs:quest",
     "title": "Get an Augmenting Table",
     "description": "Craft an Augmenting Table and place it down. Very useful to improve your affixes.",
-    "xp": 20,
+    "xp": 100,
     "reward": [
-      10,
       0,
+      4,
       0,
       0,
       0

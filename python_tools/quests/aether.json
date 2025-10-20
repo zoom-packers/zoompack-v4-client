@@ -55,10 +55,10 @@
     "item": "kubejs:quest",
     "title": "Get an Altar",
     "description": "Find or craft an Altar to repair the damage on your items with Ambrosium Shards. Please place it on a surface.",
-    "xp": 20,
+    "xp": 50,
     "reward": [
-      10,
       0,
+      2,
       0,
       0,
       0

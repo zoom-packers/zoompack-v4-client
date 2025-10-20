@@ -4,7 +4,7 @@
             "item": "kubejs:quest_book"
         },
         "title": "TUTORIAL - Get a Simple Reforging Table",
-        "description": "Place a Simple Reforging Table on the ground. Use it to upgrade items with affixes. Type /gems to find more.\n\nREWARDS:\n\u00a7f\u00a7o- 10 \u00a74\ud83e\ude99",
+        "description": "Place a Simple Reforging Table on the ground. Use it to upgrade items with affixes. Type /gems to find more.\n\nREWARDS:\n\u00a7f\u00a7o- 20 \u00a74\ud83e\ude99",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
@@ -22,7 +22,7 @@
         ]
     ],
     "rewards": {
-        "experience": 20
+        "experience": 18
     },
     "sends_telemetry_event": false
 }

@@ -154,10 +154,10 @@
     "item": "kubejs:quest",
     "title": "Get a Summoning Table",
     "description": "Summon and slay The Summoner until you find a Summoning Table and put it on the ground.",
-    "xp": 20,
+    "xp": 30,
     "reward": [
-      10,
       0,
+      1,
       0,
       0,
       0

@@ -1,10 +1,10 @@
 {
-  "20logs": {
-    "title": "TUTORIAL - Get 20 logs",
-    "description": "Everything requires sticks, so gather some wood",
-    "xp": 20,
+  "10logs": {
+    "title": "TUTORIAL - Get 10 logs",
+    "description": "Everything requires sticks, so gather some wood.",
+    "xp": 10,
     "reward": [
-      20,
+      10,
       0,
       0,
       0,
@@ -15,7 +15,7 @@
       "mode": "endswith",
       "match_id": "_log"
     },
-    "count": 20,
+    "count": 10,
     "dialogue": {
       "speaker": "Elder Librarian",
       "message": "Great work. Get some tools for yourself and start slaying some enemies.",
@@ -42,7 +42,7 @@
     "count": 10,
     "dialogue": {
       "speaker": "Elder Librarian",
-      "message": "Looks like you are getting stronger! Remember you are a gatherer, so butcher some animals",
+      "message": "Looks like you are getting stronger! Each type of skill gives you access to items/gear and character stats.",
       "renderType": "rectangle",
       "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
     }
@@ -71,9 +71,33 @@
       "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
     }
   },
+  "place_crafting_table": {
+    "title": "TUTORIAL - Get a Crafting Table",
+    "description": "Place a Crafting Table. Use it to craft gear or items that you might need",
+    "xp": 18,
+    "reward": [
+      20,
+      0,
+      0,
+      0,
+      0
+    ],
+    "type": "place_block",
+    "match": {
+      "mode": "exact",
+      "match_id": "minecraft:crafting_table"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Right in your inventory you can press R to see the recipies of items while hovering over them. Use U to see the usages.",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+    }
+  },
   "10combatlvl": {
     "title": "TUTORIAL - Reach Combat Lvl 10",
-    "description": "Fight enemies to raise your combat level to at least 10.",
+    "description": "All your levels are in your inventory at the \u00c2\u00a7dpurple \u00c2\u00a7fstar\nFight enemies to raise your combat level to at least 10.",
     "xp": 100,
     "reward": [
       50,
@@ -146,9 +170,9 @@
   "place_salvaging_table": {
     "title": "TUTORIAL - Get a Salvaging Table",
     "description": "Place a Salvaging Table. Craft it and use it to get materials.",
-    "xp": 20,
+    "xp": 18,
     "reward": [
-      10,
+      20,
       0,
       0,
       0,
@@ -170,9 +194,9 @@
   "place_simple_reforging_table": {
     "title": "TUTORIAL - Get a Simple Reforging Table",
     "description": "Place a Simple Reforging Table on the ground. Use it to upgrade items with affixes. Type /gems to find more.",
-    "xp": 20,
+    "xp": 18,
     "reward": [
-      10,
+      20,
       0,
       0,
       0,
@@ -218,9 +242,9 @@
   "place_fortunas_anvil": {
     "title": "TUTORIAL - Get a Fortuna`s Anvil",
     "description": "Place a Fortuna`s Anvil on the ground. Use it to upgrade your items. Type /fortunas to find out more.",
-    "xp": 20,
+    "xp": 18,
     "reward": [
-      10,
+      20,
       0,
       0,
       0,
@@ -370,9 +394,9 @@
   "place_waystone": {
     "title": "TUTORIAL - Get Yourself a Waystone",
     "description": "Place a Waystone on the ground. You can use those to travel vast distances at the cost of Experience",
-    "xp": 20,
+    "xp": 18,
     "reward": [
-      10,
+      20,
       0,
       0,
       0,
@@ -398,9 +422,9 @@
   "place_engineering_table": {
     "title": "TUTORIAL - Get Yourself an Engineering Table",
     "description": "Place an Engineering Table. You can interact with it to improve your Engineering Skill. Type /engineering for details.",
-    "xp": 20,
+    "xp": 18,
     "reward": [
-      10,
+      20,
       0,
       0,
       0,

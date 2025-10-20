@@ -3,8 +3,8 @@
         "icon": {
             "item": "kubejs:quest_book"
         },
-        "title": "TUTORIAL - Get 20 logs",
-        "description": "Everything requires sticks, so gather some wood\n\nREWARDS:\n\u00a7f\u00a7o- 20 \u00a74\ud83e\ude99",
+        "title": "TUTORIAL - Get 10 logs",
+        "description": "Everything requires sticks, so gather some wood.\n\nREWARDS:\n\u00a7f\u00a7o- 10 \u00a74\ud83e\ude99",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
@@ -22,7 +22,7 @@
         ]
     ],
     "rewards": {
-        "experience": 20
+        "experience": 10
     },
     "sends_telemetry_event": false
 }

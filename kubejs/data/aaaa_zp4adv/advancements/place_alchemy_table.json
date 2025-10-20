@@ -4,7 +4,7 @@
             "item": "kubejs:quest"
         },
         "title": "Get an Alchemy Table",
-        "description": "Summon and slay The Alchemist until you find an Alchemy Table and put it on the ground.\n\nREWARDS:\n\u00a7f\u00a7o- 10 \u00a74\ud83e\ude99",
+        "description": "Summon and slay The Alchemist until you find an Alchemy Table and put it on the ground.\n\nREWARDS:\n\u00a7f\u00a7o- 48 \u00a74\ud83e\ude99\n\u00a7f\u00a7o- 1 \u00a77\ud83e\ude99",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
@@ -22,7 +22,7 @@
         ]
     ],
     "rewards": {
-        "experience": 20
+        "experience": 40
     },
     "sends_telemetry_event": false
 }
