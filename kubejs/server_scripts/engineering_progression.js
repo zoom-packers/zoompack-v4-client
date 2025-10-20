@@ -1086,9 +1086,7 @@ let lockedBlocksPmmoLevels = {
     "create:andesite_funnel": 9,
     "create:andesite_tunnel": 9,
 
-    "redstone_requester": 10,
-    "stock_link": 10,
-    "stock_ticker": 10,
+    
     "pulse_timer": 10,
     "create:encased_fan": 10,
     "create:nozzle": 10,
@@ -1125,13 +1123,15 @@ let lockedBlocksPmmoLevels = {
     "create:rope_pulley": 11,
     "create:contraption_controls": 11,
 
+    "package_frogport": 12,
+    "redstone_requester": 12,
+    "stock_link": 12,
+    "stock_ticker": 12,
     "create:item_vault": 12,
 
     "repackager": 15,
     "packager": 15,
     "cardboard_block": 15,
-    "package_filter" : 15,
-    "cardboard": 15,
     "brass_table_cloth": 15,
     "createlowheated:basic_burner": 15,
     "create:mechanical_mixer": 15,

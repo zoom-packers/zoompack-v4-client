@@ -509,9 +509,11 @@ function modifyCreate() {
     processor.modifyPlaceBlockRequirements("create", "andesite_funnel", "engineering", 9);
     processor.modifyPlaceBlockRequirements("create", "andesite_tunnel", "engineering", 9);
 
-    processor.modifyPlaceBlockRequirements("create", "redstone_requester", "engineering", 10);
-    processor.modifyPlaceBlockRequirements("create", "stock_link", "engineering", 10);
-    processor.modifyPlaceBlockRequirements("create", "stock_ticker", "engineering", 10);
+
+    processor.modifyPlaceBlockRequirements("create", "desk_bell", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "copper_table_cloth", "engineering", 10);
+    
+    
     processor.modifyPlaceBlockRequirements("create", "pulse_timer", "engineering", 10);
     processor.modifyPlaceBlockRequirements("create", "encased_fan", "engineering", 10);
     processor.modifyPlaceBlockRequirements("create", "nozzle", "engineering", 10);
@@ -548,11 +550,13 @@ function modifyCreate() {
     processor.modifyPlaceBlockRequirements("create", "contraption_controls", "engineering", 11);
     processor.modifyPlaceBlockRequirements("create", "redstone_contact", "engineering", 11);
 
+    processor.modifyPlaceBlockRequirements("create", "package_frogport", "engineering", 12);
+    processor.modifyPlaceBlockRequirements("create", "redstone_requester", "engineering", 12);
+    processor.modifyPlaceBlockRequirements("create", "stock_link", "engineering", 12);
+    processor.modifyPlaceBlockRequirements("create", "stock_ticker", "engineering", 12);
     processor.modifyPlaceBlockRequirements("create", "item_vault", "engineering", 12);
 
     processor.modifyPlaceBlockRequirements("create", "brass_table_cloth", "engineering", 15);
-    processor.modifyPlaceBlockRequirements("create", "cardboard", "engineering", 15);
-    processor.modifyPlaceBlockRequirements("create", "package_filter", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "cardboard_block", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "packager", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "repackager", "engineering", 15);
