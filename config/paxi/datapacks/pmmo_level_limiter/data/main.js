@@ -432,11 +432,48 @@ function modifyCreate() {
     processor.modifyPlaceBlockRequirements("create", "powered_latch", "engineering", 5);
     processor.modifyPlaceBlockRequirements("create", "powered_toggle_latch", "engineering", 5);
     processor.modifyPlaceBlockRequirements("create", "andesite_door", "engineering", 5);
+    
+    processor.modifyPlaceBlockRequirements("create", "create:black_postbox", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:blue_postbox", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:brown_postbox", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:cyan_postbox", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:gray_postbox", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:green_postbox", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:light_blue_postbox", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:light_gray_postbox", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:lime_postbox", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:magenta_postbox", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:orange_postbox", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:pink_postbox", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:purple_postbox", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:red_postbox", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:white_postbox", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:yellow_postbox", "engineering", 5);
+
+    processor.modifyPlaceBlockRequirements("create", "create:black_table_cloth", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:blue_table_cloth", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:brass_table_cloth", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:brown_table_cloth", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:cyan_table_cloth", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:gray_table_cloth", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:green_table_cloth", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:light_blue_table_cloth", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:light_gray_table_cloth", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:lime_table_cloth", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:magenta_table_cloth", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:orange_table_cloth", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:pink_table_cloth", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:purple_table_cloth", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:red_table_cloth", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:white_table_cloth", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:yellow_table_cloth", "engineering", 5);
+    processor.modifyPlaceBlockRequirements("create", "create:andesite_table_cloth", "engineering", 5);
+
 
     processor.modifyPlaceBlockRequirements("create", "shaft", "engineering", 6);
     processor.modifyPlaceBlockRequirements("create", "turntable", "engineering", 6);
     processor.modifyPlaceBlockRequirements("create", "gantry_shaft", "engineering", 6);
-    processor.modifyPlaceBlockRequirements("create", "gantry_carriage", "engineering", 6);
+    
     processor.modifyPlaceBlockRequirements("copycats", "copycat_shaft", "engineering", 6);
     processor.modifyPlaceBlockRequirements("create", "clutch", "engineering", 6);
     processor.modifyPlaceBlockRequirements("create", "windmill_bearing", "engineering", 6);
@@ -447,6 +484,8 @@ function modifyCreate() {
     processor.modifyPlaceBlockRequirements("create", "mechanical_piston", "engineering", 6);
     processor.modifyPlaceBlockRequirements("create", "sticky_mechanical_piston", "engineering", 6);
 
+    processor.modifyPlaceBlockRequirements("create", "chain_conveyor", "engineering", 7);
+    processor.modifyPlaceBlockRequirements("create", "gantry_carriage", "engineering", 7);
     processor.modifyPlaceBlockRequirements("create", "cogwheel", "engineering", 7);
     processor.modifyPlaceBlockRequirements("create", "large_cogwheel", "engineering", 7);
     processor.modifyPlaceBlockRequirements("copycats", "copycat_cogwheel", "engineering", 7);
@@ -469,6 +508,10 @@ function modifyCreate() {
     processor.modifyPlaceBlockRequirements("create", "andesite_funnel", "engineering", 9);
     processor.modifyPlaceBlockRequirements("create", "andesite_tunnel", "engineering", 9);
 
+    processor.modifyPlaceBlockRequirements("create", "redstone_requester", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "stock_link", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "stock_ticker", "engineering", 10);
+    processor.modifyPlaceBlockRequirements("create", "pulse_timer", "engineering", 10);
     processor.modifyPlaceBlockRequirements("create", "encased_fan", "engineering", 10);
     processor.modifyPlaceBlockRequirements("create", "nozzle", "engineering", 10);
     processor.modifyPlaceBlockRequirements("create", "mechanical_press", "engineering", 10);
@@ -506,6 +549,12 @@ function modifyCreate() {
 
     processor.modifyPlaceBlockRequirements("create", "item_vault", "engineering", 12);
 
+    processor.modifyPlaceBlockRequirements("create", "brass_table_cloth", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "cardboard", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "package_filter", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "cardboard_block", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "packager", "engineering", 15);
+    processor.modifyPlaceBlockRequirements("create", "repackager", "engineering", 15);
     processor.modifyPlaceBlockRequirements("createlowheated", "basic_burner", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "mechanical_mixer", "engineering", 15);
     processor.modifyPlaceBlockRequirements("createaddition", "rolling_mill", "engineering", 15);
@@ -521,6 +570,7 @@ function modifyCreate() {
     processor.modifyPlaceBlockRequirements("create", "portable_fluid_interface", "engineering", 15);
     processor.modifyPlaceBlockRequirements("create", "portable_storage_interface", "engineering", 15);
 
+    processor.modifyPlaceBlockRequirements("create", "factory_gauge", "engineering", 16);
     processor.modifyPlaceBlockRequirements("create", "brass_casing", "engineering", 16);
     processor.modifyPlaceBlockRequirements("create", "brass_door", "engineering", 16);
     processor.modifyPlaceBlockRequirements("create", "weighted_ejector", "engineering", 16);
