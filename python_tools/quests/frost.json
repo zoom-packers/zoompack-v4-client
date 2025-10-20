@@ -1,210 +1,210 @@
 {
-    "travel_abyss_to_frost_world": {
-        "item": "kubejs:quest",
-        "title": "Travel to The Frost World",
-        "description": "The Frost World Portal is found inside The Abyss, however it could be anywhere.",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "delayNext": 200,
-        "type": "travel_dimension",
-        "match": {
-            "mode": "exact",
-            "match_id": "theabyss:frost_world"
-        },
-        "count": 1,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Amazing! You made it to the last realm. There is nothing here but means to fight! Take care!",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/frost.png"
-        }
+  "travel_abyss_to_frost_world": {
+    "item": "kubejs:quest",
+    "title": "Travel to The Frost World",
+    "description": "The Frost World Portal is found inside The Abyss, however it could be anywhere.",
+    "xp": 11264,
+    "reward": [
+      0,
+      56,
+      19,
+      0,
+      0
+    ],
+    "delayNext": 200,
+    "type": "travel_dimension",
+    "match": {
+      "mode": "exact",
+      "match_id": "theabyss:frost_world"
     },
-    "100enemies_frost_world": {
-        "item": "kubejs:quest",
-        "title": "Slay 100 Enemies in The Frost World",
-        "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "kill",
-        "match": {
-            "mode": "preset_entity_check",
-            "match": "hostile",
-            "dimension_match": "theabyss:frost_world"
-        },
-        "count": 100,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Amazing! There is no effort without a worth reward",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/frost.png"
-        }
-    },
-    "500enemies_frost_world": {
-        "item": "kubejs:quest",
-        "title": "Slay 500 Enemies in The Frost World",
-        "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "kill",
-        "match": {
-            "mode": "preset_entity_check",
-            "match": "hostile",
-            "dimension_match": "theabyss:frost_world"
-        },
-        "count": 500,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Amazing! There is no effort without a worth reward",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/frost.png"
-        }
-    },
-    "1000enemies_frost_world": {
-        "item": "kubejs:quest",
-        "title": "Slay 1.000 Enemies in The Frost World",
-        "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "kill",
-        "match": {
-            "mode": "preset_entity_check",
-            "match": "hostile",
-            "dimension_match": "theabyss:frost_world"
-        },
-        "count": 1000,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Amazing! There is no effort without a worth reward",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/frost.png"
-        }
-    },
-    "10000enemies_frost_world": {
-        "item": "kubejs:quest",
-        "title": "Slay 10.000 Enemies in The Frost World",
-        "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "kill",
-        "match": {
-            "mode": "preset_entity_check",
-            "match": "hostile",
-            "dimension_match": "theabyss:frost_world"
-        },
-        "count": 10000,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Amazing! There is no effort without a worth reward",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/frost.png"
-        }
-    },
-    "20000enemies_frost_world": {
-        "item": "kubejs:quest",
-        "title": "Slay 20.000 Enemies in The Frost World",
-        "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "kill",
-        "match": {
-            "mode": "preset_entity_check",
-            "match": "hostile",
-            "dimension_match": "theabyss:frost_world"
-        },
-        "count": 20000,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Amazing! There is no effort without a worth reward",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/frost.png"
-        }
-    },
-    "50000enemies_frost_world": {
-        "item": "kubejs:quest",
-        "title": "Slay 50.000 Enemies in The Frost World",
-        "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "kill",
-        "match": {
-            "mode": "preset_entity_check",
-            "match": "hostile",
-            "dimension_match": "theabyss:frost_world"
-        },
-        "count": 50000,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Amazing! There is no effort without a worth reward",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/frost.png"
-        }
-    },
-    "100000enemies_frost_world": {
-        "item": "kubejs:quest",
-        "title": "Slay 100.000 Enemies in The Frost World",
-        "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "kill",
-        "match": {
-            "mode": "preset_entity_check",
-            "match": "hostile",
-            "dimension_match": "theabyss:frost_world"
-        },
-        "count": 100000,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Amazing! There is no effort without a worth reward",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/frost.png"
-        }
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Amazing! You made it to the last realm. There is nothing here but means to fight! Take care!",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/frost.png"
     }
+  },
+  "100enemies_frost_world": {
+    "item": "kubejs:quest",
+    "title": "Slay 100 Enemies in The Frost World",
+    "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
+    "xp": 10000,
+    "reward": [
+      0,
+      2,
+      7,
+      0,
+      0
+    ],
+    "type": "kill",
+    "match": {
+      "mode": "preset_entity_check",
+      "match": "hostile",
+      "dimension_match": "theabyss:frost_world"
+    },
+    "count": 100,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Amazing! There is no effort without a worth reward",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/frost.png"
+    }
+  },
+  "500enemies_frost_world": {
+    "item": "kubejs:quest",
+    "title": "Slay 500 Enemies in The Frost World",
+    "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
+    "xp": 50000,
+    "reward": [
+      0,
+      10,
+      35,
+      0,
+      0
+    ],
+    "type": "kill",
+    "match": {
+      "mode": "preset_entity_check",
+      "match": "hostile",
+      "dimension_match": "theabyss:frost_world"
+    },
+    "count": 500,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Amazing! There is no effort without a worth reward",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/frost.png"
+    }
+  },
+  "1000enemies_frost_world": {
+    "item": "kubejs:quest",
+    "title": "Slay 1.000 Enemies in The Frost World",
+    "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
+    "xp": 100000,
+    "reward": [
+      0,
+      20,
+      6,
+      1,
+      0
+    ],
+    "type": "kill",
+    "match": {
+      "mode": "preset_entity_check",
+      "match": "hostile",
+      "dimension_match": "theabyss:frost_world"
+    },
+    "count": 1000,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Amazing! There is no effort without a worth reward",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/frost.png"
+    }
+  },
+  "10000enemies_frost_world": {
+    "item": "kubejs:quest",
+    "title": "Slay 10.000 Enemies in The Frost World",
+    "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
+    "xp": 1000000,
+    "reward": [
+      0,
+      8,
+      63,
+      10,
+      0
+    ],
+    "type": "kill",
+    "match": {
+      "mode": "preset_entity_check",
+      "match": "hostile",
+      "dimension_match": "theabyss:frost_world"
+    },
+    "count": 10000,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Amazing! There is no effort without a worth reward",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/frost.png"
+    }
+  },
+  "20000enemies_frost_world": {
+    "item": "kubejs:quest",
+    "title": "Slay 20.000 Enemies in The Frost World",
+    "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
+    "xp": 2000000,
+    "reward": [
+      0,
+      16,
+      62,
+      21,
+      0
+    ],
+    "type": "kill",
+    "match": {
+      "mode": "preset_entity_check",
+      "match": "hostile",
+      "dimension_match": "theabyss:frost_world"
+    },
+    "count": 20000,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Amazing! There is no effort without a worth reward",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/frost.png"
+    }
+  },
+  "50000enemies_frost_world": {
+    "item": "kubejs:quest",
+    "title": "Slay 50.000 Enemies in The Frost World",
+    "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
+    "xp": 5000000,
+    "reward": [
+      0,
+      40,
+      59,
+      54,
+      0
+    ],
+    "type": "kill",
+    "match": {
+      "mode": "preset_entity_check",
+      "match": "hostile",
+      "dimension_match": "theabyss:frost_world"
+    },
+    "count": 50000,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Amazing! There is no effort without a worth reward",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/frost.png"
+    }
+  },
+  "100000enemies_frost_world": {
+    "item": "kubejs:quest",
+    "title": "Slay 100.000 Enemies in The Frost World",
+    "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
+    "xp": 10000000,
+    "reward": [
+      0,
+      16,
+      55,
+      45,
+      1
+    ],
+    "type": "kill",
+    "match": {
+      "mode": "preset_entity_check",
+      "match": "hostile",
+      "dimension_match": "theabyss:frost_world"
+    },
+    "count": 100000,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Amazing! There is no effort without a worth reward",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/frost.png"
+    }
+  }
 }

@@ -1,481 +1,478 @@
 {
-    "locate_ancient_city": {
-        "item": "kubejs:quest",
-        "title": "Find an Ancient City",
-        "description": "Ancinet Cities are underground cities found in the Deep Dark biome of the Overworld",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "locate_structure",
-        "match": {
-            "mode": "exact",
-            "match_id": "minecraft:ancient_city"
-        },
-        "count": 1,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Fantastic, now make some noise to wake up the fallen.",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
-        }
+  "locate_ancient_city": {
+    "item": "kubejs:quest",
+    "title": "Find an Ancient City",
+    "description": "Ancinet Cities are underground cities found in the Deep Dark biome of the Overworld",
+    "xp": 800,
+    "reward": [
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "type": "locate_structure",
+    "match": {
+      "mode": "exact",
+      "match_id": "minecraft:ancient_city"
     },
-    "defeat_the_warden": {
-        "item": "kubejs:quest",
-        "title": "Defeat The Warden",
-        "description": "The ancient cities are home to the wrath of The Warden that is awaken by sounds.",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "kill",
-        "match": {
-            "mode": "exact",
-            "match": "minecraft:warden"
-        },
-        "count": 1,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Astonishing! Check the loot bag, you can get an arc from him that can turn you invisible! Remember, you could get a better one from the enemy",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
-        }
-    },
-
-    "get_depth_key": {
-        "item": "kubejs:quest",
-        "title": "Get a Depth Key",
-        "description": "For this you will need End Rods and what you have looted from the Warden",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "obtain_item",
-        "match": {
-            "mode": "exact",
-            "match_id": "callfromthedepth_:depth"
-        },
-        "count": 1,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Great! Now See that massive rectangle? That`s the portal!",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
-        }
-    },
-
-    "travel_to_depth": {
-        "item": "kubejs:quest",
-        "title": "Travel to The Depth",
-        "description": "Lit the portal with a Depth Key and jump inside.",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "delayNext": 200,
-        "type": "travel_dimension",
-        "match": {
-            "mode": "exact",
-            "match_id": "callfromthedepth_:depth"
-        },
-        "count": 1,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Welcome to the Depth. This realm is anything but friendly. You might need new gear to see better around.",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
-        }
-    },
-    "50enemies_depth": {
-        "item": "kubejs:quest",
-        "title": "Slay 50 Enemies in The Depth",
-        "description": "Let`s clear the surroundings!",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "kill",
-        "match": {
-            "mode": "preset_entity_check",
-            "match": "hostile",
-            "dimension_match": "callfromthedepth_:depth"
-        },
-        "count": 50,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Great job! Now it`s time to loot around. What did we gathered?",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
-        }
-    },
-    "get_agony_soul": {
-        "item": "kubejs:quest",
-        "title": "Get an Agony Soul",
-        "description": "Sacrificial Bastions are big leveled bastions protected by Wardens. You can use the fragment there!",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "obtain_item",
-        "match": {
-            "mode": "exact",
-            "match_id": "callfromthedepth_:soulinagony"
-        },
-        "count": 1,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Perfect! Now use it on the Stone of Sacrificial to revive the Agony Soul",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
-        }
-    },
-    "defeat_agony_soul": {
-        "item": "kubejs:quest",
-        "title": "Defeat The Agony Soul",
-        "description": "The Agony Soul is a nimble yet deadly reincarnated Bambi, watch out for any surprise attacks.",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "kill",
-        "match": {
-            "mode": "exact",
-            "match": "callfromthedepth_:agonysoul"
-        },
-        "count": 1,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Good job! Use the lotted gear to become stronger!",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
-        }
-    },
-    "get_tier_8_power_up": {
-        "item": "kubejs:quest",
-        "title": "Get Yourself a Stronger Powerup 8",
-        "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "obtain_item",
-        "match": {
-            "mode": "startswith",
-            "match_id": "kubejs:tier_8"
-        },
-        "count": 1,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Great! Apply those to your armor to become stronger!",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/undergarden.png"
-        }
-    },
-    "83combatlvl": {
-        "title": "Reach Combat Lvl 83",
-        "description": "Fight enemies to raise your combat level to at least 83.",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "reach_level",
-        "match": {
-            "mode": "check_level",
-            "skill": "combat"
-        },
-        "count": 83,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Your combat skills are improving. Keep it up!",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
-        }
-    },
-    "locate_marble_forge": {
-        "item": "kubejs:quest",
-        "title": "Find a Marble Forge",
-        "description": "Marble Forges are close to The Nether Fortress, only that these are made of marble and have an Arena inside.",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "locate_structure",
-        "match": {
-            "mode": "exact",
-            "match_id": "callfromthedepth_:marblesoulforge"
-        },
-        "count": 1,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Good job! Now we can need to get the Weeping Soul to ressurect the Injured Marble Guard",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
-        }
-    },
-    "get_weeping_soul": {
-        "item": "kubejs:quest",
-        "title": "Get a Weeping Soul",
-        "description": "Weeping Soul is made from Lost soul sand, but after a few iterations. Craft it to ressurect the Weeping Soul",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "obtain_item",
-        "match": {
-            "mode": "exact",
-            "match_id": "callfromthedepth_:weepingsoul"
-        },
-        "count": 1,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Perfect! Now use it on the Stone of Sacrificial to revive the Injured Marble Guardian",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
-        }
-    },
-    "defeat_injured_marble_guardian": {
-        "item": "kubejs:quest",
-        "title": "Defeat The Injured Marble Guardian",
-        "description": "The Injured Marble Guardian is a marble made entity with strong powers. Don`t be cocky while facing it.",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "kill",
-        "match": {
-            "mode": "exact",
-            "match": "callfromthedepth_:injuredmarbleguard"
-        },
-        "count": 1,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Good job! Use the lotted gear to become stronger!",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
-        }
-    },
-    "86combatlvl": {
-        "title": "Reach Combat Lvl 86",
-        "description": "Fight enemies to raise your combat level to at least 86.",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "reach_level",
-        "match": {
-            "mode": "check_level",
-            "skill": "combat"
-        },
-        "count": 86,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Your combat skills are improving. Keep it up!",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
-        }
-    },
-    "locate_deep_darkest_altar": {
-        "item": "kubejs:quest",
-        "title": "Find The Deep Darkest Altar",
-        "description": "The Deep Darkest Altar is a massive castle arena that keeps at bay the remainings of the Deep Darkest Spawn",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "locate_structure",
-        "match": {
-            "mode": "exact",
-            "match_id": "callfromthedepth_:deepdarkestaltar"
-        },
-        "count": 1,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Good job! Now we can need to get the Deadblind Soul to ressurect the Deep Darkest Spawn.",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
-        }
-    },
-    "get_deadblind_soul": {
-        "item": "kubejs:quest",
-        "title": "Get a Deadblind Soul",
-        "description": "Deadblind Soul is made from Lost soul sand, but after a few iterations. Craft it to ressurect the Deadblind Soul",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "obtain_item",
-        "match": {
-            "mode": "exact",
-            "match_id": "callfromthedepth_:deadblindsoul"
-        },
-        "count": 1,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Perfect! Now use it on the Stone of Sacrificial to revive the Deep Darkest Spawn",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
-        }
-    },
-    "defeat_depp_darkest_spawn": {
-        "item": "kubejs:quest",
-        "title": "Defeat The Deep Darkest Spawn",
-        "description": "All we know about the Deep Darkest Spawn is that it`s an abomination.",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "kill",
-        "match": {
-            "mode": "exact",
-            "match": "callfromthedepth_:deepdarkestspwansecondphase"
-        },
-        "count": 1,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Good job! Use the lotted gear to become stronger!",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
-        }
-    },
-    "100enemies_depth": {
-        "item": "kubejs:quest",
-        "title": "Slay 100 Enemies in The Depth",
-        "description": "Let`s clear the surroundings!",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "kill",
-        "match": {
-            "mode": "preset_entity_check",
-            "match": "hostile",
-            "dimension_match": "callfromthedepth_:depth"
-        },
-        "count": 100,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Great job! Now it`s time to loot around. What did we gathered?",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
-        }
-    },
-    "90combatlvl": {
-        "title": "Reach Combat Lvl 90",
-        "description": "Fight enemies to raise your combat level to at least 90.",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "type": "reach_level",
-        "match": {
-            "mode": "check_level",
-            "skill": "combat"
-        },
-        "count": 90,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Your combat skills are improving. Keep it up!",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
-        }
-    },
-
-    "travel_depth_to_overworld": {
-        "item": "kubejs:quest",
-        "title": "Travel back to the Overworld",
-        "description": "Get back home as we need to find the next adventure.",
-        "xp": 20,
-        "reward": [
-            10,
-            0,
-            0,
-            0,
-            0
-        ],
-        "delayNext": 200,
-        "type": "travel_dimension",
-        "match": {
-            "mode": "exact",
-            "match_id": "minecraft:overworld"
-        },
-        "count": 1,
-        "dialogue": {
-            "speaker": "Elder Librarian",
-            "message": "Welcome back home, but adventure continues. There is one more obscure place to visit.",
-            "renderType": "rectangle",
-            "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
-        }
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Fantastic, now make some noise to wake up the fallen.",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
     }
+  },
+  "defeat_the_warden": {
+    "item": "kubejs:quest",
+    "title": "Defeat The Warden",
+    "description": "The ancient cities are home to the wrath of The Warden that is awaken by sounds.",
+    "xp": 7000,
+    "reward": [
+      0,
+      8,
+      3,
+      0,
+      0
+    ],
+    "type": "kill",
+    "match": {
+      "mode": "exact",
+      "match": "minecraft:warden"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Astonishing! Check the loot bag, you can get an arc from him that can turn you invisible! Remember, you could get a better one from the enemy",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+    }
+  },
+  "get_depth_key": {
+    "item": "kubejs:quest",
+    "title": "Get a Depth Key",
+    "description": "For this you will need End Rods and what you have looted from the Warden",
+    "xp": 4000,
+    "reward": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "type": "obtain_item",
+    "match": {
+      "mode": "exact",
+      "match_id": "callfromthedepth_:depth"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Great! Now See that massive rectangle? That`s the portal!",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+    }
+  },
+  "travel_to_depth": {
+    "item": "kubejs:quest",
+    "title": "Travel to The Depth",
+    "description": "Lit the portal with a Depth Key and jump inside.",
+    "xp": 2816,
+    "reward": [
+      0,
+      62,
+      4,
+      0,
+      0
+    ],
+    "delayNext": 200,
+    "type": "travel_dimension",
+    "match": {
+      "mode": "exact",
+      "match_id": "callfromthedepth_:depth"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Welcome to the Depth. This realm is anything but friendly. You might need new gear to see better around.",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
+    }
+  },
+  "50enemies_depth": {
+    "item": "kubejs:quest",
+    "title": "Slay 50 Enemies in The Depth",
+    "description": "Let`s clear the surroundings!",
+    "xp": 3500,
+    "reward": [
+      0,
+      36,
+      1,
+      0,
+      0
+    ],
+    "type": "kill",
+    "match": {
+      "mode": "preset_entity_check",
+      "match": "hostile",
+      "dimension_match": "callfromthedepth_:depth"
+    },
+    "count": 50,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Great job! Now it`s time to loot around. What did we gathered?",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
+    }
+  },
+  "get_agony_soul": {
+    "item": "kubejs:quest",
+    "title": "Get an Agony Soul",
+    "description": "Sacrificial Bastions are big leveled bastions protected by Wardens. You can use the fragment there!",
+    "xp": 4000,
+    "reward": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "type": "obtain_item",
+    "match": {
+      "mode": "exact",
+      "match_id": "callfromthedepth_:soulinagony"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Perfect! Now use it on the Stone of Sacrificial to revive the Agony Soul",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
+    }
+  },
+  "defeat_agony_soul": {
+    "item": "kubejs:quest",
+    "title": "Defeat The Agony Soul",
+    "description": "The Agony Soul is a nimble yet deadly reincarnated Bambi, watch out for any surprise attacks.",
+    "xp": 7000,
+    "reward": [
+      0,
+      8,
+      3,
+      0,
+      0
+    ],
+    "type": "kill",
+    "match": {
+      "mode": "exact",
+      "match": "callfromthedepth_:agonysoul"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Good job! Use the lotted gear to become stronger!",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
+    }
+  },
+  "get_tier_8_power_up": {
+    "item": "kubejs:quest",
+    "title": "Get Yourself a Stronger Powerup 8",
+    "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
+    "xp": 4000,
+    "reward": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "type": "obtain_item",
+    "match": {
+      "mode": "startswith",
+      "match_id": "kubejs:tier_8"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Great! Apply those to your armor to become stronger!",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/undergarden.png"
+    }
+  },
+  "83combatlvl": {
+    "title": "Reach Combat Lvl 83",
+    "description": "Fight enemies to raise your combat level to at least 83.",
+    "xp": 830,
+    "reward": [
+      31,
+      6,
+      0,
+      0,
+      0
+    ],
+    "type": "reach_level",
+    "match": {
+      "mode": "check_level",
+      "skill": "combat"
+    },
+    "count": 83,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Your combat skills are improving. Keep it up!",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
+    }
+  },
+  "locate_marble_forge": {
+    "item": "kubejs:quest",
+    "title": "Find a Marble Forge",
+    "description": "Marble Forges are close to The Nether Fortress, only that these are made of marble and have an Arena inside.",
+    "xp": 800,
+    "reward": [
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "type": "locate_structure",
+    "match": {
+      "mode": "exact",
+      "match_id": "callfromthedepth_:marblesoulforge"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Good job! Now we can need to get the Weeping Soul to ressurect the Injured Marble Guard",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
+    }
+  },
+  "get_weeping_soul": {
+    "item": "kubejs:quest",
+    "title": "Get a Weeping Soul",
+    "description": "Weeping Soul is made from Lost soul sand, but after a few iterations. Craft it to ressurect the Weeping Soul",
+    "xp": 4000,
+    "reward": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "type": "obtain_item",
+    "match": {
+      "mode": "exact",
+      "match_id": "callfromthedepth_:weepingsoul"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Perfect! Now use it on the Stone of Sacrificial to revive the Injured Marble Guardian",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
+    }
+  },
+  "defeat_injured_marble_guardian": {
+    "item": "kubejs:quest",
+    "title": "Defeat The Injured Marble Guardian",
+    "description": "The Injured Marble Guardian is a marble made entity with strong powers. Don`t be cocky while facing it.",
+    "xp": 7000,
+    "reward": [
+      0,
+      8,
+      3,
+      0,
+      0
+    ],
+    "type": "kill",
+    "match": {
+      "mode": "exact",
+      "match": "callfromthedepth_:injuredmarbleguard"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Good job! Use the lotted gear to become stronger!",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
+    }
+  },
+  "86combatlvl": {
+    "title": "Reach Combat Lvl 86",
+    "description": "Fight enemies to raise your combat level to at least 86.",
+    "xp": 860,
+    "reward": [
+      46,
+      6,
+      0,
+      0,
+      0
+    ],
+    "type": "reach_level",
+    "match": {
+      "mode": "check_level",
+      "skill": "combat"
+    },
+    "count": 86,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Your combat skills are improving. Keep it up!",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
+    }
+  },
+  "locate_deep_darkest_altar": {
+    "item": "kubejs:quest",
+    "title": "Find The Deep Darkest Altar",
+    "description": "The Deep Darkest Altar is a massive castle arena that keeps at bay the remainings of the Deep Darkest Spawn",
+    "xp": 800,
+    "reward": [
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    "type": "locate_structure",
+    "match": {
+      "mode": "exact",
+      "match_id": "callfromthedepth_:deepdarkestaltar"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Good job! Now we can need to get the Deadblind Soul to ressurect the Deep Darkest Spawn.",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
+    }
+  },
+  "get_deadblind_soul": {
+    "item": "kubejs:quest",
+    "title": "Get a Deadblind Soul",
+    "description": "Deadblind Soul is made from Lost soul sand, but after a few iterations. Craft it to ressurect the Deadblind Soul",
+    "xp": 4000,
+    "reward": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "type": "obtain_item",
+    "match": {
+      "mode": "exact",
+      "match_id": "callfromthedepth_:deadblindsoul"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Perfect! Now use it on the Stone of Sacrificial to revive the Deep Darkest Spawn",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
+    }
+  },
+  "defeat_depp_darkest_spawn": {
+    "item": "kubejs:quest",
+    "title": "Defeat The Deep Darkest Spawn",
+    "description": "All we know about the Deep Darkest Spawn is that it`s an abomination.",
+    "xp": 7000,
+    "reward": [
+      0,
+      8,
+      3,
+      0,
+      0
+    ],
+    "type": "kill",
+    "match": {
+      "mode": "exact",
+      "match": "callfromthedepth_:deepdarkestspwansecondphase"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Good job! Use the lotted gear to become stronger!",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
+    }
+  },
+  "100enemies_depth": {
+    "item": "kubejs:quest",
+    "title": "Slay 100 Enemies in The Depth",
+    "description": "Let`s clear the surroundings!",
+    "xp": 7000,
+    "reward": [
+      0,
+      8,
+      3,
+      0,
+      0
+    ],
+    "type": "kill",
+    "match": {
+      "mode": "preset_entity_check",
+      "match": "hostile",
+      "dimension_match": "callfromthedepth_:depth"
+    },
+    "count": 100,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Great job! Now it`s time to loot around. What did we gathered?",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
+    }
+  },
+  "90combatlvl": {
+    "title": "Reach Combat Lvl 90",
+    "description": "Fight enemies to raise your combat level to at least 90.",
+    "xp": 900,
+    "reward": [
+      2,
+      7,
+      0,
+      0,
+      0
+    ],
+    "type": "reach_level",
+    "match": {
+      "mode": "check_level",
+      "skill": "combat"
+    },
+    "count": 90,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Your combat skills are improving. Keep it up!",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
+    }
+  },
+  "travel_depth_to_overworld": {
+    "item": "kubejs:quest",
+    "title": "Travel back to the Overworld",
+    "description": "Get back home as we need to find the next adventure.",
+    "xp": 2816,
+    "reward": [
+      0,
+      62,
+      4,
+      0,
+      0
+    ],
+    "delayNext": 200,
+    "type": "travel_dimension",
+    "match": {
+      "mode": "exact",
+      "match_id": "minecraft:overworld"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Welcome back home, but adventure continues. There is one more obscure place to visit.",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+    }
+  }
 }
