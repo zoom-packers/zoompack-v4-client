@@ -88,9 +88,9 @@
 			}
 		},
 		"icon": {
-			"type": "item",
+			"type": "effect",
 			"data": {
-				"item": "doggytalents:throw_bone_wet"
+				"item": "irons_spellbooks:rend"
 			}
 		},
 		"rewards": [
