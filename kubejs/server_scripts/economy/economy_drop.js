@@ -302,13 +302,14 @@ function grantReward(rewards, player, server, killedEntity, announce, difficulty
     updatePlayerCoin(player, 'emerald', new_emerald, emerald_balance, EMERALD_COIN, server);
     updatePlayerCoin(player, 'diamond', new_diamond, diamond_balance, DIAMOND_COIN, server);
 
+    let temp_reward = total_reward_plus_difficulty;
     let newRewards = [
-        total_reward_plus_difficulty % CONVERSION_RATE,
-        Math.floor(total_reward_plus_difficulty / CONVERSION_RATE),
-        Math.floor(total_reward_plus_difficulty / (CONVERSION_RATE ** 2)),
-        Math.floor(total_reward_plus_difficulty / (CONVERSION_RATE ** 3)),
-        Math.floor(total_reward_plus_difficulty / (CONVERSION_RATE ** 4)),
-    ]
+        temp_reward % CONVERSION_RATE,
+        Math.floor((temp_reward % (CONVERSION_RATE ** 2)) / CONVERSION_RATE),
+        Math.floor((temp_reward % (CONVERSION_RATE ** 3)) / (CONVERSION_RATE ** 2)),
+        Math.floor((temp_reward % (CONVERSION_RATE ** 4)) / (CONVERSION_RATE ** 3)),
+        Math.floor(temp_reward / (CONVERSION_RATE ** 4))
+    ];
 
     if(announce){
         announceReward(server, player.name.string, newRewards, killedEntity);
