@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "theabyss:roka_horn"
+    },
+    "b": {
+      "item": "theabyss:crystal_hand"
+    },
+    "c": {
+      "item": "minecraft:ender_eye"
+    },
+    "d": {
+      "item": "theabyss:elder_eye"
+    },
+    "e": {
+      "item": "theabyss:magic_core"
+    }
+  },
+  "result": {
+    "item": "theabyss:eye_of_abyss",
+    "count": 1
+  }
+}
