@@ -23,6 +23,30 @@
       "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
     }
   },
+  "place_crafting_table": {
+    "title": "TUTORIAL - Get a Crafting Table",
+    "description": "Place a Crafting Table. Use it to craft gear or items that you might need",
+    "xp": 18,
+    "reward": [
+      20,
+      0,
+      0,
+      0,
+      0
+    ],
+    "type": "place_block",
+    "match": {
+      "mode": "exact",
+      "match_id": "minecraft:crafting_table"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Right in your inventory you can press R to see the recipies of items while hovering over them. Use U to see the usages.",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+    }
+  },
   "10enemies": {
     "title": "TUTORIAL - Slay 10 Enemies",
     "description": "You must get used to combat. So slay some enemies. Fighting gives you Combat XP",
@@ -67,30 +91,6 @@
     "dialogue": {
       "speaker": "Elder Librarian",
       "message": "Good, now you won`t starve. Continue!",
-      "renderType": "rectangle",
-      "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
-    }
-  },
-  "place_crafting_table": {
-    "title": "TUTORIAL - Get a Crafting Table",
-    "description": "Place a Crafting Table. Use it to craft gear or items that you might need",
-    "xp": 18,
-    "reward": [
-      20,
-      0,
-      0,
-      0,
-      0
-    ],
-    "type": "place_block",
-    "match": {
-      "mode": "exact",
-      "match_id": "minecraft:crafting_table"
-    },
-    "count": 1,
-    "dialogue": {
-      "speaker": "Elder Librarian",
-      "message": "Right in your inventory you can press R to see the recipies of items while hovering over them. Use U to see the usages.",
       "renderType": "rectangle",
       "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
     }
