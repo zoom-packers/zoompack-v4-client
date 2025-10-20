@@ -422,6 +422,7 @@ function modifyCreate() {
 
     processor.modifyPlaceBlockRequirements("create", "schematic_table", "engineering", 4);
 
+    processor.modifyPlaceBlockRequirements("create", "item_hatch", "engineering", 5);
     processor.modifyPlaceBlockRequirements("create", "andesite_casing", "engineering", 5);
     processor.modifyPlaceBlockRequirements("create", "depot", "engineering", 5);
     processor.modifyPlaceBlockRequirements("create", "speedometer", "engineering", 5);

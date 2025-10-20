@@ -1000,6 +1000,7 @@ let lockedBlocksPmmoLevels = {
 
     "create:schematic_table": 4,
 
+    "create:item_hatch": 5,
     "create:andesite_casing": 5,
     "create:depot": 5,
     "create:speedometer": 5,
