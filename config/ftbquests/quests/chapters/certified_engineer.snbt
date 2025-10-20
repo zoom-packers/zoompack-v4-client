@@ -2247,8 +2247,8 @@
 				item: "create:gantry_carriage"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 2.0d
+			x: -13.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["6C78B9D6AF17502B"]
@@ -4072,7 +4072,7 @@
 				type: "item"
 			}]
 			x: 48.5d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7E692A6A11F10A53"]
@@ -4090,7 +4090,7 @@
 				type: "item"
 			}]
 			x: 48.5d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7E692A6A11F10A53"]
@@ -4916,63 +4916,13 @@
 		}
 		{
 			dependencies: ["045F1DF8071F3068"]
-			id: "277296E83B44B075"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7278B189957F2D7B"
-				table_id: 5114688297455528537L
-				type: "loot"
-			}]
+			id: "67CEECCDB4FCDC38"
 			shape: "diamond"
 			tasks: [{
-				id: "322852074E957C8F"
+				id: "4D6900139D1AB513"
 				item: {
 					Count: 1
-					id: "extendedgears:half_shaft_cogwheel"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -12.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["045F1DF8071F3068"]
-			id: "1086720D8FFA361F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1B5E8C578D16CC26"
-				table_id: 5114688297455528537L
-				type: "loot"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "3CCB77050E6A56EF"
-				item: {
-					Count: 1
-					id: "extendedgears:large_half_shaft_cogwheel"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -12.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["045F1DF8071F3068"]
-			id: "43EE71CCD54FEB67"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "26F748408E474284"
-				table_id: 5114688297455528537L
-				type: "loot"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "1270979E86340D40"
-				item: {
-					Count: 1
-					id: "extendedgears:shaftless_cogwheel"
+					id: "create:chain_conveyor"
 					tag: { }
 				}
 				type: "item"
@@ -4981,26 +4931,620 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["045F1DF8071F3068"]
-			id: "33FDFE6286D65DFA"
+			dependencies: ["6651C1DA4616F92F"]
+			id: "42ABA2ABE01FD3C9"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4DFF5C78134D97C2"
-				table_id: 5114688297455528537L
+				id: "3363D0A6A513F0B1"
+				table_id: 5311133287388403848L
 				type: "loot"
 			}]
 			shape: "diamond"
+			tasks: [
+				{
+					id: "0E779EF04CE04351"
+					item: {
+						Count: 1
+						id: "create:white_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "26A4A6D148D7C39C"
+					item: {
+						Count: 1
+						id: "create:orange_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "446AC28C3958AAB5"
+					item: {
+						Count: 1
+						id: "create:magenta_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2AD20513D2B493D6"
+					item: {
+						Count: 1
+						id: "create:light_blue_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "667DA9911118C52B"
+					item: {
+						Count: 1
+						id: "create:yellow_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6C02013833653DB4"
+					item: {
+						Count: 1
+						id: "create:lime_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6067683F5B948193"
+					item: {
+						Count: 1
+						id: "create:pink_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "353841721ABF7DBD"
+					item: {
+						Count: 1
+						id: "create:gray_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3D09504E5D80C471"
+					item: {
+						Count: 1
+						id: "create:light_gray_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "746962D87CAC0AC9"
+					item: {
+						Count: 1
+						id: "create:cyan_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "525E7A8627432757"
+					item: {
+						Count: 1
+						id: "create:purple_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7CC26C054F619125"
+					item: {
+						Count: 1
+						id: "create:blue_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3B44CE1D1CF6C313"
+					item: {
+						Count: 1
+						id: "create:brown_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7F0EB10774A93ACB"
+					item: {
+						Count: 1
+						id: "create:green_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0F61A1D3F953F098"
+					item: {
+						Count: 1
+						id: "create:red_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3B1B5E68A8F5D5C3"
+					item: {
+						Count: 1
+						id: "create:black_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -29.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6651C1DA4616F92F"]
+			id: "5A162D3023C45353"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75CB8AA6485C2AD3"
+				table_id: 5311133287388403848L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "552EED0174EC4F8F"
+					item: {
+						Count: 1
+						id: "create:red_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7736ED3811860A57"
+					item: {
+						Count: 1
+						id: "create:white_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "088AD477DA3624BC"
+					item: {
+						Count: 1
+						id: "create:orange_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7090C293BFBDE007"
+					item: {
+						Count: 1
+						id: "create:magenta_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5DD86F83D4807F92"
+					item: {
+						Count: 1
+						id: "create:light_blue_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6F2C89E05F6A9B84"
+					item: {
+						Count: 1
+						id: "create:yellow_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "06C3B86A216D1441"
+					item: {
+						Count: 1
+						id: "create:lime_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5F279A8CD2D4176A"
+					item: {
+						Count: 1
+						id: "create:pink_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "21E6C9C3EE380C59"
+					item: {
+						Count: 1
+						id: "create:gray_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2424156D66066988"
+					item: {
+						Count: 1
+						id: "create:light_gray_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2019D87BA9F34A81"
+					item: {
+						Count: 1
+						id: "create:cyan_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "65FBF92BE7EB1805"
+					item: {
+						Count: 1
+						id: "create:purple_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "621A1437E569E75D"
+					item: {
+						Count: 1
+						id: "create:blue_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3E5A5F347F5F3A79"
+					item: {
+						Count: 1
+						id: "create:brown_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "61DE8972786DAB26"
+					item: {
+						Count: 1
+						id: "create:green_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1F6E04F8439CAF81"
+					item: {
+						Count: 1
+						id: "create:black_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7C5D4F5EAA2502E3"
+					item: {
+						Count: 1
+						id: "create:andesite_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -26.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2CE4309590602786"]
+			id: "3380ECE4E5EBC375"
+			shape: "square"
 			tasks: [{
-				id: "74E4D6C63F68C07D"
+				id: "74EAE3BC1697BAC4"
 				item: {
 					Count: 1
-					id: "extendedgears:large_shaftless_cogwheel"
+					id: "create:redstone_requester"
 					tag: { }
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2CE4309590602786"]
+			id: "232A1E56D3372C68"
+			shape: "square"
+			tasks: [{
+				id: "09ECD07CC60989A1"
+				item: {
+					Count: 1
+					id: "create:stock_link"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48D35FB15EED1E1B"]
+			id: "2BF89513E62A333E"
+			shape: "diamond"
+			tasks: [{
+				id: "1A56B25F49B2D45C"
+				item: {
+					Count: 1
+					id: "create:desk_bell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48D35FB15EED1E1B"]
+			id: "7AD0B82EFB14E674"
+			shape: "diamond"
+			tasks: [{
+				id: "2DF7A423524E4C81"
+				item: {
+					Count: 1
+					id: "create:pulse_timer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E692A6A11F10A53"]
+			id: "1A43E4EE23C81858"
+			shape: "square"
+			tasks: [{
+				id: "5433F5BB1F89F6E6"
+				item: {
+					Count: 1
+					id: "create:factory_gauge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 48.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6651C1DA4616F92F"]
+			id: "45CC0A6BEB67EFFD"
+			shape: "square"
+			tasks: [{
+				id: "2E9DFAECD18E866C"
+				item: {
+					Count: 1
+					id: "create:item_hatch"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A23092E92C3E358"]
+			id: "2772C3A94C845996"
+			shape: "diamond"
+			tasks: [{
+				id: "0CA1AA51EFEE1130"
+				item: {
+					Count: 1
+					id: "create:cardboard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A23092E92C3E358"]
+			id: "4A0824E485D99B34"
+			shape: "diamond"
+			tasks: [{
+				id: "1D50B2609A7B5164"
+				item: {
+					Count: 1
+					id: "create:cardboard_block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7A23092E92C3E358"]
+			id: "3EABD8991122B0C9"
+			shape: "diamond"
+			tasks: [{
+				id: "6C19A428782B227B"
+				item: {
+					Count: 1
+					id: "create:package_filter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A23092E92C3E358"]
+			id: "31F37285A203EDFE"
+			shape: "diamond"
+			tasks: [{
+				id: "481C08BC131A1D70"
+				item: {
+					Count: 1
+					id: "create:pulp"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A23092E92C3E358"]
+			id: "0D7682B85D17D6ED"
+			shape: "square"
+			tasks: [{
+				id: "2E534D329631BE36"
+				item: {
+					Count: 1
+					id: "create:packager"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 22.5d
 			y: 5.5d
+		}
+		{
+			dependencies: ["7A23092E92C3E358"]
+			id: "3AB48376729DE781"
+			shape: "square"
+			tasks: [{
+				id: "3F5EDE834D76C0C3"
+				item: {
+					Count: 1
+					id: "create:repackager"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2CE4309590602786"]
+			id: "3012E1124A53A824"
+			shape: "square"
+			tasks: [{
+				id: "1B98FE76C88005BC"
+				item: {
+					Count: 1
+					id: "create:stock_ticker"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2CE4309590602786"]
+			id: "0493D68497036084"
+			shape: "square"
+			tasks: [{
+				id: "3C6A439F1A08EB01"
+				item: {
+					Count: 1
+					id: "create:package_frogport"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["48D35FB15EED1E1B"]
+			id: "5C9341462BA6AA4D"
+			shape: "diamond"
+			tasks: [{
+				id: "5CE22734ACA826FA"
+				item: {
+					Count: 1
+					id: "create:copper_table_cloth"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A23092E92C3E358"]
+			id: "3C87CBFDCD85BC11"
+			shape: "diamond"
+			tasks: [{
+				id: "424603D35C633FC3"
+				item: {
+					Count: 1
+					id: "create:brass_table_cloth"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
 		}
 	]
 	subtitle: ["Embrance the industrialization"]
