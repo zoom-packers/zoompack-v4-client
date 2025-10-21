@@ -1,0 +1,30 @@
+{
+	icon: {
+		Count: 1
+		id: "copycats:copycat_cogwheel"
+		tag: { }
+	}
+	id: "73AD250AE66DD617"
+	loot_size: 1
+	order_index: 53
+	rewards: [
+		{
+			count: 6
+			item: {
+				Count: 1
+				id: "create:cogwheel"
+				tag: { }
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "create:large_cogwheel"
+				tag: { }
+			}
+			weight: 0.0f
+		}
+	]
+	title: "create gears reward"
+}
