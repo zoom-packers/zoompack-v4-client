@@ -239,5 +239,17 @@
 			"compare_to": 0,
 			"comparison": ">"
 		}
+	},
+	"banshee_callback": {
+		"type": "origins:action_on_callback",
+		"entity_action_chosen": {
+			"type": "origins:execute_command",
+			"command": "function medievalorigins:mdvlorigins/banshee_callon"
+		},
+		"entity_action_lost": {
+			"type": "origins:execute_command",
+			"command": "function medievalorigins:mdvlorigins/banshee_callback"
+		},
+		"execute_chosen_when_orb": true
 	}
 }

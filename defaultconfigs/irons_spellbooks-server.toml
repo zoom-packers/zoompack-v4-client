@@ -748,9 +748,9 @@
 		MaxLevel = 20
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 2.5
-		SpellPowerMultiplier = 6.6
-		CooldownInSeconds = 120.0
+		ManaCostMultiplier = 1.5
+		SpellPowerMultiplier = 1.25
+		CooldownInSeconds = 60.0
 		AllowCrafting = false
 
 	#irons_spellbooks:holy
