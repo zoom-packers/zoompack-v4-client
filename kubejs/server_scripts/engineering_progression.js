@@ -1174,8 +1174,9 @@ let lockedBlocksPmmoLevels = {
     "create:rotation_speed_controller": 17,
     "create:redstone_link": 17,
     "create:linked_controller": 17,
+    "create:crushing_wheel": 17,
 
-    "create:crushing_wheel": 18,
+    
     "create:smart_chute": 18,
 
     "create:railway_casing": 20,

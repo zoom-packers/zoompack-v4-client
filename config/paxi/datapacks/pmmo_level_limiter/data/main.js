@@ -601,8 +601,8 @@ function modifyCreate() {
     processor.modifyPlaceBlockRequirements("create", "rotation_speed_controller", "engineering", 17);
     processor.modifyPlaceBlockRequirements("create", "redstone_link", "engineering", 17);
     processor.modifyPlaceBlockRequirements("create", "linked_controller", "engineering", 17);
-    
-    processor.modifyPlaceBlockRequirements("create", "crushing_wheel", "engineering", 18);
+    processor.modifyPlaceBlockRequirements("create", "crushing_wheel", "engineering", 17);
+
     processor.modifyPlaceBlockRequirements("create", "smart_chute", "engineering", 18);
 
     processor.modifyPlaceBlockRequirements("create", "railway_casing", "engineering", 20);
