@@ -12,7 +12,7 @@
 		"icon": {
 			"type": "effect",
 			"data": {
-				"item": "speed"
+				"effect": "speed"
 			}
 		},
 		"rewards": [

@@ -115,7 +115,7 @@
 		"icon": {
 			"type": "effect",
 			"data": {
-				"item": "irons_spellbooks:rend"
+				"effect": "irons_spellbooks:rend"
 			}
 		},
 		"rewards": [
