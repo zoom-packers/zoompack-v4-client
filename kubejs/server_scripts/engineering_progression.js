@@ -1132,6 +1132,7 @@ let lockedBlocksPmmoLevels = {
     "repackager": 15,
     "packager": 15,
     "cardboard_block": 15,
+    "bound_cardboard_block": 15,
     "brass_table_cloth": 15,
     "createlowheated:basic_burner": 15,
     "create:mechanical_mixer": 15,
