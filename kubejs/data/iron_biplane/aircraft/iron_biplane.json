@@ -1,0 +1,63 @@
+{
+  "properties": {
+    "fuel": 1.425,
+    "yawSpeed": 5.5,
+    "pitchSpeed": 4.5,
+    "engineSpeed": 0.045,
+    "pushSpeed": 0.025,
+    "glideFactor": 0.05,
+    "driftDrag": 0.01,
+    "lift": 0.15,
+    "rollFactor": 45.0,
+    "groundPitch": 4.0,
+    "wind": 0.025,
+    "mass": 2.0
+  },
+  "inventorySlots": [
+    {"type": "boiler", "x": 12, "y": 37},
+    {"type": "booster", "x": 40, "y": 32},
+    {"type": "weapon", "x": 62, "y": 21},
+    {"type": "weapon", "x": 62, "y": 43},
+    {"type": "upgrade", "x": 84, "y": 21},
+    {"type": "upgrade", "x": 106, "y": 21},
+    {"type": "upgrade", "x": 84, "y": 43},
+    {"type": "upgrade", "x": 106, "y": 43},
+    {"type": "inventory", "x": 8, "y": 68, "cols": 6, "rows": 3}
+  ],
+  "weaponMounts": [
+    {
+      "ROTATING": [
+        {"x": 0, "y": 0.9, "z": -1.1875}
+      ],
+      "FRONT": [
+        {"x": -1.0, "y": 0.3375, "z": 1.125},
+        {"x": 1.0, "y": 0.3375, "z": 1.125}
+      ],
+      "DROP": [
+        {"x": -1.25, "y": 0.3, "z": 1.125},
+        {"x": 1.25, "y": 0.3, "z": 1.125}
+      ]
+    }
+  ],
+  "passengerPositions": [
+    [
+      {"x": 0.0, "y": 0.175, "z": -0.6}
+    ]
+  ],
+  "boundingBoxes": [
+    {"width": 1.0, "height": 0.7, "x": 0.75, "y": 0.65, "z": 1.125},
+    {"width": 1.0, "height": 0.7, "x": 1.5, "y": 0.65, "z": 1.125},
+    {"width": 1.0, "height": 0.7, "x": 2.25, "y": 0.65, "z": 1.125},
+    {"width": 1.0, "height": 0.7, "x": 3.0, "y": 0.65, "z": 1.125},
+    {"width": 1.0, "height": 0.7, "x": 0.0, "y": 0.65, "z": 1.125},
+    {"width": 1.0, "height": 0.7, "x": -0.75, "y": 0.65, "z": 1.125},
+    {"width": 1.0, "height": 0.7, "x": -1.5, "y": 0.65, "z": 1.125},
+    {"width": 1.0, "height": 0.7, "x": -2.25, "y": 0.65, "z": 1.125},
+    {"width": 1.0, "height": 0.7, "x": -3.0, "y": 0.65, "z": 1.125},
+    {"width": 0.8, "height": 0.6, "x": 0.0, "y": 0.65, "z": -1.0},
+    {"width": 0.8, "height": 0.6, "x": 0.0, "y": 0.65, "z": -1.5},
+    {"width": 0.6, "height": 0.5, "x": 0.0, "y": 0.65, "z": -2.0},
+    {"width": 0.6, "height": 0.5, "x": 0.0, "y": 0.65, "z": -2.5},
+    {"width": 1.2, "height": 0.2, "x": 0.0, "y": 0.7, "z": -2.6}
+  ]
+}
