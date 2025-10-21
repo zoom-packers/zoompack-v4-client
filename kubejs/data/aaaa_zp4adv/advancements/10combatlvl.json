@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:place_crafting_table",
+    "parent": "aaaa_zp4adv:10farmanimals",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

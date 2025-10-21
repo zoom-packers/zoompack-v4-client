@@ -31,6 +31,29 @@ const QUESTS = {
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
+        "next":"place_crafting_table"
+    },
+    "place_crafting_table":{
+        "type":"place_block",
+        "match":{
+            "mode":"exact",
+            "match_id":"minecraft:crafting_table"
+        },
+        "reward":[
+            20,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:place_crafting_table",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Right in your inventory you can press R to see the recipies of items while hovering over them. Use U to see the usages.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
+        },
         "next":"10enemies"
     },
     "10enemies":{
@@ -74,29 +97,6 @@ const QUESTS = {
         "dialogue":{
             "speaker":"Elder Librarian",
             "message":"Good, now you won`t starve. Continue!",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
-        },
-        "next":"place_crafting_table"
-    },
-    "place_crafting_table":{
-        "type":"place_block",
-        "match":{
-            "mode":"exact",
-            "match_id":"minecraft:crafting_table"
-        },
-        "reward":[
-            20,
-            0,
-            0,
-            0,
-            0
-        ],
-        "unlock":"aaaa_zp4adv:place_crafting_table",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"Right in your inventory you can press R to see the recipies of items while hovering over them. Use U to see the usages.",
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
@@ -4798,7 +4798,7 @@ function trackPlayers(event) {
             const lastLoc = global.playerTracker[uuid].lastLocation;
             const currLoc = getPlayerLocationData(player);
 
-            const moved = lastLoc.x !== currLoc.x || lastLoc.y !== currLoc.y || lastLoc.z !== currLoc.z;
+            const moved = Math.abs(currLoc.x - lastLoc.x) >= 2 || Math.abs(currLoc.z - lastLoc.z) >= 2;
 
             global.playerTracker[uuid].lastLocation = currLoc;
 

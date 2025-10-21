@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:10farmanimals",
+    "parent": "aaaa_zp4adv:10logs",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

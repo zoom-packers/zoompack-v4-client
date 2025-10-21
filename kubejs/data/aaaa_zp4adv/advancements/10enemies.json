@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:10logs",
+    "parent": "aaaa_zp4adv:place_crafting_table",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"
