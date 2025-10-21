@@ -1,20 +1,21 @@
 {
-  "type": "origins:active_self",
-  "key": {
-    "key": "key.origins.primary_active"
-  },
-  "entity_action": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:execute_command",
-        "command": "function medievalorigins:mdvlorigins/banshee_shriek"
-      }
-    ]
-  },
-  "cooldown": 800,
-  "hud_render": {
-    "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
-    "bar_index": 0
-  }
+	"loading_priority": 111,
+	"type": "origins:active_self",
+	"key": {
+		"key": "key.origins.primary_active"
+	},
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "function medievalorigins:mdvlorigins/banshee_shriek"
+			}
+		]
+	},
+	"cooldown": 800,
+	"hud_render": {
+		"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+		"bar_index": 0
+	}
 }
