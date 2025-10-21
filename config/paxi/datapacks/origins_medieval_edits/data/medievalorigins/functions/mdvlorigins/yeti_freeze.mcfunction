@@ -1,0 +1,2 @@
+execute as @e[type=!minecraft:player,type=!#medievalorigins:non_freezables,distance=..12,limit=8,sort=nearest] run function medievalorigins:mdvlorigins/frozen_by_yeti
+execute at @e[type=#medievalorigins:non_freezables,distance=..12] run playsound minecraft:block.lava.extinguish ambient @a ~ ~ ~ 0.25
