@@ -1,0 +1,34 @@
+{
+    "parent": "aaaa_zp4adv:root",
+    "criteria": {
+        "trigger_criteria": {
+            "conditions": {},
+            "trigger": "minecraft:hero_of_the_village"
+        }
+    },
+    "display": {
+        "announce_to_chat": false,
+        "description": {
+            "text": "Triggered to Minecraft Hero Of The Village"
+        },
+        "frame": "challenge",
+        "hidden": true,
+        "icon": {
+            "item": "kubejs:quest_book"
+        },
+        "show_toast": false,
+        "title": {
+            "text": "Triggered to Minecraft Hero Of The Village"
+        }
+    },
+    "requirements": [
+        [
+            "trigger_criteria"
+        ]
+    ],
+    "rewards": {
+        "experience": 100
+    },
+    "sends_telemetry_event": false,
+    "repeatable": true
+}

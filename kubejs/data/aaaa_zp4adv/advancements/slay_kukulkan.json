@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "kubejs:quest"
+        },
+        "title": "Slay Kukulkan",
+        "description": "Kukulkan is an ancient mayan being landed on this realm to find peace and hunting ocasionally in The Overworld. It`s time to put an end to it\n\nREWARDS:\n\u00a7f\u00a7o- 36 \u00a77\ud83e\ude99\n\u00a7f\u00a7o- 1 \u00a76\ud83e\ude99",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "aaaa_zp4adv:locate_overgrown_temple",
+    "criteria": {
+        "thecriteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "thecriteria"
+        ]
+    ],
+    "rewards": {
+        "experience": 5500
+    },
+    "sends_telemetry_event": false
+}

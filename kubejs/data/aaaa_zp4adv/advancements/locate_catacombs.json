@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "kubejs:quest"
+        },
+        "title": "Find The Catacombs",
+        "description": "The Catacombs are the perfect place to find rare ancient loot!\n\nREWARDS:\n\u00a7f\u00a7o- 4 \u00a77\ud83e\ude99",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "aaaa_zp4adv:travel_to_the_undergarden",
+    "criteria": {
+        "thecriteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "thecriteria"
+        ]
+    ],
+    "rewards": {
+        "experience": 240
+    },
+    "sends_telemetry_event": false
+}

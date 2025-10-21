@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "kubejs:quest_book"
+        },
+        "title": "TUTORIAL - Get a Zeal Lighter",
+        "description": "Trade with the Gate Keeper to obtain a zeal lighter. Use it to fire the portal that must lay near by.\n\nREWARDS:\n\u00a7f\u00a7o- 32 \u00a74\ud83e\ude99",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "aaaa_zp4adv:locate_bank",
+    "criteria": {
+        "thecriteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "thecriteria"
+        ]
+    ],
+    "rewards": {
+        "experience": 50
+    },
+    "sends_telemetry_event": false
+}

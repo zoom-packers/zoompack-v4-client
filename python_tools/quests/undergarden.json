@@ -1,0 +1,355 @@
+{
+  "loot_or_craft_catalyst": {
+    "item": "kubejs:quest",
+    "title": "Get a Catalyst",
+    "description": "Craft a Catalyst to use it to lit the Stone Bricks portal 2 by 3 like The Nether to open the gate towards The Undergarden.",
+    "xp": 1600,
+    "reward": [
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "type": "obtain_item",
+    "match": {
+      "mode": "exact",
+      "match_id": "undergarden:catalyst"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Great! Now use it to lit the portal!",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/undergarden.png"
+    }
+  },
+  "travel_to_the_undergarden": {
+    "item": "kubejs:quest",
+    "title": "Travel to The Undergarden",
+    "description": "A 2 by 3 ring of Stone Bricks lit with the Catalyst. That`s all you need to lit and jump.",
+    "xp": 704,
+    "reward": [
+      32,
+      47,
+      0,
+      0,
+      0
+    ],
+    "delayNext": 200,
+    "type": "travel_dimension",
+    "match": {
+      "mode": "exact",
+      "match_id": "undergarden:undergarden"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Welcome to hell! Hard to roam around and constant fear of fire.",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/undergarden.png"
+    }
+  },
+  "locate_catacombs": {
+    "item": "kubejs:quest",
+    "title": "Find The Catacombs",
+    "description": "The Catacombs are the perfect place to find rare ancient loot!",
+    "xp": 240,
+    "reward": [
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "type": "locate_structure",
+    "match": {
+      "mode": "exact",
+      "match_id": "undergarden:catacombs"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Amazing. Now let`s take care of the enemies. Search around for chests too!",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/undergarden.png"
+    }
+  },
+  "80enemies_undergarden": {
+    "item": "kubejs:quest",
+    "title": "Slay 80 Enemies in The Undergarden",
+    "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
+    "xp": 4400,
+    "reward": [
+      0,
+      16,
+      1,
+      0,
+      0
+    ],
+    "type": "kill",
+    "match": {
+      "mode": "preset_entity_check",
+      "match": "hostile",
+      "dimension_match": "undergarden:undergarden"
+    },
+    "count": 80,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Very good! Remember that Forgotten Guardians are not as easy to slash.",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/undergarden.png"
+    }
+  },
+  "locate_kinoras_garden": {
+    "item": "kubejs:quest",
+    "title": "Find Kinora`s Garden",
+    "description": "Kinora`s Garden is the home of Kinora The Royal Mantyd. It should be a bricked base topped with cherry blossom trees.",
+    "xp": 240,
+    "reward": [
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "type": "locate_structure",
+    "match": {
+      "mode": "exact",
+      "match_id": "mokels_boss_mantyd:kinoras_garden"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Great finding! Now it`s time to release the realm of her threat!",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/undergarden.png"
+    }
+  },
+  "slay_kinora": {
+    "item": "kubejs:quest",
+    "title": "Slay The Royal Mantyd",
+    "description": "She is a very tricky mantyd so make sure you can talk her down.",
+    "xp": 5500,
+    "reward": [
+      0,
+      36,
+      1,
+      0,
+      0
+    ],
+    "type": "kill",
+    "match": {
+      "mode": "exact",
+      "match": "mokels_boss_mantyd:boss_mantyd"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Good job! The realm is vast and there are more threats around.",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/undergarden.png"
+    }
+  },
+  "locate_deadly_crypt": {
+    "item": "kubejs:quest",
+    "title": "Locate The Deadly Crypt",
+    "description": "The Deadly Crypt is very simmilar to a Jungle Temple, but it's just way bigger and more polished with Jade.",
+    "xp": 240,
+    "reward": [
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "type": "locate_structure",
+    "match": {
+      "mode": "exact",
+      "match_id": "call_of_yucutan:deadly_crypt"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Amazing spotting. Now take care down there as the crypt is filled with puzzles.",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/undergarden.png"
+    }
+  },
+  "slay_ah_puch": {
+    "item": "kubejs:quest",
+    "title": "Slay The Ah Puch",
+    "description": "Ah Puch is pure evil awakened. Mayan devil that caught form in this realm. Be careful when fighting him.",
+    "xp": 5500,
+    "reward": [
+      0,
+      36,
+      1,
+      0,
+      0
+    ],
+    "type": "kill",
+    "match": {
+      "mode": "exact",
+      "match": "call_of_yucutan:ah_puch"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "I could not belive it even if predicted. Amazing Job! But threats still lay on these warm underlands.",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/undergarden.png"
+    }
+  },
+  "65combatlvl": {
+    "item": "kubejs:quest",
+    "title": "Reach Combat Lvl 65",
+    "description": "Fight enemies to raise your combat level to at least 65.",
+    "xp": 650,
+    "reward": [
+      5,
+      5,
+      0,
+      0,
+      0
+    ],
+    "type": "reach_level",
+    "match": {
+      "mode": "check_level",
+      "skill": "combat"
+    },
+    "count": 65,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Your combat skills are improving. Keep it up!",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/undergarden.png"
+    }
+  },
+  "get_tier_6_power_up": {
+    "item": "kubejs:quest",
+    "title": "Get Yourself a Stronger Powerup 6",
+    "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
+    "xp": 1600,
+    "reward": [
+      0,
+      16,
+      0,
+      0,
+      0
+    ],
+    "type": "obtain_item",
+    "match": {
+      "mode": "startswith",
+      "match_id": "kubejs:tier_6"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Great! Apply those to your armor to become stronger!",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/undergarden.png"
+    }
+  },
+  "locate_overgrown_temple": {
+    "item": "kubejs:quest",
+    "title": "Locate The Overgrown Temple",
+    "description": "The Overgrown Temple is a goldy looking pyramid in the warm lands of The Undergarden that can be found towards the upper ceiling.",
+    "xp": 240,
+    "reward": [
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "type": "locate_structure",
+    "match": {
+      "mode": "exact",
+      "match_id": "call_of_yucutan:overgrown_temple"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Great! You found it. Our next enemy is located inside, but the puzzles tricked many into losing their lives.",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/undergarden.png"
+    }
+  },
+  "slay_kukulkan": {
+    "item": "kubejs:quest",
+    "title": "Slay Kukulkan",
+    "description": "Kukulkan is an ancient mayan being landed on this realm to find peace and hunting ocasionally in The Overworld. It`s time to put an end to it",
+    "xp": 5500,
+    "reward": [
+      0,
+      36,
+      1,
+      0,
+      0
+    ],
+    "type": "kill",
+    "match": {
+      "mode": "exact",
+      "match": "call_of_yucutan:kukulkan"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Good Work! You now freed the realm of it`s threats.",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/undergarden.png"
+    }
+  },
+  "70combatlvl": {
+    "item": "kubejs:quest",
+    "title": "Reach Combat Lvl 70",
+    "description": "Fight enemies to raise your combat level to at least 70.",
+    "xp": 700,
+    "reward": [
+      30,
+      5,
+      0,
+      0,
+      0
+    ],
+    "type": "reach_level",
+    "match": {
+      "mode": "check_level",
+      "skill": "combat"
+    },
+    "count": 70,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Your combat skills are improving. Keep it up!",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/undergarden.png"
+    }
+  },
+  "travel_unbergarden_to_overworld": {
+    "item": "kubejs:quest",
+    "title": "Travel back to the Overworld",
+    "description": "Get back home as we need to find the next adventure.",
+    "xp": 704,
+    "reward": [
+      32,
+      47,
+      0,
+      0,
+      0
+    ],
+    "delayNext": 200,
+    "type": "travel_dimension",
+    "match": {
+      "mode": "exact",
+      "match_id": "minecraft:overworld"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Welcome back home, but adventure continues. We need to now go higher than The Aether!",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+    }
+  }
+}

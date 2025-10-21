@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "kubejs:quest"
+        },
+        "title": "Find a Nature Arc",
+        "description": "Nature arcs gives you the possibility to wistand more damage before dying\n\nREWARDS:\n\u00a7f\u00a7o- 1 \u00a77\ud83e\ude99",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "aaaa_zp4adv:slay_starlit_crusher",
+    "criteria": {
+        "thecriteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "thecriteria"
+        ]
+    ],
+    "rewards": {
+        "experience": 100
+    },
+    "sends_telemetry_event": false
+}

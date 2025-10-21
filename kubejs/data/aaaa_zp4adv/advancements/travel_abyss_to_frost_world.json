@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "kubejs:quest"
+        },
+        "title": "Travel to The Frost World",
+        "description": "The Frost World Portal is found inside The Abyss, however it could be anywhere.\n\nREWARDS:\n\u00a7f\u00a7o- 56 \u00a77\ud83e\ude99\n\u00a7f\u00a7o- 11 \u00a76\ud83e\ude99",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "aaaa_zp4adv:defeat_nightblade_boss",
+    "criteria": {
+        "thecriteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "thecriteria"
+        ]
+    ],
+    "rewards": {
+        "experience": 11264
+    },
+    "sends_telemetry_event": false
+}

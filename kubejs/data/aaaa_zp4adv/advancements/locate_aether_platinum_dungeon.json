@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "kubejs:quest"
+        },
+        "title": "Find a Platinum Dungeon",
+        "description": "Platinum Dungeons are chunky towers up in the sky with a Whale roaming around.\n\nREWARDS:\n\u00a7f\u00a7o- 2 \u00a77\ud83e\ude99",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "aaaa_zp4adv:get_tier_4_power_up",
+    "criteria": {
+        "thecriteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "thecriteria"
+        ]
+    ],
+    "rewards": {
+        "experience": 120
+    },
+    "sends_telemetry_event": false
+}

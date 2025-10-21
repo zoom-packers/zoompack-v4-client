@@ -1,0 +1,42 @@
+{
+    "parent": "aaaa_zp4adv:root",
+    "criteria": {
+        "in_structure": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structure": "blue_skies:gatekeeper_house_plains"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": false,
+        "description": {
+            "text": "Locate Blue Skies Gatekeeper House Plains"
+        },
+        "frame": "challenge",
+        "hidden": true,
+        "icon": {
+            "item": "kubejs:quest_book"
+        },
+        "show_toast": false,
+        "title": {
+            "text": "Locate Blue Skies Gatekeeper House Plains"
+        }
+    },
+    "requirements": [
+        [
+            "in_structure"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

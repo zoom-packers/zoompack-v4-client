@@ -185,6 +185,17 @@ mobs = {
         'name': 'Direwolf',
         'weight': 4
     },
+    'roost2:roost': {
+        # uncommon
+        'hp': 38.0,
+        'speed': 0.5,
+        'jump': 1.5,
+        'armor': 0,
+        'dmg': 3,
+        'egg_id': 'roost2:roost_spawn_egg',
+        'name': 'Roost',
+        'weight': 4
+    },
     'mythicmounts:dragon': {
         # rare
         'hp': 40.0,
@@ -279,7 +290,7 @@ level_modifiers = {
     '1' : {
         'prefix': 'Crippled',
         'prefix_color': 'white',
-        'hp' : 0,
+        'hp' : 30,
         'speed' : 0,
         "jump": 0,
         'armor' : 0,
@@ -288,7 +299,7 @@ level_modifiers = {
     '2' : {
         'prefix' : 'Worn',
         'prefix_color': 'yellow',
-        'hp' : 10,
+        'hp' : 80,
         'speed' : 5,
         'jump' : 5,
         'armor' : 5,
@@ -297,7 +308,7 @@ level_modifiers = {
     '3' : {
         'prefix' : 'Rustic',
         'prefix_color': 'gold',
-        'hp' : 30,
+        'hp' : 160,
         'speed' : 10,
         'jump' : 10,
         'armor' : 10,
@@ -306,7 +317,7 @@ level_modifiers = {
     '4' : {
         'prefix' : 'Ordinary',
         'prefix_color': 'dark_aqua',
-        'hp' : 100,
+        'hp' : 300,
         'speed' : 15,
         'jump' : 15,
         'armor' : 15,
@@ -315,7 +326,7 @@ level_modifiers = {
     '5' : {
         'prefix' : 'Trained',
         'prefix_color': 'dark_red',
-        'hp' : 200,
+        'hp' : 1215,
         'speed' : 20,
         'jump' : 20,
         'armor' : 15,
@@ -324,7 +335,7 @@ level_modifiers = {
     '6' : {
         'prefix' : 'Hardened',
         'prefix_color': 'red',
-        'hp' : 400,
+        'hp' : 2500,
         'speed' : 25,
         'jump' : 25,
         'armor' : 30,
@@ -333,7 +344,7 @@ level_modifiers = {
     '7' : {
         'prefix' : 'Sturdy',
         'prefix_color': 'light_purple',
-        'hp' : 1000,
+        'hp' : 7500,
         'speed' : 30,
         'jump' : 30,
         'armor' : 80,
@@ -342,7 +353,7 @@ level_modifiers = {
     '8' : {
         'prefix' : 'Swift',
         'prefix_color': 'green',
-        'hp' : 2500,
+        'hp' : 12000,
         'speed' : 35,
         'jump' : 35,
         'armor' : 150,
@@ -351,7 +362,7 @@ level_modifiers = {
     '9' : {
         'prefix' : 'Majestic',
         'prefix_color': 'dark_purple',
-        'hp' : 6000,
+        'hp' : 18000,
         'speed' : 40,
         'jump' : 40,
         'armor' : 250,
