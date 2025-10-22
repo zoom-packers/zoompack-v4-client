@@ -268,10 +268,6 @@
       "modId": 1020455
     },
     {
-      "modName": "Fresh Moves",
-      "modId": 990406
-    },
-    {
       "modName": "EMI",
       "modId": 580555
     },
@@ -312,8 +308,12 @@
       "modId": 739970
     },
     {
-      "modName": "Fresh Moves",
-      "modId": 990406
+      "modName": "Serious Player Animations",
+      "modId": 975080
+    },
+    {
+      "modName": "First-person Model",
+      "modId": 333287
     }
   ],
   "removeFolders": [

@@ -119,6 +119,78 @@
       "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
     }
   },
+  "get_recipe_book": {
+    "title": "TUTORIAL - Get a Recipe Book (Cooking For Bliockheads I)",
+    "description": "Recipe Books are obtainined by smelting a book, turning the book in a Recipe Book. Very useful for kitchen!",
+    "xp": 50,
+    "reward": [
+      32,
+      0,
+      0,
+      0,
+      0
+    ],
+    "type": "obtain_item",
+    "match": {
+      "mode": "exact",
+      "match_id": "cookingforblockheads:recipe_book"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Great job! Let`s see what recipes will we be able to craft better food!",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+    }
+  },
+  "place_fridge": {
+    "title": "TUTORIAL - Get a Fridge",
+    "description": "Place a Fridge on the ground. Fridges are useful to store ingredients for cooking! Type /cooking for more details",
+    "xp": 18,
+    "reward": [
+      20,
+      0,
+      0,
+      0,
+      0
+    ],
+    "type": "place_block",
+    "match": {
+      "mode": "exact",
+      "match_id": "cookingforblockheads:fridge"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Very good! No longer we shall face hunger!",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+    }
+  },
+  "place_oven": {
+    "title": "TUTORIAL - Get an Oven",
+    "description": "Place an Oven on the ground. Ovens are mandatory to cook high quality food! Type /cooking for more details",
+    "xp": 18,
+    "reward": [
+      20,
+      0,
+      0,
+      0,
+      0
+    ],
+    "type": "place_block",
+    "match": {
+      "mode": "exact",
+      "match_id": "cookingforblockheads:oven"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Very good! No longer we shall face hunger!",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+    }
+  },
   "loot_gem": {
     "title": "TUTORIAL - Loot a Gem",
     "description": "Pickup a gem from towers across Overworld or from Mobs",
