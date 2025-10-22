@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest_book"
         },
-        "title": "TUTORIAL - Loot a Gem",
-        "description": "Pickup a gem from towers across Overworld or from Mobs\n\nREWARDS:\n\u00a7f\u00a7o- 32 \u00a74\ud83e\ude99",
+        "title": "TUTORIAL - Get a Recipe Book (Cooking For Bliockheads I)",
+        "description": "Recipe Books are obtainined by smelting a book, turning the book in a Recipe Book. Very useful for kitchen!\n\nREWARDS:\n\u00a7f\u00a7o- 32 \u00a74\ud83e\ude99",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:place_oven",
+    "parent": "aaaa_zp4adv:10combatlvl",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

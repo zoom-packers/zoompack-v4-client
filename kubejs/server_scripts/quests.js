@@ -123,6 +123,75 @@ const QUESTS = {
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
+        "next":"get_recipe_book"
+    },
+    "get_recipe_book":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"cookingforblockheads:recipe_book"
+        },
+        "reward":[
+            32,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:get_recipe_book",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Great job! Let`s see what recipes will we be able to craft better food!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
+        },
+        "next":"place_fridge"
+    },
+    "place_fridge":{
+        "type":"place_block",
+        "match":{
+            "mode":"exact",
+            "match_id":"cookingforblockheads:fridge"
+        },
+        "reward":[
+            20,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:place_fridge",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Very good! No longer we shall face hunger!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
+        },
+        "next":"place_oven"
+    },
+    "place_oven":{
+        "type":"place_block",
+        "match":{
+            "mode":"exact",
+            "match_id":"cookingforblockheads:oven"
+        },
+        "reward":[
+            20,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:place_oven",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Very good! No longer we shall face hunger!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
+        },
         "next":"loot_gem"
     },
     "loot_gem":{
@@ -4841,33 +4910,33 @@ ServerEvents.loaded(event => {
 
 
 // // TODO: this is just for debug
-// ItemEvents.rightClicked('minecraft:stick', event => {
-//     const { player, server } = event;
+ItemEvents.rightClicked('minecraft:stick', event => {
+    const { player, server } = event;
 
-//     // let activeQuest = getPlayerQuest(player);
-//     // let activeQuestProgress = getPlayerProgression(player);
-//     // player.tell(activeQuest);
-//     // player.tell(activeQuestProgress);
+    // let activeQuest = getPlayerQuest(player);
+    // let activeQuestProgress = getPlayerProgression(player);
+    // player.tell(activeQuest);
+    // player.tell(activeQuestProgress);
 
-//     // sendPlayerQuestToTrack(player, QUESTS[activeQuest].unlock)
-
-
-//     // setPlayerQuestProgress(player, 9);
-//     // player.tell(FIRST_QUEST);
-
-//     let advIdsToUntrack = [];
-//     let advIdsToTrack = [QUESTS[FIRST_QUEST].unlock];
-
-//     for (const quest of Object.keys(QUESTS)) {
-//         let questData = QUESTS[quest];
-//         revokeServerPlayerAdvancement(server, player, questData.unlock);
-//         advIdsToUntrack.push(questData.unlock);
-//     }
+    // sendPlayerQuestToTrack(player, QUESTS[activeQuest].unlock)
 
 
-//     sendPlayerQuestTrackData(player, advIdsToTrack, advIdsToUntrack);
-//     setPlayerQuest(player, FIRST_QUEST);
+    // setPlayerQuestProgress(player, 9);
+    // player.tell(FIRST_QUEST);
 
-//     // setPlayerQuest(player, FIRST_QUEST);
-//     // sendPlayerQuestToTrack(player, QUESTS[FIRST_QUEST].unlock)
-// });
+    let advIdsToUntrack = [];
+    let advIdsToTrack = [QUESTS[FIRST_QUEST].unlock];
+
+    for (const quest of Object.keys(QUESTS)) {
+        let questData = QUESTS[quest];
+        revokeServerPlayerAdvancement(server, player, questData.unlock);
+        advIdsToUntrack.push(questData.unlock);
+    }
+
+
+    sendPlayerQuestTrackData(player, advIdsToTrack, advIdsToUntrack);
+    setPlayerQuest(player, FIRST_QUEST);
+
+    // setPlayerQuest(player, FIRST_QUEST);
+    // sendPlayerQuestToTrack(player, QUESTS[FIRST_QUEST].unlock)
+});
