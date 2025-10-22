@@ -306,6 +306,14 @@
     {
       "modName": "Emi Integrations",
       "modId": 739970
+    },
+    {
+      "modName": "Serious Player Animations",
+      "modId": 975080
+    },
+    {
+      "modName": "First-person Model",
+      "modId": 333287
     }
   ],
   "removeFolders": [
