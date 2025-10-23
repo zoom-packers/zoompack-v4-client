@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest"
+            "item": "kubejs:quest_everdawn"
         },
         "title": "Get an Alchemy Table",
         "description": "Summon and slay The Alchemist until you find an Alchemy Table and put it on the ground.\n\nREWARDS:\n\u00a7f\u00a7o- 48 \u00a74\ud83e\ude99\n\u00a7f\u00a7o- 1 \u00a77\ud83e\ude99",

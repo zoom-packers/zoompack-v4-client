@@ -1,6 +1,6 @@
 {
   "travel_abyss_to_frost_world": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_frost",
     "title": "Travel to The Frost World",
     "description": "The Frost World Portal is found inside The Abyss, however it could be anywhere.",
     "xp": 11264,
@@ -26,7 +26,7 @@
     }
   },
   "100enemies_frost_world": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_frost",
     "title": "Slay 100 Enemies in The Frost World",
     "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
     "xp": 10000,
@@ -52,7 +52,7 @@
     }
   },
   "500enemies_frost_world": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_frost",
     "title": "Slay 500 Enemies in The Frost World",
     "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
     "xp": 50000,
@@ -78,7 +78,7 @@
     }
   },
   "1000enemies_frost_world": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_frost",
     "title": "Slay 1.000 Enemies in The Frost World",
     "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
     "xp": 100000,
@@ -104,7 +104,7 @@
     }
   },
   "10000enemies_frost_world": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_frost",
     "title": "Slay 10.000 Enemies in The Frost World",
     "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
     "xp": 1000000,
@@ -130,7 +130,7 @@
     }
   },
   "20000enemies_frost_world": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_frost",
     "title": "Slay 20.000 Enemies in The Frost World",
     "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
     "xp": 2000000,
@@ -156,7 +156,7 @@
     }
   },
   "50000enemies_frost_world": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_frost",
     "title": "Slay 50.000 Enemies in The Frost World",
     "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
     "xp": 5000000,
@@ -182,7 +182,7 @@
     }
   },
   "100000enemies_frost_world": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_frost",
     "title": "Slay 100.000 Enemies in The Frost World",
     "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
     "xp": 10000000,

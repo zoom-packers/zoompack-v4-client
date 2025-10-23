@@ -1,6 +1,6 @@
 {
   "locate_ancient_city": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_depth",
     "title": "Find an Ancient City",
     "description": "Ancinet Cities are underground cities found in the Deep Dark biome of the Overworld",
     "xp": 800,
@@ -25,7 +25,7 @@
     }
   },
   "defeat_the_warden": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_depth",
     "title": "Defeat The Warden",
     "description": "The ancient cities are home to the wrath of The Warden that is awaken by sounds.",
     "xp": 7000,
@@ -50,7 +50,7 @@
     }
   },
   "get_depth_key": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_depth",
     "title": "Get a Depth Key",
     "description": "For this you will need End Rods and what you have looted from the Warden",
     "xp": 3000,
@@ -75,7 +75,7 @@
     }
   },
   "travel_to_depth": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_depth",
     "title": "Travel to The Depth",
     "description": "Lit the portal with a Depth Key and jump inside.",
     "xp": 2816,
@@ -101,7 +101,7 @@
     }
   },
   "50enemies_depth": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_depth",
     "title": "Slay 50 Enemies in The Depth",
     "description": "Let`s clear the surroundings!",
     "xp": 3500,
@@ -127,7 +127,7 @@
     }
   },
   "get_agony_soul": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_depth",
     "title": "Get an Agony Soul",
     "description": "Sacrificial Bastions are big leveled bastions protected by Wardens. You can use the fragment there!",
     "xp": 3000,
@@ -152,7 +152,7 @@
     }
   },
   "defeat_agony_soul": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_depth",
     "title": "Defeat The Agony Soul",
     "description": "The Agony Soul is a nimble yet deadly reincarnated Bambi, watch out for any surprise attacks.",
     "xp": 7000,
@@ -177,7 +177,7 @@
     }
   },
   "get_tier_8_power_up": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_depth",
     "title": "Get Yourself a Stronger Powerup 8",
     "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
     "xp": 3000,
@@ -202,7 +202,7 @@
     }
   },
   "83combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_depth",
     "title": "Reach Combat Lvl 83",
     "description": "Fight enemies to raise your combat level to at least 83.",
     "xp": 830,
@@ -227,7 +227,7 @@
     }
   },
   "locate_marble_forge": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_depth",
     "title": "Find a Marble Forge",
     "description": "Marble Forges are close to The Nether Fortress, only that these are made of marble and have an Arena inside.",
     "xp": 800,
@@ -252,7 +252,7 @@
     }
   },
   "get_weeping_soul": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_depth",
     "title": "Get a Weeping Soul",
     "description": "Weeping Soul is made from Lost soul sand, but after a few iterations. Craft it to ressurect the Weeping Soul",
     "xp": 3000,
@@ -277,7 +277,7 @@
     }
   },
   "defeat_injured_marble_guardian": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_depth",
     "title": "Defeat The Injured Marble Guardian",
     "description": "The Injured Marble Guardian is a marble made entity with strong powers. Don`t be cocky while facing it.",
     "xp": 7000,
@@ -302,7 +302,7 @@
     }
   },
   "86combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_depth",
     "title": "Reach Combat Lvl 86",
     "description": "Fight enemies to raise your combat level to at least 86.",
     "xp": 860,
@@ -327,7 +327,7 @@
     }
   },
   "locate_deep_darkest_altar": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_depth",
     "title": "Find The Deep Darkest Altar",
     "description": "The Deep Darkest Altar is a massive castle arena that keeps at bay the remainings of the Deep Darkest Spawn",
     "xp": 800,
@@ -352,7 +352,7 @@
     }
   },
   "get_deadblind_soul": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_depth",
     "title": "Get a Deadblind Soul",
     "description": "Deadblind Soul is made from Lost soul sand, but after a few iterations. Craft it to ressurect the Deadblind Soul",
     "xp": 3000,
@@ -377,7 +377,7 @@
     }
   },
   "defeat_depp_darkest_spawn": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_depth",
     "title": "Defeat The Deep Darkest Spawn",
     "description": "All we know about the Deep Darkest Spawn is that it`s an abomination.",
     "xp": 7000,
@@ -402,7 +402,7 @@
     }
   },
   "100enemies_depth": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_depth",
     "title": "Slay 100 Enemies in The Depth",
     "description": "Let`s clear the surroundings!",
     "xp": 7000,
@@ -428,7 +428,7 @@
     }
   },
   "90combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_depth",
     "title": "Reach Combat Lvl 90",
     "description": "Fight enemies to raise your combat level to at least 90.",
     "xp": 900,
@@ -453,7 +453,7 @@
     }
   },
   "travel_depth_to_overworld": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_depth",
     "title": "Travel back to the Overworld",
     "description": "Get back home as we need to find the next adventure.",
     "xp": 2816,

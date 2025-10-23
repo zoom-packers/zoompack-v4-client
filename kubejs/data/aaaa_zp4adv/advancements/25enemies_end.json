@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest"
+            "item": "kubejs:quest_end"
         },
         "title": "Slay 25 Enemies in The End",
         "description": "Let`s clear the surroundings!\n\nREWARDS:\n\u00a7f\u00a7o- 32 \u00a74\ud83e\ude99\n\u00a7f\u00a7o- 37 \u00a77\ud83e\ude99",

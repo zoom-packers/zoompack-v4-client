@@ -1,6 +1,6 @@
 {
   "locate_end_stronghold": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_end",
     "title": "Find a Stronghold",
     "description": "Strongholds are hidden underground and you can use Eyes tolocate it. The eyes are shattered across the Overworld",
     "xp": 480,
@@ -25,7 +25,7 @@
     }
   },
   "travel_to_the_end": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_end",
     "title": "Travel to The End",
     "description": "Place the eyes into the portal frame and jump inside of it.",
     "xp": 1408,
@@ -51,7 +51,7 @@
     }
   },
   "defeat_ender_dragon": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_end",
     "title": "Defeat The Ender Dragon",
     "description": "She is not any dragon. She is a mysic and strong dragon that helds healing power from end crystals placed on pillars",
     "xp": 6000,
@@ -76,7 +76,7 @@
     }
   },
   "locate_end_tower": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_end",
     "title": "Find an End Tower",
     "description": "End Towers are Outer End pillars with glass on top that contain rare loot.",
     "xp": 480,
@@ -101,7 +101,7 @@
     }
   },
   "25enemies_end": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_end",
     "title": "Slay 25 Enemies in The End",
     "description": "Let`s clear the surroundings!",
     "xp": 1500,
@@ -127,7 +127,7 @@
     }
   },
   "locate_end_catacombs": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_end",
     "title": "Find The End Catacombs",
     "description": "The End Catacombs are bunkers with exit on the surface of islands that contain very rare loot!",
     "xp": 480,
@@ -152,7 +152,7 @@
     }
   },
   "50enemies_2end": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_end",
     "title": "Slay 50 Enemies in The End",
     "description": "Let`s clear the surroundings!",
     "xp": 3000,
@@ -178,7 +178,7 @@
     }
   },
   "locate_end_city": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_end",
     "title": "Find an End City",
     "description": "End Cities are vast or minuscule treeformed towers from the end islands with the rarest loot possible in The End.",
     "xp": 480,
@@ -203,7 +203,7 @@
     }
   },
   "get_dragon_head": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_end",
     "title": "Get a Dragon Head",
     "description": "Dragon heads can be found End Villages or End Ships. Very much needed for Library of Alexandria",
     "xp": 2000,
@@ -228,7 +228,7 @@
     }
   },
   "get_draconic_backpack": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_end",
     "title": "Get a Draconic Backpack",
     "description": "Craft a Draconic Backpack to carry even more items with you roadming the world.",
     "xp": 2000,
@@ -253,7 +253,7 @@
     }
   },
   "75combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_end",
     "title": "Reach Combat Lvl 75",
     "description": "Fight enemies to raise your combat level to at least 75.",
     "xp": 750,
@@ -278,7 +278,7 @@
     }
   },
   "get_tier_7_power_up": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_end",
     "title": "Get Yourself a Stronger Powerup 7",
     "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
     "xp": 2000,
@@ -303,7 +303,7 @@
     }
   },
   "locate_obsidilith_arena": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_end",
     "title": "Find the Obsidilith Arena",
     "description": "The Obsidilith Arena is the pillar that holds the Obsidilith, an obsidian made creature that holds mystical items near by.",
     "xp": 480,
@@ -328,7 +328,7 @@
     }
   },
   "defeat_obsidilith": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_end",
     "title": "Defeat The Obsidilith",
     "description": "It`s behavior is unknown. So take care when fightining it.",
     "xp": 6000,
@@ -353,7 +353,7 @@
     }
   },
   "80combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_end",
     "title": "Reach Combat Lvl 80",
     "description": "Fight enemies to raise your combat level to at least 80.",
     "xp": 800,
@@ -378,7 +378,7 @@
     }
   },
   "travel_end_to_overworld": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_end",
     "title": "Travel back to the Overworld",
     "description": "Get back home as we need to find the next adventure.",
     "xp": 1408,

@@ -1,6 +1,6 @@
 {
   "travel_to_the_nether": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_nether",
     "title": "Travel to The Nether",
     "description": "A 2 by 3 ring of Obsidian lit with Flint and Steel. That`s all you need to lit and jump.",
     "xp": 352,
@@ -26,7 +26,7 @@
     }
   },
   "locate_nether_fortress": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_nether",
     "title": "Find a Nether Fortress",
     "description": "The Nether Fortress hosts many dark creatures that exit to The Overworld. Give the realm some help!",
     "xp": 160,
@@ -51,7 +51,7 @@
     }
   },
   "50enemies_nether": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_nether",
     "title": "Slay 50 Enemies in The Nether",
     "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
     "xp": 2500,
@@ -77,7 +77,7 @@
     }
   },
   "locate_bastion_remnant": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_nether",
     "title": "Find a Bastion",
     "description": "Bastions are the home of the Piglins. Bling yourself with some gold if you want to trade with them.",
     "xp": 160,
@@ -102,7 +102,7 @@
     }
   },
   "locate_nether_city": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_nether",
     "title": "Find a Nether City",
     "description": "Nether City are hostile places but filled with Cincinnasite, the main alloy of The Nether",
     "xp": 160,
@@ -127,7 +127,7 @@
     }
   },
   "get_forged_backpack": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_nether",
     "title": "Get a Forged Backpack",
     "description": "Craft a Forged Backpack to carry even more items with you roadming the world.",
     "xp": 800,
@@ -152,7 +152,7 @@
     }
   },
   "locate_gauntlet_arena": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_nether",
     "title": "Find a Gantlet Arena",
     "description": "The Gauntlet Arena is the home of Nether Gauntlet. Massive square black cube easy to spot from far away.",
     "xp": 160,
@@ -177,7 +177,7 @@
     }
   },
   "slay_nether_gauntlet": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_nether",
     "title": "Slay The Nether Gauntlet",
     "description": "The Nether Gauntlet is an evil hand with many ways of harming others. Take care!",
     "xp": 5000,
@@ -202,7 +202,7 @@
     }
   },
   "get_blazing_eye": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_nether",
     "title": "Get a Blazing Eye",
     "description": "Blazing Eyes are found in the Gauntlet Arena, but i have no idea where to find them.",
     "xp": 800,
@@ -227,7 +227,7 @@
     }
   },
   "place_table_of_elevation": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_nether",
     "title": "Get a Table Of Elevation",
     "description": "Craft a Table Of Elevation and place it down.",
     "xp": 100,
@@ -252,7 +252,7 @@
     }
   },
   "55combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_nether",
     "title": "Reach Combat Lvl 55",
     "description": "Fight enemies to raise your combat level to at least 55.",
     "xp": 550,
@@ -277,7 +277,7 @@
     }
   },
   "get_tier_5_power_up": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_nether",
     "title": "Get Yourself a Stronger Powerup 5",
     "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
     "xp": 800,
@@ -302,7 +302,7 @@
     }
   },
   "slay_the_wither": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_nether",
     "title": "Slay The Wither",
     "description": "The Wither is striclty summoned by placing 3 wither skulls over 3 soul sand blocks that are hold by another soul sand block. Be prepared.",
     "xp": 5000,
@@ -327,7 +327,7 @@
     }
   },
   "place_augmenting_table": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_nether",
     "title": "Get an Augmenting Table",
     "description": "Craft an Augmenting Table and place it down. Very useful to improve your affixes.",
     "xp": 100,
@@ -352,7 +352,7 @@
     }
   },
   "60combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_nether",
     "title": "Reach Combat Lvl 60",
     "description": "Fight enemies to raise your combat level to at least 60.",
     "xp": 600,
@@ -377,7 +377,7 @@
     }
   },
   "travel_nether_to_overworld": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_nether",
     "title": "Travel back to the Overworld",
     "description": "Get back home as we need to find the next adventure.",
     "xp": 352,

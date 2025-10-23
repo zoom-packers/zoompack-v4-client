@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest"
+            "item": "kubejs:quest_everbright"
         },
         "title": "Find 4 Nature Keys",
         "description": "Search the maze for keys. You need it to open the gate towards the Alchemist\n\nREWARDS:\n\u00a7f\u00a7o- 4 \u00a77\ud83e\ude99",
