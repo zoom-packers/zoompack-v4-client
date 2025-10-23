@@ -45,9 +45,7 @@ function onRightClick(event, blockId, itemId, mobId){
   cooldowns[uuid][blockId] = now
 
   // Summon entity directly
-  const mob = level.createEntity(mobId)
-  mob.setPosition(block.x + 0.5, block.y + 1, block.z + 0.5)
-  mob.spawn()
+  event.server.runCommandSilent(`execute in ${event.getEntity().level.dimension.toString()} run summon ${mobId} ${block.x+0.5} ${block.y+1} ${block.z+0.5}`);
 
   // Sound effect
   level.playSound(null, block.x, block.y, block.z, 'minecraft:block.end_portal.spawn', 'blocks', 1, 1)
