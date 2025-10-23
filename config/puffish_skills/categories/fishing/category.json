@@ -9,5 +9,6 @@
 		"data": {
 			"item": "fishing_rod"
 		}
-	}
+	},
+	"background": "minecraft:textures/block/light_blue_wool.png"
 }

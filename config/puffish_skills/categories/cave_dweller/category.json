@@ -9,5 +9,6 @@
 		"data": {
 			"effect": "haste"
 		}
-	}
+	},
+	"background": "minecraft:textures/block/cobblestone.png"
 }

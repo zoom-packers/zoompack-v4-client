@@ -9,5 +9,6 @@
 		"data": {
 			"effect": "resistance"
 		}
-	}
+	},
+	"background": "minecraft:textures/block/crying_obsidian.png"
 }

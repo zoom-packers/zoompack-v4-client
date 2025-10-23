@@ -9,5 +9,6 @@
 		"data": {
 			"item": "callfromthedepth_:rottentacles"
 		}
-	}
+	},
+	"background": "minecraft:textures/block/gilded_blackstone.png"
 }

@@ -9,5 +9,6 @@
 		"data": {
 			"item": "create:wrench"
 		}
-	}
+	},
+	"background": "minecraft:textures/block/red_concrete.png"
 }

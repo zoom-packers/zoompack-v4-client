@@ -28,7 +28,7 @@ ServerEvents.tags('item', event => {
         event.add(zoompackOresTag, block);
     })
 
-    let logFix = ['newer_caves:grassy_wood','newer_caves:grassy_log','newer_caves:glowing_wood','newer_caves:glowing_log','newer_caves:magma_wood','newer_caves:magma_log', 'newer_caves:violet_wood','newer_caves:violet_log', 'newer_caves:darkness_infused_wood','newer_caves:darkness_infused_log'];
+    let logFix = [];
 
     logFix.forEach(block=>{
         event.add(logTag, block);

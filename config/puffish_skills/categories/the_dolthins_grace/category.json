@@ -9,5 +9,6 @@
 		"data": {
 			"effect": "water_breathing"
 		}
-	}
+	},
+	"background": "minecraft:textures/block/blue_concrete_powder.png"
 }

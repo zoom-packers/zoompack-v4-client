@@ -9,5 +9,6 @@
 		"data": {
 			"item": "immersive_aircraft:heavy_crossbow"
 		}
-	}
+	},
+	"background": "minecraft:textures/block/red_mushroom_block.png"
 }

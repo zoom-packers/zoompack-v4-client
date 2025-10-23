@@ -9,5 +9,6 @@
 		"data": {
 			"item": "theabyss:nosaj_sword"
 		}
-	}
+	},
+	"background": "minecraft:textures/block/blue_glazed_terracotta.png"
 }

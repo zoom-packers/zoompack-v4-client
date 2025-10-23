@@ -9,5 +9,6 @@
 		"data": {
 			"effect": "hero_of_the_village"
 		}
-	}
+	},
+	"background": "minecraft:textures/block/emerald_block.png"
 }

@@ -9,5 +9,6 @@
 		"data": {
 			"item": "compass"
 		}
-	}
+	},
+	"background": "minecraft:textures/block/raw_gold_block.png"
 }
