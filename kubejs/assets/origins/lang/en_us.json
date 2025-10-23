@@ -1,3 +1,4 @@
 {
-    "layer.origins.origin.name": "Race"
+    "layer.origins.origin.name": "Race",
+    "origin.origins.random.description": "You'll be assigned one of the following:\n- Human\n- Wood Elf\n- Alfiq\n- Goblin\n- Pixie\n- Incubus\n- Yeti\n- High Elf\n- Dwarf\n- Arachnae\n- Siren\n- Fae\n- Banshee\n- Gorgon\n -Revenant\n- Troll\n- Ogre\n- Moon Elf\n- Plague Victim"
 }

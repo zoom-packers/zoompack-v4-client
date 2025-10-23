@@ -1,0 +1,1 @@
+learnSpell forget sonic_boom

@@ -31,6 +31,29 @@ const QUESTS = {
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
+        "next":"place_crafting_table"
+    },
+    "place_crafting_table":{
+        "type":"place_block",
+        "match":{
+            "mode":"exact",
+            "match_id":"minecraft:crafting_table"
+        },
+        "reward":[
+            20,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:place_crafting_table",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Right in your inventory you can press R to see the recipies of items while hovering over them. Use U to see the usages.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
+        },
         "next":"10enemies"
     },
     "10enemies":{
@@ -77,29 +100,6 @@ const QUESTS = {
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
-        "next":"place_crafting_table"
-    },
-    "place_crafting_table":{
-        "type":"place_block",
-        "match":{
-            "mode":"exact",
-            "match_id":"minecraft:crafting_table"
-        },
-        "reward":[
-            20,
-            0,
-            0,
-            0,
-            0
-        ],
-        "unlock":"aaaa_zp4adv:place_crafting_table",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"Right in your inventory you can press R to see the recipies of items while hovering over them. Use U to see the usages.",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
-        },
         "next":"10combatlvl"
     },
     "10combatlvl":{
@@ -120,6 +120,75 @@ const QUESTS = {
         "dialogue":{
             "speaker":"Elder Librarian",
             "message":"Your combat skills are improving. Keep it up!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
+        },
+        "next":"get_recipe_book"
+    },
+    "get_recipe_book":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"cookingforblockheads:recipe_book"
+        },
+        "reward":[
+            32,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:get_recipe_book",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Great job! Let`s see what recipes will we be able to craft better food!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
+        },
+        "next":"place_fridge"
+    },
+    "place_fridge":{
+        "type":"place_block",
+        "match":{
+            "mode":"exact",
+            "match_id":"cookingforblockheads:fridge"
+        },
+        "reward":[
+            20,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:place_fridge",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Very good! No longer we shall face hunger!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
+        },
+        "next":"place_oven"
+    },
+    "place_oven":{
+        "type":"place_block",
+        "match":{
+            "mode":"exact",
+            "match_id":"cookingforblockheads:oven"
+        },
+        "reward":[
+            20,
+            0,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:place_oven",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Very good! No longer we shall face hunger!",
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
@@ -4798,7 +4867,7 @@ function trackPlayers(event) {
             const lastLoc = global.playerTracker[uuid].lastLocation;
             const currLoc = getPlayerLocationData(player);
 
-            const moved = lastLoc.x !== currLoc.x || lastLoc.y !== currLoc.y || lastLoc.z !== currLoc.z;
+            const moved = Math.abs(currLoc.x - lastLoc.x) >= 2 || Math.abs(currLoc.z - lastLoc.z) >= 2;
 
             global.playerTracker[uuid].lastLocation = currLoc;
 
@@ -4841,33 +4910,33 @@ ServerEvents.loaded(event => {
 
 
 // // TODO: this is just for debug
-// ItemEvents.rightClicked('minecraft:stick', event => {
-//     const { player, server } = event;
+ItemEvents.rightClicked('minecraft:stick', event => {
+    const { player, server } = event;
 
-//     // let activeQuest = getPlayerQuest(player);
-//     // let activeQuestProgress = getPlayerProgression(player);
-//     // player.tell(activeQuest);
-//     // player.tell(activeQuestProgress);
+    // let activeQuest = getPlayerQuest(player);
+    // let activeQuestProgress = getPlayerProgression(player);
+    // player.tell(activeQuest);
+    // player.tell(activeQuestProgress);
 
-//     // sendPlayerQuestToTrack(player, QUESTS[activeQuest].unlock)
-
-
-//     // setPlayerQuestProgress(player, 9);
-//     // player.tell(FIRST_QUEST);
-
-//     let advIdsToUntrack = [];
-//     let advIdsToTrack = [QUESTS[FIRST_QUEST].unlock];
-
-//     for (const quest of Object.keys(QUESTS)) {
-//         let questData = QUESTS[quest];
-//         revokeServerPlayerAdvancement(server, player, questData.unlock);
-//         advIdsToUntrack.push(questData.unlock);
-//     }
+    // sendPlayerQuestToTrack(player, QUESTS[activeQuest].unlock)
 
 
-//     sendPlayerQuestTrackData(player, advIdsToTrack, advIdsToUntrack);
-//     setPlayerQuest(player, FIRST_QUEST);
+    // setPlayerQuestProgress(player, 9);
+    // player.tell(FIRST_QUEST);
 
-//     // setPlayerQuest(player, FIRST_QUEST);
-//     // sendPlayerQuestToTrack(player, QUESTS[FIRST_QUEST].unlock)
-// });
+    let advIdsToUntrack = [];
+    let advIdsToTrack = [QUESTS[FIRST_QUEST].unlock];
+
+    for (const quest of Object.keys(QUESTS)) {
+        let questData = QUESTS[quest];
+        revokeServerPlayerAdvancement(server, player, questData.unlock);
+        advIdsToUntrack.push(questData.unlock);
+    }
+
+
+    sendPlayerQuestTrackData(player, advIdsToTrack, advIdsToUntrack);
+    setPlayerQuest(player, FIRST_QUEST);
+
+    // setPlayerQuest(player, FIRST_QUEST);
+    // sendPlayerQuestToTrack(player, QUESTS[FIRST_QUEST].unlock)
+});
