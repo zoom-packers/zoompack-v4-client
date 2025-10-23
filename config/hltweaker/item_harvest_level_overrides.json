@@ -11,6 +11,9 @@
     "zoomers_armory:flint_hoe": {
         "minecraft:mineable/hoe": "minecraft:stone"
     },
+    "roost2:beakaxe": {
+        "minecraft:mineable/pickaxe": "minecraft:diamond"
+    },
     "zoomers_armory:neptunium_pickaxe": {
         "minecraft:mineable/pickaxe": "minecraft:diamond"
     },
