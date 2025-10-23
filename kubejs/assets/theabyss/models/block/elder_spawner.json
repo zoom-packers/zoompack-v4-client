@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "theabyss:block/elder/elder_spawner_bottom",
+    "east": "theabyss:block/elder/elder_spawner_side",
+    "north": "theabyss:block/elder/elder_spawner_side",
+    "particle": "theabyss:block/elder/elder_spawner_side",
+    "south": "theabyss:block/elder/elder_spawner_side",
+    "up": "theabyss:block/elder/elder_spawner_top",
+    "west": "theabyss:block/elder/elder_spawner_side"
+  }
+}

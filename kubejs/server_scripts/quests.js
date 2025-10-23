@@ -3499,6 +3499,29 @@ const QUESTS = {
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/abyss.png"
         },
+        "next":"obtain_magician_crystal"
+    },
+    "obtain_magician_crystal":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"theabyss:magician_crystal"
+        },
+        "reward":[
+            0,
+            32,
+            1,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:obtain_magician_crystal",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Perfect! Now let`s use it to summon the enemy",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/abyss.png"
+        },
         "next":"defeat_abyss_arena_magician"
     },
     "defeat_abyss_arena_magician":{
@@ -3588,6 +3611,29 @@ const QUESTS = {
         "dialogue":{
             "speaker":"Elder Librarian",
             "message":"You`ve located the Elder`s arena. Brace yourself for the fight.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/abyss.png"
+        },
+        "next":"obtain_elder_crystal"
+    },
+    "obtain_elder_crystal":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"theabyss:elder_crystal"
+        },
+        "reward":[
+            0,
+            32,
+            1,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:obtain_elder_crystal",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Perfect! Now let`s use it to summon the enemy",
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/abyss.png"
         },
@@ -3729,6 +3775,29 @@ const QUESTS = {
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/abyss.png"
         },
+        "next":"obtain_abyssaur_crystal"
+    },
+    "obtain_abyssaur_crystal":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"theabyss:abyssaur_crystal"
+        },
+        "reward":[
+            0,
+            32,
+            1,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:obtain_abyssaur_crystal",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Perfect! Now let`s use it to summon the enemy",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/abyss.png"
+        },
         "next":"defeat_abyss_arena_abyssaur"
     },
     "defeat_abyss_arena_abyssaur":{
@@ -3821,6 +3890,29 @@ const QUESTS = {
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/abyss.png"
         },
+        "next":"obtain_roka_crystal"
+    },
+    "obtain_roka_crystal":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"theabyss:roka_crystal"
+        },
+        "reward":[
+            0,
+            32,
+            1,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:obtain_roka_crystal",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Perfect! Now let`s use it to summon the enemy",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/abyss.png"
+        },
         "next":"defeat_abyss_arena_roka"
     },
     "defeat_abyss_arena_roka":{
@@ -3910,6 +4002,29 @@ const QUESTS = {
         "dialogue":{
             "speaker":"Elder Librarian",
             "message":"The glass sphere is located. Face the Crystal Golem with caution.",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/abyss.png"
+        },
+        "next":"obtain_crystal_golem_crystal"
+    },
+    "obtain_crystal_golem_crystal":{
+        "type":"obtain_item",
+        "match":{
+            "mode":"exact",
+            "match_id":"theabyss:crystal_golem_crystal"
+        },
+        "reward":[
+            0,
+            32,
+            1,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:obtain_crystal_golem_crystal",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Perfect! Now let`s use it to summon the enemy",
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/abyss.png"
         },
@@ -4909,34 +5024,34 @@ ServerEvents.loaded(event => {
 
 
 
-// // TODO: this is just for debug
-ItemEvents.rightClicked('minecraft:stick', event => {
-    const { player, server } = event;
+// // // TODO: this is just for debug
+// ItemEvents.rightClicked('minecraft:stick', event => {
+//     const { player, server } = event;
 
-    // let activeQuest = getPlayerQuest(player);
-    // let activeQuestProgress = getPlayerProgression(player);
-    // player.tell(activeQuest);
-    // player.tell(activeQuestProgress);
+//     // let activeQuest = getPlayerQuest(player);
+//     // let activeQuestProgress = getPlayerProgression(player);
+//     // player.tell(activeQuest);
+//     // player.tell(activeQuestProgress);
 
-    // sendPlayerQuestToTrack(player, QUESTS[activeQuest].unlock)
-
-
-    // setPlayerQuestProgress(player, 9);
-    // player.tell(FIRST_QUEST);
-
-    let advIdsToUntrack = [];
-    let advIdsToTrack = [QUESTS[FIRST_QUEST].unlock];
-
-    for (const quest of Object.keys(QUESTS)) {
-        let questData = QUESTS[quest];
-        revokeServerPlayerAdvancement(server, player, questData.unlock);
-        advIdsToUntrack.push(questData.unlock);
-    }
+//     // sendPlayerQuestToTrack(player, QUESTS[activeQuest].unlock)
 
 
-    sendPlayerQuestTrackData(player, advIdsToTrack, advIdsToUntrack);
-    setPlayerQuest(player, FIRST_QUEST);
+//     // setPlayerQuestProgress(player, 9);
+//     // player.tell(FIRST_QUEST);
 
-    // setPlayerQuest(player, FIRST_QUEST);
-    // sendPlayerQuestToTrack(player, QUESTS[FIRST_QUEST].unlock)
-});
+//     let advIdsToUntrack = [];
+//     let advIdsToTrack = [QUESTS[FIRST_QUEST].unlock];
+
+//     for (const quest of Object.keys(QUESTS)) {
+//         let questData = QUESTS[quest];
+//         revokeServerPlayerAdvancement(server, player, questData.unlock);
+//         advIdsToUntrack.push(questData.unlock);
+//     }
+
+
+//     sendPlayerQuestTrackData(player, advIdsToTrack, advIdsToUntrack);
+//     setPlayerQuest(player, FIRST_QUEST);
+
+//     // setPlayerQuest(player, FIRST_QUEST);
+//     // sendPlayerQuestToTrack(player, QUESTS[FIRST_QUEST].unlock)
+// });

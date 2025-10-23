@@ -43,6 +43,19 @@ global.createItem = (event, id, name) => {
     return event.create(id).displayName(name);
 }
 
+global.createSpawnItem = (event, id, name) => {
+    return event.create(id)
+                .displayName(name)
+                .maxStackSize(1)
+                .glow(true);
+}
+
+global.createSpawnerBlock = (event, id, displayName) => {
+    return   event.create(id)
+    .displayName(displayName)
+    .unbreakable()
+}
+
 global.createSwordCustom = (event, id, texture, tier, name, attackDamage, maxDamage) => {
     global.createTool(event, id, "sword", texture, tier, name, attackDamage, maxDamage);
 }
@@ -363,7 +376,6 @@ global.setMaterialDurabilityArmor = (event, mod_id, material_id, armor_durabilit
         item.maxDamage = armor_durability_list[0];
     });
 }
-
 // Progression:
 
 // Overworld -> Aether -> Nether -> Undergarden -> End -> Void Scape -> Twilight Forest
@@ -376,3 +388,5 @@ global.setMaterialDurabilityArmor = (event, mod_id, material_id, armor_durabilit
 // Nether needs more equipment reserving damage 20 - 50
 // Nether recipe changes. Netherite = Valkyrie + Smithing + Netherite ingot
 // Undergarden
+
+

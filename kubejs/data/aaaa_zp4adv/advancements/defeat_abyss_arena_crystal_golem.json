@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:locate_abyss_arena_crystal_golem",
+    "parent": "aaaa_zp4adv:obtain_crystal_golem_crystal",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

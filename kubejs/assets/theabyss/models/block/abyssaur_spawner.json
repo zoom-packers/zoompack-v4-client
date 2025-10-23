@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "theabyss:block/abyssaur/abyssaur_spawner_bottom",
+    "east": "theabyss:block/abyssaur/abyssaur_spawner_side",
+    "north": "theabyss:block/abyssaur/abyssaur_spawner_side",
+    "particle": "theabyss:block/abyssaur/abyssaur_spawner_side",
+    "south": "theabyss:block/abyssaur/abyssaur_spawner_side",
+    "up": "theabyss:block/abyssaur/abyssaur_spawner_top",
+    "west": "theabyss:block/abyssaur/abyssaur_spawner_side"
+  }
+}

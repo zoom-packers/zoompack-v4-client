@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:locate_abyss_arena_roka",
+    "parent": "aaaa_zp4adv:obtain_roka_crystal",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"
