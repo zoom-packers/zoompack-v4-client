@@ -1,318 +1,322 @@
 {
-  "exportZipName": "Zoompack 4 - POTATO Version v3.0.0-alpha.zip",
-  "addMods": [
-  ],
-  "removeMods": [
-    {
-      "modName": "Better F3",
-      "modId": 401648
-    },
-    {
-      "modName": "Bobby",
-      "modId": 883502
-    },
-    {
-      "modName": "Chat Heads",
-      "modId": 407206
-    },
-    {
-      "modName": "Dark Mode Everywhere",
-      "modId": 574123
-    },
-    {
-      "modName": "Embeddium Dynamic Lights",
-      "modId": 551736
-    },
-    {
-      "modName": "Exp Counter",
-      "modId": 1003151
-    },
-    {
-      "modName": "Falling Leaves",
-      "modId": 463155
-    },
-    {
-      "modName": "FPS - Display",
-      "modId": 440228
-    },
-    {
-      "modName": "Fusion (Connected Textures)",
-      "modId": 854949
-    },
-    {
-      "modName": "Item Highlighter",
-      "modId": 521590
-    },
-    {
-      "modName": "Inventory Essentials",
-      "modId": 368825
-    },
-    {
-      "modName": "Inventory HUD",
-      "modId": 357540
-    },
-    {
-      "modName": "Legendary Tooltips",
-      "modId": 532127
-    },
-    {
-      "modName": "Oculus",
-      "modId": 581495
-    },
-    {
-      "modName": "Oculus Geckolib compat",
-      "modId": 959388
-    },
-    {
-      "modName": "Remove Reloading Screen",
-      "modId": 833233
-    },
-    {
-      "modName": "Simple Discord Rich Presence",
-      "modId": 334853
-    },
-    {
-      "modName": "Skin Layers 3D",
-      "modId": 521480
-    },
-    {
-      "modName": "Spark",
-      "modId": 361579
-    },
-    {
-      "modName": "Sound Physics Remastered",
-      "modId": 535489
-    },
-    {
-      "modName": "TownTalk",
-      "modId": 900364
-    },
-    {
-      "modName": "Villager Names",
-      "modId": 345854
-    },
-    {
-      "modName": "World Edit",
-      "modId": 225608
-    },
-    {
-      "modName": "Cave Dust",
-      "modId": 594750
-    },
-    {
-      "modName": "First Person Model",
-      "modId": 333287
-    },
-    {
-      "modName": "Visuality Reforged",
-      "modId": 704256
-    },
-    {
-      "modName": "Blur",
-      "modId": 823106
-    },
-    {
-      "modName": "Advancements Tracker",
-      "modId": 453074
-    },
-    {
-      "modName": "Camera Overhaul",
-      "modId": 423602
-    },
-    {
-      "modName": "CameraOverhaul",
-      "modId": 423602
-    },
-    {
-      "modName": "Better Lanterns",
-      "modId": 618339
-    },
-    {
-      "modName": "Crops 3D",
-      "modId": 364145
-    },
-    {
-      "modName": "Door Tweaks",
-      "modId": 670154
-    },
-    {
-      "modName": "Nico's 3D Ladders",
-      "modId": 627908
-    },
-    {
-      "modName": "RAY's 3D Rails",
-      "modId": 861245
-    },
-    {
-      "modName": "Eating Animation [Neo/Forge]",
-      "modId": 570544
-    },
-    {
-      "modName": "Held Item Tooltips [Forge & Fabric]",
-      "modId": 852671
-    },
-    {
-      "modName": "Smooth Scrolling Refurbished",
-      "modId": 968684
-    },
-    {
-      "modName": "Sounds",
-      "modId": 925889
-    },
-    {
-      "modName": "AmbientSounds 6",
-      "modId": 254284
-    },
-    {
-      "modName": "Stay True",
-      "modId": 353554
-    },
-    {
-      "modName": "Aether: Regenerated",
-      "modId": 864002
-    },
-    {
-      "modName": "Fresh Animations Extensions",
-      "modId": 813608
-    },
-    {
-      "modName": "Motschen's Better Leaves",
-      "modId": 380969
-    },
-    {
-      "modName": "Boss Refreshed",
-      "modId": 882133
-    },
-    {
-      "modName": "Better Spiders",
-      "modId": 669949
-    },
-    {
-      "modName": "Better Illagers x Fresh Animations",
-      "modId": 843596
-    },
-    {
-      "modName": "Better Squids",
-      "modId": 667069
-    },
-    {
-      "modName": "Better Skeletons x Fresh Animations",
-      "modId": 842873
-    },
-    {
-      "modName": "Better Villagers",
-      "modId": 1019289
-    },
-    {
-      "modName": "Better Zombies x Fresh Animations",
-      "modId": 843852
-    },
-    {
-      "modName": "Cluckier Chickens x Fresh Animations",
-      "modId": 896882
-    },
-    {
-      "modName": "Hazardous Hoglins",
-      "modId": 977417
-    },
-    {
-      "modName": "Meow Society x Fresh Animations",
-      "modId": 835083
-    },
-    {
-      "modName": "Party Pups x Fresh Animations",
-      "modId": 834235
-    },
-    {
-      "modName": "Pesky Parrots x Fresh Animations",
-      "modId": 835782
-    },
-    {
-      "modName": "Porkier Piglins x Fresh Animations",
-      "modId": 843264
-    },
-    {
-      "modName": "Sludgy Slimes",
-      "modId": 927667
-    },
-    {
-      "modName": "Better Bunnies",
-      "modId": 1027889
-    },
-    {
-      "modName": "Beefier Bovine x Fresh Animations",
-      "modId": 896881
-    },
-    {
-      "modName": "Fresh Animations",
-      "modId": 453763
-    },
-    {
-      "modName": "[EMF] Entity Model Features [Fabric & Forge]",
-      "modId": 844662
-    },
-    {
-      "modName": "[ETF] Entity Texture Features - [Fabric & Forge]",
-      "modId": 568563
-    },
-    {
-      "modName": "Porkier Pigs x Fresh Animations",
-      "modId": 844707
-    },
-    {
-      "modName": "Better Silverfish & Endermite",
-      "modId": 670116
-    },
-    {
-      "modName": "A Good Place",
-      "modId": 1020455
-    },
-    {
-      "modName": "EMI",
-      "modId": 580555
-    },
-    {
-      "modName": "Obscure Tooltips",
-      "modId": 715660
-    },
-    {
-      "modName": "Obscure Tooltips Fix",
-      "modId": 1103943
-    },
-    {
-      "modName": "EMI Trades",
-      "modId": 735523
-    },
-    {
-      "modName": "Emi Enchants",
-      "modId": 1036393
-    },
-    {
-      "modName": "Emi Enchanting",
-      "modId": 936713
-    },
-    {
-      "modName": "Emi Loot",
-      "modId": 681783
-    },
-    {
-      "modName": "Emi Effect",
-      "modId": 735528
-    },
-    {
-      "modName": "Emi Let's do compat",
-      "modId": 1063821
-    },
-    {
-      "modName": "Emi Integrations",
-      "modId": 739970
-    },
-    {
-      "modName": "Serious Player Animations",
-      "modId": 975080
-    }
-  ],
-  "removeFolders": [
-    "../shaderpacks"
-  ]
+    "exportZipName": "Zoompack 4 - POTATO Version v3.0.0-alpha.zip",
+    "addMods": [
+    ],
+    "removeMods": [
+        {
+            "modName": "Better F3",
+            "modId": 401648
+        },
+        {
+            "modName": "Bobby",
+            "modId": 883502
+        },
+        {
+            "modName": "Chat Heads",
+            "modId": 407206
+        },
+        {
+            "modName": "Dark Mode Everywhere",
+            "modId": 574123
+        },
+        {
+            "modName": "Embeddium Dynamic Lights",
+            "modId": 551736
+        },
+        {
+            "modName": "Exp Counter",
+            "modId": 1003151
+        },
+        {
+            "modName": "Falling Leaves",
+            "modId": 463155
+        },
+        {
+            "modName": "FPS - Display",
+            "modId": 440228
+        },
+        {
+            "modName": "Fusion (Connected Textures)",
+            "modId": 854949
+        },
+        {
+            "modName": "Item Highlighter",
+            "modId": 521590
+        },
+        {
+            "modName": "Inventory Essentials",
+            "modId": 368825
+        },
+        {
+            "modName": "Inventory HUD",
+            "modId": 357540
+        },
+        {
+            "modName": "Legendary Tooltips",
+            "modId": 532127
+        },
+        {
+            "modName": "Oculus",
+            "modId": 581495
+        },
+        {
+            "modName": "Oculus Geckolib compat",
+            "modId": 959388
+        },
+        {
+            "modName": "Remove Reloading Screen",
+            "modId": 833233
+        },
+        {
+            "modName": "Simple Discord Rich Presence",
+            "modId": 334853
+        },
+        {
+            "modName": "Skin Layers 3D",
+            "modId": 521480
+        },
+        {
+            "modName": "Spark",
+            "modId": 361579
+        },
+        {
+            "modName": "Sound Physics Remastered",
+            "modId": 535489
+        },
+        {
+            "modName": "TownTalk",
+            "modId": 900364
+        },
+        {
+            "modName": "Villager Names",
+            "modId": 345854
+        },
+        {
+            "modName": "World Edit",
+            "modId": 225608
+        },
+        {
+            "modName": "Cave Dust",
+            "modId": 594750
+        },
+        {
+            "modName": "First Person Model",
+            "modId": 333287
+        },
+        {
+            "modName": "Visuality Reforged",
+            "modId": 704256
+        },
+        {
+            "modName": "Blur",
+            "modId": 823106
+        },
+        {
+            "modName": "Advancements Tracker",
+            "modId": 453074
+        },
+        {
+            "modName": "Camera Overhaul",
+            "modId": 423602
+        },
+        {
+            "modName": "CameraOverhaul",
+            "modId": 423602
+        },
+        {
+            "modName": "Better Lanterns",
+            "modId": 618339
+        },
+        {
+            "modName": "Crops 3D",
+            "modId": 364145
+        },
+        {
+            "modName": "Door Tweaks",
+            "modId": 670154
+        },
+        {
+            "modName": "Nico's 3D Ladders",
+            "modId": 627908
+        },
+        {
+            "modName": "RAY's 3D Rails",
+            "modId": 861245
+        },
+        {
+            "modName": "Eating Animation [Neo/Forge]",
+            "modId": 570544
+        },
+        {
+            "modName": "Held Item Tooltips [Forge & Fabric]",
+            "modId": 852671
+        },
+        {
+            "modName": "Smooth Scrolling Refurbished",
+            "modId": 968684
+        },
+        {
+            "modName": "Sounds",
+            "modId": 925889
+        },
+        {
+            "modName": "AmbientSounds 6",
+            "modId": 254284
+        },
+        {
+            "modName": "Stay True",
+            "modId": 353554
+        },
+        {
+            "modName": "Aether: Regenerated",
+            "modId": 864002
+        },
+        {
+            "modName": "Fresh Animations Extensions",
+            "modId": 813608
+        },
+        {
+            "modName": "Motschen's Better Leaves",
+            "modId": 380969
+        },
+        {
+            "modName": "Boss Refreshed",
+            "modId": 882133
+        },
+        {
+            "modName": "Better Spiders",
+            "modId": 669949
+        },
+        {
+            "modName": "Better Illagers x Fresh Animations",
+            "modId": 843596
+        },
+        {
+            "modName": "Better Squids",
+            "modId": 667069
+        },
+        {
+            "modName": "Better Skeletons x Fresh Animations",
+            "modId": 842873
+        },
+        {
+            "modName": "Better Villagers",
+            "modId": 1019289
+        },
+        {
+            "modName": "Better Zombies x Fresh Animations",
+            "modId": 843852
+        },
+        {
+            "modName": "Cluckier Chickens x Fresh Animations",
+            "modId": 896882
+        },
+        {
+            "modName": "Hazardous Hoglins",
+            "modId": 977417
+        },
+        {
+            "modName": "Meow Society x Fresh Animations",
+            "modId": 835083
+        },
+        {
+            "modName": "Party Pups x Fresh Animations",
+            "modId": 834235
+        },
+        {
+            "modName": "Pesky Parrots x Fresh Animations",
+            "modId": 835782
+        },
+        {
+            "modName": "Porkier Piglins x Fresh Animations",
+            "modId": 843264
+        },
+        {
+            "modName": "Sludgy Slimes",
+            "modId": 927667
+        },
+        {
+            "modName": "Better Bunnies",
+            "modId": 1027889
+        },
+        {
+            "modName": "Beefier Bovine x Fresh Animations",
+            "modId": 896881
+        },
+        {
+            "modName": "Fresh Animations",
+            "modId": 453763
+        },
+        {
+            "modName": "[EMF] Entity Model Features [Fabric & Forge]",
+            "modId": 844662
+        },
+        {
+            "modName": "[ETF] Entity Texture Features - [Fabric & Forge]",
+            "modId": 568563
+        },
+        {
+            "modName": "Porkier Pigs x Fresh Animations",
+            "modId": 844707
+        },
+        {
+            "modName": "Better Silverfish & Endermite",
+            "modId": 670116
+        },
+        {
+            "modName": "A Good Place",
+            "modId": 1020455
+        },
+        {
+            "modName": "EMI",
+            "modId": 580555
+        },
+        {
+            "modName": "Obscure Tooltips",
+            "modId": 715660
+        },
+        {
+            "modName": "Obscure Tooltips Fix",
+            "modId": 1103943
+        },
+        {
+            "modName": "EMI Trades",
+            "modId": 735523
+        },
+        {
+            "modName": "Emi Enchants",
+            "modId": 1036393
+        },
+        {
+            "modName": "Emi Enchanting",
+            "modId": 936713
+        },
+        {
+            "modName": "Emi Loot",
+            "modId": 681783
+        },
+        {
+            "modName": "Emi Effect",
+            "modId": 735528
+        },
+        {
+            "modName": "Emi Let's do compat",
+            "modId": 1063821
+        },
+        {
+            "modName": "Emi Integrations",
+            "modId": 739970
+        },
+        {
+            "modName": "Serious Player Animations",
+            "modId": 975080
+        },
+        {
+            "modName": "Seamless Loading Screen",
+            "modId": 429926
+        }
+    ],
+    "removeFolders": [
+        "../shaderpacks"
+    ]
 }
