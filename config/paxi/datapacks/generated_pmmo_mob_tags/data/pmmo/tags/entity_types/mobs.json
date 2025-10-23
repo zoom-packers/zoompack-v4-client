@@ -757,6 +757,23 @@
         "illageandspillage:illashooter",
         "roost2:roost_rider",
         "roost2:roost",
-        "roost2:baby_roost"
+        "roost2:baby_roost",
+        "galosphere:berserker",
+        "galosphere:glow_flare",
+        "galosphere:pink_salt_pillar",
+        "galosphere:pink_salt_shard",
+        "galosphere:preserved",
+        "galosphere:silver_bomb",
+        "galosphere:sparkle",
+        "galosphere:spectator_vision",
+        "galosphere:specterpillar",
+        "galosphere:spectre",
+        "galosphere:spectre_flare",
+        "newer_caves:blue_butterfly",
+        "newer_caves:green_butterfly",
+        "newer_caves:orange_butterfly",
+        "newer_caves:pink_butterfly",
+        "newer_caves:red_butterfly",
+        "newer_caves:wraith"
     ]
 }

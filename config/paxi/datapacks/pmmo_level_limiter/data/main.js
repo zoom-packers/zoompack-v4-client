@@ -62,6 +62,7 @@ function modifyFullSets() {
     processor.modifySingleItem("irons_spellbooks", "tarnished_helmet", "helmet", 4);
     processor.modifySingleItem("irons_spellbooks", "gold_crown", "helmet", 4);
     processor.modifySetRequirements("minecraft", "chainmail", 5, "armor");
+    processor.modifySetRequirements("galosphere", "sterling", 5, "armor");
     processor.modifySingleItem("minecraft", "shulker_shell", "helmet", 5);
     processor.modifySingleItem("create", "copper_backtank", "chestplate", 5);
     processor.modifySetRequirements("create_sa", "copper", 6);
