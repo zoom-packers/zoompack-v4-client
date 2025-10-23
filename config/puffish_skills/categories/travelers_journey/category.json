@@ -9,11 +9,5 @@
 		"data": {
 			"item": "compass"
 		}
-	},
-	"background": {
-        "texture": "zoomers_wallpapers:textures/travelers_journey.png",
-        "width": 1080,
-        "height": 1080,
-		"position": "fill"
-    }
+	}
 }

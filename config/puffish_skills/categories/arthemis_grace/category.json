@@ -9,11 +9,5 @@
 		"data": {
 			"item": "immersive_aircraft:heavy_crossbow"
 		}
-	},
-	"background": {
-        "texture": "zoomers_wallpapers:textures/arthemis_grace.png",
-        "width": 1080,
-        "height": 1080,
-		"position": "fill"
-    }
+	}
 }

@@ -9,11 +9,5 @@
 		"data": {
 			"effect": "resistance"
 		}
-	},
-	"background": {
-        "texture": "zoomers_wallpapers:textures/steel_path.png",
-        "width": 1080,
-        "height": 1080,
-		"position": "fill"
-    }
+	}
 }

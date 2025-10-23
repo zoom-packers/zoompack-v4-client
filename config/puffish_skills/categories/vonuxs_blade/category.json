@@ -9,11 +9,5 @@
 		"data": {
 			"item": "theabyss:nosaj_sword"
 		}
-	},
-	"background": {
-        "texture": "zoomers_wallpapers:textures/vonux_blade.png",
-        "width": 1729,
-        "height": 1300,
-		"position": "fill"
-    }
+	}
 }

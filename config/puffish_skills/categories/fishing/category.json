@@ -9,11 +9,5 @@
 		"data": {
 			"item": "fishing_rod"
 		}
-	},
-	"background": {
-        "texture": "zoomers_wallpapers:textures/fishing_sim.png",
-        "width": 1080,
-        "height": 1080,
-		"position": "fill"
-    }
+	}
 }

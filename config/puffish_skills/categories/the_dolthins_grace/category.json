@@ -9,11 +9,5 @@
 		"data": {
 			"effect": "water_breathing"
 		}
-	},
-	"background": {
-        "texture": "zoomers_wallpapers:textures/water_temple.png",
-        "width": 1729,
-        "height": 1024,
-		"position": "fill"
-    }
+	}
 }

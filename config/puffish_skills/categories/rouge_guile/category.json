@@ -9,11 +9,5 @@
 		"data": {
 			"item": "callfromthedepth_:rottentacles"
 		}
-	},
-	"background": {
-        "texture": "zoomers_wallpapers:textures/rouges_guile.png",
-        "width": 1080,
-        "height": 1080,
-		"position": "fill"
-    }
+	}
 }

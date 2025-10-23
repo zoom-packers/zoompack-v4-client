@@ -9,11 +9,5 @@
 		"data": {
 			"effect": "hero_of_the_village"
 		}
-	},
-	"background": {
-        "texture": "zoomers_wallpapers:textures/hero_of_the_village.png",
-        "width": 1080,
-        "height": 1080,
-		"position": "fill"
-    }
+	}
 }

@@ -9,11 +9,5 @@
 		"data": {
 			"item": "create:wrench"
 		}
-	},
-	"background": {
-        "texture": "zoomers_wallpapers:textures/secret_tester.png",
-        "width": 1080,
-        "height": 1080,
-		"position": "fill"
-    }
+	}
 }
