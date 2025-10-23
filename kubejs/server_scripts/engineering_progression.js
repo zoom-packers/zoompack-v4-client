@@ -646,21 +646,21 @@ let techProgMilestones = [
         pmmoLevelSet: 25,
     },
     {
-        id: "steam_power",
-        name: "Steam Power",
+        id: "delivery_power",
+        name: "Delivery Power",
         description: "Is it me or is it getting hot in here?",
         requirements: [
             {
-                item: "create:brass_sheet",
-                amount: 32
+                item: "create:package_frogport",
+                amount: 5
             },
             {
-                item: "create:mechanical_crafter",
-                amount: 16,
+                item: "create:packager",
+                amount: 5,
             },
             {
-                item: "create:steam_engine",
-                amount: 8
+                item: "create:repackager",
+                amount: 5
             },
         ],
         rewards: [
@@ -714,21 +714,21 @@ let techProgMilestones = [
         pmmoLevelSet: 27,
     },
     {
-        id: "encased_flowers",
-        name: "Encased Flowers",
+        id: "ticks_and_links",
+        name: "Ticks and Links",
         description: "There is an old piglin say 'Brass, Gass or ^#$@'. Sorry",
         requirements: [
             {
-                item: "create:brass_sheet",
-                amount: 32
+                item: "create:stock_link",
+                amount: 5
             },
             {
-                item: "create:mechanical_crafter",
-                amount: 16,
+                item: "create:stock_ticker",
+                amount: 5,
             },
             {
-                item: "create:steam_engine",
-                amount: 8
+                item: "create:pulse_timer",
+                amount: 5
             },
         ],
         rewards: [
@@ -753,7 +753,7 @@ let techProgMilestones = [
         description: "Have you ever tried to build a rotation speed controller? you should...",
         requirements: [
             {
-                item: "create:brass_sheet",
+                item: "create:zinc_sheet",
                 amount: 32
             },
             {
@@ -761,8 +761,16 @@ let techProgMilestones = [
                 amount: 16,
             },
             {
-                item: "create:steam_engine",
+                item: "create:adjustable_chain_gearshift",
                 amount: 8
+            },
+            {
+                item: "create:large_cogwheel",
+                amount: 10
+            },
+            {
+                item: "create:rotation_speed_controller",
+                amount: 5
             },
         ],
         rewards: [
