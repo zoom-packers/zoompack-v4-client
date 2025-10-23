@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest_book"
+            "item": "kubejs:quest"
         },
-        "title": "TUTORIAL - Find the Gate Keeper",
+        "title": "Find the Gate Keeper",
         "description": "Small hut with a special trader. The Gate Keeper holds the portal towards the next dimension.\n\nREWARDS:\n\u00a7f\u00a7o- 1 \u00a77\ud83e\ude99",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:kill_bosses",
+    "parent": "aaaa_zp4adv:locate_bank",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

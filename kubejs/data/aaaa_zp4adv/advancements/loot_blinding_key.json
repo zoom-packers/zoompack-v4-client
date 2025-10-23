@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest"
+            "item": "kubejs:quest_everbright"
         },
         "title": "Find a Blinding Dungeon Key",
         "description": "Search in the tower for a key. You need it to open the gate towards the Summoner\n\nREWARDS:\n\u00a7f\u00a7o- 1 \u00a77\ud83e\ude99",

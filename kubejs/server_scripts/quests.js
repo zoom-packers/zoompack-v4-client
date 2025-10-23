@@ -619,6 +619,29 @@ const QUESTS = {
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
+        "next":"locate_bank"
+    },
+    "locate_bank":{
+        "type":"adv_unlock",
+        "match":{
+            "mode":"exact",
+            "match_id":"aaaa_zp4adv:zoompack_economy_bank_trigger"
+        },
+        "reward":[
+            0,
+            1,
+            0,
+            0,
+            0
+        ],
+        "unlock":"aaaa_zp4adv:locate_bank",
+        "count":1,
+        "dialogue":{
+            "speaker":"Elder Librarian",
+            "message":"Amazing! Let`s see what trades can you get. Trade more for more trades!",
+            "renderType":"rectangle",
+            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
+        },
         "next":"locate_gatekeeper"
     },
     "locate_gatekeeper":{
@@ -643,29 +666,6 @@ const QUESTS = {
         "dialogue":{
             "speaker":"Elder Librarian",
             "message":"Found the Gate Keeper hourse! Trade with him to get a Zeal Lighter",
-            "renderType":"rectangle",
-            "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
-        },
-        "next":"locate_bank"
-    },
-    "locate_bank":{
-        "type":"adv_unlock",
-        "match":{
-            "mode":"exact",
-            "match_id":"aaaa_zp4adv:zoompack_economy_bank_trigger"
-        },
-        "reward":[
-            0,
-            1,
-            0,
-            0,
-            0
-        ],
-        "unlock":"aaaa_zp4adv:locate_bank",
-        "count":1,
-        "dialogue":{
-            "speaker":"Elder Librarian",
-            "message":"Amazing! Let`s see what trades can you get. Trade more for more trades!",
             "renderType":"rectangle",
             "renderTarget":"zoompack_images:textures/elder_librarian/overworld.png"
         },
@@ -4871,7 +4871,7 @@ function matchQuestDataByAdvId(advancement_id) {
 }
 
 //INSTA_REVOKE_DATA_START
-const INSTA_REVOKE_ADVS_PY = ["aaaa_zp4adv:minecraft_hero_of_the_village_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_mountain_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_plains_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_snowy_trigger", "aaaa_zp4adv:zoompack_economy_bank_trigger", "aaaa_zp4adv:blue_skies_everbright_trigger", "aaaa_zp4adv:blue_skies_everbright_blinding_dungeon_trigger", "aaaa_zp4adv:blue_skies_nature_dungeon_trigger", "aaaa_zp4adv:minecraft_overworld_trigger", "aaaa_zp4adv:blue_skies_everdawn_trigger", "aaaa_zp4adv:blue_skies_everdawn_blinding_dungeon_trigger", "aaaa_zp4adv:blue_skies_poison_dungeon_trigger", "aaaa_zp4adv:minecraft_overworld_trigger", "aaaa_zp4adv:aether_the_aether_trigger", "aaaa_zp4adv:aether_bronze_dungeon_trigger", "aaaa_zp4adv:aether_silver_dungeon_trigger", "aaaa_zp4adv:aether_gold_dungeon_trigger", "aaaa_zp4adv:lost_aether_content_platinum_dungeon_trigger", "aaaa_zp4adv:minecraft_overworld_trigger", "aaaa_zp4adv:minecraft_the_nether_trigger", "aaaa_zp4adv:betterfortresses_fortress_trigger", "aaaa_zp4adv:minecraft_bastion_remnant_trigger", "aaaa_zp4adv:betternether_nether_city_trigger", "aaaa_zp4adv:bosses_of_mass_destruction_gauntlet_arena_trigger", "aaaa_zp4adv:minecraft_overworld_trigger", "aaaa_zp4adv:undergarden_undergarden_trigger", "aaaa_zp4adv:undergarden_catacombs_trigger", "aaaa_zp4adv:mokels_boss_mantyd_kinoras_garden_trigger", "aaaa_zp4adv:call_of_yucutan_deadly_crypt_trigger", "aaaa_zp4adv:call_of_yucutan_overgrown_temple_trigger", "aaaa_zp4adv:minecraft_overworld_trigger", "aaaa_zp4adv:betterstrongholds_stronghold_trigger", "aaaa_zp4adv:minecraft_the_end_trigger", "aaaa_zp4adv:outer_end_end_tower_trigger", "aaaa_zp4adv:outer_end_catacombs_trigger", "aaaa_zp4adv:minecraft_end_city_trigger", "aaaa_zp4adv:bosses_of_mass_destruction_obsidilith_arena_trigger", "aaaa_zp4adv:minecraft_overworld_trigger", "aaaa_zp4adv:minecraft_ancient_city_trigger", "aaaa_zp4adv:callfromthedepth__depth_trigger", "aaaa_zp4adv:callfromthedepth__marblesoulforge_trigger", "aaaa_zp4adv:callfromthedepth__deepdarkestaltar_trigger", "aaaa_zp4adv:minecraft_overworld_trigger", "aaaa_zp4adv:theabyss_the_abyss_trigger", "aaaa_zp4adv:abyss_arena_arena_magician_trigger", "aaaa_zp4adv:abyss_arena_arena_elder_trigger", "aaaa_zp4adv:abyss_arena_arena_abyssaur_trigger", "aaaa_zp4adv:abyss_arena_arena_roka_trigger", "aaaa_zp4adv:abyss_arena_arena_crystal_golem_trigger", "aaaa_zp4adv:theabyss_frost_world_trigger"]
+const INSTA_REVOKE_ADVS_PY = ["aaaa_zp4adv:minecraft_hero_of_the_village_trigger", "aaaa_zp4adv:zoompack_economy_bank_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_mountain_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_plains_trigger", "aaaa_zp4adv:blue_skies_gatekeeper_house_snowy_trigger", "aaaa_zp4adv:blue_skies_everbright_trigger", "aaaa_zp4adv:blue_skies_everbright_blinding_dungeon_trigger", "aaaa_zp4adv:blue_skies_nature_dungeon_trigger", "aaaa_zp4adv:minecraft_overworld_trigger", "aaaa_zp4adv:blue_skies_everdawn_trigger", "aaaa_zp4adv:blue_skies_everdawn_blinding_dungeon_trigger", "aaaa_zp4adv:blue_skies_poison_dungeon_trigger", "aaaa_zp4adv:minecraft_overworld_trigger", "aaaa_zp4adv:aether_the_aether_trigger", "aaaa_zp4adv:aether_bronze_dungeon_trigger", "aaaa_zp4adv:aether_silver_dungeon_trigger", "aaaa_zp4adv:aether_gold_dungeon_trigger", "aaaa_zp4adv:lost_aether_content_platinum_dungeon_trigger", "aaaa_zp4adv:minecraft_overworld_trigger", "aaaa_zp4adv:minecraft_the_nether_trigger", "aaaa_zp4adv:betterfortresses_fortress_trigger", "aaaa_zp4adv:minecraft_bastion_remnant_trigger", "aaaa_zp4adv:betternether_nether_city_trigger", "aaaa_zp4adv:bosses_of_mass_destruction_gauntlet_arena_trigger", "aaaa_zp4adv:minecraft_overworld_trigger", "aaaa_zp4adv:undergarden_undergarden_trigger", "aaaa_zp4adv:undergarden_catacombs_trigger", "aaaa_zp4adv:mokels_boss_mantyd_kinoras_garden_trigger", "aaaa_zp4adv:call_of_yucutan_deadly_crypt_trigger", "aaaa_zp4adv:call_of_yucutan_overgrown_temple_trigger", "aaaa_zp4adv:minecraft_overworld_trigger", "aaaa_zp4adv:betterstrongholds_stronghold_trigger", "aaaa_zp4adv:minecraft_the_end_trigger", "aaaa_zp4adv:outer_end_end_tower_trigger", "aaaa_zp4adv:outer_end_catacombs_trigger", "aaaa_zp4adv:minecraft_end_city_trigger", "aaaa_zp4adv:bosses_of_mass_destruction_obsidilith_arena_trigger", "aaaa_zp4adv:minecraft_overworld_trigger", "aaaa_zp4adv:minecraft_ancient_city_trigger", "aaaa_zp4adv:callfromthedepth__depth_trigger", "aaaa_zp4adv:callfromthedepth__marblesoulforge_trigger", "aaaa_zp4adv:callfromthedepth__deepdarkestaltar_trigger", "aaaa_zp4adv:minecraft_overworld_trigger", "aaaa_zp4adv:theabyss_the_abyss_trigger", "aaaa_zp4adv:abyss_arena_arena_magician_trigger", "aaaa_zp4adv:abyss_arena_arena_elder_trigger", "aaaa_zp4adv:abyss_arena_arena_abyssaur_trigger", "aaaa_zp4adv:abyss_arena_arena_roka_trigger", "aaaa_zp4adv:abyss_arena_arena_crystal_golem_trigger", "aaaa_zp4adv:theabyss_frost_world_trigger"]
 //INSTA_REVOKE_DATA_END
 
 // const INSTA_REVOKE_ADVS = ['aaaa_zp4adv:win_raid_loop'].concat(INSTA_REVOKE_ADVS_PY);

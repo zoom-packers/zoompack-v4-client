@@ -1,6 +1,6 @@
 {
   "travel_to_everbright": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everbright",
     "title": "TUTORIAL - Travel to The Everbright",
     "description": "Light the portal in the Gatekeep, but make sure it is for Everbright",
     "xp": 44,
@@ -26,7 +26,7 @@
     }
   },
   "20enemies_everbright": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everbright",
     "title": "Slay 20 Enemies in The Everbright",
     "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
     "xp": 200,
@@ -52,7 +52,7 @@
     }
   },
   "locate_everbright_blinding_dungeon": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everbright",
     "title": "Find a Blinding Dungeon",
     "description": "I have been informed that the habitant is possessing unique items.",
     "xp": 80,
@@ -77,7 +77,7 @@
     }
   },
   "loot_blinding_key": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everbright",
     "title": "Find a Blinding Dungeon Key",
     "description": "Search in the tower for a key. You need it to open the gate towards the Summoner",
     "xp": 100,
@@ -102,6 +102,7 @@
     }
   },
   "slay_summoner": {
+    "item": "kubejs:quest_everbright",
     "title": "Slay The Summoner",
     "description": "The Summoner will use his magic against you. Take care.",
     "xp": 1000,
@@ -126,7 +127,7 @@
     }
   },
   "loot_ethernal_arc": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everbright",
     "title": "Find an Ethernal Arc",
     "description": "Arcs are powerups for your character. Ethernal Arc is found in the Summoner loot bag.",
     "xp": 100,
@@ -151,7 +152,7 @@
     }
   },
   "place_summoning_table": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everbright",
     "title": "Get a Summoning Table",
     "description": "Summon and slay The Summoner until you find a Summoning Table and put it on the ground.",
     "xp": 30,
@@ -176,7 +177,7 @@
     }
   },
   "get_diopside_backpack": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everbright",
     "title": "Get a Diopside Backpack",
     "description": "Craft a Diopside Backpack to carry even more items with you roadming the world.",
     "xp": 100,
@@ -201,7 +202,7 @@
     }
   },
   "25combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everbright",
     "title": "Reach Combat Lvl 25",
     "description": "Fight enemies to raise your combat level to at least 25.",
     "xp": 250,
@@ -226,7 +227,7 @@
     }
   },
   "get_tier_2_power_up": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everbright",
     "title": "Get Yourself a Stronger Powerup 2",
     "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
     "xp": 100,
@@ -251,7 +252,7 @@
     }
   },
   "locate_everbright_nature_dungeon": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everbright",
     "title": "Find a Nature Dungeon",
     "description": "Nature dungeons are massive mazes multiple stories high. Big and green. That`s how you find them.",
     "xp": 80,
@@ -276,7 +277,7 @@
     }
   },
   "loot_4_nature_key": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everbright",
     "title": "Find 4 Nature Keys",
     "description": "Search the maze for keys. You need it to open the gate towards the Alchemist",
     "xp": 400,
@@ -301,7 +302,7 @@
     }
   },
   "slay_starlit_crusher": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everbright",
     "title": "Slay The Starlit Crusher",
     "description": "The Starlit Crusher is at core a tree evolved, so axes might be more useful.",
     "xp": 1000,
@@ -326,7 +327,7 @@
     }
   },
   "loot_nature_arc": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everbright",
     "title": "Find a Nature Arc",
     "description": "Nature arcs gives you the possibility to wistand more damage before dying",
     "xp": 100,
@@ -351,7 +352,7 @@
     }
   },
   "28combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everbright",
     "title": "Reach Combat Lvl 28",
     "description": "Fight enemies to raise your combat level to at least 28.",
     "xp": 280,
@@ -376,7 +377,7 @@
     }
   },
   "travel_back_to_overworld": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everbright",
     "title": "Travel back to the Overworld",
     "description": "Get back home as we need to find the next adventure. Remember: /dimensions",
     "xp": 44,

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "kubejs:quest"
+            "item": "kubejs:quest_nether"
         },
         "title": "Find a Nether Fortress",
         "description": "The Nether Fortress hosts many dark creatures that exit to The Overworld. Give the realm some help!\n\nREWARDS:\n\u00a7f\u00a7o- 3 \u00a77\ud83e\ude99",

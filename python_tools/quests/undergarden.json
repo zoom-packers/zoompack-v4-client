@@ -1,6 +1,6 @@
 {
   "loot_or_craft_catalyst": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_undergarden",
     "title": "Get a Catalyst",
     "description": "Craft a Catalyst to use it to lit the Stone Bricks portal 2 by 3 like The Nether to open the gate towards The Undergarden.",
     "xp": 1600,
@@ -25,7 +25,7 @@
     }
   },
   "travel_to_the_undergarden": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_undergarden",
     "title": "Travel to The Undergarden",
     "description": "A 2 by 3 ring of Stone Bricks lit with the Catalyst. That`s all you need to lit and jump.",
     "xp": 704,
@@ -51,7 +51,7 @@
     }
   },
   "locate_catacombs": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_undergarden",
     "title": "Find The Catacombs",
     "description": "The Catacombs are the perfect place to find rare ancient loot!",
     "xp": 240,
@@ -76,7 +76,7 @@
     }
   },
   "80enemies_undergarden": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_undergarden",
     "title": "Slay 80 Enemies in The Undergarden",
     "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
     "xp": 4400,
@@ -102,7 +102,7 @@
     }
   },
   "locate_kinoras_garden": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_undergarden",
     "title": "Find Kinora`s Garden",
     "description": "Kinora`s Garden is the home of Kinora The Royal Mantyd. It should be a bricked base topped with cherry blossom trees.",
     "xp": 240,
@@ -127,7 +127,7 @@
     }
   },
   "slay_kinora": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_undergarden",
     "title": "Slay The Royal Mantyd",
     "description": "She is a very tricky mantyd so make sure you can talk her down.",
     "xp": 5500,
@@ -152,7 +152,7 @@
     }
   },
   "locate_deadly_crypt": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_undergarden",
     "title": "Locate The Deadly Crypt",
     "description": "The Deadly Crypt is very simmilar to a Jungle Temple, but it's just way bigger and more polished with Jade.",
     "xp": 240,
@@ -177,7 +177,7 @@
     }
   },
   "slay_ah_puch": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_undergarden",
     "title": "Slay The Ah Puch",
     "description": "Ah Puch is pure evil awakened. Mayan devil that caught form in this realm. Be careful when fighting him.",
     "xp": 5500,
@@ -202,7 +202,7 @@
     }
   },
   "65combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_undergarden",
     "title": "Reach Combat Lvl 65",
     "description": "Fight enemies to raise your combat level to at least 65.",
     "xp": 650,
@@ -227,7 +227,7 @@
     }
   },
   "get_tier_6_power_up": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_undergarden",
     "title": "Get Yourself a Stronger Powerup 6",
     "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
     "xp": 1600,
@@ -252,7 +252,7 @@
     }
   },
   "locate_overgrown_temple": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_undergarden",
     "title": "Locate The Overgrown Temple",
     "description": "The Overgrown Temple is a goldy looking pyramid in the warm lands of The Undergarden that can be found towards the upper ceiling.",
     "xp": 240,
@@ -277,7 +277,7 @@
     }
   },
   "slay_kukulkan": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_undergarden",
     "title": "Slay Kukulkan",
     "description": "Kukulkan is an ancient mayan being landed on this realm to find peace and hunting ocasionally in The Overworld. It`s time to put an end to it",
     "xp": 5500,
@@ -302,7 +302,7 @@
     }
   },
   "70combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_undergarden",
     "title": "Reach Combat Lvl 70",
     "description": "Fight enemies to raise your combat level to at least 70.",
     "xp": 700,
@@ -327,7 +327,7 @@
     }
   },
   "travel_unbergarden_to_overworld": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_undergarden",
     "title": "Travel back to the Overworld",
     "description": "Get back home as we need to find the next adventure.",
     "xp": 704,

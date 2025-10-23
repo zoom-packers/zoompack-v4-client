@@ -1,6 +1,6 @@
 {
   "obtain_loran": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Get your hands on Loran",
     "description": "Loran is found in the End Island and can be extracted with a pickaxe.",
     "xp": 4000,
@@ -25,7 +25,7 @@
     }
   },
   "obtain_unstable_obsidian": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Craft Unstable Obsidian",
     "description": "Use the Loran combined with some Obsidian to craft Unstable Obsidian.",
     "xp": 4000,
@@ -50,7 +50,7 @@
     }
   },
   "obtain_abyss_portal_activator": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Craft Abyss Portal Activator",
     "description": "Use the Loran to craft an Abyss Portal Activator. You guessed it, you can use it to lit the portal towards The Abyss",
     "xp": 4000,
@@ -75,7 +75,7 @@
     }
   },
   "travel_to_abyss": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Travel to The Abyss",
     "description": "Place the eyes into the portal frame and jump inside of it.",
     "xp": 5632,
@@ -101,7 +101,7 @@
     }
   },
   "locate_abyss_arena_magician": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Locate the Magician`s Arena",
     "description": "Find the Magic Tower forked like a tree, home to the Magician.",
     "xp": 1200,
@@ -126,7 +126,7 @@
     }
   },
   "obtain_magician_crystal": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Craft Magician Crystal",
     "description": "Magician Crystal is used to summon the Magician at it`s Altar. Look up for the recipe on the item browser.",
     "xp": 4000,
@@ -151,7 +151,7 @@
     }
   },
   "defeat_abyss_arena_magician": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Defeat the Magician",
     "description": "The Magician is a keen being that holds the Magic Core of the Abyss. Defeat it in its Magic Tower.",
     "xp": 8000,
@@ -176,7 +176,7 @@
     }
   },
   "obtain_magic_core": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Obtain the Magic Core",
     "description": "Collect the Magic Core dropped by the Magician.",
     "xp": 4000,
@@ -201,7 +201,7 @@
     }
   },
   "92combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Reach Combat Lvl 92",
     "description": "Fight enemies to raise your combat level to at least 92.",
     "xp": 920,
@@ -226,7 +226,7 @@
     }
   },
   "locate_abyss_arena_elder": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Locate the Elder`s Arena",
     "description": "Find the arena with tall stony pillars and a massive flat roof, domain of the Elder.",
     "xp": 1200,
@@ -251,7 +251,7 @@
     }
   },
   "obtain_elder_crystal": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Craft Elder Crystal",
     "description": "Elder Crystal is used to summon the Elder at it`s Altar. Look up for the recipe on the item browser.",
     "xp": 4000,
@@ -276,7 +276,7 @@
     }
   },
   "defeat_abyss_arena_elder": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Defeat the Elder",
     "description": "The Elder is a kangaroo-like prehistorical entity. Defeat it in its stony pillar arena.",
     "xp": 8000,
@@ -301,7 +301,7 @@
     }
   },
   "obtain_elder_eye": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Obtain the Elder Eye",
     "description": "Collect the Elder Eye dropped by the Elder.",
     "xp": 4000,
@@ -326,7 +326,7 @@
     }
   },
   "place_arcane_workbench": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Get an Arcane Workbench",
     "description": "Make yourself an Arcane Workbench and put it on the ground. Very useful to make somnium constructs",
     "xp": 1000,
@@ -351,7 +351,7 @@
     }
   },
   "get_tier_9_power_up": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Get Yourself a Stronger Powerup 9",
     "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
     "xp": 4000,
@@ -376,7 +376,7 @@
     }
   },
   "94combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Reach Combat Lvl 94",
     "description": "Fight enemies to raise your combat level to at least 94.",
     "xp": 940,
@@ -401,7 +401,7 @@
     }
   },
   "locate_abyss_arena_abyssaur": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Locate the Abyssaur`s Arena",
     "description": "Find the massive ring arena like a colosseum, lair of the Abyssaur.",
     "xp": 1200,
@@ -426,7 +426,7 @@
     }
   },
   "obtain_abyssaur_crystal": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Craft Abyssaur Crystal",
     "description": "Abyssaur Crystal is used to summon the Abyssaur at it`s Altar. Look up for the recipe on the item browser.",
     "xp": 4000,
@@ -451,7 +451,7 @@
     }
   },
   "defeat_abyss_arena_abyssaur": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Defeat the Abyssaur",
     "description": "The Abyssaur is a prehistoric creature that causes dizziness. Slay it in the colosseum.",
     "xp": 8000,
@@ -476,7 +476,7 @@
     }
   },
   "obtain_prehistoric_claw": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Obtain the Prehistoric Claw",
     "description": "Collect the Prehistoric Claw dropped by the Abyssaur.",
     "xp": 4000,
@@ -501,7 +501,7 @@
     }
   },
   "96combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Reach Combat Lvl 96",
     "description": "Fight enemies to raise your combat level to at least 96.",
     "xp": 960,
@@ -526,7 +526,7 @@
     }
   },
   "locate_abyss_arena_roka": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Locate the Roka`s Arena",
     "description": "Find the spot marked by X, where the Roka is held.",
     "xp": 1200,
@@ -551,7 +551,7 @@
     }
   },
   "obtain_roka_crystal": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Craft Roka Crystal",
     "description": "Roka Crystal is used to summon the Roka at it`s Altar. Look up for the recipe on the item browser.",
     "xp": 4000,
@@ -576,7 +576,7 @@
     }
   },
   "defeat_abyss_arena_roka": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Defeat the Roka",
     "description": "The Roka is a bull-like creature caught live. Defeat it at the X-marked spot.",
     "xp": 8000,
@@ -601,7 +601,7 @@
     }
   },
   "obtain_roka_horn": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Obtain the Roka Horn",
     "description": "Collect the Roka Horn dropped by the Roka.",
     "xp": 4000,
@@ -626,7 +626,7 @@
     }
   },
   "98combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Reach Combat Lvl 98",
     "description": "Fight enemies to raise your combat level to at least 98.",
     "xp": 980,
@@ -651,7 +651,7 @@
     }
   },
   "locate_abyss_arena_crystal_golem": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Locate the Crystal Golem`s Arena",
     "description": "Find the massive glass sphere, guardian post of the Crystal Golem.",
     "xp": 1200,
@@ -676,7 +676,7 @@
     }
   },
   "obtain_crystal_golem_crystal": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Craft Crystal Golem`s Crystal",
     "description": "Crystal Golem`s Crystal is used to summon the Crystal Golem at it`s Altar. Look up for the recipe on the item browser.",
     "xp": 4000,
@@ -701,7 +701,7 @@
     }
   },
   "defeat_abyss_arena_crystal_golem": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Defeat the Crystal Golem",
     "description": "The Crystal Golem is made of rose quartz. Defeat it in the glass sphere.",
     "xp": 8000,
@@ -726,7 +726,7 @@
     }
   },
   "obtain_crystal_hand": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Obtain the Crystal Hand",
     "description": "Collect the Crystal Hand dropped by the Crystal Golem.",
     "xp": 4000,
@@ -751,7 +751,7 @@
     }
   },
   "obtain_eye_of_abyss": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Craft the Eye of Abyss",
     "description": "Combine the Magic Core, Elder Eye, Prehistoric Claw, Roka Horn, and Crystal Hand to craft the Eye of Abyss, a relic of immense power.",
     "xp": 4000,
@@ -776,7 +776,7 @@
     }
   },
   "get_tier_10_power_up": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Get Yourself a Stronger Powerup 10",
     "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
     "xp": 4000,
@@ -801,7 +801,7 @@
     }
   },
   "100combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Reach Combat Lvl 100",
     "description": "Fight enemies to raise your combat level to at least 100.",
     "xp": 1000,
@@ -826,7 +826,7 @@
     }
   },
   "defeat_nightblade_boss": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_abyss",
     "title": "Defeat the Nightblade Boss",
     "description": "Use the Eye of Abyss on the Night Altar with all Brick Stone pillars lit to summon and defeat the Nightblade Boss.",
     "xp": 8000,

@@ -1,6 +1,6 @@
 {
   "travel_to_everdawn": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everdawn",
     "title": "Travel to The Everdawn",
     "description": "Very simmilar to the Everbright portal, this one is found in gatekeer`s houses. Remember: /dimensions",
     "xp": 88,
@@ -26,7 +26,7 @@
     }
   },
   "20enemies_everdawn": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everdawn",
     "title": "Slay 20 Enemies in The Everdawn",
     "description": "This new place is much more harsh. New possibilities, new enemies. Get acquainted.",
     "xp": 400,
@@ -52,7 +52,7 @@
     }
   },
   "locate_everdawn_blinding_dungeon": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everdawn",
     "title": "Find a Blinding Dungeon",
     "description": "In the Everdawn there is the brother of the Summoner, The Alchemist. Be aware of the dangers of The Everdawn",
     "xp": 100,
@@ -77,7 +77,7 @@
     }
   },
   "loot_4_blinding_keys": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everdawn",
     "title": "Find 4 Blinding Dungeon Keys",
     "description": "Search in the tower for keys. You need it to open the gate towards The Alchemist",
     "xp": 800,
@@ -102,7 +102,7 @@
     }
   },
   "slay_the_alchemist": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everdawn",
     "title": "Slay The Alchemist",
     "description": "I hope you came armed. The Alchemist is not as light as his brother.",
     "xp": 2000,
@@ -127,7 +127,7 @@
     }
   },
   "loot_dusk_arc": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everdawn",
     "title": "Find a Dusk Arc",
     "description": "Dusk arcs gives you the ability to turn invisible. Very useful when evading enemies.",
     "xp": 200,
@@ -152,7 +152,7 @@
     }
   },
   "place_alchemy_table": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everdawn",
     "title": "Get an Alchemy Table",
     "description": "Summon and slay The Alchemist until you find an Alchemy Table and put it on the ground.",
     "xp": 40,
@@ -177,7 +177,7 @@
     }
   },
   "32combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everdawn",
     "title": "Reach Combat Lvl 32",
     "description": "Fight enemies to raise your combat level to at least 32.",
     "xp": 320,
@@ -202,7 +202,7 @@
     }
   },
   "get_tier_3_power_up": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everdawn",
     "title": "Get Yourself a Stronger Powerup 3",
     "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
     "xp": 200,
@@ -227,7 +227,7 @@
     }
   },
   "locate_everdawn_poison_dungeon": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everdawn",
     "title": "Find a Poison Dungeon",
     "description": "In the Everdawn lays the Arachnarch. A gigantic vonomus spider. I suspect he lives underground.",
     "xp": 100,
@@ -252,7 +252,7 @@
     }
   },
   "loot_4_poison_keys": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everdawn",
     "title": "Find 4 Poison Dungeon Keys",
     "description": "Search the ",
     "xp": 800,
@@ -277,7 +277,7 @@
     }
   },
   "slay_the_arachnarch": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everdawn",
     "title": "Slay The Arachnarch",
     "description": "I hope you came armed. The Alchemist is not as light as his brother.",
     "xp": 2000,
@@ -302,7 +302,7 @@
     }
   },
   "loot_poison_arc": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everdawn",
     "title": "Find a Poison Arc",
     "description": "Poison Arcs prevent you from being poisoned. Very useful against vonomus enemies",
     "xp": 200,
@@ -327,7 +327,7 @@
     }
   },
   "35combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everdawn",
     "title": "Reach Combat Lvl 35",
     "description": "Fight enemies to raise your combat level to at least 35.",
     "xp": 350,
@@ -352,7 +352,7 @@
     }
   },
   "travel_back2_to_overworld": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_everdawn",
     "title": "Travel back to the Overworld",
     "description": "Get back home as we need to find the next adventure. Remember: /dimensions",
     "xp": 88,

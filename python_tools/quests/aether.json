@@ -1,6 +1,6 @@
 {
   "travel_to_aether": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_aether",
     "title": "Travel to The Aether",
     "description": "For this you need a portal of glowston lit with water. If you ever get lost, type /dimensions for tips",
     "xp": 176,
@@ -26,7 +26,7 @@
     }
   },
   "30enemies_aether": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_aether",
     "title": "Slay 30 Enemies in The Aether",
     "description": "Get a glimpse of what dangers to expect from the dimension.",
     "xp": 800,
@@ -52,7 +52,7 @@
     }
   },
   "place_aether_altar": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_aether",
     "title": "Get an Altar",
     "description": "Find or craft an Altar to repair the damage on your items with Ambrosium Shards. Please place it on a surface.",
     "xp": 50,
@@ -77,7 +77,7 @@
     }
   },
   "locate_aether_bronze_dungeon": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_aether",
     "title": "Find a Bronze Dungeon",
     "description": "Bronze Dungeons are hidden underground but they have an open exit.",
     "xp": 120,
@@ -102,7 +102,7 @@
     }
   },
   "slay_slider": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_aether",
     "title": "Slay The Slider",
     "description": "The Slider is probably just a big minable thing.",
     "xp": 4000,
@@ -127,7 +127,7 @@
     }
   },
   "40combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_aether",
     "title": "Reach Combat Lvl 40",
     "description": "Fight enemies to raise your combat level to at least 40.",
     "xp": 400,
@@ -152,7 +152,7 @@
     }
   },
   "locate_aether_silver_dungeon": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_aether",
     "title": "Find a Silver Dungeon",
     "description": "Silver Dungeons are big colloseums in the clouds. Big and Goldy, hard to miss.",
     "xp": 120,
@@ -177,7 +177,7 @@
     }
   },
   "slay_10_valkyries": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_aether",
     "title": "Slay 10 Valkyries",
     "description": "The Valkyries are submissive to their queen. You need their medals to trade with the Queen.",
     "xp": 40000,
@@ -202,7 +202,7 @@
     }
   },
   "slay_valkyrie_queen": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_aether",
     "title": "Slay The Valkyrie Queen",
     "description": "The Valkyrie Queen is a mythical being with many dodgy mechanics",
     "xp": 4000,
@@ -227,7 +227,7 @@
     }
   },
   "get_aether_backpack": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_aether",
     "title": "Get an Aether Backpack",
     "description": "Craft a Aether Backpack to carry even more items with you roadming the world.",
     "xp": 400,
@@ -252,7 +252,7 @@
     }
   },
   "45combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_aether",
     "title": "Reach Combat Lvl 45",
     "description": "Fight enemies to raise your combat level to at least 45.",
     "xp": 450,
@@ -277,7 +277,7 @@
     }
   },
   "locate_aether_gold_dungeon": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_aether",
     "title": "Find a Gold Dungeon",
     "description": "Gold Dungeons are bulky islands glued togather with many trees on top. However they all have a way of going in.",
     "xp": 120,
@@ -302,7 +302,7 @@
     }
   },
   "slay_sun_spirit": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_aether",
     "title": "Slay The Sun Spirit",
     "description": "The Sun Spirit is a master of fire. Make sure you can wistand it.",
     "xp": 4000,
@@ -327,7 +327,7 @@
     }
   },
   "48combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_aether",
     "title": "Reach Combat Lvl 48",
     "description": "Fight enemies to raise your combat level to at least 48.",
     "xp": 480,
@@ -352,7 +352,7 @@
     }
   },
   "get_tier_4_power_up": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_aether",
     "title": "Get Yourself a Stronger Powerup 4",
     "description": "Powerups are armor trim materials that enhance your gear with various stats. Type /powerups to find out more about it",
     "xp": 400,
@@ -377,7 +377,7 @@
     }
   },
   "locate_aether_platinum_dungeon": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_aether",
     "title": "Find a Platinum Dungeon",
     "description": "Platinum Dungeons are chunky towers up in the sky with a Whale roaming around.",
     "xp": 120,
@@ -402,7 +402,7 @@
     }
   },
   "slay_aerwhale_king": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_aether",
     "title": "Slay The Aerwhale King",
     "description": "The Aerwhale King is a nimble, yet silent trickster. Make sure to come prepared to the fight.",
     "xp": 4000,
@@ -427,7 +427,7 @@
     }
   },
   "50combatlvl": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_aether",
     "title": "Reach Combat Lvl 50",
     "description": "Fight enemies to raise your combat level to at least 50.",
     "xp": 500,
@@ -452,7 +452,7 @@
     }
   },
   "travel_aether_to_overworld": {
-    "item": "kubejs:quest",
+    "item": "kubejs:quest_aether",
     "title": "Travel back to the Overworld",
     "description": "Get back home as we need to find the next adventure.",
     "xp": 176,
