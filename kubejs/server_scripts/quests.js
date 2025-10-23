@@ -5024,34 +5024,34 @@ ServerEvents.loaded(event => {
 
 
 
-// // TODO: this is just for debug
-ItemEvents.rightClicked('minecraft:stick', event => {
-    const { player, server } = event;
+// // // TODO: this is just for debug
+// ItemEvents.rightClicked('minecraft:stick', event => {
+//     const { player, server } = event;
 
-    // let activeQuest = getPlayerQuest(player);
-    // let activeQuestProgress = getPlayerProgression(player);
-    // player.tell(activeQuest);
-    // player.tell(activeQuestProgress);
+//     // let activeQuest = getPlayerQuest(player);
+//     // let activeQuestProgress = getPlayerProgression(player);
+//     // player.tell(activeQuest);
+//     // player.tell(activeQuestProgress);
 
-    // sendPlayerQuestToTrack(player, QUESTS[activeQuest].unlock)
-
-
-    // setPlayerQuestProgress(player, 9);
-    // player.tell(FIRST_QUEST);
-
-    let advIdsToUntrack = [];
-    let advIdsToTrack = [QUESTS[FIRST_QUEST].unlock];
-
-    for (const quest of Object.keys(QUESTS)) {
-        let questData = QUESTS[quest];
-        revokeServerPlayerAdvancement(server, player, questData.unlock);
-        advIdsToUntrack.push(questData.unlock);
-    }
+//     // sendPlayerQuestToTrack(player, QUESTS[activeQuest].unlock)
 
 
-    sendPlayerQuestTrackData(player, advIdsToTrack, advIdsToUntrack);
-    setPlayerQuest(player, FIRST_QUEST);
+//     // setPlayerQuestProgress(player, 9);
+//     // player.tell(FIRST_QUEST);
 
-    // setPlayerQuest(player, FIRST_QUEST);
-    // sendPlayerQuestToTrack(player, QUESTS[FIRST_QUEST].unlock)
-});
+//     let advIdsToUntrack = [];
+//     let advIdsToTrack = [QUESTS[FIRST_QUEST].unlock];
+
+//     for (const quest of Object.keys(QUESTS)) {
+//         let questData = QUESTS[quest];
+//         revokeServerPlayerAdvancement(server, player, questData.unlock);
+//         advIdsToUntrack.push(questData.unlock);
+//     }
+
+
+//     sendPlayerQuestTrackData(player, advIdsToTrack, advIdsToUntrack);
+//     setPlayerQuest(player, FIRST_QUEST);
+
+//     // setPlayerQuest(player, FIRST_QUEST);
+//     // sendPlayerQuestToTrack(player, QUESTS[FIRST_QUEST].unlock)
+// });
