@@ -2292,7 +2292,7 @@
     "minecraft": {
         "modLoaders": [
             {
-                "id": "forge-47.2.30",
+                "id": "forge-47.4.0",
                 "primary": true
             }
         ],
