@@ -1060,7 +1060,7 @@ let lockedBlocksPmmoLevels = {
     "create:mechanical_piston": 6,
     "create:sticky_mechanical_piston": 6,
 
-    "chain_conveyor": 7,
+    "create:chain_conveyor": 7,
     "create:gantry_carriage": 7,
     "create:cogwheel": 7,
     "create:large_cogwheel": 7,
