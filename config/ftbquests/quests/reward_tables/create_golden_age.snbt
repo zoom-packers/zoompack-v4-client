@@ -1,0 +1,75 @@
+{
+	icon: {
+		Count: 1
+		id: "handcrafted:golden_thin_pot"
+		tag: { }
+	}
+	id: "6F739AFEF6651ED4"
+	loot_size: 1
+	order_index: 54
+	rewards: [
+		{
+			count: 10
+			item: {
+				Count: 1
+				id: "create:brass_ingot"
+				tag: { }
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "create:sturdy_sheet"
+				tag: { }
+			}
+			weight: 0.0f
+		}
+		{
+			count: 6
+			item: {
+				Count: 1
+				id: "create:polished_rose_quartz"
+				tag: { }
+			}
+			weight: 0.0f
+		}
+		{
+			count: 10
+			item: {
+				Count: 1
+				id: "create:iron_sheet"
+				tag: { }
+			}
+			weight: 0.0f
+		}
+		{
+			count: 5
+			item: {
+				Count: 1
+				id: "create:brass_sheet"
+				tag: { }
+			}
+			weight: 0.0f
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "minecraft:raw_iron"
+				tag: { }
+			}
+			weight: 0.0f
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "minecraft:copper_block"
+				tag: { }
+			}
+			weight: 0.0f
+		}
+	]
+	title: "create golden age"
+}

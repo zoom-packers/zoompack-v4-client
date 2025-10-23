@@ -464,6 +464,38 @@
 			dependencies: ["0FAA1C16350FAE7D"]
 			icon: "minecraft:redstone"
 			id: "45C50C211CE48769"
+			rewards: [
+				{
+					count: 3
+					id: "6DAEF7F2731840F8"
+					item: {
+						Count: 1
+						id: "minecraft:raw_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "025BB37E1E5AFB3C"
+					item: {
+						Count: 1
+						id: "minecraft:andesite"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "62548BCF48D46D36"
+					item: {
+						Count: 1
+						id: "minecraft:oak_log"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			subtitle: "Start your engineering journey"
 			tasks: [
@@ -604,6 +636,38 @@
 			dependencies: ["36A539D6A418526A"]
 			icon: "minecraft:iron_ingot"
 			id: "07889D43193AE160"
+			rewards: [
+				{
+					count: 16
+					id: "5E582DFC84268B95"
+					item: {
+						Count: 1
+						id: "minecraft:andesite"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "4E4DC60F7F49F3F0"
+					item: {
+						Count: 1
+						id: "minecraft:oak_log"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "6748941B09F13D9E"
+					item: {
+						Count: 1
+						id: "minecraft:raw_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			subtitle: "Metals can be used to craft all sorts of things. Including machines."
 			tasks: [
@@ -642,6 +706,48 @@
 			dependencies: ["07889D43193AE160"]
 			icon: "create:andesite_alloy"
 			id: "6651C1DA4616F92F"
+			rewards: [
+				{
+					count: 2
+					id: "5CF97EE886FA6D7C"
+					item: {
+						Count: 1
+						id: "minecraft:iron_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "73A86E56C318A671"
+					item: {
+						Count: 1
+						id: "minecraft:raw_gold"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "017DAB304C50A852"
+					item: {
+						Count: 1
+						id: "minecraft:oak_log"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "41F0D21448D1B1B0"
+					item: {
+						Count: 1
+						id: "minecraft:white_wool"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			subtitle: "All the machinees must be put inside a casing."
 			tasks: [
@@ -667,6 +773,58 @@
 			dependencies: ["6651C1DA4616F92F"]
 			icon: "create:shaft"
 			id: "6C78B9D6AF17502B"
+			rewards: [
+				{
+					count: 5
+					id: "6B92DB6BBFF36B02"
+					item: {
+						Count: 1
+						id: "minecraft:iron_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 22
+					id: "15CE28F6AA0F4FFB"
+					item: {
+						Count: 1
+						id: "minecraft:andesite"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "64E0FE15E2615212"
+					item: {
+						Count: 1
+						id: "minecraft:oak_log"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5AAF9E1D39A8851C"
+					item: {
+						Count: 1
+						id: "minecraft:white_wool"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "29441176F601FA37"
+					item: {
+						Count: 1
+						id: "create:raw_zinc"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			subtitle: "You can use your arms muscle to spin the shafts. Or let the wind work your sails."
 			tasks: [
@@ -699,6 +857,58 @@
 			dependencies: ["116FE80931F79650"]
 			icon: "create:white_sail"
 			id: "64C5FC899A6F0F34"
+			rewards: [
+				{
+					count: 50
+					id: "3F3EB12071D29F97"
+					item: {
+						Count: 1
+						id: "create:andesite_alloy"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2306BF9F3DFE107D"
+					item: {
+						Count: 1
+						id: "minecraft:oak_log"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 256
+					id: "674A9F81A025301C"
+					item: {
+						Count: 1
+						id: "minecraft:kelp"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4070C71214204E9F"
+					item: {
+						Count: 1
+						id: "minecraft:raw_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "27AD3D8E01F79F97"
+					item: {
+						Count: 1
+						id: "minecraft:copper_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			subtitle: "The Wheels can move when applied force"
 			tasks: [
@@ -745,6 +955,58 @@
 			dependencies: ["045F1DF8071F3068"]
 			icon: "create:water_wheel"
 			id: "116FE80931F79650"
+			rewards: [
+				{
+					count: 8
+					id: "05B9BCB64FF31B6D"
+					item: {
+						Count: 1
+						id: "minecraft:white_wool"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 24
+					id: "3121CE1025E9F32F"
+					item: {
+						Count: 1
+						id: "create:andesite_alloy"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7A128492B03AB543"
+					item: {
+						Count: 1
+						id: "minecraft:iron_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "23B3C4F8983EAA2F"
+					item: {
+						Count: 1
+						id: "minecraft:oak_log"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "3B47B038F7FC1980"
+					item: {
+						Count: 1
+						id: "create:raw_zinc"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			subtitle: "Does bigger always mean better? When it comes to wheels, yeah.."
 			tasks: [
@@ -788,12 +1050,44 @@
 			dependencies: ["6C78B9D6AF17502B"]
 			icon: "create:large_cogwheel"
 			id: "045F1DF8071F3068"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2436EF0B3B434033"
-				table_id: 4546307448830410953L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2436EF0B3B434033"
+					table_id: 4546307448830410953L
+					type: "choice"
+				}
+				{
+					count: 4
+					id: "4FEEA908EAA991D2"
+					item: {
+						Count: 1
+						id: "minecraft:white_wool"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "446C191E25003BE3"
+					item: {
+						Count: 1
+						id: "minecraft:iron_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "491AFBFAE0BA4A97"
+					item: {
+						Count: 1
+						id: "minecraft:copper_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			subtitle: "Harness the power of mechanical energy along with item junction."
 			tasks: [
@@ -841,6 +1135,78 @@
 			dependencies: ["64C5FC899A6F0F34"]
 			icon: "create:andesite_funnel"
 			id: "48D35FB15EED1E1B"
+			rewards: [
+				{
+					count: 64
+					id: "455D9892FB9B52D3"
+					item: {
+						Count: 1
+						id: "minecraft:raw_copper"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "3DCE35ECAE36B810"
+					item: {
+						Count: 1
+						id: "create:andesite_alloy"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "61E0A4C8E3326794"
+					item: {
+						Count: 1
+						id: "minecraft:raw_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5C48D703267D07E8"
+					item: {
+						Count: 1
+						id: "minecraft:oak_log"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0F0D75FEF297CE9B"
+					item: {
+						Count: 1
+						id: "minecraft:raw_gold"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4313E2C94D31EB88"
+					item: {
+						Count: 1
+						id: "minecraft:white_wool"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "5D448FAE984563C9"
+					item: {
+						Count: 1
+						id: "create:raw_zinc"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			subtitle: "Move lava, water, milk, or you know what? The whole ocean!"
 			tasks: [
@@ -894,6 +1260,58 @@
 			dependencies: ["48D35FB15EED1E1B"]
 			icon: "create:copper_casing"
 			id: "18D5D6C9BBA42316"
+			rewards: [
+				{
+					count: 100
+					id: "4257486994177ADA"
+					item: {
+						Count: 1
+						id: "create:andesite_alloy"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "04059764459E6E44"
+					item: {
+						Count: 1
+						id: "minecraft:raw_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6F89840F2B0E4D94"
+					item: {
+						Count: 1
+						id: "minecraft:raw_copper"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1E5AF35F9E649EB7"
+					item: {
+						Count: 1
+						id: "minecraft:raw_gold"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "3BAACFF67191A8D8"
+					item: {
+						Count: 1
+						id: "create:raw_zinc"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			subtitle: "Build smart contraptions that can elevate your mechanization builds."
 			tasks: [
@@ -960,6 +1378,66 @@
 					table_id: 2258866243659860760L
 					type: "loot"
 				}
+				{
+					count: 16
+					id: "1E87E4BBDD4E0A1D"
+					item: {
+						Count: 1
+						id: "create:golden_sheet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2BD84C48BE4DDCED"
+					item: {
+						Count: 1
+						id: "create:iron_sheet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1E45546475D3E87C"
+					item: {
+						Count: 1
+						id: "create:copper_sheet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 200
+					id: "5770C424DA4FB951"
+					item: {
+						Count: 1
+						id: "minecraft:kelp"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 200
+					id: "0F0B75696DD20793"
+					item: {
+						Count: 1
+						id: "minecraft:andesite"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 15
+					id: "364354B70D98A0BF"
+					item: {
+						Count: 1
+						id: "create:raw_zinc"
+						tag: { }
+					}
+					type: "item"
+				}
 			]
 			shape: "gear"
 			subtitle: "Ever wanted to store a lot of items? Well, there are ways to store thousands in a small place."
@@ -1000,12 +1478,54 @@
 			dependencies: ["2CE4309590602786"]
 			icon: "create:mechanical_mixer"
 			id: "7A23092E92C3E358"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5900543C5FCBD39E"
-				table_id: 2258866243659860760L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5900543C5FCBD39E"
+					table_id: 2258866243659860760L
+					type: "loot"
+				}
+				{
+					count: 64
+					id: "5A09D4CA6BFF7DEA"
+					item: {
+						Count: 1
+						id: "minecraft:raw_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 100
+					id: "44A0717F1823E558"
+					item: {
+						Count: 1
+						id: "minecraft:andesite"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "02F5883F81917D4F"
+					item: {
+						Count: 1
+						id: "minecraft:raw_gold"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "61B0A68DA6FC4A56"
+					item: {
+						Count: 1
+						id: "create:raw_zinc"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			subtitle: "Special mechanical driven gear awaits your usage"
 			tasks: [
@@ -1045,12 +1565,44 @@
 			dependencies: ["7A23092E92C3E358"]
 			icon: "create:fluid_valve"
 			id: "041C663DCF0D6C4E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "40DC8D1436FA0C4F"
-				table_id: 2258866243659860760L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40DC8D1436FA0C4F"
+					table_id: 2258866243659860760L
+					type: "loot"
+				}
+				{
+					count: 50
+					id: "61C3CDCEBE27253D"
+					item: {
+						Count: 1
+						id: "minecraft:raw_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5AEB8EE44FF65A53"
+					item: {
+						Count: 1
+						id: "minecraft:oak_log"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 9
+					id: "7C60C716B3289B3B"
+					item: {
+						Count: 1
+						id: "create:raw_zinc"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			subtitle: "Advance further into the world of cogwheels and evolve with the new alloy: brass"
 			tasks: [
@@ -1110,6 +1662,36 @@
 					table_id: 2258866243659860760L
 					type: "loot"
 				}
+				{
+					count: 16
+					id: "1220E8F40C6C3873"
+					item: {
+						Count: 1
+						id: "create:raw_zinc"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "05D7E93E4E3AD993"
+					item: {
+						Count: 1
+						id: "minecraft:raw_copper"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "2D5120E0433B488D"
+					item: {
+						Count: 1
+						id: "minecraft:obsidian"
+						tag: { }
+					}
+					type: "item"
+				}
 			]
 			shape: "gear"
 			subtitle: "It's time to evolve and look at brass like iron. It's time to fully use the ores and squeeze everything from it."
@@ -1167,6 +1749,52 @@
 					table_id: 2258866243659860760L
 					type: "loot"
 				}
+				{
+					count: 16
+					id: "55A5D5863FE0442C"
+					item: {
+						Count: 1
+						id: "create:brass_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "49D3D0C8CAB28DC9"
+					item: {
+						Count: 1
+						id: "minecraft:obsidian"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "70DCCBE43C3EC007"
+					item: {
+						Count: 1
+						id: "create:iron_sheet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5EBE4A0AC335509E"
+					item: {
+						Count: 1
+						id: "createaddition:zinc_sheet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30847527742724B7"
+					table_id: 8335359214078514711L
+					type: "loot"
+				}
 			]
 			shape: "gear"
 			subtitle: "Brass is the new iron. Iron is the new coal. Coal is the new dirt. Dirt is dirt... duuh"
@@ -1214,12 +1842,60 @@
 			dependencies: ["7E692A6A11F10A53"]
 			icon: "create:railway_casing"
 			id: "07D0199BD36181E6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "48A39C0DF38F5028"
-				table_id: 2258866243659860760L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "48A39C0DF38F5028"
+					table_id: 2258866243659860760L
+					type: "loot"
+				}
+				{
+					count: 10
+					id: "113CD216209A09D5"
+					item: {
+						Count: 1
+						id: "create:polished_rose_quartz"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 24
+					id: "5A833DDA0E68837B"
+					item: {
+						Count: 1
+						id: "create:brass_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6BDE34217ABD44C1"
+					item: {
+						Count: 1
+						id: "create:sturdy_sheet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2C85C41B995138E0"
+					item: {
+						Count: 1
+						id: "minecraft:raw_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11A8A8FDC513190A"
+					table_id: 8335359214078514711L
+					type: "loot"
+				}
+			]
 			shape: "gear"
 			subtitle: "Railway time, explore the world in a train. Live in the train or even achive multi dimensional travel with them."
 			tasks: [
@@ -1252,12 +1928,40 @@
 			dependencies: ["07D0199BD36181E6"]
 			icon: "create:brass_casing"
 			id: "0EA36B847645BFCE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5DBCE0827F030477"
-				table_id: 2258866243659860760L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DBCE0827F030477"
+					table_id: 2258866243659860760L
+					type: "loot"
+				}
+				{
+					count: 16
+					id: "416BDD68C11B2153"
+					item: {
+						Count: 1
+						id: "create:sturdy_sheet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7DE1BE59A17A1433"
+					item: {
+						Count: 1
+						id: "create:brass_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "703CE5A974AD500C"
+					table_id: 8335359214078514711L
+					type: "loot"
+				}
+			]
 			shape: "gear"
 			subtitle: "You'll need a bigger workshop. But also rail complexity..."
 			tasks: [
@@ -1290,12 +1994,40 @@
 			dependencies: ["0EA36B847645BFCE"]
 			icon: "create:mechanical_crafter"
 			id: "78027A6E31F4B0FB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2E2DE3259ACF7106"
-				table_id: 2258866243659860760L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E2DE3259ACF7106"
+					table_id: 2258866243659860760L
+					type: "loot"
+				}
+				{
+					count: 20
+					id: "06E6A53B2D61FB27"
+					item: {
+						Count: 1
+						id: "create:sturdy_sheet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0BEF1C12539B74BF"
+					item: {
+						Count: 1
+						id: "create:brass_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "312EE93583385B19"
+					table_id: 8335359214078514711L
+					type: "loot"
+				}
+			]
 			shape: "gear"
 			subtitle: "Combine electricity with mechanical gears. You will enjoy the result."
 			tasks: [
@@ -1328,12 +2060,54 @@
 			dependencies: ["78027A6E31F4B0FB"]
 			icon: "create:train_door"
 			id: "6B3CEFB182D3549E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5C20B2053B872D08"
-				table_id: 2258866243659860760L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C20B2053B872D08"
+					table_id: 2258866243659860760L
+					type: "loot"
+				}
+				{
+					count: 32
+					id: "15D95627EDA53BB2"
+					item: {
+						Count: 1
+						id: "create:brass_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "334B7ACDFACEF73D"
+					item: {
+						Count: 1
+						id: "minecraft:raw_copper"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 24
+					id: "061862E9F7BC849C"
+					item: {
+						Count: 1
+						id: "create:polished_rose_quartz"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2A4A412BA94946A4"
+					item: {
+						Count: 1
+						id: "minecraft:raw_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			subtitle: "It's time for you to go through the next steps of creating a train. Customize it."
 			tasks: [
@@ -1373,12 +2147,20 @@
 			dependencies: ["6B3CEFB182D3549E"]
 			icon: "create:brass_sheet"
 			id: "43F50BB6332D47B6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3CE64856D559D920"
-				table_id: 2258866243659860760L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CE64856D559D920"
+					table_id: 2258866243659860760L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14FACB6BB207A6E8"
+					table_id: 8030932980377919188L
+					type: "loot"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Is it me or is it getting hot in here?"
@@ -1419,12 +2201,20 @@
 			dependencies: ["43F50BB6332D47B6"]
 			icon: "create:brass_sheet"
 			id: "61C56B3D97928AEC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "788C4FD4A922171B"
-				table_id: 2258866243659860760L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "788C4FD4A922171B"
+					table_id: 2258866243659860760L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36ABBA8E08C159B1"
+					table_id: 8030932980377919188L
+					type: "loot"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "So many things could be done with brass it's almost a shame piglins don't trade it. Or do they?"
@@ -1465,12 +2255,20 @@
 			dependencies: ["61C56B3D97928AEC"]
 			icon: "create:brass_sheet"
 			id: "750DBCFF75F14F74"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6279F240B4693F85"
-				table_id: 2258866243659860760L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6279F240B4693F85"
+					table_id: 2258866243659860760L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "496D8974E3BAB7CF"
+					table_id: 8030932980377919188L
+					type: "loot"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "There is an old piglin say 'Brass, Gass or ^#$@'. Sorry"
@@ -1511,12 +2309,20 @@
 			dependencies: ["750DBCFF75F14F74"]
 			icon: "create:brass_sheet"
 			id: "67361C58734AACB4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "053E06F2718D0ED1"
-				table_id: 2258866243659860760L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "053E06F2718D0ED1"
+					table_id: 2258866243659860760L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "166501CC19ED3EBC"
+					table_id: 8030932980377919188L
+					type: "loot"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Have you ever tried to build a rotation speed controller? you should..."
@@ -1557,12 +2363,34 @@
 			dependencies: ["67361C58734AACB4"]
 			icon: "create:mechanical_pump"
 			id: "44D245C1AD9FBBD8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "70A50957FFDCCFB1"
-				table_id: 2258866243659860760L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70A50957FFDCCFB1"
+					table_id: 2258866243659860760L
+					type: "loot"
+				}
+				{
+					count: 32
+					id: "5C31CFED16ED113B"
+					item: {
+						Count: 1
+						id: "minecraft:raw_copper"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "72F6B5BDB5C07DA9"
+					item: {
+						Count: 1
+						id: "minecraft:raw_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "It must be really complex to create a mechanism to power a mechanism..."
@@ -1589,12 +2417,44 @@
 			dependencies: ["44D245C1AD9FBBD8"]
 			icon: "createaddition:copper_spool"
 			id: "4E5448E6F9C9CB46"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "61E9DE4155F5B657"
-				table_id: 7630883328603398372L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61E9DE4155F5B657"
+					table_id: 7630883328603398372L
+					type: "loot"
+				}
+				{
+					count: 32
+					id: "4CAE74CD7D68A1E5"
+					item: {
+						Count: 1
+						id: "minecraft:raw_copper"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4FE2797E607D68A5"
+					item: {
+						Count: 1
+						id: "create:raw_zinc"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "195BAA0FCE1983AE"
+					item: {
+						Count: 1
+						id: "minecraft:redstone"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Dan, stop probing the power outlets"
@@ -1621,12 +2481,44 @@
 			dependencies: ["4E5448E6F9C9CB46"]
 			icon: "createaddition:capacitor"
 			id: "780CD360D8309941"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5A85F0100C9255EF"
-				table_id: 7630883328603398372L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A85F0100C9255EF"
+					table_id: 7630883328603398372L
+					type: "loot"
+				}
+				{
+					count: 10
+					id: "6FA0F9527F02574B"
+					item: {
+						Count: 1
+						id: "minecraft:slime_ball"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "60DF5737D691ADF1"
+					item: {
+						Count: 1
+						id: "minecraft:raw_gold"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "44D5D557B1204A07"
+					item: {
+						Count: 1
+						id: "create:andesite_alloy"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Dan, you gotta stop using trifazic setup"
@@ -1653,12 +2545,50 @@
 			dependencies: ["780CD360D8309941"]
 			icon: "createaddition:large_connector"
 			id: "1855BA361163B738"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0E3BF4ADB12CED6A"
-				table_id: 7630883328603398372L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E3BF4ADB12CED6A"
+					table_id: 7630883328603398372L
+					type: "loot"
+				}
+				{
+					count: 24
+					id: "2371DB5132B8E768"
+					item: {
+						Count: 1
+						id: "create:raw_zinc"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 24
+					id: "015D39900425EE99"
+					item: {
+						Count: 1
+						id: "minecraft:raw_copper"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 24
+					id: "435B502DE5A2ECAC"
+					item: {
+						Count: 1
+						id: "minecraft:raw_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AE200B742548B1A"
+					table_id: 8030932980377919188L
+					type: "loot"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Dan, i still don't get it why you play with the copper wires."
@@ -1685,6 +2615,44 @@
 			dependencies: ["1855BA361163B738"]
 			icon: "createaddition:electric_motor"
 			id: "7F3E2F7B96830589"
+			rewards: [
+				{
+					count: 24
+					id: "4112AD8A4BB00C53"
+					item: {
+						Count: 1
+						id: "minecraft:raw_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 24
+					id: "4A5E015F5633C833"
+					item: {
+						Count: 1
+						id: "create:raw_zinc"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 24
+					id: "0ECDF7C3EC1B60EB"
+					item: {
+						Count: 1
+						id: "minecraft:raw_copper"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29C0C6F42C16DB1B"
+					table_id: 8030932980377919188L
+					type: "loot"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Dan, you can sell the copper to Nitro"
@@ -1711,12 +2679,44 @@
 			dependencies: ["6DE71E10476B3A51"]
 			icon: "refinedstorage:quartz_enriched_iron"
 			id: "2E35923A446BEF34"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "191C28B33BD20FE8"
-				table_id: 2258866243659860760L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "191C28B33BD20FE8"
+					table_id: 2258866243659860760L
+					type: "loot"
+				}
+				{
+					count: 32
+					id: "6177175402A4F93A"
+					item: {
+						Count: 1
+						id: "minecraft:string"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "691D0EB3E7C9F972"
+					item: {
+						Count: 1
+						id: "minecraft:slime_ball"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "2267337EE24EF38E"
+					item: {
+						Count: 1
+						id: "minecraft:raw_gold"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "You've built a boiler, but your steam-powered dreams are still a bit… leaky."
@@ -2087,6 +3087,56 @@
 					table_id: 2258866243659860760L
 					type: "loot"
 				}
+				{
+					count: 2
+					id: "1E4709ACE79B4FB2"
+					item: {
+						Count: 1
+						id: "create:crushing_wheel"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1A33BC5A5E3B6BC8"
+					item: {
+						Count: 1
+						id: "minecraft:raw_iron"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1E1512BC5B7A93C8"
+					item: {
+						Count: 1
+						id: "minecraft:raw_copper"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1353B9E772DA3D5A"
+					item: {
+						Count: 1
+						id: "create:raw_zinc"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "03982B8856E79E35"
+					item: {
+						Count: 1
+						id: "minecraft:obsidian"
+						tag: { }
+					}
+					type: "item"
+				}
 			]
 			shape: "gear"
 			subtitle: "Time to iron some things out"
@@ -2127,12 +3177,20 @@
 			dependencies: ["7F3E2F7B96830589"]
 			icon: "createaddition:alternator"
 			id: "6DE71E10476B3A51"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "69728DCA3984E134"
-				table_id: 7630883328603398372L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69728DCA3984E134"
+					table_id: 7630883328603398372L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24D3690A436DD629"
+					table_id: 8030932980377919188L
+					type: "loot"
+				}
+			]
 			shape: "gear"
 			subtitle: "Dan, did you steal anything from Nitro?"
 			tasks: [
@@ -2225,7 +3283,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["6C78B9D6AF17502B"]
+			dependencies: ["045F1DF8071F3068"]
 			id: "4629A8BBA8DB5410"
 			rewards: [
 				{
@@ -2247,8 +3305,8 @@
 				item: "create:gantry_carriage"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 2.0d
+			x: -13.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["6C78B9D6AF17502B"]
@@ -4021,7 +5079,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["26C7C2CD409BC6A1"]
+			dependencies: ["38ABABF54424977D"]
 			id: "7E089A5D698316E5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -4035,8 +5093,8 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: 45.5d
-			y: 3.0d
+			x: 41.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["26C7C2CD409BC6A1"]
@@ -4072,7 +5130,7 @@
 				type: "item"
 			}]
 			x: 48.5d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7E692A6A11F10A53"]
@@ -4090,7 +5148,7 @@
 				type: "item"
 			}]
 			x: 48.5d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7E692A6A11F10A53"]
@@ -4916,63 +5974,19 @@
 		}
 		{
 			dependencies: ["045F1DF8071F3068"]
-			id: "277296E83B44B075"
+			id: "67CEECCDB4FCDC38"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7278B189957F2D7B"
+				id: "5CFAE4739A47F24A"
 				table_id: 5114688297455528537L
 				type: "loot"
 			}]
 			shape: "diamond"
 			tasks: [{
-				id: "322852074E957C8F"
+				id: "4D6900139D1AB513"
 				item: {
 					Count: 1
-					id: "extendedgears:half_shaft_cogwheel"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -12.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["045F1DF8071F3068"]
-			id: "1086720D8FFA361F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1B5E8C578D16CC26"
-				table_id: 5114688297455528537L
-				type: "loot"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "3CCB77050E6A56EF"
-				item: {
-					Count: 1
-					id: "extendedgears:large_half_shaft_cogwheel"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -12.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["045F1DF8071F3068"]
-			id: "43EE71CCD54FEB67"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "26F748408E474284"
-				table_id: 5114688297455528537L
-				type: "loot"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "1270979E86340D40"
-				item: {
-					Count: 1
-					id: "extendedgears:shaftless_cogwheel"
+					id: "create:chain_conveyor"
 					tag: { }
 				}
 				type: "item"
@@ -4981,26 +5995,682 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["045F1DF8071F3068"]
-			id: "33FDFE6286D65DFA"
+			dependencies: ["6651C1DA4616F92F"]
+			id: "42ABA2ABE01FD3C9"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4DFF5C78134D97C2"
-				table_id: 5114688297455528537L
+				id: "3363D0A6A513F0B1"
+				table_id: 5311133287388403848L
 				type: "loot"
 			}]
 			shape: "diamond"
+			tasks: [
+				{
+					id: "0E779EF04CE04351"
+					item: {
+						Count: 1
+						id: "create:white_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "26A4A6D148D7C39C"
+					item: {
+						Count: 1
+						id: "create:orange_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "446AC28C3958AAB5"
+					item: {
+						Count: 1
+						id: "create:magenta_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2AD20513D2B493D6"
+					item: {
+						Count: 1
+						id: "create:light_blue_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "667DA9911118C52B"
+					item: {
+						Count: 1
+						id: "create:yellow_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6C02013833653DB4"
+					item: {
+						Count: 1
+						id: "create:lime_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6067683F5B948193"
+					item: {
+						Count: 1
+						id: "create:pink_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "353841721ABF7DBD"
+					item: {
+						Count: 1
+						id: "create:gray_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3D09504E5D80C471"
+					item: {
+						Count: 1
+						id: "create:light_gray_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "746962D87CAC0AC9"
+					item: {
+						Count: 1
+						id: "create:cyan_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "525E7A8627432757"
+					item: {
+						Count: 1
+						id: "create:purple_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7CC26C054F619125"
+					item: {
+						Count: 1
+						id: "create:blue_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3B44CE1D1CF6C313"
+					item: {
+						Count: 1
+						id: "create:brown_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7F0EB10774A93ACB"
+					item: {
+						Count: 1
+						id: "create:green_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0F61A1D3F953F098"
+					item: {
+						Count: 1
+						id: "create:red_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3B1B5E68A8F5D5C3"
+					item: {
+						Count: 1
+						id: "create:black_postbox"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -29.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6651C1DA4616F92F"]
+			id: "5A162D3023C45353"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75CB8AA6485C2AD3"
+				table_id: 5311133287388403848L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "552EED0174EC4F8F"
+					item: {
+						Count: 1
+						id: "create:red_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7736ED3811860A57"
+					item: {
+						Count: 1
+						id: "create:white_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "088AD477DA3624BC"
+					item: {
+						Count: 1
+						id: "create:orange_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7090C293BFBDE007"
+					item: {
+						Count: 1
+						id: "create:magenta_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5DD86F83D4807F92"
+					item: {
+						Count: 1
+						id: "create:light_blue_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6F2C89E05F6A9B84"
+					item: {
+						Count: 1
+						id: "create:yellow_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "06C3B86A216D1441"
+					item: {
+						Count: 1
+						id: "create:lime_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5F279A8CD2D4176A"
+					item: {
+						Count: 1
+						id: "create:pink_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "21E6C9C3EE380C59"
+					item: {
+						Count: 1
+						id: "create:gray_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2424156D66066988"
+					item: {
+						Count: 1
+						id: "create:light_gray_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2019D87BA9F34A81"
+					item: {
+						Count: 1
+						id: "create:cyan_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "65FBF92BE7EB1805"
+					item: {
+						Count: 1
+						id: "create:purple_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "621A1437E569E75D"
+					item: {
+						Count: 1
+						id: "create:blue_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3E5A5F347F5F3A79"
+					item: {
+						Count: 1
+						id: "create:brown_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "61DE8972786DAB26"
+					item: {
+						Count: 1
+						id: "create:green_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1F6E04F8439CAF81"
+					item: {
+						Count: 1
+						id: "create:black_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7C5D4F5EAA2502E3"
+					item: {
+						Count: 1
+						id: "create:andesite_table_cloth"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -26.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2CE4309590602786"]
+			id: "3380ECE4E5EBC375"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BC464965F09D6E1"
+				table_id: 8416799693202012898L
+				type: "loot"
+			}]
+			shape: "square"
 			tasks: [{
-				id: "74E4D6C63F68C07D"
+				id: "74EAE3BC1697BAC4"
 				item: {
 					Count: 1
-					id: "extendedgears:large_shaftless_cogwheel"
+					id: "create:redstone_requester"
 					tag: { }
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2CE4309590602786"]
+			id: "232A1E56D3372C68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C939178279B90B3"
+				table_id: 8416799693202012898L
+				type: "loot"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "09ECD07CC60989A1"
+				item: {
+					Count: 1
+					id: "create:stock_link"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48D35FB15EED1E1B"]
+			id: "2BF89513E62A333E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D0ACA173412A8F2"
+					table_id: 7127256016725304530L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19886C4D95A75DA4"
+					table_id: 1393127471641727503L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1A56B25F49B2D45C"
+				item: {
+					Count: 1
+					id: "create:desk_bell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48D35FB15EED1E1B"]
+			id: "7AD0B82EFB14E674"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2990859599142739"
+					table_id: 1393127471641727503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E4249748DB7FD82"
+					table_id: 7127256016725304530L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2DF7A423524E4C81"
+				item: {
+					Count: 1
+					id: "create:pulse_timer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E692A6A11F10A53"]
+			id: "1A43E4EE23C81858"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "762C77C107BCA05A"
+				table_id: 4720347049405407962L
+				type: "loot"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5433F5BB1F89F6E6"
+				item: {
+					Count: 1
+					id: "create:factory_gauge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 48.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6651C1DA4616F92F"]
+			id: "45CC0A6BEB67EFFD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13C0EB287B6A0A6F"
+				table_id: 5311133287388403848L
+				type: "loot"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2E9DFAECD18E866C"
+				item: {
+					Count: 1
+					id: "create:item_hatch"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A23092E92C3E358"]
+			id: "4A0824E485D99B34"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59A443D96582434A"
+				table_id: 8335359214078514711L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1D50B2609A7B5164"
+				item: {
+					Count: 1
+					id: "create:cardboard_block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7A23092E92C3E358"]
+			id: "0D7682B85D17D6ED"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63C6DE7CA5D24CA5"
+					table_id: 8416799693202012898L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "671346860726257C"
+					table_id: 1393127471641727503L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "2E534D329631BE36"
+				item: {
+					Count: 1
+					id: "create:packager"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 22.5d
 			y: 5.5d
+		}
+		{
+			dependencies: ["7A23092E92C3E358"]
+			id: "3AB48376729DE781"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06B506AA632F82BA"
+				table_id: 1393127471641727503L
+				type: "loot"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3F5EDE834D76C0C3"
+				item: {
+					Count: 1
+					id: "create:repackager"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2CE4309590602786"]
+			id: "3012E1124A53A824"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35FEAC9526070CDF"
+				table_id: 8416799693202012898L
+				type: "loot"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1B98FE76C88005BC"
+				item: {
+					Count: 1
+					id: "create:stock_ticker"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2CE4309590602786"]
+			id: "0493D68497036084"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D7165742C815E92"
+				table_id: 8416799693202012898L
+				type: "loot"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3C6A439F1A08EB01"
+				item: {
+					Count: 1
+					id: "create:package_frogport"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["48D35FB15EED1E1B"]
+			id: "5C9341462BA6AA4D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "088254F3A375AD5D"
+					table_id: 1393127471641727503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "283337ADF3C11F18"
+					table_id: 7127256016725304530L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5CE22734ACA826FA"
+				item: {
+					Count: 1
+					id: "create:copper_table_cloth"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A23092E92C3E358"]
+			id: "3C87CBFDCD85BC11"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B1F1F9C3C5049EF"
+				table_id: 1393127471641727503L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "424603D35C633FC3"
+				item: {
+					Count: 1
+					id: "create:brass_table_cloth"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
 		}
 	]
 	subtitle: ["Embrance the industrialization"]
