@@ -663,7 +663,7 @@
 			}]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Kill superwoman found in the temple like structures"
+			subtitle: "Find the valkyrie queen in the temple"
 			tasks: [{
 				entity: "aether:valkyrie_queen"
 				id: "2F2F52FC4997EE9E"
@@ -710,6 +710,7 @@
 							Damage: 0
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -721,6 +722,7 @@
 							Damage: 0
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -732,6 +734,7 @@
 							Damage: 0
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -743,6 +746,7 @@
 							Damage: 0
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 			]

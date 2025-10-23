@@ -267,7 +267,6 @@
 				type: "choice"
 			}]
 			size: 2.0d
-			subtitle: "Smells like vegans"
 			tasks: [{
 				dimension: "undergarden:undergarden"
 				id: "500A7E6E286D64F5"
