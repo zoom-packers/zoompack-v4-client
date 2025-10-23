@@ -3,7 +3,7 @@ function printDialogueOverlay(player, speaker, text, renderType, renderTarget) {
     // Max X Offset (This is where the dialogue will be after the fade-in animation)
     const MaxX = 5;
     // Min X Offset (This is where the dialogue will fade-in from and fade-out to)
-    const MinX = -100;
+    const MinX = -400;
     // Display time (in seconds)
     const DisplayDuration = 5;
     // The overall Y Offset
