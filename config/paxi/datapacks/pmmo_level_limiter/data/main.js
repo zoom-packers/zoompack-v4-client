@@ -4,6 +4,7 @@ const {deleteAllItemsNotGenerated} = require("./processor");
 function modifyFullSets() {
     // Overworld
     
+    processor.modifySetRequirements("create", "cardboard", 1, "armor");
     processor.modifySingleItem("minecraft", "elytra", "chestplate", 1);
     processor.modifySingleItem("enderitemod", "enderite_elytra", "chestplate", 1);
     processor.modifySingleItem("enderitemod", "enderite_elytra_seperated", "chestplate", 1);
