@@ -1,23 +1,24 @@
 const SUMMONING_COOLDOWN = 30*20
 
-//cooldowns {playerUUID:{blockId: timestamp}}
+// cooldowns {playerUUID:{blockId: timestamp}}
 const cooldowns = {}
 
+// block behaviour
 BlockEvents.rightClicked(event => {
-  onRightClick(event, 'kubejs:roka_spawner', 'kubejs:roka_crystal','theabyss:the_roka');
-  onRightClick(event, 'kubejs:magician_spawner', 'kubejs:magician_crystal', 'theabyss:magician');
-  onRightClick(event, 'kubejs:elder_spawner', 'kubejs:elder_crystal', 'theabyss:elder');
-  onRightClick(event, 'kubejs:abyssaur_spawner', 'kubejs:abyssaur_crystal', 'theabyss:abyssaur');
-  onRightClick(event, 'kubejs:crystal_golem_spawner', 'kubejs:crystal_golem_crystal', 'theabyss:crystal_golem');
+  onRightClick(event, 'theabyss:roka_spawner', 'theabyss:roka_crystal','theabyss:the_roka');
+  onRightClick(event, 'theabyss:magician_spawner', 'theabyss:magician_crystal', 'theabyss:magician');
+  onRightClick(event, 'theabyss:elder_spawner', 'theabyss:elder_crystal', 'theabyss:elder');
+  onRightClick(event, 'theabyss:abyssaur_spawner', 'theabyss:abyssaur_crystal', 'theabyss:abyssaur');
+  onRightClick(event, 'theabyss:crystal_golem_spawner', 'theabyss:crystal_golem_crystal', 'theabyss:crystal_golem');
 })
 
-
+// item recipes
 ServerEvents.recipes(event => {
-  craftingRecipes(event, 'kubejs:roka_crystal','minecraft:goat_horn');
-  craftingRecipes(event, 'kubejs:crystal_golem_crystal', 'minecraft:amethyst_cluster');
-  craftingRecipes(event, 'kubejs:abyssaur_crystal', 'naturalist:lizard_tail');
-  craftingRecipes(event, 'kubejs:elder_crystal', 'call_of_yucutan:elder_bone');
-  craftingRecipes(event, 'kubejs:magician_crystal', 'irons_spellbooks:ancient_knowledge_fragment');
+  abyssCrystalCraftingRecipes(event, 'theabyss:roka_crystal','minecraft:goat_horn');
+  abyssCrystalCraftingRecipes(event, 'theabyss:crystal_golem_crystal', 'minecraft:amethyst_cluster');
+  abyssCrystalCraftingRecipes(event, 'theabyss:abyssaur_crystal', 'naturalist:lizard_tail');
+  abyssCrystalCraftingRecipes(event, 'theabyss:elder_crystal', 'call_of_yucutan:elder_bone');
+  abyssCrystalCraftingRecipes(event, 'theabyss:magician_crystal', 'irons_spellbooks:ancient_knowledge_fragment');
 })
 
 function onRightClick(event, blockId, itemId, mobId){
@@ -53,7 +54,7 @@ function onRightClick(event, blockId, itemId, mobId){
   event.cancel()
 }
 
-function craftingRecipes(event, outItemId, inItemId){
+function abyssCrystalCraftingRecipes(event, outItemId, inItemId){
   event.shaped(
     Item.of(outItemId, 1),
     [
