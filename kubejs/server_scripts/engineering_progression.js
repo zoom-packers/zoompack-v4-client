@@ -1046,8 +1046,6 @@ let lockedBlocksPmmoLevels = {
     "create:yellow_table_cloth":5,
     "create:andesite_table_cloth":5,
 
-
-
     "create:shaft": 6,
     "create:turntable": 6,
     "create:gantry_shaft": 6,
@@ -1068,10 +1066,6 @@ let lockedBlocksPmmoLevels = {
     "create:large_cogwheel": 7,
     "copycats:copycat_cogwheel": 7,
     "copycats:copycat_large_cogwheel": 7,
-    "extendedgears:half_shaft_cogwheel": 7,
-    "extendedgears:large_half_shaft_cogwheel": 7,
-    "extendedgears:shaftless_cogwheel": 7,
-    "extendedgears:large_shaftless_cogwheel": 7,
 
     "create:water_wheel": 8,
     "create:gearshift": 8,
@@ -1087,7 +1081,7 @@ let lockedBlocksPmmoLevels = {
     "create:andesite_tunnel": 9,
 
     
-    "pulse_timer": 10,
+    "create:pulse_timer": 10,
     "create:encased_fan": 10,
     "create:nozzle": 10,
     "create:mechanical_press": 10,
@@ -1123,17 +1117,17 @@ let lockedBlocksPmmoLevels = {
     "create:rope_pulley": 11,
     "create:contraption_controls": 11,
 
-    "package_frogport": 12,
-    "redstone_requester": 12,
-    "stock_link": 12,
-    "stock_ticker": 12,
+    "create:package_frogport": 12,
+    "create:redstone_requester": 12,
+    "create:stock_link": 12,
+    "create:stock_ticker": 12,
     "create:item_vault": 12,
 
-    "repackager": 15,
-    "packager": 15,
-    "cardboard_block": 15,
-    "bound_cardboard_block": 15,
-    "brass_table_cloth": 15,
+    "create:repackager": 15,
+    "create:packager": 15,
+    "create:cardboard_block": 15,
+    "create:bound_cardboard_block": 15,
+    "create:brass_table_cloth": 15,
     "createlowheated:basic_burner": 15,
     "create:mechanical_mixer": 15,
     "createaddition:rolling_mill": 15,
@@ -1149,7 +1143,7 @@ let lockedBlocksPmmoLevels = {
     "create:portable_fluid_interface": 15,
     "create:portable_storage_interface": 15,
 
-    "factory_gauge": 16,
+    "create:factory_gauge": 16,
     "create:brass_casing": 16,
     "create:brass_door": 16,
     "create:weighted_ejector": 16,
