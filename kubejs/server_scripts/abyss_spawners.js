@@ -50,7 +50,7 @@ function onRightClick(event, blockId, itemId, mobId){
   mob.spawn()
 
   // Sound effect
-  level.playSound(null, block.x, block.y, block.z, 'minecraft:entity.enderman.teleport', 'blocks', 1, 1)
+  level.playSound(null, block.x, block.y, block.z, 'minecraft:block.end_portal.spawn', 'blocks', 1, 1)
   event.cancel()
 }
 
