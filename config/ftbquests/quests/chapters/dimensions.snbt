@@ -2375,10 +2375,20 @@
 		{
 			dependencies: ["025294015F77A53B"]
 			description: [
-				"&2&lPrepare for Battle!&r&r"
+				"&2&lHow to Find the Abyssaur’s Location&r&r"
+				"&e&lEnter the Abyss Dimension:&r&r Begin your descent into the &8Abyss Dimension&r by constructing a portal frame from &5Unstable Obsidian&r and activating it with an &bAbyss Portal Activator&r. Step through the swirling darkness into a realm where ancient beasts and forgotten powers dwell beneath the surface of time. Prepare yourself well — the Abyss tests both strength and endurance."
 				""
+				"&e&lLocate the Blue Jungle Biome:&r&r Deep within the Abyss lies the &9Blue Jungle&r — a dense, glowing forest where bioluminescent plants and vines shimmer in the eternal twilight. The air hums with energy, and the ground pulses faintly beneath your feet. As you push deeper into the jungle, the vegetation grows thicker, and the sounds of unseen creatures echo through the mist. Somewhere among this living maze lies the entrance to the Abyssaur’s domain."
 				""
-				"In the blue jungle biome search for the abyssaur's arena."
+				"&e&lDiscover the Arena’s Entrance:&r&r Hidden in the heart of the Blue Jungle stands the &cAbyssaur’s Arena&r — a massive colosseum forged from &8dark abyssal stone&r and &7shadowed marble&r. Its towering walls are covered in vines glowing with faint blue light, and the ground is cracked and ancient, scarred by battles long past. The arena’s structure radiates void energy, its silence broken only by the faint rumble of something stirring beneath."
+				""
+				"&e&lActivate the Altar:&r&r At the arena’s center lies a grand altar engraved with spiraling runes that pulse with abyssal light. To awaken the arena’s guardian, place an &bAbyssaur Crystal&r upon the altar. As the crystal merges into the stone, the ground trembles and the air thickens with void energy — heralding the arrival of &4The Abyssaur&r, a colossal dinosaur-like entity born of shadow and blue flame."
+				""
+				"&e&lFace the Abyssaur, the Voidscale Tyrant:&r&r The Abyssaur towers above the battlefield, its body covered in gleaming scales infused with &9blue void energy&r. Each movement sends ripples of darkness across the arena. It roars with fury, unleashing waves of corruption that debuff the player — sapping strength, slowing movement, and draining vitality. Its claws can tear through stone, and its breath carries a haze that weakens all caught within it. The arena itself reacts to its presence, cracks glowing as the void seeps through."
+				""
+				"&e&lClaim the Abyssaur’s Rewards:&r&r When the beast finally falls, its massive form collapses into blue mist, leaving behind its &6rewards&r — scales radiating with void energy, rare abyssal materials, and enchanted relics forged from pure darkness. These items hold great power and can be used to craft some of the most formidable gear in the Abyss."
+				""
+				"Enter the Blue Jungle, awaken the colosseum’s sleeping guardian, and face &4The Abyssaur&r — a void-born predator of ancient times. Only those who can withstand its curses and fury will survive the trial of the Voidscale Tyrant."
 			]
 			icon: {
 				Count: 1
@@ -2403,10 +2413,20 @@
 		{
 			dependencies: ["025294015F77A53B"]
 			description: [
-				"&2&lPrepare for Battle!&r&r"
+				"&2&lHow to Find the Elder’s Location&r&r"
+				"&e&lEnter the Abyss Dimension:&r&r Begin your journey into darkness by crafting a portal frame from &5Unstable Obsidian&r and igniting it with an &bAbyss Portal Activator&r. Step through into the &8Abyss Dimension&r — a vast, shadowed world where ancient creatures still roam and forgotten powers lie buried beneath stone and time. Make sure you’re fully equipped, for few who enter the Abyss return unscathed."
 				""
+				"&e&lLocate the Blue Mountains Biome:&r&r Deep within the Abyss lies the &9Blue Mountains&r — a sprawling biome of towering peaks and steep cliffs glowing faintly with blue luminescence. The air is cool and heavy with mist, and strange echoes rumble across the valleys. Follow the trails of crystal dust and the sound of distant roars to discover what lies hidden among the mountains."
 				""
-				"In the blue mountains biome search for the elder's arena."
+				"&e&lDiscover the Arena’s Entrance:&r&r Nestled high among the mountain ridges stands the &cElder’s Arena&r — a massive temple-like structure resembling an ancient Greek sanctuary. Built from dark stone, abyssal marble, and fractured obsidian, its towering columns and cracked statues speak of an age long past. The air around the temple vibrates with primal energy, and the ground is littered with fossilized bones — remnants of the Elder’s fallen challengers."
+				""
+				"&e&lActivate the Altar:&r&r At the center of the temple stands a colossal altar carved from shadowstone and lined with glowing runes. To awaken the guardian within, place an &bElder Crystal&r upon the altar. Once placed, the temple will rumble and shake as the runes flare to life, summoning &4The Elder&r — a massive, dinosaur-like Abyssal beast that has ruled these mountains for ages."
+				""
+				"&e&lFace the Elder, the Abyssal Behemoth:&r&r The Elder is an ancient creature of immense size and strength, its scales forged from dark crystal and its eyes burning with blue flame. It attacks with bone-shaking stomps, thunderous roars, and sweeps of its tail capable of shattering stone pillars. The arena will quake as it charges and leaps, forcing you to dodge and strike strategically while avoiding falling debris from the collapsing ceiling."
+				""
+				"&e&lClaim the Elder’s Rewards:&r&r When the mighty beast finally falls, the temple will fall silent, and the glow of its runes will fade into stillness. Gather the &6rewards&r it leaves behind — fragments of its crystal spine, rare abyssal materials, and enchanted relics pulsing with primal energy. These items are said to carry the essence of the Elder’s ancient power, granting strength beyond mortal limits."
+				""
+				"Venture into the Blue Mountains, awaken the primal guardian within the dark temple, and face &4The Elder&r — the last of the ancient abyssal titans. Only the strongest will survive the roar of the mountain king."
 			]
 			icon: {
 				Count: 1
@@ -2431,10 +2451,20 @@
 		{
 			dependencies: ["025294015F77A53B"]
 			description: [
-				"&2&lPrepare for Battle!&r&r"
+				"&2&lHow to Find the Golem’s Location&r&r"
+				"&e&lEnter the Abyss Dimension:&r&r Begin your search by entering the &8Abyss Dimension&r through a portal crafted from &5Unstable Obsidian&r and activated with an &bAbyss Portal Activator&r. The Abyss is a strange and shifting world, filled with eerie light, ancient structures, and creatures born of void energy. Prepare yourself well before venturing in."
 				""
+				"&e&lLocate the Slime Forest Biome:&r&r Deep within the Abyss lies the &aSlime Forest&r — a surreal, gelatinous biome where the ground squelches beneath your feet and the air glows faintly green. The landscape is dotted with massive slime-like trees and strange, bouncing flora. The closer you get to the arena, the more you’ll notice clusters of translucent slime blocks covering the terrain."
 				""
-				"In the slime forest biome search for the golem's dome."
+				"&e&lDiscover the Arena’s Entrance:&r&r Hidden in the heart of the Slime Forest stands a magnificent &dcrystal dome&r — the &cGolem’s Arena&r. The structure shimmers with translucent glass panels, reflecting the dim abyssal light in hues of violet and blue. Amethyst crystals pierce through the glass walls, and tendrils of abyssal vegetation creep along the interior, filling the arena with a haunting glow. The ground around the dome is slick with slime-like residue, marking the territory of its guardian."
+				""
+				"&e&lActivate the Altar:&r&r At the arena’s center lies an ancient altar formed from fractured glass and crystal. To awaken the guardian, place a &bCrystal Golem’s Crystal&r upon it. Once the crystal merges with the altar, the dome will resonate with deep vibrations as &3The Crystal Golem&r rises from the arena floor, its body gleaming with shards of amethyst and pulsating abyssal energy."
+				""
+				"&e&lFace the Crystal Golem:&r&r The Crystal Golem is a towering sentinel of the Abyss, capable of launching crystal projectiles and summoning waves of energy that shatter the ground. Its armor is nearly impenetrable, forcing you to strike strategically at its weak points as it channels power from the crystals around the dome. The arena’s reflective glass amplifies the battle’s light and chaos, making every strike a test of clarity and precision."
+				""
+				"&e&lClaim the Golem’s Rewards:&r&r Upon defeating the Crystal Golem, the dome will quiet, and shards of glowing crystal will rain down. Collect the &6rewards&r left behind — rare crystal fragments, abyssal minerals, and enchanted gear infused with the essence of the Golem itself. These materials hold immense power, useful for crafting advanced equipment and unlocking new knowledge within the Abyss."
+				""
+				"Only those who can brave the gelatinous wilds of the Slime Forest and awaken the Crystal Golem within its glassy sanctuary will uncover the true secrets of the Abyss."
 			]
 			icon: {
 				Count: 1
@@ -2459,10 +2489,20 @@
 		{
 			dependencies: ["025294015F77A53B"]
 			description: [
-				"&2&lPrepare for Battle!&r&r"
+				"&2&lHow to Find Roka’s Arena&r&r"
+				"&e&lEnter the Abyss Dimension:&r&r Begin your journey by constructing a portal frame from &5Unstable Obsidian&r. Once built, ignite it with an &bAbyss Portal Activator&r to open a swirling gateway to the &8Abyss Dimension&r — a realm of shadow, ancient energy, and perilous beauty. Prepare thoroughly before entering, as this world is as deadly as it is mysterious."
 				""
+				"&e&lLocate the Blue Jungle Biome:&r&r Within the depths of the Abyss lies the &9Blue Jungle&r, a vast biome bathed in soft blue light. Its glowing plants, bioluminescent trees, and drifting mist create an otherworldly atmosphere. The deeper you go, the denser the air becomes with abyssal energy — a sign that you’re nearing something powerful."
 				""
-				"In the blue jungle biome search for the roka's tower."
+				"&e&lDiscover the Arena’s Entrance:&r&r Hidden at the heart of the Blue Jungle stands &cRoka’s Arena&r — a massive, timeworn colosseum built from dark, weathered materials. The structure is forged from cold stone, cracked frost bricks, and rough gravel, giving it a heavy, ancient presence. Around its arches and gates grows purple, eerie wood that seems almost alive, pulsing faintly with energy from the Abyss. The arena feels silent, yet watchful — as if it remembers the battles once fought within."
+				""
+				"&e&lActivate the Altar:&r&r At the arena’s center lies an ancient altar etched with glowing runes. To summon the arena’s guardian, place a &bRoka Crystal&r upon it. As the crystal fuses with the altar, the ground will tremble and the air will darken — heralding the arrival of &4Roka, the Abyssal Champion&r."
+				""
+				"&e&lFace Roka, the Abyssal Champion:&r&r Roka is a fierce abyssal entity, wielding strength and fury born from the void. His attacks mix raw physical power with waves of blue flame and crackling void energy. During the battle, the arena may shift — stones breaking loose, energy fields forming — turning the fight into a chaotic test of endurance and precision."
+				""
+				"&e&lClaim the Champion’s Rewards:&r&r When Roka is defeated, his essence fades into the air, leaving behind &6rare abyssal treasures&r — enchanted relics, powerful materials, and fragments of his core. These rewards carry the essence of the Abyss itself, capable of unlocking deeper mysteries or forging powerful new gear."
+				""
+				"Steel your resolve, traveler — beyond the unstable portal lies the forsaken colosseum of Roka’s Arena, where darkness, strength, and ancient power converge."
 			]
 			icon: {
 				Count: 1
@@ -2487,10 +2527,20 @@
 		{
 			dependencies: ["025294015F77A53B"]
 			description: [
-				"&2&lPrepare for Battle!&r&r"
+				"&2&lHow to Find the Magician’s Location&r&r"
+				"&e&lEnter the Abyss Dimension:&r&r Begin your journey by building a portal from &5Unstable Obsidian&r and activating it with an &bAbyss Portal Activator&r. Step through into the &8Abyss Dimension&r — a shadowed realm of ancient power, where danger lurks in every corner and forgotten knowledge waits for those bold enough to seek it."
 				""
+				"&e&lLocate the Blue Mountains Biome:&r&r Within the Abyss lies the &9Blue Mountains&r — a towering biome of jagged cliffs and glowing peaks. Mist drifts between the rocky spires, and the air hums faintly with magical energy. Hidden among the craggy terrain, the silhouette of a tall, ominous structure signals the location of your next challenge."
 				""
-				"In the blue mountains biome search for the magicians tower."
+				"&e&lDiscover the Arena’s Entrance:&r&r Rising above the mountain peaks is the &cMagician’s Arena&r — a towering structure built from &8abyssal bricks&r, rough &7stone&r, and reinforced with &5ancient bones&r. Its spires pierce the sky, and eerie lights flicker through cracks in the walls. The tower’s presence dominates the mountains, radiating dark magic that pulses with every heartbeat."
+				""
+				"&e&lActivate the Altar:&r&r At the very top of the tower lies the altar, carved from bone and engraved with glowing runes. To awaken the guardian, place a &bMagician’s Crystal&r upon the altar. The moment it is set, the air thickens with arcane energy, and &4The Abyssal Magician&r appears, materializing from swirling shadows at the pinnacle of the tower."
+				""
+				"&e&lFace the Abyssal Magician:&r&r The Magician wields immense arcane power, conjuring bolts of void energy, summoning protective barriers, and casting curses that sap strength and agility. The fight is a battle of wit as much as skill — dodging spells, breaking shields, and finding openings to strike. The tower itself may react to the magic, with fragments of stone or bone falling from the heights, adding danger to every move."
+				""
+				"&e&lClaim the Magician’s Rewards:&r&r When the Abyssal Magician falls, the dark aura around the tower dissipates. Collect the &6rewards&r left behind — enchanted relics, rare abyssal materials, and fragments of the magician’s crystal, each imbued with potent magical energy capable of enhancing your power or unlocking deeper secrets of the Abyss."
+				""
+				"Ascend the Blue Mountains, scale the towering spire, and face &4The Abyssal Magician&r — only those who master the arcane and survive the trials at the top will claim the secrets of the tower."
 			]
 			icon: {
 				Count: 1

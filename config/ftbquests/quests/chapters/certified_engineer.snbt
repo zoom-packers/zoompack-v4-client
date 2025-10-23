@@ -2145,7 +2145,11 @@
 		}
 		{
 			dependencies: ["6B3CEFB182D3549E"]
-			icon: "create:brass_sheet"
+			icon: {
+				Count: 1
+				id: "create:cardboard_package_12x12"
+				tag: { }
+			}
 			id: "43F50BB6332D47B6"
 			rewards: [
 				{
@@ -2166,23 +2170,35 @@
 			subtitle: "Is it me or is it getting hot in here?"
 			tasks: [
 				{
-					count: 32L
+					count: 5L
 					id: "52C476B3914A3A25"
-					item: "create:brass_sheet"
+					item: {
+						Count: 1
+						id: "create:packager"
+						tag: { }
+					}
 					optional_task: true
 					type: "item"
 				}
 				{
-					count: 16L
+					count: 5L
 					id: "1F992364776B570C"
-					item: "create:mechanical_crafter"
+					item: {
+						Count: 1
+						id: "create:package_frogport"
+						tag: { }
+					}
 					optional_task: true
 					type: "item"
 				}
 				{
-					count: 8L
+					count: 5L
 					id: "6C5C2CD0A7A836CD"
-					item: "create:steam_engine"
+					item: {
+						Count: 1
+						id: "create:repackager"
+						tag: { }
+					}
 					optional_task: true
 					type: "item"
 				}
@@ -2193,7 +2209,7 @@
 					type: "pmmo:skill"
 				}
 			]
-			title: "Steam Power"
+			title: "Delivery power"
 			x: 65.25d
 			y: 3.0d
 		}
@@ -2253,7 +2269,11 @@
 		}
 		{
 			dependencies: ["61C56B3D97928AEC"]
-			icon: "create:brass_sheet"
+			icon: {
+				Count: 1
+				id: "minecraft:repeater"
+				tag: { }
+			}
 			id: "750DBCFF75F14F74"
 			rewards: [
 				{
@@ -2274,23 +2294,35 @@
 			subtitle: "There is an old piglin say 'Brass, Gass or ^#$@'. Sorry"
 			tasks: [
 				{
-					count: 32L
+					count: 5L
 					id: "4C068A02F2EA0207"
-					item: "create:brass_sheet"
+					item: {
+						Count: 1
+						id: "create:stock_link"
+						tag: { }
+					}
 					optional_task: true
 					type: "item"
 				}
 				{
-					count: 16L
+					count: 5L
 					id: "3F24847D8AF510B9"
-					item: "create:mechanical_crafter"
+					item: {
+						Count: 1
+						id: "create:stock_ticker"
+						tag: { }
+					}
 					optional_task: true
 					type: "item"
 				}
 				{
-					count: 8L
+					count: 5L
 					id: "3A55904A11E20442"
-					item: "create:steam_engine"
+					item: {
+						Count: 1
+						id: "create:pulse_timer"
+						tag: { }
+					}
 					optional_task: true
 					type: "item"
 				}
@@ -2301,13 +2333,17 @@
 					type: "pmmo:skill"
 				}
 			]
-			title: "Encased Flowers"
+			title: "Ticks and Links"
 			x: 68.25d
 			y: 3.0d
 		}
 		{
 			dependencies: ["750DBCFF75F14F74"]
-			icon: "create:brass_sheet"
+			icon: {
+				Count: 1
+				id: "create:rotation_speed_controller"
+				tag: { }
+			}
 			id: "67361C58734AACB4"
 			rewards: [
 				{
@@ -2330,7 +2366,11 @@
 				{
 					count: 32L
 					id: "608347DC8CB081F7"
-					item: "create:brass_sheet"
+					item: {
+						Count: 1
+						id: "createaddition:zinc_sheet"
+						tag: { }
+					}
 					optional_task: true
 					type: "item"
 				}
@@ -2342,17 +2382,40 @@
 					type: "item"
 				}
 				{
-					count: 8L
-					id: "48C80CC9712F2C3E"
-					item: "create:steam_engine"
-					optional_task: true
-					type: "item"
-				}
-				{
 					id: "11CE47651D20AF82"
 					requiredLevel: 29
 					skill: "engineering"
 					type: "pmmo:skill"
+				}
+				{
+					count: 8L
+					id: "069B46158347674A"
+					item: {
+						Count: 8
+						id: "create:adjustable_chain_gearshift"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "13D7806CE4E28EDD"
+					item: {
+						Count: 1
+						id: "create:rotation_speed_controller"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "304748EA8DC7A83C"
+					item: {
+						Count: 1
+						id: "create:cogwheel"
+						tag: { }
+					}
+					type: "item"
 				}
 			]
 			title: "Fast Gear Rotation"
@@ -2743,12 +2806,34 @@
 			dependencies: ["2E35923A446BEF34"]
 			icon: "refinedstorage:improved_processor"
 			id: "77D03AFA8E539D20"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "05B28FE245ABB104"
-				table_id: 2258866243659860760L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "05B28FE245ABB104"
+					table_id: 2258866243659860760L
+					type: "loot"
+				}
+				{
+					count: 6
+					id: "03837204C58FEDB3"
+					item: {
+						Count: 1
+						id: "refinedstorage:improved_processor"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1D8CD61FF095961C"
+					item: {
+						Count: 1
+						id: "minecraft:quartz"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "You see gears spinning, and you hear music. Wait, why is everything moving on its own?!"
@@ -2775,12 +2860,54 @@
 			dependencies: ["77D03AFA8E539D20"]
 			icon: "refinedstorage:silicon"
 			id: "0659DCCA55156EC2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "20C7CC9A868C8F68"
-				table_id: 2258866243659860760L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20C7CC9A868C8F68"
+					table_id: 2258866243659860760L
+					type: "loot"
+				}
+				{
+					count: 16
+					id: "78A50181B27D4293"
+					item: {
+						Count: 1
+						id: "minecraft:quartz"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "53EE253BBEB5FAA5"
+					item: {
+						Count: 1
+						id: "refinedstorage:silicon"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "713D4A1E044071A8"
+					item: {
+						Count: 1
+						id: "refinedstorage:raw_improved_processor"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "398C216FBD6598A0"
+					item: {
+						Count: 1
+						id: "refinedstorage:raw_basic_processor"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Belts. Everywhere. You might have taken the factory aesthetic a bit too seriously."
@@ -2807,12 +2934,43 @@
 			dependencies: ["0659DCCA55156EC2"]
 			icon: "refinedstorage:construction_core"
 			id: "252F0211CD620136"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "76DA494F506D8D13"
-				table_id: 2258866243659860760L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "76DA494F506D8D13"
+					table_id: 2258866243659860760L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "54EEC224B8861BF8"
+					item: {
+						Count: 1
+						id: "refinedstorage:raw_basic_processor"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "629A64E05471B125"
+					item: {
+						Count: 1
+						id: "refinedstorage:raw_advanced_processor"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "138430D7489C4997"
+					item: {
+						Count: 1
+						id: "minecraft:quartz"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "You haven't seen the sun in days. Your only light source? Blaze burners."
