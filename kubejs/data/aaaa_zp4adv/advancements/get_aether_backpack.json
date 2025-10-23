@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "kubejs:quest"
+        },
+        "title": "Get an Aether Backpack",
+        "description": "Craft a Aether Backpack to carry even more items with you roadming the world.\n\nREWARDS:\n\u00a7f\u00a7o- 4 \u00a77\ud83e\ude99",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "aaaa_zp4adv:slay_valkyrie_queen",
+    "criteria": {
+        "thecriteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "thecriteria"
+        ]
+    ],
+    "rewards": {
+        "experience": 400
+    },
+    "sends_telemetry_event": false
+}

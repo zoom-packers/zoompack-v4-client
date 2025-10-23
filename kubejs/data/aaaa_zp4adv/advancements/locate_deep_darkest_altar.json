@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "kubejs:quest"
+        },
+        "title": "Find The Deep Darkest Altar",
+        "description": "The Deep Darkest Altar is a massive castle arena that keeps at bay the remainings of the Deep Darkest Spawn\n\nREWARDS:\n\u00a7f\u00a7o- 32 \u00a77\ud83e\ude99",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "aaaa_zp4adv:86combatlvl",
+    "criteria": {
+        "thecriteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "thecriteria"
+        ]
+    ],
+    "rewards": {
+        "experience": 800
+    },
+    "sends_telemetry_event": false
+}

@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "kubejs:quest"
+        },
+        "title": "Find Kinora`s Garden",
+        "description": "Kinora`s Garden is the home of Kinora The Royal Mantyd. It should be a bricked base topped with cherry blossom trees.\n\nREWARDS:\n\u00a7f\u00a7o- 4 \u00a77\ud83e\ude99",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "aaaa_zp4adv:80enemies_undergarden",
+    "criteria": {
+        "thecriteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "thecriteria"
+        ]
+    ],
+    "rewards": {
+        "experience": 240
+    },
+    "sends_telemetry_event": false
+}

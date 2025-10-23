@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "kubejs:quest"
+        },
+        "title": "Locate The Overgrown Temple",
+        "description": "The Overgrown Temple is a goldy looking pyramid in the warm lands of The Undergarden that can be found towards the upper ceiling.\n\nREWARDS:\n\u00a7f\u00a7o- 4 \u00a77\ud83e\ude99",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "aaaa_zp4adv:get_tier_6_power_up",
+    "criteria": {
+        "thecriteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "thecriteria"
+        ]
+    ],
+    "rewards": {
+        "experience": 240
+    },
+    "sends_telemetry_event": false
+}

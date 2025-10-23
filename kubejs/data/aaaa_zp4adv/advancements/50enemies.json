@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "kubejs:quest_book"
+        },
+        "title": "TUTORIAL - Slay 50 Enemies",
+        "description": "Test your new gear. Let`s see how strong you got.\n\nREWARDS:\n\u00a7f\u00a7o- 36 \u00a74\ud83e\ude99\n\u00a7f\u00a7o- 1 \u00a77\ud83e\ude99",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "aaaa_zp4adv:get_tier_1_power_up",
+    "criteria": {
+        "thecriteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "thecriteria"
+        ]
+    ],
+    "rewards": {
+        "experience": 250
+    },
+    "sends_telemetry_event": false
+}

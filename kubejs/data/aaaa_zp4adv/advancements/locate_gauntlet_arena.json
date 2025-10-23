@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "kubejs:quest"
+        },
+        "title": "Find a Gantlet Arena",
+        "description": "The Gauntlet Arena is the home of Nether Gauntlet. Massive square black cube easy to spot from far away.\n\nREWARDS:\n\u00a7f\u00a7o- 3 \u00a77\ud83e\ude99",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "aaaa_zp4adv:get_forged_backpack",
+    "criteria": {
+        "thecriteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "thecriteria"
+        ]
+    ],
+    "rewards": {
+        "experience": 160
+    },
+    "sends_telemetry_event": false
+}

@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "kubejs:quest_book"
+        },
+        "title": "TUTORIAL - Get an Oven",
+        "description": "Place an Oven on the ground. Ovens are mandatory to cook high quality food! Type /cooking for more details\n\nREWARDS:\n\u00a7f\u00a7o- 20 \u00a74\ud83e\ude99",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "aaaa_zp4adv:place_fridge",
+    "criteria": {
+        "thecriteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "thecriteria"
+        ]
+    ],
+    "rewards": {
+        "experience": 18
+    },
+    "sends_telemetry_event": false
+}

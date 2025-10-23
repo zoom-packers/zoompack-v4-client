@@ -1,3 +1,4 @@
+//priority: 850
 let PartyAPI = Java.loadClass("io.sedu.mc.parties.api.helper.PartyAPI");
 
 let BRONZE_COIN = 'dotcoinmod:bronze_coin';
@@ -259,7 +260,7 @@ function updatePlayerCoin(player, coinType, newAmount, currentBalance, coinItem,
     }
 }
 
-function grantReward(rewards, player, server, killedEntity) {
+function grantReward(rewards, player, server, killedEntity, announce, difficultyMu) {
     let bronze_reward = rewards[0];
     let silver_reward = rewards[1];
     let gold_reward = rewards[2];
@@ -276,8 +277,11 @@ function grantReward(rewards, player, server, killedEntity) {
     let total_balance = bronze_balance + CONVERSION_RATE * silver_balance + CONVERSION_RATE * CONVERSION_RATE * gold_balance + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * emerald_balance + CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * CONVERSION_RATE * diamond_balance;
 
     // Apply reward multipliers
-    let total_reward_plus_difficulty = Math.round(total_reward * getPlayerDifficultyMultiplierForEconomy(player));
-
+    let total_reward_plus_difficulty = total_reward;
+    if(difficultyMu){
+        total_reward_plus_difficulty = Math.round(total_reward * getPlayerDifficultyMultiplierForEconomy(player));
+    }
+    
     let new_total_reward = total_reward_plus_difficulty + total_balance;
 
     let new_diamond = Math.floor(new_total_reward / (CONVERSION_RATE ** 4));
@@ -298,19 +302,52 @@ function grantReward(rewards, player, server, killedEntity) {
     updatePlayerCoin(player, 'emerald', new_emerald, emerald_balance, EMERALD_COIN, server);
     updatePlayerCoin(player, 'diamond', new_diamond, diamond_balance, DIAMOND_COIN, server);
 
+    let temp_reward = total_reward_plus_difficulty;
     let newRewards = [
-        total_reward_plus_difficulty % CONVERSION_RATE,
-        Math.floor(total_reward_plus_difficulty / CONVERSION_RATE),
-        Math.floor(total_reward_plus_difficulty / (CONVERSION_RATE ** 2)),
-        Math.floor(total_reward_plus_difficulty / (CONVERSION_RATE ** 3)),
-        Math.floor(total_reward_plus_difficulty / (CONVERSION_RATE ** 4)),
-    ]
+        temp_reward % CONVERSION_RATE,
+        Math.floor((temp_reward % (CONVERSION_RATE ** 2)) / CONVERSION_RATE),
+        Math.floor((temp_reward % (CONVERSION_RATE ** 3)) / (CONVERSION_RATE ** 2)),
+        Math.floor((temp_reward % (CONVERSION_RATE ** 4)) / (CONVERSION_RATE ** 3)),
+        Math.floor(temp_reward / (CONVERSION_RATE ** 4))
+    ];
 
-    announceReward(server, player.name.string, newRewards, killedEntity);
+    if(announce){
+        announceReward(server, player.name.string, newRewards, killedEntity);
+    }
+    
 }
 
 function sendPlayerTitle(server, player_name, text) {
     server.runCommandSilent(`/title ${player_name} actionbar {"text":"${text}"}`);
+}
+
+function playerQuestReward(server, player_name, rewards){
+    let rewards_text = '';
+
+    if (rewards[0] > 0) {
+        rewards_text = rewards_text + `§f§o§l${rewards[0]}§4§l🪙 `;
+    }
+    if (rewards[1] > 0) {
+        rewards_text = rewards_text + `§f§o§l${rewards[1]}§7§l🪙 `;
+    }
+    if (rewards[2] > 0) {
+        rewards_text = rewards_text + `§f§o§l${rewards[2]}§6§l🪙 `;
+    }
+    if (rewards[3] > 0) {
+        rewards_text = rewards_text + `§f§o§l${rewards[3]}§a§l🪙 `;
+    }
+    if (rewards[4] > 0) {
+        rewards_text = rewards_text + `§f§o§l${rewards[4]}§b§l🪙 `;
+    }
+
+    server.runCommandSilent(`/title ${player_name} subtitle {"text":"${rewards_text}"}`);
+    server.runCommandSilent(`/title ${player_name} title {"text":"Quest Completed","bold":true,"color":"yellow"}`);
+    
+}
+
+function grantQuestReward(drop_returns, player, server){
+    grantReward(drop_returns, player, server, null, false, false);
+    playerQuestReward(server, player.name.string, drop_returns)
 }
 
 function announceReward(server, player_name, rewards, entity_name) {
@@ -353,10 +390,10 @@ EntityEvents.death(event => {
                 let drop_returns = getReward(entity, partyMembers.length);
 
                 for (const partyMember of partyMembers) {
-                    grantReward(drop_returns, partyMember, server, entity_name);
+                    grantReward(drop_returns, partyMember, server, entity_name, true, true);
                 }
 
-                grantReward(drop_returns, player, server, entity_name);
+                grantReward(drop_returns, player, server, entity_name, true, true);
             }
         }
     }

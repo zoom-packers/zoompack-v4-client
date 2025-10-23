@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"minecraft:horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:330.0000f},{Name:\"generic.movement_speed\",Base:0.4388f},{Name:\"horse.jump_strength\",Base:1.3000f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:80f}]}}"
+              "tag": "{EntityTag:{id:\"minecraft:horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:2280.0000f},{Name:\"generic.movement_speed\",Base:0.4388f},{Name:\"horse.jump_strength\",Base:1.3000f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:80f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"naturalist:zebra\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:385.0000f},{Name:\"generic.movement_speed\",Base:0.4647f},{Name:\"horse.jump_strength\",Base:1.3000f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:80f}]}}"
+              "tag": "{EntityTag:{id:\"naturalist:zebra\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:2660.0000f},{Name:\"generic.movement_speed\",Base:0.4647f},{Name:\"horse.jump_strength\",Base:1.3000f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:80f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -54,7 +54,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"minecraft:donkey\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:330.0000f},{Name:\"generic.movement_speed\",Base:0.2925f},{Name:\"horse.jump_strength\",Base:0.9100f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:80f}]}}"
+              "tag": "{EntityTag:{id:\"minecraft:donkey\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:2280.0000f},{Name:\"generic.movement_speed\",Base:0.2925f},{Name:\"horse.jump_strength\",Base:0.9100f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:80f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -76,7 +76,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"minecraft:mule\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:330.0000f},{Name:\"generic.movement_speed\",Base:0.2925f},{Name:\"horse.jump_strength\",Base:0.9100f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:80f}]}}"
+              "tag": "{EntityTag:{id:\"minecraft:mule\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:2280.0000f},{Name:\"generic.movement_speed\",Base:0.2925f},{Name:\"horse.jump_strength\",Base:0.9100f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:80f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -98,7 +98,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"vinery:mule\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:330.0000f},{Name:\"generic.movement_speed\",Base:0.2925f},{Name:\"horse.jump_strength\",Base:0.9100f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:80f}]}}"
+              "tag": "{EntityTag:{id:\"vinery:mule\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:2280.0000f},{Name:\"generic.movement_speed\",Base:0.2925f},{Name:\"horse.jump_strength\",Base:0.9100f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:80f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -120,7 +120,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"minecraft:llama\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:165.0000f},{Name:\"generic.movement_speed\",Base:0.2860f},{Name:\"horse.jump_strength\",Base:0.4550f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:80f}]}}"
+              "tag": "{EntityTag:{id:\"minecraft:llama\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1140.0000f},{Name:\"generic.movement_speed\",Base:0.2860f},{Name:\"horse.jump_strength\",Base:0.4550f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:80f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -142,7 +142,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"minecraft:strider\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:220.0000f},{Name:\"generic.movement_speed\",Base:0.5200f},{Name:\"horse.jump_strength\",Base:0.0000f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:80f}]}}"
+              "tag": "{EntityTag:{id:\"minecraft:strider\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1520.0000f},{Name:\"generic.movement_speed\",Base:0.5200f},{Name:\"horse.jump_strength\",Base:0.0000f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:80f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -164,7 +164,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"minecraft:camel\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:352.0000f},{Name:\"generic.movement_speed\",Base:0.1170f},{Name:\"horse.jump_strength\",Base:0.6500f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:80f}]}}"
+              "tag": "{EntityTag:{id:\"minecraft:camel\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:2432.0000f},{Name:\"generic.movement_speed\",Base:0.1170f},{Name:\"horse.jump_strength\",Base:0.6500f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:80f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -186,7 +186,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"minecraft:skeleton_horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:440.0000f},{Name:\"generic.movement_speed\",Base:0.6500f},{Name:\"horse.jump_strength\",Base:1.9500f},{Name:\"generic.armor\",Base:85f},{Name:\"generic.attack_damage\",Base:80f}]}}"
+              "tag": "{EntityTag:{id:\"minecraft:skeleton_horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:3040.0000f},{Name:\"generic.movement_speed\",Base:0.6500f},{Name:\"horse.jump_strength\",Base:1.9500f},{Name:\"generic.armor\",Base:85f},{Name:\"generic.attack_damage\",Base:80f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -208,7 +208,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"minecraft:zombie_horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:440.0000f},{Name:\"generic.movement_speed\",Base:0.6500f},{Name:\"horse.jump_strength\",Base:1.9500f},{Name:\"generic.armor\",Base:85f},{Name:\"generic.attack_damage\",Base:80f}]}}"
+              "tag": "{EntityTag:{id:\"minecraft:zombie_horse\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:3040.0000f},{Name:\"generic.movement_speed\",Base:0.6500f},{Name:\"horse.jump_strength\",Base:1.9500f},{Name:\"generic.armor\",Base:85f},{Name:\"generic.attack_damage\",Base:80f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -230,7 +230,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"minecraft:ravager\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1100.0000f},{Name:\"generic.movement_speed\",Base:0.3900f},{Name:\"horse.jump_strength\",Base:0.0000f},{Name:\"generic.armor\",Base:85f},{Name:\"generic.attack_damage\",Base:90f}]}}"
+              "tag": "{EntityTag:{id:\"minecraft:ravager\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:7600.0000f},{Name:\"generic.movement_speed\",Base:0.3900f},{Name:\"horse.jump_strength\",Base:0.0000f},{Name:\"generic.armor\",Base:85f},{Name:\"generic.attack_damage\",Base:90f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -252,7 +252,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:firebird\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:220.0000f},{Name:\"generic.movement_speed\",Base:0.3900f},{Name:\"horse.jump_strength\",Base:1.3000f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:83f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:firebird\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1520.0000f},{Name:\"generic.movement_speed\",Base:0.3900f},{Name:\"horse.jump_strength\",Base:1.3000f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:83f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -274,7 +274,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:acencia\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:308.0000f},{Name:\"generic.movement_speed\",Base:0.3900f},{Name:\"horse.jump_strength\",Base:1.9500f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:90f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:acencia\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:2128.0000f},{Name:\"generic.movement_speed\",Base:0.3900f},{Name:\"horse.jump_strength\",Base:1.9500f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:90f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -296,7 +296,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:archelon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:660.0000f},{Name:\"generic.movement_speed\",Base:0.4388f},{Name:\"horse.jump_strength\",Base:1.9500f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:86f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:archelon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:4560.0000f},{Name:\"generic.movement_speed\",Base:0.4388f},{Name:\"horse.jump_strength\",Base:1.9500f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:86f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -318,7 +318,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:colelytra\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:154.0000f},{Name:\"generic.movement_speed\",Base:0.4388f},{Name:\"horse.jump_strength\",Base:1.9500f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:82f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:colelytra\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1064.0000f},{Name:\"generic.movement_speed\",Base:0.4388f},{Name:\"horse.jump_strength\",Base:1.9500f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:82f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -340,7 +340,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:courierbird\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:220.0000f},{Name:\"generic.movement_speed\",Base:0.4388f},{Name:\"horse.jump_strength\",Base:1.9500f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:84f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:courierbird\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1520.0000f},{Name:\"generic.movement_speed\",Base:0.4388f},{Name:\"horse.jump_strength\",Base:1.9500f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:84f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -362,7 +362,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:direwolf\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:330.0000f},{Name:\"generic.movement_speed\",Base:0.5200f},{Name:\"horse.jump_strength\",Base:1.6900f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:87f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:direwolf\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:2280.0000f},{Name:\"generic.movement_speed\",Base:0.5200f},{Name:\"horse.jump_strength\",Base:1.6900f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:87f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -379,12 +379,34 @@
           ]
         },{
           "type": "minecraft:item",
+          "name": "roost2:roost_spawn_egg",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{id:\"roost2:roost\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:2888.0000f},{Name:\"generic.movement_speed\",Base:0.6500f},{Name:\"horse.jump_strength\",Base:1.9500f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:83f}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Sturdy Roost Mount", "color": "light_purple", "bold": true, "italic":false}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": "Use this egg to summon your own", "color": "purple", "italic":false},
+                {"text": "Tier 7 : Roost", "color": "purple", "italic":false},
+                {"text": "Uncommon", "color": "yellow", "bold":true, "italic":false}
+              ]
+            }
+          ]
+        },{
+          "type": "minecraft:item",
           "name": "mythicmounts:dragon_spawn_egg",
           "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:dragon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:440.0000f},{Name:\"generic.movement_speed\",Base:0.5200f},{Name:\"horse.jump_strength\",Base:2.3400f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:90f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:dragon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:3040.0000f},{Name:\"generic.movement_speed\",Base:0.5200f},{Name:\"horse.jump_strength\",Base:2.3400f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:90f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -406,7 +428,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:griffon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:385.0000f},{Name:\"generic.movement_speed\",Base:0.3900f},{Name:\"horse.jump_strength\",Base:1.8200f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:87f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:griffon\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:2660.0000f},{Name:\"generic.movement_speed\",Base:0.3900f},{Name:\"horse.jump_strength\",Base:1.8200f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:87f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -428,7 +450,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:geckotoalizard\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:385.0000f},{Name:\"generic.movement_speed\",Base:0.6500f},{Name:\"horse.jump_strength\",Base:2.3400f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:84f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:geckotoalizard\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:2660.0000f},{Name:\"generic.movement_speed\",Base:0.6500f},{Name:\"horse.jump_strength\",Base:2.3400f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:84f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -450,7 +472,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:moth\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:110.0000f},{Name:\"generic.movement_speed\",Base:0.3900f},{Name:\"horse.jump_strength\",Base:2.3400f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:82f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:moth\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:760.0000f},{Name:\"generic.movement_speed\",Base:0.3900f},{Name:\"horse.jump_strength\",Base:2.3400f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:82f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -472,7 +494,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:netherbat\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:275.0000f},{Name:\"generic.movement_speed\",Base:0.2600f},{Name:\"horse.jump_strength\",Base:1.8200f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:84f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:netherbat\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1900.0000f},{Name:\"generic.movement_speed\",Base:0.2600f},{Name:\"horse.jump_strength\",Base:1.8200f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:84f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -494,7 +516,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:nightmare\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:385.0000f},{Name:\"generic.movement_speed\",Base:0.6500f},{Name:\"horse.jump_strength\",Base:2.2100f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:85f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:nightmare\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:2660.0000f},{Name:\"generic.movement_speed\",Base:0.6500f},{Name:\"horse.jump_strength\",Base:2.2100f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:85f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -516,7 +538,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:nudibranch\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:275.0000f},{Name:\"generic.movement_speed\",Base:0.6500f},{Name:\"horse.jump_strength\",Base:1.9500f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:83f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:nudibranch\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1900.0000f},{Name:\"generic.movement_speed\",Base:0.6500f},{Name:\"horse.jump_strength\",Base:1.9500f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:83f}]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -538,7 +560,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{id:\"mythicmounts:ridinglizard\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:220.0000f},{Name:\"generic.movement_speed\",Base:0.5200f},{Name:\"horse.jump_strength\",Base:2.3400f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:84f}]}}"
+              "tag": "{EntityTag:{id:\"mythicmounts:ridinglizard\",Tame:1b,ActiveEffects:[{Id:6,Duration:20,Amplifier:8,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:1520.0000f},{Name:\"generic.movement_speed\",Base:0.5200f},{Name:\"horse.jump_strength\",Base:2.3400f},{Name:\"generic.armor\",Base:80f},{Name:\"generic.attack_damage\",Base:84f}]}}"
             },
             {
               "function": "minecraft:set_name",

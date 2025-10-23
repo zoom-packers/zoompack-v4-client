@@ -21,7 +21,7 @@ function printDialogueOverlay(player, speaker, text, renderType, renderTarget) {
     if (currentX < MaxX && displayTime == 0) {
         // Do Fade in Animation
         if (currentTick >= 1) {
-            player.persistentData.put('DialogueAnimation', [0, currentX + 10, lastCharLimit, displayTime]);
+            player.persistentData.put('DialogueAnimation', [0, currentX + 15, lastCharLimit, displayTime]);
         } else {
             player.persistentData.put('DialogueAnimation', [currentTick + 1, currentX, lastCharLimit, displayTime]);
         }
@@ -75,11 +75,11 @@ function printDialogueOverlay(player, speaker, text, renderType, renderTarget) {
 
     let speakerData = {
             type: 'item',
-            item: 'apotheosis:player_head', 
-            x: rootX + 24,
-            y: rootY + 24,
-            w: 36,
-            h: 36,
+            item: 'minecraft:player_head', 
+            x: rootX + 32,
+            y: rootY + 32,
+            w: 64,
+            h: 64,
             alignX: 'left',
             alignY: 'top',
             draw: 'ingame'
@@ -89,10 +89,10 @@ function printDialogueOverlay(player, speaker, text, renderType, renderTarget) {
         speakerData = {
                 type: 'item',
                 item: renderTarget, 
-                x: rootX + 24,
-                y: rootY + 24,
-                w: 36,
-                h: 36,
+                x: rootX + 32,
+                y: rootY + 32,
+                w: 58,
+                h: 58,
                 alignX: 'left',
                 alignY: 'top',
                 draw: 'ingame'
@@ -103,10 +103,10 @@ function printDialogueOverlay(player, speaker, text, renderType, renderTarget) {
         speakerData = {
                 type: 'atlas_texture',
                 texture: renderTarget, 
-                x: rootX + 6,
-                y: rootY + 6,
-                w: 36,
-                h: 36,
+                x: rootX + 4,
+                y: rootY + 4,
+                w: 56,
+                h: 56,
                 alignX: 'left',
                 alignY: 'top',
                 draw: 'ingame'
@@ -116,11 +116,11 @@ function printDialogueOverlay(player, speaker, text, renderType, renderTarget) {
     if(renderType=='rectangle' && renderTarget){
         speakerData = {
                 type: 'rectangle',
-                texture: renderTarget, 
-                x: rootX + 6,
-                y: rootY + 6,
-                w: 36,
-                h: 36,
+                texture: renderTarget,
+                x: rootX + 4,
+                y: rootY + 4,
+                w: 56,
+                h: 56,
                 alignX: 'left',
                 alignY: 'top',
                 draw: 'ingame'
@@ -133,8 +133,8 @@ function printDialogueOverlay(player, speaker, text, renderType, renderTarget) {
             type: 'rectangle',
             x: rootX,
             y: rootY,
-            w: 48,
-            h: 48,
+            w: 64,
+            h: 64,
             color: '#FFFFFF',
             texture: 'kubejs:textures/gui/dialogue_overlay.png',
             alignX: 'left',
@@ -144,10 +144,10 @@ function printDialogueOverlay(player, speaker, text, renderType, renderTarget) {
         speaker: speakerData,
         radioDialogue: {
             type: 'rectangle',
-            x: rootX + 50,
+            x: rootX + 66,
             y: rootY,
-            w: 96,
-            h: 48,
+            w: 140,
+            h: 64,
             color: '#FFFFFF',
             texture: 'kubejs:textures/gui/dialogue_overlay_dialoguebox.png',
             alignX: 'left',
@@ -157,9 +157,9 @@ function printDialogueOverlay(player, speaker, text, renderType, renderTarget) {
         dialogueSpeaker: {
             type: 'text',
             text: speaker,
-            scale: 0.5,
-            x: rootX + 55,
-            y: rootY + 4,
+            scale: 0.8,
+            x: rootX + 71,
+            y: rootY + 5,
             alignX: 'left',
             alignY: 'top',
             draw: 'ingame'
@@ -168,9 +168,9 @@ function printDialogueOverlay(player, speaker, text, renderType, renderTarget) {
         dialogueText: {
             type: 'text',
             textLines: splitStringToLines(displayText, 34),
-            scale: 0.5,
-            x: rootX + 55,
-            y: rootY + 20,
+            scale: 0.8,
+            x: rootX + 71,
+            y: rootY + 25,
             alignX: 'left',
             alignY: 'top',
             draw: 'ingame'

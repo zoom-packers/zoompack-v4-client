@@ -132,6 +132,9 @@ function modifyFullSets() {
     processor.modifySetRequirements("irons_spellbooks", "plagued", 17, "armor");
     processor.modifySetRequirements("minecraft", "diamond", 18);
     processor.modifySingleItem("nethersdelight", "diamond_machete", "sword", 18);
+    processor.modifySingleItem("roost2", "beakaxe", "pickaxe", 18);
+    processor.modifySingleItem("roost2", "plated_scythe", "sword", 18);
+    processor.modifySingleItem("roost2", "opaline_cutlass", "sword", 18);
     processor.modifySingleItem("aquaculture", "diamond_fillet_knife", "sword", 18);
     processor.modifySingleItem("aquamirae", "fin_cutter", "sword", 6);
     processor.modifySingleItem("call_of_yucutan", "macuahuitl", "sword", 18);
