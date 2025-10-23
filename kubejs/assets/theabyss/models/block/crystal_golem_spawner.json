@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "theabyss:block/crystal_golem/crystal_golem_spawner_bottom",
+    "east": "theabyss:block/crystal_golem/crystal_golem_spawner_side",
+    "north": "theabyss:block/crystal_golem/crystal_golem_spawner_side",
+    "particle": "theabyss:block/crystal_golem/crystal_golem_spawner_side",
+    "south": "theabyss:block/crystal_golem/crystal_golem_spawner_side",
+    "up": "theabyss:block/crystal_golem/crystal_golem_spawner_top",
+    "west": "theabyss:block/crystal_golem/crystal_golem_spawner_side"
+  }
+}

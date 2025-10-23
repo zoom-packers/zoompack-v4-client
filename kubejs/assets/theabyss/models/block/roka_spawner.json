@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "theabyss:block/roka/roka_spawner_bottom",
+    "east": "theabyss:block/roka/roka_spawner_side",
+    "north": "theabyss:block/roka/roka_spawner_side",
+    "particle": "theabyss:block/roka/roka_spawner_side",
+    "south": "theabyss:block/roka/roka_spawner_side",
+    "up": "theabyss:block/roka/roka_spawner_top",
+    "west": "theabyss:block/roka/roka_spawner_side"
+  }
+}

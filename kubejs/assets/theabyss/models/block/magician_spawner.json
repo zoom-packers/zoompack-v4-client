@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "theabyss:block/magician/magician_spawner_bottom",
+    "east": "theabyss:block/magician/magician_spawner_side",
+    "north": "theabyss:block/magician/magician_spawner_side",
+    "particle": "theabyss:block/magician/magician_spawner_side",
+    "south": "theabyss:block/magician/magician_spawner_side",
+    "up": "theabyss:block/magician/magician_spawner_top",
+    "west": "theabyss:block/magician/magician_spawner_side"
+  }
+}

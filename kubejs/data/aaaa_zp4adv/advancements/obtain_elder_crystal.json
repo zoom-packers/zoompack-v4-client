@@ -3,14 +3,14 @@
         "icon": {
             "item": "kubejs:quest"
         },
-        "title": "Defeat the Crystal Golem",
-        "description": "The Crystal Golem is made of rose quartz. Defeat it in the glass sphere.\n\nREWARDS:\n\u00a7f\u00a7o- 44 \u00a77\ud83e\ude99\n\u00a7f\u00a7o- 4 \u00a76\ud83e\ude99",
+        "title": "Craft Elder Crystal",
+        "description": "Elder Crystal is used to summon the Elder at it`s Altar. Look up for the recipe on the item browser.\n\nREWARDS:\n\u00a7f\u00a7o- 32 \u00a77\ud83e\ude99\n\u00a7f\u00a7o- 1 \u00a76\ud83e\ude99",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:obtain_crystal_golem_crystal",
+    "parent": "aaaa_zp4adv:locate_abyss_arena_elder",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"
@@ -22,7 +22,7 @@
         ]
     ],
     "rewards": {
-        "experience": 8000
+        "experience": 4000
     },
     "sends_telemetry_event": false
 }

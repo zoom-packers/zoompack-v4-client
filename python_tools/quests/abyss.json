@@ -125,6 +125,31 @@
       "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
     }
   },
+  "obtain_magician_crystal": {
+    "item": "kubejs:quest",
+    "title": "Craft Magician Crystal",
+    "description": "Magician Crystal is used to summon the Magician at it`s Altar. Look up for the recipe on the item browser.",
+    "xp": 4000,
+    "reward": [
+      0,
+      32,
+      1,
+      0,
+      0
+    ],
+    "type": "obtain_item",
+    "match": {
+      "mode": "exact",
+      "match_id": "theabyss:magician_crystal"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Perfect! Now let`s use it to summon the enemy",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+    }
+  },
   "defeat_abyss_arena_magician": {
     "item": "kubejs:quest",
     "title": "Defeat the Magician",
@@ -221,6 +246,31 @@
     "dialogue": {
       "speaker": "Elder Librarian",
       "message": "You`ve located the Elder`s arena. Brace yourself for the fight.",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+    }
+  },
+  "obtain_elder_crystal": {
+    "item": "kubejs:quest",
+    "title": "Craft Elder Crystal",
+    "description": "Elder Crystal is used to summon the Elder at it`s Altar. Look up for the recipe on the item browser.",
+    "xp": 4000,
+    "reward": [
+      0,
+      32,
+      1,
+      0,
+      0
+    ],
+    "type": "obtain_item",
+    "match": {
+      "mode": "exact",
+      "match_id": "theabyss:elder_crystal"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Perfect! Now let`s use it to summon the enemy",
       "renderType": "rectangle",
       "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
     }
@@ -375,6 +425,31 @@
       "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
     }
   },
+  "obtain_abyssaur_crystal": {
+    "item": "kubejs:quest",
+    "title": "Craft Abyssaur Crystal",
+    "description": "Abyssaur Crystal is used to summon the Abyssaur at it`s Altar. Look up for the recipe on the item browser.",
+    "xp": 4000,
+    "reward": [
+      0,
+      32,
+      1,
+      0,
+      0
+    ],
+    "type": "obtain_item",
+    "match": {
+      "mode": "exact",
+      "match_id": "theabyss:abyssaur_crystal"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Perfect! Now let`s use it to summon the enemy",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+    }
+  },
   "defeat_abyss_arena_abyssaur": {
     "item": "kubejs:quest",
     "title": "Defeat the Abyssaur",
@@ -475,6 +550,31 @@
       "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
     }
   },
+  "obtain_roka_crystal": {
+    "item": "kubejs:quest",
+    "title": "Craft Roka Crystal",
+    "description": "Roka Crystal is used to summon the Roka at it`s Altar. Look up for the recipe on the item browser.",
+    "xp": 4000,
+    "reward": [
+      0,
+      32,
+      1,
+      0,
+      0
+    ],
+    "type": "obtain_item",
+    "match": {
+      "mode": "exact",
+      "match_id": "theabyss:roka_crystal"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Perfect! Now let`s use it to summon the enemy",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+    }
+  },
   "defeat_abyss_arena_roka": {
     "item": "kubejs:quest",
     "title": "Defeat the Roka",
@@ -571,6 +671,31 @@
     "dialogue": {
       "speaker": "Elder Librarian",
       "message": "The glass sphere is located. Face the Crystal Golem with caution.",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
+    }
+  },
+  "obtain_crystal_golem_crystal": {
+    "item": "kubejs:quest",
+    "title": "Craft Crystal Golem`s Crystal",
+    "description": "Crystal Golem`s Crystal is used to summon the Crystal Golem at it`s Altar. Look up for the recipe on the item browser.",
+    "xp": 4000,
+    "reward": [
+      0,
+      32,
+      1,
+      0,
+      0
+    ],
+    "type": "obtain_item",
+    "match": {
+      "mode": "exact",
+      "match_id": "theabyss:crystal_golem_crystal"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Perfect! Now let`s use it to summon the enemy",
       "renderType": "rectangle",
       "renderTarget": "zoompack_images:textures/elder_librarian/abyss.png"
     }
