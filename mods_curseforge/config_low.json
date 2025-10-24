@@ -314,6 +314,10 @@
         {
             "modName": "Seamless Loading Screen",
             "modId": 429926
+        },
+        {
+            "modName": "Iris & Oculus Flywheel Compat",
+            "modId": 659897
         }
     ],
     "removeFolders": [
