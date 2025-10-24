@@ -4946,6 +4946,13 @@ function getPlayerLocationData(player) {
     };
 }
 
+function performRescaleFix(server, player) {
+    let playerData = player.nbt.ForgeCaps;
+    let playerOrigin = playerData["origins:origins"].Origins["origins:origin"];
+    let player_name = player.name.string;
+    server.runCommandSilent(`/origin set ${player_name} origins:origin ${playerOrigin}`);
+}
+
 PlayerEvents.loggedIn(event => {
     const { player, server } = event;
     const uuid = player.uuid;
@@ -4962,12 +4969,14 @@ PlayerEvents.loggedIn(event => {
 
     if (activeQuest == undefined) {
         setPlayerQuest(player, FIRST_QUEST);
-        sendPlayerQuestToTrack(player, QUESTS[FIRST_QUEST].unlock)
+        sendPlayerQuestToTrack(player, QUESTS[FIRST_QUEST].unlock);
+        performRescaleFix(server, player);
     }
     else {
         if (activeQuestProgress >= 0) {
             server.scheduleInTicks(100, () => {
-                sendPlayerQuestToTrack(player, QUESTS[activeQuest].unlock)
+                sendPlayerQuestToTrack(player, QUESTS[activeQuest].unlock);
+                performRescaleFix(server, player);
             });
         }
     }
@@ -5012,9 +5021,11 @@ function trackPlayers(event) {
                 if (activeQuest == undefined) {
                     setPlayerQuest(player, FIRST_QUEST);
                     sendPlayerQuestToTrack(player, QUESTS[FIRST_QUEST].unlock);
+                    performRescaleFix(server, player);
                 } else {
                     if (activeQuestProgress >= 0) {
                         sendPlayerQuestToTrack(player, QUESTS[activeQuest].unlock);
+                        performRescaleFix(server, player);
                     }
                 }
             }
