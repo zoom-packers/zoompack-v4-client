@@ -4942,9 +4942,7 @@ function getPlayerLocationData(player) {
     return {
         x: player.getX(),
         y: player.getY(),
-        z: player.getZ(),
-        yaw: player.getYRot(),
-        pitch: player.getXRot()
+        z: player.getZ()
     };
 }
 
