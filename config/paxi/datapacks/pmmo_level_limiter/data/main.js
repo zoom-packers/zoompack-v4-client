@@ -627,6 +627,8 @@ function modifyCreate() {
     processor.modifyPlaceBlockRequirements("create", "blaze_burner", "engineering", 30);
     processor.modifyPlaceBlockRequirements("create", "empty_blaze_burner", "engineering", 30);
 
+    processor.modifyPlaceBlockRequirements("createaddition", "electric_motor", "engineering", 34);
+
     processor.modifyPlaceBlockRequirements("createaddition", "connector", "engineering", 35);
     processor.modifyPlaceBlockRequirements("createaddition", "small_light_connector", "engineering", 35);
     processor.modifyPlaceBlockRequirements("createaddition", "large_connector", "engineering", 35);
@@ -634,7 +636,6 @@ function modifyCreate() {
     processor.modifyPlaceBlockRequirements("createaddition", "tesla_coil", "engineering", 35);
     processor.modifyPlaceBlockRequirements("createaddition", "modular_accumulator", "engineering", 35);
     processor.modifyPlaceBlockRequirements("createaddition", "portable_energy_interface", "engineering", 35);
-    processor.modifyPlaceBlockRequirements("createaddition", "electric_motor", "engineering", 35);
     processor.modifyPlaceBlockRequirements("createaddition", "alternator", "engineering", 35);
 }
 
