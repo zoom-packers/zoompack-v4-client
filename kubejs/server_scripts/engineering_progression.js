@@ -1,7 +1,8 @@
 let techProgLearningBench = "kubejs:engineering_table"
 let techProgPmmoSkillName = "engineering"
 
-let $Component = Java.loadClass("net.minecraft.network.chat.Component");
+let $Engineering$PmmoAPIUtils = Java.loadClass('harmonised.pmmo.api.APIUtils');
+let $Engineering$Component = Java.loadClass("net.minecraft.network.chat.Component");
 
 function calculateRewards(previousRequirements) {
     let rewards = [];
@@ -1300,8 +1301,7 @@ BlockEvents.rightClicked(event => {
 });
 
 function techProgAdvanceToNextMilestone(server, player, currentMilestone, playerData) {
-    let pmmoApiUtils = Java.loadClass('harmonised.pmmo.api.APIUtils');
-    PmmoAPIUtils.setLevel(techProgPmmoSkillName, player, currentMilestone.pmmoLevelSet);
+    $Engineering$PmmoAPIUtils.setLevel(techProgPmmoSkillName, player, currentMilestone.pmmoLevelSet);
 
     techProgRemoveMilestoneItems(currentMilestone, player);
 
@@ -1337,11 +1337,11 @@ function techProgPlayerHasMilestoneItems(milestone, player) {
         let amount = requirement.amount;
         if (requirementsCount[item] === undefined) {
             hasRequiredItems = false;
-            player.sendSystemMessage($Component.literal("§cYou are missing §r§4" + amount + "x ").append(getItemFriendlyName(item)).append($Component.literal(` §7(${item})§r§r`)));
+            player.sendSystemMessage($Engineering$Component.literal("§cYou are missing §r§4" + amount + "x ").append(getItemFriendlyName(item)).append($Engineering$Component.literal(` §7(${item})§r§r`)));
         } else if (requirementsCount[item] < amount) {
             hasRequiredItems = false;
             let diff = amount - requirementsCount[item];
-            player.sendSystemMessage($Component.literal("§cYou are missing §r§4" + diff + "x ").append(getItemFriendlyName(item)).append($Component.literal(` §7(${item})§r§r`)));
+            player.sendSystemMessage($Engineering$Component.literal("§cYou are missing §r§4" + diff + "x ").append(getItemFriendlyName(item)).append($Engineering$Component.literal(` §7(${item})§r§r`)));
         }
     }
 
@@ -1352,7 +1352,7 @@ let $BuiltInRegistries = Java.loadClass("net.minecraft.core.registries.BuiltInRe
 function getItemFriendlyName(item_rl) {
     let item = $BuiltInRegistries.ITEM.get(item_rl);
     console.error(item.getDescriptionId());
-    return $Component.translatable(item.getDescriptionId());
+    return $Engineering$Component.translatable(item.getDescriptionId());
 }
 
 function techProgRemoveMilestoneItems(milestone, player) {
@@ -1403,12 +1403,12 @@ function techProgSendCurrentMilestone(player, currentMilestone) {
     for (const requirement of currentMilestone.requirements) {
         let item = requirement.item;
         let amount = requirement.amount;
-        player.sendSystemMessage($Component.literal(`§d${amount}x §4`).append(getItemFriendlyName(item)).append($Component.literal(` §7(${item})§r§r`)));
+        player.sendSystemMessage($Engineering$Component.literal(`§d${amount}x §4`).append(getItemFriendlyName(item)).append($Engineering$Component.literal(` §7(${item})§r§r`)));
     }
     player.sendSystemMessage("");
     player.sendSystemMessage("Rewards: ");
     for (const reward of currentMilestone.rewards) {
-        player.sendSystemMessage($Component.literal(`§d${reward.amount}x §a`).append(getItemFriendlyName(reward.item)).append($Component.literal(` §7(${reward.item})§r§r`)));
+        player.sendSystemMessage($Engineering$Component.literal(`§d${reward.amount}x §a`).append(getItemFriendlyName(reward.item)).append($Engineering$Component.literal(` §7(${reward.item})§r§r`)));
     }
     player.sendSystemMessage("");
     player.sendSystemMessage("Completing this milestone will set your Engineering level to §b" + currentMilestone.pmmoLevelSet + "§r");
