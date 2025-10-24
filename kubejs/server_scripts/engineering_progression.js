@@ -1206,6 +1206,8 @@ let lockedBlocksPmmoLevels = {
     "create:empty_blaze_burner": 30,
     "create:steam_engine": 30,
 
+    "createaddition:electric_motor": 34,
+    
     "createaddition:connector": 35,
     "createaddition:small_light_connector": 35,
     "createaddition:large_connector": 35,
@@ -1213,7 +1215,6 @@ let lockedBlocksPmmoLevels = {
     "createaddition:tesla_coil": 35,
     "createaddition:modular_accumulator": 35,
     "createaddition:portable_energy_interface": 35,
-    "createaddition:electric_motor": 35,
     "createaddition:alternator": 35,
 
     // Refined Storage

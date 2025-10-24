@@ -2252,7 +2252,11 @@
 				{
 					count: 8L
 					id: "3252C4748AB6CBBB"
-					item: "create:steam_engine"
+					item: {
+						Count: 1
+						id: "create:brass_tunnel"
+						tag: { }
+					}
 					optional_task: true
 					type: "item"
 				}
@@ -2657,9 +2661,13 @@
 			subtitle: "Dan, i still don't get it why you play with the copper wires."
 			tasks: [
 				{
-					count: 16L
+					count: 32L
 					id: "609D1EF7864CC4F8"
-					item: "createaddition:large_connector"
+					item: {
+						Count: 1
+						id: "createaddition:gold_spool"
+						tag: { }
+					}
 					optional_task: true
 					type: "item"
 				}
