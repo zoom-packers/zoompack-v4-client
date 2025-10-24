@@ -4563,14 +4563,17 @@ function questEvent(event, eventType, sharedEvent, fromSharedEvent, targetPlayer
     }
 
     if (sharedEvent) {
-        let playerUUID = UUID.fromString(player.uuid);
-        if (!fromSharedEvent) {
-            let eventPartyMembers = PartyAPI.getNearMembersWithoutSelf(playerUUID);
+        if (player) {
+            let playerUUID = UUID.fromString(player.uuid);
+            if (!fromSharedEvent) {
+                let eventPartyMembers = PartyAPI.getNearMembersWithoutSelf(playerUUID);
 
-            for (const partyMember of eventPartyMembers) {
-                questEvent(event, eventType, true, true, partyMember);
+                for (const partyMember of eventPartyMembers) {
+                    questEvent(event, eventType, true, true, partyMember);
+                }
             }
         }
+
     }
 
     if (eventType == ENTITY_EVENTS_HURT) {
