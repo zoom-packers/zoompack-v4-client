@@ -1,5 +1,6 @@
 //priority: 851
-const $CompoundTag = Java.loadClass('net.minecraft.nbt.CompoundTag')
+const $CompoundTag = Java.loadClass('net.minecraft.nbt.CompoundTag');
+const questPartyAPI = Java.loadClass("io.sedu.mc.parties.api.helper.PartyAPI");
 
 // TODO: add progression announcement with text on screen
 const ACTIVE_QUEST_PD_FIELD = 'ACTIVE_QUEST';
@@ -4538,17 +4539,22 @@ const PLAYER_EVENTS_INVENTORY_CHANGED = 4;
 const PLAYER_EVENTS_ADVANCEMENT = 5;
 const ITEM_EVENTS_PICKED_UP = 6;
 
-function questEvent(event, eventType) {
+function questEvent(event, eventType, sharedEvent, fromSharedEvent, targetPlayer) {
     const { server } = event;
     let player = null;
     let eventEntity = null;
 
-    if (event.player) {
-        player = event.player;
+    if (targetPlayer) {
+        player = targetPlayer;
     }
     else {
-        if (event.source) {
-            player = event.source.player;
+        if (event.player) {
+            player = event.player;
+        }
+        else {
+            if (event.source) {
+                player = event.source.player;
+            }
         }
     }
 
@@ -4764,6 +4770,18 @@ function questEvent(event, eventType) {
                     if (entity.getType() != 'minecraft:player') {
                         let dimensionOk = true;
 
+                        if (sharedEvent) {
+                            let playerUUID = UUID.fromString(player.uuid);
+                            if (!fromSharedEvent) {
+                                let eventPartyMembers = PartyAPI.getNearMembersWithoutSelf(playerUUID);
+
+                                for (const partyMember of eventPartyMembers) {
+                                    questEvent(event, ENTITY_EVENTS_DEATH, true, true, partyMember);
+                                }
+                            }
+                        }
+
+
                         if (questData.hasOwnProperty('match')) {
                             if (questData.match.hasOwnProperty('dimension_match')) {
                                 dimensionOk = entity.level.dimension.toString() == questData.match.dimension_match;
@@ -4852,12 +4870,12 @@ function questEvent(event, eventType) {
 }
 
 
-EntityEvents.death(event => { questEvent(event, ENTITY_EVENTS_DEATH) });
-EntityEvents.hurt(event => { questEvent(event, ENTITY_EVENTS_HURT) });
-BlockEvents.broken(event => { questEvent(event, BLOCK_EVENTS_BROKEN) });
-BlockEvents.placed(event => { questEvent(event, BLOCK_EVENTS_PLACED) });
-PlayerEvents.inventoryChanged(event => { questEvent(event, PLAYER_EVENTS_INVENTORY_CHANGED) });
-ItemEvents.pickedUp(event => { questEvent(event, ITEM_EVENTS_PICKED_UP) })
+EntityEvents.death(event => { questEvent(event, ENTITY_EVENTS_DEATH, true, false, null) });
+EntityEvents.hurt(event => { questEvent(event, ENTITY_EVENTS_HURT, false, false, null) });
+BlockEvents.broken(event => { questEvent(event, BLOCK_EVENTS_BROKEN, false, false, null) });
+BlockEvents.placed(event => { questEvent(event, BLOCK_EVENTS_PLACED, false, false, null) });
+PlayerEvents.inventoryChanged(event => { questEvent(event, PLAYER_EVENTS_INVENTORY_CHANGED, false, false, null) });
+ItemEvents.pickedUp(event => { questEvent(event, ITEM_EVENTS_PICKED_UP, false, false, null) })
 
 
 function matchQuestDataByAdvId(advancement_id) {
@@ -4890,7 +4908,7 @@ PlayerEvents.advancement(event => {
     //         return 0;
     //     }
     // }
-    questEvent(event, PLAYER_EVENTS_ADVANCEMENT);
+    questEvent(event, PLAYER_EVENTS_ADVANCEMENT, false, false, null);
 
     if (advancementId.includes(ADV_NAMESPACE)) {
         if (INSTA_REVOKE_ADVS.includes(advancementId)) {
