@@ -62,7 +62,7 @@ function spellEntity(event){
             entity.mergeNbt({'ExplosionRadius':FIRE_BOMB_MAX_RANGE});
         }
         else{
-            entity.mergeNbt({'ExplosionRadius':new_range});t
+            entity.mergeNbt({'ExplosionRadius':new_range});
         }
     }
 
