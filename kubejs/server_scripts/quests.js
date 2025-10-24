@@ -4562,6 +4562,17 @@ function questEvent(event, eventType, sharedEvent, fromSharedEvent, targetPlayer
         eventEntity = event.entity;
     }
 
+    if (sharedEvent) {
+        let playerUUID = UUID.fromString(player.uuid);
+        if (!fromSharedEvent) {
+            let eventPartyMembers = PartyAPI.getNearMembersWithoutSelf(playerUUID);
+
+            for (const partyMember of eventPartyMembers) {
+                questEvent(event, eventType, true, true, partyMember);
+            }
+        }
+    }
+
     if (eventType == ENTITY_EVENTS_HURT) {
         if (event.source.getType() !== 'player') {
             return 0;
@@ -4769,18 +4780,6 @@ function questEvent(event, eventType, sharedEvent, fromSharedEvent, targetPlayer
 
                     if (entity.getType() != 'minecraft:player') {
                         let dimensionOk = true;
-
-                        if (sharedEvent) {
-                            let playerUUID = UUID.fromString(player.uuid);
-                            if (!fromSharedEvent) {
-                                let eventPartyMembers = PartyAPI.getNearMembersWithoutSelf(playerUUID);
-
-                                for (const partyMember of eventPartyMembers) {
-                                    questEvent(event, ENTITY_EVENTS_DEATH, true, true, partyMember);
-                                }
-                            }
-                        }
-
 
                         if (questData.hasOwnProperty('match')) {
                             if (questData.match.hasOwnProperty('dimension_match')) {
