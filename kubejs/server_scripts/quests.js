@@ -5021,11 +5021,11 @@ function trackPlayers(event) {
                 if (activeQuest == undefined) {
                     setPlayerQuest(player, FIRST_QUEST);
                     sendPlayerQuestToTrack(player, QUESTS[FIRST_QUEST].unlock);
-                    performRescaleFix(server, player);
+                    performRescaleFix(event.server, player);
                 } else {
                     if (activeQuestProgress >= 0) {
                         sendPlayerQuestToTrack(player, QUESTS[activeQuest].unlock);
-                        performRescaleFix(server, player);
+                        performRescaleFix(event.server, player);
                     }
                 }
             }
