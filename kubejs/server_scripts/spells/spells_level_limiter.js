@@ -1,4 +1,3 @@
-
 const CHAIN_LIGHTNING_MAX_RANGE = 20;
 
 const STOMP_MAX_STEPS = 20;
