@@ -755,7 +755,7 @@ let techProgMilestones = [
         description: "Have you ever tried to build a rotation speed controller? you should...",
         requirements: [
             {
-                item: "createaddition:zinc_sheet",
+                item: "create:zinc_sheet",
                 amount: 32
             },
             {
@@ -1351,7 +1351,6 @@ function techProgPlayerHasMilestoneItems(milestone, player) {
 let $BuiltInRegistries = Java.loadClass("net.minecraft.core.registries.BuiltInRegistries");
 function getItemFriendlyName(item_rl) {
     let item = $BuiltInRegistries.ITEM.get(item_rl);
-    console.error(item.getDescriptionId());
     return $Component.translatable(item.getDescriptionId());
 }
 
