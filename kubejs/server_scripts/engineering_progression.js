@@ -755,7 +755,7 @@ let techProgMilestones = [
         description: "Have you ever tried to build a rotation speed controller? you should...",
         requirements: [
             {
-                item: "create:zinc_sheet",
+                item: "createaddition:zinc_sheet",
                 amount: 32
             },
             {
