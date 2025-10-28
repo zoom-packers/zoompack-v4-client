@@ -768,12 +768,6 @@
         "galosphere:spectator_vision",
         "galosphere:specterpillar",
         "galosphere:spectre",
-        "galosphere:spectre_flare",
-        "newer_caves:blue_butterfly",
-        "newer_caves:green_butterfly",
-        "newer_caves:orange_butterfly",
-        "newer_caves:pink_butterfly",
-        "newer_caves:red_butterfly",
-        "newer_caves:wraith"
+        "galosphere:spectre_flare"
     ]
 }
