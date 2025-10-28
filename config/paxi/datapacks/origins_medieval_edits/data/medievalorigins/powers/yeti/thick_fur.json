@@ -32,5 +32,17 @@
 				"compare_to": 2.0
 			}
 		}
+	},
+	"no_ice_damage": {
+		"type": "origins:modify_damage_taken",
+		"damage_condition": {
+			"type": "medievalorigins:in_tag",
+			"tag": "minecraft:is_freezing"
+		},
+		"modifier": {
+			"name": "Ice Damage Immunity",
+			"operation": "multiply_total_multiplicative",
+			"value": -1.0
+		}
 	}
 }

@@ -3,7 +3,6 @@ let pmmoApiUtils = Java.loadClass('harmonised.pmmo.api.APIUtils');
 const ORIGIN_PMMO_HELPER_TICK_INTERVAL = 20;
 const LAST_PLAYER_CLASS = 'lastPlayerClass';
 const LAST_PLAYER_PROFESSION = 'lastPlayerProfession';
-const ORIGIN_SET_PD = 'originSetPd';
 
 const ORIGINS_PMMO_CONFIG = {
     professions: {
@@ -432,13 +431,6 @@ function deleteOldOriginReward(player, oldOriginType, typeOfOrigin) {
     setPlayerSetPDitem(player, configData.itemPD, 0);
 }
 
-function performPlayerRescaleFix(server, player) {
-    let playerData = player.nbt.ForgeCaps;
-    let playerOrigin = playerData["origins:origins"].Origins["origins:origin"];
-    let player_name = player.name.string;
-    server.runCommandSilent(`/origin set ${player_name} origins:origin ${playerOrigin}`);
-}
-
 function pmmoLoopPlayers(event) {
     event.server.scheduleInTicks(ORIGIN_PMMO_HELPER_TICK_INTERVAL, callback => {
         event.server.players.forEach(player => {
@@ -447,11 +439,6 @@ function pmmoLoopPlayers(event) {
 
                 let lastPlayerClass = getPlayerPDString(player, LAST_PLAYER_CLASS);
                 let lastPlayerProfession = getPlayerPDString(player, LAST_PLAYER_PROFESSION);
-
-                if(getPlayerSetPDitem(player, ORIGIN_SET_PD)!=1){
-                    performPlayerRescaleFix(event.server, player);
-                    setPlayerSetPDitem(player, ORIGIN_SET_PD,1);
-                }
 
                 // let playerRace = playerData["origins:origins"].Origins["origins:origin"];
                 let playerClass = playerData["origins:origins"].Origins["origins-classes:playstyle"];
