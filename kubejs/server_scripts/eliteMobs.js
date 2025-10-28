@@ -147,13 +147,31 @@ function elite_onDeath(event) {
     let server = event.getServer();
     let damageSource = event.getSource();
     let killingEntity = damageSource.causingEntity;
-    if (killingEntity === null || killingEntity.getType() !== "minecraft:player") {
+    if (killingEntity === null) {
+        return;
+    }
+    let player;
+    let killingEntityType = killingEntity.getType();
+    if (killingEntityType === "minecraft:player") {
+        player = killingEntity;
+    } else if (killingEntityType.equalsIgnoreCase("medievalorigins:summon_skeleton") ||
+    killingEntityType.equalsIgnoreCase("medievalorigins:summon_zombie") ||
+    killingEntityType.equalsIgnoreCase("medievalorigins:summon_wither_skeleton")) {
+        /**
+         @type {ISummon}
+         */
+        let summonedEntity = killingEntity;
+        let owner = summonedEntity.getOwner(event.getLevel());
+        if (owner === null) {
+            return;
+        }
+        player = owner;
+    } else {
         return;
     }
     /**
      @type {ServerPlayer}
      */
-    let player = killingEntity;
     let lootingLevel = 0;
     let dimensionRL = event.level.dimension.toString();
     let loot = null;
