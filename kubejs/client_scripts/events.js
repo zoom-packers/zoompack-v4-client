@@ -64,7 +64,6 @@ function drawActiveEvents(player) {
     renderer.title = title;
 
     global.activeEvents.forEach((activeEvent, index) => {
-        console.log(`${activeEvent['name']} - ${activeEvent['description']} is liiiiiveeeeee`, activeEvent);
         renderer[`event_${index}`] = {type: "text", visible: true, text: `§a${activeEvent.name}§r - §b${activeEvent.description}§r`, x: startX + 20, y: startY + 4 + (index + 1) * heightPerRow, font: {size: 20, color: "#FFFFFF"}};
         renderer[`event_${index}_icon`] = {type: "rectangle", visible: true, x: startX + 5, y: startY + 4 + (index + 1) * heightPerRow, w: 10, h: 10, u: 0, v: 0, texture: activeEvent.icon};
     });
