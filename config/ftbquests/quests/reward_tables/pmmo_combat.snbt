@@ -1,0 +1,21 @@
+{
+	id: "18EB7FC501B42B5D"
+	loot_size: 1
+	order_index: 55
+	rewards: [
+		{
+			amount: 1
+			auto: "invisible"
+			skill: "combat"
+			type: "pmmo:levelreward"
+			weight: 0.0f
+		}
+		{
+			amount: 1
+			auto: "invisible"
+			skill: "endurance"
+			type: "pmmo:levelreward"
+		}
+	]
+	title: "Pmmo combat"
+}

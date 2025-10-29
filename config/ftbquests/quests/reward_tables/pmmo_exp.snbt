@@ -18,9 +18,9 @@
 		{
 			amount: 1
 			auto: "invisible"
-			skill: "endurance"
+			skill: "magic"
 			type: "pmmo:levelreward"
 		}
 	]
-	title: "Pmmo exp"
+	title: "Pmmo fighting"
 }

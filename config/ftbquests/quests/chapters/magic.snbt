@@ -15,16 +15,16 @@
 			image: "minecraft:item/glass_bottle"
 			rotation: 0.0d
 			width: 7.0d
-			x: -3.5d
-			y: -4.0d
+			x: -11.0d
+			y: 9.5d
 		}
 		{
 			height: 12.0d
 			image: "minecraft:item/painting"
 			rotation: 0.0d
 			width: 12.0d
-			x: -8.202380952380999d
-			y: 1.7559523809523796d
+			x: -11.0d
+			y: 1.0d
 		}
 		{
 			height: 4.0d
@@ -182,7 +182,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			shape: "square"
+			shape: "gear"
 			size: 1.5d
 			subtitle: "Where the magic happens"
 			tasks: [{
@@ -194,33 +194,17 @@
 				}
 				type: "item"
 			}]
-			x: 5.25d
-			y: 9.75d
+			x: 3.75d
+			y: 10.5d
 		}
 		{
-			dependencies: ["0B349D015C7F2B3B"]
 			id: "520321D38E371FFB"
-			rewards: [
-				{
-					amount: 1
-					auto: "invisible"
-					id: "220D233E9C713C93"
-					skill: "magic"
-					type: "pmmo:levelreward"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "670BB997D1E1403F"
-					table_id: 7993409223710496680L
-					type: "loot"
-				}
-				{
-					id: "353E59F63D1BF48C"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			shape: "square"
+			rewards: [{
+				id: "353E59F63D1BF48C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "gear"
 			size: 1.5d
 			subtitle: "Used to craft spells"
 			tasks: [{
@@ -232,33 +216,17 @@
 				}
 				type: "item"
 			}]
-			x: 0.75d
-			y: 2.0d
+			x: 2.25d
+			y: 9.0d
 		}
 		{
-			dependencies: ["520321D38E371FFB"]
 			id: "0125DB3B254AB5D2"
-			rewards: [
-				{
-					amount: 1
-					auto: "invisible"
-					id: "451C945818EE6E6E"
-					skill: "magic"
-					type: "pmmo:levelreward"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4717D89392A8C416"
-					table_id: 7993409223710496680L
-					type: "loot"
-				}
-				{
-					id: "31DB7500BF443764"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			shape: "square"
+			rewards: [{
+				id: "31DB7500BF443764"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "gear"
 			size: 1.5d
 			subtitle: "Used to upgrade magical items"
 			tasks: [{
@@ -270,11 +238,10 @@
 				}
 				type: "item"
 			}]
-			x: 0.75d
-			y: -2.25d
+			x: 3.75d
+			y: 7.5d
 		}
 		{
-			dependencies: ["047BD3FF300C1ACD"]
 			id: "46024AE5CF37A8F9"
 			rewards: [
 				{
@@ -305,11 +272,10 @@
 				}
 				type: "item"
 			}]
-			x: 0.7738095238094971d
-			y: 5.803571428571445d
+			x: -6.75d
+			y: 9.607142857142854d
 		}
 		{
-			dependencies: ["0B349D015C7F2B3B"]
 			id: "047BD3FF300C1ACD"
 			size: 1.5d
 			subtitle: "Most basic material"
@@ -322,16 +288,10 @@
 				}
 				type: "item"
 			}]
-			x: 1.9880952380952124d
-			y: 8.232142857142868d
+			x: -5.630952380952351d
+			y: 11.339285714285687d
 		}
 		{
-			dependencies: [
-				"24BE449CC4BEEB69"
-				"5BB88A21B50C9C16"
-				"341AF2836C868821"
-				"7698A6BF477D1764"
-			]
 			id: "1EB8E666C7F70495"
 			rewards: [{
 				id: "0A159A451F280CA8"
@@ -349,31 +309,16 @@
 				}
 				type: "item"
 			}]
-			x: -3.3928571428571814d
-			y: -8.267857142857135d
+			x: -10.738095238095319d
+			y: 8.053571428571452d
 		}
 		{
 			id: "5FB51B378F9E1FB1"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5E6AB6901B37BC85"
-					table_id: 7993409223710496680L
-					type: "loot"
-				}
-				{
-					amount: 1
-					auto: "invisible"
-					id: "3D83EC250A6961E7"
-					skill: "magic"
-					type: "pmmo:levelreward"
-				}
-				{
-					id: "34D6629D643E227E"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "34D6629D643E227E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "Foul essence"
@@ -386,11 +331,10 @@
 				}
 				type: "item"
 			}]
-			x: 3.75d
-			y: 2.0d
+			x: -3.380952380952351d
+			y: 8.339285714285687d
 		}
 		{
-			dependencies: ["047BD3FF300C1ACD"]
 			id: "7FC9019C974CA392"
 			rewards: [
 				{
@@ -430,31 +374,16 @@
 				}
 				type: "item"
 			}]
-			x: 3.5714285714285765d
-			y: 4.940476190476183d
+			x: -4.535714285714285d
+			y: 9.607142857142854d
 		}
 		{
 			id: "3402E308247DF8CF"
-			rewards: [
-				{
-					id: "476BAD903BF3FE50"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					amount: 1
-					auto: "invisible"
-					id: "00A27571FF217384"
-					skill: "magic"
-					type: "pmmo:levelreward"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "217FF81CE99599CA"
-					table_id: 7993409223710496680L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				id: "476BAD903BF3FE50"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "Ancient debris scattered along the land"
@@ -467,112 +396,10 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.25d
+			x: -5.630952380952351d
+			y: 8.339285714285687d
 		}
 		{
-			dependencies: ["047BD3FF300C1ACD"]
-			icon: {
-				Count: 1
-				id: "irons_spellbooks:wandering_magician_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "79BBC61EABCB5289"
-			rewards: [
-				{
-					id: "1C3B0AA1FEA6A0E0"
-					item: {
-						Count: 1
-						id: "minecraft:crying_obsidian"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "68B332A3CEB6E803"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "Fresh out of magical college"
-			tasks: [
-				{
-					id: "6A90B6EC9BFE48E2"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:wandering_magician_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5EA3F355DABADAA2"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:wandering_magician_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0D9964A5117C9F61"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:wandering_magician_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0F9736C18608B737"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:wandering_magician_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 4.702380952380928d
-			y: 6.732142857142875d
-		}
-		{
-			dependencies: ["047BD3FF300C1ACD"]
-			id: "33643FD2344DB6D8"
-			rewards: [{
-				id: "5F25F8E6E529B375"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "Old but gold"
-			tasks: [{
-				id: "55F3DF859FEF543E"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:graybeard_staff"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -0.7261904761905029d
-			y: 8.51785714285716d
-		}
-		{
-			dependencies: ["520321D38E371FFB"]
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:common_ink"
@@ -604,8 +431,8 @@
 					type: "pmmo:skill"
 				}
 			]
-			x: -6.869047619047635d
-			y: 4.1666666666666785d
+			x: -9.821428571428598d
+			y: 3.428571428571466d
 		}
 		{
 			dependencies: ["7AD6592FA836D26B"]
@@ -652,8 +479,8 @@
 					type: "pmmo:skill"
 				}
 			]
-			x: -9.083333333333364d
-			y: 4.220238095238088d
+			x: -12.035714285714327d
+			y: 3.4821428571428754d
 		}
 		{
 			dependencies: ["1CEE9BE55C3D0AAD"]
@@ -700,8 +527,8 @@
 					type: "pmmo:skill"
 				}
 			]
-			x: -9.4166666666667d
-			y: 1.982142857142854d
+			x: -12.369047619047663d
+			y: 1.2440476190476417d
 		}
 		{
 			dependencies: ["637F771E46C48DC1"]
@@ -748,8 +575,8 @@
 					type: "pmmo:skill"
 				}
 			]
-			x: -7.7500000000000355d
-			y: 0.5059523809523796d
+			x: -10.702380952380999d
+			y: -0.23214285714283278d
 		}
 		{
 			dependencies: ["06EA21DA984E07D3"]
@@ -906,38 +733,16 @@
 					type: "pmmo:skill"
 				}
 			]
-			x: -6.03571428571432d
-			y: 2.125d
+			x: -8.988095238095283d
+			y: 1.3869047619047876d
 		}
 		{
-			dependencies: ["0B349D015C7F2B3B"]
 			id: "70CBD28A7AF27CC5"
-			rewards: [
-				{
-					id: "0A9D8E363860D151"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					count: 12
-					id: "3E42682BAF614775"
-					item: {
-						Count: 1
-						id: "minecraft:book"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "56A9A8DFFEE5D5BB"
-					item: {
-						Count: 1
-						id: "minecraft:golden_apple"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0A9D8E363860D151"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [{
@@ -956,28 +761,17 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 9.0d
+			x: 13.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["70CBD28A7AF27CC5"]
 			id: "2DABFCF1398D9A80"
-			rewards: [
-				{
-					id: "7DBD4990A545B5EE"
-					item: {
-						Count: 1
-						id: "minecraft:crying_obsidian"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "4186C192D61A2900"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "4186C192D61A2900"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [{
@@ -996,28 +790,17 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 6.75d
+			x: 13.5d
+			y: 8.25d
 		}
 		{
 			dependencies: ["2DABFCF1398D9A80"]
 			id: "211722DF5DC991B5"
-			rewards: [
-				{
-					id: "42C376D16DC36625"
-					item: {
-						Count: 1
-						id: "minecraft:crying_obsidian"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "29503C667CA0F45C"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "29503C667CA0F45C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [{
@@ -1036,374 +819,11 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["7621DF6B853149F9"]
-			id: "2B71ED8676E67873"
-			rewards: [{
-				id: "0ABDA5CA3DA1D879"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "square"
-			size: 1.5d
-			tasks: [{
-				id: "2FCBC4488058448D"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:ruined_book"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 10.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2B71ED8676E67873"]
-			id: "5A3BEAAE19ED0718"
-			rewards: [{
-				id: "1860D2C21842E69C"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "square"
-			size: 1.5d
-			tasks: [{
-				id: "0DBB50AA7DC20B2E"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:netherite_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 12
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 9.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["211722DF5DC991B5"]
-			id: "7621DF6B853149F9"
-			rewards: [
-				{
-					count: 3
-					id: "6B366151EB421B65"
-					item: {
-						Count: 1
-						id: "minecraft:diamond"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1D6AB1B37C6B1CD1"
-					table_id: 4123056624902806302L
-					type: "choice"
-				}
-			]
-			shape: "square"
-			size: 1.5d
-			tasks: [{
-				id: "7CDF1E85A0255198"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:diamond_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 10
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 10.5d
-			y: 2.25d
-		}
-		{
-			id: "128F0B98FF0BEE30"
-			rewards: [{
-				id: "3F205369B700754D"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "758136A2392F5138"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:evoker_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [
-								{
-									id: "irons_spellbooks:fang_strike"
-									index: 0
-									level: 6
-									locked: 1b
-								}
-								{
-									id: "irons_spellbooks:fang_ward"
-									index: 1
-									level: 4
-									locked: 1b
-								}
-								{
-									id: "irons_spellbooks:summon_vex"
-									index: 2
-									level: 4
-									locked: 1b
-								}
-							]
-							maxSpells: 10
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 15.0d
+			x: 13.5d
 			y: 6.0d
 		}
 		{
-			id: "5D2CDF70B3ECB16C"
-			rewards: [{
-				id: "0B2B32F159CD7EC7"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "6673D9756ECD7983"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:necronomicon_spell_book"
-					tag: {
-						ISBEnhance: "irons_spellbooks:raise_dead"
-						ISB_Spells: {
-							data: [
-								{
-									id: "irons_spellbooks:blood_slash"
-									index: 0
-									level: 5
-									locked: 1b
-								}
-								{
-									id: "irons_spellbooks:blood_step"
-									index: 1
-									level: 5
-									locked: 1b
-								}
-								{
-									id: "irons_spellbooks:ray_of_siphoning"
-									index: 2
-									level: 5
-									locked: 1b
-								}
-								{
-									id: "irons_spellbooks:blaze_storm"
-									index: 3
-									level: 5
-									locked: 1b
-								}
-							]
-							maxSpells: 10
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 18.0d
-			y: 6.0d
-		}
-		{
-			id: "6732CB6A40730353"
-			rewards: [{
-				id: "2878B52B1D7CCF68"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "749A515D1200F03B"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:rotten_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 8
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 16.5d
-			y: 7.5d
-		}
-		{
-			id: "5B1FB7F624B9CB3B"
-			rewards: [{
-				id: "1E0DAA97D613C468"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "4C980FBF1FE28058"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:blaze_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 10
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 15.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["2B71ED8676E67873"]
-			id: "57807162D61979E9"
-			rewards: [{
-				id: "412BE3B1383362E1"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "square"
-			size: 1.5d
-			tasks: [{
-				id: "73CD72380962577A"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:dragonskin_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 12
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 12.0d
-			y: -1.5d
-		}
-		{
-			id: "10A9DDBD83E196E6"
-			rewards: [{
-				id: "60BE0D6EC5DEA2E6"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "11F602D48BA53370"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:villager_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 10
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 18.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["211722DF5DC991B5"]
-			id: "6156A5EE7D0C5B57"
-			rewards: [
-				{
-					count: 2
-					id: "046DD2FE275421A3"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_golden_apple"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "2A71839EA4FC83C7"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			shape: "square"
-			size: 1.5d
-			tasks: [{
-				id: "274A5DA594F3BDFB"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:druidic_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 10
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 8.34863945578229d
-			y: 3.2321428571428754d
-		}
-		{
-			dependencies: [
-				"5FB51B378F9E1FB1"
-				"7FC9019C974CA392"
-				"3402E308247DF8CF"
-			]
 			id: "15EA0121DE89A713"
-			rewards: [
-				{
-					amount: 1
-					auto: "invisible"
-					id: "00D66F37CC891C7F"
-					skill: "magic"
-					type: "pmmo:levelreward"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3F544B45F771E0EB"
-					table_id: 7993409223710496680L
-					type: "loot"
-				}
-			]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "Used to upgrade items with a amethyst an arcane anvil"
@@ -1416,64 +836,12 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: -4.535714285714285d
+			y: 6.75d
 		}
 		{
-			dependencies: ["5FB51B378F9E1FB1"]
 			id: "26915331CE3120E1"
-			rewards: [
-				{
-					count: 2
-					id: "09591DCD016E6BCD"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:lightning_bottle"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "043A03798986B697"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:blood_vial"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "294BC67015134A05"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:frozen_bone"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "597202A70CAE0B00"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:divine_pearl"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "6BABC044540F71D8"
-					item: {
-						Count: 1
-						id: "minecraft:crying_obsidian"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			shape: "square"
+			shape: "gear"
 			size: 1.5d
 			subtitle: "Used to make potions and other witchly things"
 			tasks: [{
@@ -1485,8 +853,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.75d
-			y: -2.25d
+			x: 5.25d
+			y: 9.0d
 		}
 		{
 			id: "24BE449CC4BEEB69"
@@ -1505,8 +873,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.273809523809568d
-			y: -3.529761904761905d
+			x: -10.65476190476194d
+			y: 10.11309523809524d
 		}
 		{
 			id: "7698A6BF477D1764"
@@ -1525,8 +893,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.773809523809568d
-			y: -3.029761904761905d
+			x: -10.15476190476194d
+			y: 10.61309523809524d
 		}
 		{
 			id: "5BB88A21B50C9C16"
@@ -1545,8 +913,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.273809523809568d
-			y: -2.529761904761905d
+			x: -10.65476190476194d
+			y: 11.11309523809524d
 		}
 		{
 			id: "341AF2836C868821"
@@ -1565,8 +933,29 @@
 				}
 				type: "item"
 			}]
-			x: -3.773809523809568d
-			y: -3.029761904761905d
+			x: -11.15476190476194d
+			y: 10.61309523809524d
+		}
+		{
+			id: "3D4D5DA8ECDCD69B"
+			tasks: [{
+				id: "0C7A3A1A002020D3"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:specialized_blood_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.5d
 		}
 	]
 	title: "MAGIC"
