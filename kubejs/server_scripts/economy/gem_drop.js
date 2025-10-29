@@ -212,7 +212,6 @@ EntityEvents.death(event => {
                 }
 
                 if (isMobBoss(entity)) {
-
                     var aabb = Java.loadClass("net.minecraft.world.phys.AABB")
                     let entityArrayList = level.getEntitiesWithin(new aabb(x - 15, y - 15, z - 15, x + 15, y + 15, z + 15))
                     let entityArrayListSize = entityArrayList.size();
@@ -222,20 +221,16 @@ EntityEvents.death(event => {
                         x = player.x;
                         y = player.y;
                         z = player.z;
-                        let dropChance = getPlayerDifficultyMultiplierForEconomy(player);
-                        for (let j = 0; j < dropChance; j++) {
-                            let remainder = dropChance - j
-                            if (remainder > 0 && remainder < 1) {
-                                let randomRoll = Math.random();
-                                if (randomRoll >= remainder) {
-                                    continue;
-                                }
-                            }
-
+                        let gemDropChance = getPlayerDifficultyMultiplierForEconomy(player);
+                        lootlib_roll(gemDropChance, () => {
                             let gem = getRandomGem();
                             let rarity = getRarity(entity);
                             lootlib_summonItem({type: "gem", gemType: gem, rarity: rarity}, player);
-                        }
+                        })
+                        let ticketDropChance = getPlayerDifficultyMultiplierForEconomy(player) / 10;
+                        lootlib_roll(ticketDropChance, () => {
+                            lootlib_summonItem("dotcoinmod:token", player);
+                        })
                     }
                 }
             }

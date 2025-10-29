@@ -495,6 +495,19 @@ function lootlib_getItemDetails(details) {
     return [id,`{${tag}}`];
 }
 
+function lootlib_roll(dropChance, lambda) {
+    for (let j = 0; j < dropChance; j++) {
+        let remainder = dropChance - j
+        if (remainder > 0 && remainder < 1) {
+            let randomRoll = Math.random();
+            if (randomRoll >= remainder) {
+                continue;
+            }
+        }
+        lambda();
+    }
+}
+
 function lootlib_summonItem(details, entity) {
     let args = lootlib_getItemDetails(details)
     if (args[1] === null) {
