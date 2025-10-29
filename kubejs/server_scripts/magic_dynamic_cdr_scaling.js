@@ -2,7 +2,7 @@ const MAGIC_XP_CDR_BOOST_LOOP = 80;
 const CDR_UUID = "3a476c50-e4e2-4052-acf9-390634dd7d25";
 const CDR_ATTR_ID = "irons_spellbooks:cooldown_reduction";
 const CDR_OPERATION = "multiply_base";
-const CDR_PER_LEVEL = 0.01;
+const CDR_PER_LEVEL = 0.008;
 let MagicPmmoAPIUtils = Java.loadClass('harmonised.pmmo.api.APIUtils');
 
 function calculateCDRMultiplier(magicLevel) {
