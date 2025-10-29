@@ -32,4 +32,4 @@ def include_item_ids_from_CIA(cia_path):
 
     return set(cia_item_ids)
 
-generate_server_js_tags_file(f'{server_scripts_path}/axes_tags.js', [item_id for item_id in include_item_ids_from_CIA(CIAT_FILE_PATH) if is_axe_by_id(item_id)], 'medievalorigins:axes')
+generate_server_js_tags_file(f'{server_scripts_path}/tags/axes_tags.js', [item_id for item_id in include_item_ids_from_CIA(CIAT_FILE_PATH) if is_axe_by_id(item_id)], 'medievalorigins:axes')

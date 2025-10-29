@@ -3,7 +3,7 @@ import shutil
 import json
 import os
 
-print('if you changed the configuration, please also change it in kubejs\server_scripts\zoomers_spellbooks_max_spells_patch.js')
+print('if you changed the configuration, please also change it in kubejs\server_scripts\spells\zoomers_spellbooks_max_spells_patch.js')
 
 layers_path = 'layers'
 
@@ -200,8 +200,8 @@ for magic_type in magic_types:
         idx+=1
         last_item_id = item_id
 
-generate_startup_js_file(f'{kjs_startup_scripts_dir}/zoomers_spellbooks.js', item_events)
-generate_server_js_file(f'{kjs_server_scripts_dir}/zoomers_spellbooks.js', smithing_recipes)
+generate_startup_js_file(f'{kjs_startup_scripts_dir}/spells/zoomers_spellbooks.js', item_events)
+generate_server_js_file(f'{kjs_server_scripts_dir}/spells/zoomers_spellbooks.js', smithing_recipes)
 
 
 

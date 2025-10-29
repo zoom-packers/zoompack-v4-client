@@ -645,7 +645,7 @@ trims = [
     "blue_skies:toxic_armor_trim_smithing_template"
 ]
 
-generate_server_js_tags_file(f'{server_scripts_path}/trim_tags.js', trims, 'forge:trim_templates')
+generate_server_js_tags_file(f'{server_scripts_path}/tags/trim_tags.js', trims, 'forge:trim_templates')
 
 print("ZOOM >>> Trim template tags created")
 
