@@ -19,14 +19,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 2
+        "amount": 5
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -44,14 +44,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 3
+        "amount": 10
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -69,14 +69,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 4
+        "amount": 20
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -94,14 +94,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 2
+        "amount": 5
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -119,14 +119,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 3
+        "amount": 10
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -144,14 +144,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 4
+        "amount": 20
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -169,14 +169,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 2
+        "amount": 5
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -194,14 +194,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 3
+        "amount": 10
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -219,14 +219,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 4
+        "amount": 20
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -244,14 +244,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 2
+        "amount": 5
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -269,14 +269,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 3
+        "amount": 10
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -294,14 +294,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 4
+        "amount": 20
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -319,14 +319,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 2
+        "amount": 5
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -344,14 +344,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 3
+        "amount": 10
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -369,14 +369,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 4
+        "amount": 20
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -394,14 +394,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 2
+        "amount": 5
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -419,14 +419,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 3
+        "amount": 10
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -444,14 +444,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 4
+        "amount": 20
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -469,14 +469,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 2
+        "amount": 5
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -494,14 +494,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 3
+        "amount": 10
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -519,14 +519,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 4
+        "amount": 20
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -544,14 +544,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 2
+        "amount": 5
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -569,14 +569,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 3
+        "amount": 10
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -594,14 +594,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 4
+        "amount": 20
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -619,14 +619,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 2
+        "amount": 5
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -644,14 +644,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 3
+        "amount": 10
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -669,14 +669,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 4
+        "amount": 20
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -694,14 +694,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 2
+        "amount": 5
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -719,14 +719,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 3
+        "amount": 10
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -744,14 +744,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 4
+        "amount": 20
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -769,14 +769,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 2
+        "amount": 5
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -794,14 +794,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 3
+        "amount": 10
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -819,14 +819,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 4
+        "amount": 20
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -844,14 +844,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 2
+        "amount": 5
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -869,14 +869,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 3
+        "amount": 10
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -894,14 +894,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 4
+        "amount": 20
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -919,14 +919,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 2
+        "amount": 5
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -944,14 +944,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 3
+        "amount": 10
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -969,14 +969,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 4
+        "amount": 20
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -994,14 +994,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 2
+        "amount": 5
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -1019,14 +1019,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 3
+        "amount": 10
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -1044,14 +1044,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 4
+        "amount": 20
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -1069,14 +1069,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 2
+        "amount": 5
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -1094,14 +1094,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 3
+        "amount": 10
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     },
     {
       "offer": {
@@ -1119,89 +1119,14 @@
       },
       "request": {
         "itemKey": "dotcoinmod:token",
-        "amount": 4
+        "amount": 20
       },
       "tradeExp": 1,
       "maxUses": 9999999,
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:engineering_xp_multiplier",
-            "duration": 72000,
-            "level": 1,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:16723494,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 20% more Engineering XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Engineering XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 2
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:engineering_xp_multiplier",
-            "duration": 72000,
-            "level": 3,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:16723494,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 60% more Engineering XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Engineering XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 3
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
-    },
-    {
-      "offer": {
-        "itemKey": "minecraft:potion",
-        "amount": 1,
-        "effects": [
-          {
-            "effectKey": "zoompack_overrides_forge:engineering_xp_multiplier",
-            "duration": 72000,
-            "level": 5,
-            "isVisible": false
-          }
-        ],
-        "advancedNBTData": "{CustomPotionColor:16723494,display:{Lore:[\u0027[\"\",{\"text\":\"Drink this to gain 100% more Engineering XP for 1 hour\",\"italic\":false,\"color\":\"aqua\"}]\u0027],Name:\u0027[\"\",{\"text\":\"Engineering XP Boost Elixir\",\"italic\":false,\"color\":\"dark_red\"}]\u0027}}"
-      },
-      "request": {
-        "itemKey": "dotcoinmod:token",
-        "amount": 4
-      },
-      "tradeExp": 1,
-      "maxUses": 9999999,
-      "priceMultiplier": 0.0,
-      "demand": 0,
-      "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token"
+      "UTID": "spacecatcustomprofessions:ticketmaster_potion_for_token_0"
     }
   ]
 }

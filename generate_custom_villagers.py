@@ -310,7 +310,6 @@ save_villager_config('animalist')
 # Cooking
 # Smithing
 # Excavaion
-# Engineering
 
 skills = [
     ('combat', 14937324),
@@ -328,13 +327,12 @@ skills = [
     ('cooking', 16371082),
     ('smithing', 4673419),
     ('excavation', 11833187),
-    ('engineering', 16723494),
 ]
 
 potionPowers = [
-(2, 1),
-(3, 3),
-(4, 5),
+(5, 1),
+(10, 3),
+(20, 5),
 ]
 
 for skill in skills:
