@@ -87,7 +87,7 @@ ItemEvents.rightClicked(event => {
         }
         let xpToDrop = getXPToDrop(mainHandItemID)*multiplier;
         if (xpToDrop > 0) {
-            let playerXP = player.getXp();
+            let playerXP = player.totalExperience;
             if (playerXP > xpToDrop) {
                 player.addXP((-1) * xpToDrop);
                 player.give(Item.of(XP_ITEM_CUTTER_TO_ORBE[mainHandItemID], multiplier));
