@@ -81,21 +81,22 @@ ItemEvents.rightClicked(event => {
     player.persistentData.putLong(lastUseKey, nowTicks);
 
     if (mainHandItemID.includes('_experience_cutter')) {
+        let rawExp = player.totalExperience;
+        let xpToDrop = getXPToDrop(mainHandItemID);
         let multiplier = 1;
         if(isCrouching){
-            multiplier = 64;
+            multiplier = Math.min(Math.floor(rawExp / xpToDrop), 64);
+            xpToDrop *= multiplier;
         }
-        let xpToDrop = getXPToDrop(mainHandItemID)*multiplier;
-        if (xpToDrop > 0) {
-            let playerXP = player.totalExperience;
-            if (playerXP > xpToDrop) {
-                player.addXP((-1) * xpToDrop);
-                player.give(Item.of(XP_ITEM_CUTTER_TO_ORBE[mainHandItemID], multiplier));
-            }
-            else{
-                player.tell('§e§lTo Enough Experience, try a lower Cutter or gather some experience');
-            }
+        if (rawExp < xpToDrop) {
+            player.sendSystemMessage("You don't have enough experience.")
+            return;
         }
+        let newExp = rawExp - xpToDrop;
+        player.give(Item.of(XP_ITEM_CUTTER_TO_ORBE[mainHandItemID], multiplier));
+        player.xpLevel = 0;
+        player.totalExperience = 0
+        player.giveExperiencePoints(newExp);
     }
 
     if (mainHandItemID.includes('_experience_orbe')) {
@@ -106,7 +107,11 @@ ItemEvents.rightClicked(event => {
         let remainingCount = player.mainHandItem.count-howManyToUse;
 
         let xpToRecieve = XP_ITEM_TRANSFERS[XP_ITEM_ORBE_TO_CUTTER[mainHandItemID]]*howManyToUse;
-        player.addXP(xpToRecieve);
+        let rawExp = player.totalExperience;
+        let newExp = rawExp + xpToRecieve;
+        player.xpLevel = 0;
+        player.totalExperience = 0
+        player.giveExperiencePoints(newExp);
 
         player.mainHandItem.count = remainingCount;
     }
