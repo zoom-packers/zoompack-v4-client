@@ -25,43 +25,6 @@ const XP_ITEM_ORBE_TO_CUTTER = {
     'kubejs:fusion_experience_orbe': 'kubejs:fusion_experience_cutter'
 }
 
-function getXPToDrop(item_id) {
-    if (XP_ITEM_TRANSFERS.hasOwnProperty(item_id)) {
-        return XP_ITEM_TRANSFERS[item_id];
-    }
-    return 0;
-}
-
-function clearFromPlayer(player_name, item, server) {
-    server.runCommandSilent(`/clear ${player_name} ${item} 1`);
-}
-
-ItemEvents.rightClicked(event => {
-    let player = event.player;
-    let server = event.server;
-    let player_name = player.name.string;
-    let mainHandItemID = player.mainHandItem.item.getId();
-
-    if (mainHandItemID.includes('_experience_cutter')) {
-        let xpToDrop = getXPToDrop(mainHandItemID);
-        if (xpToDrop > 0) {
-            let playerXP = player.getXp();
-            if (playerXP > xpToDrop) {
-                player.addXP((-1) * xpToDrop);
-                player.give(Item.of(XP_ITEM_CUTTER_TO_ORBE[mainHandItemID]));
-            }
-        }
-    }
-
-    if (mainHandItemID.includes('_experience_orbe')) {
-        let xpToRecieve = XP_ITEM_TRANSFERS[XP_ITEM_ORBE_TO_CUTTER[mainHandItemID]];
-        player.addXP(xpToRecieve);
-        clearFromPlayer(player_name, mainHandItemID, server)
-    }
-});
-
-
-
 ServerEvents.recipes(event => {
     event.shaped('1x kubejs:golden_experience_cutter',
         ["IIS", "ISE", "SEE"],
@@ -86,4 +49,65 @@ ServerEvents.recipes(event => {
     event.shaped('1x kubejs:fusion_experience_cutter',
         ["IIS", "ISE", "SEE"],
         { "I": "theabyss:fusion_ingot", "E": "minecraft:experience_bottle", "S": "minecraft:stick" });
+});
+
+const COOLDOWN_TICKS = 20;
+
+function getXPToDrop(item_id) {
+    if (XP_ITEM_TRANSFERS.hasOwnProperty(item_id)) {
+        return XP_ITEM_TRANSFERS[item_id];
+    }
+    return 0;
+}
+
+
+ItemEvents.rightClicked(event => {
+    let player = event.player;
+    let server = event.server;
+    let level = event.level;
+    let player_name = player.name.string;
+    let mainHandItemID = player.mainHandItem.item.getId();
+    const isCrouching = player.isCrouching();
+
+    let lastUseKey = `last_${player_name}_exp_tool_use`;
+    let lastUse = player.persistentData.getLong(lastUseKey) || 0;
+    let nowTicks = level.time;
+
+    if (nowTicks - lastUse < COOLDOWN_TICKS) {
+        event.cancel();
+        return;
+    }
+
+    player.persistentData.putLong(lastUseKey, nowTicks);
+
+    if (mainHandItemID.includes('_experience_cutter')) {
+        let multiplier = 1;
+        if(isCrouching){
+            multiplier = 64;
+        }
+        let xpToDrop = getXPToDrop(mainHandItemID)*multiplier;
+        if (xpToDrop > 0) {
+            let playerXP = player.getXp();
+            if (playerXP > xpToDrop) {
+                player.addXP((-1) * xpToDrop);
+                player.give(Item.of(XP_ITEM_CUTTER_TO_ORBE[mainHandItemID], multiplier));
+            }
+            else{
+                player.tell('§e§lTo Enough Experience, try a lower Cutter or gather some experience');
+            }
+        }
+    }
+
+    if (mainHandItemID.includes('_experience_orbe')) {
+        let howManyToUse = 1;
+        if(isCrouching){
+            howManyToUse = player.mainHandItem.count;
+        }
+        let remainingCount = player.mainHandItem.count-howManyToUse;
+
+        let xpToRecieve = XP_ITEM_TRANSFERS[XP_ITEM_ORBE_TO_CUTTER[mainHandItemID]]*howManyToUse;
+        player.addXP(xpToRecieve);
+
+        player.mainHandItem.count = remainingCount;
+    }
 });
