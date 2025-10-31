@@ -100,7 +100,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: 5.464285714285708d
-			y: 4.714285714285694d
+			y: 4.732142857142847d
 		}
 		{
 			height: 3.0d
@@ -247,14 +247,6 @@
 			y: 9.78571428571427d
 		}
 		{
-			height: 4.0d
-			image: "undergarden:block/blood_mushroom"
-			rotation: 0.0d
-			width: 4.0d
-			x: 2.107142857142861d
-			y: 9.35714285714284d
-		}
-		{
 			height: 3.0d
 			image: "biomesoplenty:block/glowshroom"
 			rotation: 0.0d
@@ -302,193 +294,66 @@
 			x: -0.607142857142847d
 			y: -4.89285714285716d
 		}
+		{
+			height: 4.0d
+			image: "betternether:block/cincinnasite_pedestal_side"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.035714285714249d
+			y: 9.35714285714284d
+		}
+		{
+			height: 4.0d
+			image: "minecraft:textures/mob_effect/wither.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/soul_campfire_fire"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.0119047619047308d
+			y: 6.369047619047592d
+		}
+		{
+			height: 3.0d
+			image: "supplementaries:block/cannon_target_charging"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.5d
+			y: 2.0d
+		}
 	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["&7The Nether, a realm of fire and brimstone, awaits beyond the portal. Your mission is to step through the Nether Portal and explore this perilous dimension. Prepare for intense heat, dangerous creatures, and otherworldly terrain as you begin your journey into the depths of the Nether."]
+			description: ["&0You all know how to get in the nether right?&r"]
 			icon: "minecraft:chiseled_nether_bricks"
 			id: "31EDA7FF103CFD88"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4A6BD1D0FABC196F"
-				table_id: 1610080839990707444L
+				table_id: 1795669360551144285L
 				type: "choice"
 			}]
 			size: 1.5d
-			subtitle: "Get yo ass in the nether"
+			subtitle: "Time for a fiery adventure"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "0F2FB04B9ED3CD4F"
 				type: "dimension"
 			}]
-			title: "Even angels have their demons"
-			x: 0.0d
-			y: 1.5d
+			title: "Smoking Hot"
+			x: -0.75d
+			y: -2.25d
 		}
 		{
-			dependencies: ["31EDA7FF103CFD88"]
-			description: ["&7Glowstone Dust, a radiant resource found in the Nether, is crucial for crafting lighting and potions. Your mission is to collect 15 Glowstone Dust by mining Glowstone blocks in the perilous Nether. Navigate the treacherous landscape and gather this essential material to illuminate your adventures."]
-			id: "12CA0E8BB75293B6"
-			rewards: [
-				{
-					id: "3954CF8DA436CECC"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					count: 4
-					id: "18C608650C9BF4A3"
-					item: {
-						Count: 1
-						id: "minecraft:diamond"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6AB64F0861C1AF09"
-					table_id: 228074029458712624L
-					type: "loot"
-				}
-			]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "Quest consumes Task items"
-			tasks: [{
-				consume_items: true
-				count: 128L
-				id: "13F92840130CE5D2"
-				item: "minecraft:glowstone_dust"
-				type: "item"
-			}]
-			title: "First things first"
-			x: 3.297619047619037d
-			y: -1.08333333333335d
-		}
-		{
-			dependencies: ["31EDA7FF103CFD88"]
-			description: ["&7Blaze Rods, the fiery cores of Blazes, are crucial for potion-making and brewing. Your task is to venture into a Nether Fortress, defeat Blazes, and collect 10 Blaze Rods. Prepare for a heated battle as you brave the Nether’s inferno to secure these essential ingredients."]
-			id: "4C53C2947307307E"
-			rewards: [
-				{
-					id: "7BAE5325D58B1FD4"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					exclude_from_claim_all: true
-					id: "545440FED6E3A67E"
-					table_id: 228074029458712624L
-					type: "loot"
-				}
-			]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "Quest consumes Task item"
-			tasks: [
-				{
-					consume_items: true
-					count: 20L
-					id: "381FC962632C9047"
-					item: "minecraft:blaze_rod"
-					type: "item"
-				}
-				{
-					entity: "minecraft:blaze"
-					id: "00F4F3AA356576E7"
-					type: "kill"
-					value: 35L
-				}
-			]
-			title: "Blazing Fury"
-			x: 4.535714285714278d
-			y: 2.869047619047606d
-		}
-		{
-			dependencies: ["31EDA7FF103CFD88"]
-			description: ["&7Magma Cream, a fiery substance derived from Magma Cubes, is vital for crafting potions and other powerful items. Venture into the blazing depths of the Nether to defeat Magma Cubes and collect 10 Magma Cream. Brace yourself for the intense heat and dangerous mobs as you gather this essential ingredient."]
-			id: "30ADB5594E103B55"
-			rewards: [
-				{
-					id: "4433A798CBF93157"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7700A06C4BC3DA82"
-					table_id: 228074029458712624L
-					type: "loot"
-				}
-			]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "Works in cakes too"
-			tasks: [
-				{
-					count: 10L
-					id: "38CC6072D51FB7BD"
-					item: "minecraft:magma_cream"
-					type: "item"
-				}
-				{
-					entity: "minecraft:magma_cube"
-					id: "1CB42E5A64707081"
-					type: "kill"
-					value: 10L
-				}
-			]
-			title: "Ze crem de la crem"
-			x: 4.630952380952365d
-			y: 0.9166666666666501d
-		}
-		{
-			dependencies: ["31EDA7FF103CFD88"]
-			description: ["&7Netherite is a rare and powerful material found in the deepest layers of the Nether. Venture into the lava-filled depths and mine Netherite Ore."]
-			id: "3C827F99DFFB320F"
-			rewards: [
-				{
-					id: "3D8F6FEF5C21E56F"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "03D6092A7C97D258"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "2D1052741E8D70EF"
-					item: "minecraft:obsidian"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6BAED39C475E416C"
-					table_id: 228074029458712624L
-					type: "loot"
-				}
-			]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "Everyones favorite resource"
-			tasks: [{
-				count: 4L
-				id: "78F5CA5D1A31A5CD"
-				item: "minecraft:ancient_debris"
-				type: "item"
-			}]
-			title: "Netherite Pursuit"
-			x: -2.607142857142861d
-			y: 3.10714285714284d
-		}
-		{
-			dependencies: ["3C827F99DFFB320F"]
-			description: ["&7The Nether Engine, a vital component from the Immersive Aircraft mod, is crucial for advanced machinery and power systems. Venture into the Nether to gather the necessary resources and craft this powerful engine. Master its creation to enhance your technological prowess."]
+			dependencies: ["3C0846F92EE411CF"]
+			description: ["&6Super charge your vehicles. Maximum speed or is there room for more?&r"]
 			id: "12046AD6A77A49DE"
 			rewards: [
 				{
@@ -502,6 +367,15 @@
 					table_id: 9153771261078832289L
 					type: "loot"
 				}
+				{
+					id: "1F394000DDE96ED6"
+					item: {
+						Count: 1
+						id: "dotcoinmod:gold_coin"
+						tag: { }
+					}
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			size: 1.5d
@@ -512,12 +386,14 @@
 				type: "item"
 			}]
 			title: "GAS GAS GAS!"
-			x: -3.035714285714292d
-			y: 6.011904761904745d
+			x: -6.0d
+			y: 6.75d
 		}
 		{
-			dependencies: ["3C827F99DFFB320F"]
-			description: ["&7The Netherite Gauntlet, a fearsome and powerful foe, wields the might of Netherite in battle. To prove your strength and claim its legendary power, you must defeat this formidable opponent. Prepare for a fierce showdown in the heart of the Nether."]
+			description: [
+				"&2In the nether find a cube like arena that houses the Nether Gauntlet Boss.&r"
+				"&2Mine the block in the middle of the arena to start the encounter.&r"
+			]
 			icon: {
 				Count: 1
 				id: "aether:netherite_gloves"
@@ -526,133 +402,155 @@
 				}
 			}
 			id: "49862D30C021561F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "47AD37376BCFABC2"
-				table_id: 9153771261078832289L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "47AD37376BCFABC2"
+					table_id: 9153771261078832289L
+					type: "choice"
+				}
+				{
+					id: "62489FFC0480250B"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:mythic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2E939623B5F5BA27"
+					item: {
+						Count: 1
+						id: "apotheosis:mythic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70E57D6533B66B46"
+					table_id: 1610080839990707444L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AD2DA541E6C8875"
+					table_id: 1795669360551144285L
+					type: "loot"
+				}
+				{
+					id: "46E4C3C995C9B464"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75D37E0C0DD0F6B4"
+					table_id: 228074029458712624L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C766A0E1C21ABFA"
+					table_id: 3647854218997353848L
+					type: "loot"
+				}
+			]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Found in the nether in square like structures"
+			subtitle: "Giant Evil Glove"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:gauntlet"
 				id: "07C50CE24CA58792"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Mike Tayson"
-			x: -5.0d
-			y: 4.0d
+			title: "Hard Hitter"
+			x: 2.0357142857142634d
+			y: 6.499999999999986d
 		}
 		{
-			dependencies: ["31EDA7FF103CFD88"]
-			description: ["&7 Wither Skeletons roam the fiery landscapes of the Nether, posing a significant threat with their relentless attacks. Your task is to hunt down and defeat 25 of these skeletal foes. Prepare for battle in the harsh Nether environment and collect the bones of your vanquished enemies."]
-			icon: "minecraft:wither_skeleton_skull"
-			id: "20276551923E1F32"
+			description: ["&2Defeat the wither.&r"]
+			id: "0D1D769A0B97C17B"
 			rewards: [
 				{
-					id: "55ED60537EA39922"
+					exclude_from_claim_all: true
+					id: "470D25CE49A47E73"
+					table_id: 9153771261078832289L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A495463CD948396"
+					table_id: 1795669360551144285L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "770E3A197AD76068"
+					table_id: 1610080839990707444L
+					type: "choice"
+				}
+				{
+					id: "627881CB80A0C27F"
 					type: "xp_levels"
 					xp_levels: 2
 				}
 				{
+					count: 2
+					id: "0D5974B54684F0F4"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:legendary_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "569E22CCE3250681"
+					item: {
+						Count: 1
+						id: "apotheosis:mythic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
 					exclude_from_claim_all: true
-					id: "613743E987B50860"
+					id: "7B539A9346B4724A"
 					table_id: 228074029458712624L
 					type: "loot"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "334DE83C8E5599CA"
+					table_id: 3647854218997353848L
+					type: "loot"
+				}
 			]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "Bone to pick"
-			tasks: [{
-				entity: "minecraft:wither_skeleton"
-				id: "50C159683FD2B18C"
-				type: "kill"
-				value: 25L
-			}]
-			title: "Tedious"
-			x: -1.0357142857142918d
-			y: 4.440476190476183d
-		}
-		{
-			dependencies: ["20276551923E1F32"]
-			description: ["&7The Wither Boss, a menacing and powerful entity, threatens to bring chaos and destruction. Prepare yourself for an epic battle against this formidable foe. Defeating the Wither Boss will require skill, strategy, and the best equipment you can muster."]
-			id: "0D1D769A0B97C17B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "470D25CE49A47E73"
-				table_id: 9153771261078832289L
-				type: "choice"
-			}]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Three headed menace"
+			subtitle: "Nether Star"
 			tasks: [{
 				entity: "minecraft:wither"
+				icon: {
+					Count: 1
+					id: "minecraft:wither_skeleton_skull"
+					tag: { }
+				}
 				id: "461F379629077ED0"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Giga"
-			x: -1.0d
-			y: 7.0d
+			title: "Three Headed Menace"
+			x: 2.511904761904759d
+			y: 2.011904761904745d
 		}
 		{
-			dependencies: ["31EDA7FF103CFD88"]
-			description: ["&7Venture into the heart of a Bastion Remnants, a treacherous fortress teeming with Piglin Brutes and their Piglin allies. Your mission is to defeat 5 formidable Piglin Brutes and 15 Piglins, then loot the chests scattered throughout the Bastion for valuable treasures. Prepare for intense combat and fierce resistance as you uncover the Bastion’s riches."]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "minecraft:item/porkchop"
-				}
-			}
-			id: "3D603CE1A04E774C"
-			rewards: [
-				{
-					id: "52AAD75BC143A6A9"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5831168A51FACF1C"
-					table_id: 228074029458712624L
-					type: "loot"
-				}
-			]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "Bad lil piggy"
-			tasks: [
-				{
-					entity: "minecraft:piglin_brute"
-					id: "6CCFF72AEEF398C9"
-					type: "kill"
-					value: 15L
-				}
-				{
-					entity: "minecraft:piglin"
-					id: "088A35EE251EA8C0"
-					type: "kill"
-					value: 30L
-				}
-				{
-					advancement: "minecraft:nether/loot_bastion"
-					criterion: ""
-					id: "11C80E604C59C4DD"
-					type: "advancement"
-				}
-			]
-			title: "Bastion’s Bane"
-			x: -1.797619047619051d
-			y: -0.6547619047619193d
-		}
-		{
-			dependencies: ["3D603CE1A04E774C"]
-			description: ["&7Smithing Templates are essential for crafting and enhancing your gear with unique modifications. Seek out and acquire a Smithing Template to unlock advanced crafting possibilities and upgrade your equipment. Explore dungeons or trade with skilled blacksmiths to find this valuable item."]
+			description: ["&2Used to upgrade nether gear.&r"]
 			id: "4E6AC4E214F4F170"
 			rewards: [
 				{
@@ -666,9 +564,15 @@
 					table_id: 228074029458712624L
 					type: "loot"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "43C3131A00A4E5F0"
+					table_id: 8076253726110416982L
+					type: "loot"
+				}
 			]
 			shape: "diamond"
-			size: 1.5d
+			size: 1.2d
 			subtitle: "Gonna need some diamonds..."
 			tasks: [{
 				id: "62087326933C683A"
@@ -676,49 +580,10 @@
 				type: "item"
 			}]
 			title: "Upgrades people! upgrades..."
-			x: -3.750000000000007d
-			y: 0.1547619047618909d
+			x: -5.392857142857153d
+			y: 0.5178571428571388d
 		}
 		{
-			dependencies: ["31EDA7FF103CFD88"]
-			description: ["&7Ghasts are the floating terrors of the Nether. Hunt down and slay a Ghast to collect its ghastly tear. Your success will aid in crafting powerful potions and gear."]
-			id: "19BF334A8B854D86"
-			rewards: [
-				{
-					id: "2DFD2D0EA44A700B"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					exclude_from_claim_all: true
-					id: "543549907EE8C221"
-					table_id: 228074029458712624L
-					type: "loot"
-				}
-			]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "Quest consumes Task item"
-			tasks: [
-				{
-					count: 5L
-					id: "1D183631BE9CE08A"
-					item: "minecraft:ghast_tear"
-					type: "item"
-				}
-				{
-					entity: "minecraft:ghast"
-					id: "54C34DD58FFECA29"
-					type: "kill"
-					value: 5L
-				}
-			]
-			title: "Ghastly Encounter"
-			x: 3.154761904761884d
-			y: 4.345238095238081d
-		}
-		{
-			dependencies: ["31EDA7FF103CFD88"]
 			id: "15188ACE41EC5F4F"
 			invisible: true
 			rewards: [{
@@ -726,16 +591,16 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			subtitle: "Might prove useful later on"
 			tasks: [{
 				id: "0D0BF9653DA03AFC"
 				item: "theabyss:crimson_crystal_ore"
 				type: "item"
 			}]
-			x: 1.5357142857142776d
-			y: 4.916666666666657d
+			x: 6.321428571428569d
+			y: 5.160714285714285d
 		}
 		{
-			dependencies: ["31EDA7FF103CFD88"]
 			id: "3979B2221AFB9CE0"
 			invisible: true
 			rewards: [{
@@ -743,44 +608,396 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			subtitle: "Might prove useful later on"
 			tasks: [{
 				id: "6EF094842E0CE647"
 				item: "theabyss:warped_crystal_ore"
 				type: "item"
 			}]
-			x: 0.3452380952380878d
-			y: 5.202380952380935d
+			x: 4.630952380952365d
+			y: 5.166666666666657d
 		}
 		{
 			dependencies: ["31EDA7FF103CFD88"]
-			description: ["&7Nether Quartz, a valuable resource found in the fiery depths of the Nether, is essential for crafting and enchanting. Your task is to gather 20 Nether Quartz by mining it from the Nether’s dangerous terrain. Equip yourself for the heat and hazards as you seek out this prized material."]
-			id: "648D6A9A6628F962"
-			rewards: [
+			id: "0687F86027E3D686"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B9F1CCE8A234C7E"
+				table_id: 8076253726110416982L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "First tier nether material"
+			tasks: [{
+				id: "6946D7A9B3CA31BA"
+				item: {
+					Count: 1
+					id: "betternether:cincinnasite_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.797619047619058d
+			y: -0.6547619047619193d
+		}
+		{
+			dependencies: ["0687F86027E3D686"]
+			id: "2DC36F03BA717DE8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45938004DE2F3867"
+				table_id: 4126377319629838158L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "689628D60D80C7F4"
+				item: {
+					Count: 1
+					id: "betternether:cincinnasite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.8d
+			y: 1.9499999999999997d
+		}
+		{
+			dependencies: [
+				"4E6AC4E214F4F170"
+				"2DC36F03BA717DE8"
+			]
+			id: "57E93902C0163020"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AE505F9CD5FFFE4"
+				table_id: 4126377319629838158L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "73BCD25CFAE43ACC"
+				item: {
+					Count: 1
+					id: "betternether:cincinnasite_pickaxe_diamond"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "betternether:obsidian_breaker"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -4.199999999999999d
+			y: 1.9499999999999997d
+		}
+		{
+			dependencies: [
+				"59EBBE22AB54223C"
+				"57E93902C0163020"
+			]
+			id: "63270581775F4C10"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4347C69C9EAC7D07"
+				table_id: 4126377319629838158L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "6FC3DD481FB94BB4"
+				item: {
+					Count: 1
+					id: "betternether:nether_ruby_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "betternether:obsidian_breaker"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5999999999999996d
+			y: 1.9499999999999997d
+		}
+		{
+			dependencies: [
+				"63270581775F4C10"
+				"2B3D8E4B7794B617"
+			]
+			id: "4D8DA137BEFDB867"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "740EAE7C9103AA51"
+				table_id: 4126377319629838158L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "55DDA27698D6D3FD"
+				item: {
+					Count: 1
+					id: "betternether:flaming_ruby_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:mending"
+								lvl: 1s
+							}
+							{
+								id: "betternether:ruby_fire"
+								lvl: 1s
+							}
+							{
+								id: "betternether:obsidian_breaker"
+								lvl: 3s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -4.199999999999999d
+			y: 3.7499999999999996d
+		}
+		{
+			dependencies: [
+				"3C0846F92EE411CF"
+				"4D8DA137BEFDB867"
+			]
+			id: "33D9EF5708B08609"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B1F02A1D3BB2946"
+				table_id: 4126377319629838158L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "601525C9008E085B"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.8d
+			y: 3.7499999999999996d
+		}
+		{
+			id: "59EBBE22AB54223C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39D3B9157BA6B621"
+				table_id: 4126377319629838158L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Second tier nether material"
+			tasks: [{
+				id: "3981FC7BAF9B0858"
+				item: {
+					Count: 1
+					id: "betternether:nether_ruby"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.407142857142861d
+			y: 0.6321428571428399d
+		}
+		{
+			dependencies: ["31EDA7FF103CFD88"]
+			description: ["&2Perhaps you cannot find a template? Worry not...&r"]
+			icon: {
+				Count: 1
+				id: "undergarden:bloody_stew"
+				tag: { }
+			}
+			id: "1C3797BDBAFF6522"
+			rewards: [{
+				id: "2DD32017078B5F7A"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_upgrade_smithing_template"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Luck protection"
+			tasks: [
 				{
-					id: "2BA0984693C37E50"
-					type: "xp_levels"
-					xp_levels: 2
+					entity: "minecraft:piglin"
+					id: "43700958374FCDF4"
+					type: "kill"
+					value: 60L
 				}
 				{
-					exclude_from_claim_all: true
-					id: "73A648A1E841E12E"
-					table_id: 228074029458712624L
-					type: "loot"
+					entity: "minecraft:piglin_brute"
+					id: "66D744D220E8E1B1"
+					type: "kill"
+					value: 30L
+				}
+				{
+					entity: "minecraft:blaze"
+					id: "76A0D5AB7A13F388"
+					type: "kill"
+					value: 20L
+				}
+				{
+					entity: "minecraft:wither_skeleton"
+					id: "644C4C742B558C9A"
+					type: "kill"
+					value: 30L
+				}
+			]
+			title: "Templater"
+			x: -0.797619047619051d
+			y: -0.5476190476190652d
+		}
+		{
+			id: "2B3D8E4B7794B617"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39CF64B3C07B9043"
+				table_id: 4126377319629838158L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Can be found in nether chests"
+			tasks: [{
+				id: "41A56A6A4EB8A6E6"
+				item: {
+					Count: 1
+					id: "minecraft:sculk_catalyst"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.2000000000000002d
+			y: 3.7499999999999996d
+		}
+		{
+			id: "3C0846F92EE411CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70C0E550A3821454"
+				table_id: 4126377319629838158L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Final nether material"
+			tasks: [{
+				id: "2262851C78301AE0"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.978571428571445d
+			y: 5.060714285714257d
+		}
+		{
+			dependencies: ["3C0846F92EE411CF"]
+			id: "5D19483653E095D0"
+			rewards: [
+				{
+					id: "287FD975163C5FA7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7AB40C71A099AC56"
+					item: {
+						Count: 1
+						id: "dotcoinmod:gold_coin"
+						tag: { }
+					}
+					type: "item"
 				}
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Quest Consumes task item"
+			subtitle: "Used to respawn bosses"
 			tasks: [{
-				consume_items: true
-				count: 128L
-				id: "2E5C19EE06871818"
-				item: "minecraft:quartz"
+				id: "7B76CDCEC1C8FECD"
+				item: {
+					Count: 1
+					id: "bosses_of_mass_destruction:brimstone_nectar"
+					tag: { }
+				}
 				type: "item"
 			}]
-			title: "Quartz is life"
-			x: 1.7738095238095184d
-			y: -2.3690476190476346d
+			x: -4.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["3C0846F92EE411CF"]
+			id: "4273FAD407C63565"
+			rewards: [
+				{
+					id: "665D9C99B04A2159"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0B0CB4AF350BB82F"
+					item: {
+						Count: 1
+						id: "easy_mob_farm:netherite_mob_farm_template"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "46F77F315BD1780F"
+					item: {
+						Count: 1
+						id: "dotcoinmod:gold_coin"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Useful"
+			tasks: [{
+				id: "4677F7351F4175D5"
+				item: {
+					Count: 1
+					id: "easy_mob_farm:netherite_lasso"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.75d
 		}
 	]
 	title: "Nether"

@@ -1,0 +1,39 @@
+{
+	icon: {
+		Count: 1
+		id: "dotcoinmod:silver_coin"
+		tag: { }
+	}
+	id: "3943D64F49C3D74E"
+	loot_size: 1
+	order_index: 57
+	rewards: [
+		{
+			count: 50
+			item: {
+				Count: 1
+				id: "dotcoinmod:bronze_coin"
+				tag: { }
+			}
+			weight: 25.0f
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "dotcoinmod:silver_coin"
+				tag: { }
+			}
+			weight: 10.0f
+		}
+		{
+			count: 5
+			item: {
+				Count: 1
+				id: "dotcoinmod:silver_coin"
+				tag: { }
+			}
+		}
+	]
+	title: "purse2"
+}

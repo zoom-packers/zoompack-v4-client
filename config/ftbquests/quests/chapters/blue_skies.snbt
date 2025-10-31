@@ -177,16 +177,16 @@
 			image: "ftbquests:block/barrier_open"
 			rotation: 0.0d
 			width: 3.0d
-			x: 9.0d
-			y: -4.0d
+			x: 12.0d
+			y: -6.0d
 		}
 		{
 			height: 3.0d
 			image: "supplementaries:block/cannon_target_charging"
 			rotation: 0.0d
 			width: 3.0d
-			x: 6.0d
-			y: -3.0d
+			x: 9.0d
+			y: -6.0d
 		}
 		{
 			height: 3.0d
@@ -289,16 +289,27 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["&7Obtain the Zeal Lighter, a mystical tool that illuminates the path to the Everdawn and Everbright dimensions. Its radiant flame will guide you through the veils between worlds and reveal the way to realms beyond your imagination."]
+			description: [
+				"&2Purchase it from a gatekeeper for some emeralds or you can craft it.&r"
+				"&2Around in the overworld gatekeeper houses spawn and you can find it there.&r"
+			]
 			id: "562AAFDF220019AD"
-			rewards: [{
-				id: "4DA35617D73B8473"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4DA35617D73B8473"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FF074D45864CEA9"
+					table_id: 1795669360551144285L
+					type: "loot"
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Buy it from a villager found in the overworld"
+			subtitle: "Buy it from a gatekeeper"
 			tasks: [{
 				id: "43F41A54C8274720"
 				item: {
@@ -311,12 +322,11 @@
 				type: "item"
 			}]
 			title: "Dimensional Arson"
-			x: -1.0d
+			x: -0.75d
 			y: 0.0d
 		}
 		{
-			dependencies: ["562AAFDF220019AD"]
-			description: ["&7Extract precious Moonstone from the luminous depths of the Everbright Dimension."]
+			description: ["&2It glows so its pretty cool. Can be use as a light source if crafted into a block.&r"]
 			id: "14CC01E58FA44F4F"
 			rewards: [{
 				id: "1B82CE1A1FD2367E"
@@ -325,26 +335,28 @@
 			}]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Moonstuff"
+			subtitle: "Its from the moon aparently"
 			tasks: [{
 				id: "13F4D3F253044E06"
 				item: "blue_skies:moonstone"
 				type: "item"
 			}]
-			title: "Qiatra de luna"
-			x: 2.5d
-			y: -1.0d
+			x: 2.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["562AAFDF220019AD"]
-			description: ["&7Venture into the Everdawn Dimension, a realm of perpetual twilight and ancient mystery. Here, you'll encounter the elusive Alchemist and the fearsome Arachnarch. Brace yourself for their formidable powers and unravel the secrets of this enigmatic world."]
+			description: [
+				"You can make the portal out of &6Lunar Stone Bricks&r and light it with a &6Zeal Lighter&r."
+				"The portals (yes the whole portal) can be found in the overworld in some special houses that spawn around the world. The houses will house a villager that sells the zeal lighter for some emeralds and &2upstairs or around outside&r the house is either an &beverbright portal&r or an &4everdawn portal&r. Everbright portal is made out of &6Lunar Stone Bricks&r."
+			]
 			icon: "blue_skies:everdawn_portal"
 			id: "7163E74A9BC10EB5"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7E57942A329D1D91"
-				table_id: 1610080839990707444L
-				type: "choice"
+				id: "5AF4ECD39C4F6D7C"
+				table_id: 1795669360551144285L
+				type: "loot"
 			}]
 			shape: "diamond"
 			size: 1.5d
@@ -354,54 +366,47 @@
 				id: "327A23A520F89273"
 				type: "dimension"
 			}]
-			title: "More unknown"
-			x: 1.0d
-			y: -3.0d
+			title: "Everdawn"
+			x: -0.75d
+			y: -3.75d
 		}
 		{
-			dependencies: ["7163E74A9BC10EB5"]
-			description: ["&7Uncover Horizonite, the pinnacle of ore from the Blue Skies Dimensions. This ultimate material embodies the essence of the skies, offering unmatched strength and magical properties. Mine Horizonite to craft the most formidable gear and achieve new heights in your adventures!"]
+			dependencies: ["0E9BCDE75631A919"]
+			description: [
+				"&2Final tier of material.&r"
+				"&2Found rarely deep in the everdawn in the searing grasslands biome.&r"
+			]
 			id: "0F905561BBD0BA6A"
-			rewards: [{
-				id: "2456B6603A208FF7"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2456B6603A208FF7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A0E59D3B9C3A469"
+					table_id: 4126377319629838158L
+					type: "loot"
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "Solar stuff"
 			tasks: [{
 				id: "0B7D0E0ADA99E46E"
 				item: "blue_skies:horizonite_ingot"
 				type: "item"
 			}]
-			title: "Terraria yeye ingot"
-			x: 3.0d
-			y: -3.5d
+			x: 6.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["0F905561BBD0BA6A"]
-			description: ["&7Acquire the Horizonite Forge, a specialized smelting device designed to handle the extraordinary properties of Horizonite ore. This forge will allow you to refine Horizonite into powerful materials, unlocking the full potential of the skies’ most coveted resource. Equip it to elevate your crafting to the next level!"]
-			id: "0BA811407358544A"
-			rewards: [{
-				id: "49EE93DDD488F660"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "Horizonite forge"
-			tasks: [{
-				id: "7D6E63AC970C5DAF"
-				item: "blue_skies:horizonite_forge"
-				type: "item"
-			}]
-			title: "Forja lu'Thor"
-			x: 1.5d
-			y: -5.25d
-		}
-		{
-			dependencies: ["0F905561BBD0BA6A"]
-			description: ["&7The elusive Alchemist, a master of forbidden potions and dark magic, has been experimenting with powerful substances deep within the Everbright or Everdawn dimensions. Rumors suggest that these experiments have corrupted the land and its creatures, making the Alchemist a serious threat. Your task is to locate the Alchemist's hidden laboratory, concealed within a labyrinth of twisted corridors and alchemical traps. As you make your way through, you'll encounter mutated beasts and toxic hazards. The final confrontation will test your wits and combat skills as the Alchemist unleashes devastating potions and arcane spells. Defeat the Alchemist to cleanse the land of their malevolent influence and claim their rare alchemical treasures."]
+			description: [
+				"&2Look around in the everdawn for yet another blinding mage tower.&r "
+				"You can start the encounter by using keys found inside the chests around the labyrinth and afterwards re-summon the boss using the arc."
+				"&4Warning re-summoning using the arc boosts difficulty.&r"
+			]
 			icon: {
 				Count: 1
 				id: "minecraft:potion"
@@ -417,39 +422,77 @@
 					xp_levels: 3
 				}
 				{
-					count: 16
-					id: "4F95F550CB15F793"
-					item: "blue_skies:horizonite_ingot"
+					exclude_from_claim_all: true
+					id: "3C7A1D16952EC849"
+					table_id: 1795669360551144285L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36BF6B476C36FB9F"
+					table_id: 1610080839990707444L
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "71899E3D530B4D7D"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:epic_material"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
-					count: 10
-					id: "543E991D3BBA7E33"
-					item: "minecraft:diamond"
+					count: 3
+					id: "12EA923B58199DD5"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:rare_material"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
-					count: 32
-					id: "2D5DE166779A07F7"
-					item: "minecraft:emerald"
+					count: 6
+					id: "710728663B2C56AB"
+					item: {
+						Count: 1
+						id: "apotheosis:rare_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "63FBAEFE2846A38A"
+					item: {
+						Count: 1
+						id: "apotheosis:epic_material"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Find and defeat the Alchemist"
+			subtitle: "Third boss"
 			tasks: [{
 				entity: "blue_skies:alchemist"
 				id: "581FB8700A332D28"
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.0d
-			y: -3.0d
+			x: 9.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1AD8BB2D475052C7"]
-			description: ["&7Deep within the dark, web-covered caverns of the Everdawn dimension lies the Arachnarch, a monstrous spider queen that has terrorized the land for centuries. Tales of her venomous bite and the deadly brood she commands have kept even the bravest adventurers at bay. Your quest is to venture into her lair, a maze of sticky webs and lurking spider minions, to confront the Arachnarch herself. Navigate the treacherous tunnels, avoid deadly ambushes, and prepare for a battle unlike any other. The Arachnarch's agility and venomous attacks will challenge your every move. Defeat her to put an end to her reign of terror and claim the precious loot hidden within her nest."]
+			description: [
+				"&2Look around in the everdawn for the Spider Tree it covers the entrance to the poison labyrinth.&r "
+				"You can start the encounter by using keys found inside the chests around the labyrinth and afterwards re-summon the boss using the arc."
+				"&4Warning re-summoning using the arc boosts difficulty.&r"
+			]
 			icon: "handcrafted:spider_trophy"
 			id: "3B19C945BDFB960A"
 			rewards: [
@@ -459,184 +502,112 @@
 					xp_levels: 3
 				}
 				{
-					count: 10
-					id: "495D2E344E3142D7"
-					item: "minecraft:diamond"
+					exclude_from_claim_all: true
+					id: "53E03759E6CB0B3A"
+					table_id: 1795669360551144285L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "596CA3947FC16EDD"
+					table_id: 1610080839990707444L
+					type: "choice"
+				}
+				{
+					id: "54064C6B9F1CEA8E"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:legendary_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6887C7EFBE79A206"
+					item: {
+						Count: 1
+						id: "apotheosis:epic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "16EC9FEE61C27BFB"
+					item: {
+						Count: 1
+						id: "apotheosis:mythic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0C6E09BF0768890D"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:epic_material"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Discover and defeat the Arachnarch"
+			subtitle: "Final boss"
 			tasks: [{
 				entity: "blue_skies:arachnarch"
 				id: "0B6ADEB917B8067C"
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.0d
-			y: -4.0d
+			x: 12.0d
+			y: -6.0d
 		}
 		{
-			dependencies: ["46FCE1483AA347DA"]
-			description: ["&7Seek out the gleaming Diopside, a gem of vivid green brilliance and resilience. This valuable stone is pivotal in crafting superior gear and tools. Gather this gem to forge items of exceptional durability and elegance, and elevate your prowess to new heights!"]
+			dependencies: ["7163E74A9BC10EB5"]
+			description: [
+				"&2Third tier of material.&r"
+				"&2Can be found more commonly in the everdawn but still rare deep in caves.&r"
+			]
 			id: "41778DB5A683D7CE"
-			rewards: [{
-				id: "7DD83A45ED9DD6EC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "7DD83A45ED9DD6EC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23350EF1579AC23D"
+					table_id: 4126377319629838158L
+					type: "loot"
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Green power ranger"
+			subtitle: "Green power "
 			tasks: [{
 				id: "289E5A69F6E93AF6"
 				item: "blue_skies:diopside_gem"
 				type: "item"
 			}]
-			title: "Kryptonita"
-			x: 10.5d
-			y: -1.0d
+			title: "Kryptonite"
+			x: 1.5d
+			y: -3.75d
 		}
 		{
-			dependencies: ["004928D8F1B0737B"]
-			description: ["&7Obtain the serene Aquite, a gem of deep blue tranquility and elemental power. This precious stone is essential for crafting advanced tools and armor. Harness its crystalline essence to enhance your equipment and master the art of precision and strength!"]
-			id: "46FCE1483AA347DA"
-			rewards: [{
-				id: "290108B5B3A272BD"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "Blue power ranger"
-			tasks: [{
-				id: "7E68CF3FAE9DFBEE"
-				item: "blue_skies:aquite"
-				type: "item"
-			}]
-			title: "Safir gheto"
-			x: 7.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["14CC01E58FA44F4F"]
-			description: ["&7Discover the vibrant Pyrope Gemstone, a gem of intense red hue and fiery energy. This rare find is a key component in crafting powerful gear. Secure this gem to ignite your quest with newfound strength and brilliance!"]
-			id: "004928D8F1B0737B"
-			rewards: [{
-				id: "589DA42EC69A4A1C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "Red power ranger"
-			tasks: [{
-				id: "30266096FCE3C807"
-				item: "blue_skies:pyrope_gem"
-				type: "item"
-			}]
-			title: "Rubin gheto"
-			x: 5.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["075382FBE2625D96"]
-			description: ["&7Craft a Comet Berry Pie using the rare and radiant Comet Berries. This delicious and otherworldly dessert not only satisfies your hunger but also provides a boost of cosmic energy. Indulge in this celestial confection and savor the taste of the stars!"]
-			id: "5C1D9ECD682C3AEE"
-			rewards: [
-				{
-					count: 5
-					id: "278F5BEA3E12BB0B"
-					item: {
-						Count: 1
-						id: "vinery:apple_wine"
-						tag: {
-							Year: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "296D01737E1B7FFA"
-					type: "xp_levels"
-					xp_levels: 1
-				}
+			dependencies: ["562AAFDF220019AD"]
+			description: [
+				"You can make the portal out of &6Turqoise Stone Bricks&r and light it with a &6Zeal Lighter&r."
+				"The portals (yes the whole portal) can be found in the overworld in some special houses that spawn around the world. The houses will house a villager that sells the zeal lighter for some emeralds and &2upstairs or around outside&r the house is either an &beverbright portal&r or an &4everdawn portal&r. Everbright portal is made out of &6Turqoise Stone Bricks&r."
 			]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "Galactic Treat"
-			tasks: [{
-				id: "632E1067ED4D345C"
-				item: "blue_skies:comet_berry_pie"
-				type: "item"
-			}]
-			x: 7.154761904761877d
-			y: 1.0654761904761898d
-		}
-		{
-			dependencies: ["562AAFDF220019AD"]
-			description: ["&7Harvest Comet Berries from the mystical Comet Trees. These shimmering fruits, imbued with cosmic energy, offer rare and powerful properties. Gather these berries to enhance your crafting and infuse your creations with the essence of the stars!"]
-			id: "075382FBE2625D96"
-			rewards: [
-				{
-					count: 5
-					id: "3DAD4CAED7516FA4"
-					item: {
-						Count: 1
-						id: "vinery:cherry_wine"
-						tag: {
-							Year: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2C8F0D87FB748BA3"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "Celestial Harvest"
-			tasks: [{
-				id: "7C7F605D54AA0880"
-				item: "blue_skies:comet_berries"
-				type: "item"
-			}]
-			x: 4.011904761904738d
-			y: 1.0654761904761898d
-		}
-		{
-			dependencies: ["562AAFDF220019AD"]
-			description: ["&7Discover the rare Comet Sapling, a plant with cosmic origins. This unique sapling, touched by the stars, holds the potential to grow into a celestial tree. Collect it to add a touch of the cosmos to your world and unlock its otherworldly potential!"]
-			id: "1E107FF07D5D0B93"
-			rewards: [{
-				id: "7CB4094626846A33"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "0C55EF20AA2EC050"
-				item: "blue_skies:comet_sapling"
-				type: "item"
-			}]
-			x: 1.869047619047592d
-			y: 2.422619047619044d
-		}
-		{
-			dependencies: ["562AAFDF220019AD"]
-			description: ["&7Step into the Everbright Dimension, a realm of celestial wonder and peril. This radiant world is home to the formidable Summoner and the Starlit Crusher. Prepare for a cosmic challenge as you face these powerful bosses and uncover the secrets of the ever-bright skies."]
 			icon: "blue_skies:everbright_portal"
 			id: "7B8912A8286CAD2E"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "01D7764ED1A79174"
-				table_id: 1610080839990707444L
-				type: "choice"
+				id: "7809CB53F5556285"
+				table_id: 1795669360551144285L
+				type: "loot"
 			}]
 			shape: "diamond"
 			size: 1.5d
@@ -646,148 +617,154 @@
 				id: "53C3419AD8DC3A16"
 				type: "dimension"
 			}]
-			title: "Into the unknown"
+			title: "Everbright"
 			x: -0.75d
-			y: 3.0d
-		}
-		{
-			dependencies: ["7B8912A8286CAD2E"]
-			description: ["&7Acquire the Snocap Oven, a specialized furnace designed to smelt ores from the Blue Skies Dimensions. With its advanced smelting capabilities, you'll refine these rare resources into powerful materials. Equip this oven to unlock the true potential of the skies above!"]
-			id: "7E42557F15C39ABE"
-			rewards: [
-				{
-					count: 5
-					id: "7F7B1108F30AD2BB"
-					item: {
-						Count: 1
-						id: "vinery:knulp_wine"
-						tag: {
-							Year: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4D29B9C421AD3ACB"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "Snowy oven"
-			tasks: [{
-				id: "656497144F168D2D"
-				item: "blue_skies:snowcap_oven"
-				type: "item"
-			}]
-			title: "Cuptoru bunicutzei"
-			x: 0.75d
-			y: 5.25d
-		}
-		{
-			dependencies: ["7E42557F15C39ABE"]
-			description: ["&7Collect Falsite Ingots, imbued with subtle magical properties. These rare ingots not only serve as a powerful crafting material but also enhance your gear with a touch of arcane energy. Harness Falsite's mystical essence to elevate your creations!"]
-			id: "7D24893CDC064DB7"
-			rewards: [{
-				id: "079AFD8F9FED1506"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "purple ingot"
-			tasks: [{
-				id: "14297A11A51005A3"
-				item: "blue_skies:falsite_ingot"
-				type: "item"
-			}]
-			title: "Fals"
-			x: 4.5d
 			y: 3.75d
 		}
 		{
-			dependencies: ["7E42557F15C39ABE"]
-			description: ["&7Obtain Ventium Ingots, a versatile substitute for iron with unique properties. These ingots are essential for crafting and upgrading your gear, offering durability and strength in place of traditional iron. Harness the power of Ventium to enhance your arsenal!"]
-			id: "3D7CC62B4B83870D"
-			rewards: [{
-				id: "44654CC3FB51FE15"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "Red iron"
-			tasks: [{
-				id: "20AA4B5725D145E9"
-				item: "blue_skies:ventium_ingot"
-				type: "item"
-			}]
-			title: "Ciclu ingot"
-			x: 3.75d
-			y: 6.0d
-		}
-		{
-			dependencies: ["3D7CC62B4B83870D"]
-			description: ["&7The local blacksmith in your village has heard rumors of an ancient toolbox hidden within the treacherous Everbright dimension, said to contain tools of immense power. Your task is to venture into the Everbright, locate the mystical toolbox, and bring it back safely. Beware of the deadly creatures that guard it and the perilous terrain that stands in your way. Success will reward you with powerful tools to aid in your future adventures."]
-			id: "07238F90A2A403DD"
+			dependencies: ["1A3E271810751FCF"]
+			description: ["&2First tier of material.&r"]
+			id: "7D24893CDC064DB7"
 			rewards: [
 				{
-					count: 3
-					id: "4F363D2685DA77FF"
-					item: {
-						Count: 1
-						id: "nethervinery:blazewine_pinot"
-						tag: {
-							Year: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "551BDD048933E8CE"
+					id: "079AFD8F9FED1506"
 					type: "xp_levels"
 					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E58C7CC806EE774"
+					table_id: 5121559565596482900L
+					type: "loot"
 				}
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Retrieve a special toolbox from the depths of the Everbright dimension in the Blue Skies mod."
+			subtitle: "Hard ruby"
 			tasks: [{
-				id: "3CD52B0ADE71534D"
-				item: "blue_skies:tool_box"
+				id: "14297A11A51005A3"
+				item: {
+					Count: 1
+					id: "blue_skies:pyrope_gem"
+					tag: { }
+				}
 				type: "item"
 			}]
-			title: "Cutia cu scule"
-			x: 6.75d
-			y: 6.75d
+			x: 3.059523809523789d
+			y: 5.101190476190467d
 		}
 		{
-			description: ["&7Dark omens have spread across the land, with villagers whispering of a malevolent entity known as the Summoner, hiding deep within the towering structures of the Everbright or Everdawn dimensions. Your mission is to seek out the Summoner's domain—an ancient dungeon guarded by fearsome creatures. Explore the depths of this perilous stronghold, solve its puzzles, and fight your way through waves of enemies to confront the Summoner. Armed with devastating magic and formidable strength, this boss will test your skills to the limit. Only the bravest will prevail and claim the Summoner's powerful loot as their own."]
+			dependencies: ["7D24893CDC064DB7"]
+			description: ["&2Second tier of material.&r"]
+			id: "3D7CC62B4B83870D"
+			rewards: [
+				{
+					id: "44654CC3FB51FE15"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2432CC717D678278"
+					table_id: 5121559565596482900L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Blue iron"
+			tasks: [{
+				id: "20AA4B5725D145E9"
+				item: {
+					Count: 1
+					id: "blue_skies:aquite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Aqua ore"
+			x: 5.3928571428571175d
+			y: 3.577380952380942d
+		}
+		{
+			description: [
+				"&2Look around in the everbright for the blinding mage tower.&r"
+				"You can start the encounter by using keys found inside the chests around the tower and afterwards re-summon the boss using the arc."
+				"&4Warning re-summoning using the arc boosts difficulty.&r"
+			]
 			icon: "everythingisedibleeie:vex_wing"
 			id: "5787B09F378D0A9F"
 			rewards: [
 				{
-					id: "2B238173C68A361C"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
-					count: 10
-					id: "3FD8C8E392109EDF"
-					item: "minecraft:diamond"
+					count: 3
+					id: "7A41958E75588EE3"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:epic_material"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
-					count: 32
-					id: "7A2FCDAF1B961F04"
-					item: "minecraft:emerald"
+					count: 2
+					id: "3489F1082A5F81AA"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:rare_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "26E1FE8B905812BF"
+					item: {
+						Count: 1
+						id: "apotheosis:rare_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "24241FFB6C044978"
+					item: {
+						Count: 1
+						id: "apotheosis:epic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0A2E43EA26E6F309"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FAAAC85C2C2A15B"
+					table_id: 1795669360551144285L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "032E1E2080B04CE7"
+					table_id: 1610080839990707444L
+					type: "choice"
+				}
+				{
+					id: "43A07E97331EF43A"
+					item: {
+						Count: 1
+						id: "zoomers_armory:everbright_smithing_template"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Locate and defeat the Summoner, a powerful boss in the Blue Skies mod."
+			subtitle: "First boss"
 			tasks: [{
 				entity: "blue_skies:summoner"
 				id: "321501BDC0E320DC"
@@ -799,7 +776,11 @@
 		}
 		{
 			dependencies: ["5787B09F378D0A9F"]
-			description: ["&7In the heart of the Everdawn dimension, a massive creature known as the Starlit Crusher has awakened, threatening to bring devastation to the world. Legends speak of its immense power and the trail of destruction it leaves behind. Your quest is to track down this mighty beast within its lair, deep inside a sprawling, star-lit cave. The journey will be perilous, filled with deadly traps and fearsome enemies. Once you locate the Starlit Crusher, prepare for an epic battle against this colossal foe. With its towering strength and earth-shattering attacks, only the most skilled adventurers can hope to bring it down and claim its rare and powerful rewards."]
+			description: [
+				"&2Look around in the everbright for the nature dungeon.&r "
+				"You can start the encounter by using keys found inside the chests around the labyrinth and afterwards re-summon the boss using the arc."
+				"&4Warning re-summoning using the arc boosts difficulty.&r"
+			]
 			icon: "croptopia:starfruit"
 			id: "4A6D478292BA06F6"
 			rewards: [
@@ -809,21 +790,60 @@
 					xp_levels: 3
 				}
 				{
-					count: 32
-					id: "08ED93C56FC9F59A"
-					item: "croptopia:starfruit"
+					exclude_from_claim_all: true
+					id: "1545C7A9CEBC6DC9"
+					table_id: 1795669360551144285L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33973C0F9EE15949"
+					table_id: 1610080839990707444L
+					type: "choice"
+				}
+				{
+					id: "28A47C3CB74867A3"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:epic_material"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
-					count: 10
-					id: "70C040B237D3B85C"
-					item: "minecraft:diamond"
+					count: 3
+					id: "1EDD9852CF083278"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:rare_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "5D0CF1213C12D059"
+					item: {
+						Count: 1
+						id: "apotheosis:rare_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "376F53E50CE5BFC2"
+					item: {
+						Count: 1
+						id: "apotheosis:epic_material"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Seek out and defeat the Starlit Crusher"
+			subtitle: "Second boss"
 			tasks: [{
 				entity: "blue_skies:starlit_crusher"
 				id: "086F25C5808B572E"
@@ -832,6 +852,190 @@
 			}]
 			x: 11.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["7B8912A8286CAD2E"]
+			id: "1A3E271810751FCF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4DE401E229927C89"
+					table_id: 5121559565596482900L
+					type: "loot"
+				}
+				{
+					id: "57D7EBE6FDED2E43"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Need it to mine pyrope"
+			tasks: [{
+				id: "537B86BD1AFADD2A"
+				item: {
+					Count: 1
+					id: "blue_skies:turquoise_stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["41778DB5A683D7CE"]
+			description: [
+				"&2Fourth tier of material.&r"
+				"&2Can also be found in the caves rarely in the everdawn.&r"
+			]
+			id: "0E9BCDE75631A919"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1C0E21B1BC4955CC"
+					table_id: 4126377319629838158L
+					type: "loot"
+				}
+				{
+					id: "6CD97E7EC4C637E1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Purple stuff"
+			tasks: [{
+				id: "62964B85AA24EA64"
+				item: {
+					Count: 1
+					id: "blue_skies:charoite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["4A6D478292BA06F6"]
+			id: "2426C66579D284E3"
+			rewards: [{
+				id: "0034EDA4FBE7E945"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Extra hp"
+			tasks: [{
+				id: "41B8A707F9D9BFD5"
+				item: {
+					Count: 1
+					id: "blue_skies:nature_arc"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1AD8BB2D475052C7"]
+			id: "31E330F56E21FF54"
+			rewards: [{
+				id: "1D9467770AEE3CC0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Ninja vanish"
+			tasks: [{
+				id: "55C548A2D5056B6A"
+				item: {
+					Count: 1
+					id: "blue_skies:dusk_arc"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5787B09F378D0A9F"]
+			id: "10AEC1E980BC87C2"
+			rewards: [{
+				id: "5666906FD8D765D3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Useful little trinket"
+			tasks: [{
+				id: "49D86FD8AB0CCC60"
+				item: {
+					Count: 1
+					id: "blue_skies:ethereal_arc"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B19C945BDFB960A"]
+			id: "2BF30C50989EA695"
+			rewards: [{
+				id: "6903DF0750B039B4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Cute"
+			tasks: [{
+				id: "25917ECB7A7FAF33"
+				item: {
+					Count: 1
+					id: "blue_skies:poison_arc"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1AD8BB2D475052C7"]
+			description: ["&2Look around in the recipes to see what you can do with it. It might prove useful.&r"]
+			id: "43EDA3C023276209"
+			rewards: [{
+				id: "79ECC4510F42E925"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Doesn't respect that law of equivalent exchange"
+			tasks: [{
+				id: "509982AC704AF722"
+				item: {
+					Count: 1
+					id: "blue_skies:alchemy_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
 		}
 	]
 	title: "Blue skies"

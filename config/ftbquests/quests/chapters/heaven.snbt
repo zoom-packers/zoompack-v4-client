@@ -411,17 +411,17 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["&7Legends speak of a mystical realm high above the clouds, known as the Aether—a land of floating islands, ancient ruins, and heavenly creatures. To reach this enchanting dimension, you'll need to craft a portal using Glowstone and ignite it with Water. Once activated, the portal will transport you to the Aether's breathtaking skies, where new adventures, challenges, and treasures await. Prepare yourself for the wonders and dangers of this celestial world!"]
+			description: ["&2Construct a portal made out of &6glowstone blocks&r and light it using a &1water bucket&r.&r"]
 			icon: "minecraft:glowstone"
 			id: "55494C46BBB4B12E"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "0E5974265F234D4A"
-				table_id: 1610080839990707444L
-				type: "choice"
+				id: "6551556F6C4623E5"
+				table_id: 1795669360551144285L
+				type: "loot"
 			}]
 			shape: "square"
-			subtitle: "Construct a portal to enter the Aether dimension"
+			subtitle: "Cloud jumping time"
 			tasks: [{
 				dimension: "aether:the_aether"
 				id: "4D67F63180730817"
@@ -433,7 +433,7 @@
 		}
 		{
 			dependencies: ["55494C46BBB4B12E"]
-			description: ["&7Deep within the floating islands of the Aether, a rare and powerful gem known as Zanite lies hidden. This vibrant purple crystal is said to grow stronger as it takes damage, making it highly sought after by adventurers. Your mission is to explore the Aether’s treacherous caves and towering cliffs to mine Zanite Ore. Be prepared to face the challenges of the Aether’s unique environment, including hostile creatures and tricky terrain. Gather enough Zanite to craft powerful tools and armor, and harness the true potential of this mystical gem."]
+			description: [""]
 			id: "67238295F602FF1E"
 			rewards: [{
 				id: "4B9A4511109D4B25"
@@ -441,20 +441,20 @@
 				xp_levels: 2
 			}]
 			shape: "square"
-			subtitle: "Mine some zanite"
+			subtitle: "First tier aether material"
 			tasks: [{
-				count: 15L
+				count: 6L
 				id: "124892B4357D392B"
 				item: "aether:zanite_gemstone"
 				type: "item"
 			}]
 			title: "Cheap amethyst"
 			x: -0.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["67238295F602FF1E"]
-			description: ["&7The vibrant Aechor Plant, found only in the lush landscapes of the Aether, holds a unique treasure: the Aechor Petal. This delicate petal is known for its potent properties, used in crafting and alchemy. Your mission is to track down these elusive plants, often found in dangerous, high-altitude areas guarded by hostile creatures. Approach with caution, as the Aechor Plant can release toxic spores when threatened. Once you've harvested the Aechor Petal, you'll have a valuable ingredient to enhance your crafting and potion-making abilities in the mystical world of the Aether."]
+			dependencies: ["55494C46BBB4B12E"]
+			description: [""]
 			id: "45A1F8526A688E67"
 			rewards: [
 				{
@@ -477,86 +477,28 @@
 				type: "item"
 			}]
 			title: "Mario plant"
-			x: 1.5d
-			y: 2.0d
+			x: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["67238295F602FF1E"]
-			description: ["&7The majestic Blue Moa, a rare bird native to the Aether, is known for its powerful abilities and striking blue feathers. These creatures are highly prized for their loyalty and the ability to carry riders across the Aether’s vast skies. Your task is to locate a Blue Moa and obtain one of its eggs. Search the floating islands, where these creatures nest, but beware—they are guarded fiercely. Once you find an egg, carefully bring it back to your base, where you can hatch and raise your very own Blue Moa, unlocking the skies for your future adventures."]
-			id: "332A0C087A610042"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "74520569170F069E"
-					table_id: 7743076479955517786L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6D01B658A501FA4B"
-					table_id: 4116256588204561948L
-					type: "loot"
-				}
-			]
-			shape: "square"
-			subtitle: "Kill aether chickens"
-			tasks: [{
-				id: "6B1F25D077AEB272"
-				item: "aether:blue_moa_egg"
-				type: "item"
-			}]
-			title: "Raven egg"
-			x: 1.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["332A0C087A610042"]
-			description: ["&7The Incubator is a crucial tool for raising exotic creatures in the Aether, allowing you to hatch and nurture rare eggs into loyal companions. To acquire this valuable item, you must seek out the ancient, hidden structures within the Aether’s floating islands. These Incubators are often stored in well-guarded treasure chests or crafted by skilled artisans. Navigate through challenging terrain and fend off the Aether’s fierce inhabitants to find the Incubator. Once in your possession, you’ll be able to hatch and raise Aether's unique creatures, expanding your adventure in this celestial realm."]
-			id: "0E800C6CDF4A9BC5"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5623A9887247D72A"
-					table_id: 4116256588204561948L
-					type: "loot"
-				}
-				{
-					id: "5C9B1DC74A40E6F3"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			shape: "square"
-			subtitle: "Utilized for cooking eggs"
-			tasks: [{
-				id: "0E444D16D00D5E61"
-				item: "aether:incubator"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["67238295F602FF1E"]
-			description: ["&7The mysterious realm of the Aether holds powerful artifacts beyond mortal reach. Your task is to venture into this celestial domain and recover the Aether Altar, a sacred construct said to amplify the very essence of the heavens."]
+			description: ["&2Used to cook gravitite and other stuff.&r"]
 			id: "2EA1095579D85C17"
 			rewards: [
-				{
-					count: 5
-					id: "53B8D36C12504430"
-					item: "aether:blue_berry"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "268CAB8894A1668B"
-					item: "aether:golden_dart"
-					type: "item"
-				}
 				{
 					id: "2E1CB03D87DA41F5"
 					type: "xp_levels"
 					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "5FEFB10496FA152E"
+					item: {
+						Count: 1
+						id: "aether:gravitite_ore"
+						tag: { }
+					}
+					type: "item"
 				}
 			]
 			shape: "square"
@@ -566,24 +508,80 @@
 				item: "aether:altar"
 				type: "item"
 			}]
-			title: "Altaru lu Niezoo"
+			title: "Cooking Altar"
 			x: -0.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2EA1095579D85C17"]
-			description: ["&7A menacing force stirs in the heart of the Aether, and only the bravest adventurers can stand against it. The Slider Boss, a formidable guardian of the Aether's secrets, threatens the realm with its chaotic power. Your mission is to confront and vanquish this colossal foe to restore peace."]
+			description: [
+				"&2Found in caves. To activate the boss you need a pickaxe.&r"
+				"&4Warning the fight requires a pickaxe and as such it is recommended you bring strength potions.&r"
+			]
 			icon: "minecraft:cobblestone"
 			id: "7F2F6FEF5EE62FB0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5DDBCBDDF85B8E32"
-				table_id: 1464862878662345268L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F486FD25C08440F"
+					table_id: 1464862878662345268L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37EE14534D970001"
+					table_id: 1795669360551144285L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28C1137C918F1DF6"
+					table_id: 1610080839990707444L
+					type: "choice"
+				}
+				{
+					count: 5
+					id: "35306EC6CF92CD33"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:epic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "31D1B14C507F5B7B"
+					item: {
+						Count: 1
+						id: "apotheosis:epic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "550A91505E04448A"
+					item: {
+						Count: 1
+						id: "apotheosis:rare_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5190A0210568CD3B"
+					item: {
+						Count: 1
+						id: "zoomers_armory:aether_smithing_template"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Kill the Thwomp boss found in bronze dungeons"
+			subtitle: "Don't get squished"
 			tasks: [{
 				entity: "aether:slider"
 				id: "13C3C63AE608A37C"
@@ -595,72 +593,52 @@
 			y: 0.0d
 		}
 		{
-			description: ["&7Two legendary weapons lie hidden in the Aether: the mighty Hammer of Kingbdogz and the graceful Valkyrie Lance. Seek out these relics of immense power to enhance your arsenal. Overcome the challenges guarding them and claim these treasured artifacts."]
-			id: "5FA420AA2104459E"
+			description: [
+				"&2Found in temples around the aether.&r"
+				"&2Obtain 10 victory medals from the valkyr warriors around the temple to activate the encounter.&r"
+			]
+			icon: "aether:music_disc_ascending_dawn"
+			id: "7851AE5F185EA4EF"
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "5398AB753DC575A8"
-					table_id: 6759378343124754253L
+					id: "2FF5AC91D4E16C92"
+					table_id: 9153771261078832289L
 					type: "loot"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "11A074E868D12FBC"
-					table_id: 7743076479955517786L
-					type: "loot"
+					id: "68877BA625817C80"
+					table_id: 1610080839990707444L
+					type: "choice"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "697A0470B35CDD83"
-					table_id: 4116256588204561948L
+					id: "44C5243FB90DC6B1"
+					table_id: 1795669360551144285L
 					type: "loot"
 				}
-			]
-			shape: "square"
-			subtitle: "<>"
-			tasks: [
 				{
-					id: "2D73792B004FE4A2"
+					count: 2
+					id: "0C96B353FAA2A0B6"
 					item: {
 						Count: 1
-						id: "aether:hammer_of_kingbdogz"
-						tag: {
-							Damage: 0
-						}
+						id: "fortunas_anvil:legendary_material"
+						tag: { }
 					}
 					type: "item"
 				}
 				{
-					id: "3FE33503D6FA8699"
+					count: 4
+					id: "5A3C47F517DDE1B2"
 					item: {
 						Count: 1
-						id: "aether:valkyrie_lance"
-						tag: {
-							Damage: 0
-						}
+						id: "apotheosis:epic_material"
+						tag: { }
 					}
 					type: "item"
 				}
 			]
-			title: "Hammer and nail"
-			x: -2.0d
-			y: -2.5d
-		}
-		{
-			dependencies: [
-				"5FA420AA2104459E"
-				"7F2F6FEF5EE62FB0"
-			]
-			description: ["&7The Valkyrie Queen, ruler of the Aether’s elite, reigns with unmatched power and grace. To restore balance, you must confront and defeat this formidable foe. Prepare for a fierce battle and claim victory over the queen of the skies."]
-			icon: "aether:music_disc_ascending_dawn"
-			id: "7851AE5F185EA4EF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2FF5AC91D4E16C92"
-				table_id: 1464862878662345268L
-				type: "loot"
-			}]
 			shape: "octagon"
 			size: 2.0d
 			subtitle: "Find the valkyrie queen in the temple"
@@ -671,100 +649,56 @@
 				value: 1L
 			}]
 			title: "Valkyrie queen"
-			x: 0.0d
-			y: -2.0d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["7851AE5F185EA4EF"]
-			description: ["&7The Valkyrie Armor, a set of legendary gear forged in the Aether, offers unparalleled protection and might. Venture into the Aether’s depths to seek out and acquire this exalted armor. Conquer the trials set before you to claim its celestial power."]
-			id: "6E41D797FBD7B5DB"
+			description: [
+				"&2Found in caves around the aether talk to him to enrage him and activate the encounter.&r"
+				"&4Warning very difficult encounter.&r"
+			]
+			icon: "minecraft:blaze_powder"
+			id: "1EB33191AC23D02E"
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "2DD9A795AE089176"
-					table_id: 4116256588204561948L
+					id: "3D5A5ABACC0C2188"
+					table_id: 9153771261078832289L
 					type: "loot"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "25BBF3FB883E300F"
-					table_id: 2622458127975197730L
+					id: "25ABB393305EF4F0"
+					table_id: 1795669360551144285L
 					type: "loot"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "684E2102673F6BB0"
-					table_id: 7743076479955517786L
-					type: "loot"
+					id: "51C2831E9AF2DF2B"
+					table_id: 1610080839990707444L
+					type: "choice"
 				}
-			]
-			shape: "square"
-			subtitle: "Valkyrie’s Valor"
-			tasks: [
 				{
-					id: "1135A589885DD904"
+					count: 3
+					id: "451084908DBB479D"
 					item: {
 						Count: 1
-						id: "aether:valkyrie_helmet"
-						tag: {
-							Damage: 0
-						}
+						id: "fortunas_anvil:legendary_material"
+						tag: { }
 					}
-					optional_task: true
 					type: "item"
 				}
 				{
-					id: "011019DDF8668E3A"
+					count: 4
+					id: "59942CE62C3C66E0"
 					item: {
 						Count: 1
-						id: "aether:valkyrie_chestplate"
-						tag: {
-							Damage: 0
-						}
+						id: "apotheosis:epic_material"
+						tag: { }
 					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "1D82A639D7E95D09"
-					item: {
-						Count: 1
-						id: "aether:valkyrie_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2CEB4922B182970F"
-					item: {
-						Count: 1
-						id: "aether:valkyrie_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					optional_task: true
 					type: "item"
 				}
 			]
-			title: "Superwoman Armor"
-			x: -0.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["6E41D797FBD7B5DB"]
-			description: ["&7The Sun Spirit, a radiant and powerful entity, threatens the harmony of the Aether. Your task is to challenge and defeat this blazing guardian to restore celestial balance. Face the heat of battle and emerge victorious."]
-			icon: "minecraft:blaze_powder"
-			id: "1EB33191AC23D02E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3D5A5ABACC0C2188"
-				table_id: 1464862878662345268L
-				type: "loot"
-			}]
 			shape: "octagon"
 			size: 2.0d
 			subtitle: "Kill the fire lord"
@@ -779,86 +713,9 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["1EB33191AC23D02E"]
-			description: ["&7The Phoenix Armor, imbued with the essence of the mythical phoenix, offers both fiery strength and resilience. Explore the Aether and overcome its trials to secure this legendary armor. Embrace the flames and rise with renewed power."]
-			id: "18C69A2ED032842E"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "598FB00C90295AE4"
-					table_id: 6759378343124754253L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "10EA430A85F79CD4"
-					table_id: 4116256588204561948L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "529CB5C9ED2EC4F5"
-					table_id: 7743076479955517786L
-					type: "loot"
-				}
-			]
-			shape: "square"
-			subtitle: "Obtain it and become a demigod of the sun"
-			tasks: [
-				{
-					id: "5F5589E954D50C7A"
-					item: {
-						Count: 1
-						id: "aether:phoenix_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "632AD5D8F68E45A6"
-					item: {
-						Count: 1
-						id: "aether:phoenix_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3CF2EC224150B67F"
-					item: {
-						Count: 1
-						id: "aether:phoenix_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3B6DD949356E51D7"
-					item: {
-						Count: 1
-						id: "aether:phoenix_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Rise from the ashes"
-			x: -1.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["1EB33191AC23D02E"]
 			description: [
-				"&7Find the platinum dungeon located in the aether and challenge the whale king, the final boss of the dimension.&r"
-				"&4Extremely difficult encounter!&r"
+				"&2Find the platinum dungeon located in the aether and challenge the whale king, the final boss of the dimension.&r"
+				"&4Warning! Extreme difficuly!&r"
 			]
 			icon: {
 				Count: 1
@@ -866,22 +723,88 @@
 				tag: { }
 			}
 			id: "01CD49AE5052E1CB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1D1290519493729C"
-				table_id: 1464862878662345268L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D1290519493729C"
+					table_id: 9153771261078832289L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12016CD7E35DDB73"
+					table_id: 1795669360551144285L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42BF98A1D0D242BD"
+					table_id: 1610080839990707444L
+					type: "choice"
+				}
+				{
+					id: "1B62F75A9DB0A697"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:mythic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1C6F7AB356EE707B"
+					item: {
+						Count: 1
+						id: "apotheosis:epic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6BE0939483453F04"
+					item: {
+						Count: 1
+						id: "apotheosis:mythic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 2.0d
+			subtitle: "Big whale"
 			tasks: [{
 				entity: "lost_aether_content:aerwhale_king"
 				id: "5B955F95CA6B7F43"
 				type: "kill"
 				value: 1L
 			}]
+			title: "Mega Whale"
 			x: 2.0d
 			y: -7.5d
+		}
+		{
+			dependencies: ["2EA1095579D85C17"]
+			description: ["&2Can be found as ore in the aether rarely.&r"]
+			id: "1698FC979A1C6798"
+			rewards: [{
+				id: "636E0D866DBB108D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Second tier aether material"
+			tasks: [{
+				id: "1FE2901282CF40B7"
+				item: {
+					Count: 1
+					id: "aether:enchanted_gravitite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
 		}
 	]
 	title: "Aether"

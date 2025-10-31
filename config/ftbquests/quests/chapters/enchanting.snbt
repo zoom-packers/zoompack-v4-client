@@ -11,6 +11,575 @@
 	id: "5FB91C8A6ADB5A09"
 	order_index: 8
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["488C1D6199033139"]
+			id: "10A8F0127984BE6D"
+			tasks: [{
+				id: "57B4D969A0A22E62"
+				item: {
+					Count: 1
+					id: "minecraft:bookshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["10A8F0127984BE6D"]
+			id: "3C4248C07C607EA0"
+			tasks: [{
+				id: "0006AB08F43A92EA"
+				item: {
+					Count: 1
+					id: "apotheosis:seashelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C4248C07C607EA0"]
+			id: "01973B3C21157BF5"
+			tasks: [{
+				id: "2E764F0B5D835BEE"
+				item: {
+					Count: 1
+					id: "apotheosis:infused_seashelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["01973B3C21157BF5"]
+			id: "2A0A117098C07345"
+			tasks: [{
+				id: "001AAF945B829E62"
+				item: {
+					Count: 1
+					id: "apotheosis:crystal_seashelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			id: "3DD8A0C2E23281ED"
+			tasks: [{
+				count: 16L
+				id: "1D381E260830B2AA"
+				item: {
+					Count: 1
+					id: "minecraft:honeycomb"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["01973B3C21157BF5"]
+			id: "4E6BB36293A2D13E"
+			tasks: [{
+				id: "514E0E5730E364F5"
+				item: {
+					Count: 1
+					id: "apotheosis:rectifier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3DD8A0C2E23281ED"]
+			id: "110DFCC05D6EC3E3"
+			tasks: [{
+				count: 4L
+				id: "5147E7B635506D67"
+				item: {
+					Count: 1
+					id: "minecraft:candle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DD8A0C2E23281ED"]
+			id: "1CCE8716385BDA1E"
+			tasks: [{
+				id: "0D2C4D685A2A49F0"
+				item: {
+					Count: 1
+					id: "apotheosis:beeshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["488C1D6199033139"]
+			id: "04D361E7CB5B2DB5"
+			tasks: [{
+				id: "63E17FC42851C838"
+				item: {
+					Count: 1
+					id: "apotheosis:dormant_deepshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "488C1D6199033139"
+			tasks: [{
+				count: 16L
+				id: "58B5A83B7B699B73"
+				item: {
+					Count: 16
+					id: "minecraft:book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04D361E7CB5B2DB5"]
+			id: "6AD9B6215F68087E"
+			tasks: [{
+				id: "4D4DB6172D39E70E"
+				item: {
+					Count: 1
+					id: "apotheosis:deepshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6AD9B6215F68087E"]
+			id: "1984FD0E362EF105"
+			tasks: [{
+				id: "54D553C3FE63EFDF"
+				item: {
+					Count: 1
+					id: "apotheosis:echoing_deepshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4E6BB36293A2D13E"]
+			id: "6850EEF8AA9BDFFE"
+			tasks: [{
+				id: "1E6DD86A1D083BEE"
+				item: {
+					Count: 1
+					id: "apotheosis:rectifier_t2"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6850EEF8AA9BDFFE"]
+			id: "37A8136885928266"
+			tasks: [{
+				id: "0D977F69301406B3"
+				item: {
+					Count: 1
+					id: "apotheosis:rectifier_t3"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"01973B3C21157BF5"
+				"5773AC747C6C7E19"
+			]
+			id: "52559071C1776FCD"
+			tasks: [{
+				id: "29C47462A20EA2F0"
+				item: {
+					Count: 1
+					id: "apotheosis:library"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6AD9B6215F68087E"]
+			id: "5FFC6188E5A54863"
+			tasks: [{
+				id: "481EDAE252888480"
+				item: {
+					Count: 1
+					id: "apotheosis:soul_touched_deepshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"017B2AD3139FAA5D"
+				"5FFC6188E5A54863"
+			]
+			id: "66C88388A0EA1EAB"
+			tasks: [{
+				id: "0CEBADDA13942191"
+				item: {
+					Count: 1
+					id: "apotheosis:soul_touched_sculkshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"5FFC6188E5A54863"
+				"1984FD0E362EF105"
+			]
+			id: "017B2AD3139FAA5D"
+			tasks: [{
+				id: "59A9A7ECDC6CD18F"
+				item: {
+					Count: 1
+					id: "apotheosis:warden_tendril"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"017B2AD3139FAA5D"
+				"1984FD0E362EF105"
+			]
+			id: "437D0CD9A4D3BBCC"
+			tasks: [{
+				id: "1C674B915B882B81"
+				item: {
+					Count: 1
+					id: "apotheosis:echoing_sculkshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.0d
+		}
+		{
+			id: "7412B94A8A9EC29B"
+			tasks: [{
+				id: "1EB7893480CDA3A7"
+				item: {
+					Count: 1
+					id: "apotheosis:infused_breath"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7412B94A8A9EC29B"]
+			id: "177FF7926F0419BF"
+			tasks: [{
+				id: "2B61A3F3F3C8D266"
+				item: {
+					Count: 1
+					id: "apotheosis:endshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["177FF7926F0419BF"]
+			id: "3D6BF8281A60A4C0"
+			tasks: [{
+				id: "0A000D4050D053F3"
+				item: {
+					Count: 1
+					id: "apotheosis:pearl_endshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["177FF7926F0419BF"]
+			id: "76B8D0C6AF97C074"
+			tasks: [{
+				id: "6E7A3D7C7AA2DDB7"
+				item: {
+					Count: 1
+					id: "apotheosis:draconic_endshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["10A8F0127984BE6D"]
+			id: "5D61B5864DE9D788"
+			tasks: [{
+				id: "25A7BE95A89F430D"
+				item: {
+					Count: 1
+					id: "apotheosis:hellshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D61B5864DE9D788"]
+			id: "5773AC747C6C7E19"
+			tasks: [{
+				id: "2EDD0A61C7AF0F62"
+				item: {
+					Count: 1
+					id: "apotheosis:infused_hellshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5773AC747C6C7E19"]
+			id: "08E3651A5C4EDCC1"
+			tasks: [{
+				id: "1918611A9FA85171"
+				item: {
+					Count: 1
+					id: "apotheosis:blazing_hellshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5773AC747C6C7E19"]
+			id: "0D314E111A8A83A7"
+			tasks: [{
+				id: "1DED62D97B5C81B9"
+				item: {
+					Count: 1
+					id: "apotheosis:glowing_hellshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["01973B3C21157BF5"]
+			id: "187A4A54A6F94FB8"
+			tasks: [{
+				id: "0D85BE625B24C87E"
+				item: {
+					Count: 1
+					id: "apotheosis:heart_seashelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5773AC747C6C7E19"]
+			id: "386A2A19867B6844"
+			tasks: [{
+				id: "5D0D92F383FA3F45"
+				item: {
+					Count: 1
+					id: "apotheosis:sightshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["386A2A19867B6844"]
+			id: "78AE7063692F8A69"
+			tasks: [{
+				id: "7D384B8A353427C0"
+				item: {
+					Count: 1
+					id: "apotheosis:sightshelf_t2"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["01973B3C21157BF5"]
+			id: "1F45A99CCD42E0C0"
+			tasks: [{
+				id: "5816D564F4F818FA"
+				item: {
+					Count: 1
+					id: "apotheosis:filtering_shelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6AD9B6215F68087E"]
+			id: "62DA2896490A08C9"
+			tasks: [{
+				id: "43D4177B44B3BBDD"
+				item: {
+					Count: 1
+					id: "apotheosis:treasure_shelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["10A8F0127984BE6D"]
+			id: "0F262660CE172E6A"
+			tasks: [{
+				id: "18FADBE43CE5BA1B"
+				item: {
+					Count: 1
+					id: "apotheosis:melonshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["10A8F0127984BE6D"]
+			id: "2D6466DFD4EAAB3A"
+			tasks: [{
+				id: "6396017576B9FDC0"
+				item: {
+					Count: 1
+					id: "apotheosis:stoneshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "687F6ADAB64B6770"
+			tasks: [{
+				id: "0B8545E07103EEF8"
+				item: {
+					Count: 1
+					id: "apotheosis:gem_dust"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&aEterna&r is the overall level of the enchantment table. Items like shelves have Eterna on them."
+				"The maximum Eterna level is 50, that means an enchanting level of 100. (1 eterna = 2 enchant levels, you basically multiply by 2).  By default in minecraft you have 15 eterna which translates to an enchanting level of 30."
+				""
+				"&4Quanta&r determines how your enchantment level changes when you apply an enchantment. It is capable of &nincreasing&r &4OR&r &ndecreasing&r enchantment level based on how much you have. So if you have a lot of quanta and apply a level 30 enchant you could recieve an enchantment worth 60 levels for the 30 you paid OR you could recieve an enchantmen worth way less. This is where &eRectification&r comes in and lessens the negative effects."
+				""
+				"&5Arcana&r makes rare enchantments more common &4BUT&r it also makes common enchantments more rare."
+				"It also adds &5more&r enchantments when you enchant an item. "
+			]
+			icon: {
+				Count: 1
+				id: "apotheosis:boss_summoner"
+				tag: { }
+			}
+			id: "2ADFF94AB9A4580C"
+			rewards: [{
+				id: "32F45EFE5E8A3E5E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 2.0d
+			subtitle: "Here is a little description of what Apotheosis changes with enchanting."
+			tasks: [{
+				id: "54527006001F2583"
+				title: "Click this"
+				type: "checkmark"
+			}]
+			title: "Apotheosis Enchanting"
+			x: 1.0d
+			y: 3.0d
+		}
+	]
 	title: "Apotheosis"
 }

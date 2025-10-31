@@ -1040,7 +1040,7 @@
 				title: "Find the Silver Dungeon"
 				type: "structure"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: -3.0d
 		}
 		{
@@ -1074,7 +1074,7 @@
 				title: "Find the Bronze Dungeon"
 				type: "structure"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -3.0d
 		}
 		{
@@ -1082,7 +1082,7 @@
 			description: [
 				"&e&lSearch for Floating Spheres&r&r "
 				""
-				"The Gold Dungeon is the most challenging and rewarding dungeon in the Aether, characterized by its giant floating spheres. Look for a massive central sphere with smaller spheres attached to it, often suspended in the air."
+				"The Gold Dungeon is the second most challenging and rewarding dungeon in the Aether, characterized by its giant floating spheres. Look for a massive central sphere with smaller spheres attached to it, often suspended in the air."
 				""
 				"&e&lSpot the Golden Oaks and Cockatrices:&r&r The top of the dungeon is typically covered with Golden Oaks, and the low light levels around the sphere may attract Cockatrices. Be on the lookout for these distinctive trees and the presence of hostile mobs."
 				""
@@ -1110,7 +1110,7 @@
 				title: "Find the Gold Dungeon"
 				type: "structure"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: -3.0d
 		}
 		{
@@ -1143,13 +1143,17 @@
 			subtitle: "&6&lMaster the Dungeon's Challenges and Overcome the Mighty Slider!&r&r"
 			tasks: [{
 				entity: "aether:slider"
-				icon: "create_sa:brass_cube"
+				icon: {
+					Count: 1
+					id: "minecraft:cobblestone"
+					tag: { }
+				}
 				id: "737BCC704B1C16A7"
 				title: "Kill the Slider"
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: -5.0d
 		}
 		{
@@ -1180,7 +1184,7 @@
 				entity: "aether:valkyrie_queen"
 				icon: {
 					Count: 1
-					id: "everythingisedibleeie:vex_wing"
+					id: "aether:music_disc_ascending_dawn"
 					tag: { }
 				}
 				id: "673CD1FDCF7E18D7"
@@ -1188,7 +1192,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: -5.0d
 		}
 		{
@@ -1215,13 +1219,17 @@
 			subtitle: "&6&lConquer the Fierce Ruler of the Gold Dungeon with Strategy and Protection!&r&r"
 			tasks: [{
 				entity: "aether:sun_spirit"
-				icon: "callfromthedepth_:jumpblock"
+				icon: {
+					Count: 1
+					id: "minecraft:magma_block"
+					tag: { }
+				}
 				id: "74001D0CEDFDEE7B"
 				title: "Kill the Sun Spirit"
 				type: "kill"
 				value: 1L
 			}]
-			x: 8.0d
+			x: 6.5d
 			y: -5.0d
 		}
 		{
@@ -2561,6 +2569,43 @@
 			title: "Find the magician's location"
 			x: -10.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["513EA6B9CAF6EF3B"]
+			id: "3A9E58F4E3CA0C49"
+			tasks: [{
+				entity: "lost_aether_content:aerwhale_king"
+				icon: {
+					Count: 1
+					id: "aether:cloud_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "753BAA246F9B1D70"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the aerwhale king"
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["68C47292D31DEEB2"]
+			id: "513EA6B9CAF6EF3B"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "lost_aether_content:platinum_key"
+					tag: { }
+				}
+				id: "04C76557C9C7BE3E"
+				structure: "lost_aether_content:platinum_dungeon"
+				type: "structure"
+			}]
+			title: "Find the platinum dungeon"
+			x: 7.5d
+			y: -3.0d
 		}
 	]
 	subtitle: [

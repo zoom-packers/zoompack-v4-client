@@ -918,12 +918,52 @@
 		{
 			description: ["&2Very useful for hovering and exploring areas. Moves at medium-fast speed.&r"]
 			id: "3CA3A36693BBA2AA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "36505E32D075A6CB"
-				table_id: 6759378343124754253L
-				type: "random"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "3215A954531743DF"
+					item: {
+						Count: 1
+						id: "minecraft:copper_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1325B0FD7CDD153F"
+					item: {
+						Count: 1
+						id: "minecraft:iron_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "200BA95D8BE2F5B7"
+					item: {
+						Count: 1
+						id: "minecraft:stone"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "74AC3F6438BA86DC"
+					item: {
+						Count: 1
+						id: "minecraft:redstone_block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0ED2CE56904D7B2C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Feet powered"
@@ -938,7 +978,7 @@
 		}
 		{
 			dependencies: ["3CA3A36693BBA2AA"]
-			description: ["&2Very useful for exploring the world. Goes fast but can't hover.&r"]
+			description: ["&2Very useful for exploring the world. A lot faster than the gyrodyne but can't hover.&r"]
 			id: "41120B9014BDF3A5"
 			rewards: [{
 				id: "46B815737F0EC283"
@@ -1182,6 +1222,7 @@
 		}
 		{
 			dependencies: ["74F959BF067FA464"]
+			description: ["&2You can place it in the bauble slots the player has in the inventory.&r"]
 			id: "734CC887DB506F6F"
 			rewards: [
 				{
@@ -1659,6 +1700,29 @@
 			}]
 			x: 9.523809523809547d
 			y: -3.6095238095238074d
+		}
+		{
+			description: ["&2Pokeball but for planes and such. Very handy.&r"]
+			id: "0F38A58BD5854F71"
+			rewards: [{
+				id: "465073713318D935"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Trusty vehicle keys"
+			tasks: [{
+				id: "439E44E332B210DA"
+				item: {
+					Count: 1
+					id: "baublemounts:vehicle_bauble"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.28571428571424917d
+			y: -14.17857142857143d
 		}
 	]
 	title: "Everyone starts somewhere"

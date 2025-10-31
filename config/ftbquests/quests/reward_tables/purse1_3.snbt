@@ -1,0 +1,36 @@
+{
+	icon: {
+		Count: 1
+		id: "dotcoinmod:gold_coin"
+		tag: { }
+	}
+	id: "70149DF95CBC8056"
+	loot_size: 1
+	order_index: 58
+	rewards: [
+		{
+			count: 15
+			item: {
+				Count: 1
+				id: "dotcoinmod:silver_coin"
+				tag: { }
+			}
+		}
+		{
+			count: 30
+			item: {
+				Count: 1
+				id: "dotcoinmod:silver_coin"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "dotcoinmod:gold_coin"
+				tag: { }
+			}
+		}
+	]
+	title: "purse3"
+}

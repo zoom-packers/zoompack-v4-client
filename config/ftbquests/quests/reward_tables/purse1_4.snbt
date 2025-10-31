@@ -1,0 +1,30 @@
+{
+	icon: {
+		Count: 1
+		id: "dotcoinmod:diamond_coin"
+		tag: { }
+	}
+	id: "329FC815C3BF4D78"
+	loot_size: 1
+	order_index: 59
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "dotcoinmod:gold_coin"
+				tag: { }
+			}
+			weight: 45.0f
+		}
+		{
+			count: 5
+			item: {
+				Count: 1
+				id: "dotcoinmod:gold_coin"
+				tag: { }
+			}
+			weight: 25.0f
+		}
+	]
+	title: "purse4"
+}
