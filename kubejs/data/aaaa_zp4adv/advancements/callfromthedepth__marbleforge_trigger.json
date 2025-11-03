@@ -9,7 +9,7 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "structure": "callfromthedepth_:marblesoulforge"
+                                "structure": "callfromthedepth_:marbleforge"
                             }
                         }
                     }
@@ -21,7 +21,7 @@
     "display": {
         "announce_to_chat": false,
         "description": {
-            "text": "Locate Callfromthedepth  Marblesoulforge"
+            "text": "Locate Callfromthedepth  Marbleforge"
         },
         "frame": "challenge",
         "hidden": true,
@@ -30,7 +30,7 @@
         },
         "show_toast": false,
         "title": {
-            "text": "Locate Callfromthedepth  Marblesoulforge"
+            "text": "Locate Callfromthedepth  Marbleforge"
         }
     },
     "requirements": [

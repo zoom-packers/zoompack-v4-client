@@ -9,7 +9,7 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "structure": "callfromthedepth_:deepdarkestaltar"
+                                "structure": "callfromthedepth_:depthstemple"
                             }
                         }
                     }
@@ -21,7 +21,7 @@
     "display": {
         "announce_to_chat": false,
         "description": {
-            "text": "Locate Callfromthedepth  Deepdarkestaltar"
+            "text": "Locate Callfromthedepth  Depthstemple"
         },
         "frame": "challenge",
         "hidden": true,
@@ -30,7 +30,7 @@
         },
         "show_toast": false,
         "title": {
-            "text": "Locate Callfromthedepth  Deepdarkestaltar"
+            "text": "Locate Callfromthedepth  Depthstemple"
         }
     },
     "requirements": [

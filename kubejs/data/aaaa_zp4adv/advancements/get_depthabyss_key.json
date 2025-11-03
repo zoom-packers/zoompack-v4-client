@@ -3,8 +3,8 @@
         "icon": {
             "item": "kubejs:quest_depth"
         },
-        "title": "Get a Deadblind Soul",
-        "description": "Deadblind Soul is made from Lost soul sand, but after a few iterations. Craft it to ressurect the Deadblind Soul\n\nREWARDS:\n\u00a7f\u00a7o- 1 \u00a76\ud83e\ude99",
+        "title": "Get an Abyss Key",
+        "description": "Abyss Keys are found around the Depths Temple. Look out for it.\n\nREWARDS:\n\u00a7f\u00a7o- 1 \u00a76\ud83e\ude99",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,
