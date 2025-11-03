@@ -1863,7 +1863,13 @@
 			subtitle: "&6&lConquer the Agony Soul and Prove Your Strength in the Depth Dimension!&r&r"
 			tasks: [{
 				entity: "callfromthedepth_:agonysoul"
-				icon: "callfromthedepth_:soulinagony"
+				icon: {
+					Count: 1
+					id: "callfromthedepth_:agonykey"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "7EDE0908FF239F76"
 				title: "Kill the Agony Soul"
 				type: "kill"
@@ -2189,7 +2195,7 @@
 				entity: "minecraft:warden"
 				icon: {
 					Count: 1
-					id: "callfromthedepth_:depth_armor_helmet"
+					id: "callfromthedepth_:immemorialarmor_helmet"
 					tag: {
 						Damage: 0
 					}
@@ -2234,10 +2240,10 @@
 			}]
 			subtitle: "&8&lThe Shattered Sentinel of the Marble Forge&r&r"
 			tasks: [{
-				entity: "callfromthedepth_:injuredmarbleguard"
+				entity: "callfromthedepth_:injured_ancient_guard"
 				icon: {
 					Count: 1
-					id: "callfromthedepth_:marblearmor_helmet"
+					id: "callfromthedepth_:sorrowkey"
 					tag: {
 						Damage: 0
 					}
@@ -2281,7 +2287,7 @@
 					tag: { }
 				}
 				id: "022865E320E99F8A"
-				structure: "callfromthedepth_:marblesoulforge"
+				structure: "callfromthedepth_:marbleforge"
 				title: "Find the Marble Soul Forge"
 				type: "structure"
 			}]
@@ -2320,7 +2326,7 @@
 			subtitle: "&6&lNavigate the Depths, Lurk for massive bastions, the circle marks it. Find the Darkest Altar!&r&r"
 			tasks: [{
 				id: "32DDA3C5EE027F3D"
-				structure: "callfromthedepth_:deepdarkestaltar"
+				structure: "callfromthedepth_:depthstemple"
 				title: "Find the The Darkest Altar"
 				type: "structure"
 			}]
@@ -2358,11 +2364,13 @@
 			}]
 			subtitle: "&6&lSlay the darkest spawwn of the Depth Dimension!&r&r"
 			tasks: [{
-				entity: "callfromthedepth_:deepdarkestspawn"
+				entity: "callfromthedepth_:deepdarkestspwansecondphase"
 				icon: {
 					Count: 1
-					id: "callfromthedepth_:deadblindsoul"
-					tag: { }
+					id: "callfromthedepth_:abysskey"
+					tag: {
+						Damage: 0
+					}
 				}
 				id: "0B85524D0990F0ED"
 				title: "Kill Deep Darkest Spawn"
