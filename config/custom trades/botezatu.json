@@ -18,7 +18,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:botezatu_loot_bag_summoner_for_silver_coin"
+      "UTID": "spacecatcustomprofessions:botezatu_loot_bag_summoner_for_silver_coin_0"
     },
     {
       "offer": {
@@ -35,7 +35,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 2,
-      "UTID": "spacecatcustomprofessions:botezatu_loot_bag_alchemist_for_gold_coin"
+      "UTID": "spacecatcustomprofessions:botezatu_loot_bag_alchemist_for_gold_coin_0"
     },
     {
       "offer": {
@@ -52,7 +52,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 3,
-      "UTID": "spacecatcustomprofessions:botezatu_loot_bag_starlit_crusher_for_gold_coin"
+      "UTID": "spacecatcustomprofessions:botezatu_loot_bag_starlit_crusher_for_gold_coin_0"
     },
     {
       "offer": {
@@ -69,7 +69,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 4,
-      "UTID": "spacecatcustomprofessions:botezatu_loot_bag_arachnarch_for_emerald_coin"
+      "UTID": "spacecatcustomprofessions:botezatu_loot_bag_arachnarch_for_emerald_coin_0"
     }
   ]
 }
