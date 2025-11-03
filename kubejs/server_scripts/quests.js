@@ -4577,14 +4577,9 @@ function questEvent(event, eventType, sharedEvent, fromSharedEvent, targetPlayer
     }
 
     if (eventType == ENTITY_EVENTS_HURT) {
-        if (event.source.getType() !== 'player') {
+        if(!event.source.player){
             return 0;
         }
-        // player.tell("se duce in pl?")
-        // if (event.entity.type != 'minecraft:player') {
-        //     player.tell("da!")
-        //     return 0;
-        // }
     }
 
 
