@@ -128,8 +128,8 @@
   },
   "get_agony_soul": {
     "item": "kubejs:quest_depth",
-    "title": "Get an Agony Soul",
-    "description": "Sacrificial Bastions are big leveled bastions protected by Wardens. You can use the fragment there!",
+    "title": "Get an Agony Key",
+    "description": "Sacrificial Bastions are big leveled bastions protected by Wardens. You can find the Agony Key there",
     "xp": 3000,
     "reward": [
       0,
@@ -141,12 +141,12 @@
     "type": "obtain_item",
     "match": {
       "mode": "exact",
-      "match_id": "callfromthedepth_:soulinagony"
+      "match_id": "callfromthedepth_:agonykey"
     },
     "count": 1,
     "dialogue": {
       "speaker": "Elder Librarian",
-      "message": "Perfect! Now use it on the Stone of Sacrificial to revive the Agony Soul",
+      "message": "Perfect! Now use it on the Sacrificial Stone to revive the Agony Soul",
       "renderType": "rectangle",
       "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
     }
@@ -241,7 +241,7 @@
     "type": "locate_structure",
     "match": {
       "mode": "exact",
-      "match_id": "callfromthedepth_:marblesoulforge"
+      "match_id": "callfromthedepth_:marbleforge"
     },
     "count": 1,
     "dialogue": {
@@ -251,10 +251,10 @@
       "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
     }
   },
-  "get_weeping_soul": {
+  "get_sorrow_key": {
     "item": "kubejs:quest_depth",
-    "title": "Get a Weeping Soul",
-    "description": "Weeping Soul is made from Lost soul sand, but after a few iterations. Craft it to ressurect the Weeping Soul",
+    "title": "Get a Sorrow Key",
+    "description": "Sorrow Key is fond around the Marble Forge, look carefully around.",
     "xp": 3000,
     "reward": [
       0,
@@ -266,12 +266,12 @@
     "type": "obtain_item",
     "match": {
       "mode": "exact",
-      "match_id": "callfromthedepth_:weepingsoul"
+      "match_id": "callfromthedepth_:sorrowkey"
     },
     "count": 1,
     "dialogue": {
       "speaker": "Elder Librarian",
-      "message": "Perfect! Now use it on the Stone of Sacrificial to revive the Injured Marble Guardian",
+      "message": "Perfect! Now use it on the Sorrow Stone to revive the Injured Marble Guardian",
       "renderType": "rectangle",
       "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
     }
@@ -291,7 +291,7 @@
     "type": "kill",
     "match": {
       "mode": "exact",
-      "match": "callfromthedepth_:injuredmarbleguard"
+      "match": "callfromthedepth_:injured_ancient_guard"
     },
     "count": 1,
     "dialogue": {
@@ -341,7 +341,7 @@
     "type": "locate_structure",
     "match": {
       "mode": "exact",
-      "match_id": "callfromthedepth_:deepdarkestaltar"
+      "match_id": "callfromthedepth_:depthstemple"
     },
     "count": 1,
     "dialogue": {
@@ -351,10 +351,10 @@
       "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
     }
   },
-  "get_deadblind_soul": {
+  "get_depthabyss_key": {
     "item": "kubejs:quest_depth",
-    "title": "Get a Deadblind Soul",
-    "description": "Deadblind Soul is made from Lost soul sand, but after a few iterations. Craft it to ressurect the Deadblind Soul",
+    "title": "Get an Abyss Key",
+    "description": "Abyss Keys are found around the Depths Temple. Look out for it.",
     "xp": 3000,
     "reward": [
       0,
@@ -366,12 +366,12 @@
     "type": "obtain_item",
     "match": {
       "mode": "exact",
-      "match_id": "callfromthedepth_:deadblindsoul"
+      "match_id": "callfromthedepth_:abysskey"
     },
     "count": 1,
     "dialogue": {
       "speaker": "Elder Librarian",
-      "message": "Perfect! Now use it on the Stone of Sacrificial to revive the Deep Darkest Spawn",
+      "message": "Perfect! Now use it on the Darkstone to revive the Deep Darkest Spawn",
       "renderType": "rectangle",
       "renderTarget": "zoompack_images:textures/elder_librarian/depth.png"
     }

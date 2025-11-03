@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "aaaa_zp4adv:get_deadblind_soul",
+    "parent": "aaaa_zp4adv:get_depthabyss_key",
     "criteria": {
         "thecriteria": {
             "trigger": "minecraft:impossible"

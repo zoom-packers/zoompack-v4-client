@@ -231,6 +231,10 @@ ServerEvents.tags('item', event => {
 		event.add('minecraft:trimmable_armor', 'callfromthedepth_:depth_armor_chestplate');
 		event.add('minecraft:trimmable_armor', 'callfromthedepth_:depth_armor_helmet');
 		event.add('minecraft:trimmable_armor', 'callfromthedepth_:depth_armor_leggings');
+		event.add('minecraft:trimmable_armor', 'callfromthedepth_:immemorialarmor_boots');
+		event.add('minecraft:trimmable_armor', 'callfromthedepth_:immemorialarmor_chestplate');
+		event.add('minecraft:trimmable_armor', 'callfromthedepth_:immemorialarmor_helmet');
+		event.add('minecraft:trimmable_armor', 'callfromthedepth_:immemorialarmor_leggings');
 		event.add('minecraft:trimmable_armor', 'callfromthedepth_:marblearmor_boots');
 		event.add('minecraft:trimmable_armor', 'callfromthedepth_:marblearmor_chestplate');
 		event.add('minecraft:trimmable_armor', 'callfromthedepth_:marblearmor_helmet');

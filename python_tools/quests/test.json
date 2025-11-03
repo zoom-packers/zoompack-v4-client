@@ -1,0 +1,79 @@
+{  "locate_gatekeeper": {
+    "item": "kubejs:quest",
+    "title": "Find the Gate Keeper",
+    "description": "Small hut with a special trader. The Gate Keeper holds the portal towards the next dimension.",
+    "xp": 50,
+    "reward": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "type": "locate_structure",
+    "match": {
+      "mode": "any",
+      "match_ids": [
+        "blue_skies:gatekeeper_house_mountain",
+        "blue_skies:gatekeeper_house_plains",
+        "blue_skies:gatekeeper_house_snowy"
+      ]
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Found the Gate Keeper hourse! Trade with him to get a Zeal Lighter",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+    }
+  },
+  "get_zeal_lighter": {
+    "item": "kubejs:quest",
+    "title": "Get a Zeal Lighter",
+    "description": "Trade with the Gate Keeper to obtain a zeal lighter. Use it to fire the portal that must lay near by.",
+    "xp": 50,
+    "reward": [
+      32,
+      0,
+      0,
+      0,
+      0
+    ],
+    "type": "obtain_item",
+    "match": {
+      "mode": "exact",
+      "match_id": "blue_skies:zeal_lighter"
+    },
+    "count": 1,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Zeal lighter acquired. Light the way towards the Blue Skies!",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+    }
+  },
+  "20combatlvl": {
+    "item": "kubejs:quest",
+    "title": "Reach Combat Lvl 20",
+    "description": "Everbright is for no weak souls. Fight enemies to raise your combat level to at least 20.",
+    "xp": 200,
+    "reward": [
+      36,
+      1,
+      0,
+      0,
+      0
+    ],
+    "type": "reach_level",
+    "match": {
+      "mode": "check_level",
+      "skill": "combat"
+    },
+    "count": 20,
+    "dialogue": {
+      "speaker": "Elder Librarian",
+      "message": "Level 20 reached for combat! Now you are ready for the Everbright",
+      "renderType": "rectangle",
+      "renderTarget": "zoompack_images:textures/elder_librarian/overworld.png"
+    }
+  }}

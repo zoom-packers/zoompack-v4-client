@@ -7,7 +7,7 @@ base_villager_trade_data = {
 }
 # 100 for testing only
 # base_villager_trade_data['maxTrades'] = 100
-base_villager_trade_data['maxTrades'] = 4
+base_villager_trade_data['maxTrades'] = 5
 
 
 banker_config = copy.deepcopy(base_villager_trade_data)
@@ -141,6 +141,12 @@ new_default_trade('banker', ('dotcoinmod:silver_coin', 2), ('aether:victory_meda
 
 new_default_trade('banker', ('minecraft:heart_of_the_sea', 1), ('dotcoinmod:bronze_coin', 20), 1, 1)
 new_default_trade('banker', ('apotheosis:gem', 1), ('dotcoinmod:bronze_coin', 56), 1, 1)
+
+
+# abyss keys
+new_default_trade('banker', ('dotcoinmod:gold_coin', 1), ('callfromthedepth_:agonykey', 1), 4, 4)
+new_default_trade('banker', ('dotcoinmod:gold_coin', 2), ('callfromthedepth_:sorrowkey', 1), 4, 4)
+new_default_trade('banker', ('dotcoinmod:gold_coin', 3), ('callfromthedepth_:abysskey', 1), 4, 4) 
 
 #Dimensional Lootbags 
 new_default_trade('banker', ('dotcoinmod:silver_coin', 32), ('blue_skies:loot_bag_summoner', 1), 1, 1, 

@@ -200,7 +200,7 @@ ItemEvents.toolTierRegistry(event => {
     tier.enchantmentValue = 9
     tier.repairIngredient = "#enderitemod:enderite_ingot"
   });
-  event.add("zoomers_armory:depth", tier => {
+  event.add("zoomers_armory:immemorial", tier => {
     tier.uses = 5700
     tier.speed = 80
     tier.attackDamageBonus = 175
@@ -214,7 +214,7 @@ ItemEvents.toolTierRegistry(event => {
     tier.attackDamageBonus = 184
     tier.level = 21
     tier.enchantmentValue = 9
-    tier.repairIngredient = "#callfromthedepth_:marbleingot"
+    tier.repairIngredient = "#callfromthedepth_:marble_gem"
   });
   event.add("zoomers_armory:soul", tier => {
     tier.uses = 6000
@@ -3458,7 +3458,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 12 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.09 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:depth", tier => {
+  event.add("zoomers_armory:immemorial", tier => {
     tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [30.666666666666668,76.66666666666667,92,30.666666666666668] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3467,7 +3467,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 12.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:depth_samurai", tier => {
+  event.add("zoomers_armory:immemorial_samurai", tier => {
     tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [30.666666666666668,76.66666666666667,92,30.666666666666668] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3476,7 +3476,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 12.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:depth_rogue", tier => {
+  event.add("zoomers_armory:immemorial_rogue", tier => {
     tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [30.666666666666668,76.66666666666667,92,30.666666666666668] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3485,7 +3485,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 12.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:depth_tank", tier => {
+  event.add("zoomers_armory:immemorial_tank", tier => {
     tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [30.666666666666668,76.66666666666667,92,30.666666666666668] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3494,7 +3494,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 12.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:depth_archer", tier => {
+  event.add("zoomers_armory:immemorial_archer", tier => {
     tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [23,57.5,69,23] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3503,7 +3503,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 12.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:depth_ranger", tier => {
+  event.add("zoomers_armory:immemorial_ranger", tier => {
     tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [26.066666666666666,65.16666666666667,78.2,26.066666666666666] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3512,7 +3512,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 12.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:depth_pyromancer", tier => {
+  event.add("zoomers_armory:immemorial_pyromancer", tier => {
     tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [23,57.5,69,23] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3521,7 +3521,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 12.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:depth_cryomancer", tier => {
+  event.add("zoomers_armory:immemorial_cryomancer", tier => {
     tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [23,57.5,69,23] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3530,7 +3530,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 12.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:depth_electromancer", tier => {
+  event.add("zoomers_armory:immemorial_electromancer", tier => {
     tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [23,57.5,69,23] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3539,7 +3539,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 12.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:depth_archevoker", tier => {
+  event.add("zoomers_armory:immemorial_archevoker", tier => {
     tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [23,57.5,69,23] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3548,7 +3548,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 12.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:depth_hemomancer", tier => {
+  event.add("zoomers_armory:immemorial_hemomancer", tier => {
     tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [23,57.5,69,23] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3557,7 +3557,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 12.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:depth_chorusguardian", tier => {
+  event.add("zoomers_armory:immemorial_chorusguardian", tier => {
     tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [23,57.5,69,23] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3566,7 +3566,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 12.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:depth_priest", tier => {
+  event.add("zoomers_armory:immemorial_priest", tier => {
     tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [23,57.5,69,23] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3575,7 +3575,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.toughness = 12.5 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.1 // diamond has 0.0, netherite 0.1
   });
-  event.add("zoomers_armory:depth_druid", tier => {
+  event.add("zoomers_armory:immemorial_druid", tier => {
     tier.durabilityMultiplier = 6200.203974999999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [23,57.5,69,23] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
@@ -3589,7 +3589,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.slotProtections = [33.333333333333336,83.33333333333333,100,33.333333333333336] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#callfromthedepth_:marbleingot" // #forge:ingots/iron'
+    tier.repairIngredient = "#callfromthedepth_:marble_gem" // #forge:ingots/iron'
     tier.toughness = 13 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
@@ -3598,7 +3598,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.slotProtections = [33.333333333333336,83.33333333333333,100,33.333333333333336] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#callfromthedepth_:marbleingot" // #forge:ingots/iron'
+    tier.repairIngredient = "#callfromthedepth_:marble_gem" // #forge:ingots/iron'
     tier.toughness = 13 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
@@ -3607,7 +3607,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.slotProtections = [33.333333333333336,83.33333333333333,100,33.333333333333336] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#callfromthedepth_:marbleingot" // #forge:ingots/iron'
+    tier.repairIngredient = "#callfromthedepth_:marble_gem" // #forge:ingots/iron'
     tier.toughness = 13 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
@@ -3616,7 +3616,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.slotProtections = [33.333333333333336,83.33333333333333,100,33.333333333333336] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#callfromthedepth_:marbleingot" // #forge:ingots/iron'
+    tier.repairIngredient = "#callfromthedepth_:marble_gem" // #forge:ingots/iron'
     tier.toughness = 13 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
@@ -3625,7 +3625,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.slotProtections = [25,62.5,75,25] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#callfromthedepth_:marbleingot" // #forge:ingots/iron'
+    tier.repairIngredient = "#callfromthedepth_:marble_gem" // #forge:ingots/iron'
     tier.toughness = 13 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
@@ -3634,7 +3634,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.slotProtections = [28.333333333333332,70.83333333333333,85,28.333333333333332] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#callfromthedepth_:marbleingot" // #forge:ingots/iron'
+    tier.repairIngredient = "#callfromthedepth_:marble_gem" // #forge:ingots/iron'
     tier.toughness = 13 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
@@ -3643,7 +3643,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.slotProtections = [25,62.5,75,25] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#callfromthedepth_:marbleingot" // #forge:ingots/iron'
+    tier.repairIngredient = "#callfromthedepth_:marble_gem" // #forge:ingots/iron'
     tier.toughness = 13 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
@@ -3652,7 +3652,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.slotProtections = [25,62.5,75,25] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#callfromthedepth_:marbleingot" // #forge:ingots/iron'
+    tier.repairIngredient = "#callfromthedepth_:marble_gem" // #forge:ingots/iron'
     tier.toughness = 13 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
@@ -3661,7 +3661,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.slotProtections = [25,62.5,75,25] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#callfromthedepth_:marbleingot" // #forge:ingots/iron'
+    tier.repairIngredient = "#callfromthedepth_:marble_gem" // #forge:ingots/iron'
     tier.toughness = 13 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
@@ -3670,7 +3670,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.slotProtections = [25,62.5,75,25] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#callfromthedepth_:marbleingot" // #forge:ingots/iron'
+    tier.repairIngredient = "#callfromthedepth_:marble_gem" // #forge:ingots/iron'
     tier.toughness = 13 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
@@ -3679,7 +3679,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.slotProtections = [25,62.5,75,25] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#callfromthedepth_:marbleingot" // #forge:ingots/iron'
+    tier.repairIngredient = "#callfromthedepth_:marble_gem" // #forge:ingots/iron'
     tier.toughness = 13 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
@@ -3688,7 +3688,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.slotProtections = [25,62.5,75,25] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#callfromthedepth_:marbleingot" // #forge:ingots/iron'
+    tier.repairIngredient = "#callfromthedepth_:marble_gem" // #forge:ingots/iron'
     tier.toughness = 13 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
@@ -3697,7 +3697,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.slotProtections = [25,62.5,75,25] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#callfromthedepth_:marbleingot" // #forge:ingots/iron'
+    tier.repairIngredient = "#callfromthedepth_:marble_gem" // #forge:ingots/iron'
     tier.toughness = 13 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
@@ -3706,7 +3706,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.slotProtections = [25,62.5,75,25] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
     tier.enchantmentValue = 9
     tier.equipSound = 'minecraft:item.armor.equip_iron'
-    tier.repairIngredient = "#callfromthedepth_:marbleingot" // #forge:ingots/iron'
+    tier.repairIngredient = "#callfromthedepth_:marble_gem" // #forge:ingots/iron'
     tier.toughness = 13 // diamond has 2.0, netherite 3.0
     tier.knockbackResistance = 0.11 // diamond has 0.0, netherite 0.1
   });
@@ -6286,53 +6286,53 @@ global.createGeckoArmor(e, "zoomers_armory", "enderite_hemomancer", "zoomers_arm
 global.createGeckoArmor(e, "zoomers_armory", "enderite_chorusguardian", "zoomers_armory:enderite_chorusguardian", JSON.parse('{"helmet":"Enderite Chorusguardian Hat","chestplate":"Enderite Chorusguardian Robe","leggings":"Enderite Chorusguardian Leggings","boots":"Enderite Chorusguardian Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/chorusguardian.geo.json","texture":"zoomers_armory:textures/models/armor/enderite_chorusguardian_armor.png","animation":"zoomers_armory:animations/chorusguardian.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
 global.createGeckoArmor(e, "zoomers_armory", "enderite_priest", "zoomers_armory:enderite_priest", JSON.parse('{"helmet":"Enderite Priest Hat","chestplate":"Enderite Priest Robe","leggings":"Enderite Priest Leggings","boots":"Enderite Priest Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/priest.geo.json","texture":"zoomers_armory:textures/models/armor/enderite_priest_armor.png","animation":"zoomers_armory:animations/priest.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
 global.createGeckoArmor(e, "zoomers_armory", "enderite_druid", "zoomers_armory:enderite_druid", JSON.parse('{"helmet":"Enderite Druid Hat","chestplate":"Enderite Druid Robe","leggings":"Enderite Druid Leggings","boots":"Enderite Druid Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/druid.geo.json","texture":"zoomers_armory:textures/models/armor/enderite_druid_armor.png","animation":"zoomers_armory:animations/druid.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
-e.create("zoomers_armory:depth_claws", "sword").displayName("Depth Claws").maxDamage(7410).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_dagger", "sword").displayName("Depth Dagger").maxDamage(8550).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_shortsword", "sword").displayName("Depth Shortsword").maxDamage(6840).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_heavysword", "sword").displayName("Depth Heavysword").maxDamage(4560).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_cutlass", "sword").displayName("Depth Cutlass").maxDamage(6840).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_mace", "sword").displayName("Depth Mace").maxDamage(6840).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_heavymace", "sword").displayName("Depth Heavymace").maxDamage(4560).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_warhammer", "sword").displayName("Depth Warhammer").maxDamage(3989.9999999999995).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_battleaxe", "sword").displayName("Depth Battleaxe").maxDamage(4560).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_spear", "sword").displayName("Depth Spear").maxDamage(6840).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_halberd", "sword").displayName("Depth Halberd").maxDamage(4845).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_scythe", "sword").displayName("Depth Scythe").maxDamage(4560).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_katana", "sword").displayName("Depth Katana").maxDamage(6840).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_twinblade", "sword").displayName("Depth Twinblade").maxDamage(7410).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_sai", "sword").displayName("Depth Sai").maxDamage(8550).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_warglaive", "sword").displayName("Depth Warglaive").maxDamage(8550).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_musashi", "sword").displayName("Depth Musashi").maxDamage(5130).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_arcane_staff", "irons_spells_js:staff").displayName("Depth Arcane Staff").maxDamage(5700).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_woodwind_staff", "irons_spells_js:staff").displayName("Depth Woodwind Staff").maxDamage(5700).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_fire_staff", "irons_spells_js:staff").displayName("Depth Fire Staff").maxDamage(5700).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_ice_staff", "irons_spells_js:staff").displayName("Depth Ice Staff").maxDamage(5700).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_lightning_staff", "irons_spells_js:staff").displayName("Depth Lightning Staff").maxDamage(5700).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_nature_staff", "irons_spells_js:staff").displayName("Depth Nature Staff").maxDamage(5700).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_holy_staff", "irons_spells_js:staff").displayName("Depth Holy Staff").maxDamage(5700).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_blood_staff", "irons_spells_js:staff").displayName("Depth Blood Staff").maxDamage(5700).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_evocation_staff", "irons_spells_js:staff").displayName("Depth Evocation Staff").maxDamage(5700).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_ender_staff", "irons_spells_js:staff").displayName("Depth Ender Staff").maxDamage(5700).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_buckler", "shield").displayName("Depth Buckler").maxDamage(5130).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_heater", "shield").displayName("Depth Heater").maxDamage(6840).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_tower", "shield").displayName("Depth Tower").maxDamage(8550).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_shortbow", "bow").displayName("Depth Shortbow").maxDamage(6840).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_bow", "bow").displayName("Depth Bow").maxDamage(5700).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_longbow", "bow").displayName("Depth Longbow").maxDamage(4560).tier("zoomers_armory:depth")
-e.create("zoomers_armory:depth_crossbow", "crossbow").displayName("Depth Crossbow").maxDamage(4275).tier("zoomers_armory:depth")
-global.createGeckoArmor(e, "zoomers_armory", "depth_samurai", "zoomers_armory:depth_samurai", JSON.parse('{"helmet":"Depth Samurai Helmet","chestplate":"Depth Samurai Chestplate","leggings":"Depth Samurai Leggings","boots":"Depth Samurai Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/samurai.geo.json","texture":"zoomers_armory:textures/models/armor/depth_samurai_armor.png","animation":"zoomers_armory:animations/samurai.animation.json","defaultAnimations":[]}'));
-global.createGeckoArmor(e, "zoomers_armory", "depth_rogue", "zoomers_armory:depth_rogue", JSON.parse('{"helmet":"Depth Rogue Helmet","chestplate":"Depth Rogue Chestplate","leggings":"Depth Rogue Leggings","boots":"Depth Rogue Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/rogue.geo.json","texture":"zoomers_armory:textures/models/armor/depth_rogue_armor.png","animation":"zoomers_armory:animations/rogue.animation.json","defaultAnimations":[]}'));
-global.createGeckoArmor(e, "zoomers_armory", "depth_tank", "zoomers_armory:depth_tank", JSON.parse('{"helmet":"Depth Tank Helmet","chestplate":"Depth Tank Chestplate","leggings":"Depth Tank Leggings","boots":"Depth Tank Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/tank.geo.json","texture":"zoomers_armory:textures/models/armor/depth_tank_armor.png","animation":"zoomers_armory:animations/tank.animation.json","defaultAnimations":[]}'));
-global.createGeckoArmor(e, "zoomers_armory", "depth_archer", "zoomers_armory:depth_archer", JSON.parse('{"helmet":"Depth Archer Helmet","chestplate":"Depth Archer Chestplate","leggings":"Depth Archer Leggings","boots":"Depth Archer Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/archer.geo.json","texture":"zoomers_armory:textures/models/armor/depth_archer_armor.png","animation":"zoomers_armory:animations/archer.animation.json","defaultAnimations":[]}'));
-global.createGeckoArmor(e, "zoomers_armory", "depth_ranger", "zoomers_armory:depth_ranger", JSON.parse('{"helmet":"Depth Ranger Helmet","chestplate":"Depth Ranger Chestplate","leggings":"Depth Ranger Leggings","boots":"Depth Ranger Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/ranger.geo.json","texture":"zoomers_armory:textures/models/armor/depth_ranger_armor.png","animation":"zoomers_armory:animations/ranger.animation.json","defaultAnimations":[]}'));
-global.createGeckoArmor(e, "zoomers_armory", "depth_pyromancer", "zoomers_armory:depth_pyromancer", JSON.parse('{"helmet":"Depth Pyromancer Hat","chestplate":"Depth Pyromancer Robe","leggings":"Depth Pyromancer Leggings","boots":"Depth Pyromancer Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/pyromancer.geo.json","texture":"zoomers_armory:textures/models/armor/depth_pyromancer_armor.png","animation":"zoomers_armory:animations/pyromancer.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
-global.createGeckoArmor(e, "zoomers_armory", "depth_cryomancer", "zoomers_armory:depth_cryomancer", JSON.parse('{"helmet":"Depth Cryomancer Hat","chestplate":"Depth Cryomancer Robe","leggings":"Depth Cryomancer Leggings","boots":"Depth Cryomancer Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/cryomancer.geo.json","texture":"zoomers_armory:textures/models/armor/depth_cryomancer_armor.png","animation":"zoomers_armory:animations/cryomancer.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
-global.createGeckoArmor(e, "zoomers_armory", "depth_electromancer", "zoomers_armory:depth_electromancer", JSON.parse('{"helmet":"Depth Electromancer Hat","chestplate":"Depth Electromancer Robe","leggings":"Depth Electromancer Leggings","boots":"Depth Electromancer Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/electromancer.geo.json","texture":"zoomers_armory:textures/models/armor/depth_electromancer_armor.png","animation":"zoomers_armory:animations/electromancer.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
-global.createGeckoArmor(e, "zoomers_armory", "depth_archevoker", "zoomers_armory:depth_archevoker", JSON.parse('{"helmet":"Depth Archevoker Hat","chestplate":"Depth Archevoker Robe","leggings":"Depth Archevoker Leggings","boots":"Depth Archevoker Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/archevoker.geo.json","texture":"zoomers_armory:textures/models/armor/depth_archevoker_armor.png","animation":"zoomers_armory:animations/archevoker.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
-global.createGeckoArmor(e, "zoomers_armory", "depth_hemomancer", "zoomers_armory:depth_hemomancer", JSON.parse('{"helmet":"Depth Hemomancer Hat","chestplate":"Depth Hemomancer Robe","leggings":"Depth Hemomancer Leggings","boots":"Depth Hemomancer Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/hemomancer.geo.json","texture":"zoomers_armory:textures/models/armor/depth_hemomancer_armor.png","animation":"zoomers_armory:animations/hemomancer.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
-global.createGeckoArmor(e, "zoomers_armory", "depth_chorusguardian", "zoomers_armory:depth_chorusguardian", JSON.parse('{"helmet":"Depth Chorusguardian Hat","chestplate":"Depth Chorusguardian Robe","leggings":"Depth Chorusguardian Leggings","boots":"Depth Chorusguardian Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/chorusguardian.geo.json","texture":"zoomers_armory:textures/models/armor/depth_chorusguardian_armor.png","animation":"zoomers_armory:animations/chorusguardian.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
-global.createGeckoArmor(e, "zoomers_armory", "depth_priest", "zoomers_armory:depth_priest", JSON.parse('{"helmet":"Depth Priest Hat","chestplate":"Depth Priest Robe","leggings":"Depth Priest Leggings","boots":"Depth Priest Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/priest.geo.json","texture":"zoomers_armory:textures/models/armor/depth_priest_armor.png","animation":"zoomers_armory:animations/priest.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
-global.createGeckoArmor(e, "zoomers_armory", "depth_druid", "zoomers_armory:depth_druid", JSON.parse('{"helmet":"Depth Druid Hat","chestplate":"Depth Druid Robe","leggings":"Depth Druid Leggings","boots":"Depth Druid Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/druid.geo.json","texture":"zoomers_armory:textures/models/armor/depth_druid_armor.png","animation":"zoomers_armory:animations/druid.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
+e.create("zoomers_armory:immemorial_claws", "sword").displayName("Immemorial Claws").maxDamage(7410).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_dagger", "sword").displayName("Immemorial Dagger").maxDamage(8550).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_shortsword", "sword").displayName("Immemorial Shortsword").maxDamage(6840).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_heavysword", "sword").displayName("Immemorial Heavysword").maxDamage(4560).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_cutlass", "sword").displayName("Immemorial Cutlass").maxDamage(6840).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_mace", "sword").displayName("Immemorial Mace").maxDamage(6840).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_heavymace", "sword").displayName("Immemorial Heavymace").maxDamage(4560).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_warhammer", "sword").displayName("Immemorial Warhammer").maxDamage(3989.9999999999995).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_battleaxe", "sword").displayName("Immemorial Battleaxe").maxDamage(4560).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_spear", "sword").displayName("Immemorial Spear").maxDamage(6840).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_halberd", "sword").displayName("Immemorial Halberd").maxDamage(4845).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_scythe", "sword").displayName("Immemorial Scythe").maxDamage(4560).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_katana", "sword").displayName("Immemorial Katana").maxDamage(6840).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_twinblade", "sword").displayName("Immemorial Twinblade").maxDamage(7410).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_sai", "sword").displayName("Immemorial Sai").maxDamage(8550).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_warglaive", "sword").displayName("Immemorial Warglaive").maxDamage(8550).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_musashi", "sword").displayName("Immemorial Musashi").maxDamage(5130).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_arcane_staff", "irons_spells_js:staff").displayName("Immemorial Arcane Staff").maxDamage(5700).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_woodwind_staff", "irons_spells_js:staff").displayName("Immemorial Woodwind Staff").maxDamage(5700).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_fire_staff", "irons_spells_js:staff").displayName("Immemorial Fire Staff").maxDamage(5700).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_ice_staff", "irons_spells_js:staff").displayName("Immemorial Ice Staff").maxDamage(5700).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_lightning_staff", "irons_spells_js:staff").displayName("Immemorial Lightning Staff").maxDamage(5700).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_nature_staff", "irons_spells_js:staff").displayName("Immemorial Nature Staff").maxDamage(5700).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_holy_staff", "irons_spells_js:staff").displayName("Immemorial Holy Staff").maxDamage(5700).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_blood_staff", "irons_spells_js:staff").displayName("Immemorial Blood Staff").maxDamage(5700).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_evocation_staff", "irons_spells_js:staff").displayName("Immemorial Evocation Staff").maxDamage(5700).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_ender_staff", "irons_spells_js:staff").displayName("Immemorial Ender Staff").maxDamage(5700).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_buckler", "shield").displayName("Immemorial Buckler").maxDamage(5130).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_heater", "shield").displayName("Immemorial Heater").maxDamage(6840).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_tower", "shield").displayName("Immemorial Tower").maxDamage(8550).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_shortbow", "bow").displayName("Immemorial Shortbow").maxDamage(6840).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_bow", "bow").displayName("Immemorial Bow").maxDamage(5700).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_longbow", "bow").displayName("Immemorial Longbow").maxDamage(4560).tier("zoomers_armory:immemorial")
+e.create("zoomers_armory:immemorial_crossbow", "crossbow").displayName("Immemorial Crossbow").maxDamage(4275).tier("zoomers_armory:immemorial")
+global.createGeckoArmor(e, "zoomers_armory", "immemorial_samurai", "zoomers_armory:immemorial_samurai", JSON.parse('{"helmet":"Immemorial Samurai Helmet","chestplate":"Immemorial Samurai Chestplate","leggings":"Immemorial Samurai Leggings","boots":"Immemorial Samurai Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/samurai.geo.json","texture":"zoomers_armory:textures/models/armor/immemorial_samurai_armor.png","animation":"zoomers_armory:animations/samurai.animation.json","defaultAnimations":[]}'));
+global.createGeckoArmor(e, "zoomers_armory", "immemorial_rogue", "zoomers_armory:immemorial_rogue", JSON.parse('{"helmet":"Immemorial Rogue Helmet","chestplate":"Immemorial Rogue Chestplate","leggings":"Immemorial Rogue Leggings","boots":"Immemorial Rogue Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/rogue.geo.json","texture":"zoomers_armory:textures/models/armor/immemorial_rogue_armor.png","animation":"zoomers_armory:animations/rogue.animation.json","defaultAnimations":[]}'));
+global.createGeckoArmor(e, "zoomers_armory", "immemorial_tank", "zoomers_armory:immemorial_tank", JSON.parse('{"helmet":"Immemorial Tank Helmet","chestplate":"Immemorial Tank Chestplate","leggings":"Immemorial Tank Leggings","boots":"Immemorial Tank Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/tank.geo.json","texture":"zoomers_armory:textures/models/armor/immemorial_tank_armor.png","animation":"zoomers_armory:animations/tank.animation.json","defaultAnimations":[]}'));
+global.createGeckoArmor(e, "zoomers_armory", "immemorial_archer", "zoomers_armory:immemorial_archer", JSON.parse('{"helmet":"Immemorial Archer Helmet","chestplate":"Immemorial Archer Chestplate","leggings":"Immemorial Archer Leggings","boots":"Immemorial Archer Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/archer.geo.json","texture":"zoomers_armory:textures/models/armor/immemorial_archer_armor.png","animation":"zoomers_armory:animations/archer.animation.json","defaultAnimations":[]}'));
+global.createGeckoArmor(e, "zoomers_armory", "immemorial_ranger", "zoomers_armory:immemorial_ranger", JSON.parse('{"helmet":"Immemorial Ranger Helmet","chestplate":"Immemorial Ranger Chestplate","leggings":"Immemorial Ranger Leggings","boots":"Immemorial Ranger Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/ranger.geo.json","texture":"zoomers_armory:textures/models/armor/immemorial_ranger_armor.png","animation":"zoomers_armory:animations/ranger.animation.json","defaultAnimations":[]}'));
+global.createGeckoArmor(e, "zoomers_armory", "immemorial_pyromancer", "zoomers_armory:immemorial_pyromancer", JSON.parse('{"helmet":"Immemorial Pyromancer Hat","chestplate":"Immemorial Pyromancer Robe","leggings":"Immemorial Pyromancer Leggings","boots":"Immemorial Pyromancer Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/pyromancer.geo.json","texture":"zoomers_armory:textures/models/armor/immemorial_pyromancer_armor.png","animation":"zoomers_armory:animations/pyromancer.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
+global.createGeckoArmor(e, "zoomers_armory", "immemorial_cryomancer", "zoomers_armory:immemorial_cryomancer", JSON.parse('{"helmet":"Immemorial Cryomancer Hat","chestplate":"Immemorial Cryomancer Robe","leggings":"Immemorial Cryomancer Leggings","boots":"Immemorial Cryomancer Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/cryomancer.geo.json","texture":"zoomers_armory:textures/models/armor/immemorial_cryomancer_armor.png","animation":"zoomers_armory:animations/cryomancer.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
+global.createGeckoArmor(e, "zoomers_armory", "immemorial_electromancer", "zoomers_armory:immemorial_electromancer", JSON.parse('{"helmet":"Immemorial Electromancer Hat","chestplate":"Immemorial Electromancer Robe","leggings":"Immemorial Electromancer Leggings","boots":"Immemorial Electromancer Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/electromancer.geo.json","texture":"zoomers_armory:textures/models/armor/immemorial_electromancer_armor.png","animation":"zoomers_armory:animations/electromancer.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
+global.createGeckoArmor(e, "zoomers_armory", "immemorial_archevoker", "zoomers_armory:immemorial_archevoker", JSON.parse('{"helmet":"Immemorial Archevoker Hat","chestplate":"Immemorial Archevoker Robe","leggings":"Immemorial Archevoker Leggings","boots":"Immemorial Archevoker Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/archevoker.geo.json","texture":"zoomers_armory:textures/models/armor/immemorial_archevoker_armor.png","animation":"zoomers_armory:animations/archevoker.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
+global.createGeckoArmor(e, "zoomers_armory", "immemorial_hemomancer", "zoomers_armory:immemorial_hemomancer", JSON.parse('{"helmet":"Immemorial Hemomancer Hat","chestplate":"Immemorial Hemomancer Robe","leggings":"Immemorial Hemomancer Leggings","boots":"Immemorial Hemomancer Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/hemomancer.geo.json","texture":"zoomers_armory:textures/models/armor/immemorial_hemomancer_armor.png","animation":"zoomers_armory:animations/hemomancer.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
+global.createGeckoArmor(e, "zoomers_armory", "immemorial_chorusguardian", "zoomers_armory:immemorial_chorusguardian", JSON.parse('{"helmet":"Immemorial Chorusguardian Hat","chestplate":"Immemorial Chorusguardian Robe","leggings":"Immemorial Chorusguardian Leggings","boots":"Immemorial Chorusguardian Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/chorusguardian.geo.json","texture":"zoomers_armory:textures/models/armor/immemorial_chorusguardian_armor.png","animation":"zoomers_armory:animations/chorusguardian.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
+global.createGeckoArmor(e, "zoomers_armory", "immemorial_priest", "zoomers_armory:immemorial_priest", JSON.parse('{"helmet":"Immemorial Priest Hat","chestplate":"Immemorial Priest Robe","leggings":"Immemorial Priest Leggings","boots":"Immemorial Priest Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/priest.geo.json","texture":"zoomers_armory:textures/models/armor/immemorial_priest_armor.png","animation":"zoomers_armory:animations/priest.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
+global.createGeckoArmor(e, "zoomers_armory", "immemorial_druid", "zoomers_armory:immemorial_druid", JSON.parse('{"helmet":"Immemorial Druid Hat","chestplate":"Immemorial Druid Robe","leggings":"Immemorial Druid Leggings","boots":"Immemorial Druid Boots"}'), JSON.parse('{"geo":"zoomers_armory:geo/druid.geo.json","texture":"zoomers_armory:textures/models/armor/immemorial_druid_armor.png","animation":"zoomers_armory:animations/druid.animation.json","defaultAnimations":[{"name":"animation.deco.loop","piece":"chestplate"}]}'));
 e.create("zoomers_armory:marble_claws", "sword").displayName("Marble Claws").maxDamage(7605).tier("zoomers_armory:marble")
 e.create("zoomers_armory:marble_dagger", "sword").displayName("Marble Dagger").maxDamage(8775).tier("zoomers_armory:marble")
 e.create("zoomers_armory:marble_shortsword", "sword").displayName("Marble Shortsword").maxDamage(7020).tier("zoomers_armory:marble")
@@ -7351,24 +7351,24 @@ global.createCurio(e, "zoomers_armory:enderite_sharpshooter_gloves", "Enderite S
 global.createCurio(e, "zoomers_armory:enderite_berserker_gloves", "Enderite Berserker Gloves", [{"attribute":"minecraft:generic.attack_damage","operation":"ADDITION","value":28.5,"uuid":"96f1bf66-295c-5163-92e2-39a628b7c53c"},{"attribute":"minecraft:generic.attack_damage","operation":"MULTIPLY_BASE","value":0.19,"uuid":"01d04ac3-dd17-5df2-25a5-b45702115680"}]);
 global.createCurio(e, "zoomers_armory:enderite_fortified_gloves", "Enderite Fortified Gloves", [{"attribute":"minecraft:generic.armor","operation":"ADDITION","value":28.5,"uuid":"546009af-0ff7-5667-8b58-5be7bcfa28d2"},{"attribute":"minecraft:generic.armor","operation":"MULTIPLY_BASE","value":0.19,"uuid":"7f41bc90-3551-55fc-29b4-1be303b33381"},{"attribute":"minecraft:generic.armor_toughness","operation":"ADDITION","value":28.5,"uuid":"a55bb53c-329b-533d-fd1e-5ec8c13e2f4c"},{"attribute":"minecraft:generic.armor_toughness","operation":"MULTIPLY_BASE","value":0.19,"uuid":"26cbbd3a-8ac4-5cf1-b933-99b745b4fba8"},{"attribute":"minecraft:generic.knockback_resistance","operation":"MULTIPLY_BASE","value":0.0475,"uuid":"7d56c98f-831a-5b39-59ff-a8827be07b6c"},{"attribute":"minecraft:generic.max_health","operation":"ADDITION","value":28.5,"uuid":"56c8eb51-f06a-5a28-864e-a924e725b479"},{"attribute":"minecraft:generic.max_health","operation":"MULTIPLY_BASE","value":0.19,"uuid":"222e604a-20d3-52d9-e076-326009f6fafa"}]);
 global.createCurio(e, "zoomers_armory:enderite_infused_gloves", "Enderite Infused Gloves", [{"attribute":"irons_spellbooks:spell_power","operation":"MULTIPLY_BASE","value":0.285,"uuid":"5f09bf1a-f6f6-5142-f300-4ffa47c090c0"},{"attribute":"irons_spellbooks:cast_time_reduction","operation":"MULTIPLY_BASE","value":0.285,"uuid":"5165d41a-2575-5898-b5dc-a924910ce934"},{"attribute":"irons_spellbooks:cooldown_reduction","operation":"MULTIPLY_BASE","value":0.285,"uuid":"44382873-0dcb-5c04-b5bf-a4a729f20854"}]);
-global.createCurio(e, "zoomers_armory:depth_mana_ring", "Depth Mana Ring", [{"attribute":"irons_spellbooks:max_mana","operation":"ADDITION","value":100,"uuid":"91da3226-7989-535f-15c2-8338a804be83"},{"attribute":"irons_spellbooks:max_mana","operation":"MULTIPLY_BASE","value":0.2,"uuid":"c9d2919b-d58b-5bd6-fc3e-a501c54dd755"},{"attribute":"irons_spellbooks:mana_regen","operation":"MULTIPLY_BASE","value":0.3,"uuid":"7d351d2f-d30d-51d5-2dd0-6cb51c177808"}]);
-global.createCurio(e, "zoomers_armory:depth_dexterity_ring", "Depth Dexterity Ring", [{"attribute":"projectile_damage:generic","operation":"ADDITION","value":20,"uuid":"0ec5509a-8d5a-5a73-b11b-34004f5072b9"},{"attribute":"projectile_damage:generic","operation":"MULTIPLY_BASE","value":0.2,"uuid":"bd752f61-5641-5ef3-9b12-b50b6dffd7de"},{"attribute":"attributeslib:armor_pierce","operation":"ADDITION","value":20,"uuid":"ef45fa5d-7beb-52ca-c787-3289f2bc50c9"},{"attribute":"attributeslib:armor_pierce","operation":"MULTIPLY_BASE","value":0.2,"uuid":"291cae20-8e71-5767-34ee-094e37ed9384"}]);
-global.createCurio(e, "zoomers_armory:depth_sharpshooter_ring", "Depth Sharpshooter Ring", [{"attribute":"attributeslib:arrow_velocity","operation":"MULTIPLY_BASE","value":0.2,"uuid":"86f80e6e-6325-53fc-a22c-fa80aaf70409"},{"attribute":"attributeslib:draw_speed","operation":"MULTIPLY_BASE","value":0.1,"uuid":"e4e24174-06e0-5525-529c-68b0897a444b"}]);
-global.createCurio(e, "zoomers_armory:depth_berserker_ring", "Depth Berserker Ring", [{"attribute":"minecraft:generic.attack_damage","operation":"ADDITION","value":20,"uuid":"c6402e13-2e40-5daa-febf-7e420bc0deb7"},{"attribute":"minecraft:generic.attack_damage","operation":"MULTIPLY_BASE","value":0.2,"uuid":"532f476d-ff2f-53e2-d11e-e90c662ed392"}]);
-global.createCurio(e, "zoomers_armory:depth_fortified_ring", "Depth Fortified Ring", [{"attribute":"minecraft:generic.armor","operation":"ADDITION","value":20,"uuid":"8f153aaf-828b-5319-3d15-d1b57e33d68b"},{"attribute":"minecraft:generic.armor","operation":"MULTIPLY_BASE","value":0.2,"uuid":"8976cdc6-ee30-5eec-95f5-a30879c8b0f0"},{"attribute":"minecraft:generic.armor_toughness","operation":"ADDITION","value":20,"uuid":"f483cde7-bbc0-53f6-d974-1556f3dfddaa"},{"attribute":"minecraft:generic.armor_toughness","operation":"MULTIPLY_BASE","value":0.2,"uuid":"49e1f11e-024e-58c5-42d9-a9b6d30669d8"},{"attribute":"minecraft:generic.knockback_resistance","operation":"MULTIPLY_BASE","value":0.05,"uuid":"54a4e396-29e3-59bf-8630-725999b4e9e8"},{"attribute":"minecraft:generic.max_health","operation":"ADDITION","value":20,"uuid":"a939a4e5-594a-5d8a-614b-cf1c4e3b9531"},{"attribute":"minecraft:generic.max_health","operation":"MULTIPLY_BASE","value":0.2,"uuid":"fafc36ac-97ac-5867-7cef-07cffeeb3eff"}]);
-global.createCurio(e, "zoomers_armory:depth_infused_ring", "Depth Infused Ring", [{"attribute":"irons_spellbooks:spell_power","operation":"MULTIPLY_BASE","value":0.2,"uuid":"0710165b-2abd-5388-f399-71a8176cac81"},{"attribute":"irons_spellbooks:cast_time_reduction","operation":"MULTIPLY_BASE","value":0.2,"uuid":"0b9a0f42-2eb8-56a7-3ce3-28fd493ac315"},{"attribute":"irons_spellbooks:cooldown_reduction","operation":"MULTIPLY_BASE","value":0.2,"uuid":"80f817da-8df2-5334-27de-63990ce6b1a3"}]);
-global.createCurio(e, "zoomers_armory:depth_mana_necklace", "Depth Mana Necklace", [{"attribute":"irons_spellbooks:max_mana","operation":"ADDITION","value":150,"uuid":"20eaced1-ae48-58af-f30f-bc4f605a42e7"},{"attribute":"irons_spellbooks:max_mana","operation":"MULTIPLY_BASE","value":0.2,"uuid":"ceb80ccf-9273-55fa-0e61-16a7fc507bfe"},{"attribute":"irons_spellbooks:mana_regen","operation":"MULTIPLY_BASE","value":0.3,"uuid":"44005c2d-8834-5b87-d815-c79d2b08afec"}]);
-global.createCurio(e, "zoomers_armory:depth_dexterity_necklace", "Depth Dexterity Necklace", [{"attribute":"projectile_damage:generic","operation":"ADDITION","value":30,"uuid":"0a6c80a4-947b-5f9c-b54e-85bdaa2c98f8"},{"attribute":"projectile_damage:generic","operation":"MULTIPLY_BASE","value":0.2,"uuid":"2b4f584b-cfed-59ed-07f2-b9b26c24fd4f"},{"attribute":"attributeslib:armor_pierce","operation":"ADDITION","value":30,"uuid":"5451e442-d1de-5a70-6e83-913bcaeed976"},{"attribute":"attributeslib:armor_pierce","operation":"MULTIPLY_BASE","value":0.2,"uuid":"69dc77a8-9a8f-5134-8237-1def0ca46b71"}]);
-global.createCurio(e, "zoomers_armory:depth_sharpshooter_necklace", "Depth Sharpshooter Necklace", [{"attribute":"attributeslib:arrow_velocity","operation":"MULTIPLY_BASE","value":0.2,"uuid":"dc7d5aea-b0e6-5ab0-fdd8-2238ef860997"},{"attribute":"attributeslib:draw_speed","operation":"MULTIPLY_BASE","value":0.6,"uuid":"c97f795f-abf4-558d-1e7a-6e8ade2e9394"}]);
-global.createCurio(e, "zoomers_armory:depth_berserker_necklace", "Depth Berserker Necklace", [{"attribute":"minecraft:generic.attack_damage","operation":"ADDITION","value":30,"uuid":"5cf4109a-3d08-5e1e-c99b-f93f9d06421f"},{"attribute":"minecraft:generic.attack_damage","operation":"MULTIPLY_BASE","value":0.2,"uuid":"63f863f5-4196-5265-c9e0-c407aa41d671"}]);
-global.createCurio(e, "zoomers_armory:depth_fortified_necklace", "Depth Fortified Necklace", [{"attribute":"minecraft:generic.armor","operation":"ADDITION","value":30,"uuid":"4789c753-6613-538b-2e72-125f78858d94"},{"attribute":"minecraft:generic.armor","operation":"MULTIPLY_BASE","value":0.2,"uuid":"9056d734-7ccc-5860-bb4a-f1d25af8d41e"},{"attribute":"minecraft:generic.armor_toughness","operation":"ADDITION","value":30,"uuid":"22ab36db-9890-5c4b-f347-9a0707627998"},{"attribute":"minecraft:generic.armor_toughness","operation":"MULTIPLY_BASE","value":0.2,"uuid":"f56cf1d9-747e-5667-bda3-2fb2e86cf10e"},{"attribute":"minecraft:generic.knockback_resistance","operation":"MULTIPLY_BASE","value":0.05,"uuid":"c332f927-1388-552a-6371-38f9e0e72b29"},{"attribute":"minecraft:generic.max_health","operation":"ADDITION","value":30,"uuid":"c81a61e7-f5fa-55eb-3e70-a2964a247d25"},{"attribute":"minecraft:generic.max_health","operation":"MULTIPLY_BASE","value":0.2,"uuid":"7e576b3e-3bf2-5fa7-d3e1-edce3bf74c9d"}]);
-global.createCurio(e, "zoomers_armory:depth_infused_necklace", "Depth Infused Necklace", [{"attribute":"irons_spellbooks:spell_power","operation":"MULTIPLY_BASE","value":0.3,"uuid":"bea6017a-5922-5bb1-c54c-4078c17e2963"},{"attribute":"irons_spellbooks:cast_time_reduction","operation":"MULTIPLY_BASE","value":0.3,"uuid":"93d9e98a-4f83-50cc-1dc4-9461283238e0"},{"attribute":"irons_spellbooks:cooldown_reduction","operation":"MULTIPLY_BASE","value":0.3,"uuid":"42f8630a-83a8-57c8-d692-533595c51459"}]);
-global.createCurio(e, "zoomers_armory:depth_mana_gloves", "Depth Mana Gloves", [{"attribute":"irons_spellbooks:max_mana","operation":"ADDITION","value":150,"uuid":"ee134f89-0e35-50a9-5ecb-126f3e4704bd"},{"attribute":"irons_spellbooks:max_mana","operation":"MULTIPLY_BASE","value":0.2,"uuid":"472969f8-a2ed-5859-1567-fbc904d288e6"},{"attribute":"irons_spellbooks:mana_regen","operation":"MULTIPLY_BASE","value":0.3,"uuid":"c504832d-b835-596f-d3c6-fddc5cf5b82c"}]);
-global.createCurio(e, "zoomers_armory:depth_dexterity_gloves", "Depth Dexterity Gloves", [{"attribute":"projectile_damage:generic","operation":"ADDITION","value":30,"uuid":"ff47e621-433d-5d61-11a6-8c7d1f9c194a"},{"attribute":"projectile_damage:generic","operation":"MULTIPLY_BASE","value":0.2,"uuid":"8f35be10-a21e-5d23-6e7a-bf7509a8b9b5"},{"attribute":"attributeslib:armor_pierce","operation":"ADDITION","value":30,"uuid":"5762634b-56bd-513b-ba1f-56bbe32a3067"},{"attribute":"attributeslib:armor_pierce","operation":"MULTIPLY_BASE","value":0.2,"uuid":"2a4122de-333a-5522-a54e-576c658fe83a"}]);
-global.createCurio(e, "zoomers_armory:depth_sharpshooter_gloves", "Depth Sharpshooter Gloves", [{"attribute":"attributeslib:arrow_velocity","operation":"MULTIPLY_BASE","value":0.2,"uuid":"ff302602-b5f6-5863-cea7-219705b215ba"},{"attribute":"attributeslib:draw_speed","operation":"MULTIPLY_BASE","value":0.3,"uuid":"b2dbaf27-2168-5604-3ccb-b146e3552c5e"}]);
-global.createCurio(e, "zoomers_armory:depth_berserker_gloves", "Depth Berserker Gloves", [{"attribute":"minecraft:generic.attack_damage","operation":"ADDITION","value":30,"uuid":"838f05d0-66d0-55c9-0bfb-8bf58d12d6f7"},{"attribute":"minecraft:generic.attack_damage","operation":"MULTIPLY_BASE","value":0.2,"uuid":"5fc003df-5752-5321-b465-197bd89505be"}]);
-global.createCurio(e, "zoomers_armory:depth_fortified_gloves", "Depth Fortified Gloves", [{"attribute":"minecraft:generic.armor","operation":"ADDITION","value":30,"uuid":"4e6dd1ac-ed11-5437-bca3-c6524a582c27"},{"attribute":"minecraft:generic.armor","operation":"MULTIPLY_BASE","value":0.2,"uuid":"1acafd7a-8cc1-5c94-626a-dd596324e8f6"},{"attribute":"minecraft:generic.armor_toughness","operation":"ADDITION","value":30,"uuid":"7c6c7a29-274b-5c93-c326-1d09ef7096c8"},{"attribute":"minecraft:generic.armor_toughness","operation":"MULTIPLY_BASE","value":0.2,"uuid":"5cbfc77c-11d3-5502-65c0-dbb78455d9e6"},{"attribute":"minecraft:generic.knockback_resistance","operation":"MULTIPLY_BASE","value":0.05,"uuid":"5f8d6ec8-53ea-5d0a-2399-7a3df20bcc26"},{"attribute":"minecraft:generic.max_health","operation":"ADDITION","value":30,"uuid":"fb64d35c-cc25-59c9-dfb2-1230db8bd79e"},{"attribute":"minecraft:generic.max_health","operation":"MULTIPLY_BASE","value":0.2,"uuid":"24a0625f-61ce-557f-f68a-f522a8d4ce25"}]);
-global.createCurio(e, "zoomers_armory:depth_infused_gloves", "Depth Infused Gloves", [{"attribute":"irons_spellbooks:spell_power","operation":"MULTIPLY_BASE","value":0.3,"uuid":"3ce28a93-04c4-5bce-7d88-70ba7ad9cb98"},{"attribute":"irons_spellbooks:cast_time_reduction","operation":"MULTIPLY_BASE","value":0.3,"uuid":"712fd8a4-2b80-5841-4fd8-37717be5d122"},{"attribute":"irons_spellbooks:cooldown_reduction","operation":"MULTIPLY_BASE","value":0.3,"uuid":"ad5ec651-3555-581d-1806-467bbe11511b"}]);
+global.createCurio(e, "zoomers_armory:immemorial_mana_ring", "Immemorial Mana Ring", [{"attribute":"irons_spellbooks:max_mana","operation":"ADDITION","value":100,"uuid":"4f9886f4-e189-5432-7eec-d00041000248"},{"attribute":"irons_spellbooks:max_mana","operation":"MULTIPLY_BASE","value":0.2,"uuid":"7a0c90f5-d495-5e83-a013-90c58bcdd41b"},{"attribute":"irons_spellbooks:mana_regen","operation":"MULTIPLY_BASE","value":0.3,"uuid":"5eec4993-ee5e-533b-bb44-49f45a7ba197"}]);
+global.createCurio(e, "zoomers_armory:immemorial_dexterity_ring", "Immemorial Dexterity Ring", [{"attribute":"projectile_damage:generic","operation":"ADDITION","value":20,"uuid":"84bfa63a-7a0b-529b-9f04-52a96550fbe6"},{"attribute":"projectile_damage:generic","operation":"MULTIPLY_BASE","value":0.2,"uuid":"f13f71f8-aa17-5c1a-c2b0-0f5ff7f7305f"},{"attribute":"attributeslib:armor_pierce","operation":"ADDITION","value":20,"uuid":"8ef89363-3d52-529d-0e97-eb34cd35fc9e"},{"attribute":"attributeslib:armor_pierce","operation":"MULTIPLY_BASE","value":0.2,"uuid":"f641174a-c351-5f9a-6c2f-3d10b11b2c73"}]);
+global.createCurio(e, "zoomers_armory:immemorial_sharpshooter_ring", "Immemorial Sharpshooter Ring", [{"attribute":"attributeslib:arrow_velocity","operation":"MULTIPLY_BASE","value":0.2,"uuid":"bd141652-0ce8-56f5-27f3-77200a2ac766"},{"attribute":"attributeslib:draw_speed","operation":"MULTIPLY_BASE","value":0.1,"uuid":"36b27300-7c76-516b-8cbf-f50cbcd20d27"}]);
+global.createCurio(e, "zoomers_armory:immemorial_berserker_ring", "Immemorial Berserker Ring", [{"attribute":"minecraft:generic.attack_damage","operation":"ADDITION","value":20,"uuid":"e6c93b27-e6a3-5d40-84e1-e094c179de63"},{"attribute":"minecraft:generic.attack_damage","operation":"MULTIPLY_BASE","value":0.2,"uuid":"9db57837-4c00-52c6-b1d0-4d46573a6eba"}]);
+global.createCurio(e, "zoomers_armory:immemorial_fortified_ring", "Immemorial Fortified Ring", [{"attribute":"minecraft:generic.armor","operation":"ADDITION","value":20,"uuid":"047090a3-7476-5ac7-f00f-c55b71311c8f"},{"attribute":"minecraft:generic.armor","operation":"MULTIPLY_BASE","value":0.2,"uuid":"2958f8d6-9fb6-5e45-1de2-cb701ff1dac9"},{"attribute":"minecraft:generic.armor_toughness","operation":"ADDITION","value":20,"uuid":"739dadbc-d6dc-53e4-22f6-d63aa61df5b7"},{"attribute":"minecraft:generic.armor_toughness","operation":"MULTIPLY_BASE","value":0.2,"uuid":"59888a31-2456-556a-e8df-048b3da85794"},{"attribute":"minecraft:generic.knockback_resistance","operation":"MULTIPLY_BASE","value":0.05,"uuid":"15c64dcb-1d81-5c3f-20d5-e67e81cff4e2"},{"attribute":"minecraft:generic.max_health","operation":"ADDITION","value":20,"uuid":"04f9cbe1-bf44-5dea-402f-fcd5d5562ebf"},{"attribute":"minecraft:generic.max_health","operation":"MULTIPLY_BASE","value":0.2,"uuid":"971ed8ce-8e6a-5e29-2834-ec4a3c437cb2"}]);
+global.createCurio(e, "zoomers_armory:immemorial_infused_ring", "Immemorial Infused Ring", [{"attribute":"irons_spellbooks:spell_power","operation":"MULTIPLY_BASE","value":0.2,"uuid":"7348b6fe-e5e2-5d21-b93b-48f4a19b4dc1"},{"attribute":"irons_spellbooks:cast_time_reduction","operation":"MULTIPLY_BASE","value":0.2,"uuid":"661a0893-92e5-56ff-f529-8a531113e11a"},{"attribute":"irons_spellbooks:cooldown_reduction","operation":"MULTIPLY_BASE","value":0.2,"uuid":"de4dd6b8-572f-5bc6-4c7f-067d3ba30676"}]);
+global.createCurio(e, "zoomers_armory:immemorial_mana_necklace", "Immemorial Mana Necklace", [{"attribute":"irons_spellbooks:max_mana","operation":"ADDITION","value":150,"uuid":"b2927dd1-d974-5cec-ee24-98f352a5816e"},{"attribute":"irons_spellbooks:max_mana","operation":"MULTIPLY_BASE","value":0.2,"uuid":"0b67a9dc-8fd9-5107-fbd2-b40ee0712683"},{"attribute":"irons_spellbooks:mana_regen","operation":"MULTIPLY_BASE","value":0.3,"uuid":"7179d1b0-3a3c-5296-1390-c374c48fa97c"}]);
+global.createCurio(e, "zoomers_armory:immemorial_dexterity_necklace", "Immemorial Dexterity Necklace", [{"attribute":"projectile_damage:generic","operation":"ADDITION","value":30,"uuid":"5b59f643-345a-542a-29b9-aab4963ff551"},{"attribute":"projectile_damage:generic","operation":"MULTIPLY_BASE","value":0.2,"uuid":"af7e7df0-f131-5238-3db2-b4dbcda6bc8d"},{"attribute":"attributeslib:armor_pierce","operation":"ADDITION","value":30,"uuid":"fb3bda08-981e-59b6-e055-46e37e344a08"},{"attribute":"attributeslib:armor_pierce","operation":"MULTIPLY_BASE","value":0.2,"uuid":"694ad0dd-67f0-5d31-43bf-0920de2f0e31"}]);
+global.createCurio(e, "zoomers_armory:immemorial_sharpshooter_necklace", "Immemorial Sharpshooter Necklace", [{"attribute":"attributeslib:arrow_velocity","operation":"MULTIPLY_BASE","value":0.2,"uuid":"59738539-4d8a-5057-5835-bf4978c8de5b"},{"attribute":"attributeslib:draw_speed","operation":"MULTIPLY_BASE","value":0.6,"uuid":"63ef7129-7f01-5439-6210-905fffa10198"}]);
+global.createCurio(e, "zoomers_armory:immemorial_berserker_necklace", "Immemorial Berserker Necklace", [{"attribute":"minecraft:generic.attack_damage","operation":"ADDITION","value":30,"uuid":"2dd6b096-d00d-5347-d955-bffe16e8f75b"},{"attribute":"minecraft:generic.attack_damage","operation":"MULTIPLY_BASE","value":0.2,"uuid":"f64e37b0-d512-5de5-466f-af8ce86ab7be"}]);
+global.createCurio(e, "zoomers_armory:immemorial_fortified_necklace", "Immemorial Fortified Necklace", [{"attribute":"minecraft:generic.armor","operation":"ADDITION","value":30,"uuid":"0b28fb77-8314-54a8-8fe9-2557383b79c8"},{"attribute":"minecraft:generic.armor","operation":"MULTIPLY_BASE","value":0.2,"uuid":"61a99d2e-d419-50fa-0025-ab7ef0363c06"},{"attribute":"minecraft:generic.armor_toughness","operation":"ADDITION","value":30,"uuid":"3c3756b6-bfcb-5ad3-f10c-c72704304e78"},{"attribute":"minecraft:generic.armor_toughness","operation":"MULTIPLY_BASE","value":0.2,"uuid":"f7401619-55ad-5004-b310-f8f64900cfcb"},{"attribute":"minecraft:generic.knockback_resistance","operation":"MULTIPLY_BASE","value":0.05,"uuid":"92d7c47f-c65e-522b-ea45-1f1e96c1727b"},{"attribute":"minecraft:generic.max_health","operation":"ADDITION","value":30,"uuid":"11bcfde5-723c-5677-75a4-11969eaa01f8"},{"attribute":"minecraft:generic.max_health","operation":"MULTIPLY_BASE","value":0.2,"uuid":"01d237d5-e7a9-506a-0626-b020c5833ca1"}]);
+global.createCurio(e, "zoomers_armory:immemorial_infused_necklace", "Immemorial Infused Necklace", [{"attribute":"irons_spellbooks:spell_power","operation":"MULTIPLY_BASE","value":0.3,"uuid":"d8690444-d0d5-5f4d-45ca-c8bd012678b5"},{"attribute":"irons_spellbooks:cast_time_reduction","operation":"MULTIPLY_BASE","value":0.3,"uuid":"6e81046d-8c7e-5c90-dd5c-715a861446bc"},{"attribute":"irons_spellbooks:cooldown_reduction","operation":"MULTIPLY_BASE","value":0.3,"uuid":"c42a3bb6-e143-56a9-fd39-8c8cd62b702a"}]);
+global.createCurio(e, "zoomers_armory:immemorial_mana_gloves", "Immemorial Mana Gloves", [{"attribute":"irons_spellbooks:max_mana","operation":"ADDITION","value":150,"uuid":"ccd142ba-2a82-5a51-d17e-642dead2a0c7"},{"attribute":"irons_spellbooks:max_mana","operation":"MULTIPLY_BASE","value":0.2,"uuid":"d06e0eff-af39-5e60-61db-e3f4c1727eea"},{"attribute":"irons_spellbooks:mana_regen","operation":"MULTIPLY_BASE","value":0.3,"uuid":"872339f0-1c91-5c72-cf0b-be8f7406a56b"}]);
+global.createCurio(e, "zoomers_armory:immemorial_dexterity_gloves", "Immemorial Dexterity Gloves", [{"attribute":"projectile_damage:generic","operation":"ADDITION","value":30,"uuid":"6cddfd74-7262-5ec2-f2d5-40115673afe2"},{"attribute":"projectile_damage:generic","operation":"MULTIPLY_BASE","value":0.2,"uuid":"611c4d45-bac0-5684-f437-d8729ff01c08"},{"attribute":"attributeslib:armor_pierce","operation":"ADDITION","value":30,"uuid":"3ef8176a-e2f7-5dec-e1b3-7e0135c01f8f"},{"attribute":"attributeslib:armor_pierce","operation":"MULTIPLY_BASE","value":0.2,"uuid":"f6deeb3c-3ad5-5eb3-e47c-1c54c1d2ea31"}]);
+global.createCurio(e, "zoomers_armory:immemorial_sharpshooter_gloves", "Immemorial Sharpshooter Gloves", [{"attribute":"attributeslib:arrow_velocity","operation":"MULTIPLY_BASE","value":0.2,"uuid":"c21193ce-b09a-5f05-3504-bec1e2a67fbb"},{"attribute":"attributeslib:draw_speed","operation":"MULTIPLY_BASE","value":0.3,"uuid":"fd79c1e9-b059-5f52-9b88-b80aec383913"}]);
+global.createCurio(e, "zoomers_armory:immemorial_berserker_gloves", "Immemorial Berserker Gloves", [{"attribute":"minecraft:generic.attack_damage","operation":"ADDITION","value":30,"uuid":"90c5cfed-f140-562d-5f64-87ff8804c639"},{"attribute":"minecraft:generic.attack_damage","operation":"MULTIPLY_BASE","value":0.2,"uuid":"cb57c141-0d39-546d-0a41-56d4af54f6e0"}]);
+global.createCurio(e, "zoomers_armory:immemorial_fortified_gloves", "Immemorial Fortified Gloves", [{"attribute":"minecraft:generic.armor","operation":"ADDITION","value":30,"uuid":"85e1cf4f-38b1-59dd-f32d-57be7ed6197e"},{"attribute":"minecraft:generic.armor","operation":"MULTIPLY_BASE","value":0.2,"uuid":"48fa1dc5-e068-5dea-f069-71c7c96d0650"},{"attribute":"minecraft:generic.armor_toughness","operation":"ADDITION","value":30,"uuid":"424869dd-5c07-5c03-cb4e-eb932ce95545"},{"attribute":"minecraft:generic.armor_toughness","operation":"MULTIPLY_BASE","value":0.2,"uuid":"699f2492-4828-527c-090b-0bb87522a682"},{"attribute":"minecraft:generic.knockback_resistance","operation":"MULTIPLY_BASE","value":0.05,"uuid":"12fce212-b1d5-58c7-3e90-7e7cc6c68f29"},{"attribute":"minecraft:generic.max_health","operation":"ADDITION","value":30,"uuid":"76c01e61-216e-5ec7-e0d6-8e045aa148eb"},{"attribute":"minecraft:generic.max_health","operation":"MULTIPLY_BASE","value":0.2,"uuid":"5e3bf578-7ee5-5b8f-02d2-cc70666e5220"}]);
+global.createCurio(e, "zoomers_armory:immemorial_infused_gloves", "Immemorial Infused Gloves", [{"attribute":"irons_spellbooks:spell_power","operation":"MULTIPLY_BASE","value":0.3,"uuid":"267105e9-1695-5eb1-c33f-9f8e792542c5"},{"attribute":"irons_spellbooks:cast_time_reduction","operation":"MULTIPLY_BASE","value":0.3,"uuid":"201894a4-c926-5c12-e55a-316769240a4a"},{"attribute":"irons_spellbooks:cooldown_reduction","operation":"MULTIPLY_BASE","value":0.3,"uuid":"e17a7bb1-d49e-59c7-42e6-1d7be256f1e0"}]);
 global.createCurio(e, "zoomers_armory:marble_mana_ring", "Marble Mana Ring", [{"attribute":"irons_spellbooks:max_mana","operation":"ADDITION","value":105,"uuid":"6f62cdbb-efc1-5805-2f3c-7b34e7c32567"},{"attribute":"irons_spellbooks:max_mana","operation":"MULTIPLY_BASE","value":0.21,"uuid":"a98515e5-4f38-5004-2df9-70a0d44e4205"},{"attribute":"irons_spellbooks:mana_regen","operation":"MULTIPLY_BASE","value":0.315,"uuid":"1cb48975-aec5-5f89-f3c0-069817144cff"}]);
 global.createCurio(e, "zoomers_armory:marble_dexterity_ring", "Marble Dexterity Ring", [{"attribute":"projectile_damage:generic","operation":"ADDITION","value":21,"uuid":"95402280-0444-52f6-b8e8-dd928fba423f"},{"attribute":"projectile_damage:generic","operation":"MULTIPLY_BASE","value":0.21,"uuid":"9c3505e8-4ffa-5fef-4c96-3ec1aa87f294"},{"attribute":"attributeslib:armor_pierce","operation":"ADDITION","value":21,"uuid":"55c955df-136c-5b6a-ac07-189ea06e59a0"},{"attribute":"attributeslib:armor_pierce","operation":"MULTIPLY_BASE","value":0.21,"uuid":"255ce5c0-7315-5fa7-7c76-f4a701b7dbfb"}]);
 global.createCurio(e, "zoomers_armory:marble_sharpshooter_ring", "Marble Sharpshooter Ring", [{"attribute":"attributeslib:arrow_velocity","operation":"MULTIPLY_BASE","value":0.21,"uuid":"d71dd97c-981f-5986-d017-4def9413a540"},{"attribute":"attributeslib:draw_speed","operation":"MULTIPLY_BASE","value":0.105,"uuid":"6950898b-a34b-5959-e6ad-2e11f6ddfbc9"}]);

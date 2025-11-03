@@ -475,12 +475,12 @@ new_armor_set_config("enderitemod", "enderite", [40,59,49,40], 8, -0.01, hp_tier
 
 # call from the depths
 new_sword_config("callfromthedepth_","immemorialsword", 170, full_id=True)
-new_armor_set_config("callfromthedepth_", "depth_armor", [50,70,60,50], 9.4, 0.0, hp_tier=20)
+new_armor_set_config("callfromthedepth_", "immemorialarmor", [50,70,60,50], 9.4, -0.1, hp_tier=20)
 new_sword_config("callfromthedepth_","soulmarblehammer", 171, full_id=True, attack_speed=0.8) 
 new_sword_config("callfromthedepth_","soulclaymore", 178, full_id=True, attack_speed=0.3)
-new_armor_set_config("callfromthedepth_", "marblearmor", [61,81,71,61], 9.8, 0.055, hp_tier=20)
+new_armor_set_config("callfromthedepth_", "marblearmor", [61,81,71,61], 11.8, 0.055, hp_tier=20)
 new_sword_config("callfromthedepth_","dark_abyssscythe", 185, full_id=True, attack_speed=0.6) 
-new_armor_set_config("callfromthedepth_", "soularmor", [69,89,79,69], 9.0, -0.09, hp_tier=20)
+new_armor_set_config("callfromthedepth_", "soularmor", [59,79,69,59], 9.0, -0.09, hp_tier=20)
 
 # The abyss
 new_armor_set_config("theabyss", "fusion_armor", [60,85,70,60], 10.5, -0.09, hp_tier=21)
@@ -676,7 +676,7 @@ new_kjs_config_durability_armor_set("ender_dragon_loot_", "dragon_armor", get_du
 new_kjs_config_durability_material("enderitemod", "enderite", 5500, get_durability_list_from_helmet(3890), tier=19, tier_to='A')
 
 # deeper
-new_kjs_config_durability_armor_set("callfromthedepth_", "depth_armor", get_durability_list_from_helmet(4100), tier=20)
+new_kjs_config_durability_armor_set("callfromthedepth_", "immemorialarmor", get_durability_list_from_helmet(4100), tier=20)
 for piece in ['sword', 'axe', 'pickaxe', 'shovel', 'hoe']:
     new_kjs_config_durability("callfromthedepth_", f"immemorial{piece}", 5700)
 new_kjs_config_durability("callfromthedepth_", "soulclaymore", 5900)
