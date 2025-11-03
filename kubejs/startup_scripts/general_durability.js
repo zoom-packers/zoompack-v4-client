@@ -471,16 +471,16 @@ ItemEvents.modification((event) => {
     event.modify("enderitemod:enderite_boots", item => {
         item.maxDamage = 70821;
     });
-    event.modify("callfromthedepth_:depth_armor_helmet", item => {
+    event.modify("callfromthedepth_:immemorialarmor_helmet", item => {
         item.maxDamage = 66896;
     });
-    event.modify("callfromthedepth_:depth_armor_chestplate", item => {
+    event.modify("callfromthedepth_:immemorialarmor_chestplate", item => {
         item.maxDamage = 97000;
     });
-    event.modify("callfromthedepth_:depth_armor_leggings", item => {
+    event.modify("callfromthedepth_:immemorialarmor_leggings", item => {
         item.maxDamage = 90310;
     });
-    event.modify("callfromthedepth_:depth_armor_boots", item => {
+    event.modify("callfromthedepth_:immemorialarmor_boots", item => {
         item.maxDamage = 80276;
     });
     event.modify("callfromthedepth_:immemorialsword", item => {
