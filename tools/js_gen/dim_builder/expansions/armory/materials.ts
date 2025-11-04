@@ -418,7 +418,7 @@ const materials = [
 
     // Call from the depth
     {
-        name: "depth",
+        name: "immemorial",
         tier: tier_levels_call_from_the_depths_start,
         item: item_callfromthedepth_.i_immemorialingot,
         type: "crafting",
@@ -434,7 +434,7 @@ const materials = [
     {
         name: "marble",
         tier: tier_levels_call_from_the_depths_start + 1,
-        item: item_callfromthedepth_.i_marbleingot,
+        item: item_callfromthedepth_.i_marble_gem,
         type: "smithing",
         smithing: item_callfromthedepth_.i_immemorialupgradesmithingtemplate,
         tools_smithing: [
@@ -443,7 +443,7 @@ const materials = [
             item_callfromthedepth_.i_immemorialshovel,
             item_callfromthedepth_.i_immemorialhoe
         ],
-        base: "depth",
+        base: "immemorial",
         base_damage: 188,
         durability: 5850,
         armor: 250,

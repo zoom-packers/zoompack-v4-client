@@ -3,8 +3,8 @@
         "icon": {
             "item": "kubejs:quest_depth"
         },
-        "title": "Get an Agony Soul",
-        "description": "Sacrificial Bastions are big leveled bastions protected by Wardens. You can use the fragment there!\n\nREWARDS:\n\u00a7f\u00a7o- 1 \u00a76\ud83e\ude99",
+        "title": "Get an Agony Key",
+        "description": "Sacrificial Bastions are big leveled bastions protected by Wardens. You can find the Agony Key there\n\nREWARDS:\n\u00a7f\u00a7o- 1 \u00a76\ud83e\ude99",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": true,

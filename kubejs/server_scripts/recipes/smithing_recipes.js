@@ -140,16 +140,16 @@ ServerEvents.recipes(event => {
 
     // depth materials: depth, marble, soul
     event.remove({ output: 'callfromthedepth_:soulmarblehammer' });
-    event.smithing('1x callfromthedepth_:soulmarblehammer', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:immemorialsword', 'callfromthedepth_:marbleingot');
+    event.smithing('1x callfromthedepth_:soulmarblehammer', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:immemorialsword', 'callfromthedepth_:marble_gem');
 
     event.remove({ output: 'callfromthedepth_:marblearmor_helmet' });
-    event.smithing('1x callfromthedepth_:marblearmor_helmet', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:depth_armor_helmet', 'callfromthedepth_:marbleingot');
+    event.smithing('1x callfromthedepth_:marblearmor_helmet', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:immemorialarmor_helmet', 'callfromthedepth_:marble_gem');
     event.remove({ output: 'callfromthedepth_:marblearmor_chestplate' });
-    event.smithing('1x callfromthedepth_:marblearmor_chestplate', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:depth_armor_chestplate', 'callfromthedepth_:marbleingot');
+    event.smithing('1x callfromthedepth_:marblearmor_chestplate', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:immemorialarmor_chestplate', 'callfromthedepth_:marble_gem');
     event.remove({ output: 'callfromthedepth_:marblearmor_leggings' });
-    event.smithing('1x callfromthedepth_:marblearmor_leggings', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:depth_armor_leggings', 'callfromthedepth_:marbleingot');
+    event.smithing('1x callfromthedepth_:marblearmor_leggings', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:immemorialarmor_leggings', 'callfromthedepth_:marble_gem');
     event.remove({ output: 'callfromthedepth_:marblearmor_boots' });
-    event.smithing('1x callfromthedepth_:marblearmor_boots', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:depth_armor_boots', 'callfromthedepth_:marbleingot');
+    event.smithing('1x callfromthedepth_:marblearmor_boots', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:immemorialarmor_boots', 'callfromthedepth_:marble_gem');
 
     event.remove({ output: 'callfromthedepth_:soulclaymore' });
     event.smithing('1x callfromthedepth_:soulclaymore', 'callfromthedepth_:immemorialupgradesmithingtemplate', 'callfromthedepth_:soulmarblehammer', 'callfromthedepth_:soulingot');

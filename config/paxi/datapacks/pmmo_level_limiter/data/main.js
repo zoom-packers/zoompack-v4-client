@@ -287,7 +287,7 @@ function modifyFullSets() {
 
     // Deeper darker
     processor.modifySetRequirements("callfromthedepth_", "immemorial", 84, ["sword","axe", "pickaxe", "shovel", "hoe"], "{set_name}{item}");
-    processor.modifySetRequirements("callfromthedepth_", "depth_armor", 84, "armor");
+    processor.modifySetRequirements("callfromthedepth_", "immemorialarmor", 84, "armor");
     processor.modifySingleItem("callfromthedepth_", "soulbow", "bow", 84);
     processor.modifySingleItem("callfromthedepth_", "soul_blade", "sword", 84);
 

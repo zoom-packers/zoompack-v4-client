@@ -1,0 +1,13 @@
+
+["General Settings"]
+	#Apply armor effects
+	applyArmorEffects = false
+	#Apply attribute modifiers
+	applyModifiers = false
+	#Show item descriptions
+	showDescriptions = true
+	#Render custom capes attached to chestplates
+	showCapes = true
+	#Do not make capes static if Epic Fight is loaded. It is not implemented yet completely
+	epicFightNotStaticCapes = false
+
