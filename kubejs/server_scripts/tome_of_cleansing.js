@@ -36,3 +36,21 @@ PlayerEvents.inventoryChanged(event => {
         }
     }
 });
+
+
+ServerEvents.recipes(event => {
+    event.shaped(
+        Item.of('kubejs:tome_of_cleansing', 4),
+        [
+            "PBB",
+            "LDD",
+            "PBB"
+        ],
+        {
+            P: "minecraft:paper",
+            B: "minecraft:book",
+            L: "minecraft:leather",
+            D: "minecraft:diamond"
+        }
+    )
+});
