@@ -280,6 +280,7 @@ const ORIGINS_PMMO_CONFIG = {
         'origins-classes:rogue': {
             levels: [
                 { skill: 'swordsmanship', level: 6 },
+                { skill: 'archery', level: 6 },
                 { skill: 'combat', level: 3 },
                 { skill: 'endurance', level: 3 }
             ],
@@ -291,6 +292,14 @@ const ORIGINS_PMMO_CONFIG = {
             {
                 item: "zoomers_armory:copper_dagger",
                 amount: 1
+            },
+            {
+                item: "minecraft:bow",
+                amount: 1
+            },
+            {
+                item: "minecraft:arrow",
+                amount: 64
             },
             {
                 item: "minecraft:leather_helmet",
