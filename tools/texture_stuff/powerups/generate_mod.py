@@ -48,7 +48,7 @@ def create_recipe_event(item_id, first, second, third, core, element):
                 C: '"""+ core +"""',
                 E: '"""+ element +"""',
             }
-        )--
+        )
 """
 
 
@@ -305,16 +305,16 @@ attr_map = {
         'operation': 'ADDITION',
         'percentage' : False,
         'tier_m': {
-            1: 1.25,
-            2: 1.5,
-            3: 1.75,
-            4: 2.0,
-            5: 4.0,
-            6: 5.0,
-            7: 6.0,
-            8: 7.0,
-            9: 8.0,
-            10: 10.0
+            1: 0.125,
+            2: 0.25,
+            3: 0.375,
+            4: 0.5,
+            5: 0.625,
+            6: 0.75,
+            7: 0.825,
+            8: 1.0,
+            9: 1.25,
+            10: 1.5
         }
     },
     'armor_shred': {
@@ -645,7 +645,10 @@ trims = [
     "blue_skies:toxic_armor_trim_smithing_template"
 ]
 
-generate_server_js_tags_file(f'{server_scripts_path}/tags/trim_tags.js', trims, 'forge:trim_templates')
+try:
+    generate_server_js_tags_file(f'{server_scripts_path}/tags/trim_tags.js', trims, 'forge:trim_templates')
+except Exception:
+    print("ZOOM >>> Tag creation failed!")
 
 print("ZOOM >>> Trim template tags created")
 
