@@ -1,6 +1,8 @@
 ﻿StartupEvents.registry('item', event => {
     event.create('tome_of_cleansing')
         .displayName('Tome of Cleansing')
+        .tooltip("")
+        .tooltip("Use it in an anvil to extract trim materials (Power Ups) from an armor.")
         .maxStackSize(64);
 });
 
