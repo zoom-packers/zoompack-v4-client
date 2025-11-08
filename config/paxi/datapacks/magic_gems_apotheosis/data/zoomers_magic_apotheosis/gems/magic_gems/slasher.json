@@ -23,7 +23,7 @@
 			},
 			"modifiers": [
 				{
-					"attribute": "attributeslib:armor_pierce",
+					"attribute": "attributeslib:armor_shred",
 					"operation": "MULTIPLY_TOTAL",
 					"values": {
 						"common": 0.01,
