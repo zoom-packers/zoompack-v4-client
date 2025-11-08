@@ -26,6 +26,10 @@ ForgeEvents.onEvent('net.minecraftforge.event.AnvilUpdateEvent', event => {
     const material = leftNBT.Trim.material;
     if (!material) return;
     
+    let tier = 1; 
+    const m = material.match(/tier[^0-9]*([0-9]+)/i); 
+    if (m) tier = parseInt(m[1]) || 1;
+    
     let output = leftItem.copy();
     let outNBT = output.nbt || {}; 
 
@@ -33,7 +37,10 @@ ForgeEvents.onEvent('net.minecraftforge.event.AnvilUpdateEvent', event => {
     outNBT.TrimRecycle = material;
     output.nbt = outNBT;
     
-    event.setOutput(output);
-    event.setCost(1);
-    event.setMaterialCost(1);
+    event.setCost(Math.exp(tier/2));
+    event.setMaterialCost(tier);
+    
+    if(rightItem.count >= tier){
+        event.setOutput(output);
+    }
 });
