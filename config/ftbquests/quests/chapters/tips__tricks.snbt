@@ -508,6 +508,10 @@
 				""
 				"{image:kubejs:item/tier_10_knockback_resistance_power_up width:100 height:100 align:1}"
 				""
+				"In case you want to extract the power up/trim from an armor piece, just craft a &9&lTome Of Cleansing&r&r and use them in an anvil with the item."
+				""
+				"{image:kubejs:item/tome_of_cleansing width:25 height:25 align:1}"
+				""
 				""
 				"{image:biomesoplenty:block/pus_bubble width:50 height:50 align:1}"
 			]
