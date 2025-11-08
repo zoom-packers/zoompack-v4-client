@@ -19,7 +19,7 @@
 				"data": {
 					"attribute": "attributeslib:experience_gained",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -27,7 +27,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:agility_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -35,7 +35,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:alchemy_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -43,7 +43,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:archery_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -51,7 +51,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:combat_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -59,7 +59,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:cooking_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -67,7 +67,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:endurance_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -75,7 +75,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:engineering_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -83,7 +83,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:excavation_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -91,7 +91,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:farming_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -99,7 +99,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:fightgroup_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -107,7 +107,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:fishing_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -115,7 +115,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:flying_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -123,7 +123,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:gunslinging_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -131,7 +131,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:hunter_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -139,7 +139,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:magic_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -147,7 +147,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:mining_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -155,7 +155,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:sailing_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -163,7 +163,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:slayer_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -171,7 +171,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:smithing_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -179,7 +179,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:swimming_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -187,7 +187,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:swordsmanship_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -195,7 +195,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:taming_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -203,7 +203,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:tech_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			},
 			{
@@ -211,7 +211,7 @@
 				"data": {
 					"attribute": "zoompack_overrides_forge:woodcutting_xp_multiplier",
 					"value": 0.01,
-					"operation": "multiply_total"
+					"operation": "addition"
 				}
 			}
 		]
