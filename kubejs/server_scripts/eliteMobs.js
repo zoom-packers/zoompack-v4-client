@@ -206,6 +206,9 @@ function elite_onDeath(event) {
         case "theabyss:the_abyss":
             loot = global.abyssEliteDrops(rolls);
             break;
+        case "theabyss:frost_world":
+            loot = global.frostEliteDrops(rolls);
+            break;
 
     }
     if (loot == null) {
