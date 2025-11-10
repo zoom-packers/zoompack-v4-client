@@ -1,205 +1,214 @@
 {
-  "economy": {
-    "currency": "dotcoinmod:bronze_coin",
-    "dropMultiplier": 1.0,
-    "DimensionMultipliers": {
-      "minecraft:overworld": 1.0,
-      "blue_skies:everdawn": 3.0,
-      "callfromthedepth_:depth": 14.0,
-      "theabyss:the_abyss": 15.0,
-      "blue_skies:everbright": 2.0,
-      "aether:the_aether": 5.0,
-      "minecraft:the_nether": 7.0,
-      "undergarden:undergarden": 9.0,
-      "minecraft:the_end": 13.0
+    "economy": {
+        "currency": "dotcoinmod:bronze_coin",
+        "dropMultiplier": 1.0,
+        "DimensionMultipliers": {
+            "minecraft:overworld": 1.0,
+            "blue_skies:everdawn": 3.0,
+            "callfromthedepth_:depth": 14.0,
+            "theabyss:the_abyss": 15.0,
+            "blue_skies:everbright": 2.0,
+            "aether:the_aether": 5.0,
+            "minecraft:the_nether": 7.0,
+            "undergarden:undergarden": 9.0,
+            "minecraft:the_end": 13.0
+        },
+        "trading": {
+            "enabled": true,
+            "baseChance": 0.01,
+            "noDimensionalMultiplier": false
+        },
+        "cooking": {
+            "meatOnly": true,
+            "blacklist": [],
+            "enabled": true,
+            "baseChance": 0.005,
+            "noDimensionalMultiplier": false
+        },
+        "breeding": {
+            "blacklist": [],
+            "enabled": true,
+            "baseChance": 0.05,
+            "noDimensionalMultiplier": false
+        },
+        "smithing": {
+            "blacklist": [],
+            "enabled": true,
+            "baseChance": 0.08,
+            "noDimensionalMultiplier": false
+        },
+        "anvil": {
+            "blacklist": [],
+            "enabled": true,
+            "baseChance": 0.05,
+            "noDimensionalMultiplier": false
+        },
+        "mining": {
+            "blacklist": [],
+            "enabled": true,
+            "baseChance": 0.02,
+            "noDimensionalMultiplier": false
+        },
+        "harvest": {
+            "blacklist": [],
+            "enabled": true,
+            "baseChance": 0.01,
+            "noDimensionalMultiplier": false
+        },
+        "brewing": {
+            "blacklist": [],
+            "enabled": true,
+            "baseChance": 0.03,
+            "noDimensionalMultiplier": false
+        },
+        "travel": {
+            "distanceInMeters": 1000.0,
+            "enabled": true,
+            "baseChance": 1.0,
+            "noDimensionalMultiplier": false
+        },
+        "auctionTheWorldOverrides": {
+            "enabled": true,
+            "currency": "dotcoinmod:bronze_coin"
+        }
     },
-    "trading": {
-      "enabled": true,
-      "baseChance": 0.01,
-      "noDimensionalMultiplier": false
+    "attributeGuiFix": {
+        "enabled": true,
+        "dynamicAttributes": [
+            "puffish_attributes:player.melee_damage",
+            "puffish_attributes:player.ranged_damage",
+            "puffish_attributes:player.fortune",
+            "puffish_attributes:player.healing",
+            "puffish_attributes:player.jump",
+            "puffish_attributes:player.resistance",
+            "puffish_attributes:player.mining_speed",
+            "puffish_attributes:player.pickaxe_speed",
+            "puffish_attributes:player.axe_speed",
+            "puffish_attributes:player.shovel_speed",
+            "puffish_attributes:player.sprinting_speed",
+            "puffish_attributes:player.knockback",
+            "puffish_attributes:player.repair_cost"
+        ]
     },
-    "cooking": {
-      "meatOnly": true,
-      "blacklist": [],
-      "enabled": true,
-      "baseChance": 0.005,
-      "noDimensionalMultiplier": false
+    "enchantment": {
+        "enabled": true,
+        "sharpnessAdditionFactor": 0.5,
+        "sharpnessTotalDamageMultiplierPerLevel": 0.02,
+        "baneArthropodsFactor": 1.0,
+        "baneArthropodsTotalDamageMultiplierPerLevel": 0.0,
+        "smiteUndeadFactor": 1.0,
+        "smiteUndeadTotalDamageMultiplierPerLevel": 0.0
     },
-    "breeding": {
-      "blacklist": [],
-      "enabled": true,
-      "baseChance": 0.05,
-      "noDimensionalMultiplier": false
+    "pmmo": {
+        "enabled": true,
+        "skills": [
+            "tech",
+            "magic",
+            "slayer",
+            "fishing",
+            "fightgroup",
+            "combat",
+            "swordsmanship",
+            "alchemy",
+            "mining",
+            "engineering",
+            "endurance",
+            "building",
+            "smithing",
+            "swimming",
+            "woodcutting",
+            "gunslinging",
+            "excavation",
+            "farming",
+            "flying",
+            "cooking",
+            "agility",
+            "sailing",
+            "hunter",
+            "archery",
+            "taming"
+        ]
     },
-    "smithing": {
-      "blacklist": [],
-      "enabled": true,
-      "baseChance": 0.08,
-      "noDimensionalMultiplier": false
+    "parties": {
+        "renderSimplifiedPlayerModel": true
     },
-    "anvil": {
-      "blacklist": [],
-      "enabled": true,
-      "baseChance": 0.05,
-      "noDimensionalMultiplier": false
+    "aura": {
+        "auras": [
+            {
+                "id": "zoompack_overrides_forge:aura_annoying",
+                "shaderLocation": "zoompack_overrides_forge:aura",
+                "textureLocation": "zoompack_overrides_forge:textures/effect/aura_annoying.png",
+                "zoom": 0.3,
+                "animSpeedU": 30.0,
+                "animSpeedV": 20.0,
+                "animAlphaSpeed": 2.0,
+                "baseAlpha": 0.01,
+                "alphaMultiplier": 0.1
+            },
+            {
+                "id": "zoompack_overrides_forge:aura_trained",
+                "shaderLocation": "zoompack_overrides_forge:aura",
+                "textureLocation": "zoompack_overrides_forge:textures/effect/aura_trained.png",
+                "zoom": 0.4,
+                "animSpeedU": 30.0,
+                "animSpeedV": 20.0,
+                "animAlphaSpeed": 2.0,
+                "baseAlpha": 0.01,
+                "alphaMultiplier": 0.1
+            },
+            {
+                "id": "zoompack_overrides_forge:aura_elite",
+                "shaderLocation": "zoompack_overrides_forge:aura",
+                "textureLocation": "zoompack_overrides_forge:textures/effect/aura_elite.png",
+                "zoom": 0.5,
+                "animSpeedU": 30.0,
+                "animSpeedV": 20.0,
+                "animAlphaSpeed": 2.0,
+                "baseAlpha": 0.01,
+                "alphaMultiplier": 0.1
+            },
+            {
+                "id": "zoompack_overrides_forge:aura_champion",
+                "shaderLocation": "zoompack_overrides_forge:aura",
+                "textureLocation": "zoompack_overrides_forge:textures/effect/aura_champion.png",
+                "zoom": 0.6,
+                "animSpeedU": 30.0,
+                "animSpeedV": 20.0,
+                "animAlphaSpeed": 2.0,
+                "baseAlpha": 0.01,
+                "alphaMultiplier": 0.1
+            },
+            {
+                "id": "zoompack_overrides_forge:aura_miniboss",
+                "shaderLocation": "zoompack_overrides_forge:aura",
+                "textureLocation": "zoompack_overrides_forge:textures/effect/aura_miniboss.png",
+                "zoom": 0.7,
+                "animSpeedU": 30.0,
+                "animSpeedV": 20.0,
+                "animAlphaSpeed": 2.0,
+                "baseAlpha": 0.01,
+                "alphaMultiplier": 0.1
+            },
+            {
+                "id": "zoompack_overrides_forge:aura_horde_cheif",
+                "shaderLocation": "zoompack_overrides_forge:aura",
+                "textureLocation": "zoompack_overrides_forge:textures/effect/aura_horde_cheif.png",
+                "zoom": 0.8,
+                "animSpeedU": 30.0,
+                "animSpeedV": 20.0,
+                "animAlphaSpeed": 2.0,
+                "baseAlpha": 0.01,
+                "alphaMultiplier": 0.1
+            }
+        ]
     },
-    "mining": {
-      "blacklist": [],
-      "enabled": true,
-      "baseChance": 0.02,
-      "noDimensionalMultiplier": false
+    "optimization": {
+        "enabled": false,
+        "offsetJEI": false,
+        "skipTagsRecipes": false
     },
-    "harvest": {
-      "blacklist": [],
-      "enabled": true,
-      "baseChance": 0.01,
-      "noDimensionalMultiplier": false
-    },
-    "brewing": {
-      "blacklist": [],
-      "enabled": true,
-      "baseChance": 0.03,
-      "noDimensionalMultiplier": false
-    },
-    "travel": {
-      "distanceInMeters": 1000.0,
-      "enabled": true,
-      "baseChance": 1.0,
-      "noDimensionalMultiplier": false
-    },
-    "auctionTheWorldOverrides": {
-      "enabled": true,
-      "currency": "dotcoinmod:bronze_coin"
+    "spawner": {
+        "enabled": true,
+        "spawnNerfInMinutes": 60
     }
-  },
-  "attributeGuiFix": {
-    "enabled": true,
-    "dynamicAttributes": [
-      "puffish_attributes:player.melee_damage",
-      "puffish_attributes:player.ranged_damage",
-      "puffish_attributes:player.fortune",
-      "puffish_attributes:player.healing",
-      "puffish_attributes:player.jump",
-      "puffish_attributes:player.resistance",
-      "puffish_attributes:player.mining_speed",
-      "puffish_attributes:player.pickaxe_speed",
-      "puffish_attributes:player.axe_speed",
-      "puffish_attributes:player.shovel_speed",
-      "puffish_attributes:player.sprinting_speed",
-      "puffish_attributes:player.knockback",
-      "puffish_attributes:player.repair_cost"
-    ]
-  },
-  "enchantment": {
-    "enabled": true,
-    "sharpnessAdditionFactor": 0.5,
-    "sharpnessTotalDamageMultiplierPerLevel": 0.02,
-    "baneArthropodsFactor": 1.0,
-    "baneArthropodsTotalDamageMultiplierPerLevel": 0.0,
-    "smiteUndeadFactor": 1.0,
-    "smiteUndeadTotalDamageMultiplierPerLevel": 0.0
-  },
-  "pmmo": {
-    "enabled": true,
-    "skills": [
-      "tech",
-      "magic",
-      "slayer",
-      "fishing",
-      "fightgroup",
-      "combat",
-      "swordsmanship",
-      "alchemy",
-      "mining",
-      "engineering",
-      "endurance",
-      "building",
-      "smithing",
-      "swimming",
-      "woodcutting",
-      "gunslinging",
-      "excavation",
-      "farming",
-      "flying",
-      "cooking",
-      "agility",
-      "sailing",
-      "hunter",
-      "archery",
-      "taming"
-    ]
-  },
-  "parties": {
-    "renderSimplifiedPlayerModel": true
-  },
-  "aura": {
-    "auras": [
-      {
-        "id": "zoompack_overrides_forge:aura_annoying",
-        "shaderLocation": "zoompack_overrides_forge:aura",
-        "textureLocation": "zoompack_overrides_forge:textures/effect/aura_annoying.png",
-        "zoom": 0.3,
-        "animSpeedU": 30.0,
-        "animSpeedV": 20.0,
-        "animAlphaSpeed": 2.0,
-        "baseAlpha": 0.01,
-        "alphaMultiplier": 0.1
-      },
-      {
-        "id": "zoompack_overrides_forge:aura_trained",
-        "shaderLocation": "zoompack_overrides_forge:aura",
-        "textureLocation": "zoompack_overrides_forge:textures/effect/aura_trained.png",
-        "zoom": 0.4,
-        "animSpeedU": 30.0,
-        "animSpeedV": 20.0,
-        "animAlphaSpeed": 2.0,
-        "baseAlpha": 0.01,
-        "alphaMultiplier": 0.1
-      },
-      {
-        "id": "zoompack_overrides_forge:aura_elite",
-        "shaderLocation": "zoompack_overrides_forge:aura",
-        "textureLocation": "zoompack_overrides_forge:textures/effect/aura_elite.png",
-        "zoom": 0.5,
-        "animSpeedU": 30.0,
-        "animSpeedV": 20.0,
-        "animAlphaSpeed": 2.0,
-        "baseAlpha": 0.01,
-        "alphaMultiplier": 0.1
-      },
-      {
-        "id": "zoompack_overrides_forge:aura_champion",
-        "shaderLocation": "zoompack_overrides_forge:aura",
-        "textureLocation": "zoompack_overrides_forge:textures/effect/aura_champion.png",
-        "zoom": 0.6,
-        "animSpeedU": 30.0,
-        "animSpeedV": 20.0,
-        "animAlphaSpeed": 2.0,
-        "baseAlpha": 0.01,
-        "alphaMultiplier": 0.1
-      },
-      {
-        "id": "zoompack_overrides_forge:aura_miniboss",
-        "shaderLocation": "zoompack_overrides_forge:aura",
-        "textureLocation": "zoompack_overrides_forge:textures/effect/aura_miniboss.png",
-        "zoom": 0.7,
-        "animSpeedU": 30.0,
-        "animSpeedV": 20.0,
-        "animAlphaSpeed": 2.0,
-        "baseAlpha": 0.01,
-        "alphaMultiplier": 0.1
-      },
-      {
-        "id": "zoompack_overrides_forge:aura_horde_cheif",
-        "shaderLocation": "zoompack_overrides_forge:aura",
-        "textureLocation": "zoompack_overrides_forge:textures/effect/aura_horde_cheif.png",
-        "zoom": 0.8,
-        "animSpeedU": 30.0,
-        "animSpeedV": 20.0,
-        "animAlphaSpeed": 2.0,
-        "baseAlpha": 0.01,
-        "alphaMultiplier": 0.1
-      }
-    ]
-  }
 }
