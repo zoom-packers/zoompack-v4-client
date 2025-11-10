@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": ["theabyss:blue_jungle"],
+    "biomes": ["theabyss:slime_forest"],
     "step": "surface_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_box",
