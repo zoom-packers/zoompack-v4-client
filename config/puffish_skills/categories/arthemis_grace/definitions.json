@@ -79,8 +79,8 @@
 			}
 		]
 	},
-	"armor_pierce_0_5": {
-		"title": "§a+0.5 Armor Pierce",
+	"armor_pierce_0_125": {
+		"title": "§a+0.125 Armor Pierce",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -98,7 +98,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "attributeslib:armor_pierce",
-					"value": 0.5,
+					"value": 0.125,
 					"operation": "addition"
 				}
 			}

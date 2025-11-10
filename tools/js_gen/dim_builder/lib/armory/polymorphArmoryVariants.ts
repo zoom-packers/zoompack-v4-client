@@ -34,7 +34,7 @@ export function createHealthPerLevelAttributes(piece: 'helmet' | 'chestplate' | 
 
 export class PolymorphArmoryVariants {
 
-    public static readonly PIERCE_MULTIPLIER = 3;
+    public static readonly PIERCE_MULTIPLIER = 0.05;
     public static readonly ARMOR_HP_FLAT_ADDITION = 2;
     public static readonly ARMOR_HP_MULTIPLIER = 0.23;
     public static readonly ARMOR_HELMET_FRACTION = 0.175;
@@ -880,7 +880,7 @@ export class PolymorphArmoryVariants {
         speedMultiplier: 0.2,
         modelType: "shortbow",
         additionalAttributesPerLevel: [
-            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.55),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.05),
             CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.12 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
         ]
     }
@@ -895,7 +895,7 @@ export class PolymorphArmoryVariants {
         speedMultiplier: 0,
         modelType: "bow",
         additionalAttributesPerLevel: [
-            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.55),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.05),
             CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.12 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
         ]
     }
@@ -910,7 +910,7 @@ export class PolymorphArmoryVariants {
         speedMultiplier: -0.3,
         modelType: "longbow",
         additionalAttributesPerLevel: [
-            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.55),
+            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 0.05),
             CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.12 * PolymorphArmoryVariants.PIERCE_MULTIPLIER)
         ]
     }
@@ -1160,7 +1160,6 @@ export class PolymorphArmoryVariants {
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.ADDITION, 1),
             CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.MULTIPLY_BASE, 0.01),
-            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 1),
             CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.01),
         ],
         textureGenDetails: {
@@ -1292,7 +1291,6 @@ export class PolymorphArmoryVariants {
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.ADDITION, 1.5),
             CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.MULTIPLY_BASE, 0.01),
-            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 1.5),
             CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.01),
         ],
         textureGenDetails: {
@@ -1427,7 +1425,6 @@ export class PolymorphArmoryVariants {
         additionalAttributesPerLevel: [
             CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.ADDITION, 1.5),
             CiaModifierBuilder.create(attribute_projectile_damage.a_generic, operation.MULTIPLY_BASE, 0.01),
-            CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.ADDITION, 1.5),
             CiaModifierBuilder.create(attribute_attributeslib.a_armor_pierce, operation.MULTIPLY_BASE, 0.01),
         ],
         textureGenDetails: {

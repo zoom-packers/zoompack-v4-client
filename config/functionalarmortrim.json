@@ -143,70 +143,70 @@
         {
             "attribute": "attributeslib:armor_pierce",
             "operation": "ADDITION",
-            "amount": 1.25
+            "amount": 0.125
         }
     ],
     "kubejs:tier_2_armor_pierce_power_up": [
         {
             "attribute": "attributeslib:armor_pierce",
             "operation": "ADDITION",
-            "amount": 1.5
+            "amount": 0.25
         }
     ],
     "kubejs:tier_3_armor_pierce_power_up": [
         {
             "attribute": "attributeslib:armor_pierce",
             "operation": "ADDITION",
-            "amount": 1.75
+            "amount": 0.375
         }
     ],
     "kubejs:tier_4_armor_pierce_power_up": [
         {
             "attribute": "attributeslib:armor_pierce",
             "operation": "ADDITION",
-            "amount": 2.0
+            "amount": 0.5
         }
     ],
     "kubejs:tier_5_armor_pierce_power_up": [
         {
             "attribute": "attributeslib:armor_pierce",
             "operation": "ADDITION",
-            "amount": 4.0
+            "amount": 0.625
         }
     ],
     "kubejs:tier_6_armor_pierce_power_up": [
         {
             "attribute": "attributeslib:armor_pierce",
             "operation": "ADDITION",
-            "amount": 5.0
+            "amount": 0.75
         }
     ],
     "kubejs:tier_7_armor_pierce_power_up": [
         {
             "attribute": "attributeslib:armor_pierce",
             "operation": "ADDITION",
-            "amount": 6.0
+            "amount": 0.825
         }
     ],
     "kubejs:tier_8_armor_pierce_power_up": [
         {
             "attribute": "attributeslib:armor_pierce",
             "operation": "ADDITION",
-            "amount": 7.0
+            "amount": 1.0
         }
     ],
     "kubejs:tier_9_armor_pierce_power_up": [
         {
             "attribute": "attributeslib:armor_pierce",
             "operation": "ADDITION",
-            "amount": 8.0
+            "amount": 1.25
         }
     ],
     "kubejs:tier_10_armor_pierce_power_up": [
         {
             "attribute": "attributeslib:armor_pierce",
             "operation": "ADDITION",
-            "amount": 10.0
+            "amount": 1.5
         }
     ],
     "kubejs:tier_1_armor_shred_power_up": [

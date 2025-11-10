@@ -427,6 +427,25 @@ let PowerUps_9_and_10 = [
     'tier_10_swim_speed_power_up'
 ];
 
+let PowerUps_10 = [
+    'tier_10_armor_power_up',
+    'tier_10_armor_toughness_power_up',
+    'tier_10_armor_pierce_power_up',
+    'tier_10_armor_shred_power_up',
+    'tier_10_cooldown_reduction_power_up',
+    'tier_10_crit_chance_power_up',
+    'tier_10_crit_damage_power_up',
+    'tier_10_health_boost_power_up',
+    'tier_10_knockback_resistance_power_up',
+    'tier_10_lung_capacity_power_up',
+    'tier_10_mana_boost_power_up',
+    'tier_10_mana_regen_power_up',
+    'tier_10_movement_speed_power_up',
+    'tier_10_spell_power_power_up',
+    'tier_10_stamina_power_up',
+    'tier_10_swim_speed_power_up'
+];
+
 
 
     switch (dimension) {
@@ -448,6 +467,8 @@ let PowerUps_9_and_10 = [
             return "kubejs:" + PowerUps_8[Math.floor(Math.random() * PowerUps_8.length)];
         case "theabyss:the_abyss":
             return "kubejs:" + PowerUps_9_and_10[Math.floor(Math.random() * PowerUps_9_and_10.length)];
+        case "theabyss:frost_world":
+            return "kubejs:" + PowerUps_10[Math.floor(Math.random() * PowerUps_10.length)];
     }
 }
 
@@ -881,6 +902,46 @@ function abyssEliteDrops(rolls) {
     return drops;
 }
 
+function frostEliteDrops(rolls) {
+    let drops = [];
+    for (let i = 0; i < rolls; i++) {
+        // Floating point rolls logic
+        var remainder = rolls - i
+        if (remainder > 0 && remainder < 1) {
+            var randomRoll = Math.random();
+            if (randomRoll >= remainder) {
+                continue;
+            }
+        }
+        let weighted = [
+            weightedEntry(lootlib_p_getPowerUp("theabyss:frost_world"), 1),
+            weightedEntry(lootlib_p_getRandomRune(), 5),
+            weightedEntry(lootlib_p_getSigil(1), 15),
+            weightedEntry(lootlib_p_getAugment(7), 10),
+            weightedEntry(lootlib_p_getInk(3), 8),
+            weightedEntry(lootlib_p_getInk(4), 10),
+            weightedEntry(lootlib_p_getScroll(19), 3),
+            weightedEntry(lootlib_p_getMaterial(6), 3),
+            weightedEntry(lootlib_p_getMaterial(7), 6),
+            weightedEntry(lootlib_p_getMaterial(8), 8),
+            weightedEntry(lootlib_p_getGem(6), 6),
+            weightedEntry(lootlib_p_getGem(7), 7),
+            weightedEntry(lootlib_p_getGem(8), 3),
+            weightedEntry(lootlib_p_getGem(9), 1),
+            weightedEntry(lootlib_p_getFortunasMaterial(4), 5),
+            weightedEntry(lootlib_p_getFortunasMaterial(5), 5),
+            weightedEntry(lootlib_p_getFortunasMaterial(6), 5),
+            weightedEntry(lootlib_p_getFortunasCatalyst(4), 5),
+            weightedEntry(lootlib_p_getFortunasCatalyst(5), 5),
+            weightedEntry(lootlib_p_getFortunasCatalyst(6), 5),
+            weightedEntry(lootlib_p_getFortunasProtectionRune(), 15),
+            weightedEntry(lootlib_p_getSmithingTemplate("theabyss:the_abyss"), 10),
+        ]
+        drops.push(rollWeightedTable(weighted));
+    }
+    return drops;
+}
+
 function overworldFortunasDrop() {
     let weighted = [
         weightedEntry(lootlib_p_getFortunasMaterial(0), 10),
@@ -992,6 +1053,18 @@ function abyssFortunasDrop() {
     return rollWeightedTable(weighted);
 }
 
+function frostFortunasDrop() {
+    let weighted = [
+        weightedEntry(lootlib_p_getFortunasMaterial(4), 3),
+        weightedEntry(lootlib_p_getFortunasMaterial(5), 4),
+        weightedEntry(lootlib_p_getFortunasMaterial(6), 4),
+        weightedEntry(lootlib_p_getFortunasCatalyst(4), 6),
+        weightedEntry(lootlib_p_getFortunasCatalyst(5), 6),
+        weightedEntry(lootlib_p_getFortunasCatalyst(6), 7),
+        weightedEntry(lootlib_p_getFortunasProtectionRune(), 15),
+    ]
+    return rollWeightedTable(weighted);
+}
 
 global.lootlib_getItemDetails = lootlib_getItemDetails;
 global.lootlib_summonItem = lootlib_summonItem;
@@ -1004,6 +1077,7 @@ global.undergardenEliteDrops = undergardenEliteDrops;
 global.endEliteDrops = endEliteDrops;
 global.deepEliteDrops = deepEliteDrops;
 global.abyssEliteDrops = abyssEliteDrops;
+global.frostEliteDrops = frostEliteDrops;
 
 global.overworldFortunasDrop = overworldFortunasDrop;
 global.everbrightFortunasDrop = everbrightFortunasDrop;
@@ -1014,3 +1088,4 @@ global.undergardenFortunasDrop = undergardenFortunasDrop;
 global.endFortunasDrop = endFortunasDrop;
 global.deepFortunasDrop = deepFortunasDrop;
 global.abyssFortunasDrop = abyssFortunasDrop;
+global.frostFortunasDrop = frostFortunasDrop;

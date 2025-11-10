@@ -18,16 +18,16 @@
 			"attribute": "attributeslib:armor_pierce",
 			"operation": "MULTIPLY_TOTAL",
 			"values": {
-				"common": 0.02,
-				"uncommon": 0.04,
-				"rare": 0.06,
-				"epic": 0.08,
-				"mythic": 0.1,
-				"ancient": 0.2,
-				"custom_0": 0.12,
-				"custom_1": 0.14,
-				"custom_2": 0.16,
-				"custom_3": 0.18
+				"common": 0.01,
+				"uncommon": 0.02,
+				"rare": 0.03,
+				"epic": 0.04,
+				"mythic": 0.05,
+				"ancient": 0.1,
+				"custom_0": 0.06,
+				"custom_1": 0.07,
+				"custom_2": 0.08,
+				"custom_3": 0.09
 			}
 		}
 	]

@@ -41,6 +41,9 @@ EntityEvents.death(event => {
         case "theabyss:the_abyss":
             loot = global.abyssFortunasDrop();
             break;
+        case "theabyss:frost_world":
+            loot = global.frostFortunasDrop();
+            break;            
         default:
             loot = global.overworldFortunasDrop();
             break;
