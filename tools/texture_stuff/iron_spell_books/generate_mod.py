@@ -1,7 +1,9 @@
 from PIL import Image
+from typing import List
 import shutil
 import json
 import os
+import re
 
 print('if you changed the configuration, please also change it in kubejs\server_scripts\spells\zoomers_spellbooks_max_spells_patch.js')
 
@@ -26,6 +28,57 @@ def copy_tree(src, dst):
     except Exception as e:
         print(f"An error occurred: {e}")
 
+def update_upgrade_whitelist(file_path: str, new_list: List[str]) -> bool:
+    """
+    Updates upgradeWhitelist = [...] in irons_spellbooks-server.toml
+
+    Args:
+        file_path (str): Path to the TOML file
+        new_list (List[str]): New whitelist entries
+
+    Returns:
+        bool: True if updated
+    """
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+
+        # Format the new list as TOML: ["a", "b", "c"]
+        formatted_items = ', '.join(f'"{item}"' for item in new_list)
+        new_line = f'upgradeWhitelist = [{formatted_items}]'
+
+        # Regex: matches full line starting with optional whitespace + upgradeWhitelist = [...]
+        pattern = re.compile(r'^(\s*upgradeWhitelist\s*=\s*\[).*\](.*)$', re.MULTILINE)
+
+        updated = False
+        for i, line in enumerate(lines):
+            if pattern.match(line):
+                # Preserve leading whitespace and any trailing comment
+                match = pattern.match(line)
+                indent = match.group(1)  # e.g., "    upgradeWhitelist = ["
+                trailing = match.group(2)  # e.g., "  # comment"
+                lines[i] = f'{indent}{formatted_items}]{trailing}\n'
+                updated = True
+                break  # Assume only one occurrence
+
+        if not updated:
+            print("Warning: 'upgradeWhitelist =' line not found.")
+            return False
+
+        # Write back
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.writelines(lines)
+
+        print(f"Success: Updated upgradeWhitelist with {len(new_list)} items.")
+        return True
+
+    except FileNotFoundError:
+        print(f"Error: File not found: {file_path}")
+        return False
+    except Exception as e:
+        print(f"Error: {e}")
+        return False
+
 def create_spellbook_event(item_id, display_name, spell_slots, magic_attr, magic_percentage, cdr_percentage, max_mana):
     return f"""
     event.create("{item_id}", "irons_spells_js:spellbook")
@@ -37,13 +90,17 @@ def create_spellbook_event(item_id, display_name, spell_slots, magic_attr, magic
 """
 
 def generate_startup_js_file(file_path, item_events):
+    ids = []
     with open(file_path, 'w+', encoding='utf-8') as file:
         file.write("StartupEvents.registry('item', event => {\n")
         
         for item_id, display_name, spell_slots, magic_attr, magic_percentage, cdr_percentage, max_mana in item_events:
             file.write(create_spellbook_event(item_id, display_name, spell_slots, magic_attr, magic_percentage, cdr_percentage, max_mana))
+            ids.append(item_id)
         
         file.write("});\n")
+
+    return ids
 
 def create_spellbook_smithing_recipe(transform_from, transform_to, material, template):
     return f"""
@@ -162,6 +219,7 @@ create_directory(base_generated_dir)
 create_directory(kjs_folder_dir)
 create_directory(kjs_startup_scripts_dir)
 create_directory(kjs_server_scripts_dir)
+create_directory(f'{kjs_startup_scripts_dir}/spells')
 create_directory(assets_dir)
 create_directory(assets_mod_dir)
 create_directory(models_assets_mod_dir)
@@ -200,7 +258,8 @@ for magic_type in magic_types:
         idx+=1
         last_item_id = item_id
 
-generate_startup_js_file(f'{kjs_startup_scripts_dir}/spells/zoomers_spellbooks.js', item_events)
+spell_book_ids = generate_startup_js_file(f'{kjs_startup_scripts_dir}/spells/zoomers_spellbooks.js', item_events)
+update_upgrade_whitelist("../../../defaultconfigs/irons_spellbooks-server.toml", spell_book_ids)
 generate_server_js_file(f'{kjs_server_scripts_dir}/spells/zoomers_spellbooks.js', smithing_recipes)
 
 
