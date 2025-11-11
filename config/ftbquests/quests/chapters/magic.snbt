@@ -19,53 +19,20 @@
 			y: 1.0d
 		}
 		{
-			height: 4.0d
+			height: 6.0d
 			image: "herbalbrews:item/witch_hat"
 			rotation: 0.0d
-			width: 4.0d
-			x: 6.0d
-			y: -7.0d
+			width: 6.0d
+			x: 1.5d
+			y: -20.5d
 		}
 		{
-			height: 10.0d
-			image: "herbalbrews:item/cauldron"
-			order: 1
+			height: 6.0d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
 			rotation: 0.0d
-			width: 10.0d
-			x: 4.9914965986394435d
-			y: 16.910714285714313d
-		}
-		{
-			height: 2.0d
-			image: "supplementaries:textures/particle/bubble_block_pop_0.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 7.0d
-			y: 8.0d
-		}
-		{
-			height: 4.0d
-			image: "supplementaries:textures/particle/bubble_block_pop_1.png"
-			rotation: 0.0d
-			width: 4.0d
-			x: 4.654761904761898d
-			y: 10.062500000000021d
-		}
-		{
-			height: 2.0d
-			image: "supplementaries:textures/particle/bubble_block_pop_0.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 7.0d
-			y: 6.5d
-		}
-		{
-			height: 10.0d
-			image: "minecraft:item/campfire"
-			rotation: 0.0d
-			width: 10.0d
-			x: 4.991496598639429d
-			y: 21.482142857142875d
+			width: 6.0d
+			x: 1.5d
+			y: 1.5d
 		}
 	]
 	order_index: 7
@@ -157,6 +124,7 @@
 		}
 		{
 			id: "6E95C1827586CB14"
+			size: 1.5d
 			tasks: [{
 				id: "1682282A5686FA41"
 				item: {
@@ -166,11 +134,12 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 9.0d
+			x: 13.5d
+			y: 5.25d
 		}
 		{
 			id: "1CD33FB05244E501"
+			size: 1.5d
 			tasks: [{
 				id: "57CBA143A804CC14"
 				item: {
@@ -180,11 +149,13 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.5d
+			x: 12.0d
+			y: 3.75d
 		}
 		{
+			dependencies: ["6E95C1827586CB14"]
 			id: "62BDFFAEC7C01EDF"
+			size: 1.5d
 			tasks: [{
 				id: "3EA8C5F049CA1140"
 				item: {
@@ -194,11 +165,12 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 7.5d
+			x: 15.75d
+			y: 2.25d
 		}
 		{
 			id: "0F32083121463FD0"
+			size: 1.5d
 			tasks: [{
 				id: "1705D681F22A08B8"
 				item: {
@@ -208,11 +180,18 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.5d
+			x: 13.5d
+			y: -3.0d
 		}
 		{
+			dependencies: [
+				"62BDFFAEC7C01EDF"
+				"74EF977FE40FF4EC"
+				"095530D89112633D"
+				"3761BEE2D12E3B1E"
+			]
 			id: "5315974F73B6D98F"
+			size: 1.5d
 			tasks: [{
 				id: "02372C5808F804D6"
 				item: {
@@ -222,8 +201,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.5d
+			x: 13.5d
+			y: 1.5d
 		}
 		{
 			id: "3761BEE2D12E3B1E"
@@ -238,8 +217,9 @@
 				}
 				type: "item"
 			}]
-			x: 4.690476190476197d
-			y: 9.300595238095255d
+			title: "&eArcane Anvil&r"
+			x: 3.75d
+			y: 1.5d
 		}
 		{
 			id: "3FBA4C9E62FDA1B0"
@@ -254,8 +234,9 @@
 				}
 				type: "item"
 			}]
-			x: 5.440476190476197d
-			y: 10.050595238095255d
+			title: "&eInscription Table&r"
+			x: 1.5d
+			y: -0.75d
 		}
 		{
 			id: "5065C1D8AAE20C13"
@@ -270,8 +251,9 @@
 				}
 				type: "item"
 			}]
-			x: 4.690476190476197d
-			y: 10.800595238095255d
+			title: "&eScroll forge&r"
+			x: -0.75d
+			y: 1.5d
 		}
 		{
 			id: "08A229A86F6E7981"
@@ -286,11 +268,13 @@
 				}
 				type: "item"
 			}]
-			x: 3.940476190476197d
-			y: 10.050595238095255d
+			title: "&eAlchemist Cauldron&r"
+			x: 1.5d
+			y: 3.75d
 		}
 		{
 			id: "4097A9FF3239D65B"
+			size: 1.5d
 			tasks: [{
 				id: "31A7BED9ADE04B90"
 				item: {
@@ -307,12 +291,13 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: 9.0d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4097A9FF3239D65B"]
 			id: "16BCB31EEA98A00D"
+			size: 1.5d
 			tasks: [{
 				id: "704108FD5623FB3E"
 				item: {
@@ -329,12 +314,13 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: 7.5d
+			x: 1.5d
+			y: -5.25d
 		}
 		{
 			dependencies: ["16BCB31EEA98A00D"]
 			id: "23531B4743C73013"
+			size: 1.5d
 			tasks: [{
 				id: "026E9E639814BCEC"
 				item: {
@@ -351,11 +337,12 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: 6.0d
+			x: 1.5d
+			y: -6.75d
 		}
 		{
 			id: "74EF977FE40FF4EC"
+			size: 1.5d
 			tasks: [{
 				id: "77B982DD848F9FE4"
 				item: {
@@ -365,11 +352,12 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.5d
+			x: 11.25d
+			y: 0.0d
 		}
 		{
 			id: "560A2F8132654CF8"
+			size: 1.5d
 			tasks: [{
 				id: "46573153637A8C76"
 				item: {
@@ -379,12 +367,13 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.5d
+			x: 1.5d
+			y: 8.25d
 		}
 		{
 			dependencies: ["68F28D5EE176912D"]
 			id: "5F9A9259690AA32D"
+			size: 1.5d
 			tasks: [{
 				id: "59CA3BBF0DDF9B5C"
 				item: {
@@ -401,12 +390,13 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 3.0d
+			x: -3.75d
+			y: -10.5d
 		}
 		{
 			dependencies: ["64667CFB33A82427"]
 			id: "5D26F244460A20A5"
+			size: 1.5d
 			tasks: [{
 				id: "4E922358CB17ED19"
 				item: {
@@ -423,12 +413,13 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 3.0d
+			x: -2.25d
+			y: -10.5d
 		}
 		{
 			dependencies: ["74B57F6A8D3B38E0"]
 			id: "6B261BFE472FB545"
+			size: 1.5d
 			tasks: [{
 				id: "607CB2B05C878240"
 				item: {
@@ -445,12 +436,13 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: 3.0d
+			x: -0.75d
+			y: -10.5d
 		}
 		{
 			dependencies: ["1756E22EFA97A964"]
 			id: "30F84AF3F43F7426"
+			size: 1.5d
 			tasks: [{
 				id: "2B9BAF06487A7F25"
 				item: {
@@ -467,12 +459,13 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: 3.0d
+			x: 0.75d
+			y: -10.5d
 		}
 		{
 			dependencies: ["4AE245E963827A64"]
 			id: "38C1497AF4CBBC27"
+			size: 1.5d
 			tasks: [{
 				id: "122BF5C5E584096C"
 				item: {
@@ -489,12 +482,13 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 3.0d
+			x: 2.25d
+			y: -10.5d
 		}
 		{
 			dependencies: ["712A9316BA1C2F15"]
 			id: "454F5B0F1B985478"
+			size: 1.5d
 			tasks: [{
 				id: "7695BE33E814017C"
 				item: {
@@ -511,12 +505,13 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: 3.0d
+			x: 3.75d
+			y: -10.5d
 		}
 		{
 			dependencies: ["66B786674B91C4D2"]
 			id: "71F48BE1EF14460C"
+			size: 1.5d
 			tasks: [{
 				id: "5E8482F8AD67EC64"
 				item: {
@@ -533,12 +528,13 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
-			y: 3.0d
+			x: 5.25d
+			y: -10.5d
 		}
 		{
 			dependencies: ["1E8BB8A8ED816355"]
 			id: "32F4C3A9A07F4C06"
+			size: 1.5d
 			tasks: [{
 				id: "4B0B25E15312822B"
 				item: {
@@ -555,12 +551,13 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: 3.0d
+			x: 6.75d
+			y: -10.5d
 		}
 		{
 			dependencies: ["23531B4743C73013"]
 			id: "68F28D5EE176912D"
+			size: 1.5d
 			tasks: [{
 				id: "5FB84047B42CC9C8"
 				item: {
@@ -577,12 +574,13 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 4.5d
+			x: -3.75d
+			y: -9.0d
 		}
 		{
 			dependencies: ["23531B4743C73013"]
 			id: "64667CFB33A82427"
+			size: 1.5d
 			tasks: [{
 				id: "78155C07B3FFF717"
 				item: {
@@ -599,12 +597,13 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 4.5d
+			x: -2.25d
+			y: -9.0d
 		}
 		{
 			dependencies: ["23531B4743C73013"]
 			id: "74B57F6A8D3B38E0"
+			size: 1.5d
 			tasks: [{
 				id: "41359C4711BDE39D"
 				item: {
@@ -621,12 +620,13 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: 4.5d
+			x: -0.75d
+			y: -9.0d
 		}
 		{
 			dependencies: ["23531B4743C73013"]
 			id: "1756E22EFA97A964"
+			size: 1.5d
 			tasks: [{
 				id: "0BEE5AAA8910E8B7"
 				item: {
@@ -643,12 +643,13 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: 4.5d
+			x: 0.75d
+			y: -9.0d
 		}
 		{
 			dependencies: ["23531B4743C73013"]
 			id: "4AE245E963827A64"
+			size: 1.5d
 			tasks: [{
 				id: "2005E75FC3B9811B"
 				item: {
@@ -665,12 +666,13 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 4.5d
+			x: 2.25d
+			y: -9.0d
 		}
 		{
 			dependencies: ["23531B4743C73013"]
 			id: "712A9316BA1C2F15"
+			size: 1.5d
 			tasks: [{
 				id: "361E7AB62C06CEAD"
 				item: {
@@ -687,12 +689,13 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: 4.5d
+			x: 3.75d
+			y: -9.0d
 		}
 		{
 			dependencies: ["23531B4743C73013"]
 			id: "66B786674B91C4D2"
+			size: 1.5d
 			tasks: [{
 				id: "69238F875CB7AE88"
 				item: {
@@ -709,12 +712,13 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
-			y: 4.5d
+			x: 5.25d
+			y: -9.0d
 		}
 		{
 			dependencies: ["23531B4743C73013"]
 			id: "1E8BB8A8ED816355"
+			size: 1.5d
 			tasks: [{
 				id: "201723A1DBE01586"
 				item: {
@@ -731,12 +735,13 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: 4.5d
+			x: 6.75d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5F9A9259690AA32D"]
 			id: "11ED4133D13FD0CC"
+			size: 1.5d
 			tasks: [{
 				id: "014CE9B93087D095"
 				item: {
@@ -753,12 +758,13 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 1.5d
+			x: -3.75d
+			y: -12.0d
 		}
 		{
 			dependencies: ["5D26F244460A20A5"]
 			id: "4ED545CD0E664C9B"
+			size: 1.5d
 			tasks: [{
 				id: "1B92DF2004AC7575"
 				item: {
@@ -775,12 +781,13 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 1.5d
+			x: -2.25d
+			y: -12.0d
 		}
 		{
 			dependencies: ["6B261BFE472FB545"]
 			id: "071840514D5ED05D"
+			size: 1.5d
 			tasks: [{
 				id: "119514B8D405E7DE"
 				item: {
@@ -797,12 +804,13 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: 1.5d
+			x: -0.75d
+			y: -12.0d
 		}
 		{
 			dependencies: ["30F84AF3F43F7426"]
 			id: "4D677814474A224A"
+			size: 1.5d
 			tasks: [{
 				id: "7C69183E952BCDD2"
 				item: {
@@ -819,12 +827,13 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: 1.5d
+			x: 0.75d
+			y: -12.0d
 		}
 		{
 			dependencies: ["38C1497AF4CBBC27"]
 			id: "1943181DAB86C6BE"
+			size: 1.5d
 			tasks: [{
 				id: "37D295C9B14F7A43"
 				item: {
@@ -841,12 +850,13 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 1.5d
+			x: 2.25d
+			y: -12.0d
 		}
 		{
 			dependencies: ["454F5B0F1B985478"]
 			id: "663D1F22A7924205"
+			size: 1.5d
 			tasks: [{
 				id: "7CA1628D94B5D626"
 				item: {
@@ -863,12 +873,13 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: 1.5d
+			x: 3.75d
+			y: -12.0d
 		}
 		{
 			dependencies: ["71F48BE1EF14460C"]
 			id: "315D692BD0E9FE2C"
+			size: 1.5d
 			tasks: [{
 				id: "690FBA991DBE99D0"
 				item: {
@@ -885,12 +896,13 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
-			y: 1.5d
+			x: 5.25d
+			y: -12.0d
 		}
 		{
 			dependencies: ["32F4C3A9A07F4C06"]
 			id: "1E3A8F010B334001"
+			size: 1.5d
 			tasks: [{
 				id: "3D49795BEEFE8F4F"
 				item: {
@@ -907,12 +919,13 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: 1.5d
+			x: 6.75d
+			y: -12.0d
 		}
 		{
 			dependencies: ["11ED4133D13FD0CC"]
 			id: "0098A409333743AE"
+			size: 1.5d
 			tasks: [{
 				id: "64D5FAC9C09DE81B"
 				item: {
@@ -929,12 +942,13 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 0.0d
+			x: -3.75d
+			y: -13.5d
 		}
 		{
 			dependencies: ["4ED545CD0E664C9B"]
 			id: "67F3B764911E5A78"
+			size: 1.5d
 			tasks: [{
 				id: "5C816167026C331B"
 				item: {
@@ -951,12 +965,13 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 0.0d
+			x: -2.25d
+			y: -13.5d
 		}
 		{
 			dependencies: ["071840514D5ED05D"]
 			id: "1263902E3EF39C09"
+			size: 1.5d
 			tasks: [{
 				id: "016B276763DDD008"
 				item: {
@@ -973,12 +988,13 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: 0.0d
+			x: -0.75d
+			y: -13.5d
 		}
 		{
 			dependencies: ["4D677814474A224A"]
 			id: "45FDCDBEE6D4008A"
+			size: 1.5d
 			tasks: [{
 				id: "694A428A840159E8"
 				item: {
@@ -995,12 +1011,13 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: 0.0d
+			x: 0.75d
+			y: -13.5d
 		}
 		{
 			dependencies: ["1943181DAB86C6BE"]
 			id: "22682BEE5EEA0E32"
+			size: 1.5d
 			tasks: [{
 				id: "79FE9D90FB1D18F9"
 				item: {
@@ -1017,12 +1034,13 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 0.0d
+			x: 2.25d
+			y: -13.5d
 		}
 		{
 			dependencies: ["663D1F22A7924205"]
 			id: "1E169FD951A7C341"
+			size: 1.5d
 			tasks: [{
 				id: "35F33AE4C09576EA"
 				item: {
@@ -1039,12 +1057,13 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: 0.0d
+			x: 3.75d
+			y: -13.5d
 		}
 		{
 			dependencies: ["315D692BD0E9FE2C"]
 			id: "06BDBFA1C599C36F"
+			size: 1.5d
 			tasks: [{
 				id: "1834E44FD08184B3"
 				item: {
@@ -1061,12 +1080,13 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
-			y: 0.0d
+			x: 5.25d
+			y: -13.5d
 		}
 		{
 			dependencies: ["1E3A8F010B334001"]
 			id: "2DD9931A99E1A319"
+			size: 1.5d
 			tasks: [{
 				id: "5E9F7FED00DE607D"
 				item: {
@@ -1083,12 +1103,13 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: 0.0d
+			x: 6.75d
+			y: -13.5d
 		}
 		{
 			dependencies: ["0098A409333743AE"]
 			id: "7E509D1827826E12"
+			size: 1.5d
 			tasks: [{
 				id: "5F10F2319A9754B2"
 				item: {
@@ -1105,12 +1126,13 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: -1.5d
+			x: -3.75d
+			y: -15.0d
 		}
 		{
 			dependencies: ["67F3B764911E5A78"]
 			id: "166D9E085C659178"
+			size: 1.5d
 			tasks: [{
 				id: "5D72302C058CDD60"
 				item: {
@@ -1127,12 +1149,13 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: -1.5d
+			x: -2.25d
+			y: -15.0d
 		}
 		{
 			dependencies: ["1263902E3EF39C09"]
 			id: "1E6146DD61A4F443"
+			size: 1.5d
 			tasks: [{
 				id: "4506397A24254C3A"
 				item: {
@@ -1149,12 +1172,13 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: -1.5d
+			x: -0.75d
+			y: -15.0d
 		}
 		{
 			dependencies: ["45FDCDBEE6D4008A"]
 			id: "5A23CFC1DEF02230"
+			size: 1.5d
 			tasks: [{
 				id: "133A6302FAF326B5"
 				item: {
@@ -1171,12 +1195,13 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: -1.5d
+			x: 0.75d
+			y: -15.0d
 		}
 		{
 			dependencies: ["22682BEE5EEA0E32"]
 			id: "163A164471E687D4"
+			size: 1.5d
 			tasks: [{
 				id: "4AFEE4B6C05D3078"
 				item: {
@@ -1193,12 +1218,13 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: -1.5d
+			x: 2.25d
+			y: -15.0d
 		}
 		{
 			dependencies: ["1E169FD951A7C341"]
 			id: "198F478245A7ED00"
+			size: 1.5d
 			tasks: [{
 				id: "6B8C0DDB37947059"
 				item: {
@@ -1215,12 +1241,13 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: -1.5d
+			x: 3.75d
+			y: -15.0d
 		}
 		{
 			dependencies: ["06BDBFA1C599C36F"]
 			id: "2C8CF9FC62F5ECA1"
+			size: 1.5d
 			tasks: [{
 				id: "3CADE7FC0F800769"
 				item: {
@@ -1237,12 +1264,13 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
-			y: -1.5d
+			x: 5.25d
+			y: -15.0d
 		}
 		{
 			dependencies: ["2DD9931A99E1A319"]
 			id: "642B63DDA21660EE"
+			size: 1.5d
 			tasks: [{
 				id: "153B6FBB273495EC"
 				item: {
@@ -1259,12 +1287,13 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: -1.5d
+			x: 6.75d
+			y: -15.0d
 		}
 		{
 			dependencies: ["7E509D1827826E12"]
 			id: "226975A645BCDD71"
+			size: 1.5d
 			tasks: [{
 				id: "71B90AAAE38D66B3"
 				item: {
@@ -1281,12 +1310,13 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: -3.0d
+			x: -3.75d
+			y: -16.5d
 		}
 		{
 			dependencies: ["166D9E085C659178"]
 			id: "58514C6B770B4384"
+			size: 1.5d
 			tasks: [{
 				id: "6E6B9A61760756F1"
 				item: {
@@ -1303,12 +1333,13 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: -3.0d
+			x: -2.25d
+			y: -16.5d
 		}
 		{
 			dependencies: ["1E6146DD61A4F443"]
 			id: "0DABE027D5B5AD11"
+			size: 1.5d
 			tasks: [{
 				id: "5C66DB542541A036"
 				item: {
@@ -1325,12 +1356,13 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: -3.0d
+			x: -0.75d
+			y: -16.5d
 		}
 		{
 			dependencies: ["5A23CFC1DEF02230"]
 			id: "5B98F5954020EE3F"
+			size: 1.5d
 			tasks: [{
 				id: "6D6DBC6E7BA1535F"
 				item: {
@@ -1347,12 +1379,13 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: -3.0d
+			x: 0.75d
+			y: -16.5d
 		}
 		{
 			dependencies: ["163A164471E687D4"]
 			id: "383DDAEBC852FD91"
+			size: 1.5d
 			tasks: [{
 				id: "38CEE6F09882B5E2"
 				item: {
@@ -1369,12 +1402,13 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: -3.0d
+			x: 2.25d
+			y: -16.5d
 		}
 		{
 			dependencies: ["198F478245A7ED00"]
 			id: "1C4094AECF0B2AB0"
+			size: 1.5d
 			tasks: [{
 				id: "760A428D4E813A01"
 				item: {
@@ -1391,12 +1425,13 @@
 				}
 				type: "item"
 			}]
-			x: 14.5d
-			y: -3.0d
+			x: 3.75d
+			y: -16.5d
 		}
 		{
 			dependencies: ["2C8CF9FC62F5ECA1"]
 			id: "4167E958FAFBCA62"
+			size: 1.5d
 			tasks: [{
 				id: "5AA7F7DEDA798856"
 				item: {
@@ -1413,12 +1448,13 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
-			y: -3.0d
+			x: 5.25d
+			y: -16.5d
 		}
 		{
 			dependencies: ["642B63DDA21660EE"]
 			id: "578B168C956B7902"
+			size: 1.5d
 			tasks: [{
 				id: "2D6FC38B1F313964"
 				item: {
@@ -1435,9 +1471,1251 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: -3.0d
+			x: 6.75d
+			y: -16.5d
+		}
+		{
+			id: "2B6B4217675FA2FC"
+			rewards: [
+				{
+					id: "0C9534293644BBB0"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_pyromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F62D74EBDBDEA0A"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_pyromancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "391307A05DEFCED8"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_pyromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "657A120E9DC16F7F"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_pyromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FA5336FE97178F6"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_fire_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "28F841AEF36505C3"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:fire_rune"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			id: "1BB01E85A8987656"
+			rewards: [
+				{
+					id: "52771AEEBC56CAD3"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_cryomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F9184370A9713CB"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_cryomancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A866A55DAD2DC0C"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_cryomancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F199C6AF0BA21BD"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_cryomancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62F6C35992D47AA2"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_ice_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "415131849E398F81"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:ice_rune"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			id: "3D67C8F78B89BA98"
+			rewards: [
+				{
+					id: "63D0053E34220851"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_electromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "301D191C0898C54B"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_electromancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "604D8FE5A294E160"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_electromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4380A9B287D401F8"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_electromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "376D5D3FC0FDA7F6"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_lightning_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "44FC6FA44D991907"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:lightning_rune"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			id: "1CB75838228EACFF"
+			rewards: [
+				{
+					id: "181B7621CB6ECCF3"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_chorusguardian_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39E39CB2192DE6CD"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_chorusguardian_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "057AFBBE2AEFE268"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_chorusguardian_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08777AD8415FFB22"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_chorusguardian_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11B24094930463EA"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_ender_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "313253F0E55A8025"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:ender_rune"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			id: "7CE185C62579C30B"
+			rewards: [
+				{
+					id: "7CD478DB076016F1"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_priest_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44EB5CF70B985418"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_priest_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F6BF57264938EE8"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_priest_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DDAA03B615F2D56"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_priest_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CF567C89278F968"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_holy_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "476E53B4EE7A2298"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:holy_rune"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			id: "4A3CBCDB5886A72D"
+			rewards: [
+				{
+					id: "7DDE33ABDBA436EE"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_hemomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "102870419ECA0B10"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_hemomancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BCE0C3CAD98A31E"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_hemomancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04571637DC0E56B4"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_hemomancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0896C9EE669F81F1"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_blood_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "476ABC739AC22794"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:blood_rune"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			id: "6BCC95AA4A22CCBE"
+			rewards: [
+				{
+					id: "651AB0DA2EAF639F"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_archevoker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40E7ACA920CF33DF"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_archevoker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1681AC9881488FE3"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_archevoker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B45CA7042C79290"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_archevoker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53474EB56A842A60"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_evocation_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "691211C9DED3BA38"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:evocation_rune"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			id: "6EE140E83616CF33"
+			size: 1.5d
+			tasks: [{
+				id: "6DAB61C7A63AB086"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:arcane_rune"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			id: "13BC58720175EF71"
+			size: 1.5d
+			tasks: [{
+				id: "7EF7AE86D0E96E27"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cooldown_rune"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			id: "319D42DD34FD4B18"
+			size: 1.5d
+			tasks: [{
+				id: "576C08890A66C045"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:protection_rune"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.5d
+		}
+		{
+			id: "0736F0A265F00A4D"
+			rewards: [
+				{
+					id: "03E1A61FB05C1148"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_druid_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DE2A5200B51ECED"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_druid_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "182214B4EC8FECAD"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_druid_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FBD4C7A6F716242"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_druid_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C3BC5A7268C19C9"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_nature_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "1B082A1800CBE807"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:nature_rune"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			id: "45E5B845434FC0EA"
+			size: 1.5d
+			tasks: [{
+				id: "697EE4CAAD82AEE6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:shriving_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["0F32083121463FD0"]
+			id: "095530D89112633D"
+			size: 1.5d
+			tasks: [{
+				id: "721BBE736F1E433D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:arcane_salvage"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["2B6B4217675FA2FC"]
+			id: "5AD7C78629C3E01D"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4307BC6B691FF5E9"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_pyromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D60C7688AD0AC98"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_pyromancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CCFA07592FB4644"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_pyromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "696D09C95410564D"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_pyromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A71C10B0614EC52"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_fire_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1BB01E85A8987656"]
+			id: "470F2494473CCB2B"
+			size: 1.5d
+			tasks: [
+				{
+					id: "16E60CDA0D657B2C"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_cryomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "010E2EDE9AED25A4"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_cryomancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A19D60F6D0A223A"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_cryomancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15024862E87BD1E9"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_cryomancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71424C5937E2DFE8"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_ice_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3D67C8F78B89BA98"]
+			id: "037473C8D76050F8"
+			size: 1.5d
+			tasks: [
+				{
+					id: "251944968AC84E45"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_electromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59E41D3A65D1B18B"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_electromancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7518F5C7664E6F4A"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_electromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58D3705E1F381BE9"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_electromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23594EF1513466AF"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_lightning_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1CB75838228EACFF"]
+			id: "4C2CEA61537A5F10"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7B27420FC863691C"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_chorusguardian_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26CBF5169579C2C0"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_chorusguardian_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0103FA103EF63980"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_chorusguardian_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "000ECB17CD933784"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_chorusguardian_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EECD889ACE56745"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_ender_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7CE185C62579C30B"]
+			id: "698F7F1CB3FCEEAF"
+			size: 1.5d
+			tasks: [
+				{
+					id: "65B242561BE5C22A"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_priest_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79D7C3EF0B02EA78"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_priest_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45F9A6D66B19DB7A"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_priest_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76AAE905731F4F15"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_priest_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "376BA44BF1C30F0A"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_holy_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4A3CBCDB5886A72D"]
+			id: "13C4F76FCEEA8CF5"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1B6952CF5774275C"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_hemomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FEB0ACBFE5A015E"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_hemomancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "161EDFDAF98C4820"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_hemomancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B7459AD73ADA005"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_hemomancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A910559D592A351"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_blood_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6BCC95AA4A22CCBE"]
+			id: "49670255F3F51EC3"
+			size: 1.5d
+			tasks: [
+				{
+					id: "73182B85D404D765"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_archevoker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AC1578E5077A2A5"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_archevoker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "403635C5445F6042"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_archevoker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B3C9CC50D0C40E0"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_archevoker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12558833EA4810A6"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_evocation_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0736F0A265F00A4D"]
+			id: "185F3B5B3133403A"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1D356D2352E99FE6"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_druid_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "366017C4265306BB"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_druid_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35D0FA77F3CEB612"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_druid_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F835440F8DDDA8C"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_druid_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45E58628F867DB1A"
+					item: {
+						Count: 1
+						id: "zoomers_armory:iron_nature_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["319D42DD34FD4B18"]
+			id: "73185EF14997D113"
+			size: 1.5d
+			tasks: [{
+				id: "19B60928B2AA3D2C"
+				item: {
+					Count: 1
+					id: "zoomers_armory:iron_fortified_necklace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["13BC58720175EF71"]
+			id: "710798E1E1A7AF7E"
+			size: 1.5d
+			tasks: [{
+				id: "13EE8B3D93E416EC"
+				item: {
+					Count: 1
+					id: "zoomers_armory:iron_infused_necklace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6EE140E83616CF33"]
+			id: "0442DF67E52759D7"
+			size: 1.5d
+			tasks: [{
+				id: "055AF5D0910FB0C4"
+				item: {
+					Count: 1
+					id: "zoomers_armory:iron_mana_necklace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.5d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:ender_upgrade_orb"
+				tag: { }
+			}
+			id: "057CCDBEEC846329"
+			size: 3.0d
+			subtitle: " Here I explain some stuff about magik in this modpack."
+			tasks: [{
+				id: "14BD1B0B9163E4BA"
+				title: "MAGIK"
+				type: "checkmark"
+			}]
+			title: "&4MAGIK&r"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			id: "7AC622092695AAD0"
+			tasks: [{
+				id: "01E2579D68384A90"
+				title: "asfsa"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: -15.5d
 		}
 	]
-	title: "MAGIC"
+	title: "&dMAGIK&r"
 }

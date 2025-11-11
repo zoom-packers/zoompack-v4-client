@@ -3,7 +3,11 @@
 	default_quest_shape: ""
 	filename: "to_heaven_and_hell"
 	group: "653CB9213F69DF0A"
-	icon: "minecraft:blue_ice"
+	icon: {
+		Count: 1
+		id: "minecraft:magma_block"
+		tag: { }
+	}
 	id: "62BD5BAE165379BA"
 	images: [
 		{
@@ -367,15 +371,6 @@
 					table_id: 9153771261078832289L
 					type: "loot"
 				}
-				{
-					id: "1F394000DDE96ED6"
-					item: {
-						Count: 1
-						id: "dotcoinmod:gold_coin"
-						tag: { }
-					}
-					type: "item"
-				}
 			]
 			shape: "diamond"
 			size: 1.5d
@@ -564,12 +559,6 @@
 					table_id: 228074029458712624L
 					type: "loot"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "43C3131A00A4E5F0"
-					table_id: 8076253726110416982L
-					type: "loot"
-				}
 			]
 			shape: "diamond"
 			size: 1.2d
@@ -622,8 +611,8 @@
 			id: "0687F86027E3D686"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "3B9F1CCE8A234C7E"
-				table_id: 8076253726110416982L
+				id: "1574961C68FD2E32"
+				table_id: 2852890905767733150L
 				type: "loot"
 			}]
 			shape: "diamond"
@@ -646,8 +635,8 @@
 			id: "2DC36F03BA717DE8"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "45938004DE2F3867"
-				table_id: 4126377319629838158L
+				id: "4E9CB80065100429"
+				table_id: 5471039212809761112L
 				type: "loot"
 			}]
 			shape: "gear"
@@ -674,8 +663,8 @@
 			id: "57E93902C0163020"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5AE505F9CD5FFFE4"
-				table_id: 4126377319629838158L
+				id: "0F5D0451095555FC"
+				table_id: 2852890905767733150L
 				type: "loot"
 			}]
 			shape: "gear"
@@ -706,8 +695,8 @@
 			id: "63270581775F4C10"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4347C69C9EAC7D07"
-				table_id: 4126377319629838158L
+				id: "4FCECD7C24314C20"
+				table_id: 2852890905767733150L
 				type: "loot"
 			}]
 			shape: "gear"
@@ -738,8 +727,8 @@
 			id: "4D8DA137BEFDB867"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "740EAE7C9103AA51"
-				table_id: 4126377319629838158L
+				id: "2F638FDE41B1E049"
+				table_id: 2852890905767733150L
 				type: "loot"
 			}]
 			shape: "gear"
@@ -780,8 +769,8 @@
 			id: "33D9EF5708B08609"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "6B1F02A1D3BB2946"
-				table_id: 4126377319629838158L
+				id: "090392DAE739626E"
+				table_id: 2852890905767733150L
 				type: "loot"
 			}]
 			shape: "gear"
@@ -803,10 +792,9 @@
 		{
 			id: "59EBBE22AB54223C"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "39D3B9157BA6B621"
-				table_id: 4126377319629838158L
-				type: "loot"
+				id: "6C5D32202E358606"
+				type: "xp_levels"
+				xp_levels: 1
 			}]
 			shape: "diamond"
 			size: 1.5d
@@ -832,15 +820,27 @@
 				tag: { }
 			}
 			id: "1C3797BDBAFF6522"
-			rewards: [{
-				id: "2DD32017078B5F7A"
-				item: {
-					Count: 1
-					id: "minecraft:netherite_upgrade_smithing_template"
-					tag: { }
+			rewards: [
+				{
+					id: "2DD32017078B5F7A"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_upgrade_smithing_template"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 5
+					id: "57642A94BE227FBC"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:common_material"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "Luck protection"
@@ -878,8 +878,8 @@
 			id: "2B3D8E4B7794B617"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "39CF64B3C07B9043"
-				table_id: 4126377319629838158L
+				id: "2D8608C1B0CAA6CC"
+				table_id: 4424414677051133432L
 				type: "loot"
 			}]
 			shape: "diamond"
@@ -900,10 +900,9 @@
 		{
 			id: "3C0846F92EE411CF"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "70C0E550A3821454"
-				table_id: 4126377319629838158L
-				type: "loot"
+				id: "52DEAB20A86436C8"
+				type: "xp_levels"
+				xp_levels: 1
 			}]
 			shape: "diamond"
 			size: 1.5d
@@ -923,22 +922,11 @@
 		{
 			dependencies: ["3C0846F92EE411CF"]
 			id: "5D19483653E095D0"
-			rewards: [
-				{
-					id: "287FD975163C5FA7"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "7AB40C71A099AC56"
-					item: {
-						Count: 1
-						id: "dotcoinmod:gold_coin"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "287FD975163C5FA7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "Used to respawn bosses"
@@ -972,15 +960,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "46F77F315BD1780F"
-					item: {
-						Count: 1
-						id: "dotcoinmod:gold_coin"
-						tag: { }
-					}
-					type: "item"
-				}
 			]
 			shape: "diamond"
 			size: 1.5d
@@ -1000,5 +979,5 @@
 			y: 6.75d
 		}
 	]
-	title: "Nether"
+	title: "&cNether&r"
 }

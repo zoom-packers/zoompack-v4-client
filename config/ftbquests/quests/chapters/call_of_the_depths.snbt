@@ -5,10 +5,8 @@
 	group: "653CB9213F69DF0A"
 	icon: {
 		Count: 1
-		id: "callfromthedepth_:depth_armor_helmet"
-		tag: {
-			Damage: 0
-		}
+		id: "minecraft:sculk"
+		tag: { }
 	}
 	id: "720047A70BAE83E7"
 	images: [
@@ -22,7 +20,7 @@
 		}
 		{
 			height: 20.0d
-			image: "callfromthedepth_:block/cracked_deepslate_bricks"
+			image: "callfromthedepth_:block/marb"
 			rotation: 0.0d
 			width: 20.0d
 			x: -14.53571428571425d
@@ -30,7 +28,7 @@
 		}
 		{
 			height: 20.0d
-			image: "callfromthedepth_:block/cracked_deepslate_bricks"
+			image: "callfromthedepth_:block/rotten_thrower_top"
 			rotation: 0.0d
 			width: 20.0d
 			x: 19.750000000000043d
@@ -174,7 +172,7 @@
 		}
 		{
 			height: 20.0d
-			image: "callfromthedepth_:block/rotjawsblock"
+			image: "callfromthedepth_:block/rotten_jaw"
 			rotation: 0.0d
 			width: 20.0d
 			x: 2.6071428571428754d
@@ -596,5 +594,5 @@
 			y: -5.0d
 		}
 	]
-	title: "Call from the depth"
+	title: "&3Call from the depth&r"
 }

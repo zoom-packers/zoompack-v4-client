@@ -535,7 +535,49 @@
 			y: -0.5d
 		}
 		{
+			description: ["&2Drop any gem on the ground and crush it with an anvil by placing the anvil a couple blocks above it.&r"]
 			id: "687F6ADAB64B6770"
+			rewards: [
+				{
+					count: 10
+					id: "691595C2F312C472"
+					item: {
+						Count: 1
+						id: "apotheosis:gem_dust"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "43F230175114D846"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:common"
+							}
+							gem: "apotheosis:overworld/earth"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F341C1F6F9F0A09"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:common"
+							}
+							gem: "apotheosis:core/samurai"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Crushed"
 			tasks: [{
 				id: "0B8545E07103EEF8"
 				item: {
@@ -546,7 +588,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			description: [
@@ -570,16 +612,433 @@
 				xp_levels: 1
 			}]
 			size: 2.0d
-			subtitle: "Here is a little description of what Apotheosis changes with enchanting."
+			subtitle: "&fHere is a little description of what Apotheosis changes with enchanting.&r"
 			tasks: [{
 				id: "54527006001F2583"
 				title: "Click this"
 				type: "checkmark"
 			}]
-			title: "Apotheosis Enchanting"
+			title: "&4Apotheosis Enchanting&r"
 			x: 1.0d
 			y: 3.0d
 		}
+		{
+			id: "3E696018419886FF"
+			tasks: [{
+				id: "525E35644B90DA13"
+				item: {
+					Count: 1
+					id: "apotheosis:common_material"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			id: "3383C221FF0DE453"
+			tasks: [{
+				id: "4287339825E69F70"
+				item: {
+					Count: 1
+					id: "apotheosis:uncommon_material"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3383C221FF0DE453"]
+			id: "4DC800D46E0315C5"
+			tasks: [{
+				id: "21A498CB00CC59ED"
+				item: {
+					Count: 1
+					id: "apotheosis:rare_material"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4DC800D46E0315C5"]
+			id: "32A252B5566641E9"
+			tasks: [{
+				id: "46B72C69408912D7"
+				item: {
+					Count: 1
+					id: "apotheosis:epic_material"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			id: "03CA443523FEDAB6"
+			tasks: [{
+				id: "035D30013665DBD3"
+				item: {
+					Count: 1
+					id: "apotheosis:mythic_material"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			id: "2309ACBB270133D1"
+			tasks: [{
+				id: "295338E7AD0C96B2"
+				item: {
+					Count: 1
+					id: "ze_apotheosis:radiant_material"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 13.0d
+		}
+		{
+			id: "50C349DAB20F89B6"
+			tasks: [{
+				id: "6AE031E32A325F0E"
+				item: {
+					Count: 1
+					id: "ze_apotheosis:celestial_material"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 14.0d
+		}
+		{
+			id: "5561DA9A34508240"
+			tasks: [{
+				id: "2C7156CC94DB683A"
+				item: {
+					Count: 1
+					id: "ze_apotheosis:angelic_material"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["28D36533F9F55C69"]
+			id: "0F2432617AB1A9F7"
+			tasks: [{
+				id: "4C53F927CD5BB7B8"
+				item: {
+					Count: 1
+					id: "ze_apotheosis:godly_material"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["687F6ADAB64B6770"]
+			id: "6DBB3D244352CC89"
+			tasks: [{
+				id: "3BC4E0EF694ECAD6"
+				item: {
+					Count: 1
+					id: "apotheosis:gem_cutting_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["687F6ADAB64B6770"]
+			id: "2303D038E1D26624"
+			tasks: [{
+				id: "49F606621311BD93"
+				item: {
+					Count: 1
+					id: "apotheosis:salvaging_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"687F6ADAB64B6770"
+				"3E696018419886FF"
+			]
+			id: "32B307A006F1A381"
+			tasks: [{
+				id: "4EEF8D4AA6CF45BE"
+				item: {
+					Count: 1
+					id: "apotheosis:simple_reforging_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"32B307A006F1A381"
+				"32A252B5566641E9"
+			]
+			id: "5134BA1A8C67B6FB"
+			tasks: [{
+				id: "69C935DE5E1B33A4"
+				item: {
+					Count: 1
+					id: "apotheosis:reforging_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"5134BA1A8C67B6FB"
+				"03CA443523FEDAB6"
+			]
+			id: "3B6D8B7BD35A9723"
+			tasks: [{
+				id: "3A840A2A4B49D982"
+				item: {
+					Count: 1
+					id: "ze_apotheosis:artisanal_reforging_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"3B6D8B7BD35A9723"
+				"2309ACBB270133D1"
+			]
+			id: "1EE89AAC19F1AC79"
+			tasks: [{
+				id: "5F045A6CAFD2862E"
+				item: {
+					Count: 1
+					id: "ze_apotheosis:enhanced_reforging_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"1EE89AAC19F1AC79"
+				"50C349DAB20F89B6"
+			]
+			id: "6A5563BB0557BEC6"
+			tasks: [{
+				id: "1B9C30F9DB6427C3"
+				item: {
+					Count: 1
+					id: "ze_apotheosis:ultimate_reforging_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"6A5563BB0557BEC6"
+				"5561DA9A34508240"
+			]
+			id: "28D36533F9F55C69"
+			tasks: [{
+				id: "4F2946E8FBDF0D4A"
+				item: {
+					Count: 1
+					id: "ze_apotheosis:god_reforging_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["687F6ADAB64B6770"]
+			id: "086E04DD6B848A6B"
+			tasks: [{
+				id: "3458B027C904E627"
+				item: {
+					Count: 1
+					id: "apotheosis:augmenting_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["687F6ADAB64B6770"]
+			id: "0A8F7DE8F8383D32"
+			tasks: [{
+				id: "6FF4450BB03FC179"
+				item: {
+					Count: 1
+					id: "apotheosis:gem_fused_slate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0A8F7DE8F8383D32"]
+			id: "06B74E491C274DF7"
+			tasks: [{
+				id: "0CEEF63A113FC0DC"
+				item: {
+					Count: 1
+					id: "apotheosis:sigil_of_socketing"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0A8F7DE8F8383D32"]
+			id: "099E0C87717B99DB"
+			tasks: [{
+				id: "6E9124A004485737"
+				item: {
+					Count: 1
+					id: "apotheosis:sigil_of_withdrawal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0A8F7DE8F8383D32"]
+			id: "2A7710F682217C68"
+			tasks: [{
+				id: "06AB1BF51045E77A"
+				item: {
+					Count: 1
+					id: "apotheosis:sigil_of_rebirth"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0A8F7DE8F8383D32"]
+			id: "2F800F5866690C06"
+			tasks: [{
+				id: "38AC1B8B1490FB8B"
+				item: {
+					Count: 1
+					id: "apotheosis:sigil_of_enhancement"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0A8F7DE8F8383D32"]
+			id: "355800A24FED23BD"
+			tasks: [{
+				id: "0969162F31E55613"
+				item: {
+					Count: 1
+					id: "apotheosis:sigil_of_unnaming"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			description: [
+				"Apotheosis adds gems that can be socketed into armors and weapons and it also adds the ability to reforge weapons and armors granting them various affixes."
+				""
+				"&6Reforging&r : To get started with reforginng you are going to need :"
+				"- a reforging table"
+				""
+				"- various materials (which can be obtained by salvaging items with affixes)"
+				""
+				"- sigils of rebirth"
+				"- levels."
+				""
+				"Reforging items can also add &4Gem Slots&r to items which are needed in order to socket gems into them."
+				""
+				""
+				""
+				"&dGems&r : After looting gems found across the overworld you can simply put the gem into a &2smithing table&r together with the item you desire to add a gem to and socket it. (&4Assuming it has a gem slots&r)"
+			]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:common"
+					}
+					gem: "apotheosis:overworld/royalty"
+				}
+			}
+			id: "13DCC4EA05F09CB4"
+			rewards: [{
+				id: "720EE63A779584E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 2.0d
+			subtitle: "&fHere is a little description of what apotheosis adds when it comes to gems and reforging.&r"
+			tasks: [{
+				id: "5BE610A292EF63E9"
+				title: "Click this"
+				type: "checkmark"
+			}]
+			title: "&4Apotheosis Reforging&r"
+			x: 1.0d
+			y: 6.0d
+		}
 	]
-	title: "Apotheosis"
+	title: "&6Apotheosis&r"
 }
