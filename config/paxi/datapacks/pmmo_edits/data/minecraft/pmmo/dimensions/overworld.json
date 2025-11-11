@@ -3,12 +3,12 @@
   "travel_req": {},
   "global_mob_modifiers": [
     {
-      "attribute":"minecraft:generic.max_health",
+      "attribute": "minecraft:generic.max_health",
       "operation": "MULTIPLY_TOTAL",
       "amount": 0.5
     },
     {
-      "attribute":"minecraft:generic.attack_damage",
+      "attribute": "minecraft:generic.attack_damage",
       "operation": "MULTIPLY_TOTAL",
       "amount": 0.5
     }
@@ -16,44 +16,54 @@
   "mob_modifier": {
     "minecraft:warden": [
       {
-        "attribute":"minecraft:generic.max_health",
+        "attribute": "minecraft:generic.max_health",
         "operation": "MULTIPLY_BASE",
         "amount": 99
       },
       {
-        "attribute":"minecraft:generic.attack_damage",
+        "attribute": "minecraft:generic.attack_damage",
         "operation": "MULTIPLY_BASE",
         "amount": 9
       },
       {
-        "attribute":"projectile_damage:generic",
+        "attribute": "projectile_damage:generic",
         "operation": "ADDITION",
         "amount": 15
       },
       {
-        "attribute":"projectile_damage:generic",
+        "attribute": "projectile_damage:generic",
         "operation": "MULTIPLY_BASE",
         "amount": 39
       },
       {
-        "attribute":"minecraft:generic.armor",
+        "attribute": "minecraft:generic.armor",
         "operation": "ADDITION",
         "amount": 10
       },
       {
-        "attribute":"minecraft:generic.armor_toughness",
+        "attribute": "minecraft:generic.armor_toughness",
         "operation": "ADDITION",
         "amount": 3
       },
       {
-        "attribute":"minecraft:generic.armor",
+        "attribute": "minecraft:generic.armor",
         "operation": "MULTIPLY_TOTAL",
         "amount": 4
       },
       {
-        "attribute":"minecraft:generic.armor_toughness",
+        "attribute": "minecraft:generic.armor_toughness",
         "operation": "MULTIPLY_TOTAL",
         "amount": 3
+      },
+      {
+        "attribute": "irons_spellbooks:spell_power",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 160
+      },
+      {
+        "attribute": "irons_spellbooks:spell_resist",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.8
       }
     ]
   },

@@ -39,7 +39,7 @@ function playerBlockSpellMessage(server, player_name) {
 }
 
 function playerBlockCappedSpellMessage(server, player_name) {
-    server.runCommandSilent(`/immersivemessages popup ${player_name} 3 "Not Strong enough for this spell" This Spell can nott be casted in such powerful manner`);
+    server.runCommandSilent(`/immersivemessages popup ${player_name} 3 "Not Strong enough for this spell" This Spell can not be casted in such powerful manner`);
 }
 
 
