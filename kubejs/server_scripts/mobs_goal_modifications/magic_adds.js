@@ -13,18 +13,4 @@ EntityJSEvents.addGoalSelectors('minecraft:warden', event => {
     })
 })
 
-EntityJSEvents.addGoalSelectors('mythicmounts:dragon', event => {
-    event.arbitraryGoal(1, (e) => {
-        return new WizardAttackGoal(e, 1, 200)
-            .setSpells(
-                [
-                    Spell.of('irons_spellbooks:fire_breath'),
-                ],
-                [],
-                [],
-                []
-            )
-    })
-})
-
 
