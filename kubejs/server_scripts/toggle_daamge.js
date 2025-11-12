@@ -1,49 +1,51 @@
 const DMG_TOGGLE_PD_FIELD = 'DamageToggle';
 
+// Get damage toggle state (1 = enabled, 0 = disabled), default to 1 (ENABLED)
 function getDamageTogglePD(player, pd_field) {
-    let pd_field_value = player.persistentData.getInt(pd_field);
-    if (pd_field_value !== undefined) {
-        return pd_field_value;
-    }
-    else {
-        player.persistentData.putInt(pd_field, 1);  // Default: ENABLED (1)
+    const value = player.persistentData.getInt(pd_field);
+    if (value === undefined || value === null) {
+        player.persistentData.putInt(pd_field, 1); // Default: damage ON
         return 1;
     }
+    return value;
 }
 
+// Set damage toggle state
 function setDamageTogglePD(player, pd_field, value) {
     player.persistentData.putInt(pd_field, value);
 }
 
+// Cancel damage if player has toggle disabled
 EntityEvents.hurt(event => {
     const { entity, source } = event;
-    let playerSource = null;
 
-    if (source?.player) {
-        playerSource = source.player;
-    }
+    if (!source?.player) return; // Only care about player-caused damage
 
-    // If player has damage toggle DISABLED (0), cancel their damage
-    if (playerSource && getDamageTogglePD(playerSource, DMG_TOGGLE_PD_FIELD) === 0) {
+    const player = source.player;
+    if (getDamageTogglePD(player, DMG_TOGGLE_PD_FIELD) === 0) {
         event.cancel();
-        return;
     }
 });
 
-ServerEvents.commandRegistry((event) => {
-    const { commands: Commands, arguments: Arguments } = event;
+// Command to toggle damage dealing
+ServerEvents.commandRegistry(event => {
+    const { commands: Commands } = event;
+
     event.register(
-        Commands.literal("toggle_damage").executes((c) => {
-            const player = c.source.player;
-            const currentToggle = getDamageTogglePD(player, DMG_TOGGLE_PD_FIELD);
-            const newToggle = currentToggle === 1 ? 0 : 1;  // Flip 1<->0
-            
-            setDamageTogglePD(player, DMG_TOGGLE_PD_FIELD, newToggle);
-            
-            const status = newToggle === 1 ? "§aENABLED" : "§cDISABLED";
-            player.tell(`§eDamage toggle: §l${status}§r§e!`);
-            
-            return 1;
-        })
+        Commands.literal('toggle_damage')
+            .executes(c => {
+                const player = c.source.player;
+                if (!player) return 0;
+
+                const current = getDamageTogglePD(player, DMG_TOGGLE_PD_FIELD);
+                const newState = current === 1 ? 0 : 1;
+
+                setDamageTogglePD(player, DMG_TOGGLE_PD_FIELD, newState);
+
+                const status = newState === 1 ? '§aENABLED' : '§cDISABLED';
+                player.tell(`§eDamage dealing: §l${status}§r§e!`);
+
+                return 1;
+            })
     );
 });
