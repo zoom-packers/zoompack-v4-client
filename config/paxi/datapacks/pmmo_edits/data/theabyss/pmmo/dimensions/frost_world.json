@@ -92,7 +92,7 @@
         {
             "attribute":"irons_spellbooks:spell_resist",
             "operation": "MULTIPLY_TOTAL",
-            "amount": 0.9
+            "amount": 0.45
         }
     ],
     "mob_modifier": {},
