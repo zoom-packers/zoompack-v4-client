@@ -11,8 +11,9 @@ ForgeEvents.onEvent('net.minecraftforge.event.AnvilUpdateEvent', event => {
 
     let isRing = leftItem.id.includes('_ring');
     let isNecklace = leftItem.id.includes('_necklace');
+    let isGloves = leftItem.id.includes('_gloves');
 
-    if(!(isRing || isNecklace)) return;
+    if(!(isRing || isNecklace || !isGloves)) return;
 
     let leftItemmodId = leftItem.id.split(':')[0];
     if(!ALLOWED_MODS_FOR_CURI_ENH.includes(leftItemmodId)) return;
