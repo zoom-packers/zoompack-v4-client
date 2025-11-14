@@ -119,7 +119,7 @@ PlayerEvents.spellPreCast(event => {
                 })
 
             }
-            player.runCommandSilent("summon firework_rocket ~ ~1 ~ {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:0}}}}")
+            server.runCommandSilent(`execute as ${player.name.string} run summon firework_rocket ~ ~1 ~ {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:0}}}}`)
             boostPlayerFlight(player);
             FIRECRACKERS_MAP[player.name.string] = 1;
             // event.cancel();
