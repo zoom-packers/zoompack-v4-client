@@ -27,6 +27,7 @@
 			y: -20.5d
 		}
 		{
+			color: 7477274
 			height: 6.0d
 			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
 			rotation: 0.0d
@@ -34,12 +35,55 @@
 			x: 1.5d
 			y: 1.5d
 		}
+		{
+			color: 2033484
+			height: 2.0d
+			image: "supplementaries:textures/particle/sonic_boom_13.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			color: 2036310
+			height: 2.0d
+			image: "supplementaries:textures/particle/sonic_boom_10.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.5d
+			y: -2.5d
+		}
+		{
+			height: 4.0d
+			image: "apotheosis:items/gems/magic_gems/pentakill"
+			rotation: 0.0d
+			width: 4.0d
+			x: 19.535714285714292d
+			y: 0.1964285714285623d
+		}
 	]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
 			id: "1D0F31DAE497C552"
+			rewards: [
+				{
+					id: "2132207381312D75"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "4FEBC34FD9C53529"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:common_ink"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -57,6 +101,23 @@
 		{
 			dependencies: ["1D0F31DAE497C552"]
 			id: "3C6278FCCE6C5C2C"
+			rewards: [
+				{
+					count: 3
+					id: "4EC3AB225211599F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:uncommon_ink"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5F5AD7F0DAD1093E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -74,6 +135,23 @@
 		{
 			dependencies: ["3C6278FCCE6C5C2C"]
 			id: "3B71185DE26C11D5"
+			rewards: [
+				{
+					count: 3
+					id: "74BE441BE6E9B67C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:rare_ink"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2ACDD6C33EC54FAF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -91,6 +169,23 @@
 		{
 			dependencies: ["3B71185DE26C11D5"]
 			id: "160401F118784FEE"
+			rewards: [
+				{
+					count: 2
+					id: "667DF6E933F9C2EF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:epic_ink"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "75578B2A7ACE374D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -108,6 +203,22 @@
 		{
 			dependencies: ["160401F118784FEE"]
 			id: "01D66DC98602C7CE"
+			rewards: [
+				{
+					id: "0C6D6D406F5BDF29"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:legendary_ink"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3FF04162B9FF3F76"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -124,6 +235,7 @@
 		}
 		{
 			id: "6E95C1827586CB14"
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "1682282A5686FA41"
@@ -134,11 +246,18 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 5.25d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["6E95C1827586CB14"]
 			id: "1CD33FB05244E501"
+			rewards: [{
+				id: "1EA60673DA9500AF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "57CBA143A804CC14"
@@ -149,12 +268,13 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: 3.75d
+			x: 6.75d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6E95C1827586CB14"]
 			id: "62BDFFAEC7C01EDF"
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "3EA8C5F049CA1140"
@@ -165,11 +285,12 @@
 				}
 				type: "item"
 			}]
-			x: 15.75d
-			y: 2.25d
+			x: 10.5d
+			y: -2.25d
 		}
 		{
 			id: "0F32083121463FD0"
+			shape: "square"
 			size: 1.5d
 			tasks: [{
 				id: "1705D681F22A08B8"
@@ -180,8 +301,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: -3.0d
+			x: 9.0d
+			y: -6.75d
 		}
 		{
 			dependencies: [
@@ -192,6 +313,7 @@
 			]
 			id: "5315974F73B6D98F"
 			size: 1.5d
+			subtitle: "&5You can make some serious stuff with this&r"
 			tasks: [{
 				id: "02372C5808F804D6"
 				item: {
@@ -201,13 +323,48 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 1.5d
+			x: 8.25d
+			y: -2.25d
 		}
 		{
+			description: [
+				"The arcane anvil can be used to socket &6upgrade orbs&r and it can be used to upgrade spells."
+				""
+				""
+				"To upgrade a spell simply put it in the anvil alongside some &6ink&r."
+				"{image:vahmas_creator_pack:textures/gui/pano_arcane.png width:100 height:100 align:1}"
+			]
 			id: "3761BEE2D12E3B1E"
+			rewards: [
+				{
+					count: 2
+					id: "1785B4A327B1352E"
+					item: {
+						Count: 1
+						id: "minecraft:crying_obsidian"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "495FB50E39385BB5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 10
+					id: "2179DCBBBF69372B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:arcane_essence"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "Arcane smithing"
 			tasks: [{
 				id: "08848C9CE76EDCD0"
 				item: {
@@ -222,7 +379,23 @@
 			y: 1.5d
 		}
 		{
+			description: [
+				"The inscription table is used to inscribe scrolls into your spell book."
+				""
+				""
+				"{image:vahmas_creator_pack:textures/gui/pano_table.png width:150 height:100 align:1}"
+			]
 			id: "3FBA4C9E62FDA1B0"
+			rewards: [{
+				count: 2
+				id: "410EBC80360644A1"
+				item: {
+					Count: 1
+					id: "minecraft:crying_obsidian"
+					tag: { }
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -239,6 +412,28 @@
 			y: -0.75d
 		}
 		{
+			description: [
+				"To use the scroll forge you will need the following:"
+				""
+				"&2- Paper&r"
+				"&2- Ink &r(&7common&r - &6legendary&r)"
+				"&2- A magic schools material:&r"
+				""
+				"Here is a list of materials for magic schools:"
+				""
+				"&cFire : Blaze Rod&r"
+				"&bIce : Frozen Bone&r"
+				"&1Lightning : Bottle o' Lightning&r"
+				"&5Ender : Ender Pearl&r"
+				"&eHoly : Divine Pearl&r"
+				"&4Blood : Blood vial&r"
+				"&0Evocation : Emerald&r"
+				"&2Nature : Poisonous Potato&r"
+				""
+				""
+				""
+				"{image:vahmas_creator_pack:textures/gui/pano_scroll.png width:150 height:110 align:1}"
+			]
 			id: "5065C1D8AAE20C13"
 			shape: "diamond"
 			size: 1.5d
@@ -256,6 +451,15 @@
 			y: 1.5d
 		}
 		{
+			description: [
+				"The Alchemist Cauldron can be used to &6craft things&r and &6recycle scrolls&r."
+				""
+				"Check &4EMI&r for recipes."
+				""
+				""
+				""
+				"{image:vahmas_creator_pack:textures/gui/pano_cauldron.png width:100 height:100 align:1}"
+			]
 			id: "08A229A86F6E7981"
 			shape: "diamond"
 			size: 1.5d
@@ -274,6 +478,15 @@
 		}
 		{
 			id: "4097A9FF3239D65B"
+			rewards: [{
+				id: "4A157F2EAF0B1A92"
+				item: {
+					Count: 1
+					id: "minecraft:golden_apple"
+					tag: { }
+				}
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "31A7BED9ADE04B90"
@@ -297,6 +510,32 @@
 		{
 			dependencies: ["4097A9FF3239D65B"]
 			id: "16BCB31EEA98A00D"
+			rewards: [
+				{
+					count: 4
+					id: "5A72D482FD6D9688"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:arcane_essence"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5F3CF4EAC8E59755"
+					item: {
+						Count: 1
+						id: "minecraft:diamond"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "32D0A71372C31378"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "704108FD5623FB3E"
@@ -314,12 +553,28 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -5.25d
+			x: 3.249999999999986d
+			y: -5.017857142857153d
 		}
 		{
 			dependencies: ["16BCB31EEA98A00D"]
 			id: "23531B4743C73013"
+			rewards: [
+				{
+					id: "4B3E57F0D4CE3225"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:blank_rune"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "699A28E178A3ABF9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "026E9E639814BCEC"
@@ -337,11 +592,12 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -6.75d
+			x: 1.3928571428571317d
+			y: -6.517857142857153d
 		}
 		{
 			id: "74EF977FE40FF4EC"
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "77B982DD848F9FE4"
@@ -352,11 +608,29 @@
 				}
 				type: "item"
 			}]
-			x: 11.25d
-			y: 0.0d
+			x: 6.75d
+			y: -3.75d
 		}
 		{
+			description: ["Runes are used to craft armors and spell books."]
 			id: "560A2F8132654CF8"
+			rewards: [
+				{
+					id: "03F8C74BCF7673A2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0FB16D9295AC6F34"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_block"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "46573153637A8C76"
@@ -373,1108 +647,1010 @@
 		{
 			dependencies: ["68F28D5EE176912D"]
 			id: "5F9A9259690AA32D"
+			rewards: [
+				{
+					id: "7DDE5145AAA6590E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 3
+					id: "66F74242D4B2F627"
+					item: {
+						Count: 1
+						id: "minecraft:diamond"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "312189E60FBE8EC2"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:blank_rune"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
-			tasks: [{
-				id: "59CA3BBF0DDF9B5C"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:improved_blood_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 10
-							mustEquip: 1b
-							spellWheel: 1b
+			tasks: [
+				{
+					id: "59CA3BBF0DDF9B5C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:improved_blood_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -3.75d
-			y: -10.5d
-		}
-		{
-			dependencies: ["64667CFB33A82427"]
-			id: "5D26F244460A20A5"
-			size: 1.5d
-			tasks: [{
-				id: "4E922358CB17ED19"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:improved_ender_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 10
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "292C7118BCEC6B9B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:improved_ender_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -2.25d
-			y: -10.5d
-		}
-		{
-			dependencies: ["74B57F6A8D3B38E0"]
-			id: "6B261BFE472FB545"
-			size: 1.5d
-			tasks: [{
-				id: "607CB2B05C878240"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:improved_evocation_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 10
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "1657C658BD923ED1"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:improved_evocation_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -0.75d
-			y: -10.5d
-		}
-		{
-			dependencies: ["1756E22EFA97A964"]
-			id: "30F84AF3F43F7426"
-			size: 1.5d
-			tasks: [{
-				id: "2B9BAF06487A7F25"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:improved_fire_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 10
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "6496965E8C2A7921"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:improved_fire_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 0.75d
-			y: -10.5d
-		}
-		{
-			dependencies: ["4AE245E963827A64"]
-			id: "38C1497AF4CBBC27"
-			size: 1.5d
-			tasks: [{
-				id: "122BF5C5E584096C"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:improved_holy_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 10
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "4859245D57973796"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:improved_holy_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 2.25d
-			y: -10.5d
-		}
-		{
-			dependencies: ["712A9316BA1C2F15"]
-			id: "454F5B0F1B985478"
-			size: 1.5d
-			tasks: [{
-				id: "7695BE33E814017C"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:improved_ice_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 10
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "04CB4295EA795705"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:improved_ice_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 3.75d
-			y: -10.5d
-		}
-		{
-			dependencies: ["66B786674B91C4D2"]
-			id: "71F48BE1EF14460C"
-			size: 1.5d
-			tasks: [{
-				id: "5E8482F8AD67EC64"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:improved_lightning_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 10
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "39DE2A16C370E8A8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:improved_lightning_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 5.25d
-			y: -10.5d
-		}
-		{
-			dependencies: ["1E8BB8A8ED816355"]
-			id: "32F4C3A9A07F4C06"
-			size: 1.5d
-			tasks: [{
-				id: "4B0B25E15312822B"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:improved_nature_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 10
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "458DB215E3E6D388"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:improved_nature_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 6.75d
+			]
+			x: 0.0d
 			y: -10.5d
 		}
 		{
 			dependencies: ["23531B4743C73013"]
 			id: "68F28D5EE176912D"
+			rewards: [{
+				id: "2840CF19D9131852"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.5d
-			tasks: [{
-				id: "5FB84047B42CC9C8"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:specialized_blood_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 8
-							mustEquip: 1b
-							spellWheel: 1b
+			tasks: [
+				{
+					id: "5FB84047B42CC9C8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:specialized_blood_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 8
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -3.75d
-			y: -9.0d
-		}
-		{
-			dependencies: ["23531B4743C73013"]
-			id: "64667CFB33A82427"
-			size: 1.5d
-			tasks: [{
-				id: "78155C07B3FFF717"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:specialized_ender_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 8
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "74EFB22B634FB325"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:specialized_ender_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 8
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -2.25d
-			y: -9.0d
-		}
-		{
-			dependencies: ["23531B4743C73013"]
-			id: "74B57F6A8D3B38E0"
-			size: 1.5d
-			tasks: [{
-				id: "41359C4711BDE39D"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:specialized_evocation_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 8
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "75F6A85FC20FF92A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:specialized_evocation_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 8
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -0.75d
-			y: -9.0d
-		}
-		{
-			dependencies: ["23531B4743C73013"]
-			id: "1756E22EFA97A964"
-			size: 1.5d
-			tasks: [{
-				id: "0BEE5AAA8910E8B7"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:specialized_fire_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 8
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "28E6F6CD576C2250"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:specialized_fire_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 8
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 0.75d
-			y: -9.0d
-		}
-		{
-			dependencies: ["23531B4743C73013"]
-			id: "4AE245E963827A64"
-			size: 1.5d
-			tasks: [{
-				id: "2005E75FC3B9811B"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:specialized_holy_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 8
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "153DE23D68B345D0"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:specialized_holy_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 8
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 2.25d
-			y: -9.0d
-		}
-		{
-			dependencies: ["23531B4743C73013"]
-			id: "712A9316BA1C2F15"
-			size: 1.5d
-			tasks: [{
-				id: "361E7AB62C06CEAD"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:specialized_ice_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 8
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "4A2A2EC215D047CD"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:specialized_ice_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 8
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 3.75d
-			y: -9.0d
-		}
-		{
-			dependencies: ["23531B4743C73013"]
-			id: "66B786674B91C4D2"
-			size: 1.5d
-			tasks: [{
-				id: "69238F875CB7AE88"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:specialized_lightning_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 8
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "75082A168C4A3DD7"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:specialized_lightning_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 8
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 5.25d
-			y: -9.0d
-		}
-		{
-			dependencies: ["23531B4743C73013"]
-			id: "1E8BB8A8ED816355"
-			size: 1.5d
-			tasks: [{
-				id: "201723A1DBE01586"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:specialized_nature_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 8
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "6247585AF23842FB"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:specialized_nature_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 8
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 6.75d
-			y: -9.0d
+			]
+			x: -1.392857142857153d
+			y: -7.517857142857153d
 		}
 		{
 			dependencies: ["5F9A9259690AA32D"]
 			id: "11ED4133D13FD0CC"
+			rewards: [
+				{
+					id: "047D482B2487802E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "1489D7C793F2A2A1"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:blank_rune"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7DD50CA6265D5A5F"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
-			tasks: [{
-				id: "014CE9B93087D095"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:enchanted_blood_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 11
-							mustEquip: 1b
-							spellWheel: 1b
+			tasks: [
+				{
+					id: "014CE9B93087D095"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:enchanted_blood_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 11
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -3.75d
-			y: -12.0d
-		}
-		{
-			dependencies: ["5D26F244460A20A5"]
-			id: "4ED545CD0E664C9B"
-			size: 1.5d
-			tasks: [{
-				id: "1B92DF2004AC7575"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:enchanted_ender_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 11
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "3782462C642CF5D8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:enchanted_ender_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 11
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -2.25d
-			y: -12.0d
-		}
-		{
-			dependencies: ["6B261BFE472FB545"]
-			id: "071840514D5ED05D"
-			size: 1.5d
-			tasks: [{
-				id: "119514B8D405E7DE"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:enchanted_evocation_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 11
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "7FB3C12118C5D09B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:enchanted_evocation_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 11
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -0.75d
-			y: -12.0d
-		}
-		{
-			dependencies: ["30F84AF3F43F7426"]
-			id: "4D677814474A224A"
-			size: 1.5d
-			tasks: [{
-				id: "7C69183E952BCDD2"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:enchanted_fire_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 11
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "06890D8461A47846"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:enchanted_fire_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 11
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 0.75d
-			y: -12.0d
-		}
-		{
-			dependencies: ["38C1497AF4CBBC27"]
-			id: "1943181DAB86C6BE"
-			size: 1.5d
-			tasks: [{
-				id: "37D295C9B14F7A43"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:enchanted_holy_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 11
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "138FB82EEC3F461D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:enchanted_holy_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 11
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 2.25d
-			y: -12.0d
-		}
-		{
-			dependencies: ["454F5B0F1B985478"]
-			id: "663D1F22A7924205"
-			size: 1.5d
-			tasks: [{
-				id: "7CA1628D94B5D626"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:enchanted_ice_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 11
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "2765E21CF8D737D3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:enchanted_ice_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 11
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 3.75d
-			y: -12.0d
-		}
-		{
-			dependencies: ["71F48BE1EF14460C"]
-			id: "315D692BD0E9FE2C"
-			size: 1.5d
-			tasks: [{
-				id: "690FBA991DBE99D0"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:enchanted_lightning_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 11
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "3168E701B10119E7"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:enchanted_lightning_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 11
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 5.25d
-			y: -12.0d
-		}
-		{
-			dependencies: ["32F4C3A9A07F4C06"]
-			id: "1E3A8F010B334001"
-			size: 1.5d
-			tasks: [{
-				id: "3D49795BEEFE8F4F"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:improved_nature_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 10
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "1A5C5F7E5F87FB8C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:enchanted_nature_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 11
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 6.75d
-			y: -12.0d
+			]
+			x: 3.0d
+			y: -11.25d
 		}
 		{
 			dependencies: ["11ED4133D13FD0CC"]
 			id: "0098A409333743AE"
+			rewards: [
+				{
+					id: "58BF6E9A1E085D73"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 6
+					id: "01497943C2864D11"
+					item: {
+						Count: 1
+						id: "aether:zanite_gemstone"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "700304D8E7A8D4EF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:blank_rune"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
-			tasks: [{
-				id: "64D5FAC9C09DE81B"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:merlin_blood_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 12
-							mustEquip: 1b
-							spellWheel: 1b
+			tasks: [
+				{
+					id: "64D5FAC9C09DE81B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:merlin_blood_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -3.75d
-			y: -13.5d
-		}
-		{
-			dependencies: ["4ED545CD0E664C9B"]
-			id: "67F3B764911E5A78"
-			size: 1.5d
-			tasks: [{
-				id: "5C816167026C331B"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:merlin_ender_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 12
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "22D8FA10BC29627A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:merlin_ender_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -2.25d
-			y: -13.5d
-		}
-		{
-			dependencies: ["071840514D5ED05D"]
-			id: "1263902E3EF39C09"
-			size: 1.5d
-			tasks: [{
-				id: "016B276763DDD008"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:merlin_evocation_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 12
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "66B1ED1D1B71421D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:merlin_evocation_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -0.75d
-			y: -13.5d
-		}
-		{
-			dependencies: ["4D677814474A224A"]
-			id: "45FDCDBEE6D4008A"
-			size: 1.5d
-			tasks: [{
-				id: "694A428A840159E8"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:merlin_fire_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 12
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "7B47662A69587804"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:merlin_fire_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 0.75d
-			y: -13.5d
-		}
-		{
-			dependencies: ["1943181DAB86C6BE"]
-			id: "22682BEE5EEA0E32"
-			size: 1.5d
-			tasks: [{
-				id: "79FE9D90FB1D18F9"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:merlin_holy_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 12
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "7957160229C89AD1"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:merlin_holy_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 2.25d
-			y: -13.5d
-		}
-		{
-			dependencies: ["663D1F22A7924205"]
-			id: "1E169FD951A7C341"
-			size: 1.5d
-			tasks: [{
-				id: "35F33AE4C09576EA"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:merlin_ice_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 12
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "359BD208F2E694ED"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:merlin_ice_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 3.75d
-			y: -13.5d
-		}
-		{
-			dependencies: ["315D692BD0E9FE2C"]
-			id: "06BDBFA1C599C36F"
-			size: 1.5d
-			tasks: [{
-				id: "1834E44FD08184B3"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:merlin_lightning_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 12
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "7B6C04DB0562422E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:merlin_lightning_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 5.25d
-			y: -13.5d
-		}
-		{
-			dependencies: ["1E3A8F010B334001"]
-			id: "2DD9931A99E1A319"
-			size: 1.5d
-			tasks: [{
-				id: "5E9F7FED00DE607D"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:merlin_nature_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 12
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "7A7AB71F2E329D3E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:merlin_nature_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 6.75d
-			y: -13.5d
+			]
+			x: 0.4642857142857082d
+			y: -13.232142857142868d
 		}
 		{
 			dependencies: ["0098A409333743AE"]
 			id: "7E509D1827826E12"
+			rewards: [
+				{
+					id: "7679B3214D39B4A3"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					count: 3
+					id: "45D5E48F4E26295A"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_scrap"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0EFBE1322F19381C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:blank_rune"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
-			tasks: [{
-				id: "5F10F2319A9754B2"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:ancient_blood_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 14
-							mustEquip: 1b
-							spellWheel: 1b
+			tasks: [
+				{
+					id: "5F10F2319A9754B2"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:ancient_blood_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 14
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -3.75d
-			y: -15.0d
-		}
-		{
-			dependencies: ["67F3B764911E5A78"]
-			id: "166D9E085C659178"
-			size: 1.5d
-			tasks: [{
-				id: "5D72302C058CDD60"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:ancient_ender_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 14
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "26E2DEA90EA0DB4A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:ancient_ender_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 14
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -2.25d
-			y: -15.0d
-		}
-		{
-			dependencies: ["1263902E3EF39C09"]
-			id: "1E6146DD61A4F443"
-			size: 1.5d
-			tasks: [{
-				id: "4506397A24254C3A"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:ancient_evocation_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 14
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "32493CFCAF2F8BFB"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:ancient_evocation_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 14
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -0.75d
-			y: -15.0d
-		}
-		{
-			dependencies: ["45FDCDBEE6D4008A"]
-			id: "5A23CFC1DEF02230"
-			size: 1.5d
-			tasks: [{
-				id: "133A6302FAF326B5"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:ancient_fire_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 14
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "7A21A38771B8E1AF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:ancient_fire_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 14
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 0.75d
-			y: -15.0d
-		}
-		{
-			dependencies: ["22682BEE5EEA0E32"]
-			id: "163A164471E687D4"
-			size: 1.5d
-			tasks: [{
-				id: "4AFEE4B6C05D3078"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:ancient_holy_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 14
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "7A780278B96D148B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:ancient_holy_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 14
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 2.25d
-			y: -15.0d
-		}
-		{
-			dependencies: ["1E169FD951A7C341"]
-			id: "198F478245A7ED00"
-			size: 1.5d
-			tasks: [{
-				id: "6B8C0DDB37947059"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:ancient_ice_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 14
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "0EF0E14ED76DA741"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:ancient_ice_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 14
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 3.75d
-			y: -15.0d
-		}
-		{
-			dependencies: ["06BDBFA1C599C36F"]
-			id: "2C8CF9FC62F5ECA1"
-			size: 1.5d
-			tasks: [{
-				id: "3CADE7FC0F800769"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:ancient_lightning_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 14
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "58EABF6A2302C304"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:ancient_lightning_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 14
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 5.25d
-			y: -15.0d
-		}
-		{
-			dependencies: ["2DD9931A99E1A319"]
-			id: "642B63DDA21660EE"
-			size: 1.5d
-			tasks: [{
-				id: "153B6FBB273495EC"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:ancient_nature_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 14
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "13EDAC5617C31900"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:ancient_nature_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 14
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 6.75d
-			y: -15.0d
+			]
+			x: 3.3214285714285623d
+			y: -14.517857142857146d
 		}
 		{
 			dependencies: ["7E509D1827826E12"]
 			id: "226975A645BCDD71"
+			rewards: [
+				{
+					id: "25FDE9A4097604EC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "4D0EB94C39972672"
+					item: {
+						Count: 1
+						id: "callfromthedepth_:immemorialscrap"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0EA2FD09E25147CD"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:blank_rune"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
-			tasks: [{
-				id: "71B90AAAE38D66B3"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:legendary_blood_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 15
-							mustEquip: 1b
-							spellWheel: 1b
+			tasks: [
+				{
+					id: "71B90AAAE38D66B3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:legendary_blood_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 15
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -3.75d
-			y: -16.5d
-		}
-		{
-			dependencies: ["166D9E085C659178"]
-			id: "58514C6B770B4384"
-			size: 1.5d
-			tasks: [{
-				id: "6E6B9A61760756F1"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:legendary_ender_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 15
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "3BEC042C245D4CDC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:legendary_ender_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 15
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -2.25d
-			y: -16.5d
-		}
-		{
-			dependencies: ["1E6146DD61A4F443"]
-			id: "0DABE027D5B5AD11"
-			size: 1.5d
-			tasks: [{
-				id: "5C66DB542541A036"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:legendary_evocation_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 15
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "5565D08DDC32E30E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:legendary_evocation_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 15
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -0.75d
-			y: -16.5d
-		}
-		{
-			dependencies: ["5A23CFC1DEF02230"]
-			id: "5B98F5954020EE3F"
-			size: 1.5d
-			tasks: [{
-				id: "6D6DBC6E7BA1535F"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:legendary_fire_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 15
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "7564A3602B879658"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:legendary_fire_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 15
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 0.75d
-			y: -16.5d
-		}
-		{
-			dependencies: ["163A164471E687D4"]
-			id: "383DDAEBC852FD91"
-			size: 1.5d
-			tasks: [{
-				id: "38CEE6F09882B5E2"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:legendary_holy_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 15
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "5A0CF7FF4F222E4D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:legendary_holy_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 15
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 2.25d
-			y: -16.5d
-		}
-		{
-			dependencies: ["198F478245A7ED00"]
-			id: "1C4094AECF0B2AB0"
-			size: 1.5d
-			tasks: [{
-				id: "760A428D4E813A01"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:legendary_ice_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 15
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "417DF2F4E8B44133"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:legendary_ice_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 15
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 3.75d
-			y: -16.5d
-		}
-		{
-			dependencies: ["2C8CF9FC62F5ECA1"]
-			id: "4167E958FAFBCA62"
-			size: 1.5d
-			tasks: [{
-				id: "5AA7F7DEDA798856"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:legendary_lightning_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 15
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "68E2053B25842293"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:legendary_lightning_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 15
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 5.25d
-			y: -16.5d
-		}
-		{
-			dependencies: ["642B63DDA21660EE"]
-			id: "578B168C956B7902"
-			size: 1.5d
-			tasks: [{
-				id: "2D6FC38B1F313964"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:legendary_nature_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 15
-							mustEquip: 1b
-							spellWheel: 1b
+				{
+					id: "03595AB50243F1F2"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:legendary_nature_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 15
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
 					}
+					optional_task: true
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 6.75d
-			y: -16.5d
+			]
+			x: 1.5357142857142776d
+			y: -17.017857142857146d
 		}
 		{
+			description: ["&6Disclaimer! This quest consumes the task items.&r"]
 			id: "2B6B4217675FA2FC"
 			rewards: [
 				{
@@ -1534,7 +1710,10 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "&cFire school&r"
 			tasks: [{
+				consume_items: true
+				count: 3L
 				id: "28F841AEF36505C3"
 				item: {
 					Count: 1
@@ -1543,10 +1722,11 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -3.75d
 			y: 10.5d
 		}
 		{
+			description: ["&6Disclaimer! This quest consumes the task items.&r"]
 			id: "1BB01E85A8987656"
 			rewards: [
 				{
@@ -1606,7 +1786,10 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "&bIce school&r"
 			tasks: [{
+				consume_items: true
+				count: 3L
 				id: "415131849E398F81"
 				item: {
 					Count: 1
@@ -1615,10 +1798,11 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
+			x: -2.25d
 			y: 10.5d
 		}
 		{
+			description: ["&6Disclaimer! This quest consumes the task items.&r"]
 			id: "3D67C8F78B89BA98"
 			rewards: [
 				{
@@ -1678,7 +1862,10 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "&1Lightning school&r"
 			tasks: [{
+				consume_items: true
+				count: 3L
 				id: "44FC6FA44D991907"
 				item: {
 					Count: 1
@@ -1687,10 +1874,11 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
+			x: -0.75d
 			y: 10.5d
 		}
 		{
+			description: ["&6Disclaimer! This quest consumes the task items.&r"]
 			id: "1CB75838228EACFF"
 			rewards: [
 				{
@@ -1750,7 +1938,10 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "&5Ender school&r"
 			tasks: [{
+				consume_items: true
+				count: 3L
 				id: "313253F0E55A8025"
 				item: {
 					Count: 1
@@ -1759,10 +1950,11 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.75d
 			y: 10.5d
 		}
 		{
+			description: ["&6Disclaimer! This quest consumes the task items.&r"]
 			id: "7CE185C62579C30B"
 			rewards: [
 				{
@@ -1822,7 +2014,10 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "&eHoly school&r"
 			tasks: [{
+				consume_items: true
+				count: 3L
 				id: "476E53B4EE7A2298"
 				item: {
 					Count: 1
@@ -1831,10 +2026,11 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.25d
 			y: 10.5d
 		}
 		{
+			description: ["&6Disclaimer! This quest consumes the task items.&r"]
 			id: "4A3CBCDB5886A72D"
 			rewards: [
 				{
@@ -1894,7 +2090,10 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "&4Blood school&r"
 			tasks: [{
+				consume_items: true
+				count: 3L
 				id: "476ABC739AC22794"
 				item: {
 					Count: 1
@@ -1903,10 +2102,11 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.75d
 			y: 10.5d
 		}
 		{
+			description: ["&6Disclaimer! This quest consumes the task items.&r"]
 			id: "6BCC95AA4A22CCBE"
 			rewards: [
 				{
@@ -1966,7 +2166,10 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "&0Evocation school&r"
 			tasks: [{
+				consume_items: true
+				count: 3L
 				id: "691211C9DED3BA38"
 				item: {
 					Count: 1
@@ -1975,55 +2178,11 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 5.25d
 			y: 10.5d
 		}
 		{
-			id: "6EE140E83616CF33"
-			size: 1.5d
-			tasks: [{
-				id: "6DAB61C7A63AB086"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:arcane_rune"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 6.0d
-			y: 10.5d
-		}
-		{
-			id: "13BC58720175EF71"
-			size: 1.5d
-			tasks: [{
-				id: "7EF7AE86D0E96E27"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:cooldown_rune"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 7.5d
-			y: 10.5d
-		}
-		{
-			id: "319D42DD34FD4B18"
-			size: 1.5d
-			tasks: [{
-				id: "576C08890A66C045"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:protection_rune"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 9.0d
-			y: 10.5d
-		}
-		{
+			description: ["&6Disclaimer! This quest consumes the task items.&r"]
 			id: "0736F0A265F00A4D"
 			rewards: [
 				{
@@ -2083,7 +2242,10 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "&aNature school&r"
 			tasks: [{
+				consume_items: true
+				count: 3L
 				id: "1B082A1800CBE807"
 				item: {
 					Count: 1
@@ -2092,11 +2254,29 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.75d
 			y: 10.5d
 		}
 		{
+			description: ["&2Used to make Blank Runestones out of other runestones.&r"]
 			id: "45E5B845434FC0EA"
+			rewards: [
+				{
+					id: "66F20B6F8A160715"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1C1FBE117B0F9DD5"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shriving_stone"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "697EE4CAAD82AEE6"
@@ -2113,6 +2293,7 @@
 		{
 			dependencies: ["0F32083121463FD0"]
 			id: "095530D89112633D"
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "721BBE736F1E433D"
@@ -2123,12 +2304,17 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: -0.75d
+			x: 9.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2B6B4217675FA2FC"]
 			id: "5AD7C78629C3E01D"
+			rewards: [{
+				id: "7A3E3A4C44DCD011"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.5d
 			tasks: [
 				{
@@ -2187,12 +2373,18 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
+			title: "Pyromancer set"
+			x: -3.75d
 			y: 13.5d
 		}
 		{
 			dependencies: ["1BB01E85A8987656"]
 			id: "470F2494473CCB2B"
+			rewards: [{
+				id: "7C68272251C15006"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.5d
 			tasks: [
 				{
@@ -2251,12 +2443,18 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
+			title: "Cryomancer set"
+			x: -2.25d
 			y: 13.5d
 		}
 		{
 			dependencies: ["3D67C8F78B89BA98"]
 			id: "037473C8D76050F8"
+			rewards: [{
+				id: "2602787DDAC665ED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.5d
 			tasks: [
 				{
@@ -2315,12 +2513,18 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			title: "Electromancer set"
+			x: -0.75d
 			y: 13.5d
 		}
 		{
 			dependencies: ["1CB75838228EACFF"]
 			id: "4C2CEA61537A5F10"
+			rewards: [{
+				id: "2886916E039940F4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.5d
 			tasks: [
 				{
@@ -2379,12 +2583,18 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			title: "Chorusguardian set"
+			x: 0.75d
 			y: 13.5d
 		}
 		{
 			dependencies: ["7CE185C62579C30B"]
 			id: "698F7F1CB3FCEEAF"
+			rewards: [{
+				id: "2CCE41660C89D521"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.5d
 			tasks: [
 				{
@@ -2443,12 +2653,18 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			title: "Priest set"
+			x: 2.25d
 			y: 13.5d
 		}
 		{
 			dependencies: ["4A3CBCDB5886A72D"]
 			id: "13C4F76FCEEA8CF5"
+			rewards: [{
+				id: "762AE671F92E534C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.5d
 			tasks: [
 				{
@@ -2507,12 +2723,18 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			title: "Hemomancer set"
+			x: 3.75d
 			y: 13.5d
 		}
 		{
 			dependencies: ["6BCC95AA4A22CCBE"]
 			id: "49670255F3F51EC3"
+			rewards: [{
+				id: "72A8246211A359DB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.5d
 			tasks: [
 				{
@@ -2571,12 +2793,18 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			title: "Archevoker set"
+			x: 5.25d
 			y: 13.5d
 		}
 		{
 			dependencies: ["0736F0A265F00A4D"]
 			id: "185F3B5B3133403A"
+			rewards: [{
+				id: "60EC294B126B6D9B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.5d
 			tasks: [
 				{
@@ -2635,70 +2863,40 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			title: "Druid set"
+			x: 6.75d
 			y: 13.5d
 		}
 		{
-			dependencies: ["319D42DD34FD4B18"]
-			id: "73185EF14997D113"
-			size: 1.5d
-			tasks: [{
-				id: "19B60928B2AA3D2C"
-				item: {
-					Count: 1
-					id: "zoomers_armory:iron_fortified_necklace"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 9.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["13BC58720175EF71"]
-			id: "710798E1E1A7AF7E"
-			size: 1.5d
-			tasks: [{
-				id: "13EE8B3D93E416EC"
-				item: {
-					Count: 1
-					id: "zoomers_armory:iron_infused_necklace"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 7.5d
-			y: 13.5d
-		}
-		{
-			dependencies: ["6EE140E83616CF33"]
-			id: "0442DF67E52759D7"
-			size: 1.5d
-			tasks: [{
-				id: "055AF5D0910FB0C4"
-				item: {
-					Count: 1
-					id: "zoomers_armory:iron_mana_necklace"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 6.0d
-			y: 13.5d
-		}
-		{
-			description: [""]
+			description: [
+				"Magic is primarily from irons spells with some tweaks made by us."
+				""
+				"To start magic you are going to need to loot or craft spell scrolls which can then be added to your spell tome."
+				""
+				"Magic also consumes Mana as its primary resource."
+				""
+				"There are 4 major crafting stations"
+				"- &cInscription Table&r"
+				"- &cScroll Forge&r"
+				"- &cAlchemist Cauldron&r"
+				"- &cArcane anvil&r"
+			]
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:ender_upgrade_orb"
 				tag: { }
 			}
 			id: "057CCDBEEC846329"
+			rewards: [{
+				id: "5BA15338686E68D4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 3.0d
-			subtitle: " Here I explain some stuff about magik in this modpack."
+			subtitle: " &fHere I explain some stuff about magik in this modpack.&r"
 			tasks: [{
 				id: "14BD1B0B9163E4BA"
-				title: "MAGIK"
+				title: "Click Me"
 				type: "checkmark"
 			}]
 			title: "&4MAGIK&r"
@@ -2706,15 +2904,127 @@
 			y: 1.5d
 		}
 		{
-			description: [""]
-			id: "7AC622092695AAD0"
+			dependencies: ["59708B540874A36E"]
+			id: "4AD2330C19A328E9"
+			shape: "diamond"
+			subtitle: "&5Collect 9 of these&r"
 			tasks: [{
-				id: "01E2579D68384A90"
-				title: "asfsa"
-				type: "checkmark"
+				id: "372C5BA988A8D6DC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:ancient_knowledge_fragment"
+					tag: { }
+				}
+				type: "item"
 			}]
-			x: -17.0d
-			y: -15.5d
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6A47FD0CEE1AF071"
+				"4AD2330C19A328E9"
+			]
+			description: ["&eEldritch magic is not like the other schools as it must be learned through manuscripts and each spell having powerful effects.&r"]
+			id: "7F32EC38C553FDF1"
+			shape: "gear"
+			subtitle: "&4Eldritch magic&r"
+			tasks: [{
+				id: "2200B8837E8BA7C3"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:eldritch_manuscript"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6E95C1827586CB14"]
+			id: "59708B540874A36E"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&4This points to somewhere...&r"
+			tasks: [{
+				id: "0481F11E9243D543"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:wayward_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.351190476190482d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59708B540874A36E"]
+			icon: {
+				Count: 1
+				id: "minecraft:skeleton_skull"
+				tag: { }
+			}
+			id: "0645C582D5A2E52A"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&4This is where it lead...&r"
+			tasks: [{
+				id: "74A1ED57A3762724"
+				structure: "irons_spellbooks:catacombs"
+				title: "Find catacombs"
+				type: "structure"
+			}]
+			title: "&bFind the catacombs&r"
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0645C582D5A2E52A"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:tarnished_helmet"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "6A47FD0CEE1AF071"
+			rewards: [
+				{
+					id: "2CD494FA8A64C6DA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "4BBEF5E91B1B9768"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:ancient_knowledge_fragment"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "&4Dangerous Encounter!!&r"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				id: "06DD4C72350B902A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Defeat the Dead King&r"
+			x: 19.44642857142857d
+			y: 0.0d
 		}
 	]
 	title: "&dMAGIK&r"

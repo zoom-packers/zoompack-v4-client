@@ -11,76 +11,60 @@
 	id: "720047A70BAE83E7"
 	images: [
 		{
-			height: 20.0d
+			height: 30.0d
 			image: "minecraft:block/bedrock"
 			rotation: 0.0d
-			width: 20.0d
-			x: 19.750000000000014d
-			y: -0.40476190476194773d
+			width: 30.0d
+			x: 28.321428571428612d
+			y: -0.333333333333357d
 		}
 		{
-			height: 20.0d
+			height: 30.0d
 			image: "callfromthedepth_:block/marb"
 			rotation: 0.0d
-			width: 20.0d
-			x: -14.53571428571425d
-			y: -0.4047619047619264d
+			width: 30.0d
+			x: -23.107142857142804d
+			y: -0.33333333333337123d
 		}
 		{
-			height: 20.0d
+			height: 30.0d
 			image: "callfromthedepth_:block/rotten_thrower_top"
 			rotation: 0.0d
-			width: 20.0d
-			x: 19.750000000000043d
-			y: -17.54761904761908d
+			width: 30.0d
+			x: 28.32142857142864d
+			y: -26.047619047619072d
 		}
 		{
-			height: 20.0d
+			height: 30.0d
 			image: "callfromthedepth_:block/dsd"
 			rotation: 0.0d
-			width: 20.0d
-			x: -14.53571428571425d
-			y: -17.54761904761908d
+			width: 30.0d
+			x: -23.107142857142804d
+			y: -26.04761904761908d
 		}
 		{
-			height: 20.0d
+			height: 30.0d
 			image: "minecraft:block/bedrock"
 			rotation: 0.0d
-			width: 20.0d
-			x: 2.6071428571428896d
-			y: -17.54761904761908d
+			width: 30.0d
+			x: 2.607142857142918d
+			y: -26.047619047619072d
 		}
 		{
-			height: 20.0d
-			image: "callfromthedepth_:block/cursed_stone"
+			height: 30.0d
+			image: "callfromthedepth_:block/mossed_depth_stone"
 			rotation: 0.0d
-			width: 20.0d
-			x: -14.53571428571425d
-			y: 16.738095238095212d
+			width: 30.0d
+			x: 2.607142857142918d
+			y: 25.238095238095198d
 		}
 		{
-			height: 20.0d
-			image: "callfromthedepth_:block/cursed_stone"
+			height: 30.0d
+			image: "callfromthedepth_:block/lost_soul_soul"
 			rotation: 0.0d
-			width: 20.0d
-			x: 19.750000000000014d
-			y: 16.738095238095198d
-		}
-		{
-			height: 20.0d
-			image: "apotheosis:blocks/soul_touched_deepshelf"
-			rotation: 0.0d
-			width: 20.0d
+			width: 30.0d
 			x: 2.5714285714285694d
 			y: -0.3571428571428825d
-		}
-		{
-			height: 3.0d
-			image: "theabyss:textures/abyss_power_icon.png"
-			rotation: 0.0d
-			width: 3.0d
-			x: 3.0d
-			y: 3.5d
 		}
 		{
 			height: 3.0d
@@ -171,51 +155,131 @@
 			y: 14.0d
 		}
 		{
-			height: 20.0d
+			height: 30.0d
 			image: "callfromthedepth_:block/rotten_jaw"
 			rotation: 0.0d
-			width: 20.0d
-			x: 2.6071428571428754d
-			y: 16.738095238095198d
+			width: 30.0d
+			x: -23.107142857142804d
+			y: 25.238095238095198d
+		}
+		{
+			height: 30.0d
+			image: "callfromthedepth_:block/dsd"
+			rotation: 0.0d
+			width: 30.0d
+			x: 28.1785714285715d
+			y: 25.23809523809524d
+		}
+		{
+			height: 3.0d
+			image: "callfromthedepth_:item/wardenhearth"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.750000000000014d
+			y: -5.309523809523796d
+		}
+		{
+			height: 3.0d
+			image: "callfromthedepth_:block/despair_fire_block"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.821428571428569d
+			y: -2.1309523809523654d
+		}
+		{
+			height: 3.0d
+			image: "callfromthedepth_:textures/particle/energysword.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.821428571428584d
+			y: 2.4761904761904816d
 		}
 		{
 			height: 5.0d
-			image: "theabyss:item/nosajsword"
-			rotation: -90.0d
-			width: 5.0d
-			x: 7.928571428571416d
-			y: 4.997619047618997d
-		}
-		{
-			height: 5.0d
-			image: "theabyss:item/nosajsword"
+			image: "callfromthedepth_:block/lf"
 			rotation: 0.0d
 			width: 5.0d
-			x: -2.785714285714299d
-			y: 4.997619047618997d
+			x: 9.32142857142864d
+			y: 10.23809523809524d
+		}
+		{
+			height: 10.0d
+			image: "callfromthedepth_:block/deepmagmamushroom"
+			rotation: 0.0d
+			width: 10.0d
+			x: -5.535714285714192d
+			y: 8.09523809523806d
 		}
 		{
 			height: 5.0d
-			image: "theabyss:item/nosajsword"
-			rotation: -180.0d
+			image: "callfromthedepth_:block/soul_ose_bush_top"
+			rotation: 0.0d
 			width: 5.0d
-			x: 7.999999999999986d
-			y: -5.8238095238095795d
+			x: 0.46428571428580767d
+			y: 10.238095238095212d
 		}
 		{
-			height: 5.0d
-			image: "theabyss:item/nosajsword"
-			rotation: 90.0d
-			width: 5.0d
-			x: -2.8571428571428683d
-			y: -5.8238095238095795d
+			height: 6.0d
+			image: "callfromthedepth_:block/camelitree2"
+			rotation: 0.0d
+			width: 6.0d
+			x: -5.2499999999999005d
+			y: -10.761904761904788d
+		}
+		{
+			height: 7.0d
+			image: "callfromthedepth_:block/cameli"
+			rotation: 0.0d
+			width: 7.0d
+			x: 13.035714285714391d
+			y: 9.380952380952351d
+		}
+		{
+			height: 3.0d
+			image: "callfromthedepth_:block/sculkgrassblock"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.4642857142857935d
+			y: 11.09523809523806d
+		}
+		{
+			height: 3.0d
+			image: "callfromthedepth_:block/sculkgrassblock"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.5357142857142065d
+			y: 11.09523809523806d
+		}
+		{
+			height: 3.0d
+			image: "callfromthedepth_:block/sculkgrassblock"
+			rotation: 0.0d
+			width: 3.0d
+			x: -8.821428571428498d
+			y: 11.09523809523806d
+		}
+		{
+			height: 3.0d
+			image: "callfromthedepth_:block/sculkgrassblock"
+			rotation: 0.0d
+			width: 3.0d
+			x: 13.035714285714377d
+			y: 11.09523809523806d
+		}
+		{
+			height: 7.0d
+			image: "callfromthedepth_:block/row"
+			rotation: 0.0d
+			width: 7.0d
+			x: 10.035714285714363d
+			y: -10.333333333333364d
 		}
 	]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["&7Venture into the depths of the world to uncover the Ancient City. This long-forgotten stronghold, shrouded in mystery and danger, holds untold treasures and secrets. Explore its vast ruins and discover the hidden history and valuable relics it conceals."]
+			description: ["&2The ancient city is somewhere in the overworld, Its full of sculk and the warden is also wandering around there sooo... good luck.&r"]
 			id: "3E6BAFFB123AC899"
 			rewards: [{
 				id: "3C3ED843274FCA9F"
@@ -224,19 +288,20 @@
 			}]
 			shape: "square"
 			size: 1.5d
-			subtitle: "Don't make a sound"
+			subtitle: "&fDon't make a sound&r"
 			tasks: [{
 				id: "14930028763C6828"
 				structure: "minecraft:ancient_city"
+				title: "Find the ancient city"
 				type: "structure"
 			}]
-			title: "Lost civilization"
-			x: 1.0d
-			y: 6.0d
+			title: "&6Lost civilization&r"
+			x: -8.25d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3E6BAFFB123AC899"]
-			description: ["&7Face the formidable Warden lurking within the depths of the Ancient City. This fearsome guardian is a true test of courage and skill. Defeat the Warden to claim its rare drops and assert your dominance over the city's dark forces."]
+			description: ["&2You probably took a wrong step and now this guy is coming out of the ground...&r"]
 			id: "011E3C1FA180B63F"
 			rewards: [
 				{
@@ -267,7 +332,7 @@
 			]
 			shape: "octagon"
 			size: 2.5d
-			subtitle: "Here it comes..."
+			subtitle: "&fHere it comes...&r"
 			tasks: [{
 				entity: "minecraft:warden"
 				icon: {
@@ -281,13 +346,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Mistake coming here,,,"
-			x: 3.5d
-			y: 5.5d
+			title: "&4Mistake coming here,,,&r"
+			x: -6.25d
+			y: 1.25d
 		}
 		{
 			dependencies: ["43A4A35E322B8106"]
-			description: ["&7With the Depth Key in hand, unlock the portal in the Ancient City and step into the Depths Dimension. A new world awaits, filled with untold mysteries, dangerous creatures, and rare treasures. Venture forth and explore the unknown, as your journey takes you deeper than ever before!"]
+			description: ["&2Take a stroll around the depths..&r"]
 			id: "58F809034FC1B7B2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -295,7 +360,7 @@
 				table_id: 1610080839990707444L
 				type: "loot"
 			}]
-			shape: "heart"
+			shape: "square"
 			size: 1.5d
 			subtitle: "Down we go"
 			tasks: [{
@@ -304,8 +369,8 @@
 				type: "dimension"
 			}]
 			title: "Depths"
-			x: 3.0d
-			y: 3.5d
+			x: -2.25d
+			y: -1.5d
 		}
 		{
 			dependencies: ["58F809034FC1B7B2"]
@@ -317,7 +382,7 @@
 				item: "callfromthedepth_:lostsoulitem"
 				type: "item"
 			}]
-			shape: "square"
+			shape: "diamond"
 			size: 1.5d
 			subtitle: "I swear i could hear screams"
 			tasks: [{
@@ -325,8 +390,8 @@
 				item: "callfromthedepth_:lostsoulssand"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: 0.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["777CCA33DE66B663"]
@@ -337,105 +402,19 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			shape: "square"
+			shape: "diamond"
 			size: 1.5d
-			subtitle: "Sieve the Lost Souls Sand to uncover Lost Soul Shards, fragments of the spirits trapped within. These shards are rare and potent, holding the essence of the departed."
 			tasks: [{
 				id: "690AC34A56C10275"
 				item: "callfromthedepth_:lostsoulitem"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6239C669C8486D2F"]
-			id: "6B3CEE7AB892E4A7"
-			rewards: [{
-				id: "4D7135846CF563FA"
-				item: "callfromthedepth_:immemorialscrap"
-				type: "item"
-			}]
-			shape: "square"
-			size: 1.5d
-			subtitle: "Combine the soul shards"
-			tasks: [{
-				id: "3673DBFEEACBA2C5"
-				item: "callfromthedepth_:fullsoul"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["6B3CEE7AB892E4A7"]
-			id: "36CFEEC172B41BC1"
-			rewards: [{
-				count: 5
-				id: "2E66670CC376DDED"
-				item: "callfromthedepth_:immemorialscrap"
-				type: "item"
-			}]
-			shape: "square"
-			size: 1.5d
-			subtitle: "Just one more thing to do..."
-			tasks: [{
-				id: "4F2000C52E81C2B6"
-				item: "callfromthedepth_:soulinagony"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["36CFEEC172B41BC1"]
-			id: "586ABE08384682E8"
-			rewards: [
-				{
-					count: 2
-					id: "0ACDE6485E66D54E"
-					item: "callfromthedepth_:immemorialingot"
-					type: "item"
-				}
-				{
-					id: "5BC9E7FB5D57020D"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			shape: "octagon"
-			size: 3.0d
-			subtitle: "Confront the Soul of Agony, an ancient demigod beast lurking deep within the Depths. This powerful entity embodies torment and despair, challenging all who dare to face it. Defeat the Soul of Agony to claim its dark essence and prove your dominance over the most fearsome forces in the Depths!"
-			tasks: [{
-				entity: "callfromthedepth_:agonysoul"
-				id: "6DA7AC69AD971559"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Agony’s End"
-			x: 1.5d
+			x: 0.0d
 			y: -6.0d
 		}
 		{
-			id: "43A7871F46A29EEB"
-			rewards: [{
-				id: "04D67C2DB9A3F0F5"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			size: 1.5d
-			subtitle: "Shards that gradually peeled of the coruption"
-			tasks: [{
-				id: "432E8DC4F2A9FD8B"
-				item: "minecraft:echo_shard"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -1.5d
-		}
-		{
 			dependencies: ["011E3C1FA180B63F"]
-			description: ["&7Unearth the elusive Depth Key, a powerful artifact hidden within the darkest corners of the world. This key holds the power to activate the mysterious portal found in the Ancient City. Secure the Depth Key to unlock new adventures and unknown realms that lie beyond the portal!"]
+			description: ["&2After cleaning up the giant portal in the middle of the city you can use this on it.&r"]
 			id: "43A4A35E322B8106"
 			rewards: [
 				{
@@ -464,134 +443,393 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
-			dependencies: [
-				"43A7871F46A29EEB"
-				"6B3CEE7AB892E4A7"
-			]
-			id: "4102FC8BBEF616F7"
-			rewards: [
-				{
-					count: 3
-					id: "3ADC626BA65EE321"
-					item: "minecraft:echo_shard"
-					type: "item"
+			icon: {
+				Count: 1
+				id: "callfromthedepth_:agonykey"
+				tag: {
+					Damage: 0
 				}
-				{
-					count: 2
-					id: "44C0E5461505AD15"
-					item: "callfromthedepth_:immemorialscrap"
-					type: "item"
-				}
-				{
-					id: "1F0AA81640B98442"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			shape: "diamond"
+			}
+			id: "5D96CB89DCF24FEA"
+			shape: "square"
 			size: 1.5d
-			subtitle: "Craft the Sculk Hearth, a twisted amalgam of corruption and dark energy."
+			tasks: [
+				{
+					id: "4CBB0D389256D91B"
+					structure: "callfromthedepth_:ancientsacrificialbastion"
+					type: "structure"
+				}
+				{
+					id: "228314D6D52A9172"
+					item: {
+						Count: 1
+						id: "callfromthedepth_:agonykey"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Find the Sacrificial Bastion"
+			x: 4.75d
+			y: 2.25d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "callfromthedepth_:sorrowkey"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6A38607794FF7CD4"
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "044732791758CFBF"
+					structure: "callfromthedepth_:marbleforge"
+					type: "structure"
+				}
+				{
+					id: "2C8C40D7D5574BD8"
+					item: {
+						Count: 1
+						id: "callfromthedepth_:sorrowkey"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Find the Marble Forge"
+			x: 4.75d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "callfromthedepth_:abysskey"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B29CD5F0D574EFD"
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5EC6EF19C27FA40B"
+					structure: "callfromthedepth_:depthstemple"
+					type: "structure"
+				}
+				{
+					id: "78F9A63120DF9F28"
+					item: {
+						Count: 1
+						id: "callfromthedepth_:abysskey"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Find the Depths Temple"
+			x: 4.75d
+			y: -5.25d
+		}
+		{
+			dependencies: ["5D96CB89DCF24FEA"]
+			icon: {
+				Count: 1
+				id: "callfromthedepth_:soulofagony"
+				tag: { }
+			}
+			id: "52AE7EB83913E988"
+			shape: "octagon"
+			size: 1.5d
 			tasks: [{
-				id: "54207BA0F2ABA0D3"
-				item: "callfromthedepth_:sculkhearth"
-				type: "item"
+				entity: "callfromthedepth_:agonysoul"
+				id: "4C842DD08CF177A8"
+				type: "kill"
+				value: 1L
 			}]
-			x: 3.5d
-			y: -3.5d
+			title: "Defeat the Agony Soul"
+			x: 7.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6A38607794FF7CD4"]
+			icon: {
+				Count: 1
+				id: "callfromthedepth_:soulofsorrow"
+				tag: { }
+			}
+			id: "788B21F5670B196E"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "callfromthedepth_:injured_ancient_guard"
+				id: "1F7326CF3343F67B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Ancient Guard"
+			x: 7.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4B29CD5F0D574EFD"]
+			icon: {
+				Count: 1
+				id: "callfromthedepth_:soulofabyss"
+				tag: { }
+			}
+			id: "11A69FC534FDF785"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "callfromthedepth_:deepdarkestspwansecondphase"
+				id: "323CCB9BC47263D8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Spawn"
+			x: 7.75d
+			y: -5.25d
 		}
 		{
 			dependencies: ["58F809034FC1B7B2"]
-			id: "64489279CC477F2C"
-			rewards: [
-				{
-					id: "51C6FCE33442A694"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					count: 2
-					id: "1EEC129DDC8062CA"
-					item: "callfromthedepth_:lostsoulitem"
-					type: "item"
-				}
-			]
-			shape: "square"
-			size: 1.5d
-			subtitle: "The stuff of nightmares..."
-			tasks: [{
-				id: "44A93CF233BC1A70"
-				item: "callfromthedepth_:immemorial_debris"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["64489279CC477F2C"]
-			id: "5A245B0FC26D8857"
-			rewards: [
-				{
-					id: "4CAB232E4F64C917"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					count: 4
-					id: "3F68D0778D6592EC"
-					item: "callfromthedepth_:lostsoulitem"
-					type: "item"
-				}
-			]
+			id: "59A1FB47BE318E72"
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Looks familiar..."
 			tasks: [{
-				id: "53990E76027BC93A"
-				item: "callfromthedepth_:immemorialscrap"
+				id: "57B6723C26902E48"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:immemorial_debris"
+					tag: { }
+				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.5d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "7E973001F11F0767"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0C6B169DAE994BFB"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:marble_ore"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["7E973001F11F0767"]
+			id: "64A87893614C3837"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Second tier depths material"
+			tasks: [{
+				id: "73DFAD1544FE04CD"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:marble_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["58F809034FC1B7B2"]
+			id: "153A9843AF7B3925"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "6A504191050F6CF8"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:immemorialscrap"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["153A9843AF7B3925"]
+			id: "234775FDF6889C64"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "First tier depths material"
+			tasks: [{
+				id: "3991D86B00AD1DCC"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:immemorialingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["58F809034FC1B7B2"]
+			id: "68BD2B678EB1A3C2"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "52F3A3F7264B8710"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:immemorialupgradesmithingtemplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["58F809034FC1B7B2"]
+			id: "5BBCA96D79489C14"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "43F31E0EA231CD11"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:energyinfernopowder"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 1.5d
+		}
+		{
+			id: "3F2844A0E45FF9CE"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "490ADC781AD830DF"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:greatsoulessence"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.702380952380935d
+			y: -1.642857142857153d
 		}
 		{
 			dependencies: [
-				"4102FC8BBEF616F7"
-				"5A245B0FC26D8857"
+				"153A9843AF7B3925"
+				"5BBCA96D79489C14"
 			]
-			id: "2AACFE4FEBAA1768"
-			rewards: [
-				{
-					amount: 1
-					auto: "invisible"
-					id: "2C1331585F7D8CE4"
-					skill: "endurance"
-					type: "pmmo:levelreward"
-				}
-				{
-					id: "648A9EB1A7E4218A"
-					item: "callfromthedepth_:immemorialupgradesmithingtemplate"
-					type: "item"
-				}
-				{
-					id: "77FA420398B09925"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			shape: "diamond"
+			id: "69621FDBC6C96F70"
+			shape: "square"
 			size: 1.5d
-			subtitle: "Here we go again..."
 			tasks: [{
-				id: "6683566549EAADDA"
-				item: "callfromthedepth_:immemorialingot"
+				id: "62B8C6C242568FBD"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:transmutationstone"
+					tag: { }
+				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -5.0d
+			x: -3.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6A38607794FF7CD4"]
+			id: "074CED58335EAF33"
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "6E06A06514751B99"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:energypowder"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F2844A0E45FF9CE"]
+			id: "7E059271BF9CCF9E"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "1245AA5A674D2A3D"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:soulingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.321428571428584d
+			y: -1.5595238095238102d
+		}
+		{
+			dependencies: ["6239C669C8486D2F"]
+			id: "24C5783BEC010EE0"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0668E3E699E930EE"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:fullsoul"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["24C5783BEC010EE0"]
+			id: "6595B7A48F28A05F"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "69A4FB6E19873F65"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:soullight"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
 		}
 	]
 	title: "&3Call from the depth&r"

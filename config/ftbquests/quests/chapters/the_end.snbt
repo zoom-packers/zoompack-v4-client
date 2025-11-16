@@ -57,7 +57,7 @@
 		}
 		{
 			height: 20.0d
-			image: "irons_spellbooks:textures/gui/spell_icons/dragon_breath.png"
+			image: "betternether:block/blue_obsidian"
 			rotation: 0.0d
 			width: 20.0d
 			x: 24.964285714285694d

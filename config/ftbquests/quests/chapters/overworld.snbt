@@ -70,6 +70,7 @@
 			y: 3.0d
 		}
 		{
+			color: 14690047
 			height: 5.0d
 			image: "blue_skies:block/misc/black_fire_1"
 			order: 2
@@ -1120,13 +1121,14 @@
 			]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Flower power"
+			subtitle: "&fMutated Flower&r"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:void_blossom"
 				id: "22F5DCE69C3AB7F9"
 				type: "kill"
 				value: 1L
 			}]
+			title: "&dSlay the Void Blossom&r"
 			x: 9.75d
 			y: 2.5d
 		}
@@ -1193,13 +1195,14 @@
 			]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Facing a calamity"
+			subtitle: "&fFacing a calamity&r"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:lich"
 				id: "7174189AFBDA444A"
 				type: "kill"
 				value: 1L
 			}]
+			title: "&3Slay the Night Lich&r"
 			x: 9.5d
 			y: -12.0d
 		}
@@ -1512,13 +1515,14 @@
 			]
 			shape: "octagon"
 			size: 1.7d
-			subtitle: "Worm Terror"
+			subtitle: "&fWorm Terror&r"
 			tasks: [{
 				entity: "aquamirae:eel"
 				id: "6B01FD67BDD9E501"
 				type: "kill"
 				value: 1L
 			}]
+			title: "&bSlay The Giant Eel&r"
 			x: 6.452380952380977d
 			y: -1.4309523809523768d
 		}
@@ -1585,13 +1589,14 @@
 			]
 			shape: "octagon"
 			size: 1.7d
-			subtitle: "Deep terror"
+			subtitle: "&fDeep terror&r"
 			tasks: [{
 				entity: "aquamirae:maze_mother"
 				id: "206688BD99D407D1"
 				type: "kill"
 				value: 1L
 			}]
+			title: "&dSlay The Mother of The Maze&r"
 			x: 6.309523809523839d
 			y: -5.466666666666669d
 		}
@@ -1668,13 +1673,14 @@
 			]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Ghostly terror"
+			subtitle: "&fGhostly terror&r"
 			tasks: [{
 				entity: "aquamirae:captain_cornelia"
 				id: "0D707BC5D0F86139"
 				type: "kill"
 				value: 1L
 			}]
+			title: "&5Slay Captain Cornelia&r"
 			x: 13.142857142857167d
 			y: -4.38095238095238d
 		}
