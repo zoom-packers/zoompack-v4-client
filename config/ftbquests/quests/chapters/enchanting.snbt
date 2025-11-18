@@ -27,14 +27,16 @@
 			y: 8.732142857142833d
 		}
 		{
+			color: 4394348
 			height: 20.0d
-			image: "apotheosis:blocks/hellshelf"
+			image: "minecraft:block/coal_block"
 			rotation: 0.0d
 			width: 20.0d
 			x: 1.5000000000000142d
 			y: -8.369047619047628d
 		}
 		{
+			color: 5000268
 			height: 20.0d
 			image: "minecraft:block/anvil"
 			rotation: 0.0d
@@ -43,44 +45,49 @@
 			y: 8.773809523809518d
 		}
 		{
+			color: 4394348
 			height: 20.0d
-			image: "apotheosis:blocks/glowing_hellshelf"
+			image: "minecraft:block/coal_block"
 			rotation: 0.0d
 			width: 20.0d
 			x: 18.642857142857153d
 			y: -8.369047619047628d
 		}
 		{
+			color: 5592405
 			height: 20.0d
-			image: "apotheosis:blocks/reforging/simple_table_top"
+			image: "minecraft:block/anvil"
 			rotation: 0.0d
 			width: 20.0d
 			x: 18.642857142857153d
 			y: 8.773809523809518d
 		}
 		{
+			color: 4394348
 			height: 20.0d
-			image: "apotheosis:blocks/glowing_hellshelf"
+			image: "minecraft:block/coal_block"
 			rotation: 0.0d
 			width: 20.0d
-			x: -15.642857142857139d
-			y: -8.404761904761877d
+			x: -15.678571428571274d
+			y: -8.357142857142733d
 		}
 		{
+			color: 5592405
 			height: 20.0d
-			image: "apotheosis:blocks/augmenting/top"
+			image: "minecraft:block/anvil"
 			rotation: 0.0d
 			width: 20.0d
-			x: -15.642857142857125d
-			y: 8.73809523809524d
+			x: -15.642857142857054d
+			y: 8.797619047619094d
 		}
 		{
+			color: 4394348
 			height: 20.0d
-			image: "apotheosis:blocks/rectifier_t2_top"
+			image: "minecraft:block/coal_block"
 			rotation: 0.0d
 			width: 20.0d
-			x: -15.642857142857125d
-			y: -25.54761904761905d
+			x: -15.714285714285566d
+			y: -25.511904761904653d
 		}
 		{
 			height: 1.0d
@@ -116,32 +123,36 @@
 			y: -25.511904761904695d
 		}
 		{
+			color: 4394348
 			height: 20.0d
-			image: "apotheosis:blocks/rectifier_t2_top"
+			image: "minecraft:block/coal_block"
 			rotation: 0.0d
 			width: 20.0d
 			x: 18.57142857142871d
 			y: -25.511904761904702d
 		}
 		{
+			color: 5592405
 			height: 20.0d
-			image: "ze_apotheosis:blocks/reforging/artisanal_table_top"
+			image: "minecraft:block/anvil"
 			rotation: 0.0d
 			width: 20.0d
 			x: 1.500000000000071d
 			y: 25.7916666666667d
 		}
 		{
+			color: 5592405
 			height: 20.0d
-			image: "apotheosis:blocks/reforging/table_top"
+			image: "minecraft:block/anvil"
 			rotation: 0.0d
 			width: 20.0d
 			x: 18.64285714285721d
 			y: 25.7916666666667d
 		}
 		{
+			color: 5592405
 			height: 20.0d
-			image: "ze_apotheosis:blocks/reforging/ultimate_table_top"
+			image: "minecraft:block/anvil"
 			rotation: 0.0d
 			width: 20.0d
 			x: -15.642857142857068d
@@ -216,8 +227,8 @@
 			image: "minecraft:block/gilded_blackstone"
 			rotation: 0.0d
 			width: 20.0d
-			x: -15.642857142857068d
-			y: -42.74404761904761d
+			x: -15.714285714285566d
+			y: -42.6547619047618d
 		}
 		{
 			height: 20.0d
@@ -275,6 +286,142 @@
 			x: -32.714285714285644d
 			y: -42.81547619047615d
 		}
+		{
+			height: 3.0d
+			image: "apotheosis:blocks/rectifier"
+			rotation: 0.0d
+			width: 3.0d
+			x: -15.714285714285595d
+			y: -11.369047619047507d
+		}
+		{
+			height: 3.0d
+			image: "apotheosis:blocks/rectifier_t2"
+			rotation: 0.0d
+			width: 3.0d
+			x: -15.857142857142719d
+			y: -17.369047619047507d
+		}
+		{
+			height: 3.0d
+			image: "apotheosis:blocks/rectifier_t3"
+			rotation: 0.0d
+			width: 3.0d
+			x: -15.857142857142719d
+			y: -22.6547619047618d
+		}
+		{
+			height: 3.0d
+			image: "apotheosis:blocks/beeshelf"
+			rotation: 0.0d
+			width: 3.0d
+			x: 18.5d
+			y: -7.5d
+		}
+		{
+			height: 3.0d
+			image: "apotheosis:blocks/sight_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: 17.285714285714377d
+			y: -13.476190476190453d
+		}
+		{
+			height: 3.0d
+			image: "apotheosis:blocks/sightshelf_t2"
+			rotation: 0.0d
+			width: 3.0d
+			x: 17.285714285714363d
+			y: -18.833333333333314d
+		}
+		{
+			height: 4.0d
+			image: "apotheosis:blocks/augmenting/top"
+			rotation: 0.0d
+			width: 4.0d
+			x: -16.0d
+			y: 9.0d
+		}
+		{
+			height: 4.0d
+			image: "apotheosis:blocks/reforging/simple_table_top"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.0d
+			y: 14.0d
+		}
+		{
+			height: 4.0d
+			image: "apotheosis:blocks/reforging/reforging_table_top"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			height: 4.0d
+			image: "ze_apotheosis:blocks/reforging/artisanal_table_top"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			height: 4.0d
+			image: "ze_apotheosis:blocks/reforging/enhanced_table_top"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.0d
+			y: 20.0d
+		}
+		{
+			height: 4.0d
+			image: "ze_apotheosis:blocks/reforging/ultimate_table_top"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.0d
+			y: 26.0d
+		}
+		{
+			height: 4.0d
+			image: "ze_apotheosis:blocks/reforging/god_table_top"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.0d
+			y: 26.0d
+		}
+		{
+			height: 4.0d
+			image: "ftbchunks:textures/faces/minecraft/warden.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -7.0d
+			y: -27.0d
+		}
+		{
+			height: 4.0d
+			image: "apotheosis:blocks/ender_library/side"
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.5d
+			y: -28.5d
+		}
+		{
+			height: 4.0d
+			image: "apotheosis:blocks/library/side2"
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.5d
+			y: -13.5d
+		}
+		{
+			height: 4.0d
+			image: "apotheosis:blocks/pearl_endshelf"
+			rotation: 0.0d
+			width: 4.0d
+			x: 10.5d
+			y: -29.0d
+		}
 	]
 	order_index: 8
 	quest_links: [ ]
@@ -308,7 +455,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "57B4D969A0A22E62"
 				item: {
@@ -318,8 +465,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.75d
-			y: -10.25d
+			x: 1.5d
+			y: -6.75d
 		}
 		{
 			dependencies: ["10A8F0127984BE6D"]
@@ -355,7 +502,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "0006AB08F43A92EA"
 				item: {
@@ -365,8 +512,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: -11.75d
+			x: -2.25d
+			y: -9.75d
 		}
 		{
 			dependencies: ["3C4248C07C607EA0"]
@@ -407,7 +554,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "2E764F0B5D835BEE"
 				item: {
@@ -417,8 +564,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: -14.75d
+			x: -4.5d
+			y: -12.75d
 		}
 		{
 			dependencies: ["01973B3C21157BF5"]
@@ -450,7 +597,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "001AAF945B829E62"
 				item: {
@@ -460,8 +607,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: -17.0d
+			x: -2.25d
+			y: -14.25d
 		}
 		{
 			id: "3DD8A0C2E23281ED"
@@ -482,7 +629,7 @@
 				}
 			]
 			shape: "diamond"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				count: 16L
 				id: "1D381E260830B2AA"
@@ -493,8 +640,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: -7.25d
+			x: 18.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["01973B3C21157BF5"]
@@ -517,7 +664,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "514E0E5730E364F5"
 				item: {
@@ -527,8 +674,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.75d
-			y: -14.75d
+			x: -15.75d
+			y: -11.25d
 		}
 		{
 			id: "110DFCC05D6EC3E3"
@@ -550,7 +697,7 @@
 				}
 			]
 			shape: "diamond"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				count: 4L
 				id: "5147E7B635506D67"
@@ -561,8 +708,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.25d
-			y: -7.25d
+			x: 12.0d
+			y: -6.75d
 		}
 		{
 			dependencies: ["3DD8A0C2E23281ED"]
@@ -572,8 +719,8 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			shape: "square"
-			size: 1.5d
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "0D2C4D685A2A49F0"
 				item: {
@@ -583,11 +730,10 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: -9.5d
+			x: 18.357142857142932d
+			y: -7.404761904761884d
 		}
 		{
-			dependencies: ["488C1D6199033139"]
 			id: "04D361E7CB5B2DB5"
 			rewards: [
 				{
@@ -606,7 +752,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "63E17FC42851C838"
 				item: {
@@ -616,10 +762,11 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -19.25d
+			x: -7.0d
+			y: -18.0d
 		}
 		{
+			hide_dependent_lines: true
 			id: "488C1D6199033139"
 			rewards: [
 				{
@@ -650,8 +797,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -7.25d
+			x: -15.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["04D361E7CB5B2DB5"]
@@ -674,7 +821,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "4D4DB6172D39E70E"
 				item: {
@@ -684,8 +831,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.25d
-			y: -22.0d
+			x: -7.0d
+			y: -20.0d
 		}
 		{
 			dependencies: ["6AD9B6215F68087E"]
@@ -707,7 +854,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "54D553C3FE63EFDF"
 				item: {
@@ -717,8 +864,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.25d
-			y: -26.75d
+			x: -4.0d
+			y: -24.0d
 		}
 		{
 			dependencies: ["4E6BB36293A2D13E"]
@@ -739,8 +886,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.75d
-			y: -17.75d
+			x: -15.75d
+			y: -17.25d
 		}
 		{
 			dependencies: ["6850EEF8AA9BDFFE"]
@@ -773,8 +920,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.75d
-			y: -20.75d
+			x: -15.75d
+			y: -22.5d
 		}
 		{
 			dependencies: [
@@ -838,8 +985,8 @@
 				type: "item"
 			}]
 			title: "&6Great Library&r"
-			x: 0.6904761904762751d
-			y: -14.619047619047599d
+			x: 1.5000000000000426d
+			y: -13.619047619047592d
 		}
 		{
 			dependencies: ["6AD9B6215F68087E"]
@@ -861,7 +1008,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "481EDAE252888480"
 				item: {
@@ -871,8 +1018,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.25d
-			y: -26.75d
+			x: -10.0d
+			y: -24.0d
 		}
 		{
 			dependencies: [
@@ -886,7 +1033,7 @@
 				xp_levels: 1
 			}]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "0CEBADDA13942191"
 				item: {
@@ -896,8 +1043,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.25d
-			y: -29.75d
+			x: -10.0d
+			y: -28.0d
 		}
 		{
 			id: "017B2AD3139FAA5D"
@@ -907,7 +1054,7 @@
 				xp_levels: 2
 			}]
 			shape: "diamond"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "59A9A7ECDC6CD18F"
 				item: {
@@ -917,8 +1064,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.25d
-			y: -28.25d
+			x: -7.0d
+			y: -27.0d
 		}
 		{
 			dependencies: [
@@ -932,7 +1079,7 @@
 				xp_levels: 1
 			}]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "1C674B915B882B81"
 				item: {
@@ -942,8 +1089,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.25d
-			y: -29.75d
+			x: -4.0d
+			y: -28.0d
 		}
 		{
 			id: "7412B94A8A9EC29B"
@@ -953,7 +1100,7 @@
 				xp_levels: 1
 			}]
 			shape: "diamond"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "1EB7893480CDA3A7"
 				item: {
@@ -963,14 +1110,31 @@
 				}
 				type: "item"
 			}]
-			x: 6.75d
-			y: -29.75d
+			x: 10.5d
+			y: -26.25d
 		}
 		{
 			dependencies: ["7412B94A8A9EC29B"]
 			id: "177FF7926F0419BF"
+			rewards: [
+				{
+					id: "1B1512B843A9DB7C"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 3
+					id: "0452B08520451482"
+					item: {
+						Count: 1
+						id: "minecraft:end_stone_bricks"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "2B61A3F3F3C8D266"
 				item: {
@@ -980,8 +1144,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.75d
-			y: -32.0d
+			x: 10.5d
+			y: -28.5d
 		}
 		{
 			dependencies: ["177FF7926F0419BF"]
@@ -989,10 +1153,10 @@
 			rewards: [{
 				id: "6DA3B0754B7A9A4A"
 				type: "xp_levels"
-				xp_levels: 1
+				xp_levels: 5
 			}]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "0A000D4050D053F3"
 				item: {
@@ -1002,8 +1166,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -32.0d
+			x: 12.75d
+			y: -28.5d
 		}
 		{
 			dependencies: ["177FF7926F0419BF"]
@@ -1011,10 +1175,10 @@
 			rewards: [{
 				id: "60FFEE7A6DD6DADF"
 				type: "xp_levels"
-				xp_levels: 1
+				xp_levels: 10
 			}]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "6E7A3D7C7AA2DDB7"
 				item: {
@@ -1024,8 +1188,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -32.0d
+			x: 8.25d
+			y: -28.5d
 		}
 		{
 			dependencies: ["10A8F0127984BE6D"]
@@ -1061,7 +1225,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "25A7BE95A89F430D"
 				item: {
@@ -1071,8 +1235,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -11.75d
+			x: 5.25d
+			y: -9.75d
 		}
 		{
 			dependencies: ["5D61B5864DE9D788"]
@@ -1103,7 +1267,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "2EDD0A61C7AF0F62"
 				item: {
@@ -1113,8 +1277,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -14.75d
+			x: 7.5d
+			y: -12.75d
 		}
 		{
 			dependencies: ["5773AC747C6C7E19"]
@@ -1147,7 +1311,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "1918611A9FA85171"
 				item: {
@@ -1157,8 +1321,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.75d
-			y: -13.25d
+			x: 9.75d
+			y: -9.75d
 		}
 		{
 			dependencies: ["5773AC747C6C7E19"]
@@ -1189,7 +1353,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "1DED62D97B5C81B9"
 				item: {
@@ -1199,8 +1363,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -17.0d
+			x: 9.75d
+			y: -15.75d
 		}
 		{
 			dependencies: ["01973B3C21157BF5"]
@@ -1240,7 +1404,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "0D85BE625B24C87E"
 				item: {
@@ -1250,8 +1414,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -13.25d
+			x: -6.75d
+			y: -9.75d
 		}
 		{
 			dependencies: ["5773AC747C6C7E19"]
@@ -1284,7 +1448,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "5D0D92F383FA3F45"
 				item: {
@@ -1294,8 +1458,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: -17.75d
+			x: 17.25d
+			y: -13.5d
 		}
 		{
 			dependencies: ["386A2A19867B6844"]
@@ -1317,7 +1481,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "7D384B8A353427C0"
 				item: {
@@ -1327,8 +1491,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: -23.75d
+			x: 17.25d
+			y: -18.75d
 		}
 		{
 			dependencies: ["01973B3C21157BF5"]
@@ -1359,7 +1523,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "5816D564F4F818FA"
 				item: {
@@ -1369,8 +1533,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -16.25d
+			x: -7.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["6AD9B6215F68087E"]
@@ -1412,7 +1576,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "43D4177B44B3BBDD"
 				item: {
@@ -1422,8 +1586,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.25d
-			y: -25.25d
+			x: -7.0d
+			y: -24.0d
 		}
 		{
 			dependencies: ["10A8F0127984BE6D"]
@@ -1446,7 +1610,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "18FADBE43CE5BA1B"
 				item: {
@@ -1456,8 +1620,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: -9.5d
+			x: -2.25d
+			y: -6.75d
 		}
 		{
 			dependencies: ["10A8F0127984BE6D"]
@@ -1479,7 +1643,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "6396017576B9FDC0"
 				item: {
@@ -1489,8 +1653,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -9.5d
+			x: 5.25d
+			y: -6.75d
 		}
 		{
 			description: ["&2Drop any gem on the ground and crush it with an anvil by placing the anvil a couple blocks above it.&r"]
@@ -1547,8 +1711,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 8.0d
+			x: 1.3571428571429465d
+			y: 8.023809523809575d
 		}
 		{
 			description: [
@@ -1613,8 +1777,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.25d
-			y: 4.5d
+			x: -8.25d
+			y: 14.25d
 		}
 		{
 			id: "3383C221FF0DE453"
@@ -1646,8 +1810,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: 4.5d
+			x: 13.5d
+			y: 11.25d
 		}
 		{
 			dependencies: ["3383C221FF0DE453"]
@@ -1680,8 +1844,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.25d
-			y: 4.5d
+			x: 11.25d
+			y: 11.25d
 		}
 		{
 			dependencies: ["4DC800D46E0315C5"]
@@ -1714,8 +1878,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: 4.5d
+			x: 9.0d
+			y: 11.25d
 		}
 		{
 			id: "03CA443523FEDAB6"
@@ -1747,8 +1911,8 @@
 				}
 				type: "item"
 			}]
-			x: 24.0d
-			y: 8.25d
+			x: 12.0d
+			y: 20.25d
 		}
 		{
 			id: "2309ACBB270133D1"
@@ -1780,7 +1944,7 @@
 				}
 				type: "item"
 			}]
-			x: 24.0d
+			x: -9.0d
 			y: 20.25d
 		}
 		{
@@ -1812,8 +1976,8 @@
 				}
 				type: "item"
 			}]
-			x: 23.25d
-			y: 25.5d
+			x: -8.25d
+			y: 26.25d
 		}
 		{
 			id: "5561DA9A34508240"
@@ -1844,8 +2008,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 22.5d
+			x: 12.0d
+			y: 26.25d
 		}
 		{
 			dependencies: ["28D36533F9F55C69"]
@@ -1877,8 +2041,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.2857142857144055d
-			y: 29.988095238095298d
+			x: 6.0d
+			y: 30.0d
 		}
 		{
 			dependencies: ["687F6ADAB64B6770"]
@@ -1911,8 +2075,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 14.0d
+			x: -3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["687F6ADAB64B6770"]
@@ -1945,8 +2109,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 14.0d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -2002,8 +2166,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 8.0d
+			x: -4.0d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -2059,8 +2223,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.0d
-			y: 8.0d
+			x: 6.0d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -2115,8 +2279,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.07142857142864d
-			y: 8.166666666666714d
+			x: 6.0d
+			y: 20.0d
 		}
 		{
 			dependencies: [
@@ -2171,8 +2335,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.642857142857224d
-			y: 20.238095238095283d
+			x: -4.0d
+			y: 20.0d
 		}
 		{
 			dependencies: [
@@ -2216,8 +2380,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
-			y: 25.0d
+			x: -4.0d
+			y: 26.0d
 		}
 		{
 			dependencies: [
@@ -2243,7 +2407,7 @@
 				}
 			]
 			shape: "square"
-			size: 3.0d
+			size: 2.0d
 			tasks: [{
 				id: "4F2946E8FBDF0D4A"
 				item: {
@@ -2253,8 +2417,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.357142857142918d
-			y: 26.023809523809575d
+			x: 6.0d
+			y: 26.0d
 		}
 		{
 			dependencies: ["687F6ADAB64B6770"]
@@ -2286,7 +2450,7 @@
 				}
 			]
 			shape: "square"
-			size: 3.0d
+			size: 2.0d
 			tasks: [{
 				id: "3458B027C904E627"
 				item: {
@@ -2296,8 +2460,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.785714285714235d
-			y: 8.880952380952422d
+			x: -16.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["687F6ADAB64B6770"]
@@ -2330,8 +2494,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.9285714285713453d
-			y: 12.166666666666714d
+			x: 17.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0A8F7DE8F8383D32"]
@@ -2364,8 +2528,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: 13.5d
+			x: 15.0d
+			y: 5.25d
 		}
 		{
 			dependencies: ["0A8F7DE8F8383D32"]
@@ -2398,8 +2562,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: 15.0d
+			x: 16.5d
+			y: 3.75d
 		}
 		{
 			dependencies: ["0A8F7DE8F8383D32"]
@@ -2432,8 +2596,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 16.5d
+			x: 15.75d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0A8F7DE8F8383D32"]
@@ -2466,8 +2630,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: 16.5d
+			x: 18.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["0A8F7DE8F8383D32"]
@@ -2500,8 +2664,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 16.5d
+			x: 18.75d
+			y: 4.5d
 		}
 		{
 			description: [
@@ -2571,8 +2735,8 @@
 				type: "item"
 			}]
 			title: "&4Library of Alexandria&r"
-			x: 0.6899999999999995d
-			y: -33.0d
+			x: 1.5d
+			y: -28.75d
 		}
 		{
 			dependencies: ["488C1D6199033139"]
@@ -2591,7 +2755,7 @@
 				}
 				type: "item"
 			}]
-			shape: "octagon"
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "601F12AD5A8B2227"
@@ -2602,8 +2766,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.75d
-			y: -8.75d
+			x: -19.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["488C1D6199033139"]
@@ -2622,7 +2786,7 @@
 				}
 				type: "item"
 			}]
-			shape: "octagon"
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "01032EF8A3BB51E7"
@@ -2633,8 +2797,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.75d
-			y: -7.25d
+			x: -18.75d
+			y: -2.25d
 		}
 		{
 			dependencies: ["488C1D6199033139"]
@@ -2653,7 +2817,7 @@
 				}
 				type: "item"
 			}]
-			shape: "octagon"
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "01CE5B187E508285"
@@ -2664,8 +2828,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.75d
-			y: -5.75d
+			x: -20.25d
+			y: -2.25d
 		}
 		{
 			dependencies: ["488C1D6199033139"]
@@ -2684,7 +2848,7 @@
 				}
 				type: "item"
 			}]
-			shape: "octagon"
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "5F3786962EA20CD0"
@@ -2695,8 +2859,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.75d
-			y: -4.25d
+			x: -19.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["488C1D6199033139"]
@@ -2726,8 +2890,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.25d
-			y: -10.25d
+			x: -20.25d
+			y: -5.25d
 		}
 		{
 			dependencies: ["488C1D6199033139"]
@@ -2757,8 +2921,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: -9.5d
+			x: -19.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["488C1D6199033139"]
@@ -2788,8 +2952,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.75d
-			y: -10.25d
+			x: -18.75d
+			y: -5.25d
 		}
 		{
 			dependencies: ["488C1D6199033139"]
@@ -2819,8 +2983,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: -11.0d
+			x: -19.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["488C1D6199033139"]
@@ -2841,8 +3005,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: -4.25d
+			x: -18.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["488C1D6199033139"]
@@ -2875,8 +3039,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.6899999999999995d
-			y: -7.25d
+			x: -15.75d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6536F6C5AB79513F"]
@@ -2908,8 +3072,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.6899999999999995d
-			y: -12.5d
+			x: -15.75d
+			y: -4.5d
 		}
 		{
 			dependencies: ["03D8D11682016765"]
@@ -2946,8 +3110,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.69d
-			y: -18.0d
+			x: -15.75d
+			y: -6.0d
 		}
 		{
 			id: "32F1F82A83EA5786"
@@ -2983,7 +3147,7 @@
 				}
 			]
 			shape: "diamond"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "1D82367F12F682E1"
 				item: {
@@ -2993,8 +3157,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -7.25d
+			x: 1.5d
+			y: -9.75d
 		}
 		{
 			id: "7CC831C8FE8F34AE"
@@ -3014,8 +3178,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: -13.25d
+			x: -6.0d
+			y: -6.75d
 		}
 		{
 			dependencies: ["52559071C1776FCD"]
@@ -3123,8 +3287,8 @@
 				}
 			]
 			title: "&5Corupted Heart&r"
-			x: 3.5d
-			y: -21.5d
+			x: 4.5d
+			y: -18.0d
 		}
 	]
 	title: "&6Apotheosis&r"

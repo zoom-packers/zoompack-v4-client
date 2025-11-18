@@ -406,6 +406,10 @@
 				"&2Look around in the everdawn for yet another blinding mage tower.&r "
 				"You can start the encounter by using keys found inside the chests around the labyrinth and afterwards re-summon the boss using the arc."
 				"&4Warning re-summoning using the arc boosts difficulty.&r"
+				""
+				""
+				""
+				"{image:vahmas_creator_pack:textures/gui/boss_alchemist.png width:150 height:100 align:1 fit:true}"
 			]
 			icon: {
 				Count: 1
@@ -483,6 +487,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Defeat the Alchemist"
 			x: 9.0d
 			y: -6.0d
 		}
@@ -492,6 +497,11 @@
 				"&2Look around in the everdawn for the Spider Tree it covers the entrance to the poison labyrinth.&r "
 				"You can start the encounter by using keys found inside the chests around the labyrinth and afterwards re-summon the boss using the arc."
 				"&4Warning re-summoning using the arc boosts difficulty.&r"
+				""
+				""
+				""
+				""
+				"{image:vahmas_creator_pack:textures/gui/boss_everdawn_poison.png width:150 height:100 align:1 fit:true}"
 			]
 			icon: "handcrafted:spider_trophy"
 			id: "3B19C945BDFB960A"
@@ -560,6 +570,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Defeat the Arachnarch"
 			x: 12.0d
 			y: -6.0d
 		}
@@ -691,6 +702,11 @@
 				"&2Look around in the everbright for the blinding mage tower.&r"
 				"You can start the encounter by using keys found inside the chests around the tower and afterwards re-summon the boss using the arc."
 				"&4Warning re-summoning using the arc boosts difficulty.&r"
+				""
+				""
+				""
+				""
+				"{image:vahmas_creator_pack:textures/gui/boss_everbright_poison.png width:150 height:100 align:1 fit:true}"
 			]
 			icon: "everythingisedibleeie:vex_wing"
 			id: "5787B09F378D0A9F"
@@ -771,6 +787,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Defeat the Summoner"
 			x: 8.0d
 			y: 4.0d
 		}
@@ -780,6 +797,11 @@
 				"&2Look around in the everbright for the nature dungeon.&r "
 				"You can start the encounter by using keys found inside the chests around the labyrinth and afterwards re-summon the boss using the arc."
 				"&4Warning re-summoning using the arc boosts difficulty.&r"
+				""
+				""
+				""
+				""
+				"{image:vahmas_creator_pack:textures/gui/boss_everbright_nature.png width:150 height:100 align:1 fit:true}"
 			]
 			icon: "croptopia:starfruit"
 			id: "4A6D478292BA06F6"
@@ -850,6 +872,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Defeat Starlit Crusher"
 			x: 11.0d
 			y: 3.0d
 		}

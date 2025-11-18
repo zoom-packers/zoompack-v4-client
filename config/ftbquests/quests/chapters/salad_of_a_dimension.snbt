@@ -251,13 +251,22 @@
 			x: 1.0d
 			y: 0.0d
 		}
+		{
+			color: 4849738
+			height: 3.0d
+			image: "minecraft:block/sunflower_front"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.535714285714292d
+			y: -0.6678571428571303d
+		}
 	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["443C276C7BAB15D6"]
-			description: ["&7With the portal lit, it's time to step into the Undergarden, a dimension shrouded in darkness and mystery. As you cross the threshold, prepare for a world unlike any other, teeming with unique resources and dangerous creatures. Be vigilant—survival in the Undergarden demands courage and cunning. Explore its eerie landscapes, gather rare materials, and uncover secrets long forgotten. The journey ahead will be perilous, but the rewards are great for those who dare to brave the depths."]
+			description: [""]
 			icon: "theabyss:infected_grass"
 			id: "4FF94E7816313E70"
 			rewards: [{
@@ -273,11 +282,11 @@
 				type: "dimension"
 			}]
 			title: "Hidden Jungle Part 2"
-			x: -1.0714285714285694d
-			y: 2.6357142857142932d
+			x: -1.6428571428571388d
+			y: 3.778571428571439d
 		}
 		{
-			description: ["&7The Underworld calls, but to reach it, you must first harness its catalyst. Deep within the Overworld lies the Catalyst, a rare item needed to access the mysterious realm known as the Undergarden. Seek out this precious item through exploration or crafting. Once obtained, construct a portal frame using Stone Bricks and activate it with the Catalyst. The eerie glow will reveal the gateway to the Undergarden—a place of strange flora, ominous creatures, and untold secrets. Prepare yourself for the unknown!"]
+			description: [""]
 			id: "443C276C7BAB15D6"
 			rewards: [{
 				id: "5DC4354913D3DA8D"
@@ -297,7 +306,7 @@
 		}
 		{
 			dependencies: ["4FF94E7816313E70"]
-			description: ["&7The frigid depths of the Undergarden conceal a valuable resource: Froststeel. This rare metal, infused with the icy essence of the realm, is highly sought after for its strength and durability. To obtain it, you must mine Froststeel Ore found deep within the frosty biomes of the Undergarden. Smelt the ore in a furnace to create Froststeel Ingots—a crucial material for crafting powerful tools and armor that can withstand the harshest of environments. Brave the cold, and let the frost guide your way to untold power!"]
+			description: [""]
 			id: "5C0F5BD4A341EE6E"
 			rewards: [
 				{
@@ -327,12 +336,12 @@
 				type: "item"
 			}]
 			title: "Steel of Frost"
-			x: -2.642857142857139d
-			y: 0.5642857142857309d
+			x: -3.857142857142854d
+			y: 0.9928571428571544d
 		}
 		{
 			dependencies: ["5C0F5BD4A341EE6E"]
-			description: ["&7Beneath the murky swamps of the Undergarden lies a hidden treasure: Mud Ingots. This unusual metal, forged from Cloggrum Ore and the rich mud of the realm, holds surprising strength. To craft these ingots, collect Cloggrum Ore and combine it with the dense mud found in the dark, marshy biomes of the Undergarden. Smelt this mixture to create Mud Ingots, a material perfect for crafting durable gear with unique properties. Embrace the muck, for within it lies the key to resilient tools and armor!"]
+			description: [""]
 			id: "59666E245031C7ED"
 			rewards: [
 				{
@@ -362,12 +371,12 @@
 				type: "item"
 			}]
 			title: "Mud ingot"
-			x: -1.9285714285714306d
-			y: -2.8642857142856997d
+			x: -2.5714285714285765d
+			y: -3.1499999999999844d
 		}
 		{
 			dependencies: ["59666E245031C7ED"]
-			description: ["&7Deep within the shadowed caverns of the Undergarden, a radiant energy pulses from within the earth—Utherium Crystals. These rare and powerful crystals are prized for their mystical properties, capable of enhancing your tools, weapons, and more. To obtain them, delve into the most dangerous depths, where the air hums with energy and the walls glow faintly with eerie light. Mine these precious crystals with care; their power is immense but not easily tamed. Harness the energy of the Undergarden with Utherium Crystals and unlock your true potential!"]
+			description: [""]
 			id: "0C63004C99406DBD"
 			rewards: [
 				{
@@ -397,12 +406,12 @@
 				type: "item"
 			}]
 			title: "Utherium"
-			x: 1.0714285714285694d
-			y: -3.5071428571428456d
+			x: 1.142857142857153d
+			y: -4.435714285714269d
 		}
 		{
 			dependencies: ["01130E9743A8E5A5"]
-			description: ["&7Hidden in the remains of the ancient Forgotten Guardians lies a rare material known as Forgotten Steel. This metal, forged from the essence of the Undergarden’s past, is both strong and mysterious. To obtain it, defeat a Forgotten Guardian and claim its essence. Smelt the essence into Forgotten Steel Ingots, a vital resource for crafting powerful relics and gear. Harness the strength of the forgotten and wield the might of the Undergarden’s lost history!"]
+			description: [""]
 			id: "55BA21A39EB22E95"
 			rewards: [
 				{
@@ -424,20 +433,24 @@
 				item: "undergarden:forgotten_ingot"
 				type: "item"
 			}]
-			x: 3.142857142857139d
-			y: 3.064285714285731d
+			x: 2.9285714285714164d
+			y: 4.492857142857154d
 		}
 		{
 			dependencies: ["242DD57B316BCAC9"]
-			description: ["&7A menacing force guards the secrets of the Undergarden—the Forgotten Guardian. This ancient entity prowls the depths, protecting its domain with relentless power. To progress, you must defeat this formidable foe. Prepare yourself for a fierce battle; only those who conquer the Guardian can claim its spoils and unlock the deeper mysteries of the Undergarden. Face the forgotten, and let no shadow stand in your way!"]
+			description: [
+				""
+				"{image:vahmas_creator_pack:textures/gui/boss_undergarden.png width:150 height:100 align:1 fit:true}"
+			]
+			icon: {
+				Count: 1
+				id: "undergarden:forgotten_battleaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "01130E9743A8E5A5"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "11DBE56F910372DF"
-					table_id: 8444144891421678922L
-					type: "choice"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "0B51E0E825490D9E"
@@ -450,23 +463,58 @@
 					table_id: 1795669360551144285L
 					type: "loot"
 				}
+				{
+					id: "48B57ACE3327A31D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "4299AFE137B2B709"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:epic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0AFC4AC491D55783"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:epic_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "14C4E951C6A482ED"
+					item: {
+						Count: 1
+						id: "apotheosis:epic_material"
+						tag: { }
+					}
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 3.0d
-			subtitle: "Find and kill a forgotten guardian in an undeground dungeon"
+			subtitle: "&2Find and kill a forgotten guardian in an undeground dungeon&r"
 			tasks: [{
 				entity: "undergarden:forgotten_guardian"
 				id: "2D31B83F2AF5AD0F"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Budget Golem"
-			x: 4.285714285714292d
-			y: 0.42142857142858503d
+			title: "&bBudget Golem&r"
+			x: 5.642857142857139d
+			y: 1.7785714285714462d
 		}
 		{
 			dependencies: ["0C63004C99406DBD"]
-			description: ["&7In the heart of the Undergarden lies a metal of unmatched rarity and value: Regalium. Known as the \"King's Metal,\" this shimmering ore is hidden deep within the most treacherous biomes. Mining Regalium Ore requires determination and keen exploration, as it is often found in dangerous, hard-to-reach areas. Once obtained, smelt the ore to produce Regalium Ingots, a material fit for crafting the finest tools, armor, and artifacts. With Regalium in hand, you'll wield the power and prestige of a true ruler of the Undergarden."]
+			description: [""]
 			id: "242DD57B316BCAC9"
 			rewards: [
 				{
@@ -491,43 +539,54 @@
 				type: "item"
 			}]
 			title: "Regalium"
-			x: 3.9285714285714306d
-			y: -2.7214285714285538d
+			x: 5.0d
+			y: -3.578571428571415d
 		}
 		{
-			dependencies: ["55BA21A39EB22E95"]
-			description: ["&7Among the relics of the Undergarden, none are as fearsome as the Forgotten Battleaxe. This ancient weapon, once wielded by the Forgotten Guardians, is a symbol of unmatched power. To claim it, you must gather Forgotten Steel and other rare materials, then craft the battleaxe using a special recipe. Once forged, the Forgotten Battleaxe will grant you immense strength in combat, cleaving through foes with the might of the ancients. Wield this weapon, and let the echoes of the past guide your strikes!"]
-			id: "2A0442070E8F3D6E"
+			description: [
+				""
+				"{image:vahmas_creator_pack:textures/gui/boss_kino.png width:150 height:100 align:1 fit:true}"
+			]
+			id: "02EA146F092A7947"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "41F8D7F4ADA048EF"
-					table_id: 9153771261078832289L
-					type: "choice"
+					count: 4
+					id: "46B7A846DB05131A"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:epic_material"
+						tag: { }
+					}
+					type: "item"
 				}
 				{
-					id: "3C8564E1CAD5D0F1"
+					count: 4
+					id: "3E7FCA21A1F976D2"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:epic_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4473AA705014ACC1"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 5
 				}
 			]
 			size: 2.0d
-			subtitle: "He needs THE AX!"
+			subtitle: "&4Warning boss encounter&r"
 			tasks: [{
-				id: "0C16FC7015DBBCBB"
-				item: {
-					Count: 1
-					id: "undergarden:forgotten_battleaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
+				entity: "mokels_boss_mantyd:boss_mantyd"
+				id: "6248ACE6BFF1F7B3"
+				type: "kill"
+				value: 1L
 			}]
-			title: "AX"
-			x: 0.7142857142857082d
-			y: 4.635714285714307d
+			title: "Squash Bug"
+			x: 3.5714285714285694d
+			y: -0.7214285714285538d
 		}
 	]
-	title: "&aSalad of a dimension&r"
+	title: "&aSalad dimension&r"
 }

@@ -1066,6 +1066,9 @@
 			dependencies: ["643CA4CD577CD3C5"]
 			description: [
 				"&4Warning the boss will awaken instantly after entering the arena.&r"
+				""
+				""
+				"{image:vahmas_creator_pack:textures/gui/boss_voidblossom.png width:150 height:100 align:1 fit:true}"
 				" "
 			]
 			icon: "bosses_of_mass_destruction:void_thorn"
@@ -1136,7 +1139,10 @@
 			dependencies: ["4B206DEC6377851A"]
 			description: [
 				"&6Place the souls on the pedestals. After placing 4 the battle will commence.&r"
-				"&4Warning Range weapons RECOMMENDED!&r"
+				"&4Warning Ranged weapons RECOMMENDED!&r"
+				""
+				""
+				"{image:vahmas_creator_pack:textures/gui/boss_night_lich.png width:150 height:100 align:1 fit:true}"
 			]
 			icon: {
 				Count: 1
@@ -1461,7 +1467,13 @@
 			y: -6.5d
 		}
 		{
-			description: ["&6Found in the Deep Frozen Ocean Biome underground in the shelter.&r"]
+			dependencies: ["443091EC44A03E30"]
+			description: [
+				"&6Found in the Deep Frozen Ocean Biome underground in the shelter.&r"
+				""
+				""
+				"{image:vahmas_creator_pack:textures/gui/boss_aqua.png width:150 height:100 align:1 fit:true}"
+			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1527,6 +1539,7 @@
 			y: -1.4309523809523768d
 		}
 		{
+			dependencies: ["443091EC44A03E30"]
 			description: ["&6After wandering around for a while you will feel the earth shaking beneath you.&r"]
 			icon: {
 				Count: 1
@@ -1685,6 +1698,7 @@
 			y: -4.38095238095238d
 		}
 		{
+			dependencies: ["443091EC44A03E30"]
 			description: ["&6Look around the Deep Frozen Ocean Biome. Kill and Pillage you will find it eventually...&r"]
 			id: "773A495C7A41276C"
 			rewards: [{
@@ -1729,6 +1743,97 @@
 			}]
 			x: -0.28571428571424917d
 			y: -14.17857142857143d
+		}
+		{
+			id: "443091EC44A03E30"
+			rewards: [
+				{
+					id: "1FAFB1F1D5E64EA5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "6919F48707DB50BB"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:deep_frozen_ocean"
+				icon: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:common"
+						}
+						gem: "zoomers_magic_apotheosis:magic_gems/spell_ice"
+					}
+				}
+				id: "674BE0D169377136"
+				title: "Find the deep frozen ocean"
+				type: "biome"
+			}]
+			title: "Find the frozen ocean"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_block"
+				tag: { }
+			}
+			id: "6AFF258536EB1397"
+			rewards: [
+				{
+					id: "475357624AB2478E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 10
+					id: "754170DE79E9F252"
+					item: {
+						Count: 1
+						id: "minecraft:diamond"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5877AB2C2147D8DC"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:looting"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "&6Conquer a battle tower&r"
+			tasks: [{
+				entity: "battletowers:battle_tower_golem"
+				id: "2CB389169C5740D3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the battle tower"
+			x: 4.0d
+			y: -9.0d
 		}
 	]
 	title: "&2Home World&r"

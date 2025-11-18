@@ -96,17 +96,12 @@
 				"0F1B354191B2C626"
 				"242D7BC20C1B3480"
 			]
-			description: ["&7Step through the End portal and enter the End. This mysterious dimension is filled with new challenges, rare resources, and secrets waiting to be discovered. Explore its void, face its formidable foes, and uncover the mysteries that lie beyond the portal!"]
+			description: [""]
 			icon: "minecraft:end_portal_frame"
 			id: "1524A7053FBA0402"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "622922F893BC107A"
-				table_id: 1610080839990707444L
-				type: "choice"
-			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "We have all been here"
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "543FD4E25510AAD4"
@@ -118,126 +113,154 @@
 		}
 		{
 			dependencies: ["1524A7053FBA0402"]
+			description: [""]
 			id: "3D1D4DB94127689A"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5F3CF5B58F82482A"
-					table_id: 7559836027894330734L
-					type: "choice"
-				}
 				{
 					id: "05CD84B1281CDFCC"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
-					id: "09B97729775F619A"
+					count: 3
+					id: "4F24A0B2BFA0C0AD"
 					item: {
 						Count: 1
-						id: "fantasy_armor:dragonslayer_helmet"
-						tag: {
-							Count: 1b
-							Damage: 0
-							Unbreakable: 1b
-							id: "fantasy_armor:dragonslayer_helmet"
-							tag: {
-								Count: 1b
-								Damage: 0
-								Unbreakable: 1b
-								id: "fantasy_armor:dragonslayer_helmet"
-							}
-						}
+						id: "fortunas_anvil:legendary_material"
+						tag: { }
 					}
 					type: "item"
 				}
 				{
-					id: "172B651F876FFED8"
+					count: 3
+					id: "51BF1CC3C0233085"
 					item: {
 						Count: 1
-						id: "fantasy_armor:dragonslayer_chestplate"
-						tag: {
-							Count: 1b
-							Damage: 0
-							Unbreakable: 1b
-							id: "fantasy_armor:dragonslayer_chestplate"
-							tag: {
-								Count: 1b
-								Damage: 0
-								Unbreakable: 1b
-								id: "fantasy_armor:dragonslayer_chestplate"
-							}
-						}
+						id: "fortunas_anvil:epic_material"
+						tag: { }
 					}
 					type: "item"
 				}
 				{
-					id: "440BF7DC25381862"
+					count: 3
+					id: "2400118091ECAD96"
 					item: {
 						Count: 1
-						id: "fantasy_armor:dragonslayer_leggings"
-						tag: {
-							Count: 1b
-							Damage: 0
-							Unbreakable: 1b
-							id: "fantasy_armor:dragonslayer_leggings"
-							tag: {
-								Count: 1b
-								Damage: 0
-								Unbreakable: 1b
-								id: "fantasy_armor:dragonslayer_leggings"
-							}
-						}
+						id: "fortunas_anvil:epic_catalyst"
+						tag: { }
 					}
 					type: "item"
 				}
 				{
-					id: "6D3D6FB5CD3D9E24"
+					count: 3
+					id: "70CA74067FC27F56"
 					item: {
 						Count: 1
-						id: "fantasy_armor:dragonslayer_boots"
-						tag: {
-							Count: 1b
-							Damage: 0
-							Unbreakable: 1b
-							id: "fantasy_armor:dragonslayer_boots"
-							tag: {
-								Count: 1b
-								Damage: 0
-								Unbreakable: 1b
-								id: "fantasy_armor:dragonslayer_boots"
-							}
-						}
+						id: "fortunas_anvil:legendary_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "459B71F04ECDEB66"
+					table_id: 1795669360551144285L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F0702135E766E00"
+					table_id: 1610080839990707444L
+					type: "choice"
+				}
+				{
+					count: 3
+					id: "50E8891B7D11FE42"
+					item: {
+						Count: 1
+						id: "ze_apotheosis:celestial_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1B78E09415A46BD5"
+					item: {
+						Count: 1
+						id: "minecraft:dragon_egg"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0F2C7DDCEAD4B4F0"
+					item: {
+						Count: 1
+						id: "minecraft:dragon_head"
+						tag: { }
 					}
 					type: "item"
 				}
 			]
 			shape: "pentagon"
 			size: 3.0d
-			subtitle: "Face the mighty Ender Dragon in the heart of the End. This formidable beast guards the realm's greatest treasures. Defeat it to claim your victory, earn rare rewards, and unlock new possibilities for your adventure. Prepare for a battle that will test your strength and skill!"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				id: "28FD7790DFF67ECE"
+				title: "Defeat the dragon"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Same old, but wait it has 3 heads"
+			title: "Same old"
 			x: 9.500000000000014d
 			y: -0.8065476190476417d
 		}
 		{
+			description: [""]
 			id: "0F1B354191B2C626"
-			rewards: [{
-				id: "6ABB978D6D573B55"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "6ABB978D6D573B55"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "1EBB5D02A07D3D90"
+					item: {
+						Count: 1
+						id: "phantasm:crystal_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "19C1A57B7F9462C8"
+					item: {
+						Count: 1
+						id: "phantasm:void_crystal_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5F049D4A9CEFB0D1"
+					item: {
+						Count: 1
+						id: "ender_dragon_loot_:dragon_scale"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "Deep beneath the earth, you’ve unearthed the stronghold, a forgotten bastion of ancient secrets and hidden power. The path to the End is now within your grasp."
 			tasks: [{
 				id: "269E5802BD17BE3E"
 				structure: "betterstrongholds:stronghold"
+				title: "Find end stronghold"
 				type: "structure"
 			}]
 			title: "The stronghold"
@@ -246,14 +269,25 @@
 		}
 		{
 			dependencies: ["3D1D4DB94127689A"]
-			description: ["&7Claim the Dragon Egg after defeating the Ender Dragon. This rare treasure is a symbol of your triumph and can be used for powerful enchantments or as a valuable keepsake. Secure it and mark your victory in the End!"]
+			description: [""]
 			id: "4A6E11AE3DC9ADCE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7E8E33DFB6D9A020"
-				table_id: 4439647929272430439L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "005802ECC0FC45E4"
+					item: {
+						Count: 1
+						id: "ender_dragon_loot_:dragon_scale"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "43A2B448D61BE997"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "pentagon"
 			size: 2.0d
 			subtitle: "Omelette?"
@@ -267,43 +301,36 @@
 			y: -3.02083333333335d
 		}
 		{
-			dependencies: ["4A6E11AE3DC9ADCE"]
-			description: ["&7Discover the Elytra hidden within an End Ship. Glide through the End's expanse with these wings, offering unparalleled aerial mobility. Locate the ship, retrieve the Elytra, and take to the skies like never before!"]
-			id: "7D21477B0427485A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5FC4B62DE4FC123C"
-				table_id: 4439647929272430439L
-				type: "loot"
-			}]
-			shape: "rsquare"
-			size: 2.0d
-			subtitle: "Elytra"
-			tasks: [{
-				id: "13B6D49F5E422ECD"
-				item: {
-					Count: 1
-					id: "minecraft:elytra"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Wings of the Void"
-			x: 5.5d
-			y: -6.5d
-		}
-		{
 			dependencies: ["1524A7053FBA0402"]
-			description: ["&7Acquire the coveted Dragon’s Breath by confronting the Ender Dragon. As the beast unleashes its fiery attack, capture this rare and potent substance. Dragon’s Breath is essential for powerful potions and crafting unique items. Harness its power and elevate your mastery!"]
+			description: [""]
 			id: "597903365EB0C55E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7BE7533F40864919"
-				table_id: 4439647929272430439L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "5929F201BB42FD27"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 8
+					id: "6539F57AA9A991DD"
+					item: {
+						Count: 1
+						id: "phantasm:crystal_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "72A636612FB4D0D8"
+					item: {
+						Count: 1
+						id: "phantasm:void_crystal_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Hot hot hot!"
@@ -317,13 +344,12 @@
 		}
 		{
 			dependencies: ["4A6E11AE3DC9ADCE"]
-			description: ["&7Collect Shulker Shells by defeating Shulkers in the End. These elusive creatures drop shells that are essential for crafting unique storage solutions. Gather enough shells to enhance your inventory management and keep your loot safe!"]
+			description: [""]
 			id: "7DAB18743F487AF6"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "3031A997240A8897"
-				table_id: 4439647929272430439L
-				type: "loot"
+				id: "042FC4D1889BFF15"
+				type: "xp_levels"
+				xp_levels: 2
 			}]
 			shape: "rsquare"
 			size: 2.0d
@@ -339,49 +365,96 @@
 		}
 		{
 			dependencies: ["3D1D4DB94127689A"]
-			description: ["&7In the void's dark embrace, the ancient Obsidilith rises—a towering obelisk of obsidian, born from the depths of nothingness. Defeating this primordial force will unveil its secrets and reward the bravest of adventurers."]
+			description: [
+				"&6You can find the Obsidilith in the end atop structures that look like this:&r"
+				""
+				""
+				""
+				"{image:vahmas_creator_pack:textures/gui/boss_obsidilith.png width:150 height:100 align:1 fit:true}"
+			]
 			icon: "bosses_of_mass_destruction:obsidian_heart"
 			id: "7396F8EA48C42D37"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "297582AB7C3C01E3"
-					table_id: 7559836027894330734L
-					type: "choice"
-				}
 				{
 					id: "010BAEBF21109F1C"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
+					count: 3
+					id: "743504887313348F"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:legendary_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4B3875264DD0723D"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:legendary_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
 					exclude_from_claim_all: true
-					id: "611C8D0EA0D37E47"
-					table_id: 4439647929272430439L
+					id: "3465A7B2BD6F7F5C"
+					table_id: 1795669360551144285L
 					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "257F68D942EE0231"
+					table_id: 1610080839990707444L
+					type: "choice"
+				}
+				{
+					count: 3
+					id: "35C59D36CE6D2A2B"
+					item: {
+						Count: 1
+						id: "ze_apotheosis:celestial_material"
+						tag: { }
+					}
+					type: "item"
 				}
 			]
 			shape: "pentagon"
 			size: 3.0d
-			subtitle: "Find the obsidilith atop tall end structures"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:obsidilith"
 				id: "71829D9166C0F095"
 				type: "kill"
 				value: 1L
 			}]
+			title: "Defeat Obsidilith"
 			x: 11.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["1524A7053FBA0402"]
 			id: "31E824261150CF38"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "18AB3541E3A7C601"
-				table_id: 4439647929272430439L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "0D4D533674296C93"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "7EDDEBFEDFE5931A"
+					item: {
+						Count: 1
+						id: "theabyss:loran"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -395,14 +468,36 @@
 		{
 			dependencies: ["1524A7053FBA0402"]
 			id: "586E593539FB26AB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1451863110887FBE"
-				table_id: 2622458127975197730L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "02CF02A8FD82BD03"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 6
+					id: "732BFA9EC0B960C0"
+					item: {
+						Count: 1
+						id: "phantasm:crystal_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "0F073EC2160AAF3F"
+					item: {
+						Count: 1
+						id: "phantasm:void_crystal_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Useful later on"
 			tasks: [{
 				id: "19452220E34E49F0"
 				item: "theabyss:ender_crystal_ore"
@@ -1045,6 +1140,40 @@
 			}]
 			x: -9.583333333333329d
 			y: -0.6666666666666714d
+		}
+		{
+			dependencies: ["3D1D4DB94127689A"]
+			id: "1E31C4DDC92F3277"
+			rewards: [
+				{
+					count: 3
+					id: "76D120FE37090B1A"
+					item: {
+						Count: 1
+						id: "enderitemod:enderite_scrap"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "21BE847B673F7D7D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "171DBE21CA7B90BA"
+				item: {
+					Count: 1
+					id: "enderitemod:enderite_ore"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
 		}
 	]
 	title: "&5The end&r"

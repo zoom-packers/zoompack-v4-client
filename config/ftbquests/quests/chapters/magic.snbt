@@ -15,8 +15,8 @@
 			image: "minecraft:item/painting"
 			rotation: 0.0d
 			width: 12.0d
-			x: -11.0d
-			y: 1.0d
+			x: -10.684523809523817d
+			y: 1.4464285714285694d
 		}
 		{
 			height: 6.0d
@@ -269,7 +269,7 @@
 				type: "item"
 			}]
 			x: 6.75d
-			y: 1.5d
+			y: 2.25d
 		}
 		{
 			dependencies: ["6E95C1827586CB14"]
@@ -285,7 +285,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.25d
 			y: -2.25d
 		}
 		{
@@ -818,11 +818,22 @@
 		{
 			dependencies: ["23531B4743C73013"]
 			id: "68F28D5EE176912D"
-			rewards: [{
-				id: "2840CF19D9131852"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "2840CF19D9131852"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "16D80F52BA976254"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:blank_rune"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [
 				{
@@ -2906,6 +2917,23 @@
 		{
 			dependencies: ["59708B540874A36E"]
 			id: "4AD2330C19A328E9"
+			rewards: [
+				{
+					count: 2
+					id: "1BCABF4152D4FBC6"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:ancient_knowledge_fragment"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "05D6DC214C30E136"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "diamond"
 			subtitle: "&5Collect 9 of these&r"
 			tasks: [{
@@ -2944,6 +2972,11 @@
 		{
 			dependencies: ["6E95C1827586CB14"]
 			id: "59708B540874A36E"
+			rewards: [{
+				id: "64F3F4682B37CA41"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "&4This points to somewhere...&r"
@@ -3009,6 +3042,23 @@
 						Count: 1
 						id: "irons_spellbooks:ancient_knowledge_fragment"
 						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1CFE944699D8A0C8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:tarnished_helmet"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
 					}
 					type: "item"
 				}

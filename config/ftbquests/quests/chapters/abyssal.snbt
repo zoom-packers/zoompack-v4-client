@@ -24,7 +24,7 @@
 		}
 		{
 			height: 30.0d
-			image: "theabyss:block/blaru_log_top"
+			image: "aether:block/miscellaneous/unstable_obsidian_3"
 			rotation: 0.0d
 			width: 30.0d
 			x: 27.345238095238102d
@@ -198,13 +198,14 @@
 				xp_levels: 1
 			}]
 			size: 1.5d
+			subtitle: "Tier 1 abyss material"
 			tasks: [{
 				id: "7EE16BFA70D83FC8"
 				item: "theabyss:fusion_ore"
 				type: "item"
 			}]
-			x: -2.25d
-			y: -6.0d
+			x: -3.75d
+			y: -8.0d
 		}
 		{
 			dependencies: ["66A4C5E4A2DCED88"]
@@ -216,13 +217,14 @@
 				type: "loot"
 			}]
 			size: 1.5d
+			subtitle: "Tier 2 abyss material"
 			tasks: [{
 				id: "045A623851DE39E0"
 				item: "theabyss:aberythe_gem"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -7.5d
+			x: -3.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["66A4C5E4A2DCED88"]
@@ -234,13 +236,14 @@
 				type: "loot"
 			}]
 			size: 1.5d
+			subtitle: "Tier 3 abyss material"
 			tasks: [{
 				id: "114EB9B1EDA97143"
 				item: "theabyss:ignisithe_gem"
 				type: "item"
 			}]
-			x: -0.75d
-			y: -9.0d
+			x: -2.25d
+			y: -11.0d
 		}
 		{
 			dependencies: ["66A4C5E4A2DCED88"]
@@ -252,13 +255,14 @@
 				type: "loot"
 			}]
 			size: 1.5d
+			subtitle: "Tier 4 abyss material"
 			tasks: [{
 				id: "4DE2691C30128643"
 				item: "theabyss:glacerythe_gem"
 				type: "item"
 			}]
-			x: 0.75d
-			y: -10.5d
+			x: -0.75d
+			y: -12.5d
 		}
 		{
 			dependencies: ["66A4C5E4A2DCED88"]
@@ -270,13 +274,14 @@
 				type: "loot"
 			}]
 			size: 1.5d
+			subtitle: "Tier 5 abyss material"
 			tasks: [{
 				id: "51586CD87E01C50F"
 				item: "theabyss:unorithe_ingot"
 				type: "item"
 			}]
-			x: 2.25d
-			y: -11.25d
+			x: 0.75d
+			y: -13.25d
 		}
 		{
 			dependencies: ["66A4C5E4A2DCED88"]
@@ -288,13 +293,14 @@
 				type: "loot"
 			}]
 			size: 1.5d
+			subtitle: "Tier 6 abyss material"
 			tasks: [{
 				id: "1197F81824AF114D"
 				item: "theabyss:incorythe_gem"
 				type: "item"
 			}]
-			x: 3.75d
-			y: -12.0d
+			x: 2.25d
+			y: -14.0d
 		}
 		{
 			dependencies: ["46A6D90790580052"]
@@ -311,8 +317,8 @@
 				item: "theabyss:arcane_workbench"
 				type: "item"
 			}]
-			x: 6.75d
-			y: -9.0d
+			x: 5.25d
+			y: -11.0d
 		}
 		{
 			dependencies: ["66A4C5E4A2DCED88"]
@@ -331,8 +337,8 @@
 				item: "theabyss:crystal_cutter"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.5d
+			x: 4.773809523809547d
+			y: -2.5238095238095326d
 		}
 		{
 			dependencies: [
@@ -373,12 +379,6 @@
 					type: "item"
 				}
 				{
-					count: 2
-					id: "258EFA8D4D30BD27"
-					item: "minecraft:apple"
-					type: "item"
-				}
-				{
 					id: "0D16B8B34DE78CB5"
 					type: "xp_levels"
 					xp_levels: 1
@@ -392,19 +392,13 @@
 				item: "theabyss:mortar_and_pestle"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -3.5d
+			x: -5.083333333333314d
+			y: -3.5238095238095326d
 		}
 		{
 			dependencies: ["66A4C5E4A2DCED88"]
 			id: "5EBCA0D2D5030D12"
 			rewards: [
-				{
-					count: 3
-					id: "3D7887614BA84F42"
-					item: "croptopia:tea_leaves"
-					type: "item"
-				}
 				{
 					id: "4DA13A28B82BFE5C"
 					type: "xp_levels"
@@ -511,25 +505,17 @@
 				}
 				type: "item"
 			}]
-			x: 6.75d
-			y: -11.25d
+			x: 5.25d
+			y: -13.25d
 		}
 		{
 			dependencies: ["64161A8E64A38AE0"]
 			id: "027D95D93801FFEF"
-			rewards: [
-				{
-					count: 3
-					id: "54E46A9C3DCD7B0D"
-					item: "minecraft:ender_pearl"
-					type: "item"
-				}
-				{
-					id: "466E6587360224EA"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "466E6587360224EA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "7976997AEE073B27"
@@ -559,19 +545,11 @@
 		{
 			dependencies: ["64161A8E64A38AE0"]
 			id: "403BDA401FEB68BB"
-			rewards: [
-				{
-					count: 3
-					id: "72634A08FCEABA53"
-					item: "theabyss:glacerythe_gem"
-					type: "item"
-				}
-				{
-					id: "60CABB35D2326680"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "60CABB35D2326680"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "1FAA7A4370BF5101"
@@ -584,12 +562,6 @@
 		{
 			dependencies: ["64161A8E64A38AE0"]
 			id: "34368179FFA5D918"
-			rewards: [{
-				count: 2
-				id: "4719D4E0B08A7B34"
-				item: "minecraft:golden_apple"
-				type: "item"
-			}]
 			size: 1.5d
 			tasks: [{
 				id: "3D73C7F17399E5F9"
@@ -602,12 +574,6 @@
 		{
 			dependencies: ["64161A8E64A38AE0"]
 			id: "403448F1D8FEE76C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "27AF504BBD926852"
-				table_id: 5864491233161153354L
-				type: "loot"
-			}]
 			size: 1.5d
 			tasks: [{
 				id: "1E2A7F7A36A3FFEF"
@@ -620,12 +586,6 @@
 		{
 			dependencies: ["64161A8E64A38AE0"]
 			id: "520F55F002793B47"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1F5F72E9E27E3DD5"
-				table_id: 5864491233161153354L
-				type: "loot"
-			}]
 			size: 1.5d
 			tasks: [{
 				id: "43924E1CCA8B85CE"
@@ -638,19 +598,11 @@
 		{
 			dependencies: ["64161A8E64A38AE0"]
 			id: "0221089EC1AC4376"
-			rewards: [
-				{
-					count: 2
-					id: "3BBAC16B760F8CA1"
-					item: "theabyss:glacerythe_gem"
-					type: "item"
-				}
-				{
-					id: "33C25230DB5E9EE4"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "33C25230DB5E9EE4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "54B6D8E78F2982E9"
@@ -663,19 +615,11 @@
 		{
 			dependencies: ["64161A8E64A38AE0"]
 			id: "1CF5523345D678B5"
-			rewards: [
-				{
-					count: 2
-					id: "3A6F4AAC860690DD"
-					item: "minecraft:blaze_rod"
-					type: "item"
-				}
-				{
-					id: "2283EC9C23368FF5"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "2283EC9C23368FF5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "63D10E504807BA55"
@@ -688,12 +632,23 @@
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
 			id: "2B89C3E918FD7BDB"
-			rewards: [{
-				count: 32
-				id: "2C26B4E93F625F9B"
-				item: "create:iron_sheet"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "31689333BCCCF6D8"
+					item: {
+						Count: 1
+						id: "theabyss:abyss_crystal_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7408FB387C6B2FCF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -701,17 +656,29 @@
 				item: "theabyss:abyss_powder"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -10.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
 			id: "5798B2267C29A135"
-			rewards: [{
-				id: "4FA817342EBEC4EA"
-				item: "minecraft:enchanted_golden_apple"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "57308532237C1AA9"
+					item: {
+						Count: 1
+						id: "theabyss:aurel_crystal_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "199C300CF7DC4340"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -719,18 +686,29 @@
 				item: "theabyss:aurel_powder"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -10.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
 			id: "7A2A7C35BCBC092F"
-			rewards: [{
-				count: 10
-				id: "533264BC59CE3301"
-				item: "create:golden_sheet"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "7EF2EE1A88E805DD"
+					item: {
+						Count: 1
+						id: "theabyss:caverna_crystal"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5C4B4627C24F3F35"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -738,18 +716,29 @@
 				item: "theabyss:caverna_powder"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -10.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
 			id: "21E55AEF1B8DCD4A"
-			rewards: [{
-				count: 10
-				id: "49023898C3C27961"
-				item: "createaddition:electrum_sheet"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "3D643CBC677C4664"
+					item: {
+						Count: 1
+						id: "theabyss:crimson_crystal_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5E701D29C3CD1843"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -757,18 +746,29 @@
 				item: "theabyss:crimson_powder"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -10.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
 			id: "3AD209BC53C5BAD0"
-			rewards: [{
-				count: 10
-				id: "4165F12534E1B443"
-				item: "create:sturdy_sheet"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "3EBF97D5131E6889"
+					item: {
+						Count: 1
+						id: "theabyss:ender_crystal_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0AABC6C867731805"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -776,18 +776,29 @@
 				item: "theabyss:ender_powder"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -10.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
 			id: "2FA988EFA360DFB6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "76C817D024F0DC9D"
-				table_id: 8377692837458490033L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "21D580FF15BABA29"
+					item: {
+						Count: 1
+						id: "theabyss:roka_horn"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "64353A4AF0E79E42"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -795,7 +806,7 @@
 				item: "theabyss:fear_powder"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -10.0d
 			y: 4.5d
 		}
 		{
@@ -803,21 +814,27 @@
 			id: "371D4BD398A711E0"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "34580B9778AF7143"
-					table_id: 5864491233161153354L
-					type: "loot"
-				}
-				{
 					id: "66D6C0BD94C57A50"
 					type: "xp_levels"
 					xp_levels: 2
 				}
 				{
-					exclude_from_claim_all: true
-					id: "3553A2BBED035F1B"
-					table_id: 9128693189845719534L
-					type: "loot"
+					id: "02339CDBA2C861F1"
+					item: {
+						Count: 1
+						id: "theabyss:vitae_nugget"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "769F76531569B7BB"
+					item: {
+						Count: 1
+						id: "theabyss:loran"
+						tag: { }
+					}
+					type: "item"
 				}
 			]
 			shape: "rsquare"
@@ -827,7 +844,7 @@
 				item: "theabyss:ardor_powder"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -10.0d
 			y: -12.0d
 		}
 		{
@@ -835,15 +852,27 @@
 			id: "1D20FE9F26B50BEA"
 			rewards: [
 				{
-					count: 10
-					id: "01F384A483A9F560"
-					item: "minecraft:ender_pearl"
-					type: "item"
-				}
-				{
 					id: "2CB3B2618AE3A36F"
 					type: "xp_levels"
 					xp_levels: 2
+				}
+				{
+					id: "1ECF7FB5D8343C85"
+					item: {
+						Count: 1
+						id: "theabyss:caverna_powder"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "79522B234A119344"
+					item: {
+						Count: 1
+						id: "theabyss:roka_horn"
+						tag: { }
+					}
+					type: "item"
 				}
 			]
 			shape: "rsquare"
@@ -853,18 +882,29 @@
 				item: "theabyss:tenebris_powder"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -10.0d
 			y: -10.5d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
 			id: "0A881A8852237047"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "327916D6003EFC1A"
-				table_id: 5864491233161153354L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "0F90302BAB8B087E"
+					item: {
+						Count: 1
+						id: "theabyss:frost_crystal_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4D216AD75A633E0F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -872,18 +912,29 @@
 				item: "theabyss:frost_powder"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -10.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
 			id: "7CF0634CA3B39F02"
-			rewards: [{
-				count: 10
-				id: "56FFEB298668EEFB"
-				item: "create:brass_sheet"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "3B26425C4039F872"
+					item: {
+						Count: 1
+						id: "theabyss:hollow_crystal_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0E8E7F4E845EC75C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -891,18 +942,29 @@
 				item: "theabyss:hollow_powder"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -10.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
 			id: "6CD97749BA5EAF83"
-			rewards: [{
-				count: 10
-				id: "785CB44D2C4CFE60"
-				item: "create:copper_sheet"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "003003F27ECCBFF8"
+					item: {
+						Count: 1
+						id: "theabyss:vitae_nugget"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "720F5AD0EDAC2375"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -910,18 +972,29 @@
 				item: "theabyss:vit_powder"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -10.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["5AB5EC9F2BFB7C8A"]
 			id: "7CCD7D56B6B1F6B9"
-			rewards: [{
-				count: 10
-				id: "3342CFE992C72D49"
-				item: "apotheosis:gem_dust"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "59D0C87E9B30B847"
+					item: {
+						Count: 1
+						id: "theabyss:warped_crystal_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "28D2C169545570C0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -929,7 +1002,7 @@
 				item: "theabyss:warped_powder"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -10.0d
 			y: -4.5d
 		}
 		{
@@ -1088,8 +1161,350 @@
 				}
 				type: "item"
 			}]
-			x: 9.75d
-			y: -9.0d
+			x: 8.25d
+			y: -11.0d
+		}
+		{
+			dependencies: ["66A4C5E4A2DCED88"]
+			id: "150F553D998D4268"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5EB8C25DDDE1C010"
+				item: {
+					Count: 1
+					id: "zoomers_armory:abyssal_smithing_template"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.345238095238116d
+			y: -6.452380952380935d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "theabyss:roka_crystal"
+				tag: { }
+			}
+			id: "64307B5F4A601638"
+			rewards: [
+				{
+					count: 3
+					id: "105320323189DF0C"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:ascended_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5AA59DC5440CE055"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:ascended_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3461051FF16F19F8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "315455A0DC480159"
+					item: {
+						Count: 1
+						id: "ze_apotheosis:godly_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3E430A6F2A4CDC35"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:protection_rune"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [{
+				entity: "theabyss:the_roka"
+				id: "6A8B64F6E0C18443"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Roka"
+			x: 32.0d
+			y: -7.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "theabyss:magician_crystal"
+				tag: { }
+			}
+			id: "247D0FC624589457"
+			rewards: [
+				{
+					id: "2C9DE770486DFBD4"
+					item: {
+						Count: 1
+						id: "ze_apotheosis:godly_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "511D1F86C23F48BC"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:ascended_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5255863B0CE112E2"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:ascended_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "297C116302DA0A6D"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:protection_rune"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "35FE0A1DB8A4582D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [{
+				entity: "theabyss:magician"
+				id: "7195E2EB8A8FA19A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Magician"
+			x: 29.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "theabyss:abyssaur_crystal"
+				tag: { }
+			}
+			id: "1E510ED72B821C71"
+			rewards: [
+				{
+					count: 3
+					id: "7202776EB80EF900"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:ascended_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2EBDA461984EB69F"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:protection_rune"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0C4A24DC9A931D7E"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:ascended_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "07E9D5349A951A78"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "70599271BF058B1C"
+					item: {
+						Count: 1
+						id: "ze_apotheosis:godly_material"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [{
+				entity: "theabyss:abyssaur"
+				id: "7A5680057F3D0D40"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Abyssaur"
+			x: 21.0d
+			y: -7.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "theabyss:elder_crystal"
+				tag: { }
+			}
+			id: "1CE1141DAF8CC7D7"
+			rewards: [
+				{
+					id: "0ED6042DF96682C2"
+					item: {
+						Count: 1
+						id: "ze_apotheosis:godly_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2FB9A6FDCA921CE3"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:ascended_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3FABD607498D0D36"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:ascended_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3FAAC3CB6DEF84E1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 3
+					id: "7B5260A93F580673"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:protection_rune"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [{
+				entity: "theabyss:elder"
+				id: "7DF8FFE7FB9A7FE0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Elder"
+			x: 23.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "theabyss:crystal_golem_crystal"
+				tag: { }
+			}
+			id: "7F7B2BF1EE250431"
+			rewards: [
+				{
+					count: 3
+					id: "3ED60F3FDEFB159F"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:ascended_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "336E7565F34557D1"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:ascended_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "336A82C4D780F2DC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "253E7D55EBAFC994"
+					item: {
+						Count: 1
+						id: "ze_apotheosis:godly_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4FBBB4A8BC0E71C5"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:protection_rune"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [{
+				entity: "theabyss:crystal_golem"
+				id: "604A051AA3A0CD26"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Crystal Golemn"
+			x: 26.5d
+			y: -12.0d
 		}
 	]
 	title: "&0Abyssal&r"

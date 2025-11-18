@@ -388,6 +388,14 @@
 			description: [
 				"&2In the nether find a cube like arena that houses the Nether Gauntlet Boss.&r"
 				"&2Mine the block in the middle of the arena to start the encounter.&r"
+				""
+				""
+				""
+				"{image:vahmas_creator_pack:textures/gui/boss_gauntlet_outer.png width:150 height:100 align:1 fit:true}"
+				""
+				""
+				""
+				"{image:vahmas_creator_pack:textures/gui/boss_gauntlet_inner.png width:150 height:100 align:1 fit:true}"
 			]
 			icon: {
 				Count: 1

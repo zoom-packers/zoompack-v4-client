@@ -517,6 +517,9 @@
 			description: [
 				"&2Found in caves. To activate the boss you need a pickaxe.&r"
 				"&4Warning the fight requires a pickaxe and as such it is recommended you bring strength potions.&r"
+				""
+				""
+				"{image:vahmas_creator_pack:textures/gui/boss_bronze.png width:150 height:100 align:1 fit:true}"
 			]
 			icon: "minecraft:cobblestone"
 			id: "7F2F6FEF5EE62FB0"
@@ -596,6 +599,9 @@
 			description: [
 				"&2Found in temples around the aether.&r"
 				"&2Obtain 10 victory medals from the valkyr warriors around the temple to activate the encounter.&r"
+				""
+				""
+				"{image:vahmas_creator_pack:textures/gui/boss_silver.png width:150 height:100 align:1 fit:true}"
 			]
 			icon: "aether:music_disc_ascending_dawn"
 			id: "7851AE5F185EA4EF"
@@ -656,6 +662,9 @@
 			description: [
 				"&2Found in caves around the aether talk to him to enrage him and activate the encounter.&r"
 				"&4Warning very difficult encounter.&r"
+				""
+				""
+				"{image:vahmas_creator_pack:textures/gui/boss_gold.png width:150 height:100 align:1 fit:true}"
 			]
 			icon: "minecraft:blaze_powder"
 			id: "1EB33191AC23D02E"
@@ -716,6 +725,9 @@
 			description: [
 				"&2Find the platinum dungeon located in the aether and challenge the whale king, the final boss of the dimension.&r"
 				"&4Warning! Extreme difficuly!&r"
+				""
+				""
+				"{image:vahmas_creator_pack:textures/gui/boss_whale.png width:150 height:100 align:1 fit:true}"
 			]
 			icon: {
 				Count: 1

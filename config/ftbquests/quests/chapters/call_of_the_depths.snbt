@@ -190,7 +190,7 @@
 			height: 3.0d
 			image: "callfromthedepth_:textures/particle/energysword.png"
 			rotation: 0.0d
-			width: 3.0d
+			width: 4.0d
 			x: 7.821428571428584d
 			y: 2.4761904761904816d
 		}
@@ -455,6 +455,11 @@
 				}
 			}
 			id: "5D96CB89DCF24FEA"
+			rewards: [{
+				id: "2C0DFA833D339765"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [
@@ -488,6 +493,11 @@
 				}
 			}
 			id: "6A38607794FF7CD4"
+			rewards: [{
+				id: "6763AEFD18A97067"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [
@@ -521,6 +531,11 @@
 				}
 			}
 			id: "4B29CD5F0D574EFD"
+			rewards: [{
+				id: "0B7C156CD4B2B864"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [
@@ -547,12 +562,74 @@
 		}
 		{
 			dependencies: ["5D96CB89DCF24FEA"]
+			description: [
+				""
+				"{image:vahmas_creator_pack:textures/gui/boss_agony.png width:150 height:100 align:1 fit:true}"
+			]
 			icon: {
 				Count: 1
 				id: "callfromthedepth_:soulofagony"
 				tag: { }
 			}
 			id: "52AE7EB83913E988"
+			rewards: [
+				{
+					id: "020414D3541D4425"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "48C754E9954531C8"
+					item: {
+						Count: 1
+						id: "ze_apotheosis:angelic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4D5D614BA7A9BC73"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:mythic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6EED7ACE7BE6EF64"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:protection_rune"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1587E4C1D0EA70B3"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:legendary_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0812312CCC2BE688"
+					table_id: 1795669360551144285L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "531061E0BABE6CA6"
+					table_id: 1610080839990707444L
+					type: "choice"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -567,12 +644,74 @@
 		}
 		{
 			dependencies: ["6A38607794FF7CD4"]
+			description: [
+				""
+				"{image:vahmas_creator_pack:textures/gui/boss_marble.png width:150 height:100 align:1 fit:true}"
+			]
 			icon: {
 				Count: 1
 				id: "callfromthedepth_:soulofsorrow"
 				tag: { }
 			}
 			id: "788B21F5670B196E"
+			rewards: [
+				{
+					id: "30E26CC2AE5EE72C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "76569BAABA03C0CD"
+					item: {
+						Count: 1
+						id: "ze_apotheosis:angelic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "225988EA8C2D8B86"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:mythic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "03F33398B9675EAE"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:legendary_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "114D2DCBCAFB9021"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:protection_rune"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13EA382B3980BFD2"
+					table_id: 1795669360551144285L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44EB072ED9C30FA7"
+					table_id: 1610080839990707444L
+					type: "choice"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -587,12 +726,74 @@
 		}
 		{
 			dependencies: ["4B29CD5F0D574EFD"]
+			description: [
+				""
+				"{image:vahmas_creator_pack:textures/gui/boss_depths_spawn.png width:150 height:100 align:1 fit:true}"
+			]
 			icon: {
 				Count: 1
 				id: "callfromthedepth_:soulofabyss"
 				tag: { }
 			}
 			id: "11A69FC534FDF785"
+			rewards: [
+				{
+					id: "3075C42D9414B946"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6B79E7FEF40C0964"
+					item: {
+						Count: 1
+						id: "ze_apotheosis:angelic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "136B444F72E5368C"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:mythic_material"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2BD2FCF56E6A4F67"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:legendary_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "498A30BE9E4B0D12"
+					item: {
+						Count: 1
+						id: "fortunas_anvil:protection_rune"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20BB94EE5907508F"
+					table_id: 1795669360551144285L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67CCB6BD3A4BFC77"
+					table_id: 1610080839990707444L
+					type: "choice"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -608,6 +809,23 @@
 		{
 			dependencies: ["58F809034FC1B7B2"]
 			id: "59A1FB47BE318E72"
+			rewards: [
+				{
+					count: 4
+					id: "7366CCED84C5C241"
+					item: {
+						Count: 1
+						id: "callfromthedepth_:immemorial_debris"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "78652AE1C7F2C9FE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -623,24 +841,30 @@
 			y: -1.5d
 		}
 		{
-			id: "7E973001F11F0767"
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "0C6B169DAE994BFB"
-				item: {
-					Count: 1
-					id: "callfromthedepth_:marble_ore"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 1.5d
-			y: 5.25d
-		}
-		{
-			dependencies: ["7E973001F11F0767"]
+			dependencies: ["234775FDF6889C64"]
+			icon: {
+				Count: 1
+				id: "callfromthedepth_:marble_ore"
+				tag: { }
+			}
 			id: "64A87893614C3837"
+			rewards: [
+				{
+					id: "526AD881ED2606CC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "0422F2C44D3BEC41"
+					item: {
+						Count: 1
+						id: "callfromthedepth_:marble_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "Second tier depths material"
@@ -654,11 +878,28 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 7.5d
+			y: 2.25d
 		}
 		{
 			dependencies: ["58F809034FC1B7B2"]
 			id: "153A9843AF7B3925"
+			rewards: [
+				{
+					count: 2
+					id: "04F33ACB9CED2361"
+					item: {
+						Count: 1
+						id: "callfromthedepth_:immemorialscrap"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2B23056AF517C031"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -676,6 +917,22 @@
 		{
 			dependencies: ["153A9843AF7B3925"]
 			id: "234775FDF6889C64"
+			rewards: [
+				{
+					id: "05BF210AEF223B99"
+					item: {
+						Count: 1
+						id: "callfromthedepth_:immemorialingot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6344B120C2CFAEFF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "First tier depths material"
@@ -694,6 +951,23 @@
 		{
 			dependencies: ["58F809034FC1B7B2"]
 			id: "68BD2B678EB1A3C2"
+			rewards: [
+				{
+					count: 3
+					id: "2D9772A6B3C68609"
+					item: {
+						Count: 1
+						id: "callfromthedepth_:immemorialscrap"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0001D2CCF41536CF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -711,6 +985,11 @@
 		{
 			dependencies: ["58F809034FC1B7B2"]
 			id: "5BBCA96D79489C14"
+			rewards: [{
+				id: "3AAB5C1C47644D9B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -727,6 +1006,11 @@
 		}
 		{
 			id: "3F2844A0E45FF9CE"
+			rewards: [{
+				id: "746279EF5B070F5C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [{
@@ -747,8 +1031,14 @@
 				"5BBCA96D79489C14"
 			]
 			id: "69621FDBC6C96F70"
-			shape: "square"
-			size: 1.5d
+			rewards: [{
+				id: "4A8971DF9CC671DC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&5Once a boss has been defeated use its soul here&r"
 			tasks: [{
 				id: "62B8C6C242568FBD"
 				item: {
@@ -758,12 +1048,18 @@
 				}
 				type: "item"
 			}]
+			title: "&fTransmutation stone&r"
 			x: -3.0d
 			y: 3.75d
 		}
 		{
 			dependencies: ["6A38607794FF7CD4"]
 			id: "074CED58335EAF33"
+			rewards: [{
+				id: "08EC5B1E776AB747"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
@@ -781,6 +1077,22 @@
 		{
 			dependencies: ["3F2844A0E45FF9CE"]
 			id: "7E059271BF9CCF9E"
+			rewards: [
+				{
+					id: "0A2F8E99C13A37C4"
+					item: {
+						Count: 1
+						id: "callfromthedepth_:soulingot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6438128EA2B52DFF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -798,6 +1110,11 @@
 		{
 			dependencies: ["6239C669C8486D2F"]
 			id: "24C5783BEC010EE0"
+			rewards: [{
+				id: "3FBD9A061E658966"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -815,8 +1132,14 @@
 		{
 			dependencies: ["24C5783BEC010EE0"]
 			id: "6595B7A48F28A05F"
+			rewards: [{
+				id: "560FD3370D51E6D2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "Cool thingy"
 			tasks: [{
 				id: "69A4FB6E19873F65"
 				item: {
