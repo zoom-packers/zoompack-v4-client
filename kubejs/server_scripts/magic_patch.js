@@ -3,6 +3,8 @@ const CONFIG_DATA = { "Misc": { "rarityConfig": [0.6, 0.3, 0.05, 0.025, 0.005], 
 var spellMaxLevels = {};
 var bannedSpells = [];
 
+var FIRECRACKERS_MAP = {};
+
 let magicPmmoAPIUtils = Java.loadClass('harmonised.pmmo.api.APIUtils');
 
 for (var spellId in CONFIG_DATA.Spells) {
@@ -34,12 +36,12 @@ function tpPlayer(server, dimension, player_name, x, y, z) {
 }
 
 function playerBlockSpellMessage(server, player_name) {
-    
+
     server.runCommandSilent(`/immersivemessages popup ${player_name} 3 "Not Strong enough for this spell" This Spell might not be castable`);
 }
 
 function playerBlockCappedSpellMessage(server, player_name) {
-    server.runCommandSilent(`/immersivemessages popup ${player_name} 3 "Not Strong enough for this spell" This Spell can nott be casted in such powerful manner`);
+    server.runCommandSilent(`/immersivemessages popup ${player_name} 3 "Not Strong enough for this spell" This Spell can not be casted in such powerful manner`);
 }
 
 
@@ -47,11 +49,16 @@ function playerNotSkilledEnoughForSpell(server, player_name, playerLevel, requir
     server.runCommandSilent(`/immersivemessages popup ${player_name} 3 "Not Strong enough for this spell" This Spell requires Magic lvl ${requiredLevel}. You only have ${playerLevel}`);
 }
 
+function boostPlayerFlight(player){
+    player.boostElytraFlight();
+    player.hurtMarked = true;
+}
+
 PlayerEvents.spellOnCast(event => {
     let spellId = event.getSpellId();
+    const { player, server } = event;
     if (spellId == "irons_spellbooks:recall") {
 
-        const { player } = event;
         let player_name = player.name.string;
         let server = event.server;
 
@@ -67,14 +74,22 @@ PlayerEvents.spellOnCast(event => {
         }
 
         event.cancel();
-    };
+    }
+    if (spellId == "irons_spellbooks:firecracker") {
+        if(FIRECRACKERS_MAP[player.name.string]){
+            if(FIRECRACKERS_MAP[player.name.string]==1){
+                FIRECRACKERS_MAP[player.name.string] = 0;
+                event.cancel();
+            }
+        }
+    }
+    
 })
 
 PlayerEvents.spellPreCast(event => {
     let spellId = event.getSpellId();
     let spellLevel = event.getSpellLevel();
-    let server = event.server;
-    const { player } = event;
+    const { player, server } = event;
     let player_name = player.name.string;
 
     if (bannedSpells.includes(spellId)) {
@@ -93,6 +108,22 @@ PlayerEvents.spellPreCast(event => {
     if (spellLevel > 1 && playerMagicLevel < (spellLevel - 1) * 5) {
         playerNotSkilledEnoughForSpell(server, player_name, playerMagicLevel, requiredLevel);
         event.cancel();
+    }
+
+    if (spellId == "irons_spellbooks:firecracker") {
+        let spellLevel = event.getSpellLevel();
+        if (player.isFallFlying()) {
+            for (let i = 0; i < spellLevel; i++) {
+                server.scheduleInTicks(i + 1, callback => {
+                    boostPlayerFlight(player)
+                })
+
+            }
+            server.runCommandSilent(`execute as ${player.name.string} run summon firework_rocket ~ ~1 ~ {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:0}}}}`)
+            boostPlayerFlight(player);
+            FIRECRACKERS_MAP[player.name.string] = 1;
+            // event.cancel();
+        }
     }
 
 });

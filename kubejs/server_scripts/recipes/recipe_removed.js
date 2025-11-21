@@ -6,4 +6,5 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'minecraft:diamond_block', input: "minecraft:emerald_block" })
     event.remove({ output: 'sophisticatedbackpacks:inception_upgrade' })
     event.remove({ output: 'theabyss:ring_of_flight' })
+    event.remove({ output: 'betternether:quartz_glass', input: "minecraft:quartz" })
 })

@@ -508,6 +508,10 @@
 				""
 				"{image:kubejs:item/tier_10_knockback_resistance_power_up width:100 height:100 align:1}"
 				""
+				"In case you want to extract the power up/trim from an armor piece, just craft a &9&lTome Of Cleansing&r&r and use them in an anvil with the item."
+				""
+				"{image:kubejs:item/tome_of_cleansing width:25 height:25 align:1}"
+				""
 				""
 				"{image:biomesoplenty:block/pus_bubble width:50 height:50 align:1}"
 			]
@@ -1145,6 +1149,41 @@
 			}]
 			x: 5.0d
 			y: 0.0d
+		}
+		{
+			description: [
+				"&6&lDamage Toggle!&r&r"
+				""
+				"One of the most useful features of the game!"
+				""
+				"How to toggle?"
+				"Just run &o&b/toggle_damage&r&r in the chat"
+				""
+				"&d&lWhy to toggle off your damage:&r&r"
+				"- Spell dependent damage nullification"
+				"- Practice"
+				"- No harming zones"
+				"- Sensible entities around"
+				""
+				""
+				"{image:biomesoplenty:block/pus_bubble width:50 height:50 align:1}"
+			]
+			icon: {
+				Count: 1
+				id: "endermanoverhaul:corrupted_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "02CFE600616B5485"
+			subtitle: "&2&lON/OFF&r&r"
+			tasks: [{
+				id: "0A7890560534B137"
+				title: "Toggle Damage"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.0d
 		}
 	]
 	title: "Tips \\& Tricks"

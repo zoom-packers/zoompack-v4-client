@@ -7,42 +7,92 @@
         {
             "attribute":"minecraft:generic.max_health",
             "operation": "MULTIPLY_BASE",
-            "amount": 1800
+            "amount": 3600
         },
         {
             "attribute":"minecraft:generic.attack_damage",
             "operation": "MULTIPLY_BASE",
-            "amount": 150
+            "amount": 300
         },
         {
             "attribute":"projectile_damage:generic",
             "operation": "ADDITION",
-            "amount": 24
+            "amount": 48
         },
         {
             "attribute":"projectile_damage:generic",
             "operation": "MULTIPLY_BASE",
-            "amount": 261
+            "amount": 522
         },
         {
             "attribute":"minecraft:generic.armor",
             "operation": "ADDITION",
-            "amount": 15
+            "amount": 30
         },
         {
             "attribute":"minecraft:generic.armor_toughness",
             "operation": "ADDITION",
-            "amount": 5
+            "amount": 10
         },
         {
             "attribute":"minecraft:generic.armor",
             "operation": "MULTIPLY_TOTAL",
-            "amount": 45
+            "amount": 90
         },
         {
             "attribute":"minecraft:generic.armor_toughness",
             "operation": "MULTIPLY_TOTAL",
-            "amount": 45
+            "amount": 90
+        },
+        {
+            "attribute":"irons_spellbooks:blood_spell_power",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": 200
+        },
+        {
+            "attribute":"irons_spellbooks:ender_spell_power",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": 200
+        },
+        {
+            "attribute":"irons_spellbooks:evocation_spell_power",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": 200
+        },
+        {
+            "attribute":"irons_spellbooks:fire_spell_power",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": 200
+        },
+        {
+            "attribute":"irons_spellbooks:holy_spell_power",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": 200
+        },
+        {
+            "attribute":"irons_spellbooks:ice_spell_power",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": 200
+        },
+        {
+            "attribute":"irons_spellbooks:lightning_spell_power",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": 200
+        },
+        {
+            "attribute":"irons_spellbooks:nature_spell_power",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": 200
+        },
+        {
+            "attribute":"irons_spellbooks:spell_power",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": 200
+        },
+        {
+            "attribute":"irons_spellbooks:spell_resist",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": 0.45
         }
     ],
     "mob_modifier": {},

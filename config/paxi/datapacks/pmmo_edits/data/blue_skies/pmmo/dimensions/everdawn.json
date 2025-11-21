@@ -23,6 +23,56 @@
             "attribute":"minecraft:generic.armor",
             "operation": "ADDITION",
             "amount": 6
+        },
+        {
+            "attribute":"irons_spellbooks:blood_spell_power",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": 60
+        },
+        {
+            "attribute":"irons_spellbooks:ender_spell_power",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": 60
+        },
+        {
+            "attribute":"irons_spellbooks:evocation_spell_power",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": 60
+        },
+        {
+            "attribute":"irons_spellbooks:fire_spell_power",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": 60
+        },
+        {
+            "attribute":"irons_spellbooks:holy_spell_power",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": 60
+        },
+        {
+            "attribute":"irons_spellbooks:ice_spell_power",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": 60
+        },
+        {
+            "attribute":"irons_spellbooks:lightning_spell_power",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": 60
+        },
+        {
+            "attribute":"irons_spellbooks:nature_spell_power",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": 60
+        },
+        {
+            "attribute":"irons_spellbooks:spell_power",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": 60
+        },
+        {
+            "attribute":"irons_spellbooks:spell_resist",
+            "operation": "MULTIPLY_TOTAL",
+            "amount": 0.15
         }
     ],
     "mob_modifier": {},

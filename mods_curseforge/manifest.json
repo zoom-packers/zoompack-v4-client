@@ -1662,7 +1662,7 @@
             "required": true
         },
         {
-            "fileID": 7186172,
+            "fileID": 7212151,
             "projectID": 1078535,
             "required": true
         },
@@ -2285,6 +2285,16 @@
             "fileID": 4755295,
             "projectID": 429926,
             "required": true
+        },
+        {
+            "fileID": 6168001,
+            "projectID": 941802,
+            "required": true
+        },
+        {
+            "fileID": 4862132,
+            "projectID": 307788,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",
@@ -2300,5 +2310,5 @@
     },
     "name": "Zoompack 4",
     "overrides": "overrides",
-    "version": "3.0.0"
+    "version": "3.0.5"
 }
