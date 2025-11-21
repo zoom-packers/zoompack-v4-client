@@ -1,6 +1,6 @@
 let LIMIT_MAP = {
     'theabyss:frost_world': {
-        'theabyss:seeker': 20
+        'theabyss:seeker': 5
     }
 }
 
