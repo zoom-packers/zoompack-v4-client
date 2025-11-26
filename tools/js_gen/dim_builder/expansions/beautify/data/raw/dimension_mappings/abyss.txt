@@ -33,4 +33,4 @@ ethrium:rustic_church
 explorify:badlands_pyramids
 explorify:ruins
 structory:ruin
-trials:trials_chambers
+minecraft_121_update:minecraft_121_update_chambers

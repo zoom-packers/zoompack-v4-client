@@ -418,7 +418,6 @@ function modifySophisticatedStorage() {
 }
 
 function modifyCreate() {
-    processor.modifyPlaceBlockRequirements("trials", "crafter", "engineering", 2);
 
     processor.modifyPlaceBlockRequirements("create", "hand_crank", "engineering", 3);
     processor.modifyPlaceBlockRequirements("create", "mysterious_cuckoo_clock", "engineering", 3);

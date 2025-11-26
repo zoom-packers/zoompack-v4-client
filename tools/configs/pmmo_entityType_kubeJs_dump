@@ -147,9 +147,9 @@ tombstone:grave_guardian
 tombstone:cloud
 tombstone:spectral_bite
 tombstone:spectral_wolf
-trials:bogged
-trials:breeze
-trials:wind_charge
+minecraft_121_update:bogged
+minecraft_121_update:breeze
+minecraft_121_update:wind_charge
 mutantmonsters:creeper_minion
 mutantmonsters:mutant_creeper
 mutantmonsters:mutant_enderman

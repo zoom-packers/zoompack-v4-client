@@ -519,18 +519,6 @@
 		}
 		{
 			dependencies: ["45C50C211CE48769"]
-			id: "14C668E18389206F"
-			shape: "square"
-			tasks: [{
-				id: "493A8400C57F6580"
-				item: "trials:crafter"
-				type: "item"
-			}]
-			x: -42.19047619047611d
-			y: 5.4166666666667425d
-		}
-		{
-			dependencies: ["45C50C211CE48769"]
 			icon: "minecraft:redstone_block"
 			id: "36A539D6A418526A"
 			rewards: [{
@@ -1363,7 +1351,7 @@
 		}
 		{
 			dependencies: ["18D5D6C9BBA42316"]
-			icon: "trials:trial_vault_ominous"
+			icon: "minecraft_121_update:trial_vault_ominous"
 			id: "2CE4309590602786"
 			rewards: [
 				{

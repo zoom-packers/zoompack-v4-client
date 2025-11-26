@@ -1002,7 +1002,6 @@ let techProgMilestones = [
 
 let lockedBlocksPmmoLevels = {
     // Create
-    "trials:crafter": 2,
 
     "create:hand_crank": 3,
     "create:mysterious_cuckoo_clock": 3,

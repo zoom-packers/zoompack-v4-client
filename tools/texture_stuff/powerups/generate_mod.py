@@ -636,8 +636,6 @@ trims = [
     "minecraft:wayfinder_armor_trim_smithing_template",
     "minecraft:wild_armor_trim_smithing_template",
     "minecraft:silence_armor_trim_smithing_template",
-    "trials:bolt_template",
-    "trials:flow_template",
     "kobolds:kobold_template",
     "blue_skies:banished_armor_trim_smithing_template",
     "blue_skies:thwarted_armor_trim_smithing_template",

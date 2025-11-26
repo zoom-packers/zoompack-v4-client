@@ -33,7 +33,7 @@ simply_houses:chests/plains_mansion/plains_mansion_normal
 blue_skies:chests/gatekeeper_house/snowy
 minecraft:chests/end_city_treasure
 betternether:blocks/nether_reed_chest
-trials:chests/tower_loot
+minecraft_121_update:chests/tower_loot
 letsdoaddon-structures:chests/barn
 bakery:chests/pillager_outpost
 dungeoncrawl:chests/library
