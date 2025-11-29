@@ -127,14 +127,14 @@ new_default_trade('banker', ('dotcoinmod:diamond_coin', 64), ('kubejs:difficulty
 
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 5), ('minecraft:ender_pearl', 1), 1, 1)
 new_map_trade('banker', ('dotcoinmod:bronze_coin', 49), ('minecraft:filled_map', 1), 1, 1, structure_id="blue_skies:gatekeeper_houses")
-new_default_trade('banker', ('dotcoinmod:bronze_coin', 10), ('minecraft_121_update:trial_key', 1), 1, 1)
+new_default_trade('banker', ('dotcoinmod:bronze_coin', 10), ('trials:trial_key', 1), 1, 1)
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 30), ('minecraft:emerald', 1), 1, 1)
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 32), ('blue_skies:blinding_key', 1), 2, 2)
-new_default_trade('banker', ('dotcoinmod:bronze_coin', 34), ('minecraft_121_update:ominous_key', 1), 1, 1)
+new_default_trade('banker', ('dotcoinmod:bronze_coin', 34), ('trials:trial_key_ominous', 1), 1, 1)
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 48), ('minecraft:iron_ingot', 1), 1, 1)
 new_default_trade('banker', ('dotcoinmod:bronze_coin', 60), ('blue_skies:nature_key', 1), 2, 2)
 new_default_trade('banker', ('dotcoinmod:silver_coin', 1), ('blue_skies:poison_key', 1), 2, 2, additional_request=('dotcoinmod:bronze_coin', 26))
-new_default_trade('banker', ('dotcoinmod:silver_coin', 1), ('minecraft_121_update:ominous_bottle', 1), 1, 1)
+new_default_trade('banker', ('dotcoinmod:silver_coin', 1), ('trials:ominous_bottle', 1), 1, 1)
 new_default_trade('banker', ('dotcoinmod:silver_coin', 2), ('minecraft:diamond', 1), 1, 1)
 #sell
 new_default_trade('banker', ('dotcoinmod:silver_coin', 2), ('aether:victory_medal', 1), 1, 1)

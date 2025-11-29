@@ -14,6 +14,8 @@ ServerEvents.tags('item', event => {
 		event.add('forge:trim_templates', 'minecraft:wayfinder_armor_trim_smithing_template');
 		event.add('forge:trim_templates', 'minecraft:wild_armor_trim_smithing_template');
 		event.add('forge:trim_templates', 'minecraft:silence_armor_trim_smithing_template');
+		event.add('forge:trim_templates', 'trials:bolt_template');
+		event.add('forge:trim_templates', 'trials:flow_template');
 		event.add('forge:trim_templates', 'kobolds:kobold_template');
 		event.add('forge:trim_templates', 'blue_skies:banished_armor_trim_smithing_template');
 		event.add('forge:trim_templates', 'blue_skies:thwarted_armor_trim_smithing_template');
