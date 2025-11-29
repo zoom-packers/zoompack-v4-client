@@ -134,7 +134,7 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft_121_update:trial_key",
+        "itemKey": "trials:trial_key",
         "amount": 1
       },
       "request": {
@@ -182,7 +182,7 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft_121_update:ominous_key",
+        "itemKey": "trials:trial_key_ominous",
         "amount": 1
       },
       "request": {
@@ -194,7 +194,7 @@
       "priceMultiplier": 0.0,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "spacecatcustomprofessions:banker_ominous_key_for_bronze_coin"
+      "UTID": "spacecatcustomprofessions:banker_trial_key_ominous_for_bronze_coin"
     },
     {
       "offer": {
@@ -250,7 +250,7 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft_121_update:ominous_bottle",
+        "itemKey": "trials:ominous_bottle",
         "amount": 1
       },
       "request": {

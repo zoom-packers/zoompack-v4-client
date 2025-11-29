@@ -42,4 +42,4 @@ ethrium:catacombs
 explorify:badlands_pyramids
 explorify:ruins
 structory:ruin
-minecraft_121_update:minecraft_121_update_chambers
+trials:trials_chambers
